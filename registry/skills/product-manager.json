@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "product-manager",
+    "name": "Product Manager",
+    "description": "Build products users love with discovery, prioritization, roadmapping, and cross-functional leadership.",
+    "summary": "Product Management Rules Discovery - Talk to users weekly — not just at project kickoff - Watch behavior, don't just collect opinions — users say one thing, do another - Problem validation before solution validation — ar",
+    "repositoryPath": "skills/product-manager",
+    "manifestPath": "registry/skills/product-manager.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/product-manager/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/product-manager/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/SKILL.md"
+    }
+  ]
+}

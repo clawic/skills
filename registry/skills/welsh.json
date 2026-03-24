@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "welsh",
+    "name": "Welsh",
+    "description": "Write Welsh that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Welsh is technically correct but sounds off. Too formal. Too literary. Natives write more casually, mixing with English naturally. Match that. Formality Default Default register is too high. Casual We",
+    "repositoryPath": "skills/welsh",
+    "manifestPath": "registry/skills/welsh.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/welsh/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/welsh/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/welsh/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/welsh/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cameras",
+    "name": "Cameras",
+    "description": "Connect to security cameras, capture snapshots, and process video feeds with protocol support.",
+    "version": "1.0.1",
+    "summary": "Scope This skill: - ✅ Generates camera capture commands - ✅ Guides integration with security systems - ✅ Provides troubleshooting for camera issues **User-driven model:** - User provides camera credentials (RTSP URLs, pa",
+    "repositoryPath": "skills/cameras",
+    "manifestPath": "registry/skills/cameras.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cameras/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/_meta.json"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/cameras/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/capture.md"
+    },
+    {
+      "path": "photography-control.md",
+      "downloadPath": "skills/cameras/photography-control.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/photography-control.md"
+    },
+    {
+      "path": "processing.md",
+      "downloadPath": "skills/cameras/processing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/processing.md"
+    },
+    {
+      "path": "security-integration.md",
+      "downloadPath": "skills/cameras/security-integration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/security-integration.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cameras/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/SKILL.md"
+    }
+  ]
+}

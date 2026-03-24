@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "friends",
+    "name": "Friends",
+    "description": "Build a personal friendship system with interaction tracking, relationship health, and proactive maintenance reminders.",
+    "summary": "Situation Detection | Context | Load | |---------|------| | Making new friends, expanding circle | `making.md` | | Strengthening existing friendships | `deepening.md` | | Handling disagreements, hurt feelings | `conflict",
+    "repositoryPath": "skills/friends",
+    "manifestPath": "registry/skills/friends.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/friends/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/_meta.json"
+    },
+    {
+      "path": "conflicts.md",
+      "downloadPath": "skills/friends/conflicts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/conflicts.md"
+    },
+    {
+      "path": "deepening.md",
+      "downloadPath": "skills/friends/deepening.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/deepening.md"
+    },
+    {
+      "path": "making.md",
+      "downloadPath": "skills/friends/making.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/making.md"
+    },
+    {
+      "path": "reconnecting.md",
+      "downloadPath": "skills/friends/reconnecting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/reconnecting.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/friends/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friends/SKILL.md"
+    }
+  ]
+}

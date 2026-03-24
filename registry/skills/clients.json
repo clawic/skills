@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "clients",
+    "name": "Clients",
+    "description": "Build a personal client system for tracking relationships, projects, documents, and history.",
+    "summary": "Core Behavior - User mentions client → offer to create/update profile - User needs context → surface relevant history - User shares document → help associate to client - Create `~/clients/` as workspace File Structure ``",
+    "repositoryPath": "skills/clients",
+    "manifestPath": "registry/skills/clients.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/clients/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/clients/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/SKILL.md"
+    }
+  ]
+}

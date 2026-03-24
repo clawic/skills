@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "scrape",
+    "name": "Scrape",
+    "description": "Legal web scraping with robots.txt compliance, rate limiting, and GDPR/CCPA-aware data handling.",
+    "summary": "Pre-Scrape Compliance Checklist Before writing any scraping code: 1. **robots.txt** — Fetch `{domain}/robots.txt`, check if target path is disallowed. If yes, stop. 2. **Terms of Service** — Check `/terms`, `/tos`, `/leg",
+    "repositoryPath": "skills/scrape",
+    "manifestPath": "registry/skills/scrape.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/scrape/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/_meta.json"
+    },
+    {
+      "path": "code.md",
+      "downloadPath": "skills/scrape/code.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/code.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/scrape/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/SKILL.md"
+    }
+  ]
+}

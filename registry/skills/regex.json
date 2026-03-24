@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "regex",
+    "name": "Regex",
+    "description": "Write correct, efficient regular expressions across different engines.",
+    "summary": "Greedy vs Lazy - `.*` is greedy—matches as much as possible; `.*?` is lazy—matches minimum - Greedy often overshoots: `<.*>` on `<a>b</a>` matches entire string, not `<a>` - Default quantifiers `+ * {n,}` are greedy—add ",
+    "repositoryPath": "skills/regex",
+    "manifestPath": "registry/skills/regex.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/regex/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/regex/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "app-store-connect",
+    "name": "App Store Connect",
+    "description": "Manage iOS apps, TestFlight builds, submissions, and analytics via App Store Connect API.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/app-store-connect",
+    "summary": "When to Use User needs to manage iOS/macOS apps on App Store Connect. Agent handles API authentication, build management, TestFlight distribution, App Review submissions, and analytics retrieval. Quick Reference | Topic ",
+    "repositoryPath": "skills/app-store-connect",
+    "manifestPath": "registry/skills/app-store-connect.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/app-store-connect/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/_meta.json"
+    },
+    {
+      "path": "api-auth.md",
+      "downloadPath": "skills/app-store-connect/api-auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/api-auth.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/app-store-connect/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/SKILL.md"
+    },
+    {
+      "path": "workflows.md",
+      "downloadPath": "skills/app-store-connect/workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/workflows.md"
+    }
+  ]
+}

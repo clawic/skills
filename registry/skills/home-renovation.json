@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "home-renovation",
+    "name": "Home Renovation",
+    "description": "Plan, budget, and manage home renovation projects including contractor coordination, timeline tracking, and cost estimation.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/home-renovation",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/home-renovation/` if it doesn't exist. When to Use User plans a home renovation or remodel. Agent tracks budgets, timelines, and contractor coordi",
+    "repositoryPath": "skills/home-renovation",
+    "manifestPath": "registry/skills/home-renovation.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/home-renovation/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/_meta.json"
+    },
+    {
+      "path": "contractors.md",
+      "downloadPath": "skills/home-renovation/contractors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/contractors.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/home-renovation/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/memory-template.md"
+    },
+    {
+      "path": "phases.md",
+      "downloadPath": "skills/home-renovation/phases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/phases.md"
+    },
+    {
+      "path": "projects.md",
+      "downloadPath": "skills/home-renovation/projects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/projects.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/home-renovation/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/home-renovation/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/SKILL.md"
+    }
+  ]
+}

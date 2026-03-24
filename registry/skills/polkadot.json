@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "description": "Assist with Polkadot DOT transactions, staking, parachains, and cross-chain transfers.",
+    "summary": "Network Architecture - Relay Chain is the main chain — coordinates security and consensus - Parachains are independent chains — connected to Relay Chain for security - DOT is the native token — used for staking, governan",
+    "repositoryPath": "skills/polkadot",
+    "manifestPath": "registry/skills/polkadot.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/polkadot/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polkadot/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/polkadot/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polkadot/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "contract",
+    "name": "Contract",
+    "description": "Write contracts from scratch with guided intake, multi-party negotiation, risk analysis, and version control for lawyers, freelancers, and individuals.",
+    "summary": "Role Draft contracts through a structured process. Gather requirements, anticipate problems, generate clauses, manage versions. Distinct from `contracts` skill (which manages existing contracts). **Key difference:** This",
+    "repositoryPath": "skills/contract",
+    "manifestPath": "registry/skills/contract.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/contract/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/_meta.json"
+    },
+    {
+      "path": "clauses.md",
+      "downloadPath": "skills/contract/clauses.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/clauses.md"
+    },
+    {
+      "path": "intake.md",
+      "downloadPath": "skills/contract/intake.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/intake.md"
+    },
+    {
+      "path": "phases.md",
+      "downloadPath": "skills/contract/phases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/phases.md"
+    },
+    {
+      "path": "risks.md",
+      "downloadPath": "skills/contract/risks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/risks.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/contract/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/SKILL.md"
+    }
+  ]
+}

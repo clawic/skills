@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "apple-health",
+    "name": "Apple Health",
+    "description": "Connect agents to Apple Health exports with MCP setup, schema validation, and privacy-safe analysis.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/apple-health",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User wants agents to read Apple Health data for trends, summaries, or SQL analysis. Agent handles export validation, MCP server wiring, and safe",
+    "repositoryPath": "skills/apple-health",
+    "manifestPath": "registry/skills/apple-health.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/apple-health/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/_meta.json"
+    },
+    {
+      "path": "fallback-cli.md",
+      "downloadPath": "skills/apple-health/fallback-cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/fallback-cli.md"
+    },
+    {
+      "path": "mcp-config.md",
+      "downloadPath": "skills/apple-health/mcp-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/mcp-config.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/apple-health/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/memory-template.md"
+    },
+    {
+      "path": "query-recipes.md",
+      "downloadPath": "skills/apple-health/query-recipes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/query-recipes.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/apple-health/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apple-health/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/SKILL.md"
+    }
+  ]
+}

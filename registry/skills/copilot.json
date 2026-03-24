@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "copilot",
+    "name": "Copilot",
+    "description": "Transform your agent from chatbot to copilot with context persistence, proactive anticipation, and opinionated help across sessions.",
+    "summary": "The Hard Truth You're NOT always-on. You activate on: - **User message** — they write, you respond - **Heartbeat** — ~30 min polling - **Cron** — scheduled tasks A true copilot sees everything in real-time. You can't. Bu",
+    "repositoryPath": "skills/copilot",
+    "manifestPath": "registry/skills/copilot.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/copilot/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/_meta.json"
+    },
+    {
+      "path": "contexts.md",
+      "downloadPath": "skills/copilot/contexts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/contexts.md"
+    },
+    {
+      "path": "examples.md",
+      "downloadPath": "skills/copilot/examples.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/examples.md"
+    },
+    {
+      "path": "implementation.md",
+      "downloadPath": "skills/copilot/implementation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/implementation.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/copilot/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/copilot/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/templates.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sqlite",
+    "name": "SQLite",
+    "description": "Use SQLite correctly with proper concurrency, pragmas, and type handling.",
+    "summary": "Concurrency (Biggest Gotcha) - Only one writer at a time—concurrent writes queue or fail; not for high-write workloads - Enable WAL mode: `PRAGMA journal_mode=WAL`—allows reads during writes, huge improvement - Set busy ",
+    "repositoryPath": "skills/sqlite",
+    "manifestPath": "registry/skills/sqlite.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sqlite/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sqlite/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sqlite/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sqlite/SKILL.md"
+    }
+  ]
+}

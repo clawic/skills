@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "self-evolving",
+    "name": "Self-Evolving",
+    "description": "Improve reusable agent workflows with reflective experiments, value checks, and local pattern memory.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/self-evolving",
+    "summary": "When to Use User wants the agent to improve a repeated workflow without blind self-rewrites. The skill handles local experiment logs, promotion of proven patterns, and explicit value gates before a new behavior becomes s",
+    "repositoryPath": "skills/self-evolving",
+    "manifestPath": "registry/skills/self-evolving.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/self-evolving/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/self-evolving/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/boundaries.md"
+    },
+    {
+      "path": "evolution-loop.md",
+      "downloadPath": "skills/self-evolving/evolution-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/evolution-loop.md"
+    },
+    {
+      "path": "experiments.md",
+      "downloadPath": "skills/self-evolving/experiments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/experiments.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/self-evolving/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory-template.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/self-evolving/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/self-evolving/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/self-evolving/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/SKILL.md"
+    }
+  ]
+}

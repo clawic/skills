@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "message",
+    "name": "Message",
+    "description": "Communicate across channels without social disasters, with escalation rules, tone calibration, and platform-aware formatting.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs to send messages on their behalf. Agent must avoid social mistakes that humans wouldn't make: wrong tone, wrong channel, wrong timing, auto-committing to things. Quick Reference | Topic | File | |-",
+    "repositoryPath": "skills/message",
+    "manifestPath": "registry/skills/message.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/message/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/_meta.json"
+    },
+    {
+      "path": "escalation.md",
+      "downloadPath": "skills/message/escalation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/escalation.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/message/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/platforms.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/message/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/SKILL.md"
+    },
+    {
+      "path": "tone.md",
+      "downloadPath": "skills/message/tone.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/tone.md"
+    }
+  ]
+}

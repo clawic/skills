@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "animations",
+    "name": "Animations",
+    "description": "Create performant web animations with proper accessibility and timing.",
+    "summary": "GPU-Accelerated Properties Only these properties animate on the compositor thread (60fps): | Property | Use | |----------|-----| | `transform` | Move, rotate, scale (translateX, rotate, scale) | | `opacity` | Fade in/out",
+    "repositoryPath": "skills/animations",
+    "manifestPath": "registry/skills/animations.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/animations/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/animations/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/animations/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/animations/SKILL.md"
+    }
+  ]
+}

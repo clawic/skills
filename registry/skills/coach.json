@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "coach",
+    "name": "Coach",
+    "description": "Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.",
+    "summary": "Core Approach - Coaching is about the client's agenda, not yours — ask what they want to achieve, don't assume - Focus on future and action, not past and analysis — \"What will you do?\" beats \"Why did that happen?\" - Assu",
+    "repositoryPath": "skills/coach",
+    "manifestPath": "registry/skills/coach.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/coach/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/coach/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "inspiration",
+    "name": "Inspiration",
+    "description": "Find design and AI art inspiration from curated galleries, screenshot libraries, and creative showcases.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/inspiration",
+    "summary": "Setup On first use, read `setup.md` for guidelines on helping users find the right references. When to Use User needs visual references, design inspiration, or examples for UI, landing pages, AI-generated images, or crea",
+    "repositoryPath": "skills/inspiration",
+    "manifestPath": "registry/skills/inspiration.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/inspiration/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/_meta.json"
+    },
+    {
+      "path": "ai-galleries.md",
+      "downloadPath": "skills/inspiration/ai-galleries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/ai-galleries.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/inspiration/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/memory-template.md"
+    },
+    {
+      "path": "mobile-screenshots.md",
+      "downloadPath": "skills/inspiration/mobile-screenshots.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/mobile-screenshots.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/inspiration/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/inspiration/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/inspiration/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/sources.md"
+    }
+  ]
+}

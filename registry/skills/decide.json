@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "decide",
+    "name": "Decide",
+    "description": "Self-learn your decision patterns to safely build its own decision-making over time.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/decide",
+    "summary": "Architecture Decision state lives in `~/decide/`. If that folder is missing or empty, run `setup.md`. ```text ~/decide/ ├── memory.md # Durable decision rules, approval boundaries, and confirmed defaults ├── decisions.md",
+    "repositoryPath": "skills/decide",
+    "manifestPath": "registry/skills/decide.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/decide/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/_meta.json"
+    },
+    {
+      "path": "components.md",
+      "downloadPath": "skills/decide/components.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/components.md"
+    },
+    {
+      "path": "confidence.md",
+      "downloadPath": "skills/decide/confidence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/confidence.md"
+    },
+    {
+      "path": "exceptions.md",
+      "downloadPath": "skills/decide/exceptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/exceptions.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/decide/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/memory-template.md"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/decide/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/migration.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/decide/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/decide/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "quiz",
+    "name": "Quiz",
+    "description": "Design engaging quizzes with effective questions, scoring logic, and results that drive learning or conversions.",
+    "summary": "Situation Detection | Context | Load | |---------|------| | Knowledge assessment, exams, certifications | `types.md` → Knowledge section | | Personality quizzes, \"Which X are you?\" | `types.md` → Personality section | | ",
+    "repositoryPath": "skills/quiz",
+    "manifestPath": "registry/skills/quiz.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/quiz/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/_meta.json"
+    },
+    {
+      "path": "implementation.md",
+      "downloadPath": "skills/quiz/implementation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/implementation.md"
+    },
+    {
+      "path": "questions.md",
+      "downloadPath": "skills/quiz/questions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/questions.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/quiz/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/SKILL.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/quiz/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/types.md"
+    }
+  ]
+}

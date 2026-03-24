@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "fishing",
+    "name": "Fishing",
+    "description": "Track fishing spots, gear, catches, and conditions with personalized recommendations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fishing",
+    "summary": "When to Use User wants to track their fishing activity, remember favorite spots, log catches, or get personalized gear and technique recommendations based on their history. Architecture Memory lives in `~/fishing/`. See ",
+    "repositoryPath": "skills/fishing",
+    "manifestPath": "registry/skills/fishing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/fishing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/fishing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/memory-template.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fishing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/SKILL.md"
+    },
+    {
+      "path": "species.md",
+      "downloadPath": "skills/fishing/species.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/species.md"
+    },
+    {
+      "path": "tackle.md",
+      "downloadPath": "skills/fishing/tackle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/tackle.md"
+    }
+  ]
+}

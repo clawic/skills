@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "domain-registration",
+    "name": "Domain Registration",
+    "description": "Register, transfer, renew, and secure domains across major provider APIs and dashboards with provider-specific workflows and rollback-safe execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/domain-registration",
+    "summary": "Setup On first use, read `setup.md` to align activation boundaries, provider preferences, and approval rules before any registration, transfer, or renewal action. When to Use Use this skill when the user needs domain reg",
+    "repositoryPath": "skills/domain-registration",
+    "manifestPath": "registry/skills/domain-registration.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/domain-registration/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/_meta.json"
+    },
+    {
+      "path": "dns-security-controls.md",
+      "downloadPath": "skills/domain-registration/dns-security-controls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/dns-security-controls.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/domain-registration/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/memory-template.md"
+    },
+    {
+      "path": "provider-matrix.md",
+      "downloadPath": "skills/domain-registration/provider-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/provider-matrix.md"
+    },
+    {
+      "path": "registration-playbooks.md",
+      "downloadPath": "skills/domain-registration/registration-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/registration-playbooks.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/domain-registration/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/domain-registration/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/SKILL.md"
+    },
+    {
+      "path": "transfer-renewal.md",
+      "downloadPath": "skills/domain-registration/transfer-renewal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domain-registration/transfer-renewal.md"
+    }
+  ]
+}

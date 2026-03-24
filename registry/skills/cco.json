@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cco",
+    "name": "CCO / Chief Customer Officer",
+    "description": "Lead customer success with retention strategies, health scoring, expansion revenue, and lifecycle management.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/cco",
+    "summary": "Setup See `setup.md` for first-time configuration. When to Use User needs CCO-level guidance for customer success leadership. Agent acts as virtual Chief Customer Officer handling customer retention, health monitoring, e",
+    "repositoryPath": "skills/cco",
+    "manifestPath": "registry/skills/cco.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cco/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/_meta.json"
+    },
+    {
+      "path": "expansion.md",
+      "downloadPath": "skills/cco/expansion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/expansion.md"
+    },
+    {
+      "path": "health.md",
+      "downloadPath": "skills/cco/health.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/health.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cco/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/memory-template.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/cco/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/operations.md"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/cco/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/retention.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/cco/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cco/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/SKILL.md"
+    }
+  ]
+}

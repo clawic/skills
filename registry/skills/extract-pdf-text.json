@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "extract-pdf-text",
+    "name": "Extract PDF Text",
+    "description": "Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/extract-pdf-text",
+    "summary": "When to Use Agent needs to extract text from PDFs. Use PyMuPDF (fitz) for fast local extraction. Works with text-based documents, scanned pages with OCR, forms, and complex layouts. Quick Reference | Topic | File | |----",
+    "repositoryPath": "skills/extract-pdf-text",
+    "manifestPath": "registry/skills/extract-pdf-text.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/extract-pdf-text/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/_meta.json"
+    },
+    {
+      "path": "examples.md",
+      "downloadPath": "skills/extract-pdf-text/examples.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/examples.md"
+    },
+    {
+      "path": "ocr.md",
+      "downloadPath": "skills/extract-pdf-text/ocr.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/ocr.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/extract-pdf-text/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/extract-pdf-text/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/troubleshooting.md"
+    }
+  ]
+}

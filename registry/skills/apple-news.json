@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "apple-news",
+    "name": "Apple News (MacOS)",
+    "description": "Open Apple News, read Apple News links, and run local News workflows on macOS using deterministic CLI commands and shortcut-based search fallback.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/apple-news",
+    "summary": "Setup On first use, follow `setup.md` to define command-path preferences, link-opening behavior, and search fallback strategy before bulk actions. When to Use User wants to open Apple News, read specific Apple News artic",
+    "repositoryPath": "skills/apple-news",
+    "manifestPath": "registry/skills/apple-news.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/apple-news/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/_meta.json"
+    },
+    {
+      "path": "command-paths.md",
+      "downloadPath": "skills/apple-news/command-paths.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/command-paths.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/apple-news/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/memory-template.md"
+    },
+    {
+      "path": "operation-patterns.md",
+      "downloadPath": "skills/apple-news/operation-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/operation-patterns.md"
+    },
+    {
+      "path": "safety-checklist.md",
+      "downloadPath": "skills/apple-news/safety-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/safety-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/apple-news/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apple-news/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/apple-news/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/troubleshooting.md"
+    }
+  ]
+}

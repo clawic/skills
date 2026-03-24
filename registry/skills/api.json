@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "api",
+    "name": "API (Stripe, OpenAI, Notion & 100+ more)",
+    "description": "REST API reference for 147 services. Authentication patterns, endpoints, rate limits, and common gotchas.",
+    "version": "1.3.4",
+    "homepage": "https://clawic.com/skills/api",
+    "summary": "API REST API reference documentation. 147 services with authentication, endpoints, and gotchas. Setup On first use, read `setup.md` for usage guidelines. When to Use User asks about integrating a third-party API. This sk",
+    "repositoryPath": "skills/api",
+    "manifestPath": "registry/skills/api.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/api/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/_meta.json"
+    },
+    {
+      "path": "apis/ai-ml.md",
+      "downloadPath": "skills/api/apis/ai-ml.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/ai-ml.md"
+    },
+    {
+      "path": "apis/analytics.md",
+      "downloadPath": "skills/api/apis/analytics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/analytics.md"
+    },
+    {
+      "path": "apis/auth-providers.md",
+      "downloadPath": "skills/api/apis/auth-providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/auth-providers.md"
+    },
+    {
+      "path": "apis/business.md",
+      "downloadPath": "skills/api/apis/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/business.md"
+    },
+    {
+      "path": "apis/communication.md",
+      "downloadPath": "skills/api/apis/communication.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/communication.md"
+    },
+    {
+      "path": "apis/crm.md",
+      "downloadPath": "skills/api/apis/crm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/crm.md"
+    },
+    {
+      "path": "apis/database.md",
+      "downloadPath": "skills/api/apis/database.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/database.md"
+    },
+    {
+      "path": "apis/developer.md",
+      "downloadPath": "skills/api/apis/developer.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/developer.md"
+    },
+    {
+      "path": "apis/geo.md",
+      "downloadPath": "skills/api/apis/geo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/geo.md"
+    },
+    {
+      "path": "apis/marketing.md",
+      "downloadPath": "skills/api/apis/marketing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/marketing.md"
+    },
+    {
+      "path": "apis/media.md",
+      "downloadPath": "skills/api/apis/media.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/media.md"
+    },
+    {
+      "path": "apis/payments.md",
+      "downloadPath": "skills/api/apis/payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/payments.md"
+    },
+    {
+      "path": "apis/productivity.md",
+      "downloadPath": "skills/api/apis/productivity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/productivity.md"
+    },
+    {
+      "path": "apis/realtime.md",
+      "downloadPath": "skills/api/apis/realtime.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/realtime.md"
+    },
+    {
+      "path": "apis/social.md",
+      "downloadPath": "skills/api/apis/social.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/social.md"
+    },
+    {
+      "path": "apis/support.md",
+      "downloadPath": "skills/api/apis/support.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/support.md"
+    },
+    {
+      "path": "auth.md",
+      "downloadPath": "skills/api/auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/auth.md"
+    },
+    {
+      "path": "credentials.md",
+      "downloadPath": "skills/api/credentials.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/credentials.md"
+    },
+    {
+      "path": "pagination.md",
+      "downloadPath": "skills/api/pagination.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/pagination.md"
+    },
+    {
+      "path": "resilience.md",
+      "downloadPath": "skills/api/resilience.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/resilience.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/api/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/api/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md"
+    },
+    {
+      "path": "webhooks.md",
+      "downloadPath": "skills/api/webhooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/webhooks.md"
+    }
+  ]
+}

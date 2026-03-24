@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "symptoms",
+    "name": "Symptoms",
+    "description": "Build a private symptom tracker for logging health patterns and preparing for doctor visits.",
+    "summary": "Core Behavior - User reports symptom → ask detailed follow-up questions - Proactively gather clinically relevant information - Track patterns to identify triggers - Create `~/symptoms/` as workspace - All data stays loca",
+    "repositoryPath": "skills/symptoms",
+    "manifestPath": "registry/skills/symptoms.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/symptoms/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/symptoms/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/SKILL.md"
+    }
+  ]
+}

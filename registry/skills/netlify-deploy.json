@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "netlify-deploy",
+    "name": "Netlify Deploy",
+    "description": "Deploy and manage Netlify sites with npx netlify, including auth, linking, preview deploys, production releases, and config checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/netlify-deploy",
+    "summary": "Setup On first use, read `setup.md` for integration and environment checks. When to Use User needs to deploy, host, publish, or relink a web project on Netlify from the terminal. Use this skill for first deploys, preview",
+    "repositoryPath": "skills/netlify-deploy",
+    "manifestPath": "registry/skills/netlify-deploy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/netlify-deploy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/_meta.json"
+    },
+    {
+      "path": "cli-commands.md",
+      "downloadPath": "skills/netlify-deploy/cli-commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/cli-commands.md"
+    },
+    {
+      "path": "deployment-patterns.md",
+      "downloadPath": "skills/netlify-deploy/deployment-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/deployment-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/netlify-deploy/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/memory-template.md"
+    },
+    {
+      "path": "netlify-toml.md",
+      "downloadPath": "skills/netlify-deploy/netlify-toml.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/netlify-toml.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/netlify-deploy/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/netlify-deploy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "marriage",
+    "name": "Marriage",
+    "description": "Navigate marriage challenges across all stages with conflict resolution, communication tools, and practical frameworks.",
+    "summary": "Approach Marriage support spans decades. Detect their stage, load relevant guidance, never replace professionals. **Core Loop:** 1. **Detect** — Which stage/situation from their question 2. **Load** — Relevant phase file",
+    "repositoryPath": "skills/marriage",
+    "manifestPath": "registry/skills/marriage.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/marriage/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/_meta.json"
+    },
+    {
+      "path": "divorce-consideration.md",
+      "downloadPath": "skills/marriage/divorce-consideration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/divorce-consideration.md"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/marriage/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/frameworks.md"
+    },
+    {
+      "path": "long-term.md",
+      "downloadPath": "skills/marriage/long-term.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/long-term.md"
+    },
+    {
+      "path": "newlywed.md",
+      "downloadPath": "skills/marriage/newlywed.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/newlywed.md"
+    },
+    {
+      "path": "pre-marriage.md",
+      "downloadPath": "skills/marriage/pre-marriage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/pre-marriage.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/marriage/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/safety.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/marriage/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/SKILL.md"
+    },
+    {
+      "path": "struggling.md",
+      "downloadPath": "skills/marriage/struggling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/struggling.md"
+    }
+  ]
+}

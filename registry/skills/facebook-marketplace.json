@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "facebook-marketplace",
+    "name": "Facebook Marketplace",
+    "description": "Buy and sell on Facebook Marketplace with pricing discipline, safer messaging, shipping guardrails, scam detection, and account-safe workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/facebook-marketplace",
+    "summary": "When to Use User needs practical Facebook Marketplace help in real time: finding good local deals, screening scammy listings, writing or fixing a listing, handling buyer messages, planning pickup, deciding on shipping, o",
+    "repositoryPath": "skills/facebook-marketplace",
+    "manifestPath": "registry/skills/facebook-marketplace.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/facebook-marketplace/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/_meta.json"
+    },
+    {
+      "path": "buyer-flow.md",
+      "downloadPath": "skills/facebook-marketplace/buyer-flow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/buyer-flow.md"
+    },
+    {
+      "path": "interface-and-automation.md",
+      "downloadPath": "skills/facebook-marketplace/interface-and-automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/interface-and-automation.md"
+    },
+    {
+      "path": "listing-and-pricing.md",
+      "downloadPath": "skills/facebook-marketplace/listing-and-pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/listing-and-pricing.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/facebook-marketplace/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/memory-template.md"
+    },
+    {
+      "path": "messages-and-negotiation.md",
+      "downloadPath": "skills/facebook-marketplace/messages-and-negotiation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/messages-and-negotiation.md"
+    },
+    {
+      "path": "policy-and-account-health.md",
+      "downloadPath": "skills/facebook-marketplace/policy-and-account-health.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/policy-and-account-health.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/facebook-marketplace/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/setup.md"
+    },
+    {
+      "path": "shipping-and-protection.md",
+      "downloadPath": "skills/facebook-marketplace/shipping-and-protection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/shipping-and-protection.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/facebook-marketplace/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/SKILL.md"
+    }
+  ]
+}

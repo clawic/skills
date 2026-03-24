@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "safari",
+    "name": "Safari Browser Control",
+    "description": "Control Safari on macOS with AppleScript, safaridriver, screenshots, tab navigation, and real-browser read, click, and type workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/safari",
+    "summary": "When to Use User needs the agent to control the real Safari browser on macOS, not a generic headless browser. Use this when the task depends on the user's actual Safari session, open tabs, cookies, login state, AppleScri",
+    "repositoryPath": "skills/safari",
+    "manifestPath": "registry/skills/safari.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/safari/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/_meta.json"
+    },
+    {
+      "path": "applescript-control.md",
+      "downloadPath": "skills/safari/applescript-control.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/applescript-control.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/safari/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/memory-template.md"
+    },
+    {
+      "path": "preflight-and-permissions.md",
+      "downloadPath": "skills/safari/preflight-and-permissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/preflight-and-permissions.md"
+    },
+    {
+      "path": "screenshot-and-visual-loop.md",
+      "downloadPath": "skills/safari/screenshot-and-visual-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/screenshot-and-visual-loop.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/safari/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/safari/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/safari/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/troubleshooting.md"
+    },
+    {
+      "path": "webdriver-and-bidi.md",
+      "downloadPath": "skills/safari/webdriver-and-bidi.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/webdriver-and-bidi.md"
+    }
+  ]
+}

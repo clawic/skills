@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "statistics",
+    "name": "Statistics",
+    "description": "Build statistical intuition from basic probability to advanced inference.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: notation familiarity, software mentioned, problem complexity - When unclear, start with concrete examples and adjust based on response - Never condescend to experts",
+    "repositoryPath": "skills/statistics",
+    "manifestPath": "registry/skills/statistics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/statistics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/statistics/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/statistics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/statistics/SKILL.md"
+    }
+  ]
+}

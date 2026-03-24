@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "pandas",
+    "name": "Pandas",
+    "description": "Analyze, transform, and clean DataFrames with efficient patterns for filtering, grouping, merging, and pivoting.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/pandas",
+    "summary": "Setup On first use, create `~/pandas/` and read `setup.md` for initialization. User preferences are stored in `~/pandas/memory.md` — users can view or edit this file anytime. When to Use User needs to work with tabular d",
+    "repositoryPath": "skills/pandas",
+    "manifestPath": "registry/skills/pandas.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pandas/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/pandas/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/pandas/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pandas/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/SKILL.md"
+    }
+  ]
+}

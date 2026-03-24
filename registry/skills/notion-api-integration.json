@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "notion-api-integration",
+    "name": "Notion API Integration",
+    "description": "Complete Notion API for databases, pages, blocks, users, search, comments, and property types with pagination and error handling.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/notion-api-integration",
+    "summary": "Notion API Integration Complete Notion API reference. See auxiliary files for detailed operations. Quick Start ```bash curl 'https://api.notion.com/v1/users/me' \\ -H \"Authorization: Bearer $NOTION_API_KEY\" \\ -H \"Notion-V",
+    "repositoryPath": "skills/notion-api-integration",
+    "manifestPath": "registry/skills/notion-api-integration.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/notion-api-integration/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/_meta.json"
+    },
+    {
+      "path": "blocks.md",
+      "downloadPath": "skills/notion-api-integration/blocks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/blocks.md"
+    },
+    {
+      "path": "databases.md",
+      "downloadPath": "skills/notion-api-integration/databases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/databases.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/notion-api-integration/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/errors.md"
+    },
+    {
+      "path": "filters.md",
+      "downloadPath": "skills/notion-api-integration/filters.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/filters.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/notion-api-integration/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/memory-template.md"
+    },
+    {
+      "path": "pages.md",
+      "downloadPath": "skills/notion-api-integration/pages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pages.md"
+    },
+    {
+      "path": "pagination.md",
+      "downloadPath": "skills/notion-api-integration/pagination.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pagination.md"
+    },
+    {
+      "path": "properties.md",
+      "downloadPath": "skills/notion-api-integration/properties.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/properties.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/notion-api-integration/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/search.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/notion-api-integration/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/notion-api-integration/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/SKILL.md"
+    }
+  ]
+}

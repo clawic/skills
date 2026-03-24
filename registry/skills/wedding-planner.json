@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "wedding-planner",
+    "name": "Wedding Planner",
+    "description": "Plan weddings with budget guardrails, guest-list scenarios, vendor scorecards, payment tracking, and deadline-driven coordination.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wedding-planner",
+    "summary": "When to Use Use when a user is planning a wedding and needs more than inspiration: date and venue sequencing, guest-count decisions, budget control, vendor selection, contract tracking, RSVP handling, and day-of executio",
+    "repositoryPath": "skills/wedding-planner",
+    "manifestPath": "registry/skills/wedding-planner.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/wedding-planner/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/_meta.json"
+    },
+    {
+      "path": "budget-and-payments.md",
+      "downloadPath": "skills/wedding-planner/budget-and-payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/budget-and-payments.md"
+    },
+    {
+      "path": "guest-list-and-seating.md",
+      "downloadPath": "skills/wedding-planner/guest-list-and-seating.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/guest-list-and-seating.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/wedding-planner/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/wedding-planner/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/wedding-planner/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/SKILL.md"
+    },
+    {
+      "path": "timeline-and-run-of-show.md",
+      "downloadPath": "skills/wedding-planner/timeline-and-run-of-show.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/timeline-and-run-of-show.md"
+    },
+    {
+      "path": "vendor-scorecards.md",
+      "downloadPath": "skills/wedding-planner/vendor-scorecards.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/vendor-scorecards.md"
+    }
+  ]
+}

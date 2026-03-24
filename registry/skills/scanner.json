@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "scanner",
+    "name": "Scanner",
+    "description": "Transform document photos into clean scanned-looking pages with automatic edge detection, cropping, and perspective correction. Use when (1) the user wants a photo to look scanned; (2) receipts, forms, pages, or papers need clean borders and straightening; (3) the result should be easier to read, share, archive, or pass to OCR.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/scanner",
+    "summary": "When to Use Use when the user wants to scan a document from a photo, crop the page automatically, fix perspective, or make an image look like it came from a flatbed scanner. Load this skill when the request sounds like: ",
+    "repositoryPath": "skills/scanner",
+    "manifestPath": "registry/skills/scanner.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/scanner/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/scanner/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/SKILL.md"
+    }
+  ]
+}

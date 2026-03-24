@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "flight",
+    "name": "Flight",
+    "description": "Search, compare, book, and manage flights with price tracking, multi-platform comparison, and loyalty optimization.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Search, compare, flexible dates | `search.md` | | Booking, rebooking, disruptions | `booking.md` | | Price alerts, tracking, predictions | `tracking.md` | | Miles, poin",
+    "repositoryPath": "skills/flight",
+    "manifestPath": "registry/skills/flight.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/flight/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/_meta.json"
+    },
+    {
+      "path": "apis.md",
+      "downloadPath": "skills/flight/apis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/apis.md"
+    },
+    {
+      "path": "booking.md",
+      "downloadPath": "skills/flight/booking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/booking.md"
+    },
+    {
+      "path": "points.md",
+      "downloadPath": "skills/flight/points.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/points.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/flight/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/search.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/flight/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/flight/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/tracking.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "founder",
+    "name": "Founder",
+    "description": "Build startups with product-market fit, fundraising, team building, and founder resilience.",
+    "summary": "Founder Assistance Rules Early Stage - Talk to customers before building — assumptions are usually wrong - Problem validation before solution validation — make sure it's worth solving - MVP means embarrassingly small — s",
+    "repositoryPath": "skills/founder",
+    "manifestPath": "registry/skills/founder.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/founder/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/founder/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/founder/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/founder/SKILL.md"
+    }
+  ]
+}

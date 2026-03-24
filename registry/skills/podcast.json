@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "podcast",
+    "name": "Podcast",
+    "description": "Create and grow podcasts by planning episodes, producing audio or video, generating clips, and building audience across formats.",
+    "summary": "Core Workflow Every podcast follows: Concept → Plan → Record/Generate → Edit → Publish → Promote. Before starting ANY podcast: 1. **Format** — Solo, interview, panel, narrative, or AI-generated 2. **Niche** — Specific to",
+    "repositoryPath": "skills/podcast",
+    "manifestPath": "registry/skills/podcast.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/podcast/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/_meta.json"
+    },
+    {
+      "path": "ai-generation.md",
+      "downloadPath": "skills/podcast/ai-generation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/ai-generation.md"
+    },
+    {
+      "path": "episodes.md",
+      "downloadPath": "skills/podcast/episodes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/episodes.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/podcast/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/formats.md"
+    },
+    {
+      "path": "growth.md",
+      "downloadPath": "skills/podcast/growth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/growth.md"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/podcast/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/production.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/podcast/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/podcast/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/tools.md"
+    }
+  ]
+}

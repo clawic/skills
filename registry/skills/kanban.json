@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "kanban",
+    "name": "Kanban",
+    "description": "Build multi-project Kanban systems with deterministic board discovery, consistent task processing, and persistent routing memory across sessions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/kanban",
+    "summary": "Setup If `~/kanban/` does not exist or is empty, read `setup.md` silently and initialize only after user confirmation. When to Use Use this skill when the user wants a Kanban system the agent can maintain across projects",
+    "repositoryPath": "skills/kanban",
+    "manifestPath": "registry/skills/kanban.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/kanban/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/_meta.json"
+    },
+    {
+      "path": "board-template.md",
+      "downloadPath": "skills/kanban/board-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/board-template.md"
+    },
+    {
+      "path": "discovery-protocol.md",
+      "downloadPath": "skills/kanban/discovery-protocol.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/discovery-protocol.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/kanban/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/memory-template.md"
+    },
+    {
+      "path": "processing-rules.md",
+      "downloadPath": "skills/kanban/processing-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/processing-rules.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/kanban/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/kanban/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/SKILL.md"
+    }
+  ]
+}

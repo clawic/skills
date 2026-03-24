@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "qr",
+    "name": "QR",
+    "description": "Generate, customize, and deploy QR codes with proper sizing, error correction, and use-case optimization.",
+    "summary": "Before Generating 1. **Choose correct type** — URL is not the only option. See `types.md` for vCard, WiFi, email, SMS, geo, etc. 2. **Shorten dynamic URLs** — Long URLs = dense codes = harder to scan. Use short links for",
+    "repositoryPath": "skills/qr",
+    "manifestPath": "registry/skills/qr.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/qr/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/_meta.json"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/qr/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/deployment.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/qr/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/SKILL.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/qr/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/types.md"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "svg",
+    "name": "SVG",
+    "description": "Create and optimize SVG graphics with proper viewBox, accessibility, and CSS styling.",
+    "version": "1.1.0",
+    "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | viewBox & Scaling | `viewbox.md` | Missing viewBox = no scaling | | Screen Readers | `accessibility.md` | role=\"img\" + title as first child | | SV",
+    "repositoryPath": "skills/svg",
+    "manifestPath": "registry/skills/svg.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/svg/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/_meta.json"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/svg/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/accessibility.md"
+    },
+    {
+      "path": "embedding.md",
+      "downloadPath": "skills/svg/embedding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/embedding.md"
+    },
+    {
+      "path": "optimization.md",
+      "downloadPath": "skills/svg/optimization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/optimization.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/svg/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/SKILL.md"
+    },
+    {
+      "path": "styling.md",
+      "downloadPath": "skills/svg/styling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/styling.md"
+    },
+    {
+      "path": "viewbox.md",
+      "downloadPath": "skills/svg/viewbox.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/viewbox.md"
+    }
+  ]
+}

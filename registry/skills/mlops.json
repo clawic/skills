@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mlops",
+    "name": "MLOps",
+    "description": "Deploy ML models to production with pipelines, monitoring, serving, and reproducibility best practices.",
+    "version": "1.0.0",
+    "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | CI/CD and DAGs | `pipelines.md` | Coupling training/inference deps | | Model serving | `serving.md` | Cold start with large models | | Drift and a",
+    "repositoryPath": "skills/mlops",
+    "manifestPath": "registry/skills/mlops.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mlops/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/_meta.json"
+    },
+    {
+      "path": "gpu.md",
+      "downloadPath": "skills/mlops/gpu.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/gpu.md"
+    },
+    {
+      "path": "monitoring.md",
+      "downloadPath": "skills/mlops/monitoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/monitoring.md"
+    },
+    {
+      "path": "pipelines.md",
+      "downloadPath": "skills/mlops/pipelines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/pipelines.md"
+    },
+    {
+      "path": "reproducibility.md",
+      "downloadPath": "skills/mlops/reproducibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/reproducibility.md"
+    },
+    {
+      "path": "serving.md",
+      "downloadPath": "skills/mlops/serving.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/serving.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mlops/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/SKILL.md"
+    }
+  ]
+}

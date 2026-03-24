@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "openclaw-workspace",
+    "name": "OpenClaw Workspace",
+    "description": "Audit and improve OpenClaw workspaces across SOUL, AGENTS, TOOLS, USER, MEMORY, and skills for persona tuning, proactive behavior, recall, and workflow fit. Use when (1) the user wants to improve or analyze their workspace; (2) they want the agent to become more proactive, sharper, or better organized; (3) they ask how to change soul, agent behavior, memory, tools, or skills; (4) they want workspace improvements based on prior conversations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/openclaw-workspace",
+    "summary": "When to Use Use when the user wants to improve, audit, debug, redesign, or understand their OpenClaw workspace as a working system, not as isolated files. This skill should also activate when the user asks why the agent ",
+    "repositoryPath": "skills/openclaw-workspace",
+    "manifestPath": "registry/skills/openclaw-workspace.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/openclaw-workspace/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/openclaw-workspace/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "security-best-practices",
+    "name": "Security Best Practices",
+    "description": "Review code with secure-by-default standards, prioritize exploitable risks, and deliver minimal-diff fixes with evidence and regression checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/security-best-practices",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/security-best-practices/`. When to Use Use this skill for secure-by-default implementation, ta",
+    "repositoryPath": "skills/security-best-practices",
+    "manifestPath": "registry/skills/security-best-practices.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/security-best-practices/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/_meta.json"
+    },
+    {
+      "path": "exceptions.md",
+      "downloadPath": "skills/security-best-practices/exceptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/exceptions.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/security-best-practices/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/memory-template.md"
+    },
+    {
+      "path": "remediation-patterns.md",
+      "downloadPath": "skills/security-best-practices/remediation-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/remediation-patterns.md"
+    },
+    {
+      "path": "review-playbook.md",
+      "downloadPath": "skills/security-best-practices/review-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/review-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/security-best-practices/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/setup.md"
+    },
+    {
+      "path": "severity-model.md",
+      "downloadPath": "skills/security-best-practices/severity-model.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/severity-model.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/security-best-practices/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/SKILL.md"
+    }
+  ]
+}

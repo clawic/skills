@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "swift",
+    "name": "Swift",
+    "description": "Write safe Swift code avoiding memory leaks, optional traps, and concurrency bugs.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Optionals, nil safety, force unwrap | `optionals.md` | | Retain cycles, weak refs, closures | `memory.md` | | async/await, actors, Sendable, value types | `concurrency.",
+    "repositoryPath": "skills/swift",
+    "manifestPath": "registry/skills/swift.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/swift/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/_meta.json"
+    },
+    {
+      "path": "advanced.md",
+      "downloadPath": "skills/swift/advanced.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/advanced.md"
+    },
+    {
+      "path": "codable.md",
+      "downloadPath": "skills/swift/codable.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/codable.md"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/swift/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/concurrency.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/swift/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/memory.md"
+    },
+    {
+      "path": "optionals.md",
+      "downloadPath": "skills/swift/optionals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/optionals.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/swift/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/SKILL.md"
+    },
+    {
+      "path": "swiftui.md",
+      "downloadPath": "skills/swift/swiftui.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/swiftui.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/swift/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/testing.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/swift/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/types.md"
+    }
+  ]
+}

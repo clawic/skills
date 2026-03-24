@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "udio",
+    "name": "Udio",
+    "description": "Generate AI music with Udio via API wrappers or browser automation, with prompt engineering and song extensions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/udio",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User wants to generate music with Udio. Agent can use API wrappers for programmatic generation, browser automation for direct platform interacti",
+    "repositoryPath": "skills/udio",
+    "manifestPath": "registry/skills/udio.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/udio/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/_meta.json"
+    },
+    {
+      "path": "api.md",
+      "downloadPath": "skills/udio/api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/api.md"
+    },
+    {
+      "path": "browser.md",
+      "downloadPath": "skills/udio/browser.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/browser.md"
+    },
+    {
+      "path": "lyrics.md",
+      "downloadPath": "skills/udio/lyrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/lyrics.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/udio/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/memory-template.md"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/udio/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/prompts.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/udio/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/udio/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/SKILL.md"
+    },
+    {
+      "path": "styles.md",
+      "downloadPath": "skills/udio/styles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/styles.md"
+    }
+  ]
+}

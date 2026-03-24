@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "football",
+    "name": "Football",
+    "description": "Analyze football and soccer matches, squads, players, and training plans with tactical frameworks, scouting grids, and session blueprints.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/football",
+    "summary": "When to Use Use this for association football or soccer work: match previews, post-match review, opponent reports, player scouting, squad balance, role fit, and weekly session planning. Do not use it for American footbal",
+    "repositoryPath": "skills/football",
+    "manifestPath": "registry/skills/football.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/football/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/_meta.json"
+    },
+    {
+      "path": "match-room.md",
+      "downloadPath": "skills/football/match-room.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/match-room.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/football/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/memory-template.md"
+    },
+    {
+      "path": "opposition-report.md",
+      "downloadPath": "skills/football/opposition-report.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/opposition-report.md"
+    },
+    {
+      "path": "role-cards.md",
+      "downloadPath": "skills/football/role-cards.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/role-cards.md"
+    },
+    {
+      "path": "scouting-grid.md",
+      "downloadPath": "skills/football/scouting-grid.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/scouting-grid.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/football/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/football/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/SKILL.md"
+    },
+    {
+      "path": "training-week.md",
+      "downloadPath": "skills/football/training-week.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/training-week.md"
+    }
+  ]
+}

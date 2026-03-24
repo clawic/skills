@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "gitlab",
+    "name": "GitLab",
+    "description": "Avoid common GitLab CI/CD mistakes — rules gotchas, silent failures, and YAML merge traps.",
+    "summary": "Rules Gotchas - `rules:` and `only:/except:` can't mix — use one or the other per job - First matching rule wins — put specific rules before general ones - Missing `when:` defaults to `on_success` — `rules: - if: $CI_COM",
+    "repositoryPath": "skills/gitlab",
+    "manifestPath": "registry/skills/gitlab.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/gitlab/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/gitlab/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/SKILL.md"
+    }
+  ]
+}

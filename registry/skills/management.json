@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "management",
+    "name": "Management",
+    "description": "Management principles, team leadership, and organizational effectiveness.",
+    "summary": "For Individual Contributors: Navigating Upward - Decode manager decisions by explaining organizational pressures, budget constraints, and competing priorities that shape choices - Warn when a complaint sounds like ventin",
+    "repositoryPath": "skills/management",
+    "manifestPath": "registry/skills/management.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/management/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/management/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/management/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/management/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "devops",
+    "name": "DevOps",
+    "description": "Automate deployments, manage infrastructure, and build reliable CI/CD pipelines.",
+    "summary": "DevOps Rules CI/CD Pipelines - Fail fast: run linting and unit tests before expensive integration tests — saves time and compute - Cache dependencies between runs — `npm install` on every build wastes minutes - Pin actio",
+    "repositoryPath": "skills/devops",
+    "manifestPath": "registry/skills/devops.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/devops/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/devops/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/SKILL.md"
+    }
+  ]
+}

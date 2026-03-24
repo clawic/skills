@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "kimi",
+    "name": "Kimi",
+    "description": "Build and debug Kimi API workflows for chat, coding, reasoning, and tool-calling with live model checks, retries, and safe routing.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/kimi",
+    "summary": "When to Use User needs Kimi to work reliably for chat, coding, long-context research, structured outputs, or agent workflows. Agent handles live model verification, request shaping, migration from other OpenAI-compatible",
+    "repositoryPath": "skills/kimi",
+    "manifestPath": "registry/skills/kimi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/kimi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/_meta.json"
+    },
+    {
+      "path": "api-patterns.md",
+      "downloadPath": "skills/kimi/api-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/api-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/kimi/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/memory-template.md"
+    },
+    {
+      "path": "migration-playbook.md",
+      "downloadPath": "skills/kimi/migration-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/migration-playbook.md"
+    },
+    {
+      "path": "routing-matrix.md",
+      "downloadPath": "skills/kimi/routing-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/routing-matrix.md"
+    },
+    {
+      "path": "safety-workflows.md",
+      "downloadPath": "skills/kimi/safety-workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/safety-workflows.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/kimi/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/kimi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/kimi/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/troubleshooting.md"
+    }
+  ]
+}

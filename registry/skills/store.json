@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "store",
+    "name": "Store",
+    "description": "Manage a physical store of any kind with opening routines, inventory control, staffing, cash discipline, merchandising, and weekly reviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/store",
+    "summary": "When to Use User runs a physical store, retail shop, showroom, kiosk, or multi-shift location and needs operational control instead of generic business advice. Agent helps with daily store rhythm, inventory accuracy, sta",
+    "repositoryPath": "skills/store",
+    "manifestPath": "registry/skills/store.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/store/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/_meta.json"
+    },
+    {
+      "path": "cash-and-loss.md",
+      "downloadPath": "skills/store/cash-and-loss.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/cash-and-loss.md"
+    },
+    {
+      "path": "floor-ops.md",
+      "downloadPath": "skills/store/floor-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/floor-ops.md"
+    },
+    {
+      "path": "inventory-control.md",
+      "downloadPath": "skills/store/inventory-control.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/inventory-control.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/store/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/memory-template.md"
+    },
+    {
+      "path": "merchandising.md",
+      "downloadPath": "skills/store/merchandising.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/merchandising.md"
+    },
+    {
+      "path": "metrics.md",
+      "downloadPath": "skills/store/metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/metrics.md"
+    },
+    {
+      "path": "opening-closing.md",
+      "downloadPath": "skills/store/opening-closing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/opening-closing.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/store/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/store/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/SKILL.md"
+    },
+    {
+      "path": "staffing.md",
+      "downloadPath": "skills/store/staffing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/staffing.md"
+    }
+  ]
+}

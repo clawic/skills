@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tattoo",
+    "name": "Tattoo",
+    "description": "Plan, research, and prepare for tattoos with artist discovery, design exploration, cultural research, and aftercare guidance.",
+    "summary": "Before Any Tattoo Decision 1. **Clarify intent** — First tattoo anxiety? Meaningful piece? Adding to collection? Approach differs drastically 2. **Research the symbol** — Check cultural origins, closed vs. open practices",
+    "repositoryPath": "skills/tattoo",
+    "manifestPath": "registry/skills/tattoo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tattoo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/_meta.json"
+    },
+    {
+      "path": "aftercare.md",
+      "downloadPath": "skills/tattoo/aftercare.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/aftercare.md"
+    },
+    {
+      "path": "cultural-research.md",
+      "downloadPath": "skills/tattoo/cultural-research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/cultural-research.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tattoo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/SKILL.md"
+    }
+  ]
+}

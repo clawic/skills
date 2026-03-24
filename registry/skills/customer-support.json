@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "customer-support",
+    "name": "Customer Support",
+    "description": "Resolve issues, communicate with empathy, and turn frustrated customers into loyal advocates.",
+    "summary": "Customer Support Rules First Response - Acknowledge the problem before solving it — \"I understand this is frustrating\" - Apologize for the experience, not necessarily fault — \"I'm sorry you're dealing with this\" - Set ex",
+    "repositoryPath": "skills/customer-support",
+    "manifestPath": "registry/skills/customer-support.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/customer-support/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/customer-support/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/SKILL.md"
+    }
+  ]
+}

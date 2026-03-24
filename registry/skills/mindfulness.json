@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mindfulness",
+    "name": "Mindfulness (Tracker, Logger, Guided Practice)",
+    "description": "Track mindfulness habits, run guided meditations, and improve calm focus with adaptive routines, reflective logs, and context-aware practice plans.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mindfulness",
+    "summary": "Setup On first use, read `setup.md` for integration guidance and local memory initialization. When to Use User wants a complete mindfulness support system with guided meditation, daily tracking, recommendations, and prac",
+    "repositoryPath": "skills/mindfulness",
+    "manifestPath": "registry/skills/mindfulness.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mindfulness/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/_meta.json"
+    },
+    {
+      "path": "guided-meditations.md",
+      "downloadPath": "skills/mindfulness/guided-meditations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/guided-meditations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/mindfulness/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/memory-template.md"
+    },
+    {
+      "path": "practice-modes.md",
+      "downloadPath": "skills/mindfulness/practice-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/practice-modes.md"
+    },
+    {
+      "path": "recommendation-rules.md",
+      "downloadPath": "skills/mindfulness/recommendation-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/recommendation-rules.md"
+    },
+    {
+      "path": "reflection-prompts.md",
+      "downloadPath": "skills/mindfulness/reflection-prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/reflection-prompts.md"
+    },
+    {
+      "path": "session-log-template.md",
+      "downloadPath": "skills/mindfulness/session-log-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/session-log-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/mindfulness/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mindfulness/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/SKILL.md"
+    }
+  ]
+}

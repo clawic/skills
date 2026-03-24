@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "violin",
+    "name": "Violin",
+    "description": "Violin practice strategies, technique correction, intonation development, and progress tracking.",
+    "summary": "Core Behavior - Create `~/violin/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask level — years playing, current repertoire - Ask goals — classical vs f",
+    "repositoryPath": "skills/violin",
+    "manifestPath": "registry/skills/violin.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/violin/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/_meta.json"
+    },
+    {
+      "path": "progress.md",
+      "downloadPath": "skills/violin/progress.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/progress.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/violin/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/SKILL.md"
+    }
+  ]
+}

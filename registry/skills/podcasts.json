@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "podcasts",
+    "name": "Podcasts",
+    "description": "Track and synthesize podcasts with subscriptions, briefings, progress tracking, and smart alerts for new episodes and guests.",
+    "summary": "Core Behavior - User mentions a podcast → add to subscriptions, track new episodes - User asks \"what's new?\" → summarize recent episodes from subscribed shows - User asks for briefing → generate summary without them list",
+    "repositoryPath": "skills/podcasts",
+    "manifestPath": "registry/skills/podcasts.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/podcasts/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/_meta.json"
+    },
+    {
+      "path": "briefings.md",
+      "downloadPath": "skills/podcasts/briefings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/briefings.md"
+    },
+    {
+      "path": "discovery.md",
+      "downloadPath": "skills/podcasts/discovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/discovery.md"
+    },
+    {
+      "path": "learning.md",
+      "downloadPath": "skills/podcasts/learning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/learning.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/podcasts/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/SKILL.md"
+    },
+    {
+      "path": "youtube.md",
+      "downloadPath": "skills/podcasts/youtube.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/youtube.md"
+    }
+  ]
+}

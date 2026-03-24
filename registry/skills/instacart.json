@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "instacart",
+    "name": "Instacart",
+    "description": "Build Instacart recipe pages, shopping lists, and retailer lookups with MCP, REST, secure auth, and launch-ready integration rules.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/instacart",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs Instacart-specific execution rather than generic grocery advice. Activate for shoppable recipe pages, shopping list pages, nearby ret",
+    "repositoryPath": "skills/instacart",
+    "manifestPath": "registry/skills/instacart.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/instacart/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/_meta.json"
+    },
+    {
+      "path": "auth-playbook.md",
+      "downloadPath": "skills/instacart/auth-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/auth-playbook.md"
+    },
+    {
+      "path": "connect-boundaries.md",
+      "downloadPath": "skills/instacart/connect-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/connect-boundaries.md"
+    },
+    {
+      "path": "endpoint-map.md",
+      "downloadPath": "skills/instacart/endpoint-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/endpoint-map.md"
+    },
+    {
+      "path": "mcp-integration.md",
+      "downloadPath": "skills/instacart/mcp-integration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/mcp-integration.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/instacart/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/memory-template.md"
+    },
+    {
+      "path": "request-patterns.md",
+      "downloadPath": "skills/instacart/request-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/request-patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/instacart/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/instacart/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/instacart/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/instacart/troubleshooting.md"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "java",
+    "name": "Java",
+    "description": "Write robust Java avoiding null traps, equality bugs, and concurrency pitfalls.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Nulls, Optional, autoboxing | `nulls.md` | | Collections and iteration traps | `collections.md` | | Generics and type erasure | `generics.md` | | Concurrency and synchr",
+    "repositoryPath": "skills/java",
+    "manifestPath": "registry/skills/java.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/java/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/_meta.json"
+    },
+    {
+      "path": "classes.md",
+      "downloadPath": "skills/java/classes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/classes.md"
+    },
+    {
+      "path": "collections.md",
+      "downloadPath": "skills/java/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/collections.md"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/java/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/concurrency.md"
+    },
+    {
+      "path": "generics.md",
+      "downloadPath": "skills/java/generics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/generics.md"
+    },
+    {
+      "path": "jvm.md",
+      "downloadPath": "skills/java/jvm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/jvm.md"
+    },
+    {
+      "path": "nulls.md",
+      "downloadPath": "skills/java/nulls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/nulls.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/java/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/SKILL.md"
+    },
+    {
+      "path": "streams.md",
+      "downloadPath": "skills/java/streams.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/streams.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/java/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/testing.md"
+    }
+  ]
+}

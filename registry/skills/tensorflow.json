@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "description": "Avoid common TensorFlow mistakes — tf.function retracing, GPU memory, data pipeline bottlenecks, and gradient traps.",
+    "summary": "tf.function Retracing - New input shape/dtype causes retrace — expensive, prints warning - Use `input_signature` for fixed shapes — `@tf.function(input_signature=[tf.TensorSpec(...)])` - Python values retrace — pass as t",
+    "repositoryPath": "skills/tensorflow",
+    "manifestPath": "registry/skills/tensorflow.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tensorflow/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tensorflow/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tensorflow/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tensorflow/SKILL.md"
+    }
+  ]
+}

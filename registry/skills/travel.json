@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "travel",
+    "name": "Travel",
+    "description": "Build a personal travel system for dream destinations, trip planning, and travel memories.",
+    "summary": "Core Behavior - User mentions travel idea → offer to save to wishlist - User planning a trip → create trip folder with checklist - User returns from trip → help document memories - Create `~/travel/` as workspace Use Cas",
+    "repositoryPath": "skills/travel",
+    "manifestPath": "registry/skills/travel.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/travel/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/travel/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/SKILL.md"
+    }
+  ]
+}

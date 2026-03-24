@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "toml",
+    "name": "TOML",
+    "description": "Write valid TOML configuration files with correct types and structure.",
+    "summary": "Strings - Basic strings `\"...\"` support escapes: `\\n`, `\\t`, `\\\\`, `\\\"` - Literal strings `'...'` are raw—no escape sequences, backslash is literal - Multiline basic `\"\"\"...\"\"\"` allows newlines; leading newline after `\"\"",
+    "repositoryPath": "skills/toml",
+    "manifestPath": "registry/skills/toml.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/toml/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toml/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/toml/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toml/SKILL.md"
+    }
+  ]
+}

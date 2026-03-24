@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "aws",
+    "name": "AWS | Amazon Web Services",
+    "description": "Architect, deploy, and optimize AWS infrastructure avoiding cost explosions and security pitfalls.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/aws",
+    "summary": "Setup On first use, read `setup.md` for integration options. The skill works immediately — setup is optional for personalization. When to Use User needs AWS infrastructure guidance. Agent handles architecture decisions, ",
+    "repositoryPath": "skills/aws",
+    "manifestPath": "registry/skills/aws.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/aws/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/_meta.json"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/aws/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/costs.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/aws/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/memory-template.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/aws/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/security.md"
+    },
+    {
+      "path": "services.md",
+      "downloadPath": "skills/aws/services.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/services.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/aws/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/aws/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/SKILL.md"
+    }
+  ]
+}

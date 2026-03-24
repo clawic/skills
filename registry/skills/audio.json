@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "audio",
+    "name": "Audio",
+    "description": "Process, enhance, and convert audio files with noise removal, normalization, format conversion, transcription, and podcast workflows.",
+    "version": "1.0.1",
+    "summary": "Requirements **Required:** - `ffmpeg` / `ffprobe` — core audio processing **Optional (for advanced features):** - `sox` — additional noise reduction - `whisper` — local transcription (or use API) - `demucs` — stem separa",
+    "repositoryPath": "skills/audio",
+    "manifestPath": "registry/skills/audio.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/audio/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/_meta.json"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/audio/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/commands.md"
+    },
+    {
+      "path": "loudness.md",
+      "downloadPath": "skills/audio/loudness.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/loudness.md"
+    },
+    {
+      "path": "podcast.md",
+      "downloadPath": "skills/audio/podcast.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/podcast.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/audio/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/SKILL.md"
+    },
+    {
+      "path": "transcription.md",
+      "downloadPath": "skills/audio/transcription.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/transcription.md"
+    }
+  ]
+}

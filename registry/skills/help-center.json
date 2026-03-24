@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "help-center",
+    "name": "Help Center",
+    "description": "Build and run help centers with provider selection, migration playbooks, workflow mapping, content taxonomy, and support deflection metrics.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/help-center",
+    "summary": "Setup If `~/help-center/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs to create, migrate, or improve a help center. Handles pr",
+    "repositoryPath": "skills/help-center",
+    "manifestPath": "registry/skills/help-center.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/help-center/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/_meta.json"
+    },
+    {
+      "path": "build-own-stack.md",
+      "downloadPath": "skills/help-center/build-own-stack.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/build-own-stack.md"
+    },
+    {
+      "path": "content-ops.md",
+      "downloadPath": "skills/help-center/content-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/content-ops.md"
+    },
+    {
+      "path": "launch-checklist.md",
+      "downloadPath": "skills/help-center/launch-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/launch-checklist.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/help-center/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/memory-template.md"
+    },
+    {
+      "path": "migration-playbook.md",
+      "downloadPath": "skills/help-center/migration-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/migration-playbook.md"
+    },
+    {
+      "path": "provider-matrix.md",
+      "downloadPath": "skills/help-center/provider-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/provider-matrix.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/help-center/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/help-center/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/SKILL.md"
+    }
+  ]
+}

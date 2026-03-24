@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ansible",
+    "name": "Ansible",
+    "description": "Avoid common Ansible mistakes — YAML syntax traps, variable precedence, idempotence failures, and handler gotchas.",
+    "summary": "YAML Syntax Traps - Jinja2 in value needs quotes — `\"{{ variable }}\"` not `{{ variable }}` - `:` in string needs quotes — `msg: \"Note: this works\"` not `msg: Note: this` - Boolean strings: `yes`, `no`, `true`, `false` pa",
+    "repositoryPath": "skills/ansible",
+    "manifestPath": "registry/skills/ansible.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ansible/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ansible/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/SKILL.md"
+    }
+  ]
+}

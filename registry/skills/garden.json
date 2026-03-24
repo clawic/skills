@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "garden",
+    "name": "Garden",
+    "description": "Track your entire garden with structured memory for plants, zones, tasks, harvests, and climate-aware planning that compounds over seasons.",
+    "version": "1.1.6",
+    "homepage": "https://clawic.com/skills/garden",
+    "summary": "Setup If `~/garden/` doesn't exist or is empty, read `setup.md` and follow it. The user engaging with the skill implies interest — start helping them naturally. When to Use User needs help managing their garden: tracking",
+    "repositoryPath": "skills/garden",
+    "manifestPath": "registry/skills/garden.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/garden/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/_meta.json"
+    },
+    {
+      "path": "climate-setup.md",
+      "downloadPath": "skills/garden/climate-setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/climate-setup.md"
+    },
+    {
+      "path": "diagnostics.md",
+      "downloadPath": "skills/garden/diagnostics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/diagnostics.md"
+    },
+    {
+      "path": "EXTRA_FILES.txt",
+      "downloadPath": "skills/garden/EXTRA_FILES.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/EXTRA_FILES.txt"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/garden/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/memory-template.md"
+    },
+    {
+      "path": "planning.md",
+      "downloadPath": "skills/garden/planning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/planning.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/garden/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/garden/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/garden/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/tracking.md"
+    }
+  ]
+}

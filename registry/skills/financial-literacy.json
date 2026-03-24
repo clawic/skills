@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "financial-literacy",
+    "name": "Finance",
+    "description": "Support financial understanding from personal budgeting to professional analysis and research.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, instrument knowledge, professional framing - When unclear, ask about their role before giving specific advice - Never provide personalized investment ad",
+    "repositoryPath": "skills/financial-literacy",
+    "manifestPath": "registry/skills/financial-literacy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/financial-literacy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/financial-literacy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/SKILL.md"
+    }
+  ]
+}

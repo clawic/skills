@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "airtag",
+    "name": "AirTag",
+    "description": "Give your agent controlled access to all AirTags in your Apple account to locate items, run diagnostics, and recover setup failures.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/airtag",
+    "summary": "Setup On first use, read `setup.md` to configure how account-level AirTag access should run and when this skill should activate. When to Use Use this skill when the user wants the agent to access any AirTag in their Appl",
+    "repositoryPath": "skills/airtag",
+    "manifestPath": "registry/skills/airtag.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/airtag/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/_meta.json"
+    },
+    {
+      "path": "access-connectors.md",
+      "downloadPath": "skills/airtag/access-connectors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/access-connectors.md"
+    },
+    {
+      "path": "anti-stalking-safety.md",
+      "downloadPath": "skills/airtag/anti-stalking-safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/anti-stalking-safety.md"
+    },
+    {
+      "path": "battery-maintenance.md",
+      "downloadPath": "skills/airtag/battery-maintenance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/battery-maintenance.md"
+    },
+    {
+      "path": "connection-diagnostics.md",
+      "downloadPath": "skills/airtag/connection-diagnostics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/connection-diagnostics.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/airtag/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/memory-template.md"
+    },
+    {
+      "path": "recovery-playbook.md",
+      "downloadPath": "skills/airtag/recovery-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/recovery-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/airtag/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/airtag/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/SKILL.md"
+    }
+  ]
+}

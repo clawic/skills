@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ci-cd",
+    "name": "CI-CD",
+    "description": "Automate builds, tests, and deployments across web, mobile, and backend applications.",
+    "summary": "When to Use Trigger on: automated deployment, continuous integration, pipeline setup, GitHub Actions, GitLab CI, build failing, deploy automatically, CI configuration, release automation. Platform Selection | Stack | Rec",
+    "repositoryPath": "skills/ci-cd",
+    "manifestPath": "registry/skills/ci-cd.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ci-cd/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/_meta.json"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/ci-cd/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/mobile.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ci-cd/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/ci-cd/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/templates.md"
+    },
+    {
+      "path": "web.md",
+      "downloadPath": "skills/ci-cd/web.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/web.md"
+    }
+  ]
+}

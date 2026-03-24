@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "py",
+    "name": "Python",
+    "description": "Write reliable Python avoiding mutable defaults, import traps, and common runtime surprises.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Dynamic typing, type hints, duck typing | `types.md` | | List/dict/set gotchas, comprehensions | `collections.md` | | Args/kwargs, closures, decorators, generators | `f",
+    "repositoryPath": "skills/py",
+    "manifestPath": "registry/skills/py.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/py/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/_meta.json"
+    },
+    {
+      "path": "classes.md",
+      "downloadPath": "skills/py/classes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/classes.md"
+    },
+    {
+      "path": "collections.md",
+      "downloadPath": "skills/py/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/collections.md"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/py/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/concurrency.md"
+    },
+    {
+      "path": "functions.md",
+      "downloadPath": "skills/py/functions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/functions.md"
+    },
+    {
+      "path": "imports.md",
+      "downloadPath": "skills/py/imports.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/py/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/py/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/testing.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/py/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/types.md"
+    }
+  ]
+}

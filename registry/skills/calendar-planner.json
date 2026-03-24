@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "calendar-planner",
+    "name": "Calendar Planner",
+    "description": "Plan work and life across Google Calendar, Outlook, Apple Calendar, and CalDAV with CLI adapters, conflict repair, and weekly reviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/calendar-planner",
+    "summary": "Calendar Planner Calendar planner for work, family, health, travel, deep work, and recovery across multiple command-line calendar adapters. Setup On first use, read `setup.md` for integration guidelines. Answer the immed",
+    "repositoryPath": "skills/calendar-planner",
+    "manifestPath": "registry/skills/calendar-planner.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/calendar-planner/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/_meta.json"
+    },
+    {
+      "path": "calendar_guard.py",
+      "downloadPath": "skills/calendar-planner/calendar_guard.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_guard.py"
+    },
+    {
+      "path": "calendar_merge.py",
+      "downloadPath": "skills/calendar-planner/calendar_merge.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_merge.py"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/calendar-planner/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/commands.md"
+    },
+    {
+      "path": "life-domains.md",
+      "downloadPath": "skills/calendar-planner/life-domains.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/life-domains.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/calendar-planner/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/memory-template.md"
+    },
+    {
+      "path": "planning-protocol.md",
+      "downloadPath": "skills/calendar-planner/planning-protocol.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/planning-protocol.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/calendar-planner/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/calendar-planner/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/SKILL.md"
+    },
+    {
+      "path": "week_plan.py",
+      "downloadPath": "skills/calendar-planner/week_plan.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/week_plan.py"
+    }
+  ]
+}

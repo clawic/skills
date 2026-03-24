@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tai-chi",
+    "name": "Tai Chi (Practice Planner, Form Coach, Balance Tracker)",
+    "description": "Build tai chi practice plans, improve form, and track balance-focused sessions with safe progressions, concise coaching cues, and weekly reviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tai-chi",
+    "summary": "Setup On first use, read `setup.md` for integration guidance and local memory initialization. When to Use User wants tai chi support for home practice, class reinforcement, balance work, gentle recovery movement, or a co",
+    "repositoryPath": "skills/tai-chi",
+    "manifestPath": "registry/skills/tai-chi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tai-chi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/_meta.json"
+    },
+    {
+      "path": "form-checks.md",
+      "downloadPath": "skills/tai-chi/form-checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/form-checks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/tai-chi/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/memory-template.md"
+    },
+    {
+      "path": "practice-modes.md",
+      "downloadPath": "skills/tai-chi/practice-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/practice-modes.md"
+    },
+    {
+      "path": "progression-ladder.md",
+      "downloadPath": "skills/tai-chi/progression-ladder.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/progression-ladder.md"
+    },
+    {
+      "path": "safety-modifications.md",
+      "downloadPath": "skills/tai-chi/safety-modifications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/safety-modifications.md"
+    },
+    {
+      "path": "session-templates.md",
+      "downloadPath": "skills/tai-chi/session-templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/session-templates.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/tai-chi/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tai-chi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/SKILL.md"
+    },
+    {
+      "path": "weekly-review-template.md",
+      "downloadPath": "skills/tai-chi/weekly-review-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/weekly-review-template.md"
+    }
+  ]
+}

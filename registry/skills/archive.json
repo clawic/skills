@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "archive",
+    "name": "Archive",
+    "description": "Capture and preserve content as intelligent snapshots with semantic search, automatic extraction, and proactive resurfacing.",
+    "version": "1.0.0",
+    "summary": "Architecture Archive storage lives in `~/archive/` with tiered structure. See `memory-template.md` for setup. ``` ~/archive/ ├── memory.md # HOT: recent items, ≤100 lines ├── index.md # Topic/tag index ├── items/ # Indiv",
+    "repositoryPath": "skills/archive",
+    "manifestPath": "registry/skills/archive.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/archive/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/_meta.json"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/archive/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/capture.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/archive/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/memory-template.md"
+    },
+    {
+      "path": "resurface.md",
+      "downloadPath": "skills/archive/resurface.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/resurface.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/archive/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/search.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/archive/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/SKILL.md"
+    }
+  ]
+}

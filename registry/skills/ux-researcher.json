@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ux-researcher",
+    "name": "UX Researcher",
+    "description": "Generate user personas, pain points, journey maps, and UX recommendations without conducting interviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ux-researcher",
+    "summary": "Setup On first use, read `setup.md` and begin the conversation naturally. When to Use User needs UX research outputs without conducting actual user interviews. Agent generates personas, identifies pain points, creates jo",
+    "repositoryPath": "skills/ux-researcher",
+    "manifestPath": "registry/skills/ux-researcher.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ux-researcher/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/ux-researcher/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/ux-researcher/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ux-researcher/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/SKILL.md"
+    }
+  ]
+}

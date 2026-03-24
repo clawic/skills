@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "thai",
+    "name": "Thai",
+    "description": "Write Thai that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Thai is technically correct but sounds off. Too formal. Too ภาษาเขียน (written style). Natives write more casually, with particles and playfulness. Match that. Formality Default Default register is to",
+    "repositoryPath": "skills/thai",
+    "manifestPath": "registry/skills/thai.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/thai/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thai/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/thai/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thai/SKILL.md"
+    }
+  ]
+}

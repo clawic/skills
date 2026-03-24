@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "db",
+    "name": "Database",
+    "description": "Design and operate databases avoiding common scaling, reliability, and data integrity traps.",
+    "summary": "Database Gotchas Connection Traps - Connection pools exhausted = app hangs silently — set max connections, monitor pool usage - Each Lambda/serverless invocation may open new connection — use connection pooling proxy (RD",
+    "repositoryPath": "skills/db",
+    "manifestPath": "registry/skills/db.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/db/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/db/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/db/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/db/SKILL.md"
+    }
+  ]
+}

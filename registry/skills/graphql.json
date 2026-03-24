@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "graphql",
+    "name": "GraphQL",
+    "description": "Design GraphQL schemas and resolvers with proper performance, security, and error handling.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Schema design patterns | `schema.md` | | Security and limits | `security.md` | | Performance optimization | `performance.md` | | Client-side patterns | `client.md` | N+",
+    "repositoryPath": "skills/graphql",
+    "manifestPath": "registry/skills/graphql.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/graphql/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/_meta.json"
+    },
+    {
+      "path": "client.md",
+      "downloadPath": "skills/graphql/client.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/client.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/graphql/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/performance.md"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/graphql/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/schema.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/graphql/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/graphql/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/SKILL.md"
+    }
+  ]
+}

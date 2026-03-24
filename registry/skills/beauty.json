@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "beauty",
+    "name": "Beauty",
+    "description": "Build practical beauty routines with skincare basics, makeup strategy, and hair care plans tailored to skin type, budget, and schedule.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/beauty",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines and memory initialization. When to Use User needs help with skincare, makeup, haircare, or grooming decisions. Agent creates practical routines, adapts for b",
+    "repositoryPath": "skills/beauty",
+    "manifestPath": "registry/skills/beauty.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/beauty/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/_meta.json"
+    },
+    {
+      "path": "beginner.md",
+      "downloadPath": "skills/beauty/beginner.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/beginner.md"
+    },
+    {
+      "path": "blemish-prone.md",
+      "downloadPath": "skills/beauty/blemish-prone.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/blemish-prone.md"
+    },
+    {
+      "path": "budget.md",
+      "downloadPath": "skills/beauty/budget.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/budget.md"
+    },
+    {
+      "path": "busy-schedule.md",
+      "downloadPath": "skills/beauty/busy-schedule.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/busy-schedule.md"
+    },
+    {
+      "path": "event-ready.md",
+      "downloadPath": "skills/beauty/event-ready.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/event-ready.md"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/beauty/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/frameworks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/beauty/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/memory-template.md"
+    },
+    {
+      "path": "mens-grooming.md",
+      "downloadPath": "skills/beauty/mens-grooming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/mens-grooming.md"
+    },
+    {
+      "path": "products.md",
+      "downloadPath": "skills/beauty/products.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/products.md"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/beauty/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/routines.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/beauty/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/safety.md"
+    },
+    {
+      "path": "sensitive-skin.md",
+      "downloadPath": "skills/beauty/sensitive-skin.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/sensitive-skin.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/beauty/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/beauty/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/SKILL.md"
+    },
+    {
+      "path": "textured-hair.md",
+      "downloadPath": "skills/beauty/textured-hair.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beauty/textured-hair.md"
+    }
+  ]
+}

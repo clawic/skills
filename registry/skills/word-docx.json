@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "word-docx",
+    "name": "Word / DOCX",
+    "description": "Create, inspect, and edit Microsoft Word documents and DOCX files with reliable styles, numbering, tracked changes, tables, sections, and compatibility checks. Use when (1) the task is about Word or `.docx`; (2) the file includes tracked changes, comments, fields, tables, templates, or page layout constraints; (3) the document must survive round-trip editing without formatting drift.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/word-docx",
+    "summary": "When to Use Use when the main artifact is a Microsoft Word document or `.docx` file, especially when tracked changes, comments, headers, numbering, fields, tables, templates, or compatibility matter. Core Rules 1. Treat ",
+    "repositoryPath": "skills/word-docx",
+    "manifestPath": "registry/skills/word-docx.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/word-docx/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/word-docx/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "creativity",
+    "name": "Creativity",
+    "description": "Generate novel ideas calibrated to user taste. Auto-learns preferred styles, risk levels, and creative directions through feedback.",
+    "summary": "Core Principle Creativity isn't random—it's controlled divergence. Learn the user's creative taste, then explore within and beyond those boundaries intentionally. Check `techniques.md` for generation methods. Check `pref",
+    "repositoryPath": "skills/creativity",
+    "manifestPath": "registry/skills/creativity.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/creativity/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/_meta.json"
+    },
+    {
+      "path": "preferences.md",
+      "downloadPath": "skills/creativity/preferences.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/preferences.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/creativity/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/SKILL.md"
+    },
+    {
+      "path": "techniques.md",
+      "downloadPath": "skills/creativity/techniques.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/techniques.md"
+    }
+  ]
+}

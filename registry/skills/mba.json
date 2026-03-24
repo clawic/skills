@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mba",
+    "name": "MBA",
+    "description": "Complete MBA curriculum with structured learning, case studies, financial analysis, and practical business decision-making.",
+    "version": "1.0.0",
+    "summary": "When to Use User wants business education equivalent to an MBA: understanding finance, strategy, marketing, operations, leadership, or making better business decisions. Works for entrepreneurs, corporate professionals, c",
+    "repositoryPath": "skills/mba",
+    "manifestPath": "registry/skills/mba.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mba/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/_meta.json"
+    },
+    {
+      "path": "cases.md",
+      "downloadPath": "skills/mba/cases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/cases.md"
+    },
+    {
+      "path": "finance.md",
+      "downloadPath": "skills/mba/finance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/finance.md"
+    },
+    {
+      "path": "leadership.md",
+      "downloadPath": "skills/mba/leadership.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/leadership.md"
+    },
+    {
+      "path": "marketing.md",
+      "downloadPath": "skills/mba/marketing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/marketing.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/mba/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/operations.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mba/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/SKILL.md"
+    },
+    {
+      "path": "startups.md",
+      "downloadPath": "skills/mba/startups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/startups.md"
+    },
+    {
+      "path": "strategy.md",
+      "downloadPath": "skills/mba/strategy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/strategy.md"
+    }
+  ]
+}

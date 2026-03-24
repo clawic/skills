@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "render-deploy",
+    "name": "Render Deploy",
+    "description": "Deploy applications on Render with codebase analysis, render.yaml Blueprint generation, MCP direct provisioning, and post-deploy verification.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/render-deploy",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/render-deploy/`. When to Use Use this skill when the user wants to deploy, publish, or host an",
+    "repositoryPath": "skills/render-deploy",
+    "manifestPath": "registry/skills/render-deploy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/render-deploy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/_meta.json"
+    },
+    {
+      "path": "blueprint-workflow.md",
+      "downloadPath": "skills/render-deploy/blueprint-workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/blueprint-workflow.md"
+    },
+    {
+      "path": "codebase-analysis.md",
+      "downloadPath": "skills/render-deploy/codebase-analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/codebase-analysis.md"
+    },
+    {
+      "path": "direct-creation.md",
+      "downloadPath": "skills/render-deploy/direct-creation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/direct-creation.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/render-deploy/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/render-deploy/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/render-deploy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/render-deploy/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/troubleshooting.md"
+    }
+  ]
+}

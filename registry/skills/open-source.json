@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "open-source",
+    "name": "Open Source",
+    "description": "Find, evaluate, self-host, maintain, and publish open source projects with due diligence scoring, contributor workflows, and release governance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/open-source",
+    "summary": "Setup On first use, read `setup.md` silently and start helping immediately. This skill is useful from minute zero with no mandatory onboarding. When to Use User needs anything around open source: finding projects, evalua",
+    "repositoryPath": "skills/open-source",
+    "manifestPath": "registry/skills/open-source.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/open-source/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/_meta.json"
+    },
+    {
+      "path": "discovery-framework.md",
+      "downloadPath": "skills/open-source/discovery-framework.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/discovery-framework.md"
+    },
+    {
+      "path": "maintainer-ops.md",
+      "downloadPath": "skills/open-source/maintainer-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/maintainer-ops.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/open-source/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/memory-template.md"
+    },
+    {
+      "path": "publishing-playbook.md",
+      "downloadPath": "skills/open-source/publishing-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/publishing-playbook.md"
+    },
+    {
+      "path": "self-host-screen.md",
+      "downloadPath": "skills/open-source/self-host-screen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/self-host-screen.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/open-source/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/open-source/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/SKILL.md"
+    }
+  ]
+}

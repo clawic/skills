@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "symphony",
+    "name": "OpenAI Symphony",
+    "description": "Set up and run OpenAI Symphony with isolated issue workspaces, workflow contracts, and unattended Codex orchestration for Linear projects.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/symphony",
+    "summary": "Setup On first use, read `setup.md` and establish integration boundaries before proposing commands or workflow edits. When to Use Use this skill when the user wants an unattended orchestration service that reads Linear i",
+    "repositoryPath": "skills/symphony",
+    "manifestPath": "registry/skills/symphony.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/symphony/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/_meta.json"
+    },
+    {
+      "path": "incident-playbook.md",
+      "downloadPath": "skills/symphony/incident-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/incident-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/symphony/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/memory-template.md"
+    },
+    {
+      "path": "safety-guardrails.md",
+      "downloadPath": "skills/symphony/safety-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/safety-guardrails.md"
+    },
+    {
+      "path": "setup-runbook.md",
+      "downloadPath": "skills/symphony/setup-runbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup-runbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/symphony/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/symphony/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SKILL.md"
+    },
+    {
+      "path": "SPEC.md",
+      "downloadPath": "skills/symphony/SPEC.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SPEC.md"
+    },
+    {
+      "path": "workflow-template.md",
+      "downloadPath": "skills/symphony/workflow-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/workflow-template.md"
+    },
+    {
+      "path": "WORKFLOW.md",
+      "downloadPath": "skills/symphony/WORKFLOW.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/WORKFLOW.md"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "maps",
+    "name": "Maps",
+    "description": "Plan place search, geocoding, routing, and map-link workflows across Google Maps, Apple Maps, OpenStreetMap, and other providers.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/maps",
+    "summary": "When to Use User needs place search, forward geocoding, reverse geocoding, routing, travel-time estimates, static map links, or provider selection for a maps workflow. Use this skill when the agent must move between Goog",
+    "repositoryPath": "skills/maps",
+    "manifestPath": "registry/skills/maps.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/maps/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/_meta.json"
+    },
+    {
+      "path": "cost-controls.md",
+      "downloadPath": "skills/maps/cost-controls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/cost-controls.md"
+    },
+    {
+      "path": "execution-patterns.md",
+      "downloadPath": "skills/maps/execution-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/execution-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/maps/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/memory-template.md"
+    },
+    {
+      "path": "normalization-guide.md",
+      "downloadPath": "skills/maps/normalization-guide.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/normalization-guide.md"
+    },
+    {
+      "path": "provider-matrix.md",
+      "downloadPath": "skills/maps/provider-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/provider-matrix.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/maps/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/maps/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/maps/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/troubleshooting.md"
+    }
+  ]
+}

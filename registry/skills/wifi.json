@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "wifi",
+    "name": "WiFi",
+    "description": "Troubleshoot and secure wireless networks with channel optimization and diagnostics.",
+    "summary": "Band Selection Traps - 2.4GHz penetrates walls better but congested — neighbors' networks interfere - 5GHz faster but shorter range — may not reach all rooms - Same SSID for both bands can cause issues — device may stick",
+    "repositoryPath": "skills/wifi",
+    "manifestPath": "registry/skills/wifi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/wifi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wifi/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/wifi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wifi/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "exam",
+    "name": "Exam",
+    "description": "Generate practice tests, flashcards, study schedules, and timed simulations from any study material.",
+    "summary": "What This Skill Does Complete exam preparation from your content: - **Practice tests** — Multiple choice, short answer, essay questions - **Flashcards** — Key concepts for spaced repetition, Anki-exportable - **Simulatio",
+    "repositoryPath": "skills/exam",
+    "manifestPath": "registry/skills/exam.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/exam/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/_meta.json"
+    },
+    {
+      "path": "flashcards.md",
+      "downloadPath": "skills/exam/flashcards.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/flashcards.md"
+    },
+    {
+      "path": "questions.md",
+      "downloadPath": "skills/exam/questions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/questions.md"
+    },
+    {
+      "path": "simulations.md",
+      "downloadPath": "skills/exam/simulations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/simulations.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/exam/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/exam/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/tracking.md"
+    }
+  ]
+}

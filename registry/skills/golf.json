@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "golf",
+    "name": "Golf",
+    "description": "Track rounds, handicap, clubs, and courses with personalized improvement tips.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/golf",
+    "summary": "When to Use User wants to track their golf game, log rounds, manage handicap, remember course details, or get personalized practice recommendations based on their history. Architecture Memory lives in `~/golf/`. See `mem",
+    "repositoryPath": "skills/golf",
+    "manifestPath": "registry/skills/golf.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/golf/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/_meta.json"
+    },
+    {
+      "path": "clubs.md",
+      "downloadPath": "skills/golf/clubs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/clubs.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/golf/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/memory-template.md"
+    },
+    {
+      "path": "rules.md",
+      "downloadPath": "skills/golf/rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/rules.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/golf/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/SKILL.md"
+    }
+  ]
+}

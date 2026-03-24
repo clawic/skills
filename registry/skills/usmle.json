@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "usmle",
+    "name": "USMLE",
+    "description": "Prepare for US medical licensing exams with progress tracking, weak area analysis, question bank management, and residency match planning.",
+    "version": "1.0.1",
+    "summary": "When to Use User is preparing for USMLE (United States Medical Licensing Examination). Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, and match planning for US MDs, DOs, and IMGs. ",
+    "repositoryPath": "skills/usmle",
+    "manifestPath": "registry/skills/usmle.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/usmle/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/_meta.json"
+    },
+    {
+      "path": "exam-config.md",
+      "downloadPath": "skills/usmle/exam-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/exam-config.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/usmle/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/SKILL.md"
+    },
+    {
+      "path": "study-methods.md",
+      "downloadPath": "skills/usmle/study-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/study-methods.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/usmle/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/targets.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/usmle/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/usmle/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/user-types.md"
+    },
+    {
+      "path": "wellbeing.md",
+      "downloadPath": "skills/usmle/wellbeing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/wellbeing.md"
+    }
+  ]
+}

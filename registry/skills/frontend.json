@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "frontend",
+    "name": "Frontend Design",
+    "description": "Frontend development with React, Next.js, Tailwind CSS. Build landing pages, dashboards, forms, components. Responsive, accessible, performant UI.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/frontend",
+    "summary": "When to Use User needs web UI built. Agent handles landing pages, dashboards, forms, component libraries, and any frontend requiring production polish. Quick Reference | Topic | File | |-------|------| | Stack & tooling ",
+    "repositoryPath": "skills/frontend",
+    "manifestPath": "registry/skills/frontend.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/frontend/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/_meta.json"
+    },
+    {
+      "path": "animation.md",
+      "downloadPath": "skills/frontend/animation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/animation.md"
+    },
+    {
+      "path": "colors.md",
+      "downloadPath": "skills/frontend/colors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/colors.md"
+    },
+    {
+      "path": "examples.md",
+      "downloadPath": "skills/frontend/examples.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/examples.md"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/frontend/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/mobile.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/frontend/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/SKILL.md"
+    },
+    {
+      "path": "stack.md",
+      "downloadPath": "skills/frontend/stack.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/stack.md"
+    },
+    {
+      "path": "typography.md",
+      "downloadPath": "skills/frontend/typography.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/typography.md"
+    }
+  ]
+}

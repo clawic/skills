@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "crypto-tools",
+    "name": "Crypto Tools",
+    "description": "Access crypto data, monitor portfolios, detect scams, and navigate exchanges with real-time APIs and security tools.",
+    "summary": "What This Is Practical crypto tooling — data access, monitoring, security. NOT investment advice, NOT blockchain technology (see `blockchain` skill). **This skill:** How to get prices, track portfolios, avoid scams, use ",
+    "repositoryPath": "skills/crypto-tools",
+    "manifestPath": "registry/skills/crypto-tools.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/crypto-tools/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crypto-tools/_meta.json"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/crypto-tools/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crypto-tools/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/crypto-tools/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crypto-tools/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/crypto-tools/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crypto-tools/sources.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/crypto-tools/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crypto-tools/tools.md"
+    }
+  ]
+}

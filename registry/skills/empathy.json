@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "empathy",
+    "name": "Empathy",
+    "description": "Respond to emotional content with genuine-feeling empathy using Chain of Empathy reasoning, reflection-before-response, and calibrated validation.",
+    "summary": "Core Loop — Chain of Empathy (CoE) Before responding to emotional content, process these steps internally: 1. **Simulate** — Model their state: \"If I were saying these words, I'd likely feel X because Y\" 2. **Identify su",
+    "repositoryPath": "skills/empathy",
+    "manifestPath": "registry/skills/empathy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/empathy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/_meta.json"
+    },
+    {
+      "path": "contexts.md",
+      "downloadPath": "skills/empathy/contexts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/contexts.md"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/empathy/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/feedback.md"
+    },
+    {
+      "path": "safeguards.md",
+      "downloadPath": "skills/empathy/safeguards.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/safeguards.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/empathy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/SKILL.md"
+    },
+    {
+      "path": "techniques.md",
+      "downloadPath": "skills/empathy/techniques.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/techniques.md"
+    }
+  ]
+}

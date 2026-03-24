@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "game-development",
+    "name": "Game Development",
+    "description": "Design and ship browser-playable games from no-build Three.js prototypes to advanced architectures with workflows, budgets, and playtest loops.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/game-development",
+    "summary": "Setup On first use, read `setup.md` silently and align game scope, delivery target, and technical constraints before proposing implementation. When to Use Use this skill when users want to create playable games with agen",
+    "repositoryPath": "skills/game-development",
+    "manifestPath": "registry/skills/game-development.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/game-development/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/_meta.json"
+    },
+    {
+      "path": "browser-threejs-fast-path.md",
+      "downloadPath": "skills/game-development/browser-threejs-fast-path.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/browser-threejs-fast-path.md"
+    },
+    {
+      "path": "content-pipeline.md",
+      "downloadPath": "skills/game-development/content-pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/content-pipeline.md"
+    },
+    {
+      "path": "game-types-and-loops.md",
+      "downloadPath": "skills/game-development/game-types-and-loops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/game-types-and-loops.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/game-development/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/memory-template.md"
+    },
+    {
+      "path": "multiplayer-and-live-ops.md",
+      "downloadPath": "skills/game-development/multiplayer-and-live-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/multiplayer-and-live-ops.md"
+    },
+    {
+      "path": "project-structure-blueprints.md",
+      "downloadPath": "skills/game-development/project-structure-blueprints.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/project-structure-blueprints.md"
+    },
+    {
+      "path": "qa-balance-launch.md",
+      "downloadPath": "skills/game-development/qa-balance-launch.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/qa-balance-launch.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/game-development/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/game-development/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/SKILL.md"
+    },
+    {
+      "path": "systems-and-state.md",
+      "downloadPath": "skills/game-development/systems-and-state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/systems-and-state.md"
+    }
+  ]
+}

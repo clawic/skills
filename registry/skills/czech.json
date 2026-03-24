@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "czech",
+    "name": "Czech",
+    "description": "Write Czech that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Czech is technically correct but sounds off. Too formal. Too spisovná čeština (literary). Natives write more casually in obecná čeština (common). Match that. Formality Default Default register is too ",
+    "repositoryPath": "skills/czech",
+    "manifestPath": "registry/skills/czech.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/czech/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/czech/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/SKILL.md"
+    }
+  ]
+}

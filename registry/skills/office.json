@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "office",
+    "name": "Office",
+    "description": "Master Excel, Word, PowerPoint, and Google Workspace with formulas, formatting, and automation.",
+    "summary": "What \"Office\" Means Here Productivity software: Microsoft 365, Google Workspace, and office administration. | Signal | Context | Load | |--------|---------|------| | Formulas, pivot tables, VLOOKUP, macros | Spreadsheets",
+    "repositoryPath": "skills/office",
+    "manifestPath": "registry/skills/office.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/office/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/_meta.json"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/office/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/documents.md"
+    },
+    {
+      "path": "facilities.md",
+      "downloadPath": "skills/office/facilities.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/facilities.md"
+    },
+    {
+      "path": "presentations.md",
+      "downloadPath": "skills/office/presentations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/presentations.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/office/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/SKILL.md"
+    },
+    {
+      "path": "spreadsheets.md",
+      "downloadPath": "skills/office/spreadsheets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/spreadsheets.md"
+    }
+  ]
+}

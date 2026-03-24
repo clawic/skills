@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "unreal-engine",
+    "name": "Unreal Engine",
+    "description": "Avoid common Unreal mistakes — garbage collection, UPROPERTY macros, replication authority, and asset reference pitfalls.",
+    "summary": "Garbage Collection - Raw pointers to UObjects get garbage collected — use `UPROPERTY()` to prevent - `UPROPERTY()` marks for GC tracking — without it, pointer becomes dangling - `TWeakObjectPtr` for optional references —",
+    "repositoryPath": "skills/unreal-engine",
+    "manifestPath": "registry/skills/unreal-engine.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/unreal-engine/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/unreal-engine/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/unreal-engine/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/unreal-engine/SKILL.md"
+    }
+  ]
+}

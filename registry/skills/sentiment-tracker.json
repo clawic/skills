@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sentiment-tracker",
+    "name": "Sentiment Tracker",
+    "description": "Monitor brand sentiment, crypto opinions, and product perception across social media with automated tracking, alerts, and multi-entity dashboards.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/sentiment-tracker",
+    "summary": "Sentiment Analysis Track what people say about anything — brands, crypto, products, competitors — across Twitter/X, Reddit, YouTube, Hacker News, and news sites. **One-shot analysis** for quick checks. **Scheduled monito",
+    "repositoryPath": "skills/sentiment-tracker",
+    "manifestPath": "registry/skills/sentiment-tracker.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sentiment-tracker/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/sentiment-tracker/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/sentiment-tracker/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sentiment-tracker/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/SKILL.md"
+    }
+  ]
+}

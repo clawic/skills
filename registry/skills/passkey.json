@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "passkey",
+    "name": "Passkey",
+    "description": "Implement WebAuthn passkeys avoiding critical security and compatibility pitfalls.",
+    "summary": "Security-Critical Rules - Challenge must be unique per ceremony — reused challenges enable replay attacks - Origin validation is mandatory — missing check allows phishing from similar domains - Store and verify sign coun",
+    "repositoryPath": "skills/passkey",
+    "manifestPath": "registry/skills/passkey.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/passkey/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/passkey/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/passkey/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/passkey/SKILL.md"
+    }
+  ]
+}

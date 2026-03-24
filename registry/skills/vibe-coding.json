@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "vibe-coding",
+    "name": "Vibe Coding",
+    "description": "Build software with AI by describing what you want. Covers prompting techniques, workflow patterns, rules files, and when to intervene.",
+    "version": "1.0.0",
+    "summary": "What is Vibe Coding Programming where you describe what you want and let AI generate code. You evaluate by results, not by reading every line. Coined by Andrej Karpathy (Feb 2025). **Key distinction (Simon Willison):** I",
+    "repositoryPath": "skills/vibe-coding",
+    "manifestPath": "registry/skills/vibe-coding.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/vibe-coding/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/_meta.json"
+    },
+    {
+      "path": "pitfalls.md",
+      "downloadPath": "skills/vibe-coding/pitfalls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/pitfalls.md"
+    },
+    {
+      "path": "prompting.md",
+      "downloadPath": "skills/vibe-coding/prompting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/prompting.md"
+    },
+    {
+      "path": "rules-files.md",
+      "downloadPath": "skills/vibe-coding/rules-files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/rules-files.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/vibe-coding/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/vibe-coding/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/tools.md"
+    },
+    {
+      "path": "workflow.md",
+      "downloadPath": "skills/vibe-coding/workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/workflow.md"
+    }
+  ]
+}

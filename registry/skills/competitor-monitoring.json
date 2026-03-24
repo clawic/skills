@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "competitor-monitoring",
+    "name": "Competitor Monitoring",
+    "description": "Track competitors with pricing alerts, feature changes, positioning analysis, and strategic dossiers.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/competitor-monitoring",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs competitive intelligence. Agent tracks competitors, monitors changes, analyzes positioning, and maintains strategic dossiers with pri",
+    "repositoryPath": "skills/competitor-monitoring",
+    "manifestPath": "registry/skills/competitor-monitoring.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/competitor-monitoring/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/competitor-monitoring/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/competitor-monitoring/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/competitor-monitoring/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/SKILL.md"
+    }
+  ]
+}

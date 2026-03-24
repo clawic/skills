@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "learn",
+    "name": "Learn",
+    "description": "Structure and track learning with spaced repetition and active recall across any domain.",
+    "version": "1.0.2",
+    "summary": "Data Storage ``` ~/learn/ ├── topics/ # One folder per topic │ └── {topic}/ │ ├── concepts.json # Concepts with SR schedule │ ├── notes.md # Study notes │ └── progress.md # Mastery tracking ├── reviews/ # Due review queu",
+    "repositoryPath": "skills/learn",
+    "manifestPath": "registry/skills/learn.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/learn/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/_meta.json"
+    },
+    {
+      "path": "cognition.md",
+      "downloadPath": "skills/learn/cognition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/cognition.md"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/learn/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/retention.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/learn/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/SKILL.md"
+    },
+    {
+      "path": "verification.md",
+      "downloadPath": "skills/learn/verification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/verification.md"
+    }
+  ]
+}

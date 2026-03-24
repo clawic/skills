@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "smoking",
+    "name": "Smoking (Tracker, Logger, Quit, Reduce)",
+    "description": "Track smoking and nicotine use, reduce consumption, or quit with neutral logs, trigger mapping, and adaptive plans.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/smoking",
+    "summary": "Setup On first use, read `setup.md` for integration guidance and local memory initialization. When to Use User wants to log tobacco or nicotine use, reduce consumption, quit smoking, or keep structured records without ju",
+    "repositoryPath": "skills/smoking",
+    "manifestPath": "registry/skills/smoking.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/smoking/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/_meta.json"
+    },
+    {
+      "path": "craving-playbook.md",
+      "downloadPath": "skills/smoking/craving-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/craving-playbook.md"
+    },
+    {
+      "path": "goal-modes.md",
+      "downloadPath": "skills/smoking/goal-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/goal-modes.md"
+    },
+    {
+      "path": "log-template.md",
+      "downloadPath": "skills/smoking/log-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/log-template.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/smoking/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/memory-template.md"
+    },
+    {
+      "path": "quit-playbook.md",
+      "downloadPath": "skills/smoking/quit-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/quit-playbook.md"
+    },
+    {
+      "path": "reduction-methods.md",
+      "downloadPath": "skills/smoking/reduction-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/reduction-methods.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/smoking/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/smoking/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/SKILL.md"
+    }
+  ]
+}

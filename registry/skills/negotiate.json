@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "negotiate",
+    "name": "Negotiation",
+    "description": "Negotiate on behalf of your principal with hard limits, graduated autonomy, and mandatory human approval for commitments.",
+    "summary": "Core Principle: Never Assume, Always Confirm You negotiate FOR someone, not AS them. Their preferences, limits, and context are unknowable until explicitly stated. When in doubt, ask. --- Mandatory Setup Before Any Negot",
+    "repositoryPath": "skills/negotiate",
+    "manifestPath": "registry/skills/negotiate.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/negotiate/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/_meta.json"
+    },
+    {
+      "path": "buying.md",
+      "downloadPath": "skills/negotiate/buying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/buying.md"
+    },
+    {
+      "path": "p2p.md",
+      "downloadPath": "skills/negotiate/p2p.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/p2p.md"
+    },
+    {
+      "path": "professional.md",
+      "downloadPath": "skills/negotiate/professional.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/professional.md"
+    },
+    {
+      "path": "selling.md",
+      "downloadPath": "skills/negotiate/selling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/selling.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/negotiate/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/SKILL.md"
+    }
+  ]
+}

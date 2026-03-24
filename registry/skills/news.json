@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "news",
+    "name": "News",
+    "description": "Personalized news briefings that learn your interests, formats, and timing preferences.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/news",
+    "summary": "When to Use User wants personalized news briefings. Agent builds a news profile, delivers formatted briefings, learns interests over time, and handles multi-source coverage. Architecture Memory lives in `~/news/`. See `m",
+    "repositoryPath": "skills/news",
+    "manifestPath": "registry/skills/news.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/news/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/news/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/news/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/news/SKILL.md"
+    }
+  ]
+}

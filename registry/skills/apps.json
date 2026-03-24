@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "apps",
+    "name": "Apps",
+    "description": "Find, compare, and organize mobile apps with personalized recommendations and preference tracking.",
+    "version": "1.0.0",
+    "summary": "When to Use User wants app recommendations, comparisons, or help organizing their apps. Covers iOS and Android. Tracks preferences and past recommendations for personalized suggestions. Architecture Memory lives in `~/ap",
+    "repositoryPath": "skills/apps",
+    "manifestPath": "registry/skills/apps.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/apps/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/_meta.json"
+    },
+    {
+      "path": "categories.md",
+      "downloadPath": "skills/apps/categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/categories.md"
+    },
+    {
+      "path": "compare.md",
+      "downloadPath": "skills/apps/compare.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/compare.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/apps/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/memory-template.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apps/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/SKILL.md"
+    }
+  ]
+}

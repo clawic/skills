@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "affiliate-marketing",
+    "name": "Affiliate Marketing",
+    "description": "Design and optimize affiliate programs with partner scoring, commission economics, tracking QA, fraud controls, and compliance reviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/affiliate-marketing",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/affiliate-marketing/` if the user wants persistent partner and program continuity. When to Use User n",
+    "repositoryPath": "skills/affiliate-marketing",
+    "manifestPath": "registry/skills/affiliate-marketing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/affiliate-marketing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/_meta.json"
+    },
+    {
+      "path": "economics.md",
+      "downloadPath": "skills/affiliate-marketing/economics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/economics.md"
+    },
+    {
+      "path": "fraud-qa.md",
+      "downloadPath": "skills/affiliate-marketing/fraud-qa.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/fraud-qa.md"
+    },
+    {
+      "path": "lifecycle-reporting.md",
+      "downloadPath": "skills/affiliate-marketing/lifecycle-reporting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/lifecycle-reporting.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/affiliate-marketing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/memory-template.md"
+    },
+    {
+      "path": "partner-pipeline.md",
+      "downloadPath": "skills/affiliate-marketing/partner-pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/partner-pipeline.md"
+    },
+    {
+      "path": "playbooks.md",
+      "downloadPath": "skills/affiliate-marketing/playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/playbooks.md"
+    },
+    {
+      "path": "program-design.md",
+      "downloadPath": "skills/affiliate-marketing/program-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/program-design.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/affiliate-marketing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/affiliate-marketing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/SKILL.md"
+    },
+    {
+      "path": "tracking-compliance.md",
+      "downloadPath": "skills/affiliate-marketing/tracking-compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/tracking-compliance.md"
+    }
+  ]
+}

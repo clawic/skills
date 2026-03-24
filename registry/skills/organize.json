@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "organize",
+    "name": "Organize",
+    "description": "Proactively organize while working. Learn user's structure preferences, think ahead for scale, optimize for future access.",
+    "summary": "Core Principle Organization isn't a separate task—it happens while you work. Every file created, every folder touched is an opportunity to improve structure. Think ahead: how will this scale? How will it be accessed late",
+    "repositoryPath": "skills/organize",
+    "manifestPath": "registry/skills/organize.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/organize/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/_meta.json"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/organize/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/patterns.md"
+    },
+    {
+      "path": "principles.md",
+      "downloadPath": "skills/organize/principles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/principles.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/organize/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/SKILL.md"
+    }
+  ]
+}

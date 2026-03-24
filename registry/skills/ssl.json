@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ssl",
+    "name": "SSL",
+    "description": "Set up HTTPS, manage TLS certificates, and debug secure connection issues.",
+    "version": "1.0.2",
+    "summary": "Triggers Activate on: SSL certificate, HTTPS setup, Let's Encrypt, certbot, TLS configuration, certificate expired, mixed content, certificate chain error. Core Tasks | Task | Tool/Method | |------|-------------| | Get f",
+    "repositoryPath": "skills/ssl",
+    "manifestPath": "registry/skills/ssl.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ssl/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/_meta.json"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/ssl/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/formats.md"
+    },
+    {
+      "path": "servers.md",
+      "downloadPath": "skills/ssl/servers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/servers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ssl/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/ssl/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/troubleshooting.md"
+    }
+  ]
+}

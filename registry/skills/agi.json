@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "agi",
+    "name": "AGI / Artificial General Intelligence",
+    "description": "Think like a human. Reason, plan, adapt, create, and know your limits.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/agi",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use Every interaction. This skill transforms HOW you think, not WHAT you do. Activate alongside any other skill to add human-level reasoning, planni",
+    "repositoryPath": "skills/agi",
+    "manifestPath": "registry/skills/agi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/agi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/_meta.json"
+    },
+    {
+      "path": "blindspots.md",
+      "downloadPath": "skills/agi/blindspots.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/blindspots.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/agi/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/memory-template.md"
+    },
+    {
+      "path": "reasoning.md",
+      "downloadPath": "skills/agi/reasoning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/reasoning.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/agi/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/agi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "music",
+    "name": "Music",
+    "description": "Build a personal music system for tracking discoveries, favorites, concerts, and listening memories.",
+    "summary": "Core Behavior - User shares song/album → offer to save with context - User asks for music → check their saved collection first - User mentions concert → track in events - Create `~/music/` as workspace File Structure ```",
+    "repositoryPath": "skills/music",
+    "manifestPath": "registry/skills/music.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/music/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/music/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "raspberry",
+    "name": "Raspberry Pi",
+    "description": "Set up and maintain Raspberry Pi avoiding common hardware and configuration pitfalls.",
+    "summary": "Power Supply Issues - Lightning bolt icon = undervoltage — random crashes, corruption, weird behavior until fixed - Pi 4/5 needs 3A+ supply — older 2A adapters cause instability - USB peripherals draw from Pi's power bud",
+    "repositoryPath": "skills/raspberry",
+    "manifestPath": "registry/skills/raspberry.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/raspberry/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/raspberry/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/raspberry/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/raspberry/SKILL.md"
+    }
+  ]
+}

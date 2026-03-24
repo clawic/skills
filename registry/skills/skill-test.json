@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "skill-test",
+    "name": "Skill Test",
+    "description": "Test skills before using or publishing. Trial, compare, evaluate in isolation without affecting your environment.",
+    "summary": "Test Skills Safely Two use cases: 1. **Try before commit** — Test drive skills before installing 2. **Evaluate before publish** — Verify quality before publishing **Key principle:** Test in isolation. Never affect user's",
+    "repositoryPath": "skills/skill-test",
+    "manifestPath": "registry/skills/skill-test.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/skill-test/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/_meta.json"
+    },
+    {
+      "path": "compare.md",
+      "downloadPath": "skills/skill-test/compare.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/compare.md"
+    },
+    {
+      "path": "evaluate.md",
+      "downloadPath": "skills/skill-test/evaluate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/evaluate.md"
+    },
+    {
+      "path": "sandbox.md",
+      "downloadPath": "skills/skill-test/sandbox.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/sandbox.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-test/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/SKILL.md"
+    }
+  ]
+}

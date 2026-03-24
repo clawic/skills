@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "chainlink",
+    "name": "Chainlink",
+    "description": "Assist with Chainlink LINK tokens, oracle integrations, staking, and price feed usage.",
+    "summary": "LINK Token Basics - LINK is an ERC-20 token on Ethereum — standard wallet and exchange support - Also available on multiple chains — Arbitrum, Optimism, Polygon, Avalanche, BSC - Bridging LINK between chains uses officia",
+    "repositoryPath": "skills/chainlink",
+    "manifestPath": "registry/skills/chainlink.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/chainlink/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/chainlink/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "article",
+    "name": "Article",
+    "description": "Create compelling articles using journalistic standards and engagement optimization for maximum reader impact.",
+    "summary": "Lead Hook Formula Deploy opening patterns that immediately capture attention: - **Question hook**: \"What if everything you know about X is wrong?\" - **Statistic hook**: \"83% of professionals make this critical mistake da",
+    "repositoryPath": "skills/article",
+    "manifestPath": "registry/skills/article.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/article/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/article/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/article/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/article/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "workflow",
+    "name": "Workflow",
+    "description": "Build automated pipelines with reusable components, data flow between nodes, and state management.",
+    "version": "1.0.0",
+    "summary": "Architecture Workflows live in `workflows/` with components and flows: ``` workflows/ ├── index.md # Inventory with tags ├── components/ │ ├── connections/ # Auth configs │ ├── nodes/ # Reusable operations │ └── triggers",
+    "repositoryPath": "skills/workflow",
+    "manifestPath": "registry/skills/workflow.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/workflow/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/_meta.json"
+    },
+    {
+      "path": "components.md",
+      "downloadPath": "skills/workflow/components.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/components.md"
+    },
+    {
+      "path": "data-flow.md",
+      "downloadPath": "skills/workflow/data-flow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/data-flow.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/workflow/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/errors.md"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/workflow/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/lifecycle.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/workflow/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/SKILL.md"
+    },
+    {
+      "path": "state.md",
+      "downloadPath": "skills/workflow/state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/state.md"
+    },
+    {
+      "path": "structure.md",
+      "downloadPath": "skills/workflow/structure.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/structure.md"
+    }
+  ]
+}

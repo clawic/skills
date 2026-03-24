@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "temu",
+    "name": "Temu",
+    "description": "Shop smarter on Temu with price tracking, review analysis, scam detection, and shipping optimization.",
+    "version": "1.0.0",
+    "summary": "When to Use User wants to buy from Temu without getting scammed. Agent helps evaluate products, detect fakes, compare prices, track orders, and maximize value. Quick Reference | Topic | File | |-------|------| | Review a",
+    "repositoryPath": "skills/temu",
+    "manifestPath": "registry/skills/temu.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/temu/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/_meta.json"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/temu/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/pricing.md"
+    },
+    {
+      "path": "reviews.md",
+      "downloadPath": "skills/temu/reviews.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/reviews.md"
+    },
+    {
+      "path": "scams.md",
+      "downloadPath": "skills/temu/scams.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/scams.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/temu/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "vibe-marketing",
+    "name": "Vibe Marketing",
+    "description": "Run marketing campaigns with AI automation. Covers content generation, workflow automation, copy that sounds human, and rapid testing.",
+    "version": "1.0.0",
+    "summary": "What is Vibe Marketing Marketing where you describe what you want and let AI generate content, copy, and campaigns. You iterate based on results rather than crafting every word manually. Inspired by vibe coding — same ph",
+    "repositoryPath": "skills/vibe-marketing",
+    "manifestPath": "registry/skills/vibe-marketing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/vibe-marketing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/_meta.json"
+    },
+    {
+      "path": "automation.md",
+      "downloadPath": "skills/vibe-marketing/automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/automation.md"
+    },
+    {
+      "path": "content.md",
+      "downloadPath": "skills/vibe-marketing/content.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/content.md"
+    },
+    {
+      "path": "humanize.md",
+      "downloadPath": "skills/vibe-marketing/humanize.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/humanize.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/vibe-marketing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/SKILL.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/vibe-marketing/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/testing.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/vibe-marketing/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/tools.md"
+    }
+  ]
+}

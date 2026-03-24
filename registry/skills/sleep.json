@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sleep",
+    "name": "Sleep",
+    "description": "Auto-learns your sleep patterns. Absorbs data from wearables, conversations, and observations.",
+    "version": "1.0.1",
+    "summary": "Auto-Adaptive Sleep Tracking This skill auto-evolves. Fills in as you learn how the user sleeps and what affects it. **Rules:** - Absorb sleep mentions from ANY source (wearables, conversations, spontaneous comments) - D",
+    "repositoryPath": "skills/sleep",
+    "manifestPath": "registry/skills/sleep.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sleep/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/_meta.json"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/sleep/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/patterns.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sleep/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/sleep/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/sources.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bengali",
+    "name": "Bengali",
+    "description": "Write Bengali that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Bengali is technically correct but sounds off. Too formal. Too শুদ্ধ (pure). Natives write more casually, mixing registers naturally. Match that. Formality Default Default register is too high. Casual",
+    "repositoryPath": "skills/bengali",
+    "manifestPath": "registry/skills/bengali.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bengali/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bengali/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bengali/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bengali/SKILL.md"
+    }
+  ]
+}

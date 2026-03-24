@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bash",
+    "name": "Bash",
+    "description": "Write reliable Bash scripts with proper quoting, error handling, and parameter expansion.",
+    "version": "1.0.2",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Arrays and loops | `arrays.md` | | Parameter expansion | `expansion.md` | | Error handling patterns | `errors.md` | | Testing and conditionals | `testing.md` | Quoting ",
+    "repositoryPath": "skills/bash",
+    "manifestPath": "registry/skills/bash.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bash/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json"
+    },
+    {
+      "path": "arrays.md",
+      "downloadPath": "skills/bash/arrays.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arrays.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/bash/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/errors.md"
+    },
+    {
+      "path": "expansion.md",
+      "downloadPath": "skills/bash/expansion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/expansion.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bash/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/bash/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/testing.md"
+    }
+  ]
+}

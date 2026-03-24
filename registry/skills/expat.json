@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "expat",
+    "name": "Expat Companion",
+    "description": "Plan and track international moves with visa timelines, document checklists, and country-specific guides.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/expat",
+    "summary": "Expat Companion 🌍 Your relocation co-pilot. From first research to fully settled. Setup On first use, read `setup.md` for onboarding guidelines. Start the conversation naturally — focus on understanding their situation ",
+    "repositoryPath": "skills/expat",
+    "manifestPath": "registry/skills/expat.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/expat/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/_meta.json"
+    },
+    {
+      "path": "countries.md",
+      "downloadPath": "skills/expat/countries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/countries.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/expat/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/expat/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/expat/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/SKILL.md"
+    }
+  ]
+}

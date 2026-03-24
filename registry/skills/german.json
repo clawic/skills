@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "german",
+    "name": "German",
+    "description": "Write German that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI German is technically correct but sounds off. Too formal. Too Hochdeutsch. Too stiff. Natives write more directly, with particles and casual flow. Match that. Formality Default Default register is too",
+    "repositoryPath": "skills/german",
+    "manifestPath": "registry/skills/german.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/german/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/german/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/german/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/german/SKILL.md"
+    }
+  ]
+}

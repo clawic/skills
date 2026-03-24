@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "hiring",
+    "name": "Hiring",
+    "description": "Hire humans or AI agents for tasks you cannot do yourself, with platform selection, vetting, contracts, and payment management.",
+    "summary": "Platform Selection | Task Type | Platform | Why | |-----------|----------|-----| | Development, design, writing | Upwork, Freelancer.com | Large talent pool, escrow, reviews | | Quick fixed-price tasks | Fiverr | Predefi",
+    "repositoryPath": "skills/hiring",
+    "manifestPath": "registry/skills/hiring.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/hiring/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/_meta.json"
+    },
+    {
+      "path": "agents.md",
+      "downloadPath": "skills/hiring/agents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/agents.md"
+    },
+    {
+      "path": "contracts.md",
+      "downloadPath": "skills/hiring/contracts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/contracts.md"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/hiring/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/legal.md"
+    },
+    {
+      "path": "physical.md",
+      "downloadPath": "skills/hiring/physical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/physical.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/hiring/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/platforms.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/hiring/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "time-management",
+    "name": "Time Management",
+    "description": "Plan days, prioritize tasks, and protect focus time with time blocking, weekly reviews, and energy-aware scheduling.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/time-management",
+    "summary": "Setup On first use, read `setup.md` silently and start the conversation naturally. Never mention \"setup\" or file names to the user. When to Use User needs help planning their day, prioritizing tasks, or protecting time f",
+    "repositoryPath": "skills/time-management",
+    "manifestPath": "registry/skills/time-management.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/time-management/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/time-management/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/memory-template.md"
+    },
+    {
+      "path": "prioritization.md",
+      "downloadPath": "skills/time-management/prioritization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/prioritization.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/time-management/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/time-management/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/SKILL.md"
+    },
+    {
+      "path": "time-blocking.md",
+      "downloadPath": "skills/time-management/time-blocking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/time-blocking.md"
+    },
+    {
+      "path": "traps.md",
+      "downloadPath": "skills/time-management/traps.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/traps.md"
+    },
+    {
+      "path": "weekly-review.md",
+      "downloadPath": "skills/time-management/weekly-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/weekly-review.md"
+    }
+  ]
+}

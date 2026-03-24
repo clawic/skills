@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bun",
+    "name": "Bun",
+    "description": "Build with Bun runtime avoiding Node.js compatibility traps, bundler pitfalls, and package manager gotchas.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs Bun expertise — fast JavaScript/TypeScript runtime, bundler, and package manager. Agent handles migration from Node, bundling for web/server, and troubleshooting compatibility issues. Quick Referen",
+    "repositoryPath": "skills/bun",
+    "manifestPath": "registry/skills/bun.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bun/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/_meta.json"
+    },
+    {
+      "path": "bundler.md",
+      "downloadPath": "skills/bun/bundler.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/bundler.md"
+    },
+    {
+      "path": "node-compat.md",
+      "downloadPath": "skills/bun/node-compat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/node-compat.md"
+    },
+    {
+      "path": "packages.md",
+      "downloadPath": "skills/bun/packages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/packages.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bun/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/SKILL.md"
+    }
+  ]
+}

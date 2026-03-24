@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "agency",
+    "name": "Agency",
+    "description": "Build and operate a service agency with client management, project tracking, pricing, and team coordination.",
+    "version": "1.0.1",
+    "summary": "When to Use User wants to start or scale a service agency: marketing, development, design, consulting, content, automation, or any service business. Agent handles operations so human focuses on clients and strategy. Quic",
+    "repositoryPath": "skills/agency",
+    "manifestPath": "registry/skills/agency.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/agency/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/_meta.json"
+    },
+    {
+      "path": "by-type.md",
+      "downloadPath": "skills/agency/by-type.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/by-type.md"
+    },
+    {
+      "path": "communication.md",
+      "downloadPath": "skills/agency/communication.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/communication.md"
+    },
+    {
+      "path": "deliverables.md",
+      "downloadPath": "skills/agency/deliverables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/deliverables.md"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/agency/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/feedback.md"
+    },
+    {
+      "path": "onboarding.md",
+      "downloadPath": "skills/agency/onboarding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/onboarding.md"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/agency/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/pricing.md"
+    },
+    {
+      "path": "projects.md",
+      "downloadPath": "skills/agency/projects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/projects.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/agency/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/SKILL.md"
+    },
+    {
+      "path": "team.md",
+      "downloadPath": "skills/agency/team.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/team.md"
+    }
+  ]
+}

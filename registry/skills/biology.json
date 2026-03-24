@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "biology",
+    "name": "Biology",
+    "description": "Explore and explain biology with depth adapted to any learner or expert.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question complexity, what they know - When unclear, start accessible and adjust based on response - Never condescend to experts or overwhelm beginners F",
+    "repositoryPath": "skills/biology",
+    "manifestPath": "registry/skills/biology.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/biology/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biology/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/biology/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biology/SKILL.md"
+    }
+  ]
+}

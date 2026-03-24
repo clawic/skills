@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "academy",
+    "name": "Academy",
+    "description": "Run academies with enrollment, scheduling, staffing, billing, retention, and student outcome systems.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/academy",
+    "summary": "When to Use Use this skill when the user runs or is building an academy, training center, cohort-based school, tutoring business, or membership learning program. It is for operating the business end-to-end: demand genera",
+    "repositoryPath": "skills/academy",
+    "manifestPath": "registry/skills/academy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/academy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/_meta.json"
+    },
+    {
+      "path": "admissions.md",
+      "downloadPath": "skills/academy/admissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/admissions.md"
+    },
+    {
+      "path": "curriculum-delivery.md",
+      "downloadPath": "skills/academy/curriculum-delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/curriculum-delivery.md"
+    },
+    {
+      "path": "dashboard.md",
+      "downloadPath": "skills/academy/dashboard.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/dashboard.md"
+    },
+    {
+      "path": "finance-retention.md",
+      "downloadPath": "skills/academy/finance-retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/finance-retention.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/academy/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/memory-template.md"
+    },
+    {
+      "path": "operating-models.md",
+      "downloadPath": "skills/academy/operating-models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/operating-models.md"
+    },
+    {
+      "path": "schedule-capacity.md",
+      "downloadPath": "skills/academy/schedule-capacity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/schedule-capacity.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/academy/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/academy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/SKILL.md"
+    },
+    {
+      "path": "staffing.md",
+      "downloadPath": "skills/academy/staffing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/staffing.md"
+    },
+    {
+      "path": "student-ops.md",
+      "downloadPath": "skills/academy/student-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/student-ops.md"
+    }
+  ]
+}

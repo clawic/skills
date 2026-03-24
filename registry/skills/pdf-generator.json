@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "pdf-generator",
+    "name": "PDF Generator",
+    "description": "Generate professional PDFs from Markdown, HTML, data, or code. Reports, invoices, contracts, and documents with best practices.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/pdf-generator",
+    "summary": "When to Use User needs to create, generate, or export PDF documents. Agent handles document generation from multiple sources (Markdown, HTML, JSON, templates), formatting, styling, and batch processing. Scope This skill ",
+    "repositoryPath": "skills/pdf-generator",
+    "manifestPath": "registry/skills/pdf-generator.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pdf-generator/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/_meta.json"
+    },
+    {
+      "path": "advanced.md",
+      "downloadPath": "skills/pdf-generator/advanced.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/advanced.md"
+    },
+    {
+      "path": "EXTRA_FILES.txt",
+      "downloadPath": "skills/pdf-generator/EXTRA_FILES.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/EXTRA_FILES.txt"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pdf-generator/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/pdf-generator/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/templates.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/pdf-generator/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pdf-generator/tools.md"
+    }
+  ]
+}

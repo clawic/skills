@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "triage",
+    "name": "Triage",
+    "description": "Auto-learns to prioritize tasks by urgency, impact, and user patterns. Grows smarter with each decision.",
+    "summary": "Auto-Adaptive Priority Memory This skill auto-evolves. Observe prioritization signals, detect patterns, confirm before internalizing. **Core Loop:** 1. **Assess** — When tasks arrive, evaluate urgency + importance 2. **C",
+    "repositoryPath": "skills/triage",
+    "manifestPath": "registry/skills/triage.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/triage/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/_meta.json"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/triage/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/patterns.md"
+    },
+    {
+      "path": "signals.md",
+      "downloadPath": "skills/triage/signals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/signals.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/triage/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/SKILL.md"
+    }
+  ]
+}

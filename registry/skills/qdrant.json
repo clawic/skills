@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "description": "Build vector search with Qdrant using collections, payloads, filtering, and optimized indexing for semantic similarity.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs vector similarity search, semantic search, or recommendation systems. Agent handles collection design, point insertion, filtered queries, and index optimization. Quick Reference | Topic | File | |-",
+    "repositoryPath": "skills/qdrant",
+    "manifestPath": "registry/skills/qdrant.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/qdrant/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/_meta.json"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/qdrant/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/performance.md"
+    },
+    {
+      "path": "queries.md",
+      "downloadPath": "skills/qdrant/queries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/queries.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/qdrant/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/SKILL.md"
+    }
+  ]
+}

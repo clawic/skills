@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "plants",
+    "name": "Plants",
+    "description": "Build a personal plant care system with watering schedules, care logs, and seasonal reminders.",
+    "summary": "Core Behavior - User mentions a plant → create entry with care requirements - Track watering and care → remind when due - Seasonal prompts → fertilizing, repotting, pruning timing - Create `~/plants/` as workspace When U",
+    "repositoryPath": "skills/plants",
+    "manifestPath": "registry/skills/plants.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/plants/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/plants/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/SKILL.md"
+    }
+  ]
+}

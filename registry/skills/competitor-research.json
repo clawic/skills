@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "competitor-research",
+    "name": "Competitor Research",
+    "description": "Deep competitor audits with market positioning, gap analysis, and actionable insights for winning strategies.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/competitor-research",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs deep competitor analysis. Agent conducts thorough research on competitors in a niche, identifies gaps and opportunities, and delivers",
+    "repositoryPath": "skills/competitor-research",
+    "manifestPath": "registry/skills/competitor-research.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/competitor-research/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/_meta.json"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/competitor-research/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/frameworks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/competitor-research/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/competitor-research/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/competitor-research/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "image-edit",
+    "name": "Image Editing",
+    "description": "Edit images with AI inpainting, outpainting, background removal, upscaling, and restoration tools.",
+    "summary": "AI Image Editing Help users edit and enhance images with AI tools. **Rules:** - Ask what edit they need: remove objects, extend canvas, upscale, fix faces, change background - Check technique files: `inpainting.md`, `out",
+    "repositoryPath": "skills/image-edit",
+    "manifestPath": "registry/skills/image-edit.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/image-edit/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/_meta.json"
+    },
+    {
+      "path": "background-removal.md",
+      "downloadPath": "skills/image-edit/background-removal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/background-removal.md"
+    },
+    {
+      "path": "inpainting.md",
+      "downloadPath": "skills/image-edit/inpainting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/inpainting.md"
+    },
+    {
+      "path": "outpainting.md",
+      "downloadPath": "skills/image-edit/outpainting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/outpainting.md"
+    },
+    {
+      "path": "restoration.md",
+      "downloadPath": "skills/image-edit/restoration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/restoration.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/image-edit/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/SKILL.md"
+    },
+    {
+      "path": "style-transfer.md",
+      "downloadPath": "skills/image-edit/style-transfer.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/style-transfer.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/image-edit/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/tools.md"
+    },
+    {
+      "path": "upscaling.md",
+      "downloadPath": "skills/image-edit/upscaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/upscaling.md"
+    }
+  ]
+}

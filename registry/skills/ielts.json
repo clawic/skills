@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ielts",
+    "name": "IELTS",
+    "description": "Prepare for IELTS Academic or General Training with progress tracking, weak area analysis, band score targeting, and immigration pathway guidance.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for IELTS (International English Language Testing System). Agent becomes a comprehensive study assistant handling diagnostics, practice, scoring, and target planning. Quick Reference | Topic",
+    "repositoryPath": "skills/ielts",
+    "manifestPath": "registry/skills/ielts.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ielts/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/_meta.json"
+    },
+    {
+      "path": "exam-config.md",
+      "downloadPath": "skills/ielts/exam-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/exam-config.md"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/ielts/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/feedback.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ielts/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/SKILL.md"
+    },
+    {
+      "path": "study-methods.md",
+      "downloadPath": "skills/ielts/study-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/study-methods.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/ielts/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/targets.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/ielts/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/ielts/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/user-types.md"
+    }
+  ]
+}

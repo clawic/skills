@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dermatologist",
+    "name": "Dermatologist",
+    "description": "Track skin lesions, rashes, photos, treatment response, and dermatology visit prep with conservative triage, case-based records, and privacy guardrails.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dermatologist",
+    "summary": "When to Use Use when the user needs skin-photo comparison, case tracking, treatment-response logging, or dermatologist visit prep. This is for conservative triage and documentation, not prescribing. Architecture Memory l",
+    "repositoryPath": "skills/dermatologist",
+    "manifestPath": "registry/skills/dermatologist.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dermatologist/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/_meta.json"
+    },
+    {
+      "path": "consult-prep.md",
+      "downloadPath": "skills/dermatologist/consult-prep.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/consult-prep.md"
+    },
+    {
+      "path": "consult-workflow.md",
+      "downloadPath": "skills/dermatologist/consult-workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/consult-workflow.md"
+    },
+    {
+      "path": "intake.md",
+      "downloadPath": "skills/dermatologist/intake.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/intake.md"
+    },
+    {
+      "path": "legal-boundaries.md",
+      "downloadPath": "skills/dermatologist/legal-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/legal-boundaries.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/dermatologist/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/memory-template.md"
+    },
+    {
+      "path": "photo-protocol.md",
+      "downloadPath": "skills/dermatologist/photo-protocol.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/photo-protocol.md"
+    },
+    {
+      "path": "red-flags.md",
+      "downloadPath": "skills/dermatologist/red-flags.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/red-flags.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/dermatologist/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dermatologist/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/dermatologist/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/tracking.md"
+    },
+    {
+      "path": "treatment-log.md",
+      "downloadPath": "skills/dermatologist/treatment-log.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/treatment-log.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/dermatologist/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dermatologist/triage.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "housing",
+    "name": "Housing",
+    "description": "Buy, rent, or invest in property with market analysis, legal compliance, and cost estimation.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs help with real estate decisions: buying first home, renting apartments, investing in property, or managing rentals as landlord. Agent handles research, analysis, comparisons, and compliance checks.",
+    "repositoryPath": "skills/housing",
+    "manifestPath": "registry/skills/housing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/housing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/_meta.json"
+    },
+    {
+      "path": "buying.md",
+      "downloadPath": "skills/housing/buying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/buying.md"
+    },
+    {
+      "path": "investing.md",
+      "downloadPath": "skills/housing/investing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/investing.md"
+    },
+    {
+      "path": "landlord.md",
+      "downloadPath": "skills/housing/landlord.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/landlord.md"
+    },
+    {
+      "path": "renting.md",
+      "downloadPath": "skills/housing/renting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/renting.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/housing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/SKILL.md"
+    }
+  ]
+}

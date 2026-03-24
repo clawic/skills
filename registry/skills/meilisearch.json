@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "description": "Deploy and tune Meilisearch with indexing, filtering, and production configuration.",
+    "summary": "Index Configuration Traps - filterableAttributes and sortableAttributes must be declared BEFORE adding documents — adding later triggers full reindex - Changing any index setting triggers reindex — batch all setting chan",
+    "repositoryPath": "skills/meilisearch",
+    "manifestPath": "registry/skills/meilisearch.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/meilisearch/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meilisearch/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/meilisearch/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meilisearch/SKILL.md"
+    }
+  ]
+}

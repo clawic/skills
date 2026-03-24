@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "description": "Run ChatGPT with stronger prompts, Projects, GPTs, memory boundaries, and output QA for research, writing, analysis, and planning.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/chatgpt",
+    "summary": "Setup On first use, read `setup.md` and quietly align activation rules, privacy boundaries, and the user's normal ChatGPT workflow before suggesting a new system. When to Use User wants better results from ChatGPT itself",
+    "repositoryPath": "skills/chatgpt",
+    "manifestPath": "registry/skills/chatgpt.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/chatgpt/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/chatgpt/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/memory-template.md"
+    },
+    {
+      "path": "output-qa.md",
+      "downloadPath": "skills/chatgpt/output-qa.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/output-qa.md"
+    },
+    {
+      "path": "project-playbook.md",
+      "downloadPath": "skills/chatgpt/project-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/project-playbook.md"
+    },
+    {
+      "path": "prompt-packets.md",
+      "downloadPath": "skills/chatgpt/prompt-packets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/prompt-packets.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/chatgpt/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/chatgpt/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/SKILL.md"
+    },
+    {
+      "path": "surfaces.md",
+      "downloadPath": "skills/chatgpt/surfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/surfaces.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/chatgpt/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/troubleshooting.md"
+    }
+  ]
+}

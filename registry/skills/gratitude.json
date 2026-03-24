@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "gratitude",
+    "name": "Gratitude",
+    "description": "Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.",
+    "summary": "Core Behavior - Help user log what they're grateful for - Surface patterns and insights over time - Help identify gratitude when they're stuck - Create `~/gratitude/` as workspace File Structure ``` ~/gratitude/ ├── log/",
+    "repositoryPath": "skills/gratitude",
+    "manifestPath": "registry/skills/gratitude.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/gratitude/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/gratitude/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/SKILL.md"
+    }
+  ]
+}

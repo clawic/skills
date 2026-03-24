@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "authorization",
+    "name": "Authorization",
+    "description": "Build secure access control with RBAC, ABAC, permissions, policies, and scope-based authorization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/authorization",
+    "summary": "When to Use User needs to control what actions users can perform. Agent handles permission design, role hierarchies, policy evaluation, and access control middleware. Quick Reference | Topic | File | |-------|------| | R",
+    "repositoryPath": "skills/authorization",
+    "manifestPath": "registry/skills/authorization.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/authorization/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/_meta.json"
+    },
+    {
+      "path": "middleware.md",
+      "downloadPath": "skills/authorization/middleware.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/middleware.md"
+    },
+    {
+      "path": "models.md",
+      "downloadPath": "skills/authorization/models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/models.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/authorization/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/patterns.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/authorization/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/SKILL.md"
+    }
+  ]
+}

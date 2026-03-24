@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "imap",
+    "name": "IMAP",
+    "description": "Read, search, and sync IMAP mailboxes with UID-safe fetches, precise filters, and attachment-aware workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/imap",
+    "summary": "When to Use Use this skill when the user needs to inspect or operate an IMAP mailbox across Gmail, Fastmail, ProtonMail Bridge, Exchange-compatible gateways, or self-hosted mail servers. Activate it for inbox search, unr",
+    "repositoryPath": "skills/imap",
+    "manifestPath": "registry/skills/imap.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/imap/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/_meta.json"
+    },
+    {
+      "path": "attachments.md",
+      "downloadPath": "skills/imap/attachments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/attachments.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/imap/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/memory-template.md"
+    },
+    {
+      "path": "search-and-fetch.md",
+      "downloadPath": "skills/imap/search-and-fetch.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/search-and-fetch.md"
+    },
+    {
+      "path": "session-strategy.md",
+      "downloadPath": "skills/imap/session-strategy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/session-strategy.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/imap/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/imap/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/SKILL.md"
+    },
+    {
+      "path": "state-and-flags.md",
+      "downloadPath": "skills/imap/state-and-flags.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/state-and-flags.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/imap/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/troubleshooting.md"
+    }
+  ]
+}

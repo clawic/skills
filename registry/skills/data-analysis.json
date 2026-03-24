@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "data-analysis",
+    "name": "Data Analysis",
+    "description": "Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) you need to analyze, visualize, or explain data; (2) the user wants reports, dashboards, or metrics turned into a decision; (3) the work involves SQL, Python, spreadsheets, BI tools, or notebooks; (4) you need to compare segments, cohorts, funnels, experiments, or time periods; (5) the user explicitly installs or references the skill for the current task.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/data-analysis",
+    "summary": "When to Use Use this skill when the user needs to analyze, explain, or visualize data from SQL, spreadsheets, notebooks, dashboards, exports, or ad hoc tables. Use it for KPI debugging, experiment readouts, funnel or coh",
+    "repositoryPath": "skills/data-analysis",
+    "manifestPath": "registry/skills/data-analysis.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/data-analysis/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/_meta.json"
+    },
+    {
+      "path": "chart-selection.md",
+      "downloadPath": "skills/data-analysis/chart-selection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/chart-selection.md"
+    },
+    {
+      "path": "decision-briefs.md",
+      "downloadPath": "skills/data-analysis/decision-briefs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/decision-briefs.md"
+    },
+    {
+      "path": "metric-contracts.md",
+      "downloadPath": "skills/data-analysis/metric-contracts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/metric-contracts.md"
+    },
+    {
+      "path": "pitfalls.md",
+      "downloadPath": "skills/data-analysis/pitfalls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/pitfalls.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/data-analysis/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/SKILL.md"
+    },
+    {
+      "path": "techniques.md",
+      "downloadPath": "skills/data-analysis/techniques.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/techniques.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dns",
+    "name": "DNS",
+    "description": "Configure DNS records correctly with proper TTLs, email authentication, and migration strategies.",
+    "summary": "Pre-Migration TTL - Lower TTL to 300s at least 48h before changing records—current TTL must expire first - Check current cached TTL before planning: `dig +nocmd +noall +answer example.com` - After migration stable 24h, r",
+    "repositoryPath": "skills/dns",
+    "manifestPath": "registry/skills/dns.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dns/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dns/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dns/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dns/SKILL.md"
+    }
+  ]
+}

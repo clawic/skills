@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "journal",
+    "name": "Journal",
+    "description": "Build a personal journaling practice with prompts, reflection, and pattern discovery.",
+    "summary": "Core Behavior - User wants to write → provide space, optional prompts - No pressure, no judgment → journaling should feel safe - Surface patterns when asked → insights from past entries - Create `~/journal/` as workspace",
+    "repositoryPath": "skills/journal",
+    "manifestPath": "registry/skills/journal.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/journal/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/journal/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/SKILL.md"
+    }
+  ]
+}

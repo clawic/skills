@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "interior-design",
+    "name": "Interior Design",
+    "description": "Coordinate interior design projects with space verification, supplier localization, and staged decision-making.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs help with interior spaces: renovation planning, furniture selection, material calculations, rental optimization, staging, or product visualization in rooms. Architecture Project data in `~/interior",
+    "repositoryPath": "skills/interior-design",
+    "manifestPath": "registry/skills/interior-design.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/interior-design/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/_meta.json"
+    },
+    {
+      "path": "calculations.md",
+      "downloadPath": "skills/interior-design/calculations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/calculations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/interior-design/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/memory-template.md"
+    },
+    {
+      "path": "photography.md",
+      "downloadPath": "skills/interior-design/photography.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/photography.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/interior-design/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/SKILL.md"
+    },
+    {
+      "path": "spaces.md",
+      "downloadPath": "skills/interior-design/spaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/spaces.md"
+    },
+    {
+      "path": "staging.md",
+      "downloadPath": "skills/interior-design/staging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/staging.md"
+    },
+    {
+      "path": "styles.md",
+      "downloadPath": "skills/interior-design/styles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/interior-design/styles.md"
+    }
+  ]
+}

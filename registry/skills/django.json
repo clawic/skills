@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "django",
+    "name": "Django",
+    "description": "Build secure Django apps avoiding ORM pitfalls, N+1 queries, and common security traps.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | QuerySet lazy eval, N+1, transactions | `orm.md` | | Request handling, middleware, context | `views.md` | | Validation, CSRF, file uploads | `forms.md` | | Migrations, ",
+    "repositoryPath": "skills/django",
+    "manifestPath": "registry/skills/django.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/django/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/_meta.json"
+    },
+    {
+      "path": "async.md",
+      "downloadPath": "skills/django/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/async.md"
+    },
+    {
+      "path": "forms.md",
+      "downloadPath": "skills/django/forms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/forms.md"
+    },
+    {
+      "path": "models.md",
+      "downloadPath": "skills/django/models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/models.md"
+    },
+    {
+      "path": "orm.md",
+      "downloadPath": "skills/django/orm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/orm.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/django/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/django/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/SKILL.md"
+    },
+    {
+      "path": "views.md",
+      "downloadPath": "skills/django/views.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/views.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tron",
+    "name": "TRON",
+    "description": "Assist with TRON TRX transactions, bandwidth, energy, and TRC-20 token transfers.",
+    "summary": "Resource Model (Critical) - TRON uses bandwidth and energy instead of gas — different from Ethereum - Bandwidth for simple transfers — TRX transfers and basic operations - Energy for smart contracts — TRC-20 tokens and d",
+    "repositoryPath": "skills/tron",
+    "manifestPath": "registry/skills/tron.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tron/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tron/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cpa",
+    "name": "CPA",
+    "description": "Prepare for the CPA exam with section-order strategy, 18-month window tracking, score analysis, and state eligibility guidance.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for the CPA (Certified Public Accountant) exam. Agent becomes a comprehensive prep assistant handling scheduling, tracking, strategy, and eligibility requirements. Quick Reference | Topic | ",
+    "repositoryPath": "skills/cpa",
+    "manifestPath": "registry/skills/cpa.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cpa/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/_meta.json"
+    },
+    {
+      "path": "exam-format.md",
+      "downloadPath": "skills/cpa/exam-format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/exam-format.md"
+    },
+    {
+      "path": "international.md",
+      "downloadPath": "skills/cpa/international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/international.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cpa/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/SKILL.md"
+    },
+    {
+      "path": "strategies.md",
+      "downloadPath": "skills/cpa/strategies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/strategies.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/cpa/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/cpa/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/user-types.md"
+    }
+  ]
+}

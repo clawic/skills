@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "shelly",
+    "name": "Shelly",
+    "description": "Control and automate Shelly devices with local RPC workflows, secure access modes, cloud API coordination, and safe multi-device execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/shelly",
+    "summary": "Setup On first use, read `setup.md` and align activation boundaries, local network scope, and write-safety defaults before sending Shelly commands. When to Use Use this skill when the user needs practical Shelly executio",
+    "repositoryPath": "skills/shelly",
+    "manifestPath": "registry/skills/shelly.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/shelly/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/_meta.json"
+    },
+    {
+      "path": "auth-and-access.md",
+      "downloadPath": "skills/shelly/auth-and-access.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/auth-and-access.md"
+    },
+    {
+      "path": "device-operations.md",
+      "downloadPath": "skills/shelly/device-operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/device-operations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/shelly/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/memory-template.md"
+    },
+    {
+      "path": "orchestration-playbooks.md",
+      "downloadPath": "skills/shelly/orchestration-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/orchestration-playbooks.md"
+    },
+    {
+      "path": "protocol-matrix.md",
+      "downloadPath": "skills/shelly/protocol-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/protocol-matrix.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/shelly/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/shelly/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/shelly/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/troubleshooting.md"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "compress",
+    "name": "Compress",
+    "description": "Compress text semantically with iterative validation, anchor checksums, and verified information preservation.",
+    "summary": "⚠️ Important Limitations **This is SEMANTIC compression, not bit-perfect lossless.** - L1-L2: Verified reconstruction, production-ready - L3-L4: Experimental, may lose subtle information - **Never use for:** Medical dosa",
+    "repositoryPath": "skills/compress",
+    "manifestPath": "registry/skills/compress.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/compress/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/_meta.json"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/compress/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/formats.md"
+    },
+    {
+      "path": "levels.md",
+      "downloadPath": "skills/compress/levels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/levels.md"
+    },
+    {
+      "path": "metrics.md",
+      "downloadPath": "skills/compress/metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/metrics.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/compress/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/SKILL.md"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/compress/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/validation.md"
+    }
+  ]
+}

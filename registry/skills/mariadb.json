@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mariadb",
+    "name": "MariaDB",
+    "description": "Write efficient MariaDB queries with proper indexing, temporal tables, and clustering.",
+    "summary": "Character Set - Always use `utf8mb4` for tables and connections—full Unicode including emoji - `utf8mb4_unicode_ci` for proper linguistic sorting, `utf8mb4_bin` for byte comparison - Set connection charset: `SET NAMES ut",
+    "repositoryPath": "skills/mariadb",
+    "manifestPath": "registry/skills/mariadb.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mariadb/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mariadb/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mariadb/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mariadb/SKILL.md"
+    }
+  ]
+}

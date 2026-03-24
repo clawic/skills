@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "airdrop",
+    "name": "AirDrop",
+    "description": "Send local files to nearby Apple devices through AirDrop with macOS guardrails, staging checks, and automation-friendly workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/airdrop",
+    "summary": "When to Use User wants the agent to send a local file, export, screenshot, log bundle, or review artifact to a nearby Apple device with AirDrop. Agent handles file staging, confirmation, local handoff, and mode selection",
+    "repositoryPath": "skills/airdrop",
+    "manifestPath": "registry/skills/airdrop.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/airdrop/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/_meta.json"
+    },
+    {
+      "path": "airdrop-send.sh",
+      "downloadPath": "skills/airdrop/airdrop-send.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.sh"
+    },
+    {
+      "path": "airdrop-send.swift",
+      "downloadPath": "skills/airdrop/airdrop-send.swift",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.swift"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/airdrop/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/airdrop/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/airdrop/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/airdrop/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/troubleshooting.md"
+    },
+    {
+      "path": "workflow-recipes.md",
+      "downloadPath": "skills/airdrop/workflow-recipes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/workflow-recipes.md"
+    }
+  ]
+}

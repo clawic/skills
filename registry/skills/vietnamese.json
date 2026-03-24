@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "vietnamese",
+    "name": "Vietnamese",
+    "description": "Write Vietnamese that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Vietnamese is technically correct but sounds off. Too formal. Too textbook. Natives write more casually, with appropriate pronouns and particles. Match that. Formality Default Default register is too ",
+    "repositoryPath": "skills/vietnamese",
+    "manifestPath": "registry/skills/vietnamese.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/vietnamese/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vietnamese/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/vietnamese/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vietnamese/SKILL.md"
+    }
+  ]
+}

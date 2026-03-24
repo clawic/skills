@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bioinformatics",
+    "name": "Bioinformatics",
+    "description": "Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bioinformatics",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/bioinformatics/` with user consent to store project context and preferences. When to Use User needs to analyze biological sequences, run genomic p",
+    "repositoryPath": "skills/bioinformatics",
+    "manifestPath": "registry/skills/bioinformatics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bioinformatics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/_meta.json"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/bioinformatics/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/formats.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/bioinformatics/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/memory-template.md"
+    },
+    {
+      "path": "rnaseq.md",
+      "downloadPath": "skills/bioinformatics/rnaseq.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/rnaseq.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/bioinformatics/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bioinformatics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/bioinformatics/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/tools.md"
+    },
+    {
+      "path": "variants.md",
+      "downloadPath": "skills/bioinformatics/variants.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/variants.md"
+    }
+  ]
+}

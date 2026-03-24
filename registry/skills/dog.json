@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dog",
+    "name": "Dog",
+    "description": "Track dog health, walks, training, routines, travel, and vet coordination with species-aware memory and emergency triage.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dog",
+    "summary": "Setup On first use, read `setup.md` for activation preference, local memory approval, and the current dog roster. Keep setup light and continue helping immediately. When to Use User talks about a dog or puppy they live w",
+    "repositoryPath": "skills/dog",
+    "manifestPath": "registry/skills/dog.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dog/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/_meta.json"
+    },
+    {
+      "path": "behavior.md",
+      "downloadPath": "skills/dog/behavior.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/behavior.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/dog/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/memory-template.md"
+    },
+    {
+      "path": "records.md",
+      "downloadPath": "skills/dog/records.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/records.md"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/dog/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/routines.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/dog/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dog/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/SKILL.md"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/dog/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/training.md"
+    },
+    {
+      "path": "travel.md",
+      "downloadPath": "skills/dog/travel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/travel.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/dog/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dog/triage.md"
+    }
+  ]
+}

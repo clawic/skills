@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "indie-hacker",
+    "name": "Indie Hacker",
+    "description": "Build profitable products as a solo founder with validation-first approach, time protection, and brutal honesty.",
+    "version": "1.0.0",
+    "summary": "Architecture Project context lives in `~/indie-hacker/` with per-project tracking. See `memory-template.md` for setup. ``` ~/indie-hacker/ ├── memory.md # Active projects, current priorities ├── projects/ # Per-project: ",
+    "repositoryPath": "skills/indie-hacker",
+    "manifestPath": "registry/skills/indie-hacker.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/indie-hacker/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/_meta.json"
+    },
+    {
+      "path": "distribution.md",
+      "downloadPath": "skills/indie-hacker/distribution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/distribution.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/indie-hacker/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/memory-template.md"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/indie-hacker/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/pricing.md"
+    },
+    {
+      "path": "productivity.md",
+      "downloadPath": "skills/indie-hacker/productivity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/productivity.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/indie-hacker/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/SKILL.md"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/indie-hacker/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indie-hacker/validation.md"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "task-list",
+    "name": "Task List",
+    "description": "Run a conversational task list with Inbox, Today, Upcoming, recurring tasks, waiting items, projects, and review loops that stay trustworthy.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/task-list",
+    "summary": "Setup On first use, read `setup.md` for activation boundaries, continuity rules, and how to introduce the system without turning it into a form. When to Use User wants to manage a task list by talking naturally instead o",
+    "repositoryPath": "skills/task-list",
+    "manifestPath": "registry/skills/task-list.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/task-list/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/_meta.json"
+    },
+    {
+      "path": "capture-and-clarify.md",
+      "downloadPath": "skills/task-list/capture-and-clarify.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/capture-and-clarify.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/task-list/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/memory-template.md"
+    },
+    {
+      "path": "recurrence-and-waiting.md",
+      "downloadPath": "skills/task-list/recurrence-and-waiting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/recurrence-and-waiting.md"
+    },
+    {
+      "path": "review-rhythm.md",
+      "downloadPath": "skills/task-list/review-rhythm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/review-rhythm.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/task-list/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/task-list/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/SKILL.md"
+    },
+    {
+      "path": "views-and-sorting.md",
+      "downloadPath": "skills/task-list/views-and-sorting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/views-and-sorting.md"
+    },
+    {
+      "path": "workspace-format.md",
+      "downloadPath": "skills/task-list/workspace-format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/workspace-format.md"
+    }
+  ]
+}

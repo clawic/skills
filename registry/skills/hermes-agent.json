@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "hermes-agent",
+    "name": "Hermes Agent",
+    "description": "Turn OpenClaw into a learning-loop agent with seeded workspace rules, skill promotion, reflective memory, and proactive maintenance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hermes-agent",
+    "summary": "When to Use User wants OpenClaw to feel more persistent, more self-correcting, and more proactive across sessions. Agent handles workspace seeding, reflective memory, repeated-workflow capture, and promotion of reusable ",
+    "repositoryPath": "skills/hermes-agent",
+    "manifestPath": "registry/skills/hermes-agent.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/hermes-agent/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/_meta.json"
+    },
+    {
+      "path": "loop.md",
+      "downloadPath": "skills/hermes-agent/loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/loop.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/hermes-agent/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/memory-template.md"
+    },
+    {
+      "path": "openclaw-seed.md",
+      "downloadPath": "skills/hermes-agent/openclaw-seed.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/openclaw-seed.md"
+    },
+    {
+      "path": "promotion.md",
+      "downloadPath": "skills/hermes-agent/promotion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/promotion.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/hermes-agent/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/hermes-agent/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/SKILL.md"
+    }
+  ]
+}

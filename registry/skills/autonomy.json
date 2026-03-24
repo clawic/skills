@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "autonomy",
+    "name": "Autonomy",
+    "description": "Expand agent capabilities by identifying tasks where human approval adds no value. Systematic delegation.",
+    "version": "1.0.1",
+    "summary": "Data Storage ``` ~/autonomy/ ├── tracking.md # What's been delegated, success rates ├── proposals.md # Pending takeover proposals └── rejected.md # User declined, don't re-propose ``` Create on first use: `mkdir -p ~/aut",
+    "repositoryPath": "skills/autonomy",
+    "manifestPath": "registry/skills/autonomy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/autonomy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/_meta.json"
+    },
+    {
+      "path": "bottlenecks.md",
+      "downloadPath": "skills/autonomy/bottlenecks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/bottlenecks.md"
+    },
+    {
+      "path": "expansion.md",
+      "downloadPath": "skills/autonomy/expansion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/expansion.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/autonomy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/SKILL.md"
+    }
+  ]
+}

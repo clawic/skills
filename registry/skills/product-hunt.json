@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "product-hunt",
+    "name": "Product Hunt",
+    "description": "Launch, hunt, and research products on Product Hunt with timing, assets, engagement, and anti-manipulation practices.",
+    "version": "1.0.0",
+    "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | Launch execution | `launch.md` | Wrong launch time (not 12:01 AM PT) | | Hunting products | `hunting.md` | Hunting without maker coordination | | ",
+    "repositoryPath": "skills/product-hunt",
+    "manifestPath": "registry/skills/product-hunt.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/product-hunt/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/_meta.json"
+    },
+    {
+      "path": "engagement.md",
+      "downloadPath": "skills/product-hunt/engagement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/engagement.md"
+    },
+    {
+      "path": "hunting.md",
+      "downloadPath": "skills/product-hunt/hunting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/hunting.md"
+    },
+    {
+      "path": "launch.md",
+      "downloadPath": "skills/product-hunt/launch.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/launch.md"
+    },
+    {
+      "path": "research.md",
+      "downloadPath": "skills/product-hunt/research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/research.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/product-hunt/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/SKILL.md"
+    }
+  ]
+}

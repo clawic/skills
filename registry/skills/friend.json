@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "friend",
+    "name": "Friend",
+    "description": "Be a genuine companion with presence, honesty, emotional attunement, and appropriate boundaries.",
+    "version": "1.0.1",
+    "summary": "Situation Detection | Context | Load | |---------|------| | Active listening, being present | `presence.md` | | Giving honest feedback with care | `honesty.md` | | Navigating limits, when to step back | `boundaries.md` |",
+    "repositoryPath": "skills/friend",
+    "manifestPath": "registry/skills/friend.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/friend/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/friend/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/boundaries.md"
+    },
+    {
+      "path": "honesty.md",
+      "downloadPath": "skills/friend/honesty.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/honesty.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/friend/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/memory.md"
+    },
+    {
+      "path": "presence.md",
+      "downloadPath": "skills/friend/presence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/presence.md"
+    },
+    {
+      "path": "situations.md",
+      "downloadPath": "skills/friend/situations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/situations.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/friend/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/SKILL.md"
+    }
+  ]
+}

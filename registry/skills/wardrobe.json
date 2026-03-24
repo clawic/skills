@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "wardrobe",
+    "name": "Wardrobe",
+    "description": "Build a personal wardrobe system for cataloging clothes, planning outfits, and mindful shopping.",
+    "summary": "Core Behavior - User mentions clothing → offer to catalog - Help plan outfits → based on what they own - Support mindful shopping → do you really need it? - Create `~/wardrobe/` as workspace Use Cases - Know what you own",
+    "repositoryPath": "skills/wardrobe",
+    "manifestPath": "registry/skills/wardrobe.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/wardrobe/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/wardrobe/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "hacker-news",
+    "name": "Hacker News",
+    "description": "Search and browse Hacker News with API access to stories, comments, users, and hiring threads.",
+    "version": "1.0.0",
+    "summary": "Quick Reference | Topic | File | |-------|------| | API endpoints | `api.md` | | Search patterns | `search.md` | Core Rules 1. Two APIs Available | API | Use Case | Base URL | |-----|----------|----------| | Official HN ",
+    "repositoryPath": "skills/hacker-news",
+    "manifestPath": "registry/skills/hacker-news.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/hacker-news/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/_meta.json"
+    },
+    {
+      "path": "api.md",
+      "downloadPath": "skills/hacker-news/api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/api.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/hacker-news/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/search.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/hacker-news/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/SKILL.md"
+    }
+  ]
+}

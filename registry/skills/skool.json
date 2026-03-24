@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "skool",
+    "name": "Skool",
+    "description": "Operate Skool communities with onboarding, classroom planning, calendar cadence, official automations, and safer member lifecycle workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/skool",
+    "summary": "When to Use User needs help running Skool as a real operating system, not just writing generic community advice. Agent handles group positioning, approvals, onboarding, classroom access, calendar cadence, official automa",
+    "repositoryPath": "skills/skool",
+    "manifestPath": "registry/skills/skool.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/skool/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/_meta.json"
+    },
+    {
+      "path": "automation-and-integrations.md",
+      "downloadPath": "skills/skool/automation-and-integrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/automation-and-integrations.md"
+    },
+    {
+      "path": "classroom-and-calendar.md",
+      "downloadPath": "skills/skool/classroom-and-calendar.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/classroom-and-calendar.md"
+    },
+    {
+      "path": "community-operations.md",
+      "downloadPath": "skills/skool/community-operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/community-operations.md"
+    },
+    {
+      "path": "member-lifecycle.md",
+      "downloadPath": "skills/skool/member-lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/member-lifecycle.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/skool/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/memory-template.md"
+    },
+    {
+      "path": "official-surface.md",
+      "downloadPath": "skills/skool/official-surface.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/official-surface.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/skool/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skool/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/skool/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/troubleshooting.md"
+    }
+  ]
+}

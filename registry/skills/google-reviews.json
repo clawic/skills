@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "google-reviews",
+    "name": "Google Reviews",
+    "description": "Research Google Maps and Shopping reviews for any company. Run multi-brand monitoring with heartbeat refreshes and sentiment reports.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/google-reviews",
+    "summary": "Setup On first use, read `setup.md` to prioritize company-level review research and then define optional monitoring cadence. When to Use Use this skill when the user wants to research review signals about any company acr",
+    "repositoryPath": "skills/google-reviews",
+    "manifestPath": "registry/skills/google-reviews.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/google-reviews/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/_meta.json"
+    },
+    {
+      "path": "heartbeat-recipes.md",
+      "downloadPath": "skills/google-reviews/heartbeat-recipes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/heartbeat-recipes.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/google-reviews/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/memory-template.md"
+    },
+    {
+      "path": "reporting-playbook.md",
+      "downloadPath": "skills/google-reviews/reporting-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/reporting-playbook.md"
+    },
+    {
+      "path": "review-schema.md",
+      "downloadPath": "skills/google-reviews/review-schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/review-schema.md"
+    },
+    {
+      "path": "sentiment-rules.md",
+      "downloadPath": "skills/google-reviews/sentiment-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/sentiment-rules.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/google-reviews/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/google-reviews/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/SKILL.md"
+    },
+    {
+      "path": "source-connectors.md",
+      "downloadPath": "skills/google-reviews/source-connectors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/source-connectors.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "naming",
+    "name": "Naming",
+    "description": "Create, test, and choose names for products, features, APIs, files, and systems with constraint-first briefs and collision checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/naming",
+    "summary": "When to Use Naming work appears when the user needs a name that other people must understand, remember, say, search, or implement correctly. Use this for products, brands, features, APIs, packages, files, folders, intern",
+    "repositoryPath": "skills/naming",
+    "manifestPath": "registry/skills/naming.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/naming/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/_meta.json"
+    },
+    {
+      "path": "brief-template.md",
+      "downloadPath": "skills/naming/brief-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/brief-template.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/naming/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/memory-template.md"
+    },
+    {
+      "path": "rename-playbook.md",
+      "downloadPath": "skills/naming/rename-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/rename-playbook.md"
+    },
+    {
+      "path": "scorecard.md",
+      "downloadPath": "skills/naming/scorecard.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/scorecard.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/naming/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/naming/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/SKILL.md"
+    },
+    {
+      "path": "surface-patterns.md",
+      "downloadPath": "skills/naming/surface-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/surface-patterns.md"
+    }
+  ]
+}

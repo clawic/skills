@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "personal-finance-tracker",
+    "name": "Personal Finance Tracker",
+    "description": "Track personal finances with cashflow reviews, recurring bill detection, debt triage, CSV imports, and net worth snapshots.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/personal-finance-tracker",
+    "summary": "Personal Finance Tracker Personal finance tracker for cashflow control, recurring bills, debt pressure, and weekly money decisions. Setup On first use, read `setup.md` for integration guidelines. Ask before creating `~/p",
+    "repositoryPath": "skills/personal-finance-tracker",
+    "manifestPath": "registry/skills/personal-finance-tracker.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/personal-finance-tracker/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/_meta.json"
+    },
+    {
+      "path": "cashflow_rollup.py",
+      "downloadPath": "skills/personal-finance-tracker/cashflow_rollup.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/cashflow_rollup.py"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/personal-finance-tracker/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/commands.md"
+    },
+    {
+      "path": "csv-schema.md",
+      "downloadPath": "skills/personal-finance-tracker/csv-schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/csv-schema.md"
+    },
+    {
+      "path": "debt-triage.md",
+      "downloadPath": "skills/personal-finance-tracker/debt-triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/debt-triage.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/personal-finance-tracker/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/memory-template.md"
+    },
+    {
+      "path": "recurring_scan.py",
+      "downloadPath": "skills/personal-finance-tracker/recurring_scan.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/recurring_scan.py"
+    },
+    {
+      "path": "review-rhythm.md",
+      "downloadPath": "skills/personal-finance-tracker/review-rhythm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/review-rhythm.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/personal-finance-tracker/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/personal-finance-tracker/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/SKILL.md"
+    }
+  ]
+}

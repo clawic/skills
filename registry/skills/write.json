@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "write",
+    "name": "Write",
+    "description": "Plan, draft, version, and refine written content with enforced versioning and quality audits.",
+    "summary": "Setup On first use, create workspace: ```bash ./scripts/init-workspace.sh ~/writing ``` Workflow ``` Request → Plan → Draft → Audit → Refine → Deliver ``` **Rules:** - Delegate all writing to sub-agents — main stays free",
+    "repositoryPath": "skills/write",
+    "manifestPath": "registry/skills/write.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/write/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/_meta.json"
+    },
+    {
+      "path": "audit.md",
+      "downloadPath": "skills/write/audit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.md"
+    },
+    {
+      "path": "audit.sh",
+      "downloadPath": "skills/write/audit.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.sh"
+    },
+    {
+      "path": "brief.md",
+      "downloadPath": "skills/write/brief.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/brief.md"
+    },
+    {
+      "path": "cleanup.sh",
+      "downloadPath": "skills/write/cleanup.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/cleanup.sh"
+    },
+    {
+      "path": "criteria.md",
+      "downloadPath": "skills/write/criteria.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/criteria.md"
+    },
+    {
+      "path": "edit.sh",
+      "downloadPath": "skills/write/edit.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/edit.sh"
+    },
+    {
+      "path": "execution.md",
+      "downloadPath": "skills/write/execution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/execution.md"
+    },
+    {
+      "path": "init-workspace.sh",
+      "downloadPath": "skills/write/init-workspace.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/init-workspace.sh"
+    },
+    {
+      "path": "list.sh",
+      "downloadPath": "skills/write/list.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/list.sh"
+    },
+    {
+      "path": "new-piece.sh",
+      "downloadPath": "skills/write/new-piece.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/new-piece.sh"
+    },
+    {
+      "path": "research.md",
+      "downloadPath": "skills/write/research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/research.md"
+    },
+    {
+      "path": "restore.sh",
+      "downloadPath": "skills/write/restore.sh",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/restore.sh"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/write/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/SKILL.md"
+    },
+    {
+      "path": "state.md",
+      "downloadPath": "skills/write/state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/state.md"
+    },
+    {
+      "path": "verification.md",
+      "downloadPath": "skills/write/verification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/verification.md"
+    },
+    {
+      "path": "versioning.md",
+      "downloadPath": "skills/write/versioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/versioning.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "food-delivery",
+    "name": "Food Delivery",
+    "description": "Choose and order food with learned preferences, price comparison, and variety protection.",
+    "version": "1.0.0",
+    "summary": "When to Use User wants their agent to handle the entire food ordering process — from deciding what to eat, through comparing options, to placing the actual order. Agent learns preferences over time and makes increasingly",
+    "repositoryPath": "skills/food-delivery",
+    "manifestPath": "registry/skills/food-delivery.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/food-delivery/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/_meta.json"
+    },
+    {
+      "path": "decisions.md",
+      "downloadPath": "skills/food-delivery/decisions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/decisions.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/food-delivery/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/memory-template.md"
+    },
+    {
+      "path": "ordering.md",
+      "downloadPath": "skills/food-delivery/ordering.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/ordering.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/food-delivery/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/SKILL.md"
+    },
+    {
+      "path": "traps.md",
+      "downloadPath": "skills/food-delivery/traps.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/traps.md"
+    }
+  ]
+}

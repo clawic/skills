@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sat",
+    "name": "SAT",
+    "description": "Prepare for the SAT with adaptive practice, score prediction, weak area targeting, and college admissions planning.",
+    "version": "1.0.1",
+    "summary": "When to Use User is preparing for the SAT (Scholastic Assessment Test) for US college admissions. Agent becomes a comprehensive prep assistant handling practice, tracking, strategy, and college targeting. Quick Reference",
+    "repositoryPath": "skills/sat",
+    "manifestPath": "registry/skills/sat.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sat/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/_meta.json"
+    },
+    {
+      "path": "colleges.md",
+      "downloadPath": "skills/sat/colleges.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/colleges.md"
+    },
+    {
+      "path": "exam-format.md",
+      "downloadPath": "skills/sat/exam-format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/exam-format.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sat/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/SKILL.md"
+    },
+    {
+      "path": "strategies.md",
+      "downloadPath": "skills/sat/strategies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/strategies.md"
+    },
+    {
+      "path": "techniques.md",
+      "downloadPath": "skills/sat/techniques.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/techniques.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/sat/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/sat/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/user-types.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tiktok-ads",
+    "name": "TikTok Ads",
+    "description": "TikTok advertising strategy, creative best practices, Spark Ads, and platform-specific optimization",
+    "summary": "Creative Rules - First 1-3 seconds determine everything — if viewers don't stop scrolling immediately, the rest doesn't matter - Native content outperforms ads — shoot vertical (9:16), use trending sounds, avoid polished",
+    "repositoryPath": "skills/tiktok-ads",
+    "manifestPath": "registry/skills/tiktok-ads.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tiktok-ads/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tiktok-ads/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tiktok-ads/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tiktok-ads/SKILL.md"
+    }
+  ]
+}

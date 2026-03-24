@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "html",
+    "name": "HTML",
+    "description": "Avoid common HTML mistakes — accessibility gaps, form pitfalls, and SEO oversights.",
+    "summary": "Layout Shift Prevention - `width` and `height` on `<img>` even with CSS sizing — browser reserves space before load - `aspect-ratio` in CSS as fallback — for responsive images without dimensions Form Gotchas - `autocompl",
+    "repositoryPath": "skills/html",
+    "manifestPath": "registry/skills/html.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/html/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/html/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/html/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/html/SKILL.md"
+    }
+  ]
+}

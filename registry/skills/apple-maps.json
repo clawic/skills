@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "apple-maps",
+    "name": "Apple Maps (MacOS)",
+    "description": "Search places, open routes, and run Apple Maps workflows on macOS using local CLI commands and shortcut automation with explicit safety checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/apple-maps",
+    "summary": "Setup On first use, follow `setup.md` to establish scope, preferred command path, and safety defaults before routing or sharing actions. When to Use User wants to search places, categories, addresses, and routes in Apple",
+    "repositoryPath": "skills/apple-maps",
+    "manifestPath": "registry/skills/apple-maps.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/apple-maps/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/_meta.json"
+    },
+    {
+      "path": "command-paths.md",
+      "downloadPath": "skills/apple-maps/command-paths.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/command-paths.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/apple-maps/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/memory-template.md"
+    },
+    {
+      "path": "operation-patterns.md",
+      "downloadPath": "skills/apple-maps/operation-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/operation-patterns.md"
+    },
+    {
+      "path": "safety-checklist.md",
+      "downloadPath": "skills/apple-maps/safety-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/safety-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/apple-maps/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apple-maps/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/apple-maps/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/troubleshooting.md"
+    }
+  ]
+}

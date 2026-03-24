@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "webhook",
+    "name": "Webhook",
+    "description": "Implement secure webhook receivers and senders with proper verification and reliability.",
+    "summary": "Receiving: Signature Verification - Always verify HMAC signature—payload can be forged; don't trust without signature - Common pattern: `HMAC-SHA256(secret, raw_body)` compared to header value - Use raw body bytes—parsed",
+    "repositoryPath": "skills/webhook",
+    "manifestPath": "registry/skills/webhook.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/webhook/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/webhook/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/SKILL.md"
+    }
+  ]
+}

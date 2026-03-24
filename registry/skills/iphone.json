@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "iphone",
+    "name": "iPhone",
+    "description": "Run iPhone mission playbooks for battery, storage, privacy, connectivity, and daily automation with live operator-style guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/iphone",
+    "summary": "Setup On first use, read `setup.md` to configure activation and operating style. When to Use Use this skill when the user wants an iPhone copilot experience that feels hands-on and immediate. Activate for battery emergen",
+    "repositoryPath": "skills/iphone",
+    "manifestPath": "registry/skills/iphone.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/iphone/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/iphone/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/memory-template.md"
+    },
+    {
+      "path": "mission-catalog.md",
+      "downloadPath": "skills/iphone/mission-catalog.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/mission-catalog.md"
+    },
+    {
+      "path": "optimization-ops.md",
+      "downloadPath": "skills/iphone/optimization-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/optimization-ops.md"
+    },
+    {
+      "path": "rescue-ladders.md",
+      "downloadPath": "skills/iphone/rescue-ladders.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/rescue-ladders.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/iphone/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/setup.md"
+    },
+    {
+      "path": "shortcuts-bridge.md",
+      "downloadPath": "skills/iphone/shortcuts-bridge.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/shortcuts-bridge.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/iphone/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/SKILL.md"
+    },
+    {
+      "path": "tap-script-engine.md",
+      "downloadPath": "skills/iphone/tap-script-engine.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/tap-script-engine.md"
+    }
+  ]
+}

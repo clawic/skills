@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "expedia",
+    "name": "Expedia",
+    "description": "Search Expedia stays, packages, cars, and activities, compare real trip costs, and run partner-safe booking workflows with web and API modes.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/expedia",
+    "summary": "When to Use User wants to work on Expedia directly: search or compare hotels, packages, cars, or activities, validate real trip cost, inspect cancellation and fee details, or prepare partner-safe Expedia booking flows. U",
+    "repositoryPath": "skills/expedia",
+    "manifestPath": "registry/skills/expedia.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/expedia/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/_meta.json"
+    },
+    {
+      "path": "access-boundaries.md",
+      "downloadPath": "skills/expedia/access-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/access-boundaries.md"
+    },
+    {
+      "path": "booking-gates.md",
+      "downloadPath": "skills/expedia/booking-gates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/booking-gates.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/expedia/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/memory-template.md"
+    },
+    {
+      "path": "rapid-lodging.md",
+      "downloadPath": "skills/expedia/rapid-lodging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/rapid-lodging.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/expedia/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/expedia/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/SKILL.md"
+    },
+    {
+      "path": "total-cost.md",
+      "downloadPath": "skills/expedia/total-cost.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/total-cost.md"
+    },
+    {
+      "path": "travel-redirect.md",
+      "downloadPath": "skills/expedia/travel-redirect.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/travel-redirect.md"
+    },
+    {
+      "path": "web-navigation.md",
+      "downloadPath": "skills/expedia/web-navigation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/web-navigation.md"
+    }
+  ]
+}

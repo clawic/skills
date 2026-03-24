@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "oauth",
+    "name": "OAuth",
+    "description": "Implement OAuth 2.0 and OpenID Connect flows securely.",
+    "summary": "Flow Selection - Authorization Code + PKCE: use for all clients—web apps, mobile, SPAs - Client Credentials: service-to-service only—no user context - Implicit flow: deprecated—don't use; was for SPAs before PKCE existed",
+    "repositoryPath": "skills/oauth",
+    "manifestPath": "registry/skills/oauth.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/oauth/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/oauth/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/SKILL.md"
+    }
+  ]
+}

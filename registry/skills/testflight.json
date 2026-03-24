@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "testflight",
+    "name": "TestFlight",
+    "description": "Distribute iOS and macOS beta builds with TestFlight, tester management, and CI/CD automation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/testflight",
+    "summary": "When to Use User needs to distribute beta builds via TestFlight. Agent handles App Store Connect setup, tester groups, build uploads, and CI/CD integration. Quick Reference | Topic | File | |-------|------| | CI/CD autom",
+    "repositoryPath": "skills/testflight",
+    "manifestPath": "registry/skills/testflight.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/testflight/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/_meta.json"
+    },
+    {
+      "path": "ci-cd.md",
+      "downloadPath": "skills/testflight/ci-cd.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/ci-cd.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/testflight/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "codex",
+    "name": "Codex",
+    "description": "Use Codex safely for repo-aware coding with explicit approvals, sandbox choices, MCP boundaries, and PR-ready verification workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/codex",
+    "summary": "When to Use User wants to use Codex as a real coding agent instead of a generic chat assistant: inspect a repo, make bounded edits, run review mode, resume work, use MCP safely, or hand work off with clear verification e",
+    "repositoryPath": "skills/codex",
+    "manifestPath": "registry/skills/codex.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/codex/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/_meta.json"
+    },
+    {
+      "path": "approvals-and-sandbox.md",
+      "downloadPath": "skills/codex/approvals-and-sandbox.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/approvals-and-sandbox.md"
+    },
+    {
+      "path": "install-and-auth.md",
+      "downloadPath": "skills/codex/install-and-auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/install-and-auth.md"
+    },
+    {
+      "path": "mcp-and-cloud.md",
+      "downloadPath": "skills/codex/mcp-and-cloud.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/mcp-and-cloud.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/codex/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/memory-template.md"
+    },
+    {
+      "path": "repo-execution.md",
+      "downloadPath": "skills/codex/repo-execution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/repo-execution.md"
+    },
+    {
+      "path": "review-and-handoffs.md",
+      "downloadPath": "skills/codex/review-and-handoffs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/review-and-handoffs.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/codex/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/codex/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/codex/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/troubleshooting.md"
+    }
+  ]
+}

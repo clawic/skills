@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bluetooth",
+    "name": "Bluetooth",
+    "description": "Discover, connect, and control Bluetooth devices with automatic profile learning, cross-platform tools, and device management.",
+    "summary": "Core Workflow 1. **Scan** — Discover nearby devices 2. **Identify** — Match against known profiles or learn new device 3. **Connect** — Establish link with appropriate protocol 4. **Execute** — Send commands, read data, ",
+    "repositoryPath": "skills/bluetooth",
+    "manifestPath": "registry/skills/bluetooth.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bluetooth/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/_meta.json"
+    },
+    {
+      "path": "profiles.md",
+      "downloadPath": "skills/bluetooth/profiles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/profiles.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/bluetooth/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bluetooth/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/bluetooth/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/tools.md"
+    },
+    {
+      "path": "use-cases.md",
+      "downloadPath": "skills/bluetooth/use-cases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/use-cases.md"
+    }
+  ]
+}

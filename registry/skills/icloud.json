@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "icloud",
+    "name": "iCloud",
+    "description": "Let agents operate your iCloud Drive, Photos, and Find My safely with local 2FA authentication and explicit confirmation gates.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/icloud",
+    "summary": "Setup On first use, read `setup.md` for secure integration guidelines. When to Use Use this skill when the user wants agents to interact with their own iCloud account: list devices, retrieve Find My status, inspect iClou",
+    "repositoryPath": "skills/icloud",
+    "manifestPath": "registry/skills/icloud.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/icloud/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/_meta.json"
+    },
+    {
+      "path": "auth-session.md",
+      "downloadPath": "skills/icloud/auth-session.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/auth-session.md"
+    },
+    {
+      "path": "drive-ops.md",
+      "downloadPath": "skills/icloud/drive-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/drive-ops.md"
+    },
+    {
+      "path": "findmy-ops.md",
+      "downloadPath": "skills/icloud/findmy-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/findmy-ops.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/icloud/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/memory-template.md"
+    },
+    {
+      "path": "photos-ops.md",
+      "downloadPath": "skills/icloud/photos-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/photos-ops.md"
+    },
+    {
+      "path": "safety-boundaries.md",
+      "downloadPath": "skills/icloud/safety-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/safety-boundaries.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/icloud/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/icloud/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/SKILL.md"
+    }
+  ]
+}

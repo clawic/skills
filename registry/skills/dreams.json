@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dreams",
+    "name": "Dreams",
+    "description": "Build a personal dream journal for recording, analyzing patterns, and exploring your subconscious.",
+    "summary": "Core Behavior - User describes dream → capture immediately with details - User asks about patterns → surface recurring themes - User curious about symbols → explore possible meanings - Create `~/dreams/` as workspace Fil",
+    "repositoryPath": "skills/dreams",
+    "manifestPath": "registry/skills/dreams.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dreams/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dreams/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/SKILL.md"
+    }
+  ]
+}

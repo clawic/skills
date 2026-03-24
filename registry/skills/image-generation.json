@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "image-generation",
+    "name": "AI Image Generation",
+    "description": "Create AI images with GPT Image, Gemini Nano Banana, FLUX, Imagen, and top providers using prompt engineering, style control, and smart editing.",
+    "version": "1.0.3",
+    "homepage": "https://clawic.com/skills/image-generation",
+    "summary": "Setup On first use, read `setup.md`. When to Use User needs AI-generated visuals, edits, or consistent image sets. Use this skill to pick the right model, write stronger prompts, and avoid outdated model choices. Archite",
+    "repositoryPath": "skills/image-generation",
+    "manifestPath": "registry/skills/image-generation.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/image-generation/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/_meta.json"
+    },
+    {
+      "path": "api-patterns.md",
+      "downloadPath": "skills/image-generation/api-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/api-patterns.md"
+    },
+    {
+      "path": "benchmarks-2026.md",
+      "downloadPath": "skills/image-generation/benchmarks-2026.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/benchmarks-2026.md"
+    },
+    {
+      "path": "flux.md",
+      "downloadPath": "skills/image-generation/flux.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/flux.md"
+    },
+    {
+      "path": "gemini.md",
+      "downloadPath": "skills/image-generation/gemini.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gemini.md"
+    },
+    {
+      "path": "gpt-image.md",
+      "downloadPath": "skills/image-generation/gpt-image.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gpt-image.md"
+    },
+    {
+      "path": "ideogram.md",
+      "downloadPath": "skills/image-generation/ideogram.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/ideogram.md"
+    },
+    {
+      "path": "leonardo.md",
+      "downloadPath": "skills/image-generation/leonardo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/leonardo.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/image-generation/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/memory-template.md"
+    },
+    {
+      "path": "midjourney.md",
+      "downloadPath": "skills/image-generation/midjourney.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/midjourney.md"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/image-generation/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/migration.md"
+    },
+    {
+      "path": "prompting.md",
+      "downloadPath": "skills/image-generation/prompting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/prompting.md"
+    },
+    {
+      "path": "replicate.md",
+      "downloadPath": "skills/image-generation/replicate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/replicate.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/image-generation/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/image-generation/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/SKILL.md"
+    },
+    {
+      "path": "stable-diffusion.md",
+      "downloadPath": "skills/image-generation/stable-diffusion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/stable-diffusion.md"
+    }
+  ]
+}

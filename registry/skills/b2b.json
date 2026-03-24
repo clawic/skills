@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "b2b",
+    "name": "B2B",
+    "description": "Close enterprise deals with qualification frameworks, prospecting research, pipeline management, and outreach personalization.",
+    "version": "1.0.0",
+    "summary": "When to Use Agent helps with B2B sales: prospecting, outreach, deal qualification, pipeline analysis, forecast reviews, or account strategy. Applies to founders selling enterprise, sales reps, or sales managers. Quick Re",
+    "repositoryPath": "skills/b2b",
+    "manifestPath": "registry/skills/b2b.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/b2b/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/_meta.json"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/b2b/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/frameworks.md"
+    },
+    {
+      "path": "outreach.md",
+      "downloadPath": "skills/b2b/outreach.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/outreach.md"
+    },
+    {
+      "path": "pipeline.md",
+      "downloadPath": "skills/b2b/pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/pipeline.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/b2b/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/SKILL.md"
+    }
+  ]
+}

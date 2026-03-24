@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "drawing",
+    "name": "Drawing",
+    "description": "Generate children's drawings and coloring pages with modular prompts, style packs, and print-ready constraints across image models.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/drawing",
+    "summary": "When to Use User needs original AI drawings, coloring pages, or simple educational illustrations, especially for children. Agent turns vague requests into model-portable prompts, age-appropriate style choices, and print-",
+    "repositoryPath": "skills/drawing",
+    "manifestPath": "registry/skills/drawing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/drawing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/_meta.json"
+    },
+    {
+      "path": "coloring-pages.md",
+      "downloadPath": "skills/drawing/coloring-pages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/coloring-pages.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/drawing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/memory-template.md"
+    },
+    {
+      "path": "model-portability.md",
+      "downloadPath": "skills/drawing/model-portability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/model-portability.md"
+    },
+    {
+      "path": "prompt-system.md",
+      "downloadPath": "skills/drawing/prompt-system.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/prompt-system.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/drawing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/drawing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/SKILL.md"
+    },
+    {
+      "path": "source-notes.md",
+      "downloadPath": "skills/drawing/source-notes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/source-notes.md"
+    },
+    {
+      "path": "style-packs.md",
+      "downloadPath": "skills/drawing/style-packs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/style-packs.md"
+    }
+  ]
+}

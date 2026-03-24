@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "gym",
+    "name": "Gym",
+    "description": "Log workouts, plan routines, track progress, and get intelligent coaching for any fitness level.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Routines, exercises, templates | `workouts.md` | | Progress tracking, volume, PRs | `progress.md` | | Injury adaptation, modifications | `adaptation.md` | | Gym nutriti",
+    "repositoryPath": "skills/gym",
+    "manifestPath": "registry/skills/gym.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/gym/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/_meta.json"
+    },
+    {
+      "path": "adaptation.md",
+      "downloadPath": "skills/gym/adaptation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/adaptation.md"
+    },
+    {
+      "path": "nutrition.md",
+      "downloadPath": "skills/gym/nutrition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/nutrition.md"
+    },
+    {
+      "path": "progress.md",
+      "downloadPath": "skills/gym/progress.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/progress.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/gym/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/SKILL.md"
+    },
+    {
+      "path": "workouts.md",
+      "downloadPath": "skills/gym/workouts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/workouts.md"
+    }
+  ]
+}

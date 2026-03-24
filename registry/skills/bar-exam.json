@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "bar-exam",
+    "name": "Bar Exam",
+    "description": "Prepare for the US Bar Exam with MBE practice, essay drilling, weak area targeting, and jurisdiction planning.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for a US Bar Exam. Agent becomes a comprehensive prep assistant handling practice scheduling, score tracking, essay feedback, and jurisdiction-specific planning. Quick Reference | Topic | Fi",
+    "repositoryPath": "skills/bar-exam",
+    "manifestPath": "registry/skills/bar-exam.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/bar-exam/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/_meta.json"
+    },
+    {
+      "path": "exam-format.md",
+      "downloadPath": "skills/bar-exam/exam-format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/exam-format.md"
+    },
+    {
+      "path": "mbe.md",
+      "downloadPath": "skills/bar-exam/mbe.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mbe.md"
+    },
+    {
+      "path": "mee.md",
+      "downloadPath": "skills/bar-exam/mee.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mee.md"
+    },
+    {
+      "path": "mpt.md",
+      "downloadPath": "skills/bar-exam/mpt.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mpt.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bar-exam/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/bar-exam/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/bar-exam/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/user-types.md"
+    }
+  ]
+}

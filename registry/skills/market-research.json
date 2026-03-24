@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "market-research",
+    "name": "Market Research",
+    "description": "Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use when (1) you need TAM, SAM, SOM, whitespace, or category sizing; (2) you must compare competitors, pricing, positioning, or customer segments before acting; (3) the user asks whether a niche, launch, expansion, or go-to-market bet is actually worth pursuing.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/market-research",
+    "summary": "When to Use Use this skill when the user needs market evidence, not just opinions. It should activate for market sizing, opportunity validation, competitor landscape work, segment selection, pricing research, whitespace ",
+    "repositoryPath": "skills/market-research",
+    "manifestPath": "registry/skills/market-research.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/market-research/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/_meta.json"
+    },
+    {
+      "path": "competitor-analysis.md",
+      "downloadPath": "skills/market-research/competitor-analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/competitor-analysis.md"
+    },
+    {
+      "path": "evidence-grading.md",
+      "downloadPath": "skills/market-research/evidence-grading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/evidence-grading.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/market-research/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/SKILL.md"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/market-research/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/validation.md"
+    }
+  ]
+}

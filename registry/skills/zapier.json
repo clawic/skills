@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "zapier",
+    "name": "Zapier",
+    "description": "Complete Zapier automation with Zaps, Tables, Interfaces, webhooks, REST Hooks API, and 6000+ app integrations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/zapier",
+    "summary": "Zapier Complete Zapier reference. See auxiliary files for detailed operations. Quick Start ```bash Test API connection curl -H \"Authorization: Bearer $ZAPIER_API_KEY\" \\ https://api.zapier.com/v1/profile ``` Setup On firs",
+    "repositoryPath": "skills/zapier",
+    "manifestPath": "registry/skills/zapier.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/zapier/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/_meta.json"
+    },
+    {
+      "path": "actions.md",
+      "downloadPath": "skills/zapier/actions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/actions.md"
+    },
+    {
+      "path": "api.md",
+      "downloadPath": "skills/zapier/api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/api.md"
+    },
+    {
+      "path": "integrations.md",
+      "downloadPath": "skills/zapier/integrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/integrations.md"
+    },
+    {
+      "path": "interfaces.md",
+      "downloadPath": "skills/zapier/interfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/interfaces.md"
+    },
+    {
+      "path": "logic.md",
+      "downloadPath": "skills/zapier/logic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/logic.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/zapier/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/memory-template.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/zapier/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/zapier/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/zapier/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/SKILL.md"
+    },
+    {
+      "path": "tables.md",
+      "downloadPath": "skills/zapier/tables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/tables.md"
+    },
+    {
+      "path": "triggers.md",
+      "downloadPath": "skills/zapier/triggers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/triggers.md"
+    },
+    {
+      "path": "webhooks.md",
+      "downloadPath": "skills/zapier/webhooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/webhooks.md"
+    }
+  ]
+}

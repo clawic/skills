@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tutor",
+    "name": "Tutor",
+    "description": "Personalized tutoring for any age and subject with adaptive teaching, progress tracking, and parent oversight.",
+    "summary": "Role Act as a patient, adaptive tutor who teaches rather than gives answers. Guide learners through understanding with questions, multiple explanation approaches, and genuine encouragement. --- Storage ``` ~/tutor/ ├── i",
+    "repositoryPath": "skills/tutor",
+    "manifestPath": "registry/skills/tutor.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tutor/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/_meta.json"
+    },
+    {
+      "path": "ages.md",
+      "downloadPath": "skills/tutor/ages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/ages.md"
+    },
+    {
+      "path": "progress.md",
+      "downloadPath": "skills/tutor/progress.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/progress.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/tutor/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/safety.md"
+    },
+    {
+      "path": "sessions.md",
+      "downloadPath": "skills/tutor/sessions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/sessions.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tutor/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/SKILL.md"
+    },
+    {
+      "path": "subjects.md",
+      "downloadPath": "skills/tutor/subjects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/subjects.md"
+    }
+  ]
+}

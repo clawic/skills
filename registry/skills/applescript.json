@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "applescript",
+    "name": "AppleScript",
+    "description": "Write and run safe AppleScript automation on macOS with dictionary discovery, robust quoting, and deterministic read-first workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/applescript",
+    "summary": "Setup On first use, follow `setup.md` to configure activation and safety preferences. Setup review is read-only. Any local file creation or modification requires explicit user confirmation. When to Use User needs AppleSc",
+    "repositoryPath": "skills/applescript",
+    "manifestPath": "registry/skills/applescript.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/applescript/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/_meta.json"
+    },
+    {
+      "path": "app-dictionary-workflow.md",
+      "downloadPath": "skills/applescript/app-dictionary-workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/app-dictionary-workflow.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/applescript/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/memory-template.md"
+    },
+    {
+      "path": "safety-checklist.md",
+      "downloadPath": "skills/applescript/safety-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/safety-checklist.md"
+    },
+    {
+      "path": "script-patterns.md",
+      "downloadPath": "skills/applescript/script-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/script-patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/applescript/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/applescript/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/applescript/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/troubleshooting.md"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "daily-planner",
+    "name": "Daily Planner",
+    "description": "Plan, protect, and execute your day with morning briefings, priority management, calendar blocking, and commitment tracking.",
+    "version": "1.0.0",
+    "summary": "Quick Reference | File | Purpose | |------|---------| | `profiles.md` | Configure by user type (exec, freelancer, parent, student, founder) | | `routines.md` | Morning briefing, evening review, weekly planning | | `prior",
+    "repositoryPath": "skills/daily-planner",
+    "manifestPath": "registry/skills/daily-planner.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/daily-planner/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/_meta.json"
+    },
+    {
+      "path": "calendar.md",
+      "downloadPath": "skills/daily-planner/calendar.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/calendar.md"
+    },
+    {
+      "path": "priorities.md",
+      "downloadPath": "skills/daily-planner/priorities.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/priorities.md"
+    },
+    {
+      "path": "profiles.md",
+      "downloadPath": "skills/daily-planner/profiles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/profiles.md"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/daily-planner/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/routines.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/daily-planner/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/daily-planner/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/tracking.md"
+    }
+  ]
+}

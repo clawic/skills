@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "real-estate-agent",
+    "name": "Real Estate Agent",
+    "description": "Your personal real estate agent. Find properties, get alerts on deals, sell or rent your home, and navigate any property decision.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/real-estate-agent",
+    "summary": "Setup On first use, read `setup.md` for onboarding guidelines. Be transparent about storing preferences locally — users should know their data stays on their machine. When to Use User discusses real estate: buying, selli",
+    "repositoryPath": "skills/real-estate-agent",
+    "manifestPath": "registry/skills/real-estate-agent.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/real-estate-agent/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/_meta.json"
+    },
+    {
+      "path": "analysis.md",
+      "downloadPath": "skills/real-estate-agent/analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/analysis.md"
+    },
+    {
+      "path": "EXTRA_FILES.txt",
+      "downloadPath": "skills/real-estate-agent/EXTRA_FILES.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/EXTRA_FILES.txt"
+    },
+    {
+      "path": "listing-optimization.md",
+      "downloadPath": "skills/real-estate-agent/listing-optimization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/listing-optimization.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/real-estate-agent/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/memory-template.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/real-estate-agent/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/memory.md"
+    },
+    {
+      "path": "portals.md",
+      "downloadPath": "skills/real-estate-agent/portals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/portals.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/real-estate-agent/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/real-estate-agent/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-agent/SKILL.md"
+    }
+  ]
+}

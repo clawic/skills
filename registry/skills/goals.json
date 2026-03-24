@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "goals",
+    "name": "Goals",
+    "description": "Build a personal goal-setting system with milestones, tracking, and regular reviews.",
+    "summary": "Core Behavior - User mentions an aspiration → help clarify and structure as goal - Track progress without nagging → surface when relevant - Regular reviews → quarterly and yearly reflection - Create `~/goals/` as workspa",
+    "repositoryPath": "skills/goals",
+    "manifestPath": "registry/skills/goals.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/goals/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/goals/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/goals/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/goals/SKILL.md"
+    }
+  ]
+}

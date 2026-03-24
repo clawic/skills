@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "anxiety",
+    "name": "Anxiety (Tracker, Trigger Map, Coping Planner)",
+    "description": "Track anxiety episodes, triggers, thoughts, and coping responses with therapy-ready logs, weekly trend reviews, and safety-first escalation cues.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/anxiety",
+    "summary": "Setup On first use, read `setup.md` for integration guidance and local memory initialization. When to Use User wants to track anxiety symptoms, panic episodes, worry spirals, avoidance patterns, or coping outcomes. Agent",
+    "repositoryPath": "skills/anxiety",
+    "manifestPath": "registry/skills/anxiety.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/anxiety/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/_meta.json"
+    },
+    {
+      "path": "event-log-template.md",
+      "downloadPath": "skills/anxiety/event-log-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/event-log-template.md"
+    },
+    {
+      "path": "exposure-ladder.md",
+      "downloadPath": "skills/anxiety/exposure-ladder.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/exposure-ladder.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/anxiety/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/memory-template.md"
+    },
+    {
+      "path": "regulation-playbook.md",
+      "downloadPath": "skills/anxiety/regulation-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/regulation-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/anxiety/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/anxiety/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/SKILL.md"
+    },
+    {
+      "path": "thought-record.md",
+      "downloadPath": "skills/anxiety/thought-record.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/thought-record.md"
+    },
+    {
+      "path": "tracking-modes.md",
+      "downloadPath": "skills/anxiety/tracking-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/tracking-modes.md"
+    },
+    {
+      "path": "triage-rules.md",
+      "downloadPath": "skills/anxiety/triage-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/triage-rules.md"
+    },
+    {
+      "path": "weekly-review.md",
+      "downloadPath": "skills/anxiety/weekly-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/weekly-review.md"
+    }
+  ]
+}

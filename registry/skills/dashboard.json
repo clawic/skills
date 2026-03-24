@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dashboard",
+    "name": "Dashboard",
+    "description": "Build custom dashboards from any data source with local hosting and visual QA loops.",
+    "version": "1.0.1",
+    "summary": "Data Storage ``` ~/dashboard/ ├── registry.json # Dashboard index ├── {name}/ │ ├── config.json # Layout, widgets │ ├── data.json # Current data │ └── index.html # Dashboard page ``` Create on first use: `mkdir -p ~/dash",
+    "repositoryPath": "skills/dashboard",
+    "manifestPath": "registry/skills/dashboard.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dashboard/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/_meta.json"
+    },
+    {
+      "path": "design.md",
+      "downloadPath": "skills/dashboard/design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/design.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dashboard/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/dashboard/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/sources.md"
+    },
+    {
+      "path": "widgets.md",
+      "downloadPath": "skills/dashboard/widgets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/widgets.md"
+    }
+  ]
+}

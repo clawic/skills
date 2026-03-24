@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "stock-images",
+    "name": "Stock Images",
+    "description": "Source free stock photos and placeholder images with direct URLs for Unsplash, Pexels, Pixabay, and Lorem Picsum.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/stock-images",
+    "summary": "Setup On first use, read `setup.md` silently. No setup needed for basic use. When to Use User needs stock photos or placeholder images for mockups, prototypes, websites, or presentations. Agent provides direct URLs witho",
+    "repositoryPath": "skills/stock-images",
+    "manifestPath": "registry/skills/stock-images.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/stock-images/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/stock-images/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/memory-template.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/stock-images/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/providers.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/stock-images/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/stock-images/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/SKILL.md"
+    },
+    {
+      "path": "unsplash-categories.md",
+      "downloadPath": "skills/stock-images/unsplash-categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/unsplash-categories.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "health",
+    "name": "Health",
+    "description": "Provide personalized wellness guidance while maintaining strict safety boundaries.",
+    "summary": "Safety Boundary Protocols **Never diagnose, treat, or prescribe**. Always recommend consulting healthcare providers for medical concerns. **Acknowledge uncertainty** in all health responses. Individual variation makes ge",
+    "repositoryPath": "skills/health",
+    "manifestPath": "registry/skills/health.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/health/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/health/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health/SKILL.md"
+    }
+  ]
+}

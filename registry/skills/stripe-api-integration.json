@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "stripe-api-integration",
+    "name": "Stripe API Integration",
+    "description": "Complete Stripe API integration for payments, subscriptions, checkout, invoices, webhooks, Connect, Issuing, Terminal, and Treasury.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/stripe-api-integration",
+    "summary": "Stripe API Integration Complete Stripe API reference. See auxiliary files for detailed operations. Quick Start ```bash curl https://api.stripe.com/v1/balance -u \"$STRIPE_SECRET_KEY:\" ``` Setup On first use, read `setup.m",
+    "repositoryPath": "skills/stripe-api-integration",
+    "manifestPath": "registry/skills/stripe-api-integration.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/stripe-api-integration/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/_meta.json"
+    },
+    {
+      "path": "advanced.md",
+      "downloadPath": "skills/stripe-api-integration/advanced.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/advanced.md"
+    },
+    {
+      "path": "checkout.md",
+      "downloadPath": "skills/stripe-api-integration/checkout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/checkout.md"
+    },
+    {
+      "path": "connect.md",
+      "downloadPath": "skills/stripe-api-integration/connect.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/connect.md"
+    },
+    {
+      "path": "customers.md",
+      "downloadPath": "skills/stripe-api-integration/customers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/customers.md"
+    },
+    {
+      "path": "invoices.md",
+      "downloadPath": "skills/stripe-api-integration/invoices.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/invoices.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/stripe-api-integration/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/memory-template.md"
+    },
+    {
+      "path": "payments.md",
+      "downloadPath": "skills/stripe-api-integration/payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/payments.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/stripe-api-integration/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/stripe-api-integration/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/SKILL.md"
+    },
+    {
+      "path": "subscriptions.md",
+      "downloadPath": "skills/stripe-api-integration/subscriptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/subscriptions.md"
+    },
+    {
+      "path": "webhooks.md",
+      "downloadPath": "skills/stripe-api-integration/webhooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/webhooks.md"
+    }
+  ]
+}

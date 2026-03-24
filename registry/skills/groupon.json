@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "groupon",
+    "name": "Groupon",
+    "description": "Find, compare, and vet Groupon vouchers with fine-print checks, refund rules, and redemption planning.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/groupon",
+    "summary": "When to Use Use this skill when the user wants help with Groupon deals, vouchers, or local offers and needs more than a headline discount. Use it for discovery, shortlist building, merchant validation, fine-print review,",
+    "repositoryPath": "skills/groupon",
+    "manifestPath": "registry/skills/groupon.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/groupon/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/_meta.json"
+    },
+    {
+      "path": "category-playbook.md",
+      "downloadPath": "skills/groupon/category-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/category-playbook.md"
+    },
+    {
+      "path": "deal-qualification.md",
+      "downloadPath": "skills/groupon/deal-qualification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/deal-qualification.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/groupon/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/memory-template.md"
+    },
+    {
+      "path": "merchant-checks.md",
+      "downloadPath": "skills/groupon/merchant-checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/merchant-checks.md"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/groupon/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/recovery.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/groupon/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/groupon/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/SKILL.md"
+    }
+  ]
+}

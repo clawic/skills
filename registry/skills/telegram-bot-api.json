@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "telegram-bot-api",
+    "name": "Telegram Bot API",
+    "description": "Build Telegram bots with correct API calls, message formatting, keyboards, and webhook setup.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/telegram-bot-api",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs to interact with the Telegram Bot API. Building bots, sending messages, handling updates, setting up webhooks, creating keyboards, or",
+    "repositoryPath": "skills/telegram-bot-api",
+    "manifestPath": "registry/skills/telegram-bot-api.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/telegram-bot-api/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/_meta.json"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/telegram-bot-api/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/errors.md"
+    },
+    {
+      "path": "formatting.md",
+      "downloadPath": "skills/telegram-bot-api/formatting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/formatting.md"
+    },
+    {
+      "path": "keyboards.md",
+      "downloadPath": "skills/telegram-bot-api/keyboards.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/keyboards.md"
+    },
+    {
+      "path": "media.md",
+      "downloadPath": "skills/telegram-bot-api/media.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/media.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/telegram-bot-api/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/memory-template.md"
+    },
+    {
+      "path": "methods.md",
+      "downloadPath": "skills/telegram-bot-api/methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/methods.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/telegram-bot-api/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/telegram-bot-api/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/SKILL.md"
+    },
+    {
+      "path": "webhooks.md",
+      "downloadPath": "skills/telegram-bot-api/webhooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/webhooks.md"
+    }
+  ]
+}

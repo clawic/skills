@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "fashion",
+    "name": "Fashion",
+    "description": "Style outfits, decode dress codes, and shop smart with body-aware advice, trend intelligence, and practical constraints.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs outfit advice, wardrobe strategy, shopping guidance, or style problem-solving. Agent handles everything from daily dressing to event preparation, adapting to body type, budget, climate, and lifesty",
+    "repositoryPath": "skills/fashion",
+    "manifestPath": "registry/skills/fashion.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/fashion/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/_meta.json"
+    },
+    {
+      "path": "fabrics.md",
+      "downloadPath": "skills/fashion/fabrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/fabrics.md"
+    },
+    {
+      "path": "occasions.md",
+      "downloadPath": "skills/fashion/occasions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/occasions.md"
+    },
+    {
+      "path": "shopping.md",
+      "downloadPath": "skills/fashion/shopping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/shopping.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fashion/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/SKILL.md"
+    },
+    {
+      "path": "styling.md",
+      "downloadPath": "skills/fashion/styling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/styling.md"
+    },
+    {
+      "path": "users.md",
+      "downloadPath": "skills/fashion/users.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/users.md"
+    }
+  ]
+}

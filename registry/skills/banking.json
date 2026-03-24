@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "banking",
+    "name": "Banking",
+    "description": "Manage retail and business banking workflows with payment operations, account controls, reconciliation, fraud response, and compliant communication.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/banking",
+    "summary": "Setup On first use, read `setup.md` for activation boundaries and context capture priorities. When to Use Use this skill for banking operations support: account onboarding workflows, payment operations, reconciliation tr",
+    "repositoryPath": "skills/banking",
+    "manifestPath": "registry/skills/banking.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/banking/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/_meta.json"
+    },
+    {
+      "path": "compliance-scope.md",
+      "downloadPath": "skills/banking/compliance-scope.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/compliance-scope.md"
+    },
+    {
+      "path": "customer-messaging.md",
+      "downloadPath": "skills/banking/customer-messaging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/customer-messaging.md"
+    },
+    {
+      "path": "incident-response.md",
+      "downloadPath": "skills/banking/incident-response.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/incident-response.md"
+    },
+    {
+      "path": "intake-checklist.md",
+      "downloadPath": "skills/banking/intake-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/intake-checklist.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/banking/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/memory-template.md"
+    },
+    {
+      "path": "payment-ops.md",
+      "downloadPath": "skills/banking/payment-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/payment-ops.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/banking/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/banking/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/SKILL.md"
+    }
+  ]
+}

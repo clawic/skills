@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mvp",
+    "name": "MVP",
+    "description": "Build, validate, and launch minimum viable products with scope discipline, user signals, and iteration speed.",
+    "summary": "First: Identify the User's Role Before guidance, determine their context: | Role | Key Focus | Load File | |------|-----------|-----------| | Technical Founder | Scope control, stop over-engineering | `roles/technical.md",
+    "repositoryPath": "skills/mvp",
+    "manifestPath": "registry/skills/mvp.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mvp/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/_meta.json"
+    },
+    {
+      "path": "investor.md",
+      "downloadPath": "skills/mvp/investor.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/investor.md"
+    },
+    {
+      "path": "non-technical.md",
+      "downloadPath": "skills/mvp/non-technical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/non-technical.md"
+    },
+    {
+      "path": "pm.md",
+      "downloadPath": "skills/mvp/pm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/pm.md"
+    },
+    {
+      "path": "scope.md",
+      "downloadPath": "skills/mvp/scope.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/scope.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mvp/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/SKILL.md"
+    },
+    {
+      "path": "solo.md",
+      "downloadPath": "skills/mvp/solo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/solo.md"
+    },
+    {
+      "path": "technical.md",
+      "downloadPath": "skills/mvp/technical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/technical.md"
+    },
+    {
+      "path": "traps.md",
+      "downloadPath": "skills/mvp/traps.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/traps.md"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/mvp/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/validation.md"
+    }
+  ]
+}

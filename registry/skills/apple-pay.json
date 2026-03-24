@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "apple-pay",
+    "name": "Apple Pay",
+    "description": "Implement Apple Pay for web and iOS with merchant validation, token handling, and production-safe checkout flows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/apple-pay",
+    "summary": "Setup On first use, read `setup.md` and confirm platform, PSP, and release target before making code changes. When to Use User needs Apple Pay for checkout, subscriptions, or wallet-first conversion improvements. Agent h",
+    "repositoryPath": "skills/apple-pay",
+    "manifestPath": "registry/skills/apple-pay.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/apple-pay/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/_meta.json"
+    },
+    {
+      "path": "failure-handling.md",
+      "downloadPath": "skills/apple-pay/failure-handling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/failure-handling.md"
+    },
+    {
+      "path": "implementation-playbook.md",
+      "downloadPath": "skills/apple-pay/implementation-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/implementation-playbook.md"
+    },
+    {
+      "path": "launch-playbook.md",
+      "downloadPath": "skills/apple-pay/launch-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/launch-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/apple-pay/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/memory-template.md"
+    },
+    {
+      "path": "recurring-payments.md",
+      "downloadPath": "skills/apple-pay/recurring-payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/recurring-payments.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/apple-pay/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apple-pay/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/SKILL.md"
+    },
+    {
+      "path": "validation-checklist.md",
+      "downloadPath": "skills/apple-pay/validation-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/validation-checklist.md"
+    }
+  ]
+}

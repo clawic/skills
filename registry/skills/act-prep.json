@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "act-prep",
+    "name": "ACT",
+    "description": "Prepare for the ACT with adaptive practice, score tracking, weak area analysis, and college targeting.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for the ACT (American College Testing). Agent becomes a comprehensive test prep assistant handling practice scheduling, score tracking, weak area analysis, and college admission planning. Qu",
+    "repositoryPath": "skills/act-prep",
+    "manifestPath": "registry/skills/act-prep.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/act-prep/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/_meta.json"
+    },
+    {
+      "path": "exam-config.md",
+      "downloadPath": "skills/act-prep/exam-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/exam-config.md"
+    },
+    {
+      "path": "sections.md",
+      "downloadPath": "skills/act-prep/sections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/sections.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/act-prep/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/SKILL.md"
+    },
+    {
+      "path": "study-methods.md",
+      "downloadPath": "skills/act-prep/study-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/study-methods.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/act-prep/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/targets.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/act-prep/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/act-prep/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/user-types.md"
+    }
+  ]
+}

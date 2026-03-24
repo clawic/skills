@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "reverse-engineering",
+    "name": "Reverse Engineering",
+    "description": "Reverse engineer binaries, APIs, protocols, and workflows with evidence ladders, interface maps, and falsifiable hypotheses.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/reverse-engineering",
+    "summary": "When to Use User needs to understand something opaque, undocumented, legacy, or partially broken. Agent handles behavioral tracing, artifact mapping, hypothesis testing, and concise documentation for binaries, APIs, file",
+    "repositoryPath": "skills/reverse-engineering",
+    "manifestPath": "registry/skills/reverse-engineering.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/reverse-engineering/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/reverse-engineering/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/boundaries.md"
+    },
+    {
+      "path": "deliverables.md",
+      "downloadPath": "skills/reverse-engineering/deliverables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/deliverables.md"
+    },
+    {
+      "path": "evidence-ladder.md",
+      "downloadPath": "skills/reverse-engineering/evidence-ladder.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/evidence-ladder.md"
+    },
+    {
+      "path": "interface-map.md",
+      "downloadPath": "skills/reverse-engineering/interface-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/interface-map.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/reverse-engineering/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/memory-template.md"
+    },
+    {
+      "path": "protocol.md",
+      "downloadPath": "skills/reverse-engineering/protocol.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/protocol.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/reverse-engineering/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/reverse-engineering/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/SKILL.md"
+    }
+  ]
+}

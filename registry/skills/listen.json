@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "listen",
+    "name": "Listen",
+    "description": "Improve transcription accuracy over time. Learn corrections, configure STT.",
+    "summary": "Active Listening This skill auto-evolves. Track transcription errors and learn corrections. **Rules:** - Detect when transcribed text seems off (wrong context, garbled names) - Learn from user corrections - Confirm patte",
+    "repositoryPath": "skills/listen",
+    "manifestPath": "registry/skills/listen.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/listen/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/_meta.json"
+    },
+    {
+      "path": "config.md",
+      "downloadPath": "skills/listen/config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/config.md"
+    },
+    {
+      "path": "criteria.md",
+      "downloadPath": "skills/listen/criteria.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/criteria.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/listen/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md"
+    }
+  ]
+}

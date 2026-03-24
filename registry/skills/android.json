@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "android",
+    "name": "android",
+    "description": "Android build system and deployment patterns",
+    "summary": "Android Build & Deploy ADB Essentials ```bash Debug builds require -t flag (agents forget this) adb install -r -t app-debug.apk Filter logcat for app + errors only adb logcat -s \"YourApp:*\" \"*:E\" ``` Gradle Critical Fixe",
+    "repositoryPath": "skills/android",
+    "manifestPath": "registry/skills/android.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/android/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/android/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/SKILL.md"
+    }
+  ]
+}

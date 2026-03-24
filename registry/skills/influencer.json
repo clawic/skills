@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "influencer",
+    "name": "Influencer",
+    "description": "Create, manage, and scale AI-generated virtual influencers with consistent characters, multi-platform content, and monetization workflows.",
+    "summary": "Workspace Structure Each influencer lives in a dedicated folder: ``` ~/influencers/ ├── {persona-slug}/ │ ├── identity.md # Name, niche, voice, personality │ ├── reference/ # Base images for consistency │ │ ├── face-ref-",
+    "repositoryPath": "skills/influencer",
+    "manifestPath": "registry/skills/influencer.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/influencer/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/_meta.json"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/influencer/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/compliance.md"
+    },
+    {
+      "path": "content.md",
+      "downloadPath": "skills/influencer/content.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/content.md"
+    },
+    {
+      "path": "image-gen.md",
+      "downloadPath": "skills/influencer/image-gen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/image-gen.md"
+    },
+    {
+      "path": "monetization.md",
+      "downloadPath": "skills/influencer/monetization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/monetization.md"
+    },
+    {
+      "path": "persona.md",
+      "downloadPath": "skills/influencer/persona.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/persona.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/influencer/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/platforms.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/influencer/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/SKILL.md"
+    },
+    {
+      "path": "video-gen.md",
+      "downloadPath": "skills/influencer/video-gen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/video-gen.md"
+    },
+    {
+      "path": "voice.md",
+      "downloadPath": "skills/influencer/voice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/voice.md"
+    }
+  ]
+}

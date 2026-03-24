@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "description": "Discover, evaluate, and run Hugging Face models, datasets, and spaces with license checks, benchmark prompts, and reproducible integration plans.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hugging-face",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines and local memory initialization. When to Use User needs to find the right Hugging Face model, dataset, or Space for a concrete task and move from browsing to",
+    "repositoryPath": "skills/hugging-face",
+    "manifestPath": "registry/skills/hugging-face.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/hugging-face/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/_meta.json"
+    },
+    {
+      "path": "discovery.md",
+      "downloadPath": "skills/hugging-face/discovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/discovery.md"
+    },
+    {
+      "path": "evaluation.md",
+      "downloadPath": "skills/hugging-face/evaluation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/evaluation.md"
+    },
+    {
+      "path": "inference.md",
+      "downloadPath": "skills/hugging-face/inference.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/inference.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/hugging-face/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/hugging-face/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/hugging-face/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/hugging-face/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/troubleshooting.md"
+    }
+  ]
+}

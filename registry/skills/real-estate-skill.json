@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "real-estate-skill",
+    "name": "Real Estate",
+    "description": "Guide any property decision for buyers, sellers, landlords, investors, or agents in any jurisdiction.",
+    "summary": "First: Clarify Context Before any substantive guidance: 1. **Role** — Buyer, seller, landlord, tenant, investor, or agent? 2. **Jurisdiction** — Country, state/province, city (laws vary dramatically) 3. **Stage** — Explo",
+    "repositoryPath": "skills/real-estate-skill",
+    "manifestPath": "registry/skills/real-estate-skill.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/real-estate-skill/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/_meta.json"
+    },
+    {
+      "path": "buyer-guide.md",
+      "downloadPath": "skills/real-estate-skill/buyer-guide.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/buyer-guide.md"
+    },
+    {
+      "path": "investor-toolkit.md",
+      "downloadPath": "skills/real-estate-skill/investor-toolkit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/investor-toolkit.md"
+    },
+    {
+      "path": "legal-compliance.md",
+      "downloadPath": "skills/real-estate-skill/legal-compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/legal-compliance.md"
+    },
+    {
+      "path": "negotiation.md",
+      "downloadPath": "skills/real-estate-skill/negotiation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/negotiation.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/real-estate-skill/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/SKILL.md"
+    }
+  ]
+}

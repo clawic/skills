@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "laravel",
+    "name": "Laravel",
+    "description": "Build robust Laravel apps avoiding Eloquent traps, queue failures, and auth pitfalls.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | N+1 queries, eager loading, accessors, observers | `eloquent.md` | | Validation, middleware order, dependency injection | `controllers.md` | | Job serialization, retrie",
+    "repositoryPath": "skills/laravel",
+    "manifestPath": "registry/skills/laravel.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/laravel/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/_meta.json"
+    },
+    {
+      "path": "artisan.md",
+      "downloadPath": "skills/laravel/artisan.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/artisan.md"
+    },
+    {
+      "path": "auth.md",
+      "downloadPath": "skills/laravel/auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/auth.md"
+    },
+    {
+      "path": "blade.md",
+      "downloadPath": "skills/laravel/blade.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/blade.md"
+    },
+    {
+      "path": "controllers.md",
+      "downloadPath": "skills/laravel/controllers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/controllers.md"
+    },
+    {
+      "path": "eloquent.md",
+      "downloadPath": "skills/laravel/eloquent.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/eloquent.md"
+    },
+    {
+      "path": "queues.md",
+      "downloadPath": "skills/laravel/queues.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/queues.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/laravel/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/SKILL.md"
+    }
+  ]
+}

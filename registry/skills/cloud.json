@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cloud",
+    "name": "Cloud",
+    "description": "Choose, organize, sync, share, and back up personal files across iCloud, Google Drive, Dropbox, and OneDrive.",
+    "summary": "Triggers Activate on: iCloud full, cloud storage, backup photos, sync between devices, share folder, Google Drive help, Dropbox issues, \"where are my files\", storage plan comparison. Scope This skill covers **consumer cl",
+    "repositoryPath": "skills/cloud",
+    "manifestPath": "registry/skills/cloud.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cloud/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/_meta.json"
+    },
+    {
+      "path": "backup.md",
+      "downloadPath": "skills/cloud/backup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/backup.md"
+    },
+    {
+      "path": "cleanup.md",
+      "downloadPath": "skills/cloud/cleanup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/cleanup.md"
+    },
+    {
+      "path": "services.md",
+      "downloadPath": "skills/cloud/services.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/services.md"
+    },
+    {
+      "path": "sharing.md",
+      "downloadPath": "skills/cloud/sharing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/sharing.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cloud/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sell",
+    "name": "Sell",
+    "description": "Price items accurately, create compelling listings, choose platforms, and handle negotiations.",
+    "summary": "Triggers Activate on: \"sell this\", \"how much is this worth\", \"where should I sell\", \"help me list\", pricing requests for items to sell. **Before acting:** Clarify item condition, timeline (need gone fast vs maximize pric",
+    "repositoryPath": "skills/sell",
+    "manifestPath": "registry/skills/sell.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sell/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/_meta.json"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/sell/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/platforms.md"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/sell/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/pricing.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/sell/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/safety.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sell/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/SKILL.md"
+    }
+  ]
+}

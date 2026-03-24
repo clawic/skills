@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "restaurants",
+    "name": "Restaurants",
+    "description": "Build a personal restaurant system for tracking places to try, favorites, and dining memories.",
+    "summary": "Core Behavior - User mentions restaurant → offer to save with notes - User asks for recommendation → check their saved places first - User returns from meal → help document experience - Create `~/restaurants/` as workspa",
+    "repositoryPath": "skills/restaurants",
+    "manifestPath": "registry/skills/restaurants.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/restaurants/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/restaurants/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/restaurants/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/restaurants/SKILL.md"
+    }
+  ]
+}

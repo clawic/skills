@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "fitness",
+    "name": "Fitness",
+    "description": "Auto-learns your fitness patterns. Absorbs data from wearables, conversations, and achievements.",
+    "version": "1.0.1",
+    "summary": "Auto-Adaptive Fitness Tracking This skill auto-evolves. Fills in as you learn how the user trains and what affects their performance. **Rules:** - Absorb fitness mentions from ANY source (wearables, conversations, race r",
+    "repositoryPath": "skills/fitness",
+    "manifestPath": "registry/skills/fitness.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/fitness/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/_meta.json"
+    },
+    {
+      "path": "coaching.md",
+      "downloadPath": "skills/fitness/coaching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/coaching.md"
+    },
+    {
+      "path": "profiles.md",
+      "downloadPath": "skills/fitness/profiles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/profiles.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fitness/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/fitness/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/sources.md"
+    }
+  ]
+}

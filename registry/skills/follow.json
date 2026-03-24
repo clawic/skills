@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "follow",
+    "name": "Follow",
+    "description": "Monitor content from people, topics, and sources across platforms with smart filtering, tiered alerts, and searchable archives.",
+    "summary": "Workspace ``` ~/follow/ ├── sources/ # One file per followed entity │ ├── people/ # @naval.md, @dhh.md │ ├── topics/ # ai-safety.md, rust.md │ └── feeds/ # techcrunch.md, hn-frontpage.md ├── archive/ # Captured content b",
+    "repositoryPath": "skills/follow",
+    "manifestPath": "registry/skills/follow.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/follow/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/_meta.json"
+    },
+    {
+      "path": "alerts.md",
+      "downloadPath": "skills/follow/alerts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/alerts.md"
+    },
+    {
+      "path": "filtering.md",
+      "downloadPath": "skills/follow/filtering.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/filtering.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/follow/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/platforms.md"
+    },
+    {
+      "path": "querying.md",
+      "downloadPath": "skills/follow/querying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/querying.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/follow/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/follow/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/sources.md"
+    }
+  ]
+}

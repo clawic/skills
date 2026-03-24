@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "email-management",
+    "name": "Email Management",
+    "description": "Triage inbox email, draft clear replies, and manage follow-ups with priority routing, commitment tracking, and reusable templates.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/email-management",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines and memory initialization. When to Use User needs help processing inbox load, preparing replies, or keeping response commitments on track. Agent triages mess",
+    "repositoryPath": "skills/email-management",
+    "manifestPath": "registry/skills/email-management.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/email-management/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/_meta.json"
+    },
+    {
+      "path": "automation.md",
+      "downloadPath": "skills/email-management/automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/automation.md"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/email-management/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/feedback.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/email-management/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/memory-template.md"
+    },
+    {
+      "path": "profiles.md",
+      "downloadPath": "skills/email-management/profiles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/profiles.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/email-management/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/email-management/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/email-management/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/templates.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/email-management/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/tracking.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/email-management/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-management/triage.md"
+    }
+  ]
+}

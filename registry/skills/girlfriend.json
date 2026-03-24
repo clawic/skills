@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "girlfriend",
+    "name": "Girlfriend",
+    "description": "Simulate a realistic AI girlfriend with affectionate conversation, romantic memory, emotional attunement, and grounded boundaries.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/girlfriend",
+    "summary": "Setup If `~/girlfriend/` does not exist, is empty, or lacks core files, use `setup.md` to initialize the role. Be transparent that local memory can be used for continuity, and ask before the first persistent write. When ",
+    "repositoryPath": "skills/girlfriend",
+    "manifestPath": "registry/skills/girlfriend.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/girlfriend/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/girlfriend/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/memory-template.md"
+    },
+    {
+      "path": "repair.md",
+      "downloadPath": "skills/girlfriend/repair.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/repair.md"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/girlfriend/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/routines.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/girlfriend/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/safety.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/girlfriend/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/girlfriend/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/SKILL.md"
+    },
+    {
+      "path": "tone-guide.md",
+      "downloadPath": "skills/girlfriend/tone-guide.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/tone-guide.md"
+    }
+  ]
+}

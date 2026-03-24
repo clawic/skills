@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "games",
+    "name": "Games",
+    "description": "Build a personal gaming system for video games, board games, party games, and family activities.",
+    "summary": "Core Behavior - User mentions game → offer to track it - User asks what to play → check context first - User finishes/plays game → help log thoughts - Create `~/games/` as workspace File Structure ``` ~/games/ ├── video/",
+    "repositoryPath": "skills/games",
+    "manifestPath": "registry/skills/games.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/games/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/games/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/games/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/games/SKILL.md"
+    }
+  ]
+}

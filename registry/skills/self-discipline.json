@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "self-discipline",
+    "name": "Self Discipline",
+    "description": "Guarantee instruction compliance with root cause analysis, flow verification, and automated validators that make future failures impossible.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/self-discipline",
+    "summary": "Instructions written but never followed. Lessons logged but never read. The same mistakes repeated across sessions. This skill breaks that cycle permanently. When something goes wrong — and the user makes it clear it can",
+    "repositoryPath": "skills/self-discipline",
+    "manifestPath": "registry/skills/self-discipline.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/self-discipline/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/_meta.json"
+    },
+    {
+      "path": "EXTRA_FILES.txt",
+      "downloadPath": "skills/self-discipline/EXTRA_FILES.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/EXTRA_FILES.txt"
+    },
+    {
+      "path": "flow-verification.md",
+      "downloadPath": "skills/self-discipline/flow-verification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/flow-verification.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/self-discipline/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/memory-template.md"
+    },
+    {
+      "path": "root-cause.md",
+      "downloadPath": "skills/self-discipline/root-cause.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/root-cause.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/self-discipline/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/setup.md"
+    },
+    {
+      "path": "severity.md",
+      "downloadPath": "skills/self-discipline/severity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/severity.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/self-discipline/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/SKILL.md"
+    },
+    {
+      "path": "validators.md",
+      "downloadPath": "skills/self-discipline/validators.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-discipline/validators.md"
+    }
+  ]
+}

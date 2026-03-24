@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ads",
+    "name": "Ads",
+    "description": "Paid acquisition strategy, budget allocation, and avoiding common advertising mistakes across platforms",
+    "summary": "Budget Mistakes - Starting with daily budgets too low to exit learning phase — platforms need 50+ conversions/week per ad set to optimize properly - Spreading budget across too many campaigns early — concentrate spend to",
+    "repositoryPath": "skills/ads",
+    "manifestPath": "registry/skills/ads.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ads/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ads/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ads/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ads/SKILL.md"
+    }
+  ]
+}

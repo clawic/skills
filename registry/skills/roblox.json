@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "roblox",
+    "name": "Roblox",
+    "description": "Avoid common Roblox mistakes — server/client security, DataStore pitfalls, memory leaks, and replication gotchas.",
+    "summary": "Server vs Client - Server scripts in ServerScriptService — never trust client data - LocalScripts in StarterPlayerScripts or StarterGui — client-only - RemoteEvent for fire-and-forget — RemoteFunction when server needs t",
+    "repositoryPath": "skills/roblox",
+    "manifestPath": "registry/skills/roblox.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/roblox/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roblox/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/roblox/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roblox/SKILL.md"
+    }
+  ]
+}

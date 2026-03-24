@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "automator",
+    "name": "macOS Automator",
+    "description": "Automate macOS tasks by composing and executing Automator workflows through automator CLI and AppleScript control.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/automator",
+    "summary": "Setup On first use, follow `setup.md` to capture activation behavior and safety preferences. Setup is read-only. Any local file write requires explicit user confirmation. When to Use User needs to automate macOS tasks wi",
+    "repositoryPath": "skills/automator",
+    "manifestPath": "registry/skills/automator.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/automator/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/_meta.json"
+    },
+    {
+      "path": "execution-guardrails.md",
+      "downloadPath": "skills/automator/execution-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/execution-guardrails.md"
+    },
+    {
+      "path": "interface-matrix.md",
+      "downloadPath": "skills/automator/interface-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/interface-matrix.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/automator/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/automator/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/automator/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/automator/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/troubleshooting.md"
+    },
+    {
+      "path": "workflow-authoring.md",
+      "downloadPath": "skills/automator/workflow-authoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/workflow-authoring.md"
+    }
+  ]
+}

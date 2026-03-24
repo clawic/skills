@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "rag",
+    "name": "RAG",
+    "description": "Build, optimize, and debug RAG pipelines with chunking strategies, retrieval tuning, evaluation metrics, and production monitoring.",
+    "summary": "When to Use User wants to implement, improve, or troubleshoot Retrieval-Augmented Generation systems. Quick Reference | Topic | File | |-------|------| | Pipeline components & architecture | `architecture.md` | | Impleme",
+    "repositoryPath": "skills/rag",
+    "manifestPath": "registry/skills/rag.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/rag/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/_meta.json"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/rag/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/architecture.md"
+    },
+    {
+      "path": "evaluation.md",
+      "downloadPath": "skills/rag/evaluation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/evaluation.md"
+    },
+    {
+      "path": "implementation.md",
+      "downloadPath": "skills/rag/implementation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/implementation.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/rag/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/rag/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/SKILL.md"
+    }
+  ]
+}

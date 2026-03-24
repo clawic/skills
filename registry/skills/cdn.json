@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cdn",
+    "name": "CDN",
+    "description": "Configure, optimize, and troubleshoot CDN deployments with caching strategies, security hardening, and multi-provider management.",
+    "summary": "When to Use User wants to set up, optimize, or debug a CDN. Covers provider selection, caching, security, and performance monitoring. Quick Reference | Topic | File | |-------|------| | Provider comparison & CLIs | `prov",
+    "repositoryPath": "skills/cdn",
+    "manifestPath": "registry/skills/cdn.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cdn/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/_meta.json"
+    },
+    {
+      "path": "caching.md",
+      "downloadPath": "skills/cdn/caching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/caching.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/cdn/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/providers.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/cdn/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cdn/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/cdn/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/troubleshooting.md"
+    }
+  ]
+}

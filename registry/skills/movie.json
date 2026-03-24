@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "movie",
+    "name": "Movie",
+    "description": "Create films with AI video generation by managing scripts, prompts, consistency, and production workflows from concept to final cut.",
+    "summary": "Core Workflow Every film follows: Script → Breakdown → Generation → Assembly → Polish. Before generating ANY video, establish: 1. **Style bible** — Visual language, color palette, lighting, grain 2. **Character sheets** ",
+    "repositoryPath": "skills/movie",
+    "manifestPath": "registry/skills/movie.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/movie/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/_meta.json"
+    },
+    {
+      "path": "commercial.md",
+      "downloadPath": "skills/movie/commercial.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/commercial.md"
+    },
+    {
+      "path": "experimental.md",
+      "downloadPath": "skills/movie/experimental.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/experimental.md"
+    },
+    {
+      "path": "generation.md",
+      "downloadPath": "skills/movie/generation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/generation.md"
+    },
+    {
+      "path": "postproduction.md",
+      "downloadPath": "skills/movie/postproduction.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/postproduction.md"
+    },
+    {
+      "path": "preproduction.md",
+      "downloadPath": "skills/movie/preproduction.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/preproduction.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/movie/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/movie/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/tools.md"
+    }
+  ]
+}

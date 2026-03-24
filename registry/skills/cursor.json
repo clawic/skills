@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cursor",
+    "name": "Cursor",
+    "description": "Use Cursor safely across editor, CLI, rules, background agents, Bugbot, and MCP workflows with repo-aware context and reviewable execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cursor",
+    "summary": "When to Use User wants to operate Cursor as a real coding environment instead of a vague AI editor: choose the right surface, shape repo context, set rules correctly, use `cursor-agent`, run Background Agents, review wit",
+    "repositoryPath": "skills/cursor",
+    "manifestPath": "registry/skills/cursor.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cursor/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/_meta.json"
+    },
+    {
+      "path": "background-agents-and-bugbot.md",
+      "downloadPath": "skills/cursor/background-agents-and-bugbot.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/background-agents-and-bugbot.md"
+    },
+    {
+      "path": "cli-and-mcp.md",
+      "downloadPath": "skills/cursor/cli-and-mcp.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/cli-and-mcp.md"
+    },
+    {
+      "path": "install-and-surfaces.md",
+      "downloadPath": "skills/cursor/install-and-surfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/install-and-surfaces.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cursor/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/memory-template.md"
+    },
+    {
+      "path": "privacy-and-indexing.md",
+      "downloadPath": "skills/cursor/privacy-and-indexing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/privacy-and-indexing.md"
+    },
+    {
+      "path": "rules-and-context.md",
+      "downloadPath": "skills/cursor/rules-and-context.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/rules-and-context.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/cursor/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cursor/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/cursor/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/troubleshooting.md"
+    }
+  ]
+}

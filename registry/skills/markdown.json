@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "markdown",
+    "name": "Markdown",
+    "description": "Generate clean, portable Markdown that renders correctly across parsers.",
+    "summary": "Whitespace Traps - Blank line required before lists, code blocks, and blockquotes—without it, many parsers continue the previous paragraph - Nested lists need 4 spaces (not 2) for GitHub/CommonMark; 2 spaces breaks nesti",
+    "repositoryPath": "skills/markdown",
+    "manifestPath": "registry/skills/markdown.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/markdown/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/markdown/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/SKILL.md"
+    }
+  ]
+}

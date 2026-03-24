@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "git",
+    "name": "Git",
+    "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, team workflows, and the commands needed for safe day-to-day version control. Use when (1) the task touches Git, a repository, commits, branches, merges, rebases, or pull requests; (2) history safety, collaboration, or recovery matter; (3) the agent should automatically apply Git discipline instead of improvising.",
+    "version": "1.0.8",
+    "homepage": "https://clawic.com/skills/git",
+    "summary": "When to Use Use when the task involves Git repositories, branches, commits, merges, rebases, pull requests, conflict resolution, history inspection, or recovery. This skill is stateless and should be applied by default w",
+    "repositoryPath": "skills/git",
+    "manifestPath": "registry/skills/git.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/git/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/_meta.json"
+    },
+    {
+      "path": "advanced.md",
+      "downloadPath": "skills/git/advanced.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/advanced.md"
+    },
+    {
+      "path": "branching.md",
+      "downloadPath": "skills/git/branching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/branching.md"
+    },
+    {
+      "path": "collaboration.md",
+      "downloadPath": "skills/git/collaboration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/collaboration.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/git/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/commands.md"
+    },
+    {
+      "path": "conflicts.md",
+      "downloadPath": "skills/git/conflicts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/conflicts.md"
+    },
+    {
+      "path": "history.md",
+      "downloadPath": "skills/git/history.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/history.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/git/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/git/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/git/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "gardening",
+    "name": "Gardening",
+    "description": "Plant care, soil management, seasonal timing, pest control, and garden planning.",
+    "summary": "Soil Fundamentals - Test soil before amending — pH and nutrients determine what to add, not guessing - Most plants prefer pH 6.0-7.0 — blueberries need acidic (4.5-5.5), lavender needs alkaline - Compost fixes almost eve",
+    "repositoryPath": "skills/gardening",
+    "manifestPath": "registry/skills/gardening.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/gardening/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gardening/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/gardening/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gardening/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "analysis",
+    "name": "Analysis",
+    "description": "Run deep system health checks across workspace, config, skills, and integrations with prioritized findings and remediation.",
+    "summary": "When To Use Trigger when user says: \"check my system\", \"what's wrong\", \"health check\", \"diagnose\", \"audit\", \"why is X slow\", \"something feels off\" This is NOT generic data analysis. This is **system self-diagnosis** — ex",
+    "repositoryPath": "skills/analysis",
+    "manifestPath": "registry/skills/analysis.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/analysis/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/_meta.json"
+    },
+    {
+      "path": "checks.md",
+      "downloadPath": "skills/analysis/checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/checks.md"
+    },
+    {
+      "path": "remediation.md",
+      "downloadPath": "skills/analysis/remediation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/remediation.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/analysis/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/analysis/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/tracking.md"
+    }
+  ]
+}

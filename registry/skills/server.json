@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "server",
+    "name": "Server",
+    "description": "Configure, deploy, and troubleshoot web servers, application servers, and containerized services.",
+    "summary": "Scope This skill covers the **software layer** — what runs inside a machine. For infrastructure (provisioning VMs, SSH hardening, firewalls, backups), use the `vps` skill. When to Use - Configuring nginx, Caddy, or Apach",
+    "repositoryPath": "skills/server",
+    "manifestPath": "registry/skills/server.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/server/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/_meta.json"
+    },
+    {
+      "path": "configs.md",
+      "downloadPath": "skills/server/configs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/configs.md"
+    },
+    {
+      "path": "docker.md",
+      "downloadPath": "skills/server/docker.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/docker.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/server/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/SKILL.md"
+    }
+  ]
+}

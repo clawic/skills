@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "iot",
+    "name": "IoT",
+    "description": "Assist with IoT device setup, protocols, security hardening, and home automation integration.",
+    "summary": "Protocol Selection - MQTT for lightweight messaging — pub/sub, low bandwidth, ideal for sensors - CoAP for constrained devices — UDP-based, REST-like, very low power - HTTP/REST for capable devices — familiar but heavier",
+    "repositoryPath": "skills/iot",
+    "manifestPath": "registry/skills/iot.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/iot/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iot/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/iot/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iot/SKILL.md"
+    }
+  ]
+}

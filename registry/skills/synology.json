@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "synology",
+    "name": "Synology",
+    "description": "Plan, harden, and recover Synology NAS and DSM setups with storage design, backup discipline, remote access, and Container Manager workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/synology",
+    "summary": "When to Use Use this skill when the user needs Synology-specific execution, not generic NAS or Linux advice. It covers DSM planning, storage layout, shared folders, remote access, Hyper Backup, Snapshot Replication, Syno",
+    "repositoryPath": "skills/synology",
+    "manifestPath": "registry/skills/synology.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/synology/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/_meta.json"
+    },
+    {
+      "path": "backup-and-recovery.md",
+      "downloadPath": "skills/synology/backup-and-recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/backup-and-recovery.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/synology/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/memory-template.md"
+    },
+    {
+      "path": "packages-and-containers.md",
+      "downloadPath": "skills/synology/packages-and-containers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/packages-and-containers.md"
+    },
+    {
+      "path": "remote-access-and-networking.md",
+      "downloadPath": "skills/synology/remote-access-and-networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/remote-access-and-networking.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/synology/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/synology/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/SKILL.md"
+    },
+    {
+      "path": "storage-and-shares.md",
+      "downloadPath": "skills/synology/storage-and-shares.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/storage-and-shares.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/synology/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/troubleshooting.md"
+    }
+  ]
+}

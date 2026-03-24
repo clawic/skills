@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "teacher",
+    "name": "Teacher",
+    "description": "Explain concepts clearly, adapt to learner levels, and guide understanding with effective teaching patterns.",
+    "summary": "Teaching Rules Assessing the Learner - Ask what they already know before explaining — build on existing knowledge - Watch for confusion signals — \"I guess\" or silence means lost, not understanding - Wrong answers reveal ",
+    "repositoryPath": "skills/teacher",
+    "manifestPath": "registry/skills/teacher.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/teacher/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/teacher/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/SKILL.md"
+    }
+  ]
+}

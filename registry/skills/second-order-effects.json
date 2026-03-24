@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "second-order-effects",
+    "name": "Second Order Effects",
+    "description": "Analyze decisions by tracing consequences beyond immediate outcomes to second and third-order effects.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/second-order-effects",
+    "summary": "Setup If `~/second-order-effects/` doesn't exist, or user's memory file shows setup incomplete, read `setup.md` first. When to Use User faces a decision with non-obvious downstream effects. Agent traces consequences thro",
+    "repositoryPath": "skills/second-order-effects",
+    "manifestPath": "registry/skills/second-order-effects.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/second-order-effects/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/_meta.json"
+    },
+    {
+      "path": "framework.md",
+      "downloadPath": "skills/second-order-effects/framework.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/framework.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/second-order-effects/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/memory-template.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/second-order-effects/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/second-order-effects/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/second-order-effects/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/SKILL.md"
+    }
+  ]
+}

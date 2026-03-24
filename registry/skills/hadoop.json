@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "hadoop",
+    "name": "Hadoop",
+    "description": "Manage Hadoop clusters with HDFS operations, YARN job tuning, and distributed processing diagnostics.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hadoop",
+    "summary": "Setup If `~/hadoop/` doesn't exist or is empty, read `setup.md` and start the conversation naturally. When to Use User works with Hadoop ecosystem (HDFS, YARN, MapReduce, Hive). Agent handles cluster diagnostics, job opt",
+    "repositoryPath": "skills/hadoop",
+    "manifestPath": "registry/skills/hadoop.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/hadoop/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/_meta.json"
+    },
+    {
+      "path": "hdfs.md",
+      "downloadPath": "skills/hadoop/hdfs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/hdfs.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/hadoop/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/hadoop/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/hadoop/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/hadoop/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/troubleshooting.md"
+    },
+    {
+      "path": "yarn.md",
+      "downloadPath": "skills/hadoop/yarn.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/yarn.md"
+    }
+  ]
+}

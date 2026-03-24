@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "content-marketing",
+    "name": "Content Marketing",
+    "description": "Plan, create, and distribute content with editorial calendars, funnel strategy, and repurposing workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/content-marketing",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs help with content strategy, editorial planning, blog posts, social media content, or content distribution. Agent handles calendar man",
+    "repositoryPath": "skills/content-marketing",
+    "manifestPath": "registry/skills/content-marketing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/content-marketing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/_meta.json"
+    },
+    {
+      "path": "funnels.md",
+      "downloadPath": "skills/content-marketing/funnels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/funnels.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/content-marketing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/memory-template.md"
+    },
+    {
+      "path": "repurposing.md",
+      "downloadPath": "skills/content-marketing/repurposing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/repurposing.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/content-marketing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/content-marketing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/SKILL.md"
+    }
+  ]
+}

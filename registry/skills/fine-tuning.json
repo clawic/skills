@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "fine-tuning",
+    "name": "Fine-Tuning",
+    "description": "Fine-tune LLMs with data preparation, provider selection, cost estimation, evaluation, and compliance checks.",
+    "summary": "When to Use User wants to fine-tune a language model, evaluate if fine-tuning is worth it, or debug training issues. Quick Reference | Topic | File | |-------|------| | Provider comparison & pricing | `providers.md` | | ",
+    "repositoryPath": "skills/fine-tuning",
+    "manifestPath": "registry/skills/fine-tuning.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/fine-tuning/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/_meta.json"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/fine-tuning/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/compliance.md"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/fine-tuning/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/costs.md"
+    },
+    {
+      "path": "data-prep.md",
+      "downloadPath": "skills/fine-tuning/data-prep.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/data-prep.md"
+    },
+    {
+      "path": "evaluation.md",
+      "downloadPath": "skills/fine-tuning/evaluation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/evaluation.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/fine-tuning/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/providers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fine-tuning/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/SKILL.md"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/fine-tuning/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/training.md"
+    }
+  ]
+}

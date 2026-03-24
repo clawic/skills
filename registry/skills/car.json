@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "car",
+    "name": "Car",
+    "description": "Buy, maintain, and handle car emergencies with cost estimates, maintenance schedules, and roadside problem-solving.",
+    "summary": "Decision Tree | Situation | Action | |-----------|--------| | Buying a car | Check `buying.md` for price negotiation, inspection checklist, financing | | Maintenance due or warning light | Check `maintenance.md` for sche",
+    "repositoryPath": "skills/car",
+    "manifestPath": "registry/skills/car.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/car/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/_meta.json"
+    },
+    {
+      "path": "buying.md",
+      "downloadPath": "skills/car/buying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/buying.md"
+    },
+    {
+      "path": "emergencies.md",
+      "downloadPath": "skills/car/emergencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/emergencies.md"
+    },
+    {
+      "path": "maintenance.md",
+      "downloadPath": "skills/car/maintenance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/maintenance.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/car/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/SKILL.md"
+    }
+  ]
+}

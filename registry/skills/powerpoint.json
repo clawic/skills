@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "powerpoint",
+    "name": "PowerPoint",
+    "description": "Control PowerPoint app sessions, slides, notes, export, and presentation state with osascript workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/powerpoint",
+    "summary": "When to Use User needs Microsoft PowerPoint controlled as a live application, not treated as a `.pptx` file format. Agent handles app attach, active presentation state, slide operations, notes, export, slideshow control,",
+    "repositoryPath": "skills/powerpoint",
+    "manifestPath": "registry/skills/powerpoint.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/powerpoint/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/_meta.json"
+    },
+    {
+      "path": "execution-matrix.md",
+      "downloadPath": "skills/powerpoint/execution-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/execution-matrix.md"
+    },
+    {
+      "path": "live-control-patterns.md",
+      "downloadPath": "skills/powerpoint/live-control-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/live-control-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/powerpoint/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/memory-template.md"
+    },
+    {
+      "path": "safety-checklist.md",
+      "downloadPath": "skills/powerpoint/safety-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/safety-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/powerpoint/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/powerpoint/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/powerpoint/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/troubleshooting.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "inbox",
+    "name": "Inbox",
+    "description": "Master any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs help managing incoming streams across email, chat, social, and project tools. Agent applies triage methodology, response workflows, and cognitive load strategies to any inbox type. Quick Reference ",
+    "repositoryPath": "skills/inbox",
+    "manifestPath": "registry/skills/inbox.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/inbox/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/_meta.json"
+    },
+    {
+      "path": "channels.md",
+      "downloadPath": "skills/inbox/channels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/channels.md"
+    },
+    {
+      "path": "cognitive.md",
+      "downloadPath": "skills/inbox/cognitive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/cognitive.md"
+    },
+    {
+      "path": "responses.md",
+      "downloadPath": "skills/inbox/responses.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/responses.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/inbox/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/SKILL.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/inbox/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/triage.md"
+    }
+  ]
+}

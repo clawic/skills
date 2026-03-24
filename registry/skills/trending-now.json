@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "trending-now",
+    "name": "Trending Now",
+    "description": "Monitor internet and social media trends with heartbeat topic watchlists, freshness scoring, and concise alerts on what changed and why it matters.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/trending-now",
+    "summary": "Setup On first use, read `setup.md` and lock integration behavior before starting trend monitoring. When to Use User needs ongoing updates about what is trending across the internet and social platforms, with special att",
+    "repositoryPath": "skills/trending-now",
+    "manifestPath": "registry/skills/trending-now.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/trending-now/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/_meta.json"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "downloadPath": "skills/trending-now/HEARTBEAT.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/HEARTBEAT.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/trending-now/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/memory-template.md"
+    },
+    {
+      "path": "message-format.md",
+      "downloadPath": "skills/trending-now/message-format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/message-format.md"
+    },
+    {
+      "path": "research-protocol.md",
+      "downloadPath": "skills/trending-now/research-protocol.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/research-protocol.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/trending-now/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/trending-now/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/SKILL.md"
+    },
+    {
+      "path": "source-map.md",
+      "downloadPath": "skills/trending-now/source-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/source-map.md"
+    }
+  ]
+}

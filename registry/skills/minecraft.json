@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "minecraft",
+    "name": "Minecraft",
+    "description": "Plan, build, troubleshoot, and optimize Minecraft worlds, commands, redstone, mods, and servers without mixing Java and Bedrock advice.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/minecraft",
+    "summary": "Minecraft Minecraft workflow for real play decisions. Use this when the agent must help with world planning, survival progression, builds, commands, redstone, modded setups, or server issues without blending edition-spec",
+    "repositoryPath": "skills/minecraft",
+    "manifestPath": "registry/skills/minecraft.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/minecraft/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/_meta.json"
+    },
+    {
+      "path": "build-brief.md",
+      "downloadPath": "skills/minecraft/build-brief.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/build-brief.md"
+    },
+    {
+      "path": "command-patterns.md",
+      "downloadPath": "skills/minecraft/command-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/command-patterns.md"
+    },
+    {
+      "path": "edition-gate.md",
+      "downloadPath": "skills/minecraft/edition-gate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/edition-gate.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/minecraft/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/memory-template.md"
+    },
+    {
+      "path": "redstone-debug.md",
+      "downloadPath": "skills/minecraft/redstone-debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/redstone-debug.md"
+    },
+    {
+      "path": "server-lanes.md",
+      "downloadPath": "skills/minecraft/server-lanes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/server-lanes.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/minecraft/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/minecraft/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/SKILL.md"
+    },
+    {
+      "path": "survival-routes.md",
+      "downloadPath": "skills/minecraft/survival-routes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/survival-routes.md"
+    }
+  ]
+}

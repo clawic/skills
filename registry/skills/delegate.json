@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "delegate",
+    "name": "Delegate",
+    "description": "Route tasks to sub-agents with optimal model selection, error recovery, and result verification.",
+    "summary": "Core Rule Spawn cost < task cost → delegate. Otherwise, do it yourself. Model Tiers | Tier | Models | Cost | Use for | |------|--------|------|---------| | Small | Haiku, GPT-4o-mini, Gemini Flash | ~$0.25/1M | Search, s",
+    "repositoryPath": "skills/delegate",
+    "manifestPath": "registry/skills/delegate.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/delegate/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/_meta.json"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/delegate/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/errors.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/delegate/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/delegate/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/templates.md"
+    }
+  ]
+}

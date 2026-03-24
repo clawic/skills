@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "skill-manager",
+    "name": "Skill Manager",
+    "description": "Manage installed skills lifecycle: suggest by context, track installations, check updates, and cleanup unused.",
+    "version": "1.0.3",
+    "summary": "Skill Lifecycle Management Manage the full lifecycle of installed skills: discovery, installation, updates, and cleanup. **References:** - `suggestions.md` — when to suggest skills based on current task - `lifecycle.md` ",
+    "repositoryPath": "skills/skill-manager",
+    "manifestPath": "registry/skills/skill-manager.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/skill-manager/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-manager/_meta.json"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/skill-manager/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-manager/lifecycle.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-manager/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-manager/SKILL.md"
+    },
+    {
+      "path": "suggestions.md",
+      "downloadPath": "skills/skill-manager/suggestions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-manager/suggestions.md"
+    }
+  ]
+}

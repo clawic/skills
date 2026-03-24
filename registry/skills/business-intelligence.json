@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "business-intelligence",
+    "name": "Business Intelligence",
+    "description": "Model business performance, define KPIs, and turn data into decision-ready dashboards, briefings, and operating cadences for teams and executives.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/business-intelligence",
+    "summary": "Setup On first use, read `setup.md` for integration behavior and memory initialization. When to Use Use this skill when the user needs to build or improve business intelligence systems: KPI definitions, metric architectu",
+    "repositoryPath": "skills/business-intelligence",
+    "manifestPath": "registry/skills/business-intelligence.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/business-intelligence/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/_meta.json"
+    },
+    {
+      "path": "dashboard-specs.md",
+      "downloadPath": "skills/business-intelligence/dashboard-specs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/dashboard-specs.md"
+    },
+    {
+      "path": "data-contracts.md",
+      "downloadPath": "skills/business-intelligence/data-contracts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/data-contracts.md"
+    },
+    {
+      "path": "decision-cadence.md",
+      "downloadPath": "skills/business-intelligence/decision-cadence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/decision-cadence.md"
+    },
+    {
+      "path": "insight-briefs.md",
+      "downloadPath": "skills/business-intelligence/insight-briefs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/insight-briefs.md"
+    },
+    {
+      "path": "kpi-dictionary.md",
+      "downloadPath": "skills/business-intelligence/kpi-dictionary.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/kpi-dictionary.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/business-intelligence/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/memory-template.md"
+    },
+    {
+      "path": "metric-tree.md",
+      "downloadPath": "skills/business-intelligence/metric-tree.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/metric-tree.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/business-intelligence/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/business-intelligence/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cycle",
+    "name": "Cycle",
+    "description": "Design custom workflow cycles for any domain. Create structured, repeatable processes that become persistent skills.",
+    "summary": "What is a Cycle? A structured workflow optimized for a specific goal. Examples: - **code** — Request → Plan → Execute → Verify → Deliver - **research** — Question → Search → Synthesize → Report - **content** — Idea → Dra",
+    "repositoryPath": "skills/cycle",
+    "manifestPath": "registry/skills/cycle.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cycle/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/_meta.json"
+    },
+    {
+      "path": "discovery.md",
+      "downloadPath": "skills/cycle/discovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/discovery.md"
+    },
+    {
+      "path": "examples.md",
+      "downloadPath": "skills/cycle/examples.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/examples.md"
+    },
+    {
+      "path": "implementation.md",
+      "downloadPath": "skills/cycle/implementation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/implementation.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cycle/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/SKILL.md"
+    }
+  ]
+}

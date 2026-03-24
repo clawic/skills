@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "blockchain",
+    "name": "Blockchain",
+    "description": "Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.",
+    "summary": "What This Covers Blockchain fundamentals and practical interaction — the technology, not the speculation. **In scope:** Distributed ledgers, consensus, transactions, smart contract interaction, wallets, token standards. ",
+    "repositoryPath": "skills/blockchain",
+    "manifestPath": "registry/skills/blockchain.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/blockchain/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/_meta.json"
+    },
+    {
+      "path": "concepts.md",
+      "downloadPath": "skills/blockchain/concepts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/concepts.md"
+    },
+    {
+      "path": "dev.md",
+      "downloadPath": "skills/blockchain/dev.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/dev.md"
+    },
+    {
+      "path": "evaluation.md",
+      "downloadPath": "skills/blockchain/evaluation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/evaluation.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/blockchain/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/blockchain/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/SKILL.md"
+    }
+  ]
+}

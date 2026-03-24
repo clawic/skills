@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "prisma",
+    "name": "Prisma",
+    "description": "Write efficient Prisma queries, design schemas, and avoid common ORM pitfalls.",
+    "summary": "Schema Design Traps - `@default(cuid())` over `@default(uuid())` for IDs—shorter, URL-safe, still unique - `@updatedAt` doesn't update on nested writes—must touch parent record explicitly - Implicit many-to-many creates ",
+    "repositoryPath": "skills/prisma",
+    "manifestPath": "registry/skills/prisma.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/prisma/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/prisma/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/SKILL.md"
+    }
+  ]
+}

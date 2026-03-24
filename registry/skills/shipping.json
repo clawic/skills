@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "shipping",
+    "name": "Shipping Operations",
+    "description": "Plan and manage parcel shipping decisions with carrier selection, landed-cost math, customs checks, and delivery exception playbooks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/shipping",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs to ship physical goods and wants reliable decisions across rates, packaging, customs, tracking, and delivery issues. Agent provides s",
+    "repositoryPath": "skills/shipping",
+    "manifestPath": "registry/skills/shipping.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/shipping/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/_meta.json"
+    },
+    {
+      "path": "carrier-selection.md",
+      "downloadPath": "skills/shipping/carrier-selection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/carrier-selection.md"
+    },
+    {
+      "path": "exception-playbook.md",
+      "downloadPath": "skills/shipping/exception-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/exception-playbook.md"
+    },
+    {
+      "path": "international-customs.md",
+      "downloadPath": "skills/shipping/international-customs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/international-customs.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/shipping/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/shipping/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/shipping/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/SKILL.md"
+    }
+  ]
+}

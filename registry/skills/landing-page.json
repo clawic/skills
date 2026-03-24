@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "landing-page",
+    "name": "Landing Page",
+    "description": "Build high-converting landing pages with proven structure, persuasive copy, and conversion optimization.",
+    "summary": "Triggers Activate on: \"create landing page\", \"write landing copy\", \"improve conversion\", \"page not converting\", \"hero section help\". Core Structure Every landing page follows the same spine: | Section | Purpose | Height ",
+    "repositoryPath": "skills/landing-page",
+    "manifestPath": "registry/skills/landing-page.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/landing-page/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/_meta.json"
+    },
+    {
+      "path": "copy.md",
+      "downloadPath": "skills/landing-page/copy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/copy.md"
+    },
+    {
+      "path": "optimization.md",
+      "downloadPath": "skills/landing-page/optimization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/optimization.md"
+    },
+    {
+      "path": "sections.md",
+      "downloadPath": "skills/landing-page/sections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/sections.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/landing-page/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/landing-page/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/templates.md"
+    }
+  ]
+}

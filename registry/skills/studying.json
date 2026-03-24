@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "studying",
+    "name": "Studying",
+    "description": "Auto-learns your study habits for academic success. Adapts techniques, timing, and materials to you.",
+    "version": "1.0.1",
+    "summary": "Auto-Adaptive Study Preferences This skill auto-evolves. User preferences persist in `~/studying/memory.md`. Create on first use: ```markdown Techniques <!-- Study methods that work. Format: \"method: context (level)\" -->",
+    "repositoryPath": "skills/studying",
+    "manifestPath": "registry/skills/studying.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/studying/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/_meta.json"
+    },
+    {
+      "path": "criteria.md",
+      "downloadPath": "skills/studying/criteria.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/criteria.md"
+    },
+    {
+      "path": "dimensions.md",
+      "downloadPath": "skills/studying/dimensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/dimensions.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/studying/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/SKILL.md"
+    }
+  ]
+}

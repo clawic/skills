@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "home-buying",
+    "name": "Home Buying",
+    "description": "Buy a home with budget guardrails, listing scorecards, offer strategy, due diligence triage, and closing readiness checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/home-buying",
+    "summary": "Setup If `~/home-buying/` does not exist or is empty, read `setup.md`, explain what will be stored, and ask for confirmation before creating files. When to Use Use this skill when a user is buying a primary home or inves",
+    "repositoryPath": "skills/home-buying",
+    "manifestPath": "registry/skills/home-buying.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/home-buying/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/_meta.json"
+    },
+    {
+      "path": "budget-guardrails.md",
+      "downloadPath": "skills/home-buying/budget-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/budget-guardrails.md"
+    },
+    {
+      "path": "closing-readiness.md",
+      "downloadPath": "skills/home-buying/closing-readiness.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/closing-readiness.md"
+    },
+    {
+      "path": "due-diligence.md",
+      "downloadPath": "skills/home-buying/due-diligence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/due-diligence.md"
+    },
+    {
+      "path": "listing-scorecard.md",
+      "downloadPath": "skills/home-buying/listing-scorecard.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/listing-scorecard.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/home-buying/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/memory-template.md"
+    },
+    {
+      "path": "offer-ladder.md",
+      "downloadPath": "skills/home-buying/offer-ladder.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/offer-ladder.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/home-buying/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/home-buying/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/SKILL.md"
+    }
+  ]
+}

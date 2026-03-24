@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cpp",
+    "name": "C++",
+    "description": "Write safe C++ avoiding memory leaks, dangling pointers, undefined behavior, and ownership confusion.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | RAII, smart pointers, new/delete | `memory.md` | | Raw pointers, references, nullptr | `pointers.md` | | Rule of 3/5/0, inheritance, virtual | `classes.md` | | Containe",
+    "repositoryPath": "skills/cpp",
+    "manifestPath": "registry/skills/cpp.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cpp/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/_meta.json"
+    },
+    {
+      "path": "classes.md",
+      "downloadPath": "skills/cpp/classes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/classes.md"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/cpp/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/concurrency.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/cpp/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/memory.md"
+    },
+    {
+      "path": "modern.md",
+      "downloadPath": "skills/cpp/modern.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/modern.md"
+    },
+    {
+      "path": "pointers.md",
+      "downloadPath": "skills/cpp/pointers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/pointers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cpp/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/SKILL.md"
+    },
+    {
+      "path": "stl.md",
+      "downloadPath": "skills/cpp/stl.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/stl.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/cpp/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/templates.md"
+    },
+    {
+      "path": "ub.md",
+      "downloadPath": "skills/cpp/ub.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/ub.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "folders",
+    "name": "Folders",
+    "description": "Index important directories and perform safe folder operations with proper security checks.",
+    "summary": "Folder Index Maintain a lightweight index at `~/.config/folder-index.json` to know where important things are without rescanning. ```json { \"folders\": [ {\"path\": \"/Users/alex/projects/webapp\", \"type\": \"project\", \"note\": ",
+    "repositoryPath": "skills/folders",
+    "manifestPath": "registry/skills/folders.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/folders/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/folders/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/SKILL.md"
+    }
+  ]
+}

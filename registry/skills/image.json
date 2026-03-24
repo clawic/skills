@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "image",
+    "name": "Image",
+    "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes.",
+    "version": "1.0.4",
+    "homepage": "https://clawic.com/skills/image",
+    "summary": "When to Use Use when the main artifact is an image file or visual asset, especially when format choice, resizing, cropping, compression, metadata, transparency, color profile, responsive delivery, social specs, marketpla",
+    "repositoryPath": "skills/image",
+    "manifestPath": "registry/skills/image.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/image/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/_meta.json"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/image/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/accessibility.md"
+    },
+    {
+      "path": "branding.md",
+      "downloadPath": "skills/image/branding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/branding.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/image/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/commands.md"
+    },
+    {
+      "path": "ecommerce.md",
+      "downloadPath": "skills/image/ecommerce.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/ecommerce.md"
+    },
+    {
+      "path": "photography.md",
+      "downloadPath": "skills/image/photography.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/photography.md"
+    },
+    {
+      "path": "screenshots.md",
+      "downloadPath": "skills/image/screenshots.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/screenshots.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/image/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/SKILL.md"
+    },
+    {
+      "path": "social.md",
+      "downloadPath": "skills/image/social.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/social.md"
+    },
+    {
+      "path": "web.md",
+      "downloadPath": "skills/image/web.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/web.md"
+    }
+  ]
+}

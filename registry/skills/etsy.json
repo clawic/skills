@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "etsy",
+    "name": "Etsy",
+    "description": "Improve Etsy listings with buyer-intent keywords, margin-safe pricing checks, and structured experiments that raise qualified traffic and conversion.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/etsy",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Ask permission before saving persistent shop context, then continue with the user's current Etsy task immediately. When to Use User needs Etsy growth suppor",
+    "repositoryPath": "skills/etsy",
+    "manifestPath": "registry/skills/etsy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/etsy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/_meta.json"
+    },
+    {
+      "path": "listing-audit-playbook.md",
+      "downloadPath": "skills/etsy/listing-audit-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/listing-audit-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/etsy/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/etsy/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/etsy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/SKILL.md"
+    }
+  ]
+}

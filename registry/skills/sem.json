@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sem",
+    "name": "SEM",
+    "description": "Search engine marketing strategy, keyword bidding, quality score optimization, and paid search campaign management",
+    "summary": "Keyword Strategy - Exact match isn't exact anymore — Google includes \"close variants\" (plurals, misspellings, implied intent). Review search terms report weekly - Broad match needs smart bidding — without automated biddi",
+    "repositoryPath": "skills/sem",
+    "manifestPath": "registry/skills/sem.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sem/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sem/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sem/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sem/SKILL.md"
+    }
+  ]
+}

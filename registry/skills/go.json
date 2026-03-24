@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "go",
+    "name": "Go",
+    "description": "Write reliable Go code avoiding goroutine leaks, interface traps, and common concurrency bugs.",
+    "version": "1.0.2",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Concurrency patterns | `concurrency.md` | | Interface and type system | `interfaces.md` | | Slices, maps, strings | `collections.md` | | Error handling patterns | `erro",
+    "repositoryPath": "skills/go",
+    "manifestPath": "registry/skills/go.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/go/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/_meta.json"
+    },
+    {
+      "path": "collections.md",
+      "downloadPath": "skills/go/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/collections.md"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/go/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/concurrency.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/go/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/errors.md"
+    },
+    {
+      "path": "interfaces.md",
+      "downloadPath": "skills/go/interfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/interfaces.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/go/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/SKILL.md"
+    }
+  ]
+}

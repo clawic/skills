@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "description": "Query Mixpanel analytics with funnels, retention, segmentation, and event tracking via REST API.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/mixpanel",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs product analytics from Mixpanel. Agent handles event queries, funnel analysis, retention cohorts, user segmentation, and profile look",
+    "repositoryPath": "skills/mixpanel",
+    "manifestPath": "registry/skills/mixpanel.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mixpanel/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mixpanel/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/mixpanel/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mixpanel/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/mixpanel/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mixpanel/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mixpanel/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mixpanel/SKILL.md"
+    }
+  ]
+}

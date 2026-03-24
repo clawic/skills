@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "playwright",
+    "name": "Playwright (Automation + MCP + Scraper)",
+    "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.",
+    "version": "1.0.3",
+    "homepage": "https://clawic.com/skills/playwright",
+    "summary": "When to Use Use this skill for real browser tasks: JS-rendered pages, multi-step forms, screenshots or PDFs, UI debugging, Playwright test authoring, MCP-driven browser control, and structured extraction from rendered pa",
+    "repositoryPath": "skills/playwright",
+    "manifestPath": "registry/skills/playwright.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/playwright/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/_meta.json"
+    },
+    {
+      "path": "ci-cd.md",
+      "downloadPath": "skills/playwright/ci-cd.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/ci-cd.md"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/playwright/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/debugging.md"
+    },
+    {
+      "path": "scraping.md",
+      "downloadPath": "skills/playwright/scraping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/scraping.md"
+    },
+    {
+      "path": "selectors.md",
+      "downloadPath": "skills/playwright/selectors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/selectors.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/playwright/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/playwright/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/testing.md"
+    }
+  ]
+}

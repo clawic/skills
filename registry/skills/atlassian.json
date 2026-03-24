@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "atlassian",
+    "name": "Atlassian Cloud APIs + CLIs",
+    "description": "Operate Atlassian Cloud APIs and CLIs across Jira, Confluence, Bitbucket, Trello, Admin, Forge, Compass, Opsgenie, and Statuspage.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/atlassian",
+    "summary": "When to Use User needs to read, create, update, search, administer, or automate Atlassian Cloud products from terminal workflows. This skill routes to the right API or CLI, matches auth to the chosen surface, and avoids ",
+    "repositoryPath": "skills/atlassian",
+    "manifestPath": "registry/skills/atlassian.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/atlassian/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/_meta.json"
+    },
+    {
+      "path": "admin-ops.md",
+      "downloadPath": "skills/atlassian/admin-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/admin-ops.md"
+    },
+    {
+      "path": "auth-and-clis.md",
+      "downloadPath": "skills/atlassian/auth-and-clis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/auth-and-clis.md"
+    },
+    {
+      "path": "content-dev-collab.md",
+      "downloadPath": "skills/atlassian/content-dev-collab.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/content-dev-collab.md"
+    },
+    {
+      "path": "jira-suite.md",
+      "downloadPath": "skills/atlassian/jira-suite.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/jira-suite.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/atlassian/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/memory-template.md"
+    },
+    {
+      "path": "product-map.md",
+      "downloadPath": "skills/atlassian/product-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/product-map.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/atlassian/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/atlassian/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/SKILL.md"
+    }
+  ]
+}

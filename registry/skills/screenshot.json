@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "screenshot",
+    "name": "Screenshot",
+    "description": "Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and output format. Use when (1) you need screenshots for debugging, QA, docs, bug reports, or visual review; (2) desktop, browser, simulator, or headless capture is involved; (3) stable screenshots require fixed viewport, settling, masking, or animation control.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/screenshot",
+    "summary": "When to Use Use when the task needs a screenshot of a desktop app, browser page, simulator, region, window, or full screen, especially for debugging, QA, documentation, release notes, bug reports, visual review, or befor",
+    "repositoryPath": "skills/screenshot",
+    "manifestPath": "registry/skills/screenshot.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/screenshot/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshot/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/screenshot/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshot/SKILL.md"
+    }
+  ]
+}

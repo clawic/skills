@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "use-cases",
+    "name": "Use Cases",
+    "description": "Discover what AI agents can do for you with practical examples by role, task type, and skill level.",
+    "summary": "Who This Is For Someone asking \"what can this actually do?\" Start by identifying their context. | Signal | They are... | Load | |--------|-------------|------| | \"Just heard about AI\", \"is this useful for me?\" | Beginner",
+    "repositoryPath": "skills/use-cases",
+    "manifestPath": "registry/skills/use-cases.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/use-cases/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/_meta.json"
+    },
+    {
+      "path": "beginner.md",
+      "downloadPath": "skills/use-cases/beginner.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/beginner.md"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/use-cases/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/business.md"
+    },
+    {
+      "path": "creative.md",
+      "downloadPath": "skills/use-cases/creative.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/creative.md"
+    },
+    {
+      "path": "developer.md",
+      "downloadPath": "skills/use-cases/developer.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/developer.md"
+    },
+    {
+      "path": "professional.md",
+      "downloadPath": "skills/use-cases/professional.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/professional.md"
+    },
+    {
+      "path": "skeptic.md",
+      "downloadPath": "skills/use-cases/skeptic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/skeptic.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/use-cases/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/SKILL.md"
+    }
+  ]
+}

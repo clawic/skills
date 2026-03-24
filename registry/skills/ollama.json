@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ollama",
+    "name": "Ollama",
+    "description": "Run, tune, and troubleshoot local Ollama models with reliable API patterns, Modelfiles, embeddings, and hardware-aware deployment workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ollama",
+    "summary": "When to Use User needs to install, run, integrate, tune, or debug Ollama for local or self-hosted model workflows. Agent handles smoke tests, model selection, API usage, Modelfile customization, embeddings, RAG fit check",
+    "repositoryPath": "skills/ollama",
+    "manifestPath": "registry/skills/ollama.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ollama/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/_meta.json"
+    },
+    {
+      "path": "api-patterns.md",
+      "downloadPath": "skills/ollama/api-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/api-patterns.md"
+    },
+    {
+      "path": "embeddings-and-rag.md",
+      "downloadPath": "skills/ollama/embeddings-and-rag.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/embeddings-and-rag.md"
+    },
+    {
+      "path": "install-and-smoke-test.md",
+      "downloadPath": "skills/ollama/install-and-smoke-test.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/install-and-smoke-test.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/ollama/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/memory-template.md"
+    },
+    {
+      "path": "modelfile-workflows.md",
+      "downloadPath": "skills/ollama/modelfile-workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/modelfile-workflows.md"
+    },
+    {
+      "path": "operations-and-performance.md",
+      "downloadPath": "skills/ollama/operations-and-performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/operations-and-performance.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/ollama/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ollama/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/ollama/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/troubleshooting.md"
+    }
+  ]
+}

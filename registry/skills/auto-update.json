@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "auto-update",
+    "name": "Auto-Update (OpenClaw + Skills)",
+    "description": "Auto-update OpenClaw and skills with OpenClaw cron, per-skill defaults, backups, and migration-aware summaries.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/auto-update",
+    "summary": "When to Use Use when the user wants OpenClaw and installed skills to stay updated automatically. This skill sets up a real `openclaw cron add` job, keeps a small control folder in `~/auto-update/`, remembers which skills",
+    "repositoryPath": "skills/auto-update",
+    "manifestPath": "registry/skills/auto-update.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/auto-update/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/_meta.json"
+    },
+    {
+      "path": "backups.md",
+      "downloadPath": "skills/auto-update/backups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/backups.md"
+    },
+    {
+      "path": "execution.md",
+      "downloadPath": "skills/auto-update/execution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/execution.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/auto-update/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory-template.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/auto-update/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory.md"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/auto-update/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/migrations.md"
+    },
+    {
+      "path": "openclaw.md",
+      "downloadPath": "skills/auto-update/openclaw.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/openclaw.md"
+    },
+    {
+      "path": "policy.md",
+      "downloadPath": "skills/auto-update/policy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/policy.md"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/auto-update/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/recovery.md"
+    },
+    {
+      "path": "reports.md",
+      "downloadPath": "skills/auto-update/reports.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/reports.md"
+    },
+    {
+      "path": "run-log.md",
+      "downloadPath": "skills/auto-update/run-log.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/run-log.md"
+    },
+    {
+      "path": "schedule.md",
+      "downloadPath": "skills/auto-update/schedule.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/schedule.md"
+    },
+    {
+      "path": "scheduler.md",
+      "downloadPath": "skills/auto-update/scheduler.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/scheduler.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/auto-update/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/auto-update/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/SKILL.md"
+    },
+    {
+      "path": "skills.md",
+      "downloadPath": "skills/auto-update/skills.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/skills.md"
+    },
+    {
+      "path": "workspace-integration.md",
+      "downloadPath": "skills/auto-update/workspace-integration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/workspace-integration.md"
+    }
+  ]
+}

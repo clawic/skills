@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "explain",
+    "name": "Explain",
+    "description": "Learns how to explain things to your human. Adapts format, depth, and style by topic.",
+    "version": "1.0.2",
+    "summary": "Adaptive Explanation Preferences **Scope:** Human-facing explanations only. Track what lands and what misses. Quick Reference | File | Purpose | |------|---------| | `formats.md` | When bullets/prose/headers work or fail",
+    "repositoryPath": "skills/explain",
+    "manifestPath": "registry/skills/explain.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/explain/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/_meta.json"
+    },
+    {
+      "path": "analogies.md",
+      "downloadPath": "skills/explain/analogies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/analogies.md"
+    },
+    {
+      "path": "depth.md",
+      "downloadPath": "skills/explain/depth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/depth.md"
+    },
+    {
+      "path": "dimensions.md",
+      "downloadPath": "skills/explain/dimensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/dimensions.md"
+    },
+    {
+      "path": "domains.md",
+      "downloadPath": "skills/explain/domains.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/domains.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/explain/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/formats.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/explain/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "history",
+    "name": "History",
+    "description": "Navigate the past from engaging stories to scholarly analysis at any depth.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question type, sources mentioned - When unclear, start with narrative and adjust based on response - Never condescend to experts or overwhelm beginners ",
+    "repositoryPath": "skills/history",
+    "manifestPath": "registry/skills/history.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/history/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/history/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/SKILL.md"
+    }
+  ]
+}

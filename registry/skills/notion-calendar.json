@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "notion-calendar",
+    "name": "Notion Calendar",
+    "description": "Manage Notion calendar databases with date-aware search, page creation, rescheduling, and safe workflows for planning views.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/notion-calendar",
+    "summary": "Setup On first use, read `setup.md` to establish token access, workspace scope, and safe write defaults. When to Use User wants to treat a Notion database as a calendar, editorial plan, launch schedule, content calendar,",
+    "repositoryPath": "skills/notion-calendar",
+    "manifestPath": "registry/skills/notion-calendar.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/notion-calendar/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/_meta.json"
+    },
+    {
+      "path": "calendar-schema.md",
+      "downloadPath": "skills/notion-calendar/calendar-schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendar-schema.md"
+    },
+    {
+      "path": "calendars.md",
+      "downloadPath": "skills/notion-calendar/calendars.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendars.md"
+    },
+    {
+      "path": "cli-patterns.md",
+      "downloadPath": "skills/notion-calendar/cli-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/cli-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/notion-calendar/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/memory-template.md"
+    },
+    {
+      "path": "query-playbook.md",
+      "downloadPath": "skills/notion-calendar/query-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/query-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/notion-calendar/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/notion-calendar/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/notion-calendar/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/templates.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/notion-calendar/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/troubleshooting.md"
+    }
+  ]
+}

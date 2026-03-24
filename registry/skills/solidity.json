@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "solidity",
+    "name": "Solidity",
+    "description": "Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.",
+    "summary": "Reentrancy - External calls before state updates — attacker can re-enter before state changes - Checks-Effects-Interactions pattern — validate, update state, THEN external call - `ReentrancyGuard` from OpenZeppelin — use",
+    "repositoryPath": "skills/solidity",
+    "manifestPath": "registry/skills/solidity.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/solidity/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/solidity/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/SKILL.md"
+    }
+  ]
+}

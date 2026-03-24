@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "flutter",
+    "name": "Flutter",
+    "description": "Build reliable Flutter apps avoiding state loss, widget rebuild traps, and async pitfalls.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | setState, state loss, keys | `state.md` | | build method, context, GlobalKey | `widgets.md` | | FutureBuilder, dispose, mounted | `async.md` | | Context after pop, deep",
+    "repositoryPath": "skills/flutter",
+    "manifestPath": "registry/skills/flutter.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/flutter/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/_meta.json"
+    },
+    {
+      "path": "async.md",
+      "downloadPath": "skills/flutter/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/async.md"
+    },
+    {
+      "path": "navigation.md",
+      "downloadPath": "skills/flutter/navigation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/navigation.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/flutter/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/performance.md"
+    },
+    {
+      "path": "platform.md",
+      "downloadPath": "skills/flutter/platform.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/platform.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/flutter/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/SKILL.md"
+    },
+    {
+      "path": "state.md",
+      "downloadPath": "skills/flutter/state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/state.md"
+    },
+    {
+      "path": "widgets.md",
+      "downloadPath": "skills/flutter/widgets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/widgets.md"
+    }
+  ]
+}

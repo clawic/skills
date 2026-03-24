@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "description": "Plan, launch, and optimize digital marketing with growth marketing systems, short-form video, funnel operations, and revenue-focused experimentation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/digital-marketing",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/digital-marketing/` if the user wants ongoing continuity. When to Use User needs one system for digit",
+    "repositoryPath": "skills/digital-marketing",
+    "manifestPath": "registry/skills/digital-marketing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/digital-marketing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/_meta.json"
+    },
+    {
+      "path": "channel-system.md",
+      "downloadPath": "skills/digital-marketing/channel-system.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/channel-system.md"
+    },
+    {
+      "path": "experiments.md",
+      "downloadPath": "skills/digital-marketing/experiments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/experiments.md"
+    },
+    {
+      "path": "funnels.md",
+      "downloadPath": "skills/digital-marketing/funnels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/funnels.md"
+    },
+    {
+      "path": "market-model.md",
+      "downloadPath": "skills/digital-marketing/market-model.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/market-model.md"
+    },
+    {
+      "path": "measurement.md",
+      "downloadPath": "skills/digital-marketing/measurement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/measurement.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/digital-marketing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/memory-template.md"
+    },
+    {
+      "path": "playbooks.md",
+      "downloadPath": "skills/digital-marketing/playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/playbooks.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/digital-marketing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/setup.md"
+    },
+    {
+      "path": "short-form-video.md",
+      "downloadPath": "skills/digital-marketing/short-form-video.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/short-form-video.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/digital-marketing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/SKILL.md"
+    }
+  ]
+}

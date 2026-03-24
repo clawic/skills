@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "video-downloader",
+    "name": "Video Downloader",
+    "description": "Download online videos with quality and format controls using yt-dlp for reliable local saves.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/video-downloader",
+    "summary": "Video Downloader Download single videos from user-provided URLs with predictable quality, format, and output paths. Setup On first use, read `setup.md` for integration guidelines. When to Use Use this skill when the user",
+    "repositoryPath": "skills/video-downloader",
+    "manifestPath": "registry/skills/video-downloader.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/video-downloader/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/_meta.json"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/video-downloader/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/commands.md"
+    },
+    {
+      "path": "download_video.py",
+      "downloadPath": "skills/video-downloader/download_video.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/download_video.py"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/video-downloader/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/video-downloader/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/video-downloader/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/SKILL.md"
+    }
+  ]
+}

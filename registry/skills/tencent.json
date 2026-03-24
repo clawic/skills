@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tencent",
+    "name": "Tencent",
+    "description": "Navigate Tencent products, Tencent Cloud services, and WeChat ecosystem decisions with region-aware planning and official-source verification.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tencent",
+    "summary": "When to Use User needs help choosing, comparing, implementing, or de-risking something in the Tencent ecosystem. Use this for Tencent Cloud architecture, WeChat and WeCom decisions, Mini Program planning, payments and ad",
+    "repositoryPath": "skills/tencent",
+    "manifestPath": "registry/skills/tencent.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tencent/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/_meta.json"
+    },
+    {
+      "path": "cloud-platform.md",
+      "downloadPath": "skills/tencent/cloud-platform.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/cloud-platform.md"
+    },
+    {
+      "path": "decision-framework.md",
+      "downloadPath": "skills/tencent/decision-framework.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/decision-framework.md"
+    },
+    {
+      "path": "ecosystem-map.md",
+      "downloadPath": "skills/tencent/ecosystem-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/ecosystem-map.md"
+    },
+    {
+      "path": "mainland-vs-global.md",
+      "downloadPath": "skills/tencent/mainland-vs-global.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/mainland-vs-global.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/tencent/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/memory-template.md"
+    },
+    {
+      "path": "rollout-checklist.md",
+      "downloadPath": "skills/tencent/rollout-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/rollout-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/tencent/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tencent/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/SKILL.md"
+    },
+    {
+      "path": "source-validation.md",
+      "downloadPath": "skills/tencent/source-validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/source-validation.md"
+    }
+  ]
+}

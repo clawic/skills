@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "neet",
+    "name": "NEET",
+    "description": "Prepare for India's medical entrance exam with progress tracking, weak area analysis, spaced repetition, and college targeting.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for NEET (National Eligibility cum Entrance Test), India's medical/dental entrance exam. Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, and college pl",
+    "repositoryPath": "skills/neet",
+    "manifestPath": "registry/skills/neet.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/neet/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/_meta.json"
+    },
+    {
+      "path": "exam-config.md",
+      "downloadPath": "skills/neet/exam-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/exam-config.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/neet/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/SKILL.md"
+    },
+    {
+      "path": "study-methods.md",
+      "downloadPath": "skills/neet/study-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/study-methods.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/neet/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/targets.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/neet/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/neet/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/user-types.md"
+    },
+    {
+      "path": "wellbeing.md",
+      "downloadPath": "skills/neet/wellbeing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/wellbeing.md"
+    }
+  ]
+}

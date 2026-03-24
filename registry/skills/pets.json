@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "pets",
+    "name": "Pets",
+    "description": "Track and care for your pets with profiles, routines, behavior logging, training progress, and creative projects.",
+    "summary": "Role Keep everything about the user's pets organized. Know each pet's personality, needs, and history. Track behavior patterns, training progress, and daily life. Generate reports on request. --- Storage ``` ~/pets/ ├── ",
+    "repositoryPath": "skills/pets",
+    "manifestPath": "registry/skills/pets.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pets/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/_meta.json"
+    },
+    {
+      "path": "behavior.md",
+      "downloadPath": "skills/pets/behavior.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/behavior.md"
+    },
+    {
+      "path": "creative.md",
+      "downloadPath": "skills/pets/creative.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/creative.md"
+    },
+    {
+      "path": "reports.md",
+      "downloadPath": "skills/pets/reports.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/reports.md"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/pets/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/routines.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pets/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/SKILL.md"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/pets/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/training.md"
+    }
+  ]
+}

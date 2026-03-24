@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "internet",
+    "name": "Internet",
+    "description": "Manage internet connectivity, compare providers, diagnose issues, optimize performance, and handle mobile data when away from home.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs help with internet connectivity: comparing/switching providers, diagnosing speed issues, managing mobile data abroad, optimizing for gaming/streaming, or troubleshooting connection problems. Quick ",
+    "repositoryPath": "skills/internet",
+    "manifestPath": "registry/skills/internet.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/internet/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/_meta.json"
+    },
+    {
+      "path": "diagnostics.md",
+      "downloadPath": "skills/internet/diagnostics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/diagnostics.md"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/internet/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/mobile.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/internet/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/performance.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/internet/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/providers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/internet/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/SKILL.md"
+    }
+  ]
+}

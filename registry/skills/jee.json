@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "jee",
+    "name": "JEE",
+    "description": "Prepare for India's Joint Entrance Examination with progress tracking, weak area analysis, mock test strategy, and IIT/NIT targeting.",
+    "version": "1.0.0",
+    "summary": "When to Use User is preparing for JEE (Main or Advanced), India's engineering entrance exam. Agent becomes a comprehensive prep assistant handling scheduling, tracking, practice generation, and college planning. Quick Re",
+    "repositoryPath": "skills/jee",
+    "manifestPath": "registry/skills/jee.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/jee/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/_meta.json"
+    },
+    {
+      "path": "exam-config.md",
+      "downloadPath": "skills/jee/exam-config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/exam-config.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/jee/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/SKILL.md"
+    },
+    {
+      "path": "study-methods.md",
+      "downloadPath": "skills/jee/study-methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/study-methods.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/jee/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/targets.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/jee/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/tracking.md"
+    },
+    {
+      "path": "user-types.md",
+      "downloadPath": "skills/jee/user-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/user-types.md"
+    },
+    {
+      "path": "wellbeing.md",
+      "downloadPath": "skills/jee/wellbeing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/wellbeing.md"
+    }
+  ]
+}

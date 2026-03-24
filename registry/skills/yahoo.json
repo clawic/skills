@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "yahoo",
+    "name": "Yahoo",
+    "description": "Use Yahoo Finance for quotes, symbol search, watchlists, market briefs, and catalyst-aware stock decisions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/yahoo",
+    "summary": "When to Use User needs Yahoo Finance workflows, ticker discovery, quote checks, watchlist reviews, or fast market context before making a stock decision. Agent handles symbol search, single-name snapshots, multi-ticker b",
+    "repositoryPath": "skills/yahoo",
+    "manifestPath": "registry/skills/yahoo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/yahoo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/_meta.json"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/yahoo/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/commands.md"
+    },
+    {
+      "path": "market-playbook.md",
+      "downloadPath": "skills/yahoo/market-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/market-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/yahoo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/memory-template.md"
+    },
+    {
+      "path": "risk-playbook.md",
+      "downloadPath": "skills/yahoo/risk-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/risk-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/yahoo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/yahoo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/SKILL.md"
+    },
+    {
+      "path": "thesis-card.md",
+      "downloadPath": "skills/yahoo/thesis-card.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/thesis-card.md"
+    },
+    {
+      "path": "yahoo_brief.py",
+      "downloadPath": "skills/yahoo/yahoo_brief.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_brief.py"
+    },
+    {
+      "path": "yahoo_quote.py",
+      "downloadPath": "skills/yahoo/yahoo_quote.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_quote.py"
+    },
+    {
+      "path": "yahoo_search.py",
+      "downloadPath": "skills/yahoo/yahoo_search.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_search.py"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "post-labor-economics",
+    "name": "Post-Labor Economics",
+    "description": "Model post-labor economies with automation shocks, distribution redesign, and policy portfolios across income, ownership, time, and services.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/post-labor-economics",
+    "summary": "Setup If `~/post-labor-economics/` does not exist or is empty, read `setup.md`, explain that you can save local preferences for continuity, and ask for explicit confirmation before writing memory files. When to Use User ",
+    "repositoryPath": "skills/post-labor-economics",
+    "manifestPath": "registry/skills/post-labor-economics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/post-labor-economics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/_meta.json"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/post-labor-economics/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/frameworks.md"
+    },
+    {
+      "path": "indicators.md",
+      "downloadPath": "skills/post-labor-economics/indicators.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/indicators.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/post-labor-economics/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/memory-template.md"
+    },
+    {
+      "path": "policy-portfolio.md",
+      "downloadPath": "skills/post-labor-economics/policy-portfolio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/policy-portfolio.md"
+    },
+    {
+      "path": "research-notes.md",
+      "downloadPath": "skills/post-labor-economics/research-notes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/research-notes.md"
+    },
+    {
+      "path": "scenarios.md",
+      "downloadPath": "skills/post-labor-economics/scenarios.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/scenarios.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/post-labor-economics/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/post-labor-economics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/SKILL.md"
+    }
+  ]
+}

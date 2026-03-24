@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "legal",
+    "name": "Legal",
+    "description": "Think through any legal situation like a lawyer. Issue spotting, jurisdiction, risk assessment, actionable conclusions.",
+    "summary": "Pattern ``` Jurisdiction → Facts → Issues → Law → Application → Risk → Action ``` Before answering anything legal: Identify where. Establish facts. Spot all issues. Find applicable law. Apply to facts. Assess risk. Recom",
+    "repositoryPath": "skills/legal",
+    "manifestPath": "registry/skills/legal.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/legal/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/legal/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/legal/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/legal/SKILL.md"
+    }
+  ]
+}

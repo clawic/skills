@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "thermostat",
+    "name": "Thermostat",
+    "description": "Adjust temperatures, diagnose comfort issues, calculate energy savings, and automate schedules through voice commands or smart home integration.",
+    "summary": "What the Agent Can Do | User Request | Agent Action | |--------------|--------------| | \"Make it warmer/cooler\" | Adjust setpoint ±2-3°F or to specific temp | | \"Why is my bedroom cold?\" | Diagnose: sensor location, vent",
+    "repositoryPath": "skills/thermostat",
+    "manifestPath": "registry/skills/thermostat.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/thermostat/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/_meta.json"
+    },
+    {
+      "path": "away.md",
+      "downloadPath": "skills/thermostat/away.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/away.md"
+    },
+    {
+      "path": "basics.md",
+      "downloadPath": "skills/thermostat/basics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/basics.md"
+    },
+    {
+      "path": "efficiency.md",
+      "downloadPath": "skills/thermostat/efficiency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/efficiency.md"
+    },
+    {
+      "path": "integration.md",
+      "downloadPath": "skills/thermostat/integration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/integration.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/thermostat/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/thermostat/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/troubleshooting.md"
+    }
+  ]
+}

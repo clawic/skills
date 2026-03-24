@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "baby",
+    "name": "Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)",
+    "description": "Track baby feeds, sleep, diapers, symptoms, growth, routines, and pediatric follow-up with caregiver handoffs and safety-first triage.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/baby",
+    "summary": "When to Use User wants a baby tracker for feeds, sleep, diapers, symptoms, medications, growth, solids, routines, appointments, questions, or warning signs. Agent keeps logs consistent across caregivers, prepares pediatr",
+    "repositoryPath": "skills/baby",
+    "manifestPath": "registry/skills/baby.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/baby/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/_meta.json"
+    },
+    {
+      "path": "caregiver-handoff.md",
+      "downloadPath": "skills/baby/caregiver-handoff.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/caregiver-handoff.md"
+    },
+    {
+      "path": "data-quality.md",
+      "downloadPath": "skills/baby/data-quality.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/data-quality.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/baby/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/memory-template.md"
+    },
+    {
+      "path": "metric-catalog.md",
+      "downloadPath": "skills/baby/metric-catalog.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/metric-catalog.md"
+    },
+    {
+      "path": "routine-blueprints.md",
+      "downloadPath": "skills/baby/routine-blueprints.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/routine-blueprints.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/baby/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/baby/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/SKILL.md"
+    },
+    {
+      "path": "tracking-framework.md",
+      "downloadPath": "skills/baby/tracking-framework.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/tracking-framework.md"
+    },
+    {
+      "path": "triage-rules.md",
+      "downloadPath": "skills/baby/triage-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/triage-rules.md"
+    },
+    {
+      "path": "visit-summary-template.md",
+      "downloadPath": "skills/baby/visit-summary-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/visit-summary-template.md"
+    }
+  ]
+}

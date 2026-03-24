@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "rails",
+    "name": "Rails",
+    "description": "Build reliable Rails apps avoiding ActiveRecord traps, N+1 queries, and callback pitfalls.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | N+1, callbacks, validations, scopes | `activerecord.md` | | Strong params, filters, render | `controllers.md` | | Route conflicts, constraints | `routing.md` | | Partia",
+    "repositoryPath": "skills/rails",
+    "manifestPath": "registry/skills/rails.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/rails/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/_meta.json"
+    },
+    {
+      "path": "activerecord.md",
+      "downloadPath": "skills/rails/activerecord.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/activerecord.md"
+    },
+    {
+      "path": "controllers.md",
+      "downloadPath": "skills/rails/controllers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/controllers.md"
+    },
+    {
+      "path": "jobs.md",
+      "downloadPath": "skills/rails/jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/jobs.md"
+    },
+    {
+      "path": "routing.md",
+      "downloadPath": "skills/rails/routing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/routing.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/rails/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/rails/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/SKILL.md"
+    },
+    {
+      "path": "views.md",
+      "downloadPath": "skills/rails/views.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/views.md"
+    }
+  ]
+}

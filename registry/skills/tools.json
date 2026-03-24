@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tools",
+    "name": "Tools",
+    "description": "Learns your tool preferences while staying capable of using anything. Adapts to your stack.",
+    "summary": "Adaptive Tool Intelligence You can use ANY tool. Learn new ones instantly. This skill tracks user preferences, not your limits. **Rules:** - Default to user's known tools when they exist - Propose better alternatives whe",
+    "repositoryPath": "skills/tools",
+    "manifestPath": "registry/skills/tools.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tools/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/_meta.json"
+    },
+    {
+      "path": "criteria.md",
+      "downloadPath": "skills/tools/criteria.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/criteria.md"
+    },
+    {
+      "path": "dimensions.md",
+      "downloadPath": "skills/tools/dimensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/dimensions.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tools/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/SKILL.md"
+    }
+  ]
+}

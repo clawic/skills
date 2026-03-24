@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "memory",
+    "name": "Memory",
+    "description": "Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/memory",
+    "summary": "Memory 🧠 **Superpowered memory that never forgets.** Your agent has basic built-in memory. This skill adds infinite, perfectly organized memory for everything else — parallel and complementary, never conflicting. How It",
+    "repositoryPath": "skills/memory",
+    "manifestPath": "registry/skills/memory.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/memory/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/memory/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/memory-template.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/memory/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/memory/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/memory/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/memory/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/troubleshooting.md"
+    }
+  ]
+}

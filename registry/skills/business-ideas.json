@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "business-ideas",
+    "name": "Business Ideas",
+    "description": "Generate unlimited business ideas with validation frameworks, market filters, and viability scoring.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/business-ideas",
+    "summary": "When to Use User wants new business ideas, startup concepts, or side project inspiration. Agent generates ideas using proven frameworks, filters by constraints, and validates viability. Architecture Memory lives in `~/bu",
+    "repositoryPath": "skills/business-ideas",
+    "manifestPath": "registry/skills/business-ideas.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/business-ideas/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/_meta.json"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/business-ideas/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/frameworks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/business-ideas/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/memory-template.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/business-ideas/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/SKILL.md"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/business-ideas/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/validation.md"
+    }
+  ]
+}

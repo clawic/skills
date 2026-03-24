@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "growth",
+    "name": "Growth",
+    "description": "Design and execute growth strategies with acquisition loops, activation, and retention systems.",
+    "summary": "North Star Metric (Define First) Pick ONE metric that: - Reflects core value delivered to customer - Leads revenue (not lags) - Entire team can influence Examples by business type: - Marketplace: transactions completed -",
+    "repositoryPath": "skills/growth",
+    "manifestPath": "registry/skills/growth.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/growth/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/growth/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/SKILL.md"
+    }
+  ]
+}

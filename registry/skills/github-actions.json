@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "github-actions",
+    "name": "GitHub Actions",
+    "description": "Design, debug, and harden GitHub Actions workflows with reusable pipelines, safe permissions, and faster CI and release automation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/github-actions",
+    "summary": "Setup On first activation, read `setup.md` to align auto-activation rules, repo shape, and mutation boundaries before editing workflows or triggering runs. When to Use User needs GitHub Actions workflow design, debugging",
+    "repositoryPath": "skills/github-actions",
+    "manifestPath": "registry/skills/github-actions.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/github-actions/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/_meta.json"
+    },
+    {
+      "path": "debugging-playbook.md",
+      "downloadPath": "skills/github-actions/debugging-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/debugging-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/github-actions/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/memory-template.md"
+    },
+    {
+      "path": "performance-tuning.md",
+      "downloadPath": "skills/github-actions/performance-tuning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/performance-tuning.md"
+    },
+    {
+      "path": "release-patterns.md",
+      "downloadPath": "skills/github-actions/release-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/release-patterns.md"
+    },
+    {
+      "path": "security-model.md",
+      "downloadPath": "skills/github-actions/security-model.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/security-model.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/github-actions/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/github-actions/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/SKILL.md"
+    },
+    {
+      "path": "workflow-patterns.md",
+      "downloadPath": "skills/github-actions/workflow-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/workflow-patterns.md"
+    }
+  ]
+}

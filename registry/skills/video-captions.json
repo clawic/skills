@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "video-captions",
+    "name": "Video Captions",
+    "description": "Generate professional captions and subtitles with multi-engine transcription, word-level timing, styling presets, and burn-in.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/video-captions",
+    "summary": "When to Use User needs captions or subtitles for video content. Agent handles transcription, timing, formatting, styling, translation, and burn-in across all major formats and platforms. Quick Reference | Topic | File | ",
+    "repositoryPath": "skills/video-captions",
+    "manifestPath": "registry/skills/video-captions.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/video-captions/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/_meta.json"
+    },
+    {
+      "path": "engines.md",
+      "downloadPath": "skills/video-captions/engines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/engines.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/video-captions/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/formats.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/video-captions/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/platforms.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/video-captions/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/SKILL.md"
+    },
+    {
+      "path": "styling.md",
+      "downloadPath": "skills/video-captions/styling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/styling.md"
+    }
+  ]
+}

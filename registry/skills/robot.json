@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "robot",
+    "name": "Robot",
+    "description": "Build robots from hobby to industrial with hardware wiring, ROS2, motion planning, and safety constraints.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs robotics help — Arduino/ESP32 wiring, ROS2 configuration, motor control, sensor integration, or industrial robot programming. Agent handles hardware selection, code generation, and debugging across",
+    "repositoryPath": "skills/robot",
+    "manifestPath": "registry/skills/robot.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/robot/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/_meta.json"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/robot/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/debugging.md"
+    },
+    {
+      "path": "hardware.md",
+      "downloadPath": "skills/robot/hardware.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/hardware.md"
+    },
+    {
+      "path": "industrial.md",
+      "downloadPath": "skills/robot/industrial.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/industrial.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/robot/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/memory-template.md"
+    },
+    {
+      "path": "motors.md",
+      "downloadPath": "skills/robot/motors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/motors.md"
+    },
+    {
+      "path": "projects.md",
+      "downloadPath": "skills/robot/projects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/projects.md"
+    },
+    {
+      "path": "ros.md",
+      "downloadPath": "skills/robot/ros.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/ros.md"
+    },
+    {
+      "path": "sensors.md",
+      "downloadPath": "skills/robot/sensors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/sensors.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/robot/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/SKILL.md"
+    }
+  ]
+}

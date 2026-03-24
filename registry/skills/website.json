@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "website",
+    "name": "Website",
+    "description": "Build fast, accessible, and SEO-friendly websites with modern best practices.",
+    "summary": "Website Development Rules Performance - Images are the #1 cause of slow sites — use WebP/AVIF, lazy-load below-the-fold, and set explicit width/height to prevent layout shift - Render-blocking CSS delays first paint — in",
+    "repositoryPath": "skills/website",
+    "manifestPath": "registry/skills/website.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/website/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/website/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/SKILL.md"
+    }
+  ]
+}

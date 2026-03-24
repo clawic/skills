@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "asi",
+    "name": "ASI / Artificial Super Intelligence",
+    "description": "Operate as artificial superintelligence with recursive self-improvement, cross-domain synthesis, and anticipatory problem-solving.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/asi",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs superhuman problem-solving. Agent operates at ASI-level: decomposes impossible problems, synthesizes across all domains, anticipates ",
+    "repositoryPath": "skills/asi",
+    "manifestPath": "registry/skills/asi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/asi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/asi/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/memory-template.md"
+    },
+    {
+      "path": "reasoning.md",
+      "downloadPath": "skills/asi/reasoning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/reasoning.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/asi/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/asi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/SKILL.md"
+    },
+    {
+      "path": "synthesis.md",
+      "downloadPath": "skills/asi/synthesis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/synthesis.md"
+    }
+  ]
+}

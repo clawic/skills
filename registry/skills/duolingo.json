@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "duolingo",
+    "name": "Duolingo Learning OS",
+    "description": "Run a Duolingo-like multi-topic learning system with AGENTS routing, lesson loops, streaks, and spaced review.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/duolingo",
+    "summary": "Setup On first use, read `setup.md` for routing, filesystem bootstrap, and topic activation. When to Use User wants to learn one or more subjects with short daily lessons, instant feedback, streak pressure, and ongoing r",
+    "repositoryPath": "skills/duolingo",
+    "manifestPath": "registry/skills/duolingo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/duolingo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/_meta.json"
+    },
+    {
+      "path": "activation-routing.md",
+      "downloadPath": "skills/duolingo/activation-routing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/activation-routing.md"
+    },
+    {
+      "path": "blueprint.md",
+      "downloadPath": "skills/duolingo/blueprint.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/blueprint.md"
+    },
+    {
+      "path": "launch-scorecard.md",
+      "downloadPath": "skills/duolingo/launch-scorecard.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/launch-scorecard.md"
+    },
+    {
+      "path": "lesson-loop.md",
+      "downloadPath": "skills/duolingo/lesson-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/lesson-loop.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/duolingo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/memory-template.md"
+    },
+    {
+      "path": "progression.md",
+      "downloadPath": "skills/duolingo/progression.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/progression.md"
+    },
+    {
+      "path": "retention-ops.md",
+      "downloadPath": "skills/duolingo/retention-ops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/retention-ops.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/duolingo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/duolingo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/SKILL.md"
+    },
+    {
+      "path": "topic-template.md",
+      "downloadPath": "skills/duolingo/topic-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/topic-template.md"
+    }
+  ]
+}

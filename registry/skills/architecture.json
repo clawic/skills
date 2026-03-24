@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "architecture",
+    "name": "Architecture",
+    "description": "Support architectural understanding from home projects to professional practice and theory.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, technical depth, professional credentials - When unclear, ask about their role before giving specific guidance - Ask project location for code and zonin",
+    "repositoryPath": "skills/architecture",
+    "manifestPath": "registry/skills/architecture.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/architecture/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architecture/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/architecture/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architecture/SKILL.md"
+    }
+  ]
+}

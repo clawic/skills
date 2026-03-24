@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "prediction",
+    "name": "Prediction",
+    "description": "Forecast uncertain outcomes with base rates, reference classes, calibration loops, and explicit scorekeeping.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/prediction",
+    "summary": "When to Use User needs a defended forecast about what will happen, when it will happen, or how likely it is. Agent handles question design, base-rate search, reference-class selection, inside-vs-outside view balancing, e",
+    "repositoryPath": "skills/prediction",
+    "manifestPath": "registry/skills/prediction.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/prediction/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/_meta.json"
+    },
+    {
+      "path": "calibration.md",
+      "downloadPath": "skills/prediction/calibration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/calibration.md"
+    },
+    {
+      "path": "forecast-loop.md",
+      "downloadPath": "skills/prediction/forecast-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/forecast-loop.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/prediction/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/memory-template.md"
+    },
+    {
+      "path": "question-design.md",
+      "downloadPath": "skills/prediction/question-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/question-design.md"
+    },
+    {
+      "path": "scoring-and-review.md",
+      "downloadPath": "skills/prediction/scoring-and-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/scoring-and-review.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/prediction/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/prediction/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/SKILL.md"
+    }
+  ]
+}

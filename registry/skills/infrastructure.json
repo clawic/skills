@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "infrastructure",
+    "name": "Infrastructure",
+    "description": "Design, provision, and connect cloud resources across servers, networks, and services.",
+    "version": "1.0.1",
+    "summary": "Scope This skill: - ✅ Guides architecture decisions - ✅ Provides provisioning commands for user to run - ✅ Documents infrastructure patterns **User-driven model:** - User provides cloud credentials when needed - User run",
+    "repositoryPath": "skills/infrastructure",
+    "manifestPath": "registry/skills/infrastructure.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/infrastructure/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/_meta.json"
+    },
+    {
+      "path": "backups.md",
+      "downloadPath": "skills/infrastructure/backups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/backups.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/infrastructure/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/patterns.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/infrastructure/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/providers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/infrastructure/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/SKILL.md"
+    }
+  ]
+}

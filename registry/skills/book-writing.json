@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "book-writing",
+    "name": "Book Writing",
+    "description": "Plan, draft, and revise complete books with chapter architecture, voice consistency, and finish-ready revision workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/book-writing",
+    "summary": "Setup On first use, read `setup.md` to initialize local memory and capture activation preferences. When to Use Use this skill when the user is writing a nonfiction or fiction book and needs structure, drafting support, r",
+    "repositoryPath": "skills/book-writing",
+    "manifestPath": "registry/skills/book-writing.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/book-writing/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/_meta.json"
+    },
+    {
+      "path": "blueprint.md",
+      "downloadPath": "skills/book-writing/blueprint.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/blueprint.md"
+    },
+    {
+      "path": "chapter-loop.md",
+      "downloadPath": "skills/book-writing/chapter-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/chapter-loop.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/book-writing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/memory-template.md"
+    },
+    {
+      "path": "revision-rubric.md",
+      "downloadPath": "skills/book-writing/revision-rubric.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/revision-rubric.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/book-writing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/book-writing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/SKILL.md"
+    }
+  ]
+}

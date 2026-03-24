@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "proactivity",
+    "name": "Proactivity (Proactive Agent)",
+    "description": "Anticipates needs, keeps work moving, and improves through use so the agent gets more proactive over time.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/proactivity",
+    "summary": "Architecture Proactive state lives in `~/proactivity/` and separates durable boundaries from active work. If that folder is missing or empty, run `setup.md`. ``` ~/proactivity/ ├── memory.md # Stable activation and bound",
+    "repositoryPath": "skills/proactivity",
+    "manifestPath": "registry/skills/proactivity.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/proactivity/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/proactivity/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/boundaries.md"
+    },
+    {
+      "path": "detection.md",
+      "downloadPath": "skills/proactivity/detection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/detection.md"
+    },
+    {
+      "path": "execution.md",
+      "downloadPath": "skills/proactivity/execution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/execution.md"
+    },
+    {
+      "path": "heartbeat-rules.md",
+      "downloadPath": "skills/proactivity/heartbeat-rules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/heartbeat-rules.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/proactivity/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/memory-template.md"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/proactivity/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/migration.md"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/proactivity/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/recovery.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/proactivity/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/setup.md"
+    },
+    {
+      "path": "signals.md",
+      "downloadPath": "skills/proactivity/signals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/signals.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/proactivity/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/SKILL.md"
+    },
+    {
+      "path": "state.md",
+      "downloadPath": "skills/proactivity/state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/state.md"
+    }
+  ]
+}

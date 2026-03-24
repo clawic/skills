@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "agentic-engineering",
+    "name": "Agentic Engineering",
+    "description": "Work effectively with AI coding agents using parallel terminals, blast radius thinking, atomic commits, and pragmatic tool selection.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/agentic-engineering",
+    "summary": "When to Use User works with AI coding agents (Claude Code, Codex CLI, or similar) and wants to maximize productivity. Use for workflow optimization, parallel agent coordination, context management, and developing intuiti",
+    "repositoryPath": "skills/agentic-engineering",
+    "manifestPath": "registry/skills/agentic-engineering.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/agentic-engineering/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/_meta.json"
+    },
+    {
+      "path": "blast-radius.md",
+      "downloadPath": "skills/agentic-engineering/blast-radius.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/blast-radius.md"
+    },
+    {
+      "path": "context.md",
+      "downloadPath": "skills/agentic-engineering/context.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/context.md"
+    },
+    {
+      "path": "parallel.md",
+      "downloadPath": "skills/agentic-engineering/parallel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/parallel.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/agentic-engineering/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/agentic-engineering/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-engineering/tools.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "consultant",
+    "name": "Consultant",
+    "description": "Diagnose business problems, scope engagements, and deliver decision-ready recommendations with measurable outcomes and executable plans.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/consultant",
+    "summary": "Setup If `~/consultant/` does not exist or is empty, initialize using `setup.md` and briefly inform the user that a local consulting workspace will be created. When to Use User needs structured consulting support: diagno",
+    "repositoryPath": "skills/consultant",
+    "manifestPath": "registry/skills/consultant.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/consultant/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/_meta.json"
+    },
+    {
+      "path": "deliverables.md",
+      "downloadPath": "skills/consultant/deliverables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/deliverables.md"
+    },
+    {
+      "path": "discovery.md",
+      "downloadPath": "skills/consultant/discovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/discovery.md"
+    },
+    {
+      "path": "engagement-models.md",
+      "downloadPath": "skills/consultant/engagement-models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/engagement-models.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/consultant/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/memory-template.md"
+    },
+    {
+      "path": "quality-gates.md",
+      "downloadPath": "skills/consultant/quality-gates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/quality-gates.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/consultant/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/consultant/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/SKILL.md"
+    }
+  ]
+}

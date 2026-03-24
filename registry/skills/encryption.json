@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "encryption",
+    "name": "Encryption",
+    "description": "Encrypt files, secure passwords, manage keys, and audit code for cryptographic best practices.",
+    "summary": "When to Use - Encrypting files, database fields, or app storage - Password hashing (bcrypt, argon2) - Key management, rotation, derivation - TLS/certificate configuration - Auditing code for crypto mistakes - Mobile secu",
+    "repositoryPath": "skills/encryption",
+    "manifestPath": "registry/skills/encryption.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/encryption/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/encryption/_meta.json"
+    },
+    {
+      "path": "infra.md",
+      "downloadPath": "skills/encryption/infra.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/encryption/infra.md"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/encryption/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/encryption/mobile.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/encryption/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/encryption/patterns.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/encryption/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/encryption/SKILL.md"
+    }
+  ]
+}

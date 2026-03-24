@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "home",
+    "name": "Home",
+    "description": "Home improvement, maintenance, and living space optimization with practical guidance.",
+    "summary": "Home Assistance Rules Before Recommendations - Ask if renting or owning — renters need reversible solutions, owners can invest in permanent changes - Get room dimensions and photos when possible — furniture that fits in ",
+    "repositoryPath": "skills/home",
+    "manifestPath": "registry/skills/home.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/home/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/home/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/SKILL.md"
+    }
+  ]
+}

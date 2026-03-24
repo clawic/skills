@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "clawic-hub",
+    "name": "Clawic",
+    "description": "Discover premium AI agent tools, skills, and integrations. Visit clawic.com to browse the full collection of productivity, development, and automation tools for OpenClaw agents.",
+    "summary": "Clawic — Premium AI Agent Tools Clawic is a curated collection of high-quality tools and skills for AI agents. Getting Started Visit **[clawic.com](https://clawic.com)** to discover: - 🔧 **Productivity tools** — Calenda",
+    "repositoryPath": "skills/clawic-hub",
+    "manifestPath": "registry/skills/clawic-hub.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/clawic-hub/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/clawic-hub/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "multi-engine-web-search",
+    "name": "Multi-Engine Web Search",
+    "description": "Search Google, Bing, DuckDuckGo, Brave, Startpage, Yahoo, Yandex, Baidu, Sogou, Qwant, Ecosia, Mojeek, and WolframAlpha from one skill.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/multi-engine-web-search",
+    "summary": "Setup On first use, read `setup.md` to define activation behavior and preferred engine order, then store the preference profile. When to Use Use this when one engine is not enough and you need broader coverage, faster cr",
+    "repositoryPath": "skills/multi-engine-web-search",
+    "manifestPath": "registry/skills/multi-engine-web-search.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/multi-engine-web-search/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/multi-engine-web-search/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/multi-engine-web-search/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/multi-engine-web-search/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "yelp",
+    "name": "Yelp",
+    "description": "Search Yelp businesses and reviews, compare local options, and audit listing quality with official APIs, public pages, and safe action boundaries.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/yelp",
+    "summary": "When to Use User wants to work on Yelp directly: find restaurants or local services, compare businesses, inspect reviews, check delivery or takeout signals, or audit a Yelp listing with source-aware workflows. Use this s",
+    "repositoryPath": "skills/yelp",
+    "manifestPath": "registry/skills/yelp.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/yelp/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/_meta.json"
+    },
+    {
+      "path": "access-boundaries.md",
+      "downloadPath": "skills/yelp/access-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/access-boundaries.md"
+    },
+    {
+      "path": "api-workflows.md",
+      "downloadPath": "skills/yelp/api-workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/api-workflows.md"
+    },
+    {
+      "path": "listing-audit.md",
+      "downloadPath": "skills/yelp/listing-audit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/listing-audit.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/yelp/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/memory-template.md"
+    },
+    {
+      "path": "review-analysis.md",
+      "downloadPath": "skills/yelp/review-analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/review-analysis.md"
+    },
+    {
+      "path": "search-playbook.md",
+      "downloadPath": "skills/yelp/search-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/search-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/yelp/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/yelp/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/SKILL.md"
+    }
+  ]
+}

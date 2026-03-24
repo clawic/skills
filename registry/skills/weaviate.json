@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "description": "Build vector search with Weaviate using v4 syntax, proper module configuration, and production-ready patterns.",
+    "version": "1.0.0",
+    "summary": "Critical: v4 Only (Dec 2024+) v3 syntax is DEPRECATED. Before generating ANY Weaviate code: 1. **Verify client version** — must be `weaviate-client>=4.0` 2. **Use context managers** — `with weaviate.connect_to_*() as cli",
+    "repositoryPath": "skills/weaviate",
+    "manifestPath": "registry/skills/weaviate.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/weaviate/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/weaviate/_meta.json"
+    },
+    {
+      "path": "modules.md",
+      "downloadPath": "skills/weaviate/modules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/weaviate/modules.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/weaviate/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/weaviate/operations.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/weaviate/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/weaviate/SKILL.md"
+    },
+    {
+      "path": "v4-syntax.md",
+      "downloadPath": "skills/weaviate/v4-syntax.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/weaviate/v4-syntax.md"
+    }
+  ]
+}

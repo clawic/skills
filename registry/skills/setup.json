@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "setup",
+    "name": "Setup",
+    "description": "Configure OpenClaw installations with optimized settings, channel setup, security hardening, and production recommendations.",
+    "summary": "Quick Reference | Task | Load | |------|------| | Messaging channels (Telegram, WhatsApp, Discord, etc.) | `channels.md` | | Agent settings, models, workspaces | `agents.md` | | Security, auth, DM policies, allowlists | ",
+    "repositoryPath": "skills/setup",
+    "manifestPath": "registry/skills/setup.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/setup/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/_meta.json"
+    },
+    {
+      "path": "agents.md",
+      "downloadPath": "skills/setup/agents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/agents.md"
+    },
+    {
+      "path": "automation.md",
+      "downloadPath": "skills/setup/automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/automation.md"
+    },
+    {
+      "path": "channels.md",
+      "downloadPath": "skills/setup/channels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/channels.md"
+    },
+    {
+      "path": "gateway.md",
+      "downloadPath": "skills/setup/gateway.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/gateway.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/setup/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/memory.md"
+    },
+    {
+      "path": "recommendations.md",
+      "downloadPath": "skills/setup/recommendations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/recommendations.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/setup/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/setup/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/setup/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/tools.md"
+    }
+  ]
+}

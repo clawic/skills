@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "powerpoint-pptx",
+    "name": "Powerpoint / PPTX",
+    "description": "Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use when (1) the task is about PowerPoint or `.pptx`; (2) layouts, placeholders, notes, charts, comments, or template fidelity matter; (3) the deck must render cleanly after edits.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/powerpoint-pptx",
+    "summary": "When to Use Use when the main artifact is a Microsoft PowerPoint presentation or `.pptx` deck, especially when layouts, templates, placeholders, notes, comments, charts, extraction, editing, or final visual quality matte",
+    "repositoryPath": "skills/powerpoint-pptx",
+    "manifestPath": "registry/skills/powerpoint-pptx.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/powerpoint-pptx/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint-pptx/_meta.json"
+    },
+    {
+      "path": "charts.md",
+      "downloadPath": "skills/powerpoint-pptx/charts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint-pptx/charts.md"
+    },
+    {
+      "path": "design.md",
+      "downloadPath": "skills/powerpoint-pptx/design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint-pptx/design.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/powerpoint-pptx/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint-pptx/SKILL.md"
+    },
+    {
+      "path": "slides.md",
+      "downloadPath": "skills/powerpoint-pptx/slides.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint-pptx/slides.md"
+    }
+  ]
+}

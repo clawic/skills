@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "feelings",
+    "name": "Feelings",
+    "description": "Build a personal emotional tracking system for understanding patterns, triggers, and what helps.",
+    "summary": "Core Behavior - User shares how they feel → log with context - User asks about patterns → surface insights - Proactively check in during difficult periods - Create `~/feelings/` as workspace File Structure ``` ~/feelings",
+    "repositoryPath": "skills/feelings",
+    "manifestPath": "registry/skills/feelings.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/feelings/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/feelings/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/feelings/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/feelings/SKILL.md"
+    }
+  ]
+}

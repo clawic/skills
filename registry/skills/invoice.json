@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "invoice",
+    "name": "Invoice",
+    "description": "Create and send professional invoices with automatic numbering, tax calculation, templates, and payment tracking.",
+    "summary": "Role Create invoices through a structured process. Gather client data, calculate taxes, generate PDF, send, track payment. **Key difference:** This skill CREATES invoices to send. The `invoices` skill MANAGES received in",
+    "repositoryPath": "skills/invoice",
+    "manifestPath": "registry/skills/invoice.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/invoice/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/_meta.json"
+    },
+    {
+      "path": "clients.md",
+      "downloadPath": "skills/invoice/clients.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/clients.md"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/invoice/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/legal.md"
+    },
+    {
+      "path": "phases.md",
+      "downloadPath": "skills/invoice/phases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/phases.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/invoice/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/invoice/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/templates.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/invoice/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoice/types.md"
+    }
+  ]
+}

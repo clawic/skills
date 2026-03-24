@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "austin",
+    "name": "Austin",
+    "description": "Navigate Austin as visitor, relocator, tech worker, or entrepreneur with neighborhoods, transport, costs, visas, and Texas-specific insights.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/austin",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User asks about Austin, Texas for any purpose: visiting, relocating, working in tech, starting a business, or experiencing the music and food sc",
+    "repositoryPath": "skills/austin",
+    "manifestPath": "registry/skills/austin.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/austin/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/_meta.json"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/austin/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/business.md"
+    },
+    {
+      "path": "climate.md",
+      "downloadPath": "skills/austin/climate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/climate.md"
+    },
+    {
+      "path": "cost.md",
+      "downloadPath": "skills/austin/cost.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/cost.md"
+    },
+    {
+      "path": "culture.md",
+      "downloadPath": "skills/austin/culture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/culture.md"
+    },
+    {
+      "path": "driving.md",
+      "downloadPath": "skills/austin/driving.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/driving.md"
+    },
+    {
+      "path": "education.md",
+      "downloadPath": "skills/austin/education.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/education.md"
+    },
+    {
+      "path": "food-areas.md",
+      "downloadPath": "skills/austin/food-areas.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-areas.md"
+    },
+    {
+      "path": "food-bbq.md",
+      "downloadPath": "skills/austin/food-bbq.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-bbq.md"
+    },
+    {
+      "path": "food-international.md",
+      "downloadPath": "skills/austin/food-international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-international.md"
+    },
+    {
+      "path": "food-mexican.md",
+      "downloadPath": "skills/austin/food-mexican.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-mexican.md"
+    },
+    {
+      "path": "food-overview.md",
+      "downloadPath": "skills/austin/food-overview.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-overview.md"
+    },
+    {
+      "path": "food-practical.md",
+      "downloadPath": "skills/austin/food-practical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-practical.md"
+    },
+    {
+      "path": "food-trucks.md",
+      "downloadPath": "skills/austin/food-trucks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/food-trucks.md"
+    },
+    {
+      "path": "healthcare.md",
+      "downloadPath": "skills/austin/healthcare.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/healthcare.md"
+    },
+    {
+      "path": "local.md",
+      "downloadPath": "skills/austin/local.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/local.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/austin/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/memory-template.md"
+    },
+    {
+      "path": "music-festivals.md",
+      "downloadPath": "skills/austin/music-festivals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/music-festivals.md"
+    },
+    {
+      "path": "music-live.md",
+      "downloadPath": "skills/austin/music-live.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/music-live.md"
+    },
+    {
+      "path": "music-sxsw.md",
+      "downloadPath": "skills/austin/music-sxsw.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/music-sxsw.md"
+    },
+    {
+      "path": "music-venues.md",
+      "downloadPath": "skills/austin/music-venues.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/music-venues.md"
+    },
+    {
+      "path": "neighborhoods-central.md",
+      "downloadPath": "skills/austin/neighborhoods-central.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-central.md"
+    },
+    {
+      "path": "neighborhoods-choosing.md",
+      "downloadPath": "skills/austin/neighborhoods-choosing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-choosing.md"
+    },
+    {
+      "path": "neighborhoods-east.md",
+      "downloadPath": "skills/austin/neighborhoods-east.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-east.md"
+    },
+    {
+      "path": "neighborhoods-index.md",
+      "downloadPath": "skills/austin/neighborhoods-index.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-index.md"
+    },
+    {
+      "path": "neighborhoods-north.md",
+      "downloadPath": "skills/austin/neighborhoods-north.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-north.md"
+    },
+    {
+      "path": "neighborhoods-south.md",
+      "downloadPath": "skills/austin/neighborhoods-south.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-south.md"
+    },
+    {
+      "path": "neighborhoods-west.md",
+      "downloadPath": "skills/austin/neighborhoods-west.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/neighborhoods-west.md"
+    },
+    {
+      "path": "outdoors.md",
+      "downloadPath": "skills/austin/outdoors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/outdoors.md"
+    },
+    {
+      "path": "resident.md",
+      "downloadPath": "skills/austin/resident.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/resident.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/austin/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/safety.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/austin/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/austin/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/SKILL.md"
+    },
+    {
+      "path": "startup.md",
+      "downloadPath": "skills/austin/startup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/startup.md"
+    },
+    {
+      "path": "tech.md",
+      "downloadPath": "skills/austin/tech.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/tech.md"
+    },
+    {
+      "path": "transport.md",
+      "downloadPath": "skills/austin/transport.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/transport.md"
+    },
+    {
+      "path": "visas.md",
+      "downloadPath": "skills/austin/visas.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/visas.md"
+    },
+    {
+      "path": "visitor-attractions.md",
+      "downloadPath": "skills/austin/visitor-attractions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/visitor-attractions.md"
+    },
+    {
+      "path": "visitor-itineraries.md",
+      "downloadPath": "skills/austin/visitor-itineraries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/visitor-itineraries.md"
+    },
+    {
+      "path": "visitor-lodging.md",
+      "downloadPath": "skills/austin/visitor-lodging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/visitor-lodging.md"
+    },
+    {
+      "path": "visitor-tips.md",
+      "downloadPath": "skills/austin/visitor-tips.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austin/visitor-tips.md"
+    }
+  ]
+}

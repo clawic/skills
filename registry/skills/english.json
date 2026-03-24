@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "english",
+    "name": "English",
+    "description": "Write English that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI English is technically correct but sounds off. Too formal. Too complete. Too polished. Natives write messier, shorter, more direct. Match that. Formality Default Default register is too high. Casual E",
+    "repositoryPath": "skills/english",
+    "manifestPath": "registry/skills/english.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/english/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/english/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/SKILL.md"
+    }
+  ]
+}

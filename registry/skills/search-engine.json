@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "search-engine",
+    "name": "Search Engine",
+    "description": "Design and build any search engine with robust indexing, retrieval logic, relevance controls, and evaluation workflows for production systems.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/search-engine",
+    "summary": "Setup On first use, read `setup.md` and establish activation behavior, system scope, and data constraints before proposing implementation steps. When to Use User needs to create, redesign, or scale a search engine for ap",
+    "repositoryPath": "skills/search-engine",
+    "manifestPath": "registry/skills/search-engine.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/search-engine/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/_meta.json"
+    },
+    {
+      "path": "architecture-blueprint.md",
+      "downloadPath": "skills/search-engine/architecture-blueprint.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/architecture-blueprint.md"
+    },
+    {
+      "path": "evaluation-metrics.md",
+      "downloadPath": "skills/search-engine/evaluation-metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/evaluation-metrics.md"
+    },
+    {
+      "path": "implementation-checklist.md",
+      "downloadPath": "skills/search-engine/implementation-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/implementation-checklist.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/search-engine/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/memory-template.md"
+    },
+    {
+      "path": "retrieval-patterns.md",
+      "downloadPath": "skills/search-engine/retrieval-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/retrieval-patterns.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/search-engine/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/search-engine/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/SKILL.md"
+    }
+  ]
+}

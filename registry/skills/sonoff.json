@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sonoff",
+    "name": "Sonoff",
+    "description": "Control and automate SONOFF devices with eWeLink cloud workflows, LAN and DIY mode operations, and safe multi-device execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/sonoff",
+    "summary": "Setup On first use, read `setup.md` and align activation boundaries, control plane preferences, and write-safety defaults before sending SONOFF commands. When to Use Use this skill when the user needs practical SONOFF an",
+    "repositoryPath": "skills/sonoff",
+    "manifestPath": "registry/skills/sonoff.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sonoff/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/_meta.json"
+    },
+    {
+      "path": "auth-and-access.md",
+      "downloadPath": "skills/sonoff/auth-and-access.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/auth-and-access.md"
+    },
+    {
+      "path": "control-planes.md",
+      "downloadPath": "skills/sonoff/control-planes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/control-planes.md"
+    },
+    {
+      "path": "device-operations.md",
+      "downloadPath": "skills/sonoff/device-operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/device-operations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/sonoff/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/memory-template.md"
+    },
+    {
+      "path": "orchestration-playbooks.md",
+      "downloadPath": "skills/sonoff/orchestration-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/orchestration-playbooks.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/sonoff/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sonoff/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/sonoff/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sonoff/troubleshooting.md"
+    }
+  ]
+}

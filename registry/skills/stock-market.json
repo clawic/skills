@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "stock-market",
+    "name": "Stock Market",
+    "description": "Analyze stock market setups with thesis checks, catalyst mapping, risk controls, and explicit trade or no-trade decisions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/stock-market",
+    "summary": "Setup If `~/stock-market/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs stock market analysis, watchlist planning, or trade dec",
+    "repositoryPath": "skills/stock-market",
+    "manifestPath": "registry/skills/stock-market.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/stock-market/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/_meta.json"
+    },
+    {
+      "path": "analysis-framework.md",
+      "downloadPath": "skills/stock-market/analysis-framework.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/analysis-framework.md"
+    },
+    {
+      "path": "briefing-template.md",
+      "downloadPath": "skills/stock-market/briefing-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/briefing-template.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/stock-market/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/memory-template.md"
+    },
+    {
+      "path": "risk-playbook.md",
+      "downloadPath": "skills/stock-market/risk-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/risk-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/stock-market/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/stock-market/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/SKILL.md"
+    },
+    {
+      "path": "watchlist-template.md",
+      "downloadPath": "skills/stock-market/watchlist-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/watchlist-template.md"
+    }
+  ]
+}

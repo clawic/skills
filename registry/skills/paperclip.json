@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "paperclip",
+    "name": "Paperclip",
+    "description": "Run Paperclip locally for agent orchestration, AI company setup, and OpenClaw, Codex, or Claude control-plane operations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/paperclip",
+    "summary": "Setup On first use, read `setup.md` for integration guidance. When to Use User needs to install, operate, or evaluate Paperclip as the control plane for a team of AI agents. Use for local-first setup, agent-company desig",
+    "repositoryPath": "skills/paperclip",
+    "manifestPath": "registry/skills/paperclip.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/paperclip/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/_meta.json"
+    },
+    {
+      "path": "adapters.md",
+      "downloadPath": "skills/paperclip/adapters.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/adapters.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/paperclip/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/memory-template.md"
+    },
+    {
+      "path": "openclaw.md",
+      "downloadPath": "skills/paperclip/openclaw.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/openclaw.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/paperclip/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/operations.md"
+    },
+    {
+      "path": "quickstart.md",
+      "downloadPath": "skills/paperclip/quickstart.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/quickstart.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/paperclip/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/paperclip/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tapo-camera",
+    "name": "Tapo Camera",
+    "description": "Connect to Tapo cameras, verify local access, capture snapshots, and inspect frames with local-first RTSP workflows and safe fallbacks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tapo-camera",
+    "summary": "When to Use Use this skill when the user wants an agent to connect to their own Tapo cameras on a trusted local network, verify camera reachability, take still captures, and inspect the resulting frames without defaultin",
+    "repositoryPath": "skills/tapo-camera",
+    "manifestPath": "registry/skills/tapo-camera.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tapo-camera/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/_meta.json"
+    },
+    {
+      "path": "api-fallback.md",
+      "downloadPath": "skills/tapo-camera/api-fallback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/api-fallback.md"
+    },
+    {
+      "path": "cameras.md",
+      "downloadPath": "skills/tapo-camera/cameras.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/cameras.md"
+    },
+    {
+      "path": "discovery-and-auth.md",
+      "downloadPath": "skills/tapo-camera/discovery-and-auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/discovery-and-auth.md"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/tapo-camera/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/incidents.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/tapo-camera/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/tapo-camera/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tapo-camera/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/SKILL.md"
+    },
+    {
+      "path": "snapshot-workflows.md",
+      "downloadPath": "skills/tapo-camera/snapshot-workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/snapshot-workflows.md"
+    },
+    {
+      "path": "tapo-capture.py",
+      "downloadPath": "skills/tapo-camera/tapo-capture.py",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/tapo-capture.py"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/tapo-camera/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/troubleshooting.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "description": "Design MongoDB schemas with proper embedding, indexing, aggregation, and production-ready patterns.",
+    "version": "1.0.1",
+    "summary": "When to Use User needs MongoDB expertise — from schema design to production optimization. Agent handles document modeling, indexing strategies, aggregation pipelines, consistency patterns, and scaling. Quick Reference | ",
+    "repositoryPath": "skills/mongodb",
+    "manifestPath": "registry/skills/mongodb.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mongodb/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/_meta.json"
+    },
+    {
+      "path": "aggregation.md",
+      "downloadPath": "skills/mongodb/aggregation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/aggregation.md"
+    },
+    {
+      "path": "indexes.md",
+      "downloadPath": "skills/mongodb/indexes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/indexes.md"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/mongodb/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/production.md"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/mongodb/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/schema.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mongodb/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/SKILL.md"
+    }
+  ]
+}

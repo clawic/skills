@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "brief",
+    "name": "Brief",
+    "description": "Condense information into actionable briefings. User specifies sources, skill structures the output.",
+    "version": "1.0.1",
+    "summary": "Data Storage ``` ~/brief/ ├── preferences.md # Learned format preferences └── templates/ # Custom brief templates ``` Create on first use: `mkdir -p ~/brief/templates` Scope This skill: - ✅ Structures information user pr",
+    "repositoryPath": "skills/brief",
+    "manifestPath": "registry/skills/brief.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/brief/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/_meta.json"
+    },
+    {
+      "path": "dimensions.md",
+      "downloadPath": "skills/brief/dimensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/dimensions.md"
+    },
+    {
+      "path": "preferences.md",
+      "downloadPath": "skills/brief/preferences.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/preferences.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/brief/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/brief/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/templates.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "fox-news",
+    "name": "Fox News Monitor",
+    "description": "Monitor Fox News sections and breaking updates with official RSS routes, live-event tracking, and optional outside verification.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fox-news",
+    "summary": "Setup On first use, follow `setup.md` to lock activation scope, preferred sections, and whether the user wants Fox-only reads or source-balanced follow-up. When to Use User explicitly wants Fox News coverage, Fox News se",
+    "repositoryPath": "skills/fox-news",
+    "manifestPath": "registry/skills/fox-news.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/fox-news/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/_meta.json"
+    },
+    {
+      "path": "briefing-formats.md",
+      "downloadPath": "skills/fox-news/briefing-formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/briefing-formats.md"
+    },
+    {
+      "path": "feed-map.md",
+      "downloadPath": "skills/fox-news/feed-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/feed-map.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/fox-news/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/fox-news/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fox-news/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/fox-news/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/troubleshooting.md"
+    },
+    {
+      "path": "workflow-patterns.md",
+      "downloadPath": "skills/fox-news/workflow-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/workflow-patterns.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ukrainian",
+    "name": "Ukrainian",
+    "description": "Write Ukrainian that sounds human. Not formal, not robotic, not AI-generated.",
+    "summary": "The Real Problem AI Ukrainian is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high. Ukrainian",
+    "repositoryPath": "skills/ukrainian",
+    "manifestPath": "registry/skills/ukrainian.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ukrainian/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ukrainian/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ukrainian/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ukrainian/SKILL.md"
+    }
+  ]
+}

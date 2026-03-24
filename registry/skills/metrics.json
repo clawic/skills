@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "metrics",
+    "name": "Metrics",
+    "description": "Capture, normalize, and report metrics across any domain with reusable dimensions, programmable formulas, and scalable reporting workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/metrics",
+    "summary": "Setup On first use, read `setup.md` for integration behavior and memory initialization. When to Use Use this skill when the user needs to define, track, analyze, or report metrics for any domain such as social media, sal",
+    "repositoryPath": "skills/metrics",
+    "manifestPath": "registry/skills/metrics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/metrics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/_meta.json"
+    },
+    {
+      "path": "automation-patterns.md",
+      "downloadPath": "skills/metrics/automation-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/automation-patterns.md"
+    },
+    {
+      "path": "data-quality.md",
+      "downloadPath": "skills/metrics/data-quality.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/data-quality.md"
+    },
+    {
+      "path": "formula-playbook.md",
+      "downloadPath": "skills/metrics/formula-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/formula-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/metrics/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/memory-template.md"
+    },
+    {
+      "path": "metric-registry.md",
+      "downloadPath": "skills/metrics/metric-registry.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/metric-registry.md"
+    },
+    {
+      "path": "reporting-pack.md",
+      "downloadPath": "skills/metrics/reporting-pack.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/reporting-pack.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/metrics/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/metrics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/SKILL.md"
+    }
+  ]
+}

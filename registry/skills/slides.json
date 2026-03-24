@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "slides",
+    "name": "Slides",
+    "description": "Create, edit, and automate presentations with programmatic tools, visual consistency, and project-based learning of user style preferences.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs presentation slides created, edited, or automated. Agent handles tool selection (python-pptx, Google Slides API, reveal.js, Marp, Slidev), applies user's style preferences, generates visually consi",
+    "repositoryPath": "skills/slides",
+    "manifestPath": "registry/skills/slides.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/slides/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/_meta.json"
+    },
+    {
+      "path": "design.md",
+      "downloadPath": "skills/slides/design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/design.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/slides/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/formats.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/slides/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/memory-template.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/slides/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/slides/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/tools.md"
+    }
+  ]
+}

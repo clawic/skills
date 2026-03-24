@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tuya",
+    "name": "Tuya Smart",
+    "description": "Control and automate Tuya Smart devices with official cloud APIs, secure request signing, region-aware routing, and safe command execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tuya",
+    "summary": "Setup On first use, read `setup.md` and align activation boundaries, cloud region context, and write-safety defaults before sending Tuya commands. When to Use Use this skill when the user needs practical execution across",
+    "repositoryPath": "skills/tuya",
+    "manifestPath": "registry/skills/tuya.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tuya/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/_meta.json"
+    },
+    {
+      "path": "account-linking.md",
+      "downloadPath": "skills/tuya/account-linking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/account-linking.md"
+    },
+    {
+      "path": "auth-signing.md",
+      "downloadPath": "skills/tuya/auth-signing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/auth-signing.md"
+    },
+    {
+      "path": "device-operations.md",
+      "downloadPath": "skills/tuya/device-operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/device-operations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/tuya/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/memory-template.md"
+    },
+    {
+      "path": "orchestration-playbooks.md",
+      "downloadPath": "skills/tuya/orchestration-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/orchestration-playbooks.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/tuya/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tuya/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/tuya/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/troubleshooting.md"
+    }
+  ]
+}

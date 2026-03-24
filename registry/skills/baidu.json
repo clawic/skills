@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "baidu",
+    "name": "Baidu",
+    "description": "Navigate Baidu Search, Maps, Baike, Wenku, and Qianfan with region-aware routing, official-source checks, and China-specific guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/baidu",
+    "summary": "When to Use Baidu requests need routing before execution because the brand covers search, maps, knowledge, cloud, and AI surfaces that behave differently across mainland China and global contexts. Use this when the user ",
+    "repositoryPath": "skills/baidu",
+    "manifestPath": "registry/skills/baidu.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/baidu/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/_meta.json"
+    },
+    {
+      "path": "ecosystem-map.md",
+      "downloadPath": "skills/baidu/ecosystem-map.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/ecosystem-map.md"
+    },
+    {
+      "path": "execution-checklist.md",
+      "downloadPath": "skills/baidu/execution-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/execution-checklist.md"
+    },
+    {
+      "path": "mainland-vs-global.md",
+      "downloadPath": "skills/baidu/mainland-vs-global.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/mainland-vs-global.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/baidu/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/memory-template.md"
+    },
+    {
+      "path": "qianfan-cloud.md",
+      "downloadPath": "skills/baidu/qianfan-cloud.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/qianfan-cloud.md"
+    },
+    {
+      "path": "search-knowledge.md",
+      "downloadPath": "skills/baidu/search-knowledge.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/search-knowledge.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/baidu/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/baidu/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/SKILL.md"
+    },
+    {
+      "path": "source-validation.md",
+      "downloadPath": "skills/baidu/source-validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/source-validation.md"
+    }
+  ]
+}

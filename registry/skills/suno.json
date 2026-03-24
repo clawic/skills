@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "suno",
+    "name": "Suno",
+    "description": "Generate AI music with Suno via API or browser, with prompt engineering and song extensions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/suno",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User wants to generate music with Suno. Agent can use hosted APIs for programmatic generation, browser automation for direct platform interactio",
+    "repositoryPath": "skills/suno",
+    "manifestPath": "registry/skills/suno.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/suno/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/_meta.json"
+    },
+    {
+      "path": "api.md",
+      "downloadPath": "skills/suno/api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/api.md"
+    },
+    {
+      "path": "browser.md",
+      "downloadPath": "skills/suno/browser.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/browser.md"
+    },
+    {
+      "path": "EXTRA_FILES.txt",
+      "downloadPath": "skills/suno/EXTRA_FILES.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/EXTRA_FILES.txt"
+    },
+    {
+      "path": "lyrics.md",
+      "downloadPath": "skills/suno/lyrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/lyrics.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/suno/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/memory-template.md"
+    },
+    {
+      "path": "MIGRATION_CHECK.json",
+      "downloadPath": "skills/suno/MIGRATION_CHECK.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/MIGRATION_CHECK.json"
+    },
+    {
+      "path": "PERCEPTION_EVAL_TODO.md",
+      "downloadPath": "skills/suno/PERCEPTION_EVAL_TODO.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/PERCEPTION_EVAL_TODO.md"
+    },
+    {
+      "path": "PERCEPTION_RESULT.json",
+      "downloadPath": "skills/suno/PERCEPTION_RESULT.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/PERCEPTION_RESULT.json"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/suno/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/prompts.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/suno/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/setup.md"
+    },
+    {
+      "path": "SIMULATION.md",
+      "downloadPath": "skills/suno/SIMULATION.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SIMULATION.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/suno/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md"
+    },
+    {
+      "path": "STRUCTURE_CHECK.json",
+      "downloadPath": "skills/suno/STRUCTURE_CHECK.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/STRUCTURE_CHECK.json"
+    },
+    {
+      "path": "styles.md",
+      "downloadPath": "skills/suno/styles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/styles.md"
+    },
+    {
+      "path": "suno-review.html",
+      "downloadPath": "skills/suno/suno-review.html",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/suno-review.html"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "systems-architect",
+    "name": "Systems Architect",
+    "description": "Design infrastructure, networks, and cloud systems with integration, reliability, and security patterns.",
+    "summary": "Systems Architecture Rules Infrastructure Design - Design for failure at every layer — hardware fails, networks partition, regions go down - Redundancy costs money, downtime costs more — calculate acceptable risk - Prefe",
+    "repositoryPath": "skills/systems-architect",
+    "manifestPath": "registry/skills/systems-architect.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/systems-architect/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/systems-architect/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/SKILL.md"
+    }
+  ]
+}

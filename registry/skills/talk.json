@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "talk",
+    "name": "Talk",
+    "description": "Set up real-time voice conversations. Phone calls, voice agents, live speech.",
+    "summary": "Real-Time Voice Setup Help users configure live voice conversations with OpenClaw. **Rules:** - Ask what they want: phone calls, web voice, or voice agent - Check `config.md` for OpenClaw setup options - Start with the s",
+    "repositoryPath": "skills/talk",
+    "manifestPath": "registry/skills/talk.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/talk/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/_meta.json"
+    },
+    {
+      "path": "config.md",
+      "downloadPath": "skills/talk/config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/config.md"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/talk/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/providers.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/talk/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/SKILL.md"
+    }
+  ]
+}

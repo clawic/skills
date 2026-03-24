@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "review-code",
+    "name": "Review Code",
+    "description": "Review code with risk-first analysis, reproducible evidence, and patch-ready guidance for correctness, security, performance, and maintainability.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/review-code",
+    "summary": "Setup On first use, read `setup.md` for integration guidance and local memory initialization. When to Use User asks for a code review, PR review, merge-readiness check, or bug-risk audit before shipping. Agent delivers a",
+    "repositoryPath": "skills/review-code",
+    "manifestPath": "registry/skills/review-code.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/review-code/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/_meta.json"
+    },
+    {
+      "path": "comment-templates.md",
+      "downloadPath": "skills/review-code/comment-templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/comment-templates.md"
+    },
+    {
+      "path": "language-risk-checklists.md",
+      "downloadPath": "skills/review-code/language-risk-checklists.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/language-risk-checklists.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/review-code/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/memory-template.md"
+    },
+    {
+      "path": "patch-strategy.md",
+      "downloadPath": "skills/review-code/patch-strategy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/patch-strategy.md"
+    },
+    {
+      "path": "review-workflow.md",
+      "downloadPath": "skills/review-code/review-workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/review-workflow.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/review-code/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/setup.md"
+    },
+    {
+      "path": "severity-and-confidence.md",
+      "downloadPath": "skills/review-code/severity-and-confidence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/severity-and-confidence.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/review-code/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/SKILL.md"
+    },
+    {
+      "path": "test-impact-playbook.md",
+      "downloadPath": "skills/review-code/test-impact-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/test-impact-playbook.md"
+    }
+  ]
+}

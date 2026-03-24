@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "word",
+    "name": "Word",
+    "description": "Control Word app sessions, documents, selections, comments, export, and review state with osascript workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/word",
+    "summary": "When to Use User needs Microsoft Word controlled as a live application, not treated as a `.docx` file format. Agent handles app attach, active document state, selection-aware edits, comments, track changes, export, and c",
+    "repositoryPath": "skills/word",
+    "manifestPath": "registry/skills/word.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/word/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/_meta.json"
+    },
+    {
+      "path": "execution-matrix.md",
+      "downloadPath": "skills/word/execution-matrix.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/execution-matrix.md"
+    },
+    {
+      "path": "live-control-patterns.md",
+      "downloadPath": "skills/word/live-control-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/live-control-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/word/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/memory-template.md"
+    },
+    {
+      "path": "safety-checklist.md",
+      "downloadPath": "skills/word/safety-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/safety-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/word/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/word/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/word/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/troubleshooting.md"
+    }
+  ]
+}

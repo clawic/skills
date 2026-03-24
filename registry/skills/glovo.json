@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "glovo",
+    "name": "Glovo",
+    "description": "Navigate Glovo in a live browser session to compare stores, manage carts, and reach checkout safely before ordering.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/glovo",
+    "summary": "When to Use User needs Glovo specifically, not generic delivery advice. Use this when the task depends on the user's real Glovo session, saved addresses, live store availability, current promos, cart state, groceries, ph",
+    "repositoryPath": "skills/glovo",
+    "manifestPath": "registry/skills/glovo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/glovo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/_meta.json"
+    },
+    {
+      "path": "browser-flow.md",
+      "downloadPath": "skills/glovo/browser-flow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/browser-flow.md"
+    },
+    {
+      "path": "checkout-guardrails.md",
+      "downloadPath": "skills/glovo/checkout-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/checkout-guardrails.md"
+    },
+    {
+      "path": "issue-recovery.md",
+      "downloadPath": "skills/glovo/issue-recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/issue-recovery.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/glovo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/glovo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/glovo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/SKILL.md"
+    }
+  ]
+}

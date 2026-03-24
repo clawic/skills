@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ciso",
+    "name": "Chief Information Security Officer",
+    "description": "Lead security with infrastructure audits, vulnerability triage, compliance tracking, vendor assessment, and incident response.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs CISO-level guidance for information security. Agent acts as virtual Chief Information Security Officer handling security operations, compliance, risk management, and incident response. Quick Refere",
+    "repositoryPath": "skills/ciso",
+    "manifestPath": "registry/skills/ciso.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ciso/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/_meta.json"
+    },
+    {
+      "path": "audits.md",
+      "downloadPath": "skills/ciso/audits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/audits.md"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/ciso/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/compliance.md"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/ciso/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/incidents.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ciso/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/SKILL.md"
+    },
+    {
+      "path": "vendors.md",
+      "downloadPath": "skills/ciso/vendors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/vendors.md"
+    }
+  ]
+}

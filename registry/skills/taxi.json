@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "taxi",
+    "name": "Taxi",
+    "description": "Handle everything for ground transportation, from price comparison to booking, tracking, disputes, and expense management.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs ANY help with taxis, rideshares, car services, or ground transportation. Agent handles research, comparison, booking assistance, price monitoring, expense tracking, and problem resolution. Architec",
+    "repositoryPath": "skills/taxi",
+    "manifestPath": "registry/skills/taxi.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/taxi/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/_meta.json"
+    },
+    {
+      "path": "booking.md",
+      "downloadPath": "skills/taxi/booking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/booking.md"
+    },
+    {
+      "path": "cities.md",
+      "downloadPath": "skills/taxi/cities.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/cities.md"
+    },
+    {
+      "path": "fares.md",
+      "downloadPath": "skills/taxi/fares.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/fares.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/taxi/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/memory-template.md"
+    },
+    {
+      "path": "problems.md",
+      "downloadPath": "skills/taxi/problems.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/problems.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/taxi/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "screenshots",
+    "name": "Screenshots",
+    "description": "Create professional App Store and Google Play screenshots with automatic sizing, device frames, marketing copy, and iterative visual learning.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Context | File | |---------|------| | Store dimensions and specs | `specs.md` | | Marketing text overlays | `text-style.md` | | Visual templates by category | `templates.md` | | Full creation workflow |",
+    "repositoryPath": "skills/screenshots",
+    "manifestPath": "registry/skills/screenshots.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/screenshots/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/_meta.json"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/screenshots/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/feedback.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/screenshots/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/SKILL.md"
+    },
+    {
+      "path": "specs.md",
+      "downloadPath": "skills/screenshots/specs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/specs.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/screenshots/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/templates.md"
+    },
+    {
+      "path": "text-style.md",
+      "downloadPath": "skills/screenshots/text-style.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/text-style.md"
+    },
+    {
+      "path": "workflow.md",
+      "downloadPath": "skills/screenshots/workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/workflow.md"
+    }
+  ]
+}

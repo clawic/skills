@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "jarvis",
+    "name": "Jarvis",
+    "description": "Run the agent like an executive operator with calm briefings, sharp prioritization, context recovery, and proactive follow-through.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/jarvis",
+    "summary": "When to Use User wants the agent to feel like a calm executive operator instead of a generic assistant. Agent handles concise briefings, high-signal prioritization, elegant follow-through, context recovery, and sober mis",
+    "repositoryPath": "skills/jarvis",
+    "manifestPath": "registry/skills/jarvis.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/jarvis/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/jarvis/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/boundaries.md"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "downloadPath": "skills/jarvis/HEARTBEAT.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/HEARTBEAT.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/jarvis/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/memory-template.md"
+    },
+    {
+      "path": "openclaw-seed.md",
+      "downloadPath": "skills/jarvis/openclaw-seed.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/openclaw-seed.md"
+    },
+    {
+      "path": "operating-modes.md",
+      "downloadPath": "skills/jarvis/operating-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/operating-modes.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/jarvis/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/jarvis/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/SKILL.md"
+    },
+    {
+      "path": "use-cases.md",
+      "downloadPath": "skills/jarvis/use-cases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/use-cases.md"
+    },
+    {
+      "path": "voice.md",
+      "downloadPath": "skills/jarvis/voice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/voice.md"
+    }
+  ]
+}

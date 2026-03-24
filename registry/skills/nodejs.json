@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "nodejs",
+    "name": "NodeJS",
+    "description": "Write reliable Node.js avoiding event loop blocking, async pitfalls, ESM gotchas, and memory leaks.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Callbacks, Promises, async/await, event loop | `async.md` | | CommonJS vs ESM, require vs import | `modules.md` | | Error handling, uncaught exceptions | `errors.md` | ",
+    "repositoryPath": "skills/nodejs",
+    "manifestPath": "registry/skills/nodejs.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/nodejs/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/_meta.json"
+    },
+    {
+      "path": "async.md",
+      "downloadPath": "skills/nodejs/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/async.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/nodejs/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/errors.md"
+    },
+    {
+      "path": "modules.md",
+      "downloadPath": "skills/nodejs/modules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/modules.md"
+    },
+    {
+      "path": "packages.md",
+      "downloadPath": "skills/nodejs/packages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/packages.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/nodejs/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/performance.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/nodejs/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nodejs/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/SKILL.md"
+    },
+    {
+      "path": "streams.md",
+      "downloadPath": "skills/nodejs/streams.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/streams.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/nodejs/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/testing.md"
+    }
+  ]
+}

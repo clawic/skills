@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "face",
+    "name": "Face",
+    "description": "Put a human face on your agent with fast avatar shortlists, gender control, transparent options, and reusable profile links. Use when the user wants an avatar, profile face, or group image.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/face",
+    "summary": "Put a Face on Your Agent Use this skill to give an agent, persona, group, or Telegram surface a real human-looking face fast. The job is simple: - open a stable face listing URL - extract a small shortlist of faces - sen",
+    "repositoryPath": "skills/face",
+    "manifestPath": "registry/skills/face.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/face/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/face/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/SKILL.md"
+    }
+  ]
+}

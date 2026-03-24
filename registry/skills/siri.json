@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "siri",
+    "name": "Siri",
+    "description": "Control devices, run automations, and help users get more from Siri with HomeKit, Shortcuts, and voice command guidance.",
+    "summary": "Activation & Setup **Trigger methods:** - Hold Side/Home button - \"Hey Siri\" (always-listening) - \"Siri\" alone (iOS 17+) **Hey Siri not working?** Check: Settings → Siri → Listen for, retrain voice model, test mic with V",
+    "repositoryPath": "skills/siri",
+    "manifestPath": "registry/skills/siri.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/siri/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/_meta.json"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/siri/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/commands.md"
+    },
+    {
+      "path": "development.md",
+      "downloadPath": "skills/siri/development.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/development.md"
+    },
+    {
+      "path": "homekit.md",
+      "downloadPath": "skills/siri/homekit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/homekit.md"
+    },
+    {
+      "path": "shortcuts.md",
+      "downloadPath": "skills/siri/shortcuts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/shortcuts.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/siri/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/SKILL.md"
+    }
+  ]
+}

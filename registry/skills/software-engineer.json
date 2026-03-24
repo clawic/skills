@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "software-engineer",
+    "name": "Software Engineer",
+    "description": "Write production-ready code with clean architecture, proper error handling, and pragmatic trade-offs between shipping fast and building right.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/software-engineer",
+    "summary": "When to Use Agent needs to write, review, or refactor code. Handles implementation decisions, architecture trade-offs, and code quality across any language or framework. Quick Reference | Topic | File | |-------|------| ",
+    "repositoryPath": "skills/software-engineer",
+    "manifestPath": "registry/skills/software-engineer.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/software-engineer/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/_meta.json"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/software-engineer/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/architecture.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/software-engineer/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/patterns.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/software-engineer/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/SKILL.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/software-engineer/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/testing.md"
+    }
+  ]
+}

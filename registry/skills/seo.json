@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "seo",
+    "name": "SEO (Site Audit + Content Writer + Competitor Analysis)",
+    "description": "SEO specialist agent with site audits, content writing, keyword research, technical fixes, link building, and ranking strategies.",
+    "version": "1.0.3",
+    "homepage": "https://clawic.com/skills/seo",
+    "summary": "Setup On first use, read `setup.md` for workspace integration. When to Use Agent needs to handle SEO: site audits, content optimization, keyword research, technical fixes, link strategies, local SEO, schema markup, or ra",
+    "repositoryPath": "skills/seo",
+    "manifestPath": "registry/skills/seo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/seo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/_meta.json"
+    },
+    {
+      "path": "content.md",
+      "downloadPath": "skills/seo/content.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/content.md"
+    },
+    {
+      "path": "keywords.md",
+      "downloadPath": "skills/seo/keywords.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/keywords.md"
+    },
+    {
+      "path": "links.md",
+      "downloadPath": "skills/seo/links.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/links.md"
+    },
+    {
+      "path": "local.md",
+      "downloadPath": "skills/seo/local.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/local.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/seo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/memory-template.md"
+    },
+    {
+      "path": "on-page.md",
+      "downloadPath": "skills/seo/on-page.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/on-page.md"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/seo/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/schema.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/seo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/seo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md"
+    },
+    {
+      "path": "technical.md",
+      "downloadPath": "skills/seo/technical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/technical.md"
+    }
+  ]
+}

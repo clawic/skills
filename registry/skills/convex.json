@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "convex",
+    "name": "Convex",
+    "description": "Build and maintain Convex backends with schema-safe modeling, query and mutation patterns, auth guards, and production rollout checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/convex",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User is building, debugging, or scaling a Convex backend and needs reliable patterns for data modeling, queries, mutations, actions, auth, and d",
+    "repositoryPath": "skills/convex",
+    "manifestPath": "registry/skills/convex.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/convex/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/convex/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/memory-template.md"
+    },
+    {
+      "path": "operations-playbook.md",
+      "downloadPath": "skills/convex/operations-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/operations-playbook.md"
+    },
+    {
+      "path": "schema-and-indexes.md",
+      "downloadPath": "skills/convex/schema-and-indexes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/schema-and-indexes.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/convex/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/convex/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/SKILL.md"
+    }
+  ]
+}

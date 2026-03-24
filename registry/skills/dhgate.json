@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "dhgate",
+    "name": "DHgate",
+    "description": "Buy, source, and dispute on DHgate with supplier vetting, landed-cost checks, tracking triage, and counterfeit-risk control.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dhgate",
+    "summary": "When to Use User wants help buying, sourcing, comparing, or disputing products on DHgate. Agent helps with seller screening, lot economics, shipping-risk triage, evidence prep, and safer category selection for personal b",
+    "repositoryPath": "skills/dhgate",
+    "manifestPath": "registry/skills/dhgate.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/dhgate/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/_meta.json"
+    },
+    {
+      "path": "counterfeit-checks.md",
+      "downloadPath": "skills/dhgate/counterfeit-checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/counterfeit-checks.md"
+    },
+    {
+      "path": "landed-cost.md",
+      "downloadPath": "skills/dhgate/landed-cost.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/landed-cost.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/dhgate/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/dhgate/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/setup.md"
+    },
+    {
+      "path": "shipping-disputes.md",
+      "downloadPath": "skills/dhgate/shipping-disputes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/shipping-disputes.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/dhgate/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/SKILL.md"
+    },
+    {
+      "path": "sourcing-messages.md",
+      "downloadPath": "skills/dhgate/sourcing-messages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/sourcing-messages.md"
+    },
+    {
+      "path": "supplier-vetting.md",
+      "downloadPath": "skills/dhgate/supplier-vetting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/supplier-vetting.md"
+    }
+  ]
+}

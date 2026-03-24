@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "software-architect",
+    "name": "Software Architect",
+    "description": "Design scalable systems with sound trade-offs, clear boundaries, and maintainable patterns.",
+    "summary": "Software Architecture Rules Design Principles - Simple until proven insufficient — complexity is a cost, not a feature - Separate what changes from what stays stable — boundaries at change boundaries - Design for the nex",
+    "repositoryPath": "skills/software-architect",
+    "manifestPath": "registry/skills/software-architect.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/software-architect/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-architect/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/software-architect/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-architect/SKILL.md"
+    }
+  ]
+}

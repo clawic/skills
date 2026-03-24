@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "schedule",
+    "name": "Schedule",
+    "description": "Program recurring or one-time tasks. User defines what to do, skill handles when.",
+    "version": "1.0.2",
+    "summary": "Data Storage ``` ~/schedule/ ├── jobs.json # Job definitions ├── preferences.json # Timezone, preferred times └── history/ # Execution logs └── YYYY-MM.jsonl ``` Create on first use: `mkdir -p ~/schedule/history` Scope T",
+    "repositoryPath": "skills/schedule",
+    "manifestPath": "registry/skills/schedule.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/schedule/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/_meta.json"
+    },
+    {
+      "path": "jobs.md",
+      "downloadPath": "skills/schedule/jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/jobs.md"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/schedule/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/patterns.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/schedule/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/SKILL.md"
+    },
+    {
+      "path": "traps.md",
+      "downloadPath": "skills/schedule/traps.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/traps.md"
+    }
+  ]
+}

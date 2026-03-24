@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "upwork",
+    "name": "Upwork",
+    "description": "Win freelance projects on Upwork with profile optimization, proposal writing, client communication, and scam detection.",
+    "summary": "Quick Reference | Area | What the Agent Does | |------|---------------------| | Profile | Optimize title, bio, portfolio, hourly rate | | Proposals | Write personalized, non-templated proposals | | Red Flags | Detect sca",
+    "repositoryPath": "skills/upwork",
+    "manifestPath": "registry/skills/upwork.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/upwork/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/_meta.json"
+    },
+    {
+      "path": "communication.md",
+      "downloadPath": "skills/upwork/communication.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/communication.md"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/upwork/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/legal.md"
+    },
+    {
+      "path": "platform.md",
+      "downloadPath": "skills/upwork/platform.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/platform.md"
+    },
+    {
+      "path": "profile.md",
+      "downloadPath": "skills/upwork/profile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/profile.md"
+    },
+    {
+      "path": "proposals.md",
+      "downloadPath": "skills/upwork/proposals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/proposals.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/upwork/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/SKILL.md"
+    }
+  ]
+}

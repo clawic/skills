@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "logo",
+    "name": "Logo",
+    "description": "Generate logos with AI image tools using effective prompt structures, validation loops, and export workflows for App Store icons and brand marks.",
+    "summary": "Quick Start: AI Logo Generation **Best model for most logos: Nano Banana Pro** (Gemini 3 Pro Image) Basic Prompt Formula ``` Create a [STYLE] logo featuring [ELEMENT] on [BACKGROUND]. [DESCRIPTION]. The logo should look ",
+    "repositoryPath": "skills/logo",
+    "manifestPath": "registry/skills/logo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/logo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/_meta.json"
+    },
+    {
+      "path": "ai-generation.md",
+      "downloadPath": "skills/logo/ai-generation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/ai-generation.md"
+    },
+    {
+      "path": "diy.md",
+      "downloadPath": "skills/logo/diy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/diy.md"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/logo/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/feedback.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/logo/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/formats.md"
+    },
+    {
+      "path": "hiring.md",
+      "downloadPath": "skills/logo/hiring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/hiring.md"
+    },
+    {
+      "path": "process.md",
+      "downloadPath": "skills/logo/process.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/process.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/logo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/SKILL.md"
+    },
+    {
+      "path": "types.md",
+      "downloadPath": "skills/logo/types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/types.md"
+    }
+  ]
+}

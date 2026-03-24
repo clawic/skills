@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "lm-studio",
+    "name": "LM Studio",
+    "description": "Run and integrate LM Studio with local model lifecycle control, OpenAI-compatible APIs, embeddings, and MCP-aware workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/lm-studio",
+    "summary": "When to Use User wants to run local models with LM Studio, connect an app to its local server, or debug weak local inference behavior. Use this for server readiness, model loading, OpenAI-compatible API integration, embe",
+    "repositoryPath": "skills/lm-studio",
+    "manifestPath": "registry/skills/lm-studio.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/lm-studio/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/_meta.json"
+    },
+    {
+      "path": "api-recipes.md",
+      "downloadPath": "skills/lm-studio/api-recipes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/api-recipes.md"
+    },
+    {
+      "path": "mcp-playbooks.md",
+      "downloadPath": "skills/lm-studio/mcp-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/mcp-playbooks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/lm-studio/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/memory-template.md"
+    },
+    {
+      "path": "model-lifecycle.md",
+      "downloadPath": "skills/lm-studio/model-lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/model-lifecycle.md"
+    },
+    {
+      "path": "server-workflows.md",
+      "downloadPath": "skills/lm-studio/server-workflows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/server-workflows.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/lm-studio/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/lm-studio/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/lm-studio/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/troubleshooting.md"
+    }
+  ]
+}

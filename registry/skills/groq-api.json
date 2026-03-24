@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "groq-api",
+    "name": "Groq API Inference",
+    "description": "Build and debug Groq API chat and speech workflows with low-latency routing, structured outputs, and production-safe patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/groq-api",
+    "summary": "Setup On first use, read `setup.md` for activation preferences, credential verification, and default workflow setup. When to Use User needs to build, integrate, or troubleshoot Groq API inference for chat, tool calling, ",
+    "repositoryPath": "skills/groq-api",
+    "manifestPath": "registry/skills/groq-api.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/groq-api/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/_meta.json"
+    },
+    {
+      "path": "api-patterns.md",
+      "downloadPath": "skills/groq-api/api-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/api-patterns.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/groq-api/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/memory-template.md"
+    },
+    {
+      "path": "model-selection.md",
+      "downloadPath": "skills/groq-api/model-selection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/model-selection.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/groq-api/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/groq-api/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/groq-api/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/troubleshooting.md"
+    }
+  ]
+}

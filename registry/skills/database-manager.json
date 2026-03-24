@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "database-manager",
+    "name": "Database Manager",
+    "description": "Plan, operate, and recover relational databases with schema governance, safe migrations, backup drills, and incident response playbooks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/database-manager",
+    "summary": "Setup On first use, read `setup.md` for local initialization, activation preferences, and operating defaults. When to Use User needs a reliable database operating system for schema design, query hygiene, migration rollou",
+    "repositoryPath": "skills/database-manager",
+    "manifestPath": "registry/skills/database-manager.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/database-manager/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/_meta.json"
+    },
+    {
+      "path": "backup-and-recovery.md",
+      "downloadPath": "skills/database-manager/backup-and-recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/backup-and-recovery.md"
+    },
+    {
+      "path": "incident-playbook.md",
+      "downloadPath": "skills/database-manager/incident-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/incident-playbook.md"
+    },
+    {
+      "path": "inventory-and-governance.md",
+      "downloadPath": "skills/database-manager/inventory-and-governance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/inventory-and-governance.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/database-manager/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/memory-template.md"
+    },
+    {
+      "path": "migration-and-release.md",
+      "downloadPath": "skills/database-manager/migration-and-release.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/migration-and-release.md"
+    },
+    {
+      "path": "query-operations.md",
+      "downloadPath": "skills/database-manager/query-operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/query-operations.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/database-manager/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/database-manager/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/database-manager/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/templates.md"
+    }
+  ]
+}

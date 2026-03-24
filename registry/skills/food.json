@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "food",
+    "name": "Food Tracker",
+    "description": "Your intelligent food system. Absorbs, analyzes, and organizes everything you eat.",
+    "version": "1.0.1",
+    "summary": "Intelligent Food Absorption This skill absorbs ANY food input, auto-classifies it, and organizes for insights. **Rules:** - Auto-detect input type: meal photo, nutrition label, recipe, menu, text - Extract and structure:",
+    "repositoryPath": "skills/food",
+    "manifestPath": "registry/skills/food.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/food/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/_meta.json"
+    },
+    {
+      "path": "processing.md",
+      "downloadPath": "skills/food/processing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/processing.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/food/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/SKILL.md"
+    }
+  ]
+}

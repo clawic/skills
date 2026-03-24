@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "habits",
+    "name": "Habits",
+    "description": "Build a personal habit tracking system with streaks, reviews, and progression.",
+    "summary": "Core Behavior - User mentions doing something regularly → offer to track as habit - Daily check-in prompt if enabled → \"Did you do X today?\" - Surface streaks and patterns → motivation through visibility - Create `~/habi",
+    "repositoryPath": "skills/habits",
+    "manifestPath": "registry/skills/habits.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/habits/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/habits/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/SKILL.md"
+    }
+  ]
+}

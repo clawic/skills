@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "agents",
+    "name": "Agents",
+    "description": "Design, build, and deploy AI agents with architecture patterns, framework selection, memory systems, and production safety.",
+    "summary": "When to Use Use when designing agent systems, choosing frameworks, implementing memory/tools, specifying agent behavior for teams, or reviewing agent security. Quick Reference | Topic | File | |-------|------| | Architec",
+    "repositoryPath": "skills/agents",
+    "manifestPath": "registry/skills/agents.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/agents/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/_meta.json"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/agents/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/architecture.md"
+    },
+    {
+      "path": "evaluation.md",
+      "downloadPath": "skills/agents/evaluation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/evaluation.md"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/agents/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/frameworks.md"
+    },
+    {
+      "path": "implementation.md",
+      "downloadPath": "skills/agents/implementation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/implementation.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/agents/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/security.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/agents/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/SKILL.md"
+    },
+    {
+      "path": "use-cases.md",
+      "downloadPath": "skills/agents/use-cases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/use-cases.md"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "music-generation",
+    "name": "Music Generation",
+    "description": "Generate AI music with optimized prompts, style control, and production-ready audio output.",
+    "summary": "AI Music Generation Help users create AI-generated music and audio. **Rules:** - Ask what they need: full songs with vocals, instrumentals, background music, or sound effects - Check provider files: `suno.md`, `udio.md`,",
+    "repositoryPath": "skills/music-generation",
+    "manifestPath": "registry/skills/music-generation.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/music-generation/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/_meta.json"
+    },
+    {
+      "path": "mubert.md",
+      "downloadPath": "skills/music-generation/mubert.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/mubert.md"
+    },
+    {
+      "path": "musicgen.md",
+      "downloadPath": "skills/music-generation/musicgen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/musicgen.md"
+    },
+    {
+      "path": "prompting.md",
+      "downloadPath": "skills/music-generation/prompting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/prompting.md"
+    },
+    {
+      "path": "replicate.md",
+      "downloadPath": "skills/music-generation/replicate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/replicate.md"
+    },
+    {
+      "path": "riffusion.md",
+      "downloadPath": "skills/music-generation/riffusion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/riffusion.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/music-generation/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/SKILL.md"
+    },
+    {
+      "path": "soundraw.md",
+      "downloadPath": "skills/music-generation/soundraw.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/soundraw.md"
+    },
+    {
+      "path": "stable-audio.md",
+      "downloadPath": "skills/music-generation/stable-audio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/stable-audio.md"
+    },
+    {
+      "path": "suno.md",
+      "downloadPath": "skills/music-generation/suno.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/suno.md"
+    },
+    {
+      "path": "udio.md",
+      "downloadPath": "skills/music-generation/udio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/udio.md"
+    }
+  ]
+}

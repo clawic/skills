@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cfo",
+    "name": "CFO / Chief Financial Officer",
+    "description": "Be the CFO with financial planning, cash management, fundraising, capital allocation, and strategic financial leadership.",
+    "version": "1.0.3",
+    "homepage": "https://clawic.com/skills/cfo",
+    "summary": "When to Use Agent needs to be the CFO: financial planning, cash management, fundraising strategy, capital allocation, board reporting, risk management, or M&A diligence. Quick Reference | Domain | File | |--------|------",
+    "repositoryPath": "skills/cfo",
+    "manifestPath": "registry/skills/cfo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cfo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/_meta.json"
+    },
+    {
+      "path": "cash.md",
+      "downloadPath": "skills/cfo/cash.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/cash.md"
+    },
+    {
+      "path": "fundraising.md",
+      "downloadPath": "skills/cfo/fundraising.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/fundraising.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/cfo/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/operations.md"
+    },
+    {
+      "path": "planning.md",
+      "downloadPath": "skills/cfo/planning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/planning.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cfo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md"
+    }
+  ]
+}

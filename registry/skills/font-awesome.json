@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "font-awesome",
+    "name": "Font Awesome",
+    "description": "Add Font Awesome icons to web projects with CDN, npm, React, and SVG sprite methods.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/font-awesome",
+    "summary": "Setup On first use, read `setup.md` silently and start naturally. Never mention setup files to the user. When to Use User needs icons in a web project. Agent handles icon selection, installation method, and framework-spe",
+    "repositoryPath": "skills/font-awesome",
+    "manifestPath": "registry/skills/font-awesome.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/font-awesome/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/font-awesome/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/font-awesome/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/font-awesome/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mysql",
+    "name": "MySQL",
+    "description": "Write correct MySQL queries with proper character sets, indexing, transactions, and production patterns.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Index design deep dive | `indexes.md` | | Transactions and locking | `transactions.md` | | Query optimization | `queries.md` | | Production config | `production.md` | C",
+    "repositoryPath": "skills/mysql",
+    "manifestPath": "registry/skills/mysql.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mysql/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/_meta.json"
+    },
+    {
+      "path": "indexes.md",
+      "downloadPath": "skills/mysql/indexes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/indexes.md"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/mysql/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/production.md"
+    },
+    {
+      "path": "queries.md",
+      "downloadPath": "skills/mysql/queries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/queries.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mysql/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/SKILL.md"
+    },
+    {
+      "path": "transactions.md",
+      "downloadPath": "skills/mysql/transactions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/transactions.md"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "reflection",
+    "name": "Self Reflection",
+    "description": "Learns when to stop and review. Self-critiques before showing you, fewer revision rounds.",
+    "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/reflection",
+    "summary": "Agents repeat mistakes. Not because they're incapable — because they forget. This skill changes that. Your agent pauses before delivering, catches its own blind spots, and remembers lessons for next time. When to Use Use",
+    "repositoryPath": "skills/reflection",
+    "manifestPath": "registry/skills/reflection.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/reflection/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/_meta.json"
+    },
+    {
+      "path": "dimensions.md",
+      "downloadPath": "skills/reflection/dimensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/dimensions.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/reflection/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/memory-template.md"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/reflection/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/prompts.md"
+    },
+    {
+      "path": "reflections.md",
+      "downloadPath": "skills/reflection/reflections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/reflections.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/reflection/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/reflection/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/SKILL.md"
+    }
+  ]
+}

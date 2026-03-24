@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "uber-eats",
+    "name": "Uber Eats",
+    "description": "Navigate Uber Eats in a live browser or app handoff to compare merchants, manage carts, and reach checkout safely.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/uber-eats",
+    "summary": "When to Use User needs Uber Eats specifically, not generic delivery advice. Use this when the task depends on the user's real Uber Eats session, saved addresses, live merchant availability, promo state, cart contents, gr",
+    "repositoryPath": "skills/uber-eats",
+    "manifestPath": "registry/skills/uber-eats.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/uber-eats/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/_meta.json"
+    },
+    {
+      "path": "access-fallbacks.md",
+      "downloadPath": "skills/uber-eats/access-fallbacks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/access-fallbacks.md"
+    },
+    {
+      "path": "browser-flow.md",
+      "downloadPath": "skills/uber-eats/browser-flow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/browser-flow.md"
+    },
+    {
+      "path": "checkout-guardrails.md",
+      "downloadPath": "skills/uber-eats/checkout-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/checkout-guardrails.md"
+    },
+    {
+      "path": "issue-recovery.md",
+      "downloadPath": "skills/uber-eats/issue-recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/issue-recovery.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/uber-eats/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/uber-eats/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/uber-eats/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cypress",
+    "name": "Cypress",
+    "description": "Write reliable E2E and component tests with Cypress avoiding flaky selectors, race conditions, and CI failures.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cypress",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs E2E tests, component tests, or API tests with Cypress. Agent writes tests, debugs flaky specs, configures CI/CD, and creates custom c",
+    "repositoryPath": "skills/cypress",
+    "manifestPath": "registry/skills/cypress.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cypress/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/_meta.json"
+    },
+    {
+      "path": "ci.md",
+      "downloadPath": "skills/cypress/ci.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/ci.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/cypress/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/commands.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cypress/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/memory-template.md"
+    },
+    {
+      "path": "network.md",
+      "downloadPath": "skills/cypress/network.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/network.md"
+    },
+    {
+      "path": "selectors.md",
+      "downloadPath": "skills/cypress/selectors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/selectors.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/cypress/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cypress/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/SKILL.md"
+    }
+  ]
+}

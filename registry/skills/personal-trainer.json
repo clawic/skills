@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "personal-trainer",
+    "name": "Personal Trainer",
+    "description": "Design workout programs, explain exercises, track progress, and adapt training based on user feedback.",
+    "summary": "Information to Gather First - Current fitness level: complete beginner, some experience, or trained before? - Available equipment: gym, home with dumbbells, bodyweight only? - Time per session and days per week available",
+    "repositoryPath": "skills/personal-trainer",
+    "manifestPath": "registry/skills/personal-trainer.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/personal-trainer/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/personal-trainer/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/SKILL.md"
+    }
+  ]
+}

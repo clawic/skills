@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "home-server",
+    "name": "Home Server",
+    "description": "Plan, secure, and maintain a home server with Docker services, remote access, backups, and incident recovery.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/home-server",
+    "summary": "Setup On first use, read `setup.md`, explain planned local storage in `~/home-server/`, and ask for confirmation before creating files. When to Use User needs help designing, deploying, or operating a home server environ",
+    "repositoryPath": "skills/home-server",
+    "manifestPath": "registry/skills/home-server.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/home-server/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/_meta.json"
+    },
+    {
+      "path": "incident-playbook.md",
+      "downloadPath": "skills/home-server/incident-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/incident-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/home-server/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/memory-template.md"
+    },
+    {
+      "path": "operations-checklists.md",
+      "downloadPath": "skills/home-server/operations-checklists.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/operations-checklists.md"
+    },
+    {
+      "path": "service-catalog.md",
+      "downloadPath": "skills/home-server/service-catalog.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/service-catalog.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/home-server/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/home-server/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/SKILL.md"
+    }
+  ]
+}

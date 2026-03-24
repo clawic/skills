@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "analyst",
+    "name": "Analyst",
+    "description": "Extract insights from data with SQL, visualization, and clear communication of findings.",
+    "summary": "Data Analysis Rules Framing Questions - Clarify the decision being made — analysis without action is trivia - \"What would change your mind?\" surfaces the real question - Scope before diving in — infinite data, limited ti",
+    "repositoryPath": "skills/analyst",
+    "manifestPath": "registry/skills/analyst.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/analyst/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/analyst/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/SKILL.md"
+    }
+  ]
+}

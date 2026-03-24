@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "recipe",
+    "name": "Recipes",
+    "description": "Build a personal recipe collection with ingredients, scaling, and meal planning.",
+    "summary": "Core Behavior - User shares a recipe → capture in standard format, save to collection - User asks \"what can I make with X\" → search by ingredient - User plans meals → help organize week and generate shopping list - Creat",
+    "repositoryPath": "skills/recipe",
+    "manifestPath": "registry/skills/recipe.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/recipe/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/recipe/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/SKILL.md"
+    }
+  ]
+}

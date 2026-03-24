@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "android-studio",
+    "name": "Android Studio",
+    "description": "Master Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/android-studio",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User works with Android Studio IDE. Agent helps with debugging tools, profiler, layout inspector, code navigation, refactoring, and keyboard sho",
+    "repositoryPath": "skills/android-studio",
+    "manifestPath": "registry/skills/android-studio.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/android-studio/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/_meta.json"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/android-studio/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/debugging.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/android-studio/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/android-studio/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/setup.md"
+    },
+    {
+      "path": "shortcuts.md",
+      "downloadPath": "skills/android-studio/shortcuts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/shortcuts.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/android-studio/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "excel-xlsx",
+    "name": "Excel / XLSX",
+    "description": "Create, inspect, and edit Microsoft Excel workbooks and XLSX files with reliable formulas, dates, types, formatting, recalculation, and template preservation. Use when (1) the task is about Excel, `.xlsx`, `.xlsm`, `.xls`, `.csv`, or `.tsv`; (2) formulas, formatting, workbook structure, or compatibility matter; (3) the file must stay reliable after edits.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/excel-xlsx",
+    "summary": "When to Use Use when the main artifact is a Microsoft Excel workbook or spreadsheet file, especially when formulas, dates, formatting, merged cells, workbook structure, or cross-platform behavior matter. Core Rules 1. Ch",
+    "repositoryPath": "skills/excel-xlsx",
+    "manifestPath": "registry/skills/excel-xlsx.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/excel-xlsx/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/excel-xlsx/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/excel-xlsx/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/excel-xlsx/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/SKILL.md"
+    }
+  ]
+}

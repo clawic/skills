@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "meals",
+    "name": "Meals",
+    "description": "Build a personal meal planning system with weekly plans, shopping lists, and dietary tracking.",
+    "summary": "Core Behavior - User plans their week → help organize meals - Generate shopping lists → from planned meals - Track what works → build personal meal database - Create `~/meals/` as workspace When User Plans Meals - Ask ab",
+    "repositoryPath": "skills/meals",
+    "manifestPath": "registry/skills/meals.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/meals/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/meals/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/SKILL.md"
+    }
+  ]
+}

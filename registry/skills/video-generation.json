@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "video-generation",
+    "name": "AI Video Generation",
+    "description": "Create AI videos with Sora 2, Veo 3, Seedance, Runway, and modern APIs using reliable prompt and rendering workflows.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/video-generation",
+    "summary": "Setup On first use, read `setup.md`. When to Use User needs to generate, edit, or scale AI videos with current models and APIs. Use this skill to choose the right current model stack, write stronger motion prompts, and r",
+    "repositoryPath": "skills/video-generation",
+    "manifestPath": "registry/skills/video-generation.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/video-generation/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/_meta.json"
+    },
+    {
+      "path": "api-patterns.md",
+      "downloadPath": "skills/video-generation/api-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/api-patterns.md"
+    },
+    {
+      "path": "benchmarks.md",
+      "downloadPath": "skills/video-generation/benchmarks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/benchmarks.md"
+    },
+    {
+      "path": "google-veo.md",
+      "downloadPath": "skills/video-generation/google-veo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/google-veo.md"
+    },
+    {
+      "path": "kling.md",
+      "downloadPath": "skills/video-generation/kling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/kling.md"
+    },
+    {
+      "path": "luma.md",
+      "downloadPath": "skills/video-generation/luma.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/luma.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/video-generation/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/memory-template.md"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/video-generation/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/migration.md"
+    },
+    {
+      "path": "minimax-hailuo.md",
+      "downloadPath": "skills/video-generation/minimax-hailuo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/minimax-hailuo.md"
+    },
+    {
+      "path": "open-source-video.md",
+      "downloadPath": "skills/video-generation/open-source-video.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/open-source-video.md"
+    },
+    {
+      "path": "openai-sora.md",
+      "downloadPath": "skills/video-generation/openai-sora.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/openai-sora.md"
+    },
+    {
+      "path": "pika.md",
+      "downloadPath": "skills/video-generation/pika.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/pika.md"
+    },
+    {
+      "path": "promotion.md",
+      "downloadPath": "skills/video-generation/promotion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/promotion.md"
+    },
+    {
+      "path": "replicate.md",
+      "downloadPath": "skills/video-generation/replicate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/replicate.md"
+    },
+    {
+      "path": "runway.md",
+      "downloadPath": "skills/video-generation/runway.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/runway.md"
+    },
+    {
+      "path": "seedance.md",
+      "downloadPath": "skills/video-generation/seedance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/seedance.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/video-generation/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/video-generation/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/SKILL.md"
+    },
+    {
+      "path": "stable-video-diffusion.md",
+      "downloadPath": "skills/video-generation/stable-video-diffusion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/stable-video-diffusion.md"
+    },
+    {
+      "path": "vidu.md",
+      "downloadPath": "skills/video-generation/vidu.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/vidu.md"
+    }
+  ]
+}

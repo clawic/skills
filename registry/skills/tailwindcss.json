@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "tailwindcss",
+    "name": "Tailwind CSS",
+    "description": "Write Tailwind utility classes with proper responsive design, dark mode, and configuration.",
+    "summary": "Content Configuration - `content` array in tailwind.config.js must include ALL files with classes—missing paths = missing styles in production - Glob patterns: `\"./src/**/*.{js,jsx,ts,tsx,html}\"` covers nested directorie",
+    "repositoryPath": "skills/tailwindcss",
+    "manifestPath": "registry/skills/tailwindcss.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tailwindcss/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tailwindcss/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/SKILL.md"
+    }
+  ]
+}

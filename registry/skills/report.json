@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "report",
+    "name": "Report",
+    "description": "Configure custom recurring reports. User defines data sources, skill handles scheduling and formatting.",
+    "version": "1.0.3",
+    "summary": "Data Storage ``` ~/report/ ├── memory.md # Index + preferences ├── {name}/ │ ├── config.md # Report configuration │ ├── data.jsonl # Historical data │ └── generated/ # Past reports ``` Create on first use: `mkdir -p ~/re",
+    "repositoryPath": "skills/report",
+    "manifestPath": "registry/skills/report.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/report/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/_meta.json"
+    },
+    {
+      "path": "delivery.md",
+      "downloadPath": "skills/report/delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/delivery.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/report/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/formats.md"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/report/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/schema.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/report/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/SKILL.md"
+    }
+  ]
+}

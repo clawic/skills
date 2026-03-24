@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "postman",
+    "name": "Postman",
+    "description": "Build, test, and automate APIs with Postman collections, environments, and Newman CLI.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/postman",
+    "summary": "Setup If `~/postman/` doesn't exist, read `setup.md` silently and start naturally. When to Use User needs to test APIs, create Postman collections, manage environments, or run automated API tests with Newman. Architectur",
+    "repositoryPath": "skills/postman",
+    "manifestPath": "registry/skills/postman.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/postman/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/_meta.json"
+    },
+    {
+      "path": "collections.md",
+      "downloadPath": "skills/postman/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/collections.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/postman/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/memory-template.md"
+    },
+    {
+      "path": "newman.md",
+      "downloadPath": "skills/postman/newman.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/newman.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/postman/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/postman/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "resume",
+    "name": "Resume",
+    "description": "Adapt, diagnose, and optimize resumes to land interviews with ATS optimization, job-specific tailoring, and recruiter-tested tactics.",
+    "version": "1.0.0",
+    "summary": "Quick Reference | File | Purpose | |------|---------| | `tailoring.md` | Adapt resume to specific job postings | | `diagnosis.md` | Find why resume isn't getting calls | | `ats.md` | Pass automated screening systems | | ",
+    "repositoryPath": "skills/resume",
+    "manifestPath": "registry/skills/resume.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/resume/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/_meta.json"
+    },
+    {
+      "path": "ats.md",
+      "downloadPath": "skills/resume/ats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/ats.md"
+    },
+    {
+      "path": "diagnosis.md",
+      "downloadPath": "skills/resume/diagnosis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/diagnosis.md"
+    },
+    {
+      "path": "seniority.md",
+      "downloadPath": "skills/resume/seniority.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/seniority.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/resume/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/SKILL.md"
+    },
+    {
+      "path": "tailoring.md",
+      "downloadPath": "skills/resume/tailoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/tailoring.md"
+    }
+  ]
+}

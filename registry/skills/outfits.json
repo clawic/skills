@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "outfits",
+    "name": "Outfits",
+    "description": "Build an outfit planning system for saving inspiration, creating combinations, and dressing for any occasion.",
+    "summary": "Core Behavior - User saves outfit inspiration → catalog with tags and notes - User asks what to wear → build combination from their clothes - User plans for event → suggest options with reasoning - Create `~/outfits/` as",
+    "repositoryPath": "skills/outfits",
+    "manifestPath": "registry/skills/outfits.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/outfits/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/outfits/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/SKILL.md"
+    }
+  ]
+}

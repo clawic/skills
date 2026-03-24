@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "ruby",
+    "name": "Ruby",
+    "description": "Write reliable Ruby avoiding mutable string traps, block pitfalls, and metaprogramming bugs.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | Topic | File | |-------|------| | Mutable strings, object equality | `objects.md` | | Proc vs lambda, return behavior | `blocks.md` | | Visibility, method_missing | `methods.md` | | Array/hash mutation ",
+    "repositoryPath": "skills/ruby",
+    "manifestPath": "registry/skills/ruby.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/ruby/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/_meta.json"
+    },
+    {
+      "path": "blocks.md",
+      "downloadPath": "skills/ruby/blocks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/blocks.md"
+    },
+    {
+      "path": "collections.md",
+      "downloadPath": "skills/ruby/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/collections.md"
+    },
+    {
+      "path": "metaprogramming.md",
+      "downloadPath": "skills/ruby/metaprogramming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/metaprogramming.md"
+    },
+    {
+      "path": "methods.md",
+      "downloadPath": "skills/ruby/methods.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/methods.md"
+    },
+    {
+      "path": "objects.md",
+      "downloadPath": "skills/ruby/objects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/objects.md"
+    },
+    {
+      "path": "rails.md",
+      "downloadPath": "skills/ruby/rails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/rails.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ruby/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/SKILL.md"
+    }
+  ]
+}

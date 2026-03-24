@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "windows",
+    "name": "Windows",
+    "description": "Windows-specific patterns, security practices, and operational traps that cause silent failures.",
+    "summary": "Credential Management - Never hardcode passwords in scripts — use Windows Credential Manager: ```powershell # Store cmdkey /generic:\"MyService\" /user:\"admin\" /pass:\"secret\" # Retrieve in script $cred = Get-StoredCredenti",
+    "repositoryPath": "skills/windows",
+    "manifestPath": "registry/skills/windows.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/windows/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windows/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/windows/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windows/SKILL.md"
+    }
+  ]
+}

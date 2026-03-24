@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "smart-home",
+    "name": "Smart Home",
+    "description": "Set up, automate, secure, and troubleshoot smart home devices with protocol selection, network isolation, and ecosystem-agnostic automation patterns.",
+    "summary": "Decision Tree | Situation | Action | |-----------|--------| | Starting from scratch | Check `setup.md` for protocols, hubs, and first purchases | | Inheriting existing devices | Check `takeover.md` for reset, claiming, a",
+    "repositoryPath": "skills/smart-home",
+    "manifestPath": "registry/skills/smart-home.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/smart-home/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/_meta.json"
+    },
+    {
+      "path": "automations.md",
+      "downloadPath": "skills/smart-home/automations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/automations.md"
+    },
+    {
+      "path": "renters.md",
+      "downloadPath": "skills/smart-home/renters.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/renters.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/smart-home/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/security.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/smart-home/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/smart-home/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/SKILL.md"
+    },
+    {
+      "path": "takeover.md",
+      "downloadPath": "skills/smart-home/takeover.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/takeover.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/smart-home/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smart-home/troubleshooting.md"
+    }
+  ]
+}

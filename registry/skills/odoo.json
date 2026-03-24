@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "odoo",
+    "name": "Odoo",
+    "description": "Operate Odoo across CRM, sales, inventory, purchasing, and accounting with module-aware planning, read-before-write checks, and safe execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/odoo",
+    "summary": "Odoo Odoo operating workflow for live ERP systems. Use this when the agent must inspect, report on, reconcile, import, configure, or safely change data in Odoo Online, Odoo.sh, or self-hosted environments. When to Use Us",
+    "repositoryPath": "skills/odoo",
+    "manifestPath": "registry/skills/odoo.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/odoo/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/_meta.json"
+    },
+    {
+      "path": "examples.md",
+      "downloadPath": "skills/odoo/examples.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/examples.md"
+    },
+    {
+      "path": "integrations.md",
+      "downloadPath": "skills/odoo/integrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/integrations.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/odoo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/memory-template.md"
+    },
+    {
+      "path": "models.md",
+      "downloadPath": "skills/odoo/models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/models.md"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/odoo/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/operations.md"
+    },
+    {
+      "path": "reporting.md",
+      "downloadPath": "skills/odoo/reporting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/reporting.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/odoo/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/safety.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/odoo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/odoo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/SKILL.md"
+    },
+    {
+      "path": "surfaces.md",
+      "downloadPath": "skills/odoo/surfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/surfaces.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/odoo/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/triage.md"
+    }
+  ]
+}

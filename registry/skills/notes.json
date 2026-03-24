@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "notes",
+    "name": "Notes (Local, Apple, Notion, Obsidian & more)",
+    "description": "Let your agent write notes anywhere: local markdown, Apple Notes, Bear, Obsidian, Notion, Evernote, configurable per note type.",
+    "version": "1.1.3",
+    "homepage": "https://clawic.com/skills/notes",
+    "summary": "Setup On first use, read `setup.md` for platform selection and integration guidelines. When to Use User needs to capture any type of notes: meetings, brainstorms, decisions, daily journals, or project logs. Agent handles",
+    "repositoryPath": "skills/notes",
+    "manifestPath": "registry/skills/notes.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/notes/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/_meta.json"
+    },
+    {
+      "path": "apple-notes.md",
+      "downloadPath": "skills/notes/apple-notes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/apple-notes.md"
+    },
+    {
+      "path": "bear.md",
+      "downloadPath": "skills/notes/bear.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/bear.md"
+    },
+    {
+      "path": "evernote.md",
+      "downloadPath": "skills/notes/evernote.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/evernote.md"
+    },
+    {
+      "path": "formats.md",
+      "downloadPath": "skills/notes/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/formats.md"
+    },
+    {
+      "path": "local.md",
+      "downloadPath": "skills/notes/local.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/local.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/notes/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/memory-template.md"
+    },
+    {
+      "path": "notion.md",
+      "downloadPath": "skills/notes/notion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/notion.md"
+    },
+    {
+      "path": "obsidian.md",
+      "downloadPath": "skills/notes/obsidian.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/obsidian.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/notes/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/notes/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/SKILL.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/notes/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/tracking.md"
+    }
+  ]
+}

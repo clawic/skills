@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "outreach",
+    "name": "Outreach",
+    "description": "Plan, personalize, and track outreach campaigns for sales, PR, recruiting, partnerships, and link building with timing strategy and follow-up cadence.",
+    "summary": "Situation Detection | Context | Load | |---------|------| | Writing cold emails, follow-ups, subject lines | `templates.md` | | Sales outreach (SDR, BDR, AE) | `by-type.md` → Sales section | | PR/Media pitching, influenc",
+    "repositoryPath": "skills/outreach",
+    "manifestPath": "registry/skills/outreach.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/outreach/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/_meta.json"
+    },
+    {
+      "path": "by-type.md",
+      "downloadPath": "skills/outreach/by-type.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/by-type.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/outreach/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/SKILL.md"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/outreach/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/templates.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/outreach/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/tracking.md"
+    }
+  ]
+}

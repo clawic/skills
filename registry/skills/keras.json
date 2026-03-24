@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "keras",
+    "name": "Keras",
+    "description": "Build, train, and debug deep learning models with Keras patterns, layer recipes, and training diagnostics.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/keras",
+    "summary": "Setup On first use, check `setup.md` for integration guidelines. The skill stores preferences in `~/keras/` when the user confirms. When to Use User builds neural networks with Keras or TensorFlow. Agent handles model ar",
+    "repositoryPath": "skills/keras",
+    "manifestPath": "registry/skills/keras.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/keras/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/_meta.json"
+    },
+    {
+      "path": "architectures.md",
+      "downloadPath": "skills/keras/architectures.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/architectures.md"
+    },
+    {
+      "path": "layers.md",
+      "downloadPath": "skills/keras/layers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/layers.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/keras/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/keras/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/keras/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/SKILL.md"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/keras/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/training.md"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "homepod",
+    "name": "HomePod",
+    "description": "Set up, troubleshoot, and optimize HomePod and HomeKit audio workflows with reliable Siri control and room-aware playback tuning.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/homepod",
+    "summary": "Setup On first use, read `setup.md` for activation preferences and baseline context. When to Use Use this skill when tasks involve HomePod setup, direct playback control, Siri playback issues, Home app automations, or mu",
+    "repositoryPath": "skills/homepod",
+    "manifestPath": "registry/skills/homepod.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/homepod/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/_meta.json"
+    },
+    {
+      "path": "automation-playbook.md",
+      "downloadPath": "skills/homepod/automation-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/automation-playbook.md"
+    },
+    {
+      "path": "direct-control.md",
+      "downloadPath": "skills/homepod/direct-control.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/direct-control.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/homepod/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/memory-template.md"
+    },
+    {
+      "path": "network-diagnostics.md",
+      "downloadPath": "skills/homepod/network-diagnostics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/network-diagnostics.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/homepod/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/setup.md"
+    },
+    {
+      "path": "siri-recovery.md",
+      "downloadPath": "skills/homepod/siri-recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/siri-recovery.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/homepod/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/SKILL.md"
+    }
+  ]
+}

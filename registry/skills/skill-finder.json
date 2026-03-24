@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "skill-finder",
+    "name": "Skill Finder (Find ClawHub skills + Search Skills.sh)",
+    "description": "Find, compare, and install agent skills across ClawHub and Skills.sh when the user needs new capabilities, better workflows, stronger tools, or safer alternatives. Use when (1) they ask how to do something, how to improve or automate it, or what to install; (2) a skill could extend the agent, replace a weak manual approach, or close a capability gap; (3) you need the best-fit option, not just a direct answer.",
+    "version": "1.1.5",
+    "homepage": "https://clawic.com/skills/skill-finder",
+    "summary": "When to Use User asks how to do something, wonders whether a skill exists, wants a new capability, or asks for the best skill for a job. Use before solving manually when an installable skill could extend the agent, repla",
+    "repositoryPath": "skills/skill-finder",
+    "manifestPath": "registry/skills/skill-finder.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/skill-finder/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/_meta.json"
+    },
+    {
+      "path": "categories.md",
+      "downloadPath": "skills/skill-finder/categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/categories.md"
+    },
+    {
+      "path": "evaluate.md",
+      "downloadPath": "skills/skill-finder/evaluate.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/evaluate.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/skill-finder/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/memory-template.md"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/skill-finder/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/migration.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/skill-finder/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/search.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/skill-finder/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-finder/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/skill-finder/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/troubleshooting.md"
+    }
+  ]
+}

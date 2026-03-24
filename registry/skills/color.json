@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "color",
+    "name": "Color",
+    "description": "Build, inspect, adapt, and validate color systems, palettes, tokens, contrast, color-space choices, and cross-surface color behavior for UI, branding, charts, images, and print.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/color",
+    "summary": "When to Use Use when color is the real decision surface: palette building, semantic tokens, dark mode, chart colors, brand systems, accessibility, print handoff, or image/export consistency. If the job is context-specifi",
+    "repositoryPath": "skills/color",
+    "manifestPath": "registry/skills/color.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/color/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/_meta.json"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/color/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/accessibility.md"
+    },
+    {
+      "path": "branding.md",
+      "downloadPath": "skills/color/branding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/branding.md"
+    },
+    {
+      "path": "color-spaces.md",
+      "downloadPath": "skills/color/color-spaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/color-spaces.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/color/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/commands.md"
+    },
+    {
+      "path": "data-viz.md",
+      "downloadPath": "skills/color/data-viz.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/data-viz.md"
+    },
+    {
+      "path": "palettes.md",
+      "downloadPath": "skills/color/palettes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/palettes.md"
+    },
+    {
+      "path": "print.md",
+      "downloadPath": "skills/color/print.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/print.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/color/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/SKILL.md"
+    },
+    {
+      "path": "ui-systems.md",
+      "downloadPath": "skills/color/ui-systems.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/ui-systems.md"
+    }
+  ]
+}

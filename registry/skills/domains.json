@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "domains",
+    "name": "Domains",
+    "description": "Register, manage, and protect domain names with practical DNS and security guidance.",
+    "summary": "Domain Management Rules Before Registration - Check availability on the registrar directly — WHOIS lookups from third parties can trigger front-running (someone registers it before you) - Search for the domain name + \"sc",
+    "repositoryPath": "skills/domains",
+    "manifestPath": "registry/skills/domains.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/domains/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domains/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/domains/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/domains/SKILL.md"
+    }
+  ]
+}

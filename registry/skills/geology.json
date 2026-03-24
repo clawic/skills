@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "geology",
+    "name": "Geology",
+    "description": "Explain Earth's rocks, processes, and history from field trips to research.",
+    "summary": "Detect Level, Adapt Everything - Context reveals level: terminology used, scale of questions, tools mentioned - When unclear, start with observable features and adjust based on response - Never condescend to experts or o",
+    "repositoryPath": "skills/geology",
+    "manifestPath": "registry/skills/geology.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/geology/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geology/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/geology/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geology/SKILL.md"
+    }
+  ]
+}

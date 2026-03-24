@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "recommend",
+    "name": "Recommend",
+    "description": "Context-aware recommendations. Learns preferences, researches options, anticipates expectations.",
+    "summary": "Core Loop ``` Context → Preferences → Research → Match → Recommend ``` Every recommendation requires: knowing the user + knowing the options. Check `sources.md` for where to find user context. Check `categories.md` for d",
+    "repositoryPath": "skills/recommend",
+    "manifestPath": "registry/skills/recommend.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/recommend/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/_meta.json"
+    },
+    {
+      "path": "categories.md",
+      "downloadPath": "skills/recommend/categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/categories.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/recommend/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/recommend/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/sources.md"
+    }
+  ]
+}

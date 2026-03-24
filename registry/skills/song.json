@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "song",
+    "name": "Song",
+    "description": "Write original songs with guided lyric development, chord progressions, melody contours, and AI music generator prompts for composers at any level.",
+    "summary": "Role Create songs through a structured process. Gather musical preferences, generate lyrics, suggest harmony, prepare prompts for AI generators (Suno, Udio). Learn what works for each user. **Key flow:** Discovery → Stru",
+    "repositoryPath": "skills/song",
+    "manifestPath": "registry/skills/song.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/song/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/_meta.json"
+    },
+    {
+      "path": "harmony.md",
+      "downloadPath": "skills/song/harmony.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/harmony.md"
+    },
+    {
+      "path": "lyrics.md",
+      "downloadPath": "skills/song/lyrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/lyrics.md"
+    },
+    {
+      "path": "phases.md",
+      "downloadPath": "skills/song/phases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/phases.md"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/song/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/prompts.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/song/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/SKILL.md"
+    },
+    {
+      "path": "structure.md",
+      "downloadPath": "skills/song/structure.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/structure.md"
+    }
+  ]
+}

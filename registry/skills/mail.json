@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mail",
+    "name": "Mail",
+    "description": "Execute email operations with platform-specific optimizations and secure credential handling.",
+    "version": "1.2.0",
+    "summary": "Requirements **Binaries:** - `himalaya` - IMAP/SMTP CLI (`brew install himalaya` or `cargo install himalaya`) - `osascript` - macOS only, built-in **Credentials:** - App Password for Gmail (not regular password), stored ",
+    "repositoryPath": "skills/mail",
+    "manifestPath": "registry/skills/mail.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mail/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mail/_meta.json"
+    },
+    {
+      "path": "apple-mail.md",
+      "downloadPath": "skills/mail/apple-mail.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mail/apple-mail.md"
+    },
+    {
+      "path": "himalaya.md",
+      "downloadPath": "skills/mail/himalaya.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mail/himalaya.md"
+    },
+    {
+      "path": "sending.md",
+      "downloadPath": "skills/mail/sending.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mail/sending.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mail/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mail/SKILL.md"
+    }
+  ]
+}

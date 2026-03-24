@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "open-router",
+    "name": "Open Router",
+    "description": "Configure OpenRouter model routing with provider auth, model selection, fallback chains, and cost-aware defaults for stable multi-model workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/open-router",
+    "summary": "Setup On first use, read `setup.md` to align activation boundaries, reliability goals, and routing preferences before making configuration changes. When to Use Use this skill when the user wants to connect an OpenAI-comp",
+    "repositoryPath": "skills/open-router",
+    "manifestPath": "registry/skills/open-router.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/open-router/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/_meta.json"
+    },
+    {
+      "path": "auth-and-provider.md",
+      "downloadPath": "skills/open-router/auth-and-provider.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/auth-and-provider.md"
+    },
+    {
+      "path": "cost-guardrails.md",
+      "downloadPath": "skills/open-router/cost-guardrails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/cost-guardrails.md"
+    },
+    {
+      "path": "fallback-reliability.md",
+      "downloadPath": "skills/open-router/fallback-reliability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/fallback-reliability.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/open-router/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/memory-template.md"
+    },
+    {
+      "path": "routing-playbooks.md",
+      "downloadPath": "skills/open-router/routing-playbooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/routing-playbooks.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/open-router/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/open-router/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/SKILL.md"
+    }
+  ]
+}

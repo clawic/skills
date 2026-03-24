@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "amazon",
+    "name": "Amazon",
+    "description": "Navigate Amazon as buyer, seller, or affiliate with price tracking, listing optimization, and smart purchasing decisions.",
+    "version": "1.0.1",
+    "summary": "Quick Reference | File | Purpose | |------|---------| | `buying.md` | Smart purchasing, comparisons, reorders | | `pricing.md` | Price tracking, deal detection, timing | | `selling.md` | FBA/FBM operations, listing optim",
+    "repositoryPath": "skills/amazon",
+    "manifestPath": "registry/skills/amazon.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/amazon/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/_meta.json"
+    },
+    {
+      "path": "affiliates.md",
+      "downloadPath": "skills/amazon/affiliates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/affiliates.md"
+    },
+    {
+      "path": "buying.md",
+      "downloadPath": "skills/amazon/buying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/buying.md"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/amazon/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/legal.md"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/amazon/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/pricing.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/amazon/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/security.md"
+    },
+    {
+      "path": "selling.md",
+      "downloadPath": "skills/amazon/selling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/selling.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/amazon/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/SKILL.md"
+    }
+  ]
+}

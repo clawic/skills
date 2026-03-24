@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "mobile-app-analytics",
+    "name": "Mobile App Analytics",
+    "description": "Track mobile app metrics with Firebase, App Store Connect, Play Console, retention, funnels, and cohort analysis.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mobile-app-analytics",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/mobile-app-analytics/` if it doesn't exist. When to Use User needs to track, analyze, or optimize mobile app performance metrics. Agent handles Fi",
+    "repositoryPath": "skills/mobile-app-analytics",
+    "manifestPath": "registry/skills/mobile-app-analytics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/mobile-app-analytics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/_meta.json"
+    },
+    {
+      "path": "app-store.md",
+      "downloadPath": "skills/mobile-app-analytics/app-store.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/app-store.md"
+    },
+    {
+      "path": "firebase.md",
+      "downloadPath": "skills/mobile-app-analytics/firebase.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/firebase.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/mobile-app-analytics/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/memory-template.md"
+    },
+    {
+      "path": "metrics.md",
+      "downloadPath": "skills/mobile-app-analytics/metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/metrics.md"
+    },
+    {
+      "path": "play-console.md",
+      "downloadPath": "skills/mobile-app-analytics/play-console.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/play-console.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/mobile-app-analytics/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mobile-app-analytics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/SKILL.md"
+    }
+  ]
+}

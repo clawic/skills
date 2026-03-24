@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "description": "Build type-safe database queries with Drizzle ORM patterns.",
+    "summary": "Schema Definition - Export every table from schema file — queries fail silently if table isn't exported - Use `$inferSelect` for query return types, `$inferInsert` for insert input — they differ (select has defaults fill",
+    "repositoryPath": "skills/drizzle",
+    "manifestPath": "registry/skills/drizzle.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/drizzle/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drizzle/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/drizzle/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drizzle/SKILL.md"
+    }
+  ]
+}

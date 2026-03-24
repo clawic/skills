@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "opentable",
+    "name": "OpenTable",
+    "description": "Guide OpenTable availability, booking flows, and guest messaging with conversion-focused listing, pacing, and incident response playbooks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/opentable",
+    "summary": "Setup On first use, read `setup.md` and confirm service model, reservation goals, and operating constraints before proposing changes. When to Use User needs to operate or improve OpenTable performance for a restaurant, g",
+    "repositoryPath": "skills/opentable",
+    "manifestPath": "registry/skills/opentable.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/opentable/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/_meta.json"
+    },
+    {
+      "path": "incident-response.md",
+      "downloadPath": "skills/opentable/incident-response.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/incident-response.md"
+    },
+    {
+      "path": "listing-optimization.md",
+      "downloadPath": "skills/opentable/listing-optimization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/listing-optimization.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/opentable/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/memory-template.md"
+    },
+    {
+      "path": "reservation-playbook.md",
+      "downloadPath": "skills/opentable/reservation-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/reservation-playbook.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/opentable/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/opentable/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/SKILL.md"
+    }
+  ]
+}

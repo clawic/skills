@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "video-edit",
+    "name": "Video Editing",
+    "description": "Edit videos with AI background removal, color grading, upscaling, stabilization, and enhancement tools.",
+    "summary": "AI Video Editing Help users edit and enhance videos with AI tools. **Rules:** - Ask what edit they need: remove background, color grade, upscale, stabilize, enhance - Check technique files: `background-removal.md`, `colo",
+    "repositoryPath": "skills/video-edit",
+    "manifestPath": "registry/skills/video-edit.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/video-edit/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/_meta.json"
+    },
+    {
+      "path": "audio.md",
+      "downloadPath": "skills/video-edit/audio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/audio.md"
+    },
+    {
+      "path": "background-removal.md",
+      "downloadPath": "skills/video-edit/background-removal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/background-removal.md"
+    },
+    {
+      "path": "color-grading.md",
+      "downloadPath": "skills/video-edit/color-grading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/color-grading.md"
+    },
+    {
+      "path": "effects.md",
+      "downloadPath": "skills/video-edit/effects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/effects.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/video-edit/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/SKILL.md"
+    },
+    {
+      "path": "stabilization.md",
+      "downloadPath": "skills/video-edit/stabilization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/stabilization.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/video-edit/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/tools.md"
+    },
+    {
+      "path": "upscaling.md",
+      "downloadPath": "skills/video-edit/upscaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/upscaling.md"
+    }
+  ]
+}

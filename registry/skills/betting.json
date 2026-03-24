@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "betting",
+    "name": "Betting",
+    "description": "Evaluate betting opportunities with line shopping, bankroll discipline, market checks, and risk filters before any stake is placed.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/betting",
+    "summary": "When to Use Betting questions involving sports, props, parlays, exchanges, or prediction-style tickets where price, edge, and stake size matter. Agent handles market normalization, implied probability math, line comparis",
+    "repositoryPath": "skills/betting",
+    "manifestPath": "registry/skills/betting.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/betting/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/_meta.json"
+    },
+    {
+      "path": "market-checks.md",
+      "downloadPath": "skills/betting/market-checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/market-checks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/betting/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/memory-template.md"
+    },
+    {
+      "path": "red-flags.md",
+      "downloadPath": "skills/betting/red-flags.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/red-flags.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/betting/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/setup.md"
+    },
+    {
+      "path": "sizing.md",
+      "downloadPath": "skills/betting/sizing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/sizing.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/betting/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/SKILL.md"
+    },
+    {
+      "path": "ticket-template.md",
+      "downloadPath": "skills/betting/ticket-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/ticket-template.md"
+    },
+    {
+      "path": "workflow.md",
+      "downloadPath": "skills/betting/workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/workflow.md"
+    }
+  ]
+}

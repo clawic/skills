@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "beszel",
+    "name": "Beszel",
+    "description": "Deploy, secure, and troubleshoot Beszel monitoring with Docker agents, alert tuning, and upgrade-safe operations for self-hosted servers",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/beszel",
+    "summary": "Setup On first use, explain planned local storage in `~/beszel/` and ask for confirmation before creating or updating files. When to Use User needs help planning, deploying, or maintaining Beszel for infrastructure monit",
+    "repositoryPath": "skills/beszel",
+    "manifestPath": "registry/skills/beszel.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/beszel/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/_meta.json"
+    },
+    {
+      "path": "alert-tuning.md",
+      "downloadPath": "skills/beszel/alert-tuning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/alert-tuning.md"
+    },
+    {
+      "path": "deployment-patterns.md",
+      "downloadPath": "skills/beszel/deployment-patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/deployment-patterns.md"
+    },
+    {
+      "path": "diagnostics-playbook.md",
+      "downloadPath": "skills/beszel/diagnostics-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/diagnostics-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/beszel/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/beszel/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/beszel/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/SKILL.md"
+    }
+  ]
+}

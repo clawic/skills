@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cybersecurity",
+    "summary": "When to Use Use when the user needs cybersecurity help across incident triage, threat modeling, control review, vulnerability prioritization, secure design discussions, tabletop prep, or executive-ready risk communicatio",
+    "repositoryPath": "skills/cybersecurity",
+    "manifestPath": "registry/skills/cybersecurity.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/cybersecurity/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cybersecurity/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/memory-template.md"
+    },
+    {
+      "path": "reporting.md",
+      "downloadPath": "skills/cybersecurity/reporting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/reporting.md"
+    },
+    {
+      "path": "safety-boundaries.md",
+      "downloadPath": "skills/cybersecurity/safety-boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/safety-boundaries.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/cybersecurity/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cybersecurity/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/SKILL.md"
+    },
+    {
+      "path": "threat-modeling.md",
+      "downloadPath": "skills/cybersecurity/threat-modeling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/threat-modeling.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/cybersecurity/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/triage.md"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "binance",
+    "name": "Binance API",
+    "description": "Operate Binance Spot APIs through safe REST, WebSocket, and SDK workflows with signed requests, rate-limit control, and testnet-first execution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/binance",
+    "summary": "Binance Spot API Operations Setup On first use, read `setup.md` for integration preferences and safe environment defaults. When to Use User needs to read Binance market data, place or manage Spot orders, or troubleshoot ",
+    "repositoryPath": "skills/binance",
+    "manifestPath": "registry/skills/binance.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/binance/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/_meta.json"
+    },
+    {
+      "path": "auth-signing.md",
+      "downloadPath": "skills/binance/auth-signing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/auth-signing.md"
+    },
+    {
+      "path": "errors-limits.md",
+      "downloadPath": "skills/binance/errors-limits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/errors-limits.md"
+    },
+    {
+      "path": "market-data.md",
+      "downloadPath": "skills/binance/market-data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/market-data.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/binance/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/memory-template.md"
+    },
+    {
+      "path": "quickstart.md",
+      "downloadPath": "skills/binance/quickstart.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/quickstart.md"
+    },
+    {
+      "path": "sdk-cli.md",
+      "downloadPath": "skills/binance/sdk-cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/sdk-cli.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/binance/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/binance/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/SKILL.md"
+    },
+    {
+      "path": "testnet.md",
+      "downloadPath": "skills/binance/testnet.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/testnet.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/binance/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/troubleshooting.md"
+    },
+    {
+      "path": "websocket.md",
+      "downloadPath": "skills/binance/websocket.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/websocket.md"
+    }
+  ]
+}

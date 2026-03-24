@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "affirmations",
+    "name": "Affirmations",
+    "description": "Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.",
+    "summary": "Core Behavior - Deliver affirmations based on user's needs - Help create personalized affirmations - Track practice and what resonates - Create `~/affirmations/` as workspace File Structure ``` ~/affirmations/ ├── my-aff",
+    "repositoryPath": "skills/affirmations",
+    "manifestPath": "registry/skills/affirmations.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/affirmations/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/affirmations/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/SKILL.md"
+    }
+  ]
+}

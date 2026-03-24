@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "heartbeat",
+    "name": "Heartbeat",
+    "description": "Design better OpenClaw HEARTBEAT.md files with adaptive cadence, safe checks, and cron handoffs for precise schedules.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/heartbeat",
+    "summary": "Heartbeat 💓 Build reliable heartbeat playbooks for OpenClaw agents without noisy checks, missed signals, or runaway costs. Setup On first use, follow `setup.md` to capture timezone, active hours, precision needs, and ri",
+    "repositoryPath": "skills/heartbeat",
+    "manifestPath": "registry/skills/heartbeat.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/heartbeat/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/_meta.json"
+    },
+    {
+      "path": "heartbeat-template.md",
+      "downloadPath": "skills/heartbeat/heartbeat-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/heartbeat-template.md"
+    },
+    {
+      "path": "intervals.md",
+      "downloadPath": "skills/heartbeat/intervals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/intervals.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/heartbeat/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/memory-template.md"
+    },
+    {
+      "path": "qa-checklist.md",
+      "downloadPath": "skills/heartbeat/qa-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/qa-checklist.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/heartbeat/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/heartbeat/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/heartbeat/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/sources.md"
+    },
+    {
+      "path": "triggers.md",
+      "downloadPath": "skills/heartbeat/triggers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/triggers.md"
+    },
+    {
+      "path": "use-cases.md",
+      "downloadPath": "skills/heartbeat/use-cases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/use-cases.md"
+    }
+  ]
+}

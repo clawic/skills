@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "speech-to-text-transcription",
+    "name": "Speech to Text Transcription",
+    "description": "Transcribe audio and video files to text with speaker detection, timestamps, and format conversion.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/speech-to-text-transcription",
+    "summary": "Setup On first use, read `setup.md` and start helping with transcription needs. When to Use User has audio or video files that need transcription. Agent handles local files, URLs, voice memos, podcasts, interviews, meeti",
+    "repositoryPath": "skills/speech-to-text-transcription",
+    "manifestPath": "registry/skills/speech-to-text-transcription.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/speech-to-text-transcription/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/speech-to-text-transcription/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/speech-to-text-transcription/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/speech-to-text-transcription/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/SKILL.md"
+    }
+  ]
+}

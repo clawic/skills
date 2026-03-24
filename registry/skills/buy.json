@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "buy",
+    "name": "Buy",
+    "description": "Research purchases, compare prices, detect scams, and negotiate better deals.",
+    "summary": "Triggers Activate on: \"should I buy\", \"is this worth it\", \"is this a good deal\", \"help me find\", \"compare prices\", \"negotiate\", price research requests. **Before acting:** Clarify budget (hard limit vs flexible), timelin",
+    "repositoryPath": "skills/buy",
+    "manifestPath": "registry/skills/buy.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/buy/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/_meta.json"
+    },
+    {
+      "path": "categories.md",
+      "downloadPath": "skills/buy/categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/categories.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/buy/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/SKILL.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/buy/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/sources.md"
+    },
+    {
+      "path": "tactics.md",
+      "downloadPath": "skills/buy/tactics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/tactics.md"
+    }
+  ]
+}

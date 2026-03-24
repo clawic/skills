@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "in-app-purchases",
+    "name": "In-App Purchases",
+    "description": "Implement in-app purchases and subscriptions across iOS, Android, and Flutter with RevenueCat, paywalls, receipt validation, and subscription analytics.",
+    "version": "1.0.0",
+    "summary": "When to Use User needs to implement in-app purchases, subscriptions, paywalls, or monetization flows. Agent handles native APIs (StoreKit 2, Google Play Billing), cross-platform SDKs (RevenueCat, Adapty, Qonversion), pay",
+    "repositoryPath": "skills/in-app-purchases",
+    "manifestPath": "registry/skills/in-app-purchases.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/in-app-purchases/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/_meta.json"
+    },
+    {
+      "path": "analytics.md",
+      "downloadPath": "skills/in-app-purchases/analytics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/analytics.md"
+    },
+    {
+      "path": "flutter.md",
+      "downloadPath": "skills/in-app-purchases/flutter.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/flutter.md"
+    },
+    {
+      "path": "google-play.md",
+      "downloadPath": "skills/in-app-purchases/google-play.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/google-play.md"
+    },
+    {
+      "path": "paywalls.md",
+      "downloadPath": "skills/in-app-purchases/paywalls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/paywalls.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/in-app-purchases/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/platforms.md"
+    },
+    {
+      "path": "revenuecat.md",
+      "downloadPath": "skills/in-app-purchases/revenuecat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/revenuecat.md"
+    },
+    {
+      "path": "server.md",
+      "downloadPath": "skills/in-app-purchases/server.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/server.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/in-app-purchases/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/SKILL.md"
+    },
+    {
+      "path": "storekit.md",
+      "downloadPath": "skills/in-app-purchases/storekit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/storekit.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/in-app-purchases/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/testing.md"
+    }
+  ]
+}

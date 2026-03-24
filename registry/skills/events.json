@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "events",
+    "name": "Events",
+    "description": "Build a personal event system for tracking concerts, conferences, parties, appointments, and everything in between.",
+    "summary": "Core Behavior - User mentions event → offer to track it - User planning event → help organize details - User asks what's coming up → surface relevant events - Create `~/events/` as workspace File Structure ``` ~/events/ ",
+    "repositoryPath": "skills/events",
+    "manifestPath": "registry/skills/events.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/events/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/events/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/SKILL.md"
+    }
+  ]
+}

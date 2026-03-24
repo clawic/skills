@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "vibe-design",
+    "name": "Vibe Design",
+    "description": "Create visual designs with AI tools. Covers prompting for UI/graphics, Midjourney techniques, Figma AI workflow, and iteration patterns.",
+    "version": "1.0.0",
+    "summary": "What is Vibe Design Design where you describe what you want and let AI generate visuals, layouts, and assets. You iterate based on results rather than pixel-pushing from scratch. Same philosophy as vibe coding applied to",
+    "repositoryPath": "skills/vibe-design",
+    "manifestPath": "registry/skills/vibe-design.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/vibe-design/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/_meta.json"
+    },
+    {
+      "path": "figma.md",
+      "downloadPath": "skills/vibe-design/figma.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/figma.md"
+    },
+    {
+      "path": "image-gen.md",
+      "downloadPath": "skills/vibe-design/image-gen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/image-gen.md"
+    },
+    {
+      "path": "prompting.md",
+      "downloadPath": "skills/vibe-design/prompting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/prompting.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/vibe-design/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/SKILL.md"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/vibe-design/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/tools.md"
+    },
+    {
+      "path": "ui-design.md",
+      "downloadPath": "skills/vibe-design/ui-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/ui-design.md"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "google-pay",
+    "name": "Google Pay",
+    "description": "Implement Google Pay for web and Android with tokenization safety, gateway alignment, and production-ready checkout operations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/google-pay",
+    "summary": "Setup On first use, read `setup.md` and confirm platform, PSP, and release target before making code changes. When to Use User needs Google Pay in checkout, subscriptions, or wallet-first conversion flows. Agent handles ",
+    "repositoryPath": "skills/google-pay",
+    "manifestPath": "registry/skills/google-pay.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/google-pay/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/_meta.json"
+    },
+    {
+      "path": "failure-handling.md",
+      "downloadPath": "skills/google-pay/failure-handling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/failure-handling.md"
+    },
+    {
+      "path": "implementation-playbook.md",
+      "downloadPath": "skills/google-pay/implementation-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/implementation-playbook.md"
+    },
+    {
+      "path": "launch-playbook.md",
+      "downloadPath": "skills/google-pay/launch-playbook.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/launch-playbook.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/google-pay/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/memory-template.md"
+    },
+    {
+      "path": "recurring-payments.md",
+      "downloadPath": "skills/google-pay/recurring-payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/recurring-payments.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/google-pay/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/google-pay/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/SKILL.md"
+    },
+    {
+      "path": "validation-checklist.md",
+      "downloadPath": "skills/google-pay/validation-checklist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/validation-checklist.md"
+    }
+  ]
+}

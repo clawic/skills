@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "sysadmin",
+    "name": "Sysadmin",
+    "description": "Manage Linux servers with user administration, process control, storage, and system maintenance.",
+    "summary": "System Administration Rules User Management - Create service accounts with `--system` flag — no home directory, no login shell - `sudo` with specific commands, not blanket ALL — principle of least privilege - Lock accoun",
+    "repositoryPath": "skills/sysadmin",
+    "manifestPath": "registry/skills/sysadmin.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/sysadmin/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sysadmin/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/SKILL.md"
+    }
+  ]
+}

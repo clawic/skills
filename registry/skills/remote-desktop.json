@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "remote-desktop",
+    "name": "Remote Desktop",
+    "description": "Connect to remote desktops via RDP, VNC, and SSH X11 with secure tunneling and troubleshooting.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/remote-desktop",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines and help the user with their question. When to Use User needs remote desktop access to another machine. Agent handles protocol selection, connection commands",
+    "repositoryPath": "skills/remote-desktop",
+    "manifestPath": "registry/skills/remote-desktop.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/remote-desktop/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/_meta.json"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/remote-desktop/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/memory-template.md"
+    },
+    {
+      "path": "protocols.md",
+      "downloadPath": "skills/remote-desktop/protocols.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/protocols.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/remote-desktop/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/remote-desktop/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/SKILL.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/remote-desktop/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/troubleshooting.md"
+    }
+  ]
+}

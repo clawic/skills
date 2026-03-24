@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "trading",
+    "name": "Trading",
+    "description": "Trading analysis and education. Technical analysis, chart patterns, risk management, and position sizing for stocks, forex, and crypto.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/trading",
+    "summary": "Guardrails **On first use:** Show user `legal.md` disclaimers and ask them to acknowledge before continuing. Language Rules **NEVER use:** - \"Buy X\" / \"Sell X\" / \"You should...\" (direct imperatives) - \"I recommend...\" / ",
+    "repositoryPath": "skills/trading",
+    "manifestPath": "registry/skills/trading.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/trading/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/_meta.json"
+    },
+    {
+      "path": "getting-started.md",
+      "downloadPath": "skills/trading/getting-started.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/getting-started.md"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/trading/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/legal.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/trading/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/memory-template.md"
+    },
+    {
+      "path": "platforms.md",
+      "downloadPath": "skills/trading/platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/platforms.md"
+    },
+    {
+      "path": "risk.md",
+      "downloadPath": "skills/trading/risk.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/risk.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/trading/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/trading/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/SKILL.md"
+    },
+    {
+      "path": "technical.md",
+      "downloadPath": "skills/trading/technical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/technical.md"
+    }
+  ]
+}

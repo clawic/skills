@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "analytics",
+    "name": "Analytics",
+    "description": "Deploy privacy-first analytics with correct API patterns, rate limits, and GDPR compliance.",
+    "summary": "Critical Implementation Gotchas **Umami API timestamps**: Use milliseconds, not seconds. `Date.now()` in JS, `int(time.time() * 1000)` in Python. **Plausible API v2**: Requires `site_id` parameter, NOT domain name. Get s",
+    "repositoryPath": "skills/analytics",
+    "manifestPath": "registry/skills/analytics.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/analytics/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analytics/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/analytics/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analytics/SKILL.md"
+    }
+  ]
+}

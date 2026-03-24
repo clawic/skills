@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "designer",
+    "name": "Designer",
+    "description": "Create logos, interfaces, and visual systems with principles of hierarchy, branding, and usability.",
+    "summary": "Design Rules Logo & Brand - Simple enough to work at 16px favicon — complexity disappears at small scale - Recognizable in one color — gradients are enhancements, not crutches - Test on dark and light backgrounds — logos",
+    "repositoryPath": "skills/designer",
+    "manifestPath": "registry/skills/designer.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/designer/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/designer/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/designer/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/designer/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "paddle",
+    "name": "Paddle",
+    "description": "Integrate Paddle payments with subscriptions, webhooks, checkout, and tax compliance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/paddle",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs to integrate Paddle for SaaS payments. Agent handles API calls, webhook verification, checkout setup, subscription management, and ta",
+    "repositoryPath": "skills/paddle",
+    "manifestPath": "registry/skills/paddle.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/paddle/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/_meta.json"
+    },
+    {
+      "path": "api.md",
+      "downloadPath": "skills/paddle/api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/api.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/paddle/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/memory-template.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/paddle/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/paddle/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/SKILL.md"
+    },
+    {
+      "path": "webhooks.md",
+      "downloadPath": "skills/paddle/webhooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/webhooks.md"
+    }
+  ]
+}

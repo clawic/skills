@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "models",
+    "name": "Models",
+    "description": "Choose AI models for coding, reasoning, and agents with cost-aware, task-matched recommendations.",
+    "summary": "AI Model Selection Rules Core Principle - No single model is best for everything — match model to task, not brand loyalty - A $0.75/M model often performs identically to a $40/M model for simple tasks - Test cheaper alte",
+    "repositoryPath": "skills/models",
+    "manifestPath": "registry/skills/models.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/models/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/models/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/SKILL.md"
+    }
+  ]
+}

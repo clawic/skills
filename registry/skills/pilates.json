@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "pilates",
+    "name": "Pilates (Session Planner, Form Coach, Progress Tracker)",
+    "description": "Plan Pilates sessions, refine form, and track steady progress with equipment-aware modifications, core-focused cues, and weekly reviews.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/pilates",
+    "summary": "When to Use User wants Pilates support for mat practice, reformer-informed home work, posture and control drills, recovery-minded training, or a consistent core-focused routine. Agent helps choose the right session mode,",
+    "repositoryPath": "skills/pilates",
+    "manifestPath": "registry/skills/pilates.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pilates/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/_meta.json"
+    },
+    {
+      "path": "form-checks.md",
+      "downloadPath": "skills/pilates/form-checks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/form-checks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/pilates/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/memory-template.md"
+    },
+    {
+      "path": "practice-modes.md",
+      "downloadPath": "skills/pilates/practice-modes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/practice-modes.md"
+    },
+    {
+      "path": "progression-ladder.md",
+      "downloadPath": "skills/pilates/progression-ladder.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/progression-ladder.md"
+    },
+    {
+      "path": "safety-modifications.md",
+      "downloadPath": "skills/pilates/safety-modifications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/safety-modifications.md"
+    },
+    {
+      "path": "session-templates.md",
+      "downloadPath": "skills/pilates/session-templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/session-templates.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/pilates/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/setup.md"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pilates/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/SKILL.md"
+    },
+    {
+      "path": "weekly-review-template.md",
+      "downloadPath": "skills/pilates/weekly-review-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/weekly-review-template.md"
+    }
+  ]
+}
