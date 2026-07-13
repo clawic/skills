@@ -1860,6 +1860,16 @@
       "manifestPath": "registry/skills/copilot.json"
     },
     {
+      "slug": "copywriting",
+      "name": "Copywriting",
+      "description": "Writes persuasive marketing copy across formats, covering tone, structure, clarity, and the discipline of selling benefits rather than features.",
+      "version": "1.0.0",
+      "homepage": "https://clawic.com/skills/copywriting",
+      "summary": "Sell benefits via the so-what ladder (3-5 levels to a felt need); adjectives are unquantified features, swap for a number. Headlines get ~5x the body's readers: write 5-10, lead with specifics. Grade 6-8, edit by ear, final often 40-60% shorter. One CTA per page: warm above the fold, cold after the argument. A/B tests need ~100+ conversions/variant; 10-30% lift is strong, 2-3x is noise.",
+      "repositoryPath": "skills/copywriting",
+      "manifestPath": "registry/skills/copywriting.json"
+    },
+    {
       "slug": "cors",
       "name": "CORS",
       "description": "Configure Cross-Origin Resource Sharing correctly to avoid security issues and debugging pain.",

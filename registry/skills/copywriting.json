@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "copywriting",
+    "name": "Copywriting",
+    "description": "Writes persuasive marketing copy across formats, covering tone, structure, clarity, and the discipline of selling benefits rather than features.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/copywriting",
+    "summary": "Sell benefits via the so-what ladder (3-5 levels to a felt need); adjectives are unquantified features, swap for a number. Headlines get ~5x the body's readers: write 5-10, lead with specifics. Grade 6-8, edit by ear, final often 40-60% shorter. One CTA per page: warm above the fold, cold after the argument. A/B tests need ~100+ conversions/variant; 10-30% lift is strong, 2-3x is noise.",
+    "repositoryPath": "skills/copywriting",
+    "manifestPath": "registry/skills/copywriting.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/copywriting/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copywriting/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/copywriting/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copywriting/SKILL.md"
+    }
+  ]
+}
