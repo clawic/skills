@@ -7004,6 +7004,16 @@
       "manifestPath": "registry/skills/sonoff.json"
     },
     {
+      "slug": "spaced-repetition",
+      "name": "Spaced Repetition",
+      "description": "Scheduling review of material at expanding intervals to optimize long-term retention.",
+      "version": "1.0.0",
+      "homepage": "https://clawic.com/skills/spaced-repetition",
+      "summary": "Retrieval, not re-exposure, is the active ingredient; spaced rereading barely beats massed. First review within 24h where decay is steepest; expanding intervals beat equal. FSRS optimizes to a target retention and beats SM-2 after ~1k reviews; 0.9 default, 0.97 costs ~2x reviews. One atomic fact per card; leeches at 8 lapses mean rewrite or suspend. 10-20 new/day sustainable; daily beats binge.",
+      "repositoryPath": "skills/spaced-repetition",
+      "manifestPath": "registry/skills/spaced-repetition.json"
+    },
+    {
       "slug": "spain",
       "name": "Spain",
       "description": "Discover Spain like a local with specific restaurants, hidden gems, regional tips, and experiences beyond the tourist traps.",

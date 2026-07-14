@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "spaced-repetition",
+    "name": "Spaced Repetition",
+    "description": "Scheduling review of material at expanding intervals to optimize long-term retention.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/spaced-repetition",
+    "summary": "Retrieval, not re-exposure, is the active ingredient; spaced rereading barely beats massed. First review within 24h where decay is steepest; expanding intervals beat equal. FSRS optimizes to a target retention and beats SM-2 after ~1k reviews; 0.9 default, 0.97 costs ~2x reviews. One atomic fact per card; leeches at 8 lapses mean rewrite or suspend. 10-20 new/day sustainable; daily beats binge.",
+    "repositoryPath": "skills/spaced-repetition",
+    "manifestPath": "registry/skills/spaced-repetition.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/spaced-repetition/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/_meta.json"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/spaced-repetition/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/SKILL.md"
+    }
+  ]
+}
