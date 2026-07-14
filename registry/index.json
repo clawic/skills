@@ -7450,6 +7450,16 @@
       "manifestPath": "registry/skills/teacher.json"
     },
     {
+      "slug": "tech-debt",
+      "name": "Technical Debt",
+      "description": "Reckless versus prudent categorization, tracking the inventory, and a payoff cadence that does not freeze delivery.",
+      "version": "1.0.0",
+      "homepage": "https://clawic.com/skills/tech-debt",
+      "summary": "Quadrant that matters is reckless vs prudent; bugs and missing features are not debt. Each item carries interest (carry = time lost x frequency), blast radius (local vs structural), payoff cost (refactor + regression). Pay when fix cost < ~2-3x one quarter's carry. Amortize ~15-25% of capacity per sprint; debt sprints confess failed amortization. Default refactor; strangler fig for wrong seams.",
+      "repositoryPath": "skills/tech-debt",
+      "manifestPath": "registry/skills/tech-debt.json"
+    },
+    {
       "slug": "telegram-bot-api",
       "name": "Telegram Bot API",
       "description": "Build Telegram bots with correct API calls, message formatting, keyboards, and webhook setup.",

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {"owner":"clawic","repo":"skills","branch":"main","registryPath":"registry","skillsPath":"skills"},
+  "skill": {
+    "slug": "tech-debt",
+    "name": "Technical Debt",
+    "description": "Reckless versus prudent categorization, tracking the inventory, and a payoff cadence that does not freeze delivery.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tech-debt",
+    "summary": "Quadrant that matters is reckless vs prudent; bugs and missing features are not debt. Each item carries interest (carry = time lost x frequency), blast radius (local vs structural), payoff cost (refactor + regression). Pay when fix cost < ~2-3x one quarter's carry. Amortize ~15-25% of capacity per sprint; debt sprints confess failed amortization. Default refactor; strangler fig for wrong seams.",
+    "repositoryPath": "skills/tech-debt",
+    "manifestPath": "registry/skills/tech-debt.json"
+  },
+  "files": [
+    {"path":"_meta.json","downloadPath":"skills/tech-debt/_meta.json","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/_meta.json"},
+    {"path":"SKILL.md","downloadPath":"skills/tech-debt/SKILL.md","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/SKILL.md"}
+  ]
+}
