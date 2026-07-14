@@ -5235,6 +5235,16 @@
       "manifestPath": "registry/skills/office.json"
     },
     {
+      "slug": "okr",
+      "name": "OKRs",
+      "description": "Writing objectives and key results, setting cadence, and avoiding common stretch-goal failures.",
+      "version": "1.0.0",
+      "homepage": "https://clawic.com/skills/okr",
+      "summary": "O is qualitative and directional; KR is a measurable outcome, not a task (razor: ship the task, the number didn't move, was it still success?). 3-5 Os, 3-5 KRs per O. 0.7 = green; 1.0 for two quarters = sandbagging. Two-tier commit (1.0, comp) vs stretch (0.7, decoupled). Quarterly cadence, weekly check-in, week-4 reset. Decouple from comp or stretch dies; alignment over cascade past 2 layers.",
+      "repositoryPath": "skills/okr",
+      "manifestPath": "registry/skills/okr.json"
+    },
+    {
       "slug": "ollama",
       "name": "Ollama",
       "description": "Run, tune, and troubleshoot local Ollama models with reliable API patterns, Modelfiles, embeddings, and hardware-aware deployment workflows.",
