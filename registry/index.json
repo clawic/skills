@@ -5217,6 +5217,16 @@
       "manifestPath": "registry/skills/oauth.json"
     },
     {
+      "slug": "observability",
+      "name": "Observability",
+      "description": "Logs, metrics, and traces as complementary signals, high-cardinality dimensions, and the instrumentation budget.",
+      "version": "1.0.0",
+      "homepage": "https://clawic.com/skills/observability",
+      "summary": "Metrics answer is-it-broken, logs answer why, traces answer where; exemplars bridge them. Cardinality multiplies across labels (10x10 = 10^10 series); never label user_id, request_id, IP. Percentiles, not averages, for SLIs. Alert on SLO burn: 14.4x over 1h AND 5m to page, 6x over 6h AND 30m to ticket. Tail-sample to keep 100% of errors; sample at the collector before you pay for storage.",
+      "repositoryPath": "skills/observability",
+      "manifestPath": "registry/skills/observability.json"
+    },
+    {
       "slug": "odoo",
       "name": "Odoo",
       "description": "Operate Odoo across CRM, sales, inventory, purchasing, and accounting with module-aware planning, read-before-write checks, and safe execution.",

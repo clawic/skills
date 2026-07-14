@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "repository": {"owner":"clawic","repo":"skills","branch":"main","registryPath":"registry","skillsPath":"skills"},
+  "skill": {
+    "slug": "observability",
+    "name": "Observability",
+    "description": "Logs, metrics, and traces as complementary signals, high-cardinality dimensions, and the instrumentation budget.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/observability",
+    "summary": "Metrics answer is-it-broken, logs answer why, traces answer where; exemplars bridge them. Cardinality multiplies across labels (10x10 = 10^10 series); never label user_id, request_id, IP. Percentiles, not averages, for SLIs. Alert on SLO burn: 14.4x over 1h AND 5m to page, 6x over 6h AND 30m to ticket. Tail-sample to keep 100% of errors; sample at the collector before you pay for storage.",
+    "repositoryPath": "skills/observability",
+    "manifestPath": "registry/skills/observability.json"
+  },
+  "files": [
+    {"path":"_meta.json","downloadPath":"skills/observability/_meta.json","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/observability/_meta.json"},
+    {"path":"SKILL.md","downloadPath":"skills/observability/SKILL.md","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/observability/SKILL.md"}
+  ]
+}
