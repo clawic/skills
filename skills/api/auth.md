@@ -36,6 +36,20 @@ Implicit flow is legacy: it puts tokens in the URL fragment (leaks via history/r
 - Algorithm confusion: token declares `alg: none` and a permissive library accepts it unsigned — pin the expected algorithm server-side, never read it from the token
 - Decoding a JWT is not verifying it: `jwt.decode()` without the key check accepts anything
 
+## Request Signing (SigV4-style and HMAC schemes)
+
+- The signature covers method + path + query + selected headers + body hash: anything that mutates the request after signing — a proxy adding a header, an SDK re-encoding the body, a redirect changing the path — invalidates it. Sign last; send untouched.
+- Use the provider's signer library. Hand-rolled canonicalization fails on the edges: empty query values, repeated params, unicode in paths, header-case folding — each produces a valid-looking request that 403s.
+- `SignatureDoesNotMatch` with correct credentials usually IS one of those mutations, or clock skew: signed requests reject beyond the provider's window (S3: `RequestTimeTooSkewed`, → `debug.md` Works Locally, Fails in CI/Prod). Fix the clock, not the code.
+- Distinct from webhook HMAC: there the provider signs and you verify (→ `webhooks.md` Verification); the constant-time-comparison law is the same.
+
+## Acting on Behalf of Users (multi-tenant OAuth)
+
+- Store refresh tokens encrypted at rest, keyed by user AND provider account — one user legitimately connects two accounts of the same service.
+- The refresh mutex (OAuth section above) is per stored token, not global — serializing all tenants through one lock turns token refresh into your bottleneck.
+- Treat revocation as a state, not an error: user uninstalls or revokes → refresh fails permanently (`invalid_grant`) → mark the connection broken and prompt re-auth. Retrying is a 401 forever and can trip the provider's abuse detection.
+- Request minimal scopes now; each scope added later forces every existing user through re-consent — plan the scope list like a schema migration.
+
 ## API Keys
 
 - API key in URL gets cached by proxies/CDNs, exposed in logs

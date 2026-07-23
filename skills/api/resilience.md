@@ -1,9 +1,11 @@
 # Resilience Traps
 
+Rate-limit budgeting, 429 handling, and header semantics live in `rate-limits.md`; this file covers retries, timeouts, circuit breakers, outages, and pooling.
+
 ## Retry Logic
 
 - Retry policy by status class: 429/502/503/504 → backoff and retry; 500 → retry only idempotent requests; any other 4xx → never retry, fix the request
-- Backoff formula (canonical: SKILL.md Core Rule 2): `sleep = random(0, min(cap, base × 2^attempt))`, base 1s, cap 30-60s, max 4 retries — full jitter, per the AWS backoff-and-jitter analysis; equal deterministic backoff re-synchronizes clients into a thundering herd
+- Backoff formula (canonical: SKILL.md Core Rule 2): `sleep = random(0, min(cap, base × 2^attempt))`, base 1s, cap 30-60s, max `retry_max` retries (default 4) — full jitter, per the AWS backoff-and-jitter analysis; equal deterministic backoff re-synchronizes clients into a thundering herd
 - `Retry-After` overrides the formula; it arrives as either delta-seconds (`Retry-After: 30`) or an HTTP-date — parse both
 - Retry on POST without an idempotency key = duplicates. Stripe accepts an `Idempotency-Key` header and stores keys for 24h — reuse the same key on every retry of the same logical operation, a fresh key per retry defeats the mechanism
 - Retry budget: cap total time (retries included) below your caller's timeout, or your caller retries you and multiplies traffic
@@ -22,12 +24,12 @@
 - Circuit per host, not per endpoint = one bad endpoint takes down all calls to the service
 - No circuit-state metrics/logging = outages are undebuggable ("why is everything failing instantly with no requests sent?")
 
-## Rate Limiting
+## Provider Outages
 
-- Read the headers before you hit the wall: `X-RateLimit-Remaining` low → slow down preemptively; reacting only to 429 means you already exceeded it
-- `X-RateLimit-Reset` semantics differ per API: epoch seconds (GitHub) vs seconds-until-reset — sleeping "until epoch 1750000000" as a delta is a multi-year sleep; check which one before computing
-- Client-side rate limit without synchronization = N instances each spend the full budget; divide the limit by instance count or centralize the counter
-- Continuing to send after a 429 extends the ban on providers that penalize violations
+- 5xx spike or timeout wave → check the provider's status page before debugging your code; a regional incident shows in your logs only as undifferentiated failures
+- Degrade deliberately: feature-flag each integration so its outage disables one feature, not the app — the flag also gives you a kill switch when YOUR retry traffic is making their incident worse
+- During the outage: queue writes and replay them with idempotency keys (Retry Logic above); serve reads from cache with staleness stated (→ `caching.md`) — never fabricate a fresh-looking answer
+- After recovery, drain the queue with backoff at reduced concurrency: every other client is draining too, and the synchronized flood re-kills the recovering service (same jitter law as SKILL.md Core Rule 2)
 
 ## Error Handling
 

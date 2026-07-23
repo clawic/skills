@@ -11,14 +11,19 @@
   "skill": {
     "slug": "api",
     "name": "api",
-    "description": "REST API reference for 147 services. Authentication patterns, endpoints, rate limits, and common gotchas.",
-    "version": "1.3.6",
+    "description": "Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services. Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403, or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching with ETags, or syncing API data into a local database \u2014 with per-service gotchas and curl examples. Not for designing or building your own API.",
+    "version": "1.3.7",
     "homepage": "https://clawic.com/skills/api",
-    "summary": "API REST API reference documentation. 147 services with authentication, endpoints, and gotchas. Setup On first use, read `setup.md` for usage guidelines. When to Use User asks about integrating a third-party API. This sk",
+    "summary": "REST and GraphQL API reference for 147 services: authentication, endpoints, rate limits, and per-service gotchas, plus pattern playbooks for everything that goes wrong between you and an API. User preferences live in `~/",
     "repositoryPath": "skills/api",
     "manifestPath": "registry/skills/api.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/api/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/api/_meta.json",
@@ -105,9 +110,24 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/support.md"
     },
     {
+      "path": "async-jobs.md",
+      "downloadPath": "skills/api/async-jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/async-jobs.md"
+    },
+    {
       "path": "auth.md",
       "downloadPath": "skills/api/auth.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/auth.md"
+    },
+    {
+      "path": "browser.md",
+      "downloadPath": "skills/api/browser.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/browser.md"
+    },
+    {
+      "path": "caching.md",
+      "downloadPath": "skills/api/caching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/caching.md"
     },
     {
       "path": "credentials.md",
@@ -115,9 +135,34 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/credentials.md"
     },
     {
+      "path": "data-formats.md",
+      "downloadPath": "skills/api/data-formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/data-formats.md"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/api/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/debug.md"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/api/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/files.md"
+    },
+    {
+      "path": "graphql.md",
+      "downloadPath": "skills/api/graphql.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/graphql.md"
+    },
+    {
       "path": "pagination.md",
       "downloadPath": "skills/api/pagination.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/pagination.md"
+    },
+    {
+      "path": "rate-limits.md",
+      "downloadPath": "skills/api/rate-limits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/rate-limits.md"
     },
     {
       "path": "resilience.md",
@@ -130,9 +175,24 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/setup.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md"
+      "path": "streaming.md",
+      "downloadPath": "skills/api/streaming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/streaming.md"
+    },
+    {
+      "path": "sync.md",
+      "downloadPath": "skills/api/sync.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/sync.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/api/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/testing.md"
+    },
+    {
+      "path": "versioning.md",
+      "downloadPath": "skills/api/versioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/versioning.md"
     },
     {
       "path": "webhooks.md",
