@@ -20,8 +20,8 @@ Package-manager downloads survive across builds without bloating any layer — t
 
 ## Multi-Stage
 
-- `--from=builder` with a typo silently copies from the wrong stage — no error if the path happens to exist there.
-- `COPY --from=0` means the first stage by position; reorder stages and every numeric `--from` silently points elsewhere. Always name stages.
+- `--from=builder` with a typo copies from the wrong stage with no error — no error if the path happens to exist there.
+- `COPY --from=0` means the first stage by position; reorder stages and every numeric `--from` points elsewhere with no error. Always name stages.
 - Stages don't share step cache with each other; a change in the builder stage doesn't invalidate the runtime stage unless copied artifacts change.
 - Files copied between stages keep ownership from the source stage — `COPY --from=builder --chown=10001:10001` for the non-root runtime user.
 

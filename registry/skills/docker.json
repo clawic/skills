@@ -11,18 +11,28 @@
   "skill": {
     "slug": "docker",
     "name": "docker",
-    "description": "Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use when (1) the task touches Docker, Dockerfiles, images, containers, or Compose; (2) build reliability, runtime behavior, logs, ports, volumes, or security matter; (3) the agent needs Docker guidance and should apply it by default.",
-    "version": "1.0.6",
+    "description": "Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.",
+    "version": "1.0.7",
     "homepage": "https://clawic.com/skills/docker",
-    "summary": "When to Use Use when the task involves Docker, Dockerfiles, container builds, Compose, image publishing, networking, volumes, logs, debugging, or production container operations. This skill is stateless and should be app",
+    "summary": "User preferences and memory live in `~/Clawic/data/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/",
     "repositoryPath": "skills/docker",
     "manifestPath": "registry/skills/docker.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/docker/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/docker/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/_meta.json"
+    },
+    {
+      "path": "ci.md",
+      "downloadPath": "skills/docker/ci.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/ci.md"
     },
     {
       "path": "commands.md",
@@ -35,19 +45,29 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/compose.md"
     },
     {
+      "path": "debug.md",
+      "downloadPath": "skills/docker/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/debug.md"
+    },
+    {
       "path": "images.md",
       "downloadPath": "skills/docker/images.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/images.md"
     },
     {
-      "path": "infrastructure.md",
-      "downloadPath": "skills/docker/infrastructure.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/infrastructure.md"
-    },
-    {
       "path": "memory-template.md",
       "downloadPath": "skills/docker/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/memory-template.md"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/docker/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/networking.md"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/docker/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/production.md"
     },
     {
       "path": "security.md",
@@ -60,9 +80,9 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/setup.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/docker/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md"
+      "path": "storage.md",
+      "downloadPath": "skills/docker/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/storage.md"
     }
   ]
 }

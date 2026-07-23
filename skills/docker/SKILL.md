@@ -1,10 +1,10 @@
 ---
 name: docker
 slug: docker
-version: 1.0.6
-description: Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use when (1) the task touches Docker, Dockerfiles, images, containers, or Compose; (2) build reliability, runtime behavior, logs, ports, volumes, or security matter; (3) the agent needs Docker guidance and should apply it by default.
+version: 1.0.7
+description: Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.
 homepage: https://clawic.com/skills/docker
-changelog: Deeper build, debug, and production guidance
+changelog: "Complete coverage map: debugging, networking, storage, production, and CI guides"
 metadata:
   clawdbot:
     emoji: 🐳
@@ -17,14 +17,14 @@ metadata:
     - win32
     displayName: Docker
     configPaths:
-    - ~/clawic/docker/
+    - ~/Clawic/data/docker/
 ---
 
-User preferences and memory live in `~/clawic/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at the old `~/docker/` location, move it to `~/clawic/docker/`.
+User preferences and memory live in `~/Clawic/data/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/Clawic/data/docker/`.
 
 ## Configuration
 
-User-dependent variables. Defaults apply until the user states a preference; store them in `~/clawic/docker/config.yaml`.
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/docker/config.yaml`.
 
 | Variable | Type | Default | Effect |
 |---|---|---|---|
@@ -55,7 +55,7 @@ Preference areas to record as the user reveals them:
 | Container exits instantly | `docker logs <id>` (works on dead containers), then `docker inspect -f '{{.State.ExitCode}} {{.State.OOMKilled}}'` |
 | Exit code 137 | `OOMKilled=true` → raise `-m` or fix the leak; `false` → external SIGKILL, usually stop-timeout expiry (rule 4) |
 | Host can't reach container | App must bind `0.0.0.0` inside the container AND the port must be published |
-| Container can't reach host | `host.docker.internal` (`infrastructure.md` for the Linux flag) |
+| Container can't reach host | `host.docker.internal` (`networking.md` for the Linux flag) |
 | Containers can't resolve each other | They are on the default bridge — DNS only works on user-defined networks |
 | Build slow or cache always misses | Layer order (deps before code) + `.dockerignore` → `images.md` |
 | Disk filling up | `docker system df -v` to locate the leak, then targeted prune (→ Disk Leaks) |
@@ -63,11 +63,11 @@ Preference areas to record as the user reveals them:
 | `exec format error` | CPU architecture mismatch (arm64 image on amd64 host or vice versa) — build with `--platform` |
 | Anything else | Reproduce with a minimal `docker run`, then re-add flags one at a time until it breaks |
 
-Depth on demand: `commands.md` incident commands · `images.md` build and cache · `compose.md` Compose · `infrastructure.md` networking, volumes, resources · `security.md` hardening.
+Depth on demand: `debug.md` symptom→cause playbooks · `commands.md` incident toolkit · `images.md` build and cache · `compose.md` Compose · `networking.md` reachability, DNS, firewall, MTU · `storage.md` volumes, mounts, backup · `production.md` daemon config, deploys, monitoring · `security.md` hardening and secrets · `ci.md` cache, tagging, multi-arch.
 
 ## Core Rules
 
-1. **Pin what you can't afford to re-debug.** Dev: minor tag (`python:3.11-slim`). Prod and CI: digest (`python@sha256:...`) — tags are mutable, digests are not. Example failure: `latest` silently jumps a major version and the build breaks a month after you last touched it.
+1. **Pin what you can't afford to re-debug.** Dev: minor tag (`python:3.11-slim`). Prod and CI: digest (`python@sha256:...`) — tags are mutable, digests are not. Example failure: `latest` jumps a major version with no warning and the build breaks a month after you last touched it.
 2. **Order layers by change frequency.** Dependency manifest → install → source code. `COPY . .` before the install step invalidates the dependency cache on every code edit — the single largest build-time waste in real projects.
 3. **`apt-get update && apt-get install -y pkg` in one RUN.** Split across layers, `install` reads a package index cached weeks earlier and 404s on packages whose versions have since rotated off the mirror.
 4. **Exec-form CMD; respect PID 1.** Shell form (`CMD npm start`) makes `sh` PID 1; it does not forward SIGTERM, so every `docker stop` hangs the full grace period (default 10s) and then SIGKILLs — in-flight writes lost. Use `CMD ["npm","start"]` or `--init`.

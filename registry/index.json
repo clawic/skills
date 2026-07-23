@@ -2361,11 +2361,11 @@
     },
     {
       "slug": "docker",
-      "name": "Docker",
-      "description": "Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use when (1) the task touches Docker, Dockerfiles, images, containers, or Compose; (2) build reliability, runtime behavior, logs, ports, volumes, or security matter; (3) the agent needs Docker guidance and should apply it by default.",
-      "version": "1.0.6",
+      "name": "docker",
+      "description": "Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.",
+      "version": "1.0.7",
       "homepage": "https://clawic.com/skills/docker",
-      "summary": "When to Use Use when the task involves Docker, Dockerfiles, container builds, Compose, image publishing, networking, volumes, logs, debugging, or production container operations. This skill is stateless and should be app",
+      "summary": "User preferences and memory live in `~/Clawic/data/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/",
       "repositoryPath": "skills/docker",
       "manifestPath": "registry/skills/docker.json"
     },

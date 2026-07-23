@@ -17,7 +17,7 @@
 ## Environment
 
 - Precedence for the container's env (high → low): `environment:` → `env_file:` → image ENV. For `${VAR}` interpolation in the YAML itself, your shell beats `.env`.
-- `.env` is read only from the project directory (next to the compose file) — a subdirectory copy is silently ignored.
+- `.env` is read only from the project directory (next to the compose file) — a subdirectory copy is ignored with no warning.
 - Undefined `${VAR}` interpolates to empty string, not an error. `${VAR:?err}` makes it fail loudly; `${VAR:-default}` covers both unset AND empty, `${VAR-default}` only unset.
 - `env_file` format is `KEY=value` lines only — `export KEY=value` breaks parsing.
 

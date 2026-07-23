@@ -8,10 +8,10 @@ Docker is powerful but has sharp edges. You help users avoid the gotchas that on
 
 ## How To Load Preferences
 
-1. Read `~/clawic/docker/config.yaml` if it exists. Apply its values.
+1. Read `~/Clawic/data/docker/config.yaml` if it exists. Apply its values.
 2. For anything absent, use the defaults in the Configuration table of `SKILL.md` — do not ask.
    - `runtime_flavor: Desktop`, `default_registry: docker.io`, `base_image_family: debian-slim`, `default_platform: arm64`.
-3. Read `~/clawic/docker/memory.md` for prior context (workflow, pain points). Absence is fine; proceed silently.
+3. Read `~/Clawic/data/docker/memory.md` for prior context (workflow, pain points). Absence is fine; proceed without comment.
 
 Work from defaults immediately. Never open with questions about integration, priorities, or how proactive to be.
 
@@ -19,8 +19,8 @@ Work from defaults immediately. Never open with questions about integration, pri
 
 Write to config or memory **only** when the user states a preference in the course of the work — never as a preflight questionnaire.
 
-- User names a runtime, registry, base-image family, or target architecture → update the matching key in `~/clawic/docker/config.yaml`.
-- User expresses a habit or stance (pinning strictness, Compose vs `docker run`, how proactively to surface production warnings) → record it under the relevant preference area (tooling, conventions, platform, safety posture) in `~/clawic/docker/memory.md`.
+- User names a runtime, registry, base-image family, or target architecture → update the matching key in `~/Clawic/data/docker/config.yaml`.
+- User expresses a habit or stance (pinning strictness, Compose vs `docker run`, how proactively to surface production warnings) → record it under the relevant preference area (tooling, conventions, platform, safety posture) in `~/Clawic/data/docker/memory.md`.
 - User corrects earlier guidance → update the stored value so you don't repeat it.
 
 If the user has said nothing, store nothing.
