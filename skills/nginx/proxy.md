@@ -1,42 +1,78 @@
-# Proxy Traps
+# Reverse Proxy: Traps and Diagnosis
 
-## proxy_pass URL
+## 502 vs 504 (decide before touching config)
 
-- `proxy_pass http://backend` (no slash) — preserves `/api/users` → `/api/users`
-- `proxy_pass http://backend/` (with slash) — replaces `/api/users` → `/users`
-- Mixing `location /api/` with `proxy_pass http://x/v1` = unexpected paths
-- Variables in proxy_pass (`$uri`) completely change the behavior
+- 502 Bad Gateway = nginx reached a conclusion fast: connection refused, reset, or a malformed/oversized response. Look for `connect() failed`, `no live upstreams`, `upstream prematurely closed`, or `upstream sent too big header` in the error log.
+- 504 Gateway Timeout = nginx waited out `proxy_read_timeout` (default 60s). The backend is alive but slow — raising the timeout hides the symptom; profile the endpoint.
+- `upstream sent too big header` → raise `proxy_buffer_size` (default 4k/8k, one memory page). Common with large cookies or JWT-stuffed headers; 16k usually suffices.
+- Timeout defaults all 60s: `proxy_connect_timeout` (cap it at 2-5s — 60s to learn a host is down is absurd), `proxy_read_timeout`, `proxy_send_timeout`. read_timeout is between successive reads, not total response time.
 
-## Headers
+## The DNS Trap (dynamic backends, Docker, K8s)
 
-- `proxy_set_header Host $host` — without this, the backend receives the proxy's IP as Host
-- `Host $http_host` includes the port — `Host $host` doesn't
-- `X-Forwarded-For` is overwritten, not appended — use `$proxy_add_x_forwarded_for`
-- Headers with an underscore `_` are ignored by default — `underscores_in_headers on` to allow
+`proxy_pass http://api.internal:3000;` resolves ONCE at config load and caches forever. Backend gets a new IP (container restart, autoscaling, blue/green) → nginx keeps hitting the corpse → 502s until reload.
+
+Fix — variable forces runtime resolution:
+
+```nginx
+resolver 127.0.0.11 valid=10s;   # Docker's embedded DNS; use your VPC resolver otherwise
+set $upstream http://api.internal:3000;
+proxy_pass $upstream;
+```
+
+- `valid=10s` overrides record TTL; without `resolver`, variable-based proxy_pass fails at request time.
+- Cost: variable form skips `upstream` blocks — no keepalive pool, no load-balancing directives. If you need both, reload nginx on deploys instead.
+- With a URI-rewriting need in variable form, append explicitly: `proxy_pass $upstream$request_uri;`.
+
+## Keepalive to Upstreams (the silent no-op)
+
+All three or nothing:
+
+```nginx
+upstream backend { server 10.0.0.2:3000; keepalive 32; }
+location / {
+    proxy_http_version 1.1;          # default is 1.0 — no keepalive
+    proxy_set_header Connection "";  # default forwards "close"
+    proxy_pass http://backend;
+}
+```
+
+Symptom of the missing pieces: works fine, but TIME_WAIT sockets pile up and TLS upstreams show handshake CPU. `keepalive 32` = idle conns kept per worker; size it near your steady concurrent request count per worker, not your total.
 
 ## WebSocket
 
-- Missing `proxy_http_version 1.1` = WebSocket fails silently
-- `Connection "upgrade"` must be a literal string, not a variable
-- Default 60s timeout kills idle WebSocket connections — raise `proxy_read_timeout`
-- Multiple proxies in a chain = each one needs the upgrade headers
+```nginx
+map $http_upgrade $connection_upgrade { default upgrade; '' close; }
+location /ws/ {
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $connection_upgrade;
+    proxy_pass http://backend;
+    proxy_read_timeout 3600s;
+}
+```
 
-## Buffering
+- Missing `proxy_http_version 1.1` = handshake fails, often reported as "WebSocket closes immediately".
+- The `map` (vs hardcoded `Connection "upgrade"`) lets the same location serve normal HTTP and WS.
+- Idle sockets die at `proxy_read_timeout` (60s default) — either raise it or have the app ping more often than the timeout.
+- Every proxy hop in a chain (CDN → LB → nginx) needs the upgrade headers; the failure point is whichever hop forgot.
+- Reload keeps old workers alive until WS connections close — bound with `worker_shutdown_timeout`.
 
-- `proxy_buffering on` (default) — full response before sending to the client
-- With buffering, streaming responses don't work — SSE, chunked encoding broken
-- `X-Accel-Buffering: no` header from the backend can disable it — but doesn't always work
-- Buffer too small + large response = writes to temporary disk
+## Buffering & Streaming
 
-## Timeouts
+- `proxy_buffering on` (default) buffers the whole response before the client sees byte one. Correct for normal pages; fatal for SSE and streamed responses ("events arrive in one lump at the end").
+- Streaming location: `proxy_buffering off;` + long `proxy_read_timeout` + ensure no `proxy_cache` on the route. Also disable response buffering in any second proxy layer.
+- Per-response alternative: backend sends `X-Accel-Buffering: no` header — works with buffering globally on, keeps the default for everything else. Prefer this when only some endpoints stream.
+- Buffering on + response larger than `proxy_buffers` = spill to disk temp files (`proxy_max_temp_file_size`, default 1024m). Watch for `an upstream response is buffered to a temporary file` warnings — that's disk I/O on your hot path.
 
-- `proxy_connect_timeout` default 60s — too long to detect a downed backend
-- Slow backend + low `proxy_read_timeout` = frequent 504s
-- A timeout in nginx doesn't cancel the request on the backend — it keeps processing
+## Retries & Failover
 
-## Upstream
+- `proxy_next_upstream error timeout;` (default) retries the next server on connect failure/timeout. Since nginx >=1.9.13, non-idempotent methods (POST, PATCH, LOCK) are NOT retried — adding `non_idempotent` reintroduces double-charge/double-write risk; only for endpoints with idempotency keys.
+- `proxy_next_upstream_tries 2` and `proxy_next_upstream_timeout 10s` bound the retry storm; unbounded retries across a large upstream pool turn one slow request into N.
+- `fail_timeout=10s max_fails=3`: 3 failures within 10s bans the server for 10s (same value, both roles). During the ban with all servers down → `no live upstreams` → instant 502 without even trying.
+- `ip_hash` hashes only the first three octets of IPv4 — clients behind one /24 (corporate NAT) all land on one server. `hash $cookie_sessionid consistent` or `least_conn` distribute better when sessions allow.
 
-- Upstream server without a port = implicit port 80
-- `max_fails=0` disables health checks — server never marked down
-- `fail_timeout` is DOUBLE: the counting period AND the ban time
-- Round-robin ignores weight if only 1 server is up
+## Header Details
+
+- `Host $host` vs `Host $http_host`: `$host` strips the port and lowercases; apps generating absolute URLs on nonstandard ports need `$http_host`.
+- `X-Forwarded-For` handling: `$proxy_add_x_forwarded_for` appends; writing `$remote_addr` overwrites the chain. Appending means the value is client-controlled — backends must take the LAST trusted hop, not the first entry.
+- Response header `X-Accel-Redirect` from the backend triggers an internal redirect to a protected location — the pattern for auth-gated file downloads (`internal;` on the file location).
