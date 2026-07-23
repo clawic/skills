@@ -1,13 +1,29 @@
 # Generic Traps
 
-- `useState<User>()` infers `User | undefined` — handle the initial undefined
-- `Array.filter(x => x.active)` doesn't narrow — needs a type guard: `.filter((x): x is Active => x.active)`
-- `Promise.all([a(), b()])` infers a tuple only with `as const`
-- `<T = any>` leaks the `any` into the rest of the code
-- `<T extends object>` allows arrays — use `Record<string, unknown>` for objects
-- `<T extends string>` with a literal infers `string`, not the literal
-- `keyof T` in a generic function is `string | number | symbol`
-- Arrays are covariant — `Dog[]` assignable to `Animal[]` but pushing a Cat breaks at runtime
-- Function params are contravariant — `(Animal) => void` is NOT assignable to `(Dog) => void`
-- `{ [K in keyof T]: X }` loses modifiers — use `-?` or `-readonly`
-- `Partial<T>` and `Required<T>` are shallow — they don't affect nested ones
+## Inference
+
+- `useState<User>()` is `[User | undefined, ...]` — React's overload adds `undefined` for the missing initial value; pass an initial value or handle the undefined
+- `<T = any>` as a default leaks `any` into every unparameterized call — default to `unknown` or a concrete safe type
+- A literal object argument widens: `f({ mode: "dark" })` infers `{ mode: string }`. Fixes by version: `as const` on the argument (any TS), or `function f<const T>(x: T)` (TS >=5.0) so every call site keeps literals
+- No partial type argument inference: `fn<Explicit, ???>` disables inference for ALL remaining params — curried two-call pattern: `makeClient<Api>()(config)` fixes `Api`, infers the config type
+- `NoInfer<T>` (TS >=5.4): mark positions that must check against T, not contribute to it — `function fill<T>(vals: T[], fallback: NoInfer<T>)` makes a wrong fallback error instead of widening T to a union
+
+## Constraints
+
+- `<T extends object>` admits arrays, functions, and class instances — for plain records constrain to `Record<string, unknown>`
+- `keyof T` in a generic body is `string | number | symbol` until T is constrained — `<T extends Record<string, unknown>>` gets you `string` keys
+- `infer S extends string` (TS >=4.7) constrains inside conditional types — avoids a second nested conditional just to check the inferred type
+
+## Variance
+
+- Arrays are covariant by fiat: `Dog[]` assigns to `Animal[]`, then `animals.push(cat)` corrupts it at runtime — accept `readonly Animal[]` when you only read
+- Function parameters are contravariant under `strictFunctionTypes`: `(a: Animal) => void` is NOT assignable where `(d: Dog) => void` is expected
+- Method shorthand is exempt: `on(e: E): void` in an interface checks bivariantly EVEN with strictFunctionTypes — declare callbacks as properties, `on: (e: E) => void`, to get real contravariance checks
+- `in`/`out` annotations (TS >=4.7) declare variance explicitly — use on recursive generic interfaces where inference of variance is slow or wrong
+
+## Conditional & Mapped Types
+
+- Naked `T` in `T extends U ? X : Y` distributes over unions: `Exclude`-style behavior whether you wanted it or not — wrap both sides `[T] extends [U]` to compare the union as one type
+- `{ [K in keyof T]: X }` copies `?` and `readonly` modifiers; to strip them you need `-?` / `-readonly` explicitly
+- Recursive conditional types hit the compiler's instantiation depth limit — rewrite with an accumulator parameter so the recursion is in tail position (TS >=4.5 eliminates tail calls), e.g. `Split<S, Acc extends string[] = []>`
+- `Partial<T>` and `Required<T>` are shallow — nested objects keep their original optionality (→ utility-types.md)
