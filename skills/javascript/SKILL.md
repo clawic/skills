@@ -1,8 +1,14 @@
 ---
-name: JavaScript
+name: javascript
 slug: javascript
-version: 1.0.3
+version: 1.0.4
+changelog: Translated remaining reference content to English
 description: Write robust JavaScript with async patterns, type coercion handling, and modern ES2023+ features.
+homepage: https://clawic.com/skills/javascript
+metadata:
+  clawdbot:
+    emoji: 🟨
+    displayName: JavaScript
 ---
 
 ## When to Use

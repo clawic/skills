@@ -1,15 +1,15 @@
 # Modern JS Traps
 
-- `obj?.method()` vs `obj.method?.()` — primero chequea obj, segundo method
-- `a?.b.c` throws si a.b es null — solo cortocircuita cadena derecha
-- `??=` solo asigna si null/undefined — no falsy
-- No mezclar `??` con `&&`/`||` sin paréntesis — syntax error
-- Destructuring default solo undefined, no null — `{a=1}={a:null}` → a es null
+- `obj?.method()` vs `obj.method?.()`: the first checks obj, the second method
+- `a?.b.c` throws if a.b is null: only short-circuits the right side of the chain
+- `??=` only assigns if null/undefined: not falsy
+- Don't mix `??` with `&&`/`||` without parentheses, syntax error
+- Destructuring default only for undefined, not null: `{a=1}={a:null}` → a is null
 - Nested destructuring — `{a:{b}}={a:null}` throws
-- `this` antes de `super()` — error en constructor
-- Private `#field` accesibles con devtools — no realmente privados
-- `class` no hoistea — reference error si usas antes de declarar
-- Circular imports — pueden dar undefined, depende de orden
-- `import *` objeto frozen — no puedes modificar exports
-- `structuredClone()` no clona funciones — throws error
-- Top-level await solo en modules — scripts normales syntax error
+- `this` before `super()`: error in the constructor
+- Private `#field` accessible via devtools: not really private
+- `class` doesn't hoist: reference error if you use it before declaring
+- Circular imports: can yield undefined, depends on order
+- `import *` frozen object: you can't modify exports
+- `structuredClone()` doesn't clone functions: throws an error
+- Top-level await only in modules: normal scripts throw a syntax error

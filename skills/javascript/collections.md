@@ -1,15 +1,15 @@
 # Collection Traps
 
-- `sort()` muta el original — y sin comparador es lexicográfico: [10, 2, 1]
-- `reverse()` muta — usar `toReversed()` (ES2023) para copia
-- `splice()` muta Y devuelve removidos — confusión de return
-- `find()` devuelve undefined — igual que elemento undefined en array
-- `indexOf()` con NaN devuelve -1 — NaN !== NaN, usar `includes()`
-- `filter(Boolean)` remueve falsy — incluyendo 0 y "" que querías
-- `[...array]` es shallow — objetos anidados comparten referencia
-- `structuredClone()` deep pero no clona funciones, DOM nodes
-- JSON parse/stringify pierde undefined, functions, Dates
-- `for...in` incluye heredados — usar `Object.keys()` o `for...of`
-- `delete obj.prop` es lento — asignar undefined si no importa
-- `obj[key]` con key object — se convierte a "[object Object]"
-- Set de objetos compara por referencia — {a:1} !== {a:1}
+- `sort()` mutates the original: and without a comparator it's lexicographic: [10, 2, 1]
+- `reverse()` mutates: use `toReversed()` (ES2023) for a copy
+- `splice()` mutates AND returns the removed items: return confusion
+- `find()` returns undefined: same as an undefined element in the array
+- `indexOf()` with NaN returns -1: NaN !== NaN, use `includes()`
+- `filter(Boolean)` removes falsy: including the 0 and "" you wanted
+- `[...array]` is shallow: nested objects share a reference
+- `structuredClone()` is deep but doesn't clone functions, DOM nodes
+- JSON parse/stringify loses undefined, functions, Dates
+- `for...in` includes inherited keys: use `Object.keys()` or `for...of`
+- `delete obj.prop` is slow: assign undefined if it doesn't matter
+- `obj[key]` with an object key: gets converted to "[object Object]"
+- A Set of objects compares by reference: {a:1} !== {a:1}

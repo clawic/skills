@@ -1,16 +1,16 @@
 # Coercion Traps
 
-- `[] == false` es true — array → "" → 0
-- `null == undefined` es true — pero `null === undefined` false
-- `NaN !== NaN` — usar `Number.isNaN(x)` para detectar
-- `{} == {}` es false — objetos comparan por referencia
-- `0` y `""` son falsy — `if (count)` falla cuando count es 0
-- `"0"` es truthy pero `"0" == false` — ambos true
-- `??` solo null/undefined — `0 ?? default` devuelve 0
-- `||` cualquier falsy — `0 || default` devuelve default
-- `?.` devuelve undefined, no null — APIs que esperan null fallan
-- `"" + {}` vs `{} + ""` — segundo es 0, parsed como bloque vacío
-- `String(Symbol())` ok — pero `"" + Symbol()` throws
-- `Number("")` es 0 — probablemente no lo que querías
-- `1 + "2"` es "12" pero `1 - "2"` es -1 — + concatena, - coerce
-- `[1,2] + [3,4]` es "1,23,4" — arrays a strings
+- `[] == false` is true: array → "" → 0
+- `null == undefined` is true: but `null === undefined` is false
+- `NaN !== NaN`: use `Number.isNaN(x)` to detect it
+- `{} == {}` is false: objects compare by reference
+- `0` and `""` are falsy: `if (count)` fails when count is 0
+- `"0"` is truthy but `"0" == false`: both true
+- `??` only null/undefined: `0 ?? default` returns 0
+- `||` any falsy, `0 || default` returns default
+- `?.` returns undefined, not null: APIs expecting null fail
+- `"" + {}` vs `{} + ""`: the second is 0, parsed as an empty block
+- `String(Symbol())` ok: but `"" + Symbol()` throws
+- `Number("")` is 0: probably not what you wanted
+- `1 + "2"` is "12" but `1 - "2"` is -1: + concatenates, - coerces
+- `[1,2] + [3,4]` is "1,23,4": arrays to strings
