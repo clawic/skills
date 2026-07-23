@@ -11,14 +11,19 @@
   "skill": {
     "slug": "nodejs",
     "name": "nodejs",
-    "description": "Write reliable Node.js avoiding event loop blocking, async pitfalls, ESM gotchas, and memory leaks.",
-    "version": "1.0.2",
+    "description": "Write and debug production Node.js: event loop blocking, promise pitfalls, ESM/CJS interop, stream backpressure, memory leaks. Use when writing, reviewing, or debugging Node.js code, npm packages, or server performance.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/nodejs",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Callbacks, Promises, async/await, event loop | `async.md` | | CommonJS vs ESM, require vs import | `modules.md` | | Error handling, uncaught exceptions | `errors.md` | ",
+    "summary": "When To Use - Writing or reviewing Node.js services, CLIs, or libraries - Debugging a Node process: hangs, crashes, growing memory, slow endpoints, import errors - Configuring npm installs, lockfiles, dependency updates,",
     "repositoryPath": "skills/nodejs",
     "manifestPath": "registry/skills/nodejs.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nodejs/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/nodejs/_meta.json",
@@ -53,11 +58,6 @@
       "path": "security.md",
       "downloadPath": "skills/nodejs/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/security.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/nodejs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/SKILL.md"
     },
     {
       "path": "streams.md",

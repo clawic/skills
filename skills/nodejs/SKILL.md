@@ -1,13 +1,13 @@
 ---
 name: nodejs
 slug: nodejs
-version: 1.0.2
+version: 1.0.3
 description: >-
   Write and debug production Node.js: event loop blocking, promise pitfalls,
   ESM/CJS interop, stream backpressure, memory leaks. Use when writing,
   reviewing, or debugging Node.js code, npm packages, or server performance.
 homepage: https://clawic.com/skills/nodejs
-changelog: Deeper runtime patterns and performance guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 💚
