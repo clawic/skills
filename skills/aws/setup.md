@@ -23,7 +23,7 @@ Three questions, each changing the architecture:
 
 ### 3. Finally: Establish Defaults
 
-Record in `~/clawic/aws/memory.md`:
+Record in `~/Clawic/data/aws/memory.md`:
 - Primary region (never assume us-east-1 — ask once, write it down)
 - Tagging convention (minimum: Environment, Project, Owner — Rule 6)
 - Budget + alert threshold in dollars

@@ -697,11 +697,11 @@
     },
     {
       "slug": "aws",
-      "name": "AWS | Amazon Web Services",
-      "description": "Architect, deploy, and optimize AWS infrastructure avoiding cost explosions and security pitfalls.",
-      "version": "1.0.3",
+      "name": "aws",
+      "description": "Architect, deploy, and optimize AWS infrastructure \u2014 service selection, cost control, security hardening. Use when the user mentions AWS, EC2, S3, Lambda, RDS, VPC, IAM, CloudFront, DynamoDB, or a surprise cloud bill.",
+      "version": "1.0.4",
       "homepage": "https://clawic.com/skills/aws",
-      "summary": "Setup On first use, read `setup.md` for integration options. The skill works immediately \u2014 setup is optional for personalization. When to Use User needs AWS infrastructure guidance. Agent handles architecture decisions, ",
+      "summary": "Working data lives in `~/Clawic/data/aws/` \u2014 account context, resource inventory, cost notes. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`. Setup On first use, read `",
       "repositoryPath": "skills/aws",
       "manifestPath": "registry/skills/aws.json"
     },

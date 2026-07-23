@@ -1,13 +1,13 @@
 ---
 name: aws
 slug: aws
-version: 1.0.3
+version: 1.0.4
 description: >-
   Architect, deploy, and optimize AWS infrastructure — service selection, cost control,
   security hardening. Use when the user mentions AWS, EC2, S3, Lambda, RDS, VPC, IAM,
   CloudFront, DynamoDB, or a surprise cloud bill.
 homepage: https://clawic.com/skills/aws
-changelog: Deeper service selection and cost guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: ☁️
@@ -27,17 +27,17 @@ metadata:
     - win32
     displayName: AWS | Amazon Web Services
     configPaths:
-    - ~/clawic/aws/
+    - ~/Clawic/data/aws/
 ---
 
-Working data lives in `~/clawic/aws/` — account context, resource inventory, cost notes. If you have data at the old `~/aws/` location, move it to `~/clawic/aws/`.
+Working data lives in `~/Clawic/data/aws/` — account context, resource inventory, cost notes. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`.
 
 ## Setup
 
 On first use, read `setup.md` for the intake questions. The skill works immediately — setup only personalizes it.
 
 ```
-~/clawic/aws/
+~/Clawic/data/aws/
 ├── memory.md        # Account context + preferences (template: memory-template.md)
 ├── resources.md     # Active infrastructure inventory
 └── costs.md         # Cost tracking + alerts
@@ -59,7 +59,7 @@ On first use, read `setup.md` for the intake questions. The skill works immediat
 | Greenfield project | Stage table (Rule 3), smallest viable stack, billing alarm before first resource | Rule 2 |
 | "Is my account secure?" | Run the audit checklist end to end | `security.md` |
 | Picking between services | Decide by threshold (payload size, duty cycle, latency), not feature lists | `services.md` |
-| Inherited/unknown account | Inventory commands (Rule 1), record findings in `~/clawic/aws/resources.md` | Rule 1 |
+| Inherited/unknown account | Inventory commands (Rule 1), record findings in `~/Clawic/data/aws/resources.md` | Rule 1 |
 | Anything else AWS | Answer directly; state cost and security implications of whatever you recommend | — |
 
 ## Core Rules
@@ -182,7 +182,7 @@ aws ce get-cost-forecast --time-period Start=$(date +%Y-%m-01),End=$(date -v+1m 
 
 **Credentials:** This skill uses the AWS CLI, which reads credentials from `~/.aws/credentials` or environment variables. The skill never stores, logs, or transmits AWS credentials.
 
-**Local storage:** Preferences and context stored in `~/clawic/aws/` — no data leaves your machine.
+**Local storage:** Preferences and context stored in `~/Clawic/data/aws/` — no data leaves your machine.
 
 **CLI commands:** All commands shown are read-only by default. Destructive operations (delete, terminate) require explicit user confirmation.
 
