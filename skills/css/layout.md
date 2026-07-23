@@ -1,57 +1,51 @@
 # Layout Patterns
 
-## Flexbox Patterns
+Debugging procedures and the layout mechanisms that break silently. Centering default and flex/grid sizing model live in SKILL.md.
 
-- `display: flex; gap: 1rem` for spaced rows—clean and simple
-- `justify-content: space-between` for nav/footer with logo and links
-- `flex-wrap: wrap` + `flex: 1 1 300px` for card grids—responsive without media queries
-- `align-items: stretch` is default—children fill height unless explicitly sized
+## Layout Debugging Order
 
-## Grid Patterns
+1. See real boxes, not assumed ones: DevTools flex/grid inspector, or temporarily `* { outline: 1px solid red }` (outline never affects layout — that is why it beats border for this).
+2. Find the overflowing element before styling anything: in the console, walk `document.querySelectorAll('*')` for `el.scrollWidth > el.clientWidth`. Horizontal page scroll always has one concrete culprit.
+3. Read Computed, not Styles: the authored value may be losing the cascade or being clamped by min/max constraints.
+4. Only then write CSS — targeting the mechanism you identified, not the symptom.
 
-- `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))` for responsive cards
-- `grid-template-areas` for complex layouts—visual and maintainable
-- `grid-column: 1 / -1` for full-width items in grid
-- Subgrid for aligned nested content—parent grid lines extend to children
+## Sticky Failure Diagnosis
 
-## Centering Patterns
+`position: sticky` fails silently. Check in this order:
 
-- `place-items: center` on grid—centers both axes
-- `margin: auto` on flex child—pushes to edges or centers
-- `position: absolute; inset: 0; margin: auto` for overlay centering
-- Grid/flex on parent, auto margins on child—most robust approach
+1. Any ancestor between the element and the page with `overflow: hidden/auto/scroll`? That ancestor is now the scrollport; if it doesn't scroll, sticky "does nothing". Fix: `overflow: clip` on the ancestor — clip does not create a scroll container, so stickiness returns to the page scroller.
+2. Is the sticky element as tall as its container? Then it has no room to travel. The container must be taller than the element.
+3. Flex/grid parent? Default `align-items: stretch` causes case 2. Fix: `align-self: start` on the sticky child.
+4. Missing inset: `top: 0` (or another inset) is required — sticky without an offset never engages.
 
-## Sticky Patterns
+Most developers only know step 4; steps 1-3 are the actual bugs.
 
-- `position: sticky; top: 0` for sticky headers—needs scrolling ancestor
-- Sticky doesn't work with `overflow: hidden` on ancestor—clips the sticky area
-- Multiple stickies can stack—adjust `top` values to account for each other
-- Use `z-index` with sticky—it stacks above siblings
+## Height 100% and the Sticky Footer
 
-## Overflow Handling
+- `height: 100%` resolves against the parent's DEFINED height — one unsized ancestor breaks the whole chain. Don't build chains.
+- Sticky footer, the whole pattern: `body { min-height: 100svh; display: flex; flex-direction: column; }` + `footer { margin-top: auto; }`.
+- App shell that must fill the screen: `min-height: 100dvh` on the shell only if live toolbar resize is acceptable (unit tradeoffs: `responsive.md`).
 
-- `overflow: hidden` clips content—use `overflow: clip` if you don't need scroll
-- `overflow: auto` vs `scroll`: auto only shows scrollbar when needed
-- `text-overflow: ellipsis` needs `overflow: hidden` AND `white-space: nowrap`
-- `overflow-x: clip; overflow-y: visible` is tricky—often becomes `overflow-x: clip; overflow-y: auto`
+## Margin Collapse, the Actual Rules
 
-## Box Model Patterns
+- Only the block axis, only block layout. Flex, grid, inline-block, floats, and BFC roots never collapse.
+- Parent-child bleed-through: a child's `margin-top` escapes the parent when nothing (border, padding, inline content) separates them — the classic "why did the whole container move down". Fix: `display: flow-root` on the parent, or switch to gap-based spacing.
+- Adjacent siblings: the LARGER margin wins, they don't add. One negative: they sum (`24px + -8px = 16px`).
+- Practical stance: use `gap` and single-direction margins (`margin-block-end` only); collapse then never fires.
 
-- `box-sizing: border-box` on everything—width includes padding and border
-- Margin collapse only vertical, only block—flex/grid children don't collapse
-- `padding: max(1rem, 5vw)` for responsive padding—clamped minimum
-- `outline` doesn't affect layout—useful for debugging without side effects
+## Overflow Semantics
+
+- `hidden` vs `clip`: `hidden` creates a scroll container (JS can still scroll it, sticky descendants re-anchor to it); `clip` just clips — cheaper, keeps sticky working, allows `overflow-clip-margin`.
+- One visible axis is impossible: if either axis is non-visible, `visible` on the other computes to `auto`. `overflow-x: clip; overflow-y: visible` silently becomes clip/auto — that's why the vertical scrollbar appears.
+- Single-line truncation needs the trio: `overflow: hidden; white-space: nowrap; text-overflow: ellipsis` PLUS a constrained width (`min-width: 0` when in flex).
+- Multi-line clamp: `display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden` — prefixed but works in every modern engine.
+
+## Animating to Height Auto
+
+- Portable trick: wrapper `display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.3s`; open state sets `1fr`. The content child needs `min-height: 0; overflow: hidden`. Works everywhere grid does.
+- Native path — `interpolate-size: allow-keywords` / `calc-size()` — is Chromium-only as of 2025; treat the grid trick as the default.
 
 ## Logical Properties
 
-- `margin-inline`, `padding-block` for writing-mode aware spacing
-- `inset-inline-start` instead of `left`—respects RTL
-- `inline-size` instead of `width`—adapts to writing direction
-- Use logical properties for international-ready CSS
-
-## Common Layout Bugs
-
-- 100% height not working—parent chain must also have defined height or use flexbox
-- Content overflows container—`min-width: 0` on flex children
-- Footer not at bottom—use flexbox or grid on body, `margin-top: auto` on footer
-- Unexpected scrollbar—check for content slightly bigger than container
+- If RTL or vertical writing modes are in scope, write `margin-inline`, `padding-block`, `inset-inline-start`, `inline-size` from day one — retrofitting is a full-file rewrite.
+- Never mix physical and logical properties on the same box side; last-write-wins across the two systems is unreadable in review.

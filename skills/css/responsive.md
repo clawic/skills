@@ -1,57 +1,51 @@
 # Responsive Techniques
 
-## Viewport Units Traps
+Fluid sizing math, viewport units, container queries. Accessibility thresholds (zoom, touch targets) live in SKILL.md — Accessibility Floor.
 
-- `100vh` on mobile includes toolbar—content behind address bar
-- `100dvh` (dynamic viewport) changes as toolbar hides/shows—causes reflow
-- `100svh` (small viewport) always excludes toolbar—most predictable
-- Mix: `height: 100svh; min-height: 100dvh` for hero sections
+## Viewport Units
 
-## Media Query Patterns
+| Need | Unit | Why |
+|---|---|---|
+| Full-screen hero on mobile | `svh` | Excludes browser UI — content never hides behind the toolbar |
+| App shell that must track the toolbar | `dvh` | Resizes live as UI retracts; causes reflow, keep the subtree cheap |
+| Element sized against the page scroller inside a sub-scroller | `svh`/`dvh` still refer to the viewport | Viewport units never refer to a scroll container |
+| Desktop-only layouts | `vh` | Stable there; the mobile toolbar problem doesn't exist |
+| Default when unsure | `svh` | The only one that is both stable and never overlapped |
 
-- Mobile-first: use `min-width`—base styles for mobile, layer up for larger
-- `min-width` is mobile-first; `max-width` is desktop-first—don't mix approaches
-- Common breakpoints: 640px, 768px, 1024px, 1280px—but adapt to your content
-- Prefer intrinsic sizing over breakpoints—fewer media queries needed
+## Fluid Typography, Derived Not Guessed
+
+Formula for `clamp(MIN, REMs + VWs, MAX)` between two viewports:
+
+- slope = (maxSize − minSize) / (maxViewport − minViewport)
+- vw term = slope × 100
+- rem term = minSize − slope × minViewport (convert px→rem at 16)
+
+Worked: 16px→24px across 400px→1280px viewports: slope = 8/880 = 0.00909 → `0.91vw`; rem term = 16 − 0.00909×400 = 12.36px → `0.77rem`. Result: `font-size: clamp(1rem, 0.77rem + 0.91vw, 1.5rem)`. Check both ends: at 400px → 12.36 + 3.64 = 16px; at 1280px → 12.36 + 11.64 = 24px.
+
+- The rem term is non-negotiable: it is what makes zoom and user font-size scale the text (WCAG numbers: SKILL.md).
+- Same formula works for fluid padding and gaps.
 
 ## Container Queries
 
-- `container-type: inline-size` on parent—enables queries on that container
-- `@container (min-width: 400px) { ... }`—component responds to ITS container
-- `container-name` for targeting specific ancestor—`@container sidebar (min-width: ...)`
-- Better than media queries for reusable components—same component, different contexts
+- `container-type: inline-size` on the ancestor; `@container (min-width: 400px)` styles DESCENDANTS — a container can never style itself from its own query.
+- The invisible side effect: inline-size containment means the container's width can no longer come from its content. If a shrink-wrapped component collapses to zero width after you add `container-type`, this is why — give the container a width source.
+- `container-name` when containers nest: `@container card (min-width: 300px)` targets the named ancestor, not the nearest.
+- Style queries — `@container style(--variant: featured)` — switch component variants off a custom property; Chromium-first, check support before relying on it.
+- Division of labor: container queries for reusable components, media queries for page scaffolding (columns, nav) only.
 
-## Fluid Typography
+## Breakpoints
 
-- `clamp(min, preferred, max)` for smooth scaling—`font-size: clamp(1rem, 2vw + 0.5rem, 2rem)`
-- Don't use only vw—user can't resize text, accessibility issue
-- Always include rem component—`2vw + 0.5rem` allows zoom to work
-- Test at extreme widths—very wide screens can make huge text
+- Set breakpoints where the CONTENT breaks: start narrow, widen until the layout looks wrong, cut there. Device-width lists (768/1024) encode 2015 hardware, not your design.
+- `em` vs `px` media queries: px queries follow page zoom but ignore the user's default font-size setting; em queries follow both. Content-driven breakpoints in em (`40em` = 640px at the 16px default) fire where the text actually needs them.
+- Never mix `min-width` and `max-width` regimes in one file. Range syntax closes the boundary bug: `@media (400px <= width < 800px)` — with min/max pairs, exactly-800px matched both sides.
 
-## Fluid Spacing
+## Images
 
-- `clamp()` for padding/margin too—`padding: clamp(1rem, 5vw, 3rem)`
-- CSS `min()` and `max()` for one-sided constraints—`width: min(100%, 800px)`
-- Combine with calc: `calc(1rem + 2vw)`—smooth transition between sizes
-- Use CSS custom properties for consistent fluid scales
+- Layout-shift prevention: `width`/`height` attributes on `<img>` (the browser derives aspect-ratio) or CSS `aspect-ratio`, plus `max-width: 100%; height: auto`. Shift budget numbers: `performance.md`.
+- `srcset` + `sizes` = same picture, different resolutions (browser picks). `<picture>` = different crops per breakpoint (art direction). Using `srcset` for crops silently serves the wrong composition.
+- `object-fit: cover` crops from the center; set `object-position` to protect the focal point (faces sit in the upper third — default center crop decapitates portraits).
 
-## Image Responsiveness
+## Device Reality Checks
 
-- `max-width: 100%; height: auto` on images—prevents overflow, maintains ratio
-- `object-fit: cover` vs `contain`: cover crops, contain letterboxes
-- `aspect-ratio` on container holds space—prevents layout shift during load
-- `srcset` and `sizes` for art direction—browser picks best image
-
-## Layout Shifts
-
-- Reserve space for images—use `aspect-ratio` or explicit dimensions
-- Font loading causes shift—use `font-display: swap` or preload critical fonts
-- Ads/embeds shift content—reserve space with `min-height`
-- `scrollbar-gutter: stable`—prevents shift when scrollbar appears/disappears
-
-## Testing Responsive
-
-- Test on real devices—emulators miss real performance and touch targets
-- Test with real content—long words, missing images, user-generated text
-- Test both orientations—landscape tablet is not the same as desktop
-- Check over-scroll behavior—pull-to-refresh, bounce effects
+- Emulators miss: live toolbar viewport changes, real touch-target ergonomics, notches. For edge-to-edge layouts: `viewport-fit=cover` + `padding: env(safe-area-inset-bottom)` on bottom bars.
+- Landscape phone is its own case: ~400px height with a keyboard open — test forms there, not just portrait/desktop.

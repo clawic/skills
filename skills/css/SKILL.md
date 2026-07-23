@@ -1,100 +1,120 @@
 ---
-name: CSS
+name: css
 slug: css
-version: 1.0.1
-description: Write modern CSS with proper stacking contexts, layout patterns, responsive techniques, and performance optimization.
-metadata: {"clawdbot":{"emoji":"🎨","os":["linux","darwin","win32"]}}
+version: 1.0.2
+description: Writes and debugs modern CSS - stacking contexts, flexbox/grid, responsive layout, selectors, render performance. Use for layout bugs, z-index issues, CLS, fluid typography, or modernizing stylesheets.
+homepage: https://clawic.com/skills/css
+changelog: Deeper layout and debugging guidance
+metadata:
+  clawdbot:
+    emoji: 🎨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CSS
 ---
 
-## When to Use
+## When To Use
 
-User needs CSS expertise — from layout challenges to production optimization. Agent handles stacking contexts, flexbox/grid patterns, responsive design, performance, and accessibility.
+- Debugging layout: z-index that won't apply, overflow, dead `height: 100%`, broken `position: sticky`
+- Building components: flexbox/grid patterns, centering, responsive behavior without media-query sprawl
+- Production hardening: layout shift, animation jank, font loading, the accessibility floor
+- Replacing JS or preprocessor hacks with native CSS (`:has()`, `@layer`, container queries, scroll snap)
+- Not for visual design decisions (palettes, spacing scales, typography choice) — this skill covers mechanics, not taste
 
 ## Quick Reference
 
-| Topic | File |
-|-------|------|
-| Layout patterns | `layout.md` |
-| Responsive techniques | `responsive.md` |
-| Selectors and specificity | `selectors.md` |
-| Performance optimization | `performance.md` |
+| Situation | Play |
+|---|---|
+| z-index ignored despite a huge value | Stacking Contexts below — find the context root; never just bump the number |
+| Flex item overflows / text won't truncate | `min-width: 0` on the flex child (default min-width is min-content) |
+| Breaks with real content, sticky dead, footer floats, margin leaks | `layout.md` |
+| Component must adapt to its container; fluid type; mobile viewport bugs | `responsive.md` |
+| Specificity fight, `@layer`, `:has()`, custom-property gotchas | `selectors.md` |
+| Jank, layout shift, slow paint, font flash | `performance.md` |
+| Anything else CSS | Core Rules below, then the closest file above |
 
-## CSS Philosophy
+## Core Rules
 
-- Layout should be robust—work with any content, not just demo content
-- Use modern features—they have better browser support than you think
-- Prefer intrinsic sizing—let content determine size when possible
-- Test with extreme content—longest names, missing images, empty states
+1. Diagnose before adding CSS: reproduce, isolate in DevTools, name the mechanism (stacking context, flex sizing algorithm, margin collapse). A property added without a named mechanism is the next bug.
+2. Animate only `transform` and `opacity` — the only common properties that skip layout and paint. Frame budget = 1000ms / 60fps ≈ 16.7ms for style, paint, and your JS combined; one layout-triggering animation spends it alone.
+3. One centering default: parent `display: grid; place-content: center`. Escape hatch: `position: absolute; inset: 0; margin: auto` when the child must overlay (needs a resolvable size, e.g. `width: fit-content`).
+4. Never bare viewport units for text. `font-size: clamp(1rem, 0.77rem + 0.91vw, 1.5rem)` — the rem term is what keeps browser zoom and user font-size working; pure-vw text fails WCAG 1.4.4 (resize to 200%). Derivation of the numbers: `responsive.md`.
+5. Size intrinsically first (`min()`, `clamp()`, `fit-content`, `auto-fit` grids), media queries second, container queries when one component lives at different widths.
+6. `!important` in component code is a debt marker. Order wars belong in `@layer` — unlayered author styles beat all layered ones regardless of specificity (`selectors.md`).
+7. Ship only after hostile-content testing: longest word (URL, German compound), empty state, missing image, 200% zoom, `prefers-reduced-motion`.
 
-## Stacking Context Traps
+## Stacking Contexts
 
-- `z-index` only works with positioned elements—or flex/grid children
-- `isolation: isolate` creates stacking context—contains z-index chaos without position
-- `opacity < 1`, `transform`, `filter` create stacking context—unexpected z-index behavior
-- New stacking context resets z-index hierarchy—child z-index:9999 won't escape parent
+The single most common CSS debugging failure: raising z-index on an element trapped inside a context.
 
-## Layout Traps
+- Context creators (memorize): positioned element with z-index, flex/grid child with z-index, `opacity < 1`, `transform`, `filter`, `backdrop-filter`, `will-change`, `contain: layout` or `paint`, `position: fixed`/`sticky`, `isolation: isolate`.
+- Inside a context, z-index competes only among siblings of that context. A child's `z-index: 9999` never escapes its parent's `z-index: 1`.
+- Debug procedure, in order: (1) walk up from the losing element to its first context-creating ancestor; (2) same for the winning element; (3) compare those two ancestors — that comparison decides the paint order; (4) fix z-index there, or delete the accidental trigger (usually a leftover `transform` or `opacity` from an animation).
+- `isolation: isolate` creates a context with zero visual side effects — use it to cap a component's internal z-index so it can't leak out.
+- `transform`, `filter`, and `will-change` also make the element the containing block for `position: fixed` descendants — the fixed element silently behaves as absolute. Same walk-up diagnosis.
 
-- Margin collapse only vertical, only block—flex/grid children don't collapse
-- `overflow: hidden` on flex container can break—use `overflow: clip` if you don't need scroll
+## Flexbox and Grid Mental Model
 
-## Flexbox Traps
+- `flex: 1` = `1 1 0%`: ALL space divided equally. `flex: auto` = `1 1 auto`: only leftover space divided, so larger content keeps a larger track. Choose per intent; equal columns need basis 0.
+- Flex children default to `min-width: min-content` — the root cause of both overflow and un-truncatable text. Release with `min-width: 0` (or `overflow: hidden`). Column direction: same story with `min-height`.
+- `1fr` means `minmax(auto, 1fr)`: the track refuses to shrink below its content. `grid-template-columns: 1fr 1fr` is NOT 50/50 with unequal content — write `minmax(0, 1fr)` for true halves.
+- `auto-fit` collapses empty tracks (remaining cards stretch); `auto-fill` keeps them (cards hold max width). Card grid default: `repeat(auto-fit, minmax(min(250px, 100%), 1fr))` — the inner `min()` prevents overflow on viewports under 250px.
+- `gap` never collapses; margins collapse (vertical, block layout only, including parent-child bleed-through). Prefer gap and treat margin collapse as legacy behavior to route around (`layout.md`).
+- `margin: auto` on a flex/grid child absorbs free space: `margin-inline-start: auto` on the last nav item is the entire "push right" pattern.
 
-- `flex: 1` means `flex: 1 1 0%`—basis is 0, not auto
-- `min-width: 0` on flex child for text truncation—default min-width is min-content
-- `flex-basis` vs `width`: basis is before grow/shrink—width is after, basis preferred
-- `gap` works in flex now—no more margin hacks for spacing
+## Modern CSS Worth Using
 
-## Grid Traps
+Compatibility floor: everything here works in all evergreen engines since end of 2023 unless marked.
 
-- `fr` units don't respect min-content alone—use `minmax(min-content, 1fr)`
-- `auto-fit` vs `auto-fill`: fit collapses empty tracks, fill keeps them
-- `grid-template-columns: 1fr 1fr` is not 50%—it's equal share of REMAINING space
-- Implicit grid tracks can surprise you—items placed outside explicit grid still appear
+- `:has()` — parent and previous-sibling selection; kills a whole class of state-mirroring JS (`selectors.md` for patterns and cost).
+- `@starting-style` + `transition-behavior: allow-discrete` — transition from `display: none`; replaces enter-animation JS (all engines since mid-2024).
+- `text-wrap: balance` on headings — engines skip long blocks (Chromium caps at 6 lines), so it is safe to apply to all headings.
+- `scrollbar-gutter: stable` on scroll containers — reserves the gutter, no shift when the scrollbar appears.
+- `overscroll-behavior: contain` on modals and drawers — stops scroll chaining into the page.
+- `scroll-snap-type` + `scroll-snap-align` — carousels without JS.
+- `aspect-ratio` — reserve media space before load (layout-shift numbers: `performance.md`).
+- `accent-color` — form controls on brand without rebuilding them.
 
-## Responsive Philosophy
+## Accessibility Floor
 
-- Start mobile-first—`min-width` media queries, base styles for mobile
-- Container queries: `@container (min-width: 400px)`—component-based responsive
-- `container-type: inline-size` on parent required—for container queries to work
-- Test on real devices—emulators miss touch targets and real performance
+Canonical home for these numbers — other files point here.
 
-## Sizing Functions
+- Contrast (WCAG 2.2 AA): 4.5:1 body text; 3:1 for large text (≥24px, or ≥18.66px bold) and for UI components and focus indicators (1.4.3, 1.4.11).
+- Touch targets: ≥24×24 CSS px is the AA minimum (2.5.8); 44×44 matches Apple HIG and AAA — use 44 for primary mobile actions.
+- Text survives 200% zoom (1.4.4): rem-based sizes plus the clamp rule (Core Rule 4).
+- Motion is opt-in: wrap animation in `@media (prefers-reduced-motion: no-preference)` rather than overriding after the fact.
+- Style `:focus-visible`; never `outline: none` without a replacement in the same rule.
+- `@media (forced-colors: active)`: system colors replace yours — check borders and focus still exist there.
+- Dark mode: `@media (prefers-color-scheme: dark)` plus `color-scheme: light dark` so form controls and scrollbars follow.
 
-- `clamp(min, preferred, max)` for fluid typography—`clamp(1rem, 2.5vw, 2rem)`
-- `min()` and `max()`—`width: min(100%, 600px)` replaces media query
-- `fit-content` sizes to content up to max—`width: fit-content` or `fit-content(300px)`
+## Traps
 
-## Modern Selectors
+| Trap | Why it fails | Do instead |
+|---|---|---|
+| Bumping z-index to 9999 | Element is inside a stacking context; only the context root competes outside | Walk-up procedure (→ Stacking Contexts) |
+| Animating height/top/left/margin | Layout runs every frame and blows the 16.7ms budget (Core Rule 2) | `transform`; for height-to-auto, the grid-rows trick (→ layout.md) |
+| `overflow: hidden` to kill a stray scrollbar | Hides the symptom and creates a scroll container: breaks sticky descendants, clips shadows and focus rings | Find the overflowing element first; `overflow: clip` if clipping is truly intended |
+| `var(--x, fallback)` as a safety net | A declared-but-invalid value skips the fallback ("invalid at computed-value time") | `@property` with `initial-value` (→ selectors.md) |
+| Global `will-change` or `translateZ(0)` "GPU hints" | Every layer holds GPU memory; hundreds of layers slow compositing | `will-change` only on elements actually animating, only while animating (→ performance.md) |
+| `100vh` full-screen sections | Mobile browser UI overlaps the bottom of the section | `100svh`; `dvh` only when live resize is acceptable (→ responsive.md) |
+| `!important` to win a specificity fight | Escalation is one-way; the next override needs another `!important` | `@layer` ordering (→ selectors.md) |
+| `:empty` for empty states | Whitespace text nodes count as content in most engines | Control the markup, or a class set by the renderer |
 
-- `:is()` for grouping—`:is(h1, h2, h3) + p` less repetition
-- `:where()` same as `:is()` but zero specificity—easier to override
-- `:has()` parent selector—`.card:has(img)` styles card containing image
-- `:focus-visible` for keyboard focus only—no outline on mouse click
+## Where Experts Disagree
 
-## Scroll Behavior
+- Selector performance: the old guard writes selectors for right-to-left matching cost; modern engines bucket by rightmost simple selector, making it negligible. Boundary: only act on a DevTools trace showing Style/Recalculate cost — usually `:has()` or universal selectors on large, frequently-mutating DOMs (`performance.md`).
+- Utility-first vs handwritten CSS: utilities win on team consistency and dead-code elimination; handwritten wins for animation-heavy and design-led work. Boundary: follow whichever the codebase already uses; never mix systems inside one component.
+- CSS-in-JS: colocation and typed themes vs runtime cost. Boundary: server-rendered, performance-critical pages want zero-runtime extraction (or plain CSS + `@layer`); internal dashboards can afford runtime styling.
 
-- `scroll-behavior: smooth` on html—native smooth scroll for anchors
-- `overscroll-behavior: contain`—prevents scroll chaining to parent/body
-- `scroll-snap-type` and `scroll-snap-align`—native carousel without JS
-- `scrollbar-gutter: stable`—reserves scrollbar space, prevents layout shift
+## Related Skills
 
-## Shorthand Traps
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
+- `html` - semantic structure and document-level concerns the CSS hooks into
+- `frontend` - component architecture, frameworks, and build tooling around the styles
+- `animations` - motion design and choreography beyond single-property transitions
+- `accessibility-audit` - full WCAG review beyond the CSS floor here
+- `design-system` - tokens, theming, and scaling styles across a product
 
-- `inset: 0` equals `top/right/bottom/left: 0`—less repetition
-- `place-items` is `align-items` + `justify-items`—`place-items: center` centers both
-- `margin-inline`, `margin-block` for logical properties—respects writing direction
-
-## Performance Mindset
-
-- `contain: layout` isolates repaints—use on independent components
-- `content-visibility: auto` skips offscreen rendering—huge for long pages
-- `will-change` sparingly—creates layers, uses memory
-- Avoid layout thrash—batch reads and writes to DOM
-
-## Accessibility Baseline
-
-- `prefers-reduced-motion: reduce`—disable animations for vestibular disorders
-- `prefers-color-scheme`—`@media (prefers-color-scheme: dark)` for dark mode
-- `forced-colors: active`—adjust for Windows high contrast
-- Focus indicators must be visible—don't rely on color alone
+Part of [Clawic](https://clawic.com), the verified skill library. Get this skill: https://clawic.com/skills/css.

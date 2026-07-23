@@ -1,64 +1,57 @@
 # Performance Optimization
 
-## Render Pipeline Understanding
+Render pipeline, layout shift, fonts, loading. The frame-budget rule (16.7ms, animate transform/opacity only) is Core Rule 2 in SKILL.md.
 
-- Style → Layout → Paint → Composite—changes early in pipeline are expensive
-- `transform` and `opacity` only trigger composite—cheapest animations
-- `width`, `height`, `margin` trigger layout—expensive, avoid animating
-- `background-color`, `box-shadow` trigger paint—moderate cost
+## Pipeline Cost Model
 
-## Containment
+Style → Layout → Paint → Composite; the earlier a property enters, the more it costs per frame.
 
-- `contain: layout` isolates layout calculations—changes inside don't affect outside
-- `contain: paint` creates paint boundary—clips like overflow:hidden
-- `contain: strict` is all containment—maximum isolation, use on independent widgets
-- `content-visibility: auto` skips rendering offscreen—huge savings on long pages
+| You change | Pipeline from | Cost |
+|---|---|---|
+| `width`, `height`, `margin`, `top/left`, font-size | Layout | Worst — geometry of the whole subtree recomputes |
+| `background`, `color`, `box-shadow`, `border-radius` | Paint | Moderate — pixels redraw, no geometry |
+| `transform`, `opacity` | Composite | Cheapest — GPU repositions existing layers |
 
-## Animation Performance
+## Core Web Vitals (canonical numbers)
 
-- Only animate `transform` and `opacity`—everything else causes repaint
-- Use `will-change: transform` to hint—but creates layer, uses memory
-- Don't overuse `will-change`—hundreds of layers = memory issues
-- `transform: translateZ(0)` to force layer—but prefer `will-change`
+Google's thresholds, measured at the 75th percentile of page loads:
+
+- CLS: good < 0.1, poor > 0.25. CSS owns this one almost entirely — reserved media space, font metrics, `scrollbar-gutter`.
+- LCP: good ≤ 2.5s, poor > 4s. CSS levers: critical CSS inline, no `@import`, `font-display` on the hero font.
+- INP: good ≤ 200ms, poor > 500ms. CSS lever: cheap style recalculation (containment, no `body:has()` invalidation storms).
+
+## Compositing and will-change
+
+- A composited layer holds GPU memory ≈ width × height × 4 bytes (RGBA): a 1000×1000px layer ≈ 4MB. `will-change` on every list item = layer explosion; scrolling gets worse, not better.
+- Correct use: add `will-change: transform` just before animating (class or JS), remove after. Permanent `will-change` is only defensible on an element that animates constantly (a persistent FAB, a canvas).
+- `transform: translateZ(0)` is the legacy spelling of the same hint — replace on sight.
 
 ## Layout Thrashing
 
-- Reading layout property forces synchronous layout—batch reads together
-- Write all changes, then read if needed—don't interleave
-- Use `requestAnimationFrame` for visual changes—batches with next frame
-- Virtual DOM frameworks handle this—but still know the concept
+- These reads force synchronous layout when styles are dirty: `offsetTop/Left/Width/Height`, `clientWidth/Height`, `scrollTop/Width`, `getBoundingClientRect()`, `getComputedStyle()` for geometry.
+- The bug is interleaving: write-read-write-read in a loop = one full layout per iteration. Batch all reads, then all writes; schedule writes in `requestAnimationFrame`.
+- Animating layout properties anyway? Use FLIP: measure First and Last rects, apply the inverted transform instantly, then transition the transform to identity — layout cost once, animation on the compositor.
 
-## Selector Performance
+## Containment
 
-- Right-to-left matching—browser finds all matches of rightmost, filters up
-- Qualified selectors slower—`div.class` slower than `.class`
-- Deep nesting expensive—`.a .b .c .d .e` searches a lot
-- ID selectors fastest but least reusable
+- `contain: layout` / `paint` on independent widgets: internal changes stop invalidating the page outside.
+- `content-visibility: auto` skips rendering offscreen sections — the single biggest win on long pages. Pair with `contain-intrinsic-size: auto 500px`: your estimate prevents scrollbar jumping, `auto` remembers the real size once rendered.
 
-## Font Loading
+## Fonts
 
-- FOUT (Flash of Unstyled Text) with `font-display: swap`—shows fallback first
-- FOIT (Flash of Invisible Text) with `block`—text hidden until loaded
-- `font-display: optional` best for performance—may not show custom font
-- Preload critical fonts: `<link rel="preload" as="font" crossorigin>`
+- Body text: `font-display: swap` + metric overrides on the fallback `@font-face` (`size-adjust`, `ascent-override`, `descent-override`) so the swap causes no shift — tools generate these from the font files; this is the fix for font-driven CLS, not `optional`.
+- `font-display: optional` for decorative fonts only — it may simply never show.
+- Preload only the 1-2 WOFF2 files used above the fold (`<link rel="preload" as="font" crossorigin>`); every preload competes with the LCP image for bandwidth.
+- WOFF2 only; other formats in 2025 are dead weight.
 
-## CSS File Optimization
+## Loading
 
-- Unused CSS still downloaded and parsed—audit and remove
-- `@import` is render-blocking—use `<link>` tags instead
-- Critical CSS inline in `<head>`—rest can load async
-- Consider CSS-in-JS tradeoffs—runtime cost vs HTTP cache
+- `@import` serializes: each level costs a full extra round trip after the parent sheet arrives. Always `<link>`; bundlers flatten it, raw CSS must never ship it.
+- Inline critical CSS ceiling: the folk 14KB figure comes from TCP's initial congestion window (10 packets × ~1460B ≈ 14.6KB — one round trip). HTTP/3 blurs it, but it remains a sane budget for inlined `<head>` CSS.
+- Unused CSS still parses on every load: DevTools Coverage tab before shipping a framework's full sheet.
 
-## Paint Optimization
+## Selector Cost, the Reality
 
-- `box-shadow` on scroll elements is expensive—moves repaint on scroll
-- Large `border-radius` with overflow can be costly
-- `filter: blur()` on large elements expensive
-- Use compositor-only properties when possible
-
-## Measuring Performance
-
-- Chrome DevTools Performance panel—see paint, layout, script timing
-- "Show paint rectangles"—visualize what's being repainted
-- Lighthouse for overall audit—catches common issues
-- Test on real low-end devices—your MacBook is not representative
+- Engines bucket rules by rightmost simple selector: a class or ID on the right makes the left side nearly free. Rewriting `.nav li a` for performance is folklore.
+- What actually shows up in traces: `:has()` with broad subjects on mutating DOMs, universal `*` with expensive declarations, and mega-stylesheets where sheer rule count dominates.
+- Rule: never restructure selectors without a Performance-panel trace showing Style/Recalculate as the cost. Otherwise it's readability debt for nothing.
