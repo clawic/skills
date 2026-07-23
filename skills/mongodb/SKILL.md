@@ -1,10 +1,10 @@
 ---
 name: mongodb
 slug: mongodb
-version: 1.0.2
+version: 1.0.3
 description: Designs MongoDB schemas, indexes, and aggregation pipelines; diagnoses slow queries and tunes production replica sets. Use for document modeling, embed vs reference decisions, explain plans, write concerns, sharding, or replica set operations.
 homepage: https://clawic.com/skills/mongodb
-changelog: Deeper schema and query guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🍃

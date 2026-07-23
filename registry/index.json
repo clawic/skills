@@ -4903,10 +4903,11 @@
     },
     {
       "slug": "mongodb",
-      "name": "MongoDB",
-      "description": "Design MongoDB schemas with proper embedding, indexing, aggregation, and production-ready patterns.",
-      "version": "1.0.2",
-      "summary": "When to Use User needs MongoDB expertise \u2014 from schema design to production optimization. Agent handles document modeling, indexing strategies, aggregation pipelines, consistency patterns, and scaling. Quick Reference | ",
+      "name": "mongodb",
+      "description": "Designs MongoDB schemas, indexes, and aggregation pipelines; diagnoses slow queries and tunes production replica sets. Use for document modeling, embed vs reference decisions, explain plans, write concerns, sharding, or replica set operations.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/mongodb",
+      "summary": "When To Use - Designing or reviewing document schemas: embed vs reference, growing arrays, multi-tenant layout - A query is slow: reading explain plans, designing compound indexes - Building or debugging aggregation pipe",
       "repositoryPath": "skills/mongodb",
       "manifestPath": "registry/skills/mongodb.json"
     },
