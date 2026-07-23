@@ -4249,10 +4249,11 @@
     },
     {
       "slug": "k8s",
-      "name": "Kubernetes",
-      "description": "Avoid common Kubernetes mistakes \u2014 resource limits, probe configuration, selector mismatches, and RBAC pitfalls.",
-      "version": "1.0.1",
-      "summary": "Resource Management - `requests` = guaranteed minimum \u2014 scheduler uses this for placement - `limits` = maximum allowed \u2014 exceeding memory = OOMKilled, CPU = throttled - No limits = can consume entire node \u2014 always set pr",
+      "name": "k8s",
+      "description": "Kubernetes troubleshooting and manifest judgment: pod crashes, probes, resources and QoS, rollouts, DNS, storage, RBAC. Use when debugging clusters, reviewing manifests, or tuning workloads.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/k8s",
+      "summary": "When To Use - A pod is Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, or stuck Terminating - A Service or Ingress receives no traffic, or DNS inside the cluster is flaky - Writing or reviewing manifests: probes,",
       "repositoryPath": "skills/k8s",
       "manifestPath": "registry/skills/k8s.json"
     },

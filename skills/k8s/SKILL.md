@@ -1,13 +1,13 @@
 ---
 name: k8s
 slug: k8s
-version: 1.0.1
+version: 1.0.2
 description: >-
   Kubernetes troubleshooting and manifest judgment: pod crashes, probes, resources and QoS,
   rollouts, DNS, storage, RBAC. Use when debugging clusters, reviewing manifests, or tuning
   workloads.
 homepage: https://clawic.com/skills/k8s
-changelog: Deeper debugging and production guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: "☸"

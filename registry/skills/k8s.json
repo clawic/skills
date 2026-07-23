@@ -11,23 +11,23 @@
   "skill": {
     "slug": "k8s",
     "name": "k8s",
-    "description": "Avoid common Kubernetes mistakes — resource limits, probe configuration, selector mismatches, and RBAC pitfalls.",
-    "version": "1.0.1",
+    "description": "Kubernetes troubleshooting and manifest judgment: pod crashes, probes, resources and QoS, rollouts, DNS, storage, RBAC. Use when debugging clusters, reviewing manifests, or tuning workloads.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/k8s",
-    "summary": "Resource Management - `requests` = guaranteed minimum — scheduler uses this for placement - `limits` = maximum allowed — exceeding memory = OOMKilled, CPU = throttled - No limits = can consume entire node — always set pr",
+    "summary": "When To Use - A pod is Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, or stuck Terminating - A Service or Ingress receives no traffic, or DNS inside the cluster is flaky - Writing or reviewing manifests: probes,",
     "repositoryPath": "skills/k8s",
     "manifestPath": "registry/skills/k8s.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/k8s/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/k8s/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/k8s/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json"
     }
   ]
 }
