@@ -1,13 +1,13 @@
 ---
 name: bash
 slug: bash
-version: 1.0.3
+version: 1.0.4
 description: >-
   Writes reliable Bash scripts: quoting, arrays, error handling, traps, and
   version portability. Use when writing or debugging shell scripts, one-liners,
   cron jobs, or CI pipelines.
 homepage: https://clawic.com/skills/bash
-changelog: Deeper scripting patterns and safety guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🖥️

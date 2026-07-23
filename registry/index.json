@@ -826,10 +826,11 @@
     },
     {
       "slug": "bash",
-      "name": "Bash",
-      "description": "Write reliable Bash scripts with proper quoting, error handling, and parameter expansion.",
-      "version": "1.0.3",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Arrays and loops | `arrays.md` | | Parameter expansion | `expansion.md` | | Error handling patterns | `errors.md` | | Testing and conditionals | `testing.md` | Quoting ",
+      "name": "bash",
+      "description": "Writes reliable Bash scripts: quoting, arrays, error handling, traps, and version portability. Use when writing or debugging shell scripts, one-liners, cron jobs, or CI pipelines.",
+      "version": "1.0.4",
+      "homepage": "https://clawic.com/skills/bash",
+      "summary": "When To Use - Writing or reviewing any Bash beyond a one-liner: CI jobs, deploy scripts, cron tasks, glue code - Debugging scripts that break on spaces in filenames, empty variables, or fail silently - Hardening an exist",
       "repositoryPath": "skills/bash",
       "manifestPath": "registry/skills/bash.json"
     },
