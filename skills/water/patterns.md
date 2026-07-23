@@ -27,7 +27,7 @@ Watch for:
 General adult needs: ~2-3L daily (includes food water content)
 Don't cite numbers to user. Track pattern, not targets.
 
-High-need situations (note silently):
+High-need situations (note without prompting):
 - Hot weather
 - Exercise
 - Illness/fever

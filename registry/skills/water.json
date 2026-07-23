@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +10,11 @@
   },
   "skill": {
     "slug": "water",
-    "name": "Water Tracker",
-    "description": "Auto-learns your hydration habits. Tracks water intake from casual mentions without precise measuring.",
-    "version": "1.0.1",
-    "summary": "Auto-Adaptive Hydration Tracking This skill auto-evolves. Fills in as you learn how the user hydrates and what affects it. **Rules:** - Absorb hydration mentions from ANY source (conversations, meal logs, exercise) - Fir",
+    "name": "water",
+    "description": "Tracks daily water intake from casual mentions with container calibration, weight-based targets, and exercise and heat adjustments. Use when the user logs drinks, asks about hydration targets, dehydration signs, urine color, or fluid replacement during exercise.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/water",
+    "summary": "Hydration tracking and advice from conversational mentions. Learned data (container sizes, patterns, preferences) persists in `~/clawic/water/memory.md`; this skill reads and writes only that folder. When To Use - User m",
     "repositoryPath": "skills/water",
     "manifestPath": "registry/skills/water.json"
   },
