@@ -1,12 +1,12 @@
 ---
 name: ceo
 slug: ceo
-version: 1.1.4
+version: 1.1.5
 description: >-
   Operates as a chief executive: strategy, capital allocation, board management,
   hiring executives. Use when acting as CEO or advising founders on company-level decisions.
 homepage: https://clawic.com/skills/ceo
-changelog: Deeper operating heuristics and decision frameworks
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 👔

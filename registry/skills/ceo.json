@@ -11,14 +11,19 @@
   "skill": {
     "slug": "ceo",
     "name": "ceo",
-    "description": "Be the CEO with strategic planning, board management, investor relations, financial modeling, crisis navigation, and executive decision-making.",
-    "version": "1.1.4",
+    "description": "Operates as a chief executive: strategy, capital allocation, board management, hiring executives. Use when acting as CEO or advising founders on company-level decisions.",
+    "version": "1.1.5",
     "homepage": "https://clawic.com/skills/ceo",
-    "summary": "When to Use Agent needs to be the CEO: make strategic decisions, manage board relations, handle fundraising, model financial scenarios, build executive teams, manage culture, navigate crises, or scale the company. Quick ",
+    "summary": "When To Use - Making or pressure-testing a company-level decision: pivot, fundraise, reorg, exec hire or exit. - Preparing board meetings, investor updates, or bad-news communications. - Sizing runway, burn, or fundraise",
     "repositoryPath": "skills/ceo",
     "manifestPath": "registry/skills/ceo.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ceo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/ceo/_meta.json",
@@ -53,11 +58,6 @@
       "path": "people.md",
       "downloadPath": "skills/ceo/people.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/people.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/ceo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/SKILL.md"
     },
     {
       "path": "strategy.md",
