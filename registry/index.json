@@ -1328,10 +1328,11 @@
     },
     {
       "slug": "career",
-      "name": "Career",
-      "description": "Learns your career context. Guides decisions on paths, transitions, negotiations, and growth based on what it discovers about you.",
-      "version": "1.0.3",
-      "summary": "Quick Reference | Scenario | File | Key Trap | |----------|------|----------| | Big career decisions | `decisions.md` | Answering without context | | Changing roles/industries | `transitions.md` | \"Grass is greener\" | | ",
+      "name": "career",
+      "description": "Advises on career decisions \u2014 offer evaluation, salary and equity negotiation, promotions, pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion, faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself (resume) or running the application pipeline (job-search).",
+      "version": "1.0.4",
+      "homepage": "https://clawic.com/skills/career",
+      "summary": "Advise mode: this skill guides a human making their own career moves; it never acts on their behalf. User career data lives in `~/Clawic/data/career/` (see `setup.md` on first use, `memory-template.md` for file formats):",
       "repositoryPath": "skills/career",
       "manifestPath": "registry/skills/career.json"
     },
