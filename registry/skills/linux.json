@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +10,10 @@
   },
   "skill": {
     "slug": "linux",
-    "name": "Linux",
+    "name": "linux",
     "description": "Operate Linux systems avoiding permission traps, silent failures, and common admin mistakes.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/linux",
     "summary": "Linux Gotchas Permission Traps - `chmod 777` fixes nothing, breaks everything — find the actual owner/group issue - Setuid on scripts is ignored for security — only works on binaries - `chown -R` follows symlinks outside",
     "repositoryPath": "skills/linux",
     "manifestPath": "registry/skills/linux.json"

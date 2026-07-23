@@ -4406,6 +4406,7 @@
       "slug": "linux",
       "name": "Linux",
       "description": "Operate Linux systems avoiding permission traps, silent failures, and common admin mistakes.",
+      "version": "1.0.1",
       "summary": "Linux Gotchas Permission Traps - `chmod 777` fixes nothing, breaks everything — find the actual owner/group issue - Setuid on scripts is ignored for security — only works on binaries - `chown -R` follows symlinks outside",
       "repositoryPath": "skills/linux",
       "manifestPath": "registry/skills/linux.json"
