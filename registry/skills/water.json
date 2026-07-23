@@ -11,33 +11,73 @@
   "skill": {
     "slug": "water",
     "name": "water",
-    "description": "Tracks daily water intake from casual mentions with container calibration, weight-based targets, and exercise and heat adjustments. Use when the user logs drinks, asks about hydration targets, dehydration signs, urine color, or fluid replacement during exercise.",
-    "version": "1.0.2",
+    "description": "Tracks daily water intake from casual mentions and sets hydration targets from weight, exercise, heat, and health context. Use when the user logs a drink (\"had a glass\", \"finished my bottle\"), asks how much water they should drink or whether they drink enough, reports thirst, dark urine, dry mouth, cramps, or a headache that could be dehydration, plans fluid or electrolyte replacement for workouts, races, sauna, hiking, flights, or hot weather, or needs rehydration guidance during fever, vomiting, diarrhea, or a hangover, or asks whether tap, bottled, filtered, mineral, or sparkling water is safe or better. Not for meal or calorie logging.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/water",
-    "summary": "Hydration tracking and advice from conversational mentions. Learned data (container sizes, patterns, preferences) persists in `~/clawic/water/memory.md`; this skill reads and writes only that folder. When To Use - User m",
+    "summary": "Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` \u2014 `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared pr",
     "repositoryPath": "skills/water",
     "manifestPath": "registry/skills/water.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/water/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/water/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/_meta.json"
     },
     {
-      "path": "containers.md",
-      "downloadPath": "skills/water/containers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/containers.md"
+      "path": "conditions.md",
+      "downloadPath": "skills/water/conditions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/conditions.md"
     },
     {
-      "path": "patterns.md",
-      "downloadPath": "skills/water/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/patterns.md"
+      "path": "electrolytes.md",
+      "downloadPath": "skills/water/electrolytes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/electrolytes.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/water/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md"
+      "path": "environment.md",
+      "downloadPath": "skills/water/environment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/environment.md"
+    },
+    {
+      "path": "exercise.md",
+      "downloadPath": "skills/water/exercise.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/exercise.md"
+    },
+    {
+      "path": "habits.md",
+      "downloadPath": "skills/water/habits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/habits.md"
+    },
+    {
+      "path": "illness.md",
+      "downloadPath": "skills/water/illness.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/illness.md"
+    },
+    {
+      "path": "logging.md",
+      "downloadPath": "skills/water/logging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/logging.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/water/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/memory-template.md"
+    },
+    {
+      "path": "quality.md",
+      "downloadPath": "skills/water/quality.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/quality.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/water/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/setup.md"
     }
   ]
 }
