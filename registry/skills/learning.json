@@ -11,33 +11,68 @@
   "skill": {
     "slug": "learning",
     "name": "learning",
-    "description": "Runs adaptive learning sessions: diagnoses prior knowledge, calibrates explanation depth and format, and checks retention before advancing. Use when teaching a user any topic, when an explanation is not landing, or when building durable understanding across multiple sessions.",
-    "version": "1.0.1",
+    "description": "Teaches any topic in adaptive sessions: probes prior knowledge, calibrates depth and format, and checks retention before advancing. Use when the user says teach me, explain this, ELI5, break it down, or help me understand or study something, when an explanation is not landing (re-asks, blank answers, \"makes sense\" with no follow-through), when material learned earlier keeps getting forgotten, when practice answers are confidently wrong, or when pacing study before an exam or deadline. Not for building a multi-week study plan or curriculum tracker, and not for authoring flashcard decks.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/learning",
-    "summary": "Mode: act-as. The agent is the teacher, running the session directly with the learner. When To Use - User asks to be taught something: \"teach me X\", \"explain Y\", \"I don't understand Z\" - An explanation did not land: the ",
+    "summary": "Mode: act-as. The agent is the teacher, running the session directly with the learner. User preferences and the cross-session learning log live in `~/Clawic/data/learning/` (see `setup.md` on first use, `memory-template.",
     "repositoryPath": "skills/learning",
     "manifestPath": "registry/skills/learning.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/learning/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/learning/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/_meta.json"
     },
     {
-      "path": "criteria.md",
-      "downloadPath": "skills/learning/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/criteria.md"
+      "path": "formats.md",
+      "downloadPath": "skills/learning/formats.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/formats.md"
     },
     {
-      "path": "dimensions.md",
-      "downloadPath": "skills/learning/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/dimensions.md"
+      "path": "learner-states.md",
+      "downloadPath": "skills/learning/learner-states.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/learner-states.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/learning/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/SKILL.md"
+      "path": "memory-template.md",
+      "downloadPath": "skills/learning/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/memory-template.md"
+    },
+    {
+      "path": "misconceptions.md",
+      "downloadPath": "skills/learning/misconceptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/misconceptions.md"
+    },
+    {
+      "path": "questions.md",
+      "downloadPath": "skills/learning/questions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/questions.md"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/learning/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/retention.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/learning/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/setup.md"
+    },
+    {
+      "path": "stuck.md",
+      "downloadPath": "skills/learning/stuck.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/stuck.md"
+    },
+    {
+      "path": "topic-types.md",
+      "downloadPath": "skills/learning/topic-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/topic-types.md"
     }
   ]
 }

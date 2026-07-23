@@ -4388,10 +4388,11 @@
     },
     {
       "slug": "learning",
-      "name": "Learning",
-      "description": "Auto-learns how you learn best. Adapts teaching style, format, and depth to you.",
-      "version": "1.0.1",
-      "summary": "Auto-Adaptive Learning Preferences This skill auto-evolves. Edit sections below as you learn how the user best acquires knowledge. **Rules:** - Detect patterns from what explanations work and which don't - Support all le",
+      "name": "learning",
+      "description": "Teaches any topic in adaptive sessions: probes prior knowledge, calibrates depth and format, and checks retention before advancing. Use when the user says teach me, explain this, ELI5, break it down, or help me understand or study something, when an explanation is not landing (re-asks, blank answers, \"makes sense\" with no follow-through), when material learned earlier keeps getting forgotten, when practice answers are confidently wrong, or when pacing study before an exam or deadline. Not for building a multi-week study plan or curriculum tracker, and not for authoring flashcard decks.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/learning",
+      "summary": "Mode: act-as. The agent is the teacher, running the session directly with the learner. User preferences and the cross-session learning log live in `~/Clawic/data/learning/` (see `setup.md` on first use, `memory-template.",
       "repositoryPath": "skills/learning",
       "manifestPath": "registry/skills/learning.json"
     },
