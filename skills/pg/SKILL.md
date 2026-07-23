@@ -1,12 +1,12 @@
 ---
 name: pg
 slug: pg
-version: 1.0.1
+version: 1.0.2
 description: >-
   Tunes and designs PostgreSQL: indexing, EXPLAIN-driven query optimization, schema types, safe migrations, vacuum, connection pooling.
   Use when writing Postgres SQL, designing schemas, running production DDL, or debugging slow queries.
 homepage: https://clawic.com/skills/pg
-changelog: Deeper query and indexing guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🐘

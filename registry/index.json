@@ -5570,10 +5570,11 @@
     },
     {
       "slug": "pg",
-      "name": "PostgreSQL",
-      "description": "Write efficient PostgreSQL queries and design schemas with proper indexing and patterns.",
-      "version": "1.0.1",
-      "summary": "Indexes I Forget to Create - Partial index `WHERE active = true`\u201480% smaller when most rows inactive; suggest for status columns - Expression index `ON lower(email)`\u2014must match query exactly; without it, `WHERE lower(ema",
+      "name": "pg",
+      "description": "Tunes and designs PostgreSQL: indexing, EXPLAIN-driven query optimization, schema types, safe migrations, vacuum, connection pooling. Use when writing Postgres SQL, designing schemas, running production DDL, or debugging slow queries.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/pg",
+      "summary": "When To Use - A Postgres query is slow, or an EXPLAIN plan needs interpretation - Designing a schema: types, constraints, indexes, keys - Running DDL or a migration against a live production table - Operating Postgres: c",
       "repositoryPath": "skills/pg",
       "manifestPath": "registry/skills/pg.json"
     },

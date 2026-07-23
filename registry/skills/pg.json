@@ -11,23 +11,23 @@
   "skill": {
     "slug": "pg",
     "name": "pg",
-    "description": "Write efficient PostgreSQL queries and design schemas with proper indexing and patterns.",
-    "version": "1.0.1",
+    "description": "Tunes and designs PostgreSQL: indexing, EXPLAIN-driven query optimization, schema types, safe migrations, vacuum, connection pooling. Use when writing Postgres SQL, designing schemas, running production DDL, or debugging slow queries.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/pg",
-    "summary": "Indexes I Forget to Create - Partial index `WHERE active = true`—80% smaller when most rows inactive; suggest for status columns - Expression index `ON lower(email)`—must match query exactly; without it, `WHERE lower(ema",
+    "summary": "When To Use - A Postgres query is slow, or an EXPLAIN plan needs interpretation - Designing a schema: types, constraints, indexes, keys - Running DDL or a migration against a live production table - Operating Postgres: c",
     "repositoryPath": "skills/pg",
     "manifestPath": "registry/skills/pg.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/pg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/pg/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pg/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json"
     }
   ]
 }
