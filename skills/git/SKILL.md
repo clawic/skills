@@ -1,10 +1,10 @@
 ---
 name: git
 slug: git
-version: 1.0.9
+version: 1.0.10
 description: Git commits, branches, rebases, merges, conflict resolution, history recovery, and team workflows for safe version control. Use when (1) the task touches Git, a repository, commits, branches, merges, rebases, or pull requests; (2) history safety, collaboration, or recovery matter; (3) the agent should automatically apply Git discipline instead of improvising.
 homepage: https://clawic.com/skills/git
-changelog: Deeper workflows, recovery playbooks, and gotchas
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 📚
@@ -17,7 +17,7 @@ metadata:
     - win32
     displayName: Git
     configPaths:
-    - ~/git/
+    - ~/Clawic/data/git/
 ---
 
 ## When To Use
@@ -27,7 +27,7 @@ metadata:
 - Before any history rewrite or force push: run the Output Gates below first.
 - Not for GitLab pipelines or merge-request settings — that is the `gitlab` skill.
 
-Stateless: apply by default whenever Git work is part of the job. If the user shares workflow preferences, they live in `~/git/memory.md` (→ `setup.md`).
+Stateless: apply by default whenever Git work is part of the job. If the user shares workflow preferences, they live in `~/Clawic/data/git/memory.md` (→ `setup.md`).
 
 ## Quick Reference
 

@@ -11,14 +11,19 @@
   "skill": {
     "slug": "git",
     "name": "git",
-    "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, team workflows, and the commands needed for safe day-to-day version control. Use when (1) the task touches Git, a repository, commits, branches, merges, rebases, or pull requests; (2) history safety, collaboration, or recovery matter; (3) the agent should automatically apply Git discipline instead of improvising.",
-    "version": "1.0.9",
+    "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, and team workflows for safe version control. Use when (1) the task touches Git, a repository, commits, branches, merges, rebases, or pull requests; (2) history safety, collaboration, or recovery matter; (3) the agent should automatically apply Git discipline instead of improvising.",
+    "version": "1.0.10",
     "homepage": "https://clawic.com/skills/git",
-    "summary": "When to Use Use when the task involves Git repositories, branches, commits, merges, rebases, pull requests, conflict resolution, history inspection, or recovery. This skill is stateless and should be applied by default w",
+    "summary": "When To Use - Any task touching a Git repository: commits, branches, merges, rebases, pull requests, tags, stashes. - Something looks lost \u2014 deleted branch, bad rebase, hard reset, vanished stash: recovery is a first-cla",
     "repositoryPath": "skills/git",
     "manifestPath": "registry/skills/git.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/git/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/git/_meta.json",
@@ -63,11 +68,6 @@
       "path": "setup.md",
       "downloadPath": "skills/git/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/git/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md"
     }
   ]
 }

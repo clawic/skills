@@ -35,7 +35,7 @@ Only configure if you have strong preferences. Otherwise, best practices are app
 
 ## What Gets Saved
 
-If you share preferences, they go to `~/git/memory.md`:
+If you share preferences, they go to `~/Clawic/data/git/memory.md`:
 - Your preferred workflow style
 - Commit conventions you use
 - Any project-specific patterns

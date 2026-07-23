@@ -1,6 +1,6 @@
 # Memory Template — Git
 
-Create `~/git/memory.md` only if user shares preferences:
+Create `~/Clawic/data/git/memory.md` only if user shares preferences:
 
 ```markdown
 # Git Preferences
