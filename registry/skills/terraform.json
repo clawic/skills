@@ -11,23 +11,23 @@
   "skill": {
     "slug": "terraform",
     "name": "terraform",
-    "description": "Avoid common Terraform mistakes — state corruption, count vs for_each, lifecycle traps, and dependency ordering.",
-    "version": "1.0.1",
+    "description": "Terraform state surgery, safe refactoring with moved/import/removed blocks, count vs for_each, plan review, and drift control. Use when writing HCL, debugging terraform plan/apply errors, restructuring state or modules, or setting up backends and CI pipelines.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/terraform",
-    "summary": "State Management - Local state gets corrupted/lost — use remote backend (S3, GCS, Terraform Cloud) - Multiple people running simultaneously — enable state locking with DynamoDB or equivalent - Never edit state manually —",
+    "summary": "When To Use - Writing or reviewing Terraform/HCL: resource design, count vs for_each, module boundaries - Debugging plan/apply failures, permanent diffs, stuck state locks, drift - Refactoring live infrastructure: rename",
     "repositoryPath": "skills/terraform",
     "manifestPath": "registry/skills/terraform.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/terraform/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/terraform/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/terraform/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json"
     }
   ]
 }

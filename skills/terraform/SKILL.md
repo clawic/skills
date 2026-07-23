@@ -1,10 +1,10 @@
 ---
 name: terraform
 slug: terraform
-version: 1.0.1
+version: 1.0.2
 description: Terraform state surgery, safe refactoring with moved/import/removed blocks, count vs for_each, plan review, and drift control. Use when writing HCL, debugging terraform plan/apply errors, restructuring state or modules, or setting up backends and CI pipelines.
 homepage: https://clawic.com/skills/terraform
-changelog: Deeper state and module guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🟪
