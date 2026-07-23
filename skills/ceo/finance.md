@@ -70,14 +70,16 @@ Build three scenarios for any major decision:
 
 ### Revenue Multiples by Stage
 
-| Stage | Typical Multiple | Factors |
-|-------|------------------|---------|
-| Seed | 10-20× ARR | Team, TAM, vision |
-| Series A | 8-15× ARR | Growth rate, retention |
-| Series B | 6-12× ARR | Unit economics, moat |
-| Series C+ | 5-10× ARR | Profitability path |
+Rule-of-thumb ranges only — not published benchmarks. Multiples swing wildly with the funding cycle (2021 peaks were 2-3× these; 2023 troughs were roughly half), so pull live comps before anchoring on any number here.
 
-*Multiples vary by market conditions, sector, and growth rate.*
+| Stage | Rule-of-thumb Multiple | Factors |
+|-------|------------------------|---------|
+| Seed | ~10-20× ARR | Team, TAM, vision |
+| Series A | ~8-15× ARR | Growth rate, retention |
+| Series B | ~6-12× ARR | Unit economics, moat |
+| Series C+ | ~5-10× ARR | Profitability path |
+
+*Multiples vary by market conditions, sector, and growth rate. Verify against current comparables — these are convention, not fact.*
 
 ### Valuation Drivers
 

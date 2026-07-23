@@ -2,13 +2,13 @@
 
 ## CEO Time Allocation
 
-50% of CEO time goes to people. This is not overhead — it IS the job.
+As a rule of thumb, roughly half a CEO's time goes to people — hiring, coaching, culture, exits. This is not overhead; it IS the job. Treat the split below as a target to defend against calendar drift, not a measured law.
 
 | Activity | Cadence | Purpose |
 |----------|---------|---------|
 | 1:1s with directs | Weekly | Alignment, coaching, blockers |
 | Skip levels | Monthly | Ground truth, culture pulse |
-| Recruiting | 20% of time | Pipeline never stops |
+| Recruiting | Aim ~20% of time in growth phases | Pipeline never stops |
 | Culture work | Ongoing | Modeling, reinforcing, correcting |
 
 ## Culture Definition
