@@ -82,9 +82,11 @@ def generate_lyrics(topic):
 ### Usage
 
 ```python
-# Simple generation
+# Simple generation — tasks typically return 2 clips; evaluate both,
+# they are two rolls of the same prompt (see SKILL.md Core Rule 2)
 songs = generate("upbeat electronic dance track female vocals")
-print(f"Audio: {songs[0]['audio_url']}")
+for s in songs:
+    print(f"Audio: {s['audio_url']}")
 
 # Custom with lyrics
 songs = generate_custom(
@@ -160,7 +162,7 @@ def generate_evolink(prompt, model="suno-v4", duration=120):
     return None
 ```
 
-### Models
+### Models (as of 2025 — check provider docs for current list)
 - `suno-v4` — Default, balanced
 - `suno-v4.5` — Better style control
 - `suno-v5` — Studio-grade quality
@@ -202,5 +204,5 @@ def safe_generate(prompt, retries=3):
 1. **Store keys in env vars** — Never in code or plain files
 2. **Handle rate limits** — Implement backoff
 3. **Poll with delays** — 5 second intervals minimum
-4. **Download quickly** — Audio URLs may expire
-5. **Log successful prompts** — Reuse what works
+4. **Download immediately** — Audio URLs expire; save to `~/clawic/suno/songs/`
+5. **Log successful prompts verbatim** — In `~/clawic/suno/memory.md`; rewording a working prompt resets the odds

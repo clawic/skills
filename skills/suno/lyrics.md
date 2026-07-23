@@ -1,331 +1,68 @@
 # Lyrics Guide — Suno
 
+Everything outside `[brackets]` gets sung. That single fact drives most of this file.
+
 ## Structure Tags
 
-Suno recognizes these section markers:
+Recognized markers — bracketed, each on its own line:
 
 ```
-[Verse]
-[Verse 1], [Verse 2], etc.
-[Chorus]
-[Pre-Chorus]
-[Bridge]
-[Outro]
-[Intro]
-[Hook]
-[Instrumental]
-[Break]
+[Intro] [Verse] [Verse 1] [Pre-Chorus] [Chorus] [Post-Chorus]
+[Hook] [Bridge] [Break] [Instrumental] [Guitar Solo]
+[Build] [Drop] [Outro] [Fade Out] [End]
 ```
 
-## Basic Song Structure
+Tags steer, they don't command: the model follows them most of the time. If a tag gets ignored, regenerate or restructure — stacking more tags at the same spot makes output worse, not better.
+
+## Delivery Control (the invisible knobs)
+
+- **Parentheses = backing vocals / ad-libs**: `(ooh)`, `(let's go)`, `(rise up!)` — sung under or after the main line. This is how call-and-response choruses are written.
+- **ALL CAPS tends toward belted/shouted delivery**; lowercase stays soft. A tendency, not a switch — pair it with a vocal cue in the tag.
+- **Vocal direction inside the tag**: `[Verse - whispered]`, `[Chorus - powerful]`, `[Bridge - spoken word]`, `[Outro - fading]`.
+- **Punctuation phrases the vocal**: commas insert breaths, ellipses stretch a line... exclamation marks push energy.
+- **Hyphenate to place syllables** when the model rushes or mangles a word: "to-night", "for-ev-er".
+- **Repeated exact text = repeated melody.** Identical `[Chorus]` text on every repeat is how you get one chorus melody instead of three different ones.
+- **Language**: write lyrics in the target language and also name it in the style field ("Spanish vocals", "Japanese city pop"); untagged non-English lyrics get inconsistent pronunciation.
+
+## Structures That Work
 
 ### Pop/Rock Standard
 ```
-[Verse 1]
-4-6 lines
-
-[Chorus]
-2-4 lines (repeat hook)
-
-[Verse 2]
-4-6 lines
-
-[Chorus]
-2-4 lines
-
-[Bridge]
-2-4 lines (contrast)
-
-[Chorus]
-Final chorus
-
-[Outro]
-2 lines (fade)
+[Verse 1] 4-6 lines
+[Chorus] 2-4 lines (the hook)
+[Verse 2] 4-6 lines
+[Chorus] identical text
+[Bridge] 2-4 lines (contrast: new chord feel, new angle)
+[Chorus] identical text
+[Outro] 1-2 lines
+[End]
 ```
 
 ### Verse-Heavy (Folk/Hip Hop)
 ```
-[Verse 1]
-8-12 lines (storytelling)
-
+[Verse 1] 8-12 lines (storytelling)
+[Chorus] 2-4 lines
+[Verse 2] 8-12 lines
 [Chorus]
-2-4 lines
-
-[Verse 2]
-8-12 lines
-
+[Verse 3] 8-12 lines
 [Chorus]
-2-4 lines
-
-[Verse 3]
-8-12 lines
-
-[Chorus]
-Final
+[End]
 ```
 
 ### EDM/Dance
 ```
-[Intro]
-2 lines or [Instrumental]
-
-[Verse]
-4 lines
-
+[Intro] 2 lines or [Instrumental]
+[Verse] 4 lines
+[Build] 2 lines
+[Drop] 2 lines or [Instrumental]
+[Verse 2] 4 lines
 [Build]
-2 lines (building energy)
-
 [Drop]
-2 lines or [Instrumental]
-
-[Verse 2]
-4 lines
-
-[Drop]
-Repeat
-
 [Outro]
-Fade
+[End]
 ```
 
-## Rhyme Schemes
-
-### AABB (Simple, Catchy)
-```
-[Verse]
-Walking down the street tonight (A)
-Everything is feeling right (A)
-Stars are shining up above (B)
-Thinking about the one I love (B)
-```
-
-### ABAB (Classic, Narrative)
-```
-[Verse]
-The morning sun begins to rise (A)
-I watch the world come alive (B)
-With dreams reflected in your eyes (A)
-This moment I want to survive (B)
-```
-
-### ABCB (Subtle, Sophisticated)
-```
-[Verse]
-The rain falls down on empty streets (A)
-I'm walking through the night (B)
-Memories of what we had (C)
-Still burning ever bright (B)
-```
-
-### Free (Modern, Emotional)
-```
-[Verse]
-Sometimes I wonder
-If the stars remember our names
-We were young once
-Dancing in the flames
-```
-
-## Syllable Matching
-
-Keep syllable counts similar for matching lines:
-
-### Good
-```
-Walking down the street (5)
-Looking for the beat (5)
-
-I can see the light (5)
-Everything's alright (5)
-```
-
-### Bad
-```
-Walking down the street (5)
-I am looking everywhere for something to complete (12)
-```
-
-## Hook Techniques
-
-### Repetition
-```
-[Chorus]
-We're gonna make it
-We're gonna make it through the night
-We're gonna make it
-Everything will be alright
-```
-
-### Question/Answer
-```
-[Verse]
-Why does the rain keep falling down?
-
-[Chorus]
-Because the sky knows how I feel
-The tears I hide are all too real
-```
-
-### Contrast
-```
-[Verse]
-Quiet whispers in the dark
-Waiting for the spark
-
-[Chorus]
-EXPLODE into the light!
-We're burning so bright tonight!
-```
-
-## Vocal Cues
-
-Add these in brackets for dynamic control:
-
-```
-[Verse - soft]
-gentle lyrics here
-
-[Chorus - powerful]
-BIG EMOTIONAL LYRICS
-
-[Bridge - whispered]
-intimate quiet section
-
-[Outro - fading]
-slowly ending here
-```
-
-## Emotional Arc
-
-### Build-Up Pattern
-```
-[Verse 1] - Establish situation (calm)
-[Chorus] - Emotional release (medium)
-[Verse 2] - Develop conflict (building)
-[Chorus] - Bigger release (powerful)
-[Bridge] - Climax or twist (intense)
-[Final Chorus] - Resolution (triumphant)
-```
-
-### Storytelling Pattern
-```
-[Verse 1] - Setup: introduce character/situation
-[Verse 2] - Conflict: problem emerges
-[Chorus] - Theme: emotional core
-[Verse 3] - Resolution: how it ends
-[Outro] - Reflection
-```
-
-## Writing Tips
-
-### Do
-- Use concrete imagery over abstract concepts
-- Match syllables across rhyming lines
-- Vary line lengths for rhythm interest
-- Repeat key phrases for memorability
-- Use present tense for immediacy
-
-### Don't
-- Overcomplicate vocabulary
-- Use too many syllables per line
-- Mix too many metaphors
-- Rhyme every single line
-- Be too literal or cliché
-
-## Templates
-
-### Love Song
-```
-[Verse 1]
-When I see you standing there
-Time stops, I forget to breathe
-Your smile lights up the air
-Something I could never leave
-
-[Chorus]
-You're the one I've been waiting for
-The answer to my prayer
-Forever isn't long enough
-When you're standing there
-
-[Verse 2]
-Every moment that we share
-Feels like a dream come true
-Nothing else could compare
-To the way I feel with you
-
-[Chorus]
-...
-```
-
-### Breakup/Sad
-```
-[Verse 1]
-Empty rooms and photographs
-Memories we used to share
-I'm still searching for the halves
-Of the heart you left somewhere
-
-[Chorus]
-Why did you have to go
-Leave me standing in the rain
-Now all I seem to know
-Is the echo of the pain
-
-...
-```
-
-### Empowerment/Anthemic
-```
-[Verse 1]
-They said I couldn't make it
-Told me I would fall
-But I refused to break, kid
-Now I'm standing tall
-
-[Chorus]
-Rise up! (rise up!)
-We're stronger than they know
-Rise up! (rise up!)
-It's time to let it show
-
-...
-```
-
-### Party/Fun
-```
-[Verse 1]
-Friday night, feeling alive
-Music's pumping, ready to dive
-Into the beat, onto the floor
-This is what we're living for
-
-[Chorus]
-Let's go! (let's go!)
-Tonight we own the night
-Let's go! (let's go!)
-Everything feels so right
-
-...
-```
-
-## Instrumental Sections
-
-```
-[Instrumental]
-(guitar solo)
-
-[Break]
-(drum break)
-
-[Build]
-(rising synth)
-
-[Drop]
-(bass drop, crowd goes wild)
-```
-
-## Length Guidelines
+## Word Budget
 
 | Section | Lines | Words |
 |---------|-------|-------|
@@ -334,4 +71,58 @@ Everything feels so right
 | Bridge | 2-4 | 15-30 |
 | Outro | 1-2 | 5-15 |
 
-**Total song:** ~150-300 words for a 2-3 minute track.
+**Total: 150-300 words for a 2-3 minute track.** Overshoot and the vocal turns rushed and half-spoken; undershoot and Suno pads with repeats and instrumentals (fine for EDM, odd for ballads). Keep paired lines within a couple of syllables of each other when you want the melody to repeat cleanly:
+
+```
+Walking down the street (5)
+Looking for the beat (5)     ← same melody slot
+
+Walking down the street (5)
+I am looking everywhere for something to complete (12)   ← forces a new melody
+```
+
+## Endings
+
+Close every standalone song with `[End]` as the final tag — clips without an ending cue stop mid-phrase (→ SKILL.md Core Rule 4). Options before it:
+
+```
+[Outro]
+last thematic lines
+
+[End]
+```
+or, for instrumental fades: `[Fade Out]` then `[End]`. A final chorus marked `[Chorus - big finish]` before the outro lands the triumphant ending.
+
+## Instrumental Sections
+
+Parenthetical text inside an instrumental tag describes what plays, not what is sung:
+
+```
+[Instrumental]
+(melancholic guitar solo)
+
+[Break]
+(drum break)
+
+[Drop]
+(heavy bass drop)
+```
+
+## Emotional Arc
+
+Map dynamics onto sections so the song moves somewhere:
+
+```
+[Verse 1] establish, calm → [Chorus] release → [Verse 2] complicate, building
+→ [Chorus] bigger → [Bridge] twist or peak → [Final Chorus] resolution
+```
+
+For narrative songs: setup ([Verse 1]) → conflict ([Verse 2]) → theme ([Chorus]) → resolution ([Verse 3]) → reflection ([Outro]).
+
+## Writing Judgment Calls
+
+- **Don't over-rhyme.** Near-rhyme reads modern; perfect AABB on every line reads nursery-rhyme. Suno handles slant rhyme fine.
+- Concrete imagery over abstractions — "empty rooms and photographs" sings better than "the sadness of loss".
+- Vary line lengths across sections (not within melody pairs) so the song breathes.
+- One metaphor system per song; mixed metaphors become word salad at singing speed.
+- Repetition is a feature: repeating a phrase 3-4 times in a chorus is what makes it a hook, not lazy writing.

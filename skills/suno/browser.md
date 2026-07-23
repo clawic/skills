@@ -2,136 +2,64 @@
 
 ## When to Use
 
-- User prefers visual interaction
-- No API key configured
-- Testing prompts before committing to API credits
-- Browsing and listening before downloading
+- No API key configured, browser tool available
+- Testing prompts before spending API credits
+- Features hosted APIs don't expose: extend from timestamp, crop, personas, stems
+- User wants to listen and pick before downloading
 
-## Navigate to Suno
+Use whatever browser automation tool the agent has (navigate, snapshot, type, click). Steps below are tool-agnostic.
 
-```
-browser action=open targetUrl="https://suno.com/create" profile=openclaw
-```
+## Login First
 
-After login, you'll see the creation interface.
+Suno requires login to generate. If the create page redirects to login, pause automation and ask the user to complete login manually in the browser — never handle their credentials.
 
-## Generation Modes
+## Generate: Simple Mode
 
-### Simple Mode
-1. Enter a text description
-2. Toggle "Instrumental" if no vocals needed
-3. Click "Create"
-4. Wait 30-60 seconds
+1. Navigate to `https://suno.com/create`
+2. Snapshot the page; identify the description input
+3. Type the style prompt (crafting: `prompts.md`)
+4. Toggle "Instrumental" if no vocals wanted
+5. Click Create; generation takes 30-90 seconds and returns 2 clips
+6. Listen/evaluate both — they are two rolls of the same prompt
 
-### Custom Mode
-1. Click "Custom" toggle
-2. Enter lyrics with tags ([Verse], [Chorus], etc.)
-3. Enter style tags (genre, mood, tempo)
-4. Optionally set a title
-5. Click "Create"
+## Generate: Custom Mode
 
-## Step-by-Step: Simple Mode
+Custom mode separates lyrics from style — use it whenever the user has words or structure in mind:
 
-### 1. Open Create Page
-```
-browser action=navigate targetUrl="https://suno.com/create"
-```
-
-### 2. Take Snapshot
-```
-browser action=snapshot
-```
-Identify the prompt input field.
-
-### 3. Enter Prompt
-```
-browser action=act request={"kind":"type","ref":"prompt-input","text":"indie folk melancholic acoustic guitar soft female vocals"}
-```
-
-### 4. Click Create
-```
-browser action=act request={"kind":"click","ref":"create-button"}
-```
-
-### 5. Wait for Generation
-Generation takes 30-60 seconds. Poll the page for completion.
-
-### 6. Download Audio
-Locate and click the download button.
-
-## Step-by-Step: Custom Mode
-
-### 1. Enable Custom Mode
-```
-browser action=act request={"kind":"click","ref":"custom-toggle"}
-```
-
-### 2. Enter Lyrics
-```
-browser action=act request={"kind":"type","ref":"lyrics-textarea","text":"[Verse]\nWalking down the street\nLooking for the beat\n\n[Chorus]\nThis is my song\nAll night long"}
-```
-
-### 3. Enter Style Tags
-```
-browser action=act request={"kind":"type","ref":"style-input","text":"pop, upbeat, female vocals, energetic"}
-```
-
-### 4. Set Title
-```
-browser action=act request={"kind":"type","ref":"title-input","text":"Street Beat"}
-```
-
-### 5. Create
-```
-browser action=act request={"kind":"click","ref":"create-button"}
-```
-
-## Login Required
-
-Suno requires login to generate music. The user should log in manually before automation.
-
-If redirected to login, pause automation and ask the user to complete login in the browser.
+1. Enable the Custom toggle
+2. Lyrics box: structured lyrics with `[Verse]`/`[Chorus]` tags, `[End]` last (`lyrics.md`)
+3. Style box: 8-12 comma-separated terms (`styles.md`)
+4. Exclude Styles (if present): genres/elements to push away — this is the only working negation
+5. Optional title, then Create
 
 ## Extending Songs
 
-After initial generation:
+The workflow that separates usable long tracks from mush:
 
-1. Click on the generated song
-2. Click "Extend" or "Continue"
-3. Optionally modify the prompt
-4. Click Create
-5. Repeat for longer songs
+1. Play the clip; note the timestamp where it degrades (melody drifts, mix collapses)
+2. Click Extend and **set the extension point to the last good moment**, not the clip's end — everything after the chosen point is discarded and regenerated
+3. Keep the style string identical for seamless joins; change it deliberately only for a section shift
+4. Repeat until the song reaches its `[End]`
+5. Use "Get Whole Song" to stitch all segments into one track
+
+Crop before extend when the bad part is in the middle of good material.
 
 ## Downloading
 
-### From Library
-1. Navigate to library
-2. Find the song
-3. Click three-dot menu
-4. Select "Download"
+- From library: three-dot menu on the song → Download → MP3 (paid tiers also expose WAV and stems where available)
+- Download soon after generation when automating; don't rely on page URLs staying valid across sessions
 
-### From Generation Page
-After generation:
-1. Look for download icon
-2. Click to download MP3
+## Credits and Limits (as of 2025 — verify at suno.com/account)
+
+- Free tier: 50 credits/day; one generation costs 10 credits and returns 2 clips → 5 runs (10 clips) per day
+- Worked example: an extend-built 4-minute song needing 3 extend runs plus 2 initial attempts = 5 runs = a full free day. Budget before starting, or confirm a paid plan
+- Commercial rights require a paid plan at generation time (→ SKILL.md Common Traps)
 
 ## Common Issues
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
-| Login required | Session expired | Re-login |
-| Create disabled | Not logged in | Check login |
-| Generation stuck | Server busy | Wait or retry |
-| Download fails | URL expired | Regenerate |
-
-## Rate Limits
-
-- **Free tier:** ~50 generations per day
-- **Pro tier:** Higher limits
-- Wait between rapid generations
-
-## Tips
-
-1. **Test prompts visually** — See what works before using API
-2. **Use browser for listening** — Evaluate results in player
-3. **Bookmark good generations** — Save URLs for reference
+| Create button disabled | Not logged in or out of credits | Check login, then credit balance |
+| Generation stuck >5 min | Server busy | Reload page; the task usually completed server-side |
+| Download fails | Stale page state | Reload library, retry from three-dot menu |
+| Both clips off-genre | Prompt buried the genre | Front-load genre terms (`prompts.md`), regenerate |

@@ -1,6 +1,6 @@
 # Memory Template — Suno
 
-Create `~/suno/memory.md` with this structure:
+Create `~/clawic/suno/memory.md` with this structure:
 
 ```markdown
 # Suno Memory
@@ -61,7 +61,7 @@ integration: pending | web | api | browser
 
 ## Projects Folder
 
-For users with multiple projects, create `~/suno/projects/`:
+For users with multiple projects, create `~/clawic/suno/projects/`:
 
 ```markdown
 # Project: [Name]
@@ -79,12 +79,12 @@ For users with multiple projects, create `~/suno/projects/`:
 
 ## Songs Folder
 
-Optional: `~/suno/songs/` for downloaded audio files.
+Optional: `~/clawic/suno/songs/` for downloaded audio files.
 
 ## Key Principles
 
 - Learn preferences through creation, not interrogation
-- Remember what prompts worked for reuse
+- Save working prompts verbatim for reuse
 - Note reactions to different styles
 - Never store actual API keys in memory files
 - Update `last` date on each session

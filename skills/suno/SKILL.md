@@ -1,165 +1,134 @@
 ---
 name: suno
 slug: suno
-version: 1.0.1
-description: Generate AI music with Suno via API or browser, with prompt engineering and song extensions.
+version: 1.0.2
+description: >-
+  Generates AI music with Suno: style prompts, structured lyrics, song extension, and API
+  or browser workflows. Use when the user wants songs, jingles, or background tracks.
 homepage: https://clawic.com/skills/suno
-changelog: Cleaned up stray internal files and refreshed the guidance
+changelog: Deeper prompt engineering and workflow guidance
 metadata:
   clawdbot:
     emoji: 🎵
-    requires:
-      bins: []
     os:
     - linux
     - darwin
     - win32
     displayName: Suno
+    configPaths:
+    - ~/clawic/suno/
 ---
+
+This skill stores all persistent data under `~/clawic/suno/` (preferences, project tracking, downloaded audio). If you have data at the old `~/suno/` location, move it to `~/clawic/suno/`.
+
+## When To Use
+
+- User wants a song, jingle, theme, or background track generated with Suno
+- User has lyrics and wants them turned into audio
+- User wants Suno prompts, style tags, or structured lyrics crafted for manual pasting
+- User wants programmatic generation through a hosted Suno API
+- Not for editing or mixing existing audio files — use `audio` or `ffmpeg`
+
+## Quick Reference
+
+| Situation | Read |
+|-----------|------|
+| First run, empty memory dir | `setup.md` |
+| Writing or reviewing memory | `memory-template.md` |
+| Generating via hosted API, polling, errors | `api.md` |
+| Driving suno.com with a browser tool; credits and limits | `browser.md` |
+| Crafting the style prompt | `prompts.md` |
+| Picking style/genre/mood vocabulary | `styles.md` |
+| Writing lyrics, structure tags, delivery control | `lyrics.md` |
+| Anything else about generating with Suno | This file covers it |
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines.
-
-## When to Use
-
-User wants to generate music with Suno. Agent can use hosted APIs for programmatic generation, browser automation for direct platform interaction, or guide prompt engineering for manual use.
-
-## Architecture
-
-Memory at `~/suno/`. See `memory-template.md` for structure.
+On first use (no `~/clawic/suno/` directory), read `setup.md`.
 
 ```
-~/suno/
+~/clawic/suno/
 ├── [memory.md]       # Created on first use: preferences, successful prompts
 ├── [projects/]       # Per-project song tracking
 └── [songs/]          # Downloaded audio files
 ```
 
-## Quick Reference
-
-| Topic | File |
-|-------|------|
-| Setup | `setup.md` |
-| Memory | `memory-template.md` |
-| API usage | `api.md` |
-| Browser automation | `browser.md` |
-| Prompt crafting | `prompts.md` |
-| Style tags | `styles.md` |
-| Lyrics guide | `lyrics.md` |
+Structure in `memory-template.md`.
 
 ## Core Rules
 
-### 1. Choose the Right Approach
+### 1. Style Field Describes; Lyrics Field Gets Sung
+Genre words typed into the lyrics box become sung words ("upbeat pop song" turns into the opening line). Sound goes in the style field, words in the lyrics field, structure in `[bracketed]` tags on their own lines.
+
+### 2. Treat Each Generation as Sampling
+One run returns two clips from the same prompt — two rolls, not a draft and a revision. When a roll lands, save its exact style string to `memory.md` and reuse it verbatim; rewording a working prompt resets the odds.
+
+### 3. Pick the Method by Situation
 | Situation | Method |
 |-----------|--------|
-| Programmatic generation | Hosted API (aimusicapi.ai, EvoLink) |
-| Visual interaction | Browser at suno.com |
-| Just need prompts | Prompt engineering only |
+| Deliver audio files programmatically | Hosted API (`api.md`) |
+| No API key, browser tool available | Automate suno.com (`browser.md`) |
+| User will paste into suno.com themselves | Craft prompt + lyrics only |
+| Unclear (default) | Ask: "API key, browser automation, or just prompts?" |
 
-### 2. Structure Prompts in Layers
+### 4. Force Endings
+Clips without an ending cue stop mid-phrase. Close the lyrics with an `[Outro]` section and `[End]` as the final tag; for instrumentals, `[Fade Out]` then `[End]`.
+
+### 5. Long Songs Are Built, Not One-Shotted
+1. Generate the strongest opening clip you can
+2. Find where it degrades; extend FROM the last good moment (pick the timestamp), not from the raw end
+3. Repeat until the `[End]`, then stitch with "Get Whole Song"
+
+Target 2-4 minutes. Suno >=3.5 generates 4-minute clips and >=4.5 allows 8-minute songs, but one-shot epics drift in melody and mix — the extend loop is how coherent long tracks actually get made.
+
+### 6. Translate Artist Names Into Attributes
+Moderation rejects or strips artist and brand names — and the credits are still spent. Convert with three knobs: voice texture + era + production. "Like Springsteen" → "raspy heartland rock male vocals, 80s arena production, driving piano and saxophone".
+
+### 7. API Pattern
+Generate → poll every 5 seconds → download immediately (audio URLs expire). Generation runs 30-90 seconds. Working code in `api.md`.
+
+## Prompt Essentials
+
+Layered formula (full guide: `prompts.md`, vocabulary: `styles.md`):
 ```
-[genre] [subgenre] [mood] [instruments] [voice] [era/influence]
+[genre] [subgenre] [mood] [tempo] [instruments] [vocals] [era/influence]
 ```
-Example: "indie folk melancholic acoustic guitar soft female vocals 90s"
+Example: "indie folk melancholic slow acoustic guitar soft female vocals 90s"
 
-### 3. Custom Lyrics Format
-```
-[Verse]
-Your lyrics here
+- Front-load: earlier terms steer harder in practice — genre first, garnish last.
+- Specificity beats quantity: "shoegaze" outsteers "rock, reverb, dreamy, atmospheric".
+- Stay within 8-12 style terms (`styles.md`).
+- Instrumental: set the instrumental toggle AND leave the lyrics box empty; stray text gets sung.
 
-[Chorus]
-Hook section
+## Output Gates
 
-[Bridge]
-Contrast
+Before submitting any generation, check:
+- No artist, band, or brand names in prompt or lyrics?
+- Everything that should not be sung is inside `[brackets]` on its own line?
+- Ending cue present (`[End]` last) for a standalone song?
+- Style terms 8-12, no contradictions (lo-fi + polished, happy + mournful)?
+- Instrumental toggle matches the request?
+- Commercial deliverable → user confirmed they are on a paid Suno plan?
 
-[Outro]
-Ending
-```
+## Traps
 
-### 4. Extend Songs Strategically
-Suno generates clips. Build full songs:
-1. Create initial clip with strong hook
-2. Extend with consistent style
-3. Add outro with ending indicators
-4. Target 2-4 minutes total
+| Trap | Why it fails | Do instead |
+|------|--------------|------------|
+| Artist/brand names in prompt | Rejected or stripped by moderation; credits spent | Voice + era + production attributes (rule 6) |
+| Free-plan track for commercial use | Rights attach at generation time under the plan then active; free-tier songs are non-commercial under Suno's terms | Confirm paid plan before generating deliverables; check current terms |
+| Regenerating a clip that was 90% right | Discards the roll that worked | Crop the bad part, extend from the last good bar |
+| Lyrics far over ~300 words for a ~3-minute song | Rushed, half-spoken delivery | Word budget in `lyrics.md` |
+| Different chorus wording on each repeat | Each variant gets its own melody | Paste identical chorus text every time |
+| Negations in the style field ("no drums") | Style terms act as attractors; the noun still pulls | Omit the term, or use Suno's Exclude Styles field |
 
-### 5. API Usage Pattern
-All APIs follow: generate → poll for completion → retrieve audio URL.
-Generation takes 30-90 seconds. See `api.md` for code examples.
+## Security & Privacy
 
-## API Integration
-
-### Hosted APIs (Recommended)
-Two main options for programmatic generation:
-
-**aimusicapi.ai** — Get API key at aimusicapi.ai
-**EvoLink** — Get API key at evolink.ai
-
-Both provide REST APIs for generation, custom lyrics, and extensions.
-See `api.md` for detailed code examples and endpoint documentation.
-
-### API Flow
-```python
-# Conceptual flow (see api.md for real code)
-1. POST /generate with prompt
-2. Receive task_id
-3. Poll /task/{id} every 5 seconds
-4. Get audio_url when status="completed"
-```
-
-## Browser Automation
-
-When API isn't available or user prefers visual interaction:
-
-### Generate at suno.com
-1. Navigate to suno.com/create
-2. Choose Simple (description) or Custom (lyrics + style)
-3. Enter prompt or lyrics
-4. Click Create, wait 30-60 seconds
-5. Download the audio
-
-See `browser.md` for detailed automation steps.
-
-## Prompt Patterns
-
-### By Genre
-| Genre | Pattern |
-|-------|---------|
-| Electronic | `electronic [subgenre] [mood] synth [texture]` |
-| Rock | `[sub]rock [energy] [guitars] [vocals] [decade]` |
-| Pop | `pop [mood] [tempo] [vocals] [production]` |
-| Hip Hop | `hip hop [subgenre] [beat] [flow] [era]` |
-
-### Voice Control
-```
-soft female vocals, ethereal, breathy
-deep male vocals, baritone, raspy
-instrumental, no vocals
-```
-
-See `prompts.md` and `styles.md` for comprehensive guides.
-
-## Common Traps
-
-| Trap | Problem | Solution |
-|------|---------|----------|
-| Vague prompts | Random output | Be specific with genre, mood |
-| Contradictions | Confuses model | Consistent descriptors |
-| Too many keywords | Dilutes focus | 8-12 key terms max |
-| No structure tags | Awkward lyrics | Use [Verse], [Chorus] |
-
-## Data Storage
-
-This skill creates `~/suno/` on first use:
+**Data storage.** This skill creates `~/clawic/suno/` on first use:
 - **memory file** — Preferences, successful prompts
 - **projects folder** — Per-project tracking
 - **songs folder** — Downloaded audio (optional)
 
-All data stays local. API keys should be stored as environment variables.
-
-## Scope
+All data stays local. API keys live in environment variables, never in files.
 
 **This skill does:**
 - Generate music via hosted APIs (requires API key from provider)
@@ -170,12 +139,10 @@ All data stays local. API keys should be stored as environment variables.
 
 **This skill does NOT:**
 - Store API keys in plain text files
-- Access files outside `~/suno/`
+- Access files outside `~/clawic/suno/`
 - Make requests without user direction
 
-## External Endpoints
-
-When using hosted APIs, requests go to:
+**External endpoints.** When using hosted APIs, requests go to:
 
 | Endpoint | Data Sent | Purpose |
 |----------|-----------|---------|
@@ -183,14 +150,12 @@ When using hosted APIs, requests go to:
 | api.evolink.ai | Prompts, lyrics | Music generation |
 | suno.com | Browser session | Direct platform access |
 
-API keys authenticate requests. Prompts and lyrics are sent for processing.
+API keys authenticate requests; prompts and lyrics are sent for processing.
 
-## Trust
-
-By using this skill with APIs, prompts and lyrics are sent to third-party services for music generation. Only use services you trust with your creative content.
+**Guardrails.** By using this skill with APIs, prompts and lyrics are sent to third-party services for music generation. Only use services you trust with your creative content.
 
 ## Related Skills
-More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
+More Clawic skills, get them at https://clawic.com/skills (install if the user confirms):
 - `audio` — Audio processing and editing
 - `video` — Combine music with video content
 - `ffmpeg` — Audio format conversion
@@ -199,3 +164,5 @@ More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the
 
 - If useful, star it: https://clawic.com/skills/suno
 - Latest version: https://clawic.com/skills/suno
+
+Part of [Clawic](https://clawic.com), the verified skill library. Get this skill: https://clawic.com/skills/suno.

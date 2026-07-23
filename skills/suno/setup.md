@@ -1,6 +1,6 @@
 # Setup — Suno
 
-Read this when `~/suno/` doesn't exist or is empty.
+Read this when `~/clawic/suno/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -38,7 +38,7 @@ Based on their setup:
 
 ## What You're Saving
 
-In `~/suno/memory.md`:
+In `~/clawic/suno/memory.md`:
 - Their preferred generation method
 - Favorite genres and styles
 - Vocal preferences

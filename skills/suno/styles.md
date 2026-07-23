@@ -1,5 +1,7 @@
 # Style Tags — Suno
 
+Vocabulary catalog for the style field. Precise subgenre tags steer harder than broad ones — "shoegaze" names a specific sound cluster; "rock with reverb" averages everything (→ `prompts.md`).
+
 ## Genre Tags
 
 ### Main Genres
@@ -19,7 +21,7 @@ alternative rock, indie rock, grunge, punk rock, metal, hard rock, classic rock,
 
 ### Hip Hop Subgenres
 ```
-trap, boom bap, lo-fi hip hop, conscious rap, gangsta rap, old school hip hop, underground hip hop, drill, mumble rap, cloud rap
+trap, boom bap, lo-fi hip hop, conscious rap, old school hip hop, underground hip hop, drill, cloud rap
 ```
 
 ### Other Subgenres
@@ -32,183 +34,93 @@ latin, reggaeton, bossa nova, salsa
 
 ## Mood Tags
 
-### Positive Energy
-```
-happy, uplifting, euphoric, joyful, triumphant, celebratory, hopeful, optimistic, playful, fun, carefree, exuberant
-```
+Pick one quadrant (energy × valence) and stay inside it:
 
-### Negative/Dark
 ```
-sad, melancholic, dark, haunting, mournful, somber, brooding, ominous, eerie, anxious, angry, aggressive
-```
-
-### Calm/Peaceful
-```
-peaceful, calm, serene, tranquil, relaxing, soothing, gentle, meditative, zen, ambient
-```
-
-### Intense/Energetic
-```
-energetic, intense, powerful, driving, explosive, dynamic, fierce, urgent, relentless, pumping
-```
-
-### Complex/Nuanced
-```
-bittersweet, nostalgic, wistful, reflective, contemplative, introspective, emotional, heartfelt, yearning, longing
+High energy, positive: euphoric, uplifting, triumphant, celebratory, anthemic, playful
+High energy, negative: aggressive, intense, dark, chaotic, urgent, relentless
+Low energy, positive: peaceful, serene, soothing, gentle, meditative, dreamy
+Low energy, negative: melancholic, somber, mournful, brooding, haunting, eerie
+Nuanced (use alone): bittersweet, nostalgic, wistful, yearning, introspective
 ```
 
 ## Tempo Tags
 
-### Fast (120+ BPM)
 ```
-uptempo, fast, energetic, driving, racing, frantic
-```
-
-### Medium (90-120 BPM)
-```
-mid-tempo, moderate, steady, groovy, walking pace
-```
-
-### Slow (60-90 BPM)
-```
-slow, downtempo, ballad, laid-back, unhurried
+Fast (120+ BPM): uptempo, driving, racing, frantic
+Medium (90-119 BPM): mid-tempo, steady, groovy
+Slow (60-89 BPM): downtempo, ballad, laid-back, unhurried
 ```
 
 ## Instrument Tags
 
-### Strings
 ```
-guitar, acoustic guitar, electric guitar, bass guitar, violin, cello, strings, string quartet, orchestra
-```
-
-### Keys
-```
-piano, keyboard, synth, synthesizer, organ, electric piano, rhodes, wurlitzer
+Strings: guitar, acoustic guitar, electric guitar, bass guitar, violin, cello, string quartet, orchestra
+Keys: piano, synth, organ, electric piano, rhodes, wurlitzer
+Percussion: drums, drum machine, 808, hi-hats
+Wind/brass: saxophone, trumpet, flute, brass section, horns
+Electronic: synth pads, synth leads, arpeggios, sub bass, wobble bass
 ```
 
-### Percussion
-```
-drums, percussion, drum machine, electronic drums, 808, hi-hats, snare, kick
-```
-
-### Wind/Brass
-```
-saxophone, trumpet, flute, clarinet, brass section, horns
-```
-
-### Electronic
-```
-synth pads, synth leads, arpeggios, bassline, sub bass, wobble bass
-```
+Naming 1-2 lead instruments focuses the arrangement; listing five gets a wash.
 
 ## Vocal Tags
 
-### Gender
 ```
-female vocals, male vocals, duet, choir
-```
-
-### Style
-```
-soft, powerful, raspy, smooth, breathy, soulful, ethereal, operatic, whispered, spoken word
+Gender/group: female vocals, male vocals, duet, choir
+Texture: soft, powerful, raspy, smooth, breathy, soulful, ethereal, operatic, whispered, spoken word
+Range: soprano, alto, tenor, baritone, bass
+Effects: reverb, echo, autotune, vocoder, harmonized
 ```
 
-### Range
-```
-soprano, alto, tenor, baritone, bass, high-pitched, deep
-```
-
-### Effects
-```
-reverb, echo, autotune, vocoder, harmonized
-```
+Best results combine texture + range: "breathy alto", "raspy baritone".
 
 ## Production Tags
 
-### Quality/Polish
 ```
-polished, professional, crisp, clean, radio-ready, high-quality
-```
-
-### Raw/Lo-fi
-```
-lo-fi, raw, gritty, distorted, fuzzy, warm, analog, tape, vinyl
-```
-
-### Spatial
-```
-atmospheric, spacious, reverb-heavy, ambient, wide, expansive, intimate
-```
-
-### Texture
-```
-layered, minimal, dense, sparse, rich, full, thin
+Polished: polished, crisp, clean, radio-ready
+Raw/lo-fi: lo-fi, raw, gritty, distorted, fuzzy, warm, analog, tape, vinyl
+Spatial: atmospheric, spacious, reverb-heavy, wide, intimate
+Texture: layered, minimal, dense, sparse
 ```
 
 ## Era/Decade Tags
 
 ```
-vintage, retro, modern, contemporary, futuristic
 60s, 70s, 80s, 90s, 2000s, 2010s
-classic, old school, new wave
+vintage, retro, modern, futuristic, old school, new wave
 ```
+
+A decade tag is the single highest-leverage identity term — it implies instruments, production, and mix conventions at once.
 
 ## Use Case Tags
 
-### Background/Functional
 ```
-background music, elevator music, study music, workout music, focus music, sleep music, meditation
-```
-
-### Cinematic
-```
-cinematic, film score, epic, trailer music, soundtrack, dramatic
-```
-
-### Commercial
-```
-commercial, jingle, advertisement, corporate, upbeat positive
+Functional: study music, workout music, focus music, sleep music, meditation
+Cinematic: cinematic, film score, epic, trailer music, soundtrack
+Commercial: jingle, advertisement, corporate, upbeat positive
 ```
 
 ## Combining Tags
 
-### Formula
 ```
 [genre] [subgenre] [mood] [tempo] [instruments] [vocals] [production] [era]
 ```
 
-### Examples
-
-**Chill Electronic:**
+**Examples:**
 ```
 lo-fi electronic ambient chill downtempo synth pads warm analog
+alternative rock energetic driving distorted guitars male vocals raw
+indie pop bittersweet piano soft female vocals intimate modern
+orchestral cinematic epic strings brass dramatic building
+tropical house upbeat happy synth female vocals polished modern
 ```
 
-**Energetic Rock:**
-```
-alternative rock energetic driving distorted guitars powerful drums male vocals raw
-```
+## Tag Limits (canonical)
 
-**Emotional Pop:**
-```
-indie pop emotional bittersweet piano soft female vocals intimate modern
-```
-
-**Epic Orchestral:**
-```
-orchestral cinematic epic powerful strings brass dramatic building
-```
-
-**Summer Vibes:**
-```
-tropical house upbeat happy positive synth female vocals polished modern
-```
-
-## Tag Limits
-
-- **Optimal:** 8-12 tags
-- **Maximum useful:** ~15 tags
-- **More than 15:** Diminishing returns, may confuse model
+- **Optimal: 8-12 terms.** Each term past ~12 dilutes the rest; below ~5 the model fills gaps with its defaults.
+- Worked check: "lo-fi electronic ambient chill downtempo synth pads warm analog" = 8 terms covering genre, mood, tempo, instrument, production — nothing wasted.
+- Suno >=4.5 also accepts prose descriptions up to 1000 characters (→ `prompts.md` Version Notes); the 8-12 rule applies to tag-style prompts.
 
 ## Conflicting Tags to Avoid
 
@@ -219,3 +131,5 @@ tropical house upbeat happy positive synth female vocals polished modern
 | minimal dense | Contradictory texture |
 | lo-fi polished | Contradictory production |
 | aggressive peaceful | Contradictory energy |
+
+The model doesn't error on contradictions — it averages them, and the average is generic.
