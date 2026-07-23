@@ -24,7 +24,15 @@
 ## Config Traps
 
 - `strictPropertyInitialization` wants class fields set in the constructor — `!` on fields assigned by a framework (DI, ORM) is the sanctioned use of `!`, not a smell
-- `skipLibCheck: true` is the right default for apps (checking all of node_modules' `.d.ts` is wasted time), but know it also skips YOUR hand-written `.d.ts` — type-check those via a test file that imports them
-- CJS interop: `import x from "cjs"` requires `esModuleInterop: true`; without it use `import * as x`. Mixing styles across a codebase is how "x is not a function" ships
+- `skipLibCheck: true` is the right default for apps, with one blind spot worth knowing — tsconfig.md
+- CJS interop: pick `esModuleInterop` once, codebase-wide, before converting files — flipping it mid-migration changes what every already-converted import means (modules.md)
 - One `tsconfig` can't vary strictness per directory — use project references: a strict `tsconfig` for migrated folders, a loose one for the legacy core, and move folders across as they're cleaned
 - `outDir` never deletes stale output — an orphaned `.js` from a renamed file keeps getting imported; clean with `tsc --build --clean` or delete `outDir` in the build script
+
+## Upgrading the TypeScript Version
+
+1. One major/minor jump at a time — each release's breaking changes are small and documented; three jumps at once turns a mechanical task into archaeology
+2. Bump `typescript` and `@types/*` together — `@types` pair with the *package* version, but new compiler strictness surfaces latent errors in old `@types`; expect the error wave in node_modules types first and update those before touching your code
+3. New errors after an upgrade are usually the checker getting *smarter* (better narrowing, stricter overload resolution) — read them as found bugs before reaching for suppressions
+4. Pin the editor to the workspace version after upgrading (errors.md) — half the "upgrade broke everything" reports are the editor still running the old compiler
+5. Upgrades unlock version-gated fixes this skill marks as `TS >=X.Y` — after the burn-down, sweep for newly available tools (`satisfies`, `NoInfer`, inferred predicates) where workarounds live

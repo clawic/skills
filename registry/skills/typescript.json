@@ -11,18 +11,28 @@
   "skill": {
     "slug": "typescript",
     "name": "typescript",
-    "description": "Write type-safe TypeScript with proper narrowing, inference patterns, and strict mode best practices.",
-    "version": "1.0.4",
+    "description": "Writes, reviews, and debugs type-safe TypeScript: type errors, narrowing, generics, tsconfig strictness, and declaration files. Use when a build hits type errors (\"not assignable\", \"possibly undefined\", \"excessively deep\", \"cannot find module\"), when eliminating any or unchecked as casts, designing generics or discriminated unions, writing .d.ts files or typing untyped npm packages, configuring tsconfig or module resolution, fixing ESM/CJS import crashes (\"ERR_REQUIRE_ESM\", \"x is not a function\"), validating API or JSON data at runtime, migrating JavaScript to TypeScript or upgrading the TypeScript version, or when tsc or the editor gets slow or runs out of memory.",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/typescript",
-    "summary": "When to Use User needs TypeScript expertise — from basic typing to advanced generics. Agent handles type narrowing, inference, discriminated unions, and strict mode patterns. Quick Reference | Topic | File | |-------|---",
+    "summary": "User preferences and memory live in `~/Clawic/data/typescript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/typescript/` or `~/clawic/typescript/`), mo",
     "repositoryPath": "skills/typescript",
     "manifestPath": "registry/skills/typescript.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/typescript/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/typescript/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/_meta.json"
+    },
+    {
+      "path": "boundaries.md",
+      "downloadPath": "skills/typescript/boundaries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/boundaries.md"
     },
     {
       "path": "declarations.md",
@@ -30,9 +40,19 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/declarations.md"
     },
     {
+      "path": "errors.md",
+      "downloadPath": "skills/typescript/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/errors.md"
+    },
+    {
       "path": "generics.md",
       "downloadPath": "skills/typescript/generics.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/generics.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/typescript/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/memory-template.md"
     },
     {
       "path": "migration.md",
@@ -40,9 +60,24 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/migration.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/typescript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/SKILL.md"
+      "path": "modules.md",
+      "downloadPath": "skills/typescript/modules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/modules.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/typescript/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/performance.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/typescript/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/setup.md"
+    },
+    {
+      "path": "tsconfig.md",
+      "downloadPath": "skills/typescript/tsconfig.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/tsconfig.md"
     },
     {
       "path": "utility-types.md",
