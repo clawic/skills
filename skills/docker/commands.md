@@ -1,43 +1,57 @@
-# Essential Commands — Docker
+# Commands — Docker
 
-Quick reference for common Docker operations.
+The incident toolkit: commands that solve real problems, not the basics.
 
-## Container Lifecycle
-
-```bash
-docker run -d --name app -p 8080:80 image    # start detached
-docker ps                                      # list running
-docker ps -a                                   # list all
-docker stop app && docker rm app              # cleanup
-docker logs -f app                            # follow logs
-docker exec -it app sh                        # shell into
-```
-
-## Image Management
+## Forensics on Dead Containers
 
 ```bash
-docker build -t myapp:1.0 .                   # build
-docker images                                  # list
-docker pull nginx:alpine                       # fetch
-docker push registry/myapp:1.0                # publish
-docker rmi $(docker images -q --filter dangling=true)  # prune
+docker logs --tail 100 app          # logs survive container death
+docker inspect -f '{{.State.ExitCode}} {{.State.OOMKilled}} {{.State.Error}}' app
+docker cp app:/var/log/app.log ./   # works on stopped containers
+docker diff app                     # files changed vs image — spots rogue writes
+docker commit app snap:debug        # freeze a broken container, rerun with a shell:
+docker run --rm -it --entrypoint sh snap:debug
 ```
+
+## Live Inspection
+
+```bash
+docker stats --no-stream            # point-in-time CPU/mem across containers
+docker top app                      # processes without needing a shell inside
+docker events --since 30m           # daemon view: OOM kills, health flips, restarts
+docker update --memory 1g --memory-swap 1g app   # raise limits without restart
+```
+
+Detach from `docker attach` with Ctrl-P Ctrl-Q — Ctrl-C kills PID 1.
+
+## Networking Debug
+
+```bash
+docker port app                                       # actual published mappings
+docker network inspect mynet                          # members + IPs on a network
+docker run --rm -it --network container:app nicolaka/netshoot   # tcpdump/dig/curl inside app's netns
+```
+
+## Images
+
+```bash
+docker history --no-trunc img       # audit layers for leaked secrets and size hogs
+docker build --pull -t img .        # refresh the base tag; cache otherwise pins a stale base
+docker buildx imagetools inspect img:tag   # digest + platforms without pulling
+```
+
+- `docker tag` copies nothing — retagging is free.
+- `save`/`load` keeps layers and metadata; `export`/`import` flattens and LOSES ENTRYPOINT, CMD, and ENV.
 
 ## Compose
 
 ```bash
-docker compose up -d                          # start stack
-docker compose down                           # stop & remove
-docker compose logs -f                        # follow all logs
-docker compose ps                             # stack status
-docker compose exec web sh                    # shell into service
+docker compose config               # final merged+interpolated file — first move when "compose ignores my setting"
+docker compose up -d --wait         # block until healthchecks pass; the CI gate
+docker compose down --remove-orphans   # renamed services otherwise leave zombie containers
+docker compose down -v              # also deletes named volumes — destructive
 ```
 
 ## Cleanup
 
-```bash
-docker container prune                        # remove stopped
-docker image prune                            # remove dangling
-docker volume prune                           # remove unused (DESTRUCTIVE)
-docker system prune -a --volumes              # remove everything (DESTRUCTIVE)
-```
+`docker system df -v` first — locate before deleting. Prune matrix: → SKILL.md Disk Leaks.

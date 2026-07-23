@@ -1,49 +1,50 @@
-# Security Traps
+# Security — Hardening and Traps
 
 ## User
 
-- Container runs as root by default, security scanners flag it
-- `USER` directive after a `RUN` that needs root = build fails
-- User in container with UID 1000 = may be a different user on the host, confusing
-- `--user` at runtime overrides the Dockerfile's USER, but file permissions remain
+- Containers run as root unless the image says otherwise; numeric-UID rule and placement: → SKILL.md rule 5.
+- `--user` at runtime overrides the Dockerfile's `USER`, but files baked with root ownership stay root-owned — the app then can't write its own directories. Bake ownership at build time (`COPY --chown`).
+- UID 1000 in the container is whatever user owns UID 1000 on the host for bind mounts — match numeric IDs, not names.
 
 ## Secrets
 
-- `ENV SECRET=x` visible in `docker history` and `docker inspect`
-- `ARG` for secrets is also visible in history, not secure
-- `COPY secrets.txt` baked into a layer; even if you delete it later, it's in the previous layer
-- `--env-file` is safe at runtime but the file must be protected on the host
+- ENV, ARG, and COPYed files all persist in image history (→ SKILL.md Traps). The safe build-time pattern:
 
-## BuildKit Secrets
+```dockerfile
+# syntax=docker/dockerfile:1
+RUN --mount=type=secret,id=npmrc,target=/root/.npmrc npm ci
+```
 
-- `RUN --mount=type=secret` not available without DOCKER_BUILDKIT=1
-- Secret mount only available in that RUN, it doesn't persist
-- Secret ID must match exactly, a typo = build fails without a clear message
-- Secret not available in stages that don't mount it explicitly
+```bash
+docker build --secret id=npmrc,src=$HOME/.npmrc .
+```
 
-## Image Scanning
+- The secret exists only during that RUN and only in stages that mount it; a mismatched `id` fails the build with an unhelpful message — check the id first.
+- `--env-file` at runtime keeps secrets out of the image, but `docker inspect` shows them to anyone with docker access, and docker access is root-equivalent anyway.
 
-- Vulnerabilities in the base image are inherited, update the base regularly
-- Scanning in CI but not in the registry = vulnerable images in production
-- CVE "fixed" in a package but the base image not updated = still vulnerable
-- Distroless images are hard to scan, fewer CVEs reported, not fewer bugs
+## Runtime Hardening
 
-## Runtime
+Default posture for a production service — remove pieces only when something breaks:
 
-- `--privileged` = full access to host devices, kernel modules, etc.
-- `--cap-add SYS_ADMIN` is almost as bad as privileged, avoid it
-- `-v /:/host` mounts the host root = game over if the container is compromised
-- `--pid=host` lets you see/kill host processes from the container
+```bash
+docker run --read-only --tmpfs /tmp \
+  --cap-drop ALL --cap-add NET_BIND_SERVICE \
+  --security-opt no-new-privileges \
+  -m 512m --memory-swap 512m image
+```
 
-## Network
+- `--cap-drop ALL` then add back the one or two capabilities the app actually needs beats guessing which to drop.
+- `--privileged` and its near-equivalents (`--cap-add SYS_ADMIN`, `--pid=host`, `-v /:/host`, mounting the docker socket) each hand over the host — treat any of them in a config as a finding, not a style choice.
 
-- A container on the bridge network can reach the metadata service (169.254.x.x)
-- Without `--network=none`, the container has network access by default
-- Published ports without a firewall = public to the internet
-- A container can make requests to other containers on the same network, no isolation
+## Network Exposure
+
+- A container with default networking can reach cloud metadata services (169.254.169.254) — an SSRF inside the container becomes credential theft. Block it at the host firewall or use per-container network policy.
+- Same-network containers reach each other on every port (→ SKILL.md Networking) — segment by putting each trust boundary on its own network; a compromised frontend shouldn't see the admin service.
+- Published ports on Linux bypass ufw (→ SKILL.md Networking).
 
 ## Supply Chain
 
-- A base image from a public registry can be malicious, verify the publisher
-- The `latest` tag can be hijacked, use a digest for critical images
-- Dependencies downloaded during build can change, lock files + verified mirrors
+- Digest-pin production images (→ SKILL.md rule 1) — a tag, including `latest`, can be repointed at a malicious image after you vetted it; a digest cannot.
+- Rebuild regularly even without code changes: CVE fixes arrive in base images, and a base pinned for six months carries six months of known holes.
+- Scan at two points — CI (blocks bad builds) AND the registry (catches CVEs published after the build). CI-only scanning approves images that rot in place.
+- Distroless reports fewer CVEs partly because scanners have less to match against — smaller attack surface is real, "zero findings" is not proof of zero flaws.

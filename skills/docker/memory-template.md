@@ -1,6 +1,6 @@
 # Memory Template — Docker
 
-Create `~/docker/memory.md` with this structure:
+Create `~/clawic/docker/memory.md` with this structure:
 
 ```markdown
 # Docker Memory

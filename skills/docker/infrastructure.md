@@ -1,43 +1,34 @@
-# Infrastructure Traps
+# Infrastructure — Networking, Volumes, Resources
 
 ## Networking
 
-- `localhost` inside a container is the container, not the host, use `host.docker.internal`
-- `0.0.0.0` bind is needed for the container to be reachable, `127.0.0.1` is only local to the container
-- `-p 5432:5432` without an IP = binds to all interfaces = public if there's no firewall
-- Container restart changes the IP, use network aliases, not hardcoded IPs
+- `host.docker.internal` resolves out of the box on Docker Desktop; on Linux (Engine >=20.10) add `--add-host=host.docker.internal:host-gateway`.
+- Container IPs change on every restart — never hardcode them; use service names or `--network-alias`.
+- Bind rules: the app listens on `0.0.0.0` to be reachable at all; the HOST-side of `-p` decides exposure (`127.0.0.1:5432:5432` local-only). Firewall bypass and same-network reachability: → SKILL.md Networking.
+- VPNs commonly lower the host MTU below the Docker network's 1500: symptoms are small requests fine, large payloads hang. Fix: set the network MTU to match the VPN interface.
 
 ## DNS
 
-- Default DNS is 127.0.0.11 internal, it doesn't use the host's /etc/resolv.conf
-- `--dns` is a full override, it doesn't add, it replaces
-- DNS caching in the daemon, external DNS changes take time to propagate
-- A container without a network has no DNS, not even localhost resolves
+- The embedded resolver lives at 127.0.0.11 inside containers on user-defined networks; the default bridge has no name resolution at all.
+- `--dns` replaces the resolver list; it does not append.
+- A container with `--network=none` resolves nothing — including its own hostname.
 
 ## Volumes
 
-- Anonymous volume (`VOLUME` in the Dockerfile) accumulates without limit, never auto-deleted
-- `docker system prune` does NOT delete volumes, it needs an explicit `--volumes`
-- Bind mount permissions: container user vs host user — mismatch = permission denied
-- NFS volumes with latency = horrible performance, especially for node_modules
+- Anonymous volumes (from `VOLUME` in a Dockerfile) accumulate invisibly; `docker run --rm` cleans them, plain `rm` does not. Prefer named volumes.
+- Bind-mount permission denied = UID mismatch between container user and host owner. Fix at build (`--chown` in COPY, matching numeric UID) rather than `chmod 777`.
+- macOS/Windows bind mounts cross a VM boundary — heavy I/O dirs (`node_modules`, build caches) belong in named volumes, with the source code bind-mounted around them.
+- Network-backed volumes (NFS) add per-file latency: fine for bulk data, pathological for dependency trees with tens of thousands of small files.
 
-## Storage Driver
+## Storage and Logs
 
-- `overlay2` is the default but overlayfs on an old kernel = subtle bugs
-- Different storage driver between dev/prod = different behavior
-- Logs without a limit grow infinitely, `--log-opt max-size=10m`
-- `/var/lib/docker` full = daemon hangs, monitoring is essential
+- Log rotation and the per-container ceiling: → SKILL.md rule 7. Set it in `daemon.json` so it applies to containers nobody remembered to flag.
+- `/var/lib/docker` full hangs the daemon (→ SKILL.md Disk Leaks); monitor that filesystem specifically — root having space is no guarantee.
+- Mixed storage drivers between dev and prod hosts produce different filesystem semantics (rename, hardlinks); pin `overlay2` everywhere it's supported.
 
 ## Resources
 
-- Without a `--memory` limit = the container can use all the RAM and trigger the OOM killer
-- `--memory` without `--memory-swap` = swap = 2x memory, which can be a lot
-- `--cpus=0.5` is a limit, not a reservation, other containers can use it
-- Java in a container without `-XX:+UseContainerSupport` doesn't see the correct limit
-
-## Security
-
-- `--privileged` disables ALL security, almost never needed
-- Granular `--cap-add` is better than privileged, only what you need
-- Root in the container can be root on the host, use user namespaces to avoid it
-- Secrets in env vars are visible with `docker inspect`, use secrets/mounts
+- No `--memory` limit = the container can take all host RAM and invite the kernel OOM killer to kill something else. Swap interaction and the hard-cap formula: → SKILL.md rule 6.
+- `--cpus=0.5` is a ceiling, not a reservation — under contention the container still competes below it.
+- JVMs older than JDK 8u191/10 size their heap from HOST memory, ignoring cgroup limits — a 512 MB container with 32 GB host RAM OOMs on startup. Modern JVMs respect limits by default; on old ones set `-XX:+UseContainerSupport` or `-Xmx` explicitly.
+- Diagnosis order for a container that "randomly dies": `docker inspect -f '{{.State.OOMKilled}}'` → `docker events --since 1h` → host `dmesg | grep -i oom`. The host kernel log catches OOM kills the daemon never attributes.

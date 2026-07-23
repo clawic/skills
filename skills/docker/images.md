@@ -1,43 +1,51 @@
-# Image Building Traps
+# Image Building — Traps and Cache Mastery
+
+BuildKit is the default builder on Docker Engine >=23.0; on older engines set `DOCKER_BUILDKIT=1` to use the `--mount` features below.
 
 ## Layer Cache
 
-- `COPY . .` before `RUN npm install` = cache invalidated on every code change
-- `apt-get update` and `apt-get install` in separate RUNs = stale packages weeks later
-- `--no-cache` in build wipes ALL cache, not just the current step
-- One stage's cache isn't used by another stage, multi-stage rebuild from scratch
+- `COPY . .` before `RUN npm install` = dependency reinstall on every code edit. Canonical order: manifest → install → source (→ SKILL.md rule 2).
+- `COPY package.json package-lock.json ./` then install, THEN `COPY . .` — the lockfile must be in the early COPY or the cache never helps.
+- `--no-cache` wipes cache for ALL steps, not the current one. To bust a single step, change its line (e.g. bump a comment or ARG above it).
+- Cache keys hash file content AND metadata — a `touch` alone doesn't bust COPY cache, but a permissions change does.
+
+## Cache Mounts (the biggest win most Dockerfiles miss)
+
+```dockerfile
+RUN --mount=type=cache,target=/root/.cache/pip pip install -r requirements.txt
+RUN --mount=type=cache,target=/root/.npm npm ci
+```
+
+Package-manager downloads survive across builds without bloating any layer — turns cold rebuilds from minutes into seconds. The mount is build-time only; nothing lands in the image.
 
 ## Multi-Stage
 
-- `--from=builder` with a typo = silently copies from the wrong stage
-- `COPY --from=0` is the first stage, not a stage named "0"
-- Unnamed stage + reordering stages = `--from=N` points to a different stage
-- Files copied from a previous stage lose permissions, copy with `--chmod`
+- `--from=builder` with a typo silently copies from the wrong stage — no error if the path happens to exist there.
+- `COPY --from=0` means the first stage by position; reorder stages and every numeric `--from` silently points elsewhere. Always name stages.
+- Stages don't share step cache with each other; a change in the builder stage doesn't invalidate the runtime stage unless copied artifacts change.
+- Files copied between stages keep ownership from the source stage — `COPY --from=builder --chown=10001:10001` for the non-root runtime user.
 
 ## Base Images
 
-- `python:latest` today ≠ `python:latest` tomorrow, non-reproducible builds
-- `alpine` without glibc = many binaries don't work, cryptic errors
-- `slim` images without shell tools = debugging impossible
-- A "latest" image can be a different major version, breaking changes
+- `python:latest` today ≠ tomorrow — `latest` is just a default tag name, not "most recent stable". Pinning policy: → SKILL.md rule 1.
+- Alpine ships musl, not glibc: prebuilt Python wheels fall back to compiling from source (build time explodes) and some binaries segfault (exit 139).
+- Ballpark for the same runtime: full image ~1 GB, slim ~150 MB, alpine ~50 MB — slim captures most of the saving without the musl tax.
+- `slim`/distroless lack curl and often a shell: write healthchecks against tools that exist in the image, and debug via sidecar (→ SKILL.md Traps).
 
 ## COPY vs ADD
 
-- `ADD` with a URL downloads but doesn't cache, rebuild = re-download
-- `ADD` with a .tar.gz extracts automatically, a surprise if you didn't expect it
-- `COPY` doesn't expand wildcards like the shell, `COPY *.json ./` may not do what you expect
-- `.dockerignore` ignored in remote builds (docker build - < Dockerfile)
+- `ADD` auto-extracts local `.tar.gz` — a surprise when you wanted the archive itself.
+- `ADD` with a URL re-downloads every build (no cache) and can't verify integrity. Use `RUN curl -fsSL <url> -o f && echo "<sha256>  f" | sha256sum -c`.
+- `COPY *.json ./` glob is evaluated by the builder, not your shell — no brace expansion, no `**` recursion.
 
 ## ARG vs ENV
 
-- `ARG` not available after `FROM`, each stage needs to re-declare it
-- `ARG` with a default value + empty override = uses the default, not empty
-- `ARG` visible in `docker history`, not for secrets
-- `ENV` persists at runtime, `ARG` only at build time
+- `ARG` declared before `FROM` is out of scope after it; re-declare `ARG` (no value needed) inside each stage that uses it.
+- `ARG` values appear in `docker history` — never secrets (→ SKILL.md Traps for the secret-safe pattern).
+- `ENV` persists into the running container; `ARG` exists only at build time. `ENV X=$X` after an `ARG X` is the idiom to carry a build value into runtime — deliberate, and visible.
 
-## Size Traps
+## Size
 
-- `rm -rf /var/lib/apt/lists` in a separate RUN = space not reclaimed (layers)
-- `npm install --production` after `npm install` = dev dependencies still in the previous layer
-- `.git` copied = extra megabytes without a .dockerignore
-- Multiple `RUN apt-get` = each one is a layer with its own apt cache
+- `rm -rf /var/lib/apt/lists/*` must be in the SAME RUN as the install — a later RUN can't shrink an earlier layer.
+- Deleting a file in a later layer hides it but keeps the bytes; `docker history` shows each layer's true size.
+- No `.dockerignore` = `.git` and dependency dirs enter the build context. Context above ~100 MB in the build output is almost always this — fix the ignore file before optimizing anything else.

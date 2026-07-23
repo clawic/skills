@@ -1,43 +1,47 @@
 # Compose Traps
 
+`docker-compose` v1 is EOL (2023) — use the `docker compose` plugin; behavior below assumes v2.
+
+## Project Identity
+
+- Project name defaults to the directory name: two checkouts in same-named folders share (and clobber) each other's containers, networks, and volumes. Set `name:` at the top of the file or `COMPOSE_PROJECT_NAME`.
+- `docker compose up` does NOT rebuild when the Dockerfile or context changed — it reuses the existing image. `up -d --build` is the safe default during development.
+- Renamed or removed services leave their old containers running: `down --remove-orphans`.
+
 ## depends_on
 
-- `depends_on: [db]` waits for the CONTAINER to start, not for the service to be ready
-- `condition: service_healthy` requires a defined healthcheck; without it, it fails silently
-- A circular dependency isn't an error, compose tries to resolve it and may fail randomly
-- depends_on doesn't affect `docker compose run`, dependency services don't start
+- `depends_on: [db]` waits for the container process, not for the service to accept connections — the canonical fix is `condition: service_healthy` (→ SKILL.md rule 8).
+- `condition: service_healthy` without a healthcheck defined on the dependency fails at up-time — the two must ship together.
+- `depends_on` does not apply to `docker compose run` — dependencies don't start.
 
 ## Environment
 
-- `.env` must sit next to `docker-compose.yml`, it isn't read from a subdirectory
-- `${VAR}` undefined = empty string, not an error, silent bugs
-- `${VAR:-default}` only applies if VAR is undefined; VAR="" uses empty, not the default
-- `env_file` doesn't accept export syntax, `export VAR=x` fails
+- Precedence for the container's env (high → low): `environment:` → `env_file:` → image ENV. For `${VAR}` interpolation in the YAML itself, your shell beats `.env`.
+- `.env` is read only from the project directory (next to the compose file) — a subdirectory copy is silently ignored.
+- Undefined `${VAR}` interpolates to empty string, not an error. `${VAR:?err}` makes it fail loudly; `${VAR:-default}` covers both unset AND empty, `${VAR-default}` only unset.
+- `env_file` format is `KEY=value` lines only — `export KEY=value` breaks parsing.
 
 ## Volumes
 
-- Volume mount over a directory with files = the container's files disappear
-- Bind mount of an empty host directory = empty container directory
-- `./path` is relative to the compose file, not the cwd
-- A named volume copies the container's contents the first time, not afterward
+- Bind mount over a populated image path: container files vanish; empty host dir = empty app dir. Named volumes seed from the image — on FIRST use only, never refreshed after.
+- `./path` is relative to the compose file location, not your cwd.
+- `down -v` deletes the project's named volumes — destructive; plain `down` keeps them.
 
 ## Networks
 
-- The default bridge has no DNS between containers, names don't resolve
-- Container name ≠ service name, use the service name for DNS
-- `network_mode: host` disables all of compose's networking, not just for that container
-- An external network isn't created automatically, it must already exist
-
-## Build
-
-- `build: .` uses the Dockerfile, `build: { dockerfile: X }` for another name
-- The build context is sent whole to the daemon, a large directory = slow build
-- `image:` + `build:` together = build and tag with that name
-- Build cache isn't shared across different compose projects by default
+- Compose puts services on a project network with DNS by service name (container name differs — don't use it).
+- `network_mode: host` disables port publishing and service DNS for that container entirely.
+- `external: true` networks must already exist; compose never creates them.
 
 ## Healthcheck
 
-- A healthcheck in compose overrides the Dockerfile's
-- `start_period` doesn't count toward retries, failures are ignored for the first N seconds
-- `test: ["CMD", "curl", ...]`, CMD uses exec, CMD-SHELL uses the shell
-- Exit code 0 = healthy, 1 = unhealthy, 2 = reserved (don't use)
+- Defaults: `interval: 30s`, `timeout: 30s`, `retries: 3`, `start_period: 0s` — a service that needs 60s to boot is marked unhealthy before it ever answers; set `start_period` above worst-case boot time.
+- During `start_period`, failed probes don't count against retries, but a passing probe immediately marks healthy.
+- A compose healthcheck fully replaces the Dockerfile's; `disable: true` removes an inherited one.
+- `test: ["CMD", ...]` needs the binary in the image (curl is absent in slim images — prefer `wget -qO-` or the app's own client); `CMD-SHELL` gets a shell. Exit 0 = healthy, 1 = unhealthy.
+
+## Build
+
+- The entire context uploads to the daemon before building — combined with a missing `.dockerignore` this is the usual "slow build" (→ `images.md` Size).
+- `image:` + `build:` together = build locally and tag with that name; without `image:` the tag is `<project>-<service>`.
+- YAML anchors don't cross files — for shared config use multiple `-f` files or `extends:`.
