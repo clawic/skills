@@ -38,7 +38,7 @@ git bisect reset            # done, return to branch
 Automated bisect:
 ```bash
 git bisect start HEAD v1.0.0
-git bisect run ./test-script.sh   # exit 0 = good, 1 = bad
+git bisect run ./test-script.sh   # exit 0 = good, 1-127 = bad, 125 = skip
 ```
 
 ## Worktree (Parallel Work)

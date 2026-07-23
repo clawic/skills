@@ -1,125 +1,62 @@
-# Essential Commands
+# High-Leverage Commands
 
-## Getting Started
+Basics (`add`, `commit`, `push`, `pull`, `status`, `log`) are assumed. These are the flags and configs that separate fluent Git from muscle memory.
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
-git init
-git clone https://github.com/user/repo.git
-```
-
-## Daily Workflow
+## One-Time Config That Prevents Whole Trap Classes
 
 ```bash
-git status
-git add file.txt
-git add .
-git commit -m "feat: add feature"
-git commit -am "fix: quick fix"
-git push
-git pull --rebase
+git config --global pull.rebase true            # pull never creates surprise merge commits
+git config --global rebase.autostash true       # pull/rebase work on a dirty tree
+git config --global rebase.autosquash true      # rebase -i honors fixup! commits automatically
+git config --global rebase.updateRefs true      # git >=2.38: rebasing a stack moves dependent branches too
+git config --global push.autoSetupRemote true   # git >=2.37: first push sets upstream, no more -u
+git config --global fetch.prune true            # deleted remote branches disappear locally
+git config --global rerere.enabled true         # identical conflicts auto-resolve the second time
+git config --global merge.conflictStyle zdiff3  # git >=2.35: conflict markers include the base version
+git config --global diff.algorithm histogram    # cleaner diffs on moved/refactored code
+git config --global branch.sort -committerdate  # `git branch` lists recent work first
 ```
 
-## Viewing Changes
+## History Forensics
 
 ```bash
-git diff                    # unstaged changes
-git diff --staged           # staged changes
-git log --oneline -10       # recent commits
-git log --graph --all       # visual history
-git show commit-hash        # specific commit
-git blame file.txt          # who changed each line
+git log -S "someFunction"            # pickaxe: commits that add/remove the string — when did this code appear/vanish
+git log -G "regex"                   # commits whose diff matches regex (catches moves that -S ignores)
+git log -L :myFunc:src/file.c        # full evolution of one function
+git log --follow -p -- path          # file history across renames
+git log --first-parent main          # PR-level history: one line per merge, branch noise hidden
+git blame -w -C -C -C file           # ignore whitespace, follow code copied between files
+git config blame.ignoreRevsFile .git-blame-ignore-revs   # git >=2.23: skip mass-format commits in blame
+git range-diff main old-tip new-tip  # what actually changed between two versions of a rebased branch
 ```
 
-## Staging
+## Surgical State Manipulation
 
 ```bash
-git add -p                  # interactive staging (partial files)
-git restore --staged file   # unstage
-git restore file            # discard changes
-git reset                   # unstage all
+git add -p                            # stage hunks, not files — split mixed work into clean commits
+git restore -p                        # discard hunks selectively
+git restore --source HEAD~3 -- path   # one file as it was 3 commits ago; nothing else moves
+git commit --fixup <sha>              # mark a correction for a specific commit; autosquash folds it in
+git stash push -m "msg" -- path/      # stash only some paths
+git stash -u                          # include untracked — plain stash silently skips them
+git cherry-pick -x <sha>              # record the origin sha in the message — traceable across branches
+git rebase --onto main old-base feature   # move a branch off an abandoned or merged base
 ```
 
-## Stashing
+## Cloning Big Repos
 
 ```bash
-git stash                   # save work temporarily
-git stash -m "wip: feature" # with message
-git stash list              # see stashes
-git stash pop               # apply and remove
-git stash apply             # apply and keep
-git stash drop              # remove without applying
+git clone --filter=blob:none <url>    # blobless: full history metadata, file contents fetched on demand
+git clone --depth 1 <url>             # shallow: fastest, but log/bisect/blame are truncated
 ```
 
-## Tags
+The invisible distinction: blobless keeps every history command working (first access to old files is slower); shallow breaks them. CI throwaway checkout → shallow; a repo you will actually work in → blobless.
+
+## Push/Pull Precision
 
 ```bash
-git tag                     # list tags
-git tag v1.0.0              # lightweight tag
-git tag -a v1.0.0 -m "msg"  # annotated tag
-git push origin v1.0.0      # push single tag
-git push --tags             # push all tags
-git tag -d v1.0.0           # delete local
-git push origin --delete v1.0.0  # delete remote
-```
-
-## Remote Operations
-
-```bash
-git remote -v               # list remotes
-git remote add origin URL   # add remote
-git fetch origin            # download without merge
-git push -u origin branch   # push and track
-git push --force-with-lease # safe force push
-```
-
-## Undoing
-
-```bash
-git reset --soft HEAD~1     # undo commit, keep changes staged
-git reset --mixed HEAD~1    # undo commit, keep changes unstaged
-git reset --hard HEAD~1     # undo commit, discard changes
-git revert commit-hash      # create undo commit
-git checkout -- file        # discard file changes (old)
-git restore file            # discard file changes (new)
-```
-
-## Cherry-pick
-
-```bash
-git cherry-pick commit-hash     # apply specific commit
-git cherry-pick -n commit-hash  # apply without committing
-git cherry-pick --abort         # cancel in progress
-```
-
-## Clean
-
-```bash
-git clean -n                # preview what will be deleted
-git clean -f                # delete untracked files
-git clean -fd               # delete untracked files and dirs
-git clean -fdx              # also delete ignored files
-```
-
-## Submodules
-
-```bash
-git submodule add URL path  # add submodule
-git submodule update --init # initialize after clone
-git clone --recurse-submodules URL  # clone with submodules
-git submodule update --remote       # update to latest
-```
-
-## Aliases (add to ~/.gitconfig)
-
-```ini
-[alias]
-    st = status
-    co = checkout
-    br = branch
-    ci = commit
-    lg = log --oneline --graph --all
-    amend = commit --amend --no-edit
-    unstage = reset HEAD --
+git push origin HEAD                             # push current branch without typing its name
+git push --force-with-lease --force-if-includes  # git >=2.30: refuses even if auto-fetch already saw the remote move
+git fetch origin main:main                       # fast-forward local main without leaving your branch
+git pull --rebase --autostash                    # sync with a dirty working tree
 ```
