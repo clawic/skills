@@ -11,14 +11,19 @@
   "skill": {
     "slug": "css",
     "name": "css",
-    "description": "Write modern CSS with proper stacking contexts, layout patterns, responsive techniques, and performance optimization.",
-    "version": "1.0.2",
+    "description": "Writes and debugs modern CSS - stacking contexts, flexbox/grid, responsive layout, selectors, render performance. Use for layout bugs, z-index issues, CLS, fluid typography, or modernizing stylesheets.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/css",
-    "summary": "When to Use User needs CSS expertise — from layout challenges to production optimization. Agent handles stacking contexts, flexbox/grid patterns, responsive design, performance, and accessibility. Quick Reference | Topic",
+    "summary": "When To Use - Debugging layout: z-index that won't apply, overflow, dead `height: 100%`, broken `position: sticky` - Building components: flexbox/grid patterns, centering, responsive behavior without media-query sprawl -",
     "repositoryPath": "skills/css",
     "manifestPath": "registry/skills/css.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/css/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/css/_meta.json",
@@ -43,11 +48,6 @@
       "path": "selectors.md",
       "downloadPath": "skills/css/selectors.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/selectors.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/css/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md"
     }
   ]
 }

@@ -2000,10 +2000,11 @@
     },
     {
       "slug": "css",
-      "name": "CSS",
-      "description": "Write modern CSS with proper stacking contexts, layout patterns, responsive techniques, and performance optimization.",
-      "version": "1.0.2",
-      "summary": "When to Use User needs CSS expertise \u2014 from layout challenges to production optimization. Agent handles stacking contexts, flexbox/grid patterns, responsive design, performance, and accessibility. Quick Reference | Topic",
+      "name": "css",
+      "description": "Writes and debugs modern CSS - stacking contexts, flexbox/grid, responsive layout, selectors, render performance. Use for layout bugs, z-index issues, CLS, fluid typography, or modernizing stylesheets.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/css",
+      "summary": "When To Use - Debugging layout: z-index that won't apply, overflow, dead `height: 100%`, broken `position: sticky` - Building components: flexbox/grid patterns, centering, responsive behavior without media-query sprawl -",
       "repositoryPath": "skills/css",
       "manifestPath": "registry/skills/css.json"
     },

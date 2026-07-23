@@ -1,10 +1,10 @@
 ---
 name: css
 slug: css
-version: 1.0.2
+version: 1.0.3
 description: Writes and debugs modern CSS - stacking contexts, flexbox/grid, responsive layout, selectors, render performance. Use for layout bugs, z-index issues, CLS, fluid typography, or modernizing stylesheets.
 homepage: https://clawic.com/skills/css
-changelog: Deeper layout and debugging guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🎨
