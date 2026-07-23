@@ -17,7 +17,7 @@ Choosing a layout:
 Organize by type of information:
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── projects/
 ├── people/
 ├── decisions/
@@ -35,7 +35,7 @@ Organize by type of information:
 Everything organized around one profession:
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── clients/
 ├── deals/
 ├── products/
@@ -51,7 +51,7 @@ Everything organized around one profession:
 ## Pattern 3: Time-Based
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── 2026/
 │   ├── q1/
 │   └── q2/
@@ -66,7 +66,7 @@ Everything organized around one profession:
 ## Pattern 4: Hybrid
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── active/           # Current focus
 │   ├── projects/
 │   └── people/
@@ -94,7 +94,7 @@ Split at 100 index entries (SKILL.md Rule 6). Split along the axis you *retrieve
 | knowledge | topic: `ml/`, `finance/` |
 
 ```
-~/memory/projects/
+~/Clawic/data/memory/projects/
 ├── INDEX.md          # Just points to subdirs
 ├── active/
 │   └── INDEX.md      # 20 entries
@@ -109,7 +109,7 @@ An archive index may exceed 100 entries: it's scanned rarely, so the limit that 
 ## Pattern 6: Syncing from Built-In Memory
 
 ```
-~/memory/sync/
+~/Clawic/data/memory/sync/
 ├── INDEX.md          # what was synced, from where, when
 ├── preferences.md
 └── key-decisions.md
@@ -124,7 +124,7 @@ One-way and manual (SKILL.md Rule 8). Sync only what needs deep structure here �
 ## Pattern 7: Quick Capture → Organize Later
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── inbox/            # Unsorted, capture-first
 ├── projects/
 └── ...
@@ -139,7 +139,7 @@ Capture cost must be near zero: if filing requires thought, inbox it — a fact 
 ## Pattern 8: Cross-References
 
 ```markdown
-# ~/memory/projects/alpha.md
+# ~/Clawic/data/memory/projects/alpha.md
 
 ## Team
 - Alice (PM) → see people/alice.md
@@ -158,7 +158,7 @@ Capture cost must be near zero: if filing requires thought, inbox it — a fact 
 Archive on terminal status — completed, cancelled, went inactive:
 
 ```bash
-mv ~/memory/projects/old-thing.md ~/memory/archive/projects/
+mv ~/Clawic/data/memory/projects/old-thing.md ~/Clawic/data/memory/archive/projects/
 # then: remove from projects/INDEX.md, add to archive/INDEX.md
 ```
 
@@ -177,7 +177,7 @@ Archive vs. delete: archive old-but-**true** content; delete content that's no l
 ## Pattern 10: Search Optimization
 
 ```markdown
-# ~/memory/people/alice.md
+# ~/Clawic/data/memory/people/alice.md
 
 # Alice Smith
 

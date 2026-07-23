@@ -2,7 +2,7 @@
 
 ## System Configuration
 
-Create `~/memory/config.md`:
+Create `~/Clawic/data/memory/config.md`:
 
 ```markdown
 # Memory Config
@@ -29,7 +29,7 @@ maintenance: weekly | monthly
 
 ## Root Index
 
-Create `~/memory/INDEX.md`:
+Create `~/Clawic/data/memory/INDEX.md`:
 
 ```markdown
 # Memory Index
@@ -51,7 +51,7 @@ Last maintenance: 2026-02-15
 
 ## Projects
 
-**Index: `~/memory/projects/INDEX.md`**
+**Index: `~/Clawic/data/memory/projects/INDEX.md`**
 ```markdown
 # Projects Index
 
@@ -63,7 +63,7 @@ Last maintenance: 2026-02-15
 Active: 5 | Paused: 3 | Archived: 20
 ```
 
-**Entry: `~/memory/projects/{name}.md`**
+**Entry: `~/Clawic/data/memory/projects/{name}.md`**
 ```markdown
 # Project: [Name]
 
@@ -94,7 +94,7 @@ Stack: [technologies]
 
 ## People
 
-**Index: `~/memory/people/INDEX.md`**
+**Index: `~/Clawic/data/memory/people/INDEX.md`**
 ```markdown
 # People Index
 
@@ -118,7 +118,7 @@ Stack: [technologies]
 Total: 45 contacts
 ```
 
-**Entry: `~/memory/people/{name}.md`**
+**Entry: `~/Clawic/data/memory/people/{name}.md`**
 ```markdown
 # [Name]
 
@@ -147,7 +147,7 @@ Last contact: YYYY-MM-DD
 
 ## Decisions
 
-**Index: `~/memory/decisions/INDEX.md`**
+**Index: `~/Clawic/data/memory/decisions/INDEX.md`**
 ```markdown
 # Decisions Index
 
@@ -167,7 +167,7 @@ Last contact: YYYY-MM-DD
 | Personal | 37 | personal.md |
 ```
 
-**Entry: `~/memory/decisions/{category}.md` or `{year}.md`**
+**Entry: `~/Clawic/data/memory/decisions/{category}.md` or `{year}.md`**
 ```markdown
 # Decisions — [Category/Year]
 
@@ -189,7 +189,7 @@ Last contact: YYYY-MM-DD
 
 ## Knowledge
 
-**Index: `~/memory/knowledge/INDEX.md`**
+**Index: `~/Clawic/data/memory/knowledge/INDEX.md`**
 ```markdown
 # Knowledge Index
 
@@ -200,7 +200,7 @@ Last contact: YYYY-MM-DD
 | Finance | Reference | 2025-12 | finance.md |
 ```
 
-**Entry: `~/memory/knowledge/{topic}.md`**
+**Entry: `~/Clawic/data/memory/knowledge/{topic}.md`**
 ```markdown
 # [Topic]
 
@@ -225,7 +225,7 @@ Last contact: YYYY-MM-DD
 
 ## Collections
 
-**Index: `~/memory/collections/INDEX.md`**
+**Index: `~/Clawic/data/memory/collections/INDEX.md`**
 ```markdown
 # Collections Index
 
@@ -261,7 +261,7 @@ Books example:
 
 If user wants to sync from built-in memory:
 
-**`~/memory/sync/INDEX.md`**
+**`~/Clawic/data/memory/sync/INDEX.md`**
 ```markdown
 # Synced from Built-In Memory
 

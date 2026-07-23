@@ -1,6 +1,6 @@
 # Setup — Memory
 
-Read this on first use, when `~/memory/` doesn't exist yet. Guide the user through a short conversation, then create the structure and prove it works with one real entry.
+Read this on first use, when `~/Clawic/data/memory/` doesn't exist yet. Guide the user through a short conversation, then create the structure and prove it works with one real entry.
 
 **Boundary first:** this system is SEPARATE from built-in agent memory. Built-in keeps working untouched; this adds parallel, organized, unlimited storage.
 
@@ -32,7 +32,7 @@ Sync is one-way and manual (SKILL.md Rule 8). Default to starting fresh; sync on
 
 ### 4. Create the Structure
 
-Create `~/memory/` with:
+Create `~/Clawic/data/memory/` with:
 - `config.md` — their answers (template: `memory-template.md`)
 - `INDEX.md` — root index (template: `memory-template.md`)
 - One folder per named category, each with its own INDEX.md
@@ -46,7 +46,7 @@ Store it immediately: write the entry file, date-stamp it, add it to the categor
 ## When Done
 
 The system is live once:
-1. `~/memory/` exists with their categories
+1. `~/Clawic/data/memory/` exists with their categories
 2. Every folder has an INDEX.md
 3. One real thing is stored and indexed
 

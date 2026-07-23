@@ -11,14 +11,19 @@
   "skill": {
     "slug": "memory",
     "name": "memory",
-    "description": "Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.",
-    "version": "1.0.3",
+    "description": "Infinite categorized memory in ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user wants to remember, store, or recall projects, people, decisions, notes, or any collection that grows over time.",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/memory",
-    "summary": "Memory 🧠 **Superpowered memory that never forgets.** Your agent has basic built-in memory. This skill adds infinite, perfectly organized memory for everything else — parallel and complementary, never conflicting. How It",
+    "summary": "Memory \ud83e\udde0 Infinite organized memory, parallel to the agent's built-in memory. All data lives in `~/Clawic/data/memory/` on the user's machine \u2014 plain markdown files, no external services, no network requests. How It Works",
     "repositoryPath": "skills/memory",
     "manifestPath": "registry/skills/memory.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/memory/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/memory/_meta.json",
@@ -38,11 +43,6 @@
       "path": "setup.md",
       "downloadPath": "skills/memory/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/memory/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md"
     },
     {
       "path": "troubleshooting.md",

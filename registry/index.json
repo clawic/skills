@@ -4714,11 +4714,11 @@
     },
     {
       "slug": "memory",
-      "name": "Memory",
-      "description": "Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.",
-      "version": "1.0.3",
+      "name": "memory",
+      "description": "Infinite categorized memory in ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user wants to remember, store, or recall projects, people, decisions, notes, or any collection that grows over time.",
+      "version": "1.0.4",
       "homepage": "https://clawic.com/skills/memory",
-      "summary": "Memory \ud83e\udde0 **Superpowered memory that never forgets.** Your agent has basic built-in memory. This skill adds infinite, perfectly organized memory for everything else \u2014 parallel and complementary, never conflicting. How It",
+      "summary": "Memory \ud83e\udde0 Infinite organized memory, parallel to the agent's built-in memory. All data lives in `~/Clawic/data/memory/` on the user's machine \u2014 plain markdown files, no external services, no network requests. How It Works",
       "repositoryPath": "skills/memory",
       "manifestPath": "registry/skills/memory.json"
     },

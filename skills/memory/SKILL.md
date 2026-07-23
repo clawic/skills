@@ -1,13 +1,13 @@
 ---
 name: memory
 slug: memory
-version: 1.0.3
+version: 1.0.4
 description: >-
-  Infinite categorized memory in ~/memory/, parallel to built-in agent memory.
+  Infinite categorized memory in ~/Clawic/data/memory/, parallel to built-in agent memory.
   Use when the user wants to remember, store, or recall projects, people,
   decisions, notes, or any collection that grows over time.
 homepage: https://clawic.com/skills/memory
-changelog: Deeper memory design patterns and retrieval rules
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🧠
@@ -22,13 +22,13 @@ metadata:
 
 # Memory 🧠
 
-Infinite organized memory, parallel to the agent's built-in memory. All data lives in `~/memory/` on the user's machine — plain markdown files, no external services, no network requests.
+Infinite organized memory, parallel to the agent's built-in memory. All data lives in `~/Clawic/data/memory/` on the user's machine — plain markdown files, no external services, no network requests.
 
 ## How It Works
 
 Built-in memory holds current context and works automatically. This system holds everything that grows. Parallel and complementary — never a replacement.
 
-| | Built-in memory | This skill (`~/memory/`) |
+| | Built-in memory | This skill (`~/Clawic/data/memory/`) |
 |---|---|---|
 | Size | Small, summaries | Unlimited |
 | Written by | Agent runtime, automatically | This skill, by explicit rules |
@@ -38,19 +38,19 @@ Built-in memory holds current context and works automatically. This system holds
 ## When To Use
 
 - User says "remember this", "save this", "add to memory" about anything with lasting value
-- Recall: "what did I tell you about X", "when did we decide Y" — search `~/memory/` before answering "I don't know"
+- Recall: "what did I tell you about X", "when did we decide Y" — search `~/Clawic/data/memory/` before answering "I don't know"
 - Structured records that grow: projects, people, decisions, domain knowledge, collections
 - Consolidating scattered notes into one organized system
 - Not for: session-scoped context, quick facts built-in memory already tracks, or secrets — credentials are never stored (Rule 9)
 
 ## Setup
 
-First use with no `~/memory/` present: read `setup.md` and run the setup conversation. Three decisions: which categories, whether to sync from built-in memory, how the user prefers to retrieve.
+First use with no `~/Clawic/data/memory/` present: read `setup.md` and run the setup conversation. Three decisions: which categories, whether to sync from built-in memory, how the user prefers to retrieve.
 
 ## Architecture
 
 ```
-~/memory/
+~/Clawic/data/memory/
 ├── config.md              # System configuration
 ├── INDEX.md               # Root index: what exists, where
 │
@@ -67,7 +67,7 @@ The user defines categories — common ones: `projects/`, `people/`, `decisions/
 
 | Situation | Play |
 |-----------|------|
-| No `~/memory/` yet | Run setup — `setup.md` |
+| No `~/Clawic/data/memory/` yet | Run setup — `setup.md` |
 | User shares a durable fact | Write file + update category INDEX **before** replying (Rule 3) |
 | User asks about the past | Search ladder: indices → full grep → one file (→ Finding Things) |
 | Fact fits two categories | One canonical home, links from the rest (Rule 5) |
@@ -85,11 +85,11 @@ The user defines categories — common ones: `projects/`, `people/`, `decisions/
 
    | They say... | Create |
    |-------------|--------|
-   | "I have many projects" | `~/memory/projects/` |
-   | "I meet lots of people" | `~/memory/people/` |
-   | "I want to track decisions" | `~/memory/decisions/` |
-   | "I'm learning [topic]" | `~/memory/knowledge/[topic]/` |
-   | "I collect [things]" | `~/memory/collections/[things]/` |
+   | "I have many projects" | `~/Clawic/data/memory/projects/` |
+   | "I meet lots of people" | `~/Clawic/data/memory/people/` |
+   | "I want to track decisions" | `~/Clawic/data/memory/decisions/` |
+   | "I'm learning [topic]" | `~/Clawic/data/memory/knowledge/[topic]/` |
+   | "I collect [things]" | `~/Clawic/data/memory/collections/[things]/` |
 
 3. **Write before you reply.** Sequence: write the entry → update category INDEX.md → then respond. The reply is disposable; the write is the durable part. A session that dies mid-reply loses nothing.
 
@@ -101,13 +101,13 @@ The user defines categories — common ones: `projects/`, `people/`, `decisions/
 
 7. **Keep entry files lean.** An entry is loaded whole to answer one question. Past ~200 lines, move `## History` bulk to `{name}-history.md` and keep the dossier itself short.
 
-8. **Sync is one-way.** Built-in → `~/memory/sync/`, reformatted on the way, sync date recorded in `sync/INDEX.md`. Never the reverse; never automatic — re-sync on request or during maintenance.
+8. **Sync is one-way.** Built-in → `~/Clawic/data/memory/sync/`, reformatted on the way, sync date recorded in `sync/INDEX.md`. Never the reverse; never automatic — re-sync on request or during maintenance.
 
 9. **Never store secrets.** Memory files are plaintext with no encryption. Decline passwords, API keys, and tokens; store a pointer instead: "API key lives in [their vault]".
 
 ## What to Store Here (vs Built-In)
 
-| Store HERE (`~/memory/`) | Keep in BUILT-IN |
+| Store HERE (`~/Clawic/data/memory/`) | Keep in BUILT-IN |
 |--------------------------|------------------|
 | Detailed project histories | Current project status |
 | Full contact dossiers | Key contacts quick-ref |
@@ -122,14 +122,14 @@ The user defines categories — common ones: `projects/`, `people/`, `decisions/
 
 | Memory size | Strategy |
 |-------------|----------|
-| <50 files | `grep -ri "keyword" ~/memory/` — full scan is cheap |
-| 50–500 files | Indices first: `grep -i "keyword" ~/memory/*/INDEX.md`, then open the one matching file |
+| <50 files | `grep -ri "keyword" ~/Clawic/data/memory/` — full scan is cheap |
+| 50–500 files | Indices first: `grep -i "keyword" ~/Clawic/data/memory/*/INDEX.md`, then open the one matching file |
 | >500 files | Hierarchical: root INDEX → category INDEX → file; semantic search if the runtime offers it |
 
 ```bash
-cat ~/memory/INDEX.md           # what categories exist
-grep -i "alpha" ~/memory/*/INDEX.md   # which category holds it
-cat ~/memory/projects/alpha.md  # the answer
+cat ~/Clawic/data/memory/INDEX.md           # what categories exist
+grep -i "alpha" ~/Clawic/data/memory/*/INDEX.md   # which category holds it
+cat ~/Clawic/data/memory/projects/alpha.md  # the answer
 ```
 
 Search vocabulary asymmetry: grep finds the words used at *write* time, but recall uses today's words. That's why entries carry a `Keywords:` line with aliases (→ `patterns.md`, Pattern 10). Try 2–3 keyword variants before concluding absence.
@@ -138,12 +138,12 @@ Search vocabulary asymmetry: grep finds the words used at *write* time, but reca
 
 **Weekly:** sort `inbox/` into categories; update any INDEX touched during the week; archive items with terminal status (completed, cancelled, inactive).
 
-**Monthly:** check index sizes (`wc -l ~/memory/*/INDEX.md`); split any category past 100 entries; **delete** entries that are wrong — a stale fact recalled as true is worse than a gap. Archive is for old-but-true; delete is for no-longer-true.
+**Monthly:** check index sizes (`wc -l ~/Clawic/data/memory/*/INDEX.md`); split any category past 100 entries; **delete** entries that are wrong — a stale fact recalled as true is worse than a gap. Archive is for old-but-true; delete is for no-longer-true.
 
 ## Output Gates
 
 Before replying when the user shared something durable:
-- Is it already written to `~/memory/`? (Rule 3 — write precedes reply)
+- Is it already written to `~/Clawic/data/memory/`? (Rule 3 — write precedes reply)
 - Is the category INDEX.md updated?
 - Is the entry date-stamped?
 
@@ -168,7 +168,7 @@ Before storing anything: does it contain a credential? → Rule 9, decline.
 ## Security & Privacy
 
 **Data location:**
-- All data in `~/memory/` on the user's machine
+- All data in `~/Clawic/data/memory/` on the user's machine
 - No external services, no network requests
 
 **This skill does NOT:**
