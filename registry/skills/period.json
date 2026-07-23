@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +10,11 @@
   },
   "skill": {
     "slug": "period",
-    "name": "Period Tracker",
-    "description": "Privacy-first menstrual cycle tracking. Auto-learns periods, symptoms, and patterns.",
-    "version": "1.0.1",
-    "summary": "Auto-Adaptive Cycle Tracking This skill auto-evolves. Works for regular cycles, irregular cycles, PCOS, and perimenopause. **Rules:** - Only log when she explicitly shares — never infer from unrelated chat - Start simple",
+    "name": "period",
+    "description": "Tracks menstrual cycles, symptoms, and fertility windows from data she shares. Use when logging periods, predicting the next cycle, or flagging changes from her baseline.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/period",
+    "summary": "Local data lives in `~/period/memory.md`. Never sync, never mention cycle content outside a session she opened. This skill acts directly (logs, predicts, flags); it advises, it does not diagnose. When To Use - She report",
     "repositoryPath": "skills/period",
     "manifestPath": "registry/skills/period.json"
   },
