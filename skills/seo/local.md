@@ -1,43 +1,42 @@
 # Local SEO
 
+## How the Local Pack Ranks
+
+Three factors, per Google: **proximity** (searcher's location — you cannot control it), **relevance** (categories + content), **prominence** (reviews + links + citations). Everything below moves relevance or prominence. Never promise pack rankings to clients far from where searchers stand — proximity caps the ceiling.
+
 ## Google Business Profile
-- Claim and verify your listing — unverified profiles don't rank
-- Complete ALL fields: hours, services, attributes, products
-- Primary category: choose the most specific match (not generic "Business")
-- Photos: businesses with photos get 42% more direction requests
-- Posts: weekly updates show activity, appear in Knowledge Panel
-- Q&A: seed with common questions, monitor for spam
+
+- Claim and verify — unverified profiles don't rank
+- Primary category is the strongest lever you control: pick the most specific match ("Personal Injury Attorney", not "Lawyer"); add secondary categories for other services
+- Complete every field: hours, services, attributes, products; businesses with photos get 42% more direction requests (Google's own stat)
+- Never stuff keywords into the business name — it violates guidelines, competitors report it, and suspensions follow; the legal business name only
+- Service-area business without walk-in customers: hide the address, set service areas — a visible home address invites suspension
+- Post weekly; seed Q&A with real customer questions and answer them yourself before spam does
 
 ## NAP Consistency
-- NAP = Name, Address, Phone — must be IDENTICAL everywhere
-- Format matters: "Street" vs "St." is a mismatch to Google
-- Check major directories: Yelp, Yellow Pages, Facebook, Apple Maps, Bing Places
-- Use local phone number — toll-free looks non-local
-- Update NAP when moving — inconsistency tanks rankings for months
 
-## Local Keywords
-- "[Service] + [City]" pages for each location served
-- "near me" queries: proximity + relevance + prominence
-- Neighborhood/district names for dense metros
-- Location in title tag: "Plumber in Austin, TX | Company Name"
-- Service area pages: one per city, unique content each
+- Name, Address, Phone consistent across GBP, your site, and the major directories: Yelp, Facebook, Apple Maps, Bing Places
+- Google normalizes minor formatting ("St." vs "Street") — the real killers are old addresses and wrong phone numbers left behind after a move, not punctuation
+- Local phone number over toll-free — toll-free reads non-local
+- After moving: update GBP first, then the site, then top directories; stale citations suppress local rankings for months
 
 ## Reviews
-- Quantity + recency + rating: all three matter for local pack
-- Respond to ALL reviews — especially negative, shows engagement
-- Never buy fake reviews — Google detects patterns, leads to suspension
-- Review velocity: steady flow better than sudden burst
-- Ask at point of transaction — "leave a review" links in receipts/emails
+
+- Rating, quantity, recency, and your response rate all feed prominence
+- Respond to every review — negatives especially; the response is read by future customers, not the reviewer
+- Steady velocity beats bursts — a sudden spike after years of silence looks purchased
+- Ask at the point of satisfaction with a direct review link; never gate reviews (filtering so only happy customers get asked) — gating violates Google policy
+- Never buy reviews — pattern detection leads to review removal or profile suspension
 
 ## Citations
-- Structured citations: business directories with NAP
-- Unstructured citations: mentions in articles, blogs, news
-- Industry-specific directories: lawyers on Avvo, restaurants on TripAdvisor
-- Chamber of commerce and local business associations
-- Data aggregators (Factual, Localeze) push to multiple directories
+
+- Structured: business directories carrying NAP
+- Unstructured: mentions in local news, blogs, event pages — these double as local link building
+- Industry-specific directories (lawyers on Avvo, restaurants on TripAdvisor) outweigh generic ones
+- Data aggregators push NAP to many directories at once — fix the source, not fifty listings
 
 ## Local Content
-- Location pages with unique content — not just NAP + map
-- Local news/events coverage — shows community involvement
-- Case studies with local clients — builds local relevance signals
-- Embed Google Maps — helps Google verify location
+
+- One page per service × city actually served, each with unique substance — templated city-swap pages get filtered as doorway pages
+- Genuine local signals: case studies with local clients, sponsorships, local event coverage
+- Embed the Google Map of your GBP listing on the contact/location page

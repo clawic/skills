@@ -9,7 +9,7 @@
 
 ## Meta Description
 - 150-160 chars — longer gets truncated, shorter wastes space
-- Google often rewrites it — but well-written ones used ~70% of time
+- Google rewrites most meta descriptions (roughly 60-70% per Ahrefs' study) — write them anyway: when yours is kept, it's because it matched the query
 - Include primary keyword — gets bolded in search results
 - Call-to-action works: "Learn how...", "Discover...", "Get started..."
 - NEVER duplicate across pages — Google may show "no description available"
@@ -23,7 +23,7 @@
 
 ## Keywords
 - Primary keyword in: title, H1, first 100 words, URL, meta description
-- Density under 3% — modern Google detects stuffing patterns
+- No density threshold exists; stuffing detection is pattern-based — cover the topic, use variants naturally
 - LSI keywords (related terms) — signals topic depth, not just single keyword
 - Long-tail in H2/H3 — captures "how to..." and question queries
 

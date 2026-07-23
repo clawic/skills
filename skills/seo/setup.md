@@ -9,21 +9,21 @@ This skill works immediately with no setup required.
 For persistent tracking across sessions, create workspace:
 
 ```
-mkdir -p ~/seo/audits ~/seo/content
+mkdir -p ~/clawic/seo/audits ~/clawic/seo/content
 ```
 
 Register in your main memory file:
 
 ```markdown
 ## SEO Workspace
-Location: ~/seo/
-- Audit reports: ~/seo/audits/
-- Content drafts: ~/seo/content/
+Location: ~/clawic/seo/
+- Audit reports: ~/clawic/seo/audits/
+- Content drafts: ~/clawic/seo/content/
 ```
 
 ## Optional Configuration
 
-Track specific sites in `~/seo/memory.md`:
+Track specific sites in `~/clawic/seo/memory.md`:
 
 ```markdown
 # SEO Memory
