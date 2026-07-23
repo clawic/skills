@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +10,11 @@
   },
   "skill": {
     "slug": "calories",
-    "name": "Calorie Tracker",
-    "description": "Track calories and macros conversationally. Auto-adapts to your goals and style.",
-    "version": "1.0.1",
-    "summary": "Auto-Adaptive Calorie Tracking This skill auto-evolves. Works for weight loss, muscle building, maintenance, or just curiosity. **Rules:** - FIRST: screen for contraindications — ED history, pregnancy, diabetes, eating d",
+    "name": "calories",
+    "description": "Tracks calories and macros from meal photos, text logs, and labels with honest error ranges, TDEE calibration, and eating disorder guardrails. Use when the user logs food, asks how many calories a meal has, wants a deficit or surplus target, or asks why the scale is not moving.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/calories",
+    "summary": "Persistent data lives in `~/clawic/calories/` (memory plus food library). Create the folder on first use; if a legacy `~/calories/memory.md` exists, migrate it there once. When To Use - User logs a meal by photo, text, o",
     "repositoryPath": "skills/calories",
     "manifestPath": "registry/skills/calories.json"
   },
@@ -22,21 +23,6 @@
       "path": "_meta.json",
       "downloadPath": "skills/calories/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/_meta.json"
-    },
-    {
-      "path": "estimation.md",
-      "downloadPath": "skills/calories/estimation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/estimation.md"
-    },
-    {
-      "path": "goals.md",
-      "downloadPath": "skills/calories/goals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/goals.md"
-    },
-    {
-      "path": "safety.md",
-      "downloadPath": "skills/calories/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/safety.md"
     },
     {
       "path": "SKILL.md",
