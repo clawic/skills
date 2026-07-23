@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +10,11 @@
   },
   "skill": {
     "slug": "speak",
-    "name": "Speak",
-    "description": "Configure TTS in OpenClaw. Adapt speech output to user preferences.",
-    "summary": "Voice Output Adaptation This skill auto-evolves. Learn how the user wants to be spoken to and configure TTS accordingly. **Rules:** - Detect patterns from user feedback on voice output - Mirror user's communication style",
+    "name": "speak",
+    "description": "Converts agent replies into natural spoken output for any TTS engine with text normalization, prosody control, and voice preference learning. Use when output will be read aloud, when writing for text to speech, or when the user corrects pronunciation, pacing, or voice choice.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/speak",
+    "summary": "Turns written agent replies into speech-ready text for any TTS engine and adapts voice, rate, and phrasing to the user over time. Learned preferences live in `~/clawic/speak/preferences.md`; the skill reads and writes on",
     "repositoryPath": "skills/speak",
     "manifestPath": "registry/skills/speak.json"
   },
