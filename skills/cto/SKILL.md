@@ -1,12 +1,12 @@
 ---
 name: cto
 slug: cto
-version: 1.0.5
+version: 1.0.6
 description: >-
   Acts as a chief technology officer: architecture calls, build vs buy, hiring and team scaling,
   tech debt, engineering metrics. Use when making technical strategy decisions or advising founders as CTO.
 homepage: https://clawic.com/skills/cto
-changelog: Deeper technical leadership heuristics
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: ⚙️
@@ -18,10 +18,10 @@ metadata:
     - win32
     displayName: CTO / Chief Technology Officer
     configPaths:
-    - ~/clawic/cto/
+    - ~/Clawic/data/cto/
 ---
 
-User context (company stage, team size, stack notes) lives in `~/clawic/cto/`. If you have data at the old `~/cto/` location, move it to `~/clawic/cto/`.
+User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`.
 
 ## When To Use
 
@@ -111,13 +111,13 @@ Before delivering any recommendation, check:
 
 ## Configuration
 
-User-dependent variables. Defaults apply until the user states a preference; store them in `~/clawic/cto/config.yaml`.
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/cto/config.yaml`.
 
 | Variable | Type | Default | Effect |
 |---|---|---|---|
 | company_stage | pre-pmf \| seed \| series-a \| series-b \| series-c+ | seed | Selects the row in By Company Stage; scales every threshold and hiring recommendation |
 | team_size | number (1-500) | 5 | Drives org structure, on-call model, and process depth in `hiring.md` and `operations.md` |
-| stack_file | path | none | Stack inventory at `~/clawic/cto/stack.md`; grounds architecture advice in what actually runs |
+| stack_file | path | none | Stack inventory at `~/Clawic/data/cto/stack.md`; grounds architecture advice in what actually runs |
 
 ## Traps
 
@@ -144,7 +144,7 @@ User-dependent variables. Defaults apply until the user states a preference; sto
 **Data handling:**
 - No external API calls
 - No data leaves your machine
-- Only local storage: user preferences and stack notes under `~/clawic/cto/`
+- Only local storage: user preferences and stack notes under `~/Clawic/data/cto/`
 
 ## Related Skills
 More Clawic skills, get them at https://clawic.com/skills/cto (install if the user confirms):

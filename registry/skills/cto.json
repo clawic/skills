@@ -11,14 +11,19 @@
   "skill": {
     "slug": "cto",
     "name": "cto",
-    "description": "Be the CTO with technical strategy, architecture decisions, team scaling, hiring, tech debt management, and engineering leadership.",
-    "version": "1.0.5",
+    "description": "Acts as a chief technology officer: architecture calls, build vs buy, hiring and team scaling, tech debt, engineering metrics. Use when making technical strategy decisions or advising founders as CTO.",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/cto",
-    "summary": "When to Use Agent needs to be the CTO: technical strategy, architecture decisions, engineering team scaling, hiring, tech debt management, build vs buy decisions, or business-tech translation. Quick Reference | Domain | ",
+    "summary": "User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`. When To Use - Making or reviewing an",
     "repositoryPath": "skills/cto",
     "manifestPath": "registry/skills/cto.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cto/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/cto/_meta.json",
@@ -43,11 +48,6 @@
       "path": "operations.md",
       "downloadPath": "skills/cto/operations.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/operations.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/cto/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/SKILL.md"
     }
   ]
 }
