@@ -1,13 +1,13 @@
 ---
 name: linux
 slug: linux
-version: 1.0.1
+version: 1.0.2
 description: >-
   Avoids Linux traps — permission denials, disk-full mysteries, OOM kills,
   unkillable processes, systemd and cron failures, SSH lockouts. Use when
   operating, debugging, or hardening Linux systems.
 homepage: https://clawic.com/skills/linux
-changelog: Deeper administration and troubleshooting guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🐧

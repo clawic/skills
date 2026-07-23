@@ -11,23 +11,23 @@
   "skill": {
     "slug": "linux",
     "name": "linux",
-    "description": "Operate Linux systems avoiding permission traps, silent failures, and common admin mistakes.",
-    "version": "1.0.1",
+    "description": "Avoids Linux traps \u2014 permission denials, disk-full mysteries, OOM kills, unkillable processes, systemd and cron failures, SSH lockouts. Use when operating, debugging, or hardening Linux systems.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/linux",
-    "summary": "Linux Gotchas Permission Traps - `chmod 777` fixes nothing, breaks everything — find the actual owner/group issue - Setuid on scripts is ignored for security — only works on binaries - `chown -R` follows symlinks outside",
+    "summary": "When To Use - Diagnosing \"permission denied\", disk full, OOM kills, unkillable processes, or services that fail only at boot - Running or reviewing operations that touch permissions, signals, systemd units, cron jobs, or",
     "repositoryPath": "skills/linux",
     "manifestPath": "registry/skills/linux.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/linux/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/linux/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/linux/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json"
     }
   ]
 }

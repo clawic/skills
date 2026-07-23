@@ -4416,10 +4416,11 @@
     },
     {
       "slug": "linux",
-      "name": "Linux",
-      "description": "Operate Linux systems avoiding permission traps, silent failures, and common admin mistakes.",
-      "version": "1.0.1",
-      "summary": "Linux Gotchas Permission Traps - `chmod 777` fixes nothing, breaks everything \u2014 find the actual owner/group issue - Setuid on scripts is ignored for security \u2014 only works on binaries - `chown -R` follows symlinks outside",
+      "name": "linux",
+      "description": "Avoids Linux traps \u2014 permission denials, disk-full mysteries, OOM kills, unkillable processes, systemd and cron failures, SSH lockouts. Use when operating, debugging, or hardening Linux systems.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/linux",
+      "summary": "When To Use - Diagnosing \"permission denied\", disk full, OOM kills, unkillable processes, or services that fail only at boot - Running or reviewing operations that touch permissions, signals, systemd units, cron jobs, or",
       "repositoryPath": "skills/linux",
       "manifestPath": "registry/skills/linux.json"
     },
