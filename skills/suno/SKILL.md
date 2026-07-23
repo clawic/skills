@@ -1,10 +1,20 @@
 ---
-name: Suno
+name: suno
 slug: suno
-version: 1.0.0
-homepage: https://clawic.com/skills/suno
+version: 1.0.1
 description: Generate AI music with Suno via API or browser, with prompt engineering and song extensions.
-metadata: {"clawdbot":{"emoji":"🎵","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/suno
+changelog: Cleaned up stray internal files and refreshed the guidance
+metadata:
+  clawdbot:
+    emoji: 🎵
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Suno
 ---
 
 ## Setup
@@ -180,12 +190,12 @@ API keys authenticate requests. Prompts and lyrics are sent for processing.
 By using this skill with APIs, prompts and lyrics are sent to third-party services for music generation. Only use services you trust with your creative content.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `audio` — Audio processing and editing
 - `video` — Combine music with video content
 - `ffmpeg` — Audio format conversion
 
 ## Feedback
 
-- If useful: `clawhub star suno`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/suno
+- Latest version: https://clawic.com/skills/suno
