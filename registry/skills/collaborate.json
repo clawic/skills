@@ -11,33 +11,88 @@
   "skill": {
     "slug": "collaborate",
     "name": "collaborate",
-    "description": "Decides when a task needs a second mind, picks the counterpart, and runs a bounded exchange that ends in a decision or a recorded disagreement. Use for design critique, adversarial review, second opinions, and choosing between collaborating, delegating, or working solo.",
-    "version": "1.0.1",
+    "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents \u2014 that is delegation.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/collaborate",
-    "summary": "When To Use Mode: act-as. The agent runs the exchange itself, with a real second party (human, another agent) or by fully adopting a counter-mindset for the round. - A plan feels solid but nobody has attacked its assumpt",
+    "summary": "Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawi",
     "repositoryPath": "skills/collaborate",
     "manifestPath": "registry/skills/collaborate.json"
   },
   "files": [
-    {
-      "path": "_meta.json",
-      "downloadPath": "skills/collaborate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/_meta.json"
-    },
-    {
-      "path": "mindsets.md",
-      "downloadPath": "skills/collaborate/mindsets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/mindsets.md"
-    },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/collaborate/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/SKILL.md"
     },
     {
+      "path": "_meta.json",
+      "downloadPath": "skills/collaborate/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/_meta.json"
+    },
+    {
+      "path": "adversarial-review.md",
+      "downloadPath": "skills/collaborate/adversarial-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/adversarial-review.md"
+    },
+    {
+      "path": "audience-pass.md",
+      "downloadPath": "skills/collaborate/audience-pass.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/audience-pass.md"
+    },
+    {
+      "path": "briefing.md",
+      "downloadPath": "skills/collaborate/briefing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/briefing.md"
+    },
+    {
+      "path": "convergence.md",
+      "downloadPath": "skills/collaborate/convergence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/convergence.md"
+    },
+    {
+      "path": "counterparts.md",
+      "downloadPath": "skills/collaborate/counterparts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/counterparts.md"
+    },
+    {
+      "path": "deadlock.md",
+      "downloadPath": "skills/collaborate/deadlock.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/deadlock.md"
+    },
+    {
+      "path": "decision-log.md",
+      "downloadPath": "skills/collaborate/decision-log.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/decision-log.md"
+    },
+    {
+      "path": "group-review.md",
+      "downloadPath": "skills/collaborate/group-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/group-review.md"
+    },
+    {
+      "path": "pairing.md",
+      "downloadPath": "skills/collaborate/pairing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/pairing.md"
+    },
+    {
+      "path": "second-opinions.md",
+      "downloadPath": "skills/collaborate/second-opinions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/second-opinions.md"
+    },
+    {
       "path": "vs-delegate.md",
       "downloadPath": "skills/collaborate/vs-delegate.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/vs-delegate.md"
+    },
+    {
+      "path": "with-agents.md",
+      "downloadPath": "skills/collaborate/with-agents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-agents.md"
+    },
+    {
+      "path": "with-humans.md",
+      "downloadPath": "skills/collaborate/with-humans.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-humans.md"
     }
   ]
 }

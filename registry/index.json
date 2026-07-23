@@ -1674,10 +1674,11 @@
     },
     {
       "slug": "collaborate",
-      "name": "Collaborate",
-      "description": "Auto-learns when to seek different perspectives. Grows a library of useful mindsets and collaboration patterns.",
-      "version": "1.0.1",
-      "summary": "Auto-Adaptive Collaboration Memory This skill auto-evolves. Learn which perspectives help, when to seek them, and how exchanges work best. **Core Loop:** 1. **Recognize** \u2014 Notice when your own perspective is insufficien",
+      "name": "collaborate",
+      "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents \u2014 that is delegation.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/collaborate",
+      "summary": "Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawi",
       "repositoryPath": "skills/collaborate",
       "manifestPath": "registry/skills/collaborate.json"
     },
