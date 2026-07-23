@@ -1,85 +1,51 @@
 # Brand and Positioning
 
-## Positioning Framework
+## Positioning, in Dunford's Order
 
-Answer these questions clearly:
+Work the steps in this order (April Dunford, *Obviously Awesome*) — starting from "what are we?" produces category clichés:
 
-| Question | Example |
-|----------|---------|
-| For whom? | Series A B2B SaaS founders |
-| What problem? | Can't forecast revenue accurately |
-| What solution? | AI-powered revenue intelligence |
-| Unlike? | Spreadsheets and legacy BI tools |
-| We are? | The command center for predictable growth |
+1. **Competitive alternatives** — what customers would actually do without you (often spreadsheets or "nothing", not your named competitors).
+2. **Unique attributes** — capabilities the alternatives cannot claim.
+3. **Value with proof** — what those attributes let customers achieve, evidenced.
+4. **Who cares most** — the segment for whom that value is urgent.
+5. **Category context** — the frame that makes the value obvious without explanation.
 
-### Positioning Statement Template
+Then compress: For [segment] who [struggle], [product] is the [category] that [value]. Unlike [alternative], we [differentiator].
 
-> For [target customer] who [need/opportunity], [product] is a [category] that [key benefit]. Unlike [alternatives], we [key differentiator].
+Tests:
+- Swap test (SKILL.md Rule 2): put a competitor's logo on your headline — if it still works, there is no positioning.
+- "So what" chain: every claim must survive two consecutive "so what?"s and land on customer money or time.
 
 ## Messaging Hierarchy
 
-```
-Brand Promise (emotional)
-    ↓
-Value Proposition (rational)
-    ↓
-Key Messages (3-5 pillars)
-    ↓
-Proof Points (evidence for each)
-```
+Brand promise → value proposition → 3-5 message pillars → proof points per pillar.
 
-### Message Testing
+- Proof points are named numbers and named customers, never adjectives.
+- Test messages where money changes hands: A/B in paid ads and live sales calls — not colleague reviews or surveys (stated preference diverges from buying behavior).
+- Mine call recordings for winning vocabulary; the phrase that closes deals goes into the headline verbatim.
 
-- Test with actual prospects, not colleagues
-- A/B test in ads before committing to website
-- Watch for comprehension, not just preference
-- Iterate based on sales call feedback
+## Distinctive Assets and ESOV
 
-## Voice and Tone
+- Mental availability (Ehrenberg-Bass / Byron Sharp): buyers choose among brands they recall at the buying moment. Build distinctive assets — color, character, tagline, sound — and use them identically everywhere for years; changing them resets the compounding.
+- ESOV: brands whose share of voice exceeds share of market tend to grow — roughly +0.5% market share per year per 10 points of excess SOV (Binet & Field, IPA databank). Use it to size brand budget against ambition, not as a guarantee.
+- Brand effects compound past six months; activation effects decay in weeks (Binet & Field). Judging brand spend on a monthly dashboard guarantees it looks wasted (→ SKILL.md Traps).
 
-### Voice (Consistent)
-Define 3-4 voice attributes:
-- Professional but approachable
-- Confident, not arrogant
-- Clear, not clever
-- Helpful, not salesy
+## Rebrand Decision
 
-### Tone (Varies by Context)
-
-| Context | Tone |
-|---------|------|
-| Error messages | Helpful, calm |
-| Marketing | Energetic, aspirational |
-| Support | Patient, empathetic |
-| Legal | Clear, precise |
+Legitimate triggers only: legal necessity, M&A, a name that actively blocks the market (unpronounceable, wrong association), or a strategy shift the old brand cannot carry. "Growth is slow" is not on the list — that's positioning or product. A rebrand consumes quarters of team focus and resets distinctive-asset equity to near zero.
 
 ## Brand Architecture
 
-| Type | When to Use |
-|------|-------------|
-| Monolithic | One brand, all products (Apple) |
-| Endorsed | Parent brand + sub-brands (Marriott) |
-| House of brands | Separate brands (P&G) |
-
-**Default for startups:** Monolithic until you have good reason otherwise.
+Monolithic (one brand, all products) is the startup default: every dollar builds one asset. Split into endorsed brands or a house of brands only when a product targets a conflicting audience or price tier that would damage the master brand.
 
 ## Crisis Communications
 
-### Preparation
-- Crisis playbook written before needed
-- Spokesperson designated and trained
-- Stakeholder notification list ready
-- Holding statement templates
+Prepare before you need it: playbook, designated and media-trained spokesperson, stakeholder notification list, holding statements pre-approved by legal.
 
-### Response Framework
+Respond in this order:
+1. **Acknowledge** — before you have answers; silence fills with speculation.
+2. **Empathize** — name the impact on those affected.
+3. **Act** — concrete steps with a named owner.
+4. **Update on a stated schedule** — "next update by 5pm" beats "we'll keep you posted."
 
-1. **Acknowledge** — We're aware of the issue
-2. **Empathize** — We understand the impact
-3. **Act** — Here's what we're doing
-4. **Update** — We'll keep you informed
-
-### Rules
-- Speed matters — silence fills with speculation
-- Honesty always — cover-ups are worse than mistakes
-- One voice — coordinate all communications
-- Document everything — for legal and learning
+Rules: one voice — every channel routes through one approver; never speculate on cause before facts are confirmed; honesty beats optics — a cover-up converts an incident into a story; document timeline and decisions as you go (legal defense and postmortem both need it).

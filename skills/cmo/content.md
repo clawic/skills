@@ -1,98 +1,51 @@
 # Content Strategy
 
-## Content Pillars
+## Two Jobs, Mapped to 95:5
 
-Define 3-5 themes that:
-- Align with product value props
-- Match audience pain points
-- You can credibly own
-- Have search/social demand
+Content either captures existing demand or creates future demand (95:5 → SKILL.md Rule 4):
+- **Capture content**: pricing, "X vs Y", "X alternatives", integration pages — low volume, highest conversion intent.
+- **Creation content**: point of view, teaching, original research — builds memory in the 95% not buying yet.
 
-### Example Structure
+Most teams over-produce top-funnel volume and under-produce the dozen-odd bottom-funnel pages that actually convert.
 
-| Pillar | Topics | Formats |
-|--------|--------|---------|
-| Revenue operations | Forecasting, pipeline, metrics | Guides, tools |
-| Sales leadership | Hiring, coaching, process | Interviews, frameworks |
-| Growth strategy | GTM, expansion, PLG | Case studies, research |
+## BOFU-First SEO Order
 
-## Content Formats
+Build in this order — the reverse of volume-chasing:
+1. Pricing, comparison, alternatives, and integration pages.
+2. Problem pages phrased in the ICP's own words — mined from sales call recordings, not keyword tools alone.
+3. Pillar/cluster top-funnel pages for compounding traffic — only after 1 and 2 exist.
 
-| Format | Best For | Effort |
-|--------|----------|--------|
-| Blog posts | SEO, thought leadership | Low-medium |
-| Guides/ebooks | Lead gen, depth | Medium-high |
-| Videos | Engagement, social | Medium-high |
-| Podcasts | Relationships, reach | Medium |
-| Webinars | Lead gen, demos | Medium |
-| Tools/calculators | Lead gen, utility | High |
-| Case studies | Bottom funnel, proof | Medium |
+Rankings take months, not weeks. That lag is why SEO gets killed at exactly the wrong time — set its kill line (SKILL.md Rule 6) in quarters, not weeks.
 
-## Content Repurposing
+## Content-Market Fit Signal
 
-One piece of content → multiple formats:
+You have it when: prospects mention specific pieces on sales calls; inbound messages cite content; subscribers match the ICP, not just traffic. Traffic growth with none of these = writing for the wrong audience or the wrong funnel stage.
+
+## Repurposing
+
+Create once at the highest-fidelity format you can sustain, then derive downward:
 
 ```
-Webinar recording
-    → Blog post summary
-    → Video clips for social
-    → Podcast episode
-    → Quote graphics
-    → Email series
-    → Slide deck
+Webinar / long video
+    → blog post → social clips → quote graphics → email series → sales deck
 ```
 
-**Rule:** Create once, distribute everywhere.
+Deriving upward (blog → webinar) costs nearly as much as starting over — pick the apex format first.
 
-## Editorial Calendar
+## Cadence
 
-### Cadence by Stage
+Commit only to a cadence you can hold for a year: algorithms and audiences both punish gaps more than they reward bursts. Cut frequency before cutting quality — a marginal mediocre post subtracts trust; it doesn't add reach.
 
-| Stage | Blog | Long-form | Video |
-|-------|------|-----------|-------|
-| Early | 1-2/week | 1/month | As needed |
-| Growth | 3-4/week | 2-3/month | Weekly |
-| Scale | Daily | Weekly | Daily |
+## Gated vs. Ungated
 
-### Calendar Elements
-
-- Publish date
-- Content type
-- Topic/title
-- Target keyword
-- Author/owner
-- Status
-- Distribution channels
-- Associated campaign
-
-## SEO Fundamentals
-
-### On-Page Checklist
-- [ ] Target keyword in title, H1, URL
-- [ ] Meta description with keyword
-- [ ] Headers structured (H1 → H2 → H3)
-- [ ] Internal links to related content
-- [ ] Image alt text
-- [ ] Mobile-friendly
-- [ ] Fast page load
-
-### Content Clusters
-
-```
-Pillar Page (broad topic, high volume)
-    ↓
-Cluster Pages (specific subtopics)
-    ↓
-Internal Links (connect everything)
-```
+Gate only what a stranger would trade an email for: tools, templates, original research. Everything that builds positioning stays ungated — the 95% will not fill a form to learn who you are. A gated download signals curiosity, not buying intent: route to nurture, never straight to an SDR call list.
 
 ## Distribution Checklist
 
-After publishing:
-- [ ] Share on social channels
-- [ ] Email to newsletter list
-- [ ] Post in relevant communities
-- [ ] Send to internal team to share
-- [ ] Pitch for external syndication
-- [ ] Repurpose for other formats
-- [ ] Add to nurture sequences
+After publishing (SKILL.md Rule 8 — hours distributing ≥ hours creating):
+- [ ] Owned first: newsletter segment, nurture sequences, in-product surfaces
+- [ ] Sales: share with active deals it's relevant to — the highest-converting distribution channel nobody uses
+- [ ] Social: native-format excerpts per platform, not bare links (platforms throttle outbound links)
+- [ ] Communities: contribute the insight itself; link only where norms allow
+- [ ] Syndication: pitch trade publications and partner newsletters
+- [ ] Refresh calendar: update and re-promote past top performers — old winners usually out-earn new posts
