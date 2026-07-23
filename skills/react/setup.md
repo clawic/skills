@@ -10,11 +10,11 @@ mkdir -p ~/react
 
 ## Step 2: Initialize Memory
 
-Copy `memory-template.md` (in this skill's folder) to `~/react/memory.md`. Fill in the Stack Decisions table on first use — every later session reads it instead of re-asking.
+Copy `memory-template.md` (in this skill's folder) to `~/Clawic/data/react/memory.md`. Fill in the Stack Decisions table on first use — every later session reads it instead of re-asking.
 
 ## Step 3: Verify Setup
 
-The skill is ready when `~/react/memory.md` exists.
+The skill is ready when `~/Clawic/data/react/memory.md` exists.
 
 ## Project Structure
 
