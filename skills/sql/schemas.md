@@ -1,75 +1,74 @@
 # Schema Design Patterns — SQL
 
+Contents: Multi-tenancy · Soft Deletes · Audit Logging · Polymorphic Associations · Tags · State Machines · Full-Text Search · Versioning · Key-Value Settings · Time-Series · Counting
+
 ## Multi-tenancy
 
-### Shared Tables (simple, one database)
+Default: shared tables with `tenant_id`. Schema-per-tenant only when tenants need divergent schemas or independent restore, and the tenant count stays in the hundreds — migrations, backups, and catalog overhead all scale per schema.
 
 ```sql
 CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    tenant_id INTEGER NOT NULL REFERENCES tenants(id),
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    tenant_id BIGINT NOT NULL REFERENCES tenants(id),
     email TEXT NOT NULL,
-    UNIQUE (tenant_id, email)
+    UNIQUE (tenant_id, email)      -- uniqueness is per-tenant, never global
 );
-
--- Always filter by tenant
-CREATE INDEX idx_users_tenant ON users(tenant_id);
+-- tenant_id leads every composite index (equality-first rule, SKILL.md)
+CREATE INDEX idx_users_tenant ON users(tenant_id, email);
 ```
 
-### Separate Schemas (PostgreSQL)
+A forgotten `WHERE tenant_id = ?` is a cross-tenant data leak. Enforce in the database with row-level security (PostgreSQL), not code review:
 
 ```sql
-CREATE SCHEMA tenant_acme;
-SET search_path TO tenant_acme;
-CREATE TABLE users (...);
-
--- Switch tenant
-SET search_path TO tenant_bigcorp;
+ALTER TABLE users ENABLE ROW LEVEL SECURITY;
+CREATE POLICY tenant_isolation ON users
+    USING (tenant_id = current_setting('app.tenant_id')::bigint);
+-- App sets per-connection: SET app.tenant_id = '42';
+-- RLS does not apply to superusers or the table owner — connect as a plain role.
 ```
-
----
 
 ## Soft Deletes
 
 ```sql
 CREATE TABLE posts (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
-    deleted_at TIMESTAMPTZ  -- NULL = not deleted
+    deleted_at TIMESTAMPTZ         -- NULL = live
 );
 
--- Default view excludes deleted
-CREATE VIEW active_posts AS
-SELECT * FROM posts WHERE deleted_at IS NULL;
-
--- Partial index for active records only
-CREATE INDEX idx_posts_active ON posts(id) WHERE deleted_at IS NULL;
+CREATE VIEW active_posts AS SELECT * FROM posts WHERE deleted_at IS NULL;
 ```
 
----
+The trap that ships to prod: a plain `UNIQUE(email)` still counts soft-deleted rows, so a deleted user blocks re-registration forever. Scope uniqueness to live rows:
+
+```sql
+CREATE UNIQUE INDEX idx_users_email_live ON users(email) WHERE deleted_at IS NULL;
+```
+
+Soft delete does not cascade: FKs still point at "deleted" parents, and `ON DELETE CASCADE` never fires. Decide per child table whether to soft-delete along or allow orphan-of-deleted. If the requirement is retention/audit rather than undo, an audit log (below) plus hard delete is simpler and GDPR-erasable.
 
 ## Audit Logging
 
 ```sql
 CREATE TABLE audit_log (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     table_name TEXT NOT NULL,
-    record_id INTEGER NOT NULL,
-    action TEXT NOT NULL,  -- INSERT, UPDATE, DELETE
-    old_data JSONB,
-    new_data JSONB,
-    changed_by INTEGER REFERENCES users(id),
+    record_id BIGINT NOT NULL,
+    action TEXT NOT NULL,          -- INSERT, UPDATE, DELETE
+    old_data JSONB,                -- NULL on INSERT
+    new_data JSONB,                -- NULL on DELETE
+    changed_by BIGINT,
     changed_at TIMESTAMPTZ DEFAULT NOW()
 );
+CREATE INDEX idx_audit_record ON audit_log(table_name, record_id, changed_at);
 
--- Trigger for automatic logging (PostgreSQL)
 CREATE OR REPLACE FUNCTION audit_trigger()
 RETURNS TRIGGER AS $$
 BEGIN
     INSERT INTO audit_log (table_name, record_id, action, old_data, new_data)
-    VALUES (TG_TABLE_NAME, COALESCE(NEW.id, OLD.id), TG_OP, 
+    VALUES (TG_TABLE_NAME, COALESCE(NEW.id, OLD.id), TG_OP,
             to_jsonb(OLD), to_jsonb(NEW));
-    RETURN NEW;
+    RETURN COALESCE(NEW, OLD);
 END;
 $$ LANGUAGE plpgsql;
 
@@ -78,58 +77,49 @@ AFTER INSERT OR UPDATE OR DELETE ON users
 FOR EACH ROW EXECUTE FUNCTION audit_trigger();
 ```
 
----
+Audit tables outgrow their source tables (every UPDATE writes a row) — partition by month and drop old partitions (→ Time-Series), and never FK `changed_by` to `users` if users can be hard-deleted.
 
 ## Polymorphic Associations
 
-### Single Table (simple queries, sparse columns)
-
 ```sql
+-- Type + id columns: flexible, but the database cannot enforce that
+-- commentable_id points at a real row — orphans accumulate silently
 CREATE TABLE comments (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     body TEXT NOT NULL,
-    commentable_type TEXT NOT NULL,  -- 'Post', 'Photo', 'Video'
-    commentable_id INTEGER NOT NULL,
+    commentable_type TEXT NOT NULL,   -- 'Post', 'Photo'
+    commentable_id BIGINT NOT NULL,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
-
 CREATE INDEX idx_comments_poly ON comments(commentable_type, commentable_id);
-```
 
-### Separate FKs (strict integrity)
-
-```sql
+-- One nullable FK per target: real referential integrity; CHECK enforces exactly one
 CREATE TABLE comments (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     body TEXT NOT NULL,
-    post_id INTEGER REFERENCES posts(id),
-    photo_id INTEGER REFERENCES photos(id),
-    CHECK (
-        (post_id IS NOT NULL)::int + 
-        (photo_id IS NOT NULL)::int = 1
-    )
+    post_id BIGINT REFERENCES posts(id),
+    photo_id BIGINT REFERENCES photos(id),
+    CHECK ((post_id IS NOT NULL)::int + (photo_id IS NOT NULL)::int = 1)
 );
 ```
 
----
+Pick separate FKs when the target set is small and stable (2-4 types); pick type+id only when types are open-ended — and accept you now own orphan cleanup.
 
 ## Tags/Labels
 
-### Junction Table (standard M:N)
-
 ```sql
+-- Junction table: portable, FK integrity, tags are first-class rows
 CREATE TABLE tags (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT UNIQUE NOT NULL
 );
-
 CREATE TABLE post_tags (
-    post_id INTEGER REFERENCES posts(id) ON DELETE CASCADE,
-    tag_id INTEGER REFERENCES tags(id) ON DELETE CASCADE,
+    post_id BIGINT REFERENCES posts(id) ON DELETE CASCADE,
+    tag_id  BIGINT REFERENCES tags(id) ON DELETE CASCADE,
     PRIMARY KEY (post_id, tag_id)
 );
 
--- Find posts with all specified tags
+-- Posts having ALL listed tags: COUNT must equal the list length
 SELECT p.* FROM posts p
 JOIN post_tags pt ON pt.post_id = p.id
 JOIN tags t ON t.id = pt.tag_id
@@ -138,102 +128,90 @@ GROUP BY p.id
 HAVING COUNT(DISTINCT t.name) = 2;
 ```
 
-### Array Column (PostgreSQL, simpler)
-
 ```sql
+-- Array column (PostgreSQL): less machinery, GIN-indexed containment —
+-- but no FK, so renaming a tag means updating every row that carries it
 CREATE TABLE posts (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
     tags TEXT[] DEFAULT '{}'
 );
-
 CREATE INDEX idx_posts_tags ON posts USING GIN(tags);
-
--- Find posts with tag
-SELECT * FROM posts WHERE 'sql' = ANY(tags);
-
--- Find posts with all tags
-SELECT * FROM posts WHERE tags @> ARRAY['sql', 'tutorial'];
+SELECT * FROM posts WHERE tags @> ARRAY['sql', 'tutorial'];  -- has all
 ```
 
----
+Array when tags are free-form labels nobody manages; junction when tags have identity (rename, merge, count, permissions).
 
 ## State Machines
 
+Native ENUM is append-only in practice: PostgreSQL `ALTER TYPE ... ADD VALUE` works, but values can never be dropped or reordered, and pre-PostgreSQL 12 it couldn't even run inside a transaction (breaking migration tools). When states will evolve, prefer TEXT + CHECK:
+
 ```sql
-CREATE TYPE order_status AS ENUM ('draft', 'pending', 'paid', 'shipped', 'delivered', 'cancelled');
-
 CREATE TABLE orders (
-    id SERIAL PRIMARY KEY,
-    status order_status NOT NULL DEFAULT 'draft'
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    status TEXT NOT NULL DEFAULT 'draft'
+        CHECK (status IN ('draft', 'pending', 'paid', 'shipped', 'delivered', 'cancelled'))
 );
+-- Changing states = drop + re-add the CHECK constraint, a normal migration
 
--- Status history for auditing
+-- History table gives auditability and "time in state" queries
 CREATE TABLE order_status_history (
-    id SERIAL PRIMARY KEY,
-    order_id INTEGER REFERENCES orders(id),
-    from_status order_status,
-    to_status order_status NOT NULL,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    order_id BIGINT REFERENCES orders(id),
+    from_status TEXT,
+    to_status TEXT NOT NULL,
     changed_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
 
----
+Valid transitions (draft→pending, not draft→delivered) belong in application code or a trigger — a CHECK constraint sees only the new row, not the transition.
 
 ## Full-Text Search
 
-### PostgreSQL
-
 ```sql
--- Add search vector column
-ALTER TABLE posts ADD COLUMN search_vector tsvector;
-
--- Populate and index
-UPDATE posts SET search_vector = to_tsvector('english', title || ' ' || body);
+-- PostgreSQL >=12: generated column replaces the old trigger machinery
+ALTER TABLE posts ADD COLUMN search_vector tsvector
+    GENERATED ALWAYS AS (
+        setweight(to_tsvector('english', coalesce(title, '')), 'A') ||
+        setweight(to_tsvector('english', coalesce(body, '')),  'B')
+    ) STORED;
 CREATE INDEX idx_posts_search ON posts USING GIN(search_vector);
 
--- Search
-SELECT * FROM posts WHERE search_vector @@ to_tsquery('english', 'database & performance');
-
--- Auto-update trigger
-CREATE TRIGGER posts_search_update
-BEFORE INSERT OR UPDATE ON posts
-FOR EACH ROW EXECUTE FUNCTION 
-    tsvector_update_trigger(search_vector, 'pg_catalog.english', title, body);
+-- Query with ranking; websearch_to_tsquery accepts raw user input safely
+SELECT *, ts_rank(search_vector, q) AS rank
+FROM posts, websearch_to_tsquery('english', 'database performance') q
+WHERE search_vector @@ q
+ORDER BY rank DESC;
 ```
 
-### SQLite (FTS5)
-
 ```sql
+-- SQLite FTS5: external-content table needs sync triggers on the base table
 CREATE VIRTUAL TABLE posts_fts USING fts5(title, body, content=posts, content_rowid=id);
-
--- Search
 SELECT * FROM posts_fts WHERE posts_fts MATCH 'database performance';
 ```
 
----
+tsvector search finds words, not substrings — "data" won't match "database". For fuzzy/substring/typo matching use `pg_trgm` instead; for relevance beyond `ts_rank`, that's a search engine's job.
 
 ## Versioning (Keep History)
 
 ```sql
 CREATE TABLE documents (
-    id SERIAL PRIMARY KEY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
     body TEXT NOT NULL,
     version INTEGER NOT NULL DEFAULT 1,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
-
 CREATE TABLE document_versions (
-    id SERIAL PRIMARY KEY,
-    document_id INTEGER REFERENCES documents(id),
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    document_id BIGINT REFERENCES documents(id),
     title TEXT NOT NULL,
     body TEXT NOT NULL,
     version INTEGER NOT NULL,
-    created_at TIMESTAMPTZ DEFAULT NOW()
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    UNIQUE (document_id, version)   -- catches double-fire and race bugs
 );
 
--- Save version before update
 CREATE OR REPLACE FUNCTION save_document_version()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -246,14 +224,12 @@ $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER documents_version
 BEFORE UPDATE ON documents
-FOR EACH ROW EXECUTE FUNCTION save_document_version();
+FOR EACH ROW
+WHEN (OLD.* IS DISTINCT FROM NEW.*)   -- no phantom versions from no-op updates
+EXECUTE FUNCTION save_document_version();
 ```
 
----
-
 ## Settings/Config (Key-Value)
-
-### Simple Table
 
 ```sql
 CREATE TABLE settings (
@@ -261,34 +237,25 @@ CREATE TABLE settings (
     value JSONB NOT NULL,
     updated_at TIMESTAMPTZ DEFAULT NOW()
 );
-
--- Get setting
-SELECT value->>'theme' FROM settings WHERE key = 'user_prefs';
-
--- Upsert setting
 INSERT INTO settings (key, value) VALUES ('user_prefs', '{"theme": "dark"}')
 ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value, updated_at = NOW();
-```
 
-### Per-User Settings
-
-```sql
 CREATE TABLE user_settings (
-    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+    user_id BIGINT REFERENCES users(id) ON DELETE CASCADE,
     key TEXT NOT NULL,
     value JSONB NOT NULL,
     PRIMARY KEY (user_id, key)
 );
 ```
 
----
+Key-value is for genuinely open-ended settings. The moment a "setting" needs a type, a default, validation, or appears in a WHERE clause across users — promote it to a real column. EAV as the primary data model is a lot of pain for no gain.
 
 ## Time-Series Data
 
 ```sql
--- Partitioning by month (PostgreSQL 10+)
+-- Declarative range partitioning (PostgreSQL >=10; indexes propagate to
+-- partitions automatically from >=11)
 CREATE TABLE metrics (
-    id SERIAL,
     recorded_at TIMESTAMPTZ NOT NULL,
     metric_name TEXT NOT NULL,
     value NUMERIC NOT NULL
@@ -296,29 +263,22 @@ CREATE TABLE metrics (
 
 CREATE TABLE metrics_2026_01 PARTITION OF metrics
 FOR VALUES FROM ('2026-01-01') TO ('2026-02-01');
-
-CREATE TABLE metrics_2026_02 PARTITION OF metrics
-FOR VALUES FROM ('2026-02-01') TO ('2026-03-01');
-
--- Automatic partition creation with pg_partman extension
 ```
 
----
+- Retention is the reason to partition: `DROP TABLE metrics_2025_07` is instant and reclaims disk; `DELETE WHERE recorded_at < ...` on the same data runs for hours and leaves bloat.
+- Every query should filter on the partition key, or it scans all partitions.
+- Automate partition creation (pg_partman or a cron migration) — the outage mode is inserts failing because next month's partition doesn't exist.
+- Partitioning pays at scale; a table you could also just index by `recorded_at` doesn't need it yet.
 
 ## Counting (Exact vs Approximate)
 
 ```sql
--- Exact count (slow on large tables)
+-- Exact: scans (index or heap) — cost grows with table size
 SELECT COUNT(*) FROM large_table;
 
--- Approximate count (PostgreSQL, instant)
-SELECT reltuples::bigint AS estimate 
-FROM pg_class WHERE relname = 'large_table';
-
--- Cached count (maintain manually)
-CREATE TABLE table_counts (
-    table_name TEXT PRIMARY KEY,
-    row_count BIGINT NOT NULL,
-    updated_at TIMESTAMPTZ DEFAULT NOW()
-);
+-- Approximate (PostgreSQL, instant): planner's row estimate.
+-- Accurate to autovacuum's last ANALYZE; wildly off right after a bulk load
+SELECT reltuples::bigint AS estimate FROM pg_class WHERE relname = 'large_table';
 ```
+
+Dashboards and "~1.2M results" UIs take the estimate; billing and invariants take the exact count. If an exact count is hot, maintain a counter row updated in the same transaction as the insert/delete — and expect that counter row to become a lock hotspot under heavy write concurrency (shard it into N rows and SUM if it does).
