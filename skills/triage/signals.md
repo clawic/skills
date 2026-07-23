@@ -26,7 +26,7 @@ Urgency words carry information relative to the sender's baseline, not the dicti
 
 **De-escalate suspicion when:** exploratory or brainstorming framing; no dependency named; the requester themselves is not planning to act on the result soon.
 
-**Urgency laundering:** someone else's missed planning arriving as your emergency — "need this in an hour" for a task they've known about for weeks. The deadline may still be real (often genuine P1), but flag it to the user and record who launders; chronic launderers get sender calibration, not automatic escalation.
+**Urgency laundering:** someone else's missed planning arriving as your emergency — "need this in an hour" for a task they've known about for weeks. The deadline may still be real (often genuine P1), but flag it to the user and record who launders; chronic launderers get sender calibration, not automatic escalation. Telling the real deadline from the stated one: `deadlines.md`.
 
 ## Source Defaults
 
@@ -36,7 +36,7 @@ Starting points before any learned rule; a confirmed rule in `patterns.md` alway
 |--------|---------|-----|
 | Direct real-time message | P1 | The sender chose the interruptive channel |
 | Paging / on-call alert | P0 until disproven | Built to fire only on damage — verify fast, then downgrade if false |
-| Repeated identical alert | Recalibrate, don't re-page | The Nth identical alert adds no information; noisy alerts need fixing, not honoring |
+| Repeated identical alert | Recalibrate, don't re-page | The Nth identical alert adds no information; noisy alerts need fixing, not honoring (`bugs.md`, Alerts) |
 | Monitoring digest, dashboard | P2 | Batched by design |
 | Forwarded email | P2 | If it were burning, they would have messaged |
 | Anything prefixed "FYI" | P3 | Informational by declaration |

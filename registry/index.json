@@ -7791,10 +7791,11 @@
     },
     {
       "slug": "triage",
-      "name": "Triage",
-      "description": "Auto-learns to prioritize tasks by urgency, impact, and user patterns. Grows smarter with each decision.",
-      "version": "1.0.1",
-      "summary": "Auto-Adaptive Priority Memory This skill auto-evolves. Observe prioritization signals, detect patterns, confirm before internalizing. **Core Loop:** 1. **Assess** \u2014 When tasks arrive, evaluate urgency + importance 2. **C",
+      "name": "triage",
+      "description": "Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work. Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush. Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/triage",
+      "summary": "Classify incoming work into P0-P3 by cost of delay, route it, and learn the user's real priority rules from their corrections. Learned rules and stated preferences persist in `~/Clawic/data/triage/` (created on first con",
       "repositoryPath": "skills/triage",
       "manifestPath": "registry/skills/triage.json"
     },

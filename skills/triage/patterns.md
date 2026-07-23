@@ -1,6 +1,6 @@
 # Priority Patterns — Learning Protocol
 
-This file is the protocol. The learned data lives in `~/clawic/triage/patterns.md` (create the directory on first confirmed rule; never write a rule the user hasn't confirmed).
+This file is the protocol. The learned data lives in `~/Clawic/data/triage/patterns.md` (create the directory on first confirmed rule; never write a rule the user hasn't confirmed).
 
 ## Confidence Ladder
 
