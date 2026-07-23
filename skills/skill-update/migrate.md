@@ -13,7 +13,7 @@ How to move user data and state across a skill update without losing anything.
 
 Skills may store:
 - **Preferences** — user settings in SKILL.md sections or config files
-- **State files** — saved data in the skill folder or the skill's data folder (`~/clawic/<slug>/`)
+- **State files** — saved data in the skill folder or the skill's data folder (`~/Clawic/data/<slug>/`)
 - **External references** — paths, URLs, configuration pointing into the skill
 - **Learned patterns** — auto-adaptive skills with accumulated knowledge (highest loss cost: this data is irreplaceable, not re-enterable)
 
@@ -63,7 +63,18 @@ Old: `skill/data/` → New: `skill/storage/data/`
 5. Update any internal references to old paths
 6. Remove old files, then empty old folders
 
-### Pattern 4: Auto-Adaptive Skill
+### Pattern 4: Data Folder Location Move
+
+Old: `~/<slug>/` or `~/clawic/<slug>/` → New: `~/Clawic/data/<slug>/`
+
+Common across the whole catalog — updated skills declare the new standard location in their first paragraph.
+
+1. Check all old candidate locations; a user may have data in more than one from different eras
+2. If the new location already has files, merge is a decision: show both sides, newest-wins is NOT the default
+3. Copy to the new location, verify counts and sizes, then remove old folders
+4. Case matters: `~/Clawic/` (capitalized) is the standard; on case-insensitive filesystems `~/clawic/` may silently be the same folder — check before "merging" a folder with itself
+
+### Pattern 5: Auto-Adaptive Skill
 
 Old learned preferences → new preference format
 
@@ -101,7 +112,7 @@ Old learned preferences → new preference format
 If migration fails mid-way:
 1. Stop immediately — do not improvise the remaining steps
 2. Report exactly which steps succeeded and which failed
-3. Offer to restore from the backup at `~/.clawic/backups/<slug>-<version>-<timestamp>/`
+3. Offer to restore from the backup at `~/Clawic/data/skill-update/backups/<slug>-<version>-<timestamp>/`
 4. Never leave a partial state: either roll fully back or fix and complete the run
 
 ## Verification
