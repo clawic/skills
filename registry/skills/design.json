@@ -11,23 +11,98 @@
   "skill": {
     "slug": "design",
     "name": "design",
-    "description": "Executes visual design with quantified rules for hierarchy, spacing grids, type scale, color contrast, and layout. Use when designing or critiquing UI screens, slides, graphics, posters, or documents, or when choosing fonts and palettes without a design system.",
-    "version": "1.0.1",
+    "description": "Executes and critiques visual design with quantified rules for hierarchy, spacing, type scale, color, and layout. Use when designing UI screens, landing pages, slides, posters, social graphics, emails, charts, or PDFs, when a design looks off, cluttered, amateur, or flat and the user cannot say why, when nothing stands out or text is hard to read, when choosing fonts, pairing typefaces, or building a palette without a design system, when adapting a screen to dark mode or mobile, or when reviewing generated HTML/CSS before delivery. Not for design tokens and component libraries (design-system) or brand strategy (branding).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/design",
-    "summary": "When To Use - Designing any visual artifact from scratch: UI screens, landing pages, slides, social graphics, posters, PDFs. - Fixing a design that \"looks off\" when the user cannot articulate why. - Choosing typography, ",
+    "summary": "User preferences and memory live in `~/Clawic/data/design/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/design/` or `~/clawic/design/`), move it to `~/",
     "repositoryPath": "skills/design",
     "manifestPath": "registry/skills/design.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/design/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/design/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/_meta.json"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/design/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/SKILL.md"
+      "path": "accessibility.md",
+      "downloadPath": "skills/design/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/accessibility.md"
+    },
+    {
+      "path": "critique.md",
+      "downloadPath": "skills/design/critique.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/critique.md"
+    },
+    {
+      "path": "dark-mode.md",
+      "downloadPath": "skills/design/dark-mode.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/dark-mode.md"
+    },
+    {
+      "path": "data-viz.md",
+      "downloadPath": "skills/design/data-viz.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/data-viz.md"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/design/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/documents.md"
+    },
+    {
+      "path": "email.md",
+      "downloadPath": "skills/design/email.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/email.md"
+    },
+    {
+      "path": "fonts.md",
+      "downloadPath": "skills/design/fonts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/fonts.md"
+    },
+    {
+      "path": "graphics.md",
+      "downloadPath": "skills/design/graphics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/graphics.md"
+    },
+    {
+      "path": "landing-pages.md",
+      "downloadPath": "skills/design/landing-pages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/landing-pages.md"
+    },
+    {
+      "path": "layout.md",
+      "downloadPath": "skills/design/layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/layout.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/design/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/memory-template.md"
+    },
+    {
+      "path": "palettes.md",
+      "downloadPath": "skills/design/palettes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/palettes.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/design/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/setup.md"
+    },
+    {
+      "path": "slides.md",
+      "downloadPath": "skills/design/slides.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/slides.md"
+    },
+    {
+      "path": "ui-screens.md",
+      "downloadPath": "skills/design/ui-screens.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/ui-screens.md"
     }
   ]
 }

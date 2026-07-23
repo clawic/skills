@@ -2238,10 +2238,11 @@
     },
     {
       "slug": "design",
-      "name": "Design",
-      "description": "Auto-learns your visual preferences. Adapts to UI, graphics, video, and any creative work.",
-      "version": "1.0.1",
-      "summary": "Auto-Adaptive Design Preferences This skill auto-evolves. Edit sections below as you learn user's visual taste. **Rules:** - Detect patterns from choices, feedback, and reactions - Support all design types (UI, graphics,",
+      "name": "design",
+      "description": "Executes and critiques visual design with quantified rules for hierarchy, spacing, type scale, color, and layout. Use when designing UI screens, landing pages, slides, posters, social graphics, emails, charts, or PDFs, when a design looks off, cluttered, amateur, or flat and the user cannot say why, when nothing stands out or text is hard to read, when choosing fonts, pairing typefaces, or building a palette without a design system, when adapting a screen to dark mode or mobile, or when reviewing generated HTML/CSS before delivery. Not for design tokens and component libraries (design-system) or brand strategy (branding).",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/design",
+      "summary": "User preferences and memory live in `~/Clawic/data/design/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/design/` or `~/clawic/design/`), move it to `~/",
       "repositoryPath": "skills/design",
       "manifestPath": "registry/skills/design.json"
     },
