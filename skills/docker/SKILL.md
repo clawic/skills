@@ -1,11 +1,21 @@
 ---
-name: Docker
+name: docker
 slug: docker
-version: 1.0.4
+version: 1.0.5
+description: Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use when (1) the task touches Docker, Dockerfiles, images, containers, or Compose; (2) build reliability, runtime behavior, logs, ports, volumes, or security matter; (3) the agent needs Docker guidance and should apply it by default.
 homepage: https://clawic.com/skills/docker
-description: "Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use when (1) the task touches Docker, Dockerfiles, images, containers, or Compose; (2) build reliability, runtime behavior, logs, ports, volumes, or security matter; (3) the agent needs Docker guidance and should apply it by default."
-changelog: Simplified the skill name and kept the stateless activation guidance
-metadata: {"clawdbot":{"emoji":"🐳","requires":{"bins":["docker"]},"os":["linux","darwin","win32"]}}
+changelog: Translated remaining reference content to English
+metadata:
+  clawdbot:
+    emoji: 🐳
+    requires:
+      bins:
+      - docker
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Docker
 ---
 
 ## When to Use
@@ -100,12 +110,12 @@ Use when the task involves Docker, Dockerfiles, container builds, Compose, image
 - Inspect filesystem of dead container — `docker cp deadcontainer:/path ./local`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `devops` — deployment pipelines
 - `linux` — host system management
 - `server` — server administration
 
 ## Feedback
 
-- If useful: `clawhub star docker`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/docker
+- Latest version: https://clawic.com/skills/docker

@@ -2,42 +2,42 @@
 
 ## Networking
 
-- `localhost` en container es el container, no el host — usar `host.docker.internal`
-- `0.0.0.0` bind necesario para que container sea accesible — `127.0.0.1` solo local al container
-- `-p 5432:5432` sin IP = bind a todas interfaces = público si no hay firewall
-- Container restart cambia IP — usar network aliases, no IPs hardcoded
+- `localhost` inside a container is the container, not the host, use `host.docker.internal`
+- `0.0.0.0` bind is needed for the container to be reachable, `127.0.0.1` is only local to the container
+- `-p 5432:5432` without an IP = binds to all interfaces = public if there's no firewall
+- Container restart changes the IP, use network aliases, not hardcoded IPs
 
 ## DNS
 
-- DNS default es 127.0.0.11 interno — no usa /etc/resolv.conf del host
-- `--dns` override completo — no se añade, reemplaza
-- DNS caching en daemon — cambios DNS externos tardan en propagarse
-- Container sin network no tiene DNS — ni siquiera localhost resuelve
+- Default DNS is 127.0.0.11 internal, it doesn't use the host's /etc/resolv.conf
+- `--dns` is a full override, it doesn't add, it replaces
+- DNS caching in the daemon, external DNS changes take time to propagate
+- A container without a network has no DNS, not even localhost resolves
 
 ## Volumes
 
-- Volume anónimo (`VOLUME` en Dockerfile) acumula sin límite — nunca se borran automáticamente
-- `docker system prune` NO borra volumes — necesita `--volumes` explícito
+- Anonymous volume (`VOLUME` in the Dockerfile) accumulates without limit, never auto-deleted
+- `docker system prune` does NOT delete volumes, it needs an explicit `--volumes`
 - Bind mount permissions: container user vs host user — mismatch = permission denied
-- NFS volumes con latencia = performance horrible — especialmente para node_modules
+- NFS volumes with latency = horrible performance, especially for node_modules
 
 ## Storage Driver
 
-- `overlay2` default pero overlayfs en kernel viejo = bugs sutiles
-- Storage driver diferente entre dev/prod = comportamiento diferente
-- Logs sin limit crecen infinito — `--log-opt max-size=10m`
-- `/var/lib/docker` lleno = daemon se cuelga — monitoring esencial
+- `overlay2` is the default but overlayfs on an old kernel = subtle bugs
+- Different storage driver between dev/prod = different behavior
+- Logs without a limit grow infinitely, `--log-opt max-size=10m`
+- `/var/lib/docker` full = daemon hangs, monitoring is essential
 
 ## Resources
 
-- Sin `--memory` limit = container puede usar toda la RAM y triggerar OOM killer
-- `--memory` sin `--memory-swap` = swap = 2x memory — puede ser mucho
-- `--cpus=0.5` es limit, no reservation — otros containers pueden usar
-- Java en container sin `-XX:+UseContainerSupport` no ve el límite correcto
+- Without a `--memory` limit = the container can use all the RAM and trigger the OOM killer
+- `--memory` without `--memory-swap` = swap = 2x memory, which can be a lot
+- `--cpus=0.5` is a limit, not a reservation, other containers can use it
+- Java in a container without `-XX:+UseContainerSupport` doesn't see the correct limit
 
 ## Security
 
-- `--privileged` desactiva TODA la seguridad — casi nunca necesario
-- `--cap-add` granular mejor que privileged — solo lo que necesitas
-- Root en container puede ser root en host — user namespaces para evitar
-- Secrets en env vars visibles con `docker inspect` — usar secrets/mounts
+- `--privileged` disables ALL security, almost never needed
+- Granular `--cap-add` is better than privileged, only what you need
+- Root in the container can be root on the host, use user namespaces to avoid it
+- Secrets in env vars are visible with `docker inspect`, use secrets/mounts

@@ -2,48 +2,48 @@
 
 ## User
 
-- Container corre como root por defecto — security scanners lo flaggean
-- `USER` directive después de `RUN` que necesita root = build falla
-- User en container con UID 1000 = puede ser otro user en host — confuso
-- `--user` en runtime override USER de Dockerfile — pero permisos de archivos quedan
+- Container runs as root by default, security scanners flag it
+- `USER` directive after a `RUN` that needs root = build fails
+- User in container with UID 1000 = may be a different user on the host, confusing
+- `--user` at runtime overrides the Dockerfile's USER, but file permissions remain
 
 ## Secrets
 
-- `ENV SECRET=x` visible en `docker history` y `docker inspect`
-- `ARG` para secrets también visible en history — no es seguro
-- `COPY secrets.txt` baked en layer — aunque lo borres después, está en layer anterior
-- `--env-file` seguro en runtime pero archivo debe protegerse en host
+- `ENV SECRET=x` visible in `docker history` and `docker inspect`
+- `ARG` for secrets is also visible in history, not secure
+- `COPY secrets.txt` baked into a layer; even if you delete it later, it's in the previous layer
+- `--env-file` is safe at runtime but the file must be protected on the host
 
 ## BuildKit Secrets
 
-- `RUN --mount=type=secret` no disponible sin DOCKER_BUILDKIT=1
-- Secret mount solo disponible en ese RUN — no persiste
-- Secret ID debe coincidir exacto — typo = build falla sin mensaje claro
-- Secret no disponible en stages que no lo montan explícitamente
+- `RUN --mount=type=secret` not available without DOCKER_BUILDKIT=1
+- Secret mount only available in that RUN, it doesn't persist
+- Secret ID must match exactly, a typo = build fails without a clear message
+- Secret not available in stages that don't mount it explicitly
 
 ## Image Scanning
 
-- Vulnerabilities en base image heredadas — actualizar base regularmente
-- Scan en CI pero no en registry = images vulnerables en producción
-- CVE "fixed" en package pero base image no actualizada = sigue vulnerable
-- Distroless images difíciles de scanear — menos CVEs reportadas, no menos bugs
+- Vulnerabilities in the base image are inherited, update the base regularly
+- Scanning in CI but not in the registry = vulnerable images in production
+- CVE "fixed" in a package but the base image not updated = still vulnerable
+- Distroless images are hard to scan, fewer CVEs reported, not fewer bugs
 
 ## Runtime
 
-- `--privileged` = acceso completo a host devices, kernel modules, etc.
-- `--cap-add SYS_ADMIN` casi tan malo como privileged — evitar
-- `-v /:/host` monta root del host = game over si container comprometido
-- `--pid=host` permite ver/kill procesos del host desde container
+- `--privileged` = full access to host devices, kernel modules, etc.
+- `--cap-add SYS_ADMIN` is almost as bad as privileged, avoid it
+- `-v /:/host` mounts the host root = game over if the container is compromised
+- `--pid=host` lets you see/kill host processes from the container
 
 ## Network
 
-- Container en bridge network puede acceder a metadata service (169.254.x.x)
-- Sin `--network=none`, container tiene acceso a red por defecto
-- Published ports sin firewall = público a internet
-- Container puede hacer requests a otros containers en misma network — no isolation
+- A container on the bridge network can reach the metadata service (169.254.x.x)
+- Without `--network=none`, the container has network access by default
+- Published ports without a firewall = public to the internet
+- A container can make requests to other containers on the same network, no isolation
 
 ## Supply Chain
 
-- Base image de registry público puede ser maliciosa — verificar publisher
-- `latest` tag puede ser hijacked — usar digest para images críticas
-- Dependencias descargadas en build pueden cambiar — lock files + verified mirrors
+- A base image from a public registry can be malicious, verify the publisher
+- The `latest` tag can be hijacked, use a digest for critical images
+- Dependencies downloaded during build can change, lock files + verified mirrors

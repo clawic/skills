@@ -2,42 +2,42 @@
 
 ## Layer Cache
 
-- `COPY . .` antes de `RUN npm install` = cache invalidado en cada cambio de código
-- `apt-get update` y `apt-get install` en RUNs separados = packages stale semanas después
-- `--no-cache` en build borra TODO el cache — no solo del paso actual
-- Cache de un stage no se usa en otro stage — multi-stage rebuild from scratch
+- `COPY . .` before `RUN npm install` = cache invalidated on every code change
+- `apt-get update` and `apt-get install` in separate RUNs = stale packages weeks later
+- `--no-cache` in build wipes ALL cache, not just the current step
+- One stage's cache isn't used by another stage, multi-stage rebuild from scratch
 
 ## Multi-Stage
 
-- `--from=builder` con typo = copia de stage equivocado silenciosamente
-- `COPY --from=0` es primer stage, no stage llamado "0"
-- Stage sin nombre + reorden de stages = `--from=N` apunta a stage diferente
-- Files copiados de stage anterior pierden permisos — copiar con `--chmod`
+- `--from=builder` with a typo = silently copies from the wrong stage
+- `COPY --from=0` is the first stage, not a stage named "0"
+- Unnamed stage + reordering stages = `--from=N` points to a different stage
+- Files copied from a previous stage lose permissions, copy with `--chmod`
 
 ## Base Images
 
-- `python:latest` hoy ≠ `python:latest` mañana — builds no reproducibles
-- `alpine` sin glibc = muchos binarios no funcionan — errores crípticos
-- `slim` images sin shell tools = debugging imposible
-- Imagen "latest" puede ser major version diferente — breaking changes
+- `python:latest` today ≠ `python:latest` tomorrow, non-reproducible builds
+- `alpine` without glibc = many binaries don't work, cryptic errors
+- `slim` images without shell tools = debugging impossible
+- A "latest" image can be a different major version, breaking changes
 
 ## COPY vs ADD
 
-- `ADD` con URL descarga pero no cachea — rebuild = re-download
-- `ADD` con .tar.gz extrae automáticamente — sorpresa si no lo esperabas
-- `COPY` no expande wildcards como shell — `COPY *.json ./` puede no hacer lo que esperas
-- `.dockerignore` ignorado en builds remotos (docker build - < Dockerfile)
+- `ADD` with a URL downloads but doesn't cache, rebuild = re-download
+- `ADD` with a .tar.gz extracts automatically, a surprise if you didn't expect it
+- `COPY` doesn't expand wildcards like the shell, `COPY *.json ./` may not do what you expect
+- `.dockerignore` ignored in remote builds (docker build - < Dockerfile)
 
 ## ARG vs ENV
 
-- `ARG` no disponible después de `FROM` — cada stage necesita re-declarar
-- `ARG` con valor default + override vacío = usa el default, no vacío
-- `ARG` visible en `docker history` — no para secrets
-- `ENV` persiste en runtime — `ARG` solo en build
+- `ARG` not available after `FROM`, each stage needs to re-declare it
+- `ARG` with a default value + empty override = uses the default, not empty
+- `ARG` visible in `docker history`, not for secrets
+- `ENV` persists at runtime, `ARG` only at build time
 
 ## Size Traps
 
-- `rm -rf /var/lib/apt/lists` en RUN separado = espacio no recuperado (layers)
-- `npm install --production` después de `npm install` = dev dependencies todavía en layer anterior
-- `.git` copiado = megas extra si no hay .dockerignore
-- Múltiples `RUN apt-get` = cada uno es layer con cache de apt
+- `rm -rf /var/lib/apt/lists` in a separate RUN = space not reclaimed (layers)
+- `npm install --production` after `npm install` = dev dependencies still in the previous layer
+- `.git` copied = extra megabytes without a .dockerignore
+- Multiple `RUN apt-get` = each one is a layer with its own apt cache
