@@ -1,65 +1,54 @@
 # Production Configuration
 
-## Before Going to Production
+## Write Concern: the Durability Ladder
 
-- Test with production-like data volume—aggregations behave differently at scale
-- Enable profiling for slow queries—catch problems early
-- Set up monitoring: connections, replication lag, disk space, index usage
-- Plan sharding strategy before you need it—resharding is painful
+- `w: 0` fire-and-forget · `w: 1` primary-ack, rolls back if the primary dies before replication · `w: "majority"` survives failover.
+- The implicit default became `w: "majority"` in 5.0 — EXCEPT topologies with arbiters, which stay at `w: 1`. Never rely on it: put `w=majority&retryWrites=true` in the URI (SKILL.md rule 4).
+- `j: true` forces a journal flush before ack; otherwise the journal group-commits on a 100ms interval. `w: "majority"` already implies journaling on the majority by default.
+- Assign a concern per data class: analytics/telemetry `w: 1` · user data `w: "majority"` · irreversible actions (payment, deletion) `w: "majority"` and verify the ack in code.
 
-## Write Concern
+## The PSA Trap
 
-- Default `w: 1` acknowledges primary only—data could be lost if primary fails
-- `w: "majority"` waits for majority of replicas—durable but slower
-- `j: true` waits for journal flush—most durable, slowest
-- Match write concern to data importance—not everything needs majority
+- Primary-Secondary-Arbiter costs one data node less and fails differently: lose ONE data node and `w: "majority"` hangs, while majority read concern pins WiredTiger history on the survivor → cache pressure on the exact node you need healthy.
+- Mitigation when degraded: reconfigure to strip the dead member's vote. Prevention: three data-bearing nodes. Arbiters belong only where you truly cannot afford the third data copy — and then you accept `w: 1` semantics during any outage.
 
-## Read Concern
+## Replication Health
 
-- Default may read uncommitted data—"dirty reads" possible
-- `readConcern: "majority"` only reads committed data—safe
-- `readConcern: "linearizable"` strongest—but slow and availability issues
-- Combine with read preference for full consistency strategy
+- Oplog window = oplog size ÷ write churn per hour. It must exceed your longest tolerable member outage (maintenance + resync headroom). Default size: 5% of free disk, clamped to 990MB–50GB; resize live with `replSetResizeOplog`.
+- Flow control (4.2+) throttles the primary when majority-commit lag exceeds 10s (`flowControlTargetLagSeconds`) — a sudden primary write-latency spike with a lagging secondary is usually flow control working as designed. Fix the secondary, not the primary.
+- Elections: `electionTimeoutMillis` defaults to 10s; retryable writes hide most failovers from clients — with the multi-statement exception in SKILL.md (Consistency Model).
+- Bound secondary staleness with `maxStalenessSeconds` (minimum 90) instead of hoping.
 
-## Read Preference
+## Memory, Cache, Connections
 
-- `primary` = always read from primary—consistent but all load on one node
-- `primaryPreferred` = primary unless unavailable—slight risk of stale
-- `secondary` = read from secondaries—scales reads but stale data
-- `nearest` = lowest latency—may be stale, may vary between requests
+- WiredTiger cache default: max(50% × (RAM − 1GB), 256MB). The rest of RAM is the filesystem cache for compressed blocks — do NOT raise the cache to 90% of RAM; you'd starve the layer below it.
+- Stall signature: dirty cache ≥ 20% drafts application threads into eviction — a latency cliff, not a gradual slowdown. Eviction starts at 80% full, panics at 95%. Watch `serverStatus().wiredTiger.cache`: "tracked dirty bytes" vs "bytes currently in the cache".
+- Each connection costs up to ~1MB of mongod RAM. Pool math: 40 app pods × driver-default `maxPoolSize` 100 = 4,000 connections ≈ 4GB gone before any data. Size `maxPoolSize` from concurrent operations per pod, not the default.
+- Always connect with the replica set URI (all hosts + `replicaSet=`), never a single node — that's what makes failover automatic.
 
-## Connection Management
+## Triage Order for a Slow Cluster
 
-- Use connection pool—creating connections is expensive
-- Default pool size often too small—tune `maxPoolSize` based on load
-- Set appropriate timeouts—`serverSelectionTimeoutMS`, `socketTimeoutMS`
-- `retryWrites: true`—handles transient failures automatically
+1. `db.currentOp()` — long-running or stuck operations first.
+2. Profiler and logs — `db.setProfilingLevel(1, {slowms: 100})`; level 1 logs slow ops, level 2 logs everything (never in production). Look for COLLSCAN and `usedDisk`.
+3. Cache dirty percentage (above) — the invisible stall cause.
+4. Replication lag and flow control.
+5. Connection count vs limit — connection storms from pod restarts look like database slowness.
 
-## Replica Set Operations
+## Sharding
 
-- Always connect to replica set URI, not individual nodes—automatic failover
-- Monitor replication lag: `rs.printReplicationInfo()`
-- Test failover in staging—know what happens before production emergency
-- Secondary reads: understand that data may be seconds/minutes stale
+- Judge a shard key on three axes: cardinality, frequency, monotonicity. Monotonic keys (ObjectId, timestamps) funnel every insert to the last chunk → one hot shard doing all writes. Fix: compound `{tenant_id: 1, ts: 1}` or hashed — but hashed kills range queries (broadcast to all shards).
+- The shard key must appear in hot query filters, not just spread writes: queries without it scatter-gather every shard and get slower as you add shards.
+- Mistakes are recoverable now: `refineCollectionShardKey` (4.4) adds suffix fields; `reshardCollection` (5.0) rewrites live — budget significant free disk and IO for it.
+- When to shard: before operational limits, not at them. Initial sync or restore of a multi-TB replica set runs at disk/network speed for hours — when restore time exceeds your RTO, that's the signal, independent of query performance.
+- Since 6.0 the default range size is 128MB and the balancer moves data by size, not chunk count.
 
-## Sharding Considerations
+## Backups
 
-- Choose shard key carefully—can't change it easily
-- High cardinality key—many possible values
-- Even distribution—avoid "hot" shards
-- Write distribution matters more than read—reads can be scattered
+- `mongodump`: logical, slow, and pollutes the cache on large data — fine for small datasets and pre-migration snapshots, not a DR strategy at scale.
+- Filesystem/EBS snapshots: journal and data must share the volume, or `fsyncLock` first; restore is a crash-recovery replay.
+- Point-in-time recovery requires continuous oplog capture (Atlas/Ops Manager territory). Sharded clusters need cluster-consistent backups: stopped balancer + coordinated snapshots — tooling, not hand-rolled dumps.
+- A backup you have never restored is a hypothesis. Rehearse the restore path and time it — that number is your real RTO.
 
-## Backup Strategy
+## Upgrade Discipline
 
-- `mongodump` for logical backup—portable but slow on large data
-- Filesystem snapshots for large databases—faster but requires consistency
-- Ops Manager/Cloud Manager for managed backups
-- Point-in-time recovery needs oplog—enable with `--oplogReplay`
-
-## Monitoring Essentials
-
-- Connections: current vs available—hitting limit = operations queue
-- Replication lag: `rs.printReplicationInfo()`—if growing, investigate
-- Disk space: MongoDB doesn't shrink files—plan for growth
-- Query performance: enable profiler, review slow queries
-- Lock percentage: high lock wait = contention issues
+- One major version at a time, and run `setFeatureCompatibilityVersion` only after burn-in: FCV gates the new on-disk formats, and until you raise it, downgrade remains possible.

@@ -1,64 +1,39 @@
 # Index Strategies
 
-## Index Design Philosophy
+## ESR With a Worked Example
 
-- Design indexes for your queries, not your schema
-- Every query pattern needs an index—no index = collection scan
-- Start with slowest queries and work backwards
-- Measure with explain(), don't guess
+Query: `find({status: "shipped", total: {$gt: 100}}).sort({createdAt: -1})`
 
-## Compound Index Order (ESR Rule)
+- **E**quality → `status`, **S**ort → `createdAt`, **R**ange → `total` ⇒ index `{status: 1, createdAt: -1, total: 1}`.
+- Wrong order `{status: 1, total: 1, createdAt: -1}`: the range on `total` breaks index order, so the sort becomes a blocking in-memory sort — fine on 1k docs, a spill or failure on millions (100MB sort limit).
+- `$in` with few values can be "exploded" into parallel index scans and keep the sort order; large `$in` lists behave like a range — treat them as R when in doubt, then verify with explain.
 
-- **E**quality fields first—exact match conditions
-- **S**ort fields next—for ORDER BY without extra sort step
-- **R**ange fields last—$gt, $lt, $in (multiple values)
-- Order matters: `{status: 1, createdAt: -1}` different from `{createdAt: -1, status: 1}`
+## Prefixes, Direction, Covering
 
-## Covered Queries
+- Prefix rule (canonical: SKILL.md rule 5): audit for redundant single-field indexes whenever you add a compound one.
+- Sort direction matters only in compound sorts: `{a: 1, b: -1}` serves sort `{a: 1, b: -1}` and its exact reverse `{a: -1, b: 1}` — NOT `{a: 1, b: 1}`.
+- Covered query: all filter + projection fields in the index and `_id` projected out (or in the index) → explain shows IXSCAN with `totalDocsExamined: 0`. Worth engineering for the top 2-3 hottest queries only.
+- Low-cardinality equality alone (a `status` with 3 values) barely narrows anything — it earns its place only as the E-prefix of a compound index that continues with a sort or selective field.
 
-- Query uses only indexed fields = no document fetch—maximum speed
-- Include fields from query AND projection in index
-- Check explain for `IXSCAN` + `totalDocsExamined: 0`
-- Worth it for frequent, simple queries
+## Special Index Types
 
-## Multikey Index Behavior
+- **Partial**: `{email: 1}, {partialFilterExpression: {status: "active"}}` — smaller and cheaper, but the query must repeat the predicate: `find({email: e})` will NOT use it; `find({email: e, status: "active"})` will. Partial supersedes the legacy sparse option.
+- **Partial unique** — the fix for "unique but optional" fields: a plain unique index treats two missing fields as duplicate nulls; `{partialFilterExpression: {field: {$exists: true}}}` enforces uniqueness only where the field exists.
+- **TTL**: `{expireAfterSeconds: 86400}` on a date field. The sweep runs ~every 60 seconds and deletes in batches — expiry is approximate, and only the primary deletes (secondaries replicate the deletes). Change the TTL with `collMod`, no rebuild.
+- **Text**: one per collection, requires `$text` in the query. For relevance scoring, fuzzy matching, or facets, use Atlas Search (Lucene) — the built-in text index is the wrong tool past basic keyword match.
+- **Wildcard** (4.2+): indexes arbitrary/unknown field paths — often replaces the attribute pattern. Good for single-path equality/range; not a substitute for designed compound indexes on known hot queries.
+- **Collation** (`strength: 2`): case-insensitive equality and sort. The query must pass the identical collation or the index is skipped — set it at collection level to avoid per-query mistakes.
+- **Hashed**: for hashed sharding only; supports equality, never ranges.
 
-- Array field = multikey index—one entry per array element
-- Index size explodes with large arrays—1000 element array = 1000 index entries
-- Only ONE array field per compound index allowed
-- Can still be useful—just understand the cost
+## Lifecycle: Add, Verify, Retire
 
-## Partial Indexes
+1. **Build**: since 4.2 all builds are hybrid (non-blocking) — the old `background: true` option is gone. Builds still consume IO and default to 200MB build memory (`maxIndexBuildMemoryUsageMegabytes`); schedule off-peak.
+2. **Verify**: run explain on the real query; confirm IXSCAN and the examined/returned ratio (SKILL.md rule 1).
+3. **Audit**: `db.collection.aggregate([{$indexStats: {}}])` — stats are per-node and reset on restart. Check EVERY replica set member (secondary reads count there) and note uptimes before declaring an index unused.
+4. **Retire**: hide the index first (4.4+, `hideIndex`) and wait through a full business cycle — weekly reports, month-end jobs. Hiding reverses instantly; rebuilding a dropped index on a large collection takes hours.
 
-- Index only documents matching a filter: `{partialFilterExpression: {status: "active"}}`
-- Smaller index = faster queries AND less storage
-- Query MUST include filter condition to use partial index
-- Great for "hot" subset of data—index only active users, recent orders
+## Costs and Limits
 
-## TTL Indexes
-
-- Auto-delete documents after time: `{expireAfterSeconds: 86400}`
-- Only on date field—expires based on that date
-- Background thread runs ~every 60 seconds—not instant deletion
-- Doesn't work on capped collections
-
-## Text Indexes
-
-- Only ONE text index per collection—plan carefully
-- Requires `$text` in query—regular find can't use it
-- Stemming and stop words are language-specific
-- For complex text search, use Atlas Search instead
-
-## Index Intersection
-
-- MongoDB CAN use multiple indexes on one query—but rarely efficient
-- Don't rely on it—single compound index almost always better
-- If explain shows `AND_SORTED` or `AND_HASH`, consider compound index
-- Exception: covered queries with different projections
-
-## Monitoring and Maintenance
-
-- `db.collection.getIndexes()`—see all indexes
-- `db.collection.aggregate([{$indexStats: {}}])`—usage statistics
-- Drop unused indexes—they still cost writes and storage
-- `background: true` when creating on production—but still impacts performance
+- Every write updates every index: 10 indexes ≈ 10 B-tree writes per insert. Write-heavy collections should stay in the single digits.
+- Hard limits — 64 indexes per collection, 32 fields per compound index — are diagnostic: hitting either means the query patterns were never designed, not that you need more room.
+- Multikey cost is canonical in SKILL.md rule 3; additional constraint here: at most ONE array field per compound index — the planner rejects the second.

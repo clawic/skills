@@ -1,64 +1,43 @@
 # Schema Design Patterns
 
-## Embedding vs Referencing Decision
+## Decision Procedure (workload first)
 
-- Embed for 1:1 and 1:few relationships—data always accessed together
-- Reference for 1:many and many:many—data accessed independently
-- Embed when child doesn't exist without parent—natural containment
-- Reference when entity is shared across multiple parents—avoid duplication
+1. List the top queries and writes with expected frequency BEFORE drawing entities. A schema optimized for the wrong access pattern is worse than no design.
+2. For each relationship ask three questions in order: read together with the parent? (pull toward embed) — bounded? (unbounded → never embed) — shared across parents or updated on its own cadence? (→ reference).
+3. Shape documents so every hot query resolves in one round trip; accept duplication and write fan-out on cold paths to buy that.
+4. Stress the shape at P99: estimate document size after a year of growth. If the answer involves "the array keeps growing," you already failed step 2.
 
-## Embedding Advantages
+## Embed vs Reference Thresholds
 
-- Single read gets all data—no additional queries
-- Atomic updates on single document—no transactions needed
-- Data locality—related data physically together on disk
-- Simpler application code—no manual joining
+- Embed tens of subdocuments comfortably; at low hundreds, check document size and multikey index cost; unbounded, never — growth per user action is the tell.
+- Reference when the child is shared across parents, queried independently, larger than the parent, or hot while the parent is cold (every child update rewrites the entire parent document — SKILL.md rule 2).
+- The middle options most teams miss:
+  - **Extended reference**: store the id PLUS the 2-3 fields you always display (`{authorId, authorName, authorAvatar}`). Kills the majority of `$lookup`s; you own updating the copies when the source changes.
+  - **Subset**: embed the newest N (e.g., 10 most recent reviews) for the product page; full history lives in its own collection. Hot path stays one read.
 
-## Embedding Dangers
+## Pattern Catalog
 
-- Document growth causes relocation—performance hit on updates
-- 16MB limit approached gradually then suddenly—plan ahead
-- Duplicated embedded data becomes stale—update complexity
-- Can't query embedded documents independently
+| Situation | Pattern | Mechanics |
+|---|---|---|
+| Timestamped measurements (IoT, metrics, logs) | Time-series collection (5.0+) | Native columnar buckets; pre-5.0, manual bucketing: `{sensor, hour, readings: [], count}` — roll a new bucket at a fixed count |
+| Products with variable/unknown attributes | Attribute pattern or wildcard index | `attrs: [{k, v}]` + index `{attrs.k: 1, attrs.v: 1}`; since 4.2 a wildcard index often removes the need to reshape |
+| Expensive aggregation repeated per read | Computed pattern | Maintain the value on write (`$inc` counters are atomic — no read-modify-write); keep a rebuild job as backstop against drift |
+| A few documents blow the size rules | Outlier pattern | Flag `has_overflow: true`, spill the tail to a side collection; the hot path never pays for the outliers |
+| Mixed types in one collection | Polymorphic | `type` discriminator field; partial indexes per type: `{age: 1}, {partialFilterExpression: {type: "person"}}` |
+| Schema evolves under live traffic | Schema versioning | `schema_version` field; handle both shapes on read, migrate lazily on write, backfill job when convenient — never a big-bang migration |
 
-## Referencing Patterns
+Default: start embedded, split the moment a row above triggers. Splitting an embedded doc is a migration; un-splitting a reference is just a slower read.
 
-- Store `_id` of related document—manual lookup required
-- Use `$lookup` for server-side join—but has performance cost
-- Denormalize frequently accessed fields—store name WITH reference
-- Accept eventual consistency of denormalized copies
+## Write Fan-Out Reality
 
-## Bucketing Pattern
+- A denormalized copy means you own its update path. Enumerate every copy at design time; update via `updateMany` and accept eventual consistency, or use a transaction only when staleness is user-visible.
+- `$inc`, `$push`, `$addToSet`, `$min`/`$max` are atomic per document — design counters and sets so concurrent writers never read-modify-write in application code.
+- `findOneAndUpdate` is the atomic claim primitive (job queues, seat holds): filter on current state, set the new state, read the returned document. No transaction needed.
 
-- Instead of array per document, create fixed-size buckets
-- Example: `{sensor_id, date, readings: [...], count: 50}`
-- When count reaches limit, create new bucket document
-- Great for time-series, IoT, logs—predictable document size
+## Anti-Patterns
 
-## Attribute Pattern
-
-- Many similar optional fields → hard to index all separately
-- Convert to array of key-value pairs: `attrs: [{k: "color", v: "red"}]`
-- Single index covers all attributes: `{attrs.k: 1, attrs.v: 1}`
-- Query: `{attrs: {$elemMatch: {k: "color", v: "red"}}}`
-
-## Polymorphic Pattern
-
-- Different document structures in same collection—flexible schema
-- Use `type` or `kind` field to discriminate
-- Partial indexes per type: `{age: 1}, {partialFilterExpression: {type: "person"}}`
-- Application code must handle all shapes
-
-## Computed Pattern
-
-- Store pre-computed values to avoid repeated aggregation
-- Update computed fields on write—single source of truth
-- `$inc` for counters: `{$inc: {viewCount: 1}}`—atomic, no read needed
-- Trade write complexity for read performance
-
-## Anti-Patterns to Avoid
-
-- Massive arrays that grow unbounded—time bomb
-- Deep nesting > 3 levels—hard to query and index
-- Storing large blobs inline—use GridFS
-- One collection per user/tenant—operational nightmare
+- Unbounded arrays — canonical rule and multikey cost in SKILL.md rule 3.
+- Nesting beyond 3-4 levels: every query path spells the full chain, and arrays-inside-arrays are barely indexable (`$elemMatch` nesting). Flatten or split.
+- Large blobs inline: a 2MB document evicts roughly five hundred 4KB documents from cache on every read. Files go to GridFS or object storage with a URL in the document.
+- Collection sprawl (per-tenant, per-day collections): each collection and index is a separate WiredTiger file — checkpoint and open-handle costs grow with the count.
+- Exposing `_id` as a public business identifier: enumerable and leaks creation time (SKILL.md, ObjectId).
