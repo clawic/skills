@@ -1,6 +1,6 @@
 # Memory Template — AWS
 
-Create `~/aws/memory.md` with this structure:
+Create `~/clawic/aws/memory.md` with this structure:
 
 ```markdown
 # AWS Memory
