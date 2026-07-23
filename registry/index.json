@@ -2967,10 +2967,11 @@
     },
     {
       "slug": "fitness",
-      "name": "Fitness",
-      "description": "Auto-learns your fitness patterns. Absorbs data from wearables, conversations, and achievements.",
-      "version": "1.0.2",
-      "summary": "Auto-Adaptive Fitness Tracking This skill auto-evolves. Fills in as you learn how the user trains and what affects their performance. **Rules:** - Absorb fitness mentions from ANY source (wearables, conversations, race r",
+      "name": "fitness",
+      "description": "Plans and progresses workout programs \u2014 strength, muscle building, cardio, endurance, and general conditioning \u2014 with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/fitness",
+      "summary": "Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you ha",
       "repositoryPath": "skills/fitness",
       "manifestPath": "registry/skills/fitness.json"
     },

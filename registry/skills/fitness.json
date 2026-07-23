@@ -11,23 +11,78 @@
   "skill": {
     "slug": "fitness",
     "name": "fitness",
-    "description": "Plans and adjusts fitness training with quantified progression rules, volume landmarks, deload triggers, and recovery heuristics. Use for program design, plateau diagnosis, missed-session resets, cardio zoning, and return-to-exercise decisions.",
-    "version": "1.0.2",
+    "description": "Plans and progresses workout programs \u2014 strength, muscle building, cardio, endurance, and general conditioning \u2014 with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/fitness",
-    "summary": "Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/clawic/fitness/` as plain markdown. Advise mode: this skill coaches a human who performs the training; escalation thres",
+    "summary": "Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you ha",
     "repositoryPath": "skills/fitness",
     "manifestPath": "registry/skills/fitness.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fitness/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/fitness/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/_meta.json"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/fitness/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md"
+      "path": "assessment.md",
+      "downloadPath": "skills/fitness/assessment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/assessment.md"
+    },
+    {
+      "path": "body-composition.md",
+      "downloadPath": "skills/fitness/body-composition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/body-composition.md"
+    },
+    {
+      "path": "cardio.md",
+      "downloadPath": "skills/fitness/cardio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/cardio.md"
+    },
+    {
+      "path": "comeback.md",
+      "downloadPath": "skills/fitness/comeback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/comeback.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/fitness/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/memory-template.md"
+    },
+    {
+      "path": "minimal-equipment.md",
+      "downloadPath": "skills/fitness/minimal-equipment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/minimal-equipment.md"
+    },
+    {
+      "path": "program-design.md",
+      "downloadPath": "skills/fitness/program-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/program-design.md"
+    },
+    {
+      "path": "progression.md",
+      "downloadPath": "skills/fitness/progression.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/progression.md"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/fitness/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/recovery.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/fitness/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/setup.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/fitness/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/tracking.md"
     }
   ]
 }
