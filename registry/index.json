@@ -6883,6 +6883,7 @@
       "slug": "skill-update",
       "name": "Skill Update",
       "description": "Safely update skills with preview, migration support, and user validation. Never lose data or break workflows.",
+      "version": "1.0.1",
       "summary": "Safe Skill Updates **Core principle:** Never update without user understanding and approval. Updates can break things: - Changed file locations \u2192 data loss - Removed features \u2192 broken workflows - New requirements \u2192 unexp",
       "repositoryPath": "skills/skill-update",
       "manifestPath": "registry/skills/skill-update.json"

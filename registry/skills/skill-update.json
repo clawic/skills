@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +10,10 @@
   },
   "skill": {
     "slug": "skill-update",
-    "name": "Skill Update",
+    "name": "skill-update",
     "description": "Safely update skills with preview, migration support, and user validation. Never lose data or break workflows.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/skill-update",
     "summary": "Safe Skill Updates **Core principle:** Never update without user understanding and approval. Updates can break things: - Changed file locations → data loss - Removed features → broken workflows - New requirements → unexp",
     "repositoryPath": "skills/skill-update",
     "manifestPath": "registry/skills/skill-update.json"
