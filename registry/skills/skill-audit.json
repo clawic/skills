@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "skill-audit",
+    "name": "skill-audit",
+    "description": "Audits agent skills before install and after updates, detecting undeclared access, stealth instructions, and supply-chain risks. Use when vetting a skill, reviewing installed skills, or deciding whether a skill is safe to trust.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/skill-audit",
+    "summary": "Skill Audit Audits skill folders (SKILL.md plus companion files) as untrusted input. A skill is a prompt injection with a version number: it will sit inside an agent's context with the user's permissions. Treat every aud",
+    "repositoryPath": "skills/skill-audit",
+    "manifestPath": "registry/skills/skill-audit.json"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-audit/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/skill-audit/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/_meta.json"
+    }
+  ]
+}

@@ -6826,7 +6826,7 @@
       "slug": "skill-audit",
       "name": "skill-audit",
       "description": "Audits agent skills before install and after updates, detecting undeclared access, stealth instructions, and supply-chain risks. Use when vetting a skill, reviewing installed skills, or deciding whether a skill is safe to trust.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/skill-audit",
       "summary": "Skill Audit Audits skill folders (SKILL.md plus companion files) as untrusted input. A skill is a prompt injection with a version number: it will sit inside an agent's context with the user's permissions. Treat every aud",
       "repositoryPath": "skills/skill-audit",
