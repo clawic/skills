@@ -1,35 +1,71 @@
 ---
-name: Python
-slug: python
-version: 1.0.1
-description: Write reliable Python avoiding mutable defaults, import traps, and common runtime surprises.
-metadata: {"clawdbot":{"emoji":"🐍","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+name: py
+slug: py
+version: 1.0.2
+changelog: Deeper idioms, gotchas, and performance guidance
+description: >-
+  Avoids Python runtime traps — mutable defaults, is vs ==, GIL, asyncio pitfalls,
+  circular imports, mock patching. Use when writing, reviewing, or debugging Python code.
+homepage: https://clawic.com/skills/py
+metadata:
+  clawdbot:
+    emoji: 🐍
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Python
 ---
+
+## When To Use
+
+- Writing or reviewing Python — scan Core Rules before committing
+- Debugging wrong results without exceptions: state leaking across calls, aliased mutations, silent truncation
+- Choosing a concurrency model (threads vs asyncio vs multiprocessing)
+- Fixing ImportError, circular imports, or "works here, fails there" module issues
+- Writing pytest suites with mocks, fixtures, or async tests
+- Not for library-specific issues — `pandas`, `numpy`, `fastapi` have their own skills
 
 ## Quick Reference
 
-| Topic | File |
-|-------|------|
-| Dynamic typing, type hints, duck typing | `types.md` |
-| List/dict/set gotchas, comprehensions | `collections.md` |
-| Args/kwargs, closures, decorators, generators | `functions.md` |
-| Inheritance, descriptors, metaclasses | `classes.md` |
-| GIL, threading, asyncio, multiprocessing | `concurrency.md` |
-| Circular imports, packages, __init__.py | `imports.md` |
-| Pytest, mocking, fixtures | `testing.md` |
+| Situation | Read |
+|-----------|------|
+| Equality/value surprises: `is` vs `==`, floats, `round`, bool-as-int | `types.md` |
+| Data structure bugs: aliasing, copies, ordering, membership cost | `collections.md` |
+| State leaks across calls, closures, decorators, generators | `functions.md` |
+| Class design: shared attributes, hashability, MRO, `__slots__` | `classes.md` |
+| Slow, hanging, or racy: GIL, threads, asyncio, multiprocessing | `concurrency.md` |
+| Circular imports, module shadowing, package layout | `imports.md` |
+| Tests pass but shouldn't: mock patching, fixtures, async tests | `testing.md` |
+| Anything else | Core Rules below, then general Python knowledge |
 
-## Critical Rules
+## Core Rules
 
-- `def f(items=[])` shares list across all calls — use `items=None` then `items = items or []`
-- `is` checks identity, `==` checks equality — `"a" * 100 is "a" * 100` may be False
-- Modifying list while iterating skips elements — iterate over copy: `for x in list(items):`
-- GIL prevents true parallel Python threads — use multiprocessing for CPU-bound
-- Bare `except:` catches `SystemExit` and `KeyboardInterrupt` — use `except Exception:`
-- `UnboundLocalError` when assigning to outer scope variable — use `nonlocal` or `global`
-- `open()` without context manager leaks handles — always use `with open():`
-- Circular imports fail silently or partially — import inside function to break cycle
-- `0.1 + 0.2 != 0.3` — floating point, use `decimal.Decimal` for money
-- Generator exhausted after one iteration — can't reuse, recreate or use `itertools.tee`
-- Class attributes with mutables shared across instances — define in `__init__` instead
-- `__init__` is not constructor — `__new__` creates instance, `__init__` initializes
-- Default encoding is platform-dependent — always specify `encoding='utf-8'`
+1. No mutable defaults: `def f(xs=None)` then `if xs is None: xs = []`. Never `xs = xs or []` — a caller passing an empty list to be filled gets a fresh list instead; their reference stays empty.
+2. `is` only for `None`, `True`, `False`, and sentinel objects; `==` for everything else. Interning makes `is` on ints/strings pass in tests and fail in production (`types.md`).
+3. Never mutate the collection you iterate — dicts raise `RuntimeError`, lists silently skip elements. Iterate a copy (`for x in list(xs)`) or collect changes and apply after.
+4. Match concurrency to workload: pure-Python CPU → `multiprocessing`; I/O → threads or asyncio; threads never speed up pure-Python CPU work — the GIL serializes bytecode (`concurrency.md`).
+5. `except Exception:`, never bare `except:` — bare also catches `KeyboardInterrupt` and `SystemExit`, making the process unkillable. Re-raise with bare `raise`, keeping the original traceback.
+6. Files, locks, sockets: always `with`. CPython's refcounting closes leaked handles by accident; exceptions and other interpreters (PyPy) expose the leak.
+7. Money and exact decimals: `decimal.Decimal('1.10')` from strings — `Decimal(1.1)` imports the float error it was meant to avoid. Float comparisons via `math.isclose` (`types.md`).
+8. Declare `encoding='utf-8'` at every I/O boundary — the default follows the platform locale until UTF-8 becomes the default (PEP 686, Python 3.15), so code breaks first on Windows.
+9. Guard entry points with `if __name__ == "__main__":` — top-level code runs on every import and again in every `multiprocessing` spawn (`imports.md`).
+
+## Related Skills
+
+More Clawic skills, get them at https://clawic.com/skills/py (install if the user confirms):
+- `pandas` — DataFrame-specific traps and idioms
+- `fastapi` — async web APIs in Python
+- `django` — Django ORM and framework patterns
+- `profiling` — when the question is "why is it slow", measure first
+- `debugging` — general fault-isolation strategy beyond Python specifics
+
+## Feedback
+
+- If useful, star it: https://clawic.com/skills/py
+- Latest version: https://clawic.com/skills/py
+
+Part of [Clawic](https://clawic.com), the verified skill library. Get this skill: https://clawic.com/skills/py.
