@@ -11,14 +11,19 @@
   "skill": {
     "slug": "beijing",
     "name": "beijing",
-    "description": "Navigate Beijing as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
-    "version": "1.0.1",
+    "description": "Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China \u2014 pair with the china skill for other cities.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/beijing",
-    "summary": "When to Use User asks about Beijing for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | *",
+    "summary": "User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to ",
     "repositoryPath": "skills/beijing",
     "manifestPath": "registry/skills/beijing.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/beijing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/beijing/_meta.json",
@@ -55,6 +60,11 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/education.md"
     },
     {
+      "path": "family.md",
+      "downloadPath": "skills/beijing/family.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/family.md"
+    },
+    {
       "path": "food-areas.md",
       "downloadPath": "skills/beijing/food-areas.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-areas.md"
@@ -85,6 +95,16 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/healthcare.md"
     },
     {
+      "path": "jobs.md",
+      "downloadPath": "skills/beijing/jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/jobs.md"
+    },
+    {
+      "path": "leaving.md",
+      "downloadPath": "skills/beijing/leaving.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/leaving.md"
+    },
+    {
       "path": "lifestyle.md",
       "downloadPath": "skills/beijing/lifestyle.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/lifestyle.md"
@@ -93,6 +113,16 @@
       "path": "local.md",
       "downloadPath": "skills/beijing/local.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/local.md"
+    },
+    {
+      "path": "mandarin.md",
+      "downloadPath": "skills/beijing/mandarin.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/mandarin.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/beijing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/memory-template.md"
     },
     {
       "path": "neighborhoods-choosing.md",
@@ -135,14 +165,19 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/safety.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/beijing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/SKILL.md"
+      "path": "setup.md",
+      "downloadPath": "skills/beijing/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/setup.md"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/beijing/startup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/startup.md"
+    },
+    {
+      "path": "taxes.md",
+      "downloadPath": "skills/beijing/taxes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/taxes.md"
     },
     {
       "path": "tech.md",

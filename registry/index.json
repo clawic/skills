@@ -879,11 +879,11 @@
     },
     {
       "slug": "beijing",
-      "name": "Beijing",
-      "description": "Navigate Beijing as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
-      "version": "1.0.1",
+      "name": "beijing",
+      "description": "Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China \u2014 pair with the china skill for other cities.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/beijing",
-      "summary": "When to Use User asks about Beijing for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | *",
+      "summary": "User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to ",
       "repositoryPath": "skills/beijing",
       "manifestPath": "registry/skills/beijing.json"
     },

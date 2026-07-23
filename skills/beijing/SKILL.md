@@ -1,10 +1,15 @@
 ---
 name: beijing
 slug: beijing
-version: 1.0.1
-description: Navigates Beijing as a visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights. Use when planning a trip, relocating, or working in Beijing.
+version: 1.0.2
+description: >-
+  Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem.
+  Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay,
+  a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit,
+  comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby,
+  learning Mandarin, or wrapping up and leaving China. Not for the rest of China — pair with the china skill for other cities.
 homepage: https://clawic.com/skills/beijing
-changelog: Deeper city knowledge and sharper recommendations
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🏯
@@ -13,15 +18,42 @@ metadata:
     - darwin
     - win32
     displayName: Beijing
+    configPaths:
+    - ~/Clawic/data/beijing/
 ---
+
+User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to `~/Clawic/data/beijing/`.
+
+## Configuration
+
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/beijing/config.yaml`.
+
+| Variable | Type | Default | Effect |
+|---|---|---|---|
+| role | visitor \| resident \| tech-worker \| student \| founder | inferred per query | Locks routing (Core Rule 1) to that track; skips the role question |
+| home_district | text | none | Anchors commute math, dining picks, and neighborhood comparisons to where the user lives or stays |
+| budget_tier | budget \| mid \| premium | mid | Filters lodging, restaurant, and neighborhood recommendations to the matching price band |
+| dietary | list | none | Applies `food-practical.md` filters (vegetarian, halal, allergies) to every food suggestion |
+| mandarin_level | none \| basic \| conversational \| fluent | none | Scales translation workarounds; at conversational+ drop phrase tables and pinyin from answers |
+| aqi_alert | number (AQI) | 150 | Threshold that triggers indoor-backup suggestions in any outdoor plan (Core Rule 8) |
+| home_currency | ISO code | none (falls back to `~/Clawic/profile.yaml`) | Adds a converted figure next to every ¥ amount |
+
+Preference areas to record as the user reveals them:
+
+- **travel style** — pace (packed vs relaxed), crowd tolerance, guided vs independent; affects itinerary density and Great Wall section choice
+- **food** — spice tolerance, street-food adventurousness, cuisine leanings; affects which food file leads
+- **transport** — subway-first vs DiDi-first vs bike, walking tolerance; affects every route suggestion
+- **compliance posture** — how conservatively to treat gray areas (VPN, remote work on dependent visas); affects `safety.md`/`visas.md` framing
+- **cadence** — trip dates or arrival date; affects which seasonal and holiday warnings get volunteered
 
 ## When To Use
 
 - Trip planning: attractions, itineraries, lodging, day trips, scam avoidance
 - Relocation: neighborhood choice, rent, schools, healthcare, PSB registration
-- Career: tech salaries, work permits (Z visa, A/B/C tiers), WFOE setup, startups
+- Career: tech salaries, jobs and teaching, work permits (Z visa, A/B/C tiers), WFOE setup, startups
 - Daily-life setup: WeChat/Alipay, SIM, banking, transport, AQI strategy
-- Not for other Chinese cities: payment/app setup transfers to Shanghai or Shenzhen; neighborhood, rent, and hukou specifics do not.
+- Long-arc residency: expat taxes, having a baby, learning Mandarin, exiting China cleanly
+- Not for other Chinese cities: payment/app setup transfers to Shanghai or Shenzhen; neighborhood, rent, and hukou specifics do not — route to the `china` skill.
 
 ## Quick Reference
 
@@ -47,6 +79,7 @@ metadata:
 | Dietary, alcohol, practicalities | `food-practical.md` |
 | **Practical** | |
 | Moving & settling | `resident.md` |
+| Leaving China (exit checklist, pension refund) | `leaving.md` |
 | Transport (subway, DiDi, bikes) | `transport.md` |
 | Cost of living | `cost.md` |
 | Safety & laws | `safety.md` |
@@ -54,6 +87,8 @@ metadata:
 | Local services (banking, SIM) | `local.md` |
 | **Career** | |
 | Tech industry & salaries | `tech.md` |
+| Jobs beyond tech (teaching, labor law) | `jobs.md` |
+| Expat income tax (IIT, six-year rule) | `taxes.md` |
 | Business setup & WFOE | `business.md` |
 | Visas (Z, X, M, residence permit) | `visas.md` |
 | Startups & funding | `startup.md` |
@@ -61,6 +96,8 @@ metadata:
 | Culture & customs | `culture.md` |
 | Healthcare & insurance | `healthcare.md` |
 | Schools & education | `education.md` |
+| Kids, ayi, having a baby | `family.md` |
+| Learning Mandarin | `mandarin.md` |
 | Expat lifestyle & social | `lifestyle.md` |
 | Driving & car ownership | `driving.md` |
 | **Anything else / unclear** | Ask role + timeline first, then load the closest file above |
@@ -68,7 +105,7 @@ metadata:
 ## Core Rules
 
 ### 1. Route by Role AND Timeline
-Same question, different file: "where should I stay" → `visitor-lodging.md` for a week, `neighborhoods-choosing.md` for a move. Ask which before answering. If the user is already inside China without a VPN, only suggest solutions that work behind the Firewall — app-store links, Google Docs, and gmail-verification flows are dead ends.
+Same question, different file: "where should I stay" → `visitor-lodging.md` for a week, `neighborhoods-choosing.md` for a move. Ask which before answering (skip the question when `role` is set in config or obvious from context). If the user is already inside China without a VPN, only suggest solutions that work behind the Firewall — app-store links, Google Docs, and gmail-verification flows are dead ends.
 
 ### 2. Pre-Arrival Sequence (order matters, each step gates the next)
 1. Install and TEST a VPN — cannot be downloaded once inside China.
@@ -96,6 +133,7 @@ Canonical detail lives in the aux files; this table is the summary. When quoting
 | Taxi flagfall | ¥13 | `visitor-tips.md` |
 | Hotpot dinner for two | ¥150-300 | `food-overview.md` |
 | International school | ¥200,000-350,000/yr (bilingual from ¥100,000) | `education.md` |
+| IIT effective rate at ¥720,000/yr gross | ≈18% (worked example) | `taxes.md` |
 
 ### 6. Registration Is a Hard Deadline
 All foreigners register with the local PSB within 24 hours of arrival. Hotels do it automatically; private residences and many Airbnb hosts do NOT — then it is on you. Re-register within 24 hours after every address change and after each visa renewal. Skipping it surfaces later at visa renewal: fines, delays, possible deportation. See `visas.md`, `safety.md`.
@@ -134,6 +172,7 @@ Before answering, check:
 - Are my numbers from the canonical file, quoted with their date?
 - Does my advice work behind the Firewall if the user is already in China?
 - Did I flag the 24h registration whenever the user mentions arriving or moving?
+- Did I apply `config.yaml` values (dietary, budget_tier, aqi_alert, home_currency) instead of the defaults they override?
 
 ## Traps
 
@@ -149,6 +188,8 @@ Before answering, check:
 | Booking Badaling | Most crowded Wall section; 2h+ cable queues on holidays | Mutianyu (first visit), Jinshanling (photos), Simatai (night) |
 | Golden Week travel | Oct 1-7: attraction quotas sell out, hotel prices surge | Shift trip by one week either side |
 | Assuming English menus/staff | Chinese-only outside expat zones | Camera translation, picture menus, saved phrases |
+| Working on an M/tourist visa "temporarily" | Deportation + entry ban when caught; schools get raided | Z visa + work permit before day one (`jobs.md`, `visas.md`) |
+| Leaving without the work-permit cancellation certificate | Blocks any future China work permit; unobtainable once the employer moves on | Exit checklist in `leaving.md`, 2-3 buffer weeks before the flight |
 
 ## Legal Awareness
 
@@ -164,8 +205,10 @@ Before answering, check:
 Full guidance and red-flag scenarios: `safety.md`.
 
 ## Related Skills
-
-*No related skills published yet.*
+More Clawic skills, get them at https://clawic.com/skills/beijing (install if the user confirms):
+- `china` — travel across the rest of China; Beijing hands off there for any other city or region
+- `travel` — general trip planning and itinerary structuring beyond one city
+- `chinese` — writing natural Chinese; this skill covers survival language only
 
 ## Feedback
 
