@@ -11,14 +11,19 @@
   "skill": {
     "slug": "py",
     "name": "py",
-    "description": "Write reliable Python avoiding mutable defaults, import traps, and common runtime surprises.",
-    "version": "1.0.2",
+    "description": "Avoids Python runtime traps \u2014 mutable defaults, is vs ==, GIL, asyncio pitfalls, circular imports, mock patching. Use when writing, reviewing, or debugging Python code.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/py",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Dynamic typing, type hints, duck typing | `types.md` | | List/dict/set gotchas, comprehensions | `collections.md` | | Args/kwargs, closures, decorators, generators | `f",
+    "summary": "When To Use - Writing or reviewing Python \u2014 scan Core Rules before committing - Debugging wrong results without exceptions: state leaking across calls, aliased mutations, silent truncation - Choosing a concurrency model ",
     "repositoryPath": "skills/py",
     "manifestPath": "registry/skills/py.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/py/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/py/_meta.json",
@@ -48,11 +53,6 @@
       "path": "imports.md",
       "downloadPath": "skills/py/imports.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/py/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md"
     },
     {
       "path": "testing.md",

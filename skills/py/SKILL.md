@@ -1,8 +1,8 @@
 ---
 name: py
 slug: py
-version: 1.0.2
-changelog: Deeper idioms, gotchas, and performance guidance
+version: 1.0.3
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 description: >-
   Avoids Python runtime traps — mutable defaults, is vs ==, GIL, asyncio pitfalls,
   circular imports, mock patching. Use when writing, reviewing, or debugging Python code.
