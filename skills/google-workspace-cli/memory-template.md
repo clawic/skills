@@ -1,6 +1,6 @@
 # Memory Template - Google Workspace CLI
 
-Create `~/google-workspace-cli/memory.md` with this structure:
+Create `~/clawic/google-workspace-cli/memory.md` with this structure:
 
 ```markdown
 # Google Workspace CLI Memory
@@ -56,13 +56,13 @@ integration: pending | complete | paused | never_ask
 
 ## Companion Templates
 
-Create `~/google-workspace-cli/command-log.md` with:
+Create `~/clawic/google-workspace-cli/command-log.md` with:
 - command template
 - required placeholders
 - expected output fields
 - known side effects
 
-Create `~/google-workspace-cli/change-control.md` with:
+Create `~/clawic/google-workspace-cli/change-control.md` with:
 - command id
 - dry-run evidence
 - confirmation token
