@@ -46,6 +46,8 @@ Full details and current figures: `visas.md` (canonical). Ranked for nomads:
 
 5. **Visa runs** — obsolete advice; immigration profiles serial runners. Don't recommend.
 
+Tax warning that travels with any of these: ≥180 days in a calendar year = Thai tax resident, and remitted foreign income is assessable since 2024 — the DTV gives zero tax shelter. `taxes.md` before the user commits to a long stay.
+
 ---
 
 ## Coworking Spaces
@@ -194,17 +196,17 @@ Generally excellent. Bangkok has better internet than many Western cities.
 ### Ari
 **Pros**: Local vibe, great cafés, cheaper
 **Cons**: Less international
-**Budget**: ฿15,000-30,000 rent
+**Budget**: ฿18,000-35,000 rent
 
 ### On Nut
 **Pros**: Budget-friendly, BTS access, real neighborhood
 **Cons**: Less trendy, fewer cafés
-**Budget**: ฿12,000-22,000 rent
+**Budget**: ฿12,000-25,000 rent
 
 ### Asok
 **Pros**: Central, transit hub, everything accessible
 **Cons**: Busy, touristy nearby (Nana)
-**Budget**: ฿18,000-35,000 rent
+**Budget**: ฿20,000-35,000 rent
 
 ---
 

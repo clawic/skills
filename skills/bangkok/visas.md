@@ -46,7 +46,7 @@ Employer-driven: job offer → Non-B at embassy → enter → employer processes
 
 ### Non-Immigrant O
 
-- **Retirement (50+)**: ฿800,000 seasoned in a Thai bank (2 months before application, 3 months after) OR ฿65,000/month income OR combination totaling ฿800,000/year. Health insurance required for O-A. 1 year, renewable. No work, including remote (technically).
+- **Retirement (50+)**: ฿800,000 seasoned in a Thai bank (2 months before application, 3 months after) OR ฿65,000/month income OR combination totaling ฿800,000/year. Health insurance required for O-A. 1 year, renewable. No work, including remote (technically). The life around the visa — O vs O-A choice, insurance insurability, where retirees live, compliance rhythm: `retirement.md`.
 - **Marriage**: ฿400,000 in Thai bank OR ฿40,000/month income + marriage certificate. 1 year, renewable. Scrutiny is higher than retirement — home visits happen.
 
 ### Education Visa (Non-ED)

@@ -788,11 +788,11 @@
     },
     {
       "slug": "bangkok",
-      "name": "Bangkok",
-      "description": "Navigate Bangkok as visitor, resident, digital nomad, expat, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
-      "version": "1.0.1",
+      "name": "bangkok",
+      "description": "Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases \u2014 use the thailand skill for those.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/bangkok",
-      "summary": "When to Use User asks about Bangkok for any purpose: visiting, moving, working remotely, teaching, retiring, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |",
+      "summary": "User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences \u2014 see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/",
       "repositoryPath": "skills/bangkok",
       "manifestPath": "registry/skills/bangkok.json"
     },

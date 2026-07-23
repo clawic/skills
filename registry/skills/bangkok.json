@@ -11,14 +11,19 @@
   "skill": {
     "slug": "bangkok",
     "name": "bangkok",
-    "description": "Navigate Bangkok as visitor, resident, digital nomad, expat, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
-    "version": "1.0.1",
+    "description": "Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases \u2014 use the thailand skill for those.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/bangkok",
-    "summary": "When to Use User asks about Bangkok for any purpose: visiting, moving, working remotely, teaching, retiring, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |",
+    "summary": "User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences \u2014 see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/",
     "repositoryPath": "skills/bangkok",
     "manifestPath": "registry/skills/bangkok.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bangkok/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/bangkok/_meta.json",
@@ -43,6 +48,21 @@
       "path": "culture.md",
       "downloadPath": "skills/bangkok/culture.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/culture.md"
+    },
+    {
+      "path": "driving.md",
+      "downloadPath": "skills/bangkok/driving.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/driving.md"
+    },
+    {
+      "path": "families.md",
+      "downloadPath": "skills/bangkok/families.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/families.md"
+    },
+    {
+      "path": "festivals.md",
+      "downloadPath": "skills/bangkok/festivals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/festivals.md"
     },
     {
       "path": "food-areas.md",
@@ -135,9 +155,19 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/nomad.md"
     },
     {
+      "path": "property.md",
+      "downloadPath": "skills/bangkok/property.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/property.md"
+    },
+    {
       "path": "resident.md",
       "downloadPath": "skills/bangkok/resident.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/resident.md"
+    },
+    {
+      "path": "retirement.md",
+      "downloadPath": "skills/bangkok/retirement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/retirement.md"
     },
     {
       "path": "safety.md",
@@ -145,9 +175,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/safety.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/bangkok/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/SKILL.md"
+      "path": "shopping.md",
+      "downloadPath": "skills/bangkok/shopping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/shopping.md"
+    },
+    {
+      "path": "taxes.md",
+      "downloadPath": "skills/bangkok/taxes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/taxes.md"
     },
     {
       "path": "teaching.md",
