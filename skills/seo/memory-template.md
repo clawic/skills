@@ -1,6 +1,6 @@
 # Memory Template — SEO
 
-## ~/clawic/seo/memory.md
+## ~/Clawic/data/seo/memory.md
 
 ```markdown
 # SEO Memory
@@ -52,7 +52,7 @@
 
 ## Audit Report Template
 
-Save audit reports to `~/clawic/seo/audits/[site]-[date].md`:
+Save audit reports to `~/Clawic/data/seo/audits/[site]-[date].md`:
 
 ```markdown
 # SEO Audit — [site] — [date]

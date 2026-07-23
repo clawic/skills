@@ -11,14 +11,19 @@
   "skill": {
     "slug": "seo",
     "name": "seo",
-    "description": "SEO specialist agent with site audits, content writing, keyword research, technical fixes, link building, and ranking strategies.",
-    "version": "1.0.4",
+    "description": "Runs SEO site audits, keyword research, content optimization, technical fixes, and link strategy. Use for auditing a site, diagnosing ranking drops, writing content to rank, local SEO, or schema markup.",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/seo",
-    "summary": "Setup On first use, read `setup.md` for workspace integration. When to Use Agent needs to handle SEO: site audits, content optimization, keyword research, technical fixes, link strategies, local SEO, schema markup, or ra",
+    "summary": "All persistent data (site profiles, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`. When To Use - Auditi",
     "repositoryPath": "skills/seo",
     "manifestPath": "registry/skills/seo.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/seo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/seo/_meta.json",
@@ -63,11 +68,6 @@
       "path": "setup.md",
       "downloadPath": "skills/seo/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/seo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md"
     },
     {
       "path": "technical.md",

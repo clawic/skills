@@ -1,10 +1,10 @@
 ---
 name: seo
 slug: seo
-version: 1.0.4
+version: 1.0.5
 description: Runs SEO site audits, keyword research, content optimization, technical fixes, and link strategy. Use for auditing a site, diagnosing ranking drops, writing content to rank, local SEO, or schema markup.
 homepage: https://clawic.com/skills/seo
-changelog: Deeper ranking factors and audit playbooks
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🔍
@@ -16,10 +16,10 @@ metadata:
     - win32
     displayName: SEO (Site Audit + Content Writer + Competitor Analysis)
     configPaths:
-    - ~/clawic/seo/
+    - ~/Clawic/data/seo/
 ---
 
-All persistent data (site profiles, audit history, keyword tracking) lives in `~/clawic/seo/`. If you have data at the old `~/seo/` location, move it to `~/clawic/seo/`.
+All persistent data (site profiles, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`.
 
 ## When To Use
 
@@ -38,7 +38,7 @@ On first use, read `setup.md` for workspace integration.
 ## Architecture
 
 ```
-~/clawic/seo/
+~/Clawic/data/seo/
 ├── memory.md        # Site profiles, audit history, keyword tracking
 ├── audits/          # Site audit reports
 └── content/         # SEO content drafts
@@ -133,7 +133,7 @@ In order — stop at the first confirmed cause:
 3. **Gap + gain** — cover what ranking pages cover, then add what none of them have
 4. **Write** — answer the query in the first ~100 words, structure per `content.md`
 5. **Optimize** — title, meta, headers, internal links from strong pages, schema
-6. **Publish** — request indexing in Search Console, log in `~/clawic/seo/memory.md`, review GSC after a few weeks
+6. **Publish** — request indexing in Search Console, log in `~/Clawic/data/seo/memory.md`, review GSC after a few weeks
 
 ## Output Gates
 
