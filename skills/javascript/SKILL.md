@@ -1,34 +1,69 @@
 ---
 name: javascript
 slug: javascript
-version: 1.0.5
-changelog: Deeper idioms, gotchas, and async guidance
+version: 1.0.6
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 description: >-
-  Write robust JavaScript: async/await and event-loop ordering, type coercion, closures, dates, Unicode, and modern ES2023+ APIs.
-  Use when debugging JS, reviewing code, or choosing safe modern syntax for a target runtime.
+  Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs.
+  Use when JS throws TypeError or "undefined is not a function", a promise never settles or a rejection goes unhandled, NaN or
+  [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision,
+  a Node process won't exit or ignores signals, or fetch doesn't reject on a 404;
+  also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or
+  browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.
 homepage: https://clawic.com/skills/javascript
 metadata:
   clawdbot:
     emoji: 🟨
     displayName: JavaScript
+    configPaths:
+    - ~/Clawic/data/javascript/
 ---
+
+User preferences and memory live in `~/Clawic/data/javascript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/javascript/` or `~/clawic/javascript/`), move it to `~/Clawic/data/javascript/`.
+
+## Configuration
+
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/javascript/config.yaml`.
+
+| Variable | Type | Default | Effect |
+|---|---|---|---|
+| runtime_target | node \| browser \| both | node | Selects which platform file applies by default (`node.md` vs `browser.md`) and which floor gates advice |
+| node_floor | number (Node major) | from package.json `engines`, else 22 | Gates every recommendation against the feature-floor table in `modern.md`; flags any API above the floor |
+| module_system | esm \| cjs \| dual | esm | Switches module guidance and import/export examples in `modern.md`; `dual` activates the dual-package hazard checks |
+| browser_floor | text (e.g. "Safari 16+", "last 2 years") | none | When set, gates syntax and API advice for browser-targeted code the way `node_floor` gates Node |
+
+Preference areas to record as the user reveals them:
+
+- **tooling** — package manager, bundler, test runner, lint/format stack — affects which commands and config examples are offered
+- **conventions** — style (semicolons, functional vs imperative iteration), error-handling shape (exceptions vs result values) — affects generated code and review verdicts
+- **platform** — Deno/Bun/edge runtimes, TypeScript presence, monorepo layout — affects which floors and module advice apply
+- **safety posture** — how proactively to flag legacy patterns (`var`, `==`, callback APIs) in review vs only on request
 
 ## When To Use
 
-- Debugging JavaScript: wrong values, NaN, ordering surprises, async bugs, timezone shifts
+- Debugging JavaScript: wrong values, NaN, TypeErrors, ordering surprises, async bugs, timezone shifts
 - Writing or reviewing JS (Node or browser) for correctness and modern idioms
-- Choosing data structures (Object/Map/Array/Set), copy semantics, or iteration strategy
+- Choosing data structures (Object/Map/Array/Set), copy semantics, iteration strategy, or error-handling shape
 - Deciding whether an ES2020+ feature is safe for the target runtime
+- Diagnosing memory growth, leaks, slow code, or an unresponsive event loop
 - Not for TypeScript type-system design or framework internals — this is the core language
 
 ## Quick Reference
 
 | Situation | Go to |
 |---|---|
-| Promise/await bug, rejection handling, cancellation, concurrency limits | `async.md` |
+| TypeError/ReferenceError, NaN appearing, value undefined after await, works-in-dev-only, heisenbug | `debug.md` |
+| Promise/await bug, rejection handling, cancellation, concurrency limits, races | `async.md` |
+| Throwing, catching, custom errors, cause chains, global error hooks, serializing errors | `errors.md` |
 | `==` surprise, truthiness, implicit conversion, `??` vs `\|\|` | `coercion.md` |
 | Array/Object/Map/Set choice, copying, sorting, iteration traps | `collections.md` |
-| ES2020+ syntax semantics, Node feature floors, modules, classes | `modern.md` |
+| ES2020+ syntax semantics, feature floors, modules (ESM/CJS), classes, generators/iterators | `modern.md` |
+| Memory grows, listener/timer leaks, WeakMap/WeakRef, heap snapshots | `memory-leaks.md` |
+| Slow code, jank, benchmarks, GC pressure, workers | `performance.md` |
+| Regex wrong matches, stateful `lastIndex`, catastrophic backtracking, Unicode flags | `regex.md` |
+| JSON precision loss, Date/Map round-trips, reviver/replacer, canonicalization | `json.md` |
+| Env vars, process exit, signals, streams, Buffer, child processes | `node.md` |
+| DOM events, storage, script loading, fetch response handling | `browser.md` |
 | Anything else (numbers, dates, strings, `this`, timers) | Sections below |
 
 ## Core Rules
@@ -63,7 +98,7 @@ metadata:
 - `length`, `slice`, `charAt` operate on UTF-16 units: `"👨‍👩‍👧".length === 8`. `[...str]` yields code points; user-perceived characters need `Intl.Segmenter`. Index-based slicing can cut a surrogate pair → U+FFFD garbage.
 - Normalize before comparing user input: composed `"é"` !== `"e"` + combining accent even when rendered identically — `str.normalize("NFC")` both sides.
 - Human sorting: `(a, b) => a.localeCompare(b, undefined, {numeric: true})` → `["file2", "file10"]`, accents ordered correctly. Bare `<` compares code units (`"Z" < "a"` is true).
-- `/g` and `/y` regexes are stateful: `lastIndex` persists across calls, so `re.test(s)` twice on the same string can alternate true/false. Drop `/g` for single tests or reset `re.lastIndex = 0`.
+- `/g` and `/y` regexes are stateful: `lastIndex` persists across calls, so `re.test(s)` twice on the same string can alternate true/false. Drop `/g` for single tests or reset `re.lastIndex = 0` (depth: `regex.md`).
 
 ## Objects, this & Closures
 
@@ -95,5 +130,37 @@ metadata:
 | `JSON.parse(JSON.stringify(x))` as deep clone | drops undefined/functions, Date → string, Map/Set → `{}`, throws on cycles | `structuredClone(x)` |
 | `obj.fn?.()` when fn is a number | `?.` guards null/undefined only, not "not callable" | `typeof obj.fn === "function" && obj.fn()` |
 | `if (x)` for "is x set" | silently drops 0, `""`, false | `x != null` |
+| `setInterval` around async work | next run starts while the previous still awaits — overlapping executions | chained `setTimeout` re-armed after each completion |
+| `innerHTML` with user text | the text executes as markup — XSS | `textContent`, or one sanitizer at the render boundary |
+
+## Output Gates
+
+Before emitting JS code or a review verdict, verify:
+
+- Every promise created inside try is `return await`-ed, not `return`-ed?
+- No API above the target floor (`modern.md` table vs `node_floor` / `browser_floor`)?
+- Money in integer minor units; no ≥16-digit id passing through `JSON.parse` as a number?
+- Every thrown value an Error instance, wrapped with `cause` where context was added?
+- Each mutating call (`sort`, `reverse`, `splice`, `Object.assign`) intentional, not incidental?
+- No plain object indexed by user-controlled keys?
+- Concurrency written down: each await either deliberately sequential or batched with a bounded pool?
+
+## Where Experts Disagree
+
+- **Classes vs closures/factories.** Classes when many instances share methods (prototype = one function object) or brand checks matter (`#x in obj`); factories for one-off capability objects and simple DI. Field-initializer arrow functions are the worst of both (→ `modern.md` Classes).
+- **Exceptions vs result values.** Throw for the unexpected: broken invariants, failed I/O you cannot proceed without. Return values for expected outcomes: validation, not-found, cancellation. The test: if the immediate caller always try/catches, it wasn't exceptional — return it.
+- **Chained array methods vs loops.** Chains are the readability default; a loop wins when profiling shows intermediate-array cost or the logic needs early exit beyond `some`/`every`/`find`. Switching styles without a measurement is churn, not optimization.
+
+## Related Skills
+More Clawic skills, get them at https://clawic.com/skills/javascript (install if the user confirms):
+- `typescript` — the type system layered on top of this language
+- `nodejs` — Node platform operations beyond the language: servers, tooling, deployment
+- `react` — framework work where these language rules get applied
+- `regex` — pattern crafting beyond JS-specific regex behavior
+
+## Feedback
+
+- If useful, star it: https://clawic.com/skills/javascript
+- Latest version: https://clawic.com/skills/javascript
 
 Part of [Clawic](https://clawic.com), the verified skill library. Get this skill: https://clawic.com/skills/javascript.

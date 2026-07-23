@@ -11,14 +11,19 @@
   "skill": {
     "slug": "javascript",
     "name": "javascript",
-    "description": "Write robust JavaScript with async patterns, type coercion handling, and modern ES2023+ features.",
-    "version": "1.0.5",
+    "description": "Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs. Use when JS throws TypeError or \"undefined is not a function\", a promise never settles or a rejection goes unhandled, NaN or [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision, a Node process won't exit or ignores signals, or fetch doesn't reject on a 404; also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/javascript",
-    "summary": "When to Use User needs JavaScript expertise — from core language features to modern patterns. Agent handles async/await, closures, module systems, and ES2023+ features. Quick Reference | Topic | File | |-------|------| |",
+    "summary": "User preferences and memory live in `~/Clawic/data/javascript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/javascript/` or `~/clawic/javascript/`), mo",
     "repositoryPath": "skills/javascript",
     "manifestPath": "registry/skills/javascript.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/javascript/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/javascript/_meta.json",
@@ -28,6 +33,11 @@
       "path": "async.md",
       "downloadPath": "skills/javascript/async.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/async.md"
+    },
+    {
+      "path": "browser.md",
+      "downloadPath": "skills/javascript/browser.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/browser.md"
     },
     {
       "path": "coercion.md",
@@ -40,14 +50,54 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/collections.md"
     },
     {
+      "path": "debug.md",
+      "downloadPath": "skills/javascript/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/debug.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/javascript/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/errors.md"
+    },
+    {
+      "path": "json.md",
+      "downloadPath": "skills/javascript/json.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/json.md"
+    },
+    {
+      "path": "memory-leaks.md",
+      "downloadPath": "skills/javascript/memory-leaks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-leaks.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/javascript/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-template.md"
+    },
+    {
       "path": "modern.md",
       "downloadPath": "skills/javascript/modern.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/modern.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/javascript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/SKILL.md"
+      "path": "node.md",
+      "downloadPath": "skills/javascript/node.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/node.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/javascript/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/performance.md"
+    },
+    {
+      "path": "regex.md",
+      "downloadPath": "skills/javascript/regex.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/regex.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/javascript/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/setup.md"
     }
   ]
 }

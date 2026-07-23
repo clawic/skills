@@ -4193,10 +4193,11 @@
     },
     {
       "slug": "javascript",
-      "name": "JavaScript",
-      "description": "Write robust JavaScript with async patterns, type coercion handling, and modern ES2023+ features.",
-      "version": "1.0.5",
-      "summary": "When to Use User needs JavaScript expertise \u2014 from core language features to modern patterns. Agent handles async/await, closures, module systems, and ES2023+ features. Quick Reference | Topic | File | |-------|------| |",
+      "name": "javascript",
+      "description": "Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs. Use when JS throws TypeError or \"undefined is not a function\", a promise never settles or a rejection goes unhandled, NaN or [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision, a Node process won't exit or ignores signals, or fetch doesn't reject on a 404; also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.",
+      "version": "1.0.6",
+      "homepage": "https://clawic.com/skills/javascript",
+      "summary": "User preferences and memory live in `~/Clawic/data/javascript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/javascript/` or `~/clawic/javascript/`), mo",
       "repositoryPath": "skills/javascript",
       "manifestPath": "registry/skills/javascript.json"
     },

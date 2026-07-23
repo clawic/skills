@@ -1,4 +1,4 @@
-# Modern JS: Feature Floors, Syntax Semantics, Modules, Classes
+# Modern JS: Feature Floors, Syntax Semantics, Modules, Classes, Generators
 
 ## Feature Floors (canonical table — other files point here)
 
@@ -15,7 +15,9 @@
 | `import.meta.dirname`/`filename` | Node API | >=20.11 |
 | `Object.groupBy`, `Map.groupBy` | ES2024 | >=21 |
 | `Promise.withResolvers`, `Array.fromAsync` | ES2024 | >=22 |
+| `/v` regex flag | ES2024 | >=20 |
 | Set `union`/`intersection`/`difference`, iterator helpers (`.map`/`.filter`/`.take` on iterators) | ES2025 | >=22 |
+| `RegExp.escape` | ES2025 | >=24 |
 
 A missing floor is a runtime TypeError in production, not a build error — match this table against your lowest supported runtime before using anything below ES2022.
 
@@ -36,6 +38,16 @@ A missing floor is a runtime TypeError in production, not a build error — matc
 - Field initializers run per instance in definition order. `field = () => ...` creates one closure per instance: costs memory, lives off the prototype, so spies/mixins/`super.method()` dispatch never see it. Prototype methods unless you specifically need bound `this`.
 - `this` before `super()` in a subclass constructor → ReferenceError. Class declarations are in the TDZ (no use-before-declare). Class bodies are always strict mode.
 - `#private` is enforced by the language (unlike `_convention`). Brand-check membership with `#x in obj` instead of try/catch.
+
+## Iterators & Generators
+
+- A generator is single-use: `[...gen]` twice yields everything, then NOTHING — silently. Re-invoke the generator function, or wrap in an iterable object whose `[Symbol.iterator]()` calls it fresh.
+- `for...of` DISCARDS a generator's `return` value (`{done: true, value}`) — only manual `.next()` or `yield*` observes it. Don't smuggle results through `return`; yield them.
+- Generators are lazy: nothing runs until the first `.next()`, and code between yields runs on demand — argument validation before the first `yield` doesn't fire at call time (wrap: validate in a regular function that returns the generator).
+- `yield*` delegates to any iterable and evaluates to the delegate's return value — the composition primitive.
+- Async generators + `for await...of` are sequential BY DESIGN: one item awaited at a time. They are a streaming tool, not a parallelism tool — fan-out belongs to the pool pattern (→ async.md).
+- `for await...of` over an array of already-created promises hides no rejections but processes in array order — a later fast rejection waits, unhandled, for its turn (same window as async.md's pre-created array trap).
+- Iterator helpers (floor above) are lazy — no intermediate arrays (→ performance.md) — but consume the underlying iterator: single pass still applies.
 
 ## Modules (ESM/CJS)
 
