@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +10,11 @@
   },
   "skill": {
     "slug": "listen",
-    "name": "Listen",
-    "description": "Improve transcription accuracy over time. Learn corrections, configure STT.",
-    "summary": "Active Listening This skill auto-evolves. Track transcription errors and learn corrections. **Rules:** - Detect when transcribed text seems off (wrong context, garbled names) - Learn from user corrections - Confirm patte",
+    "name": "listen",
+    "description": "Repairs garbled speech-to-text input and learns user-specific mistranscription fixes. Use when voice dictation looks wrong, names or numbers get mangled, or the user corrects transcribed text.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/listen",
+    "summary": "Voice input reaches the agent as text that already passed through a speech-to-text engine. Good engines hold 5-10% word error rate on clean conversational English, but the errors concentrate exactly where meaning lives: ",
     "repositoryPath": "skills/listen",
     "manifestPath": "registry/skills/listen.json"
   },

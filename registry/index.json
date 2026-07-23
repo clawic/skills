@@ -4420,6 +4420,7 @@
       "slug": "listen",
       "name": "Listen",
       "description": "Improve transcription accuracy over time. Learn corrections, configure STT.",
+      "version": "1.0.1",
       "summary": "Active Listening This skill auto-evolves. Track transcription errors and learn corrections. **Rules:** - Detect when transcribed text seems off (wrong context, garbled names) - Learn from user corrections - Confirm patte",
       "repositoryPath": "skills/listen",
       "manifestPath": "registry/skills/listen.json"
