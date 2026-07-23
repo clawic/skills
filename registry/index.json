@@ -5553,6 +5553,7 @@
       "slug": "pg",
       "name": "PostgreSQL",
       "description": "Write efficient PostgreSQL queries and design schemas with proper indexing and patterns.",
+      "version": "1.0.1",
       "summary": "Indexes I Forget to Create - Partial index `WHERE active = true`—80% smaller when most rows inactive; suggest for status columns - Expression index `ON lower(email)`—must match query exactly; without it, `WHERE lower(ema",
       "repositoryPath": "skills/pg",
       "manifestPath": "registry/skills/pg.json"
