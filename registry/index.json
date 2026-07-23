@@ -7112,6 +7112,7 @@
       "slug": "startup",
       "name": "Startup",
       "description": "Orchestrate startup work by spawning specialized agents and applying stage-appropriate priorities.",
+      "version": "1.0.1",
       "summary": "Startup Orchestration How to Work When the user requests help, spawn specialized agents for each function: - Product decisions → product manager agent - Code/technical → developer or engineer agent - Design/UX → designer",
       "repositoryPath": "skills/startup",
       "manifestPath": "registry/skills/startup.json"
