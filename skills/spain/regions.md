@@ -5,7 +5,7 @@
 ### Andalusia
 **Capital:** Seville | **Character:** Heat, flamenco, free tapas
 
-- **Free tapas with a drink** in Granada, Jaén, Almería. In Seville/Málaga, not so much anymore.
+- **Free tapas with a drink** in Granada, Jaén, Almería, León (the last is in Castile, not Andalusia). In Seville/Málaga, not so much anymore.
 - **Extreme heat** July-August (40-45°C inland). Avoid if you can't handle heat.
 - **Semana Santa (Holy Week)** in Seville and Málaga: impressive but packed.
 - **Beaches:** Costa del Sol (Málaga) crowded. Cádiz/Huelva more authentic.

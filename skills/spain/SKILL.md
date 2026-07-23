@@ -1,71 +1,101 @@
 ---
 name: spain
 slug: spain
-version: 1.0.1
-description: Plans Spain trips with local-level picks - named restaurants, regional rules, timing, tourist-trap avoidance. Use when the user plans travel to Spain or asks about Spanish cities, food, culture, or logistics.
+version: 1.0.2
+description: >-
+  Plans Spain travel with local-level picks: named restaurants, regional rules, timing,
+  booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to
+  Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia,
+  Bilbao, Málaga, or San Sebastián, the Balearics or Canaries, tapas, paella, pintxos, wine
+  or flamenco, festivals like San Fermín, Fallas, or Semana Santa, walking the Camino de
+  Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and
+  pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that
+  is the spanish skill.
 homepage: https://clawic.com/skills/spain
-changelog: Deeper local knowledge across every guide
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🇪🇸
-    requires:
-      bins: []
-      config:
-      - ~/spain/
     os:
     - linux
     - darwin
     - win32
     displayName: Spain
+    configPaths:
+    - ~/Clawic/data/spain/
 ---
 
-## Setup
+User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Clawic/data/spain/`.
 
-If `~/spain/` doesn't exist or is empty, read `setup.md` and begin.
+## Configuration
+
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/spain/config.yaml`. Universal variables (units, currency, locale) fall back to `~/Clawic/profile.yaml` when not set here, then to the table default.
+
+| Variable | Type | Default | Effect |
+|---|---|---|---|
+| budget_level | backpacker \| mid \| high | mid | Selects the accommodation tier (hostel/pensión vs 3-4★ vs parador) and restaurant bracket recommended in every guide |
+| dietary | list (vegetarian, vegan, gluten-free, halal) | none | Filters every restaurant pick; routes through Dietary Needs in `food-guide.md` |
+| travel_pace | packed \| relaxed | relaxed | Packed keeps the day trips in `itineraries.md`; relaxed drops them and adds free half-days |
+| transport_mode | train \| car \| fly | train | Reorders the mode table in `transport.md`; car unlocks white-village, winery, and north-coast routing |
+
+Preference areas to record as the user reveals them:
+
+- **trip context** — dates, regions, group (solo/couple/family/friends), trip style — lives in `memory.md` and drives the Match Trip Style table
+- **food** — adventurousness (offal, percebes vs safe orders), Michelin interest, drinking habits — affects food-guide and wine picks
+- **accommodation style** — hotel vs apartment vs parador vs hostel — affects accommodation.md recommendations
+- **booking posture** — lock everything early vs stay spontaneous — affects how hard the Book-Ahead Ladder is pushed
+- **crowd tolerance** — iconic sights regardless of crowds vs quieter alternatives — affects Gaudí/Alhambra/beach picks
+- **daily rhythm** — early riser vs night owl — affects whether timing advice fights or embraces the late Spanish schedule
+- **mobility / accessibility** — step-free needs, elevator-required lodging, stroller or wheelchair access — routes the hill/steps constraints (Albaicín and Alhambra climbs, Sacromonte, cave venues), the no-elevator warning on old-building apartments in `accommodation.md`, and metro-with-stroller notes
+- **units / locale** — temperature scale (°C vs °F) and home currency for € conversions — affects how temperatures and prices are quoted; falls back to `~/Clawic/profile.yaml`, then °C and € shown as-is
 
 ## When To Use
 
-User planning a trip to Spain or wanting local insight: where to eat, what to skip, regional differences, festivals, timing, and practical logistics. Not for learning the Spanish language — that's the `spanish` skill.
+**Mode: advise.** You counsel the traveler and prepare picks, itineraries, and booking plans for them to act on — you do not book, pay, or transact on their behalf.
 
-## Architecture
-
-Memory lives in `~/spain/`. See `memory-template.md` for structure.
-
-```
-~/spain/
-└── memory.md     # Trip context
-```
+- Planning or booking a Spain trip: itinerary, where to stay, what to book how far ahead
+- Choosing places: which city, island, beach, hike, winery, festival, or Camino route fits this traveler
+- Eating well: named restaurant picks, regional dishes, meal timing, tourist-trap detection
+- On-the-ground logistics: AVE trains, driving, SIM/eSIM, money, safety, emergencies, apps
+- Sanity-checking advice against regional rules (paella timing, free tapas, pintxos mechanics, languages)
+- Not for learning the Spanish language — that's the `spanish` skill
 
 ## Quick Reference
 
-| Topic | File |
+| Situation | File |
 |-------|------|
 | **Cities** | |
-| Madrid complete guide | `madrid.md` |
-| Barcelona complete guide | `barcelona.md` |
-| Sevilla complete guide | `sevilla.md` |
-| San Sebastián & pintxos | `san-sebastian.md` |
+| Madrid: eating, museums, neighborhoods | `madrid.md` |
+| Barcelona: Gaudí, tapas, pickpockets | `barcelona.md` |
+| Sevilla: heat, Feria, monuments | `sevilla.md` |
+| Granada: Alhambra tickets, free tapas | `granada.md` |
+| Valencia: paella rules, Fallas | `valencia.md` |
+| Bilbao: Guggenheim, Basque coast base | `bilbao.md` |
+| Málaga: museums, espetos, Andalusia gateway | `malaga.md` |
+| San Sebastián: pintxos, Michelin | `san-sebastian.md` |
 | **Planning** | |
-| Sample itineraries | `itineraries.md` |
-| Where to stay by city | `accommodation.md` |
-| Useful apps | `apps.md` |
+| Building a route, sample itineraries | `itineraries.md` |
+| Where to stay, prices by city | `accommodation.md` |
+| Balearics vs Canaries, which island | `islands.md` |
+| Apps to install before landing | `apps.md` |
 | **Food & Drink** | |
-| Regional dishes, restaurants | `food-guide.md` |
-| Wine regions & bodegas | `wine.md` |
+| Regional dishes, markets, dietary needs | `food-guide.md` |
+| Wine regions, bodega visits | `wine.md` |
 | **Experiences** | |
-| Places, festivals, tips | `experiences.md` |
+| Standout experiences, overrated list | `experiences.md` |
 | Beach guide by coast | `beaches.md` |
-| Hiking routes | `hiking.md` |
-| Nightlife by city | `nightlife.md` |
+| Hiking routes and permits | `hiking.md` |
+| Nightlife by city, LGBTQ+ | `nightlife.md` |
+| Walking the Camino de Santiago | `camino.md` |
 | **Reference** | |
-| 17 regions, what makes each special | `regions.md` |
-| Culture, eating times, customs | `culture.md` |
+| 17 regions, what changes in each | `regions.md` |
+| Customs, eating times, festivals, phrases | `culture.md` |
 | Traveling with children | `with-kids.md` |
 | **Practical** | |
-| Getting around | `transport.md` |
-| Phone & internet | `telecoms.md` |
-| Emergencies & safety | `emergencies.md` |
-| Anything else (visas, weather, currency) | Answer inline; log the gap in `~/spain/memory.md` |
+| Trains, flights, driving, city transit | `transport.md` |
+| SIM, eSIM, coverage | `telecoms.md` |
+| Theft, health, 112, heat | `emergencies.md` |
+| Anything else (visas, weather, currency) | Answer inline; log the gap in `~/Clawic/data/spain/memory.md` |
 
 ## Core Rules
 
@@ -84,7 +114,7 @@ What locals actually do, not what guides say:
 | Region | What changes |
 |--------|----------------|
 | País Vasco | Pintxos, not tapas. Bar tallies by toothpicks; you self-report your count. |
-| Granada, Jaén, León | Free tapa with every drink — order drinks, food arrives |
+| Granada, Jaén, Almería, León | Free tapa with every drink — order drinks, food arrives |
 | Valencia | Paella ONLY at lunch; a kitchen serving dinner paella is cooking for tourists |
 | Cataluña | Catalan on signage. Politics sensitive — no opinions unless asked. |
 | Galicia, Asturias | Atlantic climate: rain gear even in July |
@@ -120,19 +150,21 @@ Any two signals = walk away:
 
 | Traveler | Focus on |
 |----------|----------|
-| Foodie | food-guide.md, wine.md, san-sebastian.md |
-| Beach | beaches.md, regions.md |
-| Culture | madrid.md, barcelona.md, sevilla.md |
-| Adventure | hiking.md, experiences.md |
-| Family | with-kids.md, beaches.md |
+| Foodie | food-guide.md, wine.md, san-sebastian.md, malaga.md |
+| Beach | beaches.md, islands.md, regions.md |
+| Culture | madrid.md, barcelona.md, sevilla.md, granada.md |
+| Adventure | hiking.md, camino.md, experiences.md |
+| Family | with-kids.md, beaches.md, islands.md |
 | Nightlife | nightlife.md, barcelona.md, madrid.md |
+| Pilgrim | camino.md, regions.md (Galicia) |
+| Winter sun | islands.md (Canaries), malaga.md |
 
 ## Output Gates
 
 Before giving a recommendation, check:
 - Did I name a specific place, not a category?
 - Is the timing valid? (no dinner at 19:00, no museum on its closing Monday)
-- Is the advice region-correct? (no free-tapas promises outside Granada/Jaén/León, no dinner paella)
+- Is the advice region-correct? (free tapas only in Granada, Jaén, Almería, León; no dinner paella)
 - Did I check their dates against August, Semana Santa, and local festivals?
 - Are prices honest ranges, not invented exact figures?
 
@@ -150,15 +182,17 @@ Before giving a recommendation, check:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in ~/spain/
+**Data that stays local:** Trip preferences in ~/Clawic/data/spain/
 
-**This skill does NOT:** Access files outside ~/spain/ or make network requests.
+**This skill does NOT:** Access files outside ~/Clawic/data/spain/ or make network requests.
 
 ## Related Skills
-More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
-- `travel` — Travel planning
-- `food` — Food and cooking
-- `spanish` — Spanish language
+More Clawic skills, get them at https://clawic.com/skills/spain (install if the user confirms):
+- `travel` — general trip planning beyond Spain
+- `spanish` — learning or writing the Spanish language
+- `madrid` — living, studying, or working in Madrid (not just visiting)
+- `barcelona` — living, studying, or working in Barcelona (not just visiting)
+- `europe` — cross-border European travel, relocation, and rights
 
 Part of [Clawic](https://clawic.com), the verified skill library. Get this skill: https://clawic.com/skills/spain.
 

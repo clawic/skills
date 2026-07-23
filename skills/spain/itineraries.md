@@ -94,11 +94,11 @@ If you don't have weeks, do your favorite stages:
 
 | Stage | Days | What it has |
 |-------|------|-----------|
-| Sarria → Santiago | 5-6 | Minimum for the Compostela |
+| Sarria → Santiago | 5 | Minimum for the Compostela |
 | O Cebreiro → Sarria | 3-4 | Mountains, villages |
 | León → Astorga | 2-3 | Cathedral, Gaudí |
 
-**Full:** ~35 days walking, ~15 by bike.
+**Full:** ~33 days walking. Route choice, albergue mechanics, gear, and the Compostela rules → `camino.md`.
 
 ## With Kids (7 days)
 

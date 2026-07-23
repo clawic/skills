@@ -7049,11 +7049,11 @@
     },
     {
       "slug": "spain",
-      "name": "Spain",
-      "description": "Discover Spain like a local with specific restaurants, hidden gems, regional tips, and experiences beyond the tourist traps.",
-      "version": "1.0.1",
+      "name": "spain",
+      "description": "Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, M\u00e1laga, or San Sebasti\u00e1n, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Ferm\u00edn, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language \u2014 that is the spanish skill.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/spain",
-      "summary": "Setup If `~/spain/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Spain or wanting local insights: where to eat, what to skip, regional differences, festivals, hidden",
+      "summary": "User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Cla",
       "repositoryPath": "skills/spain",
       "manifestPath": "registry/skills/spain.json"
     },

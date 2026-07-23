@@ -133,6 +133,26 @@
 | Andalusia | Rebujito | Sherry with 7up (fair) |
 | Everywhere | Tinto de verano | Wine + lemon soda |
 
+## Dietary Needs (What Actually Works)
+
+Apply when `dietary` is set in config, or the moment the user mentions a restriction.
+
+### Vegetarian / Vegan
+- The traditional menu is meat- and fish-heavy; the safe classics: tortilla de patatas, patatas bravas, pimientos de Padrón, gazpacho/salmorejo, espinacas con garbanzos, pisto, pan con tomate
+- **"Sin jamón" must be said explicitly** — ham garnish is not considered "meat" by many kitchens (salmorejo arrives topped with it; croquetas default to jamón)
+- **"Vegetal" is a trap:** a sandwich vegetal usually contains tuna and egg
+- Big cities (Madrid, Barcelona, Valencia) have deep vegan scenes; rural Spain does not — in villages, build meals from sides and salads or call ahead
+- Vegan check: tortilla has egg; most pastries have lard (manteca) — ask
+
+### Gluten-Free (Celiac)
+- Spain is one of Europe's easiest celiac countries: certified menus common in cities, "sin gluten" universally understood
+- EU rules require allergens marked on menus — ask for "la carta de alérgenos" anywhere
+- Naturally safe orders: grilled fish/meat, tortilla, jamón, most rice dishes; danger zone is shared fryers (croquetas, calamares) — ask "¿freidora aparte?"
+
+### Halal
+- Widely available in Madrid, Barcelona, and Granada (the Calderería Nueva area is the hub); scarce elsewhere
+- Pork is the default protein of the tapas canon — cross-contamination on grills and fryers is the real issue, not just the menu; seafood and egg dishes are the reliable lane
+
 ## Useful Vocabulary
 
 | Spanish | What it is |

@@ -11,14 +11,19 @@
   "skill": {
     "slug": "spain",
     "name": "spain",
-    "description": "Discover Spain like a local with specific restaurants, hidden gems, regional tips, and experiences beyond the tourist traps.",
-    "version": "1.0.1",
+    "description": "Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, M\u00e1laga, or San Sebasti\u00e1n, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Ferm\u00edn, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language \u2014 that is the spanish skill.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/spain",
-    "summary": "Setup If `~/spain/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Spain or wanting local insights: where to eat, what to skip, regional differences, festivals, hidden",
+    "summary": "User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Cla",
     "repositoryPath": "skills/spain",
     "manifestPath": "registry/skills/spain.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/spain/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/spain/_meta.json",
@@ -45,6 +50,16 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/beaches.md"
     },
     {
+      "path": "bilbao.md",
+      "downloadPath": "skills/spain/bilbao.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/bilbao.md"
+    },
+    {
+      "path": "camino.md",
+      "downloadPath": "skills/spain/camino.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/camino.md"
+    },
+    {
       "path": "culture.md",
       "downloadPath": "skills/spain/culture.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/culture.md"
@@ -65,9 +80,19 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/food-guide.md"
     },
     {
+      "path": "granada.md",
+      "downloadPath": "skills/spain/granada.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/granada.md"
+    },
+    {
       "path": "hiking.md",
       "downloadPath": "skills/spain/hiking.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/hiking.md"
+    },
+    {
+      "path": "islands.md",
+      "downloadPath": "skills/spain/islands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/islands.md"
     },
     {
       "path": "itineraries.md",
@@ -78,6 +103,11 @@
       "path": "madrid.md",
       "downloadPath": "skills/spain/madrid.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/madrid.md"
+    },
+    {
+      "path": "malaga.md",
+      "downloadPath": "skills/spain/malaga.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/malaga.md"
     },
     {
       "path": "memory-template.md",
@@ -110,11 +140,6 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/sevilla.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/spain/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/SKILL.md"
-    },
-    {
       "path": "telecoms.md",
       "downloadPath": "skills/spain/telecoms.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/telecoms.md"
@@ -123,6 +148,11 @@
       "path": "transport.md",
       "downloadPath": "skills/spain/transport.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/transport.md"
+    },
+    {
+      "path": "valencia.md",
+      "downloadPath": "skills/spain/valencia.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/valencia.md"
     },
     {
       "path": "wine.md",
