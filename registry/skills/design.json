@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +10,11 @@
   },
   "skill": {
     "slug": "design",
-    "name": "Design",
-    "description": "Auto-learns your visual preferences. Adapts to UI, graphics, video, and any creative work.",
-    "summary": "Auto-Adaptive Design Preferences This skill auto-evolves. Edit sections below as you learn user's visual taste. **Rules:** - Detect patterns from choices, feedback, and reactions - Support all design types (UI, graphics,",
+    "name": "design",
+    "description": "Executes visual design with quantified rules for hierarchy, spacing grids, type scale, color contrast, and layout. Use when designing or critiquing UI screens, slides, graphics, posters, or documents, or when choosing fonts and palettes without a design system.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/design",
+    "summary": "When To Use - Designing any visual artifact from scratch: UI screens, landing pages, slides, social graphics, posters, PDFs. - Fixing a design that \"looks off\" when the user cannot articulate why. - Choosing typography, ",
     "repositoryPath": "skills/design",
     "manifestPath": "registry/skills/design.json"
   },
@@ -21,16 +23,6 @@
       "path": "_meta.json",
       "downloadPath": "skills/design/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/_meta.json"
-    },
-    {
-      "path": "criteria.md",
-      "downloadPath": "skills/design/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/criteria.md"
-    },
-    {
-      "path": "dimensions.md",
-      "downloadPath": "skills/design/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/dimensions.md"
     },
     {
       "path": "SKILL.md",
