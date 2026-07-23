@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +10,10 @@
   },
   "skill": {
     "slug": "sui-network",
-    "name": "Sui",
+    "name": "sui-network",
     "description": "Assist with SUI transactions, object model, staking, and Move smart contracts.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/sui-network",
     "summary": "Object Model (Critical Difference) - Sui uses objects, not accounts — everything is an object with unique ID - Objects are owned or shared — owned objects enable parallel transactions - Coins are objects too — SUI balanc",
     "repositoryPath": "skills/sui-network",
     "manifestPath": "registry/skills/sui-network.json"
@@ -26,11 +28,6 @@
       "path": "SKILL.md",
       "downloadPath": "skills/sui-network/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/SKILL.md"
-    },
-    {
-      "path": "sui-network-review.html",
-      "downloadPath": "skills/sui-network/sui-network-review.html",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/sui-network-review.html"
     }
   ]
 }
