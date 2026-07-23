@@ -11,18 +11,43 @@
   "skill": {
     "slug": "plan",
     "name": "plan",
-    "description": "Auto-learns when to plan vs execute directly. Adapts planning depth to task type. Improves strategy through outcome tracking.",
-    "version": "1.0.1",
+    "description": "Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps, dependencies, or irreversible actions (deploys, migrations, deletions, sending anything external), when success criteria are unclear or an estimate would be a guess, when execution drifts off plan or a one-shot attempt failed, when resuming or handing off multi-day work, or when the user asks to plan, scope, break down, or estimate a task. Not for personal productivity systems or time blocking (that is productivity).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/plan",
-    "summary": "Core Principle Some tasks fail when rushed. Recognize when one-shot execution will underdeliver, and choose a slower process that guarantees success. This skill auto-evolves: learn which tasks need plans, which don't, an",
+    "summary": "User preferences, the outcome log, and active plans live in `~/Clawic/data/plan/` (see `setup.md` on first use). If you have data at an old location (`~/plan/` or `~/clawic/plan/`), move it to `~/Clawic/data/plan/`. When",
     "repositoryPath": "skills/plan",
     "manifestPath": "registry/skills/plan.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/plan/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/plan/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/_meta.json"
+    },
+    {
+      "path": "approval.md",
+      "downloadPath": "skills/plan/approval.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/approval.md"
+    },
+    {
+      "path": "decomposition.md",
+      "downloadPath": "skills/plan/decomposition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/decomposition.md"
+    },
+    {
+      "path": "estimation.md",
+      "downloadPath": "skills/plan/estimation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/estimation.md"
+    },
+    {
+      "path": "long-horizon.md",
+      "downloadPath": "skills/plan/long-horizon.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/long-horizon.md"
     },
     {
       "path": "outcomes.md",
@@ -30,9 +55,19 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/outcomes.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/plan/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/SKILL.md"
+      "path": "replanning.md",
+      "downloadPath": "skills/plan/replanning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/replanning.md"
+    },
+    {
+      "path": "risk.md",
+      "downloadPath": "skills/plan/risk.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/risk.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/plan/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/setup.md"
     },
     {
       "path": "strategies.md",

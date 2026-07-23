@@ -5638,10 +5638,11 @@
     },
     {
       "slug": "plan",
-      "name": "Plan",
-      "description": "Auto-learns when to plan vs execute directly. Adapts planning depth to task type. Improves strategy through outcome tracking.",
-      "version": "1.0.1",
-      "summary": "Core Principle Some tasks fail when rushed. Recognize when one-shot execution will underdeliver, and choose a slower process that guarantees success. This skill auto-evolves: learn which tasks need plans, which don't, an",
+      "name": "plan",
+      "description": "Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps, dependencies, or irreversible actions (deploys, migrations, deletions, sending anything external), when success criteria are unclear or an estimate would be a guess, when execution drifts off plan or a one-shot attempt failed, when resuming or handing off multi-day work, or when the user asks to plan, scope, break down, or estimate a task. Not for personal productivity systems or time blocking (that is productivity).",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/plan",
+      "summary": "User preferences, the outcome log, and active plans live in `~/Clawic/data/plan/` (see `setup.md` on first use). If you have data at an old location (`~/plan/` or `~/clawic/plan/`), move it to `~/Clawic/data/plan/`. When",
       "repositoryPath": "skills/plan",
       "manifestPath": "registry/skills/plan.json"
     },

@@ -11,7 +11,7 @@ Match strategy to the dominant uncertainty, not to the task's topic. A migration
 3. C (final output)
 ```
 Use when: each step needs the previous step's output.
-The trap: natural order ≠ safe order. Within dependency constraints, front-load the step most likely to invalidate the plan (ordering rule → SKILL.md, Plan Format). Backup → transform → validate → deploy, never deploy-then-validate.
+The trap: natural order ≠ safe order. Within dependency constraints, front-load the step most likely to invalidate the plan (ordering rule → SKILL.md, Core Rules). Backup → transform → validate → deploy, never deploy-then-validate.
 
 ### Parallel
 ```
@@ -38,7 +38,7 @@ Cap at 3 cycles. Not converging by cycle 3 means the acceptance criteria are the
 2. Decide: continue, pivot, or kill
 3. Execute: full plan only if spike said yes
 ```
-Use when: estimate range ratio >3x, or a step has no attachable check (both signals → SKILL.md, Plan Format).
+Use when: estimate range ratio >3x (→ SKILL.md, Core Rules), or a step has no attachable check (→ `decomposition.md`, Done-Checks).
 A spike has exactly one question with a yes/no answer. Timebox expires without an answer → the question was too big: split it, do not extend the timebox. Spike output is a decision, not code — declare the code disposable upfront, or the spike quietly becomes the untested implementation.
 
 ### Checkpoint

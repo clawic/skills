@@ -1,16 +1,17 @@
 # Outcome Tracking
 
-Log home: `~/clawic/plan/outcomes.md`. Layout: a **Current Defaults** block at the top (per task type: plan level, strategy, validation status), append-only records below. The defaults block is re-derived from records at review time; records are never edited after the fact.
+Log home: `~/Clawic/data/plan/outcomes.md`. Layout: a **Current Defaults** block at the top (per task type: plan level, strategy, validation status), append-only records below. The defaults block is re-derived from records at review time; records are never edited after the fact.
 
 ## Recording Outcomes
 
-Append after every L2+ task. L0/L1 are not logged unless they failed (→ SKILL.md, Outcome Tracking).
+Append after every L2+ task. L0/L1 are not logged unless they failed (→ SKILL.md, Learning Loop).
 
 ```
 ## [YYYY-MM-DD] [Brief description]
 Type: [task category, e.g. migration/data]
 Plan level: L[2-4]
 Strategy: [sequential/parallel/iterative/spike/checkpoint]
+Estimate: [the range given] → Actual: [what it took]
 
 ### Planned vs actual
 - [step that deviated: skipped / reordered / output differed — and why]
@@ -26,7 +27,7 @@ Strategy: [sequential/parallel/iterative/spike/checkpoint]
 - [concrete change to depth, strategy, or format — or "none"]
 ```
 
-The "Planned vs actual" section is the payload: deviations feed the replan trigger and next time's plan (→ SKILL.md, Executing Against The Plan). A record with empty deviations and no lesson is still worth appending — success streaks are the currency of auto-execute promotion.
+The "Planned vs actual" section is the payload: deviations feed the replan trigger and next time's plan (`replanning.md`). The Estimate → Actual pair is the calibration data (`estimation.md`, Calibration Loop). A record with empty deviations and no lesson is still worth appending — success streaks are the currency of auto-execute promotion.
 
 ## Outcome Analysis
 
@@ -43,12 +44,13 @@ When a type shows 2+ non-successes in its last 5, pick the fix by failure shape:
 |---------------|-----|
 | Missed step, unhandled edge case, forgotten rollback | Promote plan depth |
 | Right steps, wrong order or wrong approach | Change strategy (`strategies.md`) |
-| Plan fine, execution drifted without replanning | Enforce the 2-consecutive-deviation replan trigger |
+| Plan fine, execution drifted without replanning | Enforce the 2-consecutive-deviation replan trigger (`replanning.md`) |
+| Estimate → Actual consistently off for the type | Apply the type's multiplier before presenting (`estimation.md`) |
 | Unclear which | Promote depth first — cheaper to demote later than to fail again |
 
 ## Learning Triggers
 
-Thresholds live in SKILL.md (Plan Refinement + Validation Learning); this is the procedure:
+Thresholds live in SKILL.md (Learning Loop); this is the procedure:
 
 - **Promote:** on one attributable failure, write "[type] needs L[N+1]; L[N] missed [specific thing]". No specific thing named = no promotion.
 - **Demote:** after 3 consecutive successes with unused depth, write "[type] fine at L[N-1]; [which sections] went unconsulted", update Current Defaults.
