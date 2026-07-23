@@ -1,6 +1,8 @@
 # iOS Integration — Apple Search Ads
 
-Complete guide for integrating Apple Search Ads attribution in your iOS app.
+Complete guide for integrating Apple Search Ads attribution in your iOS app. Reading and reconciling the resulting numbers is the analysis side — `measurement.md`.
+
+Contents: Overview · AdServices Framework · SKAdNetwork · MMP Integration · Testing Attribution · Best Practices
 
 ## Overview
 
@@ -230,8 +232,11 @@ class SKAdNetworkManager {
                 }
             }
         } else if #available(iOS 15.4, *) {
-            SKAdNetwork.updatePostbackConversionValue(value, coarseValue: coarse ?? .medium) { error in
-                // Handle error
+            // Fine-only variant — coarseValue does not exist before 16.1
+            SKAdNetwork.updatePostbackConversionValue(value) { error in
+                if let error = error {
+                    print("SKAdNetwork update error: \(error)")
+                }
             }
         } else if #available(iOS 14.0, *) {
             SKAdNetwork.updateConversionValue(value)
@@ -393,13 +398,13 @@ func application(_ application: UIApplication,
 func fetchAttribution() async {
     do {
         let token = try AAAttribution.attributionToken()
-        print("🍎 ASA Token: \(token.prefix(50))...")
+        print("[ASA] Token: \(token.prefix(50))...")
         
         let attribution = try await fetchAttributionData(token: token)
-        print("🍎 ASA Attribution: \(attribution)")
+        print("[ASA] Attribution: \(attribution)")
         
     } catch {
-        print("🍎 ASA Error: \(error)")
+        print("[ASA] Error: \(error)")
     }
 }
 ```

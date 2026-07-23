@@ -11,14 +11,19 @@
   "skill": {
     "slug": "apple-search-ads",
     "name": "apple-search-ads",
-    "description": "Create, optimize, and scale Apple Search Ads campaigns with API automation, attribution integration, and bid strategy recommendations.",
-    "version": "1.0.1",
+    "description": "Plans, launches, and optimizes Apple Search Ads (Apple Ads, ASA) campaigns for iOS apps: bids, keywords, budgets, CPA, attribution. Use for paid iOS user acquisition and App Store ads \u2014 launching or restructuring campaigns, mining search-term reports, graduating keywords, defending brand terms, scaling spend, expanding to new countries, testing Custom Product Pages, wiring AdServices or SKAdNetwork attribution, automating reports and changes via the Campaign Management API, or diagnosing why CPA spiked, keywords get no impressions, a campaign stops spending its budget, ads got rejected, or ASA, SKAN, and MMP install counts disagree. Not for App Store listing optimization itself (ASO).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/apple-search-ads",
-    "summary": "Apple Search Ads 🍎 Complete toolkit for Apple Search Ads: Campaign Management API v5, attribution integration (AdServices + SKAdNetwork), bid optimization, and strategic recommendations. All local state (memory, credent",
+    "summary": "Toolkit for Apple Search Ads (rebranded \"Apple Ads\" in 2024; API paths still read `searchads`): Campaign Management API v5, attribution (AdServices + SKAdNetwork), bid math, diagnosis, and scaling strategy. All local sta",
     "repositoryPath": "skills/apple-search-ads",
     "manifestPath": "registry/skills/apple-search-ads.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/apple-search-ads/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-search-ads/_meta.json",
@@ -33,6 +38,11 @@
       "path": "ios-integration.md",
       "downloadPath": "skills/apple-search-ads/ios-integration.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/ios-integration.md"
+    },
+    {
+      "path": "measurement.md",
+      "downloadPath": "skills/apple-search-ads/measurement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/measurement.md"
     },
     {
       "path": "memory-template.md",
@@ -50,14 +60,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/setup.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/apple-search-ads/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/SKILL.md"
-    },
-    {
       "path": "strategy.md",
       "downloadPath": "skills/apple-search-ads/strategy.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/strategy.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/apple-search-ads/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-search-ads/troubleshooting.md"
     }
   ]
 }

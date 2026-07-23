@@ -1,6 +1,8 @@
 # Strategy Playbook — Apple Search Ads
 
-Planning, launching, and scaling ASA campaigns. Bid math and campaign math live here; SKILL.md Core Rules reference this file.
+Planning, launching, and scaling ASA campaigns. Bid math and campaign math live here; SKILL.md Core Rules reference this file. Everything assumes the standard cost-per-tap product — Apple retired the Basic (cost-per-install) tier around the Apple Ads rebrand.
+
+Contents: Campaign Planning · Campaign Architecture · Keyword Strategy · Bidding · Scaling · Multi-Country Expansion · Custom Product Pages · Advanced Tactics · Reporting & Analysis
 
 ## Campaign Planning
 
@@ -184,6 +186,8 @@ A/B pattern: two ad groups, identical keywords and bids, default page vs CPP, 2 
 
 - **Dayparting:** run all hours 2 weeks, analyze **by tap timestamps** (install-based hourly analysis is corrupted by SKAN delays — SKILL.md Traps), cut worst hours via the `daypart` targeting dimension.
 - **Exclude existing users:** `targetingDimensions.appDownloaders.excluded: [YOUR_ADAM_ID]` — the one audience refinement that is nearly always right; the rest shrink reach (SKILL.md Traps).
+- **Cross-promote a portfolio:** `appDownloaders.included: [YOUR_OTHER_APP_ADAM_ID]` in a dedicated campaign — the warmest audience ASA can address. Like every audience refinement it only reaches users with Personalized Ads on (SKILL.md Traps); here the trade is deliberate: small reach, highest intent, so run it as its own campaign with its own budget, never as a refinement on a core campaign.
+- **Seasonal pushes:** raise brand bids and budgets ahead of your category's peak (fitness in January, shopping in Q4) — auctions get more expensive exactly when CVR also rises; judge the season on cohort ROAS (`measurement.md`), not on in-season CPA alone.
 
 ## Reporting & Analysis
 

@@ -2,6 +2,8 @@
 
 Complete endpoint reference for Campaign Management API v5.
 
+Contents: Authentication · Base URL & Headers · Apps · Campaigns · Ad Groups · Keywords · Creatives & Ads · Reports · Geolocations · Error Handling
+
 ## Authentication
 
 ### Generate Client Secret (JWT)
