@@ -57,6 +57,24 @@ location /ws/ {
 - Every proxy hop in a chain (CDN → LB → nginx) needs the upgrade headers; the failure point is whichever hop forgot.
 - Reload keeps old workers alive until WS connections close — bound with `worker_shutdown_timeout`.
 
+## gRPC
+
+```nginx
+server {
+    listen 443 ssl;
+    http2 on;                          # gRPC requires HTTP/2 on the client leg
+    location /myapp.Service/ {
+        grpc_pass grpc://10.0.0.2:50051;   # grpcs:// for TLS to the backend
+        grpc_read_timeout 300s;
+    }
+}
+```
+
+- `proxy_pass` breaks gRPC even over HTTP/2-to-client: gRPC status arrives in HTTP TRAILERS, which the HTTP proxy path doesn't forward — `grpc_pass` or nothing works (same rule shape as FastCGI: right module for the protocol).
+- Locations route on the gRPC path `/package.Service/Method` — per-service locations and rate limits work exactly like REST routes.
+- Long-lived server streams die at `grpc_read_timeout` (default 60s) — clients see `UNAVAILABLE (14)`; same fix pattern as WebSocket idle timeouts.
+- nginx-generated errors (bad gateway, timeouts) surface to gRPC clients as transport failures, not grpc-status — a client seeing `UNAVAILABLE` with nothing in the backend log means the failure is at nginx; check its error log first.
+
 ## Buffering & Streaming
 
 - `proxy_buffering on` (default) buffers the whole response before the client sees byte one. Correct for normal pages; fatal for SSE and streamed responses ("events arrive in one lump at the end").

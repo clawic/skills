@@ -15,7 +15,7 @@ listen 443 ssl;
 http2 on;                                  # nginx >=1.25.1; older: listen 443 ssl http2;
 ssl_protocols TLSv1.2 TLSv1.3;
 ssl_prefer_server_ciphers off;             # modern advice; "on" was TLS1.2-era
-ssl_session_cache shared:SSL:10m;          # ~4000 sessions/MB, shared across workers
+ssl_session_cache shared:SSL:10m;          # ~4000 sessions per MB, shared across workers
 ssl_session_timeout 1d;
 ```
 
