@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +10,11 @@
   },
   "skill": {
     "slug": "learning",
-    "name": "Learning",
-    "description": "Auto-learns how you learn best. Adapts teaching style, format, and depth to you.",
-    "summary": "Auto-Adaptive Learning Preferences This skill auto-evolves. Edit sections below as you learn how the user best acquires knowledge. **Rules:** - Detect patterns from what explanations work and which don't - Support all le",
+    "name": "learning",
+    "description": "Runs adaptive learning sessions: diagnoses prior knowledge, calibrates explanation depth and format, and checks retention before advancing. Use when teaching a user any topic, when an explanation is not landing, or when building durable understanding across multiple sessions.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/learning",
+    "summary": "Mode: act-as. The agent is the teacher, running the session directly with the learner. When To Use - User asks to be taught something: \"teach me X\", \"explain Y\", \"I don't understand Z\" - An explanation did not land: the ",
     "repositoryPath": "skills/learning",
     "manifestPath": "registry/skills/learning.json"
   },
