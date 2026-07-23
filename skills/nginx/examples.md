@@ -2,42 +2,42 @@
 
 ## Location Matching
 
-- `location /api` matchea `/api`, `/api/`, `/api-v2`, `/apiary` — más amplio de lo esperado
-- `location /api/` (con slash) NO matchea `/api` sin slash
-- `location = /api` es exacto pero no matchea `/api/`
-- Regex `location ~` tiene prioridad sobre prefix más largo — orden importa
+- `location /api` matches `/api`, `/api/`, `/api-v2`, `/apiary` — broader than expected
+- `location /api/` (with slash) does NOT match `/api` without a slash
+- `location = /api` is exact but doesn't match `/api/`
+- A regex `location ~` takes priority over a longer prefix — order matters
 
 ## Root vs Alias
 
-- `root /var/www; location /img/` → busca en `/var/www/img/`
-- `alias /var/www/; location /img/` → busca en `/var/www/` (reemplaza location)
-- `alias` sin trailing slash + location con slash = path mal formado
-- `alias` con regex requiere captura: `alias /var/www$1`
+- `root /var/www; location /img/` → looks in `/var/www/img/`
+- `alias /var/www/; location /img/` → looks in `/var/www/` (replaces the location)
+- `alias` without a trailing slash + location with a slash = malformed path
+- `alias` with a regex requires a capture: `alias /var/www$1`
 
 ## try_files
 
-- `try_files $uri /index.html` sin `$uri/` — no encuentra directorios
-- Último argumento es internal redirect, no file check — comportamiento diferente
-- `try_files` + `proxy_pass` en mismo location = try_files siempre gana
-- `=404` como fallback es código, no archivo — `/404` sería archivo
+- `try_files $uri /index.html` without `$uri/` — doesn't find directories
+- The last argument is an internal redirect, not a file check — different behavior
+- `try_files` + `proxy_pass` in the same location = try_files always wins
+- `=404` as a fallback is a code, not a file — `/404` would be a file
 
 ## If Statement
 
-- `if` crea nuevo context — directivas heredadas pueden no aplicar
-- `if ($request_uri ~* \.php)` en location ya procesada = doble check inútil
-- `return` y `rewrite` dentro de `if` funcionan — otras directivas problemáticas
-- Múltiples `if` no se combinan con AND — cada uno es independiente
+- `if` creates a new context — inherited directives may not apply
+- `if ($request_uri ~* \.php)` in an already-processed location = pointless double check
+- `return` and `rewrite` inside `if` work — other directives are problematic
+- Multiple `if` blocks don't combine with AND — each is independent
 
 ## Variables
 
-- `$uri` está normalizado (decoded) — `$request_uri` es raw
-- Variable undefined = empty string, no error
-- `set` dentro de `if` siempre ejecuta — solo el bloque es condicional
-- `map` es más eficiente que múltiples `if` para switch/case
+- `$uri` is normalized (decoded) — `$request_uri` is raw
+- Undefined variable = empty string, not an error
+- `set` inside `if` always runs — only the block is conditional
+- `map` is more efficient than multiple `if` for switch/case
 
 ## Includes
 
-- `include /etc/nginx/conf.d/*.conf` — orden alfabético, puede importar
-- Include de archivo inexistente = nginx no arranca
-- Include relativo es relativo a nginx.conf, no al archivo actual
-- Circular includes = nginx no arranca con error confuso
+- `include /etc/nginx/conf.d/*.conf` — alphabetical order, may matter
+- Include of a nonexistent file = nginx won't start
+- A relative include is relative to nginx.conf, not the current file
+- Circular includes = nginx won't start, with a confusing error

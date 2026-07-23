@@ -1,8 +1,14 @@
 ---
-name: Nginx
+name: nginx
 slug: nginx
-version: 1.0.1
+version: 1.0.2
 description: Configure Nginx for reverse proxy, load balancing, SSL termination, and high-performance static serving.
+homepage: https://clawic.com/skills/nginx
+changelog: Translated remaining reference content to English
+metadata:
+  clawdbot:
+    emoji: 🌐
+    displayName: Nginx
 ---
 
 ## When to Use

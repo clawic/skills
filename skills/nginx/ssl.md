@@ -2,41 +2,41 @@
 
 ## Certificates
 
-- `ssl_certificate` debe ser fullchain (cert + intermediate) — solo cert = warning en browsers
-- Orden del chain importa: cert primero, luego intermediates, NO root
-- Key y cert mismatch = nginx no arranca con error críptico
-- Cert expirado = nginx arranca OK pero browsers rechazan
+- `ssl_certificate` must be the fullchain (cert + intermediate) — cert only = warning in browsers
+- Chain order matters: cert first, then intermediates, NOT root
+- Key and cert mismatch = nginx won't start, with a cryptic error
+- Expired cert = nginx starts OK but browsers reject it
 
 ## Configuration
 
-- `ssl on` está deprecated — usar `listen 443 ssl` en su lugar
-- `ssl_protocols TLSv1 TLSv1.1` = inseguro — mínimo TLSv1.2
-- `ssl_prefer_server_ciphers on` ya no recomendado para TLS 1.3 — solo para 1.2
-- `ssl_ciphers` mal ordenados = servidor elige cipher débil
+- `ssl on` is deprecated — use `listen 443 ssl` instead
+- `ssl_protocols TLSv1 TLSv1.1` = insecure — minimum TLSv1.2
+- `ssl_prefer_server_ciphers on` no longer recommended for TLS 1.3 — only for 1.2
+- Misordered `ssl_ciphers` = the server picks a weak cipher
 
 ## OCSP Stapling
 
-- `ssl_stapling on` sin `ssl_trusted_certificate` = stapling silenciosamente desactivado
-- DNS resolver necesario para OCSP — `resolver 8.8.8.8` si no hay local
-- OCSP de algunas CAs es lento/unreliable — puede añadir latencia
+- `ssl_stapling on` without `ssl_trusted_certificate` = stapling silently disabled
+- A DNS resolver is needed for OCSP — `resolver 8.8.8.8` if there's no local one
+- Some CAs' OCSP is slow/unreliable — can add latency
 
 ## HTTP/2
 
-- `http2` directive en listen, no como módulo separado
-- `http2_push` deprecated en nginx 1.25+
-- HTTP/2 + proxy a HTTP/1.1 backend funciona — pero pierde multiplexing
-- `large_client_header_buffers` puede necesitar ajuste para HTTP/2
+- `http2` is a directive on listen, not a separate module
+- `http2_push` deprecated in nginx 1.25+
+- HTTP/2 + proxy to an HTTP/1.1 backend works — but loses multiplexing
+- `large_client_header_buffers` may need tuning for HTTP/2
 
 ## Client Certificates
 
-- `ssl_verify_client on` rechaza sin cert — usar `optional` para hacer opcional
-- `ssl_client_certificate` es la CA, no el cert del cliente
-- `$ssl_client_verify` es "SUCCESS", no "true" o "1"
-- CRL checking requiere config adicional — sin ella certs revocados son aceptados
+- `ssl_verify_client on` rejects without a cert — use `optional` to make it optional
+- `ssl_client_certificate` is the CA, not the client's cert
+- `$ssl_client_verify` is "SUCCESS", not "true" or "1"
+- CRL checking requires extra config — without it, revoked certs are accepted
 
 ## Common Mistakes
 
-- Redirect loop: 80→443→80 porque `X-Forwarded-Proto` no se chequea
-- Mixed content: HTTPS página carga HTTP recursos — `upgrade-insecure-requests` ayuda
-- HSTS con max-age muy largo + certificado inválido = sitio inaccesible
-- Cert para `example.com` no cubre `www.example.com` — necesita SAN o wildcard
+- Redirect loop: 80→443→80 because `X-Forwarded-Proto` isn't checked
+- Mixed content: an HTTPS page loads HTTP resources — `upgrade-insecure-requests` helps
+- HSTS with a very long max-age + invalid certificate = inaccessible site
+- Cert for `example.com` doesn't cover `www.example.com` — needs a SAN or wildcard
