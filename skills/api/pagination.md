@@ -1,5 +1,20 @@
 # Pagination Traps
 
+## Termination Rule
+
+Stop when the API says so — `has_more: false`, absent `next` cursor/link — never when a page comes back with fewer items than requested (filtered results legitimately produce short non-final pages on some APIs). Worked loop:
+
+```
+cursor = null
+repeat:
+  page = GET /items?limit=100&starting_after=cursor
+  process(page.data)
+  cursor = last item's id
+until page.has_more == false
+```
+
+Defaults are small and silent: Stripe `limit` defaults to 10 (max 100), GitHub `per_page` to 30 (max 100). Request the documented max when fetching everything — 10× fewer requests against the same rate limit.
+
 ## Offset-Based
 
 - Item inserted during pagination = duplicated item on the next page
