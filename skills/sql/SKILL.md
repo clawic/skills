@@ -1,12 +1,12 @@
 ---
 name: sql
 slug: sql
-version: 1.0.2
+version: 1.0.3
 description: >-
   Designs schemas, writes queries, tunes performance, and runs migrations on PostgreSQL, MySQL, SQLite, SQL Server.
   Use when writing SQL, fixing slow queries, designing tables and indexes, or operating a database.
 homepage: https://clawic.com/skills/sql
-changelog: Deeper query patterns, indexing, and pitfalls
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🗄️
