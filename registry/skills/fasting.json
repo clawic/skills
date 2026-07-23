@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +10,11 @@
   },
   "skill": {
     "slug": "fasting",
-    "name": "Fasting Tracker",
-    "description": "Track intermittent fasting, extended fasts, and eating windows. Auto-adapts to your style.",
-    "version": "1.0.1",
-    "summary": "Auto-Adaptive Fasting Tracker This skill auto-evolves. Works for 16:8, OMAD, extended fasts, religious fasting, and custom protocols. **Rules:** - Only log when user shares — \"starting fast\", \"breaking fast\", \"last meal ",
+    "name": "fasting",
+    "description": "Tracks intermittent fasting, extended fasts, and eating windows with fasting-stage timing and safety thresholds. Use when logging fasts, planning 16:8 or OMAD, or breaking a fast.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/fasting",
+    "summary": "When To Use State lives at `~/clawic/fasting/memory.md` (protocol, window, streak, symptom timing). Only write on an explicit user signal; never infer a fast from silence. Mode: **act-as** (you log fasts and compute elap",
     "repositoryPath": "skills/fasting",
     "manifestPath": "registry/skills/fasting.json"
   },
