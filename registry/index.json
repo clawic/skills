@@ -4425,10 +4425,11 @@
     },
     {
       "slug": "listen",
-      "name": "Listen",
-      "description": "Improve transcription accuracy over time. Learn corrections, configure STT.",
-      "version": "1.0.1",
-      "summary": "Active Listening This skill auto-evolves. Track transcription errors and learn corrections. **Rules:** - Detect when transcribed text seems off (wrong context, garbled names) - Learn from user corrections - Confirm patte",
+      "name": "listen",
+      "description": "Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and commands in voice-dictated messages. Use when a message arrived by voice and a word breaks the sentence, dictation mangles proper nouns, jargon, amounts, times, or email addresses, the user says \"no, I said X\" or repeats themselves, transcripts contain filler, spoken punctuation, or hallucinated sentences, the user dictates an email or document by voice, or an STT engine (Whisper or cloud speech) needs vocabulary tuning for recurring terms. Not for transcribing audio files or for typed-text typos.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/listen",
+      "summary": "Voice input reaches the agent as text that already passed through a speech-to-text engine. Good engines hold 5-10% word error rate on clean conversational English, but the errors concentrate exactly where meaning lives: ",
       "repositoryPath": "skills/listen",
       "manifestPath": "registry/skills/listen.json"
     },

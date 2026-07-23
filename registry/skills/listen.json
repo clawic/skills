@@ -11,8 +11,8 @@
   "skill": {
     "slug": "listen",
     "name": "listen",
-    "description": "Repairs garbled speech-to-text input and learns user-specific mistranscription fixes. Use when voice dictation looks wrong, names or numbers get mangled, or the user corrects transcribed text.",
-    "version": "1.0.1",
+    "description": "Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and commands in voice-dictated messages. Use when a message arrived by voice and a word breaks the sentence, dictation mangles proper nouns, jargon, amounts, times, or email addresses, the user says \"no, I said X\" or repeats themselves, transcripts contain filler, spoken punctuation, or hallucinated sentences, the user dictates an email or document by voice, or an STT engine (Whisper or cloud speech) needs vocabulary tuning for recurring terms. Not for transcribing audio files or for typed-text typos.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/listen",
     "summary": "Voice input reaches the agent as text that already passed through a speech-to-text engine. Good engines hold 5-10% word error rate on clean conversational English, but the errors concentrate exactly where meaning lives: ",
     "repositoryPath": "skills/listen",
@@ -20,24 +20,64 @@
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/listen/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/listen/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/_meta.json"
     },
     {
-      "path": "config.md",
-      "downloadPath": "skills/listen/config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/config.md"
+      "path": "actions.md",
+      "downloadPath": "skills/listen/actions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/actions.md"
     },
     {
-      "path": "criteria.md",
-      "downloadPath": "skills/listen/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/criteria.md"
+      "path": "degraded.md",
+      "downloadPath": "skills/listen/degraded.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/degraded.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/listen/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md"
+      "path": "dictation.md",
+      "downloadPath": "skills/listen/dictation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/dictation.md"
+    },
+    {
+      "path": "lexicon.md",
+      "downloadPath": "skills/listen/lexicon.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/lexicon.md"
+    },
+    {
+      "path": "multilingual.md",
+      "downloadPath": "skills/listen/multilingual.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/multilingual.md"
+    },
+    {
+      "path": "names.md",
+      "downloadPath": "skills/listen/names.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/names.md"
+    },
+    {
+      "path": "numbers.md",
+      "downloadPath": "skills/listen/numbers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/numbers.md"
+    },
+    {
+      "path": "repair.md",
+      "downloadPath": "skills/listen/repair.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/repair.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/listen/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/setup.md"
+    },
+    {
+      "path": "tuning.md",
+      "downloadPath": "skills/listen/tuning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/tuning.md"
     }
   ]
 }
