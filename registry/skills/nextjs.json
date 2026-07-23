@@ -11,14 +11,19 @@
   "skill": {
     "slug": "nextjs",
     "name": "nextjs",
-    "description": "Build Next.js 15 apps with App Router, server components, caching, auth, and production patterns.",
-    "version": "1.1.1",
+    "description": "Builds Next.js apps with App Router \u2014 server components, caching, Server Actions, auth, deployment. Use for any Next.js routing, data, cache, or build issue.",
+    "version": "1.1.2",
     "homepage": "https://clawic.com/skills/nextjs",
-    "summary": "Setup On first use, read `setup.md` for project integration. When to Use User needs Next.js expertise — routing, data fetching, caching, authentication, or deployment. Agent handles App Router patterns, server/client bou",
+    "summary": "Setup All persistent data for this skill lives in `~/Clawic/data/nextjs/`. On first use, read `setup.md` for project integration. Configuration User-dependent variables. Defaults apply until the user states a preference;",
     "repositoryPath": "skills/nextjs",
     "manifestPath": "registry/skills/nextjs.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nextjs/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/nextjs/_meta.json",
@@ -58,11 +63,6 @@
       "path": "setup.md",
       "downloadPath": "skills/nextjs/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/nextjs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/SKILL.md"
     }
   ]
 }

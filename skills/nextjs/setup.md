@@ -1,6 +1,6 @@
 # Setup — NextJS
 
-Read this when no `~/clawic/nextjs/memory.md` exists. Its job is to establish project context and write the initial memory file.
+Read this when no `~/Clawic/data/nextjs/memory.md` exists. Its job is to establish project context and write the initial memory file.
 
 ## Operating stance
 
@@ -18,7 +18,7 @@ Record what you cannot infer as `Configuration` variables (see `SKILL.md`) with 
 
 ## What to save
 
-Write to `~/clawic/nextjs/memory.md`:
+Write to `~/Clawic/data/nextjs/memory.md`:
 
 - Next.js version and router type
 - Key dependencies (Prisma, Auth.js, etc.)
@@ -27,7 +27,7 @@ Write to `~/clawic/nextjs/memory.md`:
 - Explicit conventions the user has stated
 - How proactive the user wants you to be (default: flag caching/boundary/performance issues; adjust on request)
 
-For project-specific patterns, use `~/clawic/nextjs/projects/{name}.md`.
+For project-specific patterns, use `~/Clawic/data/nextjs/projects/{name}.md`.
 
 ## When done
 

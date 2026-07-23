@@ -1,10 +1,10 @@
 ---
 name: nextjs
 slug: nextjs
-version: 1.1.1
+version: 1.1.2
 description: Builds Next.js apps with App Router — server components, caching, Server Actions, auth, deployment. Use for any Next.js routing, data, cache, or build issue.
 homepage: https://clawic.com/skills/nextjs
-changelog: Deeper rendering and caching guidance
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: ⚡
@@ -19,11 +19,11 @@ metadata:
 
 ## Setup
 
-All persistent data for this skill lives in `~/clawic/nextjs/`. On first use, read `setup.md` for project integration.
+All persistent data for this skill lives in `~/Clawic/data/nextjs/`. On first use, read `setup.md` for project integration.
 
 ## Configuration
 
-User-dependent variables. Defaults apply until the user states a preference; store them in `~/clawic/nextjs/config.yaml`.
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/nextjs/config.yaml`.
 
 | Variable | Type | Default | Effect |
 |---|---|---|---|
@@ -52,12 +52,12 @@ Preference areas to record as the user reveals them:
 ## Architecture
 
 ```
-~/clawic/nextjs/
+~/Clawic/data/nextjs/
 ├── memory.md          # Project conventions, patterns
 └── projects/          # Per-project learnings
 ```
 
-See `memory-template.md` for the file formats. If you have data at the old `~/nextjs/` location, move it to `~/clawic/nextjs/`.
+See `memory-template.md` for the file formats. If you have data at an old location (`~/nextjs/` or `~/clawic/nextjs/`), move it to `~/Clawic/data/nextjs/`.
 
 ## Quick Reference
 
