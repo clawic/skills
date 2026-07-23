@@ -11,23 +11,23 @@
   "skill": {
     "slug": "remind",
     "name": "remind",
-    "description": "Auto-learns when and how to bring things back to your human's attention. Adapts timing and style to their preferences.",
-    "version": "1.0.1",
+    "description": "Reminds the user of commitments they already know \u2014 meetings, deadlines, bills, promises, follow-ups \u2014 at the right lead time, in their style. Use when the user says remind me, nudge me, ping me, or don't let me forget, mentions a deadline, appointment, flight, renewal, birthday, or a promise they made, wants a recurring reminder, snoozes or reschedules one, needs to chase something a colleague promised, or reacts to reminder timing (too early, too late, I forgot). Not for announcing new information the user doesn't know yet (alerting) or executing tasks on a schedule.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/remind",
-    "summary": "What Remind Is (and Isn't) **Remind = \"Just a reminder that...\"** - Things the human already knows but might forget - Planned events, commitments, deadlines they set - Bringing information back to mind at the right momen",
+    "summary": "User preferences, learned lead times, and the active reminder list live in `~/Clawic/data/remind/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/remind/`, `",
     "repositoryPath": "skills/remind",
     "manifestPath": "registry/skills/remind.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/remind/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remind/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/remind/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remind/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/remind/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remind/_meta.json"
     },
     {
       "path": "timing.md",
