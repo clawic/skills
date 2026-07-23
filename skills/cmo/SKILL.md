@@ -1,13 +1,13 @@
 ---
 name: cmo
 slug: cmo
-version: 1.0.3
+version: 1.0.4
 description: >-
   Operates as a chief marketing officer with positioning, demand generation, content
   strategy, channels, budget, and team. Use when acting as CMO or advising founders
   on marketing strategy, pipeline, or brand.
 homepage: https://clawic.com/skills/cmo
-changelog: Deeper marketing heuristics and benchmarks
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 📣
