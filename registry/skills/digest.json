@@ -11,18 +11,33 @@
   "skill": {
     "slug": "digest",
     "name": "digest",
-    "description": "Curate external information into personalized updates. Auto-learns format, timing, sources, and depth preferences.",
-    "version": "1.0.1",
+    "description": "Curates news, feeds, and industry sources into personalized recurring digests: sourcing, filtering, ranking, and delivery. Use to set up a daily briefing or morning/evening news roundup, track competitors, an industry, people, or markets, or run a scheduled or weekly update. Also when a digest feels too long or repetitive, keeps missing stories, or a rumor needs checking before it ships. Covers source vetting, deduplication, single-source holds, corrections, urgent alerts, slow news days, and channel formats (email, Slack, Telegram, audio); learns format, timing, and depth preferences from reactions. Not for summarizing documents the user provides or internal business reporting.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/digest",
-    "summary": "Core Role Digest = curate the external world for your human. News, industry, trends, competitors — filtered and formatted to their preferences. **Not:** internal business info (→ use Brief), synthesis of documents (→ use",
+    "summary": "User preferences, learned signals, and the sent-item log live in `~/Clawic/data/digest/` (see `setup.md` on first use, `preferences-template.md` for file formats). If you have data at an old location (`~/digest/` or `~/c",
     "repositoryPath": "skills/digest",
     "manifestPath": "registry/skills/digest.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/digest/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/digest/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/_meta.json"
+    },
+    {
+      "path": "competitors.md",
+      "downloadPath": "skills/digest/competitors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/competitors.md"
+    },
+    {
+      "path": "delivery.md",
+      "downloadPath": "skills/digest/delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/delivery.md"
     },
     {
       "path": "dimensions.md",
@@ -30,14 +45,34 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/dimensions.md"
     },
     {
+      "path": "learning.md",
+      "downloadPath": "skills/digest/learning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/learning.md"
+    },
+    {
       "path": "preferences.md",
       "downloadPath": "skills/digest/preferences.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/preferences.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/digest/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/SKILL.md"
+      "path": "sources.md",
+      "downloadPath": "skills/digest/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/sources.md"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/digest/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/triage.md"
+    },
+    {
+      "path": "verification.md",
+      "downloadPath": "skills/digest/verification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/verification.md"
+    },
+    {
+      "path": "writing.md",
+      "downloadPath": "skills/digest/writing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digest/writing.md"
     }
   ]
 }
