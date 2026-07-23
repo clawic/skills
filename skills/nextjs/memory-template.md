@@ -1,6 +1,6 @@
 # Memory Template — NextJS
 
-## ~/nextjs/memory.md
+## ~/clawic/nextjs/memory.md
 
 ```markdown
 # Next.js Patterns
@@ -26,7 +26,7 @@
 <!-- Patterns discovered through working together -->
 ```
 
-## ~/nextjs/projects/{name}.md
+## ~/clawic/nextjs/projects/{name}.md
 
 ```markdown
 # {Project Name}
