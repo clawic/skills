@@ -2,41 +2,41 @@
 
 ## Offset-Based
 
-- Item insertado durante paginación = item duplicado en siguiente página
-- Item borrado durante paginación = item skipped, nunca lo ves
-- `offset=1000000` + SQL = full table scan, extremadamente lento
-- `total_count` cambia entre requests = progress bar miente
+- Item inserted during pagination = duplicated item on the next page
+- Item deleted during pagination = item skipped, you never see it
+- `offset=1000000` + SQL = full table scan, extremely slow
+- `total_count` changes between requests = progress bar lies
 
 ## Cursor-Based
 
-- Cursor opaco + cambio de sort order = cursor inválido
-- Cursor basado en ID + ID borrado = error o resultados inesperados
-- Cursor sin expiración = válido para siempre, inconsistencias si schema cambia
-- Primer request sin cursor puede ser diferente a cursor-based — comportamiento inconsistente
+- Opaque cursor + change of sort order = invalid cursor
+- ID-based cursor + deleted ID = error or unexpected results
+- Cursor without expiration = valid forever, inconsistencies if schema changes
+- First request without a cursor can differ from cursor-based, inconsistent behavior
 
 ## Page-Based
 
-- `page=0` vs `page=1` — APIs inconsistentes, off-by-one errores
-- Última página parcial + mismo `per_page` = no sabes si hay más
-- Cambio de `per_page` entre requests = items duplicados o skipped
-- `total_pages` calculado con división entera = página extra si hay remainder
+- `page=0` vs `page=1`: inconsistent APIs, off-by-one errors
+- Partial last page + same `per_page` = you don't know if there's more
+- Changing `per_page` between requests = duplicated or skipped items
+- `total_pages` computed with integer division = extra page if there's a remainder
 
 ## Link Headers
 
-- `Link` header sin parsear = regex naive falla con URLs complejas
-- `rel="next"` ausente puede significar última página O API no soporta
-- URL en Link es absoluta pero puede tener host incorrecto detrás de proxy
-- Headers en response HEAD diferentes a GET en algunos APIs
+- `Link` header left unparsed = naive regex fails with complex URLs
+- Missing `rel="next"` can mean last page OR that the API doesn't support it
+- URL in Link is absolute but may have the wrong host behind a proxy
+- Headers on a HEAD response differ from GET in some APIs
 
 ## Parallel Pagination
 
-- Paralelizar páginas sin conocer total = algunas requests a páginas inexistentes
-- Rate limit hit = algunas páginas fallan, resultado incompleto
-- Orden de procesamiento != orden de páginas = resultados desordenados
-- Error en una página = ¿abortar todo o continuar con gaps?
+- Parallelizing pages without knowing the total = some requests to nonexistent pages
+- Rate limit hit = some pages fail, incomplete result
+- Processing order != page order = unordered results
+- Error on one page = abort everything or continue with gaps?
 
 ## Infinite Scroll
 
-- Nuevo item insertado mientras usuario scrollea = item aparece dos veces
-- Cache de páginas + item actualizado = versión vieja mostrada
-- Usuario scrollea rápido = muchos requests pendientes, respuestas out of order
+- New item inserted while the user scrolls = item appears twice
+- Page cache + updated item = stale version shown
+- User scrolls fast = many pending requests, responses out of order

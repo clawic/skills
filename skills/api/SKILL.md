@@ -1,11 +1,22 @@
 ---
-name: API (Stripe, OpenAI, Notion & 100+ more)
+name: api
 slug: api
-version: 1.3.4
-homepage: https://clawic.com/skills/api
+version: 1.3.5
 description: REST API reference for 147 services. Authentication patterns, endpoints, rate limits, and common gotchas.
-changelog: Documentation-only skill with API reference files.
-metadata: {"clawdbot":{"emoji":"🔌","requires":{"anyBins":["curl","jq"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/api
+changelog: Translated remaining reference content to English
+metadata:
+  clawdbot:
+    emoji: 🔌
+    requires:
+      anyBins:
+      - curl
+      - jq
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Publish Api
 ---
 
 # API
@@ -119,7 +130,7 @@ The user manages their own API keys and runs commands themselves.
 This skill documents external APIs. Example endpoints shown are for the respective service providers (Stripe, OpenAI, etc.).
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `http` — HTTP request patterns
 - `webhook` — Webhook handling
@@ -127,5 +138,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/api
+- Latest version: https://clawic.com/skills/api

@@ -2,42 +2,42 @@
 
 ## Delivery
 
-- Webhook timeout 5-30s — proceso largo = timeout = retry = duplicados
-- Provider retry = mismo evento múltiples veces — handler DEBE ser idempotente
-- Orden de entrega no garantizado — event B puede llegar antes que A
-- IP del provider cambia — whitelist por IP se rompe
+- Webhook timeout 5-30s, long process = timeout = retry = duplicates
+- Provider retry = same event multiple times, handler MUST be idempotent
+- Delivery order not guaranteed, event B can arrive before A
+- Provider IP changes, IP whitelist breaks
 
 ## Verification
 
-- Signature con timestamp — replay attack si no verificas que timestamp es reciente
-- HMAC comparison sin constant-time = timing attack posible
-- Signature en header custom (`X-Hub-Signature`) no estándar — cada provider diferente
-- Body modificado por middleware (parsing) antes de verificar = signature inválida
+- Signature with timestamp, replay attack if you don't verify the timestamp is recent
+- HMAC comparison without constant-time = timing attack possible
+- Signature in a custom header (`X-Hub-Signature`) is non-standard, each provider differs
+- Body modified by middleware (parsing) before verifying = invalid signature
 
 ## Processing
 
-- Response 200 antes de procesar = provider cree que OK pero proceso falla después
-- Response 500 = provider reintenta = procesas dos veces si primer intento sí funcionó
-- Webhook queue llena = nuevos eventos perdidos
-- Async processing sin durabilidad = crash = evento perdido
+- Response 200 before processing = provider thinks it's OK but the process fails afterward
+- Response 500 = provider retries = you process twice if the first attempt did work
+- Webhook queue full = new events lost
+- Async processing without durability = crash = event lost
 
 ## Payload
 
-- Schema change sin aviso = parser falla en producción
-- Campos nuevos ignorados si parser es strict
-- Campos removed que tu código espera = null pointer / undefined
-- Encoding issues — payload JSON con caracteres especiales mal encoded
+- Schema change without notice = parser fails in production
+- New fields ignored if the parser is strict
+- Removed fields your code expects = null pointer / undefined
+- Encoding issues, JSON payload with special characters badly encoded
 
 ## Development
 
-- Localhost no es accesible para provider — necesitas tunnel (ngrok)
-- Tunnel URL cambia cada sesión — reconfigurar webhook cada vez
-- Provider no tiene retry manual — debes esperar al siguiente evento
-- Logs de webhook en provider expiran rápido — debugging difícil
+- Localhost isn't reachable by the provider, you need a tunnel (ngrok)
+- Tunnel URL changes each session, reconfigure the webhook every time
+- Provider has no manual retry, you must wait for the next event
+- Webhook logs on the provider expire quickly, debugging is hard
 
 ## Security
 
-- Endpoint público sin verificación = cualquiera puede enviar eventos fake
-- Secret compartido entre ambientes = staging puede afectar producción
-- Webhook handler que hace calls externos = SSRF potencial
-- Error message detallado en response = info leak al provider/attacker
+- Public endpoint without verification = anyone can send fake events
+- Secret shared across environments = staging can affect production
+- Webhook handler that makes external calls = potential SSRF
+- Detailed error message in response = info leak to the provider/attacker

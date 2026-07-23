@@ -2,41 +2,41 @@
 
 ## Bearer Token
 
-- `Authorization: Bearer:token` (con dos puntos) = INCORRECTO, es `Bearer token` (espacio)
-- Token con newline al final (copy-paste) = 401 misterioso
-- Bearer en query param `?token=x` funciona en algunos APIs pero se loguea en access logs
-- Token hardcodeado en código se commitea a git — siempre env var
+- `Authorization: Bearer:token` (with a colon) = WRONG, it's `Bearer token` (space)
+- Token with a trailing newline (copy-paste) = mysterious 401
+- Bearer in query param `?token=x` works in some APIs but gets logged in access logs
+- Token hardcoded in code gets committed to git, always use an env var
 
 ## OAuth
 
-- `state` parameter ignorado = vulnerable a CSRF — siempre validar
-- Token refresh sin mutex = race condition, múltiples refreshes simultáneos
-- Access token expirado + refresh token expirado = usuario debe re-login (no solo refresh)
-- `offline_access` scope olvidado = no hay refresh token
+- `state` parameter ignored = vulnerable to CSRF, always validate
+- Token refresh without a mutex = race condition, multiple simultaneous refreshes
+- Expired access token + expired refresh token = user must re-login (not just refresh)
+- `offline_access` scope forgotten = no refresh token
 
 ## JWT
 
-- Verificar solo firma sin validar `exp` = tokens eternos aceptados
-- `exp` en segundos, no milliseconds — `Date.now()` / 1000
-- `aud` claim ignorado = token para otro servicio aceptado
-- Algorithm confusion: token dice `alg: none` y servidor acepta sin firma
+- Verifying only the signature without validating `exp` = eternal tokens accepted
+- `exp` in seconds, not milliseconds, `Date.now()` / 1000
+- `aud` claim ignored = token for another service accepted
+- Algorithm confusion: token says `alg: none` and the server accepts it unsigned
 
 ## API Keys
 
-- API key en URL se cachea por proxies/CDNs — expuesto en logs
-- Ratelimit por API key + key compartida entre clientes = límite compartido
-- Key rotation sin período de gracia = downtime
-- API key sin expiración + leak = acceso permanente
+- API key in URL gets cached by proxies/CDNs, exposed in logs
+- Rate limit per API key + key shared across clients = shared limit
+- Key rotation without a grace period = downtime
+- API key without expiration + leak = permanent access
 
 ## Session
 
-- Session ID predecible = session hijacking
-- Session no invalidada en logout = reutilizable
-- Session timeout muy largo + shared computer = riesgo
-- Cookies sin `Secure` flag enviadas en HTTP = interceptables
+- Predictable session ID = session hijacking
+- Session not invalidated on logout = reusable
+- Session timeout too long + shared computer = risk
+- Cookies without the `Secure` flag sent over HTTP = interceptable
 
 ## Headers
 
-- `X-API-Key` vs `Api-Key` vs `apikey` — cada API diferente, case-sensitive
-- Auth header no propagado a redirects por defecto — 302 pierde auth
-- Preflight CORS no incluye auth headers — CORS error confuso si backend espera auth en OPTIONS
+- `X-API-Key` vs `Api-Key` vs `apikey`: differs per API, case-sensitive
+- Auth header not propagated to redirects by default, a 302 loses auth
+- CORS preflight doesn't include auth headers, confusing CORS error if the backend expects auth on OPTIONS

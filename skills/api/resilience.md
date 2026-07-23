@@ -2,42 +2,42 @@
 
 ## Retry Logic
 
-- Retry en POST/PUT sin idempotency key = duplicados
-- Retry inmediato en 429 ignora `Retry-After` header = ban más largo
-- Retry en 400 Bad Request = desperdicio, request es inválido
-- Exponential backoff sin jitter = thundering herd, todos reintentan al mismo tiempo
+- Retry on POST/PUT without idempotency key = duplicates
+- Immediate retry on 429 ignores `Retry-After` header = longer ban
+- Retry on 400 Bad Request = waste, request is invalid
+- Exponential backoff without jitter = thundering herd, everyone retries at the same time
 
 ## Timeouts
 
-- Connect timeout muy alto = threads bloqueados esperando DNS/TCP
-- Read timeout incluye tiempo de procesamiento del server — no solo red
-- Sin timeout = request colgado para siempre si server no responde
-- Timeout en cliente no cancela request en server — sigue procesando
+- Connect timeout too high = threads blocked waiting on DNS/TCP
+- Read timeout includes server processing time, not just network
+- No timeout = request hung forever if server doesn't respond
+- Client-side timeout doesn't cancel the request on the server, it keeps processing
 
 ## Circuit Breaker
 
-- Threshold muy bajo = circuit abre por errores transitorios normales
-- Half-open sin límite de requests = flood al server recovering
-- Circuit por host, no por endpoint = un endpoint malo afecta todos
-- Sin métricas de circuit state = debugging imposible
+- Threshold too low = circuit opens on normal transient errors
+- Half-open without a request limit = flood on the recovering server
+- Circuit per host, not per endpoint = one bad endpoint affects all
+- No circuit-state metrics = debugging impossible
 
 ## Rate Limiting
 
-- Rate limit client-side sin sincronización = exceder límite con múltiples instancias
-- Contador local + distributed system = cada nodo tiene su propio contador
-- Rate limit solo en 429 response = ya excediste el límite
-- Backoff después de 429 muy corto = ban extendido
+- Client-side rate limit without synchronization = exceed limit with multiple instances
+- Local counter + distributed system = each node has its own counter
+- Rate limit only on 429 response = you already exceeded the limit
+- Backoff after 429 too short = extended ban
 
 ## Error Handling
 
-- Catch genérico que silencia todos los errores = bugs invisibles
-- Retry que loguea en cada intento = log flood en outage
-- Error en fallback handler = crash, no graceful degradation
-- Async error sin handler = unhandled rejection, proceso puede morir
+- Generic catch that silences all errors = invisible bugs
+- Retry that logs on every attempt = log flood during an outage
+- Error in fallback handler = crash, not graceful degradation
+- Async error without handler = unhandled rejection, process may die
 
 ## Connection Pooling
 
-- Pool exhausted = requests encolados o rechazados
-- Conexión stale en pool = primera request falla, siguiente OK
-- Pool size muy grande = demasiadas conexiones al server
-- Sin health check de conexiones = conexiones muertas en pool
+- Pool exhausted = requests queued or rejected
+- Stale connection in pool = first request fails, next one OK
+- Pool size too large = too many connections to the server
+- No connection health check = dead connections in pool
