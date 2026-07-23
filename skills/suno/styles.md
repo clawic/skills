@@ -1,6 +1,16 @@
 # Style Tags — Suno
 
-Vocabulary catalog for the style field. Precise subgenre tags steer harder than broad ones — "shoegaze" names a specific sound cluster; "rock with reverb" averages everything (→ `prompts.md`).
+Vocabulary catalog for the style field. Precise subgenre tags steer harder than broad ones — "shoegaze" names a specific sound cluster; "rock with reverb" averages everything.
+
+## Contents
+
+- [Genre Tags](#genre-tags) — main + subgenre clusters Suno recognizes
+- [Mood Tags](#mood-tags) — one energy×valence quadrant per song
+- [Tempo Tags](#tempo-tags) · [Instrument Tags](#instrument-tags) · [Vocal Tags](#vocal-tags)
+- [Production Tags](#production-tags) · [Era/Decade Tags](#eradecade-tags) · [Use Case Tags](#use-case-tags)
+- [Combining Tags](#combining-tags)
+- [Tag Limits (canonical)](#tag-limits-canonical) — the 8-12 rule
+- [Conflicting Tags to Avoid](#conflicting-tags-to-avoid)
 
 ## Genre Tags
 
@@ -120,7 +130,7 @@ tropical house upbeat happy synth female vocals polished modern
 
 - **Optimal: 8-12 terms.** Each term past ~12 dilutes the rest; below ~5 the model fills gaps with its defaults.
 - Worked check: "lo-fi electronic ambient chill downtempo synth pads warm analog" = 8 terms covering genre, mood, tempo, instrument, production — nothing wasted.
-- Suno >=4.5 also accepts prose descriptions up to 1000 characters (→ `prompts.md` Version Notes); the 8-12 rule applies to tag-style prompts.
+- Suno >=4.5 also accepts prose descriptions up to 1000 characters; the 8-12 rule applies to tag-style prompts.
 
 ## Conflicting Tags to Avoid
 

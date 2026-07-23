@@ -2,6 +2,15 @@
 
 Everything outside `[brackets]` gets sung. That single fact drives most of this file.
 
+## Contents
+
+- [Structure Tags](#structure-tags) — recognized section markers
+- [Delivery Control (the invisible knobs)](#delivery-control-the-invisible-knobs) — parentheses, caps, vocal cues, syllable placement
+- [Structures That Work](#structures-that-work) — pop/rock, verse-heavy, EDM
+- [Word Budget](#word-budget) — 150-300 words per 2-3 min
+- [Endings](#endings) · [Instrumental Sections](#instrumental-sections)
+- [Emotional Arc](#emotional-arc) · [Writing Judgment Calls](#writing-judgment-calls)
+
 ## Structure Tags
 
 Recognized markers — bracketed, each on its own line:
@@ -20,7 +29,7 @@ Tags steer, they don't command: the model follows them most of the time. If a ta
 - **ALL CAPS tends toward belted/shouted delivery**; lowercase stays soft. A tendency, not a switch — pair it with a vocal cue in the tag.
 - **Vocal direction inside the tag**: `[Verse - whispered]`, `[Chorus - powerful]`, `[Bridge - spoken word]`, `[Outro - fading]`.
 - **Punctuation phrases the vocal**: commas insert breaths, ellipses stretch a line... exclamation marks push energy.
-- **Hyphenate to place syllables** when the model rushes or mangles a word: "to-night", "for-ev-er".
+- **Hyphenate to place syllables** when the model rushes or mangles a word: "to-night", "for-ev-er". Names it mispronounces get phonetic respelling in the lyrics ("Siobhan" → "Shiv-awn") — official spelling stays in the title.
 - **Repeated exact text = repeated melody.** Identical `[Chorus]` text on every repeat is how you get one chorus melody instead of three different ones.
 - **Language**: write lyrics in the target language and also name it in the style field ("Spanish vocals", "Japanese city pop"); untagged non-English lyrics get inconsistent pronunciation.
 

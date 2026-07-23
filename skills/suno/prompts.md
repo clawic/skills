@@ -1,5 +1,15 @@
 # Prompt Engineering — Suno
 
+## Contents
+
+- [Structure](#structure) — the layered formula
+- [Mechanics That Matter](#mechanics-that-matter) — front-load, specificity, negation, era+texture
+- [Version Notes](#version-notes) — length caps and prose handling by version
+- [Genre Templates](#genre-templates) — per-genre slot scaffolds
+- [Voice Control](#voice-control) · [Tempo](#tempo) · [Production Style](#production-style)
+- [Proven Combinations](#proven-combinations)
+- [What to Avoid](#what-to-avoid)
+
 ## Structure
 
 Build the style prompt in layers:
@@ -13,7 +23,7 @@ Example: "indie folk melancholic slow acoustic guitar soft female vocals 90s"
 
 - **Front-load.** Earlier terms steer harder in practice: genre and subgenre first, era and garnish last. If the output ignores your genre, it was probably buried.
 - **Specificity beats quantity.** One precise subgenre ("shoegaze", "boom bap", "bossa nova") outsteers a pile of generic descriptors ("rock, reverb, dreamy, atmospheric"). Precise tags name a training-data cluster; generic ones average everything.
-- **8-12 terms** (canonical limits: `styles.md`). Every extra term past that dilutes the ones that matter.
+- **8-12 terms.** Every extra term past that dilutes the ones that matter.
 - **One mood quadrant.** Pick energy (high/low) × valence (positive/negative) and stay inside it; "euphoric melancholic" splits the model's attention.
 - **Negation fails.** "No drums" pulls drums — style terms act as attractors regardless of the words around them. Omit the term entirely, or use Suno's Exclude Styles field in custom mode.
 - **Era + texture is the cheapest identity upgrade.** A generic result usually lacks a decade and a production texture: adding "90s" + "warm tape" transforms it for two tokens.
@@ -25,6 +35,8 @@ Example: "indie folk melancholic slow acoustic guitar soft female vocals 90s"
 - Current caps, model list, and pricing: check suno.com — they change between releases.
 
 ## Genre Templates
+
+Scaffolds, not fill-in-the-blanks. Each bracketed slot lists the terms Suno actually resolves for that genre — the model has heard "boom bap" and "shoegaze" as clusters, but flattens invented compounds. Fill 8-12 terms across the slots, stay in one mood quadrant, and let a precise subgenre outsteer a pile of adjectives.
 
 ### Electronic
 ```
@@ -118,7 +130,7 @@ Ballad: emotional piano ballad soft vocals heartfelt intimate
 Club: EDM house energetic driving build-up heavy drop
 ```
 
-When one of these lands for the user, store the exact string in `~/clawic/suno/memory.md` and reuse it verbatim (→ SKILL.md Core Rule 2).
+When one of these lands for the user, store the exact string in `~/Clawic/data/suno/memory.md` and reuse it verbatim (→ SKILL.md Core Rule 2).
 
 ## What to Avoid
 
@@ -130,3 +142,5 @@ When one of these lands for the user, store the exact string in `~/clawic/suno/m
 | Negations ("no drums") | The noun still attracts | Omit, or Exclude Styles field |
 | 15+ keywords | Dilutes every term | 8-12, precise over plentiful |
 | Mixed mood quadrants | Splits the model | One quadrant per song |
+
+Output still wrong after these mechanics → SKILL.md Quick Reference routes to the symptom chains before spending another run.

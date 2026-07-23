@@ -11,14 +11,19 @@
   "skill": {
     "slug": "suno",
     "name": "suno",
-    "description": "Generate AI music with Suno via API or browser, with prompt engineering and song extensions.",
-    "version": "1.0.2",
+    "description": "Creates music with Suno: crafts style prompts and structured lyrics, generates via API or browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle, anthem, podcast intro, or background track, wants lyrics turned into audio or written for singing, asks to sound like an artist, or when a generation comes out generic, off-genre, cuts off mid-song, sings the style description, garbles words, or gets rejected by moderation. Also covers extending and stitching songs, stems, WAV export, credits, and commercial-use rights. Not for editing or mixing existing audio files.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/suno",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User wants to generate music with Suno. Agent can use hosted APIs for programmatic generation, browser automation for direct platform interactio",
+    "summary": "This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio \u2014 see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at a",
     "repositoryPath": "skills/suno",
     "manifestPath": "registry/skills/suno.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/suno/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/suno/_meta.json",
@@ -33,6 +38,26 @@
       "path": "browser.md",
       "downloadPath": "skills/suno/browser.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/browser.md"
+    },
+    {
+      "path": "covers.md",
+      "downloadPath": "skills/suno/covers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/covers.md"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/suno/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/debug.md"
+    },
+    {
+      "path": "extend.md",
+      "downloadPath": "skills/suno/extend.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/extend.md"
+    },
+    {
+      "path": "jingles.md",
+      "downloadPath": "skills/suno/jingles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/jingles.md"
     },
     {
       "path": "lyrics.md",
@@ -50,14 +75,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/prompts.md"
     },
     {
+      "path": "release.md",
+      "downloadPath": "skills/suno/release.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/release.md"
+    },
+    {
       "path": "setup.md",
       "downloadPath": "skills/suno/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/suno/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md"
     },
     {
       "path": "styles.md",

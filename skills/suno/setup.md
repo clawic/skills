@@ -1,69 +1,44 @@
 # Setup — Suno
 
-Read this when `~/clawic/suno/` doesn't exist or is empty.
+Read this when `~/Clawic/data/suno/` doesn't exist or is empty.
 
-## Your Attitude
+## Create the Workspace
 
-You're helping someone create real music. Whether they want a quick jingle or a professional track, your job is to make it happen — from idea to audio file.
-
-## Priority Order
-
-### 1. First: Understand Their Setup
-
-Determine which approach fits:
-- **Just prompts?** — Help them craft prompts to paste into suno.com
-- **Have API key?** — Use hosted APIs (aimusicapi.ai, EvoLink) for automation
-- **Self-hosted?** — Use local API if they've set one up
-
-Ask early:
-- "Do you have an API key for Suno, or should I help you generate on the website?"
-- "Want me to handle everything programmatically, or just help with prompts and lyrics?"
-
-### 2. Then: Understand Their Music
-
-Get clarity on what they want:
-- "What kind of song? Genre, mood, purpose?"
-- "Do you have lyrics, or should I write them?"
-- "Vocals or instrumental?"
-
-### 3. Finally: Generate
-
-Based on their setup:
-
-**Website users:** Craft optimized prompt/lyrics, they paste into suno.com
-
-**API users:** Generate programmatically, deliver audio URL
-
-**Browser automation:** Navigate suno.com for them if browser tool available
-
-## What You're Saving
-
-In `~/clawic/suno/memory.md`:
-- Their preferred generation method
-- Favorite genres and styles
-- Vocal preferences
-- Successful prompts that worked
-- API configuration reference (not the keys themselves)
-
-## API Configuration
-
-If they have API access, guide them to store keys securely:
-
-```bash
-# For aimusicapi.ai
-export AIMUSICAPI_KEY="their-key"
-
-# For EvoLink
-export EVOLINK_API_KEY="their-key"
+```
+~/Clawic/data/suno/
+├── config.yaml       # Declared preferences — variables in SKILL.md Configuration
+├── memory.md         # Observed preferences and successful prompts
+├── projects/         # Per-project song tracking (create when a second song shares a project)
+└── songs/            # Downloaded audio (optional)
 ```
 
-Never store API keys in plain text files. Use environment variables or system keychain.
+## Determine the Method From Context, Not Questions
 
-## When Done
+Resolve `default_method` without interrogating:
 
-Once you:
-1. Know their preferred method (web, API, browser)
-2. Understand their music style
-3. Have delivered working audio
+1. `AIMUSICAPI_KEY` or `EVOLINK_API_KEY` present in the environment → `api`
+2. Otherwise, a browser automation tool is available and the user wants delivered audio → `browser`
+3. Otherwise → `prompts` (craft prompt + lyrics for manual pasting)
 
-...you're set. Future requests will be faster with preferences saved.
+Record the result in `config.yaml`. Ask at most one question, only if genuinely blocked: the user wants audio files delivered but neither an API key nor a browser tool exists — ask which they can provide, then record the answer.
+
+## First Song
+
+- Pull genre, mood, and purpose from the request itself; draft with the layered style formula (SKILL.md Prompt Essentials) and defaults over questions.
+- Vocals unstated → assume vocals unless the use case implies a bed (podcast intro, background loop → instrumental).
+- Deliver, then record: what the user reacted to goes to `memory.md` (observed); anything they stated outright ("I always want instrumental") goes to `config.yaml` (declared).
+
+## API Keys
+
+If the user has API access, keys live in environment variables — never in files under `~/Clawic/data/suno/`:
+
+```bash
+export AIMUSICAPI_KEY="their-key"     # aimusicapi.ai
+export EVOLINK_API_KEY="their-key"    # evolink.ai
+```
+
+`config.yaml` and `memory.md` may note which provider and env var name are in use — never the value.
+
+## Done When
+
+Method resolved and recorded, first audio (or prompt package) delivered, and any stated preferences persisted. Future requests start from `config.yaml` + `memory.md`, not from zero.

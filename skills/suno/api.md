@@ -2,6 +2,15 @@
 
 Suno has no official public API. These hosted services provide API access.
 
+## Contents
+
+- [Options](#options) — provider table, feature gap
+- [AI Music API](#ai-music-api) — setup, Python client, usage, cURL
+- [EvoLink](#evolink) — setup, Python client, models
+- [Error Handling](#error-handling) — retry logic
+- [Common Errors](#common-errors) — status codes to fixes
+- [Best Practices](#best-practices)
+
 ## Options
 
 | Service | Website | Setup |
@@ -9,7 +18,9 @@ Suno has no official public API. These hosted services provide API access.
 | **AI Music API** | aimusicapi.ai | Sign up, get API key |
 | **EvoLink** | evolink.ai | Sign up, get API key |
 
-Both are pay-per-use services that handle Suno integration for you.
+Both are pay-per-use services that handle Suno integration for you. The provider landscape shifts — verify the service is live and its docs current before writing new integration code.
+
+**Feature gap.** Hosted APIs generally cover generate + lyrics only. Extend-from-timestamp, crop, covers, personas, and stems are platform features, reachable only through the browser (`browser.md`).
 
 ---
 
@@ -196,6 +207,7 @@ def safe_generate(prompt, retries=3):
 | Error | Cause | Solution |
 |-------|-------|----------|
 | 401 Unauthorized | Invalid key | Check API key |
+| 400/422 rejected | Moderation: artist/brand names or flagged lyrics; credits may still be charged | Strip names to attributes (SKILL.md rule 6), retry |
 | 429 Rate Limited | Too many requests | Wait 1-2 min |
 | Timeout | Server busy | Retry later |
 
@@ -204,5 +216,5 @@ def safe_generate(prompt, retries=3):
 1. **Store keys in env vars** — Never in code or plain files
 2. **Handle rate limits** — Implement backoff
 3. **Poll with delays** — 5 second intervals minimum
-4. **Download immediately** — Audio URLs expire; save to `~/clawic/suno/songs/`
-5. **Log successful prompts verbatim** — In `~/clawic/suno/memory.md`; rewording a working prompt resets the odds
+4. **Download immediately** — Audio URLs expire; save to `~/Clawic/data/suno/songs/`
+5. **Log successful prompts verbatim** — In `~/Clawic/data/suno/memory.md`; rewording a working prompt resets the odds

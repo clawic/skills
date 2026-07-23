@@ -1,6 +1,8 @@
 # Memory Template — Suno
 
-Create `~/clawic/suno/memory.md` with this structure:
+`memory.md` holds what the agent OBSERVED; declared preferences (method, provider, plan, format, language) live in `config.yaml` (SKILL.md Configuration). An observation never overwrites a declared preference without user confirmation.
+
+Create `~/Clawic/data/suno/memory.md` with this structure:
 
 ```markdown
 # Suno Memory
@@ -9,34 +11,24 @@ Create `~/clawic/suno/memory.md` with this structure:
 status: ongoing
 version: 1.0.0
 last: YYYY-MM-DD
-integration: pending | web | api | browser
 
-## Generation Method
-<!-- How they prefer to generate -->
-<!-- web: paste prompts into suno.com -->
-<!-- api: aimusicapi.ai or evolink.ai -->
-<!-- browser: automated navigation -->
-
-## API Config
-<!-- Reference only, not actual keys -->
-<!-- e.g., "Using aimusicapi.ai, key in AIMUSICAPI_KEY env var" -->
-
-## Music Preferences
-<!-- Genres they like -->
+## Music Preferences (observed)
+<!-- Genres they gravitate to -->
 <!-- Typical mood/energy -->
-<!-- Vocal preferences -->
+<!-- Vocal textures they pick when shown both clips -->
 
 ## Successful Prompts
-<!-- Prompts that produced great results -->
+<!-- Exact style strings that landed — verbatim, never reworded -->
 <!-- Format: "prompt" -> result description -->
 
+## Rejected Directions
+<!-- Styles/moods the user disliked — saves future rolls -->
+
 ## Projects
-<!-- Ongoing music projects -->
-<!-- What they're working on -->
+<!-- Ongoing music projects; details in projects/ -->
 
 ## Notes
-<!-- Observations about their taste -->
-<!-- Things that worked or didn't -->
+<!-- Observations about their taste; things that worked or didn't -->
 
 ---
 *Updated: YYYY-MM-DD*
@@ -50,18 +42,9 @@ integration: pending | web | api | browser
 | `complete` | Know their style well |
 | `paused` | User said "not now" |
 
-## Integration Values
-
-| Value | Method |
-|-------|--------|
-| `pending` | Not yet determined |
-| `web` | Paste prompts into suno.com |
-| `api` | Programmatic via API |
-| `browser` | Browser automation |
-
 ## Projects Folder
 
-For users with multiple projects, create `~/clawic/suno/projects/`:
+For users with multiple songs per effort, create `~/Clawic/data/suno/projects/<name>.md`:
 
 ```markdown
 # Project: [Name]
@@ -69,22 +52,24 @@ For users with multiple projects, create `~/clawic/suno/projects/`:
 ## Concept
 [What the project is about]
 
-## Songs
-- [Song 1]: prompt used, URL, status
-- [Song 2]: prompt used, URL, status
+## Locked Style
+[The verbatim style string + persona + Exclude Styles — the consistency source]
 
-## Style Guide
-[Consistent style for this project]
+## Songs
+- [Song 1]: prompt used, clip URL, plan tier at generation, status
+- [Song 2]: prompt used, clip URL, plan tier at generation, status
 ```
+
+The per-song plan-tier line doubles as the rights record.
 
 ## Songs Folder
 
-Optional: `~/clawic/suno/songs/` for downloaded audio files.
+Optional: `~/Clawic/data/suno/songs/` for downloaded audio, named `YYYY-MM-DD-<slugged-title>-vN.<ext>`.
 
-## Key Principles
+## Principles
 
 - Learn preferences through creation, not interrogation
-- Save working prompts verbatim for reuse
-- Note reactions to different styles
-- Never store actual API keys in memory files
+- Save working prompts verbatim — rewording resets the odds (SKILL.md rule 2)
+- Note reactions to both clips of a run, not just the chosen one
+- Never store API keys in memory files
 - Update `last` date on each session
