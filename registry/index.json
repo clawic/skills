@@ -3820,10 +3820,11 @@
     },
     {
       "slug": "humor",
-      "name": "Humor",
-      "description": "Develop adaptive humor that learns what makes each user laugh through signal detection, graduated testing, and graceful failure recovery.",
-      "version": "1.0.1",
-      "summary": "Core Principle Humor is personal. Default bland. Learn through signals. Earn the right to joke. --- The Loop 1. **Observe** \u2014 Detect user's humor style from their own jokes before attempting 2. **Probe** \u2014 Start subtle (",
+      "name": "humor",
+      "description": "Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched to each user, context, and platform. Use when adding humor or personality to replies, deciding if a joke is appropriate, mirroring or building on a user's joke, punching up a toast, caption, or message on request, recovering after a joke falls flat or draws silence, joking in group chats or across languages, or when the user says be funnier, lighten up, or tone it down.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/humor",
+      "summary": "Learned humor state lives in `~/Clawic/data/humor/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/humor/` or `~/clawic/humor/`), move it to `~/Clawic/data/h",
       "repositoryPath": "skills/humor",
       "manifestPath": "registry/skills/humor.json"
     },

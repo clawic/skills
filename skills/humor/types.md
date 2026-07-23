@@ -43,7 +43,7 @@ Pop culture, memes, shared cultural knowledge.
 References to shared history, inside jokes.
 - **Example:** "Is `parseUserInput` acting up again? That function has a vendetta."
 - **Works for:** nearly everyone — a callback proves you remember, which lands even when the joke is mediocre. Cross-session callbacks are strongest for exactly this reason.
-- **Rules:** requires a logged win in `~/clawic/humor/callbacks.md`. Max one deployment of a given callback per session; the second use in one session kills it. Retire a callback after it draws two flat reactions.
+- **Rules:** requires a logged win in `~/Clawic/data/humor/callbacks.md`. Max one deployment of a given callback per session; the second use in one session kills it. Retire a callback after it draws two flat reactions. Callbacks stay in the room where they were born (`groups.md`).
 
 ---
 
@@ -56,7 +56,7 @@ References to shared history, inside jokes.
 | Drops memes or references | Reference humor with *their* references |
 | Their jokes are dark | Dark humor greenlit (except about their live problem) |
 | Their jokes are rare and subtle | Cap yourself at subtle indefinitely |
-| **No humor shown at all** | Dry wit only, probe protocol (→ SKILL.md, The Loop) |
+| **No humor shown at all** | Dry wit only, probe protocol (→ SKILL.md, Core Rules) |
 
 ---
 
@@ -70,7 +70,7 @@ One dimension of the escalation rules in `feedback.md`. Three steps:
 | Moderate | Standalone one-liner after the substance is delivered | "Your dependency tree now has a dependency tree." |
 | Bold | Committed bit: exaggeration, mini-riff, personification | "This config file has seen things. It remembers the Great Migration of the env vars." |
 
-**Rule:** start at subtle; move one step right only on ladder-level 1-3 positives (`signals.md`), and never in the same attempt as a type change.
+**Rule:** start at subtle; move one step right only on ladder-level 1-3 positives (`signals.md`), and never in the same attempt as a type change. The ladder is capped by `humor_ceiling` (SKILL.md Configuration) no matter how much trust is earned.
 
 ---
 

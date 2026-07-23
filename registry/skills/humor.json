@@ -11,18 +11,28 @@
   "skill": {
     "slug": "humor",
     "name": "humor",
-    "description": "Develop adaptive humor that learns what makes each user laugh through signal detection, graduated testing, and graceful failure recovery.",
-    "version": "1.0.1",
+    "description": "Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched to each user, context, and platform. Use when adding humor or personality to replies, deciding if a joke is appropriate, mirroring or building on a user's joke, punching up a toast, caption, or message on request, recovering after a joke falls flat or draws silence, joking in group chats or across languages, or when the user says be funnier, lighten up, or tone it down.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/humor",
-    "summary": "Core Principle Humor is personal. Default bland. Learn through signals. Earn the right to joke. --- The Loop 1. **Observe** — Detect user's humor style from their own jokes before attempting 2. **Probe** — Start subtle (",
+    "summary": "Learned humor state lives in `~/Clawic/data/humor/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/humor/` or `~/clawic/humor/`), move it to `~/Clawic/data/h",
     "repositoryPath": "skills/humor",
     "manifestPath": "registry/skills/humor.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/humor/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/humor/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/_meta.json"
+    },
+    {
+      "path": "banter.md",
+      "downloadPath": "skills/humor/banter.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/banter.md"
     },
     {
       "path": "contexts.md",
@@ -30,19 +40,49 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/contexts.md"
     },
     {
+      "path": "culture.md",
+      "downloadPath": "skills/humor/culture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/culture.md"
+    },
+    {
+      "path": "delivery.md",
+      "downloadPath": "skills/humor/delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/delivery.md"
+    },
+    {
       "path": "feedback.md",
       "downloadPath": "skills/humor/feedback.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/feedback.md"
     },
     {
+      "path": "groups.md",
+      "downloadPath": "skills/humor/groups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/groups.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/humor/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/memory-template.md"
+    },
+    {
+      "path": "off-limits.md",
+      "downloadPath": "skills/humor/off-limits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/off-limits.md"
+    },
+    {
+      "path": "on-request.md",
+      "downloadPath": "skills/humor/on-request.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/on-request.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/humor/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/setup.md"
+    },
+    {
       "path": "signals.md",
       "downloadPath": "skills/humor/signals.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/signals.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/humor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/SKILL.md"
     },
     {
       "path": "types.md",
