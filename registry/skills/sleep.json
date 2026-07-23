@@ -11,23 +11,83 @@
   "skill": {
     "slug": "sleep",
     "name": "sleep",
-    "description": "Coaches sleep with quantified protocols: insomnia triage, jet lag light timing, caffeine and melatonin cutoffs, shift work anchors. Use when the user mentions poor sleep, insomnia, night waking, daytime tiredness, jet lag, naps, snoring, night shifts, CBT-I, or sleep tracker data.",
-    "version": "1.0.2",
+    "description": "Coaches sleep with quantified protocols: insomnia CBT-I, jet lag light timing, shift work anchors, caffeine and melatonin cutoffs. Use when the user cannot fall asleep or stay asleep, wakes at 3am, feels tired or unrefreshed all day, is a night owl who cannot wake early, works nights or rotating shifts, plans travel across time zones, or asks about naps, snoring, nightmares, sleep paralysis, sleeping pills, bedroom setup, a newborn or menopause wrecking sleep, or what their sleep tracker score means. Not for dream journaling or interpretation.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/sleep",
-    "summary": "Sleep Operational sleep coaching: triage the complaint, run the protocol with numbers, route red flags to a clinician instead of coaching past them. Advise mode only: guide the human, never touch their medication. Diary ",
+    "summary": "Operational sleep coaching: triage the complaint, run the protocol with numbers, route red flags to a clinician instead of coaching past them. Advise mode only: guide the human, never touch their medication. Diary, trip ",
     "repositoryPath": "skills/sleep",
     "manifestPath": "registry/skills/sleep.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sleep/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/sleep/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/_meta.json"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/sleep/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/SKILL.md"
+      "path": "circadian.md",
+      "downloadPath": "skills/sleep/circadian.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/circadian.md"
+    },
+    {
+      "path": "environment.md",
+      "downloadPath": "skills/sleep/environment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/environment.md"
+    },
+    {
+      "path": "insomnia.md",
+      "downloadPath": "skills/sleep/insomnia.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/insomnia.md"
+    },
+    {
+      "path": "jetlag.md",
+      "downloadPath": "skills/sleep/jetlag.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/jetlag.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/sleep/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/memory-template.md"
+    },
+    {
+      "path": "parasomnias.md",
+      "downloadPath": "skills/sleep/parasomnias.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/parasomnias.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/sleep/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/performance.md"
+    },
+    {
+      "path": "populations.md",
+      "downloadPath": "skills/sleep/populations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/populations.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/sleep/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/setup.md"
+    },
+    {
+      "path": "shiftwork.md",
+      "downloadPath": "skills/sleep/shiftwork.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/shiftwork.md"
+    },
+    {
+      "path": "substances.md",
+      "downloadPath": "skills/sleep/substances.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/substances.md"
+    },
+    {
+      "path": "trackers.md",
+      "downloadPath": "skills/sleep/trackers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/trackers.md"
     }
   ]
 }

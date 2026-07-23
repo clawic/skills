@@ -6909,10 +6909,11 @@
     },
     {
       "slug": "sleep",
-      "name": "Sleep",
-      "description": "Auto-learns your sleep patterns. Absorbs data from wearables, conversations, and observations.",
-      "version": "1.0.2",
-      "summary": "Auto-Adaptive Sleep Tracking This skill auto-evolves. Fills in as you learn how the user sleeps and what affects it. **Rules:** - Absorb sleep mentions from ANY source (wearables, conversations, spontaneous comments) - D",
+      "name": "sleep",
+      "description": "Coaches sleep with quantified protocols: insomnia CBT-I, jet lag light timing, shift work anchors, caffeine and melatonin cutoffs. Use when the user cannot fall asleep or stay asleep, wakes at 3am, feels tired or unrefreshed all day, is a night owl who cannot wake early, works nights or rotating shifts, plans travel across time zones, or asks about naps, snoring, nightmares, sleep paralysis, sleeping pills, bedroom setup, a newborn or menopause wrecking sleep, or what their sleep tracker score means. Not for dream journaling or interpretation.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/sleep",
+      "summary": "Operational sleep coaching: triage the complaint, run the protocol with numbers, route red flags to a clinician instead of coaching past them. Advise mode only: guide the human, never touch their medication. Diary, trip ",
       "repositoryPath": "skills/sleep",
       "manifestPath": "registry/skills/sleep.json"
     },
