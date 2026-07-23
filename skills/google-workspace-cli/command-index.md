@@ -1,13 +1,8 @@
-# Command Index - Google Workspace CLI
+# Command Index — Services, Aliases, and Discovery
 
-This file ensures users can reliably find any available command.
+`gws` is dynamic: it builds resource/method commands from Google Discovery documents at runtime. The source of truth is always live introspection (`--help` + `schema`), never a memorized list — a static list would be stale by design.
 
-## Important
-
-`gws` is dynamic: it builds resource/method commands from Google Discovery documents at runtime.
-That means the source of truth is always live CLI introspection (`--help` + `schema`), not a static hardcoded list.
-
-## Service Alias Inventory (from `src/services.rs`)
+## Service Alias Inventory
 
 | Service alias | Alternate alias | API + version |
 |---------------|-----------------|---------------|
@@ -37,31 +32,29 @@ That means the source of truth is always live CLI introspection (`--help` + `sch
 | `modelarmor` | - | `modelarmor:v1` |
 | `workflow` | `wf` | synthetic workflow service |
 
-## How to Find Any Command
+Use `<api>:<version>` syntax to override a version explicitly (e.g., a beta surface).
 
-1. List top-level syntax:
-```bash
-gws --help
-```
+## The Discovery Loop
 
-2. List resources/method branches for one service:
-```bash
-gws <service> --help
-```
+1. `gws --help` — top-level syntax and global flags
+2. `gws <service> --help` — resource and method branches for one service
+3. `gws schema <service.resource.method>` — required params, body shape, per-API caps
+4. `gws <service> <resource> [sub-resource] <method> --params '{...}' --json '{...}'` — the final command
 
-3. Inspect required params/body for one method:
-```bash
-gws schema <service.resource.method>
-```
+Expected method not found: check the alias table above, remember discovery responses cache for 24 hours (a brand-new API method may not appear until the cache refreshes), and try the explicit `<api>:<version>` form.
 
-4. Build final command with `--params` and optional `--json`:
-```bash
-gws <service> <resource> [sub-resource] <method> --params '{...}' --json '{...}'
-```
+## CLI Internals Worth Knowing
+
+- Two-phase parsing: `gws` parses service + global flags first, then fetches discovery and rebuilds the command tree — which is why `--help` output differs per installation and why offline use fails on an empty cache.
+- Global output formats: `json`, `table`, `yaml`, `csv` (set the user's `output_format` from config); pagination controls: `--page-all`, `--page-limit`, `--page-delay` (bounds in SKILL.md Rule 5).
+- Credentials are encrypted (AES-256-GCM, keyring with file fallback) in `~/.config/gws/`; discovery cache lives in `~/.config/gws/cache/` with a 24-hour TTL.
+- Structured JSON errors carry actionable fields — `enable_url` on `accessNotConfigured` is the fast path (→ SKILL.md Error Triage).
+- `--sanitize <template>` integrates Model Armor screening for fetched content (SKILL.md Rule 6).
+- Canonical repository: `googleworkspace/cli` — docs referencing `cliy` are the wrong, stale repo. The upstream generated index `docs/skills.md` lists helper/workflow shortcuts; locally, `gws workflow --help`.
 
 ## Exhaustive Service Sweep
 
-Use this to quickly enumerate what exists right now in your installation:
+Enumerate what exists right now in this installation:
 
 ```bash
 for s in drive sheets gmail calendar admin admin-reports docs slides tasks people chat vault groupssettings reseller licensing apps-script classroom cloudidentity alertcenter forms keep meet events modelarmor workflow; do
@@ -71,14 +64,6 @@ for s in drive sheets gmail calendar admin admin-reports docs slides tasks peopl
  done
 ```
 
-## Helper and Workflow Discovery
-
-For helper/workflow shortcuts (outside raw API branches):
-- use the upstream generated index: `docs/skills.md` in `googleworkspace/cli`
-- in local runtime, check `gws workflow --help`
-- for MCP tools, start narrow and inspect exposed tools per service set
-
 ## Safety Reminder
 
-Discovery first, dry-run second, apply last.
-Do not execute write commands without resolving stable ids and getting explicit confirmation.
+Discovery first, dry-run second, apply last. No write command without resolved stable ids and the gates in `change-control.md`.

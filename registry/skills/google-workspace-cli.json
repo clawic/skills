@@ -11,23 +11,43 @@
   "skill": {
     "slug": "google-workspace-cli",
     "name": "google-workspace-cli",
-    "description": "Operate Google Workspace from one CLI using dynamic API discovery, secure OAuth flows, and agent-ready automation patterns for Drive and Gmail.",
-    "version": "1.0.2",
+    "description": "Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK \u2014 bulk mail search and send, file sharing and export, event, user, and group management \u2014 when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/google-workspace-cli",
-    "summary": "Setup On first activation, read `setup.md` and lock integration boundaries before running any write command. When to Use User needs direct CLI control of Google Workspace APIs with reliable JSON output, schema introspect",
+    "summary": "All persistent data for this skill lives in `~/Clawic/data/google-workspace-cli/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/google-workspace-cli/` or `~",
     "repositoryPath": "skills/google-workspace-cli",
     "manifestPath": "registry/skills/google-workspace-cli.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/google-workspace-cli/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/google-workspace-cli/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/_meta.json"
     },
     {
+      "path": "admin.md",
+      "downloadPath": "skills/google-workspace-cli/admin.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/admin.md"
+    },
+    {
       "path": "auth-playbook.md",
       "downloadPath": "skills/google-workspace-cli/auth-playbook.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/auth-playbook.md"
+    },
+    {
+      "path": "automation.md",
+      "downloadPath": "skills/google-workspace-cli/automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/automation.md"
+    },
+    {
+      "path": "calendar.md",
+      "downloadPath": "skills/google-workspace-cli/calendar.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/calendar.md"
     },
     {
       "path": "change-control.md",
@@ -45,6 +65,21 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/command-patterns.md"
     },
     {
+      "path": "drive.md",
+      "downloadPath": "skills/google-workspace-cli/drive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/drive.md"
+    },
+    {
+      "path": "editors.md",
+      "downloadPath": "skills/google-workspace-cli/editors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/editors.md"
+    },
+    {
+      "path": "gmail.md",
+      "downloadPath": "skills/google-workspace-cli/gmail.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/gmail.md"
+    },
+    {
       "path": "mcp-integration.md",
       "downloadPath": "skills/google-workspace-cli/mcp-integration.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/mcp-integration.md"
@@ -55,24 +90,14 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/memory-template.md"
     },
     {
-      "path": "repo-analysis.md",
-      "downloadPath": "skills/google-workspace-cli/repo-analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/repo-analysis.md"
-    },
-    {
-      "path": "safety-checklist.md",
-      "downloadPath": "skills/google-workspace-cli/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/safety-checklist.md"
+      "path": "quotas.md",
+      "downloadPath": "skills/google-workspace-cli/quotas.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/quotas.md"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-workspace-cli/setup.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/setup.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/google-workspace-cli/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/SKILL.md"
     },
     {
       "path": "troubleshooting.md",

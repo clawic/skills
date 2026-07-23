@@ -3430,11 +3430,11 @@
     },
     {
       "slug": "google-workspace-cli",
-      "name": "Google Workspace CLI",
-      "description": "Operate Google Workspace from one CLI using dynamic API discovery, secure OAuth flows, and agent-ready automation patterns for Drive and Gmail.",
-      "version": "1.0.2",
+      "name": "google-workspace-cli",
+      "description": "Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK \u2014 bulk mail search and send, file sharing and export, event, user, and group management \u2014 when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/google-workspace-cli",
-      "summary": "Setup On first activation, read `setup.md` and lock integration boundaries before running any write command. When to Use User needs direct CLI control of Google Workspace APIs with reliable JSON output, schema introspect",
+      "summary": "All persistent data for this skill lives in `~/Clawic/data/google-workspace-cli/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/google-workspace-cli/` or `~",
       "repositoryPath": "skills/google-workspace-cli",
       "manifestPath": "registry/skills/google-workspace-cli.json"
     },

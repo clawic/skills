@@ -1,15 +1,15 @@
-# Auth Playbook - Google Workspace CLI
+# Auth Playbook — Accounts, Scopes, and Service Accounts
 
 ## Recommended Auth Paths
 
-- Local desktop: `gws auth setup` then `gws auth login`
+- Local desktop: `gws auth setup` then `gws auth login` (`gcloud` recommended for setup)
 - Existing project control: manual OAuth client + `gws auth login`
-- CI/headless: inject a dedicated credentials file from a secure secret manager at runtime — never bake tokens into images or repos
+- CI/headless: inject a dedicated credentials file from a secure secret manager at runtime — never bake tokens into images or repos; preflight checks for unattended runs in `automation.md`
 - Server-to-server: service account credentials file with domain-wide delegation and impersonation
 
 ## OAuth Client Lifecycle (the failure nobody diagnoses)
 
-- An OAuth client in **Testing** publishing status issues refresh tokens that expire after 7 days, and its test-user list caps at 100 users (documented Google OAuth policy).
+- An OAuth client in **Testing** publishing status issues refresh tokens that expire after 7 days, with 100 test users max (documented Google OAuth policy).
 - Symptom signature: logins that die weekly with `invalid_grant`. The fix is not "log in again" — move the client to Production status (the unverified-app warning is cosmetic for your own internal use) or accept weekly re-auth deliberately.
 - Restricted scopes (full Gmail, full Drive) on a **published** client trigger Google's verification/security-assessment pipeline. For personal/internal tooling, staying unverified is normal; for distributed apps, budget for review before choosing restricted scopes.
 
@@ -46,6 +46,7 @@ Scopes are tiered; pick the narrowest tier that can actually complete the task:
 | Send mail only | `gmail.send` | Cannot read the mailbox |
 | Read/label/trash mail | `gmail.modify` | Cannot permanently delete |
 | Permanent delete (`messages.delete`, `batchDelete`) | `https://mail.google.com/` | Full scope is the documented requirement here, not a smell — `gmail.modify` cannot do it |
+| Read-only audit work (Directory, Reports) | `.readonly` admin scope variants | Token physically cannot mutate — the right shape for investigations (`admin.md`) |
 
 - Expand with explicit `--scopes` only when a method requires it; record the expansion in `memory.md` scope profiles.
 - Contrarian but defensible: when the workflow genuinely needs permanent deletion, requesting full Gmail scope up front beats a mid-task re-consent loop — narrow-by-default is a heuristic, not dogma.
