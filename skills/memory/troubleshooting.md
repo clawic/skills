@@ -11,8 +11,8 @@
 | Cause | Check | Fix |
 |-------|-------|-----|
 | Not indexed | `grep -l "topic" ~/memory/*/INDEX.md` | Add to relevant INDEX |
-| Wrong category | Check other categories | Move to correct place |
-| Search too narrow | Try different keywords | Add keywords to file header |
+| Wrong category | Check other categories and `inbox/` | Move to correct place |
+| Vocabulary mismatch | Try 2-3 keyword variants (nickname, codename, abbreviation) | Add the missed term to the file's `Keywords:` line so the same search never misses twice |
 | In built-in, not here | Check agent's MEMORY.md | Sync if needed |
 
 **Quick search:**
@@ -37,7 +37,7 @@ grep -r "keyword" ~/memory/*/INDEX.md
 1. **Check index sizes:**
 ```bash
 wc -l ~/memory/*/INDEX.md
-# Any over 100 lines? Split them.
+# Line count ≈ entry count. Over 100 entries? Split (SKILL.md Rule 6).
 ```
 
 2. **Split large categories:**
@@ -115,7 +115,7 @@ mkdir ~/memory/inbox
 
 1. **Check sync is enabled:**
 ```bash
-cat ~/memory/config.md | grep sync
+grep sync ~/memory/config.md
 ```
 
 2. **Manual sync:**
@@ -125,6 +125,22 @@ cat ~/memory/config.md | grep sync
    - Update ~/memory/sync/INDEX.md with date
 
 3. **Remember:** Sync is manual, not automatic. Re-sync periodically.
+
+---
+
+## Recall Returns Outdated Facts
+
+**Symptoms:**
+- Agent states an old fact as current ("Alice is at Acme" — she left last year)
+
+**Fixes:**
+
+1. **Date-stamp check:** undated entries can't be judged stale — add `YYYY-MM-DD` to every entry (SKILL.md Rule 4)
+2. **Delete, don't archive:** wrong facts get deleted; only old-but-true content is archived — archived wrong facts resurface as truth
+3. **Duplicate hunt:** if a fact was updated in one file but recalled from another, two copies exist. Keep one canonical home, convert the rest to links (SKILL.md Rule 5):
+```bash
+grep -ril "the-fact-keyword" ~/memory/ | head -5
+```
 
 ---
 
@@ -156,8 +172,8 @@ for f in ~/memory/projects/*.md; do
   grep -q "$name" ~/memory/projects/INDEX.md || echo "Not indexed: $name"
 done
 
-# Check for dead links
-grep -oE '[a-z]+\.md' ~/memory/projects/INDEX.md | while read f; do
+# Check for dead links (slugs may contain digits and hyphens)
+grep -oE '[a-z0-9-]+\.md' ~/memory/projects/INDEX.md | while read f; do
   [ ! -f ~/memory/projects/"$f" ] && echo "Missing: $f"
 done
 ```

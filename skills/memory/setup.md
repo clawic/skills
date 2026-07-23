@@ -1,95 +1,53 @@
 # Setup — Memory
 
-Read this on first use. Guide the user through setting up their personal memory system.
+Read this on first use, when `~/memory/` doesn't exist yet. Guide the user through a short conversation, then create the structure and prove it works with one real entry.
 
-## Your Attitude
-
-You're giving them superpowers. Infinite memory, perfectly organized, for anything they want. This is exciting — help them see the possibilities.
-
-**Important:** This is SEPARATE from built-in agent memory. It's a parallel system that complements what already exists.
+**Boundary first:** this system is SEPARATE from built-in agent memory. Built-in keeps working untouched; this adds parallel, organized, unlimited storage.
 
 ## The Conversation
 
 ### 1. Explain What This Is
 
-"I can set up an infinite memory system for you — separate from my basic memory. It's for anything you want to store long-term: projects, people, decisions, knowledge, collections... whatever matters to you.
-
-It won't interfere with how I normally remember things. This is additional, organized storage that scales as big as you need."
+"I can set up an organized memory system for you — separate from my built-in memory. It's for anything you want stored long-term: projects, people, decisions, knowledge, collections. It won't change how I normally remember things; it's additional storage that scales as big as you need."
 
 ### 2. Ask What They Need
 
-"What kinds of things would be most useful to have perfectly organized?
+"What would be most useful to have perfectly organized?
 
-Some examples people use:
-- **Projects** — full history, decisions, context for each project
+- **Projects** — full history, decisions, context per project
 - **People** — detailed profiles of everyone you work with
-- **Decisions** — why you chose X over Y, so you remember later
+- **Decisions** — why you chose X over Y, findable later
 - **Knowledge** — things you're learning, reference material
 - **Collections** — books, recipes, ideas, anything you collect"
 
-Let them tell you. Don't assume.
+Let them answer; don't assume. Create only the categories they actually name — 2-3 is a normal start. Empty categories created "just in case" rot (SKILL.md Rule 2); more emerge later from inbox sorting.
+
+If several categories map to one profession ("clients, deals, competitors"), suggest the domain-focused layout — `patterns.md`, Pattern 2.
 
 ### 3. Ask About Sync
 
-"My built-in memory already tracks some things. Would you like me to sync any of that into this new system?
+"My built-in memory already tracks some things. Want me to copy any of it into this system — preferences, key decisions, key contacts? Or start fresh?"
 
-For example, I could copy:
-- Preferences you've told me
-- Important decisions we've made
-- Key contacts
-
-Or we can start fresh and only add new things."
+Sync is one-way and manual (SKILL.md Rule 8). Default to starting fresh; sync only what they'll want deeply structured.
 
 ### 4. Create the Structure
 
-Based on their answers, create `~/memory/` with:
-- `config.md` — their preferences
-- `INDEX.md` — root index
-- Folders for each category they mentioned
-- INDEX.md in each folder
+Create `~/memory/` with:
+- `config.md` — their answers (template: `memory-template.md`)
+- `INDEX.md` — root index (template: `memory-template.md`)
+- One folder per named category, each with its own INDEX.md
 
-### 5. First Entry
+### 5. First Entry — Prove It Works
 
 Ask: "What's something you'd like me to remember right now?"
 
-Store it immediately. Show them it works.
+Store it immediately: write the entry file, date-stamp it, add it to the category INDEX, then show them where it lives. The demo *is* the training — they see the write happen before the reply.
 
-## What You're Saving
+## When Done
 
-**In ~/memory/config.md:**
-```markdown
-# Memory Config
+The system is live once:
+1. `~/memory/` exists with their categories
+2. Every folder has an INDEX.md
+3. One real thing is stored and indexed
 
-Created: YYYY-MM-DD
-Sync from built-in: [yes/no]
-
-## Categories
-- projects/
-- people/
-- [whatever they said]
-
-## Preferences
-- [How they want to find things]
-- [How often to organize]
-```
-
-**In ~/memory/INDEX.md:**
-```markdown
-# Memory Index
-
-| Category | Description | Index |
-|----------|-------------|-------|
-| Projects | Project histories | projects/INDEX.md |
-| People | Contact network | people/INDEX.md |
-
-Last updated: YYYY-MM-DD
-```
-
-## When "Done"
-
-Once you've:
-1. Created ~/memory/ with their categories
-2. Set up INDEX.md files
-3. Stored one real thing
-
-...the system is live. It grows from there through normal use.
+It grows from there through normal use — every durable fact the user shares gets written before you reply (SKILL.md Rule 3).

@@ -67,6 +67,8 @@ Active: 5 | Paused: 3 | Archived: 20
 ```markdown
 # Project: [Name]
 
+**Keywords:** [codename, client name, tech stack, aliases the user says]
+
 ## Overview
 Status: active | paused | complete
 Started: YYYY-MM-DD
@@ -119,6 +121,8 @@ Total: 45 contacts
 **Entry: `~/memory/people/{name}.md`**
 ```markdown
 # [Name]
+
+**Keywords:** [nickname, role, company, shared projects]
 
 ## Basic Info
 Role: 
@@ -275,9 +279,12 @@ Note: This is one-way sync. Built-in memory is not modified.
 
 | Index Type | Max Entries | When Exceeded |
 |------------|-------------|---------------|
-| Root INDEX.md | 20 categories | Unlikely, OK |
-| Category INDEX.md | 100 items | Split into subcategories |
-| Subcategory INDEX.md | 100 items | Split again |
+| Root INDEX.md | 20 categories | More usually means categories overlap — merge before splitting |
+| Category INDEX.md | 100 entries | Split into subcategories (SKILL.md Rule 6) |
+| Subcategory INDEX.md | 100 entries | Split again — each ≤100 level multiplies capacity ×100 |
+| Archive INDEX.md | No limit | Rarely read; off the hot path |
+
+Split along the axis you retrieve by (status, relationship, year) — `patterns.md`, Pattern 5.
 
 **Splitting example:**
 ```

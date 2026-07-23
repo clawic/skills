@@ -1,8 +1,20 @@
 # Organization Patterns
 
-## Pattern 1: Category-Based Structure
+Choosing a layout:
 
-Most common. Organize by type of information:
+| User profile | Pattern |
+|--------------|---------|
+| Mixed work + personal, several domains | 1. Category-based |
+| One profession dominates everything | 2. Domain-focused |
+| Mostly journaling / event logging | 3. Time-based |
+| Strong current-vs-historical divide | 4. Hybrid |
+| Unsure | Default: category-based. Restructuring later is `mv` + index updates, not a migration — don't over-deliberate. |
+
+---
+
+## Pattern 1: Category-Based (default)
+
+Organize by type of information:
 
 ```
 ~/memory/
@@ -13,13 +25,14 @@ Most common. Organize by type of information:
 └── collections/
 ```
 
-**Best for:** General use, multiple domains.
+**Best for:** general use, multiple domains.
+**Trap:** creating the full taxonomy on day one. Empty categories rot and teach the user the system is dead weight. Create each folder when its first item arrives (SKILL.md Rule 2).
 
 ---
 
-## Pattern 2: Domain-Focused Structure
+## Pattern 2: Domain-Focused
 
-Everything organized around one domain:
+Everything organized around one profession:
 
 ```
 ~/memory/
@@ -30,30 +43,27 @@ Everything organized around one domain:
 └── market-research/
 ```
 
-**Best for:** Professionals focused on one area (sales, research, etc).
+**Best for:** one dominant domain (sales, research, consulting).
+**Trap:** personal items forced into work folders become unfindable. Keep one `personal/` category as pressure valve.
 
 ---
 
-## Pattern 3: Time-Based Structure
-
-Organized by when things happened:
+## Pattern 3: Time-Based
 
 ```
 ~/memory/
 ├── 2026/
 │   ├── q1/
 │   └── q2/
-├── 2025/
 └── archive/
 ```
 
-**Best for:** Journaling, logging, historical tracking.
+**Best for:** journaling and event logs only.
+**Trap:** reference facts filed by date are unfindable — recall works by *subject*, not by *when*. "What did I decide about the database?" dies in a quarter folder. Events by date; facts by subject. Mixed needs → Pattern 4.
 
 ---
 
-## Pattern 4: Hybrid Structure
-
-Mix of categories and time:
+## Pattern 4: Hybrid
 
 ```
 ~/memory/
@@ -64,80 +74,69 @@ Mix of categories and time:
 │   ├── knowledge/
 │   └── preferences/
 └── archive/          # Historical
-    ├── 2025/
-    └── 2024/
+    └── 2025/
 ```
 
-**Best for:** People who need both current and historical context.
+**Best for:** heavy users who query current and historical context differently.
+**Cost:** every item now has two placement questions (which category? which zone?). Only worth it once flat categories feel crowded — not as a starting layout.
 
 ---
 
 ## Pattern 5: Growing a Category
 
-When a category gets big, split it:
+Split at 100 index entries (SKILL.md Rule 6). Split along the axis you *retrieve* by, not alphabetically:
 
-**Before (100+ entries):**
-```
-~/memory/projects/INDEX.md  # Too long
-```
+| Category | Natural split axis |
+|----------|--------------------|
+| projects | status: `active/`, `paused/`, `archived/` |
+| people | relationship: `work/`, `clients/`, `personal/` |
+| decisions | year: `2026/`, `2025/` |
+| knowledge | topic: `ml/`, `finance/` |
 
-**After (split by status):**
 ```
 ~/memory/projects/
 ├── INDEX.md          # Just points to subdirs
 ├── active/
 │   └── INDEX.md      # 20 entries
-├── paused/
-│   └── INDEX.md      # 15 entries
 └── archived/
-    └── INDEX.md      # 100+ entries (OK, rarely accessed)
+    └── INDEX.md      # 120 entries — acceptable: rarely read, off the hot path
 ```
+
+An archive index may exceed 100 entries: it's scanned rarely, so the limit that protects everyday lookups doesn't apply.
 
 ---
 
 ## Pattern 6: Syncing from Built-In Memory
 
-If user wants to copy info from agent's built-in memory:
-
 ```
 ~/memory/sync/
-├── INDEX.md
-├── preferences.md    # Copied from MEMORY.md
-└── key-decisions.md  # Copied from MEMORY.md
+├── INDEX.md          # what was synced, from where, when
+├── preferences.md
+└── key-decisions.md
 ```
 
-**Sync process:**
-1. Read from built-in (MEMORY.md, etc)
-2. Reformat for this system
-3. Write to ~/memory/sync/
-4. Update ~/memory/sync/INDEX.md with sync date
+**Process:** read built-in (MEMORY.md, etc.) → reformat for this system → write to `sync/` → record sync date in `sync/INDEX.md`.
 
-**Never modify built-in memory.** Sync is read-only.
+One-way and manual (SKILL.md Rule 8). Sync only what needs deep structure here — built-in already answers its own quick queries; mass copying just creates divergence.
 
 ---
 
 ## Pattern 7: Quick Capture → Organize Later
 
-For fast entry without thinking about structure:
-
 ```
 ~/memory/
-├── inbox/
-│   └── INDEX.md      # Unsorted items
+├── inbox/            # Unsorted, capture-first
 ├── projects/
 └── ...
 ```
 
-**Flow:**
-1. Capture to inbox/ immediately
-2. Weekly: sort inbox/ into proper categories
-3. Delete from inbox/ after sorting
+Capture cost must be near zero: if filing requires thought, inbox it — a fact in the wrong folder beats a fact never written. Sort weekly; delete from inbox after filing.
+
+**Signal:** if inbox sorting keeps getting skipped because items "have no home", the category set is wrong — the pile is telling you which category to create.
 
 ---
 
 ## Pattern 8: Cross-References
-
-When items relate to multiple categories:
 
 ```markdown
 # ~/memory/projects/alpha.md
@@ -150,25 +149,19 @@ When items relate to multiple categories:
 - Database choice → see decisions/2026.md#database-alpha
 ```
 
-**Use relative links.** Never duplicate content.
+**Direction rule:** a fact lives in the file it's most *about* (Alice's phone → `people/alice.md`, even if learned during project Alpha); everything else links. Updates hit the canonical file and every link stays true. Never paste content across files (SKILL.md Rule 5).
 
 ---
 
-## Pattern 9: Archiving Old Content
+## Pattern 9: Archiving
 
-When content is old but might be needed:
+Archive on terminal status — completed, cancelled, went inactive:
 
-**Don't delete. Archive:**
 ```bash
-# Move to archive
 mv ~/memory/projects/old-thing.md ~/memory/archive/projects/
-
-# Update indices
-# 1. Remove from projects/INDEX.md
-# 2. Add to archive/INDEX.md
+# then: remove from projects/INDEX.md, add to archive/INDEX.md
 ```
 
-**Archive INDEX.md:**
 ```markdown
 # Archive
 
@@ -177,21 +170,18 @@ mv ~/memory/projects/old-thing.md ~/memory/archive/projects/
 | OldProject | project | 2026-01 | Completed |
 ```
 
+Archive vs. delete: archive old-but-**true** content; delete content that's no longer true — an archived wrong fact resurfaces as truth later (SKILL.md, Maintenance).
+
 ---
 
 ## Pattern 10: Search Optimization
-
-Make content findable with good keywords:
 
 ```markdown
 # ~/memory/people/alice.md
 
 # Alice Smith
 
-**Keywords:** PM, product manager, Acme Corp, alpha project, weekly sync
-
-## Profile
-...
+**Keywords:** PM, product manager, Acme, alpha project, Ali, weekly sync
 ```
 
-When searching, keywords at top help grep/semantic search find the right file.
+Why: grep matches the words used at *write* time, but recall happens in *today's* words. The Keywords line bridges that gap — load it with aliases the user actually says: nicknames ("Ali"), codenames ("Project X"), abbreviations, old company names. When a search misses and the file is later found, add the missed term to its Keywords line so the same search never misses twice.
