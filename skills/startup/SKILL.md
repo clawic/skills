@@ -1,12 +1,12 @@
 ---
 name: startup
 slug: startup
-version: 1.0.1
+version: 1.0.2
 description: >-
   Orchestrates startup work: routes tasks to specialized agents and applies stage-appropriate priorities.
   Use when advising founders on product-market fit, growth, hiring, fundraising, runway, or burn decisions.
 homepage: https://clawic.com/skills/startup
-changelog: Deeper stage-by-stage operating heuristics
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🦄
@@ -16,12 +16,12 @@ metadata:
     - win32
     displayName: Startup
     configPaths:
-    - ~/clawic/startup/
+    - ~/Clawic/data/startup/
 ---
 
 # Startup Orchestration
 
-Two modes: **orchestrate** (spawn function agents and synthesize their outputs) and **advise** (stage-appropriate guidance to a founder). User data (stage, business model, runway) lives in `~/clawic/startup/` — `config.yaml` plus `memory.md`. If you have data at the old `~/startup/` location, move it to `~/clawic/startup/`.
+Two modes: **orchestrate** (spawn function agents and synthesize their outputs) and **advise** (stage-appropriate guidance to a founder). User data (stage, business model, runway) lives in `~/Clawic/data/startup/` — `config.yaml` plus `memory.md`. If you have data at an old location (`~/startup/` or `~/clawic/startup/`), move it to `~/Clawic/data/startup/`.
 
 ## When To Use
 
@@ -118,7 +118,7 @@ Before emitting advice or synthesized output:
 
 ## Configuration
 
-User-dependent variables. Defaults apply until the user states a preference; store them in `~/clawic/startup/config.yaml`.
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/startup/config.yaml`.
 
 | Variable | Type | Default | Effect |
 |---|---|---|---|

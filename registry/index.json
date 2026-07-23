@@ -7137,10 +7137,11 @@
     },
     {
       "slug": "startup",
-      "name": "Startup",
-      "description": "Orchestrate startup work by spawning specialized agents and applying stage-appropriate priorities.",
-      "version": "1.0.1",
-      "summary": "Startup Orchestration How to Work When the user requests help, spawn specialized agents for each function: - Product decisions \u2192 product manager agent - Code/technical \u2192 developer or engineer agent - Design/UX \u2192 designer",
+      "name": "startup",
+      "description": "Orchestrates startup work: routes tasks to specialized agents and applies stage-appropriate priorities. Use when advising founders on product-market fit, growth, hiring, fundraising, runway, or burn decisions.",
+      "version": "1.0.2",
+      "homepage": "https://clawic.com/skills/startup",
+      "summary": "Startup Orchestration Two modes: **orchestrate** (spawn function agents and synthesize their outputs) and **advise** (stage-appropriate guidance to a founder). User data (stage, business model, runway) lives in `~/Clawic",
       "repositoryPath": "skills/startup",
       "manifestPath": "registry/skills/startup.json"
     },

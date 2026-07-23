@@ -11,23 +11,23 @@
   "skill": {
     "slug": "startup",
     "name": "startup",
-    "description": "Orchestrate startup work by spawning specialized agents and applying stage-appropriate priorities.",
-    "version": "1.0.1",
+    "description": "Orchestrates startup work: routes tasks to specialized agents and applies stage-appropriate priorities. Use when advising founders on product-market fit, growth, hiring, fundraising, runway, or burn decisions.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/startup",
-    "summary": "Startup Orchestration How to Work When the user requests help, spawn specialized agents for each function: - Product decisions → product manager agent - Code/technical → developer or engineer agent - Design/UX → designer",
+    "summary": "Startup Orchestration Two modes: **orchestrate** (spawn function agents and synthesize their outputs) and **advise** (stage-appropriate guidance to a founder). User data (stage, business model, runway) lives in `~/Clawic",
     "repositoryPath": "skills/startup",
     "manifestPath": "registry/skills/startup.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/startup/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/_meta.json"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/startup/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/startup/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/_meta.json"
     }
   ]
 }
