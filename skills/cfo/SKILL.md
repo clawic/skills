@@ -1,13 +1,13 @@
 ---
 name: cfo
 slug: cfo
-version: 1.0.4
+version: 1.0.5
 description: >-
   Operates as a chief financial officer: cash forecasting, runway, fundraising,
   capital allocation, and board reporting. Use when acting as CFO or advising
   founders on burn, raising capital, or financial operations.
 homepage: https://clawic.com/skills/cfo
-changelog: Deeper finance heuristics and benchmarks
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 💰

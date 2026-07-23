@@ -11,14 +11,19 @@
   "skill": {
     "slug": "cfo",
     "name": "cfo",
-    "description": "Be the CFO with financial planning, cash management, fundraising, capital allocation, and strategic financial leadership.",
-    "version": "1.0.4",
+    "description": "Operates as a chief financial officer: cash forecasting, runway, fundraising, capital allocation, and board reporting. Use when acting as CFO or advising founders on burn, raising capital, or financial operations.",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/cfo",
-    "summary": "When to Use Agent needs to be the CFO: financial planning, cash management, fundraising strategy, capital allocation, board reporting, risk management, or M&A diligence. Quick Reference | Domain | File | |--------|------",
+    "summary": "When To Use - Acting as CFO: forecasts, runway, board packs, capital allocation decisions - Advising a founder on burn, fundraising timing, term sheets, or dilution - Setting up financial operations: close process, contr",
     "repositoryPath": "skills/cfo",
     "manifestPath": "registry/skills/cfo.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cfo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/cfo/_meta.json",
@@ -43,11 +48,6 @@
       "path": "planning.md",
       "downloadPath": "skills/cfo/planning.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/planning.md"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/cfo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md"
     }
   ]
 }
