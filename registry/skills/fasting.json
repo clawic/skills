@@ -11,18 +11,38 @@
   "skill": {
     "slug": "fasting",
     "name": "fasting",
-    "description": "Tracks intermittent fasting, extended fasts, and eating windows with fasting-stage timing and safety thresholds. Use when logging fasts, planning 16:8 or OMAD, or breaking a fast.",
-    "version": "1.0.2",
+    "description": "Tracks intermittent fasting and extended fasts: logs start and break times, computes elapsed hours, fasting stages, and eating windows. Use when the user starts, breaks, or checks a fast, plans 16:8, 18:6, OMAD, 5:2, alternate-day, time-restricted eating, or multi-day water fasts, asks whether coffee, sweeteners, gum, or supplements break a fast, or when ketosis or autophagy starts, reports headaches, dizziness, hunger waves, or insomnia while fasting, needs electrolyte or refeeding guidance past 24h, checks fasting against medications, diabetes, or the menstrual cycle, observes Ramadan or another religious fast, trains fasted, hits a weight-loss plateau, or interprets glucose and ketone readings.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/fasting",
-    "summary": "When To Use State lives at `~/clawic/fasting/memory.md` (protocol, window, streak, symptom timing). Only write on an explicit user signal; never infer a fast from silence. Mode: **act-as** (you log fasts and compute elap",
+    "summary": "User preferences and fast state live in `~/Clawic/data/fasting/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/fasting/` or `~/clawic/fasting/`), move it",
     "repositoryPath": "skills/fasting",
     "manifestPath": "registry/skills/fasting.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fasting/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/fasting/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/_meta.json"
+    },
+    {
+      "path": "extended.md",
+      "downloadPath": "skills/fasting/extended.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/extended.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/fasting/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/memory-template.md"
+    },
+    {
+      "path": "metrics.md",
+      "downloadPath": "skills/fasting/metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/metrics.md"
     },
     {
       "path": "protocols.md",
@@ -30,14 +50,49 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/protocols.md"
     },
     {
+      "path": "refeeding.md",
+      "downloadPath": "skills/fasting/refeeding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/refeeding.md"
+    },
+    {
+      "path": "religious.md",
+      "downloadPath": "skills/fasting/religious.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/religious.md"
+    },
+    {
       "path": "safety.md",
       "downloadPath": "skills/fasting/safety.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/safety.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/fasting/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/SKILL.md"
+      "path": "setup.md",
+      "downloadPath": "skills/fasting/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/setup.md"
+    },
+    {
+      "path": "symptoms.md",
+      "downloadPath": "skills/fasting/symptoms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/symptoms.md"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/fasting/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/tracking.md"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/fasting/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/training.md"
+    },
+    {
+      "path": "weight-loss.md",
+      "downloadPath": "skills/fasting/weight-loss.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/weight-loss.md"
+    },
+    {
+      "path": "women.md",
+      "downloadPath": "skills/fasting/women.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fasting/women.md"
     }
   ]
 }
