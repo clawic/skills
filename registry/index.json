@@ -4241,6 +4241,7 @@
       "slug": "k8s",
       "name": "Kubernetes",
       "description": "Avoid common Kubernetes mistakes — resource limits, probe configuration, selector mismatches, and RBAC pitfalls.",
+      "version": "1.0.1",
       "summary": "Resource Management - `requests` = guaranteed minimum — scheduler uses this for placement - `limits` = maximum allowed — exceeding memory = OOMKilled, CPU = throttled - No limits = can consume entire node — always set pr",
       "repositoryPath": "skills/k8s",
       "manifestPath": "registry/skills/k8s.json"
