@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +10,11 @@
   },
   "skill": {
     "slug": "studying",
-    "name": "Studying",
-    "description": "Auto-learns your study habits for academic success. Adapts techniques, timing, and materials to you.",
-    "version": "1.0.1",
-    "summary": "Auto-Adaptive Study Preferences This skill auto-evolves. User preferences persist in `~/studying/memory.md`. Create on first use: ```markdown Techniques <!-- Study methods that work. Format: \"method: context (level)\" -->",
+    "name": "studying",
+    "description": "Plans and runs studying with retrieval practice, spaced review formulas, and exam countdown protocols. Use when a user prepares for courses, tests, or certifications, asks how to memorize material, or wants a revision schedule. Learns which techniques work for this student and persists them across sessions.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/studying",
+    "summary": "Session history and per-student preferences persist in `~/clawic/studying/memory.md` (create on first use, see Preference Memory). When To Use - A user has an exam, test, or certification on a date and needs a plan to ge",
     "repositoryPath": "skills/studying",
     "manifestPath": "registry/skills/studying.json"
   },
