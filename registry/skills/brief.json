@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "generatedAt": "2026-07-23T09:03:09.464Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +10,10 @@
   },
   "skill": {
     "slug": "brief",
-    "name": "Brief",
+    "name": "brief",
     "description": "Condense information into actionable briefings. User specifies sources, skill structures the output.",
-    "version": "1.0.1",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/brief",
     "summary": "Data Storage ``` ~/brief/ ├── preferences.md # Learned format preferences └── templates/ # Custom brief templates ``` Create on first use: `mkdir -p ~/brief/templates` Scope This skill: - ✅ Structures information user pr",
     "repositoryPath": "skills/brief",
     "manifestPath": "registry/skills/brief.json"

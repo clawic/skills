@@ -1,12 +1,14 @@
 # Brief Preferences
 
-Auto-evolving user preferences for briefings. Edit as you learn.
+Learned format preferences, updated from explicit feedback only. One preference per line, each tagged with a level.
 
 **Rules:**
-- Observe what briefs land vs miss
-- After 2+ signals, mark as `pattern`
-- Confirm explicitly before marking `confirmed`
-- Reinforce to `locked` only after repeated positive signals
+- Record only explicit signals ("too long", "where are the numbers?") — never inferences from silence
+- 2+ consistent signals → mark `pattern`
+- Explicit user approval → `confirmed`; never promote silently
+- `locked` only after a confirmed preference is reinforced across multiple briefs
+- One contradicting signal demotes a `pattern`; a contradicted `confirmed` → ask, never flip silently
+- Signal-to-dimension mapping and full level rules: `dimensions.md`
 
 ---
 
@@ -48,4 +50,4 @@ Different brief types may have different preferences:
 
 ---
 
-*Empty sections = defaults apply. Observe and evolve.*
+*Empty sections = defaults apply. Check this file before writing any brief.*
