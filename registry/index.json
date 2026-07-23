@@ -7223,10 +7223,11 @@
     },
     {
       "slug": "studying",
-      "name": "Studying",
-      "description": "Auto-learns your study habits for academic success. Adapts techniques, timing, and materials to you.",
-      "version": "1.0.2",
-      "summary": "Auto-Adaptive Study Preferences This skill auto-evolves. User preferences persist in `~/studying/memory.md`. Create on first use: ```markdown Techniques <!-- Study methods that work. Format: \"method: context (level)\" -->",
+      "name": "studying",
+      "description": "Plans study schedules and runs study sessions with retrieval practice, spaced review, and exam countdown protocols. Use when a student prepares for an exam, midterm, final, or certification, asks how to study, revise, memorize, or cram, says they studied hard but forgot everything, failed or blanked on a practice test, cannot focus or keeps procrastinating, or is juggling several courses before test week. Covers technique choice, weekly planning, note-taking, problem practice, essay prep, and test-day strategy, and persists what works for this student across sessions. Not for producing flashcard decks or practice tests themselves.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/studying",
+      "summary": "User preferences and session history persist in `~/Clawic/data/studying/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/studying/` or `~/clawic/studying/",
       "repositoryPath": "skills/studying",
       "manifestPath": "registry/skills/studying.json"
     },

@@ -11,33 +11,83 @@
   "skill": {
     "slug": "studying",
     "name": "studying",
-    "description": "Plans and runs studying with retrieval practice, spaced review formulas, and exam countdown protocols. Use when a user prepares for courses, tests, or certifications, asks how to memorize material, or wants a revision schedule. Learns which techniques work for this student and persists them across sessions.",
-    "version": "1.0.2",
+    "description": "Plans study schedules and runs study sessions with retrieval practice, spaced review, and exam countdown protocols. Use when a student prepares for an exam, midterm, final, or certification, asks how to study, revise, memorize, or cram, says they studied hard but forgot everything, failed or blanked on a practice test, cannot focus or keeps procrastinating, or is juggling several courses before test week. Covers technique choice, weekly planning, note-taking, problem practice, essay prep, and test-day strategy, and persists what works for this student across sessions. Not for producing flashcard decks or practice tests themselves.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/studying",
-    "summary": "Session history and per-student preferences persist in `~/clawic/studying/memory.md` (create on first use, see Preference Memory). When To Use - A user has an exam, test, or certification on a date and needs a plan to ge",
+    "summary": "User preferences and session history persist in `~/Clawic/data/studying/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/studying/` or `~/clawic/studying/",
     "repositoryPath": "skills/studying",
     "manifestPath": "registry/skills/studying.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/studying/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/studying/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/_meta.json"
     },
     {
-      "path": "criteria.md",
-      "downloadPath": "skills/studying/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/criteria.md"
+      "path": "certifications.md",
+      "downloadPath": "skills/studying/certifications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/certifications.md"
     },
     {
-      "path": "dimensions.md",
-      "downloadPath": "skills/studying/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/dimensions.md"
+      "path": "essays-and-reading.md",
+      "downloadPath": "skills/studying/essays-and-reading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/essays-and-reading.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/studying/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/SKILL.md"
+      "path": "exam-countdown.md",
+      "downloadPath": "skills/studying/exam-countdown.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/exam-countdown.md"
+    },
+    {
+      "path": "focus.md",
+      "downloadPath": "skills/studying/focus.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/focus.md"
+    },
+    {
+      "path": "memorization.md",
+      "downloadPath": "skills/studying/memorization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/memorization.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/studying/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/memory-template.md"
+    },
+    {
+      "path": "problem-subjects.md",
+      "downloadPath": "skills/studying/problem-subjects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/problem-subjects.md"
+    },
+    {
+      "path": "scheduling.md",
+      "downloadPath": "skills/studying/scheduling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/scheduling.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/studying/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/setup.md"
+    },
+    {
+      "path": "techniques.md",
+      "downloadPath": "skills/studying/techniques.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/techniques.md"
+    },
+    {
+      "path": "test-day.md",
+      "downloadPath": "skills/studying/test-day.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/test-day.md"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/studying/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/troubleshooting.md"
     }
   ]
 }
