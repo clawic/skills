@@ -78,16 +78,14 @@ Bangkok is one of the safest major cities in Southeast Asia for tourists and exp
 
 **Zero tolerance.**
 
-- **Possession**: Up to 10 years for marijuana (though enforcement relaxed since 2022 legalization)
-- **Trafficking**: Death penalty for hard drugs (heroin, meth, cocaine)
-- **Trace amounts**: Can result in arrest
+- **Trafficking**: Death penalty possible for hard drugs (heroin, meth, cocaine)
+- **Trace amounts**: Can result in arrest — parties get raided and urine-tested
 
-**2022 Cannabis Changes**:
-- Decriminalized for medical/wellness
-- Many cannabis shops opened
-- **Still technically regulated** — extracts over 0.2% THC are controlled
-- Don't assume it's fully legal like Amsterdam
-- Don't smoke in public
+**Cannabis (rules changed twice — verify current)**:
+- Decriminalized Jun 2022, shops opened everywhere
+- Re-restricted toward medical-prescription sales in 2025; recreational status in flux
+- Extracts over 0.2% THC remain controlled narcotics
+- Never smoke in public (fines) and never carry any amount across a border
 
 ### Vaping
 

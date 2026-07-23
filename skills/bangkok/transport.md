@@ -37,7 +37,7 @@ The backbone of Bangkok transit.
 ### Operations
 - **Hours**: 6:00 AM - midnight
 - **Frequency**: 3-5 min peak, 5-8 min off-peak
-- **Crowds**: Brutal at rush hour (7-9 AM, 5-7 PM)
+- **Crowds**: Brutal at rush hour (7-9 AM, 5-8 PM)
 
 ### Tickets
 
@@ -289,8 +289,8 @@ Your best friend for transport.
 ## Traffic Reality
 
 ### Rush Hours
-- **Morning**: 7-10 AM
-- **Evening**: 4-8 PM
+- **Morning**: 7-9 AM
+- **Evening**: 5-8 PM
 - **Friday evening**: Apocalyptic
 
 ### What 10 km Feels Like
