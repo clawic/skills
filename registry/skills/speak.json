@@ -11,33 +11,83 @@
   "skill": {
     "slug": "speak",
     "name": "speak",
-    "description": "Converts agent replies into natural spoken output for any TTS engine with text normalization, prosody control, and voice preference learning. Use when output will be read aloud, when writing for text to speech, or when the user corrects pronunciation, pacing, or voice choice.",
-    "version": "1.0.1",
+    "description": "Writes and converts text into natural speech-ready output for any TTS engine: normalization, prosody, pronunciation, and voice preferences. Use when a reply will be read aloud or sent to a voice channel, when writing voiceover scripts, spoken briefings, voice notifications, or dialogue turns, when TTS sounds robotic, reads markdown, URLs, or code aloud, mispronounces names, garbles numbers, dates, or acronyms, speaks too fast or in the wrong accent, or when the user corrects pronunciation, pacing, or voice choice. Not for speech-to-text or live two-way call setup.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/speak",
-    "summary": "Turns written agent replies into speech-ready text for any TTS engine and adapts voice, rate, and phrasing to the user over time. Learned preferences live in `~/clawic/speak/preferences.md`; the skill reads and writes on",
+    "summary": "Turns written replies into speech-ready text for any TTS engine and adapts voice, rate, and phrasing to the user over time. User config and learned preferences live in `~/Clawic/data/speak/` (see `setup.md` on first use,",
     "repositoryPath": "skills/speak",
     "manifestPath": "registry/skills/speak.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/speak/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/speak/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/_meta.json"
     },
     {
-      "path": "config.md",
-      "downloadPath": "skills/speak/config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/config.md"
+      "path": "audiences.md",
+      "downloadPath": "skills/speak/audiences.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/audiences.md"
     },
     {
-      "path": "criteria.md",
-      "downloadPath": "skills/speak/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/criteria.md"
+      "path": "debug.md",
+      "downloadPath": "skills/speak/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/debug.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/speak/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/SKILL.md"
+      "path": "dialogue.md",
+      "downloadPath": "skills/speak/dialogue.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/dialogue.md"
+    },
+    {
+      "path": "engines.md",
+      "downloadPath": "skills/speak/engines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/engines.md"
+    },
+    {
+      "path": "long-form.md",
+      "downloadPath": "skills/speak/long-form.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/long-form.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/speak/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/memory-template.md"
+    },
+    {
+      "path": "multilingual.md",
+      "downloadPath": "skills/speak/multilingual.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/multilingual.md"
+    },
+    {
+      "path": "normalization.md",
+      "downloadPath": "skills/speak/normalization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/normalization.md"
+    },
+    {
+      "path": "notifications.md",
+      "downloadPath": "skills/speak/notifications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/notifications.md"
+    },
+    {
+      "path": "pronunciation.md",
+      "downloadPath": "skills/speak/pronunciation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/pronunciation.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/speak/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/setup.md"
+    },
+    {
+      "path": "ssml.md",
+      "downloadPath": "skills/speak/ssml.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/ssml.md"
     }
   ]
 }
