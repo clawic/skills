@@ -1,6 +1,8 @@
 # Brief Templates
 
-Standard structures per brief type. User preferences in `~/brief/preferences.md` override everything here. On formal channels (exec email, external docs), keep the structure and replace emoji markers with plain headers.
+Standard structures per brief type. User config and preferences in `~/Clawic/data/brief/` override everything here. On formal channels (exec email, external docs), keep the structure and replace emoji markers with plain headers (`delivery.md`).
+
+Types: Executive · Project · Meeting · Handoff · Decision · Incident · Board · Research. Prose-memo variant at the end for narrative-memo cultures.
 
 ## Executive Brief
 
@@ -175,3 +177,97 @@ Principles:
 - Do-nothing is always an option and always has a price; presenting exactly two alternatives frames a false binary.
 - Mark the decision reversible or irreversible (two-way vs one-way door, Bezos): reversible + cheap → short brief, recommend and move; irreversible → fuller evidence, and say why the extra length is there.
 - A deadline without a consequence is a suggestion. State what expires.
+
+## Incident Brief
+
+Live status during an outage or crisis. Cadence beats completeness: a thin update on schedule beats a full update late.
+
+```
+🚨 INCIDENT: [Name] — Update #N — [Time + timezone]
+
+⚡ STATUS: [Investigating / Identified / Mitigating / Resolved]
+
+📉 IMPACT
+[Who/what is affected, in user terms — "checkout failing for EU users",
+never "pod restarts in cluster B"]
+
+🔎 WHAT WE KNOW
+• [Fact — timestamped. Facts only.]
+
+🛠️ WHAT WE'RE DOING
+• [Current action] — [owner]
+
+⏰ NEXT UPDATE: [Committed time — send it even if nothing changed]
+```
+
+Principles:
+- Missing your committed next-update time is its own incident: readers assume the worst in silence.
+- Never speculate on cause in writing mid-incident — "under investigation" is a complete sentence; root cause belongs to the postmortem, not update #2.
+- Number the updates (#1, #2...) so late joiners know what they missed; keep every edition self-standing (impact restated, not "see above").
+- Resolved edition closes the loop: duration, final impact, where the postmortem will land.
+
+## Board Brief
+
+Periodic update to a board, investors, or steering group.
+
+```
+📋 BOARD UPDATE: [Company/Project] — [Period]
+
+⚡ HEADLINE
+[One sentence you would still stand behind next quarter]
+
+📊 METRICS vs PLAN
+[Each metric: actual, vs plan, vs prior period — same metrics,
+same order, every edition]
+
+⬇️ LOWLIGHTS
+• [What went wrong or is at risk — before highlights]
+
+⬆️ HIGHLIGHTS
+• [What worked]
+
+🎯 ASKS
+• [Specific: an intro, an approval, a decision — with a date]
+```
+
+Principles:
+- Lowlights before highlights: a board that discovers buried bad news discounts every future highlight you send.
+- The asks are the point — a board holds capital, connections, and sign-off; an update without asks wastes the one resource it offers.
+- Metric definitions stay constant across editions; a redefined metric is flagged in the line itself ("counting X differently as of this quarter").
+- Send with the agenda, days before the meeting, not hours (`delivery.md` timing).
+
+## Research Brief
+
+Findings that must become a decision — user research, market analysis, technical investigation.
+
+```
+📋 QUESTION: [What we needed to learn]
+
+⚡ ANSWER
+[Direct answer + confidence: high/medium/low, and what evidence
+would change it]
+
+🔍 KEY FINDINGS
+• [Finding — tagged (evidence) or (interpretation)]
+
+⚠️ CAVEATS
+[Sample size, staleness, method limits — only ones that could
+flip the answer]
+
+🎯 SO WHAT
+[The decision this enables or changes, and your recommendation]
+```
+
+Principles:
+- Evidence and interpretation never share a bullet: "7 of 9 users failed checkout (evidence); the flow is too long (interpretation)".
+- Confidence without "what would change it" is a vibe. Name the observation that would flip the answer.
+- Findings that don't touch the decision go to an appendix or die — a research brief is not a findings dump.
+
+## Prose-Memo Variant
+
+For narrative-memo cultures (silent group read before discussion). Same reverse-order content, rendered as prose:
+
+- Paragraph 1 = bottom line + ask. The memo must survive a reader who stops after it.
+- Paragraphs 2-4 = key points, one per paragraph, topic sentence first.
+- Context follows in SCQA order; headings optional, structure identical to the bullet version.
+- Length: same `default_length` budget — narrative is a rendering choice, not a license to run long.

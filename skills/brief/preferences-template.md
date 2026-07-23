@@ -1,6 +1,6 @@
-# Brief Preferences
+# Preferences Template — Brief
 
-Learned format preferences, updated from explicit feedback only. One preference per line, each tagged with a level.
+Create `~/Clawic/data/brief/preferences.md` with the structure below when the first feedback signal arrives. Learned format preferences only, updated from explicit feedback; one preference per line, each tagged with a level. Declared preferences do not belong here — they go to `config.yaml` (see `setup.md`).
 
 **Rules:**
 - Record only explicit signals ("too long", "where are the numbers?") — never inferences from silence

@@ -11,18 +11,33 @@
   "skill": {
     "slug": "brief",
     "name": "brief",
-    "description": "Condense information into actionable briefings. User specifies sources, skill structures the output.",
-    "version": "1.0.2",
+    "description": "Turns raw material into decision-ready briefs: executive summaries, status updates, meeting pre-reads, and decision documents. Use when asked to brief someone, write a TL;DR or weekly update, prepare a board, investor, or incident update, hand off a project, compare options with a recommendation, or condense a long report, thread, transcript, or doc pile into what the reader needs to act. Also when updates run long, readers skim past the point, or the lede keeps getting buried. Not for plain compression with no decision to serve, or for recurring digests pulled from external sources.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/brief",
-    "summary": "Data Storage ``` ~/brief/ ├── preferences.md # Learned format preferences └── templates/ # Custom brief templates ``` Create on first use: `mkdir -p ~/brief/templates` Scope This skill: - ✅ Structures information user pr",
+    "summary": "User configuration and learned preferences live in `~/Clawic/data/brief/` (see `setup.md` on first use, `preferences-template.md` for the learned-preferences file format). If you have data at an old location (`~/brief/` ",
     "repositoryPath": "skills/brief",
     "manifestPath": "registry/skills/brief.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/brief/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/brief/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/_meta.json"
+    },
+    {
+      "path": "audiences.md",
+      "downloadPath": "skills/brief/audiences.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/audiences.md"
+    },
+    {
+      "path": "delivery.md",
+      "downloadPath": "skills/brief/delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/delivery.md"
     },
     {
       "path": "dimensions.md",
@@ -30,19 +45,34 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/dimensions.md"
     },
     {
-      "path": "preferences.md",
-      "downloadPath": "skills/brief/preferences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/preferences.md"
+      "path": "preferences-template.md",
+      "downloadPath": "skills/brief/preferences-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/preferences-template.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/brief/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/SKILL.md"
+      "path": "recurring.md",
+      "downloadPath": "skills/brief/recurring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/recurring.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/brief/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/setup.md"
+    },
+    {
+      "path": "sources.md",
+      "downloadPath": "skills/brief/sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/sources.md"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/brief/templates.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/templates.md"
+    },
+    {
+      "path": "writing.md",
+      "downloadPath": "skills/brief/writing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/writing.md"
     }
   ]
 }

@@ -1105,10 +1105,11 @@
     },
     {
       "slug": "brief",
-      "name": "Brief",
-      "description": "Condense information into actionable briefings. User specifies sources, skill structures the output.",
-      "version": "1.0.2",
-      "summary": "Data Storage ``` ~/brief/ \u251c\u2500\u2500 preferences.md # Learned format preferences \u2514\u2500\u2500 templates/ # Custom brief templates ``` Create on first use: `mkdir -p ~/brief/templates` Scope This skill: - \u2705 Structures information user pr",
+      "name": "brief",
+      "description": "Turns raw material into decision-ready briefs: executive summaries, status updates, meeting pre-reads, and decision documents. Use when asked to brief someone, write a TL;DR or weekly update, prepare a board, investor, or incident update, hand off a project, compare options with a recommendation, or condense a long report, thread, transcript, or doc pile into what the reader needs to act. Also when updates run long, readers skim past the point, or the lede keeps getting buried. Not for plain compression with no decision to serve, or for recurring digests pulled from external sources.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/brief",
+      "summary": "User configuration and learned preferences live in `~/Clawic/data/brief/` (see `setup.md` on first use, `preferences-template.md` for the learned-preferences file format). If you have data at an old location (`~/brief/` ",
       "repositoryPath": "skills/brief",
       "manifestPath": "registry/skills/brief.json"
     },
