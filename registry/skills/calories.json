@@ -11,23 +11,78 @@
   "skill": {
     "slug": "calories",
     "name": "calories",
-    "description": "Tracks calories and macros from meal photos, text logs, and labels with honest error ranges, TDEE calibration, and eating disorder guardrails. Use when the user logs food, asks how many calories a meal has, wants a deficit or surplus target, or asks why the scale is not moving.",
-    "version": "1.0.2",
+    "description": "Tracks calories, macros, and weight trends from meal photos, text logs, and nutrition labels. Use when the user logs a meal or a drink, keeps a food diary, asks how many calories something has, wants a calorie or protein target for a cut, bulk, deficit, or maintenance, asks for their TDEE or maintenance calories, counts macros or carbs, reads a food label, asks whether to eat back exercise calories or workout burn, or asks why the scale is stuck, why they are not losing weight, or why it jumped overnight. Covers TDEE calibration from the user's own logs, restaurant, alcohol, and cheat-day estimates, plateaus and water weight, smart-scale body-fat readings, GLP-1 and medical guardrails, and eating disorder safety. Not for meal planning or recipes.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/calories",
-    "summary": "Persistent data lives in `~/clawic/calories/` (memory plus food library). Create the folder on first use; if a legacy `~/calories/memory.md` exists, migrate it there once. When To Use - User logs a meal by photo, text, o",
+    "summary": "User preferences, memory, and the food library live in `~/Clawic/data/calories/` (see `setup.md` on first use, `memory-template.md` for the file formats). If you have data at an old location (`~/calories/` or `~/clawic/c",
     "repositoryPath": "skills/calories",
     "manifestPath": "registry/skills/calories.json"
   },
   "files": [
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/calories/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/SKILL.md"
+    },
     {
       "path": "_meta.json",
       "downloadPath": "skills/calories/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/_meta.json"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/calories/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/SKILL.md"
+      "path": "calibration.md",
+      "downloadPath": "skills/calories/calibration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/calibration.md"
+    },
+    {
+      "path": "estimation.md",
+      "downloadPath": "skills/calories/estimation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/estimation.md"
+    },
+    {
+      "path": "exercise.md",
+      "downloadPath": "skills/calories/exercise.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/exercise.md"
+    },
+    {
+      "path": "labels.md",
+      "downloadPath": "skills/calories/labels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/labels.md"
+    },
+    {
+      "path": "maintenance.md",
+      "downloadPath": "skills/calories/maintenance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/maintenance.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/calories/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/memory-template.md"
+    },
+    {
+      "path": "restaurants.md",
+      "downloadPath": "skills/calories/restaurants.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/restaurants.md"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/calories/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/safety.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/calories/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/setup.md"
+    },
+    {
+      "path": "targets.md",
+      "downloadPath": "skills/calories/targets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/targets.md"
+    },
+    {
+      "path": "trend.md",
+      "downloadPath": "skills/calories/trend.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/trend.md"
     }
   ]
 }
