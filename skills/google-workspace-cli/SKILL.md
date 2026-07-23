@@ -1,11 +1,32 @@
 ---
-name: Google Workspace CLI
+name: google-workspace-cli
 slug: google-workspace-cli
-version: 1.0.0
-homepage: https://clawic.com/skills/google-workspace-cli
+version: 1.0.1
 description: Operate Google Workspace from one CLI using dynamic API discovery, secure OAuth flows, and agent-ready automation patterns for Drive and Gmail.
-changelog: Initial release with gws command patterns, auth playbooks, MCP integration, and safety-first change control for production tenants.
-metadata: {"clawdbot":{"emoji":"GWS","requires":{"bins":["gws","jq"],"config":["~/google-workspace-cli/","~/.config/gws/"]},"install":[{"id":"npm","kind":"npm","package":"@googleworkspace/cli","bins":["gws"],"label":"Install gws CLI (npm)"}],"os":["darwin","linux","win32"]}}
+homepage: https://clawic.com/skills/google-workspace-cli
+changelog: Cleaned up stray internal files
+metadata:
+  clawdbot:
+    emoji: GWS
+    requires:
+      bins:
+      - gws
+      - jq
+      config:
+      - ~/google-workspace-cli/
+      - ~/.config/gws/
+    install:
+    - id: npm
+      kind: npm
+      package: '@googleworkspace/cli'
+      bins:
+      - gws
+      label: Install gws CLI (npm)
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Google Workspace CLI
 ---
 
 ## Setup
@@ -157,7 +178,7 @@ This skill depends on Google Workspace services and any explicitly configured in
 Only install and run it if you trust those systems with your operational data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - Build robust API request and error-handling patterns
 - `auth` - Structure authentication boundaries and credential hygiene
 - `automate` - Turn repeated procedures into reliable automations
@@ -166,5 +187,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star google-workspace-cli`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/google-workspace-cli
+- Latest version: https://clawic.com/skills/google-workspace-cli
