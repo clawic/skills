@@ -1,12 +1,12 @@
 # Declaration File Traps
 
-- `declare module "x"` requiere path EXACTO — `"lodash"` ≠ `"lodash/index"`
-- Augmentation sin imports se vuelve global — añadir `export {}` para forzar módulo
-- `declare const` sin valor crea global — puede colisionar
-- `declare function` en módulo no es global — necesita `declare global {}`
-- Archivos .d.ts sin import/export son scripts globales — legacy confuso
-- `interface` se puede merge desde otros archivos — `type` no
-- `paths` en tsconfig solo compilación — bundler necesita config separada
-- `baseUrl` requerido para `paths` — fácil de olvidar
-- `export default` en .d.ts problemático — preferir named exports
-- `declare module "*.svg"` afecta TODOS los .svg — no tipos específicos
+- `declare module "x"` requires the EXACT path — `"lodash"` ≠ `"lodash/index"`
+- Augmentation without imports becomes global — add `export {}` to force a module
+- `declare const` without a value creates a global — can collide
+- `declare function` in a module isn't global — needs `declare global {}`
+- .d.ts files without import/export are global scripts — confusing legacy behavior
+- `interface` can be merged from other files — `type` cannot
+- `paths` in tsconfig only affects compilation — the bundler needs separate config
+- `baseUrl` required for `paths` — easy to forget
+- `export default` in a .d.ts is problematic — prefer named exports
+- `declare module "*.svg"` affects ALL .svg — no specific types

@@ -1,13 +1,13 @@
 # Utility Type Traps
 
-- `Partial<T>` es shallow — nested siguen required
-- `Required<T>` no quita `undefined` del union — sigue teniendo undefined
-- `Omit<T, K>` no verifica que K existe — `Omit<User, "typo">` compila
-- `Pick` con key inexistente también compila — sin validación
-- `Record<string, T>` implica TODA key existe — acceso a inexistente devuelve T, no T|undefined
-- `Record<K, V>` con K union no garantiza todas las keys
-- `Extract<T, U>` devuelve `never` si no match — silenciosamente vacío
-- `ReturnType<typeof fn>` con overload toma solo última signature
-- `Parameters` igual con overloads — inconsistente
-- `NonNullable<T>` quita null Y undefined — a veces solo quieres uno
-- `Awaited<T>` unwrapea recursivamente — sorpresa con Promise<Promise<T>>
+- `Partial<T>` is shallow — nested ones stay required
+- `Required<T>` doesn't remove `undefined` from the union — still has undefined
+- `Omit<T, K>` doesn't verify that K exists — `Omit<User, "typo">` compiles
+- `Pick` with a nonexistent key also compiles — no validation
+- `Record<string, T>` implies EVERY key exists — access to a missing one returns T, not T|undefined
+- `Record<K, V>` with a K union doesn't guarantee all keys
+- `Extract<T, U>` returns `never` if there's no match — silently empty
+- `ReturnType<typeof fn>` with an overload takes only the last signature
+- `Parameters` likewise with overloads — inconsistent
+- `NonNullable<T>` removes null AND undefined — sometimes you want only one
+- `Awaited<T>` unwraps recursively — a surprise with Promise<Promise<T>>

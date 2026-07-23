@@ -1,13 +1,13 @@
 # Generic Traps
 
-- `useState<User>()` infiere `User | undefined` — manejar undefined inicial
-- `Array.filter(x => x.active)` no narrowea — necesita type guard: `.filter((x): x is Active => x.active)`
-- `Promise.all([a(), b()])` infiere tupla solo con `as const`
-- `<T = any>` escapa el `any` al resto del código
-- `<T extends object>` permite arrays — usar `Record<string, unknown>` para objetos
-- `<T extends string>` con literal infiere `string`, no el literal
-- `keyof T` en función genérica es `string | number | symbol`
-- Arrays covariantes — `Dog[]` assignable a `Animal[]` pero push de Cat rompe runtime
-- Function params contravariantes — `(Animal) => void` NO assignable a `(Dog) => void`
-- `{ [K in keyof T]: X }` pierde modificadores — usar `-?` o `-readonly`
-- `Partial<T>` y `Required<T>` son shallow — no afectan nested
+- `useState<User>()` infers `User | undefined` — handle the initial undefined
+- `Array.filter(x => x.active)` doesn't narrow — needs a type guard: `.filter((x): x is Active => x.active)`
+- `Promise.all([a(), b()])` infers a tuple only with `as const`
+- `<T = any>` leaks the `any` into the rest of the code
+- `<T extends object>` allows arrays — use `Record<string, unknown>` for objects
+- `<T extends string>` with a literal infers `string`, not the literal
+- `keyof T` in a generic function is `string | number | symbol`
+- Arrays are covariant — `Dog[]` assignable to `Animal[]` but pushing a Cat breaks at runtime
+- Function params are contravariant — `(Animal) => void` is NOT assignable to `(Dog) => void`
+- `{ [K in keyof T]: X }` loses modifiers — use `-?` or `-readonly`
+- `Partial<T>` and `Required<T>` are shallow — they don't affect nested ones

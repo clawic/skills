@@ -1,8 +1,14 @@
 ---
-name: TypeScript
+name: typescript
 slug: typescript
-version: 1.0.2
+version: 1.0.3
 description: Write type-safe TypeScript with proper narrowing, inference patterns, and strict mode best practices.
+homepage: https://clawic.com/skills/typescript
+changelog: Translated remaining reference content to English
+metadata:
+  clawdbot:
+    emoji: 🔷
+    displayName: TypeScript
 ---
 
 ## When to Use
