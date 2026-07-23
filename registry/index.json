@@ -7533,6 +7533,7 @@
       "slug": "terraform",
       "name": "Terraform",
       "description": "Avoid common Terraform mistakes — state corruption, count vs for_each, lifecycle traps, and dependency ordering.",
+      "version": "1.0.1",
       "summary": "State Management - Local state gets corrupted/lost — use remote backend (S3, GCS, Terraform Cloud) - Multiple people running simultaneously — enable state locking with DynamoDB or equivalent - Never edit state manually —",
       "repositoryPath": "skills/terraform",
       "manifestPath": "registry/skills/terraform.json"
