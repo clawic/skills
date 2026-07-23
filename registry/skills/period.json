@@ -11,18 +11,53 @@
   "skill": {
     "slug": "period",
     "name": "period",
-    "description": "Tracks menstrual cycles, symptoms, and fertility windows from data she shares. Use when logging periods, predicting the next cycle, or flagging changes from her baseline.",
-    "version": "1.0.2",
+    "description": "Tracks menstrual cycles, logs symptoms, and predicts periods, ovulation, and fertile windows from her own logged data. Use when a period starts, is late, or is missed, when logging cramps, PMS, PMDD, mood, spotting, or flow, when asking whether a cycle is irregular, heavy, or too long, when tracking basal temperature, LH tests, or cervical mucus to conceive or avoid pregnancy, when bleeding changes on the pill, IUD, or implant, or when cycles shift in perimenopause, postpartum, or after stopping contraception. Not for prenatal tracking once pregnancy is confirmed.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/period",
-    "summary": "Local data lives in `~/period/memory.md`. Never sync, never mention cycle content outside a session she opened. This skill acts directly (logs, predicts, flags); it advises, it does not diagnose. When To Use - She report",
+    "summary": "All data lives locally in `~/Clawic/data/period/` (`log-template.md` for file formats, `setup.md` on first use). If you have data at an old location (`~/period/` or `~/clawic/period/`), move it to `~/Clawic/data/period/`",
     "repositoryPath": "skills/period",
     "manifestPath": "registry/skills/period.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/period/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/period/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/_meta.json"
+    },
+    {
+      "path": "contraception.md",
+      "downloadPath": "skills/period/contraception.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/contraception.md"
+    },
+    {
+      "path": "fertility.md",
+      "downloadPath": "skills/period/fertility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/fertility.md"
+    },
+    {
+      "path": "irregular.md",
+      "downloadPath": "skills/period/irregular.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/irregular.md"
+    },
+    {
+      "path": "log-template.md",
+      "downloadPath": "skills/period/log-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/log-template.md"
+    },
+    {
+      "path": "pain.md",
+      "downloadPath": "skills/period/pain.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/pain.md"
+    },
+    {
+      "path": "pms-pmdd.md",
+      "downloadPath": "skills/period/pms-pmdd.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/pms-pmdd.md"
     },
     {
       "path": "privacy.md",
@@ -30,9 +65,9 @@
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/privacy.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/period/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/SKILL.md"
+      "path": "setup.md",
+      "downloadPath": "skills/period/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/period/setup.md"
     },
     {
       "path": "symptoms.md",

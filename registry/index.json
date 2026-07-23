@@ -5514,10 +5514,11 @@
     },
     {
       "slug": "period",
-      "name": "Period Tracker",
-      "description": "Privacy-first menstrual cycle tracking. Auto-learns periods, symptoms, and patterns.",
-      "version": "1.0.2",
-      "summary": "Auto-Adaptive Cycle Tracking This skill auto-evolves. Works for regular cycles, irregular cycles, PCOS, and perimenopause. **Rules:** - Only log when she explicitly shares \u2014 never infer from unrelated chat - Start simple",
+      "name": "period",
+      "description": "Tracks menstrual cycles, logs symptoms, and predicts periods, ovulation, and fertile windows from her own logged data. Use when a period starts, is late, or is missed, when logging cramps, PMS, PMDD, mood, spotting, or flow, when asking whether a cycle is irregular, heavy, or too long, when tracking basal temperature, LH tests, or cervical mucus to conceive or avoid pregnancy, when bleeding changes on the pill, IUD, or implant, or when cycles shift in perimenopause, postpartum, or after stopping contraception. Not for prenatal tracking once pregnancy is confirmed.",
+      "version": "1.0.3",
+      "homepage": "https://clawic.com/skills/period",
+      "summary": "All data lives locally in `~/Clawic/data/period/` (`log-template.md` for file formats, `setup.md` on first use). If you have data at an old location (`~/period/` or `~/clawic/period/`), move it to `~/Clawic/data/period/`",
       "repositoryPath": "skills/period",
       "manifestPath": "registry/skills/period.json"
     },
