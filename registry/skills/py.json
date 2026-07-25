@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
-  "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "4c9e1fb2566a8090915916eff1165c6f8284aead22ee6dd64b11d4474b289500",
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-25T10:16:34.813Z",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,76 +11,148 @@
   "skill": {
     "slug": "py",
     "name": "py",
-    "description": "Avoids Python runtime traps — mutable defaults, is vs ==, GIL, asyncio pitfalls, circular imports, mock patching. Use when writing, reviewing, or debugging Python code.",
-    "version": "1.0.3",
+    "description": "Writes, debugs, and reviews Python code \u2014 runtime traps, packaging, typing, async, tests, performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports, AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments, `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies, or a package installs but will not import; when threads, asyncio, multiprocessing or the GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the wrong module, or async tests never run; when mypy or pyright errors need clearing; when a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never appear; or when upgrading Python breaks the build. Not for library-specific problems \u2014 pandas, numpy, django, fastapi and flask have their own skills.",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/py",
-    "summary": "When To Use - Writing or reviewing Python — scan Core Rules before committing - Debugging wrong results without exceptions: state leaking across calls, aliased mutations, silent truncation - Choosing a concurrency model ",
+    "summary": "User preferences live in `~/Clawic/data/py/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/py/` or `~/clawic/py/`), move it to `~/Clawic/data/py/`. ",
     "repositoryPath": "skills/py",
     "manifestPath": "registry/skills/py.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/py/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/py/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/_meta.json",
-      "byteCount": 384,
-      "sha256": "06b4df48d0b71c249a8b6e0b44d4c73e4c58cd070892505bf4365bb3e9e6caea"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/_meta.json"
     },
     {
       "path": "classes.md",
       "downloadPath": "skills/py/classes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/classes.md",
-      "byteCount": 2908,
-      "sha256": "e6d949c422a60e45bbffc88a999500c5bc3d6d104bc9ec397d4eeffedbbe3260"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/classes.md"
+    },
+    {
+      "path": "cli.md",
+      "downloadPath": "skills/py/cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/cli.md"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/py/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/collections.md",
-      "byteCount": 2634,
-      "sha256": "d4ba3b8d61a21ee6936e9b27deffe971eafeb5d637bbe62e9ea1f6049fcd060b"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/collections.md"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/py/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/concurrency.md",
-      "byteCount": 3406,
-      "sha256": "cd1bcad3143c154df35ace15606cb565b558b3b354d1b5d265fa227663cf3c7a"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/concurrency.md"
+    },
+    {
+      "path": "data-modeling.md",
+      "downloadPath": "skills/py/data-modeling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/data-modeling.md"
+    },
+    {
+      "path": "datetime.md",
+      "downloadPath": "skills/py/datetime.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/datetime.md"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/py/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/debugging.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/py/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/errors.md"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/py/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/files.md"
     },
     {
       "path": "functions.md",
       "downloadPath": "skills/py/functions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/functions.md",
-      "byteCount": 2661,
-      "sha256": "e2ef28514ce417ea9121741d2658fb60c7c5f9b5e57a88f1d2a7c90f0e6f2be1"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/functions.md"
+    },
+    {
+      "path": "http.md",
+      "downloadPath": "skills/py/http.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/http.md"
     },
     {
       "path": "imports.md",
       "downloadPath": "skills/py/imports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md",
-      "byteCount": 2770,
-      "sha256": "659981d464cb4140e682cee8720b4cbc2fac9f44efe3275fae0840e678ef8483"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/py/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md",
-      "byteCount": 3992,
-      "sha256": "78525d0cc7799eec58475540949b6df7b7a49e76087f43aac226bb7eea544393"
+      "path": "linting.md",
+      "downloadPath": "skills/py/linting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/linting.md"
+    },
+    {
+      "path": "logging.md",
+      "downloadPath": "skills/py/logging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/logging.md"
+    },
+    {
+      "path": "notebooks.md",
+      "downloadPath": "skills/py/notebooks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/notebooks.md"
+    },
+    {
+      "path": "packaging.md",
+      "downloadPath": "skills/py/packaging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/packaging.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/py/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/performance.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/py/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/security.md"
+    },
+    {
+      "path": "sqlite.md",
+      "downloadPath": "skills/py/sqlite.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/sqlite.md"
+    },
+    {
+      "path": "stdlib.md",
+      "downloadPath": "skills/py/stdlib.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/stdlib.md"
+    },
+    {
+      "path": "subprocess.md",
+      "downloadPath": "skills/py/subprocess.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/subprocess.md"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/py/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/testing.md",
-      "byteCount": 2695,
-      "sha256": "ad6dc25ea22ae2db7b8d2ccb2e5da92c455854be0504ded029400daac50559da"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/testing.md"
+    },
+    {
+      "path": "type-checking.md",
+      "downloadPath": "skills/py/type-checking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/type-checking.md"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/py/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/types.md",
-      "byteCount": 2704,
-      "sha256": "355f05cac815f35b9e072a760175a7d5693c11ada424004bba39de8df2bd16d5"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/types.md"
+    },
+    {
+      "path": "versions.md",
+      "downloadPath": "skills/py/versions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/versions.md"
     }
   ]
 }
