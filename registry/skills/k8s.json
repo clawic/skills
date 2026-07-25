@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "4772d4c7f8b2e18e0859f1e8b076ba97b21e7d443f67d7532f77525f79689d3d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,27 +11,138 @@
   "skill": {
     "slug": "k8s",
     "name": "k8s",
-    "description": "Kubernetes troubleshooting and manifest judgment: pod crashes, probes, resources and QoS, rollouts, DNS, storage, RBAC. Use when debugging clusters, reviewing manifests, or tuning workloads.",
-    "version": "1.0.2",
+    "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, or when locking down RBAC, NetworkPolicy, Pod Security and Secrets. Covers kubectl triage, StatefulSets and PVCs, Jobs and CronJobs, autoscaling, admission webhooks, node drains and cluster upgrades. Not for building container images \u2014 that is `docker`.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/k8s",
-    "summary": "When To Use - A pod is Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, or stuck Terminating - A Service or Ingress receives no traffic, or DNS inside the cluster is flaky - Writing or reviewing manifests: probes,",
+    "summary": "User preferences and memory live in `~/Clawic/data/k8s/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/k8s",
     "manifestPath": "registry/skills/k8s.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/k8s/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json",
-      "byteCount": 315,
-      "sha256": "52c9a5889cff958b36710d37ace731dc59cf893788333d5a5a51b46a1dfb8b1f"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/k8s/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md",
-      "byteCount": 16156,
-      "sha256": "b62243c9119fe069766891bcf084f487ead442273030eb4577ebdc1e2448f046"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/k8s/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json"
+    },
+    {
+      "path": "autoscaling.md",
+      "downloadPath": "skills/k8s/autoscaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/autoscaling.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/k8s/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/commands.md"
+    },
+    {
+      "path": "config-and-secrets.md",
+      "downloadPath": "skills/k8s/config-and-secrets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/config-and-secrets.md"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/k8s/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/debug.md"
+    },
+    {
+      "path": "dns.md",
+      "downloadPath": "skills/k8s/dns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/dns.md"
+    },
+    {
+      "path": "ingress.md",
+      "downloadPath": "skills/k8s/ingress.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/ingress.md"
+    },
+    {
+      "path": "jobs.md",
+      "downloadPath": "skills/k8s/jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/jobs.md"
+    },
+    {
+      "path": "local-dev.md",
+      "downloadPath": "skills/k8s/local-dev.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/local-dev.md"
+    },
+    {
+      "path": "manifests.md",
+      "downloadPath": "skills/k8s/manifests.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/manifests.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/k8s/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/memory-template.md"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/k8s/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/networking.md"
+    },
+    {
+      "path": "nodes.md",
+      "downloadPath": "skills/k8s/nodes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/nodes.md"
+    },
+    {
+      "path": "operators.md",
+      "downloadPath": "skills/k8s/operators.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/operators.md"
+    },
+    {
+      "path": "probes.md",
+      "downloadPath": "skills/k8s/probes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/probes.md"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/k8s/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/production.md"
+    },
+    {
+      "path": "rbac.md",
+      "downloadPath": "skills/k8s/rbac.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/rbac.md"
+    },
+    {
+      "path": "resources.md",
+      "downloadPath": "skills/k8s/resources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/resources.md"
+    },
+    {
+      "path": "rollouts.md",
+      "downloadPath": "skills/k8s/rollouts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/rollouts.md"
+    },
+    {
+      "path": "scheduling.md",
+      "downloadPath": "skills/k8s/scheduling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/scheduling.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/k8s/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/security.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/k8s/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/setup.md"
+    },
+    {
+      "path": "stateful.md",
+      "downloadPath": "skills/k8s/stateful.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/stateful.md"
+    },
+    {
+      "path": "storage.md",
+      "downloadPath": "skills/k8s/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/storage.md"
     }
   ]
 }

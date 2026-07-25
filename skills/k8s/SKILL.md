@@ -1,139 +1,192 @@
 ---
 name: k8s
 slug: k8s
-version: 1.0.2
+version: 1.0.3
 description: >-
-  Kubernetes troubleshooting and manifest judgment: pod crashes, probes, resources and QoS,
-  rollouts, DNS, storage, RBAC. Use when debugging clusters, reviewing manifests, or tuning
-  workloads.
+  Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC.
+  Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service
+  or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships
+  a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes,
+  when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes
+  and graceful shutdown, or when locking down RBAC, NetworkPolicy, Pod Security and Secrets. Covers kubectl
+  triage, StatefulSets and PVCs, Jobs and CronJobs, autoscaling, admission webhooks, node drains and cluster
+  upgrades. Not for building container images — that is `docker`.
 homepage: https://clawic.com/skills/k8s
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: "☸"
     displayName: Kubernetes
+    requires:
+      bins:
+      - kubectl
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/k8s/
 ---
+
+User preferences and memory live in `~/Clawic/data/k8s/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/data/k8s/`.
+
+## Configuration
+
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/k8s/config.yaml`.
+
+| Variable | Type | Default | Effect |
+|---|---|---|---|
+| cluster_flavor | eks \| gke \| aks \| openshift \| k3s \| kind \| generic | generic | Selects LoadBalancer, StorageClass, node-pool and Ingress defaults; gates advice that only exists on managed control planes (`nodes.md`, `storage.md`) |
+| manifest_tool | plain \| kustomize \| helm | plain | Shape of every manifest emitted, plus the rollback and drift procedure in `manifests.md` |
+| label_scheme | text (label-key prefix) | app.kubernetes.io/* | Label keys written into every manifest and into the Deployment selector (`manifests.md`); the Output Gates label check reads this value |
+| cpu_limits_policy | none \| equal-requests \| explicit | none | Whether generated manifests carry CPU limits; resolves the standing disagreement below and the throttling advice in `resources.md` |
+| psa_level | privileged \| baseline \| restricted | baseline | securityContext block written into every pod template and which findings `security.md` raises |
+| ingress_controller | nginx \| traefik \| haproxy \| istio \| alb \| gateway-api \| none | nginx | Annotation syntax, timeout and body-size knobs, path-matching semantics in `ingress.md` |
+| apply_gate | server-dry-run \| diff \| none | server-dry-run | Verification step required before any apply (`manifests.md`); `none` suppresses the reminder |
+| destructive_confirm | bool | true | Force-delete, PVC delete, `drain --force`, and namespace delete are proposed with the blast radius spelled out, never run implicitly |
+| explain_depth | brief \| normal \| deep | normal | Length of every answer and whether a diagnosis is walked step by step: `brief` = command plus verdict, `normal` = verdict plus the evidence that settled it, `deep` = the full chain including the branches ruled out |
+
+Preference areas to record as the user reveals them:
+
+- **tooling** — kubectl plugins (`kubectx`, `stern`, `kubectl-neat`), Helm vs kustomize vs raw YAML, GitOps controller (Argo CD, Flux)
+- **conventions** — annotation scheme beyond `label_scheme`, namespace-per-team vs per-env, image tagging, resource naming
+- **platform** — cluster count and sizing, node classes (spot vs on-demand), CNI, CSI driver, multi-AZ posture
+- **safety posture** — how proactively to raise hardening, PDB, and cost findings vs only on request
+- **observability** — metrics stack (Prometheus, Datadog, cloud-native), log pipeline, whether `kubectl top` even works
+- **secrets management** — Sealed Secrets, External Secrets, Vault, cloud secret manager (the choice, never the credentials)
+- **cadence** — upgrade window, drain policy, when maintenance is allowed to touch running workloads
 
 ## When To Use
 
-- A pod is Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, or stuck Terminating
-- A Service or Ingress receives no traffic, or DNS inside the cluster is flaky
-- Writing or reviewing manifests: probes, resources, rollout strategy, security
-- A rollout is stuck, flapping, or silently serving a broken version
-- Locking down RBAC, ServiceAccounts, or Secrets handling
+- A pod is Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, Evicted, or stuck Terminating
+- A Service, Ingress, or Gateway receives no traffic, or cluster DNS is intermittently slow
+- Writing or reviewing manifests, Helm charts, or kustomize overlays: probes, resources, rollout strategy, security
+- A rollout is stuck, flapping, or silently serving a broken version; a rollback needs to be safe
+- Sizing requests, limits, QoS, HPA, or a cluster autoscaler that will not scale in or out
+- Locking down RBAC, ServiceAccounts, NetworkPolicy, Pod Security Admission, or Secrets handling
+- Node-level and cluster-level work: drains, pressure eviction, upgrades, etcd backup
 - Not for building container images themselves — that is `docker`
 
 ## Quick Reference
 
 | Symptom | First move |
 |---|---|
-| Pod Pending | `kubectl describe pod` Events: insufficient CPU/memory (requests vs node allocatable), unbound PVC, taint without toleration, nodeSelector with no match |
-| CrashLoopBackOff | `kubectl logs -p` (previous container). Exit 137 = SIGKILL (OOM or liveness kill), 143 = SIGTERM, 1 = app error. Backoff doubles 10s → 5m cap, resets after 10m of clean running |
-| OOMKilled | `describe pod` → Last State: OOMKilled. Raise memory limit or fix the leak; for JVMs check `MaxRAMPercentage` first (→ Resources and QoS) |
-| Service gets no traffic | `kubectl get endpoints <svc>` — empty means selector/label mismatch or every pod unready. Check `port` vs `targetPort` next |
-| Rollout stuck | `kubectl rollout status`; `describe rs` on the new ReplicaSet for quota or image errors. `progressDeadlineSeconds` (default 600s) only flags Progressing=False — it never auto-rolls back |
-| Pod stuck Terminating | Finalizers: `kubectl get pod -o yaml` → `metadata.finalizers`. Fix the controller that owns the finalizer; force-delete is last resort (→ Traps) |
-| Intermittent DNS failures | `ndots:5` + UDP conntrack races. Use FQDNs with trailing dot (`db.prod.svc.cluster.local.`) or set `dnsConfig` `ndots:1`; NodeLocal DNSCache at cluster level |
-| Works in ns A, fails in ns B | Diff ResourceQuota, LimitRange, NetworkPolicy — a quota namespace rejects pods without requests set |
-| HPA shows `<unknown>` | A container is missing resource requests — utilization = usage/requests has no denominator |
-| Node NotReady | `kubectl describe node` conditions: MemoryPressure/DiskPressure/PIDPressure; check kubelet on the node |
-| Anything else | `kubectl get events -n <ns> --sort-by=.lastTimestamp` then `describe` the object it points at |
+| Pod Pending | `kubectl describe pod` Events name the predicate: insufficient CPU/memory (requests vs node allocatable), unbound PVC, taint without toleration, no nodeSelector match → `scheduling.md` |
+| CrashLoopBackOff | `kubectl logs -p` (previous container). Exit 137 = SIGKILL (OOM or liveness kill), 143 = SIGTERM, 1 = app error. Backoff starts at 10s and doubles to a 5m cap, resetting after 10m of clean running → `debug.md` |
+| OOMKilled | `describe pod` → Last State: OOMKilled. Raise the limit or fix the leak; JVM, Node, and Go runtimes each need their own cap below it → `resources.md` |
+| ImagePullBackOff | The Events line carries the real reason: 401 (missing or wrong `imagePullSecret`), 404 (tag typo, wrong registry), or a registry rate limit → `debug.md` |
+| Service gets no traffic | `kubectl get endpointslices -l kubernetes.io/service-name=<svc>` — empty means selector/label mismatch or zero ready pods; then check `port` vs `targetPort` → `networking.md` |
+| Ingress returns 502/503/504 | 503 = no endpoints behind the Service; 502 = backend closed or spoke the wrong protocol; 504 = backend slower than the controller's read timeout → `ingress.md` |
+| Intermittent DNS, ~5s stalls | `ndots:5` search expansion plus UDP conntrack races. FQDN with a trailing dot (`db.prod.svc.cluster.local.`) or `dnsConfig` `ndots:2`; NodeLocal DNSCache at cluster level → `dns.md` |
+| Rollout stuck | `kubectl rollout status`, then `describe rs` on the newest ReplicaSet for quota, image, or admission errors. `progressDeadlineSeconds` (default 600s) only flips Progressing=False — it never auto-rolls back → `rollouts.md` |
+| Pod stuck Terminating | `metadata.finalizers` plus `deletionTimestamp`: fix the controller that owns the finalizer; force-delete is last resort → `operators.md` |
+| Works in namespace A, fails in B | Diff ResourceQuota, LimitRange, NetworkPolicy, and PSA labels — a quota namespace rejects pods with no requests set → `resources.md`, `security.md` |
+| HPA shows `<unknown>` | A container is missing resource requests (utilization = usage/requests has no denominator), or metrics-server is down → `autoscaling.md` |
+| PVC stuck Pending | No default StorageClass, `volumeBindingMode: WaitForFirstConsumer` waiting on a schedulable pod, or a zone mismatch between disk and node → `storage.md` |
+| StatefulSet pod-0 won't start | Ordered rollout blocks on the previous ordinal; a retained PVC may hold stale data → `stateful.md` |
+| Node NotReady, or a drain never ends | Node conditions (MemoryPressure/DiskPressure/PIDPressure), then the kubelet; drains block on PDBs, bare pods, and local storage → `nodes.md` |
+| CronJob stopped firing | >100 missed schedules with no `startingDeadlineSeconds` disables it permanently → `jobs.md` |
+| An apply silently reverts | Two writers on one object (GitOps vs hotfix) or a field-manager conflict → `manifests.md` |
+| Every create suddenly fails | An admission webhook with `failurePolicy: Fail` whose backend is down → `operators.md` |
+| Works locally, fails in the cluster (or the reverse) | Local clusters have no cloud LB, no real StorageClass, one node, and your credentials → `local-dev.md` |
+| About to run a destructive command | `kubectl config current-context` first; `destructive_confirm` governs the rest → `local-dev.md` |
+| Anything else | `kubectl get events -n <ns> --sort-by=.lastTimestamp`, then `describe` the object it names |
+
+Depth on demand: `debug.md` symptom→cause chains · `commands.md` kubectl incident toolkit · `scheduling.md` placement, taints, affinity, preemption · `resources.md` requests, limits, QoS, throttling, quotas · `probes.md` liveness, readiness, startup, lifecycle hooks · `rollouts.md` deploy strategies, PDB, rollback · `networking.md` Services, EndpointSlices, kube-proxy, NetworkPolicy wiring · `dns.md` CoreDNS, ndots, conntrack · `ingress.md` Ingress, Gateway API, TLS · `storage.md` PV, PVC, StorageClass, snapshots · `stateful.md` StatefulSets and databases · `config-and-secrets.md` ConfigMaps, Secrets, external stores · `rbac.md` permissions and escalation paths · `security.md` Pod Security, securityContext, supply chain · `jobs.md` Jobs and CronJobs · `autoscaling.md` HPA, VPA, KEDA, cluster autoscaler · `nodes.md` node lifecycle, drains, pressure · `manifests.md` apply semantics, kustomize, Helm, GitOps · `operators.md` CRDs, controllers, finalizers, webhooks · `local-dev.md` kind/minikube/k3d and kubeconfig context safety · `production.md` readiness gate, upgrades, DR, cost.
 
 ## Core Rules
 
-1. Memory requests = limits on every production container. Overcommitted memory means the node OOM-kills someone when neighbors burst — and the victim is chosen by QoS class, not by who leaked. CPU: always set requests; limits are contested (→ Where Experts Disagree).
-2. Never guess `initialDelaySeconds` — give slow starters a startupProbe. Boot budget = failureThreshold × periodSeconds: 30 × 10s = 300s covers a slow JVM while liveness stays tight for steady state.
-3. Detection latency = periodSeconds × failureThreshold. Defaults (10s × 3) mean up to 30s of traffic to a dead pod before endpoint removal — tune both factors, not just one.
-4. Readiness gates traffic, liveness restarts, neither reschedules. A restart happens in place on the same node; only eviction or deletion moves a pod. Restarting a pod cannot fix a node problem.
-5. Shutdown contract: app handles SIGTERM + `preStop` sleep 5–10s + `terminationGracePeriodSeconds` (default 30s) > real drain time. Endpoint removal propagates async, so pods keep receiving traffic after SIGTERM — the sleep covers that window.
-6. Diagnose in order: `describe` (events) → `logs -p` → `get endpoints` → `exec`/`debug`. Events expire after 1h by default (`--event-ttl`) — capture them before anything else in an incident.
-7. Requests drive both scheduling and HPA math. HPA: desired = ceil(current × usage/target); 3 replicas at 90% usage with a 60% target → ceil(3 × 90/60) = 5. Undersized requests inflate utilization and overscale.
+1. **Memory requests = limits on every production container.** Overcommitted memory means the node OOM-kills someone when neighbors burst — and the victim is chosen by QoS class, not by who leaked. CPU: always set requests; limits follow `cpu_limits_policy` (→ Where Experts Disagree).
+2. **Never guess `initialDelaySeconds` — give slow starters a startupProbe.** Boot budget = `failureThreshold × periodSeconds`: 30 × 10s = 300s covers a slow JVM while liveness stays tight for steady state.
+3. **Detection latency = `periodSeconds × failureThreshold`.** Defaults (10s × 3) mean up to 30s of traffic to a dead pod before endpoint removal — tune both factors, not just one.
+4. **Readiness gates traffic, liveness restarts, neither reschedules.** A restart happens in place on the same node; only eviction or deletion moves a pod. Restarting a pod cannot fix a node problem.
+5. **Shutdown contract: app handles SIGTERM + `preStop` sleep 5-10s + `terminationGracePeriodSeconds` (default 30s) > real drain time.** Endpoint removal propagates asynchronously, so pods keep receiving traffic after SIGTERM — the sleep covers exactly that window.
+6. **Diagnose in fixed order: events → previous logs → endpoints → exec.** Guessing skips the one cheap step that would have named the cause (→ The First Five Minutes). Events expire after 1h by default (`--event-ttl`) — capture them before touching anything.
+7. **Requests drive both scheduling and HPA math.** `desired = ceil(current × usage/target)`; 3 replicas at 90% usage with a 60% target → `ceil(3 × 90/60)` = 5. Undersized requests inflate utilization and overscale.
+8. **Pin images by digest or an immutable tag.** `latest` + `imagePullPolicy: IfNotPresent` means each node runs whatever it cached — different code per node, undebuggable. Note the default: pull policy is `Always` when the tag is `latest` or absent, `IfNotPresent` otherwise.
+9. **See the diff before the cluster does.** `kubectl diff -f` and `--dry-run=server` run defaulting, admission, and webhooks; `--dry-run=client` runs none of them and passes manifests that the API server will reject (`apply_gate`).
+
+## The First Five Minutes
+
+1. `kubectl get events -n <ns> --sort-by=.lastTimestamp | tail -30` — capture first; the 1h TTL destroys evidence while you theorize.
+2. `kubectl describe pod <pod>` — the Events block explains scheduling failures, image errors, probe failures, and OOM kills in one place.
+3. `kubectl logs <pod> -p --tail=100` — previous container after any restart. Current logs are empty precisely because it just restarted.
+4. `kubectl get endpointslices -l kubernetes.io/service-name=<svc>` — separates "the app is broken" from "the app was never wired up".
+5. `kubectl debug -it <pod> --image=busybox --target=<container>` (kubectl >=1.25) — the pod's own view of DNS, reachability, and files.
+
+Only when 1-5 all point outside the pod does the node become the suspect (`nodes.md`). Write down which step produced the finding: it names the file to open next. How much of that chain you narrate back follows `explain_depth`.
+
+## Status Decoder
+
+| Status / signal | Means | Next |
+|---|---|---|
+| `Pending`, no node assigned | Scheduler rejected every node; Events name the predicate | `scheduling.md` |
+| `ContainerCreating` > 2 min | Volume attach, image pull, or CNI IP allocation is stuck | `describe` Events, then `storage.md` or `networking.md` |
+| `Init:0/2` | An initContainer is failing or waiting; app containers never start | `logs -c <init-container>` |
+| `ImagePullBackOff` / `ErrImagePull` | Auth, name/tag, or registry rate limit | `debug.md` |
+| `CreateContainerConfigError` | A referenced ConfigMap/Secret or key does not exist | `config-and-secrets.md` |
+| `CrashLoopBackOff` | Container exits repeatedly; backoff 10s → 5m cap | `logs -p`, `debug.md` |
+| Exit 1 / app-specific code | Application exited on its own | App logs; config or dependency |
+| Exit 137 with `OOMKilled: true` | cgroup memory limit hit | `resources.md` |
+| Exit 137 with `OOMKilled: false` | SIGKILL after the grace period expired — a liveness kill or a delete whose SIGTERM was ignored | `probes.md`, `rollouts.md` |
+| Exit 143 | Clean SIGTERM shutdown; usually not a bug | — |
+| Exit 126 / 127 | Entrypoint not executable / not found (wrong arch, musl vs glibc) | `docker` skill |
+| `Evicted` | Node pressure; QoS class chose the victim | `nodes.md` |
+| `Completed` but restarting | `restartPolicy: Always` on a batch workload | `jobs.md` |
+| `Terminating` past the grace period | Finalizer held, or the kubelet is unreachable | `operators.md`, `nodes.md` |
+| `Unschedulable` after running fine | Node cordoned, drained, or its taints changed | `nodes.md` |
+| Any other status, or a status that contradicts the symptom | The phase string is a summary, not a diagnosis — Events and the previous container's logs are | `describe` the pod, then `debug.md` |
 
 ## Resources and QoS
 
-- Requests are scheduling-time only — never enforced at runtime. Limits are enforced: memory by cgroup OOM kill, CPU by CFS quota per 100ms period.
-- CPU throttling triggers below 100% average usage: a bursty app can exhaust its quota inside one 100ms window and stall until the next. Symptom: p99 latency spikes with low average CPU. Check `container_cpu_cfs_throttled_periods_total` before adding replicas.
-- QoS classes decide eviction order under node pressure: BestEffort (no requests) dies first, then Burstable pods exceeding requests, Guaranteed (requests = limits for both CPU and memory) last.
-- Units: 1 CPU = 1000m. Memory `Mi` = 2^20, `M` = 10^6 — and a lone `m` suffix on memory means millibytes: `memory: 512m` requests 0.512 bytes and the pod OOMs instantly (→ Traps).
-- JVM in a container: default `MaxRAMPercentage` is 25 — a 4Gi limit yields a 1Gi heap. Set 50–75 depending on non-heap footprint; the gap between heap and limit must hold metaspace, threads, and direct buffers.
-- LimitRange injects default requests/limits into pods that omit them; ResourceQuota rejects such pods outright. Same manifest, different namespace, different outcome — check both before blaming the manifest.
+- Requests are scheduling-time only, never enforced at runtime. Limits are enforced: memory by cgroup OOM kill, CPU by CFS quota inside every 100ms period.
+- QoS decides eviction order under node pressure: BestEffort (no requests) dies first, then Burstable pods exceeding requests, Guaranteed (requests = limits for both CPU and memory) last.
+- Units: 1 CPU = 1000m. Memory `Mi` = 2^20, `M` = 10^6 — and a lone `m` suffix on memory means millibytes (→ Traps).
+- CPU throttling starts well below 100% average usage: a bursty app drains its quota inside one 100ms window and stalls until the next. Symptom is p99 latency spikes at low average CPU.
+- LimitRange injects defaults into pods that omit requests; ResourceQuota rejects those pods outright. Same manifest, different namespace, different outcome.
 
-## Probes
-
-- Liveness answers exactly one question: "is this process deadlocked beyond self-recovery?" It must check in-process state only. A liveness probe touching a database converts a DB outage into a fleet-wide restart storm.
-- Readiness owns dependencies: DB down → fail readiness → pod leaves endpoints → recovers without a restart when the DB returns.
-- Default `timeoutSeconds` is 1. One GC pause or load spike → probe timeout → liveness failure → restart under the exact load that needed the pod alive. Set 2–5s on any probe doing real work.
-- startupProbe disables liveness and readiness until first success — it exists so boot time and steady-state health can have different budgets (→ Core Rules 2).
-- HTTPS endpoint needs `scheme: HTTPS` on an httpGet probe; default is HTTP and the handshake failure reads as a probe failure.
-- A pod that passes readiness once then crashes still advanced the rollout if `minReadySeconds` is 0 (the default) — set 5–30s so "ready" means "survived" (→ Rollouts and Shutdown).
-
-## Rollouts and Shutdown
-
-- RollingUpdate defaults: maxSurge 25%, maxUnavailable 25%. For latency-sensitive fleets set `maxUnavailable: 0` and pay for the surge capacity.
-- `minReadySeconds` is the cheapest canary you can buy: a crash-looping image with a passing first readiness check will otherwise replace the whole fleet before the first restart.
-- `kubectl rollout undo` needs the old ReplicaSet — `revisionHistoryLimit` (default 10) keeps it. `kubectl rollout restart` is the correct way to pick up ConfigMap/Secret changes delivered via env vars.
-- PodDisruptionBudgets protect against voluntary disruptions only (drains, upgrades) — never against crashes or OOM. A PDB with `maxUnavailable: 0` on a 1-replica deployment blocks node drains forever.
-- Shell-form `ENTRYPOINT ["sh", "-c", "..."]` makes sh PID 1: SIGTERM is not forwarded, the app never shuts down gracefully, and every stop waits the full grace period then exits 137 without an OOM. Use exec form or `tini`.
-- Deployment `spec.selector` is immutable, and changing pod template labels without it fails validation. Plan the label scheme (`app`, `version`, `environment`) before first apply, not after.
-
-## Networking and DNS
-
-- Three ports, three meanings: Service `port` (what clients dial), `targetPort` (container's listening port), `containerPort` (documentation only — traffic flows without it).
-- ClusterIP is virtual — kube-proxy DNAT, no interface, no ping. Test with `curl`/`nc` to the port, never `ping`.
-- `kubectl get endpoints` is the single source of truth for "is my Service wired to anything". Empty endpoints = selector mismatch or zero ready pods; nothing else produces it.
-- `externalTrafficPolicy: Local` preserves client source IP and skips the second hop, but nodes without a ready pod fail the LB health check — expect uneven load with few replicas.
-- Headless Service (`clusterIP: None`) returns pod IPs from DNS instead of a VIP — required for StatefulSet per-pod DNS (`pod-0.svc.ns.svc.cluster.local`).
-- NetworkPolicy is additive allow-listing: the moment any policy selects a pod, that pod flips to default-deny for that direction. Ship the DNS egress rule (UDP/TCP 53) in the same change or everything breaks at name resolution.
-- NodePort range is 30000–32767; fine for dev, one-hop-short for production — put a LoadBalancer or Ingress in front.
-- Ingress `pathType: Prefix` matches path segments (`/api` matches `/api/v1`, not `/apiv1`); `ImplementationSpecific` differs per controller — pin Prefix/Exact in anything portable.
-
-## Storage and Config
-
-- ReadWriteOnce is per node, not per pod: two pods on the same node can both mount an RWO volume — which is why the bug only appears after a reschedule. True multi-node write needs RWX (NFS/CephFS-class).
-- `storageClassName: ""` and omitting it are different: `""` disables dynamic provisioning (static PVs only); omitted uses the cluster default class.
-- Dynamically provisioned PVs default to `reclaimPolicy: Delete` — deleting the PVC deletes the data. Patch to `Retain` on anything you cannot re-derive.
-- StatefulSet scale-down and deletion keep PVCs (unless `persistentVolumeClaimRetentionPolicy` says otherwise) — scale-up resurrects old data, which is either the feature you wanted or a stale-state bug.
-- Volumes grow (`allowVolumeExpansion: true` on the class) but never shrink — size generously once instead of migrating later.
-- ConfigMap delivery modes have different update semantics: env vars never update (restart required); volume mounts update within ~2min (kubelet sync period + cache); `subPath` mounts never update (→ Traps).
-- `immutable: true` on ConfigMaps/Secrets prevents accidental live edits and stops kubelet watches (a real win at scale); updates then flow through new-name + rollout, which also gives you rollback.
-- Secrets are base64, not encrypted. Threat model honestly: anyone who can create pods in the namespace can mount and read any Secret in it — RBAC on pod creation is Secret access. Enable etcd encryption at rest or use an external secrets manager.
-- ConfigMaps and Secrets cap at 1MiB — anything bigger belongs in a volume or object store.
-
-## RBAC
-
-- One ServiceAccount per workload; set `automountServiceAccountToken: false` wherever the pod never calls the API — most workloads don't.
-- Role/RoleBinding are namespaced; ClusterRole/ClusterRoleBinding are not. Useful asymmetry: a RoleBinding can reference a ClusterRole to grant it in one namespace only — define once, bind narrowly.
-- Privilege escalation paths auditors miss: `create pods` in a namespace ≈ read every Secret in it (mount them) and act as any SA in it (mount its token). The verbs `escalate`, `bind`, and `impersonate` are admin-equivalent. Wildcard verbs or resources in a Role are a finding, not a convenience.
-- Verify instead of reasoning from YAML: `kubectl auth can-i --list --as=system:serviceaccount:<ns>:<sa>` shows the effective permission set; `kubectl auth can-i <verb> <resource> --as=...` answers point questions.
-
-## Debugging
-
-- `kubectl describe pod` first — Events explain scheduling failures, probe failures, image errors, OOM kills. Then `logs -f`, and `logs -p` after any crash (the current container's logs are empty precisely because it just restarted).
-- Distroless or crashed-too-fast images: `kubectl debug -it <pod> --image=busybox --target=<container>` attaches an ephemeral container sharing the process namespace (kubectl >=1.25). `kubectl debug node/<node> -it --image=busybox` gets a node shell without SSH.
-- `kubectl exec` proves the pod's own view: `nslookup <svc>` for DNS, `nc -zv <svc> <port>` for reachability — cluster networking bugs are invisible from your laptop.
-- `kubectl explain deployment.spec.strategy` beats searching docs for field semantics and matches the cluster's actual API version.
-- `kubectl apply` for everything declarative; `create` fails on existing objects. Mixing `edit`/imperative patches with GitOps applies produces drift where the next apply silently reverts a hotfix — pick one writer per object.
-- Image pins: `latest` + `imagePullPolicy: IfNotPresent` means each node runs whatever it cached — different code per node, undebuggable. Pin version tags (or digests for supply-chain rigor); `Always` + `latest` is only fit for dev.
+Sizing method, runtime-specific heap caps, quota arithmetic, and throttling forensics: `resources.md`.
 
 ## Traps
 
 | Trap | Why it fails | Do instead |
 |---|---|---|
-| ConfigMap mounted with `subPath` | subPath binds the file inode once; kubelet's symlink-swap update mechanism works only at directory level — updates never arrive | Mount the whole ConfigMap as a directory, or use env vars + `rollout restart` |
-| `memory: 512m` | `m` = millibytes → limit of 0.512 bytes, instant OOM | `512Mi` |
+| `memory: 512m` | `m` = millibytes → a limit of 0.512 bytes, instant OOM | `512Mi` |
+| ConfigMap mounted with `subPath` | subPath binds the file inode once; the kubelet's symlink-swap update works only at directory level, so updates never arrive | Mount the whole ConfigMap as a directory, or env vars + `rollout restart` |
 | Liveness probe checks a dependency | Dependency outage → every pod fails liveness → cluster-wide restart storm on top of the outage | Liveness = in-process only; readiness owns dependencies |
-| Keeping `timeoutSeconds: 1` | One GC pause or load spike kills the pod under the load that needed it | 2–5s timeout on real-work probes |
-| First NetworkPolicy in a namespace | Selected pods flip to default-deny; DNS breaks first, everything else follows | Include DNS egress (port 53) in the same policy change |
-| Deleting a PVC on a dynamic PV | Default `reclaimPolicy: Delete` removes the data with the claim | `Retain` on data you can't re-derive; verify before deleting |
-| Force-deleting a Terminating pod | API forgets the pod while kubelet may still run the container — StatefulSets can split-brain on the "freed" identity | Remove the stuck finalizer or fix the node; force only when the node is confirmed dead |
-| CronJob with defaults | `concurrencyPolicy: Allow` piles up overlapping runs when one hangs; >100 missed schedules with no `startingDeadlineSeconds` stops future scheduling entirely | Set `concurrencyPolicy: Forbid` (or `Replace`) + `startingDeadlineSeconds` |
-| PDB stricter than replica count | `maxUnavailable: 0` (or minAvailable = replicas) blocks every node drain; cluster upgrades hang | Leave ≥1 pod of slack or accept the drain pause consciously |
-| Debugging from `latest` logs | You can't know which code produced them (→ Debugging, image pins) | Pin tags; log image digest at startup |
+| Keeping `timeoutSeconds: 1` (the default) | One GC pause or load spike kills the pod under the exact load that needed it alive | 2-5s on any probe doing real work |
+| First NetworkPolicy in a namespace | Selected pods flip to default-deny for that direction; DNS breaks first, everything else follows | Ship the DNS egress rule (UDP/TCP 53) in the same change |
+| Deleting a PVC on a dynamically provisioned PV | Default `reclaimPolicy: Delete` destroys the data with the claim | `Retain` on anything you cannot re-derive; verify before deleting |
+| Force-deleting a Terminating pod | The API forgets the pod while the kubelet may still be running the container — StatefulSets split-brain on the "freed" identity | Remove the stuck finalizer or fix the node; force only when the node is confirmed dead |
+| CronJob with defaults | `concurrencyPolicy: Allow` piles up overlapping runs when one hangs; >100 missed schedules with no `startingDeadlineSeconds` stops scheduling entirely | `Forbid` (or `Replace`) + `startingDeadlineSeconds` |
+| PDB stricter than the replica count | `maxUnavailable: 0`, or `minAvailable` = replicas, blocks every node drain and hangs cluster upgrades | Leave ≥1 pod of slack, or accept the pause consciously |
+| Changing a Deployment's `spec.selector` | The field is immutable; the apply fails, and label edits without it fail validation | Fix the label scheme before first apply; otherwise create a new Deployment and shift traffic |
+| Unbounded `emptyDir` | It consumes node ephemeral storage; the node hits DiskPressure and evicts your own pod | `sizeLimit` on every emptyDir, or a real volume |
+| `hostPort` or `hostNetwork` for convenience | One pod per node per port, silent Pending on the next replica, and it bypasses NetworkPolicy | Service + Ingress; hostNetwork only for genuine node agents |
+| Two Services selecting the same pods | Both work, both look correct, and traffic splits in ways no dashboard shows | One selector per workload; check with `kubectl get svc -o wide` before adding |
+| Debugging from `latest` logs | You cannot know which code produced them (→ Core Rule 8) | Pin tags; log the image digest at startup |
+
+## Output Gates
+
+Before emitting a manifest (or approving one in review), verify:
+
+- Memory request = limit; CPU request present, CPU limits per `cpu_limits_policy`?
+- Readiness probe present; liveness in-process only; startupProbe wherever boot can exceed 30s?
+- `terminationGracePeriodSeconds` above real drain time, and a `preStop` sleep for endpoint propagation?
+- Image pinned to a digest or immutable tag, never `latest`?
+- securityContext matches `psa_level`: `runAsNonRoot`, numeric UID, `allowPrivilegeEscalation: false`, capabilities dropped?
+- Labels follow `label_scheme`, and the Deployment selector is the one you can live with forever?
+- PDB present for every workload above 1 replica, and looser than the replica count?
+- Namespace realities checked: ResourceQuota, LimitRange, NetworkPolicy, PSA labels?
+- Verified through `apply_gate` (`kubectl diff -f` or `--dry-run=server`), not client-side validation?
 
 ## Where Experts Disagree
 
-- CPU limits: one camp drops them entirely — CFS quota throttling adds tail latency even at low average usage, and requests already guarantee fair share under contention. The other camp keeps limits = requests for predictability and multi-tenant fairness. Frontier: trusted workloads on dedicated clusters → requests only; multi-tenant platforms, chargeback, or compliance regimes → limits on.
-- Liveness probes: default-off camp argues most apps never deadlock without crashing, so liveness only adds restart storms and masks bugs; default-on camp wants a self-healing floor. Frontier: add liveness only when the process demonstrably hangs without exiting and the probe reads purely in-process state — otherwise readiness alone.
+- **CPU limits.** One camp drops them entirely: CFS throttling adds tail latency even at low average usage, and requests already guarantee a fair share under contention. The other keeps limits = requests for predictability and multi-tenant fairness. Frontier: trusted workloads on dedicated clusters → requests only; multi-tenant platforms, chargeback, or compliance regimes → limits on.
+- **Liveness probes.** Default-off argues most apps never deadlock without crashing, so liveness only adds restart storms and hides bugs; default-on wants a self-healing floor. Frontier: add liveness only when the process demonstrably hangs without exiting, and the probe reads purely in-process state — otherwise readiness alone.
+- **Databases in the cluster.** Operators have made in-cluster Postgres and Kafka genuinely viable; the counter-argument is that storage failure modes, backups, and upgrades are where the operator's maturity gets tested during your outage. Frontier: managed service unless you already run a platform team that practices restores (`stateful.md`).
+- **Helm vs kustomize vs plain YAML.** Helm wins at distributing software to strangers; kustomize wins at your own manifests across environments; plain YAML wins below roughly a dozen objects. Templating a chart for a single cluster you own is a cost with no buyer.
+- **Cluster granularity.** One large multi-tenant cluster maximizes bin-packing and minimizes control-plane cost; clusters per team or per environment maximize blast-radius isolation and upgrade freedom. Frontier: the moment one team's admission webhook or CRD upgrade can break another team, isolation is cheaper than the incident.
 
 ## Related Skills
 
@@ -141,6 +194,7 @@ More Clawic skills, get them at https://clawic.com/skills/k8s (install if the us
 - `docker` — building and hardening the images k8s runs
 - `devops` — CI/CD pipelines that deploy to the cluster
 - `incident-response` — coordinating the humans when the cluster page fires
+- `observability` — metrics, logs, and traces behind the dashboards you read here
 - `linux` — node-level debugging under the kubelet
 
 ## Feedback
