@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-25T09:57:55.313Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "a10c8228536c9890402267c74a616acde5ce739ca0272ffd33148b98673027c4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,8 +11,8 @@
   "skill": {
     "slug": "terraform",
     "name": "terraform",
-    "description": "Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or \"forces replacement\", when renaming, importing, or moving resources between modules and states, when a state lock is stuck or state is lost or corrupted, when for_each fails because a value is not known until apply, when pinning providers or surviving a major version upgrade, or when wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu, tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which cloud services to build — see aws, gcp, or azure.",
-    "version": "1.0.2",
+    "description": "Writes, debugs, and refactors Terraform \u2014 HCL and modules, plan and apply failures, state surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or \"forces replacement\", when renaming, importing, or moving resources between modules and states, when a state lock is stuck or state is lost or corrupted, when for_each fails because a value is not known until apply, when pinning providers or surviving a major version upgrade, or when wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu, tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which cloud services to build \u2014 see aws, gcp, or azure.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/terraform",
     "summary": "User preferences and memory live in `~/Clawic/data/terraform/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/terraform/` or `~/clawic/terraform/`), move ",
     "repositoryPath": "skills/terraform",
@@ -23,130 +20,94 @@
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/terraform/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/terraform/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json",
-      "byteCount": 320,
-      "sha256": "210b643f3a070fbe559dedb6e8c9e3a4cfb5738604b279733398182832fb3eb3"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json"
     },
     {
       "path": "ci.md",
       "downloadPath": "skills/terraform/ci.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/ci.md",
-      "byteCount": 5319,
-      "sha256": "8d3335e5496f57c192864c935eafbc63e0fb77814c458b6605e6ac7265505d37"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/ci.md"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/terraform/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/commands.md",
-      "byteCount": 4241,
-      "sha256": "11fc9dda49dbd9fa22da04abe87f4aac17c0ccae70ae2bdc312fc489171ba611"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/commands.md"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/terraform/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/debug.md",
-      "byteCount": 7738,
-      "sha256": "10e07f98de57052ade964fa33593e4e0d7fe3b6ba72dd7003e023d85c7765862"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/debug.md"
     },
     {
       "path": "expressions.md",
       "downloadPath": "skills/terraform/expressions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/expressions.md",
-      "byteCount": 8575,
-      "sha256": "857aba70e3f088c276ada2ace31deb46e781a8004a133445bb67f2f033cee7c9"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/expressions.md"
     },
     {
       "path": "lifecycle.md",
       "downloadPath": "skills/terraform/lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/lifecycle.md",
-      "byteCount": 4588,
-      "sha256": "8481618f9e3e5aafce93b5dfb6dc8afb364dfed0f2df7e3535ee7e2560a7f49b"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/lifecycle.md"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/terraform/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/memory-template.md",
-      "byteCount": 948,
-      "sha256": "dfea346865f2da36afb1b5c7a480d3e870a3525c29a1ef9d1fdf92ae26896201"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/memory-template.md"
     },
     {
       "path": "modules.md",
       "downloadPath": "skills/terraform/modules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/modules.md",
-      "byteCount": 5572,
-      "sha256": "66ed859a0af9b2eb8462deaaacfbbd827925e03f05cc13c49c86fc3967c2bd74"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/modules.md"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/terraform/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/performance.md",
-      "byteCount": 4164,
-      "sha256": "2d9d030fe202e21774da414514ed6a94cd7f9b152dda06062513af8cfd86ef55"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/performance.md"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/terraform/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/providers.md",
-      "byteCount": 5451,
-      "sha256": "471c1d48c96918c14551215dcb5362b085cd8c78857b800a9e6386be46919e6a"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/providers.md"
     },
     {
       "path": "recovery.md",
       "downloadPath": "skills/terraform/recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/recovery.md",
-      "byteCount": 5475,
-      "sha256": "dc7dbdd0fc7d11b4a155ade35ecdcee44582132b5a9bde5e87b12df71e0e7b21"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/recovery.md"
     },
     {
       "path": "refactoring.md",
       "downloadPath": "skills/terraform/refactoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/refactoring.md",
-      "byteCount": 6756,
-      "sha256": "c15768d1baab6b67dedd00ae57bef8e566375b316cd8a1327cc177d9afc250de"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/refactoring.md"
     },
     {
       "path": "secrets.md",
       "downloadPath": "skills/terraform/secrets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/secrets.md",
-      "byteCount": 4567,
-      "sha256": "aff20627ca8be4e805996f39408aad4031b823b49d70323c60fbabf79a6e5a80"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/secrets.md"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/terraform/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/setup.md",
-      "byteCount": 2496,
-      "sha256": "15b02d8cd930054fcc5b7b1278864be80081bc00b7269b903f6709b4a7419caa"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/terraform/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md",
-      "byteCount": 19301,
-      "sha256": "52acd1606f7c0668c35803ce55e6250d7838ffa80ca6efa2d74b19411b159bc3"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/setup.md"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/terraform/state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/state.md",
-      "byteCount": 6739,
-      "sha256": "c7ff03bf41a75ad4f976e85c6dd7d60aec19d1c93645a50e0debb15c542fc15f"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/state.md"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/terraform/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/testing.md",
-      "byteCount": 4638,
-      "sha256": "2273710dc35298375da6bb00c0b9e7d165857c0f6644b38ed7cdf7e088b7f347"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/testing.md"
     },
     {
       "path": "upgrades.md",
       "downloadPath": "skills/terraform/upgrades.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/upgrades.md",
-      "byteCount": 4677,
-      "sha256": "93eb22a19dce4217d0f8a6babbf83815ad5b6f9beb97d08d4c6a3c1ded2dcd2f"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/upgrades.md"
     }
   ]
 }

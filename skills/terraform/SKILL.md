@@ -1,7 +1,7 @@
 ---
 name: terraform
 slug: terraform
-version: 1.0.2
+version: 1.0.3
 description: >-
   Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state
   surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan
@@ -13,7 +13,7 @@ description: >-
   tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which
   cloud services to build — see aws, gcp, or azure.
 homepage: https://clawic.com/skills/terraform
-changelog: "Full coverage pass: situation-named guides for debugging, state, refactoring, CI, testing, upgrades, performance, and recovery, plus per-user configuration"
+changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
   clawdbot:
     emoji: 🟪
