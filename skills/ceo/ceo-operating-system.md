@@ -1,65 +1,72 @@
-# Executive Operations
+# The CEO's Own Operating System
 
-## CEO Calendar
+Your calendar is your strategy, observed. Porter and Nohria's HBR CEO time study found meetings consume roughly 70% of CEO hours — drift is the default state, and deep work exists only if it is defended like a board meeting.
 
-The calendar is the strategy, observed. Porter & Nohria's HBR CEO time study found meetings consume roughly 70% of CEO hours — the default is drift; deep work exists only if defended.
+## The Calendar
 
 | Block | Rule |
 |-------|------|
-| Deep work (~4h/week minimum) | Strategy, writing, thinking. Scheduled first, defended like a board meeting |
-| 1:1s | Weekly with directs, monthly skip-levels (structure in `people.md`) |
-| External | Investors, customers, partners, recruiting — the parts only the CEO can do |
-| All-hands | Monthly minimum |
-| Board | Prep and meetings, monthly rhythm |
-| Buffer | Gaps between meetings; a packed calendar makes every overrun cascade |
+| Deep work (4h/week minimum) | Strategy, writing, thinking. Scheduled first, moved last |
+| 1:1s | Weekly with directs, monthly skip-levels (→ SKILL.md Quick Reference: people) |
+| External | Investors, customers, partners, recruiting — the parts only the CEO can do (→ SKILL.md Quick Reference: customers) |
+| All-hands | Monthly minimum, live (→ SKILL.md Quick Reference: communication) |
+| Board | Prep and meetings on the `board_cadence` rhythm, pre-wires scheduled with the meeting |
+| Buffer | 15 minutes between blocks; a packed calendar makes every overrun cascade into the evening |
 
-**Monthly calendar audit**: score the last 4 weeks against your 3 priorities. A priority with near-zero hours is a stated priority, not a real one — fix the calendar or fix the priority list.
+**Monthly calendar audit**: score the last four weeks against your three priorities and the three undelegable jobs (SKILL.md rule 1). A priority with near-zero hours is a stated priority, not a real one — fix the calendar or fix the priority list. Track a single number: the share of hours that went to the three priorities. Under 50% is a diagnosis.
 
-## Executive Team Meetings
+Two structural defenses that work: theme your days (external days versus internal days, so context switching happens weekly rather than hourly), and put a standing hold where the deep work goes before the quarter fills.
 
-Meetings are the medium of managerial work (Grove, *High Output Management*) — run them as production, not ceremony.
+## Running Meetings as Production
 
-**Weekly staff (60-90 min)**: metrics review (15) → decisions needed (30) → cross-functional blockers (15) → announcements (10). Decisions in the middle, when energy is highest; status that could be a document gets sent as a document.
+Meetings are the medium of managerial work (Grove, *High Output Management*) — run them as output, not ceremony.
 
-**Quarterly offsite (1-2 days)**: strategy review, team dynamics, next-quarter planning. No laptops — the point is the conversation the weekly meeting never has room for.
+**Weekly exec staff, 60-90 min**: metrics against plan, exceptions only (15) → decisions needed, pre-read circulated (30) → cross-functional blockers (15) → announcements (10). Decisions in the middle when energy is highest. Anything that could be a document is sent as a document.
 
-## Communication Rhythms
+- Every recurring meeting has a written purpose, an owner, and a kill date at which it must justify itself. Meetings never die of natural causes.
+- No decision without a named decider in the invite (→ SKILL.md Quick Reference: decisions). A meeting to "discuss" with no decider produces a second meeting.
+- Notes and decisions published within 24 hours, including for those absent. The absent person acting on old information is a coordination failure you caused.
+- Quarterly offsite, 1-2 days, no laptops: strategy review, team dynamics, next-quarter planning.
 
-| Audience | Cadence | Format |
-|----------|---------|--------|
-| Exec team | Weekly | Staff meeting |
-| All company | Weekly | Written update |
-| All company | Monthly | All-hands, live Q&A |
-| Board | Monthly | Written update |
-| Board | Quarterly | In-person meeting |
-| Investors | Monthly | Email update |
+## Your Decision Queue
 
-Repeat the strategy until you are sick of saying it — that is roughly when the org has heard it once. A message delivered a single time was not communicated; it was mentioned.
+- Batch the decisions that need you. A CEO who decides continuously is interruptible continuously, and neither the decisions nor the thinking get done well.
+- Anything you decide the same way three times becomes a written default with an owner, and leaves your queue permanently.
+- Escalations arrive as options plus a recommendation, or they go back. An open question escalated is delegation upward, and accepting it teaches the org to do it (→ SKILL.md Quick Reference: decisions).
+- The delegation test per task, not per person (Grove's task-relevant maturity): has this person done this before, here? If yes, they own it including the mistakes. If no, coach through the first one and then hand it over.
+- Accept 80% of your standard from an owner over 100% from yourself. At any real scale that trade is not close (→ SKILL.md Quick Reference: scaling).
 
-## Hiring Executives
+## Your Information Diet
 
-1. Scorecard first: outcomes for the first year, not activity lists (method in `people.md`).
-2. Hire for the next 12-18 months of scale, not the end state — the exec who ran a 5,000-person org usually cannot run your 50-person one.
-3. Source: portfolio referrals and personal network beat cold search; retained recruiters widen the top of funnel.
-4. Backchannel references BEFORE final rounds, from people not on their list — after the team falls in love, references get rationalized away.
-5. CEO closes personally: the close is where execs decide if you are worth the risk.
+You will be told what people think you want to hear, at increasing rates as the company grows. Counter it deliberately:
 
-**Red flags**: cannot articulate a past failure as their own; blames prior teams for misses; claims outcomes without naming who did the work; asks no hard questions about your company (a strong exec is diligencing you too).
+- Skip-levels monthly, front-line exposure monthly: support tickets, sales calls, or a shift with the delivery team.
+- Read raw material, not summaries: three lost-deal notes, three churn reasons, three support threads (→ SKILL.md Quick Reference: metrics, customers).
+- Reward the person who brings you the bad news, publicly, the first time it happens. The whole org is watching what happened to them.
+- Keep two or three people who will tell you that you are wrong, and make sure at least one does not work for you.
+- Notice the questions nobody asks you anymore. That is the shape of what people have decided not to raise.
 
-## Firing Executives
+## Executive Exits (mechanics)
 
-**When**: pattern of misses, not one bad quarter; values misalignment (not style difference); consistently negative team feedback; you are managing around them instead of through them — that last one means you already decided.
+The decision criteria live under people (→ SKILL.md Quick Reference); the choreography is here because it is a CEO operation.
 
-**How**: act within days of deciding — every week of lingering costs credibility with the team that saw it first. Generous terms, fast exit, brief and respectful communication focused forward. The org reads the exit as a statement of your values; make it one you would sign.
+- Decide, then act within days. Tell the board chair before you tell the exec.
+- The conversation is short and final: the decision, the terms, the timing, the story. Not a debate, not a performance review.
+- Announce internally the same day, with who owns the function now — an announcement without a named successor or interim produces a week of paralysis and often a second departure.
+- Say what is true and kind, and nothing more: "X is leaving, Y owns the function, here is the plan." Do not litigate the reasons in public; the team fills gaps with the most generous interpretation only if you have earned it.
+- Transfer the relationships (customers, candidates, partners) yourself in the first week.
 
-## CEO Self-Management
+## Self-Management
 
 | Risk | Mitigation |
 |------|------------|
-| Burnout | Sleep, exercise, real vacations — scheduled, not aspirational |
-| Isolation | External confidants, CEO peer group; the exec team cannot be your therapist |
-| Decision fatigue | Kill trivial decisions with defaults and delegation; spend judgment where it compounds |
-| Echo chamber | Front-line exposure monthly; reward the person who brings the bad news |
+| Burnout | Sleep, exercise, real vacations — scheduled a quarter ahead, not aspirational |
+| Isolation | External confidants and a CEO peer group; your exec team cannot be your therapist and your co-founder is not neutral |
+| Decision fatigue | Defaults and delegation for the trivial; spend judgment where it compounds |
+| Echo chamber | The information diet above, enforced monthly |
+| Identity fusion | The company's results are not your worth; CEOs who cannot separate them cannot make the exit or shutdown call cleanly (→ SKILL.md Quick Reference: shutdown) |
 | Imposter syndrome | Normal. The job is hard for everyone doing it honestly |
 
-The team calibrates to your demeanor before your words: anxiety spreads, calm spreads. Panic privately, with your confidants — never on the all-hands.
+The team calibrates to your demeanor before your words: anxiety spreads, calm spreads. Panic privately, with your confidants — never in the all-hands (→ SKILL.md Quick Reference: crisis).
+
+Take a real two-week vacation annually, with a named acting decision-maker. It is a systems test: what breaks reveals your single points of failure, and what does not break is what you can finally stop carrying (→ SKILL.md Quick Reference: succession).

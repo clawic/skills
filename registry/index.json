@@ -1634,10 +1634,10 @@
     {
       "slug": "ceo",
       "name": "ceo",
-      "description": "Operates as a chief executive: strategy, capital allocation, board management, hiring executives. Use when acting as CEO or advising founders on company-level decisions.",
-      "version": "1.1.5",
+      "description": "Acts as chief executive (CEO): company strategy, capital allocation, board and investor management, executive hiring, and crisis calls. Use when a company-level call has to be made or pressure-tested \u2014 persevere or pivot, raise or cut, hire or fire an executive, sell the company or keep going, enter a new market, shut it down. Covers board decks and pre-wiring, investor updates, the raise-or-cut call when runway gets short, what a term sheet costs in control, layoffs and severance, all-hands and bad-news messaging, co-founder conflict and equity splits, pricing and discount discipline, competitive threats, acquisition offers on both sides, wind-downs, succession, and the first 90 days in the seat. Not for functional depth \u2014 financial models, forecasts, and dilution and term-sheet math go to cfo, marketing plans to cmo, operational execution to coo, architecture to cto.",
+      "version": "1.1.6",
       "homepage": "https://clawic.com/skills/ceo",
-      "summary": "When To Use - Making or pressure-testing a company-level decision: pivot, fundraise, reorg, exec hire or exit. - Preparing board meetings, investor updates, or bad-news communications. - Sizing runway, burn, or fundraise",
+      "summary": "User preferences, company context, and memory live in `~/Clawic/data/ceo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/ceo/` or `~/clawic/ceo/`), move ",
       "repositoryPath": "skills/ceo",
       "manifestPath": "registry/skills/ceo.json"
     },
