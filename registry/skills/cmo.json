@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "d4d95b78e44c1d78ca5262a7b8352b8c61e488ba9c5caf8d23e0b85c9b7757b7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,55 +11,123 @@
   "skill": {
     "slug": "cmo",
     "name": "cmo",
-    "description": "Operates as a chief marketing officer with positioning, demand generation, content strategy, channels, budget, and team. Use when acting as CMO or advising founders on marketing strategy, pipeline, or brand.",
-    "version": "1.0.4",
+    "description": "Operates as a chief marketing officer (CMO): sets marketing strategy, owns the pipeline number, allocates budget, picks channels, builds the team. Use when spend is not producing pipeline, a channel plateaus, CAC climbs, sales rejects the leads, attribution is disputed, a launch, rebrand, price change, or crisis is on the table, the board asks why marketing is not working, or someone must size a budget, choose channels, or make the first marketing hire. Covers positioning and messaging, demand capture versus creation, paid media, content and SEO strategy, lifecycle and email, product-led growth, packaging and price communication, PR and analyst relations, measurement and incrementality testing, ABM, ecommerce and DTC, international expansion, agencies, and marketing compliance. Not for executing a single ad, post, or landing-page test.",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/cmo",
-    "summary": "When To Use - Acting as CMO or advising a founder/marketing lead: positioning, channel mix, budget, team, pipeline targets. - Diagnosing why marketing spend is not turning into pipeline or revenue. - Stage transitions: f",
+    "summary": "User preferences and memory live in `~/Clawic/data/cmo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cmo/` or `~/clawic/cmo/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/cmo",
     "manifestPath": "registry/skills/cmo.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cmo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/cmo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/_meta.json",
-      "byteCount": 482,
-      "sha256": "b0566978c7f076e7cf6e1a92b8f766a2a677b38aa4546a891409f2a6cce37137"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/_meta.json"
+    },
+    {
+      "path": "b2b.md",
+      "downloadPath": "skills/cmo/b2b.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/b2b.md"
     },
     {
       "path": "brand.md",
       "downloadPath": "skills/cmo/brand.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/brand.md",
-      "byteCount": 3581,
-      "sha256": "8a24171b4a163eaf91e5cfb021f7e24cc3b32cd9f922f3fde10041c074d15385"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/brand.md"
+    },
+    {
+      "path": "comms.md",
+      "downloadPath": "skills/cmo/comms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/comms.md"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/cmo/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/compliance.md"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/cmo/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/content.md",
-      "byteCount": 2801,
-      "sha256": "b789be3a67fb61dba843925d105ea8b37c867df1d906c8d3bcb66fb34e62eac9"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/content.md"
     },
     {
       "path": "demand.md",
       "downloadPath": "skills/cmo/demand.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/demand.md",
-      "byteCount": 4603,
-      "sha256": "632625115498e296224d7fe9750981a4b7e8e64c2a4742c167c4ec52338e0e06"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/demand.md"
+    },
+    {
+      "path": "diagnose.md",
+      "downloadPath": "skills/cmo/diagnose.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/diagnose.md"
+    },
+    {
+      "path": "ecommerce.md",
+      "downloadPath": "skills/cmo/ecommerce.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/ecommerce.md"
+    },
+    {
+      "path": "first-90-days.md",
+      "downloadPath": "skills/cmo/first-90-days.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/first-90-days.md"
+    },
+    {
+      "path": "international.md",
+      "downloadPath": "skills/cmo/international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/international.md"
+    },
+    {
+      "path": "launch.md",
+      "downloadPath": "skills/cmo/launch.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/launch.md"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/cmo/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/lifecycle.md"
+    },
+    {
+      "path": "measurement.md",
+      "downloadPath": "skills/cmo/measurement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/measurement.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cmo/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/memory-template.md"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/cmo/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/operations.md",
-      "byteCount": 4165,
-      "sha256": "e04fb369fa062b3b94f7b9cdece403676608177ce0623894b987d504e7ba56eb"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/operations.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/cmo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/SKILL.md",
-      "byteCount": 6741,
-      "sha256": "768d44362fc14c8ed6f0bbeb107e2b9d5e5e337cecea1fd58b2bf831d48d3069"
+      "path": "paid.md",
+      "downloadPath": "skills/cmo/paid.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/paid.md"
+    },
+    {
+      "path": "positioning.md",
+      "downloadPath": "skills/cmo/positioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/positioning.md"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/cmo/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/pricing.md"
+    },
+    {
+      "path": "product-led.md",
+      "downloadPath": "skills/cmo/product-led.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/product-led.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/cmo/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cmo/setup.md"
     }
   ]
 }
