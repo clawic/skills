@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "2aa6fde3aa0082362cd82dd0858fe622452fe303e5535d35c263124fb3ef6aa4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,55 +11,123 @@
   "skill": {
     "slug": "bash",
     "name": "bash",
-    "description": "Writes reliable Bash scripts: quoting, arrays, error handling, traps, and version portability. Use when writing or debugging shell scripts, one-liners, cron jobs, or CI pipelines.",
-    "version": "1.0.4",
+    "description": "Writes, debugs, and hardens Bash shell scripts \u2014 quoting, arrays, strict mode, traps, argument parsing, and macOS/Linux portability. Use when writing or reviewing any script, one-liner, cron job, deploy script, container entrypoint, or CI step; when a script breaks on spaces in filenames, exits silently, ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS, globs, arrays, heredocs, process substitution, trap, getopts, or mapfile misbehave; when shellcheck flags SC2086 and friends; when unbound variable, bad substitution, command not found, ambiguous redirect, or unexpected end of file show up; when a script works by hand but fails under cron, systemd, sudo, or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and not for host-level cron, systemd, or permission failures (linux).",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/bash",
-    "summary": "When To Use - Writing or reviewing any Bash beyond a one-liner: CI jobs, deploy scripts, cron tasks, glue code - Debugging scripts that break on spaces in filenames, empty variables, or fail silently - Hardening an exist",
+    "summary": "User preferences live in `~/Clawic/data/bash/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/bash/` or `~/clawic/bash/`), move it to `~/Clawic/data/",
     "repositoryPath": "skills/bash",
     "manifestPath": "registry/skills/bash.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bash/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/bash/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json",
-      "byteCount": 384,
-      "sha256": "00738dd09cd6633625808dbe21a5f60739082e076ee7964861e4ad0044eae7fc"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json"
+    },
+    {
+      "path": "arguments.md",
+      "downloadPath": "skills/bash/arguments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arguments.md"
     },
     {
       "path": "arrays.md",
       "downloadPath": "skills/bash/arrays.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arrays.md",
-      "byteCount": 1782,
-      "sha256": "a0fa873cc80d00967d574b5f93197e59433e90866d78d55f0f73bdcc14f62893"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arrays.md"
+    },
+    {
+      "path": "ci.md",
+      "downloadPath": "skills/bash/ci.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/ci.md"
+    },
+    {
+      "path": "conditionals.md",
+      "downloadPath": "skills/bash/conditionals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/conditionals.md"
+    },
+    {
+      "path": "cron.md",
+      "downloadPath": "skills/bash/cron.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/cron.md"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/bash/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/debugging.md"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/bash/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/errors.md",
-      "byteCount": 2135,
-      "sha256": "855fdba404e0ce478e99a5fb48e3144325494d0863643acebb7a995e788bb577"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/errors.md"
     },
     {
       "path": "expansion.md",
       "downloadPath": "skills/bash/expansion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/expansion.md",
-      "byteCount": 1994,
-      "sha256": "dd8d79a3153512366f819cc2c619896208278469f2fb9b11378d4c5e6117ebb2"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/expansion.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/bash/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md",
-      "byteCount": 8012,
-      "sha256": "77f03dd64c614c9ddd7faf14f766abef8694cec72fff9b25efb2030d1661586c"
+      "path": "files.md",
+      "downloadPath": "skills/bash/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/files.md"
+    },
+    {
+      "path": "functions.md",
+      "downloadPath": "skills/bash/functions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/functions.md"
+    },
+    {
+      "path": "http.md",
+      "downloadPath": "skills/bash/http.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/http.md"
+    },
+    {
+      "path": "interactive.md",
+      "downloadPath": "skills/bash/interactive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/interactive.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/bash/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/performance.md"
+    },
+    {
+      "path": "portability.md",
+      "downloadPath": "skills/bash/portability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/portability.md"
+    },
+    {
+      "path": "processes.md",
+      "downloadPath": "skills/bash/processes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/processes.md"
+    },
+    {
+      "path": "quoting.md",
+      "downloadPath": "skills/bash/quoting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/quoting.md"
+    },
+    {
+      "path": "redirection.md",
+      "downloadPath": "skills/bash/redirection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/redirection.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/bash/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/security.md"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/bash/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/testing.md",
-      "byteCount": 1970,
-      "sha256": "6b3eb2fdcdf47242faf440db5ca9c22ae3d9196f301b6666d3dd74213363104d"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/testing.md"
+    },
+    {
+      "path": "text-processing.md",
+      "downloadPath": "skills/bash/text-processing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/text-processing.md"
     }
   ]
 }

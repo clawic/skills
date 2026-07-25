@@ -974,10 +974,10 @@
     {
       "slug": "bash",
       "name": "bash",
-      "description": "Writes reliable Bash scripts: quoting, arrays, error handling, traps, and version portability. Use when writing or debugging shell scripts, one-liners, cron jobs, or CI pipelines.",
-      "version": "1.0.4",
+      "description": "Writes, debugs, and hardens Bash shell scripts \u2014 quoting, arrays, strict mode, traps, argument parsing, and macOS/Linux portability. Use when writing or reviewing any script, one-liner, cron job, deploy script, container entrypoint, or CI step; when a script breaks on spaces in filenames, exits silently, ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS, globs, arrays, heredocs, process substitution, trap, getopts, or mapfile misbehave; when shellcheck flags SC2086 and friends; when unbound variable, bad substitution, command not found, ambiguous redirect, or unexpected end of file show up; when a script works by hand but fails under cron, systemd, sudo, or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and not for host-level cron, systemd, or permission failures (linux).",
+      "version": "1.0.5",
       "homepage": "https://clawic.com/skills/bash",
-      "summary": "When To Use - Writing or reviewing any Bash beyond a one-liner: CI jobs, deploy scripts, cron tasks, glue code - Debugging scripts that break on spaces in filenames, empty variables, or fail silently - Hardening an exist",
+      "summary": "User preferences live in `~/Clawic/data/bash/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/bash/` or `~/clawic/bash/`), move it to `~/Clawic/data/",
       "repositoryPath": "skills/bash",
       "manifestPath": "registry/skills/bash.json"
     },
