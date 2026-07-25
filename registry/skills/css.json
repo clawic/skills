@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "cd06c9c8819f45401f7f11f8ebd6a68a5e2896d86128f9bd33a102dfe7b531e4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,55 +11,128 @@
   "skill": {
     "slug": "css",
     "name": "css",
-    "description": "Writes and debugs modern CSS - stacking contexts, flexbox/grid, responsive layout, selectors, render performance. Use for layout bugs, z-index issues, CLS, fluid typography, or modernizing stylesheets.",
-    "version": "1.0.3",
+    "description": "Writes and debugs CSS: flexbox and grid layout, z-index and stacking, responsive breakpoints, theming, and render performance. Use when a layout breaks or overflows, z-index does nothing, the page scrolls sideways, `position: sticky` won't stick, text won't truncate, styles lose the cascade or need `!important`, content jumps while loading (CLS), transitions stutter, fonts flash, a modal or dropdown sits behind other content, form controls need restyling, a table needs sticky headers, printing comes out wrong, or a style works in Chrome but not Safari. Also for starting a stylesheet from scratch (reset and base layer), centering, container queries, fluid type with clamp(), design tokens and dark mode, RTL and logical properties, and modernizing old stylesheets with `:has()`, `@layer`, and nesting. Not for visual design taste \u2014 palettes, spacing scales, typeface choice.",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/css",
-    "summary": "When To Use - Debugging layout: z-index that won't apply, overflow, dead `height: 100%`, broken `position: sticky` - Building components: flexbox/grid patterns, centering, responsive behavior without media-query sprawl -",
+    "summary": "User preferences and memory live in `~/Clawic/data/css/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/css/` or `~/clawic/css/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/css",
     "manifestPath": "registry/skills/css.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/css/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/css/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/_meta.json",
-      "byteCount": 382,
-      "sha256": "eb8bf958d60091f763eda56f7f7672210cef5b8057cbfe3f3028dd70de0f7f47"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/_meta.json"
+    },
+    {
+      "path": "animations.md",
+      "downloadPath": "skills/css/animations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/animations.md"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/css/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/architecture.md"
+    },
+    {
+      "path": "color.md",
+      "downloadPath": "skills/css/color.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/color.md"
+    },
+    {
+      "path": "compatibility.md",
+      "downloadPath": "skills/css/compatibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/compatibility.md"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/css/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/debugging.md"
+    },
+    {
+      "path": "effects.md",
+      "downloadPath": "skills/css/effects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/effects.md"
+    },
+    {
+      "path": "forms.md",
+      "downloadPath": "skills/css/forms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/forms.md"
+    },
+    {
+      "path": "internationalization.md",
+      "downloadPath": "skills/css/internationalization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/internationalization.md"
     },
     {
       "path": "layout.md",
       "downloadPath": "skills/css/layout.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/layout.md",
-      "byteCount": 4142,
-      "sha256": "744cb58c8aae0addfd04052af8f13aad934daded098d8136b7a33c2d86b94902"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/layout.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/css/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/memory-template.md"
+    },
+    {
+      "path": "overlays.md",
+      "downloadPath": "skills/css/overlays.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/overlays.md"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/css/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/performance.md",
-      "byteCount": 4224,
-      "sha256": "8c83cb07b7a424d6c2b332a17d59475fd9174c0b4e1f7312740893209cd8044a"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/performance.md"
+    },
+    {
+      "path": "print.md",
+      "downloadPath": "skills/css/print.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/print.md"
+    },
+    {
+      "path": "reset.md",
+      "downloadPath": "skills/css/reset.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/reset.md"
     },
     {
       "path": "responsive.md",
       "downloadPath": "skills/css/responsive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/responsive.md",
-      "byteCount": 3908,
-      "sha256": "3e8014a5955c1daec456ab171aaaad4603d7a04207b639c218848471b66924fa"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/responsive.md"
+    },
+    {
+      "path": "scrolling.md",
+      "downloadPath": "skills/css/scrolling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/scrolling.md"
     },
     {
       "path": "selectors.md",
       "downloadPath": "skills/css/selectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/selectors.md",
-      "byteCount": 3944,
-      "sha256": "8b0fdcab64ee02cdca27cc0d75bbd48f23978cc2fc15a396edfd36c49de102bf"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/selectors.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/css/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md",
-      "byteCount": 10381,
-      "sha256": "8f67f9216dc1cc180cdd334990921d7559c7f150d6cde300caef9af229ca85df"
+      "path": "setup.md",
+      "downloadPath": "skills/css/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/setup.md"
+    },
+    {
+      "path": "tables.md",
+      "downloadPath": "skills/css/tables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/tables.md"
+    },
+    {
+      "path": "theming.md",
+      "downloadPath": "skills/css/theming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/theming.md"
+    },
+    {
+      "path": "typography.md",
+      "downloadPath": "skills/css/typography.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/typography.md"
     }
   ]
 }

@@ -50,6 +50,21 @@ Google's thresholds, measured at the 75th percentile of page loads:
 - Inline critical CSS ceiling: the folk 14KB figure comes from TCP's initial congestion window (10 packets × ~1460B ≈ 14.6KB — one round trip). HTTP/3 blurs it, but it remains a sane budget for inlined `<head>` CSS.
 - Unused CSS still parses on every load: DevTools Coverage tab before shipping a framework's full sheet.
 
+## Verify Instead of Guessing
+
+Every claim in this file is observable. Before and after any optimization, get the signal:
+
+| Question | Where to look | What confirms it |
+|---|---|---|
+| Is my animation on the compositor? | Performance trace, or the Layers panel | No Layout/Paint entries during the animation; the element has its own layer |
+| What is repainting? | Paint flashing overlay | Green flashes only over the animating element, not whole sections |
+| Which element shifted? | Web Vitals overlay / Layout Shift entries | The named node plus its shift score |
+| Is style recalculation the cost? | Performance trace, Recalculate Style entries | Duration and the "elements affected" count |
+| Is the sheet oversized? | Coverage tab | Unused byte percentage on the routes that matter |
+| Is a font blocking? | Network waterfall plus a screenshot filmstrip | Font request finishing after first text paint |
+
+Optimizations applied without a before-number are indistinguishable from superstition — and several of them (`will-change`, extra layers, containment on the wrong node) make things worse.
+
 ## Selector Cost, the Reality
 
 - Engines bucket rules by rightmost simple selector: a class or ID on the right makes the left side nearly free. Rewriting `.nav li a` for performance is folklore.
