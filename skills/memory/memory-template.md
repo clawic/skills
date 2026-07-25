@@ -1,31 +1,37 @@
 # Memory Templates
 
+Copy these shapes verbatim. Every entry, whatever the category, carries the same four elements from SKILL.md Entry Anatomy: display-name heading, `Keywords:` aliases, `Updated:` date, and dated + sourced fact lines (`stated` / `observed` / `inferred`, Rule 4).
+
+Contents: System Configuration · Root Index · Projects · People · Organizations · Decisions · Knowledge · Collections · Inbox · Sync Folder · Index Size Limits.
+
 ## System Configuration
 
-Create `~/Clawic/data/memory/config.md`:
+Create `~/Clawic/data/memory/config.yaml`:
 
-```markdown
-# Memory Config
+```yaml
+created: 2026-07-25
+owner: [name]
 
-Created: YYYY-MM-DD
-Owner: [name]
-
-## Sync Settings
+# Variables from SKILL.md Configuration — only the ones the user has stated
+index_split_at: 100
+entry_max_lines: 200
+delete_policy: confirm
+recall_citations: true
 sync_from_builtin: false
-sync_categories: []
+excluded_topics: []
+inbox_enabled: true
+maintenance_cadence: weekly
+search_backend: grep
 
-## Categories
-- projects/
-- people/
-- decisions/
-- [custom]/
-
-## Preferences
-find_method: navigate | search | both
-maintenance: weekly | monthly
+categories:
+  - projects/
+  - people/
+  - decisions/
 ```
 
----
+Only keys declared in SKILL.md Configuration belong here. A key with no described effect is not a setting; it is a future contradiction.
+
+Older installs may have a `config.md`: merge its values into `config.yaml` and delete it. Preferences the user states go in here the moment they say them — never asked for up front.
 
 ## Root Index
 
@@ -38,16 +44,14 @@ Create `~/Clawic/data/memory/INDEX.md`:
 
 | Category | Items | Updated | Index |
 |----------|-------|---------|-------|
-| Projects | 12 | 2026-02-22 | projects/INDEX.md |
-| People | 45 | 2026-02-20 | people/INDEX.md |
-| Decisions | 23 | 2026-02-22 | decisions/INDEX.md |
+| Projects | 12 | 2026-07-22 | projects/INDEX.md |
+| People | 45 | 2026-07-20 | people/INDEX.md |
+| Decisions | 23 | 2026-07-22 | decisions/INDEX.md |
 
 ## Quick Stats
 Total items: ~80
-Last maintenance: 2026-02-15
+Last maintenance: 2026-07-15
 ```
-
----
 
 ## Projects
 
@@ -57,40 +61,43 @@ Last maintenance: 2026-02-15
 
 | Project | Status | Stack | Updated | File |
 |---------|--------|-------|---------|------|
-| Alpha | Active | React | 2026-02 | alpha.md |
+| Alpha | Active | Postgres/React | 2026-07 | alpha.md |
 | Beta | Paused | Python | 2026-01 | beta.md |
 
 Active: 5 | Paused: 3 | Archived: 20
 ```
 
-**Entry: `~/Clawic/data/memory/projects/{name}.md`**
+**Entry: `~/Clawic/data/memory/projects/{slug}.md`**
 ```markdown
-# Project: [Name]
+# Project: Alpha
 
-**Keywords:** [codename, client name, tech stack, aliases the user says]
+**Keywords:** alpha, Northwind portal, the client dashboard
+**Updated:** 2026-07-25
 
 ## Overview
 Status: active | paused | complete
-Started: YYYY-MM-DD
-Stack: [technologies]
+Started: 2025-09-01
+Stack: Postgres, React
 
-## Description
-[What it is, why it matters]
+## Facts
+- 2026-07-25 · stated · Launch gated on the security audit, not on a date
+- 2026-05-02 · stated · Uses Postgres; Mongo rejected over schema-migration risk
 
-## Key Decisions
-- [YYYY-MM-DD] [Decision and reasoning]
+## Decisions
+- 2026-05-02 · Database choice → decisions/2026.md#database-alpha
 
-## History
-- [YYYY-MM-DD] [What happened]
+## Team
+- Alice (PM) → people/alice-smith.md
 
 ## Current State
-[Where things stand]
+[Where things stand — the fastest-rotting section; date it]
 
 ## Next Steps
 - [ ] [Action]
-```
 
----
+## History
+- 2025-09-01 · stated · Kicked off as an internal tool   (superseded 2026-02-11)
+```
 
 ## People
 
@@ -98,52 +105,76 @@ Stack: [technologies]
 ```markdown
 # People Index
 
-## By Relationship
-
 ### Work
-| Name | Role | Company | File |
-|------|------|---------|------|
-| Alice | PM | Acme | alice.md |
+| Name | Role | Company | Updated | File |
+|------|------|---------|---------|------|
+| Alice Smith | Head of Product | Northwind | 2026-07 | alice-smith.md |
 
 ### Clients
-| Name | Company | File |
-|------|---------|------|
-| Bob | ClientCo | bob.md |
+| Name | Company | Updated | File |
+|------|---------|---------|------|
+| Bob Lee | ClientCo | 2026-06 | bob-lee.md |
 
 ### Personal
-| Name | Context | File |
-|------|---------|------|
-| Carol | Friend | carol.md |
+| Name | Context | Updated | File |
+|------|---------|---------|------|
+| Carol Diaz | Friend | 2026-04 | carol-diaz.md |
 
 Total: 45 contacts
 ```
 
-**Entry: `~/Clawic/data/memory/people/{name}.md`**
+**Entry: `~/Clawic/data/memory/people/{slug}.md`**
 ```markdown
-# [Name]
+# Alice Smith
 
-**Keywords:** [nickname, role, company, shared projects]
+**Keywords:** Ali, PM, product manager, Acme, Northwind, alpha project
+**Updated:** 2026-07-25
+**Not to be confused with:** → people/alice-smith-legal.md
 
 ## Basic Info
-Role: 
-Company: 
+Role: Head of Product
+Company: Northwind
 Relationship: work | client | personal
-Last contact: YYYY-MM-DD
+Last contact: 2026-07-25
+
+## Facts
+- 2026-07-25 · stated · Moved to Northwind as Head of Product
+- 2026-03-02 · stated · No calls before 10:00 her time; prefers async updates
+- 2026-01-14 · inferred · Likely owns the EU accounts (not confirmed)
 
 ## How We Know Each Other
 [Context]
 
-## Key Facts
-- [Important things to remember]
-
-## Communication Style
-- [How they prefer to communicate]
-
 ## History
-- [YYYY-MM-DD] [Interaction]
+- 2024-11-08 · stated · PM at Acme   (superseded 2026-07-25)
 ```
 
----
+Filenames are frozen identifiers, not labels — renames break every inbound link (SKILL.md Entry Anatomy).
+
+## Organizations
+
+**Entry: `~/Clawic/data/memory/orgs/{slug}.md`**
+```markdown
+# Northwind Ltd
+
+**Keywords:** Northwind, NW, the portal client
+**Updated:** 2026-07-25
+
+## Relationship
+Type: client | vendor | employer | competitor
+Since: 2025-09
+
+## Facts
+- 2026-07-25 · observed · Renewal date 2027-01-31 (from contract-2026.pdf, clause 2)
+- 2026-04-10 · stated · Procurement needs two weeks for any new tool
+
+## People
+- Alice Smith (Head of Product) → people/alice-smith.md
+
+## History
+```
+
+Commercial facts carry their own re-check dates (SKILL.md When Facts Change, class-based expiry).
 
 ## Decisions
 
@@ -151,41 +182,27 @@ Last contact: YYYY-MM-DD
 ```markdown
 # Decisions Index
 
-## By Year
-
 | Year | Count | File |
 |------|-------|------|
 | 2026 | 23 | 2026.md |
 | 2025 | 89 | 2025.md |
-
-## By Category
-
-| Category | Count | File |
-|----------|-------|------|
-| Technical | 45 | technical.md |
-| Business | 30 | business.md |
-| Personal | 37 | personal.md |
 ```
 
-**Entry: `~/Clawic/data/memory/decisions/{category}.md` or `{year}.md`**
+**Entry: `~/Clawic/data/memory/decisions/{year}.md`**
 ```markdown
-# Decisions — [Category/Year]
+# Decisions — 2026
 
-## [YYYY-MM-DD] [Decision Title]
+## 2026-05-02 · Database for Alpha
 
-**Decision:** [What was decided]
-**Options considered:** [What else was possible]
-**Reasoning:** [Why this choice]
+**Decision:** Postgres
+**Options considered:** Mongo, Postgres, SQLite
+**Reasoning:** Schema-migration risk with Mongo outweighed the flexibility
 **Outcome:** [What happened, if known]
-**Revisit:** [When to reconsider, if ever]
-
----
-
-## [Another Decision]
-...
+**Revisit:** If write volume passes the point where a single primary struggles
+**Related:** → projects/alpha.md
 ```
 
----
+The reasoning field is the reason this category exists — an outcome without its reasoning cannot be reused, and it is the single most-regretted omission at session end.
 
 ## Knowledge
 
@@ -195,8 +212,7 @@ Last contact: YYYY-MM-DD
 
 | Topic | Depth | Updated | File |
 |-------|-------|---------|------|
-| Machine Learning | Deep | 2026-02 | ml/ |
-| Cooking | Growing | 2026-01 | cooking.md |
+| Machine Learning | Deep | 2026-07 | ml/ |
 | Finance | Reference | 2025-12 | finance.md |
 ```
 
@@ -204,24 +220,20 @@ Last contact: YYYY-MM-DD
 ```markdown
 # [Topic]
 
-## Overview
-[What this is about]
+**Keywords:** [aliases, abbreviations, the user's own jargon]
+**Updated:** 2026-07-25
 
-## Key Concepts
+## Core Concepts
 - **[Concept]:** [Explanation]
 
-## References
-- [Source 1]
-- [Source 2]
+## Sources
+- [Source, with date]
 
-## Notes
-[Learnings, insights]
-
-## Questions
-- [Things still to learn]
+## Open Questions
+- [Still to learn]
 ```
 
----
+Private jargon and codenames get an entry in `knowledge/glossary.md` and an alias in the `Keywords:` line of every entity they touch.
 
 ## Collections
 
@@ -231,35 +243,37 @@ Last contact: YYYY-MM-DD
 
 | Collection | Items | Updated | File |
 |------------|-------|---------|------|
-| Books | 156 | 2026-02 | books.md |
+| Books | 156 | 2026-07 | books.md |
 | Recipes | 45 | 2026-01 | recipes.md |
-| Ideas | 89 | 2026-02 | ideas.md |
 ```
 
-**Entry: Format varies by collection type**
+**Entry:** one table, one row per item — collections are the one category where many facts share a file, because the row *is* the fact.
 
-Books example:
 ```markdown
 # Books
 
 ## Read
-| Title | Author | Rating | Date | Notes |
-|-------|--------|--------|------|-------|
-| [Book] | [Author] | 5/5 | 2026-01 | [Key takeaway] |
+| Title | Author | Rating | Date | Note |
+|-------|--------|--------|------|------|
+| [Book] | [Author] | 5/5 | 2026-01 | [Takeaway] |
 
 ## To Read
 - [Book] by [Author] — [Why interested]
-
-## Notes on Specific Books
-### [Book Title]
-[Detailed notes]
 ```
 
----
+Past ~100 rows the collection splits like any other category (Rule 6): by type, by year, by status.
+
+## Inbox
+
+**`~/Clawic/data/memory/inbox/{YYYY-MM-DD}.md`** — one file per day, one line per capture:
+
+```markdown
+- 2026-07-25 · stated · Northwind's procurement takes two weeks   → orgs/?
+```
+
+Capture cost must be near zero; the arrow is a guess for the sorter, not a commitment.
 
 ## Sync Folder (Optional)
-
-If user wants to sync from built-in memory:
 
 **`~/Clawic/data/memory/sync/INDEX.md`**
 ```markdown
@@ -267,33 +281,21 @@ If user wants to sync from built-in memory:
 
 | What | Source | Last Sync | File |
 |------|--------|-----------|------|
-| Preferences | MEMORY.md | 2026-02-22 | preferences.md |
-| Key Decisions | MEMORY.md | 2026-02-22 | decisions.md |
+| Preferences | MEMORY.md | 2026-07-22 | preferences.md |
 
-Note: This is one-way sync. Built-in memory is not modified.
+One-way sync. Built-in memory is never modified.
 ```
-
----
 
 ## Index Size Limits
 
 | Index Type | Max Entries | When Exceeded |
 |------------|-------------|---------------|
 | Root INDEX.md | 20 categories | More usually means categories overlap — merge before splitting |
-| Category INDEX.md | 100 entries | Split into subcategories (SKILL.md Rule 6) |
-| Subcategory INDEX.md | 100 entries | Split again — each ≤100 level multiplies capacity ×100 |
+| Category INDEX.md | `index_split_at` (default 100) | Split into subcategories (Rule 6) |
+| Subcategory INDEX.md | `index_split_at` | Split again — each level under the cap multiplies capacity ×`index_split_at` |
 | Archive INDEX.md | No limit | Rarely read; off the hot path |
+| Any other index | `index_split_at` | Treat as a category index until it proves it is off the hot path |
 
-Split along the axis you retrieve by (status, relationship, year) — `patterns.md`, Pattern 5.
+## Back To
 
-**Splitting example:**
-```
-projects/
-├── INDEX.md              # "See active/, archived/"
-├── active/
-│   ├── INDEX.md          # Active projects
-│   └── ...
-└── archived/
-    ├── INDEX.md          # Archived projects
-    └── ...
-```
+SKILL.md — Entry Anatomy (the four elements every template above carries), Configuration (every key `config.yaml` may hold), Rules 4, 6 and 7 (dates and sources, index cap, entry size).

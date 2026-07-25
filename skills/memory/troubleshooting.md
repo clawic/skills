@@ -1,243 +1,81 @@
-# Troubleshooting
+# Troubleshooting — Symptom to Cause
 
-## Can't Find Information
+Work symptom-first. Each chain is ordered by how often the cause turns out to be the real one, and every step is a check, not a guess. Stop at the step that reproduces the symptom.
 
-**Symptoms:**
-- "I don't see that in memory"
-- Information exists but not found
+## "I don't see that in memory" (but the user is sure)
 
-**Fixes:**
+1. **Ladder actually run?** Root INDEX → category INDEX → file → full sweep → `inbox/` and `sync/`. Most misses stop at rung 2 and were never a store problem.
+2. **Vocabulary**, the most common real cause (SKILL.md Finding Things): the fact was written in different words. Try the canonical name, the nickname, the old company name, then a word stem. Found it? Add the missed term to that file's `Keywords:` line.
+3. **Unindexed file** — a body hit with no index hit. The write was interrupted before the index row. Add the row, then run the unindexed-files check on that whole category.
+4. **Wrong category**: check the two categories the user might have considered, plus `inbox/`.
+5. **The store is not where you think it is.** A symlinked store (cloud folder, external volume) whose target is unmounted reports an empty store instead of an error: `readlink ~/Clawic/data/memory` and confirm the target exists before believing a negative.
+6. **It lives in built-in memory**, never copied here. Read it there; sync it if it needs structure (Rule 1).
+7. **It was never written.** Say what was searched, then offer to capture it now — the miss is the best capture moment.
 
-| Cause | Check | Fix |
-|-------|-------|-----|
-| Not indexed | `grep -l "topic" ~/Clawic/data/memory/*/INDEX.md` | Add to relevant INDEX |
-| Wrong category | Check other categories and `inbox/` | Move to correct place |
-| Vocabulary mismatch | Try 2-3 keyword variants (nickname, codename, abbreviation) | Add the missed term to the file's `Keywords:` line so the same search never misses twice |
-| In built-in, not here | Check agent's MEMORY.md | Sync if needed |
+## Recall Returns an Outdated Fact
 
-**Quick search:**
-```bash
-# Find across all memory
-grep -r "keyword" ~/Clawic/data/memory/
+1. `grep -ril` the subject: two files holding the same fact is the usual cause, one updated and one not (Rule 5). Merge to one home plus links.
+2. Undated line → it can't be judged stale at all. Date it and mark the source (Rule 4).
+3. Dated, old, still recalled flatly: the answer needed its date attached. Role, place, price, and status facts are always recalled with their date (SKILL.md When Facts Change).
+4. Nothing swept it because no sweep runs: set `maintenance_cadence` and run the staleness pass.
 
-# Find in indices only (faster)
-grep -r "keyword" ~/Clawic/data/memory/*/INDEX.md
-```
+## Recall Returns Something the User Never Said
 
----
+1. Check the source marker. An `inferred` line asserted as fact is the cause in most cases — delete it, and re-read Rule 4's marker discipline.
+2. No marker at all → the entry predates the discipline. Mark what can be reconstructed, delete what can't be trusted.
+3. A paraphrase drifted: the fact was stored as a summary of a conversation rather than the resolved fact. Rewrite it in the fact form.
 
-## Memory Getting Slow
+## Two Entries for the Same Person or Project
 
-**Symptoms:**
-- Takes long to find things
-- Category indices are huge
+1. Confirm they are one entity, not two people sharing a name.
+2. Merge into the **older** file; the newer slug may be nicer but the older one is the one already linked.
+3. Union the Keywords lines, leave a pointer in place of the duplicate for one cycle, then delete it.
+4. If they are two entities: disambiguate the filenames with a stable token and add mutual `Not to be confused with:` lines.
 
-**Fixes:**
+## The Same Fact Lives in Two Skills' Stores
 
-1. **Check index sizes:**
-```bash
-wc -l ~/Clawic/data/memory/*/INDEX.md
-# Line count ≈ entry count. Over 100 entries? Split (SKILL.md Rule 6).
-```
+1. Ask which domain the fact is *about*, not which skill was open when the user said it. The pet fact is `dog`'s, the household fact is `family`'s, the plant fact is `garden`'s (SKILL.md Rule 5).
+2. Delete the copy in the wrong store, do not "keep both in sync" — that is the fork, restated.
+3. Leave one pointer line where the copy was, naming the owning store's path.
+4. Recurring drift means capture is routing on conversation context. Re-read the domain row of SKILL.md Quick Reference before the next write.
 
-2. **Split large categories:**
-```
-Before: projects/INDEX.md (150 entries)
-After:  projects/active/INDEX.md (30 entries)
-        projects/archived/INDEX.md (120 entries)
-```
+## Lookups Feel Slow
 
-3. **Archive old content:**
-```bash
-# Move old items to archive
-mv ~/Clawic/data/memory/projects/old.md ~/Clawic/data/memory/archive/
-# Update both indices
-```
+1. `wc -l $M/*/INDEX.md` — an index past `index_split_at` is scanned on every lookup (Rule 6). Split along the retrieval axis.
+2. Entry past `entry_max_lines` opened for one question → move the History bulk out (Rule 7).
+3. Full sweeps happening routinely → the indices aren't answering. That is a Keywords problem before it is a size problem.
+4. Genuinely large store (>500 files) with all of the above already done → this is growth, not breakage; take the >500-files row of SKILL.md Quick Reference.
 
----
+## Structure Feels Messy
 
-## Conflicting with Built-In Memory
+1. Loose `.md` files in the store root: only `INDEX.md` and `config.yaml` belong there; everything else moves into a category.
+2. Categories with one or two entries that never grew: they were the wrong categories — merge into the closest neighbor (Rule 2).
+3. Every capture triggers a placement debate: the taxonomy fights the way the user thinks. Re-pick a layout rather than adding folders.
+4. `inbox/` is permanent and growing: the pile names the category that is missing.
 
-**Symptoms:**
-- Agent confused about which memory to use
-- Duplicate information
+## INDEX Out of Date
 
-**Rule:** This system (`~/Clawic/data/memory/`) is SEPARATE from built-in.
+1. Files with no rows, rows with no files, links to deleted paths — three checks, each a comparison between the filesystem and the index's claims.
+2. Repair row by row when the damage is small; regenerating loses the status and keyword columns.
+3. Recurring drift means writes are landing without their index update. Tighten the sequence: entry, then row, in the same breath (Rule 3).
 
-**Fixes:**
+## Sync Problems
 
-1. **Never modify built-in memory** from this skill
-2. **Check locations:**
-   - Built-in: workspace `MEMORY.md`, workspace `memory/`
-   - This skill: `~/Clawic/data/memory/` (home directory)
-3. **If duplicates:** Keep detailed version here, summary in built-in
+1. **Conflicted copies**: `INDEX (conflicted copy).md`, `INDEX 2.md` — silent forks holding real facts. Sweep, union the rows, delete the copies.
+2. **Facts missing on one device**: partial sync, not a missing fact. Check the sync client before answering "not found".
+3. **Built-in sync stale**: it is manual and one-way by design (Rule 1). Re-run it and record the date in `sync/INDEX.md`.
+4. **Two agents writing**: entries never collide, indices always do. One writer per category at a time.
 
----
+## Confusion Between This Store and Built-In Memory
 
-## Structure is Messy
+- Built-in: the runtime's `MEMORY.md` and workspace `memory/` — the runtime owns them, this skill only reads (Rule 1).
+- This store: `~/Clawic/data/memory/` in the home directory.
+- Duplicated content across both: keep the summary in built-in, the detail here, and let the summary point here (SKILL.md Built-In Memory vs This Store).
 
-**Symptoms:**
-- Files everywhere
-- Hard to know where things go
+## Nothing Above Fits
 
-**Fixes:**
+Reproduce the failure minimally: pick one fact the user is sure about and walk it end to end — is the file there, is the index row there, does the term appear in the file, does a fresh grep find it? The rung where the chain breaks names the fix.
 
-1. **Establish clear categories:**
-```bash
-ls ~/Clawic/data/memory/
-# Should show clear category folders, not loose files
-```
+## Back To
 
-2. **No files in root:**
-```
-~/Clawic/data/memory/
-├── config.md     # OK (system file)
-├── INDEX.md      # OK (root index)
-├── projects/     # OK (category)
-├── random.md     # BAD - put in a category
-```
-
-3. **Use inbox for unsorted:**
-```bash
-mkdir ~/Clawic/data/memory/inbox
-# Put unclear items there, sort weekly
-```
-
----
-
-## Sync Not Working
-
-**Symptoms:**
-- Sync folder empty or outdated
-- Built-in changes not reflected
-
-**Fixes:**
-
-1. **Check sync is enabled:**
-```bash
-grep sync ~/Clawic/data/memory/config.md
-```
-
-2. **Manual sync:**
-   - Read from agent's MEMORY.md
-   - Extract relevant sections
-   - Write to ~/Clawic/data/memory/sync/
-   - Update ~/Clawic/data/memory/sync/INDEX.md with date
-
-3. **Remember:** Sync is manual, not automatic. Re-sync periodically.
-
----
-
-## Recall Returns Outdated Facts
-
-**Symptoms:**
-- Agent states an old fact as current ("Alice is at Acme" — she left last year)
-
-**Fixes:**
-
-1. **Date-stamp check:** undated entries can't be judged stale — add `YYYY-MM-DD` to every entry (SKILL.md Rule 4)
-2. **Delete, don't archive:** wrong facts get deleted; only old-but-true content is archived — archived wrong facts resurface as truth
-3. **Duplicate hunt:** if a fact was updated in one file but recalled from another, two copies exist. Keep one canonical home, convert the rest to links (SKILL.md Rule 5):
-```bash
-grep -ril "the-fact-keyword" ~/Clawic/data/memory/ | head -5
-```
-
----
-
-## Forgot What Categories Exist
-
-**Quick check:**
-```bash
-# See all categories
-cat ~/Clawic/data/memory/INDEX.md
-
-# See folder structure
-ls ~/Clawic/data/memory/
-```
-
----
-
-## INDEX.md Out of Date
-
-**Symptoms:**
-- Files exist but not in INDEX
-- INDEX lists files that don't exist
-
-**Fix:**
-
-```bash
-# Check for unlisted files
-for f in ~/Clawic/data/memory/projects/*.md; do
-  name=$(basename "$f")
-  grep -q "$name" ~/Clawic/data/memory/projects/INDEX.md || echo "Not indexed: $name"
-done
-
-# Check for dead links (slugs may contain digits and hyphens)
-grep -oE '[a-z0-9-]+\.md' ~/Clawic/data/memory/projects/INDEX.md | while read f; do
-  [ ! -f ~/Clawic/data/memory/projects/"$f" ] && echo "Missing: $f"
-done
-```
-
-**Rebuild INDEX if badly broken:**
-```bash
-# Generate new index from existing files
-ls ~/Clawic/data/memory/projects/*.md | while read f; do
-  name=$(basename "$f" .md)
-  echo "| $name | ? | $(date +%Y-%m-%d) | $name.md |"
-done
-```
-
----
-
-## Not Sure What Goes Where
-
-**Decision tree:**
-
-```
-Is it about a specific project?
-  → projects/
-
-Is it about a person?
-  → people/
-
-Is it a decision with reasoning?
-  → decisions/
-
-Is it reference/learning material?
-  → knowledge/
-
-Is it a list of things you collect?
-  → collections/
-
-None of the above?
-  → inbox/ (sort later)
-```
-
----
-
-## Quick Health Check
-
-```bash
-#!/bin/bash
-echo "=== Memory Health Check ==="
-
-# Check root
-[ -d ~/memory ] && echo "✓ ~/memory exists" || echo "✗ ~/memory missing"
-[ -f ~/Clawic/data/memory/INDEX.md ] && echo "✓ Root INDEX.md exists" || echo "✗ Root INDEX.md missing"
-[ -f ~/Clawic/data/memory/config.md ] && echo "✓ config.md exists" || echo "✗ config.md missing"
-
-# Check categories have indices
-echo ""
-echo "Category indices:"
-for dir in ~/Clawic/data/memory/*/; do
-  name=$(basename "$dir")
-  [ -f "$dir/INDEX.md" ] && echo "  ✓ $name/INDEX.md" || echo "  ✗ $name/INDEX.md missing"
-done
-
-# Count total files
-total=$(find ~/memory -name "*.md" | wc -l)
-echo ""
-echo "Total files: $total"
-
-echo "=== Done ==="
-```
+SKILL.md — Quick Reference (the situation router, and the way to every deeper file), Finding Things (the ladder most of these chains test), Traps (the same failures stated as prevention), Core Rules (the rule each chain is enforcing).
