@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "104d1452703ba4a10257b7f1ef456c8788001b1bdeb72055a530614b487bfbff",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,48 +11,113 @@
   "skill": {
     "slug": "sql",
     "name": "sql",
-    "description": "Designs schemas, writes queries, tunes performance, and runs migrations on PostgreSQL, MySQL, SQLite, SQL Server. Use when writing SQL, fixing slow queries, designing tables and indexes, or operating a database.",
-    "version": "1.0.3",
+    "description": "Writes, reviews, and optimizes SQL queries; designs schemas, indexes, and constraints; plans migrations for any relational database. Use when a query is slow, EXPLAIN shows a sequential scan, or an index is ignored; when rows come back duplicated, missing, or with inflated totals after a JOIN; on deadlocks, lock timeouts, \"too many connections\", or transactions that never commit; when designing tables, keys, and column types, normalizing or denormalizing a model, or deciding between a JSON column and real columns; for ALTER TABLE on a live table, expand-migrate-contract rollouts, backups and restores, replication lag, connection pooling, partitioning, bulk CSV imports, and moving data between engines; for window functions, CTEs, keyset pagination, upserts, full-text search, multi-tenancy, row-level security, and timezone handling in MySQL, SQLite, MariaDB, or SQL Server. Not for PostgreSQL server internals such as vacuum tuning and work_mem sizing, and not for ORM schema modeling inside a framework.",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/sql",
-    "summary": "SQL Relational databases across SQLite, PostgreSQL, MySQL, and SQL Server: schema design, query patterns, performance, migrations, operations. When To Use - Writing or reviewing SQL, or debugging why a query is slow - De",
+    "summary": "User preferences and memory live in `~/Clawic/data/sql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/sql/` or `~/clawic/sql/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/sql",
     "manifestPath": "registry/skills/sql.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sql/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/sql/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/_meta.json",
-      "byteCount": 382,
-      "sha256": "e5790caa1af9ddcaa846b0bb2b0ae7f6bef0bca6ba9d120b52eca63f44c23229"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/_meta.json"
+    },
+    {
+      "path": "analytics.md",
+      "downloadPath": "skills/sql/analytics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/analytics.md"
+    },
+    {
+      "path": "data-loading.md",
+      "downloadPath": "skills/sql/data-loading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/data-loading.md"
+    },
+    {
+      "path": "datetime.md",
+      "downloadPath": "skills/sql/datetime.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/datetime.md"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/sql/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/debug.md"
+    },
+    {
+      "path": "dialects.md",
+      "downloadPath": "skills/sql/dialects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/dialects.md"
+    },
+    {
+      "path": "json.md",
+      "downloadPath": "skills/sql/json.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/json.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/sql/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/memory-template.md"
+    },
+    {
+      "path": "modeling.md",
+      "downloadPath": "skills/sql/modeling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/modeling.md"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/sql/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/operations.md",
-      "byteCount": 11119,
-      "sha256": "73e444b914e7ddd268a680d40ab396afa12f46511e8f3bffc5485e4a1f7a1b32"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/operations.md"
+    },
+    {
+      "path": "orm.md",
+      "downloadPath": "skills/sql/orm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/orm.md"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/sql/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/patterns.md",
-      "byteCount": 8821,
-      "sha256": "987b742f9a569f93cb2e869e4567c19d3cc28434a374fadb989f300f72a93ec1"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/patterns.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/sql/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/performance.md"
+    },
+    {
+      "path": "scaling.md",
+      "downloadPath": "skills/sql/scaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/scaling.md"
     },
     {
       "path": "schemas.md",
       "downloadPath": "skills/sql/schemas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/schemas.md",
-      "byteCount": 10983,
-      "sha256": "8b81e9428b4b97d867d763dd8683098bbd97a50b635c245a0b7d338251c03513"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/schemas.md"
     },
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/sql/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/SKILL.md",
-      "byteCount": 9268,
-      "sha256": "8965b688c7824cd28f49562839b17191e485de1aae38d5a522fdef9f50990735"
+      "path": "security.md",
+      "downloadPath": "skills/sql/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/security.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/sql/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/setup.md"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/sql/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/testing.md"
+    },
+    {
+      "path": "transactions.md",
+      "downloadPath": "skills/sql/transactions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/transactions.md"
     }
   ]
 }
