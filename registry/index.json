@@ -834,10 +834,10 @@
     {
       "slug": "aws",
       "name": "aws",
-      "description": "Architect, deploy, and optimize AWS infrastructure \u2014 service selection, cost control, security hardening. Use when the user mentions AWS, EC2, S3, Lambda, RDS, VPC, IAM, CloudFront, DynamoDB, or a surprise cloud bill.",
-      "version": "1.0.4",
+      "description": "Architects, debugs, secures, and cost-optimizes AWS infrastructure \u2014 EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront. Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied, throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda, Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design, NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest authoring (`k8s`), or Terraform language mechanics (`terraform`).",
+      "version": "1.0.5",
       "homepage": "https://clawic.com/skills/aws",
-      "summary": "Working data lives in `~/Clawic/data/aws/` \u2014 account context, resource inventory, cost notes. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`. Setup On first use, read `",
+      "summary": "Working data lives in `~/Clawic/data/aws/` \u2014 `config.yaml` (declared preferences), `memory.md` (observed context), `resources.md` (infrastructure inventory), `spend-log.md` (cost history). Read `setup.md` on first use; `",
       "repositoryPath": "skills/aws",
       "manifestPath": "registry/skills/aws.json"
     },

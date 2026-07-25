@@ -1,85 +1,110 @@
-# Memory Template — AWS
+# Working File Templates — AWS
 
-Create `~/Clawic/data/aws/memory.md` with this structure:
+Everything lives in `~/Clawic/data/aws/`. `config.yaml` is what the user **declared**; the files below are what the agent **observed** or **recorded**. An observation never overwrites a declaration.
+
+**Contents:** [config.yaml](#configyaml) · [memory.md](#memorymd) · [resources.md](#resourcesmd) · [spend-log.md](#spend-logmd)
+
+## config.yaml
+
+Keys come from the Configuration table in `SKILL.md`. Write a key only when the user states the preference.
+
+```yaml
+default_region: eu-west-1
+cli_profile: prod
+iac_tool: terraform
+monthly_budget_usd: 250
+account_model: organization
+compliance_regime: none
+
+# Preference areas — free-form keys added as the user reveals them
+conventions:
+  tags: [Environment, Project, Owner, CostCenter]
+  cidr_scheme: "10.<env>.0.0/16, /20 subnets"
+platform:
+  instance_families: [m7g, t4g]     # Graviton standard
+safety_posture:
+  destructive_commands: confirm-each
+```
+
+## memory.md
 
 ```markdown
 # AWS Memory
 
 ## Status
 status: ongoing
-version: 2.0.0
 last: YYYY-MM-DD
-integration: pending
 
 ## Account Context
-<!-- AWS account details learned from conversations -->
-<!-- Example: Personal account, us-east-1 primary, ~$100/month budget -->
+<!-- What the account is for, its stage, who else touches it -->
 
 ## Current Infrastructure
-<!-- What's deployed, high-level -->
-<!-- Example: Single EC2 (t3.small) + RDS PostgreSQL + S3 bucket -->
+<!-- High level only; the inventory belongs in resources.md -->
 
-## Preferences
-<!-- How they like to work -->
-<!-- Example: Prefers Terraform, wants cost alerts at $50 -->
+## Pain Points
+<!-- Past incidents, surprise bills, things that burned them -->
 
-## Cost Notes
-<!-- Budget constraints, past surprises, optimization wins -->
-
-## Notes
-<!-- Internal observations -->
+## How They Work
+<!-- Experience level, preferred answer shape, tolerance for detail -->
 
 ---
 *Updated: YYYY-MM-DD*
 ```
 
-## Status Values
+| Status | Meaning |
+|-------|---------|
+| `ongoing` | Still learning their setup |
+| `complete` | Know their account and workflow well |
 
-| Value | Meaning | Behavior |
-|-------|---------|----------|
-| `ongoing` | Still learning context | Gather info opportunistically |
-| `complete` | Know their setup well | Focus on execution |
-| `paused` | User said "not now" | Don't ask, work with what you have |
+## resources.md
 
-## Additional Files (Optional)
+Written by an inventory pass (SKILL.md Rule 1) so the next session starts from facts, not from a rediscovery.
 
-### resources.md
-Track active infrastructure:
 ```markdown
-# AWS Resources
+# AWS Resources — account 111122223333
 
-## EC2 Instances
-| Name | Type | Region | Purpose |
-|------|------|--------|---------|
+## Compute
+| Name | Type | Region/AZ | Purpose | Monthly |
+|------|------|-----------|---------|---------|
 
-## RDS Databases
-| Name | Engine | Type | Multi-AZ |
-|------|--------|------|----------|
+## Databases
+| Name | Engine | Class | Multi-AZ | Backup retention |
+|------|--------|-------|----------|------------------|
 
-## S3 Buckets
-| Name | Region | Purpose |
-|------|--------|---------|
+## Storage
+| Bucket / Volume | Region | Purpose | Lifecycle |
+|-----------------|--------|---------|-----------|
+
+## Networking
+| VPC | CIDR | Subnets | NAT / endpoints |
+|-----|------|---------|-----------------|
+
+## Known Gaps
+<!-- Things seen but not yet understood, resources with no owner -->
 
 ---
-*Updated: YYYY-MM-DD*
+*Inventoried: YYYY-MM-DD*
 ```
 
-### costs.md
-Track spending:
+## spend-log.md
+
 ```markdown
-# AWS Costs
+# AWS Spend
 
-## Monthly Tracking
-| Month | Actual | Budget | Notes |
-|-------|--------|--------|-------|
+## Monthly
+| Month | Actual | Budget | Top service | Notes |
+|-------|--------|--------|-------------|-------|
 
-## Alerts Set
-- Billing: $X threshold
-- Service-specific: ...
+## Alerts Configured
+- Budget: $X actual at 80%, forecast at 100%
+- Anomaly subscription: $Y daily threshold
 
-## Optimization Wins
-<!-- Cost savings achieved -->
+## Optimization Log
+| Date | Change | Monthly saving |
+|------|--------|----------------|
 
 ---
 *Updated: YYYY-MM-DD*
 ```
+
+The optimization log is the reason this file exists: without it, the same NAT gateway gets rediscovered every quarter and nobody can say what the last cleanup was worth.
