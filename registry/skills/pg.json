@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "0e863a4b03ee79131f0b36bc781b594b9980bc3ff33b801ad681205bfc04aae1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,27 +11,158 @@
   "skill": {
     "slug": "pg",
     "name": "pg",
-    "description": "Tunes and designs PostgreSQL: indexing, EXPLAIN-driven query optimization, schema types, safe migrations, vacuum, connection pooling. Use when writing Postgres SQL, designing schemas, running production DDL, or debugging slow queries.",
-    "version": "1.0.2",
+    "description": "Tunes, designs, and operates PostgreSQL: slow queries, indexes, schemas, migrations, vacuum, locks, replication, backups. Use when writing Postgres SQL or psql, designing tables and indexes, reading an EXPLAIN plan, running DDL or a migration against a live table, or when a query suddenly got slow, a table keeps growing while rows stay flat, autovacuum cannot keep up, \"too many clients already\" appears, a replica lags, deadlocks and lock waits pile up, pg_wal fills the disk, or an upgrade, a restore, or a partitioning plan is on the table. Covers connection pooling and PgBouncer, full-text, trigram and pgvector search, JSONB, roles and row-level security, PITR, extensions, and managed Postgres (RDS, Aurora, Cloud SQL, Neon, Supabase). Not for cross-engine SQL portability or ORM-level modeling.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/pg",
-    "summary": "When To Use - A Postgres query is slow, or an EXPLAIN plan needs interpretation - Designing a schema: types, constraints, indexes, keys - Running DDL or a migration against a live production table - Operating Postgres: c",
+    "summary": "User preferences and memory live in `~/Clawic/data/pg/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/pg/` or `~/clawic/pg/`), move it to `~/Clawic/data/",
     "repositoryPath": "skills/pg",
     "manifestPath": "registry/skills/pg.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/pg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json",
-      "byteCount": 314,
-      "sha256": "251e20f00393c96104ee476964b3b488e5e93d7903ee482c9c581048441f0be2"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/pg/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md",
-      "byteCount": 13502,
-      "sha256": "993ec41d0676698dce5fc31c03b4093a2e4914980427a08613384a6eaf413b5a"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/pg/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json"
+    },
+    {
+      "path": "backup-restore.md",
+      "downloadPath": "skills/pg/backup-restore.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/backup-restore.md"
+    },
+    {
+      "path": "bulk-load.md",
+      "downloadPath": "skills/pg/bulk-load.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/bulk-load.md"
+    },
+    {
+      "path": "connections.md",
+      "downloadPath": "skills/pg/connections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/connections.md"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/pg/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/errors.md"
+    },
+    {
+      "path": "extensions.md",
+      "downloadPath": "skills/pg/extensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/extensions.md"
+    },
+    {
+      "path": "functions-triggers.md",
+      "downloadPath": "skills/pg/functions-triggers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/functions-triggers.md"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/pg/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/incidents.md"
+    },
+    {
+      "path": "indexing.md",
+      "downloadPath": "skills/pg/indexing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/indexing.md"
+    },
+    {
+      "path": "json.md",
+      "downloadPath": "skills/pg/json.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/json.md"
+    },
+    {
+      "path": "locks.md",
+      "downloadPath": "skills/pg/locks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/locks.md"
+    },
+    {
+      "path": "managed-postgres.md",
+      "downloadPath": "skills/pg/managed-postgres.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/managed-postgres.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/pg/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/memory-template.md"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/pg/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/migrations.md"
+    },
+    {
+      "path": "monitoring.md",
+      "downloadPath": "skills/pg/monitoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/monitoring.md"
+    },
+    {
+      "path": "partitioning.md",
+      "downloadPath": "skills/pg/partitioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/partitioning.md"
+    },
+    {
+      "path": "psql.md",
+      "downloadPath": "skills/pg/psql.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/psql.md"
+    },
+    {
+      "path": "queues.md",
+      "downloadPath": "skills/pg/queues.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/queues.md"
+    },
+    {
+      "path": "replication.md",
+      "downloadPath": "skills/pg/replication.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/replication.md"
+    },
+    {
+      "path": "schema-design.md",
+      "downloadPath": "skills/pg/schema-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/schema-design.md"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/pg/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/search.md"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/pg/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/security.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/pg/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/setup.md"
+    },
+    {
+      "path": "slow-queries.md",
+      "downloadPath": "skills/pg/slow-queries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/slow-queries.md"
+    },
+    {
+      "path": "test-databases.md",
+      "downloadPath": "skills/pg/test-databases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/test-databases.md"
+    },
+    {
+      "path": "tuning.md",
+      "downloadPath": "skills/pg/tuning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/tuning.md"
+    },
+    {
+      "path": "upgrades.md",
+      "downloadPath": "skills/pg/upgrades.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/upgrades.md"
+    },
+    {
+      "path": "vacuum-bloat.md",
+      "downloadPath": "skills/pg/vacuum-bloat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/vacuum-bloat.md"
     }
   ]
 }

@@ -6824,10 +6824,10 @@
     {
       "slug": "pg",
       "name": "pg",
-      "description": "Tunes and designs PostgreSQL: indexing, EXPLAIN-driven query optimization, schema types, safe migrations, vacuum, connection pooling. Use when writing Postgres SQL, designing schemas, running production DDL, or debugging slow queries.",
-      "version": "1.0.2",
+      "description": "Tunes, designs, and operates PostgreSQL: slow queries, indexes, schemas, migrations, vacuum, locks, replication, backups. Use when writing Postgres SQL or psql, designing tables and indexes, reading an EXPLAIN plan, running DDL or a migration against a live table, or when a query suddenly got slow, a table keeps growing while rows stay flat, autovacuum cannot keep up, \"too many clients already\" appears, a replica lags, deadlocks and lock waits pile up, pg_wal fills the disk, or an upgrade, a restore, or a partitioning plan is on the table. Covers connection pooling and PgBouncer, full-text, trigram and pgvector search, JSONB, roles and row-level security, PITR, extensions, and managed Postgres (RDS, Aurora, Cloud SQL, Neon, Supabase). Not for cross-engine SQL portability or ORM-level modeling.",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/pg",
-      "summary": "When To Use - A Postgres query is slow, or an EXPLAIN plan needs interpretation - Designing a schema: types, constraints, indexes, keys - Running DDL or a migration against a live production table - Operating Postgres: c",
+      "summary": "User preferences and memory live in `~/Clawic/data/pg/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/pg/` or `~/clawic/pg/`), move it to `~/Clawic/data/",
       "repositoryPath": "skills/pg",
       "manifestPath": "registry/skills/pg.json"
     },
