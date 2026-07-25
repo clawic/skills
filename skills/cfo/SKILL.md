@@ -1,7 +1,7 @@
 ---
 name: cfo
 slug: cfo
-version: 1.0.5
+version: 1.0.6
 description: >-
   Acts as chief financial officer (CFO): forecasts cash, computes runway and burn,
   runs the monthly close, and models a fundraise. Use when the question is how
