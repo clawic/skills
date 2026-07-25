@@ -1,6 +1,6 @@
 # Memory Template - Scale Frameworks
 
-Create `~/scale/memory.md` with this structure:
+Create `~/Clawic/data/scale/memory.md` with this structure:
 
 ```markdown
 # Scale Frameworks Memory

@@ -1,12 +1,12 @@
 # Setup — Help Center
 
-Read this when `~/help-center/` is missing or empty.
+Read this when `~/Clawic/data/help-center/` is missing or empty.
 
 ## First-Run Transparency
 
 Tell the user what can be created locally:
-- Workspace path: `~/help-center/`
-- Decision memory: `~/help-center/memory.md`
+- Workspace path: `~/Clawic/data/help-center/`
+- Decision memory: `~/Clawic/data/help-center/memory.md`
 - Optional planning files for provider scoring, content inventory, and rollout logs
 
 Create files only after user confirmation.
@@ -46,6 +46,6 @@ Do not infer hidden preferences from passive behavior.
 
 ## Boundaries
 
-- Keep local files inside `~/help-center/`
+- Keep local files inside `~/Clawic/data/help-center/`
 - Do not edit provider production content until the user approves execution
 - Ask before creating or modifying any local planning file

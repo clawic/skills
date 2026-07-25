@@ -1,7 +1,17 @@
 ---
-name: VPS
+name: vps
+slug: vps
+version: 1.0.0
 description: Provision, secure, and manage virtual private servers with practical hosting guidance.
-metadata: {"clawdbot":{"emoji":"🖧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vps
+metadata:
+  clawdbot:
+    emoji: 🖧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: VPS
 ---
 
 # VPS Management Rules

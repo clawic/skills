@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e3a0fed7c9606cc269663a192a9ab7e8fee09bb08097e876c01e6236375ac9b4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "second-order-effects",
-    "name": "Second Order Effects",
+    "name": "second-order-effects",
     "description": "Analyze decisions by tracing consequences beyond immediate outcomes to second and third-order effects.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/second-order-effects",
-    "summary": "Setup If `~/second-order-effects/` doesn't exist, or user's memory file shows setup incomplete, read `setup.md` first. When to Use User faces a decision with non-obvious downstream effects. Agent traces consequences thro",
+    "summary": "Setup If `~/Clawic/data/second-order-effects/` doesn't exist, or user's memory file shows setup incomplete, read `setup.md` first. When to Use User faces a decision with non-obvious downstream effects. Agent traces conse",
     "repositoryPath": "skills/second-order-effects",
     "manifestPath": "registry/skills/second-order-effects.json"
   },
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/second-order-effects/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/_meta.json",
+      "byteCount": 192,
+      "sha256": "91c09badff2b01ec2dd1447a8aece9fe960efb1768d3e4d049019b44effe47be"
     },
     {
       "path": "framework.md",
       "downloadPath": "skills/second-order-effects/framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/framework.md",
+      "byteCount": 3137,
+      "sha256": "e9709c0aa7f0b367658850bc1e1371db6118d68d623cee323f3b19a85d4e729c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/second-order-effects/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/memory-template.md",
+      "byteCount": 1796,
+      "sha256": "cad1a29c9e64783bfad7441e31f526adcec98fd106d3853962cdf91cf947cafc"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/second-order-effects/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/patterns.md",
+      "byteCount": 4309,
+      "sha256": "5979035187ac4543e9811fb67b83a881722a786c7b33149044d3e4b9e9dfbeeb"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/second-order-effects/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/setup.md",
+      "byteCount": 2449,
+      "sha256": "7adc42b3dda68e259e1f9b8c768a7332aa4c21de36097cb72594fac9fa2a6220"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/second-order-effects/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/second-order-effects/SKILL.md",
+      "byteCount": 4422,
+      "sha256": "f343f1e8de98cffffd313bb5919b5b4e511a7cbb51e89dba3a0afe4d86cb6e00"
     }
   ]
 }

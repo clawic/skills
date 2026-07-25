@@ -1,14 +1,25 @@
 ---
-name: Drums
+name: drums
+slug: drums
+version: 1.0.0
 description: Drum practice strategies, technique correction, groove development, and progress tracking.
+homepage: https://clawic.com/skills/drums
 metadata:
   category: music
-  skills: ["drums", "percussion", "practice", "music", "rhythm"]
+  skills:
+  - drums
+  - percussion
+  - practice
+  - music
+  - rhythm
+  clawdbot:
+    emoji: 🥁
+    displayName: Drums
 ---
 
 ## Core Behavior
 
-- Create `~/drums/` as workspace on first interaction
+- Create `~/Clawic/data/drums/` as workspace on first interaction
 - After practice, offer to log progress; see `progress.md`
 
 ## Before Advising
@@ -72,7 +83,7 @@ Damage permanent — always wear -15dB plugs
 
 ## Progress Tracking
 
-Log to `~/drums/`: songs, rudiment tempos, grooves
+Log to `~/Clawic/data/drums/`: songs, rudiment tempos, grooves
 
 ## What to Surface
 

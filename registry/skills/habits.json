@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "574d29159c650d4a8e8cb7f3a830ae4adfe184cc52970c9a9dc9db687d455a5c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "habits",
-    "name": "Habits",
+    "name": "habits",
     "description": "Build a personal habit tracking system with streaks, reviews, and progression.",
-    "summary": "Core Behavior - User mentions doing something regularly → offer to track as habit - Daily check-in prompt if enabled → \"Did you do X today?\" - Surface streaks and patterns → motivation through visibility - Create `~/habi",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/habits",
+    "summary": "Core Behavior - User mentions doing something regularly → offer to track as habit - Daily check-in prompt if enabled → \"Did you do X today?\" - Surface streaks and patterns → motivation through visibility - Create `~/Claw",
     "repositoryPath": "skills/habits",
     "manifestPath": "registry/skills/habits.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/habits/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/_meta.json",
+      "byteCount": 164,
+      "sha256": "e023feebe4351861e243003ac6d56d54d1ba1233d934561f621e74c7ca80bfca"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/habits/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/SKILL.md",
+      "byteCount": 3667,
+      "sha256": "4e0e14a87a76448cda9124d2edca57180c4edbb61f32841d31b529e516f90a6d"
     }
   ]
 }

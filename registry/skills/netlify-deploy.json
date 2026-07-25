@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ff6f7551dd9919dd15214079058fda917c0108e55bedee77d59e628d4f433805",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "netlify-deploy",
-    "name": "Netlify Deploy",
+    "name": "netlify-deploy",
     "description": "Deploy and manage Netlify sites with npx netlify, including auth, linking, preview deploys, production releases, and config checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/netlify-deploy",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/netlify-deploy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/_meta.json",
+      "byteCount": 180,
+      "sha256": "51341d77f58c30ddaf3a841d7901533e68bada325bef5347bd26986cdcc0e165"
     },
     {
       "path": "cli-commands.md",
       "downloadPath": "skills/netlify-deploy/cli-commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/cli-commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/cli-commands.md",
+      "byteCount": 829,
+      "sha256": "035e5d1465c91f9e0d6f65169f10a28982f5b96699e44cab83415e8761b5171d"
     },
     {
       "path": "deployment-patterns.md",
       "downloadPath": "skills/netlify-deploy/deployment-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/deployment-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/deployment-patterns.md",
+      "byteCount": 1265,
+      "sha256": "75018127d850d1f28331fbfc95697d68143530306869f9ab48833d14251dd143"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/netlify-deploy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/memory-template.md",
+      "byteCount": 1020,
+      "sha256": "ed56ff213add24c413345454ba42055cdaa51c18addf3b5f06208c92e6b4dd57"
     },
     {
       "path": "netlify-toml.md",
       "downloadPath": "skills/netlify-deploy/netlify-toml.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/netlify-toml.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/netlify-toml.md",
+      "byteCount": 929,
+      "sha256": "2973833b5545ed310a3af428c16763b61b2482586a07253a1511180fde97d5fe"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/netlify-deploy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/setup.md",
+      "byteCount": 1393,
+      "sha256": "16a7f680d8a845678a3c25e8f003e79bcaa871b800d0240a580276c31eb0fb53"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/netlify-deploy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/netlify-deploy/SKILL.md",
+      "byteCount": 5540,
+      "sha256": "34741d0b7f34082824c3bcb3336fe38c0e044b55284a2bca81912fe477981279"
     }
   ]
 }

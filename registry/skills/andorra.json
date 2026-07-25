@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "018f863e3afcb421d3f87720f8ea0172513eaa0b1ee0a8359ed7680fcb130985",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "andorra",
-    "name": "Andorra",
+    "name": "andorra",
     "description": "Plan Andorra trips with parish-level tips for skiing, hiking, shopping, wellness, and cross-border logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/andorra",
-    "summary": "Setup If `~/andorra/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Andorra or needing practical local guidance: where to stay, which parish fits their style, how to ",
+    "summary": "Setup If `~/Clawic/data/andorra/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Andorra or needing practical local guidance: where to stay, which parish fits their st",
     "repositoryPath": "skills/andorra",
     "manifestPath": "registry/skills/andorra.json"
   },
@@ -22,122 +25,170 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/andorra/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/_meta.json",
+      "byteCount": 166,
+      "sha256": "e410548e172c5c74f88ff1dfb873f35eaf1da78e714ff60bf566fe6e49dec1ae"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/andorra/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/accommodation.md",
+      "byteCount": 1078,
+      "sha256": "d7d1c1a3400bf33c9d52e398e80dfb07cc9bf98291eea3f2143ca208db098c59"
     },
     {
       "path": "andorra-la-vella.md",
       "downloadPath": "skills/andorra/andorra-la-vella.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/andorra-la-vella.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/andorra-la-vella.md",
+      "byteCount": 2182,
+      "sha256": "7a96fb3cb893b5688fe59017219bc49585c1b98952f0ff6b91e53f0a1e932fe5"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/andorra/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/apps.md",
+      "byteCount": 1013,
+      "sha256": "8a540a1c344e51b9debb359a764ed11e1102079fc2223cee316401082ede841f"
     },
     {
       "path": "canillo.md",
       "downloadPath": "skills/andorra/canillo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/canillo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/canillo.md",
+      "byteCount": 1848,
+      "sha256": "0573473dbdfa5e7e31da6e96551f45f8a469dbd8f623be5a2d518007335bc9b7"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/andorra/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/culture.md",
+      "byteCount": 1241,
+      "sha256": "b455108c1261537573f15e8a8ec8c1c3be5def1111a6ef692e4838aa54928c63"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/andorra/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/emergencies.md",
+      "byteCount": 1404,
+      "sha256": "017873cd14a54a972eef5d4b4126b3491d62229e14b7699eb722f0abce0f0437"
     },
     {
       "path": "escaldes-engordany.md",
       "downloadPath": "skills/andorra/escaldes-engordany.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/escaldes-engordany.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/escaldes-engordany.md",
+      "byteCount": 2059,
+      "sha256": "1c06a62265fc71c4da71c26bf37348851cfdbc0daa9d43e62eee89a9af2f7547"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/andorra/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/experiences.md",
+      "byteCount": 1595,
+      "sha256": "06e7c92548e911d57d8a719604740b536c7219c8dd727cfc3e3a2681f49fa1d3"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/andorra/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/food-guide.md",
+      "byteCount": 2081,
+      "sha256": "b74d135478897970670a82449902cb6fd96fe5681af641e0b79b0b86e490d146"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/andorra/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/hiking.md",
+      "byteCount": 1538,
+      "sha256": "aee7e7bfd997b8e30a6ddbf61de1be300e48631dbf34f4455c1b38c3cf8f5ba0"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/andorra/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/itineraries.md",
+      "byteCount": 1210,
+      "sha256": "9d7d1f3e50d79ec190ec9b7e1f50908ada2595d839a3092a08c01c19ef001ed4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/andorra/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/memory-template.md",
+      "byteCount": 976,
+      "sha256": "ad5a36dce8135fe891e220b206c55f70638e9dca09b04474f3be7aa40a4a1099"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/andorra/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/nightlife.md",
+      "byteCount": 1210,
+      "sha256": "311b9e93b78907e79427816ab0e9af75c88f192140f8aa6e241d383d0f7b5aec"
     },
     {
       "path": "ordino.md",
       "downloadPath": "skills/andorra/ordino.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/ordino.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/ordino.md",
+      "byteCount": 1686,
+      "sha256": "04cb22808050e1f1b64855739bf477f1e1ca6fed698ad68016fcd5ce592c20d0"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/andorra/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/regions.md",
+      "byteCount": 1707,
+      "sha256": "513ac72b8c3f744a98895cdb775f9609a59372380ba2f1741e4a0536ffec9544"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/andorra/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/setup.md",
+      "byteCount": 1310,
+      "sha256": "ae32d98cf591a5d10d920ff4b0fc75758353e56a081d9943b63ddebc9121844e"
     },
     {
       "path": "shopping.md",
       "downloadPath": "skills/andorra/shopping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/shopping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/shopping.md",
+      "byteCount": 1385,
+      "sha256": "97117fd35a885fe5c4e9fa7a389f624aa276ae8813d91c974c5a61135deaf719"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/andorra/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/SKILL.md",
+      "byteCount": 5143,
+      "sha256": "c50dd8c4014a76fffd6ee455237344d442f29f100a4247a1046fcdb0113cdccc"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/andorra/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/telecoms.md",
+      "byteCount": 1145,
+      "sha256": "fcbcd65111545b56e2ababfe78e329d4c765f71a8beb94cb7c15d1871053d7eb"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/andorra/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/transport.md",
+      "byteCount": 1572,
+      "sha256": "5da4fa31a8ab987d45f00f68488eabc911e84f8c7f0a6fb2247d1e3151adf1b5"
     },
     {
       "path": "wellness.md",
       "downloadPath": "skills/andorra/wellness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/wellness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/wellness.md",
+      "byteCount": 1080,
+      "sha256": "c95ee992bb5af202ad340b66f61b21f1bb0f8a5a0f208ed82762ba7dd6a844b9"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/andorra/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/wine.md",
+      "byteCount": 1377,
+      "sha256": "f155fd08b34df85ce83470450f6324313396cbd1671d5fdc8730a07df1dc166b"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/andorra/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/andorra/with-kids.md",
+      "byteCount": 1218,
+      "sha256": "d99e58dca57459f9611c1ad9c1e4cc367fcdaf294def8757ecf68f19be2b3378"
     }
   ]
 }

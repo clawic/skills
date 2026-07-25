@@ -1,15 +1,25 @@
 ---
-name: Keras
+name: keras
 slug: keras
 version: 1.0.0
-homepage: https://clawic.com/skills/keras
 description: Build, train, and debug deep learning models with Keras patterns, layer recipes, and training diagnostics.
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/keras
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Keras
 ---
 
 ## Setup
 
-On first use, check `setup.md` for integration guidelines. The skill stores preferences in `~/keras/` when the user confirms.
+On first use, check `setup.md` for integration guidelines. The skill stores preferences in `~/Clawic/data/keras/` when the user confirms.
 
 ## When to Use
 
@@ -17,10 +27,10 @@ User builds neural networks with Keras or TensorFlow. Agent handles model archit
 
 ## Architecture
 
-Memory lives in `~/keras/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/keras/`. See `memory-template.md` for setup.
 
 ```
-~/keras/
+~/Clawic/data/keras/
 ├── memory.md          # Preferred architectures, hyperparams
 └── models/            # Saved model configs (optional)
 ```
@@ -155,16 +165,16 @@ model.compile(
 ## Security & Privacy
 
 **Data that stays local:**
-- Model architectures and configs in `~/keras/`
+- Model architectures and configs in `~/Clawic/data/keras/`
 - Training preferences and hyperparameters
 
 **This skill does NOT:**
 - Upload models or data anywhere
-- Access files outside `~/keras/` and working directory
+- Access files outside `~/Clawic/data/keras/` and working directory
 - Store training data
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `tensorflow` — TensorFlow operations and deployment
 - `pytorch` — Alternative deep learning framework
@@ -173,5 +183,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star keras`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/keras
+- Latest version: https://clawic.com/skills/keras

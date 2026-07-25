@@ -1,11 +1,26 @@
 ---
-name: Self-Improving + Proactive Agent
+name: self-improving
 slug: self-improving
 version: 1.2.16
+description: Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. Use when (1) a command, tool, API, or operation fails; (2) the user corrects you or rejects your work; (3) you realize your knowledge is outdated or incorrect; (4) you discover a better approach; (5) the user explicitly installs or references the skill for the current task.
 homepage: https://clawic.com/skills/self-improving
-description: "Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. Use when (1) a command, tool, API, or operation fails; (2) the user corrects you or rejects your work; (3) you realize your knowledge is outdated or incorrect; (4) you discover a better approach; (5) the user explicitly installs or references the skill for the current task."
-changelog: "Clarifies the setup flow for proactive follow-through and safer installation behavior."
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/self-improving/"],"configPaths.optional":["./AGENTS.md","./SOUL.md","./HEARTBEAT.md"]}}
+changelog: Clarifies the setup flow for proactive follow-through and safer installation behavior.
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/self-improving/
+    configPaths.optional:
+    - ./AGENTS.md
+    - ./SOUL.md
+    - ./HEARTBEAT.md
+    displayName: Self-Improving + Proactive Agent
 ---
 
 ## When to Use
@@ -14,11 +29,11 @@ User corrects you or points out mistakes. You complete significant work and want
 
 ## Architecture
 
-Memory lives in `~/self-improving/` with tiered structure. If `~/self-improving/` does not exist, run `setup.md`.
+Memory lives in `~/Clawic/data/self-improving/` with tiered structure. If `~/Clawic/data/self-improving/` does not exist, run `setup.md`.
 Workspace setup should add the standard self-improving steering to the workspace AGENTS, SOUL, and `HEARTBEAT.md` files, with recurring maintenance routed through `heartbeat-rules.md`.
 
 ```
-~/self-improving/
+~/Clawic/data/self-improving/
 ├── memory.md          # HOT: ≤100 lines, always loaded
 ├── index.md           # Topic index with line counts
 ├── heartbeat-state.md # Heartbeat state: last run, reviewed change, action notes
@@ -214,21 +229,21 @@ If context limit hit:
 
 This skill ONLY:
 - Learns from user corrections and self-reflection
-- Stores preferences in local files (`~/self-improving/`)
-- Maintains heartbeat state in `~/self-improving/heartbeat-state.md` when the workspace integrates heartbeat
+- Stores preferences in local files (`~/Clawic/data/self-improving/`)
+- Maintains heartbeat state in `~/Clawic/data/self-improving/heartbeat-state.md` when the workspace integrates heartbeat
 - Reads its own memory files on activation
 
 This skill NEVER:
 - Accesses calendar, email, or contacts
 - Makes network requests
-- Reads files outside `~/self-improving/`
+- Reads files outside `~/Clawic/data/self-improving/`
 - Infers preferences from silence or observation
 - Deletes or blindly rewrites self-improving memory during heartbeat cleanup
 - Modifies its own SKILL.md
 
 ## Data Storage
 
-Local state lives in `~/self-improving/`:
+Local state lives in `~/Clawic/data/self-improving/`:
 
 - `memory.md` for HOT rules and confirmed preferences
 - `corrections.md` for explicit corrections and reusable lessons
@@ -237,7 +252,7 @@ Local state lives in `~/self-improving/`:
 - `heartbeat-state.md` for recurring maintenance markers
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `memory` — Long-term memory patterns for agents
 - `learning` — Adaptive teaching and explanation
@@ -246,5 +261,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star self-improving`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/self-improving
+- Latest version: https://clawic.com/skills/self-improving

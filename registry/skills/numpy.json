@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "89a304159ff273a31373b3fd5e906afc4f74475c7d49fbb5407fae71094d0354",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "numpy",
-    "name": "NumPy",
+    "name": "numpy",
     "description": "Write fast, memory-efficient numerical code with arrays, broadcasting, vectorization, and linear algebra.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/numpy",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. Creates `~/numpy/` to store preferences and snippets. When to Use User needs numerical computing in Python. Agent handles array operations, mathematical com",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Creates `~/Clawic/data/numpy/` to store preferences and snippets. When to Use User needs numerical computing in Python. Agent handles array operations, math",
     "repositoryPath": "skills/numpy",
     "manifestPath": "registry/skills/numpy.json"
   },
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/numpy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/_meta.json",
+      "byteCount": 162,
+      "sha256": "492b47fcb2ba92daf69557a3c934e69a984db55141dab4ade5cccbf1e3888b9f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/numpy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/memory-template.md",
+      "byteCount": 1287,
+      "sha256": "3351d56840a6b6b1708f9249fa660a5c3143e0053c785d793ce318f541488c1e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/numpy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/setup.md",
+      "byteCount": 1739,
+      "sha256": "0d36354a49dde978d5d1ae20b957e14f0668511f69b0f49c07f3c89d5073fd03"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/numpy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/numpy/SKILL.md",
+      "byteCount": 6134,
+      "sha256": "425721fa8d7ade6e363f807ef257a8eaa9b1ba867e39a48d31b48146fc4cf930"
     }
   ]
 }

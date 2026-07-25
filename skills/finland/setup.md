@@ -10,7 +10,7 @@ mkdir -p ~/finland
 ```
 
 ### 2. Initialize Memory File
-Create `~/finland/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/finland/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Pace: one strong base, two bases, or transfer-heavy and willing to spend time in transit.
 
 ### 4. Save to Memory
-Update `~/finland/memory.md` with the current intent, constraints, and decision status.
+Update `~/Clawic/data/finland/memory.md` with the current intent, constraints, and decision status.
 
 ## Returning Users
 
-If `~/finland/memory.md` exists:
+If `~/Clawic/data/finland/memory.md` exists:
 1. Read it silently
 2. Reuse known constraints and preferences
 3. Ask only what changed (dates, region focus, budget, cold tolerance, mobility)

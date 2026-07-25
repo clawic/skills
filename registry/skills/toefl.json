@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c6a30fbb4fd278bd03cb6ef28382b2a1c4b3e1f2555422f373798b9b19b6dc75",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "toefl",
-    "name": "TOEFL",
+    "name": "toefl",
     "description": "Prepare for the TOEFL iBT exam with progress tracking, weak area analysis, score prediction, and university targeting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/toefl",
     "summary": "When to Use User is preparing for TOEFL iBT (Test of English as a Foreign Language). Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, score management, and university/immigration pla",
     "repositoryPath": "skills/toefl",
     "manifestPath": "registry/skills/toefl.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/toefl/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/_meta.json",
+      "byteCount": 162,
+      "sha256": "a32c2b7f0d5c8049c432c74e1c03ec172e1a308dd6a1ce9f0f30243a78248584"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/toefl/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/exam-config.md",
+      "byteCount": 3007,
+      "sha256": "9ebebc30d4bef55e7c24cd3deaedaaec71ee3018e03df109527cf39bcb35f722"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/toefl/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/feedback.md",
+      "byteCount": 3273,
+      "sha256": "ad4e37003689ba31dc51d2a5c1ea4e8a426a03a46d176498cefc0e3bca9b00fe"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/toefl/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/SKILL.md",
+      "byteCount": 2706,
+      "sha256": "a31c140ec8aa52af915f7323054d22fc2639565291511a7e55f05e301b6a8e36"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/toefl/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/study-methods.md",
+      "byteCount": 4581,
+      "sha256": "00fd63167111d75b098ba741c79c20d3ab544d52e9dbceffcb79636b6776c90b"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/toefl/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/targets.md",
+      "byteCount": 3826,
+      "sha256": "39fae630f9b685f239e942031559ae0c9cd75b8361c7a45091ce4d61d782fb6a"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/toefl/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/tracking.md",
+      "byteCount": 3617,
+      "sha256": "e8002c4f815c2c93e8f360334b58354223e03afab66b5f60b45b9104954dc4c9"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/toefl/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toefl/user-types.md",
+      "byteCount": 4346,
+      "sha256": "e03834819d37cbcd768d8d9ac62ad040a3b977b1b4976c0b3e6972ce03c5cf9b"
     }
   ]
 }

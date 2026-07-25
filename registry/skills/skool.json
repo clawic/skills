@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7da38b34aa5e6e45c759d71f512018e44acaa73b884012c169b5310f88706af2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "skool",
-    "name": "Skool",
+    "name": "skool",
     "description": "Operate Skool communities with onboarding, classroom planning, calendar cadence, official automations, and safer member lifecycle workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/skool",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/skool/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/_meta.json",
+      "byteCount": 162,
+      "sha256": "da43283802046008775792c6ba86376544307cacff6e745d8be6357873fa32f4"
     },
     {
       "path": "automation-and-integrations.md",
       "downloadPath": "skills/skool/automation-and-integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/automation-and-integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/automation-and-integrations.md",
+      "byteCount": 3318,
+      "sha256": "f54d44098a003c0fc5498ba1e057d551eb83ede0b63f4048a8b54bf61db567e5"
     },
     {
       "path": "classroom-and-calendar.md",
       "downloadPath": "skills/skool/classroom-and-calendar.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/classroom-and-calendar.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/classroom-and-calendar.md",
+      "byteCount": 1410,
+      "sha256": "8896e39cb10c20cb8aac55dab4da65a1838879c7dc1d19cbc630f9322ed2e06a"
     },
     {
       "path": "community-operations.md",
       "downloadPath": "skills/skool/community-operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/community-operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/community-operations.md",
+      "byteCount": 1563,
+      "sha256": "91556c6f227b25cf19c0d734224945302627edfb5f03976f72928ee88b6df103"
     },
     {
       "path": "member-lifecycle.md",
       "downloadPath": "skills/skool/member-lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/member-lifecycle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/member-lifecycle.md",
+      "byteCount": 1928,
+      "sha256": "b9f0bbe480b8e60725b2f6514e1249678b300b04799365d8254c931ae5fa2560"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/skool/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/memory-template.md",
+      "byteCount": 1778,
+      "sha256": "e2b367c667f644529e253d15d4b18037f03819492054b956422f9729b64532a2"
     },
     {
       "path": "official-surface.md",
       "downloadPath": "skills/skool/official-surface.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/official-surface.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/official-surface.md",
+      "byteCount": 2922,
+      "sha256": "73596f284303edf4c1f0306b0d39d4188595c6335fcc69b14a3554d116f05ca3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/skool/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/setup.md",
+      "byteCount": 2658,
+      "sha256": "29b8f624fe1e67e7ed5d1ad3886d1b7c45e40283751f4f7028ea0eebf35906ce"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/skool/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/SKILL.md",
+      "byteCount": 11196,
+      "sha256": "3f077b9338e2d564fedb67fdf939ab1a81f65f98df13bceba9ab5b4e8ff3a508"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/skool/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skool/troubleshooting.md",
+      "byteCount": 1533,
+      "sha256": "0c349a6950c491a2f2c3bc4585098b7b169c2600437b9dcad506677629bee559"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "102702b242807c715c5955ebb1136df5ba2a1ad2d29b7bc8a6adbaa5bd385a31",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "tokyo",
-    "name": "Tokyo",
+    "name": "tokyo",
     "description": "Navigate Tokyo as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, culture, and local insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tokyo",
@@ -22,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tokyo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/_meta.json",
+      "byteCount": 162,
+      "sha256": "ffc065ea97e8f14dc6ed70abf3e6059e2914a18b7b66f747f46633e94230ebbf"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/tokyo/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/climate.md",
+      "byteCount": 7294,
+      "sha256": "c89c9fe645f6de98be620d379dfc57e75209c6b177796c40adf33d3d084f9f7c"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/tokyo/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/cost.md",
+      "byteCount": 6801,
+      "sha256": "9aaefd382720a697d87c65dfb14c4338a826a765a8824bd5a9dd561c070fcceb"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/tokyo/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/culture.md",
+      "byteCount": 7795,
+      "sha256": "8216dfbd167aaab7e71f148f6605f11c8f830885c154601bb1679cd718736e23"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/tokyo/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-areas.md",
+      "byteCount": 6561,
+      "sha256": "2151c065a21aa63a1005cb3e5da27030f56ddcb8b6ba54dee4b025b16840400d"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/tokyo/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-markets.md",
+      "byteCount": 6293,
+      "sha256": "9f1a7272e3b9736165e05d359076dd26974b92986153a8520871178e126ff2ad"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/tokyo/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-overview.md",
+      "byteCount": 5935,
+      "sha256": "1f3ba83b2b4251708fee911cbf5b49a146c94f8655e9cd6ee737306a7b7ecb00"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/tokyo/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-practical.md",
+      "byteCount": 7971,
+      "sha256": "bbd2e0d10476fb7afdc528929ef625f13d73e8a96e82e3f7b89e6e098956f4f1"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/tokyo/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/food-traditional.md",
+      "byteCount": 6809,
+      "sha256": "7f517ecd7871fd4691b140d1a3bf3329a18ff1ee52e4fbf4b2a20ac744bd5b66"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/tokyo/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/local.md",
+      "byteCount": 7626,
+      "sha256": "312667e453fa4326ddfa5cec68eb35a49f74b7c24fd04b62eb945e1f7d0e76bb"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/tokyo/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-central.md",
+      "byteCount": 7041,
+      "sha256": "b7d30ec0154f273ce3b54ff859960d4b91f48310c02ba165272e74991d3b4db2"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/tokyo/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-choosing.md",
+      "byteCount": 6449,
+      "sha256": "75b089c48d4af2ba5cc3a1c33624559205c3d438978f92d2c00dbb2f17710149"
     },
     {
       "path": "neighborhoods-east.md",
       "downloadPath": "skills/tokyo/neighborhoods-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-east.md",
+      "byteCount": 6542,
+      "sha256": "0ecf5d558eb04577bd0bcd1d955403c7bbfd718b7368a2a705ce8a16b0a9987c"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/tokyo/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-index.md",
+      "byteCount": 4973,
+      "sha256": "ea0510028c63c1ffa9699f837ba1da9f84edf2918e9d06dd547dda6e4b09a3ee"
     },
     {
       "path": "neighborhoods-outer.md",
       "downloadPath": "skills/tokyo/neighborhoods-outer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-outer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-outer.md",
+      "byteCount": 6239,
+      "sha256": "a99acb8425d278a9106e2e16018cf84d8f41b6ced9c3609cbbc1c7a71611e7f8"
     },
     {
       "path": "neighborhoods-residential.md",
       "downloadPath": "skills/tokyo/neighborhoods-residential.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-residential.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/neighborhoods-residential.md",
+      "byteCount": 6375,
+      "sha256": "fa81ed7748c2d81a173a76636a8fef0069c6abbcd712a2c91f83a2775ce22c4f"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/tokyo/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/resident.md",
+      "byteCount": 7509,
+      "sha256": "87925893183c2da4b04ab5db88122483bec30478a2a5d277f24c9107b78752ba"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/tokyo/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/safety.md",
+      "byteCount": 7127,
+      "sha256": "d8e6435c32536779408703a6c9d6fa15219d87965338e691f4cbec77fac07a63"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tokyo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/SKILL.md",
+      "byteCount": 6878,
+      "sha256": "cd1476e0be257b6a9bed205bd5aa783b4111fd65e944e46413009157a36035d0"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/tokyo/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/startup.md",
+      "byteCount": 8437,
+      "sha256": "0b1d64d5917b467278401b8deaed460ec4d6a7f0b3f3f15e951b2560049e1895"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/tokyo/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/student.md",
+      "byteCount": 7986,
+      "sha256": "dc07e8c5dad5ab296e03eb439414d13b45f4db04a143152e7026700b437b9d5a"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/tokyo/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/tech.md",
+      "byteCount": 8251,
+      "sha256": "257a953a8521ee233f5cfb53426020d18ee6bef0a9ca969c0bec3ab0135e33f6"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/tokyo/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/transport.md",
+      "byteCount": 8225,
+      "sha256": "2eff39c98985240e29f9947b8ff794dc1a084a9d8311f271e95c8446df8e3089"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/tokyo/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-attractions.md",
+      "byteCount": 7392,
+      "sha256": "66111089a77f1c8b4cbf619c0bfb4d20d9808e2b7a7081a7f1c55e5bb6155ef8"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/tokyo/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-itineraries.md",
+      "byteCount": 6726,
+      "sha256": "149559e0fd881ac150f51aae29f59cff10c70ae9b5415b81acdd506d76afedd3"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/tokyo/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-lodging.md",
+      "byteCount": 7169,
+      "sha256": "fac5eb9d2b2428457b6be1c8a232437a3f99d3f41e286c217bb21306fcd8d12e"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/tokyo/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tokyo/visitor-tips.md",
+      "byteCount": 7873,
+      "sha256": "6a444c728b088766c07bc18484ff2206f7c0b3a1eed481c28a8bb0efa5b48be3"
     }
   ]
 }

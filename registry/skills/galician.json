@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "71fde42f8e7d7c6d15b09de48391d74365e2507cec1fbe42e45f6cfec5df08bd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "galician",
-    "name": "Galician",
+    "name": "galician",
     "description": "Write Galician that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/galician",
     "summary": "The Real Problem AI Galician is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with warmth. Match that. Formality Default Default register is too high. Casual Galician is warm ",
     "repositoryPath": "skills/galician",
     "manifestPath": "registry/skills/galician.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/galician/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/galician/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/galician/_meta.json",
+      "byteCount": 168,
+      "sha256": "3ffb74656e67f99180ec35b19c9e1b6f349de6d866f8c5527127deb70c19279e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/galician/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/galician/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/galician/SKILL.md",
+      "byteCount": 1933,
+      "sha256": "5d3c1e0c9a777873b150bcdf9407ca8b4e6a54a823c8fd3ccdaea55569a7654a"
     }
   ]
 }

@@ -1,11 +1,20 @@
 ---
-name: UX Researcher
+name: ux-researcher
 slug: ux-researcher
 version: 1.0.0
-homepage: https://clawic.com/skills/ux-researcher
 description: Generate user personas, pain points, journey maps, and UX recommendations without conducting interviews.
+homepage: https://clawic.com/skills/ux-researcher
 changelog: Added persona generation, journey mapping, and heuristic analysis.
-metadata: {"clawdbot":{"emoji":"🔬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: UX Researcher
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs UX research outputs without conducting actual user interviews. Agent 
 
 ## Architecture
 
-Memory lives in `~/ux-researcher/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/ux-researcher/`. See `memory-template.md` for structure.
 
 ```
-~/ux-researcher/
+~/Clawic/data/ux-researcher/
 ├── memory.md           # Products researched, context
 └── research/
     └── {product}/
@@ -263,21 +272,21 @@ How they solve this problem today (before/without your product)
 ## Security & Privacy
 
 **Data that stays local:**
-- Research outputs stored in `~/ux-researcher/`
+- Research outputs stored in `~/Clawic/data/ux-researcher/`
 - No data is sent to external services
 
 **This skill does NOT:**
-- Access files outside `~/ux-researcher/`
+- Access files outside `~/Clawic/data/ux-researcher/`
 - Make network requests
 - Store credentials
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `product` — product strategy
 - `cpo` — product leadership
 - `design` — design systems
 
 ## Feedback
 
-- If useful: `clawhub star ux-researcher`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/ux-researcher
+- Latest version: https://clawic.com/skills/ux-researcher

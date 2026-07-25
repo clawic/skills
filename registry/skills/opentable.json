@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7a8b34c83ffd192658b26ab02b933b67637fbf84442df8ae0e0a05387ccaa4cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "opentable",
-    "name": "OpenTable",
+    "name": "opentable",
     "description": "Guide OpenTable availability, booking flows, and guest messaging with conversion-focused listing, pacing, and incident response playbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/opentable",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/opentable/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/_meta.json",
+      "byteCount": 170,
+      "sha256": "ba82cce9f491d504de50c65c4ffc9d6726b0b752ba836f17e1f5a0aba2fb2f3d"
     },
     {
       "path": "incident-response.md",
       "downloadPath": "skills/opentable/incident-response.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/incident-response.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/incident-response.md",
+      "byteCount": 1660,
+      "sha256": "272cf0ec1ec62cba4d481589301d0247678549855b81c893a98e7bc5ec6e570e"
     },
     {
       "path": "listing-optimization.md",
       "downloadPath": "skills/opentable/listing-optimization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/listing-optimization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/listing-optimization.md",
+      "byteCount": 1502,
+      "sha256": "f9454ff67d1a81880da6dcfa3455c9a25fc1c14e017369bd04504e8625296cbd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/opentable/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/memory-template.md",
+      "byteCount": 1945,
+      "sha256": "2bc8c9b2f9e7f9b9342a80dbed3f8892c4afc6e89e9c7675b7403377081a993c"
     },
     {
       "path": "reservation-playbook.md",
       "downloadPath": "skills/opentable/reservation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/reservation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/reservation-playbook.md",
+      "byteCount": 1683,
+      "sha256": "59a157c7f0b1158352877de1cf97a985a2d2ecdcc8f994dd02588c100669c4d3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/opentable/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/setup.md",
+      "byteCount": 1870,
+      "sha256": "0a94b0b5672f90d917ea468aabcbdcd89fd95cfe7070daa887f3c958012f3c02"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/opentable/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/opentable/SKILL.md",
+      "byteCount": 6119,
+      "sha256": "7d86b6109d86ca281f1b2ccac7d81554f126d5c876bd23b14b806e34811f3f1a"
     }
   ]
 }

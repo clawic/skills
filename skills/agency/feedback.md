@@ -10,7 +10,7 @@ The agency improves over time by capturing:
 
 ## Knowledge Base Structure
 
-`~/agency/knowledge/`:
+`~/Clawic/data/agency/knowledge/`:
 
 ```
 knowledge/
@@ -26,7 +26,7 @@ knowledge/
 
 ## After Each Project
 
-Capture in `~/agency/knowledge/cases/[project].md`:
+Capture in `~/Clawic/data/agency/knowledge/cases/[project].md`:
 
 ```markdown
 # [Project Name]
@@ -56,7 +56,7 @@ Capture in `~/agency/knowledge/cases/[project].md`:
 
 ## Estimate Tracking
 
-In `~/agency/knowledge/estimates-log.md`:
+In `~/Clawic/data/agency/knowledge/estimates-log.md`:
 
 ```markdown
 | Project | Type | Estimated Hours | Actual Hours | Variance | Notes |

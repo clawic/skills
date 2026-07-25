@@ -1,6 +1,6 @@
 # Memory Template - Fox News Monitor
 
-Create `~/fox-news/memory.md` with this structure:
+Create `~/Clawic/data/fox-news/memory.md` with this structure:
 
 ```markdown
 # Fox News Monitor Memory

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fd4a87e7926d55fa8d4b0213ec15280f76d793f2cb29e37e2c23f06fdbc19da4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "webflow",
-    "name": "Webflow",
+    "name": "webflow",
     "description": "Build, launch, and optimize Webflow sites with responsive design, CMS architecture, and clean handoffs.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/webflow",
     "summary": "Quick Reference | Topic | File | |-------|------| | Responsive design, breakpoints | `design.md` | | CMS collections, headless API | `cms.md` | | Forms, analytics, third-party | `integrations.md` | | SEO, performance, ac",
     "repositoryPath": "skills/webflow",
     "manifestPath": "registry/skills/webflow.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/webflow/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/_meta.json",
+      "byteCount": 166,
+      "sha256": "8cb68c5417f386d28b62858d5ab25dd43a085b41c2dbfdfcfbddf4abda60f09d"
     },
     {
       "path": "cms.md",
       "downloadPath": "skills/webflow/cms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/cms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/cms.md",
+      "byteCount": 2385,
+      "sha256": "427c41508f7fbbe218a131a2bd6b9abb59fb571186c6d0a46202ee72b09a49a7"
     },
     {
       "path": "design.md",
       "downloadPath": "skills/webflow/design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/design.md",
+      "byteCount": 1736,
+      "sha256": "6a533c0354c5d1a5291e029b5bc79464f1dcdcad2954077a15f1096f08aa8ade"
     },
     {
       "path": "integrations.md",
       "downloadPath": "skills/webflow/integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/integrations.md",
+      "byteCount": 1975,
+      "sha256": "b4bfe52d3a44b7dc21cec9d8bdf0681555fed8f6b8b5607a43434a98fdf19276"
     },
     {
       "path": "optimization.md",
       "downloadPath": "skills/webflow/optimization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/optimization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/optimization.md",
+      "byteCount": 2202,
+      "sha256": "4d7276803cf61bd1ae54f0d41a2d1fe8befb0cd70fc8af498c6602e7c0862bda"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/webflow/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webflow/SKILL.md",
+      "byteCount": 2347,
+      "sha256": "64393301d08f70724e78164711e255d606f53ee19407778f50a96ec08d074d93"
     }
   ]
 }

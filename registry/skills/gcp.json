@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d6e41a35d78dcf7644afc54254243180ce2a4f9b001002f23a314c7e70974a31",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "gcp",
-    "name": "Google Cloud",
+    "name": "gcp",
     "description": "Deploy, monitor, and manage GCP services with battle-tested patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gcp",
     "summary": "Google Cloud Production Rules Cost Traps - Stopped Compute Engine VMs still pay for persistent disks and static IPs — delete disks or use snapshots for long-term storage - Cloud NAT charges per VM and per GB processed — ",
     "repositoryPath": "skills/gcp",
     "manifestPath": "registry/skills/gcp.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gcp/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/_meta.json",
+      "byteCount": 167,
+      "sha256": "979055c2aae6e3ee781d39735d795f992dff4a3464724407604eec2cb65126a6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gcp/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/SKILL.md",
+      "byteCount": 4493,
+      "sha256": "5fae9fec8bd68140ce4c71f421eb6b8c69fc603601c30fc470786fc7026dd3af"
     }
   ]
 }

@@ -9,7 +9,7 @@ mkdir -p ~/food-delivery
 
 ## memory.md Template
 
-Copy to `~/food-delivery/memory.md`:
+Copy to `~/Clawic/data/food-delivery/memory.md`:
 
 ```markdown
 # Food Delivery Preferences
@@ -52,7 +52,7 @@ preferred_platforms:
 
 ## restaurants.md Template
 
-Copy to `~/food-delivery/restaurants.md`:
+Copy to `~/Clawic/data/food-delivery/restaurants.md`:
 
 ```markdown
 # Restaurant Notes
@@ -78,7 +78,7 @@ Copy to `~/food-delivery/restaurants.md`:
 
 ## orders.md Template
 
-Copy to `~/food-delivery/orders.md`:
+Copy to `~/Clawic/data/food-delivery/orders.md`:
 
 ```markdown
 # Recent Orders
@@ -101,7 +101,7 @@ Copy to `~/food-delivery/orders.md`:
 
 ## people.md Template
 
-Copy to `~/food-delivery/people.md` (for households/groups):
+Copy to `~/Clawic/data/food-delivery/people.md` (for households/groups):
 
 ```markdown
 # Household & Regular Group Members

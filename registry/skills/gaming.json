@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ed3f121bfef28d5f0e9b884718856485f9c1f05db01b572b3395349fef50a693",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "gaming",
-    "name": "Gaming",
+    "name": "gaming",
     "description": "Help users with game recommendations, stuck points, settings optimization, and healthy gaming habits.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gaming",
     "summary": "Before Recommending Games - Ask what they've played and loved — genre preferences emerge from history - Ask platform and constraints — PC specs, console, handheld, time per session - Ask what they want from gaming right ",
     "repositoryPath": "skills/gaming",
     "manifestPath": "registry/skills/gaming.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gaming/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaming/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaming/_meta.json",
+      "byteCount": 164,
+      "sha256": "98ca758db7b8cb3a6da9a2652d2cd744cf6d1305c46e0cdbcfb2896a9fd826ad"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gaming/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaming/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaming/SKILL.md",
+      "byteCount": 3690,
+      "sha256": "62090b2cdceda0f97e83514befdc1c9234da0012baf2d6d3c29dba35442a41f0"
     }
   ]
 }

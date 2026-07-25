@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6a612ef813d2597894160ff4c9e935cbb089018498fe988ac01f4b0db12f056a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "java",
-    "name": "Java",
+    "name": "java",
     "description": "Write robust Java avoiding null traps, equality bugs, and concurrency pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/java",
     "summary": "Quick Reference | Topic | File | |-------|------| | Nulls, Optional, autoboxing | `nulls.md` | | Collections and iteration traps | `collections.md` | | Generics and type erasure | `generics.md` | | Concurrency and synchr",
     "repositoryPath": "skills/java",
     "manifestPath": "registry/skills/java.json"
@@ -21,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/java/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/_meta.json",
+      "byteCount": 236,
+      "sha256": "b15edce580473ea84b8886785fa1a25970d9dd8ede74da5d23aad9eb2c05bfc9"
     },
     {
       "path": "classes.md",
       "downloadPath": "skills/java/classes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/classes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/classes.md",
+      "byteCount": 2328,
+      "sha256": "e453c484cc95c93fb0817168bc3ad85c83cbb1fabc0944c1e2196dd6405a1e18"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/java/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/collections.md",
+      "byteCount": 958,
+      "sha256": "13859b00638fae682b2e88285b067c8b7e2753e241dd0fa91cb93f055092619c"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/java/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/concurrency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/concurrency.md",
+      "byteCount": 906,
+      "sha256": "16deeaeaa36f72931b2a3815e202010c36c7fb9816dc34229db728da8337b46f"
     },
     {
       "path": "generics.md",
       "downloadPath": "skills/java/generics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/generics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/generics.md",
+      "byteCount": 490,
+      "sha256": "1bd1887fed560722575086ff7e79d4df413cc2fc4e08167e043e29da8683b396"
     },
     {
       "path": "jvm.md",
       "downloadPath": "skills/java/jvm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/jvm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/jvm.md",
+      "byteCount": 1665,
+      "sha256": "e7db91fb3caf0179f7319bd98a3f7838b44388ce06b502ddb4eaa389bb10f52e"
     },
     {
       "path": "nulls.md",
       "downloadPath": "skills/java/nulls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/nulls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/nulls.md",
+      "byteCount": 1181,
+      "sha256": "db34a268862b59c6eab74bb79370e0d262cbaebd47d3bcd2bf172b942a5a330a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/java/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/SKILL.md",
+      "byteCount": 1934,
+      "sha256": "50ba8fa8b7003dbfa46bcf394428ba769f1cb7b96931b5e7da0b17d7166adcd9"
     },
     {
       "path": "streams.md",
       "downloadPath": "skills/java/streams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/streams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/streams.md",
+      "byteCount": 1723,
+      "sha256": "d34f60d1562a8de5a5d99d252fc037dbc2e4a36dcd0210f4a384c1865d5b96ba"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/java/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/testing.md",
+      "byteCount": 1914,
+      "sha256": "32ee9c9a6ad4c8620d922fe19b94cbd3052df60873d77ecbcdd40c5f1cad8921"
     }
   ]
 }

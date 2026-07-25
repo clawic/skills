@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1c3d1dca80fafec5d2ef04cb0469374cf15dfe8d5f5e3fcf17e472127e021f6d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,14 +23,18 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/terraform/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/terraform/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json",
+      "byteCount": 320,
+      "sha256": "210b643f3a070fbe559dedb6e8c9e3a4cfb5738604b279733398182832fb3eb3"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/terraform/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md",
+      "byteCount": 11800,
+      "sha256": "ec1688e94a6eaa08fa5bc8e14198f1f4cc1ed9efb03762ed31a69aa96bbbe2f1"
     }
   ]
 }

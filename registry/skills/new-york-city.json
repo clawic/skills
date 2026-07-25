@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "36e242efa088f418c6e42fc2f5adca55f17394952aa683ec10c9735b45cc86fb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "new-york-city",
-    "name": "New York City",
+    "name": "new-york-city",
     "description": "Navigate New York City for visits, moves, neighborhoods, transit, housing, food, work, and daily street-level decisions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/new-york-city",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/new-york-city/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/_meta.json",
+      "byteCount": 178,
+      "sha256": "f46b80a7a6e43f1ed144d58ae9fab751839b5a904b010b57861ef04539e99dcf"
     },
     {
       "path": "food-and-dining.md",
       "downloadPath": "skills/new-york-city/food-and-dining.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/food-and-dining.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/food-and-dining.md",
+      "byteCount": 1524,
+      "sha256": "993599c4583ddfc38e76840a1c29473e8fb798e50bd657731bac6fa03c59dd2a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/new-york-city/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/memory-template.md",
+      "byteCount": 1635,
+      "sha256": "2107dbbaaad7736472aa77e475ea55702a69b730e983438359aab4aac6f10cb6"
     },
     {
       "path": "moving-and-housing.md",
       "downloadPath": "skills/new-york-city/moving-and-housing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/moving-and-housing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/moving-and-housing.md",
+      "byteCount": 2059,
+      "sha256": "c712cdc48630414347fc97ff535599fd1533c1c2f8a3d9696a78e24522e832d7"
     },
     {
       "path": "neighborhoods-and-bases.md",
       "downloadPath": "skills/new-york-city/neighborhoods-and-bases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/neighborhoods-and-bases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/neighborhoods-and-bases.md",
+      "byteCount": 2192,
+      "sha256": "c3eec948319d128baeed7d556471ed5e3acaee74ad80a9a8d3bdcca6fda2a57a"
     },
     {
       "path": "safety-and-weather.md",
       "downloadPath": "skills/new-york-city/safety-and-weather.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/safety-and-weather.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/safety-and-weather.md",
+      "byteCount": 1284,
+      "sha256": "f9903947aa9efb6a9bd957c330f82eafdbba3f2057ed380429a46383ba195bd6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/new-york-city/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/setup.md",
+      "byteCount": 2459,
+      "sha256": "fd78fe85474d17c853411e8f8f2dae4f41eddef41d65198b96eca0be27494d8f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/new-york-city/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/SKILL.md",
+      "byteCount": 6697,
+      "sha256": "16da12e6c94c3ee4c6af628f8e396b39191109d08959b0547bc2e61af683cc0d"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/new-york-city/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/sources.md",
+      "byteCount": 888,
+      "sha256": "74ae67e3378987e49c38754982a885bdab47f62ec659dcceafe69f26967815c6"
     },
     {
       "path": "transit-and-airports.md",
       "downloadPath": "skills/new-york-city/transit-and-airports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/transit-and-airports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/transit-and-airports.md",
+      "byteCount": 1569,
+      "sha256": "4af6dc1a1191f6389a59f5a87892f0a0e6f3c3defa35dafbb45c8d8986c85240"
     },
     {
       "path": "visiting-and-itineraries.md",
       "downloadPath": "skills/new-york-city/visiting-and-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/visiting-and-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/visiting-and-itineraries.md",
+      "byteCount": 1394,
+      "sha256": "b676bbc0ad6ef549f7cf3cd8dfdc1acf6ab44cace55eb3b4f5a30631da595939"
     },
     {
       "path": "work-study-and-startups.md",
       "downloadPath": "skills/new-york-city/work-study-and-startups.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/work-study-and-startups.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york-city/work-study-and-startups.md",
+      "byteCount": 1298,
+      "sha256": "7a98ef3e41f7427da4c54fd05a4e2323eb26bcd62f27322747239475016447fa"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Setup — Matomo Analytics
 
-Read this when `~/matomo/` doesn't exist or is empty.
+Read this when `~/Clawic/data/matomo/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -34,7 +34,7 @@ Ask how they want to use the skill:
 
 ## What You're Saving
 
-In `~/matomo/memory.md`:
+In `~/Clawic/data/matomo/memory.md`:
 - Site names and their idSite numbers
 - Which metrics they care about
 - Default site for quick queries

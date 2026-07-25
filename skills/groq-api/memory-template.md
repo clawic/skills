@@ -1,6 +1,6 @@
 # Memory Template — Groq API Inference
 
-Create `~/groq-api/memory.md` with this structure:
+Create `~/Clawic/data/groq-api/memory.md` with this structure:
 
 ```markdown
 # Groq API Inference Memory

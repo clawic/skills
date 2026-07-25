@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d136bf83f14c0a26f2818a5c080d915615935bb4c156e9dccc6c0bff0fdd2cb2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "fine-tuning",
-    "name": "Fine-Tuning",
+    "name": "fine-tuning",
     "description": "Fine-tune LLMs with data preparation, provider selection, cost estimation, evaluation, and compliance checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fine-tuning",
     "summary": "When to Use User wants to fine-tune a language model, evaluate if fine-tuning is worth it, or debug training issues. Quick Reference | Topic | File | |-------|------| | Provider comparison & pricing | `providers.md` | | ",
     "repositoryPath": "skills/fine-tuning",
     "manifestPath": "registry/skills/fine-tuning.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fine-tuning/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/_meta.json",
+      "byteCount": 174,
+      "sha256": "42211127b3003ca2e33345591913531b1b27749274d4a755a82c8de7a50bb361"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/fine-tuning/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/compliance.md",
+      "byteCount": 5226,
+      "sha256": "81187f744e11d247097e81aca1f7d556ff87460cea18c64356c3a0be958f662e"
     },
     {
       "path": "costs.md",
       "downloadPath": "skills/fine-tuning/costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/costs.md",
+      "byteCount": 3693,
+      "sha256": "67bbf61890ec8fef1101a6a34665de20eb09c3dbc20acdf37b073d1dc4d5719b"
     },
     {
       "path": "data-prep.md",
       "downloadPath": "skills/fine-tuning/data-prep.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/data-prep.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/data-prep.md",
+      "byteCount": 4173,
+      "sha256": "f84e215eb584dd9683d7076dd2749df4bea14e61927327b505a0ee6b5fa9ef52"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/fine-tuning/evaluation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/evaluation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/evaluation.md",
+      "byteCount": 4486,
+      "sha256": "45e6543b445b731ea6151ee5c3967c34fb420a6ca31626ff04254be15203205c"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/fine-tuning/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/providers.md",
+      "byteCount": 2943,
+      "sha256": "5e2fa751db6aaa9d8d54106b9e3c1904c9edc1315ede7d949b1574697b0d66f0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fine-tuning/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/SKILL.md",
+      "byteCount": 3143,
+      "sha256": "08ee5d35066c7083591f95165b477fab073976ac2acfb76ed823b3eadaff1251"
     },
     {
       "path": "training.md",
       "downloadPath": "skills/fine-tuning/training.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/training.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fine-tuning/training.md",
+      "byteCount": 3903,
+      "sha256": "be64134082aca73324cabead2a1a8eabfa303eac9ece1ef6576562cb29295fb3"
     }
   ]
 }

@@ -1,7 +1,17 @@
 ---
-name: JSON
+name: json
+slug: json
+version: 1.0.0
 description: Work with JSON data structures, APIs, and serialization effectively.
-metadata: {"clawdbot":{"emoji":"📦","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/json
+metadata:
+  clawdbot:
+    emoji: 📦
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: JSON
 ---
 
 ## Schema & Validation

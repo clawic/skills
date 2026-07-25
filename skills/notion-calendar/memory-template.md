@@ -1,6 +1,6 @@
 # Memory Template - Notion Calendar
 
-Create `~/notion-calendar/memory.md` with this structure:
+Create `~/Clawic/data/notion-calendar/memory.md` with this structure:
 
 ```markdown
 # Notion Calendar Memory

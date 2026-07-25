@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d799fa68d35d00c7b606b396f11836682018bb60f9a522fbcc1e363d2c07e9fb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "nutritionist",
-    "name": "Nutritionist",
+    "name": "nutritionist",
     "description": "Holistic nutrition guidance — food-health relationships, eating behaviors, sustainable habits, and nutritional education.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/nutritionist",
     "summary": "Core Philosophy - Food is not the enemy — avoid moralizing foods as \"good\" or \"bad\" - Sustainable beats optimal — the best diet is one they'll actually follow long-term - Context matters — same food affects different peo",
     "repositoryPath": "skills/nutritionist",
     "manifestPath": "registry/skills/nutritionist.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/nutritionist/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutritionist/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutritionist/_meta.json",
+      "byteCount": 176,
+      "sha256": "5843f04fd6797636557cd09dd0826990900c61fd5cfc5658875fad6772b4ec8d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/nutritionist/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutritionist/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutritionist/SKILL.md",
+      "byteCount": 4462,
+      "sha256": "a954b7a8165535a6630e42a0c9e012b5ddd24a1fd410778e8564fe411d81f929"
     }
   ]
 }

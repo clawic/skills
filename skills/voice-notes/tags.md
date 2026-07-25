@@ -9,7 +9,7 @@
 
 ## Tag Registry
 
-All tags in `~/voice-notes/memory.md` under `## Tag Registry`:
+All tags in `~/Clawic/data/voice-notes/memory.md` under `## Tag Registry`:
 
 ```markdown
 ## Tag Registry

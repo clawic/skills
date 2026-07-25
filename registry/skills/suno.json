@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f5d69b28aa86b2f6d8aff35a921aa3a2fa9653177962fa1b24d5803ab97ca70d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,80 +17,108 @@
     "description": "Creates music with Suno: crafts style prompts and structured lyrics, generates via API or browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle, anthem, podcast intro, or background track, wants lyrics turned into audio or written for singing, asks to sound like an artist, or when a generation comes out generic, off-genre, cuts off mid-song, sings the style description, garbles words, or gets rejected by moderation. Also covers extending and stitching songs, stems, WAV export, credits, and commercial-use rights. Not for editing or mixing existing audio files.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/suno",
-    "summary": "This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio \u2014 see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at a",
+    "summary": "This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio — see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at a",
     "repositoryPath": "skills/suno",
     "manifestPath": "registry/skills/suno.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/suno/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/suno/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/_meta.json",
+      "byteCount": 384,
+      "sha256": "3d391d436af614fd147d995ba0cc4153813c3f871c971cd5d2476fbae49d562a"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/suno/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/api.md",
+      "byteCount": 6334,
+      "sha256": "4ce6ab7ec466fb1e4a58e875f0b704bc200e36470abfa98a3525ee3f2b2aaad8"
     },
     {
       "path": "browser.md",
       "downloadPath": "skills/suno/browser.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/browser.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/browser.md",
+      "byteCount": 3290,
+      "sha256": "0e6d4dd7080ed16918f2b53b14d908656712320fd3fe12567bbee0f449afd330"
     },
     {
       "path": "covers.md",
       "downloadPath": "skills/suno/covers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/covers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/covers.md",
+      "byteCount": 2510,
+      "sha256": "30024f558c92e3892a2c7b7461ed696acb14707154127a8b69a16bf012a7f4c8"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/suno/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/debug.md",
+      "byteCount": 4258,
+      "sha256": "5df64d44723afbbfddf906f7b2d3cf41107d6b4431a222937b35c5a993696ecc"
     },
     {
       "path": "extend.md",
       "downloadPath": "skills/suno/extend.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/extend.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/extend.md",
+      "byteCount": 3328,
+      "sha256": "5ab048dd60a863d489a38e914388bd46965dcc99669d35225bd515c7940e130a"
     },
     {
       "path": "jingles.md",
       "downloadPath": "skills/suno/jingles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/jingles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/jingles.md",
+      "byteCount": 3026,
+      "sha256": "38440fdbfc986f13056a445bac7543fc8a1b6e1c1e09b5e304a96d48e3bbb365"
     },
     {
       "path": "lyrics.md",
       "downloadPath": "skills/suno/lyrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/lyrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/lyrics.md",
+      "byteCount": 4988,
+      "sha256": "4f893c0999a86be305fe647d0c55f9bbbd872f5d7488f502651bcd1653557ba7"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/suno/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/memory-template.md",
+      "byteCount": 2054,
+      "sha256": "1ebf048719ebbc61bae283d3d84cbf55ddac368e034fccbbf696e1345f5bd837"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/suno/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/prompts.md",
+      "byteCount": 6116,
+      "sha256": "289356306f1b6d7f6284a94dba5b024218629d3fd66ef8128a5604d5771d55d1"
     },
     {
       "path": "release.md",
       "downloadPath": "skills/suno/release.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/release.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/release.md",
+      "byteCount": 3515,
+      "sha256": "7671d98063ae54ca124eb7cf517cefa03da2be33f4a1c8d0dac1f2fdeeb7fcb7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/suno/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/setup.md",
+      "byteCount": 2054,
+      "sha256": "cf7eaa4db7661a8dfe83e32a121eeeaf05f92a0db72ee98fb1367b266c188b1b"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/suno/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md",
+      "byteCount": 12062,
+      "sha256": "bc293cb8bf472f502402063c348cd125acb07ac9856591b641946002ead2f0d7"
     },
     {
       "path": "styles.md",
       "downloadPath": "skills/suno/styles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/styles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/styles.md",
+      "byteCount": 5024,
+      "sha256": "ffa34af6bce63817377b938c143484f3d161c645615b65e1d38fdee9ae7ea8b4"
     }
   ]
 }

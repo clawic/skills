@@ -1,7 +1,13 @@
 ---
-name: Embeddings
+name: embeddings
 slug: embeddings
+version: 1.0.0
 description: Generate, store, and search vector embeddings with provider selection, chunking strategies, and similarity search optimization.
+homepage: https://clawic.com/skills/embeddings
+metadata:
+  clawdbot:
+    emoji: 🧮
+    displayName: Embeddings
 ---
 
 ## When to Use

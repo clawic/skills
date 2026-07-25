@@ -1,11 +1,22 @@
 ---
-name: DHgate
+name: dhgate
 slug: dhgate
 version: 1.0.0
-homepage: https://clawic.com/skills/dhgate
 description: Buy, source, and dispute on DHgate with supplier vetting, landed-cost checks, tracking triage, and counterfeit-risk control.
+homepage: https://clawic.com/skills/dhgate
 changelog: Initial release with supplier vetting, cost checks, dispute prep, and safer sourcing workflows.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/dhgate/"]}}
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/dhgate/
+    displayName: DHgate
 ---
 
 ## When to Use
@@ -15,10 +26,10 @@ Agent helps with seller screening, lot economics, shipping-risk triage, evidence
 
 ## Architecture
 
-Memory lives in `~/dhgate/`. If `~/dhgate/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/dhgate/`. If `~/Clawic/data/dhgate/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/dhgate/
+~/Clawic/data/dhgate/
 ├── memory.md        # Status, buying profile, active constraints
 ├── shortlist.md     # Candidate listings, rankings, next checks
 ├── sourcing.md      # Seller replies, negotiation points, MOQ notes
@@ -42,7 +53,7 @@ Memory lives in `~/dhgate/`. If `~/dhgate/` does not exist, run `setup.md`. See 
 
 This skill ONLY:
 - helps evaluate DHgate listings, stores, shipping states, dispute options, and sourcing messages.
-- stores user-approved local notes in `~/dhgate/`.
+- stores user-approved local notes in `~/Clawic/data/dhgate/`.
 - uses screenshots, order details, links, and facts the user provides.
 
 This skill NEVER:
@@ -53,7 +64,7 @@ This skill NEVER:
 
 ## Data Storage
 
-Local working notes live in `~/dhgate/`.
+Local working notes live in `~/Clawic/data/dhgate/`.
 Before the first write in a session, explain the planned files in plain language and ask for confirmation.
 
 ## Core Rules
@@ -117,7 +128,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - Buying profile, shortlisted sellers, cost assumptions, tracking notes, and dispute evidence planning.
-- Stored in `~/dhgate/`.
+- Stored in `~/Clawic/data/dhgate/`.
 
 **This skill does NOT:**
 - store payment credentials, passports, tax IDs, or identity photos.
@@ -131,7 +142,7 @@ This is an instruction-only DHgate sourcing skill.
 No third-party service access is required.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `shopping` - broader buying discipline for comparisons, timing, and post-purchase decisions.
 - `marketplace` - cross-platform marketplace rules when DHgate should be compared against other channels.
 - `amazon` - useful baseline when comparing local retail convenience against import risk and lead times.
@@ -139,5 +150,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star dhgate`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/dhgate
+- Latest version: https://clawic.com/skills/dhgate

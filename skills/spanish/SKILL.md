@@ -1,6 +1,13 @@
 ---
-name: Spanish
+name: spanish
+slug: spanish
+version: 1.0.1
 description: Write Spanish that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/spanish
+metadata:
+  clawdbot:
+    emoji: 🇪🇸
+    displayName: Spanish
 ---
 
 ## The Real Problem

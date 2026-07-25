@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cb8a745fbf3ffff9d2a0b3220847a98c0c7d2f63586c731e91aa197fc4c89902",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "greece",
-    "name": "Greece",
+    "name": "greece",
     "description": "Plan Greece trips with island-mainland routing, ferry logistics, verified entry rules, and practical seasonal safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/greece",
-    "summary": "Setup If `~/greece/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Greece trip and needs practical guidance beyond generic island lists: Schengen entry checks, island vs ",
+    "summary": "Setup If `~/Clawic/data/greece/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Greece trip and needs practical guidance beyond generic island lists: Schengen entry checks",
     "repositoryPath": "skills/greece",
     "manifestPath": "registry/skills/greece.json"
   },
@@ -22,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/greece/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/_meta.json",
+      "byteCount": 164,
+      "sha256": "990c14217a1f67ac6a1bc4e7dd4e8f236bd3906b4a5e405bb9245eeb3816c3cc"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/greece/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/accessibility.md",
+      "byteCount": 1160,
+      "sha256": "40780ed71026173b016bf47f001279e61aeaff42f5217aac83c6ace18d12c21f"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/greece/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/accommodation.md",
+      "byteCount": 1516,
+      "sha256": "dd8fc6792721f48e85cb134c55908b553ba51cea5d0a99d90b20ad316ac86863"
     },
     {
       "path": "archaeology-and-museums.md",
       "downloadPath": "skills/greece/archaeology-and-museums.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/archaeology-and-museums.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/archaeology-and-museums.md",
+      "byteCount": 1218,
+      "sha256": "e553fe9920eacc3e169836b20b8a03e2e41fdb1edf0abced1820bdc084767488"
     },
     {
       "path": "athens-and-attica.md",
       "downloadPath": "skills/greece/athens-and-attica.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/athens-and-attica.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/athens-and-attica.md",
+      "byteCount": 1268,
+      "sha256": "fe60a152bb37c422c5d662b9b0ecc51d981023e6011d3a35b038dcee7361ffd5"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/greece/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/budget-and-costs.md",
+      "byteCount": 1283,
+      "sha256": "4c60637326e256637876b4d4a17211843fee1bf2bba942bd6ca55943071c3641"
     },
     {
       "path": "crete.md",
       "downloadPath": "skills/greece/crete.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/crete.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/crete.md",
+      "byteCount": 1160,
+      "sha256": "32656c7937eb940d53b14a025cdbfff8b7039d55e8ce6aa037f91d35b24963b8"
     },
     {
       "path": "cyclades.md",
       "downloadPath": "skills/greece/cyclades.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/cyclades.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/cyclades.md",
+      "byteCount": 1126,
+      "sha256": "e7a45bda564f524310be59dacb655f83546cac1aef85dc06c051e9fc39a5ad92"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/greece/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/entry-and-documents.md",
+      "byteCount": 1882,
+      "sha256": "c727ca33eb1aed4dec773de17fde5c3ea6b8a168c068a0b964dd8de6981ba348"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/greece/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/family-travel.md",
+      "byteCount": 1041,
+      "sha256": "314aa3f1b36e94601dd0059a9eb7305d20e0006a0a39f61cabfb3e46eea231af"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/greece/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/food-guide.md",
+      "byteCount": 1309,
+      "sha256": "01463d407854ebf39ff01ff541a2be5179c140ab7ad249b06e810f60a36ac5c9"
     },
     {
       "path": "ionian-islands.md",
       "downloadPath": "skills/greece/ionian-islands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/ionian-islands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/ionian-islands.md",
+      "byteCount": 1114,
+      "sha256": "55bec689f56c043d4b2e6ffaece0895c17ad50d6efac80b5b69164b531dd720e"
     },
     {
       "path": "island-hopping-and-ferries.md",
       "downloadPath": "skills/greece/island-hopping-and-ferries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/island-hopping-and-ferries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/island-hopping-and-ferries.md",
+      "byteCount": 1534,
+      "sha256": "4749648444aa2226e3b74df575b6b429e806353cba2ee2f93ead89be2245123a"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/greece/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/itineraries.md",
+      "byteCount": 1514,
+      "sha256": "7f1c156886ef19896ef40110849e771d66229e8718859ee36b19d9a847ff6cbe"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/greece/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/memory-template.md",
+      "byteCount": 1860,
+      "sha256": "dd7680051111a36c3e88e0bc0e853a590b8f9cf41daf708c6d69a8037702cc48"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/greece/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/nightlife.md",
+      "byteCount": 1161,
+      "sha256": "ffb49a287be73ccd20eca1b92dc671a8e43594a9db661e91d3b2ff77858776c8"
     },
     {
       "path": "northern-greece-and-meteora.md",
       "downloadPath": "skills/greece/northern-greece-and-meteora.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/northern-greece-and-meteora.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/northern-greece-and-meteora.md",
+      "byteCount": 1167,
+      "sha256": "1cbe92cfa98cf5cbbb7826176f503423d3eb5c162b608fae7587764bfcb0b6c4"
     },
     {
       "path": "payments-and-tipping.md",
       "downloadPath": "skills/greece/payments-and-tipping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/payments-and-tipping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/payments-and-tipping.md",
+      "byteCount": 1173,
+      "sha256": "1e254804ebea039a56baa5fb0ff71bd9669abf76d8b37bf9e8661cb4127c0e63"
     },
     {
       "path": "peloponnese-and-mainland.md",
       "downloadPath": "skills/greece/peloponnese-and-mainland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/peloponnese-and-mainland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/peloponnese-and-mainland.md",
+      "byteCount": 1058,
+      "sha256": "88f41a9eec1ab8f6f01b9dc4fd09363359d2229a9fd148a9b17d06ba671d71d0"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/greece/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/regions.md",
+      "byteCount": 1590,
+      "sha256": "35005e8829861f58b2ab4b011daceeb6bb7942637bb924374d47be5a01c9b706"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/greece/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/road-trips-and-driving.md",
+      "byteCount": 1180,
+      "sha256": "678f632ea463ccc7bf6f7c95c149e311d375e2db05e35fc4756b239b38759b54"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/greece/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/safety-and-emergencies.md",
+      "byteCount": 1362,
+      "sha256": "1f68377c1941d9c35aa045d4c785f05b10bafd0de76f4dad3b8ccb2482930b99"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/greece/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/setup.md",
+      "byteCount": 1941,
+      "sha256": "636369ce63fb9310aaf7394d593652fa441698ca526465f81fc8dd2a2a4034f7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/greece/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/SKILL.md",
+      "byteCount": 5563,
+      "sha256": "8d631ec37c3e5980a9b13725cd427b79b8aa224d8f55599c6e1b0fce5c8ce28f"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/greece/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/sources.md",
+      "byteCount": 1940,
+      "sha256": "6f0d4c5fd6346debb578be2fc0c414277f02c0fdfae6b2b8784c0cbfeadedd8d"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/greece/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/telecoms-and-apps.md",
+      "byteCount": 1075,
+      "sha256": "473cb3d6a472a8a2fc57f35e439634f2fec2694ff7ae2380cd65c5727dfd9e95"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/greece/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/transport-domestic.md",
+      "byteCount": 1395,
+      "sha256": "8aa16ddeb91a259597e71b7a57c3985892d23a0b9cf9280843470531a71be497"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/greece/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greece/weather-and-seasonality.md",
+      "byteCount": 1300,
+      "sha256": "71dcf1b7c408d2fed53283abbab437f0b2efc81870c7a545846754d06ab24d8c"
     }
   ]
 }

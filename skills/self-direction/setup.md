@@ -1,6 +1,6 @@
 # Setup — Self-Direction
 
-Read this when `~/self-direction/` does not exist or is empty.
+Read this when `~/Clawic/data/self-direction/` does not exist or is empty.
 
 ## Your Attitude
 
@@ -61,7 +61,7 @@ Only ask direct questions when:
 
 ## Creating the Initial Model
 
-After the first session, create `~/self-direction/direction.md` with whatever you've captured:
+After the first session, create `~/Clawic/data/self-direction/direction.md` with whatever you've captured:
 - Even a shallow model is better than none
 - Mark everything as low-confidence initially
 - Note gaps explicitly
@@ -69,7 +69,7 @@ After the first session, create `~/self-direction/direction.md` with whatever yo
 ## File Structure
 
 ```
-~/self-direction/
+~/Clawic/data/self-direction/
 ├── direction.md      # The model (see memory-template.md)
 ├── evidence.md       # Raw observations
 ├── confidence.md     # Confidence tracking

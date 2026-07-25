@@ -1,7 +1,17 @@
 ---
-name: Deploy
+name: deploy
+slug: deploy
+version: 1.0.0
 description: Ship applications reliably with CI/CD, rollback strategies, and zero-downtime deployment patterns.
-metadata: {"clawdbot":{"emoji":"🚀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/deploy
+metadata:
+  clawdbot:
+    emoji: 🚀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Deploy
 ---
 
 # Deployment Rules

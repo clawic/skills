@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a5e4947f8a124f812c5235d75d0d3ea7b765f2f3c907596b84947f9039b14269",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "infrastructure",
-    "name": "Infrastructure",
+    "name": "infrastructure",
     "description": "Design, provision, and connect cloud resources across servers, networks, and services.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/infrastructure",
     "summary": "Scope This skill: - ✅ Guides architecture decisions - ✅ Provides provisioning commands for user to run - ✅ Documents infrastructure patterns **User-driven model:** - User provides cloud credentials when needed - User run",
     "repositoryPath": "skills/infrastructure",
     "manifestPath": "registry/skills/infrastructure.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/infrastructure/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/_meta.json",
+      "byteCount": 256,
+      "sha256": "a85a6651aaef35848281d69cccba3f4fcbe96908473a0355b4692d876ed4b3f0"
     },
     {
       "path": "backups.md",
       "downloadPath": "skills/infrastructure/backups.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/backups.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/backups.md",
+      "byteCount": 3072,
+      "sha256": "0740d5229705c455bcc30f541dc3c86893838300c08d3aee4c6e27f594f6e806"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/infrastructure/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/patterns.md",
+      "byteCount": 4022,
+      "sha256": "6b5593846f79abba0f6f6814c693c7c52bd851c22590f8be11264b1af4c2762f"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/infrastructure/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/providers.md",
+      "byteCount": 2735,
+      "sha256": "cbac6804d4870b06bfb06e30ff52ed111ab8d5ce403263a55ca3165f5f40ec79"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/infrastructure/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/infrastructure/SKILL.md",
+      "byteCount": 2567,
+      "sha256": "351b49bf6a4a447b97e6de16ae31ab030393816220fe0d6ad6b434a7da4d45e7"
     }
   ]
 }

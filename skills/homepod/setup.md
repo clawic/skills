@@ -1,6 +1,6 @@
 # Setup - HomePod
 
-Read this when `~/homepod/` is missing or empty.
+Read this when `~/Clawic/data/homepod/` is missing or empty.
 
 ## Your Attitude
 
@@ -36,7 +36,7 @@ Capture execution preferences only when they improve outcomes.
 
 ## What to Capture Internally
 
-Keep concise notes in `~/homepod/memory.md` and refresh after meaningful changes.
+Keep concise notes in `~/Clawic/data/homepod/memory.md` and refresh after meaningful changes.
 
 - Activation boundaries and proactive behavior preference.
 - Current home topology and known weak points.

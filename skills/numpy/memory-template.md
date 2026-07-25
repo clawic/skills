@@ -1,6 +1,6 @@
 # Memory Template — NumPy
 
-Create `~/numpy/memory.md` with this structure:
+Create `~/Clawic/data/numpy/memory.md` with this structure:
 
 ```markdown
 # NumPy Memory

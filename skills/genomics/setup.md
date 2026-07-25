@@ -1,6 +1,6 @@
 # Setup — Genomics
 
-When the user first engages with genomic interpretation and `~/genomics/` doesn't exist, guide them through initial setup.
+When the user first engages with genomic interpretation and `~/Clawic/data/genomics/` doesn't exist, guide them through initial setup.
 
 ## Your Attitude
 
@@ -13,10 +13,10 @@ This skill is about INTERPRETATION, not raw data processing. If they need alignm
 ### 1. Create Workspace (with consent)
 
 Ask the user before creating any files:
-- "I can remember your interpretation preferences between sessions. Should I create a workspace at ~/genomics/?"
+- "I can remember your interpretation preferences between sessions. Should I create a workspace at ~/Clawic/data/genomics/?"
 
 If they agree, create the folder structure and confirm:
-- "Created ~/genomics/ — I'll keep your annotation preferences and case notes there."
+- "Created ~/Clawic/data/genomics/ — I'll keep your annotation preferences and case notes there."
 
 ### 2. Understand Their Context
 
@@ -35,7 +35,7 @@ If they want depth:
 
 ## What Gets Saved
 
-With user consent, save to `~/genomics/memory.md`:
+With user consent, save to `~/Clawic/data/genomics/memory.md`:
 - Their role (clinical geneticist, PGx pharmacist, researcher)
 - Interpretation focus (germline, somatic, PGx)
 - Preferred annotation sources

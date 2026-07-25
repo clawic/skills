@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fa61ef22d7f26373c921a06e5b6ded7c9da9be9e34297c3fea968958ea59b6c4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "clients",
-    "name": "Clients",
+    "name": "clients",
     "description": "Build a personal client system for tracking relationships, projects, documents, and history.",
-    "summary": "Core Behavior - User mentions client → offer to create/update profile - User needs context → surface relevant history - User shares document → help associate to client - Create `~/clients/` as workspace File Structure ``",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/clients",
+    "summary": "Core Behavior - User mentions client → offer to create/update profile - User needs context → surface relevant history - User shares document → help associate to client - Create `~/Clawic/data/clients/` as workspace File ",
     "repositoryPath": "skills/clients",
     "manifestPath": "registry/skills/clients.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/clients/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/_meta.json",
+      "byteCount": 166,
+      "sha256": "1e63fb8daabda9e65132b9e4fd0387e10df69aed480d57c44d3529719fa11649"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/clients/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/SKILL.md",
+      "byteCount": 4184,
+      "sha256": "793d919b4ecffc154c4a6eb634697bb76afcc8319b73200c016afc13b62ae8ef"
     }
   ]
 }

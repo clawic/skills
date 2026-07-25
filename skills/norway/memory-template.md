@@ -1,6 +1,6 @@
 # Memory Template - Norway
 
-Create `~/norway/memory.md` with this structure:
+Create `~/Clawic/data/norway/memory.md` with this structure:
 
 ```markdown
 # Norway Trip Memory

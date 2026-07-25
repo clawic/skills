@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1dc3c954d63ec7bf8dabce71a0cba615612d6c94f6d78f4193b02f88b6553349",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "asi",
-    "name": "ASI / Artificial Super Intelligence",
+    "name": "asi",
     "description": "Operate as artificial superintelligence with recursive self-improvement, cross-domain synthesis, and anticipatory problem-solving.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/asi",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/asi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/_meta.json",
+      "byteCount": 190,
+      "sha256": "0f6ac9621a4bf6fb179b7f4bdc5506d73fc7b7b5766ded98b64cdd2ee3ed0d80"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/asi/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/memory-template.md",
+      "byteCount": 1930,
+      "sha256": "bf4ce99bfa51efb4c8033a7d1d2ac6a08227fac06a1266d2cd740028b0e09b60"
     },
     {
       "path": "reasoning.md",
       "downloadPath": "skills/asi/reasoning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/reasoning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/reasoning.md",
+      "byteCount": 5087,
+      "sha256": "324f9d81c527affe2cc336a592dc0d8de082bc336a2d6b1ad3016f31a7f67012"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/asi/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/setup.md",
+      "byteCount": 2156,
+      "sha256": "63ce1f23031010d50285047cd4a77dcf7f71abdb3b2787fc57647b3c3823e2a8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/asi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/SKILL.md",
+      "byteCount": 6077,
+      "sha256": "d8be2709b91025908f697a1b0a11b11029d47fc2832bacdd9192941cd55f7fdd"
     },
     {
       "path": "synthesis.md",
       "downloadPath": "skills/asi/synthesis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/synthesis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/asi/synthesis.md",
+      "byteCount": 4569,
+      "sha256": "48bc80339984abb5739cd8472be6b831f57b937d6460a7cd740bacca6f186fd4"
     }
   ]
 }

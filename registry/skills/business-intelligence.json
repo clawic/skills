@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "35d424499248e8cfff4c70aa46a1d82d31477dd9d2e27388ad9631338e109909",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "business-intelligence",
-    "name": "Business Intelligence",
+    "name": "business-intelligence",
     "description": "Model business performance, define KPIs, and turn data into decision-ready dashboards, briefings, and operating cadences for teams and executives.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/business-intelligence",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/business-intelligence/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/_meta.json",
+      "byteCount": 194,
+      "sha256": "06df52dccce2d18a836e09d7a9d12cd673d770083524e93d6caaa5b84ce87279"
     },
     {
       "path": "dashboard-specs.md",
       "downloadPath": "skills/business-intelligence/dashboard-specs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/dashboard-specs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/dashboard-specs.md",
+      "byteCount": 1011,
+      "sha256": "051ff4988ececc0010c4ce9fc7722c8135870080087e22d717a4a7582cbeada9"
     },
     {
       "path": "data-contracts.md",
       "downloadPath": "skills/business-intelligence/data-contracts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/data-contracts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/data-contracts.md",
+      "byteCount": 988,
+      "sha256": "d26b1c696f4e01167ea6faa8aa911f8322719d99bb2214ee1ccc08f8d715dbff"
     },
     {
       "path": "decision-cadence.md",
       "downloadPath": "skills/business-intelligence/decision-cadence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/decision-cadence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/decision-cadence.md",
+      "byteCount": 1047,
+      "sha256": "8852d2a1585a937b98b1067c5f3e9bc1f33d818e7144bba689a77b50a637aef1"
     },
     {
       "path": "insight-briefs.md",
       "downloadPath": "skills/business-intelligence/insight-briefs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/insight-briefs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/insight-briefs.md",
+      "byteCount": 879,
+      "sha256": "277560b83176c05908397e7abab165c359750905fb756983c1f9452cd5f2face"
     },
     {
       "path": "kpi-dictionary.md",
       "downloadPath": "skills/business-intelligence/kpi-dictionary.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/kpi-dictionary.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/kpi-dictionary.md",
+      "byteCount": 1026,
+      "sha256": "7a9e733f7036628b63d4bce74feb3e16a1b5da1e3e8731cfb44aafda30ad16c3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/business-intelligence/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/memory-template.md",
+      "byteCount": 1605,
+      "sha256": "65289c4161e845f2ded6175d4b90cdb2bec2f21f22320c93c91c07dfbc64c6e6"
     },
     {
       "path": "metric-tree.md",
       "downloadPath": "skills/business-intelligence/metric-tree.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/metric-tree.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/metric-tree.md",
+      "byteCount": 1026,
+      "sha256": "2a753b841dc54358105bdcfc02ee8cbabef8bfd8f5cbce947803999fcb63d232"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/business-intelligence/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/setup.md",
+      "byteCount": 1765,
+      "sha256": "6526f0c3854224303c5d4b5f077a21b92cb6d5412ac1bd591feef86994081d9d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/business-intelligence/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-intelligence/SKILL.md",
+      "byteCount": 5999,
+      "sha256": "7ba8060ff2b33a4904ba14684c0d37a26f4f7b1bbcbc9da183ba9ee5a213693c"
     }
   ]
 }

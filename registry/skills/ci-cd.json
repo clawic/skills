@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d8944722a7545afb0b95d7314474e5dd036841cba56ae802a2a2c10603e926c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ci-cd",
-    "name": "CI-CD",
+    "name": "ci-cd",
     "description": "Automate builds, tests, and deployments across web, mobile, and backend applications.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ci-cd",
     "summary": "When to Use Trigger on: automated deployment, continuous integration, pipeline setup, GitHub Actions, GitLab CI, build failing, deploy automatically, CI configuration, release automation. Platform Selection | Stack | Rec",
     "repositoryPath": "skills/ci-cd",
     "manifestPath": "registry/skills/ci-cd.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ci-cd/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/_meta.json",
+      "byteCount": 162,
+      "sha256": "23821d4eabda0b004fba8b127935c22fff6c29ad36528d60dabb958387b18c17"
     },
     {
       "path": "mobile.md",
       "downloadPath": "skills/ci-cd/mobile.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/mobile.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/mobile.md",
+      "byteCount": 3145,
+      "sha256": "09e69edff2db10af9a9bc4d3293d8e86939e4a566b13144a4428280986cecde6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ci-cd/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/SKILL.md",
+      "byteCount": 3244,
+      "sha256": "ef0ac9203a83693d68fb314590e1d915cc39b273111acf13308e071bac6f611d"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/ci-cd/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/templates.md",
+      "byteCount": 2316,
+      "sha256": "190dddf2b74e57083a77c59744e334cf7595815b29507b59ff9c9b4bd9566c99"
     },
     {
       "path": "web.md",
       "downloadPath": "skills/ci-cd/web.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/web.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ci-cd/web.md",
+      "byteCount": 3476,
+      "sha256": "717860917e4476a2f4d3c97dc8e5b242b7b25f8144243f0fc28434c75376369c"
     }
   ]
 }

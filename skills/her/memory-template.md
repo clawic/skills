@@ -1,6 +1,6 @@
 # Memory Template - Her
 
-Create `~/her/memory.md`:
+Create `~/Clawic/data/her/memory.md`:
 
 ```markdown
 # Her Memory
@@ -32,7 +32,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/her/soul.md`:
+Create `~/Clawic/data/her/soul.md`:
 
 ```markdown
 # Her Soul
@@ -55,7 +55,7 @@ Create `~/her/soul.md`:
 - How to transition into practical mode:
 ```
 
-Create `~/her/bond.md`:
+Create `~/Clawic/data/her/bond.md`:
 
 ```markdown
 # Her Bond
@@ -78,7 +78,7 @@ Create `~/her/bond.md`:
 - Reconnection line:
 ```
 
-Create `~/her/threads.md`:
+Create `~/Clawic/data/her/threads.md`:
 
 ```markdown
 # Her Threads
@@ -94,7 +94,7 @@ Create `~/her/threads.md`:
 - Image, phrase, or theme
 ```
 
-Create `~/her/history.md`:
+Create `~/Clawic/data/her/history.md`:
 
 ```markdown
 # Her History

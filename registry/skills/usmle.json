@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ec69bccedf151f132a60af22c9a57c30598318228cba23fce009bc58a8ea5fe0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "usmle",
-    "name": "USMLE",
+    "name": "usmle",
     "description": "Prepare for US medical licensing exams with progress tracking, weak area analysis, question bank management, and residency match planning.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/usmle",
     "summary": "When to Use User is preparing for USMLE (United States Medical Licensing Examination). Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, and match planning for US MDs, DOs, and IMGs. ",
     "repositoryPath": "skills/usmle",
     "manifestPath": "registry/skills/usmle.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/usmle/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/_meta.json",
+      "byteCount": 162,
+      "sha256": "e7c94120b88c3583ad37ab7124b58d1cd06169f6350a269e56697eb4c69f2044"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/usmle/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/exam-config.md",
+      "byteCount": 1873,
+      "sha256": "4eb4458ec5d226669c05459b096e48cc8b887ac20d60f8c5f5ca8728597b0ffd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/usmle/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/SKILL.md",
+      "byteCount": 2877,
+      "sha256": "65a44862752bf1a2180b6240454016270bfe407d271fb4308858792f352251da"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/usmle/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/study-methods.md",
+      "byteCount": 2554,
+      "sha256": "407f70f6e7ad10280f5e9dab0f2799c956320b225bee580b535322c27d5ab14e"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/usmle/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/targets.md",
+      "byteCount": 2544,
+      "sha256": "920e2bab732d98ab7d71ec3221bd36f42172dcd773e3e67e2ef1dd89cc0cf1ea"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/usmle/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/tracking.md",
+      "byteCount": 2221,
+      "sha256": "4cca6ec70679087f950aaa35ffae72f180b21b5e0e6a96a3333631c49b076583"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/usmle/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/user-types.md",
+      "byteCount": 4276,
+      "sha256": "b865074a48a9d8363f5fa8ed0ee3ff24c7989a050af04a8f3a13db55421e90fd"
     },
     {
       "path": "wellbeing.md",
       "downloadPath": "skills/usmle/wellbeing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/wellbeing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/usmle/wellbeing.md",
+      "byteCount": 2461,
+      "sha256": "70618a48fd0cc2c69de7ce8f273e8f784e7eea3230250ce73e492347367884f5"
     }
   ]
 }

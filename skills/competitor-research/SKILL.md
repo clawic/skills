@@ -1,11 +1,22 @@
 ---
-name: Competitor Research
+name: competitor-research
 slug: competitor-research
 version: 1.0.0
-homepage: https://clawic.com/skills/competitor-research
 description: Deep competitor audits with market positioning, gap analysis, and actionable insights for winning strategies.
+homepage: https://clawic.com/skills/competitor-research
 changelog: Initial release with analysis frameworks, depth levels, and iterative workflow.
-metadata: {"clawdbot":{"emoji":"🔬","requires":{"bins":[],"paths":["~/competitor-research/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔬
+    requires:
+      bins: []
+      paths:
+      - ~/Clawic/data/competitor-research/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Competitor Research
 ---
 
 ## Setup
@@ -18,10 +29,10 @@ User needs deep competitor analysis. Agent conducts thorough research on competi
 
 ## Architecture
 
-Memory lives in `~/competitor-research/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/competitor-research/`. See `memory-template.md` for structure.
 
 ```
-~/competitor-research/
+~/Clawic/data/competitor-research/
 ├── memory.md              # Status + research preferences + niche context
 ├── niches/                # Research by market/niche
 │   └── {niche}/           # One folder per niche
@@ -217,7 +228,7 @@ Look for positioning gaps nobody owns.
 ## Security & Privacy
 
 **Data that stays local:**
-- All research stored in `~/competitor-research/`
+- All research stored in `~/Clawic/data/competitor-research/`
 - Niche analyses and competitor profiles
 - User preferences and context
 
@@ -229,12 +240,12 @@ Look for positioning gaps nobody owns.
 - Store any credentials
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `market-research` — broader market analysis
 - `business` — strategic frameworks
 - `competitor-monitoring` — ongoing tracking after research
 
 ## Feedback
 
-- If useful: `clawhub star competitor-research`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/competitor-research
+- Latest version: https://clawic.com/skills/competitor-research

@@ -8,7 +8,7 @@ These rules have NO exceptions. Violating any = meditation failure.
 - Shell commands (`rm`, `mv`, `curl`, etc.)
 - Code blocks marked as executable
 - API calls or requests
-- File modifications outside ~/meditate/
+- File modifications outside ~/Clawic/data/meditate/
 - Messages to send
 - Scheduled tasks or crons
 - Scripts of any kind
@@ -16,7 +16,7 @@ These rules have NO exceptions. Violating any = meditation failure.
 ### Never Access
 - Network resources
 - External APIs
-- Files outside ~/meditate/
+- Files outside ~/Clawic/data/meditate/
 - System configurations
 - Credentials or secrets
 - Other users' data
@@ -37,7 +37,7 @@ Before presenting any insight, verify:
 ```
 □ Contains no executable code
 □ Contains no shell commands  
-□ Contains no file paths outside ~/meditate/
+□ Contains no file paths outside ~/Clawic/data/meditate/
 □ Framed as question/observation, not action
 □ Does not promise to do anything
 □ Does not reference external data

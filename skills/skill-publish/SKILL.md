@@ -1,6 +1,13 @@
 ---
-name: "Skill Publish"
-description: "Safely publish skills to ClawHub. Sanitize, format, verify, and publish without modifying your local files."
+name: skill-publish
+slug: skill-publish
+version: 1.0.0
+description: Safely publish skills to your platform's registry. Sanitize, format, verify, and publish without modifying your local files.
+homepage: https://clawic.com/skills/skill-publish
+metadata:
+  clawdbot:
+    emoji: 📤
+    displayName: Skill Publish
 ---
 
 ## Publish Skills Safely
@@ -18,7 +25,7 @@ Transform any knowledge into a publishable skill. Sanitize personal data, format
 
 ### When to Use
 
-- User wants to publish existing skill/instructions to ClawHub
+- User wants to publish an existing skill/instructions to a registry
 - User wants to share knowledge they've developed locally
 - User has content in any format that should become a public skill
 
@@ -28,7 +35,7 @@ Transform any knowledge into a publishable skill. Sanitize personal data, format
 2. **Transform** — Convert to proper skill format (see `transform.md`)
 3. **Sanitize** — Remove personal/dangerous content (see `sanitize.md`)
 4. **Verify** — Confirm with user before publishing (see `verify.md`)
-5. **Publish** — Only after explicit approval
+5. **Publish** — Only after explicit approval, using whichever publish command the target platform provides (each registry has its own CLI or web flow) — see `verify.md`
 
 ### Critical Rules
 
@@ -43,7 +50,7 @@ Before transforming, clarify:
 - What should be PUBLIC vs kept private?
 - Any specific names/references to remove?
 - Target audience (beginners, experts, specific domain)?
-- Desired slug/name for ClawHub?
+- Desired slug/name for the target registry? Check it doesn't collide with a slug you already own there — naming rules vary by platform.
 
 ---
 

@@ -1,11 +1,26 @@
 ---
-name: Apple News (MacOS)
+name: apple-news
 slug: apple-news
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-news
 description: Open Apple News, read Apple News links, and run local News workflows on macOS using deterministic CLI commands and shortcut-based search fallback.
+homepage: https://clawic.com/skills/apple-news
 changelog: Initial release with validated macOS command paths for Apple News reading flows, link opening, and safe multi-link handling.
-metadata: {"clawdbot":{"emoji":"📰","requires":{"bins":[],"anyBins":["open","osascript","shortcuts"],"config":["~/apple-news/"]},"os":["darwin"],"configPaths":["~/apple-news/"]}}
+metadata:
+  clawdbot:
+    emoji: 📰
+    requires:
+      bins: []
+      anyBins:
+      - open
+      - osascript
+      - shortcuts
+      config:
+      - ~/Clawic/data/apple-news/
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/apple-news/
+    displayName: Apple News (MacOS)
 ---
 
 ## Setup
@@ -26,10 +41,10 @@ Agent handles app launch, article and feed link opening, reading queue workflows
 
 ## Architecture
 
-Memory lives in `~/apple-news/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/apple-news/`. See `memory-template.md` for structure.
 
 ```text
-~/apple-news/
+~/Clawic/data/apple-news/
 ├── memory.md             # Status, defaults, and preferred workflows
 ├── command-paths.md      # Command probes and validated launch paths
 ├── safety-log.md         # Multi-link confirmations and sensitive link notes
@@ -49,7 +64,7 @@ Memory lives in `~/apple-news/`. See `memory-template.md` for structure.
 
 ## Data Storage
 
-All skill files are stored in `~/apple-news/`.
+All skill files are stored in `~/Clawic/data/apple-news/`.
 Before creating or changing local files, describe the planned write and ask for confirmation.
 
 ## Core Rules
@@ -101,7 +116,7 @@ No other external endpoint is required by default.
 ## Security & Privacy
 
 **Data that stays local:**
-- Operational defaults, safety choices, and command reliability notes in `~/apple-news/`.
+- Operational defaults, safety choices, and command reliability notes in `~/Clawic/data/apple-news/`.
 
 **Data that may leave your machine:**
 - Apple News links opened through `https://apple.news`.
@@ -118,7 +133,7 @@ By using this skill, links are opened against Apple News.
 If you enable shortcut-based search, those shortcuts may call additional services defined by the user.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - macOS command workflows and automation patterns.
 - `news` - general news workflows and monitoring patterns.
 - `travel` - location and context workflows for news around destinations.
@@ -127,5 +142,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-news`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-news
+- Latest version: https://clawic.com/skills/apple-news

@@ -1,6 +1,13 @@
 ---
-name: "Deep Research"
-description: "Conduct exhaustive multi-source investigation with methodology tracking, source evaluation, and iterative depth."
+name: in-depth-research
+slug: in-depth-research
+version: 1.0.0
+description: Conduct exhaustive multi-source investigation with methodology tracking, source evaluation, and iterative depth.
+homepage: https://clawic.com/skills/in-depth-research
+metadata:
+  clawdbot:
+    emoji: 🔬
+    displayName: Deep Research
 ---
 
 ## Core Role

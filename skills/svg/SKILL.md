@@ -1,9 +1,19 @@
 ---
-name: SVG
+name: svg
+slug: svg
 version: 1.1.0
-changelog: "Restructured with auxiliary files for focused reference"
 description: Create and optimize SVG graphics with proper viewBox, accessibility, and CSS styling.
-metadata: {"clawdbot":{"emoji":"📐","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/svg
+changelog: Restructured with auxiliary files for focused reference
+metadata:
+  clawdbot:
+    emoji: 📐
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: SVG
 ---
 
 ## Quick Reference
@@ -37,7 +47,7 @@ metadata: {"clawdbot":{"emoji":"📐","requires":{},"os":["linux","darwin","win3
 
 ## Memory Storage
 
-User preferences persist in `~/svg/memory.md`. Create on first use.
+User preferences persist in `~/Clawic/data/svg/memory.md`. Create on first use.
 
 ```markdown
 ## User Preferences

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b27ca4acdb448cdff37f3b1152bd85f728fc120eb57e010418bf1b1405b2b0f8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "video-generation",
-    "name": "AI Video Generation",
+    "name": "video-generation",
     "description": "Create AI videos with Sora 2, Veo 3, Seedance, Runway, and modern APIs using reliable prompt and rendering workflows.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/video-generation",
@@ -22,102 +25,142 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/video-generation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/_meta.json",
+      "byteCount": 263,
+      "sha256": "a392ff788f8dc90293f97971c39e1018fb53265bc52b84658d3347c14ee3addc"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/video-generation/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/api-patterns.md",
+      "byteCount": 1737,
+      "sha256": "9aaa3aec5510c4a42691400b68bafc4a5cfab1dd4338f20a5bcd3bcc1f114d4f"
     },
     {
       "path": "benchmarks.md",
       "downloadPath": "skills/video-generation/benchmarks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/benchmarks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/benchmarks.md",
+      "byteCount": 1902,
+      "sha256": "ff4a52381432b60e0102d8adfcd465025f08154cec820db446fedb42e3303a43"
     },
     {
       "path": "google-veo.md",
       "downloadPath": "skills/video-generation/google-veo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/google-veo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/google-veo.md",
+      "byteCount": 894,
+      "sha256": "c855387ac9a1a57716b66b0c4a2ca936319d7ed4972d9e95f48f0fa3da939fe7"
     },
     {
       "path": "kling.md",
       "downloadPath": "skills/video-generation/kling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/kling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/kling.md",
+      "byteCount": 1024,
+      "sha256": "0459c28c93509f74fdac48505e01c37a6eb987258a56703e5adec6a2709998c8"
     },
     {
       "path": "luma.md",
       "downloadPath": "skills/video-generation/luma.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/luma.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/luma.md",
+      "byteCount": 630,
+      "sha256": "3cc09da7bef4a342d88139eccf5f2c22f39e12ac3cc54242fa94f592aed6176b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/video-generation/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/memory-template.md",
+      "byteCount": 918,
+      "sha256": "6e43cfd0249638c4c4036f26654065c8491acb4c6d9843c9c605e7d2c8d5fa69"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/video-generation/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/migration.md",
+      "byteCount": 1921,
+      "sha256": "e912e5a7b4a271d1fc65a39e8901e651e5e71558176ebe99b3c8b7086bd94ef3"
     },
     {
       "path": "minimax-hailuo.md",
       "downloadPath": "skills/video-generation/minimax-hailuo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/minimax-hailuo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/minimax-hailuo.md",
+      "byteCount": 691,
+      "sha256": "34e760fbe608c2559ed8300f174733cfaa6eddca7d1d92a4f4b617ee12800fb3"
     },
     {
       "path": "open-source-video.md",
       "downloadPath": "skills/video-generation/open-source-video.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/open-source-video.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/open-source-video.md",
+      "byteCount": 748,
+      "sha256": "6370ff9d879f812d2f5a8966f7ce75c313064118967dca6e5be90ea8a3767f14"
     },
     {
       "path": "openai-sora.md",
       "downloadPath": "skills/video-generation/openai-sora.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/openai-sora.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/openai-sora.md",
+      "byteCount": 665,
+      "sha256": "53436910d092b52d89b4ecf333a8bf5409657478be90ca5b51a2f41f583deea3"
     },
     {
       "path": "pika.md",
       "downloadPath": "skills/video-generation/pika.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/pika.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/pika.md",
+      "byteCount": 726,
+      "sha256": "9375f7c70efcc89a8caaf2698d29eb6cfdaf6505dcc33d98e58aae16895758a8"
     },
     {
       "path": "promotion.md",
       "downloadPath": "skills/video-generation/promotion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/promotion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/promotion.md",
+      "byteCount": 812,
+      "sha256": "90aa41e88e15f5aa77c30b26afe7406db06013b3102fbce3b0ce7063656bc37c"
     },
     {
       "path": "replicate.md",
       "downloadPath": "skills/video-generation/replicate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/replicate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/replicate.md",
+      "byteCount": 782,
+      "sha256": "94ffb2994747b65086deb88be870542c97ed70520d4dde3e788c7587f64e8e81"
     },
     {
       "path": "runway.md",
       "downloadPath": "skills/video-generation/runway.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/runway.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/runway.md",
+      "byteCount": 894,
+      "sha256": "dc4ecd7024d281c7d33113ab5f61eb8eb6e01db362513a783bd8863a9a5331b3"
     },
     {
       "path": "seedance.md",
       "downloadPath": "skills/video-generation/seedance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/seedance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/seedance.md",
+      "byteCount": 1007,
+      "sha256": "3d524b8bfef357c5c29351bd1a9d44c6be21d4a81fc80aead6320e55c877bc9d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/video-generation/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/setup.md",
+      "byteCount": 1698,
+      "sha256": "d655ccd455f550fe3e46e19ecd28d190e51ca1008dbc1c311b094153a8106435"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/video-generation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/SKILL.md",
+      "byteCount": 6262,
+      "sha256": "1522344b2ed0cb3deff53f348e0d3e5f6c4b276e56a52715b21a0ea07a13d7c1"
     },
     {
       "path": "stable-video-diffusion.md",
       "downloadPath": "skills/video-generation/stable-video-diffusion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/stable-video-diffusion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/stable-video-diffusion.md",
+      "byteCount": 837,
+      "sha256": "a614feb768d6c06a15acec45f4fb40bdb4a07c70a4d37406871d10b009aec13c"
     },
     {
       "path": "vidu.md",
       "downloadPath": "skills/video-generation/vidu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/vidu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-generation/vidu.md",
+      "byteCount": 731,
+      "sha256": "4dfe9c3685011720660462016bdc3405ce9be0dd9deb3e63fa5eb4b3d665ff2f"
     }
   ]
 }

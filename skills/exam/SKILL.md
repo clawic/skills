@@ -1,6 +1,13 @@
 ---
-name: Exam
+name: exam
+slug: exam
+version: 1.0.0
 description: Generate practice tests, flashcards, study schedules, and timed simulations from any study material.
+homepage: https://clawic.com/skills/exam
+metadata:
+  clawdbot:
+    emoji: 📝
+    displayName: Exam
 ---
 
 ## What This Skill Does

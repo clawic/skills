@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "17b78269555f96804691dea0ac5ec0234adf36a52da50bb00f0d8979284a3b17",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "business",
-    "name": "Business Strategy",
+    "name": "business",
     "description": "Validate ideas, build strategy, and make decisions with proven frameworks.",
     "version": "1.1.0",
     "homepage": "https://clawic.com/skills/business",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/business/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/_meta.json",
+      "byteCount": 253,
+      "sha256": "d96ac764185471436604e57819e45663c34ff35aeca74602daeb43953ce4c9cf"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/business/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/frameworks.md",
+      "byteCount": 6790,
+      "sha256": "b13147f4f067e450e21f0e3fb9057c0286c5b65cf62ee8f10c56eb0b691bd52d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/business/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/memory-template.md",
+      "byteCount": 2700,
+      "sha256": "839e9139e80a5ac207a9f80ec73144eb142e1cd3d2b6417b73d4eceba94e5161"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/business/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/metrics.md",
+      "byteCount": 6037,
+      "sha256": "5e9a9bc158aa1244bd575fd664c9df72a9c3417a8f00e5d26e3c5d7b11ebe081"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/business/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business/SKILL.md",
+      "byteCount": 10054,
+      "sha256": "19e15efa2f928dd34346f156778fa64df6e70d93c51c8c45e372c8480ffdbcfa"
     }
   ]
 }

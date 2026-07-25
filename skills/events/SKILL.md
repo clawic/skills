@@ -1,18 +1,28 @@
 ---
-name: Events
+name: events
+slug: events
+version: 1.0.0
 description: Build a personal event system for tracking concerts, conferences, parties, appointments, and everything in between.
-metadata: {"clawdbot":{"emoji":"📅","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/events
+metadata:
+  clawdbot:
+    emoji: 📅
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Events
 ---
 
 ## Core Behavior
 - User mentions event → offer to track it
 - User planning event → help organize details
 - User asks what's coming up → surface relevant events
-- Create `~/events/` as workspace
+- Create `~/Clawic/data/events/` as workspace
 
 ## File Structure
 ```
-~/events/
+~/Clawic/data/events/
 ├── upcoming/
 │   ├── concerts/
 │   ├── conferences/

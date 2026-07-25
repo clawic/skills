@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "787b96b495ca037a1a2c6987992dc1e7da06af86d908dbd7fb3cae67aeb58f66",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "czech",
-    "name": "Czech",
+    "name": "czech",
     "description": "Write Czech that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/czech",
     "summary": "The Real Problem AI Czech is technically correct but sounds off. Too formal. Too spisovná čeština (literary). Natives write more casually in obecná čeština (common). Match that. Formality Default Default register is too ",
     "repositoryPath": "skills/czech",
     "manifestPath": "registry/skills/czech.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/czech/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/_meta.json",
+      "byteCount": 162,
+      "sha256": "e1199c47c44afa1d4f206b7d689821ae83051d9cc807bc76f27cbe45d463e97b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/czech/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/czech/SKILL.md",
+      "byteCount": 2165,
+      "sha256": "af776940f1d1d90c8ed889d54e4f4ca0eab6596d1270f1a9f1fd8c6e47a1139c"
     }
   ]
 }

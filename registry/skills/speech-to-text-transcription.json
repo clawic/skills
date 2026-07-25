@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd58dff8a5b581ff65b20fa6590f0c982a98301dd5e926210e770b6f4529f00c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "speech-to-text-transcription",
-    "name": "Speech to Text Transcription",
+    "name": "speech-to-text-transcription",
     "description": "Transcribe audio and video files to text with speaker detection, timestamps, and format conversion.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/speech-to-text-transcription",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/speech-to-text-transcription/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/_meta.json",
+      "byteCount": 208,
+      "sha256": "b9885b5053e3e8249a0a77749d59d1a292528440f3285b815e73d444af90b99b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/speech-to-text-transcription/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/memory-template.md",
+      "byteCount": 1283,
+      "sha256": "5fe6452b4f479f1d8ac9325a9554e58bc7815edbd9e226d1d356d41e2166d7d1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/speech-to-text-transcription/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/setup.md",
+      "byteCount": 1563,
+      "sha256": "c82acfd78c1120aa70228ef959d015fdcfcc0ec59ce4a509629dd60b3d33e105"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/speech-to-text-transcription/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speech-to-text-transcription/SKILL.md",
+      "byteCount": 6151,
+      "sha256": "cb3883b40ba552b0a11a7a59e0c035eebf881b29b434c7cf4a62a43c8033dcad"
     }
   ]
 }

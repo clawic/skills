@@ -1,7 +1,17 @@
 ---
-name: Bitcoin
+name: bitcoin
+slug: bitcoin
+version: 1.0.0
 description: Assist with Bitcoin transactions, wallets, Lightning, and security decisions.
-metadata: {"clawdbot":{"emoji":"₿","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bitcoin
+metadata:
+  clawdbot:
+    emoji: ₿
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bitcoin
 ---
 
 ## Wallet Compatibility Traps

@@ -1,11 +1,25 @@
 ---
-name: Self-Criticism
+name: self-criticism
 slug: self-criticism
 version: 1.0.0
-homepage: https://clawic.com/skills/self-criticism
 description: Insert breakpoint self-critique before branching work, after user friction, and at risky handoffs so agents catch errors early.
-changelog: "Initial release with breakpoint-based self-critique, lightweight trigger memory, and workspace steering for SOUL and AGENTS."
-metadata: {"clawdbot":{"emoji":"🧪","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/self-criticism/"],"configPaths.optional":["./AGENTS.md","./SOUL.md"]}}
+homepage: https://clawic.com/skills/self-criticism
+changelog: Initial release with breakpoint-based self-critique, lightweight trigger memory, and workspace steering for SOUL and AGENTS.
+metadata:
+  clawdbot:
+    emoji: 🧪
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/self-criticism/
+    configPaths.optional:
+    - ./AGENTS.md
+    - ./SOUL.md
+    displayName: Self-Criticism
 ---
 
 ## When to Use
@@ -14,10 +28,10 @@ Use when work has natural inflection points and one wrong assumption would sprea
 
 ## Architecture
 
-Memory lives in `~/self-criticism/`. If `~/self-criticism/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/self-criticism/`. If `~/Clawic/data/self-criticism/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/self-criticism/
+~/Clawic/data/self-criticism/
 ├── memory.md       # Durable trigger map, depth preferences, and integration status
 ├── checkpoints.md  # Named breakpoint prompts by workflow phase
 ├── incidents.md    # Late catches, misses, and better insertion points
@@ -85,7 +99,7 @@ Setup should keep the integration small:
 
 This skill ONLY:
 - adds breakpoint-based self-critique for live work
-- stores local trigger memory in `~/self-criticism/`
+- stores local trigger memory in `~/Clawic/data/self-criticism/`
 - proposes small workspace integration for SOUL and AGENTS when the user wants it
 - learns which checkpoints deserve more or less scrutiny over time
 
@@ -98,17 +112,17 @@ This skill NEVER:
 ## Security & Privacy
 
 Data that stays local:
-- trigger preferences and critique depth in `~/self-criticism/memory.md`
-- reusable breakpoints in `~/self-criticism/checkpoints.md`
-- late catches and lessons in `~/self-criticism/incidents.md`
+- trigger preferences and critique depth in `~/Clawic/data/self-criticism/memory.md`
+- reusable breakpoints in `~/Clawic/data/self-criticism/checkpoints.md`
+- late catches and lessons in `~/Clawic/data/self-criticism/incidents.md`
 
 This skill does NOT:
 - require network access
 - send critique logs to external services
-- edit files outside `~/self-criticism/` unless the user explicitly approves workspace integration in that session
+- edit files outside `~/Clawic/data/self-criticism/` unless the user explicitly approves workspace integration in that session
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `self-improving` — compound corrections and reusable execution lessons over time
 - `proactivity` — catch missing next steps and verify reality around active work
@@ -118,5 +132,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star self-criticism`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/self-criticism
+- Latest version: https://clawic.com/skills/self-criticism

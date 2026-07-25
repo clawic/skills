@@ -1,7 +1,17 @@
 ---
-name: Statistics
+name: statistics
+slug: statistics
+version: 1.0.0
 description: Build statistical intuition from basic probability to advanced inference.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/statistics
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Statistics
 ---
 
 ## Detect Level, Adapt Everything

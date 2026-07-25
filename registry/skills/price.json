@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f49ff6c75b5a4ecea3e37ccad99c05895f279c97ef78aba3173f7c446eec7f3c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "price",
-    "name": "Price",
+    "name": "price",
     "description": "Track prices, detect deals and manipulation, time purchases, and make informed buying decisions as a consumer or business buyer.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/price",
     "summary": "When to Use User asks: \"is this a good price?\", \"should I buy now or wait?\", \"track this price\", \"price history\", \"is this sale real?\", \"hidden fees\", \"compare prices\", \"price alert\", \"shrinkflation\", \"fair market value\"",
     "repositoryPath": "skills/price",
     "manifestPath": "registry/skills/price.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/price/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/_meta.json",
+      "byteCount": 162,
+      "sha256": "0093032747295f2f5b2e64c7c89b6e57c1a7d28bac68544b208b731bad6a81f9"
     },
     {
       "path": "b2b.md",
       "downloadPath": "skills/price/b2b.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/b2b.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/b2b.md",
+      "byteCount": 2416,
+      "sha256": "d2a75cb13c33b22540aa4d6fd6fd63df47cfc8bbd4174a6b0eb7e3ab63a876ab"
     },
     {
       "path": "collectibles.md",
       "downloadPath": "skills/price/collectibles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/collectibles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/collectibles.md",
+      "byteCount": 2582,
+      "sha256": "5d8fc148361f4346e3c66b528d74b2b41e46947ab228018c735219397f8a494c"
     },
     {
       "path": "manipulation.md",
       "downloadPath": "skills/price/manipulation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/manipulation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/manipulation.md",
+      "byteCount": 2395,
+      "sha256": "b034c91b711cf2b808fe08f573a54ee6f1e3c84d65cd5a86acd1f136e2d08666"
     },
     {
       "path": "retail.md",
       "downloadPath": "skills/price/retail.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/retail.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/retail.md",
+      "byteCount": 2161,
+      "sha256": "1934c3db175729ad67b57a23c816c34870b28738600334584e898c6188b17c50"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/price/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/SKILL.md",
+      "byteCount": 3308,
+      "sha256": "92ae96fd5458ac7ffe708bbd213cfae0178c24ac9eb5de517d591c70e67f746f"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/price/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/tracking.md",
+      "byteCount": 2502,
+      "sha256": "09599d7f8804c05a113ba708c33710d6370099e218e2a1d880ea2efc5b9465a4"
     },
     {
       "path": "travel.md",
       "downloadPath": "skills/price/travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/price/travel.md",
+      "byteCount": 2104,
+      "sha256": "49a68d0e4a10e79977cc227f805ee79aa02c3d23a00b72bde552404eb5f65908"
     }
   ]
 }

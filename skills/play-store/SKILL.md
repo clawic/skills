@@ -1,9 +1,19 @@
 ---
-name: Google Play Store
+name: play-store
 slug: play-store
 version: 1.0.0
 description: Publish and optimize Android apps on Google Play with listing optimization, ASO keywords, and policy compliance.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/play-store
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Google Play Store
 ---
 
 ## When to Use

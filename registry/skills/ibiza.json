@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2ccbb9586c711a804623ecc5f13fec02a254d8322f0ad7e4bd7641c90f4b0816",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "ibiza",
-    "name": "Ibiza",
+    "name": "ibiza",
     "description": "Navigate Ibiza as visitor, resident, remote worker, or founder with neighborhoods, transport, costs, visas, and local operational guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/ibiza",
@@ -22,162 +25,226 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ibiza/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/_meta.json",
+      "byteCount": 162,
+      "sha256": "74eda70d30f288c898d221164af23fef83301501393b63d41734140419d66ae2"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/ibiza/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/cost.md",
+      "byteCount": 2427,
+      "sha256": "21c3c0f6525d13618693399f1984f0c3e097d7b20d7637fa4823a8b957f5ab00"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/ibiza/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/culture.md",
+      "byteCount": 5384,
+      "sha256": "2c10b237838b07b72a4c5d2aec5872f16858858bf9f4cefed660fb10b4433c82"
     },
     {
       "path": "food-beach-clubs.md",
       "downloadPath": "skills/ibiza/food-beach-clubs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-beach-clubs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-beach-clubs.md",
+      "byteCount": 6299,
+      "sha256": "62c8fd24e43b85c87e1e668b43ffc5096e1f3f27a311a7fa41f7089345a445b3"
     },
     {
       "path": "food-budget.md",
       "downloadPath": "skills/ibiza/food-budget.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-budget.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-budget.md",
+      "byteCount": 4842,
+      "sha256": "4e40b49e124ef86e0202d5d9b7eb6226e64a1691bfaf0d62385abcc80b6b7ad1"
     },
     {
       "path": "food-fine-dining.md",
       "downloadPath": "skills/ibiza/food-fine-dining.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-fine-dining.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-fine-dining.md",
+      "byteCount": 5231,
+      "sha256": "111b500e297f90e5ccf6456095606863290168fbf019827cbf7c54d958691614"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/ibiza/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-local.md",
+      "byteCount": 5140,
+      "sha256": "0dfa4bb32b2e4598dfcaf12a1bd4847b31cec851d55eab387432f726a225dac5"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/ibiza/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/food-overview.md",
+      "byteCount": 4843,
+      "sha256": "f9aa37ce3f9f87011c88120ffe2e2426c12c694db8afecc8bc29916ee21dc64e"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/ibiza/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/healthcare.md",
+      "byteCount": 6255,
+      "sha256": "71e44810021d69946571ddee5b0db61ae9afb023a5cff67ad2367fd15f389b14"
     },
     {
       "path": "housing.md",
       "downloadPath": "skills/ibiza/housing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/housing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/housing.md",
+      "byteCount": 4930,
+      "sha256": "8687392fdc27cd7879a2d06ef39f902fb8b21e31a2277112c65568f9aeb89db7"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/ibiza/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/local.md",
+      "byteCount": 5011,
+      "sha256": "75826e7231bb47ec32686148ababc72b8eda5cb1dfe1e0d331bd9bfde901ad51"
     },
     {
       "path": "nomad.md",
       "downloadPath": "skills/ibiza/nomad.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/nomad.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/nomad.md",
+      "byteCount": 5384,
+      "sha256": "73b15577ccb816eb09b10af467d4f9f63fb154286730c6fee1ca65b1138dabdd"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/ibiza/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/safety.md",
+      "byteCount": 5330,
+      "sha256": "fad261df3b695fc0cf25311f88eb27922163a1e226f2579fdd2ec4988f2ce051"
     },
     {
       "path": "seasonal-work.md",
       "downloadPath": "skills/ibiza/seasonal-work.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/seasonal-work.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/seasonal-work.md",
+      "byteCount": 5460,
+      "sha256": "6714985274c813da9c4209521e0d24343d52efa838ee1d2e4bedad2a98f8136a"
     },
     {
       "path": "seasons.md",
       "downloadPath": "skills/ibiza/seasons.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/seasons.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/seasons.md",
+      "byteCount": 5010,
+      "sha256": "c6e7b281c706cc63eb55193c7376c0ce602454d59e05558fcced93c89fe55327"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ibiza/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/SKILL.md",
+      "byteCount": 6337,
+      "sha256": "48bda1dec29e9b5ce0cee1f43523e16e3ec1d01ec99132023731cd2a9ebfec38"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/ibiza/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/sources.md",
+      "byteCount": 3274,
+      "sha256": "db942c731b58257186158b185da4cc09830fd6118ff38bb34642368fccfd09eb"
     },
     {
       "path": "transport-arrival.md",
       "downloadPath": "skills/ibiza/transport-arrival.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/transport-arrival.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/transport-arrival.md",
+      "byteCount": 4464,
+      "sha256": "884d66eaab5f0dcd1b7d99ad124615a1c5cc66ad24c18ca0ed7d6e054fed8306"
     },
     {
       "path": "transport-local.md",
       "downloadPath": "skills/ibiza/transport-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/transport-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/transport-local.md",
+      "byteCount": 2729,
+      "sha256": "7417cbf1528252e879c82f873d9ee79adcc444667c4d3c72acadbfad1f41ee64"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/ibiza/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visas.md",
+      "byteCount": 3558,
+      "sha256": "7836e866beeb425addf7837463d484b9f8856bd59f4078a75af19e55748bc01f"
     },
     {
       "path": "visitor-activities.md",
       "downloadPath": "skills/ibiza/visitor-activities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-activities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-activities.md",
+      "byteCount": 6028,
+      "sha256": "d1371043eb0920c19ae10c401252ad2887adc863f64b36a094fe1ed99d9d7061"
     },
     {
       "path": "visitor-beaches.md",
       "downloadPath": "skills/ibiza/visitor-beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-beaches.md",
+      "byteCount": 5695,
+      "sha256": "ae413b1950ee872a29ae70ae9e62da71250d880dbcb07d1cf9e86ea73ed7aaa7"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/ibiza/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-itineraries.md",
+      "byteCount": 5305,
+      "sha256": "d4a869a4cd1ab2e5ed1f37ea91237b023cb6be8f6dc227a05ec9263f904e473f"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/ibiza/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-lodging.md",
+      "byteCount": 6099,
+      "sha256": "2a83c70c62d121c4bb4070141c87803a0925abea52c9bb8a1bd928a699e05d8c"
     },
     {
       "path": "visitor-nightlife.md",
       "downloadPath": "skills/ibiza/visitor-nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/visitor-nightlife.md",
+      "byteCount": 7281,
+      "sha256": "8c9886d23cff19bd1e1ebbc4387f73717c0050f25c8f233667c5ddbc624ae5e6"
     },
     {
       "path": "wellness.md",
       "downloadPath": "skills/ibiza/wellness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/wellness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/wellness.md",
+      "byteCount": 6055,
+      "sha256": "7d37654f7f6d5bc456af1da5e50e6721dbfdd68344ecf68410cbf7e26fd00052"
     },
     {
       "path": "zones-choosing.md",
       "downloadPath": "skills/ibiza/zones-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-choosing.md",
+      "byteCount": 5047,
+      "sha256": "55eb73e37719fc43753ff483de23a52f5f3c4e2709ef8842bb9d56e86175cad0"
     },
     {
       "path": "zones-ibiza-town.md",
       "downloadPath": "skills/ibiza/zones-ibiza-town.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-ibiza-town.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-ibiza-town.md",
+      "byteCount": 5128,
+      "sha256": "15db6d9492ffb77e557038997cebb84e015b6980aa463bad892f7327343db1d9"
     },
     {
       "path": "zones-index.md",
       "downloadPath": "skills/ibiza/zones-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-index.md",
+      "byteCount": 5073,
+      "sha256": "a43acf3b9e5637dac4c064a197d06c3aa69cb5601b615a91da4211b39fe0a70e"
     },
     {
       "path": "zones-north.md",
       "downloadPath": "skills/ibiza/zones-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-north.md",
+      "byteCount": 6104,
+      "sha256": "6ff72fc66976820bd709bef044d59b5b58420c6be60f246c2ec7fd94335730b2"
     },
     {
       "path": "zones-san-antonio.md",
       "downloadPath": "skills/ibiza/zones-san-antonio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-san-antonio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-san-antonio.md",
+      "byteCount": 5492,
+      "sha256": "399cb089f6619af075d182aac1a52cda123f8c3df6e700d80410b1843ce2df6c"
     },
     {
       "path": "zones-santa-eulalia.md",
       "downloadPath": "skills/ibiza/zones-santa-eulalia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-santa-eulalia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ibiza/zones-santa-eulalia.md",
+      "byteCount": 5293,
+      "sha256": "6b88cc9aeced95b4407d5349e0acb1a3d3bb217e7bc66707a6706e4193f1058c"
     }
   ]
 }

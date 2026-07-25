@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f3bef1a1f4e8dab839a8204bc257e0fa66af39566e9c6fadfce42031ca21e8d2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "google-play-store",
-    "name": "Google Play Store",
+    "name": "google-play-store",
     "description": "Publish, optimize, and scale Android apps on Google Play with release automation, ASO, policy compliance, and rejection recovery.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/google-play-store",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/google-play-store/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/_meta.json",
+      "byteCount": 186,
+      "sha256": "bcbe5560b4ba700cb158af73b06d428593e85468ddf540ae8b5a88631f430130"
     },
     {
       "path": "aso.md",
       "downloadPath": "skills/google-play-store/aso.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/aso.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/aso.md",
+      "byteCount": 4753,
+      "sha256": "4b02725aaa6494643601a20607e26bd55c84fc7aea9693b952a48cb4f1ab595c"
     },
     {
       "path": "fastlane.md",
       "downloadPath": "skills/google-play-store/fastlane.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/fastlane.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/fastlane.md",
+      "byteCount": 5830,
+      "sha256": "f32a45b6b764285741f87af3710cce2363cf87715eaee0617880c719fea223bd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/google-play-store/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/memory-template.md",
+      "byteCount": 1784,
+      "sha256": "1761452561e53c6e1fb6dbcfa8d189aa99e9b239cba35d28111f755f8c25ab88"
     },
     {
       "path": "policies.md",
       "downloadPath": "skills/google-play-store/policies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/policies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/policies.md",
+      "byteCount": 5673,
+      "sha256": "8ac5e9ca266dd4fa2d258b5c25a77cf34ec8c8dd572fa82544e0dfadccea6a67"
     },
     {
       "path": "rejections.md",
       "downloadPath": "skills/google-play-store/rejections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/rejections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/rejections.md",
+      "byteCount": 5548,
+      "sha256": "77acf029d77430a4bf6926c7bcd73772394285975eefc2adf65a7c24d755b825"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-play-store/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/setup.md",
+      "byteCount": 1842,
+      "sha256": "550472c5727bd699dcbc7a38e00e33cf50e2a585e7bab337bbf435caef59f2d6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/google-play-store/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/SKILL.md",
+      "byteCount": 7024,
+      "sha256": "edc30220f2d6bbc7804a42e6d5a9967fcd11a8bd083691a3869f8060b362cdf5"
     },
     {
       "path": "tracks.md",
       "downloadPath": "skills/google-play-store/tracks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/tracks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-play-store/tracks.md",
+      "byteCount": 4839,
+      "sha256": "41491509beef481fb2571967f4185c6126feb426d4cc894f7b38c7892644a94b"
     }
   ]
 }

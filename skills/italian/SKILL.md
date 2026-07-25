@@ -1,6 +1,13 @@
 ---
-name: Italian
+name: italian
+slug: italian
+version: 1.0.0
 description: Write Italian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/italian
+metadata:
+  clawdbot:
+    emoji: 🇮🇹
+    displayName: Italian
 ---
 
 ## The Real Problem

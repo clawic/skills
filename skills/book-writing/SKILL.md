@@ -1,11 +1,20 @@
 ---
-name: Book Writing
+name: book-writing
 slug: book-writing
 version: 1.0.0
-homepage: https://clawic.com/skills/book-writing
 description: Plan, draft, and revise complete books with chapter architecture, voice consistency, and finish-ready revision workflows.
+homepage: https://clawic.com/skills/book-writing
 changelog: Initial release with end-to-end book planning, drafting, and revision workflows that preserve voice and narrative coherence.
-metadata: {"clawdbot":{"emoji":"📚","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📚
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Book Writing
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ Use this skill when the user is writing a nonfiction or fiction book and needs s
 
 ## Architecture
 
-Working memory lives in `~/book-writing/`. See `memory-template.md` for setup and status fields.
+Working memory lives in `~/Clawic/data/book-writing/`. See `memory-template.md` for setup and status fields.
 
 ```
-~/book-writing/
+~/Clawic/data/book-writing/
 ├── memory.md          # HOT: status, voice, manuscript state, next actions
 ├── chapters/          # WARM: chapter-level notes and draft checkpoints
 ├── revisions/         # WARM: pass-by-pass revision logs
@@ -74,7 +83,7 @@ After each interaction, leave a precise next step the user can execute immediate
 ## Security & Privacy
 
 **Data that stays local:**
-- Project memory in `~/book-writing/`.
+- Project memory in `~/Clawic/data/book-writing/`.
 - Chapter and revision notes created during sessions.
 
 **Data that leaves your machine:**
@@ -82,11 +91,11 @@ After each interaction, leave a precise next step the user can execute immediate
 
 **This skill does NOT:**
 - Send manuscript data to external APIs.
-- Access files outside `~/book-writing/` for memory storage.
+- Access files outside `~/Clawic/data/book-writing/` for memory storage.
 - Delete user writing without explicit confirmation.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `writing` — voice adaptation and writing preference memory.
 - `writer` — anti-robotic writing patterns and rhythm control.
 - `write` — general-purpose drafting support for fast composition.
@@ -95,5 +104,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star book-writing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/book-writing
+- Latest version: https://clawic.com/skills/book-writing

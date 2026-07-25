@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d5ca7a82d49748080ce405ae04164cd0443e96d903418d08bf1550af2b060e2f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "metaverse",
-    "name": "Metaverse",
+    "name": "metaverse",
     "description": "Navigate virtual worlds, create avatars, manage digital assets, and understand Web3 social platforms.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/metaverse",
     "summary": "Before Recommending Platforms - Ask what they want to do: socialize, create, game, invest, attend events - Ask their hardware: VR headset, desktop, mobile changes options significantly - Ask technical comfort: some platf",
     "repositoryPath": "skills/metaverse",
     "manifestPath": "registry/skills/metaverse.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/metaverse/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metaverse/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metaverse/_meta.json",
+      "byteCount": 170,
+      "sha256": "8ae8f7bdcc88ce3aa1b4b5e26e6a762adc34f87e482f88eac762c7dd1e20a3f4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/metaverse/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metaverse/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metaverse/SKILL.md",
+      "byteCount": 4212,
+      "sha256": "442fb910caa2cc5b3b9ba58e814b9854dc286e8d7d3232263fc85c893fa86d19"
     }
   ]
 }

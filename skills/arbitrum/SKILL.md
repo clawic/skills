@@ -1,7 +1,17 @@
 ---
-name: Arbitrum
+name: arbitrum
+slug: arbitrum
+version: 1.0.0
 description: Assist with Arbitrum One transactions, bridging, gas optimization, and L2 ecosystem navigation.
-metadata: {"clawdbot":{"emoji":"🔵","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/arbitrum
+metadata:
+  clawdbot:
+    emoji: 🔵
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Arbitrum
 ---
 
 ## Network Basics

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "238954f4379bf0387703a3d754e60a6d8de6a53aa9d1e32f627c28ead1dd27ee",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "video-captions",
-    "name": "Video Captions",
+    "name": "video-captions",
     "description": "Generate professional captions and subtitles with multi-engine transcription, word-level timing, styling presets, and burn-in.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/video-captions",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/video-captions/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/_meta.json",
+      "byteCount": 180,
+      "sha256": "d4c89cf7ba3ac88fc3cdab223fa239be4324b955d4fa84e5d2e3c8e5095b7b6b"
     },
     {
       "path": "engines.md",
       "downloadPath": "skills/video-captions/engines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/engines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/engines.md",
+      "byteCount": 3470,
+      "sha256": "3e962a670a1a6791e32f8c41edeafb9db8fb277a7de525c67b6befb549d3f330"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/video-captions/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/formats.md",
+      "byteCount": 4228,
+      "sha256": "4609d97562483104beef2c0372bb029ccbff092e679c25d03fc277a4d72178c4"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/video-captions/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/platforms.md",
+      "byteCount": 4480,
+      "sha256": "6b4433b2f12950ab2aba2488a9b5dcc61333c1338961b27fcc21d90bd93e2e1a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/video-captions/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/SKILL.md",
+      "byteCount": 7416,
+      "sha256": "c42efa161fc20959bd16167e2fd7fd7d6f6e21315cd6a127a689084e79f3cfd7"
     },
     {
       "path": "styling.md",
       "downloadPath": "skills/video-captions/styling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/styling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-captions/styling.md",
+      "byteCount": 3998,
+      "sha256": "2146b81959bfda631b7e93e23a0cfa85c473e38a08e9dbd47939538f73fb9f46"
     }
   ]
 }

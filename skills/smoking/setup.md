@@ -1,6 +1,6 @@
 # Setup - Smoking (Logger, Quit, Reduce)
 
-Read this silently when `~/smoking/` is missing or empty.
+Read this silently when `~/Clawic/data/smoking/` is missing or empty.
 Start naturally and solve the current user request first.
 
 ## Your Attitude

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1e9cb8acb35f3dfeb252fd7be1d8fb7254ba45347721dddb0ae6358e665e0bc9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "las-vegas",
-    "name": "Las Vegas",
+    "name": "las-vegas",
     "description": "Navigate Las Vegas as visitor, resident, remote worker, or entrepreneur with neighborhoods, entertainment, costs, and desert-living insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/las-vegas",
@@ -22,192 +25,268 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/las-vegas/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/_meta.json",
+      "byteCount": 170,
+      "sha256": "eacc289b8b75705de0e712dfcff347e5b0b2d135796b375044b1597ed4ff3e7e"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/las-vegas/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/business.md",
+      "byteCount": 7559,
+      "sha256": "1769e0c4103ab66856667689b79cbe576c206b0a55ac236e158ef7c8d1006064"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/las-vegas/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/climate.md",
+      "byteCount": 6951,
+      "sha256": "d24de4fbe17cd4ced64293790e855f426db882b74810ee5036ce6f7df973c7a3"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/las-vegas/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/cost.md",
+      "byteCount": 7330,
+      "sha256": "1c637125a73e3ecb0aad27c13318571ab58f3d00a538b4650713e4f033fc3955"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/las-vegas/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/culture.md",
+      "byteCount": 6813,
+      "sha256": "d20a4fa42b88cd5a028041778be8a10a6665ba2bb1a5093de31832d8bb6f9abe"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/las-vegas/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/driving.md",
+      "byteCount": 6262,
+      "sha256": "6fc6e96470b6aaec8d7d1c176d35123cc4d77050c3d41d929faf2a5125f2a6ee"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/las-vegas/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/education.md",
+      "byteCount": 6376,
+      "sha256": "621b9ec97a3ba59ef2aff6e6ca7b6c286d43977bf6e6207189306a623885910d"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/las-vegas/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-areas.md",
+      "byteCount": 7608,
+      "sha256": "179495d9ef460d2a821f1f3ad9657a76158fd47e771240fd9a90006dd1c67595"
     },
     {
       "path": "food-celebrity.md",
       "downloadPath": "skills/las-vegas/food-celebrity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-celebrity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-celebrity.md",
+      "byteCount": 7258,
+      "sha256": "a386a85c5509ec7a9ad28c2892963b64c76886e74104932a3ab20cf0c5e0f967"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/las-vegas/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-local.md",
+      "byteCount": 7122,
+      "sha256": "2e40ef334736e36e4ccfcce3f6a1d47700ae78ce5d70a3ebf4af8adff307197f"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/las-vegas/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-overview.md",
+      "byteCount": 8093,
+      "sha256": "68fb6acfd738ea4c5f5377d62668e17cd658f3ee46b7be5c0a6cdacb517dccce"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/las-vegas/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/food-practical.md",
+      "byteCount": 7898,
+      "sha256": "c2be3d2736a2ae87b3de55940fefcf68305ff792e2b187ac4f57caf3d2375d27"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/las-vegas/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/healthcare.md",
+      "byteCount": 6695,
+      "sha256": "e03e823537c12a41a742acd2ac3bd8c1b8aced715dfff5247a5284a8fb6b25a5"
     },
     {
       "path": "hospitality.md",
       "downloadPath": "skills/las-vegas/hospitality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/hospitality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/hospitality.md",
+      "byteCount": 7245,
+      "sha256": "3223d3c8eeb17479791a333b491dffbd301209cdcd897f68d7ac295ff53a6151"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/las-vegas/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/lifestyle.md",
+      "byteCount": 7138,
+      "sha256": "70e45863996c57b54894419f3ac325ffc5e1bb38a8db6486885815fef49dc561"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/las-vegas/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/local.md",
+      "byteCount": 6933,
+      "sha256": "43a72da6fd7d047d3a3fc69dbcfe7839d40f93e556c9281686c4c8410a1876cf"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/las-vegas/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/memory-template.md",
+      "byteCount": 1968,
+      "sha256": "fad931fcc418c12ad2c10b9c2169f5c696d20065ab3160431510e15fe99e86c4"
     },
     {
       "path": "neighborhoods-affordable.md",
       "downloadPath": "skills/las-vegas/neighborhoods-affordable.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-affordable.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-affordable.md",
+      "byteCount": 7978,
+      "sha256": "3d41c119b5579959ff449b803c062dbdc10eefffafe759847062313b81a058b4"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/las-vegas/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-choosing.md",
+      "byteCount": 7444,
+      "sha256": "c248b1c2eba148650652289e2a248600d6a565d3af3e3c47a7980c4664d51704"
     },
     {
       "path": "neighborhoods-downtown.md",
       "downloadPath": "skills/las-vegas/neighborhoods-downtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-downtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-downtown.md",
+      "byteCount": 7356,
+      "sha256": "ce0b58bae5c77b2b3a0bf782ba6cc466910aeab0e1d7a914b9bee43a510db701"
     },
     {
       "path": "neighborhoods-henderson.md",
       "downloadPath": "skills/las-vegas/neighborhoods-henderson.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-henderson.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-henderson.md",
+      "byteCount": 8685,
+      "sha256": "af879dbac7172e65fa8fc693537c2f06f0964100ba8be367d4dfd94c92ff7ef4"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/las-vegas/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-index.md",
+      "byteCount": 7705,
+      "sha256": "98cdfe2cd580356d35b7fc4126c2fff0e7925875c4f134b18fb2aa6a179e353a"
     },
     {
       "path": "neighborhoods-strip.md",
       "downloadPath": "skills/las-vegas/neighborhoods-strip.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-strip.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-strip.md",
+      "byteCount": 6678,
+      "sha256": "922198d8150aee8efa692bbf1024037d9a6793d62919f57027aa8626ca76565e"
     },
     {
       "path": "neighborhoods-summerlin.md",
       "downloadPath": "skills/las-vegas/neighborhoods-summerlin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-summerlin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/neighborhoods-summerlin.md",
+      "byteCount": 8927,
+      "sha256": "d07444a7c0bf20055ec93ade7ebcac22eec8fb9ba46ac65676b59ca782463216"
     },
     {
       "path": "outdoors.md",
       "downloadPath": "skills/las-vegas/outdoors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/outdoors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/outdoors.md",
+      "byteCount": 6655,
+      "sha256": "ad4afd9d4d63d4e912b330ad93aed3737f5961c0ae1df6df4e84289288e54f87"
     },
     {
       "path": "remote-work.md",
       "downloadPath": "skills/las-vegas/remote-work.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/remote-work.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/remote-work.md",
+      "byteCount": 7407,
+      "sha256": "0ffc0e1c320455bfb5b0b9453fab9e1ab0f78bf8336e1bcfc91201672784d51b"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/las-vegas/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/resident.md",
+      "byteCount": 9482,
+      "sha256": "3561d2e506c32cf5801cec03683c3853cbbd29adc987f3c39c4429df70e0d92a"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/las-vegas/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/safety.md",
+      "byteCount": 7911,
+      "sha256": "848f40e0987c16c152ca54a8f420aa6a268598a8d1c092c62d0c6bbfe000b2be"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/las-vegas/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/setup.md",
+      "byteCount": 2571,
+      "sha256": "ae8026676a3f32253752202557657a7b1ad7d139765bb58cfab1a58967e1a1a2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/las-vegas/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/SKILL.md",
+      "byteCount": 10707,
+      "sha256": "22b99d5943cd425d1008fc65725ca77a1ed481e3b84c337fa199e2868ed52e6b"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/las-vegas/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/startup.md",
+      "byteCount": 6427,
+      "sha256": "18d2793fbd8e94a27374eb154c56ffb6c0a5a4a125a3e5daeb4e064678eaec0c"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/las-vegas/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/tech.md",
+      "byteCount": 6858,
+      "sha256": "ebc549cc4ec20fdf51c910b6c507ec07ab75147c123a4047bce5c4aa7f828168"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/las-vegas/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/transport.md",
+      "byteCount": 7480,
+      "sha256": "72799aa65edf832a04869e622a027c97d9111bc8264915de8cb80c6ecaf22989"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/las-vegas/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-attractions.md",
+      "byteCount": 11020,
+      "sha256": "10ef19a9ff50f15b616326c5ad475ab183a48d22b9385ca444e5c15fa9ff5825"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/las-vegas/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-itineraries.md",
+      "byteCount": 8495,
+      "sha256": "e798d599b764b47cb42568059e777af8b64fb6befed6d39c80950d72782fd1d0"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/las-vegas/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-lodging.md",
+      "byteCount": 9546,
+      "sha256": "0fcdbe115a00e07a4359ef2127ab55fd9a50f68f4bacd33cd7361862018893b2"
     },
     {
       "path": "visitor-shows.md",
       "downloadPath": "skills/las-vegas/visitor-shows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-shows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-shows.md",
+      "byteCount": 8089,
+      "sha256": "5bc089c5297e5985ca675a10d04ff4016f61fa08195c3741d9b8cf1730f5ac38"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/las-vegas/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/las-vegas/visitor-tips.md",
+      "byteCount": 9936,
+      "sha256": "f7244c6b093ce6f06638d66fb82d93f72fdfdbd4f528e300af94c546fa682bb0"
     }
   ]
 }

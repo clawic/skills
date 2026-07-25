@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "208dc85ba985178114e383b44e07758aa96bf4634a65c24dedcf1ff128ed5b6d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "gitlab",
-    "name": "GitLab",
+    "name": "gitlab",
     "description": "Avoid common GitLab CI/CD mistakes — rules gotchas, silent failures, and YAML merge traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gitlab",
     "summary": "Rules Gotchas - `rules:` and `only:/except:` can't mix — use one or the other per job - First matching rule wins — put specific rules before general ones - Missing `when:` defaults to `on_success` — `rules: - if: $CI_COM",
     "repositoryPath": "skills/gitlab",
     "manifestPath": "registry/skills/gitlab.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gitlab/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/_meta.json",
+      "byteCount": 164,
+      "sha256": "85b72489c70ed3a7fd4e0c576e089409a6eb249510c362fc6d555a7a40dba5fe"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gitlab/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gitlab/SKILL.md",
+      "byteCount": 2296,
+      "sha256": "9919d31e8c30f8f7e6188b189a86260da4fcb780d8bdf8fb3e9d8d9ce912b4ea"
     }
   ]
 }

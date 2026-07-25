@@ -1,6 +1,13 @@
 ---
-name: Cycle
+name: cycle
+slug: cycle
+version: 1.1.0
 description: Design custom workflow cycles for any domain. Create structured, repeatable processes that become persistent skills.
+homepage: https://clawic.com/skills/cycle
+metadata:
+  clawdbot:
+    emoji: 🔁
+    displayName: Cycle
 ---
 
 ## What is a Cycle?

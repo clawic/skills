@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "967c673ce8ef4370d9699466082365a8544f923dfa14490e4f284b5a896a455d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "firewall",
-    "name": "Firewall",
+    "name": "firewall",
     "description": "Configure firewalls on servers and cloud providers with security best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/firewall",
     "summary": "Firewall Rules Critical First Steps - Allow SSH/remote access before enabling any firewall — enabling first locks you out - Test access in a second session before closing the first — verify the rule actually works - Know",
     "repositoryPath": "skills/firewall",
     "manifestPath": "registry/skills/firewall.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/firewall/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/firewall/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/firewall/_meta.json",
+      "byteCount": 168,
+      "sha256": "284a2c8bfe0cf0b45bce990435e2992f8a3ea0e67ea50e2c5d21c894e2557c27"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/firewall/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/firewall/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/firewall/SKILL.md",
+      "byteCount": 3630,
+      "sha256": "af4049c0396dc0d2547df24c7fe80dd05bb36ad005d3d5eee5ff8e1e175ef9dc"
     }
   ]
 }

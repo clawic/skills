@@ -1,6 +1,13 @@
 ---
-name: Creativity
+name: creativity
+slug: creativity
+version: 1.0.0
 description: Generate novel ideas calibrated to user taste. Auto-learns preferred styles, risk levels, and creative directions through feedback.
+homepage: https://clawic.com/skills/creativity
+metadata:
+  clawdbot:
+    emoji: 🎨
+    displayName: Creativity
 ---
 
 ## Core Principle

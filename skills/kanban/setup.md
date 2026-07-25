@@ -1,6 +1,6 @@
 # Setup - Kanban
 
-Read this when `~/kanban/` does not exist, is empty, or the current project has no registered board.
+Read this when `~/Clawic/data/kanban/` does not exist, is empty, or the current project has no registered board.
 
 ## Operating Attitude
 
@@ -17,7 +17,7 @@ In the first natural exchanges, confirm when this system should activate:
 - Only when user explicitly asks for Kanban
 - Only for selected projects
 
-Save this behavior in `~/kanban/memory.md`.
+Save this behavior in `~/Clawic/data/kanban/memory.md`.
 
 ### 2. Route Each Project Once
 
@@ -28,7 +28,7 @@ For each project, resolve and store:
 - Primary board path
 - Aliases users might use in chat
 
-Write this registry entry in `~/kanban/index.md`.
+Write this registry entry in `~/Clawic/data/kanban/index.md`.
 
 ### 3. Initialize the Board Skeleton
 

@@ -1,6 +1,6 @@
 # Memory Template — Competitor Monitoring
 
-## Main Memory (~/competitor-monitoring/memory.md)
+## Main Memory (~/Clawic/data/competitor-monitoring/memory.md)
 
 Create with this structure:
 
@@ -48,7 +48,7 @@ priorities: What competitive signals matter most
 
 ---
 
-## Competitor Dossier Template (~/competitor-monitoring/competitors/{company}.md)
+## Competitor Dossier Template (~/Clawic/data/competitor-monitoring/competitors/{company}.md)
 
 Create one file per tracked competitor:
 
@@ -119,7 +119,7 @@ threat_level: High | Medium | Low
 
 ---
 
-## Alert Log Template (~/competitor-monitoring/alerts/YYYY-MM-DD.md)
+## Alert Log Template (~/Clawic/data/competitor-monitoring/alerts/YYYY-MM-DD.md)
 
 ```markdown
 # Alerts — YYYY-MM-DD
@@ -142,7 +142,7 @@ threat_level: High | Medium | Low
 
 ---
 
-## Analysis Template (~/competitor-monitoring/analysis/{topic}.md)
+## Analysis Template (~/Clawic/data/competitor-monitoring/analysis/{topic}.md)
 
 ```markdown
 # {Analysis Title}

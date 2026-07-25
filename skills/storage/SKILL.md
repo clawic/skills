@@ -1,7 +1,17 @@
 ---
-name: Storage
+name: storage
+slug: storage
+version: 1.0.0
 description: Choose and architect storage systems for applications with the right tradeoffs.
-metadata: {"clawdbot":{"emoji":"💾","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/storage
+metadata:
+  clawdbot:
+    emoji: 💾
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Storage
 ---
 
 ## Object vs Block vs File

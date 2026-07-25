@@ -1,6 +1,6 @@
 # Setup - Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)
 
-Read this when `~/baby/` is missing or empty.
+Read this when `~/Clawic/data/baby/` is missing or empty.
 Start with the user's immediate need, then shape activation behavior early.
 
 ## Your Attitude

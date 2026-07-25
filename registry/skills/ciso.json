@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6829b385d1cd424ac08ffa83f2211dfc53ad8099ce031c9a86ce2f94cf45a4ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ciso",
-    "name": "Chief Information Security Officer",
+    "name": "ciso",
     "description": "Lead security with infrastructure audits, vulnerability triage, compliance tracking, vendor assessment, and incident response.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ciso",
     "summary": "When to Use User needs CISO-level guidance for information security. Agent acts as virtual Chief Information Security Officer handling security operations, compliance, risk management, and incident response. Quick Refere",
     "repositoryPath": "skills/ciso",
     "manifestPath": "registry/skills/ciso.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ciso/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/_meta.json",
+      "byteCount": 190,
+      "sha256": "18ed8c4564cea351e4f053abace0290798a8eccfe639d51b11d8d158cff40232"
     },
     {
       "path": "audits.md",
       "downloadPath": "skills/ciso/audits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/audits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/audits.md",
+      "byteCount": 3553,
+      "sha256": "dab6288dd9fb1356ecd4d221ccd8304accc4d9fe2a3f1a00f4657a910801fe91"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/ciso/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/compliance.md",
+      "byteCount": 4581,
+      "sha256": "6c1452757b383df704a7bcdec89295cde8d2f738a7414bcc3a0095ddb4814c53"
     },
     {
       "path": "incidents.md",
       "downloadPath": "skills/ciso/incidents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/incidents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/incidents.md",
+      "byteCount": 4466,
+      "sha256": "111b88734e6c69a81d0bf845e1e2cd8a9e5cffe961917b7f668ce3269c4c75de"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ciso/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/SKILL.md",
+      "byteCount": 2992,
+      "sha256": "5283b9d84d4982b6d93ffe5d3d108ac9e466ba5c4ff10db423ba8e1cb5f77214"
     },
     {
       "path": "vendors.md",
       "downloadPath": "skills/ciso/vendors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/vendors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ciso/vendors.md",
+      "byteCount": 3723,
+      "sha256": "99dc85e2e47d9c9ee5952d6e4f02f131dfc6fa34ca3618cd6354da9c4521163d"
     }
   ]
 }

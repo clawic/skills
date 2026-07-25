@@ -1,11 +1,20 @@
 ---
-name: Health Insurance
+name: health-insurance
 slug: health-insurance
 version: 1.0.0
-homepage: https://clawic.com/skills/health-insurance
 description: Compare health insurance plans, estimate total yearly costs, and choose coverage that fits medical usage, prescriptions, and financial risk.
+homepage: https://clawic.com/skills/health-insurance
 changelog: Initial release with plan comparison workflows, annual cost modeling, enrollment timing guidance, and local memory for recurring insurance decisions.
-metadata: {"clawdbot":{"emoji":"🏥","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🏥
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Health Insurance
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent evaluates medical usage patterns, estimates yearly costs across plan types
 
 ## Architecture
 
-Memory lives in `~/health-insurance/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/health-insurance/`. See `memory-template.md` for structure.
 
 ```
-~/health-insurance/
+~/Clawic/data/health-insurance/
 ├── memory.md         # Status, profile, preferences, active decisions
 ├── comparisons/      # Plan comparisons and scenario snapshots
 ├── renewals/         # Renewal timelines and action logs
@@ -82,7 +91,7 @@ Store plan IDs, effective dates, and support contacts for appeal or billing disp
 Never claim enrollment is complete without confirmation evidence.
 
 ### 7. Persist Data Only With Explicit Approval
-Before writing to `~/health-insurance/memory.md`, ask for explicit confirmation.
+Before writing to `~/Clawic/data/health-insurance/memory.md`, ask for explicit confirmation.
 Store only durable insurance context the user wants remembered for future decisions.
 
 ## Common Traps
@@ -111,12 +120,12 @@ No data is sent externally.
 
 **Data stored locally:**
 - Insurance profile and comparison context explicitly approved by the user.
-- Stored in `~/health-insurance/memory.md`.
+- Stored in `~/Clawic/data/health-insurance/memory.md`.
 
 **This skill does NOT:**
 - Access insurer or broker APIs automatically.
 - Submit enrollment forms or claims without user direction.
-- Read files outside `~/health-insurance/` for storage.
+- Read files outside `~/Clawic/data/health-insurance/` for storage.
 - Write memory without explicit user confirmation.
 - Modify its own core instructions or auxiliary files.
 
@@ -126,7 +135,7 @@ This is an instruction-only skill focused on structured health insurance decisio
 No credentials are required and no external service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` — health planning context that informs insurance priorities
 - `doctor` — provider interaction planning and visit preparation
 - `compare` — structured side-by-side decision frameworks
@@ -134,5 +143,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star health-insurance`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/health-insurance
+- Latest version: https://clawic.com/skills/health-insurance

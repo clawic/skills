@@ -1,7 +1,17 @@
 ---
-name: Solana
+name: solana
+slug: solana
+version: 1.0.0
 description: Assist with Solana transactions, token accounts, priority fees, and program interactions.
-metadata: {"clawdbot":{"emoji":"◎","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/solana
+metadata:
+  clawdbot:
+    emoji: ◎
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Solana
 ---
 
 ## Rent and Account Creation

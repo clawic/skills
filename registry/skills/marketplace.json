@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "414279926bcd387b18bb220f2832d08a2f31e63506e7ce884e9f3bd1c30189a4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "marketplace",
-    "name": "Marketplace",
+    "name": "marketplace",
     "description": "Navigate online marketplaces as buyer, seller, or builder with platform comparison, listing optimization, and scam detection.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/marketplace",
     "summary": "Architecture Role-based guidance for marketplace participation. Load relevant file based on user's role. ``` marketplace/ ├── buyer.md # Price comparison, scam detection, negotiation ├── seller.md # Listing creation, pri",
     "repositoryPath": "skills/marketplace",
     "manifestPath": "registry/skills/marketplace.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/marketplace/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/_meta.json",
+      "byteCount": 250,
+      "sha256": "8f461809776024760e38dda8edaf1c2096e0cb03b6f6e21baf3a79e08c634130"
     },
     {
       "path": "arbitrage.md",
       "downloadPath": "skills/marketplace/arbitrage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/arbitrage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/arbitrage.md",
+      "byteCount": 2273,
+      "sha256": "a260c3e9c3accf7f31957bae4c95286fa676a35315045dd2c789bff7281eb726"
     },
     {
       "path": "builder.md",
       "downloadPath": "skills/marketplace/builder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/builder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/builder.md",
+      "byteCount": 2617,
+      "sha256": "1b388fb21e9c7c3ea719be676727d25f427f1ea125b0cb398d881dd24c34389e"
     },
     {
       "path": "buyer.md",
       "downloadPath": "skills/marketplace/buyer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/buyer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/buyer.md",
+      "byteCount": 1923,
+      "sha256": "1d9c4efd0ee4e3450a1697fc12acec37394fc22477c0e8a5b254a1d4afda071b"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/marketplace/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/compliance.md",
+      "byteCount": 2780,
+      "sha256": "344321a6577d386a612b2002d00d8f9c36f70c4d9fac1d91d5192ec6fee86064"
     },
     {
       "path": "seller.md",
       "downloadPath": "skills/marketplace/seller.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/seller.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/seller.md",
+      "byteCount": 2230,
+      "sha256": "1f09683f2648490085c5cf49460913ce6cd6e3c4a9166e8222560d5305426a70"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/marketplace/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marketplace/SKILL.md",
+      "byteCount": 2893,
+      "sha256": "a29e77289bc110b928521bb921058dd430f51068d50f6026377f387909c1396a"
     }
   ]
 }

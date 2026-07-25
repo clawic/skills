@@ -1,11 +1,20 @@
 ---
-name: HomePod
+name: homepod
 slug: homepod
 version: 1.0.0
-homepage: https://clawic.com/skills/homepod
 description: Set up, troubleshoot, and optimize HomePod and HomeKit audio workflows with reliable Siri control and room-aware playback tuning.
+homepage: https://clawic.com/skills/homepod
 changelog: Initial release with HomePod setup, diagnostics, direct control workflows, and automation reliability guidance.
-metadata: {"clawdbot":{"emoji":"H","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: H
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: HomePod
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ Use this skill when tasks involve HomePod setup, direct playback control, Siri p
 
 ## Architecture
 
-Memory lives in `~/homepod/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/homepod/`. See `memory-template.md` for structure.
 
 ```text
-~/homepod/
+~/Clawic/data/homepod/
 |-- memory.md              # Status, activation boundaries, and current setup
 |-- homes.md               # Home topology and device mapping
 |-- automation-log.md      # Trigger failures, fixes, and validation results
@@ -86,16 +95,16 @@ Data that leaves your machine:
 - None by default. Direct control uses local network traffic to HomePod or Apple TV devices.
 
 Data that stays local:
-- Setup context and troubleshooting notes in `~/homepod/`.
+- Setup context and troubleshooting notes in `~/Clawic/data/homepod/`.
 
 This skill does NOT:
 - Send undeclared network requests.
 - Execute mutating control commands without target confirmation.
-- Modify files outside `~/homepod/` for storage.
+- Modify files outside `~/Clawic/data/homepod/` for storage.
 - Modify its own `SKILL.md`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `smart-home` - Cross-vendor smart-home architecture and reliability patterns
 - `siri` - Siri interaction and intent quality troubleshooting
 - `wifi` - Local network diagnostics for latency and packet-loss issues
@@ -104,5 +113,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star homepod`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/homepod
+- Latest version: https://clawic.com/skills/homepod

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cfe5299451d86c6acf689d9a08b9d9e144beb138b2340805b7cbfd1bc419c704",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ecommerce",
-    "name": "Ecommerce",
+    "name": "ecommerce",
     "description": "Build and operate online stores with payment security, inventory management, marketplace integration, and conversion optimization.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ecommerce",
     "summary": "Quick Reference | Topic | File | |-------|------| | Code traps that break production | `code-traps.md` | | Platform comparison (costs, features) | `platforms.md` | | Operations (stock, shipping, returns) | `operations.md",
     "repositoryPath": "skills/ecommerce",
     "manifestPath": "registry/skills/ecommerce.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ecommerce/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/_meta.json",
+      "byteCount": 170,
+      "sha256": "1934525e8d565f66450d74bdc610248e5d614a027e3964ae7c7f64e5395fe1c2"
     },
     {
       "path": "code-traps.md",
       "downloadPath": "skills/ecommerce/code-traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/code-traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/code-traps.md",
+      "byteCount": 3724,
+      "sha256": "bd08689d64279c68f77ed36f0630a232697391ec6cf158409626c793d83cf479"
     },
     {
       "path": "growth.md",
       "downloadPath": "skills/ecommerce/growth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/growth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/growth.md",
+      "byteCount": 5717,
+      "sha256": "477b12b0e17241e7671ef31c33a937019fcc097241a2b0086e1b0c3d832dcf0f"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/ecommerce/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/operations.md",
+      "byteCount": 4511,
+      "sha256": "7fe9bff75e969d4c3ee98bd5d2d8f02daf1234886210d7c8c22d4c5e0594f59e"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/ecommerce/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/platforms.md",
+      "byteCount": 3677,
+      "sha256": "b26d4983cda4e9875ea1f5a115d9df2d0619d08bbb0ac519e15fb0bafb81af9c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ecommerce/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/SKILL.md",
+      "byteCount": 2752,
+      "sha256": "cb84f78d3d4abd3617a379f505ffff6649c05a3dc5e6e1482fa9856b1dc934cb"
     }
   ]
 }

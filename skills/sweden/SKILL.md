@@ -1,16 +1,27 @@
 ---
-name: Sweden
+name: sweden
 slug: sweden
 version: 1.0.0
-homepage: https://clawic.com/skills/sweden
-changelog: "Added verified Sweden entry rules, regional playbooks, rail and road logistics, and practical seasonal travel guidance."
 description: Plan Sweden trips with verified entry rules, region-specific routing, rail-ferry logistics, and practical seasonal safety.
-metadata: {"clawdbot":{"emoji":"🇸🇪","requires":{"bins":[],"config":["~/sweden/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sweden
+changelog: Added verified Sweden entry rules, regional playbooks, rail and road logistics, and practical seasonal travel guidance.
+metadata:
+  clawdbot:
+    emoji: 🇸🇪
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/sweden/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sweden
 ---
 
 ## Setup
 
-If `~/sweden/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/sweden/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Sweden trip and needs operational guidance beyond generic Nor
 
 ## Architecture
 
-Memory lives in `~/sweden/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/sweden/`. See `memory-template.md` for structure.
 
 ```text
-~/sweden/
+~/Clawic/data/sweden/
 └── memory.md     # Trip context, constraints, booking status, and route decisions
 ```
 
@@ -106,12 +117,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/sweden/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/sweden/`
 
-**This skill does NOT:** Access files outside `~/sweden/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/sweden/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `europe` — Broader Schengen and multi-country Europe planning
 - `booking` — Reservation workflows and total-cost booking hygiene
@@ -120,5 +131,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star sweden`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/sweden
+- Latest version: https://clawic.com/skills/sweden

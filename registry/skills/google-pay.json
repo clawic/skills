@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bec83bf896a74014ff1ce8e91802ca713099f95ee06cfc5949baf46fc2949d2c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "google-pay",
-    "name": "Google Pay",
+    "name": "google-pay",
     "description": "Implement Google Pay for web and Android with tokenization safety, gateway alignment, and production-ready checkout operations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/google-pay",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/google-pay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/_meta.json",
+      "byteCount": 172,
+      "sha256": "ab562ba3ebcfb1151527ec4918af60b805f3b82f3b90d8d66b020016bccae98d"
     },
     {
       "path": "failure-handling.md",
       "downloadPath": "skills/google-pay/failure-handling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/failure-handling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/failure-handling.md",
+      "byteCount": 1530,
+      "sha256": "1ae7c97a572b09e2215ecc9000e12cec1fbdac478839ce03031e7d225fb2f426"
     },
     {
       "path": "implementation-playbook.md",
       "downloadPath": "skills/google-pay/implementation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/implementation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/implementation-playbook.md",
+      "byteCount": 1554,
+      "sha256": "f4e573cfaf02e394a5fa80cac5b4290e18cd0b0114ebadb5eeb6ccb3314a4c62"
     },
     {
       "path": "launch-playbook.md",
       "downloadPath": "skills/google-pay/launch-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/launch-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/launch-playbook.md",
+      "byteCount": 1188,
+      "sha256": "75c773e98bdf9b60dfd158b0a283d0791282206d043ff0e7cdad663b26334bed"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/google-pay/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/memory-template.md",
+      "byteCount": 1930,
+      "sha256": "d79a416876fb617627df0a15eb710cca23ffe7fa4bfe99748acb621a63f9abba"
     },
     {
       "path": "recurring-payments.md",
       "downloadPath": "skills/google-pay/recurring-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/recurring-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/recurring-payments.md",
+      "byteCount": 1188,
+      "sha256": "fca1d532ac6f5dab41e25d5f07fc752a7d95a17835d18bf3b34d5e79c13825ca"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-pay/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/setup.md",
+      "byteCount": 1877,
+      "sha256": "c85d8e2c55ba48a5279dd7b2b1c3245bc0c1735286e915c667c3c3e1992bc092"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/google-pay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/SKILL.md",
+      "byteCount": 6893,
+      "sha256": "6a1b35986180ec960b1929c2162b909362261a0b2cfdff98b8df4d43d1e90215"
     },
     {
       "path": "validation-checklist.md",
       "downloadPath": "skills/google-pay/validation-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/validation-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-pay/validation-checklist.md",
+      "byteCount": 1305,
+      "sha256": "ecda7f3d4b7650b3830b260d83164a11f364d686039d169d9f62afaf8f2fd755"
     }
   ]
 }

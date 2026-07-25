@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "db734a414cd67f2a139edf6a2e306adc7b5356a5c3930e52d1cf3868c65658cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "exam",
-    "name": "Exam",
+    "name": "exam",
     "description": "Generate practice tests, flashcards, study schedules, and timed simulations from any study material.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/exam",
     "summary": "What This Skill Does Complete exam preparation from your content: - **Practice tests** — Multiple choice, short answer, essay questions - **Flashcards** — Key concepts for spaced repetition, Anki-exportable - **Simulatio",
     "repositoryPath": "skills/exam",
     "manifestPath": "registry/skills/exam.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/exam/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/_meta.json",
+      "byteCount": 160,
+      "sha256": "042fcbdccf6b3dcbdb729dce07eea2aa1044bbe01760ce93191aea6df57613a6"
     },
     {
       "path": "flashcards.md",
       "downloadPath": "skills/exam/flashcards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/flashcards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/flashcards.md",
+      "byteCount": 2705,
+      "sha256": "44089b23d855b9bf6aa72799f1cf7e6d1846a136246bbc76ccc7a79b04dc9d46"
     },
     {
       "path": "questions.md",
       "downloadPath": "skills/exam/questions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/questions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/questions.md",
+      "byteCount": 3308,
+      "sha256": "c4b6f70813962709c6974c175a7b83bc2c9b6428e13f805e8a8f6cc88c83ef35"
     },
     {
       "path": "simulations.md",
       "downloadPath": "skills/exam/simulations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/simulations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/simulations.md",
+      "byteCount": 2895,
+      "sha256": "890a870e8c132fae087ccac23d4e41ccd37b8d6a262009278545d13379169b47"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/exam/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/SKILL.md",
+      "byteCount": 4187,
+      "sha256": "7031c8df0b761e66fdf4cbc0fa68cb3ed06297dfe35b28d6cff94aa0901a0e39"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/exam/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/exam/tracking.md",
+      "byteCount": 2870,
+      "sha256": "3b3f7c57361d6acd873d987f7c75fa10a57ef75cbae11137885f8afe50f8f6b3"
     }
   ]
 }

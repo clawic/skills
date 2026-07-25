@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d9da645a120b645375a3ba29f51bdad94676e95b7a6711958e4601ebfff6a733",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "house",
-    "name": "House",
+    "name": "house",
     "description": "Buy, maintain, improve, and sell homes with inspection checklists, maintenance schedules, renovation planning, and transaction guidance.",
+    "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/house",
     "summary": "Decision Tree | Situation | Action | |-----------|--------| | Buying a house | Check `buying.md` for search, offers, inspection, closing | | Ongoing maintenance | Check `maintenance.md` for schedules, DIY vs pro, seasona",
     "repositoryPath": "skills/house",
     "manifestPath": "registry/skills/house.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/house/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/_meta.json",
+      "byteCount": 162,
+      "sha256": "cd72bf26c1fd1262c8b7515d2cdf275b09fd402ec5a858bd6fbedfe16b5afafa"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/house/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/buying.md",
+      "byteCount": 3190,
+      "sha256": "e52f6f6dee18f6ca51af9099648175e7facc60e8b41cc6c286b67af745651eaf"
     },
     {
       "path": "improvements.md",
       "downloadPath": "skills/house/improvements.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/improvements.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/improvements.md",
+      "byteCount": 3690,
+      "sha256": "f4dcddac2a1426fe09b817cd0492980a4c0f88b0e4d1f456019df6d99c12bb29"
     },
     {
       "path": "maintenance.md",
       "downloadPath": "skills/house/maintenance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/maintenance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/maintenance.md",
+      "byteCount": 3169,
+      "sha256": "4b9e5ee85ace9f8d9f51208ae0bccc58f6e3e7b0c5bffe0feb38fb573802fe6c"
     },
     {
       "path": "renting.md",
       "downloadPath": "skills/house/renting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/renting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/renting.md",
+      "byteCount": 6153,
+      "sha256": "afa95ff75cfcec7578ef918a4b14b8fc1eced4a903980710bb6b30d206961923"
     },
     {
       "path": "selling.md",
       "downloadPath": "skills/house/selling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/selling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/selling.md",
+      "byteCount": 4327,
+      "sha256": "bbbe9271948e1737e253fa606df34784796358e613f40e2461da58195b6cbfef"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/house/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/house/SKILL.md",
+      "byteCount": 3007,
+      "sha256": "c4e6baa1844adde6882d96a029dd943964bd1d896b5ba73d010208589763b052"
     }
   ]
 }

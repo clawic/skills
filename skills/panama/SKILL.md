@@ -1,16 +1,27 @@
 ---
-name: Panama
+name: panama
 slug: panama
 version: 1.0.0
-homepage: https://clawic.com/skills/panama
-changelog: "Initial release with verified Panama entry guidance, region playbooks, and practical trip logistics."
 description: Plan Panama trips with region-aware routing, verified entry rules, island and highland logistics, and practical tourist safety.
-metadata: {"clawdbot":{"emoji":"🇵🇦","requires":{"bins":[],"config":["~/panama/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/panama
+changelog: Initial release with verified Panama entry guidance, region playbooks, and practical trip logistics.
+metadata:
+  clawdbot:
+    emoji: 🇵🇦
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/panama/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Panama
 ---
 
 ## Setup
 
-If `~/panama/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/panama/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Panama trip and needs practical guidance beyond generic inspi
 
 ## Architecture
 
-Memory lives in `~/panama/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/panama/`. See `memory-template.md` for structure.
 
 ```
-~/panama/
+~/Clawic/data/panama/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -101,12 +112,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/panama/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/panama/`
 
-**This skill does NOT:** Access files outside `~/panama/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/panama/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `car-rental` — Better rental, pickup, and road-trip decisions
 - `booking` — Reservation workflows and confirmation hygiene
@@ -115,5 +126,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star panama`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/panama
+- Latest version: https://clawic.com/skills/panama

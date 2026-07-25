@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4dd210f076fab5188d8ce908898db8feffb734f8859391f2def65639f69f6c58",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "cpa",
-    "name": "CPA",
+    "name": "cpa",
     "description": "Prepare for the CPA exam with section-order strategy, 18-month window tracking, score analysis, and state eligibility guidance.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cpa",
     "summary": "When to Use User is preparing for the CPA (Certified Public Accountant) exam. Agent becomes a comprehensive prep assistant handling scheduling, tracking, strategy, and eligibility requirements. Quick Reference | Topic | ",
     "repositoryPath": "skills/cpa",
     "manifestPath": "registry/skills/cpa.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cpa/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/_meta.json",
+      "byteCount": 158,
+      "sha256": "927116683e41ccf080126ac51369e38cfc0fcc57609c2bfa3b518aad5537caa8"
     },
     {
       "path": "exam-format.md",
       "downloadPath": "skills/cpa/exam-format.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/exam-format.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/exam-format.md",
+      "byteCount": 2805,
+      "sha256": "4e2470fff86e6c801c6956fdaaff016fe16833b2a3a66e3ddc29e6b663fd6439"
     },
     {
       "path": "international.md",
       "downloadPath": "skills/cpa/international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/international.md",
+      "byteCount": 3647,
+      "sha256": "a01994f9412722f8d21462e19aafcc239224bd7246e6f1809797a243a66f901b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cpa/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/SKILL.md",
+      "byteCount": 3069,
+      "sha256": "b88646a865720fe6a786d3abc8f52a8e532554bbfec7e54206c50202692d8fba"
     },
     {
       "path": "strategies.md",
       "downloadPath": "skills/cpa/strategies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/strategies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/strategies.md",
+      "byteCount": 3750,
+      "sha256": "42973eff426087267ce23c3211d95accd2bbaee5c7290f0f36e13e67bf921fa1"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/cpa/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/tracking.md",
+      "byteCount": 3100,
+      "sha256": "e795a441cfe78aca751a85464e4d1dda782e17c2f1f946b539b08b971c047e32"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/cpa/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpa/user-types.md",
+      "byteCount": 4146,
+      "sha256": "7df7a3bb7dc118625052d50d90cec0402bc1f151d2dcdbdd9cedde493f35c318"
     }
   ]
 }

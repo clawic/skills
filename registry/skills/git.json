@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "215e0d7728d804e64e455e82fef5887aeb58e9110cd56448ebd610b5df73c56d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,60 +17,80 @@
     "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, and team workflows for safe version control. Use when (1) the task touches Git, a repository, commits, branches, merges, rebases, or pull requests; (2) history safety, collaboration, or recovery matter; (3) the agent should automatically apply Git discipline instead of improvising.",
     "version": "1.0.10",
     "homepage": "https://clawic.com/skills/git",
-    "summary": "When To Use - Any task touching a Git repository: commits, branches, merges, rebases, pull requests, tags, stashes. - Something looks lost \u2014 deleted branch, bad rebase, hard reset, vanished stash: recovery is a first-cla",
+    "summary": "When To Use - Any task touching a Git repository: commits, branches, merges, rebases, pull requests, tags, stashes. - Something looks lost — deleted branch, bad rebase, hard reset, vanished stash: recovery is a first-cla",
     "repositoryPath": "skills/git",
     "manifestPath": "registry/skills/git.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/git/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/git/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/_meta.json",
+      "byteCount": 605,
+      "sha256": "bab1458c8a38d7bfe433a46b9aee101694e192d4443f1b9a7ffaa60eadecd77b"
     },
     {
       "path": "advanced.md",
       "downloadPath": "skills/git/advanced.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/advanced.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/advanced.md",
+      "byteCount": 3659,
+      "sha256": "70c2493e2c275abe5f744845c9c048d71952f91919bec9a9c997c1cc8f84151a"
     },
     {
       "path": "branching.md",
       "downloadPath": "skills/git/branching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/branching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/branching.md",
+      "byteCount": 3214,
+      "sha256": "5e7a15e8fcbb4e41477cf29ccebc79cc07a3f9295a8a2d662ed40dd78f43f49b"
     },
     {
       "path": "collaboration.md",
       "downloadPath": "skills/git/collaboration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/collaboration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/collaboration.md",
+      "byteCount": 2668,
+      "sha256": "0264d677dbf03b892fec4eb499bed9c2e3cbf2c345e1f7998406ed3808b03efd"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/git/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/commands.md",
+      "byteCount": 3627,
+      "sha256": "15e58bfb4b0395568525d432ff6cc92e740c5793111ef81e28b5245b26e99517"
     },
     {
       "path": "conflicts.md",
       "downloadPath": "skills/git/conflicts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/conflicts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/conflicts.md",
+      "byteCount": 2895,
+      "sha256": "3dbf2d668262d86d301af5c1b14077b5c973a87dcb73c83e74b698e84c625050"
     },
     {
       "path": "history.md",
       "downloadPath": "skills/git/history.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/history.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/history.md",
+      "byteCount": 2814,
+      "sha256": "fc237f0b8aa5527c35085bebb7c4655978ae25b98a7da76091296b29338ed092"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/git/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/memory-template.md",
+      "byteCount": 883,
+      "sha256": "f7f0875faa5673e6920f5e869879eecf1c9aa6068b75091301f2af7085ff2238"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/git/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/setup.md",
+      "byteCount": 1400,
+      "sha256": "d3f27d0afa1bebccc7d6e3d8536ce736f534dc3c6c6b694430d85156aceb369b"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/git/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md",
+      "byteCount": 9314,
+      "sha256": "d0b4ed088d01ed142f3be5af48bbc3d30d953d6de3372cf51de1f08cf27cc40e"
     }
   ]
 }

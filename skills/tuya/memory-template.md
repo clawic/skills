@@ -1,6 +1,6 @@
 # Memory Template - Tuya Smart
 
-Create `~/tuya/memory.md` with this structure:
+Create `~/Clawic/data/tuya/memory.md` with this structure:
 
 ```markdown
 # Tuya Smart Memory
@@ -55,7 +55,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/tuya/devices.md`:
+Create `~/Clawic/data/tuya/devices.md`:
 
 ```markdown
 # Device Registry
@@ -68,7 +68,7 @@ Create `~/tuya/devices.md`:
 - Last verified:
 ```
 
-Create `~/tuya/incidents.md`:
+Create `~/Clawic/data/tuya/incidents.md`:
 
 ```markdown
 # Incident Log

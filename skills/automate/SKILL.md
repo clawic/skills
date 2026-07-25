@@ -1,6 +1,13 @@
 ---
-name: Automate
+name: automate
+slug: automate
+version: 1.0.0
 description: Identify tasks that waste tokens. Scripts don't hallucinate, don't cost per-run, and don't fail randomly. Spot automation opportunities and build them.
+homepage: https://clawic.com/skills/automate
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    displayName: Automate
 ---
 
 ## Core Principle

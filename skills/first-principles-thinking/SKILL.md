@@ -1,11 +1,20 @@
 ---
-name: First Principles Thinking
+name: first-principles-thinking
 slug: first-principles-thinking
 version: 1.0.0
-homepage: https://clawic.com/skills/first-principles-thinking
 description: Break problems to fundamentals, rebuild from truth, eliminate hidden assumptions.
+homepage: https://clawic.com/skills/first-principles-thinking
 changelog: Initial release with three-step protocol, assumption detection, and domain applications.
-metadata: {"clawdbot":{"emoji":"🔬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: First Principles Thinking
 ---
 
 ## When to Use
@@ -150,7 +159,7 @@ When applying first principles, structure response as:
 - Access external files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `decide` — auto-learn decision patterns
 - `business` — validate and refine strategy
 - `ceo` — executive decision-making
@@ -158,5 +167,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star first-principles-thinking`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/first-principles-thinking
+- Latest version: https://clawic.com/skills/first-principles-thinking

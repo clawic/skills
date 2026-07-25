@@ -1,6 +1,6 @@
 # Memory Template — Romania
 
-Create `~/romania/memory.md` with this structure:
+Create `~/Clawic/data/romania/memory.md` with this structure:
 
 ```markdown
 # Romania Memory

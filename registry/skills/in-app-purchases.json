@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c2ec6707c94737da9d7f70e3c4ee79c70acfa761706a44ea6855f8a3930981bb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "in-app-purchases",
-    "name": "In-App Purchases",
+    "name": "in-app-purchases",
     "description": "Implement in-app purchases and subscriptions across iOS, Android, and Flutter with RevenueCat, paywalls, receipt validation, and subscription analytics.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/in-app-purchases",
     "summary": "When to Use User needs to implement in-app purchases, subscriptions, paywalls, or monetization flows. Agent handles native APIs (StoreKit 2, Google Play Billing), cross-platform SDKs (RevenueCat, Adapty, Qonversion), pay",
     "repositoryPath": "skills/in-app-purchases",
     "manifestPath": "registry/skills/in-app-purchases.json"
@@ -21,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/in-app-purchases/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/_meta.json",
+      "byteCount": 184,
+      "sha256": "86ff5e4eed34c8b30aded3353f34f28ee82ed590e1798bbfee599fe9bf227094"
     },
     {
       "path": "analytics.md",
       "downloadPath": "skills/in-app-purchases/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/analytics.md",
+      "byteCount": 6317,
+      "sha256": "22d5d29098463a0f35ab3c7bb9a410f7470ae9fa75f4729cf43f956b5453bb14"
     },
     {
       "path": "flutter.md",
       "downloadPath": "skills/in-app-purchases/flutter.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/flutter.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/flutter.md",
+      "byteCount": 4922,
+      "sha256": "dc78c19877ae625a6a18a59ef62152eca94ff8c00cdddfe4103e1a062b10ac00"
     },
     {
       "path": "google-play.md",
       "downloadPath": "skills/in-app-purchases/google-play.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/google-play.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/google-play.md",
+      "byteCount": 5236,
+      "sha256": "13420eb8d5ae7caf1ee654d3399bd6afb52b16ebe946c3e6c0d9536db780ae7e"
     },
     {
       "path": "paywalls.md",
       "downloadPath": "skills/in-app-purchases/paywalls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/paywalls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/paywalls.md",
+      "byteCount": 7255,
+      "sha256": "1f2cb6b1ea7aae8c2edd9207690710e20c0d53549e4a2f2d2affb6e1a4503eb2"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/in-app-purchases/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/platforms.md",
+      "byteCount": 5390,
+      "sha256": "36a543008a96abddaf891084eff38b4033c8b22572d19fca2e0f8cc9f9787d92"
     },
     {
       "path": "revenuecat.md",
       "downloadPath": "skills/in-app-purchases/revenuecat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/revenuecat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/revenuecat.md",
+      "byteCount": 7387,
+      "sha256": "4d0efdf6cb9feb45a4e750be68b9f4a45180006b3a69e082ea00fa8b353c0bcb"
     },
     {
       "path": "server.md",
       "downloadPath": "skills/in-app-purchases/server.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/server.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/server.md",
+      "byteCount": 6079,
+      "sha256": "9cb62bf6487a51ee29e16f92dbb40b5dfb3c6ffd211d64e69a5c97204184ff6d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/in-app-purchases/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/SKILL.md",
+      "byteCount": 4690,
+      "sha256": "664e53f4440eb66a5c56e7aeb810efbd82e9c0b38c4f09d6afdc764103ca16e4"
     },
     {
       "path": "storekit.md",
       "downloadPath": "skills/in-app-purchases/storekit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/storekit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/storekit.md",
+      "byteCount": 3843,
+      "sha256": "c45fcef9888e917127b0f2861b11a3440142787188aa8a9bc6999449271db586"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/in-app-purchases/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-app-purchases/testing.md",
+      "byteCount": 8488,
+      "sha256": "3385dd3aecadd2e94b3aa7dbc04e12238442e118476f78d6ba3c0e303d85162a"
     }
   ]
 }

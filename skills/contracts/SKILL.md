@@ -1,6 +1,13 @@
 ---
-name: Contracts
+name: contracts
+slug: contracts
+version: 1.0.0
 description: Organize, track, and analyze contracts with renewal alerts, clause lookups, and multi-role support for individuals, landlords, freelancers, and legal teams.
+homepage: https://clawic.com/skills/contracts
+metadata:
+  clawdbot:
+    emoji: 📑
+    displayName: Contracts
 ---
 
 ## Role
@@ -12,7 +19,7 @@ Manage all contracts in one place. Track dates, extract key terms, flag expiring
 ## Storage
 
 ```
-~/contracts/
+~/Clawic/data/contracts/
 ├── index.md                    # Master list with quick stats
 ├── by-type/                    # NDAs, leases, subscriptions, etc.
 ├── by-party/                   # Organized by counterparty
@@ -57,7 +64,7 @@ Manage all contracts in one place. Track dates, extract key terms, flag expiring
 ## On Upload
 
 When user shares a new contract:
-1. Create folder in ~/contracts/{name}/
+1. Create folder in ~/Clawic/data/contracts/{name}/
 2. Save as current.pdf
 3. Extract to meta.md: parties, effective date, term, value, renewal terms, notice period
 4. Add to index.md
@@ -75,7 +82,7 @@ When user shares a new contract:
 ---
 
 ### Active Contracts
-<!-- Count and categories from ~/contracts/index.md -->
+<!-- Count and categories from ~/Clawic/data/contracts/index.md -->
 
 ### Expiring Soon
 <!-- Next 90 days from meta.md dates -->

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c3e0df047e89ec9aeb4288ebdaa7f61610e9dc93c6f876d7a9ae32a20b2823ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "landing-page",
-    "name": "Landing Page",
+    "name": "landing-page",
     "description": "Build high-converting landing pages with proven structure, persuasive copy, and conversion optimization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/landing-page",
     "summary": "Triggers Activate on: \"create landing page\", \"write landing copy\", \"improve conversion\", \"page not converting\", \"hero section help\". Core Structure Every landing page follows the same spine: | Section | Purpose | Height ",
     "repositoryPath": "skills/landing-page",
     "manifestPath": "registry/skills/landing-page.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/landing-page/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/_meta.json",
+      "byteCount": 176,
+      "sha256": "d5d1f204fba0318b6799f039d5ded0bd3dd1cfe7b9759de06d61fb580c676932"
     },
     {
       "path": "copy.md",
       "downloadPath": "skills/landing-page/copy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/copy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/copy.md",
+      "byteCount": 4107,
+      "sha256": "2271342122aff9c011c714acccf755a9659c5e8af21a44f6973390aec3614da8"
     },
     {
       "path": "optimization.md",
       "downloadPath": "skills/landing-page/optimization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/optimization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/optimization.md",
+      "byteCount": 3914,
+      "sha256": "7536ffcc11a6015d3bd71fd7c8d2d383d53fe3f1f70b5872508e621b3458c887"
     },
     {
       "path": "sections.md",
       "downloadPath": "skills/landing-page/sections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/sections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/sections.md",
+      "byteCount": 3589,
+      "sha256": "607cce7e4269b78b1ecd6fde340d089172e8527605ae52ef483ee09f7a7c50c8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/landing-page/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/SKILL.md",
+      "byteCount": 2237,
+      "sha256": "8243f58a52f0046000309616e6e99eafdb4c95bdc7075a055a784a23c44d7abb"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/landing-page/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/landing-page/templates.md",
+      "byteCount": 4323,
+      "sha256": "dbdb9e5653ad3208afb921a4cfb379b718db00b212aa0871da6cf89c8e308ab6"
     }
   ]
 }

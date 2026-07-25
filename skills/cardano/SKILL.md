@@ -1,7 +1,17 @@
 ---
-name: Cardano
+name: cardano
+slug: cardano
+version: 1.0.0
 description: Assist with Cardano ADA transactions, staking, native tokens, and UTxO model.
-metadata: {"clawdbot":{"emoji":"₳","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cardano
+metadata:
+  clawdbot:
+    emoji: ₳
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Cardano
 ---
 
 ## UTxO Model (Critical Difference)

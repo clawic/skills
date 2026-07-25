@@ -1,6 +1,6 @@
 # Memory Template - Consultant
 
-Create `~/consultant/memory.md` with this structure:
+Create `~/Clawic/data/consultant/memory.md` with this structure:
 
 ```markdown
 # Consultant Memory

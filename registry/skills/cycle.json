@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5c967716d77429b2423d93de71765b13f57db23db860853770f07d87ac47748e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cycle",
-    "name": "Cycle",
+    "name": "cycle",
     "description": "Design custom workflow cycles for any domain. Create structured, repeatable processes that become persistent skills.",
+    "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/cycle",
     "summary": "What is a Cycle? A structured workflow optimized for a specific goal. Examples: - **code** — Request → Plan → Execute → Verify → Deliver - **research** — Question → Search → Synthesize → Report - **content** — Idea → Dra",
     "repositoryPath": "skills/cycle",
     "manifestPath": "registry/skills/cycle.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cycle/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/_meta.json",
+      "byteCount": 162,
+      "sha256": "9889f4a59461211e8f2df7df57a678d0e0d3aeab62efe190b82815fac2d43769"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/cycle/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/discovery.md",
+      "byteCount": 494,
+      "sha256": "3e17a9f0656f917836137e791f07553013053bf7092b3f04d933ec07da9fba41"
     },
     {
       "path": "examples.md",
       "downloadPath": "skills/cycle/examples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/examples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/examples.md",
+      "byteCount": 657,
+      "sha256": "e2fb1f6eb31adb20d469fc601690e6aa42400af32b3f4af6ee8232df11aba80b"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/cycle/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/implementation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/implementation.md",
+      "byteCount": 867,
+      "sha256": "994102a3b640a10efc0f75b952dc4c767e9e426dbebc2b9e41847ab721d6a4ba"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cycle/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycle/SKILL.md",
+      "byteCount": 1739,
+      "sha256": "6adb9dfe78ef91ae90d4dc0b0316c4e502c2c9642a1b20b20912a2ee7b71c99d"
     }
   ]
 }

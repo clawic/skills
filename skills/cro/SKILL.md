@@ -1,11 +1,18 @@
 ---
-name: CRO / Chief Revenue Officer
+name: cro
 slug: cro
 version: 1.0.1
-homepage: https://clawic.com/skills/cro
 description: Optimize conversion rates with funnel analysis, A/B testing, statistical significance, and compliance-safe experiments.
+homepage: https://clawic.com/skills/cro
 changelog: Added Core Rules structure with statistical rigor and compliance guidelines.
-metadata: {"clawdbot":{"emoji":"📈","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📈
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CRO / Chief Revenue Officer
 ---
 
 ## When to Use
@@ -70,7 +77,7 @@ User wants to improve conversion rates for websites, landing pages, SaaS product
 - Testing without proper tracking setup — retroactive data is unreliable
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — strategic leadership
 - `cfo` — financial planning
 - `cmo` — marketing strategy
@@ -78,5 +85,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cro`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cro
+- Latest version: https://clawic.com/skills/cro

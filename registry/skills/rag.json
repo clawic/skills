@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "74ab2e9a03b2e6d9a7f12ca90f128307e71e5c00387307969f4af413f6af6734",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "rag",
-    "name": "RAG",
+    "name": "rag",
     "description": "Build, optimize, and debug RAG pipelines with chunking strategies, retrieval tuning, evaluation metrics, and production monitoring.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/rag",
     "summary": "When to Use User wants to implement, improve, or troubleshoot Retrieval-Augmented Generation systems. Quick Reference | Topic | File | |-------|------| | Pipeline components & architecture | `architecture.md` | | Impleme",
     "repositoryPath": "skills/rag",
     "manifestPath": "registry/skills/rag.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/rag/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/_meta.json",
+      "byteCount": 158,
+      "sha256": "03a33d3092a6f060ad2815f43ad674e00b81d13cf7f4718fea1dbd9a1b6b81cf"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/rag/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/architecture.md",
+      "byteCount": 2735,
+      "sha256": "5e92151c6f4d14380b8c6ba7e4762807ccb554fb802eabff9edc416816874a4a"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/rag/evaluation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/evaluation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/evaluation.md",
+      "byteCount": 2644,
+      "sha256": "af28960856f1f0b07f48372d184fba87bc6047cc6644207cf01be82889cb6a54"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/rag/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/implementation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/implementation.md",
+      "byteCount": 2784,
+      "sha256": "b6f3d5e868662388bc4584b5ecfeff7e68f1432782f92ca163693e4c39c60533"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/rag/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/security.md",
+      "byteCount": 3710,
+      "sha256": "2278b6aeb5040ad1c10ddbbcc8f8cf7828f27689f1ce6fceb6a23dea27b9a076"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rag/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/SKILL.md",
+      "byteCount": 2560,
+      "sha256": "7c694a731f36697e20f0559721ff9207ddfaaab330dd6ca215c31dc2820438d6"
     }
   ]
 }

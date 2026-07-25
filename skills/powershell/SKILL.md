@@ -1,7 +1,20 @@
 ---
-name: PowerShell
+name: powershell
+slug: powershell
+version: 1.0.0
 description: Avoid common PowerShell mistakes — output behavior, array traps, and comparison operator gotchas.
-metadata: {"clawdbot":{"emoji":"🔵","requires":{"bins":["pwsh"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/powershell
+metadata:
+  clawdbot:
+    emoji: 🔵
+    requires:
+      bins:
+      - pwsh
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: PowerShell
 ---
 
 ## Output Behavior

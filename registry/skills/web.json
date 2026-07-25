@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0165f9b26de96e128ffed1fc3e72e8d21f02c7ea2f1af1fc525c4c201c082b7a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "web",
-    "name": "Web Development",
+    "name": "web",
     "description": "Build, debug, and deploy websites with HTML, CSS, JavaScript, modern frameworks, and production best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/web",
     "summary": "Quick Reference | Need | See | |------|-----| | HTML/CSS issues | `html-css.md` | | JavaScript patterns | `javascript.md` | | React/Next.js/frameworks | `frameworks.md` | | Deploy to production | `deploy.md` | | Performa",
     "repositoryPath": "skills/web",
     "manifestPath": "registry/skills/web.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/web/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/_meta.json",
+      "byteCount": 170,
+      "sha256": "f79e1f632947a5c630f225e7dfe51ac0caaaac7f9de7a178f56b4f21ca0cb167"
     },
     {
       "path": "deploy.md",
       "downloadPath": "skills/web/deploy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/deploy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/deploy.md",
+      "byteCount": 1718,
+      "sha256": "953ceb9cb6610fcbdaed40d12f21f9a25c0110a89a1e9df3d7a0e90338a16179"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/web/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/frameworks.md",
+      "byteCount": 1845,
+      "sha256": "9e1c853efa3709410ea59be0948a2878b78b91ed4d6e719d35d45fde3dbd630e"
     },
     {
       "path": "html-css.md",
       "downloadPath": "skills/web/html-css.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/html-css.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/html-css.md",
+      "byteCount": 1887,
+      "sha256": "68c1aa3ccf5bdcfe3c3eb6404e35c66d57c81453435e1d7ce63ad0eaafba5d63"
     },
     {
       "path": "javascript.md",
       "downloadPath": "skills/web/javascript.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/javascript.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/javascript.md",
+      "byteCount": 1950,
+      "sha256": "17ab290ca211050ef013fb74abfcc232b50c1ef549ea4a3d4f7ee39dde69e750"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/web/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/performance.md",
+      "byteCount": 2389,
+      "sha256": "9d51b877c020b27db0eab2db04fe41b8ab54a81febc50ca190f5a9e355ab6fc1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/web/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/web/SKILL.md",
+      "byteCount": 2284,
+      "sha256": "6045b24a53726ea1ab11cc92ce866a630c8e0a996024a040b7c68a6d8f2f5e09"
     }
   ]
 }

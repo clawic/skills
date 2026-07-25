@@ -1,6 +1,6 @@
 # Setup - Tencent
 
-Use this file when `~/tencent/` is missing or empty.
+Use this file when `~/Clawic/data/tencent/` is missing or empty.
 
 Answer the immediate Tencent request first, then lock only the defaults that should repeat in future Tencent tasks.
 
@@ -39,12 +39,12 @@ Default to the lightest format that still prevents the usual Tencent confusion.
 
 ```bash
 mkdir -p ~/tencent
-touch ~/tencent/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
+touch ~/Clawic/data/tencent/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
 chmod 700 ~/tencent
-chmod 600 ~/tencent/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
+chmod 600 ~/Clawic/data/tencent/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
 ```
 
-If `~/tencent/memory.md` is empty, initialize the baseline files from `memory-template.md`.
+If `~/Clawic/data/tencent/memory.md` is empty, initialize the baseline files from `memory-template.md`.
 
 ### 5. What to save
 

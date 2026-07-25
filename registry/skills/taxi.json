@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ac492a244a8ef52e96783edf48a879045b2aa01d80af677cc2cc72b9cc2f0a94",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "taxi",
-    "name": "Taxi",
+    "name": "taxi",
     "description": "Handle everything for ground transportation, from price comparison to booking, tracking, disputes, and expense management.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/taxi",
     "summary": "When to Use User needs ANY help with taxis, rideshares, car services, or ground transportation. Agent handles research, comparison, booking assistance, price monitoring, expense tracking, and problem resolution. Architec",
     "repositoryPath": "skills/taxi",
     "manifestPath": "registry/skills/taxi.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/taxi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/_meta.json",
+      "byteCount": 160,
+      "sha256": "7ac05134b864f9aa03125fdc95d45957cd3651db3cb36433841610155b9b43e2"
     },
     {
       "path": "booking.md",
       "downloadPath": "skills/taxi/booking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/booking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/booking.md",
+      "byteCount": 4274,
+      "sha256": "c7f93871ea195174afe0dae1b7ce54a8a210e2d928214c317f00580e576897e5"
     },
     {
       "path": "cities.md",
       "downloadPath": "skills/taxi/cities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/cities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/cities.md",
+      "byteCount": 4361,
+      "sha256": "96841ece997b4eba15e133c6b13898ca83bc42657a93bc14d2ceb223a6633f60"
     },
     {
       "path": "fares.md",
       "downloadPath": "skills/taxi/fares.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/fares.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/fares.md",
+      "byteCount": 5201,
+      "sha256": "dd4ebf1fbb1bab4eabde9375af864df254dd45596b2e04a5f86f6a9a50f0a4ff"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/taxi/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/memory-template.md",
+      "byteCount": 1834,
+      "sha256": "ec9ecdafab7def73834dac24bc69fa7d7f3ef563f8532e44ac54b24c7dea7a15"
     },
     {
       "path": "problems.md",
       "downloadPath": "skills/taxi/problems.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/problems.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/problems.md",
+      "byteCount": 5997,
+      "sha256": "6dcd43edf56226dfaaa23637c16e5d9afe9cc3cde69eaa0052db5dc5eb490562"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/taxi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taxi/SKILL.md",
+      "byteCount": 5483,
+      "sha256": "5af0bd3e94980657cdb795d40bcf3ab1475a5385cf3356d32fe2d7eb765f448e"
     }
   ]
 }

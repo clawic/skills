@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "743ec8fcbedd06710e9925d128ceb25deefb3fb4e8e38656d18b2c74041bf17a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "angular",
-    "name": "Angular",
+    "name": "angular",
     "description": "Build reliable Angular apps avoiding RxJS leaks, change detection traps, and DI pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/angular",
     "summary": "When to Use User needs Angular expertise — component architecture, RxJS patterns, change detection, dependency injection, routing, and forms. Quick Reference | Topic | File | |-------|------| | Components & change detect",
     "repositoryPath": "skills/angular",
     "manifestPath": "registry/skills/angular.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/angular/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/_meta.json",
+      "byteCount": 242,
+      "sha256": "38a4766a7ff7bd40bb448b91071f381d59790bb3e86f0be8022ac35f6ba658c1"
     },
     {
       "path": "components.md",
       "downloadPath": "skills/angular/components.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/components.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/components.md",
+      "byteCount": 685,
+      "sha256": "33917f1b418d84f72c2d38e3ec9652cfdd37c7c71f2e33b1f7333ac402a8a5ee"
     },
     {
       "path": "di.md",
       "downloadPath": "skills/angular/di.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/di.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/di.md",
+      "byteCount": 640,
+      "sha256": "ad0dd0acdbdc0d5155a5033d2481e6d8ae774e33cd89905d64c53e0162d550dc"
     },
     {
       "path": "forms.md",
       "downloadPath": "skills/angular/forms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/forms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/forms.md",
+      "byteCount": 655,
+      "sha256": "800eb1948e4a244e43501a6c4bbcfd2fccfa78e6bdba04b4937b5a83a48a0531"
     },
     {
       "path": "http.md",
       "downloadPath": "skills/angular/http.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/http.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/http.md",
+      "byteCount": 651,
+      "sha256": "2ed5aa5fd5c2ced50af86cf4e0c4c2415ad4370268feee515beefb3081248ccc"
     },
     {
       "path": "routing.md",
       "downloadPath": "skills/angular/routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/routing.md",
+      "byteCount": 653,
+      "sha256": "6e2d424089084db68c09b7981c034b581e7222752a94ae4a2600503f3120b90b"
     },
     {
       "path": "rxjs.md",
       "downloadPath": "skills/angular/rxjs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/rxjs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/rxjs.md",
+      "byteCount": 792,
+      "sha256": "3c64ec39be018bf983a232d6e7e4e2f0c0859b801ce5858d1014baddc2660130"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/angular/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/angular/SKILL.md",
+      "byteCount": 1745,
+      "sha256": "4d2b5ccccbd2ba2ae1e50ee27c144e24db7d5245d223ff837868f7034b6bbc11"
     }
   ]
 }

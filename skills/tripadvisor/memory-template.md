@@ -1,6 +1,6 @@
 # Memory Template — Tripadvisor
 
-Create `~/tripadvisor/memory.md` with this structure:
+Create `~/Clawic/data/tripadvisor/memory.md` with this structure:
 
 ```markdown
 # Tripadvisor Memory

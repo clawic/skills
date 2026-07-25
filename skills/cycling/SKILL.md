@@ -1,9 +1,20 @@
 ---
-name: Cycling
+name: cycling
+slug: cycling
+version: 1.0.0
 description: Cycling training, bike fit, power zones, nutrition, safety, and maintenance essentials.
+homepage: https://clawic.com/skills/cycling
 metadata:
   category: fitness
-  skills: ["cycling", "biking", "endurance", "training", "triathlon"]
+  skills:
+  - cycling
+  - biking
+  - endurance
+  - training
+  - triathlon
+  clawdbot:
+    emoji: 🚴
+    displayName: Cycling
 ---
 
 ## Bike Fit Fundamentals

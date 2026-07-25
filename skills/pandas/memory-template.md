@@ -1,6 +1,6 @@
 # Memory Template — Pandas
 
-Create `~/pandas/memory.md` with this structure:
+Create `~/Clawic/data/pandas/memory.md` with this structure:
 
 ```markdown
 # Pandas Memory
@@ -39,4 +39,4 @@ last: YYYY-MM-DD
 
 - Store only what the user explicitly shares
 - Update `last` on each session
-- All data stays in `~/pandas/memory.md`
+- All data stays in `~/Clawic/data/pandas/memory.md`

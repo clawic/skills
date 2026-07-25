@@ -1,11 +1,22 @@
 ---
-name: Task List
+name: task-list
 slug: task-list
 version: 1.0.0
-homepage: https://clawic.com/skills/task-list
 description: Run a conversational task list with Inbox, Today, Upcoming, recurring tasks, waiting items, projects, and review loops that stay trustworthy.
-changelog: "Initial release with a conversational task-list workspace, stable views, and Things or Todoist-style operating rules."
-metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/task-list/"]}}
+homepage: https://clawic.com/skills/task-list
+changelog: Initial release with a conversational task-list workspace, stable views, and Things or Todoist-style operating rules.
+metadata:
+  clawdbot:
+    emoji: 📋
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/task-list/
+    displayName: Task List
 ---
 
 ## Setup
@@ -20,10 +31,10 @@ Use this when the user wants Things or Todoist behavior from conversation: quick
 
 ## Architecture
 
-Memory lives in `~/task-list/`. If the user wants continuity and `~/task-list/` does not exist, run `setup.md`. See `memory-template.md` for the durable context file and `workspace-format.md` for the local file layout.
+Memory lives in `~/Clawic/data/task-list/`. If the user wants continuity and `~/Clawic/data/task-list/` does not exist, run `setup.md`. See `memory-template.md` for the durable context file and `workspace-format.md` for the local file layout.
 
 ```
-~/task-list/
+~/Clawic/data/task-list/
 ├── memory.md       # Durable preferences and activation boundaries
 ├── inbox.md        # Raw captures that still need clarification
 ├── tasks.md        # Active tasks across Today, Upcoming, Anytime, Someday
@@ -106,16 +117,16 @@ Memory lives in `~/task-list/`. If the user wants continuity and `~/task-list/` 
 - None by default.
 
 **Data that stays local:**
-- Task records and preferences under `~/task-list/` if the user wants continuity.
+- Task records and preferences under `~/Clawic/data/task-list/` if the user wants continuity.
 
 **This skill does NOT:**
-- Access files outside `~/task-list/` for storage.
+- Access files outside `~/Clawic/data/task-list/` for storage.
 - Make undeclared network requests.
 - Send reminders or run automations without explicit user approval.
 - Modify its own skill instructions.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `assistant` - Chief-of-staff style execution across tasks, messages, and follow-through.
 - `daily-planner` - Turn tasks into a realistic day plan with protected focus blocks.
 - `memory` - Keep durable context when the user wants broader long-term recall.
@@ -124,5 +135,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star task-list`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/task-list
+- Latest version: https://clawic.com/skills/task-list

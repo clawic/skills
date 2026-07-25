@@ -40,4 +40,4 @@ Use this runbook for frequent production failures.
 
 ## Incident logging
 
-Record every major incident in `~/binance/incidents.md` with error code, endpoint, and validated mitigation.
+Record every major incident in `~/Clawic/data/binance/incidents.md` with error code, endpoint, and validated mitigation.

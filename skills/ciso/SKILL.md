@@ -1,8 +1,13 @@
 ---
-name: Chief Information Security Officer
+name: ciso
 slug: ciso
 version: 1.0.0
 description: Lead security with infrastructure audits, vulnerability triage, compliance tracking, vendor assessment, and incident response.
+homepage: https://clawic.com/skills/ciso
+metadata:
+  clawdbot:
+    emoji: 🔒
+    displayName: Chief Information Security Officer
 ---
 
 ## When to Use

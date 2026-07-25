@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "57b405aa8ee2a95f0bbde376f4a49be4f5f2a61102c7fd2a7714464ae3db7a9f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "chrome",
-    "name": "Chrome",
+    "name": "chrome",
     "description": "Chrome DevTools Protocol, extension Manifest V3, and debugging patterns that prevent common automation failures.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/chrome",
     "summary": "Chrome DevTools Protocol (CDP) **Get tab WebSocket URL first**: Never connect to `ws://localhost:9222/devtools/browser` directly. Fetch `http://localhost:9222/json/list` and use `webSocketDebuggerUrl` from the active tab",
     "repositoryPath": "skills/chrome",
     "manifestPath": "registry/skills/chrome.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chrome/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chrome/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chrome/_meta.json",
+      "byteCount": 164,
+      "sha256": "9c1f7dbdd401aa180007fc53ecc864d81903900021820db156360ee70b850298"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chrome/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chrome/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chrome/SKILL.md",
+      "byteCount": 3244,
+      "sha256": "162a2f9ab2de6585c7b829e20be186ca3c9b8b7ebafa9e21549af82a03b44e3b"
     }
   ]
 }

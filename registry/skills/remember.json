@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6dd04313880e6d7d18419fb953ecf3a40845c02b6b58ef78c989467f59663a64",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "remember",
-    "name": "Remember",
+    "name": "remember",
     "description": "Curate persistent memory that actually helps. Filter what matters, organize by function, decay what doesn't.",
-    "version": "1.1.0",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/remember",
     "summary": "The Problem with Most Memory Storing everything creates noise. Wrong retrieval is worse than no memory. The goal isn't maximum recall — it's retrieving the right thing at the right time. What's Actually Worth Remembering",
     "repositoryPath": "skills/remember",
     "manifestPath": "registry/skills/remember.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/remember/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/_meta.json",
+      "byteCount": 168,
+      "sha256": "f9497135666f29b5e9a8f2ea6be1b486821c7c181c0ef57ce7755cfe4074f9b2"
     },
     {
       "path": "categories.md",
       "downloadPath": "skills/remember/categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/categories.md",
+      "byteCount": 2014,
+      "sha256": "50f5120eb825993d53a1ea014c7c8e8f579483cb3952717d24c2c4a4984df0b0"
     },
     {
       "path": "consolidation.md",
       "downloadPath": "skills/remember/consolidation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/consolidation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/consolidation.md",
+      "byteCount": 2011,
+      "sha256": "55587b49bdde451a5484b614f474983795048432dd5faf16a162ac988d3465c6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/remember/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remember/SKILL.md",
+      "byteCount": 2588,
+      "sha256": "c3eb9e42d783c88c1f0660934c4cc6060d5ed0cfae3cccda2d69776b14c2b6c5"
     }
   ]
 }

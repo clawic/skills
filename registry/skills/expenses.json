@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4389715b6471f622effe4a3c1473362414bcf9603a0679cda170373a33e613f7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "expenses",
-    "name": "Expenses",
+    "name": "expenses",
     "description": "Build a personal expense tracking system for daily spending, shared costs, business expenses, and project budgets.",
-    "summary": "Core Behavior - User mentions spending money → offer to log expense - Different contexts need different tracking → adapt to their use case - Surface patterns when asked → where is money going? - Create `~/expenses/` as w",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/expenses",
+    "summary": "Core Behavior - User mentions spending money → offer to log expense - Different contexts need different tracking → adapt to their use case - Surface patterns when asked → where is money going? - Create `~/Clawic/data/exp",
     "repositoryPath": "skills/expenses",
     "manifestPath": "registry/skills/expenses.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/expenses/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/_meta.json",
+      "byteCount": 168,
+      "sha256": "2a7637c0443e03944adc643383a0e15861751666e952ac8d0bb3c43d8770f6eb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/expenses/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/SKILL.md",
+      "byteCount": 4640,
+      "sha256": "261ad21bb1959c132b1d601f8eba82be8178ca543029dda8823bd007e27f3acc"
     }
   ]
 }

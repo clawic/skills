@@ -1,7 +1,17 @@
 ---
-name: Geography
+name: geography
+slug: geography
+version: 1.0.0
 description: Teach physical and human geography from map reading to spatial analysis.
-metadata: {"clawdbot":{"emoji":"🌍","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/geography
+metadata:
+  clawdbot:
+    emoji: 🌍
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Geography
 ---
 
 ## Detect Level, Adapt Everything

@@ -1,6 +1,6 @@
 # Setup — Florida
 
-Read this when `~/florida/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
+Read this when `~/Clawic/data/florida/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Florida questions usually hide one of five problems:
 
 Answer the user's question first whenever possible. Then gather only the next detail that improves the next step.
 
-This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/florida/` or `memory.md`.
+This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/Clawic/data/florida/` or `memory.md`.
 
 ## Priority Order
 
@@ -58,7 +58,7 @@ Pick up only the constraints that change future advice:
 
 ## What You're Saving (internally)
 
-Keep `~/florida/memory.md` lightweight and useful:
+Keep `~/Clawic/data/florida/memory.md` lightweight and useful:
 - activation preference for Florida topics
 - current mode and target region
 - major deadlines, seasonal patterns, and open loops

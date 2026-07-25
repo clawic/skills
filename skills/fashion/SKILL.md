@@ -1,9 +1,19 @@
 ---
-name: Fashion
+name: fashion
 slug: fashion
 version: 1.0.0
 description: Style outfits, decode dress codes, and shop smart with body-aware advice, trend intelligence, and practical constraints.
-metadata: {"clawdbot":{"emoji":"👗","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/fashion
+metadata:
+  clawdbot:
+    emoji: 👗
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Fashion
 ---
 
 ## When to Use

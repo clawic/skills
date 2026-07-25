@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e1cf515255866e2e00d387b19afe7c21577ff1af6a884fcbf08a6179acce452b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "delegate",
-    "name": "Delegate",
+    "name": "delegate",
     "description": "Route tasks to sub-agents with optimal model selection, error recovery, and result verification.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/delegate",
     "summary": "Core Rule Spawn cost < task cost → delegate. Otherwise, do it yourself. Model Tiers | Tier | Models | Cost | Use for | |------|--------|------|---------| | Small | Haiku, GPT-4o-mini, Gemini Flash | ~$0.25/1M | Search, s",
     "repositoryPath": "skills/delegate",
     "manifestPath": "registry/skills/delegate.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/delegate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/_meta.json",
+      "byteCount": 168,
+      "sha256": "2e3287d64884f22596fc2ca89d906eb207bd8b303dded48a2ddf720e1b77517d"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/delegate/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/errors.md",
+      "byteCount": 1648,
+      "sha256": "1096588c7a3a0897e1184b171c497ad21d4bab76848706af490c064f02acf556"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/delegate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/SKILL.md",
+      "byteCount": 1865,
+      "sha256": "71e6aad2abfc63edd5de9efd3fa27ddbdee2f59d30ffbc558717db9f4846d996"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/delegate/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/delegate/templates.md",
+      "byteCount": 1234,
+      "sha256": "8ffc08edf29e382f2bc79f2447d4534e0899a831df6f2ce7e4365cf2b00b8c88"
     }
   ]
 }

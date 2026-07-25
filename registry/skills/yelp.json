@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "50cdde4489f6aa4e4ab06ba3b0681a80f1a45f94f58ccceacd26e79f599c1b27",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "yelp",
-    "name": "Yelp",
+    "name": "yelp",
     "description": "Search Yelp businesses and reviews, compare local options, and audit listing quality with official APIs, public pages, and safe action boundaries.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/yelp",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/yelp/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/_meta.json",
+      "byteCount": 160,
+      "sha256": "df40768aa23f9474c1892e954e7f12d83ea2b303f87646ce7f0db85b6f34194e"
     },
     {
       "path": "access-boundaries.md",
       "downloadPath": "skills/yelp/access-boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/access-boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/access-boundaries.md",
+      "byteCount": 1048,
+      "sha256": "46eddb1b24420a46d15fea5c160d3fa6c0976d4eb6ec7bb11308828e19e85ae9"
     },
     {
       "path": "api-workflows.md",
       "downloadPath": "skills/yelp/api-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/api-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/api-workflows.md",
+      "byteCount": 2493,
+      "sha256": "380dc1919db46bd98eb41b510478b36460ba087e4c440d459bfc6eba34bfd385"
     },
     {
       "path": "listing-audit.md",
       "downloadPath": "skills/yelp/listing-audit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/listing-audit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/listing-audit.md",
+      "byteCount": 1669,
+      "sha256": "efdaff301ff9bbc5a9879653496b7017add616665f29999c93e2c1be9322513f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/yelp/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/memory-template.md",
+      "byteCount": 1430,
+      "sha256": "6b850c1cb84ef1a3eb4febb8c26f906d95ed9d4592398864d173a1b04a52178e"
     },
     {
       "path": "review-analysis.md",
       "downloadPath": "skills/yelp/review-analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/review-analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/review-analysis.md",
+      "byteCount": 1901,
+      "sha256": "db49803374be4592ccfdbebfe49738f241b9d230541c7f7ac1f1713824fdb4e3"
     },
     {
       "path": "search-playbook.md",
       "downloadPath": "skills/yelp/search-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/search-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/search-playbook.md",
+      "byteCount": 2008,
+      "sha256": "a9372974446d075539c03037edfb0a9eb8e5a524a318ebc87074018ecd866f64"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/yelp/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/setup.md",
+      "byteCount": 1892,
+      "sha256": "10e42817f1016c768b902cf0ccc3fe0377c9f75116cad0fb109d232b9b442c32"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/yelp/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yelp/SKILL.md",
+      "byteCount": 8906,
+      "sha256": "d29a898cb3e7e154095a7e0b2ea72b9e778b77d404c15ca637b563535c030564"
     }
   ]
 }

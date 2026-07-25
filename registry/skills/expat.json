@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9fa1ebe3cdfa006937aa0970ab2b22f6d580fb207712f7d6c5441d10d3e339ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "expat",
-    "name": "Expat Companion",
+    "name": "expat",
     "description": "Plan and track international moves with visa timelines, document checklists, and country-specific guides.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/expat",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/expat/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/_meta.json",
+      "byteCount": 172,
+      "sha256": "e7f64c1f83f1cca04161e5234fdb6eaf5f78ee6d37d5d12cadfbe30397c08a2f"
     },
     {
       "path": "countries.md",
       "downloadPath": "skills/expat/countries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/countries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/countries.md",
+      "byteCount": 2852,
+      "sha256": "69247b3e3875e4db4da6df545b7bc81046b3af16c70c1101a8496403ae2b712d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/expat/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/memory-template.md",
+      "byteCount": 3717,
+      "sha256": "eecd7156dff52e1d4f8452f7c0aa30aabcd9ffc88a73377b38a81c5c5dabe750"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/expat/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/setup.md",
+      "byteCount": 2848,
+      "sha256": "4f88aef1b7342c5e78a390d36004338c938055b347b0a022255e1054a49f0bd3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/expat/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expat/SKILL.md",
+      "byteCount": 7155,
+      "sha256": "1dffeeac52ad77e488d2dbc329472e0922da470b6a367c1a842e4dc9ea249cc6"
     }
   ]
 }

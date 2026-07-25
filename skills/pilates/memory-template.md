@@ -1,6 +1,6 @@
 # Memory Template - Pilates (Session Planner, Form Coach, Progress Tracker)
 
-Create `~/pilates/memory.md` with this structure:
+Create `~/Clawic/data/pilates/memory.md` with this structure:
 
 ```markdown
 # Pilates Memory
@@ -58,7 +58,7 @@ energy_after_practice:
 
 ## File Templates
 
-Create `~/pilates/sessions/log.md`:
+Create `~/Clawic/data/pilates/sessions/log.md`:
 
 ```markdown
 # Pilates Session Log
@@ -74,7 +74,7 @@ Create `~/pilates/sessions/log.md`:
 - Next target:
 ```
 
-Create `~/pilates/plans/current-plan.md`:
+Create `~/Clawic/data/pilates/plans/current-plan.md`:
 
 ```markdown
 # Current Pilates Plan
@@ -88,7 +88,7 @@ Create `~/pilates/plans/current-plan.md`:
 - Skip or modify if:
 ```
 
-Create `~/pilates/form/checkpoints.md`:
+Create `~/Clawic/data/pilates/form/checkpoints.md`:
 
 ```markdown
 # Pilates Form Checkpoints
@@ -101,7 +101,7 @@ Create `~/pilates/form/checkpoints.md`:
 - Recheck on:
 ```
 
-Create `~/pilates/summaries/weekly-review.md`:
+Create `~/Clawic/data/pilates/summaries/weekly-review.md`:
 
 ```markdown
 # Weekly Pilates Review
@@ -115,7 +115,7 @@ Create `~/pilates/summaries/weekly-review.md`:
 - Next-week focus:
 ```
 
-Create `~/pilates/safety/modifications.md`:
+Create `~/Clawic/data/pilates/safety/modifications.md`:
 
 ```markdown
 # Pilates Safety Modifications

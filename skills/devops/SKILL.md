@@ -1,7 +1,17 @@
 ---
-name: DevOps
+name: devops
+slug: devops
+version: 1.0.0
 description: Automate deployments, manage infrastructure, and build reliable CI/CD pipelines.
-metadata: {"clawdbot":{"emoji":"🔧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/devops
+metadata:
+  clawdbot:
+    emoji: 🔧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: DevOps
 ---
 
 # DevOps Rules

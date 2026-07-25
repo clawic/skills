@@ -5,7 +5,7 @@ Organize your course production with this folder structure.
 ## Directory Layout
 
 ```
-~/udemy/
+~/Clawic/data/udemy/
 ├── index.md                    # Portfolio overview
 ├── _templates/                 # Reusable templates
 │   ├── script-template.md
@@ -79,7 +79,7 @@ In each course's `README.md`:
 
 ## Portfolio Index
 
-In `~/udemy/index.md`:
+In `~/Clawic/data/udemy/index.md`:
 
 ```markdown
 # Udemy Course Portfolio

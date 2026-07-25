@@ -1,6 +1,6 @@
 # Memory Template — Speech to Text Transcription
 
-Create `~/speech-to-text-transcription/memory.md` with this structure:
+Create `~/Clawic/data/speech-to-text-transcription/memory.md` with this structure:
 
 ```markdown
 # Speech to Text Memory
@@ -36,7 +36,7 @@ integration: pending
 
 After first use:
 ```
-~/speech-to-text-transcription/
+~/Clawic/data/speech-to-text-transcription/
 ├── memory.md
 ├── transcripts/
 │   └── [saved transcriptions]

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0694f83e0303aed19f8e1011b8cced71a34c145a542a33a19653ecae0879c307",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ssl",
-    "name": "SSL",
+    "name": "ssl",
     "description": "Set up HTTPS, manage TLS certificates, and debug secure connection issues.",
     "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/ssl",
     "summary": "Triggers Activate on: SSL certificate, HTTPS setup, Let's Encrypt, certbot, TLS configuration, certificate expired, mixed content, certificate chain error. Core Tasks | Task | Tool/Method | |------|-------------| | Get f",
     "repositoryPath": "skills/ssl",
     "manifestPath": "registry/skills/ssl.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ssl/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/_meta.json",
+      "byteCount": 158,
+      "sha256": "4dc5e46019282c500c3dff6b66ddc2d6740bd3468a18271bdc28226ef09bb43a"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/ssl/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/formats.md",
+      "byteCount": 1313,
+      "sha256": "a65d2b046baf6a3b9fa8a3a105bc9915e1eccfe7971e9a7cb0bbae833e11978c"
     },
     {
       "path": "servers.md",
       "downloadPath": "skills/ssl/servers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/servers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/servers.md",
+      "byteCount": 2955,
+      "sha256": "c357502c5786466c8ed7d087e58a533bca76d98e97a9d5e9ba24e3710226f65c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ssl/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/SKILL.md",
+      "byteCount": 2849,
+      "sha256": "3e54f6d0656512b92f126e5205791758a6bdc34d6682b166a4ca85c5f9299e95"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/ssl/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ssl/troubleshooting.md",
+      "byteCount": 2928,
+      "sha256": "fc877c8e1c34df32f317bc74201b1be44bb77d37bcb2129c56039096b546b2c7"
     }
   ]
 }

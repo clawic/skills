@@ -1,6 +1,13 @@
 ---
 name: android
+slug: android
+version: 1.0.1
 description: Android build system and deployment patterns
+homepage: https://clawic.com/skills/android
+metadata:
+  clawdbot:
+    emoji: 🤖
+    displayName: Android
 ---
 
 # Android Build & Deploy

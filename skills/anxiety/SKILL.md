@@ -1,11 +1,20 @@
 ---
-name: Anxiety (Tracker, Trigger Map, Coping Planner)
+name: anxiety
 slug: anxiety
 version: 1.0.0
-homepage: https://clawic.com/skills/anxiety
 description: Track anxiety episodes, triggers, thoughts, and coping responses with therapy-ready logs, weekly trend reviews, and safety-first escalation cues.
+homepage: https://clawic.com/skills/anxiety
 changelog: Initial release with therapist-aligned anxiety tracking, trigger mapping, coping playbooks, and graded exposure planning support.
-metadata: {"clawdbot":{"emoji":"A","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: A
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Anxiety (Tracker, Trigger Map, Coping Planner)
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent keeps logs clinically useful for therapy, supports anxiety reduction with 
 
 ## Architecture
 
-Memory lives in `~/anxiety/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/anxiety/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/anxiety/
+~/Clawic/data/anxiety/
 ├── memory.md                 # Status, mode, baseline, and active priorities
 ├── logs/events.md            # Episode-level anxiety event logs
 ├── logs/thought-records.md   # CBT-style thought records for reframing
@@ -48,7 +57,7 @@ Memory lives in `~/anxiety/`. See `memory-template.md` for structure and starter
 
 ## Data Storage
 
-Local notes stay in `~/anxiety/`.
+Local notes stay in `~/Clawic/data/anxiety/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -119,7 +128,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - anxiety logs, thought records, trigger patterns, exposure outcomes, and weekly reviews approved by the user.
-- stored in `~/anxiety/`.
+- stored in `~/Clawic/data/anxiety/`.
 
 **This skill does NOT:**
 - diagnose psychiatric or medical conditions.
@@ -134,7 +143,7 @@ This is an instruction-only anxiety tracking and coping support skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `therapist` - supportive therapeutic conversation framing.
 - `psychologist` - structured behavior and cognition guidance.
 - `mindfulness` - grounding and attention training practices.
@@ -143,5 +152,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star anxiety`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/anxiety
+- Latest version: https://clawic.com/skills/anxiety

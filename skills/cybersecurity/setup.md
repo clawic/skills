@@ -1,6 +1,6 @@
 # Setup - Cybersecurity
 
-Use this file when `~/cybersecurity/` is missing or empty.
+Use this file when `~/Clawic/data/cybersecurity/` is missing or empty.
 
 Do not turn setup into a questionnaire. Establish safe operating boundaries quickly, then help with the real security work.
 

@@ -1,7 +1,20 @@
 ---
-name: Vite
+name: vite
+slug: vite
+version: 1.0.0
 description: Configure and optimize Vite for development, production builds, and library bundling.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vite
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Vite
 ---
 
 # Vite Patterns

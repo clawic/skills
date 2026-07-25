@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "63af3eb1ee6d6db2e8064f660f700f47477e4dec79f136fdaa06573549eb0c13",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "new-york",
-    "name": "New York (State)",
+    "name": "new-york",
     "description": "Navigate New York State for living, moving, working, and visiting with region fit, taxes, winter risk, and daily logistics.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/new-york",
@@ -22,202 +25,282 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/new-york/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/_meta.json",
+      "byteCount": 252,
+      "sha256": "7ab923f507c53fc9e8fbfee0835f4daa7d7d7aefc6f72b2f1d6cf6153b8ce6bb"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/new-york/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/climate.md",
+      "byteCount": 2700,
+      "sha256": "c79ad26247b17ade8c293f5a4c91a7c35b0a3398623479bcad48c8fa4f2618a9"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/new-york/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/cost.md",
+      "byteCount": 1984,
+      "sha256": "9ed59a9156d7f098d306a924fcd6dd37f9601513d40f639aefce69a99de1a789"
     },
     {
       "path": "costs-and-taxes.md",
       "downloadPath": "skills/new-york/costs-and-taxes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/costs-and-taxes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/costs-and-taxes.md",
+      "byteCount": 1914,
+      "sha256": "cf70bb49da71eb50f703e9f65748ecc871a661c6aabc5a3a9dca764b6ff58030"
     },
     {
       "path": "family-and-schools.md",
       "downloadPath": "skills/new-york/family-and-schools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/family-and-schools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/family-and-schools.md",
+      "byteCount": 1644,
+      "sha256": "8071b77f75b49d3ffeea8d0b98f3110c8bb62c968050d8cb304f584b99e1f240"
     },
     {
       "path": "food-classics.md",
       "downloadPath": "skills/new-york/food-classics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-classics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-classics.md",
+      "byteCount": 2957,
+      "sha256": "56d7f6beeddb0aa6a2a1a99ec8e29da16b3345e560479ff6a1833145934a664b"
     },
     {
       "path": "food-ethnic.md",
       "downloadPath": "skills/new-york/food-ethnic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-ethnic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-ethnic.md",
+      "byteCount": 3160,
+      "sha256": "0355d227ee50e9d477f33f81d3ef561cc1e46f68b9ad5d8ad0046ef8bcdc21dc"
     },
     {
       "path": "food-halls.md",
       "downloadPath": "skills/new-york/food-halls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-halls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-halls.md",
+      "byteCount": 2227,
+      "sha256": "fb2ee7de4d5f58f6876c56b3361ae831e66278b5057de1dc5634fe795fd000a1"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/new-york/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-overview.md",
+      "byteCount": 2371,
+      "sha256": "1fd676a096fd1ca0a93fd28e20eaf7ebd5b2eac5ed3e689021febb57b24c476c"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/new-york/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/food-practical.md",
+      "byteCount": 3264,
+      "sha256": "d8753a80418f36e0510cd7c7403cf7f1989b0d0fa9cd0effaf6fee4279767547"
     },
     {
       "path": "healthcare-and-coverage.md",
       "downloadPath": "skills/new-york/healthcare-and-coverage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/healthcare-and-coverage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/healthcare-and-coverage.md",
+      "byteCount": 1484,
+      "sha256": "19620264cc8f692b4b43e609c33e7a5bfae93349216ca4f80a17883d6b0e01e7"
     },
     {
       "path": "housing-and-insurance.md",
       "downloadPath": "skills/new-york/housing-and-insurance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/housing-and-insurance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/housing-and-insurance.md",
+      "byteCount": 1975,
+      "sha256": "7cd2e18e0b378999b0e2c3fa7f956e1f896a533f6c0ec1b5f87a51ce2cc63d78"
     },
     {
       "path": "laws-and-safety.md",
       "downloadPath": "skills/new-york/laws-and-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/laws-and-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/laws-and-safety.md",
+      "byteCount": 1614,
+      "sha256": "a2abd9943a714b7b1a7136bcff0641c9b29c475860614b9d33d6242af29138ec"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/new-york/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/memory-template.md",
+      "byteCount": 1617,
+      "sha256": "e4fd12c3ae4c4cf4004f9ba7d33c8633d1131c0d81adf73f794cb93a183fda63"
     },
     {
       "path": "moving-and-settling.md",
       "downloadPath": "skills/new-york/moving-and-settling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/moving-and-settling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/moving-and-settling.md",
+      "byteCount": 2717,
+      "sha256": "35cfb8bab0573db50c0cc20378f6152ab677007b4d0dff9c573842e3dd6fd353"
     },
     {
       "path": "neighborhoods-brooklyn.md",
       "downloadPath": "skills/new-york/neighborhoods-brooklyn.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-brooklyn.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-brooklyn.md",
+      "byteCount": 3045,
+      "sha256": "c85a6ad28aee842a039b944b98661ceb29e07ab14c0f99803dd8640620c7b809"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/new-york/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-choosing.md",
+      "byteCount": 2586,
+      "sha256": "1bd29a64b57cd9f1ac119ff389f2bcaf7ecac88d3dec92c04440c321e88a3b92"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/new-york/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-index.md",
+      "byteCount": 2026,
+      "sha256": "70626e541e26f1fd5345bb04fe61034e18cf09f1de4672eb92e8cd597e2818dd"
     },
     {
       "path": "neighborhoods-manhattan.md",
       "downloadPath": "skills/new-york/neighborhoods-manhattan.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-manhattan.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-manhattan.md",
+      "byteCount": 4353,
+      "sha256": "c77c6444b7b4612c84f7f6d1892efc5b9e42d15955145791c05b399b96ce09f0"
     },
     {
       "path": "neighborhoods-queens.md",
       "downloadPath": "skills/new-york/neighborhoods-queens.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-queens.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/neighborhoods-queens.md",
+      "byteCount": 2066,
+      "sha256": "a5966b12e0862cdb41acdda515154a3650328b921ea7c8e243210f20561acbd0"
     },
     {
       "path": "new-york-dmv-and-vehicles.md",
       "downloadPath": "skills/new-york/new-york-dmv-and-vehicles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/new-york-dmv-and-vehicles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/new-york-dmv-and-vehicles.md",
+      "byteCount": 2530,
+      "sha256": "e1a1d9845503f535741d9ac4be4dbdb53784d532eb1b2e95ecbac9a8d987f6d1"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/new-york/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/regions.md",
+      "byteCount": 3079,
+      "sha256": "78ae4b2016b4feccc3bec9912b4e8d48268fcec837de0f361adfc887dbe39e58"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/new-york/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/resident.md",
+      "byteCount": 2274,
+      "sha256": "bd96a2fdc1f3030891fd3c1649c557a52bd9ad5fab91c38609209a385ccfb984"
     },
     {
       "path": "road-trips-and-visiting.md",
       "downloadPath": "skills/new-york/road-trips-and-visiting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/road-trips-and-visiting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/road-trips-and-visiting.md",
+      "byteCount": 1657,
+      "sha256": "f5989cf33c1caf316d81e66985240a8c8ff46cdd8d02a1ad812f9ef26228b4e6"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/new-york/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/safety.md",
+      "byteCount": 2687,
+      "sha256": "0861b0213c3e671d8e89875f0722d0f4d59af47c43a7211e6ed3430ef5daa60a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/new-york/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/setup.md",
+      "byteCount": 2640,
+      "sha256": "a783f115f3732e43ccaabd6a40a065580b2d96b7a1f10397163671bb87f9c3af"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/new-york/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/SKILL.md",
+      "byteCount": 9016,
+      "sha256": "1751a87ce57a8ab89e75d1bb1ab734e7364d409eb41ed404220328685c45efaa"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/new-york/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/sources.md",
+      "byteCount": 1265,
+      "sha256": "45fc803e85c4540bead3b3499353304ea03b0acd4e1c67edcc9193dda1e05708"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/new-york/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/startup.md",
+      "byteCount": 2380,
+      "sha256": "968c728a59337631cbe67b8187be0eed3d167232d347503adc330cbbd6ec1e85"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/new-york/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/student.md",
+      "byteCount": 2330,
+      "sha256": "b00cb317b8a5bb95ebbeb747e5efe057f421c6eb459ea3fb8483aa6352d06609"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/new-york/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/tech.md",
+      "byteCount": 2320,
+      "sha256": "340e913370d99387ecc7c40fa6f5b6876cd6ae3824e5c37088badd74b9ac8670"
     },
     {
       "path": "transit-and-commutes.md",
       "downloadPath": "skills/new-york/transit-and-commutes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/transit-and-commutes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/transit-and-commutes.md",
+      "byteCount": 1717,
+      "sha256": "4bed70534d432427ed0e03d6e4849f71435811c2252f2ab0318a11dab89368a1"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/new-york/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/transport.md",
+      "byteCount": 2641,
+      "sha256": "8ce3db84aa9768bdf04d48c763d39426650b6385d6e91c43b8f102dac8bde1de"
     },
     {
       "path": "utilities-and-bills.md",
       "downloadPath": "skills/new-york/utilities-and-bills.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/utilities-and-bills.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/utilities-and-bills.md",
+      "byteCount": 1581,
+      "sha256": "2ebb41bb516165beab7ddfa5f4771b34edb7afeb11752329d5833757252abfcb"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/new-york/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-attractions.md",
+      "byteCount": 4017,
+      "sha256": "becee8c6c6ee70c61b412f128ca7409f5ceb66e7c9c1dce3688e238f0a800fe3"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/new-york/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-itineraries.md",
+      "byteCount": 3693,
+      "sha256": "a9466b3d9cd3cc7f4594cedccec68acd46451f02ba6186e9bc368b771ace677b"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/new-york/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-lodging.md",
+      "byteCount": 3268,
+      "sha256": "53491dc9167689c2e0d9ed4c9e829d149cc67bffac98ca17ed6585165d187d96"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/new-york/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/visitor-tips.md",
+      "byteCount": 3552,
+      "sha256": "7f9f316acc79151d9bfe00d29765a2f0a40350d5fde41f22b1c363c3c3e76703"
     },
     {
       "path": "weather-and-preparedness.md",
       "downloadPath": "skills/new-york/weather-and-preparedness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/weather-and-preparedness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/weather-and-preparedness.md",
+      "byteCount": 1789,
+      "sha256": "b990907a9fcdae79440fde2d96cf7e695fd3362d38b97bb0822488b58f08aeb9"
     },
     {
       "path": "work-and-business.md",
       "downloadPath": "skills/new-york/work-and-business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/work-and-business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-york/work-and-business.md",
+      "byteCount": 1882,
+      "sha256": "bc0b8bcef7c015de307b67e63af824f6ac89461383b618cb40e9cac84d38205a"
     }
   ]
 }

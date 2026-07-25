@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "87c535b84e804a0d492e60aec6fe6c4269ec60a084d5240a876cf3771b212883",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "home-buying",
-    "name": "Home Buying",
+    "name": "home-buying",
     "description": "Buy a home with budget guardrails, listing scorecards, offer strategy, due diligence triage, and closing readiness checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/home-buying",
-    "summary": "Setup If `~/home-buying/` does not exist or is empty, read `setup.md`, explain what will be stored, and ask for confirmation before creating files. When to Use Use this skill when a user is buying a primary home or inves",
+    "summary": "Setup If `~/Clawic/data/home-buying/` does not exist or is empty, read `setup.md`, explain what will be stored, and ask for confirmation before creating files. When to Use Use this skill when a user is buying a primary h",
     "repositoryPath": "skills/home-buying",
     "manifestPath": "registry/skills/home-buying.json"
   },
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/home-buying/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/_meta.json",
+      "byteCount": 174,
+      "sha256": "0c3107c78c35e2612c89d9d4d2aed487aa8f0d7026d1d9b38f874f3c0798e3a4"
     },
     {
       "path": "budget-guardrails.md",
       "downloadPath": "skills/home-buying/budget-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/budget-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/budget-guardrails.md",
+      "byteCount": 1358,
+      "sha256": "09485fbb53c2e804d558463ab730e1f0803776f5770acca33d03bc8d71761898"
     },
     {
       "path": "closing-readiness.md",
       "downloadPath": "skills/home-buying/closing-readiness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/closing-readiness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/closing-readiness.md",
+      "byteCount": 1166,
+      "sha256": "67434ba63d7dcb6a4bb320c56bbf2a52785d364ad83eca14a443a6889119d20c"
     },
     {
       "path": "due-diligence.md",
       "downloadPath": "skills/home-buying/due-diligence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/due-diligence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/due-diligence.md",
+      "byteCount": 1327,
+      "sha256": "cb65f14a41f523c35de76442a79d2009a1af4b66944cd98742eb0776cf08c17d"
     },
     {
       "path": "listing-scorecard.md",
       "downloadPath": "skills/home-buying/listing-scorecard.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/listing-scorecard.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/listing-scorecard.md",
+      "byteCount": 1196,
+      "sha256": "35043b69bee2235951072ce6b362764c8c58d0ac900a3c5acb38a9853e675f8f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/home-buying/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/memory-template.md",
+      "byteCount": 1962,
+      "sha256": "dca44b5eb89bf6f789790a1ee71cb71da725ecb4968672390adde5571d86e0b4"
     },
     {
       "path": "offer-ladder.md",
       "downloadPath": "skills/home-buying/offer-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/offer-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/offer-ladder.md",
+      "byteCount": 1303,
+      "sha256": "1bfd7b850ed5f2ad7f652751ddd2076e4e96066a4dfb84e23458a5ba72b68f56"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/home-buying/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/setup.md",
+      "byteCount": 1995,
+      "sha256": "7dd38849b6f98ee2a60817961499648b906075af9eaedd5eb301eff4f8b9fce7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/home-buying/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-buying/SKILL.md",
+      "byteCount": 5821,
+      "sha256": "5a63ccbada62441424d33a84556b341881d208566646419d45d48cf10f32334d"
     }
   ]
 }

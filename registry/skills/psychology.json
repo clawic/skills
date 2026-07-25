@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5bfaecec6ada8a478f0b3be67b073975b9a9980c08ec61198f1a97571777cb99",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "psychology",
-    "name": "Psychology",
+    "name": "psychology",
     "description": "Navigate the mind from curiosity about behavior to clinical research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/psychology",
     "summary": "Detect Level, Adapt Everything - Context reveals level: terminology, references to studies, clinical vs academic focus - When unclear, start with relatable examples and adjust based on response - Never condescend to expe",
     "repositoryPath": "skills/psychology",
     "manifestPath": "registry/skills/psychology.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/psychology/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/psychology/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/psychology/_meta.json",
+      "byteCount": 172,
+      "sha256": "acfd8b3d46177c00e5666ee84efde53efdcd1adb006b534bbb408d521e2ca524"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/psychology/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/psychology/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/psychology/SKILL.md",
+      "byteCount": 3697,
+      "sha256": "2c73c7bd9788947bff218b7add7a17720d55704f3d34c54c41a02b254550c7f7"
     }
   ]
 }

@@ -4,12 +4,12 @@
 
 Create directory on first use:
 ```bash
-mkdir -p ~/meditate/archive
+mkdir -p ~/Clawic/data/meditate/archive
 ```
 
 ## profile.md Template
 
-Copy to `~/meditate/profile.md`:
+Copy to `~/Clawic/data/meditate/profile.md`:
 
 ```markdown
 # User Profile
@@ -37,7 +37,7 @@ Feedback rate: 0%
 
 ## topics.md Template
 
-Copy to `~/meditate/topics.md`:
+Copy to `~/Clawic/data/meditate/topics.md`:
 
 ```markdown
 # Active Meditation Topics
@@ -60,7 +60,7 @@ Copy to `~/meditate/topics.md`:
 
 ## insights.md Template
 
-Copy to `~/meditate/insights.md`:
+Copy to `~/Clawic/data/meditate/insights.md`:
 
 ```markdown
 # Pending Insights
@@ -80,7 +80,7 @@ Generated: HH:MM
 
 ## feedback.md Template
 
-Copy to `~/meditate/feedback.md`:
+Copy to `~/Clawic/data/meditate/feedback.md`:
 
 ```markdown
 # Feedback Log

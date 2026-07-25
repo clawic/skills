@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a7e1d2a15cfe94eb47c1e0d90286f32c780905c58b942c8276054992da81a8d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "dietitian",
-    "name": "Dietitian",
+    "name": "dietitian",
     "description": "Structured meal planning — calorie targets, macro calculations, meal timing, and goal-specific diet protocols.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dietitian",
     "summary": "Calorie Foundations - Calculate TDEE first: BMR × activity multiplier (sedentary 1.2, moderate 1.55, active 1.725) - BMR formulas: Mifflin-St Jeor is most accurate for most people - Deficit for fat loss: 300-500 kcal/day",
     "repositoryPath": "skills/dietitian",
     "manifestPath": "registry/skills/dietitian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dietitian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dietitian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dietitian/_meta.json",
+      "byteCount": 170,
+      "sha256": "23ecd670c7d577c91678795a758e243e728c56df93d0851a6b2587efdf5da737"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dietitian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dietitian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dietitian/SKILL.md",
+      "byteCount": 4998,
+      "sha256": "d085262db2aa5534ef3fcbbe9236eb7bcc4fa2896f5d06b6aa4bb00e0e0782b2"
     }
   ]
 }

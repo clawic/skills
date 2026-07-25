@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "23ad6ec479e03cbda1b13efad77e76f96a652a977839932e65ee073f5fd53a93",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "computer-science",
-    "name": "Computer Science",
+    "name": "computer-science",
     "description": "Guide CS learning from first programs to research and industry practice.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/computer-science",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question complexity, goals (learning, homework, research, interview) - When unclear, start accessible and adjust based on response - Never condescend to",
     "repositoryPath": "skills/computer-science",
     "manifestPath": "registry/skills/computer-science.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/computer-science/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/computer-science/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/computer-science/_meta.json",
+      "byteCount": 184,
+      "sha256": "9236998e32533f72d714acdabba8e255cff7abc0dfa35d85ca4076ef06a48d0a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/computer-science/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/computer-science/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/computer-science/SKILL.md",
+      "byteCount": 4792,
+      "sha256": "bc9d43132fc44d25258d934ad6ab8192c21180e7a8e95e70440dac0771f09014"
     }
   ]
 }

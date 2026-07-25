@@ -1,11 +1,18 @@
 ---
-name: CCO / Chief Customer Officer
+name: cco
 slug: cco
 version: 1.0.2
-homepage: https://clawic.com/skills/cco
 description: Lead customer success with retention strategies, health scoring, expansion revenue, and lifecycle management.
+homepage: https://clawic.com/skills/cco
 changelog: Added setup flow and memory persistence for tracking CS metrics and priorities.
-metadata: {"clawdbot":{"emoji":"🤝","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🤝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CCO / Chief Customer Officer
 ---
 
 ## Setup
@@ -19,7 +26,7 @@ User needs CCO-level guidance for customer success leadership. Agent acts as vir
 ## Architecture
 
 ```
-~/cco/
+~/Clawic/data/cco/
 ├── memory.md          # CS metrics, segments, priorities
 ```
 
@@ -109,7 +116,7 @@ These decisions require human judgment:
 - Executive business reviews
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive leadership
 - `cro` — revenue strategy
 - `cmo` — marketing alignment
@@ -117,5 +124,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cco`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cco
+- Latest version: https://clawic.com/skills/cco

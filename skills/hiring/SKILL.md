@@ -1,7 +1,13 @@
 ---
-name: Hiring
+name: hiring
 slug: hiring
+version: 1.0.0
 description: Hire humans or AI agents for tasks you cannot do yourself, with platform selection, vetting, contracts, and payment management.
+homepage: https://clawic.com/skills/hiring
+metadata:
+  clawdbot:
+    emoji: 🧑‍💼
+    displayName: Hiring
 ---
 
 ## Platform Selection

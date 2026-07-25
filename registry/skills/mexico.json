@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1f6eec114670b7ce4978dbfb6f791894033ea1731a95a39734ba2e9665536616",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "mexico",
-    "name": "Mexico",
+    "name": "mexico",
     "description": "Discover Mexico like a local with concrete city tips, regional route planning, food guidance, and practical travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/mexico",
-    "summary": "Setup If `~/mexico/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Mexico or asking for local insights: what to eat, where to base, what to skip, and how to handle tr",
+    "summary": "Setup If `~/Clawic/data/mexico/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Mexico or asking for local insights: what to eat, where to base, what to skip, and how ",
     "repositoryPath": "skills/mexico",
     "manifestPath": "registry/skills/mexico.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mexico/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/_meta.json",
+      "byteCount": 164,
+      "sha256": "7560d4268d4a1d37a05680b0c2b65464ed32385eb209f83f21b8c8f901e54042"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/mexico/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/accommodation.md",
+      "byteCount": 1323,
+      "sha256": "4efe230201a3a806b75119e707c28c68760f21527f88d4e734405155168a33ed"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/mexico/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/apps.md",
+      "byteCount": 895,
+      "sha256": "ce5e180ce1cc9d477a62284f43fc1c94fe37e4fbaa44e3f6eb3c2e8263c7052d"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/mexico/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/beaches.md",
+      "byteCount": 1069,
+      "sha256": "55aa59eebaf0a19fb2e6289911463db8475f9736464532282edb61e937c2baa3"
     },
     {
       "path": "cdmx.md",
       "downloadPath": "skills/mexico/cdmx.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/cdmx.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/cdmx.md",
+      "byteCount": 1867,
+      "sha256": "0aa8abe9382d17a7e635bed0e60f657391a8fee3885919bcea36fe758e370a6c"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/mexico/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/culture.md",
+      "byteCount": 909,
+      "sha256": "5210a38a18abf7c109f6a0c170d683e4010b25c73d81274e55bd12183539d237"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/mexico/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/emergencies.md",
+      "byteCount": 924,
+      "sha256": "6f6b92a96aee320cb388874f891e51e4af7556bcc91eb5c8546144fb6ddf3caf"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/mexico/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/experiences.md",
+      "byteCount": 844,
+      "sha256": "6de78f18d86565fd021b40a78e4a90b4441addccb16fb91f1d6b396259fcc0ff"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/mexico/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/food-guide.md",
+      "byteCount": 1611,
+      "sha256": "a6011c1495082fb43a55944a40099503df8049fb91824fe570bbaf780960fca3"
     },
     {
       "path": "guadalajara.md",
       "downloadPath": "skills/mexico/guadalajara.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/guadalajara.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/guadalajara.md",
+      "byteCount": 1394,
+      "sha256": "44a48d3ccab71632f2b6bcb2dee23464013978725765518c45ccf887bca8b7b9"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/mexico/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/hiking.md",
+      "byteCount": 841,
+      "sha256": "0afba2c3fe0649161ff1d6eaba3dc770c09cc2139ba1598f0ef8791400ea00f6"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/mexico/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/itineraries.md",
+      "byteCount": 1058,
+      "sha256": "b1ac77bcc75b8fb1e8b4caed334e14e38fab136beb0cb213d2fb172408f22d6f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/mexico/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/memory-template.md",
+      "byteCount": 1389,
+      "sha256": "fa3bd66a3d3094d1157bb11378e11ae3d37e82ffc433b949353a55d16b95f829"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/mexico/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/nightlife.md",
+      "byteCount": 1057,
+      "sha256": "83fdf6e89504476b734d5efc4033023643fc81db71556f98cb41b03dd50cf48c"
     },
     {
       "path": "oaxaca.md",
       "downloadPath": "skills/mexico/oaxaca.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/oaxaca.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/oaxaca.md",
+      "byteCount": 1353,
+      "sha256": "4b59c4579b0c0268db1cc8340fa70e41534d7f109c76db7ec0559a67de0cf77f"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/mexico/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/regions.md",
+      "byteCount": 807,
+      "sha256": "9cc9fe9b05ce701bc431a2bbc76913e66ac898d3f297c0169429d474049816cc"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/mexico/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/setup.md",
+      "byteCount": 1689,
+      "sha256": "0ddc5e6f3ef5fa76c3c44713f98b4b6a0250e327946685436eef949c48c085c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mexico/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/SKILL.md",
+      "byteCount": 5593,
+      "sha256": "2925206430d716a2aee91061cb5bba4e36ad2516cbff7397c21a8f098edcb5a4"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/mexico/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/telecoms.md",
+      "byteCount": 791,
+      "sha256": "5111d7bb311ebdb53a6f4cda1e6e6331ebbe3732419cc5eb291fa28276c1d191"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/mexico/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/transport.md",
+      "byteCount": 1101,
+      "sha256": "1bd9945ef19100afefc70226f0822aa873ede9bd2f63576e67d6c8cca04a91ea"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/mexico/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/wine.md",
+      "byteCount": 1069,
+      "sha256": "24e6319e9d206b8058518a31307ad4307c465c0bc221d8dbb2865f2f74c442e2"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/mexico/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/with-kids.md",
+      "byteCount": 915,
+      "sha256": "695de94e3fd50b65b6d229189d453f69da9076d0b06a316ab31b9942e5dc3286"
     },
     {
       "path": "yucatan-riviera-maya.md",
       "downloadPath": "skills/mexico/yucatan-riviera-maya.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/yucatan-riviera-maya.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mexico/yucatan-riviera-maya.md",
+      "byteCount": 1250,
+      "sha256": "4ecd1dc063b47f9bf25434090988eaeed8aad738bbd36ef137dbc6a0b7685218"
     }
   ]
 }

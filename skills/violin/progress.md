@@ -5,7 +5,7 @@ Reference for file structure and logging format.
 ## Workspace Structure
 
 ```
-~/violin/
+~/Clawic/data/violin/
 ├── repertoire.md      # Pieces learned and in progress
 ├── sessions/
 │   └── YYYY-MM.md     # Monthly practice logs

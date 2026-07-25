@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9d7fb02dfecd9889223f8aff32db6602feed22a0ef961af3279915ec38939d3e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "bali",
-    "name": "Bali",
+    "name": "bali",
     "description": "Navigate Bali as visitor, resident, remote worker, student, or founder with neighborhoods, visas, transport, costs, and practical local guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/bali",
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bali/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/_meta.json",
+      "byteCount": 160,
+      "sha256": "280e4d6ca768b00e4845c6dea196b024389ba2e5688c88d4fe4e0468bd12ca35"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/bali/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/business.md",
+      "byteCount": 1629,
+      "sha256": "cd4f9462f4a624e88798d217801ff90ec9f0a127b66ba022453b59f09bfb4157"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/bali/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/climate.md",
+      "byteCount": 1536,
+      "sha256": "4f06da81fe6a3ab4ab2d35f93aaf6ed481d50bbaba3b6688560a099bf4f5b9b2"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/bali/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/cost.md",
+      "byteCount": 1938,
+      "sha256": "a55deefdd09adf593603292ef305c53fac514cdb99e125bda205c9521aaaaab2"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/bali/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/culture.md",
+      "byteCount": 1088,
+      "sha256": "3d49f43250c61c3543867168eddb28ec42f772b742b692a0381e0dd025a7ece2"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/bali/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/driving.md",
+      "byteCount": 1323,
+      "sha256": "39e89ae1eb7dfbffce4fac983145bde5aad7488560003fab1a655f1b2f929624"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/bali/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/education.md",
+      "byteCount": 1446,
+      "sha256": "0aa3b794c4f40aa8180b2c7c32c2af0400bcd1fb22678ace2c3c9fbc0b4d68b4"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/bali/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-areas.md",
+      "byteCount": 778,
+      "sha256": "d23db31159edbde1f5d308e41d12ca56e329ab8521bb4ac1f134457cfd98d09e"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/bali/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-international.md",
+      "byteCount": 958,
+      "sha256": "fcc2e84d2c2a7bea452eb399fa86ad89f5098a4cfe26aeb7aa815597de090521"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/bali/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-local.md",
+      "byteCount": 1090,
+      "sha256": "07109f515b46279c39cf529b0f896e093a5fb1ecc9265b5cd2a3a3bf075eee00"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/bali/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-overview.md",
+      "byteCount": 1222,
+      "sha256": "5e689193451c8b370b62fa4c66fafaca7f3ba3fd91a5134d5d161d9c0c737008"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/bali/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/food-practical.md",
+      "byteCount": 1101,
+      "sha256": "88fbab6ac6c6e82e4c80b6a0c755b62bc97e09f7365caf66fe65618960dbe046"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/bali/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/healthcare.md",
+      "byteCount": 1403,
+      "sha256": "6b4af893860db6256f30cdf415367f0746c54748f03670ec4d264e52fd11c5b4"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/bali/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/lifestyle.md",
+      "byteCount": 1199,
+      "sha256": "d2bc2ae447b6fb68ee77307c79f6449c0ad4543f0b859cc3c16e1870980fcafb"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/bali/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/local.md",
+      "byteCount": 1241,
+      "sha256": "356ebc7c0e288d31de2d1c4d3934546af705c299e5f22869ea29a0eafe788bf1"
     },
     {
       "path": "neighborhoods-canggu.md",
       "downloadPath": "skills/bali/neighborhoods-canggu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-canggu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-canggu.md",
+      "byteCount": 1403,
+      "sha256": "bb73aeb05b9c05229df928d7ae56a3360becc90a4bc8987e3449a644b3805429"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/bali/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-choosing.md",
+      "byteCount": 1270,
+      "sha256": "766c40e5c343ddffa4c49e35dff504b55e4ffddfa9fc11eeebca31aa7f0825f2"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/bali/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-index.md",
+      "byteCount": 1307,
+      "sha256": "1ba3aacffdb2c433c40b80b2bcad7ef824c890561a4f125b5e86e3c32af2770b"
     },
     {
       "path": "neighborhoods-seminyak.md",
       "downloadPath": "skills/bali/neighborhoods-seminyak.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-seminyak.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-seminyak.md",
+      "byteCount": 989,
+      "sha256": "a86ba718d7e60d1674987f50f11d5113869aa87289b08d0a4f7aa18866a16e83"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/bali/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-south.md",
+      "byteCount": 1064,
+      "sha256": "f79bc44044946eeb647a4ada45bf122d3eb3194eea1fa1923a3b63ef158f8813"
     },
     {
       "path": "neighborhoods-ubud.md",
       "downloadPath": "skills/bali/neighborhoods-ubud.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-ubud.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/neighborhoods-ubud.md",
+      "byteCount": 1121,
+      "sha256": "6eb1254afe6fdaecda2521e8a3fd446ae0fe6e86339c775be44aee7fa9111d6c"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/bali/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/resident.md",
+      "byteCount": 1279,
+      "sha256": "a5b25a20c6f0dac543dadb093572a0dab9b63f523001dd7d5a48f6292984519d"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/bali/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/safety.md",
+      "byteCount": 1807,
+      "sha256": "26ecf755e5bed17ddd81ad690fa2502ec41e67354202b6be094f012e3c33c69b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bali/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/SKILL.md",
+      "byteCount": 7459,
+      "sha256": "7770841859a487bd24d87acef6cbec0e67ea8fdd1b4bd70d2d19fa5be5b63d47"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/bali/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/sources.md",
+      "byteCount": 3598,
+      "sha256": "7b67896b235c9823f39071ece4ea8233a67931f1a1259923cacdccfc8376faad"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/bali/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/startup.md",
+      "byteCount": 1292,
+      "sha256": "18a76e148fb431de9a6508c753693d30c4e95c79346fd117ab6c4edd3b7909e8"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/bali/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/tech.md",
+      "byteCount": 1412,
+      "sha256": "31fc894b83b58cc81716ca26687de0d474c6a7f2f8420dbda86a5e6af0188089"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/bali/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/transport.md",
+      "byteCount": 1459,
+      "sha256": "ff6a28f9c7635a53096049447e810092942341c8a035013875da65214d7386a4"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/bali/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visas.md",
+      "byteCount": 1747,
+      "sha256": "fa8e19a33b4e722e12880e2330e56bca131e728121bac1ce611f2632bb835d96"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/bali/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-attractions.md",
+      "byteCount": 3809,
+      "sha256": "e94ea5228521d6dd1ece591f00dd4c64a1e978c2b139aa1bfc2ad83b83847fea"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/bali/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-itineraries.md",
+      "byteCount": 2553,
+      "sha256": "365baf6e6e2eb71cd33566f575ef710af2f978afbb710ecf3c7a084dc849ac3d"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/bali/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-lodging.md",
+      "byteCount": 2505,
+      "sha256": "178759d413eb26d534527edca8fa50703ff4b926982eacc223e91d7ba38d2ce9"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/bali/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bali/visitor-tips.md",
+      "byteCount": 2285,
+      "sha256": "89b8fea578b8af1030538eca36902eee9b6f82b58a8168ba50c379adac60ed00"
     }
   ]
 }

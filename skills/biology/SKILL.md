@@ -1,7 +1,17 @@
 ---
-name: Biology
+name: biology
+slug: biology
+version: 1.0.0
 description: Explore and explain biology with depth adapted to any learner or expert.
-metadata: {"clawdbot":{"emoji":"🧬","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/biology
+metadata:
+  clawdbot:
+    emoji: 🧬
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Biology
 ---
 
 ## Detect Level, Adapt Everything

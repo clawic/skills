@@ -1,7 +1,20 @@
 ---
-name: Azure
+name: azure
+slug: azure
+version: 1.0.0
 description: Deploy, monitor, and manage Azure services with battle-tested patterns.
-metadata: {"clawdbot":{"emoji":"🔷","requires":{"anyBins":["az"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/azure
+metadata:
+  clawdbot:
+    emoji: 🔷
+    requires:
+      anyBins:
+      - az
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Azure
 ---
 
 # Azure Production Rules

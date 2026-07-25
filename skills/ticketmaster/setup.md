@@ -13,12 +13,12 @@ export TM_API_KEY="your-ticketmaster-key"
 ## Create local working memory
 
 ```bash
-mkdir -p ~/ticketmaster/logs
-cp /path/to/installed/ticketmaster/memory-template.md ~/ticketmaster/memory.md
-touch ~/ticketmaster/queries.md
+mkdir -p ~/Clawic/data/ticketmaster/logs
+cp /path/to/installed/ticketmaster/memory-template.md ~/Clawic/data/ticketmaster/memory.md
+touch ~/Clawic/data/ticketmaster/queries.md
 ```
 
-If the skill is already installed locally, copy the structure from `memory-template.md` into `~/ticketmaster/memory.md`.
+If the skill is already installed locally, copy the structure from `memory-template.md` into `~/Clawic/data/ticketmaster/memory.md`.
 
 ## Smoke test the API
 
@@ -42,7 +42,7 @@ If `jq` is installed, output is pretty-printed. Otherwise the helper prints raw 
 
 ## Suggested first defaults
 
-Add these to `~/ticketmaster/memory.md` after the first successful request:
+Add these to `~/Clawic/data/ticketmaster/memory.md` after the first successful request:
 - default locale
 - default country or market
 - common city filters

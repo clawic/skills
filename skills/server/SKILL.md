@@ -1,6 +1,13 @@
 ---
-name: Server
+name: server
+slug: server
+version: 1.0.0
 description: Configure, deploy, and troubleshoot web servers, application servers, and containerized services.
+homepage: https://clawic.com/skills/server
+metadata:
+  clawdbot:
+    emoji: 🖥️
+    displayName: Server
 ---
 
 ## Scope

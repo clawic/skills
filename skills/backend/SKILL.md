@@ -1,7 +1,17 @@
 ---
-name: Backend
+name: backend
+slug: backend
+version: 1.0.0
 description: Build reliable backend services with proper error handling, security, and observability.
-metadata: {"clawdbot":{"emoji":"⚙️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/backend
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Backend
 ---
 
 ## Error Handling

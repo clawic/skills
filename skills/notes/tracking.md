@@ -1,6 +1,6 @@
 # Action Item Tracking — Notes
 
-## Central Tracker: `~/notes/actions.md`
+## Central Tracker: `~/Clawic/data/notes/actions.md`
 
 Single source of truth for all action items across all notes.
 

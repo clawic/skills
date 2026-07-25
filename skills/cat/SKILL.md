@@ -1,11 +1,22 @@
 ---
-name: Cat
+name: cat
 slug: cat
 version: 1.0.0
-homepage: https://clawic.com/skills/cat
 description: Track cat health, litter, routines, behavior, travel, and vet coordination with species-aware memory and emergency triage.
+homepage: https://clawic.com/skills/cat
 changelog: Initial release with cat care tracking, litter and behavior workflows, travel prep, and emergency-safe vet coordination.
-metadata: {"clawdbot":{"emoji":"🐈","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/cat/"]}}
+metadata:
+  clawdbot:
+    emoji: 🐈
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/cat/
+    displayName: Cat
 ---
 
 ## Setup
@@ -19,10 +30,10 @@ Use this for real cat-care operations, not for generic animal trivia, memes, or 
 
 ## Architecture
 
-Memory lives in `~/cat/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/cat/`. See `memory-template.md` for structure.
 
 ```text
-~/cat/
+~/Clawic/data/cat/
 ├── memory.md           # Household summary, activation, red flags, shared rules
 ├── cats/
 │   └── {name}/
@@ -53,7 +64,7 @@ Memory lives in `~/cat/`. See `memory-template.md` for structure.
 
 This skill ONLY:
 - Helps manage real-world cat care, records, logistics, and behavior tracking.
-- Uses local files in `~/cat/` if the user approves memory.
+- Uses local files in `~/Clawic/data/cat/` if the user approves memory.
 - Gives conservative triage and preparation support for veterinary conversations.
 
 This skill NEVER:
@@ -168,18 +179,18 @@ No other data is sent externally.
 - None.
 
 **Data stored locally if approved by the user:**
-- household summary and activation preference in `~/cat/memory.md`
+- household summary and activation preference in `~/Clawic/data/cat/memory.md`
 - one per-cat record with profile, health, routines, behavior, and logistics
 - supply thresholds and sitter notes
 
 **This skill does NOT:**
-- access files outside `~/cat/` for storage
+- access files outside `~/Clawic/data/cat/` for storage
 - send cat data to third parties
 - create automations or reminders automatically
 - replace veterinary care for emergencies or diagnosis
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `memory` - persistent local memory patterns for durable pet context
 - `remind` - reminder workflows for meds, appointments, and recurring care
 - `shopping` - purchase planning and reorder support for food and supplies
@@ -188,5 +199,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cat`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cat
+- Latest version: https://clawic.com/skills/cat

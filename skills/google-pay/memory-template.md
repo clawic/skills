@@ -1,6 +1,6 @@
 # Memory Template - Google Pay
 
-Create `~/google-pay/memory.md` with this structure:
+Create `~/Clawic/data/google-pay/memory.md` with this structure:
 
 ```markdown
 # Google Pay Memory
@@ -54,7 +54,7 @@ launch_state: planning | validating | ready | paused
 
 ## File Templates
 
-Create `~/google-pay/validation-log.md`:
+Create `~/Clawic/data/google-pay/validation-log.md`:
 
 ```markdown
 # Google Pay Validation Log
@@ -68,7 +68,7 @@ Create `~/google-pay/validation-log.md`:
 - Follow-up:
 ```
 
-Create `~/google-pay/incidents.md`:
+Create `~/Clawic/data/google-pay/incidents.md`:
 
 ```markdown
 # Google Pay Incidents

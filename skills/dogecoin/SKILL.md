@@ -1,7 +1,17 @@
 ---
-name: Dogecoin
+name: dogecoin
+slug: dogecoin
+version: 1.0.0
 description: Assist with Dogecoin DOGE transactions, wallet management, and network characteristics.
-metadata: {"clawdbot":{"emoji":"🐕","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dogecoin
+metadata:
+  clawdbot:
+    emoji: 🐕
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dogecoin
 ---
 
 ## Network Basics

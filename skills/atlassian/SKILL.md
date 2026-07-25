@@ -1,11 +1,22 @@
 ---
-name: Atlassian Cloud APIs + CLIs
+name: atlassian
 slug: atlassian
 version: 1.0.0
-homepage: https://clawic.com/skills/atlassian
 description: Operate Atlassian Cloud APIs and CLIs across Jira, Confluence, Bitbucket, Trello, Admin, Forge, Compass, Opsgenie, and Statuspage.
+homepage: https://clawic.com/skills/atlassian
 changelog: Initial release with Atlassian Cloud API and CLI coverage across Jira, Confluence, Bitbucket, Trello, Admin, Forge, Compass, Opsgenie, and Statuspage.
-metadata: {"clawdbot":{"emoji":"🧩","requires":{"anyBins":["curl","jq"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🧩
+    requires:
+      anyBins:
+      - curl
+      - jq
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Atlassian Cloud APIs + CLIs
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User needs to read, create, update, search, administer, or automate Atlassian Cl
 
 ## Architecture
 
-Memory lives in `~/atlassian/`. If `~/atlassian/` does not exist, run `setup.md`. See `memory-template.md` for structure. This skill works without persistent memory; save defaults only when the user wants repeatable shortcuts.
+Memory lives in `~/Clawic/data/atlassian/`. If `~/Clawic/data/atlassian/` does not exist, run `setup.md`. See `memory-template.md` for structure. This skill works without persistent memory; save defaults only when the user wants repeatable shortcuts.
 
 ```
-~/atlassian/
+~/Clawic/data/atlassian/
 └── memory.md           # Optional saved sites, products, auth preferences, and safety defaults
 ```
 
@@ -106,7 +117,7 @@ No other first-party Atlassian endpoints are targeted by default. If the user ch
 - CLI and API requests sent to the declared Atlassian or explicitly chosen partner endpoints
 
 **Data that stays local:**
-- Only the defaults the user explicitly wants remembered in `~/atlassian/`
+- Only the defaults the user explicitly wants remembered in `~/Clawic/data/atlassian/`
 - Notes about whether the user prefers read-only, review-first, or bulk automation workflows
 
 **This skill does NOT:**
@@ -122,7 +133,7 @@ By using this skill, data is sent to Atlassian services and any explicitly chose
 Only install if you trust Atlassian and any partner tooling you decide to use.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — General REST API patterns, pagination, and provider routing
 - `http` — HTTP request construction, headers, and debugging
 - `json` — JSON shaping, `jq`, and schema inspection
@@ -131,5 +142,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star atlassian`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/atlassian
+- Latest version: https://clawic.com/skills/atlassian

@@ -1,6 +1,6 @@
 # Memory Template — Home Renovation
 
-Create `~/home-renovation/memory.md` with this structure:
+Create `~/Clawic/data/home-renovation/memory.md` with this structure:
 
 ```markdown
 # Home Renovation Memory
@@ -46,7 +46,7 @@ integration: pending
 
 ## Project File Template
 
-For each project, create `~/home-renovation/projects/{project-name}.md`:
+For each project, create `~/Clawic/data/home-renovation/projects/{project-name}.md`:
 
 ```markdown
 # {Project Name}

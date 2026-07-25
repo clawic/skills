@@ -1,14 +1,24 @@
 ---
-name: Inventory
+name: inventory
+slug: inventory
+version: 1.0.0
 description: Build a personal inventory system for home items, valuables, and equipment tracking.
-metadata: {"clawdbot":{"emoji":"📦","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/inventory
+metadata:
+  clawdbot:
+    emoji: 📦
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Inventory
 ---
 
 ## Core Behavior
 - User mentions owning something valuable → offer to catalog
 - Track location, value, warranty → findable and insurable
 - Moving or decluttering → surface relevant items
-- Create `~/inventory/` as workspace
+- Create `~/Clawic/data/inventory/` as workspace
 
 ## When To Catalog
 - Valuable items: electronics, jewelry, instruments
@@ -27,7 +37,7 @@ metadata: {"clawdbot":{"emoji":"📦","os":["linux","darwin","win32"]}}
 
 ## File Structure
 ```
-~/inventory/
+~/Clawic/data/inventory/
 ├── electronics/
 │   ├── macbook-pro-2023.md
 │   └── tv-living-room.md

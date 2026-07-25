@@ -58,7 +58,7 @@ Install the `phone-voice` skill for:
 - Cloudflare tunnel (permanent URL)
 
 ```bash
-clawhub install phone-voice
+# Get the companion skill: https://clawic.com/skills/phone-voice
 ```
 
 ## Provider Comparison

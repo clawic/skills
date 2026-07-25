@@ -1,11 +1,18 @@
 ---
-name: CDO / Chief Data Officer
+name: cdo
 slug: cdo
 version: 1.0.1
-homepage: https://clawic.com/skills/cdo
 description: Drive data strategy with governance frameworks, analytics platforms, AI/ML initiatives, and privacy compliance.
+homepage: https://clawic.com/skills/cdo
 changelog: Added Core Rules structure and data leadership frameworks.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CDO / Chief Data Officer
 ---
 
 ## When to Use
@@ -85,7 +92,7 @@ These decisions require human judgment:
 - Cross-functional data sharing agreements
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cto` — technical infrastructure
 - `cfo` — data cost management
 - `ceo` — strategic alignment
@@ -93,5 +100,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cdo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cdo
+- Latest version: https://clawic.com/skills/cdo

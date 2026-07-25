@@ -1,9 +1,21 @@
 ---
-name: Java
+name: java
 slug: java
 version: 1.0.1
 description: Write robust Java avoiding null traps, equality bugs, and concurrency pitfalls.
-metadata: {"clawdbot":{"emoji":"☕","requires":{"bins":["java","javac"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/java
+metadata:
+  clawdbot:
+    emoji: ☕
+    requires:
+      bins:
+      - java
+      - javac
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Java
 ---
 
 ## Quick Reference

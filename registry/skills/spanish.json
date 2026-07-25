@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7d33d3a811efd11d431a1d1c9234246a40d59140c1acf6ab9bb0f0fe0073a655",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "spanish",
-    "name": "Spanish",
+    "name": "spanish",
     "description": "Write Spanish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/spanish",
     "summary": "The Real Problem AI Spanish is technically correct but sounds off. Too formal. Too complete. Too \"perfect.\" Natives write messier, warmer, more direct. Match that. Formality Default Default register is too high. Casual S",
     "repositoryPath": "skills/spanish",
     "manifestPath": "registry/skills/spanish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/spanish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spanish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spanish/_meta.json",
+      "byteCount": 166,
+      "sha256": "71f8a98b6b2b0ef399412651dffac305302c8b5a4790dc4bbaa7d8502332bc8e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/spanish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spanish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spanish/SKILL.md",
+      "byteCount": 2792,
+      "sha256": "57d7c962297f74efc9c7f95f1f64f87ff3e714f1fa920cb88d37d9df040d90c6"
     }
   ]
 }

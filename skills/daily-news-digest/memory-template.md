@@ -1,6 +1,6 @@
 # Memory Template — Daily News Digest
 
-Create `~/daily-news-digest/memory.md` with this structure:
+Create `~/Clawic/data/daily-news-digest/memory.md` with this structure:
 
 ```markdown
 # Daily News Digest Memory

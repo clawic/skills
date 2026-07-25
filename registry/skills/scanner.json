@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "00a6e88619559d70bdbfe547cf5f99c14fadfb88bdfa5a79b09829dd6fa97b50",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "scanner",
-    "name": "Scanner",
+    "name": "scanner",
     "description": "Transform document photos into clean scanned-looking pages with automatic edge detection, cropping, and perspective correction. Use when (1) the user wants a photo to look scanned; (2) receipts, forms, pages, or papers need clean borders and straightening; (3) the result should be easier to read, share, archive, or pass to OCR.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/scanner",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/scanner/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/_meta.json",
+      "byteCount": 166,
+      "sha256": "6ef6beae2ff17b680f0ab9d750f1639292b52a6bac66ce87dbdcef9a1acb9231"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/scanner/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scanner/SKILL.md",
+      "byteCount": 5148,
+      "sha256": "e7e0efc86bf166ce61dc7aadd8219235540b2906d17f37b0ecaea057926f9fac"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Swedish
+name: swedish
+slug: swedish
+version: 1.0.0
 description: Write Swedish that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/swedish
+metadata:
+  clawdbot:
+    emoji: 🇸🇪
+    displayName: Swedish
 ---
 
 ## The Real Problem

@@ -135,7 +135,7 @@ Each schedule can have different format/delivery.
 ## Validation
 
 Before creating report:
-- [ ] Name is unique (no duplicate in ~/report/)
+- [ ] Name is unique (no duplicate in ~/Clawic/data/report/)
 - [ ] At least one metric defined
 - [ ] Schedule frequency set (or on-demand)
 - [ ] Format specified

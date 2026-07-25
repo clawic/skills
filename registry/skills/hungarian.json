@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ea1aaf2a38edf8bb8220f33f4b8c0a65f21c6f2792c7e5109535e389ebbf7470",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hungarian",
-    "name": "Hungarian",
+    "name": "hungarian",
     "description": "Write Hungarian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hungarian",
     "summary": "The Real Problem AI Hungarian is technically correct but sounds off. Too formal. Too irodalmi (literary). Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high",
     "repositoryPath": "skills/hungarian",
     "manifestPath": "registry/skills/hungarian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hungarian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hungarian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hungarian/_meta.json",
+      "byteCount": 170,
+      "sha256": "db15ef7c3f2f9dc24ccf5d7573d50e92f28cd59a476576a578edd5343ea9db88"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hungarian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hungarian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hungarian/SKILL.md",
+      "byteCount": 2180,
+      "sha256": "b736fa3c46fed648ad180e81cdd8e686f226f847c3c9eb9f695db215426cab9d"
     }
   ]
 }

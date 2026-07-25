@@ -1,8 +1,13 @@
 ---
-name: JEE
+name: jee
 slug: jee
 version: 1.0.0
 description: Prepare for India's Joint Entrance Examination with progress tracking, weak area analysis, mock test strategy, and IIT/NIT targeting.
+homepage: https://clawic.com/skills/jee
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: JEE
 ---
 
 ## When to Use
@@ -22,9 +27,9 @@ User is preparing for JEE (Main or Advanced), India's engineering entrance exam.
 
 ## Data Storage
 
-User data lives in `~/jee/`:
+User data lives in `~/Clawic/data/jee/`:
 ```
-~/jee/
+~/Clawic/data/jee/
 ├── profile.md       # Goals, target rank, exam dates, category
 ├── subjects/        # Per-subject and chapter-wise progress
 ├── sessions/        # Study session logs
@@ -55,7 +60,7 @@ Before study planning, gather:
 ## Critical Rules
 
 - **ROI-first** — Prioritize chapters with highest marks-per-hour potential for this user's gaps
-- **Track everything** — Log sessions, scores, mistakes to `~/jee/`
+- **Track everything** — Log sessions, scores, mistakes to `~/Clawic/data/jee/`
 - **Adapt to user type** — Droppers need gap analysis; dual-prep needs board/JEE balance; parents need monitoring dashboards
 - **Mistake patterns over solutions** — Don't just correct; categorize WHY they're wrong
 - **Wellbeing matters** — Monitor for burnout, especially droppers; enforce rest when intensity is sustained

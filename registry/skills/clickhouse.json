@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "febaf70bbf8ab4391b032933be156a1df21411779a8ecffaf5e8575f66e734e0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "clickhouse",
-    "name": "ClickHouse",
+    "name": "clickhouse",
     "description": "Query, optimize, and administer ClickHouse OLAP databases with schema design, performance tuning, and data ingestion patterns.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/clickhouse",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/clickhouse/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/_meta.json",
+      "byteCount": 172,
+      "sha256": "4f5788946028c18e1fc148c5cc13151dbe7311c5fa2e20e86c610eb2952845e7"
     },
     {
       "path": "ingestion.md",
       "downloadPath": "skills/clickhouse/ingestion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/ingestion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/ingestion.md",
+      "byteCount": 5643,
+      "sha256": "fc5c40e4744a133445af62e9c8b6408b8048a3d91733949805764e430d33cc38"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/clickhouse/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/memory-template.md",
+      "byteCount": 1575,
+      "sha256": "8d6eb56c0a2f3b3bcd9b0e5a9fc8d0705c897b4ccc66dacaf22cdb9c5c68dd07"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/clickhouse/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/performance.md",
+      "byteCount": 5409,
+      "sha256": "dc78fce3d3c93a4b5a5c2615c62fe0018bfb21a00e6c8bf577791690a014be2f"
     },
     {
       "path": "queries.md",
       "downloadPath": "skills/clickhouse/queries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/queries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/queries.md",
+      "byteCount": 4518,
+      "sha256": "4e934ecdf2fecbc7bdc637c5cc1804b5cbf01ab3c6e513bc07e0422470f00746"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/clickhouse/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/setup.md",
+      "byteCount": 1884,
+      "sha256": "9d19404f04b7f7c8536363ae4257615200d8c7e02867f4453322e5a1abf80e25"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/clickhouse/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clickhouse/SKILL.md",
+      "byteCount": 7024,
+      "sha256": "baedc785dc554c19f4bdc355eb9ef24ae2b3562fbc6b65a6e8aa4390d975adad"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Productivity System Template
 
-Use these as the baseline files for `~/productivity/`.
+Use these as the baseline files for `~/Clawic/data/productivity/`.
 
 ## inbox/capture.md
 

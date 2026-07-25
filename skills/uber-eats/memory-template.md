@@ -1,6 +1,6 @@
 # Memory Template - Uber Eats
 
-Create `~/uber-eats/memory.md` with this structure:
+Create `~/Clawic/data/uber-eats/memory.md` with this structure:
 
 ```markdown
 # Uber Eats Memory

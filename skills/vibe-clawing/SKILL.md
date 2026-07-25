@@ -1,8 +1,14 @@
 ---
-name: Vibe Clawing
-description: Transition from vibe coding to vibe clawing by trusting agents with full responsibilities, designing self-closing loops, and climbing the bottleneck ladder.
+name: vibe-clawing
+slug: vibe-clawing
 version: 1.0.1
-changelog: "Preferences now persist across skill updates"
+description: Transition from vibe coding to vibe clawing by trusting agents with full responsibilities, designing self-closing loops, and climbing the bottleneck ladder.
+homepage: https://clawic.com/skills/vibe-clawing
+changelog: Preferences now persist across skill updates
+metadata:
+  clawdbot:
+    emoji: 🎛️
+    displayName: Vibe Clawing
 ---
 
 ## Core Principle
@@ -49,7 +55,7 @@ Every time you become the bottleneck = you're ready to let go again.
 
 ## User Profile
 
-Track your vibe clawing journey in `~/vibe-clawing/memory.md`. Create on first use:
+Track your vibe clawing journey in `~/Clawic/data/vibe-clawing/memory.md`. Create on first use:
 
 ```markdown
 ## Current Stage

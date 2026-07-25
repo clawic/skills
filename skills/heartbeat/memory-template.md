@@ -1,6 +1,6 @@
 # Memory Template - Heartbeat
 
-Create `~/heartbeat/memory.md` with this structure:
+Create `~/Clawic/data/heartbeat/memory.md` with this structure:
 
 ```markdown
 # Heartbeat Memory

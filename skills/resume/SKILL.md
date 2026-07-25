@@ -1,8 +1,19 @@
 ---
-name: Resume
-description: Adapt, diagnose, and optimize resumes to land interviews with ATS optimization, job-specific tailoring, and recruiter-tested tactics.
+name: resume
+slug: resume
 version: 1.0.0
-metadata: {"clawdbot":{"emoji":"📄","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+description: Adapt, diagnose, and optimize resumes to land interviews with ATS optimization, job-specific tailoring, and recruiter-tested tactics.
+homepage: https://clawic.com/skills/resume
+metadata:
+  clawdbot:
+    emoji: 📄
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Resume
 ---
 
 ## Quick Reference

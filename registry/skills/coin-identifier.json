@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4fc928cc15000dedaef7bb7b43fcb5547b54883ea1cda598459f4fbe43034cf4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "coin-identifier",
-    "name": "Coin Identifier",
+    "name": "coin-identifier",
     "description": "Identify coins from photos using evidence-based visual checks, ranked candidates, mint-mark reasoning, and a reusable local catalog.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/coin-identifier",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/coin-identifier/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/_meta.json",
+      "byteCount": 182,
+      "sha256": "ab09dc5f60c275e6d72f84947afe9b5417acdd8e1a15a45d9be3b99889908298"
     },
     {
       "path": "evidence-guide.md",
       "downloadPath": "skills/coin-identifier/evidence-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/evidence-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/evidence-guide.md",
+      "byteCount": 1032,
+      "sha256": "48d11bd40cf000571c8620a2065c56f8018030f7e3d2a4a0465ac0518f6db18c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/coin-identifier/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/memory-template.md",
+      "byteCount": 1814,
+      "sha256": "14b2751b06241a0e619fadbe26df1f6ccf84398bac53826ad323582324ef24a7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/coin-identifier/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/setup.md",
+      "byteCount": 2119,
+      "sha256": "1066184ed27d669ce2f8902a9d197e3bde4fba09dc3b5853f97d542fe4f11b0f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/coin-identifier/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coin-identifier/SKILL.md",
+      "byteCount": 5097,
+      "sha256": "f4d370fcc9f37c6fa510188278e1414d99d1755997ebdcbf8919f71318864e35"
     }
   ]
 }

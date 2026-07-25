@@ -5,17 +5,17 @@
 Create directory structure on first use:
 
 ```bash
-mkdir -p ~/notes/{meetings,decisions,projects,journal,quick}
-touch ~/notes/index.md
-touch ~/notes/actions.md
-touch ~/notes/config.md
+mkdir -p ~/Clawic/data/notes/{meetings,decisions,projects,journal,quick}
+touch ~/Clawic/data/notes/index.md
+touch ~/Clawic/data/notes/actions.md
+touch ~/Clawic/data/notes/config.md
 ```
 
 ---
 
 ## config.md Template
 
-Copy to `~/notes/config.md`:
+Copy to `~/Clawic/data/notes/config.md`:
 
 ```markdown
 # Notes Platform Configuration
@@ -38,7 +38,7 @@ Which platform to use for each note type. Options: local, apple-notes, bear, obs
 
 ### Local (always available)
 - **Status:** ✅ Available
-- **Path:** ~/notes/
+- **Path:** ~/Clawic/data/notes/
 
 ### Apple Notes (macOS only)
 - **Status:** ⬜ Not configured
@@ -74,14 +74,14 @@ Which platform to use for each note type. Options: local, apple-notes, bear, obs
 
 - Change routing anytime by editing this file
 - If a platform becomes unavailable, notes fall back to local
-- Action items always sync to ~/notes/actions.md regardless of platform
+- Action items always sync to ~/Clawic/data/notes/actions.md regardless of platform
 ```
 
 ---
 
 ## index.md Template
 
-Copy to `~/notes/index.md`:
+Copy to `~/Clawic/data/notes/index.md`:
 
 ```markdown
 # Notes Index
@@ -91,7 +91,7 @@ Copy to `~/notes/index.md`:
 ## 📁 Structure
 
 ```
-~/notes/
+~/Clawic/data/notes/
 ├── config.md       # Platform routing
 ├── index.md        # This file
 ├── actions.md      # Action items (all platforms)
@@ -139,7 +139,7 @@ Common queries:
 
 ## actions.md Template
 
-Copy to `~/notes/actions.md`:
+Copy to `~/Clawic/data/notes/actions.md`:
 
 ```markdown
 # Action Items Tracker
@@ -195,7 +195,7 @@ Sources indicate where the original note lives:
 
 ## Sample Meeting Note (Local)
 
-Example file `~/notes/meetings/2026-02-19_product-sync.md`:
+Example file `~/Clawic/data/notes/meetings/2026-02-19_product-sync.md`:
 
 ```markdown
 ---

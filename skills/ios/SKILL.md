@@ -1,7 +1,18 @@
 ---
-name: iOS
+name: ios
+slug: ios
+version: 1.0.0
 description: Build, test, and ship iOS apps with Swift, Xcode, and App Store best practices.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":["xcodebuild"]},"os":["darwin"]}}
+homepage: https://clawic.com/skills/ios
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins:
+      - xcodebuild
+    os:
+    - darwin
+    displayName: iOS
 ---
 
 # iOS Development Rules

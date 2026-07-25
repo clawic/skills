@@ -1,6 +1,13 @@
 ---
-name: Brainstorm
+name: brainstorm
+slug: brainstorm
+version: 1.0.0
 description: Generate ideas fast. Adapt depth and structure to what the user actually needs.
+homepage: https://clawic.com/skills/brainstorm
+metadata:
+  clawdbot:
+    emoji: 💡
+    displayName: Brainstorm
 ---
 
 ## Default: Ideas First

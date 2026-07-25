@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d30dcd5312922d3ec0022e9bb670408dc65bd2213c48141ce3217821fa99aaec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "word",
-    "name": "Word",
+    "name": "word",
     "description": "Control Word app sessions, documents, selections, comments, export, and review state with osascript workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/word",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/word/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/_meta.json",
+      "byteCount": 160,
+      "sha256": "38e49b7cf6649b5f96162118ede0da9f03e01b7398141796fc92419054b8c09e"
     },
     {
       "path": "execution-matrix.md",
       "downloadPath": "skills/word/execution-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/execution-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/execution-matrix.md",
+      "byteCount": 1597,
+      "sha256": "9e76a5c5c6d5a950294af2d16df2ec061e86a47017663985e54f224fdd35d62a"
     },
     {
       "path": "live-control-patterns.md",
       "downloadPath": "skills/word/live-control-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/live-control-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/live-control-patterns.md",
+      "byteCount": 1422,
+      "sha256": "4655ff67b891783f194fbde0b64d13884c73b7274ecd8323888921609225e9c3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/word/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/memory-template.md",
+      "byteCount": 1523,
+      "sha256": "dc61218999c69fa995fb74ebf095243a9cbdefe0d1b04be70ca27a6fc8a1bd77"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/word/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/safety-checklist.md",
+      "byteCount": 776,
+      "sha256": "10b7c1778de9c79a1c4b9faf1f905008e117f6facbd5478cf07a26b5e687927d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/word/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/setup.md",
+      "byteCount": 2101,
+      "sha256": "9a9d029113457af40e5c053a16c536a478441a49fbea6e757b0b4530faf4135f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/word/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/SKILL.md",
+      "byteCount": 6174,
+      "sha256": "d62f5116a7e647509525e5b1b2bd48f8a731ed4c3b99bfc81534dfc86ec8c841"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/word/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word/troubleshooting.md",
+      "byteCount": 1405,
+      "sha256": "cfec57dcc5cda266ec61ceeca9d346cec71cf4970a28ff8556533dc8161521b5"
     }
   ]
 }

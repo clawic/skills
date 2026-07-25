@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0418e0411364a6423347ea02effacded7a2ca25736ed54712ab18a5533e8f8cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "sentiment-tracker",
-    "name": "Sentiment Tracker",
+    "name": "sentiment-tracker",
     "description": "Monitor brand sentiment, crypto opinions, and product perception across social media with automated tracking, alerts, and multi-entity dashboards.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/sentiment-tracker",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sentiment-tracker/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/_meta.json",
+      "byteCount": 186,
+      "sha256": "4607d265c32f5f6680297b2b1f1ee6880cc27a36e0aab4819e6978029486efb3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/sentiment-tracker/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/memory-template.md",
+      "byteCount": 3765,
+      "sha256": "7f3f85bfa0ff805e9ac5bf0093e87d7a716ee375cf805d553a291a7d946a1b45"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/sentiment-tracker/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/setup.md",
+      "byteCount": 2466,
+      "sha256": "5e1969de5792b5c434ae73ce3a71b038318942bfa1ad968075138a5e1881f881"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sentiment-tracker/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sentiment-tracker/SKILL.md",
+      "byteCount": 5651,
+      "sha256": "addc2a87aad9828db19bf3f793de0f739ee5f1f7ee83d43ff54996a7c86bce3e"
     }
   ]
 }

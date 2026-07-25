@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e3b88085de8bf7023fd308c261e234b0f13ff6aaac97f63e0af7cd703bb5f316",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "community-manager",
-    "name": "Community Manager",
+    "name": "community-manager",
     "description": "Manage online communities with engagement strategies, content planning, and audience growth.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/community-manager",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/community-manager/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/community-manager/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/community-manager/_meta.json",
+      "byteCount": 186,
+      "sha256": "9449bd271243e577a66244bce2f2ce49c5ccf5ea00921c78f187057dcac7f319"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/community-manager/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/community-manager/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/community-manager/SKILL.md",
+      "byteCount": 4756,
+      "sha256": "2b611c312605ce2459506701d8519257d384d590ddcfeada45779048e1b981a9"
     }
   ]
 }

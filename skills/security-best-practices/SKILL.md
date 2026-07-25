@@ -1,17 +1,28 @@
 ---
-name: Security Best Practices
+name: security-best-practices
 slug: security-best-practices
 version: 1.0.0
-homepage: https://clawic.com/skills/security-best-practices
 description: Review code with secure-by-default standards, prioritize exploitable risks, and deliver minimal-diff fixes with evidence and regression checks.
+homepage: https://clawic.com/skills/security-best-practices
 changelog: Added a complete security review workflow with evidence standards, severity modeling, and minimal-risk remediation guidance.
-metadata: {"clawdbot":{"emoji":"🛡️","requires":{"bins":[],"config":["~/security-best-practices/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🛡️
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/security-best-practices/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Security Best Practices
 ---
 
 ## Setup
 
 On first use, read `setup.md` for integration guidelines.
-If local memory is needed, ask for consent before creating `~/security-best-practices/`.
+If local memory is needed, ask for consent before creating `~/Clawic/data/security-best-practices/`.
 
 ## When to Use
 
@@ -19,10 +30,10 @@ Use this skill for secure-by-default implementation, targeted vulnerability revi
 
 ## Architecture
 
-Memory lives in `~/security-best-practices/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/security-best-practices/`. See `memory-template.md` for setup.
 
 ```text
-~/security-best-practices/
+~/Clawic/data/security-best-practices/
 |- memory.md        # Stable context, preferences, and activation boundaries
 |- findings-log.md  # Findings registry with severity and status
 `- exceptions.md    # Approved security exceptions and review dates
@@ -111,7 +122,7 @@ Never apply broad silent overrides.
 - None by default from this skill itself.
 
 **Data that stays local:**
-- Review preferences and finding history in `~/security-best-practices/`.
+- Review preferences and finding history in `~/Clawic/data/security-best-practices/`.
 - Exception rationale in local memory files only.
 
 **This skill does NOT:**
@@ -120,7 +131,7 @@ Never apply broad silent overrides.
 - Perform hidden destructive changes.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `auth` - Authentication design and hardening.
 - `authorization` - Access control and permission boundaries.
 - `encryption` - Key management and cryptographic hygiene.
@@ -129,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star security-best-practices`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/security-best-practices
+- Latest version: https://clawic.com/skills/security-best-practices

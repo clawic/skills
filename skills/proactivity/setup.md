@@ -1,6 +1,6 @@
 # Setup - Proactivity
 
-Use this file when `~/proactivity/` is missing or empty.
+Use this file when `~/Clawic/data/proactivity/` is missing or empty.
 
 Do not turn setup into a long interview. Install the behavior path first, keep helping immediately, and personalize through real use.
 
@@ -31,16 +31,16 @@ Show the exact snippet immediately and wait for explicit approval before writing
 Add this continuity line next to other memory sources:
 
 ```markdown
-- **Proactivity:** `~/proactivity/` (via `proactivity` skill) - proactive operating state, action boundaries, active task recovery, and follow-through rules
+- **Proactivity:** `~/Clawic/data/proactivity/` (via `proactivity` skill) - proactive operating state, action boundaries, active task recovery, and follow-through rules
 ```
 
 Right after the sentence "Capture what matters...", add:
 
 ```markdown
-Use ~/proactivity/memory.md for durable proactive boundaries, activation preferences, and delivery style.
-Use ~/proactivity/session-state.md for the current objective, last decision, blocker, and next move.
-Use ~/proactivity/memory/working-buffer.md for volatile breadcrumbs during long or fragile tasks.
-Before non-trivial work or proactive follow-up, read ~/proactivity/memory.md and ~/proactivity/session-state.md, then load the working buffer only when recovery risk is high.
+Use ~/Clawic/data/proactivity/memory.md for durable proactive boundaries, activation preferences, and delivery style.
+Use ~/Clawic/data/proactivity/session-state.md for the current objective, last decision, blocker, and next move.
+Use ~/Clawic/data/proactivity/memory/working-buffer.md for volatile breadcrumbs during long or fragile tasks.
+Before non-trivial work or proactive follow-up, read ~/Clawic/data/proactivity/memory.md and ~/Clawic/data/proactivity/session-state.md, then load the working buffer only when recovery risk is high.
 Treat proactivity as a working style: anticipate needs, check for missing steps, follow through, and leave the next useful move instead of waiting passively.
 ```
 
@@ -48,9 +48,9 @@ Before the "Write It Down" subsection, add:
 
 ```markdown
 Before any non-trivial task:
-- Read ~/proactivity/memory.md
-- Read ~/proactivity/session-state.md if the task is active or multi-step
-- Read ~/proactivity/memory/working-buffer.md if context is long, fragile, or likely to drift
+- Read ~/Clawic/data/proactivity/memory.md
+- Read ~/Clawic/data/proactivity/session-state.md if the task is active or multi-step
+- Read ~/Clawic/data/proactivity/memory/working-buffer.md if context is long, fragile, or likely to drift
 - Recover from local state before asking the user to repeat recent work
 - Check whether there is an obvious blocker, next step, or useful suggestion the user has not asked for yet
 - Leave one clear next move in state before the final response when work is ongoing
@@ -59,12 +59,12 @@ Before any non-trivial task:
 Inside the "Write It Down" bullets, refine behavior:
 
 ```markdown
-- Durable proactive preference or boundary -> append to ~/proactivity/memory.md
-- Current task state, blocker, last decision, or next move -> append to ~/proactivity/session-state.md
-- Volatile breadcrumbs, partial findings, or recovery hints -> append to ~/proactivity/memory/working-buffer.md
-- Repeat proactive win worth reusing -> append to ~/proactivity/patterns.md
-- Proactive action taken or suggested -> append to ~/proactivity/log.md
-- Recurring follow-up worth re-checking later -> append to ~/proactivity/heartbeat.md
+- Durable proactive preference or boundary -> append to ~/Clawic/data/proactivity/memory.md
+- Current task state, blocker, last decision, or next move -> append to ~/Clawic/data/proactivity/session-state.md
+- Volatile breadcrumbs, partial findings, or recovery hints -> append to ~/Clawic/data/proactivity/memory/working-buffer.md
+- Repeat proactive win worth reusing -> append to ~/Clawic/data/proactivity/patterns.md
+- Proactive action taken or suggested -> append to ~/Clawic/data/proactivity/log.md
+- Recurring follow-up worth re-checking later -> append to ~/Clawic/data/proactivity/heartbeat.md
 ```
 
 ### 3. Add the HEARTBEAT check early
@@ -76,11 +76,11 @@ Show the exact snippet immediately and wait for explicit approval before writing
 ```markdown
 ## Proactivity Check
 
-- Read ~/proactivity/heartbeat.md
+- Read ~/Clawic/data/proactivity/heartbeat.md
 - Re-check active blockers, promised follow-ups, stale work, and missing decisions
 - Ask what useful check-in or next move would help right now
 - Message the user only when something changed or needs a decision
-- Update ~/proactivity/session-state.md after meaningful follow-through
+- Update ~/Clawic/data/proactivity/session-state.md after meaningful follow-through
 ```
 
 ### 4. Add the TOOLS guidance early
@@ -96,7 +96,7 @@ Show the exact snippet immediately and wait for explicit approval before writing
 - Try multiple approaches and alternative tools before asking for help
 - Use tools to test assumptions, verify mechanisms, and uncover blockers early
 - For send, spend, delete, reschedule, or contact actions, stop and ask first
-- If a tool result changes active work, update ~/proactivity/session-state.md
+- If a tool result changes active work, update ~/Clawic/data/proactivity/session-state.md
 ```
 
 ### 5. Create local state once the routing is in place
@@ -104,15 +104,15 @@ Show the exact snippet immediately and wait for explicit approval before writing
 Create the local folder and baseline files after the behavior path is installed:
 
 ```bash
-mkdir -p ~/proactivity/{domains,memory}
-touch ~/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
-touch ~/proactivity/memory/working-buffer.md
-chmod 700 ~/proactivity ~/proactivity/domains ~/proactivity/memory
-chmod 600 ~/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
-chmod 600 ~/proactivity/memory/working-buffer.md
+mkdir -p ~/Clawic/data/proactivity/{domains,memory}
+touch ~/Clawic/data/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
+touch ~/Clawic/data/proactivity/memory/working-buffer.md
+chmod 700 ~/proactivity ~/Clawic/data/proactivity/domains ~/Clawic/data/proactivity/memory
+chmod 600 ~/Clawic/data/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
+chmod 600 ~/Clawic/data/proactivity/memory/working-buffer.md
 ```
 
-If `~/proactivity/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/proactivity/memory.md` is empty, initialize it from `memory-template.md`.
 
 ### 6. Personalize lightly while helping
 

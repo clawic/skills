@@ -1,11 +1,30 @@
 ---
-name: Whop
+name: whop
 slug: whop
 version: 1.0.1
-homepage: https://clawic.com/skills/whop
 description: Run and grow a Whop business with better offers, checkout flows, promo strategy, affiliates, ads, tracking, analytics, support operations, and advanced API workflows when needed
+homepage: https://clawic.com/skills/whop
 changelog: Expanded the skill with practical guidance for offers, checkout flows, promo codes, affiliates, ads, analytics, and Whop business operations.
-metadata: {"clawdbot":{"emoji":"🟠","requires":{"bins":[],"config":["~/whop/"],"env.optional":["WHOP_API_KEY","WHOP_WEBHOOK_SECRET","WHOP_COMPANY_ID","WHOP_USER_ID","WHOP_RESOURCE_ID"]},"os":["linux","darwin","win32"],"configPaths":["~/whop/"]}}
+metadata:
+  clawdbot:
+    emoji: 🟠
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/whop/
+      env.optional:
+      - WHOP_API_KEY
+      - WHOP_WEBHOOK_SECRET
+      - WHOP_COMPANY_ID
+      - WHOP_USER_ID
+      - WHOP_RESOURCE_ID
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/whop/
+    displayName: Whop
 ---
 
 ## When to Use
@@ -14,10 +33,10 @@ User is working on Whop in any serious business sense: shaping an offer, pricing
 
 ## Architecture
 
-Memory lives in `~/whop/`. If `~/whop/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/whop/`. If `~/Clawic/data/whop/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/whop/
+~/Clawic/data/whop/
 ├── memory.md       # Current business model, priorities, and blockers
 ├── offers.md       # Products, pricing, trials, waitlists, and checkout notes
 ├── growth.md       # Promo codes, affiliates, ads, tracking, and channel notes
@@ -131,7 +150,7 @@ No other data is sent externally.
 - Webhook acknowledgements returned from your app back to Whop
 
 **Data that stays local:**
-- Offer, growth, operations, and environment notes stored in `~/whop/`
+- Offer, growth, operations, and environment notes stored in `~/Clawic/data/whop/`
 - Local proxy configuration and development URLs
 - Secret values kept in environment variables rather than in project files
 
@@ -148,7 +167,7 @@ By using this skill, data is sent to Whop.
 Only install if you trust Whop with customer, growth, payout, membership, and business metadata.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ads` — Paid acquisition strategy, testing discipline, and media-buying tradeoffs
 - `api` — General REST API patterns, auth strategies, and HTTP debugging
 - `oauth` — OAuth token lifecycles, redirects, and delegated access flows
@@ -157,5 +176,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star whop`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/whop
+- Latest version: https://clawic.com/skills/whop

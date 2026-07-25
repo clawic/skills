@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "72c12c7e790d7d534292b090bcdce2c305a5fbe9c1d077306742b9acf0ba0538",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "content-marketing",
-    "name": "Content Marketing",
+    "name": "content-marketing",
     "description": "Plan, create, and distribute content with editorial calendars, funnel strategy, and repurposing workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/content-marketing",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/content-marketing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/_meta.json",
+      "byteCount": 186,
+      "sha256": "0b842d5a10b84c465d51eea675ad32e8621faad2d027e8166bb6af398cb75412"
     },
     {
       "path": "funnels.md",
       "downloadPath": "skills/content-marketing/funnels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/funnels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/funnels.md",
+      "byteCount": 2151,
+      "sha256": "20b9dc5e7537869e5f4361a352b6042148da14af7786a34d868a326a782c6996"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/content-marketing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/memory-template.md",
+      "byteCount": 1666,
+      "sha256": "0224ca37e666bc03730dacaf509eadcd5d53c2471ea960918b6f7e7d254f7735"
     },
     {
       "path": "repurposing.md",
       "downloadPath": "skills/content-marketing/repurposing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/repurposing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/repurposing.md",
+      "byteCount": 2223,
+      "sha256": "27e355d65a0af953671a1e479ab7c630a8591145930b831646555cbc92ebe1f2"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/content-marketing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/setup.md",
+      "byteCount": 1975,
+      "sha256": "b445e1f219b0b9c2390169e984270a2a6e6f1e5a9dd5827554616be58ceb521f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/content-marketing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/content-marketing/SKILL.md",
+      "byteCount": 4711,
+      "sha256": "2aeef6af346b83927c50e270e597447d308a208e4a86d84f326b038b6528cdf2"
     }
   ]
 }

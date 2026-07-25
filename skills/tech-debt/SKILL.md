@@ -1,10 +1,19 @@
 ---
-name: Technical Debt
+name: tech-debt
 slug: tech-debt
 version: 1.0.0
-homepage: https://clawic.com/skills/tech-debt
 description: Reckless versus prudent categorization, tracking the inventory, and a payoff cadence that does not freeze delivery.
-metadata: {"clawdbot":{"emoji":"⚙️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/tech-debt
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Technical Debt
 ---
 
 ## What counts as debt
@@ -141,7 +150,7 @@ The financial metaphor is for non-engineers; for engineers it is a prioritizatio
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `legacy-code` - inherited codebases and the no-tests scenario where characterization tests pin behavior before any payoff
 - `refactoring` - the extract, rename, and strangler-fig mechanics behind every payoff that is not a rewrite
 - `tdd` - test debt, characterization tests, and the suite health that test debt erodes

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bd3417b7ead8ab4671b2bb54873c20e23b561bf303d77b0a0fc96a3bf1442d88",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,59 +23,81 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/skill-audit/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/skill-audit/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/_meta.json",
+      "byteCount": 324,
+      "sha256": "3d2003dc0d9e74d54584fba4de055fd4e0d537d05a00d9e0dd5481fcf59d2311"
     },
     {
       "path": "checks.md",
       "downloadPath": "skills/skill-audit/checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/checks.md",
+      "byteCount": 4170,
+      "sha256": "95ac4d7456a412e992e8d6ca8b983b77d53a4ab91c8432df1ccbc60439ff8202"
     },
     {
       "path": "exfiltration.md",
       "downloadPath": "skills/skill-audit/exfiltration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/exfiltration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/exfiltration.md",
+      "byteCount": 2965,
+      "sha256": "9facc2f0eea39f99e7854e8ee8e7853a889906473a6ebeeac625fc3c778c802b"
     },
     {
       "path": "hidden-content.md",
       "downloadPath": "skills/skill-audit/hidden-content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/hidden-content.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/hidden-content.md",
+      "byteCount": 3280,
+      "sha256": "4660cfa9853ed0e50bc25c0200923760c188b46c6cd15332f84a6868d7efa83f"
     },
     {
       "path": "incident.md",
       "downloadPath": "skills/skill-audit/incident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/incident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/incident.md",
+      "byteCount": 2355,
+      "sha256": "46e0ff5224f1cd08692714df488363ea86dc5bb05d97360ef8586dbc439f8b72"
     },
     {
       "path": "injection-patterns.md",
       "downloadPath": "skills/skill-audit/injection-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/injection-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/injection-patterns.md",
+      "byteCount": 3570,
+      "sha256": "bed695ded4f61afda1cb4eedea0ab66cf1e4b4751c6c54593d6c24497b340197"
     },
     {
       "path": "scripts.md",
       "downloadPath": "skills/skill-audit/scripts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/scripts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/scripts.md",
+      "byteCount": 3393,
+      "sha256": "fcb1b1779bb7301f96edd59b167cf0acd8a2b0400116de1075526050fd2e9743"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-audit/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/SKILL.md",
+      "byteCount": 12439,
+      "sha256": "3b2705181eddd9a29f59afea4c645632d53a506450cbe7bbee1536ba8684483f"
     },
     {
       "path": "supply-chain.md",
       "downloadPath": "skills/skill-audit/supply-chain.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/supply-chain.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/supply-chain.md",
+      "byteCount": 2858,
+      "sha256": "bfd12fec61347fe02a168235d01175c3f56a757586a93f44e39bb912c8fbdd57"
     },
     {
       "path": "sweep.md",
       "downloadPath": "skills/skill-audit/sweep.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/sweep.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/sweep.md",
+      "byteCount": 1969,
+      "sha256": "e26a07d2fc664489ead6018e77607a54c1e4d729cbdcf599bec8fb98527163a6"
     },
     {
       "path": "update-audit.md",
       "downloadPath": "skills/skill-audit/update-audit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/update-audit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/update-audit.md",
+      "byteCount": 2236,
+      "sha256": "9fd0e4a0da05663d1ef7a0043904b766f2617980570c58e1bb2ac1fbdf0b330e"
     }
   ]
 }

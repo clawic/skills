@@ -1,11 +1,20 @@
 ---
-name: Business Strategy
+name: business
 slug: business
 version: 1.1.0
-homepage: https://clawic.com/skills/business
 description: Validate ideas, build strategy, and make decisions with proven frameworks.
+homepage: https://clawic.com/skills/business
 changelog: Complete rewrite with validation system, decision tracking, and actionable frameworks.
-metadata: {"clawdbot":{"emoji":"💼","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💼
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Business Strategy
 ---
 
 ## When to Use
@@ -14,10 +23,10 @@ User has a business idea to validate, needs strategic direction, faces a key dec
 
 ## Architecture
 
-Decision memory lives in `~/business/`. See `memory-template.md` for setup.
+Decision memory lives in `~/Clawic/data/business/`. See `memory-template.md` for setup.
 
 ```
-~/business/
+~/Clawic/data/business/
 ├── decisions.md       # HOT: active decisions + outcomes
 ├── metrics.md         # Current business metrics
 ├── ideas/             # Idea validation logs
@@ -75,7 +84,7 @@ For every decision, classify:
 90% of decisions are two-way doors. Treat them accordingly.
 
 ### 5. Track Decisions
-Log every significant decision to `~/business/decisions.md`:
+Log every significant decision to `~/Clawic/data/business/decisions.md`:
 ```
 ## [DATE] Decision Name
 Context: Why this came up
@@ -230,7 +239,7 @@ Defer to specialized skills for:
 - Product development (use `cpo`)
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `ceo` — Executive leadership and board management
 - `cfo` — Financial planning and capital allocation
@@ -240,5 +249,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star business`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/business
+- Latest version: https://clawic.com/skills/business

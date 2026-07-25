@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "67795bebccf2f1f81b321b1fe8314fe5808cb1e3f64e541ca48c9a5977d234c8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "call-center",
-    "name": "Call Center",
+    "name": "call-center",
     "description": "Handle customer calls with scripts, issue resolution, escalation protocols, and interaction logging.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/call-center",
-    "summary": "When to Use Agent handles customer interactions via phone or voice channels. Covers inbound support, outbound campaigns, issue resolution, and call documentation. Architecture Memory lives in `~/call-center/`. See `memor",
+    "summary": "When to Use Agent handles customer interactions via phone or voice channels. Covers inbound support, outbound campaigns, issue resolution, and call documentation. Architecture Memory lives in `~/Clawic/data/call-center/`",
     "repositoryPath": "skills/call-center",
     "manifestPath": "registry/skills/call-center.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/call-center/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/_meta.json",
+      "byteCount": 174,
+      "sha256": "35f8d4c2ab214a2c9480ade3d93269c80942ba5a483247262ad7722af91f8c74"
     },
     {
       "path": "escalation.md",
       "downloadPath": "skills/call-center/escalation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/escalation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/escalation.md",
+      "byteCount": 3082,
+      "sha256": "cd05d85ed40426661b85c7be95d84dd7fb092762ed8c6ba57265707f317ac3d2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/call-center/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/memory-template.md",
+      "byteCount": 2440,
+      "sha256": "5d594e2b0e05909aee9ceb978331e9bba32d0bc071e6982a6839e2c6389ddb0e"
     },
     {
       "path": "scripts.md",
       "downloadPath": "skills/call-center/scripts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/scripts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/scripts.md",
+      "byteCount": 3379,
+      "sha256": "42db3e3b86a4d0f5e7a9f2e7aaef4640186506ca79d09a95efcef564756b71dd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/call-center/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/call-center/SKILL.md",
+      "byteCount": 3564,
+      "sha256": "052115f98882657419a1591f7139d27eb8a749aca215fed9968932cd23eadc3d"
     }
   ]
 }

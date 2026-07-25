@@ -1,6 +1,6 @@
 # Setup - IMAP
 
-Read this internally when `~/imap/` is missing or empty. Keep the conversation practical, transparent about durable defaults, and immediately useful for the current mailbox task.
+Read this internally when `~/Clawic/data/imap/` is missing or empty. Keep the conversation practical, transparent about durable defaults, and immediately useful for the current mailbox task.
 
 ## Your Attitude
 
@@ -43,7 +43,7 @@ Before closing setup, provide one artifact the user can act on immediately:
 
 When memory is enabled:
 
-- create `~/imap/` and initialize files from `memory-template.md`
+- create `~/Clawic/data/imap/` and initialize files from `memory-template.md`
 - store only durable operational context such as activation defaults, mutation policy, account labels, folder mappings, and sync checkpoints
 - keep mailbox content ephemeral unless the user clearly wants a reusable playbook or durable note
 - never store passwords, OAuth tokens, app passwords, or unrelated personal data

@@ -1,19 +1,40 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
-  "repository": {"owner":"clawic","repo":"skills","branch":"main","registryPath":"registry","skillsPath":"skills"},
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "081cd91892077796c0f304d53f729e86ccc6e3c29cb83327efa6526898c65d62",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
   "skill": {
     "slug": "typography",
-    "name": "Typography Foundations",
+    "name": "typography",
     "description": "Set type for screen and print: measure, leading, tracking, optical sizes, weight axes, and the difference between display and text cuts.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/typography",
-    "summary": "Measure 45-75 chars (screen low, print wider). Leading coupled to measure and x-height: body 1.2-1.5, display 0.9-1.1. Tracking: lowercase display negative, caps positive +50 to +100; px does not scale, use em. Display vs text cut is optical compensation, crossover ~28-32pt. Weight reads heavier on screen; faux bold clogs counters. Justify works in print, breaks on web.",
+    "summary": "Measure, leading, and the reading engine - Measure = characters per line, the single biggest readability lever. English body: 45-75 chars, sweet spot ~66. CJK: 20-40 chars (each glyph carries more meaning). Mobile effect",
     "repositoryPath": "skills/typography",
     "manifestPath": "registry/skills/typography.json"
   },
   "files": [
-    {"path":"_meta.json","downloadPath":"skills/typography/_meta.json","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/typography/_meta.json"},
-    {"path":"SKILL.md","downloadPath":"skills/typography/SKILL.md","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/typography/SKILL.md"}
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/typography/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typography/_meta.json",
+      "byteCount": 174,
+      "sha256": "eb5135db6d3e80311b2c0c2299efcda7e2b2caf507bc26d71020219135b1c31a"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/typography/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typography/SKILL.md",
+      "byteCount": 15737,
+      "sha256": "8feb5282306cb4d6ee3b99814e69830eb91077afedb9972aa9c8d58805f10a50"
+    }
   ]
 }

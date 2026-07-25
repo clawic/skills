@@ -1,16 +1,27 @@
 ---
-name: Consultant
+name: consultant
 slug: consultant
 version: 1.0.0
-homepage: https://clawic.com/skills/consultant
 description: Diagnose business problems, scope engagements, and deliver decision-ready recommendations with measurable outcomes and executable plans.
+homepage: https://clawic.com/skills/consultant
 changelog: Initial release with a consultant operating system for discovery, structuring, delivery, and quality control.
-metadata: {"clawdbot":{"emoji":"C","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/consultant/"]}}
+metadata:
+  clawdbot:
+    emoji: C
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/consultant/
+    displayName: Consultant
 ---
 
 ## Setup
 
-If `~/consultant/` does not exist or is empty, initialize using `setup.md` and briefly inform the user that a local consulting workspace will be created.
+If `~/Clawic/data/consultant/` does not exist or is empty, initialize using `setup.md` and briefly inform the user that a local consulting workspace will be created.
 
 ## When to Use
 
@@ -20,10 +31,10 @@ Use this skill when unclear requests need framing, when stakeholders disagree, o
 
 ## Architecture
 
-Working memory lives in `~/consultant/`. See `memory-template.md` for the required structure.
+Working memory lives in `~/Clawic/data/consultant/`. See `memory-template.md` for the required structure.
 
 ```
-~/consultant/
+~/Clawic/data/consultant/
 |-- memory.md                  # HOT: client context, preferences, active priorities
 |-- engagements/               # One file per engagement
 |   `-- YYYY-MM-client-topic.md
@@ -114,7 +125,7 @@ Minimum bar:
 If a gate fails, revise before delivery.
 
 ### 7. Update Memory After Every Meaningful Interaction
-Log new context in `~/consultant/memory.md` and engagement files.
+Log new context in `~/Clawic/data/consultant/memory.md` and engagement files.
 
 Persist only durable information:
 - Preferred decision format
@@ -169,7 +180,7 @@ Data that may leave your machine:
 - Only what the user explicitly asks to include in external tools during normal agent operation
 
 Data that stays local:
-- Context and engagement notes in `~/consultant/`
+- Context and engagement notes in `~/Clawic/data/consultant/`
 
 This skill does NOT:
 - Access undeclared external endpoints by itself
@@ -177,7 +188,7 @@ This skill does NOT:
 - Store secrets or credentials in memory files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `business` - Validate initiatives and prioritize strategic decisions
 - `strategy` - Build competitive positioning and strategic option maps
 - `ceo` - Support executive-level decision framing and communication
@@ -186,5 +197,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star consultant`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/consultant
+- Latest version: https://clawic.com/skills/consultant

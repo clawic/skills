@@ -1,18 +1,28 @@
 ---
-name: Clients
+name: clients
+slug: clients
+version: 1.0.0
 description: Build a personal client system for tracking relationships, projects, documents, and history.
-metadata: {"clawdbot":{"emoji":"💼","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/clients
+metadata:
+  clawdbot:
+    emoji: 💼
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Clients
 ---
 
 ## Core Behavior
 - User mentions client → offer to create/update profile
 - User needs context → surface relevant history
 - User shares document → help associate to client
-- Create `~/clients/` as workspace
+- Create `~/Clawic/data/clients/` as workspace
 
 ## File Structure
 ```
-~/clients/
+~/Clawic/data/clients/
 ├── active/
 │   └── acme-corp/
 │       ├── profile.md

@@ -1,6 +1,6 @@
 # Setup - Tai Chi (Practice Planner, Form Coach, Balance Tracker)
 
-Read this when `~/tai-chi/` is missing or empty.
+Read this when `~/Clawic/data/tai-chi/` is missing or empty.
 Start with the user's immediate need, then shape activation behavior early.
 
 ## Your Attitude

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c99aa9d40c45c3ab830c8be85e978ac11766980d1f96b3445ab2664fdea148d9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "assistant",
-    "name": "Assistant",
+    "name": "assistant",
     "description": "Manage tasks, communications, and scheduling with proactive and organized support.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/assistant",
     "summary": "Personal Assistant Rules Task Management - Capture everything immediately — don't let requests slip through cracks - Clarify ambiguous requests before acting — assumptions cause rework - Break large tasks into actionable",
     "repositoryPath": "skills/assistant",
     "manifestPath": "registry/skills/assistant.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/assistant/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/assistant/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/assistant/_meta.json",
+      "byteCount": 170,
+      "sha256": "22548e92d18652c52929de104289c67e521b3f9dab5e26effc76868a93e03081"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/assistant/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/assistant/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/assistant/SKILL.md",
+      "byteCount": 3946,
+      "sha256": "cbed0459ebb1be7f99db34e1ffdd87e64f89c972628bfa5dc30242554f9cd8a5"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c19accbbbbc1de4c8b65cee0e3e2b58d247f8a46e536bb22f4e403f186604292",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "sell",
-    "name": "Sell",
+    "name": "sell",
     "description": "Price items accurately, create compelling listings, choose platforms, and handle negotiations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/sell",
     "summary": "Triggers Activate on: \"sell this\", \"how much is this worth\", \"where should I sell\", \"help me list\", pricing requests for items to sell. **Before acting:** Clarify item condition, timeline (need gone fast vs maximize pric",
     "repositoryPath": "skills/sell",
     "manifestPath": "registry/skills/sell.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sell/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/_meta.json",
+      "byteCount": 160,
+      "sha256": "0693aad2580ec46922c969cdc835b9afb46505e8ed9b57bf6adaf98d79b499a4"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/sell/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/platforms.md",
+      "byteCount": 2736,
+      "sha256": "e16af115db16b924cebcfb7ff118e926cbae8e4b9b51057cc218dc06c27bf9e0"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/sell/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/pricing.md",
+      "byteCount": 2129,
+      "sha256": "2ce0dd19e98322bd730fc3663a7110dbfb4232a582f8aa641128d90bc5eabb50"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/sell/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/safety.md",
+      "byteCount": 2191,
+      "sha256": "47560ad646274588154e6696318f4c1aa909d53b0b9d8857d2257992636cd91a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sell/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sell/SKILL.md",
+      "byteCount": 2201,
+      "sha256": "9eb779a247c4418d63cc9feb00b3c4a1eefde48fc30be02938157446bc00977f"
     }
   ]
 }

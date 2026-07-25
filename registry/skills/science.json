@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ca37564c34ef79e25ff762003f60b51a5b65acdbdda229bcb7c709729e614c3c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "science",
-    "name": "Science",
+    "name": "science",
     "description": "Guide scientific understanding from childhood wonder to research precision.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/science",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question type, what they already know - When unclear, start accessible and adjust based on response - Never condescend to experts or overwhelm beginners",
     "repositoryPath": "skills/science",
     "manifestPath": "registry/skills/science.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/science/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/science/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/science/_meta.json",
+      "byteCount": 166,
+      "sha256": "01116aaac9834fba92307f9c8b44d0a2ee8134c474bc2fe1868f053188e6963d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/science/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/science/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/science/SKILL.md",
+      "byteCount": 4487,
+      "sha256": "3c2e88af5413d5d18b29e91c77790fbd404aca869673ff69c7e7b3aa896e9d12"
     }
   ]
 }

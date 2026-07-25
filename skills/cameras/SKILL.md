@@ -1,10 +1,20 @@
 ---
-name: Cameras
+name: cameras
 slug: cameras
 version: 1.0.1
 description: Connect to security cameras, capture snapshots, and process video feeds with protocol support.
+homepage: https://clawic.com/skills/cameras
 changelog: User-driven credential model, declared tool requirements
-metadata: {"clawdbot":{"emoji":"📷","requires":{"bins":["ffmpeg"]},"os":["linux","darwin"]}}
+metadata:
+  clawdbot:
+    emoji: 📷
+    requires:
+      bins:
+      - ffmpeg
+    os:
+    - linux
+    - darwin
+    displayName: Cameras
 ---
 
 ## Scope

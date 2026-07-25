@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fca10ba35d6b7246175b909167676753adfc381850c182d5d6f92372a94a934f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "finnish",
-    "name": "Finnish",
+    "name": "finnish",
     "description": "Write Finnish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/finnish",
     "summary": "The Real Problem AI Finnish is technically correct but sounds off. Too formal. Too kirjakieli (written language). Natives write more casually in puhekieli (spoken style). Match that. Formality Default Default register is",
     "repositoryPath": "skills/finnish",
     "manifestPath": "registry/skills/finnish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/finnish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finnish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finnish/_meta.json",
+      "byteCount": 166,
+      "sha256": "1a479a46e5ac99f3fd530cf67e7187adc94eddd89e9887621fc84b419453d287"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/finnish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finnish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finnish/SKILL.md",
+      "byteCount": 2221,
+      "sha256": "3672b66ca6f81bfa9f99595b10ad4027cb80ddaf4cae3a3b4d9630c0bad51b3d"
     }
   ]
 }

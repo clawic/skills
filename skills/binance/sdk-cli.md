@@ -48,6 +48,6 @@ console.log(price);
 When the user asks for CLI-only operation:
 - keep a shell function for signing requests
 - use `curl + jq` for all critical paths
-- log payload and response summaries in `~/binance/runbooks.md`
+- log payload and response summaries in `~/Clawic/data/binance/runbooks.md`
 
 For signature edge cases, use Binance official signature examples repository.

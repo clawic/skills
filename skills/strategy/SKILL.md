@@ -1,17 +1,27 @@
 ---
-name: Strategy
+name: strategy
 slug: strategy
 version: 1.0.0
 description: Design robust strategies for any domain with proven frameworks, cognitive bias protection, and constraint-aware recommendations.
-metadata: {"clawdbot":{"emoji":"♟️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/strategy
+metadata:
+  clawdbot:
+    emoji: ♟️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Strategy
 ---
 
 ## Architecture
 
-Strategy profiles live in `~/strategy/` with context-specific refinement.
+Strategy profiles live in `~/Clawic/data/strategy/` with context-specific refinement.
 
 ```
-~/strategy/
+~/Clawic/data/strategy/
 ├── memory.md          # HOT: constraints, preferences, past decisions
 ├── domains/           # Domain-specific patterns (business, product, career)
 └── playbooks/         # Reusable strategy templates
@@ -96,4 +106,4 @@ Match framework to problem type — see `frameworks.md`:
 
 ## Memory Storage
 
-User context persists in `~/strategy/memory.md`. Create on first use.
+User context persists in `~/Clawic/data/strategy/memory.md`. Create on first use.

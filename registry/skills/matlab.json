@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d7f928194162d01e41db377d65c690425648de0d38f8cb4e8695b94814a69fc5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "matlab",
-    "name": "MATLAB",
+    "name": "matlab",
     "description": "Avoid common MATLAB mistakes — indexing traps, matrix vs element-wise ops, and vectorization pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/matlab",
     "summary": "Indexing - 1-based indexing — first element is `A(1)`, not `A(0)` - `end` keyword for last index — `A(end)`, `A(end-1)`, works in any dimension - Linear indexing on matrices — `A(5)` accesses 5th element column-major ord",
     "repositoryPath": "skills/matlab",
     "manifestPath": "registry/skills/matlab.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/matlab/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matlab/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matlab/_meta.json",
+      "byteCount": 164,
+      "sha256": "0688dde6ea1131d5a835fad64e9067263999ac4fa0bb88f0769e0ebfb6a6782c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/matlab/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matlab/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matlab/SKILL.md",
+      "byteCount": 3098,
+      "sha256": "dc5e439365c24734e06d53a9f512a1c9d72941c02f42592e89d9c36972d77e2c"
     }
   ]
 }

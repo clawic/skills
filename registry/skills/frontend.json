@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8fc9960b9f9dfebbbe7db58866ca0537797f3b6c0fbb2e88e8be18fbf935ea4c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "frontend",
-    "name": "Frontend Design",
+    "name": "frontend",
     "description": "Frontend development with React, Next.js, Tailwind CSS. Build landing pages, dashboards, forms, components. Responsive, accessible, performant UI.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/frontend",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/frontend/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/_meta.json",
+      "byteCount": 251,
+      "sha256": "dfe48a4a9e615a95335894ca3442df0cbaf4c1224ffd432d07394363154d73dd"
     },
     {
       "path": "animation.md",
       "downloadPath": "skills/frontend/animation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/animation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/animation.md",
+      "byteCount": 1083,
+      "sha256": "6e791ccc28550af1ed5362e41468eb631a0606ad29e229fb1bf3891c3936ff4b"
     },
     {
       "path": "colors.md",
       "downloadPath": "skills/frontend/colors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/colors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/colors.md",
+      "byteCount": 1106,
+      "sha256": "9091233383ab60e8e2536285e2ffb530fe67c307a2341b3dba95a9122ccb0b50"
     },
     {
       "path": "examples.md",
       "downloadPath": "skills/frontend/examples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/examples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/examples.md",
+      "byteCount": 1562,
+      "sha256": "b7bf78a08bd0eedcc2c4fc431573f1c3f87f08d152af94d220a737d441b78e4d"
     },
     {
       "path": "mobile.md",
       "downloadPath": "skills/frontend/mobile.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/mobile.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/mobile.md",
+      "byteCount": 1209,
+      "sha256": "93520cf91e7324badf7db782957599d4b8cc978b828c0074c5d087c0fd81a2c1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/frontend/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/SKILL.md",
+      "byteCount": 3228,
+      "sha256": "712548d0db92d4e22aea7ead2f10d37ce2f766a1b13c9ad1c6dff8a3c1941162"
     },
     {
       "path": "stack.md",
       "downloadPath": "skills/frontend/stack.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/stack.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/stack.md",
+      "byteCount": 1388,
+      "sha256": "d0d446e252aa6a3771c54ee6607552d65697bc3c46999a1fba8ae04b319f7425"
     },
     {
       "path": "typography.md",
       "downloadPath": "skills/frontend/typography.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/typography.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/frontend/typography.md",
+      "byteCount": 1114,
+      "sha256": "8a127a4febec3c9c67f115d9110cb08516b1a81e9c6c231403371583ff4e023c"
     }
   ]
 }

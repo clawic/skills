@@ -1,10 +1,20 @@
 ---
-name: Mail
+name: mail
 slug: mail
 version: 1.2.0
 description: Execute email operations with platform-specific optimizations and secure credential handling.
+homepage: https://clawic.com/skills/mail
 changelog: Added explicit scope, requirements, and data access documentation
-metadata: {"clawdbot":{"emoji":"📧","requires":{"bins":["himalaya"]},"os":["darwin","linux"]}}
+metadata:
+  clawdbot:
+    emoji: 📧
+    requires:
+      bins:
+      - himalaya
+    os:
+    - darwin
+    - linux
+    displayName: Mail
 ---
 
 ## Requirements

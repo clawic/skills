@@ -1,11 +1,26 @@
 ---
-name: iCloud
+name: icloud
 slug: icloud
 version: 1.0.0
-homepage: https://clawic.com/skills/icloud
 description: Let agents operate your iCloud Drive, Photos, and Find My safely with local 2FA authentication and explicit confirmation gates.
+homepage: https://clawic.com/skills/icloud
 changelog: Initial release with secure iCloud account integration, read-first workflows, and confirmation gates for risky actions.
-metadata: {"clawdbot":{"emoji":"☁️","requires":{"bins":["python3"]},"install":[{"id":"pyicloud","kind":"pip","package":"pyicloud==2.4.1","label":"Install pyicloud 2.4.1 (pip)"}],"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ☁️
+    requires:
+      bins:
+      - python3
+    install:
+    - id: pyicloud
+      kind: pip
+      package: pyicloud==2.4.1
+      label: Install pyicloud 2.4.1 (pip)
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: iCloud
 ---
 
 ## Setup
@@ -19,10 +34,10 @@ Use it for operational automation with strict safety gates, not for bypassing Ap
 
 ## Architecture
 
-Memory lives in `~/icloud/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/icloud/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/icloud/
+~/Clawic/data/icloud/
 |-- memory.md               # Status, integration mode, and current account scope
 |-- operations-log.md       # Executed commands, result checks, and rollback notes
 |-- device-map.md           # Known device aliases and stable IDs
@@ -104,7 +119,7 @@ Data that leaves your machine:
 - Package install traffic only when installing dependencies.
 
 Data that stays local:
-- Optional operational notes under `~/icloud/`.
+- Optional operational notes under `~/Clawic/data/icloud/`.
 - Local keyring entries managed by the `pyicloud` tool if the user chooses to store password.
 
 This skill does NOT:
@@ -119,7 +134,7 @@ By using this skill, you trust Apple iCloud endpoints and the `pyicloud` package
 Only install and run this workflow if you trust these services with your account operations.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cloud-storage` - Cross-provider storage workflows and transfer safety checks
 - `ios` - Apple device settings, permissions, and account behavior troubleshooting
 - `macos` - macOS security, keychain, and runtime diagnostics for Apple tooling
@@ -127,5 +142,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star icloud`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/icloud
+- Latest version: https://clawic.com/skills/icloud

@@ -7,7 +7,7 @@ Reference — installation, updates, and cleanup.
 When user consents to install:
 
 ```bash
-npx clawhub install <slug>
+npx clawic add <slug>
 ```
 
 Then add to inventory:
@@ -21,7 +21,7 @@ Then add to inventory:
 To check if skill has updates:
 
 ```bash
-npx clawhub info <slug>
+npx clawic show <slug>
 ```
 
 Compare version with inventory. If newer available:
@@ -32,7 +32,13 @@ Compare version with inventory. If newer available:
 When user consents:
 
 ```bash
-npx clawhub update <slug>
+npx clawic update <slug>
+```
+
+During a periodic audit where several installed skills have updates, offer the bulk form instead of one-by-one:
+
+```bash
+npx clawic update --all
 ```
 
 Update version in inventory.
@@ -42,7 +48,8 @@ Update version in inventory.
 When user asks to remove:
 
 ```bash
-npx clawhub uninstall <slug>
+# npx clawic has no uninstall command yet — delete the skill's folder
+# from each detected agent directory (.claude/skills/, .codex/skills/, etc.)
 ```
 
 Remove from inventory.

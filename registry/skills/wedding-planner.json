@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "69a9d648c4bf0a0641477b3f5e302fc5f9fa4be3287ead753adc5204a28f6922",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "wedding-planner",
-    "name": "Wedding Planner",
+    "name": "wedding-planner",
     "description": "Plan weddings with budget guardrails, guest-list scenarios, vendor scorecards, payment tracking, and deadline-driven coordination.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/wedding-planner",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wedding-planner/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/_meta.json",
+      "byteCount": 182,
+      "sha256": "10853341da04baaee2010be1f4d89c2b63e08fa6b992e0f0919d6da571a2cdab"
     },
     {
       "path": "budget-and-payments.md",
       "downloadPath": "skills/wedding-planner/budget-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/budget-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/budget-and-payments.md",
+      "byteCount": 1487,
+      "sha256": "dae892f3f88747a8e56871e972feb2dfe16da495951b3db71b57a0554059c621"
     },
     {
       "path": "guest-list-and-seating.md",
       "downloadPath": "skills/wedding-planner/guest-list-and-seating.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/guest-list-and-seating.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/guest-list-and-seating.md",
+      "byteCount": 1408,
+      "sha256": "15860be4f630be265b85b352d14ca7370af656fa2324e6866f6ca59965083f36"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/wedding-planner/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/memory-template.md",
+      "byteCount": 2016,
+      "sha256": "4a15f076bbfbf488c9ab74ddbad8c810388cf567fe30071d6bd5ee8e97478006"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/wedding-planner/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/setup.md",
+      "byteCount": 2646,
+      "sha256": "7d4ba8c175dae1b4ef840ecd32243596536a6f668e5c7b491df6068ef521c281"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wedding-planner/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/SKILL.md",
+      "byteCount": 10292,
+      "sha256": "8814eecd0b998b1a64ec2022b8e27c4ac54b0afc609967669fbfaf9892ff7237"
     },
     {
       "path": "timeline-and-run-of-show.md",
       "downloadPath": "skills/wedding-planner/timeline-and-run-of-show.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/timeline-and-run-of-show.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/timeline-and-run-of-show.md",
+      "byteCount": 1675,
+      "sha256": "03d02ebd703c8ba39bfd42994e590b3c2dcc20ba689d27df417f6fa74fc85826"
     },
     {
       "path": "vendor-scorecards.md",
       "downloadPath": "skills/wedding-planner/vendor-scorecards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/vendor-scorecards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wedding-planner/vendor-scorecards.md",
+      "byteCount": 1525,
+      "sha256": "5415f64ed4b80c71484b66f27e45d07ae3f64f40c8dc69c3db406a2dcb49c702"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e98b8091369c902363a5e41831996d01cc129c71831364cb9eb79a73b6c820ab",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "family",
-    "name": "Family",
+    "name": "family",
     "description": "Coordinate family schedules, household tasks, school logistics, care routines, and private-versus-shared memory with a structured family system",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/family",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/family/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/_meta.json",
+      "byteCount": 164,
+      "sha256": "694e1ea9bc0d426bcbbce6ef64316488bcf5b43c772efa0303c2bc96526a4f03"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/family/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/memory-template.md",
+      "byteCount": 8242,
+      "sha256": "166d7e249050e5b0ddff677b9ed55052d2a108d5d72354341c14e7db357cf5f9"
     },
     {
       "path": "privacy-model.md",
       "downloadPath": "skills/family/privacy-model.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/privacy-model.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/privacy-model.md",
+      "byteCount": 2507,
+      "sha256": "c1dd41794c81c95e80c4967e500276430b338dd1a3c1dabf917788656d9cc693"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/family/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/setup.md",
+      "byteCount": 3092,
+      "sha256": "691bff7cc5759d30c8992da43a9482f36d04e957f4c957aceb9a90de0e631ee4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/family/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/SKILL.md",
+      "byteCount": 9628,
+      "sha256": "0c47402c2b4b49f224cc4c5534d032d804b63cddefb067e3de3257310d4f3891"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/family/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/templates.md",
+      "byteCount": 1136,
+      "sha256": "456b69b0f754adf64416ed43125f5bbc87b71dabc1e26557a7859f1a3c0ec5d1"
     },
     {
       "path": "workflows.md",
       "downloadPath": "skills/family/workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/family/workflows.md",
+      "byteCount": 2707,
+      "sha256": "6d7b235d216210c0248107225a3109aad992a5cba1abc997da7241927e5ed2f6"
     }
   ]
 }

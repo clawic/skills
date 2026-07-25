@@ -1,11 +1,25 @@
 ---
-name: Stripe API Integration
+name: stripe-api-integration
 slug: stripe-api-integration
 version: 1.0.2
-homepage: https://clawic.com/skills/stripe-api-integration
 description: Complete Stripe API integration for payments, subscriptions, checkout, invoices, webhooks, Connect, Issuing, Terminal, and Treasury.
-changelog: Use ~/stripe-api-integration/ as config path (matching slug).
-metadata: {"clawdbot":{"emoji":"💳","requires":{"env":["STRIPE_SECRET_KEY","STRIPE_WEBHOOK_SECRET"],"config":["~/stripe-api-integration/"]},"primaryEnv":"STRIPE_SECRET_KEY","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/stripe-api-integration
+changelog: Use ~/Clawic/data/stripe-api-integration/ as config path (matching slug).
+metadata:
+  clawdbot:
+    emoji: 💳
+    requires:
+      env:
+      - STRIPE_SECRET_KEY
+      - STRIPE_WEBHOOK_SECRET
+      config:
+      - ~/Clawic/data/stripe-api-integration/
+    primaryEnv: STRIPE_SECRET_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Stripe API Integration
 ---
 
 # Stripe API Integration
@@ -20,7 +34,7 @@ curl https://api.stripe.com/v1/balance -u "$STRIPE_SECRET_KEY:"
 
 ## Setup
 
-On first use, read `setup.md`. Preferences stored in `~/stripe-api-integration/memory.md`.
+On first use, read `setup.md`. Preferences stored in `~/Clawic/data/stripe-api-integration/memory.md`.
 
 ## When to Use
 
@@ -29,7 +43,7 @@ Any Stripe operation: payments, subscriptions, invoices, checkout, webhooks, Con
 ## Architecture
 
 ```
-~/stripe-api-integration/
+~/Clawic/data/stripe-api-integration/
 ├── memory.md      # Account context
 └── webhooks.md    # Webhook configs
 ```
@@ -88,7 +102,7 @@ curl https://api.stripe.com/v1/customers -u "$STRIPE_SECRET_KEY:"
 - `STRIPE_WEBHOOK_SECRET` — for webhook signature verification
 
 **Sent to Stripe:** Customer info, payment data via api.stripe.com
-**Stays local:** API keys (never logged), ~/stripe-api-integration/ preferences
+**Stays local:** API keys (never logged), ~/Clawic/data/stripe-api-integration/ preferences
 **Never:** Log card numbers, skip webhook verification, expose keys
 
 ## Trust
@@ -96,12 +110,12 @@ curl https://api.stripe.com/v1/customers -u "$STRIPE_SECRET_KEY:"
 This skill sends data to Stripe (stripe.com).
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API patterns
 - `saas` — SaaS metrics
 - `webhook` — Webhook patterns
 
 ## Feedback
 
-- If useful: `clawhub star stripe-api-integration`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/stripe-api-integration
+- Latest version: https://clawic.com/skills/stripe-api-integration

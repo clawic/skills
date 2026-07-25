@@ -1,6 +1,6 @@
 # Memory Template - AppleScript
 
-Create `~/applescript/memory.md` with this structure:
+Create `~/Clawic/data/applescript/memory.md` with this structure:
 
 ```markdown
 # AppleScript Memory

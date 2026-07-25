@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0e93fd1d7cefd605387b40e7a531119bb34c279749e5d32719f5ed3b816e1775",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-health",
-    "name": "Apple Health",
+    "name": "apple-health",
     "description": "Connect agents to Apple Health exports with MCP setup, schema validation, and privacy-safe analysis.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-health",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-health/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/_meta.json",
+      "byteCount": 176,
+      "sha256": "d4c0a9b25d18de1628326f006792693eb8d6ea20d1aa0fe124fa2cec5c20817d"
     },
     {
       "path": "fallback-cli.md",
       "downloadPath": "skills/apple-health/fallback-cli.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/fallback-cli.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/fallback-cli.md",
+      "byteCount": 1108,
+      "sha256": "9034f9443769a08002c8c58010febfb2d2ed6ff00263a27d5a3eb1acc109ad89"
     },
     {
       "path": "mcp-config.md",
       "downloadPath": "skills/apple-health/mcp-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/mcp-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/mcp-config.md",
+      "byteCount": 887,
+      "sha256": "6641e8df24e0b78ea33b589f2039151a11487357a85a88a671e10e42f1d7716b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-health/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/memory-template.md",
+      "byteCount": 1900,
+      "sha256": "0914540d0c52cbd2ab9bf9ff1d03700c83298d26c398b303b85bb89646b85245"
     },
     {
       "path": "query-recipes.md",
       "downloadPath": "skills/apple-health/query-recipes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/query-recipes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/query-recipes.md",
+      "byteCount": 1028,
+      "sha256": "8fb2b0824f20a258798d183932832680d7be6148b73865f11f10b84eef1b3ecb"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-health/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/setup.md",
+      "byteCount": 2089,
+      "sha256": "8c9550b81082e7c95947c612e683387e141d5f91507935e6d341b8b00a909d51"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-health/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-health/SKILL.md",
+      "byteCount": 5899,
+      "sha256": "0dd0b9f44205c52c38733027c2517402729ea692235b798e6a9073e0f385691b"
     }
   ]
 }

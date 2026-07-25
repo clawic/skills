@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2b874cb8e5d5ce64793e7db04e2e83e3e4064b6fa21e6cb0e0891810437f7b7a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "schedule",
-    "name": "Schedule",
+    "name": "schedule",
     "description": "Program recurring or one-time tasks. User defines what to do, skill handles when.",
     "version": "1.0.2",
-    "summary": "Data Storage ``` ~/schedule/ ├── jobs.json # Job definitions ├── preferences.json # Timezone, preferred times └── history/ # Execution logs └── YYYY-MM.jsonl ``` Create on first use: `mkdir -p ~/schedule/history` Scope T",
+    "homepage": "https://clawic.com/skills/schedule",
+    "summary": "Data Storage ``` ~/Clawic/data/schedule/ ├── jobs.json # Job definitions ├── preferences.json # Timezone, preferred times └── history/ # Execution logs └── YYYY-MM.jsonl ``` Create on first use: `mkdir -p ~/Clawic/data/s",
     "repositoryPath": "skills/schedule",
     "manifestPath": "registry/skills/schedule.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/schedule/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/_meta.json",
+      "byteCount": 244,
+      "sha256": "af6b543fcc7f113c1eacbd7d18f9da745da69758b2a7d9dd7bfb8c9e95ad87f1"
     },
     {
       "path": "jobs.md",
       "downloadPath": "skills/schedule/jobs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/jobs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/jobs.md",
+      "byteCount": 1380,
+      "sha256": "59d38f455fffb262cbd7344f186a35c786f5d92200901d89b912c2f02adb03a8"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/schedule/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/patterns.md",
+      "byteCount": 1563,
+      "sha256": "d0d3ac51a3435c5aa04aa5369ee25db67f0f8dae377d1ece86fbe7fbd47bd22a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/schedule/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/SKILL.md",
+      "byteCount": 2839,
+      "sha256": "3736e830bab066ce149fdfda903bd69fd89da3be96441f36cb6c1d207b69f2e2"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/schedule/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/schedule/traps.md",
+      "byteCount": 1596,
+      "sha256": "d2691d0eaa4e69a8473ea2b62478471821ba98deca3137d0089520b6e04e6fd6"
     }
   ]
 }

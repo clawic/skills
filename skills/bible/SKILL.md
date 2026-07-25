@@ -1,6 +1,13 @@
 ---
-name: Bible
+name: bible
+slug: bible
+version: 1.0.0
 description: Accurate Bible study with proper citations, cross-references, original language insights, and interpretation methodology.
+homepage: https://clawic.com/skills/bible
+metadata:
+  clawdbot:
+    emoji: 📖
+    displayName: Bible
 ---
 
 ## Citation Format (Critical)

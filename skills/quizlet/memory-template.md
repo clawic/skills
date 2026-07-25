@@ -1,6 +1,6 @@
 # Memory Template - Quizlet
 
-Create `~/quizlet/memory.md` with this structure:
+Create `~/Clawic/data/quizlet/memory.md` with this structure:
 
 ```markdown
 # Quizlet Memory

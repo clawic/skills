@@ -119,7 +119,7 @@ Build vocabulary by IELTS topic:
 
 **Spaced Repetition:**
 - Use Anki or similar for daily vocabulary review
-- Track words learned and due for review in `~/ielts/vocabulary.md`
+- Track words learned and due for review in `~/Clawic/data/ielts/vocabulary.md`
 
 ## Practice Material Sources
 

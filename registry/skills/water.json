@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "41d8f406e0893845a573e69718aa5e0b83f729f1e46f69b8f0f69baedf8e5ac0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,70 +17,94 @@
     "description": "Tracks daily water intake from casual mentions and sets hydration targets from weight, exercise, heat, and health context. Use when the user logs a drink (\"had a glass\", \"finished my bottle\"), asks how much water they should drink or whether they drink enough, reports thirst, dark urine, dry mouth, cramps, or a headache that could be dehydration, plans fluid or electrolyte replacement for workouts, races, sauna, hiking, flights, or hot weather, or needs rehydration guidance during fever, vomiting, diarrhea, or a hangover, or asks whether tap, bottled, filtered, mineral, or sparkling water is safe or better. Not for meal or calorie logging.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/water",
-    "summary": "Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` \u2014 `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared pr",
+    "summary": "Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared pr",
     "repositoryPath": "skills/water",
     "manifestPath": "registry/skills/water.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/water/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/water/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/_meta.json",
+      "byteCount": 394,
+      "sha256": "edeafd56d431651967432436c169e954996f1933523d9ec273bcdee7ee80ed25"
     },
     {
       "path": "conditions.md",
       "downloadPath": "skills/water/conditions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/conditions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/conditions.md",
+      "byteCount": 4217,
+      "sha256": "4073b199a8324e210dde674bd2ffc9d428525a58a76b3751f6e782d34278967f"
     },
     {
       "path": "electrolytes.md",
       "downloadPath": "skills/water/electrolytes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/electrolytes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/electrolytes.md",
+      "byteCount": 4277,
+      "sha256": "fda6513179c8d24cb5beee422da755295ea0788310c91978d017677346d93f71"
     },
     {
       "path": "environment.md",
       "downloadPath": "skills/water/environment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/environment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/environment.md",
+      "byteCount": 3450,
+      "sha256": "458538c0ca4e539d87b988005ea0e85061befaf9612c69ce6aabc445123f8114"
     },
     {
       "path": "exercise.md",
       "downloadPath": "skills/water/exercise.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/exercise.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/exercise.md",
+      "byteCount": 3816,
+      "sha256": "5048b79796d4ec3da11fa3f50d9718a51d622982a4b8784c7089a97bf6e16524"
     },
     {
       "path": "habits.md",
       "downloadPath": "skills/water/habits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/habits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/habits.md",
+      "byteCount": 3395,
+      "sha256": "83c438b392ca78961c9a47edb4dbca05490e9b2c00816d1b876b7a111043dac9"
     },
     {
       "path": "illness.md",
       "downloadPath": "skills/water/illness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/illness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/illness.md",
+      "byteCount": 3035,
+      "sha256": "b688db39326506cb9a521ccd4db5bc6e9db5820380b34109fde30633b2e7729b"
     },
     {
       "path": "logging.md",
       "downloadPath": "skills/water/logging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/logging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/logging.md",
+      "byteCount": 3531,
+      "sha256": "1a09e2e5d1f5f29b12f80fd16bd1830786cac948c37a372619cba1ce1f516221"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/water/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/memory-template.md",
+      "byteCount": 1975,
+      "sha256": "b376731fc51f6a67e52f5aa71a5e02052d4d9b1c797453a7d18ff60acad0b853"
     },
     {
       "path": "quality.md",
       "downloadPath": "skills/water/quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/quality.md",
+      "byteCount": 3334,
+      "sha256": "0ae96eac2ff1904e848514ba4e410ab26762d77fdf71197f91a861197b7fab69"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/water/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/setup.md",
+      "byteCount": 2044,
+      "sha256": "04f823439dae40772340b02c36c2f624b9c534a03ea0044894ba398b09d0bc29"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/water/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md",
+      "byteCount": 15292,
+      "sha256": "9f03ea9c15ef2d75934b1bdfbcad081d4a27d95c0acc05fd0b94838921ca82b3"
     }
   ]
 }

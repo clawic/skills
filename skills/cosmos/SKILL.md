@@ -1,7 +1,17 @@
 ---
-name: Cosmos
+name: cosmos
+slug: cosmos
+version: 1.0.0
 description: Assist with Cosmos ATOM transactions, IBC transfers, staking, and cross-chain ecosystem navigation.
-metadata: {"clawdbot":{"emoji":"⚛️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cosmos
+metadata:
+  clawdbot:
+    emoji: ⚛️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Cosmos
 ---
 
 ## Ecosystem Overview

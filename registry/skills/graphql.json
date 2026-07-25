@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8381d23e256f5a217259dd76c17b63e2dacd556ab22e1e683c3a67dc994e144b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "graphql",
-    "name": "GraphQL",
+    "name": "graphql",
     "description": "Design GraphQL schemas and resolvers with proper performance, security, and error handling.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/graphql",
     "summary": "Quick Reference | Topic | File | |-------|------| | Schema design patterns | `schema.md` | | Security and limits | `security.md` | | Performance optimization | `performance.md` | | Client-side patterns | `client.md` | N+",
     "repositoryPath": "skills/graphql",
     "manifestPath": "registry/skills/graphql.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/graphql/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/_meta.json",
+      "byteCount": 242,
+      "sha256": "c368c116b8f702627bca797e32c4ab66e210c10c2dfdefc3784451b5ccbd6736"
     },
     {
       "path": "client.md",
       "downloadPath": "skills/graphql/client.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/client.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/client.md",
+      "byteCount": 1769,
+      "sha256": "275ace4db41371f65c95d76d7c7d34b91f029faa760c4814967c8aa7c3d4f3f7"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/graphql/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/performance.md",
+      "byteCount": 1672,
+      "sha256": "e2541f28183344256b78a1b42ad109f504c53174eb680cc99d051641a10c442f"
     },
     {
       "path": "schema.md",
       "downloadPath": "skills/graphql/schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/schema.md",
+      "byteCount": 1745,
+      "sha256": "9b67ac59a3988bc9f5466d00a3c54ef83013c3bf1ce421de521f8eb0442683e6"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/graphql/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/security.md",
+      "byteCount": 1757,
+      "sha256": "626795c5c4b74cd008ea95d42bd3eddf4f0af9366116a797c04c321a161f1df8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/graphql/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/SKILL.md",
+      "byteCount": 4524,
+      "sha256": "411de60d961d6ccd79bbd326989164061a545d24e8c539faedf86a8dfd4beb17"
     }
   ]
 }

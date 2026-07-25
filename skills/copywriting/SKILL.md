@@ -1,10 +1,19 @@
 ---
-name: Copywriting
+name: copywriting
 slug: copywriting
 version: 1.0.0
-homepage: https://clawic.com/skills/copywriting
 description: Writes persuasive marketing copy across formats, covering tone, structure, clarity, and the discipline of selling benefits rather than features.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/copywriting
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Copywriting
 ---
 
 ## Benefits, not features
@@ -123,7 +132,7 @@ metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":[]},"os":["linux","darw
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `branding` - voice and positioning this copy expresses
 - `content-marketing` - the owned-channel strategy copy serves
 - `landing-page` - the surface where most persuasive copy is tested

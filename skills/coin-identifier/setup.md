@@ -1,6 +1,6 @@
 # Setup - Coin Identifier
 
-Read this on first activation when `~/coin-identifier/` does not exist or is incomplete.
+Read this on first activation when `~/Clawic/data/coin-identifier/` does not exist or is incomplete.
 
 ## Operating Attitude
 
@@ -43,7 +43,7 @@ Store only durable defaults that improve future work.
 
 ## What to Capture Internally
 
-Keep compact notes in `~/coin-identifier/memory.md`.
+Keep compact notes in `~/Clawic/data/coin-identifier/memory.md`.
 
 - Activation preference and proactive boundaries.
 - Storage approval and preferred response style.

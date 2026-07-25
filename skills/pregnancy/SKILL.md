@@ -1,11 +1,20 @@
 ---
-name: Pregnancy (Tracker, Journal, Triage, Visit Prep)
+name: pregnancy
 slug: pregnancy
 version: 1.0.0
-homepage: https://clawic.com/skills/pregnancy
 description: Track pregnancy routines, symptoms, and clinical signals with flexible logs, weekly summaries, and safety-first triage for medical follow-up.
+homepage: https://clawic.com/skills/pregnancy
 changelog: Initial release with flexible pregnancy tracking modules, clinician-ready weekly summaries, and safety triage guardrails.
-metadata: {"clawdbot":{"emoji":"P","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: P
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Pregnancy (Tracker, Journal, Triage, Visit Prep)
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent structures logs, keeps data clinically useful, and prepares concise summar
 
 ## Architecture
 
-Memory lives in `~/pregnancy/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/pregnancy/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/pregnancy/
+~/Clawic/data/pregnancy/
 |-- memory.md                 # Status, context, and active tracking modules
 |-- logs/daily-log.md         # Day-by-day entries with timestamps and units
 |-- summaries/weekly.md       # Weekly clinical summary and trend notes
@@ -45,7 +54,7 @@ Memory lives in `~/pregnancy/`. See `memory-template.md` for structure and start
 
 ## Data Storage
 
-Local notes stay in `~/pregnancy/`.
+Local notes stay in `~/Clawic/data/pregnancy/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -119,7 +128,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - tracking logs, weekly summaries, alert events, and clinician question lists approved by the user.
-- stored in `~/pregnancy/`.
+- stored in `~/Clawic/data/pregnancy/`.
 
 **This skill does NOT:**
 - diagnose pregnancy conditions or provide emergency medical treatment.
@@ -133,7 +142,7 @@ This is an instruction-only pregnancy tracking and visit-prep skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - general health planning and longitudinal habit support.
 - `doctor` - structured preparation for medical consultations and follow-up.
 - `symptoms` - focused symptom capture and pattern tracking workflows.
@@ -142,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star pregnancy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/pregnancy
+- Latest version: https://clawic.com/skills/pregnancy

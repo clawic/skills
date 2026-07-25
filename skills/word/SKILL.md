@@ -1,11 +1,21 @@
 ---
-name: Word
+name: word
 slug: word
 version: 1.0.0
-homepage: https://clawic.com/skills/word
 description: Control Word app sessions, documents, selections, comments, export, and review state with osascript workflows.
+homepage: https://clawic.com/skills/word
 changelog: Initial release with live Word automation patterns for sessions, selections, review actions, export, and recovery.
-metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":["osascript"]},"os":["darwin"],"configPaths":["~/word/"]}}
+metadata:
+  clawdbot:
+    emoji: 📝
+    requires:
+      bins:
+      - osascript
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/word/
+    displayName: Word
 ---
 
 ## When to Use
@@ -16,10 +26,10 @@ If the main artifact is offline DOCX creation or structural file editing, use `w
 
 ## Architecture
 
-Memory lives in `~/word/`. If `~/word/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/word/`. If `~/Clawic/data/word/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/word/
+~/Clawic/data/word/
 ├── memory.md             # Environment facts, safe defaults, and last working control path
 ├── incidents.md          # Reusable failures and proven recovery steps
 └── document-notes.md     # Non-sensitive notes about trusted documents, views, and export targets
@@ -93,7 +103,7 @@ Load only the smallest file that matches the current Word task and risk level.
 ## Security & Privacy
 
 **Data that stays local:**
-- Document paths, environment notes, and reusable fixes in `~/word/`.
+- Document paths, environment notes, and reusable fixes in `~/Clawic/data/word/`.
 - Document contents accessed through local Word automation.
 
 **Data that may leave your machine:**
@@ -107,12 +117,12 @@ Load only the smallest file that matches the current Word task and risk level.
 - Bypass Word protection prompts.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `word-docx` — Offline DOCX generation and editing when Word does not need to stay open.
 - `office` — Broader Office task routing across documents, spreadsheets, and presentations.
 - `applescript` — macOS app automation patterns when Word dictionary work needs deeper script design.
 
 ## Feedback
 
-- If useful: `clawhub star word`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/word
+- Latest version: https://clawic.com/skills/word

@@ -1,7 +1,17 @@
 ---
-name: Veterinary
+name: veterinary
+slug: veterinary
+version: 1.0.0
 description: Support veterinary understanding from pet care to clinical practice and research.
-metadata: {"clawdbot":{"emoji":"🐾","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/veterinary
+metadata:
+  clawdbot:
+    emoji: 🐾
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Veterinary
 ---
 
 ## Detect Level, Adapt Everything

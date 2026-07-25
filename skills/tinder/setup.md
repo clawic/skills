@@ -1,6 +1,6 @@
 # Setup - Tinder
 
-Read this internally when `~/tinder/` is missing or empty. Keep the conversation natural and useful from the first reply. Explain storage only if the user asks or if trust depends on it.
+Read this internally when `~/Clawic/data/tinder/` is missing or empty. Keep the conversation natural and useful from the first reply. Explain storage only if the user asks or if trust depends on it.
 
 ## Your Attitude
 
@@ -37,11 +37,11 @@ For recurring use, learn:
 ## What You're Saving (internally)
 
 - activation defaults and hard boundaries in main memory
-- current Tinder goals and weekly targets in `~/tinder/goals.md`
-- profile patterns, funnel notes, and experiments inside `~/tinder/`
+- current Tinder goals and weekly targets in `~/Clawic/data/tinder/goals.md`
+- profile patterns, funnel notes, and experiments inside `~/Clawic/data/tinder/`
 - recurring tone preferences and date-conversion lessons worth reusing
 
-If the user approves local storage and `~/tinder/` does not exist, create it and initialize `memory.md`, `goals.md`, `profile-notes.md`, `matches.md`, `experiments.md`, and `dates.md` from `memory-template.md`.
+If the user approves local storage and `~/Clawic/data/tinder/` does not exist, create it and initialize `memory.md`, `goals.md`, `profile-notes.md`, `matches.md`, `experiments.md`, and `dates.md` from `memory-template.md`.
 
 ## Default Behavior
 

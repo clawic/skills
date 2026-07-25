@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b6c4643b12443547e579dccb12e44cf990d09050f8f31bc1e97d6e4d40495338",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "s3",
-    "name": "S3",
+    "name": "s3",
     "description": "Work with S3-compatible object storage with proper security, lifecycle policies, and access patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/s3",
     "summary": "Public Access Control - Default deny public access—only open when explicitly needed (static hosting) - Bucket policy vs IAM: bucket policy for cross-account/public, IAM for same-account roles - Check both bucket-level AN",
     "repositoryPath": "skills/s3",
     "manifestPath": "registry/skills/s3.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/s3/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/s3/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/s3/_meta.json",
+      "byteCount": 156,
+      "sha256": "f299cd27b0ec5b437024199b858c008f06f0145d3d02cf566555024c1a46f41e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/s3/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/s3/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/s3/SKILL.md",
+      "byteCount": 3723,
+      "sha256": "b79799c66a980d904794190bb389965ecdf6c1a8879ba139bfa29b4f689ef2ba"
     }
   ]
 }

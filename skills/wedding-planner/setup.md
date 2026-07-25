@@ -1,6 +1,6 @@
 # Setup — Wedding Planner
 
-Read this when `~/wedding-planner/` does not exist or is empty. Start naturally. Do not lead with implementation details, but if the user approves persistent memory, be explicit that the notes stay local and exist only to reduce repeated wedding-planning work.
+Read this when `~/Clawic/data/wedding-planner/` does not exist or is empty. Start naturally. Do not lead with implementation details, but if the user approves persistent memory, be explicit that the notes stay local and exist only to reduce repeated wedding-planning work.
 
 ## Your Attitude
 

@@ -1,6 +1,6 @@
 # Memory Template — Whop
 
-Create `~/whop/memory.md` with this structure:
+Create `~/Clawic/data/whop/memory.md` with this structure:
 
 ```markdown
 # Whop Memory

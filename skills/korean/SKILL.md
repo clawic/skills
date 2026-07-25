@@ -1,6 +1,13 @@
 ---
-name: Korean
+name: korean
+slug: korean
+version: 1.0.0
 description: Write Korean that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/korean
+metadata:
+  clawdbot:
+    emoji: 🇰🇷
+    displayName: Korean
 ---
 
 ## The Real Problem

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "33792846cd80f30fe62f478b35d9eb034ddbafa9ac5accda46e10c5b4ea48a92",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "parking",
-    "name": "Parking Radar",
+    "name": "parking",
     "description": "Find, verify, and reserve parking worldwide with provider selection, live-signal triage, and local memory for favorite places and cities.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/parking",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/parking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/_meta.json",
+      "byteCount": 172,
+      "sha256": "9560a3403d12d9cfdc438c7e5c878618300804dc79a4fba43d7d87b2821bab0a"
     },
     {
       "path": "api-notes.md",
       "downloadPath": "skills/parking/api-notes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/api-notes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/api-notes.md",
+      "byteCount": 2682,
+      "sha256": "d3f27d4409c01918dc12b4fb2af82dbb0e25df36aa5593c041522a52bc829bf1"
     },
     {
       "path": "city-patterns.md",
       "downloadPath": "skills/parking/city-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/city-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/city-patterns.md",
+      "byteCount": 3530,
+      "sha256": "46fb9108d8fca83bb9ce2480a0798e0163036c16a4a557f0d9241758ed5d3a45"
     },
     {
       "path": "execution-playbook.md",
       "downloadPath": "skills/parking/execution-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/execution-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/execution-playbook.md",
+      "byteCount": 2430,
+      "sha256": "179a15a8ce0e783df4f24cb03cdaa6ab967e109ffcb67feb5be8043052834f60"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/parking/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/memory-template.md",
+      "byteCount": 2596,
+      "sha256": "4ced6ea9e1b132bd8224a3e740e204465ec5f24749676d27d3a72c3d4c813cb5"
     },
     {
       "path": "provider-registry.md",
       "downloadPath": "skills/parking/provider-registry.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/provider-registry.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/provider-registry.md",
+      "byteCount": 4077,
+      "sha256": "9db353de4346818d701a9357a7264d3c7ca9e9194885bd52f820b2f628fa43e7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/parking/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/setup.md",
+      "byteCount": 2954,
+      "sha256": "ebdd506d40c0d2e5ca3efc17f4626e57368115eeb68186cf1301833cb88f64e0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/parking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/SKILL.md",
+      "byteCount": 11121,
+      "sha256": "8a9839408a86d267c54241be5f328c82e93ebc62ae0d8f57caa6b4d06731de1a"
     },
     {
       "path": "source-ledger.md",
       "downloadPath": "skills/parking/source-ledger.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/source-ledger.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parking/source-ledger.md",
+      "byteCount": 3272,
+      "sha256": "b3468b4b9a6e087d87896e1e9d6725ddaf47004f12d534694a25648b1b56bfab"
     }
   ]
 }

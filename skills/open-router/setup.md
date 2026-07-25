@@ -1,6 +1,6 @@
 # Setup — Open Router
 
-Read this when `~/open-router/` does not exist or is empty.
+Read this when `~/Clawic/data/open-router/` does not exist or is empty.
 
 ## Your Attitude
 
@@ -34,7 +34,7 @@ Capture constraints that avoid runaway cost and unstable behavior.
 
 ## What to Capture Internally
 
-Keep compact notes in `~/open-router/memory.md`.
+Keep compact notes in `~/Clawic/data/open-router/memory.md`.
 
 - Activation boundaries and proactive behavior preferences.
 - Current routing map and fallback chain.

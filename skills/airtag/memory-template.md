@@ -1,6 +1,6 @@
 # Memory Template - AirTag
 
-Create `~/airtag/memory.md` with this structure:
+Create `~/Clawic/data/airtag/memory.md` with this structure:
 
 ```markdown
 # AirTag Memory

@@ -1,7 +1,17 @@
 ---
-name: Psychology
+name: psychology
+slug: psychology
+version: 1.0.0
 description: Navigate the mind from curiosity about behavior to clinical research.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/psychology
+metadata:
+  clawdbot:
+    emoji: 🧠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Psychology
 ---
 
 ## Detect Level, Adapt Everything

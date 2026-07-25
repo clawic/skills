@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2fb5f323b5e56850e8d63e385683bc7efa74aa1379a3f70923a3e7939f447d58",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "dutch",
-    "name": "Dutch",
+    "name": "dutch",
     "description": "Write Dutch that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dutch",
     "summary": "The Real Problem AI Dutch is technically correct but sounds off. Too formal. Too stiff. Natives write more directly, with particles and casual flow. Match that. Formality Default Default register is too high. Dutch is no",
     "repositoryPath": "skills/dutch",
     "manifestPath": "registry/skills/dutch.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dutch/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dutch/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dutch/_meta.json",
+      "byteCount": 162,
+      "sha256": "20978f36246de22494a953f6c150188190a32f7081857422bb835acdf071160a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dutch/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dutch/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dutch/SKILL.md",
+      "byteCount": 2557,
+      "sha256": "c60c345752d2be99ec914f181b0f7fb0024747b8b795e846929db67d80230837"
     }
   ]
 }

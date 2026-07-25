@@ -1,11 +1,22 @@
 ---
-name: Minecraft
+name: minecraft
 slug: minecraft
 version: 1.0.0
-homepage: https://clawic.com/skills/minecraft
 description: Plan, build, troubleshoot, and optimize Minecraft worlds, commands, redstone, mods, and servers without mixing Java and Bedrock advice.
+homepage: https://clawic.com/skills/minecraft
 changelog: Initial release with edition-aware planning, building, redstone, command, survival, and server workflows.
-metadata: {"clawdbot":{"emoji":"🧱","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/minecraft/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/minecraft/
+    displayName: Minecraft
 ---
 
 # Minecraft
@@ -26,11 +37,11 @@ Typical activation moments:
 
 ## Architecture
 
-Memory lives in `~/minecraft/`. If `~/minecraft/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/minecraft/`. If `~/Clawic/data/minecraft/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 Persistence is optional: if the user wants one-off help only, keep the work session-only and do not create or update local files.
 
 ```text
-~/minecraft/
+~/Clawic/data/minecraft/
 ├── memory.md        # edition, version, style, and activation defaults
 ├── worlds.md        # optional world seeds, key locations, and constraints
 ├── builds.md        # optional build briefs and recurring dimensions
@@ -141,7 +152,7 @@ Most bad Minecraft advice fails because it skips the gating step, not because th
 - None by default. This is an instruction-only Minecraft execution skill.
 
 **Data stored locally:**
-- Optional notes in `~/minecraft/` about edition, preferred play style, build constraints, and server context only if the user wants persistence.
+- Optional notes in `~/Clawic/data/minecraft/` about edition, preferred play style, build constraints, and server context only if the user wants persistence.
 
 **This skill does NOT:**
 - download mods, shaders, or plugins automatically
@@ -155,7 +166,7 @@ This skill provides structured Minecraft guidance and optional local note patter
 No credentials are required and no third-party services are contacted by default.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `gaming` - broader game strategy and player-facing decision support outside Minecraft-specific mechanics
 - `server` - deployment and troubleshooting patterns for dedicated server hosting
 - `home-server` - stable self-hosted infrastructure for private Minecraft servers at home
@@ -164,5 +175,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star minecraft`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/minecraft
+- Latest version: https://clawic.com/skills/minecraft

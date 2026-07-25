@@ -1,11 +1,22 @@
 ---
-name: Pilates (Session Planner, Form Coach, Progress Tracker)
+name: pilates
 slug: pilates
 version: 1.0.0
-homepage: https://clawic.com/skills/pilates
 description: Plan Pilates sessions, refine form, and track steady progress with equipment-aware modifications, core-focused cues, and weekly reviews.
+homepage: https://clawic.com/skills/pilates
 changelog: Initial release with session planning, form repair workflows, equipment-aware modifications, and weekly progression reviews.
-metadata: {"clawdbot":{"emoji":"P","requires":{"bins":[]},"os":["darwin","linux","win32"],"configPaths":["~/pilates/"]}}
+metadata:
+  clawdbot:
+    emoji: P
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/pilates/
+    displayName: Pilates (Session Planner, Form Coach, Progress Tracker)
 ---
 
 ## When to Use
@@ -15,10 +26,10 @@ Agent helps choose the right session mode, build realistic blocks, fix one form 
 
 ## Architecture
 
-Memory lives in `~/pilates/`. If `~/pilates/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/pilates/`. If `~/Clawic/data/pilates/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/pilates/
+~/Clawic/data/pilates/
 |-- memory.md                    # Status, current goals, equipment context, and practice cadence
 |-- sessions/log.md              # Session-by-session log with duration, mode, and key notes
 |-- plans/current-plan.md        # Active weekly plan and next session target
@@ -44,7 +55,7 @@ Use these files as operating modules. Load the smallest file that matches the cu
 
 ## Data Storage
 
-Local notes stay in `~/pilates/`.
+Local notes stay in `~/Clawic/data/pilates/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -125,7 +136,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - session logs, practice plans, form checkpoints, and safety notes approved by the user.
-- stored in `~/pilates/`.
+- stored in `~/Clawic/data/pilates/`.
 
 **This skill does NOT:**
 - make undeclared network calls.
@@ -140,7 +151,7 @@ This is an instruction-only Pilates practice and tracking skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - broader health context and safety-aware habit framing.
 - `fitness` - general training planning and consistency support.
 - `yoga` - adjacent breath, posture, and mobility language for crossover users.
@@ -149,5 +160,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star pilates`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/pilates
+- Latest version: https://clawic.com/skills/pilates

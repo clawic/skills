@@ -1,7 +1,17 @@
 ---
-name: Hype
+name: hype
+slug: hype
+version: 1.0.0
 description: Assist with Hyperliquid perpetuals trading, deposits, withdrawals, and L1 features.
-metadata: {"clawdbot":{"emoji":"🟢","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/hype
+metadata:
+  clawdbot:
+    emoji: 🟢
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Hype
 ---
 
 ## Deposits and Withdrawals

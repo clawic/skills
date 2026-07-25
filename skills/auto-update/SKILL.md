@@ -1,23 +1,42 @@
 ---
-name: Auto-Update (OpenClaw + Skills)
+name: auto-update
 slug: auto-update
 version: 1.0.0
-homepage: https://clawic.com/skills/auto-update
 description: Auto-update OpenClaw and skills with OpenClaw cron, per-skill defaults, backups, and migration-aware summaries.
-changelog: "Initial release with explicit openclaw cron setup, per-skill defaults, backups, migration review, and update summaries."
-metadata: {"clawdbot":{"emoji":"🔄","requires":{"bins":["openclaw","clawhub"]},"os":["linux","darwin","win32"],"configPaths":["~/auto-update/"],"configPaths.optional":["./AGENTS.md","./SOUL.md",".clawhub/lock.json","~/.openclaw/openclaw.json","~/.openclaw/workspace"]}}
+homepage: https://clawic.com/skills/auto-update
+changelog: Initial release with explicit openclaw cron setup, per-skill defaults, backups, migration review, and update summaries.
+metadata:
+  clawdbot:
+    emoji: 🔄
+    requires:
+      bins:
+      - openclaw
+      - clawic
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/auto-update/
+    configPaths.optional:
+    - ./AGENTS.md
+    - ./SOUL.md
+    - .clawic/lock.json
+    - ~/.openclaw/openclaw.json
+    - ~/.openclaw/workspace
+    displayName: Auto-Update (OpenClaw + Skills)
 ---
 
 ## When to Use
 
-Use when the user wants OpenClaw and installed skills to stay updated automatically. This skill sets up a real `openclaw cron add` job, keeps a small control folder in `~/auto-update/`, remembers which skills should auto-update, backs up important files first, reviews migration risk before skill changes, and summarizes what changed after every run.
+Use when the user wants OpenClaw and installed skills to stay updated automatically. This skill sets up a real `openclaw cron add` job, keeps a small control folder in `~/Clawic/data/auto-update/`, remembers which skills should auto-update, backs up important files first, reviews migration risk before skill changes, and summarizes what changed after every run.
 
 ## Architecture
 
-State lives in `~/auto-update/`. If `~/auto-update/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+State lives in `~/Clawic/data/auto-update/`. If `~/Clawic/data/auto-update/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/auto-update/
+~/Clawic/data/auto-update/
 ├── memory.md        # global defaults, activation, and summary preferences
 ├── openclaw.md      # OpenClaw update mode, channel, backup scope, feature-review prefs
 ├── skills.md        # per-skill policy, installed version, backup, migration state
@@ -48,7 +67,7 @@ State lives in `~/auto-update/`. If `~/auto-update/` does not exist, run `setup.
 
 The default model is simple:
 - create one OpenClaw cron job
-- let that cron job read `~/auto-update/*.md`
+- let that cron job read `~/Clawic/data/auto-update/*.md`
 - update OpenClaw and only the allowed skills
 - back up first, then summarize
 
@@ -57,8 +76,8 @@ Visible commands the user should recognize:
 ```bash
 openclaw update status --json
 openclaw update --json
-clawhub update --all --dry-run
-clawhub update --all
+npx clawic list
+npx clawic update --all
 ```
 
 Example daily job:
@@ -71,7 +90,7 @@ openclaw cron add \
   --session isolated \
   --wake now \
   --announce \
-  --message "Run the auto-update routine. Before changing anything, read ~/auto-update/memory.md, ~/auto-update/openclaw.md, ~/auto-update/skills.md, and ~/auto-update/migrations.md. Then: 1) inspect OpenClaw update status and apply OpenClaw only if openclaw.md says mode:auto 2) inspect skill updates 3) back up the approved OpenClaw files and each skill that is allowed to change 4) skip any skill marked no, pending, or ask-first 5) apply only the allowed updates 6) verify obvious health 7) write backups.md and run-log.md 8) report updated, unchanged, skipped, and failed items."
+  --message "Run the auto-update routine. Before changing anything, read ~/Clawic/data/auto-update/memory.md, ~/Clawic/data/auto-update/openclaw.md, ~/Clawic/data/auto-update/skills.md, and ~/Clawic/data/auto-update/migrations.md. Then: 1) inspect OpenClaw update status and apply OpenClaw only if openclaw.md says mode:auto 2) inspect skill updates 3) back up the approved OpenClaw files and each skill that is allowed to change 4) skip any skill marked no, pending, or ask-first 5) apply only the allowed updates 6) verify obvious health 7) write backups.md and run-log.md 8) report updated, unchanged, skipped, and failed items."
 ```
 
 Safer variant:
@@ -84,19 +103,19 @@ openclaw cron add \
   --session isolated \
   --wake now \
   --announce \
-  --message "Run the auto-update review. Read ~/auto-update/memory.md, ~/auto-update/openclaw.md, ~/auto-update/skills.md, and ~/auto-update/migrations.md. Inspect OpenClaw updates and run clawhub update --all --dry-run. Do not apply changes for any item in notify, no, pending, or ask-first mode. Report what would change, what is blocked, and which backups would be created."
+  --message "Run the auto-update review. Read ~/Clawic/data/auto-update/memory.md, ~/Clawic/data/auto-update/openclaw.md, ~/Clawic/data/auto-update/skills.md, and ~/Clawic/data/auto-update/migrations.md. Inspect OpenClaw updates and run npx clawic list plus npx clawic show <slug> for each tracked skill to see what would change. Do not apply changes for any item in notify, no, pending, or ask-first mode. Report what would change, what is blocked, and which backups would be created."
 ```
 
 ## How the Run Decides What to Do
 
 Each cron run follows the same contract:
 
-1. read `~/auto-update/memory.md`
-2. read `~/auto-update/openclaw.md`
-3. read `~/auto-update/skills.md`
-4. read `~/auto-update/migrations.md`
+1. read `~/Clawic/data/auto-update/memory.md`
+2. read `~/Clawic/data/auto-update/openclaw.md`
+3. read `~/Clawic/data/auto-update/skills.md`
+4. read `~/Clawic/data/auto-update/migrations.md`
 5. inspect `openclaw update status --json`
-6. inspect `clawhub update --all --dry-run`
+6. inspect `npx clawic list` and `npx clawic show <slug>` for each tracked skill
 7. back up allowed targets
 8. apply `openclaw update --json` only if core mode is `auto`
 9. apply skill updates only for allowed skills
@@ -117,7 +136,7 @@ If the user says "just handle it," default to Instant daily with migration quest
 ### 1. Auto-Update Means Real Scheduled Updates
 - The core promise is actual OpenClaw and skill updates, not only policy notes.
 - The default mechanism is an OpenClaw cron job created with `openclaw cron add`.
-- That cron job must read the control files in `~/auto-update/` before deciding what to update.
+- That cron job must read the control files in `~/Clawic/data/auto-update/` before deciding what to update.
 - The same scheduled flow checks, backs up, updates, verifies, and reports for both OpenClaw and skills.
 - If the user approves a daily schedule, create or update the exact scheduler entry that will run daily. Do not leave the cadence only as a note in `schedule.md`.
 
@@ -167,7 +186,7 @@ If the user says "just handle it," default to Instant daily with migration quest
 
 This skill ONLY:
 - configures real OpenClaw and skill update flows
-- keeps local defaults and per-skill decisions in `~/auto-update/`
+- keeps local defaults and per-skill decisions in `~/Clawic/data/auto-update/`
 - proposes optional install-time reminder integration for new skills
 - creates backups, migration notes, and run summaries before and after updates
 
@@ -180,7 +199,7 @@ This skill NEVER:
 
 ## Data Storage
 
-Local state lives in `~/auto-update/`:
+Local state lives in `~/Clawic/data/auto-update/`:
 
 - `memory.md` for durable defaults and activation notes
 - `openclaw.md` for core updater mode, channel, backup scope, and feature review preferences
@@ -195,26 +214,26 @@ Local state lives in `~/auto-update/`:
 | Endpoint | Data Sent | Purpose |
 |----------|-----------|---------|
 | OpenClaw update sources (website installer, npm, or git remote chosen by the user) | version and package or git requests | Update OpenClaw |
-| ClawHub registry via `clawhub update` | installed skill metadata and version requests | Check and apply skill updates |
+| Clawic catalog via `npx clawic update` | installed skill metadata and version requests | Check and apply skill updates |
 | Official OpenClaw docs or release notes | version and release-note lookups | Explain changes after update |
 
 No other data is sent externally.
 
 ## Security & Privacy
 
-- This skill stores local policy and logs in `~/auto-update/`.
-- It may read `.clawhub/lock.json`, `~/.openclaw/openclaw.json`, and workspace behavior files when needed for approved update work.
+- This skill stores local policy and logs in `~/Clawic/data/auto-update/`.
+- It may read `.clawic/lock.json`, `~/.openclaw/openclaw.json`, and workspace behavior files when needed for approved update work.
 - It backs up files before updates, but never stores secrets in its own local ledgers.
 - Scheduler changes, workspace integration, OpenClaw config edits, and risky migrations require approval unless the user has already approved that exact class of action.
 - It never modifies its own `SKILL.md`.
 
 ## Trust
 
-By using this skill, update traffic may reach OpenClaw update sources, ClawHub, npm, or the git remote chosen by the user.
+By using this skill, update traffic may reach OpenClaw update sources, the Clawic catalog, npm, or the git remote chosen by the user.
 Only install if you trust those services with update checks and package downloads.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `skill-update` - Review risky skill diffs, migrations, and rollback choices in more depth
 - `backups` - Strengthen backup and restore practices beyond the default updater snapshots
 - `heartbeat` - Pair exact-time update jobs with adaptive follow-up checks
@@ -222,5 +241,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star auto-update`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/auto-update
+- Latest version: https://clawic.com/skills/auto-update

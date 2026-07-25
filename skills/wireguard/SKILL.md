@@ -1,7 +1,20 @@
 ---
-name: WireGuard
+name: wireguard
+slug: wireguard
+version: 1.0.0
 description: Configure WireGuard VPN tunnels with secure routing and key management.
-metadata: {"clawdbot":{"emoji":"🔐","requires":{"bins":["wg"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/wireguard
+metadata:
+  clawdbot:
+    emoji: 🔐
+    requires:
+      bins:
+      - wg
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: WireGuard
 ---
 
 ## AllowedIPs Traps (Most Common Mistakes)

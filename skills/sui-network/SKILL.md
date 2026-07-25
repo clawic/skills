@@ -1,7 +1,17 @@
 ---
-name: Sui
+name: sui-network
+slug: sui-network
+version: 1.0.2
 description: Assist with SUI transactions, object model, staking, and Move smart contracts.
-metadata: {"clawdbot":{"emoji":"💧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sui-network
+metadata:
+  clawdbot:
+    emoji: 💧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sui Network
 ---
 
 ## Object Model (Critical Difference)

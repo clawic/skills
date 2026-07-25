@@ -1,10 +1,19 @@
 ---
-name: Tenerife
+name: tenerife
 slug: tenerife
 version: 1.0.0
-homepage: https://clawic.com/skills/tenerife
 description: Navigate Tenerife as visitor, resident, digital nomad, or retiree with zones, transport, costs, residency, and local insights.
-metadata: {"clawdbot":{"emoji":"🌋","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/tenerife
+metadata:
+  clawdbot:
+    emoji: 🌋
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Tenerife
 ---
 
 ## When to Use
@@ -164,7 +173,7 @@ Key things visitors/residents should know:
 See `local.md` for comprehensive settling-in guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - **dubai**: Similar comprehensive city/destination guide for expats and nomads
 - **spain-digital-nomad-visa**: Deep dive into Spain's DNV requirements and process
 - **cost-of-living-calculator**: Compare Tenerife costs with other destinations
@@ -173,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tenerife`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tenerife
+- Latest version: https://clawic.com/skills/tenerife

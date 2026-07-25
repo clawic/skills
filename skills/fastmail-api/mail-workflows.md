@@ -25,5 +25,5 @@ Use staged operations:
 Before destructive changes:
 - Confirm exact message count affected
 - Confirm target mailbox IDs
-- Snapshot request payload to `~/fastmail-api/snapshots/`
+- Snapshot request payload to `~/Clawic/data/fastmail-api/snapshots/`
 - Execute one small batch before full rollout

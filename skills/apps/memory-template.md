@@ -9,7 +9,7 @@ mkdir -p ~/apps
 
 ## memory.md Template
 
-Copy to `~/apps/memory.md`:
+Copy to `~/Clawic/data/apps/memory.md`:
 
 ```markdown
 # Apps — Preferences
@@ -33,7 +33,7 @@ Copy to `~/apps/memory.md`:
 
 ## favorites.md Template
 
-Copy to `~/apps/favorites.md`:
+Copy to `~/Clawic/data/apps/favorites.md`:
 
 ```markdown
 # Favorite Apps
@@ -69,7 +69,7 @@ Copy to `~/apps/favorites.md`:
 
 ## tried.md Template
 
-Copy to `~/apps/tried.md`:
+Copy to `~/Clawic/data/apps/tried.md`:
 
 ```markdown
 # Apps Tried
@@ -88,7 +88,7 @@ Copy to `~/apps/tried.md`:
 
 ## wishlist.md Template
 
-Copy to `~/apps/wishlist.md`:
+Copy to `~/Clawic/data/apps/wishlist.md`:
 
 ```markdown
 # Apps to Try

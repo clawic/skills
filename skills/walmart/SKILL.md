@@ -1,11 +1,22 @@
 ---
-name: Walmart
+name: walmart
 slug: walmart
 version: 1.0.1
-homepage: https://clawic.com/skills/walmart
 description: Plan Walmart grocery and household orders with pickup timing, substitutions, repeat restocks, and budget-aware cart decisions.
+homepage: https://clawic.com/skills/walmart
 changelog: Added automation paths for browser-driven ordering, reorder workflows, live shopper coordination, and official Marketplace API boundaries.
-metadata: {"clawdbot":{"emoji":"W","requires":{"bins":[]},"os":["darwin","linux","win32"],"configPaths":["~/walmart/"]}}
+metadata:
+  clawdbot:
+    emoji: W
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/walmart/
+    displayName: Walmart
 ---
 
 ## Setup
@@ -18,10 +29,10 @@ Use this skill when the user is shopping at Walmart and needs more than generic 
 
 ## Architecture
 
-Memory lives in `~/walmart/`. If `~/walmart/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/walmart/`. If `~/Clawic/data/walmart/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/walmart/
+~/Clawic/data/walmart/
 |-- memory.md           # Household profile, store preferences, and substitution rules
 |-- weekly-cart.md      # Current basket with must-have vs optional items
 |-- order-log.md        # Prior orders, missing items, and substitution outcomes
@@ -47,7 +58,7 @@ Use the smallest relevant file for the current task.
 
 - For live ordering or account support: access to the user's Walmart site or app session
 - For browser automation: a user-approved browser session and, only if the user wants apply mode, a user-provided browser automation runtime such as Playwright
-- For repeat planning: permission to keep local notes in `~/walmart/`
+- For repeat planning: permission to keep local notes in `~/Clawic/data/walmart/`
 - For pharmacy-related tasks: explicit user confirmation before any refill or account change workflow
 
 Never ask the user to paste passwords, payment credentials, insurance details, or prescription identifiers into chat.
@@ -87,7 +98,7 @@ Use `automation-paths.md` before attempting any applied workflow.
 - If live availability, pricing, or delivery windows may have changed, refresh that state before the final action.
 
 ### 7. Learn Only the Household Rules That Improve Repeat Orders
-- Store only approved local notes in `~/walmart/`: store choice, pack size preferences, restock cadence, and substitution boundaries.
+- Store only approved local notes in `~/Clawic/data/walmart/`: store choice, pack size preferences, restock cadence, and substitution boundaries.
 - Never store payment data, login secrets, insurance information, or detailed medical data.
 
 ### 8. Prefer Stable Walmart Surfaces for Automation
@@ -105,7 +116,7 @@ Use `automation-paths.md` before attempting any applied workflow.
 
 ## Data Storage
 
-Keep local notes only in `~/walmart/`:
+Keep local notes only in `~/Clawic/data/walmart/`:
 - household preferences, preferred store, and order-mode defaults
 - repeat staple lists and reorder thresholds
 - prior substitution outcomes and order recovery notes
@@ -129,7 +140,7 @@ Data that leaves your machine:
 - only the Walmart requests required for browsing, cart review, order management, or pharmacy workflows that the user explicitly asked for
 
 Data that stays local:
-- household notes and approved workflow preferences in `~/walmart/`
+- household notes and approved workflow preferences in `~/Clawic/data/walmart/`
 - order recovery history and substitution guardrails
 
 This skill does NOT:
@@ -145,7 +156,7 @@ This skill relies on Walmart services for live browsing, ordering, and pharmacy 
 Only install and run it if you trust Walmart with the order and account data you choose to use there.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `shopping` - Broader shopping judgment for product research and purchase decisions outside Walmart.
 - `price` - Deeper price timing, manipulation detection, and fair-value analysis.
 - `meal-planner` - Weekly meal planning that can feed directly into Walmart grocery baskets.
@@ -154,5 +165,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star walmart`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/walmart
+- Latest version: https://clawic.com/skills/walmart

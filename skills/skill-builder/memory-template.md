@@ -1,6 +1,6 @@
 # Memory Template — Skill Builder / Creator
 
-**Optional:** If user wants to track projects, they can create `~/skill-builder/projects.md`.
+**Optional:** If user wants to track projects, they can create `~/Clawic/data/skill-builder/projects.md`.
 
 Ask user before creating any files. Template:
 

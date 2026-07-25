@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "15dfeb308cb3e85174d2f80a35f6d21e90097bd3e0bb30787cab41ba1c37cbe0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "play-store",
-    "name": "Google Play Store",
+    "name": "play-store",
     "description": "Publish and optimize Android apps on Google Play with listing optimization, ASO keywords, and policy compliance.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/play-store",
     "summary": "When to Use User needs to prepare, publish, or optimize an Android app for Google Play. Agent handles listing content, screenshots specs, ASO strategy, policy checks, and release planning. Quick Reference | Topic | File ",
     "repositoryPath": "skills/play-store",
     "manifestPath": "registry/skills/play-store.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/play-store/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/_meta.json",
+      "byteCount": 179,
+      "sha256": "16ca72c506f755c392a346985e7a76103ef3ad3d34afe49947a9baca50a58296"
     },
     {
       "path": "aso.md",
       "downloadPath": "skills/play-store/aso.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/aso.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/aso.md",
+      "byteCount": 2580,
+      "sha256": "01f2e8f179e076fe4efd81c8183adc0024d6103a4841e685ecebf50b35347cb0"
     },
     {
       "path": "listing.md",
       "downloadPath": "skills/play-store/listing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/listing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/listing.md",
+      "byteCount": 2059,
+      "sha256": "d96861b04a07b6091241254e59dc9d7f65d1b6c89086e1879d7c943053d658be"
     },
     {
       "path": "policies.md",
       "downloadPath": "skills/play-store/policies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/policies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/policies.md",
+      "byteCount": 2763,
+      "sha256": "009ebdc3e79c6a6e125b03d91a09567dc717be15b428a5f8de5a6e884b5030c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/play-store/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/play-store/SKILL.md",
+      "byteCount": 3690,
+      "sha256": "4c7c15663fbc4e88ea2d0891ea94b292f7a38e1013b1de8e4a09721f4e0e732b"
     }
   ]
 }

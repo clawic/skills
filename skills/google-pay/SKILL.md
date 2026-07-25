@@ -1,11 +1,24 @@
 ---
-name: Google Pay
+name: google-pay
 slug: google-pay
 version: 1.0.0
-homepage: https://clawic.com/skills/google-pay
 description: Implement Google Pay for web and Android with tokenization safety, gateway alignment, and production-ready checkout operations.
+homepage: https://clawic.com/skills/google-pay
 changelog: Initial release with implementation, validation, launch, and incident response playbooks for Google Pay.
-metadata: {"clawdbot":{"emoji":"💳","requires":{"bins":["curl","jq"],"env":["GOOGLE_PAY_MERCHANT_ID"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💳
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - GOOGLE_PAY_MERCHANT_ID
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Google Pay
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User needs Google Pay in checkout, subscriptions, or wallet-first conversion flo
 
 ## Architecture
 
-Memory lives in `~/google-pay/`. See `memory-template.md` for setup and status fields.
+Memory lives in `~/Clawic/data/google-pay/`. See `memory-template.md` for setup and status fields.
 
 ```
-~/google-pay/
+~/Clawic/data/google-pay/
 |-- memory.md                 # Project snapshot, risk status, and rollout state
 |-- implementations.md        # Selected approach and platform notes
 |-- validation-log.md         # Test evidence and environment results
@@ -52,7 +65,7 @@ Never ask users to paste private keys, full token payloads, or PSP secrets into 
 
 ## Data Storage
 
-Local notes stay under `~/google-pay/`:
+Local notes stay under `~/Clawic/data/google-pay/`:
 - memory file for current state and integration decisions
 - validation log file for test outcomes and evidence
 - incidents file for failure signatures and mitigations
@@ -144,7 +157,7 @@ Data that leaves your machine:
 - Payment token payloads sent to configured PSP or backend
 
 Data that stays local:
-- Integration notes and rollout state under `~/google-pay/`
+- Integration notes and rollout state under `~/Clawic/data/google-pay/`
 - Validation evidence and failure logs without raw token payloads
 
 This skill does NOT:
@@ -158,7 +171,7 @@ Google Pay integrations depend on Google infrastructure and the chosen PSP.
 Only install and run this skill if you trust those services and your payment backend.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `payments` - General payment design and checkout decision frameworks
 - `android` - Android implementation and runtime troubleshooting patterns
 - `billing` - Billing models, reconciliation, and payment lifecycle decisions
@@ -167,5 +180,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star google-pay`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/google-pay
+- Latest version: https://clawic.com/skills/google-pay

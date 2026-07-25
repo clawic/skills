@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3254d71629f7a5778af30628a6509e9e945a1dfcac07a236032a0199190978a2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "find",
-    "name": "Find",
+    "name": "find",
     "description": "Locate anything with progressive search expansion, multi-source validation, and iterative refinement until found.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/find",
     "summary": "Pattern ``` Need → Clarify → Search → Validate → [Found? Deliver : Expand] ``` Keep searching until found or exhausted. Start narrow, expand progressively. Validate before delivering. When to Use - User needs to find som",
     "repositoryPath": "skills/find",
     "manifestPath": "registry/skills/find.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/find/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/find/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/find/_meta.json",
+      "byteCount": 160,
+      "sha256": "dcf985a112a3adaabcae6cf6743606377d87f65f0dcefa4ed97a2b8523801ed0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/find/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/find/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/find/SKILL.md",
+      "byteCount": 2095,
+      "sha256": "a950a92e58aedf2d73d066efc71532171418a9ac122bcb829a87c1b2a98ac9e8"
     }
   ]
 }

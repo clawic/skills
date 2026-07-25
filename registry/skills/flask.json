@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1b219dd45f84ac6a6585910cfc597850ed5b8670734c480729fb09b65e684704",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "flask",
-    "name": "Flask",
+    "name": "flask",
     "description": "Avoid common Flask mistakes — context errors, circular imports, session configuration, and production gotchas.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/flask",
     "summary": "Application Context - `current_app` only works inside request or with `app.app_context()` — \"working outside application context\" error - `g` is per-request storage — lost after request ends, use for db connections - Bac",
     "repositoryPath": "skills/flask",
     "manifestPath": "registry/skills/flask.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/flask/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flask/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flask/_meta.json",
+      "byteCount": 162,
+      "sha256": "6746feb1625041abc363276836f005fb7b60cfdd3eee236c2338e481052d3281"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/flask/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flask/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flask/SKILL.md",
+      "byteCount": 3060,
+      "sha256": "cbe371c66fbdd6a7d4eb54f85141e210240853ea404f64962971beb4d18e1e5e"
     }
   ]
 }

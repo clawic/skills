@@ -1,11 +1,24 @@
 ---
-name: Wedding Planner
+name: wedding-planner
 slug: wedding-planner
 version: 1.0.0
+description: Plan weddings with budget guardrails, guest-list scenarios, vendor scorecards, payment tracking, and deadline-driven coordination.
 homepage: https://clawic.com/skills/wedding-planner
-description: "Plan weddings with budget guardrails, guest-list scenarios, vendor scorecards, payment tracking, and deadline-driven coordination."
-changelog: "Initial release with a complete wedding-planning system for budget, vendors, guests, timeline, and decision tracking."
-metadata: {"clawdbot":{"emoji":"💍","requires":{"bins":[],"config":["~/wedding-planner/"]},"os":["linux","darwin","win32"],"configPaths":["~/wedding-planner/"]}}
+changelog: Initial release with a complete wedding-planning system for budget, vendors, guests, timeline, and decision tracking.
+metadata:
+  clawdbot:
+    emoji: 💍
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/wedding-planner/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/wedding-planner/
+    displayName: Wedding Planner
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill is for real operational planning, not just ideas. It helps couples, f
 
 ## Architecture
 
-Memory lives in `~/wedding-planner/`. If `~/wedding-planner/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/wedding-planner/`. If `~/Clawic/data/wedding-planner/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/wedding-planner/
+~/Clawic/data/wedding-planner/
 ├── memory.md                         # Activation rules, planning style, and active wedding context
 ├── weddings/
 │   └── {event}/
@@ -115,19 +128,19 @@ These are the failure modes most likely to create budget drift, deadline stress,
 
 This skill ONLY:
 - helps plan weddings through local notes, timelines, and decision systems
-- organizes budget, guest, vendor, and coordination information in `~/wedding-planner/`
+- organizes budget, guest, vendor, and coordination information in `~/Clawic/data/wedding-planner/`
 - turns ambiguous wedding choices into structured trade-offs and next actions
 
 This skill NEVER:
 - sign contracts, place deposits, or communicate with vendors on its own
 - promise etiquette or legal advice is universal across cultures or jurisdictions
 - store payment credentials or full contract documents in durable notes by default
-- read files outside `~/wedding-planner/` for its memory
+- read files outside `~/Clawic/data/wedding-planner/` for its memory
 - modify its own `SKILL.md`
 
 ## Data Storage
 
-Local state lives in `~/wedding-planner/`:
+Local state lives in `~/Clawic/data/wedding-planner/`:
 
 - the memory file for activation rules, planning style, and active wedding status
 - `weddings/{event}/overview.md` for priorities, stage, and wedding shape
@@ -155,7 +168,7 @@ This skill does NOT:
 - claim etiquette rules are universal when they are culture-specific
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `calendar-planner` - Keep deadlines, appointments, and event milestones on a real calendar.
 - `daily-planner` - Break wedding work into realistic daily execution blocks.
 - `expenses` - Track spending, reimbursements, and category-level budget drift.
@@ -164,5 +177,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star wedding-planner`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/wedding-planner
+- Latest version: https://clawic.com/skills/wedding-planner

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "da9754d23807e830b9e6901da4db798c9f26b776f3b489e50d32e0789a06b2f6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "wiki-js",
-    "name": "Wiki.js",
+    "name": "wiki-js",
     "description": "Deploy and manage Wiki.js documentation sites avoiding common configuration traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wiki-js",
     "summary": "Critical Initial Config - Site URL must be correct from first setup — changing later breaks all internal links, no easy fix - PostgreSQL over SQLite for any multi-user setup — SQLite locks under concurrent writes - HTTPS",
     "repositoryPath": "skills/wiki-js",
     "manifestPath": "registry/skills/wiki-js.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wiki-js/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki-js/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki-js/_meta.json",
+      "byteCount": 166,
+      "sha256": "d356047c11747a085d3d672bbe2bc7cb00d3b60df393fdadea7ee8af1d3b5019"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wiki-js/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki-js/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki-js/SKILL.md",
+      "byteCount": 2169,
+      "sha256": "c06ce9ad2f6f2fd0bdb1174c399ebc27f2de5ce68cb0db25ca670d3699ff48fa"
     }
   ]
 }

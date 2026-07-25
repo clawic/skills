@@ -1,11 +1,20 @@
 ---
-name: Frontend Design
+name: frontend
 slug: frontend
-version: "1.0.2"
-homepage: https://clawic.com/skills/frontend
+version: 1.0.2
 description: Frontend development with React, Next.js, Tailwind CSS. Build landing pages, dashboards, forms, components. Responsive, accessible, performant UI.
-changelog: "Renamed to better reflect design-focused capabilities and guidance."
-metadata: {"clawdbot":{"emoji":"🖥️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/frontend
+changelog: Renamed to better reflect design-focused capabilities and guidance.
+metadata:
+  clawdbot:
+    emoji: 🖥️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Frontend Design
 ---
 
 ## When to Use
@@ -95,5 +104,5 @@ This skill is read-only guidance. No data is collected, sent, or stored.
 
 ## Feedback
 
-- If useful: `clawhub star frontend`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/frontend
+- Latest version: https://clawic.com/skills/frontend

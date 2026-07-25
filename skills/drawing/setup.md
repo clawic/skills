@@ -1,6 +1,6 @@
 # Setup — Drawing
 
-Read this silently when `~/drawing/` does not exist or is empty. Start naturally and never mention setup, file names, or paths.
+Read this silently when `~/Clawic/data/drawing/` does not exist or is empty. Start naturally and never mention setup, file names, or paths.
 
 ## Your Attitude
 

@@ -1,16 +1,26 @@
 ---
-name: Chat
+name: chat
 slug: chat
 version: 1.1.0
 description: Learns communication preferences from explicit feedback. Adapts tone, format, and style.
+homepage: https://clawic.com/skills/chat
 changelog: Preferences now persist in external memory instead of self-modifying SKILL.md
-metadata: {"clawdbot":{"emoji":"💬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Chat
 ---
 
 ## Data Storage
 
 ```
-~/chat/
+~/Clawic/data/chat/
 ├── memory.md       # Confirmed preferences (≤50 lines)
 ├── experiments.md  # Testing patterns (not yet confirmed)
 └── rejected.md     # User said no, don't re-propose
@@ -22,7 +32,7 @@ Create on first use: `mkdir -p ~/chat`
 
 This skill:
 - ✅ Learns preferences from explicit user corrections
-- ✅ Stores patterns in ~/chat/memory.md
+- ✅ Stores patterns in ~/Clawic/data/chat/memory.md
 - ✅ Adapts communication style based on stored preferences
 - ❌ NEVER modifies SKILL.md
 - ❌ NEVER infers from silence or observation
@@ -67,6 +77,6 @@ One line per preference in memory.md:
 - Never override confirmed preference without explicit instruction
 
 ### 5. Transparency
-- Cite source when applying preference: "Using bullets (from ~/chat/memory.md)"
+- Cite source when applying preference: "Using bullets (from ~/Clawic/data/chat/memory.md)"
 - On request, show full memory.md contents
 - "Forget X" removes from all files

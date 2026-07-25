@@ -1,6 +1,6 @@
 # Memory Template - Render Deploy
 
-Create `~/render-deploy/memory.md` with this structure:
+Create `~/Clawic/data/render-deploy/memory.md` with this structure:
 
 ```markdown
 # Render Deploy Memory
@@ -31,7 +31,7 @@ integration: pending
 
 ## deployment-notes.md Template
 
-Create `~/render-deploy/deployment-notes.md`:
+Create `~/Clawic/data/render-deploy/deployment-notes.md`:
 
 ```markdown
 # Deployment Notes
@@ -48,7 +48,7 @@ Summary: ...
 
 ## env-inventory.md Template
 
-Create `~/render-deploy/env-inventory.md`:
+Create `~/Clawic/data/render-deploy/env-inventory.md`:
 
 ```markdown
 # Environment Inventory
@@ -61,7 +61,7 @@ Create `~/render-deploy/env-inventory.md`:
 
 ## incident-log.md Template
 
-Create `~/render-deploy/incident-log.md`:
+Create `~/Clawic/data/render-deploy/incident-log.md`:
 
 ```markdown
 # Incident Log

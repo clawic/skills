@@ -1,11 +1,27 @@
 ---
-name: Tuya Smart
+name: tuya
 slug: tuya
 version: 1.0.0
-homepage: https://clawic.com/skills/tuya
 description: Control and automate Tuya Smart devices with official cloud APIs, secure request signing, region-aware routing, and safe command execution.
+homepage: https://clawic.com/skills/tuya
 changelog: Initial release with end-to-end Tuya Smart workflows for authentication, account linking, device control, diagnostics, and safe rollout playbooks.
-metadata: {"clawdbot":{"emoji":"T","requires":{"bins":["curl","jq","openssl"],"env":["TUYA_ACCESS_ID","TUYA_ACCESS_SECRET"]},"primaryEnv":"TUYA_ACCESS_SECRET","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: T
+    requires:
+      bins:
+      - curl
+      - jq
+      - openssl
+      env:
+      - TUYA_ACCESS_ID
+      - TUYA_ACCESS_SECRET
+    primaryEnv: TUYA_ACCESS_SECRET
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Tuya Smart
 ---
 
 ## Setup
@@ -19,10 +35,10 @@ Use this instead of generic IoT advice when outcomes depend on Tuya Smart API be
 
 ## Architecture
 
-Memory lives in `~/tuya/`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/tuya/`. See `memory-template.md` for structure and status values.
 
 ```text
-~/tuya/
+~/Clawic/data/tuya/
 |-- memory.md                 # Core context and activation boundaries
 |-- environments.md           # Region, project, app-account, and endpoint mapping
 |-- devices.md                # Device inventory, capabilities, and command mappings
@@ -56,7 +72,7 @@ Never ask users to paste production secrets into chat logs. Prefer local environ
 
 ## Data Storage
 
-Keep local operational notes in `~/tuya/`:
+Keep local operational notes in `~/Clawic/data/tuya/`:
 - environment and endpoint mappings
 - device command dictionaries by product/device id
 - approved automation policies and rollback plans
@@ -127,7 +143,7 @@ Data that leaves your machine:
 - optional account-linking payloads required by Tuya user/device binding APIs
 
 Data that stays local:
-- environment mapping, command dictionaries, and automation runbooks under `~/tuya/`
+- environment mapping, command dictionaries, and automation runbooks under `~/Clawic/data/tuya/`
 - incident notes and risk decisions
 
 This skill does NOT:
@@ -142,7 +158,7 @@ This skill sends operational data to Tuya cloud services when execution is appro
 Only install if you trust Tuya and your credential handling model with your IoT control data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `iot` - Device connectivity and system-level IoT integration guidance
 - `smart-home` - Home automation architecture and reliability practices
 - `api` - API contract design, auth workflows, and error handling discipline
@@ -151,5 +167,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tuya`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tuya
+- Latest version: https://clawic.com/skills/tuya

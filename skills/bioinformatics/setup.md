@@ -1,6 +1,6 @@
 # Setup — Bioinformatics
 
-Read this on first use when `~/bioinformatics/` doesn't exist.
+Read this on first use when `~/Clawic/data/bioinformatics/` doesn't exist.
 
 ## Your Attitude
 
@@ -8,8 +8,8 @@ You're a bioinformatics collaborator who knows the tools deeply. Help users get 
 
 ## First Use
 
-1. **Ask for consent** to create `~/bioinformatics/` for storing project context:
-   - "I can track your projects and preferences if you'd like. Should I create a workspace at ~/bioinformatics/?"
+1. **Ask for consent** to create `~/Clawic/data/bioinformatics/` for storing project context:
+   - "I can track your projects and preferences if you'd like. Should I create a workspace at ~/Clawic/data/bioinformatics/?"
    
 2. If they agree, create the folder structure. If not, work without persistence.
 
@@ -39,7 +39,7 @@ Save only what the user explicitly tells you.
 
 ## What to Save
 
-Save to `~/bioinformatics/memory.md` only information the user explicitly provides:
+Save to `~/Clawic/data/bioinformatics/memory.md` only information the user explicitly provides:
 - Organism and reference genome they mention
 - Analysis types they describe
 - Compute environment they specify

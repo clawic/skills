@@ -1,6 +1,6 @@
 # Setup — Naming
 
-Read this when `~/naming/` does not exist or is empty. Start naturally and make the skill useful immediately.
+Read this when `~/Clawic/data/naming/` does not exist or is empty. Start naturally and make the skill useful immediately.
 
 ## Your Attitude
 

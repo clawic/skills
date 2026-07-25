@@ -1,7 +1,17 @@
 ---
-name: IoT
+name: iot
+slug: iot
+version: 1.0.0
 description: Assist with IoT device setup, protocols, security hardening, and home automation integration.
-metadata: {"clawdbot":{"emoji":"📡","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/iot
+metadata:
+  clawdbot:
+    emoji: 📡
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: IoT
 ---
 
 ## Protocol Selection

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1777a116ebfa425ec83322becd10766ad049c63fb558e624f18e7ad07d65ec4b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "music-generation",
-    "name": "Music Generation",
+    "name": "music-generation",
     "description": "Generate AI music with optimized prompts, style control, and production-ready audio output.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/music-generation",
     "summary": "AI Music Generation Help users create AI-generated music and audio. **Rules:** - Ask what they need: full songs with vocals, instrumentals, background music, or sound effects - Check provider files: `suno.md`, `udio.md`,",
     "repositoryPath": "skills/music-generation",
     "manifestPath": "registry/skills/music-generation.json"
@@ -20,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/music-generation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/_meta.json",
+      "byteCount": 184,
+      "sha256": "1bdc22a5a8d89fc53aecbde0addfdd6447c53b52d39636b41755f8d3fd8157ea"
     },
     {
       "path": "mubert.md",
       "downloadPath": "skills/music-generation/mubert.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/mubert.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/mubert.md",
+      "byteCount": 2609,
+      "sha256": "810664c3051d08efbddc476b70826ec5217fe07be620398583209c73f32eb8a4"
     },
     {
       "path": "musicgen.md",
       "downloadPath": "skills/music-generation/musicgen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/musicgen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/musicgen.md",
+      "byteCount": 2919,
+      "sha256": "537f00505dbaa320bfca9be347f5e601e2244984479b5fbf7cfa14971fe70865"
     },
     {
       "path": "prompting.md",
       "downloadPath": "skills/music-generation/prompting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/prompting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/prompting.md",
+      "byteCount": 3579,
+      "sha256": "30c26fce151f8f0e6a679c480263ea015dad8956b9571e469b3d9e06541d044a"
     },
     {
       "path": "replicate.md",
       "downloadPath": "skills/music-generation/replicate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/replicate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/replicate.md",
+      "byteCount": 2830,
+      "sha256": "6e30f933eb5b632fbfe5d8fa2c54be7cf8cb0ab9f84ff94b8dd1b42e894dda02"
     },
     {
       "path": "riffusion.md",
       "downloadPath": "skills/music-generation/riffusion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/riffusion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/riffusion.md",
+      "byteCount": 2342,
+      "sha256": "4ca943db741dc42c0dfe1b077b35637db2790f33293f1af8e2a05cfa5903bb11"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/music-generation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/SKILL.md",
+      "byteCount": 3301,
+      "sha256": "4a49c4228d9fb5bdc9f7dbc6b13e49905dd9d7e2de548ea38206d308fe8aadef"
     },
     {
       "path": "soundraw.md",
       "downloadPath": "skills/music-generation/soundraw.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/soundraw.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/soundraw.md",
+      "byteCount": 2363,
+      "sha256": "86f9f1b7b15121110adad1d69fb9d8ce890b201d6ee89c275a119149e59a0452"
     },
     {
       "path": "stable-audio.md",
       "downloadPath": "skills/music-generation/stable-audio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/stable-audio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/stable-audio.md",
+      "byteCount": 2966,
+      "sha256": "10984edcb2e6439c27fad6e287412b19f177fa292ed85671d656d67bfa19e3c9"
     },
     {
       "path": "suno.md",
       "downloadPath": "skills/music-generation/suno.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/suno.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/suno.md",
+      "byteCount": 2173,
+      "sha256": "d5b4f6318ad6dfe5ee98dcc7ee393a11502d8d06ed3acd8bdbc54d5c9e1430bc"
     },
     {
       "path": "udio.md",
       "downloadPath": "skills/music-generation/udio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/udio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/music-generation/udio.md",
+      "byteCount": 2101,
+      "sha256": "ed4224373034d2696647b631eef9dbf6a3060fc2ac9269547dda1bf8bc1028d4"
     }
   ]
 }

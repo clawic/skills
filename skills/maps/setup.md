@@ -1,6 +1,6 @@
 # Setup - Maps
 
-Use this file when `~/maps/` is missing or empty.
+Use this file when `~/Clawic/data/maps/` is missing or empty.
 Keep onboarding short and centered on the real map task in front of you.
 
 ## Operating Posture

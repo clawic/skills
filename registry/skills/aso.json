@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "30a5bf377f364b1c49003294d7ded9bd2abcba59a23699cc324b6476f3baf557",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "aso",
-    "name": "ASO",
+    "name": "aso",
     "description": "Optimize app store listings with keyword research, A/B testing, and conversion tactics for iOS and Android.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/aso",
     "summary": "App Store Optimization Rules Keyword Research - Competitor analysis: what keywords do top apps rank for? - Search volume vs difficulty: long-tail converts better than head terms - Seasonal keywords: plan metadata updates",
     "repositoryPath": "skills/aso",
     "manifestPath": "registry/skills/aso.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/aso/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aso/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aso/_meta.json",
+      "byteCount": 158,
+      "sha256": "2c6ed2bdda1535e868589fa5c95955ce7918c005ef0b31b673a66210715d28ee"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/aso/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aso/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aso/SKILL.md",
+      "byteCount": 3590,
+      "sha256": "a8e5f7a5ef709f6117ad0788adee6e96a7ee470fccdabba579b574f6e905f08a"
     }
   ]
 }

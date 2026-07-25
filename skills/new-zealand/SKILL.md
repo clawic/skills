@@ -1,16 +1,27 @@
 ---
-name: New Zealand
+name: new-zealand
 slug: new-zealand
 version: 1.0.0
-homepage: https://clawic.com/skills/new-zealand
-changelog: "Initial release with island-aware routing, practical transport guidance, and deep New Zealand travel playbooks."
 description: Discover New Zealand with island-aware routing, practical road-trip logistics, outdoor safety, and local food and region guidance.
-metadata: {"clawdbot":{"emoji":"🇳🇿","requires":{"bins":[],"config":["~/new-zealand/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/new-zealand
+changelog: Initial release with island-aware routing, practical transport guidance, and deep New Zealand travel playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇳🇿
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/new-zealand/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: New Zealand
 ---
 
 ## Setup
 
-If `~/new-zealand/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/new-zealand/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to New Zealand or asking for local insights: which island t
 
 ## Architecture
 
-Memory lives in `~/new-zealand/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/new-zealand/`. See `memory-template.md` for structure.
 
 ```text
-~/new-zealand/
+~/Clawic/data/new-zealand/
 └── memory.md     # Trip context
 ```
 
@@ -120,12 +131,12 @@ Do not say "see fjords and wineries." Say "base in Te Anau for Fiordland, book t
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/new-zealand/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/new-zealand/`
 
-**This skill does NOT:** Access files outside `~/new-zealand/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/new-zealand/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structuring
 - `booking` — Reservation and timing support workflows
 - `car-rental` — Better self-drive planning and handoff logistics
@@ -134,5 +145,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star new-zealand`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/new-zealand
+- Latest version: https://clawic.com/skills/new-zealand

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b38667aec7fb7b34b0eccc6b787ee32ac3c57a48166e4c57cab4c297de33564d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "yaml",
-    "name": "YAML",
+    "name": "yaml",
     "description": "Write valid YAML that parses predictably across languages and versions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/yaml",
     "summary": "Type Coercion Traps - `yes`, `no`, `on`, `off`, `true`, `false` → boolean; quote if literal string: `\"yes\"` - `NO` (Norway country code) → false in YAML 1.1; always quote country codes - `1.0` → float, `1` → int; quote v",
     "repositoryPath": "skills/yaml",
     "manifestPath": "registry/skills/yaml.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/yaml/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/_meta.json",
+      "byteCount": 160,
+      "sha256": "5c2b9677e49246602b750fb5f837576d6952bfdc1b3b5a6ceafef34bdd84d55c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/yaml/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/SKILL.md",
+      "byteCount": 2447,
+      "sha256": "128692af851c0a111a80f0475235b7ecee1a59faa53b517aed12ab53438d48ba"
     }
   ]
 }

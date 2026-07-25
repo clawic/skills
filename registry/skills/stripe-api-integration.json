@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "75ea0c6197df5c5af5e6bbf2b627bbed78900ed9c5ec386f26187bf1f65de6bc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "stripe-api-integration",
-    "name": "Stripe API Integration",
+    "name": "stripe-api-integration",
     "description": "Complete Stripe API integration for payments, subscriptions, checkout, invoices, webhooks, Connect, Issuing, Terminal, and Treasury.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/stripe-api-integration",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/stripe-api-integration/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/_meta.json",
+      "byteCount": 196,
+      "sha256": "35b6980d8e1814c6e3dd5a81e048f7c17ca039975764608164e45f14d0ace7e2"
     },
     {
       "path": "advanced.md",
       "downloadPath": "skills/stripe-api-integration/advanced.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/advanced.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/advanced.md",
+      "byteCount": 7385,
+      "sha256": "d1becae9471f512f448c899dcaa77e0da66eef0a058850cfc43d8c612b3e9309"
     },
     {
       "path": "checkout.md",
       "downloadPath": "skills/stripe-api-integration/checkout.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/checkout.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/checkout.md",
+      "byteCount": 5583,
+      "sha256": "12a8a4e9495b197ef7408a7d55eb77f66e88f9e43d8c16fd8aac2260f8aff89c"
     },
     {
       "path": "connect.md",
       "downloadPath": "skills/stripe-api-integration/connect.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/connect.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/connect.md",
+      "byteCount": 5845,
+      "sha256": "02d1456f85ef6d3b8225c33f64bc52ff3f35288c6858bd79595b87087b4f47d1"
     },
     {
       "path": "customers.md",
       "downloadPath": "skills/stripe-api-integration/customers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/customers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/customers.md",
+      "byteCount": 2842,
+      "sha256": "aca5c01cffc16e257a00f83ef18268b746799760e6985e7aa0a4dcfdd0af423b"
     },
     {
       "path": "invoices.md",
       "downloadPath": "skills/stripe-api-integration/invoices.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/invoices.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/invoices.md",
+      "byteCount": 4282,
+      "sha256": "3df100de0b8e71b5c650180185d0071fa44c64efe8d66adbc7ac80bc6442259a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/stripe-api-integration/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/memory-template.md",
+      "byteCount": 1456,
+      "sha256": "1b12aea256819c3e85d8b8bbdb20bb52d42b95699ddc2ddb727051934e65a261"
     },
     {
       "path": "payments.md",
       "downloadPath": "skills/stripe-api-integration/payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/payments.md",
+      "byteCount": 3518,
+      "sha256": "7fc60a8ee40712f3d79f21a5a84f9884eef09fc952efe910ddea94e926161a9e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/stripe-api-integration/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/setup.md",
+      "byteCount": 1206,
+      "sha256": "998b8a4f36e34ae347bf3426f33d69a4b6f51d25dfd8411349b9e60f74bc66cd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/stripe-api-integration/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/SKILL.md",
+      "byteCount": 3638,
+      "sha256": "929b8d12095dd177aead55d463f2c19f594c48e3dbc2ac7f6e788a49c90869f0"
     },
     {
       "path": "subscriptions.md",
       "downloadPath": "skills/stripe-api-integration/subscriptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/subscriptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/subscriptions.md",
+      "byteCount": 6564,
+      "sha256": "e3c4fabad0568342ad416056a6639b2449c514ba9fa0bbb5d03ec4561600e5f9"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/stripe-api-integration/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/webhooks.md",
+      "byteCount": 7393,
+      "sha256": "8493456f4ed9ddcd7aadfaac6a3f6823fcfeb66d9b0493a6afc7d41398861bbe"
     }
   ]
 }

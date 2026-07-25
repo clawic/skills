@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fe510f64bd2cb14406ee5f4ec33ea2799b5530f8bd6de7544e55b1d8473cdeb2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "slovenian",
-    "name": "Slovenian",
+    "name": "slovenian",
     "description": "Write Slovenian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/slovenian",
     "summary": "The Real Problem AI Slovenian is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high. Casual Sl",
     "repositoryPath": "skills/slovenian",
     "manifestPath": "registry/skills/slovenian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/slovenian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slovenian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slovenian/_meta.json",
+      "byteCount": 170,
+      "sha256": "8accf31a53698588625454a12c9cc88da222202393906298ae9ccb1507619269"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/slovenian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slovenian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slovenian/SKILL.md",
+      "byteCount": 1795,
+      "sha256": "8df260cdf07e0af92a348151d276f17c806881e427a750a51f0d5521e3e778ba"
     }
   ]
 }

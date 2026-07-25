@@ -1,10 +1,19 @@
 ---
-name: Valencia
+name: valencia
 slug: valencia
 version: 1.0.0
-homepage: https://clawic.com/skills/valencia
 description: Navigate Valencia as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🍊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/valencia
+metadata:
+  clawdbot:
+    emoji: 🍊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Valencia
 ---
 
 ## When to Use
@@ -178,7 +187,7 @@ EU citizens can:
 See `resident.md` for EU citizen process.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `dubai` — Compare with another popular expat destination
 - `travel` — Planning trips and itineraries
@@ -188,5 +197,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star valencia`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/valencia
+- Latest version: https://clawic.com/skills/valencia

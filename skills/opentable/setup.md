@@ -1,6 +1,6 @@
 # Setup - OpenTable
 
-Read this when `~/opentable/` is missing or empty.
+Read this when `~/Clawic/data/opentable/` is missing or empty.
 Keep setup practical and non-blocking.
 
 ## Operating Priorities
@@ -31,9 +31,9 @@ Keep setup practical and non-blocking.
 4. If context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/opentable
-touch ~/opentable/{memory.md,reservation-log.md,guest-signals.md,incidents.md}
+touch ~/Clawic/data/opentable/{memory.md,reservation-log.md,guest-signals.md,incidents.md}
 chmod 700 ~/opentable
-chmod 600 ~/opentable/{memory.md,reservation-log.md,guest-signals.md,incidents.md}
+chmod 600 ~/Clawic/data/opentable/{memory.md,reservation-log.md,guest-signals.md,incidents.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

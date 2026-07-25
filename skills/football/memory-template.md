@@ -1,6 +1,6 @@
 # Memory Template - Football
 
-Create `~/football/memory.md` with this structure:
+Create `~/Clawic/data/football/memory.md` with this structure:
 
 ```markdown
 # Football Memory
@@ -59,19 +59,19 @@ memory_mode: approved | one-off | declined
 
 ## Supporting Files
 
-For `~/football/match-room.md`, keep:
+For `~/Clawic/data/football/match-room.md`, keep:
 - match context and date
 - preview or review mode
 - phase-by-phase notes
 - key battles, triggers, and next actions
 
-For `~/football/squad-notes.md`, keep:
+For `~/Clawic/data/football/squad-notes.md`, keep:
 - role map
 - pairings that work or fail
 - recruitment needs
 - player-fit summaries
 
-For `~/football/training-log.md`, keep:
+For `~/Clawic/data/football/training-log.md`, keep:
 - weekly rhythm
 - drill notes that actually transfer to matches
 - constraints that keep repeating

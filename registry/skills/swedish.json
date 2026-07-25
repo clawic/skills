@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d4b6d5c5473edbe9cbedaf0d17e443baaf2d6155c821889158b95b29c1dce9f3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "swedish",
-    "name": "Swedish",
+    "name": "swedish",
     "description": "Write Swedish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/swedish",
     "summary": "The Real Problem AI Swedish is technically correct but sounds off. Too formal. Too rigid. Natives write more casually, with particles and understated tone. Match that. Formality Default Default register is too high. Swed",
     "repositoryPath": "skills/swedish",
     "manifestPath": "registry/skills/swedish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/swedish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swedish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swedish/_meta.json",
+      "byteCount": 166,
+      "sha256": "5067f569283db213889ced2764e4161cfeba1019584d8c69029e550945154256"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/swedish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swedish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swedish/SKILL.md",
+      "byteCount": 2331,
+      "sha256": "81dcc14fc036e8787da2118c0944602d045ee9789bf8042157cd5fbae4297884"
     }
   ]
 }

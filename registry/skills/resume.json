@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3c37f51164e2a4d4aa0d6cc4fb50969136355ed1bd60e47e6f61056ffa3a644b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "resume",
-    "name": "Resume",
+    "name": "resume",
     "description": "Adapt, diagnose, and optimize resumes to land interviews with ATS optimization, job-specific tailoring, and recruiter-tested tactics.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/resume",
     "summary": "Quick Reference | File | Purpose | |------|---------| | `tailoring.md` | Adapt resume to specific job postings | | `diagnosis.md` | Find why resume isn't getting calls | | `ats.md` | Pass automated screening systems | | ",
     "repositoryPath": "skills/resume",
     "manifestPath": "registry/skills/resume.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/resume/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/_meta.json",
+      "byteCount": 164,
+      "sha256": "79542f3789c6e4ba342a9ea4508a9108e21e2923a0cdaf5a814d133ea0b72b4b"
     },
     {
       "path": "ats.md",
       "downloadPath": "skills/resume/ats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/ats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/ats.md",
+      "byteCount": 3896,
+      "sha256": "815954f5cd61325d89755998d1bec1b3509ff8b09e756e4a5548777c72ceff39"
     },
     {
       "path": "diagnosis.md",
       "downloadPath": "skills/resume/diagnosis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/diagnosis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/diagnosis.md",
+      "byteCount": 3331,
+      "sha256": "847d2ab1c54db712147bcc6e7973cd468b16841073b360d8f86e4d375c196fbd"
     },
     {
       "path": "seniority.md",
       "downloadPath": "skills/resume/seniority.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/seniority.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/seniority.md",
+      "byteCount": 4914,
+      "sha256": "8747c952d0b1dda2b63d35cfd5c50075ae64a53a4c342f54e1dc727c596f9873"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/resume/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/SKILL.md",
+      "byteCount": 4286,
+      "sha256": "583c7984c7ac5e47bd05aa4d3ab2ba03a528e92a786b2960ec37d78b7e1318b6"
     },
     {
       "path": "tailoring.md",
       "downloadPath": "skills/resume/tailoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/tailoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/resume/tailoring.md",
+      "byteCount": 3893,
+      "sha256": "729f29fc9e56ceb0b362894ed4033bfbdd68c5c3655e7a94002a0fbb1548465d"
     }
   ]
 }

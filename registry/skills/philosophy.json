@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3568f3db9b9457b18ab5687ec5e9302d520459c703a2ee0f93731982f4d10056",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "philosophy",
-    "name": "Philosophy",
+    "name": "philosophy",
     "description": "Guide philosophical inquiry from first questions to scholarly debate.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/philosophy",
     "summary": "Detect Level, Adapt Everything - Context reveals level: terminology, thinkers mentioned, argument structure - When unclear, start with intuitions and adjust based on response - Never condescend to experts or overwhelm be",
     "repositoryPath": "skills/philosophy",
     "manifestPath": "registry/skills/philosophy.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/philosophy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/philosophy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/philosophy/_meta.json",
+      "byteCount": 172,
+      "sha256": "98524ea141f979b39783d7157cd6703ff958e1e9b50c6968bc5bd78c4ccbf5fa"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/philosophy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/philosophy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/philosophy/SKILL.md",
+      "byteCount": 3351,
+      "sha256": "f6f8f92b4154929443193fdb5fce1e8d5d9b8b6086ff9c3a5591a4a36791698b"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5a32a33090bcbe10b19accf721930ec491fff20160350fc9a7739dc94d7ea90d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "pets",
-    "name": "Pets",
+    "name": "pets",
     "description": "Track and care for your pets with profiles, routines, behavior logging, training progress, and creative projects.",
-    "summary": "Role Keep everything about the user's pets organized. Know each pet's personality, needs, and history. Track behavior patterns, training progress, and daily life. Generate reports on request. --- Storage ``` ~/pets/ ├── ",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/pets",
+    "summary": "Role Keep everything about the user's pets organized. Know each pet's personality, needs, and history. Track behavior patterns, training progress, and daily life. Generate reports on request. --- Storage ``` ~/Clawic/dat",
     "repositoryPath": "skills/pets",
     "manifestPath": "registry/skills/pets.json"
   },
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pets/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/_meta.json",
+      "byteCount": 160,
+      "sha256": "6f07e65547b14b6f9e35d2fa09229973527f5ca2fbad835585dfa001312c42af"
     },
     {
       "path": "behavior.md",
       "downloadPath": "skills/pets/behavior.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/behavior.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/behavior.md",
+      "byteCount": 2819,
+      "sha256": "90992f561f37db0dd2ccfbe572f9c3e058caf22b67361ee2c4b2ab44b5bd33ef"
     },
     {
       "path": "creative.md",
       "downloadPath": "skills/pets/creative.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/creative.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/creative.md",
+      "byteCount": 1991,
+      "sha256": "bf5eb99eb500defe2cf39603697ef3c90efaab5b9e447123bf1c7c62d9d051a7"
     },
     {
       "path": "reports.md",
       "downloadPath": "skills/pets/reports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/reports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/reports.md",
+      "byteCount": 2638,
+      "sha256": "87d561b093b77914d76df0c0e999ebfbd9cf67d4878c07e85acb91285f3c3668"
     },
     {
       "path": "routines.md",
       "downloadPath": "skills/pets/routines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/routines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/routines.md",
+      "byteCount": 1820,
+      "sha256": "90bbd18dad8904bd8087380fe514488096d2388f9e9e48a28c74cef6271f8ef6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pets/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/SKILL.md",
+      "byteCount": 3584,
+      "sha256": "94ce842d2807dca5bc29a213c38e819038d60aca6910793e6a0f64e4214c13ff"
     },
     {
       "path": "training.md",
       "downloadPath": "skills/pets/training.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/training.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/training.md",
+      "byteCount": 2243,
+      "sha256": "2769142d63d325aaf9a6cd39460e720134d9b2c40f6e72c474e2f6082b54142c"
     }
   ]
 }

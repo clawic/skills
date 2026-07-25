@@ -1,6 +1,6 @@
 # Setup - Google Pay
 
-Read this when `~/google-pay/` is missing or empty.
+Read this when `~/Clawic/data/google-pay/` is missing or empty.
 Keep setup practical and non-blocking.
 
 ## Operating Priorities
@@ -31,9 +31,9 @@ Keep setup practical and non-blocking.
 4. If setup context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/google-pay
-touch ~/google-pay/{memory.md,implementations.md,validation-log.md,incidents.md}
+touch ~/Clawic/data/google-pay/{memory.md,implementations.md,validation-log.md,incidents.md}
 chmod 700 ~/google-pay
-chmod 600 ~/google-pay/{memory.md,implementations.md,validation-log.md,incidents.md}
+chmod 600 ~/Clawic/data/google-pay/{memory.md,implementations.md,validation-log.md,incidents.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

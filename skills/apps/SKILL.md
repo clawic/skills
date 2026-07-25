@@ -1,9 +1,19 @@
 ---
-name: Apps
+name: apps
 slug: apps
 version: 1.0.0
 description: Find, compare, and organize mobile apps with personalized recommendations and preference tracking.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/apps
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Apps
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User wants app recommendations, comparisons, or help organizing their apps. Cove
 
 ## Architecture
 
-Memory lives in `~/apps/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/apps/`. See `memory-template.md` for setup.
 
 ```
-~/apps/
+~/Clawic/data/apps/
 ├── memory.md          # Preferences, platforms, dislikes
 ├── favorites.md       # Apps user loves, organized by category
 ├── tried.md           # Apps tested with notes (liked/disliked/why)
@@ -32,7 +42,7 @@ Memory lives in `~/apps/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-All data stored in `~/apps/`. Create on first use:
+All data stored in `~/Clawic/data/apps/`. Create on first use:
 ```bash
 mkdir -p ~/apps
 ```
@@ -41,7 +51,7 @@ mkdir -p ~/apps
 
 This skill ONLY:
 - Recommends apps based on user criteria
-- Stores user preferences in local files (`~/apps/`)
+- Stores user preferences in local files (`~/Clawic/data/apps/`)
 - Tracks apps user has tried or wants to try
 - Compares apps within categories
 
@@ -54,7 +64,7 @@ This skill NEVER:
 ## Core Rules
 
 ### 1. Check Preferences First
-Before recommending, read `~/apps/memory.md`:
+Before recommending, read `~/Clawic/data/apps/memory.md`:
 - Platform (iOS, Android, both)
 - Pricing preference (free, freemium, paid OK, no subscriptions)
 - Past dislikes (apps/patterns to avoid)
@@ -63,7 +73,7 @@ Before recommending, read `~/apps/memory.md`:
 | Criteria | Action |
 |----------|--------|
 | User asks "best X app" | Give top 3 with tradeoffs |
-| User has tried similar | Check ~/apps/tried.md, avoid repeats |
+| User has tried similar | Check ~/Clawic/data/apps/tried.md, avoid repeats |
 | User dislikes subscriptions | Filter out subscription-only |
 | Specific need stated | Match to need, not popularity |
 
@@ -77,11 +87,11 @@ Never just say "use X". Include:
 ### 4. Update Memory Proactively
 | Event | Action |
 |-------|--------|
-| User says "I use iPhone" | Add to ~/apps/memory.md |
-| User says "I hate subscriptions" | Add to ~/apps/memory.md dislikes |
-| User likes recommendation | Add to ~/apps/favorites.md |
-| User tries and dislikes | Add to ~/apps/tried.md with reason |
-| User says "remind me to try X" | Add to ~/apps/wishlist.md |
+| User says "I use iPhone" | Add to ~/Clawic/data/apps/memory.md |
+| User says "I hate subscriptions" | Add to ~/Clawic/data/apps/memory.md dislikes |
+| User likes recommendation | Add to ~/Clawic/data/apps/favorites.md |
+| User tries and dislikes | Add to ~/Clawic/data/apps/tried.md with reason |
+| User says "remind me to try X" | Add to ~/Clawic/data/apps/wishlist.md |
 
 ### 5. Category Organization
 Organize favorites by category:
@@ -110,7 +120,7 @@ When user asks to compare apps:
 ## Common Traps
 
 - Recommending most popular instead of best fit → match to user's stated needs
-- Forgetting user said "no subscriptions" → always check ~/apps/memory.md
-- Recommending apps user already tried and disliked → check ~/apps/tried.md
+- Forgetting user said "no subscriptions" → always check ~/Clawic/data/apps/memory.md
+- Recommending apps user already tried and disliked → check ~/Clawic/data/apps/tried.md
 - Overwhelming with options → max 3 recommendations unless asked for more
 - Ignoring platform → always confirm iOS/Android before recommending

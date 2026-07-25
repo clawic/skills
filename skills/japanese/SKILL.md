@@ -1,6 +1,13 @@
 ---
-name: Japanese
+name: japanese
+slug: japanese
+version: 1.0.0
 description: Write Japanese that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/japanese
+metadata:
+  clawdbot:
+    emoji: 🇯🇵
+    displayName: Japanese
 ---
 
 ## The Real Problem

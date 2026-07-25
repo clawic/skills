@@ -1,7 +1,17 @@
 ---
-name: Product Manager
+name: product-manager
+slug: product-manager
+version: 1.0.0
 description: Build products users love with discovery, prioritization, roadmapping, and cross-functional leadership.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/product-manager
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Product Manager
 ---
 
 # Product Management Rules

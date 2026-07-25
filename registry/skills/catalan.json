@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3f3f8babceb6ce5dc426fc8dd1df072d1f51828c4da22df74ddd475d91e55abf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "catalan",
-    "name": "Catalan",
+    "name": "catalan",
     "description": "Write Catalan that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/catalan",
     "summary": "The Real Problem AI Catalan is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with warmth and local flavor. Match that. Formality Default Default register is too high. Casual C",
     "repositoryPath": "skills/catalan",
     "manifestPath": "registry/skills/catalan.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/catalan/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/catalan/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/catalan/_meta.json",
+      "byteCount": 166,
+      "sha256": "a4a1fda790822bba0e048986cae61c22386fa636dc45f298c40a29f1985c0ecd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/catalan/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/catalan/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/catalan/SKILL.md",
+      "byteCount": 1906,
+      "sha256": "bac219eb0d32e8225692ae50b79006e1369624055ad501f3236e6afa84d42d15"
     }
   ]
 }

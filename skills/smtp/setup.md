@@ -1,6 +1,6 @@
 # Setup - SMTP
 
-Use this file when `~/smtp/` is missing, empty, or clearly stale.
+Use this file when `~/Clawic/data/smtp/` is missing, empty, or clearly stale.
 
 Answer the immediate SMTP question first, then install the minimum safe context so future tests do not repeat risky guesses.
 
@@ -43,25 +43,25 @@ Default to one-recipient canary mode.
 Credentials should come from a secret manager, runtime prompt, or short-lived environment already approved by the user.
 
 Never store raw credentials in:
-- `~/smtp/memory.md`
-- `~/smtp/provider-profiles.md`
-- `~/smtp/send-log.md`
-- `~/smtp/deliverability-notes.md`
+- `~/Clawic/data/smtp/memory.md`
+- `~/Clawic/data/smtp/provider-profiles.md`
+- `~/Clawic/data/smtp/send-log.md`
+- `~/Clawic/data/smtp/deliverability-notes.md`
 
 ### 5. Create local state only after the safety path is clear
 
 ```bash
 mkdir -p ~/smtp
-touch ~/smtp/{memory.md,provider-profiles.md,send-log.md,deliverability-notes.md}
+touch ~/Clawic/data/smtp/{memory.md,provider-profiles.md,send-log.md,deliverability-notes.md}
 chmod 700 ~/smtp
-chmod 600 ~/smtp/{memory.md,provider-profiles.md,send-log.md,deliverability-notes.md}
+chmod 600 ~/Clawic/data/smtp/{memory.md,provider-profiles.md,send-log.md,deliverability-notes.md}
 ```
 
 If the files are empty:
-- initialize `~/smtp/memory.md` from `memory-template.md`
-- initialize `~/smtp/provider-profiles.md` from `provider-profiles.md`
-- initialize `~/smtp/send-log.md` from `send-log.md`
-- initialize `~/smtp/deliverability-notes.md` from `deliverability-notes.md`
+- initialize `~/Clawic/data/smtp/memory.md` from `memory-template.md`
+- initialize `~/Clawic/data/smtp/provider-profiles.md` from `provider-profiles.md`
+- initialize `~/Clawic/data/smtp/send-log.md` from `send-log.md`
+- initialize `~/Clawic/data/smtp/deliverability-notes.md` from `deliverability-notes.md`
 
 ### 6. What to save
 

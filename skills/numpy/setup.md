@@ -1,6 +1,6 @@
 # Setup — NumPy
 
-On first use when `~/numpy/` doesn't exist, follow these guidelines to help the user get started.
+On first use when `~/Clawic/data/numpy/` doesn't exist, follow these guidelines to help the user get started.
 
 ## Your Attitude
 
@@ -32,15 +32,15 @@ Some users have strong preferences:
 
 ## Data Storage
 
-Creates `~/numpy/` with:
+Creates `~/Clawic/data/numpy/` with:
 - `memory.md` — preferences and context learned from conversations
 - `snippets/` — user's saved code patterns (optional)
 
-Only reads and writes within `~/numpy/`. Does not access other directories.
+Only reads and writes within `~/Clawic/data/numpy/`. Does not access other directories.
 
 ## What You're Saving
 
-In `~/numpy/memory.md`:
+In `~/Clawic/data/numpy/memory.md`:
 - Their experience level
 - Common use cases
 - Preferences for dtypes, memory management

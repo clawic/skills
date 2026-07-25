@@ -1,7 +1,20 @@
 ---
-name: PyTorch
+name: pytorch
+slug: pytorch
+version: 1.0.0
 description: Avoid common PyTorch mistakes — train/eval mode, gradient leaks, device mismatches, and checkpoint gotchas.
-metadata: {"clawdbot":{"emoji":"🔥","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pytorch
+metadata:
+  clawdbot:
+    emoji: 🔥
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: PyTorch
 ---
 
 ## Train vs Eval Mode

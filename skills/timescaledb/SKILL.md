@@ -1,7 +1,20 @@
 ---
-name: TimescaleDB
+name: timescaledb
+slug: timescaledb
+version: 1.0.0
 description: Store and query time-series data with hypertables, compression, and continuous aggregates.
-metadata: {"clawdbot":{"emoji":"⏱️","requires":{"anyBins":["psql"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/timescaledb
+metadata:
+  clawdbot:
+    emoji: ⏱️
+    requires:
+      anyBins:
+      - psql
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: TimescaleDB
 ---
 
 ## Hypertables

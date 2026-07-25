@@ -1,6 +1,6 @@
 # Memory Template
 
-Copy this structure to `~/trading/memory.md` on first use.
+Copy this structure to `~/Clawic/data/trading/memory.md` on first use.
 
 ```markdown
 # Trading Memory
@@ -34,7 +34,7 @@ Risk comfort: conservative | moderate | aggressive
 
 ## Trade Journal Template
 
-For `~/trading/journal.md`:
+For `~/Clawic/data/trading/journal.md`:
 
 ```markdown
 # Trade Journal
@@ -56,7 +56,7 @@ For `~/trading/journal.md`:
 
 ## Progress Tracking
 
-For `~/trading/progress.md`:
+For `~/Clawic/data/trading/progress.md`:
 
 ```markdown
 # Learning Progress
@@ -85,5 +85,5 @@ Create on first activation:
 
 ```bash
 mkdir -p ~/trading
-touch ~/trading/{memory.md,journal.md,progress.md}
+touch ~/Clawic/data/trading/{memory.md,journal.md,progress.md}
 ```

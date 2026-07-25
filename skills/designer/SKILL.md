@@ -1,7 +1,17 @@
 ---
-name: Designer
+name: designer
+slug: designer
+version: 1.0.0
 description: Create logos, interfaces, and visual systems with principles of hierarchy, branding, and usability.
-metadata: {"clawdbot":{"emoji":"🎨","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/designer
+metadata:
+  clawdbot:
+    emoji: 🎨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Designer
 ---
 
 # Design Rules

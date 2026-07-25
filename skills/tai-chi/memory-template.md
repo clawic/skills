@@ -1,6 +1,6 @@
 # Memory Template - Tai Chi (Practice Planner, Form Coach, Balance Tracker)
 
-Create `~/tai-chi/memory.md` with this structure:
+Create `~/Clawic/data/tai-chi/memory.md` with this structure:
 
 ```markdown
 # Tai Chi Memory
@@ -58,7 +58,7 @@ energy_after_practice:
 
 ## File Templates
 
-Create `~/tai-chi/sessions/log.md`:
+Create `~/Clawic/data/tai-chi/sessions/log.md`:
 
 ```markdown
 # Tai Chi Session Log
@@ -74,7 +74,7 @@ Create `~/tai-chi/sessions/log.md`:
 - Next target:
 ```
 
-Create `~/tai-chi/plans/current-plan.md`:
+Create `~/Clawic/data/tai-chi/plans/current-plan.md`:
 
 ```markdown
 # Current Tai Chi Plan
@@ -88,7 +88,7 @@ Create `~/tai-chi/plans/current-plan.md`:
 - Skip or modify if:
 ```
 
-Create `~/tai-chi/form/checkpoints.md`:
+Create `~/Clawic/data/tai-chi/form/checkpoints.md`:
 
 ```markdown
 # Tai Chi Form Checkpoints
@@ -101,7 +101,7 @@ Create `~/tai-chi/form/checkpoints.md`:
 - Recheck on:
 ```
 
-Create `~/tai-chi/summaries/weekly-review.md`:
+Create `~/Clawic/data/tai-chi/summaries/weekly-review.md`:
 
 ```markdown
 # Weekly Tai Chi Review
@@ -115,7 +115,7 @@ Create `~/tai-chi/summaries/weekly-review.md`:
 - Next-week focus:
 ```
 
-Create `~/tai-chi/safety/modifications.md`:
+Create `~/Clawic/data/tai-chi/safety/modifications.md`:
 
 ```markdown
 # Tai Chi Safety Modifications

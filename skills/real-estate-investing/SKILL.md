@@ -1,11 +1,22 @@
 ---
-name: Real Estate Investing
+name: real-estate-investing
 slug: real-estate-investing
 version: 1.0.0
-homepage: https://clawic.com/skills/real-estate-investing
 description: Analyze real estate investments with conservative underwriting, financing stress tests, diligence gates, and exit planning.
-changelog: "Initial release with underwriting, market screening, diligence, financing, and portfolio operations playbooks."
-metadata: {"clawdbot":{"emoji":"🏘️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/real-estate-investing/"]}}
+homepage: https://clawic.com/skills/real-estate-investing
+changelog: Initial release with underwriting, market screening, diligence, financing, and portfolio operations playbooks.
+metadata:
+  clawdbot:
+    emoji: 🏘️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/real-estate-investing/
+    displayName: Real Estate Investing
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ Agent handles strategy selection, return targets, deal triage, underwriting, fin
 
 ## Architecture
 
-Memory lives in `~/real-estate-investing/`. If `~/real-estate-investing/` does not exist, run `setup.md`. See `memory-template.md` for the baseline structures.
+Memory lives in `~/Clawic/data/real-estate-investing/`. If `~/Clawic/data/real-estate-investing/` does not exist, run `setup.md`. See `memory-template.md` for the baseline structures.
 
 ```text
-~/real-estate-investing/
+~/Clawic/data/real-estate-investing/
 ├── memory.md         # Strategy, guardrails, and active priorities
 ├── pipeline.md       # Deals under review with current stage and blockers
 ├── markets.md        # Market notes, rent assumptions, and local risks
@@ -120,7 +131,7 @@ Use this order unless the user explicitly wants a narrower question answered:
 
 ## Data Storage
 
-Local state lives in `~/real-estate-investing/`:
+Local state lives in `~/Clawic/data/real-estate-investing/`:
 
 - the local strategy memory file for buy box and recurring guardrails
 - the local pipeline file for active deals and blockers
@@ -131,7 +142,7 @@ Local state lives in `~/real-estate-investing/`:
 ## Security & Privacy
 
 **Data that stays local:**
-- strategy preferences, underwriting assumptions, market notes, and decision logs in `~/real-estate-investing/`
+- strategy preferences, underwriting assumptions, market notes, and decision logs in `~/Clawic/data/real-estate-investing/`
 
 **Data that leaves your machine:**
 - none by default
@@ -158,7 +169,7 @@ This skill NEVER:
 - recommend a deal without stating key assumptions and failure points
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `property-valuation` - Estimate market value and compare comp-driven pricing against the investment thesis.
 - `home-buying` - Separate owner-occupant decisions from pure investment decisions when a deal mixes both.
@@ -168,5 +179,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star real-estate-investing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/real-estate-investing
+- Latest version: https://clawic.com/skills/real-estate-investing

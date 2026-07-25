@@ -1,6 +1,6 @@
 # Memory Template - Convex
 
-Create `~/convex/memory.md` with this structure:
+Create `~/Clawic/data/convex/memory.md` with this structure:
 
 ```markdown
 # Convex Memory

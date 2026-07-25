@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b7745fcba9f824a24eabd45e5d85431b25e432a83a8f1e916915249630c7ef6b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "fonts",
-    "name": "Fonts",
+    "name": "fonts",
     "description": "Choose and implement web typography avoiding common rendering, pairing, and hierarchy mistakes.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fonts",
     "summary": "Display vs Text Fonts - Display fonts (Abril Fatface, Bebas Neue, Lobster) are for headings 24px+ only—using them for body text destroys readability - If a font looks decorative or has extreme thick/thin contrast, it's d",
     "repositoryPath": "skills/fonts",
     "manifestPath": "registry/skills/fonts.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fonts/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fonts/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fonts/_meta.json",
+      "byteCount": 162,
+      "sha256": "6615e2ab5f1f8733dc158c55f993931a678b1cc4b29dc2484c8651c612c9a765"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fonts/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fonts/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fonts/SKILL.md",
+      "byteCount": 3602,
+      "sha256": "c8eea47f5af132a3a7adb3f02ccabc10f8f54fdad472d9719236fba5c53590a3"
     }
   ]
 }

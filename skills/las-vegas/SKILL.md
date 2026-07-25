@@ -1,11 +1,20 @@
 ---
-name: Las Vegas
+name: las-vegas
 slug: las-vegas
 version: 1.0.0
-homepage: https://clawic.com/skills/las-vegas
 description: Navigate Las Vegas as visitor, resident, remote worker, or entrepreneur with neighborhoods, entertainment, costs, and desert-living insights.
+homepage: https://clawic.com/skills/las-vegas
 changelog: Launches a full Las Vegas city guide for visitors, residents, remote workers, and founders.
-metadata: {"clawdbot":{"emoji":"🎰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Las Vegas
 ---
 
 ## When to Use
@@ -14,10 +23,10 @@ User asks about Las Vegas for any purpose: visiting, moving, working remotely, s
 
 ## Architecture
 
-Memory lives in `~/las-vegas/`. If `~/las-vegas/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/las-vegas/`. If `~/Clawic/data/las-vegas/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/las-vegas/
+~/Clawic/data/las-vegas/
 ├── memory.md     # User context, preferences, and ongoing notes
 └── notes/        # Trip-specific or move-specific working notes
 ```
@@ -226,7 +235,7 @@ Key laws visitors/residents must know:
 See `safety.md` for comprehensive legal guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — Trip planning and logistics
 - `dubai` — Another world-class destination guide
 - `business` — Business strategy and planning
@@ -234,5 +243,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star las-vegas`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/las-vegas
+- Latest version: https://clawic.com/skills/las-vegas

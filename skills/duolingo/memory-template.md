@@ -1,6 +1,6 @@
 # Memory Template - Duolingo Learning OS
 
-Create `~/duolingo/memory.md` with this structure:
+Create `~/Clawic/data/duolingo/memory.md` with this structure:
 
 ```markdown
 # Duolingo Learning OS Memory
@@ -35,7 +35,7 @@ integration: pending
 
 ## Topic Namespace Standard
 
-Each topic uses this path: `~/duolingo/topics/<topic-slug>/`
+Each topic uses this path: `~/Clawic/data/duolingo/topics/<topic-slug>/`
 
 Required files:
 - `profile.md`

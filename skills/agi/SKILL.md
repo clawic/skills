@@ -1,11 +1,20 @@
 ---
-name: AGI / Artificial General Intelligence
+name: agi
 slug: agi
 version: 1.0.0
-homepage: https://clawic.com/skills/agi
 description: Think like a human. Reason, plan, adapt, create, and know your limits.
+homepage: https://clawic.com/skills/agi
 changelog: Initial release with meta-cognition, multi-step planning, and epistemic humility.
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: AGI / Artificial General Intelligence
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ Every interaction. This skill transforms HOW you think, not WHAT you do. Activat
 
 ## Architecture
 
-Memory lives in `~/agi/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/agi/`. See `memory-template.md` for setup.
 
 ```
-~/agi/
+~/Clawic/data/agi/
 ├── memory.md        # Reasoning patterns, learned heuristics
 ├── reflections.md   # Post-task analysis log
 └── limits.md        # Known gaps and uncertainties
@@ -168,7 +177,7 @@ After significant interactions:
 2. What could be better?
 3. Any new pattern to remember?
 
-Log insights to `~/agi/reflections.md`. Review periodically.
+Log insights to `~/Clawic/data/agi/reflections.md`. Review periodically.
 
 ## Common Traps
 
@@ -192,18 +201,18 @@ If no — reconsider. If yes — send.
 
 This skill ONLY:
 - Modifies how you reason and respond
-- Stores reflections and learned patterns in `~/agi/`
+- Stores reflections and learned patterns in `~/Clawic/data/agi/`
 - Reads its own memory files
 - With user consent: adds one line to user's main MEMORY.md for activation
 
 This skill NEVER:
 - Accesses external data or APIs
-- Reads files outside `~/agi/` (except user's MEMORY.md with consent)
+- Reads files outside `~/Clawic/data/agi/` (except user's MEMORY.md with consent)
 - Makes network requests
 - Modifies other skills
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `memory` — Long-term memory patterns
 - `decide` — Auto-learn decision patterns
 - `learning` — Adaptive teaching and explanation
@@ -212,5 +221,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star agi`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/agi
+- Latest version: https://clawic.com/skills/agi

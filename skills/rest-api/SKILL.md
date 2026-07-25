@@ -1,11 +1,20 @@
 ---
-name: REST API
+name: rest-api
 slug: rest-api
 version: 1.0.0
-homepage: https://clawic.com/skills/rest-api
 description: Build production-ready REST APIs with contract-first design, secure auth, robust testing, and deployment runbooks.
+homepage: https://clawic.com/skills/rest-api
 changelog: Initial release with end-to-end REST API build workflow from contract to deployment.
-metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🌐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: REST API
 ---
 
 ## Setup
@@ -20,10 +29,10 @@ This skill covers contract-first design, endpoint conventions, authentication an
 
 ## Architecture
 
-Working memory lives in `~/rest-api/`. See `memory-template.md` for structure and status behavior.
+Working memory lives in `~/Clawic/data/rest-api/`. See `memory-template.md` for structure and status behavior.
 
 ```
-~/rest-api/
+~/Clawic/data/rest-api/
 ├── memory.md                     # HOT: active API project context
 ├── contracts/                    # WARM: OpenAPI specs and compatibility notes
 ├── decisions/                    # WARM: ADR-style technical decisions
@@ -98,7 +107,7 @@ If an API cannot be observed, it cannot be operated safely.
 - None by default.
 
 **Data that stays local:**
-- API project context and decisions under `~/rest-api/`.
+- API project context and decisions under `~/Clawic/data/rest-api/`.
 
 **This skill does NOT:**
 - Call undeclared external endpoints by default.
@@ -106,7 +115,7 @@ If an API cannot be observed, it cannot be operated safely.
 - Modify infrastructure without explicit user instruction.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `backend` - System design and backend architecture decisions.
 - `auth` - Authentication, session strategy, and credential safety.
 - `http` - HTTP protocol details and request-response behavior.
@@ -114,5 +123,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star rest-api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/rest-api
+- Latest version: https://clawic.com/skills/rest-api

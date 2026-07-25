@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0df8027534103fe30874d3d05d9b1d2ec02eba8552e683a8fe1a71f60a945b37",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "go",
-    "name": "Go",
+    "name": "go",
     "description": "Write reliable Go code avoiding goroutine leaks, interface traps, and common concurrency bugs.",
     "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/go",
     "summary": "Quick Reference | Topic | File | |-------|------| | Concurrency patterns | `concurrency.md` | | Interface and type system | `interfaces.md` | | Slices, maps, strings | `collections.md` | | Error handling patterns | `erro",
     "repositoryPath": "skills/go",
     "manifestPath": "registry/skills/go.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/go/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/_meta.json",
+      "byteCount": 306,
+      "sha256": "80de2cb23314f02d64503e3e59ed944091bdbc663cbe0bfb405dc32900ea0565"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/go/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/collections.md",
+      "byteCount": 992,
+      "sha256": "f960596b05e7a25ec232d43cb6d66ef183d4fa82fd809736039283e86b824caa"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/go/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/concurrency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/concurrency.md",
+      "byteCount": 1108,
+      "sha256": "551b44642ae99647ad48ba94ba82151361dacd110f058daefa78a649ee12d54b"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/go/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/errors.md",
+      "byteCount": 957,
+      "sha256": "ac070eb4920634dc491bf042b38fafb85139f08528d5b7b0cd164b6c114fcc5c"
     },
     {
       "path": "interfaces.md",
       "downloadPath": "skills/go/interfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/interfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/interfaces.md",
+      "byteCount": 954,
+      "sha256": "2f0135d11e1e468773f486d0e10bb806f49d092061b94dcc9e97d290f40cfdc1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/go/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/SKILL.md",
+      "byteCount": 4484,
+      "sha256": "bf3b1a67fc3b0824c9bdcf3c9ad9b64fe6a6d815fd0ec9689aa7b6ad15f16640"
     }
   ]
 }

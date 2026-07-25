@@ -1,11 +1,28 @@
 ---
-name: Hugging Face
+name: hugging-face
 slug: hugging-face
 version: 1.0.0
-homepage: https://clawic.com/skills/hugging-face
 description: Discover, evaluate, and run Hugging Face models, datasets, and spaces with license checks, benchmark prompts, and reproducible integration plans.
+homepage: https://clawic.com/skills/hugging-face
 changelog: Initial release with discovery, evaluation, inference, and troubleshooting workflows for Hugging Face operations.
-metadata: {"clawdbot":{"emoji":"HF","requires":{"bins":["curl","jq"],"env":["HF_TOKEN"],"config":["~/hugging-face/"]},"os":["linux","darwin","win32"],"configPaths":["~/hugging-face/"]}}
+metadata:
+  clawdbot:
+    emoji: HF
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - HF_TOKEN
+      config:
+      - ~/Clawic/data/hugging-face/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/hugging-face/
+    displayName: Hugging Face
 ---
 
 ## Setup
@@ -19,10 +36,10 @@ Agent handles discovery, filtering, license checks, quick benchmarking, and inte
 
 ## Architecture
 
-Memory and reusable artifacts live in `~/hugging-face/`. See `memory-template.md` for structure and status fields.
+Memory and reusable artifacts live in `~/Clawic/data/hugging-face/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/hugging-face/
+~/Clawic/data/hugging-face/
 |- memory.md          # Stable context, priorities, and defaults
 |- shortlists.md      # Candidate models and datasets by use case
 |- evaluations.md     # Benchmark runs, winners, and caveats
@@ -114,7 +131,7 @@ No other data is sent externally.
 - Inference payloads sent to Hugging Face Inference API when execution is requested.
 
 **Data that stays local:**
-- Preferences, shortlists, evaluation notes, and endpoint decisions in `~/hugging-face/`.
+- Preferences, shortlists, evaluation notes, and endpoint decisions in `~/Clawic/data/hugging-face/`.
 
 **This skill does NOT:**
 - Exfiltrate local files by default.
@@ -128,7 +145,7 @@ By using this skill, selected request data is sent to Hugging Face services.
 Only install if you trust Hugging Face with the inputs you choose to process.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ai` - general AI strategy and model-selection framing
 - `api` - API-first integration patterns and HTTP debugging
 - `data-analysis` - dataset inspection and quality interpretation
@@ -137,5 +154,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star hugging-face`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/hugging-face
+- Latest version: https://clawic.com/skills/hugging-face

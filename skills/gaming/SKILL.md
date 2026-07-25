@@ -1,9 +1,19 @@
 ---
-name: Gaming
+name: gaming
+slug: gaming
+version: 1.0.0
 description: Help users with game recommendations, stuck points, settings optimization, and healthy gaming habits.
+homepage: https://clawic.com/skills/gaming
 metadata:
   category: entertainment
-  skills: ["gaming", "videogames", "esports", "streaming"]
+  skills:
+  - gaming
+  - videogames
+  - esports
+  - streaming
+  clawdbot:
+    emoji: 🎮
+    displayName: Gaming
 ---
 
 ## Before Recommending Games

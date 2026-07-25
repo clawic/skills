@@ -1,10 +1,20 @@
 ---
-name: Cypress
+name: cypress
 slug: cypress
 version: 1.0.0
-homepage: https://clawic.com/skills/cypress
 description: Write reliable E2E and component tests with Cypress avoiding flaky selectors, race conditions, and CI failures.
-metadata: {"clawdbot":{"emoji":"🌲","requires":{"bins":["npx"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cypress
+metadata:
+  clawdbot:
+    emoji: 🌲
+    requires:
+      bins:
+      - npx
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Cypress
 ---
 
 ## Setup
@@ -248,7 +258,7 @@ This skill does not call external APIs. Cypress runs entirely locally or in your
 **Note:** Cypress Cloud (optional, paid) can receive test results if configured with `CYPRESS_RECORD_KEY`. This skill does not configure or recommend it.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `playwright` — alternative E2E framework
 - `typescript` — TypeScript best practices
 - `javascript` — JS fundamentals and patterns
@@ -256,5 +266,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cypress`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cypress
+- Latest version: https://clawic.com/skills/cypress

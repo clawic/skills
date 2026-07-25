@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ec79f5de21421094381dd5b34f3b2237c7767ab2991bbac9136ea295e17911ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "safari",
-    "name": "Safari Browser Control",
+    "name": "safari",
     "description": "Control Safari on macOS with AppleScript, safaridriver, screenshots, tab navigation, and real-browser read, click, and type workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/safari",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/safari/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/_meta.json",
+      "byteCount": 180,
+      "sha256": "49917a2150aabab5d3ebf73488172824323cc6d1f014035592134b62ee8b48fe"
     },
     {
       "path": "applescript-control.md",
       "downloadPath": "skills/safari/applescript-control.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/applescript-control.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/applescript-control.md",
+      "byteCount": 3436,
+      "sha256": "78e487d32d08fcc90e4aecb9e0efd6f08947930b125ae5268978ae8437d44cf0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/safari/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/memory-template.md",
+      "byteCount": 2160,
+      "sha256": "2f52c5c64a717f7eb281da83f36f09d5690885a306d6595e29eebeb8bc6ca9d1"
     },
     {
       "path": "preflight-and-permissions.md",
       "downloadPath": "skills/safari/preflight-and-permissions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/preflight-and-permissions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/preflight-and-permissions.md",
+      "byteCount": 2178,
+      "sha256": "63b096ceb0ee9a4c3875f6392d3f3cf6a60019baccc09f5c8dbd234b87c4e8f2"
     },
     {
       "path": "screenshot-and-visual-loop.md",
       "downloadPath": "skills/safari/screenshot-and-visual-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/screenshot-and-visual-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/screenshot-and-visual-loop.md",
+      "byteCount": 1419,
+      "sha256": "cfbd6c80b4afec711cd47c1c3b831dce42ef0d67f3ec6679fb940f2b4316755b"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/safari/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/setup.md",
+      "byteCount": 2716,
+      "sha256": "efc68b247da404309e70ff60759f8bb3e8960d948a967122a83af535d2b85f85"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/safari/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/SKILL.md",
+      "byteCount": 9109,
+      "sha256": "10984b97ee858280950d36da12770cd638150424b23b2415ab5d86bca81c115f"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/safari/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/troubleshooting.md",
+      "byteCount": 1591,
+      "sha256": "7eda91491a0dd3f69a983cf9ffa41db5aa17af78d3f401e83c0e552045493f93"
     },
     {
       "path": "webdriver-and-bidi.md",
       "downloadPath": "skills/safari/webdriver-and-bidi.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/webdriver-and-bidi.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/safari/webdriver-and-bidi.md",
+      "byteCount": 1938,
+      "sha256": "2c462dc19721ae6c69509203cae3731d5cefcf821f07554e1cec3b3398b572b5"
     }
   ]
 }

@@ -1,9 +1,19 @@
 ---
-name: MBA
+name: mba
 slug: mba
 version: 1.0.0
 description: Complete MBA curriculum with structured learning, case studies, financial analysis, and practical business decision-making.
-metadata: {"clawdbot":{"emoji":"🎓","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mba
+metadata:
+  clawdbot:
+    emoji: 🎓
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: MBA
 ---
 
 ## When to Use
@@ -40,7 +50,7 @@ User wants business education equivalent to an MBA: understanding finance, strat
 
 ## Data Storage
 
-Track progress and exercises in ~/mba/:
+Track progress and exercises in ~/Clawic/data/mba/:
 - progress.md — Modules completed, mastery levels
 - cases/ — Solved case studies (your portfolio)
 - exercises/ — Completed exercises and analyses
@@ -68,6 +78,6 @@ Track progress and exercises in ~/mba/:
 
 1. Assess background and goals
 2. Recommend starting modules based on gaps
-3. Create ~/mba/ structure
+3. Create ~/Clawic/data/mba/ structure
 4. Set learning pace and schedule
 5. Begin with fundamentals or jump to priority topics

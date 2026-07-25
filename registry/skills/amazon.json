@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11a99df7f9ce1d61cd213169e941fe8a78ed7cdc7cad20210bc7969d65eecca0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "amazon",
-    "name": "Amazon",
+    "name": "amazon",
     "description": "Navigate Amazon as buyer, seller, or affiliate with price tracking, listing optimization, and smart purchasing decisions.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/amazon",
     "summary": "Quick Reference | File | Purpose | |------|---------| | `buying.md` | Smart purchasing, comparisons, reorders | | `pricing.md` | Price tracking, deal detection, timing | | `selling.md` | FBA/FBM operations, listing optim",
     "repositoryPath": "skills/amazon",
     "manifestPath": "registry/skills/amazon.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/amazon/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/_meta.json",
+      "byteCount": 240,
+      "sha256": "b39bf1dcc38327cfc1f2c7a0bbf4bd92ccff0dc03681ad77c5434d54bbde036f"
     },
     {
       "path": "affiliates.md",
       "downloadPath": "skills/amazon/affiliates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/affiliates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/affiliates.md",
+      "byteCount": 2002,
+      "sha256": "844781d8d4da3573cd201a5a1030d40399be9ef43c3370c0ff7c377ab9d1b012"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/amazon/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/buying.md",
+      "byteCount": 2419,
+      "sha256": "437fc8339d0c046b2c9dbae80a05501bf11a82c526ed3c5a05bfc312e69124ec"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/amazon/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/legal.md",
+      "byteCount": 2738,
+      "sha256": "730344004d44888678a4c51b6504ff8f0404d92a93f793bc2a7c486b2ac557d7"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/amazon/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/pricing.md",
+      "byteCount": 1933,
+      "sha256": "92eb6956993bb1be0f8538561a66a4861c59682ef5464ab146e5116466152b22"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/amazon/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/security.md",
+      "byteCount": 2369,
+      "sha256": "9199adb6fde1e72cc469d0465b3651f96f99f713e839153e2aa77aeba539c1ff"
     },
     {
       "path": "selling.md",
       "downloadPath": "skills/amazon/selling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/selling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/selling.md",
+      "byteCount": 2664,
+      "sha256": "fbbffee5d1e33ab5085be9bc7614562852cf77ac815dd0e53d40be0dbbe93a84"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/amazon/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/amazon/SKILL.md",
+      "byteCount": 4077,
+      "sha256": "af7f6375f00b2a429f7a719e3a58081504bd1bfeae395033a82b5e7a952434d4"
     }
   ]
 }

@@ -48,7 +48,7 @@ Never jump from initial search directly to booking.
 
 ## Logging safety
 
-In `~/expedia/partners/request-log.md`, keep only:
+In `~/Clawic/data/expedia/partners/request-log.md`, keep only:
 - mode: rapid
 - endpoint family
 - safe query summary

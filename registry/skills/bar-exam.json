@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "57737f23f30336be51149246f60362242769dc2b99d36d6fa417217a6775dfeb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "bar-exam",
-    "name": "Bar Exam",
+    "name": "bar-exam",
     "description": "Prepare for the US Bar Exam with MBE practice, essay drilling, weak area targeting, and jurisdiction planning.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bar-exam",
     "summary": "When to Use User is preparing for a US Bar Exam. Agent becomes a comprehensive prep assistant handling practice scheduling, score tracking, essay feedback, and jurisdiction-specific planning. Quick Reference | Topic | Fi",
     "repositoryPath": "skills/bar-exam",
     "manifestPath": "registry/skills/bar-exam.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bar-exam/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/_meta.json",
+      "byteCount": 168,
+      "sha256": "cd5d47629735afd064593548833e6791628cee4f37db933a790d10b75e65ad25"
     },
     {
       "path": "exam-format.md",
       "downloadPath": "skills/bar-exam/exam-format.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/exam-format.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/exam-format.md",
+      "byteCount": 1652,
+      "sha256": "ab007d86cdcedd9e20d51b12d7c847504dbd1545bdfb3c12f16fbb9112d0ac57"
     },
     {
       "path": "mbe.md",
       "downloadPath": "skills/bar-exam/mbe.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mbe.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mbe.md",
+      "byteCount": 2828,
+      "sha256": "a7a4edbdb836a42cb06fb0757a1f354ba001b8026f17e55db733faf5ea8dcfa2"
     },
     {
       "path": "mee.md",
       "downloadPath": "skills/bar-exam/mee.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mee.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mee.md",
+      "byteCount": 2394,
+      "sha256": "c408308280d158a67d55fcef29dce4d5b23dd95af95a196bfcd171baf77ccd3e"
     },
     {
       "path": "mpt.md",
       "downloadPath": "skills/bar-exam/mpt.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mpt.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/mpt.md",
+      "byteCount": 2542,
+      "sha256": "1b926bd05ba95f0ed12e8d750eadb3faf115736dafe6eb195942bd7e260f8a48"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bar-exam/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/SKILL.md",
+      "byteCount": 2993,
+      "sha256": "0ca31999d5478b112f2ce0dfdf2e4e2f2040762ce00906c3e2163671e49d4e2d"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/bar-exam/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/tracking.md",
+      "byteCount": 2202,
+      "sha256": "39ec1e92d4ded4354cc4b793a1ddab1d38213a10db7adb673ad92459801b99c7"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/bar-exam/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bar-exam/user-types.md",
+      "byteCount": 3369,
+      "sha256": "482d2f605ad9473eb15c48f34dd9547623943c2d914a8064cb2df5ac2b74552f"
     }
   ]
 }

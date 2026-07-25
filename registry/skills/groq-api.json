@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1343a0fd274d5181fba22d9e0c0173f76a3504dfee306b2122e375fa7adb5718",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "groq-api",
-    "name": "Groq API Inference",
+    "name": "groq-api",
     "description": "Build and debug Groq API chat and speech workflows with low-latency routing, structured outputs, and production-safe patterns.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/groq-api",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/groq-api/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/_meta.json",
+      "byteCount": 178,
+      "sha256": "520baf432f3e6e7feb00a7eaf05ea538468e83c67a07360c8db84dd05cc2cba6"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/groq-api/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/api-patterns.md",
+      "byteCount": 1628,
+      "sha256": "ebdbcc6881153ad5e24919efd8a72a1c5882064aa3a3dbebcaf277c9d5fe8a42"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/groq-api/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/memory-template.md",
+      "byteCount": 1632,
+      "sha256": "e25452ef819e36331adc0a48ed90e44aaeb68a9d4764279f4331d2f17345f997"
     },
     {
       "path": "model-selection.md",
       "downloadPath": "skills/groq-api/model-selection.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/model-selection.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/model-selection.md",
+      "byteCount": 1449,
+      "sha256": "7ae86028ebaad3aa84657466c92902c0801cf7abc483da9a69c58a0b955dc110"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/groq-api/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/setup.md",
+      "byteCount": 1916,
+      "sha256": "1482d90acdff56f0d54b5e6ab0581201efec98b3101faadefc6fe04c248ad4b5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/groq-api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/SKILL.md",
+      "byteCount": 5368,
+      "sha256": "7e73e97fa65c4fdd6c947b301922fa5d98f8d926897c69a80d7b4ab770876fc5"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/groq-api/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/troubleshooting.md",
+      "byteCount": 1396,
+      "sha256": "5ab60245842e0e95ecada3c3b50de89102fd8c5e3279f86f3a3290507eb125d7"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Setup — Android Studio
 
-Read this when `~/android-studio/` doesn't exist. Start the conversation naturally.
+Read this when `~/Clawic/data/android-studio/` doesn't exist. Start the conversation naturally.
 
 ## Your Attitude
 
@@ -34,7 +34,7 @@ Ask what slows them down:
 
 ## What You're Saving
 
-In `~/android-studio/memory.md`:
+In `~/Clawic/data/android-studio/memory.md`:
 - IDE version
 - Platform (macOS/Windows/Linux)
 - Project types they work on

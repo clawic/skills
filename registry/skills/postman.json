@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1a89d82740924410b57cfce3b6678354f34f374bac74314f0d4c605dbe9c2f16",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "postman",
-    "name": "Postman",
+    "name": "postman",
     "description": "Build, test, and automate APIs with Postman collections, environments, and Newman CLI.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/postman",
-    "summary": "Setup If `~/postman/` doesn't exist, read `setup.md` silently and start naturally. When to Use User needs to test APIs, create Postman collections, manage environments, or run automated API tests with Newman. Architectur",
+    "summary": "Setup If `~/Clawic/data/postman/` doesn't exist, read `setup.md` silently and start naturally. When to Use User needs to test APIs, create Postman collections, manage environments, or run automated API tests with Newman.",
     "repositoryPath": "skills/postman",
     "manifestPath": "registry/skills/postman.json"
   },
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/postman/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/_meta.json",
+      "byteCount": 166,
+      "sha256": "b5ea1be927f80cefc1a45c2cb42e2f9e423a087c66ddbc3a0cc48d585d3cfad4"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/postman/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/collections.md",
+      "byteCount": 2927,
+      "sha256": "e2da6c8b3f2645ae10d928f0c6be2f9e1407dd8849a0ff7b25f6b6bafdfef3d0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/postman/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/memory-template.md",
+      "byteCount": 1062,
+      "sha256": "5cc1d719ef619a22b42ff95156eba16b932839c35c6d68a1d2e694384a33b892"
     },
     {
       "path": "newman.md",
       "downloadPath": "skills/postman/newman.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/newman.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/newman.md",
+      "byteCount": 2887,
+      "sha256": "a5bde4b56b4301250029bfaba4b8faf872d938ce886602e7decdb015a6d71bf4"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/postman/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/setup.md",
+      "byteCount": 1439,
+      "sha256": "8dfa0fe3440d792cc2846773532bbc2375913ec9789718fb23e427dd9bafd4f4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/postman/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/postman/SKILL.md",
+      "byteCount": 5966,
+      "sha256": "7a0fe63472f08321a09c546e1935f1889cb099b84aa3d3124126482782a2f46d"
     }
   ]
 }

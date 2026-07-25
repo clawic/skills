@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cc497aff5cb3f699e2e72a0908a1d69d1aa754f1fc065b30375a6f678658e838",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "hong-kong",
-    "name": "Hong Kong",
+    "name": "hong-kong",
     "description": "Navigate Hong Kong as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, MTR transport, costs, visas, and local insights.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/hong-kong",
     "summary": "When to Use User asks about Hong Kong for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| |",
     "repositoryPath": "skills/hong-kong",
     "manifestPath": "registry/skills/hong-kong.json"
@@ -21,162 +25,226 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hong-kong/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/_meta.json",
+      "byteCount": 170,
+      "sha256": "1d302afbfe1f7d68eb9fa56ca833f88b86e8581819b5626ba170e67a111233da"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/hong-kong/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/business.md",
+      "byteCount": 11139,
+      "sha256": "8fb67cffec434a4ab5dead73107e8d3a144bd9a97f2310d769902995d748469f"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/hong-kong/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/climate.md",
+      "byteCount": 7997,
+      "sha256": "437da30692a5c377d296547f7d80701687eb24333e250ed4db9f797d4de2d9cf"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/hong-kong/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/cost.md",
+      "byteCount": 9536,
+      "sha256": "c37ad97941be1139422490e22bd6fb33030c464cc34e4d8482cd588517429da7"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/hong-kong/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/culture.md",
+      "byteCount": 9039,
+      "sha256": "00fa6e541dad8647b3d1bda4e9b4c939350f881872537cf5e5e1f62d4d1510da"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/hong-kong/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/driving.md",
+      "byteCount": 9164,
+      "sha256": "d44ba1a6efddb7e63f971b111d3763dabba9f18e93bfc059e2418e96ab2bfb8f"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/hong-kong/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/education.md",
+      "byteCount": 10546,
+      "sha256": "4095604b81bbffd441f061ce190ef0efa0d4ef7374f52b85d12b8c338dc896b5"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/hong-kong/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-areas.md",
+      "byteCount": 8797,
+      "sha256": "8cac8ceba97133dcd009d54fdeaf1b11672de3af7cd6241fea8c0c3038ed49a6"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/hong-kong/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-international.md",
+      "byteCount": 8332,
+      "sha256": "69dc0ca0dbf4c9a3df865ba68edaf554ee6c5b4eee79ccac9ad58e4fbcab3329"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/hong-kong/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-local.md",
+      "byteCount": 7422,
+      "sha256": "16c4873de492e04035b86cd43c5969486ca1faadc828b1029463c4e06aa80058"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/hong-kong/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-overview.md",
+      "byteCount": 4939,
+      "sha256": "ab9a5dfc890e137eab0cff7bf41ff7a195fc2ae5b9ff1857d1c5f9861cdc2142"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/hong-kong/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/food-practical.md",
+      "byteCount": 8295,
+      "sha256": "861ff51db7891d40d08ec91431699e0bfcf5be7f1836c07377062e13ecf96fe5"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/hong-kong/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/healthcare.md",
+      "byteCount": 9885,
+      "sha256": "acea4c3b2082efac5653341ce090de7c85ae6edd5a262a4f419bc27c404a47cf"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/hong-kong/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/lifestyle.md",
+      "byteCount": 10880,
+      "sha256": "81801f8f06d43f794bc018438b8f4732a7625e2c8d3e7dbefaf5c969877d25bb"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/hong-kong/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/local.md",
+      "byteCount": 10221,
+      "sha256": "9935a195accb94cfd45d88b70709c995a1e7caddf80125e1f738d41a9ae917db"
     },
     {
       "path": "neighborhoods-causeway.md",
       "downloadPath": "skills/hong-kong/neighborhoods-causeway.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-causeway.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-causeway.md",
+      "byteCount": 8632,
+      "sha256": "cd43d0b076e5eaa96615700b6154ef1c0e5da24935c86ed2dd6836a287004d33"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/hong-kong/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-central.md",
+      "byteCount": 7755,
+      "sha256": "5b4dc75382197ba5bbe98a9eca19f5733bda3723aa72d0a9cd38627c7ddb9faf"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/hong-kong/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-choosing.md",
+      "byteCount": 8458,
+      "sha256": "7bf401de52f2a06b0d7f857e95203eb4a057c7f06a73ff56de32b9ce4dd2575f"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/hong-kong/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-index.md",
+      "byteCount": 4560,
+      "sha256": "b0a10dcdde00db3fa346579b175792cfb3e77658cb6c5e535b9cbf22c45a1dc9"
     },
     {
       "path": "neighborhoods-kowloon.md",
       "downloadPath": "skills/hong-kong/neighborhoods-kowloon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-kowloon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-kowloon.md",
+      "byteCount": 9494,
+      "sha256": "c52007dc16df41c930d79c22c65a3398c94174b668dd48e74433cb8d459d3145"
     },
     {
       "path": "neighborhoods-newterritories.md",
       "downloadPath": "skills/hong-kong/neighborhoods-newterritories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-newterritories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/neighborhoods-newterritories.md",
+      "byteCount": 10180,
+      "sha256": "b8445aedc60e3f082670f6b2ac2361f3c349fd65f709cb65b74be119fd70586a"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/hong-kong/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/resident.md",
+      "byteCount": 12377,
+      "sha256": "4c7cd27be780b3846df6d6961b8396388db39bc7ea6a890e05398dfea8736299"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/hong-kong/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/safety.md",
+      "byteCount": 8910,
+      "sha256": "f030e84b5b045a8405d8efdfe40543d98dc3cd3d6139dd64e9c2d053ea112452"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hong-kong/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/SKILL.md",
+      "byteCount": 6946,
+      "sha256": "353bd6654439f3f3d568b872698b6919a90bee068046e458476afc10492f0be7"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/hong-kong/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/startup.md",
+      "byteCount": 10725,
+      "sha256": "eb1e678d2dc56eda4d96deb3fc037ec84e063aa97ff9f6e274aaba8aec6d40b4"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/hong-kong/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/tech.md",
+      "byteCount": 8802,
+      "sha256": "b8cd1c4f88fe89ff7a2015c06376276efabf5212fccac3fdc98e62e27df0e36d"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/hong-kong/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/transport.md",
+      "byteCount": 8617,
+      "sha256": "7cc3ff393dadf61840385442c6b1508a7c4f47fc99e48296fc95ae1633b8b900"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/hong-kong/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visas.md",
+      "byteCount": 10859,
+      "sha256": "32686e7e1e68647a70e33d7ddbd7417218b8169dc5da48e4d0bf994bc50fca2b"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/hong-kong/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-attractions.md",
+      "byteCount": 7369,
+      "sha256": "f1ce7d779909649fc77c789780e63fcfbd572ee2bfafb356fd96b2e620503843"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/hong-kong/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-itineraries.md",
+      "byteCount": 9219,
+      "sha256": "802abb2317c1e606c7d7ec6f9fed5a101b5d30ebbd8b8a27d68b2aca24f724ac"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/hong-kong/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-lodging.md",
+      "byteCount": 8682,
+      "sha256": "a9f3109111b7831a5311742cf3924b897e07db5d2f5117b78b2e5e257e3ac097"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/hong-kong/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hong-kong/visitor-tips.md",
+      "byteCount": 8682,
+      "sha256": "25aed39f36858acd86c94e4ad9849fc3ef9906ecbbd9c78b3c203ec4bd0a0772"
     }
   ]
 }

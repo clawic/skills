@@ -1,6 +1,6 @@
 # Setup — Postman
 
-Read this silently when `~/postman/` doesn't exist. Start naturally — never mention "setup" or file names.
+Read this silently when `~/Clawic/data/postman/` doesn't exist. Start naturally — never mention "setup" or file names.
 
 ## Your Attitude
 
@@ -32,7 +32,7 @@ Help them create:
 
 ## What You're Saving (internally)
 
-In `~/postman/memory.md`:
+In `~/Clawic/data/postman/memory.md`:
 - API projects they work with
 - Preferred collection structure
 - Authentication patterns

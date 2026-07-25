@@ -1,11 +1,24 @@
 ---
-name: Europe
+name: europe
 slug: europe
 version: 1.0.0
-homepage: https://clawic.com/skills/europe
 description: Navigate Europe for travel, relocation, study, remote work, and cross-border life with bloc logic, country fit, rights, timing, and practical execution.
-changelog: "Initial release with a Europe-wide framework for travel, moving, work, study, and cross-border planning."
-metadata: {"clawdbot":{"emoji":"🌍","requires":{"bins":[],"config":["~/europe/"]},"os":["linux","darwin","win32"],"configPaths":["~/europe/"]}}
+homepage: https://clawic.com/skills/europe
+changelog: Initial release with a Europe-wide framework for travel, moving, work, study, and cross-border planning.
+metadata:
+  clawdbot:
+    emoji: 🌍
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/europe/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/europe/
+    displayName: Europe
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for seven modes: visiting Europe, choosing a base in 
 
 ## Architecture
 
-This skill works statelessly for one-off Europe questions. If the user wants continuity across sessions, memory lives in `~/europe/`. If `~/europe/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off Europe questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/europe/`. If `~/Clawic/data/europe/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/europe/
+~/Clawic/data/europe/
 └── memory.md     # Nationality, mobility rights, target countries, timelines, constraints, and open loops
 ```
 
@@ -93,7 +106,7 @@ This skill works statelessly for one-off Europe questions. If the user wants con
 - If a country-specific official page is required, say so clearly instead of improvising.
 
 ### 9. Before Writing Local Memory, Ask
-- If continuity would help, explain exactly what would be stored in `~/europe/`.
+- If continuity would help, explain exactly what would be stored in `~/Clawic/data/europe/`.
 - Ask for confirmation before creating or changing local files.
 - Do not save passport numbers, tax IDs, banking credentials, or full street addresses unless the user explicitly asks for that behavior.
 
@@ -130,7 +143,7 @@ No other data is sent externally.
 - Country, nationality, residency, profession, or route context only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Mobility goals, target countries, trip or move timelines, family constraints, and open tasks in `~/europe/`
+- Mobility goals, target countries, trip or move timelines, family constraints, and open tasks in `~/Clawic/data/europe/`
 
 **This skill does NOT:**
 - Submit visa, tax, residency, or university forms on the user's behalf without explicit instruction
@@ -144,7 +157,7 @@ By using this skill, details such as nationality, target country, and cross-bord
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `car-rental` — Better cross-border rental and handoff planning
@@ -153,5 +166,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star europe`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/europe
+- Latest version: https://clawic.com/skills/europe

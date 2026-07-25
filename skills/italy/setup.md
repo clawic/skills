@@ -6,7 +6,7 @@ No external dependencies. This skill uses file-based knowledge only.
 
 ## Memory Configuration
 
-Create `~/italy/` directory for user preferences:
+Create `~/Clawic/data/italy/` directory for user preferences:
 
 ```bash
 mkdir -p ~/italy
@@ -15,7 +15,7 @@ mkdir -p ~/italy
 Copy the memory template:
 
 ```bash
-cp memory-template.md ~/italy/preferences.md
+cp memory-template.md ~/Clawic/data/italy/preferences.md
 ```
 
 ## File Structure
@@ -70,7 +70,7 @@ italy/
 
 ### Memory System
 
-User preferences stored in `~/italy/preferences.md`:
+User preferences stored in `~/Clawic/data/italy/preferences.md`:
 - Food restrictions
 - Travel style
 - Budget level

@@ -1,7 +1,17 @@
 ---
-name: Medicine
+name: medicine
+slug: medicine
+version: 1.0.0
 description: Support medical understanding from patient education to clinical practice and research.
-metadata: {"clawdbot":{"emoji":"⚕️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/medicine
+metadata:
+  clawdbot:
+    emoji: ⚕️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Medicine
 ---
 
 ## Detect Level, Adapt Everything

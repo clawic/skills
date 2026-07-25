@@ -1,6 +1,6 @@
 # Memory Template - iCloud
 
-Create `~/icloud/memory.md` with this structure:
+Create `~/Clawic/data/icloud/memory.md` with this structure:
 
 ```markdown
 # iCloud Memory

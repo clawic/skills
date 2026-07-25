@@ -1,7 +1,17 @@
 ---
-name: S3
+name: s3
+slug: s3
+version: 1.0.0
 description: Work with S3-compatible object storage with proper security, lifecycle policies, and access patterns.
-metadata: {"clawdbot":{"emoji":"🪣","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/s3
+metadata:
+  clawdbot:
+    emoji: 🪣
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: S3
 ---
 
 ## Public Access Control

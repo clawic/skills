@@ -1,6 +1,6 @@
 # Memory Template - Security Best Practices
 
-Create `~/security-best-practices/memory.md` with this structure:
+Create `~/Clawic/data/security-best-practices/memory.md` with this structure:
 
 ```markdown
 # Security Best Practices Memory
@@ -31,7 +31,7 @@ integration: pending
 
 ## findings-log.md Template
 
-Create `~/security-best-practices/findings-log.md`:
+Create `~/Clawic/data/security-best-practices/findings-log.md`:
 
 ```markdown
 # Findings Log
@@ -49,7 +49,7 @@ Verification: pending | passed | failed
 
 ## exceptions.md Template
 
-Create `~/security-best-practices/exceptions.md`:
+Create `~/Clawic/data/security-best-practices/exceptions.md`:
 
 ```markdown
 # Security Exceptions

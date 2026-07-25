@@ -1,6 +1,6 @@
 # Memory Template - Pregnancy (Tracker, Journal, Triage, Visit Prep)
 
-Create `~/pregnancy/memory.md` with this structure:
+Create `~/Clawic/data/pregnancy/memory.md` with this structure:
 
 ```markdown
 # Pregnancy Memory
@@ -53,7 +53,7 @@ local_emergency_number:
 
 ## File Templates
 
-Create `~/pregnancy/logs/daily-log.md`:
+Create `~/Clawic/data/pregnancy/logs/daily-log.md`:
 
 ```markdown
 # Pregnancy Daily Log
@@ -67,7 +67,7 @@ Create `~/pregnancy/logs/daily-log.md`:
 - Appointments/tasks: item | due_date | status
 ```
 
-Create `~/pregnancy/summaries/weekly.md`:
+Create `~/Clawic/data/pregnancy/summaries/weekly.md`:
 
 ```markdown
 # Pregnancy Weekly Summary
@@ -81,7 +81,7 @@ Create `~/pregnancy/summaries/weekly.md`:
 - Next-week focus:
 ```
 
-Create `~/pregnancy/alerts/events.md`:
+Create `~/Clawic/data/pregnancy/alerts/events.md`:
 
 ```markdown
 # Pregnancy Alert Events
@@ -95,7 +95,7 @@ Create `~/pregnancy/alerts/events.md`:
 - Follow-up needed:
 ```
 
-Create `~/pregnancy/summaries/visit-prep.md`:
+Create `~/Clawic/data/pregnancy/summaries/visit-prep.md`:
 
 ```markdown
 # Prenatal Visit Prep

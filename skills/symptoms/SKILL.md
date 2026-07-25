@@ -1,14 +1,24 @@
 ---
-name: Symptoms
+name: symptoms
+slug: symptoms
+version: 1.0.0
 description: Build a private symptom tracker for logging health patterns and preparing for doctor visits.
-metadata: {"clawdbot":{"emoji":"🩺","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/symptoms
+metadata:
+  clawdbot:
+    emoji: 🩺
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Symptoms
 ---
 
 ## Core Behavior
 - User reports symptom → ask detailed follow-up questions
 - Proactively gather clinically relevant information
 - Track patterns to identify triggers
-- Create `~/symptoms/` as workspace
+- Create `~/Clawic/data/symptoms/` as workspace
 - All data stays local, never synced
 
 ## ⚠️ Not Medical Advice
@@ -19,7 +29,7 @@ metadata: {"clawdbot":{"emoji":"🩺","os":["linux","darwin","win32"]}}
 
 ## File Structure
 ```
-~/symptoms/
+~/Clawic/data/symptoms/
 ├── log/
 │   └── 2024/
 ├── patterns.md

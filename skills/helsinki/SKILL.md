@@ -1,10 +1,19 @@
 ---
-name: Helsinki
+name: helsinki
 slug: helsinki
 version: 1.0.0
-homepage: https://clawic.com/skills/helsinki
 description: Navigate Helsinki as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🇫🇮","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/helsinki
+metadata:
+  clawdbot:
+    emoji: 🇫🇮
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Helsinki
 ---
 
 ## Setup
@@ -178,12 +187,12 @@ Finland has straightforward laws but some specifics:
 See `safety.md` for comprehensive guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` - similar city guide format
 - `travel` - trip planning and logistics
 - `startup` - entrepreneurship guidance
 
 ## Feedback
 
-- If useful: `clawhub star helsinki`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/helsinki
+- Latest version: https://clawic.com/skills/helsinki

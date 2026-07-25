@@ -1,6 +1,6 @@
 # Setup - Engineer
 
-Use this file when `~/engineer/` is missing or empty, or when the user wants engineering preferences to persist between sessions.
+Use this file when `~/Clawic/data/engineer/` is missing or empty, or when the user wants engineering preferences to persist between sessions.
 
 ## Your Attitude
 
@@ -56,5 +56,5 @@ Save only reusable operating context:
 - default risk posture and validation depth
 - stable domain context that improves later recommendations
 
-Store data only in `~/engineer/` after explicit user consent.
-If the user does not want persistence, keep everything session-only and do not create or update `~/engineer/`.
+Store data only in `~/Clawic/data/engineer/` after explicit user consent.
+If the user does not want persistence, keep everything session-only and do not create or update `~/Clawic/data/engineer/`.

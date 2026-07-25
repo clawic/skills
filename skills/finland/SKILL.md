@@ -1,16 +1,27 @@
 ---
-name: Finland
+name: finland
 slug: finland
 version: 1.0.0
-homepage: https://clawic.com/skills/finland
-changelog: "Initial release with verified Finland entry rules, seasonal routing, and practical travel logistics."
 description: Plan Finland trips with verified entry rules, season-aware routing, rail-and-Lapland logistics, and practical tourist safety.
-metadata: {"clawdbot":{"emoji":"🇫🇮","requires":{"bins":[],"config":["~/finland/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/finland
+changelog: Initial release with verified Finland entry rules, seasonal routing, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇫🇮
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/finland/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Finland
 ---
 
 ## Setup
 
-If `~/finland/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/finland/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Finland trip and needs operational guidance beyond generic No
 
 ## Architecture
 
-Memory lives in `~/finland/`. If `~/finland/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/finland/`. If `~/Clawic/data/finland/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/finland/
+~/Clawic/data/finland/
 └── memory.md     # Trip context, route logic, and evolving constraints
 ```
 
@@ -105,12 +116,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/finland/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/finland/`
 
-**This skill does NOT:** Access files outside `~/finland/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/finland/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `car-rental` — Better self-drive strategy and handoff logistics
@@ -119,5 +130,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star finland`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/finland
+- Latest version: https://clawic.com/skills/finland

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9ea3f419b3f89f6ba9f6c6319eec8475df11bf55a7ad1266f896a052999ec00a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "flashcards",
-    "name": "Flashcards",
+    "name": "flashcards",
     "description": "Create effective flashcards with optimal formatting, spaced repetition integration, and memory science principles.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/flashcards",
     "summary": "Card Formulation Rules **One fact per card**: Never combine multiple concepts. \"What is X?\" not \"What are X, Y, and Z?\" **Atomic questions**: Break complex topics into smallest testable units. Each card tests exactly one",
     "repositoryPath": "skills/flashcards",
     "manifestPath": "registry/skills/flashcards.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/flashcards/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flashcards/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flashcards/_meta.json",
+      "byteCount": 172,
+      "sha256": "838c9d1713443417062817ba98762638d69b0f4a30c919413c6f392622c8f2ab"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/flashcards/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flashcards/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flashcards/SKILL.md",
+      "byteCount": 2984,
+      "sha256": "59f6e702342a20a0529324dcc5663a741d33e982dfbf468bd01593cdcf6243ff"
     }
   ]
 }

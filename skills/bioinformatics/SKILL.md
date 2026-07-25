@@ -1,15 +1,31 @@
 ---
-name: Bioinformatics
+name: bioinformatics
 slug: bioinformatics
 version: 1.0.0
-homepage: https://clawic.com/skills/bioinformatics
 description: Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.
-metadata: {"clawdbot":{"emoji":"🧬","requires":{"bins":["samtools","bcftools","bedtools","bwa","fastqc","fastp"],"config":["~/bioinformatics/"]},"os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/bioinformatics
+metadata:
+  clawdbot:
+    emoji: 🧬
+    requires:
+      bins:
+      - samtools
+      - bcftools
+      - bedtools
+      - bwa
+      - fastqc
+      - fastp
+      config:
+      - ~/Clawic/data/bioinformatics/
+    os:
+    - linux
+    - darwin
+    displayName: Bioinformatics
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Create `~/bioinformatics/` with user consent to store project context and preferences.
+On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/bioinformatics/` with user consent to store project context and preferences.
 
 ## When to Use
 
@@ -17,10 +33,10 @@ User needs to analyze biological sequences, run genomic pipelines, or interpret 
 
 ## Architecture
 
-Memory lives in `~/bioinformatics/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/bioinformatics/`. See `memory-template.md` for structure.
 
 ```
-~/bioinformatics/
+~/Clawic/data/bioinformatics/
 ├── memory.md         # Projects, preferences, reference genomes
 ├── pipelines/        # Saved pipeline configurations
 └── results/          # Analysis outputs and logs
@@ -53,7 +69,7 @@ Track which reference is used per project:
 - Mouse: GRCm39/mm39 or GRCm38/mm10
 - Mixing references = invalid results
 
-Store reference info in `~/bioinformatics/memory.md` per project.
+Store reference info in `~/Clawic/data/bioinformatics/memory.md` per project.
 
 ### 3. Preserve Raw Data
 **NEVER** modify original FASTQ/BAM files:
@@ -156,12 +172,12 @@ bcftools view -r chr1:1000-2000 variants.vcf.gz
 **Data access:**
 - Only reads files user explicitly provides as input
 - Writes outputs to directories user specifies
-- Stores preferences in ~/bioinformatics/ (with consent)
+- Stores preferences in ~/Clawic/data/bioinformatics/ (with consent)
 
 **Data that stays local:**
 - All sequence data processed locally
 - No external API calls for analysis
-- Pipeline configs in ~/bioinformatics/
+- Pipeline configs in ~/Clawic/data/bioinformatics/
 
 **This skill does NOT:**
 - Upload sequence data anywhere
@@ -172,12 +188,12 @@ bcftools view -r chr1:1000-2000 variants.vcf.gz
 **Note:** Installing tools (conda, brew) and downloading reference genomes requires internet access. These are user-initiated actions.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `data-analysis` — statistical interpretation
 - `statistics` — hypothesis testing
 - `science` — research methodology
 
 ## Feedback
 
-- If useful: `clawhub star bioinformatics`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/bioinformatics
+- Latest version: https://clawic.com/skills/bioinformatics

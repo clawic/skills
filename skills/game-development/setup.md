@@ -1,6 +1,6 @@
 # Setup - Game Development
 
-Read this when `~/game-development/` is missing or empty.
+Read this when `~/Clawic/data/game-development/` is missing or empty.
 Keep setup concise and oriented to fast first-playable outcomes.
 
 ## Operating Priorities
@@ -30,9 +30,9 @@ Keep setup concise and oriented to fast first-playable outcomes.
 4. If context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/game-development
-touch ~/game-development/{memory.md,concept-briefs.md,user-preferences.md,system-decisions.md,playtest-log.md,roadmap.md,release-notes.md}
+touch ~/Clawic/data/game-development/{memory.md,concept-briefs.md,user-preferences.md,system-decisions.md,playtest-log.md,roadmap.md,release-notes.md}
 chmod 700 ~/game-development
-chmod 600 ~/game-development/{memory.md,concept-briefs.md,user-preferences.md,system-decisions.md,playtest-log.md,roadmap.md,release-notes.md}
+chmod 600 ~/Clawic/data/game-development/{memory.md,concept-briefs.md,user-preferences.md,system-decisions.md,playtest-log.md,roadmap.md,release-notes.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

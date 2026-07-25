@@ -1,6 +1,6 @@
 # Memory Template - Brave Browser
 
-Create `~/brave/memory.md` with this structure:
+Create `~/Clawic/data/brave/memory.md` with this structure:
 
 ```markdown
 # Brave Browser Memory

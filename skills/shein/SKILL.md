@@ -1,10 +1,19 @@
 ---
-name: Shein Shopping
+name: shein
 slug: shein
 version: 1.0.0
-homepage: https://clawic.com/skills/shein
 description: Shop Shein with price tracking, size guidance, quality assessment, and smart deal finding.
-metadata: {"clawdbot":{"emoji":"🛍️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/shein
+metadata:
+  clawdbot:
+    emoji: 🛍️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Shein Shopping
 ---
 
 ## When to Use
@@ -76,12 +85,12 @@ Set realistic expectations. Express worth it for time-sensitive items only.
 - Rushing orders → missing flash sales that happen weekly
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `shopping` — general shopping assistance
 - `fashion` — style and outfit guidance
 - `ecommerce` — broader ecommerce patterns
 
 ## Feedback
 
-- If useful: `clawhub star shein`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/shein
+- Latest version: https://clawic.com/skills/shein

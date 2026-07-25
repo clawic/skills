@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "77256beaafa3517b45bbdbbd267ed853c598d5113b9893068b3b6366f60c1d08",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "mobile",
-    "name": "Mobile",
+    "name": "mobile",
     "description": "Build mobile applications with proper lifecycle handling, offline support, and platform conventions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mobile",
     "summary": "Lifecycle Awareness - App can be killed anytime in background—save state before backgrounding - Restore state on return—user expects to continue where they left off - Handle low memory warnings—release caches, non-essent",
     "repositoryPath": "skills/mobile",
     "manifestPath": "registry/skills/mobile.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mobile/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile/_meta.json",
+      "byteCount": 164,
+      "sha256": "e7aee1cf09dece6fe0dc6cbd1981b52b7247b21290b6b959e0c5721519a77664"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mobile/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile/SKILL.md",
+      "byteCount": 4057,
+      "sha256": "75bbe3a1d91c6d49fdd63c4b4b5742d3cb2a3165a7abf43e17ef5022fd44a3a0"
     }
   ]
 }

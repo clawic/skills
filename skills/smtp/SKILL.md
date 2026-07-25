@@ -1,11 +1,22 @@
 ---
-name: SMTP
+name: smtp
 slug: smtp
 version: 1.0.0
+description: Send, test, and debug SMTP mail flows with safe dry runs, provider-aware auth, and deliverability checks.
 homepage: https://clawic.com/skills/smtp
-description: "Send, test, and debug SMTP mail flows with safe dry runs, provider-aware auth, and deliverability checks."
-changelog: "Initial release with safe SMTP send flow, provider profiles, auth diagnostics, and deliverability checks."
-metadata: {"clawdbot":{"emoji":"📬","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/smtp/"]}}
+changelog: Initial release with safe SMTP send flow, provider profiles, auth diagnostics, and deliverability checks.
+metadata:
+  clawdbot:
+    emoji: 📬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/smtp/
+    displayName: SMTP
 ---
 
 ## When to Use
@@ -15,10 +26,10 @@ It is for submission and delivery work: provider setup, ports and TLS, auth fail
 
 ## Architecture
 
-Memory lives in `~/smtp/`. If `~/smtp/` does not exist, run `setup.md`. Use `memory-template.md`, `memory.md`, `provider-profiles.md`, `send-log.md`, and `deliverability-notes.md` as the local baseline.
+Memory lives in `~/Clawic/data/smtp/`. If `~/Clawic/data/smtp/` does not exist, run `setup.md`. Use `memory-template.md`, `memory.md`, `provider-profiles.md`, `send-log.md`, and `deliverability-notes.md` as the local baseline.
 
 ```text
-~/smtp/
+~/Clawic/data/smtp/
 ├── memory.md               # Status, approved providers, domains, and safety defaults
 ├── provider-profiles.md    # Known-good hosts, ports, auth mode, and sender identity notes
 ├── send-log.md             # Dry-run decisions, canary sends, message IDs, and outcomes
@@ -29,8 +40,8 @@ Memory lives in `~/smtp/`. If `~/smtp/` does not exist, run `setup.md`. Use `mem
 
 | Topic | File | Use it for |
 |-------|------|------------|
-| Setup and first-run guardrails | `setup.md` | Initialize `~/smtp/` without storing secrets or sending mail too early |
-| Memory structure | `memory-template.md` | Create `~/smtp/memory.md` with status and stable context |
+| Setup and first-run guardrails | `setup.md` | Initialize `~/Clawic/data/smtp/` without storing secrets or sending mail too early |
+| Memory structure | `memory-template.md` | Create `~/Clawic/data/smtp/memory.md` with status and stable context |
 | Baseline memory example | `memory.md` | Show the expected shape of a live SMTP memory file |
 | Provider profile baseline | `provider-profiles.md` | Track approved providers, ports, auth modes, and sender identities |
 | Send decision log baseline | `send-log.md` | Record dry runs, canaries, queue IDs, and verification evidence |
@@ -43,7 +54,7 @@ Memory lives in `~/smtp/`. If `~/smtp/` does not exist, run `setup.md`. Use `mem
 ## Requirements
 
 - SMTP host access only when the user wants real network testing or live sending.
-- Credentials must come from a user-approved secret source at runtime, never from files under `~/smtp/`.
+- Credentials must come from a user-approved secret source at runtime, never from files under `~/Clawic/data/smtp/`.
 - Recommended tools: `swaks` for SMTP probes, `openssl` for TLS inspection, and `dig` or `nslookup` for DNS checks.
 - Explicit confirmation before any live send, external-recipient test, or multi-recipient action.
 
@@ -70,7 +81,7 @@ Memory lives in `~/smtp/`. If `~/smtp/` does not exist, run `setup.md`. Use `mem
 - Only widen recipients after you have queue acceptance, message ID evidence, and inbox-or-spam confirmation.
 
 ### 6. Handle Credentials and Logs Safely
-- Never write raw SMTP passwords, API tokens, or full secrets into `~/smtp/`.
+- Never write raw SMTP passwords, API tokens, or full secrets into `~/Clawic/data/smtp/`.
 - Redact logs and screenshots before storing or sharing them. Keep only the smallest evidence needed to debug.
 
 ### 7. Acceptance Is Not Delivery
@@ -99,7 +110,7 @@ No other data should be sent externally unless the user explicitly approves broa
 
 ## Data Storage
 
-Local state in `~/smtp/` includes:
+Local state in `~/Clawic/data/smtp/` includes:
 
 - activation state, approved providers, and safety defaults in `memory.md`
 - known-good server profiles and sender-identity notes in `provider-profiles.md`
@@ -113,8 +124,8 @@ Local state in `~/smtp/` includes:
 - DNS queries needed to validate sender-domain health and routing
 
 **Data that stays local:**
-- safe defaults and approved provider context in `~/smtp/memory.md`
-- known-good provider settings and debugging evidence in `~/smtp/provider-profiles.md`, `~/smtp/send-log.md`, and `~/smtp/deliverability-notes.md`
+- safe defaults and approved provider context in `~/Clawic/data/smtp/memory.md`
+- known-good provider settings and debugging evidence in `~/Clawic/data/smtp/provider-profiles.md`, `~/Clawic/data/smtp/send-log.md`, and `~/Clawic/data/smtp/deliverability-notes.md`
 
 **This skill does NOT:**
 - send live mail without explicit confirmation
@@ -132,17 +143,17 @@ Only install and run it if you trust those providers with your outbound mail flo
 
 This skill ONLY:
 - helps configure and diagnose outbound SMTP submission
-- maintains small local notes in `~/smtp/`
+- maintains small local notes in `~/Clawic/data/smtp/`
 - runs canary-first send workflows with explicit confirmation gates
 
 This skill NEVER:
 - guess live-send approval from vague user intent
-- keep credentials in `~/smtp/`
+- keep credentials in `~/Clawic/data/smtp/`
 - treat queue acceptance as the final delivery result
 - broaden a one-off test into a bulk-send workflow without consent
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `mail` - broader mailbox operations across IMAP, SMTP, and Apple Mail workflows
 - `dns` - deeper DNS record work for SPF, DKIM, DMARC, MX, and TTL changes
 - `network` - port reachability, TLS, and connection debugging beyond mail workflows
@@ -151,5 +162,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star smtp`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/smtp
+- Latest version: https://clawic.com/skills/smtp

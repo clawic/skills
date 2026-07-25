@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8e8a25a584771c7e00ce23c1ce4d416d0870fed1feb16001f26ef692cf29bc11",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "voice-notes",
-    "name": "Voice Notes",
+    "name": "voice-notes",
     "description": "Organize voice message transcripts into a structured, searchable knowledge base with tags, links, and progressive note-taking.",
     "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/voice-notes",
     "summary": "When to Use User sends voice messages. The agent platform handles transcription (via its configured STT). This skill organizes the resulting transcripts into structured notes, links related content, and maintains a scala",
     "repositoryPath": "skills/voice-notes",
     "manifestPath": "registry/skills/voice-notes.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/voice-notes/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/_meta.json",
+      "byteCount": 250,
+      "sha256": "df435a1830d377bc78e4efd2979bf2f668336ac32b7d70f7ce1c8f5a221c70ac"
     },
     {
       "path": "linking.md",
       "downloadPath": "skills/voice-notes/linking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/linking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/linking.md",
+      "byteCount": 1327,
+      "sha256": "8c9b7a6d8f38beb9edbfda58f2ecce22416195b483c3aab87713b93ebe3b22ee"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/voice-notes/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/memory-template.md",
+      "byteCount": 1009,
+      "sha256": "74127066e82c90e0ce1932be6525373c3eaa555b471fee6190fa0c0f397bc087"
     },
     {
       "path": "processing.md",
       "downloadPath": "skills/voice-notes/processing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/processing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/processing.md",
+      "byteCount": 1420,
+      "sha256": "18f14b0c27835aef48b69a2be229c5c2a3675076bbd528eb585dc64a91d58ad6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/voice-notes/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/SKILL.md",
+      "byteCount": 4246,
+      "sha256": "82585a6d6a44635811e403c93bcd4873f6cb3c921f295a356ae4460958099a03"
     },
     {
       "path": "tags.md",
       "downloadPath": "skills/voice-notes/tags.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/tags.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/voice-notes/tags.md",
+      "byteCount": 1177,
+      "sha256": "bbca92f59ef83c934b81883e483a5a514e5454da39f1d03266390ac525db7894"
     }
   ]
 }

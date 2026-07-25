@@ -1,19 +1,35 @@
 ---
-name: Proactivity (Proactive Agent)
+name: proactivity
 slug: proactivity
 version: 1.0.1
-homepage: https://clawic.com/skills/proactivity
 description: Anticipates needs, keeps work moving, and improves through use so the agent gets more proactive over time.
-changelog: "Strengthens proactive behavior with reverse prompting, self-healing, working-buffer recovery, and clearer SOUL and AGENTS setup."
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/proactivity/"],"configPaths.optional":["./AGENTS.md","./TOOLS.md","./SOUL.md","./HEARTBEAT.md"]}}
+homepage: https://clawic.com/skills/proactivity
+changelog: Strengthens proactive behavior with reverse prompting, self-healing, working-buffer recovery, and clearer SOUL and AGENTS setup.
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/proactivity/
+    configPaths.optional:
+    - ./AGENTS.md
+    - ./TOOLS.md
+    - ./SOUL.md
+    - ./HEARTBEAT.md
+    displayName: Proactivity (Proactive Agent)
 ---
 
 ## Architecture
 
-Proactive state lives in `~/proactivity/` and separates durable boundaries from active work. If that folder is missing or empty, run `setup.md`.
+Proactive state lives in `~/Clawic/data/proactivity/` and separates durable boundaries from active work. If that folder is missing or empty, run `setup.md`.
 
 ```
-~/proactivity/
+~/Clawic/data/proactivity/
 ├── memory.md                 # Stable activation and boundary rules
 ├── session-state.md          # Current task, last decision, next move
 ├── heartbeat.md              # Lightweight recurring checks
@@ -92,19 +108,19 @@ Use when the user wants the agent to think ahead, anticipate needs, keep momentu
 ## Scope
 
 This skill ONLY:
-- creates and maintains local proactive state in `~/proactivity/`
+- creates and maintains local proactive state in `~/Clawic/data/proactivity/`
 - proposes workspace integration for AGENTS, TOOLS, SOUL, and HEARTBEAT when the user explicitly wants it
 - uses heartbeat follow-through only within learned boundaries
 
 This skill NEVER:
-- edits any file outside `~/proactivity/` without explicit user approval in that session
+- edits any file outside `~/Clawic/data/proactivity/` without explicit user approval in that session
 - applies hidden workspace changes without showing the exact proposed lines first
 - sends messages, spends money, deletes data, or makes commitments without approval
 - keeps sensitive user data out of proactive state files
 
 ## Data Storage
 
-Local state lives in `~/proactivity/`:
+Local state lives in `~/Clawic/data/proactivity/`:
 
 - stable memory for durable boundaries and activation preferences
 - session state for the current objective, blocker, and next move
@@ -115,15 +131,15 @@ Local state lives in `~/proactivity/`:
 
 ## Security & Privacy
 
-- This skill stores local operating notes in `~/proactivity/`.
+- This skill stores local operating notes in `~/Clawic/data/proactivity/`.
 - It does not require network access by itself.
 - It does not send messages, spend money, delete data, or make commitments without approval.
 - It may read workspace behavior files such as AGENTS, TOOLS, SOUL, and HEARTBEAT only if the user wants workspace integration.
-- Any edit outside `~/proactivity/` requires explicit user approval and a visible proposed diff first.
+- Any edit outside `~/Clawic/data/proactivity/` requires explicit user approval and a visible proposed diff first.
 - It never modifies its own `SKILL.md`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `self-improving` - Learn reusable execution lessons from corrections and reflection
 - `heartbeat` - Run lightweight recurring checks and follow-through loops
@@ -132,5 +148,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star proactivity`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/proactivity
+- Latest version: https://clawic.com/skills/proactivity

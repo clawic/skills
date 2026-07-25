@@ -1,6 +1,6 @@
 # Memory Template - Automator
 
-Create `~/automator/memory.md` with this structure:
+Create `~/Clawic/data/automator/memory.md` with this structure:
 
 ```markdown
 # Automator Memory

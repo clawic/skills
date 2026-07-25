@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7392310a4a1da4ac9316396da99288b660f502e9ba10e2a208e7de9922510427",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "airdrop",
-    "name": "AirDrop",
+    "name": "airdrop",
     "description": "Send local files to nearby Apple devices through AirDrop with macOS guardrails, staging checks, and automation-friendly workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/airdrop",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/airdrop/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/_meta.json",
+      "byteCount": 166,
+      "sha256": "3b6900967fbd9ab3b85df3f90090c80b4241df567651c6448d5658aa4b4ad5a4"
     },
     {
       "path": "airdrop-send.sh",
       "downloadPath": "skills/airdrop/airdrop-send.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.sh",
+      "byteCount": 1713,
+      "sha256": "9a61cba786706ba03d2aa3904d72546a729f7770c79ea0d1c26a5913ed6f88f3"
     },
     {
       "path": "airdrop-send.swift",
       "downloadPath": "skills/airdrop/airdrop-send.swift",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.swift"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/airdrop-send.swift",
+      "byteCount": 1783,
+      "sha256": "3eebf169ac30d8ddfb3f2c7b0f6b45b177a77ec08e2aa1263e18778bf46a6edd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/airdrop/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/memory-template.md",
+      "byteCount": 1366,
+      "sha256": "decb3b42de27bb21cde5a7412bca5801060a8c1d955360831a554943d3036709"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/airdrop/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/setup.md",
+      "byteCount": 2109,
+      "sha256": "f5df1b0f92df6381c672b8077171ea723309cbfdff3d5cc6447660df460be31e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/airdrop/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/SKILL.md",
+      "byteCount": 6128,
+      "sha256": "5acba9966cb118422565d326570c17ec3b4f37d95fb2682ce13f8104c8c6d509"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/airdrop/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/troubleshooting.md",
+      "byteCount": 1678,
+      "sha256": "6843995d6220c2f19b279553d4e35db5a7f0d00452dc349e07a88c2d25597d29"
     },
     {
       "path": "workflow-recipes.md",
       "downloadPath": "skills/airdrop/workflow-recipes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/workflow-recipes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airdrop/workflow-recipes.md",
+      "byteCount": 1922,
+      "sha256": "9875063d9855ef2aee1cf8daee251c2da42145979f77f05053d6eb540cae566a"
     }
   ]
 }

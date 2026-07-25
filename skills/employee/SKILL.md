@@ -1,17 +1,27 @@
 ---
-name: Employee
+name: employee
 slug: employee
 version: 1.0.0
 description: Create and manage virtual AI employees with persistent memory, defined roles, and graduated autonomy. Hire, train, and delegate tasks to specialized workers.
-metadata: {"clawdbot":{"emoji":"👔","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/employee
+metadata:
+  clawdbot:
+    emoji: 👔
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Employee
 ---
 
 ## Architecture
 
-Employees live in ~/employee/ with per-employee folders. See `employee-template.md` for setup.
+Employees live in ~/Clawic/data/employee/ with per-employee folders. See `employee-template.md` for setup.
 
 ```
-~/employee/
+~/Clawic/data/employee/
 ├── registry.json          # Index of all employees + status
 ├── employees/
 │   └── {name}/

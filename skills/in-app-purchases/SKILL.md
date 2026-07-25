@@ -1,9 +1,19 @@
 ---
-name: In-App Purchases
+name: in-app-purchases
 slug: in-app-purchases
 version: 1.0.0
 description: Implement in-app purchases and subscriptions across iOS, Android, and Flutter with RevenueCat, paywalls, receipt validation, and subscription analytics.
-metadata: {"clawdbot":{"emoji":"💳","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/in-app-purchases
+metadata:
+  clawdbot:
+    emoji: 💳
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: In-App Purchases
 ---
 
 ## When to Use

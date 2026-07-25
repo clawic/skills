@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "df1479cae91ad14c300d2069e8338b5740ce5c5ad7936ec3ac1c03d63dfcb840",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "data",
-    "name": "Data",
+    "name": "data",
     "description": "Work with data across the full lifecycle from extraction and cleaning to analysis, visualization, and reporting.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/data",
     "summary": "When to Use User needs to: extract data from sources (databases, APIs, files), clean and transform messy datasets, analyze and find patterns, visualize results, or automate recurring data tasks. Agent handles the full da",
     "repositoryPath": "skills/data",
     "manifestPath": "registry/skills/data.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/data/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/_meta.json",
+      "byteCount": 236,
+      "sha256": "750bf82a4382b7ba66c8901c4ab7420410498e919f54e682ac73f10930dce8f7"
     },
     {
       "path": "analysis.md",
       "downloadPath": "skills/data/analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/analysis.md",
+      "byteCount": 3334,
+      "sha256": "f733d18e4f5e5305e1daff3e5460925223721f01bd7d8434711161442e884fa0"
     },
     {
       "path": "cleaning.md",
       "downloadPath": "skills/data/cleaning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/cleaning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/cleaning.md",
+      "byteCount": 2799,
+      "sha256": "d6d035ac175e7c3e758eab628fd3df87eb343d75214bf773da15a684bf89efc9"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/data/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/patterns.md",
+      "byteCount": 3854,
+      "sha256": "16ae609fd8c11b1e4200573222532420f27d08cdabe58664f3a8a0aafaa1d08b"
     },
     {
       "path": "quality.md",
       "downloadPath": "skills/data/quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/quality.md",
+      "byteCount": 3159,
+      "sha256": "0b3f445581d45407c13d543b20225cd7393f775e46bd2e623a675078baf59e6e"
     },
     {
       "path": "querying.md",
       "downloadPath": "skills/data/querying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/querying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/querying.md",
+      "byteCount": 2170,
+      "sha256": "771e367c086bc8aff818500cfbe82fe5d6a7de2d1c0e34a976f2ff2ea9f795d8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/data/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/SKILL.md",
+      "byteCount": 3332,
+      "sha256": "88242514fae523746a17d064473921b82ff1ea6995897e0a1fa2b3b1ef0874cc"
     },
     {
       "path": "visualization.md",
       "downloadPath": "skills/data/visualization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/visualization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data/visualization.md",
+      "byteCount": 3037,
+      "sha256": "c7d8bb3570825505fc72f2df9737a4be8d2b4bb4fe95ad22ea87ac8f3c980a7e"
     }
   ]
 }

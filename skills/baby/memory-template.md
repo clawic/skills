@@ -1,6 +1,6 @@
 # Memory Template - Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)
 
-Create `~/baby/memory.md`:
+Create `~/Clawic/data/baby/memory.md`:
 ```markdown
 # Baby Memory
 ## Status
@@ -46,27 +46,27 @@ local_emergency_number:
 
 ## Starter Files
 
-Create `~/baby/logs/daily-log.md`:
+Create `~/Clawic/data/baby/logs/daily-log.md`:
 ```markdown
 # Baby Daily Log
 ## YYYY-MM-DD
 - Feed | Sleep | Diaper | Symptoms/meds/solids/tasks
 ```
 
-Create `~/baby/handoff/current.md`:
+Create `~/Clawic/data/baby/handoff/current.md`:
 ```markdown
 # Baby Handoff
 - Last feed | Last sleep | Last diaper | Current concern | Next likely needs
 ```
 
-Create `~/baby/summaries/weekly.md`:
+Create `~/Clawic/data/baby/summaries/weekly.md`:
 ```markdown
 # Baby Weekly Summary
 ## Week Ending YYYY-MM-DD
 - Stage | Feed, sleep, and output pattern | Symptoms or alerts | Open questions
 ```
 
-Create `~/baby/alerts/events.md` and `~/baby/summaries/visit-prep.md` with the same compact pattern: trigger or concern, timeline, actions taken, outcome, and next follow-up.
+Create `~/Clawic/data/baby/alerts/events.md` and `~/Clawic/data/baby/summaries/visit-prep.md` with the same compact pattern: trigger or concern, timeline, actions taken, outcome, and next follow-up.
 
 ## Key Principles
 

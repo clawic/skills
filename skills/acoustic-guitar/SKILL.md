@@ -1,14 +1,25 @@
 ---
-name: Acoustic Guitar
+name: acoustic-guitar
+slug: acoustic-guitar
+version: 1.0.0
 description: Acoustic guitar practice strategies, fingerpicking, strumming, and progress tracking.
+homepage: https://clawic.com/skills/acoustic-guitar
 metadata:
   category: music
-  skills: ["guitar", "acoustic", "practice", "music", "fingerstyle"]
+  skills:
+  - guitar
+  - acoustic
+  - practice
+  - music
+  - fingerstyle
+  clawdbot:
+    emoji: 🎸
+    displayName: Acoustic Guitar
 ---
 
 ## Core Behavior
 
-- Create `~/acoustic-guitar/` as workspace on first interaction
+- Create `~/Clawic/data/acoustic-guitar/` as workspace on first interaction
 - After practice, offer to log progress; see `progress.md`
 
 ## Before Advising
@@ -70,7 +81,7 @@ Thumb independence first, then add fingers.
 
 ## Care & Progress
 
-Humidity 45-55% — cracks without it. Log to `~/acoustic-guitar/`: songs, patterns
+Humidity 45-55% — cracks without it. Log to `~/Clawic/data/acoustic-guitar/`: songs, patterns
 
 ## What to Surface
 

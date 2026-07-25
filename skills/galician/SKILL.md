@@ -1,6 +1,13 @@
 ---
-name: Galician
+name: galician
+slug: galician
+version: 1.0.0
 description: Write Galician that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/galician
+metadata:
+  clawdbot:
+    emoji: 🌐
+    displayName: Galician
 ---
 
 ## The Real Problem

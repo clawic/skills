@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a0a01519519de39259119ecca74893142cab64838f336e6b8b50dc6565bc32df",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "vscode",
-    "name": "VSCode",
+    "name": "vscode",
     "description": "Avoid common VSCode mistakes — settings conflicts, debugger setup, and extension clashes.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vscode",
     "summary": "Settings Precedence - User → Workspace → Folder — later overrides earlier - `.vscode/settings.json` per project — overrides user settings - `\"editor.formatOnSave\"` in workspace overrides user — can be confusing - Multi-r",
     "repositoryPath": "skills/vscode",
     "manifestPath": "registry/skills/vscode.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vscode/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/_meta.json",
+      "byteCount": 164,
+      "sha256": "1af9a13ac06e428635b6be35e344bb206f983c342593f93b2cfff741db5a316d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vscode/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/SKILL.md",
+      "byteCount": 3028,
+      "sha256": "393922961a871da5497638329a394d15429b6bab7c56fa25de566db732568ea6"
     }
   ]
 }

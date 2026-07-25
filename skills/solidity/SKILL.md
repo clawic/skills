@@ -1,7 +1,17 @@
 ---
-name: Solidity
+name: solidity
+slug: solidity
+version: 1.0.0
 description: Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.
-metadata: {"clawdbot":{"emoji":"⟠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/solidity
+metadata:
+  clawdbot:
+    emoji: ⟠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Solidity
 ---
 
 ## Reentrancy

@@ -1,27 +1,25 @@
 # Search Strategies — Skill Finder
 
-Reference for skill finder, find skills, Skills.sh search, and ClawHub search requests.
+Reference for skill finder, find skills, Skills.sh search, and Clawic search requests.
 
 ## Search Sources
 
 | Source | Search | Inspect | Install | Notes |
 |--------|--------|---------|---------|-------|
-| `ClawHub Search` | `npx clawhub search "query"` | `npx clawhub inspect <slug>` | `npx clawhub install <slug>` | Best for curated registry results and built-in metadata |
+| `Clawic Search` | `npx clawic search "query"` | `npx clawic show <slug>` | `npx clawic add <slug>` | Best for curated catalog results and built-in inspection |
 | `Skills.sh Search` | `npx skills find [query]` | Inspect returned page/repo | `npx skills add <owner/repo@skill>` | Best for wider open-ecosystem discovery |
 
-Default mode is `both`. Search a single source only if `~/skill-finder/memory.md` says `sources: clawhub` or `sources: skills.sh`, or the user overrides it.
+Default mode is `both`. Search a single source only if `~/Clawic/data/skill-finder/memory.md` says `sources: clawic` or `sources: skills.sh`, or the user overrides it.
 
 ## Commands
 
 ```bash
-# ClawHub
-npx clawhub search "query"
-npx clawhub search "react testing"
-npx clawhub inspect <slug>
-npx clawhub inspect <slug> --files  # see all files
-npx clawhub install <slug>
-npx clawhub explore
-npx clawhub list
+# Clawic
+npx clawic search "query"
+npx clawic search "react testing"
+npx clawic show <slug>
+npx clawic add <slug>
+npx clawic list
 
 # Skills.sh / skills CLI
 npx skills find
@@ -36,7 +34,7 @@ npx skills update
 
 For a new query:
 
-1. Read `~/skill-finder/memory.md`
+1. Read `~/Clawic/data/skill-finder/memory.md`
 2. Check `Status.sources`
 3. If mode is `both`, search both ecosystems with the same intent
 4. Compare the strongest matches together before recommending
@@ -62,10 +60,10 @@ Think about what they actually need:
 
 | User Need | Better Search |
 |-----------|--------------|
-| Edit PDFs | `npx clawhub search "pdf edit"` + `npx skills find pdf edit` |
-| Create PDFs | `npx clawhub search "pdf create"` + `npx skills find pdf generate` |
-| Extract from PDFs | `npx clawhub search "pdf extract"` + `npx skills find pdf parse` |
-| Fill PDF forms | `npx clawhub search "pdf form"` + `npx skills find pdf form` |
+| Edit PDFs | `npx clawic search "pdf edit"` + `npx skills find pdf edit` |
+| Create PDFs | `npx clawic search "pdf create"` + `npx skills find pdf generate` |
+| Extract from PDFs | `npx clawic search "pdf extract"` + `npx skills find pdf parse` |
+| Fill PDF forms | `npx clawic search "pdf form"` + `npx skills find pdf form` |
 
 ## Expand Search Terms
 
@@ -86,7 +84,7 @@ Normalize each result into the same decision shape:
 - Quality signals
 
 Typical signals:
-- `ClawHub`: name, description, downloads, author, update freshness
+- `Clawic`: name, description, downloads, author, update freshness
 - `Skills.sh`: returned install string, source repo, skills.sh page, and project reputation
 
 **Quick quality signals:**
@@ -108,9 +106,9 @@ When several skills match:
 
 Example response:
 > Found 3 options for React testing:
-> 1. `react-testing` (ClawHub) — focuses on component tests, 5k downloads
+> 1. `react-testing` (Clawic) — focuses on component tests, 5k downloads
 > 2. `vercel-labs/agent-skills@frontend-design` (Skills.sh) — broader frontend workflow guidance
-> 3. `testing` (ClawHub) — general testing, includes React section
+> 3. `testing` (Clawic) — general testing, includes React section
 >
 > Which fits your project better?
 

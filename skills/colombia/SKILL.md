@@ -1,16 +1,27 @@
 ---
-name: Colombia
+name: colombia
 slug: colombia
 version: 1.0.0
-homepage: https://clawic.com/skills/colombia
-changelog: "Initial release with verified Colombia entry rules, region playbooks, and practical tourist logistics."
 description: Plan Colombia trips with region-specific routing, verified entry rules, weather-aware logistics, and practical tourist safety.
-metadata: {"clawdbot":{"emoji":"🇨🇴","requires":{"bins":[],"config":["~/colombia/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/colombia
+changelog: Initial release with verified Colombia entry rules, region playbooks, and practical tourist logistics.
+metadata:
+  clawdbot:
+    emoji: 🇨🇴
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/colombia/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Colombia
 ---
 
 ## Setup
 
-If `~/colombia/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/colombia/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Colombia trip and needs practical guidance beyond generic adv
 
 ## Architecture
 
-Memory lives in `~/colombia/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/colombia/`. See `memory-template.md` for structure.
 
 ```
-~/colombia/
+~/Clawic/data/colombia/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -110,12 +121,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/colombia/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/colombia/`
 
-**This skill does NOT:** Access files outside `~/colombia/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/colombia/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `food` — Deeper culinary planning for each destination
@@ -124,5 +135,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star colombia`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/colombia
+- Latest version: https://clawic.com/skills/colombia

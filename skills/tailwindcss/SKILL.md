@@ -1,7 +1,20 @@
 ---
-name: Tailwind CSS
+name: tailwindcss
+slug: tailwindcss
+version: 1.0.0
 description: Write Tailwind utility classes with proper responsive design, dark mode, and configuration.
-metadata: {"clawdbot":{"emoji":"🌊","requires":{"bins":["npx"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/tailwindcss
+metadata:
+  clawdbot:
+    emoji: 🌊
+    requires:
+      bins:
+      - npx
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Tailwind CSS
 ---
 
 ## Content Configuration

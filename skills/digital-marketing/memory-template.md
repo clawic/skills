@@ -1,6 +1,6 @@
 # Memory Template — Digital Marketing
 
-Create `~/digital-marketing/memory.md` only if the user wants continuity across sessions.
+Create `~/Clawic/data/digital-marketing/memory.md` only if the user wants continuity across sessions.
 
 ```markdown
 # Digital Marketing Memory
@@ -44,9 +44,9 @@ integration: pending
 
 If the user wants deeper continuity, create:
 
-- `~/digital-marketing/campaigns.md` — current campaigns and asset bundles
-- `~/digital-marketing/experiments.md` — hypotheses, thresholds, outcomes
-- `~/digital-marketing/signals.md` — recurring metrics, anomalies, reusable lessons
+- `~/Clawic/data/digital-marketing/campaigns.md` — current campaigns and asset bundles
+- `~/Clawic/data/digital-marketing/experiments.md` — hypotheses, thresholds, outcomes
+- `~/Clawic/data/digital-marketing/signals.md` — recurring metrics, anomalies, reusable lessons
 
 ## Key Principles
 

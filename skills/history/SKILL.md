@@ -1,7 +1,17 @@
 ---
-name: History
+name: history
+slug: history
+version: 1.0.0
 description: Navigate the past from engaging stories to scholarly analysis at any depth.
-metadata: {"clawdbot":{"emoji":"📜","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/history
+metadata:
+  clawdbot:
+    emoji: 📜
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: History
 ---
 
 ## Detect Level, Adapt Everything

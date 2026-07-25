@@ -1,6 +1,6 @@
 # Setup — Reverse Engineering Operator
 
-Read this when `~/reverse-engineering/` does not exist or is empty. Start the conversation naturally and make the user feel that the work will become clearer fast. Do not talk about setup as a ritual, but do tell the user before creating the local reverse-engineering workspace or storing durable notes.
+Read this when `~/Clawic/data/reverse-engineering/` does not exist or is empty. Start the conversation naturally and make the user feel that the work will become clearer fast. Do not talk about setup as a ritual, but do tell the user before creating the local reverse-engineering workspace or storing durable notes.
 
 ## Your Attitude
 

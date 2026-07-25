@@ -5,7 +5,7 @@
 Items on watchlist tracked continuously:
 
 ```
-## ~/price/watchlist.md
+## ~/Clawic/data/price/watchlist.md
 
 ### Active Watches
 
@@ -17,7 +17,7 @@ Items on watchlist tracked continuously:
 
 ## Alert Configuration
 
-In `~/price/config.md`:
+In `~/Clawic/data/price/config.md`:
 
 ```
 ## Alert Preferences
@@ -34,7 +34,7 @@ platforms:
 
 ## Price History Format
 
-Store in `~/price/history/[item-slug].md`:
+Store in `~/Clawic/data/price/history/[item-slug].md`:
 
 ```
 ## Sony WH-1000XM5 Price History
@@ -79,7 +79,7 @@ When user says "track this":
 After user makes decision, log for learning:
 
 ```
-## ~/price/purchases.md
+## ~/Clawic/data/price/purchases.md
 
 | Date | Item | Price | Verdict | Outcome |
 |------|------|-------|---------|---------|

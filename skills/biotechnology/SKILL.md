@@ -1,10 +1,17 @@
 ---
-name: Biotechnology
+name: biotechnology
 slug: biotechnology
 version: 1.0.0
-homepage: https://clawic.com/skills/biotechnology
 description: Assist with biotechnology from basic concepts to research design and industry applications.
-metadata: {"clawdbot":{"emoji":"🧬","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/biotechnology
+metadata:
+  clawdbot:
+    emoji: 🧬
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Biotechnology
 ---
 
 ## Setup
@@ -110,12 +117,12 @@ User needs help with genetic engineering, lab techniques, bioinformatics, drug d
 - No telemetry or data collection
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `biology` — foundational life sciences
 - `chemistry` — molecular and chemical foundations
 - `science` — general scientific method
 
 ## Feedback
 
-- If useful: `clawhub star biotechnology`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/biotechnology
+- Latest version: https://clawic.com/skills/biotechnology

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "be51cbe1125051443a3e5074c2296fdba9d9d1f8cb9ceb51c83f76dcbd87cac2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "irish",
-    "name": "Irish",
+    "name": "irish",
     "description": "Write Irish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/irish",
     "summary": "The Real Problem AI Irish is technically correct but sounds off. Too formal. Too textbook. Natives write more casually, mixing with English naturally. Match that. Formality Default Default register is too high. Casual Ir",
     "repositoryPath": "skills/irish",
     "manifestPath": "registry/skills/irish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/irish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/irish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/irish/_meta.json",
+      "byteCount": 162,
+      "sha256": "326ea1fac626fe3ef0a400e84c0101935ec4de2221fc14f79c3aeb88499530db"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/irish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/irish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/irish/SKILL.md",
+      "byteCount": 1823,
+      "sha256": "54e557557d2308f74e836e457880c823de974f3268048e9ebab61867b899ed0e"
     }
   ]
 }

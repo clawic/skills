@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6a4fea39ca0a77536047869f800327691746c50513fbdba4ce1fadb5710f1c35",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "dogecoin",
-    "name": "Dogecoin",
+    "name": "dogecoin",
     "description": "Assist with Dogecoin DOGE transactions, wallet management, and network characteristics.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dogecoin",
     "summary": "Network Basics - Dogecoin is Bitcoin fork — similar UTXO model and transaction structure - Proof of Work with Scrypt — merged mining with Litecoin - 1 minute block time — faster than Bitcoin's 10 minutes - No supply cap ",
     "repositoryPath": "skills/dogecoin",
     "manifestPath": "registry/skills/dogecoin.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dogecoin/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dogecoin/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dogecoin/_meta.json",
+      "byteCount": 168,
+      "sha256": "27a242773020bced0f0b5223a7e0083343ebc7cb5ab3690b58f9a67ec3802649"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dogecoin/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dogecoin/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dogecoin/SKILL.md",
+      "byteCount": 4297,
+      "sha256": "65c849fc098cb57657ec701e7893aae558a22cbfa96963e69f5f680df5fa2e41"
     }
   ]
 }

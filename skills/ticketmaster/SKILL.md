@@ -1,11 +1,26 @@
 ---
-name: TicketMaster
+name: ticketmaster
 slug: ticketmaster
 version: 1.0.0
-homepage: https://clawic.com/skills/ticketmaster
 description: Search Ticketmaster events, venues, and attractions with Discovery API filters, market-aware queries, and copy-ready curl and shell helpers.
+homepage: https://clawic.com/skills/ticketmaster
 changelog: Added Discovery API workflows, venue filters, and a local shell helper for faster event lookups.
-metadata: {"clawdbot":{"emoji":"🎟️","requires":{"env":["TM_API_KEY"],"bins":["curl"],"config":["~/ticketmaster/"]},"primaryEnv":"TM_API_KEY","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎟️
+    requires:
+      env:
+      - TM_API_KEY
+      bins:
+      - curl
+      config:
+      - ~/Clawic/data/ticketmaster/
+    primaryEnv: TM_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: TicketMaster
 ---
 
 # TicketMaster
@@ -18,10 +33,10 @@ User needs live Ticketmaster listings, venue discovery, attraction lookup, onsal
 
 ## Architecture
 
-Memory lives in `~/ticketmaster/`. If `~/ticketmaster/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/ticketmaster/`. If `~/Clawic/data/ticketmaster/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/ticketmaster/
+~/Clawic/data/ticketmaster/
 ├── memory.md   # Preferred locale, market, city, and query defaults
 ├── queries.md  # Saved queries that worked well
 └── logs/       # Optional helper output captures
@@ -89,7 +104,7 @@ curl --get "https://app.ticketmaster.com/discovery/v2/events.json" \
 - Cache event IDs and venue IDs locally when iterating on the same search space.
 
 ### 7. Keep local defaults local
-- Store locale, country, city, market, and preferred sort order in `~/ticketmaster/memory.md`.
+- Store locale, country, city, market, and preferred sort order in `~/Clawic/data/ticketmaster/memory.md`.
 - Never persist API keys or any purchase data in skill memory.
 
 ## Requirements
@@ -123,20 +138,20 @@ No other data is sent externally.
 - Your API key sent as the documented `apikey` query parameter
 
 **Data that stays local:**
-- Preferences and defaults in `~/ticketmaster/`
+- Preferences and defaults in `~/Clawic/data/ticketmaster/`
 - Saved command patterns and notes you choose to keep
 
 **This skill does NOT:**
 - Place orders, hold inventory, or bypass partner-only purchase flows
 - Store `TM_API_KEY` in skill memory
-- Access files outside `~/ticketmaster/`
+- Access files outside `~/Clawic/data/ticketmaster/`
 
 ## Scope
 
 This skill ONLY:
 - Uses the open Ticketmaster Discovery API surface
 - Provides copy-ready curl queries and the bundled `ticketmaster.sh` helper
-- Stores local search defaults in `~/ticketmaster/`
+- Stores local search defaults in `~/Clawic/data/ticketmaster/`
 
 This skill NEVER:
 - Uses hidden or undocumented endpoints
@@ -149,11 +164,11 @@ By using this skill, data is sent to Ticketmaster (ticketmaster.com).
 Only install if you trust Ticketmaster with your search terms and event lookup data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — General REST API patterns for request shaping and response inspection
 - `booking` — Reservation workflows and confirmation hygiene when discovery turns into action
 - `events` — Event-planning workflows around schedules, listings, and logistics
 
 ## Feedback
-- If useful: `clawhub star ticketmaster`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/ticketmaster
+- Latest version: https://clawic.com/skills/ticketmaster

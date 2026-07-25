@@ -1,6 +1,6 @@
 # Memory Template - Image Generation
 
-Copy this into `~/image-generation/memory.md` on first use.
+Copy this into `~/Clawic/data/image-generation/memory.md` on first use.
 
 ```markdown
 # Image Generation Memory
@@ -36,4 +36,4 @@ integration: workspace
 
 ## Optional History File
 
-Create `~/image-generation/history.md` only if the user wants a running log.
+Create `~/Clawic/data/image-generation/history.md` only if the user wants a running log.

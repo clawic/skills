@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bd7e36b8aa9470b6d392bcc0ad86c9cfed903df5a0f5fc7dab1b4779f9a50dd4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "software-engineer",
-    "name": "Software Engineer",
+    "name": "software-engineer",
     "description": "Write production-ready code with clean architecture, proper error handling, and pragmatic trade-offs between shipping fast and building right.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/software-engineer",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/software-engineer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/_meta.json",
+      "byteCount": 186,
+      "sha256": "1fc7a3ea931592aab39de58d4ca974ccff9284d83110bfaea37d3365c5384762"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/software-engineer/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/architecture.md",
+      "byteCount": 3791,
+      "sha256": "41f938df812d7b0f07dfd45f0c524759e92dc8313c378cdc0faf9e8c7646ca4b"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/software-engineer/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/patterns.md",
+      "byteCount": 3118,
+      "sha256": "6decd46a75561a240b87cb9810a8d901f57ff05791fb4cbde4a51cf96e6221a2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/software-engineer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/SKILL.md",
+      "byteCount": 4220,
+      "sha256": "52293797d666d18f691b644bd5a62e01550ec5bab145824d2ea9dba2987323c3"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/software-engineer/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/software-engineer/testing.md",
+      "byteCount": 3199,
+      "sha256": "04e327c3b7846e1883b37062574870b32e86fcbd658414d847fc90543d941456"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b1b9abd4cf00d7478fd499448341fccfaf4348eef14c2017d1ee274152c502d4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "plausible",
-    "name": "Plausible",
+    "name": "plausible",
     "description": "Query Plausible Analytics API for traffic stats, referrers, conversions, and custom events.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/plausible",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/plausible/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/_meta.json",
+      "byteCount": 246,
+      "sha256": "d15c1e0ec17f44bd2e1a0b57ac9f30fca8c28b8da7e538e0b8e13e9647bc2199"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/plausible/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/memory-template.md",
+      "byteCount": 1402,
+      "sha256": "a013421954a782d4c4fe299c34adeb9a7396a346c6189a1da2543d35bbac6e12"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/plausible/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/setup.md",
+      "byteCount": 982,
+      "sha256": "443339f433cae99fc6947a81c7d8f3ada5e903d2e1d95d80961d083da5f91d4b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/plausible/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plausible/SKILL.md",
+      "byteCount": 4484,
+      "sha256": "d33a6e71ff0722efd507d8862ef17c8b44ddd780a9bff8d87f14d410bb0a52b4"
     }
   ]
 }

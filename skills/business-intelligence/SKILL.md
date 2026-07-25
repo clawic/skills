@@ -1,11 +1,20 @@
 ---
-name: Business Intelligence
+name: business-intelligence
 slug: business-intelligence
 version: 1.0.0
-homepage: https://clawic.com/skills/business-intelligence
 description: Model business performance, define KPIs, and turn data into decision-ready dashboards, briefings, and operating cadences for teams and executives.
+homepage: https://clawic.com/skills/business-intelligence
 changelog: Initial release with metric tree modeling, KPI contracts, dashboard specifications, and decision briefing workflows.
-metadata: {"clawdbot":{"emoji":"B","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: B
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Business Intelligence
 ---
 
 ## Setup
@@ -20,10 +29,10 @@ This skill is optimized for operators, founders, product leaders, finance leader
 
 ## Architecture
 
-Working memory lives in `~/business-intelligence/`. See `memory-template.md` for base structure and status behavior.
+Working memory lives in `~/Clawic/data/business-intelligence/`. See `memory-template.md` for base structure and status behavior.
 
 ```
-~/business-intelligence/
+~/Clawic/data/business-intelligence/
 ├── memory.md                # HOT: goals, KPI ownership, active decisions
 ├── metric-tree/             # WARM: objective -> driver -> metric maps
 ├── kpi-contracts/           # WARM: metric definitions and formula versions
@@ -115,17 +124,17 @@ No data is sent externally.
 - Nothing by default.
 
 **Data that stays local:**
-- BI context, KPI contracts, and reporting notes under `~/business-intelligence/`.
+- BI context, KPI contracts, and reporting notes under `~/Clawic/data/business-intelligence/`.
 - Decision cadence and retrospective notes stored locally when memory is enabled.
 
 **This skill does NOT:**
-- Access files outside `~/business-intelligence/` for memory storage.
+- Access files outside `~/Clawic/data/business-intelligence/` for memory storage.
 - Transmit metrics or business data to third-party APIs by default.
 - Create background automations without explicit user confirmation.
 - Modify its own skill definition files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` - analysis workflows for interpreting performance patterns.
 - `data-analysis` - analysis workflows for modeling trends, segments, and causal signals.
 - `dashboard` - dashboard implementation for KPI visualization layers.
@@ -134,5 +143,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star business-intelligence`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/business-intelligence
+- Latest version: https://clawic.com/skills/business-intelligence

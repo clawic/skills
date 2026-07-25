@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d49c85e332811a8f4f050a5b80c7a4822af42449d8ede8e509231fdc303cd30a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "app-store-connect",
-    "name": "App Store Connect",
+    "name": "app-store-connect",
     "description": "Manage iOS apps, TestFlight builds, submissions, and analytics via App Store Connect API.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/app-store-connect",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/app-store-connect/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/_meta.json",
+      "byteCount": 186,
+      "sha256": "3829ebc893cbcf97fd3f9b7ab853b3733a02381e113f8896c510e11e6dd5b88a"
     },
     {
       "path": "api-auth.md",
       "downloadPath": "skills/app-store-connect/api-auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/api-auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/api-auth.md",
+      "byteCount": 3851,
+      "sha256": "6abeab0487f1cb845683fa1a69c43b8a11ce47638e921e56a5161b41d67542b5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/app-store-connect/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/SKILL.md",
+      "byteCount": 4437,
+      "sha256": "b75bde2f5307129edb99173d77e8197e6259cd47b2459496fa2eff6643e4e827"
     },
     {
       "path": "workflows.md",
       "downloadPath": "skills/app-store-connect/workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/app-store-connect/workflows.md",
+      "byteCount": 6014,
+      "sha256": "e93c9dae9ecf1ec197af27688106ee4c12b58a57dc6d5f34f1dde3e0f7171eaa"
     }
   ]
 }

@@ -1,11 +1,30 @@
 ---
-name: OpenAI Symphony
+name: symphony
 slug: symphony
 version: 1.0.0
-homepage: https://clawic.com/skills/symphony
 description: Set up and run OpenAI Symphony with isolated issue workspaces, workflow contracts, and unattended Codex orchestration for Linear projects.
+homepage: https://clawic.com/skills/symphony
 changelog: Initial release with workflow templates, runbook guidance, and safety guardrails for operating Symphony in trusted environments.
-metadata: {"clawdbot":{"emoji":"S","requires":{"bins":["git","codex"],"env":["LINEAR_API_KEY","OPENAI_API_KEY","GITHUB_TOKEN"],"config":["~/symphony/"]},"os":["darwin","linux","win32"],"configPaths":["~/symphony/"]}}
+metadata:
+  clawdbot:
+    emoji: S
+    requires:
+      bins:
+      - git
+      - codex
+      env:
+      - LINEAR_API_KEY
+      - OPENAI_API_KEY
+      - GITHUB_TOKEN
+      config:
+      - ~/Clawic/data/symphony/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/symphony/
+    displayName: OpenAI Symphony
 ---
 
 ## Setup
@@ -18,10 +37,10 @@ Use this skill when the user wants an unattended orchestration service that read
 
 ## Architecture
 
-Memory lives in `~/symphony/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/symphony/`. See `memory-template.md` for setup.
 
 ```text
-~/symphony/
+~/Clawic/data/symphony/
 |-- memory.md                # Activation policy, environment profile, and operating defaults
 |-- workflow-notes.md        # WORKFLOW.md decisions, state map, and prompt policy
 |-- incidents.md             # Runtime failures, retries, and mitigations
@@ -104,7 +123,7 @@ Data that leaves your machine:
 - Git remote traffic required by repository hooks
 
 Data that stays local:
-- Orchestration notes and memory files in `~/symphony/`
+- Orchestration notes and memory files in `~/Clawic/data/symphony/`
 - Workspace content under the configured root
 - Local logs and runtime snapshots
 
@@ -120,7 +139,7 @@ This skill depends on OpenAI Codex APIs, Linear APIs, and your configured Git re
 Only install and run it if you trust those services with your repository and issue data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `agent` - Improve single-agent execution quality for scoped implementation tasks.
 - `agents` - Coordinate multiple agents with explicit ownership and handoff boundaries.
 - `agentic-engineering` - Enforce high-rigor workflows for autonomous software delivery.
@@ -129,5 +148,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star symphony`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/symphony
+- Latest version: https://clawic.com/skills/symphony

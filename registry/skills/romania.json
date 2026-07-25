@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bce69d5e2d908e5e1c6650e1bc2b149feece17a6a733032e9e7b5abb41cda0db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "romania",
-    "name": "Romania",
+    "name": "romania",
     "description": "Plan Romania trips with regional contrasts, Transylvania and Black Sea logistics, local food cues, and practical local guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/romania",
-    "summary": "Setup If `~/romania/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Romania trip and needs help that goes beyond generic Europe advice: route shape, regional differences,",
+    "summary": "Setup If `~/Clawic/data/romania/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Romania trip and needs help that goes beyond generic Europe advice: route shape, regional ",
     "repositoryPath": "skills/romania",
     "manifestPath": "registry/skills/romania.json"
   },
@@ -22,112 +25,156 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/romania/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/_meta.json",
+      "byteCount": 166,
+      "sha256": "f44a9303e86656a48b8258a098bcc344666cc65e96ef482864717dcb50f2d85b"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/romania/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/accommodation.md",
+      "byteCount": 1555,
+      "sha256": "b1767b4c9e731c6952442c7b257ab408a2bf720833ce32161dc4f9513dc77c1b"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/romania/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/apps.md",
+      "byteCount": 950,
+      "sha256": "deadc95ff48c8e12eb2291b333709cb9f04019f00097c453a866b3de0fe7bc20"
     },
     {
       "path": "black-sea.md",
       "downloadPath": "skills/romania/black-sea.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/black-sea.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/black-sea.md",
+      "byteCount": 1413,
+      "sha256": "cc6a1206aa6d0d6ab4a3f9fe62e723a5cb259a680819ddd3035fb61ff1891e90"
     },
     {
       "path": "brasov.md",
       "downloadPath": "skills/romania/brasov.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/brasov.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/brasov.md",
+      "byteCount": 1558,
+      "sha256": "72edc6db8c32796ce54bbe1202ff5eaf6d30e7fe69d014a3b350c8e73066b32a"
     },
     {
       "path": "bucharest.md",
       "downloadPath": "skills/romania/bucharest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/bucharest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/bucharest.md",
+      "byteCount": 1892,
+      "sha256": "127ab9ed99bc1a0e57ef13d119fcef92f5b0b0d3c81f8f5b5a09024fa13374b1"
     },
     {
       "path": "carpathians-and-hiking.md",
       "downloadPath": "skills/romania/carpathians-and-hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/carpathians-and-hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/carpathians-and-hiking.md",
+      "byteCount": 1613,
+      "sha256": "efafc377dc6cbe9714a875c63cdf1a71ce73710acb0567c1a1a6e7d36833daa5"
     },
     {
       "path": "cluj-napoca.md",
       "downloadPath": "skills/romania/cluj-napoca.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/cluj-napoca.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/cluj-napoca.md",
+      "byteCount": 1415,
+      "sha256": "6891e2deda41dec9cf4055318f8c01e81564b42f043868958cceadfcd30ecdab"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/romania/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/culture.md",
+      "byteCount": 1477,
+      "sha256": "9e26cc9eb906d08b8cffa7030bfea32facb98ab3e3078c9534548cd171720227"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/romania/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/emergencies.md",
+      "byteCount": 1169,
+      "sha256": "e4dda05bdcc9a1fe73c4b3c3dfa8bcc76d655829924118a75095ffdebbfc3082"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/romania/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/experiences.md",
+      "byteCount": 1539,
+      "sha256": "a7c84a4ec7d21f9991d306e1ea3ac55d35b6d576510ea75dbac7f21875e36623"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/romania/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/food-guide.md",
+      "byteCount": 1815,
+      "sha256": "4b485546a2567e15adc73371769c00b6df6ea07de642c20e3bf5033cb7c92c2b"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/romania/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/itineraries.md",
+      "byteCount": 1240,
+      "sha256": "e76923b77b99b8b88105af5957313c65454f768b69617c35c165b96ed1ab0cf1"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/romania/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/memory-template.md",
+      "byteCount": 1176,
+      "sha256": "05abce85ac7c6c19d6cfd9ff1fbd5601eea5c3c9f332eea8bcd431c9bbba726e"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/romania/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/regions.md",
+      "byteCount": 1811,
+      "sha256": "4f0ff0429a6743c61aac86a37234fc46cd20fd26256997d796714326d9c0fe59"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/romania/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/setup.md",
+      "byteCount": 1865,
+      "sha256": "62ec3a928220fd698ac5e4a6ba0fe8e97be358ef114aac50704c966c8fcddb8b"
     },
     {
       "path": "sibiu.md",
       "downloadPath": "skills/romania/sibiu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/sibiu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/sibiu.md",
+      "byteCount": 1430,
+      "sha256": "5189090bcf1017ee476709f8ba969c6c00ff4be61cfe289d83329b872afc2206"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/romania/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/SKILL.md",
+      "byteCount": 6214,
+      "sha256": "778c159604b02c3d3600d317fe0565e0b98cbf1a5001fdb20172c5b013b42b34"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/romania/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/telecoms.md",
+      "byteCount": 1050,
+      "sha256": "9644da19c118adfc32fa8342867c36566358d6bf7628862ccbf82a187d69c087"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/romania/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/transport.md",
+      "byteCount": 1392,
+      "sha256": "4aa6da90a94a38a467848f2e093a7794d6595766197d21cb6d59579065065c81"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/romania/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/wine.md",
+      "byteCount": 1380,
+      "sha256": "a67e2562a640537a9880cf667c1ad47010403e5dbdaa80098895be8f26f33c19"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/romania/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/romania/with-kids.md",
+      "byteCount": 1307,
+      "sha256": "0ad6d8b2c6209c4e49c934ccb784a65145e136f46bee8da8ab2e481e2eb68a52"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4a2ee7e2542cfd52bd3eab7e0e80732185fa7732616209275ad5da82554d7771",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "whatsapp-business-api",
-    "name": "WhatsApp Business API",
+    "name": "whatsapp-business-api",
     "description": "Complete WhatsApp Business Cloud API for messages, templates, media, webhooks, flows, and business profiles.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/whatsapp-business-api",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/whatsapp-business-api/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/_meta.json",
+      "byteCount": 194,
+      "sha256": "b891c368b6ac596abd2b42a0678631446e27274fe74c3d4a3ff9d673106da0a2"
     },
     {
       "path": "best-practices.md",
       "downloadPath": "skills/whatsapp-business-api/best-practices.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/best-practices.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/best-practices.md",
+      "byteCount": 6029,
+      "sha256": "7fda1e6883246270a749c05deec7c98c2fb31db5f8e620b415edef2d929baea6"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/whatsapp-business-api/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/business.md",
+      "byteCount": 4876,
+      "sha256": "088df6e7774042a4ae78eae9068711047b35cf4ce25a34aa25555ba27b3db9c5"
     },
     {
       "path": "flows.md",
       "downloadPath": "skills/whatsapp-business-api/flows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/flows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/flows.md",
+      "byteCount": 7964,
+      "sha256": "273dd364720328bd8536fc8064d5e084d1b8fe3c27b7e6622c0c91b4f254a4d4"
     },
     {
       "path": "media.md",
       "downloadPath": "skills/whatsapp-business-api/media.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/media.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/media.md",
+      "byteCount": 2915,
+      "sha256": "5cbf85c1b89b99d078921b714111ce47a4fdfeb2dff573306027712566926071"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/whatsapp-business-api/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/memory-template.md",
+      "byteCount": 1572,
+      "sha256": "68462be8a5e370615323044c3be1e1e8c3b3c4d95bf74317258ee62f53ba8cdb"
     },
     {
       "path": "messages.md",
       "downloadPath": "skills/whatsapp-business-api/messages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/messages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/messages.md",
+      "byteCount": 6605,
+      "sha256": "ca8980e69cdc69c3522835b71d70a4ee28db2b47ff961841544493ac31353bd4"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/whatsapp-business-api/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/setup.md",
+      "byteCount": 1647,
+      "sha256": "9023fb8bae468fa7759a0a9696ccccb6697fc7e7402747ba7a8de689d153a57f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/whatsapp-business-api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/SKILL.md",
+      "byteCount": 4534,
+      "sha256": "fc7181b8be95757ebc8748c5242fa675fb99f921b66358cc4502bc861d4be8be"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/whatsapp-business-api/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/templates.md",
+      "byteCount": 5752,
+      "sha256": "cf1c783eb796a5b6babee00101b1401900acb6ef855266058b5367b690741cec"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/whatsapp-business-api/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whatsapp-business-api/webhooks.md",
+      "byteCount": 5638,
+      "sha256": "578f4399b0fc9ce60c96fdfb6fed6c96477c0f5d18f865f44a8c3b7cd525cadf"
     }
   ]
 }

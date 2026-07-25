@@ -1,16 +1,27 @@
 ---
-name: Argentina
+name: argentina
 slug: argentina
 version: 1.0.0
-homepage: https://clawic.com/skills/argentina
-changelog: "Initial release with verified Argentina entry rules, regional route playbooks, money strategy, and practical travel logistics."
 description: Plan Argentina trips with region-specific routing, money strategy, seasonal timing, and practical travel logistics.
-metadata: {"clawdbot":{"emoji":"🇦🇷","requires":{"bins":[],"config":["~/argentina/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/argentina
+changelog: Initial release with verified Argentina entry rules, regional route playbooks, money strategy, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇦🇷
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/argentina/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Argentina
 ---
 
 ## Setup
 
-If `~/argentina/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/argentina/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning an Argentina trip and needs practical guidance beyond generic i
 
 ## Architecture
 
-Memory lives in `~/argentina/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/argentina/`. See `memory-template.md` for structure.
 
 ```
-~/argentina/
+~/Clawic/data/argentina/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -108,12 +119,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/argentina/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/argentina/`
 
-**This skill does NOT:** Access files outside `~/argentina/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/argentina/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `car-rental` — Better rental strategy and handoff logistics
 - `booking` — Reservation workflows and confirmation hygiene
@@ -122,5 +133,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star argentina`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/argentina
+- Latest version: https://clawic.com/skills/argentina

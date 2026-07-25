@@ -1,6 +1,6 @@
 # Memory Template - REST API
 
-Create `~/rest-api/memory.md` with this structure:
+Create `~/Clawic/data/rest-api/memory.md` with this structure:
 
 ```markdown
 # REST API Memory

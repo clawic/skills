@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd688459bb349aa98ee4a3c2dc6660298fcaff5c8460706e4bfecfb9b234d772",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "mvp",
-    "name": "MVP",
+    "name": "mvp",
     "description": "Build, validate, and launch minimum viable products with scope discipline, user signals, and iteration speed.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mvp",
     "summary": "First: Identify the User's Role Before guidance, determine their context: | Role | Key Focus | Load File | |------|-----------|-----------| | Technical Founder | Scope control, stop over-engineering | `roles/technical.md",
     "repositoryPath": "skills/mvp",
     "manifestPath": "registry/skills/mvp.json"
@@ -20,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mvp/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/_meta.json",
+      "byteCount": 158,
+      "sha256": "e1b680bfdc2c065ee60c5f54141683560cff81e78cdb2e9683614f1a587a8ddd"
     },
     {
       "path": "investor.md",
       "downloadPath": "skills/mvp/investor.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/investor.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/investor.md",
+      "byteCount": 2499,
+      "sha256": "c6a23622adac97363060a1475008b1c9e961e36e91492a8f0634968377ac541a"
     },
     {
       "path": "non-technical.md",
       "downloadPath": "skills/mvp/non-technical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/non-technical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/non-technical.md",
+      "byteCount": 2102,
+      "sha256": "3661e6719ebd0839a2916fed63e31372603c07c08832627ddb9fb70f9425b00f"
     },
     {
       "path": "pm.md",
       "downloadPath": "skills/mvp/pm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/pm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/pm.md",
+      "byteCount": 2184,
+      "sha256": "605a610e20b885f8c480e385843830f893e1a96c558efc54c86b68a1cefea6ed"
     },
     {
       "path": "scope.md",
       "downloadPath": "skills/mvp/scope.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/scope.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/scope.md",
+      "byteCount": 2455,
+      "sha256": "55d845b07533f86e1c54ace4bfaa3aa93c7ab12fbd3afdb96d515a1a56acb3b5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mvp/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/SKILL.md",
+      "byteCount": 2185,
+      "sha256": "3378b5e6109d6c0b092a559ca07a18a33d097a4db1108f44119629e7d181020f"
     },
     {
       "path": "solo.md",
       "downloadPath": "skills/mvp/solo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/solo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/solo.md",
+      "byteCount": 2295,
+      "sha256": "393816327f6c3ab381518680c6739599085855e287e30287883b79958f5d82d8"
     },
     {
       "path": "technical.md",
       "downloadPath": "skills/mvp/technical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/technical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/technical.md",
+      "byteCount": 1603,
+      "sha256": "5806b485e008c45027d0d0fefb1a14a8c625e375d7f66da53c4173890f27ed68"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/mvp/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/traps.md",
+      "byteCount": 3362,
+      "sha256": "37902469da1160e3e2f55a040f2483d7c47ae04415636c9897ac21c91cee1e64"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/mvp/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mvp/validation.md",
+      "byteCount": 3428,
+      "sha256": "2c16e31f3760a3625458f77ed3e4576fe2aa79c195be01be695291781175608e"
     }
   ]
 }

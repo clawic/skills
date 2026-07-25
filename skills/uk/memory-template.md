@@ -1,6 +1,6 @@
 # United Kingdom Trip Memory
 
-Create `~/uk/memory.md` with this structure:
+Create `~/Clawic/data/uk/memory.md` with this structure:
 
 ```markdown
 # United Kingdom Trip Memory

@@ -1,7 +1,17 @@
 ---
-name: Arduino
+name: arduino
+slug: arduino
+version: 1.0.0
 description: Develop Arduino projects avoiding common wiring, power, and code pitfalls.
-metadata: {"clawdbot":{"emoji":"🔌","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/arduino
+metadata:
+  clawdbot:
+    emoji: 🔌
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Arduino
 ---
 
 ## Voltage and Power Traps

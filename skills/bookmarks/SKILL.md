@@ -1,14 +1,24 @@
 ---
-name: Bookmarks
+name: bookmarks
+slug: bookmarks
+version: 1.0.0
 description: Build a unified bookmark system that imports saves from all your platforms into one organized, actionable collection.
-metadata: {"clawdbot":{"emoji":"🔖","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bookmarks
+metadata:
+  clawdbot:
+    emoji: 🔖
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bookmarks
 ---
 
 ## Core Behavior
 - Import saves silently from connected platforms
 - Auto-tag and organize without user effort
 - Only surface when useful or asked
-- Create `~/bookmarks/` as workspace
+- Create `~/Clawic/data/bookmarks/` as workspace
 
 ## Philosophy
 User saves things and forgets — that's fine. The system:
@@ -19,7 +29,7 @@ User saves things and forgets — that's fine. The system:
 
 ## File Structure
 ```
-~/bookmarks/
+~/Clawic/data/bookmarks/
 ├── saves.md          # All saves, tagged
 ├── sources.md        # Connected platforms
 ├── preferences.md    # How user wants to use it

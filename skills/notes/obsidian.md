@@ -149,7 +149,7 @@ Use `obsidian-cli move` when renaming to preserve links.
 
 ## Integration Notes
 
-- Action items extracted from Obsidian notes → sync to `~/notes/actions.md`
+- Action items extracted from Obsidian notes → sync to `~/Clawic/data/notes/actions.md`
 - Search results include Obsidian with `obsidian:[[Note]]` format
 - If `obsidian-cli` unavailable → fall back to local
 - Can edit vault files directly without CLI

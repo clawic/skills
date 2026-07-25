@@ -1,6 +1,6 @@
 # Setup - Macau Guide
 
-Read this when `~/macau/` is missing or empty.
+Read this when `~/Clawic/data/macau/` is missing or empty.
 Keep first-use setup short and practical.
 
 ## First Activation Priorities
@@ -23,16 +23,16 @@ If approved by user context, initialize local memory:
 
 ```bash
 mkdir -p ~/macau
-touch ~/macau/memory.md
+touch ~/Clawic/data/macau/memory.md
 chmod 700 ~/macau
-chmod 600 ~/macau/memory.md
+chmod 600 ~/Clawic/data/macau/memory.md
 ```
 
-If `~/macau/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/macau/memory.md` is empty, initialize it from `memory-template.md`.
 
 ## Returning Users
 
-- Read `~/macau/memory.md` before responding.
+- Read `~/Clawic/data/macau/memory.md` before responding.
 - Reuse known budget, district, border, and purpose context.
 - Ask only what changed since last conversation.
 - Update memory with new dates, accommodation logic, and relocation signals.

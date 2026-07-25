@@ -2,12 +2,12 @@
 
 ## First Use
 
-When `~/self-discipline/` doesn't exist, explain what the skill does and ask for permission to create it.
+When `~/Clawic/data/self-discipline/` doesn't exist, explain what the skill does and ask for permission to create it.
 
 ## Transparency First
 
 This skill needs to:
-1. Create `~/self-discipline/` to store rules and validators
+1. Create `~/Clawic/data/self-discipline/` to store rules and validators
 2. Potentially suggest edits to AGENTS.md (to ensure rules are seen)
 3. Optionally create validator scripts
 
@@ -23,10 +23,10 @@ Save preferences to their MAIN memory (AGENTS.md or equivalent) — after asking
 
 ## What to Create (with permission)
 
-Explain you'll create `~/self-discipline/`:
+Explain you'll create `~/Clawic/data/self-discipline/`:
 
 ```
-~/self-discipline/
+~/Clawic/data/self-discipline/
 ├── memory.md        # Preferences and stats
 ├── rules.md         # Active rules (loaded every session)
 ├── incidents.md     # Analysis log  

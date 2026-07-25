@@ -1,6 +1,13 @@
 ---
-name: Ukrainian
+name: ukrainian
+slug: ukrainian
+version: 1.0.0
 description: Write Ukrainian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/ukrainian
+metadata:
+  clawdbot:
+    emoji: 🇺🇦
+    displayName: Ukrainian
 ---
 
 ## The Real Problem

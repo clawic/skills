@@ -1,7 +1,17 @@
 ---
-name: Growth
+name: growth
+slug: growth
+version: 1.0.0
 description: Design and execute growth strategies with acquisition loops, activation, and retention systems.
-metadata: {"clawdbot":{"emoji":"📈","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/growth
+metadata:
+  clawdbot:
+    emoji: 📈
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Growth
 ---
 
 ## North Star Metric (Define First)

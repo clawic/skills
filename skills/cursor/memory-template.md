@@ -1,6 +1,6 @@
 # Memory Template - Cursor
 
-Create `~/cursor/memory.md` with this structure:
+Create `~/Clawic/data/cursor/memory.md` with this structure:
 
 ```markdown
 # Cursor Memory

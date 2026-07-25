@@ -1,6 +1,6 @@
 # Memory Template — Open Router
 
-Create `~/open-router/memory.md` with this structure:
+Create `~/Clawic/data/open-router/memory.md` with this structure:
 
 ```markdown
 # Open Router Memory

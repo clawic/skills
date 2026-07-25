@@ -10,7 +10,7 @@ mkdir -p ~/canada
 ```
 
 ### 2. Initialize Memory File
-Create `~/canada/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/canada/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Are you renting a car or using public transport?
 
 ### 4. Save to Memory
-Update `~/canada/memory.md` with their answers.
+Update `~/Clawic/data/canada/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/canada/memory.md` exists:
+If `~/Clawic/data/canada/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences
 3. Ask what changed since last plan

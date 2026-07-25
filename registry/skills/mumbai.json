@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1ba90d556b04ee23bb2aebaa017e97f82894dc6ae0b5adc65eac6ddd22c7c046",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "mumbai",
-    "name": "Mumbai",
+    "name": "mumbai",
     "description": "Navigate Mumbai as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, local trains, costs, visas, and local insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/mumbai",
@@ -22,172 +25,240 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mumbai/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/_meta.json",
+      "byteCount": 164,
+      "sha256": "b1cfe94d496f7598c6c116bace679442886279d84232b7c49f51ba4f046416e0"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/mumbai/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/business.md",
+      "byteCount": 7462,
+      "sha256": "4d2c410500b58b95c8ab207b9326530750b2674f5bbbbdd1b1b56023eba526fc"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/mumbai/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/climate.md",
+      "byteCount": 8112,
+      "sha256": "73a654a73efc585bae64194b535908c157b5d1fc1904c6d585c0459a4a4b22f9"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/mumbai/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/cost.md",
+      "byteCount": 8463,
+      "sha256": "0951caf2bea58829d2eeca139160a1168dc2fba8677fbb9c1c2c79a092168d3d"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/mumbai/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/culture.md",
+      "byteCount": 7626,
+      "sha256": "6cb8817bedb7c4b137fd3a37947053898e5ecdd3d0cdc27296db13f744652545"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/mumbai/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/driving.md",
+      "byteCount": 7171,
+      "sha256": "ada77dcb62100bc60af9d82b567f0e29d5b187d4e87f54f5aba9b68341130337"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/mumbai/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/education.md",
+      "byteCount": 6970,
+      "sha256": "3a764a491caf6f030ff2780bcecd388d2aef3e59dbeae071a09810f1c50ecb8e"
     },
     {
       "path": "entertainment.md",
       "downloadPath": "skills/mumbai/entertainment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/entertainment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/entertainment.md",
+      "byteCount": 6593,
+      "sha256": "8d0d47d993916a03bfae82a898a02dcb602cc48c36fcd2e36a3ce8b3c476e1b4"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/mumbai/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-areas.md",
+      "byteCount": 7519,
+      "sha256": "5e8ce7f9ccb2fb7ac9912cbb79a14fc0eb68cd7ec604ecd5cc067b9939a117d8"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/mumbai/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-international.md",
+      "byteCount": 7413,
+      "sha256": "4caf774203e704c76d08148ba5a8770f7d30498f655c378627618adb5b34899c"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/mumbai/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-overview.md",
+      "byteCount": 5687,
+      "sha256": "a5fe646f8866c3dd32c780e4fb7403cd37c7bbca4b16373744ec1c9a0ed6a462"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/mumbai/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-practical.md",
+      "byteCount": 7863,
+      "sha256": "6e6a82c58c4d90efde43e9df770eb2ba4a09c4e89d204b3f6b077a204d128508"
     },
     {
       "path": "food-regional.md",
       "downloadPath": "skills/mumbai/food-regional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-regional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-regional.md",
+      "byteCount": 7324,
+      "sha256": "9ab8209054fd153af204be82aabff31d4e0562a4a9a5e1ea768dd4fe9b0920cd"
     },
     {
       "path": "food-street.md",
       "downloadPath": "skills/mumbai/food-street.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-street.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/food-street.md",
+      "byteCount": 6681,
+      "sha256": "642f72e9c5df67d2f82cbf77674de45a3f5487871fa0324f62691d3efda3c2d2"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/mumbai/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/healthcare.md",
+      "byteCount": 7968,
+      "sha256": "b381a149f9d1890e52ae6dbbfbab7fbd825ef51117998f67415d2a8eff920654"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/mumbai/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/lifestyle.md",
+      "byteCount": 7257,
+      "sha256": "59bdd13ae77cd7da2e2c4796a43286a3249c33d690dc16efe9943a993437b4c4"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/mumbai/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/local.md",
+      "byteCount": 7994,
+      "sha256": "6530da1f1a89650d48cde24edee6a5548e49313c25fc67710411c5167681e432"
     },
     {
       "path": "neighborhoods-bandra.md",
       "downloadPath": "skills/mumbai/neighborhoods-bandra.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-bandra.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-bandra.md",
+      "byteCount": 9549,
+      "sha256": "8c1deec0b349b6ec8ff2d2ef613e311829688d7493f4138c9aa3e3b0467bfe7d"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/mumbai/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-central.md",
+      "byteCount": 7993,
+      "sha256": "f53cb748f7211ddf3a195c0769a04e5bd19242a78a4675349adb2621728a3c83"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/mumbai/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-choosing.md",
+      "byteCount": 6987,
+      "sha256": "046dfe35ece40ad15530abdcbcf78a8f43b6380a908de67b117666446403fb56"
     },
     {
       "path": "neighborhoods-extended.md",
       "downloadPath": "skills/mumbai/neighborhoods-extended.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-extended.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-extended.md",
+      "byteCount": 7258,
+      "sha256": "17cc4aff07910cceec19f164b6632e31903d9f33ca3b8aa6e64204e53fbc51c7"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/mumbai/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-index.md",
+      "byteCount": 6140,
+      "sha256": "07470418bea9fc314665ad3df0f90b7e804df86fe3894dca06a44925da86ae8f"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/mumbai/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/neighborhoods-south.md",
+      "byteCount": 7840,
+      "sha256": "681c39f7cd92e7cf83edeeeab706b11e2e5bb6204a6bd490b58d06e3fbaf4497"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/mumbai/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/resident.md",
+      "byteCount": 8851,
+      "sha256": "ad133181f232ee0bdc1e5b84f880f1023b2c707f65c30f5846a973ccc8774a98"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/mumbai/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/safety.md",
+      "byteCount": 7962,
+      "sha256": "a39fcdf7785721ec437746ca17e78623b213011a544cdfc456863a992c8cc1b0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mumbai/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/SKILL.md",
+      "byteCount": 7534,
+      "sha256": "dd1fd04a6a22589874dd15a97ca4174bf786916b58f544981f44aa51ffebc414"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/mumbai/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/startup.md",
+      "byteCount": 6155,
+      "sha256": "d9a0c57fc99b10f4abb7b56d70d90f5cfb4476b63c78729c7e5e94237644ab15"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/mumbai/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/tech.md",
+      "byteCount": 6344,
+      "sha256": "a35a4e30a00c79fc7d3bc3b7071b2bfc9795cb8c4680960e7c5ec66a6b96e6b0"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/mumbai/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/transport.md",
+      "byteCount": 8553,
+      "sha256": "3224a6157bf4ce688c7b288f248895a83d789544d50486f49886f659309c2b32"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/mumbai/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visas.md",
+      "byteCount": 6779,
+      "sha256": "f4ae1913a84ff9aedf2cb181e62128359c1c9ed093ebd00749fdcc113e0a51f4"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/mumbai/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-attractions.md",
+      "byteCount": 6291,
+      "sha256": "92e6e6b9775375ff390b95e9be290f0f55ec7985593debea7aa892706b60174e"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/mumbai/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-itineraries.md",
+      "byteCount": 6222,
+      "sha256": "b5c671770082a537748da80773df51b7b4d56625009da8298aad50fc313ca308"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/mumbai/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-lodging.md",
+      "byteCount": 6578,
+      "sha256": "97eb28a7b225610b49008cc4f05730dd53576275cbb915498bde6921f188fadf"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/mumbai/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mumbai/visitor-tips.md",
+      "byteCount": 8227,
+      "sha256": "79e8cf8e6c97753ef8a976fac740b24c616e26262f62965d696d5f0f4411a5e8"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template — Self-Direction
 
-Create `~/self-direction/direction.md` with this structure:
+Create `~/Clawic/data/self-direction/direction.md` with this structure:
 
 ```markdown
 # Direction Model
@@ -212,7 +212,7 @@ status: pending | resolved
 
 ## Evidence Logging
 
-Create `~/self-direction/evidence.md` to log raw observations:
+Create `~/Clawic/data/self-direction/evidence.md` to log raw observations:
 
 ```markdown
 # Evidence Log
@@ -230,7 +230,7 @@ captured_to: Which section of direction.md (or "pending")
 
 ## Transmission Frames
 
-Create `~/self-direction/transmission.md` for sub-agent direction:
+Create `~/Clawic/data/self-direction/transmission.md` for sub-agent direction:
 
 ```markdown
 # Transmission Frames

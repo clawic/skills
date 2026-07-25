@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7f64fb917ce76321e3d159d1a350d1e24731872f52b7645942ff411a5251b437",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "api",
     "name": "api",
-    "description": "Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services. Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403, or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching with ETags, or syncing API data into a local database \u2014 with per-service gotchas and curl examples. Not for designing or building your own API.",
+    "description": "Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services. Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403, or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching with ETags, or syncing API data into a local database — with per-service gotchas and curl examples. Not for designing or building your own API.",
     "version": "1.3.7",
     "homepage": "https://clawic.com/skills/api",
     "summary": "REST and GraphQL API reference for 147 services: authentication, endpoints, rate limits, and per-service gotchas, plus pattern playbooks for everything that goes wrong between you and an API. User preferences live in `~/",
@@ -20,184 +23,256 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/api/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/_meta.json",
+      "byteCount": 714,
+      "sha256": "1e05f3a4698bf8746a25a192c669568e75dd38f3e40471a065e3038894673558"
     },
     {
       "path": "apis/ai-ml.md",
       "downloadPath": "skills/api/apis/ai-ml.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/ai-ml.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/ai-ml.md",
+      "byteCount": 34920,
+      "sha256": "2de8a8befdcfb428f4088f78cf4ff1789b1caebd56e9927dfb1d516c2c8fb80f"
     },
     {
       "path": "apis/analytics.md",
       "downloadPath": "skills/api/apis/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/analytics.md",
+      "byteCount": 11080,
+      "sha256": "c77f36656b86b78d7007a1eef52b358ba5b9b59a225b13ff68942634748d8dba"
     },
     {
       "path": "apis/auth-providers.md",
       "downloadPath": "skills/api/apis/auth-providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/auth-providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/auth-providers.md",
+      "byteCount": 10747,
+      "sha256": "7867e1c1c2a411cd86cf0d9f8ccd84584991cd893acdd72ae302e4b235f82c30"
     },
     {
       "path": "apis/business.md",
       "downloadPath": "skills/api/apis/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/business.md",
+      "byteCount": 13234,
+      "sha256": "ea1311bf499cbe9286ae125519290ac198129c038e6bc7f8c814f3ca497a7f3b"
     },
     {
       "path": "apis/communication.md",
       "downloadPath": "skills/api/apis/communication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/communication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/communication.md",
+      "byteCount": 19670,
+      "sha256": "3d85201a2ffba446350387763e60778c3a954dfc118b690eb2a2de696592e158"
     },
     {
       "path": "apis/crm.md",
       "downloadPath": "skills/api/apis/crm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/crm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/crm.md",
+      "byteCount": 20427,
+      "sha256": "0714203d26c69a299631876395fa8fd7d70434a4fbafb1f7795163aba8d9eb71"
     },
     {
       "path": "apis/database.md",
       "downloadPath": "skills/api/apis/database.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/database.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/database.md",
+      "byteCount": 24812,
+      "sha256": "f5e46e37aab290fe4f0afa35e6e0b71f6841b004d557480b2fd2862447c5ec0b"
     },
     {
       "path": "apis/developer.md",
       "downloadPath": "skills/api/apis/developer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/developer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/developer.md",
+      "byteCount": 36241,
+      "sha256": "7dce7189c72ca547ed3e26ffa8c2a184cd1ff3455b749f1447a42bcd1365840b"
     },
     {
       "path": "apis/geo.md",
       "downloadPath": "skills/api/apis/geo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/geo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/geo.md",
+      "byteCount": 5872,
+      "sha256": "76e860ece8965fbd1d89041a5ac396e8a957515e8ffaccfea1f7c1e89669becf"
     },
     {
       "path": "apis/marketing.md",
       "downloadPath": "skills/api/apis/marketing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/marketing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/marketing.md",
+      "byteCount": 20219,
+      "sha256": "a94f2ccce7820dccfc0cf08af7e4098d81fb9acb59d6daa9c8afe8a903f5e235"
     },
     {
       "path": "apis/media.md",
       "downloadPath": "skills/api/apis/media.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/media.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/media.md",
+      "byteCount": 28326,
+      "sha256": "b4de96a697281a95e961b5a2a039018484ec2441e39b283be7bd9ac5948b23f5"
     },
     {
       "path": "apis/payments.md",
       "downloadPath": "skills/api/apis/payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/payments.md",
+      "byteCount": 24320,
+      "sha256": "1fa1517ed9374343367f9689df5176de9cae9eeff56d11cb6b32928d71ae5346"
     },
     {
       "path": "apis/productivity.md",
       "downloadPath": "skills/api/apis/productivity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/productivity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/productivity.md",
+      "byteCount": 35102,
+      "sha256": "8625ca96fefc85df6aba453ac91526edfa2e57b36f87b148b7ee4039c004b625"
     },
     {
       "path": "apis/realtime.md",
       "downloadPath": "skills/api/apis/realtime.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/realtime.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/realtime.md",
+      "byteCount": 19334,
+      "sha256": "b50bc4ad33022e0aeac5a6676f05bc0073b091444dca7c21f71ffb11c8179157"
     },
     {
       "path": "apis/social.md",
       "downloadPath": "skills/api/apis/social.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/social.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/social.md",
+      "byteCount": 16231,
+      "sha256": "ddc943d1508d7dd06b40eccac9a023d816b77f4645a156fca84a67c1d7183d14"
     },
     {
       "path": "apis/support.md",
       "downloadPath": "skills/api/apis/support.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/support.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/apis/support.md",
+      "byteCount": 9530,
+      "sha256": "e93be68494fdb6ab101daf169c3115fda967ae3a2f4c5d171820ae92b2506d18"
     },
     {
       "path": "async-jobs.md",
       "downloadPath": "skills/api/async-jobs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/async-jobs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/async-jobs.md",
+      "byteCount": 2491,
+      "sha256": "bc5df294b13a9ee306c5485aebae4017165e0efe3c0ac626a5fefd484b1d285b"
     },
     {
       "path": "auth.md",
       "downloadPath": "skills/api/auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/auth.md",
+      "byteCount": 4893,
+      "sha256": "2e88eb5d4b8bd5f92d6c5eae14d098300ecccd46402bf7ee0b41cab8e5bd54d7"
     },
     {
       "path": "browser.md",
       "downloadPath": "skills/api/browser.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/browser.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/browser.md",
+      "byteCount": 2756,
+      "sha256": "25fc916fbd6313cb1e8f3b037562c8d1b457d91a32c16777702e0256a84948d6"
     },
     {
       "path": "caching.md",
       "downloadPath": "skills/api/caching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/caching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/caching.md",
+      "byteCount": 2393,
+      "sha256": "39de052086ef65ff0731ea46635116296abf995193953a4d3aeb995c6ee388b0"
     },
     {
       "path": "credentials.md",
       "downloadPath": "skills/api/credentials.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/credentials.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/credentials.md",
+      "byteCount": 1912,
+      "sha256": "0e9fb552271bf3fb06c55cf9603e2ac1b7648ca9b81018ff67419ee735503c6a"
     },
     {
       "path": "data-formats.md",
       "downloadPath": "skills/api/data-formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/data-formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/data-formats.md",
+      "byteCount": 2823,
+      "sha256": "512414851909e166efd74a77f14c7bcaf1bca7eb7ad0d5354892ddd93731616f"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/api/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/debug.md",
+      "byteCount": 5009,
+      "sha256": "b27b9f828a77fc1ccdb94cc100055ab3fdd8bbf7f5f8524a269e44f30bc64e81"
     },
     {
       "path": "files.md",
       "downloadPath": "skills/api/files.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/files.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/files.md",
+      "byteCount": 2650,
+      "sha256": "cd6ebc497a5cfe615247237622735d8329b175f6dddb015a13e080a1b2fa6027"
     },
     {
       "path": "graphql.md",
       "downloadPath": "skills/api/graphql.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/graphql.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/graphql.md",
+      "byteCount": 2390,
+      "sha256": "1f29b307dc47f8666de1f1472aa4b3890f113d63516ffb7971765a7bc69da70f"
     },
     {
       "path": "pagination.md",
       "downloadPath": "skills/api/pagination.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/pagination.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/pagination.md",
+      "byteCount": 2286,
+      "sha256": "6a698833c0d6765d3ec2658dc99e874e96a44e7664bbe4e9b57e88de654ee3ca"
     },
     {
       "path": "rate-limits.md",
       "downloadPath": "skills/api/rate-limits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/rate-limits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/rate-limits.md",
+      "byteCount": 3444,
+      "sha256": "9282a0ee44b2e2349ca50d77a5e4c5c69f7db7a16d8cc92e5e4cdaa250b609e1"
     },
     {
       "path": "resilience.md",
       "downloadPath": "skills/api/resilience.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/resilience.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/resilience.md",
+      "byteCount": 3962,
+      "sha256": "4832358fed8e8b90dc3e9881fdb1a270999593350bdfcbf6d58913c4c45c0c0f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/api/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/setup.md",
+      "byteCount": 2517,
+      "sha256": "ea7992cc86a324920e7d392e63099092061e04dc73037f461a409ede63478415"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/api/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md",
+      "byteCount": 16002,
+      "sha256": "966c07f3be41b7b3aa21a669f3d1d9f97671aa045e3d3fa94bd883b3f7397f03"
     },
     {
       "path": "streaming.md",
       "downloadPath": "skills/api/streaming.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/streaming.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/streaming.md",
+      "byteCount": 4369,
+      "sha256": "ff2108a9e5fa8f6b146d7ece29d746370bd7f6ced85973f5f8e2601d72472529"
     },
     {
       "path": "sync.md",
       "downloadPath": "skills/api/sync.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/sync.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/sync.md",
+      "byteCount": 3488,
+      "sha256": "345fb8fbed2465632f66d9d3129f2f857b0b5fb527110ea7fc93572d08d77317"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/api/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/testing.md",
+      "byteCount": 2314,
+      "sha256": "32144b18d51b53b7cc76b70258f174dd54ba9a404212b41d0a2e60b75cb233af"
     },
     {
       "path": "versioning.md",
       "downloadPath": "skills/api/versioning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/versioning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/versioning.md",
+      "byteCount": 2490,
+      "sha256": "7386d2366d689a1e875652db0a799009addd6295ab83be70da8d39be5186733f"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/api/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/webhooks.md",
+      "byteCount": 3415,
+      "sha256": "5bb08454544afe2b088358af5dd903100b35fde10c8ebcea986e42e4eecaf324"
     }
   ]
 }

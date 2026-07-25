@@ -1,6 +1,6 @@
 # Setup - Cursor
 
-Read this when `~/cursor/` is missing or empty. Start naturally and stay operational.
+Read this when `~/Clawic/data/cursor/` is missing or empty. Start naturally and stay operational.
 
 ## Your Attitude
 
@@ -45,7 +45,7 @@ Save only durable context:
 - rule hierarchy and context-shaping defaults
 - privacy, GitHub, Background Agent, and MCP boundaries worth reusing
 
-Store data only in `~/cursor/` after user consent.
+Store data only in `~/Clawic/data/cursor/` after user consent.
 
 ## Golden Rule
 

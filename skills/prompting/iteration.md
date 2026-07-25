@@ -28,7 +28,7 @@ After any fix, re-test:
 New fixes often break old behavior.
 
 ## 5. Document the Change
-In `~/prompting/history.md`:
+In `~/Clawic/data/prompting/history.md`:
 ```
 [date] task: [description]
 - Problem: [what failed]

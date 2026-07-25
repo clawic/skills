@@ -1,6 +1,6 @@
 # Memory Template - Ollama
 
-Create `~/ollama/memory.md` with this structure:
+Create `~/Clawic/data/ollama/memory.md` with this structure:
 
 ```markdown
 # Ollama Memory

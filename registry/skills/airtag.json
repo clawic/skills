@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6fea08633ac70452213f44c30081d786b96c4e06ecb04878ac345c854b49ee57",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "airtag",
-    "name": "AirTag",
+    "name": "airtag",
     "description": "Give your agent controlled access to all AirTags in your Apple account to locate items, run diagnostics, and recover setup failures.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/airtag",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/airtag/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/_meta.json",
+      "byteCount": 164,
+      "sha256": "d50c0d7ee86fc592dbc975d74b630e1e125904b3885c5efe05f5465239de666e"
     },
     {
       "path": "access-connectors.md",
       "downloadPath": "skills/airtag/access-connectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/access-connectors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/access-connectors.md",
+      "byteCount": 2408,
+      "sha256": "6b8e69eb85e5ce95f2d33a484fc574c1adaa8d2069058c5e7ad7160591b42e11"
     },
     {
       "path": "anti-stalking-safety.md",
       "downloadPath": "skills/airtag/anti-stalking-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/anti-stalking-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/anti-stalking-safety.md",
+      "byteCount": 1432,
+      "sha256": "1165bcf22ee0422d729efa4475148e0984d956c4ccd01269184753bf0182ed4e"
     },
     {
       "path": "battery-maintenance.md",
       "downloadPath": "skills/airtag/battery-maintenance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/battery-maintenance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/battery-maintenance.md",
+      "byteCount": 1352,
+      "sha256": "1837ca5bdd813dbd328d48c1a1d3011004330762f472b477229d9c554fb157b6"
     },
     {
       "path": "connection-diagnostics.md",
       "downloadPath": "skills/airtag/connection-diagnostics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/connection-diagnostics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/connection-diagnostics.md",
+      "byteCount": 2084,
+      "sha256": "70642537c57b72e7a71b109070b2aa3d61d1939bbc7291df0d2ceb5d5836df00"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/airtag/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/memory-template.md",
+      "byteCount": 1376,
+      "sha256": "d36ac8df63fca48339ade3476fd01c80378f9aff9ee56ef709d4cd805c3a4bcb"
     },
     {
       "path": "recovery-playbook.md",
       "downloadPath": "skills/airtag/recovery-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/recovery-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/recovery-playbook.md",
+      "byteCount": 2593,
+      "sha256": "67853f8492dfa53bb382aa1d441a56100e16a6e4068d4f27a17df1b24b45b59c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/airtag/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/setup.md",
+      "byteCount": 1705,
+      "sha256": "dc1041386a52ec40438962b66185e60e832bb96dd672fb03c1abba3f8ac2b558"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/airtag/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/airtag/SKILL.md",
+      "byteCount": 6366,
+      "sha256": "e4bf72c8f980f8421ffbc338ad13ec7da6d4c853c9e81ffb930ead7e55a6fdde"
     }
   ]
 }

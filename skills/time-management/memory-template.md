@@ -1,6 +1,6 @@
 # Memory Template — Time Management
 
-Create `~/time-management/memory.md` with this structure:
+Create `~/Clawic/data/time-management/memory.md` with this structure:
 
 ```markdown
 # Time Management Memory

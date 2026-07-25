@@ -1,7 +1,17 @@
 ---
-name: Pricing
+name: pricing
+slug: pricing
+version: 1.0.0
 description: Design pricing strategies for products, services, and subscriptions that maximize conversion and value.
-metadata: {"clawdbot":{"emoji":"💰","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pricing
+metadata:
+  clawdbot:
+    emoji: 💰
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Pricing
 ---
 
 ## Pricing Psychology

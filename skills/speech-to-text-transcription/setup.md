@@ -1,6 +1,6 @@
 # Setup — Speech to Text Transcription
 
-Read this when `~/speech-to-text-transcription/` doesn't exist or is empty. Start helping the user naturally with their transcription needs.
+Read this when `~/Clawic/data/speech-to-text-transcription/` doesn't exist or is empty. Start helping the user naturally with their transcription needs.
 
 ## Your Attitude
 
@@ -32,7 +32,7 @@ Most users don't care about providers. Only ask if relevant:
 
 ## What You're Saving (internally)
 
-In `~/speech-to-text-transcription/memory.md`:
+In `~/Clawic/data/speech-to-text-transcription/memory.md`:
 - Preferred provider (if expressed)
 - Common use cases (meetings, voice memos, etc.)
 - Output format preference

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c8eda4c65b93f113ac3b1663ebdacbe7be4b1b95278a1f9551653abf91371703",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,59 +23,81 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/learning/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/learning/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/_meta.json",
+      "byteCount": 318,
+      "sha256": "d9f164cb799ed9ef41befcbca028c3026f736cc84a586705416168d6af1dc811"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/learning/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/formats.md",
+      "byteCount": 3423,
+      "sha256": "ade9e1b5ccda424b70bce55ab30bad3eb7559c70792efa9d12b69e6d4b3cb966"
     },
     {
       "path": "learner-states.md",
       "downloadPath": "skills/learning/learner-states.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/learner-states.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/learner-states.md",
+      "byteCount": 2842,
+      "sha256": "6dbcbfa3a12adb03f6fa2ce24c25da4683d5c4182bbf50cfc29f90f917bf8782"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/learning/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/memory-template.md",
+      "byteCount": 2120,
+      "sha256": "d0ad4fe4ed8d14ff9ecab053bee4cd55d5fcb81a2898f00a9bad0d4e3933491e"
     },
     {
       "path": "misconceptions.md",
       "downloadPath": "skills/learning/misconceptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/misconceptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/misconceptions.md",
+      "byteCount": 3250,
+      "sha256": "da2504c24c1004d0127039c299ccaf08cc303d2214b9d6ef0b3fe224a2b04cb5"
     },
     {
       "path": "questions.md",
       "downloadPath": "skills/learning/questions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/questions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/questions.md",
+      "byteCount": 3380,
+      "sha256": "700bc2801402471311c5ab6dbdebe028eb747f62e8aa6b2f64f225811b55953a"
     },
     {
       "path": "retention.md",
       "downloadPath": "skills/learning/retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/retention.md",
+      "byteCount": 3300,
+      "sha256": "ab77a6d4d95ce0c8679c84a25c75ca15b79ae8b5dccdb2388b44d4dddf5fae8a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/learning/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/setup.md",
+      "byteCount": 1985,
+      "sha256": "ab3f1a9cddd26d18ac9a8801fc3a7b76c2d357992280403c40a72d12603cd8c2"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/learning/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/SKILL.md",
+      "byteCount": 13672,
+      "sha256": "4fc247ed026319e226e845879e44e235f64c8ca17862e8b95c3e0303d5598186"
     },
     {
       "path": "stuck.md",
       "downloadPath": "skills/learning/stuck.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/stuck.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/stuck.md",
+      "byteCount": 3747,
+      "sha256": "54e936af5b00d2517cb55adef798fc6f1529ecda6603d2f218f4ce71b043878f"
     },
     {
       "path": "topic-types.md",
       "downloadPath": "skills/learning/topic-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/topic-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learning/topic-types.md",
+      "byteCount": 2939,
+      "sha256": "abb10bd96c59f60c03beae5fffc36b3e58d903c5ba7c3fb4bd24acd170efcf78"
     }
   ]
 }

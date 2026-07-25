@@ -1,6 +1,6 @@
 # Memory Template — Mixpanel
 
-Create `~/mixpanel/memory.md` with this structure:
+Create `~/Clawic/data/mixpanel/memory.md` with this structure:
 
 ```markdown
 # Mixpanel Memory

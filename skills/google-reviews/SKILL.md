@@ -1,11 +1,22 @@
 ---
-name: Google Reviews
+name: google-reviews
 slug: google-reviews
 version: 1.0.0
-homepage: https://clawic.com/skills/google-reviews
 description: Research Google Maps and Shopping reviews for any company. Run multi-brand monitoring with heartbeat refreshes and sentiment reports.
-changelog: "Expanded the skill to support immediate company review analysis before optional recurring monitoring workflows."
-metadata: {"clawdbot":{"emoji":"⭐","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/google-reviews/"]}}
+homepage: https://clawic.com/skills/google-reviews
+changelog: Expanded the skill to support immediate company review analysis before optional recurring monitoring workflows.
+metadata:
+  clawdbot:
+    emoji: ⭐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/google-reviews/
+    displayName: Google Reviews
 ---
 
 ## Setup
@@ -22,10 +33,10 @@ If the user needs recurring tracking after the first analysis, switch into monit
 
 ## Architecture
 
-Memory lives in `~/google-reviews/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/google-reviews/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/google-reviews/
+~/Clawic/data/google-reviews/
 |-- memory.md                     # Stable monitoring preferences and activation behavior
 |-- brands/
 |   `-- {brand}.md               # Per-brand scope, sources, and thresholds
@@ -63,11 +74,11 @@ Optional tooling:
 
 ## Data Storage
 
-All skill-local monitoring state stays in `~/google-reviews/`.
+All skill-local monitoring state stays in `~/Clawic/data/google-reviews/`.
 Create on first use:
 
 ```bash
-mkdir -p ~/google-reviews/{brands,snapshots,reports/daily,reports/weekly,heartbeat}
+mkdir -p ~/Clawic/data/google-reviews/{brands,snapshots,reports/daily,reports/weekly,heartbeat}
 ```
 
 ## Core Rules
@@ -108,7 +119,7 @@ mkdir -p ~/google-reviews/{brands,snapshots,reports/daily,reports/weekly,heartbe
 - Keep historical trend context so week-over-week movement is visible.
 
 ### 8. Protect Privacy and Operational Boundaries
-- Store only monitoring-relevant data in `~/google-reviews/`.
+- Store only monitoring-relevant data in `~/Clawic/data/google-reviews/`.
 - Avoid collecting PII beyond what appears in the public or user-provided review payload.
 - Never claim live monitoring if refresh jobs were not executed successfully.
 
@@ -138,7 +149,7 @@ Data that may leave your machine:
 - Optional report delivery payloads if user requests external posting.
 
 Data that stays local:
-- Brand watchlists, normalized snapshots, and monitoring reports in `~/google-reviews/`.
+- Brand watchlists, normalized snapshots, and monitoring reports in `~/Clawic/data/google-reviews/`.
 
 This skill does NOT:
 - Store credentials in markdown files.
@@ -159,7 +170,7 @@ This skill NEVER:
 - Execute irreversible actions without explicit user instruction
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `heartbeat` - proactive cadence design and low-noise monitoring loops
 - `alerts` - escalation policies, cooldowns, and alert routing patterns
 - `monitoring` - broader monitoring architecture and incident hygiene
@@ -168,5 +179,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star google-reviews`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/google-reviews
+- Latest version: https://clawic.com/skills/google-reviews

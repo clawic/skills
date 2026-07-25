@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "aeb68824f83a8d061dd7c45738ce38162cafbb61cb6ffc3e89ede114c8294a90",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "chro",
-    "name": "CHRO / Chief Human Resources Officer",
+    "name": "chro",
     "description": "Manage HR operations with hiring pipelines, compliance frameworks, compensation strategy, and workforce analytics.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/chro",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chro/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/_meta.json",
+      "byteCount": 268,
+      "sha256": "314b13cbf638c1ae02c9cf26a6fad2cabdb50130585b28372bb1e9fff0c4e083"
     },
     {
       "path": "analytics.md",
       "downloadPath": "skills/chro/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/analytics.md",
+      "byteCount": 2443,
+      "sha256": "a6585a7904cc9af6f47a5c444cd14459a497c88a25c206f8a76962aceba2dd86"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/chro/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/compliance.md",
+      "byteCount": 2430,
+      "sha256": "d868bed8626595b5e708389b37d23996871a17b249d013653c34bbc375b2b072"
     },
     {
       "path": "hiring.md",
       "downloadPath": "skills/chro/hiring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/hiring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/hiring.md",
+      "byteCount": 2355,
+      "sha256": "78531838a51750dc049e3dbc66ea2f04c9f607851beb22db56c80c396c5fba14"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/chro/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/operations.md",
+      "byteCount": 2181,
+      "sha256": "40eb6a598ce1cc96bda5c19870ea3cce430506e03a4cf6d0e2797c0cbadda4e8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chro/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chro/SKILL.md",
+      "byteCount": 3154,
+      "sha256": "e6d092bb34a28d091cfe70e64ac56a1f1f4c9bd7f812384fa8513beff65e2b35"
     }
   ]
 }

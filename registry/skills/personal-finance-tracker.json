@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c6be8eb1d0bd5c6c86530ec53a8ccf1e821fd91fd21c77dc5f9380e94293e14c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "personal-finance-tracker",
-    "name": "Personal Finance Tracker",
+    "name": "personal-finance-tracker",
     "description": "Track personal finances with cashflow reviews, recurring bill detection, debt triage, CSV imports, and net worth snapshots.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/personal-finance-tracker",
-    "summary": "Personal Finance Tracker Personal finance tracker for cashflow control, recurring bills, debt pressure, and weekly money decisions. Setup On first use, read `setup.md` for integration guidelines. Ask before creating `~/p",
+    "summary": "Personal Finance Tracker Personal finance tracker for cashflow control, recurring bills, debt pressure, and weekly money decisions. Setup On first use, read `setup.md` for integration guidelines. Ask before creating `~/C",
     "repositoryPath": "skills/personal-finance-tracker",
     "manifestPath": "registry/skills/personal-finance-tracker.json"
   },
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/personal-finance-tracker/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/_meta.json",
+      "byteCount": 200,
+      "sha256": "dc0b0cbe7f4447ba6a19813d14d17a1c6e4e876e8241a0088ee882c8347a33b1"
     },
     {
       "path": "cashflow_rollup.py",
       "downloadPath": "skills/personal-finance-tracker/cashflow_rollup.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/cashflow_rollup.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/cashflow_rollup.py",
+      "byteCount": 2142,
+      "sha256": "7c9bb75ee96bff1701e49280e8812a84ec98c3da15b8d3f7f45eb8b5b882577a"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/personal-finance-tracker/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/commands.md",
+      "byteCount": 974,
+      "sha256": "968f653338e9a7e3792884ac63f1884fc4bdef7ea226e0a18b516287c8acfd5f"
     },
     {
       "path": "csv-schema.md",
       "downloadPath": "skills/personal-finance-tracker/csv-schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/csv-schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/csv-schema.md",
+      "byteCount": 1676,
+      "sha256": "4becee975de4656b250f2ded163eb2fc22995556d9904011ecb25848f76f919b"
     },
     {
       "path": "debt-triage.md",
       "downloadPath": "skills/personal-finance-tracker/debt-triage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/debt-triage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/debt-triage.md",
+      "byteCount": 1462,
+      "sha256": "8e3df38fc38372cd646c4fc35d1af7d819beb65e59a8f46fbaf8ac4f04540a22"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/personal-finance-tracker/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/memory-template.md",
+      "byteCount": 1254,
+      "sha256": "4b6fc27c6e162398c10dd6dee88de70d1a6ee2a40b43befaeb91e19faf2640e5"
     },
     {
       "path": "recurring_scan.py",
       "downloadPath": "skills/personal-finance-tracker/recurring_scan.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/recurring_scan.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/recurring_scan.py",
+      "byteCount": 1850,
+      "sha256": "434c60736abb7f4acb4ca9a566e8ddc07afc3eac33b744b227f764d060621c57"
     },
     {
       "path": "review-rhythm.md",
       "downloadPath": "skills/personal-finance-tracker/review-rhythm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/review-rhythm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/review-rhythm.md",
+      "byteCount": 1179,
+      "sha256": "c8f829254a4577e0ce924c532b816aa8d2d15e90078fa77a87fbaeb672499271"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/personal-finance-tracker/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/setup.md",
+      "byteCount": 1960,
+      "sha256": "5047802ca00ab677610221d22eeaf0b997976eb3541d586775f0ff081819d8be"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/personal-finance-tracker/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-finance-tracker/SKILL.md",
+      "byteCount": 7208,
+      "sha256": "71d6bdf0462e8b62f606a4ebc79c712052864846b0181eb5285102df7aa25313"
     }
   ]
 }

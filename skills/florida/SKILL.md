@@ -1,11 +1,24 @@
 ---
-name: Florida
+name: florida
 slug: florida
 version: 1.0.0
-homepage: https://clawic.com/skills/florida
 description: Navigate Florida for living, moving, working, seasonal stays, and road trips with region fit, storm planning, insurance reality, and daily logistics.
-changelog: "Initial release with resident-first Florida guidance, seasonal-living support, and practical statewide logistics."
-metadata: {"clawdbot":{"emoji":"🌴","requires":{"bins":[],"config":["~/florida/"]},"os":["linux","darwin","win32"],"configPaths":["~/florida/"]}}
+homepage: https://clawic.com/skills/florida
+changelog: Initial release with resident-first Florida guidance, seasonal-living support, and practical statewide logistics.
+metadata:
+  clawdbot:
+    emoji: 🌴
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/florida/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/florida/
+    displayName: Florida
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for five modes: visiting, moving to Florida, living i
 
 ## Architecture
 
-This skill works statelessly for one-off Florida questions. If the user wants continuity across sessions, memory lives in `~/florida/`. If `~/florida/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off Florida questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/florida/`. If `~/Clawic/data/florida/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/florida/
+~/Clawic/data/florida/
 └── memory.md     # User context, regions, timelines, insurance concerns, and open loops
 ```
 
@@ -81,7 +94,7 @@ This skill works statelessly for one-off Florida questions. If the user wants co
 - Florida users often need deadlines, documents, portals, and tradeoffs.
 - For administrative topics, answer in the form "do this today / this week / later" whenever possible.
 - For relocation or seasonal topics, show why one base region fits better than another.
-- Before creating or changing local files in `~/florida/`, explain the planned write and ask for confirmation.
+- Before creating or changing local files in `~/Clawic/data/florida/`, explain the planned write and ask for confirmation.
 
 ### 8. Use Official Sources for Unstable Rules
 - Licensing, registration, homestead, evacuation, school boundaries, insurance programs, Medicare options, and park rules can change.
@@ -119,7 +132,7 @@ No other data is sent externally.
 - ZIP, county, flood-zone, or district data only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Region preference, move timeline, seasonal-living setup, insurance concerns, and open tasks in `~/florida/`
+- Region preference, move timeline, seasonal-living setup, insurance concerns, and open tasks in `~/Clawic/data/florida/`
 
 **This skill does NOT:**
 - Submit government forms on the user's behalf without explicit instruction
@@ -133,7 +146,7 @@ By using this skill, location details such as ZIP, county, district, or flood-zo
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General itinerary design and trip planning structure
 - `car-rental` — Rental car, airport pickup, and highway planning for Florida trips
 - `booking` — Reservation workflows for flights, cruises, resorts, and schedule holds
@@ -142,5 +155,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star florida`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/florida
+- Latest version: https://clawic.com/skills/florida

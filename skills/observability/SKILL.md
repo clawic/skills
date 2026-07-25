@@ -1,10 +1,19 @@
 ---
-name: Observability
+name: observability
 slug: observability
 version: 1.0.0
-homepage: https://clawic.com/skills/observability
 description: Logs, metrics, and traces as complementary signals, high-cardinality dimensions, and the instrumentation budget.
-metadata: {"clawdbot":{"emoji":"⚙️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/observability
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Observability
 ---
 
 ## Mental model: three signals, one budget
@@ -120,7 +129,7 @@ metadata: {"clawdbot":{"emoji":"⚙️","requires":{"bins":[]},"os":["linux","da
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `metrics` - the counter/gauge/histogram types and Prometheus queries this skill emits
 - `grafana` - the dashboards and query layer over the metrics, traces, and logs pipeline
 - `alerts` - alerting rules, runbooks, and fatigue this skill's SLO burn-rate method targets

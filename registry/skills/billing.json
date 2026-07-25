@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "775b4543ddef58354c0fbed458789e7d6f2f8f19f846e37c115a8396afb7800e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "billing",
-    "name": "Billing",
+    "name": "billing",
     "description": "Build payment integrations, subscription management, and invoicing systems with webhook handling, tax compliance, and revenue recognition.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/billing",
     "summary": "When to Use User needs to implement or debug payment processing, subscription lifecycles, invoicing, or revenue operations. Agent handles Stripe/Paddle integration, webhook architecture, multi-currency, tax compliance, c",
     "repositoryPath": "skills/billing",
     "manifestPath": "registry/skills/billing.json"
@@ -21,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/billing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/_meta.json",
+      "byteCount": 166,
+      "sha256": "9680a61330ebd4c0488b7c60091980f2c2d596cefb07ad899a9951d35d3b4204"
     },
     {
       "path": "disputes.md",
       "downloadPath": "skills/billing/disputes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/disputes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/disputes.md",
+      "byteCount": 3962,
+      "sha256": "6cb57729de0c36ac0c77c187bea3563d7aff52c7a2046cf94ed25cb95d759bfe"
     },
     {
       "path": "invoicing.md",
       "downloadPath": "skills/billing/invoicing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/invoicing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/invoicing.md",
+      "byteCount": 3097,
+      "sha256": "3cbc8a5f92de6d29f1f5d013adbbd25892bfee01a36870db010b56491cf1fdc8"
     },
     {
       "path": "marketplace.md",
       "downloadPath": "skills/billing/marketplace.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/marketplace.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/marketplace.md",
+      "byteCount": 4155,
+      "sha256": "4e80c10e6fcb110b96edec3afcc7411c1d878d5aeb8b1f83f8656deb42719cd3"
     },
     {
       "path": "revenue-recognition.md",
       "downloadPath": "skills/billing/revenue-recognition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/revenue-recognition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/revenue-recognition.md",
+      "byteCount": 4003,
+      "sha256": "1bdb63c459d7af7fcaf621903b52e0f5576d71995cbd0826403726dd48d9a509"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/billing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/SKILL.md",
+      "byteCount": 5782,
+      "sha256": "a1056ea17086c19071afb82164ffadbf11e5ba6eb9ed756437a859c7b6ca0c63"
     },
     {
       "path": "stripe.md",
       "downloadPath": "skills/billing/stripe.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/stripe.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/stripe.md",
+      "byteCount": 4654,
+      "sha256": "1948e6baec9626494b89ba8606b1d8af91e091e42ba007a54d68ceba3f91ba68"
     },
     {
       "path": "subscriptions.md",
       "downloadPath": "skills/billing/subscriptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/subscriptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/subscriptions.md",
+      "byteCount": 3804,
+      "sha256": "a7e3d5725694378390d56e834ee337ea70a06eb699d41abcda5d86b53f7c86fb"
     },
     {
       "path": "tax.md",
       "downloadPath": "skills/billing/tax.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/tax.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/tax.md",
+      "byteCount": 3223,
+      "sha256": "0a92f84f248bac60bf8394cfebe8b6e41c021fcad4271e9749884737bf2042bb"
     },
     {
       "path": "usage-billing.md",
       "downloadPath": "skills/billing/usage-billing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/usage-billing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/usage-billing.md",
+      "byteCount": 3847,
+      "sha256": "0ee7da6607148eefa19c7e912d0699e791370559397106a74d71d32fac660906"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/billing/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/billing/webhooks.md",
+      "byteCount": 3212,
+      "sha256": "d9fa8f5132426fb9908161127afc7d92aeebad26dd43255a38a778c512ff5522"
     }
   ]
 }

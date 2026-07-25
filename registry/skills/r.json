@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "38422ac54c0e7458f24e5b1480a067b29ecd88c35cd0a66255469aabc8bfe9a3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "r",
-    "name": "R",
+    "name": "r",
     "description": "Avoid common R mistakes — vectorization traps, NA propagation, factor surprises, and indexing gotchas.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/r",
     "summary": "Vectorization - Loops are slow — use `apply()`, `lapply()`, `sapply()`, or `purrr::map()` - Vectorized functions operate on whole vectors — `sum(x)` not `for (i in x) total <- total + i` - `ifelse()` is vectorized — `if`",
     "repositoryPath": "skills/r",
     "manifestPath": "registry/skills/r.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/r/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/r/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/r/_meta.json",
+      "byteCount": 154,
+      "sha256": "fbce09ad49420c9beffb6e12f4bcfd0595bbe88584205bc660e2ae271795cb27"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/r/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/r/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/r/SKILL.md",
+      "byteCount": 3047,
+      "sha256": "959d5e56cbf878354fd7b48dd05e41d15ffa7703e068a0a36102e3e83d5cab96"
     }
   ]
 }

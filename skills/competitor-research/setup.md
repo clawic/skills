@@ -1,6 +1,6 @@
 # Setup — Competitor Research
 
-Read this when `~/competitor-research/` doesn't exist or is empty. Create the folder and start the conversation.
+Read this when `~/Clawic/data/competitor-research/` doesn't exist or is empty. Create the folder and start the conversation.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ Early in the conversation, understand when to activate:
 - "Should I jump in whenever you mention competitors or market research?"
 - "Want me proactive on competitive questions, or only when you ask specifically?"
 
-Note their preference in `~/competitor-research/memory.md` for future sessions.
+Note their preference in `~/Clawic/data/competitor-research/memory.md` for future sessions.
 
 ### 2. Then: Understand Their Context
 

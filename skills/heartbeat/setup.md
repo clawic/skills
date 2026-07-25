@@ -42,7 +42,7 @@ Offer one of three modes:
 - balanced: default for most users
 - aggressive: faster checks with higher cost
 
-Persist chosen mode in `~/heartbeat/memory.md`.
+Persist chosen mode in `~/Clawic/data/heartbeat/memory.md`.
 
 ## Step 5: Verification Prompt
 

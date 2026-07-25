@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd06c9c8819f45401f7f11f8ebd6a68a5e2896d86128f9bd33a102dfe7b531e4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,34 +23,46 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/css/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/css/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/_meta.json",
+      "byteCount": 382,
+      "sha256": "eb8bf958d60091f763eda56f7f7672210cef5b8057cbfe3f3028dd70de0f7f47"
     },
     {
       "path": "layout.md",
       "downloadPath": "skills/css/layout.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/layout.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/layout.md",
+      "byteCount": 4142,
+      "sha256": "744cb58c8aae0addfd04052af8f13aad934daded098d8136b7a33c2d86b94902"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/css/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/performance.md",
+      "byteCount": 4224,
+      "sha256": "8c83cb07b7a424d6c2b332a17d59475fd9174c0b4e1f7312740893209cd8044a"
     },
     {
       "path": "responsive.md",
       "downloadPath": "skills/css/responsive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/responsive.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/responsive.md",
+      "byteCount": 3908,
+      "sha256": "3e8014a5955c1daec456ab171aaaad4603d7a04207b639c218848471b66924fa"
     },
     {
       "path": "selectors.md",
       "downloadPath": "skills/css/selectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/selectors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/selectors.md",
+      "byteCount": 3944,
+      "sha256": "8b0fdcab64ee02cdca27cc0d75bbd48f23978cc2fc15a396edfd36c49de102bf"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/css/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md",
+      "byteCount": 10381,
+      "sha256": "8f67f9216dc1cc180cdd334990921d7559c7f150d6cde300caef9af229ca85df"
     }
   ]
 }

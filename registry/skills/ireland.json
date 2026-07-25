@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d793450e9692a28b03d86060ccf946be8dc999ae7c402d94bc615632bb5bf655",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "ireland",
-    "name": "Ireland",
+    "name": "ireland",
     "description": "Discover Ireland like a local with concrete pubs, coastal routes, city guides, and practical trip-planning tips.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/ireland",
-    "summary": "Setup If `~/ireland/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Ireland or asking for local insights: where to eat, what to skip, which routes are realistic, and ",
+    "summary": "Setup If `~/Clawic/data/ireland/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Ireland or asking for local insights: where to eat, what to skip, which routes are rea",
     "repositoryPath": "skills/ireland",
     "manifestPath": "registry/skills/ireland.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ireland/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/_meta.json",
+      "byteCount": 166,
+      "sha256": "2707a94c18d97ea322c3dea99bd101e82bd3d0e03b3f74a83672f5563712ebf8"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/ireland/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/accommodation.md",
+      "byteCount": 1116,
+      "sha256": "137aa994061b7ea252e263c1d2ca69bfd66519543b807d889abcce70449b2b3b"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/ireland/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/apps.md",
+      "byteCount": 830,
+      "sha256": "3ebf07b1b9d0ebeaf38f5d94d3e992dc7295510fdd90028690bea2514fed0d60"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/ireland/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/beaches.md",
+      "byteCount": 848,
+      "sha256": "0eab5e4fec29b8edddd19d5a9bc6ca930c915f0d028fa72b3fdaf6730f980f6d"
     },
     {
       "path": "cork.md",
       "downloadPath": "skills/ireland/cork.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/cork.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/cork.md",
+      "byteCount": 1179,
+      "sha256": "f44fa215381c5e18be6cf533db1d605b4d0eec9f082a4f017edc76c38bb29b55"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/ireland/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/culture.md",
+      "byteCount": 854,
+      "sha256": "995622c61609f0a9cbc400bf3cc125ef7eea7441e50a6cace5c5a67317f78921"
     },
     {
       "path": "dublin.md",
       "downloadPath": "skills/ireland/dublin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/dublin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/dublin.md",
+      "byteCount": 1511,
+      "sha256": "674df76de0baad64f49c5b2b71169d6b4463b7c266f580590c1652b654bae96d"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/ireland/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/emergencies.md",
+      "byteCount": 765,
+      "sha256": "bb585b693bd91608b678558b952578717bb3b5f3e2d0cc53c3e651f6fa723d29"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/ireland/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/experiences.md",
+      "byteCount": 874,
+      "sha256": "1861cc4a294076a4cefc056ad729e912300d6807e2f142514f7ab4552a3983d5"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/ireland/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/food-guide.md",
+      "byteCount": 1413,
+      "sha256": "fdc08f1447ebcf886da726911c7925a166b7023d960c999f70bdcea1bca162c9"
     },
     {
       "path": "galway.md",
       "downloadPath": "skills/ireland/galway.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/galway.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/galway.md",
+      "byteCount": 1184,
+      "sha256": "95af5bfe9e4c8a759c42d49fcf139c505b7c188fe41169e6e5dece9212af99e9"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/ireland/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/hiking.md",
+      "byteCount": 781,
+      "sha256": "720aed21f35e36caf2944a9bd8f8870f6f06607ee5f17e1bc97ae5d56a1f4239"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/ireland/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/itineraries.md",
+      "byteCount": 914,
+      "sha256": "9906ec30c6502ed04e13ba9e6028e0312b8d9f9085d86f852aefd194e6f0bb88"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/ireland/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/memory-template.md",
+      "byteCount": 1314,
+      "sha256": "19f9c627fb355a9775ca677daf8eb514a386acd7540ba9150d093809184a02bd"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/ireland/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/nightlife.md",
+      "byteCount": 891,
+      "sha256": "b79b573008fb881522021a13bb6b0c864d4bfd56e679f8e4f4a83fe05aeab4af"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/ireland/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/regions.md",
+      "byteCount": 713,
+      "sha256": "e2ce552c1259f5280f363f26ee4cda0c594f947efd069ca97d685416d630f6c4"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/ireland/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/setup.md",
+      "byteCount": 1670,
+      "sha256": "8058b38bc97c2bd7b24a8e0f6b0d504a065689fc2fa80e640d80f823dd92fa47"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ireland/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/SKILL.md",
+      "byteCount": 5452,
+      "sha256": "e678592cd8998318faa12667c6640e04765366689e6d6c37242623b237cda71c"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/ireland/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/telecoms.md",
+      "byteCount": 551,
+      "sha256": "62b5fff2bea7c9d5803e0c43386547c88eee9c444163c4b761ec379367bef158"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/ireland/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/transport.md",
+      "byteCount": 788,
+      "sha256": "52e8b9c2286104f160a4832d961663e2b861f2b5bed549586d72047f345326da"
     },
     {
       "path": "wild-atlantic-way.md",
       "downloadPath": "skills/ireland/wild-atlantic-way.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/wild-atlantic-way.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/wild-atlantic-way.md",
+      "byteCount": 1168,
+      "sha256": "47c55ae3065a564af3ad07bc78e781675f0a11ce382c5557b7e9edb66de4b373"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/ireland/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/wine.md",
+      "byteCount": 1131,
+      "sha256": "6bbd3b1bb745a09086a4ab62914cf56608162bed9bda52d2f4732795a591c34f"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/ireland/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ireland/with-kids.md",
+      "byteCount": 834,
+      "sha256": "dbffe5c3c13bad624c84996b7e2353e362e33f0feb082c6b961ac82b2ebd49ea"
     }
   ]
 }

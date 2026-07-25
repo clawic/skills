@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4a4cc95bd141d9ff02c8a8ae4a239a53a84135df4831743daef9df3d5e6172e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "traditional-chinese",
-    "name": "Traditional Chinese",
+    "name": "traditional-chinese",
     "description": "Write Traditional Chinese that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/traditional-chinese",
     "summary": "The Real Problem AI Traditional Chinese is technically correct but sounds off. Too formal. Too 書面語. Natives in Taiwan and Hong Kong write more casually, with local flavor. Match that. Traditional vs Simplified Never mix ",
     "repositoryPath": "skills/traditional-chinese",
     "manifestPath": "registry/skills/traditional-chinese.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/traditional-chinese/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traditional-chinese/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traditional-chinese/_meta.json",
+      "byteCount": 190,
+      "sha256": "85d10c22446c5d533be4749a9b743a4bdef4c1da6057091040819db2bf9279f1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/traditional-chinese/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traditional-chinese/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traditional-chinese/SKILL.md",
+      "byteCount": 2037,
+      "sha256": "7298ecd8ac67d8757b1cadb9c2a8f438f687cab84ac80441c81eb4dd8d0b8233"
     }
   ]
 }

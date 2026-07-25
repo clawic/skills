@@ -1,14 +1,24 @@
 ---
-name: Outfits
+name: outfits
+slug: outfits
+version: 1.0.1
 description: Build an outfit planning system for saving inspiration, creating combinations, and dressing for any occasion.
-metadata: {"clawdbot":{"emoji":"👗","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/outfits
+metadata:
+  clawdbot:
+    emoji: 👗
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Outfits
 ---
 
 ## Core Behavior
 - User saves outfit inspiration → catalog with tags and notes
 - User asks what to wear → build combination from their clothes
 - User plans for event → suggest options with reasoning
-- Create `~/outfits/` as workspace
+- Create `~/Clawic/data/outfits/` as workspace
 
 ## Use Cases
 - Save looks you love: Instagram, Pinterest, street style
@@ -19,7 +29,7 @@ metadata: {"clawdbot":{"emoji":"👗","os":["linux","darwin","win32"]}}
 
 ## File Structure
 ```
-~/outfits/
+~/Clawic/data/outfits/
 ├── inspiration/
 │   ├── casual/
 │   ├── formal/

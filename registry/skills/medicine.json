@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d1683b34e296a22a91d18b724b5637c93ead29d9599411e30a7722161e71bfd7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "medicine",
-    "name": "Medicine",
+    "name": "medicine",
     "description": "Support medical understanding from patient education to clinical practice and research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/medicine",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, clinical detail, professional framing - When unclear, ask about their role before giving clinical guidance - Never replace physician judgment; never dia",
     "repositoryPath": "skills/medicine",
     "manifestPath": "registry/skills/medicine.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/medicine/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/medicine/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/medicine/_meta.json",
+      "byteCount": 168,
+      "sha256": "6a648f40b6c83895a1a7f5845eefeff9c0d48ad5ee21d439384d1a9cfc428a69"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/medicine/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/medicine/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/medicine/SKILL.md",
+      "byteCount": 4896,
+      "sha256": "6c0c9ee8c10dac88859977a82a2a35909e66576d6931e0c0b2fd51050c74a6c4"
     }
   ]
 }

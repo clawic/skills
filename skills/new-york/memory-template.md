@@ -1,6 +1,6 @@
 # New York (State) Memory
 
-Create `~/new-york/memory.md` with this structure only if the user wants continuity across sessions:
+Create `~/Clawic/data/new-york/memory.md` with this structure only if the user wants continuity across sessions:
 
 ```markdown
 # New York (State) Memory

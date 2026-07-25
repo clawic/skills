@@ -1,11 +1,20 @@
 ---
-name: Writing
+name: writing
 slug: writing
 version: 1.1.0
-homepage: https://clawic.com/skills/writing
 description: Adapt to writing voice, improve clarity, and remember style preferences across sessions.
+homepage: https://clawic.com/skills/writing
 changelog: Complete rewrite with setup system, detection triggers, quick queries, and tiered memory.
-metadata: {"clawdbot":{"emoji":"✍️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ✍️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Writing
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs writing help: drafting, editing, feedback, or style adaptation. Agent
 
 ## Architecture
 
-Writing preferences persist in `~/writing/` with tiered structure. See `memory-template.md` for setup.
+Writing preferences persist in `~/Clawic/data/writing/` with tiered structure. See `memory-template.md` for setup.
 
 ```
-~/writing/
+~/Clawic/data/writing/
 ├── memory.md      # HOT: voice, style, active preferences
 ├── projects/      # Per-project voice (blog, newsletter, book)
 └── archive/       # COLD: decayed patterns
@@ -81,7 +90,7 @@ Activate automatically when you notice these patterns:
 ## Core Rules
 
 ### 1. Check Memory First
-Read `~/writing/memory.md` before any writing task. Apply their documented voice, formats, and preferences.
+Read `~/Clawic/data/writing/memory.md` before any writing task. Apply their documented voice, formats, and preferences.
 
 ### 2. Learn Voice from Examples
 When user shares their writing:
@@ -151,23 +160,23 @@ When user shares their writing:
 ## Security & Privacy
 
 **Data that stays local:**
-- Writing preferences in `~/writing/`
+- Writing preferences in `~/Clawic/data/writing/`
 - Voice patterns and style notes
 - Project-specific preferences
 
 **This skill does NOT:**
 - Store written content (only preferences)
 - Make network requests
-- Access files outside `~/writing/`
+- Access files outside `~/Clawic/data/writing/`
 - Share preferences externally
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `grammar` — spelling and grammar checks
 - `text` — text processing and manipulation
 - `content-marketing` — content strategy and creation
 
 ## Feedback
 
-- If useful: `clawhub star writing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/writing
+- Latest version: https://clawic.com/skills/writing

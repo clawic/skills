@@ -1,16 +1,27 @@
 ---
-name: Paraguay
+name: paraguay
 slug: paraguay
 version: 1.0.0
-homepage: https://clawic.com/skills/paraguay
-changelog: "Initial release with Paraguay city playbooks, border logistics, river escapes, and practical trip planning."
 description: Plan Paraguay trips with border-savvy routing, river-city priorities, and practical guidance for Asuncion, Encarnacion, Ciudad del Este, and the Chaco.
-metadata: {"clawdbot":{"emoji":"🇵🇾","requires":{"bins":[],"config":["~/paraguay/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/paraguay
+changelog: Initial release with Paraguay city playbooks, border logistics, river escapes, and practical trip planning.
+metadata:
+  clawdbot:
+    emoji: 🇵🇾
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/paraguay/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Paraguay
 ---
 
 ## Setup
 
-If `~/paraguay/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/paraguay/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Paraguay trip and needs more than generic inspiration: how to
 
 ## Architecture
 
-Memory lives in `~/paraguay/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/paraguay/`. See `memory-template.md` for structure.
 
 ```
-~/paraguay/
+~/Clawic/data/paraguay/
 └── memory.md     # Trip context and evolving preferences
 ```
 
@@ -97,12 +108,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/paraguay/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/paraguay/`
 
-**This skill does NOT:** Access files outside `~/paraguay/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/paraguay/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `booking` - Reservation workflows and confirmation hygiene
 - `food` - Deeper restaurant and cuisine planning
@@ -111,5 +122,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star paraguay`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/paraguay
+- Latest version: https://clawic.com/skills/paraguay

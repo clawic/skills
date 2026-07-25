@@ -1,10 +1,33 @@
 ---
-name: Polymarket CLI
+name: polymarket-cli
 slug: polymarket-cli
 version: 1.0.0
-homepage: https://clawic.com/skills/polymarket-cli
 description: Query prediction markets, place trades, and manage positions with the Polymarket CLI for AI agents.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["polymarket"]},"install":[{"id":"brew","kind":"brew","formula":"polymarket","tap":"Polymarket/polymarket-cli","bins":["polymarket"],"label":"Install Polymarket CLI (Homebrew)"},{"id":"cargo","kind":"cargo","crate":"polymarket-cli","bins":["polymarket"],"label":"Install via Cargo (Rust)"}],"os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/polymarket-cli
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins:
+      - polymarket
+    install:
+    - id: brew
+      kind: brew
+      formula: polymarket
+      tap: Polymarket/polymarket-cli
+      bins:
+      - polymarket
+      label: Install Polymarket CLI (Homebrew)
+    - id: cargo
+      kind: cargo
+      crate: polymarket-cli
+      bins:
+      - polymarket
+      label: Install via Cargo (Rust)
+    os:
+    - linux
+    - darwin
+    displayName: Polymarket CLI
 ---
 
 ## Setup
@@ -25,7 +48,7 @@ Config lives in `~/.config/polymarket/`. See `memory-template.md` for tracking p
 ```
 
 ```
-~/polymarket-cli/
+~/Clawic/data/polymarket-cli/
 ├── memory.md          # User preferences and tracked markets
 ```
 
@@ -121,7 +144,7 @@ No other data is sent externally.
 
 **Data that stays local:**
 - CLI config at ~/.config/polymarket/config.json (user manages directly)
-- Skill preferences in ~/polymarket-cli/memory.md
+- Skill preferences in ~/Clawic/data/polymarket-cli/memory.md
 
 **Command restrictions:**
 - Agent runs only read-only commands by default (markets, events, clob price/book, data)
@@ -135,12 +158,12 @@ By using this skill, data is sent to Polymarket and the Polygon blockchain.
 Only install if you trust these services with your trading data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `trading` — General trading strategies
 - `crypto-tools` — Cryptocurrency utilities
 - `polygon` — Polygon blockchain operations
 
 ## Feedback
 
-- If useful: `clawhub star polymarket-cli`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/polymarket-cli
+- Latest version: https://clawic.com/skills/polymarket-cli

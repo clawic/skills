@@ -1,10 +1,19 @@
 ---
-name: Daily News Digest
+name: daily-news-digest
 slug: daily-news-digest
 version: 1.0.0
-homepage: https://clawic.com/skills/daily-news-digest
 description: Personalized news briefings from your chosen sources, delivered morning or evening, with voice option and smart filtering.
-metadata: {"clawdbot":{"emoji":"📰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/daily-news-digest
+metadata:
+  clawdbot:
+    emoji: 📰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Daily News Digest
 ---
 
 # Daily News Digest 📰
@@ -21,10 +30,10 @@ User asks for news updates, daily briefings, current events, or scheduled news d
 
 ## Architecture
 
-Memory lives in `~/daily-news-digest/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/daily-news-digest/`. See `memory-template.md` for structure.
 
 ```
-~/daily-news-digest/
+~/Clawic/data/daily-news-digest/
 ├── memory.md           # Preferences + delivery schedule + learned interests
 ├── sources.md          # Configured sources + quality scores
 ├── archive/            # Past briefings for reference
@@ -170,7 +179,7 @@ No other data is sent externally.
 - Briefing text sent to TTS service (if voice enabled)
 
 **Data that stays local:**
-- All preferences in ~/daily-news-digest/
+- All preferences in ~/Clawic/data/daily-news-digest/
 - Archive of past briefings
 - Source quality scores
 - No telemetry or analytics
@@ -178,7 +187,7 @@ No other data is sent externally.
 **This skill does NOT:**
 - Share reading habits with third parties
 - Store credentials in plain text
-- Access files outside ~/daily-news-digest/
+- Access files outside ~/Clawic/data/daily-news-digest/
 - Modify itself or other skills
 
 ## Trust
@@ -187,7 +196,7 @@ By using this skill with voice features, briefing text is sent to ElevenLabs.
 Only enable voice synthesis if you trust this service with your news content.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `news` — personalized news with learning
 - `summarizer` — article summarization
 - `podcast` — audio content discovery
@@ -196,5 +205,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star daily-news-digest`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/daily-news-digest
+- Latest version: https://clawic.com/skills/daily-news-digest

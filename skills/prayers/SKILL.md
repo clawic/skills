@@ -1,19 +1,29 @@
 ---
-name: Prayers
+name: prayers
+slug: prayers
+version: 1.0.0
 description: Build a personal prayer system for any faith tradition with scheduling, logging, and spiritual tracking.
-metadata: {"clawdbot":{"emoji":"🙏","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/prayers
+metadata:
+  clawdbot:
+    emoji: 🙏
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Prayers
 ---
 
 ## Core Behavior
 - Support any faith tradition without assumption
 - Help with prayer schedules and reminders
 - Log prayers and spiritual reflections
-- Create `~/prayers/` as workspace
+- Create `~/Clawic/data/prayers/` as workspace
 - Deeply respectful, never prescriptive
 
 ## File Structure
 ```
-~/prayers/
+~/Clawic/data/prayers/
 ├── practice.md       # User's tradition and preferences
 ├── schedule.md       # Prayer times and routines
 ├── log/

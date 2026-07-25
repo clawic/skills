@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "80548efc5aaa24f9b8d0f3e5216b7e2eea7d8fbf07302fadf2850a1cd6ddd06b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "screenshots",
-    "name": "Screenshots",
+    "name": "screenshots",
     "description": "Create professional App Store and Google Play screenshots with automatic sizing, device frames, marketing copy, and iterative visual learning.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/screenshots",
     "summary": "Quick Reference | Context | File | |---------|------| | Store dimensions and specs | `specs.md` | | Marketing text overlays | `text-style.md` | | Visual templates by category | `templates.md` | | Full creation workflow |",
     "repositoryPath": "skills/screenshots",
     "manifestPath": "registry/skills/screenshots.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/screenshots/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/_meta.json",
+      "byteCount": 250,
+      "sha256": "3da8b2f188a0b39867a8e710c536b866234d30bac5c7c72d15353f4faaa987a8"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/screenshots/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/feedback.md",
+      "byteCount": 2983,
+      "sha256": "f9d5307661364febedb1c92c24544b94260ec15dce4bf3ea8925a3d8a8662e4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/screenshots/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/SKILL.md",
+      "byteCount": 2672,
+      "sha256": "4e81c4bdcef193a9687c7d993a20931a39925e4336324771022e84fef031ba42"
     },
     {
       "path": "specs.md",
       "downloadPath": "skills/screenshots/specs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/specs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/specs.md",
+      "byteCount": 2616,
+      "sha256": "196514214f11318048ab53ef0bf8edc1ace7a8e9d63f5e3829d105bedd1cf77f"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/screenshots/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/templates.md",
+      "byteCount": 3763,
+      "sha256": "c2f9f7a9dc232f99f3a9e771895fca4b4d88871622fca2be1f98560ca1b695a8"
     },
     {
       "path": "text-style.md",
       "downloadPath": "skills/screenshots/text-style.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/text-style.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/text-style.md",
+      "byteCount": 2296,
+      "sha256": "143d26129fd45948c221793a1fca0a3b9857a43e8062e5a6c636b1fbec713f15"
     },
     {
       "path": "workflow.md",
       "downloadPath": "skills/screenshots/workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshots/workflow.md",
+      "byteCount": 3958,
+      "sha256": "fc63e1761080ee8a373d3bd00c8f068396c40605f1b4b432a0f25ecf5637e1f1"
     }
   ]
 }

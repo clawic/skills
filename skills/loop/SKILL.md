@@ -1,23 +1,33 @@
 ---
-name: Loop
+name: loop
 slug: loop
 version: 1.0.2
 description: Run iterative agent loops until success criteria are met. Controlled autonomous iteration.
+homepage: https://clawic.com/skills/loop
 changelog: Fixed internal contradiction about Git commits in memory.md
-metadata: {"clawdbot":{"emoji":"🔄","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔄
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Loop
 ---
 
 ## Data Storage
 
 ```
-~/loop/
+~/Clawic/data/loop/
 ├── active.json         # Currently running loops
 ├── history/            # Completed loop logs
 │   └── {loop-id}.json
 └── learnings.md        # Cross-loop patterns
 ```
 
-Create on first use: `mkdir -p ~/loop/history`
+Create on first use: `mkdir -p ~/Clawic/data/loop/history`
 
 ## Scope
 
@@ -80,4 +90,4 @@ If max reached without success:
 ### 7. Safety
 - Hard limit: 10 iterations maximum
 - No destructive actions without explicit per-action approval
-- Log everything to ~/loop/history/
+- Log everything to ~/Clawic/data/loop/history/

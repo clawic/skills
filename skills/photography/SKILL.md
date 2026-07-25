@@ -1,9 +1,20 @@
 ---
-name: Photography
+name: photography
+slug: photography
+version: 1.0.0
 description: Camera settings, composition, lighting, editing workflow, and genre-specific techniques.
+homepage: https://clawic.com/skills/photography
 metadata:
   category: creative
-  skills: ["photography", "camera", "lighting", "editing", "composition"]
+  skills:
+  - photography
+  - camera
+  - lighting
+  - editing
+  - composition
+  clawdbot:
+    emoji: 📷
+    displayName: Photography
 ---
 
 ## Exposure Triangle

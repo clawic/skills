@@ -1,10 +1,20 @@
 ---
-name: Agentic Engineering
+name: agentic-engineering
 slug: agentic-engineering
 version: 1.0.0
-homepage: https://clawic.com/skills/agentic-engineering
 description: Work effectively with AI coding agents using parallel terminals, blast radius thinking, atomic commits, and pragmatic tool selection.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":["git"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/agentic-engineering
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins:
+      - git
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Agentic Engineering
 ---
 
 ## When to Use

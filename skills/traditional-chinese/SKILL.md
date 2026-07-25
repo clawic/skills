@@ -1,6 +1,13 @@
 ---
-name: Traditional Chinese
+name: traditional-chinese
+slug: traditional-chinese
+version: 1.0.0
 description: Write Traditional Chinese that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/traditional-chinese
+metadata:
+  clawdbot:
+    emoji: 🇹🇼
+    displayName: Traditional Chinese
 ---
 
 ## The Real Problem

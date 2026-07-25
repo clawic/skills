@@ -1,16 +1,26 @@
 ---
-name: Study
+name: study
 slug: study
 version: 1.0.1
 description: Structure study sessions, manage materials, and prepare for exams with active recall techniques.
+homepage: https://clawic.com/skills/study
 changelog: Simplified structure, removed broken script references, explicit data storage
-metadata: {"clawdbot":{"emoji":"📚","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📚
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Study
 ---
 
 ## Data Storage
 
 ```
-~/study/
+~/Clawic/data/study/
 ├── subjects/           # One folder per subject
 │   └── {subject}/
 │       ├── materials/     # PDFs, notes, resources
@@ -22,17 +32,17 @@ metadata: {"clawdbot":{"emoji":"📚","requires":{"bins":[]},"os":["linux","darw
 └── config.json         # Preferences
 ```
 
-Create on first use: `mkdir -p ~/study/{subjects,calendar}`
+Create on first use: `mkdir -p ~/Clawic/data/study/{subjects,calendar}`
 
 ## Scope
 
 This skill:
-- ✅ Creates study plans in ~/study/
+- ✅ Creates study plans in ~/Clawic/data/study/
 - ✅ Manages materials and flashcards
 - ✅ Tracks deadlines and exam dates
 - ✅ Guides study sessions with active recall
 - ❌ NEVER generates content student should create themselves
-- ❌ NEVER stores data outside ~/study/
+- ❌ NEVER stores data outside ~/Clawic/data/study/
 
 ## Quick Reference
 
@@ -56,7 +66,7 @@ Plan Semester → Weekly Schedule → Daily Sessions → Review → Exam Prep
 - NEVER generate the student's work
 
 ### 3. Adding a Subject
-1. Create ~/study/subjects/{subject}/
+1. Create ~/Clawic/data/study/subjects/{subject}/
 2. Set exam date in deadlines.json
 3. Estimate weekly hours needed
 4. Generate initial schedule
@@ -76,7 +86,7 @@ When exam approaches (≤2 weeks):
 4. Create focused review plan
 
 ### 6. Configuration
-In ~/study/config.json:
+In ~/Clawic/data/study/config.json:
 ```json
 {
   "level": "undergraduate",

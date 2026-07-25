@@ -1,9 +1,19 @@
 ---
-name: B2C Strategy
+name: b2c
 slug: b2c
 version: 1.0.0
 description: Build consumer apps with validated demand, sustainable unit economics, and growth loops that compound.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/b2c
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: B2C Strategy
 ---
 
 ## Quick Reference

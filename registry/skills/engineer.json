@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c910e54ddd29e64bd5d2770a457c0ec61390ee77f7e499ba497a11853ec08055",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "engineer",
-    "name": "Engineer",
+    "name": "engineer",
     "description": "Apply engineering judgment across systems, constraints, trade-offs, failure modes, and verification before acting.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/engineer",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/engineer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/_meta.json",
+      "byteCount": 168,
+      "sha256": "53a726cd32653b400358159c06ae06709380614b37e1b4a8080ed13075b75c26"
     },
     {
       "path": "constraints-first.md",
       "downloadPath": "skills/engineer/constraints-first.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/constraints-first.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/constraints-first.md",
+      "byteCount": 1424,
+      "sha256": "29d88dd6ab82b202e55da1a7d850aeffcb614cde06cc2d25932d435743b640f5"
     },
     {
       "path": "execution-planning.md",
       "downloadPath": "skills/engineer/execution-planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/execution-planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/execution-planning.md",
+      "byteCount": 1259,
+      "sha256": "fea83c18237a59bdfdbdb0085b9df40c4f295d7afc54f834b1fb890ecc5445c4"
     },
     {
       "path": "failure-modes-first.md",
       "downloadPath": "skills/engineer/failure-modes-first.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/failure-modes-first.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/failure-modes-first.md",
+      "byteCount": 1451,
+      "sha256": "a54452e299c1fab8530bd5f7275168ca2bc7b1c937d41e60e0f8210129a16e4e"
     },
     {
       "path": "interface-map.md",
       "downloadPath": "skills/engineer/interface-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/interface-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/interface-map.md",
+      "byteCount": 1334,
+      "sha256": "f3e8f7aacdec39a9c0f8b35432ca006984e989b3cd99174a02a2856bd156a81e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/engineer/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/memory-template.md",
+      "byteCount": 1503,
+      "sha256": "12a1487923e573280f8ad11444cfb4bfa7ab2b76b9f0f14ea5243e8fe2d96980"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/engineer/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/setup.md",
+      "byteCount": 2798,
+      "sha256": "c8b155f86009eaeb339f991896c79a6dab95ee76eefbd9cf74012886b0e2a389"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/engineer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/SKILL.md",
+      "byteCount": 9101,
+      "sha256": "7ccea1fa1f890f1f259ddbe540274be3939c707cc457537b0c016927c6bdfb0f"
     },
     {
       "path": "trade-off-matrix.md",
       "downloadPath": "skills/engineer/trade-off-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/trade-off-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/trade-off-matrix.md",
+      "byteCount": 1259,
+      "sha256": "ce952b904337cb046839c7824690ac781c38b43e91817ce320fb1039e5779bb6"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/engineer/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/troubleshooting.md",
+      "byteCount": 1326,
+      "sha256": "d3861d041eb8e5164ea715e8a43cbdd9e820f26594abb5e1387fba317e2aa230"
     },
     {
       "path": "verification-ladder.md",
       "downloadPath": "skills/engineer/verification-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/verification-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineer/verification-ladder.md",
+      "byteCount": 1432,
+      "sha256": "ee70715a6f7ba652ad5bdd33a4ef27bf9b60afab2283484b0ae7c0458da1ce94"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "af7b5835547d61a7d5258e29c757257f4ff69435d8fbfb28d49039943bd05d58",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "madrid",
-    "name": "Madrid",
+    "name": "madrid",
     "description": "Navigate Madrid as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/madrid",
     "summary": "When to Use User asks about Madrid for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | **",
     "repositoryPath": "skills/madrid",
     "manifestPath": "registry/skills/madrid.json"
@@ -21,132 +25,184 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/madrid/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/_meta.json",
+      "byteCount": 164,
+      "sha256": "434da51a3e503a037baf7ba72768008cf043445e8c866344b28d3114bab14382"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/madrid/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/climate.md",
+      "byteCount": 6122,
+      "sha256": "0f12413d1d3a2a51bd9808d176441c8037824be8034403c6b0113d2ad4a00318"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/madrid/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/cost.md",
+      "byteCount": 8844,
+      "sha256": "43b071506b281bfb60c46df27c7c1ea5c125b5c2b9d5598d57c1466d3bda53fe"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/madrid/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-areas.md",
+      "byteCount": 5473,
+      "sha256": "00db711f0a1d4869f788e164dd8e74b33724b2d84e7a907ff1d6e8d7fb70e0bf"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/madrid/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-markets.md",
+      "byteCount": 5929,
+      "sha256": "1d9f38d13f131709e6224f43a316bd88e698f6284682ca3df1d46072d4313cb3"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/madrid/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-overview.md",
+      "byteCount": 5187,
+      "sha256": "289fb31a7da082e3a7b07af715e1c23c6b289781a7c5883f8417afcab700f18e"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/madrid/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-practical.md",
+      "byteCount": 7370,
+      "sha256": "0f0830bab674394bc8c42c70ff5aef9bf721ad71698f0dab1357fefe6e2c0890"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/madrid/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/food-traditional.md",
+      "byteCount": 6921,
+      "sha256": "b47290c0ac9cd86421a99c7db6751337e891fbc243493a593f4d78aafa333b85"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/madrid/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/local.md",
+      "byteCount": 10809,
+      "sha256": "6cbf9ddedf15bb98187caa2595d4b46cc22bda386269535ad84133ad01a6827a"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/madrid/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-central.md",
+      "byteCount": 4796,
+      "sha256": "d0b003b9dc378dc9a32a2f59daa892a15ee5b2b7215e33636ae4a8d521b373c9"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/madrid/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-choosing.md",
+      "byteCount": 5839,
+      "sha256": "d335e18556ccb72fc9c7eec748488fc1c5f62dd0832b1eac6c13378278bf817d"
     },
     {
       "path": "neighborhoods-east.md",
       "downloadPath": "skills/madrid/neighborhoods-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-east.md",
+      "byteCount": 4707,
+      "sha256": "fa256dbb379cf091babba77921271f2ea94edf412091ddd686dd6e469774a95f"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/madrid/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-index.md",
+      "byteCount": 3316,
+      "sha256": "4dd1dbf56cb5f12f4450f70ff17f1e5dbc298c4d3eea75ba8fb04ef5a1a1212c"
     },
     {
       "path": "neighborhoods-north.md",
       "downloadPath": "skills/madrid/neighborhoods-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-north.md",
+      "byteCount": 4739,
+      "sha256": "d945b94a991c73165d57f5afa5b1260978f682a33c95564f6bae19071cfd0da6"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/madrid/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/neighborhoods-south.md",
+      "byteCount": 4810,
+      "sha256": "f4fcddc3b82dc826e2bd2e3c85087ba848d975e50dc2f3c143e2863ef8242968"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/madrid/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/resident.md",
+      "byteCount": 10019,
+      "sha256": "0a18fe359335e27d2f5aae1c2788e421b1c55e23c9d373ff088367672f839e75"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/madrid/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/safety.md",
+      "byteCount": 8074,
+      "sha256": "ee761c4cad6b8ec547e6d4b2535556ce67716d63c88fed5d8c5eb1335d4b87ec"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/madrid/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/SKILL.md",
+      "byteCount": 3845,
+      "sha256": "c7c3291eedf471fece36a4bf0c54b58371bff1c10970e018701034380e51b9ed"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/madrid/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/startup.md",
+      "byteCount": 9036,
+      "sha256": "cad2870f76905f06e21597b8a0a998386b65315b2ba6728878a8edd52db20eef"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/madrid/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/student.md",
+      "byteCount": 9710,
+      "sha256": "028596dd1d3fc724a69e23ac40d7511c30ea7c521e418e89cba09b1b644480f8"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/madrid/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/tech.md",
+      "byteCount": 8620,
+      "sha256": "1db83fe8f114d69526cf0e4b3a3462642f7b3bab9ad4de648a573fc713ac846e"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/madrid/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/transport.md",
+      "byteCount": 9339,
+      "sha256": "ae677e763e03d46ab42ee8135adf28bce3a0c1eaee42ad6c43f7c34bfc123b37"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/madrid/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-attractions.md",
+      "byteCount": 6141,
+      "sha256": "f63bd1c3bd7c979df2302dff25d5e5225e0b25503fa4e4d8480598a009cdea7a"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/madrid/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-itineraries.md",
+      "byteCount": 6194,
+      "sha256": "7b3d0d4dc3aed8f4ee8993c26af6a9d63efe33ed273624b568c223d132660329"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/madrid/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-lodging.md",
+      "byteCount": 7293,
+      "sha256": "e86be2471486306639ec987e05d334364569f9ef6cdf8ee24e2c33b5ab0fb0a2"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/madrid/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madrid/visitor-tips.md",
+      "byteCount": 6231,
+      "sha256": "cd8b15a27315a330525b1d9e48bfd7042bfa71d67d1bc7a761cf5a387c34fcd9"
     }
   ]
 }

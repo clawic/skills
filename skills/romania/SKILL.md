@@ -1,16 +1,27 @@
 ---
-name: Romania
+name: romania
 slug: romania
 version: 1.0.0
-homepage: https://clawic.com/skills/romania
-changelog: "Initial release with regional trip logic, city playbooks, mountain and Black Sea guidance, and practical local execution."
 description: Plan Romania trips with regional contrasts, Transylvania and Black Sea logistics, local food cues, and practical local guidance.
-metadata: {"clawdbot":{"emoji":"🇷🇴","requires":{"bins":[],"config":["~/romania/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/romania
+changelog: Initial release with regional trip logic, city playbooks, mountain and Black Sea guidance, and practical local execution.
+metadata:
+  clawdbot:
+    emoji: 🇷🇴
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/romania/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Romania
 ---
 
 ## Setup
 
-If `~/romania/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/romania/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Romania trip and needs help that goes beyond generic Europe a
 
 ## Architecture
 
-Memory lives in `~/romania/`. If `~/romania/` does not exist or is empty, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/romania/`. If `~/Clawic/data/romania/` does not exist or is empty, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/romania/
+~/Clawic/data/romania/
 └── memory.md     # Trip context, route logic, and evolving constraints
 ```
 
@@ -116,14 +127,14 @@ Always cover the execution details that break Romania trips:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences, route decisions, and saved constraints in `~/romania/`
+**Data that stays local:** Trip preferences, route decisions, and saved constraints in `~/Clawic/data/romania/`
 
-**This skill does NOT:** Access files outside `~/romania/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/romania/` or make network requests.
 
 **Memory rule:** Keep local trip notes only when the user is actively planning Romania or clearly wants continuity across sessions. For one-off answers, help without creating extra trip memory.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `europe` — Better wider-Europe context when Romania is part of a longer route
 - `food` — Deeper restaurant and cuisine planning
@@ -132,5 +143,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star romania`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/romania
+- Latest version: https://clawic.com/skills/romania

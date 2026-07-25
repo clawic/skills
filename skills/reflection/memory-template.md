@@ -1,6 +1,6 @@
 # Memory Template — Self Reflection
 
-Copy this structure to `~/reflection/memory.md` on first activation.
+Copy this structure to `~/Clawic/data/reflection/memory.md` on first activation.
 
 ---
 

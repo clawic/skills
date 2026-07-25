@@ -1,11 +1,20 @@
 ---
-name: Competitor Monitoring
+name: competitor-monitoring
 slug: competitor-monitoring
 version: 1.0.0
-homepage: https://clawic.com/skills/competitor-monitoring
 description: Track competitors with pricing alerts, feature changes, positioning analysis, and strategic dossiers.
+homepage: https://clawic.com/skills/competitor-monitoring
 changelog: Initial release with tracking, alerts, dossiers, and analysis.
-metadata: {"clawdbot":{"emoji":"🔍","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔍
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Competitor Monitoring
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs competitive intelligence. Agent tracks competitors, monitors changes,
 
 ## Architecture
 
-Memory lives in `~/competitor-monitoring/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/competitor-monitoring/`. See `memory-template.md` for structure.
 
 ```
-~/competitor-monitoring/
+~/Clawic/data/competitor-monitoring/
 ├── memory.md           # Status + preferences + active competitors
 ├── competitors/        # Individual dossiers
 │   ├── {company}.md    # Per-competitor intelligence
@@ -161,12 +170,12 @@ Where are opportunities nobody's addressing?
 ## Security & Privacy
 
 **Data that stays local:**
-- All competitor dossiers stored in `~/competitor-monitoring/`
+- All competitor dossiers stored in `~/Clawic/data/competitor-monitoring/`
 - Analysis reports and alert history
 - User preferences and monitoring settings
 
 **What happens on first use:**
-- Creates folder `~/competitor-monitoring/` with your data
+- Creates folder `~/Clawic/data/competitor-monitoring/` with your data
 - Asks how you want monitoring to work (proactive vs on-demand)
 
 **This skill does NOT:**
@@ -176,12 +185,12 @@ Where are opportunities nobody's addressing?
 - Send your data externally
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `market-research` — broader market analysis
 - `business` — strategic frameworks
 - `analytics` — data analysis patterns
 
 ## Feedback
 
-- If useful: `clawhub star competitor-monitoring`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/competitor-monitoring
+- Latest version: https://clawic.com/skills/competitor-monitoring

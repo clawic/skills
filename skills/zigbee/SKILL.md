@@ -1,7 +1,17 @@
 ---
-name: Zigbee
+name: zigbee
+slug: zigbee
+version: 1.0.0
 description: Deploy and troubleshoot Zigbee mesh networks for home automation.
-metadata: {"clawdbot":{"emoji":"🐝","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/zigbee
+metadata:
+  clawdbot:
+    emoji: 🐝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Zigbee
 ---
 
 ## Mesh Network Traps

@@ -1,11 +1,22 @@
 ---
-name: Personal Finance Tracker
+name: personal-finance-tracker
 slug: personal-finance-tracker
 version: 1.0.0
-homepage: https://clawic.com/skills/personal-finance-tracker
 description: Track personal finances with cashflow reviews, recurring bill detection, debt triage, CSV imports, and net worth snapshots.
-changelog: "Initial release with cashflow review protocol, CSV analysis tools, recurring spend detection, and privacy-first local tracking."
-metadata: {"clawdbot":{"emoji":"💸","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/personal-finance-tracker/"]}}
+homepage: https://clawic.com/skills/personal-finance-tracker
+changelog: Initial release with cashflow review protocol, CSV analysis tools, recurring spend detection, and privacy-first local tracking.
+metadata:
+  clawdbot:
+    emoji: 💸
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/personal-finance-tracker/
+    displayName: Personal Finance Tracker
 ---
 
 # Personal Finance Tracker
@@ -14,7 +25,7 @@ Personal finance tracker for cashflow control, recurring bills, debt pressure, a
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Ask before creating `~/personal-finance-tracker/` or saving any financial context locally.
+On first use, read `setup.md` for integration guidelines. Ask before creating `~/Clawic/data/personal-finance-tracker/` or saving any financial context locally.
 
 ## When to Use
 
@@ -27,7 +38,7 @@ Use this when the job is making clearer money decisions, not just logging anothe
 Local workspace is optional and only created with user consent.
 
 ```text
-~/personal-finance-tracker/
+~/Clawic/data/personal-finance-tracker/
 ├── memory.md        # High-signal money context and review cadence
 ├── accounts.md      # Balances, account roles, sync notes
 ├── recurring.md     # Bills, subscriptions, annual charges, due dates
@@ -117,7 +128,7 @@ Load only what improves the current answer. Prefer the scripts for deterministic
 ## Security & Privacy
 
 **Data that stays local when the user opts in:**
-- Balances, recurring bills, review notes, and debt priorities in `~/personal-finance-tracker/`
+- Balances, recurring bills, review notes, and debt priorities in `~/Clawic/data/personal-finance-tracker/`
 - CSV files and local script outputs run on the user's machine
 
 **This skill does NOT:**
@@ -132,7 +143,7 @@ Load only what improves the current answer. Prefer the scripts for deterministic
 - Prefer local CSV analysis to cloud processing
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `money` — General money planning and financial conversations
 - `subscriptions` — Subscription audits, trims, and renewal decisions
 - `csv` — CSV cleanup, mapping, and transformation workflows
@@ -140,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star personal-finance-tracker`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/personal-finance-tracker
+- Latest version: https://clawic.com/skills/personal-finance-tracker

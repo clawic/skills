@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "aedcff9eb597c351fae1081a6e63887cb648787c3ca99c7be0172d1d9486ab1e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "elasticsearch",
-    "name": "Elasticsearch",
+    "name": "elasticsearch",
     "description": "Query and index Elasticsearch with proper mappings, analyzers, and search patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/elasticsearch",
     "summary": "Mapping Mistakes - Always define explicit mappings—dynamic mapping guesses wrong (first \"123\" makes field integer, later \"abc\" fails) - `text` for full-text search, `keyword` for exact match/aggregations—using text for I",
     "repositoryPath": "skills/elasticsearch",
     "manifestPath": "registry/skills/elasticsearch.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/elasticsearch/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/_meta.json",
+      "byteCount": 178,
+      "sha256": "eebedfad7e6eaa37f054a0c2ab1f8beea9aa83933d7334a31ee5ea61a815cf37"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/elasticsearch/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/SKILL.md",
+      "byteCount": 4546,
+      "sha256": "559d395b603ada23f60f147b9b7610e2e5d81b41d0e1d384f912b266b6136db1"
     }
   ]
 }

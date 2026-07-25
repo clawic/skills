@@ -1,6 +1,6 @@
 # Memory Template - Google Colab
 
-Create `~/google-colab/memory.md` with this structure:
+Create `~/Clawic/data/google-colab/memory.md` with this structure:
 
 ```markdown
 # Google Colab Memory
@@ -56,7 +56,7 @@ reproducibility_level: baseline | strict
 
 ## File Templates
 
-Create `~/google-colab/notebooks.md`:
+Create `~/Clawic/data/google-colab/notebooks.md`:
 
 ```markdown
 # Notebook Registry
@@ -70,7 +70,7 @@ Create `~/google-colab/notebooks.md`:
 - Status:
 ```
 
-Create `~/google-colab/experiments.md`:
+Create `~/Clawic/data/google-colab/experiments.md`:
 
 ```markdown
 # Experiment Log

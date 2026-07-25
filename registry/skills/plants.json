@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "630109e61e872cd0f6dd368b84fe0604e2bd8e05a26a69d803bed128125426a2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "plants",
-    "name": "Plants",
+    "name": "plants",
     "description": "Build a personal plant care system with watering schedules, care logs, and seasonal reminders.",
-    "summary": "Core Behavior - User mentions a plant → create entry with care requirements - Track watering and care → remind when due - Seasonal prompts → fertilizing, repotting, pruning timing - Create `~/plants/` as workspace When U",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/plants",
+    "summary": "Core Behavior - User mentions a plant → create entry with care requirements - Track watering and care → remind when due - Seasonal prompts → fertilizing, repotting, pruning timing - Create `~/Clawic/data/plants/` as work",
     "repositoryPath": "skills/plants",
     "manifestPath": "registry/skills/plants.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/plants/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/_meta.json",
+      "byteCount": 164,
+      "sha256": "f71526019ba7f57f3d0045e3fa616c8dfd34040140787326e9bb2731e262607a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/plants/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plants/SKILL.md",
+      "byteCount": 3921,
+      "sha256": "651ce8f480ac42c512054701d9def0ac9b5bff27c37093a09503ddc7826469cf"
     }
   ]
 }

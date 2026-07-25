@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "52663f732c058eaf46cebdf2cf834f2447c3fd0f0678206a3c9b5524236a37fa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,9 @@
   "skill": {
     "slug": "notify",
     "name": "notify",
-    "description": "",
+    "description": "Delivers agent notifications with channel selection, timing, batching, and fatigue control. Use when sending notifications or alerts to users from an agent.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/notify",
     "summary": "Notify - Smart Notification Delivery When to Use This Skill Use when sending notifications to users from an AI agent. Covers channel selection, timing, formatting, and avoiding notification fatigue. Notification Types an",
     "repositoryPath": "skills/notify",
     "manifestPath": "registry/skills/notify.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/notify/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notify/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notify/_meta.json",
+      "byteCount": 164,
+      "sha256": "c6e4eb87156fd821b69620c5f1d02a3deacae3dc30ee6b70f0f67f6fe2a6d140"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/notify/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notify/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notify/SKILL.md",
+      "byteCount": 3641,
+      "sha256": "c6b465f2663de40eada9e74b1716f2417eda5dd257e2a3e915beb33fbd203f75"
     }
   ]
 }

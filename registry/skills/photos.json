@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "78c3d47d53cb7ce313cc659968962c3f8252fc92e8e3f7a60f90e7db97651e04",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "photos",
-    "name": "Photos",
+    "name": "photos",
     "description": "Organize, index, and search local photo libraries with AI-powered metadata and safe file handling.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/photos",
     "summary": "Safety First - **Never delete photos directly** — move to `.photo-trash/` folder with original path preserved in filename - **Never overwrite originals** — edits go to `edited/` subfolder, originals stay untouched - Befo",
     "repositoryPath": "skills/photos",
     "manifestPath": "registry/skills/photos.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/photos/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photos/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photos/_meta.json",
+      "byteCount": 164,
+      "sha256": "5b528dc7858206f35ad67955f4aab7b1c8f9331607a91a1880d9243b3ce51719"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/photos/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photos/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photos/SKILL.md",
+      "byteCount": 3496,
+      "sha256": "999eb257634e032aa441db7c36536da7542e12cea26e6f22a0e9f03357050fd3"
     }
   ]
 }

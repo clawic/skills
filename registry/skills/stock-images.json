@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8fa0880aafd66d47dc2a68257e7e13a695a8adf67d35164e16d8feaab0a8bdf5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "stock-images",
-    "name": "Stock Images",
+    "name": "stock-images",
     "description": "Source free stock photos and placeholder images with direct URLs for Unsplash, Pexels, Pixabay, and Lorem Picsum.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/stock-images",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/stock-images/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/_meta.json",
+      "byteCount": 176,
+      "sha256": "865ffdd7d3a4650019e41123a7153fc706019af17e3479d93254dca3101aa644"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/stock-images/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/memory-template.md",
+      "byteCount": 1062,
+      "sha256": "cf40f828991a9e970e092578a5d1c805a67a810d0143eef16136a771787d9f1a"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/stock-images/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/providers.md",
+      "byteCount": 4660,
+      "sha256": "c28962e6288551240975f8e651a285fcd1f57466618a11c6581193c61773a223"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/stock-images/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/setup.md",
+      "byteCount": 1607,
+      "sha256": "9e1f9c1d53c566cdc3794edc5b7292245af8e39e56c56d34e13e7fba69b490b2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/stock-images/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/SKILL.md",
+      "byteCount": 4552,
+      "sha256": "08bb867781da922c4953bfc853eeacdfe20ec6ace864902ba64a31eadc8ab282"
     },
     {
       "path": "unsplash-categories.md",
       "downloadPath": "skills/stock-images/unsplash-categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/unsplash-categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-images/unsplash-categories.md",
+      "byteCount": 7664,
+      "sha256": "7c6606cf76e2fdf4ef15853794d97a7aae7fe4bc902762f9a3be9990f8819bb8"
     }
   ]
 }

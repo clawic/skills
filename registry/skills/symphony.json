@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a01a275dde8d2d754c71dae5e5dd0b991d7800ddf46c5365625b2176e68d03d2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "symphony",
-    "name": "OpenAI Symphony",
+    "name": "symphony",
     "description": "Set up and run OpenAI Symphony with isolated issue workspaces, workflow contracts, and unattended Codex orchestration for Linear projects.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/symphony",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/symphony/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/_meta.json",
+      "byteCount": 175,
+      "sha256": "b7a7534461cc244df7483ccfe5568e9c8b4f9fbee753507e79cd2f3f556f2b19"
     },
     {
       "path": "incident-playbook.md",
       "downloadPath": "skills/symphony/incident-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/incident-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/incident-playbook.md",
+      "byteCount": 1795,
+      "sha256": "8b58ada763f95e3b17fb40cc42ee956c1fba000337de0a8d79dcc68613be48d8"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/symphony/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/memory-template.md",
+      "byteCount": 1507,
+      "sha256": "f1c8c13b05c152ec3127a50c540b24928bb2cdc714e43fc425712f55c900f750"
     },
     {
       "path": "safety-guardrails.md",
       "downloadPath": "skills/symphony/safety-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/safety-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/safety-guardrails.md",
+      "byteCount": 1810,
+      "sha256": "9c78816579ad31825b7e6560f05a61748fdc12b873540b682003eb286d3383d1"
     },
     {
       "path": "setup-runbook.md",
       "downloadPath": "skills/symphony/setup-runbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup-runbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup-runbook.md",
+      "byteCount": 2039,
+      "sha256": "60704294f74164f4a862f0fd1f33be14348f444c56fde3a9ea8a7b0900b3c350"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/symphony/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/setup.md",
+      "byteCount": 1907,
+      "sha256": "0a84059dc84369bd9ce4d3ad1ab3abc9802157ca32b9010095768e4a7a4ee12d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/symphony/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SKILL.md",
+      "byteCount": 7289,
+      "sha256": "8c4bbd07adf4259d96651f5459d10e4712f0dc1790b210e23280c9fd13b5b98e"
     },
     {
       "path": "SPEC.md",
       "downloadPath": "skills/symphony/SPEC.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SPEC.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/SPEC.md",
+      "byteCount": 1238,
+      "sha256": "3398adbdedc0ffd3a239d7a29fc81a503b1bff9d195680a024157a7ae19bd4cd"
     },
     {
       "path": "workflow-template.md",
       "downloadPath": "skills/symphony/workflow-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/workflow-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/workflow-template.md",
+      "byteCount": 1903,
+      "sha256": "0fe081c077b18a0edd2a00f798f99e355444af9d46295ee66e18da180ec36164"
     },
     {
       "path": "WORKFLOW.md",
       "downloadPath": "skills/symphony/WORKFLOW.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/WORKFLOW.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symphony/WORKFLOW.md",
+      "byteCount": 993,
+      "sha256": "faca6a605c6f14ba1fb03901309f64697b3915733803fa8b044bbac37559b8a2"
     }
   ]
 }

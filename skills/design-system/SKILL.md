@@ -1,15 +1,24 @@
 ---
-name: Design System
+name: design-system
 slug: design-system
 version: 1.0.0
-homepage: https://clawic.com/skills/design-system
 description: Build design systems with tokens, components, and documentation that scale across teams and products.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/design-system
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Design System
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. All preferences are stored in `~/design-system/memory.md`.
+On first use, read `setup.md` for integration guidelines. All preferences are stored in `~/Clawic/data/design-system/memory.md`.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User needs to create, maintain, or extend a design system. Agent handles token a
 
 ## Architecture
 
-Memory lives in `~/design-system/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/design-system/`. See `memory-template.md` for structure.
 
 ```
-~/design-system/
+~/Clawic/data/design-system/
 ├── memory.md         # Status + context + decisions
 └── tokens/           # Token definitions if exported
 ```
@@ -113,16 +122,16 @@ Breaking changes need:
 ## Security & Privacy
 
 **Data that stays local:**
-- Design decisions in ~/design-system/
+- Design decisions in ~/Clawic/data/design-system/
 - Token definitions and component specs
 
 **This skill does NOT:**
-- Access files outside ~/design-system/
+- Access files outside ~/Clawic/data/design-system/
 - Make network requests
 - Store sensitive data
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `css` — Styling fundamentals
 - `tailwindcss` — Utility-first CSS
 - `frontend` — Frontend development
@@ -131,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star design-system`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/design-system
+- Latest version: https://clawic.com/skills/design-system

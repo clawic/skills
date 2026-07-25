@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11b589c6718bd66c11e79d1821db26b84425552a42446f7e0d146f67953823f6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "nextjs",
     "name": "nextjs",
-    "description": "Builds Next.js apps with App Router \u2014 server components, caching, Server Actions, auth, deployment. Use for any Next.js routing, data, cache, or build issue.",
+    "description": "Builds Next.js apps with App Router — server components, caching, Server Actions, auth, deployment. Use for any Next.js routing, data, cache, or build issue.",
     "version": "1.1.2",
     "homepage": "https://clawic.com/skills/nextjs",
     "summary": "Setup All persistent data for this skill lives in `~/Clawic/data/nextjs/`. On first use, read `setup.md` for project integration. Configuration User-dependent variables. Defaults apply until the user states a preference;",
@@ -20,49 +23,67 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/nextjs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/nextjs/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/_meta.json",
+      "byteCount": 536,
+      "sha256": "a865698b91dacf142234082aa1b3003d0c2f645bdf1eaf223c237528a6407189"
     },
     {
       "path": "auth.md",
       "downloadPath": "skills/nextjs/auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/auth.md",
+      "byteCount": 8863,
+      "sha256": "892cc26b1c656cf3d16dfc07c27c649a464a9da578b27cda6c3e0c5a7f6c429c"
     },
     {
       "path": "caching.md",
       "downloadPath": "skills/nextjs/caching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/caching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/caching.md",
+      "byteCount": 6816,
+      "sha256": "8f129945505258a37939300404d9dc41fe04d8b3ef1753873cdf5f97bb065d99"
     },
     {
       "path": "data-fetching.md",
       "downloadPath": "skills/nextjs/data-fetching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/data-fetching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/data-fetching.md",
+      "byteCount": 6890,
+      "sha256": "59b9e296007bc05d42474bf3fee3579a90a42bc37d185e1e76871b4d35f8c523"
     },
     {
       "path": "deployment.md",
       "downloadPath": "skills/nextjs/deployment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/deployment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/deployment.md",
+      "byteCount": 5375,
+      "sha256": "ff8f60fcb1046be93892667f1cc5fdb3932a219453bf38aa6286d42f4faa4418"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/nextjs/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/memory-template.md",
+      "byteCount": 1003,
+      "sha256": "28b38bb204073f6f88fcd4bda46c15e3821d04f4561e56902589eb489ee9d430"
     },
     {
       "path": "routing.md",
       "downloadPath": "skills/nextjs/routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/routing.md",
+      "byteCount": 5529,
+      "sha256": "1d0b92a8322bc4ab30ac6794d5b3b9a6dfa1f1fedae78a1727e5f8594da8b21a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/nextjs/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/setup.md",
+      "byteCount": 1641,
+      "sha256": "1b6343a4f014153d7b44ea13636ab6120fa5636fddbb9ee7fac707454bcd9876"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nextjs/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nextjs/SKILL.md",
+      "byteCount": 9688,
+      "sha256": "5bead914cfc2ef6a6a76512ce5ef0737c22d1b4ce813858d929188e9296a28a5"
     }
   ]
 }

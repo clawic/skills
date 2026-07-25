@@ -110,7 +110,7 @@ After generation completes:
 
 ### Save Location
 Downloaded files typically go to browser's default download folder.
-Move to `~/udio/songs/` for organization.
+Move to `~/Clawic/data/udio/songs/` for organization.
 
 ## Extracting Auth Token
 

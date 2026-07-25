@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a66ff0302098313efa644e619239e7fd2c411e12760e49dfaf037872f60c5d8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "influencer",
-    "name": "Influencer",
+    "name": "influencer",
     "description": "Create, manage, and scale AI-generated virtual influencers with consistent characters, multi-platform content, and monetization workflows.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/influencer",
     "summary": "Workspace Structure Each influencer lives in a dedicated folder: ``` ~/influencers/ ├── {persona-slug}/ │ ├── identity.md # Name, niche, voice, personality │ ├── reference/ # Base images for consistency │ │ ├── face-ref-",
     "repositoryPath": "skills/influencer",
     "manifestPath": "registry/skills/influencer.json"
@@ -20,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/influencer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/_meta.json",
+      "byteCount": 172,
+      "sha256": "7da247371af0af3a7bb8d1bfb532a4b37b0ace75eb38907b0a0a23375dbf2478"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/influencer/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/compliance.md",
+      "byteCount": 4432,
+      "sha256": "3d2cfc0a9b39d9eaf703abb2fd148092acc1925fea2ed2ef0cad84c17b6bdf30"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/influencer/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/content.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/content.md",
+      "byteCount": 4874,
+      "sha256": "53367b42b960ef5d554e5495004fc73c7b12c2409dbe02b936b9e152a20cd796"
     },
     {
       "path": "image-gen.md",
       "downloadPath": "skills/influencer/image-gen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/image-gen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/image-gen.md",
+      "byteCount": 3856,
+      "sha256": "b4c1272f4b6e6f9492d8c2a1f61a6c0f56d1ae4a81e97d924861b6e3eeb93327"
     },
     {
       "path": "monetization.md",
       "downloadPath": "skills/influencer/monetization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/monetization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/monetization.md",
+      "byteCount": 4975,
+      "sha256": "de570409473701c5f4b04d2dd81d6c051709cf46d911ecf4256bf6b42885303a"
     },
     {
       "path": "persona.md",
       "downloadPath": "skills/influencer/persona.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/persona.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/persona.md",
+      "byteCount": 3408,
+      "sha256": "51f0420a7def1455f41775652a487ca12882e58b0d287117f2e6812bf9360942"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/influencer/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/platforms.md",
+      "byteCount": 4975,
+      "sha256": "a9402551c880c619b3de9d2f546f1417f9cc4e85e9ad415e8d6732a193f7baac"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/influencer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/SKILL.md",
+      "byteCount": 3705,
+      "sha256": "812d95380d5a7016832382b3eb0ab2d0d1e978e67f636588358d91936f14e282"
     },
     {
       "path": "video-gen.md",
       "downloadPath": "skills/influencer/video-gen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/video-gen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/video-gen.md",
+      "byteCount": 4355,
+      "sha256": "c95e9990d2f8935b869d8665f94f9248113ee95f18002b766eacde56e289e4fe"
     },
     {
       "path": "voice.md",
       "downloadPath": "skills/influencer/voice.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/voice.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influencer/voice.md",
+      "byteCount": 4085,
+      "sha256": "b0616ddffdf4c281cd36838cd0426b23bf70d6c4f2ba18b84be03d472e9e53d9"
     }
   ]
 }

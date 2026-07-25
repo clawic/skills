@@ -1,6 +1,13 @@
 ---
-name: "Sell"
-description: "Price items accurately, create compelling listings, choose platforms, and handle negotiations."
+name: sell
+slug: sell
+version: 1.0.0
+description: Price items accurately, create compelling listings, choose platforms, and handle negotiations.
+homepage: https://clawic.com/skills/sell
+metadata:
+  clawdbot:
+    emoji: 💵
+    displayName: Sell
 ---
 
 ## Triggers

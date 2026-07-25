@@ -2,7 +2,7 @@
 
 ## User Profile
 
-Store in ~/university/config.md:
+Store in ~/Clawic/data/university/config.md:
 
 ```markdown
 # Learning Configuration

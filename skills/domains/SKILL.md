@@ -1,7 +1,17 @@
 ---
-name: Domains
+name: domains
+slug: domains
+version: 1.0.0
 description: Register, manage, and protect domain names with practical DNS and security guidance.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/domains
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Domains
 ---
 
 # Domain Management Rules

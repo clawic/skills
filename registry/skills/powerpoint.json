@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "99b25c6f71d7389d3e14db6424706d403025025232a4e5f5a186dd67f7f946b5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "powerpoint",
-    "name": "PowerPoint",
+    "name": "powerpoint",
     "description": "Control PowerPoint app sessions, slides, notes, export, and presentation state with osascript workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/powerpoint",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/powerpoint/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/_meta.json",
+      "byteCount": 172,
+      "sha256": "4b0b2159cd6a8d0729d11a5062498c34ad1df8d5087b214bab60bf47469c3cf7"
     },
     {
       "path": "execution-matrix.md",
       "downloadPath": "skills/powerpoint/execution-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/execution-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/execution-matrix.md",
+      "byteCount": 1579,
+      "sha256": "22fba603593cc1ef0545a7ebe0e91f3e6bdff5af17736090b56300d688354d04"
     },
     {
       "path": "live-control-patterns.md",
       "downloadPath": "skills/powerpoint/live-control-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/live-control-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/live-control-patterns.md",
+      "byteCount": 1213,
+      "sha256": "44f9761d2d841d230fa8366675597afb983d77ab5c3a4f79789da52004694a4f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/powerpoint/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/memory-template.md",
+      "byteCount": 1564,
+      "sha256": "c14bb6699a8a5757f2b80fa1f7001b0008633395c377e4caeb8f8222e3d307a4"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/powerpoint/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/safety-checklist.md",
+      "byteCount": 742,
+      "sha256": "8275bfba929330b2ad0a65bd22d12a1a95dfa3ad331769c9c12fac99f1ca2dd4"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/powerpoint/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/setup.md",
+      "byteCount": 2239,
+      "sha256": "f9575208455f420af8d73ebfcee60170866b581bdd74ad386be9c8867bb33220"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/powerpoint/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/SKILL.md",
+      "byteCount": 6251,
+      "sha256": "bd2bf6c86d2bbf72f003ad26bf01fd5c5f9f84a4f9735188661b25e0f24c0b9e"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/powerpoint/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/powerpoint/troubleshooting.md",
+      "byteCount": 1549,
+      "sha256": "d78a5414a195acec1ccf426756a829b40b36d1ba77ce69286130f2751019b4ed"
     }
   ]
 }

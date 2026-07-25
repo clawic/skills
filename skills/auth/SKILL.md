@@ -1,11 +1,20 @@
 ---
-name: Auth
+name: auth
 slug: auth
 version: 1.3.0
-homepage: https://clawic.com/skills/auth
 description: Build secure authentication with sessions, JWT, OAuth, passwordless, MFA, and SSO for web and mobile apps.
-changelog: "Added documentation-only disclaimer, clarified example code does not execute"
-metadata: {"clawdbot":{"emoji":"🔐","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/auth
+changelog: Added documentation-only disclaimer, clarified example code does not execute
+metadata:
+  clawdbot:
+    emoji: 🔐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Auth
 ---
 
 ## Documentation-Only Skill
@@ -120,5 +129,5 @@ if (!user || !validPassword) {
 
 ## Feedback
 
-- If useful: `clawhub star auth`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/auth
+- Latest version: https://clawic.com/skills/auth

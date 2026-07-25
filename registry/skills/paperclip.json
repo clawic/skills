@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "df9682211390906b8c65b58155e6189c6a791ba697237c674fddd3c3a1de44b4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "paperclip",
-    "name": "Paperclip",
+    "name": "paperclip",
     "description": "Run Paperclip locally for agent orchestration, AI company setup, and OpenClaw, Codex, or Claude control-plane operations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/paperclip",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/paperclip/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/_meta.json",
+      "byteCount": 170,
+      "sha256": "e94c8c775ecbc6576712a17e9b11266c28fa34dd4ca9d44f3f4f8d6b6a42b140"
     },
     {
       "path": "adapters.md",
       "downloadPath": "skills/paperclip/adapters.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/adapters.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/adapters.md",
+      "byteCount": 1423,
+      "sha256": "84eb2eff97512c2f75641543e6ee16183af3a3bc151f99bd12591189c8c6d3e6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/paperclip/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/memory-template.md",
+      "byteCount": 1250,
+      "sha256": "756482add1e7c90a6e810fd8b690a7e111def4b0ea7d1942cdcda0f6cf039c9a"
     },
     {
       "path": "openclaw.md",
       "downloadPath": "skills/paperclip/openclaw.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/openclaw.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/openclaw.md",
+      "byteCount": 1731,
+      "sha256": "0f5671c1e2d7b5799e9da69d05df82a3a1ff272cd02bec7416fd3f4beaf903ad"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/paperclip/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/operations.md",
+      "byteCount": 1446,
+      "sha256": "9240c5ee86093b6b6926aecb0396fadf9f25501ece88599261b0fabbe35aadb2"
     },
     {
       "path": "quickstart.md",
       "downloadPath": "skills/paperclip/quickstart.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/quickstart.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/quickstart.md",
+      "byteCount": 1004,
+      "sha256": "322a8c0482c345b48758b20686ee6e8ad8bcbbd51d87ddb2d0d138aa74246143"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/paperclip/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/setup.md",
+      "byteCount": 1739,
+      "sha256": "47577a6b376aed61e63922b11639b9ca22e257be2146f15d22bc930de395e094"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/paperclip/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paperclip/SKILL.md",
+      "byteCount": 6294,
+      "sha256": "fa72474d05a0ec52eab595d68ef18b1deb3dea169ebe756f79b3bc9a310035ae"
     }
   ]
 }

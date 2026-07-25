@@ -1,6 +1,6 @@
 # Memory Template - multi-engine-web-search
 
-Create `~/multi-engine-web-search/memory.md`:
+Create `~/Clawic/data/multi-engine-web-search/memory.md`:
 
 ```markdown
 # multi-engine-web-search Memory

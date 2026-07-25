@@ -1,6 +1,6 @@
 # Setup — Romania
 
-Read this silently when `~/romania/` does not exist or is empty. Start naturally and keep the tone grounded, useful, and local.
+Read this silently when `~/Clawic/data/romania/` does not exist or is empty. Start naturally and keep the tone grounded, useful, and local.
 
 ## Your Attitude
 
@@ -20,7 +20,7 @@ Within the first couple of exchanges, learn how this should activate in the futu
 - should it stay quiet unless they ask directly
 - are there trip types where it should always help
 
-Save that integration preference only in `~/romania/memory.md`. Do not write outside the local Romania folder.
+Save that integration preference only in `~/Clawic/data/romania/memory.md`. Do not write outside the local Romania folder.
 
 ### 2. Then: Understand Their Situation
 

@@ -1,7 +1,17 @@
 ---
-name: Accountant
+name: accountant
+slug: accountant
+version: 1.0.0
 description: Manage bookkeeping, financial statements, and tax planning with sound accounting practices.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/accountant
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Accountant
 ---
 
 # Accounting Rules

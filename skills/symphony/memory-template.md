@@ -1,6 +1,6 @@
 # Memory Template - OpenAI Symphony
 
-Create `~/symphony/memory.md` with this structure:
+Create `~/Clawic/data/symphony/memory.md` with this structure:
 
 ```markdown
 # Symphony Memory

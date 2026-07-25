@@ -198,10 +198,13 @@ Install and configure skills:
 
 **CLI commands:**
 ```bash
-clawhub search <query>
-clawhub install <skill>
-clawhub list
+npx clawic search <query>
+npx clawic add <slug>
+npx clawic update <slug>   # or: npx clawic update --all
+npx clawic list
 ```
+
+Browse the catalog at `https://clawic.com/skills/<slug>` to confirm a slug before installing it.
 
 ---
 

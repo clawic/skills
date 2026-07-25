@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ad3d978c72f8300303d4b823244c6ae738fd3979c45eab46cca405419de30516",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "office",
-    "name": "Office",
-    "description": "Master Excel, Word, PowerPoint, and Google Workspace with formulas, formatting, and automation.",
+    "name": "office",
+    "description": "Get productive with Excel, Word, PowerPoint, and Google Workspace with formulas, formatting, and automation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/office",
     "summary": "What \"Office\" Means Here Productivity software: Microsoft 365, Google Workspace, and office administration. | Signal | Context | Load | |--------|---------|------| | Formulas, pivot tables, VLOOKUP, macros | Spreadsheets",
     "repositoryPath": "skills/office",
     "manifestPath": "registry/skills/office.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/office/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/_meta.json",
+      "byteCount": 164,
+      "sha256": "eff4cf47cb8d3efc8d898fdc48062ab8eaa8116f10cdc6f95e742ac0d79735e0"
     },
     {
       "path": "documents.md",
       "downloadPath": "skills/office/documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/documents.md",
+      "byteCount": 2728,
+      "sha256": "5785e019441d2bf72f5724dae4609ffadd68ffb815f3972c764bd5c653294dea"
     },
     {
       "path": "facilities.md",
       "downloadPath": "skills/office/facilities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/facilities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/facilities.md",
+      "byteCount": 2993,
+      "sha256": "7bad817d1ed93477eb2f8b5a465e8503aef51f4bde2b43057a7f6f4f84c6517d"
     },
     {
       "path": "presentations.md",
       "downloadPath": "skills/office/presentations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/presentations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/presentations.md",
+      "byteCount": 3064,
+      "sha256": "9ebc8cf1c38b0256f7d61e37ecde6429cee0ae2f480d8a9c90fb903f54207d47"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/office/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/SKILL.md",
+      "byteCount": 3385,
+      "sha256": "a3374e182c0f3c79d205300cefe5cf96fbcd913947524eea65b8a5753aa59abb"
     },
     {
       "path": "spreadsheets.md",
       "downloadPath": "skills/office/spreadsheets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/spreadsheets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/office/spreadsheets.md",
+      "byteCount": 2226,
+      "sha256": "9e4774772e78aa6f7a3d32dc7e5b5712144134fbb325f60ccd11f9a0c6ce31ea"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Legal
-description: "Think through any legal situation like a lawyer. Issue spotting, jurisdiction, risk assessment, actionable conclusions."
+name: legal
+slug: legal
+version: 1.0.0
+description: Think through any legal situation like a lawyer. Issue spotting, jurisdiction, risk assessment, actionable conclusions.
+homepage: https://clawic.com/skills/legal
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    displayName: Legal
 ---
 
 ## Pattern

@@ -1,6 +1,6 @@
 # Setup - Agentic Coding
 
-Read this when `~/agentic-coding/` is missing or empty. Keep startup concise and transparent.
+Read this when `~/Clawic/data/agentic-coding/` is missing or empty. Keep startup concise and transparent.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first exchanges, clarify when this skill should activate in future se
 - Only on request, or proactively when risk is high
 - Situations where this method should never activate
 
-If the user approves, save activation preferences in `~/agentic-coding/memory.md` only.
+If the user approves, save activation preferences in `~/Clawic/data/agentic-coding/memory.md` only.
 Do not write to global memory stores or external configuration files.
 
 ### 2. Then: Understand Delivery Context
@@ -45,7 +45,7 @@ Save durable patterns, not chat noise:
 - Repeated failure modes and reliable recovery tactics
 - Handoff format the user approves fastest
 
-All persisted context stays under `~/agentic-coding/`.
+All persisted context stays under `~/Clawic/data/agentic-coding/`.
 
 ## Golden Rule
 

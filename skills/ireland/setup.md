@@ -10,7 +10,7 @@ mkdir -p ~/ireland
 ```
 
 ### 2. Initialize Memory File
-Create `~/ireland/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/ireland/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Any dietary, mobility, or budget constraints?
 
 ### 4. Save to Memory
-Update `~/ireland/memory.md` with their answers.
+Update `~/Clawic/data/ireland/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/ireland/memory.md` exists:
+If `~/Clawic/data/ireland/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences
 3. Ask what changed since last plan

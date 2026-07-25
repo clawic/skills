@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "32715690594eb1cf1113578fbe8153cd850e65459e48875c4bf87663504c14a0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "digital-marketing",
-    "name": "Digital Marketing",
+    "name": "digital-marketing",
     "description": "Plan, launch, and optimize digital marketing with growth marketing systems, short-form video, funnel operations, and revenue-focused experimentation.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/digital-marketing",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/digital-marketing/` if the user wants ongoing continuity. When to Use User needs one system for digit",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/Clawic/data/digital-marketing/` if the user wants ongoing continuity. When to Use User needs one syst",
     "repositoryPath": "skills/digital-marketing",
     "manifestPath": "registry/skills/digital-marketing.json"
   },
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/digital-marketing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/_meta.json",
+      "byteCount": 186,
+      "sha256": "6d52ae5f59b43bb77ef08389d2cdfe38205149b280aa9f798fd5c4e9a7480a7a"
     },
     {
       "path": "channel-system.md",
       "downloadPath": "skills/digital-marketing/channel-system.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/channel-system.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/channel-system.md",
+      "byteCount": 1956,
+      "sha256": "1fcfd1c34c9b4f961dc8963ed592fd3987e3f6e7f764622c16797a4d5535d31f"
     },
     {
       "path": "experiments.md",
       "downloadPath": "skills/digital-marketing/experiments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/experiments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/experiments.md",
+      "byteCount": 1512,
+      "sha256": "4a08b5d423f2f59311ec63b2407781a8b72581cfaa31f34cd9b0f63f59651cb6"
     },
     {
       "path": "funnels.md",
       "downloadPath": "skills/digital-marketing/funnels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/funnels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/funnels.md",
+      "byteCount": 1559,
+      "sha256": "c50adbf3c4a675e212af09ed9b6850b66f0bb087ac0f039e7992c5af65662c73"
     },
     {
       "path": "market-model.md",
       "downloadPath": "skills/digital-marketing/market-model.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/market-model.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/market-model.md",
+      "byteCount": 1626,
+      "sha256": "1fc9fbcfadd466c975b13fac8f5994882731d8bdaacaae57ce71fa39d75ccd01"
     },
     {
       "path": "measurement.md",
       "downloadPath": "skills/digital-marketing/measurement.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/measurement.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/measurement.md",
+      "byteCount": 1698,
+      "sha256": "04b26105ad2f73a2ee64e5934aea2750b95c8170c38ae7eaa39b20e770a590b2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/digital-marketing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/memory-template.md",
+      "byteCount": 1512,
+      "sha256": "a0b1eeaf69c697d77741e01554eea6e8955f6313f51f5dfe691e7db3922fe09f"
     },
     {
       "path": "playbooks.md",
       "downloadPath": "skills/digital-marketing/playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/playbooks.md",
+      "byteCount": 1656,
+      "sha256": "8e60c0f92e30dd50fad80cc252e96fcc9c5562830e61bd366f33f1c2f6c9cb61"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/digital-marketing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/setup.md",
+      "byteCount": 1849,
+      "sha256": "ac62f045fabc24c62720babb3099316d00dadb12e68496ba03d1f2fbfb1311e9"
     },
     {
       "path": "short-form-video.md",
       "downloadPath": "skills/digital-marketing/short-form-video.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/short-form-video.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/short-form-video.md",
+      "byteCount": 1600,
+      "sha256": "dd4d753d0f68a4eb8518909c0f6be3584897d735d0d0afcb1ba7abbdb7c79161"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/digital-marketing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/digital-marketing/SKILL.md",
+      "byteCount": 7514,
+      "sha256": "0bd57fc36f5dd2b0a9a0c0ff530bce0390eb19ef08b5f735208627cefd98c174"
     }
   ]
 }

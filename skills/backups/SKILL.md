@@ -1,7 +1,17 @@
 ---
-name: Backup
+name: backups
+slug: backups
+version: 1.0.0
 description: Implement reliable backup strategies avoiding data loss, failed restores, and security gaps.
-metadata: {"clawdbot":{"emoji":"💾","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/backups
+metadata:
+  clawdbot:
+    emoji: 💾
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Backup
 ---
 
 ## The Only Rule That Matters

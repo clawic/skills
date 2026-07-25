@@ -1,6 +1,6 @@
 # Memory Template - Shelly
 
-Create `~/shelly/memory.md` with this structure:
+Create `~/Clawic/data/shelly/memory.md` with this structure:
 
 ```markdown
 # Shelly Memory
@@ -55,7 +55,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/shelly/devices.md`:
+Create `~/Clawic/data/shelly/devices.md`:
 
 ```markdown
 # Device Registry
@@ -68,7 +68,7 @@ Create `~/shelly/devices.md`:
 - Last verified:
 ```
 
-Create `~/shelly/incidents.md`:
+Create `~/Clawic/data/shelly/incidents.md`:
 
 ```markdown
 # Incident Log

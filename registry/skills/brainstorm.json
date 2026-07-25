@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0ede44353a44fee81089106399fabff9cd3454b13ed708188112608a42988b64",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "brainstorm",
-    "name": "Brainstorm",
+    "name": "brainstorm",
     "description": "Generate ideas fast. Adapt depth and structure to what the user actually needs.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/brainstorm",
     "summary": "Default: Ideas First When user asks for ideas, **generate immediately**. Don't interrogate first. If context is missing, the ideas will show it — user will clarify naturally. Adapt to the Request | Signal | Response | |-",
     "repositoryPath": "skills/brainstorm",
     "manifestPath": "registry/skills/brainstorm.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/brainstorm/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/_meta.json",
+      "byteCount": 172,
+      "sha256": "5a3eaa95a34c97ce2f0fe513ad6156fb139906535b378cca99b46bfc09893ae5"
     },
     {
       "path": "modes.md",
       "downloadPath": "skills/brainstorm/modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/modes.md",
+      "byteCount": 835,
+      "sha256": "8e398be2e217ef33cfdabb4b81311ccd136abff9929bfd6140f40e8cb47b5cbb"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/brainstorm/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/prompts.md",
+      "byteCount": 842,
+      "sha256": "b06661381a950a11b7d085f664597e0d47bbd0f154a8412af6152a08d3754713"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/brainstorm/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brainstorm/SKILL.md",
+      "byteCount": 1651,
+      "sha256": "cf312a5513c023aa06db666042588b5742beb1f83c28406a72882f724211ecca"
     }
   ]
 }

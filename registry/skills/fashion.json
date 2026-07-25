@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "41a7b46ed0fa2595d32bd1ef00527be0b5d69fb274519e9983fed80cb41d2c96",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "fashion",
-    "name": "Fashion",
+    "name": "fashion",
     "description": "Style outfits, decode dress codes, and shop smart with body-aware advice, trend intelligence, and practical constraints.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fashion",
     "summary": "When to Use User needs outfit advice, wardrobe strategy, shopping guidance, or style problem-solving. Agent handles everything from daily dressing to event preparation, adapting to body type, budget, climate, and lifesty",
     "repositoryPath": "skills/fashion",
     "manifestPath": "registry/skills/fashion.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fashion/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/_meta.json",
+      "byteCount": 166,
+      "sha256": "9fffc18a2a1f6df8f8d19509d645f036e064c3dc160e1573d9b3d710be49f4ee"
     },
     {
       "path": "fabrics.md",
       "downloadPath": "skills/fashion/fabrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/fabrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/fabrics.md",
+      "byteCount": 4080,
+      "sha256": "84048f123ba5ab5a0a14f3ce316c7b33d3c44b6f541b66a67d451367d53bfadc"
     },
     {
       "path": "occasions.md",
       "downloadPath": "skills/fashion/occasions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/occasions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/occasions.md",
+      "byteCount": 4342,
+      "sha256": "701d8c19ca81df03bd6c4714546432b0bb0652d5ef10a97d9625ee5198794795"
     },
     {
       "path": "shopping.md",
       "downloadPath": "skills/fashion/shopping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/shopping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/shopping.md",
+      "byteCount": 4649,
+      "sha256": "fa4c771352ccb10846ee3afd5e7b3d49764cfc0dc516d1c9e86ecfafc628b156"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fashion/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/SKILL.md",
+      "byteCount": 4801,
+      "sha256": "f485ec4cc6de80e65dd382b9f1d1e6500bdce12a49365803faf6dca8102c049b"
     },
     {
       "path": "styling.md",
       "downloadPath": "skills/fashion/styling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/styling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/styling.md",
+      "byteCount": 3916,
+      "sha256": "20f90a2b92bc4c498ea2bf5804be129c8b2cfca0b551c9821d4789460b054fc3"
     },
     {
       "path": "users.md",
       "downloadPath": "skills/fashion/users.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/users.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fashion/users.md",
+      "byteCount": 5458,
+      "sha256": "3c08c1f9c0cf7babe5db05144b1e8c9e33cdc47bcba601ee8435c6fab551d402"
     }
   ]
 }

@@ -1,16 +1,26 @@
 ---
-name: Agentic Coding
+name: agentic-coding
 slug: agentic-coding
 version: 1.0.0
-homepage: https://clawic.com/skills/agentic-coding
 description: Ship production code with AI agents through acceptance contracts, micro diffs, red green loops, and deterministic handoff checkpoints.
+homepage: https://clawic.com/skills/agentic-coding
 changelog: Initial release with PACT protocol, contract templates, and handoff-first delivery workflow.
-metadata: {"clawdbot":{"emoji":"AI","requires":{"bins":["git"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: AI
+    requires:
+      bins:
+      - git
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Agentic Coding
 ---
 
 ## Setup
 
-If `~/agentic-coding/` does not exist or is empty, read `setup.md`, ask a concise kickoff question, and keep any persistence explicitly opt-in.
+If `~/Clawic/data/agentic-coding/` does not exist or is empty, read `setup.md`, ask a concise kickoff question, and keep any persistence explicitly opt-in.
 
 ## Positioning
 
@@ -25,10 +35,10 @@ User needs merge-ready code from an AI agent with explicit quality gates. Use fo
 
 ## Architecture
 
-Memory lives in `~/agentic-coding/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/agentic-coding/`. See `memory-template.md` for setup.
 
 ```text
-~/agentic-coding/
+~/Clawic/data/agentic-coding/
 |- memory.md       # Persistent preferences and operating mode
 |- contracts.md    # Accepted task contracts and non-goals
 |- evidence.md     # Test evidence and verification snapshots
@@ -116,7 +126,7 @@ Do not keep guessing in loops.
 - None from this skill itself
 
 **Data that stays local:**
-- Contracts, evidence notes, and handoff summaries in `~/agentic-coding/`
+- Contracts, evidence notes, and handoff summaries in `~/Clawic/data/agentic-coding/`
 
 **This skill does NOT:**
 - Trigger undeclared network requests
@@ -137,7 +147,7 @@ This skill NEVER:
 - Overrides project specific contribution rules
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `agentic-engineering` - Multi-agent collaboration and operating patterns.
 - `coding` - General coding support across stacks and tasks.
 - `code` - Broad code authoring and editing assistance.
@@ -146,5 +156,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star agentic-coding`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/agentic-coding
+- Latest version: https://clawic.com/skills/agentic-coding

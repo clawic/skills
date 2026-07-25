@@ -1,6 +1,6 @@
 # Memory Template
 
-Copy this structure to `~/self-improving/memory.md` on first use.
+Copy this structure to `~/Clawic/data/self-improving/memory.md` on first use.
 
 ```markdown
 # Self-Improving Memory
@@ -20,13 +20,13 @@ Copy this structure to `~/self-improving/memory.md` on first use.
 Create on first activation:
 
 ```bash
-mkdir -p ~/self-improving/{projects,domains,archive}
-touch ~/self-improving/{memory.md,index.md,corrections.md,heartbeat-state.md}
+mkdir -p ~/Clawic/data/self-improving/{projects,domains,archive}
+touch ~/Clawic/data/self-improving/{memory.md,index.md,corrections.md,heartbeat-state.md}
 ```
 
 ## Index Template
 
-For `~/self-improving/index.md`:
+For `~/Clawic/data/self-improving/index.md`:
 
 ```markdown
 # Memory Index
@@ -45,7 +45,7 @@ Last compaction: never
 
 ## Corrections Log Template
 
-For `~/self-improving/corrections.md`:
+For `~/Clawic/data/self-improving/corrections.md`:
 
 ```markdown
 # Corrections Log
@@ -61,7 +61,7 @@ For `~/self-improving/corrections.md`:
 
 ## Heartbeat State Template
 
-For `~/self-improving/heartbeat-state.md`:
+For `~/Clawic/data/self-improving/heartbeat-state.md`:
 
 ```markdown
 # Self-Improving Heartbeat State

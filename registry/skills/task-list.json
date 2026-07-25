@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bca5f0ccea75ad717d07c7ade77e5972c4612f128ae840d6a5524980c920caaa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "task-list",
-    "name": "Task List",
+    "name": "task-list",
     "description": "Run a conversational task list with Inbox, Today, Upcoming, recurring tasks, waiting items, projects, and review loops that stay trustworthy.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/task-list",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/task-list/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/_meta.json",
+      "byteCount": 170,
+      "sha256": "9e7e64bb1e36b5762fe964931a022217598bf0ede8f2268190f3a2609e96ce9c"
     },
     {
       "path": "capture-and-clarify.md",
       "downloadPath": "skills/task-list/capture-and-clarify.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/capture-and-clarify.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/capture-and-clarify.md",
+      "byteCount": 1457,
+      "sha256": "9ef811f5d9992cca2240ae1444a09b2953f66f4e3b04bf3920b625e719d9eb5d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/task-list/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/memory-template.md",
+      "byteCount": 2166,
+      "sha256": "ae5045ff3c5ec647c818c4b0db71180db07de7af56a30c3452fc81c0eca32dad"
     },
     {
       "path": "recurrence-and-waiting.md",
       "downloadPath": "skills/task-list/recurrence-and-waiting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/recurrence-and-waiting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/recurrence-and-waiting.md",
+      "byteCount": 1267,
+      "sha256": "e9ea7456739cfa2d20cf9ec8bcefee162f7e38d1472f4207a517afc0b17e17ad"
     },
     {
       "path": "review-rhythm.md",
       "downloadPath": "skills/task-list/review-rhythm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/review-rhythm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/review-rhythm.md",
+      "byteCount": 818,
+      "sha256": "210285162dbc21314f3e2ae5455f85ff655bcb8dee578a61b23a31ca208cf885"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/task-list/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/setup.md",
+      "byteCount": 2378,
+      "sha256": "e1d58237aa783a32571e3d3497352d1a2962722d70ebd3f8a3b4ea6d1b3be814"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/task-list/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/SKILL.md",
+      "byteCount": 6989,
+      "sha256": "80116fb73824704b0fb6f479a7a0c9681b6072df2e053665f1ef53ce07154266"
     },
     {
       "path": "views-and-sorting.md",
       "downloadPath": "skills/task-list/views-and-sorting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/views-and-sorting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/views-and-sorting.md",
+      "byteCount": 1398,
+      "sha256": "39d0fafc691702b48f108270b03a1af4d250950c832011cc5be2f70659d2e703"
     },
     {
       "path": "workspace-format.md",
       "downloadPath": "skills/task-list/workspace-format.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/workspace-format.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/task-list/workspace-format.md",
+      "byteCount": 1953,
+      "sha256": "4d257f23e456e98e953c3eba376265b3685451574a5ce254f8fb5a1717f739bb"
     }
   ]
 }

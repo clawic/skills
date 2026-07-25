@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "43051469786bf414f11adc225be6f1328d8ea6208a4d7130da807efc3569ef1e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "marriage",
-    "name": "Marriage",
+    "name": "marriage",
     "description": "Navigate marriage challenges across all stages with conflict resolution, communication tools, and practical frameworks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/marriage",
     "summary": "Approach Marriage support spans decades. Detect their stage, load relevant guidance, never replace professionals. **Core Loop:** 1. **Detect** — Which stage/situation from their question 2. **Load** — Relevant phase file",
     "repositoryPath": "skills/marriage",
     "manifestPath": "registry/skills/marriage.json"
@@ -20,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/marriage/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/_meta.json",
+      "byteCount": 168,
+      "sha256": "817c46dd440aaea7c3ef4532c38917553917f851a3b7ea3acd9c92445a8c2d2c"
     },
     {
       "path": "divorce-consideration.md",
       "downloadPath": "skills/marriage/divorce-consideration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/divorce-consideration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/divorce-consideration.md",
+      "byteCount": 4457,
+      "sha256": "da0ab1a820a8abfb85de527681cc57dfa4c2e6458359a2c17a2be242db03cfc6"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/marriage/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/frameworks.md",
+      "byteCount": 4716,
+      "sha256": "970900d56f345b7c0221a0d2ff3a190d98d2ab736ab139f4af5ec0733a2ca2d5"
     },
     {
       "path": "long-term.md",
       "downloadPath": "skills/marriage/long-term.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/long-term.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/long-term.md",
+      "byteCount": 3122,
+      "sha256": "3944fd929041cb1820519af41708404adc215078a21404ac9b866e55ee02c3af"
     },
     {
       "path": "newlywed.md",
       "downloadPath": "skills/marriage/newlywed.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/newlywed.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/newlywed.md",
+      "byteCount": 2941,
+      "sha256": "03d3c3a71ef71640ff5953761d73461b31351ff49788e23ffa013314eb9cef4a"
     },
     {
       "path": "pre-marriage.md",
       "downloadPath": "skills/marriage/pre-marriage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/pre-marriage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/pre-marriage.md",
+      "byteCount": 2507,
+      "sha256": "0c57b8a62fb6fa3b87c213127e344573aa7fbd32dc5333aa4dd2d2fa0bb44ac2"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/marriage/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/safety.md",
+      "byteCount": 4965,
+      "sha256": "da46113141f3684d8ed9f7e443a967af262da0f22c0a68264ec9b75b1bbf5ec0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/marriage/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/SKILL.md",
+      "byteCount": 2121,
+      "sha256": "de8ba1c68a268202d6cabb10cb04caec85979118fb0a0912550fb933c4c1b4ee"
     },
     {
       "path": "struggling.md",
       "downloadPath": "skills/marriage/struggling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/struggling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/marriage/struggling.md",
+      "byteCount": 4023,
+      "sha256": "8c4c6c17b6d1f8a81b0bc71785338b4af358778eed673da1dedaa048851a7294"
     }
   ]
 }

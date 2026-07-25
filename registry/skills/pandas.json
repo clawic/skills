@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "50fa24d61e5940425a9fa1830d00a7e61d7ade66817a9d95823769ca5f1b4f52",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "pandas",
-    "name": "Pandas",
+    "name": "pandas",
     "description": "Analyze, transform, and clean DataFrames with efficient patterns for filtering, grouping, merging, and pivoting.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/pandas",
-    "summary": "Setup On first use, create `~/pandas/` and read `setup.md` for initialization. User preferences are stored in `~/pandas/memory.md` — users can view or edit this file anytime. When to Use User needs to work with tabular d",
+    "summary": "Setup On first use, create `~/Clawic/data/pandas/` and read `setup.md` for initialization. User preferences are stored in `~/Clawic/data/pandas/memory.md` — users can view or edit this file anytime. When to Use User need",
     "repositoryPath": "skills/pandas",
     "manifestPath": "registry/skills/pandas.json"
   },
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pandas/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/_meta.json",
+      "byteCount": 240,
+      "sha256": "17377f92fe1ab36c7d752953572af85ac50723409af03f20f9135a92abb9067e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/pandas/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/memory-template.md",
+      "byteCount": 861,
+      "sha256": "0d098ce4a7422bcc96bf3c452ae1c8fb3426d2d9ea4d0d8d145ecee805fd0053"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/pandas/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/setup.md",
+      "byteCount": 769,
+      "sha256": "c204198ceec5b10bb67ba42dc64b9f84410c4467d6a04ad560534318df0bde60"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pandas/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pandas/SKILL.md",
+      "byteCount": 4115,
+      "sha256": "54980f990f70466cbd220cd39f3061414778c4bc860498a8abfc70cbd2d0b30b"
     }
   ]
 }

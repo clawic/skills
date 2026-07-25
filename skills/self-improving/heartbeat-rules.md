@@ -1,19 +1,19 @@
 # Heartbeat Rules
 
-Use heartbeat to keep `~/self-improving/` organized without creating churn or losing data.
+Use heartbeat to keep `~/Clawic/data/self-improving/` organized without creating churn or losing data.
 
 ## Source of Truth
 
 Keep the workspace `HEARTBEAT.md` snippet minimal.
 Treat this file as the stable contract for self-improving heartbeat behavior.
-Store mutable run state only in `~/self-improving/heartbeat-state.md`.
+Store mutable run state only in `~/Clawic/data/self-improving/heartbeat-state.md`.
 
 ## Start of Every Heartbeat
 
-1. Ensure `~/self-improving/heartbeat-state.md` exists.
+1. Ensure `~/Clawic/data/self-improving/heartbeat-state.md` exists.
 2. Write `last_heartbeat_started_at` immediately in ISO 8601.
 3. Read the previous `last_reviewed_change_at`.
-4. Scan `~/self-improving/` for files changed after that moment, excluding `heartbeat-state.md` itself.
+4. Scan `~/Clawic/data/self-improving/` for files changed after that moment, excluding `heartbeat-state.md` itself.
 
 ## If Nothing Changed
 
@@ -36,12 +36,12 @@ Only do conservative organization:
 - Most heartbeat runs should do nothing
 - Prefer append, summarize, or index fixes over large rewrites
 - Never delete data, empty files, or overwrite uncertain text
-- Never reorganize files outside `~/self-improving/`
+- Never reorganize files outside `~/Clawic/data/self-improving/`
 - If scope is ambiguous, leave files untouched and record a suggested follow-up instead
 
 ## State Fields
 
-Keep `~/self-improving/heartbeat-state.md` simple:
+Keep `~/Clawic/data/self-improving/heartbeat-state.md` simple:
 
 - `last_heartbeat_started_at`
 - `last_reviewed_change_at`

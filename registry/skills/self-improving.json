@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ed8bfafbc844e026d51908b9c24abd1bb151164ff1216604ce92d6df161de8bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "self-improving",
-    "name": "Self-Improving + Proactive Agent",
+    "name": "self-improving",
     "description": "Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. Use when (1) a command, tool, API, or operation fails; (2) the user corrects you or rejects your work; (3) you realize your knowledge is outdated or incorrect; (4) you discover a better approach; (5) the user explicitly installs or references the skill for the current task.",
     "version": "1.2.16",
     "homepage": "https://clawic.com/skills/self-improving",
@@ -22,77 +25,107 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/self-improving/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/_meta.json",
+      "byteCount": 720,
+      "sha256": "556296e835f8a8fa9d50a64360e1838f718fb225578c7fbf27c120d78c86c469"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/self-improving/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/boundaries.md",
+      "byteCount": 2236,
+      "sha256": "d306e26bc55d77bc8397b5cd8fc0a3fc0fc3dc085ae2eecf1c0196b329c3f24e"
     },
     {
       "path": "corrections.md",
       "downloadPath": "skills/self-improving/corrections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/corrections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/corrections.md",
+      "byteCount": 1038,
+      "sha256": "1ff0929b168c57d6e94a1839b4c15378a195af1c956a161d2f447ab2277c777d"
     },
     {
       "path": "heartbeat-rules.md",
       "downloadPath": "skills/self-improving/heartbeat-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/heartbeat-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/heartbeat-rules.md",
+      "byteCount": 1915,
+      "sha256": "5029c47eb35bfb965508723655711fc43a324633b5945e74a6579b4ca7aa04ed"
     },
     {
       "path": "heartbeat-state.md",
       "downloadPath": "skills/self-improving/heartbeat-state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/heartbeat-state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/heartbeat-state.md",
+      "byteCount": 596,
+      "sha256": "97172b29ded108c8f83ecc068935e23eccd7f30d91c84ed7e277925b72f7d23c"
     },
     {
       "path": "HEARTBEAT.md",
       "downloadPath": "skills/self-improving/HEARTBEAT.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/HEARTBEAT.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/HEARTBEAT.md",
+      "byteCount": 285,
+      "sha256": "52b333062118bf0790cf8bea96c93d93690e1a79eb1bc54392241bd200957db5"
     },
     {
       "path": "learning.md",
       "downloadPath": "skills/self-improving/learning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/learning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/learning.md",
+      "byteCount": 2951,
+      "sha256": "7662295cc88c04e2620de8bb83331cda6a7347b4cfdaaa131ebd23cdd56b1b96"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/self-improving/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/memory-template.md",
+      "byteCount": 1350,
+      "sha256": "9bbe5362b549a386de61b185fe1abe7a2723683359b2c72a14b75270c1111ac6"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/self-improving/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/memory.md",
+      "byteCount": 768,
+      "sha256": "d44bfc4dfe45a03785f9667251b8090a61c32fdc45017c440e36480ca71e75d1"
     },
     {
       "path": "openclaw-heartbeat.md",
       "downloadPath": "skills/self-improving/openclaw-heartbeat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/openclaw-heartbeat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/openclaw-heartbeat.md",
+      "byteCount": 285,
+      "sha256": "52b333062118bf0790cf8bea96c93d93690e1a79eb1bc54392241bd200957db5"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/self-improving/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/operations.md",
+      "byteCount": 3435,
+      "sha256": "efe32247caa4fb05a401501b91eec26d1400d68efd02810ebab681b284c5a8c4"
     },
     {
       "path": "reflections.md",
       "downloadPath": "skills/self-improving/reflections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/reflections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/reflections.md",
+      "byteCount": 840,
+      "sha256": "7a3322c2784dde81030c41ca6b681ce883f253176ce32601d921da7aa1065bcd"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/self-improving/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/scaling.md",
+      "byteCount": 2945,
+      "sha256": "7821d1a8580f8687be461d74a1e3e1fa0cf96c86c36ed788763b159a88f2fe42"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/self-improving/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/setup.md",
+      "byteCount": 6634,
+      "sha256": "8e7eed3699c5d2ebf5ef0b0187b05df51db5ebc94b09edbeb0d30e4d8808c555"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/self-improving/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-improving/SKILL.md",
+      "byteCount": 8830,
+      "sha256": "1827f82c96d3693e68345fdf4fc0fa468ff8c4986a457974a224c94a0a34ded7"
     }
   ]
 }

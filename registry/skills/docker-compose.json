@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e5a433ad10278e4642f0c9201a9bc72e19fe587aafd4c194d7c124805c6fe9b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "docker-compose",
-    "name": "Docker Compose",
+    "name": "docker-compose",
     "description": "Define multi-container applications with proper dependency handling, networking, and volume management.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/docker-compose",
     "summary": "depends_on Ready Condition - `depends_on:` alone only waits for container start—service likely not ready yet - Add healthcheck + condition for actual readiness: ```yaml depends_on: db: condition: service_healthy ``` - Wi",
     "repositoryPath": "skills/docker-compose",
     "manifestPath": "registry/skills/docker-compose.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/docker-compose/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker-compose/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker-compose/_meta.json",
+      "byteCount": 180,
+      "sha256": "a4265cd52862b6b0b69e2881b76d4423136d4fbdf8f86b86973ef57dbe7448d4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/docker-compose/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker-compose/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker-compose/SKILL.md",
+      "byteCount": 2826,
+      "sha256": "34e1e3785f95d9c369cdaab7e32e58a338c3377dffc6d98982f194d1c25fdfad"
     }
   ]
 }

@@ -1,10 +1,19 @@
 ---
-name: Budapest
+name: budapest
 slug: budapest
 version: 1.0.0
-homepage: https://clawic.com/skills/budapest
 description: Navigate Budapest as visitor, expat, digital nomad, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏛️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/budapest
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Budapest
 ---
 
 ## When to Use
@@ -173,7 +182,7 @@ Budapest's unique contribution to nightlife culture:
 Located mainly in District VII (Jewish Quarter). See `food-nightlife.md`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Compare Budapest vs Dubai for cost, lifestyle, visas, and opportunities
 - `travel` — General travel planning, itineraries, and trip organization
 - `food` — Deep dive into cuisines, cooking techniques, and dining recommendations
@@ -181,5 +190,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star budapest`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/budapest
+- Latest version: https://clawic.com/skills/budapest

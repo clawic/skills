@@ -1,7 +1,21 @@
 ---
-name: Oracle DB
+name: oracle-db
+slug: oracle-db
+version: 1.0.0
 description: Write Oracle SQL and PL/SQL with proper syntax, hints, and performance patterns.
-metadata: {"clawdbot":{"emoji":"🔴","requires":{"anyBins":["sqlplus","sql"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/oracle-db
+metadata:
+  clawdbot:
+    emoji: 🔴
+    requires:
+      anyBins:
+      - sqlplus
+      - sql
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Oracle DB
 ---
 
 ## Syntax Differences

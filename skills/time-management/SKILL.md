@@ -1,10 +1,19 @@
 ---
-name: Time Management
+name: time-management
 slug: time-management
 version: 1.0.0
-homepage: https://clawic.com/skills/time-management
 description: Plan days, prioritize tasks, and protect focus time with time blocking, weekly reviews, and energy-aware scheduling.
-metadata: {"clawdbot":{"emoji":"⏰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/time-management
+metadata:
+  clawdbot:
+    emoji: ⏰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Time Management
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User needs help planning their day, prioritizing tasks, or protecting time for i
 
 ## Architecture
 
-Memory lives in `~/time-management/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/time-management/`. See `memory-template.md` for structure.
 
 ```
-~/time-management/
+~/Clawic/data/time-management/
 ├── memory.md          # Preferences + current commitments
 ├── weekly-review.md   # Last review notes
 └── templates/         # User's custom templates
@@ -83,7 +92,7 @@ Suggest weekly review on Sunday evening or Monday morning:
 3. Top 3 priorities for this week
 4. Any time blocks to protect?
 
-Store notes in `~/time-management/weekly-review.md`.
+Store notes in `~/Clawic/data/time-management/weekly-review.md`.
 
 ### 5. Say No by Default
 When user considers adding commitments:
@@ -142,7 +151,7 @@ This skill makes NO external network requests.
 
 **Data that stays local:**
 - Preferences you explicitly ask to save
-- Stored in `~/time-management/`
+- Stored in `~/Clawic/data/time-management/`
 - You can delete anytime
 
 **This skill does NOT:**
@@ -151,12 +160,12 @@ This skill makes NO external network requests.
 - Infer preferences without asking
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `productivity` — energy management and focus systems
 - `schedule` — recurring tasks and reminders
 - `habits` — building consistent routines
 
 ## Feedback
 
-- If useful: `clawhub star time-management`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/time-management
+- Latest version: https://clawic.com/skills/time-management

@@ -1,6 +1,6 @@
 # Setup - Convex
 
-Read this when `~/convex/` is missing or empty. Start helping immediately while collecting only context that improves real Convex decisions.
+Read this when `~/Clawic/data/convex/` is missing or empty. Start helping immediately while collecting only context that improves real Convex decisions.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ In early conversation, confirm when this skill should activate:
 - Only when user asks for Convex help directly
 - Only for specific repos or environments
 
-If confirmed, save activation preference in `~/convex/memory.md`.
+If confirmed, save activation preference in `~/Clawic/data/convex/memory.md`.
 
 ### 2. Then: Project Context
 
@@ -38,7 +38,7 @@ Store durable patterns, not one-off opinions.
 
 ## What You Save Internally
 
-Persist only reusable context in `~/convex/memory.md`:
+Persist only reusable context in `~/Clawic/data/convex/memory.md`:
 - Integration preference
 - Data model decisions and index intent
 - Auth constraints and permission edge cases

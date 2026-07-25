@@ -1,6 +1,6 @@
 # Setup — Apple Health
 
-Read this silently when `~/apple-health/` does not exist or is empty.
+Read this silently when `~/Clawic/data/apple-health/` does not exist or is empty.
 Start the conversation naturally and focus on enabling the connection fast.
 
 ## Priority Order

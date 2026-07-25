@@ -1,6 +1,6 @@
 # Criteria for Storing Preferences
 
-Reference for when to save user preferences to `~/code/memory.md`.
+Reference for when to save user preferences to `~/Clawic/data/code/memory.md`.
 
 ## When to Save (User Must Request)
 
@@ -45,4 +45,4 @@ Save only when user explicitly asks:
 
 - Only save what user EXPLICITLY asked to save
 - Ask user before saving: "Should I remember this preference?"
-- Never modify any skill files, only `~/code/memory.md`
+- Never modify any skill files, only `~/Clawic/data/code/memory.md`

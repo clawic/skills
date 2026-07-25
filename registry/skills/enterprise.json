@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "68b27d2363b940dbcdcb298a6e278e60ff0d3adb81637228d68d25fbb6e0c0e0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "enterprise",
-    "name": "Enterprise",
+    "name": "enterprise",
     "description": "Navigate enterprise software development with legacy integration, compliance requirements, stakeholder management, and architectural decisions at scale.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/enterprise",
     "summary": "When to Use Working in corporate environments where decisions involve legacy systems, formal processes, compliance, multi-team coordination, or architectural trade-offs at scale. Quick Reference | Topic | File | |-------",
     "repositoryPath": "skills/enterprise",
     "manifestPath": "registry/skills/enterprise.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/enterprise/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/_meta.json",
+      "byteCount": 172,
+      "sha256": "f82bdc456127abd8bc872712c13e133cf408c20645a3fee307b7f319c9a5091b"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/enterprise/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/architecture.md",
+      "byteCount": 1994,
+      "sha256": "3be67ece462f9e20c4c84e5db7035c39f65b3a6eaf974f3bbf97aa546e1ef59a"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/enterprise/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/compliance.md",
+      "byteCount": 1409,
+      "sha256": "a665bf6987675521d140709ec04b788fcf0c95e42b7dfa8d05f69e96b000cdd5"
     },
     {
       "path": "legacy.md",
       "downloadPath": "skills/enterprise/legacy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/legacy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/legacy.md",
+      "byteCount": 1425,
+      "sha256": "7dd96cbd77c8541b853c7b5908f94f900f337a97ac7a15019c4081d384cbc683"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/enterprise/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/enterprise/SKILL.md",
+      "byteCount": 2868,
+      "sha256": "386f9eca3229a39cbe2127c945583b371d984e76ecde0c103eb28ee8f0f42e96"
     }
   ]
 }

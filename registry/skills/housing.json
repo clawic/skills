@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "eac25413ff81cd3ee60ffd785262bfdb377a96da42d46d85a7df53798f561055",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "housing",
-    "name": "Housing",
+    "name": "housing",
     "description": "Buy, rent, or invest in property with market analysis, legal compliance, and cost estimation.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/housing",
     "summary": "When to Use User needs help with real estate decisions: buying first home, renting apartments, investing in property, or managing rentals as landlord. Agent handles research, analysis, comparisons, and compliance checks.",
     "repositoryPath": "skills/housing",
     "manifestPath": "registry/skills/housing.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/housing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/_meta.json",
+      "byteCount": 166,
+      "sha256": "d19432ca6fa442117ea1c5944dae04c75e59e93c25a8f87f26aa7555652797d0"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/housing/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/buying.md",
+      "byteCount": 2310,
+      "sha256": "93b5cdebbf0358cbd68854ff9871ad3eb58ab4b2e48aa2e7258ec2ca1ff32714"
     },
     {
       "path": "investing.md",
       "downloadPath": "skills/housing/investing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/investing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/investing.md",
+      "byteCount": 3026,
+      "sha256": "d0e049306660c9a88ceadaa425119d21786a2c848a9f32228188d6bfd61be7ae"
     },
     {
       "path": "landlord.md",
       "downloadPath": "skills/housing/landlord.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/landlord.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/landlord.md",
+      "byteCount": 3419,
+      "sha256": "f241a9a266748772e236a6747646c20b5a389f82c0ee91521fcc5b7dd0653c36"
     },
     {
       "path": "renting.md",
       "downloadPath": "skills/housing/renting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/renting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/renting.md",
+      "byteCount": 2587,
+      "sha256": "098216015980ae218bbae8962e95c83d6e684c706c79bbc84781e918061125dc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/housing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/housing/SKILL.md",
+      "byteCount": 3899,
+      "sha256": "ddc086e36b0255b7bb0e1c3f1c878f252544ff200a8c7b6eb417b24d90841a3d"
     }
   ]
 }

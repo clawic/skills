@@ -1,10 +1,20 @@
 ---
-name: Screenshots
+name: screenshots
 slug: screenshots
 version: 1.0.1
 description: Create professional App Store and Google Play screenshots with automatic sizing, device frames, marketing copy, and iterative visual learning.
+homepage: https://clawic.com/skills/screenshots
 changelog: Preferences now persist across skill updates
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Screenshots
 ---
 
 ## Quick Reference
@@ -19,7 +29,7 @@ metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darw
 
 ## Memory Storage
 
-User preferences stored at `~/screenshots/memory.md`. Read on activation.
+User preferences stored at `~/Clawic/data/screenshots/memory.md`. Read on activation.
 
 **Format:**
 ```markdown
@@ -41,7 +51,7 @@ Create folder on first use: `mkdir -p ~/screenshots`
 ## Workspace Structure
 
 ```
-~/screenshots/
+~/Clawic/data/screenshots/
 ├── memory.md              # Style preferences (persistent)
 ├── {app-slug}/
 │   ├── config.md          # Brand: colors, fonts, style

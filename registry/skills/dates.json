@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "62f6965387da8d0276405a79d75e78a04a936f4ebb38b7819a6f9eaeed55da96",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "dates",
-    "name": "Dates",
+    "name": "dates",
     "description": "Build a personal dating system for tracking connections, planning dates, and remembering details.",
-    "summary": "Core Behavior - User mentions someone new → offer to create profile - User plans a date → suggest ideas based on history - User returns from date → help log notes - Create `~/dates/` as workspace - Treat all information ",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dates",
+    "summary": "Core Behavior - User mentions someone new → offer to create profile - User plans a date → suggest ideas based on history - User returns from date → help log notes - Create `~/Clawic/data/dates/` as workspace - Treat all ",
     "repositoryPath": "skills/dates",
     "manifestPath": "registry/skills/dates.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dates/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dates/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dates/_meta.json",
+      "byteCount": 162,
+      "sha256": "ae133071d0c01bd019ad9ff4d7b00b967628a018862d68f29065382f2b337ea6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dates/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dates/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dates/SKILL.md",
+      "byteCount": 3074,
+      "sha256": "64f048b3ebe9e670f1eaed478b432184eca8668ba1130d75eb883bdfd7a1ca61"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "301d89772e841c601cedab9f95c93910fcf2ab37429b30a95d47c3fa011647be",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "csharp",
-    "name": "C#",
+    "name": "csharp",
     "description": "Write robust C# avoiding null traps, async deadlocks, and LINQ pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/csharp",
     "summary": "Quick Reference | Topic | File | |-------|------| | Null reference, nullable types | `nulls.md` | | Async/await, deadlocks | `async.md` | | Deferred execution, closures | `linq.md` | | Value vs reference, boxing | `types",
     "repositoryPath": "skills/csharp",
     "manifestPath": "registry/skills/csharp.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/csharp/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/_meta.json",
+      "byteCount": 236,
+      "sha256": "2b69efb443955f9eaeeb24c52ef38b983e52cf548da7760053765a912505d291"
     },
     {
       "path": "async.md",
       "downloadPath": "skills/csharp/async.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/async.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/async.md",
+      "byteCount": 782,
+      "sha256": "f9816dee4671ca360d109ab95a2d7bc51ff1d1db18b256b6d6e89c205aaa3331"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/csharp/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/collections.md",
+      "byteCount": 636,
+      "sha256": "b00dd1476fc23871cd8bfc04f8a97e1c3c28399e801503a3fd2f83b87b3f0b7c"
     },
     {
       "path": "dispose.md",
       "downloadPath": "skills/csharp/dispose.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/dispose.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/dispose.md",
+      "byteCount": 608,
+      "sha256": "50730385dd41a092d17f83876cbb4b349803bdb00deb7e59f0e08670a57757fe"
     },
     {
       "path": "linq.md",
       "downloadPath": "skills/csharp/linq.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/linq.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/linq.md",
+      "byteCount": 729,
+      "sha256": "c722ebc3d96c0c12d0c889cc9405dee4e150c9f7d990307e68bd6f6bcae00487"
     },
     {
       "path": "nulls.md",
       "downloadPath": "skills/csharp/nulls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/nulls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/nulls.md",
+      "byteCount": 641,
+      "sha256": "055c9c9f9a4b1d5d1fbe04185e53b6b8f57a6e7f398e2ba87c1c00f9887f70b6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/csharp/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/SKILL.md",
+      "byteCount": 1611,
+      "sha256": "66bd32c1fbd3b3f189b43d71d30f3bc146d4c4f526f25d5b40703670c2313a06"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/csharp/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/csharp/types.md",
+      "byteCount": 676,
+      "sha256": "da554abc74eacfee1dfccfedbf2d544804609a790a70efbb421688ca673a663d"
     }
   ]
 }

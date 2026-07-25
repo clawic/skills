@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0b869c9f1c1c754f95d3e03227b77cfcc75b90af8b222c86d0e8ff99a7059fa7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ruby",
-    "name": "Ruby",
+    "name": "ruby",
     "description": "Write reliable Ruby avoiding mutable string traps, block pitfalls, and metaprogramming bugs.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/ruby",
     "summary": "Quick Reference | Topic | File | |-------|------| | Mutable strings, object equality | `objects.md` | | Proc vs lambda, return behavior | `blocks.md` | | Visibility, method_missing | `methods.md` | | Array/hash mutation ",
     "repositoryPath": "skills/ruby",
     "manifestPath": "registry/skills/ruby.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ruby/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/_meta.json",
+      "byteCount": 236,
+      "sha256": "3a26c27bb1ce1132f33f041d1752aa1d6b6e5d49343cffaf6e0283564bc114bd"
     },
     {
       "path": "blocks.md",
       "downloadPath": "skills/ruby/blocks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/blocks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/blocks.md",
+      "byteCount": 595,
+      "sha256": "ee86ba8931d35834b96882ba3f7c42a67fc07d6217255ec2ec0b396b7766d826"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/ruby/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/collections.md",
+      "byteCount": 614,
+      "sha256": "875c1d45701f268b5cd8181641ddabf3df076dc93bc3e35351063540fef93ee0"
     },
     {
       "path": "metaprogramming.md",
       "downloadPath": "skills/ruby/metaprogramming.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/metaprogramming.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/metaprogramming.md",
+      "byteCount": 645,
+      "sha256": "6602ea31f467202b05dd28a81d57aadfa20313a58fb6da835779b4b9d639805a"
     },
     {
       "path": "methods.md",
       "downloadPath": "skills/ruby/methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/methods.md",
+      "byteCount": 542,
+      "sha256": "85e7d6d047140db936e65dc4f98ce6a9a276c2dd4ad23c6825d248d57c114bdd"
     },
     {
       "path": "objects.md",
       "downloadPath": "skills/ruby/objects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/objects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/objects.md",
+      "byteCount": 620,
+      "sha256": "47d01e33a9832076ea6b6d38651680146b7c41563beb085a44adf956c3659d2f"
     },
     {
       "path": "rails.md",
       "downloadPath": "skills/ruby/rails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/rails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/rails.md",
+      "byteCount": 805,
+      "sha256": "19736e81dc0324a25dc7995f1ae4e2331878df94527343eed31d05417005fae5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ruby/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ruby/SKILL.md",
+      "byteCount": 1667,
+      "sha256": "23c08bfd82d273bb5f5e086b3893a95e979364741a1c6570e49197a350ce2a90"
     }
   ]
 }

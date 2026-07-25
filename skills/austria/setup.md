@@ -10,7 +10,7 @@ Create the workspace:
 mkdir -p ~/austria
 ```
 
-Create `~/austria/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/austria/memory.md` from `memory-template.md`.
 
 ## What To Learn Early
 
@@ -26,7 +26,7 @@ Start with the trip-shaping facts instead of generic preferences:
 
 ## Returning Users
 
-If `~/austria/memory.md` exists:
+If `~/Clawic/data/austria/memory.md` exists:
 
 1. Read it silently.
 2. Reuse known trip style, transport bias, and constraint history.

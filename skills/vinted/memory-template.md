@@ -1,6 +1,6 @@
 # Memory Template - Vinted
 
-Create `~/vinted/memory.md` with this structure:
+Create `~/Clawic/data/vinted/memory.md` with this structure:
 
 ```markdown
 # Vinted Memory
@@ -36,7 +36,7 @@ integration: pending | done | declined
 
 ## closet.md Template
 
-Create `~/vinted/closet.md`:
+Create `~/Clawic/data/vinted/closet.md`:
 
 ```markdown
 # Closet
@@ -58,7 +58,7 @@ Create `~/vinted/closet.md`:
 
 ## sourcing-log.md Template
 
-Create `~/vinted/sourcing-log.md`:
+Create `~/Clawic/data/vinted/sourcing-log.md`:
 
 ```markdown
 # Sourcing Log
@@ -74,7 +74,7 @@ reason:
 
 ## shipping-log.md Template
 
-Create `~/vinted/shipping-log.md`:
+Create `~/Clawic/data/vinted/shipping-log.md`:
 
 ```markdown
 # Shipping Log

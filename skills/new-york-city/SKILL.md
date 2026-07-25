@@ -1,11 +1,24 @@
 ---
-name: New York City
+name: new-york-city
 slug: new-york-city
 version: 1.0.0
-homepage: https://clawic.com/skills/new-york-city
 description: Navigate New York City for visits, moves, neighborhoods, transit, housing, food, work, and daily street-level decisions.
-changelog: "Initial release with borough-aware guidance for visits, moves, transit, neighborhoods, and daily city logistics."
-metadata: {"clawdbot":{"emoji":"🗽","requires":{"bins":[],"config":["~/new-york-city/"]},"os":["linux","darwin","win32"],"configPaths":["~/new-york-city/"]}}
+homepage: https://clawic.com/skills/new-york-city
+changelog: Initial release with borough-aware guidance for visits, moves, transit, neighborhoods, and daily city logistics.
+metadata:
+  clawdbot:
+    emoji: 🗽
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/new-york-city/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/new-york-city/
+    displayName: New York City
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for four modes: visiting New York City, moving to New
 
 ## Architecture
 
-This skill works statelessly for one-off New York City questions. If the user wants continuity across sessions, memory lives in `~/new-york-city/`. If `~/new-york-city/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off New York City questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/new-york-city/`. If `~/Clawic/data/new-york-city/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/new-york-city/
+~/Clawic/data/new-york-city/
 └── memory.md     # User context, borough, timelines, constraints, and open loops
 ```
 
@@ -90,7 +103,7 @@ No other data is sent externally.
 - Borough, ZIP, or station context only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Neighborhood preference, move timeline, budget notes, commute constraints, and open tasks in `~/new-york-city/`
+- Neighborhood preference, move timeline, budget notes, commute constraints, and open tasks in `~/Clawic/data/new-york-city/`
 
 **This skill does NOT:**
 - Book or submit anything on the user's behalf without explicit instruction
@@ -104,7 +117,7 @@ By using this skill, location details such as borough, ZIP, station, or airport 
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General itinerary design and travel planning structure
 - `booking` — Reservation workflows for hotels, flights, and schedules
 - `business` — Broader business operations guidance beyond city-specific tradeoffs
@@ -113,5 +126,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star new-york-city`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/new-york-city
+- Latest version: https://clawic.com/skills/new-york-city

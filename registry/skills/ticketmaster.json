@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "eba78c906619c97a63e434d28e2b49dc4c8233078c9d4332736b0c9440a3353f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "ticketmaster",
-    "name": "TicketMaster",
+    "name": "ticketmaster",
     "description": "Search Ticketmaster events, venues, and attractions with Discovery API filters, market-aware queries, and copy-ready curl and shell helpers.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/ticketmaster",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ticketmaster/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/_meta.json",
+      "byteCount": 176,
+      "sha256": "40589165b78dd30a085af68d5a33af2389fbe869b1a6a1e8fd26f92e63ca3cc2"
     },
     {
       "path": "endpoints.md",
       "downloadPath": "skills/ticketmaster/endpoints.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/endpoints.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/endpoints.md",
+      "byteCount": 1403,
+      "sha256": "a7ea5753241d26e214c4ca23124b539668cf524c3ee1e94b5231a603f8edccd1"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/ticketmaster/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/errors.md",
+      "byteCount": 1082,
+      "sha256": "c4e200cd37a2f04785ae1649148ae208c603fc81b970fbb68ade3048bbd0af1a"
     },
     {
       "path": "filters-and-pagination.md",
       "downloadPath": "skills/ticketmaster/filters-and-pagination.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/filters-and-pagination.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/filters-and-pagination.md",
+      "byteCount": 1795,
+      "sha256": "16d2135e800c33ed7b466cf750f637de880ad370a395d0db0684053ef6a2eb2b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/ticketmaster/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/memory-template.md",
+      "byteCount": 1382,
+      "sha256": "43944127ad7553722c592c8a8b02b59305a0649f543653e0860ea3e144d7a8dd"
     },
     {
       "path": "query-patterns.md",
       "downloadPath": "skills/ticketmaster/query-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/query-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/query-patterns.md",
+      "byteCount": 1833,
+      "sha256": "fa9124d86b7da4e5238ce4b0985c4a4268f68d12f829993ae1d6b4c96a189101"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/ticketmaster/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/setup.md",
+      "byteCount": 1908,
+      "sha256": "c909389e1ff1af97cfcf647a4f229a1bcb3fb4cf0953ab33d05a6576f95b60c6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ticketmaster/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/SKILL.md",
+      "byteCount": 7052,
+      "sha256": "b7757e85cea8d0c27dc42c3035c122ac90428944885fc526e2766a1920f25529"
     },
     {
       "path": "ticketmaster.sh",
       "downloadPath": "skills/ticketmaster/ticketmaster.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/ticketmaster.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ticketmaster/ticketmaster.sh",
+      "byteCount": 5142,
+      "sha256": "9775c7bf1431704543e7f5330826eb0a5d440eb6bbdecab9e2eb5026177af53f"
     }
   ]
 }

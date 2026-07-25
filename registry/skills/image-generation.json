@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f94a7e6d2f2697405094f8e26e6ea99f491ea3b8d3c6f164b7b14c2b16011999",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "image-generation",
-    "name": "AI Image Generation",
+    "name": "image-generation",
     "description": "Create AI images with GPT Image, Gemini Nano Banana, FLUX, Imagen, and top providers using prompt engineering, style control, and smart editing.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/image-generation",
@@ -22,82 +25,114 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/image-generation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/_meta.json",
+      "byteCount": 337,
+      "sha256": "310d3d0e7c7dd9ffdcb992029fdcf87ce1972e81de0789e57c39e2ef9c41262b"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/image-generation/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/api-patterns.md",
+      "byteCount": 3185,
+      "sha256": "5e102d131998c4b08e27fdc1725d3b028c40951e600d3814bfac3bf4a7581e74"
     },
     {
       "path": "benchmarks-2026.md",
       "downloadPath": "skills/image-generation/benchmarks-2026.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/benchmarks-2026.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/benchmarks-2026.md",
+      "byteCount": 1459,
+      "sha256": "61c951ed8e0f1fe81241f9e350a0f287374535c045ea1442699a913cdcc21485"
     },
     {
       "path": "flux.md",
       "downloadPath": "skills/image-generation/flux.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/flux.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/flux.md",
+      "byteCount": 3117,
+      "sha256": "18903533e389bb4a6dc6a92ca180621da59f8d20482b0c5cd4b2ca4b1811cc62"
     },
     {
       "path": "gemini.md",
       "downloadPath": "skills/image-generation/gemini.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gemini.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gemini.md",
+      "byteCount": 3103,
+      "sha256": "af48ad18f2f060c5d1fe848d43a9ec02b45b8735240c8f0b8e67d63a3e21f643"
     },
     {
       "path": "gpt-image.md",
       "downloadPath": "skills/image-generation/gpt-image.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gpt-image.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/gpt-image.md",
+      "byteCount": 2854,
+      "sha256": "c6a9fda75d9c0216872259896e3b5e74d87fd9a6b8ceda0e8a345c74839623ab"
     },
     {
       "path": "ideogram.md",
       "downloadPath": "skills/image-generation/ideogram.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/ideogram.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/ideogram.md",
+      "byteCount": 1669,
+      "sha256": "60515aae90b50798d68b5ddfdac1c30b45b09a80d52b5c3129d3bddaad19a40d"
     },
     {
       "path": "leonardo.md",
       "downloadPath": "skills/image-generation/leonardo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/leonardo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/leonardo.md",
+      "byteCount": 1876,
+      "sha256": "039728b14e349d0a46fcbae635aa5f8a5216d0c6491a25dc7dad8c46ead33201"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/image-generation/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/memory-template.md",
+      "byteCount": 1047,
+      "sha256": "30829da3ca1a30a2a1c914d46c1fead868ac6f80da6a5b3fbef59d14f65e1f02"
     },
     {
       "path": "midjourney.md",
       "downloadPath": "skills/image-generation/midjourney.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/midjourney.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/midjourney.md",
+      "byteCount": 1468,
+      "sha256": "b0836bfae37c622563ef196e4896d8bc3b5156fe4e8ec8284751e0d0dd28cfb1"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/image-generation/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/migration.md",
+      "byteCount": 1899,
+      "sha256": "e4137a6649fe1ac446836c027d38f7e0d45d76c5e4587c542809c74e25282627"
     },
     {
       "path": "prompting.md",
       "downloadPath": "skills/image-generation/prompting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/prompting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/prompting.md",
+      "byteCount": 2915,
+      "sha256": "845840bd6f107b455e217c01169e8bc788b08470a3ae8bb9e7fc25bd48de8161"
     },
     {
       "path": "replicate.md",
       "downloadPath": "skills/image-generation/replicate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/replicate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/replicate.md",
+      "byteCount": 1888,
+      "sha256": "2a14223f0f58196bc493105507eb5c657d7b92a995b9781b53b6b7188b66f1ac"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/image-generation/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/setup.md",
+      "byteCount": 1667,
+      "sha256": "a928e95105b6bb768278af61082f847aeb1e63bb69b51b234b3f1173efecae52"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/image-generation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/SKILL.md",
+      "byteCount": 6300,
+      "sha256": "67a7b1b88591c0616a9157105e7237952cce4425fb4cbd9c1f1f9b6307d735be"
     },
     {
       "path": "stable-diffusion.md",
       "downloadPath": "skills/image-generation/stable-diffusion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/stable-diffusion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-generation/stable-diffusion.md",
+      "byteCount": 2148,
+      "sha256": "ab537ab2d5e67f5f7d2870fcf9af80e0b48a6c3b32b452534aade61a3cf4b6dd"
     }
   ]
 }

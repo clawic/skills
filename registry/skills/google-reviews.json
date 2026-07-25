@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11f64098a0c510a47b79e13d1bea8ff1caeaaa6853afa9e79b09636b1c1dc0be",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "google-reviews",
-    "name": "Google Reviews",
+    "name": "google-reviews",
     "description": "Research Google Maps and Shopping reviews for any company. Run multi-brand monitoring with heartbeat refreshes and sentiment reports.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/google-reviews",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/google-reviews/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/_meta.json",
+      "byteCount": 180,
+      "sha256": "8779991e6a399454e35a101d991a00c9188288fcb098b04d37435d4c58b26c25"
     },
     {
       "path": "heartbeat-recipes.md",
       "downloadPath": "skills/google-reviews/heartbeat-recipes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/heartbeat-recipes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/heartbeat-recipes.md",
+      "byteCount": 1056,
+      "sha256": "9f594bce9507be651c74f6427f96a7d08204eb2621488f35719631f8adc256d4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/google-reviews/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/memory-template.md",
+      "byteCount": 1310,
+      "sha256": "27bbe25c8f663833a47ea01049dda5d1eeaee8b03f4ad4130f77e3e09933cce0"
     },
     {
       "path": "reporting-playbook.md",
       "downloadPath": "skills/google-reviews/reporting-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/reporting-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/reporting-playbook.md",
+      "byteCount": 1091,
+      "sha256": "b678ce8decb4e5095da8133c78fd23212e1c46143842f06be7f9831f306d7737"
     },
     {
       "path": "review-schema.md",
       "downloadPath": "skills/google-reviews/review-schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/review-schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/review-schema.md",
+      "byteCount": 1147,
+      "sha256": "d8b7c8b0bc8e8a62d83de470605161cf42180348bf7a52440c365181cfe0c90f"
     },
     {
       "path": "sentiment-rules.md",
       "downloadPath": "skills/google-reviews/sentiment-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/sentiment-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/sentiment-rules.md",
+      "byteCount": 1072,
+      "sha256": "81527d5a12016103a15c34c0e9ed0240583d26997500f7968cc00712e1ef4a78"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-reviews/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/setup.md",
+      "byteCount": 1655,
+      "sha256": "b1d08a3f536d109f6fb10e14a3e7dc987c2d02d69d5f4baf732a2420c62c1fb2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/google-reviews/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/SKILL.md",
+      "byteCount": 7873,
+      "sha256": "059af3a9ba188edc60a77a835bed76f0361a128d295d85751fa0f8d122a550d8"
     },
     {
       "path": "source-connectors.md",
       "downloadPath": "skills/google-reviews/source-connectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/source-connectors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-reviews/source-connectors.md",
+      "byteCount": 1332,
+      "sha256": "75c403b7eeebba36262b1cd2f3fb14a38c948d21cd7ddb74715cd381aba672a6"
     }
   ]
 }

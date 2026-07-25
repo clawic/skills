@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "221f7754e9cbca7dc3d994bd380d95936e4479ba81ea349971f0b43bee29113f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hype",
-    "name": "Hype",
+    "name": "hype",
     "description": "Assist with Hyperliquid perpetuals trading, deposits, withdrawals, and L1 features.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hype",
     "summary": "Deposits and Withdrawals - Deposits only via Arbitrum — bridge USDC from Arbitrum to Hyperliquid - Native USDC only — not USDC.e or other bridged versions - Withdrawals back to Arbitrum — same bridge, takes a few minutes",
     "repositoryPath": "skills/hype",
     "manifestPath": "registry/skills/hype.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hype/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hype/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hype/_meta.json",
+      "byteCount": 160,
+      "sha256": "a7f33ae49aceba89a3346b91b7eb9872f4c1e0edf10ccf212eebba6ae5ac0ae0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hype/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hype/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hype/SKILL.md",
+      "byteCount": 3977,
+      "sha256": "b9df627360a627a15e836673cb9626d460d0207668f5a37dc79ff6094545ac49"
     }
   ]
 }

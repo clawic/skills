@@ -1,6 +1,6 @@
 # Memory Template - Girlfriend
 
-Create `~/girlfriend/memory.md`:
+Create `~/Clawic/data/girlfriend/memory.md`:
 
 ```markdown
 # Girlfriend Memory
@@ -31,7 +31,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/girlfriend/profile.md`:
+Create `~/Clawic/data/girlfriend/profile.md`:
 
 ```markdown
 # Girlfriend Profile
@@ -60,7 +60,7 @@ Create `~/girlfriend/profile.md`:
 - Human relationships to respect:
 ```
 
-Create `~/girlfriend/bond.md`:
+Create `~/Clawic/data/girlfriend/bond.md`:
 
 ```markdown
 # Girlfriend Bond
@@ -89,7 +89,7 @@ Create `~/girlfriend/bond.md`:
 - Repair notes:
 ```
 
-Create `~/girlfriend/moments.md`:
+Create `~/Clawic/data/girlfriend/moments.md`:
 
 ```markdown
 # Girlfriend Moments
@@ -105,7 +105,7 @@ Create `~/girlfriend/moments.md`:
 - What to check next
 ```
 
-Create `~/girlfriend/history.md`:
+Create `~/Clawic/data/girlfriend/history.md`:
 
 ```markdown
 # Girlfriend History

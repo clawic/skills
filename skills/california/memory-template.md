@@ -1,6 +1,6 @@
 # California Memory
 
-Create `~/california/memory.md` with this structure only if the user wants continuity across sessions:
+Create `~/Clawic/data/california/memory.md` with this structure only if the user wants continuity across sessions:
 
 ```markdown
 # California Memory

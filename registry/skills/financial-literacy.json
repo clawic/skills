@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "90a7fab2dc0479a7ac962fd881e97e5ec14dc4c2e88f29fa0c522cb0ef3439ac",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "financial-literacy",
-    "name": "Finance",
+    "name": "financial-literacy",
     "description": "Support financial understanding from personal budgeting to professional analysis and research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/financial-literacy",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, instrument knowledge, professional framing - When unclear, ask about their role before giving specific advice - Never provide personalized investment ad",
     "repositoryPath": "skills/financial-literacy",
     "manifestPath": "registry/skills/financial-literacy.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/financial-literacy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/_meta.json",
+      "byteCount": 177,
+      "sha256": "959845ae8068cc7fcdca40f0d3a47a6ec4ddfc8fcf8bc5bf43355cb1672f01bf"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/financial-literacy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/financial-literacy/SKILL.md",
+      "byteCount": 6702,
+      "sha256": "1d539d5fc2aa91630d7891621d199d6232b6211d7335b60152b28536bc8443e8"
     }
   ]
 }

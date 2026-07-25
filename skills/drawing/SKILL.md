@@ -1,11 +1,24 @@
 ---
-name: Drawing
+name: drawing
 slug: drawing
 version: 1.0.0
-homepage: https://clawic.com/skills/drawing
 description: Generate children's drawings and coloring pages with modular prompts, style packs, and print-ready constraints across image models.
+homepage: https://clawic.com/skills/drawing
 changelog: Initial release with a reusable prompt protocol, style packs, coloring-page rules, and model-portable adapters for image generation.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[],"config":["~/drawing/"]},"os":["linux","darwin","win32"],"configPaths":["~/drawing/"]}}
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/drawing/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/drawing/
+    displayName: Drawing
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Use this when the real problem is not "pick the best model" but "get a clean res
 
 ## Architecture
 
-Memory lives in `~/drawing/`. If `~/drawing/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/drawing/`. If `~/Clawic/data/drawing/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/drawing/
+~/Clawic/data/drawing/
 |- memory.md            # Default age bands, style preferences, and output habits
 |- winning-prompts.md   # Prompts that already worked well for this user
 |- style-notes.md       # Preferred palettes, line weight, and recurring motifs
@@ -163,7 +176,7 @@ Make it accurate, friendly, uncluttered, and easy to print.
 - Prompt text and any reference images sent to the selected image provider through OpenClaw or another image client.
 
 **Data that stays local:**
-- Style preferences, winning prompts, and recurring constraints under `~/drawing/`.
+- Style preferences, winning prompts, and recurring constraints under `~/Clawic/data/drawing/`.
 
 **This skill does NOT:**
 - Force a specific model purchase or provider.
@@ -176,7 +189,7 @@ Make it accurate, friendly, uncluttered, and easy to print.
 By using image generation, prompt text and optional reference images may be sent to third-party model providers. Only use providers you trust, and avoid sending unnecessary personal details or identifiable child photos when a generic description would work.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `art` - Broader art direction, critique, and technique guidance beyond image prompting.
 - `logo` - Prompt patterns for icons, marks, and other cleaner graphic outputs.
 - `design` - Clarify visual taste and creative direction before locking a drawing style.
@@ -184,5 +197,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star drawing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/drawing
+- Latest version: https://clawic.com/skills/drawing

@@ -1,11 +1,11 @@
 # Memory Template - Family
 
-Create `~/family/` only after the user approves local continuity.
+Create `~/Clawic/data/family/` only after the user approves local continuity.
 
 ## Root Structure
 
 ```text
-~/family/
+~/Clawic/data/family/
 |- memory.md
 |- household.md
 |- weekly-plan.md
@@ -36,7 +36,7 @@ Create `~/family/` only after the user approves local continuity.
 
 ## `memory.md`
 
-Create `~/family/memory.md` with this structure:
+Create `~/Clawic/data/family/memory.md` with this structure:
 
 ```markdown
 # Family Memory

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f158c0bd636d2a60d9d7d38c03b3e2b28a2d2b7f0c7994c061cbc53951bde340",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "arabic",
-    "name": "Arabic",
+    "name": "arabic",
     "description": "Write Arabic that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/arabic",
     "summary": "The Real Problem AI Arabic is technically correct but sounds off. Too formal. Too فصحى (classical). Natives blend registers and use colloquial naturally. Match that. MSA vs Dialect Critical distinction: - فصحى (MSA): new",
     "repositoryPath": "skills/arabic",
     "manifestPath": "registry/skills/arabic.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/arabic/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arabic/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arabic/_meta.json",
+      "byteCount": 164,
+      "sha256": "3acffcda4d3f5102e2c484f39fe17e0602aa2ef0be8862d60038ba087c46c961"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/arabic/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arabic/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arabic/SKILL.md",
+      "byteCount": 2875,
+      "sha256": "7e99ec8eeec477b2f3ce58c885fd7d1474a0d84bc397e354c385058ebe353e13"
     }
   ]
 }

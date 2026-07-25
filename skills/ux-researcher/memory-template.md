@@ -1,6 +1,6 @@
 # Memory Template — UX Researcher
 
-Create `~/ux-researcher/memory.md` with this structure:
+Create `~/Clawic/data/ux-researcher/memory.md` with this structure:
 
 ```markdown
 # UX Researcher Memory
@@ -34,7 +34,7 @@ integration: pending
 
 ## Research Output Structure
 
-For each product researched, create `~/ux-researcher/research/{product}/`:
+For each product researched, create `~/Clawic/data/ux-researcher/research/{product}/`:
 
 ### personas.md
 ```markdown

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "10a757dad7f5368b4e3a1961ec56b31dc6028319ace9e7554978f707634bea8f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "norway",
-    "name": "Norway",
+    "name": "norway",
     "description": "Plan Norway trips with fjord and Arctic routing, verified entry rules, multimodal logistics, and practical seasonal safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/norway",
@@ -22,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/norway/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/_meta.json",
+      "byteCount": 164,
+      "sha256": "8fa2701f966184691b2f064fd1d473f2ac93890b73b9a8a6eac0243ba6c50b3d"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/norway/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/accessibility.md",
+      "byteCount": 1681,
+      "sha256": "cb9ea5cd71f7a2ef3d45b5bec0ec5c0a59668dbf2b098dadf84dc45d50e5fb6a"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/norway/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/accommodation.md",
+      "byteCount": 2206,
+      "sha256": "6306a76d587304ecdddf16f249e88dcccdc649959417c1206c1ef720890d72b7"
     },
     {
       "path": "bergen-and-western-fjords.md",
       "downloadPath": "skills/norway/bergen-and-western-fjords.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/bergen-and-western-fjords.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/bergen-and-western-fjords.md",
+      "byteCount": 1901,
+      "sha256": "03d4a1b9b63aad6edba9619adebaf65a688d5de9a91ac0936d722c0435a59cca"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/norway/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/budget-and-costs.md",
+      "byteCount": 2135,
+      "sha256": "aabda3d4c8ae2e2e90353d9897bf2822f4703985d96c7bd8c3984d1c4b3947e2"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/norway/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/entry-and-documents.md",
+      "byteCount": 2434,
+      "sha256": "c9fe2ced5b33d836b13ba1ce6e662de8c56d7822cb2078809717ff47ef6cf2f9"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/norway/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/family-travel.md",
+      "byteCount": 1537,
+      "sha256": "e661207f9993ad84b0ce8ef7f45dd5ce0160e2ffaf46cec469e8ac833513f42b"
     },
     {
       "path": "fjords-and-scenic-routes.md",
       "downloadPath": "skills/norway/fjords-and-scenic-routes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/fjords-and-scenic-routes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/fjords-and-scenic-routes.md",
+      "byteCount": 1640,
+      "sha256": "1cac287e82168317220d957a7037d981f4549a75b4ba86a4858dab17d6f11fa4"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/norway/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/food-guide.md",
+      "byteCount": 1658,
+      "sha256": "f319752776c5db8641db2a86097abcbdfd90a41655df729667f49646ba7912f1"
     },
     {
       "path": "hiking-and-outdoors.md",
       "downloadPath": "skills/norway/hiking-and-outdoors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/hiking-and-outdoors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/hiking-and-outdoors.md",
+      "byteCount": 1911,
+      "sha256": "990fe82ed1821c9f9fb7cb55b59d9bbc0899235c88b4829d86fe1318667e005f"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/norway/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/itineraries.md",
+      "byteCount": 2584,
+      "sha256": "071df8c18ba2d8a0395269f27e9c765c3fbbec99f4f163757a44748366e3c1c9"
     },
     {
       "path": "lofoten-and-vesteralen.md",
       "downloadPath": "skills/norway/lofoten-and-vesteralen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/lofoten-and-vesteralen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/lofoten-and-vesteralen.md",
+      "byteCount": 1948,
+      "sha256": "2256126bc5eb41a92ef8e50d51e2c2ba2c53d6435610b80a360d1896c00226c8"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/norway/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/memory-template.md",
+      "byteCount": 1966,
+      "sha256": "87ef7400db6a2cc6d5ca249c9dd8ab58d0f9d116cdae57c723c390f12b324c24"
     },
     {
       "path": "oslo-and-oslofjord.md",
       "downloadPath": "skills/norway/oslo-and-oslofjord.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/oslo-and-oslofjord.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/oslo-and-oslofjord.md",
+      "byteCount": 1914,
+      "sha256": "49ffc9e487ed5f715e75ad36146097e6ce3f4e108d2702b7dee657052af453b8"
     },
     {
       "path": "payments-and-tax-free.md",
       "downloadPath": "skills/norway/payments-and-tax-free.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/payments-and-tax-free.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/payments-and-tax-free.md",
+      "byteCount": 1796,
+      "sha256": "aca3bb16df76d9837fea90d77c935e39db82c97b9f44f2c6988e7e4e8912f387"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/norway/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/regions.md",
+      "byteCount": 2712,
+      "sha256": "26b5f810b6fb3987a2dec8f0435de084fa2356996d9c09f30e820ae6d0c0520c"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/norway/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/road-trips-and-driving.md",
+      "byteCount": 1941,
+      "sha256": "86fb56669d17b473c8476cf544d8933cf9ada5995a205bbffe1cc0aa30ca6830"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/norway/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/safety-and-emergencies.md",
+      "byteCount": 1712,
+      "sha256": "c7249e011ccba2a5103ded4338f089c1f007d768b6092cd37dbce0bb33bf1045"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/norway/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/setup.md",
+      "byteCount": 2279,
+      "sha256": "63450da6cbef2bc51c1d353747a4c07c364491a6d7219e10d6eb7e6723126b05"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/norway/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/SKILL.md",
+      "byteCount": 6433,
+      "sha256": "695b57c3df83259ea150d776c5602d330a5cd2fe7209a983e2f119e15b469a03"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/norway/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/sources.md",
+      "byteCount": 2263,
+      "sha256": "349342b3d76d7f8e2c44aa3cabfdc6d6d95fc4fdf72f31a261f5ba8370a7a4e0"
     },
     {
       "path": "stavanger-and-southwest.md",
       "downloadPath": "skills/norway/stavanger-and-southwest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/stavanger-and-southwest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/stavanger-and-southwest.md",
+      "byteCount": 1950,
+      "sha256": "6033036a23ee662ca9044e01d67e9e943d5c3cf73088af686d5a736c89709df5"
     },
     {
       "path": "svalbard.md",
       "downloadPath": "skills/norway/svalbard.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/svalbard.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/svalbard.md",
+      "byteCount": 1561,
+      "sha256": "231eef319e02652236ee204756e9a07efd79d65f9ba256a3d94102dc8c47579a"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/norway/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/telecoms-and-apps.md",
+      "byteCount": 1563,
+      "sha256": "4b6bad3a37e8db07fb807a3b16e5d91bbd6bf81fa7ff68f31a7673f39911b976"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/norway/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/transport-domestic.md",
+      "byteCount": 2273,
+      "sha256": "6276758ba4ec3ea3db8ff2e40988aca19ebf4e689ea97bed430d84220008a2d5"
     },
     {
       "path": "tromso-and-arctic-north.md",
       "downloadPath": "skills/norway/tromso-and-arctic-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/tromso-and-arctic-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/tromso-and-arctic-north.md",
+      "byteCount": 1827,
+      "sha256": "0e1d4d434acb032b7dac98f5fb2d0690dfdac9ad1397a3798b34afc6d09ffd13"
     },
     {
       "path": "trondheim-and-central-norway.md",
       "downloadPath": "skills/norway/trondheim-and-central-norway.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/trondheim-and-central-norway.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/trondheim-and-central-norway.md",
+      "byteCount": 1847,
+      "sha256": "554f2c79ab6ee6087f246e579ea56b085710e262f66be13ce1cc91f2ca9f6736"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/norway/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norway/weather-and-seasonality.md",
+      "byteCount": 1803,
+      "sha256": "73bbe7e597ac5c331e46c170ccabbee713ed1b05c0de8c24cdac76feff984ec5"
     }
   ]
 }

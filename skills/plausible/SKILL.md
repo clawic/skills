@@ -1,10 +1,21 @@
 ---
-name: Plausible
+name: plausible
 slug: plausible
 version: 1.0.1
-homepage: https://clawic.com/skills/plausible
 description: Query Plausible Analytics API for traffic stats, referrers, conversions, and custom events.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[],"env":["PLAUSIBLE_API_KEY"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/plausible
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+      env:
+      - PLAUSIBLE_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Plausible
 ---
 
 ## Setup
@@ -17,10 +28,10 @@ User needs website traffic data from Plausible. Agent queries visitors, pageview
 
 ## Architecture
 
-Memory lives in `~/plausible/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/plausible/`. See `memory-template.md` for structure.
 
 ```
-~/plausible/
+~/Clawic/data/plausible/
 ├── memory.md     # Sites + preferences (no secrets stored)
 └── queries/      # Saved query templates (optional)
 ```
@@ -110,12 +121,12 @@ No other data is sent externally.
 
 **Data that stays local:**
 - Query results cached in memory
-- Site configurations in ~/plausible/
+- Site configurations in ~/Clawic/data/plausible/
 
 **This skill does NOT:**
 - Store API keys in plain text (uses environment variable)
 - Send user data beyond what's needed for queries
-- Access files outside ~/plausible/
+- Access files outside ~/Clawic/data/plausible/
 
 ## Trust
 
@@ -123,12 +134,12 @@ By using this skill, your site analytics queries are sent to Plausible (plausibl
 Only install if you trust Plausible with your domain data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` — general analytics guidance
 - `umami` — alternative privacy analytics
 - `mixpanel` — product analytics
 
 ## Feedback
 
-- If useful: `clawhub star plausible`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/plausible
+- Latest version: https://clawic.com/skills/plausible

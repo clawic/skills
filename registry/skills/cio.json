@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "46d79a97712de09dd9471c90827641c21bc5691fad2f4e3990933afdecfe0eaa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cio",
-    "name": "Chief Information Officer",
+    "name": "cio",
     "description": "Drive IT strategy, digital transformation, vendor management, architecture decisions, and technology governance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cio",
     "summary": "When to Use User wants technology leadership for their company, startup, or project. Agent acts as virtual CIO handling IT strategy, infrastructure, and digital initiatives. Quick Reference | Topic | File | |-------|----",
     "repositoryPath": "skills/cio",
     "manifestPath": "registry/skills/cio.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/_meta.json",
+      "byteCount": 180,
+      "sha256": "a89d382a0bab8b45bbd7fddd88d066929b5d53b93d87f4115819ea62fff87eef"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/cio/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/architecture.md",
+      "byteCount": 2079,
+      "sha256": "2e1375d3d33fd87d08781dcecd8f6ed033c3bf91482d5f4b9cd623c65b2ca78d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/SKILL.md",
+      "byteCount": 2634,
+      "sha256": "a8b3bb52418cf68e900ea3f139f64dbd7e4e83f724ef0c8f310e63c9e0f8290b"
     },
     {
       "path": "strategy.md",
       "downloadPath": "skills/cio/strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/strategy.md",
+      "byteCount": 2117,
+      "sha256": "d9f987747d1909aeee57c4e50ffd4946b32d835158b882c37df8847ca85f44fb"
     },
     {
       "path": "transformation.md",
       "downloadPath": "skills/cio/transformation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/transformation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/transformation.md",
+      "byteCount": 2272,
+      "sha256": "f1cc887c440e2ace0e12306ac5e2a07759f6ff11316ee565b8cc75fa52ad4101"
     },
     {
       "path": "vendors.md",
       "downloadPath": "skills/cio/vendors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/vendors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cio/vendors.md",
+      "byteCount": 2143,
+      "sha256": "f30801f4261fedd6a6f028982d7d13c8bbcc04b779db3c5d7c89274c0f374a35"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5dba0632e5277220c9c5b85cbc4c6bfab124abddda613370da7d52d9b87f64f2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "swift",
-    "name": "Swift",
+    "name": "swift",
     "description": "Write safe Swift code avoiding memory leaks, optional traps, and concurrency bugs.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/swift",
     "summary": "Quick Reference | Topic | File | |-------|------| | Optionals, nil safety, force unwrap | `optionals.md` | | Retain cycles, weak refs, closures | `memory.md` | | async/await, actors, Sendable, value types | `concurrency.",
     "repositoryPath": "skills/swift",
     "manifestPath": "registry/skills/swift.json"
@@ -21,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/swift/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/_meta.json",
+      "byteCount": 238,
+      "sha256": "58e0467add9ff1f9dcaa56bbb758bc76ba098ac7de0556ebd6dc1eb555752276"
     },
     {
       "path": "advanced.md",
       "downloadPath": "skills/swift/advanced.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/advanced.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/advanced.md",
+      "byteCount": 1722,
+      "sha256": "2f737bd9841b7d88cd426876d0783599e0fd3d780d3ed92488891d8a2445cfb6"
     },
     {
       "path": "codable.md",
       "downloadPath": "skills/swift/codable.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/codable.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/codable.md",
+      "byteCount": 379,
+      "sha256": "d6e73a20a05d1cf6b8a7b8546511fb984de297f4791c5d82d7a02af6559b5878"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/swift/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/concurrency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/concurrency.md",
+      "byteCount": 816,
+      "sha256": "dd86ed2f0258dda4cc6d889f53a2ca50cd3682e9d63da81b4dcaf8ad0700a57e"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/swift/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/memory.md",
+      "byteCount": 513,
+      "sha256": "7a4652ae769e5b2c31742677598fd254f6a20bccbc3cf822346e9cebd9a065de"
     },
     {
       "path": "optionals.md",
       "downloadPath": "skills/swift/optionals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/optionals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/optionals.md",
+      "byteCount": 411,
+      "sha256": "a5bd61e26dd291e1ad29b2ec5d55a8971a0413ecfa380f8a0f1efc42a6e1c4a5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/swift/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/SKILL.md",
+      "byteCount": 2267,
+      "sha256": "b7f5e5646893c45d5d06e949c7a0c0b1f90b4235dc6bec1c6add02becc74112b"
     },
     {
       "path": "swiftui.md",
       "downloadPath": "skills/swift/swiftui.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/swiftui.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/swiftui.md",
+      "byteCount": 1407,
+      "sha256": "c95aa75321e8c95084c9681f75f4e411f75929316295483b298aafc48af4c556"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/swift/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/testing.md",
+      "byteCount": 1189,
+      "sha256": "d4c831683f59c3ba75af40c3725dab3185dbf671047a098a1db8ddfc3569bb1c"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/swift/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/types.md",
+      "byteCount": 1929,
+      "sha256": "c16d2c73026e8bcfd3846a6bca4ca6eff1edb0bd95e7be53caed01e9cde22a1c"
     }
   ]
 }

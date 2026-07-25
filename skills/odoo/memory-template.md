@@ -1,6 +1,6 @@
 # Memory Template — Odoo
 
-Create `~/odoo/memory.md` with this structure:
+Create `~/Clawic/data/odoo/memory.md` with this structure:
 
 ```markdown
 # Odoo Memory
@@ -42,9 +42,9 @@ integration: pending | done | declined
 
 ## Optional companion files
 
-- `~/odoo/instances.md` for per-instance URLs, auth lanes, and owners
-- `~/odoo/modules.md` for custom fields and model overrides
-- `~/odoo/incidents.md` for failed imports, broken automations, or audit-sensitive corrections
+- `~/Clawic/data/odoo/instances.md` for per-instance URLs, auth lanes, and owners
+- `~/Clawic/data/odoo/modules.md` for custom fields and model overrides
+- `~/Clawic/data/odoo/incidents.md` for failed imports, broken automations, or audit-sensitive corrections
 
 ## Key Principles
 

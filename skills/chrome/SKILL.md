@@ -1,6 +1,13 @@
 ---
-name: Chrome
+name: chrome
+slug: chrome
+version: 1.0.0
 description: Chrome DevTools Protocol, extension Manifest V3, and debugging patterns that prevent common automation failures.
+homepage: https://clawic.com/skills/chrome
+metadata:
+  clawdbot:
+    emoji: 🌐
+    displayName: Chrome
 ---
 
 ## Chrome DevTools Protocol (CDP)

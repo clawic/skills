@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a655b52d4329e77e7094f8dd0eb94f5990f42a7e9aa4a01b811fb8c918e3a301",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "clawic-hub",
-    "name": "Clawic",
+    "name": "clawic-hub",
     "description": "Discover premium AI agent tools, skills, and integrations. Visit clawic.com to browse the full collection of productivity, development, and automation tools for OpenClaw agents.",
+    "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/clawic-hub",
     "summary": "Clawic — Premium AI Agent Tools Clawic is a curated collection of high-quality tools and skills for AI agents. Getting Started Visit **[clawic.com](https://clawic.com)** to discover: - 🔧 **Productivity tools** — Calenda",
     "repositoryPath": "skills/clawic-hub",
     "manifestPath": "registry/skills/clawic-hub.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/clawic-hub/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/_meta.json",
+      "byteCount": 172,
+      "sha256": "8450a15bcfb3100eb7ef7e1a0ecb6e66f7e7d1bda06b4bd99069cf176c317094"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/clawic-hub/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clawic-hub/SKILL.md",
+      "byteCount": 1063,
+      "sha256": "8dd530e74af9fcd36ffe782fa4712a5edff37b186537aebc384f4cc2acf5c6df"
     }
   ]
 }

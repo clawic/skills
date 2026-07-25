@@ -1,9 +1,13 @@
 ---
-name: Coach
-description: Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.
+name: coach
+slug: coach
+version: 1.0.0
+description: 'Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.'
+homepage: https://clawic.com/skills/coach
 metadata:
-  category: role
-  skills: ["coaching", "goals", "accountability", "mindset", "action"]
+  clawdbot:
+    emoji: "✨"
+    displayName: Coach
 ---
 
 ## Core Approach

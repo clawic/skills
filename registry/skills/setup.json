@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9c43edc0b99ea114c36a04d4d839c0a09c405afb7183a11c71e78392cb043abd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "setup",
-    "name": "Setup",
+    "name": "setup",
     "description": "Configure OpenClaw installations with optimized settings, channel setup, security hardening, and production recommendations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/setup",
     "summary": "Quick Reference | Task | Load | |------|------| | Messaging channels (Telegram, WhatsApp, Discord, etc.) | `channels.md` | | Agent settings, models, workspaces | `agents.md` | | Security, auth, DM policies, allowlists | ",
     "repositoryPath": "skills/setup",
     "manifestPath": "registry/skills/setup.json"
@@ -20,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/setup/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/_meta.json",
+      "byteCount": 162,
+      "sha256": "ba262945ea1ddd1971cfa131abb1196bd4e9ab291f24d3c705bfd67194d2c9df"
     },
     {
       "path": "agents.md",
       "downloadPath": "skills/setup/agents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/agents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/agents.md",
+      "byteCount": 4002,
+      "sha256": "0e41f0ed36097341238ffbd4b8aa44d212148fdbca96262af5dd5ba767be838e"
     },
     {
       "path": "automation.md",
       "downloadPath": "skills/setup/automation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/automation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/automation.md",
+      "byteCount": 3312,
+      "sha256": "bc080ba77b3292a0aacbede42dcb238125fc72a23d3d4293ca4ee4e3336e113d"
     },
     {
       "path": "channels.md",
       "downloadPath": "skills/setup/channels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/channels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/channels.md",
+      "byteCount": 4225,
+      "sha256": "e721107f104648ce8c499b4edb8cff25922fd173444d634009e46694d441c578"
     },
     {
       "path": "gateway.md",
       "downloadPath": "skills/setup/gateway.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/gateway.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/gateway.md",
+      "byteCount": 3122,
+      "sha256": "904617e294b79e3e664bbb845be85dadf73480ba965603e425104d80ef55314a"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/setup/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/memory.md",
+      "byteCount": 3229,
+      "sha256": "9db0a9273bf66558f28f7cac6a626db23e2165ff3c869d51dc56c2e958b7c2f4"
     },
     {
       "path": "recommendations.md",
       "downloadPath": "skills/setup/recommendations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/recommendations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/recommendations.md",
+      "byteCount": 4273,
+      "sha256": "0de06eb72d630d5d07e7d340fb666a47cd066544304f209797f0b5a3939b8f6c"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/setup/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/security.md",
+      "byteCount": 3341,
+      "sha256": "6bc018c432cb087ed4dba612224f7d7271a41a39474de9b63b22c58f550b88bc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/setup/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/SKILL.md",
+      "byteCount": 2115,
+      "sha256": "899617c0f5226c2b0d8b406c2626a8606260ceb1e218e8709c76e47ece111d31"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/setup/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/setup/tools.md",
+      "byteCount": 3414,
+      "sha256": "3ac46619920a750d253ce7b89367012381b06683fe68d54055cbf548a49af5ec"
     }
   ]
 }

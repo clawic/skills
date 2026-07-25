@@ -64,7 +64,7 @@ Not all topics are equal. Focus on high-frequency, high-point areas:
 
 SAT tests "words in context" — not pure definitions.
 
-1. Add new words to `~/sat/vocabulary/`
+1. Add new words to `~/Clawic/data/sat/vocabulary/`
 2. Include: word, definition, example sentence, SAT-style usage
 3. Review schedule: Day 1, 3, 7, 14, 30
 4. Test in context, not isolation

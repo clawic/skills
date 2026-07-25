@@ -1,11 +1,22 @@
 ---
-name: Taiwan
+name: taiwan
 slug: taiwan
 version: 1.0.0
-homepage: https://clawic.com/skills/taiwan
 description: Plan Taiwan trips with city-specific food, rail, hot spring, and regional tips that avoid tourist filler and logistics mistakes.
+homepage: https://clawic.com/skills/taiwan
 changelog: Initial release with city guides, rail planning, tea context, and practical Taiwan travel advice.
-metadata: {"clawdbot":{"emoji":"🇹🇼","requires":{"bins":[],"config":["~/taiwan/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🇹🇼
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/taiwan/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Taiwan
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User planning a trip to Taiwan or needing practical local guidance: where to bas
 
 ## Architecture
 
-Memory lives in `~/taiwan/`. If `~/taiwan/` doesn't exist or is empty, read `setup.md` and start naturally. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/taiwan/`. If `~/Clawic/data/taiwan/` doesn't exist or is empty, read `setup.md` and start naturally. See `memory-template.md` for structure.
 
 ```text
-~/taiwan/
+~/Clawic/data/taiwan/
 └── memory.md     # Trip context
 ```
 
@@ -112,12 +123,12 @@ Be explicit about what visitors routinely miss:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/taiwan/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/taiwan/`
 
-**This skill does NOT:** Access files outside `~/taiwan/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/taiwan/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — Travel planning
 - `food` — Food and cooking
 - `chinese` — Chinese language
@@ -125,5 +136,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star taiwan`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/taiwan
+- Latest version: https://clawic.com/skills/taiwan

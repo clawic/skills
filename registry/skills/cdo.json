@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "baf7bbd9dac82ab3db3e84bf8e8d92211ee24180b2357a4fbe432f271686dfd1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cdo",
-    "name": "CDO / Chief Data Officer",
+    "name": "cdo",
     "description": "Drive data strategy with governance frameworks, analytics platforms, AI/ML initiatives, and privacy compliance.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cdo",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cdo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/_meta.json",
+      "byteCount": 255,
+      "sha256": "43bee9619993535221ccb11ed35499ca088716ec7573649ffaf8c7b00fc410e8"
     },
     {
       "path": "analytics.md",
       "downloadPath": "skills/cdo/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/analytics.md",
+      "byteCount": 1889,
+      "sha256": "30127752811a9fecbe29f7e3b8468fc8114859d85ccbb8a39e1c7f092f25c56c"
     },
     {
       "path": "governance.md",
       "downloadPath": "skills/cdo/governance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/governance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/governance.md",
+      "byteCount": 1999,
+      "sha256": "aaad805529638d2977622359bc9966380cce6ebc130f5183950f71464411383e"
     },
     {
       "path": "ml.md",
       "downloadPath": "skills/cdo/ml.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/ml.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/ml.md",
+      "byteCount": 2064,
+      "sha256": "9c2f9d83d809aba2140487818d29c80f6d7f2eeae1caa9abdcc93d2a5396db1b"
     },
     {
       "path": "privacy.md",
       "downloadPath": "skills/cdo/privacy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/privacy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/privacy.md",
+      "byteCount": 2437,
+      "sha256": "0f0ab3208d31240da81cbb9c2cad5aeaa72704681d1a1e1d6e44c939dfff9f39"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cdo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/SKILL.md",
+      "byteCount": 3250,
+      "sha256": "6990149f7aa2580f5111a555c57e55bf2936098e876ac2ea8bf7c023e9a07c29"
     },
     {
       "path": "strategy.md",
       "downloadPath": "skills/cdo/strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdo/strategy.md",
+      "byteCount": 1875,
+      "sha256": "c23004c224cf432d890eec4ea2576f9348006c8d7e80143896b207b447193622"
     }
   ]
 }

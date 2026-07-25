@@ -1,6 +1,6 @@
 # Memory Template — Android Studio
 
-Create `~/android-studio/memory.md` with this structure:
+Create `~/Clawic/data/android-studio/memory.md` with this structure:
 
 ```markdown
 # Android Studio Memory

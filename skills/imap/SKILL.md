@@ -1,11 +1,20 @@
 ---
-name: IMAP
+name: imap
 slug: imap
 version: 1.0.0
+description: Read, search, and sync IMAP mailboxes with UID-safe fetches, precise filters, and attachment-aware workflows.
 homepage: https://clawic.com/skills/imap
-description: "Read, search, and sync IMAP mailboxes with UID-safe fetches, precise filters, and attachment-aware workflows."
-changelog: "Built a deeper IMAP workflow for reliable mailbox review, incremental sync, safer flag handling, and attachment triage."
-metadata: {"clawdbot":{"emoji":"📬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+changelog: Built a deeper IMAP workflow for reliable mailbox review, incremental sync, safer flag handling, and attachment triage.
+metadata:
+  clawdbot:
+    emoji: 📬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: IMAP
 ---
 
 ## When to Use
@@ -16,10 +25,10 @@ Activate it for inbox search, unread triage, header and body fetches, attachment
 
 ## Architecture
 
-Memory lives in `~/imap/`. If `~/imap/` does not exist, run `setup.md`. See `memory-template.md` for the default structure and file templates.
+Memory lives in `~/Clawic/data/imap/`. If `~/Clawic/data/imap/` does not exist, run `setup.md`. See `memory-template.md` for the default structure and file templates.
 
 ```
-~/imap/
+~/Clawic/data/imap/
 ├── memory.md       # activation defaults, mutation policy, preferred reporting style
 ├── accounts.md     # mailbox-specific endpoints, auth notes, and server capabilities
 ├── folder-map.md   # canonical folder mapping and provider quirks
@@ -55,7 +64,7 @@ Use these files when the current mailbox task needs more detail than the core ru
 
 ### 3. Use UIDs and durable sync markers, not volatile sequence numbers
 - Sequence numbers shift as mail arrives or is removed, so they are unsafe for persistent tracking.
-- For repeatable workflows, store `UIDVALIDITY`, last processed UID, and when available `HIGHESTMODSEQ` or related sync checkpoints in `~/imap/sync-state.md`.
+- For repeatable workflows, store `UIDVALIDITY`, last processed UID, and when available `HIGHESTMODSEQ` or related sync checkpoints in `~/Clawic/data/imap/sync-state.md`.
 - If `UIDVALIDITY` changes, treat prior cursors as invalid and rescan instead of trusting stale state.
 
 ### 4. Fetch the minimum data that answers the question
@@ -74,7 +83,7 @@ Use these files when the current mailbox task needs more detail than the core ru
 - Avoid downloading large attachments unless needed, and report part identifiers, sizes, and media types first when triaging.
 
 ### 7. Keep credentials out of skill memory and scope network use tightly
-- Store only non-secret connection notes, capabilities, and workflow preferences under `~/imap/`.
+- Store only non-secret connection notes, capabilities, and workflow preferences under `~/Clawic/data/imap/`.
 - Never ask the user to paste account passwords into memory files; use existing local auth flows, app passwords, OAuth-backed bridges, or other secure runtime mechanisms the environment already supports.
 - Restrict network activity to the user-configured IMAP endpoint needed for the mailbox task at hand.
 
@@ -98,7 +107,7 @@ No other data is sent externally.
 ## Security & Privacy
 
 Data that stays local:
-- Activation defaults, provider quirks, sync checkpoints, and reusable playbooks stored under `~/imap/`
+- Activation defaults, provider quirks, sync checkpoints, and reusable playbooks stored under `~/Clawic/data/imap/`
 - Mailbox notes the user explicitly wants remembered for future sessions
 
 Data that leaves your machine:
@@ -106,7 +115,7 @@ Data that leaves your machine:
 - Message metadata, bodies, or attachments fetched from that mailbox when the current task requires them
 
 This skill does NOT:
-- store mailbox passwords or OAuth tokens in `~/imap/`
+- store mailbox passwords or OAuth tokens in `~/Clawic/data/imap/`
 - assume mutating mailbox access is allowed by default
 - send mailbox content to undeclared third parties
 - treat sequence numbers as durable sync state
@@ -117,7 +126,7 @@ By using this skill, data is exchanged with the user-configured mail provider or
 Only use it with mailbox systems and local credential flows the user already trusts.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - use when the mailbox task is really an API integration or authenticated service wrapper problem.
 - `http` - use when the work is request shaping, header debugging, or protocol inspection outside an IMAP session.
 - `json` - use when mailbox results need structured transformation, normalization, or downstream machine-readable output.
@@ -126,5 +135,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star imap`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/imap
+- Latest version: https://clawic.com/skills/imap

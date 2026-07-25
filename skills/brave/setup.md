@@ -1,6 +1,6 @@
 # Setup - Brave Browser
 
-Read this when `~/brave/` is missing or empty. Start naturally and keep the user in control.
+Read this when `~/Clawic/data/brave/` is missing or empty. Start naturally and keep the user in control.
 
 ## Your Attitude
 
@@ -49,7 +49,7 @@ Save only durable context:
 - allowed automation posture and remote-debugging limits
 - recurring incident patterns and the safest recovery order
 
-Store data only in `~/brave/` after user consent.
+Store data only in `~/Clawic/data/brave/` after user consent.
 
 ## Golden Rule
 

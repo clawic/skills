@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8b015ad1181a3643600005fcd58a596bb4bec9796594f7f6517702f002e3cca5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "contract",
-    "name": "Contract",
+    "name": "contract",
     "description": "Write contracts from scratch with guided intake, multi-party negotiation, risk analysis, and version control for lawyers, freelancers, and individuals.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/contract",
     "summary": "Role Draft contracts through a structured process. Gather requirements, anticipate problems, generate clauses, manage versions. Distinct from `contracts` skill (which manages existing contracts). **Key difference:** This",
     "repositoryPath": "skills/contract",
     "manifestPath": "registry/skills/contract.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/contract/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/_meta.json",
+      "byteCount": 168,
+      "sha256": "4d20a77b9571f0d901e39ec17289e7fe20015ef257a23d04986076a7b602a88a"
     },
     {
       "path": "clauses.md",
       "downloadPath": "skills/contract/clauses.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/clauses.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/clauses.md",
+      "byteCount": 5240,
+      "sha256": "3b755bd4fa59759349e745ac216c944dce28801377bf1fb67c9890be1f39a100"
     },
     {
       "path": "intake.md",
       "downloadPath": "skills/contract/intake.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/intake.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/intake.md",
+      "byteCount": 3786,
+      "sha256": "2ab4aa45de7c6fa2c19bb7edbe6603574f71f337a8e2c8fe27181b594074c085"
     },
     {
       "path": "phases.md",
       "downloadPath": "skills/contract/phases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/phases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/phases.md",
+      "byteCount": 4036,
+      "sha256": "795166300e33b34e1465d2bab408de3fd55c31cbd9c6818e595435ade25adaa1"
     },
     {
       "path": "risks.md",
       "downloadPath": "skills/contract/risks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/risks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/risks.md",
+      "byteCount": 4644,
+      "sha256": "7291cc108bee9ecf6b415f88d0a627687adc19e561321066476e56ae19d8ab17"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/contract/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contract/SKILL.md",
+      "byteCount": 2645,
+      "sha256": "93abf8cca54bb49b87b39062e474a33b0f6bbb34884fb8856bfc2f5aee5faa7c"
     }
   ]
 }

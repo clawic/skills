@@ -1,6 +1,6 @@
 # Memory Template - Post-Labor Economics
 
-Create `~/post-labor-economics/memory.md` with this structure:
+Create `~/Clawic/data/post-labor-economics/memory.md` with this structure:
 
 ```markdown
 # Post-Labor Economics Memory
@@ -40,7 +40,7 @@ integration: pending
 
 ## portfolios.md Template
 
-Create `~/post-labor-economics/portfolios.md`:
+Create `~/Clawic/data/post-labor-economics/portfolios.md`:
 
 ```markdown
 # Policy Portfolios
@@ -57,7 +57,7 @@ Status: draft | tested | adopted | retired
 
 ## indicators.md Template
 
-Create `~/post-labor-economics/indicators.md`:
+Create `~/Clawic/data/post-labor-economics/indicators.md`:
 
 ```markdown
 # Indicators Dashboard
@@ -74,7 +74,7 @@ Notes: ...
 
 ## scenarios.md Template
 
-Create `~/post-labor-economics/scenarios.md`:
+Create `~/Clawic/data/post-labor-economics/scenarios.md`:
 
 ```markdown
 # Scenario Register

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2f7af1ac45ee7bba618757ee4f107b0ff9632034215899aec2ea54d9ca4978de",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "backups",
-    "name": "Backup",
+    "name": "backups",
     "description": "Implement reliable backup strategies avoiding data loss, failed restores, and security gaps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/backups",
     "summary": "The Only Rule That Matters - Untested backups are not backups — schedule regular restore tests, not just backup jobs - Test restores to different hardware/location — validates both backup and restore procedure - Time the",
     "repositoryPath": "skills/backups",
     "manifestPath": "registry/skills/backups.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/backups/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/backups/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/backups/_meta.json",
+      "byteCount": 165,
+      "sha256": "68cbdaeceab856c435b200de7b9bfa74e7587a470f56f6fb0d8708780b387b9f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/backups/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/backups/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/backups/SKILL.md",
+      "byteCount": 3759,
+      "sha256": "480f3a68775e7f9db8e4a8c8c2487d987633ddf3bef1e29129d37b0c800fbe05"
     }
   ]
 }

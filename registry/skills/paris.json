@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3f69dd511ee700061d893f1e2226af0b483e55b1f966cc2228c1b8ac3f29050f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "paris",
-    "name": "Paris",
+    "name": "paris",
     "description": "Navigate Paris as visitor, resident, tech worker, student, or entrepreneur with arrondissements, transport, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/paris",
     "summary": "When to Use User asks about Paris for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | **V",
     "repositoryPath": "skills/paris",
     "manifestPath": "registry/skills/paris.json"
@@ -21,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/paris/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/_meta.json",
+      "byteCount": 162,
+      "sha256": "48709d59d792ac8082f2d06971a107b8e2153c1c84ae859da3b8da19a80545e7"
     },
     {
       "path": "arrondissements-central.md",
       "downloadPath": "skills/paris/arrondissements-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-central.md",
+      "byteCount": 2224,
+      "sha256": "dfe6b1fc0b157c1e0367da6d65a4d9bc2ca97f4357e45d87144e9e46375e43e5"
     },
     {
       "path": "arrondissements-choosing.md",
       "downloadPath": "skills/paris/arrondissements-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-choosing.md",
+      "byteCount": 2483,
+      "sha256": "a9f64bc762ff85a9ca2957d4bc24d566e5fbe7fd5cc666c2becb321772b971d8"
     },
     {
       "path": "arrondissements-index.md",
       "downloadPath": "skills/paris/arrondissements-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-index.md",
+      "byteCount": 3956,
+      "sha256": "8dc1dbfe8baf526a8414e5c4920fac410099e6f107be0ddc336a24bd6a8874dc"
     },
     {
       "path": "arrondissements-left-bank.md",
       "downloadPath": "skills/paris/arrondissements-left-bank.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-left-bank.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-left-bank.md",
+      "byteCount": 1847,
+      "sha256": "9d7705afd2929d49734f74ae82daf02bdf4a3bf02b6f4c63cc742b65142b40eb"
     },
     {
       "path": "arrondissements-outer.md",
       "downloadPath": "skills/paris/arrondissements-outer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-outer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-outer.md",
+      "byteCount": 2999,
+      "sha256": "6ebdfaabeb58a835ea48c265d03de458b62c357ca3dd94fd0fa7683d26d0c200"
     },
     {
       "path": "arrondissements-right-bank.md",
       "downloadPath": "skills/paris/arrondissements-right-bank.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-right-bank.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/arrondissements-right-bank.md",
+      "byteCount": 2254,
+      "sha256": "2fb65e4541347c74dc94c043d28f9846e1d767baa4d7ca19f8ded5898279967b"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/paris/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/climate.md",
+      "byteCount": 2890,
+      "sha256": "e9831d1891468d353e16b17457d0975df6f172b59b5919c88ffa8a24c031d068"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/paris/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/cost.md",
+      "byteCount": 4815,
+      "sha256": "667dbea4850f0353192124c4b2c3a436cc3fc918fb24e47536bc88422493cc70"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/paris/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-areas.md",
+      "byteCount": 3108,
+      "sha256": "f3532b90ce19375a77daa0836bc9f663ae0d25933496066c02f3774fbd9024bb"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/paris/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-markets.md",
+      "byteCount": 2632,
+      "sha256": "b26f61cd1ec7b8b0596e5fae883d3ffc3a2f1f7f9e0285bba352e90a5afa84b5"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/paris/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-overview.md",
+      "byteCount": 4080,
+      "sha256": "e6c7f1b4a6d14ddd1aebc65dc81a130e658a19c1d7a82776c78c8c944cb10c1f"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/paris/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-practical.md",
+      "byteCount": 3778,
+      "sha256": "425580cf1e356495ad42d4d904072efbd19282de3e2ee78f9c93cd0b770700db"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/paris/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-traditional.md",
+      "byteCount": 3706,
+      "sha256": "c250a098d0b6ddcddcaa2d4e00f77e9a056f022aa8198f5356fa4f8f4e707d17"
     },
     {
       "path": "food-wine-cafes.md",
       "downloadPath": "skills/paris/food-wine-cafes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-wine-cafes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/food-wine-cafes.md",
+      "byteCount": 2964,
+      "sha256": "99ef13ecf88172386bafa4b6f063911fca9869732cfc9ae0c1b4d712756fc726"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/paris/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/local.md",
+      "byteCount": 3552,
+      "sha256": "791ce25caf3b4fb3ea828b53d561598d7fb5d3fd5e86430333505e4e53e468b9"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/paris/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/resident.md",
+      "byteCount": 5691,
+      "sha256": "c1f8e71e5dcd88e88fface35cbfda6546ba67cec899a5c6d1ed3fd01b3167f98"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/paris/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/safety.md",
+      "byteCount": 5116,
+      "sha256": "5b1274c23fd68da152c7d32a4a4bed4453891c33bb5b03077b4279b0866a020a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/paris/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/SKILL.md",
+      "byteCount": 4020,
+      "sha256": "5672245bc71c973b1be55eb00089af45e255a2e8d873e7c362429de7f0dbbabd"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/paris/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/startup.md",
+      "byteCount": 4888,
+      "sha256": "e55f848c8f4711cc4fe29184f8a415906728221b9bc85cb47ec898b489dd8a82"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/paris/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/student.md",
+      "byteCount": 4579,
+      "sha256": "f1106deedb3a89ab3168f2bda3088769973ab0ffe2c9014ce5758784bc37c5c9"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/paris/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/tech.md",
+      "byteCount": 4117,
+      "sha256": "1fa64cccf6f53472d1485c6050eb24e728810ecf0149e81e57a41cc98c69dc74"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/paris/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/transport.md",
+      "byteCount": 5394,
+      "sha256": "89d44886f743ac5e4c8b2a51564dd779fbc46ee2ecdacc9aa1017bb223f6ffae"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/paris/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-attractions.md",
+      "byteCount": 4049,
+      "sha256": "4e87db40d21f75a9329516942cbaad2fe79c851efce3a35d6fc2af2acfca6fd1"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/paris/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-itineraries.md",
+      "byteCount": 3555,
+      "sha256": "c28e2070767bcc598af7dfa97f897155dcb4aac3bc07d48d593e2df11853b729"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/paris/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-lodging.md",
+      "byteCount": 3996,
+      "sha256": "ca778bbbe73eb9eb6af126d9a305dec0017e0c62ecda3d764183ddda0088e2c2"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/paris/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paris/visitor-tips.md",
+      "byteCount": 4574,
+      "sha256": "194245cf935d3246e3cc8a4bf1206bfbbb86fd4606822c7b315954a6f8cb5832"
     }
   ]
 }

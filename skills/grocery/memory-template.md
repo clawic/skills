@@ -5,13 +5,13 @@
 Create directory on first use:
 ```bash
 mkdir -p ~/grocery
-touch ~/grocery/memory.md
-touch ~/grocery/pantry.md
+touch ~/Clawic/data/grocery/memory.md
+touch ~/Clawic/data/grocery/pantry.md
 ```
 
 ## memory.md Template
 
-Copy to `~/grocery/memory.md`:
+Copy to `~/Clawic/data/grocery/memory.md`:
 
 ```markdown
 # Grocery Memory
@@ -42,7 +42,7 @@ Copy to `~/grocery/memory.md`:
 
 ## pantry.md Template
 
-Copy to `~/grocery/pantry.md`:
+Copy to `~/Clawic/data/grocery/pantry.md`:
 
 ```markdown
 # Pantry Inventory

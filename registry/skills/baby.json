@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b8f64c8022b35a20f26c02de710db4879ebbaabeb4f4a227ee00058a0ce763cd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "baby",
-    "name": "Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)",
+    "name": "baby",
     "description": "Track baby feeds, sleep, diapers, symptoms, growth, routines, and pediatric follow-up with caregiver handoffs and safety-first triage.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/baby",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/baby/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/_meta.json",
+      "byteCount": 206,
+      "sha256": "dcb27b3336c7b19b2b18d279387ec2c1dd6499902f9961840d9f3d442dede1bf"
     },
     {
       "path": "caregiver-handoff.md",
       "downloadPath": "skills/baby/caregiver-handoff.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/caregiver-handoff.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/caregiver-handoff.md",
+      "byteCount": 1599,
+      "sha256": "2b6cd8062a8cd630c966c89e76f0dc26155640a395f9583bc7070557166aae8d"
     },
     {
       "path": "data-quality.md",
       "downloadPath": "skills/baby/data-quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/data-quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/data-quality.md",
+      "byteCount": 1950,
+      "sha256": "5410af579e35dfe8b7d2759806a580efbb8f6b07695a9fd538bc1fce14c3ee8e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/baby/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/memory-template.md",
+      "byteCount": 1897,
+      "sha256": "1d4a93801c8cc7916a368be49894ada01a761fc8b959523f317187c88267eb28"
     },
     {
       "path": "metric-catalog.md",
       "downloadPath": "skills/baby/metric-catalog.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/metric-catalog.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/metric-catalog.md",
+      "byteCount": 2578,
+      "sha256": "6f4d4bab5dc68ca80cd76c68f2b7b62b45ccceedf2420f836cbbda71f0a56b2a"
     },
     {
       "path": "routine-blueprints.md",
       "downloadPath": "skills/baby/routine-blueprints.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/routine-blueprints.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/routine-blueprints.md",
+      "byteCount": 1665,
+      "sha256": "ecd8b29d1536611b211ce4601a19b59c0d7b903ee79cfee703607e68d48b02ec"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/baby/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/setup.md",
+      "byteCount": 2870,
+      "sha256": "6c702d18031150d7a74054d1745c83145b30799a2d75a3c24091a6333c4e392c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/baby/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/SKILL.md",
+      "byteCount": 6882,
+      "sha256": "9deeffd78d103343155eaa1be83cd4f08ea53ac2aa1533359f35dfa95852ace6"
     },
     {
       "path": "tracking-framework.md",
       "downloadPath": "skills/baby/tracking-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/tracking-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/tracking-framework.md",
+      "byteCount": 1653,
+      "sha256": "ec7ef2d4336dae0bb512be320091cd66cae0325cf887b0283c9785eeda630fa4"
     },
     {
       "path": "triage-rules.md",
       "downloadPath": "skills/baby/triage-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/triage-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/triage-rules.md",
+      "byteCount": 2842,
+      "sha256": "72f7a747c57e822a2e8ece7440a572a69df80164d7bf34c99aa20473a7315ca7"
     },
     {
       "path": "visit-summary-template.md",
       "downloadPath": "skills/baby/visit-summary-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/visit-summary-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baby/visit-summary-template.md",
+      "byteCount": 1279,
+      "sha256": "83f7ecde8348dabfcc8e742b579160d6ad1e8be85eb0d4ded0863b9427b2f793"
     }
   ]
 }

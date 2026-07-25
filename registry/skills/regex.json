@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "55ad3a2b2a253b5320956ef13c91aae86032a0194e46e16beccaaf24096a0338",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "regex",
-    "name": "Regex",
+    "name": "regex",
     "description": "Write correct, efficient regular expressions across different engines.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/regex",
     "summary": "Greedy vs Lazy - `.*` is greedy—matches as much as possible; `.*?` is lazy—matches minimum - Greedy often overshoots: `<.*>` on `<a>b</a>` matches entire string, not `<a>` - Default quantifiers `+ * {n,}` are greedy—add ",
     "repositoryPath": "skills/regex",
     "manifestPath": "registry/skills/regex.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/regex/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/_meta.json",
+      "byteCount": 162,
+      "sha256": "130305be9e6329a65794ea17b21c95781d6a5743091ec869b35fee8069c1041b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/regex/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/regex/SKILL.md",
+      "byteCount": 3753,
+      "sha256": "991d4435d7bcc9184651e7d539a1ab3e18a0a67046a24bc5b705ee91413307de"
     }
   ]
 }

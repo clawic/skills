@@ -1,7 +1,17 @@
 ---
-name: Trader
+name: trader
+slug: trader
+version: 1.0.0
 description: Analyze markets, manage risk, and execute trades with disciplined strategies and emotional control.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/trader
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Trader
 ---
 
 # Trading Assistance Rules

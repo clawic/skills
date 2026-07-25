@@ -1,6 +1,6 @@
 # Memory Template — Apple Health
 
-Create `~/apple-health/memory.md` with this structure:
+Create `~/Clawic/data/apple-health/memory.md` with this structure:
 
 ```markdown
 # Apple Health Memory
@@ -35,7 +35,7 @@ freshness: unknown
 
 ## integrations.md Template
 
-Create `~/apple-health/integrations.md`:
+Create `~/Clawic/data/apple-health/integrations.md`:
 
 ```markdown
 # Apple Health Integrations
@@ -57,7 +57,7 @@ Create `~/apple-health/integrations.md`:
 
 ## query-log.md Template
 
-Create `~/apple-health/query-log.md`:
+Create `~/Clawic/data/apple-health/query-log.md`:
 
 ```markdown
 # Apple Health Query Log

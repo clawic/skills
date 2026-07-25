@@ -1,6 +1,6 @@
 # Memory Template
 
-Copy to `~/cco/memory.md` on first use.
+Copy to `~/Clawic/data/cco/memory.md` on first use.
 
 ```markdown
 # CCO Memory
@@ -42,5 +42,5 @@ Copy to `~/cco/memory.md` on first use.
 
 ```bash
 mkdir -p ~/cco
-touch ~/cco/memory.md
+touch ~/Clawic/data/cco/memory.md
 ```

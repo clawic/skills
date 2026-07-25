@@ -1,6 +1,6 @@
 # Topic Namespace Templates
 
-Create these files for every topic slug under `~/duolingo/topics/<topic-slug>/`.
+Create these files for every topic slug under `~/Clawic/data/duolingo/topics/<topic-slug>/`.
 
 ## profile.md
 

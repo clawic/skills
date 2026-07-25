@@ -1,6 +1,6 @@
 # Setup - Baidu
 
-Use this file when `~/baidu/` is missing or empty.
+Use this file when `~/Clawic/data/baidu/` is missing or empty.
 
 Answer the immediate Baidu request first, then lock only the defaults that should repeat in future Baidu tasks.
 
@@ -39,12 +39,12 @@ Default to the lightest format that still prevents the usual Baidu confusion.
 
 ```bash
 mkdir -p ~/baidu
-touch ~/baidu/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
+touch ~/Clawic/data/baidu/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
 chmod 700 ~/baidu
-chmod 600 ~/baidu/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
+chmod 600 ~/Clawic/data/baidu/{memory.md,accounts.md,regions.md,sources.md,decisions.md}
 ```
 
-If `~/baidu/memory.md` is empty, initialize the baseline files from `memory-template.md`.
+If `~/Clawic/data/baidu/memory.md` is empty, initialize the baseline files from `memory-template.md`.
 
 ### 5. What to save
 

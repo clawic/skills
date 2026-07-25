@@ -1,11 +1,24 @@
 ---
-name: Instacart
+name: instacart
 slug: instacart
 version: 1.0.0
-homepage: https://clawic.com/skills/instacart
 description: Build Instacart recipe pages, shopping lists, and retailer lookups with MCP, REST, secure auth, and launch-ready integration rules.
+homepage: https://clawic.com/skills/instacart
 changelog: Initial release with MCP, REST, Connect boundary, and API integration playbooks for Instacart.
-metadata: {"clawdbot":{"emoji":"IC","requires":{"env":["INSTACART_API_KEY"],"bins":["jq"]},"primaryEnv":"INSTACART_API_KEY","os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: IC
+    requires:
+      env:
+      - INSTACART_API_KEY
+      bins:
+      - jq
+    primaryEnv: INSTACART_API_KEY
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Instacart
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User needs Instacart-specific execution rather than generic grocery advice. Acti
 
 ## Architecture
 
-Memory lives in `~/instacart/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/instacart/`. See `memory-template.md` for setup.
 
 ```text
-~/instacart/
+~/Clawic/data/instacart/
 |-- memory.md                # Operating context, activation rules, approved surfaces
 |-- url-cache.md             # Payload hashes and generated products_link URLs
 |-- retailer-notes.md        # Preferred retailers, geo defaults, and known-good keys
@@ -55,7 +68,7 @@ Never ask the user to paste API keys into chat. Use environment variables or the
 
 ## Data Storage
 
-Local notes in `~/instacart/` should store:
+Local notes in `~/Clawic/data/instacart/` should store:
 - approved environment and surface selection
 - geo defaults such as `country_code` and common postal codes
 - known-good payload shapes and normalized line-item conventions
@@ -162,7 +175,7 @@ Data that leaves your machine:
 - optional MCP tool payloads
 
 Data that stays local:
-- caches and operating notes in `~/instacart/`
+- caches and operating notes in `~/Clawic/data/instacart/`
 - request diffs, retry notes, and approved retailer defaults
 - raw secrets if the user stores them in an environment manager
 
@@ -178,7 +191,7 @@ By using this skill, data is sent to Instacart services and any explicitly confi
 Only install and run it if you trust Instacart with the grocery and integration data you send.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `api` - Build reliable REST request and error-handling patterns
 - `auth` - Structure credential hygiene and environment separation
@@ -188,5 +201,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star instacart`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/instacart
+- Latest version: https://clawic.com/skills/instacart

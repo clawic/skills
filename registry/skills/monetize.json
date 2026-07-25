@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "93b665c85b61e859c194bed8807938674230183e120ef2e9b708dee6ff2012b4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "monetize",
-    "name": "Monetize",
+    "name": "monetize",
     "description": "Pricing, launch, and revenue strategies for indie products, SaaS, mobile apps, and creators. Concrete prices, not theory.",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/monetize",
     "summary": "How This Works Tell me what you're building and your situation. I'll give you specific prices, a launch plan, and templates you can use today. No \"it depends.\" No theory. Decisions made for you. Load the Right Guide | Si",
     "repositoryPath": "skills/monetize",
     "manifestPath": "registry/skills/monetize.json"
@@ -20,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/monetize/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/_meta.json",
+      "byteCount": 168,
+      "sha256": "5af11748997d3d2bbac35d99aa88e6ff1711fcc4d8a21db0e5407d3bedc987e6"
     },
     {
       "path": "creator.md",
       "downloadPath": "skills/monetize/creator.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/creator.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/creator.md",
+      "byteCount": 3391,
+      "sha256": "bb2e04304071b9244d92e5e2f49a9df0d27eb4d7a869152e70108c1a21f47085"
     },
     {
       "path": "launch.md",
       "downloadPath": "skills/monetize/launch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/launch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/launch.md",
+      "byteCount": 2663,
+      "sha256": "7a7fa5b8b887c7d6e2998fad662d2a1a5212071258870b0ca50d140568493bb3"
     },
     {
       "path": "mobile-apps.md",
       "downloadPath": "skills/monetize/mobile-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/mobile-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/mobile-apps.md",
+      "byteCount": 3961,
+      "sha256": "a143520ffd22b4205837527cae6a67c9ea05d89a306808babc1beba914afdcb7"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/monetize/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/pricing.md",
+      "byteCount": 2573,
+      "sha256": "b55cf72ae57eaa6d5ae8b4944c8782795bc0b28d11527f5c04c5ae193964bd0b"
     },
     {
       "path": "saas.md",
       "downloadPath": "skills/monetize/saas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/saas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/saas.md",
+      "byteCount": 2707,
+      "sha256": "3dbc6f7b4a1582b65ebd50187f17c13c9ff64fa7f5161230fbf39f4e5249884a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/monetize/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/SKILL.md",
+      "byteCount": 2153,
+      "sha256": "588b3b34504d9d88c692573d3f059aa1eca1a56cf1667c0f97e9757b89f5e6e5"
     },
     {
       "path": "success.md",
       "downloadPath": "skills/monetize/success.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/success.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/success.md",
+      "byteCount": 3006,
+      "sha256": "5c08299142ca4601c2d8c3713c666e9652d24fd5e0ad955d4ebf64e7dc37e824"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/monetize/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monetize/templates.md",
+      "byteCount": 3122,
+      "sha256": "568398e7e29ebeeec6e7be75d395856ce4f63b76621728a06cdaf98129f6cba9"
     }
   ]
 }

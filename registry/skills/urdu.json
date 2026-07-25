@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1407b6f9b99712a1ba99a17740af9b85968dffe5e3e46da879e8a536eb1d663c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "urdu",
-    "name": "Urdu",
+    "name": "urdu",
     "description": "Write Urdu that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/urdu",
     "summary": "The Real Problem AI Urdu is technically correct but sounds off. Too formal. Too ادبی (literary). Natives write more casually, with warmth and natural flow. Match that. Formality Default Default register is too high. Casu",
     "repositoryPath": "skills/urdu",
     "manifestPath": "registry/skills/urdu.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/urdu/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/urdu/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/urdu/_meta.json",
+      "byteCount": 160,
+      "sha256": "fe3ab85e62854134db782b801d86a8c6af4c0e996cbe57e834680b5d3408d697"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/urdu/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/urdu/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/urdu/SKILL.md",
+      "byteCount": 2145,
+      "sha256": "a8a4306b82eb4cff8df54f220a2198db16a0ea7d90e45d77646b3fde4ed008d9"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template - Instacart
 
-Create `~/instacart/memory.md` with this structure:
+Create `~/Clawic/data/instacart/memory.md` with this structure:
 
 ```markdown
 # Instacart Memory

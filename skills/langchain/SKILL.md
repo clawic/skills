@@ -1,7 +1,20 @@
 ---
-name: LangChain
+name: langchain
+slug: langchain
+version: 1.0.0
 description: Avoid common LangChain mistakes — LCEL gotchas, memory persistence, RAG chunking, and output parser traps.
-metadata: {"clawdbot":{"emoji":"🦜","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/langchain
+metadata:
+  clawdbot:
+    emoji: 🦜
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: LangChain
 ---
 
 ## LCEL Basics

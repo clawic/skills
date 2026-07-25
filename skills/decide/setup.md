@@ -1,6 +1,6 @@
 # Setup - Decide
 
-Use this file when `~/decide/` is missing or empty.
+Use this file when `~/Clawic/data/decide/` is missing or empty.
 
 Do not turn setup into a long onboarding interview. Install the retrieval path first, keep helping immediately, and personalize through real decisions.
 
@@ -11,15 +11,15 @@ Do not turn setup into a long onboarding interview. Install the retrieval path f
 Create the local folder and baseline files before a long back-and-forth:
 
 ```bash
-mkdir -p ~/decide/domains
-touch ~/decide/{memory.md,decisions.md}
-chmod 700 ~/decide ~/decide/domains
-chmod 600 ~/decide/{memory.md,decisions.md}
+mkdir -p ~/Clawic/data/decide/domains
+touch ~/Clawic/data/decide/{memory.md,decisions.md}
+chmod 700 ~/decide ~/Clawic/data/decide/domains
+chmod 600 ~/Clawic/data/decide/{memory.md,decisions.md}
 ```
 
-If `~/decide/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/decide/memory.md` is empty, initialize it from `memory-template.md`.
 
-If `~/decide/decisions.md` is empty, start it with:
+If `~/Clawic/data/decide/decisions.md` is empty, start it with:
 
 ```markdown
 # Decision Log
@@ -42,7 +42,7 @@ Show the exact snippet immediately and wait for explicit approval before writing
 ```markdown
 **Decisions**
 Consequential branching choices deserve stricter context matching than ordinary preferences.
-Before framework, architecture, vendor, migration, publish, spend, or other long-term decisions, read `~/decide/memory.md`, then only the smallest relevant file from `~/decide/domains/`, and check `~/decide/decisions.md` for a materially similar question and component set.
+Before framework, architecture, vendor, migration, publish, spend, or other long-term decisions, read `~/Clawic/data/decide/memory.md`, then only the smallest relevant file from `~/Clawic/data/decide/domains/`, and check `~/Clawic/data/decide/decisions.md` for a materially similar question and component set.
 Do not reuse a stored rule unless the question and the key components match closely enough to justify the same branch.
 If a required component is missing, an exception applies, or the context differs in a way that could change the answer, ask first.
 When a pattern repeats often enough, ask whether it should become a default instead of silently assuming it.
@@ -57,29 +57,29 @@ Show the exact snippet immediately and wait for explicit approval before writing
 Add this continuity line next to other memory sources:
 
 ```markdown
-- **Decisions:** `~/decide/` (via `decide`) - major decision rules, component models, domain overrides, and past branching choices with outcomes
+- **Decisions:** `~/Clawic/data/decide/` (via `decide`) - major decision rules, component models, domain overrides, and past branching choices with outcomes
 ```
 
 Right after the sentence "Capture what matters...", add:
 
 ```markdown
-Use `~/decide/memory.md` for durable approval boundaries, required components, and confirmed decision defaults.
-Use `~/decide/decisions.md` for major decision records with question, components, chosen option, rationale, confidence, and outcome.
-Use `~/decide/domains/` for domain-specific component models, overrides, and exceptions.
-Before consequential choices, list available files in `~/decide/domains/` first and then read only the smallest relevant override.
+Use `~/Clawic/data/decide/memory.md` for durable approval boundaries, required components, and confirmed decision defaults.
+Use `~/Clawic/data/decide/decisions.md` for major decision records with question, components, chosen option, rationale, confidence, and outcome.
+Use `~/Clawic/data/decide/domains/` for domain-specific component models, overrides, and exceptions.
+Before consequential choices, list available files in `~/Clawic/data/decide/domains/` first and then read only the smallest relevant override.
 ```
 
 Before the "Write It Down" subsection, add:
 
 ```markdown
 Before framework, architecture, vendor, pricing, publish, migration, spend, or other consequential branching choices:
-- Read `~/decide/memory.md`
+- Read `~/Clawic/data/decide/memory.md`
 - List available domain overrides first:
   ```bash
-  [ -d ~/decide/domains ] && find ~/decide/domains -maxdepth 1 -type f -name "*.md" | sort
+  [ -d ~/Clawic/data/decide/domains ] && find ~/Clawic/data/decide/domains -maxdepth 1 -type f -name "*.md" | sort
   ```
 - Read only the matching domain override when one exists
-- Check `~/decide/decisions.md` for a materially similar question and component set
+- Check `~/Clawic/data/decide/decisions.md` for a materially similar question and component set
 - Compare the required components before reusing a stored rule
 - If any required component is missing or mismatched, ask first
 - Prefer asking over guessing when the branch can create large future cost
@@ -88,9 +88,9 @@ Before framework, architecture, vendor, pricing, publish, migration, spend, or o
 Inside the "Write It Down" bullets, refine behavior with lines like:
 
 ```markdown
-- Confirmed long-term decision rule -> append to `~/decide/memory.md`
-- Major decision record with components, chosen option, rationale, and outcome -> append to `~/decide/decisions.md`
-- Domain-specific component model or exception -> append to `~/decide/domains/<domain>.md`
+- Confirmed long-term decision rule -> append to `~/Clawic/data/decide/memory.md`
+- Major decision record with components, chosen option, rationale, and outcome -> append to `~/Clawic/data/decide/decisions.md`
+- Domain-specific component model or exception -> append to `~/Clawic/data/decide/domains/<domain>.md`
 - Repeated similar decision pattern -> ask the user whether it should become a default before promoting it
 ```
 

@@ -1,11 +1,26 @@
 ---
-name: Yelp
+name: yelp
 slug: yelp
 version: 1.0.0
-homepage: https://clawic.com/skills/yelp
 description: Search Yelp businesses and reviews, compare local options, and audit listing quality with official APIs, public pages, and safe action boundaries.
+homepage: https://clawic.com/skills/yelp
 changelog: Initial release with local business discovery, review signal interpretation, shortlist guidance, and listing audit support.
-metadata: {"clawdbot":{"emoji":"⭐","requires":{"bins":["curl","jq"],"config":["~/yelp/"]},"os":["linux","darwin","win32"],"configPaths":["~/yelp/"]}}
+metadata:
+  clawdbot:
+    emoji: ⭐
+    requires:
+      bins:
+      - curl
+      - jq
+      config:
+      - ~/Clawic/data/yelp/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/yelp/
+    displayName: Yelp
 ---
 
 ## When to Use
@@ -16,10 +31,10 @@ Use this skill when the answer depends on Yelp-specific fields such as rating, r
 
 ## Architecture
 
-Memory lives in `~/yelp/`. If `~/yelp/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/yelp/`. If `~/Clawic/data/yelp/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/yelp/
+~/Clawic/data/yelp/
 ├── memory.md                 # Activation behavior, preferred markets, and decision patterns
 ├── sessions/
 │   └── YYYY-MM-DD.md         # Current task context and selected candidates
@@ -90,7 +105,7 @@ This skill is designed for Yelp-specific work that usually breaks when an agent 
 - Do not convert Yelp metadata into hard promises.
 
 ### 6. Keep storage minimal and redacted
-- Store reusable filters, accepted or rejected shortlist reasons, and verified aliases in `~/yelp/`.
+- Store reusable filters, accepted or rejected shortlist reasons, and verified aliases in `~/Clawic/data/yelp/`.
 - Never store secrets, raw API keys, or unredacted signed request URLs.
 - In logs, keep only endpoint path, safe params, outcome, and timestamp.
 
@@ -126,7 +141,7 @@ Data that may leave your machine:
 - business names, search terms, location hints, phone numbers, and optional filter parameters sent to Yelp
 
 Data that stays local:
-- shortlist decisions, recurring filters, alias cache, and audit notes in `~/yelp/`
+- shortlist decisions, recurring filters, alias cache, and audit notes in `~/Clawic/data/yelp/`
 
 This skill does NOT:
 - store API keys in markdown files
@@ -152,7 +167,7 @@ This skill NEVER:
 - hide missing data, stale signals, or unsupported market coverage
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `google-reviews` - Compare Yelp signals against Google review patterns and reputation drift.
 - `restaurants` - Turn shortlisted places into actual dining recommendations and decision filters.
 - `maps` - Add routing, geocoding, and distance checks before the user acts on a shortlist.
@@ -161,5 +176,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star yelp`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/yelp
+- Latest version: https://clawic.com/skills/yelp

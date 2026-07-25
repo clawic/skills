@@ -1,6 +1,6 @@
 # Setup - Fox News Monitor
 
-If `~/fox-news/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
+If `~/Clawic/data/fox-news/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
 
 ## Your Attitude
 

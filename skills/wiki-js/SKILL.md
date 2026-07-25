@@ -1,7 +1,17 @@
 ---
-name: Wiki.js
+name: wiki-js
+slug: wiki-js
+version: 1.0.0
 description: Deploy and manage Wiki.js documentation sites avoiding common configuration traps.
-metadata: {"clawdbot":{"emoji":"📖","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/wiki-js
+metadata:
+  clawdbot:
+    emoji: 📖
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Wiki.js
 ---
 
 ## Critical Initial Config

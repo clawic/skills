@@ -1,11 +1,11 @@
 # Indie Hacker Memory Setup
 
-Create `~/indie-hacker/` on first use.
+Create `~/Clawic/data/indie-hacker/` on first use.
 
 ## Structure
 
 ```
-~/indie-hacker/
+~/Clawic/data/indie-hacker/
 ├── memory.md              # HOT: active projects, week priorities
 ├── projects/
 │   └── {project-name}.md  # Per-project tracking

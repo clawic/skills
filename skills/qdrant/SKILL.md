@@ -1,9 +1,19 @@
 ---
-name: Qdrant
+name: qdrant
 slug: qdrant
 version: 1.0.0
 description: Build vector search with Qdrant using collections, payloads, filtering, and optimized indexing for semantic similarity.
-metadata: {"clawdbot":{"emoji":"🔍","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/qdrant
+metadata:
+  clawdbot:
+    emoji: 🔍
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Qdrant
 ---
 
 ## When to Use

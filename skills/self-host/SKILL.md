@@ -1,7 +1,21 @@
 ---
-name: Self-Host
+name: self-host
+slug: self-host
+version: 1.0.0
 description: Deploy and maintain self-hosted services with security, backups, and long-term reliability.
-metadata: {"clawdbot":{"emoji":"🖥️","requires":{"anyBins":["docker","podman"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/self-host
+metadata:
+  clawdbot:
+    emoji: 🖥️
+    requires:
+      anyBins:
+      - docker
+      - podman
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Self-Host
 ---
 
 # Self-Hosting Rules

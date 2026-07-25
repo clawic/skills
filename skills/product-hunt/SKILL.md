@@ -1,9 +1,19 @@
 ---
-name: Product Hunt
+name: product-hunt
 slug: product-hunt
 version: 1.0.0
-description: "Launch, hunt, and research products on Product Hunt with timing, assets, engagement, and anti-manipulation practices."
-metadata: {"clawdbot":{"emoji":"🚀","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+description: Launch, hunt, and research products on Product Hunt with timing, assets, engagement, and anti-manipulation practices.
+homepage: https://clawic.com/skills/product-hunt
+metadata:
+  clawdbot:
+    emoji: 🚀
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Product Hunt
 ---
 
 ## Quick Reference

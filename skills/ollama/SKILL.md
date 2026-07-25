@@ -1,11 +1,30 @@
 ---
-name: Ollama
+name: ollama
 slug: ollama
 version: 1.0.0
-homepage: https://clawic.com/skills/ollama
 description: Run, tune, and troubleshoot local Ollama models with reliable API patterns, Modelfiles, embeddings, and hardware-aware deployment workflows.
+homepage: https://clawic.com/skills/ollama
 changelog: Initial release with local model setup, stable JSON output, custom model workflows, safer remote access, and recovery playbooks.
-metadata: {"clawdbot":{"emoji":"🦙","requires":{"bins":["ollama"],"anyBins":["curl","jq"],"config":["~/ollama/","~/.ollama/"]},"os":["linux","darwin","win32"],"configPaths":["~/ollama/","~/.ollama/"]}}
+metadata:
+  clawdbot:
+    emoji: 🦙
+    requires:
+      bins:
+      - ollama
+      anyBins:
+      - curl
+      - jq
+      config:
+      - ~/Clawic/data/ollama/
+      - ~/.ollama/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/ollama/
+    - ~/.ollama/
+    displayName: Ollama
 ---
 
 ## When to Use
@@ -16,10 +35,10 @@ Use this instead of generic AI advice when the blocker is specific to local runt
 
 ## Architecture
 
-Memory lives in `~/ollama/`. If `~/ollama/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/ollama/`. If `~/Clawic/data/ollama/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/ollama/
+~/Clawic/data/ollama/
 |-- memory.md          # Durable context and activation boundaries
 |-- environment.md     # Host, GPU, OS, runtime, and service notes
 |-- model-registry.md  # Approved models, tags, quants, and fit notes
@@ -64,7 +83,7 @@ This skill is for practical Ollama execution, not abstract local-LLM discussion.
 
 ## Data Storage
 
-Keep only durable operational context in `~/ollama/`:
+Keep only durable operational context in `~/Clawic/data/ollama/`:
 - host facts that materially change advice: OS, GPU class, CPU-only constraints, service manager, remote or local deployment
 - approved model tags, copied aliases, quant choices, and context limits that worked in practice
 - Modelfile defaults, JSON output patterns, and safe OpenAI-compatible mappings
@@ -137,7 +156,7 @@ Data that leaves your machine:
 
 Data that stays local:
 - prompts and outputs served through the local Ollama runtime on the user machine
-- durable workflow notes under `~/ollama/`
+- durable workflow notes under `~/Clawic/data/ollama/`
 - local Modelfiles, retrieval notes, and performance baselines unless the user exports them
 
 This skill does NOT:
@@ -166,7 +185,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ai` - Frame when local Ollama is the right fit versus cloud inference.
 - `models` - Compare local model families, sizes, and capability tradeoffs before pinning defaults.
 - `api` - Reuse robust HTTP request, retry, and parsing patterns around local services.
@@ -175,5 +194,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star ollama`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/ollama
+- Latest version: https://clawic.com/skills/ollama

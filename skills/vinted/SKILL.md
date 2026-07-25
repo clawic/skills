@@ -1,11 +1,22 @@
 ---
-name: Vinted
+name: vinted
 slug: vinted
 version: 1.0.0
-homepage: https://clawic.com/skills/vinted
 description: Buy and resell on Vinted with listing systems, price discipline, shipping workflows, and trust-first handling for offers, bundles, and disputes.
+homepage: https://clawic.com/skills/vinted
 changelog: Initial release with end-to-end Vinted workflows for buying, selling, shipping, bundles, and account-safe dispute handling.
-metadata: {"clawdbot":{"emoji":"👗","requires":{"bins":[],"config":["~/vinted/"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 👗
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/vinted/
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Vinted
 ---
 
 ## When to Use
@@ -15,10 +26,10 @@ Use this skill when the output must feel like a fashion resale marketplace opera
 
 ## Architecture
 
-Memory lives in `~/vinted/`. If `~/vinted/` does not exist, run `setup.md`. See `memory-template.md` for baseline structure.
+Memory lives in `~/Clawic/data/vinted/`. If `~/Clawic/data/vinted/` does not exist, run `setup.md`. See `memory-template.md` for baseline structure.
 
 ```text
-~/vinted/
+~/Clawic/data/vinted/
 |-- memory.md                # Core profile, goals, and operating preferences
 |-- closet.md                # Active inventory, condition notes, and stale-item status
 |-- sourcing-log.md          # Buyer watchlist, target prices, and buy/no-buy decisions
@@ -54,7 +65,7 @@ This skill combines three layers in one execution model:
 
 ## Data Storage
 
-Local notes in `~/vinted/` may include:
+Local notes in `~/Clawic/data/vinted/` may include:
 - usage profile, preferred brands, sizing constraints, and budget limits
 - closet inventory, price floors, stale-item rules, and bundle policy
 - sourcing outcomes, failed purchases, and fraud red flags worth reusing
@@ -131,7 +142,7 @@ Data that leaves your machine:
 - only user-approved Vinted traffic when the user requests live buying, selling, shipping, or Pro operations
 
 Data that stays local:
-- context and operating memory under `~/vinted/`
+- context and operating memory under `~/Clawic/data/vinted/`
 - closet notes, sourcing decisions, parcel proof logs, and issue history
 
 This skill does NOT:
@@ -153,7 +164,7 @@ This skill NEVER:
 - recommends policy evasion or off-platform workarounds
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ecommerce` - Build full-funnel commerce systems beyond one marketplace.
 - `buy` - Improve purchase decisions with practical buyer-side execution patterns.
 - `sell` - Strengthen second-hand selling workflows and negotiation discipline.
@@ -162,5 +173,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star vinted`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/vinted
+- Latest version: https://clawic.com/skills/vinted

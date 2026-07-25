@@ -1,6 +1,6 @@
 # Setup - Denmark Travel Guide
 
-Create `~/denmark/` on first use and initialize `~/denmark/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/denmark/` on first use and initialize `~/Clawic/data/denmark/memory.md` from `memory-template.md`.
 
 ## First Contact
 
@@ -35,7 +35,7 @@ Keep durable facts in memory:
 
 ## Returning Users
 
-Read `~/denmark/memory.md`, reuse what is still valid, and ask only what changed:
+Read `~/Clawic/data/denmark/memory.md`, reuse what is still valid, and ask only what changed:
 - Dates
 - Region focus
 - Existing bookings

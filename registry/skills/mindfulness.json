@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "693a67a79c891b19b826751439e2f7e8c7eceac5b1167bf3066f23bac4ec3aa0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "mindfulness",
-    "name": "Mindfulness (Tracker, Logger, Guided Practice)",
+    "name": "mindfulness",
     "description": "Track mindfulness habits, run guided meditations, and improve calm focus with adaptive routines, reflective logs, and context-aware practice plans.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/mindfulness",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mindfulness/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/_meta.json",
+      "byteCount": 209,
+      "sha256": "9bac190a959c41b70ad8f5168b0adce68210a893e92d4c6c146b5a70d3db03a9"
     },
     {
       "path": "guided-meditations.md",
       "downloadPath": "skills/mindfulness/guided-meditations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/guided-meditations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/guided-meditations.md",
+      "byteCount": 1483,
+      "sha256": "d10d781969cf944c8c38dbc0a5e9cb19e568c8b57b3270855d48fbb7c1b64bf6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/mindfulness/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/memory-template.md",
+      "byteCount": 2421,
+      "sha256": "6f4a5bc33912ad01b782d6885cb73ae45893e5e978ef9c6f20a00f668fce60e5"
     },
     {
       "path": "practice-modes.md",
       "downloadPath": "skills/mindfulness/practice-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/practice-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/practice-modes.md",
+      "byteCount": 1134,
+      "sha256": "c245bf78701c1669a24f22b2a88db37d0e85da38ce89f65fa7b9262bb45ec01d"
     },
     {
       "path": "recommendation-rules.md",
       "downloadPath": "skills/mindfulness/recommendation-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/recommendation-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/recommendation-rules.md",
+      "byteCount": 1380,
+      "sha256": "8da95ae47a68b51b9453a79350a27b87b149e80a089dadd7c6fafcb2856297a0"
     },
     {
       "path": "reflection-prompts.md",
       "downloadPath": "skills/mindfulness/reflection-prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/reflection-prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/reflection-prompts.md",
+      "byteCount": 954,
+      "sha256": "c1edc00e9d22dffcde3f7014143bbebe63551380e4f3160a6495bf711373624b"
     },
     {
       "path": "session-log-template.md",
       "downloadPath": "skills/mindfulness/session-log-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/session-log-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/session-log-template.md",
+      "byteCount": 652,
+      "sha256": "e14596ec2587ca6b0b674145201ec32a5059e85bc0db4c5f6d3879bd6e05bbff"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/mindfulness/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/setup.md",
+      "byteCount": 2083,
+      "sha256": "0378a7e68db673f4523d0437c5c51a5293fd8016fc0fc07305d0553f52a611a0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mindfulness/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mindfulness/SKILL.md",
+      "byteCount": 6122,
+      "sha256": "4a5ea1824dce68f5c3c3cf9914164ef874d79bf52fae2f38753aa4dfecb3d36e"
     }
   ]
 }

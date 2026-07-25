@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3107cd928f2f9dfd24ad3b6a3208b169279b3fc591ae4b331a51eb87d25af3e9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "archive",
-    "name": "Archive",
+    "name": "archive",
     "description": "Capture and preserve content as intelligent snapshots with semantic search, automatic extraction, and proactive resurfacing.",
     "version": "1.0.0",
-    "summary": "Architecture Archive storage lives in `~/archive/` with tiered structure. See `memory-template.md` for setup. ``` ~/archive/ ├── memory.md # HOT: recent items, ≤100 lines ├── index.md # Topic/tag index ├── items/ # Indiv",
+    "homepage": "https://clawic.com/skills/archive",
+    "summary": "Architecture Archive storage lives in `~/Clawic/data/archive/` with tiered structure. See `memory-template.md` for setup. ``` ~/Clawic/data/archive/ ├── memory.md # HOT: recent items, ≤100 lines ├── index.md # Topic/tag ",
     "repositoryPath": "skills/archive",
     "manifestPath": "registry/skills/archive.json"
   },
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/archive/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/_meta.json",
+      "byteCount": 166,
+      "sha256": "ce88c6fd7004a23512a65264b5d4da312384aaec0d1645c50602723469fe9b5f"
     },
     {
       "path": "capture.md",
       "downloadPath": "skills/archive/capture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/capture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/capture.md",
+      "byteCount": 1390,
+      "sha256": "54953f07309bf088e0d6d126adfb2c2375a0b1ff9261bd8ec0f4bfa8ce45e3fd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/archive/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/memory-template.md",
+      "byteCount": 1737,
+      "sha256": "72c1031c400803ee15ddf806f67b5c3f1f7fe5536f26880cfc65cc097c72f7bc"
     },
     {
       "path": "resurface.md",
       "downloadPath": "skills/archive/resurface.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/resurface.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/resurface.md",
+      "byteCount": 1382,
+      "sha256": "a5c829c3f2671c19161d2f131e1d424bce93faad9d014cd51a0ecbde0af29ed8"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/archive/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/search.md",
+      "byteCount": 1336,
+      "sha256": "fae0dc98c34f697d24b965bf5d84fd17310a5ea26139f999069329b67d50c083"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/archive/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/archive/SKILL.md",
+      "byteCount": 3623,
+      "sha256": "e0f2868bee72a0a4dad7d01bfcd528393398d211c099395093f2838fb033990f"
     }
   ]
 }

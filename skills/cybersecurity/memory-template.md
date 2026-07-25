@@ -1,6 +1,6 @@
 # Memory Template - Cybersecurity
 
-Create `~/cybersecurity/memory.md` with this structure:
+Create `~/Clawic/data/cybersecurity/memory.md` with this structure:
 
 ```markdown
 # Cybersecurity Memory
@@ -52,7 +52,7 @@ integration: pending | complete | paused | never_ask
 ## Local Files to Initialize
 
 ```bash
-touch ~/cybersecurity/{memory.md,environments.md,incidents.md,findings.md,notes.md}
+touch ~/Clawic/data/cybersecurity/{memory.md,environments.md,incidents.md,findings.md,notes.md}
 chmod 700 ~/cybersecurity
-chmod 600 ~/cybersecurity/{memory.md,environments.md,incidents.md,findings.md,notes.md}
+chmod 600 ~/Clawic/data/cybersecurity/{memory.md,environments.md,incidents.md,findings.md,notes.md}
 ```

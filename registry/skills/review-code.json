@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "45b227bb2b8c7535360399a4463d3273172055f4e6764f895ef2c45bf46ec86c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "review-code",
-    "name": "Review Code",
+    "name": "review-code",
     "description": "Review code with risk-first analysis, reproducible evidence, and patch-ready guidance for correctness, security, performance, and maintainability.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/review-code",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/review-code/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/_meta.json",
+      "byteCount": 174,
+      "sha256": "05d96689eb51436f9ea089815dfd250aba4ab7e762d97f38284bf1c0a54d3b29"
     },
     {
       "path": "comment-templates.md",
       "downloadPath": "skills/review-code/comment-templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/comment-templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/comment-templates.md",
+      "byteCount": 987,
+      "sha256": "95c2210052c1a354949464b898a9b98d79c776c591e07b14576d19bd823e1ea9"
     },
     {
       "path": "language-risk-checklists.md",
       "downloadPath": "skills/review-code/language-risk-checklists.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/language-risk-checklists.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/language-risk-checklists.md",
+      "byteCount": 1556,
+      "sha256": "5695c313089a9b3f83400e3c988324022fc37c4a4f6b8413fe0a6b277fba562f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/review-code/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/memory-template.md",
+      "byteCount": 1634,
+      "sha256": "369f5fe2edb8ef01134685f104759abf7e5952e3c0ca195a757f20cc62c614ac"
     },
     {
       "path": "patch-strategy.md",
       "downloadPath": "skills/review-code/patch-strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/patch-strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/patch-strategy.md",
+      "byteCount": 1284,
+      "sha256": "9568b3b0baeccc501397398c251c8e730251f8d48375563e7696093041eed574"
     },
     {
       "path": "review-workflow.md",
       "downloadPath": "skills/review-code/review-workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/review-workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/review-workflow.md",
+      "byteCount": 1499,
+      "sha256": "c9717ff5844743dbcdbe3a6543aecd8b98a3f458f1625774a7a191b5285c9a2d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/review-code/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/setup.md",
+      "byteCount": 1848,
+      "sha256": "799b95204df8f5be80e6af98509431c6f22b044204dea0de93c5dab02f25ae4d"
     },
     {
       "path": "severity-and-confidence.md",
       "downloadPath": "skills/review-code/severity-and-confidence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/severity-and-confidence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/severity-and-confidence.md",
+      "byteCount": 1500,
+      "sha256": "8a2f7ef6230bd86c3acb50704f0773cb67fa13fb10a4f1f4e1913c4c3bde79df"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/review-code/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/SKILL.md",
+      "byteCount": 5719,
+      "sha256": "b3e0e38932ad99d05d54cb4a8a5fb4d4757247a5c87880b6eb531b20a7a5e35a"
     },
     {
       "path": "test-impact-playbook.md",
       "downloadPath": "skills/review-code/test-impact-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/test-impact-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/review-code/test-impact-playbook.md",
+      "byteCount": 1369,
+      "sha256": "367c28149fbc3cce4dc5d95576b3814e26ccc51199e5ce15eeeb9a9e56538c9c"
     }
   ]
 }

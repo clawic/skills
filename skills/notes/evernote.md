@@ -114,6 +114,6 @@ clinote note create --title "Product Sync 2026-02-19" --file /tmp/note.md --note
 
 ## Integration Notes
 
-- Action items extracted from Evernote → sync to `~/notes/actions.md`
+- Action items extracted from Evernote → sync to `~/Clawic/data/notes/actions.md`
 - Search results include Evernote with `evernote:Note Title` format
 - If `clinote` unavailable → fall back to local

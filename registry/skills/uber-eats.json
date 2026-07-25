@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0993006ecf1de5d7469bef017dc2f9a0efb9cc6be10ff582f23f3eb2a98dcc28",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "uber-eats",
-    "name": "Uber Eats",
+    "name": "uber-eats",
     "description": "Navigate Uber Eats in a live browser or app handoff to compare merchants, manage carts, and reach checkout safely.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/uber-eats",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/uber-eats/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/_meta.json",
+      "byteCount": 170,
+      "sha256": "f4916ddbf8e808bf941117f8818de1c64b4045bd3df5003e13133e9e3b140f08"
     },
     {
       "path": "access-fallbacks.md",
       "downloadPath": "skills/uber-eats/access-fallbacks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/access-fallbacks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/access-fallbacks.md",
+      "byteCount": 1159,
+      "sha256": "33507bb7e1acc2b994e7c76ac280bee820b0a4acdaac62ddedb809616350d69a"
     },
     {
       "path": "browser-flow.md",
       "downloadPath": "skills/uber-eats/browser-flow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/browser-flow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/browser-flow.md",
+      "byteCount": 1756,
+      "sha256": "d79b8173b99e5f6f251ba0688a72abcb5f3f78873a094f2c628b9696dcfa514b"
     },
     {
       "path": "checkout-guardrails.md",
       "downloadPath": "skills/uber-eats/checkout-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/checkout-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/checkout-guardrails.md",
+      "byteCount": 1021,
+      "sha256": "f6792cea0a79cb1ed29ccc068f5fbcc40147bc12d381cbcabd84a2f88c518186"
     },
     {
       "path": "issue-recovery.md",
       "downloadPath": "skills/uber-eats/issue-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/issue-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/issue-recovery.md",
+      "byteCount": 1369,
+      "sha256": "087b3c2a3960c2fbcd85babe330d4e6fedde094871aa25acdef17e196f6281fb"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/uber-eats/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/memory-template.md",
+      "byteCount": 1676,
+      "sha256": "52db7704c4524271d4e7b887ac295b9d4908763d52b2df1f13db3a0456ae924f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/uber-eats/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/setup.md",
+      "byteCount": 2417,
+      "sha256": "da259f7550f0ecb50ad18789119591e92d9aed2ca2083900f975415c467b3354"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/uber-eats/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uber-eats/SKILL.md",
+      "byteCount": 10949,
+      "sha256": "ffc5083855d48c4a744379653c196045f434702bacb1cb93506020c2b76ed29e"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d790193e3a5e82f1198a7114808fbb372970fab8f333a8604aab3fe7eb806c4f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "convex",
-    "name": "Convex",
+    "name": "convex",
     "description": "Build and maintain Convex backends with schema-safe modeling, query and mutation patterns, auth guards, and production rollout checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/convex",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/convex/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/_meta.json",
+      "byteCount": 164,
+      "sha256": "d3b95433dfd358f15801a4b1ab5b5b5d58e5122808f6e4bb46814e83e0c1de32"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/convex/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/memory-template.md",
+      "byteCount": 1780,
+      "sha256": "e52785195ce51359c6607c17cff22fcf4faba74bffbb698bbafad48bc7cb6fee"
     },
     {
       "path": "operations-playbook.md",
       "downloadPath": "skills/convex/operations-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/operations-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/operations-playbook.md",
+      "byteCount": 1405,
+      "sha256": "eb7eb357da5c918787528c8dc932d6beb25bd5eb1993715016c365bccb787e20"
     },
     {
       "path": "schema-and-indexes.md",
       "downloadPath": "skills/convex/schema-and-indexes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/schema-and-indexes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/schema-and-indexes.md",
+      "byteCount": 1241,
+      "sha256": "4e611f0e263c134792c6becaa0e8eaad6690e5a5d43c4b02ba6f7193422957fe"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/convex/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/setup.md",
+      "byteCount": 1673,
+      "sha256": "5c8a1c53f5becc29ff7764695d0c1a6a694767bdcb6639a71f6845540f7def5c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/convex/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/convex/SKILL.md",
+      "byteCount": 5564,
+      "sha256": "a5b5275a2fba90e2bd238b7840b5813b77163f67655aab497257f558607ca256"
     }
   ]
 }

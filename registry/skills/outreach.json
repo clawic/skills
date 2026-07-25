@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ce74217ae502008e20a947214f9fede7d52d30d78b055e1ab26489f2daf45aec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "outreach",
-    "name": "Outreach",
+    "name": "outreach",
     "description": "Plan, personalize, and track outreach campaigns for sales, PR, recruiting, partnerships, and link building with timing strategy and follow-up cadence.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/outreach",
     "summary": "Situation Detection | Context | Load | |---------|------| | Writing cold emails, follow-ups, subject lines | `templates.md` | | Sales outreach (SDR, BDR, AE) | `by-type.md` → Sales section | | PR/Media pitching, influenc",
     "repositoryPath": "skills/outreach",
     "manifestPath": "registry/skills/outreach.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/outreach/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/_meta.json",
+      "byteCount": 168,
+      "sha256": "8485f212e354dc1aecfe0f27a182958cf8959f8a2404eae9e5440950176951a3"
     },
     {
       "path": "by-type.md",
       "downloadPath": "skills/outreach/by-type.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/by-type.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/by-type.md",
+      "byteCount": 5196,
+      "sha256": "93200fd3a39e670b0e93bbae12db85db97e9df7724252fbcd35dd1999bc154be"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/outreach/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/SKILL.md",
+      "byteCount": 2879,
+      "sha256": "592ff27f49f740aeaeef134d5eecba3b48d4ca911c7239ecfcf44f145427db23"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/outreach/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/templates.md",
+      "byteCount": 3498,
+      "sha256": "0fc885f86397a049d1c1e0ccc343a68e30a2aa84d2c6f8d01b0174831c38e711"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/outreach/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outreach/tracking.md",
+      "byteCount": 3981,
+      "sha256": "39b69698b4a2b410d16cf9b9ca3ac450140149c22ace09728f397449d22269c9"
     }
   ]
 }

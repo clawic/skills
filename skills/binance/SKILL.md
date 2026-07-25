@@ -1,11 +1,26 @@
 ---
-name: Binance API
+name: binance
 slug: binance
 version: 1.0.0
-homepage: https://clawic.com/skills/binance
 description: Operate Binance Spot APIs through safe REST, WebSocket, and SDK workflows with signed requests, rate-limit control, and testnet-first execution.
+homepage: https://clawic.com/skills/binance
 changelog: Initial release with production-safe Binance Spot API workflows for REST, WebSocket, signing, and testnet validation.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":["curl","openssl","jq"],"env":["BINANCE_API_KEY","BINANCE_API_SECRET"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      bins:
+      - curl
+      - openssl
+      - jq
+      env:
+      - BINANCE_API_KEY
+      - BINANCE_API_SECRET
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Binance API
 ---
 
 # Binance Spot API Operations
@@ -20,10 +35,10 @@ User needs to read Binance market data, place or manage Spot orders, or troubles
 
 ## Architecture
 
-Memory lives in `~/binance/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/binance/`. See `memory-template.md` for structure.
 
 ```text
-~/binance/
+~/Clawic/data/binance/
 ├── memory.md            # API mode, symbols, and execution preferences
 ├── runbooks.md          # Repeatable workflows that worked in production
 ├── incidents.md         # Failures, response codes, and fixes
@@ -57,10 +72,10 @@ Never commit API keys or secrets to repository files.
 
 ## Data Storage
 
-- `~/binance/memory.md` for preferences and environment mode
-- `~/binance/runbooks.md` for proven workflows
-- `~/binance/incidents.md` for outage and error history
-- `~/binance/snapshots/` for `exchangeInfo` and filter captures
+- `~/Clawic/data/binance/memory.md` for preferences and environment mode
+- `~/Clawic/data/binance/runbooks.md` for proven workflows
+- `~/Clawic/data/binance/incidents.md` for outage and error history
+- `~/Clawic/data/binance/snapshots/` for `exchangeInfo` and filter captures
 
 ## Core Rules
 
@@ -124,7 +139,7 @@ No other data is sent externally.
 - Requested symbols, intervals, and market stream subscriptions
 
 **Data that stays local:**
-- Operational memory and incident logs in `~/binance/`
+- Operational memory and incident logs in `~/Clawic/data/binance/`
 - Local helper scripts and runbooks created during sessions
 
 **This skill does NOT:**
@@ -139,7 +154,7 @@ By using this skill, request data is sent to Binance infrastructure.
 Only install if you trust Binance with your operational trading metadata.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - Build and debug robust HTTP API request workflows
 - `auth` - Handle API auth models, signatures, and credential safety
 - `bash` - Automate shell workflows with safer command composition
@@ -147,5 +162,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star binance`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/binance
+- Latest version: https://clawic.com/skills/binance

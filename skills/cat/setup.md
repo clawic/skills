@@ -1,6 +1,6 @@
 # Setup - Cat
 
-Read this on first activation when `~/cat/` does not exist or is incomplete.
+Read this on first activation when `~/Clawic/data/cat/` does not exist or is incomplete.
 
 ## Operating Attitude
 
@@ -17,8 +17,8 @@ Read this on first activation when `~/cat/` does not exist or is incomplete.
    - only for specific cats or topics such as health, litter, travel, or behavior
 2. Ask permission before writing local files:
 ```bash
-mkdir -p ~/cat/cats ~/cat/sitter-packs
-touch ~/cat/memory.md ~/cat/shopping.md
+mkdir -p ~/Clawic/data/cat/cats ~/Clawic/data/cat/sitter-packs
+touch ~/Clawic/data/cat/memory.md ~/Clawic/data/cat/shopping.md
 chmod 700 ~/cat
 ```
 3. If approved and `memory.md` is empty, initialize from `memory-template.md`.

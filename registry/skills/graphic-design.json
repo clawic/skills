@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d13200e2006a461f63fbc45ac23e2af7c2f79deb980681b4e2b780a56b99687f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "graphic-design",
-    "name": "Graphic Design",
+    "name": "graphic-design",
     "description": "Support design understanding from basic visuals to professional production and theory.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/graphic-design",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, tool familiarity, project complexity - When unclear, ask about their role before giving specific guidance - Ask about output format (print, digital, vid",
     "repositoryPath": "skills/graphic-design",
     "manifestPath": "registry/skills/graphic-design.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/graphic-design/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphic-design/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphic-design/_meta.json",
+      "byteCount": 180,
+      "sha256": "36ca371669a818dd0e3d61cc444161624ddb8704521f055d298e68a9b44ca250"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/graphic-design/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphic-design/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphic-design/SKILL.md",
+      "byteCount": 6799,
+      "sha256": "8ec3bc27d5c94afd79cedce79c8779e6a223602516e633ba6d200fe57e9bdccb"
     }
   ]
 }

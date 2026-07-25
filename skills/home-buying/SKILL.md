@@ -1,16 +1,29 @@
 ---
-name: Home Buying
+name: home-buying
 slug: home-buying
 version: 1.0.0
-homepage: https://clawic.com/skills/home-buying
 description: Buy a home with budget guardrails, listing scorecards, offer strategy, due diligence triage, and closing readiness checks.
+homepage: https://clawic.com/skills/home-buying
 changelog: Initial release with a full home-buying decision workflow from budget setup through closing readiness.
-metadata: {"clawdbot":{"emoji":"HOME","requires":{"bins":[],"config":["~/home-buying/"]},"os":["linux","darwin","win32"],"configPaths":["~/home-buying/"]}}
+metadata:
+  clawdbot:
+    emoji: HOME
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/home-buying/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/home-buying/
+    displayName: Home Buying
 ---
 
 ## Setup
 
-If `~/home-buying/` does not exist or is empty, read `setup.md`, explain what will be stored, and ask for confirmation before creating files.
+If `~/Clawic/data/home-buying/` does not exist or is empty, read `setup.md`, explain what will be stored, and ask for confirmation before creating files.
 
 ## When to Use
 
@@ -20,10 +33,10 @@ This skill turns emotional decisions into a repeatable decision system with expl
 
 ## Architecture
 
-Memory lives in `~/home-buying/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/home-buying/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/home-buying/
+~/Clawic/data/home-buying/
 |-- memory.md             # Decision defaults, status, and recurring constraints
 |-- active-deals.md       # Deal pipeline with stage and risk notes
 |-- offer-log.md          # Offer ladder history and outcomes
@@ -94,7 +107,7 @@ Use the smallest relevant file for the current step.
 
 ## Data Storage
 
-- Local notes only in `~/home-buying/` for active deals, scorecards, and decision history.
+- Local notes only in `~/Clawic/data/home-buying/` for active deals, scorecards, and decision history.
 - Store concise operational data, not full personal identity packages.
 - Ask before saving sensitive personal or financial details.
 
@@ -104,17 +117,17 @@ Data that leaves your machine:
 - None by default. This skill is workflow guidance and local-memory only.
 
 Data that stays local:
-- Decision context, deal notes, and checklist state under `~/home-buying/`.
+- Decision context, deal notes, and checklist state under `~/Clawic/data/home-buying/`.
 
 This skill does NOT:
 - Submit offers automatically.
 - Call lender, MLS, escrow, or title APIs automatically.
 - Share user data with external services by default.
-- Modify files outside `~/home-buying/` for memory.
+- Modify files outside `~/Clawic/data/home-buying/` for memory.
 - NEVER modifies its own skill definition file.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `real-estate-skill` - Broad real-estate transaction guidance across roles and stages.
 - `property-valuation` - Comparable and income-based valuation support.
 - `contract` - Contract structure and clause review support.
@@ -123,5 +136,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star home-buying`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/home-buying
+- Latest version: https://clawic.com/skills/home-buying

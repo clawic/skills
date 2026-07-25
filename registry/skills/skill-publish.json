@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "18a73907a14c4455ca1b5ba1ec5555c4a0a58f38dbe77f6d7827d1cb90c70da8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "skill-publish",
-    "name": "Skill Publish",
-    "description": "Safely publish skills to ClawHub. Sanitize, format, verify, and publish without modifying your local files.",
+    "name": "skill-publish",
+    "description": "Safely publish skills to your platform's registry. Sanitize, format, verify, and publish without modifying your local files.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/skill-publish",
     "summary": "Publish Skills Safely Transform any knowledge into a publishable skill. Sanitize personal data, format correctly, verify before publishing. **Key principle:** Never modify user's original files. Create clean publish-read",
     "repositoryPath": "skills/skill-publish",
     "manifestPath": "registry/skills/skill-publish.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/skill-publish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/_meta.json",
+      "byteCount": 178,
+      "sha256": "bf4290d7700d0adcf920153b9ace2985bbda7cead1b701c7ffda36c258d191e1"
     },
     {
       "path": "sanitize.md",
       "downloadPath": "skills/skill-publish/sanitize.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/sanitize.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/sanitize.md",
+      "byteCount": 1897,
+      "sha256": "6824a657ecebb86485c7ec90eb20c593abfab13b98d537e2f67f1b743e1ed84d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/skill-publish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/SKILL.md",
+      "byteCount": 2173,
+      "sha256": "8aaee4f1307238355ae8aafbd9ab2424a0c3840f0c08cc08d31c1b59a0441b51"
     },
     {
       "path": "transform.md",
       "downloadPath": "skills/skill-publish/transform.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/transform.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/transform.md",
+      "byteCount": 1909,
+      "sha256": "836aa3152ff702cb4cfac9245f9693ee92053da838e0beccc9788087d9d4c9a8"
     },
     {
       "path": "verify.md",
       "downloadPath": "skills/skill-publish/verify.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/verify.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-publish/verify.md",
+      "byteCount": 2552,
+      "sha256": "73384ec548fb9233dd2e703b6d178423809dbb136cf9e23c9a54831fb69a447d"
     }
   ]
 }

@@ -1,9 +1,20 @@
 ---
-name: C#
+name: csharp
 slug: csharp
 version: 1.0.1
 description: Write robust C# avoiding null traps, async deadlocks, and LINQ pitfalls.
-metadata: {"clawdbot":{"emoji":"💜","requires":{"bins":["dotnet"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/csharp
+metadata:
+  clawdbot:
+    emoji: 💜
+    requires:
+      bins:
+      - dotnet
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: C#
 ---
 
 ## Quick Reference

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "aa51da6fa8be7764783ffdf207a382df9c519a6cadce6ee40bdc5a9f21e0f81c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "b2a",
-    "name": "B2A",
+    "name": "b2a",
     "description": "Sell to AI agents with machine-readable products, agent-optimized APIs, structured pricing, and discovery strategies for the agentic economy.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/b2a",
     "summary": "When to Use User building products/services for AI agents as customers. Covers making products agent-discoverable, designing for autonomous purchasing, payment integration, and competing when buyers compare cold data ins",
     "repositoryPath": "skills/b2a",
     "manifestPath": "registry/skills/b2a.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/b2a/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/_meta.json",
+      "byteCount": 158,
+      "sha256": "25c6369b802687f4aa186bceef8c2ec4b9e7c095e5434829f92982144e355cb9"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/b2a/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/discovery.md",
+      "byteCount": 5204,
+      "sha256": "dd280f3f18b1af052d1a58746fc4396824ab387763ff0369c8a1c1d8f0c46708"
     },
     {
       "path": "infrastructure.md",
       "downloadPath": "skills/b2a/infrastructure.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/infrastructure.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/infrastructure.md",
+      "byteCount": 4534,
+      "sha256": "1737e0b4aa6de4c89edb9b9cfc1407c65e40be30e31ed32a75511b23179af7b8"
     },
     {
       "path": "retail.md",
       "downloadPath": "skills/b2a/retail.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/retail.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/retail.md",
+      "byteCount": 5642,
+      "sha256": "b5fa9a607577a2e884112e6301e620b075b06a613cb40e96f3b1b69b2f881e4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/b2a/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2a/SKILL.md",
+      "byteCount": 4601,
+      "sha256": "484fdd41edfae27fce1419bffd068a3059718fd612e998942233b25c2fd95c86"
     }
   ]
 }

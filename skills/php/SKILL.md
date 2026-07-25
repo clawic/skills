@@ -1,9 +1,20 @@
 ---
-name: PHP
+name: php
 slug: php
 version: 1.0.1
 description: Write solid PHP avoiding type juggling traps, array quirks, and common security pitfalls.
-metadata: {"clawdbot":{"emoji":"🐘","requires":{"bins":["php"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/php
+metadata:
+  clawdbot:
+    emoji: 🐘
+    requires:
+      bins:
+      - php
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: PHP
 ---
 
 ## Quick Reference

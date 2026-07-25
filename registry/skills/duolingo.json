@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "362227d1c08c7e54451e28b5f39e8861772897eca5533d4481e23d07df9b6855",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "duolingo",
-    "name": "Duolingo Learning OS",
+    "name": "duolingo",
     "description": "Run a Duolingo-like multi-topic learning system with AGENTS routing, lesson loops, streaks, and spaced review.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/duolingo",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/duolingo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/_meta.json",
+      "byteCount": 180,
+      "sha256": "e2acc4eb1427cc6a0332067c8c84c05b0a476e5d84e2bc5d0441a2a26fa86d81"
     },
     {
       "path": "activation-routing.md",
       "downloadPath": "skills/duolingo/activation-routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/activation-routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/activation-routing.md",
+      "byteCount": 1097,
+      "sha256": "50ebf614afea5149e41464f538b6f34413ee145bb435be05c18f14f989da41af"
     },
     {
       "path": "blueprint.md",
       "downloadPath": "skills/duolingo/blueprint.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/blueprint.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/blueprint.md",
+      "byteCount": 1143,
+      "sha256": "8f3f4fe3512e848c80c60baa402986c2c7c63b81c04835249c1e0ca20ffad42d"
     },
     {
       "path": "launch-scorecard.md",
       "downloadPath": "skills/duolingo/launch-scorecard.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/launch-scorecard.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/launch-scorecard.md",
+      "byteCount": 1126,
+      "sha256": "9f6e6c60bacfc5a4acb065ec1360153b7fd1feed1fa46fcf0195802cc076e199"
     },
     {
       "path": "lesson-loop.md",
       "downloadPath": "skills/duolingo/lesson-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/lesson-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/lesson-loop.md",
+      "byteCount": 982,
+      "sha256": "59519576e2714b11b79ff87aba9d28a9e421d454e15280de5b67d60eaf302272"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/duolingo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/memory-template.md",
+      "byteCount": 1582,
+      "sha256": "94c26c93f46ca255146d5b1eb2429754c01b4733f705ee498c0897e2dc543004"
     },
     {
       "path": "progression.md",
       "downloadPath": "skills/duolingo/progression.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/progression.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/progression.md",
+      "byteCount": 1073,
+      "sha256": "f5ad24ec0bf24d9ce5b6181f135e74e2b9b8123a31755901c0aeaf8558e24c64"
     },
     {
       "path": "retention-ops.md",
       "downloadPath": "skills/duolingo/retention-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/retention-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/retention-ops.md",
+      "byteCount": 1100,
+      "sha256": "3feb539388aa5e60cb4dafb23c852dd90524a5b73ec8d40dc6a325eaec771f03"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/duolingo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/setup.md",
+      "byteCount": 2289,
+      "sha256": "672d296a99764be3c72c89ab559db222646b8900c3fb99d273528480b154d1f5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/duolingo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/SKILL.md",
+      "byteCount": 5657,
+      "sha256": "fa8636b27f3150463307ecf9ca69ac25abb6ea6a43cb55db1613f27a01936fb1"
     },
     {
       "path": "topic-template.md",
       "downloadPath": "skills/duolingo/topic-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/topic-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/duolingo/topic-template.md",
+      "byteCount": 764,
+      "sha256": "730a5ca60998330deee3508241380d58e3162cfe9514af0a0e11f4927d0d311b"
     }
   ]
 }

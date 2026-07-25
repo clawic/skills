@@ -1,7 +1,17 @@
 ---
-name: WebSocket
+name: websocket
+slug: websocket
+version: 1.0.0
 description: Implement reliable WebSocket connections with proper reconnection, heartbeats, and scaling.
-metadata: {"clawdbot":{"emoji":"🔌","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/websocket
+metadata:
+  clawdbot:
+    emoji: 🔌
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: WebSocket
 ---
 
 ## Reconnection (Always Forget)

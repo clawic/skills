@@ -1,11 +1,20 @@
 ---
-name: Product Owner
+name: product-owner
 slug: product-owner
 version: 1.0.1
-changelog: Improved setup flow with natural conversation guidelines
-homepage: https://clawic.com/skills/product-owner
 description: Manage backlogs, write user stories, define acceptance criteria, and maximize product value.
-metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/product-owner
+changelog: Improved setup flow with natural conversation guidelines
+metadata:
+  clawdbot:
+    emoji: 📋
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Product Owner
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs backlog management, user story writing, sprint prioritization, or sta
 
 ## Architecture
 
-Memory lives in `~/product-owner/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/product-owner/`. See `memory-template.md` for structure.
 
 ```
-~/product-owner/
+~/Clawic/data/product-owner/
 ├── memory.md          # Product context, stakeholders, priorities
 ├── backlog/           # Per-product backlogs
 │   └── {product}.md   # Stories, priorities, acceptance criteria
@@ -143,7 +152,7 @@ Impact: [users affected, severity]
 | Stakeholder Satisfaction | Value delivery |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `product-manager` — Product strategy and roadmap
 - `cpo` — Chief Product Officer leadership
@@ -152,5 +161,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star product-owner`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/product-owner
+- Latest version: https://clawic.com/skills/product-owner

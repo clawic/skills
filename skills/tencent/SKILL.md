@@ -1,11 +1,24 @@
 ---
-name: Tencent
+name: tencent
 slug: tencent
 version: 1.0.0
-homepage: https://clawic.com/skills/tencent
 description: Navigate Tencent products, Tencent Cloud services, and WeChat ecosystem decisions with region-aware planning and official-source verification.
+homepage: https://clawic.com/skills/tencent
 changelog: Initial release with ecosystem routing, region-aware guidance, official-source verification, and safer Tencent planning workflows.
-metadata: {"clawdbot":{"emoji":"T","requires":{"bins":[],"config":["~/tencent/"]},"os":["linux","darwin","win32"],"configPaths":["~/tencent/"]}}
+metadata:
+  clawdbot:
+    emoji: T
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/tencent/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/tencent/
+    displayName: Tencent
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Do not use it as a general China market strategy skill or as a substitute for de
 
 ## Architecture
 
-Memory lives in `~/tencent/`. If `~/tencent/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/tencent/`. If `~/Clawic/data/tencent/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/tencent/
+~/Clawic/data/tencent/
 |- memory.md           # Activation rules, product scope, and preferred outputs
 |- accounts.md         # Known tenants, products, and ownership boundaries
 |- regions.md          # Mainland, Hong Kong, Singapore, and global rollout notes
@@ -94,7 +107,7 @@ Do not store secrets, billing exports, raw customer data, or copied console toke
 
 ### 7. End With a Decision Record
 - Finish every non-trivial task with a concise decision record: chosen path, rejected paths, assumptions, hard blockers, and what still needs human confirmation.
-- Save only that durable decision state under `~/tencent/`.
+- Save only that durable decision state under `~/Clawic/data/tencent/`.
 - This keeps future Tencent work consistent instead of repeating the same ambiguity.
 
 ## Common Traps
@@ -125,7 +138,7 @@ Data that may leave your machine:
 - optional notes sent to user-approved comparison sources when official docs are incomplete
 
 Data that stays local:
-- activation preferences and Tencent work history under `~/tencent/`
+- activation preferences and Tencent work history under `~/Clawic/data/tencent/`
 - account labels, region defaults, and decision records saved in local markdown files
 - trusted-source notes and rollout constraints
 
@@ -146,7 +159,7 @@ This skill ONLY:
 - routes Tencent-related requests to the correct product family
 - compares Tencent options using official-source verification
 - plans Tencent Cloud, WeChat ecosystem, and region-sensitive rollouts
-- keeps lightweight local memory in `~/tencent/`
+- keeps lightweight local memory in `~/Clawic/data/tencent/`
 
 This skill NEVER:
 - invent product capabilities or region availability
@@ -155,7 +168,7 @@ This skill NEVER:
 - execute account-changing actions without explicit user approval
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `cloud` - General cloud architecture and platform tradeoff guidance
 - `cloud-storage` - Object storage design, migration, and operations patterns
@@ -165,5 +178,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tencent`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tencent
+- Latest version: https://clawic.com/skills/tencent

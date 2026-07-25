@@ -1,9 +1,19 @@
 ---
-name: Taxi
+name: taxi
 slug: taxi
 version: 1.0.0
 description: Handle everything for ground transportation, from price comparison to booking, tracking, disputes, and expense management.
-metadata: {"clawdbot":{"emoji":"🚕","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/taxi
+metadata:
+  clawdbot:
+    emoji: 🚕
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Taxi
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs ANY help with taxis, rideshares, car services, or ground transportati
 
 ## Architecture
 
-Memory lives in `~/taxi/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/taxi/`. See `memory-template.md` for setup.
 
 ```
-~/taxi/
+~/Clawic/data/taxi/
 ├── memory.md          # Preferences, saved addresses, default apps
 ├── trips.md           # Trip history and expenses
 ├── accounts.md        # Which apps user has, preferences per app
@@ -35,7 +45,7 @@ Memory lives in `~/taxi/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Know User Context First
-Before any recommendation, check `~/taxi/memory.md` for:
+Before any recommendation, check `~/Clawic/data/taxi/memory.md` for:
 - Preferred apps and why
 - Saved addresses (home, work, airport)
 - Payment preferences (card, cash, business)
@@ -89,7 +99,7 @@ What requires user:
 | Event pickup | Coordinate pickup points, surge avoidance strategies |
 
 ### 6. Track Everything
-Log in `~/taxi/trips.md`:
+Log in `~/Clawic/data/taxi/trips.md`:
 - Date, route, app used
 - Price paid, promo applied
 - Category (personal, business, specific project)

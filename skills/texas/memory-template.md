@@ -1,6 +1,6 @@
 # Texas Memory
 
-Create `~/texas/memory.md` with this structure only if the user wants continuity across sessions:
+Create `~/Clawic/data/texas/memory.md` with this structure only if the user wants continuity across sessions:
 
 ```markdown
 # Texas Memory

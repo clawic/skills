@@ -1,6 +1,13 @@
 ---
-name: English
+name: english
+slug: english
+version: 1.0.1
 description: Write English that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/english
+metadata:
+  clawdbot:
+    emoji: 🇬🇧
+    displayName: English
 ---
 
 ## The Real Problem

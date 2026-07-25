@@ -1,11 +1,22 @@
 ---
-name: Hermes Agent
+name: hermes-agent
 slug: hermes-agent
 version: 1.0.0
-homepage: https://clawic.com/skills/hermes-agent
 description: Turn OpenClaw into a learning-loop agent with seeded workspace rules, skill promotion, reflective memory, and proactive maintenance.
+homepage: https://clawic.com/skills/hermes-agent
 changelog: Added the first Hermes-style OpenClaw loop with setup, memory, workspace seed, and promotion rules.
-metadata: {"clawdbot":{"emoji":"H","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/hermes-agent/"]}}
+metadata:
+  clawdbot:
+    emoji: H
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/hermes-agent/
+    displayName: Hermes Agent
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User wants OpenClaw to feel more persistent, more self-correcting, and more proa
 
 ## Architecture
 
-Memory lives in `~/hermes-agent/`. If `~/hermes-agent/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/hermes-agent/`. If `~/Clawic/data/hermes-agent/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/hermes-agent/
+~/Clawic/data/hermes-agent/
 |-- memory.md            # HOT: current rules, active signals, stable lessons
 |-- promotions.md        # Candidate workflows that may graduate into skills
 |-- reflections.md       # Recent post-task reflections
@@ -43,7 +54,7 @@ Memory lives in `~/hermes-agent/`. If `~/hermes-agent/` does not exist, run `set
 - If a seed block already exists, refine only the smallest relevant section.
 
 ### 2. Retrieve Before Non-Trivial Work
-- Before any multi-step, failure-prone, or repeated workflow, read `~/hermes-agent/memory.md`.
+- Before any multi-step, failure-prone, or repeated workflow, read `~/Clawic/data/hermes-agent/memory.md`.
 - Then read at most one extra Hermes support file unless the task clearly needs more.
 - Do not load the full Hermes stack "just in case".
 - Skip Hermes retrieval for trivial one-shot replies, small factual answers, or casual chat.
@@ -80,7 +91,7 @@ Memory lives in `~/hermes-agent/`. If `~/hermes-agent/` does not exist, run `set
 ## Security & Privacy
 
 **Data that stays local:**
-- Lessons, reflections, workspace integration state, and promotion candidates under `~/hermes-agent/`
+- Lessons, reflections, workspace integration state, and promotion candidates under `~/Clawic/data/hermes-agent/`
 - Additive seed blocks placed in local OpenClaw workspace files
 
 **Data that leaves your machine:**
@@ -88,12 +99,12 @@ Memory lives in `~/hermes-agent/`. If `~/hermes-agent/` does not exist, run `set
 
 **This skill does NOT:**
 - make network requests
-- access files outside the local OpenClaw workspace and `~/hermes-agent/`
+- access files outside the local OpenClaw workspace and `~/Clawic/data/hermes-agent/`
 - replace the full contents of AGENTS.md, SOUL.md, or HEARTBEAT.md
 - store secrets or sensitive personal data
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `self-improving` - capture corrections and recurring lessons so execution quality compounds
 - `memory` - structure durable local memory for agent continuity
 - `workflow` - formalize repeated operating patterns into stable execution sequences
@@ -101,5 +112,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star hermes-agent`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/hermes-agent
+- Latest version: https://clawic.com/skills/hermes-agent

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6b6f9c11de90fc50b8202fdaf41f1fa8b0dabd53b5ac221ce1a258f6d221e679",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "electric-guitar",
-    "name": "Electric Guitar",
+    "name": "electric-guitar",
     "description": "Electric guitar practice strategies, technique, tone shaping, and progress tracking.",
-    "summary": "Core Behavior - Create `~/electric-guitar/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask style — rock vs blues vs metal vs jazz - Ask gear — amp, peda",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/electric-guitar",
+    "summary": "Core Behavior - Create `~/Clawic/data/electric-guitar/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask style — rock vs blues vs metal vs jazz - Ask gear",
     "repositoryPath": "skills/electric-guitar",
     "manifestPath": "registry/skills/electric-guitar.json"
   },
@@ -20,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/electric-guitar/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/_meta.json",
+      "byteCount": 182,
+      "sha256": "2f81701f271156dea39762175ed01085f47546d38ae0469e469e79ac7c206b55"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/electric-guitar/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/progress.md",
+      "byteCount": 2504,
+      "sha256": "9e4e154cb90f8544899afb7be61fbcc6bdb373baf2a204b9138495d0da6fe9db"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/electric-guitar/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/electric-guitar/SKILL.md",
+      "byteCount": 2324,
+      "sha256": "8ed7cf349215b86651da0551c30c300a48ae135055c33bb8cf160ec217b034f3"
     }
   ]
 }

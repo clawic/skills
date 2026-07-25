@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9fc85891fa469e08ec9f20014b4259709ce36595073e30afd4104cc09349a166",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "audio",
-    "name": "Audio",
+    "name": "audio",
     "description": "Process, enhance, and convert audio files with noise removal, normalization, format conversion, transcription, and podcast workflows.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/audio",
     "summary": "Requirements **Required:** - `ffmpeg` / `ffprobe` — core audio processing **Optional (for advanced features):** - `sox` — additional noise reduction - `whisper` — local transcription (or use API) - `demucs` — stem separa",
     "repositoryPath": "skills/audio",
     "manifestPath": "registry/skills/audio.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/audio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/_meta.json",
+      "byteCount": 238,
+      "sha256": "6a9a9d3341c639eadc7166087021ee315937f11442648af9c880bf8a28a5036e"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/audio/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/commands.md",
+      "byteCount": 5754,
+      "sha256": "869e877ae63e0178aa3490431f57645d713b0df7642db905557b46d4332c9e9e"
     },
     {
       "path": "loudness.md",
       "downloadPath": "skills/audio/loudness.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/loudness.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/loudness.md",
+      "byteCount": 2903,
+      "sha256": "3932f04fd3446c10b7ba1ff64098edd2f64ec5c035ec7840cb4ea76c33b104fc"
     },
     {
       "path": "podcast.md",
       "downloadPath": "skills/audio/podcast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/podcast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/podcast.md",
+      "byteCount": 3839,
+      "sha256": "f888af3e81752566617523d3ad120f48178232631379f7f47772f6417ff87276"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/audio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/SKILL.md",
+      "byteCount": 2962,
+      "sha256": "20b6226ad0b0d5273a2e218b60fb988b177d81b71fd4651ffa1d61c1d5641a04"
     },
     {
       "path": "transcription.md",
       "downloadPath": "skills/audio/transcription.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/transcription.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/audio/transcription.md",
+      "byteCount": 5061,
+      "sha256": "36d9c49e74aae6d4831276f5ba154e93d1b1b260e77fe58d1324ab62d89f1391"
     }
   ]
 }

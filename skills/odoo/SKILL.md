@@ -1,11 +1,22 @@
 ---
-name: Odoo
+name: odoo
 slug: odoo
 version: 1.0.0
+description: Operate Odoo across CRM, sales, inventory, purchasing, and accounting with module-aware planning, read-before-write checks, and safe execution.
 homepage: https://clawic.com/skills/odoo
-description: "Operate Odoo across CRM, sales, inventory, purchasing, and accounting with module-aware planning, read-before-write checks, and safe execution."
-changelog: "Turns generic Odoo help into a module-aware workflow for safer reporting, imports, integrations, and business operations."
-metadata: {"clawdbot":{"emoji":"🏢","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/odoo/"]}}
+changelog: Turns generic Odoo help into a module-aware workflow for safer reporting, imports, integrations, and business operations.
+metadata:
+  clawdbot:
+    emoji: 🏢
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/odoo/
+    displayName: Odoo
 ---
 
 # Odoo
@@ -20,10 +31,10 @@ Use this skill to turn vague business asks into safe, module-aware actions: iden
 
 ## Architecture
 
-Memory lives in `~/odoo/`. If `~/odoo/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/odoo/`. If `~/Clawic/data/odoo/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/odoo/
+~/Clawic/data/odoo/
 ├── memory.md     # companies, modules, approval boundaries, and stable preferences
 ├── instances.md  # instance URLs, environments, versions, and auth lanes
 ├── modules.md    # custom modules, renamed fields, and local conventions
@@ -143,7 +154,7 @@ No other external endpoints should be used unless the user asks for a specific c
 ## Security & Privacy
 
 **Data that stays local:**
-- environment notes in `~/odoo/`
+- environment notes in `~/Clawic/data/odoo/`
 - known modules, company rules, and approval boundaries the user wants remembered
 - reusable operating decisions such as preferred import format or reporting defaults
 
@@ -157,7 +168,7 @@ No other external endpoints should be used unless the user asks for a specific c
 - make undeclared network requests by itself
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `crm` — customer pipeline workflows when the work is mainly around leads, deals, and sales motion
 - `inventory` — stock-focused operating guidance when warehouse flows become the main problem
 - `accounting` — accounting-first workflows for journals, reconciliation, close, and financial controls
@@ -166,5 +177,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star odoo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/odoo
+- Latest version: https://clawic.com/skills/odoo

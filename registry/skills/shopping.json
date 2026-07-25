@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b36f9f93788d1d93724bbb5f518c5d090a550748ee5629fc550e9250f73510d8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "shopping",
-    "name": "Shopping",
+    "name": "shopping",
     "description": "Help users make better purchase decisions — research, comparison, timing, and avoiding buyer's remorse.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/shopping",
     "summary": "Before Recommending Products - Ask budget range first — recommendations without budget waste time - Ask use case specifically — \"laptop\" means different things for gaming vs email - Ask what they've tried or owned — past",
     "repositoryPath": "skills/shopping",
     "manifestPath": "registry/skills/shopping.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/shopping/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shopping/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shopping/_meta.json",
+      "byteCount": 168,
+      "sha256": "b7a9691b02c54ed0fddce25084fe262e7003935203f4746aaba2939fc486472f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/shopping/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shopping/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shopping/SKILL.md",
+      "byteCount": 3757,
+      "sha256": "b5a256286c72476f6687508f8f77e06cce4883f02df0dc451dd5a56d482a72e6"
     }
   ]
 }

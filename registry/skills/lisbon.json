@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ca6c2a2c5e637a08c018cca6eab8d9eaee5a42e73cd83ba15449b2b4fabf5139",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "lisbon",
-    "name": "Lisbon",
+    "name": "lisbon",
     "description": "Navigate Lisbon as visitor, resident, digital nomad, tech worker, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/lisbon",
@@ -22,162 +25,226 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/lisbon/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/_meta.json",
+      "byteCount": 164,
+      "sha256": "eb3cb5d48ecb70544adc6f6362630f3042b957e58146bf0c8b8c3c82849db561"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/lisbon/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/business.md",
+      "byteCount": 8413,
+      "sha256": "7b7bf58c2515415296de1b28d49aa1ec86901b48be98ebf8caa8f3462653ea78"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/lisbon/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/climate.md",
+      "byteCount": 8976,
+      "sha256": "2d9078bfb47062c10dd901dae73e022a4c645747c2a1b176d9179e262e14f53b"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/lisbon/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/cost.md",
+      "byteCount": 9973,
+      "sha256": "57fa92478c62d36aaaf2bd307c2066c284f5a6a5037a5c189f232b1dd5997499"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/lisbon/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/culture.md",
+      "byteCount": 9739,
+      "sha256": "645cbde49a299dfedf3740ba642b9e5c18e5e481b6ce70f09cec8fdc128a80ae"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/lisbon/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/driving.md",
+      "byteCount": 6064,
+      "sha256": "d274cdf0838ea2fbe82b55368d3192892003d746eb3bae8ff47b0ccd7aed5b8e"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/lisbon/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/education.md",
+      "byteCount": 7608,
+      "sha256": "e6bdb88b7e317691583301738c93ff476cc4039ce2e125de409be1cec090337d"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/lisbon/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-areas.md",
+      "byteCount": 8675,
+      "sha256": "8e88a6ed33b4df03d115a85c595490b480a782380279ba54e8896da2324b2d9d"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/lisbon/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-international.md",
+      "byteCount": 8356,
+      "sha256": "050e71b22e20acb8a61c875572276fe2137644f6674a0bb1c9dc30be6b1a2618"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/lisbon/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-local.md",
+      "byteCount": 8803,
+      "sha256": "80ad5d673d5d9aaa51867093db7366a57af8e1f0bb8c33ec1efc189f7c94f226"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/lisbon/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-overview.md",
+      "byteCount": 7382,
+      "sha256": "f4c2bed3e98d46cfb67deeaf648466dd6d46222d742309f4d14fa1073ba6714f"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/lisbon/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/food-practical.md",
+      "byteCount": 9164,
+      "sha256": "51baab86d3d2c0e7c5f9430c882a3dac106f91a4784ec921ad14d84107fc24b2"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/lisbon/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/healthcare.md",
+      "byteCount": 8691,
+      "sha256": "d10d159bb73f3b80b053ccd6addf1c9811fee0fc4f608fc8ffcebbfcd272a2e4"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/lisbon/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/lifestyle.md",
+      "byteCount": 8528,
+      "sha256": "79016ad047574e922ffa6e1fddec763393d4baf83995670e1030eafff5f784fd"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/lisbon/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/local.md",
+      "byteCount": 9244,
+      "sha256": "3f3d5e666cee057c0a42c34b42e77580e4caf2b359e98ef5d53fc8e54e0f8c78"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/lisbon/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-choosing.md",
+      "byteCount": 8762,
+      "sha256": "a9cecc3f2d3a022da864dfb61c5b6f303b93610448207b5b8054df34d1d84b5a"
     },
     {
       "path": "neighborhoods-historic.md",
       "downloadPath": "skills/lisbon/neighborhoods-historic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-historic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-historic.md",
+      "byteCount": 10273,
+      "sha256": "e52aa1411ef5eb56f095e6652fd470e4ceadd88397c91fc99ac0e6b06f48e484"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/lisbon/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-index.md",
+      "byteCount": 6851,
+      "sha256": "9f871f40bdd9cdd33e9b44e14caf3a83f5adde5156fd149c9065fee3f401b4a4"
     },
     {
       "path": "neighborhoods-modern.md",
       "downloadPath": "skills/lisbon/neighborhoods-modern.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-modern.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-modern.md",
+      "byteCount": 10944,
+      "sha256": "4d7e8db495bfbb36dfcc150491ea5f99e7980c76d3a8cb5fb110f312840366e4"
     },
     {
       "path": "neighborhoods-riverside.md",
       "downloadPath": "skills/lisbon/neighborhoods-riverside.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-riverside.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-riverside.md",
+      "byteCount": 10271,
+      "sha256": "c9187ff6cbea807539652a8d434381fedc637a3dad47374d26934e36f1af07d7"
     },
     {
       "path": "neighborhoods-trendy.md",
       "downloadPath": "skills/lisbon/neighborhoods-trendy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-trendy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/neighborhoods-trendy.md",
+      "byteCount": 10249,
+      "sha256": "fc61801426bb7c22a9241ab0144f1a557118d6a45e461dac1e01ee12cabce7d7"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/lisbon/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/resident.md",
+      "byteCount": 9705,
+      "sha256": "ee51bdbf1a70c6f1860c9293f6e9e08c1db55f7bb6fddc612e2f98c1d4bbc1d5"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/lisbon/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/safety.md",
+      "byteCount": 10049,
+      "sha256": "48dee53126ddcb7f126b1024c28cdcd7b959293e580c7051c58a1fb44d4ba682"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/lisbon/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/SKILL.md",
+      "byteCount": 8624,
+      "sha256": "c79ec4162bcc7c5aa6837347ceffe5ebee7546e38db828107d32a3cc79527f25"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/lisbon/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/startup.md",
+      "byteCount": 10216,
+      "sha256": "2447e5f3767b5e0798dcea62eb073f758a4e0241b4e095bffc3be5ca8af72097"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/lisbon/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/tech.md",
+      "byteCount": 9953,
+      "sha256": "4517530242e04bde84b7e28b31d42ef40c0d76e0751ec78905946b15c0cb780c"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/lisbon/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/transport.md",
+      "byteCount": 8599,
+      "sha256": "640a637b871ce7d286db77a8d575f697524d467eb63aedd6823f3f4f8021d262"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/lisbon/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visas.md",
+      "byteCount": 9609,
+      "sha256": "5584a8424b27e45dc65c53c1ba1915fe000936694ae85fdc4b6970722340fd66"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/lisbon/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-attractions.md",
+      "byteCount": 11781,
+      "sha256": "e78b2fcddd4101f380a8cd899897fb2df3da59272f753471d73822c8c9b1bbae"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/lisbon/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-itineraries.md",
+      "byteCount": 9977,
+      "sha256": "793f75b3a23a4d6019c3bb63cefc2762fb84214d49ac7e0e5ee9b179e5fe8185"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/lisbon/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-lodging.md",
+      "byteCount": 9839,
+      "sha256": "1374a443515d1f9df8b18cb753ff91afb204b881b06420e60fabc3a42cf26c8b"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/lisbon/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lisbon/visitor-tips.md",
+      "byteCount": 9811,
+      "sha256": "0233e565368b2c8a6ed023ea59d962202b6fb82d4c2a1ea55fd55164f84a136c"
     }
   ]
 }

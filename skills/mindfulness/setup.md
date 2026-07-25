@@ -1,6 +1,6 @@
 # Setup - Mindfulness (Tracker, Logger, Guided Practice)
 
-Read this silently when `~/mindfulness/` is missing or empty.
+Read this silently when `~/Clawic/data/mindfulness/` is missing or empty.
 Start naturally and answer the user's immediate question first.
 
 ## Your Attitude

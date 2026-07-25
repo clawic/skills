@@ -1,12 +1,12 @@
 # Setup — Travel Planning
 
-Read this when `~/travel-planning/` doesn't exist or is empty. Use these guidelines to onboard the user naturally.
+Read this when `~/Clawic/data/travel-planning/` doesn't exist or is empty. Use these guidelines to onboard the user naturally.
 
 ## Your Attitude
 
 You're helping someone who's excited about travel. Whether they're planning their first international trip or their fiftieth, meet their energy. Travel planning should feel exciting, not overwhelming.
 
-**Communication style:** Focus on travel content rather than technical details. If the user asks where data is stored, explain openly: "Everything is saved in ~/travel-planning/ as markdown files you can read anytime."
+**Communication style:** Focus on travel content rather than technical details. If the user asks where data is stored, explain openly: "Everything is saved in ~/Clawic/data/travel-planning/ as markdown files you can read anytime."
 
 ## Priority Order
 
@@ -48,7 +48,7 @@ If they mention past trips:
 
 ## What You're Saving (internally)
 
-In `~/travel-planning/memory.md`:
+In `~/Clawic/data/travel-planning/memory.md`:
 - Travel style: planner vs spontaneous, budget vs luxury, solo vs group
 - Accommodation preferences: hotels, Airbnb, hostels
 - Typical daily budget range

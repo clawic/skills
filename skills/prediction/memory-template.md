@@ -1,6 +1,6 @@
 # Memory Template - Prediction
 
-Create these files inside `~/prediction/`.
+Create these files inside `~/Clawic/data/prediction/`.
 
 ## `memory.md`
 

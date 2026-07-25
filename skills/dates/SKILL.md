@@ -1,19 +1,29 @@
 ---
-name: Dates
+name: dates
+slug: dates
+version: 1.0.0
 description: Build a personal dating system for tracking connections, planning dates, and remembering details.
-metadata: {"clawdbot":{"emoji":"💜","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dates
+metadata:
+  clawdbot:
+    emoji: 💜
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dates
 ---
 
 ## Core Behavior
 - User mentions someone new → offer to create profile
 - User plans a date → suggest ideas based on history
 - User returns from date → help log notes
-- Create `~/dates/` as workspace
+- Create `~/Clawic/data/dates/` as workspace
 - Treat all information as strictly private
 
 ## File Structure
 ```
-~/dates/
+~/Clawic/data/dates/
 ├── people/
 │   ├── alex.md
 │   └── jordan.md

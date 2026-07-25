@@ -1,6 +1,6 @@
 # Memory Template - Apple Maps (MacOS)
 
-Create `~/apple-maps/memory.md` with this structure:
+Create `~/Clawic/data/apple-maps/memory.md` with this structure:
 
 ```markdown
 # Apple Maps Memory

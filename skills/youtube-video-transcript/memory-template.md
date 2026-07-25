@@ -1,6 +1,6 @@
 # Memory Template — YouTube Video Transcript
 
-Create `~/youtube-video-transcript/memory.md` with this structure. Always inform the user when saving preferences.
+Create `~/Clawic/data/youtube-video-transcript/memory.md` with this structure. Always inform the user when saving preferences.
 
 ```markdown
 # YouTube Video Transcript Memory
@@ -20,7 +20,7 @@ summaries: detailed
 
 ### Behavior
 auto_cache: false
-export_location: ~/youtube-video-transcript/exports/
+export_location: ~/Clawic/data/youtube-video-transcript/exports/
 
 ## Recent Videos
 
@@ -40,7 +40,7 @@ export_location: ~/youtube-video-transcript/exports/
 
 ## Video Cache Structure
 
-For each processed video (only with user consent), create `~/youtube-video-transcript/videos/{video_id}.md`:
+For each processed video (only with user consent), create `~/Clawic/data/youtube-video-transcript/videos/{video_id}.md`:
 
 ```markdown
 # {Video Title}
@@ -86,6 +86,6 @@ For each processed video (only with user consent), create `~/youtube-video-trans
 ## Transparency Principles
 
 - **Always confirm** what you're saving: "I'll remember you prefer detailed summaries"
-- **Show location** when caching: "Saved transcript to ~/youtube-video-transcript/videos/abc123.md"
+- **Show location** when caching: "Saved transcript to ~/Clawic/data/youtube-video-transcript/videos/abc123.md"
 - **Offer to show** saved files anytime
 - **Delete on request** with confirmation: "Deleted the transcript. Want me to also clear your preferences?"

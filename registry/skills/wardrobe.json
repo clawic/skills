@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d4e1c97b45a3363a041e5095ee52d5d049957309297c7813f0e964230e894f69",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "wardrobe",
-    "name": "Wardrobe",
+    "name": "wardrobe",
     "description": "Build a personal wardrobe system for cataloging clothes, planning outfits, and mindful shopping.",
-    "summary": "Core Behavior - User mentions clothing → offer to catalog - Help plan outfits → based on what they own - Support mindful shopping → do you really need it? - Create `~/wardrobe/` as workspace Use Cases - Know what you own",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wardrobe",
+    "summary": "Core Behavior - User mentions clothing → offer to catalog - Help plan outfits → based on what they own - Support mindful shopping → do you really need it? - Create `~/Clawic/data/wardrobe/` as workspace Use Cases - Know ",
     "repositoryPath": "skills/wardrobe",
     "manifestPath": "registry/skills/wardrobe.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wardrobe/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/_meta.json",
+      "byteCount": 168,
+      "sha256": "ddb87fa031d160b8d2a7db06ee9ef0fe9fd5079d8ef736a77b5622fd410bf855"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wardrobe/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wardrobe/SKILL.md",
+      "byteCount": 4168,
+      "sha256": "b7292bb4cbcc224dcd9d9011dd0001f720eab7aa72d83a51a349e5ed838b0360"
     }
   ]
 }

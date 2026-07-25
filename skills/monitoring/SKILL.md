@@ -1,6 +1,13 @@
 ---
-name: Monitoring
-description: "Set up observability for applications and infrastructure with metrics, logs, traces, and alerts."
+name: monitoring
+slug: monitoring
+version: 1.0.0
+description: Set up observability for applications and infrastructure with metrics, logs, traces, and alerts.
+homepage: https://clawic.com/skills/monitoring
+metadata:
+  clawdbot:
+    emoji: 📡
+    displayName: Monitoring
 ---
 
 ## Complexity Levels

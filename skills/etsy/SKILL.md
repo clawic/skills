@@ -1,11 +1,22 @@
 ---
-name: Etsy
+name: etsy
 slug: etsy
 version: 1.0.0
-homepage: https://clawic.com/skills/etsy
 description: Improve Etsy listings with buyer-intent keywords, margin-safe pricing checks, and structured experiments that raise qualified traffic and conversion.
+homepage: https://clawic.com/skills/etsy
 changelog: Initial release with listing audits, keyword clustering, pricing safeguards, and experiment tracking for steady Etsy shop growth.
-metadata: {"clawdbot":{"emoji":"ET","requires":{"bins":[],"config":["~/etsy/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ET
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/etsy/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Etsy
 ---
 
 ## Setup
@@ -20,10 +31,10 @@ Use this skill for repeatable execution, not generic brainstorming.
 
 ## Architecture
 
-Memory lives in `~/etsy/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/etsy/`. See `memory-template.md` for setup.
 
 ```text
-~/etsy/
+~/Clawic/data/etsy/
 |- memory.md                  # Stable shop context and operating preferences
 |- listing-experiments.md     # Experiment log and outcomes
 `- launch-checklists.md       # Reusable pre-launch and post-launch checks
@@ -79,7 +90,7 @@ When compliance risk exists, state it explicitly and provide a safer alternative
 - None by default from this skill itself
 
 **Data that stays local:**
-- Shop context and workflow preferences in `~/etsy/`
+- Shop context and workflow preferences in `~/Clawic/data/etsy/`
 
 **This skill does NOT:**
 - Ask for marketplace passwords or payment credentials
@@ -99,7 +110,7 @@ This skill NEVER:
 - Executes irreversible marketplace actions without confirmation
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ecommerce` - End-to-end online store operations and conversion foundations.
 - `seo` - Search intent and content optimization principles transferable to listings.
 - `pricing` - Pricing strategy and tradeoff frameworks for margin and demand.
@@ -108,5 +119,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star etsy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/etsy
+- Latest version: https://clawic.com/skills/etsy

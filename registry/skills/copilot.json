@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "54b97b7e71a6b718d2c03b3ef1712b2b47853f5d6ead622a71d39e69b4cfc99a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "copilot",
-    "name": "Copilot",
+    "name": "copilot",
     "description": "Transform your agent from chatbot to copilot with context persistence, proactive anticipation, and opinionated help across sessions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/copilot",
     "summary": "The Hard Truth You're NOT always-on. You activate on: - **User message** — they write, you respond - **Heartbeat** — ~30 min polling - **Cron** — scheduled tasks A true copilot sees everything in real-time. You can't. Bu",
     "repositoryPath": "skills/copilot",
     "manifestPath": "registry/skills/copilot.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/copilot/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/_meta.json",
+      "byteCount": 166,
+      "sha256": "60222d776f24a8d35d05e8b280b5a68cd3695d3fa354e34eca08f215657590be"
     },
     {
       "path": "contexts.md",
       "downloadPath": "skills/copilot/contexts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/contexts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/contexts.md",
+      "byteCount": 2282,
+      "sha256": "63fbffe2aef2459ea67c9106e113e215efb849ffce2cc7db77447af6ea14d2ac"
     },
     {
       "path": "examples.md",
       "downloadPath": "skills/copilot/examples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/examples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/examples.md",
+      "byteCount": 3125,
+      "sha256": "da1bf30e7711c42b6fdb625e46999272aafbc2c6b147475cf829a311c0afaa9a"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/copilot/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/implementation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/implementation.md",
+      "byteCount": 3217,
+      "sha256": "77c37dd41c914e98133e09c60de1065a165c49f7f02a2fe29236746aaa0e2afe"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/copilot/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/SKILL.md",
+      "byteCount": 4806,
+      "sha256": "644df0ef853a71aa27d9b2bcc76564c03c49d161bd8d9c219375de0d3f3e4c8a"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/copilot/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/copilot/templates.md",
+      "byteCount": 1881,
+      "sha256": "bcc7f65e5ec6aaa7fc9a2ded37d3144f4e3a221fd55834afcb3cf2e6b0440c6e"
     }
   ]
 }

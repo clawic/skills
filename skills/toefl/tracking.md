@@ -1,6 +1,6 @@
 # Progress Tracking System
 
-## File Structure in ~/toefl/
+## File Structure in ~/Clawic/data/toefl/
 
 ### profile.md
 ```markdown

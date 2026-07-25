@@ -1,9 +1,20 @@
 ---
-name: Ads
+name: ads
+slug: ads
+version: 1.0.0
 description: Paid acquisition strategy, budget allocation, and avoiding common advertising mistakes across platforms
+homepage: https://clawic.com/skills/ads
 metadata:
   category: marketing
-  skills: ["ads", "paid-acquisition", "advertising", "ppc", "media-buying"]
+  skills:
+  - ads
+  - paid-acquisition
+  - advertising
+  - ppc
+  - media-buying
+  clawdbot:
+    emoji: 📢
+    displayName: Ads
 ---
 
 ## Budget Mistakes

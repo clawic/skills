@@ -1,6 +1,13 @@
 ---
-name: Siri
+name: siri
+slug: siri
+version: 1.0.0
 description: Control devices, run automations, and help users get more from Siri with HomeKit, Shortcuts, and voice command guidance.
+homepage: https://clawic.com/skills/siri
+metadata:
+  clawdbot:
+    emoji: 🗣️
+    displayName: Siri
 ---
 
 ## Activation & Setup

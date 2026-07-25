@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "217d61e392ce5e776e0b5078d40cc3602a240a7550cf02c3d2187b50df17bd92",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "empathy",
-    "name": "Empathy",
+    "name": "empathy",
     "description": "Respond to emotional content with genuine-feeling empathy using Chain of Empathy reasoning, reflection-before-response, and calibrated validation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/empathy",
     "summary": "Core Loop — Chain of Empathy (CoE) Before responding to emotional content, process these steps internally: 1. **Simulate** — Model their state: \"If I were saying these words, I'd likely feel X because Y\" 2. **Identify su",
     "repositoryPath": "skills/empathy",
     "manifestPath": "registry/skills/empathy.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/empathy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/_meta.json",
+      "byteCount": 166,
+      "sha256": "89cdaaf47f0847fcc5e178d86f18966b7c4b728c375558f5c7966ea540a4ff6f"
     },
     {
       "path": "contexts.md",
       "downloadPath": "skills/empathy/contexts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/contexts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/contexts.md",
+      "byteCount": 3033,
+      "sha256": "9b16d36ca4841aa3bf1dd2e48c589beaff2475b1d3fb751e745db22cdb405e27"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/empathy/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/feedback.md",
+      "byteCount": 2816,
+      "sha256": "c1e61b972048fe891cfe2fee18155e5050b9dddd4eb1c985a1e494de77baa78d"
     },
     {
       "path": "safeguards.md",
       "downloadPath": "skills/empathy/safeguards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/safeguards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/safeguards.md",
+      "byteCount": 3096,
+      "sha256": "45c65d622d5ae8b269d32a7cbd4a5256e829c5e6417d2416327656968c1b6d4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/empathy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/SKILL.md",
+      "byteCount": 2395,
+      "sha256": "041b56c495a2347d8ea0028da01aba580bf8da2fa039d2134d37136bfb66223d"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/empathy/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/empathy/techniques.md",
+      "byteCount": 3736,
+      "sha256": "e050420c954ef5075af5559ff812d30978ff6403b62798b27838b93bd95e42b9"
     }
   ]
 }

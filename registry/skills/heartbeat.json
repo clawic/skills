@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "41af3a6bbe4f3eb1009d2b0ae73dc64efaa11ebea63e719007a8212e3c3a14e4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "heartbeat",
-    "name": "Heartbeat",
+    "name": "heartbeat",
     "description": "Design better OpenClaw HEARTBEAT.md files with adaptive cadence, safe checks, and cron handoffs for precise schedules.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/heartbeat",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/heartbeat/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/_meta.json",
+      "byteCount": 246,
+      "sha256": "0640745b9390ee9b06c28dee662bb008dc4c58688f4a5f5e9acbf10b22e42df9"
     },
     {
       "path": "heartbeat-template.md",
       "downloadPath": "skills/heartbeat/heartbeat-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/heartbeat-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/heartbeat-template.md",
+      "byteCount": 1501,
+      "sha256": "df0bc68c18e4aaaeb8ae323c6aaa40f952b914e9f5feb608007c0ec6599329e7"
     },
     {
       "path": "intervals.md",
       "downloadPath": "skills/heartbeat/intervals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/intervals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/intervals.md",
+      "byteCount": 1097,
+      "sha256": "52e75c4a3f5d826afa14caf353072df70502f361c43a8790162867e981f5c54c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/heartbeat/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/memory-template.md",
+      "byteCount": 1345,
+      "sha256": "40d686afa94e30a843adf54121c85fd21aaf1e1aeb97dbea5c1bbda602a297c4"
     },
     {
       "path": "qa-checklist.md",
       "downloadPath": "skills/heartbeat/qa-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/qa-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/qa-checklist.md",
+      "byteCount": 900,
+      "sha256": "f8150d24244f5916f4480609e344a0ad7fe3c8b9e198bb9717d26db77f1ac2c5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/heartbeat/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/setup.md",
+      "byteCount": 1403,
+      "sha256": "cd4aef49f23b84acb954fdf96f08c9ce08935e54ab5fe5573f2eccac7076b1e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/heartbeat/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/SKILL.md",
+      "byteCount": 4779,
+      "sha256": "53932657300086b4a55b6d54794f1561e22ef4a88c304cf89a8596d93c8d3333"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/heartbeat/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/sources.md",
+      "byteCount": 1206,
+      "sha256": "6b49f03822adc48f0e670d3a8f45ba17899d46f273617d9672b390e8486d7fe1"
     },
     {
       "path": "triggers.md",
       "downloadPath": "skills/heartbeat/triggers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/triggers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/triggers.md",
+      "byteCount": 804,
+      "sha256": "671c5e1ecef710563c26f7f6ac33e35aa53a9f6eb91dd020654f445a181818f3"
     },
     {
       "path": "use-cases.md",
       "downloadPath": "skills/heartbeat/use-cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/use-cases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/heartbeat/use-cases.md",
+      "byteCount": 1140,
+      "sha256": "af59432add2142ef1baa6f0721352e5cadd256de143d6a982bca082cb8bb1fcd"
     }
   ]
 }

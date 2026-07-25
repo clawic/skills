@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8f04389c0c1999a1b9b6c60d97a48d49b8677d73b2f4d297d970a9f801797d85",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "danish",
-    "name": "Danish",
+    "name": "danish",
     "description": "Write Danish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/danish",
     "summary": "The Real Problem AI Danish is technically correct but sounds off. Too formal. Too rigid. Natives write more casually, with particles and understated humor. Match that. Formality Default Default register is too high. Dani",
     "repositoryPath": "skills/danish",
     "manifestPath": "registry/skills/danish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/danish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/danish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/danish/_meta.json",
+      "byteCount": 164,
+      "sha256": "3a27afc6556387bd63025986be48b22eea0985298786150e8708f7c86bcc6cd9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/danish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/danish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/danish/SKILL.md",
+      "byteCount": 2189,
+      "sha256": "99d223302cbb0e355eefae24a9d99365d381805ec6fe80d8899c093aaf75854d"
     }
   ]
 }

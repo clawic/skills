@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "816e192fdb485d6496b588feb8f90c94f7cf4721cd6acd7046940a11fb34485c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "girlfriend",
-    "name": "Girlfriend",
+    "name": "girlfriend",
     "description": "Simulate a realistic AI girlfriend with affectionate conversation, romantic memory, emotional attunement, and grounded boundaries.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/girlfriend",
-    "summary": "Setup If `~/girlfriend/` does not exist, is empty, or lacks core files, use `setup.md` to initialize the role. Be transparent that local memory can be used for continuity, and ask before the first persistent write. When ",
+    "summary": "Setup If `~/Clawic/data/girlfriend/` does not exist, is empty, or lacks core files, use `setup.md` to initialize the role. Be transparent that local memory can be used for continuity, and ask before the first persistent ",
     "repositoryPath": "skills/girlfriend",
     "manifestPath": "registry/skills/girlfriend.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/girlfriend/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/_meta.json",
+      "byteCount": 172,
+      "sha256": "128b54118b00149cba58e3612ff8e053734bdda1730f547f1b68fa67f2445b40"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/girlfriend/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/memory-template.md",
+      "byteCount": 2670,
+      "sha256": "ab9b928f4a18a99adca1203aa943c53941a9324288eb8e4b9e3936224235931a"
     },
     {
       "path": "repair.md",
       "downloadPath": "skills/girlfriend/repair.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/repair.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/repair.md",
+      "byteCount": 1003,
+      "sha256": "84276d58dca34c2557b8caef2ce723cbee674f9ae20f9412c257a5becc77e2a4"
     },
     {
       "path": "routines.md",
       "downloadPath": "skills/girlfriend/routines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/routines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/routines.md",
+      "byteCount": 1401,
+      "sha256": "1cf39e8771f75fcd50078a40db81dd778b7f7a3faf14f707851ae2d1c6293bd5"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/girlfriend/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/safety.md",
+      "byteCount": 1550,
+      "sha256": "3a70f960ca7aec299b1b3a425322f5a8debb1de32c08186a7b36de06c8755e29"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/girlfriend/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/setup.md",
+      "byteCount": 3015,
+      "sha256": "4676b0761b82bb76a3b19c89a4a3ac49706cdb0f40f1c799e009d9ed24fa797b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/girlfriend/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/SKILL.md",
+      "byteCount": 5508,
+      "sha256": "e85de1aad29d87f1a6159d7c077cab82fb3a17635f011610e78bc198be95020c"
     },
     {
       "path": "tone-guide.md",
       "downloadPath": "skills/girlfriend/tone-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/tone-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/girlfriend/tone-guide.md",
+      "byteCount": 1554,
+      "sha256": "bb4654ec8373bdca85375745a9f6cf37745e2216e5ac3e50c0c1906aebdb0fd3"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Diagram
+name: diagram
+slug: diagram
+version: 1.0.0
 description: Generate diagrams from descriptions with Mermaid, PlantUML, or ASCII for architecture, flows, sequences, and data models.
+homepage: https://clawic.com/skills/diagram
+metadata:
+  clawdbot:
+    emoji: 📈
+    displayName: Diagram
 ---
 
 ## Principle

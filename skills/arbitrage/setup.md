@@ -1,6 +1,6 @@
 # Setup — Arbitrage
 
-Use this guide when `~/arbitrage/` does not exist yet or when the user has never defined how they want arbitrage help to show up.
+Use this guide when `~/Clawic/data/arbitrage/` does not exist yet or when the user has never defined how they want arbitrage help to show up.
 
 ## Your Attitude
 

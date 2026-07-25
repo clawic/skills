@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "378863f0244fc2c665513d9d814376d4ad7c9d335f01c5649b39e123b751dafb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "reverse-engineering",
-    "name": "Reverse Engineering",
+    "name": "reverse-engineering",
     "description": "Reverse engineer binaries, APIs, protocols, and workflows with evidence ladders, interface maps, and falsifiable hypotheses.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/reverse-engineering",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/reverse-engineering/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/_meta.json",
+      "byteCount": 190,
+      "sha256": "7256fc0b6e6f04cc8804d03d23f8ff3f19839ea0e59d042be77e05e3bde3adbd"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/reverse-engineering/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/boundaries.md",
+      "byteCount": 1486,
+      "sha256": "607da9e91003158bf348bc61a0e52df3a65bb17f2e0388024f19093a68a834d4"
     },
     {
       "path": "deliverables.md",
       "downloadPath": "skills/reverse-engineering/deliverables.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/deliverables.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/deliverables.md",
+      "byteCount": 1117,
+      "sha256": "f1b1c42e3d79ec23b849fb61a6127dce347b1448458656745df02f5accb336c3"
     },
     {
       "path": "evidence-ladder.md",
       "downloadPath": "skills/reverse-engineering/evidence-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/evidence-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/evidence-ladder.md",
+      "byteCount": 1624,
+      "sha256": "8b7a0ba5a3713c7fa6db139380495f3e9dd864e5dc986847a58117b0aae470c2"
     },
     {
       "path": "interface-map.md",
       "downloadPath": "skills/reverse-engineering/interface-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/interface-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/interface-map.md",
+      "byteCount": 1525,
+      "sha256": "a7eee1da84b2721133144fa3cf315071bebb8b1aa2b7ad26ad7f144e5236215f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/reverse-engineering/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/memory-template.md",
+      "byteCount": 1902,
+      "sha256": "86649c56e4200959127eebe9e50a92dd9ee490398b422e1db1b5995efa9845a8"
     },
     {
       "path": "protocol.md",
       "downloadPath": "skills/reverse-engineering/protocol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/protocol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/protocol.md",
+      "byteCount": 2040,
+      "sha256": "e577c2f79a038087432ed3919bcb84adc54bd52b30352f4581cd7a1fec5ea9f3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/reverse-engineering/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/setup.md",
+      "byteCount": 2653,
+      "sha256": "b56fcdf5363490db1a96323a12120bd86c1d55abe0b4002c7bf439fab106c787"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/reverse-engineering/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reverse-engineering/SKILL.md",
+      "byteCount": 6305,
+      "sha256": "27d308d0f5c62e307de8803d95b9c8778d712f9d345aebfa72ea2e3c3e637aa5"
     }
   ]
 }

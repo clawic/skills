@@ -1,7 +1,17 @@
 ---
-name: SaaS
+name: saas
+slug: saas
+version: 1.0.0
 description: Build and scale profitable software-as-a-service with viral growth, retention, and monetization strategies.
-metadata: {"clawdbot":{"emoji":"💎","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/saas
+metadata:
+  clawdbot:
+    emoji: 💎
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: SaaS
 ---
 
 # SaaS Rules

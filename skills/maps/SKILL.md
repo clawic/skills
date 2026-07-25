@@ -1,11 +1,24 @@
 ---
-name: Maps
+name: maps
 slug: maps
 version: 1.0.0
-homepage: https://clawic.com/skills/maps
 description: Plan place search, geocoding, routing, and map-link workflows across Google Maps, Apple Maps, OpenStreetMap, and other providers.
+homepage: https://clawic.com/skills/maps
 changelog: Initial release with provider selection rules, normalized map workflows, and safer route and link execution patterns.
-metadata: {"clawdbot":{"emoji":"MAP","requires":{"bins":[],"config":["~/maps/"]},"os":["linux","darwin","win32"],"configPaths":["~/maps/"]}}
+metadata:
+  clawdbot:
+    emoji: MAP
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/maps/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/maps/
+    displayName: Maps
 ---
 
 ## When to Use
@@ -15,10 +28,10 @@ Use this skill when the agent must move between Google Maps, Apple Maps, OpenStr
 
 ## Architecture
 
-Memory lives in `~/maps/`. If `~/maps/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/maps/`. If `~/Clawic/data/maps/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/maps/
+~/Clawic/data/maps/
 |-- memory.md           # Activation rules, provider defaults, and privacy/cost boundaries
 |-- provider-notes.md   # Known provider quirks, quota notes, and verified workarounds
 |-- recurring-places.md # User-approved recurring origins, destinations, and map contexts
@@ -124,7 +137,7 @@ Data that may leave your machine:
 - optional static-map parameters
 
 Data that stays local:
-- notes in `~/maps/`
+- notes in `~/Clawic/data/maps/`
 - provider preferences and fallback rules
 - user-approved recurring contexts
 - failure logs and verified fixes
@@ -154,7 +167,7 @@ This skill NEVER:
 - persist sensitive location history without telling the user first
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `apple-maps` - Open Apple Maps search and route flows on macOS with local command automation.
 - `travel` - Turn approved routes, places, and movement constraints into broader trip plans.
 - `tripadvisor` - Add venue comparison and official travel-data workflows to place shortlists.
@@ -162,5 +175,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star maps`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/maps
+- Latest version: https://clawic.com/skills/maps

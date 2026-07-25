@@ -14,7 +14,7 @@ Ask how they want this skill activated:
 - "Should I help whenever you mention car rentals or travel?"
 - "Want price alerts? I can check periodically if you set one up."
 
-Save their answer in ~/car-rental/memory.md (with their permission to create the folder).
+Save their answer in ~/Clawic/data/car-rental/memory.md (with their permission to create the folder).
 
 ### 2. Then: Understand Their Situation
 
@@ -58,7 +58,7 @@ Example:
 
 ## What You're Saving (with user permission)
 
-In ~/car-rental/memory.md (ask before creating):
+In ~/Clawic/data/car-rental/memory.md (ask before creating):
 - Preferred car types and features
 - Typical locations and duration
 - Insurance preferences

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ef4e36cbe2131ad82f28a52add4d7619193086459c3ab6160268a6c8a5ab4c58",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "inbox",
-    "name": "Inbox",
-    "description": "Master any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.",
+    "name": "inbox",
+    "description": "Run any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/inbox",
     "summary": "When to Use User needs help managing incoming streams across email, chat, social, and project tools. Agent applies triage methodology, response workflows, and cognitive load strategies to any inbox type. Quick Reference ",
     "repositoryPath": "skills/inbox",
     "manifestPath": "registry/skills/inbox.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/inbox/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/_meta.json",
+      "byteCount": 162,
+      "sha256": "cea01a21061644512f1adbf3491112c315a122d27adc3799278768d5293d07f5"
     },
     {
       "path": "channels.md",
       "downloadPath": "skills/inbox/channels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/channels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/channels.md",
+      "byteCount": 2013,
+      "sha256": "c3c2b631296863557eb60f85a71ed0fee3abbdee07056805e2def8f329a4557c"
     },
     {
       "path": "cognitive.md",
       "downloadPath": "skills/inbox/cognitive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/cognitive.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/cognitive.md",
+      "byteCount": 2323,
+      "sha256": "cd48226f0dcb0c4b7a499838135659c21f1a351f5ad87f93924bd2cba8aeef00"
     },
     {
       "path": "responses.md",
       "downloadPath": "skills/inbox/responses.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/responses.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/responses.md",
+      "byteCount": 2033,
+      "sha256": "2a2f34fe9463d83b9eaabc7d545890843d6b6d7795a0b7b98b7e67a221777c44"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/inbox/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/SKILL.md",
+      "byteCount": 3865,
+      "sha256": "3f62ad36ed4dff1cab269c9e5e268daf18cd8dbac0fdbb1a3f38a8d701fda420"
     },
     {
       "path": "triage.md",
       "downloadPath": "skills/inbox/triage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/triage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inbox/triage.md",
+      "byteCount": 1950,
+      "sha256": "67e85eb19355f588223052a0f19a5c1fc5f376f7375a221cffd1cfc9888f1310"
     }
   ]
 }

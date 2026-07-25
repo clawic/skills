@@ -23,7 +23,7 @@ Ask how they want to use Stripe:
 
 ## Memory Storage
 
-Store context in `~/stripe-api-integration/memory.md`:
+Store context in `~/Clawic/data/stripe-api-integration/memory.md`:
 - Their primary use case (subscriptions, one-time, both)
 - Their customer type (B2B/B2C/marketplace)
 - Their tech stack if mentioned

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "37b54bf143c264b292e3085dc351b5244d9a8e0560ad67e81285fb7871a04305",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "qwen",
-    "name": "Qwen",
+    "name": "qwen",
     "description": "Build and route Qwen chat, coding, reasoning, and vision workflows across hosted and self-hosted endpoints with safer debugging.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/qwen",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/qwen/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/_meta.json",
+      "byteCount": 160,
+      "sha256": "fe685cc6412fb9c21320101fdee265a2537069fe213d3d34cb5857ea65a3a47b"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/qwen/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/api-patterns.md",
+      "byteCount": 2656,
+      "sha256": "4b085748d46611be1415fe905eed792fdc12c7d7736abe75322c8e7f63d78a35"
     },
     {
       "path": "deployment-paths.md",
       "downloadPath": "skills/qwen/deployment-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/deployment-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/deployment-paths.md",
+      "byteCount": 2203,
+      "sha256": "f8b99c71f356747fd11ed85bff086915b92a99eed4328779ae8ea63dbe181a9d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/qwen/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/memory-template.md",
+      "byteCount": 1683,
+      "sha256": "80614570464ccf6061358c5df03fd16848ea9ea4fe3d4fb8597f99b3de6597ef"
     },
     {
       "path": "routing-matrix.md",
       "downloadPath": "skills/qwen/routing-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/routing-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/routing-matrix.md",
+      "byteCount": 1985,
+      "sha256": "1db4d8e66aaa7cf1e308f516c3e6649de8bec1ea1df4e144a7a4a7a6d2eaefec"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/qwen/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/setup.md",
+      "byteCount": 2457,
+      "sha256": "e912d509f04dde0bfeb5cefbce324555e3761d8426787a6cc3e3de0cd6b6607d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/qwen/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/SKILL.md",
+      "byteCount": 7572,
+      "sha256": "44171cce4ff56cbac3fcf7f55edc4e2f29a0d5f0f50a6fb4eddbbc7640b93667"
     },
     {
       "path": "tool-calling.md",
       "downloadPath": "skills/qwen/tool-calling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/tool-calling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/tool-calling.md",
+      "byteCount": 2289,
+      "sha256": "e767d4b273270d3c65eb431272ff5c08a2b12fa2826e77ca5310d09f6ba7a32b"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/qwen/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qwen/troubleshooting.md",
+      "byteCount": 2389,
+      "sha256": "74e1f762e52046d615dc05a6be74ab86e53b55b19fff28ae84fc86a3cfbe3fd6"
     }
   ]
 }

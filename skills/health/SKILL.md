@@ -1,6 +1,13 @@
 ---
-name: Health
+name: health
+slug: health
+version: 1.0.1
 description: Provide personalized wellness guidance while maintaining strict safety boundaries.
+homepage: https://clawic.com/skills/health
+metadata:
+  clawdbot:
+    emoji: ❤️‍🩹
+    displayName: Health
 ---
 
 ## Safety Boundary Protocols

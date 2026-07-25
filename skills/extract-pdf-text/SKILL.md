@@ -1,11 +1,28 @@
 ---
-name: Extract PDF Text
+name: extract-pdf-text
 slug: extract-pdf-text
 version: 1.0.2
-homepage: https://clawic.com/skills/extract-pdf-text
 description: Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.
+homepage: https://clawic.com/skills/extract-pdf-text
 changelog: Remove internal build file that was accidentally included
-metadata: {"clawdbot":{"emoji":"📄","requires":{"bins":["python3"],"pip":["pymupdf"]},"os":["linux","darwin","win32"],"install":[{"id":"pymupdf","kind":"pip","package":"PyMuPDF","label":"Install PyMuPDF"}]}}
+metadata:
+  clawdbot:
+    emoji: 📄
+    requires:
+      bins:
+      - python3
+      pip:
+      - pymupdf
+    os:
+    - linux
+    - darwin
+    - win32
+    install:
+    - id: pymupdf
+      kind: pip
+      package: PyMuPDF
+      label: Install PyMuPDF
+    displayName: Extract PDF Text
 ---
 
 ## When to Use
@@ -165,5 +182,5 @@ print(f"Extracted {result['word_count']} words from {result['pages']} pages")
 
 ## Feedback
 
-- Useful? `clawhub star extract-pdf-text`
-- Stay updated: `clawhub sync`
+- Useful? Star it: https://clawic.com/skills/extract-pdf-text
+- Latest version: https://clawic.com/skills/extract-pdf-text

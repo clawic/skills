@@ -1,7 +1,17 @@
 ---
-name: Systems Architect
+name: systems-architect
+slug: systems-architect
+version: 1.0.0
 description: Design infrastructure, networks, and cloud systems with integration, reliability, and security patterns.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/systems-architect
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Systems Architect
 ---
 
 # Systems Architecture Rules

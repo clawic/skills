@@ -9,7 +9,7 @@ Where agents fail without explicit instructions.
 | Forgetting allergies | Dangerous order | CRITICAL section in memory.md, check every time |
 | Ignoring stated restrictions | Order violates diet | Check FIRM restrictions before suggesting |
 | Not recording rejections | Repeat bad suggestions | Update restaurants.md after negative feedback |
-| Losing context between sessions | Start from scratch | Persistent memory in ~/food-delivery/ |
+| Losing context between sessions | Start from scratch | Persistent memory in ~/Clawic/data/food-delivery/ |
 | Storing preference as fact | "User is vegetarian" when said "I'm trying to eat less meat" | Store exact language, note uncertainty |
 
 ## Variety Blindness

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "eaf6ee67867a46dcabd44245463ffe910ae82ec43a027e3732a5b3f07a779fa9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "prom",
-    "name": "Prometheus",
+    "name": "prom",
     "description": "Prometheus monitoring patterns, cardinality management, alerting best practices, and PromQL traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/prom",
     "summary": "Cardinality Explosions - Every unique label combination creates a new time series — `user_id` as label kills Prometheus - Avoid high-cardinality labels: user IDs, email addresses, request IDs, timestamps, UUIDs - Check c",
     "repositoryPath": "skills/prom",
     "manifestPath": "registry/skills/prom.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/prom/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prom/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prom/_meta.json",
+      "byteCount": 166,
+      "sha256": "e94e4ceadfb2c5fa1a5edc498f7c25a481f42e0684b16fae2413d5757b985023"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/prom/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prom/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prom/SKILL.md",
+      "byteCount": 4779,
+      "sha256": "32a3ff1fc38a693720c432835d48dded7b2b1bd896bee2a8566fdea46f688140"
     }
   ]
 }

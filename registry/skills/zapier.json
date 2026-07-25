@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f16616b94d06af25f9023d1011c7f4af25d6160cff18025b66ed8f77bc5db64b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "zapier",
-    "name": "Zapier",
+    "name": "zapier",
     "description": "Complete Zapier automation with Zaps, Tables, Interfaces, webhooks, REST Hooks API, and 6000+ app integrations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/zapier",
@@ -22,67 +25,93 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/zapier/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/_meta.json",
+      "byteCount": 164,
+      "sha256": "a0183c60bb91bbb8f97de335baa1302072226cb21fbb01fdd649d23532381fa5"
     },
     {
       "path": "actions.md",
       "downloadPath": "skills/zapier/actions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/actions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/actions.md",
+      "byteCount": 6177,
+      "sha256": "7d8c885f2d5bb3cf5e2bd87debb1e6e1a426b3017daf53aa4b0555b7cb9bb28e"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/zapier/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/api.md",
+      "byteCount": 4736,
+      "sha256": "9aa5fe2cfceeaf6d11582167be16347fda57d8f6209a33b37dc63d57b0c7bb64"
     },
     {
       "path": "integrations.md",
       "downloadPath": "skills/zapier/integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/integrations.md",
+      "byteCount": 8000,
+      "sha256": "1f7a0d64360167c02609c440556d8daff955ca29c173f88ba4b92e0861509a57"
     },
     {
       "path": "interfaces.md",
       "downloadPath": "skills/zapier/interfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/interfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/interfaces.md",
+      "byteCount": 6360,
+      "sha256": "1444fe9352eb28fac2bb60e55a62c85a66632cded9db9e633dedd87987185209"
     },
     {
       "path": "logic.md",
       "downloadPath": "skills/zapier/logic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/logic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/logic.md",
+      "byteCount": 6639,
+      "sha256": "bd99490ad113c68e89d1b873dd47442a72c4d5070b2f3b91b85d7957fa6f2da5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/zapier/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/memory-template.md",
+      "byteCount": 1086,
+      "sha256": "cbc72c4eae8431eda98af73ad8fb31e31af8a4002e3e094bb4cf31890e7e6571"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/zapier/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/patterns.md",
+      "byteCount": 5294,
+      "sha256": "aecf29b8c45e04ef4866a02ddffeac24fec6f3439ce490632cb733cff9ea324c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/zapier/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/setup.md",
+      "byteCount": 1166,
+      "sha256": "132fbfa9e49b693ce615f5e9e79dfa72291b2555c75066af7973ad9291a80181"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/zapier/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/SKILL.md",
+      "byteCount": 4093,
+      "sha256": "928d5e0ec6cc3048e35188af27d4bfcf0a88115730f44c52c7f8d5ed98a5961b"
     },
     {
       "path": "tables.md",
       "downloadPath": "skills/zapier/tables.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/tables.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/tables.md",
+      "byteCount": 6787,
+      "sha256": "018b4d759355ed9b7adae568808e700eae584ec37453e591e19c77cf78bbb709"
     },
     {
       "path": "triggers.md",
       "downloadPath": "skills/zapier/triggers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/triggers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/triggers.md",
+      "byteCount": 5473,
+      "sha256": "0b98dec71a087358b0f76c611f9282c81489955f9ba911818623102d4e4f5a02"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/zapier/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zapier/webhooks.md",
+      "byteCount": 6507,
+      "sha256": "bb634fc2e810d5ddc318e05608ae30c37c45bad544bc0eceffb7841da59d5eca"
     }
   ]
 }

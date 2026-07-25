@@ -1,9 +1,19 @@
 ---
-name: Hacker News
+name: hacker-news
 slug: hacker-news
 version: 1.0.0
 description: Search and browse Hacker News with API access to stories, comments, users, and hiring threads.
-metadata: {"clawdbot":{"emoji":"🟠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/hacker-news
+metadata:
+  clawdbot:
+    emoji: 🟠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Hacker News
 ---
 
 ## Quick Reference

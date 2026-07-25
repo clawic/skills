@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c226bb6a6151d1ebe9a12183eeea20c8cae7a156ebd701753300e05ed6e73351",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "store",
-    "name": "Store",
+    "name": "store",
     "description": "Manage a physical store of any kind with opening routines, inventory control, staffing, cash discipline, merchandising, and weekly reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/store",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/store/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/_meta.json",
+      "byteCount": 162,
+      "sha256": "5309cb6f7236c6fd89b7e39a3fc88d9e6fa23af439b29838837f584f5f806e7b"
     },
     {
       "path": "cash-and-loss.md",
       "downloadPath": "skills/store/cash-and-loss.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/cash-and-loss.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/cash-and-loss.md",
+      "byteCount": 1336,
+      "sha256": "d38e5491b7a200fdecd811ecf5d9b562f0a5c8274ff1b8246ab9ced6fe377943"
     },
     {
       "path": "floor-ops.md",
       "downloadPath": "skills/store/floor-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/floor-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/floor-ops.md",
+      "byteCount": 1229,
+      "sha256": "983a2d2028af24756386b8249b61f828ba54752cdbd77e92a7baf729aaabee69"
     },
     {
       "path": "inventory-control.md",
       "downloadPath": "skills/store/inventory-control.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/inventory-control.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/inventory-control.md",
+      "byteCount": 1443,
+      "sha256": "984033f6606a71d89c4a84c2f78a2048976a695dfb72d8fd2c79331af55770a0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/store/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/memory-template.md",
+      "byteCount": 2672,
+      "sha256": "66a23542d7ac8ed5e3049eeab08bd435ef3efa1b7ed70281d5c4920b05f9d388"
     },
     {
       "path": "merchandising.md",
       "downloadPath": "skills/store/merchandising.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/merchandising.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/merchandising.md",
+      "byteCount": 1108,
+      "sha256": "34c7096f731b3e644aaeaf38f40bd95677932916d775073a7f4a97e48bd848b0"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/store/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/metrics.md",
+      "byteCount": 1626,
+      "sha256": "dcdd66d8f7028c1e263a19e2fa65379f9deaba77acc0a7af85f2d5ea6f5b9953"
     },
     {
       "path": "opening-closing.md",
       "downloadPath": "skills/store/opening-closing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/opening-closing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/opening-closing.md",
+      "byteCount": 1604,
+      "sha256": "8a220a0a3f4757405e2b67cc58131c8fbad6efd6171b84a1a12faa83ac94f970"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/store/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/setup.md",
+      "byteCount": 2375,
+      "sha256": "3881e2b1a4350ed73827e5d5870e656148a5db365fc6e962d2a756d5f7d83389"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/store/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/SKILL.md",
+      "byteCount": 6787,
+      "sha256": "567b4cf5eb7f133dfee87cadf1bf116dcd5ee88bba9348b22853164384c5d8c7"
     },
     {
       "path": "staffing.md",
       "downloadPath": "skills/store/staffing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/staffing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/store/staffing.md",
+      "byteCount": 1186,
+      "sha256": "f03ce7069691a5c0a9066c5731aff98c55a98afe872874012809407f6a2b8dae"
     }
   ]
 }

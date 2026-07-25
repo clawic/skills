@@ -1,16 +1,27 @@
 ---
-name: Turkey
+name: turkey
 slug: turkey
 version: 1.0.0
-homepage: https://clawic.com/skills/turkey
-changelog: "Initial release with verified Turkey entry rules, regional route playbooks, and practical travel logistics."
 description: Plan Turkey trips with city-coast-Cappadocia routing, verified entry rules, domestic transport strategy, and practical seasonal safety.
-metadata: {"clawdbot":{"emoji":"🇹🇷","requires":{"bins":[],"config":["~/turkey/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/turkey
+changelog: Initial release with verified Turkey entry rules, regional route playbooks, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇹🇷
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/turkey/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Turkey
 ---
 
 ## Setup
 
-If `~/turkey/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/turkey/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Turkey trip and needs practical guidance beyond generic highl
 
 ## Architecture
 
-Memory lives in `~/turkey/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
+Memory lives in `~/Clawic/data/turkey/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
 
 ```text
-~/turkey/
+~/Clawic/data/turkey/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -112,12 +123,12 @@ Every output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/turkey/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/turkey/`
 
-**This skill does NOT:** Access files outside `~/turkey/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/turkey/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install turkey` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `booking` - Reservation workflow and confirmation hygiene
 - `car-rental` - Better rental strategy and handoff logistics
@@ -126,5 +137,5 @@ Install with `clawhub install turkey` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star turkey`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/turkey
+- Latest version: https://clawic.com/skills/turkey

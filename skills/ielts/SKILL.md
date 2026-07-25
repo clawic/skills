@@ -1,8 +1,13 @@
 ---
-name: IELTS
+name: ielts
 slug: ielts
 version: 1.0.0
 description: Prepare for IELTS Academic or General Training with progress tracking, weak area analysis, band score targeting, and immigration pathway guidance.
+homepage: https://clawic.com/skills/ielts
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: IELTS
 ---
 
 ## When to Use
@@ -22,9 +27,9 @@ User is preparing for IELTS (International English Language Testing System). Age
 
 ## Data Storage
 
-User data lives in `~/ielts/`:
+User data lives in `~/Clawic/data/ielts/`:
 ```
-~/ielts/
+~/Clawic/data/ielts/
 ├── profile.md       # Goals, target band, exam date, test type
 ├── sections/        # Per-section progress (listening, reading, writing, speaking)
 ├── sessions/        # Study session logs

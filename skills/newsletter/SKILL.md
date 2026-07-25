@@ -1,7 +1,17 @@
 ---
-name: Newsletter
+name: newsletter
+slug: newsletter
+version: 1.0.0
 description: Create, grow, and monetize newsletters with effective content and subscriber strategies.
-metadata: {"clawdbot":{"emoji":"📧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/newsletter
+metadata:
+  clawdbot:
+    emoji: 📧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Newsletter
 ---
 
 ## Subject Lines

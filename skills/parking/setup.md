@@ -1,6 +1,6 @@
 # Setup - Parking Radar
 
-Use this file when `~/parking/` is missing or empty.
+Use this file when `~/Clawic/data/parking/` is missing or empty.
 Keep onboarding short and centered on the real parking need in front of you.
 
 ## Operating Posture
@@ -49,7 +49,7 @@ If the user shares favorite garages, no-go operators, or city-specific hacks, as
 
 ## Internal Notes Policy
 
-Maintain concise records in `~/parking/`:
+Maintain concise records in `~/Clawic/data/parking/`:
 - activation rules and execution boundary
 - home city and recurring destinations
 - vehicle constraints that affect parking eligibility

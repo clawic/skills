@@ -1,10 +1,19 @@
 ---
-name: Inspiration
+name: inspiration
 slug: inspiration
 version: 1.0.0
-homepage: https://clawic.com/skills/inspiration
 description: Find design and AI art inspiration from curated galleries, screenshot libraries, and creative showcases.
-metadata: {"clawdbot":{"emoji":"✨","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/inspiration
+metadata:
+  clawdbot:
+    emoji: ✨
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Inspiration
 ---
 
 ## Setup
@@ -147,7 +156,7 @@ For specialized needs (AI prompts, mobile flows, specific industries), load the 
 - **Forgetting AI galleries** → For image generation prompts and style refs, AI-specific galleries (Civitai, PromptHero) are more relevant than traditional design sites.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `design` - design principles
 - `colors` - color theory and palettes
 - `ui` - UI component patterns
@@ -156,5 +165,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star inspiration`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/inspiration
+- Latest version: https://clawic.com/skills/inspiration

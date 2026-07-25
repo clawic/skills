@@ -1,6 +1,6 @@
 # Memory Template - Turkey
 
-Create `~/turkey/memory.md` with this structure:
+Create `~/Clawic/data/turkey/memory.md` with this structure:
 
 ```markdown
 # Turkey Trip Memory

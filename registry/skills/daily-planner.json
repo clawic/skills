@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7806834e10e802ad197f764134ac0eacace1594cd7de3c0c48169105be900923",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "daily-planner",
-    "name": "Daily Planner",
+    "name": "daily-planner",
     "description": "Plan, protect, and execute your day with morning briefings, priority management, calendar blocking, and commitment tracking.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/daily-planner",
     "summary": "Quick Reference | File | Purpose | |------|---------| | `profiles.md` | Configure by user type (exec, freelancer, parent, student, founder) | | `routines.md` | Morning briefing, evening review, weekly planning | | `prior",
     "repositoryPath": "skills/daily-planner",
     "manifestPath": "registry/skills/daily-planner.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/daily-planner/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/_meta.json",
+      "byteCount": 178,
+      "sha256": "a6bd1698f0424982a0da4732e1675d91fd2dfb6acb3ca7bbf0d33593848b55e3"
     },
     {
       "path": "calendar.md",
       "downloadPath": "skills/daily-planner/calendar.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/calendar.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/calendar.md",
+      "byteCount": 3896,
+      "sha256": "b8c1f3de36f78d4138e6c3315fbcf1f759ce43a29190c37d5d7eb2800da120fc"
     },
     {
       "path": "priorities.md",
       "downloadPath": "skills/daily-planner/priorities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/priorities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/priorities.md",
+      "byteCount": 4277,
+      "sha256": "69e5eb9469bf3caa623446061d5b22904d53b616cec77cc15c07b0c39f704699"
     },
     {
       "path": "profiles.md",
       "downloadPath": "skills/daily-planner/profiles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/profiles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/profiles.md",
+      "byteCount": 4737,
+      "sha256": "51330fdbb091f216bf35f6e4121a3a990230a4f25a048b64edbca66e26f37cfa"
     },
     {
       "path": "routines.md",
       "downloadPath": "skills/daily-planner/routines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/routines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/routines.md",
+      "byteCount": 4234,
+      "sha256": "9a503f5691f57883327d21f232b2b314b3974dbd27a5a8f7192cb1eb7ae4fb35"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/daily-planner/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/SKILL.md",
+      "byteCount": 3334,
+      "sha256": "ec71b83eedc5b99c4fdb247156c6e6a398b4a2afcd89d98166fc16116d5b57b6"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/daily-planner/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-planner/tracking.md",
+      "byteCount": 3296,
+      "sha256": "e78623ec8b0a6fcb28271706ca172291f6a06b2b5dfa4226c19833ef2ce91dc9"
     }
   ]
 }

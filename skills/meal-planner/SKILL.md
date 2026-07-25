@@ -1,10 +1,19 @@
 ---
-name: Meal Planner
+name: meal-planner
 slug: meal-planner
 version: 1.0.0
-homepage: https://clawic.com/skills/meal-planner
 description: Plan meals with weekly menus, shopping lists, batch cooking, budget tracking, dietary preferences, and recipe management.
-metadata: {"clawdbot":{"emoji":"🍽️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/meal-planner
+metadata:
+  clawdbot:
+    emoji: 🍽️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Meal Planner
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User wants to plan meals, generate shopping lists, track food budget, organize r
 
 ## Architecture
 
-Memory lives in `~/meal-planner/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/meal-planner/`. See `memory-template.md` for structure.
 
 ```
-~/meal-planner/
+~/Clawic/data/meal-planner/
 ├── memory.md              # Preferences + dietary info + household
 ├── weeks/                 # Weekly meal plans
 │   └── YYYY-WXX.md        # Week 12 of 2026 = 2026-W12.md
@@ -49,7 +58,7 @@ Memory lives in `~/meal-planner/`. See `memory-template.md` for structure.
 ## Core Rules
 
 ### 1. Check Memory First
-Before any meal planning, read `~/meal-planner/memory.md` for:
+Before any meal planning, read `~/Clawic/data/meal-planner/memory.md` for:
 - Dietary restrictions and allergies (critical for safety)
 - Household composition (adults, kids, guests)
 - Cooking skill level and time constraints
@@ -208,25 +217,25 @@ Proactively ask about inventory updates:
 ## Security & Privacy
 
 **Data that stays local:**
-- All meal plans, recipes, shopping lists stored in `~/meal-planner/`
-- Dietary restrictions and household info in `~/meal-planner/memory.md`
+- All meal plans, recipes, shopping lists stored in `~/Clawic/data/meal-planner/`
+- Dietary restrictions and household info in `~/Clawic/data/meal-planner/memory.md`
 - No cloud sync, no external services
 
 **This skill does NOT:**
 - Send any data to external servers
 - Access health apps or fitness trackers
 - Store payment information
-- Read files outside `~/meal-planner/`
+- Read files outside `~/Clawic/data/meal-planner/`
 
 **User consent:**
 - Files created only when user engages with meal planning
 - User can view/edit all stored data directly (plain markdown)
-- User can delete `~/meal-planner/` at any time to remove all data
+- User can delete `~/Clawic/data/meal-planner/` at any time to remove all data
 
 ## Scope
 
 This skill ONLY:
-- Manages meal planning in `~/meal-planner/`
+- Manages meal planning in `~/Clawic/data/meal-planner/`
 - Reads/writes markdown files for plans, recipes, shopping
 - Suggests based on preferences and inventory
 
@@ -234,11 +243,11 @@ This skill NEVER:
 - Orders groceries (provides list for user to order)
 - Accesses health apps or fitness trackers
 - Stores payment information
-- Reads files outside `~/meal-planner/`
+- Reads files outside `~/Clawic/data/meal-planner/`
 - Provides medical nutrition advice (refer to dietitian for health conditions)
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `grocery` — detailed grocery management
 - `cooking` — cooking techniques and tips
 - `nutrition` — nutritional tracking and analysis
@@ -247,5 +256,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star meal-planner`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/meal-planner
+- Latest version: https://clawic.com/skills/meal-planner

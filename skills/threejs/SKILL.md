@@ -1,7 +1,20 @@
 ---
-name: Three.js
+name: threejs
+slug: threejs
+version: 1.0.0
 description: Build 3D web experiences with proper resource management and performance patterns.
-metadata: {"clawdbot":{"emoji":"🎮","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/threejs
+metadata:
+  clawdbot:
+    emoji: 🎮
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Three.js
 ---
 
 # Three.js Production Patterns

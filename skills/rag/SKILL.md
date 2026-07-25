@@ -1,7 +1,13 @@
 ---
-name: RAG
+name: rag
 slug: rag
+version: 1.0.0
 description: Build, optimize, and debug RAG pipelines with chunking strategies, retrieval tuning, evaluation metrics, and production monitoring.
+homepage: https://clawic.com/skills/rag
+metadata:
+  clawdbot:
+    emoji: 🔎
+    displayName: RAG
 ---
 
 ## When to Use

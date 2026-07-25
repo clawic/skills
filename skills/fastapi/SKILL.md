@@ -1,7 +1,20 @@
 ---
-name: FastAPI
+name: fastapi
+slug: fastapi
+version: 1.0.0
 description: Build fast, production-ready Python APIs with type hints, validation, and async support.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/fastapi
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: FastAPI
 ---
 
 # FastAPI Patterns

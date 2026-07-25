@@ -1,7 +1,17 @@
 ---
-name: Mobile
+name: mobile
+slug: mobile
+version: 1.0.0
 description: Build mobile applications with proper lifecycle handling, offline support, and platform conventions.
-metadata: {"clawdbot":{"emoji":"📱","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mobile
+metadata:
+  clawdbot:
+    emoji: 📱
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Mobile
 ---
 
 ## Lifecycle Awareness

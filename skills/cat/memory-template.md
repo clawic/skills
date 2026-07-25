@@ -1,6 +1,6 @@
 # Memory Template - Cat
 
-Create `~/cat/memory.md` with this structure:
+Create `~/Clawic/data/cat/memory.md` with this structure:
 
 ```markdown
 # Cat Memory
@@ -33,7 +33,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/cat/cats/{name}/profile.md` with this structure:
+Create `~/Clawic/data/cat/cats/{name}/profile.md` with this structure:
 
 ```markdown
 # {Name}
@@ -60,7 +60,7 @@ Create `~/cat/cats/{name}/profile.md` with this structure:
 - Stress triggers:
 ```
 
-Create `~/cat/cats/{name}/timeline.md` with short dated facts:
+Create `~/Clawic/data/cat/cats/{name}/timeline.md` with short dated facts:
 
 ```markdown
 # Timeline - {Name}
@@ -68,7 +68,7 @@ Create `~/cat/cats/{name}/timeline.md` with short dated facts:
 - YYYY-MM-DD - symptom change, appointment, milestone, or memorable event
 ```
 
-Create `~/cat/shopping.md` with shared supplies:
+Create `~/Clawic/data/cat/shopping.md` with shared supplies:
 
 ```markdown
 # Cat Supplies

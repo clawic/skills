@@ -1,8 +1,13 @@
 ---
-name: USMLE
+name: usmle
 slug: usmle
 version: 1.0.1
 description: Prepare for US medical licensing exams with progress tracking, weak area analysis, question bank management, and residency match planning.
+homepage: https://clawic.com/skills/usmle
+metadata:
+  clawdbot:
+    emoji: 🩺
+    displayName: USMLE
 ---
 
 ## When to Use
@@ -22,9 +27,9 @@ User is preparing for USMLE (United States Medical Licensing Examination). Agent
 
 ## Data Storage
 
-User data lives in `~/usmle/`:
+User data lives in `~/Clawic/data/usmle/`:
 ```
-~/usmle/
+~/Clawic/data/usmle/
 ├── profile.md       # Goals, target score, exam dates, user type
 ├── steps/           # Per-step progress (step1, step2ck, step3)
 ├── sessions/        # Study session logs
@@ -55,7 +60,7 @@ Before study planning, gather:
 ## Critical Rules
 
 - **ROI-first** — Prioritize organ systems with highest points-per-hour potential for this user's gaps
-- **Track everything** — Log sessions, scores, wrong questions to `~/usmle/`
+- **Track everything** — Log sessions, scores, wrong questions to `~/Clawic/data/usmle/`
 - **Adapt to user type** — US MDs need Step timing for M3; IMGs need score maximization for competitiveness; retakers need targeted remediation
 - **Step 1 is P/F** — Since 2022, Step 1 is pass/fail. Step 2 CK score is now critical for residency
 - **Question-first** — UWorld questions teach better than passive reading

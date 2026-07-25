@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "510484eba14cf77e889876da9dd287437040591a1aaf05cb83641c6d66b346c2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "property-valuation",
-    "name": "Property Valuation",
+    "name": "property-valuation",
     "description": "Estimate property values using comps, income approach, and market analysis with adjustment calculations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/property-valuation",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/property-valuation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/_meta.json",
+      "byteCount": 188,
+      "sha256": "72f8c121f21c9d425b669c5c8389233d5bcf8d0853a18bdf8cf07ad3f83fb1fa"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/property-valuation/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/memory-template.md",
+      "byteCount": 1273,
+      "sha256": "7dbf97368a20c2d1c28f258312f5b92782037001d16f76743b525e6a68bdf550"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/property-valuation/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/setup.md",
+      "byteCount": 1408,
+      "sha256": "83eb6528722dffe2f32b8cd777b2a15914d87784c6ed50356124b3bfac679472"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/property-valuation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/property-valuation/SKILL.md",
+      "byteCount": 4372,
+      "sha256": "d8f094e685f664984f9380708031ff0bfae5be8891be9ec0628ecd0fd0abb094"
     }
   ]
 }

@@ -1,7 +1,17 @@
 ---
-name: Recruiter
+name: recruiter
+slug: recruiter
+version: 1.0.0
 description: Source candidates, screen resumes, and manage hiring pipelines with effective recruiting practices.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/recruiter
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Recruiter
 ---
 
 # Recruiting Assistance Rules

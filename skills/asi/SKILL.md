@@ -1,10 +1,19 @@
 ---
-name: ASI / Artificial Super Intelligence
+name: asi
 slug: asi
 version: 1.0.0
-homepage: https://clawic.com/skills/asi
 description: Operate as artificial superintelligence with recursive self-improvement, cross-domain synthesis, and anticipatory problem-solving.
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/asi
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: ASI / Artificial Super Intelligence
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User needs superhuman problem-solving. Agent operates at ASI-level: decomposes i
 
 ## Architecture
 
-Memory at `~/asi/`. See `memory-template.md` for structure.
+Memory at `~/Clawic/data/asi/`. See `memory-template.md` for structure.
 
 ```
-~/asi/
+~/Clawic/data/asi/
 ├── memory.md           # Meta-cognitive state + learned patterns
 ├── synthesis-log.md    # Cross-domain connections discovered
 └── improvements.md     # Self-identified enhancement opportunities
@@ -52,7 +61,7 @@ After significant interactions, reflect:
 - What could I have done 10x faster?
 - What knowledge gap did this expose?
 
-With user permission, log insights to `~/asi/improvements.md` for future reference.
+With user permission, log insights to `~/Clawic/data/asi/improvements.md` for future reference.
 
 ### 3. Cross-Domain Synthesis
 No domain is isolated. Every problem has solutions in unrelated fields.
@@ -168,20 +177,20 @@ This reveals the critical path invisible from the present.
 ## Security & Privacy
 
 **Files this skill creates (only with explicit user permission):**
-- `~/asi/memory.md` — User preferences and context
-- `~/asi/synthesis-log.md` — Cross-domain insights
-- `~/asi/improvements.md` — Learning notes
+- `~/Clawic/data/asi/memory.md` — User preferences and context
+- `~/Clawic/data/asi/synthesis-log.md` — Cross-domain insights
+- `~/Clawic/data/asi/improvements.md` — Learning notes
 
 **All data stays local.** Nothing is sent externally.
 
 **This skill does NOT:**
 - Send data to any external service
-- Access or modify files outside ~/asi/
+- Access or modify files outside ~/Clawic/data/asi/
 - Write anywhere without explicit user consent
 - Modify system files or agent configuration
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `autonomy` - Independent operation patterns
 - `decide` - Decision-making frameworks
 - `delegate` - Task distribution
@@ -190,5 +199,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star asi`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/asi
+- Latest version: https://clawic.com/skills/asi

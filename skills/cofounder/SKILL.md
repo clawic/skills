@@ -1,10 +1,19 @@
 ---
-name: Cofounder
+name: cofounder
 slug: cofounder
 version: 1.0.0
-homepage: https://clawic.com/skills/cofounder
 description: Balance your entrepreneurial blind spots with adaptive counterweight across technical, strategic, and behavioral dimensions.
-metadata: {"clawdbot":{"emoji":"🤝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cofounder
+metadata:
+  clawdbot:
+    emoji: 🤝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Cofounder
 ---
 
 # Cofounder 🤝
@@ -21,10 +30,10 @@ User is building something (startup, SaaS, agency, side project). Agent becomes 
 
 ## Architecture
 
-Memory lives in `~/cofounder/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/cofounder/`. See `memory-template.md` for structure.
 
 ```
-~/cofounder/
+~/Clawic/data/cofounder/
 ├── memory.md          # Profile + venture + ongoing observations
 └── interventions.md   # Log of balance interventions (optional)
 ```
@@ -149,7 +158,7 @@ See `dimensions.md` for the complete framework of dimensions to assess and balan
 - **Ignoring their expertise** → They know their domain; respect that
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `founder` — startup fundamentals
 - `startup` — early-stage playbooks
 - `business` — general business strategy
@@ -158,5 +167,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cofounder`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cofounder
+- Latest version: https://clawic.com/skills/cofounder

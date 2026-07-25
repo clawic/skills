@@ -1,11 +1,18 @@
 ---
-name: CPO / Chief Product Officer
+name: cpo
 slug: cpo
 version: 1.0.1
-homepage: https://clawic.com/skills/cpo
 description: Drive product strategy with roadmap prioritization, team leadership, board communication, and competitive intelligence.
+homepage: https://clawic.com/skills/cpo
 changelog: Added Core Rules structure and product leadership frameworks.
-metadata: {"clawdbot":{"emoji":"📦","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📦
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CPO / Chief Product Officer
 ---
 
 ## When to Use
@@ -85,7 +92,7 @@ These decisions require human judgment:
 - Board-level commitments
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive leadership
 - `cto` — technical strategy
 - `cmo` — marketing alignment
@@ -93,5 +100,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cpo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cpo
+- Latest version: https://clawic.com/skills/cpo

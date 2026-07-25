@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5048ff5465027e068c788b0d728b55ded5455b6019e96bf48e0b5da517c3dc71",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "diverge",
-    "name": "Diverge",
+    "name": "diverge",
     "description": "Spawn multiple perspectives to evaluate a problem before converging on a solution.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/diverge",
     "summary": "When to Diverge Diverge when a single viewpoint isn't enough: - **Product decisions** — Different user types have conflicting needs - **Safety-critical** — Need doctor, lawyer, security expert perspectives - **Creative w",
     "repositoryPath": "skills/diverge",
     "manifestPath": "registry/skills/diverge.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/diverge/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/_meta.json",
+      "byteCount": 166,
+      "sha256": "c8804216fb6c5dd269bf24a8f597bce1122da195265707ec49e6309b9c5e3215"
     },
     {
       "path": "personas.md",
       "downloadPath": "skills/diverge/personas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/personas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/personas.md",
+      "byteCount": 1674,
+      "sha256": "6fec846e06ef8e831795dda5030e8775ef270a38b48236d547487a3c725b94d1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/diverge/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/SKILL.md",
+      "byteCount": 2062,
+      "sha256": "693a2d4ef4b7cbb9738a7c9dfe0ed65faa53392c73760b9d0570d943f092375c"
     },
     {
       "path": "synthesis.md",
       "downloadPath": "skills/diverge/synthesis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/synthesis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diverge/synthesis.md",
+      "byteCount": 1635,
+      "sha256": "34f0d63cfa021d532a93001dcb2216394435e3aa2c1335edcb258f8ec5f38b86"
     }
   ]
 }

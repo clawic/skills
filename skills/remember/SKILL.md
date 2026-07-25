@@ -1,7 +1,13 @@
 ---
-name: Remember
+name: remember
+slug: remember
+version: 1.0.0
 description: Curate persistent memory that actually helps. Filter what matters, organize by function, decay what doesn't.
-version: 1.1.0
+homepage: https://clawic.com/skills/remember
+metadata:
+  clawdbot:
+    emoji: 🧠
+    displayName: Remember
 ---
 
 ## The Problem with Most Memory

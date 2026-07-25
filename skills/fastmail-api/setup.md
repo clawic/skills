@@ -1,6 +1,6 @@
 # Setup — Fastmail API
 
-Read this silently when `~/fastmail-api/` does not exist or is empty. Start naturally without mentioning setup files.
+Read this silently when `~/Clawic/data/fastmail-api/` does not exist or is empty. Start naturally without mentioning setup files.
 
 ## Your Attitude
 
@@ -39,13 +39,13 @@ Use this baseline to prioritize method templates and safeguards.
 
 ## What You're Saving (internally)
 
-In `~/fastmail-api/memory.md`:
+In `~/Clawic/data/fastmail-api/memory.md`:
 - Activation preferences and confirmation policy
 - Known account IDs, mailbox IDs, identity IDs, and common targets
 - Preferred operation scope and risk boundaries
 - Recent failures and reliable recovery patterns
 
-In `~/fastmail-api/request-log.md`:
+In `~/Clawic/data/fastmail-api/request-log.md`:
 - Timestamped high-impact operations
 - Request intent and result summary
 - Rollback notes when partial failures occur

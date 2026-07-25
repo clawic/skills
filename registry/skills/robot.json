@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "370390c7377e6fa6afad5df8440e7ab633fb83f015bf72ab21c3d81d7956a05c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "robot",
-    "name": "Robot",
+    "name": "robot",
     "description": "Build robots from hobby to industrial with hardware wiring, ROS2, motion planning, and safety constraints.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/robot",
     "summary": "When to Use User needs robotics help — Arduino/ESP32 wiring, ROS2 configuration, motor control, sensor integration, or industrial robot programming. Agent handles hardware selection, code generation, and debugging across",
     "repositoryPath": "skills/robot",
     "manifestPath": "registry/skills/robot.json"
@@ -21,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/robot/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/_meta.json",
+      "byteCount": 162,
+      "sha256": "e6fd17d80b7e18a8c8660b17e46d62150d858e3b54f873610517b695a7d124e3"
     },
     {
       "path": "debugging.md",
       "downloadPath": "skills/robot/debugging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/debugging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/debugging.md",
+      "byteCount": 5951,
+      "sha256": "24ea3caa21236d1f27a4a3f5df4a3d3a0565b1d03eb9f9af669f650569538c94"
     },
     {
       "path": "hardware.md",
       "downloadPath": "skills/robot/hardware.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/hardware.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/hardware.md",
+      "byteCount": 3975,
+      "sha256": "c0c7b56bfe95224e9172064d96b9cc51e16614c1a4e0e5b2c47205ca04ce99f4"
     },
     {
       "path": "industrial.md",
       "downloadPath": "skills/robot/industrial.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/industrial.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/industrial.md",
+      "byteCount": 3785,
+      "sha256": "a8d176a175cdaf7029666df9b99fc12bed3d1306fb77e75a89108b75fa3d5e8e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/robot/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/memory-template.md",
+      "byteCount": 3623,
+      "sha256": "9ccbf4913dc3a8e97b3858d824d98ca28ca2af7cd0ae2cd0356d1eff11aedd3b"
     },
     {
       "path": "motors.md",
       "downloadPath": "skills/robot/motors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/motors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/motors.md",
+      "byteCount": 5642,
+      "sha256": "83d892faecd69488397bcff11cf35aef5310e67b3c2158089a556e70795f2de4"
     },
     {
       "path": "projects.md",
       "downloadPath": "skills/robot/projects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/projects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/projects.md",
+      "byteCount": 7678,
+      "sha256": "8b1d60c5a8fdf3007dc3ccd466b58ccc4575abcde7d4ab1562daabae159aeed5"
     },
     {
       "path": "ros.md",
       "downloadPath": "skills/robot/ros.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/ros.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/ros.md",
+      "byteCount": 3966,
+      "sha256": "da7f636cb7020c1f5728734ed34efacc970af04b284c85c340ee1858403f7dca"
     },
     {
       "path": "sensors.md",
       "downloadPath": "skills/robot/sensors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/sensors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/sensors.md",
+      "byteCount": 4840,
+      "sha256": "93d5cde5dfa4d38ac57d36e294fe6cc60d14809c703fafa32c511be58a0c29aa"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/robot/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/robot/SKILL.md",
+      "byteCount": 4272,
+      "sha256": "03a6e56d0fe5cfd48e3a7b11bf2b87e59e728ccf1ff5b91c2ca8b5097c59435d"
     }
   ]
 }

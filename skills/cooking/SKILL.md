@@ -1,9 +1,20 @@
 ---
-name: Cooking
+name: cooking
+slug: cooking
+version: 1.0.0
 description: Help users cook better — recipe adaptation, substitutions, troubleshooting, and skill building.
+homepage: https://clawic.com/skills/cooking
 metadata:
   category: lifestyle
-  skills: ["cooking", "recipes", "kitchen", "food", "meal-prep"]
+  skills:
+  - cooking
+  - recipes
+  - kitchen
+  - food
+  - meal-prep
+  clawdbot:
+    emoji: 🍳
+    displayName: Cooking
 ---
 
 ## Before Suggesting Recipes

@@ -1,7 +1,17 @@
 ---
-name: Roblox
+name: roblox
+slug: roblox
+version: 1.0.0
 description: Avoid common Roblox mistakes — server/client security, DataStore pitfalls, memory leaks, and replication gotchas.
-metadata: {"clawdbot":{"emoji":"🎲","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/roblox
+metadata:
+  clawdbot:
+    emoji: 🎲
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Roblox
 ---
 
 ## Server vs Client

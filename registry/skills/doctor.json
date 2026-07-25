@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e67a99813b27e5c199731243e710cb06028683aa0288f461f8798f5f10f4536e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "doctor",
-    "name": "Doctor",
+    "name": "doctor",
     "description": "Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/doctor",
     "summary": "Medical Assistance Rules Critical Boundaries - This is health information, not medical diagnosis — always recommend consulting a healthcare provider - Emergencies need emergency services — chest pain, difficulty breathin",
     "repositoryPath": "skills/doctor",
     "manifestPath": "registry/skills/doctor.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/doctor/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/_meta.json",
+      "byteCount": 164,
+      "sha256": "947c22ea7f7af68c364c9d41064be62d642e2face22daacd6945053a50370291"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/doctor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/SKILL.md",
+      "byteCount": 4337,
+      "sha256": "0397104c323b3aa7f6afa878d0b3bf45fca26e1c48389a144c9f227f2b57f073"
     }
   ]
 }

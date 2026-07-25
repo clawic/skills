@@ -1,6 +1,6 @@
 # Memory Template - GitHub Actions
 
-Create `~/github-actions/memory.md` with this structure:
+Create `~/Clawic/data/github-actions/memory.md` with this structure:
 
 ```markdown
 # GitHub Actions Memory

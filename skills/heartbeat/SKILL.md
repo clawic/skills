@@ -1,11 +1,20 @@
 ---
-name: Heartbeat
+name: heartbeat
 slug: heartbeat
 version: 1.0.1
-homepage: https://clawic.com/skills/heartbeat
 description: Design better OpenClaw HEARTBEAT.md files with adaptive cadence, safe checks, and cron handoffs for precise schedules.
-changelog: "Refined heartbeat guidance with a production template, QA checklist, and cron handoff rules for safer proactive monitoring."
-metadata: {"clawdbot":{"emoji":"💓","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/heartbeat
+changelog: Refined heartbeat guidance with a production template, QA checklist, and cron handoff rules for safer proactive monitoring.
+metadata:
+  clawdbot:
+    emoji: 💓
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Heartbeat
 ---
 
 # Heartbeat 💓
@@ -24,10 +33,10 @@ Use this for adaptive monitoring, proactive check-ins, and hybrid heartbeat plus
 
 ## Architecture
 
-Memory lives in `~/heartbeat/`. See `memory-template.md` for the structure and fields.
+Memory lives in `~/Clawic/data/heartbeat/`. See `memory-template.md` for the structure and fields.
 
 ```text
-~/heartbeat/
+~/Clawic/data/heartbeat/
 ├── memory.md              # Preferences, cadence profile, and last tuning decisions
 ├── drafts/                # Candidate heartbeat variants
 └── snapshots/             # Previous heartbeat versions for rollback
@@ -95,7 +104,7 @@ Keep a snapshot of the previous heartbeat so the user can rollback in one step.
 ## Security & Privacy
 
 Data that stays local:
-- Heartbeat preferences and tuning notes in `~/heartbeat/`
+- Heartbeat preferences and tuning notes in `~/Clawic/data/heartbeat/`
 - Draft and snapshot files for heartbeat definitions
 
 This skill does NOT:
@@ -104,7 +113,7 @@ This skill does NOT:
 - Edit unrelated files outside the heartbeat workflow
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `schedule` - Scheduling patterns for recurring workflows
 - `monitoring` - Monitoring strategies and alert design
@@ -114,5 +123,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star heartbeat`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/heartbeat
+- Latest version: https://clawic.com/skills/heartbeat

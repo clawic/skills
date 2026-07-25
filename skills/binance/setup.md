@@ -1,6 +1,6 @@
 # Setup - Binance API
 
-Read this when `~/binance/` is missing or empty.
+Read this when `~/Clawic/data/binance/` is missing or empty.
 Keep setup practical, safe, and non-blocking.
 
 ## Operating Priorities
@@ -27,10 +27,10 @@ Keep setup practical, safe, and non-blocking.
 
 4. If context is approved, initialize local workspace:
 ```bash
-mkdir -p ~/binance/snapshots
-touch ~/binance/{memory.md,runbooks.md,incidents.md}
-chmod 700 ~/binance ~/binance/snapshots
-chmod 600 ~/binance/{memory.md,runbooks.md,incidents.md}
+mkdir -p ~/Clawic/data/binance/snapshots
+touch ~/Clawic/data/binance/{memory.md,runbooks.md,incidents.md}
+chmod 700 ~/binance ~/Clawic/data/binance/snapshots
+chmod 600 ~/Clawic/data/binance/{memory.md,runbooks.md,incidents.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

@@ -1,6 +1,6 @@
 # Memory Template — Task List
 
-Create `~/task-list/memory.md` only if the user wants continuity across sessions.
+Create `~/Clawic/data/task-list/memory.md` only if the user wants continuity across sessions.
 
 ```markdown
 # Task List Memory
@@ -34,13 +34,13 @@ integration: pending
 
 If the user wants full continuity, create these files too:
 
-- `~/task-list/inbox.md` — unclarified captures
-- `~/task-list/tasks.md` — active tasks across Today, Upcoming, Anytime, Someday
-- `~/task-list/projects.md` — finite outcomes and next actions
-- `~/task-list/areas.md` — ongoing responsibilities
-- `~/task-list/recurring.md` — recurrence rules and last completion
-- `~/task-list/waiting.md` — delegated or blocked items
-- `~/task-list/log.md` — recently completed, dropped, or major changes
+- `~/Clawic/data/task-list/inbox.md` — unclarified captures
+- `~/Clawic/data/task-list/tasks.md` — active tasks across Today, Upcoming, Anytime, Someday
+- `~/Clawic/data/task-list/projects.md` — finite outcomes and next actions
+- `~/Clawic/data/task-list/areas.md` — ongoing responsibilities
+- `~/Clawic/data/task-list/recurring.md` — recurrence rules and last completion
+- `~/Clawic/data/task-list/waiting.md` — delegated or blocked items
+- `~/Clawic/data/task-list/log.md` — recently completed, dropped, or major changes
 
 ## Status Values
 

@@ -1,6 +1,6 @@
 # Client Memory — Template
 
-> This file is created in `~/real-estate-agent/memory.md` when you first use the skill.
+> This file is created in `~/Clawic/data/real-estate-agent/memory.md` when you first use the skill.
 > Contains your client profile, preferences, and active goals.
 
 ## Example Entries

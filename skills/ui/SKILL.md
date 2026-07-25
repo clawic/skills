@@ -1,7 +1,17 @@
 ---
-name: UI
+name: ui
+slug: ui
+version: 1.0.0
 description: Design clear, consistent, and visually polished user interfaces.
-metadata: {"clawdbot":{"emoji":"🎨","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ui
+metadata:
+  clawdbot:
+    emoji: 🎨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: UI
 ---
 
 ## Visual Hierarchy

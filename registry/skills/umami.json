@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cb107660c305d028c27e72a7d4916af06e83f5804768479450ebdcf7be8b3a8f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "umami",
-    "name": "Umami",
+    "name": "umami",
     "description": "Deploy Umami analytics avoiding data loss, tracking failures, and integration issues.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/umami",
     "summary": "Critical Configuration - `HASH_SALT` must never change — changing it invalidates all existing data, essentially a reset - SQLite is not supported — despite being Node.js, Umami requires PostgreSQL or MySQL - Database con",
     "repositoryPath": "skills/umami",
     "manifestPath": "registry/skills/umami.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/umami/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/umami/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/umami/_meta.json",
+      "byteCount": 162,
+      "sha256": "64bfb4aca07b69ba79745bccb159136e4ec7065a438475ab81def83cc3d82547"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/umami/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/umami/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/umami/SKILL.md",
+      "byteCount": 2639,
+      "sha256": "8c1bcabd3fb0a2e5c8db88ad0303931dc96c8a572eb2b145537ef720e759bcdc"
     }
   ]
 }

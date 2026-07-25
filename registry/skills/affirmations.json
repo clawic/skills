@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7101c09207b043b83d59531376f7f4a62853d16332f9e3ffa413d843a7b8fc61",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "affirmations",
-    "name": "Affirmations",
+    "name": "affirmations",
     "description": "Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.",
-    "summary": "Core Behavior - Deliver affirmations based on user's needs - Help create personalized affirmations - Track practice and what resonates - Create `~/affirmations/` as workspace File Structure ``` ~/affirmations/ ├── my-aff",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/affirmations",
+    "summary": "Core Behavior - Deliver affirmations based on user's needs - Help create personalized affirmations - Track practice and what resonates - Create `~/Clawic/data/affirmations/` as workspace File Structure ``` ~/Clawic/data/",
     "repositoryPath": "skills/affirmations",
     "manifestPath": "registry/skills/affirmations.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/affirmations/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/_meta.json",
+      "byteCount": 176,
+      "sha256": "0f1bf396e76a2743d1d3ff7656a15d8740e80f5d050d2a24052b620746c41f3d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/affirmations/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affirmations/SKILL.md",
+      "byteCount": 3254,
+      "sha256": "c94fce06d6aa4652c4d03b540ac02c8ace96058eef7e6ba2d5019d34174a35e3"
     }
   ]
 }

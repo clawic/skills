@@ -1,6 +1,6 @@
 # Setup - Greece Travel Guide
 
-Create `~/greece/` on first use and initialize `~/greece/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/greece/` on first use and initialize `~/Clawic/data/greece/memory.md` from `memory-template.md`.
 
 ## First Contact
 
@@ -23,7 +23,7 @@ Keep durable facts in memory:
 
 ## Returning Users
 
-Read `~/greece/memory.md`, reuse what is still valid, and ask only what changed:
+Read `~/Clawic/data/greece/memory.md`, reuse what is still valid, and ask only what changed:
 - Dates
 - Region focus
 - Bookings already made

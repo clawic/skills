@@ -1,6 +1,13 @@
 ---
-name: "Invest"
-description: "Start investing with account selection, portfolio building, and long-term wealth strategies."
+name: invest
+slug: invest
+version: 1.0.0
+description: Start investing with account selection, portfolio building, and long-term wealth strategies.
+homepage: https://clawic.com/skills/invest
+metadata:
+  clawdbot:
+    emoji: 📈
+    displayName: Invest
 ---
 
 ## ⚠️ Important Disclaimer

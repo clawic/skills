@@ -31,7 +31,7 @@ Use production deploy only after explicit user confirmation.
 
 ## What to Persist
 
-In `~/netlify-deploy/memory.md`, keep:
+In `~/Clawic/data/netlify-deploy/memory.md`, keep:
 - Preferred default deploy mode (preview first or prod-first by request)
 - Frequent project paths and common publish directories
 - Team-specific release constraints (for example: required preview review)

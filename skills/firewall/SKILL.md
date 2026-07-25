@@ -1,7 +1,17 @@
 ---
-name: Firewall
+name: firewall
+slug: firewall
+version: 1.0.0
 description: Configure firewalls on servers and cloud providers with security best practices.
-metadata: {"clawdbot":{"emoji":"🛡️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/firewall
+metadata:
+  clawdbot:
+    emoji: 🛡️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Firewall
 ---
 
 # Firewall Rules

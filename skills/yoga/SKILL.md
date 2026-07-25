@@ -1,9 +1,20 @@
 ---
-name: Yoga
+name: yoga
+slug: yoga
+version: 1.0.0
 description: Yoga instruction, pose alignment, sequencing, breathwork, and modifications for different levels.
+homepage: https://clawic.com/skills/yoga
 metadata:
   category: fitness
-  skills: ["yoga", "flexibility", "mindfulness", "poses", "breathwork"]
+  skills:
+  - yoga
+  - flexibility
+  - mindfulness
+  - poses
+  - breathwork
+  clawdbot:
+    emoji: 🧘
+    displayName: Yoga
 ---
 
 ## Alignment Principles

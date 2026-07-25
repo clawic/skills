@@ -1,16 +1,27 @@
 ---
-name: Indonesia
+name: indonesia
 slug: indonesia
 version: 1.0.0
-homepage: https://clawic.com/skills/indonesia
-changelog: "Initial release with Indonesia entry guidance, island-routing playbooks, and practical travel logistics."
 description: Plan Indonesia trips with island-routing logic, verified entry guidance, weather-aware logistics, and practical local execution.
-metadata: {"clawdbot":{"emoji":"🇮🇩","requires":{"bins":[],"config":["~/indonesia/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/indonesia
+changelog: Initial release with Indonesia entry guidance, island-routing playbooks, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇮🇩
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/indonesia/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Indonesia
 ---
 
 ## Setup
 
-If `~/indonesia/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/indonesia/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning an Indonesia trip and needs practical guidance beyond generic h
 
 ## Architecture
 
-Memory lives in `~/indonesia/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
+Memory lives in `~/Clawic/data/indonesia/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
 
 ```text
-~/indonesia/
+~/Clawic/data/indonesia/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -122,12 +133,12 @@ Every output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/indonesia/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/indonesia/`
 
-**This skill does NOT:** Access files outside `~/indonesia/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/indonesia/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `food` — Deeper restaurant and cuisine planning
@@ -136,5 +147,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star indonesia`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/indonesia
+- Latest version: https://clawic.com/skills/indonesia

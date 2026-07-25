@@ -1,7 +1,17 @@
 ---
-name: UX
+name: ux
+slug: ux
+version: 1.0.0
 description: Design and analyze user experiences that are intuitive, efficient, and aligned with user mental models.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ux
+metadata:
+  clawdbot:
+    emoji: 🧠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: UX
 ---
 
 ## Flow Analysis

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f68dcd0e9541fb7ddc31c09728839816d119ad7004807056b6eba459604396fa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "fishing",
-    "name": "Fishing",
+    "name": "fishing",
     "description": "Track fishing spots, gear, catches, and conditions with personalized recommendations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/fishing",
-    "summary": "When to Use User wants to track their fishing activity, remember favorite spots, log catches, or get personalized gear and technique recommendations based on their history. Architecture Memory lives in `~/fishing/`. See ",
+    "summary": "When to Use User wants to track their fishing activity, remember favorite spots, log catches, or get personalized gear and technique recommendations based on their history. Architecture Memory lives in `~/Clawic/data/fis",
     "repositoryPath": "skills/fishing",
     "manifestPath": "registry/skills/fishing.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fishing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/_meta.json",
+      "byteCount": 166,
+      "sha256": "ee47aeb58eff199be536e7bf08f6c0e005039cfe1610aea78c441c14cea0894c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/fishing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/memory-template.md",
+      "byteCount": 2146,
+      "sha256": "3c80c858e092e0c5555b2e096b4fe251942b50166ea0f6f7e05cbfd5381538ef"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fishing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/SKILL.md",
+      "byteCount": 2631,
+      "sha256": "5197cddc18072c85c4b55d5c39534fc68b7ed1fe4403fb0b1421fb35fd7d0b94"
     },
     {
       "path": "species.md",
       "downloadPath": "skills/fishing/species.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/species.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/species.md",
+      "byteCount": 2470,
+      "sha256": "afca49a97ca1078bef15117dcb49a3418bcf91104c6f9dc7358646fcb114c328"
     },
     {
       "path": "tackle.md",
       "downloadPath": "skills/fishing/tackle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/tackle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fishing/tackle.md",
+      "byteCount": 1839,
+      "sha256": "e97f02c03be051a7beb74708f187357740ae2159e286a3c497cb5a8d093a37de"
     }
   ]
 }

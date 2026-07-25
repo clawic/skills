@@ -1,15 +1,24 @@
 ---
-name: Second Order Effects
+name: second-order-effects
 slug: second-order-effects
 version: 1.0.0
-homepage: https://clawic.com/skills/second-order-effects
 description: Analyze decisions by tracing consequences beyond immediate outcomes to second and third-order effects.
-metadata: {"clawdbot":{"emoji":"🔮","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/second-order-effects
+metadata:
+  clawdbot:
+    emoji: 🔮
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Second Order Effects
 ---
 
 ## Setup
 
-If `~/second-order-effects/` doesn't exist, or user's memory file shows setup incomplete, read `setup.md` first.
+If `~/Clawic/data/second-order-effects/` doesn't exist, or user's memory file shows setup incomplete, read `setup.md` first.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User faces a decision with non-obvious downstream effects. Agent traces conseque
 
 ## Architecture
 
-Memory lives in `~/second-order-effects/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/second-order-effects/`. See `memory-template.md` for structure.
 
 ```
-~/second-order-effects/
+~/Clawic/data/second-order-effects/
 ├── memory.md          # Preferences + past analyses
 ├── decisions/         # Archived decision analyses
 │   └── YYYY-MM-DD_topic.md
@@ -115,7 +124,7 @@ Use this structure for every analysis:
 
 This skill ONLY:
 - Analyzes decisions using consequence chains
-- Stores analyses in `~/second-order-effects/`
+- Stores analyses in `~/Clawic/data/second-order-effects/`
 - Learns patterns from past decisions
 
 This skill NEVER:
@@ -126,7 +135,7 @@ This skill NEVER:
 ## Security & Privacy
 
 **Data that stays local:**
-- Decision analyses in ~/second-order-effects/
+- Decision analyses in ~/Clawic/data/second-order-effects/
 - Learned patterns and preferences
 
 **This skill does NOT:**
@@ -135,12 +144,12 @@ This skill NEVER:
 - Make network requests
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `first-principles-thinking` - break problems to fundamentals
 - `six-thinking-hats` - parallel thinking modes
 - `strategy` - strategic planning frameworks
 
 ## Feedback
 
-- If useful: `clawhub star second-order-effects`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/second-order-effects
+- Latest version: https://clawic.com/skills/second-order-effects

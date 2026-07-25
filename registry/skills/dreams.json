@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7ee2cb89830b65ac114ee544265884866de8897b62f5744a51d36daaafcba4b7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "dreams",
-    "name": "Dreams",
+    "name": "dreams",
     "description": "Build a personal dream journal for recording, analyzing patterns, and exploring your subconscious.",
-    "summary": "Core Behavior - User describes dream → capture immediately with details - User asks about patterns → surface recurring themes - User curious about symbols → explore possible meanings - Create `~/dreams/` as workspace Fil",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dreams",
+    "summary": "Core Behavior - User describes dream → capture immediately with details - User asks about patterns → surface recurring themes - User curious about symbols → explore possible meanings - Create `~/Clawic/data/dreams/` as w",
     "repositoryPath": "skills/dreams",
     "manifestPath": "registry/skills/dreams.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dreams/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/_meta.json",
+      "byteCount": 164,
+      "sha256": "e42b81ad08aa9682d5e3eefdfd88b7b4df29a5f5d659dc3da1aa3c754d9dae26"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dreams/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dreams/SKILL.md",
+      "byteCount": 3824,
+      "sha256": "0664fa0e10b0803188a1e389e569550a45c6d36fcb38213af9be35581e6e3337"
     }
   ]
 }

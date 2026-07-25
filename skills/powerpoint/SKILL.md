@@ -1,11 +1,21 @@
 ---
-name: PowerPoint
+name: powerpoint
 slug: powerpoint
 version: 1.0.0
-homepage: https://clawic.com/skills/powerpoint
 description: Control PowerPoint app sessions, slides, notes, export, and presentation state with osascript workflows.
+homepage: https://clawic.com/skills/powerpoint
 changelog: Initial release with live PowerPoint automation patterns for sessions, slides, export, slideshow state, and recovery.
-metadata: {"clawdbot":{"emoji":"📽️","requires":{"bins":["osascript"]},"os":["darwin"],"configPaths":["~/powerpoint/"]}}
+metadata:
+  clawdbot:
+    emoji: 📽️
+    requires:
+      bins:
+      - osascript
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/powerpoint/
+    displayName: PowerPoint
 ---
 
 ## When to Use
@@ -16,10 +26,10 @@ If the main artifact is offline PPTX generation or structural file editing, use 
 
 ## Architecture
 
-Memory lives in `~/powerpoint/`. If `~/powerpoint/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/powerpoint/`. If `~/Clawic/data/powerpoint/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/powerpoint/
+~/Clawic/data/powerpoint/
 ├── memory.md             # Environment facts, safe defaults, and last working control path
 ├── incidents.md          # Reusable failures and proven recovery steps
 └── deck-notes.md         # Non-sensitive notes about trusted decks, layouts, and export targets
@@ -93,7 +103,7 @@ Load only the smallest file that matches the current PowerPoint task and risk le
 ## Security & Privacy
 
 **Data that stays local:**
-- Presentation paths, environment notes, and reusable fixes in `~/powerpoint/`.
+- Presentation paths, environment notes, and reusable fixes in `~/Clawic/data/powerpoint/`.
 - Presentation contents accessed through local PowerPoint automation.
 
 **Data that may leave your machine:**
@@ -107,12 +117,12 @@ Load only the smallest file that matches the current PowerPoint task and risk le
 - Bypass PowerPoint protection prompts.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `office` — Broader Office task routing across documents, spreadsheets, and presentations.
 - `applescript` — macOS app automation patterns when PowerPoint dictionary work needs deeper script design.
 - `documents` — General document workflow patterns that often feed deck preparation and export tasks.
 
 ## Feedback
 
-- If useful: `clawhub star powerpoint`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/powerpoint
+- Latest version: https://clawic.com/skills/powerpoint

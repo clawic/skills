@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "12a2470accf9e646e9b976d86a203d035eb59ef88b06ddc208bdf0438c21aba4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sui-network/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/_meta.json",
+      "byteCount": 174,
+      "sha256": "9b590c6b050192719b360c5e68c303c159855d51e2b235d720a86ed37649f6e6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sui-network/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sui-network/SKILL.md",
+      "byteCount": 4179,
+      "sha256": "708b2ae8a81f38f142673b52ef8281a8320ca6df54f41a0afc46bcd91f05c09c"
     }
   ]
 }

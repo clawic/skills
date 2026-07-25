@@ -150,4 +150,4 @@ Agent can track:
 - Event calendar → predict surge days
 - Route alternatives → price comparison
 
-Store in `~/taxi/trips.md` for analysis.
+Store in `~/Clawic/data/taxi/trips.md` for analysis.

@@ -1,18 +1,28 @@
 ---
-name: Music
+name: music
+slug: music
+version: 1.0.0
 description: Build a personal music system for tracking discoveries, favorites, concerts, and listening memories.
-metadata: {"clawdbot":{"emoji":"🎵","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/music
+metadata:
+  clawdbot:
+    emoji: 🎵
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Music
 ---
 
 ## Core Behavior
 - User shares song/album → offer to save with context
 - User asks for music → check their saved collection first
 - User mentions concert → track in events
-- Create `~/music/` as workspace
+- Create `~/Clawic/data/music/` as workspace
 
 ## File Structure
 ```
-~/music/
+~/Clawic/data/music/
 ├── discover/
 │   └── to-listen.md
 ├── favorites/

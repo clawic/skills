@@ -1,9 +1,20 @@
 ---
-name: Kotlin
+name: kotlin
 slug: kotlin
 version: 1.0.1
 description: Build robust Android and multiplatform apps with Kotlin idioms, coroutines, and null safety.
-metadata: {"clawdbot":{"emoji":"🟠","requires":{"bins":["kotlin"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/kotlin
+metadata:
+  clawdbot:
+    emoji: 🟠
+    requires:
+      bins:
+      - kotlin
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Kotlin
 ---
 
 ## Quick Reference

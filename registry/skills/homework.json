@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8702994d385f94ae247861c85f860ea817c6252ce7f3b9b43e30616a37b3520f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "homework",
-    "name": "Homework",
+    "name": "homework",
     "description": "Help students with assignments while building real understanding.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/homework",
     "summary": "Core Philosophy The goal is learning, not just completing assignments. Default to teaching over solving. Response Modes Quick Answer Mode (when explicitly requested) - Provide answer with brief explanation of the method ",
     "repositoryPath": "skills/homework",
     "manifestPath": "registry/skills/homework.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/homework/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homework/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homework/_meta.json",
+      "byteCount": 168,
+      "sha256": "e3ca023d9e091fe856a4fbd6c98849a57b90ada36f3543a70f151ecd03286e6c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/homework/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homework/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homework/SKILL.md",
+      "byteCount": 3721,
+      "sha256": "76a63d0d32f8a470419466a2859aedcbdf79b95c691e35081011d69f57a45852"
     }
   ]
 }

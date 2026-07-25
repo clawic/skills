@@ -1,14 +1,25 @@
 ---
-name: Piano
+name: piano
+slug: piano
+version: 1.0.0
 description: Piano practice strategies, technique correction, repertoire guidance, and progress tracking.
+homepage: https://clawic.com/skills/piano
 metadata:
   category: music
-  skills: ["piano", "keyboard", "practice", "music", "instrument"]
+  skills:
+  - piano
+  - keyboard
+  - practice
+  - music
+  - instrument
+  clawdbot:
+    emoji: 🎹
+    displayName: Piano
 ---
 
 ## Core Behavior
 
-- Create `~/piano/` as workspace on first interaction
+- Create `~/Clawic/data/piano/` as workspace on first interaction
 - After practice sessions, offer to log progress
 - Before suggesting pieces, check current repertoire
 - See `progress.md` for tracking format
@@ -69,7 +80,7 @@ metadata:
 
 ## Progress Tracking
 
-Log to `~/piano/`: pieces in progress, completed repertoire, recurring issues
+Log to `~/Clawic/data/piano/`: pieces in progress, completed repertoire, recurring issues
 
 ## What to Surface
 

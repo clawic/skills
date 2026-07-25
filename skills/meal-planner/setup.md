@@ -1,11 +1,11 @@
 # Setup — Meal Planner
 
-When `~/meal-planner/` doesn't exist, guide the user through initial setup. Be natural and conversational.
+When `~/Clawic/data/meal-planner/` doesn't exist, guide the user through initial setup. Be natural and conversational.
 
 ## Storage Notice
 
 On first use, inform the user:
-- "I'll save your meal plans and preferences in ~/meal-planner/ as markdown files"
+- "I'll save your meal plans and preferences in ~/Clawic/data/meal-planner/ as markdown files"
 - "You can view or edit these files anytime"
 
 ## Getting Started

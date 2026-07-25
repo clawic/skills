@@ -1,11 +1,22 @@
 ---
-name: Storytelling
+name: storytelling
 slug: storytelling
 version: 1.0.0
-homepage: https://clawic.com/skills/storytelling
 description: Craft clear, emotionally resonant stories with audience-first framing, narrative arc control, and channel-specific rewrites.
+homepage: https://clawic.com/skills/storytelling
 changelog: Initial release with audience framing, story arc diagnostics, and channel-specific rewrite playbooks.
-metadata: {"clawdbot":{"emoji":"📖","requires":{"bins":[],"config":["~/storytelling/"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📖
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/storytelling/
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Storytelling
 ---
 
 ## Setup
@@ -19,10 +30,10 @@ Use this skill for product stories, founder narratives, case studies, speeches, 
 
 ## Architecture
 
-Memory lives in `~/storytelling/`. See `memory-template.md` for baseline structure.
+Memory lives in `~/Clawic/data/storytelling/`. See `memory-template.md` for baseline structure.
 
 ```text
-~/storytelling/
+~/Clawic/data/storytelling/
 |-- memory.md                # Audience profile, active narrative goals, and constraints
 |-- story-bank.md            # Reusable stories, scenes, and proof points
 |-- messaging-pillars.md     # Core themes, promises, and supporting evidence
@@ -44,7 +55,7 @@ Load only the smallest file needed to solve the current bottleneck.
 
 ## Data Storage
 
-Local notes in `~/storytelling/` may include:
+Local notes in `~/Clawic/data/storytelling/` may include:
 - audience assumptions, emotional target, and success criteria
 - bank of anecdotes, examples, and proof artifacts
 - draft variants, edit decisions, and rejected directions
@@ -125,7 +136,7 @@ Data that leaves your machine:
 - only user-approved outbound requests when the user explicitly asks for external research
 
 Data that stays local:
-- storytelling context and iterative notes under `~/storytelling/`
+- storytelling context and iterative notes under `~/Clawic/data/storytelling/`
 - draft structure choices and narrative experiments
 
 This skill does NOT:
@@ -146,7 +157,7 @@ This skill NEVER:
 - replace domain review when factual or legal accuracy is required
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `writing` - Improve writing quality with clearer structure and stronger revision passes.
 - `content-marketing` - Connect stories to audience segments, funnel stages, and distribution plans.
 - `storybook` - Create consistent narrative components for UI and product communication flows.
@@ -155,5 +166,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star storytelling`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/storytelling
+- Latest version: https://clawic.com/skills/storytelling

@@ -1,7 +1,17 @@
 ---
-name: Polygon
+name: polygon
+slug: polygon
+version: 1.0.0
 description: Assist with Polygon PoS and zkEVM transactions, bridging, gas tokens, and ecosystem navigation.
-metadata: {"clawdbot":{"emoji":"🟣","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/polygon
+metadata:
+  clawdbot:
+    emoji: 🟣
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Polygon
 ---
 
 ## Network Confusion (Critical)

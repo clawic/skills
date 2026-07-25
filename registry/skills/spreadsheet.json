@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "edbfd72c3cf8d136974a6b993c5d1c51e20ab92f9901374ed3dfd9e8c7a01020",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "spreadsheet",
-    "name": "Spreadsheet",
+    "name": "spreadsheet",
     "description": "Read, write, and analyze tabular data with schema memory, format preservation, and multi-platform support.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/spreadsheet",
     "summary": "When to Use User needs spreadsheet operations: reading data, writing cells, analyzing tables, generating reports, or tracking structured information across Google Sheets, Excel, or CSV files. Architecture Memory lives in",
     "repositoryPath": "skills/spreadsheet",
     "manifestPath": "registry/skills/spreadsheet.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/spreadsheet/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/_meta.json",
+      "byteCount": 174,
+      "sha256": "3136083aa13517e43fd7ec0851cb299e22ac3fc9202c508199b7b655063aa001"
     },
     {
       "path": "csv.md",
       "downloadPath": "skills/spreadsheet/csv.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/csv.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/csv.md",
+      "byteCount": 1161,
+      "sha256": "acab0dc41f053c26cb55eed20f1aed2d1f5c8131bdbec8088295834e20e02433"
     },
     {
       "path": "excel.md",
       "downloadPath": "skills/spreadsheet/excel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/excel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/excel.md",
+      "byteCount": 1144,
+      "sha256": "20c912156a8e723e7395e39c1330b594274c6cc6f9b9c386e318c88263afeb0f"
     },
     {
       "path": "google-sheets.md",
       "downloadPath": "skills/spreadsheet/google-sheets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/google-sheets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/google-sheets.md",
+      "byteCount": 1358,
+      "sha256": "8b4d18ef084ec58b4871bd952a829174c4fcc526007e41f13c8e70111ee18de4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/spreadsheet/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/memory-template.md",
+      "byteCount": 886,
+      "sha256": "2d74ef8068a2c7a98f829bf210a7c741abeaa51f20513504dffa574234a57f88"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/spreadsheet/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spreadsheet/SKILL.md",
+      "byteCount": 3229,
+      "sha256": "ae915b6a5d8a0ca1f0a449e68d901614178bf0f0fc41f3b00008cbe3933c8b78"
     }
   ]
 }

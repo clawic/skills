@@ -1,7 +1,17 @@
 ---
-name: Finance
+name: financial-literacy
+slug: financial-literacy
+version: 1.0.0
 description: Support financial understanding from personal budgeting to professional analysis and research.
-metadata: {"clawdbot":{"emoji":"💰","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/financial-literacy
+metadata:
+  clawdbot:
+    emoji: 💰
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Finance
 ---
 
 ## Detect Level, Adapt Everything

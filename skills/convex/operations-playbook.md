@@ -26,7 +26,7 @@ When production breaks:
 
 ## Post-Incident Learning
 
-- Log root cause in `~/convex/memory.md`.
+- Log root cause in `~/Clawic/data/convex/memory.md`.
 - Add a prevention rule to test or review checklists.
 - Remove temporary mitigations once durable fix is live.
 

@@ -1,7 +1,17 @@
 ---
-name: Unreal Engine
+name: unreal-engine
+slug: unreal-engine
+version: 1.0.0
 description: Avoid common Unreal mistakes — garbage collection, UPROPERTY macros, replication authority, and asset reference pitfalls.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/unreal-engine
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Unreal Engine
 ---
 
 ## Garbage Collection

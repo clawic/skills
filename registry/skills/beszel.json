@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "df96b54c7ce52c015f6c3a07a9fbd966a513155673052eccccc5ebccff9508ca",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "beszel",
-    "name": "Beszel",
+    "name": "beszel",
     "description": "Deploy, secure, and troubleshoot Beszel monitoring with Docker agents, alert tuning, and upgrade-safe operations for self-hosted servers",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/beszel",
-    "summary": "Setup On first use, explain planned local storage in `~/beszel/` and ask for confirmation before creating or updating files. When to Use User needs help planning, deploying, or maintaining Beszel for infrastructure monit",
+    "summary": "Setup On first use, explain planned local storage in `~/Clawic/data/beszel/` and ask for confirmation before creating or updating files. When to Use User needs help planning, deploying, or maintaining Beszel for infrastr",
     "repositoryPath": "skills/beszel",
     "manifestPath": "registry/skills/beszel.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/beszel/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/_meta.json",
+      "byteCount": 164,
+      "sha256": "77e64ef0a27b5b229a0be35aada96fcb2fd1d0fef20c56dc8dcb1afb0c938844"
     },
     {
       "path": "alert-tuning.md",
       "downloadPath": "skills/beszel/alert-tuning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/alert-tuning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/alert-tuning.md",
+      "byteCount": 1615,
+      "sha256": "f5cbe08ddaf1171a3ac942f054f82a02c02bad0fdb62ef75c2f5f791b43f7871"
     },
     {
       "path": "deployment-patterns.md",
       "downloadPath": "skills/beszel/deployment-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/deployment-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/deployment-patterns.md",
+      "byteCount": 1443,
+      "sha256": "b956bf2b45d8f0df582f14c9363587c1d67bfa3d51e1f0dfa901794355ff9091"
     },
     {
       "path": "diagnostics-playbook.md",
       "downloadPath": "skills/beszel/diagnostics-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/diagnostics-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/diagnostics-playbook.md",
+      "byteCount": 1456,
+      "sha256": "b84ba78e3d97395a7f64bcd22b1ffc5fadd9c0f86c2a9bdeef6d1d4d81e007b1"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/beszel/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/memory-template.md",
+      "byteCount": 1457,
+      "sha256": "50c49793d4387910a4f38e2cb5692b6442043e2b5f8b074e9026061c3d38cd1f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/beszel/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/setup.md",
+      "byteCount": 1711,
+      "sha256": "6ccf9d97e1bf14da10435ba4cb007c45a8a0a328128d03afd73e6008461989c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/beszel/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beszel/SKILL.md",
+      "byteCount": 4687,
+      "sha256": "7fb6e73ab194687ec3497db10ed0eaf119e33ec0752cab43a14fb2c900472e27"
     }
   ]
 }

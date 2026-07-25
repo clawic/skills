@@ -1,11 +1,20 @@
 ---
-name: iPhone
+name: iphone
 slug: iphone
 version: 1.0.0
-homepage: https://clawic.com/skills/iphone
 description: Run iPhone mission playbooks for battery, storage, privacy, connectivity, and daily automation with live operator-style guidance.
+homepage: https://clawic.com/skills/iphone
 changelog: Initial release with live-operator missions and step-by-step iPhone control playbooks for everyday users.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: iPhone
 ---
 
 ## Setup
@@ -25,10 +34,10 @@ Operate as a live phone operator: issue exact tap paths, wait for confirmations,
 
 ## Architecture
 
-Memory lives in `~/iphone/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/iphone/`. See `memory-template.md` for structure.
 
 ```text
-~/iphone/
+~/Clawic/data/iphone/
 |-- memory.md          # Active context, preferences, and mission status
 |-- missions.md        # Last executed missions and outcomes
 |-- routine-state.md   # Stable routines and automation states
@@ -103,16 +112,16 @@ Use the smallest relevant file so execution stays fast and focused.
 - None by default. This skill is instruction-only.
 
 **Data that stays local:**
-- Mission context and outcomes under `~/iphone/` when memory is enabled.
+- Mission context and outcomes under `~/Clawic/data/iphone/` when memory is enabled.
 
 **This skill does NOT:**
 - Request account passwords or 2FA codes.
 - Send undeclared network requests.
 - Claim silent device control without user action.
-- Store context outside `~/iphone/` for this skill.
+- Store context outside `~/Clawic/data/iphone/` for this skill.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ios` - iOS platform behavior and deeper system context
 - `photos` - media cleanup and photo library workflows
 - `notes` - personal capture systems and structured notes
@@ -120,5 +129,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star iphone`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/iphone
+- Latest version: https://clawic.com/skills/iphone

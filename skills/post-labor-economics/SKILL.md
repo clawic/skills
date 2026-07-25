@@ -1,16 +1,27 @@
 ---
-name: Post-Labor Economics
+name: post-labor-economics
 slug: post-labor-economics
 version: 1.0.0
-homepage: https://clawic.com/skills/post-labor-economics
 description: Model post-labor economies with automation shocks, distribution redesign, and policy portfolios across income, ownership, time, and services.
+homepage: https://clawic.com/skills/post-labor-economics
 changelog: Initial release with policy portfolio design, scenario stress tests, and evidence-led transition planning.
-metadata: {"clawdbot":{"emoji":"📉","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/post-labor-economics/"]}}
+metadata:
+  clawdbot:
+    emoji: 📉
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/post-labor-economics/
+    displayName: Post-Labor Economics
 ---
 
 ## Setup
 
-If `~/post-labor-economics/` does not exist or is empty, read `setup.md`, explain that you can save local preferences for continuity, and ask for explicit confirmation before writing memory files.
+If `~/Clawic/data/post-labor-economics/` does not exist or is empty, read `setup.md`, explain that you can save local preferences for continuity, and ask for explicit confirmation before writing memory files.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User wants to analyze a world where paid employment is no longer the main channe
 
 ## Architecture
 
-Memory lives in `~/post-labor-economics/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/post-labor-economics/`. See `memory-template.md` for setup.
 
 ```text
-~/post-labor-economics/
+~/Clawic/data/post-labor-economics/
 |- memory.md            # Core context and integration preferences
 |- portfolios.md        # Policy portfolio drafts and decision logs
 |- indicators.md        # Chosen metrics, targets, and thresholds
@@ -30,7 +41,7 @@ Memory lives in `~/post-labor-economics/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-Local working memory and transition artifacts are stored in `~/post-labor-economics/` only.
+Local working memory and transition artifacts are stored in `~/Clawic/data/post-labor-economics/` only.
 
 ## Quick Reference
 
@@ -123,7 +134,7 @@ Never present assumptions or values as settled facts.
 - None from this skill itself.
 
 **Data that stays local:**
-- Policy drafts, indicators, and scenarios in `~/post-labor-economics/`.
+- Policy drafts, indicators, and scenarios in `~/Clawic/data/post-labor-economics/`.
 
 **This skill does NOT:**
 - Make undeclared network calls.
@@ -143,7 +154,7 @@ This skill NEVER:
 - Treats one country template as universally transferable.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `economics` - Economic reasoning and policy tradeoff analysis.
 - `strategy` - Structured decision design under constraints.
 - `work` - Practical work design and role-level execution planning.
@@ -152,5 +163,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star post-labor-economics`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/post-labor-economics
+- Latest version: https://clawic.com/skills/post-labor-economics

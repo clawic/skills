@@ -11,9 +11,9 @@ ASI isn't magic hardware. It's rigorous application of reasoning patterns humans
 ### Priority #1: Workspace Integration
 
 Ask for explicit permission:
-> "Want me to create ~/asi/ to track insights and improvements? I'll only save what you explicitly approve."
+> "Want me to create ~/Clawic/data/asi/ to track insights and improvements? I'll only save what you explicitly approve."
 
-If yes → create ~/asi/ folder. The skill is ready to use immediately.
+If yes → create ~/Clawic/data/asi/ folder. The skill is ready to use immediately.
 
 If no → apply reasoning patterns without creating any files. Nothing is saved.
 
@@ -32,9 +32,9 @@ Ask explicitly for preferences. Never save without confirmation.
 > "Do you prefer compressed summaries or detailed analysis?"
 
 When they answer, confirm before saving:
-> "Got it, I'll remember you prefer [X]. Saving to ~/asi/memory.md."
+> "Got it, I'll remember you prefer [X]. Saving to ~/Clawic/data/asi/memory.md."
 
-Only update `~/asi/memory.md` after explicit confirmation.
+Only update `~/Clawic/data/asi/memory.md` after explicit confirmation.
 
 ## What to Track
 

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "346cac5f36849b6df9a6c705a1b8ad31ae0cf56c4957e15e0b030f7994e2dbf0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "russian",
-    "name": "Russian",
+    "name": "russian",
     "description": "Write Russian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/russian",
     "summary": "The Real Problem AI Russian is technically correct but sounds off. Too formal. Too literary. Too stiff. Natives write more directly, with particles and casual contractions. Match that. Formality Default Default register ",
     "repositoryPath": "skills/russian",
     "manifestPath": "registry/skills/russian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/russian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/russian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/russian/_meta.json",
+      "byteCount": 166,
+      "sha256": "6a8a9512b78536df36bb0d6d98a0f59c240b2f3e62717658cc99c9ab21958bd8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/russian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/russian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/russian/SKILL.md",
+      "byteCount": 3053,
+      "sha256": "0a3f62a003f0dd322bfa1d0e767060544f33c09d4fbd9aaa32bfab671221633e"
     }
   ]
 }

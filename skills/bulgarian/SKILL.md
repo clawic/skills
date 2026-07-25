@@ -1,6 +1,13 @@
 ---
-name: Bulgarian
+name: bulgarian
+slug: bulgarian
+version: 1.0.0
 description: Write Bulgarian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/bulgarian
+metadata:
+  clawdbot:
+    emoji: 🇧🇬
+    displayName: Bulgarian
 ---
 
 ## The Real Problem

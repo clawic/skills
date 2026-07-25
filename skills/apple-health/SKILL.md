@@ -1,11 +1,31 @@
 ---
-name: Apple Health
+name: apple-health
 slug: apple-health
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-health
 description: Connect agents to Apple Health exports with MCP setup, schema validation, and privacy-safe analysis.
+homepage: https://clawic.com/skills/apple-health
 changelog: Initial release with Apple Health MCP integration workflow and guarded query patterns.
-metadata: {"clawdbot":{"emoji":"❤️","requires":{"bins":["node","npx"],"env":["HEALTH_DATA_DIR"]},"install":[{"id":"npm","kind":"npm","package":"@neiltron/apple-health-mcp","bins":["apple-health-mcp"],"label":"Install Apple Health MCP Server (npm)"}],"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ❤️
+    requires:
+      bins:
+      - node
+      - npx
+      env:
+      - HEALTH_DATA_DIR
+    install:
+    - id: npm
+      kind: npm
+      package: '@neiltron/apple-health-mcp'
+      bins:
+      - apple-health-mcp
+      label: Install Apple Health MCP Server (npm)
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Apple Health
 ---
 
 ## Setup
@@ -18,10 +38,10 @@ User wants agents to read Apple Health data for trends, summaries, or SQL analys
 
 ## Architecture
 
-Memory lives in `~/apple-health/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/apple-health/`. See `memory-template.md` for setup.
 
 ```
-~/apple-health/
+~/Clawic/data/apple-health/
 |-- memory.md              # Status, client integration state, latest export path
 |-- integrations.md        # Connected MCP clients and validation notes
 |-- query-log.md           # Reusable SQL/report prompts and known-good outputs
@@ -117,7 +137,7 @@ Data that leaves your machine:
 Data that stays local:
 - Apple Health CSV exports
 - MCP query outputs and summaries
-- Skill memory in `~/apple-health/`
+- Skill memory in `~/Clawic/data/apple-health/`
 
 This skill does NOT:
 - Access iCloud Health data directly
@@ -130,7 +150,7 @@ By using this skill, you rely on third-party tooling (`@neiltron/apple-health-mc
 Only install and run if you trust those tools.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - General health guidance boundaries and framing
 - `ios` - iOS-specific setup and platform troubleshooting
 - `sleep` - Sleep trend interpretation workflows
@@ -139,5 +159,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-health`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-health
+- Latest version: https://clawic.com/skills/apple-health

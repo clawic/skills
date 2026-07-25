@@ -1,11 +1,22 @@
 ---
-name: Facebook Marketplace
+name: facebook-marketplace
 slug: facebook-marketplace
 version: 1.0.0
-homepage: https://clawic.com/skills/facebook-marketplace
 description: Buy and sell on Facebook Marketplace with pricing discipline, safer messaging, shipping guardrails, scam detection, and account-safe workflows.
+homepage: https://clawic.com/skills/facebook-marketplace
 changelog: Initial release with buyer, seller, shipping, policy, and interface guidance for Facebook Marketplace.
-metadata: {"clawdbot":{"emoji":"🛍️","requires":{"bins":[]},"os":["darwin","linux","win32"],"configPaths":["~/facebook-marketplace/"]}}
+metadata:
+  clawdbot:
+    emoji: 🛍️
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/facebook-marketplace/
+    displayName: Facebook Marketplace
 ---
 
 ## When to Use
@@ -15,10 +26,10 @@ Use this skill when the output must respect how Marketplace actually works acros
 
 ## Architecture
 
-Memory lives in `~/facebook-marketplace/`. If `~/facebook-marketplace/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/facebook-marketplace/`. If `~/Clawic/data/facebook-marketplace/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/facebook-marketplace/
+~/Clawic/data/facebook-marketplace/
 |-- memory.md          # Core profile, area, goals, and durable operating rules
 |-- saved-searches.md  # Buyer watchlists, search specs, and go/no-go filters
 |-- inventory.md       # Seller inventory, ask prices, floor prices, and stale listing notes
@@ -52,7 +63,7 @@ This skill combines four layers in one execution model:
 
 ## Data Storage
 
-Local notes in `~/facebook-marketplace/` may include:
+Local notes in `~/Clawic/data/facebook-marketplace/` may include:
 - city, radius, categories, and budget patterns for buying
 - inventory, floor prices, refresh rules, and pickup defaults for selling
 - reusable message patterns, offer thresholds, and no-show rules
@@ -132,7 +143,7 @@ Data that leaves your machine:
 - only user-approved Facebook or Messenger traffic when the user requests live Marketplace work
 
 Data that stays local:
-- context and operating memory under `~/facebook-marketplace/`
+- context and operating memory under `~/Clawic/data/facebook-marketplace/`
 - search specs, inventory notes, message defaults, incident logs, and account-health notes
 
 This skill does NOT:
@@ -159,7 +170,7 @@ This skill NEVER:
 - helps bypass restrictions, impersonate users, or move risky flows off platform
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `marketplace` - Compare Marketplace against other buyer, seller, and builder workflows.
 - `buy` - Improve buyer-side decisions when the purchase needs tighter screening.
@@ -169,5 +180,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star facebook-marketplace`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/facebook-marketplace
+- Latest version: https://clawic.com/skills/facebook-marketplace

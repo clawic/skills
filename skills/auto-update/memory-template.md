@@ -1,6 +1,6 @@
 # Memory Template - Auto-Update
 
-Create `~/auto-update/memory.md` with this structure:
+Create `~/Clawic/data/auto-update/memory.md` with this structure:
 
 ```markdown
 # Auto-Update Memory
@@ -32,7 +32,7 @@ integration: pending | done | declined
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/auto-update/openclaw.md` with this structure:
+Create `~/Clawic/data/auto-update/openclaw.md` with this structure:
 
 ```markdown
 # OpenClaw Policy
@@ -56,7 +56,7 @@ Create `~/auto-update/openclaw.md` with this structure:
 - Notify where:
 ```
 
-Create `~/auto-update/skills.md` with this structure:
+Create `~/Clawic/data/auto-update/skills.md` with this structure:
 
 ```markdown
 # Skill Update Ledger
@@ -73,7 +73,7 @@ Create `~/auto-update/skills.md` with this structure:
   migration_state: clean | pending | ask-first
 ```
 
-Create `~/auto-update/schedule.md` with this structure:
+Create `~/Clawic/data/auto-update/schedule.md` with this structure:
 
 ```markdown
 # Update Schedule
@@ -90,7 +90,7 @@ Create `~/auto-update/schedule.md` with this structure:
 - No-op behavior:
 ```
 
-Create `~/auto-update/backups.md` with this structure:
+Create `~/Clawic/data/auto-update/backups.md` with this structure:
 
 ```markdown
 # Backup Inventory
@@ -108,7 +108,7 @@ Create `~/auto-update/backups.md` with this structure:
   path:
 ```
 
-Create `~/auto-update/migrations.md` with this structure:
+Create `~/Clawic/data/auto-update/migrations.md` with this structure:
 
 ```markdown
 # Migration Queue
@@ -124,7 +124,7 @@ Create `~/auto-update/migrations.md` with this structure:
 - YYYY-MM-DD - slug - short note
 ```
 
-Create `~/auto-update/run-log.md` with this structure:
+Create `~/Clawic/data/auto-update/run-log.md` with this structure:
 
 ```markdown
 # Run Log

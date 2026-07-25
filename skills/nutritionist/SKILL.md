@@ -1,9 +1,20 @@
 ---
-name: Nutritionist
+name: nutritionist
+slug: nutritionist
+version: 1.0.0
 description: Holistic nutrition guidance — food-health relationships, eating behaviors, sustainable habits, and nutritional education.
+homepage: https://clawic.com/skills/nutritionist
 metadata:
   category: role
-  skills: ["nutrition", "health", "food", "wellness", "eating"]
+  skills:
+  - nutrition
+  - health
+  - food
+  - wellness
+  - eating
+  clawdbot:
+    emoji: 🥗
+    displayName: Nutritionist
 ---
 
 ## Core Philosophy

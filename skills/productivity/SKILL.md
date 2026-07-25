@@ -1,11 +1,22 @@
 ---
-name: Productivity
+name: productivity
 slug: productivity
 version: 1.0.4
+description: Plan, focus, and complete work with energy management, time blocking, goals, projects, tasks, habits, reviews, priorities, and context-specific productivity systems; use when (1) the user needs help with productivity, focus, time management, planning, priorities, goals, projects, tasks, habits, or reviews; (2) they want a reusable structure or workspace for organizing work; (3) ongoing work should be routed through a dedicated productivity framework.
 homepage: https://clawic.com/skills/productivity
-description: "Plan, focus, and complete work with energy management, time blocking, goals, projects, tasks, habits, reviews, priorities, and context-specific productivity systems; use when (1) the user needs help with productivity, focus, time management, planning, priorities, goals, projects, tasks, habits, or reviews; (2) they want a reusable structure or workspace for organizing work; (3) ongoing work should be routed through a dedicated productivity framework."
 changelog: Expanded the system with clearer routing, setup, and folders for goals, tasks, habits, planning, and reviews
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/productivity/"]}}
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/productivity/
+    displayName: Productivity
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Use this skill when the user wants a real productivity system, not just one-off 
 
 ## Architecture
 
-Productivity lives in `~/productivity/`. If `~/productivity/` does not exist yet, run `setup.md`.
+Productivity lives in `~/Clawic/data/productivity/`. If `~/Clawic/data/productivity/` does not exist yet, run `setup.md`.
 
 ```
-~/productivity/
+~/Clawic/data/productivity/
 ├── memory.md                 # Work style, constraints, energy, preferences
 ├── inbox/
 │   ├── capture.md            # Quick capture before sorting
@@ -85,18 +96,18 @@ The skill should treat this as the user's productivity operating system: one tru
 
 | Layer | Purpose | Default location |
 |-------|---------|------------------|
-| Capture | Catch loose inputs fast | `~/productivity/inbox/` |
-| Direction | Goals and active bets | `~/productivity/dashboard.md` + `goals/` |
-| Execution | Next actions and commitments | `~/productivity/tasks/` |
-| Projects | Active and waiting project state | `~/productivity/projects/` |
-| Habits | Repeated behaviors and friction | `~/productivity/habits/` |
-| Planning | Daily, weekly, and focus planning | `~/productivity/planning/` |
-| Reflection | Weekly and monthly reset | `~/productivity/reviews/` |
-| Commitments | Promises and delegated follow-through | `~/productivity/commitments/` |
-| Focus | Deep work protection and distraction logs | `~/productivity/focus/` |
-| Routines | Startup and shutdown defaults | `~/productivity/routines/` |
-| Parking lot | Non-committed ideas | `~/productivity/someday/` |
-| Personal fit | Constraints, energy, preferences | `~/productivity/memory.md` |
+| Capture | Catch loose inputs fast | `~/Clawic/data/productivity/inbox/` |
+| Direction | Goals and active bets | `~/Clawic/data/productivity/dashboard.md` + `goals/` |
+| Execution | Next actions and commitments | `~/Clawic/data/productivity/tasks/` |
+| Projects | Active and waiting project state | `~/Clawic/data/productivity/projects/` |
+| Habits | Repeated behaviors and friction | `~/Clawic/data/productivity/habits/` |
+| Planning | Daily, weekly, and focus planning | `~/Clawic/data/productivity/planning/` |
+| Reflection | Weekly and monthly reset | `~/Clawic/data/productivity/reviews/` |
+| Commitments | Promises and delegated follow-through | `~/Clawic/data/productivity/commitments/` |
+| Focus | Deep work protection and distraction logs | `~/Clawic/data/productivity/focus/` |
+| Routines | Startup and shutdown defaults | `~/Clawic/data/productivity/routines/` |
+| Parking lot | Non-committed ideas | `~/Clawic/data/productivity/someday/` |
+| Personal fit | Constraints, energy, preferences | `~/Clawic/data/productivity/memory.md` |
 
 This skill should give the user a single framework that can absorb:
 - goals
@@ -118,7 +129,7 @@ This skill should give the user a single framework that can absorb:
 
 | User says | Action |
 |-----------|--------|
-| "Set up my productivity system" | Create the `~/productivity/` baseline and explain the folders |
+| "Set up my productivity system" | Create the `~/Clawic/data/productivity/` baseline and explain the folders |
 | "What should I focus on?" | Check dashboard + tasks + commitments + focus, then surface top priorities |
 | "Help me plan my week" | Use goals, projects, commitments, routines, and energy patterns to build a weekly plan |
 | "I'm overwhelmed" | Triage commitments, cut scope, and reset next actions |
@@ -126,7 +137,7 @@ This skill should give the user a single framework that can absorb:
 | "Do a weekly review" | Update wins, blockers, carry-overs, and next-week focus |
 | "Help me with habits" | Use `habits/` to track what to keep, drop, or redesign |
 | "Help me reset my routine" | Use `routines/` and `planning/` to simplify startup and shutdown loops |
-| "Remember this preference" | Save it to `~/productivity/memory.md` after explicit confirmation |
+| "Remember this preference" | Save it to `~/Clawic/data/productivity/memory.md` after explicit confirmation |
 
 ## Core Rules
 
@@ -159,7 +170,7 @@ This skill should give the user a single framework that can absorb:
 
 ### 6. Save Only Explicitly Approved Preferences
 - Store work-style information only when the user explicitly asks you to save it or clearly approves.
-- Before writing to `~/productivity/memory.md`, ask for confirmation.
+- Before writing to `~/Clawic/data/productivity/memory.md`, ask for confirmation.
 - Never infer long-term preferences from silence, patterns, or one-off comments.
 
 ## Common Traps
@@ -177,7 +188,7 @@ This skill ONLY:
 - builds or improves a local productivity operating system
 - gives productivity advice and planning frameworks
 - reads included reference files for context-specific guidance
-- writes to `~/productivity/` only after explicit user approval
+- writes to `~/Clawic/data/productivity/` only after explicit user approval
 
 This skill NEVER:
 - accesses calendar, email, contacts, or external services by itself
@@ -199,27 +210,27 @@ No data is sent externally.
 
 ## Data Storage
 
-Local files live in `~/productivity/`.
+Local files live in `~/Clawic/data/productivity/`.
 
-- `~/productivity/memory.md` stores approved preferences, constraints, and work-style notes
-- `~/productivity/inbox/` stores fast captures and triage
-- `~/productivity/dashboard.md` stores top-level direction and current focus
-- `~/productivity/goals/` stores active and someday goals
-- `~/productivity/projects/` stores active and waiting projects
-- `~/productivity/tasks/` stores next actions, weekly commitments, waiting items, and completions
-- `~/productivity/habits/` stores active habits and friction notes
-- `~/productivity/planning/` stores daily plans, weekly plans, and focus blocks
-- `~/productivity/reviews/` stores weekly and monthly reviews
-- `~/productivity/commitments/` stores promises and delegated follow-through
-- `~/productivity/focus/` stores deep-work sessions and distraction patterns
-- `~/productivity/routines/` stores startup and shutdown defaults
-- `~/productivity/someday/` stores parked ideas
+- `~/Clawic/data/productivity/memory.md` stores approved preferences, constraints, and work-style notes
+- `~/Clawic/data/productivity/inbox/` stores fast captures and triage
+- `~/Clawic/data/productivity/dashboard.md` stores top-level direction and current focus
+- `~/Clawic/data/productivity/goals/` stores active and someday goals
+- `~/Clawic/data/productivity/projects/` stores active and waiting projects
+- `~/Clawic/data/productivity/tasks/` stores next actions, weekly commitments, waiting items, and completions
+- `~/Clawic/data/productivity/habits/` stores active habits and friction notes
+- `~/Clawic/data/productivity/planning/` stores daily plans, weekly plans, and focus blocks
+- `~/Clawic/data/productivity/reviews/` stores weekly and monthly reviews
+- `~/Clawic/data/productivity/commitments/` stores promises and delegated follow-through
+- `~/Clawic/data/productivity/focus/` stores deep-work sessions and distraction patterns
+- `~/Clawic/data/productivity/routines/` stores startup and shutdown defaults
+- `~/Clawic/data/productivity/someday/` stores parked ideas
 
 Create or update these files only after the user confirms they want the system written locally.
 
 ## Migration
 
-If upgrading from an older version, see `migration.md` before restructuring any existing `~/productivity/` files.
+If upgrading from an older version, see `migration.md` before restructuring any existing `~/Clawic/data/productivity/` files.
 Keep legacy files until the user confirms the new system is working for them.
 
 ## Security & Privacy
@@ -228,7 +239,7 @@ Keep legacy files until the user confirms the new system is working for them.
 - Nothing. This skill performs no network calls.
 
 **Data stored locally:**
-- Only the productivity files the user explicitly approves in `~/productivity/`
+- Only the productivity files the user explicitly approves in `~/Clawic/data/productivity/`
 - Work preferences, constraints, priorities, and planning artifacts the user chose to save
 
 **This skill does NOT:**
@@ -240,10 +251,10 @@ Keep legacy files until the user confirms the new system is working for them.
 
 ## Trust
 
-This skill is instruction-only. It provides a local framework for productivity planning, prioritization, and review. Install it only if you are comfortable storing your own productivity notes in plain text under `~/productivity/`.
+This skill is instruction-only. It provides a local framework for productivity planning, prioritization, and review. Install it only if you are comfortable storing your own productivity notes in plain text under `~/Clawic/data/productivity/`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `self-improving` — Compound execution quality and reusable lessons across tasks
 - `goals` — Deeper goal-setting and milestone design
 - `calendar-planner` — Calendar-driven planning and scheduling support
@@ -251,5 +262,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star productivity`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/productivity
+- Latest version: https://clawic.com/skills/productivity

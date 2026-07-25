@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fcf0f293173396709078963f6ed844d2e6949f1fb3520914bd0f691bfd32d178",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "six-thinking-hats",
-    "name": "Six Thinking Hats",
+    "name": "six-thinking-hats",
     "description": "Analyze decisions using six perspectives with structured parallel thinking.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/six-thinking-hats",
-    "summary": "Setup If `~/six-thinking-hats/` doesn't exist, or memory shows setup incomplete, read `setup.md` first. When to Use User needs to analyze a decision, problem, or idea thoroughly. Agent applies De Bono's Six Thinking Hats",
+    "summary": "Setup If `~/Clawic/data/six-thinking-hats/` doesn't exist, or memory shows setup incomplete, read `setup.md` first. When to Use User needs to analyze a decision, problem, or idea thoroughly. Agent applies De Bono's Six T",
     "repositoryPath": "skills/six-thinking-hats",
     "manifestPath": "registry/skills/six-thinking-hats.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/six-thinking-hats/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/_meta.json",
+      "byteCount": 186,
+      "sha256": "1fc77d59d6f3d6a5eaad8421802605001b535ac1cafcb7966f757536c811d31d"
     },
     {
       "path": "hats.md",
       "downloadPath": "skills/six-thinking-hats/hats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/hats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/hats.md",
+      "byteCount": 3430,
+      "sha256": "baee558b415689630cfe3ac551321607a98c8b23ae73b7cf28d5ba92be8280d0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/six-thinking-hats/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/memory-template.md",
+      "byteCount": 969,
+      "sha256": "dbfbe93eb36b78c3ef1b33961f6803d83bdb88250aa36f6c949fe9e313fb715c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/six-thinking-hats/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/setup.md",
+      "byteCount": 1552,
+      "sha256": "8ee5740f107be7be5dcef5528d9cc9bee32a56588f23b98c718a656d9c3969ad"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/six-thinking-hats/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/six-thinking-hats/SKILL.md",
+      "byteCount": 4074,
+      "sha256": "2ca15c7d92150696981ca47a2a47d632ab7c5ba419c58058b6cf9177f6a4a2ce"
     }
   ]
 }

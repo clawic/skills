@@ -4,8 +4,8 @@
 
 ### Create Project Folder
 ```
-mkdir -p ~/screenshots/{app-slug}/raw
-cd ~/screenshots/{app-slug}
+mkdir -p ~/Clawic/data/screenshots/{app-slug}/raw
+cd ~/Clawic/data/screenshots/{app-slug}
 ```
 
 ### Create Config
@@ -67,7 +67,7 @@ Write `config.md`:
 
 ### Output Structure
 ```
-~/screenshots/{app-slug}/v1/
+~/Clawic/data/screenshots/{app-slug}/v1/
 ├── ios/
 │   ├── 6.7/
 │   │   ├── en/

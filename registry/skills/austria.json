@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "86139f216c6cedba373cb59dcd938b906de94d49d5a4be20b9c0f84333389cab",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "austria",
-    "name": "Austria",
+    "name": "austria",
     "description": "Plan Austria trips with rail and road logic, alpine season timing, region-specific routing, and practical local execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/austria",
-    "summary": "Setup If `~/austria/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Austria trip and needs practical guidance beyond generic inspiration: entry rules, region choice, rail",
+    "summary": "Setup If `~/Clawic/data/austria/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Austria trip and needs practical guidance beyond generic inspiration: entry rules, region ",
     "repositoryPath": "skills/austria",
     "manifestPath": "registry/skills/austria.json"
   },
@@ -22,147 +25,205 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/austria/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/_meta.json",
+      "byteCount": 166,
+      "sha256": "b5f6f21456cb11d16aa6b1242684ce4c7b0b76f9de4689b39975aa8ae882c144"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/austria/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/accessibility.md",
+      "byteCount": 1103,
+      "sha256": "2e8c2b3bdbc393c991a395a7bed5834f5ed07e5a2281b622e25c3bfc8eb0fe36"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/austria/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/accommodation.md",
+      "byteCount": 1893,
+      "sha256": "316e13917dd5287ef6c5b3ceb47648f2869c772df28e5435aa06b1a499053e64"
     },
     {
       "path": "alps-lakes-and-outdoors.md",
       "downloadPath": "skills/austria/alps-lakes-and-outdoors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/alps-lakes-and-outdoors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/alps-lakes-and-outdoors.md",
+      "byteCount": 1389,
+      "sha256": "fcbc9209efef847f6c4fddf023f6aae1927034fdf62d0789cace1611ccc9842b"
     },
     {
       "path": "border-hops-and-day-trips.md",
       "downloadPath": "skills/austria/border-hops-and-day-trips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/border-hops-and-day-trips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/border-hops-and-day-trips.md",
+      "byteCount": 1139,
+      "sha256": "f11fe7a1970d96b78b948f4bdd2413f1464444659d7e958208c8c1ff478ed2bd"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/austria/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/budget-and-costs.md",
+      "byteCount": 1517,
+      "sha256": "e7b9ee72a3f5c33424e80f131334da07a397642f60060e06c868c526c3404d01"
     },
     {
       "path": "carinthia-and-lakes.md",
       "downloadPath": "skills/austria/carinthia-and-lakes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/carinthia-and-lakes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/carinthia-and-lakes.md",
+      "byteCount": 1742,
+      "sha256": "818e7e752b0996f69951726f9a2de38c298a10420a4947fc33b73270617166fb"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/austria/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/customs-and-border.md",
+      "byteCount": 1810,
+      "sha256": "8bc19fa54e5633ddfc251c1601c8716ffa0919d5bd2b5e01a147026f11de844a"
     },
     {
       "path": "danube-linz-and-wachau.md",
       "downloadPath": "skills/austria/danube-linz-and-wachau.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/danube-linz-and-wachau.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/danube-linz-and-wachau.md",
+      "byteCount": 1855,
+      "sha256": "77172e860e50348eaab8c4a0694e81c5a11257c6a57c943671b1ba22d93f0467"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/austria/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/entry-and-documents.md",
+      "byteCount": 1945,
+      "sha256": "08a67e72327c3bbbe3b7984f3435a10186eb2fd76eced37b01fca28632027d48"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/austria/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/family-travel.md",
+      "byteCount": 1073,
+      "sha256": "d40e48c7b24916173e2d2c535b78d313b15e5f18d87917db827103bde4aa8daf"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/austria/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/food-guide.md",
+      "byteCount": 1927,
+      "sha256": "2b589455a2f88fbd2561a0fef76c50451646442d0aa415f76fdefb1b9beae7dd"
     },
     {
       "path": "graz-and-styria.md",
       "downloadPath": "skills/austria/graz-and-styria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/graz-and-styria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/graz-and-styria.md",
+      "byteCount": 1726,
+      "sha256": "6a511384edddb3416ee7901b14f2422f1e8d37846d1ca2603ceecf03cc714ee4"
     },
     {
       "path": "innsbruck-and-tyrol.md",
       "downloadPath": "skills/austria/innsbruck-and-tyrol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/innsbruck-and-tyrol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/innsbruck-and-tyrol.md",
+      "byteCount": 1723,
+      "sha256": "0fd9cc4377372e938e9945ce40e6074b532dba0c5756172066047c394d2698b4"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/austria/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/itineraries.md",
+      "byteCount": 1922,
+      "sha256": "99de01fb0fc7fe81b2ac44310e73e16587b639874dbde7b95149a1e8d971b942"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/austria/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/memory-template.md",
+      "byteCount": 1564,
+      "sha256": "a3fad7f11cf25d8e402952effd28c26cf0837c360f617527914dba02f4d547fc"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/austria/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/regions.md",
+      "byteCount": 2687,
+      "sha256": "e62f3d99e693e1d3bf530687f1e9e929c208f83cd48ca9d7a6d29cfa2492bc07"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/austria/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/road-trips-and-driving.md",
+      "byteCount": 1611,
+      "sha256": "4a5622a02444968ac9445dbb4fc311ee6396e7abdadb57e63d7d5dd93b8a5bd1"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/austria/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/safety-and-emergencies.md",
+      "byteCount": 1225,
+      "sha256": "b57f477516c455bbe62d63ea0a10d1c291fe713e6c387e0e972a658fc3db9489"
     },
     {
       "path": "salzburg-and-salzburgerland.md",
       "downloadPath": "skills/austria/salzburg-and-salzburgerland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/salzburg-and-salzburgerland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/salzburg-and-salzburgerland.md",
+      "byteCount": 1792,
+      "sha256": "cbfca03e7f64ce731cb17e889bec66829638f0e6fd85d0635c8e420805fb01dd"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/austria/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/setup.md",
+      "byteCount": 2068,
+      "sha256": "b8d023455b2d2363f9f06517f3640955e756dac22a1bb19adc74ca90e15757e5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/austria/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/SKILL.md",
+      "byteCount": 6230,
+      "sha256": "c6e2d3cab46aef8ef7ab2c13ad537f1a090766b1d2002705778ac1be55208e75"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/austria/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/sources.md",
+      "byteCount": 2187,
+      "sha256": "d352a338336d59a5e5607986d3f2beb7c84ca613456593da3736ec56ee9e9ff0"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/austria/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/telecoms-and-apps.md",
+      "byteCount": 989,
+      "sha256": "9e724746ceff417b57265787493024e34c8fb2399d70855f65258f64cba3bf1f"
     },
     {
       "path": "tipping-and-payments.md",
       "downloadPath": "skills/austria/tipping-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/tipping-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/tipping-and-payments.md",
+      "byteCount": 1303,
+      "sha256": "635eaf750d12d3342858250affc6ac23f871fc4e765ff53913db261036122900"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/austria/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/transport-domestic.md",
+      "byteCount": 1698,
+      "sha256": "636e931e9b3203808556e648d6796ea382fcd3d9ec36d6e48b12e971a1bf2827"
     },
     {
       "path": "vienna.md",
       "downloadPath": "skills/austria/vienna.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/vienna.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/vienna.md",
+      "byteCount": 1714,
+      "sha256": "23ac27ac7a679252600f87aa5081d97b36197a55e0acfb6ecf06d8100cb8e667"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/austria/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/weather-and-seasonality.md",
+      "byteCount": 1409,
+      "sha256": "b18926380dec0e0246244dde9df8ce233f6a529e190aea83b18d528fc6b404d4"
     },
     {
       "path": "winter-ski-and-christmas.md",
       "downloadPath": "skills/austria/winter-ski-and-christmas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/winter-ski-and-christmas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/austria/winter-ski-and-christmas.md",
+      "byteCount": 1415,
+      "sha256": "58155ef8236ffab794718fba51f3a856b95b087184239df960a2a91cc6938281"
     }
   ]
 }

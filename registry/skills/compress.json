@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "da708d45ba45bf1e32c9326503b4b1dfcf37b81676b59888ca3e2d91f529fde0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "compress",
-    "name": "Compress",
+    "name": "compress",
     "description": "Compress text semantically with iterative validation, anchor checksums, and verified information preservation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/compress",
     "summary": "⚠️ Important Limitations **This is SEMANTIC compression, not bit-perfect lossless.** - L1-L2: Verified reconstruction, production-ready - L3-L4: Experimental, may lose subtle information - **Never use for:** Medical dosa",
     "repositoryPath": "skills/compress",
     "manifestPath": "registry/skills/compress.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/compress/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/_meta.json",
+      "byteCount": 168,
+      "sha256": "9f767e1a2a80fbfcedfc5254703dae5fbe2147cb4d405c2ee3156021cda3c4f0"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/compress/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/formats.md",
+      "byteCount": 3041,
+      "sha256": "5780ab98fd3fcf4e754e19919b83e03a7ae1effedf1279c095f3e148eda044fd"
     },
     {
       "path": "levels.md",
       "downloadPath": "skills/compress/levels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/levels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/levels.md",
+      "byteCount": 2094,
+      "sha256": "fbd5442bbe1ef5b574cc0fb5b26ee07d11a4d8fd6c78c9e63cae0120b8ea4493"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/compress/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/metrics.md",
+      "byteCount": 3154,
+      "sha256": "a5afbca64c0652267ce8f6adc22f44ee12951a36cfb70d4f176eb8e78e589a51"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/compress/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/SKILL.md",
+      "byteCount": 2695,
+      "sha256": "caa5cd98ddf24905c372bc3ea82eb6be3b14a980e2d9ab19fc7d59ed1eaf8824"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/compress/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compress/validation.md",
+      "byteCount": 2355,
+      "sha256": "9a712b0303b682599af6fc05a0efe034c35af22b210ab773608ae7f84abf1a90"
     }
   ]
 }

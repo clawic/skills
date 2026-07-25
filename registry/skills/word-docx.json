@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "75fff6e218f3f9841b151490a67e2c9bc31f3f4c670122c781eb8e2c41f1fc3a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "word-docx",
-    "name": "Word / DOCX",
+    "name": "word-docx",
     "description": "Create, inspect, and edit Microsoft Word documents and DOCX files with reliable styles, numbering, tracked changes, tables, sections, and compatibility checks. Use when (1) the task is about Word or `.docx`; (2) the file includes tracked changes, comments, fields, tables, templates, or page layout constraints; (3) the document must survive round-trip editing without formatting drift.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/word-docx",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/word-docx/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/_meta.json",
+      "byteCount": 322,
+      "sha256": "41728915f1b84e3ac4e7f9a89f010ecad6410f57db3775daddd2b030fc09185c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/word-docx/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/word-docx/SKILL.md",
+      "byteCount": 8007,
+      "sha256": "c3c2e8f3ac6cf1de2f467d3e8be5c98b1aa01af8a32bc3c002cd018c5bc8f634"
     }
   ]
 }

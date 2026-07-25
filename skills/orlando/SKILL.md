@@ -1,11 +1,24 @@
 ---
-name: Orlando
+name: orlando
 slug: orlando
 version: 1.0.0
-homepage: https://clawic.com/skills/orlando
 description: Navigate Orlando as visitor, resident, remote worker, or family with theme parks, neighborhoods, transit, costs, and local strategies.
-changelog: "Initial release with deep Orlando guidance for theme parks, relocation, family planning, and daily city logistics."
-metadata: {"clawdbot":{"emoji":"🎢","requires":{"bins":[],"config":["~/orlando/"]},"os":["linux","darwin","win32"],"configPaths":["~/orlando/"]}}
+homepage: https://clawic.com/skills/orlando
+changelog: Initial release with deep Orlando guidance for theme parks, relocation, family planning, and daily city logistics.
+metadata:
+  clawdbot:
+    emoji: 🎢
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/orlando/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/orlando/
+    displayName: Orlando
 ---
 
 ## When to Use
@@ -14,10 +27,10 @@ User asks about Orlando for any purpose: theme-park trip, conference, relocation
 
 ## Architecture
 
-This skill works statelessly for one-off Orlando questions. If the user wants continuity, memory lives in `~/orlando/`. If `~/orlando/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+This skill works statelessly for one-off Orlando questions. If the user wants continuity, memory lives in `~/Clawic/data/orlando/`. If `~/Clawic/data/orlando/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/orlando/
+~/Clawic/data/orlando/
 |-- memory.md     # User context, trip style, park priorities, move plans, and open loops
 ```
 
@@ -194,7 +207,7 @@ No other data is sent externally.
 - Travel dates, route context, ZIP, district, or filing type only when the user asks for location-specific or date-specific guidance
 
 **Data that stays local:**
-- Trip goals, neighborhood shortlist, commute constraints, school needs, and open loops in `~/orlando/`
+- Trip goals, neighborhood shortlist, commute constraints, school needs, and open loops in `~/Clawic/data/orlando/`
 
 **This skill does NOT:**
 - Buy tickets, submit forms, or create reservations without explicit instruction
@@ -208,7 +221,7 @@ By using this skill, limited travel, location, or filing context may be checked 
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary design
 - `florida` - Statewide weather, insurance, and moving context beyond Orlando
 - `united-states` - National baseline for immigration, healthcare, and relocation questions
@@ -217,5 +230,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star orlando`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/orlando
+- Latest version: https://clawic.com/skills/orlando

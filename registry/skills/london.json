@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a442d89f167838c44cb6773500661300de45039570320448610ce9b0423fb622",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "london",
-    "name": "London",
+    "name": "london",
     "description": "Navigate London as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/london",
     "summary": "When to Use User asks about London for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | **",
     "repositoryPath": "skills/london",
     "manifestPath": "registry/skills/london.json"
@@ -21,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/london/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/_meta.json",
+      "byteCount": 164,
+      "sha256": "30138d967451d137685318d2cedac10f1225237fdd73152f7ad2b6bf741d3e64"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/london/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/climate.md",
+      "byteCount": 7267,
+      "sha256": "292c7add74339dc3bf7e8e27e22672d6d4afe6158aa25ae322e7601f053e8af1"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/london/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/cost.md",
+      "byteCount": 7725,
+      "sha256": "1db6b8f04a5b911e5fe5136e7f44b3b7884f46d1d35f119686ecabaec604f070"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/london/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-areas.md",
+      "byteCount": 1951,
+      "sha256": "0113fab27ea5846d37ec8a8500f541d593a3bc12337e3914083c048b2a97cfa5"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/london/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-markets.md",
+      "byteCount": 1751,
+      "sha256": "a6afaed4190b56cde16bbd0e747db3fd31f60fa16de385802ece2c502d940c94"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/london/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-overview.md",
+      "byteCount": 3001,
+      "sha256": "38a7557eae349ac076c21f99df93c949537649336f784a0635747685133d5555"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/london/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-practical.md",
+      "byteCount": 2743,
+      "sha256": "3886ba0d3ecbfb396cffa19fbd9f416ba388b276b48ff90ba9b90f82ebe1241c"
     },
     {
       "path": "food-pubs.md",
       "downloadPath": "skills/london/food-pubs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-pubs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-pubs.md",
+      "byteCount": 1622,
+      "sha256": "6a831026f3c749ca44f100a088fb43539f97565d0dd7b83b57310a50a3fbbefa"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/london/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/food-traditional.md",
+      "byteCount": 2787,
+      "sha256": "97b18cf95067a9476d5f118485d8112dbd4b243fd3b5d07247bbd0edd2ba55f5"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/london/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/local.md",
+      "byteCount": 7771,
+      "sha256": "9b39934aea0e07380d01d66dfba69882c814850e7fac8a32cb4c7e334c1849c3"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/london/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-central.md",
+      "byteCount": 3138,
+      "sha256": "624f837f452385a99480d973a992a6150eb480aa4f6a2ebffa7227e099c1444f"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/london/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-choosing.md",
+      "byteCount": 3528,
+      "sha256": "ff5dee3ffb764231d6bcc06fc590fd2d2cc0f61f8f5625ecd97900d89e4267a1"
     },
     {
       "path": "neighborhoods-east.md",
       "downloadPath": "skills/london/neighborhoods-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-east.md",
+      "byteCount": 2710,
+      "sha256": "04a4546ed8462649bda9253506ac303e915726b57df2f1309c696332655e0285"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/london/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-index.md",
+      "byteCount": 2971,
+      "sha256": "39b687101da3d98f4a9410a1f97a3892db3e229dcf9a5f99abf8e7a180bc7b0a"
     },
     {
       "path": "neighborhoods-north.md",
       "downloadPath": "skills/london/neighborhoods-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-north.md",
+      "byteCount": 2041,
+      "sha256": "cadf6f07f6fbfa4fa83e61cc3e26463e8de91dafb883a32b31b6accfa0b80ec3"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/london/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-south.md",
+      "byteCount": 3227,
+      "sha256": "014a08b308e6248aa0f1db07a646b93a4353493baa4fba4044b1af52457069e6"
     },
     {
       "path": "neighborhoods-west.md",
       "downloadPath": "skills/london/neighborhoods-west.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-west.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/neighborhoods-west.md",
+      "byteCount": 1903,
+      "sha256": "14af02c608a0e6abcb3bba0ca553b885bb18d1feda732be5574b6a959ed6493f"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/london/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/resident.md",
+      "byteCount": 14837,
+      "sha256": "ec2436ccafb47ec33b79747c64726ff124ae54f4feac26976b2d7fd7db29abe8"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/london/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/safety.md",
+      "byteCount": 7262,
+      "sha256": "0562a66694cc26d2e795d837bc934ebd108b34fcc0e80d3001e42f06c2cfc520"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/london/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/SKILL.md",
+      "byteCount": 3521,
+      "sha256": "5c2f1c5041cf6fb33bdd00966243cdf022cffcf2c012a9652fa86f8c5067cf06"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/london/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/startup.md",
+      "byteCount": 8107,
+      "sha256": "79543431941d6feb75f78a0e8bd586c2350b320c71cb30b1e0149f0beb3a5d86"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/london/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/student.md",
+      "byteCount": 8333,
+      "sha256": "7b825d662f272c4e241cfbeb03ff3b0cd0d38203cc2bacd6ecf4722bbbc291b0"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/london/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/tech.md",
+      "byteCount": 7148,
+      "sha256": "354364a6baab00fa5a5b2a40c4c67a32cd2da237958c69d3137e699f44fcd6d1"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/london/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/transport.md",
+      "byteCount": 10059,
+      "sha256": "4cdb2d4d10b6038a5ce0ebf1f8553fec4460fedc9276249b8dec62e68546ac6e"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/london/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-attractions.md",
+      "byteCount": 2506,
+      "sha256": "d39a8e92c51975c61c9693b7ed2055bebc5a0653766759f2e1bee1e711c003f3"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/london/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-itineraries.md",
+      "byteCount": 2328,
+      "sha256": "a881929a6c1f373e9662b2543f2577036e72b44d050d62782ffc0c33ff37a416"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/london/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-lodging.md",
+      "byteCount": 1947,
+      "sha256": "798a0729253ec86ae105fa82e51b596b903ae486f18d6918ded88bf79a2ba518"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/london/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/london/visitor-tips.md",
+      "byteCount": 2618,
+      "sha256": "e7c52b9159d9a313d2b1608b6ae9d70979f824a68d05b0d4f13bcc579763bbda"
     }
   ]
 }

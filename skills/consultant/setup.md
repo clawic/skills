@@ -1,6 +1,6 @@
 # Setup - Consultant
 
-Use this when `~/consultant/` does not exist or is empty. Tell the user that a local consultant workspace will be initialized before writing files.
+Use this when `~/Clawic/data/consultant/` does not exist or is empty. Tell the user that a local consultant workspace will be initialized before writing files.
 
 ## Core Attitude
 

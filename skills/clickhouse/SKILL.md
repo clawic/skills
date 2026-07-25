@@ -1,10 +1,26 @@
 ---
-name: ClickHouse
+name: clickhouse
 slug: clickhouse
 version: 1.0.1
-homepage: https://clawic.com/skills/clickhouse
 description: Query, optimize, and administer ClickHouse OLAP databases with schema design, performance tuning, and data ingestion patterns.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":["clickhouse-client"]},"os":["linux","darwin"],"install":[{"id":"brew","kind":"brew","formula":"clickhouse","bins":["clickhouse-client"],"label":"Install ClickHouse (Homebrew)"}]}}
+homepage: https://clawic.com/skills/clickhouse
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins:
+      - clickhouse-client
+    os:
+    - linux
+    - darwin
+    install:
+    - id: brew
+      kind: brew
+      formula: clickhouse
+      bins:
+      - clickhouse-client
+      label: Install ClickHouse (Homebrew)
+    displayName: ClickHouse
 ---
 
 # ClickHouse 🏠
@@ -21,10 +37,10 @@ User needs OLAP analytics, log analysis, time-series data, or real-time dashboar
 
 ## Architecture
 
-Memory lives in `~/clickhouse/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/clickhouse/`. See `memory-template.md` for structure.
 
 ```
-~/clickhouse/
+~/Clawic/data/clickhouse/
 ├── memory.md        # Connection profiles + query patterns
 ├── schemas/         # Table definitions per database
 └── queries/         # Saved analytical queries
@@ -219,11 +235,11 @@ No external services contacted. All queries run against user-specified ClickHous
 ## Security & Privacy
 
 **Data saved locally (with user consent):**
-- Connection profiles (host, port, database) in ~/clickhouse/memory.md
+- Connection profiles (host, port, database) in ~/Clawic/data/clickhouse/memory.md
 - Query patterns and schema documentation
 - Authentication method preferences (password vs certificate)
 
-**Important:** If you provide database passwords, they are stored in plain text in ~/clickhouse/. Consider using environment variables or connection profiles managed by clickhouse-client instead.
+**Important:** If you provide database passwords, they are stored in plain text in ~/Clawic/data/clickhouse/. Consider using environment variables or connection profiles managed by clickhouse-client instead.
 
 **This skill does NOT:**
 - Connect to any ClickHouse without explicit user configuration
@@ -231,12 +247,12 @@ No external services contacted. All queries run against user-specified ClickHous
 - Automatically collect or store credentials without asking
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `sql` — SQL query patterns
 - `analytics` — data analysis workflows
 - `data-analysis` — structured data exploration
 
 ## Feedback
 
-- If useful: `clawhub star clickhouse`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/clickhouse
+- Latest version: https://clawic.com/skills/clickhouse

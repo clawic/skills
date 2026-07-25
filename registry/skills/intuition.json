@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1c85dcf669f381dc31f8488e0fe6c1b779d38327744ed4e0e6ce1318acc68c1a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "intuition",
-    "name": "Intuition",
+    "name": "intuition",
     "description": "Make rapid pattern-based judgments without explicit reasoning, using Recognition-Primed Decision techniques and System 1 response patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/intuition",
     "summary": "Core Loop — Recognition-Primed Decision (RPD) When asked for intuitive judgment: 1. **Recognize** — Match situation to known patterns instantly 2. **Generate** — Produce first plausible response (not options to compare) ",
     "repositoryPath": "skills/intuition",
     "manifestPath": "registry/skills/intuition.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/intuition/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/_meta.json",
+      "byteCount": 170,
+      "sha256": "21ed62c56b4c0ee3acab0b975fb76b1fd05bcdaf6dd513f88a1ac3e56c16e0cf"
     },
     {
       "path": "domains.md",
       "downloadPath": "skills/intuition/domains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/domains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/domains.md",
+      "byteCount": 3590,
+      "sha256": "2f62002ece090429f4a459a5b37f5c58d24ae9667a913c39c5be25513dbcf33a"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/intuition/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/feedback.md",
+      "byteCount": 3233,
+      "sha256": "9860e50243edb56f2bee5a106e86fde0123adfe84f2a0fae1d9c105aad83f8a3"
     },
     {
       "path": "safeguards.md",
       "downloadPath": "skills/intuition/safeguards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/safeguards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/safeguards.md",
+      "byteCount": 3436,
+      "sha256": "14e865b17770754a8092e5def07078ae2165cf534b343cffe95b14007ecae832"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/intuition/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/SKILL.md",
+      "byteCount": 2724,
+      "sha256": "7c0d4d47d73c5016dba3080c2800a66b18582d1cd3124bc5e3f5cdabe15c03d2"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/intuition/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/intuition/techniques.md",
+      "byteCount": 3743,
+      "sha256": "1ee05cb73c1780befd0433cfae307dc035464c976c92cfa9cb3567037dde3c65"
     }
   ]
 }

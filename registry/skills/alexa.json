@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ca83586f70586efae63b92c8e15fb6344b5a5675e9e6b38913abfffb6776060f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "alexa",
-    "name": "Alexa",
+    "name": "alexa",
     "description": "Control devices, run automations, and help users get more from Alexa with smart home, routines, and skill development guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/alexa",
     "summary": "Device Control **Naming for reliable control:** Location + device type. \"Kitchen light\", \"Bedroom fan\". Avoid model numbers. **Room-based commands:** - \"Turn off the bedroom\" (all devices in room) - \"Turn on downstairs l",
     "repositoryPath": "skills/alexa",
     "manifestPath": "registry/skills/alexa.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/alexa/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/_meta.json",
+      "byteCount": 162,
+      "sha256": "9ae80353b398815027b573c3100d5def396ea8485ddac44645a0ec7ef2a53ef1"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/alexa/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/commands.md",
+      "byteCount": 5859,
+      "sha256": "c669b42444640bb76f6816fc362b21b5db52aa4580a3e7dbb2b88cb8a9aab8ce"
     },
     {
       "path": "development.md",
       "downloadPath": "skills/alexa/development.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/development.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/development.md",
+      "byteCount": 5687,
+      "sha256": "e8d92563fbbd0bd30c694afa45b83b0e860cbf8535d8e8bdf9660501ffeb1133"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/alexa/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/SKILL.md",
+      "byteCount": 3553,
+      "sha256": "6c0ae6c2d499c8a36882920ea1f8f9dc37bee2700db6d2ed50bf5383cb1ab7e8"
     },
     {
       "path": "smart-home.md",
       "downloadPath": "skills/alexa/smart-home.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/smart-home.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alexa/smart-home.md",
+      "byteCount": 5355,
+      "sha256": "0bad26aab51b6a800fdbd8d4043865f04787e4284d86c2cb65bab01f242bd2ba"
     }
   ]
 }

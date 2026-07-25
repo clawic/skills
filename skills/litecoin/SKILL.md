@@ -1,7 +1,17 @@
 ---
-name: Litecoin
+name: litecoin
+slug: litecoin
+version: 1.0.0
 description: Assist with Litecoin LTC transactions, address formats, fees, and MWEB privacy features.
-metadata: {"clawdbot":{"emoji":"Ł","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/litecoin
+metadata:
+  clawdbot:
+    emoji: Ł
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Litecoin
 ---
 
 ## Network Basics

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e66ce468906d25d3a786c755304435b3bf885814f4efba826c5953d7e8046ceb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,64 +23,88 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/listen/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/listen/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/_meta.json",
+      "byteCount": 314,
+      "sha256": "5c7096d6aae0715f983a30f2a1864ee6f20584e2ae456be286c8e1c481692718"
     },
     {
       "path": "actions.md",
       "downloadPath": "skills/listen/actions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/actions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/actions.md",
+      "byteCount": 3716,
+      "sha256": "cf22954ec3ea6988e68b8b4b3410f56af3c282a9847a75c78f599d0c5049f987"
     },
     {
       "path": "degraded.md",
       "downloadPath": "skills/listen/degraded.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/degraded.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/degraded.md",
+      "byteCount": 4062,
+      "sha256": "03a7f80d8446630628b6481d825cfaecea9f48285a8a3fae7df22968386bca79"
     },
     {
       "path": "dictation.md",
       "downloadPath": "skills/listen/dictation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/dictation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/dictation.md",
+      "byteCount": 3678,
+      "sha256": "ef3ca18bb11c2450b3fc6f3fe9e06ca8d4aad6e55ccfd51b7b48cce2af4f27f3"
     },
     {
       "path": "lexicon.md",
       "downloadPath": "skills/listen/lexicon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/lexicon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/lexicon.md",
+      "byteCount": 3907,
+      "sha256": "7e57857356bb4f891fe1c3ec11d1ae04582667d9eeb6ee3c0beee75acbed3906"
     },
     {
       "path": "multilingual.md",
       "downloadPath": "skills/listen/multilingual.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/multilingual.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/multilingual.md",
+      "byteCount": 3691,
+      "sha256": "262eda9352c91bb2e533f825d13301e054addac5e809fd83b58c2eff0694e03d"
     },
     {
       "path": "names.md",
       "downloadPath": "skills/listen/names.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/names.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/names.md",
+      "byteCount": 3905,
+      "sha256": "8a4566f4959db2de6dd99c776603de35b380a7a4dc230d4ac9271ca16c4d2a46"
     },
     {
       "path": "numbers.md",
       "downloadPath": "skills/listen/numbers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/numbers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/numbers.md",
+      "byteCount": 4437,
+      "sha256": "934fc96988c1bdde9a14040f922f3a9a47b3c8be4194cc2d237a1a0b6cd56755"
     },
     {
       "path": "repair.md",
       "downloadPath": "skills/listen/repair.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/repair.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/repair.md",
+      "byteCount": 6312,
+      "sha256": "751e4fbfb5137caf6e958621c291d770faa4dc18452d1e10be84630d4b7de769"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/listen/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/setup.md",
+      "byteCount": 2027,
+      "sha256": "eca266904de8482e1fd43168c261c3d3fdaf7bac855538433f110a9bdedd7aa8"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/listen/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md",
+      "byteCount": 14895,
+      "sha256": "ec8eebdc2a583265c72b50ee81e722df1afc038ed388bf0f699496cbf10e9dd3"
     },
     {
       "path": "tuning.md",
       "downloadPath": "skills/listen/tuning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/tuning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/tuning.md",
+      "byteCount": 3991,
+      "sha256": "5775dccc5e255bc09f4e7286914be84b12ded5a913fa2a89e80eab53987d379b"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6af327ead1952c4ba3336c51fa0c45ff38c3f331e84e243fe2eef1a1031e258f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "subscriptions",
-    "name": "Subscriptions",
+    "name": "subscriptions",
     "description": "Build a personal subscription tracker for managing recurring payments, renewals, and cutting waste.",
-    "summary": "Core Behavior - User mentions subscription → add to tracker - User asks about spending → surface totals - Alert before renewals and price increases - Create `~/subscriptions/` as workspace File Structure ``` ~/subscripti",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/subscriptions",
+    "summary": "Core Behavior - User mentions subscription → add to tracker - User asks about spending → surface totals - Alert before renewals and price increases - Create `~/Clawic/data/subscriptions/` as workspace File Structure ``` ",
     "repositoryPath": "skills/subscriptions",
     "manifestPath": "registry/skills/subscriptions.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/subscriptions/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/subscriptions/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/subscriptions/_meta.json",
+      "byteCount": 178,
+      "sha256": "7523e299faa5fdab8b461f7ebf9bce3717c9e11dd3c5c9420e7a53b5d4da69ce"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/subscriptions/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/subscriptions/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/subscriptions/SKILL.md",
+      "byteCount": 1988,
+      "sha256": "990faada3e87e2a62514ded6a25a29a754781c036e30a4b00df25a63a2ff741d"
     }
   ]
 }

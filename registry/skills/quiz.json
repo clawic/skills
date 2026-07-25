@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ae0adbc50c4b14a919ae4b6cbb78efc30c0bd430fe41e3493e0ccd9246ef4bb5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "quiz",
-    "name": "Quiz",
+    "name": "quiz",
     "description": "Design engaging quizzes with effective questions, scoring logic, and results that drive learning or conversions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/quiz",
     "summary": "Situation Detection | Context | Load | |---------|------| | Knowledge assessment, exams, certifications | `types.md` → Knowledge section | | Personality quizzes, \"Which X are you?\" | `types.md` → Personality section | | ",
     "repositoryPath": "skills/quiz",
     "manifestPath": "registry/skills/quiz.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/quiz/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/_meta.json",
+      "byteCount": 160,
+      "sha256": "936f02c3027326325ddcdfef7921bf8f17b6a991a38504e1ad272b733f661b07"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/quiz/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/implementation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/implementation.md",
+      "byteCount": 4038,
+      "sha256": "361ad8579659a8464aa470a9bd9feb8a8aa36b1ca3ae914ed137f46863902707"
     },
     {
       "path": "questions.md",
       "downloadPath": "skills/quiz/questions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/questions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/questions.md",
+      "byteCount": 3509,
+      "sha256": "5de13d4ba8c4402656ffd490df6018014d15739d94a01fcc58fbff3ca8ab04b6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/quiz/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/SKILL.md",
+      "byteCount": 3318,
+      "sha256": "3bbd6d9b7c6ff14ac72d1d1c98ec49b785b69ba6bafff125f54c56457df2a411"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/quiz/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quiz/types.md",
+      "byteCount": 3640,
+      "sha256": "1be9fcfe6387f5a9ca580d45cc2aee810dda7c5d7fbb0b0caa50007e7cef5d54"
     }
   ]
 }

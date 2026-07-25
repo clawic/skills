@@ -1,11 +1,22 @@
 ---
-name: Synology
+name: synology
 slug: synology
 version: 1.0.0
-homepage: https://clawic.com/skills/synology
 description: Plan, harden, and recover Synology NAS and DSM setups with storage design, backup discipline, remote access, and Container Manager workflows.
+homepage: https://clawic.com/skills/synology
 changelog: Initial release with DSM-first planning, safer storage and backup decisions, remote access guardrails, and recovery playbooks.
-metadata: {"clawdbot":{"emoji":"S","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/synology/"]}}
+metadata:
+  clawdbot:
+    emoji: S
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/synology/
+    displayName: Synology
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ This skill should activate whenever the real question is "what should be changed
 
 ## Architecture
 
-This skill works statelessly for one-off Synology questions. If the user wants continuity across sessions, memory lives in `~/synology/`. If `~/synology/` does not exist, run `setup.md`, explain planned local notes in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off Synology questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/synology/`. If `~/Clawic/data/synology/` does not exist, run `setup.md`, explain planned local notes in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/synology/
+~/Clawic/data/synology/
 |- memory.md        # Model, DSM version, workloads, and guardrails
 |- inventory.md     # Volumes, shares, packages, and exposure notes
 |- services.md      # Container Manager, Drive, Photos, backup, and app notes
@@ -92,7 +103,7 @@ Do not store passwords, QuickConnect credentials, OTP codes, serial numbers, or 
 
 ### 7. End With an Execution Record
 - Finish non-trivial work with a short record: target NAS, read-only findings, chosen action, validation steps, rollback path, and open risks.
-- Save only that durable summary under `~/synology/` if the user wants continuity.
+- Save only that durable summary under `~/Clawic/data/synology/` if the user wants continuity.
 - This keeps later Synology work grounded in facts instead of re-discovering the same box every time.
 
 ## Safety Checklist
@@ -134,7 +145,7 @@ Data that may leave your machine:
 - QuickConnect identifiers and connection metadata only when remote access is actively configured or tested
 
 Data that stays local:
-- model, package, backup, and recovery notes in `~/synology/`
+- model, package, backup, and recovery notes in `~/Clawic/data/synology/`
 - screenshots, exports, or runbooks the user chooses to keep locally
 
 This skill does NOT:
@@ -153,7 +164,7 @@ Only install and use it if you trust Synology with the approved operations and r
 This skill ONLY:
 - plans and executes Synology DSM and NAS workflows with explicit safety gates
 - covers storage, backup, remote access, package health, and Container Manager decisions
-- keeps lightweight local memory in `~/synology/` when the user wants continuity
+- keeps lightweight local memory in `~/Clawic/data/synology/` when the user wants continuity
 - emphasizes restore-first thinking for incidents and migrations
 
 This skill NEVER:
@@ -163,7 +174,7 @@ This skill NEVER:
 - replace specialized camera automation, enterprise SAN design, or off-platform Kubernetes guidance
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `backups` - Backup strategy, retention, and restore planning beyond one vendor
 - `self-host` - Self-hosted service decisions around ownership, risk, and maintenance
 - `docker` - Container architecture once the Synology host and storage plan are stable
@@ -172,5 +183,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star synology`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/synology
+- Latest version: https://clawic.com/skills/synology

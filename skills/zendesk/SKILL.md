@@ -1,11 +1,24 @@
 ---
-name: Zendesk
+name: zendesk
 slug: zendesk
 version: 1.0.0
-homepage: https://clawic.com/skills/zendesk
 description: Manage Zendesk tickets, users, and support workflows with API integration and automation.
+homepage: https://clawic.com/skills/zendesk
 changelog: Initial release with ticket management, user lookup, and workflow automation.
-metadata: {"clawdbot":{"emoji":"🎫","requires":{"bins":[],"env":["ZENDESK_SUBDOMAIN","ZENDESK_EMAIL","ZENDESK_TOKEN"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎫
+    requires:
+      bins: []
+      env:
+      - ZENDESK_SUBDOMAIN
+      - ZENDESK_EMAIL
+      - ZENDESK_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Zendesk
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User needs to interact with Zendesk: create or update tickets, search support hi
 
 ## Architecture
 
-Memory at `~/zendesk/`. See `memory-template.md` for structure.
+Memory at `~/Clawic/data/zendesk/`. See `memory-template.md` for structure.
 
 ```
-~/zendesk/
+~/Clawic/data/zendesk/
 ├── memory.md        # Credentials + preferences + recent context
 ├── templates/       # Saved ticket templates and macros
 └── exports/         # Report exports and ticket dumps
@@ -39,7 +52,7 @@ Memory at `~/zendesk/`. See `memory-template.md` for structure.
 ## Core Rules
 
 ### 1. Authenticate Before Operations
-Credentials from environment variables (ZENDESK_SUBDOMAIN, ZENDESK_EMAIL, ZENDESK_TOKEN) or `~/zendesk/memory.md`.
+Credentials from environment variables (ZENDESK_SUBDOMAIN, ZENDESK_EMAIL, ZENDESK_TOKEN) or `~/Clawic/data/zendesk/memory.md`.
 ```bash
 # Test auth
 curl -u "$ZENDESK_EMAIL/token:$ZENDESK_TOKEN" "https://$ZENDESK_SUBDOMAIN.zendesk.com/api/v2/users/me.json"
@@ -137,11 +150,11 @@ No other data is sent externally.
 - Search queries sent to Zendesk
 
 **Data that stays local:**
-- API credentials in ~/zendesk/memory.md
-- Exported reports in ~/zendesk/exports/
+- API credentials in ~/Clawic/data/zendesk/memory.md
+- Exported reports in ~/Clawic/data/zendesk/exports/
 
 **This skill does NOT:**
-- Store credentials in plain text outside ~/zendesk/
+- Store credentials in plain text outside ~/Clawic/data/zendesk/
 - Send data to any service other than Zendesk
 - Access tickets without explicit user request
 
@@ -151,12 +164,12 @@ By using this skill, ticket and user data is sent to Zendesk's API.
 Only install if you have authorized Zendesk API access.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - REST API patterns
 - `customer-support` - Support best practices
 - `csv` - Export and analyze ticket data
 
 ## Feedback
 
-- If useful: `clawhub star zendesk`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/zendesk
+- Latest version: https://clawic.com/skills/zendesk

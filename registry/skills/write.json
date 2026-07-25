@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "735db59e09fa5ee0df6d76bdd3fbc9b3ebd7627a54c6477802167768a34dbf9b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "write",
-    "name": "Write",
+    "name": "write",
     "description": "Plan, draft, version, and refine written content with enforced versioning and quality audits.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/write",
     "summary": "Setup On first use, create workspace: ```bash ./scripts/init-workspace.sh ~/writing ``` Workflow ``` Request → Plan → Draft → Audit → Refine → Deliver ``` **Rules:** - Delegate all writing to sub-agents — main stays free",
     "repositoryPath": "skills/write",
     "manifestPath": "registry/skills/write.json"
@@ -20,87 +25,121 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/write/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/_meta.json",
+      "byteCount": 162,
+      "sha256": "a6c1645f930f96bd8f6bfa5df4fd5d1281019edb14ad95455584a5b0f04b47a3"
     },
     {
       "path": "audit.md",
       "downloadPath": "skills/write/audit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.md",
+      "byteCount": 1674,
+      "sha256": "48658a739df0e77b3fb3182334ab55d7c6778b20cf0ce81579c9e4b794b0835f"
     },
     {
       "path": "audit.sh",
       "downloadPath": "skills/write/audit.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/audit.sh",
+      "byteCount": 1855,
+      "sha256": "33cc6c2d838d53955652f5d350ce4974da2689921effb8bb9d258e8b72c088a8"
     },
     {
       "path": "brief.md",
       "downloadPath": "skills/write/brief.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/brief.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/brief.md",
+      "byteCount": 799,
+      "sha256": "3c7069bc0d32e68a152e61771959b4def9bddff34d3a8c349481d0a4717911c2"
     },
     {
       "path": "cleanup.sh",
       "downloadPath": "skills/write/cleanup.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/cleanup.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/cleanup.sh",
+      "byteCount": 1115,
+      "sha256": "88fa28ac611757fea8e371bc46ea44d3acbf61f1cc1a000cd19484b0fce7c29e"
     },
     {
       "path": "criteria.md",
       "downloadPath": "skills/write/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/criteria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/criteria.md",
+      "byteCount": 1161,
+      "sha256": "9101d62c4bc989ddec72645b1514e995a21e9e726938d18f290eeceff1d25db6"
     },
     {
       "path": "edit.sh",
       "downloadPath": "skills/write/edit.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/edit.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/edit.sh",
+      "byteCount": 1521,
+      "sha256": "892511943872de7eb8998f1d57b5965738567562700d39d3f1cd3b04926e5c1f"
     },
     {
       "path": "execution.md",
       "downloadPath": "skills/write/execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/execution.md",
+      "byteCount": 1363,
+      "sha256": "771776f0436d4a19748f6add7fe081f7d6efb8d6a49b768a16b42fd638600b4e"
     },
     {
       "path": "init-workspace.sh",
       "downloadPath": "skills/write/init-workspace.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/init-workspace.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/init-workspace.sh",
+      "byteCount": 590,
+      "sha256": "d70685d69b9abcf1c1f91cd3865ca3ebfc00778680201dd6b6621afea7c78220"
     },
     {
       "path": "list.sh",
       "downloadPath": "skills/write/list.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/list.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/list.sh",
+      "byteCount": 999,
+      "sha256": "8dd311ba25fa68420d504d4872872e848616e84b2d913112ad10308336015c85"
     },
     {
       "path": "new-piece.sh",
       "downloadPath": "skills/write/new-piece.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/new-piece.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/new-piece.sh",
+      "byteCount": 1430,
+      "sha256": "d9e2bfb8a4c75b35a4c6304aac916ee13590f93b1428c6376b82177a3f05c3d4"
     },
     {
       "path": "research.md",
       "downloadPath": "skills/write/research.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/research.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/research.md",
+      "byteCount": 1452,
+      "sha256": "b51dcf5cdb3223ca6b93f4a077009f0e4d21abc027b2306728ee79ac70e55c20"
     },
     {
       "path": "restore.sh",
       "downloadPath": "skills/write/restore.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/restore.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/restore.sh",
+      "byteCount": 1016,
+      "sha256": "35eca260ec5b699a4cb51404dfc5fcfa7db384a3254e1773b451a5ed45bf9753"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/write/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/SKILL.md",
+      "byteCount": 1948,
+      "sha256": "835e59c94c2b8bb4f7fac6e93ca156dad3706ddd334deb75fcff619e137332f2"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/write/state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/state.md",
+      "byteCount": 1590,
+      "sha256": "beef49c900ce869f035447ae07cb77e14906170a73c430ee34e669bacf06bb0e"
     },
     {
       "path": "verification.md",
       "downloadPath": "skills/write/verification.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/verification.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/verification.md",
+      "byteCount": 1301,
+      "sha256": "e19458e5656e40a5d87aece7df0a12faa0d0ad0f5d8c7fc01d61031ac9f3bf0b"
     },
     {
       "path": "versioning.md",
       "downloadPath": "skills/write/versioning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/versioning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/write/versioning.md",
+      "byteCount": 1267,
+      "sha256": "ed454201d21c9579308e72eaebfc8d1eafdb5a5d9223e885d34b9d0b9cfea275"
     }
   ]
 }

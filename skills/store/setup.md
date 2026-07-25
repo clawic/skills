@@ -1,6 +1,6 @@
 # Setup - Store
 
-Read this silently when `~/store/` is missing or empty.
+Read this silently when `~/Clawic/data/store/` is missing or empty.
 Start naturally and help with the current store problem first.
 
 ## Your Attitude

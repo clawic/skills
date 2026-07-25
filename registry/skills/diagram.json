@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "45c62fd6a91d3386cc018a60b38b63818890b05a708fa279ff4e546676277cbd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "diagram",
-    "name": "Diagram",
+    "name": "diagram",
     "description": "Generate diagrams from descriptions with Mermaid, PlantUML, or ASCII for architecture, flows, sequences, and data models.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/diagram",
     "summary": "Principle Diagrams should **clarify, not complicate**. Start simple, add detail only when needed. A 5-box flowchart beats a 50-node sprawl. When User Describes a System or Flow 1. **Identify diagram type** — Is this a fl",
     "repositoryPath": "skills/diagram",
     "manifestPath": "registry/skills/diagram.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/diagram/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diagram/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diagram/_meta.json",
+      "byteCount": 166,
+      "sha256": "2fb6e13b78e22e748772ed3f5a4b0af56e277d1a38ded76e41cc20e3a1f090e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/diagram/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diagram/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/diagram/SKILL.md",
+      "byteCount": 3309,
+      "sha256": "55e404c5d1b648c269cfdc46efdd8dccc5119163a0945eca1f543c503d96b4af"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ad545cccc5c8be35053d134cf1cbaa1db81a731e359893f721b366e857cb4e04",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "explain",
-    "name": "Explain",
+    "name": "explain",
     "description": "Learns how to explain things to your human. Adapts format, depth, and style by topic.",
     "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/explain",
     "summary": "Adaptive Explanation Preferences **Scope:** Human-facing explanations only. Track what lands and what misses. Quick Reference | File | Purpose | |------|---------| | `formats.md` | When bullets/prose/headers work or fail",
     "repositoryPath": "skills/explain",
     "manifestPath": "registry/skills/explain.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/explain/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/_meta.json",
+      "byteCount": 242,
+      "sha256": "ec69e3cba573eced7f1c490fbfbbc90522e48b09eb039c2742065e337e1db4fc"
     },
     {
       "path": "analogies.md",
       "downloadPath": "skills/explain/analogies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/analogies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/analogies.md",
+      "byteCount": 1900,
+      "sha256": "0f3dcd026754202bc9d8a1849c9ebc39d13da3558891e57cec6afdf68f62280e"
     },
     {
       "path": "depth.md",
       "downloadPath": "skills/explain/depth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/depth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/depth.md",
+      "byteCount": 1604,
+      "sha256": "a9d8c0aa94b19d46fb7f34f43f9505ab2f4996d1373e100e174cb6732d0a0644"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/explain/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/dimensions.md",
+      "byteCount": 1301,
+      "sha256": "e4621461543d36835b951f32308c9641d68662ee2ee70c1cda1992efc55556d0"
     },
     {
       "path": "domains.md",
       "downloadPath": "skills/explain/domains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/domains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/domains.md",
+      "byteCount": 1931,
+      "sha256": "7934d08453d3740c471a401f72127096fc464ed41f29c98718d09ac5d624066f"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/explain/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/formats.md",
+      "byteCount": 1615,
+      "sha256": "be2235588e1a8ed7a967648d84abb781a5e76c74c10583de1f6bf7a33c75e212"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/explain/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/explain/SKILL.md",
+      "byteCount": 2104,
+      "sha256": "0afd5807fcbff9bd591316333dfef22ba4ca82448a59ee0f0bf1cab0e1fb1212"
     }
   ]
 }

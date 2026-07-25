@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "566b163db261f72142ac9de0a543f9ecb5f8cc8d057cf6ae2e50a84dc1411996",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "estonian",
-    "name": "Estonian",
+    "name": "estonian",
     "description": "Write Estonian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/estonian",
     "summary": "The Real Problem AI Estonian is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with particles and understated tone. Match that. Formality Default Default register is too high. ",
     "repositoryPath": "skills/estonian",
     "manifestPath": "registry/skills/estonian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/estonian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/estonian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/estonian/_meta.json",
+      "byteCount": 168,
+      "sha256": "ca04d47c1a4c9d4c5ad1673299e0412c6f85bb015cc130cd3d85fae9f601de39"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/estonian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/estonian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/estonian/SKILL.md",
+      "byteCount": 1934,
+      "sha256": "0ae4da17363a89a1f5bb4e280f69e9ead61332391c9275daa8272abfea7f96a5"
     }
   ]
 }

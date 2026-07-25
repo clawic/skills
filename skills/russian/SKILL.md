@@ -1,6 +1,13 @@
 ---
-name: Russian
+name: russian
+slug: russian
+version: 1.0.0
 description: Write Russian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/russian
+metadata:
+  clawdbot:
+    emoji: 🇷🇺
+    displayName: Russian
 ---
 
 ## The Real Problem

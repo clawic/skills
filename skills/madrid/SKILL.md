@@ -1,9 +1,19 @@
 ---
-name: Madrid
+name: madrid
 slug: madrid
 version: 1.0.0
 description: Navigate Madrid as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.
-metadata: {"clawdbot":{"emoji":"🇪🇸","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/madrid
+metadata:
+  clawdbot:
+    emoji: 🇪🇸
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Madrid
 ---
 
 ## When to Use

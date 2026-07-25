@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e322123fdcc0bb274e4a0ca9caf95bf0537eef54af4b0fe95f580683d84aa5db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "font-awesome",
-    "name": "Font Awesome",
+    "name": "font-awesome",
     "description": "Add Font Awesome icons to web projects with CDN, npm, React, and SVG sprite methods.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/font-awesome",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/font-awesome/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/_meta.json",
+      "byteCount": 176,
+      "sha256": "6ea170e88ee7de10a0eeee04f73640dfcbe149f73814d59c9d9a305c3d493a41"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/font-awesome/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/memory-template.md",
+      "byteCount": 595,
+      "sha256": "3bace527b979c124ecdac59b408624ebb63c13bf718bcf44d78686dbd7f54f5c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/font-awesome/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/setup.md",
+      "byteCount": 1294,
+      "sha256": "dd4d753400b15e9b7b7b9897b6d1296b9a096cdca905448825e26ddf449774ea"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/font-awesome/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/font-awesome/SKILL.md",
+      "byteCount": 6701,
+      "sha256": "01e54a5b620f5ace646c0741b468282e41a63b32186c2b580258f70779282548"
     }
   ]
 }

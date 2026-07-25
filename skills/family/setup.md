@@ -1,6 +1,6 @@
 # Setup - Family
 
-Read this silently when `~/family/` is missing or empty.
+Read this silently when `~/Clawic/data/family/` is missing or empty.
 Start by helping with the immediate family need first, then shape the system around what the household actually needs.
 
 ## Your Attitude

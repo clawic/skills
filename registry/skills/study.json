@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d7df35c0fc48844467bc9cb4bee5cd9d07824257db433e23cc815777f8ce91a0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "study",
-    "name": "Study",
+    "name": "study",
     "description": "Structure study sessions, manage materials, and prepare for exams with active recall techniques.",
     "version": "1.0.1",
-    "summary": "Data Storage ``` ~/study/ ├── subjects/ # One folder per subject │ └── {subject}/ │ ├── materials/ # PDFs, notes, resources │ ├── flashcards.json │ ├── schedule.md │ └── progress.md ├── calendar/ # Exam dates, deadlines ",
+    "homepage": "https://clawic.com/skills/study",
+    "summary": "Data Storage ``` ~/Clawic/data/study/ ├── subjects/ # One folder per subject │ └── {subject}/ │ ├── materials/ # PDFs, notes, resources │ ├── flashcards.json │ ├── schedule.md │ └── progress.md ├── calendar/ # Exam dates",
     "repositoryPath": "skills/study",
     "manifestPath": "registry/skills/study.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/study/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/_meta.json",
+      "byteCount": 238,
+      "sha256": "e007eb35a5245be96beec917a1bf24f7fbadab54bbbd5348099ee89e78c8425d"
     },
     {
       "path": "exams.md",
       "downloadPath": "skills/study/exams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/exams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/exams.md",
+      "byteCount": 1728,
+      "sha256": "383c0f7ef557c4067f6a5287bf40916cc484f9b055cf2b214e2f9ead66100648"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/study/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/SKILL.md",
+      "byteCount": 2772,
+      "sha256": "9698c27b0cc5bad97ac90ccc9d9e0587dab1b22ecb13dd01b3f86f773db54d71"
     },
     {
       "path": "subjects.md",
       "downloadPath": "skills/study/subjects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/subjects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/subjects.md",
+      "byteCount": 2018,
+      "sha256": "dcaed62207a4b05bb46979c80855f62e00e49b28acb3183c410cdabf14f9ca85"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/study/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/techniques.md",
+      "byteCount": 1701,
+      "sha256": "499881aa87633a57b561011407159d809ec430e12abe07ccbd802eb32866ced9"
     }
   ]
 }

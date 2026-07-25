@@ -1,7 +1,17 @@
 ---
-name: Windmill
+name: windmill
+slug: windmill
+version: 1.0.0
 description: Build automation workflows and internal tools with Windmill's code-first platform.
-metadata: {"clawdbot":{"emoji":"🌀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/windmill
+metadata:
+  clawdbot:
+    emoji: 🌀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Windmill
 ---
 
 ## Script Traps

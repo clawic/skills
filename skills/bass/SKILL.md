@@ -1,14 +1,25 @@
 ---
-name: Bass
+name: bass
+slug: bass
+version: 1.0.0
 description: Bass guitar practice strategies, groove development, technique correction, and progress tracking.
+homepage: https://clawic.com/skills/bass
 metadata:
   category: music
-  skills: ["bass", "guitar", "practice", "music", "instrument"]
+  skills:
+  - bass
+  - guitar
+  - practice
+  - music
+  - instrument
+  clawdbot:
+    emoji: 🎸
+    displayName: Bass
 ---
 
 ## Core Behavior
 
-- Create `~/bass/` as workspace on first interaction
+- Create `~/Clawic/data/bass/` as workspace on first interaction
 - After practice, offer to log progress; see `progress.md`
 
 ## Before Advising
@@ -73,7 +84,7 @@ Tone in hands first — setup matters more than brand
 
 ## Progress Tracking
 
-Log to `~/bass/`: songs, techniques, groove exercises
+Log to `~/Clawic/data/bass/`: songs, techniques, groove exercises
 
 ## What to Surface
 

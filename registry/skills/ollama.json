@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ea9b4be65b9990409b85569c13496cb249f83048f92335dd39454fa254974602",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "ollama",
-    "name": "Ollama",
+    "name": "ollama",
     "description": "Run, tune, and troubleshoot local Ollama models with reliable API patterns, Modelfiles, embeddings, and hardware-aware deployment workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/ollama",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ollama/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/_meta.json",
+      "byteCount": 164,
+      "sha256": "8df2827659c660e618db18d0a5851cc528bf7ac2708400b9ad10c6d87ff447ce"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/ollama/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/api-patterns.md",
+      "byteCount": 1707,
+      "sha256": "8ac93433fa987760cd9f1397a735a5b7a21aba0b98c1231cd40c25fc0d4b0886"
     },
     {
       "path": "embeddings-and-rag.md",
       "downloadPath": "skills/ollama/embeddings-and-rag.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/embeddings-and-rag.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/embeddings-and-rag.md",
+      "byteCount": 1394,
+      "sha256": "d66b2f514d4451c076616e03d75050475e18ec7b726621b832d3e611c5c09089"
     },
     {
       "path": "install-and-smoke-test.md",
       "downloadPath": "skills/ollama/install-and-smoke-test.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/install-and-smoke-test.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/install-and-smoke-test.md",
+      "byteCount": 1225,
+      "sha256": "be4943fa2bbe47a1157c749cec2fe0e710a05228adb4b9d9947de192a9383049"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/ollama/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/memory-template.md",
+      "byteCount": 1551,
+      "sha256": "3865bc54156bb4715ebeddffb46afb4d7df665b045dc2f6da877a0df7ad18eb4"
     },
     {
       "path": "modelfile-workflows.md",
       "downloadPath": "skills/ollama/modelfile-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/modelfile-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/modelfile-workflows.md",
+      "byteCount": 1388,
+      "sha256": "68fdb028f14479db96a7a86d45278c4e0117bd082a31fd9451354a23f76ba036"
     },
     {
       "path": "operations-and-performance.md",
       "downloadPath": "skills/ollama/operations-and-performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/operations-and-performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/operations-and-performance.md",
+      "byteCount": 1334,
+      "sha256": "2ef3b4b467a62a3a1575e72cd44255e71f8ad7265dc422dfdbabd63c8b63adcd"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/ollama/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/setup.md",
+      "byteCount": 2258,
+      "sha256": "c0927a314453d5622c2dd36e92dcdfd31fca0add4f04b42efb5d5531002cb9c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ollama/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/SKILL.md",
+      "byteCount": 10062,
+      "sha256": "56d05f8a158163c9a09a80d0a8bda1bdf69d5afcf555f7e1d97d619c00532563"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/ollama/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ollama/troubleshooting.md",
+      "byteCount": 1748,
+      "sha256": "b26eb550ab3947b7d41d0c6db32219b6cf660a75a6736de8f366aa6813370f85"
     }
   ]
 }

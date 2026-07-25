@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e7870dcb9ebcd8e8aaeb19f12ef928f9e62dc1bf8d335688f83cfa2503e8f528",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "testflight",
-    "name": "TestFlight",
+    "name": "testflight",
     "description": "Distribute iOS and macOS beta builds with TestFlight, tester management, and CI/CD automation.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/testflight",
@@ -22,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/testflight/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/_meta.json",
+      "byteCount": 172,
+      "sha256": "a64049c98ff9f9df4f4b951790ed82514d91186d87722fa34bf2366000da2611"
     },
     {
       "path": "ci-cd.md",
       "downloadPath": "skills/testflight/ci-cd.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/ci-cd.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/ci-cd.md",
+      "byteCount": 5149,
+      "sha256": "6b5c468e32422c999e88c55add2b815b393a3cb7a7e1f85c50bf4aa6bdab05e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/testflight/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/testflight/SKILL.md",
+      "byteCount": 3431,
+      "sha256": "f433aa280a518948ae9851d5957570c6bb8cac38b7bf62bde0d1baef7d78d718"
     }
   ]
 }

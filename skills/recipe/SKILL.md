@@ -1,7 +1,17 @@
 ---
-name: Recipes
+name: recipe
+slug: recipe
+version: 1.0.0
 description: Build a personal recipe collection with ingredients, scaling, and meal planning.
-metadata: {"clawdbot":{"emoji":"🍳","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/recipe
+metadata:
+  clawdbot:
+    emoji: 🍳
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Recipes
 ---
 
 ## Core Behavior

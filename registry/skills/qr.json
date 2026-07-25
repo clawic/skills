@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cf9b147bc396e4d73f535ebfc775429a811f2f294df47c15ac0775b5d7c168ab",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "qr",
-    "name": "QR",
+    "name": "qr",
     "description": "Generate, customize, and deploy QR codes with proper sizing, error correction, and use-case optimization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/qr",
     "summary": "Before Generating 1. **Choose correct type** — URL is not the only option. See `types.md` for vCard, WiFi, email, SMS, geo, etc. 2. **Shorten dynamic URLs** — Long URLs = dense codes = harder to scan. Use short links for",
     "repositoryPath": "skills/qr",
     "manifestPath": "registry/skills/qr.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/qr/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/_meta.json",
+      "byteCount": 156,
+      "sha256": "7adfddfc337d6cbaf8a2fb4be5c29e7d5236ae5993bc29d1d398f9604e1dd860"
     },
     {
       "path": "deployment.md",
       "downloadPath": "skills/qr/deployment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/deployment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/deployment.md",
+      "byteCount": 2579,
+      "sha256": "3faaf044e5371c02d3330af4cc62dac68a2b4715afde61c6d256791b52d96387"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/qr/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/SKILL.md",
+      "byteCount": 1995,
+      "sha256": "d3e9cb7b4154a5b36d2654e9c6976b65d02b0a19e3b7929d0ffa25faab4696c2"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/qr/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qr/types.md",
+      "byteCount": 1979,
+      "sha256": "a5ccfebeae770e8a3f89c6b500c2275f5a4981628d1f8f5b4952fa717cbea7d9"
     }
   ]
 }

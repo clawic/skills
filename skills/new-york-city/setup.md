@@ -1,6 +1,6 @@
 # Setup — New York City
 
-Read this when `~/new-york-city/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
+Read this when `~/Clawic/data/new-york-city/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ New York City questions usually hide one of four problems:
 
 Answer the user's question first whenever possible. Then gather only the next detail that improves the next step.
 
-This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/new-york-city/` or `memory.md`.
+This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/Clawic/data/new-york-city/` or `memory.md`.
 
 ## Priority Order
 
@@ -54,7 +54,7 @@ Pick up only the constraints that change future advice:
 
 ## What You're Saving (internally)
 
-Keep `~/new-york-city/memory.md` lightweight and useful:
+Keep `~/Clawic/data/new-york-city/memory.md` lightweight and useful:
 - activation preference for NYC topics
 - current mode and target borough or neighborhood
 - major deadlines, open loops, and dependencies

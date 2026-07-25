@@ -1,6 +1,6 @@
 # Setup — Whop
 
-Read this when `~/whop/` does not exist or is empty. Answer the user's immediate Whop question first, then start integrating naturally.
+Read this when `~/Clawic/data/whop/` does not exist or is empty. Answer the user's immediate Whop question first, then start integrating naturally.
 
 ## Your Attitude
 
@@ -8,7 +8,7 @@ Treat Whop work like live business operations on a platform that also has techni
 
 When money, memberships, disputes, or webhooks are involved, prefer the safest path that still answers the user's need. Sandbox-first applies to technical payment tests; dashboard strategy work can proceed without sandbox.
 
-If it helps the user, it is fine to mention that non-sensitive Whop notes live under `~/whop/`.
+If it helps the user, it is fine to mention that non-sensitive Whop notes live under `~/Clawic/data/whop/`.
 
 ## Priority Order
 

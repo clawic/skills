@@ -1,9 +1,19 @@
 ---
-name: Robot
+name: robot
 slug: robot
 version: 1.0.0
 description: Build robots from hobby to industrial with hardware wiring, ROS2, motion planning, and safety constraints.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/robot
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Robot
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs robotics help — Arduino/ESP32 wiring, ROS2 configuration, motor con
 
 ## Architecture
 
-Memory lives in `~/robot/` with tiered structure. See `memory-template.md` for initial setup.
+Memory lives in `~/Clawic/data/robot/` with tiered structure. See `memory-template.md` for initial setup.
 
 ```
-~/robot/
+~/Clawic/data/robot/
 ├── memory.md          # HOT: inventory + active project
 ├── inventory.md       # Hardware owned (boards, sensors, motors)
 ├── projects/          # Per-project configs and learnings
@@ -41,9 +51,9 @@ Memory lives in `~/robot/` with tiered structure. See `memory-template.md` for i
 
 ### 1. Check Memory First
 Before ANY recommendation:
-1. Read ~/robot/memory.md — what hardware does user have?
-2. Check ~/robot/projects/ — is there an active project?
-3. Check ~/robot/corrections.md — past failures to avoid?
+1. Read ~/Clawic/data/robot/memory.md — what hardware does user have?
+2. Check ~/Clawic/data/robot/projects/ — is there an active project?
+3. Check ~/Clawic/data/robot/corrections.md — past failures to avoid?
 
 ### 2. ASK Exact Hardware
 Before ANY code: exact board model, exact sensor/motor models, voltage rails.

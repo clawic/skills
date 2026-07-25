@@ -1,11 +1,18 @@
 ---
-name: Roleplay
+name: roleplay
+slug: roleplay
+version: 1.0.0
 description: Create persistent characters, run practice scenarios, and track progress across roleplay sessions with activation control and structured feedback.
+homepage: https://clawic.com/skills/roleplay
+metadata:
+  clawdbot:
+    emoji: 🎭
+    displayName: Roleplay
 ---
 
 ## Workspace
 
-Store all roleplay data in ~/roleplay/:
+Store all roleplay data in ~/Clawic/data/roleplay/:
 - **characters/** — Character profiles (one file per character)
 - **scenarios/** — Saved scenario templates
 - **sessions/** — Session logs and feedback

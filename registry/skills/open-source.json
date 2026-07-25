@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "47df2a0aa7f2551569f41cac8fe8a6f4b6a477e8668cd91c35d679c472af59aa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "open-source",
-    "name": "Open Source",
+    "name": "open-source",
     "description": "Find, evaluate, self-host, maintain, and publish open source projects with due diligence scoring, contributor workflows, and release governance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/open-source",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/open-source/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/_meta.json",
+      "byteCount": 174,
+      "sha256": "22a3265e283f4e4241022e10036be29f4461729aa185b2c882f8af4690ea64e1"
     },
     {
       "path": "discovery-framework.md",
       "downloadPath": "skills/open-source/discovery-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/discovery-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/discovery-framework.md",
+      "byteCount": 1447,
+      "sha256": "55bc675ad9c61acc77c10e01ba00ce1d273087bc198d381aa00f8b61cd543d45"
     },
     {
       "path": "maintainer-ops.md",
       "downloadPath": "skills/open-source/maintainer-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/maintainer-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/maintainer-ops.md",
+      "byteCount": 1236,
+      "sha256": "abcd652ab7590886c4e33fddcfabf1e93795a845d5a0a04b5dbe94013602aa73"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/open-source/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/memory-template.md",
+      "byteCount": 864,
+      "sha256": "be3468dd64b088b8c70f2f046fda56d1d7e7f4db99a3786ba5769352ee3c0508"
     },
     {
       "path": "publishing-playbook.md",
       "downloadPath": "skills/open-source/publishing-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/publishing-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/publishing-playbook.md",
+      "byteCount": 1250,
+      "sha256": "98aad57379237fa5bfd3a689ca5df7eb8f39ef037c717579df236413e32e2d76"
     },
     {
       "path": "self-host-screen.md",
       "downloadPath": "skills/open-source/self-host-screen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/self-host-screen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/self-host-screen.md",
+      "byteCount": 1304,
+      "sha256": "93a98a9c84d8b89ad0d390c89c940a8c5c0475bbfcd8cb495553f3374718d835"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/open-source/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/setup.md",
+      "byteCount": 1502,
+      "sha256": "3ae52495fcbba8793fece1312c8c5a24236deb14d239860cb9b57fceb269db3b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/open-source/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-source/SKILL.md",
+      "byteCount": 5445,
+      "sha256": "2440be5c16e9136b09fca72e5282f97f6ea1d5e6879fd3b9a8c9780e059943dc"
     }
   ]
 }

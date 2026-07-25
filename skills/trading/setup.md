@@ -20,7 +20,7 @@ mkdir -p ~/trading
 
 ### 3. Initialize Memory (Optional)
 
-Create `~/trading/memory.md` using the template in `memory-template.md`.
+Create `~/Clawic/data/trading/memory.md` using the template in `memory-template.md`.
 
 ## Configuration
 

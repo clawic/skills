@@ -1,6 +1,6 @@
 # Memory Template — Excel / XLSX
 
-Create `~/excel-xlsx/memory.md` with this structure:
+Create `~/Clawic/data/excel-xlsx/memory.md` with this structure:
 
 ```markdown
 # Excel / XLSX Memory

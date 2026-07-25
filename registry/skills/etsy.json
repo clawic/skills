@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1adee6f8f6010f340583829ace57bd83fe4c7e822b2cdfd74697e3445219a3ca",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "etsy",
-    "name": "Etsy",
+    "name": "etsy",
     "description": "Improve Etsy listings with buyer-intent keywords, margin-safe pricing checks, and structured experiments that raise qualified traffic and conversion.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/etsy",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/etsy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/_meta.json",
+      "byteCount": 160,
+      "sha256": "f6eb1d5a180329d3c1de55280c610208dd9522a9922d789a9860f2d6ca882059"
     },
     {
       "path": "listing-audit-playbook.md",
       "downloadPath": "skills/etsy/listing-audit-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/listing-audit-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/listing-audit-playbook.md",
+      "byteCount": 1824,
+      "sha256": "2b37de0df7ace127d00561486f9238198ae2dc4da3a1574f60981f90a03c9c33"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/etsy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/memory-template.md",
+      "byteCount": 1718,
+      "sha256": "72f4e84649bfd035bbf13edf7d260c35cbd60eaf7d47c2dafcb2bed8d19c56c6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/etsy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/setup.md",
+      "byteCount": 1802,
+      "sha256": "e4e70f6e24161fa10d909b98819172cbe601af470671548cc02810f2189fb6d5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/etsy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/etsy/SKILL.md",
+      "byteCount": 4841,
+      "sha256": "d26c077d02387e883a2a126583fd6d7776e57625815cdc95215d18e28222ff96"
     }
   ]
 }

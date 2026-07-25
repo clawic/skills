@@ -1,11 +1,28 @@
 ---
-name: Expedia
+name: expedia
 slug: expedia
 version: 1.0.0
-homepage: https://clawic.com/skills/expedia
 description: Search Expedia stays, packages, cars, and activities, compare real trip costs, and run partner-safe booking workflows with web and API modes.
+homepage: https://clawic.com/skills/expedia
 changelog: Initial release with Expedia trip comparison, booking-safety checks, total-cost guidance, and partner workflow support.
-metadata: {"clawdbot":{"emoji":"🧳","requires":{"bins":["curl","jq","openssl","xxd"],"config":["~/expedia/"]},"os":["linux","darwin","win32"],"configPaths":["~/expedia/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧳
+    requires:
+      bins:
+      - curl
+      - jq
+      - openssl
+      - xxd
+      config:
+      - ~/Clawic/data/expedia/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/expedia/
+    displayName: Expedia
 ---
 
 ## When to Use
@@ -16,10 +33,10 @@ Use this skill when Expedia-specific inventory, packaging logic, deeplink behavi
 
 ## Architecture
 
-Memory lives in `~/expedia/`. If `~/expedia/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/expedia/`. If `~/Clawic/data/expedia/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/expedia/
+~/Clawic/data/expedia/
 ├── memory.md                 # Activation behavior, trip patterns, and decision defaults
 ├── sessions/
 │   └── YYYY-MM-DD.md         # Current search context and shortlisted options
@@ -92,7 +109,7 @@ This skill is designed for Expedia-specific work that usually fails when an agen
 - When flight complexity dominates the decision, hand off the route logic to `flights`.
 
 ### 6. Keep storage minimal and redacted
-- Store reusable filters, accepted or rejected option patterns, and confirmed booking deadlines in `~/expedia/`.
+- Store reusable filters, accepted or rejected option patterns, and confirmed booking deadlines in `~/Clawic/data/expedia/`.
 - Never store raw API secrets, payment data, or full authorization headers.
 - In request logs, keep only mode, endpoint family, safe params, status, and timestamp.
 
@@ -126,7 +143,7 @@ Data that may leave your machine:
 - destination queries, travel dates, traveler counts, and optional partner search parameters sent to Expedia services
 
 Data that stays local:
-- shortlist notes, booking gates, recurring defaults, and redacted request logs in `~/expedia/`
+- shortlist notes, booking gates, recurring defaults, and redacted request logs in `~/Clawic/data/expedia/`
 
 This skill does NOT:
 - store API keys, shared secrets, or payment details in markdown files
@@ -153,7 +170,7 @@ This skill NEVER:
 - hide stale data, fee uncertainty, or package tradeoffs
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `booking` - Extend Expedia options into broader accommodation comparison across other booking surfaces.
 - `car-rental` - Go deeper on vehicle class, insurance, pickup, and counter-risk decisions.
 - `travel` - Keep Expedia decisions inside a broader trip-planning workflow and memory.
@@ -162,5 +179,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star expedia`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/expedia
+- Latest version: https://clawic.com/skills/expedia

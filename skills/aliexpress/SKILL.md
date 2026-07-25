@@ -1,9 +1,19 @@
 ---
-name: Aliexpress
+name: aliexpress
 slug: aliexpress
 version: 1.0.0
 description: Navigate Aliexpress as buyer, seller, or dropshipper with vendor evaluation, price comparison, and scam detection.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/aliexpress
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Aliexpress
 ---
 
 ## When to Use

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "18ea6f0c6cd9381dced2de47ad88d963ea62e584eb7fd229a3ad9729d0a6221d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "storytelling",
-    "name": "Storytelling",
+    "name": "storytelling",
     "description": "Craft clear, emotionally resonant stories with audience-first framing, narrative arc control, and channel-specific rewrites.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/storytelling",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/storytelling/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/_meta.json",
+      "byteCount": 176,
+      "sha256": "e49ad3f1ff6ac6f88600953f0bfde767863c451551885f9261ae8b870dc46aae"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/storytelling/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/memory-template.md",
+      "byteCount": 1583,
+      "sha256": "522dca25c20606e9a44aa4988fdcbfdd66c892f37dad1c4f5a7d8bdfbd4756af"
     },
     {
       "path": "rewrite-modes.md",
       "downloadPath": "skills/storytelling/rewrite-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/rewrite-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/rewrite-modes.md",
+      "byteCount": 1160,
+      "sha256": "8fea36f32e49bc10dd6ac8c12a35e07949bbfef6eac84e7cda29b67fdfff131f"
     },
     {
       "path": "scene-design.md",
       "downloadPath": "skills/storytelling/scene-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/scene-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/scene-design.md",
+      "byteCount": 973,
+      "sha256": "cf06427729183bc8ad35be1bfebed4ee426770c61d9a5a55178050f35a510951"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/storytelling/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/setup.md",
+      "byteCount": 2113,
+      "sha256": "63ce77a32fc9e09e8ad68dc697cd271f8c90c6687b29dd9aee51d5e092cedc6d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/storytelling/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/SKILL.md",
+      "byteCount": 6254,
+      "sha256": "cc1020ef2ab27ade81bebecbd0c35867697ff442fe41fd1086274beb924283d0"
     },
     {
       "path": "story-arc-map.md",
       "downloadPath": "skills/storytelling/story-arc-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/story-arc-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/story-arc-map.md",
+      "byteCount": 1150,
+      "sha256": "3fed16dc38b9ab2d45ecc90580f17bddcbd0fa15f5a05799e372702e5c47086a"
     },
     {
       "path": "voice-consistency.md",
       "downloadPath": "skills/storytelling/voice-consistency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/voice-consistency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storytelling/voice-consistency.md",
+      "byteCount": 969,
+      "sha256": "9ecb90c9668bcea500e723c32fdbc2fe64c14258c045166afc96d4ea6d285613"
     }
   ]
 }

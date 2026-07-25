@@ -1,6 +1,6 @@
 # Memory Template - Chat Rooom
 
-Create `~/chat-rooom/memory.md` with this structure:
+Create `~/Clawic/data/chat-rooom/memory.md` with this structure:
 
 ```markdown
 # Chat Rooom Memory
@@ -31,7 +31,7 @@ integration: pending
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/chat-rooom/rooms.md`:
+Create `~/Clawic/data/chat-rooom/rooms.md`:
 
 ```markdown
 # Recent Rooms

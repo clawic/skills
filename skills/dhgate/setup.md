@@ -1,6 +1,6 @@
 # Setup - DHgate
 
-Read this silently when `~/dhgate/` is missing or empty.
+Read this silently when `~/Clawic/data/dhgate/` is missing or empty.
 Start naturally and help with the live sourcing or order problem first.
 
 ## Your Attitude

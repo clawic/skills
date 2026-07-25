@@ -44,7 +44,7 @@ Only go deeper if useful:
 
 ## What You're Saving Internally
 
-Create `~/indonesia/` only when the user is clearly planning an Indonesia trip beyond a one-off answer and continuity would help. Keep one light planning record there.
+Create `~/Clawic/data/indonesia/` only when the user is clearly planning an Indonesia trip beyond a one-off answer and continuity would help. Keep one light planning record there.
 
 Save:
 

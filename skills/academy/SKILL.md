@@ -1,11 +1,22 @@
 ---
-name: Academy
+name: academy
 slug: academy
 version: 1.0.0
+description: Run academies with enrollment, scheduling, staffing, billing, retention, and student outcome systems.
 homepage: https://clawic.com/skills/academy
-description: "Run academies with enrollment, scheduling, staffing, billing, retention, and student outcome systems."
-changelog: "Initial release with academy operations for admissions, delivery, staffing, finance, and retention."
-metadata: {"clawdbot":{"emoji":"🏫","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/academy/"]}}
+changelog: Initial release with academy operations for admissions, delivery, staffing, finance, and retention.
+metadata:
+  clawdbot:
+    emoji: 🏫
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/academy/
+    displayName: Academy
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ It is for operating the business end-to-end: demand generation, admissions, capa
 
 ## Architecture
 
-Memory lives in `~/academy/`. If `~/academy/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/academy/`. If `~/Clawic/data/academy/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/academy/
+~/Clawic/data/academy/
 ├── memory.md            # HOT: model, term goals, constraints, active priorities
 ├── admissions.md        # Funnel targets, offers, follow-up rules, objections
 ├── cohorts.md           # Programs, calendars, room/capacity plans
@@ -129,7 +140,7 @@ Adjust:
 - Nothing by default. This skill is an operating playbook and local memory system.
 
 **Data that stays local:**
-- Academy model, programs, staffing notes, student-risk observations, and KPI summaries in `~/academy/`.
+- Academy model, programs, staffing notes, student-risk observations, and KPI summaries in `~/Clawic/data/academy/`.
 
 **This skill does NOT:**
 - Access payment processors, email, calendars, or CRMs automatically.
@@ -138,7 +149,7 @@ Adjust:
 - Modify its own skill files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `course` — create and operate structured programs and learning products.
 - `crm` — manage leads, contacts, follow-up history, and pipeline discipline.
 - `booking` — handle availability logic, scheduling tradeoffs, and reservation-style workflows.
@@ -147,5 +158,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star academy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/academy
+- Latest version: https://clawic.com/skills/academy

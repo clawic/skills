@@ -1,7 +1,17 @@
 ---
-name: LaTeX
+name: latex
+slug: latex
+version: 1.0.0
 description: Write LaTeX documents with correct syntax, packages, and compilation workflow.
-metadata: {"clawdbot":{"emoji":"📐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/latex
+metadata:
+  clawdbot:
+    emoji: 📐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: LaTeX
 ---
 
 ## Special Characters

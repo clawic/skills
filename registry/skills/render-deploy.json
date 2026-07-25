@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "04bb5a2d6ec872a11d29fd4b15a6a9d6b40851a1dd3fec3b4e1c2ca531496be7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "render-deploy",
-    "name": "Render Deploy",
+    "name": "render-deploy",
     "description": "Deploy applications on Render with codebase analysis, render.yaml Blueprint generation, MCP direct provisioning, and post-deploy verification.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/render-deploy",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/render-deploy/`. When to Use Use this skill when the user wants to deploy, publish, or host an",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/Clawic/data/render-deploy/`. When to Use Use this skill when the user wants to deploy, publish",
     "repositoryPath": "skills/render-deploy",
     "manifestPath": "registry/skills/render-deploy.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/render-deploy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/_meta.json",
+      "byteCount": 178,
+      "sha256": "9cf5e557079c7216ccfe08842b72468a67deb698baa4e28ee29ca4f99a75d49b"
     },
     {
       "path": "blueprint-workflow.md",
       "downloadPath": "skills/render-deploy/blueprint-workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/blueprint-workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/blueprint-workflow.md",
+      "byteCount": 1268,
+      "sha256": "8ee99d679280608abdecb1b2517bc80f221ec79ef930b13f6eb6342e5671755d"
     },
     {
       "path": "codebase-analysis.md",
       "downloadPath": "skills/render-deploy/codebase-analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/codebase-analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/codebase-analysis.md",
+      "byteCount": 1501,
+      "sha256": "0741c791a23134ff01d7e96c24c51301ffc83d58c0eb4219fcb287d16814f3f6"
     },
     {
       "path": "direct-creation.md",
       "downloadPath": "skills/render-deploy/direct-creation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/direct-creation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/direct-creation.md",
+      "byteCount": 1750,
+      "sha256": "7861bc98293cf441dfdbc0c0a3e856c062fc983fc30cb378b47ed8dea9dec6c4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/render-deploy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/memory-template.md",
+      "byteCount": 2040,
+      "sha256": "49724d73c09cd77b0e63443888c0218cb686e9f98eb7d40bfaef8601fe8efb47"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/render-deploy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/setup.md",
+      "byteCount": 1703,
+      "sha256": "fabc6944138bde4738894aec9dd313282c81fed3e0a0e0dbc4e88a681c7fbd51"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/render-deploy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/SKILL.md",
+      "byteCount": 6903,
+      "sha256": "8f69b76730b9fd857cbcfdad080294ba23a78334c7a87beb16bd5fe9ebaba7ca"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/render-deploy/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/render-deploy/troubleshooting.md",
+      "byteCount": 1179,
+      "sha256": "4b04d4eb09fa53609c5beab761b8c8d01280f6b870ff290852256d3d5e0918cf"
     }
   ]
 }

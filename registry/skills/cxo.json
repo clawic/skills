@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e50cc9842a45796d72589ba2c5e94f039581c0599dc65cf3ef213b746318273",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cxo",
-    "name": "CXO / Chief Experience Officer",
+    "name": "cxo",
     "description": "Lead customer experience with journey mapping, voice of customer programs, service design, and experience metrics.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cxo",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cxo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/_meta.json",
+      "byteCount": 261,
+      "sha256": "75dad2e2751f9c4c5be7d357f05ebe5fd4af01a96f03dd32f8ca176d46561d67"
     },
     {
       "path": "employee-experience.md",
       "downloadPath": "skills/cxo/employee-experience.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/employee-experience.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/employee-experience.md",
+      "byteCount": 3759,
+      "sha256": "2bfbde2cd6beca123ce29adaa46c6e37f07c15856d0fa5d2d310d815fc2a58c1"
     },
     {
       "path": "journey.md",
       "downloadPath": "skills/cxo/journey.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/journey.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/journey.md",
+      "byteCount": 2846,
+      "sha256": "48db48733af25c695f630e8d5f40deed9b8abfa0d0d41938bc79f03bc200b27e"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/cxo/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/metrics.md",
+      "byteCount": 3142,
+      "sha256": "9e67dac6a9ea2365d58338d8a040d6777644f9169a5dee370372f9269f24286a"
     },
     {
       "path": "service-design.md",
       "downloadPath": "skills/cxo/service-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/service-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/service-design.md",
+      "byteCount": 3504,
+      "sha256": "e96f5ed63fa7228f4738404e31f7e386b3c0efa23ead39a8bbdc13173bc08987"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cxo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cxo/SKILL.md",
+      "byteCount": 3247,
+      "sha256": "773292e34134a36b7978cef6b0f1f37086f2e85ceaeca0885d8c640dd4bfaa9d"
     }
   ]
 }

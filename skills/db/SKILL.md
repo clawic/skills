@@ -1,7 +1,17 @@
 ---
-name: Database
+name: db
+slug: db
+version: 1.0.0
 description: Design and operate databases avoiding common scaling, reliability, and data integrity traps.
-metadata: {"clawdbot":{"emoji":"🗃️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/db
+metadata:
+  clawdbot:
+    emoji: 🗃️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Database
 ---
 
 # Database Gotchas

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d09c73944c3ca25a36a695b4e45544ff6320f08a5c8b5463aa26b81c6dd5a413",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "keys",
-    "name": "Keys",
+    "name": "keys",
     "description": "Secure API key management with broker. Keys never exposed to agent context.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/keys",
     "summary": "Usage Make authenticated API calls without seeing the key: ```bash keys-broker call '{\"action\":\"call\",\"service\":\"openai\",\"url\":\"https://api.openai.com/v1/chat/completions\",\"method\":\"POST\",\"body\":{\"model\":\"gpt-4\",\"message",
     "repositoryPath": "skills/keys",
     "manifestPath": "registry/skills/keys.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/keys/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/_meta.json",
+      "byteCount": 160,
+      "sha256": "fa0e92c038d15c1047faf5845ec44202d6dd869c46268bd4dbd150e3bb7217db"
     },
     {
       "path": "keys-broker.sh",
       "downloadPath": "skills/keys/keys-broker.sh",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/keys-broker.sh"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/keys-broker.sh",
+      "byteCount": 7300,
+      "sha256": "d4ae5fa71aaee55d6f80464b5f5f7eb2d0c608cca1dfc86c523b568da8981e57"
     },
     {
       "path": "manage.md",
       "downloadPath": "skills/keys/manage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/manage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/manage.md",
+      "byteCount": 1630,
+      "sha256": "5b3bc54f2217fb6235ae5043f1919859ea743c2ed566eb4c9acd57839b90b180"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/keys/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/setup.md",
+      "byteCount": 1542,
+      "sha256": "be3f987212f38d549aafc6511c432f66c497accfb09167db704bcccce26b05c3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/keys/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keys/SKILL.md",
+      "byteCount": 1344,
+      "sha256": "6709076e3edf0106ebcc44e22d20f14207e317d288549ceb6c0d98f9c7de2736"
     }
   ]
 }

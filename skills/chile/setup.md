@@ -10,7 +10,7 @@ mkdir -p ~/chile
 ```
 
 ### 2. Initialize Memory File
-Create `~/chile/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/chile/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Reservation pressure: okay with fixed bookings, or prefers flexibility?
 
 ### 4. Save to Memory
-Update `~/chile/memory.md` with the current intent, constraints, and decision status.
+Update `~/Clawic/data/chile/memory.md` with the current intent, constraints, and decision status.
 
 ## Returning Users
 
-If `~/chile/memory.md` exists:
+If `~/Clawic/data/chile/memory.md` exists:
 1. Read it silently
 2. Reuse known constraints and preferences
 3. Ask only what changed: dates, region focus, budget, mobility, or trekking appetite

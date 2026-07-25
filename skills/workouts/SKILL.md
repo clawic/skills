@@ -1,14 +1,24 @@
 ---
-name: Workouts
+name: workouts
+slug: workouts
+version: 1.0.0
 description: Build a personal workout tracking system with exercises, routines, progression, and PRs.
-metadata: {"clawdbot":{"emoji":"💪","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/workouts
+metadata:
+  clawdbot:
+    emoji: 💪
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Workouts
 ---
 
 ## Core Behavior
 - User logs a workout → record exercises, sets, reps, weight
 - Track progression → surface PRs, trends, plateaus
 - Suggest based on history → "last time you did 3x8 at 60kg"
-- Create `~/workouts/` as workspace
+- Create `~/Clawic/data/workouts/` as workspace
 
 ## When User Logs a Workout
 - Date and type: strength, cardio, flexibility, sport
@@ -40,7 +50,7 @@ Build personal exercise list over time:
 
 ## Routine/Program Structure
 ```
-~/workouts/
+~/Clawic/data/workouts/
 ├── logs/
 │   ├── 2024-03-15.md
 │   └── 2024-03-17.md

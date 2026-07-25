@@ -1,11 +1,24 @@
 ---
-name: New York (State)
+name: new-york
 slug: new-york
 version: 1.0.1
-homepage: https://clawic.com/skills/new-york
 description: Navigate New York State for living, moving, working, and visiting with region fit, taxes, winter risk, and daily logistics.
-changelog: "Expanded the skill into statewide New York guidance with regional tradeoffs, resident workflows, and practical travel planning."
-metadata: {"clawdbot":{"emoji":"🍎","requires":{"bins":[],"config":["~/new-york/"]},"os":["linux","darwin","win32"],"configPaths":["~/new-york/"]}}
+homepage: https://clawic.com/skills/new-york
+changelog: Expanded the skill into statewide New York guidance with regional tradeoffs, resident workflows, and practical travel planning.
+metadata:
+  clawdbot:
+    emoji: 🍎
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/new-york/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/new-york/
+    displayName: New York (State)
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for four modes: visiting New York State, moving to Ne
 
 ## Architecture
 
-This skill works statelessly for one-off New York questions. If the user wants continuity across sessions, memory lives in `~/new-york/`. If `~/new-york/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off New York questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/new-york/`. If `~/Clawic/data/new-york/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/new-york/
+~/Clawic/data/new-york/
 └── memory.md     # User context, region, timelines, constraints, and open loops
 ```
 
@@ -75,7 +88,7 @@ This skill works statelessly for one-off New York questions. If the user wants c
 - New York users often need deadlines, documents, portals, and tradeoffs.
 - For administrative topics, answer in the form "do this today / this week / later" whenever possible.
 - For relocation and regional questions, show why one corridor or metro fits better than another.
-- Before creating or changing local files in `~/new-york/`, explain the planned write and ask for confirmation.
+- Before creating or changing local files in `~/Clawic/data/new-york/`, explain the planned write and ask for confirmation.
 
 ### 7. Use Official Sources for Unstable Rules
 - DMV steps, tax credits, school boundaries, health-plan options, and utility rules can change.
@@ -113,7 +126,7 @@ No other data is sent externally.
 - ZIP, county, district, or region data only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/new-york/`
+- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/Clawic/data/new-york/`
 
 **This skill does NOT:**
 - Submit government forms on the user's behalf without explicit instruction
@@ -127,7 +140,7 @@ By using this skill, location details such as ZIP, county, or district may be ch
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General itinerary design and travel planning structure
 - `booking` — Reservation workflows for flights, hotels, and schedule holds
 - `business` — Broader business operations guidance beyond New York-specific rules
@@ -136,5 +149,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star new-york`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/new-york
+- Latest version: https://clawic.com/skills/new-york

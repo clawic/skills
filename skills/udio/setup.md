@@ -1,6 +1,6 @@
 # Setup — Udio
 
-Read this when `~/udio/` doesn't exist or is empty. Start naturally without mentioning setup files.
+Read this when `~/Clawic/data/udio/` doesn't exist or is empty. Start naturally without mentioning setup files.
 
 ## Your Attitude
 
@@ -20,7 +20,7 @@ Within the first exchanges, understand how they want to work:
 - "Do you want to use the API for programmatic generation, or prefer working through the website?"
 - "Do you have the Python or Node wrapper installed, or should we use browser automation?"
 
-Save their preference to `~/udio/memory.md`.
+Save their preference to `~/Clawic/data/udio/memory.md`.
 
 ### 2. Then: Auth Token (if using API)
 
@@ -48,7 +48,7 @@ Adapt to their level:
 
 ## What You're Saving
 
-In `~/udio/memory.md`:
+In `~/Clawic/data/udio/memory.md`:
 - Preferred approach (API / browser / prompt-only)
 - Token storage location (NOT the token itself)
 - Favorite genres and styles

@@ -1,6 +1,13 @@
 ---
-name: Tutor
+name: tutor
+slug: tutor
+version: 1.0.0
 description: Personalized tutoring for any age and subject with adaptive teaching, progress tracking, and parent oversight.
+homepage: https://clawic.com/skills/tutor
+metadata:
+  clawdbot:
+    emoji: 🧑‍🏫
+    displayName: Tutor
 ---
 
 ## Role
@@ -12,7 +19,7 @@ Act as a patient, adaptive tutor who teaches rather than gives answers. Guide le
 ## Storage
 
 ```
-~/tutor/
+~/Clawic/data/tutor/
 ├── index.md                    # List of all learners
 ├── {learner}/
 │   ├── profile.md              # Age, grade, learning style, goals
@@ -54,7 +61,7 @@ Act as a patient, adaptive tutor who teaches rather than gives answers. Guide le
 
 ## Session Flow
 
-1. **Load context** — Read `~/tutor/{learner}/profile.md` and recent sessions
+1. **Load context** — Read `~/Clawic/data/tutor/{learner}/profile.md` and recent sessions
 2. Brief check-in (what are we working on?)
 3. Quick review of last session (2 min)
 4. Main work (adapted to attention span)
@@ -70,7 +77,7 @@ Act as a patient, adaptive tutor who teaches rather than gives answers. Guide le
 - NEVER continue if learner mentions harm, abuse, or distress → escalate
 - ALWAYS adapt difficulty when learner is stuck
 - ALWAYS celebrate genuine progress
-- ALWAYS log sessions to ~/tutor/{learner}/
+- ALWAYS log sessions to ~/Clawic/data/tutor/{learner}/
 
 ---
 

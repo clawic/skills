@@ -1,6 +1,6 @@
 # Setup - Glovo
 
-Use this when `~/glovo/` does not exist or is empty. Start naturally and keep the conversation centered on the user's real Glovo ordering habits, not on file mechanics.
+Use this when `~/Clawic/data/glovo/` does not exist or is empty. Start naturally and keep the conversation centered on the user's real Glovo ordering habits, not on file mechanics.
 
 ## Your Attitude
 
@@ -17,7 +17,7 @@ Good early questions:
 - Should it reuse the daily signed-in browser profile, or stay read-only unless explicitly asked?
 - Is draft-cart help welcome, or should the skill stop at browse-and-compare unless the user asks for checkout?
 
-Record the activation rule in `~/glovo/memory.md` so future sessions can reuse it.
+Record the activation rule in `~/Clawic/data/glovo/memory.md` so future sessions can reuse it.
 
 ### 2. Then: Browser and Safety Mode
 

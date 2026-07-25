@@ -1,10 +1,23 @@
 ---
-name: App Store Connect
+name: app-store-connect
 slug: app-store-connect
 version: 1.0.0
-homepage: https://clawic.com/skills/app-store-connect
 description: Manage iOS apps, TestFlight builds, submissions, and analytics via App Store Connect API.
-metadata: {"clawdbot":{"emoji":"🍎","requires":{"bins":[],"env":["ASC_ISSUER_ID","ASC_KEY_ID","ASC_PRIVATE_KEY_PATH"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/app-store-connect
+metadata:
+  clawdbot:
+    emoji: 🍎
+    requires:
+      bins: []
+      env:
+      - ASC_ISSUER_ID
+      - ASC_KEY_ID
+      - ASC_PRIVATE_KEY_PATH
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: App Store Connect
 ---
 
 ## When to Use
@@ -119,12 +132,12 @@ No other data is sent externally.
 - Access apps outside your team
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ios` — iOS development patterns
 - `swift` — Swift language reference
 - `xcode` — Xcode IDE workflows
 
 ## Feedback
 
-- If useful: `clawhub star app-store-connect`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/app-store-connect
+- Latest version: https://clawic.com/skills/app-store-connect

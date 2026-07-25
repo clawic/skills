@@ -1,11 +1,22 @@
 ---
-name: Norway
+name: norway
 slug: norway
 version: 1.0.0
-homepage: https://clawic.com/skills/norway
-changelog: "Initial release with verified Norway entry rules, fjord and Arctic routing, and practical travel logistics."
 description: Plan Norway trips with fjord and Arctic routing, verified entry rules, multimodal logistics, and practical seasonal safety.
-metadata: {"clawdbot":{"emoji":"🇳🇴","requires":{"bins":[],"config":["~/norway/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/norway
+changelog: Initial release with verified Norway entry rules, fjord and Arctic routing, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇳🇴
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/norway/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Norway
 ---
 
 ## When to Use
@@ -14,16 +25,16 @@ User is planning a Norway trip and needs operational guidance beyond generic sce
 
 ## Architecture
 
-Memory lives in `~/norway/`. If `~/norway/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/norway/`. If `~/Clawic/data/norway/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/norway/
+~/Clawic/data/norway/
 └── memory.md     # Trip context, route logic, and evolving constraints
 ```
 
 ## Data Storage
 
-- `~/norway/memory.md` stores durable trip context, route decisions, and constraints for future Norway planning.
+- `~/Clawic/data/norway/memory.md` stores durable trip context, route decisions, and constraints for future Norway planning.
 - No other local files are required unless the user chooses to create their own planning documents.
 
 ## Quick Reference
@@ -108,12 +119,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/norway/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/norway/`
 
-**This skill does NOT:** Access files outside `~/norway/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/norway/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `car-rental` — Better self-drive strategy and handoff logistics
@@ -122,5 +133,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star norway`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/norway
+- Latest version: https://clawic.com/skills/norway

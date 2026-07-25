@@ -1,6 +1,6 @@
 # Memory Template — Design System
 
-Create `~/design-system/memory.md` with this structure:
+Create `~/Clawic/data/design-system/memory.md` with this structure:
 
 ```markdown
 # Design System Memory
@@ -42,4 +42,4 @@ integration: pending
 
 - Use natural language in Context and Notes sections
 - Update `last` on each use
-- All data stays in ~/design-system/
+- All data stays in ~/Clawic/data/design-system/

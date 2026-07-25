@@ -1,6 +1,6 @@
 # Setup - Home Server
 
-If `~/home-server/` does not exist or is empty, start with a short transparent onboarding. Explain which local files will be created and ask for confirmation before writing anything.
+If `~/Clawic/data/home-server/` does not exist or is empty, start with a short transparent onboarding. Explain which local files will be created and ask for confirmation before writing anything.
 
 ## Your Attitude
 

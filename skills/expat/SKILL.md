@@ -1,10 +1,19 @@
 ---
-name: Expat Companion
+name: expat
 slug: expat
 version: 1.0.0
-homepage: https://clawic.com/skills/expat
 description: Plan and track international moves with visa timelines, document checklists, and country-specific guides.
-metadata: {"clawdbot":{"emoji":"🌍","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/expat
+metadata:
+  clawdbot:
+    emoji: 🌍
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Expat Companion
 ---
 
 # Expat Companion 🌍
@@ -21,10 +30,10 @@ User is planning or executing an international move. Agent tracks documents, dea
 
 ## Architecture
 
-Memory lives in `~/expat/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/expat/`. See `memory-template.md` for structure.
 
 ```
-~/expat/
+~/Clawic/data/expat/
 ├── memory.md           # Status, timeline, key dates
 ├── documents.md        # Document tracking & checklist
 ├── countries/          # Country-specific notes
@@ -94,7 +103,7 @@ Every destination has quirks. Before diving into logistics:
 5. **Housing** — Can they rent without local history? Typical deposits?
 6. **Legal status** — Registration deadlines? Proof of address requirements?
 
-Save findings to `~/expat/countries/{country}.md`.
+Save findings to `~/Clawic/data/expat/countries/{country}.md`.
 
 ### 5. Don't Forget the Origin Country
 
@@ -173,21 +182,21 @@ Must have IN HAND (not in luggage):
 ## Security & Privacy
 
 **Data that stays local:**
-- All personal documents and notes in ~/expat/
+- All personal documents and notes in ~/Clawic/data/expat/
 - No external services or APIs used
 
 **This skill does NOT:**
 - Store passport numbers or sensitive data in plain text
-- Access files outside ~/expat/
+- Access files outside ~/Clawic/data/expat/
 - Share any information externally
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — trip planning and packing
 - `money` — budgeting and finance tracking
 - `projects` — complex project management
 
 ## Feedback
 
-- If useful: `clawhub star expat`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/expat
+- Latest version: https://clawic.com/skills/expat

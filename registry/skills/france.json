@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "302f8530784751f3fcd5d06c3e3b7e35968c284bb6e13474beea34a899bb5e5c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "france",
-    "name": "France",
+    "name": "france",
     "description": "Discover France like a local with concrete city advice, regional route planning, food context, and practical travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/france",
-    "summary": "Setup If `~/france/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to France or asking for local insights: what to prioritize, where to base, what to skip, and how to ha",
+    "summary": "Setup If `~/Clawic/data/france/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to France or asking for local insights: what to prioritize, where to base, what to skip, a",
     "repositoryPath": "skills/france",
     "manifestPath": "registry/skills/france.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/france/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/_meta.json",
+      "byteCount": 164,
+      "sha256": "2146c8bb83062cbe3c6b5decc6ac579dd7213622a7338439eef7938657ed8df7"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/france/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/accommodation.md",
+      "byteCount": 1286,
+      "sha256": "09c3d7913dccdf2df5fec1e3e42b331102649269235d1594b2af28634862b507"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/france/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/apps.md",
+      "byteCount": 882,
+      "sha256": "5032d5432375fc20eafeb9967e786a3bfe225fb656d25bf0a9c08fa1039ec2f0"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/france/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/beaches.md",
+      "byteCount": 1106,
+      "sha256": "56c26016949029ed58b695c17af151e4f313c5c8a81c7044ac1c763dad326915"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/france/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/culture.md",
+      "byteCount": 917,
+      "sha256": "dc9c11353d0affc9c571a38f9afb0bc99dce01d4796b02d3c2912e52f5b82127"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/france/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/emergencies.md",
+      "byteCount": 960,
+      "sha256": "43f28f73fbe9defb0d80c81897b79ff310d79a2489d45429a8ab6f3372c11487"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/france/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/experiences.md",
+      "byteCount": 857,
+      "sha256": "78c8d574b29fcbb1a352bf8f62cec0d05ab2f972560e219b5d10646d69caf049"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/france/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/food-guide.md",
+      "byteCount": 1404,
+      "sha256": "a9185c87ab0fdbb87969b10dd9cbcafb7572b2e8d26e88c8cadffa2472a3d871"
     },
     {
       "path": "french-riviera.md",
       "downloadPath": "skills/france/french-riviera.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/french-riviera.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/french-riviera.md",
+      "byteCount": 1111,
+      "sha256": "9a2b4700173f329a4c2d401a2ed49bd0bb185c07fb1070637e940708f7f494b6"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/france/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/hiking.md",
+      "byteCount": 794,
+      "sha256": "1e86cde76138ecefdebaab219b7d1c3ea5e3ddbca89e1d5acddf4ba991118a49"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/france/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/itineraries.md",
+      "byteCount": 970,
+      "sha256": "8b98c69c856e76c057f73898ae4c5d89477cf119e5c4cde6ba5a3d49753ec9c3"
     },
     {
       "path": "lyon.md",
       "downloadPath": "skills/france/lyon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/lyon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/lyon.md",
+      "byteCount": 1270,
+      "sha256": "6aed4fc1deabd852359941500c0c67d7c873eb9a4c300f27d583e4b6c6e88a74"
     },
     {
       "path": "marseille-provence.md",
       "downloadPath": "skills/france/marseille-provence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/marseille-provence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/marseille-provence.md",
+      "byteCount": 1045,
+      "sha256": "8c6b103039667c0fc766fba602367d831605f5c435e5f5d8b61c3b6b29c65cdb"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/france/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/memory-template.md",
+      "byteCount": 1378,
+      "sha256": "6e0e72eae2b7918f198217b91a17d862cf4505b08ec1f5336e95e8b11d7372e0"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/france/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/nightlife.md",
+      "byteCount": 915,
+      "sha256": "0763848145cd51a4823f909fffb21574c84a33c9e3afbfa757a0447be0198abb"
     },
     {
       "path": "paris.md",
       "downloadPath": "skills/france/paris.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/paris.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/paris.md",
+      "byteCount": 1487,
+      "sha256": "2f2f7f027cd31f56ffa5d039103aed6b1e306e0e952a74d4de91e1537cdce2fe"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/france/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/regions.md",
+      "byteCount": 791,
+      "sha256": "54334d6b7abdbcdbaf0d2576a6bae9d279afc7156568e8eaf08756bf106048ec"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/france/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/setup.md",
+      "byteCount": 1711,
+      "sha256": "cfdbf1c898dfb5c4f4fd8c3f595af284885edb081f60f81d76724f91ddd566d0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/france/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/SKILL.md",
+      "byteCount": 5540,
+      "sha256": "85192abbbc9ff8dd7f14272c66cbb2002d16b735847bd19a846c05bbff2d0bf4"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/france/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/telecoms.md",
+      "byteCount": 799,
+      "sha256": "845a57516e506b8591b6a4607910d80858c3c5378315469fe998b4d58d1423ec"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/france/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/transport.md",
+      "byteCount": 1009,
+      "sha256": "06392d476d810073137cbb4f27a6af94543d79f30ae18f937626609e3e5ff815"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/france/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/wine.md",
+      "byteCount": 1084,
+      "sha256": "c7998cbbc5f5b90f1f4093e3f8521163ac3028ff6be78544b41b291f8b079377"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/france/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/france/with-kids.md",
+      "byteCount": 826,
+      "sha256": "6a56af437dfe080fc9d62a69e7101ecc3aff4569c75479d2d1cde48ca32d4e68"
     }
   ]
 }

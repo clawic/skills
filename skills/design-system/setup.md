@@ -1,6 +1,6 @@
 # Setup — Design System
 
-Read this when `~/design-system/` doesn't exist or is empty. Start the conversation naturally.
+Read this when `~/Clawic/data/design-system/` doesn't exist or is empty. Start the conversation naturally.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ Ask how they want this to work:
 - "Should I help whenever you're working on UI or components?"
 - "Want me to enforce your design tokens automatically, or just advise?"
 
-Save their integration preference to ~/design-system/memory.md.
+Save their integration preference to ~/Clawic/data/design-system/memory.md.
 
 ### 2. Then: Understand Their Situation
 
@@ -39,7 +39,7 @@ Topics to explore if they're interested:
 
 ## What You Save
 
-In ~/design-system/memory.md:
+In ~/Clawic/data/design-system/memory.md:
 - Stack and platforms they're targeting
 - Existing tokens or patterns to preserve
 - Documentation preferences

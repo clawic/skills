@@ -1,6 +1,6 @@
 # Setup - Apple Maps (MacOS)
 
-If `~/apple-maps/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
+If `~/Clawic/data/apple-maps/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
 
 ## Your Attitude
 

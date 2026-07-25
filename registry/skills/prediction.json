@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a61fee5d7168cd5b856f4003cc58834143742f700d39ca596e61424ce9cdf5bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "prediction",
-    "name": "Prediction",
+    "name": "prediction",
     "description": "Forecast uncertain outcomes with base rates, reference classes, calibration loops, and explicit scorekeeping.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/prediction",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/prediction/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/_meta.json",
+      "byteCount": 172,
+      "sha256": "1cb0d7d0a584fc06c712fdb889849b261d779e96b23ae220f587822a23c148a5"
     },
     {
       "path": "calibration.md",
       "downloadPath": "skills/prediction/calibration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/calibration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/calibration.md",
+      "byteCount": 1372,
+      "sha256": "6d45afd22e772ed0e67292e10978f254db310705c4bd816af249323abe5ca093"
     },
     {
       "path": "forecast-loop.md",
       "downloadPath": "skills/prediction/forecast-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/forecast-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/forecast-loop.md",
+      "byteCount": 1517,
+      "sha256": "380407e33c683e036e0c94fe8c4c9335f9e4899ab2b718bd0ca1a1981f4616b7"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/prediction/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/memory-template.md",
+      "byteCount": 2929,
+      "sha256": "18e9ccf0bb0f60b50331e105b0698c28cbacfe7874ce7e012a47f73a251b4fcb"
     },
     {
       "path": "question-design.md",
       "downloadPath": "skills/prediction/question-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/question-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/question-design.md",
+      "byteCount": 1574,
+      "sha256": "72dfd1ce08a5fdbcab8ee597a54154f19debdc471043c575f7f54d69f28aa665"
     },
     {
       "path": "scoring-and-review.md",
       "downloadPath": "skills/prediction/scoring-and-review.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/scoring-and-review.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/scoring-and-review.md",
+      "byteCount": 1435,
+      "sha256": "85647aa269b8e9f022ef0ccc58ad3125d1f9c4a52f47e7054d3a50900b63c44c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/prediction/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/setup.md",
+      "byteCount": 2863,
+      "sha256": "35109da8a7b5c290acc799644c1fcd05d29f79bfa916e78018ca494d050b9afa"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/prediction/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prediction/SKILL.md",
+      "byteCount": 8437,
+      "sha256": "5a8a4620caf1789c9dba55dca4440c3fe8d7a6aae30f2e544d2329b8d203a12c"
     }
   ]
 }

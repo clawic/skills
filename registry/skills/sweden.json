@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "491ce0e1eb4336bbaf1deb9ae84085323ea5d414ad98db30a0085ee9408b047c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "sweden",
-    "name": "Sweden",
+    "name": "sweden",
     "description": "Plan Sweden trips with verified entry rules, region-specific routing, rail-ferry logistics, and practical seasonal safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/sweden",
-    "summary": "Setup If `~/sweden/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Sweden trip and needs operational guidance beyond generic Nordic advice: Schengen entry checks, Stockho",
+    "summary": "Setup If `~/Clawic/data/sweden/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Sweden trip and needs operational guidance beyond generic Nordic advice: Schengen entry che",
     "repositoryPath": "skills/sweden",
     "manifestPath": "registry/skills/sweden.json"
   },
@@ -22,147 +25,205 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sweden/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/_meta.json",
+      "byteCount": 164,
+      "sha256": "29094dec6786f550439342c175f52093547f45974f24df4362884dcb8e4d3ff1"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/sweden/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/accessibility.md",
+      "byteCount": 1076,
+      "sha256": "7058429c12d0253a1c2ea1eeb410a8b8c2e8b7c7d904448ef20b8f19456699ed"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/sweden/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/accommodation.md",
+      "byteCount": 1731,
+      "sha256": "b0ab3a0fe92638ad0732c689d243f0e36a3b147b9cc4b25ceaba0519cbccbd81"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/sweden/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/budget-and-costs.md",
+      "byteCount": 1342,
+      "sha256": "eb5eb5516acab1e795510ec2177126886c8b5707a700fc54546b921ae1d457a4"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/sweden/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/customs-and-border.md",
+      "byteCount": 1754,
+      "sha256": "e2dcad75294f19f48436910033791e0420d7d4d7d8d45206ef80cdd755a77ed2"
     },
     {
       "path": "dalarna-and-central-sweden.md",
       "downloadPath": "skills/sweden/dalarna-and-central-sweden.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/dalarna-and-central-sweden.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/dalarna-and-central-sweden.md",
+      "byteCount": 891,
+      "sha256": "35f2416de8fb174f9d7fef766605c8f57f976e06495dfc594e880aee01a68f2e"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/sweden/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/entry-and-documents.md",
+      "byteCount": 2300,
+      "sha256": "3d97340d81996a65e9667731f59570250350d8c405c0a0b42dcd600e51e215f6"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/sweden/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/family-travel.md",
+      "byteCount": 945,
+      "sha256": "fac4073bdec5690e83cf8f8a5f556d6d400d4fbf414cd294d36eb19612f332b7"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/sweden/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/food-guide.md",
+      "byteCount": 1258,
+      "sha256": "6bfbcbec2adec1e0e95d78e2484264c72d9393f2453949dd2a5a63e57ad10f14"
     },
     {
       "path": "gothenburg-and-west-coast.md",
       "downloadPath": "skills/sweden/gothenburg-and-west-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/gothenburg-and-west-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/gothenburg-and-west-coast.md",
+      "byteCount": 1113,
+      "sha256": "92b4e18ba11c3c8c8296bd7c7dbc5cbb7d38ea15ff55de2ae395a61b4cef558a"
     },
     {
       "path": "gotland.md",
       "downloadPath": "skills/sweden/gotland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/gotland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/gotland.md",
+      "byteCount": 784,
+      "sha256": "c714b2c81f03b3ec4b2a5a5374fc1b393ca58cc726c46414048426f425846f9c"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/sweden/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/itineraries.md",
+      "byteCount": 1463,
+      "sha256": "a67a31c5a857bd987c3687cac581ab13cfe1e208d68224390a9abd08dd708098"
     },
     {
       "path": "malmo-and-skane.md",
       "downloadPath": "skills/sweden/malmo-and-skane.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/malmo-and-skane.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/malmo-and-skane.md",
+      "byteCount": 1020,
+      "sha256": "45706bf6d22e97b851cf0d06ba7092ee500b46184a1eb94a8f5b1893d1b63e97"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/sweden/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/memory-template.md",
+      "byteCount": 1318,
+      "sha256": "83de0fb2397f27abfb0d4d9016c238e2e73202aa516c2121652a7224c878058e"
     },
     {
       "path": "nature-and-right-to-roam.md",
       "downloadPath": "skills/sweden/nature-and-right-to-roam.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/nature-and-right-to-roam.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/nature-and-right-to-roam.md",
+      "byteCount": 1718,
+      "sha256": "f3b0619b81e62b0b1e40156496e53790902b0cd194d0285214c1b19baa06efe7"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/sweden/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/nightlife.md",
+      "byteCount": 1050,
+      "sha256": "cacde5e67b1b564f503c2c592532d2054cf8fd2f06ad5da77df2abc4e0641d4a"
     },
     {
       "path": "payments-and-alcohol.md",
       "downloadPath": "skills/sweden/payments-and-alcohol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/payments-and-alcohol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/payments-and-alcohol.md",
+      "byteCount": 1487,
+      "sha256": "166f9a43940749f6f1df7985ebd6b71b0e7b4272ec27743525ef9cd0bf78f5c8"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/sweden/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/regions.md",
+      "byteCount": 1824,
+      "sha256": "eeef1b285e75f10df1b1b12c74143d9f308da1efaa1b4b8f35c71db983b0205b"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/sweden/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/road-trips-and-driving.md",
+      "byteCount": 1491,
+      "sha256": "026db98c5b3f06c6b47e2d25f7c3f11e50387b5cce6eb0200ad4c9f8d373ffa0"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/sweden/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/safety-and-emergencies.md",
+      "byteCount": 1298,
+      "sha256": "79fa3543746edf0395e489ee3831fc09103b3b44c70705dd654ba7b2378f81f0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/sweden/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/setup.md",
+      "byteCount": 1141,
+      "sha256": "043439aae5c8a0c6aa3005a66caa692583965ee0928222d99cff3d47db658137"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sweden/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/SKILL.md",
+      "byteCount": 6213,
+      "sha256": "9add66e695ab99a8b2e18cd546d7bd0a0c2047235563d745446c27f5a2ab3bd3"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/sweden/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/sources.md",
+      "byteCount": 2760,
+      "sha256": "6d07c9560e4084d38bdb6d2d8f547b2335e61c63dad07edf5945d49081335563"
     },
     {
       "path": "stockholm-archipelago.md",
       "downloadPath": "skills/sweden/stockholm-archipelago.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/stockholm-archipelago.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/stockholm-archipelago.md",
+      "byteCount": 1130,
+      "sha256": "707672c4c55f937da4f97ce9255765853abbad84c60535e63f50fe6c7fc5f133"
     },
     {
       "path": "stockholm.md",
       "downloadPath": "skills/sweden/stockholm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/stockholm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/stockholm.md",
+      "byteCount": 1399,
+      "sha256": "e1c48c8c57e64f9746d4c8d8711f795857ab5c5595b7ea31e6f16e59e0a9919a"
     },
     {
       "path": "swedish-lapland.md",
       "downloadPath": "skills/sweden/swedish-lapland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/swedish-lapland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/swedish-lapland.md",
+      "byteCount": 1300,
+      "sha256": "fc015439d84a8077674ac6e00a2b51dfff9a10ca0b96070289d33495cb0d6ff1"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/sweden/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/telecoms-and-apps.md",
+      "byteCount": 1238,
+      "sha256": "448863578f5d5a457cfaffcdf05c9e1f74b0f4b6ba7226809346d237da7506f8"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/sweden/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/transport-domestic.md",
+      "byteCount": 2080,
+      "sha256": "c0e988dfd70d4896e83e97df5a02f5206efa5851458faca03d880bf01e9f23fc"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/sweden/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sweden/weather-and-seasonality.md",
+      "byteCount": 1486,
+      "sha256": "c99be18438428aae3eaed734e8cf11d9cfe6b22f24c53a87b4909d6c2d91a35b"
     }
   ]
 }

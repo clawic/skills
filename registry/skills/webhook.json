@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d2456f6dbe57776bfb6e73b706aade81dda4bf2f5c09434d23e1058bf1611c16",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "webhook",
-    "name": "Webhook",
+    "name": "webhook",
     "description": "Implement secure webhook receivers and senders with proper verification and reliability.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/webhook",
     "summary": "Receiving: Signature Verification - Always verify HMAC signature—payload can be forged; don't trust without signature - Common pattern: `HMAC-SHA256(secret, raw_body)` compared to header value - Use raw body bytes—parsed",
     "repositoryPath": "skills/webhook",
     "manifestPath": "registry/skills/webhook.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/webhook/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/_meta.json",
+      "byteCount": 166,
+      "sha256": "b143169f41c84a650607f1d9996d331d36995f0a2235673c5af41de3fb8f4907"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/webhook/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/webhook/SKILL.md",
+      "byteCount": 4094,
+      "sha256": "036b2a2bfd77bbfdab6199cf89bd9c2ac9f89e48d21d0f73d1fc4cd74b66a6b6"
     }
   ]
 }

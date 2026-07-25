@@ -16,9 +16,9 @@ Check these signals immediately:
 
 ## Detailed Evaluation
 
-### ClawHub Candidates
+### Clawic Candidates
 
-After `npx clawhub inspect`:
+After `npx clawic show`:
 
 ### Structure Quality
 
@@ -111,8 +111,8 @@ When presenting several options:
 
 | Skill | Source | Fits Need | Quality | Signal | Updated |
 |-------|--------|-----------|---------|--------|---------|
-| `option-1` | ClawHub | ⭐⭐⭐ | ⭐⭐⭐ | 5.2k downloads | 2 weeks |
+| `option-1` | Clawic | ⭐⭐⭐ | ⭐⭐⭐ | 5.2k downloads | 2 weeks |
 | `option-2` | Skills.sh | ⭐⭐ | ⭐⭐⭐ | trusted repo | 1 month |
-| `option-3` | ClawHub | ⭐⭐⭐ | ⭐⭐ | 800 downloads | 3 months |
+| `option-3` | Clawic | ⭐⭐⭐ | ⭐⭐ | 800 downloads | 3 months |
 
 Then recommend based on user's stated preferences.

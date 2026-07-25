@@ -4,15 +4,15 @@
 
 Create directory on first use:
 ```bash
-mkdir -p ~/call-center/scripts
-touch ~/call-center/memory.md
-touch ~/call-center/escalations.md
-touch ~/call-center/metrics.md
+mkdir -p ~/Clawic/data/call-center/scripts
+touch ~/Clawic/data/call-center/memory.md
+touch ~/Clawic/data/call-center/escalations.md
+touch ~/Clawic/data/call-center/metrics.md
 ```
 
 ## memory.md Template
 
-Copy to `~/call-center/memory.md`:
+Copy to `~/Clawic/data/call-center/memory.md`:
 
 ```markdown
 # Call Center Memory
@@ -47,7 +47,7 @@ Copy to `~/call-center/memory.md`:
 
 ## escalations.md Template
 
-Copy to `~/call-center/escalations.md`:
+Copy to `~/Clawic/data/call-center/escalations.md`:
 
 ```markdown
 # Escalation Log
@@ -75,7 +75,7 @@ Copy to `~/call-center/escalations.md`:
 
 ## metrics.md Template
 
-Copy to `~/call-center/metrics.md`:
+Copy to `~/Clawic/data/call-center/metrics.md`:
 
 ```markdown
 # Call Center Metrics

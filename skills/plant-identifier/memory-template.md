@@ -1,6 +1,6 @@
 # Memory Template - Plant Identifier
 
-Create `~/plant-identifier/memory.md` with this structure:
+Create `~/Clawic/data/plant-identifier/memory.md` with this structure:
 
 ```markdown
 # Plant Identifier Memory
@@ -37,7 +37,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/plant-identifier/observations/YYYY-MM/{entry-id}.md`:
+Create `~/Clawic/data/plant-identifier/observations/YYYY-MM/{entry-id}.md`:
 
 ```markdown
 # Plant Observation - {entry-id}

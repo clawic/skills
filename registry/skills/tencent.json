@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5822146ec8ad368c3cfbcf92981eb1370813be61567f6468d46f32cd83d1bd0b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "tencent",
-    "name": "Tencent",
+    "name": "tencent",
     "description": "Navigate Tencent products, Tencent Cloud services, and WeChat ecosystem decisions with region-aware planning and official-source verification.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tencent",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tencent/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/_meta.json",
+      "byteCount": 166,
+      "sha256": "aa45d0ed733751c644ed291b6324ed48742d47c38c738c000738e1ede5acafa2"
     },
     {
       "path": "cloud-platform.md",
       "downloadPath": "skills/tencent/cloud-platform.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/cloud-platform.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/cloud-platform.md",
+      "byteCount": 1970,
+      "sha256": "65c333127e35cd7930cbdd32193958008221753bb557ef7ca927e9109379ef98"
     },
     {
       "path": "decision-framework.md",
       "downloadPath": "skills/tencent/decision-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/decision-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/decision-framework.md",
+      "byteCount": 1873,
+      "sha256": "226702cdc144263d34cb3b19a5cea571d4dd3be727f5be8a3bd407a2868eb6a3"
     },
     {
       "path": "ecosystem-map.md",
       "downloadPath": "skills/tencent/ecosystem-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/ecosystem-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/ecosystem-map.md",
+      "byteCount": 2539,
+      "sha256": "961d580ac4b3c52137fb0c2941f36ce87440fea9291c068f78bb1364c22c6df9"
     },
     {
       "path": "mainland-vs-global.md",
       "downloadPath": "skills/tencent/mainland-vs-global.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/mainland-vs-global.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/mainland-vs-global.md",
+      "byteCount": 1633,
+      "sha256": "805a6950f672e2d893f6ff5c1e0b4472ec68923852d56510916fd0266e566469"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/tencent/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/memory-template.md",
+      "byteCount": 2175,
+      "sha256": "620ecb05a943631da0a658ba9ac191462380f055888c7a2c3f5de6718c4fd22b"
     },
     {
       "path": "rollout-checklist.md",
       "downloadPath": "skills/tencent/rollout-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/rollout-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/rollout-checklist.md",
+      "byteCount": 1189,
+      "sha256": "28a00788936db7725f015cf47eed4e15373b54ab8facf421144813b728b046a8"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/tencent/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/setup.md",
+      "byteCount": 2475,
+      "sha256": "f6da75b7fd0d2e9e23986ac83d3123612f0b5da0b0ad096c9748aba2e5edd597"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tencent/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/SKILL.md",
+      "byteCount": 9781,
+      "sha256": "f3fcca29d9b0c32f6bfcbb91f33000fd9a212a42bbdf113df8b34dee57c3db3b"
     },
     {
       "path": "source-validation.md",
       "downloadPath": "skills/tencent/source-validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/source-validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tencent/source-validation.md",
+      "byteCount": 1427,
+      "sha256": "1d78d8e16d6959ac5225b0ac68d960a3165170cf55472544143ee476cccc0acf"
     }
   ]
 }

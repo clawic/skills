@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "782baa445803929986d5096c6ec462d98302e25feec216ae84e026f8322b2fe7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "home-renovation",
-    "name": "Home Renovation",
+    "name": "home-renovation",
     "description": "Plan, budget, and manage home renovation projects including contractor coordination, timeline tracking, and cost estimation.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/home-renovation",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/home-renovation/` if it doesn't exist. When to Use User plans a home renovation or remodel. Agent tracks budgets, timelines, and contractor coordi",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/home-renovation/` if it doesn't exist. When to Use User plans a home renovation or remodel. Agent tracks budgets, timelines, and contr",
     "repositoryPath": "skills/home-renovation",
     "manifestPath": "registry/skills/home-renovation.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/home-renovation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/_meta.json",
+      "byteCount": 182,
+      "sha256": "1863d3f27abcc161b446d1c8fcc9ed05fe0a9561045ed432b2106d960054f4ac"
     },
     {
       "path": "contractors.md",
       "downloadPath": "skills/home-renovation/contractors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/contractors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/contractors.md",
+      "byteCount": 3801,
+      "sha256": "e3544a8c12e310f358c437f7906ed097c5c22a1a3ff5df9af38da467459a75a5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/home-renovation/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/memory-template.md",
+      "byteCount": 2487,
+      "sha256": "f8d1cc7ff17f6a76b5c61b33c5c4eea0b84e17aea716caff58ed63eb21ba2351"
     },
     {
       "path": "phases.md",
       "downloadPath": "skills/home-renovation/phases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/phases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/phases.md",
+      "byteCount": 5234,
+      "sha256": "8c2140e638f6c13f4161078f6de549196a7ae84930f64b85be85573f5e010581"
     },
     {
       "path": "projects.md",
       "downloadPath": "skills/home-renovation/projects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/projects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/projects.md",
+      "byteCount": 4200,
+      "sha256": "f55e9ad0126e0fc5eb2be9af9eb4357d33675e989d6ee34785972fac14ba18c0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/home-renovation/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/setup.md",
+      "byteCount": 2291,
+      "sha256": "5b137030bb1e3a39d0ea8befc35cb91ca57a0cf47fe677b43f4970d34ef6b0c4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/home-renovation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-renovation/SKILL.md",
+      "byteCount": 5818,
+      "sha256": "1cc45d06c241d0898a33b2c66efaa5187aadbfb96cb999ef62bc81045e58e994"
     }
   ]
 }

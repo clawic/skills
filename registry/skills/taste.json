@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c1f831f46cb37c5a17c862f87ba6f43e8afbe33f044859a150bd594757cc77f2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "taste",
-    "name": "Taste",
+    "name": "taste",
     "description": "Develop refined aesthetic judgment by learning from human feedback, asking genuine questions about quality, and calibrating over time.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/taste",
     "summary": "Core Principle — Learn From the Human You don't have taste yet. The human does. Your job is to: 1. **Ask** when you don't understand why something is good/bad 2. **Record** every correction and explanation 3. **Apply** l",
     "repositoryPath": "skills/taste",
     "manifestPath": "registry/skills/taste.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/taste/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/_meta.json",
+      "byteCount": 162,
+      "sha256": "eb4a34a158bc86cee526b1b5d3cde8265838460a3922082138080c87ead7a203"
     },
     {
       "path": "antipatterns.md",
       "downloadPath": "skills/taste/antipatterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/antipatterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/antipatterns.md",
+      "byteCount": 3112,
+      "sha256": "e156c8940b0c29e27a1db6c1fbde41ec758a34de6050ce835f70b08c617fd0ab"
     },
     {
       "path": "development.md",
       "downloadPath": "skills/taste/development.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/development.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/development.md",
+      "byteCount": 3276,
+      "sha256": "07e7d33d57ef2af46f12e1173b410e2661a7b800e10c6d8c4060aff47f216cdd"
     },
     {
       "path": "learning.md",
       "downloadPath": "skills/taste/learning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/learning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/learning.md",
+      "byteCount": 3522,
+      "sha256": "3addbd2ca4252f9582a6742440a2e814fd7f4dc862c86b6835e5bc1190ea5a16"
     },
     {
       "path": "prompting.md",
       "downloadPath": "skills/taste/prompting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/prompting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/prompting.md",
+      "byteCount": 3258,
+      "sha256": "cb92a4716b2d63c7635ebd8e0183d4046d1a5b3519742d87f36e316e2b2ab634"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/taste/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/SKILL.md",
+      "byteCount": 3335,
+      "sha256": "8cb53ddf0e96236483df4f38affe5578da49a8ff2f4c1391727118d4b97e8fe5"
     },
     {
       "path": "visual.md",
       "downloadPath": "skills/taste/visual.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/visual.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/visual.md",
+      "byteCount": 2568,
+      "sha256": "8bbe545124cede31ab70f2672f1add0f06ee4b31e506275db5f2b95212ff6f3d"
     },
     {
       "path": "writing.md",
       "downloadPath": "skills/taste/writing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/writing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/taste/writing.md",
+      "byteCount": 2373,
+      "sha256": "357d7f673d5b542a44e7db4c8e8c0c6de1f171dbac22494b95a171b2548f5008"
     }
   ]
 }

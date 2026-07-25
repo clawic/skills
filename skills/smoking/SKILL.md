@@ -1,11 +1,20 @@
 ---
-name: Smoking (Tracker, Logger, Quit, Reduce)
+name: smoking
 slug: smoking
 version: 1.0.0
-homepage: https://clawic.com/skills/smoking
 description: Track smoking and nicotine use, reduce consumption, or quit with neutral logs, trigger mapping, and adaptive plans.
+homepage: https://clawic.com/skills/smoking
 changelog: Initial release with neutral tracking, adaptive goal modes, and evidence-informed reduce or quit playbooks.
-metadata: {"clawdbot":{"emoji":"🚬","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🚬
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Smoking (Tracker, Logger, Quit, Reduce)
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent tracks baseline behavior, applies the right mode (`logger`, `reduce`, or `
 
 ## Architecture
 
-Memory lives in `~/smoking/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/smoking/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/smoking/
+~/Clawic/data/smoking/
 ├── memory.md            # Status, goal mode, preferences, and latest baseline
 ├── logs/daily.md        # Date-based smoking events and totals
 ├── plans/current.md     # Active plan for logger, reduce, or quit mode
@@ -44,7 +53,7 @@ Memory lives in `~/smoking/`. See `memory-template.md` for structure and starter
 
 ## Data Storage
 
-Local notes stay in `~/smoking/`.
+Local notes stay in `~/Clawic/data/smoking/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -116,7 +125,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - smoking logs, trigger notes, and plan decisions explicitly approved by the user.
-- stored in `~/smoking/`.
+- stored in `~/Clawic/data/smoking/`.
 
 **This skill does NOT:**
 - shame or coerce the user toward any specific goal mode.
@@ -131,7 +140,7 @@ This is an instruction-only behavioral tracking and coaching skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - broad health planning context that can shape smoking goals.
 - `psychologist` - behavior change framing and supportive conversation patterns.
 - `daily-planner` - routine design and schedule anchors for new habits.
@@ -140,5 +149,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star smoking`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/smoking
+- Latest version: https://clawic.com/skills/smoking

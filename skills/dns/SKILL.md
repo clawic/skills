@@ -1,7 +1,17 @@
 ---
-name: DNS
+name: dns
+slug: dns
+version: 1.0.0
 description: Configure DNS records correctly with proper TTLs, email authentication, and migration strategies.
-metadata: {"clawdbot":{"emoji":"🌍","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dns
+metadata:
+  clawdbot:
+    emoji: 🌍
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: DNS
 ---
 
 ## Pre-Migration TTL

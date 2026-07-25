@@ -8,12 +8,12 @@ Read this guide when upgrading from older published versions.
 
 **Before:** no standardized setup/memory workflow
 
-**Now:** `setup.md`, `memory-template.md`, and `~/video-generation/memory.md` are the default pattern
+**Now:** `setup.md`, `memory-template.md`, and `~/Clawic/data/video-generation/memory.md` are the default pattern
 
 **Migration steps:**
 1. Create backup if legacy memory exists:
    ```bash
-   cp ~/video-generation/memory.md ~/video-generation/memory.md.bak 2>/dev/null || true
+   cp ~/Clawic/data/video-generation/memory.md ~/Clawic/data/video-generation/memory.md.bak 2>/dev/null || true
    ```
 2. Add missing sections from `memory-template.md`.
 3. Keep old notes until the new structure is validated.
@@ -42,7 +42,7 @@ Read this guide when upgrading from older published versions.
 
 ## Post-Migration Verification
 
-- [ ] `~/video-generation/memory.md` exists and keeps prior preferences
+- [ ] `~/Clawic/data/video-generation/memory.md` exists and keeps prior preferences
 - [ ] Legacy provider notes map to current provider files
 - [ ] Async job handling is implemented consistently
 - [ ] No user assets were deleted without explicit confirmation

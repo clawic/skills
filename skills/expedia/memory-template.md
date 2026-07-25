@@ -1,6 +1,6 @@
 # Memory Template — Expedia
 
-Create `~/expedia/memory.md` with this structure:
+Create `~/Clawic/data/expedia/memory.md` with this structure:
 
 ```markdown
 # Expedia Memory

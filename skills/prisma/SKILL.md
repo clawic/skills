@@ -1,9 +1,20 @@
 ---
-name: Prisma
+name: prisma
+slug: prisma
+version: 1.0.0
 description: Write efficient Prisma queries, design schemas, and avoid common ORM pitfalls.
+homepage: https://clawic.com/skills/prisma
 metadata:
   category: database
-  skills: ["prisma", "orm", "database", "typescript", "nodejs"]
+  skills:
+  - prisma
+  - orm
+  - database
+  - typescript
+  - nodejs
+  clawdbot:
+    emoji: 🗄️
+    displayName: Prisma
 ---
 
 ## Schema Design Traps

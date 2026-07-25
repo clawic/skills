@@ -1,10 +1,19 @@
 ---
-name: Utrecht
+name: utrecht
 slug: utrecht
 version: 1.0.0
-homepage: https://clawic.com/skills/utrecht
 description: Navigate Utrecht as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/utrecht
+metadata:
+  clawdbot:
+    emoji: 🏰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Utrecht
 ---
 
 ## When to Use
@@ -157,7 +166,7 @@ Key laws visitors/residents must know:
 See `safety.md` for comprehensive legal guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `dutch` — Dutch language learning and practice
 - `travel` — Travel planning and trip organization
@@ -167,5 +176,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star utrecht`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/utrecht
+- Latest version: https://clawic.com/skills/utrecht

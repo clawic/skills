@@ -1,6 +1,6 @@
 # Setup — Tripadvisor
 
-Read this when `~/tripadvisor/` does not exist or is empty. Explain local storage behavior in plain language and ask for confirmation before creating files.
+Read this when `~/Clawic/data/tripadvisor/` does not exist or is empty. Explain local storage behavior in plain language and ask for confirmation before creating files.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first exchanges, confirm activation behavior:
 - Should API mode be preferred by default when an API key is available?
 - Should UI mode be used when users want visual verification before deciding?
 
-Save these preferences in `~/tripadvisor/memory.md` so this skill behaves consistently in future sessions.
+Save these preferences in `~/Clawic/data/tripadvisor/memory.md` so this skill behaves consistently in future sessions.
 
 ### 2. Then: Access readiness
 
@@ -38,7 +38,7 @@ Then execute immediately and iterate from real results.
 
 ## What You Are Saving Internally
 
-In `~/tripadvisor/memory.md`, store:
+In `~/Clawic/data/tripadvisor/memory.md`, store:
 - activation preferences (API/UI/hybrid)
 - recurring destination and budget patterns
 - accepted/rejected shortlist reasons

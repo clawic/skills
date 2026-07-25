@@ -1,19 +1,40 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
-  "repository": {"owner":"clawic","repo":"skills","branch":"main","registryPath":"registry","skillsPath":"skills"},
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "438ec7e065b23d42a04f9531e02f0c0471b61d9fc07f135b3fdae52b6fbc91fb",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
   "skill": {
     "slug": "tech-debt",
-    "name": "Technical Debt",
+    "name": "tech-debt",
     "description": "Reckless versus prudent categorization, tracking the inventory, and a payoff cadence that does not freeze delivery.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tech-debt",
-    "summary": "Quadrant that matters is reckless vs prudent; bugs and missing features are not debt. Each item carries interest (carry = time lost x frequency), blast radius (local vs structural), payoff cost (refactor + regression). Pay when fix cost < ~2-3x one quarter's carry. Amortize ~15-25% of capacity per sprint; debt sprints confess failed amortization. Default refactor; strangler fig for wrong seams.",
+    "summary": "What counts as debt The quadrant that matters is reckless vs prudent; the deliberate/inadvertent split is post-hoc. The #1 adds the axis that drives action: does the debt accrue interest? - **Prudent, deliberate** = a co",
     "repositoryPath": "skills/tech-debt",
     "manifestPath": "registry/skills/tech-debt.json"
   },
   "files": [
-    {"path":"_meta.json","downloadPath":"skills/tech-debt/_meta.json","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/_meta.json"},
-    {"path":"SKILL.md","downloadPath":"skills/tech-debt/SKILL.md","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/SKILL.md"}
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/tech-debt/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/_meta.json",
+      "byteCount": 165,
+      "sha256": "cdc87acac969e855b28eba31abe58eb062e4476e8844d57702584b369e6856c4"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/tech-debt/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tech-debt/SKILL.md",
+      "byteCount": 19849,
+      "sha256": "1e5b7e04665c86c98da18cb3f87f176da3ddfb2241217e26477ef455ffc4e807"
+    }
   ]
 }

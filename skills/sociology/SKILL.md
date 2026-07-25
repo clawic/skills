@@ -1,7 +1,17 @@
 ---
-name: Sociology
+name: sociology
+slug: sociology
+version: 1.0.0
 description: Support sociological thinking from first observations to academic research.
-metadata: {"clawdbot":{"emoji":"👥","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sociology
+metadata:
+  clawdbot:
+    emoji: 👥
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sociology
 ---
 
 ## Detect Level, Adapt Everything

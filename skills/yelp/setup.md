@@ -1,6 +1,6 @@
 # Setup — Yelp
 
-Read this when `~/yelp/` does not exist or is empty.
+Read this when `~/Clawic/data/yelp/` does not exist or is empty.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Confirm how this should activate in future sessions:
 - prefer API mode when `YELP_API_KEY` exists, or public-page mode by default
 - stay read-only unless the user explicitly asks for owner-side drafts or listing audits
 
-Store the activation preference and rationale in `~/yelp/memory.md`.
+Store the activation preference and rationale in `~/Clawic/data/yelp/memory.md`.
 
 ### 2. Then: Access and scope
 
@@ -39,13 +39,13 @@ Then run the first search or audit immediately and refine from real evidence.
 
 ## What You Are Saving Internally
 
-In `~/yelp/memory.md`, store:
+In `~/Clawic/data/yelp/memory.md`, store:
 - activation preferences
 - recurring cities, categories, and price filters
 - accepted and rejected business patterns
 - API availability, unsupported endpoints, and repeated blockers
 
-Before the first write in a workspace, confirm that local files will be created under `~/yelp/`.
+Before the first write in a workspace, confirm that local files will be created under `~/Clawic/data/yelp/`.
 
 ## When Done
 

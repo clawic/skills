@@ -1,8 +1,13 @@
 ---
-name: NEET
+name: neet
 slug: neet
 version: 1.0.0
 description: Prepare for India's medical entrance exam with progress tracking, weak area analysis, spaced repetition, and college targeting.
+homepage: https://clawic.com/skills/neet
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: NEET
 ---
 
 ## When to Use
@@ -22,9 +27,9 @@ User is preparing for NEET (National Eligibility cum Entrance Test), India's med
 
 ## Data Storage
 
-User data lives in `~/neet/`:
+User data lives in `~/Clawic/data/neet/`:
 ```
-~/neet/
+~/Clawic/data/neet/
 ├── profile.md       # Goals, target score, exam date, category
 ├── subjects/        # Per-subject progress and weak areas
 ├── sessions/        # Study session logs
@@ -55,7 +60,7 @@ Before study planning, gather:
 ## Critical Rules
 
 - **ROI-first** — Prioritize chapters with highest marks-per-hour potential
-- **Track everything** — Log sessions, scores, errors to `~/neet/`
+- **Track everything** — Log sessions, scores, errors to `~/Clawic/data/neet/`
 - **Adapt to user type** — Students need scheduling; parents need monitoring; droppers need efficiency
 - **NCERT is bible** — 90% of questions come from NCERT; supplement only after mastering it
 - **Negative marking matters** — Accuracy over attempts; -1 for wrong answers

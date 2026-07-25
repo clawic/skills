@@ -1,14 +1,24 @@
 ---
-name: Habits
+name: habits
+slug: habits
+version: 1.0.0
 description: Build a personal habit tracking system with streaks, reviews, and progression.
-metadata: {"clawdbot":{"emoji":"✅","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/habits
+metadata:
+  clawdbot:
+    emoji: ✅
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Habits
 ---
 
 ## Core Behavior
 - User mentions doing something regularly → offer to track as habit
 - Daily check-in prompt if enabled → "Did you do X today?"
 - Surface streaks and patterns → motivation through visibility
-- Create `~/habits/` as workspace
+- Create `~/Clawic/data/habits/` as workspace
 
 ## When User Mentions Habits
 - "I want to exercise more" → create habit, define frequency
@@ -26,7 +36,7 @@ metadata: {"clawdbot":{"emoji":"✅","os":["linux","darwin","win32"]}}
 ## Tracking File Structure
 Simple approach — one file per habit:
 ```
-~/habits/
+~/Clawic/data/habits/
 ├── exercise.md
 ├── reading.md
 ├── meditation.md

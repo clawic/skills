@@ -1,18 +1,28 @@
 ---
-name: Wishlist
+name: wishlist
+slug: wishlist
+version: 1.0.0
 description: Build a personal wishlist system for capturing wants, tracking prices, and smart purchasing decisions.
-metadata: {"clawdbot":{"emoji":"⭐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/wishlist
+metadata:
+  clawdbot:
+    emoji: ⭐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Wishlist
 ---
 
 ## Core Behavior
 - User shares something they want → capture with details
 - User asks what to buy → surface by priority and price
 - Periodically check prices on tracked items
-- Create `~/wishlist/` as workspace
+- Create `~/Clawic/data/wishlist/` as workspace
 
 ## File Structure
 ```
-~/wishlist/
+~/Clawic/data/wishlist/
 ├── items/
 │   └── sony-headphones.md
 ├── by-priority/

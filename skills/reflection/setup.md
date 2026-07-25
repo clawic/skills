@@ -8,13 +8,13 @@ On first use:
    ```
    ## Self Reflection
    - Installed: YYYY-MM-DD
-   - Memory: ~/reflection/
+   - Memory: ~/Clawic/data/reflection/
    - Status: active
    ```
 
-2. **Create folder** — `mkdir -p ~/reflection/archive`
+2. **Create folder** — `mkdir -p ~/Clawic/data/reflection/archive`
 
-3. **Initialize memory** — Copy structure from `memory-template.md` to `~/reflection/memory.md`
+3. **Initialize memory** — Copy structure from `memory-template.md` to `~/Clawic/data/reflection/memory.md`
 
 4. **Create reflections.md** — Empty file, will populate as lessons are logged
 
@@ -40,9 +40,9 @@ Before important deliverables, run 7-dimension scan (30 seconds):
 
 ## Configuration
 
-No external config required. All state lives in `~/reflection/`.
+No external config required. All state lives in `~/Clawic/data/reflection/`.
 
-Optional: Set review cadence in `~/reflection/memory.md`:
+Optional: Set review cadence in `~/Clawic/data/reflection/memory.md`:
 ```markdown
 ## Preferences
 - review_day: Sunday
@@ -51,7 +51,7 @@ Optional: Set review cadence in `~/reflection/memory.md`:
 
 ## Status Fields
 
-Track in `~/reflection/memory.md`:
+Track in `~/Clawic/data/reflection/memory.md`:
 - `streak_days` — days without repeated mistake
 - `total_reflections` — count by category
 - `patterns_active` — count of active patterns

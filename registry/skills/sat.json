@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ac6ff285d6c7cb6740c8ab4c8a8bdf588a4c3628b4fc3c8b3003aa06d045d9ee",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "sat",
-    "name": "SAT",
+    "name": "sat",
     "description": "Prepare for the SAT with adaptive practice, score prediction, weak area targeting, and college admissions planning.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/sat",
     "summary": "When to Use User is preparing for the SAT (Scholastic Assessment Test) for US college admissions. Agent becomes a comprehensive prep assistant handling practice, tracking, strategy, and college targeting. Quick Reference",
     "repositoryPath": "skills/sat",
     "manifestPath": "registry/skills/sat.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sat/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/_meta.json",
+      "byteCount": 234,
+      "sha256": "875698bfd493dc59f2fd72c7a7b917e9a2f74a7e6ea233e53bea63aa04b03781"
     },
     {
       "path": "colleges.md",
       "downloadPath": "skills/sat/colleges.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/colleges.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/colleges.md",
+      "byteCount": 2852,
+      "sha256": "e6cb4c82f61c1eb75d3296d68c6ad45adb0499940e9ac0501038430f374d32c5"
     },
     {
       "path": "exam-format.md",
       "downloadPath": "skills/sat/exam-format.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/exam-format.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/exam-format.md",
+      "byteCount": 2069,
+      "sha256": "034bbbe0bd47e4db261720d6e0d20bfa97f275c1e316bfed521efefe5a944978"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sat/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/SKILL.md",
+      "byteCount": 2871,
+      "sha256": "36ddec2ff3368769fb02fc1c6c788ba0b197949fe6fb3cc58e171131abde5bac"
     },
     {
       "path": "strategies.md",
       "downloadPath": "skills/sat/strategies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/strategies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/strategies.md",
+      "byteCount": 2444,
+      "sha256": "e85ba2fd65d82f7c9bf1f5b8484d78a7e5c247d970c06f87a6fba3ecdc181bb9"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/sat/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/techniques.md",
+      "byteCount": 3199,
+      "sha256": "69bec4a24f198094cc20948e1412fefb6a1417a042d6a2207add20864faabf58"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/sat/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/tracking.md",
+      "byteCount": 2363,
+      "sha256": "a68ab49eea7841a2d45155263cabc962637782e78fd4e49028472890b34d7dd4"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/sat/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sat/user-types.md",
+      "byteCount": 3350,
+      "sha256": "933961c1e036c9c8b0b4d16c2a0ba48f75e31c948a3ba68552f0a9debbf6eff1"
     }
   ]
 }

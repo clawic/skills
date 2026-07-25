@@ -1,11 +1,20 @@
 ---
-name: Skill Builder / Creator
+name: skill-builder
 slug: skill-builder
 version: 1.0.5
-homepage: https://clawic.com/skills/skill-builder
 description: Create high-quality skills with modular structure, progressive disclosure, and token-efficient design.
+homepage: https://clawic.com/skills/skill-builder
 changelog: Added description examples table, security checklist, and improved traps with fixes
-metadata: {"clawdbot":{"emoji":"🛠️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🛠️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Skill Builder / Creator
 ---
 
 ## Setup
@@ -92,7 +101,7 @@ Read the skill as if you're an agent encountering it fresh. Is every instruction
 | Undeclared file creation | Security flag | Add Data Storage section |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `skill-manager` — manage installed skills
 - `skill-update` — update existing skills
@@ -100,5 +109,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star skill-builder`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/skill-builder
+- Latest version: https://clawic.com/skills/skill-builder

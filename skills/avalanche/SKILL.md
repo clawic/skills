@@ -1,7 +1,17 @@
 ---
-name: Avalanche
+name: avalanche
+slug: avalanche
+version: 1.0.0
 description: Assist with Avalanche C-Chain transactions, AVAX transfers, subnets, and cross-chain bridges.
-metadata: {"clawdbot":{"emoji":"🔺","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/avalanche
+metadata:
+  clawdbot:
+    emoji: 🔺
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Avalanche
 ---
 
 ## Network Architecture (Critical)

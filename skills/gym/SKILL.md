@@ -1,10 +1,20 @@
 ---
-name: Gym
+name: gym
 slug: gym
 version: 1.0.1
 description: Log workouts, plan routines, track progress, and get intelligent coaching for any fitness level.
-changelog: "Preferences now persist across skill updates"
-metadata: {"clawdbot":{"emoji":"🏋️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gym
+changelog: Preferences now persist across skill updates
+metadata:
+  clawdbot:
+    emoji: 🏋️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Gym
 ---
 
 ## Quick Reference
@@ -18,7 +28,7 @@ metadata: {"clawdbot":{"emoji":"🏋️","requires":{"bins":[]},"os":["linux","d
 
 ## User Profile
 
-User preferences persist in `~/gym/memory.md`. Create on first use:
+User preferences persist in `~/Clawic/data/gym/memory.md`. Create on first use:
 
 ```markdown
 ## Level
@@ -43,7 +53,7 @@ User preferences persist in `~/gym/memory.md`. Create on first use:
 
 ## Data Storage
 
-Store workout logs and measurements in ~/gym/:
+Store workout logs and measurements in ~/Clawic/data/gym/:
 - workouts — Session logs (date, exercises, sets, reps, weight)
 - prs — Personal records by exercise  
 - measurements — Body measurements, weight trends

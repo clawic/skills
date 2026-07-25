@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "58a4a2a198c125f5f93aa02b5501c75261b93e3dcfa30dfef24cd227963e3ca5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "real-estate-skill",
-    "name": "Real Estate",
+    "name": "real-estate-skill",
     "description": "Guide any property decision for buyers, sellers, landlords, investors, or agents in any jurisdiction.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/real-estate-skill",
     "summary": "First: Clarify Context Before any substantive guidance: 1. **Role** — Buyer, seller, landlord, tenant, investor, or agent? 2. **Jurisdiction** — Country, state/province, city (laws vary dramatically) 3. **Stage** — Explo",
     "repositoryPath": "skills/real-estate-skill",
     "manifestPath": "registry/skills/real-estate-skill.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/real-estate-skill/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/_meta.json",
+      "byteCount": 180,
+      "sha256": "7e47a53f5ee63a025408254941cc8f1c79d7ebe6a1d40eec605dd12907e98e78"
     },
     {
       "path": "buyer-guide.md",
       "downloadPath": "skills/real-estate-skill/buyer-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/buyer-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/buyer-guide.md",
+      "byteCount": 2932,
+      "sha256": "0c0c638f3a03f2a70bd206d23ab35ba8b721ce7c615bd6472b813947f9f7285c"
     },
     {
       "path": "investor-toolkit.md",
       "downloadPath": "skills/real-estate-skill/investor-toolkit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/investor-toolkit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/investor-toolkit.md",
+      "byteCount": 3273,
+      "sha256": "4a56e91a18d267cee6442e1642a3fe286e9cd1df4191af83ed604b93f679f910"
     },
     {
       "path": "legal-compliance.md",
       "downloadPath": "skills/real-estate-skill/legal-compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/legal-compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/legal-compliance.md",
+      "byteCount": 4143,
+      "sha256": "8d0a67005793e81d592bdf1cf466e5433402db0818629ffdd24658a132b88feb"
     },
     {
       "path": "negotiation.md",
       "downloadPath": "skills/real-estate-skill/negotiation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/negotiation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/negotiation.md",
+      "byteCount": 4155,
+      "sha256": "d9da4374d9939f2ae0993a73f92a021b51aa9e1e186f4a7f583a77de3b59d066"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/real-estate-skill/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/real-estate-skill/SKILL.md",
+      "byteCount": 2717,
+      "sha256": "46b6c8d1611e1ae18b513866c423011ac163db0632d3eb2f598954bf6d825d70"
     }
   ]
 }

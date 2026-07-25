@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8c5e3b0e30eb6b1f9f3ef75a01db4e077cac9c3e7b20530e6a38782f35259e88",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "code",
-    "name": "Code",
+    "name": "code",
     "description": "Coding workflow with planning, implementation, verification, and testing for clean software development.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/code",
-    "summary": "When to Use User explicitly requests code implementation. Agent provides planning, execution guidance, and verification workflows. Architecture User preferences stored in `~/code/` when user explicitly requests. ``` ~/co",
+    "summary": "When to Use User explicitly requests code implementation. Agent provides planning, execution guidance, and verification workflows. Architecture User preferences stored in `~/Clawic/data/code/` when user explicitly reques",
     "repositoryPath": "skills/code",
     "manifestPath": "registry/skills/code.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/code/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/_meta.json",
+      "byteCount": 236,
+      "sha256": "4d7e95237894802cbb709253325f7c9359bc026cd50845f6253c23bf20917338"
     },
     {
       "path": "criteria.md",
       "downloadPath": "skills/code/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/criteria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/criteria.md",
+      "byteCount": 1132,
+      "sha256": "18461b8ab468875c18f806d24562b9257ca31bba66a0fdae923de1b02f420cbf"
     },
     {
       "path": "execution.md",
       "downloadPath": "skills/code/execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/execution.md",
+      "byteCount": 857,
+      "sha256": "da81c0a72ef9240881d2c974a6917bfd2d7e7cc526b14cfc3fc93b94cf44c337"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/code/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/memory-template.md",
+      "byteCount": 901,
+      "sha256": "5c96ec8f4f2a3359202bbd5a329b9ce812ec93338ebbf6bd738026b507cb8fa2"
     },
     {
       "path": "planning.md",
       "downloadPath": "skills/code/planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/planning.md",
+      "byteCount": 633,
+      "sha256": "25675d904cc7d84f97b7e491ad9fda3684f9111c55711766b02826a921735948"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/code/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/SKILL.md",
+      "byteCount": 3340,
+      "sha256": "f34fe9b53a98ebb1388b76e9f2ef6cd847fa6605270e5cd5fa4eee3da43dbbbb"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/code/state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/state.md",
+      "byteCount": 1342,
+      "sha256": "3e2451947af895ce2f1f9df99f0308f65bed491327021b02b35c05ac57366785"
     },
     {
       "path": "verification.md",
       "downloadPath": "skills/code/verification.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/verification.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/code/verification.md",
+      "byteCount": 874,
+      "sha256": "350148370baf9823d8886d0f9106a4f716eba85ffb2ccd8df2d9c05c3773fc9d"
     }
   ]
 }

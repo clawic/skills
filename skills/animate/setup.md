@@ -1,6 +1,6 @@
 # Setup - Animate
 
-Read this when `~/animate/` is missing or empty. Start helping immediately while capturing only context that changes motion decisions.
+Read this when `~/Clawic/data/animate/` is missing or empty. Start helping immediately while capturing only context that changes motion decisions.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ In the first exchanges, confirm when this skill should activate:
 - Only when they explicitly want implementation help
 - Only for selected products, platforms, or design-system work
 
-If they confirm, save activation preference in `~/animate/memory.md`.
+If they confirm, save activation preference in `~/Clawic/data/animate/memory.md`.
 
 ### 2. Then: Product Motion Context
 
@@ -40,7 +40,7 @@ Store reusable patterns, not one-off comments.
 
 ## What You Save Internally
 
-Persist only reusable information in `~/animate/memory.md`:
+Persist only reusable information in `~/Clawic/data/animate/memory.md`:
 - Integration preference
 - Primary stacks and products
 - Approved duration, easing, and spring ladders

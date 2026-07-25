@@ -1,6 +1,6 @@
 # Memory Template - IMAP
 
-Create `~/imap/memory.md` with this structure:
+Create `~/Clawic/data/imap/memory.md` with this structure:
 
 ```markdown
 # IMAP Memory
@@ -32,7 +32,7 @@ report_style: concise | detailed
 Updated: YYYY-MM-DD
 ```
 
-Create `~/imap/accounts.md` with this structure:
+Create `~/Clawic/data/imap/accounts.md` with this structure:
 
 ```markdown
 # IMAP Accounts
@@ -46,7 +46,7 @@ Create `~/imap/accounts.md` with this structure:
 - notes:
 ```
 
-Create `~/imap/folder-map.md` with this structure:
+Create `~/Clawic/data/imap/folder-map.md` with this structure:
 
 ```markdown
 # Folder Map
@@ -62,7 +62,7 @@ Create `~/imap/folder-map.md` with this structure:
 - notes:
 ```
 
-Create `~/imap/sync-state.md` with this structure:
+Create `~/Clawic/data/imap/sync-state.md` with this structure:
 
 ```markdown
 # Sync State
@@ -76,7 +76,7 @@ Create `~/imap/sync-state.md` with this structure:
 - notes:
 ```
 
-Create `~/imap/playbooks.md` with this structure:
+Create `~/Clawic/data/imap/playbooks.md` with this structure:
 
 ```markdown
 # Playbooks

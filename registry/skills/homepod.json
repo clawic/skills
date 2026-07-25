@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7f5946b4f74ea7edced6a5280d70c44539db15d5b0a370bd15520805905052f1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "homepod",
-    "name": "HomePod",
+    "name": "homepod",
     "description": "Set up, troubleshoot, and optimize HomePod and HomeKit audio workflows with reliable Siri control and room-aware playback tuning.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/homepod",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/homepod/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/_meta.json",
+      "byteCount": 166,
+      "sha256": "8d653f76a378a5fdec5e431cb4100b8c4b3beee1fe86f07c51189f2bcf8d8a9c"
     },
     {
       "path": "automation-playbook.md",
       "downloadPath": "skills/homepod/automation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/automation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/automation-playbook.md",
+      "byteCount": 1397,
+      "sha256": "60b9abccb083ac9eca3f242f071296b80221a810d5f2c4ebaa8111abf32e23ed"
     },
     {
       "path": "direct-control.md",
       "downloadPath": "skills/homepod/direct-control.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/direct-control.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/direct-control.md",
+      "byteCount": 2375,
+      "sha256": "cd52dab262b3155b57d8c39c7f0fdad5c66a21abe7c89c43c54f0a55f4329fb1"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/homepod/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/memory-template.md",
+      "byteCount": 1420,
+      "sha256": "469e11b38367dc432d561e18f7c3bd6ba7ca986c350e4f98fbc0577ab545d156"
     },
     {
       "path": "network-diagnostics.md",
       "downloadPath": "skills/homepod/network-diagnostics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/network-diagnostics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/network-diagnostics.md",
+      "byteCount": 1634,
+      "sha256": "6a728cd582d9d61194ff4ddcb05a4d64f96d67518263746faf99a6c05fde84d3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/homepod/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/setup.md",
+      "byteCount": 1613,
+      "sha256": "8a5d22123a0f1e6a0ff20f150f33408fb52a92547b799e49928be1a34c90f9d9"
     },
     {
       "path": "siri-recovery.md",
       "downloadPath": "skills/homepod/siri-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/siri-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/siri-recovery.md",
+      "byteCount": 1522,
+      "sha256": "6bc65ddf8b94ef4bd5d90811bbad6a6c6eac1685da21e82b51a15bde10f360f0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/homepod/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/homepod/SKILL.md",
+      "byteCount": 5091,
+      "sha256": "7bc76cfce73bca3bd9e52f7f498cf68dda57ea9e25041c7e91985b72d5367b93"
     }
   ]
 }

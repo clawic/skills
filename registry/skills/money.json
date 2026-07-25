@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "628693b9c473af664c14a0e83f1fc3b192413466e574d8acffc4156cca27c6c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "money",
-    "name": "Money",
+    "name": "money",
     "description": "Personal finance guidance with practical rules for saving, investing, and avoiding common traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/money",
     "summary": "Personal Finance Rules Before Any Advice - Ask about existing debts, income stability, and country of residence — generic advice without context is dangerous - High-interest debt (credit cards, payday loans) must be paid",
     "repositoryPath": "skills/money",
     "manifestPath": "registry/skills/money.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/money/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/_meta.json",
+      "byteCount": 162,
+      "sha256": "dd93ac1f447f19bef2b2271a149f4cd6ab56c16530ba214de005044e4ccb59e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/money/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/SKILL.md",
+      "byteCount": 3616,
+      "sha256": "916586474e9e4aaa8abd13590a0577cfa94a5b1ff40847ee011251773468db25"
     }
   ]
 }

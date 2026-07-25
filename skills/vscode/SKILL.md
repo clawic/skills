@@ -1,7 +1,17 @@
 ---
-name: VSCode
+name: vscode
+slug: vscode
+version: 1.0.0
 description: Avoid common VSCode mistakes — settings conflicts, debugger setup, and extension clashes.
-metadata: {"clawdbot":{"emoji":"💻","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vscode
+metadata:
+  clawdbot:
+    emoji: 💻
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: VSCode
 ---
 
 ## Settings Precedence

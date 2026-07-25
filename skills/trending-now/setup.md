@@ -1,6 +1,6 @@
 # Setup - Trending Now
 
-Use this file when `~/trending-now/` is missing or empty.
+Use this file when `~/Clawic/data/trending-now/` is missing or empty.
 
 ## Operating Priorities
 
@@ -29,9 +29,9 @@ Use this file when `~/trending-now/` is missing or empty.
 4. If setup context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/trending-now
-touch ~/trending-now/{memory.md,topics.md,runs.md,alerts.md}
+touch ~/Clawic/data/trending-now/{memory.md,topics.md,runs.md,alerts.md}
 chmod 700 ~/trending-now
-chmod 600 ~/trending-now/{memory.md,topics.md,runs.md,alerts.md}
+chmod 600 ~/Clawic/data/trending-now/{memory.md,topics.md,runs.md,alerts.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

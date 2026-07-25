@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ba8977249910815a7b0839346b3b3257e31786b667cc06a6ad81f97bc54e6330",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "meal-planner",
-    "name": "Meal Planner",
+    "name": "meal-planner",
     "description": "Plan meals with weekly menus, shopping lists, batch cooking, budget tracking, dietary preferences, and recipe management.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/meal-planner",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/meal-planner/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/_meta.json",
+      "byteCount": 176,
+      "sha256": "f284a847ec86552c03c6001f712c0c57cb6fbb9f6f9bdcea84dd2a74e26c61f2"
     },
     {
       "path": "budget-tips.md",
       "downloadPath": "skills/meal-planner/budget-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/budget-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/budget-tips.md",
+      "byteCount": 5360,
+      "sha256": "308a389928682c366a75184aab2d429e8a27a7c000b4801fae6ab23f024f3382"
     },
     {
       "path": "meal-prep.md",
       "downloadPath": "skills/meal-planner/meal-prep.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/meal-prep.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/meal-prep.md",
+      "byteCount": 5429,
+      "sha256": "a542590bfc8574671eb3335b73bdc5e51e8fc9aa0d168706e9a23ae7c01410e8"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/meal-planner/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/memory-template.md",
+      "byteCount": 2746,
+      "sha256": "d49fe9c49cacc6d3dba6e48af71c155b5bf6caeb6e51c6a6fd9c62003f8c648f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/meal-planner/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/setup.md",
+      "byteCount": 1581,
+      "sha256": "292f361d6a6b49b255f13c2c1a0e57d2aff9167f7fc3b2ee9658ba8311388927"
     },
     {
       "path": "shopping-guide.md",
       "downloadPath": "skills/meal-planner/shopping-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/shopping-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/shopping-guide.md",
+      "byteCount": 3247,
+      "sha256": "5098f279b375246fe21e9bcd7a08b4b742b337b59970678dab8e5ff3dbc9899b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/meal-planner/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meal-planner/SKILL.md",
+      "byteCount": 7684,
+      "sha256": "16bbd9033ab00f27b466ea07c6f42a590f24db9a36aee328440f2a0056de0585"
     }
   ]
 }

@@ -4,12 +4,12 @@
 
 Create directory on first use:
 ```bash
-mkdir -p ~/couple/archive
+mkdir -p ~/Clawic/data/couple/archive
 ```
 
 ## memory.md Template
 
-Copy to `~/couple/memory.md`:
+Copy to `~/Clawic/data/couple/memory.md`:
 
 ```markdown
 # Couple Memory

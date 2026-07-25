@@ -1,6 +1,13 @@
 ---
-name: Encryption
+name: encryption
+slug: encryption
+version: 1.0.0
 description: Encrypt files, secure passwords, manage keys, and audit code for cryptographic best practices.
+homepage: https://clawic.com/skills/encryption
+metadata:
+  clawdbot:
+    emoji: 🔐
+    displayName: Encryption
 ---
 
 ## When to Use

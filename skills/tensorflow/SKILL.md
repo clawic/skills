@@ -1,7 +1,20 @@
 ---
-name: TensorFlow
+name: tensorflow
+slug: tensorflow
+version: 1.0.0
 description: Avoid common TensorFlow mistakes — tf.function retracing, GPU memory, data pipeline bottlenecks, and gradient traps.
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/tensorflow
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: TensorFlow
 ---
 
 ## tf.function Retracing

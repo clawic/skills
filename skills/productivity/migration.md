@@ -2,69 +2,69 @@
 
 ## v1.0.4 Productivity Operating System Update
 
-This update keeps the same home folder, `~/productivity/`, but changes the recommended structure from a light memory-only setup into a fuller operating system with named folders for inbox, goals, projects, tasks, habits, planning, reviews, commitments, focus, routines, and someday items.
+This update keeps the same home folder, `~/Clawic/data/productivity/`, but changes the recommended structure from a light memory-only setup into a fuller operating system with named folders for inbox, goals, projects, tasks, habits, planning, reviews, commitments, focus, routines, and someday items.
 
 ### Before
 
-- `~/productivity/memory.md`
-- optional loose notes such as `~/productivity/<topic>.md`
+- `~/Clawic/data/productivity/memory.md`
+- optional loose notes such as `~/Clawic/data/productivity/<topic>.md`
 - older installs may also have copied context guides in a flat layout
 
 ### After
 
-- `~/productivity/memory.md`
-- `~/productivity/inbox/`
-- `~/productivity/dashboard.md`
-- `~/productivity/goals/`
-- `~/productivity/projects/`
-- `~/productivity/tasks/`
-- `~/productivity/habits/`
-- `~/productivity/planning/`
-- `~/productivity/reviews/`
-- `~/productivity/commitments/`
-- `~/productivity/focus/`
-- `~/productivity/routines/`
-- `~/productivity/someday/`
+- `~/Clawic/data/productivity/memory.md`
+- `~/Clawic/data/productivity/inbox/`
+- `~/Clawic/data/productivity/dashboard.md`
+- `~/Clawic/data/productivity/goals/`
+- `~/Clawic/data/productivity/projects/`
+- `~/Clawic/data/productivity/tasks/`
+- `~/Clawic/data/productivity/habits/`
+- `~/Clawic/data/productivity/planning/`
+- `~/Clawic/data/productivity/reviews/`
+- `~/Clawic/data/productivity/commitments/`
+- `~/Clawic/data/productivity/focus/`
+- `~/Clawic/data/productivity/routines/`
+- `~/Clawic/data/productivity/someday/`
 - any old loose notes preserved until the user chooses to merge or archive them
 
 ## Safe Migration
 
-1. Check whether `~/productivity/` already exists.
+1. Check whether `~/Clawic/data/productivity/` already exists.
 
 2. If it exists, keep `memory.md` exactly as it is.
 
 3. Create the new files without deleting the old ones:
 
 ```bash
-mkdir -p ~/productivity/{inbox,goals,projects,tasks,habits,planning,reviews,commitments,focus,routines,someday}
-touch ~/productivity/inbox/capture.md
-touch ~/productivity/inbox/triage.md
-touch ~/productivity/dashboard.md
-touch ~/productivity/goals/active.md
-touch ~/productivity/goals/someday.md
-touch ~/productivity/projects/active.md
-touch ~/productivity/projects/waiting.md
-touch ~/productivity/tasks/next-actions.md
-touch ~/productivity/tasks/this-week.md
-touch ~/productivity/tasks/waiting.md
-touch ~/productivity/tasks/done.md
-touch ~/productivity/habits/active.md
-touch ~/productivity/habits/friction.md
-touch ~/productivity/planning/daily.md
-touch ~/productivity/planning/weekly.md
-touch ~/productivity/planning/focus-blocks.md
-touch ~/productivity/reviews/weekly.md
-touch ~/productivity/reviews/monthly.md
-touch ~/productivity/commitments/promises.md
-touch ~/productivity/commitments/delegated.md
-touch ~/productivity/focus/sessions.md
-touch ~/productivity/focus/distractions.md
-touch ~/productivity/routines/morning.md
-touch ~/productivity/routines/shutdown.md
-touch ~/productivity/someday/ideas.md
+mkdir -p ~/Clawic/data/productivity/{inbox,goals,projects,tasks,habits,planning,reviews,commitments,focus,routines,someday}
+touch ~/Clawic/data/productivity/inbox/capture.md
+touch ~/Clawic/data/productivity/inbox/triage.md
+touch ~/Clawic/data/productivity/dashboard.md
+touch ~/Clawic/data/productivity/goals/active.md
+touch ~/Clawic/data/productivity/goals/someday.md
+touch ~/Clawic/data/productivity/projects/active.md
+touch ~/Clawic/data/productivity/projects/waiting.md
+touch ~/Clawic/data/productivity/tasks/next-actions.md
+touch ~/Clawic/data/productivity/tasks/this-week.md
+touch ~/Clawic/data/productivity/tasks/waiting.md
+touch ~/Clawic/data/productivity/tasks/done.md
+touch ~/Clawic/data/productivity/habits/active.md
+touch ~/Clawic/data/productivity/habits/friction.md
+touch ~/Clawic/data/productivity/planning/daily.md
+touch ~/Clawic/data/productivity/planning/weekly.md
+touch ~/Clawic/data/productivity/planning/focus-blocks.md
+touch ~/Clawic/data/productivity/reviews/weekly.md
+touch ~/Clawic/data/productivity/reviews/monthly.md
+touch ~/Clawic/data/productivity/commitments/promises.md
+touch ~/Clawic/data/productivity/commitments/delegated.md
+touch ~/Clawic/data/productivity/focus/sessions.md
+touch ~/Clawic/data/productivity/focus/distractions.md
+touch ~/Clawic/data/productivity/routines/morning.md
+touch ~/Clawic/data/productivity/routines/shutdown.md
+touch ~/Clawic/data/productivity/someday/ideas.md
 ```
 
-4. If the user has older free-form topic files in `~/productivity/`, map them gradually:
+4. If the user has older free-form topic files in `~/Clawic/data/productivity/`, map them gradually:
    - current priorities -> `dashboard.md`
    - goals -> `goals/active.md`
    - projects -> `projects/active.md`

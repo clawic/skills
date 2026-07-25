@@ -1,6 +1,6 @@
 # Memory Template - Shipping Operations
 
-Create `~/shipping/memory.md` with this structure:
+Create `~/Clawic/data/shipping/memory.md` with this structure:
 
 ```markdown
 # Shipping Operations Memory

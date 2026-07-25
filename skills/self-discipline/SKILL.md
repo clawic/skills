@@ -1,11 +1,22 @@
 ---
-name: Self Discipline
+name: self-discipline
 slug: self-discipline
 version: 1.0.1
-homepage: https://clawic.com/skills/self-discipline
 description: Guarantee instruction compliance with root cause analysis, flow verification, and automated validators that make future failures impossible.
-metadata: {"clawdbot":{"emoji":"⚔️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/self-discipline/"]}}
+homepage: https://clawic.com/skills/self-discipline
 changelog: Initial release with severity detection, flow analysis, instruction verification, and validator generation.
+metadata:
+  clawdbot:
+    emoji: ⚔️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/self-discipline/
+    displayName: Self Discipline
 ---
 
 Instructions written but never followed. Lessons logged but never read. The same mistakes repeated across sessions. This skill breaks that cycle permanently.
@@ -72,14 +83,14 @@ User is frustrated that the agent ignored instructions. Something critical happe
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Creates `~/self-discipline/` for rules, validators, and enforcement logs.
+On first use, read `setup.md` for integration guidelines. Creates `~/Clawic/data/self-discipline/` for rules, validators, and enforcement logs.
 
 ## Architecture
 
-Memory lives in `~/self-discipline/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/self-discipline/`. See `memory-template.md` for structure.
 
 ```
-~/self-discipline/
+~/Clawic/data/self-discipline/
 ├── memory.md              # Status + severity thresholds + stats
 ├── rules.md               # Active discipline rules (ALWAYS loaded)
 ├── incidents.md           # Incident log with root cause analysis
@@ -155,13 +166,13 @@ QUESTION: Is the instruction in ANY of these?
 
 ### 4. User Consent Required
 
-**NEVER modify files outside ~/self-discipline/ without explicit user permission.**
+**NEVER modify files outside ~/Clawic/data/self-discipline/ without explicit user permission.**
 
 When suggesting changes to AGENTS.md, HEARTBEAT.md, or other files:
 
 | Action | Requirement |
 |--------|-------------|
-| Create ~/self-discipline/ | Ask permission first |
+| Create ~/Clawic/data/self-discipline/ | Ask permission first |
 | Edit AGENTS.md | Show exact changes, wait for approval |
 | Add to HEARTBEAT.md | Show exact changes, wait for approval |
 | Create validator script | Show script content, wait for approval |
@@ -178,7 +189,7 @@ When suggesting changes to AGENTS.md, HEARTBEAT.md, or other files:
 For 🔴 CRITICAL issues, create automated validators:
 
 ```bash
-# Example: ~/self-discipline/validators/pre-send/no-secrets.sh
+# Example: ~/Clawic/data/self-discipline/validators/pre-send/no-secrets.sh
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -203,7 +214,7 @@ fi
 
 ### 6. Track Enforcement
 
-In `~/self-discipline/memory.md`, maintain:
+In `~/Clawic/data/self-discipline/memory.md`, maintain:
 
 | Metric | Purpose |
 |--------|---------|
@@ -324,7 +335,7 @@ exit 0
 ## Security & Privacy
 
 **Data that stays local:**
-- All rules, incidents, and validators in `~/self-discipline/`
+- All rules, incidents, and validators in `~/Clawic/data/self-discipline/`
 - No data sent to external services
 - No telemetry or analytics
 
@@ -333,16 +344,16 @@ exit 0
 - Access credentials or secrets
 - Modify files without explicit user permission
 - Run validators without user approval
-- Access files outside `~/self-discipline/` without asking
+- Access files outside `~/Clawic/data/self-discipline/` without asking
 
-**File modifications outside ~/self-discipline/:**
+**File modifications outside ~/Clawic/data/self-discipline/:**
 - Only suggested when needed for rule visibility (e.g., AGENTS.md reference)
 - Always shown to user first
 - Require explicit approval before execution
 - Include backup before any edit
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `reflection` — structured self-evaluation
 - `memory` — persistent memory patterns
 - `decide` — decision-making patterns
@@ -351,5 +362,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star self-discipline`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/self-discipline
+- Latest version: https://clawic.com/skills/self-discipline

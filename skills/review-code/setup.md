@@ -1,6 +1,6 @@
 # Setup - Review Code
 
-Read this silently when `~/review-code/` is missing or empty.
+Read this silently when `~/Clawic/data/review-code/` is missing or empty.
 Start naturally and solve the current user request first.
 
 ## Your Attitude

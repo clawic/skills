@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8e1c99747537006633c316781f9c67d1d3ad63d4240491ea3a47b0a6513f0ad7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "biotechnology",
-    "name": "Biotechnology",
+    "name": "biotechnology",
     "description": "Assist with biotechnology from basic concepts to research design and industry applications.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/biotechnology",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/biotechnology/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/_meta.json",
+      "byteCount": 178,
+      "sha256": "7305863f2847d7da2c92ca561f41aa7ebbb80f87cfdbb7d9f4758a58a5685a77"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/biotechnology/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/memory-template.md",
+      "byteCount": 911,
+      "sha256": "a8667ac9dc8e1e078fc8cc04ac4ea1f93bdbaabf849e81eb1265cd14601b92bc"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/biotechnology/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/setup.md",
+      "byteCount": 1712,
+      "sha256": "51e96eb0da73101433a3187c7b1b2ad31e826bbaa0e190bacb5f4232fbcc6d75"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/biotechnology/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/biotechnology/SKILL.md",
+      "byteCount": 4844,
+      "sha256": "6381d0712c64eb6d8bf11b3a45d39c8d1084737c458ffb6ae934b575e6a91e46"
     }
   ]
 }

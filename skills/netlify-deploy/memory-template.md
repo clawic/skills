@@ -1,6 +1,6 @@
 # Memory Template - Netlify Deploy
 
-Create `~/netlify-deploy/memory.md` with this structure:
+Create `~/Clawic/data/netlify-deploy/memory.md` with this structure:
 
 ```markdown
 # Netlify Deploy Memory

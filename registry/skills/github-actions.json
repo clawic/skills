@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "323b617333229e8a93970d7f2a0680a4b7c9e6359c5a3678c3c525422478b4e7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "github-actions",
-    "name": "GitHub Actions",
+    "name": "github-actions",
     "description": "Design, debug, and harden GitHub Actions workflows with reusable pipelines, safe permissions, and faster CI and release automation.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/github-actions",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/github-actions/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/_meta.json",
+      "byteCount": 180,
+      "sha256": "40efaf014686c4b50a62248fff63aa70387aeac8c4a49c86693be496112a35db"
     },
     {
       "path": "debugging-playbook.md",
       "downloadPath": "skills/github-actions/debugging-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/debugging-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/debugging-playbook.md",
+      "byteCount": 2551,
+      "sha256": "291a5e3648972f9e47395329818b035ef163880d888d138fbea8c3b8c1fc679c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/github-actions/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/memory-template.md",
+      "byteCount": 1806,
+      "sha256": "f983bac2999388e8bbef81df50234e71c1ddbfafee92dc8be37da3b85e40bff7"
     },
     {
       "path": "performance-tuning.md",
       "downloadPath": "skills/github-actions/performance-tuning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/performance-tuning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/performance-tuning.md",
+      "byteCount": 2121,
+      "sha256": "56007ab57d432e26f07bb4ec0370daf573e7776f55c777f736532aad691d57bf"
     },
     {
       "path": "release-patterns.md",
       "downloadPath": "skills/github-actions/release-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/release-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/release-patterns.md",
+      "byteCount": 1858,
+      "sha256": "9da55cde9c66ba70ebb07bbf2043d3ff74a33ec4363414b2db07a533d314312e"
     },
     {
       "path": "security-model.md",
       "downloadPath": "skills/github-actions/security-model.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/security-model.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/security-model.md",
+      "byteCount": 2481,
+      "sha256": "fad313f7935cc12baccfa724159992a8f8cc69c88d52d57e3da1d74f555b7e5c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/github-actions/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/setup.md",
+      "byteCount": 2186,
+      "sha256": "73657613404908876e973b20f157950b0de148bb099d77860ddc1123ab0633ed"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/github-actions/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/SKILL.md",
+      "byteCount": 9163,
+      "sha256": "5f3376dcfc78e66c0a4492916ff8725b657de02c58b63253cda0274154718de9"
     },
     {
       "path": "workflow-patterns.md",
       "downloadPath": "skills/github-actions/workflow-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/workflow-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/github-actions/workflow-patterns.md",
+      "byteCount": 2388,
+      "sha256": "f9573a6290dcef0cb10e659e5667f4595bee7477760049087f1df591a0089cf9"
     }
   ]
 }

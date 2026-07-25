@@ -1,11 +1,20 @@
 ---
-name: Travel Planning
+name: travel-planning
 slug: travel-planning
 version: 1.0.1
-homepage: https://clawic.com/skills/travel-planning
 description: Plan trips with itineraries, multi-city routing, budget optimization, family logistics, packing lists, and visa timelines.
+homepage: https://clawic.com/skills/travel-planning
 changelog: Fixed all references to use travel-planning consistently.
-metadata: {"clawdbot":{"emoji":"✈️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ✈️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Travel Planning
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User wants to plan a trip, track travel expenses, organize bookings, coordinate 
 
 ## Architecture
 
-Memory lives in `~/travel-planning/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/travel-planning/`. See `memory-template.md` for structure.
 
 ```
-~/travel-planning/
+~/Clawic/data/travel-planning/
 ├── memory.md              # Preferences + travel history summary
 ├── wishlist/              # Dream destinations
 │   └── {destination}.md
@@ -51,7 +60,7 @@ Memory lives in `~/travel-planning/`. See `memory-template.md` for structure.
 ## Core Rules
 
 ### 1. Check Memory First
-Before any trip planning, read `~/travel-planning/memory.md` for:
+Before any trip planning, read `~/Clawic/data/travel-planning/memory.md` for:
 - Travel style preferences (budget, pace, accommodation type)
 - Past trip patterns (average daily spend, packing habits)
 - Document status (passport expiry, frequent flyer numbers)
@@ -216,7 +225,7 @@ Keep 2-3 hours buffer daily. Mark must-dos vs nice-to-haves.
 ## Scope
 
 This skill ONLY:
-- Manages travel planning in `~/travel-planning/`
+- Manages travel planning in `~/Clawic/data/travel-planning/`
 - Reads/writes markdown files for trips, budgets, packing
 - Reminds about deadlines based on trip dates
 
@@ -224,15 +233,15 @@ This skill NEVER:
 - Makes actual bookings (provides info for user to book)
 - Accesses email or calendar directly
 - Stores payment information
-- Reads files outside `~/travel-planning/`
+- Reads files outside `~/Clawic/data/travel-planning/`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `daily-planner` — daily task management
 - `plan` — general project planning
 - `expenses` — expense tracking
 
 ## Feedback
 
-- If useful: `clawhub star travel-planning`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/travel-planning
+- Latest version: https://clawic.com/skills/travel-planning

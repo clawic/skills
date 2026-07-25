@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "07e2bf0ae163839f299445a6e89f4d57e75a8c553334e52a2c62252d71be57a9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "django",
-    "name": "Django",
+    "name": "django",
     "description": "Build secure Django apps avoiding ORM pitfalls, N+1 queries, and common security traps.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/django",
     "summary": "Quick Reference | Topic | File | |-------|------| | QuerySet lazy eval, N+1, transactions | `orm.md` | | Request handling, middleware, context | `views.md` | | Validation, CSRF, file uploads | `forms.md` | | Migrations, ",
     "repositoryPath": "skills/django",
     "manifestPath": "registry/skills/django.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/django/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/_meta.json",
+      "byteCount": 240,
+      "sha256": "df839f36436a2f69bef958543d99082b5d4674293a9fb96b6a49ea75593ce2c9"
     },
     {
       "path": "async.md",
       "downloadPath": "skills/django/async.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/async.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/async.md",
+      "byteCount": 546,
+      "sha256": "ab43413a05e107fdb015828a4fda18571883ab0c65579998dfc6f2d1dbb9dca8"
     },
     {
       "path": "forms.md",
       "downloadPath": "skills/django/forms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/forms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/forms.md",
+      "byteCount": 603,
+      "sha256": "6dac6e6afcf4a3c8ab52c71d68455dc572f9327ba143a001ba8d6afb1d49d174"
     },
     {
       "path": "models.md",
       "downloadPath": "skills/django/models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/models.md",
+      "byteCount": 761,
+      "sha256": "1085f23f9009f47f0e0c8b6464eb78a28b73eca8eda776aee3b3d47723fc3d7c"
     },
     {
       "path": "orm.md",
       "downloadPath": "skills/django/orm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/orm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/orm.md",
+      "byteCount": 792,
+      "sha256": "14361512131c012a58ba40f448e74eb13a137df774ad8b61e71924d9cafb7a9d"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/django/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/security.md",
+      "byteCount": 719,
+      "sha256": "6bf308dc18518d36fe7ee3f8b290618888dab47b6bb2ea19d634012e80ab9fda"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/django/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/SKILL.md",
+      "byteCount": 1638,
+      "sha256": "4b2969cff20ad6c3a4c681a93a828871ee2b7d3b1a8c4ae41233ed93bed3a0ae"
     },
     {
       "path": "views.md",
       "downloadPath": "skills/django/views.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/views.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/views.md",
+      "byteCount": 615,
+      "sha256": "916e758d97da3d7a4aca6e09192212ea749a00c789198585edf81a56102c0528"
     }
   ]
 }

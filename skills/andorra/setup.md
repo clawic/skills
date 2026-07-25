@@ -1,6 +1,6 @@
 # Setup — Andorra Skill
 
-Read this when `~/andorra/` doesn't exist or is empty. Start naturally.
+Read this when `~/Clawic/data/andorra/` doesn't exist or is empty. Start naturally.
 
 ## Your Attitude
 

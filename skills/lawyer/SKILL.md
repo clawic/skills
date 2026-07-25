@@ -1,7 +1,17 @@
 ---
-name: Lawyer
+name: lawyer
+slug: lawyer
+version: 1.0.0
 description: Draft contracts, review legal documents, and navigate compliance with practical legal patterns.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/lawyer
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Lawyer
 ---
 
 # Legal Assistance Rules

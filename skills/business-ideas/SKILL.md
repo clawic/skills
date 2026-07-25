@@ -1,10 +1,19 @@
 ---
-name: Business Ideas
+name: business-ideas
 slug: business-ideas
 version: 1.0.0
-homepage: https://clawic.com/skills/business-ideas
 description: Generate unlimited business ideas with validation frameworks, market filters, and viability scoring.
-metadata: {"clawdbot":{"emoji":"💡","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/business-ideas
+metadata:
+  clawdbot:
+    emoji: 💡
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Business Ideas
 ---
 
 ## When to Use
@@ -13,10 +22,10 @@ User wants new business ideas, startup concepts, or side project inspiration. Ag
 
 ## Architecture
 
-Memory lives in `~/business-ideas/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/business-ideas/`. See `memory-template.md` for setup.
 
 ```
-~/business-ideas/
+~/Clawic/data/business-ideas/
 ├── ideas.md           # HOT: generated ideas with scores
 ├── favorites.md       # WARM: ideas user marked for exploration
 ├── filters.md         # User's default filters and preferences
@@ -34,7 +43,7 @@ Memory lives in `~/business-ideas/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Never Repeat Ideas
-Before generating, scan `~/business-ideas/ideas.md` for similar concepts. Each idea must be meaningfully different from previous generations.
+Before generating, scan `~/Clawic/data/business-ideas/ideas.md` for similar concepts. Each idea must be meaningfully different from previous generations.
 
 ### 2. Always Apply Filters
 Ask for or use stored filters before generating:
@@ -101,12 +110,12 @@ When user picks an idea to explore:
 - Ignoring user constraints → Always check filters first
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `business` — Strategy and planning
 - `startup` — Launch and scale
 - `indie-hacker` — Bootstrap and grow solo
 
 ## Feedback
 
-- If useful: `clawhub star business-ideas`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/business-ideas
+- Latest version: https://clawic.com/skills/business-ideas

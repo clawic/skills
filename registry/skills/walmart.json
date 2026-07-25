@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c6c964a610b64826befd32b015c7c869493e4a67909b598d99c73957b6a978ca",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "walmart",
-    "name": "Walmart",
+    "name": "walmart",
     "description": "Plan Walmart grocery and household orders with pickup timing, substitutions, repeat restocks, and budget-aware cart decisions.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/walmart",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/walmart/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/_meta.json",
+      "byteCount": 166,
+      "sha256": "96dcfd3af597a85e71bb4e46cf3ffeab28042b1dc5be6f09302f017a5dbf51b8"
     },
     {
       "path": "automation-paths.md",
       "downloadPath": "skills/walmart/automation-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/automation-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/automation-paths.md",
+      "byteCount": 2192,
+      "sha256": "2564c07f716dfff6cb51e56403f2b7bfb2b18c1f94826e28bad8e52393bbd526"
     },
     {
       "path": "basket-workflows.md",
       "downloadPath": "skills/walmart/basket-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/basket-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/basket-workflows.md",
+      "byteCount": 1377,
+      "sha256": "738e14a12be5006d6cc6f2bc61d39db4ef649106075f520b4570eb40b15ec310"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/walmart/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/memory-template.md",
+      "byteCount": 3341,
+      "sha256": "961f5576c5d907e9e2525ae0c8527fe9f3951260983884444f3ddc2d6e9acb75"
     },
     {
       "path": "order-recovery.md",
       "downloadPath": "skills/walmart/order-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/order-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/order-recovery.md",
+      "byteCount": 1266,
+      "sha256": "6b2ee3969c05a2d52f934603117799b62289ca81c05edb71e3fb3aac66409ee7"
     },
     {
       "path": "pharmacy-safety.md",
       "downloadPath": "skills/walmart/pharmacy-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/pharmacy-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/pharmacy-safety.md",
+      "byteCount": 1014,
+      "sha256": "cb6b8aff7fa5273769b0cb815caca997d5845a46b4b1295d0f0a8b41f12a4583"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/walmart/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/setup.md",
+      "byteCount": 2355,
+      "sha256": "2806689f700604903894910ab91b1571f4d78a5b408c0821a4db14aae78bd193"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/walmart/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/SKILL.md",
+      "byteCount": 9384,
+      "sha256": "6b5ce132c019cb825037b54b7d023fdc3c529ca37d5d7e67b05b87ba816c2902"
     },
     {
       "path": "substitutions-playbook.md",
       "downloadPath": "skills/walmart/substitutions-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/substitutions-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/walmart/substitutions-playbook.md",
+      "byteCount": 1293,
+      "sha256": "b7cc66c9c99e84b878f10bd8475d62b7c1474f66499d313839fd86d0bc809c7c"
     }
   ]
 }

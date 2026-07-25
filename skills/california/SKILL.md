@@ -1,11 +1,24 @@
 ---
-name: California
+name: california
 slug: california
 version: 1.0.0
-homepage: https://clawic.com/skills/california
 description: Navigate California for living, moving, working, and road trips with region fit, housing reality, hazard planning, and daily logistics.
-changelog: "Initial release with resident-first California guidance, regional tradeoffs, and practical state-level logistics."
-metadata: {"clawdbot":{"emoji":"🌊","requires":{"bins":[],"config":["~/california/"]},"os":["linux","darwin","win32"],"configPaths":["~/california/"]}}
+homepage: https://clawic.com/skills/california
+changelog: Initial release with resident-first California guidance, regional tradeoffs, and practical state-level logistics.
+metadata:
+  clawdbot:
+    emoji: 🌊
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/california/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/california/
+    displayName: California
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for four modes: visiting, moving to California, livin
 
 ## Architecture
 
-This skill works statelessly for one-off California questions. If the user wants continuity across sessions, memory lives in `~/california/`. If `~/california/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off California questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/california/`. If `~/Clawic/data/california/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/california/
+~/Clawic/data/california/
 └── memory.md     # User context, region, timelines, constraints, and open loops
 ```
 
@@ -75,7 +88,7 @@ This skill works statelessly for one-off California questions. If the user wants
 - California users often need deadlines, documents, portals, and tradeoffs.
 - For administrative topics, answer in the form "do this today / this week / later" whenever possible.
 - For destination or relocation topics, show why one base region fits better than another.
-- Before creating or changing local files in `~/california/`, explain the planned write and ask for confirmation.
+- Before creating or changing local files in `~/Clawic/data/california/`, explain the planned write and ask for confirmation.
 
 ### 7. Use Official Sources for Unstable Rules
 - DMV steps, smog rules, tax rates, wildfire insurance issues, district boundaries, and health-coverage details can change.
@@ -114,7 +127,7 @@ No other data is sent externally.
 - ZIP, county, or district data only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/california/`
+- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/Clawic/data/california/`
 
 **This skill does NOT:**
 - Submit government forms on the user's behalf without explicit instruction
@@ -128,7 +141,7 @@ By using this skill, location details such as ZIP, county, or district may be ch
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General itinerary design and travel planning structure
 - `car-rental` — Rental car, pickup, and handoff decisions for California trips
 - `home-buying` — Deeper purchase workflow support after region and housing fit are narrowed
@@ -137,5 +150,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star california`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/california
+- Latest version: https://clawic.com/skills/california

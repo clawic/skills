@@ -1,6 +1,13 @@
 ---
-name: Finnish
+name: finnish
+slug: finnish
+version: 1.0.0
 description: Write Finnish that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/finnish
+metadata:
+  clawdbot:
+    emoji: 🇫🇮
+    displayName: Finnish
 ---
 
 ## The Real Problem

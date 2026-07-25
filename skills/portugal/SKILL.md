@@ -1,15 +1,26 @@
 ---
-name: Portugal
+name: portugal
 slug: portugal
 version: 1.0.0
-homepage: https://clawic.com/skills/portugal
 description: Discover Portugal like a local with specific restaurants, hidden gems, wine regions, and tips beyond the tourist traps.
-metadata: {"clawdbot":{"emoji":"🇵🇹","requires":{"bins":[],"config":["~/portugal/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/portugal
+metadata:
+  clawdbot:
+    emoji: 🇵🇹
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/portugal/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Portugal
 ---
 
 ## Setup
 
-If `~/portugal/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/portugal/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -17,10 +28,10 @@ User planning a trip to Portugal or wanting local insights: where to eat, what t
 
 ## Architecture
 
-Memory lives in `~/portugal/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/portugal/`. See `memory-template.md` for structure.
 
 ```
-~/portugal/
+~/Clawic/data/portugal/
 └── memory.md     # Trip context
 ```
 
@@ -120,17 +131,17 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in ~/portugal/
+**Data that stays local:** Trip preferences in ~/Clawic/data/portugal/
 
-**This skill does NOT:** Access files outside ~/portugal/ or make network requests.
+**This skill does NOT:** Access files outside ~/Clawic/data/portugal/ or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — Travel planning
 - `food` — Food and cooking
 - `portuguese` — Portuguese language
 
 ## Feedback
 
-- If useful: `clawhub star portugal`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/portugal
+- Latest version: https://clawic.com/skills/portugal

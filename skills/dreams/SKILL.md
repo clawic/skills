@@ -1,18 +1,28 @@
 ---
-name: Dreams
+name: dreams
+slug: dreams
+version: 1.0.0
 description: Build a personal dream journal for recording, analyzing patterns, and exploring your subconscious.
-metadata: {"clawdbot":{"emoji":"🌙","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dreams
+metadata:
+  clawdbot:
+    emoji: 🌙
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dreams
 ---
 
 ## Core Behavior
 - User describes dream → capture immediately with details
 - User asks about patterns → surface recurring themes
 - User curious about symbols → explore possible meanings
-- Create `~/dreams/` as workspace
+- Create `~/Clawic/data/dreams/` as workspace
 
 ## File Structure
 ```
-~/dreams/
+~/Clawic/data/dreams/
 ├── journal/
 │   └── 2024/
 │       └── 02/

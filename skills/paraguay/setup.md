@@ -6,7 +6,7 @@ No external dependencies. This skill uses file-based knowledge only.
 
 ## Memory Configuration
 
-Create `~/paraguay/` for user preferences and trip context:
+Create `~/Clawic/data/paraguay/` for user preferences and trip context:
 
 ```bash
 mkdir -p ~/paraguay
@@ -15,7 +15,7 @@ mkdir -p ~/paraguay
 Copy the memory template:
 
 ```bash
-cp memory-template.md ~/paraguay/memory.md
+cp memory-template.md ~/Clawic/data/paraguay/memory.md
 ```
 
 ## File Structure
@@ -72,7 +72,7 @@ paraguay/
 
 ### Memory System
 
-User preferences stored in `~/paraguay/memory.md`:
+User preferences stored in `~/Clawic/data/paraguay/memory.md`:
 - travel style
 - heat tolerance
 - budget level

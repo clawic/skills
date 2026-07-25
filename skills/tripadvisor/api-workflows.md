@@ -19,7 +19,7 @@ curl -sS "https://api.tripadvisor.com/api/partner/2.0/location/search?query=Madr
   | jq '.data[] | {location_id, name, result_type, address_obj}'
 ```
 
-Store chosen mapping in `~/tripadvisor/api/location-cache.md`.
+Store chosen mapping in `~/Clawic/data/tripadvisor/api/location-cache.md`.
 
 ## Logging safety rule
 

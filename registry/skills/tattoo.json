@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7045b61e20466749b39847036687d761bfd3b8619c7c557b771058465c84c0be",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "tattoo",
-    "name": "Tattoo",
+    "name": "tattoo",
     "description": "Plan, research, and prepare for tattoos with artist discovery, design exploration, cultural research, and aftercare guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tattoo",
     "summary": "Before Any Tattoo Decision 1. **Clarify intent** — First tattoo anxiety? Meaningful piece? Adding to collection? Approach differs drastically 2. **Research the symbol** — Check cultural origins, closed vs. open practices",
     "repositoryPath": "skills/tattoo",
     "manifestPath": "registry/skills/tattoo.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tattoo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/_meta.json",
+      "byteCount": 164,
+      "sha256": "3198cbd9bc42352382edccef8d01abbbc3e6b656ba13764e11e449aeac650989"
     },
     {
       "path": "aftercare.md",
       "downloadPath": "skills/tattoo/aftercare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/aftercare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/aftercare.md",
+      "byteCount": 3002,
+      "sha256": "08d1fc1009c432fc225ec695cbc36c24c5636c3fa7f5fec8abf75f4b7147d65d"
     },
     {
       "path": "cultural-research.md",
       "downloadPath": "skills/tattoo/cultural-research.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/cultural-research.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/cultural-research.md",
+      "byteCount": 2301,
+      "sha256": "3991fa8aa032115a8f08f1d355a1a6b3d6333a729a478dbd99f3888035e25f16"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tattoo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tattoo/SKILL.md",
+      "byteCount": 2972,
+      "sha256": "259617a15f9b217a3197858121829696d00376d46403f45f70a7aba36792767a"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Outreach
+name: outreach
+slug: outreach
+version: 1.0.0
 description: Plan, personalize, and track outreach campaigns for sales, PR, recruiting, partnerships, and link building with timing strategy and follow-up cadence.
+homepage: https://clawic.com/skills/outreach
+metadata:
+  clawdbot:
+    emoji: 📣
+    displayName: Outreach
 ---
 
 ## Situation Detection

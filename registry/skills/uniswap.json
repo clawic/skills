@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "77a82644b2d808766de9c6e3d91d43d8b0bef821c9a9dcde431bfe62dfd4b0aa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "uniswap",
-    "name": "Uniswap",
+    "name": "uniswap",
     "description": "Assist with Uniswap swaps, liquidity provision, and avoiding common DeFi losses.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/uniswap",
     "summary": "Swap Execution - Slippage tolerance sets max acceptable price change — 0.5% for stablecoins, 1-3% for volatile pairs, higher for low liquidity tokens - \"Price impact\" and \"slippage\" are different — impact is immediate ef",
     "repositoryPath": "skills/uniswap",
     "manifestPath": "registry/skills/uniswap.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/uniswap/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uniswap/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uniswap/_meta.json",
+      "byteCount": 166,
+      "sha256": "0f13b0b1a009d39d31988b78cb82b046131b2cff94e73354385ef2bcc5f4d86b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/uniswap/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uniswap/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/uniswap/SKILL.md",
+      "byteCount": 4527,
+      "sha256": "09f611745cc151a1640d9d8c697845afe5be3b0d2808b87a1c81a55afd3852da"
     }
   ]
 }

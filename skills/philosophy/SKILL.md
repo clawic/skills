@@ -1,7 +1,17 @@
 ---
-name: Philosophy
+name: philosophy
+slug: philosophy
+version: 1.0.0
 description: Guide philosophical inquiry from first questions to scholarly debate.
-metadata: {"clawdbot":{"emoji":"🤔","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/philosophy
+metadata:
+  clawdbot:
+    emoji: 🤔
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Philosophy
 ---
 
 ## Detect Level, Adapt Everything

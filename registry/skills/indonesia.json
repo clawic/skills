@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "eefbbae5ad947c77eed8a4536267ac22213a8dbbf58bd8f137f251636bf0f47e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "indonesia",
-    "name": "Indonesia",
+    "name": "indonesia",
     "description": "Plan Indonesia trips with island-routing logic, verified entry guidance, weather-aware logistics, and practical local execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/indonesia",
-    "summary": "Setup If `~/indonesia/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Indonesia trip and needs practical guidance beyond generic highlights: visa pathway, island choice,",
+    "summary": "Setup If `~/Clawic/data/indonesia/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Indonesia trip and needs practical guidance beyond generic highlights: visa pathway, is",
     "repositoryPath": "skills/indonesia",
     "manifestPath": "registry/skills/indonesia.json"
   },
@@ -22,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/indonesia/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/_meta.json",
+      "byteCount": 170,
+      "sha256": "ab85ec0f27988687b8ca3a9491bdfd604e2fc7726179dd2428aad5fcac1ec6fe"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/indonesia/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/accessibility.md",
+      "byteCount": 1094,
+      "sha256": "6a0af81fa4d318da332e987b0500aa3bbe0d97de509a7dbe89642db557d6d9b8"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/indonesia/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/accommodation.md",
+      "byteCount": 1688,
+      "sha256": "99f51671ec91fe038e7cc75fc02fbde5a0d1d0629824d9e2b483a7ec060bd9fb"
     },
     {
       "path": "bali-and-nusa-islands.md",
       "downloadPath": "skills/indonesia/bali-and-nusa-islands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/bali-and-nusa-islands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/bali-and-nusa-islands.md",
+      "byteCount": 1306,
+      "sha256": "7c08c90ba0f912873b345a6e5474d5360c323ec81ac07ec304631381e26118fc"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/indonesia/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/budget-and-costs.md",
+      "byteCount": 1361,
+      "sha256": "8bbfcecdd4744840fd409b22d98d8a35487edfed80e5ee870f94889a2c9a7fcb"
     },
     {
       "path": "customs-and-arrival.md",
       "downloadPath": "skills/indonesia/customs-and-arrival.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/customs-and-arrival.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/customs-and-arrival.md",
+      "byteCount": 2019,
+      "sha256": "ae49b1632f99bd2fddd08fb74d080cb393f3442f5d540e575dbe9cac8b311879"
     },
     {
       "path": "east-java-and-bromo-ijen.md",
       "downloadPath": "skills/indonesia/east-java-and-bromo-ijen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/east-java-and-bromo-ijen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/east-java-and-bromo-ijen.md",
+      "byteCount": 1131,
+      "sha256": "987e0bac4a50ca55ea81e393f6910f93f33f5f95090708000d324d5facf57588"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/indonesia/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/entry-and-documents.md",
+      "byteCount": 1971,
+      "sha256": "7805f6a1c4afed54c230b2b46d5512c1c8ba550bc9410dfa89d55962d91698ea"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/indonesia/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/family-travel.md",
+      "byteCount": 1161,
+      "sha256": "3ad801770fd2e0826afbe63d8731423e7e532347e0c9a9afbd06f3b75556eb18"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/indonesia/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/food-guide.md",
+      "byteCount": 1364,
+      "sha256": "eed2aab6cfc1dd65c9637b8d9bacd137b553336cd34886756aa476c88839846b"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/indonesia/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/itineraries.md",
+      "byteCount": 1372,
+      "sha256": "88952517a10c67b0c5ad470cbe5d480f1ea355b31a614ee3ca8e1b7dde3a6231"
     },
     {
       "path": "jakarta-and-west-java.md",
       "downloadPath": "skills/indonesia/jakarta-and-west-java.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/jakarta-and-west-java.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/jakarta-and-west-java.md",
+      "byteCount": 1175,
+      "sha256": "f2f533717e4bb563e1964766f195d9e1dd35d9216514e6e5f28ba2bfc4d899dc"
     },
     {
       "path": "komodo-and-flores.md",
       "downloadPath": "skills/indonesia/komodo-and-flores.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/komodo-and-flores.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/komodo-and-flores.md",
+      "byteCount": 1099,
+      "sha256": "d44693757bcf8731e8a378e2c19c15cbe9860dcb6796bc135aa6e5332942d6bf"
     },
     {
       "path": "lombok-and-gili-islands.md",
       "downloadPath": "skills/indonesia/lombok-and-gili-islands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/lombok-and-gili-islands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/lombok-and-gili-islands.md",
+      "byteCount": 1039,
+      "sha256": "d7d258096c73454178e436c0f233883e1570d15a53ff3b1ab154affdf4a72f0a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/indonesia/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/memory-template.md",
+      "byteCount": 1255,
+      "sha256": "a37d65fd056acd0a1da7c1a7a68c1e1472758360dcf10eaae085a55163df33cf"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/indonesia/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/nightlife.md",
+      "byteCount": 954,
+      "sha256": "5ef2777852de87b6a421a335e0bf9e02d3015b89fe2cfe214ba7226d5c783816"
     },
     {
       "path": "payments-and-money.md",
       "downloadPath": "skills/indonesia/payments-and-money.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/payments-and-money.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/payments-and-money.md",
+      "byteCount": 1383,
+      "sha256": "fbfda32e8d0c98e6fd85b70d86797bd2f20259c8d61c11e92036405849673e3c"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/indonesia/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/regions.md",
+      "byteCount": 2110,
+      "sha256": "9f71f936646c8ac3ca325831b8257f5cba7457370f9aecf8b5a056f3e3acac10"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/indonesia/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/road-trips-and-driving.md",
+      "byteCount": 1256,
+      "sha256": "d34c54933162153b98c8db90f43a3b0995063d84e5384442ade825d45e7e502f"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/indonesia/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/safety-and-emergencies.md",
+      "byteCount": 1457,
+      "sha256": "d87eef3c52490ac554a487130bf378e624fc6b655001c945a6986e90d2047d06"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/indonesia/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/setup.md",
+      "byteCount": 2844,
+      "sha256": "0405510297226b7b56085da1c3c610e1523132cec3105d51e3d3263e6d6cef9b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/indonesia/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/SKILL.md",
+      "byteCount": 6357,
+      "sha256": "fe7b147596500f2b97b4faf5a616df17ab5b06563b0850f89d75fbdc059dfb7d"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/indonesia/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/sources.md",
+      "byteCount": 1278,
+      "sha256": "07bf462552c275760726a97e9a482c42898ec9dadf9527106381a8b11dd76516"
     },
     {
       "path": "sumatra-and-bukit-lawang.md",
       "downloadPath": "skills/indonesia/sumatra-and-bukit-lawang.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/sumatra-and-bukit-lawang.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/sumatra-and-bukit-lawang.md",
+      "byteCount": 956,
+      "sha256": "98d4cea58737ec1d900e0590ad721c36338544a9c0dcbe4f18df349ed268d334"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/indonesia/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/telecoms-and-apps.md",
+      "byteCount": 1061,
+      "sha256": "08d717b694570c8658584aa612491ddb331943903b625df26a3fd7f454087665"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/indonesia/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/transport-domestic.md",
+      "byteCount": 1609,
+      "sha256": "96a5ac3e7cfe2ef328a0d8358959742792cd94db5b7570f5c31b3b4b530a7b1b"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/indonesia/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/weather-and-seasonality.md",
+      "byteCount": 1286,
+      "sha256": "0e50958fa77c1276800b26f18c0e7d8f22c2f5e66917f45fb658f57f0540e204"
     },
     {
       "path": "yogyakarta-and-central-java.md",
       "downloadPath": "skills/indonesia/yogyakarta-and-central-java.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/yogyakarta-and-central-java.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesia/yogyakarta-and-central-java.md",
+      "byteCount": 1013,
+      "sha256": "975d9f9fe87224c8a9d2e1d3717c0b4033cc419e44397c29b4dba50cb586367d"
     }
   ]
 }

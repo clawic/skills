@@ -1,11 +1,24 @@
 ---
-name: Brave Browser
+name: brave
 slug: brave
 version: 1.0.0
-homepage: https://clawic.com/skills/brave
 description: Operate, automate, and troubleshoot Brave Browser with profiles, Shields, extensions, and Chromium debugging workflows.
+homepage: https://clawic.com/skills/brave
 changelog: Initial release with profile workflows, site-compatibility diagnostics, extension handling, and browser recovery playbooks.
-metadata: {"clawdbot":{"emoji":"🦁","requires":{"bins":[],"config":["~/brave/"]},"os":["linux","darwin","win32"],"configPaths":["~/brave/"]}}
+metadata:
+  clawdbot:
+    emoji: 🦁
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/brave/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/brave/
+    displayName: Brave Browser
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Choose this skill when the blocker is operational: install path, launch flags, p
 
 ## Architecture
 
-Memory lives in `~/brave/`. If `~/brave/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/brave/`. If `~/Clawic/data/brave/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/brave/
+~/Clawic/data/brave/
 |-- memory.md          # Durable activation rules, OS facts, and safety boundaries
 |-- profiles.md        # Known profiles, purpose, and launch notes
 |-- sites.md           # Site-specific Shields overrides and known-good fixes
@@ -60,7 +73,7 @@ This skill is for operating Brave as a browser platform, not for generic web sea
 
 ## Data Storage
 
-Keep only durable Brave operating context in `~/brave/`:
+Keep only durable Brave operating context in `~/Clawic/data/brave/`:
 - approved profiles and what each one is for
 - known site fixes and whether they are per-site or global
 - allowed automation posture, remote-debugging defaults, and no-go actions
@@ -121,7 +134,7 @@ Data that may leave your machine:
 
 Data that stays local:
 - browser state already stored by Brave in its own profile directories
-- durable operating notes under `~/brave/` if the user approves persistence
+- durable operating notes under `~/Clawic/data/brave/` if the user approves persistence
 
 This skill does NOT:
 - use undeclared remote APIs by default
@@ -143,7 +156,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `chrome` - Reuse Chromium debugging patterns when the issue is not Brave-specific.
 - `playwright` - Automate and verify web flows after the Brave launch surface is stable.
 - `puppeteer` - Drive DevTools and Chromium automation with lower-level script control.
@@ -152,5 +165,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star brave`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/brave
+- Latest version: https://clawic.com/skills/brave

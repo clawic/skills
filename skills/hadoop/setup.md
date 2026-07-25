@@ -1,6 +1,6 @@
 # Setup — Hadoop
 
-Read this when `~/hadoop/` doesn't exist or is empty. Start the conversation naturally.
+Read this when `~/Clawic/data/hadoop/` doesn't exist or is empty. Start the conversation naturally.
 
 ## Your Attitude
 
@@ -42,11 +42,11 @@ Adapt to their depth.
 
 ## What You're Saving (internally)
 
-In ~/hadoop/memory.md:
+In ~/Clawic/data/hadoop/memory.md:
 - Which distribution and version
 - Cluster names and purposes
 - Common jobs/workflows they run
 - Known problem areas
 - Their role (admin, developer, data engineer)
 
-Create cluster-specific files in ~/hadoop/clusters/{name}.md for detailed configs.
+Create cluster-specific files in ~/Clawic/data/hadoop/clusters/{name}.md for detailed configs.

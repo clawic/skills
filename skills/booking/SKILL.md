@@ -1,9 +1,19 @@
 ---
-name: Booking
+name: booking
 slug: booking
 version: 1.0.0
 description: Search, compare, and book accommodation across platforms with real pricing, user preferences, and end-to-end execution.
-metadata: {"clawdbot":{"emoji":"🏨","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/booking
+metadata:
+  clawdbot:
+    emoji: 🏨
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Booking
 ---
 
 ## Quick Reference
@@ -16,10 +26,10 @@ metadata: {"clawdbot":{"emoji":"🏨","requires":{"bins":[]},"os":["linux","darw
 
 ## User Preferences
 
-Store preferences in `~/booking/memory.md`. Load on activation.
+Store preferences in `~/Clawic/data/booking/memory.md`. Load on activation.
 
 ```
-~/booking/
+~/Clawic/data/booking/
 ├── memory.md       # Traveler type, budget, preferences
 ├── history.md      # Past bookings, liked properties
 └── alerts.md       # Active price tracking

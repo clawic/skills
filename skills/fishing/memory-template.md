@@ -4,15 +4,15 @@
 
 Create on first use:
 ```bash
-mkdir -p ~/fishing/archive
-touch ~/fishing/memory.md
-touch ~/fishing/catches.md
-touch ~/fishing/spots.md
+mkdir -p ~/Clawic/data/fishing/archive
+touch ~/Clawic/data/fishing/memory.md
+touch ~/Clawic/data/fishing/catches.md
+touch ~/Clawic/data/fishing/spots.md
 ```
 
 ## memory.md Template
 
-Copy to `~/fishing/memory.md`:
+Copy to `~/Clawic/data/fishing/memory.md`:
 
 ```markdown
 # Fishing Memory
@@ -57,7 +57,7 @@ Copy to `~/fishing/memory.md`:
 
 ## catches.md Template
 
-Copy to `~/fishing/catches.md`:
+Copy to `~/Clawic/data/fishing/catches.md`:
 
 ```markdown
 # Catch Log
@@ -80,7 +80,7 @@ Copy to `~/fishing/catches.md`:
 
 ## spots.md Template
 
-Copy to `~/fishing/spots.md`:
+Copy to `~/Clawic/data/fishing/spots.md`:
 
 ```markdown
 # Fishing Spots
@@ -111,7 +111,7 @@ Spots no longer productive or accessible.
 
 ## Archive Structure
 
-Move old season data to `~/fishing/archive/`:
+Move old season data to `~/Clawic/data/fishing/archive/`:
 ```
 archive/
 ├── catches-2025.md

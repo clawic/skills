@@ -1,6 +1,13 @@
 ---
-name: "Recommend"
-description: "Context-aware recommendations. Learns preferences, researches options, anticipates expectations."
+name: recommend
+slug: recommend
+version: 1.0.0
+description: Context-aware recommendations. Learns preferences, researches options, anticipates expectations.
+homepage: https://clawic.com/skills/recommend
+metadata:
+  clawdbot:
+    emoji: 👍
+    displayName: Recommend
 ---
 
 ## Core Loop

@@ -1,6 +1,6 @@
 # Memory Template — ASI
 
-Create `~/asi/memory.md` with this structure:
+Create `~/Clawic/data/asi/memory.md` with this structure:
 
 ```markdown
 # ASI Memory
@@ -34,7 +34,7 @@ anticipation_tolerance: do_it | ask_first | explain_first
 
 ---
 
-Create `~/asi/synthesis-log.md`:
+Create `~/Clawic/data/asi/synthesis-log.md`:
 
 ```markdown
 # Synthesis Log
@@ -55,7 +55,7 @@ Create `~/asi/synthesis-log.md`:
 
 ---
 
-Create `~/asi/improvements.md`:
+Create `~/Clawic/data/asi/improvements.md`:
 
 ```markdown
 # Self-Improvement Log

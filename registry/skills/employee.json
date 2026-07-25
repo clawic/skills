@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c24fb2acc83b809d30395b02be47a8c9076307fcf1970ba33e588f83ef416eb9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "employee",
-    "name": "Employee",
+    "name": "employee",
     "description": "Create and manage virtual AI employees with persistent memory, defined roles, and graduated autonomy. Hire, train, and delegate tasks to specialized workers.",
     "version": "1.0.0",
-    "summary": "Architecture Employees live in ~/employee/ with per-employee folders. See `employee-template.md` for setup. ``` ~/employee/ ├── registry.json # Index of all employees + status ├── employees/ │ └── {name}/ │ ├── employee.",
+    "homepage": "https://clawic.com/skills/employee",
+    "summary": "Architecture Employees live in ~/Clawic/data/employee/ with per-employee folders. See `employee-template.md` for setup. ``` ~/Clawic/data/employee/ ├── registry.json # Index of all employees + status ├── employees/ │ └──",
     "repositoryPath": "skills/employee",
     "manifestPath": "registry/skills/employee.json"
   },
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/employee/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/_meta.json",
+      "byteCount": 168,
+      "sha256": "20e7f026d20ba89f0d834f5f22b9856e155a8079d8c49905839ab547eb2f5ada"
     },
     {
       "path": "autonomy.md",
       "downloadPath": "skills/employee/autonomy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/autonomy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/autonomy.md",
+      "byteCount": 1868,
+      "sha256": "ee2600f61ebcd5b42658e9591d964e6a3eafb2a95a7a4f2e3da76c8312a8f197"
     },
     {
       "path": "employee-template.md",
       "downloadPath": "skills/employee/employee-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/employee-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/employee-template.md",
+      "byteCount": 2487,
+      "sha256": "9ab4b78c32c75cc6f7489630eb0c7ef3c088cff6017f8159733886d9c1d81505"
     },
     {
       "path": "lifecycle.md",
       "downloadPath": "skills/employee/lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/lifecycle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/lifecycle.md",
+      "byteCount": 2822,
+      "sha256": "ab03a471c5e95bc9c5bfc45c05df16ad967cbddd7417abd40418be1641a54eda"
     },
     {
       "path": "routing.md",
       "downloadPath": "skills/employee/routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/routing.md",
+      "byteCount": 2164,
+      "sha256": "0216fb4865302e55b373efc9927cf0a34ee08b73bcd8455f55028950fd57dec0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/employee/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/employee/SKILL.md",
+      "byteCount": 3259,
+      "sha256": "cade3d0ad6d84d1db35177d1a88fb708264f765e2c11f3ed2a95742e1362904b"
     }
   ]
 }

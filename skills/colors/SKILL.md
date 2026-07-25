@@ -1,7 +1,18 @@
 ---
-name: Colors
+name: colors
+slug: colors
+version: 1.0.0
 description: Build accessible color palettes with proper contrast ratios and semantic tokens.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/colors
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Colors
 ---
 
 ## Contrast Ratios (WCAG)

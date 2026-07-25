@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "371410141e4506ea56c49c7a8e0e5ac337db61a11106dd1a4671b94a9c62416e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "projects",
-    "name": "Projects",
+    "name": "projects",
     "description": "Build a personal project management system that scales from simple lists to structured planning.",
-    "summary": "Core Behavior - User mentions a project → help define scope, create folder - User adds tasks → capture in project context - Regular review prompts → surface stalled projects - Create `~/projects/` as workspace First Ques",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/projects",
+    "summary": "Core Behavior - User mentions a project → help define scope, create folder - User adds tasks → capture in project context - Regular review prompts → surface stalled projects - Create `~/Clawic/data/projects/` as workspac",
     "repositoryPath": "skills/projects",
     "manifestPath": "registry/skills/projects.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/projects/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/_meta.json",
+      "byteCount": 168,
+      "sha256": "5788c485df6c65663abdb78f6a0c18658e063816ad569921f7ad26d5531f92ab"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/projects/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/SKILL.md",
+      "byteCount": 4614,
+      "sha256": "4ce4379d7387242e79102400833d343a586affdfb49feaa4712daa0c6c528053"
     }
   ]
 }

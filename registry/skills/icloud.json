@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b34fb5e83d646246b195413618d76307585dbe5b98d21dcebb6def2be407b6af",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "icloud",
-    "name": "iCloud",
+    "name": "icloud",
     "description": "Let agents operate your iCloud Drive, Photos, and Find My safely with local 2FA authentication and explicit confirmation gates.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/icloud",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/icloud/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/_meta.json",
+      "byteCount": 164,
+      "sha256": "82a3b41b93ac7c6d849682e9b2ecb065456fe906335002ddd496dd4c9f65980d"
     },
     {
       "path": "auth-session.md",
       "downloadPath": "skills/icloud/auth-session.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/auth-session.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/auth-session.md",
+      "byteCount": 1700,
+      "sha256": "0dc11784d403b2f9dc90e78f31441bf89b80af7047665fff9903277f88ab424d"
     },
     {
       "path": "drive-ops.md",
       "downloadPath": "skills/icloud/drive-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/drive-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/drive-ops.md",
+      "byteCount": 823,
+      "sha256": "d5b021d02931a3790ac0f336c7394a0695b799b3b8f03663ca63a7002f5c5f04"
     },
     {
       "path": "findmy-ops.md",
       "downloadPath": "skills/icloud/findmy-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/findmy-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/findmy-ops.md",
+      "byteCount": 983,
+      "sha256": "f8da1de959402edc7e130f6daa3347bf42a31e3aac6887550efb058f6aba1f5a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/icloud/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/memory-template.md",
+      "byteCount": 1334,
+      "sha256": "f76df616af0cd100ef827ade218a10c2e15d842414c98dd6fe143c4574b94abd"
     },
     {
       "path": "photos-ops.md",
       "downloadPath": "skills/icloud/photos-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/photos-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/photos-ops.md",
+      "byteCount": 878,
+      "sha256": "36c0266d99a8ce9964c77538b2dfd0058608f8192cb89f8aaeafc2daaa9d8264"
     },
     {
       "path": "safety-boundaries.md",
       "downloadPath": "skills/icloud/safety-boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/safety-boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/safety-boundaries.md",
+      "byteCount": 714,
+      "sha256": "ebef475b33c5c8d255cb66245ef221619f8aae391fa8190b9ff363272879fe72"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/icloud/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/setup.md",
+      "byteCount": 1873,
+      "sha256": "435b9e2aac5a71bf9875043eeeec38abaa7ee8e2c4f5351bf96c70bd581f0c98"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/icloud/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icloud/SKILL.md",
+      "byteCount": 6156,
+      "sha256": "c22433599778a7d5f7225743e06b911c8aedc392efd852951fa8bedd1c1fe76b"
     }
   ]
 }

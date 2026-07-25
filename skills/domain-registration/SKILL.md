@@ -1,11 +1,26 @@
 ---
-name: Domain Registration
+name: domain-registration
 slug: domain-registration
 version: 1.0.0
-homepage: https://clawic.com/skills/domain-registration
 description: Register, transfer, renew, and secure domains across major provider APIs and dashboards with provider-specific workflows and rollback-safe execution.
+homepage: https://clawic.com/skills/domain-registration
 changelog: Initial release with cross-provider registration playbooks for major registrar APIs, dashboards, transfer flows, and post-purchase security controls.
-metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":["curl","jq","dig","whois"]},"os":["linux","darwin","win32"],"configPaths":["~/domain-registration/"]}}
+metadata:
+  clawdbot:
+    emoji: 🌐
+    requires:
+      bins:
+      - curl
+      - jq
+      - dig
+      - whois
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/domain-registration/
+    displayName: Domain Registration
 ---
 
 ## Setup
@@ -20,10 +35,10 @@ Use this for first-time registration, transfer planning, renewals, ownership che
 
 ## Architecture
 
-Memory lives in `~/domain-registration/`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/domain-registration/`. See `memory-template.md` for structure and status values.
 
 ```text
-~/domain-registration/
+~/Clawic/data/domain-registration/
 |-- memory.md              # Provider preferences, risk boundaries, and approval model
 |-- inventory.md           # Domain inventory, provider, expiry, and lock status
 |-- changes.md             # Registration, transfer, and renewal action log
@@ -91,7 +106,7 @@ This skill covers API and dashboard workflows for major domain providers.
 
 ### 7. Verify Outcomes and Log Durable Context
 - Verify success with provider API/dashboard confirmation plus resolver-level checks (`dig`, WHOIS status, nameserver visibility).
-- Update `~/domain-registration/` memory files with provider choice, lifecycle dates, and known edge cases.
+- Update `~/Clawic/data/domain-registration/` memory files with provider choice, lifecycle dates, and known edge cases.
 
 ## Common Traps
 
@@ -135,7 +150,7 @@ Data that leaves your machine:
 - Domain names, contact metadata, and operation parameters required by selected providers.
 
 Data that stays local:
-- Operational preferences and provider context in `~/domain-registration/`.
+- Operational preferences and provider context in `~/Clawic/data/domain-registration/`.
 - Change history, rollback state references, and incident notes.
 
 This skill does NOT:
@@ -150,7 +165,7 @@ This skill can send domain lifecycle data to third-party registrar services when
 Only install if you trust the selected providers and local credential handling practices.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dns` - DNS records, propagation behavior, and incident troubleshooting
 - `api` - API request design, authentication, and failure handling
 - `hosting` - Hosting cutovers coordinated with domain and DNS transitions
@@ -159,5 +174,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star domain-registration`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/domain-registration
+- Latest version: https://clawic.com/skills/domain-registration

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8931bcf20c2ffd144663f1208dd5802d83faff57cb18ea9e8dc1d3589c18da09",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "bun",
-    "name": "Bun",
+    "name": "bun",
     "description": "Build with Bun runtime avoiding Node.js compatibility traps, bundler pitfalls, and package manager gotchas.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bun",
     "summary": "When to Use User needs Bun expertise — fast JavaScript/TypeScript runtime, bundler, and package manager. Agent handles migration from Node, bundling for web/server, and troubleshooting compatibility issues. Quick Referen",
     "repositoryPath": "skills/bun",
     "manifestPath": "registry/skills/bun.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bun/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/_meta.json",
+      "byteCount": 158,
+      "sha256": "d9181300593feae96a41296895f66311a112d0212f9d4ce38642eb8f7da9d208"
     },
     {
       "path": "bundler.md",
       "downloadPath": "skills/bun/bundler.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/bundler.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/bundler.md",
+      "byteCount": 2401,
+      "sha256": "f74cfd346f5b7003d0a66ad17001e8a1121af0cf0da3c9edc77a529b86b1fe4b"
     },
     {
       "path": "node-compat.md",
       "downloadPath": "skills/bun/node-compat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/node-compat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/node-compat.md",
+      "byteCount": 2205,
+      "sha256": "58a38a6c5696e7e17e99307cabb16658f270ea780a634fe6d32c6ab8a8dffe50"
     },
     {
       "path": "packages.md",
       "downloadPath": "skills/bun/packages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/packages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/packages.md",
+      "byteCount": 2291,
+      "sha256": "dbe50783691c667dc6cb4b77fde2b3071d6f3d27f40dcd0198817316b357fd96"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bun/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bun/SKILL.md",
+      "byteCount": 3750,
+      "sha256": "6cd2cf62a3614b653bafba1de700ceadd5eead90e694780b82a97b4d80fca532"
     }
   ]
 }

@@ -1,7 +1,17 @@
 ---
-name: Literature
+name: literature
+slug: literature
+version: 1.0.0
 description: Guide literary reading from personal response to scholarly analysis.
-metadata: {"clawdbot":{"emoji":"📚","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/literature
+metadata:
+  clawdbot:
+    emoji: 📚
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Literature
 ---
 
 ## Detect Level, Adapt Everything

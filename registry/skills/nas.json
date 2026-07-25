@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c4448132fb80ce16e5c918d98ca37871c4fddcc4247522ed4812e7015d6b6f48",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "nas",
-    "name": "NAS",
+    "name": "nas",
     "description": "Configure, secure, and optimize network attached storage with proper backup strategy, remote access, and media serving.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/nas",
     "summary": "Quick Reference | Topic | File | |-------|------| | Backup strategy, 3-2-1 rule | `backup.md` | | Remote access, VPN, security | `security.md` | | Docker, home lab, apps | `apps.md` | | Media server, indexing | `media.md",
     "repositoryPath": "skills/nas",
     "manifestPath": "registry/skills/nas.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/nas/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/_meta.json",
+      "byteCount": 158,
+      "sha256": "574e1611263bfaa0f16c76456699dbe16bcb72903c60f1c702c73c01a60ec82a"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/nas/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/apps.md",
+      "byteCount": 1828,
+      "sha256": "3344dafb277e172f3c563b8b9fb498d3122c75773fe4ab5f296d9ba9e16676e8"
     },
     {
       "path": "backup.md",
       "downloadPath": "skills/nas/backup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/backup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/backup.md",
+      "byteCount": 1446,
+      "sha256": "129ff9a38e91a36aeb9108c045d7c4ed511b213072a15f5729144225cd367d7f"
     },
     {
       "path": "media.md",
       "downloadPath": "skills/nas/media.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/media.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/media.md",
+      "byteCount": 2070,
+      "sha256": "b48471523e2d3465efe8e0d8904c732e7dc3b49caaf0bfeb0796d1da6630a60e"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/nas/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/security.md",
+      "byteCount": 1601,
+      "sha256": "4e001644670b7d8c8afe35ba1bd4f12cb075d964e05e9cc120c5888df593232e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/nas/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nas/SKILL.md",
+      "byteCount": 2071,
+      "sha256": "0ecd6496edef85ef2f4feac05b53db30d9a84443bdf4c4656b794ae8ebcd8783"
     }
   ]
 }

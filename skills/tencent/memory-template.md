@@ -1,6 +1,6 @@
 # Memory Template - Tencent
 
-Create these baseline files inside `~/tencent/`.
+Create these baseline files inside `~/Clawic/data/tencent/`.
 
 ## `memory.md`
 

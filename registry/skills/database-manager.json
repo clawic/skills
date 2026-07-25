@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5e4a231763ba8c57a319dcc51b9615f57a22cda13b2254c482272d8d7cb18503",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "database-manager",
-    "name": "Database Manager",
+    "name": "database-manager",
     "description": "Plan, operate, and recover relational databases with schema governance, safe migrations, backup drills, and incident response playbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/database-manager",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/database-manager/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/_meta.json",
+      "byteCount": 184,
+      "sha256": "04334460a07d27f34abe067c9893f70bce7e02994354cc3baedcb1feb0b207b7"
     },
     {
       "path": "backup-and-recovery.md",
       "downloadPath": "skills/database-manager/backup-and-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/backup-and-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/backup-and-recovery.md",
+      "byteCount": 1334,
+      "sha256": "d2561213530f080ede08dbdc062abb3ebf2ab5857e9b3b7eed703291da79647c"
     },
     {
       "path": "incident-playbook.md",
       "downloadPath": "skills/database-manager/incident-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/incident-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/incident-playbook.md",
+      "byteCount": 1492,
+      "sha256": "667e3b8d76ed15b518c78f0719ad4288a7df4ceebe4f616b72949df1e02b4c2b"
     },
     {
       "path": "inventory-and-governance.md",
       "downloadPath": "skills/database-manager/inventory-and-governance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/inventory-and-governance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/inventory-and-governance.md",
+      "byteCount": 1518,
+      "sha256": "7ea67a1ca1f41c49e5a76032e9def40b63a49aa3d790278cbb5373e740daae76"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/database-manager/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/memory-template.md",
+      "byteCount": 1452,
+      "sha256": "87151430b363c33ed2476d7abeeea19775b51e5703348492ef9e78d690900a09"
     },
     {
       "path": "migration-and-release.md",
       "downloadPath": "skills/database-manager/migration-and-release.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/migration-and-release.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/migration-and-release.md",
+      "byteCount": 1439,
+      "sha256": "fd76c4d6d1c4e5896a05bd3a10818792d324a96c2463012d81a0a41253f8f1f3"
     },
     {
       "path": "query-operations.md",
       "downloadPath": "skills/database-manager/query-operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/query-operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/query-operations.md",
+      "byteCount": 1483,
+      "sha256": "0e1ef750964db45f9f1cec5c02ae629e51705d4068990e66da300aa4345ef513"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/database-manager/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/setup.md",
+      "byteCount": 2384,
+      "sha256": "38269e2658590246ddf7fdf058bdedbbb998cbd7402f29808cb887caf3223973"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/database-manager/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/SKILL.md",
+      "byteCount": 5525,
+      "sha256": "f8ca22d1ad9b70d78e5cadf4aa07e833d231eff2ff17ae3075665befd80ce702"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/database-manager/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/database-manager/templates.md",
+      "byteCount": 1072,
+      "sha256": "e21305115a73ba18043038e5efd82d1d185a460a000eba80f7c934995025f3ba"
     }
   ]
 }

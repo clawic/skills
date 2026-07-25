@@ -1,6 +1,6 @@
 # Memory Template - DHgate
 
-Create `~/dhgate/memory.md` with this structure:
+Create `~/Clawic/data/dhgate/memory.md` with this structure:
 
 ```markdown
 # DHgate Memory
@@ -49,7 +49,7 @@ decision_stage:
 
 ## File Templates
 
-Create `~/dhgate/shortlist.md`:
+Create `~/Clawic/data/dhgate/shortlist.md`:
 
 ```markdown
 # DHgate Shortlist
@@ -67,7 +67,7 @@ Create `~/dhgate/shortlist.md`:
 - status: watch | compare | reject | sample
 ```
 
-Create `~/dhgate/sourcing.md`:
+Create `~/Clawic/data/dhgate/sourcing.md`:
 
 ```markdown
 # Sourcing Notes
@@ -82,7 +82,7 @@ Create `~/dhgate/sourcing.md`:
 - confidence: low | medium | high
 ```
 
-Create `~/dhgate/orders.md`:
+Create `~/Clawic/data/dhgate/orders.md`:
 
 ```markdown
 # Orders
@@ -97,7 +97,7 @@ Create `~/dhgate/orders.md`:
 - next_action:
 ```
 
-Create `~/dhgate/disputes.md`:
+Create `~/Clawic/data/dhgate/disputes.md`:
 
 ```markdown
 # Dispute Planner

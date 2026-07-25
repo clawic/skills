@@ -1,17 +1,27 @@
 ---
-name: Prompting
+name: prompting
 slug: prompting
 version: 1.0.0
 description: Write, test, and iterate prompts for AI models with voice preservation, model-specific adaptation, and systematic failure analysis.
-metadata: {"clawdbot":{"emoji":"💬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/prompting
+metadata:
+  clawdbot:
+    emoji: 💬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Prompting
 ---
 
 ## Architecture
 
-Prompt patterns and user preferences live in `~/prompting/`.
+Prompt patterns and user preferences live in `~/Clawic/data/prompting/`.
 
 ```
-~/prompting/
+~/Clawic/data/prompting/
 ├── memory.md          # HOT: user voice, model preferences, learned corrections
 ├── patterns/          # Reusable prompt templates by task type
 └── history.md         # Past prompts with outcomes
@@ -98,7 +108,7 @@ For content prompts, know platform constraints:
 Prompt should enforce format, not hope for it.
 
 ### 10. Memory Persistence
-Store in `~/prompting/memory.md`:
+Store in `~/Clawic/data/prompting/memory.md`:
 - User's preferred style (terse vs detailed)
 - Target models they commonly use
 - Past corrections ("I told you I don't want emojis")

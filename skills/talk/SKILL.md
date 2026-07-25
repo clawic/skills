@@ -1,7 +1,17 @@
 ---
-name: "Talk"
-description: "Set up real-time voice conversations. Phone calls, voice agents, live speech."
-metadata: {"clawdbot":{"emoji":"📞","os":["linux","darwin","win32"]}}
+name: talk
+slug: talk
+version: 1.0.0
+description: Set up real-time voice conversations. Phone calls, voice agents, live speech.
+homepage: https://clawic.com/skills/talk
+metadata:
+  clawdbot:
+    emoji: 📞
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Talk
 ---
 
 ## Real-Time Voice Setup

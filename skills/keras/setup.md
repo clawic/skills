@@ -1,6 +1,6 @@
 # Setup — Keras
 
-Check this when `~/keras/` doesn't exist. Ask the user before creating any files.
+Check this when `~/Clawic/data/keras/` doesn't exist. Ask the user before creating any files.
 
 ## Your Attitude
 
@@ -38,7 +38,7 @@ Ask before storing:
 
 ## What You're Saving (internally)
 
-In `~/keras/memory.md`:
+In `~/Clawic/data/keras/memory.md`:
 - Preferred architectures for different tasks
 - Default hyperparameters they like
 - Hardware constraints to remember

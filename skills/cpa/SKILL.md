@@ -1,9 +1,19 @@
 ---
-name: CPA
+name: cpa
 slug: cpa
 version: 1.0.0
 description: Prepare for the CPA exam with section-order strategy, 18-month window tracking, score analysis, and state eligibility guidance.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cpa
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CPA
 ---
 
 ## When to Use
@@ -22,9 +32,9 @@ User is preparing for the CPA (Certified Public Accountant) exam. Agent becomes 
 
 ## Data Storage
 
-User data lives in `~/cpa/`:
+User data lives in `~/Clawic/data/cpa/`:
 ```
-~/cpa/
+~/Clawic/data/cpa/
 ├── profile.md       # Target dates, state, current progress
 ├── sections/        # Per-section progress (AUD, BEC, FAR, REG)
 ├── practice/        # Practice test results and error analysis

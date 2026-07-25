@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bf6a1a6755ab7b03ef3135a446f00eeaa10d39eb42e799a74d28fd115b7d9eaf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "logo",
-    "name": "Logo",
+    "name": "logo",
     "description": "Generate logos with AI image tools using effective prompt structures, validation loops, and export workflows for App Store icons and brand marks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/logo",
     "summary": "Quick Start: AI Logo Generation **Best model for most logos: Nano Banana Pro** (Gemini 3 Pro Image) Basic Prompt Formula ``` Create a [STYLE] logo featuring [ELEMENT] on [BACKGROUND]. [DESCRIPTION]. The logo should look ",
     "repositoryPath": "skills/logo",
     "manifestPath": "registry/skills/logo.json"
@@ -20,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/logo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/_meta.json",
+      "byteCount": 160,
+      "sha256": "7b984e0e04f65e89b795635d99cdbe97ad1cde6fa2c0f593b52a10b2c5e1124d"
     },
     {
       "path": "ai-generation.md",
       "downloadPath": "skills/logo/ai-generation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/ai-generation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/ai-generation.md",
+      "byteCount": 10371,
+      "sha256": "3fdd10ca12e40486582638761522b851f7ab3ed1dfbb25d3d59faffde8bf6582"
     },
     {
       "path": "diy.md",
       "downloadPath": "skills/logo/diy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/diy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/diy.md",
+      "byteCount": 3596,
+      "sha256": "ccc275dc1a32e267f5006063361bcd32819e2bcccead4f37541108e46afca557"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/logo/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/feedback.md",
+      "byteCount": 1380,
+      "sha256": "6a18c9b401e716a8a26900b7622b13f1d089208cd431c5f4deb55d354a498fb8"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/logo/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/formats.md",
+      "byteCount": 3653,
+      "sha256": "9590061e0c3a7b53f3d8b97b252c248d84b2b5d8120048061c53512b5f3a0d20"
     },
     {
       "path": "hiring.md",
       "downloadPath": "skills/logo/hiring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/hiring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/hiring.md",
+      "byteCount": 4318,
+      "sha256": "20edc098248f86b19e705517b85a48249f9b259611175bed4d863a73fd520bd1"
     },
     {
       "path": "process.md",
       "downloadPath": "skills/logo/process.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/process.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/process.md",
+      "byteCount": 3979,
+      "sha256": "be7f694bf462ca64445737d638cacd43fa64cdf68a2d8fe1ce582bc029eed50d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/logo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/SKILL.md",
+      "byteCount": 3670,
+      "sha256": "affc77fc181af8858798261ce31a421ae919af9d165b19971b331d86ef31caee"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/logo/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/logo/types.md",
+      "byteCount": 3026,
+      "sha256": "a20b58b6524a64c8dec2536535b739167310fff206d322a9e2fadf10f67815f7"
     }
   ]
 }

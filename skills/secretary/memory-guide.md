@@ -5,7 +5,7 @@ How I build and maintain knowledge about my boss.
 ## Folder Structure
 
 ```
-~/secretary/
+~/Clawic/data/secretary/
 ├── memory.md       # Always loaded first
 ├── people.md       # Relationship profiles  
 ├── calendar.md     # Scheduling rules

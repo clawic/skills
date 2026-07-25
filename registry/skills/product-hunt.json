@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8ea6fd277fb5a28b316d52e72a860db76cec48702fee98bdd90c77e36127383e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "product-hunt",
-    "name": "Product Hunt",
+    "name": "product-hunt",
     "description": "Launch, hunt, and research products on Product Hunt with timing, assets, engagement, and anti-manipulation practices.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/product-hunt",
     "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | Launch execution | `launch.md` | Wrong launch time (not 12:01 AM PT) | | Hunting products | `hunting.md` | Hunting without maker coordination | | ",
     "repositoryPath": "skills/product-hunt",
     "manifestPath": "registry/skills/product-hunt.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/product-hunt/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/_meta.json",
+      "byteCount": 176,
+      "sha256": "0367b90b2fc6efc3fc0c63f5ff2c95a2f4c523eea1540102a588d98f338370a3"
     },
     {
       "path": "engagement.md",
       "downloadPath": "skills/product-hunt/engagement.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/engagement.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/engagement.md",
+      "byteCount": 2426,
+      "sha256": "55cfea51feded327f51400a690721ea42c180d574cdafa1cf91193a7f2351c50"
     },
     {
       "path": "hunting.md",
       "downloadPath": "skills/product-hunt/hunting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/hunting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/hunting.md",
+      "byteCount": 1930,
+      "sha256": "9ef108eb50baf14868b36b84e7017d4bfbdf3d8684991338d83e4a2991cfc48e"
     },
     {
       "path": "launch.md",
       "downloadPath": "skills/product-hunt/launch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/launch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/launch.md",
+      "byteCount": 2109,
+      "sha256": "57d5c2c4fb015ba37a73ef7a420f7114eb6c2fd5463867f2d0b780181a88be25"
     },
     {
       "path": "research.md",
       "downloadPath": "skills/product-hunt/research.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/research.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/research.md",
+      "byteCount": 1939,
+      "sha256": "db370e6f62d43ba5bd0337428896c6e76951102499676b409a070b7f564ec45a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/product-hunt/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-hunt/SKILL.md",
+      "byteCount": 3368,
+      "sha256": "c33cd7de0615fc7d247e6eaba9801a4d807fe3f7e2629396d2bf671393410792"
     }
   ]
 }

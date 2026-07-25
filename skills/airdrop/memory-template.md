@@ -1,6 +1,6 @@
 # Memory Template - AirDrop
 
-Create `~/airdrop/memory.md` with this structure:
+Create `~/Clawic/data/airdrop/memory.md` with this structure:
 
 ```markdown
 # AirDrop Memory
@@ -40,4 +40,4 @@ Updated: YYYY-MM-DD
 - Save behavior patterns, not file contents.
 - Do not store recipient names or device identifiers unless the user explicitly asks.
 - Keep memory focused on activation and safety defaults.
-- If the user declines persistence, do not create or update `~/airdrop/`.
+- If the user declines persistence, do not create or update `~/Clawic/data/airdrop/`.

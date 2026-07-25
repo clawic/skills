@@ -26,9 +26,9 @@ Clarify how this should activate in future sessions:
 - Stay quiet unless explicitly requested
 - Suggest itself when user asks for heartbeat or review reporting systems
 
-Store activation preference and rationale in `~/google-reviews/memory.md`.
+Store activation preference and rationale in `~/Clawic/data/google-reviews/memory.md`.
 
-## Save to `~/google-reviews/`
+## Save to `~/Clawic/data/google-reviews/`
 
 Persist only reusable monitoring context:
 - Brand watchlist and source ownership
@@ -36,4 +36,4 @@ Persist only reusable monitoring context:
 - Known issue themes and escalation rules
 - Report audience and output format preferences
 
-Before the first write in a new workspace, confirm that local files will be created under `~/google-reviews/`.
+Before the first write in a new workspace, confirm that local files will be created under `~/Clawic/data/google-reviews/`.

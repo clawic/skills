@@ -1,7 +1,17 @@
 ---
-name: XRP
+name: xrp
+slug: xrp
+version: 1.0.0
 description: Assist with XRP transactions, destination tags, reserves, and XRPL features.
-metadata: {"clawdbot":{"emoji":"💧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/xrp
+metadata:
+  clawdbot:
+    emoji: 💧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: XRP
 ---
 
 ## Destination Tags (Critical)

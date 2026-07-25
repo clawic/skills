@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6f89b3c437fe41387ac4db59d3f82b191c2a1755110bead9b636f1c9979af614",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "podcasts",
-    "name": "Podcasts",
+    "name": "podcasts",
     "description": "Track and synthesize podcasts with subscriptions, briefings, progress tracking, and smart alerts for new episodes and guests.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/podcasts",
     "summary": "Core Behavior - User mentions a podcast → add to subscriptions, track new episodes - User asks \"what's new?\" → summarize recent episodes from subscribed shows - User asks for briefing → generate summary without them list",
     "repositoryPath": "skills/podcasts",
     "manifestPath": "registry/skills/podcasts.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/podcasts/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/_meta.json",
+      "byteCount": 168,
+      "sha256": "76ab9341f709884778b55285c2e8092677af9d3335b371161d118e9e2013cad5"
     },
     {
       "path": "briefings.md",
       "downloadPath": "skills/podcasts/briefings.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/briefings.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/briefings.md",
+      "byteCount": 1981,
+      "sha256": "9cc764ea8497f35caf1b66ef22b2a13edfdeeea3ec4292c17ec7230e47ba8df1"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/podcasts/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/discovery.md",
+      "byteCount": 1541,
+      "sha256": "e03f57607ca0faf8dbe5cc5b1f8aaf4977d638f1f5fd2e774fa254b7a3992a50"
     },
     {
       "path": "learning.md",
       "downloadPath": "skills/podcasts/learning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/learning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/learning.md",
+      "byteCount": 1398,
+      "sha256": "e7017f9396019ae1af1300c51732595454618133cccec099a0c25e85b0b48140"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/podcasts/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/SKILL.md",
+      "byteCount": 1717,
+      "sha256": "5a2b22b54a61daee02d2ec86507584818fa6c79d05a1320a544f07804d81ffde"
     },
     {
       "path": "youtube.md",
       "downloadPath": "skills/podcasts/youtube.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/youtube.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcasts/youtube.md",
+      "byteCount": 1932,
+      "sha256": "8a8e93cabd29f84687a9990e28e5d916fb39e49ed95e27f0671ed8626709af65"
     }
   ]
 }

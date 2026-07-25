@@ -1,6 +1,13 @@
 ---
-name: "CI-CD"
-description: "Automate builds, tests, and deployments across web, mobile, and backend applications."
+name: ci-cd
+slug: ci-cd
+version: 1.0.0
+description: Automate builds, tests, and deployments across web, mobile, and backend applications.
+homepage: https://clawic.com/skills/ci-cd
+metadata:
+  clawdbot:
+    emoji: 🔄
+    displayName: CI-CD
 ---
 
 ## When to Use

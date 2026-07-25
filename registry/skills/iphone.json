@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2cc9c7931850f2535aa415ebae8b4b60e36e24d991ff929ef26cdc283da42ac8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "iphone",
-    "name": "iPhone",
+    "name": "iphone",
     "description": "Run iPhone mission playbooks for battery, storage, privacy, connectivity, and daily automation with live operator-style guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/iphone",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/iphone/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/_meta.json",
+      "byteCount": 164,
+      "sha256": "7dc3a5e0fc5d51761365da4eadcdea6f554552a5f9e53ae3096dd9dc08df3a46"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/iphone/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/memory-template.md",
+      "byteCount": 1301,
+      "sha256": "aee1ddc4142c4cff4255983e83f19a9eeec8f9ccbb426bf2f7caae15793ced8e"
     },
     {
       "path": "mission-catalog.md",
       "downloadPath": "skills/iphone/mission-catalog.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/mission-catalog.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/mission-catalog.md",
+      "byteCount": 1504,
+      "sha256": "2ed7cf58b863531bd94c8864b28cd6f9a766e72bb5bebea9f8e3489f14588770"
     },
     {
       "path": "optimization-ops.md",
       "downloadPath": "skills/iphone/optimization-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/optimization-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/optimization-ops.md",
+      "byteCount": 651,
+      "sha256": "f4db1714dfcd6fd11a604c3610ea4c5c4cc55d1f93bbf855b69849531febe0aa"
     },
     {
       "path": "rescue-ladders.md",
       "downloadPath": "skills/iphone/rescue-ladders.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/rescue-ladders.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/rescue-ladders.md",
+      "byteCount": 1119,
+      "sha256": "071bc3e1a796ba38f3f1047fc9d1ead7916c993d7164c9c1e24cd683f0bfb268"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/iphone/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/setup.md",
+      "byteCount": 1290,
+      "sha256": "ace0e65ca8693967d53d3be005e7c95a2a7a8949a8dc8f50018bfeffb9b42189"
     },
     {
       "path": "shortcuts-bridge.md",
       "downloadPath": "skills/iphone/shortcuts-bridge.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/shortcuts-bridge.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/shortcuts-bridge.md",
+      "byteCount": 704,
+      "sha256": "93bf9eecb39e1bc3c90a65256b888edcf46fb5fdd9d60f72f87ad993215277c0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/iphone/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/SKILL.md",
+      "byteCount": 4780,
+      "sha256": "939a5ff7df6f43653457e7404f3e221d59c917074ac64490dab40a06700c557f"
     },
     {
       "path": "tap-script-engine.md",
       "downloadPath": "skills/iphone/tap-script-engine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/tap-script-engine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/iphone/tap-script-engine.md",
+      "byteCount": 917,
+      "sha256": "ff3f15549bdacd23fe411ffd64850c08112c1cc5e99ea3354beca653c7897dd4"
     }
   ]
 }

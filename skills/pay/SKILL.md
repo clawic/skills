@@ -1,6 +1,13 @@
 ---
-name: "Pay"
-description: "Choose the right payment method, optimize rewards, handle disputes, and manage bills safely."
+name: pay
+slug: pay
+version: 1.0.0
+description: Choose the right payment method, optimize rewards, handle disputes, and manage bills safely.
+homepage: https://clawic.com/skills/pay
+metadata:
+  clawdbot:
+    emoji: 💳
+    displayName: Pay
 ---
 
 ## Triggers

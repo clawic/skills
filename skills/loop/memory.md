@@ -2,7 +2,7 @@
 
 ## What to Persist
 
-Stored in ~/loop/history/{loop-id}.json:
+Stored in ~/Clawic/data/loop/history/{loop-id}.json:
 - **learnings** — Append-only log: what tried, what happened, what to try next
 - **progress** — Structured state for complex multi-step tasks
 - **iteration_count** — Current iteration number
@@ -15,7 +15,7 @@ Stored in ~/loop/history/{loop-id}.json:
 
 ## Storage Location
 
-All loop data stored in ~/loop/:
+All loop data stored in ~/Clawic/data/loop/:
 - active.json — Currently running loops
 - history/{id}.json — Completed loop logs
 - learnings.md — Cross-loop patterns (optional)
@@ -31,5 +31,5 @@ Loops multiply cost. Before starting:
 
 This skill does NOT:
 - Make Git commits automatically
-- Persist data outside ~/loop/
+- Persist data outside ~/Clawic/data/loop/
 - Modify files without explicit task approval

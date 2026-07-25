@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd47c1c334eb709d55bd4b54f06b73aaad14e3c41b8f0470520a5f71bb4e1a23",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "forms",
-    "name": "Forms",
+    "name": "forms",
     "description": "Create, validate, and deploy forms with field types, validation patterns, conditional logic, and platform integrations.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/forms",
     "summary": "Quick Reference | Topic | File | |-------|------| | Field types by use case | `types.md` | | Platform comparisons | `platforms.md` | | Code generation (React, Flutter) | `code.md` | | Validation patterns | `validation.md",
     "repositoryPath": "skills/forms",
     "manifestPath": "registry/skills/forms.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/forms/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/_meta.json",
+      "byteCount": 162,
+      "sha256": "78431ccc1bf4c54bdbde61d9738d9d388dbfaf4c73010698b107f22915bf51b9"
     },
     {
       "path": "code.md",
       "downloadPath": "skills/forms/code.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/code.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/code.md",
+      "byteCount": 4697,
+      "sha256": "4964b890a8ba7f2430c4b0f811782f8ec038d03f36efd51f6764f52a1ae6d4b3"
     },
     {
       "path": "integrations.md",
       "downloadPath": "skills/forms/integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/integrations.md",
+      "byteCount": 3994,
+      "sha256": "f2975ac57ac1c36bb1307cfa9217da586c42a71283c4d0a6e8fd649e8e517c5f"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/forms/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/platforms.md",
+      "byteCount": 2732,
+      "sha256": "8f53f5208e1780019c35b2a5714ccd9b72e6957dd7083f4b98ecd4e53a8db0d8"
     },
     {
       "path": "selfhosted.md",
       "downloadPath": "skills/forms/selfhosted.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/selfhosted.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/selfhosted.md",
+      "byteCount": 3500,
+      "sha256": "09ac95a47b108eada33e53d28ed64f20e0e8d716468ce8b7d63e54b9fbbee4d3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/forms/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/SKILL.md",
+      "byteCount": 1977,
+      "sha256": "96849090d987c128807c930c999e66fbc22d094c2a4153b58ac4416f00163fc4"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/forms/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/types.md",
+      "byteCount": 2611,
+      "sha256": "0978bbcdf79f64f3fe84195eafdeadcbfe3a149724eacd0747fa6d4b69169858"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/forms/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/forms/validation.md",
+      "byteCount": 3492,
+      "sha256": "5f5e93cc29eb947d7e64c1f095c3df2a012f89c3c652096db0d222742b44ebb8"
     }
   ]
 }

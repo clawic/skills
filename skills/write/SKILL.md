@@ -1,7 +1,16 @@
 ---
-name: Write
+name: write
+slug: write
+version: 1.0.0
 description: Plan, draft, version, and refine written content with enforced versioning and quality audits.
-metadata: {"clawdbot":{"emoji":"✍️","os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/write
+metadata:
+  clawdbot:
+    emoji: ✍️
+    os:
+    - linux
+    - darwin
+    displayName: Write
 ---
 
 ## Setup

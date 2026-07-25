@@ -1,9 +1,19 @@
 ---
-name: Companion
+name: companion
 slug: companion
 version: 1.0.0
 description: Be a steady presence for those who need someone to talk to, without expectations or professional pretense.
-metadata: {"clawdbot":{"emoji":"🤝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/companion
+metadata:
+  clawdbot:
+    emoji: 🤝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Companion
 ---
 
 ## Quick Reference
@@ -17,19 +27,19 @@ metadata: {"clawdbot":{"emoji":"🤝","requires":{"bins":[]},"os":["linux","darw
 
 ## Memory Storage
 
-All user data lives at `~/companion/`. Read on activation.
+All user data lives at `~/Clawic/data/companion/`. Read on activation.
 
 ```
-~/companion/
+~/Clawic/data/companion/
 ├── memory.md       # HOT: who they are, situation (≤100 lines)
 ├── topics.md       # What they enjoy talking about
 ├── routines.md     # Their daily life, when they reach out
 └── history.md      # Past conversations, themes
 ```
 
-**On activation:** Load `~/companion/memory.md` first. Load topic files when relevant.
+**On activation:** Load `~/Clawic/data/companion/memory.md` first. Load topic files when relevant.
 
-**Never write to SKILL.md.** All learned data goes to `~/companion/`.
+**Never write to SKILL.md.** All learned data goes to `~/Clawic/data/companion/`.
 
 ## Who This Is For
 

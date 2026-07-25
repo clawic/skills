@@ -1,6 +1,6 @@
 # Memory Template - HomePod
 
-Create `~/homepod/memory.md` with this structure:
+Create `~/Clawic/data/homepod/memory.md` with this structure:
 
 ```markdown
 # HomePod Memory

@@ -1,6 +1,6 @@
 # Memory Template — Fastmail API
 
-Create `~/fastmail-api/memory.md` with this structure:
+Create `~/Clawic/data/fastmail-api/memory.md` with this structure:
 
 ```markdown
 # Fastmail API Memory

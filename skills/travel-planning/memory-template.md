@@ -1,6 +1,6 @@
 # Memory Template — Travel Planning
 
-Create `~/travel-planning/memory.md` with this structure:
+Create `~/Clawic/data/travel-planning/memory.md` with this structure:
 
 ```markdown
 # Travel Planning Memory
@@ -52,7 +52,7 @@ travel_insurance: [provider]
 
 ## Wishlist Entry Template
 
-Create `~/travel-planning/wishlist/{destination}.md`:
+Create `~/Clawic/data/travel-planning/wishlist/{destination}.md`:
 
 ```markdown
 # {Destination}
@@ -78,7 +78,7 @@ Create `~/travel-planning/wishlist/{destination}.md`:
 
 ## Trip Folder Template
 
-Create `~/travel-planning/trips/{trip-name}/overview.md`:
+Create `~/Clawic/data/travel-planning/trips/{trip-name}/overview.md`:
 
 ```markdown
 # {Trip Name}

@@ -1,18 +1,28 @@
 ---
-name: Games
+name: games
+slug: games
+version: 1.0.0
 description: Build a personal gaming system for video games, board games, party games, and family activities.
-metadata: {"clawdbot":{"emoji":"🎮","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/games
+metadata:
+  clawdbot:
+    emoji: 🎮
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Games
 ---
 
 ## Core Behavior
 - User mentions game → offer to track it
 - User asks what to play → check context first
 - User finishes/plays game → help log thoughts
-- Create `~/games/` as workspace
+- Create `~/Clawic/data/games/` as workspace
 
 ## File Structure
 ```
-~/games/
+~/Clawic/data/games/
 ├── video/
 │   ├── backlog.md
 │   ├── playing.md

@@ -1,16 +1,27 @@
 ---
-name: Affiliate Marketing
+name: affiliate-marketing
 slug: affiliate-marketing
 version: 1.0.0
-homepage: https://clawic.com/skills/affiliate-marketing
 description: Design and optimize affiliate programs with partner scoring, commission economics, tracking QA, fraud controls, and compliance reviews.
-changelog: "Initial release with affiliate program design, partner operations, tracking QA, fraud controls, and reporting playbooks."
-metadata: {"clawdbot":{"emoji":"🤝","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/affiliate-marketing/"]}}
+homepage: https://clawic.com/skills/affiliate-marketing
+changelog: Initial release with affiliate program design, partner operations, tracking QA, fraud controls, and reporting playbooks.
+metadata:
+  clawdbot:
+    emoji: 🤝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/affiliate-marketing/
+    displayName: Affiliate Marketing
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/affiliate-marketing/` if the user wants persistent partner and program continuity.
+On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/Clawic/data/affiliate-marketing/` if the user wants persistent partner and program continuity.
 
 ## When to Use
 
@@ -25,7 +36,7 @@ This skill is especially strong for ecommerce, SaaS, creators with affiliate off
 Local workspace is optional and only created with user consent.
 
 ```
-~/affiliate-marketing/
+~/Clawic/data/affiliate-marketing/
 ├── memory.md        # Program context, approved rules, active constraints
 ├── partners.md      # Pipeline, status, offer history, next actions
 ├── economics.md     # Commission ceilings, margins, payout scenarios
@@ -109,7 +120,7 @@ Local workspace is optional and only created with user consent.
 ## Security & Privacy
 
 **Data that stays local when the user opts in:**
-- Program rules, partner notes, commission assumptions, and payout concerns in `~/affiliate-marketing/`
+- Program rules, partner notes, commission assumptions, and payout concerns in `~/Clawic/data/affiliate-marketing/`
 - Fraud flags, compliance notes, and reporting summaries in local markdown files
 
 **This skill does NOT:**
@@ -123,7 +134,7 @@ Local workspace is optional and only created with user consent.
 - Escalate legal or policy-sensitive promotions for review before launch
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `market-research` — Partner landscape, vertical mapping, and competitor analysis
 - `growth-hacker` — Acquisition experiments and growth loops
 - `cmo` — Channel strategy, demand generation, and marketing leadership
@@ -132,5 +143,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star affiliate-marketing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/affiliate-marketing
+- Latest version: https://clawic.com/skills/affiliate-marketing

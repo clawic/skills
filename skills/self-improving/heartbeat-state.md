@@ -1,6 +1,6 @@
 # Heartbeat State Template
 
-Use this file as the baseline for `~/self-improving/heartbeat-state.md`.
+Use this file as the baseline for `~/Clawic/data/self-improving/heartbeat-state.md`.
 It stores only lightweight run markers and maintenance notes.
 
 ```markdown

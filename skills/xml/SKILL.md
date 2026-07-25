@@ -1,7 +1,17 @@
 ---
-name: XML
+name: xml
+slug: xml
+version: 1.0.0
 description: Parse, generate, and transform XML with correct namespace handling and encoding.
-metadata: {"clawdbot":{"emoji":"📄","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/xml
+metadata:
+  clawdbot:
+    emoji: 📄
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: XML
 ---
 
 ## Namespaces

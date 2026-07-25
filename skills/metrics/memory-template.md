@@ -1,6 +1,6 @@
 # Memory Template - Metrics
 
-Create `~/metrics/memory.md` with this structure:
+Create `~/Clawic/data/metrics/memory.md` with this structure:
 
 ```markdown
 # Metrics Memory

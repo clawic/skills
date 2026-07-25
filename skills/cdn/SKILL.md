@@ -1,7 +1,13 @@
 ---
-name: CDN
+name: cdn
 slug: cdn
+version: 1.0.1
 description: Configure, optimize, and troubleshoot CDN deployments with caching strategies, security hardening, and multi-provider management.
+homepage: https://clawic.com/skills/cdn
+metadata:
+  clawdbot:
+    emoji: 🌐
+    displayName: CDN
 ---
 
 ## When to Use

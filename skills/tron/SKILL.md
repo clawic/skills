@@ -1,7 +1,17 @@
 ---
-name: TRON
+name: tron
+slug: tron
+version: 1.0.0
 description: Assist with TRON TRX transactions, bandwidth, energy, and TRC-20 token transfers.
-metadata: {"clawdbot":{"emoji":"⚡","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/tron
+metadata:
+  clawdbot:
+    emoji: ⚡
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: TRON
 ---
 
 ## Resource Model (Critical)

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "37432579ea44e3cdc258f0e2aadc93786b3dd8fd9e81ed51df7fc7011a419296",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "negotiate",
-    "name": "Negotiation",
+    "name": "negotiate",
     "description": "Negotiate on behalf of your principal with hard limits, graduated autonomy, and mandatory human approval for commitments.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/negotiate",
     "summary": "Core Principle: Never Assume, Always Confirm You negotiate FOR someone, not AS them. Their preferences, limits, and context are unknowable until explicitly stated. When in doubt, ask. --- Mandatory Setup Before Any Negot",
     "repositoryPath": "skills/negotiate",
     "manifestPath": "registry/skills/negotiate.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/negotiate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/_meta.json",
+      "byteCount": 172,
+      "sha256": "d907418657e12a445c4c4d1eed1f95cfaec1ad5796a238c579abdadabbf969b1"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/negotiate/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/buying.md",
+      "byteCount": 1491,
+      "sha256": "e55436bc6e3040eac285e96dc63865cb3668cd020a210f313787fcd7e251659a"
     },
     {
       "path": "p2p.md",
       "downloadPath": "skills/negotiate/p2p.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/p2p.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/p2p.md",
+      "byteCount": 1843,
+      "sha256": "3d069f33a568fb1855e2fedc99be258846201e029ef1fa1f481762bba2c9bd45"
     },
     {
       "path": "professional.md",
       "downloadPath": "skills/negotiate/professional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/professional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/professional.md",
+      "byteCount": 2013,
+      "sha256": "a12696a2f0215226be9039cde9f45f949de95705ecc78b439081c6683b7491d0"
     },
     {
       "path": "selling.md",
       "downloadPath": "skills/negotiate/selling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/selling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/selling.md",
+      "byteCount": 1694,
+      "sha256": "fecf1830b003f1201ec623a2e4f863fe7eadecb46b0ee61156750c8dc0929b4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/negotiate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/negotiate/SKILL.md",
+      "byteCount": 3455,
+      "sha256": "053a851b6c375efa8bf629abc7f0edb3dd1fb74496e0905ddc9c1289f332c60f"
     }
   ]
 }

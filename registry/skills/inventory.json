@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e5a3a16195216015c1f69a437ffeafc325329a92a8345533a26ea928cacf35d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "inventory",
-    "name": "Inventory",
+    "name": "inventory",
     "description": "Build a personal inventory system for home items, valuables, and equipment tracking.",
-    "summary": "Core Behavior - User mentions owning something valuable → offer to catalog - Track location, value, warranty → findable and insurable - Moving or decluttering → surface relevant items - Create `~/inventory/` as workspace",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/inventory",
+    "summary": "Core Behavior - User mentions owning something valuable → offer to catalog - Track location, value, warranty → findable and insurable - Moving or decluttering → surface relevant items - Create `~/Clawic/data/inventory/` ",
     "repositoryPath": "skills/inventory",
     "manifestPath": "registry/skills/inventory.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/inventory/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inventory/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inventory/_meta.json",
+      "byteCount": 170,
+      "sha256": "8093b4949e660cb099d85302cd7322350efdae15b0385e14b321259d18f694f6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/inventory/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inventory/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inventory/SKILL.md",
+      "byteCount": 4002,
+      "sha256": "c80d3f47f7c2651c51834eed93001b3672b4bad66f3b900d59d9ecc9e194aa2f"
     }
   ]
 }

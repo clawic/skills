@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "79611f1a21f92e7bdc1ba03671b0448c0fd3787c20f3300f513fb6eeaf812deb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "calendar-planner",
-    "name": "Calendar Planner",
+    "name": "calendar-planner",
     "description": "Plan work and life across Google Calendar, Outlook, Apple Calendar, and CalDAV with CLI adapters, conflict repair, and weekly reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/calendar-planner",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/calendar-planner/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/_meta.json",
+      "byteCount": 184,
+      "sha256": "235f71398815ac12a2cbd77311122e25df69a107409c7c4197577ec153c1f191"
     },
     {
       "path": "calendar_guard.py",
       "downloadPath": "skills/calendar-planner/calendar_guard.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_guard.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_guard.py",
+      "byteCount": 3156,
+      "sha256": "68e7a4f3bd55d56186336e03bebc316e7e1f22d2ff7bd49fc23ad16f28ee384c"
     },
     {
       "path": "calendar_merge.py",
       "downloadPath": "skills/calendar-planner/calendar_merge.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_merge.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/calendar_merge.py",
+      "byteCount": 3065,
+      "sha256": "304cbd11713ca9102c2be4385f9ee31b51fbe6569d92b5cd628fa74fca0c7099"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/calendar-planner/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/commands.md",
+      "byteCount": 2865,
+      "sha256": "8a35b809a5299087c0d22f5ca829b3adf4042d822606e89b7dc698821a052a7b"
     },
     {
       "path": "life-domains.md",
       "downloadPath": "skills/calendar-planner/life-domains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/life-domains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/life-domains.md",
+      "byteCount": 1813,
+      "sha256": "a755f1f6d5295757f96b04892cb11b47cc06864b01566a233c351ee28b00291d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/calendar-planner/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/memory-template.md",
+      "byteCount": 1288,
+      "sha256": "0f6e30cfe92d4987b3647db0647c8d865a791bbed76b37076d04afec34e978c0"
     },
     {
       "path": "planning-protocol.md",
       "downloadPath": "skills/calendar-planner/planning-protocol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/planning-protocol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/planning-protocol.md",
+      "byteCount": 2444,
+      "sha256": "d769ead4b66f1ff6512c3336893e61926c55a9203d2c7165fe963fb067a9e9cf"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/calendar-planner/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/setup.md",
+      "byteCount": 2117,
+      "sha256": "db0ea7aa75481b5f720befde7217cebd06af07c7f1ce8b5fd306b24c1d96d8f9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/calendar-planner/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/SKILL.md",
+      "byteCount": 9570,
+      "sha256": "b468d74ab901ab4e6c24b4e8c9f55f99ba5d18d630839748d65a2ba16d8dac54"
     },
     {
       "path": "week_plan.py",
       "downloadPath": "skills/calendar-planner/week_plan.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/week_plan.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/week_plan.py",
+      "byteCount": 3765,
+      "sha256": "f9fee05d577c3694a4ede86140e1c3584c9df5f6330f4c1900f69eb0aefec79e"
     }
   ]
 }

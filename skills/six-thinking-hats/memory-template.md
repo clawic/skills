@@ -1,6 +1,6 @@
 # Memory Template — Six Thinking Hats
 
-Create `~/six-thinking-hats/memory.md` with this structure:
+Create `~/Clawic/data/six-thinking-hats/memory.md` with this structure:
 
 ```markdown
 # Six Thinking Hats Memory

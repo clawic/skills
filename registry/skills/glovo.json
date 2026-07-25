@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6986c5e0a2f860134452edea2497ffb034d6ddba624095959a68d39479147ca7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "glovo",
-    "name": "Glovo",
+    "name": "glovo",
     "description": "Navigate Glovo in a live browser session to compare stores, manage carts, and reach checkout safely before ordering.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/glovo",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/glovo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/_meta.json",
+      "byteCount": 162,
+      "sha256": "d786df6fb15f83cd7dd267bcbf58372778cf2786171da9c9359ae57df3fe3815"
     },
     {
       "path": "browser-flow.md",
       "downloadPath": "skills/glovo/browser-flow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/browser-flow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/browser-flow.md",
+      "byteCount": 1593,
+      "sha256": "7c4ce299d097a4567b19853ac3747757980b6d084bdff47124d85d48cf1b5dc0"
     },
     {
       "path": "checkout-guardrails.md",
       "downloadPath": "skills/glovo/checkout-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/checkout-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/checkout-guardrails.md",
+      "byteCount": 1010,
+      "sha256": "66c8535e6dfba870830a58ffdc29a3e3fad03da64cf926387fa690fe9ae81656"
     },
     {
       "path": "issue-recovery.md",
       "downloadPath": "skills/glovo/issue-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/issue-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/issue-recovery.md",
+      "byteCount": 1233,
+      "sha256": "46cb7726c05fe294f0c5d3a86588793fca03e01fc20437bfd3bb3985cbdbf496"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/glovo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/memory-template.md",
+      "byteCount": 1615,
+      "sha256": "6afb3546bf4a521b0d6b0284a58f9d89805f78dc8fcc996322c9e51efa9ddb14"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/glovo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/setup.md",
+      "byteCount": 2217,
+      "sha256": "6f03004508d7baaf225dbba42e2bc6611975ecc2a5bfaccc88d811251b82408b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/glovo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/glovo/SKILL.md",
+      "byteCount": 10185,
+      "sha256": "5d004d7f536bbce514e905113a83e0903589e90760a3bd255496d99cd068c6b2"
     }
   ]
 }

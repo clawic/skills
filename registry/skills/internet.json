@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "55df1bc0beda367755ad4ab7a0e8fcef4c7dc121cc7fef7fe924cb3a90f4f83f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "internet",
-    "name": "Internet",
+    "name": "internet",
     "description": "Manage internet connectivity, compare providers, diagnose issues, optimize performance, and handle mobile data when away from home.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/internet",
     "summary": "When to Use User needs help with internet connectivity: comparing/switching providers, diagnosing speed issues, managing mobile data abroad, optimizing for gaming/streaming, or troubleshooting connection problems. Quick ",
     "repositoryPath": "skills/internet",
     "manifestPath": "registry/skills/internet.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/internet/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/_meta.json",
+      "byteCount": 168,
+      "sha256": "f73f68962e821716609cc8c7820ba0fdd6122bce5704344ef96535d1ce8744e6"
     },
     {
       "path": "diagnostics.md",
       "downloadPath": "skills/internet/diagnostics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/diagnostics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/diagnostics.md",
+      "byteCount": 1891,
+      "sha256": "47cdec4ceca59d15cbe6956c2f373513b55e7039d29d99e933e58fa484a5c7b0"
     },
     {
       "path": "mobile.md",
       "downloadPath": "skills/internet/mobile.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/mobile.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/mobile.md",
+      "byteCount": 2028,
+      "sha256": "505042c26492f4485ec4a990c8d29bb423b4b9a958b6763bc39100b871a6a5c7"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/internet/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/performance.md",
+      "byteCount": 2255,
+      "sha256": "a7141d2876067e89f223a0751181abcd3b1f94a6f2e6ab9c909f29105575846a"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/internet/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/providers.md",
+      "byteCount": 1654,
+      "sha256": "f89d809b19198f3dc2263db2d013848969322311dffb221a4f4d7d887819618a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/internet/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/internet/SKILL.md",
+      "byteCount": 2903,
+      "sha256": "67f94f231bcc350be552f50e46c42f442c9f81c5cf9bc60ca5b801602ecb5fe6"
     }
   ]
 }

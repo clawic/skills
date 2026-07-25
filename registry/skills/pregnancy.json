@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c567bcd62031817248c1417ca23c8086685afdb230523b87814c1f1f80a0f514",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "pregnancy",
-    "name": "Pregnancy (Tracker, Journal, Triage, Visit Prep)",
+    "name": "pregnancy",
     "description": "Track pregnancy routines, symptoms, and clinical signals with flexible logs, weekly summaries, and safety-first triage for medical follow-up.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/pregnancy",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pregnancy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/_meta.json",
+      "byteCount": 209,
+      "sha256": "2ef07263cf3940fbc401c4c3aa3453c35bcc01abe2b60a14d1c544f12e912044"
     },
     {
       "path": "data-quality.md",
       "downloadPath": "skills/pregnancy/data-quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/data-quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/data-quality.md",
+      "byteCount": 1441,
+      "sha256": "1b1289048105668cbc861c31b67f1c3ddb659fdd758459019d44f5b9d7dd06ed"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/pregnancy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/memory-template.md",
+      "byteCount": 2575,
+      "sha256": "d3edf5094596d8292e19a846a4e5f364bccee40ae72374d82b7e1f1c8680f81c"
     },
     {
       "path": "metric-catalog.md",
       "downloadPath": "skills/pregnancy/metric-catalog.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/metric-catalog.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/metric-catalog.md",
+      "byteCount": 1512,
+      "sha256": "3238635208f67acb26f9fc855f0e5a719f94ab03e4ca863439bdec59d5937b9c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/pregnancy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/setup.md",
+      "byteCount": 2002,
+      "sha256": "d8f44bd803c3c08a96b0dc587bcc765a2c598719864febac934fbbb8740ea455"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pregnancy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/SKILL.md",
+      "byteCount": 5939,
+      "sha256": "46f5d3af3144e3322562445654ebc0cd51975656dce5fd9f7e55f4cee046dace"
     },
     {
       "path": "tracking-framework.md",
       "downloadPath": "skills/pregnancy/tracking-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/tracking-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/tracking-framework.md",
+      "byteCount": 1378,
+      "sha256": "c0b79ec70092ae86935a502112085855fcaee46ec4612be3d774b20cff7a43c2"
     },
     {
       "path": "triage-rules.md",
       "downloadPath": "skills/pregnancy/triage-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/triage-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/triage-rules.md",
+      "byteCount": 1657,
+      "sha256": "6e19d28d068eb22f6fb4772470819f85235b995c077d130f5cb38818c4fef306"
     },
     {
       "path": "visit-summary-template.md",
       "downloadPath": "skills/pregnancy/visit-summary-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/visit-summary-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pregnancy/visit-summary-template.md",
+      "byteCount": 1054,
+      "sha256": "8807fb665596c5397e669d7eef455e084abf8eab166f050b86968a5d7571edfa"
     }
   ]
 }

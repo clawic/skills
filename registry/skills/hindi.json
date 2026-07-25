@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a4b93da0597ef63a28232e7e782dd946d97ffa29d830e54f86601857a61da253",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hindi",
-    "name": "Hindi",
+    "name": "hindi",
     "description": "Write Hindi that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hindi",
     "summary": "The Real Problem AI Hindi is technically correct but sounds off. Too शुद्ध (pure). Too formal. Natives mix Hindi-English (Hinglish) and use casual registers. Match that. Formality Default Default register is too high. Ca",
     "repositoryPath": "skills/hindi",
     "manifestPath": "registry/skills/hindi.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hindi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hindi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hindi/_meta.json",
+      "byteCount": 162,
+      "sha256": "a29f33a39f02ec3e61156914c73ed6d713f652138c84dd2ad1ca11a2b34d9708"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hindi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hindi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hindi/SKILL.md",
+      "byteCount": 3130,
+      "sha256": "dae08b854dcefa1ec4b18b6638093a93785ee521cc9961e8cd01c1b975f4bc75"
     }
   ]
 }

@@ -1,9 +1,19 @@
 ---
-name: Couple
+name: couple
 slug: couple
 version: 1.0.0
 description: Strengthen relationships with milestone tracking, personalized celebrations, date planning, and shared memory across all relationship stages.
-metadata: {"clawdbot":{"emoji":"💑","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/couple
+metadata:
+  clawdbot:
+    emoji: 💑
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Couple
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs help with relationship milestones, date ideas, anniversary planning, 
 
 ## Architecture
 
-Memory lives in `~/couple/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/couple/`. See `memory-template.md` for setup.
 
 ```
-~/couple/
+~/Clawic/data/couple/
 ├── memory.md          # HOT: active context, preferences
 ├── timeline.md        # Milestones, anniversaries, firsts
 ├── ideas.md           # Saved date/gift ideas
@@ -34,7 +44,7 @@ Memory lives in `~/couple/`. See `memory-template.md` for setup.
 ## Scope
 
 This skill ONLY:
-- Stores relationship dates and milestones in `~/couple/`
+- Stores relationship dates and milestones in `~/Clawic/data/couple/`
 - Suggests ideas for dates, gifts, celebrations
 - Tracks user's own preferences and notes
 - Helps plan shared activities
@@ -49,12 +59,12 @@ This skill NEVER:
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-All data stored in `~/couple/` directory.
+All data stored in `~/Clawic/data/couple/` directory.
 
 ## Core Rules
 
 ### 1. Check Memory First
-Before suggesting dates/gifts, read `~/couple/memory.md` for partner preferences and past activities.
+Before suggesting dates/gifts, read `~/Clawic/data/couple/memory.md` for partner preferences and past activities.
 
 ### 2. Milestone Alerts
 | Days Before | Action |

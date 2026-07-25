@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d27ee5b3da847846a78849ab44726873345ca2879ccad30e5a316487d815d146",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "thermostat",
-    "name": "Thermostat",
+    "name": "thermostat",
     "description": "Adjust temperatures, diagnose comfort issues, calculate energy savings, and automate schedules through voice commands or smart home integration.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/thermostat",
     "summary": "What the Agent Can Do | User Request | Agent Action | |--------------|--------------| | \"Make it warmer/cooler\" | Adjust setpoint ±2-3°F or to specific temp | | \"Why is my bedroom cold?\" | Diagnose: sensor location, vent",
     "repositoryPath": "skills/thermostat",
     "manifestPath": "registry/skills/thermostat.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/thermostat/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/_meta.json",
+      "byteCount": 172,
+      "sha256": "2a735d0f8f94635d7a5ccffe9af7e50acff872b138c7db21b3c24ba6af59261d"
     },
     {
       "path": "away.md",
       "downloadPath": "skills/thermostat/away.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/away.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/away.md",
+      "byteCount": 2731,
+      "sha256": "ade374c8dbc376255012a462d809da22a36bd271c278c7d2a2cfc46871712e24"
     },
     {
       "path": "basics.md",
       "downloadPath": "skills/thermostat/basics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/basics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/basics.md",
+      "byteCount": 2491,
+      "sha256": "6427b5fe586fc42a785d6056686d81408965b51852de2578702cfe0b41d25eda"
     },
     {
       "path": "efficiency.md",
       "downloadPath": "skills/thermostat/efficiency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/efficiency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/efficiency.md",
+      "byteCount": 2796,
+      "sha256": "dda5e25a2683da2ead49448dbe4fea167f48ba836448b71eab5e7a09ee7928a3"
     },
     {
       "path": "integration.md",
       "downloadPath": "skills/thermostat/integration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/integration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/integration.md",
+      "byteCount": 2655,
+      "sha256": "d7036993ccacc613110532617a0405dbb042bc3484f554e5e4244d633b184e09"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/thermostat/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/SKILL.md",
+      "byteCount": 2990,
+      "sha256": "8e65dd8681480b65b512e81fd1e32c358699a7fdf1c1b21c36eac31e486d12c9"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/thermostat/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thermostat/troubleshooting.md",
+      "byteCount": 2728,
+      "sha256": "39fd22bf641f7594a2ff755738652e28c3032fa20620020861658dae068623ec"
     }
   ]
 }

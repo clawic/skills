@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ff79ea516d6990de5641a69bb3a70d19d3023c78ff047c38e7e4de0b46e2a2c6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vibe-marketing",
-    "name": "Vibe Marketing",
+    "name": "vibe-marketing",
     "description": "Run marketing campaigns with AI automation. Covers content generation, workflow automation, copy that sounds human, and rapid testing.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vibe-marketing",
     "summary": "What is Vibe Marketing Marketing where you describe what you want and let AI generate content, copy, and campaigns. You iterate based on results rather than crafting every word manually. Inspired by vibe coding — same ph",
     "repositoryPath": "skills/vibe-marketing",
     "manifestPath": "registry/skills/vibe-marketing.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vibe-marketing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/_meta.json",
+      "byteCount": 180,
+      "sha256": "3aab9743ffe7c687d7f59775a11a725faed5bea50b5fce04bbcee4537ec54bf0"
     },
     {
       "path": "automation.md",
       "downloadPath": "skills/vibe-marketing/automation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/automation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/automation.md",
+      "byteCount": 2469,
+      "sha256": "fa69023c4c48a51f002eec7fc6c5b0bac41f2e63fb47f6bdb27696cfd9a00a54"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/vibe-marketing/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/content.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/content.md",
+      "byteCount": 1845,
+      "sha256": "b385e8950f73452d900c21a2f7985088a0b10fa02d7f4440a8b076515594b8f6"
     },
     {
       "path": "humanize.md",
       "downloadPath": "skills/vibe-marketing/humanize.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/humanize.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/humanize.md",
+      "byteCount": 2465,
+      "sha256": "022e35a118ca0f14d664a38328b45f692cc4b624ea8716ce5eb5768bebee067f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vibe-marketing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/SKILL.md",
+      "byteCount": 3655,
+      "sha256": "c160273cf8fb3162c12589b9dd6099e744e9dfeabcd9d01ccd3eabd09c76182d"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/vibe-marketing/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/testing.md",
+      "byteCount": 2572,
+      "sha256": "f3f159b0819d3d8a19fed3b1d31430fd723be7892c682b68ce059f7368763ef7"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/vibe-marketing/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-marketing/tools.md",
+      "byteCount": 2757,
+      "sha256": "d109c39f0254e8da40f7f4753609a96bbe7f1969cb7f6455eb00875db07c08fd"
     }
   ]
 }

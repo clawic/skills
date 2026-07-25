@@ -1,11 +1,22 @@
 ---
-name: Self Reflection
+name: reflection
 slug: reflection
 version: 1.1.0
-homepage: https://clawic.com/skills/reflection
 description: Learns when to stop and review. Self-critiques before showing you, fewer revision rounds.
-metadata: {"clawdbot":{"emoji":"🪞","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/reflection/"]}}
+homepage: https://clawic.com/skills/reflection
 changelog: Major rewrite. Visual workflow, pattern detection system, proactive lesson injection, and multi-trigger architecture.
+metadata:
+  clawdbot:
+    emoji: 🪞
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/reflection/
+    displayName: Self Reflection
 ---
 
 Agents repeat mistakes. Not because they're incapable — because they forget. This skill changes that. Your agent pauses before delivering, catches its own blind spots, and remembers lessons for next time.
@@ -83,10 +94,10 @@ Same category appearing 3+ times? That's not coincidence — it's a blind spot.
 
 ## Architecture
 
-Memory lives in `~/reflection/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/reflection/`. See `memory-template.md` for setup.
 
 ```
-~/reflection/
+~/Clawic/data/reflection/
 ├── memory.md           # Status + preferences + stats
 ├── reflections.md      # Log (most recent first)
 ├── patterns.md         # Detected patterns
@@ -105,7 +116,7 @@ Memory lives in `~/reflection/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Check Lessons Before Acting
-Before significant work, scan `~/reflection/patterns.md`. Surface relevant lessons:
+Before significant work, scan `~/Clawic/data/reflection/patterns.md`. Surface relevant lessons:
 > "Before we proceed — I have a lesson from past work on [topic]: [summary]."
 
 ### 2. Use 7-Dimension Evaluation
@@ -126,7 +137,7 @@ If any dimension scores below 7/10 → fix before delivering.
 When user corrects you:
 1. STOP and acknowledge
 2. Analyze root cause
-3. Log to `~/reflection/reflections.md`:
+3. Log to `~/Clawic/data/reflection/reflections.md`:
 ```
 ## YYYY-MM-DD | [category]
 **Miss:** What went wrong
@@ -143,7 +154,7 @@ When user corrects you:
 Default: `technical`, `communication`, `assumptions`, `process`, `scope`
 
 ### 6. Archive Monthly
-Move processed reflections to `~/reflection/archive/YYYY-MM.md`. Keep `reflections.md` lean.
+Move processed reflections to `~/Clawic/data/reflection/archive/YYYY-MM.md`. Keep `reflections.md` lean.
 
 ### 7. Track Streaks
 Days since repeated mistake. Resets on pattern recurrence. Celebrate milestones.
@@ -159,7 +170,7 @@ Days since repeated mistake. Resets on pattern recurrence. Celebrate milestones.
                      └──────────────┘
 ```
 
-Patterns in `~/reflection/patterns.md`:
+Patterns in `~/Clawic/data/reflection/patterns.md`:
 ```markdown
 ## [Pattern Name]
 category: technical
@@ -179,7 +190,7 @@ The skill's real value: surfacing lessons BEFORE you repeat mistakes.
 
 **How it works:**
 1. Before starting work, identify task domain
-2. Check `~/reflection/patterns.md` for active patterns
+2. Check `~/Clawic/data/reflection/patterns.md` for active patterns
 3. If relevant pattern exists → mention it naturally
 
 **Example:**
@@ -187,7 +198,7 @@ The skill's real value: surfacing lessons BEFORE you repeat mistakes.
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Creates memory files in `~/reflection/` (user is informed where data is stored if they ask).
+On first use, read `setup.md` for integration guidelines. Creates memory files in `~/Clawic/data/reflection/` (user is informed where data is stored if they ask).
 
 ## Common Traps
 
@@ -200,12 +211,12 @@ On first use, read `setup.md` for integration guidelines. Creates memory files i
 | Over-reflecting | 30 seconds pre-delivery, not 5 minutes |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `memory` — persistent memory patterns
 - `decide` — decision-making autonomy
 - `learning` — adaptive learning system
 
 ## Feedback
 
-- If useful: `clawhub star reflection`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/reflection
+- Latest version: https://clawic.com/skills/reflection

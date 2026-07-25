@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "82d8072417b63d7820a9079e29ce78f106d81f016ed25ce834c4b2b6722e3886",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "maps",
-    "name": "Maps",
+    "name": "maps",
     "description": "Plan place search, geocoding, routing, and map-link workflows across Google Maps, Apple Maps, OpenStreetMap, and other providers.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/maps",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/maps/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/_meta.json",
+      "byteCount": 160,
+      "sha256": "ad1e06bba082eefffc20d2224b58a9a84ff80ddd47fcf8b4248e8eaa6af10715"
     },
     {
       "path": "cost-controls.md",
       "downloadPath": "skills/maps/cost-controls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/cost-controls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/cost-controls.md",
+      "byteCount": 1162,
+      "sha256": "7fc2ed6a56fce751a78f3a6855c0cfb77ba48a7cb54683cc42a269a73c139e95"
     },
     {
       "path": "execution-patterns.md",
       "downloadPath": "skills/maps/execution-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/execution-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/execution-patterns.md",
+      "byteCount": 1850,
+      "sha256": "3a0ce5af5d4b64d88f2cfa09b7d06554aa2e8883b1aa96c478ec8ab7fb76f20e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/maps/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/memory-template.md",
+      "byteCount": 1837,
+      "sha256": "91052efe1896801d1eded486df4614832a19ece6112316f54d45aa601c4f595f"
     },
     {
       "path": "normalization-guide.md",
       "downloadPath": "skills/maps/normalization-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/normalization-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/normalization-guide.md",
+      "byteCount": 1766,
+      "sha256": "f732972402cf50fe969546ece3735833ea723fd16ceefd1bcad600ee57f56824"
     },
     {
       "path": "provider-matrix.md",
       "downloadPath": "skills/maps/provider-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/provider-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/provider-matrix.md",
+      "byteCount": 2420,
+      "sha256": "e9fbcdf652502f2b5d0616bf650d1a8a1e9e1b36e1d6cf1285b0e18864c52691"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/maps/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/setup.md",
+      "byteCount": 2577,
+      "sha256": "83d95165361c087ec64d42afd3d41be09aecb187a52df834defe870ffb095481"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/maps/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/SKILL.md",
+      "byteCount": 8564,
+      "sha256": "c7544d8fbcc9fd2c721598998c41030a32383efc98a9eb46a2c572f206412bdf"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/maps/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/maps/troubleshooting.md",
+      "byteCount": 1505,
+      "sha256": "3aab2fa058bff2149ee47f8e645c2afeb78a6ee313111f0a7ce8dc2a5dc8b916"
     }
   ]
 }

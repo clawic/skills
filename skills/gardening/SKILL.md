@@ -1,9 +1,20 @@
 ---
-name: Gardening
+name: gardening
+slug: gardening
+version: 1.0.0
 description: Plant care, soil management, seasonal timing, pest control, and garden planning.
+homepage: https://clawic.com/skills/gardening
 metadata:
   category: lifestyle
-  skills: ["gardening", "plants", "vegetables", "landscaping", "horticulture"]
+  skills:
+  - gardening
+  - plants
+  - vegetables
+  - landscaping
+  - horticulture
+  clawdbot:
+    emoji: 🌱
+    displayName: Gardening
 ---
 
 ## Soil Fundamentals

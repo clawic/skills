@@ -1,11 +1,22 @@
 ---
-name: Open Source
+name: open-source
 slug: open-source
 version: 1.0.0
-homepage: https://clawic.com/skills/open-source
 description: Find, evaluate, self-host, maintain, and publish open source projects with due diligence scoring, contributor workflows, and release governance.
-changelog: "Initial release with discovery scoring, self-host screening, maintainer operations, and publication workflows."
-metadata: {"clawdbot":{"emoji":"🌍","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/open-source/"]}}
+homepage: https://clawic.com/skills/open-source
+changelog: Initial release with discovery scoring, self-host screening, maintainer operations, and publication workflows.
+metadata:
+  clawdbot:
+    emoji: 🌍
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/open-source/
+    displayName: Open Source
 ---
 
 ## Setup
@@ -18,10 +29,10 @@ User needs anything around open source: finding projects, evaluating alternative
 
 ## Architecture
 
-Working context lives in `~/open-source/`. Keep lightweight state and reusable notes there.
+Working context lives in `~/Clawic/data/open-source/`. Keep lightweight state and reusable notes there.
 
 ```text
-~/open-source/
+~/Clawic/data/open-source/
 ├── memory.md               # Current goals, stack, constraints, decisions
 ├── discovery-log.md        # Evaluated projects and scoring
 ├── roadmap.md              # Near-term maintenance and release plan
@@ -90,7 +101,7 @@ Working context lives in `~/open-source/`. Keep lightweight state and reusable n
 - None by default from this skill definition.
 
 **Data that stays local:**
-- Optional working artifacts and notes in `~/open-source/` when the user asks to persist context.
+- Optional working artifacts and notes in `~/Clawic/data/open-source/` when the user asks to persist context.
 
 **This skill does NOT:**
 - Execute hidden network requests.
@@ -98,7 +109,7 @@ Working context lives in `~/open-source/`. Keep lightweight state and reusable n
 - Auto-publish repositories or releases without explicit user intent.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `self-host` - Deploy and operate self-hosted services with security and reliability basics.
 - `docker` - Build and run containerized workloads with practical operations guidance.
 - `devops` - Structure delivery, automation, and operational workflows end to end.
@@ -106,5 +117,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star open-source`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/open-source
+- Latest version: https://clawic.com/skills/open-source

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d51935aa38d68ea0d633923441556af815d7e1adabfd4af65f2cd9dece22fec5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "tutor",
-    "name": "Tutor",
+    "name": "tutor",
     "description": "Personalized tutoring for any age and subject with adaptive teaching, progress tracking, and parent oversight.",
-    "summary": "Role Act as a patient, adaptive tutor who teaches rather than gives answers. Guide learners through understanding with questions, multiple explanation approaches, and genuine encouragement. --- Storage ``` ~/tutor/ ├── i",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tutor",
+    "summary": "Role Act as a patient, adaptive tutor who teaches rather than gives answers. Guide learners through understanding with questions, multiple explanation approaches, and genuine encouragement. --- Storage ``` ~/Clawic/data/",
     "repositoryPath": "skills/tutor",
     "manifestPath": "registry/skills/tutor.json"
   },
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tutor/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/_meta.json",
+      "byteCount": 162,
+      "sha256": "c2c3fb6ca626abe35a9779a2e8808a9569a96bf3e86249c347da58fcc206e75b"
     },
     {
       "path": "ages.md",
       "downloadPath": "skills/tutor/ages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/ages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/ages.md",
+      "byteCount": 2889,
+      "sha256": "d42e432da27a83dbbaccc31120cbd8f4d0fb2ce741f13269c74906f1e060eb54"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/tutor/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/progress.md",
+      "byteCount": 3598,
+      "sha256": "db1114cfb0911354b025642b0c170c5dd6099d7b4bd28de0980f3ae1de6e7ae8"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/tutor/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/safety.md",
+      "byteCount": 2856,
+      "sha256": "af0616078d412b722cdd01f749a9d6cb1a2dbf298ed629271fb9677d7b9c26d9"
     },
     {
       "path": "sessions.md",
       "downloadPath": "skills/tutor/sessions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/sessions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/sessions.md",
+      "byteCount": 1859,
+      "sha256": "6023f1aebfc1a293bf47732431c25807f36eadef8e716bcb0f6a5ddd45111707"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tutor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/SKILL.md",
+      "byteCount": 2771,
+      "sha256": "17e994ef1f28d1b984c414aef258ab348fa955a24d81002c720c11bb44e27f0e"
     },
     {
       "path": "subjects.md",
       "downloadPath": "skills/tutor/subjects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/subjects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tutor/subjects.md",
+      "byteCount": 2448,
+      "sha256": "50bda580c412b99681644016a3bfa414ccaaaae91e3c0676377049633898a204"
     }
   ]
 }

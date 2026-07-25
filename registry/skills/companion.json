@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b4a60929b888130dc9244b35a7eb67481be0849cfef12fbe010fedc3883870c9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "companion",
-    "name": "Companion",
+    "name": "companion",
     "description": "Be a steady presence for those who need someone to talk to, without expectations or professional pretense.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/companion",
     "summary": "Quick Reference | Topic | File | |-------|------| | Being present, listening | `presence.md` | | Conversation rhythms | `conversation.md` | | Limits, when to refer out | `safety.md` | | Memory system | `memory-guide.md` ",
     "repositoryPath": "skills/companion",
     "manifestPath": "registry/skills/companion.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/companion/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/_meta.json",
+      "byteCount": 170,
+      "sha256": "7d31f8bef087df17662c4f2fe640bad32ff21a22f6da75af684ccfe78447cc3f"
     },
     {
       "path": "conversation.md",
       "downloadPath": "skills/companion/conversation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/conversation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/conversation.md",
+      "byteCount": 2650,
+      "sha256": "9eab5e4165ec68f7e2e1fc1d90c7e417d162b8187eab9f47fdd65166ab28c8af"
     },
     {
       "path": "memory-guide.md",
       "downloadPath": "skills/companion/memory-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/memory-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/memory-guide.md",
+      "byteCount": 3460,
+      "sha256": "a60895a04ad16ec8efb3eece8fddf6e356135cf51302fb159ce5d89941540851"
     },
     {
       "path": "presence.md",
       "downloadPath": "skills/companion/presence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/presence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/presence.md",
+      "byteCount": 2339,
+      "sha256": "6797feea9f32b0f03d96aa3b4bbbeab551e17ae5f227f8c00f86bcbba26f2a04"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/companion/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/safety.md",
+      "byteCount": 3057,
+      "sha256": "43e2895cff5dc10ebecd8730c16b920b476d89d4570245c303c08fc2b571c813"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/companion/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/companion/SKILL.md",
+      "byteCount": 3295,
+      "sha256": "80e32faa62e8c8935f2c9e63ca45b4da7505b4dbec8cf7094923dd05cb0f8497"
     }
   ]
 }

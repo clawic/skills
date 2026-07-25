@@ -1,15 +1,26 @@
 ---
-name: Italy
+name: italy
 slug: italy
 version: 1.0.0
-homepage: https://clawic.com/skills/italy
 description: Discover Italy beyond the clichés with specific restaurants, hidden gems, and insights that only locals know.
-metadata: {"clawdbot":{"emoji":"🇮🇹","requires":{"bins":[],"config":["~/italy/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/italy
+metadata:
+  clawdbot:
+    emoji: 🇮🇹
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/italy/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Italy
 ---
 
 ## Setup
 
-If `~/italy/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/italy/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -17,10 +28,10 @@ User planning a trip to Italy or wanting local insights: where to eat, what to s
 
 ## Architecture
 
-Memory lives in `~/italy/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/italy/`. See `memory-template.md` for structure.
 
 ```
-~/italy/
+~/Clawic/data/italy/
 └── memory.md     # Trip context
 ```
 
@@ -114,17 +125,17 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in ~/italy/
+**Data that stays local:** Trip preferences in ~/Clawic/data/italy/
 
-**This skill does NOT:** Access files outside ~/italy/ or make network requests.
+**This skill does NOT:** Access files outside ~/Clawic/data/italy/ or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — Travel planning
 - `food` — Food and cooking
 - `italian` — Italian language
 
 ## Feedback
 
-- If useful: `clawhub star italy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/italy
+- Latest version: https://clawic.com/skills/italy

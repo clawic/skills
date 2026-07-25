@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cf6a9aecf601dcbe490e83ca3c1d9ea638bedb124d723657197530ed9d74b7eb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "sync",
-    "name": "Sync",
+    "name": "sync",
     "description": "Synchronize files and directories between local, remote, and cloud storage reliably.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/sync",
     "summary": "File Synchronization Rules rsync Fundamentals - Trailing slash matters: `rsync src/` copies contents, `rsync src` copies the folder itself — this is the #1 cause of wrong directory structures - Always use `-avz` baseline",
     "repositoryPath": "skills/sync",
     "manifestPath": "registry/skills/sync.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sync/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sync/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sync/_meta.json",
+      "byteCount": 160,
+      "sha256": "9d2f94b72f1442f6a804274e658f4c3a9277b16cf82451e10d8ff031990746a6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sync/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sync/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sync/SKILL.md",
+      "byteCount": 2911,
+      "sha256": "266b9c94249a5419ed36a8ccacf0cb5570a274d79220bdbbf434f49b326fe745"
     }
   ]
 }

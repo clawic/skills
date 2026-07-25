@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "716872dfd7b04279af771d0a5ec5ac31e446312bf57e4ee472f9862e15c72bd0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "react",
     "name": "react",
-    "description": "Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing. Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux), when a component rerenders too often, loops infinitely (\"too many re-renders\"), shows stale or not-updating state, fails with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library, typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and deployment \u2014 use react-native or nextjs.",
+    "description": "Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing. Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux), when a component rerenders too often, loops infinitely (\"too many re-renders\"), shows stale or not-updating state, fails with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library, typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and deployment — use react-native or nextjs.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/react",
     "summary": "User preferences and memory live in `~/Clawic/data/react/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/react/` or `~/clawic/react/`), move it to `~/Cla",
@@ -20,24 +23,32 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/react/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/react/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/_meta.json",
+      "byteCount": 534,
+      "sha256": "465c21f26e78f83b3689da2e215cc1e7a72cfc11785f942bb7dca09cc215f1b2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/react/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/memory-template.md",
+      "byteCount": 1507,
+      "sha256": "36b1f14f67edfe6bf0a90a3f4b6565daf2997358e5adbcade104254fab7c7981"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/react/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/setup.md",
+      "byteCount": 2839,
+      "sha256": "989b89d7f623327971bcf6c5f571d8457aefe2c5e3547c3fbc814e80460aa08e"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/react/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/SKILL.md",
+      "byteCount": 17637,
+      "sha256": "1351da356e514aff2dd6787f2dc3418944cfa6aebf2bf49264e3ad8ea039d451"
     }
   ]
 }

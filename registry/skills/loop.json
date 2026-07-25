@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b8984981fdf6ab65871810a3caa646715f10259beb1f788d7c898c3f486b5344",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "loop",
-    "name": "Loop",
+    "name": "loop",
     "description": "Run iterative agent loops until success criteria are met. Controlled autonomous iteration.",
     "version": "1.0.2",
-    "summary": "Data Storage ``` ~/loop/ ├── active.json # Currently running loops ├── history/ # Completed loop logs │ └── {loop-id}.json └── learnings.md # Cross-loop patterns ``` Create on first use: `mkdir -p ~/loop/history` Scope T",
+    "homepage": "https://clawic.com/skills/loop",
+    "summary": "Data Storage ``` ~/Clawic/data/loop/ ├── active.json # Currently running loops ├── history/ # Completed loop logs │ └── {loop-id}.json └── learnings.md # Cross-loop patterns ``` Create on first use: `mkdir -p ~/Clawic/da",
     "repositoryPath": "skills/loop",
     "manifestPath": "registry/skills/loop.json"
   },
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/loop/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/_meta.json",
+      "byteCount": 236,
+      "sha256": "0f7ffa0b181f172ea2d7b6aa4f3d345d67720efafd91f0457a2ad05592a14f31"
     },
     {
       "path": "examples.md",
       "downloadPath": "skills/loop/examples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/examples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/examples.md",
+      "byteCount": 688,
+      "sha256": "a8778e2862feaa2586af699ff4d8672543c1bc1c8a8a3b6f6d125463399e9ac1"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/loop/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/memory.md",
+      "byteCount": 986,
+      "sha256": "65dce7c78101a625d1adc14385a7bc1d36567d9905fa374af5c972c1666af6c0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/loop/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/loop/SKILL.md",
+      "byteCount": 2549,
+      "sha256": "0fe12402a052836f37ebec850d7ae069ca4b462dfa4ef03d3f7567638630f7c7"
     }
   ]
 }

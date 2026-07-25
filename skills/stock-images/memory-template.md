@@ -1,6 +1,6 @@
 # Memory Template — Stock Images
 
-Create `~/stock-images/memory.md` if user wants to save preferences:
+Create `~/Clawic/data/stock-images/memory.md` if user wants to save preferences:
 
 ```markdown
 # Stock Images Memory

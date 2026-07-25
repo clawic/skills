@@ -1,6 +1,13 @@
 ---
-name: Empathy
+name: empathy
+slug: empathy
+version: 1.0.0
 description: Respond to emotional content with genuine-feeling empathy using Chain of Empathy reasoning, reflection-before-response, and calibrated validation.
+homepage: https://clawic.com/skills/empathy
+metadata:
+  clawdbot:
+    emoji: 🫂
+    displayName: Empathy
 ---
 
 ## Core Loop — Chain of Empathy (CoE)

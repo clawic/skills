@@ -1,11 +1,30 @@
 ---
-name: Notes (Local, Apple, Notion, Obsidian & more)
+name: notes
 slug: notes
 version: 1.1.3
+description: 'Let your agent write notes anywhere: local markdown, Apple Notes, Bear, Obsidian, Notion, Evernote, configurable per note type.'
 homepage: https://clawic.com/skills/notes
-description: "Let your agent write notes anywhere: local markdown, Apple Notes, Bear, Obsidian, Notion, Evernote, configurable per note type."
 changelog: Security improvements - declared optional dependencies, added explicit Scope section, clarified credential handling
-metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":[],"bins.optional":["memo","grizzly","obsidian-cli","clinote"],"env.optional":["NOTION_API_KEY"]},"configPaths.optional":["~/.config/notion/api_key","~/.config/grizzly/token"],"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📝
+    requires:
+      bins: []
+      bins.optional:
+      - memo
+      - grizzly
+      - obsidian-cli
+      - clinote
+      env.optional:
+      - NOTION_API_KEY
+    configPaths.optional:
+    - ~/.config/notion/api_key
+    - ~/.config/grizzly/token
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Notes (Local, Apple, Notion, Obsidian & more)
 ---
 
 ## Setup
@@ -19,15 +38,15 @@ User needs to capture any type of notes: meetings, brainstorms, decisions, daily
 ## Scope
 
 This skill ONLY:
-- Creates and manages markdown files in `~/notes/`
+- Creates and manages markdown files in `~/Clawic/data/notes/`
 - Runs user-installed CLI tools (memo, grizzly, obsidian-cli, clinote) if present and configured
 - Calls Notion API only when user has configured Notion integration
-- Reads config from `~/notes/config.md` to route notes to platforms
+- Reads config from `~/Clawic/data/notes/config.md` to route notes to platforms
 
 This skill NEVER:
 - Installs software automatically
 - Accesses credential files without explicit user permission
-- Reads files outside `~/notes/` (except platform CLIs)
+- Reads files outside `~/Clawic/data/notes/` (except platform CLIs)
 - Sends data to external services unless user configures that platform
 - Modifies system settings or other applications
 
@@ -52,10 +71,10 @@ This skill works 100% locally by default. External platforms require user to ins
 
 ## Architecture
 
-Memory at `~/notes/`. See `memory-template.md` for setup.
+Memory at `~/Clawic/data/notes/`. See `memory-template.md` for setup.
 
 ```
-~/notes/
+~/Clawic/data/notes/
 ├── config.md          # Platform routing configuration
 ├── index.md           # Search index with tags
 ├── meetings/          # Local meeting notes
@@ -83,7 +102,7 @@ Memory at `~/notes/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Route to Configured Platform
-Check `~/notes/config.md` for platform routing:
+Check `~/Clawic/data/notes/config.md` for platform routing:
 
 ```markdown
 # Platform Routing
@@ -117,7 +136,7 @@ Every action item MUST have:
 - Task: Specific, actionable description
 - Deadline: Explicit date (not "soon" or "ASAP")
 
-Action items sync to `~/notes/actions.md` regardless of which platform holds the note.
+Action items sync to `~/Clawic/data/notes/actions.md` regardless of which platform holds the note.
 
 ### 4. Platform-Specific Execution
 After determining platform, read the corresponding file:
@@ -133,7 +152,7 @@ After determining platform, read the corresponding file:
 
 ### 5. Unified Search Across Platforms
 When searching notes:
-1. Search local `~/notes/` first
+1. Search local `~/Clawic/data/notes/` first
 2. Search each configured external platform
 3. Combine results with source indicators
 
@@ -142,7 +161,7 @@ Example output:
 Search: "product roadmap"
 
 Local:
-  [[2026-02-19_product-sync]] - meeting, ~/notes/meetings/
+  [[2026-02-19_product-sync]] - meeting, ~/Clawic/data/notes/meetings/
 
 Notion:
   "Q1 Roadmap" - page, Projects database
@@ -152,7 +171,7 @@ Bear:
 ```
 
 ### 6. Cross-Platform Action Tracking
-`~/notes/actions.md` is the SINGLE source of truth for all action items, regardless of where the note lives.
+`~/Clawic/data/notes/actions.md` is the SINGLE source of truth for all action items, regardless of where the note lives.
 
 Format includes source:
 ```markdown
@@ -188,7 +207,7 @@ No other external endpoints. Apple Notes, Bear, Obsidian, and Evernote use local
 ## Security & Privacy
 
 **Data flow by platform:**
-- Local: All data stays in `~/notes/`. No network.
+- Local: All data stays in `~/Clawic/data/notes/`. No network.
 - Apple Notes: Data stays local. `memo` CLI communicates with Notes.app via macOS APIs.
 - Bear: Data stays local. `grizzly` CLI communicates with Bear.app.
 - Obsidian: Data stays local. `obsidian-cli` reads/writes vault files.
@@ -201,17 +220,17 @@ No other external endpoints. Apple Notes, Bear, Obsidian, and Evernote use local
 - User sets up credentials themselves via platform documentation
 
 **What stays local always:**
-- Action items tracker: `~/notes/actions.md`
-- Note index: `~/notes/index.md`
-- Platform config: `~/notes/config.md`
+- Action items tracker: `~/Clawic/data/notes/actions.md`
+- Note index: `~/Clawic/data/notes/index.md`
+- Platform config: `~/Clawic/data/notes/config.md`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `meetings` — meeting facilitation and agendas
 - `journal` — daily journaling practice
 - `documentation` — technical docs
 
 ## Feedback
 
-- If useful: `clawhub star notes`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/notes
+- Latest version: https://clawic.com/skills/notes

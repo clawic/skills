@@ -1,6 +1,6 @@
 # Memory Template - Denmark
 
-Create `~/denmark/memory.md` with this structure:
+Create `~/Clawic/data/denmark/memory.md` with this structure:
 
 ```markdown
 # Denmark Trip Memory

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8c132759319674df552729e0e496afc09cdc678a268b49310d0014d472863ee5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,54 +23,74 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/nodejs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/nodejs/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/_meta.json",
+      "byteCount": 388,
+      "sha256": "b6cbfc51f04872312a83d3a689354adc2571069d2b8e53bceeeb5dd2d79166a9"
     },
     {
       "path": "async.md",
       "downloadPath": "skills/nodejs/async.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/async.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/async.md",
+      "byteCount": 2468,
+      "sha256": "c9e11bd29f271c99ee8611d0ab43dd5ef67f4b356bc3135629ffc1f0e9718e34"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/nodejs/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/errors.md",
+      "byteCount": 1846,
+      "sha256": "3322c332b537545051eaf5ac8a1c1121d2e6725a7471e10fa3af6a506b9004e0"
     },
     {
       "path": "modules.md",
       "downloadPath": "skills/nodejs/modules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/modules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/modules.md",
+      "byteCount": 1920,
+      "sha256": "aab8c51a8b30e307c90659756b87a997d19d00729ad6a1f298fc202db7b0de87"
     },
     {
       "path": "packages.md",
       "downloadPath": "skills/nodejs/packages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/packages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/packages.md",
+      "byteCount": 1680,
+      "sha256": "73c9609a48863588cb684b17ae04aa8dfd033cc297344034fa6dce6d2360ef95"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/nodejs/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/performance.md",
+      "byteCount": 2377,
+      "sha256": "9096835a73d1e2dfbbfba88bd3c83c68001b712aaf9074e1c4e237839e13ad56"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/nodejs/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/security.md",
+      "byteCount": 1675,
+      "sha256": "ebb0c62c0dcc98d9f5e54602935beb4d697f182e8904c02e9e8583cd1f915b34"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nodejs/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/SKILL.md",
+      "byteCount": 6067,
+      "sha256": "7160562cca112b330dd05aa2b2b2d6412378f6c1dcb8ee5c38b985d3c511bf5f"
     },
     {
       "path": "streams.md",
       "downloadPath": "skills/nodejs/streams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/streams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/streams.md",
+      "byteCount": 1516,
+      "sha256": "8fc28a576ab82a78a72d92147c8987d0024ba24b7aa1dcf73b8efdb93d006a87"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/nodejs/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nodejs/testing.md",
+      "byteCount": 1472,
+      "sha256": "3deeecf1e9a2a56967ac29ed78a658bd8db97552a81f4a84230f4baac0424087"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Friends
+name: friends
+slug: friends
+version: 1.0.0
 description: Build a personal friendship system with interaction tracking, relationship health, and proactive maintenance reminders.
+homepage: https://clawic.com/skills/friends
+metadata:
+  clawdbot:
+    emoji: 👥
+    displayName: Friends
 ---
 
 ## Situation Detection
@@ -18,7 +25,7 @@ description: Build a personal friendship system with interaction tracking, relat
 - User mentions a friend → check if exists, offer to create/update
 - Interaction detected → log it, note context
 - Friendship fading → surface proactively with reconnection prompt
-- Create `~/friends/` as workspace
+- Create `~/Clawic/data/friends/` as workspace
 
 ## When User Mentions Someone
 - "Had dinner with Carlos" → log interaction, create if new
@@ -66,7 +73,7 @@ description: Build a personal friendship system with interaction tracking, relat
 
 ## Folder Structure
 ```
-~/friends/
+~/Clawic/data/friends/
 ├── inner-circle/
 │   ├── carlos-martinez.md
 │   └── ana-lopez.md

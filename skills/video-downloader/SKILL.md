@@ -1,11 +1,28 @@
 ---
-name: Video Downloader
+name: video-downloader
 slug: video-downloader
 version: 1.0.0
-homepage: https://clawic.com/skills/video-downloader
 description: Download online videos with quality and format controls using yt-dlp for reliable local saves.
+homepage: https://clawic.com/skills/video-downloader
 changelog: Initial release with local yt-dlp wrapper, quality controls, and explicit security boundaries.
-metadata: {"clawdbot":{"emoji":"⬇️","requires":{"bins":["yt-dlp","python3"]},"install":[{"id":"brew","kind":"brew","formula":"yt-dlp","bins":["yt-dlp"],"label":"Install yt-dlp (Homebrew)"}],"os":["linux","darwin"]}}
+metadata:
+  clawdbot:
+    emoji: ⬇️
+    requires:
+      bins:
+      - yt-dlp
+      - python3
+    install:
+    - id: brew
+      kind: brew
+      formula: yt-dlp
+      bins:
+      - yt-dlp
+      label: Install yt-dlp (Homebrew)
+    os:
+    - linux
+    - darwin
+    displayName: Video Downloader
 ---
 
 # Video Downloader
@@ -23,10 +40,10 @@ It is optimized for one-off downloads with explicit quality and format requireme
 
 ## Architecture
 
-Memory lives in `~/video-downloader/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/video-downloader/`. See `memory-template.md` for structure.
 
 ```text
-~/video-downloader/
+~/Clawic/data/video-downloader/
 ├── memory.md             # Status + user preferences
 ├── downloads-log.md      # Optional history of completed downloads
 └── failed-downloads.md   # Optional retries and failure reasons
@@ -95,7 +112,7 @@ No other data is sent externally.
 
 **Data that stays local:**
 - Downloaded files in the selected output folder.
-- Optional memory notes under `~/video-downloader/`.
+- Optional memory notes under `~/Clawic/data/video-downloader/`.
 
 **This skill does NOT:**
 - Store credentials in plain text.
@@ -109,7 +126,7 @@ By using this skill, requests are sent to the video host domains behind the prov
 Only install if you trust those services with your request metadata.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `video` — video processing workflows
 - `ffmpeg` — codec conversion tasks
 - `audio` — audio cleanup workflows
@@ -117,5 +134,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star video-downloader`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/video-downloader
+- Latest version: https://clawic.com/skills/video-downloader

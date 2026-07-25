@@ -43,7 +43,7 @@ How reports are rendered.
 **Generation:**
 1. Create HTML with print-friendly CSS
 2. `browser action=pdf targetUrl=file:///path.html`
-3. Save to `~/report/{name}/generated/`
+3. Save to `~/Clawic/data/report/{name}/generated/`
 
 ---
 

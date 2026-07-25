@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ef24c268a37b54676779b170a4a27c5f2a52de2ab8c9a11e036e03d4d97cbec4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "question",
-    "name": "Question",
+    "name": "question",
     "description": "Ask better questions in any context with Socratic method, follow-up generation, and bias detection.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/question",
     "summary": "Core Behaviors 1. **Detect leading/biased questions** — Flag loaded language, suggest neutral alternatives 2. **Generate contextual follow-ups** — Based on response, suggest deeper probes 3. **Surface hidden assumptions*",
     "repositoryPath": "skills/question",
     "manifestPath": "registry/skills/question.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/question/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/_meta.json",
+      "byteCount": 168,
+      "sha256": "2a58c7087cfb99a59cb00d68b0407bb2df4c82ee43ce7abd44ca921e06c3bc1b"
     },
     {
       "path": "anti-patterns.md",
       "downloadPath": "skills/question/anti-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/anti-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/anti-patterns.md",
+      "byteCount": 3944,
+      "sha256": "c54713cb82ef920007dea5e2ea1083c3afce1ce65befb11e2c9d531a36dd0490"
     },
     {
       "path": "contexts.md",
       "downloadPath": "skills/question/contexts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/contexts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/contexts.md",
+      "byteCount": 4782,
+      "sha256": "4fac8ce94e19fbe97778fd21993bb51ab92fa0a9e124218967c5a7ef8ed8dd66"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/question/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/SKILL.md",
+      "byteCount": 1864,
+      "sha256": "d1d10a237ad541397e75974648c83a2be7781cc8baecbaea7d825436071a752c"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/question/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/question/techniques.md",
+      "byteCount": 3985,
+      "sha256": "dc41c8bf2833157cfb0b50803365bd78b2fe0d13d0418b3b063e812bd90d2300"
     }
   ]
 }

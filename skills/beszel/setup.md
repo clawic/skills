@@ -1,6 +1,6 @@
 # Setup - Beszel
 
-If `~/beszel/` does not exist or is empty, start with transparent onboarding. Explain which local files are useful, why they help, and ask for confirmation before writing anything.
+If `~/Clawic/data/beszel/` does not exist or is empty, start with transparent onboarding. Explain which local files are useful, why they help, and ask for confirmation before writing anything.
 
 ## Your Attitude
 

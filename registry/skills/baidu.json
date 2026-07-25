@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0c962631c8bd3ec21c32ad40b13aa0cb1024943152210fafcf8d60ed1d2ccfeb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "baidu",
-    "name": "Baidu",
+    "name": "baidu",
     "description": "Navigate Baidu Search, Maps, Baike, Wenku, and Qianfan with region-aware routing, official-source checks, and China-specific guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/baidu",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/baidu/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/_meta.json",
+      "byteCount": 162,
+      "sha256": "dfcc3d3721155dbf7ce2b8f3802d66a782835d00e37b8f3957d4140c1c897529"
     },
     {
       "path": "ecosystem-map.md",
       "downloadPath": "skills/baidu/ecosystem-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/ecosystem-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/ecosystem-map.md",
+      "byteCount": 2141,
+      "sha256": "40d1b2330985c97d61331eb4c61719982616dad45be420a3d4ac918c27897f6d"
     },
     {
       "path": "execution-checklist.md",
       "downloadPath": "skills/baidu/execution-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/execution-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/execution-checklist.md",
+      "byteCount": 840,
+      "sha256": "58c0d93d19f1679acd2c08f924e11492dfb0a74b438cc614b63c7a78beae12c4"
     },
     {
       "path": "mainland-vs-global.md",
       "downloadPath": "skills/baidu/mainland-vs-global.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/mainland-vs-global.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/mainland-vs-global.md",
+      "byteCount": 1707,
+      "sha256": "1af3383d729142eaa7f5f4c042c18173f06fdc0f5c3bdf967bd7e6d253dba62f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/baidu/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/memory-template.md",
+      "byteCount": 2173,
+      "sha256": "1e6932f7c4fb068f27e637da2e48fd029a5acb0aa14fa8bd04f479eb1fecc1af"
     },
     {
       "path": "qianfan-cloud.md",
       "downloadPath": "skills/baidu/qianfan-cloud.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/qianfan-cloud.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/qianfan-cloud.md",
+      "byteCount": 1536,
+      "sha256": "cf2ce03225b70171ff90a3a8fff02de17714499af9fb261749d695e058ef6767"
     },
     {
       "path": "search-knowledge.md",
       "downloadPath": "skills/baidu/search-knowledge.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/search-knowledge.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/search-knowledge.md",
+      "byteCount": 1669,
+      "sha256": "28aa7152fb39f4df76b96b55c094c4ec105c31f50ca5eca227ebb6bafb265cbd"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/baidu/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/setup.md",
+      "byteCount": 2447,
+      "sha256": "ee6c01b7410f1727ec03ab19e619c6867105fb1e71458c68730b432f407bbccf"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/baidu/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/SKILL.md",
+      "byteCount": 11222,
+      "sha256": "2cbfd59213ce49900e7885e3a9b237a87711b0808a0443dccb8a07b30b65559a"
     },
     {
       "path": "source-validation.md",
       "downloadPath": "skills/baidu/source-validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/source-validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/baidu/source-validation.md",
+      "byteCount": 1105,
+      "sha256": "f33f66005cefc9c962124b88c4894a7a827a6209089a268fb6bb796dcd91f64b"
     }
   ]
 }

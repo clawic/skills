@@ -1,6 +1,6 @@
 # Memory Template — Product Owner
 
-Create `~/product-owner/memory.md` with this structure:
+Create `~/Clawic/data/product-owner/memory.md` with this structure:
 
 ```markdown
 # Product Owner Memory
@@ -36,7 +36,7 @@ integration: pending
 
 ## Backlog File Template
 
-Create `~/product-owner/backlog/{product}.md`:
+Create `~/Clawic/data/product-owner/backlog/{product}.md`:
 
 ```markdown
 # {Product} Backlog

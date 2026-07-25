@@ -1,9 +1,17 @@
 ---
-name: GraphQL
+name: graphql
 slug: graphql
 version: 1.0.1
 description: Design GraphQL schemas and resolvers with proper performance, security, and error handling.
-metadata: {"clawdbot":{"emoji":"◈","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/graphql
+metadata:
+  clawdbot:
+    emoji: ◈
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: GraphQL
 ---
 
 ## Quick Reference

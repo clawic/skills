@@ -1,6 +1,6 @@
 # CPA Progress Tracking System
 
-## File Structure in ~/cpa/
+## File Structure in ~/Clawic/data/cpa/
 
 ### profile.md
 ```markdown

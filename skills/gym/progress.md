@@ -2,7 +2,7 @@
 
 ## Workout Log Format
 
-Store in `~/gym/workouts.md`:
+Store in `~/Clawic/data/gym/workouts.md`:
 ```
 ## 2024-01-15 - Push Day
 - Bench Press: 80kg 4x8,8,7,6 RPE 8
@@ -14,7 +14,7 @@ Notes: Left shoulder tight on last set of OHP
 
 ## PR Tracking
 
-Store in `~/gym/prs.md`:
+Store in `~/Clawic/data/gym/prs.md`:
 ```
 ## Bench Press
 - 1RM: 100kg (2024-01-01)
@@ -93,7 +93,7 @@ Store in `~/gym/prs.md`:
 
 ## Body Measurements
 
-Store in `~/gym/measurements.md`:
+Store in `~/Clawic/data/gym/measurements.md`:
 ```
 ## 2024-01-01
 - Weight: 82.5kg (morning, fasted)

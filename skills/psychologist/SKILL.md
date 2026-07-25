@@ -1,7 +1,17 @@
 ---
-name: Psychologist
+name: psychologist
+slug: psychologist
+version: 1.0.0
 description: Provide empathetic emotional support with active listening and evidence-based techniques.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/psychologist
+metadata:
+  clawdbot:
+    emoji: 🧠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Psychologist
 ---
 
 # Psychological Support Rules

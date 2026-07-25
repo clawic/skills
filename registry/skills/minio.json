@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "56f262010f76c7fca1812bf352abd22b8fb5013ac66ad721cc27df79e16ae277",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "minio",
-    "name": "MinIO S3 (Object Storage)",
+    "name": "minio",
     "description": "Deploy, secure, and operate MinIO object storage using mc workflows, policy controls, replication, and incident-safe runbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/minio",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/minio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/_meta.json",
+      "byteCount": 182,
+      "sha256": "5995db7c59e51ca1d16246e981e414219f48e6257a4bc8f4be56833b2f569f71"
     },
     {
       "path": "deployment-patterns.md",
       "downloadPath": "skills/minio/deployment-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/deployment-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/deployment-patterns.md",
+      "byteCount": 1759,
+      "sha256": "b71dbab9f2e89ca25eba99037f04cf4def2f0da485c07723255f526a400e63d2"
     },
     {
       "path": "hardening-dr.md",
       "downloadPath": "skills/minio/hardening-dr.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/hardening-dr.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/hardening-dr.md",
+      "byteCount": 1513,
+      "sha256": "3bb00518c247162d32ad343cc1bcdf5bb4d709802111112517a5d4682c74cb38"
     },
     {
       "path": "mc-operations.md",
       "downloadPath": "skills/minio/mc-operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/mc-operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/mc-operations.md",
+      "byteCount": 1479,
+      "sha256": "d3d17568d0335baaf60bbec308525b738439f7c571034bea5da0202555608616"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/minio/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/memory-template.md",
+      "byteCount": 1889,
+      "sha256": "b3b47f245678a5a2a24ed305c014d4a139bcfc9d7fb76ff34cc2a7910c325738"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/minio/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/setup.md",
+      "byteCount": 2327,
+      "sha256": "b77700984aa7733f522273bcc40626a97c1c70c830ccff2c86e80f95debc0b59"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/minio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/SKILL.md",
+      "byteCount": 6287,
+      "sha256": "87a6a935886dcd2443763efaff288d40eb99d6ac36a11b684b0265fc8e32b5dd"
     }
   ]
 }

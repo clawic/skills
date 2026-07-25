@@ -1,16 +1,25 @@
 ---
-name: Kanban
+name: kanban
 slug: kanban
 version: 1.0.0
-homepage: https://clawic.com/skills/kanban
 description: Build multi-project Kanban systems with deterministic board discovery, consistent task processing, and persistent routing memory across sessions.
+homepage: https://clawic.com/skills/kanban
 changelog: Initial release with project routing, board templates, and deterministic Kanban processing rules.
-metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📋
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Kanban
 ---
 
 ## Setup
 
-If `~/kanban/` does not exist or is empty, read `setup.md` silently and initialize only after user confirmation.
+If `~/Clawic/data/kanban/` does not exist or is empty, read `setup.md` silently and initialize only after user confirmation.
 
 ## When to Use
 
@@ -18,10 +27,10 @@ Use this skill when the user wants a Kanban system the agent can maintain across
 
 ## Architecture
 
-Memory lives in `~/kanban/`. See `memory-template.md` for base files, `board-template.md` for board structure, and `discovery-protocol.md` for project routing.
+Memory lives in `~/Clawic/data/kanban/`. See `memory-template.md` for base files, `board-template.md` for board structure, and `discovery-protocol.md` for project routing.
 
 ```
-~/kanban/
+~/Clawic/data/kanban/
 ├── memory.md                  # Global status, integration, defaults
 ├── index.md                   # Project registry and board location map
 ├── templates/
@@ -96,7 +105,7 @@ Use the smallest relevant file for the current task.
 ## Security & Privacy
 
 **Data that stays local:**
-- Board files and project registry in `~/kanban/` or `{workspace}/.kanban/`.
+- Board files and project registry in `~/Clawic/data/kanban/` or `{workspace}/.kanban/`.
 
 **Data that leaves your machine:**
 - None by default.
@@ -107,7 +116,7 @@ Use the smallest relevant file for the current task.
 - Invent board history when logs are missing.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `workflow` - operational workflow design and execution loops
 - `projects` - project organization and cross-project governance
 - `delegate` - owner assignment and task handoff protocols
@@ -115,5 +124,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star kanban`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/kanban
+- Latest version: https://clawic.com/skills/kanban

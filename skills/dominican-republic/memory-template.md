@@ -1,6 +1,6 @@
 # Memory Template - Dominican Republic
 
-Create `~/dominican-republic/memory.md` with this structure:
+Create `~/Clawic/data/dominican-republic/memory.md` with this structure:
 
 ```markdown
 # Dominican Republic Trip Memory

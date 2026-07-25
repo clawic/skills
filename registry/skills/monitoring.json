@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e61a12514c32480260ef8c38793b832a3e13ecdfac726c28cabe6e3502394b00",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "monitoring",
-    "name": "Monitoring",
+    "name": "monitoring",
     "description": "Set up observability for applications and infrastructure with metrics, logs, traces, and alerts.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/monitoring",
     "summary": "Complexity Levels | Level | Tools | Setup Time | Best For | |-------|-------|------------|----------| | **Minimal** | UptimeRobot, Healthchecks.io | 15 min | Side projects, MVPs | | **Standard** | Uptime Kuma, Sentry, ba",
     "repositoryPath": "skills/monitoring",
     "manifestPath": "registry/skills/monitoring.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/monitoring/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/_meta.json",
+      "byteCount": 172,
+      "sha256": "421e5c1174a419e368fc39ea6d2636aee75e76e140b3384cede49b1331dc26dd"
     },
     {
       "path": "alerting.md",
       "downloadPath": "skills/monitoring/alerting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/alerting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/alerting.md",
+      "byteCount": 4434,
+      "sha256": "3e490de9af0e3b683a9054268f7443d6d72a69fba921fe558dbbb047815bc924"
     },
     {
       "path": "apm.md",
       "downloadPath": "skills/monitoring/apm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/apm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/apm.md",
+      "byteCount": 3623,
+      "sha256": "b930ac6d71445dfddae2f3011040fee809d80283799c5e7675c19bd2bbeaf062"
     },
     {
       "path": "logs.md",
       "downloadPath": "skills/monitoring/logs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/logs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/logs.md",
+      "byteCount": 3980,
+      "sha256": "c4c4b6fdf6cc9e33ce4f77503122182f342e1598b18b4fb9d9245b62092b4251"
     },
     {
       "path": "prometheus.md",
       "downloadPath": "skills/monitoring/prometheus.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/prometheus.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/prometheus.md",
+      "byteCount": 5274,
+      "sha256": "6d58110fd907ab296150ded805c246b6d99204a35d20d98e6291fc3e8909d750"
     },
     {
       "path": "simple.md",
       "downloadPath": "skills/monitoring/simple.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/simple.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/simple.md",
+      "byteCount": 2312,
+      "sha256": "da0ae0040328dd898850c57891bdad0ba99524b401a31f9c36a162442bc549ec"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/monitoring/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitoring/SKILL.md",
+      "byteCount": 2948,
+      "sha256": "d7988d1dd6216259044f9c2ed29f80f0f166a92e774a2cecacb6b962de0cd242"
     }
   ]
 }

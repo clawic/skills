@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8f883b03f1cc7e80c24c89e494af598503962164139d6f6aaee12e0b8ac058b9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "anki",
-    "name": "Anki",
+    "name": "anki",
     "description": "Create effective flashcards, optimize retention, and master spaced repetition with card design, deck organization, and study diagnostics.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/anki",
     "summary": "Quick Reference | Area | File | |------|------| | Card creation & formats | `cards.md` | | Retention optimization | `retention.md` | | Deck management | `organization.md` | | Language learning | `language.md` | What the ",
     "repositoryPath": "skills/anki",
     "manifestPath": "registry/skills/anki.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/anki/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/_meta.json",
+      "byteCount": 160,
+      "sha256": "33dbb8c9e97308635d8516a72cdf30ae035583b388ff98bb71f648b62e0e8d32"
     },
     {
       "path": "cards.md",
       "downloadPath": "skills/anki/cards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/cards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/cards.md",
+      "byteCount": 3273,
+      "sha256": "0d41187e575356009aeeb9f08d3ddd56a2d39caf647115238fa11388514f6762"
     },
     {
       "path": "language.md",
       "downloadPath": "skills/anki/language.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/language.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/language.md",
+      "byteCount": 3336,
+      "sha256": "e528d06567fe6e96a2023a0633d7f8b5a891be8f5495cb13b6439a24a49303be"
     },
     {
       "path": "organization.md",
       "downloadPath": "skills/anki/organization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/organization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/organization.md",
+      "byteCount": 2982,
+      "sha256": "94cecf89351d5363df8848e263f39f7417400bb25b540ac9a50ee25373ab15a7"
     },
     {
       "path": "retention.md",
       "downloadPath": "skills/anki/retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/retention.md",
+      "byteCount": 3426,
+      "sha256": "ecdd462711a8e57b96f5cbaa9bb2a5f6e27c34111a95166560715664f8f8d03a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/anki/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/SKILL.md",
+      "byteCount": 2725,
+      "sha256": "76e13cc7f5da5b323d4001ad941c5919d1c33f7de088444870ebbeee72d73750"
     }
   ]
 }

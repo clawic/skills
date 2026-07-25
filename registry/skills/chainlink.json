@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7ee34ad3d517c2709d67565609d951bdf3f20d5f7f11c4e58652c85f27f277b3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "chainlink",
-    "name": "Chainlink",
+    "name": "chainlink",
     "description": "Assist with Chainlink LINK tokens, oracle integrations, staking, and price feed usage.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/chainlink",
     "summary": "LINK Token Basics - LINK is an ERC-20 token on Ethereum — standard wallet and exchange support - Also available on multiple chains — Arbitrum, Optimism, Polygon, Avalanche, BSC - Bridging LINK between chains uses officia",
     "repositoryPath": "skills/chainlink",
     "manifestPath": "registry/skills/chainlink.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chainlink/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/_meta.json",
+      "byteCount": 170,
+      "sha256": "ee770f654ab22ccb26651e85c06b8638c4dbf2b3d4ed226553054bf44bf59627"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chainlink/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chainlink/SKILL.md",
+      "byteCount": 4240,
+      "sha256": "bde26705ca80e2e0bc412c9a1ac40c92f552bbd759a0156cd435c1af4b68a70f"
     }
   ]
 }

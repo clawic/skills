@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "09e67282fd646840e98a0cc825cfc7502eab5976280e9b2f77cfe852e73746e1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "jwt",
-    "name": "JWT",
+    "name": "jwt",
     "description": "Implement secure JWT authentication with proper validation, token lifecycle, and key management.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/jwt",
     "summary": "Quick Reference | Topic | File | |-------|------| | Algorithm selection | `algorithms.md` | | Token lifecycle | `lifecycle.md` | | Validation checklist | `validation.md` | | Common attacks | `attacks.md` | Security Funda",
     "repositoryPath": "skills/jwt",
     "manifestPath": "registry/skills/jwt.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/jwt/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/_meta.json",
+      "byteCount": 234,
+      "sha256": "4705aaf30fb1fe9493d7de89f6f01279e1bdd2058f4c41d48a8cd24dae1af0e3"
     },
     {
       "path": "algorithms.md",
       "downloadPath": "skills/jwt/algorithms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/algorithms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/algorithms.md",
+      "byteCount": 1670,
+      "sha256": "f4b5b7ad0905f6a9782fd028a0b368dd08513f366b4c9a262b4403273dc276dd"
     },
     {
       "path": "attacks.md",
       "downloadPath": "skills/jwt/attacks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/attacks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/attacks.md",
+      "byteCount": 1994,
+      "sha256": "9663f5cfe1413047fbede8d9fdd88c1b8250efb6b8a0cc6f24836668aa5bcd7a"
     },
     {
       "path": "lifecycle.md",
       "downloadPath": "skills/jwt/lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/lifecycle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/lifecycle.md",
+      "byteCount": 1821,
+      "sha256": "4b4e7fb6c125a5271819002e72fe12a05d778b6e1e681e350248631e86618c2f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/jwt/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/SKILL.md",
+      "byteCount": 3778,
+      "sha256": "00dcff70cb4f49fcd0ebb458f94fb7671eea13532ef400769ff6c3278ce7825d"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/jwt/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/validation.md",
+      "byteCount": 1766,
+      "sha256": "c058fee7ea09b8dcb93eaa555568e6e4345c2f9594ba16816239e230c924f7cf"
     }
   ]
 }

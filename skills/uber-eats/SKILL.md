@@ -1,11 +1,24 @@
 ---
-name: Uber Eats
+name: uber-eats
 slug: uber-eats
 version: 1.0.0
-homepage: https://clawic.com/skills/uber-eats
 description: Navigate Uber Eats in a live browser or app handoff to compare merchants, manage carts, and reach checkout safely.
+homepage: https://clawic.com/skills/uber-eats
 changelog: Initial release with live-session ordering flow, access-denied fallback, checkout guardrails, and issue recovery for Uber Eats orders.
-metadata: {"clawdbot":{"emoji":"🍔","requires":{"bins":[],"config":["~/uber-eats/"]},"os":["darwin","linux","win32"],"configPaths":["~/uber-eats/"]}}
+metadata:
+  clawdbot:
+    emoji: 🍔
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/uber-eats/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/uber-eats/
+    displayName: Uber Eats
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Choose this skill when the next step is to browse merchants, compare ETAs and fe
 
 ## Architecture
 
-Memory lives in `~/uber-eats/`. If `~/uber-eats/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter fields.
+Memory lives in `~/Clawic/data/uber-eats/`. If `~/Clawic/data/uber-eats/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter fields.
 
 ```text
-~/uber-eats/
+~/Clawic/data/uber-eats/
 |-- memory.md       # Activation defaults, session mode, and ordering boundary
 |-- addresses.md    # Approved delivery addresses and zone caveats
 |-- merchants.md    # Preferred merchants, cuisine notes, and fee patterns
@@ -63,9 +76,9 @@ Do not blur the boundary between browsing and ordering. A live Uber Eats session
 
 ## Data Storage
 
-Persistent local notes in `~/uber-eats/` are optional. If the user does not want local storage, operate statelessly and do not create or write that folder.
+Persistent local notes in `~/Clawic/data/uber-eats/` are optional. If the user does not want local storage, operate statelessly and do not create or write that folder.
 
-When local notes are allowed, keep only durable operating context in `~/uber-eats/`:
+When local notes are allowed, keep only durable operating context in `~/Clawic/data/uber-eats/`:
 - whether the skill may reuse the daily browser profile or should stay read-only
 - preferred addresses, neighborhoods, and delivery caveats approved by the user
 - favorite merchants, reorder patterns, and substitution preferences
@@ -138,7 +151,7 @@ No other data should be sent externally unless the user explicitly opens additio
 - support or issue details the user explicitly submits to Uber Eats
 
 **Data that stays local:**
-- optional Uber Eats operating notes in `~/uber-eats/`, only if the user wants persistent memory
+- optional Uber Eats operating notes in `~/Clawic/data/uber-eats/`, only if the user wants persistent memory
 - preferences, address labels, and known-good merchant patterns approved by the user
 
 **This skill does NOT:**
@@ -166,7 +179,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `food-delivery` - Broader ordering logic when the user is not locked to Uber Eats.
 - `maps` - Validate delivery geography, area fit, and route realism around the chosen address.
@@ -176,5 +189,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star uber-eats`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/uber-eats
+- Latest version: https://clawic.com/skills/uber-eats

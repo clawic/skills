@@ -1,11 +1,35 @@
 ---
-name: Playwright (Automation + MCP + Scraper)
+name: playwright
 slug: playwright
 version: 1.0.3
+description: Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.
 homepage: https://clawic.com/skills/playwright
-description: "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome."
 changelog: Clarified the MCP-first browser automation flow and improved quick-start guidance for forms, screenshots, and extraction.
-metadata: {"clawdbot":{"emoji":"P","requires":{"bins":["node","npx"]},"os":["linux","darwin","win32"],"install":[{"id":"npm-playwright","kind":"npm","package":"playwright","bins":["playwright"],"label":"Install Playwright"},{"id":"npm-playwright-mcp","kind":"npm","package":"@playwright/mcp","bins":["playwright-mcp"],"label":"Install Playwright MCP (optional)"}]}}
+metadata:
+  clawdbot:
+    emoji: P
+    requires:
+      bins:
+      - node
+      - npx
+    os:
+    - linux
+    - darwin
+    - win32
+    install:
+    - id: npm-playwright
+      kind: npm
+      package: playwright
+      bins:
+      - playwright
+      label: Install Playwright
+    - id: npm-playwright-mcp
+      kind: npm
+      package: '@playwright/mcp'
+      bins:
+      - playwright-mcp
+      label: Install Playwright MCP (optional)
+    displayName: Playwright (Automation + MCP + Scraper)
 ---
 
 ## When to Use
@@ -178,12 +202,12 @@ By using this skill, browser requests go to the websites you automate and option
 Only install if you trust those services and the sites involved in your workflow.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `web` - HTTP-first investigation before escalating to a real browser.
 - `scrape` - Broader extraction workflows when browser automation is not the main challenge.
 - `screenshots` - Capture and polish visual artifacts after browser work.
 - `multi-engine-web-search` - Find and shortlist target pages before automating them.
 
 ## Feedback
-- If useful: `clawhub star playwright`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/playwright
+- Latest version: https://clawic.com/skills/playwright

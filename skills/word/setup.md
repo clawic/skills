@@ -16,17 +16,17 @@ Create the skill directory:
 mkdir -p ~/word
 ```
 
-Create `~/word/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/word/memory.md` from `memory-template.md`.
 
 Create these optional note files if you expect repeated Word automation:
 
 ```bash
-touch ~/word/incidents.md ~/word/document-notes.md
+touch ~/Clawic/data/word/incidents.md ~/Clawic/data/word/document-notes.md
 ```
 
 ### 3. Capture the minimum environment facts
 
-Add a few stable facts to `~/word/memory.md`:
+Add a few stable facts to `~/Clawic/data/word/memory.md`:
 
 - platform in use: macOS
 - default control path: `osascript`
@@ -78,6 +78,6 @@ If this fails, stop and use `troubleshooting.md` before attempting document chan
 Setup is done when:
 
 - at least one official control path works
-- `~/word/memory.md` exists
+- `~/Clawic/data/word/memory.md` exists
 - safety defaults are written down
 - a minimal read-only app check succeeds

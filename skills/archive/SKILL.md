@@ -1,17 +1,27 @@
 ---
-name: Archive
+name: archive
 slug: archive
 version: 1.0.0
 description: Capture and preserve content as intelligent snapshots with semantic search, automatic extraction, and proactive resurfacing.
-metadata: {"clawdbot":{"emoji":"📦","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/archive
+metadata:
+  clawdbot:
+    emoji: 📦
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Archive
 ---
 
 ## Architecture
 
-Archive storage lives in `~/archive/` with tiered structure. See `memory-template.md` for setup.
+Archive storage lives in `~/Clawic/data/archive/` with tiered structure. See `memory-template.md` for setup.
 
 ```
-~/archive/
+~/Clawic/data/archive/
 ├── memory.md          # HOT: recent items, ≤100 lines
 ├── index.md           # Topic/tag index
 ├── items/             # Individual archived items
@@ -110,7 +120,7 @@ This skill NEVER:
 
 ## Data Storage
 
-All data in `~/archive/`. Create on first use:
+All data in `~/Clawic/data/archive/`. Create on first use:
 ```bash
-mkdir -p ~/archive/items ~/archive/projects
+mkdir -p ~/Clawic/data/archive/items ~/Clawic/data/archive/projects
 ```

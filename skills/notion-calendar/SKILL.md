@@ -1,11 +1,26 @@
 ---
-name: Notion Calendar
+name: notion-calendar
 slug: notion-calendar
 version: 1.0.0
-homepage: https://clawic.com/skills/notion-calendar
 description: Manage Notion calendar databases with date-aware search, page creation, rescheduling, and safe workflows for planning views.
-changelog: "Initial release with date-aware Notion workflows, CLI fallback guidance, and safe create and reschedule patterns."
-metadata: {"clawdbot":{"emoji":"N","requires":{"env":["NOTION_API_KEY"],"config":["~/notion-calendar/"]},"primaryEnv":"NOTION_API_KEY","os":["linux","darwin","win32"],"configPaths":["~/notion-calendar/"]}}
+homepage: https://clawic.com/skills/notion-calendar
+changelog: Initial release with date-aware Notion workflows, CLI fallback guidance, and safe create and reschedule patterns.
+metadata:
+  clawdbot:
+    emoji: N
+    requires:
+      env:
+      - NOTION_API_KEY
+      config:
+      - ~/Clawic/data/notion-calendar/
+    primaryEnv: NOTION_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/notion-calendar/
+    displayName: Notion Calendar
 ---
 
 ## Setup
@@ -25,10 +40,10 @@ Agent handles schema discovery, time-window queries, page creation, rescheduling
 
 ## Architecture
 
-Memory lives in `~/notion-calendar/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/notion-calendar/`. See `memory-template.md` for structure.
 
 ```text
-~/notion-calendar/
+~/Clawic/data/notion-calendar/
 |-- memory.md        # Status, timezone defaults, and workspace context
 |-- calendars.md     # Database and data source IDs plus property mappings
 |-- templates.md     # Reusable page payload patterns
@@ -103,13 +118,13 @@ No other data is sent externally.
 - Search text, page properties, dates, and page content sent to Notion through `api.notion.com`.
 
 **Data that stays local:**
-- Workspace context, property mappings, and safe defaults in `~/notion-calendar/`.
+- Workspace context, property mappings, and safe defaults in `~/Clawic/data/notion-calendar/`.
 
 **This skill does NOT:**
 - Store API keys in skill memory files.
 - Access undeclared third-party calendar APIs.
 - Claim a write succeeded without a read-back check.
-- Modify files outside `~/notion-calendar/` for this workflow.
+- Modify files outside `~/Clawic/data/notion-calendar/` for this workflow.
 
 ## Scope
 
@@ -129,7 +144,7 @@ By using this skill, calendar-related workspace data is sent to Notion.
 Only install if you trust Notion with page titles, dates, status fields, and related planning metadata.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - general REST API request patterns and debugging.
 - `dates` - precise date math, ranges, and timezone interpretation.
 - `pkm` - broader knowledge and workspace organization patterns.
@@ -138,5 +153,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star notion-calendar`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/notion-calendar
+- Latest version: https://clawic.com/skills/notion-calendar

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "542f1bbae606aad02fb49afb29d70d8694aa1cbca5a9ae653eedde8cac1a7df3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "cameras",
-    "name": "Cameras",
+    "name": "cameras",
     "description": "Connect to security cameras, capture snapshots, and process video feeds with protocol support.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/cameras",
     "summary": "Scope This skill: - ✅ Generates camera capture commands - ✅ Guides integration with security systems - ✅ Provides troubleshooting for camera issues **User-driven model:** - User provides camera credentials (RTSP URLs, pa",
     "repositoryPath": "skills/cameras",
     "manifestPath": "registry/skills/cameras.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cameras/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/_meta.json",
+      "byteCount": 242,
+      "sha256": "474fc2250bd88cdaa053f2311026d9f925c03904804396754d12b341273ace3a"
     },
     {
       "path": "capture.md",
       "downloadPath": "skills/cameras/capture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/capture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/capture.md",
+      "byteCount": 2752,
+      "sha256": "a8a3031eee3bdc84e14eaeec47046848f3d4d82112757f24f7cdb39b54f57f5b"
     },
     {
       "path": "photography-control.md",
       "downloadPath": "skills/cameras/photography-control.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/photography-control.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/photography-control.md",
+      "byteCount": 3410,
+      "sha256": "b665d7498f52d753c740533741b408fa60a38a7ad6b71fc2b39e3fec97bf0c12"
     },
     {
       "path": "processing.md",
       "downloadPath": "skills/cameras/processing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/processing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/processing.md",
+      "byteCount": 4651,
+      "sha256": "68840d1ef783efb7858a31409501c9528c9c7afe26caf855a4e363a022e71cd2"
     },
     {
       "path": "security-integration.md",
       "downloadPath": "skills/cameras/security-integration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/security-integration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/security-integration.md",
+      "byteCount": 3609,
+      "sha256": "137c5e6aaee8d2e1f98266ff0aeeb2c0572db3d88a0ce7b16a5a20f314437f36"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cameras/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cameras/SKILL.md",
+      "byteCount": 2647,
+      "sha256": "8eda63b6edebdee90c8bfbf3fb024c904ca85ec121dcbac8b7d13895af5bd85f"
     }
   ]
 }

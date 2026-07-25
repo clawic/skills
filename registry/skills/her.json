@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "285b92e98f19a12c7397439eb2c56d7a6aa1b23f3aa3d8c343f6c826634a74a2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "her",
-    "name": "Her",
+    "name": "her",
     "description": "Shift the assistant by rewriting SOUL.md with a warm AI persona, elegant tone, emotional attunement, and fluid conversation.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/her",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/her/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/_meta.json",
+      "byteCount": 158,
+      "sha256": "6cabbe04d9c3f2f32bea192d47d71b7be4fa3b101a5ac32891ab3fb9384c7ab4"
     },
     {
       "path": "cadence.md",
       "downloadPath": "skills/her/cadence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/cadence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/cadence.md",
+      "byteCount": 1498,
+      "sha256": "a56205575ca385999ccb04ccf8deac082207bc980d1921a26c1c2d43d3ab6f6c"
     },
     {
       "path": "intimacy.md",
       "downloadPath": "skills/her/intimacy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/intimacy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/intimacy.md",
+      "byteCount": 1303,
+      "sha256": "36b2342bba5d5036f1ad397fc6536bcc9e2952b20df9e9409d34e75b48c6179d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/her/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/memory-template.md",
+      "byteCount": 2541,
+      "sha256": "a2896cb2ca1d4c00976b07cc6ba0f3e3ac8f633ecd83d74087bd0f8ddf5045d7"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/her/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/safety.md",
+      "byteCount": 1430,
+      "sha256": "a8154a5f636c9674543669acf2e1a66f1f617363f94765a6556db45481840847"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/her/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/setup.md",
+      "byteCount": 2533,
+      "sha256": "479f466bc368eb294bff1ca13d24e2207fe1fefda37695b0346788be49a900bb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/her/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/SKILL.md",
+      "byteCount": 5625,
+      "sha256": "ca110165b4cc247796fc8ca4314e8470a46ee0914801c34233bdfd9ae9bde037"
     },
     {
       "path": "soul.md",
       "downloadPath": "skills/her/soul.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/soul.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/soul.md",
+      "byteCount": 1748,
+      "sha256": "5a607c382d0c62de841bb969b25de2c970e33b7856aaac4e2df4285930ad6525"
     },
     {
       "path": "velvet-circuit.md",
       "downloadPath": "skills/her/velvet-circuit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/velvet-circuit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/her/velvet-circuit.md",
+      "byteCount": 1409,
+      "sha256": "c173fcc3d3caaa9287f04f2b7bdbcc905b6c0e2e233c6a92a19215a53f22691d"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e4e25483203a3c89358d23a1ba3c45aacb715d09357711531d445618ea37cde9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "message",
-    "name": "Message",
+    "name": "message",
     "description": "Communicate across channels without social disasters, with escalation rules, tone calibration, and platform-aware formatting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/message",
     "summary": "When to Use User needs to send messages on their behalf. Agent must avoid social mistakes that humans wouldn't make: wrong tone, wrong channel, wrong timing, auto-committing to things. Quick Reference | Topic | File | |-",
     "repositoryPath": "skills/message",
     "manifestPath": "registry/skills/message.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/message/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/_meta.json",
+      "byteCount": 166,
+      "sha256": "ded2a6e45cf118e967f60507b2dbbbf1ec7642c960425559885f605389b24650"
     },
     {
       "path": "escalation.md",
       "downloadPath": "skills/message/escalation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/escalation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/escalation.md",
+      "byteCount": 1838,
+      "sha256": "54ebd6335e497a490def712cea1076d2b444c92208a32cfae29d9b2107b93b98"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/message/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/platforms.md",
+      "byteCount": 2322,
+      "sha256": "a193d52b566fa8f084d2a918d7a36eb40840d81448fc2444ef92d3ce235e0ec4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/message/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/SKILL.md",
+      "byteCount": 2635,
+      "sha256": "3072e00ab9d2b94048f66612dbe2e6db96e247ba6a0cc2d1a5ae8d2815541f6a"
     },
     {
       "path": "tone.md",
       "downloadPath": "skills/message/tone.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/tone.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/message/tone.md",
+      "byteCount": 2350,
+      "sha256": "c38323913d2bee5fe639da0f0f7dc3d5b3261a1a96f9d3af5be7120138005564"
     }
   ]
 }

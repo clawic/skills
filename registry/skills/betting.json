@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fc0f8f28e06661bece2f412a42c316beff17d4d4d0df47e86b29c0b366ebe9e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "betting",
-    "name": "Betting",
+    "name": "betting",
     "description": "Evaluate betting opportunities with line shopping, bankroll discipline, market checks, and risk filters before any stake is placed.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/betting",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/betting/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/_meta.json",
+      "byteCount": 166,
+      "sha256": "bd95265cc90fbc6dae0469fec0743006ecd004782c6c29fa61104d9da4e7b083"
     },
     {
       "path": "market-checks.md",
       "downloadPath": "skills/betting/market-checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/market-checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/market-checks.md",
+      "byteCount": 1713,
+      "sha256": "6638571c947583a32239cfb826a6d50baf7e42ebafcdf5cf017192848e23ad53"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/betting/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/memory-template.md",
+      "byteCount": 1248,
+      "sha256": "fd9877a83c00dd6eca318d65d2e62e28073898197fcdcd6b552421a82d4a346e"
     },
     {
       "path": "red-flags.md",
       "downloadPath": "skills/betting/red-flags.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/red-flags.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/red-flags.md",
+      "byteCount": 1243,
+      "sha256": "9304c9a12e9a00783a91a6a36f0799904dcb13bf7d41169fdc6633ee696f44af"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/betting/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/setup.md",
+      "byteCount": 1723,
+      "sha256": "27a077bcc6e213b9aa19abefe23232782c319bf4bce2e453d8b6e238a0a954c8"
     },
     {
       "path": "sizing.md",
       "downloadPath": "skills/betting/sizing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/sizing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/sizing.md",
+      "byteCount": 1769,
+      "sha256": "5365170f78accd65500671ff4d6b8d945be9c08f28e9bda530f50d8d91be7f62"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/betting/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/SKILL.md",
+      "byteCount": 8593,
+      "sha256": "6ecf8f8edba3a58d676fc7ff59b1a12e5e0143cfd5251b5bdbbf2436c302350e"
     },
     {
       "path": "ticket-template.md",
       "downloadPath": "skills/betting/ticket-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/ticket-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/ticket-template.md",
+      "byteCount": 702,
+      "sha256": "b693284fe880a148bce19b33e3d3e1a893505733ba77d32cac97fee42631c66d"
     },
     {
       "path": "workflow.md",
       "downloadPath": "skills/betting/workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/betting/workflow.md",
+      "byteCount": 1367,
+      "sha256": "db72820379b05dd67b3a9133f162078c745c2032c32a3f283c250bff4f7d5d2d"
     }
   ]
 }

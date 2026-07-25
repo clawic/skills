@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "668e8f05eb87a551705aa56591b58e68c5e8b261dadadacc58867c512fdcc8db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "storybook",
-    "name": "Storybook",
+    "name": "storybook",
     "description": "Build component stories with proper args, controls, decorators, and testing patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/storybook",
     "summary": "CSF Format (Component Story Format) - Default export is component meta—title, component, args, decorators - Named exports are stories—each export becomes a story in sidebar - `satisfies Meta<typeof Component>` for TypeSc",
     "repositoryPath": "skills/storybook",
     "manifestPath": "registry/skills/storybook.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/storybook/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storybook/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storybook/_meta.json",
+      "byteCount": 170,
+      "sha256": "76d79bd70360d917fd95df49bb427c0513af483a189c64d0e581e59ba277f91f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/storybook/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storybook/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/storybook/SKILL.md",
+      "byteCount": 3677,
+      "sha256": "d86bdb1b582f204048e5b3198eadab868ca96a6abccdaf2a5357b63e22462dfc"
     }
   ]
 }

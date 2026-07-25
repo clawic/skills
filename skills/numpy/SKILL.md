@@ -1,15 +1,25 @@
 ---
-name: NumPy
+name: numpy
 slug: numpy
 version: 1.0.0
-homepage: https://clawic.com/skills/numpy
 description: Write fast, memory-efficient numerical code with arrays, broadcasting, vectorization, and linear algebra.
-metadata: {"clawdbot":{"emoji":"🔢","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/numpy
+metadata:
+  clawdbot:
+    emoji: 🔢
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: NumPy
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Creates `~/numpy/` to store preferences and snippets.
+On first use, read `setup.md` for integration guidelines. Creates `~/Clawic/data/numpy/` to store preferences and snippets.
 
 ## When to Use
 
@@ -17,10 +27,10 @@ User needs numerical computing in Python. Agent handles array operations, mathem
 
 ## Architecture
 
-Memory lives in `~/numpy/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/numpy/`. See `memory-template.md` for structure.
 
 ```
-~/numpy/
+~/Clawic/data/numpy/
 ├── memory.md      # Preferences + common patterns used
 └── snippets/      # User's saved code patterns
 ```
@@ -213,20 +223,20 @@ np.linalg.solve(a, b)      # Solve Ax = b
 
 **Data that stays local:**
 - All computations run locally
-- Code patterns saved in ~/numpy/
+- Code patterns saved in ~/Clawic/data/numpy/
 
 **This skill does NOT:**
 - Send data externally
-- Access files outside ~/numpy/
+- Access files outside ~/Clawic/data/numpy/
 - Require network connectivity
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `data` — data processing workflows
 - `math` — mathematical computations
 - `statistics` — statistical analysis
 
 ## Feedback
 
-- If useful: `clawhub star numpy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/numpy
+- Latest version: https://clawic.com/skills/numpy

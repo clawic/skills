@@ -26,7 +26,7 @@ Ask these in natural language:
 
 ## Save Behavior
 
-- Save user preferences in `~/multi-engine-web-search/memory.md`.
+- Save user preferences in `~/Clawic/data/multi-engine-web-search/memory.md`.
 - Save activation preference in the user's main agent memory so this skill triggers correctly in future sessions.
 - If the user is unsure, apply this default profile:
   - activation: mixed mode

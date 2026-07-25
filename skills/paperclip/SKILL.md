@@ -1,11 +1,37 @@
 ---
-name: Paperclip
+name: paperclip
 slug: paperclip
 version: 1.0.0
-homepage: https://clawic.com/skills/paperclip
 description: Run Paperclip locally for agent orchestration, AI company setup, and OpenClaw, Codex, or Claude control-plane operations.
-changelog: "Added local-first Paperclip operations, adapter selection, and OpenClaw integration guidance."
-metadata: {"clawdbot":{"emoji":"📎","requires":{"bins":["curl","pnpm"],"env":{"optional":["PAPERCLIP_API_URL","PAPERCLIP_API_KEY","PAPERCLIP_COMPANY_ID","PAPERCLIP_RUN_ID","OPENAI_API_KEY","ANTHROPIC_API_KEY","OPENCLAW_GATEWAY_TOKEN"]},"config":["~/paperclip/","~/.paperclip/instances/"]},"os":["linux","darwin","win32"],"configPaths":["~/paperclip/","~/.paperclip/instances/"]}}
+homepage: https://clawic.com/skills/paperclip
+changelog: Added local-first Paperclip operations, adapter selection, and OpenClaw integration guidance.
+metadata:
+  clawdbot:
+    emoji: 📎
+    requires:
+      bins:
+      - curl
+      - pnpm
+      env:
+        optional:
+        - PAPERCLIP_API_URL
+        - PAPERCLIP_API_KEY
+        - PAPERCLIP_COMPANY_ID
+        - PAPERCLIP_RUN_ID
+        - OPENAI_API_KEY
+        - ANTHROPIC_API_KEY
+        - OPENCLAW_GATEWAY_TOKEN
+      config:
+      - ~/Clawic/data/paperclip/
+      - ~/.paperclip/instances/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/paperclip/
+    - ~/.paperclip/instances/
+    displayName: Paperclip
 ---
 
 ## Setup
@@ -18,10 +44,10 @@ User needs to install, operate, or evaluate Paperclip as the control plane for a
 
 ## Architecture
 
-Skill memory lives in `~/paperclip/`. Paperclip application data usually lives in `~/.paperclip/instances/`. If `~/paperclip/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Skill memory lives in `~/Clawic/data/paperclip/`. Paperclip application data usually lives in `~/.paperclip/instances/`. If `~/Clawic/data/paperclip/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/paperclip/
+~/Clawic/data/paperclip/
 ├── memory.md            # Operator context, active instances, adapter preferences
 ├── companies.md         # Company names, goals, and status snapshots
 ├── commands.md          # Reused CLI/API snippets that worked
@@ -98,7 +124,7 @@ No other endpoints should be contacted unless the user explicitly configures rem
 
 **Data that stays local:**
 - Paperclip instance state in `~/.paperclip/instances/`
-- Skill memory in `~/paperclip/`
+- Skill memory in `~/Clawic/data/paperclip/`
 - Local workspaces attached to projects
 
 **This skill does NOT:**
@@ -112,7 +138,7 @@ By using this skill, operational data is sent to the Paperclip deployment and ag
 Only install if you trust that deployment, its storage, and the model providers behind those agents.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `agent` — General agent execution and delegation patterns
 - `agents` — Multi-agent coordination and role design
 - `company` — Company-level strategy and operating structure
@@ -121,5 +147,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star paperclip`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/paperclip
+- Latest version: https://clawic.com/skills/paperclip

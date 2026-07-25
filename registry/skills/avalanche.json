@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8a3b696c1eb9376b877b4f96329dfb729012a0d7ce42c3dd89a064239a1b98da",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "avalanche",
-    "name": "Avalanche",
+    "name": "avalanche",
     "description": "Assist with Avalanche C-Chain transactions, AVAX transfers, subnets, and cross-chain bridges.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/avalanche",
     "summary": "Network Architecture (Critical) - Avalanche has three chains: X-Chain, P-Chain, C-Chain — each serves different purpose - C-Chain is EVM compatible — where most DeFi and tokens live, uses AVAX for gas - X-Chain for fast ",
     "repositoryPath": "skills/avalanche",
     "manifestPath": "registry/skills/avalanche.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/avalanche/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/avalanche/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/avalanche/_meta.json",
+      "byteCount": 170,
+      "sha256": "de3a28ab460e0dc0a0f2aab2734c249f0af87778b7357f80ea6c6c2106ec2503"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/avalanche/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/avalanche/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/avalanche/SKILL.md",
+      "byteCount": 4037,
+      "sha256": "d7b227273a32184b3009284a3fbb3cb2fef81949a551a94f4f7f268f13e5f75b"
     }
   ]
 }

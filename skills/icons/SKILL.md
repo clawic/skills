@@ -1,7 +1,18 @@
 ---
-name: Icons
+name: icons
+slug: icons
+version: 1.0.0
 description: Implement accessible icons with proper sizing, color inheritance, and performance.
-metadata: {"clawdbot":{"emoji":"🔣","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/icons
+metadata:
+  clawdbot:
+    emoji: 🔣
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Icons
 ---
 
 ## SVG vs Icon Fonts

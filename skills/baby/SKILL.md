@@ -1,11 +1,20 @@
 ---
-name: Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)
+name: baby
 slug: baby
 version: 1.0.0
-homepage: https://clawic.com/skills/baby
 description: Track baby feeds, sleep, diapers, symptoms, growth, routines, and pediatric follow-up with caregiver handoffs and safety-first triage.
+homepage: https://clawic.com/skills/baby
 changelog: Initial release with modular baby tracking, caregiver handoffs, pediatric visit summaries, and safety triage guardrails.
-metadata: {"clawdbot":{"emoji":"B","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: B
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)
 ---
 
 ## When to Use
@@ -15,10 +24,10 @@ Agent keeps logs consistent across caregivers, prepares pediatric-ready summarie
 
 ## Architecture
 
-Memory lives in `~/baby/`. If `~/baby/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/baby/`. If `~/Clawic/data/baby/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/baby/
+~/Clawic/data/baby/
 |-- memory.md                 # Status, baby profile, modules, and active priorities
 |-- logs/daily-log.md         # Timestamped daily care events across caregivers
 |-- handoff/current.md        # Shift handoff and open loops for the next caregiver
@@ -46,7 +55,7 @@ Use these files to switch between lightweight daily tracking, escalation support
 
 ## Data Storage
 
-Local notes stay in `~/baby/`.
+Local notes stay in `~/Clawic/data/baby/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -126,7 +135,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - care logs, handoff notes, weekly summaries, alert events, and pediatric question lists approved by the user.
-- stored in `~/baby/`.
+- stored in `~/Clawic/data/baby/`.
 
 **This skill does NOT:**
 - diagnose baby conditions or provide emergency medical treatment.
@@ -140,7 +149,7 @@ This is an instruction-only baby tracking and visit-prep skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `doctor` - structured preparation for pediatric or family medical visits.
 - `health` - broader health planning and longitudinal family tracking.
 - `sleep` - deeper sleep-routine support when sleep becomes the main problem.
@@ -149,5 +158,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star baby`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/baby
+- Latest version: https://clawic.com/skills/baby

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "070fb11ce32c0b36ec6dbac16f8fb4a93b5347848a978f1fb6934f08892b5fd2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "basque",
-    "name": "Basque",
+    "name": "basque",
     "description": "Write Basque that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/basque",
     "summary": "The Real Problem AI Basque is technically correct but sounds off. Too formal. Too batua (standard). Natives write more casually, often mixing dialects. Match that. Formality Default Default register is too high. Casual B",
     "repositoryPath": "skills/basque",
     "manifestPath": "registry/skills/basque.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/basque/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basque/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basque/_meta.json",
+      "byteCount": 164,
+      "sha256": "23412e9828341acddd649530b33dcc41723172c840bd55607914b222c41557eb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/basque/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basque/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basque/SKILL.md",
+      "byteCount": 1937,
+      "sha256": "3f95004c1738c4c253298334a3e77320b9f51615e1f3338e98039e99798cf983"
     }
   ]
 }

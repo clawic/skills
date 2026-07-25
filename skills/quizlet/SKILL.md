@@ -1,11 +1,24 @@
 ---
-name: Quizlet
+name: quizlet
 slug: quizlet
 version: 1.0.0
-homepage: https://clawic.com/skills/quizlet
 description: Build high-yield Quizlet study sets, tune Learn and Test sessions, and improve weak cards with spaced repetition diagnostics.
+homepage: https://clawic.com/skills/quizlet
 changelog: Initial release with Quizlet set design, study mode tuning, and weak-card diagnostics workflows.
-metadata: {"clawdbot":{"emoji":"Q","requires":{"bins":[],"config":["~/quizlet/"]},"os":["darwin","linux","win32"],"configPaths":["~/quizlet/"]}}
+metadata:
+  clawdbot:
+    emoji: Q
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/quizlet/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/quizlet/
+    displayName: Quizlet
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ Use this skill when the user is studying with Quizlet and needs better set desig
 
 ## Architecture
 
-Memory lives in `~/quizlet/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/quizlet/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/quizlet/
+~/Clawic/data/quizlet/
 |-- memory.md           # Status, activation boundaries, and learning context
 |-- set-playbooks.md    # Reusable set patterns by subject and goal
 |-- weak-cards.md       # Rewritten cards and recurring failure patterns
@@ -57,7 +70,7 @@ Use the smallest relevant file for faster and more accurate recommendations.
 
 ### 4. Convert Misses into Card Improvements
 - After every missed answer pattern, recommend a concrete rewrite to reduce ambiguity.
-- Track recurring misses in `~/quizlet/weak-cards.md` to prevent repeating the same mistakes.
+- Track recurring misses in `~/Clawic/data/quizlet/weak-cards.md` to prevent repeating the same mistakes.
 
 ### 5. Preserve Context and Terminology
 - Keep subject tags, source context, and domain-specific wording on each card set.
@@ -68,7 +81,7 @@ Use the smallest relevant file for faster and more accurate recommendations.
 - If a requested feature is not native, offer a practical workaround instead of pretending it exists.
 
 ### 7. Protect Data Boundaries
-- Store only study preferences and workflow notes in `~/quizlet/`.
+- Store only study preferences and workflow notes in `~/Clawic/data/quizlet/`.
 - Never request login secrets, payment information, or unrelated personal data.
 
 ## Common Traps
@@ -82,7 +95,7 @@ Use the smallest relevant file for faster and more accurate recommendations.
 
 ## Data Storage
 
-- Local notes only in `~/quizlet/` for memory, weak-card logs, and reusable set patterns.
+- Local notes only in `~/Clawic/data/quizlet/` for memory, weak-card logs, and reusable set patterns.
 - Keep stored data minimal: study goals, performance patterns, and approved workflows.
 - Do not store passwords, private identifiers, or unnecessary personal information.
 
@@ -92,17 +105,17 @@ Data that leaves your machine:
 - None by default. This skill provides workflow guidance and local note structure only.
 
 Data that stays local:
-- Study context and planning notes in `~/quizlet/`.
+- Study context and planning notes in `~/Clawic/data/quizlet/`.
 
 This skill does NOT:
 - Log in to Quizlet automatically.
 - Scrape private user data from browser sessions.
 - Make undeclared network requests.
-- Store files outside `~/quizlet/` for memory.
+- Store files outside `~/Clawic/data/quizlet/` for memory.
 - Modify its own skill definition files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `anki` - Spaced repetition card design and retention tuning for Anki workflows.
 - `flashcards` - Core flashcard writing rules and question quality patterns.
 - `quiz` - Quiz construction and scoring logic for assessment scenarios.
@@ -111,5 +124,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star quizlet`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/quizlet
+- Latest version: https://clawic.com/skills/quizlet

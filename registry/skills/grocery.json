@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2822e23208cb58f7e0b1ddaa58a9d234783d3ed19b72ac17c7012094cb3f22a8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "grocery",
-    "name": "Grocery",
+    "name": "grocery",
     "description": "Build and manage grocery lists with pantry inventory, household quantities, and dietary restriction safety.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/grocery",
     "summary": "When to Use User needs help with grocery shopping logistics — creating lists, tracking pantry inventory, remembering household quantities, or checking items against dietary restrictions. Focus: the shopping itself, not m",
     "repositoryPath": "skills/grocery",
     "manifestPath": "registry/skills/grocery.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/grocery/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/_meta.json",
+      "byteCount": 166,
+      "sha256": "969599d200a3e36128a14c7b6a7168aab60bb8334ee9a410351fb587bb73f825"
     },
     {
       "path": "lists.md",
       "downloadPath": "skills/grocery/lists.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/lists.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/lists.md",
+      "byteCount": 1661,
+      "sha256": "c3b6af15be90ceee9eb3aeb26fe08caed53df9ad863231e13bdcea315f1b8afe"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/grocery/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/memory-template.md",
+      "byteCount": 1488,
+      "sha256": "551e8c87c87b09118401bec6603ae4eda619e524059904dae7399021918689d2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/grocery/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grocery/SKILL.md",
+      "byteCount": 3880,
+      "sha256": "cb044c062a86e23f19dbc9e89f4f9fed70293d8f06d3a3a8b2d6ab77cf739e49"
     }
   ]
 }

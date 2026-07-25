@@ -3,8 +3,8 @@
 ## Setup
 
 ```bash
-mkdir -p ~/interior-design/{spaces,archive}
-touch ~/interior-design/{memory.md,suppliers.md}
+mkdir -p ~/Clawic/data/interior-design/{spaces,archive}
+touch ~/Clawic/data/interior-design/{memory.md,suppliers.md}
 ```
 
 ## memory.md

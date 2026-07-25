@@ -1,7 +1,13 @@
 ---
-name: Freelance
+name: freelance
 slug: freelance
+version: 1.0.0
 description: Navigate freelance platforms as worker or client with proposals, pricing, vetting, and legal compliance.
+homepage: https://clawic.com/skills/freelance
+metadata:
+  clawdbot:
+    emoji: 💻
+    displayName: Freelance
 ---
 
 ## Platform Selection

@@ -1,9 +1,19 @@
 ---
-name: Documentation
+name: documentation
+slug: documentation
+version: 1.0.0
 description: Technical documentation patterns, structure, maintenance, and avoiding common documentation failures.
+homepage: https://clawic.com/skills/documentation
 metadata:
   category: writing
-  skills: ["documentation", "technical-writing", "readme", "api-docs"]
+  skills:
+  - documentation
+  - technical-writing
+  - readme
+  - api-docs
+  clawdbot:
+    emoji: 📚
+    displayName: Documentation
 ---
 
 ## Structure Hierarchy

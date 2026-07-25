@@ -1,6 +1,6 @@
 # Memory Template - Etsy
 
-Create `~/etsy/memory.md` with this structure:
+Create `~/Clawic/data/etsy/memory.md` with this structure:
 
 ```markdown
 # Etsy Memory
@@ -40,7 +40,7 @@ integration: pending
 
 ## listing-experiments.md Template
 
-Create `~/etsy/listing-experiments.md`:
+Create `~/Clawic/data/etsy/listing-experiments.md`:
 
 ```markdown
 # Listing Experiments
@@ -56,7 +56,7 @@ decision: keep | revert | iterate
 
 ## launch-checklists.md Template
 
-Create `~/etsy/launch-checklists.md`:
+Create `~/Clawic/data/etsy/launch-checklists.md`:
 
 ```markdown
 # Launch Checklists

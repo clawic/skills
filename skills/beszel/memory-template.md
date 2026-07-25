@@ -1,6 +1,6 @@
 # Memory Template - Beszel
 
-Create `~/beszel/memory.md` with this structure:
+Create `~/Clawic/data/beszel/memory.md` with this structure:
 
 ```markdown
 # Beszel Memory

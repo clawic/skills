@@ -1,9 +1,19 @@
 ---
-name: Windows
+name: windows
+slug: windows
+version: 1.0.0
 description: Windows-specific patterns, security practices, and operational traps that cause silent failures.
+homepage: https://clawic.com/skills/windows
 metadata:
   category: system
-  skills: ["windows", "powershell", "security", "automation"]
+  skills:
+  - windows
+  - powershell
+  - security
+  - automation
+  clawdbot:
+    emoji: 🪟
+    displayName: Windows
 ---
 
 ## Credential Management

@@ -178,7 +178,7 @@ For notes tracking:
 
 ## Integration Notes
 
-- Action items (`to_do` blocks) extracted → sync to `~/notes/actions.md`
+- Action items (`to_do` blocks) extracted → sync to `~/Clawic/data/notes/actions.md`
 - Search results include Notion with `notion:Page Name` format
 - If API key not configured → fall back to local
 - Data leaves machine (sent to Notion API)

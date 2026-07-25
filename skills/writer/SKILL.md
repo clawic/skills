@@ -1,6 +1,13 @@
 ---
 name: writer
+slug: writer
+version: 1.0.2
 description: Fix AI writing patterns that create repetitive and robotic content
+homepage: https://clawic.com/skills/writer
+metadata:
+  clawdbot:
+    emoji: ✍️
+    displayName: Writer
 ---
 
 # AI Writing Pattern Fixes

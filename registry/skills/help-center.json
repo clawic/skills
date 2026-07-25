@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ae0b4ae9b947b72be8bebb8e7dc29ea46ddfad63fb4f4694b28edf0d690a7b2e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "help-center",
-    "name": "Help Center",
+    "name": "help-center",
     "description": "Build and run help centers with provider selection, migration playbooks, workflow mapping, content taxonomy, and support deflection metrics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/help-center",
-    "summary": "Setup If `~/help-center/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs to create, migrate, or improve a help center. Handles pr",
+    "summary": "Setup If `~/Clawic/data/help-center/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs to create, migrate, or improve a help center",
     "repositoryPath": "skills/help-center",
     "manifestPath": "registry/skills/help-center.json"
   },
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/help-center/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/_meta.json",
+      "byteCount": 174,
+      "sha256": "bd950c077c056a3f8cfbfb313391f6541d2edb92d913a50c0bdd693494ba5cc8"
     },
     {
       "path": "build-own-stack.md",
       "downloadPath": "skills/help-center/build-own-stack.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/build-own-stack.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/build-own-stack.md",
+      "byteCount": 1518,
+      "sha256": "607f419f79aef80ef4f0492f578ba3d39c8da9bd3a687feb61e0727ae6118f52"
     },
     {
       "path": "content-ops.md",
       "downloadPath": "skills/help-center/content-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/content-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/content-ops.md",
+      "byteCount": 1103,
+      "sha256": "e60426d85613d5f17449253bbdb9be0f91f795772679ea8385535a32d8407b33"
     },
     {
       "path": "launch-checklist.md",
       "downloadPath": "skills/help-center/launch-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/launch-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/launch-checklist.md",
+      "byteCount": 1070,
+      "sha256": "d0f9d324d11cc20bada29618eefa47a8290d3330709b1a2aa4f985333a1f4329"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/help-center/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/memory-template.md",
+      "byteCount": 1228,
+      "sha256": "a7a36264d6dbfa67ef0f4a4b089e023982d4749111ec78675ac55df2e435cdf4"
     },
     {
       "path": "migration-playbook.md",
       "downloadPath": "skills/help-center/migration-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/migration-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/migration-playbook.md",
+      "byteCount": 1281,
+      "sha256": "7e6ae4c71804c2f38a8a5b86150c37736b06ead3d432d78341a8f594060ceb40"
     },
     {
       "path": "provider-matrix.md",
       "downloadPath": "skills/help-center/provider-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/provider-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/provider-matrix.md",
+      "byteCount": 1794,
+      "sha256": "b7199af68f17a67c3f0ccf9e02b8486f50c85eb678f6958c270774ba3924a0a1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/help-center/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/setup.md",
+      "byteCount": 1630,
+      "sha256": "9c9c858fdf10ccd13a6a6089ad7399233b72378f71e9793e249d6f692b2c5e40"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/help-center/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/help-center/SKILL.md",
+      "byteCount": 4660,
+      "sha256": "0a433e1937365095eea40148294e85d9d478743106829403e0d2fd5c324c9f01"
     }
   ]
 }

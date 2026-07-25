@@ -1,6 +1,13 @@
 ---
-name: Summarizer
+name: summarizer
+slug: summarizer
+version: 1.0.0
 description: Distill content to its essence with audience-aware compression, format selection, and quality verification.
+homepage: https://clawic.com/skills/summarizer
+metadata:
+  clawdbot:
+    emoji: 📝
+    displayName: Summarizer
 ---
 
 ## Core Principle

@@ -1,10 +1,19 @@
 ---
-name: Golf
+name: golf
 slug: golf
 version: 1.0.0
-homepage: https://clawic.com/skills/golf
 description: Track rounds, handicap, clubs, and courses with personalized improvement tips.
-metadata: {"clawdbot":{"emoji":"⛳","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/golf
+metadata:
+  clawdbot:
+    emoji: ⛳
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Golf
 ---
 
 ## When to Use
@@ -13,10 +22,10 @@ User wants to track their golf game, log rounds, manage handicap, remember cours
 
 ## Architecture
 
-Memory lives in `~/golf/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/golf/`. See `memory-template.md` for setup.
 
 ```
-~/golf/
+~/Clawic/data/golf/
 ├── memory.md          # HOT: handicap, clubs, goals, preferences
 ├── rounds.md          # WARM: round log with scores, stats
 ├── courses.md         # WARM: saved courses with notes
@@ -34,14 +43,14 @@ Memory lives in `~/golf/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Check Memory First
-Before any recommendation, read `~/golf/memory.md` for:
+Before any recommendation, read `~/Clawic/data/golf/memory.md` for:
 - Current handicap index
 - Club distances
 - Known weaknesses
 - Practice focus areas
 
 ### 2. Log Rounds Proactively
-After user reports a round, update `~/golf/rounds.md`:
+After user reports a round, update `~/Clawic/data/golf/rounds.md`:
 
 | Date | Course | Tees | Score | GIR | FIR | Putts | Notes |
 |------|--------|------|-------|-----|-----|-------|-------|
@@ -72,11 +81,11 @@ Differential = (Score - Course Rating) x 113 / Slope
 - Forgetting course notes → review courses.md before rounds
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `plan` — trip planning
 - `remind` — tee time reminders
 
 ## Feedback
 
-- If useful: `clawhub star golf`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/golf
+- Latest version: https://clawic.com/skills/golf

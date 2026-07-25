@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "788f9a7448b0efa2924ae0f870e6b109f65a3721755670233886e4739e9218f5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "company",
-    "name": "Company",
+    "name": "company",
     "description": "Build an agent-powered organization by mapping functions to skills and iterating on structure.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/company",
     "summary": "Triggers Activate on: \"automate my company\", \"agents for my business\", \"replace team with AI\", \"company structure with agents\", \"which skills do I need\". **Different from:** `startup` (methodology) and `business` (strate",
     "repositoryPath": "skills/company",
     "manifestPath": "registry/skills/company.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/company/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/_meta.json",
+      "byteCount": 166,
+      "sha256": "8ad1e382732dc65c4fbc7bdc87e916adaa399eb9e6ead390aae56ad811425d17"
     },
     {
       "path": "functions.md",
       "downloadPath": "skills/company/functions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/functions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/functions.md",
+      "byteCount": 2650,
+      "sha256": "17ccd10b690a462cd97d3c694dc044dbf0a51ae0cafc7984365d84e31cac05e8"
     },
     {
       "path": "iteration.md",
       "downloadPath": "skills/company/iteration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/iteration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/iteration.md",
+      "byteCount": 2828,
+      "sha256": "fddee529b3f22d6d9b5d50aa5f6ae313cfa6dc11bf9d6acb58407d7b67874fdf"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/company/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/patterns.md",
+      "byteCount": 2128,
+      "sha256": "e4a18d47e76dfde82089b4debada70694a9e167a6898b554c8ab4241f5034662"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/company/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/company/SKILL.md",
+      "byteCount": 2581,
+      "sha256": "3c4940e50fc6ec49e4e3badfc5c1d7ba38b87531347b4e8755c73673597c843e"
     }
   ]
 }

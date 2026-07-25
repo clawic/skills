@@ -1,11 +1,29 @@
 ---
-name: MiniMax
+name: minimax
 slug: minimax
 version: 1.0.0
-homepage: https://clawic.com/skills/minimax
 description: Build with MiniMax text, speech, video, and music APIs using model routing, compatible SDKs, and safer multimodal workflows.
+homepage: https://clawic.com/skills/minimax
 changelog: Initial release with model routing, text compatibility guidance, speech and media workflows, MCP boundaries, and failure recovery.
-metadata: {"clawdbot":{"emoji":"🎛️","requires":{"env":["MINIMAX_API_KEY"],"bins.optional":["curl","jq"],"config":["~/minimax/"]},"primaryEnv":"MINIMAX_API_KEY","os":["linux","darwin","win32"],"configPaths":["~/minimax/"]}}
+metadata:
+  clawdbot:
+    emoji: 🎛️
+    requires:
+      env:
+      - MINIMAX_API_KEY
+      bins.optional:
+      - curl
+      - jq
+      config:
+      - ~/Clawic/data/minimax/
+    primaryEnv: MINIMAX_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/minimax/
+    displayName: MiniMax
 ---
 
 ## When to Use
@@ -16,10 +34,10 @@ Use this when the blocker is operational: wrong interface, wrong model tier, ign
 
 ## Architecture
 
-Memory lives in `~/minimax/`. If `~/minimax/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/minimax/`. If `~/Clawic/data/minimax/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/minimax/
+~/Clawic/data/minimax/
 |-- memory.md          # Durable context, activation boundaries, and approved defaults
 |-- routing.md         # Model and interface choices that worked in practice
 |-- text-defaults.md   # Text model pins, SDK compatibility notes, and parsing rules
@@ -63,7 +81,7 @@ This skill treats MiniMax as an execution platform, not as a one-line provider s
 
 ## Data Storage
 
-Keep only durable MiniMax operating context in `~/minimax/`:
+Keep only durable MiniMax operating context in `~/Clawic/data/minimax/`:
 - which modalities the user actually uses: text, speech, video, music, or MCP-backed flows
 - approved models, speed tiers, and compatibility interfaces that worked for real tasks
 - output defaults such as JSON parsing rules, audio formats, polling intervals, and retry posture
@@ -137,7 +155,7 @@ Data that leaves your machine:
 - optional documentation lookups against official MiniMax docs
 
 Data that stays local:
-- durable operating notes under `~/minimax/`
+- durable operating notes under `~/Clawic/data/minimax/`
 - local prompt drafts, routing choices, and incident notes unless the user exports them
 - any rejected or unused assets that never get uploaded
 
@@ -167,7 +185,7 @@ This skill NEVER:
 - promise that queued media jobs behave like low-latency text calls
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ai` - Compare MiniMax against other model providers before locking the stack.
 - `api` - Reuse structured HTTP, retry, and payload-debugging patterns around the MiniMax APIs.
 - `models` - Choose the right model family and fallback chain for quality, latency, and cost.
@@ -176,5 +194,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star minimax`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/minimax
+- Latest version: https://clawic.com/skills/minimax

@@ -1,11 +1,20 @@
 ---
-name: Ibiza
+name: ibiza
 slug: ibiza
 version: 1.0.0
-changelog: "Initial release with complete Ibiza guidance for visitors, residents, remote workers, seasonal workers, and entrepreneurs."
-homepage: https://clawic.com/skills/ibiza
 description: Navigate Ibiza as visitor, resident, remote worker, or founder with neighborhoods, transport, costs, visas, and local operational guidance.
-metadata: {"clawdbot":{"emoji":"🏝️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ibiza
+changelog: Initial release with complete Ibiza guidance for visitors, residents, remote workers, seasonal workers, and entrepreneurs.
+metadata:
+  clawdbot:
+    emoji: 🏝️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ibiza
 ---
 
 ## When to Use
@@ -123,7 +132,7 @@ Rules and prices change. For legal, visa, and tax advice, cite official sources 
 See `visas.md`, `safety.md`, and `transport-local.md` for operational detail.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - trip planning and logistics optimization
 - `expat` - relocation and adaptation workflows
 - `food` - dining research and personalization
@@ -131,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star ibiza`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/ibiza
+- Latest version: https://clawic.com/skills/ibiza

@@ -1,6 +1,13 @@
 ---
-name: "Compare"
-description: "Rigorous comparisons with confidence parity, weighted criteria, and research depth tracking."
+name: compare
+slug: compare
+version: 1.0.0
+description: Rigorous comparisons with confidence parity, weighted criteria, and research depth tracking.
+homepage: https://clawic.com/skills/compare
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    displayName: Compare
 ---
 
 ## Core Principle

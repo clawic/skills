@@ -1,6 +1,6 @@
 # Memory Templates
 
-## ~/coding/memory.md
+## ~/Clawic/data/coding/memory.md
 
 ```markdown
 # Coding Memory
@@ -24,7 +24,7 @@
 - [rejected tool]
 ```
 
-## ~/coding/history.md
+## ~/Clawic/data/coding/history.md
 
 ```markdown
 # Archived Preferences

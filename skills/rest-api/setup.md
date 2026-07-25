@@ -1,6 +1,6 @@
 # Setup - REST API
 
-Read this when `~/rest-api/memory.md` does not exist or is empty.
+Read this when `~/Clawic/data/rest-api/memory.md` does not exist or is empty.
 
 Start by identifying the API outcome first: what clients need, which domain is in scope, and what reliability target is required.
 
@@ -39,7 +39,7 @@ Before ending setup, deliver at least one actionable artifact:
 
 When memory is enabled:
 
-- Create `~/rest-api/memory.md` from `memory-template.md`.
+- Create `~/Clawic/data/rest-api/memory.md` from `memory-template.md`.
 - Update `last` after meaningful progress.
 - Store decisions, constraints, and pending risks in concise form.
 - Never store raw secrets, tokens, or unrelated personal data.

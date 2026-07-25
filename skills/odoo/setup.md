@@ -1,6 +1,6 @@
 # Setup — Odoo
 
-Read this when `~/odoo/` does not exist or is empty. Start with the user's Odoo problem and keep the tone practical, business-aware, and safety-first.
+Read this when `~/Clawic/data/odoo/` does not exist or is empty. Start with the user's Odoo problem and keep the tone practical, business-aware, and safety-first.
 
 ## Your Attitude
 
@@ -42,7 +42,7 @@ Do not turn setup into a form. Keep solving the live task while collecting durab
 
 ## What You're Saving (Internally)
 
-In `~/odoo/memory.md`, keep only stable notes:
+In `~/Clawic/data/odoo/memory.md`, keep only stable notes:
 - instances, companies, and operating environments
 - active modules and customizations worth remembering
 - read vs write boundaries

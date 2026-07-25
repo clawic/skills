@@ -1,11 +1,22 @@
 ---
-name: Coin Identifier
+name: coin-identifier
 slug: coin-identifier
 version: 1.0.0
+description: Identify coins from photos using evidence-based visual checks, ranked candidates, mint-mark reasoning, and a reusable local catalog.
 homepage: https://clawic.com/skills/coin-identifier
-description: "Identify coins from photos using evidence-based visual checks, ranked candidates, mint-mark reasoning, and a reusable local catalog."
-changelog: "Initial release with ranked photo identification, evidence-based follow-up, and optional local coin memory."
-metadata: {"clawdbot":{"emoji":"C","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/coin-identifier/"]}}
+changelog: Initial release with ranked photo identification, evidence-based follow-up, and optional local coin memory.
+metadata:
+  clawdbot:
+    emoji: C
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/coin-identifier/
+    displayName: Coin Identifier
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Use when the user wants to identify a coin from one or more photos, narrow down 
 
 ## Architecture
 
-Memory lives in `~/coin-identifier/`. If `~/coin-identifier/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/coin-identifier/`. If `~/Clawic/data/coin-identifier/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/coin-identifier/
+~/Clawic/data/coin-identifier/
 ├── memory.md
 ├── identifications/
 │   └── YYYY-MM/
@@ -49,8 +60,8 @@ This skill NEVER:
 ## Security & Privacy
 
 **Data stored locally if approved by the user:**
-- activation and response preferences in `~/coin-identifier/memory.md`
-- one note per saved identification in `~/coin-identifier/identifications/`
+- activation and response preferences in `~/Clawic/data/coin-identifier/memory.md`
+- one note per saved identification in `~/Clawic/data/coin-identifier/identifications/`
 
 **This skill does NOT:**
 - make network requests
@@ -98,7 +109,7 @@ This skill NEVER:
 - Jumping from identification to market value -> grade, authenticity, and demand remain unverified.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image` - inspect and optimize photos before identification
 - `image-edit` - crop, isolate, and clean up the subject for clearer review
 - `inventory` - maintain a broader catalog once coins are identified
@@ -106,5 +117,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star coin-identifier`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/coin-identifier
+- Latest version: https://clawic.com/skills/coin-identifier

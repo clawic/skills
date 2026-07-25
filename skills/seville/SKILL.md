@@ -1,10 +1,19 @@
 ---
-name: Seville
+name: seville
 slug: seville
 version: 1.0.0
-homepage: https://clawic.com/skills/seville
 description: Navigate Seville as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, flamenco, and local insights.
-metadata: {"clawdbot":{"emoji":"🏛️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/seville
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Seville
 ---
 
 ## When to Use
@@ -143,12 +152,12 @@ Learn basic Spanish — it transforms the experience.
 Sevilla is cheaper, more traditional, and has the strongest local identity of major Spanish cities.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Expat-heavy city guide with neighborhoods, costs, visas
 - `travel` — General travel planning and trip organization
 - `spanish` — Spanish language learning and practice
 
 ## Feedback
 
-- If useful: `clawhub star seville`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/seville
+- Latest version: https://clawic.com/skills/seville

@@ -129,6 +129,6 @@ EOF
 
 ## Integration Notes
 
-- Action items extracted from Bear → sync to `~/notes/actions.md`
+- Action items extracted from Bear → sync to `~/Clawic/data/notes/actions.md`
 - Search results include Bear with `bear:#tag/Title` format
 - If `grizzly` unavailable or Bear not running → fall back to local

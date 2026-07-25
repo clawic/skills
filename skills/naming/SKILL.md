@@ -1,11 +1,22 @@
 ---
-name: Naming
+name: naming
 slug: naming
 version: 1.0.0
+description: Create, test, and choose names for products, features, APIs, files, and systems with constraint-first briefs and collision checks.
 homepage: https://clawic.com/skills/naming
-description: "Create, test, and choose names for products, features, APIs, files, and systems with constraint-first briefs and collision checks."
-changelog: "Initial release with a naming brief, scoring rubric, surface patterns, and safer rename guidance."
-metadata: {"clawdbot":{"emoji":"🏷️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/naming/"]}}
+changelog: Initial release with a naming brief, scoring rubric, surface patterns, and safer rename guidance.
+metadata:
+  clawdbot:
+    emoji: 🏷️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/naming/
+    displayName: Naming
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ Use this for products, brands, features, APIs, packages, files, folders, interna
 
 ## Architecture
 
-Memory lives in `~/naming/`. If `~/naming/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/naming/`. If `~/Clawic/data/naming/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/naming/
+~/Clawic/data/naming/
 ├── memory.md      # Stable naming taste, banned patterns, durable constraints
 ├── briefs.md      # Reusable naming briefs by asset or project
 ├── winners.md     # Approved names, backups, and rationale
@@ -123,7 +134,7 @@ First identify which lane the work belongs to. Good names are surface-specific.
 ## Security & Privacy
 
 **Data that stays local:**
-- Naming briefs, durable constraints, approved names, and rejected patterns in `~/naming/`
+- Naming briefs, durable constraints, approved names, and rejected patterns in `~/Clawic/data/naming/`
 
 **This skill does NOT:**
 - Claim trademark, domain, or regulatory clearance without explicit live verification
@@ -134,7 +145,7 @@ First identify which lane the work belongs to. Good names are surface-specific.
 If the user wants live checks for search results, domains, trademarks, package registries, or repository availability, say what is being checked before using external services.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `branding` — define positioning and voice before committing to a public-facing name
 - `product` — shape product framing and packaging around the chosen name
 - `product-manager` — align feature and workflow names with user language and roadmap context
@@ -143,5 +154,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star naming`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/naming
+- Latest version: https://clawic.com/skills/naming

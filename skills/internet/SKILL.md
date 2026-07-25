@@ -1,9 +1,19 @@
 ---
-name: Internet
+name: internet
 slug: internet
 version: 1.0.0
 description: Manage internet connectivity, compare providers, diagnose issues, optimize performance, and handle mobile data when away from home.
-metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/internet
+metadata:
+  clawdbot:
+    emoji: 🌐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Internet
 ---
 
 ## When to Use

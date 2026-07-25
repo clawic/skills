@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "002b824792145d14fad0ba5e1ba273f9d84ebbdfc2778ca3d91dc7171f8ffadb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "trending-now",
-    "name": "Trending Now",
+    "name": "trending-now",
     "description": "Monitor internet and social media trends with heartbeat topic watchlists, freshness scoring, and concise alerts on what changed and why it matters.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/trending-now",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/trending-now/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/_meta.json",
+      "byteCount": 176,
+      "sha256": "dd9d8569b9b2beeb0dc241c225e28185cca9428ea5c9778aa7ecb68bed62cf8a"
     },
     {
       "path": "HEARTBEAT.md",
       "downloadPath": "skills/trending-now/HEARTBEAT.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/HEARTBEAT.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/HEARTBEAT.md",
+      "byteCount": 1821,
+      "sha256": "30e1ab9d346217c9b14a4f2a2cc394367b938b71ea9d2369b248cce7065ea8f6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/trending-now/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/memory-template.md",
+      "byteCount": 1898,
+      "sha256": "afdc599ea2875e7ffeb18fb73a80375ca19caca46ceb8550f322d02384c840ca"
     },
     {
       "path": "message-format.md",
       "downloadPath": "skills/trending-now/message-format.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/message-format.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/message-format.md",
+      "byteCount": 1539,
+      "sha256": "4ab33443a59127f6f0e381a9dad332947421670be0fcf76b25595c6fa9dfc033"
     },
     {
       "path": "research-protocol.md",
       "downloadPath": "skills/trending-now/research-protocol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/research-protocol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/research-protocol.md",
+      "byteCount": 1498,
+      "sha256": "c2472c20e8f111081c7e97e6b0dd549918008b3f7e49244b7234c7de24e4cc7b"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/trending-now/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/setup.md",
+      "byteCount": 1940,
+      "sha256": "cfd1a22627e7645c9454d8c554403f4a8e42623e3a05df4c491b14f2989640ee"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/trending-now/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/SKILL.md",
+      "byteCount": 7033,
+      "sha256": "fe6dedf7f3f82d293288c07bc46440516c87c621dcfbf462813c51e2610bb0c6"
     },
     {
       "path": "source-map.md",
       "downloadPath": "skills/trending-now/source-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/source-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trending-now/source-map.md",
+      "byteCount": 1593,
+      "sha256": "de801d624543a701189df9aea113235abb3f4ffaf7e68c5037fde1f417fe6c0a"
     }
   ]
 }

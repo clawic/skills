@@ -1,6 +1,6 @@
 # Memory Template — Word
 
-Create `~/word/memory.md` with this structure:
+Create `~/Clawic/data/word/memory.md` with this structure:
 
 ```markdown
 # Word Memory
@@ -38,12 +38,12 @@ word_attach_mode: attach-existing | launch-new | mixed
 
 - Keep only reusable environment facts and safety preferences.
 - Do not store document body text unless the user explicitly asks for a local note.
-- Put repeatable failures in `~/word/incidents.md`.
-- Put non-sensitive recurring document metadata in `~/word/document-notes.md`.
+- Put repeatable failures in `~/Clawic/data/word/incidents.md`.
+- Put non-sensitive recurring document metadata in `~/Clawic/data/word/document-notes.md`.
 
 ## Optional Companion Files
 
-`~/word/incidents.md`:
+`~/Clawic/data/word/incidents.md`:
 
 ```markdown
 # Word Incidents
@@ -55,7 +55,7 @@ word_attach_mode: attach-existing | launch-new | mixed
 - Fix:
 ```
 
-`~/word/document-notes.md`:
+`~/Clawic/data/word/document-notes.md`:
 
 ```markdown
 # Document Notes

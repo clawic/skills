@@ -9,7 +9,7 @@ This skill helps you navigate Valencia for any purpose: visiting, moving, workin
 Create your Valencia knowledge base:
 
 ```
-~/valencia/
+~/Clawic/data/valencia/
 ├── profile.md          # Your situation and goals
 ├── progress.md         # What you've accomplished
 ├── bookmarks.md        # Saved places and resources
@@ -18,7 +18,7 @@ Create your Valencia knowledge base:
 
 ### Step 2: Define Your Context
 
-Copy `memory-template.md` to `~/valencia/profile.md` and fill in:
+Copy `memory-template.md` to `~/Clawic/data/valencia/profile.md` and fill in:
 
 1. **Your role**: Visitor, potential resident, new resident, established resident
 2. **Your timeline**: When arriving, how long staying
@@ -63,7 +63,7 @@ Be specific about your situation:
 
 ### Tracking Progress
 
-Update `~/valencia/progress.md` as you complete steps:
+Update `~/Clawic/data/valencia/progress.md` as you complete steps:
 
 ```markdown
 ## Completed
@@ -177,7 +177,7 @@ Valencia changes — here's how to stay current:
 If this skill helped you navigate Valencia, let others know:
 
 ```
-clawhub star valencia
+# Star it at https://clawic.com/skills/valencia
 ```
 
 Found something outdated or wrong? Report it so it can be fixed.

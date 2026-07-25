@@ -1,8 +1,14 @@
 ---
-name: "Skill Manager"
-description: "Manage installed skills lifecycle: suggest by context, track installations, check updates, and cleanup unused."
-version: "1.0.3"
-changelog: "Fix contradictions: clarify declined tracking, add npx security note"
+name: skill-manager
+slug: skill-manager
+version: 1.0.3
+description: 'Manage installed skills lifecycle: suggest by context, track installations, check updates, and cleanup unused.'
+homepage: https://clawic.com/skills/skill-manager
+changelog: 'Fix contradictions: clarify declined tracking, add npx security note'
+metadata:
+  clawdbot:
+    emoji: 🧩
+    displayName: Skill Manager
 ---
 
 ## Skill Lifecycle Management
@@ -23,20 +29,20 @@ Manage the full lifecycle of installed skills: discovery, installation, updates,
 
 This skill ONLY:
 - Suggests skills based on current task context
-- Tracks installed skills in `~/skill-manager/inventory.md`
+- Tracks installed skills in `~/Clawic/data/skill-manager/inventory.md`
 - Tracks skills user explicitly declined (with their stated reason)
 - Checks for skill updates
 
 This skill NEVER:
 - Counts task repetition or user behavior patterns
 - Installs without explicit user consent
-- Reads files outside `~/skill-manager/`
+- Reads files outside `~/Clawic/data/skill-manager/`
 
 ---
 
 ## Security Note
 
-This skill uses `npx clawhub` commands which download and execute code from ClawHub registry. This is the standard mechanism for skill management. Always review skills before installing.
+This skill uses `npx clawic` commands which download and execute code from the Clawic catalog. This is the standard mechanism for skill management. Always review skills before installing.
 
 ---
 
@@ -52,16 +58,19 @@ This is responding to current context, not tracking patterns.
 
 | Action | Command |
 |--------|---------|
-| Install | `npx clawhub install <slug>` |
-| Update | `npx clawhub update <slug>` |
-| Info | `npx clawhub info <slug>` |
-| Remove | `npx clawhub uninstall <slug>` |
+| Install | `npx clawic add <slug>` |
+| Update one | `npx clawic update <slug>` |
+| Update everything | `npx clawic update --all` |
+| Info | `npx clawic show <slug>` |
+| Remove | Delete the skill's folder from each detected agent directory (`.claude/skills/`, `.codex/skills/`, etc.) — `npx clawic` has no uninstall command yet |
+
+Each skill also has a canonical catalog page at `https://clawic.com/skills/<slug>` for a quick look before installing or updating.
 
 ---
 
 ## Memory Storage
 
-Inventory at `~/skill-manager/inventory.md`.
+Inventory at `~/Clawic/data/skill-manager/inventory.md`.
 
 **First use:** `mkdir -p ~/skill-manager`
 

@@ -1,6 +1,13 @@
 ---
-name: Catalan
+name: catalan
+slug: catalan
+version: 1.0.0
 description: Write Catalan that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/catalan
+metadata:
+  clawdbot:
+    emoji: 🌐
+    displayName: Catalan
 ---
 
 ## The Real Problem

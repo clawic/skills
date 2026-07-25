@@ -5,7 +5,7 @@ Reference for file structure and logging format.
 ## Workspace Structure
 
 ```
-~/acoustic-guitar/
+~/Clawic/data/acoustic-guitar/
 ├── repertoire.md      # Songs learned and in progress
 ├── sessions/
 │   └── YYYY-MM.md     # Monthly practice logs

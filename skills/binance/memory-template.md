@@ -1,6 +1,6 @@
 # Memory Template - Binance API
 
-Create `~/binance/memory.md` with this structure:
+Create `~/Clawic/data/binance/memory.md` with this structure:
 
 ```markdown
 # Binance Memory
@@ -45,7 +45,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/binance/runbooks.md`:
+Create `~/Clawic/data/binance/runbooks.md`:
 
 ```markdown
 # Binance Runbooks
@@ -58,7 +58,7 @@ Create `~/binance/runbooks.md`:
 - Follow-up:
 ```
 
-Create `~/binance/incidents.md`:
+Create `~/Clawic/data/binance/incidents.md`:
 
 ```markdown
 # Binance Incidents

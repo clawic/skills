@@ -1,6 +1,6 @@
 # Setup — Garden
 
-Read this when `~/garden/` doesn't exist or is empty. Start the conversation naturally — the user engaging with the skill implies they want help.
+Read this when `~/Clawic/data/garden/` doesn't exist or is empty. Start the conversation naturally — the user engaging with the skill implies they want help.
 
 ## Your Attitude
 

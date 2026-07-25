@@ -6,7 +6,7 @@ Create on first use:
 
 ```bash
 mkdir -p ~/garden
-touch ~/garden/memory.md
+touch ~/Clawic/data/garden/memory.md
 ```
 
 Additional files (plants/, zones/, climate.md, harvests.md) only if the user wants detailed tracking.

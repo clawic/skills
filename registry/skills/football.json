@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "14a0d382cd8b948a728f7ff85a880353c081cf85fedd6a6a3d15c50afea2e09d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "football",
-    "name": "Football",
+    "name": "football",
     "description": "Analyze football and soccer matches, squads, players, and training plans with tactical frameworks, scouting grids, and session blueprints.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/football",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/football/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/_meta.json",
+      "byteCount": 168,
+      "sha256": "cf94bb24a7b4cd0944e3c2b03121f2302caf3702b5a8a7766203cc8a7c4d895d"
     },
     {
       "path": "match-room.md",
       "downloadPath": "skills/football/match-room.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/match-room.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/match-room.md",
+      "byteCount": 1581,
+      "sha256": "c83892719f71e2ac71fb62e5ce979b69c576de5b0895d57db67ea93759eb5c08"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/football/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/memory-template.md",
+      "byteCount": 2205,
+      "sha256": "6b4301aaded96e9a1fff4e150f014d58f4ce9d6b3093dd9558aed85fcf6f93c4"
     },
     {
       "path": "opposition-report.md",
       "downloadPath": "skills/football/opposition-report.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/opposition-report.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/opposition-report.md",
+      "byteCount": 1217,
+      "sha256": "3bcdb5fcacae5291561907df47f9e6330d6488398a9586c84242e983cbbd0a7e"
     },
     {
       "path": "role-cards.md",
       "downloadPath": "skills/football/role-cards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/role-cards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/role-cards.md",
+      "byteCount": 2198,
+      "sha256": "3118115e4fc7eaffe91fc254e745ca85a435981ae7660da1d2be6a229a3049b9"
     },
     {
       "path": "scouting-grid.md",
       "downloadPath": "skills/football/scouting-grid.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/scouting-grid.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/scouting-grid.md",
+      "byteCount": 1312,
+      "sha256": "78eb7b64abdfb8bdc5b03f1d6e0e0398a50516795875bb451d6b30317b7d81f1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/football/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/setup.md",
+      "byteCount": 2208,
+      "sha256": "5c845e27a78915fb18bbd80b3b96b4a7b0970130bfdc83721be01619822cd97b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/football/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/SKILL.md",
+      "byteCount": 8196,
+      "sha256": "076a2e957ba2b94a1c3e2307f62c3b6ed8689d78012a8ec901e7d49fc9f345fa"
     },
     {
       "path": "training-week.md",
       "downloadPath": "skills/football/training-week.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/training-week.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/football/training-week.md",
+      "byteCount": 1555,
+      "sha256": "d5ff4dd04a08c9f322dfd33155c15e17d60f49be99db73e0cf7bff4dd101b628"
     }
   ]
 }

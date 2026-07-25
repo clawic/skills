@@ -1,6 +1,6 @@
 # Setup - Skool
 
-Read this when `~/skool/` is missing or empty.
+Read this when `~/Clawic/data/skool/` is missing or empty.
 Stay practical, operator-minded, and careful with live member-facing actions.
 
 ## Your Attitude
@@ -48,7 +48,7 @@ Save only durable context:
 - approved automation surfaces and confirmation rules
 - repeated incidents, rollback patterns, and no-go workflows
 
-Store data only in `~/skool/` after user consent.
+Store data only in `~/Clawic/data/skool/` after user consent.
 
 ## Golden Rule
 

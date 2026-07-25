@@ -1,7 +1,20 @@
 ---
-name: Svelte
+name: svelte
+slug: svelte
+version: 1.0.0
 description: Avoid common Svelte mistakes — reactivity triggers, store subscriptions, and SvelteKit SSR gotchas.
-metadata: {"clawdbot":{"emoji":"🔥","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/svelte
+metadata:
+  clawdbot:
+    emoji: 🔥
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Svelte
 ---
 
 ## Reactivity Triggers

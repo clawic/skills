@@ -1,6 +1,6 @@
 # Setup - Anxiety (Tracker, Trigger Map, Coping Planner)
 
-Read this silently when `~/anxiety/` is missing or empty.
+Read this silently when `~/Clawic/data/anxiety/` is missing or empty.
 Start naturally and answer the user's immediate question first.
 
 ## Your Attitude

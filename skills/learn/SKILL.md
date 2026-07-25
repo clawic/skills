@@ -1,16 +1,26 @@
 ---
-name: Learn
+name: learn
 slug: learn
 version: 1.0.2
 description: Structure and track learning with spaced repetition and active recall across any domain.
+homepage: https://clawic.com/skills/learn
 changelog: Fixed data folder to match slug, removed vague cron reference
-metadata: {"clawdbot":{"emoji":"🎓","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎓
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Learn
 ---
 
 ## Data Storage
 
 ```
-~/learn/
+~/Clawic/data/learn/
 ├── topics/              # One folder per topic
 │   └── {topic}/
 │       ├── concepts.json   # Concepts with SR schedule
@@ -21,17 +31,17 @@ metadata: {"clawdbot":{"emoji":"🎓","requires":{"bins":[]},"os":["linux","darw
 └── config.json          # Preferences
 ```
 
-Create on first use: `mkdir -p ~/learn/{topics,reviews}`
+Create on first use: `mkdir -p ~/Clawic/data/learn/{topics,reviews}`
 
 ## Scope
 
 This skill:
-- ✅ Creates learning plans in ~/learn/
+- ✅ Creates learning plans in ~/Clawic/data/learn/
 - ✅ Tracks concepts with spaced repetition
 - ✅ Generates quizzes for active recall
-- ✅ Reminds user when reviews are due (stores schedule in ~/learn/reviews/)
+- ✅ Reminds user when reviews are due (stores schedule in ~/Clawic/data/learn/reviews/)
 - ❌ NEVER accesses external learning platforms without permission
-- ❌ NEVER stores data outside ~/learn/
+- ❌ NEVER stores data outside ~/Clawic/data/learn/
 
 ## Quick Reference
 
@@ -56,7 +66,7 @@ NEVER passive review. Always:
 
 ### 3. Starting a Topic
 1. User states what they want to learn
-2. Create ~/learn/topics/{topic}/
+2. Create ~/Clawic/data/learn/topics/{topic}/
 3. Break down into concepts
 4. Add to spaced repetition queue
 
@@ -85,7 +95,7 @@ Before marking "mastered":
 - Track in progress.md (topic folder)
 
 ### 6. Configuration
-In ~/learn/config.json:
+In ~/Clawic/data/learn/config.json:
 ```json
 {
   "depth": "standard",

@@ -1,11 +1,25 @@
 ---
-name: Video Captions
+name: video-captions
 slug: video-captions
 version: 1.0.1
-homepage: https://clawic.com/skills/video-captions
 description: Generate professional captions and subtitles with multi-engine transcription, word-level timing, styling presets, and burn-in.
+homepage: https://clawic.com/skills/video-captions
 changelog: Declared optional cloud API env vars in metadata to clarify that cloud engines require user-provided keys
-metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":["ffmpeg","whisper"],"env":{"optional":["ASSEMBLYAI_API_KEY","DEEPGRAM_API_KEY"]}},"os":["linux","darwin"]}}
+metadata:
+  clawdbot:
+    emoji: 🎬
+    requires:
+      bins:
+      - ffmpeg
+      - whisper
+      env:
+        optional:
+        - ASSEMBLYAI_API_KEY
+        - DEEPGRAM_API_KEY
+    os:
+    - linux
+    - darwin
+    displayName: Video Captions
 ---
 
 ## When to Use
@@ -220,7 +234,7 @@ Cloud APIs are **documented as alternatives** but never used unless user explici
 - Store data externally
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ffmpeg` — video/audio processing
 - `video` — general video tasks
 - `video-edit` — video editing
@@ -228,5 +242,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star video-captions`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/video-captions
+- Latest version: https://clawic.com/skills/video-captions

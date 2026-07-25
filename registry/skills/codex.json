@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "168c19ce9840f929b3c790e3d0548892243a80d5f1a3af0a6b977b56feb32755",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "codex",
-    "name": "Codex",
+    "name": "codex",
     "description": "Use Codex safely for repo-aware coding with explicit approvals, sandbox choices, MCP boundaries, and PR-ready verification workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/codex",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/codex/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/_meta.json",
+      "byteCount": 162,
+      "sha256": "585f9ac7eca8ff3cce5918d3ae8a0824d91a46fb15ab6943228333f0dd905393"
     },
     {
       "path": "approvals-and-sandbox.md",
       "downloadPath": "skills/codex/approvals-and-sandbox.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/approvals-and-sandbox.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/approvals-and-sandbox.md",
+      "byteCount": 1619,
+      "sha256": "253cc17f9154e2d80c3a5bba2a07e3472f9a84be87c3f84446626aa6d6cdac67"
     },
     {
       "path": "install-and-auth.md",
       "downloadPath": "skills/codex/install-and-auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/install-and-auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/install-and-auth.md",
+      "byteCount": 1108,
+      "sha256": "abe2be4fc02952eaf971bf86f4860d764d94b571d1c828d4bcfb3e4fce9b4c47"
     },
     {
       "path": "mcp-and-cloud.md",
       "downloadPath": "skills/codex/mcp-and-cloud.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/mcp-and-cloud.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/mcp-and-cloud.md",
+      "byteCount": 1313,
+      "sha256": "dfcd4ba41f825b20bda075abdd5e91dcbce91a06f0f8a7f6137a42fb5b72b073"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/codex/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/memory-template.md",
+      "byteCount": 1523,
+      "sha256": "2777b748d99a3e048766fa066b83c31f8b96ceb4afd79da823ef9530e930f3da"
     },
     {
       "path": "repo-execution.md",
       "downloadPath": "skills/codex/repo-execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/repo-execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/repo-execution.md",
+      "byteCount": 1584,
+      "sha256": "e82b587458c6bc6edced407ed7dd37169d963963b4d8e05658313420397745d0"
     },
     {
       "path": "review-and-handoffs.md",
       "downloadPath": "skills/codex/review-and-handoffs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/review-and-handoffs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/review-and-handoffs.md",
+      "byteCount": 924,
+      "sha256": "af578488cd71560103e5b707ec3b86766c2634700395704249661055309a7a9b"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/codex/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/setup.md",
+      "byteCount": 2450,
+      "sha256": "bc624ca6511f6674d019b426e45956b624cff5747da165a516f68a9889fe1279"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/codex/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/SKILL.md",
+      "byteCount": 10304,
+      "sha256": "4d999e3d3b58cada60978ee2125da32f37c1db2e301b57837aa87ffe1e792dae"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/codex/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/codex/troubleshooting.md",
+      "byteCount": 1649,
+      "sha256": "4e214757aa3fab6e6dce2a6c1cc9581338adf84dc3723606a4ea946f7bce7ef1"
     }
   ]
 }

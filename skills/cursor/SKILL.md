@@ -1,11 +1,29 @@
 ---
-name: Cursor
+name: cursor
 slug: cursor
 version: 1.0.0
-homepage: https://clawic.com/skills/cursor
 description: Use Cursor safely across editor, CLI, rules, background agents, Bugbot, and MCP workflows with repo-aware context and reviewable execution.
+homepage: https://clawic.com/skills/cursor
 changelog: Initial release with editor and CLI guidance, rules and context control, background agent and Bugbot guardrails, privacy notes, and recovery workflows.
-metadata: {"clawdbot":{"emoji":"⌨️","requires":{"bins":["cursor-agent"],"bins.optional":["cursor","git","rg"],"config":["~/cursor/"]},"os":["linux","darwin","win32"],"configPaths":["~/cursor/"]}}
+metadata:
+  clawdbot:
+    emoji: ⌨️
+    requires:
+      bins:
+      - cursor-agent
+      bins.optional:
+      - cursor
+      - git
+      - rg
+      config:
+      - ~/Clawic/data/cursor/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/cursor/
+    displayName: Cursor
 ---
 
 ## When to Use
@@ -16,10 +34,10 @@ Use this skill when the hard part is not "write code" but "make Cursor behave pr
 
 ## Architecture
 
-Memory lives in `~/cursor/`. If `~/cursor/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/cursor/`. If `~/Clawic/data/cursor/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/cursor/
+~/Clawic/data/cursor/
 |-- memory.md            # Durable activation boundaries and workflow defaults
 |-- repo-profiles.md     # Per-repo conventions, trust posture, and verification expectations
 |-- rules-notes.md       # Project-rule strategy, legacy rule cleanup, and instruction hierarchy notes
@@ -63,7 +81,7 @@ This skill treats Cursor as an operational coding system, not as generic editor 
 
 ## Data Storage
 
-Keep only durable Cursor operating context in `~/cursor/`:
+Keep only durable Cursor operating context in `~/Clawic/data/cursor/`:
 - which repos, teams, or task types are approved for Cursor use
 - preferred surface by task type: editor, CLI, Background Agent, or Bugbot
 - rule hierarchy decisions and recurring `.cursor/rules` patterns that worked
@@ -140,7 +158,7 @@ Data that leaves your machine:
 - optional MCP payloads only for user-approved MCP servers
 
 Data that stays local:
-- durable operating notes under `~/cursor/`
+- durable operating notes under `~/Clawic/data/cursor/`
 - local repo state, local rules, and diffs unless the user enables remote features
 - any ignored or unshared files that never enter a Cursor request or approved tool call
 
@@ -170,7 +188,7 @@ This skill NEVER:
 - treat Cursor as just another generic chat wrapper
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `agentic-engineering` - Strengthen multi-agent workflow design, review discipline, and blast-radius thinking around Cursor usage.
 - `coding` - Improve implementation quality once Cursor is operating inside the right repo boundaries.
 - `git` - Handle branches, diffs, stashes, and non-destructive repo recovery around Cursor-driven changes.
@@ -179,5 +197,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cursor`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cursor
+- Latest version: https://clawic.com/skills/cursor

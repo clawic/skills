@@ -1,7 +1,17 @@
 ---
-name: Hedera
+name: hedera
+slug: hedera
+version: 1.0.0
 description: Assist with Hedera HBAR transactions, account creation, token service, and consensus features.
-metadata: {"clawdbot":{"emoji":"ℏ","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/hedera
+metadata:
+  clawdbot:
+    emoji: ℏ
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Hedera
 ---
 
 ## Account Model (Critical Difference)

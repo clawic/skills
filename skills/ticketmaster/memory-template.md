@@ -1,6 +1,6 @@
 # Memory Template — Ticketmaster Discovery API
 
-Create `~/ticketmaster/memory.md` with this structure:
+Create `~/Clawic/data/ticketmaster/memory.md` with this structure:
 
 ```markdown
 # Ticketmaster Memory

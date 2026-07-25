@@ -1,6 +1,13 @@
 ---
-name: Work
-description: "Navigate office work with professional communication, meeting prep, workplace dynamics, and visibility tactics."
+name: work
+slug: work
+version: 1.0.0
+description: Navigate office work with professional communication, meeting prep, workplace dynamics, and visibility tactics.
+homepage: https://clawic.com/skills/work
+metadata:
+  clawdbot:
+    emoji: 💼
+    displayName: Work
 ---
 
 ## Core Focus

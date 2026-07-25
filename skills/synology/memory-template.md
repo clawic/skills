@@ -1,6 +1,6 @@
 # Memory Template - Synology
 
-Create `~/synology/memory.md` with this structure:
+Create `~/Clawic/data/synology/memory.md` with this structure:
 
 ```markdown
 # Synology Memory

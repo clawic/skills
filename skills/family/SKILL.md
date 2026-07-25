@@ -1,11 +1,22 @@
 ---
-name: Family
+name: family
 slug: family
 version: 1.0.0
-homepage: https://clawic.com/skills/family
 description: Coordinate family schedules, household tasks, school logistics, care routines, and private-versus-shared memory with a structured family system
-changelog: "Initial release with Family Ops workflows, privacy boundaries, and durable folder templates for multi-member household coordination."
-metadata: {"clawdbot":{"emoji":"H","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/family/"]}}
+homepage: https://clawic.com/skills/family
+changelog: Initial release with Family Ops workflows, privacy boundaries, and durable folder templates for multi-member household coordination.
+metadata:
+  clawdbot:
+    emoji: H
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/family/
+    displayName: Family
 ---
 
 # Family
@@ -14,7 +25,7 @@ Family operations system for households that need one agent to coordinate multip
 
 ## Setup
 
-On first use, read `setup.md` silently for activation, privacy, and local continuity rules. Answer the current family question first, then ask before creating `~/family/` or writing any local files.
+On first use, read `setup.md` silently for activation, privacy, and local continuity rules. Answer the current family question first, then ask before creating `~/Clawic/data/family/` or writing any local files.
 
 ## When to Use
 
@@ -22,10 +33,10 @@ User wants one agent to help a household run smoothly across schedules, meals, c
 
 ## Architecture
 
-Memory lives in `~/family/`. See `memory-template.md` for starter templates and file contents.
+Memory lives in `~/Clawic/data/family/`. See `memory-template.md` for starter templates and file contents.
 
 ```text
-~/family/
+~/Clawic/data/family/
 |- memory.md                    # Status, activation preference, household summary
 |- household.md                 # Shared rules, decision authority, constraints
 |- weekly-plan.md               # Next 7 days operating picture
@@ -68,7 +79,7 @@ Load only the file that changes the current family decision. Keep the hot path i
 
 ## Data Storage
 
-Local continuity stays in `~/family/`.
+Local continuity stays in `~/Clawic/data/family/`.
 Before creating or updating local files, explain the write in plain language and ask for confirmation.
 
 ## Core Rules
@@ -136,7 +147,7 @@ See `privacy-model.md` for the exact sharing model.
 - Nothing by default. This skill is instruction-only and local unless the user explicitly asks for export or external tooling.
 
 **Data stored locally:**
-- Shared household structure, routines, calendars, task ownership, shopping lists, care logistics, and document indexes in `~/family/`.
+- Shared household structure, routines, calendars, task ownership, shopping lists, care logistics, and document indexes in `~/Clawic/data/family/`.
 - Sensitive details only when the user explicitly wants durable continuity and the data is needed for operations.
 
 **This skill does NOT:**
@@ -165,7 +176,7 @@ Only install if you want the agent to maintain a local household operating syste
 
 This skill ONLY:
 - coordinates household logistics, handoffs, and recurring family operations.
-- maintains local files in `~/family/` after explicit confirmation.
+- maintains local files in `~/Clawic/data/family/` after explicit confirmation.
 - separates private context from shared household data.
 - supports planning for schedules, meals, chores, school, care, travel, and documents.
 
@@ -176,7 +187,7 @@ This skill NEVER:
 - overwrite one person's preferences with another person's assumptions.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `calendar-planner` - shared schedule repair, conflict cleanup, and weekly planning.
 - `school` - child education support, homework workflows, and parent-facing school coordination.
 - `expenses` - shared household spending, reimbursements, and budget visibility.
@@ -185,5 +196,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star family`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/family
+- Latest version: https://clawic.com/skills/family

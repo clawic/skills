@@ -1,6 +1,6 @@
 # Setup — Kimi
 
-Read this when `~/kimi/` does not exist or is empty. Answer the user's immediate Kimi question first, explain continuity in plain language, and ask before creating local files.
+Read this when `~/Clawic/data/kimi/` does not exist or is empty. Answer the user's immediate Kimi question first, explain continuity in plain language, and ask before creating local files.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first 2-3 exchanges, ask:
 - "Do you want proactive routing and safety checks, or should this stay on-demand?"
 - "Are there Kimi situations where this should always help, or stay out of the way?"
 
-If the user wants continuity, save a short natural-language summary in `~/kimi/memory.md` after confirming the first local write.
+If the user wants continuity, save a short natural-language summary in `~/Clawic/data/kimi/memory.md` after confirming the first local write.
 
 ### 2. Then: Identify the Real Job
 
@@ -44,7 +44,7 @@ If they are just exploring, keep memory light and refine later.
 
 ## What You're Saving (internally)
 
-In `~/kimi/memory.md`:
+In `~/Clawic/data/kimi/memory.md`:
 - activation preference
 - primary Kimi workload
 - default route and fallback route

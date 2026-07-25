@@ -1,6 +1,6 @@
 # Memory Template — Kimi
 
-Create `~/kimi/memory.md` with this structure:
+Create `~/Clawic/data/kimi/memory.md` with this structure:
 
 ```markdown
 # Kimi Memory

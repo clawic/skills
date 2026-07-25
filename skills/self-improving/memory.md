@@ -1,6 +1,6 @@
 # HOT Memory — Template
 
-> This file is created in `~/self-improving/memory.md` when you first use the skill.
+> This file is created in `~/Clawic/data/self-improving/memory.md` when you first use the skill.
 > Keep it ≤100 lines. Most-used patterns live here.
 
 ## Example Entries

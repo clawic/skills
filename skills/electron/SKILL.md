@@ -1,7 +1,20 @@
 ---
-name: Electron
+name: electron
+slug: electron
+version: 1.0.0
 description: Build Electron desktop apps with secure architecture and common pitfall avoidance.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["npm"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/electron
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - npm
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Electron
 ---
 
 ## Security Non-Negotiables

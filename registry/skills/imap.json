@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b6e9eaa08fe801a2c1c155181d5b6e0342048812ee031d40ba9958a74e00a97d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "imap",
-    "name": "IMAP",
+    "name": "imap",
     "description": "Read, search, and sync IMAP mailboxes with UID-safe fetches, precise filters, and attachment-aware workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/imap",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/imap/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/_meta.json",
+      "byteCount": 160,
+      "sha256": "55bd38b73f80a82597f233150cbf59f44498edb1c56c8b4ec21ca51de1458346"
     },
     {
       "path": "attachments.md",
       "downloadPath": "skills/imap/attachments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/attachments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/attachments.md",
+      "byteCount": 1396,
+      "sha256": "821d3b0b429f1bdb107a3f49a4f9203ecc704bb5fd5cd7a8b57cd06b8dda4347"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/imap/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/memory-template.md",
+      "byteCount": 2360,
+      "sha256": "f119f5badff733b94e8c384ab06102079276e602865f384e0a61199836361c85"
     },
     {
       "path": "search-and-fetch.md",
       "downloadPath": "skills/imap/search-and-fetch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/search-and-fetch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/search-and-fetch.md",
+      "byteCount": 1688,
+      "sha256": "bacf63852ed818263c7547d54b1c1619d602a9c396a9d399a9340cae7cd21850"
     },
     {
       "path": "session-strategy.md",
       "downloadPath": "skills/imap/session-strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/session-strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/session-strategy.md",
+      "byteCount": 1709,
+      "sha256": "40e26c8d44e5af15dbdb5153ef7501d866c8eec47ba8764ab547914a46b152e1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/imap/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/setup.md",
+      "byteCount": 2225,
+      "sha256": "fa26ee5d39488e9947e6c73eba70c43d1a35c20147826a6ce98577e58fd2fa85"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/imap/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/SKILL.md",
+      "byteCount": 7988,
+      "sha256": "915dacead430b73a8db0bf36b26c6a3bc5aa0377abd8265368b10557631991ff"
     },
     {
       "path": "state-and-flags.md",
       "downloadPath": "skills/imap/state-and-flags.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/state-and-flags.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/state-and-flags.md",
+      "byteCount": 2067,
+      "sha256": "22df3402bb2fe199aca65fd9e6c10267d1bebe2a9d816f1b8ecf21f0b882ae89"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/imap/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/imap/troubleshooting.md",
+      "byteCount": 1818,
+      "sha256": "85d0506bb0176a3a5cc310c3eb3e0d2ba3adc5efb37ef16ab3640b2c594f7950"
     }
   ]
 }

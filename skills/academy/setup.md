@@ -1,6 +1,6 @@
 # Setup — Academy
 
-Read this when `~/academy/` does not exist or is empty. Keep the conversation natural, but stay transparent about any memory or follow-up behavior when it matters.
+Read this when `~/Clawic/data/academy/` does not exist or is empty. Keep the conversation natural, but stay transparent about any memory or follow-up behavior when it matters.
 
 ## Your Attitude
 

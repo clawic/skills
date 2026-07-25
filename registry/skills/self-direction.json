@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "77911dc40c0b06ce579043f08a414799c27d5483175da3add3a0da12f722d2a1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "self-direction",
-    "name": "Self-Direction",
+    "name": "self-direction",
     "description": "Your agent learns to think like you. Captures your direction system, makes decisions as you would, guides all processes toward your goals.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/self-direction",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/self-direction/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/_meta.json",
+      "byteCount": 180,
+      "sha256": "b440ed3ab1d1e5d87626ae22afa52487524fc399ef22c950d57910de588f7f8b"
     },
     {
       "path": "evidence.md",
       "downloadPath": "skills/self-direction/evidence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/evidence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/evidence.md",
+      "byteCount": 3888,
+      "sha256": "3dd1bc544d72badc3736bb88eda5b18029815ab3ef01f7048b6fa8fc8a9693b5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/self-direction/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/memory-template.md",
+      "byteCount": 5845,
+      "sha256": "b93d5e139955750d5443841f6f3b6272a8432413f4f76e8f37f10b61e4bbfd20"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/self-direction/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/setup.md",
+      "byteCount": 3272,
+      "sha256": "460cec0d050eceb5092ce7a7687b9565fc1383c3bf485b17a94b57c40bd9f6d4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/self-direction/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/SKILL.md",
+      "byteCount": 14935,
+      "sha256": "935ad22005395f598258b15009bf8c1bd4394cf145000eb84176c0254a7f94ff"
     },
     {
       "path": "transmission.md",
       "downloadPath": "skills/self-direction/transmission.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/transmission.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-direction/transmission.md",
+      "byteCount": 5028,
+      "sha256": "4f4f0b1abeb7c1b637961c4a3aaa4c216cfb118f3fc53ba13b636c5577632d16"
     }
   ]
 }

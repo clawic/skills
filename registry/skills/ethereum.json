@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bc1c5da941a21dc2168b003ad00451f5013c8219586432d8a3e7c32deecbef70",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ethereum",
-    "name": "Ethereum",
+    "name": "ethereum",
     "description": "Assist with Ethereum transactions, gas optimization, token approvals, and L2 bridges.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ethereum",
     "summary": "Nonce and Stuck Transactions - Every Ethereum account has a nonce that increments with each transaction — if tx with nonce 5 is pending, nonces 6+ are blocked until 5 confirms - To unstick: send a new tx with the SAME no",
     "repositoryPath": "skills/ethereum",
     "manifestPath": "registry/skills/ethereum.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ethereum/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ethereum/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ethereum/_meta.json",
+      "byteCount": 168,
+      "sha256": "0ccdb0655689b92a2f4b6d909fe62c8a514aac46fe02d0b36ca9315d9cdd9b80"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ethereum/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ethereum/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ethereum/SKILL.md",
+      "byteCount": 3765,
+      "sha256": "33e8de0b9e5b3211f950ad9b0c4cf5dde0c734f9f1fc1368440db4b5e70face6"
     }
   ]
 }

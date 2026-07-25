@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3ef949c1e7e2062e9f9bfff9b2568c2132846a9b27218d7e50cb1d01f0d7f3a9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "symptoms",
-    "name": "Symptoms",
+    "name": "symptoms",
     "description": "Build a private symptom tracker for logging health patterns and preparing for doctor visits.",
-    "summary": "Core Behavior - User reports symptom → ask detailed follow-up questions - Proactively gather clinically relevant information - Track patterns to identify triggers - Create `~/symptoms/` as workspace - All data stays loca",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/symptoms",
+    "summary": "Core Behavior - User reports symptom → ask detailed follow-up questions - Proactively gather clinically relevant information - Track patterns to identify triggers - Create `~/Clawic/data/symptoms/` as workspace - All dat",
     "repositoryPath": "skills/symptoms",
     "manifestPath": "registry/skills/symptoms.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/symptoms/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/_meta.json",
+      "byteCount": 168,
+      "sha256": "dc862f2af02c8e36a0c996e759a702772b4037921e932262e216c37834041942"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/symptoms/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/symptoms/SKILL.md",
+      "byteCount": 2522,
+      "sha256": "1a84e083d5989b6b655abaa7c63b6c86d46d036a58b7447bff052f5eb7d7d52d"
     }
   ]
 }

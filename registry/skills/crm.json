@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e5258447cd947145ec88981dd35caa016ec23b56a0ceb81e9f9d9e917957d524",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "crm",
-    "name": "CRM",
+    "name": "crm",
     "description": "Guide users building a personal CRM from simple files to structured database.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/crm",
     "summary": "First Interaction - Ask what they're tracking: clients, leads, investors, job contacts, networking — context shapes schema - Ask their technical comfort: spreadsheets, JSON, databases — determines starting format - Creat",
     "repositoryPath": "skills/crm",
     "manifestPath": "registry/skills/crm.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/crm/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/_meta.json",
+      "byteCount": 158,
+      "sha256": "efb92f1d4b47fceb9f1abc2dfe90fd40b16d013fd6b1c5f4cbadfa030978f510"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/crm/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/SKILL.md",
+      "byteCount": 3548,
+      "sha256": "c8402f18a1235df91d3f0e6a0cd0a096a092971902a3a158703c03de66f1a3e6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template — Paddle
 
-Create `~/paddle/memory.md` with this structure:
+Create `~/Clawic/data/paddle/memory.md` with this structure:
 
 ```markdown
 # Paddle Memory

@@ -1,11 +1,18 @@
 ---
-name: Word / DOCX
+name: word-docx
 slug: word-docx
 version: 1.0.2
+description: Create, inspect, and edit Microsoft Word documents and DOCX files with reliable styles, numbering, tracked changes, tables, sections, and compatibility checks. Use when (1) the task is about Word or `.docx`; (2) the file includes tracked changes, comments, fields, tables, templates, or page layout constraints; (3) the document must survive round-trip editing without formatting drift.
 homepage: https://clawic.com/skills/word-docx
-description: "Create, inspect, and edit Microsoft Word documents and DOCX files with reliable styles, numbering, tracked changes, tables, sections, and compatibility checks. Use when (1) the task is about Word or `.docx`; (2) the file includes tracked changes, comments, fields, tables, templates, or page layout constraints; (3) the document must survive round-trip editing without formatting drift."
 changelog: Tightened the skill around fragile review workflows, reference stability, and layout drift after a stricter external audit.
-metadata: {"clawdbot":{"emoji":"📘","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📘
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Word / DOCX
 ---
 
 ## When to Use
@@ -93,12 +100,12 @@ Use when the main artifact is a Microsoft Word document or `.docx` file, especia
 - TOC entries, footnotes, and cross-references can look correct until the recipient updates fields and exposes broken anchors.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `documents` — General document handling and format conversion.
 - `brief` — Concise business writing and structured summaries.
 - `article` — Long-form drafting and editorial structure.
 
 ## Feedback
 
-- If useful: `clawhub star word-docx`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/word-docx
+- Latest version: https://clawic.com/skills/word-docx

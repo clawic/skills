@@ -1,6 +1,13 @@
 ---
-name: Bluetooth
+name: bluetooth
+slug: bluetooth
+version: 1.0.0
 description: Discover, connect, and control Bluetooth devices with automatic profile learning, cross-platform tools, and device management.
+homepage: https://clawic.com/skills/bluetooth
+metadata:
+  clawdbot:
+    emoji: 📶
+    displayName: Bluetooth
 ---
 
 ## Core Workflow
@@ -29,7 +36,7 @@ description: Discover, connect, and control Bluetooth devices with automatic pro
 Store device profiles and interaction history:
 
 ```
-~/bluetooth/
+~/Clawic/data/bluetooth/
 ├── profiles/         # Known device configs (one file per device)
 ├── history.md        # Interaction log with success/failure
 └── pending.md        # Devices discovered but not profiled
@@ -61,7 +68,7 @@ Store device profiles and interaction history:
 ## Device Interaction Pattern
 
 ```
-1. Check ~/bluetooth/profiles/ for device
+1. Check ~/Clawic/data/bluetooth/profiles/ for device
 2. If known → load profile, use saved commands
 3. If unknown → scan characteristics, discover capabilities
 4. Execute requested action

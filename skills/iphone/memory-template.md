@@ -1,6 +1,6 @@
 # Memory Template - iPhone
 
-Create `~/iphone/memory.md` with this structure:
+Create `~/Clawic/data/iphone/memory.md` with this structure:
 
 ```markdown
 # iPhone Memory

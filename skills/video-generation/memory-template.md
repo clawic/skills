@@ -1,6 +1,6 @@
 # Memory Template - AI Video Generation
 
-Copy this into `~/video-generation/memory.md` on first use.
+Copy this into `~/Clawic/data/video-generation/memory.md` on first use.
 
 ```markdown
 # Video Generation Memory
@@ -32,4 +32,4 @@ integration: workspace
 
 ## Optional History File
 
-Create `~/video-generation/history.md` only if the user wants persistent run logs.
+Create `~/Clawic/data/video-generation/history.md` only if the user wants persistent run logs.

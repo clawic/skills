@@ -73,4 +73,4 @@ After each case:
 3. What would you do differently?
 4. What's the generalizable lesson?
 
-Save your case analyses in ~/mba/cases/ for reference.
+Save your case analyses in ~/Clawic/data/mba/cases/ for reference.

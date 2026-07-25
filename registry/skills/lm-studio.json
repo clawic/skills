@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1261bdbc942ee6e949fcc250f680d0e003c7ec1892b083d0b09fead24989a22e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "lm-studio",
-    "name": "LM Studio",
+    "name": "lm-studio",
     "description": "Run and integrate LM Studio with local model lifecycle control, OpenAI-compatible APIs, embeddings, and MCP-aware workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/lm-studio",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/lm-studio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/_meta.json",
+      "byteCount": 170,
+      "sha256": "9319992dd13dfdeea9d13b4cbb48ca314874287954bb90440a6a300a054757be"
     },
     {
       "path": "api-recipes.md",
       "downloadPath": "skills/lm-studio/api-recipes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/api-recipes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/api-recipes.md",
+      "byteCount": 2819,
+      "sha256": "b2ddfe3ad68e51bff2aa65a3c7de9a5586d97ef4ae2e9a160a7e2b83c10b824e"
     },
     {
       "path": "mcp-playbooks.md",
       "downloadPath": "skills/lm-studio/mcp-playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/mcp-playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/mcp-playbooks.md",
+      "byteCount": 2355,
+      "sha256": "e98fa9c3c7c08429b8b814e3a2ff5e6eb8cc36747182b91f0b4406549aa4f6a2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/lm-studio/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/memory-template.md",
+      "byteCount": 1435,
+      "sha256": "7dfd8ed28d57cfccb7544f4ac5473c1d6880ce693128470aee16de157f1889b0"
     },
     {
       "path": "model-lifecycle.md",
       "downloadPath": "skills/lm-studio/model-lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/model-lifecycle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/model-lifecycle.md",
+      "byteCount": 2535,
+      "sha256": "efafc80f16f8a0828187a17d71c01098c3619ccd91eb2c43dd8fc7a2db19e14b"
     },
     {
       "path": "server-workflows.md",
       "downloadPath": "skills/lm-studio/server-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/server-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/server-workflows.md",
+      "byteCount": 2187,
+      "sha256": "940dab2aa8af87c2688c9d3334cbae365c0b9ebfe7126099cd740378da6ad27e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/lm-studio/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/setup.md",
+      "byteCount": 1910,
+      "sha256": "a786b07469a86fe8e61d7596c41e84ec37b4365529cb4de6a4c4cd81f99de6e3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/lm-studio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/SKILL.md",
+      "byteCount": 6003,
+      "sha256": "275094f350c74480ab6f29ebaacef6f9ac4a38bf0b76fe77b5bad22d1d912501"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/lm-studio/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lm-studio/troubleshooting.md",
+      "byteCount": 2472,
+      "sha256": "176a595b93bb15df9e38a6c68a3f265ae4955e51d1d167ec31e773d7724fe3d8"
     }
   ]
 }

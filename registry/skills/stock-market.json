@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2fbf407c4810fb5de4b4d0bc5942edf813932ef601a459c8ae4375cdd52630e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "stock-market",
-    "name": "Stock Market",
+    "name": "stock-market",
     "description": "Analyze stock market setups with thesis checks, catalyst mapping, risk controls, and explicit trade or no-trade decisions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/stock-market",
-    "summary": "Setup If `~/stock-market/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs stock market analysis, watchlist planning, or trade dec",
+    "summary": "Setup If `~/Clawic/data/stock-market/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`. When to Use User needs stock market analysis, watchlist planning, ",
     "repositoryPath": "skills/stock-market",
     "manifestPath": "registry/skills/stock-market.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/stock-market/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/_meta.json",
+      "byteCount": 176,
+      "sha256": "5cb2620ab9e3c8525788c85c9f319d3cf9c7faa77cf275c6a1c7ba13abfc174e"
     },
     {
       "path": "analysis-framework.md",
       "downloadPath": "skills/stock-market/analysis-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/analysis-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/analysis-framework.md",
+      "byteCount": 1679,
+      "sha256": "a09e8152083a9861a1c890902b3a9f1108a558655d999769572edcf5f48f221e"
     },
     {
       "path": "briefing-template.md",
       "downloadPath": "skills/stock-market/briefing-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/briefing-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/briefing-template.md",
+      "byteCount": 1052,
+      "sha256": "2fb15bda6fccd8898fba6c620a5f0439716b061e3424ffa860231bd34afcb25f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/stock-market/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/memory-template.md",
+      "byteCount": 1315,
+      "sha256": "6c60de8f953c086fcd70fc570328820d12414e36ae60aefde91b0d129df8c9c6"
     },
     {
       "path": "risk-playbook.md",
       "downloadPath": "skills/stock-market/risk-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/risk-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/risk-playbook.md",
+      "byteCount": 1456,
+      "sha256": "bc145eb873f4e347d53124e9f90628a649b61b55785f770901031d8aab31810d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/stock-market/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/setup.md",
+      "byteCount": 1713,
+      "sha256": "91bd4acca7f878f52b7bfa7669ced1fc1f4ad4d77241d5fc67d626f10c49bf71"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/stock-market/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/SKILL.md",
+      "byteCount": 4546,
+      "sha256": "fe088534867d52bbd6b87b646049413eb759984986413adccc6852c8523e3185"
     },
     {
       "path": "watchlist-template.md",
       "downloadPath": "skills/stock-market/watchlist-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/watchlist-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stock-market/watchlist-template.md",
+      "byteCount": 1425,
+      "sha256": "9ae77caf8ff76d9fb847de1056aa6f5e7ad4a8f40f30c55ef88cf6edb3eb4235"
     }
   ]
 }

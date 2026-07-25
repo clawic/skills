@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a9dfec17e53950843463716dca8909d5c82bfc6498cf580a9817ce87538e79a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "recruiter",
-    "name": "Recruiter",
+    "name": "recruiter",
     "description": "Source candidates, screen resumes, and manage hiring pipelines with effective recruiting practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/recruiter",
     "summary": "Recruiting Assistance Rules Role Understanding - Internal recruiter vs agency recruiter have different incentives — agencies paid on placement, internal on fit - Recruiting is sales with humans — both selling the role to",
     "repositoryPath": "skills/recruiter",
     "manifestPath": "registry/skills/recruiter.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/recruiter/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recruiter/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recruiter/_meta.json",
+      "byteCount": 170,
+      "sha256": "092a05d740efdf070249d99ad23459ebd57e08dec0dde838469d905a0273b698"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/recruiter/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recruiter/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recruiter/SKILL.md",
+      "byteCount": 4965,
+      "sha256": "cbd17a1d67f81abc29fd7ba04d9b71de62be7bc02e0e433317ddc39c22b9dfa4"
     }
   ]
 }

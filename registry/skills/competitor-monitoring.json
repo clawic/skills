@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "df71754d95fa562761a1c851a50e8b4033e4fadef614024fb8ea8ff3299ce745",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "competitor-monitoring",
-    "name": "Competitor Monitoring",
+    "name": "competitor-monitoring",
     "description": "Track competitors with pricing alerts, feature changes, positioning analysis, and strategic dossiers.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/competitor-monitoring",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/competitor-monitoring/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/_meta.json",
+      "byteCount": 194,
+      "sha256": "5d93d0f1cdaa5c2e6e34aac132fbab0fdb42a6b81d59a12caacb6926972ca362"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/competitor-monitoring/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/memory-template.md",
+      "byteCount": 3461,
+      "sha256": "4327f0b6c1a821c431a5f3648c29cb7a655764bc1ba819d9f3a9c28a54d60638"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/competitor-monitoring/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/setup.md",
+      "byteCount": 2529,
+      "sha256": "94975a9350062dd23c9cc697bb4451f8d4e680a9dd477fb95ff8661504e368ff"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/competitor-monitoring/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-monitoring/SKILL.md",
+      "byteCount": 7024,
+      "sha256": "db647535e769d8b958044a6e40c155095eabbe48631a1e84c017a48ff8716a5d"
     }
   ]
 }

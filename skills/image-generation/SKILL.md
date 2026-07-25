@@ -1,11 +1,30 @@
 ---
-name: AI Image Generation
+name: image-generation
 slug: image-generation
 version: 1.0.3
-homepage: https://clawic.com/skills/image-generation
 description: Create AI images with GPT Image, Gemini Nano Banana, FLUX, Imagen, and top providers using prompt engineering, style control, and smart editing.
+homepage: https://clawic.com/skills/image-generation
 changelog: Updated for 2026 with benchmark-backed model selection and clearer guidance for modern image generation stacks.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[],"env.optional":["OPENAI_API_KEY","GEMINI_API_KEY","BFL_API_KEY","GOOGLE_CLOUD_PROJECT","REPLICATE_API_TOKEN","LEONARDO_API_KEY","IDEOGRAM_API_KEY"],"config":["~/image-generation/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins: []
+      env.optional:
+      - OPENAI_API_KEY
+      - GEMINI_API_KEY
+      - BFL_API_KEY
+      - GOOGLE_CLOUD_PROJECT
+      - REPLICATE_API_TOKEN
+      - LEONARDO_API_KEY
+      - IDEOGRAM_API_KEY
+      config:
+      - ~/Clawic/data/image-generation/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: AI Image Generation
 ---
 
 ## Setup
@@ -19,10 +38,10 @@ Use this skill to pick the right model, write stronger prompts, and avoid outdat
 
 ## Architecture
 
-User preferences persist in `~/image-generation/`. See `memory-template.md` for setup.
+User preferences persist in `~/Clawic/data/image-generation/`. See `memory-template.md` for setup.
 
 ```
-~/image-generation/
+~/Clawic/data/image-generation/
 ├── memory.md      # Preferred providers, project context, winning recipes
 └── history.md     # Optional generation log
 ```
@@ -103,7 +122,7 @@ OpenAI lists DALL-E 2/3 as legacy. Do not use them as default for new projects.
 - Reference images when editing or style matching
 
 **Data that stays local:**
-- Provider preferences in `~/image-generation/memory.md`
+- Provider preferences in `~/Clawic/data/image-generation/memory.md`
 - Optional local history file
 
 **This skill does NOT:**
@@ -136,7 +155,7 @@ This skill may send prompts and reference images to third-party AI providers.
 Only install if you trust those providers with your content.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image-edit` - Specialized inpainting, outpainting, and mask workflows
 - `video-generation` - Convert image concepts into video pipelines
 - `colors` - Build palettes for visual consistency across assets
@@ -144,5 +163,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star image-generation`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/image-generation
+- Latest version: https://clawic.com/skills/image-generation

@@ -1,11 +1,20 @@
 ---
-name: Shanghai
+name: shanghai
 slug: shanghai
 version: 1.0.0
+description: Navigate Shanghai as visitor, resident, student, or builder with practical neighborhoods, transport, costs, visas, and local operating rules.
 homepage: https://clawic.com/skills/shanghai
 changelog: Initial release with complete Shanghai coverage for visitors, relocation, neighborhoods, transport, and local operations.
-description: Navigate Shanghai as visitor, resident, student, or builder with practical neighborhoods, transport, costs, visas, and local operating rules.
-metadata: {"clawdbot":{"emoji":"🌆","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🌆
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Shanghai
 ---
 
 ## When to Use
@@ -136,7 +145,7 @@ Key points to surface clearly:
 See `safety.md` for practical do/don't guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — trip structuring and route planning across cities
 - `expat` — relocation and settling workflows for international moves
 - `chinese` — language support for daily tasks and local communication
@@ -144,5 +153,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star shanghai`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/shanghai
+- Latest version: https://clawic.com/skills/shanghai

@@ -1,7 +1,17 @@
 ---
-name: Personal Knowledge Base
+name: pkm
+slug: pkm
+version: 1.0.1
 description: Help users build a personal knowledge base by organizing whatever they send into structured notes.
-metadata: {"clawdbot":{"emoji":"🧠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pkm
+metadata:
+  clawdbot:
+    emoji: 🧠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Personal Knowledge Base
 ---
 
 ## Core Behavior

@@ -1,10 +1,19 @@
 ---
-name: Venice
+name: venice
 slug: venice
 version: 1.0.0
-homepage: https://clawic.com/skills/venice
 description: Navigate Venice as visitor or resident with neighborhoods, transport by water, costs, local insights, and authentic experiences beyond tourist traps.
-metadata: {"clawdbot":{"emoji":"🏛️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/venice
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Venice
 ---
 
 ## When to Use
@@ -162,12 +171,12 @@ See `transport.md` for accessible route information.
 ## Architecture
 
 ```
-~/venice/
+~/Clawic/data/venice/
 ├── memory.md          # Trip state, bookings, visited spots
 ```
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `travel` — General travel planning and logistics
 - `dubai` — Compare luxury city destination
@@ -175,5 +184,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star venice`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/venice
+- Latest version: https://clawic.com/skills/venice

@@ -22,7 +22,7 @@
 2. Classify each miss: ambiguity, overload, missing context, or memory gap.
 3. Rewrite at least the top 3 recurring misses.
 4. Run one short validation test on rewritten cards.
-5. Record outcomes in `~/quizlet/weak-cards.md`.
+5. Record outcomes in `~/Clawic/data/quizlet/weak-cards.md`.
 
 ## Rewrite Templates
 

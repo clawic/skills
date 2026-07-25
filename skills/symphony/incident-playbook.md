@@ -35,7 +35,7 @@ Use this playbook to triage common runtime failures.
 
 ## Post-Incident Notes
 
-After resolution, store in `~/symphony/incidents.md`:
+After resolution, store in `~/Clawic/data/symphony/incidents.md`:
 - incident summary
 - root cause
 - remediation steps

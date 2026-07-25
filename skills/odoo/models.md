@@ -22,5 +22,5 @@ Use this map to avoid mixing business objects that sound similar but behave diff
 
 - Verify the state field before assuming lifecycle semantics.
 - Check company and access context on any cross-company analysis.
-- If custom modules are present, record the local overrides in `~/odoo/modules.md`.
+- If custom modules are present, record the local overrides in `~/Clawic/data/odoo/modules.md`.
 - When in doubt, describe the business object first and the model second.

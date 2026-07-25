@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d146d374a505d7cf557e89353cda5f4815e1ef61ef8b06306f912705ee815526",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "text",
-    "name": "Text",
+    "name": "text",
     "description": "Transform, format, and process text with patterns for writing, data cleaning, localization, citations, and copywriting.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/text",
     "summary": "Quick Reference | Task | Load | |------|------| | Creative writing (voice, dialogue, POV) | `writing.md` | | Data processing (CSV, regex, encoding) | `data.md` | | Academic/citations (APA, MLA, Chicago) | `academic.md` |",
     "repositoryPath": "skills/text",
     "manifestPath": "registry/skills/text.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/text/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/_meta.json",
+      "byteCount": 160,
+      "sha256": "8f4afd7072698d8bd2d1652703fa820a744bcd4e082c78c3b8c130a73d37e19a"
     },
     {
       "path": "academic.md",
       "downloadPath": "skills/text/academic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/academic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/academic.md",
+      "byteCount": 4511,
+      "sha256": "5517142a58fb4b1fc5754c7734dfda3191f3dbdda28a08fd08ca8e6f84c4d2bd"
     },
     {
       "path": "copy.md",
       "downloadPath": "skills/text/copy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/copy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/copy.md",
+      "byteCount": 4423,
+      "sha256": "205d9a09938aed6b17914ecf0210980f332949f22762d89a9c51b8dc59542117"
     },
     {
       "path": "data.md",
       "downloadPath": "skills/text/data.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/data.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/data.md",
+      "byteCount": 5053,
+      "sha256": "737ce9606a7835df7f23b42680d7be2a598a532c95763f6a37715f27327d893b"
     },
     {
       "path": "localization.md",
       "downloadPath": "skills/text/localization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/localization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/localization.md",
+      "byteCount": 4302,
+      "sha256": "9df6e4f467a25c6b62adb51d50b3cc37185c1be4e6f8d795f15a8055de0d4eb5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/text/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/SKILL.md",
+      "byteCount": 2170,
+      "sha256": "b5337335c43790cfe377dda13f8c865ffc7cfe83dc752d54610adc3369fc380b"
     },
     {
       "path": "writing.md",
       "downloadPath": "skills/text/writing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/writing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/text/writing.md",
+      "byteCount": 3625,
+      "sha256": "996d4fe21cd426104237d5616190b3c98b831f06172f1d14b03ee8c187073734"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "14c94661cf049e9c471d6a99f60ce4478d5c72893b958225c16f58484c8db3f2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "agents",
-    "name": "Agents",
+    "name": "agents",
     "description": "Design, build, and deploy AI agents with architecture patterns, framework selection, memory systems, and production safety.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/agents",
     "summary": "When to Use Use when designing agent systems, choosing frameworks, implementing memory/tools, specifying agent behavior for teams, or reviewing agent security. Quick Reference | Topic | File | |-------|------| | Architec",
     "repositoryPath": "skills/agents",
     "manifestPath": "registry/skills/agents.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/agents/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/_meta.json",
+      "byteCount": 164,
+      "sha256": "67b61506a52dbf087a23ad1efe30f22cef80cd4d4f9599b7c3996c13e2eaf4af"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/agents/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/architecture.md",
+      "byteCount": 3352,
+      "sha256": "5f6843b76dc72ffb23d660eb06f6299bcb4a7895ac368d5c7c09822f77d88c06"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/agents/evaluation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/evaluation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/evaluation.md",
+      "byteCount": 4242,
+      "sha256": "b437b99229ae713ce00c7acefdf5be76725a661be10313580e51e8b80e813704"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/agents/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/frameworks.md",
+      "byteCount": 2936,
+      "sha256": "cfdfd84d644cdd4f0766e104354a9df380aa9dfeeeb47c064a9c4ef07d6a1c05"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/agents/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/implementation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/implementation.md",
+      "byteCount": 4434,
+      "sha256": "10893408c9b320de103bd60cf96e4fa30f4794758428dcc8ec46a13640326e7b"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/agents/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/security.md",
+      "byteCount": 4289,
+      "sha256": "0b1d65414cb53b6a4e8d7c9ed0392f0cef410041f3e9ec8f4cc6353c66217a1f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agents/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/SKILL.md",
+      "byteCount": 2374,
+      "sha256": "862e2e24bd8a1a1740b162e165551740d0764b2496a4381b98800de0566e1186"
     },
     {
       "path": "use-cases.md",
       "downloadPath": "skills/agents/use-cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/use-cases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/use-cases.md",
+      "byteCount": 4177,
+      "sha256": "aceb22b91fe0c7fc315b7597de0c00cf975bbcf495d44bf6e94022aac8907b63"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "dc792fac07c85b2456cb31bcdf0c8a9e1e8702f7bfe1bb1d8e10bf841b08bf5a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "song",
-    "name": "Song",
+    "name": "song",
     "description": "Write original songs with guided lyric development, chord progressions, melody contours, and AI music generator prompts for composers at any level.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/song",
     "summary": "Role Create songs through a structured process. Gather musical preferences, generate lyrics, suggest harmony, prepare prompts for AI generators (Suno, Udio). Learn what works for each user. **Key flow:** Discovery → Stru",
     "repositoryPath": "skills/song",
     "manifestPath": "registry/skills/song.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/song/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/_meta.json",
+      "byteCount": 160,
+      "sha256": "a3758ea20d4f3723c9c6b1b09a786b6811dc86b4b357141c9ec51cb6c267ae85"
     },
     {
       "path": "harmony.md",
       "downloadPath": "skills/song/harmony.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/harmony.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/harmony.md",
+      "byteCount": 3076,
+      "sha256": "2706ba0514e5dee64b15e201dae558b0bc107a17007ced31316523dfff886362"
     },
     {
       "path": "lyrics.md",
       "downloadPath": "skills/song/lyrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/lyrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/lyrics.md",
+      "byteCount": 2955,
+      "sha256": "840cee7af61a3f500f94691a80b4bbcd7342a06e7edd32c197ce39254d2d53b4"
     },
     {
       "path": "phases.md",
       "downloadPath": "skills/song/phases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/phases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/phases.md",
+      "byteCount": 3675,
+      "sha256": "4c47b5e69a6b77b3649192367960031217dbc07c8a9626d6c20415320403a9a8"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/song/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/prompts.md",
+      "byteCount": 3517,
+      "sha256": "6e37e1f10df54600a9d581f4c7f23551f75f3100f03866bda187d2255ea0c449"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/song/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/SKILL.md",
+      "byteCount": 2803,
+      "sha256": "166d0506921c987fb71824568ef6c4cceda19ed42770fa4fd57c10df4b3e5ac9"
     },
     {
       "path": "structure.md",
       "downloadPath": "skills/song/structure.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/structure.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/song/structure.md",
+      "byteCount": 3965,
+      "sha256": "c612bcb5650a09261f75a7229927e967c9274edae25fd69d5c2f66ff0dc98a9d"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template — Notion API
 
-Create `~/notion-api-integration/memory.md` with this structure:
+Create `~/Clawic/data/notion-api-integration/memory.md` with this structure:
 
 ```markdown
 # Notion Memory

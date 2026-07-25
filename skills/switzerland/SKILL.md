@@ -1,16 +1,27 @@
 ---
-name: Switzerland
+name: switzerland
 slug: switzerland
 version: 1.0.0
-homepage: https://clawic.com/skills/switzerland
-changelog: "Initial release with verified Switzerland entry rules, scenic rail and mountain logistics, and practical regional playbooks."
 description: Plan Switzerland trips with Alpine rail and mountain logistics, verified entry rules, scenic routing, and practical local execution.
-metadata: {"clawdbot":{"emoji":"🇨🇭","requires":{"bins":[],"config":["~/switzerland/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/switzerland
+changelog: Initial release with verified Switzerland entry rules, scenic rail and mountain logistics, and practical regional playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇨🇭
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/switzerland/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Switzerland
 ---
 
 ## Setup
 
-If `~/switzerland/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/switzerland/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Switzerland trip and needs operational guidance beyond postca
 
 ## Architecture
 
-Memory lives in `~/switzerland/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/switzerland/`. See `memory-template.md` for structure.
 
 ```text
-~/switzerland/
+~/Clawic/data/switzerland/
 └── memory.md     # Trip context, routing logic, and evolving constraints
 ```
 
@@ -104,14 +115,14 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences, route decisions, and deadlines in `~/switzerland/`
+**Data that stays local:** Trip preferences, route decisions, and deadlines in `~/Clawic/data/switzerland/`
 
-**This skill does NOT:** Access files outside `~/switzerland/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/switzerland/` or make network requests.
 
 **Memory rule:** Keep local trip notes only when the user is doing ongoing Switzerland planning or clearly wants continuity across sessions. For one-off answers, help without creating extra trip memory.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `europe` — Better wider-Europe context when Switzerland is part of a longer route
 - `booking` — Reservation workflows and confirmation hygiene
@@ -120,5 +131,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star switzerland`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/switzerland
+- Latest version: https://clawic.com/skills/switzerland

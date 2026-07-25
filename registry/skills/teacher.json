@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3acfbaa6af01f9b17c122b5789114be498b2f048b48b03f7c7e46ca11018e8ca",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "teacher",
-    "name": "Teacher",
+    "name": "teacher",
     "description": "Explain concepts clearly, adapt to learner levels, and guide understanding with effective teaching patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/teacher",
     "summary": "Teaching Rules Assessing the Learner - Ask what they already know before explaining — build on existing knowledge - Watch for confusion signals — \"I guess\" or silence means lost, not understanding - Wrong answers reveal ",
     "repositoryPath": "skills/teacher",
     "manifestPath": "registry/skills/teacher.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/teacher/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/_meta.json",
+      "byteCount": 166,
+      "sha256": "3010b4a178afef563ebf07dbaa26c0759c94ffe0868646853a4f8473126ef496"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/teacher/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/SKILL.md",
+      "byteCount": 4245,
+      "sha256": "d046ea3b43343519d42d9309e257c274180a78710b21ff1fe9109d013a621f0a"
     }
   ]
 }

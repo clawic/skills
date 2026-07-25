@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a75426292a5c58d1d7e610ca7017346bb89570ccc2b612f08ed511fa5784a96",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "playwright",
-    "name": "Playwright (Automation + MCP + Scraper)",
+    "name": "playwright",
     "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/playwright",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/playwright/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/_meta.json",
+      "byteCount": 351,
+      "sha256": "d5e77018ffd595aa5d56fd7b4eea764ef03fb610d449bde077da5e718cbc894f"
     },
     {
       "path": "ci-cd.md",
       "downloadPath": "skills/playwright/ci-cd.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/ci-cd.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/ci-cd.md",
+      "byteCount": 3501,
+      "sha256": "5821e33e0b8184e8b799da3acf439f6c91bd3daa7eabaa977be1c470182a6515"
     },
     {
       "path": "debugging.md",
       "downloadPath": "skills/playwright/debugging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/debugging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/debugging.md",
+      "byteCount": 3624,
+      "sha256": "8fb3cabd6c6b047ee89de54bf375d57a52124832b3952e3d37490c6a3c78bea2"
     },
     {
       "path": "scraping.md",
       "downloadPath": "skills/playwright/scraping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/scraping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/scraping.md",
+      "byteCount": 3968,
+      "sha256": "db47f9bf86e933647fc54c1f8d0ec7e0ef590f08a5dfa28e4c54dcecf3ed6c09"
     },
     {
       "path": "selectors.md",
       "downloadPath": "skills/playwright/selectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/selectors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/selectors.md",
+      "byteCount": 2384,
+      "sha256": "0b4aae1cdeaf77ea80f0f9a19e6007deb4cab53bb5f066d85fc87e1e11a19003"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/playwright/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md",
+      "byteCount": 11149,
+      "sha256": "4dd02dd2e07eda28eb41a7f275bbfe8df8426bcf44ca2cd38352e3a8a6325a80"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/playwright/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/testing.md",
+      "byteCount": 4512,
+      "sha256": "62afb90d96e68eec8776dbfc7724a193eeed99d11495f027c7345b6e15254483"
     }
   ]
 }

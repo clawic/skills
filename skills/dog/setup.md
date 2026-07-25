@@ -1,6 +1,6 @@
 # Setup - Dog
 
-Read this on first activation when `~/dog/` does not exist or is incomplete.
+Read this on first activation when `~/Clawic/data/dog/` does not exist or is incomplete.
 
 ## Operating Attitude
 
@@ -17,8 +17,8 @@ Read this on first activation when `~/dog/` does not exist or is incomplete.
    - only for specific dogs or topics such as health, walks, training, or travel
 2. Ask permission before writing local files:
 ```bash
-mkdir -p ~/dog/dogs ~/dog/sitter-packs
-touch ~/dog/memory.md ~/dog/shopping.md
+mkdir -p ~/Clawic/data/dog/dogs ~/Clawic/data/dog/sitter-packs
+touch ~/Clawic/data/dog/memory.md ~/Clawic/data/dog/shopping.md
 chmod 700 ~/dog
 ```
 3. If approved and `memory.md` is empty, initialize from `memory-template.md`.

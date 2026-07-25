@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fdd5b77b43b11710dabda8a4faa321361a82589932ae9b8cac6c00ac813adcee",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "redis-store",
-    "name": "Redis",
+    "name": "redis-store",
     "description": "Use Redis effectively for caching, queues, and data structures with proper expiration and persistence.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/redis-store",
     "summary": "Expiration (Memory Leaks) - Keys without TTL live forever—set expiry on every cache key: `SET key value EX 3600` - Can't add TTL after SET without another command—use `SETEX` or `SET ... EX` - `EXPIRE` resets on key upda",
     "repositoryPath": "skills/redis-store",
     "manifestPath": "registry/skills/redis-store.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/redis-store/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/_meta.json",
+      "byteCount": 168,
+      "sha256": "b1f6e35d92088fe71ad656bde508026ebe2189512e68a54e9bbb566f18801dc3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/redis-store/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/SKILL.md",
+      "byteCount": 3953,
+      "sha256": "0ce269701f8cb5f5700bd796c62a0982ae741aef2c596854739ad88763c26574"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3b6a636b349263e91da962f948c7453241d0282bb074337a4159511f0ad07df4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,34 +23,46 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/cto/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/cto/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/_meta.json",
+      "byteCount": 483,
+      "sha256": "5d0e18336c19fa21c785c8c1b7dcc66fff45bb5f9eb581538c7d31f212400c68"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/cto/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/architecture.md",
+      "byteCount": 4241,
+      "sha256": "201e00dbdceedcdeeb4c7394f3bc5e0882587ed6d738fc5a3d3d3860d22620af"
     },
     {
       "path": "debt.md",
       "downloadPath": "skills/cto/debt.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/debt.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/debt.md",
+      "byteCount": 3903,
+      "sha256": "4bf92e289bc26e9469f85191b6ac649452089637ee28a32a833116044b626dab"
     },
     {
       "path": "hiring.md",
       "downloadPath": "skills/cto/hiring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/hiring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/hiring.md",
+      "byteCount": 4228,
+      "sha256": "1611c7d917635b654974a568e1628e3ee0b3b498fc2aa06cab71e9c942bb74e0"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/cto/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/operations.md",
+      "byteCount": 4771,
+      "sha256": "e793eb1367155889c64bf3a4e5d6323e5178ff498d15169821b15c52bec185d6"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cto/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/SKILL.md",
+      "byteCount": 10624,
+      "sha256": "ac1266fbe4b5a0bda4f9660ce2cc0e4013b9e9e9fb29a920d1e6b46c6c8a5ec5"
     }
   ]
 }

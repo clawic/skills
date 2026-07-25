@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "51d16447bb213dd9bc7cec3f355178bc3a4f271de6595f826eb650f24de11d38",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "brazil",
-    "name": "Brazil",
+    "name": "brazil",
     "description": "Plan Brazil trips with region-specific routing, visa and money clarity, season-aware logistics, and concrete city-nature playbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/brazil",
-    "summary": "Setup If `~/brazil/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Brazil trip and needs more than generic inspiration: nationality-specific entry checks, realistic routi",
+    "summary": "Setup If `~/Clawic/data/brazil/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Brazil trip and needs more than generic inspiration: nationality-specific entry checks, rea",
     "repositoryPath": "skills/brazil",
     "manifestPath": "registry/skills/brazil.json"
   },
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/brazil/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/_meta.json",
+      "byteCount": 164,
+      "sha256": "3fd6f675ba640de5777323d677d02ef90c5ceff809edb7a46d0ffe77d6f59c9c"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/brazil/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/accessibility.md",
+      "byteCount": 981,
+      "sha256": "d146708986db34cfb87c0cefbba5eeefe229034d8d04d53242a88edbb20cea2e"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/brazil/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/accommodation.md",
+      "byteCount": 1552,
+      "sha256": "b34e59b05a830543875fdfb6a1f8ef9ff9d79556392a8c0eab98f3b3f480b4dd"
     },
     {
       "path": "border-hops-and-neighbor-countries.md",
       "downloadPath": "skills/brazil/border-hops-and-neighbor-countries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/border-hops-and-neighbor-countries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/border-hops-and-neighbor-countries.md",
+      "byteCount": 1079,
+      "sha256": "d070cebfdb98d4135c5ee095768d6d14e22a8684334471e5e1553cd7e288cfce"
     },
     {
       "path": "brasilia-and-chapada-dos-veadeiros.md",
       "downloadPath": "skills/brazil/brasilia-and-chapada-dos-veadeiros.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/brasilia-and-chapada-dos-veadeiros.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/brasilia-and-chapada-dos-veadeiros.md",
+      "byteCount": 805,
+      "sha256": "e96d8b2d8a51c67a708ef73d2036bf792f7ee62479307ffe191fa07deed8f0cc"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/brazil/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/budget-and-costs.md",
+      "byteCount": 1377,
+      "sha256": "f252497b197ccbcba98224cc0eb91a16203e5d36b6074a1344ea40753b34d9c4"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/brazil/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/customs-and-border.md",
+      "byteCount": 1310,
+      "sha256": "9f4ad5be2bc3f5e41599a84c54d440d85891d50ea0aae90717cb9a59b2f95c8d"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/brazil/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/entry-and-documents.md",
+      "byteCount": 1593,
+      "sha256": "8be8d8db1e53de38f01b9af95c62526962c485508a47cddf627328c4e08ccbac"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/brazil/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/family-travel.md",
+      "byteCount": 934,
+      "sha256": "63013ad2bf46216eda1020b9822ec86e2bb34187072b58ec9592d002f5e34ba7"
     },
     {
       "path": "fernando-de-noronha-and-recife.md",
       "downloadPath": "skills/brazil/fernando-de-noronha-and-recife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/fernando-de-noronha-and-recife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/fernando-de-noronha-and-recife.md",
+      "byteCount": 973,
+      "sha256": "dd8d2afebc1ae4b72bd1efe1039a3d93758601dbb5328bf90920d89066b60906"
     },
     {
       "path": "florianopolis-and-santa-catarina.md",
       "downloadPath": "skills/brazil/florianopolis-and-santa-catarina.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/florianopolis-and-santa-catarina.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/florianopolis-and-santa-catarina.md",
+      "byteCount": 873,
+      "sha256": "61283490a7b773b90838c5cf161d3ec96b5b124722602c3605342235087258ab"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/brazil/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/food-guide.md",
+      "byteCount": 1134,
+      "sha256": "716f81b60478b790e6481a1ffb9063aad529cff8703d77829c277b95eb95f420"
     },
     {
       "path": "foz-do-iguacu.md",
       "downloadPath": "skills/brazil/foz-do-iguacu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/foz-do-iguacu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/foz-do-iguacu.md",
+      "byteCount": 805,
+      "sha256": "636758e991fc438b71df1c6bcefc9d317273169242a9b7b33113190e4d4146dd"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/brazil/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/itineraries.md",
+      "byteCount": 1407,
+      "sha256": "390d284fb90d0d6ebd00fdede997450e5ad3d96e929b7a10b562f9296daa6bc1"
     },
     {
       "path": "manaus-and-amazon.md",
       "downloadPath": "skills/brazil/manaus-and-amazon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/manaus-and-amazon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/manaus-and-amazon.md",
+      "byteCount": 789,
+      "sha256": "c908310aef3d97ff9ba686a7937f8c220429f0e6480478d4d4719e27f5b11b51"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/brazil/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/memory-template.md",
+      "byteCount": 1616,
+      "sha256": "b6370d783701df59d5e18454facd641305fad2e9c307d4b5b0e8a8847d06fd5d"
     },
     {
       "path": "minas-gerais-and-colonial-cities.md",
       "downloadPath": "skills/brazil/minas-gerais-and-colonial-cities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/minas-gerais-and-colonial-cities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/minas-gerais-and-colonial-cities.md",
+      "byteCount": 859,
+      "sha256": "27e8b5d236ba19cad92c21e6813d6e9d22554761d7031f92934c4c69a203ba41"
     },
     {
       "path": "money-payments-and-exchange.md",
       "downloadPath": "skills/brazil/money-payments-and-exchange.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/money-payments-and-exchange.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/money-payments-and-exchange.md",
+      "byteCount": 1638,
+      "sha256": "4ad8c666bbb73c334758106c2dae292433918266f1548011b09c3cf3abae6d6f"
     },
     {
       "path": "national-parks-and-nature.md",
       "downloadPath": "skills/brazil/national-parks-and-nature.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/national-parks-and-nature.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/national-parks-and-nature.md",
+      "byteCount": 1321,
+      "sha256": "fd0ccd3697970052cf16c63840e120f0aa89f1a69184c9ffc26d8869f96266ea"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/brazil/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/nightlife.md",
+      "byteCount": 923,
+      "sha256": "227c0e9133eeff4a3b4b0c472ac8e64e2f73a32cf81de5ff13e17da60a8c9654"
     },
     {
       "path": "pantanal-and-bonito.md",
       "downloadPath": "skills/brazil/pantanal-and-bonito.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/pantanal-and-bonito.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/pantanal-and-bonito.md",
+      "byteCount": 966,
+      "sha256": "3dc2015f301e5a875be8cb6f03a358e9dc029d49786508cfb841aa3ac239ce3c"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/brazil/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/regions.md",
+      "byteCount": 1929,
+      "sha256": "581e2ec943368593843de7f54ff67d06a91c19edcf5922f0b3d304df2ce4cfe3"
     },
     {
       "path": "rio-de-janeiro.md",
       "downloadPath": "skills/brazil/rio-de-janeiro.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/rio-de-janeiro.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/rio-de-janeiro.md",
+      "byteCount": 1106,
+      "sha256": "5896607bd3d625a479277c4f652553253896c9c4f31246bd37c9ac992b9c0f64"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/brazil/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/road-trips-and-driving.md",
+      "byteCount": 1076,
+      "sha256": "0ee6eeb64c5d4d262fee97220024b85dcd68b5373c7c5bc46f542009cd828780"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/brazil/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/safety-and-emergencies.md",
+      "byteCount": 1000,
+      "sha256": "d1737ecafdf2f14e658ade93edea49dde1495e0c65b4e4d810bf69c1571dd0f1"
     },
     {
       "path": "salvador-and-bahia-coast.md",
       "downloadPath": "skills/brazil/salvador-and-bahia-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/salvador-and-bahia-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/salvador-and-bahia-coast.md",
+      "byteCount": 1027,
+      "sha256": "f19b75729cfd166289bb016e7f58676c671f03021028cf8c40e1d758ccac195b"
     },
     {
       "path": "sao-paulo.md",
       "downloadPath": "skills/brazil/sao-paulo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/sao-paulo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/sao-paulo.md",
+      "byteCount": 965,
+      "sha256": "b06b3ca51712b830f9c3a7fe5280dffbc1abc28a44619d10c98b942fcae9ec2e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/brazil/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/setup.md",
+      "byteCount": 2305,
+      "sha256": "3e9e1b1763d569f5908d70c0b4aaaa5afba58009b188cdd3873026892baa39ee"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/brazil/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/SKILL.md",
+      "byteCount": 6484,
+      "sha256": "523fa38c23a4ffb2394c8638ff98a7a67fa00a9cb5a25f4673fa2bbd1e22adb7"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/brazil/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/sources.md",
+      "byteCount": 2595,
+      "sha256": "6a53a88a67ca1a3f8300d7f02502da835caab6e1441a76ee1411f087d7d29e8c"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/brazil/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/telecoms-and-apps.md",
+      "byteCount": 937,
+      "sha256": "7dd60825573ac4d41571d794005fb376c303d859076521d524ee1c6ca74e4fb1"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/brazil/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/transport-domestic.md",
+      "byteCount": 1413,
+      "sha256": "d14057bd1d3df9ce077ca5168447fc56a6cad627a41c88dd9faf016b86a3092b"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/brazil/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brazil/weather-and-seasonality.md",
+      "byteCount": 1131,
+      "sha256": "febb0fd32d93b78ff4e5fc959b897fc2375d1051e020a100399f31205093b93b"
     }
   ]
 }

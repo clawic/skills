@@ -1,6 +1,6 @@
 # Memory Template — Wedding Planner
 
-Create `~/wedding-planner/memory.md` with this structure:
+Create `~/Clawic/data/wedding-planner/memory.md` with this structure:
 
 ```markdown
 # Wedding Planner Memory

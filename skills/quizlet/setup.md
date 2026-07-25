@@ -1,6 +1,6 @@
 # Setup - Quizlet
 
-Read this when `~/quizlet/` is missing or empty.
+Read this when `~/Clawic/data/quizlet/` is missing or empty.
 
 ## Your Attitude
 
@@ -35,7 +35,7 @@ Capture output preferences that improve usefulness.
 
 ## What to Capture Internally
 
-Keep concise notes in `~/quizlet/memory.md` and refresh after meaningful changes.
+Keep concise notes in `~/Clawic/data/quizlet/memory.md` and refresh after meaningful changes.
 
 - Activation boundaries and do-not-activate contexts.
 - Study goals, deadlines, and confidence level.

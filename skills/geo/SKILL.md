@@ -1,6 +1,13 @@
 ---
-name: "GEO"
-description: "Optimize for AI recommendations so ChatGPT, Claude, and Perplexity suggest your brand first."
+name: geo
+slug: geo
+version: 1.0.0
+description: Optimize for AI recommendations so ChatGPT, Claude, and Perplexity suggest your brand first.
+homepage: https://clawic.com/skills/geo
+metadata:
+  clawdbot:
+    emoji: 🤖
+    displayName: GEO
 ---
 
 ## Triggers

@@ -1,7 +1,18 @@
 ---
-name: Animations
+name: animations
+slug: animations
+version: 1.0.0
 description: Create performant web animations with proper accessibility and timing.
-metadata: {"clawdbot":{"emoji":"✨","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/animations
+metadata:
+  clawdbot:
+    emoji: ✨
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Animations
 ---
 
 ## GPU-Accelerated Properties

@@ -1,10 +1,17 @@
 ---
-name: TestFlight
+name: testflight
 slug: testflight
 version: 1.0.0
-homepage: https://clawic.com/skills/testflight
 description: Distribute iOS and macOS beta builds with TestFlight, tester management, and CI/CD automation.
-metadata: {"clawdbot":{"emoji":"🛫","requires":{"bins":[]},"os":["darwin"]}}
+homepage: https://clawic.com/skills/testflight
+metadata:
+  clawdbot:
+    emoji: 🛫
+    requires:
+      bins: []
+    os:
+    - darwin
+    displayName: TestFlight
 ---
 
 ## When to Use
@@ -108,12 +115,12 @@ xcrun altool --upload-app \
 - Share builds outside Apple's infrastructure
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ios` — iOS development patterns
 - `xcode` — Xcode workflows
 - `flutter` — cross-platform builds
 
 ## Feedback
 
-- If useful: `clawhub star testflight`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/testflight
+- Latest version: https://clawic.com/skills/testflight

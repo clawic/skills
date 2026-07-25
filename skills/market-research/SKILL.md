@@ -1,11 +1,20 @@
 ---
-name: Market Research
+name: market-research
 slug: market-research
 version: 1.0.1
+description: Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use when (1) you need TAM, SAM, SOM, whitespace, or category sizing; (2) you must compare competitors, pricing, positioning, or customer segments before acting; (3) the user asks whether a niche, launch, expansion, or go-to-market bet is actually worth pursuing.
 homepage: https://clawic.com/skills/market-research
-description: "Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use when (1) you need TAM, SAM, SOM, whitespace, or category sizing; (2) you must compare competitors, pricing, positioning, or customer segments before acting; (3) the user asks whether a niche, launch, expansion, or go-to-market bet is actually worth pursuing."
-changelog: "Expanded the guidance and clarified when this skill should activate."
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+changelog: Expanded the guidance and clarified when this skill should activate.
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Market Research
 ---
 
 ## When to Use
@@ -160,7 +169,7 @@ This skill does NOT:
 Live web research is appropriate only when the task requires current market data or the user asks for external evidence.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `pricing` - Convert validation findings into pricing strategy and willingness-to-pay decisions.
 - `seo` - Translate validated demand into search-driven positioning and content opportunities.
 - `business` - Connect market findings to strategic choices and operating tradeoffs.
@@ -169,5 +178,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star market-research`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/market-research
+- Latest version: https://clawic.com/skills/market-research

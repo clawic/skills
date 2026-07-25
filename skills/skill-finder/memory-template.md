@@ -1,6 +1,6 @@
 # Memory Template — Skill Finder
 
-Create `~/skill-finder/memory.md` with this structure:
+Create `~/Clawic/data/skill-finder/memory.md` with this structure:
 
 ```markdown
 # Skill Finder Memory
@@ -16,14 +16,14 @@ integration: proactive
 <!-- Examples: "prefers minimal", "wants well-maintained", "okay with experimental" -->
 
 ## Source Policy
-<!-- Default source mode: both, clawhub, or skills.sh -->
+<!-- Default source mode: both, clawic, or skills.sh -->
 <!-- Example: both -->
 <!-- Install scope for `npx skills add`: ask, project, or global -->
 
 ## Liked
 <!-- Skills user explicitly praised, with their reason -->
 <!-- Format: source:identifier — "what they said they liked" -->
-<!-- Examples: clawhub:skill-manager — "clear and safe" -->
+<!-- Examples: clawic:skill-manager — "clear and safe" -->
 <!--           skills.sh:vercel-labs/agent-skills@frontend-design — "great for UI work" -->
 
 ## Passed
@@ -48,7 +48,7 @@ integration: proactive
 
 ### Source Policy (from explicit statements)
 - "Search both" → `sources: both`
-- "Only use ClawHub" → `sources: clawhub`
+- "Only use Clawic" → `sources: clawic`
 - "Only use Skills.sh" → `sources: skills.sh`
 - "Prefer project installs" → add under `## Source Policy`
 - "Prefer global installs" → add under `## Source Policy`
@@ -75,7 +75,7 @@ integration: proactive
 ## Using Memory
 
 When multiple skills match a search:
-1. **Check source mode** — Search `both`, `clawhub`, or `skills.sh` accordingly
+1. **Check source mode** — Search `both`, `clawic`, or `skills.sh` accordingly
 2. **Check Passed** — exclude similar
 3. **Check Liked** — favor similar qualities
 4. **Apply Preferences** — filter accordingly

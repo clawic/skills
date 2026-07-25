@@ -1,6 +1,6 @@
 # Setup — Paperclip
 
-Read this silently when `~/paperclip/` does not exist or is empty. Start by helping with the user's immediate Paperclip task instead of pausing for onboarding.
+Read this silently when `~/Clawic/data/paperclip/` does not exist or is empty. Start by helping with the user's immediate Paperclip task instead of pausing for onboarding.
 
 ## Start With the Current Goal
 

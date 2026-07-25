@@ -1,6 +1,6 @@
 # Memory Template - OpenTable
 
-Create `~/opentable/memory.md` with this structure:
+Create `~/Clawic/data/opentable/memory.md` with this structure:
 
 ```markdown
 # OpenTable Memory
@@ -54,7 +54,7 @@ planning_window: weekly
 
 ## File Templates
 
-Create `~/opentable/reservation-log.md`:
+Create `~/Clawic/data/opentable/reservation-log.md`:
 
 ```markdown
 # OpenTable Reservation Log
@@ -67,7 +67,7 @@ Create `~/opentable/reservation-log.md`:
 - Keep or rollback:
 ```
 
-Create `~/opentable/incidents.md`:
+Create `~/Clawic/data/opentable/incidents.md`:
 
 ```markdown
 # OpenTable Incidents

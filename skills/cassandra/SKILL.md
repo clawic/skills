@@ -1,7 +1,21 @@
 ---
-name: Cassandra
+name: cassandra
+slug: cassandra
+version: 1.0.0
 description: Design Cassandra tables, write efficient queries, and avoid distributed database pitfalls.
-metadata: {"clawdbot":{"emoji":"👁️","requires":{"anyBins":["cqlsh","nodetool"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cassandra
+metadata:
+  clawdbot:
+    emoji: 👁️
+    requires:
+      anyBins:
+      - cqlsh
+      - nodetool
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Cassandra
 ---
 
 ## Data Modeling Mistakes

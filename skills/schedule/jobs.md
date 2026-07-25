@@ -1,6 +1,6 @@
 # Job Storage Format
 
-Jobs are stored in ~/schedule/jobs.json. Each job captures what the USER requested.
+Jobs are stored in ~/Clawic/data/schedule/jobs.json. Each job captures what the USER requested.
 
 ## Format
 

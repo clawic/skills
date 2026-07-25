@@ -1,14 +1,24 @@
 ---
-name: Meals
+name: meals
+slug: meals
+version: 1.0.0
 description: Build a personal meal planning system with weekly plans, shopping lists, and dietary tracking.
-metadata: {"clawdbot":{"emoji":"🍽️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/meals
+metadata:
+  clawdbot:
+    emoji: 🍽️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Meals
 ---
 
 ## Core Behavior
 - User plans their week → help organize meals
 - Generate shopping lists → from planned meals
 - Track what works → build personal meal database
-- Create `~/meals/` as workspace
+- Create `~/Clawic/data/meals/` as workspace
 
 ## When User Plans Meals
 - Ask about the week: how many dinners, lunches to plan
@@ -26,7 +36,7 @@ Build personal collection over time:
 
 ## Weekly Plan Structure
 ```
-~/meals/
+~/Clawic/data/meals/
 ├── plans/
 │   └── 2024-week-11.md
 ├── meals/

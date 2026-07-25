@@ -1,7 +1,17 @@
 ---
-name: GitLab
+name: gitlab
+slug: gitlab
+version: 1.0.0
 description: Avoid common GitLab CI/CD mistakes — rules gotchas, silent failures, and YAML merge traps.
-metadata: {"clawdbot":{"emoji":"🦊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gitlab
+metadata:
+  clawdbot:
+    emoji: 🦊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: GitLab
 ---
 
 ## Rules Gotchas

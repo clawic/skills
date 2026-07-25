@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b267ef052bde4ae2de7e9bf9c30f173b84e51474a1d6c115ab0a08573fb3ad1d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hebrew",
-    "name": "Hebrew",
+    "name": "hebrew",
     "description": "Write Hebrew that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hebrew",
     "summary": "The Real Problem AI Hebrew is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with slang and shortcuts. Match that. Formality Default Default register is too high. Israeli Hebre",
     "repositoryPath": "skills/hebrew",
     "manifestPath": "registry/skills/hebrew.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hebrew/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hebrew/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hebrew/_meta.json",
+      "byteCount": 164,
+      "sha256": "6a1d8f8a81b659fbaca19c7a4e13572b8ace6fc70193b440c252efdcc05e51a4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hebrew/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hebrew/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hebrew/SKILL.md",
+      "byteCount": 2375,
+      "sha256": "270b0a147032654a5e8baed54ca49e8213c67a499aa60603323990ee06fd942d"
     }
   ]
 }

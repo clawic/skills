@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bdb2ec0e3acbc5dbae5eed4e6528d9eb7056ae8589cd6e743096b5a6b06864c1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "dynamodb",
-    "name": "DynamoDB",
+    "name": "dynamodb",
     "description": "Design DynamoDB tables and write efficient queries avoiding common NoSQL pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dynamodb",
     "summary": "Key Design - Partition key determines data distribution—high-cardinality keys spread load evenly - Hot partition = one key gets all traffic—use composite keys or add random suffix - Sort key enables range queries within ",
     "repositoryPath": "skills/dynamodb",
     "manifestPath": "registry/skills/dynamodb.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dynamodb/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dynamodb/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dynamodb/_meta.json",
+      "byteCount": 168,
+      "sha256": "ac201b48faa3560e0ed9b7c003d4644de10672d5478097f3fbc210d1fcdb3136"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dynamodb/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dynamodb/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dynamodb/SKILL.md",
+      "byteCount": 4028,
+      "sha256": "549b4994a2158b177cad0829e114f70f56f11c0c42c11851b211dd4c82ed8372"
     }
   ]
 }

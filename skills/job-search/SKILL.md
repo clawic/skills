@@ -1,10 +1,20 @@
 ---
-name: Job Search
+name: job-search
 slug: job-search
 version: 1.0.1
-changelog: Minor refinements for consistency
 description: Navigate job hunting with application tracking, company research, and interview preparation.
-metadata: {"clawdbot":{"emoji":"💼","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/job-search
+changelog: Minor refinements for consistency
+metadata:
+  clawdbot:
+    emoji: 💼
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Job Search
 ---
 
 ## When to Use
@@ -13,10 +23,10 @@ User is job hunting — searching for positions, applying to companies, or prepa
 
 ## Architecture
 
-Memory lives in `~/job-search/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/job-search/`. See `memory-template.md` for setup.
 
 ```
-~/job-search/
+~/Clawic/data/job-search/
 ├── memory.md          # HOT: preferences, target criteria
 ├── applications.md    # Active pipeline
 ├── companies.md       # Research on target companies
@@ -61,7 +71,7 @@ Before recommending remote positions, check:
 - Recruiters detect AI-written content — personalization matters
 
 ### 5. Track Application State
-Maintain in ~/job-search/applications.md:
+Maintain in ~/Clawic/data/job-search/applications.md:
 - Company, role, date applied
 - Current status, next action
 - Contacts, interview dates

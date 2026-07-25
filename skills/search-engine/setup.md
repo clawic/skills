@@ -1,6 +1,6 @@
 # Setup — Search Engine
 
-Read this when `~/search-engine/` does not exist or is empty. Start by aligning on outcomes and boundaries, then move directly into useful implementation guidance.
+Read this when `~/Clawic/data/search-engine/` does not exist or is empty. Start by aligning on outcomes and boundaries, then move directly into useful implementation guidance.
 
 ## Your Attitude
 

@@ -1,6 +1,13 @@
 ---
-name: Persian
+name: persian
+slug: persian
+version: 1.0.0
 description: Write Persian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/persian
+metadata:
+  clawdbot:
+    emoji: 🇮🇷
+    displayName: Persian
 ---
 
 ## The Real Problem

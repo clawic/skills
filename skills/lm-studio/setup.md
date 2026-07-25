@@ -1,6 +1,6 @@
 # Setup — LM Studio
 
-Read this when `~/lm-studio/` does not exist or is empty. Help quickly and stay local-first unless the user clearly wants a remote path.
+Read this when `~/Clawic/data/lm-studio/` does not exist or is empty. Help quickly and stay local-first unless the user clearly wants a remote path.
 
 ## Operating Attitude
 
@@ -40,7 +40,7 @@ Store only reusable operating defaults.
 
 ## What to Capture Internally
 
-Keep compact notes in `~/lm-studio/memory.md`.
+Keep compact notes in `~/Clawic/data/lm-studio/memory.md`.
 
 - Activation boundaries and proactive behavior preferences.
 - Verified port, server mode, and smoke-test method.

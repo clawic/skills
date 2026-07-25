@@ -1,10 +1,20 @@
 ---
-name: SciPy
+name: scipy
 slug: scipy
 version: 1.0.0
-homepage: https://clawic.com/skills/scipy
 description: Solve optimization, statistics, signal processing, and linear algebra problems with SciPy recipes and ready-to-run code.
-metadata: {"clawdbot":{"emoji":"🔬","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/scipy
+metadata:
+  clawdbot:
+    emoji: 🔬
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: SciPy
 ---
 
 ## Setup
@@ -364,12 +374,12 @@ print(f"Eigenvectors:\n{eigenvectors}")
 - Access network resources
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `math` — mathematical concepts
 - `data-analysis` — data exploration
 - `data` — data handling patterns
 
 ## Feedback
 
-- If useful: `clawhub star scipy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/scipy
+- Latest version: https://clawic.com/skills/scipy

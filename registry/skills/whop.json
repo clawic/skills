@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c7e3d1b03405dfc6ab8d1efda5512c2888980a85b3a959490c0846f288ca811e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "whop",
-    "name": "Whop",
+    "name": "whop",
     "description": "Run and grow a Whop business with better offers, checkout flows, promo strategy, affiliates, ads, tracking, analytics, support operations, and advanced API workflows when needed",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/whop",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/whop/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/_meta.json",
+      "byteCount": 160,
+      "sha256": "01c2f8ece850b81c86d71e9d8b5c661b3df7bb406682d58fc4b3ed6bd4a83da4"
     },
     {
       "path": "api-workflows.md",
       "downloadPath": "skills/whop/api-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/api-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/api-workflows.md",
+      "byteCount": 5830,
+      "sha256": "ce30c3b0212d0c2700465557dee076f8088698d3a581641bb7b7db244ec308ae"
     },
     {
       "path": "auth-permissions.md",
       "downloadPath": "skills/whop/auth-permissions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/auth-permissions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/auth-permissions.md",
+      "byteCount": 3893,
+      "sha256": "290c93ccad27d99b653218bcd23ef116f7e9a508ae3ff0e4863105579a3f14a5"
     },
     {
       "path": "growth-and-marketing.md",
       "downloadPath": "skills/whop/growth-and-marketing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/growth-and-marketing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/growth-and-marketing.md",
+      "byteCount": 3327,
+      "sha256": "ddfde36d4d8c49a227309f19808fc378e4242c9d44c0813aa16919299aa98896"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/whop/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/memory-template.md",
+      "byteCount": 2195,
+      "sha256": "edb3c06ff30f057748a0e946758763f8158dc025db54bd482e07e764c1fbe5e3"
     },
     {
       "path": "offers-and-checkouts.md",
       "downloadPath": "skills/whop/offers-and-checkouts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/offers-and-checkouts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/offers-and-checkouts.md",
+      "byteCount": 2974,
+      "sha256": "47395f2e4f33a0be628e10045c5323bc8aad85c363d6b0cc018ba25cf5385f7a"
     },
     {
       "path": "operations-and-retention.md",
       "downloadPath": "skills/whop/operations-and-retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/operations-and-retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/operations-and-retention.md",
+      "byteCount": 2094,
+      "sha256": "18497632021748139c7a2f0a5fd107a11084d9d9c57161a35393b2eca467820f"
     },
     {
       "path": "proxy-and-local-dev.md",
       "downloadPath": "skills/whop/proxy-and-local-dev.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/proxy-and-local-dev.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/proxy-and-local-dev.md",
+      "byteCount": 2507,
+      "sha256": "cc95afdacda2d6784f0d9ec16cad20219b495458306b8d1219dc8c59bd527401"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/whop/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/setup.md",
+      "byteCount": 2823,
+      "sha256": "8e5c58a6be1d61cba0df31756d8f05c274777f87b32d5649f758f3e09cb54b96"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/whop/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/SKILL.md",
+      "byteCount": 10086,
+      "sha256": "0ad9926781d548aa2e3c4c88ab3c1fb492dd0a643b6e836e9f6391dc52ff74a2"
     },
     {
       "path": "webhooks-and-sandbox.md",
       "downloadPath": "skills/whop/webhooks-and-sandbox.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/webhooks-and-sandbox.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/whop/webhooks-and-sandbox.md",
+      "byteCount": 2960,
+      "sha256": "e2ce6fd66a9c7b368519058f6de42d73cc434bf6356b52d5e1150b01637b0710"
     }
   ]
 }

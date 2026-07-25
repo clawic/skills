@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "46ec9d5220494fbd73220bad629a765826c2bd83f9bd68f04b4aeb8981f365fc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "payments",
-    "name": "Payments",
+    "name": "payments",
     "description": "Integrate payments with provider selection, checkout flows, subscription billing, and security best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/payments",
     "summary": "Situation Detection | Context | Load | |---------|------| | Choosing Stripe vs Paddle vs LemonSqueezy | `providers.md` | | Implementing checkout, webhooks, refunds | `integration.md` | | Subscription billing, trials, upg",
     "repositoryPath": "skills/payments",
     "manifestPath": "registry/skills/payments.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/payments/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/_meta.json",
+      "byteCount": 168,
+      "sha256": "55be19b535606979257e444e39262eaf1bb59c875f3247aa5a8658a7911cf3ed"
     },
     {
       "path": "integration.md",
       "downloadPath": "skills/payments/integration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/integration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/integration.md",
+      "byteCount": 3583,
+      "sha256": "ba2eec6da6e0b9ddf8f95f5ca7ffc6a21331d61ee9065895d1d2f01da4ce1f18"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/payments/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/providers.md",
+      "byteCount": 2847,
+      "sha256": "ff2c64bf946a2a05200dcf711165523e12ad92968feea4f6be37c3296eb4244a"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/payments/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/security.md",
+      "byteCount": 4371,
+      "sha256": "3f98a7f847a9ea28d6697371aacadba7b41cc20f0f7a07cdf3021dc3b346a83b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/payments/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/SKILL.md",
+      "byteCount": 2684,
+      "sha256": "0b4892135fc471785b2744ce9ba3d5e911aa1480fc19d808e5e83fcd0e38c40b"
     },
     {
       "path": "subscriptions.md",
       "downloadPath": "skills/payments/subscriptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/subscriptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/payments/subscriptions.md",
+      "byteCount": 3837,
+      "sha256": "04684920df72bfbbb3b4e3daf7ae3733e18069c7d89fb73c7eb872ae9c9fef11"
     }
   ]
 }

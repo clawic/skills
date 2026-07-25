@@ -1,7 +1,17 @@
 ---
-name: Science
+name: science
+slug: science
+version: 1.0.0
 description: Guide scientific understanding from childhood wonder to research precision.
-metadata: {"clawdbot":{"emoji":"🔬","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/science
+metadata:
+  clawdbot:
+    emoji: 🔬
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Science
 ---
 
 ## Detect Level, Adapt Everything

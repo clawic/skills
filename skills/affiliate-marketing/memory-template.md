@@ -1,6 +1,6 @@
 # Memory Template — Affiliate Marketing
 
-Create `~/affiliate-marketing/memory.md` only if the user wants continuity across sessions.
+Create `~/Clawic/data/affiliate-marketing/memory.md` only if the user wants continuity across sessions.
 
 ```markdown
 # Affiliate Marketing Memory
@@ -44,9 +44,9 @@ integration: pending
 
 If the user wants deeper continuity, create:
 
-- `~/affiliate-marketing/partners.md` — partner pipeline, status, offers, next steps
-- `~/affiliate-marketing/economics.md` — commission ceilings, margin scenarios, payout notes
-- `~/affiliate-marketing/incidents.md` — fraud flags, trademark issues, attribution disputes
+- `~/Clawic/data/affiliate-marketing/partners.md` — partner pipeline, status, offers, next steps
+- `~/Clawic/data/affiliate-marketing/economics.md` — commission ceilings, margin scenarios, payout notes
+- `~/Clawic/data/affiliate-marketing/incidents.md` — fraud flags, trademark issues, attribution disputes
 
 ## Key Principles
 

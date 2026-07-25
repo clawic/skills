@@ -1,6 +1,6 @@
 # Setup - iCloud
 
-Read this on first activation when `~/icloud/` is missing or incomplete.
+Read this on first activation when `~/Clawic/data/icloud/` is missing or incomplete.
 
 ## Operating Attitude
 
@@ -16,9 +16,9 @@ Read this on first activation when `~/icloud/` is missing or incomplete.
 
 ```bash
 mkdir -p ~/icloud
-touch ~/icloud/{memory.md,operations-log.md,device-map.md,drive-map.md,safety-events.md}
+touch ~/Clawic/data/icloud/{memory.md,operations-log.md,device-map.md,drive-map.md,safety-events.md}
 chmod 700 ~/icloud
-chmod 600 ~/icloud/{memory.md,operations-log.md,device-map.md,drive-map.md,safety-events.md}
+chmod 600 ~/Clawic/data/icloud/{memory.md,operations-log.md,device-map.md,drive-map.md,safety-events.md}
 ```
 
 4. If `memory.md` is empty, initialize from `memory-template.md`.
@@ -61,5 +61,5 @@ Capture and persist only these confirmed preferences:
 ## Session-Only Mode
 
 If the user declines persistence:
-- Do not create or update files under `~/icloud/`.
+- Do not create or update files under `~/Clawic/data/icloud/`.
 - Keep all context in current session output only.

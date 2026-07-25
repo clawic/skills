@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cf793e4ab39e96c62465c5f400739bec69d9e3b363b5564f9c7b58eccbaa26db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "mercado-libre",
-    "name": "Mercado Libre",
+    "name": "mercado-libre",
     "description": "Use Mercado Libre to search, compare, buy, sell, and automate decisions with pricing, safety, and dispute workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/mercado-libre",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mercado-libre/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/_meta.json",
+      "byteCount": 178,
+      "sha256": "e2dd9fe7c73636af80a82e23678377acd53252fde9dedd6de65cb2d10835f8f4"
     },
     {
       "path": "automation.md",
       "downloadPath": "skills/mercado-libre/automation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/automation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/automation.md",
+      "byteCount": 1124,
+      "sha256": "ea085e49c4178659c9feead4e7b629a38c9219de8d73b6f0c99e8f8628150629"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/mercado-libre/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/buying.md",
+      "byteCount": 1225,
+      "sha256": "09775679147b1ad052918a77da85cfae0f59e9da4d39207aee914cc74c477b5e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/mercado-libre/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/memory-template.md",
+      "byteCount": 1710,
+      "sha256": "498547b76cac43e896a804bf1272ff2e814f09b34d7f04874b6550ae57fbc8ba"
     },
     {
       "path": "pricing-deals.md",
       "downloadPath": "skills/mercado-libre/pricing-deals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/pricing-deals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/pricing-deals.md",
+      "byteCount": 1160,
+      "sha256": "9282c35241aef9cca9074342b05780d1da5a7588f2b6bbe810a434ee0418b287"
     },
     {
       "path": "search-compare.md",
       "downloadPath": "skills/mercado-libre/search-compare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/search-compare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/search-compare.md",
+      "byteCount": 1325,
+      "sha256": "ea85c164bd2cdbb775a9fce48bc9dd94b186a87c49c14eab6593368521a09663"
     },
     {
       "path": "security-disputes.md",
       "downloadPath": "skills/mercado-libre/security-disputes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/security-disputes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/security-disputes.md",
+      "byteCount": 1176,
+      "sha256": "bb3bca4dd05406ea7ed974bf363d55ee256eda9e20d71bf7c975d62835ef7ab6"
     },
     {
       "path": "selling.md",
       "downloadPath": "skills/mercado-libre/selling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/selling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/selling.md",
+      "byteCount": 1128,
+      "sha256": "33c722958793b3bf3a1e647f809079b1d3fccac6241e6e8bcd2d36971c5eae44"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/mercado-libre/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/setup.md",
+      "byteCount": 1743,
+      "sha256": "9b685a793dfc9ea42ce9895cafb41c6bf3029c73b0bab6b46c2abaf17c446495"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mercado-libre/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mercado-libre/SKILL.md",
+      "byteCount": 8564,
+      "sha256": "0f0adb02d9307431959280a28a99805b1288b65abe78028d34f2dbcce4e096c8"
     }
   ]
 }

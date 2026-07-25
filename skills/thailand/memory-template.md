@@ -1,6 +1,6 @@
 # Memory Template - Thailand
 
-Create `~/thailand/memory.md` with this structure:
+Create `~/Clawic/data/thailand/memory.md` with this structure:
 
 ```markdown
 # Thailand Memory

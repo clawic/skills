@@ -2,7 +2,7 @@
 
 ## When to Create a Country File
 
-Create `~/expat/countries/{country}.md` when:
+Create `~/Clawic/data/expat/countries/{country}.md` when:
 - User is seriously considering a destination
 - They ask about specific requirements
 - Comparing multiple options

@@ -1,18 +1,28 @@
 ---
-name: Quotes
+name: quotes
+slug: quotes
+version: 1.0.0
 description: Build a personal quotes system for saving, discovering, and automatically surfacing meaningful words.
-metadata: {"clawdbot":{"emoji":"💬","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/quotes
+metadata:
+  clawdbot:
+    emoji: 💬
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Quotes
 ---
 
 ## Core Behavior
 - User shares quote → save with context and tags
 - User needs inspiration → surface relevant quote
 - Automatically send quotes based on schedule/criteria
-- Create `~/quotes/` as workspace
+- Create `~/Clawic/data/quotes/` as workspace
 
 ## File Structure
 ```
-~/quotes/
+~/Clawic/data/quotes/
 ├── collection/
 │   ├── by-author/
 │   ├── by-topic/

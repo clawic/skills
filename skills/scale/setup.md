@@ -1,6 +1,6 @@
 # Setup - Scale Frameworks
 
-Read this when `~/scale/` is missing or empty. Start helping immediately while collecting only context that changes scaling decisions.
+Read this when `~/Clawic/data/scale/` is missing or empty. Start helping immediately while collecting only context that changes scaling decisions.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ In the first exchanges, confirm when this skill should activate:
 - Only when the user asks directly for scaling help
 - Only for specific domains (systems, architecture, org, go-to-market)
 
-If confirmed, store activation preference in `~/scale/memory.md` only.
+If confirmed, store activation preference in `~/Clawic/data/scale/memory.md` only.
 
 ### 2. Then: Current Scaling Reality
 
@@ -40,7 +40,7 @@ Store stable patterns, not one-off preferences.
 
 ## What You Save Internally
 
-Persist only reusable scaling intelligence in `~/scale/memory.md`:
+Persist only reusable scaling intelligence in `~/Clawic/data/scale/memory.md`:
 - Integration preference
 - Bottleneck patterns by domain
 - Interventions that worked and why

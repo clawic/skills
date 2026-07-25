@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9a9795f36ad57c13decab143ceb0854de3164fa5fe00cf306f135c41871c581b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "compare",
-    "name": "Compare",
+    "name": "compare",
     "description": "Rigorous comparisons with confidence parity, weighted criteria, and research depth tracking.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/compare",
     "summary": "Core Principle Comparisons fail when confidence is uneven. Only as reliable as the weakest-researched dimension. Protocol ``` Criteria → Research Parity → Confidence Check → Score → Present ``` 1. Criteria - Load domain ",
     "repositoryPath": "skills/compare",
     "manifestPath": "registry/skills/compare.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/compare/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/_meta.json",
+      "byteCount": 166,
+      "sha256": "be98854c3cd1e92c69553f73ac49a5523a6304d47e2bbf74a678ba5055351457"
     },
     {
       "path": "confidence.md",
       "downloadPath": "skills/compare/confidence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/confidence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/confidence.md",
+      "byteCount": 990,
+      "sha256": "2e36114a5d818867c552b7c4753c044838890c5ea4447247ebfcf8768418f4f8"
     },
     {
       "path": "domains.md",
       "downloadPath": "skills/compare/domains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/domains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/domains.md",
+      "byteCount": 3219,
+      "sha256": "554e94ba2e7ff7742d945f92b0a2154171e22096d267665ea8e526b66f93b412"
     },
     {
       "path": "preferences.md",
       "downloadPath": "skills/compare/preferences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/preferences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/preferences.md",
+      "byteCount": 617,
+      "sha256": "e56630e329bfb998df8c65e28c71f5a6f9fb8ba986f29c86dbc47c2b0193b81c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/compare/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/SKILL.md",
+      "byteCount": 1685,
+      "sha256": "8ad05042203b31f545769b8469b47402298ff0e10726f751e05607865e5af023"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/compare/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/compare/traps.md",
+      "byteCount": 1139,
+      "sha256": "ec531cc7b0b47c857284d7c1959e50882957344aa47918897cd7286c566c655c"
     }
   ]
 }

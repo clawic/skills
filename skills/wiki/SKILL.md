@@ -1,11 +1,19 @@
 ---
-name: Wiki
-description: "Build wikis people actually read — structure pages, cross-link, and keep content fresh."
-emoji: 📚
-os: all
-tags: [documentation, knowledge-base, content-management]
-author: ClawHub
-version: 1.0
+name: wiki
+slug: wiki
+version: 1.0.0
+description: Build wikis people actually read — structure pages, cross-link, and keep content fresh.
+homepage: https://clawic.com/skills/wiki
+metadata:
+  clawdbot:
+    displayName: Wiki
+    emoji: "📚"
+  os: all
+  tags:
+  - documentation
+  - knowledge-base
+  - content-management
+  author: Clawic
 ---
 
 # Wiki Creation and Maintenance

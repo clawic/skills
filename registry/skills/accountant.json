@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "03f4705923c58064fbd05e3b8b27c564178bbf517b7fa4b78278d042885adfd9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "accountant",
-    "name": "Accountant",
+    "name": "accountant",
     "description": "Manage bookkeeping, financial statements, and tax planning with sound accounting practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/accountant",
     "summary": "Accounting Rules Important Boundaries - This is financial information, not professional advice — recommend CPA for complex tax situations - Tax laws vary by jurisdiction and change frequently — verify current rules - Aud",
     "repositoryPath": "skills/accountant",
     "manifestPath": "registry/skills/accountant.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/accountant/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/_meta.json",
+      "byteCount": 172,
+      "sha256": "260addc000abf75e3e8c17abc6db6cd23d3095d5f4ed4170a411112b0824ecb1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/accountant/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/SKILL.md",
+      "byteCount": 4419,
+      "sha256": "10b174876427eed1ac528d9a3b094972709f3719ba8a8c67d76243c91984cae3"
     }
   ]
 }

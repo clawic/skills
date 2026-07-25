@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "48c8ddd196636957db4953ca3e439beb64a0c856b5e611c08d45fa37d8c15cf9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "chatgpt",
-    "name": "ChatGPT",
+    "name": "chatgpt",
     "description": "Run ChatGPT with stronger prompts, Projects, GPTs, memory boundaries, and output QA for research, writing, analysis, and planning.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/chatgpt",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chatgpt/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/_meta.json",
+      "byteCount": 166,
+      "sha256": "afb4e348c204063bf7102f6abdc2ccb417ea3655773b02dfc46a07bf8c99bf36"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/chatgpt/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/memory-template.md",
+      "byteCount": 1791,
+      "sha256": "c5625bcc0ad5a17af5484297b24740dd6c836407c792d2fc82db0938e60f61d7"
     },
     {
       "path": "output-qa.md",
       "downloadPath": "skills/chatgpt/output-qa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/output-qa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/output-qa.md",
+      "byteCount": 1647,
+      "sha256": "92893631dd99b09cfa9364fd4a147d7ae4b498c0d19d6f2240c1686ad49df221"
     },
     {
       "path": "project-playbook.md",
       "downloadPath": "skills/chatgpt/project-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/project-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/project-playbook.md",
+      "byteCount": 1453,
+      "sha256": "d61a3e2b691bc93a748ff41fa7c5af6fb7385f60875bab7e8fe36b1509d626f3"
     },
     {
       "path": "prompt-packets.md",
       "downloadPath": "skills/chatgpt/prompt-packets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/prompt-packets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/prompt-packets.md",
+      "byteCount": 2196,
+      "sha256": "3bb9a107046bff7200a8353993e6953464ed8e8ed5248819730e541d7fc0a226"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/chatgpt/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/setup.md",
+      "byteCount": 2471,
+      "sha256": "846569fd54d537310907019946857b9088479e2ce5a9e819fb9245057e824def"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chatgpt/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/SKILL.md",
+      "byteCount": 7276,
+      "sha256": "9c23af10c4a921789ade375248d0a7ec509149fd125eef3a7f9044bed2032306"
     },
     {
       "path": "surfaces.md",
       "downloadPath": "skills/chatgpt/surfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/surfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/surfaces.md",
+      "byteCount": 2207,
+      "sha256": "f149684af6410349f4ef658e4b4a6b30b3b0672e95787badd9bae047d1c6fa6f"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/chatgpt/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chatgpt/troubleshooting.md",
+      "byteCount": 1686,
+      "sha256": "1f87686200e206ba11d521ef961f0f73137e932516114d4f36dab2c16c28072f"
     }
   ]
 }

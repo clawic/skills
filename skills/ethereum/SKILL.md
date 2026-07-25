@@ -1,7 +1,17 @@
 ---
-name: Ethereum
+name: ethereum
+slug: ethereum
+version: 1.0.0
 description: Assist with Ethereum transactions, gas optimization, token approvals, and L2 bridges.
-metadata: {"clawdbot":{"emoji":"⟠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ethereum
+metadata:
+  clawdbot:
+    emoji: ⟠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ethereum
 ---
 
 ## Nonce and Stuck Transactions

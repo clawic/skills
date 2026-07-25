@@ -1,6 +1,13 @@
 ---
-name: Movie
+name: movie
+slug: movie
+version: 1.0.0
 description: Create films with AI video generation by managing scripts, prompts, consistency, and production workflows from concept to final cut.
+homepage: https://clawic.com/skills/movie
+metadata:
+  clawdbot:
+    emoji: 🎬
+    displayName: Movie
 ---
 
 ## Core Workflow

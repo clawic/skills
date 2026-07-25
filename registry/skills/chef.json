@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3372ae36301f8bc94839d54c16de52ec365242b3c5e3a2be316239def693847b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "chef",
-    "name": "Chef",
+    "name": "chef",
     "description": "Help users cook with recipes, technique explanations, and ingredient substitutions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/chef",
     "summary": "Culinary Assistance Rules Recipe Guidance - Ask about dietary restrictions and allergies before suggesting recipes — safety first - Clarify serving size needed — recipe for 2 differs from recipe for 8 - Offer difficulty-",
     "repositoryPath": "skills/chef",
     "manifestPath": "registry/skills/chef.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chef/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chef/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chef/_meta.json",
+      "byteCount": 160,
+      "sha256": "7d788f7c645dcf6a01c8ff969005ac9a5d4945e477dc1230fa9dfe6143b3089c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chef/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chef/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chef/SKILL.md",
+      "byteCount": 3858,
+      "sha256": "18e7b82e60df8dc4e56bad724d53f21256dc2bd595d875962f33b4c1e9513c11"
     }
   ]
 }

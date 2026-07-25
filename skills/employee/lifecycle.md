@@ -6,8 +6,8 @@
 
 **Actions:**
 ```bash
-mkdir -p ~/employee/employees/{name}/memory
-mkdir -p ~/employee/employees/{name}/logs
+mkdir -p ~/Clawic/data/employee/employees/{name}/memory
+mkdir -p ~/Clawic/data/employee/employees/{name}/logs
 # Create employee.json with role config
 # Update registry.json
 # Initialize memory/context.md
@@ -22,7 +22,7 @@ mkdir -p ~/employee/employees/{name}/logs
 **Example:**
 ```
 User: "Hire Luna as a research assistant"
-→ Creates ~/employee/employees/luna/
+→ Creates ~/Clawic/data/employee/employees/luna/
 → Links to researcher skill
 → Sets autonomy: shadow
 → Updates registry.json
@@ -108,7 +108,7 @@ User: "Train Luna on our company style guide"
 
 **Actions:**
 - Set status: "retired"
-- Archive folder (optional: move to ~/employee/archive/)
+- Archive folder (optional: move to ~/Clawic/data/employee/archive/)
 - Update registry.json
 - Employee no longer receives tasks
 

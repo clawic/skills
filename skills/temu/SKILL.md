@@ -1,9 +1,19 @@
 ---
-name: Temu
+name: temu
 slug: temu
 version: 1.0.0
 description: Shop smarter on Temu with price tracking, review analysis, scam detection, and shipping optimization.
-metadata: {"clawdbot":{"emoji":"🛍️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/temu
+metadata:
+  clawdbot:
+    emoji: 🛍️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Temu
 ---
 
 ## When to Use

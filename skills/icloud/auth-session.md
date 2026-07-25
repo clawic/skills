@@ -56,5 +56,5 @@ PY
 ## Hard Boundaries
 
 - Never request user password or 2FA code in chat.
-- Never persist credential material in `~/icloud/` files.
+- Never persist credential material in `~/Clawic/data/icloud/` files.
 - Stop write operations immediately when session health is uncertain.

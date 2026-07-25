@@ -4,7 +4,7 @@ This skill typically doesn't need persistent memory. Test configuration lives in
 
 ## Project-Level Memory (Optional)
 
-If tracking Cypress patterns across multiple projects, create `~/cypress/memory.md`:
+If tracking Cypress patterns across multiple projects, create `~/Clawic/data/cypress/memory.md`:
 
 ```markdown
 # Cypress Memory

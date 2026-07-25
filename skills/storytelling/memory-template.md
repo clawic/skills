@@ -1,6 +1,6 @@
 # Memory Template - Storytelling
 
-Create `~/storytelling/memory.md` with this structure:
+Create `~/Clawic/data/storytelling/memory.md` with this structure:
 
 ```markdown
 # Storytelling Memory

@@ -1,7 +1,21 @@
 ---
-name: React Native
+name: react-native
+slug: react-native
+version: 1.0.0
 description: Build performant cross-platform mobile apps with React Native components, navigation, and native modules.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"anyBins":["npx","expo"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/react-native
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      anyBins:
+      - npx
+      - expo
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: React Native
 ---
 
 # React Native Development Rules

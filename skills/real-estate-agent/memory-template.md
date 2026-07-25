@@ -2,7 +2,7 @@
 
 ## Main Memory File
 
-Create `~/real-estate-agent/memory.md`:
+Create `~/Clawic/data/real-estate-agent/memory.md`:
 
 ```markdown
 # Real Estate Agent — Client Profile
@@ -70,7 +70,7 @@ portals_used:
 
 ## Property File Template
 
-Create `~/real-estate-agent/properties/[address-or-id].md`:
+Create `~/Clawic/data/real-estate-agent/properties/[address-or-id].md`:
 
 ```markdown
 # [Address or Property ID]
@@ -113,7 +113,7 @@ opportunities:
 
 ## Search Criteria Template
 
-Create `~/real-estate-agent/searches/[search-name].md`:
+Create `~/Clawic/data/real-estate-agent/searches/[search-name].md`:
 
 ```markdown
 # [Search Name] — Search Criteria
@@ -144,7 +144,7 @@ last_checked: YYYY-MM-DD
 
 ## Alerts Queue Template
 
-Create `~/real-estate-agent/alerts/pending.md`:
+Create `~/Clawic/data/real-estate-agent/alerts/pending.md`:
 
 ```markdown
 # Pending Alerts

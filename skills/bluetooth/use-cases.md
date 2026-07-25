@@ -5,7 +5,7 @@
 ### Switching Between Devices
 User: "Switch to my headphones"
 ```
-1. Check ~/bluetooth/profiles/ for device with type: audio/headphones
+1. Check ~/Clawic/data/bluetooth/profiles/ for device with type: audio/headphones
 2. If current audio device connected → disconnect gracefully
 3. Connect to headphones using saved connection method
 4. Verify audio routing changed (play test sound if uncertain)

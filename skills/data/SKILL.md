@@ -1,10 +1,20 @@
 ---
-name: Data
+name: data
 slug: data
 version: 1.0.1
-changelog: Minor refinements for consistency
 description: Work with data across the full lifecycle from extraction and cleaning to analysis, visualization, and reporting.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/data
+changelog: Minor refinements for consistency
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Data
 ---
 
 ## When to Use

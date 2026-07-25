@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11f3c8d7a266f557415fbdfae851265709b41319083f85abf6a07dc2ffdd5d49",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "udemy",
-    "name": "Udemy",
+    "name": "udemy",
     "description": "Create, publish, and monetize Udemy courses with curriculum design, AI-assisted content creation, and platform compliance.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/udemy",
     "summary": "Quick Reference | Area | What the Agent Does | |------|---------------------| | Planning | Niche research, competitor analysis, curriculum design | | Production | Scripts, slides, quizzes, supplementary materials | | Pub",
     "repositoryPath": "skills/udemy",
     "manifestPath": "registry/skills/udemy.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/udemy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/_meta.json",
+      "byteCount": 162,
+      "sha256": "e3db1daf758f75db4c3481e8d57b49adc3b0ceb94aca89e07e3febf3c575ac81"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/udemy/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/legal.md",
+      "byteCount": 2473,
+      "sha256": "953d6b4cc26fa5f2227ba391eeab4c67317ab58f42739d45a3e5edc3de61f62c"
     },
     {
       "path": "management.md",
       "downloadPath": "skills/udemy/management.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/management.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/management.md",
+      "byteCount": 3019,
+      "sha256": "880984b283da5f9f46c1506be32bd7689e94075c435db80a54afe353163c6f90"
     },
     {
       "path": "marketing.md",
       "downloadPath": "skills/udemy/marketing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/marketing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/marketing.md",
+      "byteCount": 2601,
+      "sha256": "373773333c8be9f0ca96ba5ebcdb7e6b4d1fcf8f4757bec118ddc86019ebdb2a"
     },
     {
       "path": "planning.md",
       "downloadPath": "skills/udemy/planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/planning.md",
+      "byteCount": 2669,
+      "sha256": "a9ff6e24c1f838c095a9b4c960c0b6390fa36083391d2019b4c9c46d81e380e5"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/udemy/production.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/production.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/production.md",
+      "byteCount": 2628,
+      "sha256": "7d1f8c8945ed85941cc9a5432d3b9df6d16620fe9ba961def37b2bad75a037e0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/udemy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/SKILL.md",
+      "byteCount": 2398,
+      "sha256": "536fcab42b15913e87d4fc985a316acb5f4f54dd41d9d2a9ff926604ed14c2b9"
     },
     {
       "path": "workspace.md",
       "downloadPath": "skills/udemy/workspace.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/workspace.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udemy/workspace.md",
+      "byteCount": 3346,
+      "sha256": "f8cda57121687504c0b5815b3e950790f3bdb40ccb121122f9ab607182f2f04e"
     }
   ]
 }

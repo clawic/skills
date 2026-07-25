@@ -1,6 +1,6 @@
 # Setup - Dominican Republic Travel Guide
 
-Create `~/dominican-republic/` on first use and initialize `~/dominican-republic/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/dominican-republic/` on first use and initialize `~/Clawic/data/dominican-republic/memory.md` from `memory-template.md`.
 
 ## First Contact
 
@@ -24,7 +24,7 @@ Keep durable facts in memory:
 
 ## Returning Users
 
-Read `~/dominican-republic/memory.md`, reuse what is still valid, and ask only what changed:
+Read `~/Clawic/data/dominican-republic/memory.md`, reuse what is still valid, and ask only what changed:
 - Dates
 - Base choice
 - Bookings already fixed

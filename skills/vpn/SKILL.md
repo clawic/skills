@@ -1,7 +1,17 @@
 ---
-name: VPN
+name: vpn
+slug: vpn
+version: 1.0.0
 description: Configure and troubleshoot VPN connections for privacy and remote access.
-metadata: {"clawdbot":{"emoji":"🔒","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vpn
+metadata:
+  clawdbot:
+    emoji: 🔒
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: VPN
 ---
 
 ## Privacy Misconceptions

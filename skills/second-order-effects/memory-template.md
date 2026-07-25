@@ -1,6 +1,6 @@
 # Memory Template - Second-Order Thinking
 
-Create `~/second-order-effects/memory.md` with this structure:
+Create `~/Clawic/data/second-order-effects/memory.md` with this structure:
 
 ```markdown
 # Second-Order Thinking Memory
@@ -66,7 +66,7 @@ last_interaction: YYYY-MM-DD
 ## Directory Structure
 
 ```
-~/second-order-effects/
+~/Clawic/data/second-order-effects/
 ├── memory.md           # This file
 ├── patterns.md         # Learned consequence patterns
 └── decisions/          # Individual analyses

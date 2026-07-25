@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "74ba7fcacbcd18ff6643e9430ee4b2afb6a970cb0de449b263a2d7b438eaabd5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "arbitrum",
-    "name": "Arbitrum",
+    "name": "arbitrum",
     "description": "Assist with Arbitrum One transactions, bridging, gas optimization, and L2 ecosystem navigation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/arbitrum",
     "summary": "Network Basics - Arbitrum One is an optimistic rollup — L2 scaling for Ethereum - EVM equivalent — same tools, wallets, contracts as Ethereum - ETH is the gas token — not a separate token - ARB is governance token — not ",
     "repositoryPath": "skills/arbitrum",
     "manifestPath": "registry/skills/arbitrum.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/arbitrum/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arbitrum/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arbitrum/_meta.json",
+      "byteCount": 168,
+      "sha256": "5d6e8d357f1e1cb587395581dbfcb88ef7a3b9c986adbe986f3a4497cd10d6ad"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/arbitrum/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arbitrum/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arbitrum/SKILL.md",
+      "byteCount": 3760,
+      "sha256": "57d602d32bf1ccfdca70d5653734b375200ff44dad739bbd67aa941f6f00362a"
     }
   ]
 }

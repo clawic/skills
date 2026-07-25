@@ -1,6 +1,13 @@
 ---
-name: Invoices
+name: invoices
+slug: invoices
+version: 1.0.1
 description: Capture, extract, and organize received invoices with automatic OCR, provider detection, and searchable archive.
+homepage: https://clawic.com/skills/invoices
+metadata:
+  clawdbot:
+    emoji: 🧾
+    displayName: Invoices
 ---
 
 ## Trigger
@@ -14,7 +21,7 @@ Use when user receives invoices (email, photo, PDF) and wants them organized aut
 ## Storage
 
 ```
-~/invoices/
+~/Clawic/data/invoices/
 ├── inbox/                    # Unprocessed files awaiting extraction
 ├── archive/                  # Organized by year/month
 │   └── 2026/

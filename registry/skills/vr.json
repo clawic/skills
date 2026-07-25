@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8a59b1c19d2c2ecc555a96b716ab7770f9675b62327853ce1ef54032f7a746e4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "vr",
-    "name": "VR",
+    "name": "vr",
     "description": "Set up VR headsets, troubleshoot common issues, optimize comfort, and recommend experiences by use case.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vr",
     "summary": "Before Recommending Headsets - Ask primary use case: gaming, fitness, social, productivity, development - Ask if they have gaming PC: determines standalone vs tethered options - Ask play space size: room-scale needs 2m x",
     "repositoryPath": "skills/vr",
     "manifestPath": "registry/skills/vr.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vr/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vr/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vr/_meta.json",
+      "byteCount": 156,
+      "sha256": "431b4902c4693fa4a75521e63632b33e04458caf8a58e843463e5a30cafde911"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vr/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vr/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vr/SKILL.md",
+      "byteCount": 4469,
+      "sha256": "607da564f76cd594ea6bd92305879f34c43433c9d9acdf0edb97a799fe665353"
     }
   ]
 }

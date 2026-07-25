@@ -1,6 +1,6 @@
 # Memory Template - Parking Radar
 
-Create `~/parking/memory.md` with this structure:
+Create `~/Clawic/data/parking/memory.md` with this structure:
 
 ```markdown
 # Parking Memory
@@ -33,7 +33,7 @@ integration: pending | done | declined
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/parking/favorites.md` with this structure:
+Create `~/Clawic/data/parking/favorites.md` with this structure:
 
 ```markdown
 # Favorite Parking
@@ -48,7 +48,7 @@ Create `~/parking/favorites.md` with this structure:
 - Operator or facility | City | Reason
 ```
 
-Create `~/parking/cities.md` with this structure:
+Create `~/Clawic/data/parking/cities.md` with this structure:
 
 ```markdown
 # City Parking Notes
@@ -61,7 +61,7 @@ Create `~/parking/cities.md` with this structure:
 - Last verified:
 ```
 
-Create `~/parking/findings.md` with this structure:
+Create `~/Clawic/data/parking/findings.md` with this structure:
 
 ```markdown
 # Parking Findings

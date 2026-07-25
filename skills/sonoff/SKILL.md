@@ -1,11 +1,25 @@
 ---
-name: Sonoff
+name: sonoff
 slug: sonoff
 version: 1.0.0
-homepage: https://clawic.com/skills/sonoff
 description: Control and automate SONOFF devices with eWeLink cloud workflows, LAN and DIY mode operations, and safe multi-device execution.
+homepage: https://clawic.com/skills/sonoff
 changelog: Initial release with SONOFF and eWeLink workflows for cloud and LAN control, device discovery, command safety, and incident-ready automation playbooks.
-metadata: {"clawdbot":{"emoji":"S","requires":{"bins":["curl","jq"],"env":["EWELINK_API_TOKEN"]},"primaryEnv":"EWELINK_API_TOKEN","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: S
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - EWELINK_API_TOKEN
+    primaryEnv: EWELINK_API_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sonoff
 ---
 
 ## Setup
@@ -19,10 +33,10 @@ Use this instead of generic smart-home advice when outcomes depend on SONOFF-spe
 
 ## Architecture
 
-Memory lives in `~/sonoff/`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/sonoff/`. See `memory-template.md` for structure and status values.
 
 ```text
-~/sonoff/
+~/Clawic/data/sonoff/
 |-- memory.md                 # Core context and activation boundaries
 |-- environments.md           # LAN segments, iHost, cloud mode, and endpoint mapping
 |-- devices.md                # Device registry, capabilities, and command patterns
@@ -54,7 +68,7 @@ Never ask users to paste production secrets in chat logs. Prefer local environme
 
 ## Data Storage
 
-Keep local operational notes in `~/sonoff/`:
+Keep local operational notes in `~/Clawic/data/sonoff/`:
 - control plane decisions and endpoint mapping
 - device capability notes by model and firmware
 - automation constraints, canary scope, and rollback rules
@@ -123,7 +137,7 @@ Data that leaves your machine:
 - optional local event subscription traffic for iHost SSE workflows
 
 Data that stays local:
-- environment mapping, device notes, and playbooks under `~/sonoff/`
+- environment mapping, device notes, and playbooks under `~/Clawic/data/sonoff/`
 - incident timelines and rollback decisions
 
 This skill does NOT:
@@ -138,7 +152,7 @@ This skill sends operational data to SONOFF devices and optionally eWeLink cloud
 Only install if you trust your LAN environment, iHost deployment, and eWeLink account scope with this automation data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `iot` - Device connectivity and IoT system integration patterns
 - `smart-home` - Home automation architecture and reliability practices
 - `api` - API contract design and robust request handling
@@ -147,5 +161,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star sonoff`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/sonoff
+- Latest version: https://clawic.com/skills/sonoff

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "768cca7e6a721cf54c1d0317347c92d99c6210f5e74ac30e519feda8c5c8dccf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "markdown",
-    "name": "Markdown",
+    "name": "markdown",
     "description": "Generate clean, portable Markdown that renders correctly across parsers.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/markdown",
     "summary": "Whitespace Traps - Blank line required before lists, code blocks, and blockquotes—without it, many parsers continue the previous paragraph - Nested lists need 4 spaces (not 2) for GitHub/CommonMark; 2 spaces breaks nesti",
     "repositoryPath": "skills/markdown",
     "manifestPath": "registry/skills/markdown.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/markdown/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/_meta.json",
+      "byteCount": 168,
+      "sha256": "c6e7474968b8cb4b9d28c5357e94ca1517413f5e3143c22f8ece2a8c8260b09e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/markdown/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/SKILL.md",
+      "byteCount": 2167,
+      "sha256": "0d55b8d8f5a297744c062c186d5d4c8b8e85a5ac8e929be27aa99a4844d8f905"
     }
   ]
 }

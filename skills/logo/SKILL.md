@@ -1,6 +1,13 @@
 ---
-name: Logo
+name: logo
+slug: logo
+version: 1.0.0
 description: Generate logos with AI image tools using effective prompt structures, validation loops, and export workflows for App Store icons and brand marks.
+homepage: https://clawic.com/skills/logo
+metadata:
+  clawdbot:
+    emoji: 🎨
+    displayName: Logo
 ---
 
 ## Quick Start: AI Logo Generation

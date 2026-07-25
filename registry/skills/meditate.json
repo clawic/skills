@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "14a384256b8e7779bcb859fe2c32ff2b35423934342a3ec6bc66add6f7de91c1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "meditate",
-    "name": "Meditate",
+    "name": "meditate",
     "description": "Think proactively during idle time with sandboxed reflections, adaptive rhythms, and feedback-driven focus areas.",
     "version": "1.0.1",
-    "summary": "When to Use Agent has idle time between user interactions. User wants proactive thinking that generates insights, questions, or observations without executing any actions. Architecture Memory lives in `~/meditate/`. See ",
+    "homepage": "https://clawic.com/skills/meditate",
+    "summary": "When to Use Agent has idle time between user interactions. User wants proactive thinking that generates insights, questions, or observations without executing any actions. Architecture Memory lives in `~/Clawic/data/medi",
     "repositoryPath": "skills/meditate",
     "manifestPath": "registry/skills/meditate.json"
   },
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/meditate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/_meta.json",
+      "byteCount": 244,
+      "sha256": "88af492dbec9b9cc9863297f07ccc9b4ccb8e8857c649e8ccae28b7cb894e8a5"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/meditate/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/feedback.md",
+      "byteCount": 1767,
+      "sha256": "bfef70fc57b37470cdd88e5cb8aa88195c6b1a82d6d3c72fb97c300544cdf8fb"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/meditate/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/memory-template.md",
+      "byteCount": 1672,
+      "sha256": "663042672ac132ba9281aeaaab28c4aa5ed8fe7e127c0fa077c4109a9ace2031"
     },
     {
       "path": "sandbox.md",
       "downloadPath": "skills/meditate/sandbox.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/sandbox.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/sandbox.md",
+      "byteCount": 1505,
+      "sha256": "b15c15242a7215877055716f092b2d996f19aba6249a053d42c10cfda367b649"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/meditate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/SKILL.md",
+      "byteCount": 4522,
+      "sha256": "babe626fc17c07ce9c317ae638db45d317f16497e04592e1aea0a17306607c63"
     },
     {
       "path": "topics.md",
       "downloadPath": "skills/meditate/topics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/topics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meditate/topics.md",
+      "byteCount": 2991,
+      "sha256": "b3cbdc5c5f8703bdc8756f23167c8de5b80037b2bbe9bb26626bcf918acd6ef8"
     }
   ]
 }

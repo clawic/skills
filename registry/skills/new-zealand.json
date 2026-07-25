@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d09e3003814a1e92e8cc2b174416d8618a7d8f9c4e7210304349754c9074ed11",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "new-zealand",
-    "name": "New Zealand",
+    "name": "new-zealand",
     "description": "Discover New Zealand with island-aware routing, practical road-trip logistics, outdoor safety, and local food and region guidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/new-zealand",
-    "summary": "Setup If `~/new-zealand/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to New Zealand or asking for local insights: which island to prioritize, where to base, how to dr",
+    "summary": "Setup If `~/Clawic/data/new-zealand/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to New Zealand or asking for local insights: which island to prioritize, where to bas",
     "repositoryPath": "skills/new-zealand",
     "manifestPath": "registry/skills/new-zealand.json"
   },
@@ -22,157 +25,219 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/new-zealand/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/_meta.json",
+      "byteCount": 174,
+      "sha256": "24946492799172f87d28f64f1a0b34840e772ee61813a25a6bd6cbcde1f7b547"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/new-zealand/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/accommodation.md",
+      "byteCount": 2738,
+      "sha256": "97b66b95ca16d19460dc4d575ddce0a6d8ba4590d7220488bfa9f136327f9360"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/new-zealand/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/apps.md",
+      "byteCount": 1150,
+      "sha256": "ac9cfabc3cee9e248a6641d6ba92dfbc37a7eca18e7606e5ff428e1b03aef2d8"
     },
     {
       "path": "auckland.md",
       "downloadPath": "skills/new-zealand/auckland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/auckland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/auckland.md",
+      "byteCount": 2160,
+      "sha256": "decfdda10108eb9294fac24025cff878a2732466b5934be1dc09e649ade61bf4"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/new-zealand/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/beaches.md",
+      "byteCount": 1509,
+      "sha256": "4010b406604240dbe66cabe53692269e99a71485be396310a550d4d021ad831a"
     },
     {
       "path": "christchurch.md",
       "downloadPath": "skills/new-zealand/christchurch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/christchurch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/christchurch.md",
+      "byteCount": 1533,
+      "sha256": "79703ec946e1942db13d3b9f201c41d2e9e5818af53484c231e56ea70b952294"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/new-zealand/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/culture.md",
+      "byteCount": 1722,
+      "sha256": "21721b4d5c4ca1f0cfccca4ccdfc9eb83919edf51a92cc86b3c4f0a338bad58a"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/new-zealand/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/emergencies.md",
+      "byteCount": 1268,
+      "sha256": "8a171448b7e34e2f55e24aab7026d83d4b04615be7ea44cf67bacde67851ab94"
     },
     {
       "path": "entry-and-biosecurity.md",
       "downloadPath": "skills/new-zealand/entry-and-biosecurity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/entry-and-biosecurity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/entry-and-biosecurity.md",
+      "byteCount": 1611,
+      "sha256": "a150d500937ac47e51d296086aa77af5840ccb73cf0b61e2f2afaf4ba1e4401e"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/new-zealand/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/experiences.md",
+      "byteCount": 1824,
+      "sha256": "1164a63814b3b7c000234698a5c134dff161de94ff2b7320a793778cfad58f38"
     },
     {
       "path": "fiordland-southland.md",
       "downloadPath": "skills/new-zealand/fiordland-southland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/fiordland-southland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/fiordland-southland.md",
+      "byteCount": 1578,
+      "sha256": "759d23c561f9dd9665bd15bed16a69969a1c555f7aa53d2102eb558bf4dbad7e"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/new-zealand/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/food-guide.md",
+      "byteCount": 2187,
+      "sha256": "5cdf21913365215a04a12336d497517f29448c56197838c775ff378a6605b592"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/new-zealand/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/hiking.md",
+      "byteCount": 1674,
+      "sha256": "0bb2c3bcbd94489207dc91cc2304ea5127c9e02696ba3f413c8c1e5b9c5c05ef"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/new-zealand/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/itineraries.md",
+      "byteCount": 2141,
+      "sha256": "dd539f8358cdb841f2d2f06de31abccedefde58e99057aaede1f17c9bc38344f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/new-zealand/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/memory-template.md",
+      "byteCount": 1164,
+      "sha256": "817224125c301eb00d23cbfe42f4783468eb35b7e6bc4c4461c8fbf260589974"
     },
     {
       "path": "nelson-marlborough.md",
       "downloadPath": "skills/new-zealand/nelson-marlborough.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/nelson-marlborough.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/nelson-marlborough.md",
+      "byteCount": 1442,
+      "sha256": "7a5a9f7ccf0a64c16d90ebe0e4581eaa0b31546eadbe065335a0ebd3a7631405"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/new-zealand/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/nightlife.md",
+      "byteCount": 1303,
+      "sha256": "ac5227883654257be93f523ae49472fd868964813aa8ce585e0726ced7dfc4cd"
     },
     {
       "path": "payment-and-costs.md",
       "downloadPath": "skills/new-zealand/payment-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/payment-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/payment-and-costs.md",
+      "byteCount": 1598,
+      "sha256": "c7bf22b4a8e8bc912265d7fc5cbbb7c2ce83bfaa1588bcdeeecbc4d219b84258"
     },
     {
       "path": "queenstown.md",
       "downloadPath": "skills/new-zealand/queenstown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/queenstown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/queenstown.md",
+      "byteCount": 1755,
+      "sha256": "1e507f166df1a813d33313a08c7bcb1d7377e366e9f643e16b974ad59cd7323d"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/new-zealand/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/regions.md",
+      "byteCount": 2659,
+      "sha256": "a848418a687f3cbdae63c2c9d9158443d2c94b8459cfa8ead715511cd9b60793"
     },
     {
       "path": "rotorua-taupo.md",
       "downloadPath": "skills/new-zealand/rotorua-taupo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/rotorua-taupo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/rotorua-taupo.md",
+      "byteCount": 1635,
+      "sha256": "7945eef1171e26dbefb133ac9890dc06e2a6d1df71c1e3819d6bb320758bffc3"
     },
     {
       "path": "seasonality.md",
       "downloadPath": "skills/new-zealand/seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/seasonality.md",
+      "byteCount": 1681,
+      "sha256": "0ee99f2764ffa04281ddaf5d270e53ad44e3e3b1054579a15828044eece2b386"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/new-zealand/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/setup.md",
+      "byteCount": 1758,
+      "sha256": "df4635d6ad75ed2ea2058bf8a69fada0bebdf4bedb238c241716f5da2d896c53"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/new-zealand/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/SKILL.md",
+      "byteCount": 5707,
+      "sha256": "9092c63132747f2ea20033f247c9d3c4399a677ec2161105bc822ce53b389c02"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/new-zealand/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/sources.md",
+      "byteCount": 1195,
+      "sha256": "32d33d81578440e660c2ef7c13723fb7d2fa08f782286b35655bf16eb26d34b6"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/new-zealand/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/telecoms.md",
+      "byteCount": 934,
+      "sha256": "b9c6c2c50f8567d97d4a4059bf6fdca267320a3ddbd73ef280194ad8f96a2848"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/new-zealand/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/transport.md",
+      "byteCount": 2429,
+      "sha256": "5d9de3f90058a12c8fb27696ed8cbc09aebf5dfa1bffcf72e407667f632969ed"
     },
     {
       "path": "wellington.md",
       "downloadPath": "skills/new-zealand/wellington.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wellington.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wellington.md",
+      "byteCount": 1693,
+      "sha256": "a115db5811bc24d7bceee24503596b58224fa3c7e76de0c3d2523a26760b9c11"
     },
     {
       "path": "wildlife-safety.md",
       "downloadPath": "skills/new-zealand/wildlife-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wildlife-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wildlife-safety.md",
+      "byteCount": 1239,
+      "sha256": "295c2b63499d3c9b214cd723201ff22893bf7d3dffb6df0069667efc20552ed2"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/new-zealand/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/wine.md",
+      "byteCount": 1610,
+      "sha256": "0bfed228719d6f8c92a1e289a344e856d0a636332c8bc5339b12a3b88be2cf2d"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/new-zealand/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/new-zealand/with-kids.md",
+      "byteCount": 1382,
+      "sha256": "cb714e385d5b626432c026d4fc0be7888a444a26a22501756b0a14229855da0c"
     }
   ]
 }

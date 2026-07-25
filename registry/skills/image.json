@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6ae14caed50ebd40fc08ecb0b3a7b91714f0af0c92fadb1d5d8abe86b095f75e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "image",
-    "name": "Image",
+    "name": "image",
     "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/image",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/image/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/_meta.json",
+      "byteCount": 386,
+      "sha256": "25e0c9a592d101f513d9287c81b0f65f4057f49c302ef795fe12154162dd029f"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/image/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/accessibility.md",
+      "byteCount": 2651,
+      "sha256": "9207daaf45ff17b3e5d79046dbaa227838cfe4637e62b76bcbbb94b8be81dc34"
     },
     {
       "path": "branding.md",
       "downloadPath": "skills/image/branding.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/branding.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/branding.md",
+      "byteCount": 2954,
+      "sha256": "b00ac1616b847d606c67a0f7ef585cdaae932e12279013ed869d2384814f5763"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/image/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/commands.md",
+      "byteCount": 3591,
+      "sha256": "7fccf6f13bfd60d2ff8f49b918fcc39425e4ca6d8e88b9452709eed4c7f93314"
     },
     {
       "path": "ecommerce.md",
       "downloadPath": "skills/image/ecommerce.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/ecommerce.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/ecommerce.md",
+      "byteCount": 2834,
+      "sha256": "d5daf902e2fc03905529840e957edb7332ef5521b112af6d7c6803ab851cd134"
     },
     {
       "path": "photography.md",
       "downloadPath": "skills/image/photography.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/photography.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/photography.md",
+      "byteCount": 2653,
+      "sha256": "419bbf2ec3ef38e89cd26bc0fd70094425d77ef52c7e945085307cbb9a6bee5d"
     },
     {
       "path": "screenshots.md",
       "downloadPath": "skills/image/screenshots.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/screenshots.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/screenshots.md",
+      "byteCount": 2805,
+      "sha256": "794f3c03d444365425d5784c5ce2a7d15e331d14e6f00574c2a2eb8b8be9fe1a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/image/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/SKILL.md",
+      "byteCount": 14078,
+      "sha256": "12b441588701576bb5be4b84819518e7835f1dabcff24453fc23171d07517ba0"
     },
     {
       "path": "social.md",
       "downloadPath": "skills/image/social.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/social.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/social.md",
+      "byteCount": 2521,
+      "sha256": "68612b55aa18d14b07aad5e37477e353686929eb26c81a9821114608963c5683"
     },
     {
       "path": "web.md",
       "downloadPath": "skills/image/web.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/web.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/web.md",
+      "byteCount": 3841,
+      "sha256": "b2d366affae1789ace5eba72d5a83a69b281b67ca3c9ac634902ca3963f74c69"
     }
   ]
 }

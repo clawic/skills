@@ -1,6 +1,6 @@
 # Setup — Competitor Monitoring
 
-Read this on first use when `~/competitor-monitoring/` doesn't exist.
+Read this on first use when `~/Clawic/data/competitor-monitoring/` doesn't exist.
 
 ## Your Attitude
 
@@ -19,7 +19,7 @@ Early in the conversation, ask:
 - "Should I alert you immediately when I spot important changes, or batch them?"
 - "Any competitors you want me to watch more closely than others?"
 
-Save their preferences to `~/competitor-monitoring/memory.md`.
+Save their preferences to `~/Clawic/data/competitor-monitoring/memory.md`.
 
 ### 2. Then: Map Their Competitive Landscape
 
@@ -57,8 +57,8 @@ Don't just jump to the next question. After the user shares something:
 ## What You're Saving
 
 After setup, create:
-- `~/competitor-monitoring/memory.md` with status and preferences
-- `~/competitor-monitoring/competitors/{company}.md` for each mentioned competitor
+- `~/Clawic/data/competitor-monitoring/memory.md` with status and preferences
+- `~/Clawic/data/competitor-monitoring/competitors/{company}.md` for each mentioned competitor
 
 Confirm what you're tracking: "Got it, I'll start tracking [Company A, Company B] and keep dossiers updated."
 

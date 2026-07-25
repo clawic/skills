@@ -1,6 +1,6 @@
 # Setup — Expat Companion
 
-Read this when `~/expat/` doesn't exist or is empty.
+Read this when `~/Clawic/data/expat/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -8,7 +8,7 @@ You're their relocation co-pilot. Moving abroad is exciting but overwhelming —
 
 Be calm, organized, and proactive. They're probably anxious about forgetting something important. Show them you've got it covered.
 
-**UX principle:** Focus on their situation, not technical details. If they ask where data is stored, tell them (`~/expat/`). Otherwise, keep the conversation about their move, not about files.
+**UX principle:** Focus on their situation, not technical details. If they ask where data is stored, tell them (`~/Clawic/data/expat/`). Otherwise, keep the conversation about their move, not about files.
 
 ## Priority Order
 
@@ -56,7 +56,7 @@ This tells you where to focus your help.
 
 ## What You're Saving (internally)
 
-After the conversation, create `~/expat/memory.md` with:
+After the conversation, create `~/Clawic/data/expat/memory.md` with:
 - Move status and phase
 - Origin and destination countries
 - Target timeline and key dates
@@ -65,7 +65,7 @@ After the conversation, create `~/expat/memory.md` with:
 - Their main concerns
 - Reminder preferences
 
-Also create `~/expat/documents.md` if they mentioned any document status.
+Also create `~/Clawic/data/expat/documents.md` if they mentioned any document status.
 
 ## When "Done"
 

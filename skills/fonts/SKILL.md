@@ -1,7 +1,18 @@
 ---
-name: Fonts
+name: fonts
+slug: fonts
+version: 1.0.0
 description: Choose and implement web typography avoiding common rendering, pairing, and hierarchy mistakes.
-metadata: {"clawdbot":{"emoji":"🅰️","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/fonts
+metadata:
+  clawdbot:
+    emoji: 🅰️
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Fonts
 ---
 
 ## Display vs Text Fonts

@@ -1,6 +1,6 @@
 # Memory Template — Keras
 
-Create `~/keras/memory.md` with this structure:
+Create `~/Clawic/data/keras/memory.md` with this structure:
 
 ```markdown
 # Keras Memory

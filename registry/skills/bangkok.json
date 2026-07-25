@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "25e1d13b34d77b6c69ba3b5abbe969eb64294aef67882641da80cd8971a4a825",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,218 +14,300 @@
   "skill": {
     "slug": "bangkok",
     "name": "bangkok",
-    "description": "Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases \u2014 use the thailand skill for those.",
+    "description": "Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases — use the thailand skill for those.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/bangkok",
-    "summary": "User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences \u2014 see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/",
+    "summary": "User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences — see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/",
     "repositoryPath": "skills/bangkok",
     "manifestPath": "registry/skills/bangkok.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/bangkok/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/bangkok/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/_meta.json",
+      "byteCount": 316,
+      "sha256": "3682b6d9ed1562cc3984bc82987d00fd4230123b25eb68261fabf45cb8cb2c0e"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/bangkok/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/business.md",
+      "byteCount": 7108,
+      "sha256": "b215628ab6b5191cf2b06eed250bca55777b5035558d9fac9b1ac4ab4b315365"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/bangkok/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/climate.md",
+      "byteCount": 3661,
+      "sha256": "3fe9be7d44d41f521fda57b691883fb69b14685770bf5d8c82fdc7fc6ed1be3c"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/bangkok/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/cost.md",
+      "byteCount": 6818,
+      "sha256": "f46021e3ecc98c3204fa75196d16898fb2a87f305ad3c2cdca553bd0707ab75b"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/bangkok/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/culture.md",
+      "byteCount": 4794,
+      "sha256": "0f6a7ee4311556a843eb3ac9355b4c6d777d759a4af760c7da4185d38a877cce"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/bangkok/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/driving.md",
+      "byteCount": 4377,
+      "sha256": "beb375f8b90404d2ec3f1094a593d9d02537a6fde568d7d2f536e84e835c9bcc"
     },
     {
       "path": "families.md",
       "downloadPath": "skills/bangkok/families.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/families.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/families.md",
+      "byteCount": 5395,
+      "sha256": "5d16c85bbe34d597d62de4c7eb262f23bc5dd4c1405ca91f1d80df68b42935e3"
     },
     {
       "path": "festivals.md",
       "downloadPath": "skills/bangkok/festivals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/festivals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/festivals.md",
+      "byteCount": 4377,
+      "sha256": "bd50c046f040733b999931e1115c5fa2b40508a65f3d928f1c1c21536f63a31e"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/bangkok/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-areas.md",
+      "byteCount": 5526,
+      "sha256": "d3623b63b50a0f6e47afa60f99b3b80ddf076b1b65533529c14559e4b736307e"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/bangkok/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-international.md",
+      "byteCount": 5587,
+      "sha256": "8e0cc5c6ceacc4f5c117c4618f77c3474495fc9f875e187d7f7a80bd2f44357c"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/bangkok/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-overview.md",
+      "byteCount": 5795,
+      "sha256": "7ff793d3cba8934b82195d56a45818d0dce5cebef517c6587a82c050074e4479"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/bangkok/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-practical.md",
+      "byteCount": 7380,
+      "sha256": "2ffa6ca566e30ec72ea7381126c5ac91a03e12d2421181559685e60d9a7014a6"
     },
     {
       "path": "food-street.md",
       "downloadPath": "skills/bangkok/food-street.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-street.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-street.md",
+      "byteCount": 5515,
+      "sha256": "d938ecbf460d7d16cd021d2c34e901af0f0f58b74d1850676249468f254d2401"
     },
     {
       "path": "food-thai.md",
       "downloadPath": "skills/bangkok/food-thai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-thai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/food-thai.md",
+      "byteCount": 5687,
+      "sha256": "e68a4319acdfc3e31d0284508161bc33f8fee4b1cb4354216e692f4b42150c5e"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/bangkok/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/healthcare.md",
+      "byteCount": 4221,
+      "sha256": "ac0672e0fae95a2dd11af4cb64e523b676d61be99eb4c455f1a421a4c370a09c"
     },
     {
       "path": "language.md",
       "downloadPath": "skills/bangkok/language.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/language.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/language.md",
+      "byteCount": 8200,
+      "sha256": "5b270a94c28f50068cabd040f08ba66f071da5fc64ed6be6cad4877acfad23f4"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/bangkok/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/lifestyle.md",
+      "byteCount": 6456,
+      "sha256": "103995d3beb4bdec02913009cd8cdc9c70feb0b652a8389ce3d5949247917868"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/bangkok/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/local.md",
+      "byteCount": 3994,
+      "sha256": "765e1dd59e9206d6ccdbd0746fd4c95447fe60caf826c1da9974d731fa0a24b4"
     },
     {
       "path": "neighborhoods-ari.md",
       "downloadPath": "skills/bangkok/neighborhoods-ari.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-ari.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-ari.md",
+      "byteCount": 5062,
+      "sha256": "2ad750737f2dc8170fe65c2ddb595d17c5be57b3947fa309fdd51c532f090b7d"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/bangkok/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-choosing.md",
+      "byteCount": 5563,
+      "sha256": "000707e820cd215a5fa882adc38e53b1e0df5a32c07d1cb5ef5e92ec7c9c4ae3"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/bangkok/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-index.md",
+      "byteCount": 4739,
+      "sha256": "fbef66f42ec549f4e583336132623db1d932ed513895ff21e4ca262667988580"
     },
     {
       "path": "neighborhoods-oldtown.md",
       "downloadPath": "skills/bangkok/neighborhoods-oldtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-oldtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-oldtown.md",
+      "byteCount": 5759,
+      "sha256": "0f5eafc6fd597298d2a589c0a8a0f1fbcd520a17df5f69517d1b61c06362a262"
     },
     {
       "path": "neighborhoods-silom.md",
       "downloadPath": "skills/bangkok/neighborhoods-silom.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-silom.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-silom.md",
+      "byteCount": 5372,
+      "sha256": "56eec0eaf078e09b59667d3f2590bc457feef71591abe2214aed9a0ba447d8ba"
     },
     {
       "path": "neighborhoods-sukhumvit.md",
       "downloadPath": "skills/bangkok/neighborhoods-sukhumvit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-sukhumvit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/neighborhoods-sukhumvit.md",
+      "byteCount": 6301,
+      "sha256": "78c9882ea38172f9d0fcc7699649e66efaf00421e836d89afcd9f54134d2cbf6"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/bangkok/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/nightlife.md",
+      "byteCount": 4002,
+      "sha256": "c826b65817334c851d7f3513f5581734fcf8d1c30c5d0fdab49d31b4335cd233"
     },
     {
       "path": "nomad.md",
       "downloadPath": "skills/bangkok/nomad.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/nomad.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/nomad.md",
+      "byteCount": 6938,
+      "sha256": "4265f0d6bc347379fc38a7491d2ed31813c262f3f05b5fbc1db890d6b5e127c3"
     },
     {
       "path": "property.md",
       "downloadPath": "skills/bangkok/property.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/property.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/property.md",
+      "byteCount": 4879,
+      "sha256": "8c5e563f602963eea7109d5908fee450d030de409e760b67470793cd13402ea1"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/bangkok/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/resident.md",
+      "byteCount": 6650,
+      "sha256": "efd69ba9fe86204f16263f795b16729a344f7e8bcb11e82433ccf18a62e8d13c"
     },
     {
       "path": "retirement.md",
       "downloadPath": "skills/bangkok/retirement.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/retirement.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/retirement.md",
+      "byteCount": 5418,
+      "sha256": "762f3b9a3339bc7c794df0942288f13c485d79243e280996795f89134882cffc"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/bangkok/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/safety.md",
+      "byteCount": 5404,
+      "sha256": "cf490bd7699ccd709d7e89a80b36db9f8f1df07e02338f42b92daaaf36b6101f"
     },
     {
       "path": "shopping.md",
       "downloadPath": "skills/bangkok/shopping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/shopping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/shopping.md",
+      "byteCount": 4450,
+      "sha256": "0fa971f4d28e90902f8b2faa40b7ce0a62da9dea8fa3988b038673a5f7452bcf"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bangkok/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/SKILL.md",
+      "byteCount": 18102,
+      "sha256": "df7dca11ea0e0ae3f671f0c81f3adeb6c82668adfcce51b092784909c3afdc50"
     },
     {
       "path": "taxes.md",
       "downloadPath": "skills/bangkok/taxes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/taxes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/taxes.md",
+      "byteCount": 5402,
+      "sha256": "4222c6ad7ecb598ea6ba72e7f929ea6ed1f21752394d8a440093bfd85fb9b44c"
     },
     {
       "path": "teaching.md",
       "downloadPath": "skills/bangkok/teaching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/teaching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/teaching.md",
+      "byteCount": 6972,
+      "sha256": "53844f301dfdb213d3a0d7b06551a3e7bed706756fc08deb1ca7730c855951d1"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/bangkok/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/tech.md",
+      "byteCount": 6300,
+      "sha256": "d6359cdfad4a3ec8ee7da2dbeb119c1ea439d23aa9306b4c2112d0aff236418a"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/bangkok/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/transport.md",
+      "byteCount": 4270,
+      "sha256": "1a442280a34ef53ce2f8d4c373087101fd15cb8758e37a6ee50b55136ecd6d9d"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/bangkok/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visas.md",
+      "byteCount": 6529,
+      "sha256": "1efa67b25ec87e904741698522339cb1f55aab858657038385674939156c644a"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/bangkok/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-attractions.md",
+      "byteCount": 5885,
+      "sha256": "ed7292dc9e787578180943118ddf2662180b55cdf83a6cd02ae154f697707f0a"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/bangkok/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-itineraries.md",
+      "byteCount": 5426,
+      "sha256": "b01e1f0e48f0941c2d5c4480d6c10794135387cce14edb47efbacd6c21b4134d"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/bangkok/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-lodging.md",
+      "byteCount": 5066,
+      "sha256": "84f588db331e62b84c5982b209ece28b842b95ea9f4d1185475314a4a879daaa"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/bangkok/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/visitor-tips.md",
+      "byteCount": 5965,
+      "sha256": "bb34ea82616a18f2290b83140ff519ba80b07f6bde2f081f9163219321391db0"
     }
   ]
 }

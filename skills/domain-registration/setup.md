@@ -1,6 +1,6 @@
 # Setup - Domain Registration
 
-Use this when `~/domain-registration/` does not exist or is empty.
+Use this when `~/Clawic/data/domain-registration/` does not exist or is empty.
 Keep onboarding short and operational while answering the active request first.
 
 ## Your Attitude

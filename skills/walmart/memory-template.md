@@ -1,6 +1,6 @@
 # Memory Template — Walmart
 
-Copy this structure to `~/walmart/memory.md` on first use.
+Copy this structure to `~/Clawic/data/walmart/memory.md` on first use.
 
 ```markdown
 # Walmart Memory

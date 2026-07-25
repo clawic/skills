@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "62eac9273a52e67917807f71693b90716f32b3eabf85c637e8966a779f421a7c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cooking",
-    "name": "Cooking",
+    "name": "cooking",
     "description": "Help users cook better — recipe adaptation, substitutions, troubleshooting, and skill building.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cooking",
     "summary": "Before Suggesting Recipes - Ask skill level — beginner needs different recipes than experienced - Ask available equipment — no stand mixer, no oven, small kitchen changes everything - Ask dietary restrictions upfront — a",
     "repositoryPath": "skills/cooking",
     "manifestPath": "registry/skills/cooking.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cooking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/_meta.json",
+      "byteCount": 166,
+      "sha256": "6b194f51273c202b384c292f270918a15c7254b117cb0452c109e8f1908ef191"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cooking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/SKILL.md",
+      "byteCount": 4448,
+      "sha256": "b61f5412bca7fdcabd09c15a5e5c9cc8b309dbabd334dfdacf3beddb18bd126c"
     }
   ]
 }

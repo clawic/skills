@@ -1,9 +1,20 @@
 ---
-name: Django
+name: django
 slug: django
 version: 1.0.1
 description: Build secure Django apps avoiding ORM pitfalls, N+1 queries, and common security traps.
-metadata: {"clawdbot":{"emoji":"🌿","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/django
+metadata:
+  clawdbot:
+    emoji: 🌿
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Django
 ---
 
 ## Quick Reference

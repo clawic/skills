@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "635f9ecde264f0abc2cb723a2f10a95cba78d07942907257c513ccd6031668c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "meetings",
-    "name": "Meetings",
+    "name": "meetings",
     "description": "Build a personal meeting system for capturing notes, preparing agendas, and never missing follow-ups.",
-    "summary": "Core Behavior - User shares transcript/audio → extract key points and action items - User has upcoming meeting → help prepare with context - Proactively alert about meetings and pending follow-ups - Create `~/meetings/` ",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/meetings",
+    "summary": "Core Behavior - User shares transcript/audio → extract key points and action items - User has upcoming meeting → help prepare with context - Proactively alert about meetings and pending follow-ups - Create `~/Clawic/data",
     "repositoryPath": "skills/meetings",
     "manifestPath": "registry/skills/meetings.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/meetings/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/_meta.json",
+      "byteCount": 168,
+      "sha256": "395ff23892663d23cb93a5cd0ec09ffc4b6dd28b7eee0d848102a121de24f5df"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/meetings/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/SKILL.md",
+      "byteCount": 4077,
+      "sha256": "bff06f6344ddcc0d0d3d1baae27b1432a26b8c01367a7225309c25204f4aba21"
     }
   ]
 }

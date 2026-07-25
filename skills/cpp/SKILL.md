@@ -1,9 +1,20 @@
 ---
-name: C++
+name: cpp
 slug: cpp
 version: 1.0.1
 description: Write safe C++ avoiding memory leaks, dangling pointers, undefined behavior, and ownership confusion.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["g++"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cpp
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - g++
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: C++
 ---
 
 ## Quick Reference

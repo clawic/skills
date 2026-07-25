@@ -1,6 +1,6 @@
 # Memory Template - Banking
 
-Create `~/banking/memory.md` with this structure:
+Create `~/Clawic/data/banking/memory.md` with this structure:
 
 ```markdown
 # Banking Memory

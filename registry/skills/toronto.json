@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b8a045826c2f65d5ba57a87791d3296a6fc4ed5ac5db4a15a4b93e5fa3b26da8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "toronto",
-    "name": "Toronto",
+    "name": "toronto",
     "description": "Navigate Toronto as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/toronto",
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/toronto/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/_meta.json",
+      "byteCount": 166,
+      "sha256": "9bc7195cdcf5b78b4018f95f9a6b6a42b61e6b321d0187e6b6646ec993e4309f"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/toronto/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/business.md",
+      "byteCount": 5602,
+      "sha256": "450cc19ad6fe375a3b655d9562fdf7ba464dedcde600dadd7f47dedf7068e2fd"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/toronto/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/climate.md",
+      "byteCount": 5237,
+      "sha256": "385bb41d40d9be490150068bc3e09a9cea18b77e5c2bd33fcf0e8aae356001a6"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/toronto/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/cost.md",
+      "byteCount": 5907,
+      "sha256": "4572152a4b0063fe32cdf1e7578f15b19c48ce35fbc204992c7e182df07ca112"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/toronto/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/culture.md",
+      "byteCount": 5976,
+      "sha256": "475fc547da8615641943a5ad644fd7f3f78cde97a8cb4aff13f40e3e4fdcda73"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/toronto/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/driving.md",
+      "byteCount": 6598,
+      "sha256": "eba6c12efdce7a66b18bcd47d267aeef98a0a9ac12048bc8f860fba61c30df79"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/toronto/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/education.md",
+      "byteCount": 5679,
+      "sha256": "22097cd121820d215c236a4f8afb25dcb543de37e702d666ffba9a7367b8e21f"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/toronto/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-areas.md",
+      "byteCount": 5434,
+      "sha256": "ab43294754ca07a903582b14eaba700c7bd62612b64fd8886d4234d98884dfbc"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/toronto/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-international.md",
+      "byteCount": 4901,
+      "sha256": "d656c0310835d6f15ad3553ea413f43ad686b6bd17744d7453f893ea3122cad8"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/toronto/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-local.md",
+      "byteCount": 3801,
+      "sha256": "abb130e634afdfa3119816085ef189e3f0304cc1bf6401c8cd9564fd3bafb137"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/toronto/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-overview.md",
+      "byteCount": 3886,
+      "sha256": "33abbfbf8e7aa5fd9878a3c6706339cff4a9a6fde056fa64697f4010213668fe"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/toronto/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/food-practical.md",
+      "byteCount": 6089,
+      "sha256": "0a6fa2e0adf75ed5da093afbccd54267e278200305daeaaebd2291b293d52173"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/toronto/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/healthcare.md",
+      "byteCount": 5833,
+      "sha256": "17ed77083a1713cee2216db8389fce535235c6a885985d1bdbac8d511a400eca"
     },
     {
       "path": "immigration.md",
       "downloadPath": "skills/toronto/immigration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/immigration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/immigration.md",
+      "byteCount": 6412,
+      "sha256": "b98d6597dc37e5df8a1c9c7a9385bc8d78159c6a7a79967b179cbe2c771efc1a"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/toronto/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/lifestyle.md",
+      "byteCount": 5992,
+      "sha256": "94b90eecb6a4fbd8c9239fb76c0903bc3eb127b5c74f17951227a2fb1258bad1"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/toronto/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/local.md",
+      "byteCount": 6073,
+      "sha256": "087b9a01fe4b7fa48959e4c7c882d231048dfa27322e66cf0d5a9ea018148983"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/toronto/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-choosing.md",
+      "byteCount": 6245,
+      "sha256": "1e9cbfb298e5bfdac5bdc369764b5095dc114c9892132733894036687b09cd54"
     },
     {
       "path": "neighborhoods-downtown.md",
       "downloadPath": "skills/toronto/neighborhoods-downtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-downtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-downtown.md",
+      "byteCount": 4226,
+      "sha256": "bf98379b02dc0a6aa89b02806b7ef25cef3020f7b70e75232c0f4430bda2f4cc"
     },
     {
       "path": "neighborhoods-east.md",
       "downloadPath": "skills/toronto/neighborhoods-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-east.md",
+      "byteCount": 5335,
+      "sha256": "00dd2db162fb23b0993b0d35ee8932f25370a6a86c1146bb368d80f521de7f85"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/toronto/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-index.md",
+      "byteCount": 3584,
+      "sha256": "67368fe225e9b7d60ac45fc9bc6d73417afc54cd2d10531462dc5bb4efb53599"
     },
     {
       "path": "neighborhoods-midtown.md",
       "downloadPath": "skills/toronto/neighborhoods-midtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-midtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-midtown.md",
+      "byteCount": 5175,
+      "sha256": "1280d48af81a6ce08ede52486df6de2ce659ea30d837e16c7eeea33a030cc849"
     },
     {
       "path": "neighborhoods-suburban.md",
       "downloadPath": "skills/toronto/neighborhoods-suburban.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-suburban.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-suburban.md",
+      "byteCount": 5897,
+      "sha256": "3cfe6fbc0bb1894d46c02a5d2923094044f47623119d7ef91ae5cf8908a23580"
     },
     {
       "path": "neighborhoods-west.md",
       "downloadPath": "skills/toronto/neighborhoods-west.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-west.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/neighborhoods-west.md",
+      "byteCount": 5100,
+      "sha256": "fb0415172cb37e3eaf89ecec457894323728ed6d51f438f6540b75a945b7999a"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/toronto/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/resident.md",
+      "byteCount": 6341,
+      "sha256": "f1b20996cb2a80d63c95ce1dddfba7faabfca95a8367604533522211a915ffb8"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/toronto/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/safety.md",
+      "byteCount": 5357,
+      "sha256": "c099b7a48260ae094ffeae974b6c697a63e5df1c572d42edc06a30810611815f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/toronto/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/SKILL.md",
+      "byteCount": 7601,
+      "sha256": "f9ba715c3bb3205e784fadcc67d600d188b27c3c160a2c0e9fc1990fd6ed98ba"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/toronto/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/startup.md",
+      "byteCount": 5986,
+      "sha256": "664a735889ccca8fb712b072791e36751198a18e5158e008291853e8cb9060a7"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/toronto/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/tech.md",
+      "byteCount": 6023,
+      "sha256": "9a5da4fa271c8b2e0254f5ecdf35500abe3777da8d7f4205b755368cdccd19d0"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/toronto/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/transport.md",
+      "byteCount": 5864,
+      "sha256": "bb15d5f0bba5ee61923d58744af4dd6569a2f40254e8a3b6bfe7ad621035ef41"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/toronto/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-attractions.md",
+      "byteCount": 4415,
+      "sha256": "9e395527141cb0bb5aef1172d780b1c8c2170c943cf26511def3be3ef3db3e35"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/toronto/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-itineraries.md",
+      "byteCount": 3954,
+      "sha256": "38597d4ce55bc6e4517bf41c0d9fa7c82c7ab40eed14c42a3f3be04fe810bb97"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/toronto/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-lodging.md",
+      "byteCount": 4522,
+      "sha256": "6f045b8e40e58a78c142c7ff7bfa4960d0a770f30029d8a8d0ecee28664d924e"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/toronto/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/toronto/visitor-tips.md",
+      "byteCount": 5171,
+      "sha256": "cd19c45b8bd36c3ff05322a607faa043b2907a9fcc326194d3ac6bfc25c8790b"
     }
   ]
 }

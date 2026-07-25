@@ -1,6 +1,6 @@
 # Memory Template - Hermes Agent
 
-Create `~/hermes-agent/memory.md` with this structure:
+Create `~/Clawic/data/hermes-agent/memory.md` with this structure:
 
 ```markdown
 # Hermes Agent Memory
@@ -32,8 +32,8 @@ Updated: YYYY-MM-DD
 Create this directory structure on first activation:
 
 ```bash
-mkdir -p ~/hermes-agent/archive
-touch ~/hermes-agent/{memory.md,promotions.md,reflections.md,workspace-state.md}
+mkdir -p ~/Clawic/data/hermes-agent/archive
+touch ~/Clawic/data/hermes-agent/{memory.md,promotions.md,reflections.md,workspace-state.md}
 ```
 
 ## promotions.md Template

@@ -1,14 +1,25 @@
 ---
-name: Electric Guitar
+name: electric-guitar
+slug: electric-guitar
+version: 1.0.0
 description: Electric guitar practice strategies, technique, tone shaping, and progress tracking.
+homepage: https://clawic.com/skills/electric-guitar
 metadata:
   category: music
-  skills: ["guitar", "electric", "practice", "music", "instrument"]
+  skills:
+  - guitar
+  - electric
+  - practice
+  - music
+  - instrument
+  clawdbot:
+    emoji: 🎸
+    displayName: Electric Guitar
 ---
 
 ## Core Behavior
 
-- Create `~/electric-guitar/` as workspace on first interaction
+- Create `~/Clawic/data/electric-guitar/` as workspace on first interaction
 - After practice, offer to log progress; see `progress.md`
 
 ## Before Advising
@@ -73,7 +84,7 @@ Less gain = clarity; bridge = cut, neck = warm; practice EQ ≠ band EQ
 
 ## Progress Tracking
 
-Log to `~/electric-guitar/`: songs, techniques, scales by position
+Log to `~/Clawic/data/electric-guitar/`: songs, techniques, scales by position
 
 ## What to Surface
 

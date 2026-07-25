@@ -1,14 +1,24 @@
 ---
-name: Expenses
+name: expenses
+slug: expenses
+version: 1.0.0
 description: Build a personal expense tracking system for daily spending, shared costs, business expenses, and project budgets.
-metadata: {"clawdbot":{"emoji":"💸","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/expenses
+metadata:
+  clawdbot:
+    emoji: 💸
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Expenses
 ---
 
 ## Core Behavior
 - User mentions spending money → offer to log expense
 - Different contexts need different tracking → adapt to their use case
 - Surface patterns when asked → where is money going?
-- Create `~/expenses/` as workspace
+- Create `~/Clawic/data/expenses/` as workspace
 
 ## Use Case Discovery
 Ask how they'll use expense tracking:
@@ -76,7 +86,7 @@ Trip-specific tracking:
 
 ## File Structure
 ```
-~/expenses/
+~/Clawic/data/expenses/
 ├── daily/
 │   └── 2024-03.md
 ├── shared/

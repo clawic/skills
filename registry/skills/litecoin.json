@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "46b515b347aac92d676897cf71551676d405cf8709d383aa8fbb29f98a3cb3b9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "litecoin",
-    "name": "Litecoin",
+    "name": "litecoin",
     "description": "Assist with Litecoin LTC transactions, address formats, fees, and MWEB privacy features.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/litecoin",
     "summary": "Network Basics - Bitcoin fork with faster blocks — 2.5 minute block time vs Bitcoin's 10 - Scrypt proof of work — different mining algorithm than Bitcoin - 84 million max supply — 4x Bitcoin's 21 million cap - Often call",
     "repositoryPath": "skills/litecoin",
     "manifestPath": "registry/skills/litecoin.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/litecoin/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/litecoin/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/litecoin/_meta.json",
+      "byteCount": 168,
+      "sha256": "d61598a7c6288eeae1d8e1d5b3c3963b8be10e4e465f53497ff7e5ec51c6b710"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/litecoin/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/litecoin/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/litecoin/SKILL.md",
+      "byteCount": 3969,
+      "sha256": "000eb8e249c94557ca54a354e06031cf1b182f259036a27755c76a6b67fe1b06"
     }
   ]
 }

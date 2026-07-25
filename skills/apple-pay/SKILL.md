@@ -1,11 +1,24 @@
 ---
-name: Apple Pay
+name: apple-pay
 slug: apple-pay
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-pay
 description: Implement Apple Pay for web and iOS with merchant validation, token handling, and production-safe checkout flows.
+homepage: https://clawic.com/skills/apple-pay
 changelog: Expanded implementation and rollout guidance with stronger validation and incident handling playbooks.
-metadata: {"clawdbot":{"emoji":"🍎","requires":{"bins":["curl","jq"],"env":["APPLE_PAY_MERCHANT_ID"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🍎
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - APPLE_PAY_MERCHANT_ID
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Apple Pay
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User needs Apple Pay for checkout, subscriptions, or wallet-first conversion imp
 
 ## Architecture
 
-Memory lives in `~/apple-pay/`. See `memory-template.md` for setup and status fields.
+Memory lives in `~/Clawic/data/apple-pay/`. See `memory-template.md` for setup and status fields.
 
 ```
-~/apple-pay/
+~/Clawic/data/apple-pay/
 |-- memory.md                 # Project snapshot, risk status, and rollout state
 |-- implementations.md        # Selected approach and platform notes
 |-- validation-log.md         # Test evidence and environment results
@@ -52,7 +65,7 @@ Never ask users to paste private keys or full certificate private material into 
 
 ## Data Storage
 
-Local notes stay under `~/apple-pay/`:
+Local notes stay under `~/Clawic/data/apple-pay/`:
 - memory file for current state and integration decisions
 - validation log file for test outcomes and evidence
 - incidents file for failure signatures and mitigations
@@ -146,7 +159,7 @@ Data that leaves your machine:
 - Payment tokens sent to the configured PSP or backend
 
 Data that stays local:
-- Integration notes and rollout state under `~/apple-pay/`
+- Integration notes and rollout state under `~/Clawic/data/apple-pay/`
 - Validation evidence and failure logs without raw tokens
 
 This skill does NOT:
@@ -160,7 +173,7 @@ Apple Pay integrations depend on Apple infrastructure and the chosen PSP.
 Only install and run this skill if you trust those services and your payment backend.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `payments` - General payment design and checkout decision frameworks
 - `app-store-connect` - Apple ecosystem account and operational workflows
 - `ios` - iOS implementation and device-level debugging patterns
@@ -169,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-pay`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-pay
+- Latest version: https://clawic.com/skills/apple-pay

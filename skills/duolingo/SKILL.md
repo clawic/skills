@@ -1,11 +1,24 @@
 ---
-name: Duolingo Learning OS
+name: duolingo
 slug: duolingo
 version: 1.0.0
-homepage: https://clawic.com/skills/duolingo
 description: Run a Duolingo-like multi-topic learning system with AGENTS routing, lesson loops, streaks, and spaced review.
+homepage: https://clawic.com/skills/duolingo
 changelog: Reworked into a full Duolingo-style learning system with topic routing, multi-topic tracks, and persistent lesson operations.
-metadata: {"clawdbot":{"emoji":"D","requires":{"bins":[],"config":["~/duolingo/"]},"os":["linux","darwin","win32"],"configPaths":["~/duolingo/"]}}
+metadata:
+  clawdbot:
+    emoji: D
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/duolingo/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/duolingo/
+    displayName: Duolingo Learning OS
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User wants to learn one or more subjects with short daily lessons, instant feedb
 
 ## Architecture
 
-State lives in `~/duolingo/`. See `memory-template.md` for global state and per-topic file templates.
+State lives in `~/Clawic/data/duolingo/`. See `memory-template.md` for global state and per-topic file templates.
 
 ```
-~/duolingo/
+~/Clawic/data/duolingo/
 |-- memory.md                    # Global status and active topic map
 |-- router/
 |   |-- topics.md                # Canonical list of active topics and trigger phrases
@@ -54,7 +67,7 @@ State lives in `~/duolingo/`. See `memory-template.md` for global state and per-
 ## Core Rules
 
 ### 1. Bootstrap the Learning OS Before First Lesson
-If `~/duolingo/` is missing or empty, create the full scaffold from `blueprint.md`.
+If `~/Clawic/data/duolingo/` is missing or empty, create the full scaffold from `blueprint.md`.
 Do not start teaching without:
 - global memory file
 - router files
@@ -66,7 +79,7 @@ Never auto-edit AGENTS from this skill. Generate snippet text only and let the u
 If the user skips router integration, keep the skill fully manual and user-invocable.
 
 ### 3. Keep Each Topic Isolated, Then Coordinate Globally
-Every topic gets its own namespace under `~/duolingo/topics/<topic-slug>/`.
+Every topic gets its own namespace under `~/Clawic/data/duolingo/topics/<topic-slug>/`.
 Never mix files across topics.
 Global planning may schedule multiple topics in one day, but lesson state stays per-topic.
 
@@ -111,16 +124,16 @@ A healthy system always knows:
 ## Security & Privacy
 
 Data that stays local:
-- Learning state in `~/duolingo/`
+- Learning state in `~/Clawic/data/duolingo/`
 - Topic curriculum, attempts, and review queues
 
 This skill does NOT:
 - Send data to external services
-- Access files outside `~/duolingo/` unless user asks explicitly
+- Access files outside `~/Clawic/data/duolingo/` unless user asks explicitly
 - Modify its own `SKILL.md`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `learning` - Teaching and explanation tactics per learner profile
 - `english` - Language-specific practice patterns for one common track
 - `course` - Curriculum decomposition and sequence planning
@@ -129,5 +142,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star duolingo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/duolingo
+- Latest version: https://clawic.com/skills/duolingo

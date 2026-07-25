@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a86988b6155138d5d6a2454bf84da04e1df3afa2e5c0f8a66b600ca2a61b09cd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "remote-desktop",
-    "name": "Remote Desktop",
+    "name": "remote-desktop",
     "description": "Connect to remote desktops via RDP, VNC, and SSH X11 with secure tunneling and troubleshooting.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/remote-desktop",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/remote-desktop/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/_meta.json",
+      "byteCount": 180,
+      "sha256": "35f795cf2b8ee0504b77bcaf192990ed4cc8e587cb6b5fb9db144dfa19c5ea34"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/remote-desktop/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/memory-template.md",
+      "byteCount": 1332,
+      "sha256": "3f3113f5fcf22ab03a15a046cfa1bda0a411b636b71e77386316257b8ea3e6a4"
     },
     {
       "path": "protocols.md",
       "downloadPath": "skills/remote-desktop/protocols.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/protocols.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/protocols.md",
+      "byteCount": 3200,
+      "sha256": "c062aa052af93e459866bd2485bec4a6d59dd8e4821432614731f865afacae0c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/remote-desktop/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/setup.md",
+      "byteCount": 1582,
+      "sha256": "47fc9e9776ed19409290dd121e77e2621fd9542a54ed465c5961f5f7f95cb7ed"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/remote-desktop/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/SKILL.md",
+      "byteCount": 5418,
+      "sha256": "0b8f91ae87fdb9b3b11e454166f983a45af4ced3d007f1db53e24e0a0bb2af73"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/remote-desktop/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remote-desktop/troubleshooting.md",
+      "byteCount": 3757,
+      "sha256": "123ddce55e5ed63e5c2bde66c79cb3f23985b820d9402ea32a91454e22d26f96"
     }
   ]
 }

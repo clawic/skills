@@ -10,7 +10,7 @@ mkdir -p ~/argentina
 ```
 
 ### 2. Initialize Memory File
-Create `~/argentina/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/argentina/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Money style: comfortable with mixed card/cash strategy or prefers minimum cash handling?
 
 ### 4. Save to Memory
-Update `~/argentina/memory.md` with the current intent, constraints, and decision status.
+Update `~/Clawic/data/argentina/memory.md` with the current intent, constraints, and decision status.
 
 ## Returning Users
 
-If `~/argentina/memory.md` exists:
+If `~/Clawic/data/argentina/memory.md` exists:
 1. Read it silently
 2. Reuse known constraints and priorities
 3. Ask only what changed (dates, region focus, budget, border plans, mobility)

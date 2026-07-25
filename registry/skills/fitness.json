@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cfc9f83ae0231617e584f970328e07cf98f017a79b2c10c5700b97ae7f9f01f3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "fitness",
     "name": "fitness",
-    "description": "Plans and progresses workout programs \u2014 strength, muscle building, cardio, endurance, and general conditioning \u2014 with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.",
+    "description": "Plans and progresses workout programs — strength, muscle building, cardio, endurance, and general conditioning — with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/fitness",
     "summary": "Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you ha",
@@ -20,69 +23,95 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/fitness/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/fitness/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/_meta.json",
+      "byteCount": 390,
+      "sha256": "76bfc2766b5b8026083f898aebb7460ca2c0e99a55d56858e8783f8250bb5560"
     },
     {
       "path": "assessment.md",
       "downloadPath": "skills/fitness/assessment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/assessment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/assessment.md",
+      "byteCount": 3671,
+      "sha256": "e3a90971cb4320a994f3c0eedfd677ff6fd96087f0c1952094d5152e024b313c"
     },
     {
       "path": "body-composition.md",
       "downloadPath": "skills/fitness/body-composition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/body-composition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/body-composition.md",
+      "byteCount": 3688,
+      "sha256": "d3fa4df31ef239f7e7411bd0b296118ad8cff9e444fdf2c639b915e2fc7366c0"
     },
     {
       "path": "cardio.md",
       "downloadPath": "skills/fitness/cardio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/cardio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/cardio.md",
+      "byteCount": 3689,
+      "sha256": "492c900571b7e05faff1b4b2647660c614f63b4dec439137f644be7bdc83c35f"
     },
     {
       "path": "comeback.md",
       "downloadPath": "skills/fitness/comeback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/comeback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/comeback.md",
+      "byteCount": 4276,
+      "sha256": "da74de4fb4eb08e4c04ef57aa46900c460b98e38a08d437e2986beb11fa1a302"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/fitness/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/memory-template.md",
+      "byteCount": 1687,
+      "sha256": "46df16a11fe8c0f09f7a703d550e7ea432d82991945a02e8d3909fa1bb69b265"
     },
     {
       "path": "minimal-equipment.md",
       "downloadPath": "skills/fitness/minimal-equipment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/minimal-equipment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/minimal-equipment.md",
+      "byteCount": 4319,
+      "sha256": "833faa0bee17c9c2549999e8fd0cda2bc33d77845849a9b6e3d82013c6f4348f"
     },
     {
       "path": "program-design.md",
       "downloadPath": "skills/fitness/program-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/program-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/program-design.md",
+      "byteCount": 4941,
+      "sha256": "6a17a3584abae2cfe21ca9c4918c75ed819802fd2dc227e0fcd8a1e3c1c28159"
     },
     {
       "path": "progression.md",
       "downloadPath": "skills/fitness/progression.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/progression.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/progression.md",
+      "byteCount": 4151,
+      "sha256": "e6ad02b7eb308e39ca59f89721a0fe00283ef6d6b93f8f59a27986589d2f74d2"
     },
     {
       "path": "recovery.md",
       "downloadPath": "skills/fitness/recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/recovery.md",
+      "byteCount": 3909,
+      "sha256": "4c1ba17ba05b3c0dce97a0f37c518518be04927df3e5aa6ef239809f69ff0756"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/fitness/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/setup.md",
+      "byteCount": 2771,
+      "sha256": "68ef88ab985ae7e17b93e18d553d38b8cc04cd0d84c37db6ce907a370b80a2be"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/fitness/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md",
+      "byteCount": 16385,
+      "sha256": "bd4287545d06848d0cd66c8f139c6862ce62fa3ed47e5195ae62a13991632d11"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/fitness/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/tracking.md",
+      "byteCount": 3644,
+      "sha256": "934ae9e6b793be490668d88589f17449c3a966c05f082f5c17ffae89a558b3df"
     }
   ]
 }

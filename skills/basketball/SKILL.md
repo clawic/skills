@@ -1,11 +1,22 @@
 ---
-name: Basketball
+name: basketball
 slug: basketball
 version: 1.0.0
-homepage: https://clawic.com/skills/basketball
 description: Analyze basketball games, lineups, players, and practice plans with film-room structure, scouting grids, and possession-based coaching tools.
+homepage: https://clawic.com/skills/basketball
 changelog: Initial release with the Possession Map Protocol, scouting grids, and practice blueprints for practical basketball work.
-metadata: {"clawdbot":{"emoji":"🏀","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/basketball/"]}}
+metadata:
+  clawdbot:
+    emoji: 🏀
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/basketball/
+    displayName: Basketball
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ Do not use it for betting picks, medical advice, fake live stats, or American-fo
 
 ## Architecture
 
-Memory lives in `~/basketball/`. If `~/basketball/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/basketball/`. If `~/Clawic/data/basketball/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/basketball/
+~/Clawic/data/basketball/
 ├── memory.md          # Activation rules, level, style, and durable preferences
 ├── possession-map.md  # Recent game plans, reviews, and possession themes
 ├── roster-notes.md    # Lineups, roles, pairings, and scouting conclusions
@@ -50,7 +61,7 @@ Use the smallest file that resolves the blocker.
 
 ## Data Storage
 
-Local notes in `~/basketball/` may include:
+Local notes in `~/Clawic/data/basketball/` may include:
 - activation rules and the situations where basketball help should appear
 - level, region, offensive style, defensive scheme, and analysis preferences
 - recurring opponents, player-role notes, and roster needs
@@ -122,7 +133,7 @@ Data that leaves your machine:
 - if the user explicitly asks for public basketball facts, only the needed searches, source fetches, or tool calls for that task
 
 Data that stays local:
-- approved basketball notes in `~/basketball/`
+- approved basketball notes in `~/Clawic/data/basketball/`
 
 This skill does NOT:
 - store account credentials or betting logins
@@ -145,7 +156,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analysis` - structure trade-offs, assumptions, and decision quality.
 - `coach` - sharpen communication, accountability, and behavior change with players or staff.
 - `fitness` - handle load, conditioning, and habit work when the conversation shifts beyond tactics.
@@ -154,5 +165,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star basketball`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/basketball
+- Latest version: https://clawic.com/skills/basketball

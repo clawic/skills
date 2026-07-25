@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "39202a838b417a480aff3054e5f6a20c120426450e03e40d01ad99ca17ceb1eb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vibe-design",
-    "name": "Vibe Design",
+    "name": "vibe-design",
     "description": "Create visual designs with AI tools. Covers prompting for UI/graphics, Midjourney techniques, Figma AI workflow, and iteration patterns.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vibe-design",
     "summary": "What is Vibe Design Design where you describe what you want and let AI generate visuals, layouts, and assets. You iterate based on results rather than pixel-pushing from scratch. Same philosophy as vibe coding applied to",
     "repositoryPath": "skills/vibe-design",
     "manifestPath": "registry/skills/vibe-design.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vibe-design/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/_meta.json",
+      "byteCount": 174,
+      "sha256": "850e7535b12f69ce7b77f440f7ed8bf7bc376db5b3c73c5298f8f6bec65073e4"
     },
     {
       "path": "figma.md",
       "downloadPath": "skills/vibe-design/figma.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/figma.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/figma.md",
+      "byteCount": 2452,
+      "sha256": "ba4a2e67d67b2d4c2623d6a09dbf091d5e65178c16cf843d292f1aad8b722928"
     },
     {
       "path": "image-gen.md",
       "downloadPath": "skills/vibe-design/image-gen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/image-gen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/image-gen.md",
+      "byteCount": 2546,
+      "sha256": "e001cd3a0565278c175fd0984f2cf7bacac3f9d5a2254fa7a581196a4a9b545d"
     },
     {
       "path": "prompting.md",
       "downloadPath": "skills/vibe-design/prompting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/prompting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/prompting.md",
+      "byteCount": 2374,
+      "sha256": "278ad7157fce5abf21ac1a202061e8d1d3edca1e528cd6654804f1b0bd6558ee"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vibe-design/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/SKILL.md",
+      "byteCount": 3413,
+      "sha256": "5abbbfb6c09824834a19ec3c5f703e933fe1c94ddc7b78f6eaccc30410d580c8"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/vibe-design/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/tools.md",
+      "byteCount": 2990,
+      "sha256": "fec0a53b8ca5dab501224bea470aefea477ff5bd8228f620a92a31f148ff00a6"
     },
     {
       "path": "ui-design.md",
       "downloadPath": "skills/vibe-design/ui-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/ui-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-design/ui-design.md",
+      "byteCount": 2492,
+      "sha256": "a661fa40d32ce61f1d063a13be410d2cae6870fa2222318104c9145c35a6838b"
     }
   ]
 }

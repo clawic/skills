@@ -1,6 +1,6 @@
 # Memory Template — PowerPoint
 
-Create `~/powerpoint/memory.md` with this structure:
+Create `~/Clawic/data/powerpoint/memory.md` with this structure:
 
 ```markdown
 # PowerPoint Memory
@@ -38,12 +38,12 @@ ppt_attach_mode: attach-existing | launch-new | mixed
 
 - Keep only reusable environment facts and safety preferences.
 - Do not store slide body content unless the user explicitly asks for a local note.
-- Put repeatable failures in `~/powerpoint/incidents.md`.
-- Put non-sensitive recurring deck metadata in `~/powerpoint/deck-notes.md`.
+- Put repeatable failures in `~/Clawic/data/powerpoint/incidents.md`.
+- Put non-sensitive recurring deck metadata in `~/Clawic/data/powerpoint/deck-notes.md`.
 
 ## Optional Companion Files
 
-`~/powerpoint/incidents.md`:
+`~/Clawic/data/powerpoint/incidents.md`:
 
 ```markdown
 # PowerPoint Incidents
@@ -55,7 +55,7 @@ ppt_attach_mode: attach-existing | launch-new | mixed
 - Fix:
 ```
 
-`~/powerpoint/deck-notes.md`:
+`~/Clawic/data/powerpoint/deck-notes.md`:
 
 ```markdown
 # Deck Notes

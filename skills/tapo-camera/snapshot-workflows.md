@@ -16,7 +16,7 @@ The included helper wraps the discovery and RTSP capture flow:
 ```bash
 python3 tapo-capture.py \
   --host 192.168.1.50 \
-  --output ~/tapo-camera/captures/front-door-2026-03-16T2350.jpg
+  --output ~/Clawic/data/tapo-camera/captures/front-door-2026-03-16T2350.jpg
 ```
 
 Expected environment:

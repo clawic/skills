@@ -1,7 +1,17 @@
 ---
-name: Onboarding
+name: onboarding
+slug: onboarding
+version: 1.0.0
 description: Design user onboarding flows that maximize activation and time-to-value.
-metadata: {"clawdbot":{"emoji":"🚀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/onboarding
+metadata:
+  clawdbot:
+    emoji: 🚀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Onboarding
 ---
 
 ## Define Activation First

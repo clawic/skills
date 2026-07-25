@@ -1,6 +1,13 @@
 ---
-name: Scrape
+name: scrape
+slug: scrape
+version: 1.0.0
 description: Legal web scraping with robots.txt compliance, rate limiting, and GDPR/CCPA-aware data handling.
+homepage: https://clawic.com/skills/scrape
+metadata:
+  clawdbot:
+    emoji: 🕷️
+    displayName: Scrape
 ---
 
 ## Pre-Scrape Compliance Checklist

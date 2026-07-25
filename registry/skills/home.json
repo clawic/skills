@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "add0602fcdf35016040867979a71ef25c5a523aa67e028aa3673234b1186081a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "home",
-    "name": "Home",
+    "name": "home",
     "description": "Home improvement, maintenance, and living space optimization with practical guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/home",
     "summary": "Home Assistance Rules Before Recommendations - Ask if renting or owning — renters need reversible solutions, owners can invest in permanent changes - Get room dimensions and photos when possible — furniture that fits in ",
     "repositoryPath": "skills/home",
     "manifestPath": "registry/skills/home.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/home/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/_meta.json",
+      "byteCount": 160,
+      "sha256": "dbf9a448853a8861816a18b6e4f1338b626f3cf3b847e088e5e9ec6f6637c802"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/home/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home/SKILL.md",
+      "byteCount": 3999,
+      "sha256": "3dfd4058d395e24a118af3529927bdd73669faf3cf1b3a87a49acb397b9f8a72"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "075a7d3d634b405ae6b894658068a80eab4b592b9bb020c3d069531372740a5b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "gaokao",
-    "name": "高考 (Gaokao)",
+    "name": "gaokao",
     "description": "Prepare for China's national college entrance exam with progress tracking, weak area analysis, spaced repetition, and university targeting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gaokao",
     "summary": "When to Use User is preparing for 高考 (Gaokao), China's national college entrance exam. Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, and university planning. Quick Reference | Top",
     "repositoryPath": "skills/gaokao",
     "manifestPath": "registry/skills/gaokao.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gaokao/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/_meta.json",
+      "byteCount": 173,
+      "sha256": "0d395e1722b9507553425bc9b90d89843db4c561b318ff6a67a024d800c9f88f"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/gaokao/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/exam-config.md",
+      "byteCount": 2937,
+      "sha256": "06a496f7f393bf34b05540487219d3e13fde7cf4d71065667504a09202ba79a8"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/gaokao/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/feedback.md",
+      "byteCount": 2981,
+      "sha256": "feba910065d17d024f1cc1e024472c1f886e20f8160d2032bc8d5166aa6cc822"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gaokao/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/SKILL.md",
+      "byteCount": 2550,
+      "sha256": "03c6313650214555d510a5d4486ab1cc31523f76ed07b240da2d735431290024"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/gaokao/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/study-methods.md",
+      "byteCount": 3295,
+      "sha256": "ad52ca9c9de157d6cdabeb7f39c111a8537161326699b056efe41509152fff14"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/gaokao/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/targets.md",
+      "byteCount": 3850,
+      "sha256": "cd6ccf145cb276102c9d04f6d5839ff090c1c6979b668b0a2f3d716072070a6b"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/gaokao/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/tracking.md",
+      "byteCount": 3154,
+      "sha256": "797916d1f644f041d023a29b49101fdeadcef68ed237456b55d81aeedac3933c"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/gaokao/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/user-types.md",
+      "byteCount": 4675,
+      "sha256": "1f62b3c86742725a53cdddf0ea0712bbc0190e40887e94ea12060a2797741d59"
     },
     {
       "path": "wellbeing.md",
       "downloadPath": "skills/gaokao/wellbeing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/wellbeing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gaokao/wellbeing.md",
+      "byteCount": 3587,
+      "sha256": "cc7785e210c601176f3c0d6189d3e91c5ad19c7ba11ecbbd5c6eaa6c2272f468"
     }
   ]
 }

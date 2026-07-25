@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8218500440e5c525802f8216519694d7d63c9fb3d577705772f8af59e36f1960",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "solidity",
-    "name": "Solidity",
+    "name": "solidity",
     "description": "Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/solidity",
     "summary": "Reentrancy - External calls before state updates — attacker can re-enter before state changes - Checks-Effects-Interactions pattern — validate, update state, THEN external call - `ReentrancyGuard` from OpenZeppelin — use",
     "repositoryPath": "skills/solidity",
     "manifestPath": "registry/skills/solidity.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/solidity/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/_meta.json",
+      "byteCount": 168,
+      "sha256": "7fe179e144a57a3d5e662515b87084a7c5f10df5b79a1e0e9562b41b5aa0998e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/solidity/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solidity/SKILL.md",
+      "byteCount": 3169,
+      "sha256": "16871c3581d25b06525ce0c46c394334f2bca6e430733abdb2b6d68958eb5215"
     }
   ]
 }

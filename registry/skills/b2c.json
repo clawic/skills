@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "17ace73ea1cfaad958dc5914f19b3cd3f34945e4d6f2bd8904002f1f35ac1f18",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "b2c",
-    "name": "B2C Strategy",
+    "name": "b2c",
     "description": "Build consumer apps with validated demand, sustainable unit economics, and growth loops that compound.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/b2c",
     "summary": "Quick Reference | Topic | File | |-------|------| | Monetization models & paywall design | `monetization.md` | | Unit economics (CAC, LTV, payback) | `economics.md` | | Growth loops & acquisition channels | `growth.md` |",
     "repositoryPath": "skills/b2c",
     "manifestPath": "registry/skills/b2c.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/b2c/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/_meta.json",
+      "byteCount": 167,
+      "sha256": "b89ca7c71e3fcffc28c157530d583b7b99f66d870ee5927188655db6a78be322"
     },
     {
       "path": "benchmarks.md",
       "downloadPath": "skills/b2c/benchmarks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/benchmarks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/benchmarks.md",
+      "byteCount": 2182,
+      "sha256": "eca9582964ebabed792dcf0114991b00e60f89e5b59f0bd93a0eb48f970c758f"
     },
     {
       "path": "economics.md",
       "downloadPath": "skills/b2c/economics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/economics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/economics.md",
+      "byteCount": 1708,
+      "sha256": "b2ea5b316d7b754adeba7452e3fff740dfb568ed81fc8bbeb149277e237ee57e"
     },
     {
       "path": "growth.md",
       "downloadPath": "skills/b2c/growth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/growth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/growth.md",
+      "byteCount": 2108,
+      "sha256": "6e1c709d31533a43b7ac49b8caf1702aebc1f56fe6526698851d961a40710b60"
     },
     {
       "path": "monetization.md",
       "downloadPath": "skills/b2c/monetization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/monetization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/monetization.md",
+      "byteCount": 1739,
+      "sha256": "3bd963b380eca94e3dcfea9cfff0592bc60ac887b0dc226caf7a70f907ce060d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/b2c/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2c/SKILL.md",
+      "byteCount": 2317,
+      "sha256": "0c2dc23634d58d05598a56faab10ba28fe007cfe189cf3823cf14368786a3bd8"
     }
   ]
 }

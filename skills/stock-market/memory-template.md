@@ -1,6 +1,6 @@
 # Memory Template — Stock Market
 
-Create `~/stock-market/memory.md` with this structure:
+Create `~/Clawic/data/stock-market/memory.md` with this structure:
 
 ```markdown
 # Stock Market Memory

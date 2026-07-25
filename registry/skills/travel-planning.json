@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f5d24bbe0627f0c0ca8f042dcc866a150991a126980c822b87f97aac2291b43f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "travel-planning",
-    "name": "Travel Planning",
+    "name": "travel-planning",
     "description": "Plan trips with itineraries, multi-city routing, budget optimization, family logistics, packing lists, and visa timelines.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/travel-planning",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/travel-planning/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/_meta.json",
+      "byteCount": 182,
+      "sha256": "a58b0e2aa51b15a832f4ab2a853ae3df694a29d3c41e7b875698c6acdffe4735"
     },
     {
       "path": "booking-guide.md",
       "downloadPath": "skills/travel-planning/booking-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/booking-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/booking-guide.md",
+      "byteCount": 3000,
+      "sha256": "c6b1c8a3e3d69e4ce7398a8375ca4b2778ca266c6e950e7fb1e5ca29b17c7dae"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/travel-planning/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/memory-template.md",
+      "byteCount": 2571,
+      "sha256": "137e2e86740429dd496d99131793ec90661561ca169505207cc9e51a9a8437ae"
     },
     {
       "path": "multi-city.md",
       "downloadPath": "skills/travel-planning/multi-city.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/multi-city.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/multi-city.md",
+      "byteCount": 4104,
+      "sha256": "c7339516b03df6cd2211713affec92089fe9a8eb061972007e679a62fbf1717f"
     },
     {
       "path": "packing-templates.md",
       "downloadPath": "skills/travel-planning/packing-templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/packing-templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/packing-templates.md",
+      "byteCount": 3588,
+      "sha256": "59a01e163136137e3e38b7442b114eff3cb2926a9ece0f2e3e0e72af5e2dc07a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/travel-planning/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/setup.md",
+      "byteCount": 2732,
+      "sha256": "d180a5e051121e36957713dd80ec89d164813953a41518888ce5157b4cd52f2c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/travel-planning/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel-planning/SKILL.md",
+      "byteCount": 8729,
+      "sha256": "b3746261c468d7a19eaf6fb61e2b835fcd9d654fc69a12377088e0e3e98ff0d9"
     }
   ]
 }

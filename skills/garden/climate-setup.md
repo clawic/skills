@@ -2,7 +2,7 @@
 
 ## Setup climate.md
 
-Create `~/garden/climate.md` with your garden's climate profile:
+Create `~/Clawic/data/garden/climate.md` with your garden's climate profile:
 
 ```markdown
 # Climate Profile

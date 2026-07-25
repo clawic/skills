@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a6005c428510ac9e43f43589a0af5e7fd5fbb445279671febd0f606d784ddde6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "china",
-    "name": "China",
+    "name": "china",
     "description": "Discover China like a local with deep city-region coverage, practical route planning, food context, and execution-ready travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/china",
-    "summary": "Setup If `~/china/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to China or asking for local insights: where to base, how to split huge distances, what to prioritize b",
+    "summary": "Setup If `~/Clawic/data/china/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to China or asking for local insights: where to base, how to split huge distances, what to ",
     "repositoryPath": "skills/china",
     "manifestPath": "registry/skills/china.json"
   },
@@ -22,172 +25,240 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/china/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/_meta.json",
+      "byteCount": 162,
+      "sha256": "1e7284d831b573b3fbeaa7babfcb7448aa20774a2f747de3c7d37ef235c1cabe"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/china/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/accommodation.md",
+      "byteCount": 835,
+      "sha256": "21a71c4d8e72e3a4584e900b4c3b2d8c8b225cde31fd88b084aa0227630e2186"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/china/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/apps.md",
+      "byteCount": 659,
+      "sha256": "5ff4bf1049ba754b321ce4e90570ecb382a54f3e679c48f26bd880463a9c068a"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/china/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/beaches.md",
+      "byteCount": 627,
+      "sha256": "042941a9ff11d3beedd99f5cdc73ca98e559bdf1da48aab653da5cce7c075902"
     },
     {
       "path": "beijing.md",
       "downloadPath": "skills/china/beijing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/beijing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/beijing.md",
+      "byteCount": 1327,
+      "sha256": "dff6bfe679139e38666019062c866d85c925670f451daaacbcc0957757b02544"
     },
     {
       "path": "chengdu-chongqing.md",
       "downloadPath": "skills/china/chengdu-chongqing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/chengdu-chongqing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/chengdu-chongqing.md",
+      "byteCount": 879,
+      "sha256": "fef1ddd73085ccb2a58d9c8f3ad7c4c9002bc024d894116deb8524e103cade12"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/china/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/culture.md",
+      "byteCount": 671,
+      "sha256": "a3292e97716831631a48e6e54cab879588092a2e7418de00b8321d68d4b92476"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/china/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/emergencies.md",
+      "byteCount": 936,
+      "sha256": "f12d1c2b99ccba7ab95aac4ea438ea4fbb99885fdecf5ddd29f388df68541476"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/china/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/entry-and-documents.md",
+      "byteCount": 794,
+      "sha256": "978eacd82b1013dae5d5da3140f7ef916a44cb637230910a158df17310f9c567"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/china/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/experiences.md",
+      "byteCount": 708,
+      "sha256": "58da3b2f21af385fbfe0c3afef636e28daa637c565d8f64a612c24a22eb3d82f"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/china/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/food-guide.md",
+      "byteCount": 903,
+      "sha256": "9ac265eff02fcfeea90e792fc9c9af1b52630a14c5ad5121bdd4010d38fc2c01"
     },
     {
       "path": "guangzhou-shenzhen.md",
       "downloadPath": "skills/china/guangzhou-shenzhen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/guangzhou-shenzhen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/guangzhou-shenzhen.md",
+      "byteCount": 964,
+      "sha256": "10cb4acedcc0581a967e1ddf760477514c23375ef683a2f69ab9ce1359f0691e"
     },
     {
       "path": "guilin-yangshuo.md",
       "downloadPath": "skills/china/guilin-yangshuo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/guilin-yangshuo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/guilin-yangshuo.md",
+      "byteCount": 747,
+      "sha256": "e3795575d86c59b880c53e82966541237c8fc6045e3fe9b1cd87036a5181aa65"
     },
     {
       "path": "hainan.md",
       "downloadPath": "skills/china/hainan.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/hainan.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/hainan.md",
+      "byteCount": 709,
+      "sha256": "acd09916d1df31e7cec285eda6aa21c926bbd7b74a4cced673fc229bb2442227"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/china/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/hiking.md",
+      "byteCount": 620,
+      "sha256": "f1f35e61fe1f694558bd6d0168e7f4482a08740ed2470e7c22875cdfaad6d352"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/china/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/itineraries.md",
+      "byteCount": 619,
+      "sha256": "9fab79ab401709db415d82284ee872830b00701578cff177bd108495cb84eed3"
     },
     {
       "path": "long-routes.md",
       "downloadPath": "skills/china/long-routes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/long-routes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/long-routes.md",
+      "byteCount": 805,
+      "sha256": "e78efdfde4bf4e763dde0a7115768245ac3aae934ab136c35c8b7afc3cf859f2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/china/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/memory-template.md",
+      "byteCount": 1314,
+      "sha256": "807e3968a7e8ef81600e811134ed344e3329670d3b48c4dd8fdf23d7576a9651"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/china/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/nightlife.md",
+      "byteCount": 650,
+      "sha256": "dc1c6dd61113fa491d1e944ea23f15635b0c3afc69683274457021e1944d37a9"
     },
     {
       "path": "payment-and-internet.md",
       "downloadPath": "skills/china/payment-and-internet.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/payment-and-internet.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/payment-and-internet.md",
+      "byteCount": 702,
+      "sha256": "9a72ebae695cb3560a27250432669016c1add2fe045d713d0006054465071105"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/china/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/regions.md",
+      "byteCount": 791,
+      "sha256": "f7a45aeb3689ff8e3bc2498cb3d632c7e798881d8190603ce8d542cc72ba5366"
     },
     {
       "path": "seasonality.md",
       "downloadPath": "skills/china/seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/seasonality.md",
+      "byteCount": 678,
+      "sha256": "c78fac0ae902fdcf40d47d18ce2426aa5a0afab29d49e60bf54d8951c61e3410"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/china/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/setup.md",
+      "byteCount": 1686,
+      "sha256": "37e9de44e6224f1f2874449f957b345e51a37f26336bb01c28c3171356495e28"
     },
     {
       "path": "shanghai.md",
       "downloadPath": "skills/china/shanghai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/shanghai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/shanghai.md",
+      "byteCount": 1483,
+      "sha256": "c626e6abf3a554656268f1da27bf9f0621fa2270b17029afea343f255ce7b105"
     },
     {
       "path": "silk-road-gansu-qinghai.md",
       "downloadPath": "skills/china/silk-road-gansu-qinghai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/silk-road-gansu-qinghai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/silk-road-gansu-qinghai.md",
+      "byteCount": 819,
+      "sha256": "7c717b6ecc946bafd73d6cb1b7ed80d81ad93a82fc4e749ef8ddcd469e4894c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/china/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/SKILL.md",
+      "byteCount": 6250,
+      "sha256": "770c4bf72b7842447bc83ef6493304bd78175da9de92b9fc6a32814a74c2b17b"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/china/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/telecoms.md",
+      "byteCount": 571,
+      "sha256": "6cdaa09a63d44d0739411ab260efb117d1ea28094ea1106138e88598fcf32043"
     },
     {
       "path": "tibet-and-high-altitude.md",
       "downloadPath": "skills/china/tibet-and-high-altitude.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/tibet-and-high-altitude.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/tibet-and-high-altitude.md",
+      "byteCount": 720,
+      "sha256": "0afb16aa51d150358d3827f910ff145ee1584d67eb56c07866ba42ae4d702dca"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/china/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/transport.md",
+      "byteCount": 794,
+      "sha256": "f52d178410d193d4aae16b3a324cf4f39c53e937490d2c3e4ceab517e873fa72"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/china/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/wine.md",
+      "byteCount": 771,
+      "sha256": "77834fd1de51b5c4cd28a7d2c35a22bea153f9981a867e6f07a78691322a809c"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/china/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/with-kids.md",
+      "byteCount": 657,
+      "sha256": "1cbf6e42f0b84551f37f297c5f043c487151593334fbdc279acff2d575389b33"
     },
     {
       "path": "xian.md",
       "downloadPath": "skills/china/xian.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/xian.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/xian.md",
+      "byteCount": 849,
+      "sha256": "969f445c1abca98f3458a66108117ac9d1b58ff014d60d2d2e6ff5022c4aab5f"
     },
     {
       "path": "yunnan.md",
       "downloadPath": "skills/china/yunnan.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/yunnan.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/yunnan.md",
+      "byteCount": 825,
+      "sha256": "1b66f34bbb598217634586a5d6403e09edcc3dad0506aeacceb1299645ffff1e"
     },
     {
       "path": "zhangjiajie-hunan.md",
       "downloadPath": "skills/china/zhangjiajie-hunan.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/zhangjiajie-hunan.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/china/zhangjiajie-hunan.md",
+      "byteCount": 702,
+      "sha256": "5eb2f12c533ac2bb574b7d8fe8b50f67d58d828692bfcf0b82577de98b0b5148"
     }
   ]
 }

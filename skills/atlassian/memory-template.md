@@ -1,6 +1,6 @@
 # Memory Template — Atlassian Cloud APIs + CLIs
 
-Create `~/atlassian/memory.md` with this structure:
+Create `~/Clawic/data/atlassian/memory.md` with this structure:
 
 ```markdown
 # Atlassian Memory

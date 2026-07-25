@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11d9bfb1ba301de9e676881e176ffd962a842132141e833b3a4d6c8d7c97879c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "newsletter",
-    "name": "Newsletter",
+    "name": "newsletter",
     "description": "Create, grow, and monetize newsletters with effective content and subscriber strategies.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/newsletter",
     "summary": "Subject Lines - Curiosity gap—promise value, don't reveal everything - Specific > vague: \"5 tools I use daily\" > \"Useful tools\" - Numbers work—quantified promises feel tangible - Personal: \"you\" and lowercase feels like ",
     "repositoryPath": "skills/newsletter",
     "manifestPath": "registry/skills/newsletter.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/newsletter/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/newsletter/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/newsletter/_meta.json",
+      "byteCount": 172,
+      "sha256": "5e349937592a31c3288df1bedfeb5dfb27ff3b5f323584ca27c2ef2688683f9d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/newsletter/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/newsletter/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/newsletter/SKILL.md",
+      "byteCount": 4402,
+      "sha256": "a5516b33e82b079d8dd10a0d8b89fc45acdf30fafc6e3f4693622129bbc8dd22"
     }
   ]
 }

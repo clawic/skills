@@ -1,6 +1,6 @@
 # Setup — Product Owner
 
-Read this on first use when `~/product-owner/` doesn't exist.
+Read this on first use when `~/Clawic/data/product-owner/` doesn't exist.
 
 ## Your Attitude
 
@@ -39,7 +39,7 @@ Don't just jump to the next question. After the user shares something:
 
 ## Data Storage
 
-All data is stored locally in `~/product-owner/`:
+All data is stored locally in `~/Clawic/data/product-owner/`:
 
 | Location | Content |
 |----------|---------|

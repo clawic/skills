@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b221d5955ff318097f0e777b10b9d0367740bdb781be5ba98b92f3d3024c4257",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "pkm",
-    "name": "Personal Knowledge Base",
+    "name": "pkm",
     "description": "Help users build a personal knowledge base by organizing whatever they send into structured notes.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/pkm",
     "summary": "Core Behavior - User sends anything: link, idea, quote, snippet, question, rambling thought - Capture first, organize second — never lose input while deciding where it goes - Create `~/kb/` as the workspace — flat folder",
     "repositoryPath": "skills/pkm",
     "manifestPath": "registry/skills/pkm.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pkm/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pkm/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pkm/_meta.json",
+      "byteCount": 178,
+      "sha256": "6c1797fca8e3d79a928c92fed2299c0a5b22e8bb98395f8b2d0d8ac038a5b3cd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pkm/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pkm/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pkm/SKILL.md",
+      "byteCount": 4126,
+      "sha256": "3f91d742334bc31354e7082885d68fa4a1aa57a3869d3b30841b542fdac6da18"
     }
   ]
 }

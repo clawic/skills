@@ -181,7 +181,7 @@ If drift occurred, update the frame template for next time.
 Store reusable frame templates for common task types:
 
 ```
-~/self-direction/transmission.md
+~/Clawic/data/self-direction/transmission.md
 ├── ## Code Review Frame Template
 ├── ## Research Frame Template  
 ├── ## Implementation Frame Template

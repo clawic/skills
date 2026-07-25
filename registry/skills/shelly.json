@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "adc0211644c56824e475c502feb0da03ddd552431f3ce80cc35155becbc6d6c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "shelly",
-    "name": "Shelly",
+    "name": "shelly",
     "description": "Control and automate Shelly devices with local RPC workflows, secure access modes, cloud API coordination, and safe multi-device execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/shelly",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/shelly/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/_meta.json",
+      "byteCount": 164,
+      "sha256": "f0ec475cea26c26f2b6128fc8beefd79c9a80a4e19f88ee38a88e2418aab0058"
     },
     {
       "path": "auth-and-access.md",
       "downloadPath": "skills/shelly/auth-and-access.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/auth-and-access.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/auth-and-access.md",
+      "byteCount": 1308,
+      "sha256": "7caa845739858467e2fc77a61c0370f9545ba0764af79a106e95518b98d91866"
     },
     {
       "path": "device-operations.md",
       "downloadPath": "skills/shelly/device-operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/device-operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/device-operations.md",
+      "byteCount": 1039,
+      "sha256": "723c22428db2780c7160c41cce2259cc93022f496d08dbf9ccd6241746a761de"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/shelly/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/memory-template.md",
+      "byteCount": 2053,
+      "sha256": "1119c2f5859a0d205b8522016ac0dc029280ce7ace30ca788bae9e3a2f14d9b8"
     },
     {
       "path": "orchestration-playbooks.md",
       "downloadPath": "skills/shelly/orchestration-playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/orchestration-playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/orchestration-playbooks.md",
+      "byteCount": 1133,
+      "sha256": "67bf8d7bbf986fb71894340049de7d005a7753e3ad835ddbf7532109ab651e2f"
     },
     {
       "path": "protocol-matrix.md",
       "downloadPath": "skills/shelly/protocol-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/protocol-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/protocol-matrix.md",
+      "byteCount": 1219,
+      "sha256": "fcf72db4c89b5b9a3de21ac6fc17495f71e4052c7260c9b20a9f0063223de4d0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/shelly/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/setup.md",
+      "byteCount": 2314,
+      "sha256": "b20ae571dd18fc3bf4da354b63729a9194e6af21c194e47fa76679d5215044b2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/shelly/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/SKILL.md",
+      "byteCount": 7346,
+      "sha256": "c138efaef5ca3678b17d870c0db8b936919df006861792066010ee679296c42e"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/shelly/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shelly/troubleshooting.md",
+      "byteCount": 1916,
+      "sha256": "6cb47de6c572f133117aa1c0538c48f3b49435b8328727164b2dbba9e6d58efe"
     }
   ]
 }

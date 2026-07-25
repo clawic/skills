@@ -1,7 +1,20 @@
 ---
-name: SQLite
+name: sqlite
+slug: sqlite
+version: 1.0.0
 description: Use SQLite correctly with proper concurrency, pragmas, and type handling.
-metadata: {"clawdbot":{"emoji":"🪶","requires":{"bins":["sqlite3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sqlite
+metadata:
+  clawdbot:
+    emoji: 🪶
+    requires:
+      bins:
+      - sqlite3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: SQLite
 ---
 
 ## Concurrency (Biggest Gotcha)

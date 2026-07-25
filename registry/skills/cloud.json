@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6a21a88c147877dca7fb3f939975b6a37ac7718980b7e4a7e3384f602fc7613a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cloud",
-    "name": "Cloud",
+    "name": "cloud",
     "description": "Choose, organize, sync, share, and back up personal files across iCloud, Google Drive, Dropbox, and OneDrive.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cloud",
     "summary": "Triggers Activate on: iCloud full, cloud storage, backup photos, sync between devices, share folder, Google Drive help, Dropbox issues, \"where are my files\", storage plan comparison. Scope This skill covers **consumer cl",
     "repositoryPath": "skills/cloud",
     "manifestPath": "registry/skills/cloud.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cloud/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/_meta.json",
+      "byteCount": 162,
+      "sha256": "de30f3f32abc870b289b67ab45c64df215b08f0f5ab2066239193585c2006472"
     },
     {
       "path": "backup.md",
       "downloadPath": "skills/cloud/backup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/backup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/backup.md",
+      "byteCount": 2557,
+      "sha256": "a71fb08eed7464d0322c9f4bd56710d560978cf2427b737723884c254e9eb6ef"
     },
     {
       "path": "cleanup.md",
       "downloadPath": "skills/cloud/cleanup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/cleanup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/cleanup.md",
+      "byteCount": 2490,
+      "sha256": "01fb3bb12e07c4010e1de612039732fc9ebb39db096ff6ffb83bd89b4c68bbb7"
     },
     {
       "path": "services.md",
       "downloadPath": "skills/cloud/services.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/services.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/services.md",
+      "byteCount": 2126,
+      "sha256": "e2bf36a3235485888eae496ee01f778fd466638c21fc32d589ea1205a79cc7b2"
     },
     {
       "path": "sharing.md",
       "downloadPath": "skills/cloud/sharing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/sharing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/sharing.md",
+      "byteCount": 3120,
+      "sha256": "40d0e4e39181165ad2bff878673aa8871e98ced4d27f11a405026ca913be53be"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cloud/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud/SKILL.md",
+      "byteCount": 2639,
+      "sha256": "da860479d779470185536108a94ba9b5233bf7356ad85fd772f61b40022aed10"
     }
   ]
 }

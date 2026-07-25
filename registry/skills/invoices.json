@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bcec3f845d0fa7a53a24b4bb429543016563081b6cef40865b8cb712918ddead",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "invoices",
-    "name": "Invoices",
+    "name": "invoices",
     "description": "Capture, extract, and organize received invoices with automatic OCR, provider detection, and searchable archive.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/invoices",
     "summary": "Trigger Use when user receives invoices (email, photo, PDF) and wants them organized automatically. **Key difference:** This skill MANAGES received invoices. The `invoice` skill CREATES invoices to send. --- Storage ``` ",
     "repositoryPath": "skills/invoices",
     "manifestPath": "registry/skills/invoices.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/invoices/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/_meta.json",
+      "byteCount": 244,
+      "sha256": "1ac989690f4826b22afe78875d01bd90b9205ea580c04a155b3c1a068aba6650"
     },
     {
       "path": "extraction.md",
       "downloadPath": "skills/invoices/extraction.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/extraction.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/extraction.md",
+      "byteCount": 2099,
+      "sha256": "b1c43030ee63689ad5637c62e16a83ec863c978a049e44e89bbc5bc1f8d8c3fb"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/invoices/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/legal.md",
+      "byteCount": 2055,
+      "sha256": "b8216ab5da71812e534928324528c06203ca4b32d9dcc9951ed6fd9c015376bf"
     },
     {
       "path": "process.md",
       "downloadPath": "skills/invoices/process.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/process.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/process.md",
+      "byteCount": 3193,
+      "sha256": "c30fc7b2743802ba367976fb93ca9b1c172ddc21d790edf6386fa35bfa20aa5d"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/invoices/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/search.md",
+      "byteCount": 2072,
+      "sha256": "6424b5f6cf1c01d1d57cc2a9e5f5ae022c599a2c4835b1754bc388bfe22be876"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/invoices/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/SKILL.md",
+      "byteCount": 2258,
+      "sha256": "c7a53c182a9162bec57840fb505ba1a52fd3dbe747c5fcfa8fec2ee6f15a2543"
     }
   ]
 }

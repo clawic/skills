@@ -1,28 +1,43 @@
 ---
-name: Monitor
+name: monitor
 slug: monitor
 version: 1.0.2
 description: Create monitors for anything. User defines what to check, skill handles scheduling and alerts.
+homepage: https://clawic.com/skills/monitor
 changelog: Declared required binaries and optional env vars in metadata
-metadata: {"clawdbot":{"emoji":"📡","requires":{"bins":["curl"],"env":{"optional":["PUSHOVER_TOKEN","PUSHOVER_USER"]}},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📡
+    requires:
+      bins:
+      - curl
+      env:
+        optional:
+        - PUSHOVER_TOKEN
+        - PUSHOVER_USER
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Monitor
 ---
 
 ## Data Storage
 
 ```
-~/monitor/
+~/Clawic/data/monitor/
 ├── monitors.json       # Monitor definitions
 ├── config.json         # Alert preferences
 └── logs/               # Check results
     └── {name}/YYYY-MM.jsonl
 ```
 
-Create on first use: `mkdir -p ~/monitor/logs`
+Create on first use: `mkdir -p ~/Clawic/data/monitor/logs`
 
 ## Scope
 
 This skill:
-- ✅ Stores monitor definitions in ~/monitor/
+- ✅ Stores monitor definitions in ~/Clawic/data/monitor/
 - ✅ Runs checks at specified intervals
 - ✅ Alerts user on status changes
 
@@ -77,7 +92,7 @@ User: "Yes, and check SSL cert too"
 ```
 
 ### 2. Monitor Definition
-In ~/monitor/monitors.json:
+In ~/Clawic/data/monitor/monitors.json:
 ```json
 {
   "api_prod": {

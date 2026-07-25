@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c60ca349b62f475b965df4e4f525d7d2420072fdeb9eda023036aa063384edb3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "siri",
-    "name": "Siri",
+    "name": "siri",
     "description": "Control devices, run automations, and help users get more from Siri with HomeKit, Shortcuts, and voice command guidance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/siri",
     "summary": "Activation & Setup **Trigger methods:** - Hold Side/Home button - \"Hey Siri\" (always-listening) - \"Siri\" alone (iOS 17+) **Hey Siri not working?** Check: Settings → Siri → Listen for, retrain voice model, test mic with V",
     "repositoryPath": "skills/siri",
     "manifestPath": "registry/skills/siri.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/siri/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/_meta.json",
+      "byteCount": 160,
+      "sha256": "ce09c26e877c3554dea084e11a6ce320977c63a2f0d6d377bfcc1524714527f2"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/siri/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/commands.md",
+      "byteCount": 2591,
+      "sha256": "63ac6c05bee61333e13b35a81011f0a2b009f41f7134824af3e16c8840a422d8"
     },
     {
       "path": "development.md",
       "downloadPath": "skills/siri/development.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/development.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/development.md",
+      "byteCount": 4878,
+      "sha256": "a4150835fbfe81fcea149fa607d5c57c554d03e64d0065a4c9c8dfe094a705fd"
     },
     {
       "path": "homekit.md",
       "downloadPath": "skills/siri/homekit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/homekit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/homekit.md",
+      "byteCount": 3302,
+      "sha256": "f252c1928f7cc3e20b752f6820073b65ec1251516551962546f80082361af3f6"
     },
     {
       "path": "shortcuts.md",
       "downloadPath": "skills/siri/shortcuts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/shortcuts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/shortcuts.md",
+      "byteCount": 4017,
+      "sha256": "015cb7f6714fcc0d8c5f950d4841c66ac41751943ca1b37daa055e2316ecc272"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/siri/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/siri/SKILL.md",
+      "byteCount": 3158,
+      "sha256": "2911b1ad6a95902b8a9773ac06067d72ca6ac0ecbe303ee8f6f649c8db660726"
     }
   ]
 }

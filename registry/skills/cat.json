@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c24a6bd62addc8415178c4201625148bd253e624cb2358c83d91b07c6f3553a4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cat",
-    "name": "Cat",
+    "name": "cat",
     "description": "Track cat health, litter, routines, behavior, travel, and vet coordination with species-aware memory and emergency triage.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/cat",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cat/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/_meta.json",
+      "byteCount": 158,
+      "sha256": "aaf19a918c33091582eb9ec84daf9e6a4db4f510d95ab86b49d5c6ab99743003"
     },
     {
       "path": "behavior.md",
       "downloadPath": "skills/cat/behavior.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/behavior.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/behavior.md",
+      "byteCount": 1214,
+      "sha256": "4169935297abc9a3eaabdded41a7e4b9400a4c3ed19762990779cfb1f798f575"
     },
     {
       "path": "household.md",
       "downloadPath": "skills/cat/household.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/household.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/household.md",
+      "byteCount": 1042,
+      "sha256": "3a0040356771ec7a1991ed714931403705bc1270d5cbb21b497321426f09b0c6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cat/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/memory-template.md",
+      "byteCount": 2100,
+      "sha256": "805be0c47d9193aa5d1138a84b7d156bdd256ba9cde54309445ee07c3061f220"
     },
     {
       "path": "records.md",
       "downloadPath": "skills/cat/records.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/records.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/records.md",
+      "byteCount": 1117,
+      "sha256": "208e964684f28e206db088f27992e7c55b0c1ef98406b0d5f0950d4cba4231ac"
     },
     {
       "path": "routines.md",
       "downloadPath": "skills/cat/routines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/routines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/routines.md",
+      "byteCount": 1382,
+      "sha256": "fa447a016a54a510c2a3407f00cc85a8333386b68a1cbf35383695c5fcbbe1b1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cat/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/setup.md",
+      "byteCount": 2391,
+      "sha256": "0d9f99aa9df507107a4002a8e302b24da753b6117836099ecfa6d69733e54dee"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cat/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/SKILL.md",
+      "byteCount": 7453,
+      "sha256": "2ab0ca6f267283e5001f0d2a89389535693afba89e99e65c06753a664f3a98e8"
     },
     {
       "path": "travel.md",
       "downloadPath": "skills/cat/travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/travel.md",
+      "byteCount": 910,
+      "sha256": "09d2724db92d3c05fc58b10d70e06f7ae2804a9c391275572c51ca01f856f86a"
     },
     {
       "path": "triage.md",
       "downloadPath": "skills/cat/triage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/triage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cat/triage.md",
+      "byteCount": 1829,
+      "sha256": "69fa284aa3b7ed5f7a51cc55e57b685411d713b06d2d1c7d9900fbc1113f8600"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ae67f2d90734990939864efe755cd86ca9c81eaa6362fe10cf67fc36db9fbbad",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "udio",
-    "name": "Udio",
+    "name": "udio",
     "description": "Generate AI music with Udio via API wrappers or browser automation, with prompt engineering and song extensions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/udio",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/udio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/_meta.json",
+      "byteCount": 160,
+      "sha256": "3b627dfafbbc6ad07bbecd8264ca852a889aedcddd812a3b6a0d770246a6149c"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/udio/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/api.md",
+      "byteCount": 7095,
+      "sha256": "e754b23a9b96f4aaf8a1d1cf74dfa79b0d4dd8921506cb59f398adfc020ff589"
     },
     {
       "path": "browser.md",
       "downloadPath": "skills/udio/browser.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/browser.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/browser.md",
+      "byteCount": 5527,
+      "sha256": "f4b4d65ca6bbc1822b84e5e96fd9a61899b9125b8debe5c8adf20ac8a4b0331b"
     },
     {
       "path": "lyrics.md",
       "downloadPath": "skills/udio/lyrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/lyrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/lyrics.md",
+      "byteCount": 4819,
+      "sha256": "80bad66ed6818ce47ca72ec3df7dd5a8813c1b9ecdbd11ffb8e95576af49fd49"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/udio/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/memory-template.md",
+      "byteCount": 2317,
+      "sha256": "057c6b3a165c4c3a2fa44851df42ecaaf153c730aab62c96ff102c6dd9532596"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/udio/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/prompts.md",
+      "byteCount": 4056,
+      "sha256": "46626018d6b8295befa104f013e84e0d58134fafb553c748518334080d289e78"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/udio/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/setup.md",
+      "byteCount": 2496,
+      "sha256": "d21461f9637885c97072ca6762fb50306f90239f29572ed7c6b3458954e83dc9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/udio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/SKILL.md",
+      "byteCount": 9240,
+      "sha256": "6e19f83ae493353c9eb0bcebf041886178d820f4b3509fb034f2fa0705bec5cd"
     },
     {
       "path": "styles.md",
       "downloadPath": "skills/udio/styles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/styles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/udio/styles.md",
+      "byteCount": 4801,
+      "sha256": "808c8e712da522ccc2deff091cab7d7ff9b7d12c1e22511d50c641b2ce46a682"
     }
   ]
 }

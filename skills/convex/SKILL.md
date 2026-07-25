@@ -1,11 +1,24 @@
 ---
-name: Convex
+name: convex
 slug: convex
 version: 1.0.0
-homepage: https://clawic.com/skills/convex
 description: Build and maintain Convex backends with schema-safe modeling, query and mutation patterns, auth guards, and production rollout checks.
+homepage: https://clawic.com/skills/convex
 changelog: Initial release with schema, auth, indexing, and rollout guidance for Convex projects.
-metadata: {"clawdbot":{"emoji":"DB","requires":{"bins":[],"config":["~/convex/"]},"os":["linux","darwin","win32"],"configPaths":["~/convex/"]}}
+metadata:
+  clawdbot:
+    emoji: DB
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/convex/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/convex/
+    displayName: Convex
 ---
 
 ## Setup
@@ -20,10 +33,10 @@ This skill focuses on implementation quality and operational safety, not generic
 
 ## Architecture
 
-Memory lives in `~/convex/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/convex/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/convex/
+~/Clawic/data/convex/
 |- memory.md               # Durable project context and technical decisions
 |- schema-notes.md         # Table design and index rationale
 |- rollout-notes.md        # Deploy and incident learnings
@@ -49,7 +62,7 @@ Use the smallest relevant file for the current task.
 
 ## Data Storage
 
-This skill stores reusable context only under `~/convex/`:
+This skill stores reusable context only under `~/Clawic/data/convex/`:
 - memory file for durable project context and decisions
 - schema notes for modeling and index rationale
 - rollout notes for deployment and incident lessons
@@ -130,21 +143,21 @@ Fast diagnosis compounds over time.
 - None by default from this skill itself.
 
 **Data that stays local:**
-- Convex project context and decisions under `~/convex/`.
+- Convex project context and decisions under `~/Clawic/data/convex/`.
 
 **This skill does NOT:**
 - Automatically call external services.
 - Manage or store secrets outside user-approved files.
 - Apply destructive schema changes without explicit confirmation.
-- Modify files outside `~/convex/` for memory.
+- Modify files outside `~/Clawic/data/convex/` for memory.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `backend` - Service architecture and operational reliability patterns.
 - `typescript` - Type-safe design and implementation for app and backend code.
 - `javascript` - Runtime behavior and language-level debugging workflows.
 
 ## Feedback
 
-- If useful: `clawhub star convex`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/convex
+- Latest version: https://clawic.com/skills/convex

@@ -2,7 +2,7 @@
 
 ## Main Memory
 
-Create `~/telegram-bot-api/memory.md`:
+Create `~/Clawic/data/telegram-bot-api/memory.md`:
 
 ```markdown
 # Telegram Bot API Memory
@@ -27,7 +27,7 @@ environment: local
 
 ## Bot Configuration
 
-Create `~/telegram-bot-api/bots/{botname}.md`:
+Create `~/Clawic/data/telegram-bot-api/bots/{botname}.md`:
 
 ```markdown
 # Bot: {Bot Name}

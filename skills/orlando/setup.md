@@ -1,6 +1,6 @@
 # Setup - Orlando
 
-Read this when `~/orlando/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
+Read this when `~/Clawic/data/orlando/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
 
 ## Your Attitude
 
@@ -16,7 +16,7 @@ Orlando questions usually hide one of six problems:
 
 Answer the user's question first whenever possible. Then gather only the next detail that improves the next move.
 
-This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/orlando/` or `memory.md`.
+This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/Clawic/data/orlando/` or `memory.md`.
 
 ## Priority Order
 
@@ -61,7 +61,7 @@ Pick up only the constraints that change future advice:
 
 ## What You're Saving (internally)
 
-Keep `~/orlando/memory.md` lightweight and useful:
+Keep `~/Clawic/data/orlando/memory.md` lightweight and useful:
 - activation preference for Orlando topics
 - current mode, timeline, and preferred base area
 - park priorities, lodging pattern, or move shortlist

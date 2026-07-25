@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8e011b212f7b7a2f170e3909f59a630e174fb4dd765b425e72996f60b29eef52",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "search-engine",
-    "name": "Search Engine",
+    "name": "search-engine",
     "description": "Design and build any search engine with robust indexing, retrieval logic, relevance controls, and evaluation workflows for production systems.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/search-engine",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/search-engine/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/_meta.json",
+      "byteCount": 178,
+      "sha256": "5a5f20b47d27b038b566605702b2be087299574f18b71d32811150d362c9a258"
     },
     {
       "path": "architecture-blueprint.md",
       "downloadPath": "skills/search-engine/architecture-blueprint.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/architecture-blueprint.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/architecture-blueprint.md",
+      "byteCount": 1550,
+      "sha256": "54a292e16900c45a3d15e0d33bf7e0a4e4ff01aae14c4eb130c99163c0947362"
     },
     {
       "path": "evaluation-metrics.md",
       "downloadPath": "skills/search-engine/evaluation-metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/evaluation-metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/evaluation-metrics.md",
+      "byteCount": 1114,
+      "sha256": "ef2b400c0f38f230ea2b3ae47aa8d44b7e6c5b03414d2d39bc78c8a5a2f3ad36"
     },
     {
       "path": "implementation-checklist.md",
       "downloadPath": "skills/search-engine/implementation-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/implementation-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/implementation-checklist.md",
+      "byteCount": 865,
+      "sha256": "893faa737354c783f12af4c0ec4cf357cf8ed5d33daf2afe857e355066b58219"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/search-engine/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/memory-template.md",
+      "byteCount": 1398,
+      "sha256": "72b474979708bc0732ff6bff7ee0c36f8910b48c1a0448fbef5c9a8743b72849"
     },
     {
       "path": "retrieval-patterns.md",
       "downloadPath": "skills/search-engine/retrieval-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/retrieval-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/retrieval-patterns.md",
+      "byteCount": 1222,
+      "sha256": "d8d95d797cdcba908cdc2e2412a48224b9e9956ff45b3be770d2fad80f0d56f5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/search-engine/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/setup.md",
+      "byteCount": 2016,
+      "sha256": "a63b4b2f5ae796ee0e1e33e5e90861ef5fb78026839993395f5250d7651e9ed8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/search-engine/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/search-engine/SKILL.md",
+      "byteCount": 6349,
+      "sha256": "04f50c0fc55118ae6a4d069fe0ecc7829680086c8ddff5b41f6e7d81951bca9c"
     }
   ]
 }

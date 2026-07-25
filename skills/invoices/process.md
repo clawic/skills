@@ -9,7 +9,7 @@
 - URL to invoice portal (agent downloads)
 
 **Actions:**
-1. Copy file to `~/invoices/inbox/`
+1. Copy file to `~/Clawic/data/invoices/inbox/`
 2. Generate temp name: `{timestamp}_{original_filename}`
 3. Update `state.json` with new entry
 

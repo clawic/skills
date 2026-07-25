@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6796c006cabc0daaad73102777e571211b40efe15029ec388b495ce393475756",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vibe-coding",
-    "name": "Vibe Coding",
+    "name": "vibe-coding",
     "description": "Build software with AI by describing what you want. Covers prompting techniques, workflow patterns, rules files, and when to intervene.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vibe-coding",
     "summary": "What is Vibe Coding Programming where you describe what you want and let AI generate code. You evaluate by results, not by reading every line. Coined by Andrej Karpathy (Feb 2025). **Key distinction (Simon Willison):** I",
     "repositoryPath": "skills/vibe-coding",
     "manifestPath": "registry/skills/vibe-coding.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vibe-coding/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/_meta.json",
+      "byteCount": 174,
+      "sha256": "1f4af099ce34f65d1773ab6df1c0c7e4b767eadfa84963fd115a24965148b688"
     },
     {
       "path": "pitfalls.md",
       "downloadPath": "skills/vibe-coding/pitfalls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/pitfalls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/pitfalls.md",
+      "byteCount": 3064,
+      "sha256": "4f826c72b15406b6d382f0eabb3fed0b99ee6eeabdb1410b58705b3f570a9eb3"
     },
     {
       "path": "prompting.md",
       "downloadPath": "skills/vibe-coding/prompting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/prompting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/prompting.md",
+      "byteCount": 2446,
+      "sha256": "d4f75112e582990a789d55657808210682377f4fca9e395f714c988054c1ecc5"
     },
     {
       "path": "rules-files.md",
       "downloadPath": "skills/vibe-coding/rules-files.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/rules-files.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/rules-files.md",
+      "byteCount": 2660,
+      "sha256": "061c8415da56e2ea33383a555c4ed8f50ce9bffe62f012c32a10662611aeee06"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vibe-coding/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/SKILL.md",
+      "byteCount": 3567,
+      "sha256": "4de4becf5e7d9e521dc0246142a87dc68bce10dfddecf46f5c1a8ec2aee003e0"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/vibe-coding/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/tools.md",
+      "byteCount": 2949,
+      "sha256": "42309bff4a5a188ff1107c0cccd2c6c5b014e089e1146171c41867b473a6ddab"
     },
     {
       "path": "workflow.md",
       "downloadPath": "skills/vibe-coding/workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-coding/workflow.md",
+      "byteCount": 2122,
+      "sha256": "473215018879c809ae776a05ef426ef7112347e9cba7595c86e8ef2572a3ac21"
     }
   ]
 }

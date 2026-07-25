@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "83409fc886751f661c278d91c39bcb2d05eadf8d415cc78ebe9852cade37bf4d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "events",
-    "name": "Events",
+    "name": "events",
     "description": "Build a personal event system for tracking concerts, conferences, parties, appointments, and everything in between.",
-    "summary": "Core Behavior - User mentions event → offer to track it - User planning event → help organize details - User asks what's coming up → surface relevant events - Create `~/events/` as workspace File Structure ``` ~/events/ ",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/events",
+    "summary": "Core Behavior - User mentions event → offer to track it - User planning event → help organize details - User asks what's coming up → surface relevant events - Create `~/Clawic/data/events/` as workspace File Structure ``",
     "repositoryPath": "skills/events",
     "manifestPath": "registry/skills/events.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/events/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/_meta.json",
+      "byteCount": 164,
+      "sha256": "72c8a0a54a30cf0fe08d4f15bff6d39cfcf85c31888bd9e6ca8b1cbcd841a243"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/events/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/events/SKILL.md",
+      "byteCount": 2579,
+      "sha256": "60737cecd6b43f3fe817dbe9edfaeaa19f9aa92f6cbfdca4cdbc8914947a3e53"
     }
   ]
 }

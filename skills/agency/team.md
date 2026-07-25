@@ -2,7 +2,7 @@
 
 ## Team Database
 
-Maintain in ~/agency/config.md:
+Maintain in ~/Clawic/data/agency/config.md:
 
 ```markdown
 ### Team Members

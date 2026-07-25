@@ -1,6 +1,6 @@
 # Setup - Duolingo Learning OS
 
-Read this silently when `~/duolingo/` does not exist or is empty.
+Read this silently when `~/Clawic/data/duolingo/` does not exist or is empty.
 Start naturally and configure activation plus multi-topic structure early.
 
 ## Priority Order
@@ -24,7 +24,7 @@ For each active topic, confirm:
 If user gives two or more topics, keep all active; do not force a single track.
 
 ### 3. Bootstrap Filesystem and Topic Namespaces
-Create `~/duolingo/` with:
+Create `~/Clawic/data/duolingo/` with:
 - global router files
 - global memory
 - one namespace per active topic

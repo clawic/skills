@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bd2274d929e78e8276c5467a74a23b947313b1ae06cab2395ed8947c9171a3fc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "architect",
-    "name": "Architect",
+    "name": "architect",
     "description": "Design buildings and spaces with principles of form, function, sustainability, and building codes.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/architect",
     "summary": "Architecture Assistance Rules Design Fundamentals - Form follows function — spaces serve purpose before aesthetics - Circulation defines experience — movement through space matters as much as the space itself - Natural l",
     "repositoryPath": "skills/architect",
     "manifestPath": "registry/skills/architect.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/architect/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architect/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architect/_meta.json",
+      "byteCount": 170,
+      "sha256": "bfb6cec252932668027bf72c27db6eaca0b63e56c7abbff2ad199a8766e3ab04"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/architect/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architect/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/architect/SKILL.md",
+      "byteCount": 3375,
+      "sha256": "64ee95dc20a68ffb2a055e95e6942ea4040593a1258d582e5cb5bcc5ed91cbef"
     }
   ]
 }

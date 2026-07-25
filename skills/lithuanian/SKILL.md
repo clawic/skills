@@ -1,6 +1,13 @@
 ---
-name: Lithuanian
+name: lithuanian
+slug: lithuanian
+version: 1.0.0
 description: Write Lithuanian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/lithuanian
+metadata:
+  clawdbot:
+    emoji: 🇱🇹
+    displayName: Lithuanian
 ---
 
 ## The Real Problem

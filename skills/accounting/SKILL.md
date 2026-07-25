@@ -1,7 +1,17 @@
 ---
-name: Accounting
+name: accounting
+slug: accounting
+version: 1.0.0
 description: Support accounting understanding from basic bookkeeping to professional practice and research.
-metadata: {"clawdbot":{"emoji":"📒","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/accounting
+metadata:
+  clawdbot:
+    emoji: 📒
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Accounting
 ---
 
 ## Detect Level, Adapt Everything

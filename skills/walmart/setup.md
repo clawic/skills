@@ -1,11 +1,11 @@
 # Setup — Walmart
 
-When `~/walmart/` does not exist, create the folder and start with practical household context. Help immediately; do not turn setup into a blocker.
+When `~/Clawic/data/walmart/` does not exist, create the folder and start with practical household context. Help immediately; do not turn setup into a blocker.
 
 ## Storage Notice
 
 On first use, tell the user:
-- local Walmart planning notes can live in `~/walmart/`
+- local Walmart planning notes can live in `~/Clawic/data/walmart/`
 - those notes are only for repeat ordering context like store choice, staples, and substitution rules
 - sensitive data such as passwords, card data, insurance data, and prescription identifiers should never be stored there
 

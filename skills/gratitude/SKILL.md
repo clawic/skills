@@ -1,18 +1,28 @@
 ---
-name: Gratitude
+name: gratitude
+slug: gratitude
+version: 1.0.0
 description: Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.
-metadata: {"clawdbot":{"emoji":"🙏","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gratitude
+metadata:
+  clawdbot:
+    emoji: 🙏
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Gratitude
 ---
 
 ## Core Behavior
 - Help user log what they're grateful for
 - Surface patterns and insights over time
 - Help identify gratitude when they're stuck
-- Create `~/gratitude/` as workspace
+- Create `~/Clawic/data/gratitude/` as workspace
 
 ## File Structure
 ```
-~/gratitude/
+~/Clawic/data/gratitude/
 ├── log/
 │   └── 2024/
 ├── patterns.md

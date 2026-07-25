@@ -1,6 +1,6 @@
 # Setup - Yahoo
 
-Use this file when `~/yahoo/` is missing or empty, or when the user wants Yahoo Finance behavior to persist in the current workspace.
+Use this file when `~/Clawic/data/yahoo/` is missing or empty, or when the user wants Yahoo Finance behavior to persist in the current workspace.
 
 Keep setup short. Answer the market question first, then install only the minimum continuity needed for better future briefs.
 
@@ -14,12 +14,12 @@ If the user wants persistence, create the local folder and baseline files:
 
 ```bash
 mkdir -p ~/yahoo
-touch ~/yahoo/memory.md ~/yahoo/watchlist.md ~/yahoo/briefing-log.md ~/yahoo/decisions.md
+touch ~/Clawic/data/yahoo/memory.md ~/Clawic/data/yahoo/watchlist.md ~/Clawic/data/yahoo/briefing-log.md ~/Clawic/data/yahoo/decisions.md
 chmod 700 ~/yahoo
-chmod 600 ~/yahoo/memory.md ~/yahoo/watchlist.md ~/yahoo/briefing-log.md ~/yahoo/decisions.md
+chmod 600 ~/Clawic/data/yahoo/memory.md ~/Clawic/data/yahoo/watchlist.md ~/Clawic/data/yahoo/briefing-log.md ~/Clawic/data/yahoo/decisions.md
 ```
 
-If `~/yahoo/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/yahoo/memory.md` is empty, initialize it from `memory-template.md`.
 
 ### 2. Prepare workspace routing non-destructively
 
@@ -30,7 +30,7 @@ If a workspace `AGENTS.md` exists, propose a minimal routing snippet and wait fo
 
 When the user mentions Yahoo Finance, stock quotes, ticker lookups, watchlists, earnings dates, pre-market moves, or market briefs:
 - activate the installed `yahoo` skill
-- read `~/yahoo/memory.md` if it exists
+- read `~/Clawic/data/yahoo/memory.md` if it exists
 - use `yahoo_search.py` for ambiguous names before analysis
 - use `yahoo_quote.py` for single-name tape reads and `yahoo_brief.py` for baskets
 - load `market-playbook.md`, `thesis-card.md`, and `risk-playbook.md` when the task moves from data to decision
@@ -63,5 +63,5 @@ Do not save broker credentials, precise holdings, tax records, or one-off search
 Setup is sufficient when:
 - the user has their answer for the current market question
 - activation preference is clear or intentionally skipped
-- `~/yahoo/memory.md` exists only if the user wanted continuity
+- `~/Clawic/data/yahoo/memory.md` exists only if the user wanted continuity
 - the next Yahoo Finance request can start faster than the first one

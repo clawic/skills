@@ -1,6 +1,13 @@
 ---
-name: Arabic
+name: arabic
+slug: arabic
+version: 1.0.0
 description: Write Arabic that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/arabic
+metadata:
+  clawdbot:
+    emoji: 🇸🇦
+    displayName: Arabic
 ---
 
 ## The Real Problem

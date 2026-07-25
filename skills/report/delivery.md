@@ -36,7 +36,7 @@ message action=send filePath="/path/to/report.pdf"
 
 ### File System
 ```
-~/report/{name}/generated/
+~/Clawic/data/report/{name}/generated/
 ├── 2024-02-weekly.pdf
 ├── 2024-02-weekly.html
 └── 2024-02-weekly.json
@@ -87,7 +87,7 @@ If primary channel fails:
 1. Retry once after 5 min
 2. Fall back to file system (always works)
 3. Note failure in next interaction
-4. Log to `~/report/{name}/delivery.log`
+4. Log to `~/Clawic/data/report/{name}/delivery.log`
 
 ---
 

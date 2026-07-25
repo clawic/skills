@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "85be50b4cdaabdf61a76a37acc884eeb6013c28f7d2e9f8cb03e2c85f1af5db0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-calendar-macos",
-    "name": "Apple Calendar (MacOS)",
+    "name": "apple-calendar-macos",
     "description": "Use local CLI to manage Apple, Google, iCloud, Outlook, CalDAV, and other calendars synced in macOS Calendar, without API keys or OAuth.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-calendar-macos",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-calendar-macos/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/_meta.json",
+      "byteCount": 194,
+      "sha256": "706816194a6e610d63c59c5830f04144d03c5a906c2b1442ed6bee4df51eff8b"
     },
     {
       "path": "command-paths.md",
       "downloadPath": "skills/apple-calendar-macos/command-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/command-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/command-paths.md",
+      "byteCount": 1265,
+      "sha256": "02dadaac46f05e132cabb80f830e73126d1529cd6266252b6d336d28ae26ad1b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-calendar-macos/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/memory-template.md",
+      "byteCount": 1516,
+      "sha256": "ddefe082dfa3bceea7acff6a0b91558f538d5076a83e8b5a9a00140e90eefc63"
     },
     {
       "path": "operation-patterns.md",
       "downloadPath": "skills/apple-calendar-macos/operation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/operation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/operation-patterns.md",
+      "byteCount": 1294,
+      "sha256": "46af72cbee7d0e79677c2776892214917f76b5f73f0571edfd08b47fd186bf22"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/apple-calendar-macos/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/safety-checklist.md",
+      "byteCount": 997,
+      "sha256": "eb9156a62761c2632384f109f6bcfd0512d888c1303831b0f70df6955a8b31c0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-calendar-macos/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/setup.md",
+      "byteCount": 1807,
+      "sha256": "cb43e03af25ce90fa0b4b29f15b91d75cd2452107771f1246786a00a95230ce1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-calendar-macos/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/SKILL.md",
+      "byteCount": 5734,
+      "sha256": "e0f44b91a9ce58c9f31131dbe7d166eb1c8231239f87146f05ec19c47ef8f9c8"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/apple-calendar-macos/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-calendar-macos/troubleshooting.md",
+      "byteCount": 1304,
+      "sha256": "7c8b476b69772a4f2c3aec243beb5e1cc106891e9339956567515e1505c30193"
     }
   ]
 }

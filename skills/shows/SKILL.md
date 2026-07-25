@@ -1,6 +1,13 @@
 ---
-name: Shows
+name: shows
+slug: shows
+version: 1.0.0
 description: Track movies and series with progress, watchlist, ratings, and proactive alerts for new releases and platform changes.
+homepage: https://clawic.com/skills/shows
+metadata:
+  clawdbot:
+    emoji: 📺
+    displayName: Shows
 ---
 
 ## Core Behavior
@@ -14,9 +21,9 @@ description: Track movies and series with progress, watchlist, ratings, and proa
 
 ## Workspace
 
-Store show data in `~/shows/`:
+Store show data in `~/Clawic/data/shows/`:
 ```
-~/shows/
+~/Clawic/data/shows/
 ├── watching.md       # Currently in progress
 ├── watchlist.md      # Want to watch
 ├── completed.md      # Finished items with ratings

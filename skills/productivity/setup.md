@@ -20,9 +20,9 @@ Ask once, naturally:
 
 > "Want me to set up a local productivity system so goals, projects, tasks, habits, and reviews stop living in random places?"
 
-If yes, create `~/productivity/` and the baseline files.
+If yes, create `~/Clawic/data/productivity/` and the baseline files.
 
-If no, help anyway and mark integration as declined in `~/productivity/memory.md` only if the user wants memory enabled.
+If no, help anyway and mark integration as declined in `~/Clawic/data/productivity/memory.md` only if the user wants memory enabled.
 
 ### Priority #3: Tune Activation Briefly
 
@@ -37,36 +37,36 @@ If the user names extra situations, update the routing snippet instead of invent
 When the user wants the system installed locally:
 
 ```bash
-mkdir -p ~/productivity/{inbox,goals,projects,tasks,habits,planning,reviews,commitments,focus,routines,someday}
+mkdir -p ~/Clawic/data/productivity/{inbox,goals,projects,tasks,habits,planning,reviews,commitments,focus,routines,someday}
 ```
 
 Then create:
-- `~/productivity/memory.md` from `memory-template.md`
-- `~/productivity/inbox/capture.md` from `system-template.md`
-- `~/productivity/inbox/triage.md` from `system-template.md`
-- `~/productivity/dashboard.md` from `system-template.md`
-- `~/productivity/goals/active.md` from `system-template.md`
-- `~/productivity/goals/someday.md` from `system-template.md`
-- `~/productivity/projects/active.md` from `system-template.md`
-- `~/productivity/projects/waiting.md` from `system-template.md`
-- `~/productivity/tasks/next-actions.md` from `system-template.md`
-- `~/productivity/tasks/this-week.md` from `system-template.md`
-- `~/productivity/tasks/waiting.md` from `system-template.md`
-- `~/productivity/tasks/done.md` from `system-template.md`
-- `~/productivity/habits/active.md` from `system-template.md`
-- `~/productivity/habits/friction.md` from `system-template.md`
-- `~/productivity/planning/daily.md` from `system-template.md`
-- `~/productivity/planning/weekly.md` from `system-template.md`
-- `~/productivity/planning/focus-blocks.md` from `system-template.md`
-- `~/productivity/reviews/weekly.md` from `system-template.md`
-- `~/productivity/reviews/monthly.md` from `system-template.md`
-- `~/productivity/commitments/promises.md` from `system-template.md`
-- `~/productivity/commitments/delegated.md` from `system-template.md`
-- `~/productivity/focus/sessions.md` from `system-template.md`
-- `~/productivity/focus/distractions.md` from `system-template.md`
-- `~/productivity/routines/morning.md` from `system-template.md`
-- `~/productivity/routines/shutdown.md` from `system-template.md`
-- `~/productivity/someday/ideas.md` from `system-template.md`
+- `~/Clawic/data/productivity/memory.md` from `memory-template.md`
+- `~/Clawic/data/productivity/inbox/capture.md` from `system-template.md`
+- `~/Clawic/data/productivity/inbox/triage.md` from `system-template.md`
+- `~/Clawic/data/productivity/dashboard.md` from `system-template.md`
+- `~/Clawic/data/productivity/goals/active.md` from `system-template.md`
+- `~/Clawic/data/productivity/goals/someday.md` from `system-template.md`
+- `~/Clawic/data/productivity/projects/active.md` from `system-template.md`
+- `~/Clawic/data/productivity/projects/waiting.md` from `system-template.md`
+- `~/Clawic/data/productivity/tasks/next-actions.md` from `system-template.md`
+- `~/Clawic/data/productivity/tasks/this-week.md` from `system-template.md`
+- `~/Clawic/data/productivity/tasks/waiting.md` from `system-template.md`
+- `~/Clawic/data/productivity/tasks/done.md` from `system-template.md`
+- `~/Clawic/data/productivity/habits/active.md` from `system-template.md`
+- `~/Clawic/data/productivity/habits/friction.md` from `system-template.md`
+- `~/Clawic/data/productivity/planning/daily.md` from `system-template.md`
+- `~/Clawic/data/productivity/planning/weekly.md` from `system-template.md`
+- `~/Clawic/data/productivity/planning/focus-blocks.md` from `system-template.md`
+- `~/Clawic/data/productivity/reviews/weekly.md` from `system-template.md`
+- `~/Clawic/data/productivity/reviews/monthly.md` from `system-template.md`
+- `~/Clawic/data/productivity/commitments/promises.md` from `system-template.md`
+- `~/Clawic/data/productivity/commitments/delegated.md` from `system-template.md`
+- `~/Clawic/data/productivity/focus/sessions.md` from `system-template.md`
+- `~/Clawic/data/productivity/focus/distractions.md` from `system-template.md`
+- `~/Clawic/data/productivity/routines/morning.md` from `system-template.md`
+- `~/Clawic/data/productivity/routines/shutdown.md` from `system-template.md`
+- `~/Clawic/data/productivity/someday/ideas.md` from `system-template.md`
 
 ## AGENTS Routing Snippet
 
@@ -75,7 +75,7 @@ If the user wants stronger routing, suggest adding this to `~/workspace/AGENTS.m
 ```markdown
 ## Productivity Routing
 
-Use `~/productivity/` as the source of truth for goals, projects, priorities, tasks, habits, focus, planning, reviews, and overload recovery.
+Use `~/Clawic/data/productivity/` as the source of truth for goals, projects, priorities, tasks, habits, focus, planning, reviews, and overload recovery.
 When the user asks to plan work, reprioritize, review commitments, reset routines, or turn goals into execution, consult the smallest relevant productivity folder first.
 Prefer updating one trusted system over scattering tasks across ad-hoc notes.
 ```
@@ -86,14 +86,14 @@ If the user uses `SOUL.md`, suggest adding:
 
 ```markdown
 **Productivity**
-When work touches priorities, commitments, planning, or review, route through `~/productivity/`.
+When work touches priorities, commitments, planning, or review, route through `~/Clawic/data/productivity/`.
 Keep one coherent productivity system: goals in `goals/`, projects in `projects/`, execution in `tasks/`, habits in `habits/`, planning in `planning/`, focus protection in `focus/`, resets in `reviews/`, routines in `routines/`, and parked ideas in `someday/`.
 Use energy, constraints, and real context before prescribing routines.
 ```
 
 ## What to Save
 
-Save to `~/productivity/memory.md` only with explicit approval:
+Save to `~/Clawic/data/productivity/memory.md` only with explicit approval:
 - energy patterns that keep recurring
 - stable planning preferences
 - recurring constraints

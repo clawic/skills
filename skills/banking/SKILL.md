@@ -1,11 +1,24 @@
 ---
-name: Banking
+name: banking
 slug: banking
 version: 1.0.0
-homepage: https://clawic.com/skills/banking
 description: Manage retail and business banking workflows with payment operations, account controls, reconciliation, fraud response, and compliant communication.
+homepage: https://clawic.com/skills/banking
 changelog: Initial release with structured banking workflows for intake, operations, incident response, and customer-safe messaging.
-metadata: {"clawdbot":{"emoji":"B","requires":{"bins":[],"config":["~/banking/"]},"os":["darwin","linux","win32"],"configPaths":["~/banking/"]}}
+metadata:
+  clawdbot:
+    emoji: B
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/banking/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/banking/
+    displayName: Banking
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ Use this skill for banking operations support: account onboarding workflows, pay
 
 ## Architecture
 
-Memory lives in `~/banking/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/banking/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/banking/
+~/Clawic/data/banking/
 |-- memory.md                 # Status, activation scope, operating context
 |-- incidents.md              # Open fraud and operations incidents
 |-- payment-controls.md       # Verified controls by rail and account type
@@ -83,7 +96,7 @@ Use the smallest relevant file for the task to keep decisions precise under time
 
 ## Data Storage
 
-- Local notes only in `~/banking/` (memory file, incident notes, and control references).
+- Local notes only in `~/Clawic/data/banking/` (memory file, incident notes, and control references).
 - Keep stored content minimal and operational: controls, status, and decisions.
 - Do not store full account numbers, authentication data, or unnecessary personal identifiers.
 
@@ -93,17 +106,17 @@ Data that leaves your machine:
 - None by default. This skill is instruction and workflow guidance only.
 
 Data that stays local:
-- Operational context and notes in `~/banking/`.
+- Operational context and notes in `~/Clawic/data/banking/`.
 
 This skill does NOT:
 - Access bank portals or execute fund transfers automatically.
 - Request undeclared network calls.
 - Store authentication data or full account numbers in memory files.
-- Modify files outside `~/banking/` for storage.
+- Modify files outside `~/Clawic/data/banking/` for storage.
 - NEVER modifies its own skill definition file.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `payments` - Payment workflows and transaction operations patterns.
 - `accounting` - Ledger, reconciliation, and financial reporting support.
 - `invoice` - Invoice lifecycle workflows and settlement tracking.
@@ -112,5 +125,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star banking`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/banking
+- Latest version: https://clawic.com/skills/banking

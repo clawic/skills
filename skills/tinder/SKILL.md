@@ -1,11 +1,24 @@
 ---
-name: Tinder
+name: tinder
 slug: tinder
 version: 1.0.0
-homepage: https://clawic.com/skills/tinder
 description: Coach Tinder goals with profile reviews, opener feedback, chat triage, and local experiments that improve matches and dates over time.
+homepage: https://clawic.com/skills/tinder
 changelog: Refocused the skill as a local coaching system with explicit goals, progress tracking, and iterative improvement loops for Tinder.
-metadata: {"clawdbot":{"emoji":"TD","requires":{"bins":[],"config":["~/tinder/"]},"os":["darwin","linux","win32"],"configPaths":["~/tinder/"]}}
+metadata:
+  clawdbot:
+    emoji: TD
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/tinder/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/tinder/
+    displayName: Tinder
 ---
 
 ## When to Use
@@ -15,10 +28,10 @@ Use this skill as a local coach: the user can keep sending screenshots, bios, ch
 
 ## Architecture
 
-Memory lives in `~/tinder/`. If `~/tinder/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter files.
+Memory lives in `~/Clawic/data/tinder/`. If `~/Clawic/data/tinder/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter files.
 
 ```text
-~/tinder/
+~/Clawic/data/tinder/
 |- memory.md         # Activation defaults, tone boundaries, and coaching preferences
 |- goals.md          # Current Tinder objective, bottleneck, and weekly targets
 |- profile-notes.md  # Photo stack, bio tests, and recurring positioning notes
@@ -47,13 +60,13 @@ Use the smallest relevant guide for the current problem.
 
 - Profile screenshots, bio text, prompt answers, or pasted chats if the user wants concrete edits
 - Explicit user confirmation before any irreversible send, unmatch, report, or block action
-- Permission before creating or updating persistent notes in `~/tinder/`
+- Permission before creating or updating persistent notes in `~/Clawic/data/tinder/`
 
 If no screenshots or chat text are available, stay in strategy mode instead of pretending to see the match or thread.
 
 ## Data Storage
 
-Local notes stay in `~/tinder/`.
+Local notes stay in `~/Clawic/data/tinder/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -133,7 +146,7 @@ No data is sent externally.
 - None from this skill itself
 
 **Data that stays local:**
-- optional funnel notes in `~/tinder/`
+- optional funnel notes in `~/Clawic/data/tinder/`
 - profile observations, active match stages, and date-conversion patterns approved by the user
 
 **This skill does NOT:**
@@ -149,7 +162,7 @@ This is an instruction-only Tinder coaching skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dates` - shape simple, low-pressure date plans once a match is warm
 - `chat` - refine tone, brevity, and communication defaults across conversations
 - `network` - build low-pressure outreach and follow-up habits beyond swipe apps
@@ -158,5 +171,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tinder`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tinder
+- Latest version: https://clawic.com/skills/tinder

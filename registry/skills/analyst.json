@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "79a8cf559f92b1b48192e776e30ebfe0a4419e1a511a16c33fcbaac1336a316d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "analyst",
-    "name": "Analyst",
+    "name": "analyst",
     "description": "Extract insights from data with SQL, visualization, and clear communication of findings.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/analyst",
     "summary": "Data Analysis Rules Framing Questions - Clarify the decision being made — analysis without action is trivia - \"What would change your mind?\" surfaces the real question - Scope before diving in — infinite data, limited ti",
     "repositoryPath": "skills/analyst",
     "manifestPath": "registry/skills/analyst.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/analyst/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/_meta.json",
+      "byteCount": 166,
+      "sha256": "0f04aff9a1b5276f29878a9c060bed5f25d925833a802095cf8e226acca7db4e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/analyst/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyst/SKILL.md",
+      "byteCount": 2964,
+      "sha256": "f3e07df7432c0ba56dba5cf54065ad0b721fcc8d369cc1975d2868d04f916506"
     }
   ]
 }

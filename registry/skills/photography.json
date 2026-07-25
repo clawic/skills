@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f682905098dad6b4971ddb0496c4ceaf16743a8edb69d76eb4bbc23ea30e2242",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "photography",
-    "name": "Photography",
+    "name": "photography",
     "description": "Camera settings, composition, lighting, editing workflow, and genre-specific techniques.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/photography",
     "summary": "Exposure Triangle - ISO: double ISO = double brightness, but also double noise. Stay lowest possible - Aperture: f/2.8 = shallow depth of field (blurry background), f/11 = everything sharp - Shutter: 1/focal length minim",
     "repositoryPath": "skills/photography",
     "manifestPath": "registry/skills/photography.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/photography/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photography/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photography/_meta.json",
+      "byteCount": 174,
+      "sha256": "b304d649d84767d0560d944000d13d1542145c1c0f5712a0371f82d7c71f1812"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/photography/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photography/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/photography/SKILL.md",
+      "byteCount": 4523,
+      "sha256": "d4f3e19cc4a7d97541bc21ad9f7a6df3cdf9ce81faffff60413b647bfae56541"
     }
   ]
 }

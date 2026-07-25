@@ -1,7 +1,17 @@
 ---
-name: Files
+name: files
+slug: files
+version: 1.0.0
 description: Safely organize, deduplicate, and analyze files with intelligent bulk operations and full undo support.
-metadata: {"clawdbot":{"emoji":"📁","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/files
+metadata:
+  clawdbot:
+    emoji: 📁
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Files
 ---
 
 ## What This Skill Does (and Doesn't)

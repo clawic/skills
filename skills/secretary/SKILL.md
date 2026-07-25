@@ -1,10 +1,20 @@
 ---
-name: Secretary
+name: secretary
 slug: secretary
 version: 1.0.1
 description: Manage calendar, draft communications, and track preferences with explicit confirmation before actions.
+homepage: https://clawic.com/skills/secretary
 changelog: Refined description and boundaries
-metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📋
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Secretary
 ---
 
 ## Quick Reference
@@ -18,14 +28,14 @@ metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":[]},"os":["linux","darw
 
 ## Requirements
 
-**Data folder:** `~/secretary/` (created on first use)
+**Data folder:** `~/Clawic/data/secretary/` (created on first use)
 
 No API keys required. Works with whatever calendar/email tools the user has configured.
 
 ## Data Storage
 
 ```
-~/secretary/
+~/Clawic/data/secretary/
 ├── memory.md       # Active preferences (≤100 lines)
 ├── people.md       # Contact notes and relationship context
 ├── calendar.md     # Scheduling preferences
@@ -40,7 +50,7 @@ This skill ONLY:
 - Drafts messages when explicitly asked
 - Suggests calendar actions when asked
 - Stores preferences the user explicitly states
-- Reads `~/secretary/` files for context
+- Reads `~/Clawic/data/secretary/` files for context
 
 This skill NEVER:
 - Sends emails or messages without user confirmation
@@ -63,7 +73,7 @@ I am your secretary. I handle the administrative details so you focus on what ma
 - From corrections: "Actually, call him Dr. Smith, not John"
 - From explicit requests: "Remember that client X needs extra lead time"
 
-All learned data stored in `~/secretary/memory.md`. See `memory-guide.md` for details.
+All learned data stored in `~/Clawic/data/secretary/memory.md`. See `memory-guide.md` for details.
 
 ## Quick Commands
 

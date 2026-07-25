@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "35eff26a22f514fb6fb69afc8990c58f7c26f600f8c8d654697d517c14f931c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "paypal",
-    "name": "PayPal",
+    "name": "paypal",
     "description": "Integrate PayPal payments with proper webhook verification, OAuth handling, and security validation for checkout flows and subscriptions.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/paypal",
     "summary": "When to Use User needs to integrate PayPal REST API for payments, subscriptions, or payouts. Agent handles checkout flows, webhook verification, OAuth token management, and dispute workflows. Quick Reference | Topic | Fi",
     "repositoryPath": "skills/paypal",
     "manifestPath": "registry/skills/paypal.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/paypal/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/_meta.json",
+      "byteCount": 164,
+      "sha256": "ca6a5bcd6b1d32954e293151116631159416f9a808b23742110d3b0e80005fe6"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/paypal/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/patterns.md",
+      "byteCount": 3657,
+      "sha256": "452f480b950794eaba9a0d4da3d029d3cb8c97cf8d5052254ee8c94642e72ec5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/paypal/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/SKILL.md",
+      "byteCount": 4298,
+      "sha256": "424ea5cd772162f5b22f01e3e78fd6c9c5a38ba26a73773b9cd22cfdbb32619f"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/paypal/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/webhooks.md",
+      "byteCount": 3011,
+      "sha256": "57815b1287615615ebb4c6151bd260a3b9d5d3f1411279d854c4691321379808"
     }
   ]
 }

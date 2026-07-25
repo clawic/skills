@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "66828e0d92e1910dc61973cc62a53ae8017bbf20be155b426a68445cade85f94",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "agent",
-    "name": "Agent",
+    "name": "agent",
     "description": "Define agent identity, personality, voice, and boundaries to create assistants that feel authentic rather than generic.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/agent",
     "summary": "When to Use Use when defining WHO an agent is — personality, voice, boundaries, adaptation style. Not for technical setup (see `setup`) or building agent systems (see `agents`). Quick Reference | Topic | File | |-------|",
     "repositoryPath": "skills/agent",
     "manifestPath": "registry/skills/agent.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/agent/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/_meta.json",
+      "byteCount": 162,
+      "sha256": "67d0128ff2456507baeba3e8566e5b0bc819c65ae5a8401c0ed699cf40849b7a"
     },
     {
       "path": "adaptation.md",
       "downloadPath": "skills/agent/adaptation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/adaptation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/adaptation.md",
+      "byteCount": 3812,
+      "sha256": "baa31cfa718ce6f6a5700630dc0872062a7a9e03eb490249396ed4a02698d10c"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/agent/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/boundaries.md",
+      "byteCount": 3532,
+      "sha256": "8717bf939fb6cd48ddd33600264849aa8a362148a465900d8ac2e64c8351f3f9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agent/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/SKILL.md",
+      "byteCount": 2826,
+      "sha256": "0d08432686e9cb9072dd454238cb3120f3d655f1cecf9a8a37980ae537f68a12"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/agent/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/templates.md",
+      "byteCount": 3439,
+      "sha256": "b490df38b186442f66a88eb84e4181087a4b1964774bb56f76a919abf00f5e5c"
     },
     {
       "path": "voice.md",
       "downloadPath": "skills/agent/voice.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/voice.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agent/voice.md",
+      "byteCount": 2973,
+      "sha256": "7b7484a2b22411fff56cd3f16a1bc39b538345de8058c28296032641ba965d29"
     }
   ]
 }

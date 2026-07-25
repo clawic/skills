@@ -1,11 +1,20 @@
 ---
-name: AirTag
+name: airtag
 slug: airtag
 version: 1.0.0
-homepage: https://clawic.com/skills/airtag
 description: Give your agent controlled access to all AirTags in your Apple account to locate items, run diagnostics, and recover setup failures.
+homepage: https://clawic.com/skills/airtag
 changelog: Initial release focused on account-level AirTag access, connector setup, location workflows, diagnostics, and safety handling.
-metadata: {"clawdbot":{"emoji":"A","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: A
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: AirTag
 ---
 
 ## Setup
@@ -29,10 +38,10 @@ See `access-connectors.md` for setup details and trade-offs.
 
 ## Architecture
 
-Memory lives in `~/airtag/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/airtag/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/airtag/
+~/Clawic/data/airtag/
 |-- memory.md          # Status, active connector mode, and operating boundaries
 |-- items.md           # AirTag inventory, aliases, and ownership context
 |-- incidents.md       # Lost-item timelines, actions taken, and outcomes
@@ -81,7 +90,7 @@ Use the smallest relevant file for the incident to keep responses fast and deter
 - Use `anti-stalking-safety.md` and avoid speculative attribution.
 
 ### 7. Ask Before Persisting Logs or Sensitive Context
-- Ask for explicit confirmation before any connector action, location pull, or local write in `~/airtag/`.
+- Ask for explicit confirmation before any connector action, location pull, or local write in `~/Clawic/data/airtag/`.
 - Never request Apple ID password sharing or guide key extraction inside this skill.
 
 ## Common Traps
@@ -109,12 +118,12 @@ Data that leaves your machine:
 - Optional shared-link data when using Shared Link Mode.
 
 Data that stays local:
-- User-approved incident notes and connector context under `~/airtag/`.
+- User-approved incident notes and connector context under `~/Clawic/data/airtag/`.
 
 This skill does NOT:
 - Use undeclared endpoints.
 - Ask for raw Apple ID passwords by default.
-- Store logs outside `~/airtag/` for this skill.
+- Store logs outside `~/Clawic/data/airtag/` for this skill.
 - Modify its own `SKILL.md`.
 
 ## Trust
@@ -123,7 +132,7 @@ Programmatic API Mode depends on third-party tooling for Apple private protocols
 Only use that mode if the user explicitly accepts the trust and account-risk trade-offs.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ios` - iOS behavior, permissions, and system troubleshooting
 - `bluetooth` - Bluetooth discovery and connectivity stability workflows
 - `homepod` - Apple ecosystem troubleshooting patterns for shared environments
@@ -132,5 +141,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star airtag`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/airtag
+- Latest version: https://clawic.com/skills/airtag

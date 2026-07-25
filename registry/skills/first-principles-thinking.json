@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f4c660e9833500dd55d432ad68fa6748725761541035d6c8247541b8ff5ecadb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "first-principles-thinking",
-    "name": "First Principles Thinking",
+    "name": "first-principles-thinking",
     "description": "Break problems to fundamentals, rebuild from truth, eliminate hidden assumptions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/first-principles-thinking",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/first-principles-thinking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/_meta.json",
+      "byteCount": 202,
+      "sha256": "e30216b6d3bbc79a0ecda6f4399354073a0dc6dbe23de7043c95e70283e637e3"
     },
     {
       "path": "assumptions.md",
       "downloadPath": "skills/first-principles-thinking/assumptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/assumptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/assumptions.md",
+      "byteCount": 4618,
+      "sha256": "34ead3c6395e8acfa9ce5b024c4408db4db646e9beafe04c810c50dc52860597"
     },
     {
       "path": "decomposition.md",
       "downloadPath": "skills/first-principles-thinking/decomposition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/decomposition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/decomposition.md",
+      "byteCount": 3662,
+      "sha256": "be2cbf9e8028fd3532f96b6bf0d661da4ec86452824f438aa40734cdbb276f4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/first-principles-thinking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/first-principles-thinking/SKILL.md",
+      "byteCount": 5959,
+      "sha256": "f298ef5559258ef683386e0633e9bd40bc08df983c6d51e8bcfdbd5143888853"
     }
   ]
 }

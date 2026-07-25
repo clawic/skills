@@ -1,9 +1,20 @@
 ---
-name: Ruby
+name: ruby
 slug: ruby
 version: 1.0.1
 description: Write reliable Ruby avoiding mutable string traps, block pitfalls, and metaprogramming bugs.
-metadata: {"clawdbot":{"emoji":"💎","requires":{"bins":["ruby"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ruby
+metadata:
+  clawdbot:
+    emoji: 💎
+    requires:
+      bins:
+      - ruby
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ruby
 ---
 
 ## Quick Reference

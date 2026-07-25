@@ -1,6 +1,6 @@
 # Setup - Minecraft
 
-Use this file when `~/minecraft/` is missing or empty, or when the user wants Minecraft preferences to persist between sessions.
+Use this file when `~/Clawic/data/minecraft/` is missing or empty, or when the user wants Minecraft preferences to persist between sessions.
 
 ## Your Attitude
 
@@ -52,5 +52,5 @@ Save only reusable Minecraft context:
 - stable build constraints, style preferences, and survival goals
 - recurring server or modpack conditions that affect later advice
 
-Store data only in `~/minecraft/` after explicit user consent.
-If the user does not want persistence, keep everything session-only and do not create or update `~/minecraft/`.
+Store data only in `~/Clawic/data/minecraft/` after explicit user consent.
+If the user does not want persistence, keep everything session-only and do not create or update `~/Clawic/data/minecraft/`.

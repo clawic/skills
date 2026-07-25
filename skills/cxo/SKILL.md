@@ -1,11 +1,18 @@
 ---
-name: CXO / Chief Experience Officer
+name: cxo
 slug: cxo
 version: 1.0.1
-homepage: https://clawic.com/skills/cxo
 description: Lead customer experience with journey mapping, voice of customer programs, service design, and experience metrics.
+homepage: https://clawic.com/skills/cxo
 changelog: Added Core Rules structure and experience leadership frameworks.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CXO / Chief Experience Officer
 ---
 
 ## When to Use
@@ -84,7 +91,7 @@ These decisions require human judgment:
 - Trade-offs between CX investment and margins
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cmo` — marketing alignment
 - `cpo` — product experience
 - `coo` — operational excellence
@@ -92,5 +99,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cxo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cxo
+- Latest version: https://clawic.com/skills/cxo

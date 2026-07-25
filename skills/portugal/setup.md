@@ -10,7 +10,7 @@ mkdir -p ~/portugal
 ```
 
 ### 2. Initialize Memory File
-Create `~/portugal/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/portugal/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Traveling with kids?
 
 ### 4. Save to Memory
-Update `~/portugal/memory.md` with their answers.
+Update `~/Clawic/data/portugal/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/portugal/memory.md` exists:
+If `~/Clawic/data/portugal/memory.md` exists:
 1. Read it silently
 2. Note any previous trips or preferences
 3. Ask what's new or if plans changed

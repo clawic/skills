@@ -1,7 +1,17 @@
 ---
-name: Traefik
+name: traefik
+slug: traefik
+version: 1.0.0
 description: Avoid common Traefik mistakes — router priority, TLS configuration, Docker labels syntax, and middleware ordering.
-metadata: {"clawdbot":{"emoji":"🔀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/traefik
+metadata:
+  clawdbot:
+    emoji: 🔀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Traefik
 ---
 
 ## Router Basics

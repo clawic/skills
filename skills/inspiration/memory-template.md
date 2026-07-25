@@ -4,7 +4,7 @@ This skill is stateless by default. It provides references on demand without req
 
 ## Optional: Tracking Preferences
 
-If you want to remember user preferences across sessions, you can optionally create `~/inspiration/preferences.md`:
+If you want to remember user preferences across sessions, you can optionally create `~/Clawic/data/inspiration/preferences.md`:
 
 ```markdown
 # Inspiration Preferences

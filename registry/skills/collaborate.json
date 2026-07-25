@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9c93c0822a6d9a36c0695fee02b75ae5b3d7587227051eb68568e2806b812a17",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "collaborate",
     "name": "collaborate",
-    "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents \u2014 that is delegation.",
+    "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/collaborate",
     "summary": "Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawi",
@@ -20,79 +23,109 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/collaborate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/collaborate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/_meta.json",
+      "byteCount": 324,
+      "sha256": "7522546ac8e2f7932598a8c3ded0f1c9a4cc8e1926a5849967dd4216bec22e32"
     },
     {
       "path": "adversarial-review.md",
       "downloadPath": "skills/collaborate/adversarial-review.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/adversarial-review.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/adversarial-review.md",
+      "byteCount": 3539,
+      "sha256": "7c2a143b6cff916a68da60ebbc50429e5927641e00d9c040fd3ba771d15ab6d2"
     },
     {
       "path": "audience-pass.md",
       "downloadPath": "skills/collaborate/audience-pass.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/audience-pass.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/audience-pass.md",
+      "byteCount": 3177,
+      "sha256": "3b1d037900cc123e70f6b1e59ebb6edd11b6fb6f82f983619286386015382421"
     },
     {
       "path": "briefing.md",
       "downloadPath": "skills/collaborate/briefing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/briefing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/briefing.md",
+      "byteCount": 3242,
+      "sha256": "1da6b779d4a3fc59c5853646d1ebf6640c1f7ca3f43dcc5da254db0d99c49c74"
     },
     {
       "path": "convergence.md",
       "downloadPath": "skills/collaborate/convergence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/convergence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/convergence.md",
+      "byteCount": 3501,
+      "sha256": "82f99c3f0021c26232b2cf9ea9203d42be88f3b9a71c9cc10e24c99ac6521576"
     },
     {
       "path": "counterparts.md",
       "downloadPath": "skills/collaborate/counterparts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/counterparts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/counterparts.md",
+      "byteCount": 4250,
+      "sha256": "713e47242718fc6bf0361fdd3612dc2cb3d5e7f8c2f36cf613aedd50efa5649d"
     },
     {
       "path": "deadlock.md",
       "downloadPath": "skills/collaborate/deadlock.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/deadlock.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/deadlock.md",
+      "byteCount": 3520,
+      "sha256": "8376a7dc96e98abbe597a656bfb66f8ab79eeeb5afc7109d9ae71e85c6de38d6"
     },
     {
       "path": "decision-log.md",
       "downloadPath": "skills/collaborate/decision-log.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/decision-log.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/decision-log.md",
+      "byteCount": 2762,
+      "sha256": "46a3f766302d96f279251e0c699ad5adec552fa26e101fc9fc774542b1ea2a46"
     },
     {
       "path": "group-review.md",
       "downloadPath": "skills/collaborate/group-review.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/group-review.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/group-review.md",
+      "byteCount": 3497,
+      "sha256": "c293d994498fb2fe4303d0de30d3bf37587a0613356e5490463bae9b65ca99d7"
     },
     {
       "path": "pairing.md",
       "downloadPath": "skills/collaborate/pairing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/pairing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/pairing.md",
+      "byteCount": 3953,
+      "sha256": "1de40b523e1a9906b87b10726380addaa96f93a7bab410d7e68e1b79d7c6db6d"
     },
     {
       "path": "second-opinions.md",
       "downloadPath": "skills/collaborate/second-opinions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/second-opinions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/second-opinions.md",
+      "byteCount": 3711,
+      "sha256": "00e97dd72d29b699c1ed8c3d01b6e3c90625ce6fd7732bc7050a5e81e4afff41"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/collaborate/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/SKILL.md",
+      "byteCount": 14420,
+      "sha256": "c8386f1cb176f8645a0c767ae49f0e377526a2a049c07e7b4e7ef8a74b5b8878"
     },
     {
       "path": "vs-delegate.md",
       "downloadPath": "skills/collaborate/vs-delegate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/vs-delegate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/vs-delegate.md",
+      "byteCount": 4269,
+      "sha256": "19e483a873a3b532131544f30dcba4674f376497f38d15d5a6d366e8ea3ab31e"
     },
     {
       "path": "with-agents.md",
       "downloadPath": "skills/collaborate/with-agents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-agents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-agents.md",
+      "byteCount": 3861,
+      "sha256": "369326c671ff2b1e4b100b77d9cbdaded0d6ee5aa79d42af3e148c7c71f1fd6d"
     },
     {
       "path": "with-humans.md",
       "downloadPath": "skills/collaborate/with-humans.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-humans.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/with-humans.md",
+      "byteCount": 3562,
+      "sha256": "9c4cef43c08e6c5d4aa30515fa4896c2101b9418cdef537b6d2cec83770f7166"
     }
   ]
 }

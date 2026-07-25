@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fcc0c3cb49c267a695dd6435005b10ce292866be7aade8122bc5e9545ace3d5a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "switzerland",
-    "name": "Switzerland",
+    "name": "switzerland",
     "description": "Plan Switzerland trips with Alpine rail and mountain logistics, verified entry rules, scenic routing, and practical local execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/switzerland",
-    "summary": "Setup If `~/switzerland/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Switzerland trip and needs operational guidance beyond postcard advice: Schengen entry checks, CHF",
+    "summary": "Setup If `~/Clawic/data/switzerland/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Switzerland trip and needs operational guidance beyond postcard advice: Schengen entry",
     "repositoryPath": "skills/switzerland",
     "manifestPath": "registry/skills/switzerland.json"
   },
@@ -22,157 +25,219 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/switzerland/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/_meta.json",
+      "byteCount": 174,
+      "sha256": "e82688b90d723ef2f6736b401146e39092248abbb1349235fb7938cc4463177f"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/switzerland/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/accessibility.md",
+      "byteCount": 846,
+      "sha256": "60bf194db8eed1f5f7c2dd11efbdf2ace1404578d5fc45ea91bd5f1ceec504e1"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/switzerland/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/accommodation.md",
+      "byteCount": 1331,
+      "sha256": "77983700410b3230c6d51e7456075f1591b40b530b5528edd74f00f778b0afe6"
     },
     {
       "path": "alps-lakes-and-scenic-trains.md",
       "downloadPath": "skills/switzerland/alps-lakes-and-scenic-trains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/alps-lakes-and-scenic-trains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/alps-lakes-and-scenic-trains.md",
+      "byteCount": 1201,
+      "sha256": "de94b169746b2694f823f7b6c21c54e4389131eec78e9f419db104405c395af1"
     },
     {
       "path": "basel-and-northwest.md",
       "downloadPath": "skills/switzerland/basel-and-northwest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/basel-and-northwest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/basel-and-northwest.md",
+      "byteCount": 602,
+      "sha256": "c9d292a140de872f5309bc1e4016e073485e987fcede091c299f34bf8ed546c6"
     },
     {
       "path": "bern-and-fribourg.md",
       "downloadPath": "skills/switzerland/bern-and-fribourg.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/bern-and-fribourg.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/bern-and-fribourg.md",
+      "byteCount": 786,
+      "sha256": "5332b74a1829a37e3543f57a29a9021a16a03dba98d41711fd138f20f32040f9"
     },
     {
       "path": "bernese-oberland.md",
       "downloadPath": "skills/switzerland/bernese-oberland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/bernese-oberland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/bernese-oberland.md",
+      "byteCount": 855,
+      "sha256": "5e018a836ed99dfbc65f069303e654c9d7bdf4e98feec08fdd3f56cb704f35c5"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/switzerland/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/budget-and-costs.md",
+      "byteCount": 1405,
+      "sha256": "522fb7b4411e8634be3cfb62e7cba7afeb44ec467349de56e122ec2fac006fdb"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/switzerland/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/customs-and-border.md",
+      "byteCount": 1383,
+      "sha256": "e241cd98d032d541cb8101cffd49c4637e85dfb0c20abdbeb47c83cf364cb97a"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/switzerland/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/entry-and-documents.md",
+      "byteCount": 1548,
+      "sha256": "02e0e80473ad93d1fdf72283342c28d6a819582a6efc6141efcb66b271d8b9b7"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/switzerland/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/family-travel.md",
+      "byteCount": 798,
+      "sha256": "8bbef580269a0ad7b594672f17b1a9f146db427cee62f92f4f02a753251ade3b"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/switzerland/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/food-guide.md",
+      "byteCount": 956,
+      "sha256": "f657bfeeaa07bdba9c12186fcae0993358c1ae48a2cc5e1c74eb4a6d3e3e159e"
     },
     {
       "path": "geneva-lausanne-and-lake-geneva.md",
       "downloadPath": "skills/switzerland/geneva-lausanne-and-lake-geneva.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/geneva-lausanne-and-lake-geneva.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/geneva-lausanne-and-lake-geneva.md",
+      "byteCount": 764,
+      "sha256": "93e7422296a83cde520ed94b2a9d4e0ca25a300bc0cd54c22f507c47354f95ad"
     },
     {
       "path": "graubunden-and-engadin.md",
       "downloadPath": "skills/switzerland/graubunden-and-engadin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/graubunden-and-engadin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/graubunden-and-engadin.md",
+      "byteCount": 723,
+      "sha256": "842da8bb6f36846d8bca82c0d29f3c5a39a4258f29edc9810a55ffd30e0214d8"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/switzerland/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/itineraries.md",
+      "byteCount": 1553,
+      "sha256": "5416e8d9068a30791dd889ca98bbb4332823f7b8aeb145d2b7f715adcc7e6bac"
     },
     {
       "path": "lucerne-and-central-switzerland.md",
       "downloadPath": "skills/switzerland/lucerne-and-central-switzerland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/lucerne-and-central-switzerland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/lucerne-and-central-switzerland.md",
+      "byteCount": 690,
+      "sha256": "a0699bcb75099284e181b9b037f1bb2e113619804bab1551f2ca1fcc18306fca"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/switzerland/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/memory-template.md",
+      "byteCount": 1095,
+      "sha256": "f3c2cb7500cb185494e3f8731bcf903f9e1d1b09a1cf26e59f6f2f4a703917a2"
     },
     {
       "path": "payments-and-tax-free.md",
       "downloadPath": "skills/switzerland/payments-and-tax-free.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/payments-and-tax-free.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/payments-and-tax-free.md",
+      "byteCount": 1351,
+      "sha256": "af4492f4a3a519279af18f5f41b85316e34af04067f8c673bd5cbd2fcfd7a671"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/switzerland/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/regions.md",
+      "byteCount": 1932,
+      "sha256": "41262a798b1f3cec48e29d3ba28cc85f8bc00a732c1a7605eb22c3490fb6b6a6"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/switzerland/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/road-trips-and-driving.md",
+      "byteCount": 1365,
+      "sha256": "b2cc6cf0eb8d3617816cf05aa900a95255a2e0b62ac8f339cef5ee0547e899ad"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/switzerland/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/safety-and-emergencies.md",
+      "byteCount": 1108,
+      "sha256": "beb7fa94d035dd5f4210ebcccac11e4585712e416a11f8dcb7bf0d2c393a1cc7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/switzerland/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/setup.md",
+      "byteCount": 2879,
+      "sha256": "661b7fed1c77856b9790d8ab596f486c4ccc29432684597cfe954f4048cd0916"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/switzerland/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/SKILL.md",
+      "byteCount": 6921,
+      "sha256": "3c29c79e59e78715f2fe559b352378e26a88cfafad0f353c53da7c0eef9a26fd"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/switzerland/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/sources.md",
+      "byteCount": 2471,
+      "sha256": "c1918f51d61a0d5fd66e8e6100355ecbe0d4acaa1d6e4f1c35c9fb4542d59378"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/switzerland/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/telecoms-and-apps.md",
+      "byteCount": 979,
+      "sha256": "7686e183ca202cafb069f1ed24a1945df23284fec2421b2f84ba74dd7de672f6"
     },
     {
       "path": "ticino.md",
       "downloadPath": "skills/switzerland/ticino.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/ticino.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/ticino.md",
+      "byteCount": 729,
+      "sha256": "1940c0dbfe10f22f9e0be481e4d4542afb59376b9591bec3ca63af30e211e671"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/switzerland/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/transport-domestic.md",
+      "byteCount": 1509,
+      "sha256": "6f4569bf9592fd773390c93bd692656ffc661b77eb634438beb32ce7bd79392e"
     },
     {
       "path": "valais-and-zermatt.md",
       "downloadPath": "skills/switzerland/valais-and-zermatt.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/valais-and-zermatt.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/valais-and-zermatt.md",
+      "byteCount": 750,
+      "sha256": "15c3f8b16a3a7a1bb999d741d20c7ea9bec53dd2b12ac590660ec3711db02fd4"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/switzerland/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/weather-and-seasonality.md",
+      "byteCount": 1089,
+      "sha256": "6f7191e4e77e0d8df01d3b0970fcb47fbb5ef24719e5e32386dd24b05176eb11"
     },
     {
       "path": "winter-ski-and-snow.md",
       "downloadPath": "skills/switzerland/winter-ski-and-snow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/winter-ski-and-snow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/winter-ski-and-snow.md",
+      "byteCount": 1140,
+      "sha256": "a388bb874574e0580317b777801522deffe8edf34c180c3a3de0795d8a40fa26"
     },
     {
       "path": "zurich.md",
       "downloadPath": "skills/switzerland/zurich.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/zurich.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/switzerland/zurich.md",
+      "byteCount": 817,
+      "sha256": "8d309b771a3fe5c559db824ded09b09d3826f91ef30b40fdc37d9da599b6e91c"
     }
   ]
 }

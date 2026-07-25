@@ -1,7 +1,17 @@
 ---
-name: Graphic Design
+name: graphic-design
+slug: graphic-design
+version: 1.0.0
 description: Support design understanding from basic visuals to professional production and theory.
-metadata: {"clawdbot":{"emoji":"🎨","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/graphic-design
+metadata:
+  clawdbot:
+    emoji: 🎨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Graphic Design
 ---
 
 ## Detect Level, Adapt Everything

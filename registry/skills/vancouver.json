@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "281c40425abb67fb4ae3671b70651fab862c92800968586327994c5ef530938f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "vancouver",
-    "name": "Vancouver",
+    "name": "vancouver",
     "description": "Navigate Vancouver as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/vancouver",
@@ -22,172 +25,240 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vancouver/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/_meta.json",
+      "byteCount": 170,
+      "sha256": "f79964702d1308b8793c9dd8850c4118d22cbf8da852af72c2c4e31eaca6907d"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/vancouver/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/business.md",
+      "byteCount": 5831,
+      "sha256": "0a72f0dbee1fbd6e87e79af6658c875567f528309e535402750a1e3a44606e1c"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/vancouver/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/climate.md",
+      "byteCount": 7095,
+      "sha256": "b249419c9e23f13ab99d3db3d0a5cc1b61c2a85ca18a13fa3cdeadf0b910d586"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/vancouver/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/cost.md",
+      "byteCount": 8214,
+      "sha256": "acdc434dd13db8fb0f1b6c19cab36631a0b3d70cf856669a60a4a3674a542bc0"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/vancouver/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/culture.md",
+      "byteCount": 6595,
+      "sha256": "55dad23c18ce2cd27689811db413883effb72a9c103f078cf5ce866e778686bd"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/vancouver/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/driving.md",
+      "byteCount": 6770,
+      "sha256": "39f59c68c37ab03ffa596bfb8b54222fd8066675225415675ad10479f780aa3e"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/vancouver/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/education.md",
+      "byteCount": 5108,
+      "sha256": "1ad9b2d71cd41e964b9c056c3c827b817a9fef4f9fa700d6aa47896b769f9875"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/vancouver/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-areas.md",
+      "byteCount": 7170,
+      "sha256": "040046894c9c643d57b31f0a852d83f1184082b0f0ce57cb8afb6265598805f6"
     },
     {
       "path": "food-asian.md",
       "downloadPath": "skills/vancouver/food-asian.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-asian.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-asian.md",
+      "byteCount": 6632,
+      "sha256": "120e5ca73877c8aeae9fc0ef11b3f192a89f212640443883c9c1d9bf24bf59f3"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/vancouver/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-international.md",
+      "byteCount": 6848,
+      "sha256": "e4c6db32a189290d406942b4a723d5cfcd8e50570e655b06951addd8add6d36b"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/vancouver/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-local.md",
+      "byteCount": 6849,
+      "sha256": "1224ec27f4cdf971f9b5b068076b23279b313c64273d45f9eec5fb19267fb0c5"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/vancouver/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-overview.md",
+      "byteCount": 6482,
+      "sha256": "0c0fa6907754ca588d7b618d0d952aa21fb01f0e491decd754f33e33b333b906"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/vancouver/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/food-practical.md",
+      "byteCount": 7803,
+      "sha256": "75528f342a665b511718905c1a3b76ebf1c2c3e464ecd691bd905a723655024f"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/vancouver/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/healthcare.md",
+      "byteCount": 6603,
+      "sha256": "f830a5d21110aa7545121ceb99d52f3801b075b533aef754c5fc609ddff7cca8"
     },
     {
       "path": "immigration.md",
       "downloadPath": "skills/vancouver/immigration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/immigration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/immigration.md",
+      "byteCount": 6711,
+      "sha256": "412a1ccba84f180dbf236d4a29ae2328e96c893621a9c6086f3435a07f343d18"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/vancouver/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/lifestyle.md",
+      "byteCount": 6899,
+      "sha256": "8d783a286c6409673cfe4f9c71853084d0a1504b0d87986f52aaf43332983165"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/vancouver/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/local.md",
+      "byteCount": 7361,
+      "sha256": "4f7509ed6a62eb8553f2529b839031b0983b64191ef4553a8ee824ccbb2cd5f1"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/vancouver/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-choosing.md",
+      "byteCount": 7349,
+      "sha256": "7fbba28519f87a77dad998887b98cbacb3a13b13ad7653fa1312f814684146de"
     },
     {
       "path": "neighborhoods-downtown.md",
       "downloadPath": "skills/vancouver/neighborhoods-downtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-downtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-downtown.md",
+      "byteCount": 6842,
+      "sha256": "1f3800b4339f5078a2f6a0b2dcfa37f5002fa88f176d0968fb858a70edfd53f8"
     },
     {
       "path": "neighborhoods-eastside.md",
       "downloadPath": "skills/vancouver/neighborhoods-eastside.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-eastside.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-eastside.md",
+      "byteCount": 6642,
+      "sha256": "dc2f000571136565ce510aeb32eaf7c54716f11422ede43455e035066dd5e685"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/vancouver/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-index.md",
+      "byteCount": 5291,
+      "sha256": "261d15b4b82d527265b15e86385636f70d1e3cbb50866bfa6cdb15a90e87ec5c"
     },
     {
       "path": "neighborhoods-northshore.md",
       "downloadPath": "skills/vancouver/neighborhoods-northshore.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-northshore.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-northshore.md",
+      "byteCount": 6730,
+      "sha256": "752305ff628f8f199c0d8166a213238e3ca00fc3a1fb5fbae182fc75ca8a6001"
     },
     {
       "path": "neighborhoods-suburbs.md",
       "downloadPath": "skills/vancouver/neighborhoods-suburbs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-suburbs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-suburbs.md",
+      "byteCount": 7437,
+      "sha256": "f942297e845b660d63c1110fe32d9200f67a69a0d28f3ccf34c9de3aa7b37ca4"
     },
     {
       "path": "neighborhoods-westside.md",
       "downloadPath": "skills/vancouver/neighborhoods-westside.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-westside.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/neighborhoods-westside.md",
+      "byteCount": 6267,
+      "sha256": "f692b8c1ef18019aa54e48c7bc5ce2bcdd6b2363a9a22efc52eed47afa104522"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/vancouver/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/resident.md",
+      "byteCount": 8007,
+      "sha256": "61405480cae66c5302a598021fab27f6b66a53361a01c91d2e0f620bcee7c6fd"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/vancouver/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/safety.md",
+      "byteCount": 7028,
+      "sha256": "d8fdc4eac8f0cd28be8aeff702665d7cb49ecb8d31579b9781dc1609461da401"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vancouver/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/SKILL.md",
+      "byteCount": 8163,
+      "sha256": "66bc3b814adea5e2c2e33640a85c7760426cd2454a34a664d8b2fd6355d1884d"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/vancouver/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/startup.md",
+      "byteCount": 5599,
+      "sha256": "44e725456fe42c0dea747150759b02efca6c930f8460a3dbe06753c1354668b4"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/vancouver/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/tech.md",
+      "byteCount": 7443,
+      "sha256": "04c16573170e16481430a44c82f023d018ddcdf68f31ccb578197ef9c58c0fb4"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/vancouver/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/transport.md",
+      "byteCount": 7309,
+      "sha256": "d5007f709635cc902fd05d780ae6e4185eb6bfe026d821adc94eb00820ffbe35"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/vancouver/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-attractions.md",
+      "byteCount": 7067,
+      "sha256": "516d917629334fd0a88b352ddd89d96ca441ce1735638f8a79568bc3a3588631"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/vancouver/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-itineraries.md",
+      "byteCount": 6165,
+      "sha256": "17a185341a226a9aae80e230d9cf8565f856001540ffae63aadcd83ac202b4ec"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/vancouver/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-lodging.md",
+      "byteCount": 6659,
+      "sha256": "04c7e80da1a21015d503e37adef2fb198058a74bd58b81bd93970da5cd349d86"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/vancouver/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vancouver/visitor-tips.md",
+      "byteCount": 8049,
+      "sha256": "ccddfbff5752e5765ff9971933bffd0a22683bf41414fb2ed717c0b3499436b5"
     }
   ]
 }

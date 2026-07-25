@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f821548b5b1cbef10737c59252295a92dcc81c00f83cfbeede10bc70fad7db6d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "people",
-    "name": "Contacts",
+    "name": "people",
     "description": "Build a personal contact system with details, interactions, birthdays, and smart reminders.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/people",
     "summary": "Core Behavior - User mentions a person → check if contact exists, offer to create/update - Calendar event detected with contact → surface relevant notes before meeting - Birthday approaching → remind with context about t",
     "repositoryPath": "skills/people",
     "manifestPath": "registry/skills/people.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/people/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/_meta.json",
+      "byteCount": 166,
+      "sha256": "58d63a92e07664df22e2a0b9d51efe95d4a6731f6bbc6a93b45e359d1b0a75e9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/people/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/SKILL.md",
+      "byteCount": 4092,
+      "sha256": "60aa164c48452ef92d0193e61c927e55f1cf933d52d9721751a9e41fdda33f98"
     }
   ]
 }

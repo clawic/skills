@@ -1,11 +1,24 @@
 ---
-name: Email Management
+name: email-management
 slug: email-management
 version: 1.0.0
-homepage: https://clawic.com/skills/email-management
 description: Triage inbox email, draft clear replies, and manage follow-ups with priority routing, commitment tracking, and reusable templates.
+homepage: https://clawic.com/skills/email-management
 changelog: Rebuilt the skill with structured triage, follow-up tracking, and setup-guided memory for repeatable inbox management.
-metadata: {"clawdbot":{"emoji":"📬","requires":{"bins":[],"config":["~/email-management/"]},"os":["linux","darwin","win32"],"configPaths":["~/email-management/"]}}
+metadata:
+  clawdbot:
+    emoji: 📬
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/email-management/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/email-management/
+    displayName: Email Management
 ---
 
 ## Setup
@@ -21,10 +34,10 @@ This skill is workflow-focused and local by default. It analyzes email text prov
 
 ## Architecture
 
-Memory lives in `~/email-management/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/email-management/`. See `memory-template.md` for structure.
 
 ```
-~/email-management/
+~/Clawic/data/email-management/
 ├── memory.md          # Status, context, and communication preferences
 ├── follow-ups.md      # Open threads with due dates and owners
 ├── templates.md       # Approved reusable response blocks
@@ -100,16 +113,16 @@ Provide concise summaries when workload is high:
 - None by default.
 
 **Data that stays local:**
-- Email management context and workflow notes under `~/email-management/`.
+- Email management context and workflow notes under `~/Clawic/data/email-management/`.
 
 **This skill does NOT:**
 - Send emails automatically without explicit user confirmation.
-- Access files outside `~/email-management/` for storage.
+- Access files outside `~/Clawic/data/email-management/` for storage.
 - Enable background automations without explicit user approval.
 - Connect directly to mailbox APIs or collect credentials on its own.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `mail` - generic mail workflow support
 - `email-marketing` - campaign and newsletter execution workflows
 - `crm` - customer relationship process management
@@ -118,5 +131,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star email-management`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/email-management
+- Latest version: https://clawic.com/skills/email-management

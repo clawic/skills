@@ -1,10 +1,19 @@
 ---
-name: Sentiment Tracker
+name: sentiment-tracker
 slug: sentiment-tracker
 version: 1.0.0
-homepage: https://clawic.com/skills/sentiment-tracker
 description: Monitor brand sentiment, crypto opinions, and product perception across social media with automated tracking, alerts, and multi-entity dashboards.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sentiment-tracker
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sentiment Tracker
 ---
 
 # Sentiment Analysis
@@ -151,12 +160,12 @@ No API keys required. No data stored externally. All analysis happens locally.
 - Access private/protected content
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` — web traffic and conversion data
 - `branding` — brand strategy and guidelines
 - `monitor` — system and service monitoring
 
 ## Feedback
 
-- If useful: `clawhub star sentiment-tracker`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/sentiment-tracker
+- Latest version: https://clawic.com/skills/sentiment-tracker

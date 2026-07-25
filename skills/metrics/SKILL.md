@@ -1,11 +1,20 @@
 ---
-name: Metrics
+name: metrics
 slug: metrics
 version: 1.0.0
-homepage: https://clawic.com/skills/metrics
 description: Capture, normalize, and report metrics across any domain with reusable dimensions, programmable formulas, and scalable reporting workflows.
+homepage: https://clawic.com/skills/metrics
 changelog: Initial release with metric registry design, formula governance, and automation-ready reporting workflows.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Metrics
 ---
 
 ## Setup
@@ -20,10 +29,10 @@ This skill structures metric definitions, computes reliable formulas, builds reu
 
 ## Architecture
 
-Working memory lives in `~/metrics/`. See `memory-template.md` for base structure and status behavior.
+Working memory lives in `~/Clawic/data/metrics/`. See `memory-template.md` for base structure and status behavior.
 
 ```
-~/metrics/
+~/Clawic/data/metrics/
 ├── memory.md              # HOT: goals, active metrics, reporting cadence
 ├── registry/              # WARM: metric contracts and dimension dictionaries
 ├── formulas/              # WARM: formula specs with version history
@@ -122,16 +131,16 @@ Only create custom formats when a stakeholder decision cannot be served by exist
 - None by default.
 
 **Data that stays local:**
-- Metrics context and definitions under `~/metrics/`.
+- Metrics context and definitions under `~/Clawic/data/metrics/`.
 - Formula versions, report logs, and alert policies stored locally.
 
 **This skill does NOT:**
-- Access files outside `~/metrics/` for memory storage.
+- Access files outside `~/Clawic/data/metrics/` for memory storage.
 - Send metrics to third-party APIs by default.
 - Create background automations without explicit user confirmation.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` — metric analysis patterns and interpretation workflows.
 - `dashboard` — KPI visualization design and reporting layouts.
 - `report` — structured reporting outputs for stakeholders.
@@ -140,5 +149,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star metrics`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/metrics
+- Latest version: https://clawic.com/skills/metrics

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3aee72778a4c9b2dd80a35d9029a23c5246be3cfe5dd39be77cb7890849cb236",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "finland",
-    "name": "Finland",
+    "name": "finland",
     "description": "Plan Finland trips with verified entry rules, season-aware routing, rail-and-Lapland logistics, and practical tourist safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/finland",
-    "summary": "Setup If `~/finland/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Finland trip and needs operational guidance beyond generic Nordic inspiration: Schengen entry checks, H",
+    "summary": "Setup If `~/Clawic/data/finland/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Finland trip and needs operational guidance beyond generic Nordic inspiration: Schengen ent",
     "repositoryPath": "skills/finland",
     "manifestPath": "registry/skills/finland.json"
   },
@@ -22,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/finland/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/_meta.json",
+      "byteCount": 166,
+      "sha256": "c60c6a2174f6084771d84c6311d09f6cf7035208d283eaecb1e82765459151d5"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/finland/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/accessibility.md",
+      "byteCount": 1285,
+      "sha256": "cde5cd1b62d729d0fe8ae284b4978ec9a4600cb0e5dede14c5a84b7699a90909"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/finland/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/accommodation.md",
+      "byteCount": 1474,
+      "sha256": "cbdc57a4182af205eb0e217259031161f0b9413dc07615b52b25362d8b54e20e"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/finland/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/budget-and-costs.md",
+      "byteCount": 1578,
+      "sha256": "288d23e58c945e4706d4008f33b78224c361a0902d192f895be02487db3fd3b4"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/finland/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/customs-and-border.md",
+      "byteCount": 1400,
+      "sha256": "08d3f82f00c46c63f081899d1e6701573775b3af6217370c3290fb7e9db1f0d8"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/finland/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/entry-and-documents.md",
+      "byteCount": 1700,
+      "sha256": "4e02b67d35adbab3070a3c50cafbb5c9a22ce83feee3ca8e5a3635fa676cff69"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/finland/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/family-travel.md",
+      "byteCount": 1254,
+      "sha256": "60f3ad6ff2320dd1f1719b7424a6ab7ebee392762a282aca59868c6225813953"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/finland/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/food-guide.md",
+      "byteCount": 1440,
+      "sha256": "d87e961ad7604ee491906245a21a6b872fd676cfe032578a6147f513a1744d8d"
     },
     {
       "path": "helsinki-and-capital-region.md",
       "downloadPath": "skills/finland/helsinki-and-capital-region.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/helsinki-and-capital-region.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/helsinki-and-capital-region.md",
+      "byteCount": 1220,
+      "sha256": "435188af150a3f0863f218f4e49e9b4a53e819a5f6479a6eab66490b5d48b8f8"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/finland/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/itineraries.md",
+      "byteCount": 1515,
+      "sha256": "647fe5ab340768829c9374188a6632878389e8563725bba4f59febaf8fa0da81"
     },
     {
       "path": "lakeland-and-tampere.md",
       "downloadPath": "skills/finland/lakeland-and-tampere.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/lakeland-and-tampere.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/lakeland-and-tampere.md",
+      "byteCount": 1167,
+      "sha256": "5b8b8d43c1491806e1c12b5be86f055227109208a1edd7db707db1f6266a4a0e"
     },
     {
       "path": "lapland.md",
       "downloadPath": "skills/finland/lapland.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/lapland.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/lapland.md",
+      "byteCount": 1353,
+      "sha256": "446fa6a6f03b7ddc2aefd385256fde0429085958771aa945339f75ff3dafb6bf"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/finland/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/memory-template.md",
+      "byteCount": 1344,
+      "sha256": "d764d3aa1577cfeb25a1facd0ccea588ebade3d72dab4f3eb2832f7255d2d2de"
     },
     {
       "path": "nature-and-national-parks.md",
       "downloadPath": "skills/finland/nature-and-national-parks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/nature-and-national-parks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/nature-and-national-parks.md",
+      "byteCount": 1517,
+      "sha256": "bdbbaacc87fc5b0cbcaf3dbece70f6c09cd08241833130afa4dc80c0034ca581"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/finland/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/nightlife.md",
+      "byteCount": 1315,
+      "sha256": "820b239ef9fdcb67542a82129957ebc0b6cd9f00721aefaa6ac71e268cc22929"
     },
     {
       "path": "payments-and-tax-free.md",
       "downloadPath": "skills/finland/payments-and-tax-free.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/payments-and-tax-free.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/payments-and-tax-free.md",
+      "byteCount": 1357,
+      "sha256": "b93a06ee44de14462bf19fc6e6dd910051d7f55a0592e7348958c55b94d42f7a"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/finland/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/regions.md",
+      "byteCount": 1451,
+      "sha256": "a3deae7a49e64645ed87dad20476acac0f2e4c159b2328046955bbf0928595f5"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/finland/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/road-trips-and-driving.md",
+      "byteCount": 1540,
+      "sha256": "7e5c5a469853a34a3fc4f414ad9444fbf7b1ab6fc7e8d46fda039fe3e0ac186a"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/finland/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/safety-and-emergencies.md",
+      "byteCount": 1339,
+      "sha256": "046f332c4853349abeb132cd3600fc4c913f2bf81f3afda5de3bddb1b695c0f2"
     },
     {
       "path": "sauna-and-culture.md",
       "downloadPath": "skills/finland/sauna-and-culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/sauna-and-culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/sauna-and-culture.md",
+      "byteCount": 1229,
+      "sha256": "243ed9d2e75b689305998b1611ff4d0c5bb4e7626ff51cbb63c5be3e439481d6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/finland/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/setup.md",
+      "byteCount": 2320,
+      "sha256": "b7f33c0cff73523d7868480bfafce99ba053c9b31c501a935f987d78c4e9bcf0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/finland/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/SKILL.md",
+      "byteCount": 6210,
+      "sha256": "48ff8ca13517587b24c15768bbde1943f4a80fe169bb9ea8be5d01c93a7b205a"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/finland/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/sources.md",
+      "byteCount": 2189,
+      "sha256": "d34340c44d45587f376e6f008d00d311c29ed1dc66e8e79cdc29b6ef785903fe"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/finland/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/telecoms-and-apps.md",
+      "byteCount": 1166,
+      "sha256": "27300535a0cb1f5596116ad38c00ae7b05246197fd3ee158e9496783c94504fd"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/finland/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/transport-domestic.md",
+      "byteCount": 1645,
+      "sha256": "bd84b325c2882f5fe201f2fd2ca87be1fec91edf637de620ff5e2b2d921bf394"
     },
     {
       "path": "turku-and-archipelago.md",
       "downloadPath": "skills/finland/turku-and-archipelago.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/turku-and-archipelago.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/turku-and-archipelago.md",
+      "byteCount": 1144,
+      "sha256": "945f7594cf155ce4fa7c4a3139b4e3542bdd6e8ed44f210c08054b33338fb417"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/finland/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/finland/weather-and-seasonality.md",
+      "byteCount": 1735,
+      "sha256": "0f29e06bd23711bcf4bebfc6b368386c575a140bcf37373f3d66bc8507bd91bb"
     }
   ]
 }

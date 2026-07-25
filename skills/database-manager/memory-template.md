@@ -1,6 +1,6 @@
 # Memory Template - Database Manager
 
-Create `~/database-manager/memory.md` with this structure:
+Create `~/Clawic/data/database-manager/memory.md` with this structure:
 
 ```markdown
 # Database Manager Memory

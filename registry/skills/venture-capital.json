@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b4810c73bd507d6610df20c37b7606a8dd216b349601327b07247ec367d828f5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "venture-capital",
-    "name": "Venture Capital",
+    "name": "venture-capital",
     "description": "Evaluate startups, structure deals, and make investment decisions with VC frameworks and due diligence patterns.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/venture-capital",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/venture-capital/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/_meta.json",
+      "byteCount": 182,
+      "sha256": "ba2e1094c54e7c21c9bc952d4e9944e6b80315fa4e111ea4f6d62936f6272196"
     },
     {
       "path": "due-diligence.md",
       "downloadPath": "skills/venture-capital/due-diligence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/due-diligence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/due-diligence.md",
+      "byteCount": 2707,
+      "sha256": "df12e1ca280887aab0b6f8421072817ac275f4b15c76fc595515ca9ee38b8c0a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/venture-capital/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/SKILL.md",
+      "byteCount": 3371,
+      "sha256": "23468a5fcc6b393886c234c7e36aa3d901bea7750b028098d693cffcdbdc07a9"
     },
     {
       "path": "term-sheets.md",
       "downloadPath": "skills/venture-capital/term-sheets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/term-sheets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/term-sheets.md",
+      "byteCount": 3569,
+      "sha256": "cd76a95aea6a084ecd64aa6cb59e8550a9e5fdbbbdd8e464b7b9cfc7f77c634c"
     },
     {
       "path": "valuation.md",
       "downloadPath": "skills/venture-capital/valuation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/valuation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/venture-capital/valuation.md",
+      "byteCount": 3993,
+      "sha256": "7921d367cc48fee4a831ee3036ff94e071c9a4babc9bb3e80cc6be49683dbb8c"
     }
   ]
 }

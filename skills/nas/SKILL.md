@@ -1,9 +1,19 @@
 ---
-name: NAS
+name: nas
 slug: nas
 version: 1.0.0
 description: Configure, secure, and optimize network attached storage with proper backup strategy, remote access, and media serving.
-metadata: {"clawdbot":{"emoji":"🗄️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/nas
+metadata:
+  clawdbot:
+    emoji: 🗄️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: NAS
 ---
 
 ## Quick Reference

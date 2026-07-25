@@ -1,11 +1,20 @@
 ---
-name: OpenTable
+name: opentable
 slug: opentable
 version: 1.0.0
-homepage: https://clawic.com/skills/opentable
 description: Guide OpenTable availability, booking flows, and guest messaging with conversion-focused listing, pacing, and incident response playbooks.
+homepage: https://clawic.com/skills/opentable
 changelog: Initial release.
-metadata: {"clawdbot":{"emoji":"🍽️","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🍽️
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: OpenTable
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ This skill is advisory by default and does not configure authenticated OpenTable
 
 ## Architecture
 
-Memory lives in `~/opentable/`. See `memory-template.md` for setup and status fields.
+Memory lives in `~/Clawic/data/opentable/`. See `memory-template.md` for setup and status fields.
 
 ```
-~/opentable/
+~/Clawic/data/opentable/
 |-- memory.md                 # Current strategy, goals, and integration state
 |-- reservation-log.md        # Demand patterns, pacing changes, and outcomes
 |-- guest-signals.md          # No-show patterns, special requests, and friction points
@@ -43,7 +52,7 @@ Use the smallest relevant file for the task.
 
 ## Data Storage
 
-Local notes stay under `~/opentable/`:
+Local notes stay under `~/Clawic/data/opentable/`:
 - strategy snapshot and current priorities in memory file
 - reservation pacing and demand signals in reservation log
 - guest behavior patterns in guest signals file
@@ -124,7 +133,7 @@ Data that leaves your machine by default:
 - none required by this playbook itself
 
 Data that stays local:
-- operational notes and decisions stored under `~/opentable/`
+- operational notes and decisions stored under `~/Clawic/data/opentable/`
 - local experiment and incident logs without full guest datasets
 
 This skill does NOT:
@@ -139,7 +148,7 @@ OpenTable workflows depend on OpenTable services and configured integrations.
 Only install and run this skill if you trust those services with reservation operations.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `booking` - booking workflows and reservation operations in adjacent channels
 - `customer-support` - guest communication quality and service recovery patterns
 - `analytics` - metric design and experiment readouts for operational decisions
@@ -148,5 +157,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star opentable`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/opentable
+- Latest version: https://clawic.com/skills/opentable

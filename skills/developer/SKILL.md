@@ -1,7 +1,17 @@
 ---
-name: Developer
+name: developer
+slug: developer
+version: 1.0.0
 description: Write clean, maintainable code with debugging, testing, and architectural best practices.
-metadata: {"clawdbot":{"emoji":"💻","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/developer
+metadata:
+  clawdbot:
+    emoji: 💻
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Developer
 ---
 
 # Software Development Rules

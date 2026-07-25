@@ -1,6 +1,6 @@
 # Memory Template — Polymarket CLI
 
-Create `~/polymarket-cli/memory.md` with this structure:
+Create `~/Clawic/data/polymarket-cli/memory.md` with this structure:
 
 ```markdown
 # Polymarket CLI Memory

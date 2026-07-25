@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "066340aaad75a68ac278dd296f13c09379921c908f59e2f7d69f617d21983680",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "gym",
-    "name": "Gym",
+    "name": "gym",
     "description": "Log workouts, plan routines, track progress, and get intelligent coaching for any fitness level.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/gym",
     "summary": "Quick Reference | Topic | File | |-------|------| | Routines, exercises, templates | `workouts.md` | | Progress tracking, volume, PRs | `progress.md` | | Injury adaptation, modifications | `adaptation.md` | | Gym nutriti",
     "repositoryPath": "skills/gym",
     "manifestPath": "registry/skills/gym.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gym/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/_meta.json",
+      "byteCount": 234,
+      "sha256": "8fd705ab22ac3883aa0c993b4c8b01c61f4a727fcfc1d919949cf9cf8419cc6e"
     },
     {
       "path": "adaptation.md",
       "downloadPath": "skills/gym/adaptation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/adaptation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/adaptation.md",
+      "byteCount": 3538,
+      "sha256": "91409900403781614f581d0c5860bc01d2b213dc9a442c05e865305520b3a2f0"
     },
     {
       "path": "nutrition.md",
       "downloadPath": "skills/gym/nutrition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/nutrition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/nutrition.md",
+      "byteCount": 3452,
+      "sha256": "1bbb05e7b53272dba80288d19a1a9d778dc2ff2e3e944aa5f2718c8a968eda99"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/gym/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/progress.md",
+      "byteCount": 3338,
+      "sha256": "beeddc3b159ddfa6cdd1d0ddf52502fb6ec882583a271cd40f698080147750c8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gym/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/SKILL.md",
+      "byteCount": 2156,
+      "sha256": "c6e510cc237ee73cbe362fb0ea0acf908dcac12d1a5a082e9af3f6c2a71b1cd3"
     },
     {
       "path": "workouts.md",
       "downloadPath": "skills/gym/workouts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/workouts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gym/workouts.md",
+      "byteCount": 2785,
+      "sha256": "a873e9ef416b5705f4212a0121df7190f633dd61cacf814c874416accc6d57f2"
     }
   ]
 }

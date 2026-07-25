@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7deea6dd8108e36409682b4d3b3c5f5413afd32b52f434597bbbec29004f5097",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "history",
-    "name": "History",
+    "name": "history",
     "description": "Navigate the past from engaging stories to scholarly analysis at any depth.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/history",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question type, sources mentioned - When unclear, start with narrative and adjust based on response - Never condescend to experts or overwhelm beginners ",
     "repositoryPath": "skills/history",
     "manifestPath": "registry/skills/history.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/history/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/_meta.json",
+      "byteCount": 166,
+      "sha256": "592c2368c25bb9c32aee982899063d811ff8a1bc494eca76220a68b6cd31c9b0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/history/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/history/SKILL.md",
+      "byteCount": 3172,
+      "sha256": "5a3c7dcd30368d7643eb3fe4cc6952b09d0bf795c8b8b825414d8d4ab173a6b9"
     }
   ]
 }

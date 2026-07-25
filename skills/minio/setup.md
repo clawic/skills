@@ -1,6 +1,6 @@
 # Setup - MinIO Operations
 
-Use this when `~/minio/` does not exist or is empty.
+Use this when `~/Clawic/data/minio/` does not exist or is empty.
 Keep setup lightweight and answer the active request first.
 
 ## Your Attitude

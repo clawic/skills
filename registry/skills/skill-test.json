@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6e5acb9eabcf82579ba6ce316a7e8379a7cb95b94f69617528cb4055e9a891fe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "skill-test",
-    "name": "Skill Test",
+    "name": "skill-test",
     "description": "Test skills before using or publishing. Trial, compare, evaluate in isolation without affecting your environment.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/skill-test",
     "summary": "Test Skills Safely Two use cases: 1. **Try before commit** — Test drive skills before installing 2. **Evaluate before publish** — Verify quality before publishing **Key principle:** Test in isolation. Never affect user's",
     "repositoryPath": "skills/skill-test",
     "manifestPath": "registry/skills/skill-test.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/skill-test/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/_meta.json",
+      "byteCount": 172,
+      "sha256": "6b9004745f141e25a4b48f01973f15c1492051890bc80c398ac931ccf689239c"
     },
     {
       "path": "compare.md",
       "downloadPath": "skills/skill-test/compare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/compare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/compare.md",
+      "byteCount": 1149,
+      "sha256": "b1cd9d7ccea78dcf7995657a112157268d83c0e0f154e86fa6ef9668da23f84a"
     },
     {
       "path": "evaluate.md",
       "downloadPath": "skills/skill-test/evaluate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/evaluate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/evaluate.md",
+      "byteCount": 1536,
+      "sha256": "f645ecaddcab04a1d406bd667f44d435c204b9b584ec45d828e361c0116e57d1"
     },
     {
       "path": "sandbox.md",
       "downloadPath": "skills/skill-test/sandbox.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/sandbox.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/sandbox.md",
+      "byteCount": 1034,
+      "sha256": "5f5cdfe74d1562a0ecdbee8f285c62c4e0e3bbde68d7bea499996b78dbe3fec8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/skill-test/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-test/SKILL.md",
+      "byteCount": 2488,
+      "sha256": "056dfbfd09bbd67e8ceffdcb17784b69eb6cd3155b631fd5cc058d8a940c281e"
     }
   ]
 }

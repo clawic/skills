@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3b836b8462c4ad7637e94b27de63cf05ccb6eabb81e387be8573f86b4d8a1d74",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "mlops",
-    "name": "MLOps",
+    "name": "mlops",
     "description": "Deploy ML models to production with pipelines, monitoring, serving, and reproducibility best practices.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mlops",
     "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | CI/CD and DAGs | `pipelines.md` | Coupling training/inference deps | | Model serving | `serving.md` | Cold start with large models | | Drift and a",
     "repositoryPath": "skills/mlops",
     "manifestPath": "registry/skills/mlops.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mlops/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/_meta.json",
+      "byteCount": 162,
+      "sha256": "cfe6705d6ef6db3a10e3473683c6dde5f558c9342b464cd0eb854833875d7ce9"
     },
     {
       "path": "gpu.md",
       "downloadPath": "skills/mlops/gpu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/gpu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/gpu.md",
+      "byteCount": 1697,
+      "sha256": "a742c27f185d18408f3dfe909788ad082e2b0ecba94a7af1b4ddc306d7b8a65e"
     },
     {
       "path": "monitoring.md",
       "downloadPath": "skills/mlops/monitoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/monitoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/monitoring.md",
+      "byteCount": 1589,
+      "sha256": "ff86a3ee0db788c13d1e37701f1e705378f14ab76f02c277c8c60fe52cf17167"
     },
     {
       "path": "pipelines.md",
       "downloadPath": "skills/mlops/pipelines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/pipelines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/pipelines.md",
+      "byteCount": 1411,
+      "sha256": "ed52cf300bd7c7f56f8a1d171273fbf069db76f0c63c1b15dbc055b4a19374d1"
     },
     {
       "path": "reproducibility.md",
       "downloadPath": "skills/mlops/reproducibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/reproducibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/reproducibility.md",
+      "byteCount": 1666,
+      "sha256": "b3cfdc9b58418caa6d4ebadf1c95d11b1c6023043b7ff4f8782038e638b979c7"
     },
     {
       "path": "serving.md",
       "downloadPath": "skills/mlops/serving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/serving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/serving.md",
+      "byteCount": 1336,
+      "sha256": "4e3c6a21aea13ec72c3a63d711d952b57374b8816b0f0de9019d4af506698b88"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mlops/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mlops/SKILL.md",
+      "byteCount": 1945,
+      "sha256": "ad73b6ce1e9ab748a56d8c4dc22b72072268b71ea00cef77efee386c94aa2e88"
     }
   ]
 }

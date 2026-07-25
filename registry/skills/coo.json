@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f7c1b94d24e361dc1dddb455d5f799842b3dcbf2317f00e1e4907c902710c13b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "coo",
-    "name": "COO / Chief Operations Officer",
+    "name": "coo",
     "description": "Be the COO with process design, organizational scaling, cross-functional execution, and operational excellence.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/coo",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/coo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/_meta.json",
+      "byteCount": 335,
+      "sha256": "152e1af16c82b2647ea610669994751707affcd141cdb287c93ee042a930cb8e"
     },
     {
       "path": "execution.md",
       "downloadPath": "skills/coo/execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/execution.md",
+      "byteCount": 2866,
+      "sha256": "dfca0fd4fcdf8f5d94bdf817c08a36ee851d1f72e4d855c2bf6b4d771af4133b"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/coo/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/metrics.md",
+      "byteCount": 3222,
+      "sha256": "7aefef361fe2b65a75f88f0ec6bec8f8117c44784bb84f1a675c0eeb558e2e69"
     },
     {
       "path": "process.md",
       "downloadPath": "skills/coo/process.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/process.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/process.md",
+      "byteCount": 2893,
+      "sha256": "90610d9555ab207399ecfebd8fe2d5f88dfb5cc24179acae5c54c64b3998eb70"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/coo/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/scaling.md",
+      "byteCount": 2828,
+      "sha256": "ac1bc85c0c44a36e871ad7151c9d3815f162525f91777d415de68c64f223fd3f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/coo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coo/SKILL.md",
+      "byteCount": 3181,
+      "sha256": "af7b3c581d3cead22f9dcf655696afea63b38337808b0473fa66b342c1a17377"
     }
   ]
 }

@@ -1,6 +1,13 @@
 ---
-name: Podcasts
+name: podcasts
+slug: podcasts
+version: 1.0.0
 description: Track and synthesize podcasts with subscriptions, briefings, progress tracking, and smart alerts for new episodes and guests.
+homepage: https://clawic.com/skills/podcasts
+metadata:
+  clawdbot:
+    emoji: 🎙️
+    displayName: Podcasts
 ---
 
 ## Core Behavior
@@ -14,9 +21,9 @@ description: Track and synthesize podcasts with subscriptions, briefings, progre
 
 ## Workspace
 
-Store podcast data in `~/podcasts/`:
+Store podcast data in `~/Clawic/data/podcasts/`:
 ```
-~/podcasts/
+~/Clawic/data/podcasts/
 ├── subscriptions.md   # Shows I follow
 ├── queue.md           # Episodes to listen
 ├── briefings/         # Generated summaries by show

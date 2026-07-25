@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "444f38130f28bd3182195dd44212f4e6f1001e7077a74fcc01aa143574bd8edc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "academy",
-    "name": "Academy",
+    "name": "academy",
     "description": "Run academies with enrollment, scheduling, staffing, billing, retention, and student outcome systems.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/academy",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/academy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/_meta.json",
+      "byteCount": 166,
+      "sha256": "39d7a81d40d9905a50e4b70d63127dd9a105f6df6c9c5aec12a678f0c4913a33"
     },
     {
       "path": "admissions.md",
       "downloadPath": "skills/academy/admissions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/admissions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/admissions.md",
+      "byteCount": 1779,
+      "sha256": "444b3bc5dd6bcde8c3c1ebc71bc7c46dbea761e8c06479401bce41f77c4636d5"
     },
     {
       "path": "curriculum-delivery.md",
       "downloadPath": "skills/academy/curriculum-delivery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/curriculum-delivery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/curriculum-delivery.md",
+      "byteCount": 1358,
+      "sha256": "579f540bf2b921407f89ac892089846196650ea97b9257e7c97c21e8d19001fd"
     },
     {
       "path": "dashboard.md",
       "downloadPath": "skills/academy/dashboard.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/dashboard.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/dashboard.md",
+      "byteCount": 1219,
+      "sha256": "e6bc2ccdcc82f6ed5837bb01aacee8350dee404d757e3ae26bb902f65fd6c475"
     },
     {
       "path": "finance-retention.md",
       "downloadPath": "skills/academy/finance-retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/finance-retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/finance-retention.md",
+      "byteCount": 1416,
+      "sha256": "9ac5dc72dd477d701d4fbc4686d32ad83e52f964f9860b58bf60a32382a31fc9"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/academy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/memory-template.md",
+      "byteCount": 1697,
+      "sha256": "034c0e5674e6fd80d13237e28c4d6397b8de6eee2f4262194de2bd990c967bc4"
     },
     {
       "path": "operating-models.md",
       "downloadPath": "skills/academy/operating-models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/operating-models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/operating-models.md",
+      "byteCount": 1901,
+      "sha256": "9e2a6f77b75d1d2a23c0168110a24c504233e58ba7db8a7bef8007b71fec273d"
     },
     {
       "path": "schedule-capacity.md",
       "downloadPath": "skills/academy/schedule-capacity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/schedule-capacity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/schedule-capacity.md",
+      "byteCount": 1604,
+      "sha256": "54c5dc61c1fc22c95f07e2fd19f7564c8e85809688987511cc8a6a473f7c5e99"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/academy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/setup.md",
+      "byteCount": 2571,
+      "sha256": "2bd98544fff89296db0ce0f56d852d5488788d0d36ebb5aff3c1f2b89e3601d8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/academy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/SKILL.md",
+      "byteCount": 6425,
+      "sha256": "9de13c9367711ef9e3a8c11266a6b6743d529de496c11b0c85e4e15c6a88ea84"
     },
     {
       "path": "staffing.md",
       "downloadPath": "skills/academy/staffing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/staffing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/staffing.md",
+      "byteCount": 1404,
+      "sha256": "2c524d18e96cd488ec67e1d90e76428759151e64cd52aa8b91fdfc3dc1759de4"
     },
     {
       "path": "student-ops.md",
       "downloadPath": "skills/academy/student-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/student-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/academy/student-ops.md",
+      "byteCount": 1470,
+      "sha256": "3fc8b716e95f6a6b57a7e01a0259e592e31f7fedea00b70c4e37ca4b6b7cc41b"
     }
   ]
 }

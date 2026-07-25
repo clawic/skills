@@ -1,7 +1,17 @@
 ---
-name: YAML
+name: yaml
+slug: yaml
+version: 1.0.0
 description: Write valid YAML that parses predictably across languages and versions.
-metadata: {"clawdbot":{"emoji":"📋","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/yaml
+metadata:
+  clawdbot:
+    emoji: 📋
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: YAML
 ---
 
 ## Type Coercion Traps

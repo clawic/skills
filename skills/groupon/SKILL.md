@@ -1,11 +1,24 @@
 ---
-name: Groupon
+name: groupon
 slug: groupon
 version: 1.0.0
-homepage: https://clawic.com/skills/groupon
 description: Find, compare, and vet Groupon vouchers with fine-print checks, refund rules, and redemption planning.
+homepage: https://clawic.com/skills/groupon
 changelog: Initial release with SAVE deal screening, merchant risk checks, and voucher recovery workflows.
-metadata: {"clawdbot":{"emoji":"🎟️","requires":{"bins":[],"config":["~/groupon/"]},"os":["linux","darwin","win32"],"configPaths":["~/groupon/"]}}
+metadata:
+  clawdbot:
+    emoji: 🎟️
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/groupon/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/groupon/
+    displayName: Groupon
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Use it for discovery, shortlist building, merchant validation, fine-print review
 
 ## Architecture
 
-Memory lives in `~/groupon/`. If `~/groupon/` does not exist, run `setup.md`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/groupon/`. If `~/Clawic/data/groupon/` does not exist, run `setup.md`. See `memory-template.md` for structure and status values.
 
 ```text
-~/groupon/
+~/Clawic/data/groupon/
 ├── memory.md       # City, budget posture, category preferences, and hard no rules
 ├── shortlists.md   # Ranked deals with verdicts and caveats
 ├── purchases.md    # Bought, gifted, or expiring vouchers with next actions
@@ -116,10 +129,10 @@ No other data is sent externally.
 - Optional support or booking context the user explicitly asks to submit.
 
 **Data that stays local:**
-- Preferences, shortlist decisions, and follow-up notes in `~/groupon/`.
+- Preferences, shortlist decisions, and follow-up notes in `~/Clawic/data/groupon/`.
 
 **This skill does NOT:**
-- Access files outside `~/groupon/`
+- Access files outside `~/Clawic/data/groupon/`
 - Store payment cards, login secrets, or full voucher codes
 - Buy, redeem, or request refunds without explicit user approval
 - Claim merchant quality or refund certainty when the evidence is weak
@@ -142,7 +155,7 @@ This skill NEVER:
 - Spend money or reveal voucher secrets without the user's instruction
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `buy` — evaluate real value, compare alternatives, and avoid bad purchases
 - `shopping` — broaden the search when Groupon is not the best channel
 - `booking` — plan reservations and compare travel or stay options
@@ -151,5 +164,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star groupon`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/groupon
+- Latest version: https://clawic.com/skills/groupon

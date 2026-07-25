@@ -1,6 +1,6 @@
 # Memory Template - Decide
 
-Create `~/decide/memory.md` with this structure:
+Create `~/Clawic/data/decide/memory.md` with this structure:
 
 ```markdown
 # Decide Memory
@@ -47,8 +47,8 @@ integration: pending | complete | paused | never_ask
 ## Local Files to Initialize
 
 ```bash
-mkdir -p ~/decide/domains
-touch ~/decide/{memory.md,decisions.md}
+mkdir -p ~/Clawic/data/decide/domains
+touch ~/Clawic/data/decide/{memory.md,decisions.md}
 ```
 
 ## Template for `decisions.md`
@@ -67,7 +67,7 @@ touch ~/decide/{memory.md,decisions.md}
 
 ## Rules
 
-- Keep durable decision policy in `~/decide/memory.md`.
-- Keep individual decision records in `~/decide/decisions.md`.
-- Keep domain-specific component models and exceptions in `~/decide/domains/`.
+- Keep durable decision policy in `~/Clawic/data/decide/memory.md`.
+- Keep individual decision records in `~/Clawic/data/decide/decisions.md`.
+- Keep domain-specific component models and exceptions in `~/Clawic/data/decide/domains/`.
 - Never persist credentials, secrets, or copied third-party private data.

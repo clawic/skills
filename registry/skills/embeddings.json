@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "30050646946089e0ebc1f2e99e6e1d849de22e5d633480b812a155c48d3176c5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "embeddings",
-    "name": "Embeddings",
+    "name": "embeddings",
     "description": "Generate, store, and search vector embeddings with provider selection, chunking strategies, and similarity search optimization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/embeddings",
     "summary": "When to Use User wants to convert text/images to vectors, build semantic search, or integrate embeddings into applications. Quick Reference | Topic | File | |-------|------| | Provider comparison & selection | `providers",
     "repositoryPath": "skills/embeddings",
     "manifestPath": "registry/skills/embeddings.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/embeddings/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/_meta.json",
+      "byteCount": 172,
+      "sha256": "c4b397645d171e54995cd4b239b7ac34185521bdb5fe9215f374259d9a873dbe"
     },
     {
       "path": "chunking.md",
       "downloadPath": "skills/embeddings/chunking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/chunking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/chunking.md",
+      "byteCount": 3741,
+      "sha256": "bae18fd2e8937e8f292c499a178c96629495dfe7751f4ec2cf72d69577b34082"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/embeddings/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/providers.md",
+      "byteCount": 3255,
+      "sha256": "b583d41115710f904b72247f4278f16324506d1b7d0dcc6a5b5e7fa9407dddc1"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/embeddings/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/search.md",
+      "byteCount": 4515,
+      "sha256": "f2c61b65a83390bb0e1cc2282fcefe8e46cf4eba20ed01ca260fa883724ffce3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/embeddings/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/SKILL.md",
+      "byteCount": 3024,
+      "sha256": "1ba8fe3d3065a5b8744849679218b236531ba0cce46d6605ae4f704049e5bf93"
     },
     {
       "path": "storage.md",
       "downloadPath": "skills/embeddings/storage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/storage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/storage.md",
+      "byteCount": 3852,
+      "sha256": "d98ac9476e40975fbdb54d614fe186b1c7339eb252cd7ebdb7d8c3adf75759fd"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "beaa0875e93af9472374d707d875f58dd377d5dc34b397237419b7e71d4438b8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "canada",
-    "name": "Canada",
+    "name": "canada",
     "description": "Discover Canada like a local with concrete city recommendations, regional insights, nature routes, and practical planning tips.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/canada",
-    "summary": "Setup If `~/canada/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Canada or asking for local insights: what to eat, which regions to prioritize, what to skip, season",
+    "summary": "Setup If `~/Clawic/data/canada/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Canada or asking for local insights: what to eat, which regions to prioritize, what to ",
     "repositoryPath": "skills/canada",
     "manifestPath": "registry/skills/canada.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/canada/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/_meta.json",
+      "byteCount": 164,
+      "sha256": "211c55af01e5a372acaaf1a311ceb766f9935a27c4addb6b4687834b6a9af2d8"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/canada/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/accommodation.md",
+      "byteCount": 1336,
+      "sha256": "ea86a6fb41159d05b785e6556ccd61e3a366d89f53f721c81f423ef660d000e1"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/canada/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/apps.md",
+      "byteCount": 1016,
+      "sha256": "4d083a947284f60f6dbe6fba11401e0a8a15f2742a7b16510492d4da560cbc16"
     },
     {
       "path": "banff-jasper.md",
       "downloadPath": "skills/canada/banff-jasper.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/banff-jasper.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/banff-jasper.md",
+      "byteCount": 1469,
+      "sha256": "fa66d85245a4b422df0c0659c888c760224a2730bf6b422627dcaa7701b9422c"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/canada/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/beaches.md",
+      "byteCount": 1004,
+      "sha256": "188f2b645dc43e1cd01eb7912be52fd8c9e72703c9eedc3ae8801853b9ef6c69"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/canada/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/culture.md",
+      "byteCount": 1101,
+      "sha256": "3026c5269cfd369698650eda2e2f5fd91cc39edfafd3f6d4ccf4c2159c8bbf5c"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/canada/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/emergencies.md",
+      "byteCount": 1085,
+      "sha256": "f0bc164101421f9c5cfb2d5e6c0df27e8ca301bc48df04590e264955c752d9b4"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/canada/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/experiences.md",
+      "byteCount": 1112,
+      "sha256": "57ad041974d8328ba502174baebba14ef1a874bf8affd243b9d20d834efcfa7d"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/canada/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/food-guide.md",
+      "byteCount": 1829,
+      "sha256": "55663053433a0a8f84ba2feb2c63bf09ea5fdffc799eb183e351ef100ec53be3"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/canada/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/hiking.md",
+      "byteCount": 1092,
+      "sha256": "0d9838f8465264eea9a68e42460b39c5ac87894aef1778ce6a1ea2d6c396da47"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/canada/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/itineraries.md",
+      "byteCount": 1322,
+      "sha256": "8a499ca97c0c9be1ef4460701a1934646abbf9a94c2727265ac5664a6320813c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/canada/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/memory-template.md",
+      "byteCount": 1311,
+      "sha256": "81ea6fddf9b4dac180ec0790be0fa037b630dce9c5d4528ed7f0045be630ef01"
     },
     {
       "path": "montreal.md",
       "downloadPath": "skills/canada/montreal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/montreal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/montreal.md",
+      "byteCount": 1752,
+      "sha256": "24fe7cb75db427a250a5e302529af1b45103ec6045c5a773162fccddd9f23b1d"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/canada/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/nightlife.md",
+      "byteCount": 1023,
+      "sha256": "537eefcac2a11ea6eb4bbbbe8bbe51382789e8a5e5617878279ca474796467cb"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/canada/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/regions.md",
+      "byteCount": 1149,
+      "sha256": "0db6f26115046c7e660c4bbbcc8e103f30cc8899256367100e45d556ab13e4b9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/canada/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/setup.md",
+      "byteCount": 1662,
+      "sha256": "921faa089ea328d4744c6b5d9ac02dafd19d3ab4c3247679de9df34b52f872e9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/canada/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/SKILL.md",
+      "byteCount": 5696,
+      "sha256": "bd6c519a7b13a6c02261837ed1c4c86611684f9b91243bce1e3845c7c50afbd0"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/canada/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/telecoms.md",
+      "byteCount": 834,
+      "sha256": "09f5d5ab43bf32231065071be08e0e8a5442b6e4a6a3b0f37511db78bad20143"
     },
     {
       "path": "toronto.md",
       "downloadPath": "skills/canada/toronto.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/toronto.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/toronto.md",
+      "byteCount": 2269,
+      "sha256": "9ab8e8796117e1b65e1f48147e168f462ea593994a0c6ff263cd832a95335eab"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/canada/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/transport.md",
+      "byteCount": 1019,
+      "sha256": "5b6165b4741db1400b0ef9325074318d74422478beac884ebdf329bf1dcd0fcc"
     },
     {
       "path": "vancouver.md",
       "downloadPath": "skills/canada/vancouver.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/vancouver.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/vancouver.md",
+      "byteCount": 1988,
+      "sha256": "d9bffc633a98c6e96fca43c9a71c6d6b55a68905ef020ee6bd91ccabcdfdb562"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/canada/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/wine.md",
+      "byteCount": 1269,
+      "sha256": "2430e3c51132a199a9c17cb94198d7dd2d61e77391ba622f1cdb434094120068"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/canada/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/canada/with-kids.md",
+      "byteCount": 956,
+      "sha256": "d6de71e4923fb659e9de1f02a2407c1778f4ff7edb9a7210d8cdb5941b818170"
     }
   ]
 }

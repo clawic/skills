@@ -1,6 +1,6 @@
 # Setup — India
 
-Use this guide when `~/india/` does not exist or is empty. Start naturally and keep the conversation focused on the trip, not the file system.
+Use this guide when `~/Clawic/data/india/` does not exist or is empty. Start naturally and keep the conversation focused on the trip, not the file system.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first two or three exchanges, ask naturally:
 - "Want me to jump in whenever India travel comes up?"
 - "Should I optimize more for comfort, depth, or budget when India is involved?"
 
-Save the answer in `~/india/memory.md`.
+Save the answer in `~/Clawic/data/india/memory.md`.
 
 ### 2. Learn only what changes the advice
 
@@ -50,5 +50,5 @@ Use small follow-up questions only when they materially improve the route, city 
 
 ## Memory Behavior
 
-Update `~/india/memory.md` when the user reveals route, dates, group type, comfort level, or strong likes and dislikes.
+Update `~/Clawic/data/india/memory.md` when the user reveals route, dates, group type, comfort level, or strong likes and dislikes.
 Track what has already been recommended so you do not keep repeating the same Delhi, Jaipur, or Goa defaults.

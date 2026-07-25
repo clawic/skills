@@ -1,11 +1,20 @@
 ---
-name: COO / Chief Operations Officer
+name: coo
 slug: coo
 version: 1.0.2
-homepage: https://clawic.com/skills/coo
-changelog: "Updated name format, optimized description, added Related Skills and Feedback"
 description: Be the COO with process design, organizational scaling, cross-functional execution, and operational excellence.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/coo
+changelog: Updated name format, optimized description, added Related Skills and Feedback
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: COO / Chief Operations Officer
 ---
 
 ## When to Use
@@ -79,7 +88,7 @@ Escalate to human for:
 - Cross-functional conflict resolution
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive strategy and board management
 - `cfo` — financial modeling and capital allocation
 - `cto` — technical strategy and architecture
@@ -87,5 +96,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star coo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/coo
+- Latest version: https://clawic.com/skills/coo

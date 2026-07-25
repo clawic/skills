@@ -1,11 +1,22 @@
 ---
-name: United Kingdom
+name: uk
 slug: uk
 version: 1.0.0
-homepage: https://clawic.com/skills/uk
-changelog: "Initial release with verified UK entry rules, nation-level routing, and practical rail-road travel logistics."
 description: Plan United Kingdom trips with nation-specific routing, ETA-aware entry rules, rail-road tradeoffs, and practical local logistics.
-metadata: {"clawdbot":{"emoji":"🇬🇧","requires":{"bins":[],"config":["~/uk/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/uk
+changelog: Initial release with verified UK entry rules, nation-level routing, and practical rail-road travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇬🇧
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/uk/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: United Kingdom
 ---
 
 ## When to Use
@@ -14,16 +25,16 @@ User is planning a United Kingdom trip and needs practical guidance beyond gener
 
 ## Architecture
 
-Memory lives in `~/uk/`. If `~/uk/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/uk/`. If `~/Clawic/data/uk/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/uk/
+~/Clawic/data/uk/
 └── memory.md     # Trip context and evolving constraints
 ```
 
 ## Data Storage
 
-- `~/uk/memory.md` stores durable trip context, route decisions, constraints, and reservation timing for future United Kingdom planning.
+- `~/Clawic/data/uk/memory.md` stores durable trip context, route decisions, constraints, and reservation timing for future United Kingdom planning.
 - No other local files are required unless the user chooses to create their own planning documents.
 
 ## Quick Reference
@@ -112,12 +123,12 @@ Every final output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/uk/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/uk/`
 
-**This skill does NOT:** Access files outside `~/uk/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/uk/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `booking` - Reservation workflow and confirmation hygiene
 - `car-rental` - Better rural and multi-stop rental strategy
@@ -126,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star uk`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/uk
+- Latest version: https://clawic.com/skills/uk

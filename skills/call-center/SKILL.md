@@ -1,10 +1,19 @@
 ---
-name: Call Center
+name: call-center
 slug: call-center
 version: 1.0.0
-homepage: https://clawic.com/skills/call-center
 description: Handle customer calls with scripts, issue resolution, escalation protocols, and interaction logging.
-metadata: {"clawdbot":{"emoji":"📞","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/call-center
+metadata:
+  clawdbot:
+    emoji: 📞
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Call Center
 ---
 
 ## When to Use
@@ -13,10 +22,10 @@ Agent handles customer interactions via phone or voice channels. Covers inbound 
 
 ## Architecture
 
-Memory lives in `~/call-center/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/call-center/`. See `memory-template.md` for setup.
 
 ```
-~/call-center/
+~/Clawic/data/call-center/
 ├── memory.md          # HOT: active calls, recent issues
 ├── scripts/           # Call scripts by type
 ├── escalations.md     # Escalation log and patterns
@@ -93,7 +102,7 @@ Escalate immediately when:
 | After-Call Work | <2 min | Documentation efficiency |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `customer-support` - support workflows
 - `escalate` - escalation patterns
 - `crm` - customer data management
@@ -101,5 +110,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star call-center`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/call-center
+- Latest version: https://clawic.com/skills/call-center

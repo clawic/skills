@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4ed8fe50e28dfb543ee19b4c7b475aac9f002eca097e635af9a0426576d0bfa3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-news",
-    "name": "Apple News (MacOS)",
+    "name": "apple-news",
     "description": "Open Apple News, read Apple News links, and run local News workflows on macOS using deterministic CLI commands and shortcut-based search fallback.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-news",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-news/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/_meta.json",
+      "byteCount": 180,
+      "sha256": "7f1dc1038a332999d95f9cf767fef703bf147eadecabc3cb1a32f0f3e96d1a2a"
     },
     {
       "path": "command-paths.md",
       "downloadPath": "skills/apple-news/command-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/command-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/command-paths.md",
+      "byteCount": 1275,
+      "sha256": "e3d40aedbd4b3e718dddf306e9e8f19d4122fd6e75db333acb55ac7c3ce15934"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-news/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/memory-template.md",
+      "byteCount": 1513,
+      "sha256": "d093a919944e445bef7ac880064221d6f4c6c50569d772b52961cda349797869"
     },
     {
       "path": "operation-patterns.md",
       "downloadPath": "skills/apple-news/operation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/operation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/operation-patterns.md",
+      "byteCount": 1220,
+      "sha256": "43b7aacfb0269392557f902817f2d0870a5039e1e507481328709b80b515bd50"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/apple-news/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/safety-checklist.md",
+      "byteCount": 894,
+      "sha256": "deba2e4c55a1370871d76797a2b46218e3b37a950048c025f719f27772ce8b1d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-news/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/setup.md",
+      "byteCount": 1795,
+      "sha256": "48a147ec29b0cc4a11100b111862e1440b81638e1e7615fc7d559afcbc452176"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-news/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/SKILL.md",
+      "byteCount": 5773,
+      "sha256": "73eb72a3af628f177b1e9df7f41f74c9dc4e73f1cadfae29407bfac1478477af"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/apple-news/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-news/troubleshooting.md",
+      "byteCount": 1336,
+      "sha256": "394e626f50bb1112a2ae9f00febcc4d316a9b042baf868a4821465583fdf43d5"
     }
   ]
 }

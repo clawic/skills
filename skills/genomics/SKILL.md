@@ -1,15 +1,24 @@
 ---
-name: Genomics
+name: genomics
 slug: genomics
 version: 1.0.0
-homepage: https://clawic.com/skills/genomics
 description: Interpret genomic variants with ACMG classification, pharmacogenomics, and clinical annotation from ClinVar and gnomAD.
-metadata: {"clawdbot":{"emoji":"🧬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/genomics
+metadata:
+  clawdbot:
+    emoji: 🧬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Genomics
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Ask user consent before creating `~/genomics/` workspace.
+On first use, read `setup.md` for integration guidelines. Ask user consent before creating `~/Clawic/data/genomics/` workspace.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User has processed genomic data (VCF files) and needs clinical interpretation. A
 
 ## Architecture
 
-Memory lives in `~/genomics/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/genomics/`. See `memory-template.md` for structure.
 
 ```
-~/genomics/
+~/Clawic/data/genomics/
 ├── memory.md           # Context + preferences + interpretation history
 └── cases/              # Active interpretation cases
 ```
@@ -162,10 +171,10 @@ This skill does NOT automatically call external APIs. All database references ar
 - Make network requests automatically
 - Upload patient variants anywhere
 - Connect to databases without explicit user action
-- Store identifiable genomic information outside ~/genomics/
+- Store identifiable genomic information outside ~/Clawic/data/genomics/
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `medicine` — clinical decision support
 - `biology` — molecular mechanisms
 - `chemistry` — drug metabolism pathways
@@ -173,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star genomics`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/genomics
+- Latest version: https://clawic.com/skills/genomics

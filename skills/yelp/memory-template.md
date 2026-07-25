@@ -1,6 +1,6 @@
 # Memory Template — Yelp
 
-Create `~/yelp/memory.md` with this structure:
+Create `~/Clawic/data/yelp/memory.md` with this structure:
 
 ```markdown
 # Yelp Memory

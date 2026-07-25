@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "44ee6f616993b23c468263e57ce2a917e978df7c8b0d1ba58c38bcf7305e7468",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "email-marketing",
-    "name": "Email Marketing",
+    "name": "email-marketing",
     "description": "Email deliverability, list management, sequences, segmentation, and campaign optimization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/email-marketing",
     "summary": "Deliverability Foundations - Authenticate all sending domains: SPF, DKIM, and DMARC — missing any one tanks deliverability - Warm up new domains/IPs: start with 50-100 emails/day, increase 20% daily over 2-4 weeks - Neve",
     "repositoryPath": "skills/email-marketing",
     "manifestPath": "registry/skills/email-marketing.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/email-marketing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-marketing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-marketing/_meta.json",
+      "byteCount": 182,
+      "sha256": "05d612b09a571fc579be0f4bf1b7defa3c5bb6a552003f4a6c4380e37a3b5dcb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/email-marketing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-marketing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/email-marketing/SKILL.md",
+      "byteCount": 5261,
+      "sha256": "c5a4fc601738e7a8d48df160f105b26811ebb917ad472b70bf1ad21e8e404412"
     }
   ]
 }

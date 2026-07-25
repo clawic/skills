@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3c2365cc1a77b3be2a39bbcce9f59c15163e1b560ef1bcc2ebaf4f61babc1dd1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "roleplay",
-    "name": "Roleplay",
+    "name": "roleplay",
     "description": "Create persistent characters, run practice scenarios, and track progress across roleplay sessions with activation control and structured feedback.",
-    "summary": "Workspace Store all roleplay data in ~/roleplay/: - **characters/** — Character profiles (one file per character) - **scenarios/** — Saved scenario templates - **sessions/** — Session logs and feedback - **active** — Cur",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/roleplay",
+    "summary": "Workspace Store all roleplay data in ~/Clawic/data/roleplay/: - **characters/** — Character profiles (one file per character) - **scenarios/** — Saved scenario templates - **sessions/** — Session logs and feedback - **ac",
     "repositoryPath": "skills/roleplay",
     "manifestPath": "registry/skills/roleplay.json"
   },
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/roleplay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/_meta.json",
+      "byteCount": 168,
+      "sha256": "e7840f018dbe81324555c8bff501c4963385807bbd83c63d4c0810f9953b2a1b"
     },
     {
       "path": "characters.md",
       "downloadPath": "skills/roleplay/characters.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/characters.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/characters.md",
+      "byteCount": 2427,
+      "sha256": "190932dc4b3285704410acda5f2e425a222c49ad33e2a6b1f553a7c3c08090ba"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/roleplay/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/feedback.md",
+      "byteCount": 2422,
+      "sha256": "8c06db4e1f88f3dce441ed149d3bdf2f0b3848fab454b1468ac447066ada74f0"
     },
     {
       "path": "practice.md",
       "downloadPath": "skills/roleplay/practice.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/practice.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/practice.md",
+      "byteCount": 2673,
+      "sha256": "c81c98d794232a7f96b7b719957c633c9c3b33eca884153123841eb5afb72baa"
     },
     {
       "path": "safeguards.md",
       "downloadPath": "skills/roleplay/safeguards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/safeguards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/safeguards.md",
+      "byteCount": 3294,
+      "sha256": "98d14d3472a97671e6acc5dd492e77f1128e6c5d43b19b00f5f48520b4f1f151"
     },
     {
       "path": "scenarios.md",
       "downloadPath": "skills/roleplay/scenarios.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/scenarios.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/scenarios.md",
+      "byteCount": 3795,
+      "sha256": "e9caa18cbe1b2f06f552920fa43049f112518bf9fdf6513189eb37a6e8a97ef1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/roleplay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/roleplay/SKILL.md",
+      "byteCount": 2586,
+      "sha256": "9b08718bd72839d455454aa88fef7d54910b8e40d980d44b37725f6fe4c810b4"
     }
   ]
 }

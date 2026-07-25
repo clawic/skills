@@ -4,7 +4,7 @@ These boundaries are mandatory whenever the skill is active.
 
 ## Allowed
 
-- Store concise local notes in `~/self-evolving/`
+- Store concise local notes in `~/Clawic/data/self-evolving/`
 - Compare current behavior against a clear baseline
 - Promote a repeated winner into stable memory
 - Discard a failed experiment quickly

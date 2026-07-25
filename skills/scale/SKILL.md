@@ -1,11 +1,24 @@
 ---
-name: Scale Frameworks
+name: scale
 slug: scale
 version: 1.0.0
-homepage: https://clawic.com/skills/scale
 description: Scale systems, software architecture, and companies with bottleneck mapping, staged leverage plans, and risk-aware execution loops.
+homepage: https://clawic.com/skills/scale
 changelog: Initial release with cross-domain scaling frameworks, bottleneck diagnostics, and execution cadence playbooks.
-metadata: {"clawdbot":{"emoji":"CHART","requires":{"bins":[],"config":["~/scale/"]},"os":["linux","darwin","win32"],"configPaths":["~/scale/"]}}
+metadata:
+  clawdbot:
+    emoji: CHART
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/scale/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/scale/
+    displayName: Scale Frameworks
 ---
 
 ## Setup
@@ -22,10 +35,10 @@ This skill is advisory and planning-focused. It does not run infrastructure chan
 
 ## Architecture
 
-Memory lives in `~/scale/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/scale/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/scale/
+~/Clawic/data/scale/
 |- memory.md                  # Durable scaling context and activation preferences
 |- bottleneck-map.md          # Active constraints and bottleneck hypotheses
 |- leverage-backlog.md        # Candidate changes ranked by impact and effort
@@ -120,16 +133,16 @@ Scaling compounds only when wins become repeatable systems.
 - None by default from this skill itself.
 
 **Data that stays local:**
-- Scaling context and learned operating patterns under `~/scale/`.
+- Scaling context and learned operating patterns under `~/Clawic/data/scale/`.
 
 **This skill does NOT:**
 - Execute undeclared network requests automatically.
 - Apply irreversible technical or organizational changes without explicit user approval.
 - Store secrets, credentials, or payment data in local memory files.
-- Modify files outside `~/scale/` for memory storage.
+- Modify files outside `~/Clawic/data/scale/` for memory storage.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `architecture` - Architectural fundamentals and constraints that shape scaling decisions.
 - `systems-architect` - Reliability, infrastructure, and platform tradeoff patterns.
 - `startup` - Stage-aware startup execution and prioritization logic.
@@ -138,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star scale`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/scale
+- Latest version: https://clawic.com/skills/scale

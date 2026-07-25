@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ee20478eb4c10ac5491913be4140040d54abbfd1f2275dbed2e5f2b23e178c07",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "india",
-    "name": "India",
+    "name": "india",
     "description": "Plan India trips with specific neighborhoods, regional food calls, route choices, and grounded advice that avoids common travel mistakes.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/india",
-    "summary": "Setup If `~/india/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a trip to India or wants local guidance on cities, routes, food, safety, timing, and how to avoid tourist-",
+    "summary": "Setup If `~/Clawic/data/india/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a trip to India or wants local guidance on cities, routes, food, safety, timing, and how to av",
     "repositoryPath": "skills/india",
     "manifestPath": "registry/skills/india.json"
   },
@@ -22,112 +25,156 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/india/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/_meta.json",
+      "byteCount": 162,
+      "sha256": "8231bb41593ed93d44b20ddaffcac34ac67641c0c0a4ce0422055c0bb1dd4b94"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/india/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/accommodation.md",
+      "byteCount": 1385,
+      "sha256": "0773aa49a61bc5c6f1a91fdd7b29e51ccebcc14dcfdbd4cd15c1ab569b3ae459"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/india/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/apps.md",
+      "byteCount": 1102,
+      "sha256": "8e9054c55aab7744b327039c9f6ce52c3766e795ad3c4d7b8e461834319c9301"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/india/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/beaches.md",
+      "byteCount": 1011,
+      "sha256": "f4535bf226da00682cc167f9717059ea529a9ecdfa12be78b84b07c8d6438335"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/india/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/culture.md",
+      "byteCount": 1016,
+      "sha256": "3881ee353aad0527c533859bf1a50e4357d4550c0611c73a4b5f76daa38f1859"
     },
     {
       "path": "delhi.md",
       "downloadPath": "skills/india/delhi.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/delhi.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/delhi.md",
+      "byteCount": 1713,
+      "sha256": "17f6cedbde52f73ff9bdb3eeb1c1a5c50b4aab1662682aef3b67d44d2ed15da9"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/india/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/emergencies.md",
+      "byteCount": 1129,
+      "sha256": "3ddf554186ceeabc072844df371bf4b7741596a2da6366f853807226426a712b"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/india/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/experiences.md",
+      "byteCount": 1205,
+      "sha256": "175370584e5582b03ef649033fc68d8022a012af773caa684d47ad6dc2a18cf7"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/india/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/food-guide.md",
+      "byteCount": 1435,
+      "sha256": "d912ab7d7d40e7406497ab2ba748aee93093e0a80d7bd4cc3b3ac98cdd46f10d"
     },
     {
       "path": "goa.md",
       "downloadPath": "skills/india/goa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/goa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/goa.md",
+      "byteCount": 1753,
+      "sha256": "9516c019dbb7480acfe72a0fa113c37e40ef44d0191c8db8f888720c079238b7"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/india/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/hiking.md",
+      "byteCount": 1063,
+      "sha256": "eafc52a08c43ad5fbecbce76d6141437d57f768993a12bce50a212371903189b"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/india/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/itineraries.md",
+      "byteCount": 1507,
+      "sha256": "7493c4ede8b68822a23d9dbb6240e5e80aab0b864c788e0b75401a19503fa8af"
     },
     {
       "path": "jaipur.md",
       "downloadPath": "skills/india/jaipur.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/jaipur.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/jaipur.md",
+      "byteCount": 1514,
+      "sha256": "e3aecf5ebb59a5f15d2165fd0cb392927431b29cc5d07c1dd4b587dc0f6fa74d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/india/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/memory-template.md",
+      "byteCount": 1125,
+      "sha256": "dbf8b85918421098944b1a8d41ce04c5524a6543aab15ef98237193e0c38b354"
     },
     {
       "path": "mumbai.md",
       "downloadPath": "skills/india/mumbai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/mumbai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/mumbai.md",
+      "byteCount": 1654,
+      "sha256": "596feb2deadb888e570d4f53413dab4f8948260db00380f88fc27af7b5270c63"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/india/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/nightlife.md",
+      "byteCount": 1080,
+      "sha256": "bb527d963d3ae053499a2074e9fcd9639d6ef231e8defb112b028e9a97551833"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/india/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/regions.md",
+      "byteCount": 1250,
+      "sha256": "5776f52be1702df82b3c678c790c07539ab8115f59479d5ee963e53f7fc4833e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/india/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/setup.md",
+      "byteCount": 2046,
+      "sha256": "7b5e67727e4543ddb5fda8d6e894e342ed2df81ca51b24092300ce8a6976a4e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/india/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/SKILL.md",
+      "byteCount": 5379,
+      "sha256": "c4444f696de27882d122d21a52f4dd721c067203b782ad37eed2bf575a256409"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/india/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/telecoms.md",
+      "byteCount": 991,
+      "sha256": "7a633d42d6bd4f7b11ef6440d409e714a6c42f0c4afd7f481ed2e8bf896c0465"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/india/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/transport.md",
+      "byteCount": 1251,
+      "sha256": "3ba85394c7f04ace94fb501ecbcdbe260d7f000bd9ff42871166e60d152c4704"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/india/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/india/with-kids.md",
+      "byteCount": 858,
+      "sha256": "cf3847d2a7cec25a1408699dfee0546484311fbc72f2910f222bc2690d3be252"
     }
   ]
 }

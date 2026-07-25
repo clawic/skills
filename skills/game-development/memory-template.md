@@ -1,6 +1,6 @@
 # Memory Template - Game Development
 
-Create `~/game-development/memory.md` with this structure:
+Create `~/Clawic/data/game-development/memory.md` with this structure:
 
 ```markdown
 # Game Development Memory
@@ -80,7 +80,7 @@ project_phase: concept | prototype | vertical_slice | production | polish | laun
 
 ## File Templates
 
-Create `~/game-development/playtest-log.md`:
+Create `~/Clawic/data/game-development/playtest-log.md`:
 
 ```markdown
 # Playtest Log
@@ -94,7 +94,7 @@ Create `~/game-development/playtest-log.md`:
 - Follow-up task:
 ```
 
-Create `~/game-development/system-decisions.md`:
+Create `~/Clawic/data/game-development/system-decisions.md`:
 
 ```markdown
 # System Decisions

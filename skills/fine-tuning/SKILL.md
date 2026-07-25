@@ -1,7 +1,13 @@
 ---
-name: Fine-Tuning
+name: fine-tuning
 slug: fine-tuning
+version: 1.0.0
 description: Fine-tune LLMs with data preparation, provider selection, cost estimation, evaluation, and compliance checks.
+homepage: https://clawic.com/skills/fine-tuning
+metadata:
+  clawdbot:
+    emoji: 🎛️
+    displayName: Fine-Tuning
 ---
 
 ## When to Use

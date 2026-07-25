@@ -1,7 +1,21 @@
 ---
-name: Sync
+name: sync
+slug: sync
+version: 1.0.0
 description: Synchronize files and directories between local, remote, and cloud storage reliably.
-metadata: {"clawdbot":{"emoji":"🔄","requires":{"anyBins":["rsync","rclone"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sync
+metadata:
+  clawdbot:
+    emoji: 🔄
+    requires:
+      anyBins:
+      - rsync
+      - rclone
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sync
 ---
 
 # File Synchronization Rules

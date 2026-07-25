@@ -1,6 +1,6 @@
 # Send Log - SMTP
 
-Use this file as the baseline for `~/smtp/send-log.md`.
+Use this file as the baseline for `~/Clawic/data/smtp/send-log.md`.
 
 Keep entries short and evidence-focused.
 

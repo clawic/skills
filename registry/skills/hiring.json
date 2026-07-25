@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b68ad84d848f4f23696635a6563ed82a32d4cbdbd6ac8e92d1ed6b7a49577164",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hiring",
-    "name": "Hiring",
+    "name": "hiring",
     "description": "Hire humans or AI agents for tasks you cannot do yourself, with platform selection, vetting, contracts, and payment management.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hiring",
     "summary": "Platform Selection | Task Type | Platform | Why | |-----------|----------|-----| | Development, design, writing | Upwork, Freelancer.com | Large talent pool, escrow, reviews | | Quick fixed-price tasks | Fiverr | Predefi",
     "repositoryPath": "skills/hiring",
     "manifestPath": "registry/skills/hiring.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hiring/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/_meta.json",
+      "byteCount": 164,
+      "sha256": "abc7e39a66eafc7b808d892b9171d4ccfe76bec41c62d6e90520053f56aeadb0"
     },
     {
       "path": "agents.md",
       "downloadPath": "skills/hiring/agents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/agents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/agents.md",
+      "byteCount": 2508,
+      "sha256": "fa9aff1663f312a282281ed88a96d79ca9c646406adbac32cb2c5cce692d8e6f"
     },
     {
       "path": "contracts.md",
       "downloadPath": "skills/hiring/contracts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/contracts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/contracts.md",
+      "byteCount": 2095,
+      "sha256": "228369bb7a47d355d42ce962e3aee59040f602caa023cfa04c3869b1aaae75b8"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/hiring/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/legal.md",
+      "byteCount": 3362,
+      "sha256": "954b52b0fd2457df5329ec96988e4bcf5f77413cab9c64d2a4c0e6555738a975"
     },
     {
       "path": "physical.md",
       "downloadPath": "skills/hiring/physical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/physical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/physical.md",
+      "byteCount": 2805,
+      "sha256": "9720bcc6b0dd0d1156305301ebaeaa018e54e0f6c80573c23f037b44f0e1e7dc"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/hiring/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/platforms.md",
+      "byteCount": 3523,
+      "sha256": "e9738095abcfa82afb79b880d448ac51c19bf7afc4919c0bcd4f02c03a910788"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hiring/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hiring/SKILL.md",
+      "byteCount": 3072,
+      "sha256": "b5e85742ff65db9284f6bffdf3cdc1410a447e3d0888d72b5686ec89049e9aa9"
     }
   ]
 }

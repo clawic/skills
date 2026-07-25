@@ -1,11 +1,28 @@
 ---
-name: Fox News Monitor
+name: fox-news
 slug: fox-news
 version: 1.0.0
-homepage: https://clawic.com/skills/fox-news
 description: Monitor Fox News sections and breaking updates with official RSS routes, live-event tracking, and optional outside verification.
-changelog: "Initial release with official feed routing, live coverage workflows, and section-based briefing formats for Fox News readers."
-metadata: {"clawdbot":{"emoji":"F","requires":{"bins":["curl"],"anyBins":["python3","python"],"config":["~/fox-news/"]},"os":["linux","darwin","win32"],"configPaths":["~/fox-news/"]}}
+homepage: https://clawic.com/skills/fox-news
+changelog: Initial release with official feed routing, live coverage workflows, and section-based briefing formats for Fox News readers.
+metadata:
+  clawdbot:
+    emoji: F
+    requires:
+      bins:
+      - curl
+      anyBins:
+      - python3
+      - python
+      config:
+      - ~/Clawic/data/fox-news/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/fox-news/
+    displayName: Fox News Monitor
 ---
 
 ## Setup
@@ -21,14 +38,14 @@ Use this skill for section routing, official RSS sweeps, live-event follow-throu
 
 - Web access for current headlines and live coverage.
 - Clear user intent when opening multiple articles, clips, or rolling live updates.
-- Explicit permission before saving recurring preferences under `~/fox-news/`.
+- Explicit permission before saving recurring preferences under `~/Clawic/data/fox-news/`.
 
 ## Architecture
 
-Memory lives in `~/fox-news/`. See `memory-template.md` for the baseline structure.
+Memory lives in `~/Clawic/data/fox-news/`. See `memory-template.md` for the baseline structure.
 
 ```text
-~/fox-news/
+~/Clawic/data/fox-news/
 ├── memory.md          # Activation scope, preferred sections, and balance defaults
 ├── sources.md         # Approved Fox surfaces and section notes
 ├── runs.md            # Fetch timestamps, live-event notes, and follow-up history
@@ -48,7 +65,7 @@ Memory lives in `~/fox-news/`. See `memory-template.md` for the baseline structu
 
 ## Data Storage
 
-Local notes in `~/fox-news/` may include:
+Local notes in `~/Clawic/data/fox-news/` may include:
 - preferred sections such as politics, U.S., world, business, opinion, or video
 - whether the user wants Fox-only output or a Fox-first summary with outside corroboration
 - recency expectations for breaking coverage versus recap mode
@@ -109,14 +126,14 @@ Data that may leave your machine:
 - optional on-site search terms if the user asks for a Fox-site search workflow
 
 Data that stays local:
-- activation scope, preferred sections, and briefing defaults in `~/fox-news/`
+- activation scope, preferred sections, and briefing defaults in `~/Clawic/data/fox-news/`
 - fetch history and saved briefings only when the user wants them stored
 
 This skill does NOT:
 - collect or store Fox account credentials
 - bypass paywalls, TV-provider gates, or Fox Nation restrictions
 - post, share, or interact with social platforms automatically
-- access files outside `~/fox-news/`
+- access files outside `~/Clawic/data/fox-news/`
 
 ## Trust
 
@@ -124,7 +141,7 @@ This skill relies on Fox News-owned properties and may surface editorial positio
 Only install it if you want Fox-specific workflows and trust Fox as one of your news sources.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `news` - General news briefings and preference-aware coverage beyond one outlet.
 - `digest` - Turn multiple reads into concise digests when Fox is only one input.
 - `monitoring` - Track recurring topics or entities across repeated checks.
@@ -133,5 +150,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star fox-news`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/fox-news
+- Latest version: https://clawic.com/skills/fox-news

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4eb93ac462a80eb8c04d159ca1f839115d1dd2619db6c43837427ed37525bb91",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "tuya",
-    "name": "Tuya Smart",
+    "name": "tuya",
     "description": "Control and automate Tuya Smart devices with official cloud APIs, secure request signing, region-aware routing, and safe command execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tuya",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tuya/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/_meta.json",
+      "byteCount": 166,
+      "sha256": "31bd6ebf205f15102d99b56941fb89cbd43029eae7e308e4c85a54f1b056fa31"
     },
     {
       "path": "account-linking.md",
       "downloadPath": "skills/tuya/account-linking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/account-linking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/account-linking.md",
+      "byteCount": 1655,
+      "sha256": "0ee59b1a7917d8722ddf470e67735479fadb6758614383b7353aa7e74562fde6"
     },
     {
       "path": "auth-signing.md",
       "downloadPath": "skills/tuya/auth-signing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/auth-signing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/auth-signing.md",
+      "byteCount": 1924,
+      "sha256": "651ed0b0fb8dfe4ca4bc8a01bd12d452c83b2ae07cd9d7477e40cbda6d41cc56"
     },
     {
       "path": "device-operations.md",
       "downloadPath": "skills/tuya/device-operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/device-operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/device-operations.md",
+      "byteCount": 1464,
+      "sha256": "559b3cd1277073d6704604a588aa79e7b30bb4f18792188d5bff2a1241b74224"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/tuya/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/memory-template.md",
+      "byteCount": 2015,
+      "sha256": "85f889d37b9c58583facef83e9540c80be6195cc78356ea992ced13696a46856"
     },
     {
       "path": "orchestration-playbooks.md",
       "downloadPath": "skills/tuya/orchestration-playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/orchestration-playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/orchestration-playbooks.md",
+      "byteCount": 1565,
+      "sha256": "81d61be1587d40cf811218bd29e21c9863a0c15397ff43edd1a72bbd39502fb5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/tuya/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/setup.md",
+      "byteCount": 2290,
+      "sha256": "c773c19604b5bdb8cc1c05ba67dff813e0ad60ef8a69fd5ddd84549e7ad0a785"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tuya/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/SKILL.md",
+      "byteCount": 8210,
+      "sha256": "c22e88e3a33bac2e908e91a99621e76278e36bb67954cd63376afc398bd0bcb2"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/tuya/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tuya/troubleshooting.md",
+      "byteCount": 1791,
+      "sha256": "34e14a60ae526d6a03347ed8bca2456f44dc9b0997ef1ae2c370ded5fb9a95b5"
     }
   ]
 }

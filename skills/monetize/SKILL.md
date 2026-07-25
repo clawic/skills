@@ -1,6 +1,13 @@
 ---
-name: "Monetize"
-description: "Pricing, launch, and revenue strategies for indie products, SaaS, mobile apps, and creators. Concrete prices, not theory."
+name: monetize
+slug: monetize
+version: 1.0.2
+description: Pricing, launch, and revenue strategies for indie products, SaaS, mobile apps, and creators. Concrete prices, not theory.
+homepage: https://clawic.com/skills/monetize
+metadata:
+  clawdbot:
+    emoji: 💰
+    displayName: Monetize
 ---
 
 ## How This Works

@@ -1,9 +1,20 @@
 ---
-name: VR
+name: vr
+slug: vr
+version: 1.0.0
 description: Set up VR headsets, troubleshoot common issues, optimize comfort, and recommend experiences by use case.
+homepage: https://clawic.com/skills/vr
 metadata:
   category: technology
-  skills: ["vr", "virtual-reality", "headsets", "oculus", "steamvr"]
+  skills:
+  - vr
+  - virtual-reality
+  - headsets
+  - oculus
+  - steamvr
+  clawdbot:
+    emoji: 🥽
+    displayName: VR
 ---
 
 ## Before Recommending Headsets

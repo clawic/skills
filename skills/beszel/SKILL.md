@@ -1,16 +1,28 @@
 ---
-name: Beszel
+name: beszel
 slug: beszel
 version: 1.0.0
-homepage: https://clawic.com/skills/beszel
 description: Deploy, secure, and troubleshoot Beszel monitoring with Docker agents, alert tuning, and upgrade-safe operations for self-hosted servers
+homepage: https://clawic.com/skills/beszel
 changelog: Initial release with Beszel deployment guidance, alert tuning workflow, and incident troubleshooting playbooks.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["docker"]},"os":["linux","darwin","win32"],"configPaths":["~/beszel/"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins:
+      - docker
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/beszel/
+    displayName: Beszel
 ---
 
 ## Setup
 
-On first use, explain planned local storage in `~/beszel/` and ask for confirmation before creating or updating files.
+On first use, explain planned local storage in `~/Clawic/data/beszel/` and ask for confirmation before creating or updating files.
 
 ## When to Use
 
@@ -19,10 +31,10 @@ Agent handles topology choices, secure agent onboarding, alert calibration, and 
 
 ## Architecture
 
-Memory lives in `~/beszel/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/beszel/`. See `memory-template.md` for setup.
 
 ```text
-~/beszel/
+~/Clawic/data/beszel/
 ├── memory.md                  # Current environment, goals, and priorities
 ├── nodes.md                   # Agent inventory and ownership
 ├── alerts.md                  # Alert thresholds and escalation targets
@@ -41,7 +53,7 @@ Memory lives in `~/beszel/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-All skill files are stored in `~/beszel/`.
+All skill files are stored in `~/Clawic/data/beszel/`.
 Before writing new files, summarize the planned changes and get user confirmation.
 
 ## Core Rules
@@ -85,7 +97,7 @@ Before writing new files, summarize the planned changes and get user confirmatio
 - Metadata required by external notification endpoints chosen by the user.
 
 **Data that stays local by default:**
-- Monitoring topology, node notes, threshold history, and incident logs in `~/beszel/`.
+- Monitoring topology, node notes, threshold history, and incident logs in `~/Clawic/data/beszel/`.
 
 **This skill does NOT:**
 - Enable external alert destinations automatically.
@@ -93,7 +105,7 @@ Before writing new files, summarize the planned changes and get user confirmatio
 - Send undeclared network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `monitoring` — monitoring architecture and operational standards
 - `server` — server diagnostics and maintenance workflows
 - `self-host` — self-hosted deployment and hardening practices
@@ -102,5 +114,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star beszel`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/beszel
+- Latest version: https://clawic.com/skills/beszel

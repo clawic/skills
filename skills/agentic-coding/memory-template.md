@@ -1,6 +1,6 @@
 # Memory Template - Agentic Coding
 
-Create `~/agentic-coding/memory.md` with this structure:
+Create `~/Clawic/data/agentic-coding/memory.md` with this structure:
 
 ```markdown
 # Agentic Coding Memory
@@ -35,7 +35,7 @@ integration: pending
 
 ## contracts.md Template
 
-Create `~/agentic-coding/contracts.md`:
+Create `~/Clawic/data/agentic-coding/contracts.md`:
 
 ```markdown
 # Active Contracts
@@ -50,7 +50,7 @@ Status: drafted | active | verified | blocked
 
 ## evidence.md Template
 
-Create `~/agentic-coding/evidence.md`:
+Create `~/Clawic/data/agentic-coding/evidence.md`:
 
 ```markdown
 # Validation Evidence
@@ -63,7 +63,7 @@ Residual risk: [low/medium/high + why]
 
 ## handoffs.md Template
 
-Create `~/agentic-coding/handoffs.md`:
+Create `~/Clawic/data/agentic-coding/handoffs.md`:
 
 ```markdown
 # Handoffs

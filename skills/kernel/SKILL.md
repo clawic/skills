@@ -1,7 +1,13 @@
 ---
-name: Kernel
+name: kernel
+slug: kernel
+version: 1.0.0
 description: Avoid common Linux kernel mistakes — atomic context violations, allocation failures, and locking traps.
-metadata: {"clawdbot":{"emoji":"🐧","os":["linux"]}}
+homepage: https://clawic.com/skills/kernel
+metadata:
+  clawdbot:
+    emoji: "✨"
+    displayName: Kernel
 ---
 
 ## Atomic Context Traps

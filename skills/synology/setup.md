@@ -1,6 +1,6 @@
 # Setup - Synology
 
-Read this when `~/synology/` is missing or empty.
+Read this when `~/Clawic/data/synology/` is missing or empty.
 Keep activation operational, calm, and biased toward evidence before change.
 
 ## Operating Priorities
@@ -27,9 +27,9 @@ Keep activation operational, calm, and biased toward evidence before change.
 - If continuity will help and the user approves, initialize the local workspace:
 ```bash
 mkdir -p ~/synology
-touch ~/synology/{memory.md,inventory.md,services.md,incidents.md}
+touch ~/Clawic/data/synology/{memory.md,inventory.md,services.md,incidents.md}
 chmod 700 ~/synology
-chmod 600 ~/synology/{memory.md,inventory.md,services.md,incidents.md}
+chmod 600 ~/Clawic/data/synology/{memory.md,inventory.md,services.md,incidents.md}
 ```
 - If `memory.md` is empty, initialize it from `memory-template.md`.
 

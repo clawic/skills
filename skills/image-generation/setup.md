@@ -5,7 +5,7 @@
 Detect existing memory:
 
 ```bash
-test -f ~/image-generation/memory.md
+test -f ~/Clawic/data/image-generation/memory.md
 ```
 
 If it exists, continue normally.
@@ -18,7 +18,7 @@ Create a lightweight workspace:
 mkdir -p ~/image-generation
 ```
 
-Copy `memory-template.md` into `~/image-generation/memory.md`.
+Copy `memory-template.md` into `~/Clawic/data/image-generation/memory.md`.
 
 ## Operating Behavior
 

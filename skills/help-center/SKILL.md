@@ -1,16 +1,25 @@
 ---
-name: "Help Center"
+name: help-center
 slug: help-center
-version: "1.0.0"
+version: 1.0.0
+description: Build and run help centers with provider selection, migration playbooks, workflow mapping, content taxonomy, and support deflection metrics.
 homepage: https://clawic.com/skills/help-center
-description: "Build and run help centers with provider selection, migration playbooks, workflow mapping, content taxonomy, and support deflection metrics."
-changelog: "Initial release with provider selection matrix, custom stack blueprint, migration playbook, and help center operations guidance."
-metadata: {"clawdbot":{"emoji":"🛟","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+changelog: Initial release with provider selection matrix, custom stack blueprint, migration playbook, and help center operations guidance.
+metadata:
+  clawdbot:
+    emoji: 🛟
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Help Center
 ---
 
 ## Setup
 
-If `~/help-center/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`.
+If `~/Clawic/data/help-center/` does not exist or is empty, explain that local planning files can be created for this skill and follow `setup.md`.
 
 ## When to Use
 
@@ -18,10 +27,10 @@ User needs to create, migrate, or improve a help center. Handles provider select
 
 ## Architecture
 
-Memory lives in `~/help-center/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/help-center/`. See `memory-template.md` for structure.
 
 ```
-~/help-center/
+~/Clawic/data/help-center/
 ├── memory.md           # Status, decisions, and constraints
 ├── provider-score.md   # Provider scoring snapshots
 ├── content-inventory.md # Existing articles and gaps
@@ -61,7 +70,7 @@ Use `migration-playbook.md` for inventory, redirects, URL mapping, and fallback 
 Track deflection rate, first response time, article freshness, unresolved search queries, and escalation frequency. Review weekly and update content priorities.
 
 ### 7. Save Decisions and Constraints for Future Sessions
-After each strategic choice, update `~/help-center/memory.md` with decision rationale, rejected options, and open risks so future work stays consistent.
+After each strategic choice, update `~/Clawic/data/help-center/memory.md` with decision rationale, rejected options, and open risks so future work stays consistent.
 
 ## Common Traps
 
@@ -77,15 +86,15 @@ After each strategic choice, update `~/help-center/memory.md` with decision rati
 - None by default. This skill focuses on local planning and decision support.
 
 **Data that stays local:**
-- Planning notes, scoring decisions, and rollout logs in `~/help-center/`.
+- Planning notes, scoring decisions, and rollout logs in `~/Clawic/data/help-center/`.
 
 **This skill does NOT:**
 - Send local files to third-party APIs.
 - Execute provider-side changes automatically.
-- Access files outside `~/help-center/` for memory storage.
+- Access files outside `~/Clawic/data/help-center/` for memory storage.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `customer-support` — run frontline support workflows and escalation handling.
 - `documentation` — write clear internal and external product documentation.
 - `workflow` — design repeatable operational workflows with clear handoffs.
@@ -93,5 +102,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star help-center`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/help-center
+- Latest version: https://clawic.com/skills/help-center

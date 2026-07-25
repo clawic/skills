@@ -1,6 +1,6 @@
 # Setup - Norway Travel Guide
 
-Create `~/norway/` on first use and initialize `~/norway/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/norway/` on first use and initialize `~/Clawic/data/norway/memory.md` from `memory-template.md`.
 
 ## First Contact
 
@@ -24,7 +24,7 @@ Keep durable facts in memory:
 
 ## Returning Users
 
-Read `~/norway/memory.md`, reuse what is still valid, and ask only what changed:
+Read `~/Clawic/data/norway/memory.md`, reuse what is still valid, and ask only what changed:
 - Dates
 - Region focus
 - Bookings already made

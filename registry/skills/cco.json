@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "38293974017b0383e47a7647f48fe2bbf62f41b81d4eb3143a4c213828cb0c5a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cco",
-    "name": "CCO / Chief Customer Officer",
+    "name": "cco",
     "description": "Lead customer success with retention strategies, health scoring, expansion revenue, and lifecycle management.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/cco",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cco/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/_meta.json",
+      "byteCount": 333,
+      "sha256": "e9fa0efca65a8a6cce201b0e079d96e4b6e6b5a9c15335872ba1b570161dd97e"
     },
     {
       "path": "expansion.md",
       "downloadPath": "skills/cco/expansion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/expansion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/expansion.md",
+      "byteCount": 3392,
+      "sha256": "85f8787d6af3de9794b83067b41b1b7243af2220baf0ea2f5f560815245613d8"
     },
     {
       "path": "health.md",
       "downloadPath": "skills/cco/health.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/health.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/health.md",
+      "byteCount": 3005,
+      "sha256": "0ef74628265f55c2c78cef414fcb1fe0b77c565a284ecfd3e1e2b19ef4e7f2cb"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cco/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/memory-template.md",
+      "byteCount": 1025,
+      "sha256": "abebb8e0670513a2fce5e3f20aea1637a9ada5bd71654717be94dae247ff2166"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/cco/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/operations.md",
+      "byteCount": 3693,
+      "sha256": "f7253a3ed0faa231459228421695fdbc46985503ab2048c1e1b1ae1908addd26"
     },
     {
       "path": "retention.md",
       "downloadPath": "skills/cco/retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/retention.md",
+      "byteCount": 3437,
+      "sha256": "eed48aaa5bcea7af41edf14202de5c0a4ff229dc820741bf2eb83429d7b3b2b8"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cco/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/setup.md",
+      "byteCount": 2390,
+      "sha256": "5a9578cf4648f938d1cc5306465676abf3a33ec7f3ec89a99adf711202e9e6bb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cco/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cco/SKILL.md",
+      "byteCount": 3838,
+      "sha256": "cf97832bd42e706b74b9e1c1bb310ff17e06d0dac644ff511fee064ad27926fc"
     }
   ]
 }

@@ -1,11 +1,22 @@
 ---
-name: Google Colab
+name: google-colab
 slug: google-colab
 version: 1.0.0
-homepage: https://clawic.com/skills/google-colab
 description: Run Google Colab notebooks for Python and machine learning with reproducible runtimes, data pipelines, debugging workflows, and experiment discipline.
+homepage: https://clawic.com/skills/google-colab
 changelog: Initial release with notebook architecture patterns, runtime recovery playbooks, data IO safeguards, and reproducible experiment logs.
-metadata: {"clawdbot":{"emoji":"C","requires":{"bins":["curl","jq"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: C
+    requires:
+      bins:
+      - curl
+      - jq
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Google Colab
 ---
 
 ## Setup
@@ -18,10 +29,10 @@ User needs Google Colab notebook work that must be reproducible, not one-off tri
 
 ## Architecture
 
-Memory lives in `~/google-colab/`. See `memory-template.md` for setup and status values.
+Memory lives in `~/Clawic/data/google-colab/`. See `memory-template.md` for setup and status values.
 
 ```text
-~/google-colab/
+~/Clawic/data/google-colab/
 |-- memory.md                   # Activation preferences, constraints, and current goals
 |-- notebooks.md                # Notebook registry with owners and objective per notebook
 |-- runtimes.md                 # Runtime choices, dependency pins, and restart history
@@ -54,7 +65,7 @@ Never ask users to paste API keys, OAuth refresh tokens, or private dataset cred
 
 ## Data Storage
 
-Local operational notes stay in `~/google-colab/`:
+Local operational notes stay in `~/Clawic/data/google-colab/`:
 - notebook inventory with objective, owner, and current status
 - runtime and dependency decisions with pinned versions
 - dataset and schema validation history
@@ -148,7 +159,7 @@ Data that leaves your machine:
 - package lookup requests for dependency installation
 
 Data that stays local:
-- workflow memory and decision logs under `~/google-colab/`
+- workflow memory and decision logs under `~/Clawic/data/google-colab/`
 - incident notes, experiment summaries, and validation evidence
 
 This skill does NOT:
@@ -162,7 +173,7 @@ This skill relies on Google Colab, Google APIs, and package repositories used du
 Only install and run it if you trust those systems with your code and data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `gcp` - Plan cloud workloads, storage, and service boundaries for Google environments
 - `api` - Design resilient API contracts for data and model integrations
 - `pandas` - Build robust tabular data transformations and validation pipelines
@@ -171,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star google-colab`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/google-colab
+- Latest version: https://clawic.com/skills/google-colab

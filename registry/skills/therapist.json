@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f4fe34ac991672970871ec719f9f624ffd2c21c02355c9da15801076c89af3d3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "therapist",
-    "name": "Therapist",
+    "name": "therapist",
     "description": "Evidence-based therapeutic techniques — CBT, ACT, mindfulness, and reframing for anxiety, rumination, and behavioral patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/therapist",
     "summary": "Cognitive Restructuring (CBT) - Identify the automatic thought first — \"What went through your mind just then?\" - Challenge with evidence — \"What facts support this? What facts contradict it?\" - Find cognitive distortion",
     "repositoryPath": "skills/therapist",
     "manifestPath": "registry/skills/therapist.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/therapist/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/therapist/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/therapist/_meta.json",
+      "byteCount": 170,
+      "sha256": "613588e61bca69f688c4fbc63c4276fb4b7bf162abb5ea8cb0b80e39feecb16c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/therapist/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/therapist/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/therapist/SKILL.md",
+      "byteCount": 5496,
+      "sha256": "753c981a7306081227af1ad64587d2c011571093fa86b5ce23ceaf926e1fba08"
     }
   ]
 }

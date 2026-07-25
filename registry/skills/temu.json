@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "afacff937aa92a1e6e933d379eda77bd7ecdf7f56c514ee1782ab46f4ef193d6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "temu",
-    "name": "Temu",
+    "name": "temu",
     "description": "Shop smarter on Temu with price tracking, review analysis, scam detection, and shipping optimization.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/temu",
     "summary": "When to Use User wants to buy from Temu without getting scammed. Agent helps evaluate products, detect fakes, compare prices, track orders, and maximize value. Quick Reference | Topic | File | |-------|------| | Review a",
     "repositoryPath": "skills/temu",
     "manifestPath": "registry/skills/temu.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/temu/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/_meta.json",
+      "byteCount": 160,
+      "sha256": "227685f464dd934486f871a42880208c3f8d651cba0b937976e5974385e37fb4"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/temu/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/pricing.md",
+      "byteCount": 2514,
+      "sha256": "3fb35a3066473001701dc3f3856e27a13c0ade388dd3a619a40e48301150810c"
     },
     {
       "path": "reviews.md",
       "downloadPath": "skills/temu/reviews.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/reviews.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/reviews.md",
+      "byteCount": 2082,
+      "sha256": "536b731ddab6ac69b1a943265ef98cfea8ea0047620ee5ac5720d5b2ba871a6d"
     },
     {
       "path": "scams.md",
       "downloadPath": "skills/temu/scams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/scams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/scams.md",
+      "byteCount": 3102,
+      "sha256": "7a274700b840d9c308ded07b4d0ecb02d02306a2f3d1b7b84fb6714830c35143"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/temu/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/temu/SKILL.md",
+      "byteCount": 4214,
+      "sha256": "230957b26101b372dc67c01e6ecd13443202be597c2f885efa0a9b40eb3bf242"
     }
   ]
 }

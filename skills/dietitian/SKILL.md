@@ -1,9 +1,20 @@
 ---
-name: Dietitian
+name: dietitian
+slug: dietitian
+version: 1.0.0
 description: Structured meal planning — calorie targets, macro calculations, meal timing, and goal-specific diet protocols.
+homepage: https://clawic.com/skills/dietitian
 metadata:
   category: role
-  skills: ["diet", "meal-planning", "macros", "calories", "meal-prep"]
+  skills:
+  - diet
+  - meal-planning
+  - macros
+  - calories
+  - meal-prep
+  clawdbot:
+    emoji: 🥗
+    displayName: Dietitian
 ---
 
 ## Calorie Foundations

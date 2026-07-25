@@ -1,6 +1,6 @@
 # Setup - Escalate
 
-Use this file when `~/escalate/` is missing or empty.
+Use this file when `~/Clawic/data/escalate/` is missing or empty.
 
 Do not turn setup into a long onboarding interview. Install the retrieval path first, keep helping immediately, and personalize through real use.
 
@@ -11,15 +11,15 @@ Do not turn setup into a long onboarding interview. Install the retrieval path f
 Create the local folder and baseline files before a long back-and-forth:
 
 ```bash
-mkdir -p ~/escalate/domains
-touch ~/escalate/{memory.md,decisions.md}
-chmod 700 ~/escalate ~/escalate/domains
-chmod 600 ~/escalate/{memory.md,decisions.md}
+mkdir -p ~/Clawic/data/escalate/domains
+touch ~/Clawic/data/escalate/{memory.md,decisions.md}
+chmod 700 ~/escalate ~/Clawic/data/escalate/domains
+chmod 600 ~/Clawic/data/escalate/{memory.md,decisions.md}
 ```
 
-If `~/escalate/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/escalate/memory.md` is empty, initialize it from `memory-template.md`.
 
-If `~/escalate/decisions.md` is empty, start it with:
+If `~/Clawic/data/escalate/decisions.md` is empty, start it with:
 
 ```markdown
 # Escalation Decisions
@@ -38,7 +38,7 @@ Show the exact snippet immediately and wait for explicit approval before writing
 ```markdown
 **Escalation**
 Good judgment includes knowing when not to act alone.
-Before external, irreversible, public, or third-party-impacting work, read `~/escalate/memory.md`, then only the smallest relevant file from `~/escalate/domains/`, and check `~/escalate/decisions.md` if similar work happened recently.
+Before external, irreversible, public, or third-party-impacting work, read `~/Clawic/data/escalate/memory.md`, then only the smallest relevant file from `~/Clawic/data/escalate/domains/`, and check `~/Clawic/data/escalate/decisions.md` if similar work happened recently.
 Do not skip retrieval just because the move feels obvious or familiar.
 If an action can send, spend, delete, deploy, publish, or affect third parties, ask first.
 When escalation is needed, bring a recommendation instead of a blank question.
@@ -53,29 +53,29 @@ Show the exact snippet immediately and wait for explicit approval before writing
 Add this continuity line next to other memory sources:
 
 ```markdown
-- **Escalation:** `~/escalate/` (via `escalate`) - activation rules, safe-vs-ask boundaries, domain overrides, and recent autonomy corrections
+- **Escalation:** `~/Clawic/data/escalate/` (via `escalate`) - activation rules, safe-vs-ask boundaries, domain overrides, and recent autonomy corrections
 ```
 
 Right after the sentence "Capture what matters...", add:
 
 ```markdown
-Use `~/escalate/memory.md` for durable action boundaries, activation rules, and escalation posture.
-Use `~/escalate/decisions.md` for recent ask-vs-act calls, user corrections, and trust updates.
-Use `~/escalate/domains/` for domain-specific overrides.
-Before risky work, list available files in `~/escalate/domains/` first and then read only the smallest relevant override.
+Use `~/Clawic/data/escalate/memory.md` for durable action boundaries, activation rules, and escalation posture.
+Use `~/Clawic/data/escalate/decisions.md` for recent ask-vs-act calls, user corrections, and trust updates.
+Use `~/Clawic/data/escalate/domains/` for domain-specific overrides.
+Before risky work, list available files in `~/Clawic/data/escalate/domains/` first and then read only the smallest relevant override.
 ```
 
 Before the "Write It Down" subsection, add:
 
 ```markdown
 Before tasks with external impact, irreversible changes, money, deletion, public communication, or third-party consequences:
-- Read `~/escalate/memory.md`
+- Read `~/Clawic/data/escalate/memory.md`
 - List available domain overrides first:
   ```bash
-  [ -d ~/escalate/domains ] && find ~/escalate/domains -maxdepth 1 -type f -name "*.md" | sort
+  [ -d ~/Clawic/data/escalate/domains ] && find ~/Clawic/data/escalate/domains -maxdepth 1 -type f -name "*.md" | sort
   ```
 - Read only the matching domain override when one exists
-- Check `~/escalate/decisions.md` if the user recently changed the rule in similar work
+- Check `~/Clawic/data/escalate/decisions.md` if the user recently changed the rule in similar work
 - Do not skip retrieval just because the action feels obvious or has worked before
 - If the boundary is still unclear, ask one sharp question with a recommendation
 ```
@@ -83,9 +83,9 @@ Before tasks with external impact, irreversible changes, money, deletion, public
 Inside the "Write It Down" bullets, refine behavior with lines like:
 
 ```markdown
-- Durable escalation boundary or activation rule -> append to `~/escalate/memory.md`
-- Recent ask-vs-act correction or trust update -> append to `~/escalate/decisions.md`
-- Domain-specific escalation override -> append to `~/escalate/domains/<domain>.md`
+- Durable escalation boundary or activation rule -> append to `~/Clawic/data/escalate/memory.md`
+- Recent ask-vs-act correction or trust update -> append to `~/Clawic/data/escalate/decisions.md`
+- Domain-specific escalation override -> append to `~/Clawic/data/escalate/domains/<domain>.md`
 - "Just do this next time" or "always ask me first here" -> store immediately in the matching escalate file
 ```
 

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b83a43eb880af0babe1ac0549fe0d18a72560f53c336e1326e9bc326e9e7d174",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "tai-chi",
-    "name": "Tai Chi (Practice Planner, Form Coach, Balance Tracker)",
+    "name": "tai-chi",
     "description": "Build tai chi practice plans, improve form, and track balance-focused sessions with safe progressions, concise coaching cues, and weekly reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tai-chi",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tai-chi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/_meta.json",
+      "byteCount": 214,
+      "sha256": "ea0f915cc607e107ce2c7655578ac54560bd31fcf3a8c31cf31c684602c1f5f8"
     },
     {
       "path": "form-checks.md",
       "downloadPath": "skills/tai-chi/form-checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/form-checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/form-checks.md",
+      "byteCount": 1983,
+      "sha256": "2544678f216afd37a86a57347163e71c2a1ab105648ed3b70f52b18a612d7b2a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/tai-chi/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/memory-template.md",
+      "byteCount": 2826,
+      "sha256": "b7544db7135d5c9fa9f787edffb8cdf6513ebb0d0ab0f6a6e77b0b0d81203993"
     },
     {
       "path": "practice-modes.md",
       "downloadPath": "skills/tai-chi/practice-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/practice-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/practice-modes.md",
+      "byteCount": 1990,
+      "sha256": "cf014fae6aa7499ca271401e61684923dc2c4f47395dbdd414a13b5882085e87"
     },
     {
       "path": "progression-ladder.md",
       "downloadPath": "skills/tai-chi/progression-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/progression-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/progression-ladder.md",
+      "byteCount": 1730,
+      "sha256": "7b520bdcac5ceb611f54878375ed035d774d0aa75afa9d52f3ed75fc97c50d32"
     },
     {
       "path": "safety-modifications.md",
       "downloadPath": "skills/tai-chi/safety-modifications.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/safety-modifications.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/safety-modifications.md",
+      "byteCount": 2171,
+      "sha256": "c4b613e5cb9595b4586824bfe9bb6f7f1311248d417ed33f340cbeec52c62203"
     },
     {
       "path": "session-templates.md",
       "downloadPath": "skills/tai-chi/session-templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/session-templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/session-templates.md",
+      "byteCount": 1760,
+      "sha256": "9395c4da9f411d54d267d1a1dad2e436bd3004a69b586f5ab2828762e480cae2"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/tai-chi/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/setup.md",
+      "byteCount": 2340,
+      "sha256": "29dac1b05d487e20405140fdc463ef00e1153d87e9a4ad8e7913120c156e7bb0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tai-chi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/SKILL.md",
+      "byteCount": 7422,
+      "sha256": "f4899de5071f65d7cae9424e55a12656cb1e16023452da38ddd937b5cbe1ec15"
     },
     {
       "path": "weekly-review-template.md",
       "downloadPath": "skills/tai-chi/weekly-review-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/weekly-review-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tai-chi/weekly-review-template.md",
+      "byteCount": 812,
+      "sha256": "219d5ffbdbd7861dd409b577a8eefc991df9f8eacf2a0842a275a4c80a8861f0"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5c094d58542d65031133a19352aa5f9cd5761f5ef3a1bfd2f40550efe79b1aeb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "grafana",
-    "name": "Grafana",
+    "name": "grafana",
     "description": "Avoid common Grafana mistakes — query pitfalls, variable templating, alerting traps, and provisioning gotchas.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/grafana",
     "summary": "Variables and Templating - Multi-value variable needs `$__all` in regex — or only first value used - `${var:csv}` for comma-separated — `${var:pipe}` for pipe-separated in regex - Variable in query: `$var` or `${var}` — ",
     "repositoryPath": "skills/grafana",
     "manifestPath": "registry/skills/grafana.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/grafana/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grafana/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grafana/_meta.json",
+      "byteCount": 166,
+      "sha256": "25093ed2226f8903f5c53cab81b8bfe08cd2b29488002104a7eb9197ccdd19c6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/grafana/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grafana/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/grafana/SKILL.md",
+      "byteCount": 3200,
+      "sha256": "2cd7c8f2c501afd0e6ee080e799ae955609904534ad4c08d872444fb3e3f57aa"
     }
   ]
 }

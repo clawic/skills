@@ -1,6 +1,6 @@
 # Memory Template — Jarvis
 
-Create `~/jarvis/memory.md` with this structure:
+Create `~/Clawic/data/jarvis/memory.md` with this structure:
 
 ```markdown
 # Jarvis Memory
@@ -47,8 +47,8 @@ integration: pending | proactive | on_request | local_only | restricted | paused
 ## Local Files to Initialize
 
 ```bash
-mkdir -p ~/jarvis/snapshots
-touch ~/jarvis/{memory.md,active-profile.md,mission-log.md,workspace-state.md}
+mkdir -p ~/Clawic/data/jarvis/snapshots
+touch ~/Clawic/data/jarvis/{memory.md,active-profile.md,mission-log.md,workspace-state.md}
 ```
 
 ## Supporting File Shapes

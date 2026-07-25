@@ -157,6 +157,6 @@ Ask these when a problem seems domain-specific:
 
 ## Logging Synthesis
 
-Track cross-domain connections in `~/asi/synthesis-log.md`.
+Track cross-domain connections in `~/Clawic/data/asi/synthesis-log.md`.
 
 Patterns that worked once often work again. Build a personal library of transferable insights.

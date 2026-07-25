@@ -1,6 +1,6 @@
 # Memory Template - Escalate
 
-Create `~/escalate/memory.md` with this structure:
+Create `~/Clawic/data/escalate/memory.md` with this structure:
 
 ```markdown
 # Escalate Memory
@@ -49,8 +49,8 @@ integration: pending | complete | paused | never_ask
 ## Local Files to Initialize
 
 ```bash
-mkdir -p ~/escalate/domains
-touch ~/escalate/{memory.md,decisions.md}
+mkdir -p ~/Clawic/data/escalate/domains
+touch ~/Clawic/data/escalate/{memory.md,decisions.md}
 ```
 
 ## Template for the Decisions Log
@@ -66,6 +66,6 @@ touch ~/escalate/{memory.md,decisions.md}
 ## Rules
 
 - Keep memory in natural language, not raw policy dumps.
-- Store durable boundaries in `~/escalate/memory.md`, recent judgment calls in `~/escalate/decisions.md`, and domain-specific exceptions in `~/escalate/domains/`.
+- Store durable boundaries in `~/Clawic/data/escalate/memory.md`, recent judgment calls in `~/Clawic/data/escalate/decisions.md`, and domain-specific exceptions in `~/Clawic/data/escalate/domains/`.
 - Update `last` after each meaningful escalation session.
 - Never persist credentials, secrets, or copied third-party private data.

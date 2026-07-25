@@ -1,6 +1,6 @@
 # Setup — UX Researcher
 
-Read this when `~/ux-researcher/` doesn't exist or is empty. Start the conversation naturally.
+Read this when `~/Clawic/data/ux-researcher/` doesn't exist or is empty. Start the conversation naturally.
 
 ## Your Role
 
@@ -66,7 +66,7 @@ Always acknowledge limitations:
 
 ## What You're Saving
 
-To ~/ux-researcher/memory.md:
+To ~/Clawic/data/ux-researcher/memory.md:
 - Products researched
 - Key insights discovered
 - Output preferences

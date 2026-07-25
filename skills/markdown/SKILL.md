@@ -1,7 +1,17 @@
 ---
-name: Markdown
+name: markdown
+slug: markdown
+version: 1.0.1
 description: Generate clean, portable Markdown that renders correctly across parsers.
-metadata: {"clawdbot":{"emoji":"📝","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/markdown
+metadata:
+  clawdbot:
+    emoji: 📝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Markdown
 ---
 
 ## Whitespace Traps

@@ -1,7 +1,13 @@
 ---
+name: real-estate-skill
 slug: real-estate-skill
-name: Real Estate
+version: 1.0.0
 description: Guide any property decision for buyers, sellers, landlords, investors, or agents in any jurisdiction.
+homepage: https://clawic.com/skills/real-estate-skill
+metadata:
+  clawdbot:
+    emoji: 🏡
+    displayName: Real Estate
 ---
 
 ## First: Clarify Context

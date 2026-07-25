@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "147fe90543ffc9bb6106fc2dfba7b1a82553b0ef0e365afce2846b5c77b70158",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "deno",
-    "name": "Deno",
+    "name": "deno",
     "description": "Build with Deno runtime avoiding permission gotchas, URL import traps, and Node.js migration pitfalls.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/deno",
     "summary": "When to Use User needs Deno expertise — secure TypeScript runtime with permissions model. Agent handles permission configuration, dependency management via URLs/npm, and migration from Node.js. Quick Reference | Topic | ",
     "repositoryPath": "skills/deno",
     "manifestPath": "registry/skills/deno.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/deno/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/_meta.json",
+      "byteCount": 160,
+      "sha256": "9f5fc4fb3c50dbf4fd978f750d003db2585c7f96c830c1267bac410c6891fa14"
     },
     {
       "path": "imports.md",
       "downloadPath": "skills/deno/imports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/imports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/imports.md",
+      "byteCount": 2713,
+      "sha256": "0ea20b434e804859c48dfbce97242d9160a7e303a02aa0bd7ce3da4e6e990b64"
     },
     {
       "path": "node-compat.md",
       "downloadPath": "skills/deno/node-compat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/node-compat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/node-compat.md",
+      "byteCount": 2837,
+      "sha256": "848e37a3c8cf6421f23d2f098a2b81dddc3ee4f7727697379b8db3cb9fff7e22"
     },
     {
       "path": "permissions.md",
       "downloadPath": "skills/deno/permissions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/permissions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/permissions.md",
+      "byteCount": 2499,
+      "sha256": "e60e259c94f6905268466cd78b3ffd7add82e287fa42ad2a763ab15625c1c46a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/deno/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/deno/SKILL.md",
+      "byteCount": 3697,
+      "sha256": "6159e4a3088e79371cec1b3f3eef4c0b41d0f9c3e267a4c1e98dcc562be0396a"
     }
   ]
 }

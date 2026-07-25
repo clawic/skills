@@ -1,6 +1,6 @@
 # Setup - Post-Labor Economics
 
-Read this when `~/post-labor-economics/` is missing or empty. Be transparent about what can be saved locally and ask before persisting memory.
+Read this when `~/Clawic/data/post-labor-economics/` is missing or empty. Be transparent about what can be saved locally and ask before persisting memory.
 
 ## Your Attitude
 

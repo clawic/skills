@@ -1,11 +1,18 @@
 ---
-name: CGO / Chief Growth Officer
+name: cgo
 slug: cgo
 version: 1.0.1
-homepage: https://clawic.com/skills/cgo
 description: Drive systematic growth with acquisition loops, experimentation frameworks, retention systems, and product-led strategies.
+homepage: https://clawic.com/skills/cgo
 changelog: Added Core Rules structure and growth leadership frameworks.
-metadata: {"clawdbot":{"emoji":"📈","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📈
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CGO / Chief Growth Officer
 ---
 
 ## When to Use
@@ -85,7 +92,7 @@ These decisions require human judgment:
 - Partnership deal structures
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cmo` — marketing strategy
 - `cpo` — product-led growth
 - `cro` — conversion optimization
@@ -93,5 +100,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cgo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cgo
+- Latest version: https://clawic.com/skills/cgo

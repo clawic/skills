@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "781d03684d1037c5a26218700a842dd2ef8273412492b83aa67828c897c93d82",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "video-downloader",
-    "name": "Video Downloader",
+    "name": "video-downloader",
     "description": "Download online videos with quality and format controls using yt-dlp for reliable local saves.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/video-downloader",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/video-downloader/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/_meta.json",
+      "byteCount": 184,
+      "sha256": "f791fc98056be74ee2ece8044f8f420d16bcddeffeff78b10175b48c76995a2a"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/video-downloader/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/commands.md",
+      "byteCount": 1295,
+      "sha256": "549665875f466bcc62098ed93eee9c750d440881e9f2fd19cfb3e1a15d143e51"
     },
     {
       "path": "download_video.py",
       "downloadPath": "skills/video-downloader/download_video.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/download_video.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/download_video.py",
+      "byteCount": 4389,
+      "sha256": "fe4a6dba42007c8bb47b929fd33142842f759ded43f848cc7393d2f2a07d09f1"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/video-downloader/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/memory-template.md",
+      "byteCount": 1157,
+      "sha256": "660979ccda7b0af6a560289651f2457667f1df72cfa67dfc029eb58d31e202f9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/video-downloader/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/setup.md",
+      "byteCount": 1244,
+      "sha256": "41c50ad0f74ce5e2293572d6e4512b230cb4a7c194796f640ca03d34bc852341"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/video-downloader/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-downloader/SKILL.md",
+      "byteCount": 4703,
+      "sha256": "0ad36a111b3f496cd848e46d8e4289170723ee87930945e2397fb6e99d299703"
     }
   ]
 }

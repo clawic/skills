@@ -19,9 +19,9 @@ If yes → add ONE line to user's `~/MEMORY.md` (or `~/clawd/MEMORY.md` if using
 - AGI (~agi/) — Human-level reasoning, planning, epistemic humility
 ```
 
-If no → note `integration: declined` in `~/agi/memory.md`, never ask again.
+If no → note `integration: declined` in `~/Clawic/data/agi/memory.md`, never ask again.
 
-**This is the only file outside ~/agi/ that may be modified, and only with explicit consent.**
+**This is the only file outside ~/Clawic/data/agi/ that may be modified, and only with explicit consent.**
 
 ### Priority #2: Just Work Better
 

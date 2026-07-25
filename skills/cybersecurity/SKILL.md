@@ -1,11 +1,22 @@
 ---
-name: Cybersecurity
+name: cybersecurity
 slug: cybersecurity
 version: 1.0.0
+description: Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline.
 homepage: https://clawic.com/skills/cybersecurity
-description: "Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline."
-changelog: "Introduces adaptive cybersecurity support for triage, threat modeling, and clearer risk reporting."
-metadata: {"clawdbot":{"emoji":"🛡️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/cybersecurity/"]}}
+changelog: Introduces adaptive cybersecurity support for triage, threat modeling, and clearer risk reporting.
+metadata:
+  clawdbot:
+    emoji: 🛡️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/cybersecurity/
+    displayName: Cybersecurity
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Use when the user needs cybersecurity help across incident triage, threat modeli
 
 ## Architecture
 
-Memory lives in `~/cybersecurity/`. If `~/cybersecurity/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/cybersecurity/`. If `~/Clawic/data/cybersecurity/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/cybersecurity/
+~/Clawic/data/cybersecurity/
 ├── memory.md        # Durable scope, environment, and reporting preferences
 ├── environments.md  # Systems, assets, and trust boundaries worth remembering
 ├── incidents.md     # Active incidents, hypotheses, and status snapshots
@@ -89,7 +100,7 @@ Memory lives in `~/cybersecurity/`. If `~/cybersecurity/` does not exist, run `s
 
 This skill ONLY:
 - supports authorized cybersecurity analysis, design review, incident triage, tabletop work, and risk communication
-- stores local operating context in `~/cybersecurity/`
+- stores local operating context in `~/Clawic/data/cybersecurity/`
 - helps convert security observations into prioritized actions, controls, and reports
 
 This skill NEVER:
@@ -100,7 +111,7 @@ This skill NEVER:
 
 ## Data Storage
 
-Local state lives in `~/cybersecurity/`:
+Local state lives in `~/Clawic/data/cybersecurity/`:
 
 - memory.md for stable scope, environment, and reporting preferences
 - environments.md for system maps, critical assets, and trust boundaries
@@ -117,7 +128,7 @@ Local state lives in `~/cybersecurity/`:
 - For real environments, it should preserve evidence, record assumptions, and state when authorization is missing or unclear.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `auth` — Review authentication flows, credentials, and session boundaries
 - `authorization` — Reason about permissions, access control, and privilege separation
 - `network` — Map traffic paths, network behavior, and trust boundaries
@@ -126,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cybersecurity`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cybersecurity
+- Latest version: https://clawic.com/skills/cybersecurity

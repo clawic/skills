@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a0f27c27a96060247782dbb7cd3808854aa1e3ec775abfa3d5d61cf354a7d629",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "wiki",
-    "name": "Wiki",
+    "name": "wiki",
     "description": "Build wikis people actually read — structure pages, cross-link, and keep content fresh.",
-    "version": "1",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wiki",
     "summary": "Wiki Creation and Maintenance Page Structure Requirements - **Every page needs:** clear title, one-sentence summary, last-updated date - **Use consistent templates** across all pages (same sections, same order) - **Keep ",
     "repositoryPath": "skills/wiki",
     "manifestPath": "registry/skills/wiki.json"
@@ -21,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wiki/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki/_meta.json",
+      "byteCount": 160,
+      "sha256": "e49f071daccfdd57d004b7d64843e5866036de215c2e30f095d9f159f91d25dd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wiki/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wiki/SKILL.md",
+      "byteCount": 2224,
+      "sha256": "e5ab791bd05c46143b81ac1b49722cb5e08c3f4d68db8def76ed7ca707541b1b"
     }
   ]
 }

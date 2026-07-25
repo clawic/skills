@@ -1,7 +1,20 @@
 ---
-name: Redis
+name: redis-store
+slug: redis-store
+version: 1.0.0
 description: Use Redis effectively for caching, queues, and data structures with proper expiration and persistence.
-metadata: {"clawdbot":{"emoji":"🔴","requires":{"anyBins":["redis-cli"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/redis-store
+metadata:
+  clawdbot:
+    emoji: 🔴
+    requires:
+      anyBins:
+      - redis-cli
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Redis
 ---
 
 ## Expiration (Memory Leaks)

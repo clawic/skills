@@ -1,16 +1,27 @@
 ---
-name: Austria
+name: austria
 slug: austria
 version: 1.0.0
-homepage: https://clawic.com/skills/austria
-changelog: "Initial release with verified Austria entry rules, rail-first routing, alpine season planning, and practical regional playbooks."
 description: Plan Austria trips with rail and road logic, alpine season timing, region-specific routing, and practical local execution.
-metadata: {"clawdbot":{"emoji":"🇦🇹","requires":{"bins":[],"config":["~/austria/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/austria
+changelog: Initial release with verified Austria entry rules, rail-first routing, alpine season planning, and practical regional playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇦🇹
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/austria/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Austria
 ---
 
 ## Setup
 
-If `~/austria/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/austria/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning an Austria trip and needs practical guidance beyond generic ins
 
 ## Architecture
 
-Memory lives in `~/austria/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/austria/`. See `memory-template.md` for structure.
 
 ```
-~/austria/
+~/Clawic/data/austria/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -101,12 +112,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/austria/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/austria/`
 
-**This skill does NOT:** Access files outside `~/austria/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/austria/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `car-rental` — Better rental strategy and handoff logistics
 - `booking` — Reservation workflows and confirmation hygiene
@@ -115,5 +126,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star austria`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/austria
+- Latest version: https://clawic.com/skills/austria

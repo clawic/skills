@@ -1,7 +1,20 @@
 ---
-name: Google Cloud
+name: gcp
+slug: gcp
+version: 1.0.0
 description: Deploy, monitor, and manage GCP services with battle-tested patterns.
-metadata: {"clawdbot":{"emoji":"🌐","requires":{"anyBins":["gcloud"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gcp
+metadata:
+  clawdbot:
+    emoji: 🌐
+    requires:
+      anyBins:
+      - gcloud
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Google Cloud
 ---
 
 # Google Cloud Production Rules

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "481e02e2a9d26dea98a93643541a9afc2e79f9bee614dffa7bcec6d54bd74e0f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "langchain",
-    "name": "LangChain",
+    "name": "langchain",
     "description": "Avoid common LangChain mistakes — LCEL gotchas, memory persistence, RAG chunking, and output parser traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/langchain",
     "summary": "LCEL Basics - `|` pipes output to next — `prompt | llm | parser` - `RunnablePassthrough()` forwards input unchanged — use in parallel branches - `RunnableParallel` runs branches concurrently — `{\"a\": chain1, \"b\": chain2}",
     "repositoryPath": "skills/langchain",
     "manifestPath": "registry/skills/langchain.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/langchain/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/_meta.json",
+      "byteCount": 170,
+      "sha256": "b43002f844a0f9ecbd4479429fc322852462e9a6e97f4478f2649e3ef3853df8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/langchain/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/SKILL.md",
+      "byteCount": 2972,
+      "sha256": "2a5a91ce4e9bd548fefe87ddd62f62b670d3bf62ac9076ebe56f05222e4b6c6c"
     }
   ]
 }

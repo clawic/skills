@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7993ffd3fd827305170122c936b696f7a2a7d255cebccd91efc6e46edec7dd76",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cypress",
-    "name": "Cypress",
+    "name": "cypress",
     "description": "Write reliable E2E and component tests with Cypress avoiding flaky selectors, race conditions, and CI failures.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/cypress",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cypress/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/_meta.json",
+      "byteCount": 166,
+      "sha256": "298c1e8ad88d93e407874a8e0c9a5d2873f48d5211e40ba843b62c231e579c69"
     },
     {
       "path": "ci.md",
       "downloadPath": "skills/cypress/ci.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/ci.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/ci.md",
+      "byteCount": 5083,
+      "sha256": "5e7b966887776e93bfaf25a30965cca3c52f76a3de532506a7226d68e32f8d12"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/cypress/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/commands.md",
+      "byteCount": 4268,
+      "sha256": "31ec78ded99a1244a4e5ee4e130d38bb07255b115a233db38a425b246a719847"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cypress/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/memory-template.md",
+      "byteCount": 1424,
+      "sha256": "aa9ed27e56957f54894f0e2bb81cb4fa96fc87d410f49cbd46e01bd8b584c7d0"
     },
     {
       "path": "network.md",
       "downloadPath": "skills/cypress/network.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/network.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/network.md",
+      "byteCount": 4843,
+      "sha256": "31eeefeac1b0fa0c1f83092e1276e215e885792cb4e059059750a433c35e622a"
     },
     {
       "path": "selectors.md",
       "downloadPath": "skills/cypress/selectors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/selectors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/selectors.md",
+      "byteCount": 2657,
+      "sha256": "7e5e110eae238ec9ac25d8217f10c87f8f825bb0f723455022a9b2d2855b1ad7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cypress/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/setup.md",
+      "byteCount": 1902,
+      "sha256": "336eb56da3d5b18c44131e65d78f60e4dbde1759d67a782a0b8b3427a9c1433d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cypress/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cypress/SKILL.md",
+      "byteCount": 7384,
+      "sha256": "9f568d1e219d03f979300803442ee3c080032519275d5889ce7b31dbc55d3797"
     }
   ]
 }

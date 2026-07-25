@@ -1,6 +1,6 @@
 # Memory Template - Safari Browser Control
 
-Create `~/safari/memory.md` with this structure:
+Create `~/Clawic/data/safari/memory.md` with this structure:
 
 ```markdown
 # Safari Browser Control Memory
@@ -39,7 +39,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/safari/permissions.md`:
+Create `~/Clawic/data/safari/permissions.md`:
 
 ```markdown
 # Permissions
@@ -52,7 +52,7 @@ Create `~/safari/permissions.md`:
 - Notes:
 ```
 
-Create `~/safari/sessions.md`:
+Create `~/Clawic/data/safari/sessions.md`:
 
 ```markdown
 # Sessions
@@ -65,7 +65,7 @@ Create `~/safari/sessions.md`:
 - Notes:
 ```
 
-Create `~/safari/snippets.md`:
+Create `~/Clawic/data/safari/snippets.md`:
 
 ```markdown
 # Snippets
@@ -77,7 +77,7 @@ Create `~/safari/snippets.md`:
 - Verification:
 ```
 
-Create `~/safari/recipes.md`:
+Create `~/Clawic/data/safari/recipes.md`:
 
 ```markdown
 # Recipes
@@ -89,7 +89,7 @@ Create `~/safari/recipes.md`:
 - Verification:
 ```
 
-Create `~/safari/incidents.md`:
+Create `~/Clawic/data/safari/incidents.md`:
 
 ```markdown
 # Incidents

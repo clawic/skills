@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1705707e923b9a5277ea817d0df7163e0db6115b13ee2a0a47553b796081e2fb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,7 +17,7 @@
     "description": "Track your entire garden with structured memory for plants, zones, tasks, harvests, and climate-aware planning that compounds over seasons.",
     "version": "1.1.6",
     "homepage": "https://clawic.com/skills/garden",
-    "summary": "Setup If `~/garden/` doesn't exist or is empty, read `setup.md` and follow it. The user engaging with the skill implies interest — start helping them naturally. When to Use User needs help managing their garden: tracking",
+    "summary": "Setup If `~/Clawic/data/garden/` doesn't exist or is empty, read `setup.md` and follow it. The user engaging with the skill implies interest — start helping them naturally. When to Use User needs help managing their gard",
     "repositoryPath": "skills/garden",
     "manifestPath": "registry/skills/garden.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/garden/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/_meta.json",
+      "byteCount": 240,
+      "sha256": "a3f415486124a10c8edca222ab7bcfd4b1d1d9c880d16024ca0e4ce791671fe5"
     },
     {
       "path": "climate-setup.md",
       "downloadPath": "skills/garden/climate-setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/climate-setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/climate-setup.md",
+      "byteCount": 2867,
+      "sha256": "e3a95ee7c4f4f5b6688df81687abec95e73a1376f58551a46613cc28e97838f2"
     },
     {
       "path": "diagnostics.md",
       "downloadPath": "skills/garden/diagnostics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/diagnostics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/diagnostics.md",
+      "byteCount": 3572,
+      "sha256": "6cedfc27a3ffcec0fd82a8f42473b9c49180ee2c2ca1642d1072f68dd4e554e5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/garden/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/memory-template.md",
+      "byteCount": 1963,
+      "sha256": "aebd3b5405879d299e3dd0a88d9a0b368c4506713667f201d0b920ce1dc9c0a5"
     },
     {
       "path": "planning.md",
       "downloadPath": "skills/garden/planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/planning.md",
+      "byteCount": 3770,
+      "sha256": "3c5744b6e7a750487d0352dbf3dce0d7df65e83945d689cc43cc468dfb258455"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/garden/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/setup.md",
+      "byteCount": 2417,
+      "sha256": "c621a90c0e8b02362c64a55e3a6e30e16c7134da8e2f866989d21577f1e51c59"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/garden/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/SKILL.md",
+      "byteCount": 4409,
+      "sha256": "8b2289b2f097a6d41e9b16f330dda980d9e159d703b9ab22cf48b59ee568af03"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/garden/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/garden/tracking.md",
+      "byteCount": 2844,
+      "sha256": "3b5cffa97aaffc9e559a7195e87b1b43fff64c713f6cab1efe8166cdd93374bd"
     }
   ]
 }

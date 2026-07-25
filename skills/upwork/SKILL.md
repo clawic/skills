@@ -1,7 +1,13 @@
 ---
-name: Upwork
+name: upwork
 slug: upwork
+version: 1.0.0
 description: Win freelance projects on Upwork with profile optimization, proposal writing, client communication, and scam detection.
+homepage: https://clawic.com/skills/upwork
+metadata:
+  clawdbot:
+    emoji: 💼
+    displayName: Upwork
 ---
 
 ## Quick Reference

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5c088f63c33b8a3f2fb4c0e23be54cb16492cff6fcb5fe3b9b3661a10230c94d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "yahoo",
-    "name": "Yahoo",
+    "name": "yahoo",
     "description": "Use Yahoo Finance for quotes, symbol search, watchlists, market briefs, and catalyst-aware stock decisions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/yahoo",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/yahoo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/_meta.json",
+      "byteCount": 162,
+      "sha256": "923cf6ecb247e4283e2fbe9edff41102005884d24a46a6f50ffaea9eda971a1e"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/yahoo/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/commands.md",
+      "byteCount": 1083,
+      "sha256": "0cf062987fb1e5980b4983b1e64ead181396fd1f056d393dd5e0257bc3c7aa3c"
     },
     {
       "path": "market-playbook.md",
       "downloadPath": "skills/yahoo/market-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/market-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/market-playbook.md",
+      "byteCount": 1144,
+      "sha256": "ee814d8767e9d04a80b4ffece82af5ad78d141013682912ec20dbd6213b0f71a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/yahoo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/memory-template.md",
+      "byteCount": 1608,
+      "sha256": "335b002d8574085e2f76265cc7bec77acae4f17e82fad210d81c15ab89504398"
     },
     {
       "path": "risk-playbook.md",
       "downloadPath": "skills/yahoo/risk-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/risk-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/risk-playbook.md",
+      "byteCount": 924,
+      "sha256": "55ed83a40da53e97827cd78952e0a12bdac36f7b62cb94f6cf170d74afaaf518"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/yahoo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/setup.md",
+      "byteCount": 2864,
+      "sha256": "b8d08d4a6819075c14fc5713445e9be7c76d159b12c3e27d95441b4346c5d790"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/yahoo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/SKILL.md",
+      "byteCount": 7846,
+      "sha256": "9fbacd4e0d0ab14715ce68459223c268f62f5b77eaf574d55208b8acbf8b8a88"
     },
     {
       "path": "thesis-card.md",
       "downloadPath": "skills/yahoo/thesis-card.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/thesis-card.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/thesis-card.md",
+      "byteCount": 722,
+      "sha256": "76206bd89d80b3f25fb32708ad87efc35a06729b6ae58b6e19557a58efcce1d4"
     },
     {
       "path": "yahoo_brief.py",
       "downloadPath": "skills/yahoo/yahoo_brief.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_brief.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_brief.py",
+      "byteCount": 4702,
+      "sha256": "c248cb859dc3abefff029521eb3110e31a9aa53e7240d6b4413af7f07fda6df9"
     },
     {
       "path": "yahoo_quote.py",
       "downloadPath": "skills/yahoo/yahoo_quote.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_quote.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_quote.py",
+      "byteCount": 3100,
+      "sha256": "9fbefd0f26a2320e0dad5d8400b80115d2358408be3eeae8169f0f43768fbd36"
     },
     {
       "path": "yahoo_search.py",
       "downloadPath": "skills/yahoo/yahoo_search.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_search.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yahoo/yahoo_search.py",
+      "byteCount": 2648,
+      "sha256": "1de0a216ec1b5b0ad14a11203df4eb10489f78cbd43516eacfa7912346f0bbf5"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3ceafbc27763918131ef42add7c0533b33e910327d1350f5bd72889b0bfe4d69",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "brave",
-    "name": "Brave Browser",
+    "name": "brave",
     "description": "Operate, automate, and troubleshoot Brave Browser with profiles, Shields, extensions, and Chromium debugging workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/brave",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/brave/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/_meta.json",
+      "byteCount": 170,
+      "sha256": "60d05537761661a8353b38e508987043ebf458a9368b97f9703ce15a6eba3243"
     },
     {
       "path": "automation-and-debugging.md",
       "downloadPath": "skills/brave/automation-and-debugging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/automation-and-debugging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/automation-and-debugging.md",
+      "byteCount": 1572,
+      "sha256": "0235e4b1d5312478b0806b85b5ef4657d93cb3967986e7eb96e1de5dee65c3e3"
     },
     {
       "path": "extensions-and-wallet.md",
       "downloadPath": "skills/brave/extensions-and-wallet.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/extensions-and-wallet.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/extensions-and-wallet.md",
+      "byteCount": 1316,
+      "sha256": "f875e1175dc98e56c6719197f69babe7717eccb45f1f6f71985be43143b9cac0"
     },
     {
       "path": "launch-and-profiles.md",
       "downloadPath": "skills/brave/launch-and-profiles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/launch-and-profiles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/launch-and-profiles.md",
+      "byteCount": 1695,
+      "sha256": "d9091dff8516ecd112c63764338f546284fc2cec1b02c8b4334fde3db1acc89d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/brave/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/memory-template.md",
+      "byteCount": 1433,
+      "sha256": "8d6076720534d25b663a256b92b58b7354e39c8355ae61257a65d8f1e2fdda7e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/brave/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/setup.md",
+      "byteCount": 2544,
+      "sha256": "809d64dfef2667c6f6f52aac731437bcf522772eb62be15a2989e564e405866f"
     },
     {
       "path": "shields-and-compatibility.md",
       "downloadPath": "skills/brave/shields-and-compatibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/shields-and-compatibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/shields-and-compatibility.md",
+      "byteCount": 1396,
+      "sha256": "6880176ffbce0a00a101aa69bdd4fccb27b3451773d96eddb38cc5bd0e4c1410"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/brave/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/SKILL.md",
+      "byteCount": 8921,
+      "sha256": "f984e7a1a00332b5b638413fdd96e0832eda8efaa9cc8efe8ea203865b9c1f98"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/brave/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brave/troubleshooting.md",
+      "byteCount": 1181,
+      "sha256": "80ae245db6b2a5e9972860719c70924ade11803ff4815d16ddac34376dc00e12"
     }
   ]
 }

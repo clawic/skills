@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "799358ce86ddb6b6431e64fddb770791c53f395397db932957f69999aa950bbd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "scipy",
-    "name": "SciPy",
+    "name": "scipy",
     "description": "Solve optimization, statistics, signal processing, and linear algebra problems with SciPy recipes and ready-to-run code.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/scipy",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/scipy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/_meta.json",
+      "byteCount": 162,
+      "sha256": "08784c8047fd4e16b13110ad0bc46d33f5505701b7592f507a393cc350cd6c6a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/scipy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/memory-template.md",
+      "byteCount": 840,
+      "sha256": "c0fc88d6b099fe72a6ffd36bb12cfc1e5d655f67c8dc0344cc72d111ff7f23b5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/scipy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/setup.md",
+      "byteCount": 1296,
+      "sha256": "40b6aa35ee4b009fef33a16e3c7c45270acb111b40b6981dcf2bca6245a5b104"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/scipy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scipy/SKILL.md",
+      "byteCount": 9133,
+      "sha256": "cd5d0333b03b5ebcf903999cf7dce34704e16244366518a7ebe2585e08787a18"
     }
   ]
 }

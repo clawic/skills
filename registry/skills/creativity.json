@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "31d39b42fc55812a756e269fcfe17cc8fffae79da2dced993fae4f838d4003dd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "creativity",
-    "name": "Creativity",
+    "name": "creativity",
     "description": "Generate novel ideas calibrated to user taste. Auto-learns preferred styles, risk levels, and creative directions through feedback.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/creativity",
     "summary": "Core Principle Creativity isn't random—it's controlled divergence. Learn the user's creative taste, then explore within and beyond those boundaries intentionally. Check `techniques.md` for generation methods. Check `pref",
     "repositoryPath": "skills/creativity",
     "manifestPath": "registry/skills/creativity.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/creativity/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/_meta.json",
+      "byteCount": 172,
+      "sha256": "bfc0b51edc1d2447683710237ff442d6030e897b9decaf02493ea0bf379126b0"
     },
     {
       "path": "preferences.md",
       "downloadPath": "skills/creativity/preferences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/preferences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/preferences.md",
+      "byteCount": 1269,
+      "sha256": "ef7802138761947cf1855a2fb673f8a1ebe10ea67c2d847606796b06fe2fd7e3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/creativity/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/SKILL.md",
+      "byteCount": 2449,
+      "sha256": "5a3a26c76857aa9bd925e883c8a687cbb9f7cc548c445a4f1eaeb968b068d224"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/creativity/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/creativity/techniques.md",
+      "byteCount": 3167,
+      "sha256": "8c6a20e0f061f6391bbb7b43c66aad29b9bbe7d9cc09e2454922b0ede7879890"
     }
   ]
 }

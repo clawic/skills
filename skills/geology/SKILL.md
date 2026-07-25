@@ -1,7 +1,17 @@
 ---
-name: Geology
+name: geology
+slug: geology
+version: 1.0.0
 description: Explain Earth's rocks, processes, and history from field trips to research.
-metadata: {"clawdbot":{"emoji":"🪨","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/geology
+metadata:
+  clawdbot:
+    emoji: 🪨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Geology
 ---
 
 ## Detect Level, Adapt Everything

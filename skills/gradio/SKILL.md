@@ -1,7 +1,20 @@
 ---
-name: Gradio
+name: gradio
+slug: gradio
+version: 1.0.0
 description: Build and deploy ML demo interfaces with proper state management, queuing, and production patterns.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gradio
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Gradio
 ---
 
 # Gradio Patterns

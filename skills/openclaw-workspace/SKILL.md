@@ -1,11 +1,20 @@
 ---
-name: OpenClaw Workspace
+name: openclaw-workspace
 slug: openclaw-workspace
 version: 1.0.0
+description: Audit and improve OpenClaw workspaces across SOUL, AGENTS, TOOLS, USER, MEMORY, and skills for persona tuning, proactive behavior, recall, and workflow fit. Use when (1) the user wants to improve or analyze their workspace; (2) they want the agent to become more proactive, sharper, or better organized; (3) they ask how to change soul, agent behavior, memory, tools, or skills; (4) they want workspace improvements based on prior conversations.
 homepage: https://clawic.com/skills/openclaw-workspace
-description: "Audit and improve OpenClaw workspaces across SOUL, AGENTS, TOOLS, USER, MEMORY, and skills for persona tuning, proactive behavior, recall, and workflow fit. Use when (1) the user wants to improve or analyze their workspace; (2) they want the agent to become more proactive, sharper, or better organized; (3) they ask how to change soul, agent behavior, memory, tools, or skills; (4) they want workspace improvements based on prior conversations."
 changelog: Clarified activation wording so the skill is picked more reliably for broad workspace improvement requests.
-metadata: {"clawdbot":{"emoji":"🧩","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🧩
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: OpenClaw Workspace
 ---
 
 ## When to Use
@@ -119,7 +128,7 @@ When running the default deep audit, produce a compact improvement packet:
 Do not end with generic advice alone. The user should leave with a real plan tied to specific workspace files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `analysis` - Run workspace and system audits with prioritized findings and remediation
 - `proactivity` - Tune initiative, follow-through, and heartbeat behavior
@@ -128,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star openclaw-workspace`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/openclaw-workspace
+- Latest version: https://clawic.com/skills/openclaw-workspace

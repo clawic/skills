@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ac33cea71a5603732d73966b05defa1db81d1ad6752533c900c86b74b655ef32",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "quizlet",
-    "name": "Quizlet",
+    "name": "quizlet",
     "description": "Build high-yield Quizlet study sets, tune Learn and Test sessions, and improve weak cards with spaced repetition diagnostics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/quizlet",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/quizlet/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/_meta.json",
+      "byteCount": 166,
+      "sha256": "7412ef2a6eaa6677554f81643f6c713cd4a77103c756b0617b72c259ca5c6370"
     },
     {
       "path": "diagnostics.md",
       "downloadPath": "skills/quizlet/diagnostics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/diagnostics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/diagnostics.md",
+      "byteCount": 1514,
+      "sha256": "1a3c6463ad2ea1ce7c800e09714d337c77fa95425a4c3a344af36dfd368ef1ea"
     },
     {
       "path": "imports.md",
       "downloadPath": "skills/quizlet/imports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/imports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/imports.md",
+      "byteCount": 1312,
+      "sha256": "4270b2eb8bb6ac98b80ca11df182a545730e50780f21a6782badd4c428b42653"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/quizlet/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/memory-template.md",
+      "byteCount": 1460,
+      "sha256": "564afd8ac7166bbc6f638b0b3caf8c779fed5b13c1b20877c05716816c27d32a"
     },
     {
       "path": "set-design.md",
       "downloadPath": "skills/quizlet/set-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/set-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/set-design.md",
+      "byteCount": 1699,
+      "sha256": "4dd4f046fccc38ce89e569d2eb55e81789261924ac37367743d592e570ab47d9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/quizlet/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/setup.md",
+      "byteCount": 1428,
+      "sha256": "a2f33deb761af7a05621d04c4eef53c3624101520cb0cd352b5c984255367f26"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/quizlet/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/SKILL.md",
+      "byteCount": 5166,
+      "sha256": "a6d9d6e5e2151c6ab5b8b307c0422a74c98867cc756ff534a23e2a26e4ce9d6f"
     },
     {
       "path": "study-modes.md",
       "downloadPath": "skills/quizlet/study-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/study-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/quizlet/study-modes.md",
+      "byteCount": 1499,
+      "sha256": "e74895ec625f0bcec2f2a7e8c1e75447e6ad25ffc2a85645bd7628b91b1c6a3e"
     }
   ]
 }

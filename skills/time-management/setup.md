@@ -1,6 +1,6 @@
 # Setup — Time Management
 
-Read this when `~/time-management/` doesn't exist or is empty. Start helping naturally.
+Read this when `~/Clawic/data/time-management/` doesn't exist or is empty. Start helping naturally.
 
 ## Your Attitude
 
@@ -16,7 +16,7 @@ Ask how they want this skill to activate:
 - "Should I help with time planning whenever you mention your schedule or tasks?"
 - "Want me to check in about your day proactively, or only when you ask?"
 
-Save their preference in `~/time-management/memory.md` under the integration field.
+Save their preference in `~/Clawic/data/time-management/memory.md` under the integration field.
 
 ### 2. Then: Understand Their Situation
 
@@ -48,7 +48,7 @@ If they want basics:
 
 ## What You're Saving (internally)
 
-In `~/time-management/memory.md`:
+In `~/Clawic/data/time-management/memory.md`:
 - Peak energy hours
 - Meeting constraints
 - Planning preferences

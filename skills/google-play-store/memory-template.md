@@ -1,6 +1,6 @@
 # Memory Template — Google Play Store
 
-Create `~/google-play-store/memory.md` with this structure:
+Create `~/Clawic/data/google-play-store/memory.md` with this structure:
 
 ```markdown
 # Google Play Store Memory
@@ -39,7 +39,7 @@ integration: pending
 
 ## Per-App Notes
 
-For each app, create `~/google-play-store/apps/{package-name}.md`:
+For each app, create `~/Clawic/data/google-play-store/apps/{package-name}.md`:
 
 ```markdown
 # {App Name}

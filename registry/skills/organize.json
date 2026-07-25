@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a2278a659f729fbfa2d2d93a4b851b54012b3fb593ca125be05ed6ef1a1a9897",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "organize",
-    "name": "Organize",
+    "name": "organize",
     "description": "Proactively organize while working. Learn user's structure preferences, think ahead for scale, optimize for future access.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/organize",
     "summary": "Core Principle Organization isn't a separate task—it happens while you work. Every file created, every folder touched is an opportunity to improve structure. Think ahead: how will this scale? How will it be accessed late",
     "repositoryPath": "skills/organize",
     "manifestPath": "registry/skills/organize.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/organize/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/_meta.json",
+      "byteCount": 168,
+      "sha256": "0439ec3f89e62d520c1485fd445847dda0beb199182644b8f908c2c17264a355"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/organize/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/patterns.md",
+      "byteCount": 1488,
+      "sha256": "75a46ef30a0ce3ce8c032c1145d8d21fad1687df5a3561921ce12776436ef80b"
     },
     {
       "path": "principles.md",
       "downloadPath": "skills/organize/principles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/principles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/principles.md",
+      "byteCount": 1961,
+      "sha256": "de0a4bbd6aa3c0fc0445ad8ad33f52399a91c1a25afd4368a30aba507e3f4f9e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/organize/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/organize/SKILL.md",
+      "byteCount": 2986,
+      "sha256": "42106952ae09fc5d25cb1bb19d1cb88ad469cb972847bd7d330d10def2d16560"
     }
   ]
 }

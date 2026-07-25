@@ -1,11 +1,22 @@
 ---
-name: Reverse Engineering
+name: reverse-engineering
 slug: reverse-engineering
 version: 1.0.0
-homepage: https://clawic.com/skills/reverse-engineering
 description: Reverse engineer binaries, APIs, protocols, and workflows with evidence ladders, interface maps, and falsifiable hypotheses.
+homepage: https://clawic.com/skills/reverse-engineering
 changelog: Adds a structured reverse engineering workflow with evidence tracking, interface mapping, and safer uncertainty handling.
-metadata: {"clawdbot":{"emoji":"🧩","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/reverse-engineering/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧩
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/reverse-engineering/
+    displayName: Reverse Engineering
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User needs to understand something opaque, undocumented, legacy, or partially br
 
 ## Architecture
 
-Memory lives in `~/reverse-engineering/`. If `~/reverse-engineering/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/reverse-engineering/`. If `~/Clawic/data/reverse-engineering/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/reverse-engineering/
+~/Clawic/data/reverse-engineering/
 ├── memory.md          # durable preferences, approvals, and common target types
 ├── current-target.md  # active engagement snapshot
 ├── targets/           # one file per target or system
@@ -99,7 +110,7 @@ These failures usually waste the most time or create false confidence.
 - Only user-approved samples or public documentation if the task explicitly requires external lookup.
 
 **Data that stays local:**
-- Preferences and engagement notes in `~/reverse-engineering/`
+- Preferences and engagement notes in `~/Clawic/data/reverse-engineering/`
 - Captured traces, decoded notes, and reproduction snippets kept in the workspace or the local reverse-engineering folder
 
 **This skill does NOT:**
@@ -110,7 +121,7 @@ These failures usually waste the most time or create false confidence.
 - Create durable local memory without first telling the user what will be stored
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analysis` — structure ambiguous problems and turn raw evidence into decisions
 - `api` — reason about endpoints, payloads, contracts, and integration behavior
 - `architecture` — model system boundaries, components, and data flow once the target is understood
@@ -119,5 +130,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star reverse-engineering`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/reverse-engineering
+- Latest version: https://clawic.com/skills/reverse-engineering

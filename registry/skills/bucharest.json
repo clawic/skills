@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fe2457530062a7c609bdab84bf667e9d204e31ffd0402ff95af69c27b402cbee",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "bucharest",
-    "name": "Bucharest",
+    "name": "bucharest",
     "description": "Navigate Bucharest as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/bucharest",
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bucharest/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/_meta.json",
+      "byteCount": 170,
+      "sha256": "5cfa7b73d57500c531c094a709e7c23bfefd9dd44c8e2aa41cc824212747b21d"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/bucharest/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/business.md",
+      "byteCount": 7734,
+      "sha256": "3634a078ba77dfdb3b4cf4e9cafcd487b5ba9c854d33c6c76963a91caad7db38"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/bucharest/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/climate.md",
+      "byteCount": 6877,
+      "sha256": "cdcf0059be6d6450651ea5957d7a364b0e4cf2d65b25ef821cbcc15cb8205822"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/bucharest/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/cost.md",
+      "byteCount": 7635,
+      "sha256": "1390fdec78576ceb6ce036e33516e7a2c3fb51391c7838fb2573c6981cc92287"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/bucharest/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/culture.md",
+      "byteCount": 3896,
+      "sha256": "8ef201f0fe40e2b8ea62fd6d70221ab9dd4d58f20c35ec9b99468f8175d06acb"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/bucharest/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/driving.md",
+      "byteCount": 4589,
+      "sha256": "52133c56e3fc0a3d745e0572005a1627993291875f8a01028b649ca7dafd31b5"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/bucharest/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/education.md",
+      "byteCount": 4548,
+      "sha256": "5833cd165e902233edb5f519040b441af7a389a3c826fcb72003da46da217f60"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/bucharest/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-areas.md",
+      "byteCount": 6539,
+      "sha256": "5b458b16f4829ca6b33058030da62a7571b1a2d1cf54ce132e6e96a94288a0ec"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/bucharest/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-international.md",
+      "byteCount": 5554,
+      "sha256": "1bb413a9cea329c653f846e7d14c276d64797125ba54335aec8dbeeab2ca5de2"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/bucharest/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-local.md",
+      "byteCount": 6027,
+      "sha256": "7596f136bea6917e5e091b5afd872d5146ca7a8d28238d315106cb406adb4fdf"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/bucharest/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-overview.md",
+      "byteCount": 5946,
+      "sha256": "87f8e357726f2c560862f23f29514e2e5c4b7490399fb8583e016d2317eeb4a4"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/bucharest/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/food-practical.md",
+      "byteCount": 7036,
+      "sha256": "2a222704a4ffe8ee18e0af83bd90dfbea9c74cdcda3e13113a1429d4b8ed109d"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/bucharest/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/healthcare.md",
+      "byteCount": 5185,
+      "sha256": "a5b39cd29f38913aacfd939e77227f64825ab4a2b17eb1f2dbeab641ff6bce64"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/bucharest/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/lifestyle.md",
+      "byteCount": 5439,
+      "sha256": "66891f67e550e5344160dcd8e69e51fb4105bb756fd27510c5880331b0eeadb5"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/bucharest/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/local.md",
+      "byteCount": 7509,
+      "sha256": "0d406dd93804f5d5b2dbc92cb86cd57000460f40e8768bc6cbc8e3a343434ad8"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/bucharest/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/memory-template.md",
+      "byteCount": 721,
+      "sha256": "872835586852c2dc8e60f3facb6ac2686f8e8d1d14578ba7f2df91593d3893d3"
     },
     {
       "path": "neighborhoods-center.md",
       "downloadPath": "skills/bucharest/neighborhoods-center.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-center.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-center.md",
+      "byteCount": 6429,
+      "sha256": "a027664ddf8458450a0b8b83c3d94f9ad8aa005cb8f7d468698bc42b69e08d3a"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/bucharest/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-choosing.md",
+      "byteCount": 6495,
+      "sha256": "d1890ceca8ef4714804897791de367a28eb900ac20d475d08b305a4d01b30121"
     },
     {
       "path": "neighborhoods-emerging.md",
       "downloadPath": "skills/bucharest/neighborhoods-emerging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-emerging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-emerging.md",
+      "byteCount": 7611,
+      "sha256": "abbaf5f90dbc3980ea32e4cdaa2a1c47183287233c4ced5f70e4a83bf63426e1"
     },
     {
       "path": "neighborhoods-expat.md",
       "downloadPath": "skills/bucharest/neighborhoods-expat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-expat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-expat.md",
+      "byteCount": 7376,
+      "sha256": "f5b3a3cd19e511dfc99adb4083620d81ac9c92dafd3dbbbb126c405d81af306a"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/bucharest/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-index.md",
+      "byteCount": 4235,
+      "sha256": "aeeb43266bbaf912bb0b2be5205cd812933124668a27802ff7821d8dc23f49a6"
     },
     {
       "path": "neighborhoods-north.md",
       "downloadPath": "skills/bucharest/neighborhoods-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/neighborhoods-north.md",
+      "byteCount": 6635,
+      "sha256": "ffa7574e9741e47247c893d9cb8cc1e3d5727a42c7c8933cc3faacb9d4834d0f"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/bucharest/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/resident.md",
+      "byteCount": 8615,
+      "sha256": "57b8fe6c9738b3b74ea107342a7c4681692c054c5415c74ae69ecf014a7ab260"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/bucharest/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/safety.md",
+      "byteCount": 6621,
+      "sha256": "4c078bf26ae29aba7dec688ea7dfa2823d44749eca20f57b0c4227bb0f5000d4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bucharest/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/SKILL.md",
+      "byteCount": 7442,
+      "sha256": "b65ddd6906c0191444773574b89b1cf977fc941c7dd465fee2980d6c21d8f7fb"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/bucharest/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/startup.md",
+      "byteCount": 7627,
+      "sha256": "c694605cb38bc96e3ce58737350725ab0924ba51f4a22acf7406e4d5f94c86aa"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/bucharest/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/tech.md",
+      "byteCount": 7540,
+      "sha256": "9ef56efafaa46e3cc6a85c77a650893bd46bf527001d4e7a254572b3e170bfd3"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/bucharest/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/transport.md",
+      "byteCount": 7094,
+      "sha256": "4f22c956858113ce9697eed1824e22e11ef008c60968527e31f3c6dc8812d96a"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/bucharest/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visas.md",
+      "byteCount": 7078,
+      "sha256": "c5580c6868d5ce2285634b9c3e6cf1e8fafe922f160a29661704326ad11ed29e"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/bucharest/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-attractions.md",
+      "byteCount": 4903,
+      "sha256": "14f797bc5626012183ea51e52d7d936ec21a6d04089b8cacbc8094badfc9805b"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/bucharest/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-itineraries.md",
+      "byteCount": 4738,
+      "sha256": "ca2c55d2f9862289beb176a2ad521e02187bcd3a6675f9414c9ecf7e718d3cf1"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/bucharest/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-lodging.md",
+      "byteCount": 6210,
+      "sha256": "98f5517249172da2b47ff9bf94fdde47a0ff55d99c082bee3e5c5655e34e9da0"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/bucharest/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bucharest/visitor-tips.md",
+      "byteCount": 7055,
+      "sha256": "9963ab33718bbff538a3c65505a93c61d1cb85f502bf1b857991dc1f05855685"
     }
   ]
 }

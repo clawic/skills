@@ -1,6 +1,13 @@
 ---
-name: Diverge
+name: diverge
+slug: diverge
+version: 1.0.0
 description: Spawn multiple perspectives to evaluate a problem before converging on a solution.
+homepage: https://clawic.com/skills/diverge
+metadata:
+  clawdbot:
+    emoji: 🌿
+    displayName: Diverge
 ---
 
 ## When to Diverge

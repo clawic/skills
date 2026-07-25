@@ -1,11 +1,22 @@
 ---
-name: Arbitrage
+name: arbitrage
 slug: arbitrage
 version: 1.0.0
-homepage: https://clawic.com/skills/arbitrage
 description: Find, validate, and compare arbitrage opportunities across markets with fee-aware math, execution sequencing, and failure-mode checks.
+homepage: https://clawic.com/skills/arbitrage
 changelog: Adds the Locked Spread Protocol, fee-aware calculators, and venue validation playbooks for cleaner arbitrage analysis.
-metadata: {"clawdbot":{"emoji":"$","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/arbitrage/"]}}
+metadata:
+  clawdbot:
+    emoji: $
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/arbitrage/
+    displayName: Arbitrage
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User is evaluating an apparent price gap, hedge, surebet, basis trade, multi-leg
 
 ## Architecture
 
-Memory lives in `~/arbitrage/`. If `~/arbitrage/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/arbitrage/`. If `~/Clawic/data/arbitrage/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/arbitrage/
+~/Clawic/data/arbitrage/
 ├── memory.md         # Preferences, constraints, and activation rules
 ├── opportunities.md  # Active ideas, status, and next checks
 ├── venue-notes.md    # Withdrawal, fill, and settlement notes by venue
@@ -109,7 +120,7 @@ Use the full protocol in `workflow.md`. At minimum, every opportunity passes the
 
 This skill ONLY:
 - Analyzes arbitrage structures and net economics
-- Stores user-stated constraints in `~/arbitrage/`
+- Stores user-stated constraints in `~/Clawic/data/arbitrage/`
 - Uses its own auxiliary files for formulas, venue checks, and playbooks
 - References timestamps and missing inputs when data may be stale
 
@@ -126,7 +137,7 @@ This skill NEVER:
 - If the user explicitly asks for live public data, only the requested symbols, markets, or venue pages needed for the analysis
 
 **Data that stays local:**
-- Preferences, venue notes, and working opportunity notes in `~/arbitrage/`
+- Preferences, venue notes, and working opportunity notes in `~/Clawic/data/arbitrage/`
 
 **This skill does NOT:**
 - Store credentials
@@ -134,7 +145,7 @@ This skill NEVER:
 - Make undeclared network requests
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `trading` - technical analysis, risk framing, and trade planning language
 - `trader` - disciplined execution mindset and position management basics
 - `pricing` - pricing logic when the opportunity is a commercial mismatch rather than a market trade
@@ -142,5 +153,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star arbitrage`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/arbitrage
+- Latest version: https://clawic.com/skills/arbitrage

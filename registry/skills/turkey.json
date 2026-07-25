@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ea0997e5ba1d4f610ab8700f061cddb6400254993a0cb0944cef9cd926100e83",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "turkey",
-    "name": "Turkey",
+    "name": "turkey",
     "description": "Plan Turkey trips with city-coast-Cappadocia routing, verified entry rules, domestic transport strategy, and practical seasonal safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/turkey",
-    "summary": "Setup If `~/turkey/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Turkey trip and needs practical guidance beyond generic highlights: visa pathway, route design, domesti",
+    "summary": "Setup If `~/Clawic/data/turkey/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Turkey trip and needs practical guidance beyond generic highlights: visa pathway, route des",
     "repositoryPath": "skills/turkey",
     "manifestPath": "registry/skills/turkey.json"
   },
@@ -22,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/turkey/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/_meta.json",
+      "byteCount": 164,
+      "sha256": "cf46fdb497cc8178f75ba6ebc6b7bd20df82318ed8d67d634303602b33dca1ee"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/turkey/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/accessibility.md",
+      "byteCount": 1079,
+      "sha256": "b707638bed4fa9b4573bcc77287fd108b59f221da1bf22306adc166051457d35"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/turkey/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/accommodation.md",
+      "byteCount": 1722,
+      "sha256": "b47193fc64aa267d317fc481809a135d64786d1a752b226430e5917803a50d0c"
     },
     {
       "path": "aegean-and-west-coast.md",
       "downloadPath": "skills/turkey/aegean-and-west-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/aegean-and-west-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/aegean-and-west-coast.md",
+      "byteCount": 1286,
+      "sha256": "f86dd094903f7281aa59b593af02d9d1f212fde412479c2f2bc2ddfb92019dee"
     },
     {
       "path": "archaeology-and-museums.md",
       "downloadPath": "skills/turkey/archaeology-and-museums.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/archaeology-and-museums.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/archaeology-and-museums.md",
+      "byteCount": 1422,
+      "sha256": "4c859ca6f7b52df2019574456631aa01c1c1dd11ba0a799fabc5e16604b2f6be"
     },
     {
       "path": "black-sea-and-eastern-anatolia.md",
       "downloadPath": "skills/turkey/black-sea-and-eastern-anatolia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/black-sea-and-eastern-anatolia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/black-sea-and-eastern-anatolia.md",
+      "byteCount": 1204,
+      "sha256": "4c73c4b9a21e9c48bc65a3cab4551d499c66addb667e925f90a65ec018aeddf6"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/turkey/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/budget-and-costs.md",
+      "byteCount": 1677,
+      "sha256": "e3b2144989b2daf08d20937c0a4be3902573ddf40eb21b8c81284616ec5e4bcd"
     },
     {
       "path": "cappadocia-and-central-anatolia.md",
       "downloadPath": "skills/turkey/cappadocia-and-central-anatolia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/cappadocia-and-central-anatolia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/cappadocia-and-central-anatolia.md",
+      "byteCount": 1453,
+      "sha256": "e9313a12cead100c6663bbcbc656791af59fc9759a8cbba8dc47fe057aa7afbd"
     },
     {
       "path": "customs-and-arrival.md",
       "downloadPath": "skills/turkey/customs-and-arrival.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/customs-and-arrival.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/customs-and-arrival.md",
+      "byteCount": 1832,
+      "sha256": "6a3cda157dfde27788231ad60cb14526ed0b95b390361b9ee9eee4ec52f6a7b4"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/turkey/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/entry-and-documents.md",
+      "byteCount": 1886,
+      "sha256": "934a51f6ae575c8a9776180c382c5477ab6cd1597d1ef7dd3e0705669c9e2216"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/turkey/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/family-travel.md",
+      "byteCount": 1170,
+      "sha256": "fda08fc6558360bc4685fe3af6801b9ff8112e760bb456550a04906db44722bb"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/turkey/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/food-guide.md",
+      "byteCount": 1279,
+      "sha256": "6f4990ad550cb9c22ad87626670b506c0b9d3da1802587ce29573de484eebe40"
     },
     {
       "path": "istanbul.md",
       "downloadPath": "skills/turkey/istanbul.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/istanbul.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/istanbul.md",
+      "byteCount": 1437,
+      "sha256": "7bc3aae81974a8c3e98d1aae65aa0f7f019b73476a27657f7f961b7942ed2fa3"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/turkey/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/itineraries.md",
+      "byteCount": 1392,
+      "sha256": "56559b8e6dfb183d58f125464245c1c81f7bd3c250f8f8c3ec0c251eed8e1dcb"
     },
     {
       "path": "mediterranean-coast.md",
       "downloadPath": "skills/turkey/mediterranean-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/mediterranean-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/mediterranean-coast.md",
+      "byteCount": 1198,
+      "sha256": "735b3e53a854ad1d76c9166ad792089e26648054154b164f789c54ce95c5b999"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/turkey/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/memory-template.md",
+      "byteCount": 2004,
+      "sha256": "b6e9bc4630b4277f2a885d9d594b14a978cdfdd23dd85633d2b38d854594cd08"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/turkey/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/nightlife.md",
+      "byteCount": 1245,
+      "sha256": "4f9c11d1fa2aea0cabaa14d2515c2aeddaaa1ed60c88bebe8a5b97a377163844"
     },
     {
       "path": "payments-and-tipping.md",
       "downloadPath": "skills/turkey/payments-and-tipping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/payments-and-tipping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/payments-and-tipping.md",
+      "byteCount": 1391,
+      "sha256": "0b79450f7147f6ba1281a4277c2738d97f847650c3b3695f7917084abb6ba2ed"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/turkey/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/regions.md",
+      "byteCount": 1845,
+      "sha256": "3eda3423aee5d918a60a2c4f0ff332d97704d2b6a8cca10f7c15cb33fe4012c1"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/turkey/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/road-trips-and-driving.md",
+      "byteCount": 1508,
+      "sha256": "794b4833573a020aa9992fcabd764b421c41277f8cb13427c6b55138890fb8c3"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/turkey/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/safety-and-emergencies.md",
+      "byteCount": 1423,
+      "sha256": "6a3b2219f7b28e854e33213c88a036ec0671ae5a5e1332ee4a162226d922def5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/turkey/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/setup.md",
+      "byteCount": 2205,
+      "sha256": "8b8aa970698ba3422a3528c0312847cd491e17bd29a9bad10a3394c5214763e5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/turkey/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/SKILL.md",
+      "byteCount": 5887,
+      "sha256": "ee27fcaa374ce1b5a2e2ff5fbcbab730350a85cfc13f64fb4c464cf50624ab3f"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/turkey/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/sources.md",
+      "byteCount": 1809,
+      "sha256": "86c614aa19dd6f6ae58af445d2d423bf4a0a5e56188186de8ecee39466e0db11"
     },
     {
       "path": "southeast-and-mesopotamia.md",
       "downloadPath": "skills/turkey/southeast-and-mesopotamia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/southeast-and-mesopotamia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/southeast-and-mesopotamia.md",
+      "byteCount": 1256,
+      "sha256": "5b814de926bac0268c4ae22acd0f4ac6f314f70536825b811824e58a27610d37"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/turkey/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/telecoms-and-apps.md",
+      "byteCount": 1153,
+      "sha256": "3e4f0fcb4061d7c4d40ada26bc9cb7ea654f0da3c68283524af20890e7791458"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/turkey/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/transport-domestic.md",
+      "byteCount": 1632,
+      "sha256": "ff27d4ac5931a8c3a8b874e4a78632c212f59e27508e70d279f56732865ec61b"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/turkey/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/turkey/weather-and-seasonality.md",
+      "byteCount": 1517,
+      "sha256": "c06768016743c78ac2abb8f390ec449687af181e60086f4065c9444502628dd9"
     }
   ]
 }

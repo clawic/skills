@@ -1,19 +1,30 @@
 ---
-name: Decide
+name: decide
 slug: decide
 version: 1.0.1
-homepage: https://clawic.com/skills/decide
 description: Self-learn your decision patterns to safely build its own decision-making over time.
-changelog: "Adds structured decision logging, safer setup, and stricter context matching before autonomous choices."
-metadata: {"clawdbot":{"emoji":"⚖️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/decide/"]}}
+homepage: https://clawic.com/skills/decide
+changelog: Adds structured decision logging, safer setup, and stricter context matching before autonomous choices.
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/decide/
+    displayName: Decide
 ---
 
 ## Architecture
 
-Decision state lives in `~/decide/`. If that folder is missing or empty, run `setup.md`.
+Decision state lives in `~/Clawic/data/decide/`. If that folder is missing or empty, run `setup.md`.
 
 ```text
-~/decide/
+~/Clawic/data/decide/
 ├── memory.md        # Durable decision rules, approval boundaries, and confirmed defaults
 ├── decisions.md     # Major decisions with question, components, chosen option, and outcome
 └── domains/         # Domain-specific decision components, overrides, and exceptions
@@ -42,7 +53,7 @@ Use those files as a decision safety stack: first know the structure, then calib
 
 1. Frame the decision as a real question, not as a vague feeling.
 2. Gather the components that materially affect the answer.
-3. Read `~/decide/memory.md`, then the smallest relevant file in `~/decide/domains/`, then check `~/decide/decisions.md` for a materially similar record.
+3. Read `~/Clawic/data/decide/memory.md`, then the smallest relevant file in `~/Clawic/data/decide/domains/`, then check `~/Clawic/data/decide/decisions.md` for a materially similar record.
 4. Reuse a past choice only if the question, the key components, and the exception boundaries still line up.
 5. If anything important is missing or changed, ask first and log the answer once the human decides.
 
@@ -98,24 +109,24 @@ These failures usually come from pattern-matching too early or from collapsing a
 
 ## Data Storage
 
-Local state lives in `~/decide/`:
+Local state lives in `~/Clawic/data/decide/`:
 
-- durable decision rules, approval boundaries, and confirmed defaults in `~/decide/memory.md`
-- major decision records in `~/decide/decisions.md`
-- domain-specific component models, overrides, and exceptions in `~/decide/domains/`
+- durable decision rules, approval boundaries, and confirmed defaults in `~/Clawic/data/decide/memory.md`
+- major decision records in `~/Clawic/data/decide/decisions.md`
+- domain-specific component models, overrides, and exceptions in `~/Clawic/data/decide/domains/`
 
 The packaged guides `components.md`, `confidence.md`, and `exceptions.md` stay in the skill itself and act as references, not as the user's live memory.
 
 ## Security & Privacy
 
-- This skill stores local decision notes in `~/decide/`.
+- This skill stores local decision notes in `~/Clawic/data/decide/`.
 - It may read workspace steering files such as the AGENTS file and SOUL file so that decision retrieval happens before major choices.
 - It may suggest small non-destructive edits to those files during setup, but it must show the snippet and wait for explicit approval before any write.
 - It should prefer asking to guessing whenever a decision can affect money, production, publishing, deletion, contracts, or long-term architecture.
 - It never modifies its own `SKILL.md`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `escalate` - Control broad ask-vs-act boundaries around risky actions
 - `self-improving` - Learn execution lessons without conflating them with decision rules
@@ -124,5 +135,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star decide`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/decide
+- Latest version: https://clawic.com/skills/decide

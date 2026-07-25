@@ -1,6 +1,6 @@
 # Setup - Betting
 
-Use this file when `~/betting/` does not exist or has no saved context yet.
+Use this file when `~/Clawic/data/betting/` does not exist or has no saved context yet.
 
 ## Your Attitude
 

@@ -1,6 +1,6 @@
 # Setup — Polymarket CLI
 
-Read this when `~/polymarket-cli/` doesn't exist or is empty.
+Read this when `~/Clawic/data/polymarket-cli/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -36,7 +36,7 @@ If they want to trade, guide them to set up their wallet themselves:
 
 ## What Gets Saved
 
-With user permission, store in `~/polymarket-cli/memory.md`:
+With user permission, store in `~/Clawic/data/polymarket-cli/memory.md`:
 - How they want the skill to activate (always ask first)
 - Main use case (read-only, trading, analysis)
 - Markets they asked to track

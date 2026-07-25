@@ -1,6 +1,6 @@
 # Setup - Business Intelligence
 
-Read this when `~/business-intelligence/memory.md` does not exist or is empty.
+Read this when `~/Clawic/data/business-intelligence/memory.md` does not exist or is empty.
 
 Answer the user's immediate question first, then gather setup context naturally in the same conversation.
 
@@ -39,7 +39,7 @@ Before ending setup, produce one concrete output:
 
 When memory is enabled:
 
-- Create `~/business-intelligence/memory.md` from `memory-template.md`.
+- Create `~/Clawic/data/business-intelligence/memory.md` from `memory-template.md`.
 - Update `last` when KPI contracts or decision cadence change.
 - Store concise operational context only.
 - Never store credentials, secrets, or unrelated personal details.

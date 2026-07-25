@@ -1,11 +1,22 @@
 ---
-name: Macau
+name: macau
 slug: macau
 version: 1.0.0
-homepage: https://clawic.com/skills/macau
 description: Navigate Macau as visitor, resident, worker, student, or founder with districts, transport, costs, borders, culture, and practical local context.
-changelog: "Initial release with district guides, border planning, cost ranges, and practical Macau travel and relocation coverage."
-metadata: {"clawdbot":{"emoji":"MO","requires":{"bins":[],"config":["~/macau/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/macau
+changelog: Initial release with district guides, border planning, cost ranges, and practical Macau travel and relocation coverage.
+metadata:
+  clawdbot:
+    emoji: MO
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/macau/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Macau
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User asks about Macau for any purpose: visiting, relocating, working in hospital
 
 ## Architecture
 
-Memory lives in `~/macau/`. If `~/macau/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/macau/`. If `~/Clawic/data/macau/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/macau/
+~/Clawic/data/macau/
 `-- memory.md     # User context for trip, relocation, work, and border logistics
 ```
 
@@ -142,15 +153,15 @@ Macau works best when framed correctly inside the Greater Bay Area:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip, relocation, and district preferences in `~/macau/`
+**Data that stays local:** Trip, relocation, and district preferences in `~/Clawic/data/macau/`
 
 **This skill does NOT:**
-- Access files outside `~/macau/`
+- Access files outside `~/Clawic/data/macau/`
 - Make network requests
 - Claim border, visa, or residency certainty without telling the user to re-check official sources
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `money` - Budgeting, exchange-rate thinking, and cost trade-offs
 - `traditional-chinese` - Traditional Chinese context useful across Macau and nearby regions
@@ -159,5 +170,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star macau`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/macau
+- Latest version: https://clawic.com/skills/macau

@@ -1,16 +1,27 @@
 ---
-name: China
+name: china
 slug: china
 version: 1.0.0
-homepage: https://clawic.com/skills/china
-changelog: "Initial release with expanded mega-region guides, practical logistics, and long-route planning for China travel."
 description: Discover China like a local with deep city-region coverage, practical route planning, food context, and execution-ready travel logistics.
-metadata: {"clawdbot":{"emoji":"🇨🇳","requires":{"bins":[],"config":["~/china/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/china
+changelog: Initial release with expanded mega-region guides, practical logistics, and long-route planning for China travel.
+metadata:
+  clawdbot:
+    emoji: 🇨🇳
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/china/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: China
 ---
 
 ## Setup
 
-If `~/china/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/china/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to China or asking for local insights: where to base, how t
 
 ## Architecture
 
-Memory lives in `~/china/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/china/`. See `memory-template.md` for structure.
 
 ```
-~/china/
+~/Clawic/data/china/
 └── memory.md     # Trip context
 ```
 
@@ -125,12 +136,12 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/china/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/china/`
 
-**This skill does NOT:** Access files outside `~/china/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/china/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structuring
 - `food` — Deeper restaurant and cuisine recommendations
 - `chinese` — Language support for local communication and signs
@@ -138,5 +149,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star china`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/china
+- Latest version: https://clawic.com/skills/china

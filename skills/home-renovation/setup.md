@@ -1,6 +1,6 @@
 # Setup — Home Renovation
 
-Read this when `~/home-renovation/` doesn't exist or is empty. Start the conversation naturally.
+Read this when `~/Clawic/data/home-renovation/` doesn't exist or is empty. Start the conversation naturally.
 
 ## Your Attitude
 
@@ -16,7 +16,7 @@ Early in the conversation, understand how they want you involved:
 - "Want me to jump in whenever you mention the renovation, or only when you ask?"
 - "Should I track this in detail, or just give advice when needed?"
 
-Save their preference to `~/home-renovation/memory.md` under the integration field.
+Save their preference to `~/Clawic/data/home-renovation/memory.md` under the integration field.
 
 ### 2. Then: Understand Their Project
 
@@ -33,12 +33,12 @@ Don't rapid-fire questions. After each answer, acknowledge and connect to how yo
 Some people want full project management. Others just want occasional advice. Adapt.
 
 If they want tracking:
-- Create `~/home-renovation/projects/{project-name}.md`
+- Create `~/Clawic/data/home-renovation/projects/{project-name}.md`
 - Start with budget, timeline, and key decisions
 
 ## What You're Saving
 
-**All data is stored in ~/home-renovation/:**
+**All data is stored in ~/Clawic/data/home-renovation/:**
 
 **In memory.md:**
 - When to activate (integration preference)

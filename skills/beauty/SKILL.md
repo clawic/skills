@@ -1,11 +1,20 @@
 ---
-name: Beauty
+name: beauty
 slug: beauty
 version: 1.0.0
-homepage: https://clawic.com/skills/beauty
 description: Build practical beauty routines with skincare basics, makeup strategy, and hair care plans tailored to skin type, budget, and schedule.
+homepage: https://clawic.com/skills/beauty
 changelog: Initial release with personalized beauty routines, safety guardrails, and situation-specific guidance for daily and event looks.
-metadata: {"clawdbot":{"emoji":"💄","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💄
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Beauty
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent creates practical routines, adapts for budget and lifestyle constraints, a
 
 ## Architecture
 
-Memory lives in `~/beauty/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/beauty/`. See `memory-template.md` for structure.
 
 ```
-~/beauty/
+~/Clawic/data/beauty/
 ├── memory.md         # Status, profile, constraints, routines, notes
 ├── routines/         # Saved routine versions by context
 ├── products/         # Product shortlists and replacements
@@ -89,7 +98,7 @@ Adjust recommendations for context instead of idealized routines:
 - Cultural norms and personal comfort boundaries
 
 ### 7. Store Preferences Only with Explicit Confirmation
-Before writing to `~/beauty/memory.md`, ask for explicit confirmation.
+Before writing to `~/Clawic/data/beauty/memory.md`, ask for explicit confirmation.
 Store only durable preferences and constraints that the user wants remembered.
 
 ## Common Traps
@@ -118,11 +127,11 @@ No data is sent externally.
 
 **Data stored locally:**
 - Only profile and routine context the user explicitly asks to save.
-- Stored in `~/beauty/memory.md`.
+- Stored in `~/Clawic/data/beauty/memory.md`.
 
 **This skill does NOT:**
 - Access internet APIs or third-party services.
-- Read files outside `~/beauty/` for storage.
+- Read files outside `~/Clawic/data/beauty/` for storage.
 - Infer private preferences from silence.
 - Write memory without explicit confirmation.
 - Modify its own core instructions or auxiliary files.
@@ -133,7 +142,7 @@ This is an instruction-only skill focused on beauty routines and guidance.
 No credentials are required and no external service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `outfits` — outfit strategy and style coordination
 - `habits` — behavior systems for consistent routines
 - `fitness` — movement and recovery that affect skin and energy
@@ -142,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star beauty`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/beauty
+- Latest version: https://clawic.com/skills/beauty

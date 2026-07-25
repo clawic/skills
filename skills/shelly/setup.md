@@ -1,6 +1,6 @@
 # Setup - Shelly
 
-Read this when `~/shelly/` does not exist or is empty.
+Read this when `~/Clawic/data/shelly/` does not exist or is empty.
 Keep onboarding short and immediately useful.
 
 ## Operating Priorities
@@ -31,9 +31,9 @@ Keep onboarding short and immediately useful.
 4. If context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/shelly
-touch ~/shelly/{memory.md,environments.md,devices.md,automations.md,incidents.md}
+touch ~/Clawic/data/shelly/{memory.md,environments.md,devices.md,automations.md,incidents.md}
 chmod 700 ~/shelly
-chmod 600 ~/shelly/{memory.md,environments.md,devices.md,automations.md,incidents.md}
+chmod 600 ~/Clawic/data/shelly/{memory.md,environments.md,devices.md,automations.md,incidents.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

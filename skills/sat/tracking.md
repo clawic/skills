@@ -2,7 +2,7 @@
 
 ## Score Tracking
 
-Maintain in `~/sat/profile.md`:
+Maintain in `~/Clawic/data/sat/profile.md`:
 ```
 ## Score History
 | Date | RW | Math | Total | Notes |
@@ -15,7 +15,7 @@ Update after every full practice test.
 
 ## Section-Level Tracking
 
-For each section, track in `~/sat/sections/`:
+For each section, track in `~/Clawic/data/sat/sections/`:
 
 **Reading & Writing (`rw.md`):**
 ```
@@ -47,7 +47,7 @@ For each section, track in `~/sat/sections/`:
 
 ## Mistake Log
 
-Track every wrong answer in `~/sat/mistakes/`:
+Track every wrong answer in `~/Clawic/data/sat/mistakes/`:
 ```
 ## 2024-02-01 Practice Test
 | Q# | Section | Topic | Error Type | Review Date |

@@ -1,10 +1,19 @@
 ---
-name: Boston
+name: boston
 slug: boston
 version: 1.0.0
-homepage: https://clawic.com/skills/boston
 description: Navigate Boston as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, and local insights.
-metadata: {"clawdbot":{"emoji":"🦞","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/boston
+metadata:
+  clawdbot:
+    emoji: 🦞
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Boston
 ---
 
 ## When to Use
@@ -188,11 +197,11 @@ History is everywhere but doesn't dominate daily life. Most locals rarely walk t
 See `visitor-attractions.md` for historical sites worth visiting.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` - city guide reference
 - `travel` - general travel planning
 
 ## Feedback
 
-- If useful: `clawhub star boston`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/boston
+- Latest version: https://clawic.com/skills/boston

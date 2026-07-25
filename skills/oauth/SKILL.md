@@ -1,7 +1,17 @@
 ---
-name: OAuth
+name: oauth
+slug: oauth
+version: 1.0.0
 description: Implement OAuth 2.0 and OpenID Connect flows securely.
-metadata: {"clawdbot":{"emoji":"🔑","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/oauth
+metadata:
+  clawdbot:
+    emoji: 🔑
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: OAuth
 ---
 
 ## Flow Selection

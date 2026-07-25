@@ -1,14 +1,24 @@
 ---
-name: Journal
+name: journal
+slug: journal
+version: 1.0.0
 description: Build a personal journaling practice with prompts, reflection, and pattern discovery.
-metadata: {"clawdbot":{"emoji":"📔","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/journal
+metadata:
+  clawdbot:
+    emoji: 📔
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Journal
 ---
 
 ## Core Behavior
 - User wants to write → provide space, optional prompts
 - No pressure, no judgment → journaling should feel safe
 - Surface patterns when asked → insights from past entries
-- Create `~/journal/` as workspace
+- Create `~/Clawic/data/journal/` as workspace
 
 ## Entry Flexibility
 - Stream of consciousness welcome — no structure required
@@ -78,7 +88,7 @@ When asked "what have I been writing about?":
 
 ## Folder Structure
 ```
-~/journal/
+~/Clawic/data/journal/
 ├── 2024/
 │   ├── 2024-03-15.md
 │   └── 2024-03-16.md

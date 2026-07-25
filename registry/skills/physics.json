@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b6361e4ffca14a7fbafef4279b384450b31c592dd1df7f97a3087f66f7067f70",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "physics",
-    "name": "Physics",
+    "name": "physics",
     "description": "Assist with physics from intuitive explanations to formal derivations at any level.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/physics",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, problem type, mathematical comfort - When unclear, start with intuition and adjust based on response - Never condescend to experts or overwhelm beginner",
     "repositoryPath": "skills/physics",
     "manifestPath": "registry/skills/physics.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/physics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/physics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/physics/_meta.json",
+      "byteCount": 166,
+      "sha256": "fc544d58184ac154ecc4b86b27e915d538aa264165c555c8cc708f673dd0d07a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/physics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/physics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/physics/SKILL.md",
+      "byteCount": 3304,
+      "sha256": "775ecafef1cfc25ebf1160bafa761e37287c20edd14c20077cc5a15defee8b22"
     }
   ]
 }

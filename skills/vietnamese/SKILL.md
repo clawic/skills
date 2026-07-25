@@ -1,6 +1,13 @@
 ---
-name: Vietnamese
+name: vietnamese
+slug: vietnamese
+version: 1.0.0
 description: Write Vietnamese that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/vietnamese
+metadata:
+  clawdbot:
+    emoji: 🇻🇳
+    displayName: Vietnamese
 ---
 
 ## The Real Problem

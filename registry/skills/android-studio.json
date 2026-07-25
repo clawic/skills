@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "66fa77fb82ddfa52fcb54f7bee2f45dab9e2c1e57ffcb6d9ec4128d0d17031ec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,9 @@
   },
   "skill": {
     "slug": "android-studio",
-    "name": "Android Studio",
-    "description": "Master Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.",
-    "version": "1.0.0",
+    "name": "android-studio",
+    "description": "Work fast in Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/android-studio",
     "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User works with Android Studio IDE. Agent helps with debugging tools, profiler, layout inspector, code navigation, refactoring, and keyboard sho",
     "repositoryPath": "skills/android-studio",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/android-studio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/_meta.json",
+      "byteCount": 180,
+      "sha256": "69ee0456ad6cea0f465c0681eb9c570aef9b835f61401331e0bcabe804c14a0a"
     },
     {
       "path": "debugging.md",
       "downloadPath": "skills/android-studio/debugging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/debugging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/debugging.md",
+      "byteCount": 4075,
+      "sha256": "6eb0f000f3208b31d5eddb3ebc1bf4f00df86c95c4eccbb68fc789a23ced3f87"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/android-studio/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/memory-template.md",
+      "byteCount": 642,
+      "sha256": "0caf81ddc0551829044c3c630645eefaebaa146dc1e84634a597ba431cf24244"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/android-studio/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/setup.md",
+      "byteCount": 1111,
+      "sha256": "7855b3a42a7bba99ce0d512abd02b85be7751c63125ddae34424757534bfd725"
     },
     {
       "path": "shortcuts.md",
       "downloadPath": "skills/android-studio/shortcuts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/shortcuts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/shortcuts.md",
+      "byteCount": 4031,
+      "sha256": "17eba30e56792fd9ab0d755abe6de2eeedd3b17dd035ad53ec7262c75ba8bb3a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/android-studio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android-studio/SKILL.md",
+      "byteCount": 5846,
+      "sha256": "c0b40e883e0041878ba86d37a9570420952f47b15eed09e35210e5948f720060"
     }
   ]
 }

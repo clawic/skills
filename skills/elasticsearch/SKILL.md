@@ -1,7 +1,20 @@
 ---
-name: Elasticsearch
+name: elasticsearch
+slug: elasticsearch
+version: 1.0.0
 description: Query and index Elasticsearch with proper mappings, analyzers, and search patterns.
-metadata: {"clawdbot":{"emoji":"🔍","requires":{"anyBins":["curl"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/elasticsearch
+metadata:
+  clawdbot:
+    emoji: 🔍
+    requires:
+      anyBins:
+      - curl
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Elasticsearch
 ---
 
 ## Mapping Mistakes

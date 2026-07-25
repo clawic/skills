@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a36c13f8e7fc5f135075369714c85cc7e0cbb7093d7ce060a611855ab12aa091",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "nutrition",
-    "name": "Nutrition",
+    "name": "nutrition",
     "description": "Build a personal nutrition system for tracking meals, calories, macros, vitamins, and minerals.",
-    "summary": "Core Behavior - User logs meal → calculate and store nutrition data - User asks about nutrients → surface totals and gaps - User tracks over time → show patterns and progress - Create `~/nutrition/` as workspace File Str",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/nutrition",
+    "summary": "Core Behavior - User logs meal → calculate and store nutrition data - User asks about nutrients → surface totals and gaps - User tracks over time → show patterns and progress - Create `~/Clawic/data/nutrition/` as worksp",
     "repositoryPath": "skills/nutrition",
     "manifestPath": "registry/skills/nutrition.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/nutrition/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/_meta.json",
+      "byteCount": 170,
+      "sha256": "d5ba0e224e624b0e316a072338d95dbca07ec50d92e11e9ad4cf5da104cf9fa3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/nutrition/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/SKILL.md",
+      "byteCount": 3777,
+      "sha256": "f4fc037a2a6fa8148b01da1a0ddb3e929ca864f760a98fe218f900af0a110ee6"
     }
   ]
 }

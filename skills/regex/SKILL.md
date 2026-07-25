@@ -1,7 +1,17 @@
 ---
-name: Regex
+name: regex
+slug: regex
+version: 1.0.0
 description: Write correct, efficient regular expressions across different engines.
-metadata: {"clawdbot":{"emoji":"🔍","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/regex
+metadata:
+  clawdbot:
+    emoji: 🔍
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Regex
 ---
 
 ## Greedy vs Lazy

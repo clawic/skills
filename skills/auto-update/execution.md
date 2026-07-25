@@ -26,16 +26,16 @@ openclaw cron add \
   --session isolated \
   --wake now \
   --announce \
-  --message "Run the auto-update routine. Before changing anything, read ~/auto-update/memory.md, ~/auto-update/openclaw.md, ~/auto-update/skills.md, and ~/auto-update/migrations.md. Respect the modes saved there. Run openclaw update status --json. Run clawhub update --all --dry-run. Create backups. Skip blocked items. If openclaw mode is auto, run openclaw update --json. Apply only the allowed skill updates. Verify health. Write backups.md and run-log.md. Summarize updated, unchanged, skipped, and failed items."
+  --message "Run the auto-update routine. Before changing anything, read ~/Clawic/data/auto-update/memory.md, ~/Clawic/data/auto-update/openclaw.md, ~/Clawic/data/auto-update/skills.md, and ~/Clawic/data/auto-update/migrations.md. Respect the modes saved there. Run openclaw update status --json. Run npx clawic list and npx clawic show <slug> for each tracked skill. Create backups. Skip blocked items. If openclaw mode is auto, run openclaw update --json. Apply only the allowed skill updates with npx clawic update. Verify health. Write backups.md and run-log.md. Summarize updated, unchanged, skipped, and failed items."
 ```
 
 ## What Happens Each Day
 
 Before running any daily update:
-1. read `~/auto-update/memory.md`
-2. read `~/auto-update/openclaw.md`
-3. read `~/auto-update/skills.md`
-4. read `~/auto-update/migrations.md`
+1. read `~/Clawic/data/auto-update/memory.md`
+2. read `~/Clawic/data/auto-update/openclaw.md`
+3. read `~/Clawic/data/auto-update/skills.md`
+4. read `~/Clawic/data/auto-update/migrations.md`
 
 Then run this order:
 1. inspect OpenClaw update status
@@ -52,7 +52,7 @@ Then run this order:
 
 ## Install-Time Trigger
 
-After every new `clawhub install`, ask:
+After every new `npx clawic add`, ask:
 1. "Do you want a quick explanation of what this skill adds?"
 2. "Should this skill auto-update with the rest, stay manual, or inherit your default?"
 

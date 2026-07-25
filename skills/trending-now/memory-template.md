@@ -1,6 +1,6 @@
 # Memory Template - Trending Now
 
-Create `~/trending-now/memory.md` with this structure:
+Create `~/Clawic/data/trending-now/memory.md` with this structure:
 
 ```markdown
 # Trending Now Memory

@@ -1,13 +1,23 @@
 ---
-name: CRM
+name: crm
+slug: crm
+version: 1.0.0
 description: Guide users building a personal CRM from simple files to structured database.
-metadata: {"clawdbot":{"emoji":"🤝","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/crm
+metadata:
+  clawdbot:
+    emoji: 🤝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CRM
 ---
 
 ## First Interaction
 - Ask what they're tracking: clients, leads, investors, job contacts, networking — context shapes schema
 - Ask their technical comfort: spreadsheets, JSON, databases — determines starting format
-- Create `~/crm/` folder as the single source of truth
+- Create `~/Clawic/data/crm/` folder as the single source of truth
 
 ## Start With Files, Not Apps
 - JSON or CSV for first version — validate data model before adding complexity

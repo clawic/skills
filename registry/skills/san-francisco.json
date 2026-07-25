@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c32b6261c1845eed4198866c9ba30b4d8e97adf280b3f65c7a6587c94b28be5b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "san-francisco",
-    "name": "San Francisco",
+    "name": "san-francisco",
     "description": "Navigate San Francisco as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/san-francisco",
     "summary": "When to Use User asks about San Francisco for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|-----",
     "repositoryPath": "skills/san-francisco",
     "manifestPath": "registry/skills/san-francisco.json"
@@ -21,122 +25,170 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/san-francisco/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/_meta.json",
+      "byteCount": 178,
+      "sha256": "120bb35879f80a11490a905cf3eebcd8faa1c971902a69094e232dbffec92412"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/san-francisco/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/climate.md",
+      "byteCount": 5333,
+      "sha256": "241156a298ac28ccb70f0017e36ec2f6d70bf3379068d2884d56326122d8c7ab"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/san-francisco/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/cost.md",
+      "byteCount": 6135,
+      "sha256": "079ecb1164021dcbfb8f4b5f79c23d4f8e729cc62d5d320eb4e2faec6c01d52e"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/san-francisco/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-areas.md",
+      "byteCount": 2209,
+      "sha256": "4d56bf69514bba6d8fc7f4d936f5182c1fb5ad153432586a80a463a823a2579f"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/san-francisco/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-local.md",
+      "byteCount": 2416,
+      "sha256": "07718367f9464f6034d9dd7d3b6353359d58892cf4705ca1b68c57646988cc84"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/san-francisco/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-overview.md",
+      "byteCount": 2608,
+      "sha256": "2078a28f8a72a5c2eeab8cd65c8856060432684d6fd5b4ab30af05c895a60d99"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/san-francisco/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/food-practical.md",
+      "byteCount": 2308,
+      "sha256": "cae7e9828d883ed9201564ff8395894ee52f24a3d0c4206620e6d65ede7f3d8a"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/san-francisco/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/local.md",
+      "byteCount": 6014,
+      "sha256": "06c91acf46c8b0e48b264862d0df8382f8956f89047a3eecf7c95f3ba5347eeb"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/san-francisco/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-central.md",
+      "byteCount": 1940,
+      "sha256": "e634f9c2ba3d0002cee260dbb50a5e99f8a25065fd7a157062f0a7783ced6513"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/san-francisco/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-index.md",
+      "byteCount": 1869,
+      "sha256": "c00390048157d652639539f5e4ad46e7e9c69b2c0c09388b130e7abbde2d285a"
     },
     {
       "path": "neighborhoods-north.md",
       "downloadPath": "skills/san-francisco/neighborhoods-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-north.md",
+      "byteCount": 2417,
+      "sha256": "645bb3dee045a4ab11aa77845f808aaf660dd9372528b6599015ae6bfb2dc0dc"
     },
     {
       "path": "neighborhoods-outer.md",
       "downloadPath": "skills/san-francisco/neighborhoods-outer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-outer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-outer.md",
+      "byteCount": 2352,
+      "sha256": "8e1282865d33573efc7f6c7a3836a09374a67b29eeec1c49366168fb9b8dc2d0"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/san-francisco/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/neighborhoods-south.md",
+      "byteCount": 2533,
+      "sha256": "8ee85af4f08ba62860afadf09f97eddb1de84e552e1629d98af5923ef2fccb48"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/san-francisco/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/resident.md",
+      "byteCount": 5975,
+      "sha256": "55e49c8356339c5dbd99a678efc484792d5f6d0042d2a5074e68a28850ee65cc"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/san-francisco/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/safety.md",
+      "byteCount": 5288,
+      "sha256": "d60313e7a85d1a9462011d38ce646e7f30dc166dd5fd017aaa87c6e1b741f385"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/san-francisco/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/SKILL.md",
+      "byteCount": 3540,
+      "sha256": "42961181694aa325f7148c19757abe6cdf0a47ce19f4029f49664ff943da57ab"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/san-francisco/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/startup.md",
+      "byteCount": 5973,
+      "sha256": "115682650732f695fa75e4e325468355937f6a367695dad18224d605589eca32"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/san-francisco/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/student.md",
+      "byteCount": 5696,
+      "sha256": "32720cd378722e060362c9c81adc2502573c0e6effdf41dcca4c74a6677306ff"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/san-francisco/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/tech.md",
+      "byteCount": 5536,
+      "sha256": "7825e40cd19fc49a1fadeee1e0ad651bd7a0275ab8fb0593796511f901cc50ec"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/san-francisco/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/transport.md",
+      "byteCount": 5467,
+      "sha256": "b035d746d74c5b97c527bf3473b31012ff1538767f52d1398166d24f30988232"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/san-francisco/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-attractions.md",
+      "byteCount": 2649,
+      "sha256": "8c905b140f040709d65aaf64fac63a6e976ba994b2b746caa494efb9cde8717b"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/san-francisco/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-itineraries.md",
+      "byteCount": 3120,
+      "sha256": "c1b7e7003d34fff4d80e310ec69b1cb95b3ac8be3203188e5204586fce82398a"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/san-francisco/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-lodging.md",
+      "byteCount": 2361,
+      "sha256": "140fa003424f4c3837a1291a14de7e4c4349bb0fbf6617cd449d73cd84391ada"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/san-francisco/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/san-francisco/visitor-tips.md",
+      "byteCount": 3130,
+      "sha256": "eb2b09f5e6f6aad4063753a812af4f34c19dcfbfc158a953235d068f296efaed"
     }
   ]
 }

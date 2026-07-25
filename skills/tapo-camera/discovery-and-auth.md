@@ -33,7 +33,7 @@ Do not jump to repeated capture until a single state check succeeds.
 - Inject credentials from a secret manager or short-lived environment variables.
 - Never paste raw camera credentials into chat.
 - Treat `KASA_CREDENTIALS_HASH` as a secret-equivalent transport artifact, not as a safe public identifier.
-- Do not save credentials or authenticated URLs in `~/tapo-camera/`.
+- Do not save credentials or authenticated URLs in `~/Clawic/data/tapo-camera/`.
 
 ## Third-Party Compatibility
 

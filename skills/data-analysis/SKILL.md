@@ -1,11 +1,20 @@
 ---
-name: Data Analysis
+name: data-analysis
 slug: data-analysis
 version: 1.0.2
+description: Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) you need to analyze, visualize, or explain data; (2) the user wants reports, dashboards, or metrics turned into a decision; (3) the work involves SQL, Python, spreadsheets, BI tools, or notebooks; (4) you need to compare segments, cohorts, funnels, experiments, or time periods; (5) the user explicitly installs or references the skill for the current task.
 homepage: https://clawic.com/skills/data-analysis
-description: "Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) you need to analyze, visualize, or explain data; (2) the user wants reports, dashboards, or metrics turned into a decision; (3) the work involves SQL, Python, spreadsheets, BI tools, or notebooks; (4) you need to compare segments, cohorts, funnels, experiments, or time periods; (5) the user explicitly installs or references the skill for the current task."
 changelog: Added metric contracts, chart guidance, and decision brief templates for more reliable analysis.
-metadata: {"clawdbot":{"emoji":"D","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: D
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Data Analysis
 ---
 
 ## When to Use
@@ -152,7 +161,7 @@ This skill does NOT:
 - Rewrite its own instruction source files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `sql` - query design and review for reliable data extraction.
 - `csv` - cleanup and normalization for tabular inputs before analysis.
 - `dashboard` - implementation patterns for KPI visualization layers.
@@ -161,5 +170,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star data-analysis`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/data-analysis
+- Latest version: https://clawic.com/skills/data-analysis

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "98f74e87f0e24ab25e0d35cd15f75de69473cd7ec215fab8d2756113622e1084",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "contracts",
-    "name": "Contracts",
+    "name": "contracts",
     "description": "Organize, track, and analyze contracts with renewal alerts, clause lookups, and multi-role support for individuals, landlords, freelancers, and legal teams.",
-    "summary": "Role Manage all contracts in one place. Track dates, extract key terms, flag expiring items. Scale from personal subscriptions to enterprise contract libraries. --- Storage ``` ~/contracts/ ├── index.md # Master list wit",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/contracts",
+    "summary": "Role Manage all contracts in one place. Track dates, extract key terms, flag expiring items. Scale from personal subscriptions to enterprise contract libraries. --- Storage ``` ~/Clawic/data/contracts/ ├── index.md # Mas",
     "repositoryPath": "skills/contracts",
     "manifestPath": "registry/skills/contracts.json"
   },
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/contracts/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/_meta.json",
+      "byteCount": 170,
+      "sha256": "eed703232e7d8e704fb323216edd061be0528410aa4f75d351957ca23f81292e"
     },
     {
       "path": "alerts.md",
       "downloadPath": "skills/contracts/alerts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/alerts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/alerts.md",
+      "byteCount": 2670,
+      "sha256": "630aab2c3e6582f9c5e20bc370e73edd145adb134039008a9339aa5967cab672"
     },
     {
       "path": "analysis.md",
       "downloadPath": "skills/contracts/analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/analysis.md",
+      "byteCount": 2505,
+      "sha256": "ee6806529e65d1e6775eba4c988a568e68255647b6c0a63f77dd3218a1473408"
     },
     {
       "path": "roles.md",
       "downloadPath": "skills/contracts/roles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/roles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/roles.md",
+      "byteCount": 3272,
+      "sha256": "a6644a3f293f2a1d4571f0373a15d02dc58617effb5145052d3061ef39f2a5a2"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/contracts/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/security.md",
+      "byteCount": 3315,
+      "sha256": "b79c78a8f88f9489d9e039049a08b73f4ba1552673b8483c9c810c99ef920821"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/contracts/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/contracts/SKILL.md",
+      "byteCount": 3010,
+      "sha256": "c8feaffddb50dcc7be7eef7bd3016354bdc2ecf8844ac18a82d7773fdffd69ef"
     }
   ]
 }

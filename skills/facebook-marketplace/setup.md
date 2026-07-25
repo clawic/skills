@@ -1,6 +1,6 @@
 # Setup - Facebook Marketplace
 
-Use this file when `~/facebook-marketplace/` is missing or empty.
+Use this file when `~/Clawic/data/facebook-marketplace/` is missing or empty.
 
 ## Your Attitude
 
@@ -44,7 +44,7 @@ Save durable context, not chat transcripts:
 - repeated scam patterns, removed-listing causes, and appeal evidence habits
 - buyer or seller message patterns worth reusing
 
-Store data only in `~/facebook-marketplace/` after user consent.
+Store data only in `~/Clawic/data/facebook-marketplace/` after user consent.
 
 ## Golden Rule
 

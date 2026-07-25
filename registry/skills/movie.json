@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9228806c680043707e1a00d23cea4bd5faa7d447530eca03bb67f8d0434574b6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "movie",
-    "name": "Movie",
+    "name": "movie",
     "description": "Create films with AI video generation by managing scripts, prompts, consistency, and production workflows from concept to final cut.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/movie",
     "summary": "Core Workflow Every film follows: Script → Breakdown → Generation → Assembly → Polish. Before generating ANY video, establish: 1. **Style bible** — Visual language, color palette, lighting, grain 2. **Character sheets** ",
     "repositoryPath": "skills/movie",
     "manifestPath": "registry/skills/movie.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/movie/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/_meta.json",
+      "byteCount": 162,
+      "sha256": "0a718a3b40be7522fa2ff20e11f393e137f798c4b9b2b1dcb5e22589a7ddbe47"
     },
     {
       "path": "commercial.md",
       "downloadPath": "skills/movie/commercial.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/commercial.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/commercial.md",
+      "byteCount": 3378,
+      "sha256": "2d95bfb63544d39d16ad09a443c251299ec096c5d4b160b625dbb0e371748de6"
     },
     {
       "path": "experimental.md",
       "downloadPath": "skills/movie/experimental.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/experimental.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/experimental.md",
+      "byteCount": 4467,
+      "sha256": "a34b9581b860410db8458cc30b7404049aef9eb8bab298bcc7211d42d48d09a0"
     },
     {
       "path": "generation.md",
       "downloadPath": "skills/movie/generation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/generation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/generation.md",
+      "byteCount": 3700,
+      "sha256": "b805dde741a2e43dd5757677485fa7b11f14df6a660ce72234fe4388b114c86e"
     },
     {
       "path": "postproduction.md",
       "downloadPath": "skills/movie/postproduction.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/postproduction.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/postproduction.md",
+      "byteCount": 3400,
+      "sha256": "c6733938f4863bed0fe22682d3a0c3830d10fec2f474e145be8f83ac8a83c48b"
     },
     {
       "path": "preproduction.md",
       "downloadPath": "skills/movie/preproduction.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/preproduction.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/preproduction.md",
+      "byteCount": 2514,
+      "sha256": "a9ffa6d3337e9afe21e0ad33fbc2ddc4dfd5ef63468f2e6badd0ee99283aca6d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/movie/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/SKILL.md",
+      "byteCount": 2327,
+      "sha256": "250c0a2701e088f566e05b6acb315a99d188e0283b5ab4da6666a452f201a137"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/movie/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/movie/tools.md",
+      "byteCount": 2186,
+      "sha256": "9bc4865905c21671c9fda19d28bb14438f75ed172f716494d033765308afaec5"
     }
   ]
 }

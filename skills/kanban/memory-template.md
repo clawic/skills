@@ -1,6 +1,6 @@
 # Memory Template - Kanban
 
-Create `~/kanban/memory.md`:
+Create `~/Clawic/data/kanban/memory.md`:
 
 ```markdown
 # Kanban Memory
@@ -27,7 +27,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/kanban/index.md`:
+Create `~/Clawic/data/kanban/index.md`:
 
 ```markdown
 # Kanban Index
@@ -36,7 +36,7 @@ Create `~/kanban/index.md`:
 | project_id | aliases | workspace_root | board_mode | board_path | rules_path | log_path | last_used |
 |------------|---------|----------------|------------|------------|------------|----------|-----------|
 | api-core | backend, core-api | /abs/path/api-core | workspace-local | /abs/path/api-core/.kanban/board.md | /abs/path/api-core/.kanban/rules.md | /abs/path/api-core/.kanban/log.md | YYYY-MM-DD |
-| marketing | growth | - | home-shared | ~/kanban/projects/marketing/board.md | ~/kanban/projects/marketing/rules.md | ~/kanban/projects/marketing/log.md | YYYY-MM-DD |
+| marketing | growth | - | home-shared | ~/Clawic/data/kanban/projects/marketing/board.md | ~/Clawic/data/kanban/projects/marketing/rules.md | ~/Clawic/data/kanban/projects/marketing/log.md | YYYY-MM-DD |
 
 ## Resolution Order
 1. exact workspace_root match

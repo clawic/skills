@@ -1,12 +1,19 @@
 ---
-name: Follow
+name: follow
+slug: follow
+version: 1.0.0
 description: Monitor content from people, topics, and sources across platforms with smart filtering, tiered alerts, and searchable archives.
+homepage: https://clawic.com/skills/follow
+metadata:
+  clawdbot:
+    emoji: 👀
+    displayName: Follow
 ---
 
 ## Workspace
 
 ```
-~/follow/
+~/Clawic/data/follow/
 ├── sources/           # One file per followed entity
 │   ├── people/        # @naval.md, @dhh.md
 │   ├── topics/        # ai-safety.md, rust.md

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f42b9982422a7f831a65ade3edf07bcb44fb4dc495e765306951d3ed74095c51",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "zigbee",
-    "name": "Zigbee",
+    "name": "zigbee",
     "description": "Deploy and troubleshoot Zigbee mesh networks for home automation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/zigbee",
     "summary": "Mesh Network Traps - Battery devices don't route — only mains-powered devices extend mesh - Mesh needs routers every 10-15m — one coordinator alone has limited range - Adding routers requires rebuilding routes — devices ",
     "repositoryPath": "skills/zigbee",
     "manifestPath": "registry/skills/zigbee.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/zigbee/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zigbee/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zigbee/_meta.json",
+      "byteCount": 164,
+      "sha256": "b544c260323e45014778aaf3beb95ec72497a0f2609aa476cedaaff47b5a7f9d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/zigbee/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zigbee/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zigbee/SKILL.md",
+      "byteCount": 2944,
+      "sha256": "77cf2e089090955d89a2719c0b01182ea79c7c76a2fa801be8c064ac5558ac5c"
     }
   ]
 }

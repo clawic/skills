@@ -42,8 +42,9 @@ Reference for handling edge cases and common problems.
 
 2. **Check what triggered it**
    ```bash
-   npx clawhub inspect <slug> --files
+   npx clawic show <slug>
    ```
+   Or open the catalog page for the full file listing: `https://clawic.com/skills/<slug>`
 
 3. **Default to safer alternatives**
    > "I can recommend similar skills that are not flagged, then we pick the best match."
@@ -56,21 +57,31 @@ Reference for handling edge cases and common problems.
 
 **Possible causes:**
 - Typo in slug
-- Skill was deleted/hidden
+- Skill was deleted or hidden by its owner
 - Author changed the name
 - Skills.sh result points to a repo or skill path that changed
 
 **Solutions:**
 1. Search by description instead of exact name
-2. Check for similar names: `npx clawhub search "partial-name"`
+2. Check for similar names: `npx clawic search "partial-name"`
 3. Re-run `npx skills find [domain]` if the missing result came from Skills.sh
 4. The skill may have been replaced — search the domain
+
+## Slug Looks Right But Nothing Installs
+
+**What it means:** The slug matches part of a name, but `npx clawic show <slug>` or `npx clawic add <slug>` can't resolve it to a single catalog entry.
+
+**How to handle:**
+
+1. **Search again to confirm the exact slug** — `npx clawic search "<slug>"` and read the exact identifier from the result list
+2. **Cross-check against the catalog page** — `https://clawic.com/skills/<slug>` confirms the skill exists and shows the canonical slug
+3. **Use the exact slug returned by search**, not a guessed or shortened version, for `show`/`add`/`update`
 
 ## Conflicting Skills
 
 **Problem:** User wants a skill that overlaps with one already installed.
 
-**Detection:** Check `npx clawhub list` for existing skills in same domain.
+**Detection:** Check `npx clawic list` for existing skills in same domain.
 
 **Resolution:**
 1. **Explain the overlap**
@@ -82,7 +93,7 @@ Reference for handling edge cases and common problems.
 ## User Changed Their Mind
 
 **After installation:**
-- Uninstall: `npx clawhub uninstall <slug>`
+- Uninstall a Clawic skill: `npx clawic` has no uninstall command yet — delete the skill's folder from each installed agent directory (`.claude/skills/`, `.codex/skills/`, `.gemini/skills/`, etc., or the equivalent under `~/` if installed with `--global`)
 - Remove Skills.sh install: `npx skills remove <skill>`
 - Don't reinstall: Add to Passed in memory.md with reason
 
@@ -108,12 +119,12 @@ Reference for handling edge cases and common problems.
 2. Use the install command that belongs to that source only
 3. If needed, present an equivalent result from the other ecosystem instead
 
-> "This result is from Skills.sh, so the correct install path is `npx skills add owner/repo@skill`, not `clawhub install`."
+> "This result is from Skills.sh, so the correct install path is `npx skills add owner/repo@skill`, not `clawic add`."
 
 ## Memory Issues
 
 **Memory file corrupted or malformed:**
-1. Backup: `cp ~/skill-finder/memory.md ~/skill-finder/memory.md.bak`
+1. Backup: `cp ~/Clawic/data/skill-finder/memory.md ~/Clawic/data/skill-finder/memory.md.bak`
 2. Recreate from `memory-template.md`
 3. Ask user to re-state key preferences
 

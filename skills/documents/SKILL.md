@@ -1,7 +1,17 @@
 ---
-name: Documents
+name: documents
+slug: documents
+version: 1.0.0
 description: Build a personal document system for instant access to IDs, contracts, certificates, and important files.
-metadata: {"clawdbot":{"emoji":"📄","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/documents
+metadata:
+  clawdbot:
+    emoji: 📄
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Documents
 ---
 
 ## Core Behavior
@@ -56,7 +66,7 @@ January 14, 2030
 
 ## Location
 Physical: home safe
-Digital: ~/documents/scans/passport.pdf
+Digital: ~/Clawic/data/documents/scans/passport.pdf
 
 ## Notes
 Need 6 months validity for most travel

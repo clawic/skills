@@ -11,7 +11,7 @@ Use this loop whenever Hermes mode is active.
    - long-running project context
 
 2. Retrieve
-   - read `~/hermes-agent/memory.md`
+   - read `~/Clawic/data/hermes-agent/memory.md`
    - read only the smallest relevant supporting file
 
 3. Act

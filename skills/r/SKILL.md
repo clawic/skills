@@ -1,7 +1,20 @@
 ---
-name: R
+name: r
+slug: r
+version: 1.0.0
 description: Avoid common R mistakes — vectorization traps, NA propagation, factor surprises, and indexing gotchas.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["Rscript"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/r
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins:
+      - Rscript
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: R
 ---
 
 ## Vectorization

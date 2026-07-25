@@ -1,10 +1,10 @@
 # Memory Template — Naming
 
-Create `~/naming/` with these files on first persistent use:
+Create `~/Clawic/data/naming/` with these files on first persistent use:
 
 ```bash
-mkdir -p ~/naming/archive
-touch ~/naming/{memory.md,briefs.md,winners.md,collisions.md}
+mkdir -p ~/Clawic/data/naming/archive
+touch ~/Clawic/data/naming/{memory.md,briefs.md,winners.md,collisions.md}
 ```
 
 ## `memory.md`

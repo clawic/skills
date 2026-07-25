@@ -1,11 +1,24 @@
 ---
-name: Netlify Deploy
+name: netlify-deploy
 slug: netlify-deploy
 version: 1.0.0
-homepage: https://clawic.com/skills/netlify-deploy
 description: Deploy and manage Netlify sites with npx netlify, including auth, linking, preview deploys, production releases, and config checks.
+homepage: https://clawic.com/skills/netlify-deploy
 changelog: Initial release with authentication checks, link-or-create flow, and safer preview-to-production deployment guidance.
-metadata: {"clawdbot":{"emoji":"NET","requires":{"bins":["npx","git"],"config":["~/netlify-deploy/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: NET
+    requires:
+      bins:
+      - npx
+      - git
+      config:
+      - ~/Clawic/data/netlify-deploy/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Netlify Deploy
 ---
 
 ## Setup
@@ -18,11 +31,11 @@ User needs to deploy, host, publish, or relink a web project on Netlify from the
 
 ## Architecture
 
-Memory lives in `~/netlify-deploy/`.
+Memory lives in `~/Clawic/data/netlify-deploy/`.
 Use this local memory only for operational defaults so future deploy requests can start with the right safety assumptions.
 
 ```text
-~/netlify-deploy/
+~/Clawic/data/netlify-deploy/
 `- memory.md    # Preferred deploy mode, default project path, and common build settings
 ```
 
@@ -107,7 +120,7 @@ No other data is sent externally.
 
 **Data that stays local:**
 - Local source files and build scripts remain in your project unless you deploy.
-- Skill preferences stay in `~/netlify-deploy/memory.md`.
+- Skill preferences stay in `~/Clawic/data/netlify-deploy/memory.md`.
 
 **This skill does NOT:**
 - Store secrets inside skill files.
@@ -120,7 +133,7 @@ By using this skill, deployment data is sent to Netlify services.
 Only install if you trust Netlify with your project artifacts and deployment metadata.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ci-cd` - delivery pipeline design and release automation practices
 - `git` - branch hygiene and release-safe commit workflow
 - `deploy` - generic deployment planning across environments
@@ -128,5 +141,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star netlify-deploy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/netlify-deploy
+- Latest version: https://clawic.com/skills/netlify-deploy

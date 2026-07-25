@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3717171cc97931edaff4150c4978e95f5b226b8d50ab72126104f6efafcfe20c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "image-edit",
-    "name": "Image Editing",
+    "name": "image-edit",
     "description": "Edit images with AI inpainting, outpainting, background removal, upscaling, and restoration tools.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/image-edit",
     "summary": "AI Image Editing Help users edit and enhance images with AI tools. **Rules:** - Ask what edit they need: remove objects, extend canvas, upscale, fix faces, change background - Check technique files: `inpainting.md`, `out",
     "repositoryPath": "skills/image-edit",
     "manifestPath": "registry/skills/image-edit.json"
@@ -20,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/image-edit/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/_meta.json",
+      "byteCount": 175,
+      "sha256": "12c58e05d3d915b8600993c64b873b4466216e9a939e2dcba84bd614a11f1892"
     },
     {
       "path": "background-removal.md",
       "downloadPath": "skills/image-edit/background-removal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/background-removal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/background-removal.md",
+      "byteCount": 2237,
+      "sha256": "196c27c8ad332947851ebe04020c9217d000446034030acbc43684a56894bd79"
     },
     {
       "path": "inpainting.md",
       "downloadPath": "skills/image-edit/inpainting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/inpainting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/inpainting.md",
+      "byteCount": 2051,
+      "sha256": "ae4b37006b1310474e3f985fda237f4e61840fd368c91f95e0331a446160b324"
     },
     {
       "path": "outpainting.md",
       "downloadPath": "skills/image-edit/outpainting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/outpainting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/outpainting.md",
+      "byteCount": 2362,
+      "sha256": "a736b3adf4cac426fbb1c3f59621e15e9854b3996900283a997693a7635e237c"
     },
     {
       "path": "restoration.md",
       "downloadPath": "skills/image-edit/restoration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/restoration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/restoration.md",
+      "byteCount": 2858,
+      "sha256": "dda93b64c40b7947a46ebb65bd4f580d59b1180c7a30c865da9765ffc6949462"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/image-edit/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/SKILL.md",
+      "byteCount": 2923,
+      "sha256": "a608243a125bd0d780253c674bdf4b8e01c39d9ae100b7922588b89cf2bd81dc"
     },
     {
       "path": "style-transfer.md",
       "downloadPath": "skills/image-edit/style-transfer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/style-transfer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/style-transfer.md",
+      "byteCount": 2957,
+      "sha256": "cac87c139eb4c15d71e3d2198777c73c954c23b5dacad219e1f5868537f85461"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/image-edit/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/tools.md",
+      "byteCount": 2688,
+      "sha256": "1e7ef572b54837026cfa62a41337ded7d1a6651efe286d403d55fbfa1649e90a"
     },
     {
       "path": "upscaling.md",
       "downloadPath": "skills/image-edit/upscaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/upscaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image-edit/upscaling.md",
+      "byteCount": 2470,
+      "sha256": "60e2cf64a0f99210aaccc3fc356850c49cb2aa5efc8c302c8c8475f1fc789839"
     }
   ]
 }

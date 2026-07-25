@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "99995c3143de0f297b423e3bb2894e707432f669e7ddb92488c0b33795bf4af7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "argentina",
-    "name": "Argentina",
+    "name": "argentina",
     "description": "Plan Argentina trips with region-specific routing, money strategy, seasonal timing, and practical travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/argentina",
-    "summary": "Setup If `~/argentina/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Argentina trip and needs practical guidance beyond generic inspiration: entry rules, money and payme",
+    "summary": "Setup If `~/Clawic/data/argentina/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning an Argentina trip and needs practical guidance beyond generic inspiration: entry rules, mon",
     "repositoryPath": "skills/argentina",
     "manifestPath": "registry/skills/argentina.json"
   },
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/argentina/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/_meta.json",
+      "byteCount": 170,
+      "sha256": "bc53ea57b82376525395415d071e1ff47fcd25bc5454d2bfa7b26a7877b648d9"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/argentina/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/accessibility.md",
+      "byteCount": 968,
+      "sha256": "6ad0e2abf46dba0a0fa465fa5262afc222efda7290ec1b66bdb552af69c2fe03"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/argentina/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/accommodation.md",
+      "byteCount": 1397,
+      "sha256": "69e54635f70e1472d91159782cbe4c40baa8b45adbe2c5ce6a5a3df8996afabe"
     },
     {
       "path": "atlantic-coast-and-mar-del-plata.md",
       "downloadPath": "skills/argentina/atlantic-coast-and-mar-del-plata.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/atlantic-coast-and-mar-del-plata.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/atlantic-coast-and-mar-del-plata.md",
+      "byteCount": 695,
+      "sha256": "8a55d12c36ebb340990b6ff7f8241e0205f4ba7c026b28fced90b52828c5529e"
     },
     {
       "path": "border-hops-and-neighbor-countries.md",
       "downloadPath": "skills/argentina/border-hops-and-neighbor-countries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/border-hops-and-neighbor-countries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/border-hops-and-neighbor-countries.md",
+      "byteCount": 1192,
+      "sha256": "4d78c66808a49413ac74d0f1aad3207f6180fa3773ed3f5f0182099056643b07"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/argentina/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/budget-and-costs.md",
+      "byteCount": 1398,
+      "sha256": "095dabd7d856f8612c1a21e4a89caf0a682e7fb4e61c3944adc733cc72ad32fc"
     },
     {
       "path": "buenos-aires.md",
       "downloadPath": "skills/argentina/buenos-aires.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/buenos-aires.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/buenos-aires.md",
+      "byteCount": 1062,
+      "sha256": "cec9c0b839ac8b7c6b5779f031dfbaaf6e01597902bc7de102e52c59d6cdd1b6"
     },
     {
       "path": "cordoba-and-central-argentina.md",
       "downloadPath": "skills/argentina/cordoba-and-central-argentina.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/cordoba-and-central-argentina.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/cordoba-and-central-argentina.md",
+      "byteCount": 638,
+      "sha256": "c03dedd894e07fa9ff9a4658b2a2d01d6a5b9e7d2545a524e521319cebd8add4"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/argentina/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/customs-and-border.md",
+      "byteCount": 1592,
+      "sha256": "52bd0734590a9766a95f6d4a776ae71a11424028bccd35d0ecd55ccfb3f4706e"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/argentina/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/entry-and-documents.md",
+      "byteCount": 1657,
+      "sha256": "177fb68ef50f3a0375d021029d17723aa61d38ba70ab7c6675917c351c91457c"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/argentina/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/family-travel.md",
+      "byteCount": 903,
+      "sha256": "ad53d9fff48be34f53e6aa11f14e26a1f5715999c8f134a2ad3d13e7732a3b89"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/argentina/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/food-guide.md",
+      "byteCount": 856,
+      "sha256": "a5dee04d52778749f2dc70a041d3dad23d09e20e7678c18e1bd65ae373beeb95"
     },
     {
       "path": "iguazu-and-misiones.md",
       "downloadPath": "skills/argentina/iguazu-and-misiones.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/iguazu-and-misiones.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/iguazu-and-misiones.md",
+      "byteCount": 1089,
+      "sha256": "0d69fc6f03e4b416bc136c08dea532cef2b0c9dba365d8d91306c635e03556bd"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/argentina/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/itineraries.md",
+      "byteCount": 1597,
+      "sha256": "cbe224475e8fc71b5152c8cd843036f8367f322f02301d916cb2a0ba4b397baa"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/argentina/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/memory-template.md",
+      "byteCount": 1748,
+      "sha256": "4a3e5079ad56cbaeb0f5704c1b5080c828d15fea7cb59db9041ce8578d4ce934"
     },
     {
       "path": "mendoza-and-wine-country.md",
       "downloadPath": "skills/argentina/mendoza-and-wine-country.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/mendoza-and-wine-country.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/mendoza-and-wine-country.md",
+      "byteCount": 1042,
+      "sha256": "46efad5e05d1986f1c97be9096ff03d573a03553f2c6e5e8695d3222977bf0f5"
     },
     {
       "path": "money-payments-and-exchange.md",
       "downloadPath": "skills/argentina/money-payments-and-exchange.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/money-payments-and-exchange.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/money-payments-and-exchange.md",
+      "byteCount": 1849,
+      "sha256": "3764dcae0a364a445b03d5f7bc8fc3207a0ce8a02ab35d8621c4024452beb79f"
     },
     {
       "path": "national-parks-and-nature.md",
       "downloadPath": "skills/argentina/national-parks-and-nature.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/national-parks-and-nature.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/national-parks-and-nature.md",
+      "byteCount": 1441,
+      "sha256": "58336c95d71fb0f9c759494e281b0eca27bdd80ea82d72a36d490296ec9b323b"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/argentina/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/nightlife.md",
+      "byteCount": 835,
+      "sha256": "fde9b88df6533d95a544ac23605cd3fc01b729d1a7400bddae3e78658654d28b"
     },
     {
       "path": "patagonia-lakes.md",
       "downloadPath": "skills/argentina/patagonia-lakes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/patagonia-lakes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/patagonia-lakes.md",
+      "byteCount": 928,
+      "sha256": "724327bab01183ae2ffc7fe35dfa11666c5bc9e75526e725a375e5f721152efe"
     },
     {
       "path": "patagonia-south.md",
       "downloadPath": "skills/argentina/patagonia-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/patagonia-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/patagonia-south.md",
+      "byteCount": 1045,
+      "sha256": "7a92d7fbe50d4bb7c0c6f304f4068a394d0d4ee3f6c51c5a15d9d5c67f73ca02"
     },
     {
       "path": "peninsula-valdes-and-puerto-madryn.md",
       "downloadPath": "skills/argentina/peninsula-valdes-and-puerto-madryn.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/peninsula-valdes-and-puerto-madryn.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/peninsula-valdes-and-puerto-madryn.md",
+      "byteCount": 693,
+      "sha256": "51431254e2b2ef6e8d11d79fcbd3653b828f03a548b1958ca16d4d382366ca4a"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/argentina/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/regions.md",
+      "byteCount": 1973,
+      "sha256": "f5550d71769ccab1d472576165998ca03a1d00019d65f9da196bcd965210c6f2"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/argentina/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/road-trips-and-driving.md",
+      "byteCount": 1085,
+      "sha256": "2df86456c4e934477a4190a17ea840cb9864eb682f2b5ee0f664484cc00a6c91"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/argentina/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/safety-and-emergencies.md",
+      "byteCount": 1128,
+      "sha256": "6d1e192cd439e358943c1f91d05a5ff9fb6d3df55b6598766824fb80195618d8"
     },
     {
       "path": "salta-and-jujuy.md",
       "downloadPath": "skills/argentina/salta-and-jujuy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/salta-and-jujuy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/salta-and-jujuy.md",
+      "byteCount": 846,
+      "sha256": "fa2903276e66a566f812ce370700a69713e145cc47ab9b161d34ded9d3391a9a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/argentina/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/setup.md",
+      "byteCount": 2332,
+      "sha256": "e35a5c16b9bd82f9e2da28b841455dd391f0a81b482526674929b42652360db4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/argentina/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/SKILL.md",
+      "byteCount": 6112,
+      "sha256": "222fc5e1f464909cc750d11481eb4e580f3bf930e55d8bc6a5838cfcafdf3fe8"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/argentina/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/sources.md",
+      "byteCount": 3374,
+      "sha256": "7695fa51222ce854173d5f49ceb0f52d82e7e28f5e558de1ab371f5d077e0aa5"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/argentina/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/telecoms-and-apps.md",
+      "byteCount": 793,
+      "sha256": "748123d060b96ecd0ae3fef6eec1f1883eaf91fa20c5feea6bccb1586299d705"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/argentina/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/transport-domestic.md",
+      "byteCount": 1682,
+      "sha256": "b0abe24278c918a3fcae91d35f8fb45ccc85c3de3bae55a1c92008fa6e16f9e9"
     },
     {
       "path": "ushuaia-and-tierra-del-fuego.md",
       "downloadPath": "skills/argentina/ushuaia-and-tierra-del-fuego.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/ushuaia-and-tierra-del-fuego.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/ushuaia-and-tierra-del-fuego.md",
+      "byteCount": 919,
+      "sha256": "8df3e3b98990a4f86c6b1dbe5c13cc8735facfc3922e147a632487155ca8d368"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/argentina/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/argentina/weather-and-seasonality.md",
+      "byteCount": 1203,
+      "sha256": "0b4b6588d4d2b397fb611ee26ff4d6eeabc8cbb8bd9e3b17b10cce1095b4712c"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3d1b288d64024714a936701b02457d646b2babbaba15637cc6235ab73e4e4459",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "madeira",
-    "name": "Madeira",
+    "name": "madeira",
     "description": "Navigate Madeira as visitor, digital nomad, or resident with neighborhoods, levadas, costs, visas, and local insights for the Atlantic island.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/madeira",
@@ -22,167 +25,233 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/madeira/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/_meta.json",
+      "byteCount": 166,
+      "sha256": "65797d0edf1c8f946d7892af442175627627ea81ba4fe3ec19cd58b3fb472dc4"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/madeira/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/climate.md",
+      "byteCount": 6856,
+      "sha256": "f80b6a7dc7c325fd35bfdb01cf2b15d8118ee97663adbe064dc6ed6dac6fc261"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/madeira/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/cost.md",
+      "byteCount": 6719,
+      "sha256": "7439d3d3925e81fc7df57580f331b4b11a2e8511eaeda3e03f7383b6091cd8a2"
     },
     {
       "path": "food-drinks.md",
       "downloadPath": "skills/madeira/food-drinks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-drinks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-drinks.md",
+      "byteCount": 6009,
+      "sha256": "b50804689356e07f3c0c66a6dfb91104fe0b70382bd5ca22d60601840f3d6380"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/madeira/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-local.md",
+      "byteCount": 5754,
+      "sha256": "2559f2ccf23e9a7895a1f9f373d7163d21a67217dd4afe2e1752708beeba7040"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/madeira/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-overview.md",
+      "byteCount": 5953,
+      "sha256": "0f4c52ad4e8bd37440e688bc46cc9812897a2f91bfa0968bf51a53d17af49748"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/madeira/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-practical.md",
+      "byteCount": 6617,
+      "sha256": "da947db376e0c70bc48ad1e80fbf8abc28eb04e7a396af1a2a122c4f02ce3b27"
     },
     {
       "path": "food-restaurants.md",
       "downloadPath": "skills/madeira/food-restaurants.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-restaurants.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/food-restaurants.md",
+      "byteCount": 5750,
+      "sha256": "14f4296d43a6f103149275ca84da7457dca9b836229f5fe8046b1ac1ef27c83f"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/madeira/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/local.md",
+      "byteCount": 6872,
+      "sha256": "f98be5c99a40e0837a4fa1f925359d33bcf34f12bbda7214450d0dcf124da2f4"
     },
     {
       "path": "nature-beaches.md",
       "downloadPath": "skills/madeira/nature-beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-beaches.md",
+      "byteCount": 6522,
+      "sha256": "956a9b4cd7a1cf91ec1eeb97bf52f61d2929a090f468b59e2c195f0da146489c"
     },
     {
       "path": "nature-gardens.md",
       "downloadPath": "skills/madeira/nature-gardens.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-gardens.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-gardens.md",
+      "byteCount": 6069,
+      "sha256": "3d3bb89f2f3ae59453dbf07e708d747a94172fa728f372318b7b9f95068b0fef"
     },
     {
       "path": "nature-levadas.md",
       "downloadPath": "skills/madeira/nature-levadas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-levadas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-levadas.md",
+      "byteCount": 7077,
+      "sha256": "c9f080bf3fc429388fcf42fa71ec87896e9e124007755593038bd5cb50d341d5"
     },
     {
       "path": "nature-mountains.md",
       "downloadPath": "skills/madeira/nature-mountains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-mountains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nature-mountains.md",
+      "byteCount": 6178,
+      "sha256": "70b27ce959c365dcc02a730754294757a66822cefd61672ad1508d0f8e0c69ae"
     },
     {
       "path": "nomad-coworking.md",
       "downloadPath": "skills/madeira/nomad-coworking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad-coworking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad-coworking.md",
+      "byteCount": 5375,
+      "sha256": "962afa11d7f73603c0fd36128e0e663b062ee9cdb1c8041419787972bcb56c77"
     },
     {
       "path": "nomad-internet.md",
       "downloadPath": "skills/madeira/nomad-internet.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad-internet.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad-internet.md",
+      "byteCount": 6527,
+      "sha256": "64db4466248cbf151cab34465f22add641b6e2a8180642954ead18b190260357"
     },
     {
       "path": "nomad.md",
       "downloadPath": "skills/madeira/nomad.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/nomad.md",
+      "byteCount": 8065,
+      "sha256": "9fcd55990059e1690af02a0df1d51600ade31d85e4f0b704eb48a0920b1db3dc"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/madeira/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/resident.md",
+      "byteCount": 8620,
+      "sha256": "1614a74e6edc61e5d06e738e4fbb5dd6043e0e2e426e801eb6878c8d4117f495"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/madeira/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/safety.md",
+      "byteCount": 7460,
+      "sha256": "048deedf6a936ea15466c9d2b893ba3953ed0958da5069ddbfdd67b868d7b934"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/madeira/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/SKILL.md",
+      "byteCount": 8455,
+      "sha256": "addf2b9cf35fbf0afaf46cab1fd1f5fa780ec1651f7b026deb00f71f51ebb200"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/madeira/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/transport.md",
+      "byteCount": 7194,
+      "sha256": "d291d73223c6b5881e39208d73d63068fd4463b4f5df2b1503e98c57e462eb12"
     },
     {
       "path": "visas-eu.md",
       "downloadPath": "skills/madeira/visas-eu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-eu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-eu.md",
+      "byteCount": 5576,
+      "sha256": "dec7e6744d9f0fd3a86b8ff2894391a785abe56345dc49a63ac552926e112501"
     },
     {
       "path": "visas-non-eu.md",
       "downloadPath": "skills/madeira/visas-non-eu.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-non-eu.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-non-eu.md",
+      "byteCount": 7063,
+      "sha256": "3508dfca154f56546b576c82df439d051b72cf7155a95e90b344659a58e8812b"
     },
     {
       "path": "visas-tax.md",
       "downloadPath": "skills/madeira/visas-tax.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-tax.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visas-tax.md",
+      "byteCount": 6739,
+      "sha256": "b808108d0c196e3b2f3b0b0c4001f9e89e0b007fbcb59cdd2085a7da7ae3a51f"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/madeira/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-attractions.md",
+      "byteCount": 5501,
+      "sha256": "cb867e1820cadbb82a50ebc81b2c72e880ff278f2463a3aecab1c54363ac5732"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/madeira/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-itineraries.md",
+      "byteCount": 5560,
+      "sha256": "0b34957a05891d93888452be5000a13331a8971d3e57717339b1bb7761f02587"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/madeira/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-lodging.md",
+      "byteCount": 6102,
+      "sha256": "1095a40b52a4a08296b68ee184db190e5d26e22ea95e7c3f017e082a8c35d93b"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/madeira/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/visitor-tips.md",
+      "byteCount": 6197,
+      "sha256": "e72947be18da36bdec39840257ce16873a186f31d13e26f70f97548f4c5011d2"
     },
     {
       "path": "zones-choosing.md",
       "downloadPath": "skills/madeira/zones-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-choosing.md",
+      "byteCount": 5489,
+      "sha256": "97bc18e69653898c191c2087892340f28c7c2ced25dab0daecb8ed4996416ba8"
     },
     {
       "path": "zones-east.md",
       "downloadPath": "skills/madeira/zones-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-east.md",
+      "byteCount": 4933,
+      "sha256": "56a2de9dbeb33dbdc4b33f0f2d549715c139e6c14f8ae32f7cb6408094425ac0"
     },
     {
       "path": "zones-funchal.md",
       "downloadPath": "skills/madeira/zones-funchal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-funchal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-funchal.md",
+      "byteCount": 4766,
+      "sha256": "af989e17be8dd471d0fa6586f7150e98e47105d068a95e9a975f57e44cf05aef"
     },
     {
       "path": "zones-index.md",
       "downloadPath": "skills/madeira/zones-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-index.md",
+      "byteCount": 3760,
+      "sha256": "8945fc713e2aa87b9c6177c70c379ca57a73aeb3ee540b5e6a60f05d7e6958db"
     },
     {
       "path": "zones-north.md",
       "downloadPath": "skills/madeira/zones-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-north.md",
+      "byteCount": 6575,
+      "sha256": "b4bcd2b61420219ad59827ca5449b122eee8f98cdc879e10b0618f4a4941973a"
     },
     {
       "path": "zones-west.md",
       "downloadPath": "skills/madeira/zones-west.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-west.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/madeira/zones-west.md",
+      "byteCount": 5664,
+      "sha256": "86df8bcfd41fdf9c9a2f6b92c996d37de6fcfc99e2b5c76b29a68517ba4530f7"
     }
   ]
 }

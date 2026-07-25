@@ -1,6 +1,13 @@
 ---
-name: Taste
+name: taste
+slug: taste
+version: 1.0.0
 description: Develop refined aesthetic judgment by learning from human feedback, asking genuine questions about quality, and calibrating over time.
+homepage: https://clawic.com/skills/taste
+metadata:
+  clawdbot:
+    emoji: 👅
+    displayName: Taste
 ---
 
 ## Core Principle — Learn From the Human
@@ -17,7 +24,7 @@ Taste is learned through exposure + feedback. The human provides both.
 
 ## Workspace
 
-Store taste learning in ~/taste/:
+Store taste learning in ~/Clawic/data/taste/:
 - **corrections/** — Each time human corrects your judgment
 - **preferences/** — Human's stated aesthetic preferences by domain
 - **patterns/** — Extracted rules from accumulated corrections

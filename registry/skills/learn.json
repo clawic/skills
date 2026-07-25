@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "34bb60e432d10217884ef1ed4bca7e9970ebf6f2b0703f8ddda0a6d095806119",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "learn",
-    "name": "Learn",
+    "name": "learn",
     "description": "Structure and track learning with spaced repetition and active recall across any domain.",
     "version": "1.0.2",
-    "summary": "Data Storage ``` ~/learn/ ├── topics/ # One folder per topic │ └── {topic}/ │ ├── concepts.json # Concepts with SR schedule │ ├── notes.md # Study notes │ └── progress.md # Mastery tracking ├── reviews/ # Due review queu",
+    "homepage": "https://clawic.com/skills/learn",
+    "summary": "Data Storage ``` ~/Clawic/data/learn/ ├── topics/ # One folder per topic │ └── {topic}/ │ ├── concepts.json # Concepts with SR schedule │ ├── notes.md # Study notes │ └── progress.md # Mastery tracking ├── reviews/ # Due",
     "repositoryPath": "skills/learn",
     "manifestPath": "registry/skills/learn.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/learn/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/_meta.json",
+      "byteCount": 238,
+      "sha256": "112bf4adcccf4223c491568593ebd50ecd13986cbad74045579fdd5605ddb285"
     },
     {
       "path": "cognition.md",
       "downloadPath": "skills/learn/cognition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/cognition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/cognition.md",
+      "byteCount": 1354,
+      "sha256": "27487a3315ca14f6e22334ad9a6c49dd4f039b7e2b98fe5a956d1080c0be3521"
     },
     {
       "path": "retention.md",
       "downloadPath": "skills/learn/retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/retention.md",
+      "byteCount": 1469,
+      "sha256": "6aa8c62d71f2f5f91f73405ebdfd24982435ffc410383286354a48c8c314802b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/learn/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/SKILL.md",
+      "byteCount": 2497,
+      "sha256": "d35a8067355251d8fde6043439a5a9621ae8c8057e9e8782e12169b9105fab6d"
     },
     {
       "path": "verification.md",
       "downloadPath": "skills/learn/verification.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/verification.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/verification.md",
+      "byteCount": 1683,
+      "sha256": "6e5eb58e26dcb266677adfdf78c889ba3b11005327db3ab07ee739041daa498b"
     }
   ]
 }

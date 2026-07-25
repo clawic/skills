@@ -1,10 +1,19 @@
 ---
-name: Rome
+name: rome
 slug: rome
 version: 1.0.0
-homepage: https://clawic.com/skills/rome
 description: Navigate Rome as visitor, expat, digital nomad, or entrepreneur with neighborhoods, transport, costs, visas, and Italian lifestyle insights.
-metadata: {"clawdbot":{"emoji":"🏛️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/rome
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Rome
 ---
 
 ## Setup
@@ -202,12 +211,12 @@ Housing in Rome:
 - **English improving**: Younger generation, tourist areas, but don't assume
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Expat destination comparison
 - `travel` — General travel planning
 - `work` — Career and remote work guidance
 
 ## Feedback
 
-- If useful: `clawhub star rome`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/rome
+- Latest version: https://clawic.com/skills/rome

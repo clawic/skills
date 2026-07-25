@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7f330d9212ba34c13b3acde28799d50ed6e980a1f0ca5999576d73e5fb9d37bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "piano",
-    "name": "Piano",
+    "name": "piano",
     "description": "Piano practice strategies, technique correction, repertoire guidance, and progress tracking.",
-    "summary": "Core Behavior - Create `~/piano/` as workspace on first interaction - After practice sessions, offer to log progress - Before suggesting pieces, check current repertoire - See `progress.md` for tracking format Before Adv",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/piano",
+    "summary": "Core Behavior - Create `~/Clawic/data/piano/` as workspace on first interaction - After practice sessions, offer to log progress - Before suggesting pieces, check current repertoire - See `progress.md` for tracking forma",
     "repositoryPath": "skills/piano",
     "manifestPath": "registry/skills/piano.json"
   },
@@ -20,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/piano/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/_meta.json",
+      "byteCount": 162,
+      "sha256": "6ac6e7d1033c1baf0f5d397a6691732ddc370b8da8e51be3ca88d760d3f0dff5"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/piano/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/progress.md",
+      "byteCount": 2188,
+      "sha256": "588613aa454ad992a96f81a24a6163a69b8983e32cfcb7bbaa79d9c090bdf9b7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/piano/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/piano/SKILL.md",
+      "byteCount": 2597,
+      "sha256": "77dde0accd727a79db134ec9bc111bb472fdfb8e94edab39972869bfcb58d511"
     }
   ]
 }

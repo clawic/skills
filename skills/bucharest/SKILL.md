@@ -1,10 +1,19 @@
 ---
-name: Bucharest
+name: bucharest
 slug: bucharest
 version: 1.0.0
-homepage: https://clawic.com/skills/bucharest
 description: Navigate Bucharest as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏛️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bucharest
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bucharest
 ---
 
 ## When to Use
@@ -161,17 +170,17 @@ See `safety.md` for comprehensive guidance.
 ## Architecture
 
 ```
-~/bucharest/
+~/Clawic/data/bucharest/
 ├── memory.md          # User profile and history
 ```
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Middle East city guide with practical relocation insights
 - `toronto` — North American city guide with immigration focus
 - `travel` — General travel planning and itineraries
 
 ## Feedback
 
-- If useful: `clawhub star bucharest`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/bucharest
+- Latest version: https://clawic.com/skills/bucharest

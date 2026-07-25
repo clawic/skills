@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "aa9e1e0a3c3525e285998ca40f8995830fb88d8e2adec3530568a8e446a72417",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,14 +23,18 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/startup/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/startup/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/_meta.json",
+      "byteCount": 316,
+      "sha256": "debfcfbb51413825b46066c07b06706ceda0b1767f76da4df0c17ce105ca6973"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/startup/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/SKILL.md",
+      "byteCount": 13112,
+      "sha256": "7887a7527168c68ced7a710ffb89490b23d7aedc0c3e9aee49fa9fd4d9a0f978"
     }
   ]
 }

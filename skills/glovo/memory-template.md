@@ -1,6 +1,6 @@
 # Memory Template - Glovo
 
-Create `~/glovo/memory.md` with this structure:
+Create `~/Clawic/data/glovo/memory.md` with this structure:
 
 ```markdown
 # Glovo Memory

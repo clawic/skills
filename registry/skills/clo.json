@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6719b57f38a5abd873c3e1ac254a7b8f66056b6dc164522a1b41f77ddbaca1f7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "clo",
-    "name": "CLO / Chief Legal Officer",
+    "name": "clo",
     "description": "Navigate legal strategy with contracts, compliance, IP protection, and corporate governance.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/clo",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/clo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/_meta.json",
+      "byteCount": 256,
+      "sha256": "20270529ce27637ff3542b32557e49289e2a945c01bbe5b5c913091974f90160"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/clo/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/compliance.md",
+      "byteCount": 3176,
+      "sha256": "54e88e562198539f6f2e4af494001b096489b22bc002957eaf946c4f417505d9"
     },
     {
       "path": "contracts.md",
       "downloadPath": "skills/clo/contracts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/contracts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/contracts.md",
+      "byteCount": 2647,
+      "sha256": "f68095dd444ed5de64a909c5aefee596373e50c7cf4e403254f578a6980ae6a0"
     },
     {
       "path": "governance.md",
       "downloadPath": "skills/clo/governance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/governance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/governance.md",
+      "byteCount": 3686,
+      "sha256": "3ca8a7ebcdfdd4666d63b5b824705ff82e319077e9a5187999e2ad900c5e09e4"
     },
     {
       "path": "ip.md",
       "downloadPath": "skills/clo/ip.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/ip.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/ip.md",
+      "byteCount": 3311,
+      "sha256": "d67e9ad0525939de5b7806f5ee1184e56a3f4cdd48b88a0d64ede2d3c10e67a5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/clo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clo/SKILL.md",
+      "byteCount": 3199,
+      "sha256": "b7a8b0c6bc0279d466aceaf8592b48a5b5ea222982b2611d1397e622192bdd81"
     }
   ]
 }

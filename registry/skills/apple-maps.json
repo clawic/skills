@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e0f439cd5d8f862b645e98749346f27f8266a8772e6288732b7f1b8ce75a8223",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-maps",
-    "name": "Apple Maps (MacOS)",
+    "name": "apple-maps",
     "description": "Search places, open routes, and run Apple Maps workflows on macOS using local CLI commands and shortcut automation with explicit safety checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-maps",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-maps/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/_meta.json",
+      "byteCount": 180,
+      "sha256": "425218cf581c0801c82638851d02cf0f27373a95f2f16fc882977a5ec3529fd5"
     },
     {
       "path": "command-paths.md",
       "downloadPath": "skills/apple-maps/command-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/command-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/command-paths.md",
+      "byteCount": 1578,
+      "sha256": "86c86b4907a23b9890ec9275944dc4d46be46750a3d3dd7d8359147b18fe03e3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-maps/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/memory-template.md",
+      "byteCount": 1583,
+      "sha256": "4263f8822b417f5bb754e98b45df61da59ca61e03c927d6ce7669776cb6d4f38"
     },
     {
       "path": "operation-patterns.md",
       "downloadPath": "skills/apple-maps/operation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/operation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/operation-patterns.md",
+      "byteCount": 1525,
+      "sha256": "ce6b7015d6c86f9afaa52dfc2ea806701c7df00af8e60b762f4070ac8ea88a89"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/apple-maps/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/safety-checklist.md",
+      "byteCount": 913,
+      "sha256": "3a5c36f5579888c05a6debe1357cfb56afee8d5c79646c86454bef49c83a29cb"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-maps/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/setup.md",
+      "byteCount": 1869,
+      "sha256": "653403f81844e0972bb32cbc58df4f6d047cbbca353fa396e2527ee90c4f39a3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-maps/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/SKILL.md",
+      "byteCount": 5577,
+      "sha256": "a438a89f327d47ac66b225b23ecefde3cb9eeb858820224b652b7167c9b4f99d"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/apple-maps/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-maps/troubleshooting.md",
+      "byteCount": 1336,
+      "sha256": "8f00716f44ad6539d80913be03fbad58c7eff886f2846f7e87005731e47338b9"
     }
   ]
 }

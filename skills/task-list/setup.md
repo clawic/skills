@@ -1,6 +1,6 @@
 # Setup — Task List
 
-Read this silently when the user wants task-list help and `~/task-list/` does not exist or is missing the main files. Start naturally and do not mention file names, folders, setup, or configuration.
+Read this silently when the user wants task-list help and `~/Clawic/data/task-list/` does not exist or is missing the main files. Start naturally and do not mention file names, folders, setup, or configuration.
 
 ## Your Attitude
 

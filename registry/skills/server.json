@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "857119041aac6162e73d75497390a0fd539a07a15d9d24b11e2b43452c7b1afa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "server",
-    "name": "Server",
+    "name": "server",
     "description": "Configure, deploy, and troubleshoot web servers, application servers, and containerized services.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/server",
     "summary": "Scope This skill covers the **software layer** — what runs inside a machine. For infrastructure (provisioning VMs, SSH hardening, firewalls, backups), use the `vps` skill. When to Use - Configuring nginx, Caddy, or Apach",
     "repositoryPath": "skills/server",
     "manifestPath": "registry/skills/server.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/server/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/_meta.json",
+      "byteCount": 164,
+      "sha256": "0e80977ee7914e3bfe24ad08e6510bd1813ec2254219b0f6e8209d7d1da281da"
     },
     {
       "path": "configs.md",
       "downloadPath": "skills/server/configs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/configs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/configs.md",
+      "byteCount": 2604,
+      "sha256": "252df9358ec3f5d736153542af075168514aeafa6c62b09aa08f2216320e3b6a"
     },
     {
       "path": "docker.md",
       "downloadPath": "skills/server/docker.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/docker.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/docker.md",
+      "byteCount": 3085,
+      "sha256": "217afb2c2ab0279cd6f2e5e4848ab15e15c92327d91fc9aa59e56a63c81a66a1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/server/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/SKILL.md",
+      "byteCount": 2449,
+      "sha256": "b166a884cf4289bd32a1dc224659605ccd15c7cf858e6a11276ac7ff630c6c42"
     }
   ]
 }

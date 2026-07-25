@@ -132,5 +132,5 @@ Wrong questions return for review:
 1. Score immediately
 2. Review all errors same day
 3. Categorize error types
-4. Update weak area priorities in ~/toefl/sections/
+4. Update weak area priorities in ~/Clawic/data/toefl/sections/
 5. Adjust study plan if needed

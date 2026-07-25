@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "95424826d328c74968afa715033a1f3ee565aea129fb2a772e9b29ff6f676ea5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "report",
-    "name": "Report",
+    "name": "report",
     "description": "Configure custom recurring reports. User defines data sources, skill handles scheduling and formatting.",
     "version": "1.0.3",
-    "summary": "Data Storage ``` ~/report/ ├── memory.md # Index + preferences ├── {name}/ │ ├── config.md # Report configuration │ ├── data.jsonl # Historical data │ └── generated/ # Past reports ``` Create on first use: `mkdir -p ~/re",
+    "homepage": "https://clawic.com/skills/report",
+    "summary": "Data Storage ``` ~/Clawic/data/report/ ├── memory.md # Index + preferences ├── {name}/ │ ├── config.md # Report configuration │ ├── data.jsonl # Historical data │ └── generated/ # Past reports ``` Create on first use: `m",
     "repositoryPath": "skills/report",
     "manifestPath": "registry/skills/report.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/report/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/_meta.json",
+      "byteCount": 388,
+      "sha256": "d5bc1f947fd3a32570875185014309e4744032606fde96aa6f5886abe9630d09"
     },
     {
       "path": "delivery.md",
       "downloadPath": "skills/report/delivery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/delivery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/delivery.md",
+      "byteCount": 2039,
+      "sha256": "fe4938bfeec921ce9eda57844e35b6807ce672357afd2bb55c0840fc0847140c"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/report/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/formats.md",
+      "byteCount": 1977,
+      "sha256": "c400666e8792be05f4c6faec5cb86635f2cedda6e3d7161c217931381638b1d5"
     },
     {
       "path": "schema.md",
       "downloadPath": "skills/report/schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/schema.md",
+      "byteCount": 2869,
+      "sha256": "3078d746b63d3a2616050e5baf1b77a8c9ae98afe7afb72daa3b414d3c8d3274"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/report/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/report/SKILL.md",
+      "byteCount": 3399,
+      "sha256": "b6c67093482b0b2606e8e2fcdd64b8cac6d2eb81e790f2c6444f1f412da71ba3"
     }
   ]
 }

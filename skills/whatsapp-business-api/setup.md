@@ -37,7 +37,7 @@ Key IDs to collect:
 
 ## Memory Storage
 
-Store context in `~/whatsapp-business-api/memory.md`:
+Store context in `~/Clawic/data/whatsapp-business-api/memory.md`:
 - Their primary use case (support, notifications, marketing)
 - Business type if mentioned
 - Phone numbers registered

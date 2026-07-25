@@ -1,6 +1,6 @@
 # Memory Template - Tinder
 
-Create `~/tinder/memory.md` with this structure:
+Create `~/Clawic/data/tinder/memory.md` with this structure:
 
 ```markdown
 # Tinder Memory
@@ -40,7 +40,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/tinder/profile-notes.md`:
+Create `~/Clawic/data/tinder/profile-notes.md`:
 
 ```markdown
 # Profile Notes
@@ -55,7 +55,7 @@ Create `~/tinder/profile-notes.md`:
 - Next test:
 ```
 
-Create `~/tinder/matches.md`:
+Create `~/Clawic/data/tinder/matches.md`:
 
 ```markdown
 # Matches
@@ -68,7 +68,7 @@ Create `~/tinder/matches.md`:
 - Recommended next move:
 ```
 
-Create `~/tinder/experiments.md`:
+Create `~/Clawic/data/tinder/experiments.md`:
 
 ```markdown
 # Experiments
@@ -80,7 +80,7 @@ Create `~/tinder/experiments.md`:
 - Keep or revert:
 ```
 
-Create `~/tinder/dates.md`:
+Create `~/Clawic/data/tinder/dates.md`:
 
 ```markdown
 # Dates
@@ -93,7 +93,7 @@ Create `~/tinder/dates.md`:
 - Risk or hesitation:
 ```
 
-Create `~/tinder/goals.md`:
+Create `~/Clawic/data/tinder/goals.md`:
 
 ```markdown
 # Goals

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3d194170ca6bfbccfd5db3fbe27fd99b3d41cdfe37dac778349e56f1180a0c4e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "keras",
-    "name": "Keras",
+    "name": "keras",
     "description": "Build, train, and debug deep learning models with Keras patterns, layer recipes, and training diagnostics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/keras",
-    "summary": "Setup On first use, check `setup.md` for integration guidelines. The skill stores preferences in `~/keras/` when the user confirms. When to Use User builds neural networks with Keras or TensorFlow. Agent handles model ar",
+    "summary": "Setup On first use, check `setup.md` for integration guidelines. The skill stores preferences in `~/Clawic/data/keras/` when the user confirms. When to Use User builds neural networks with Keras or TensorFlow. Agent hand",
     "repositoryPath": "skills/keras",
     "manifestPath": "registry/skills/keras.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/keras/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/_meta.json",
+      "byteCount": 162,
+      "sha256": "b44fab973b3911baf3e12529530abd7d4217c15eb03543fe97f64757bc2b2677"
     },
     {
       "path": "architectures.md",
       "downloadPath": "skills/keras/architectures.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/architectures.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/architectures.md",
+      "byteCount": 7077,
+      "sha256": "b2439c672f14edcde2323b6d30715078159454162aac5777043f5fa7e98c3c77"
     },
     {
       "path": "layers.md",
       "downloadPath": "skills/keras/layers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/layers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/layers.md",
+      "byteCount": 3209,
+      "sha256": "964141e5fa0dc5bdb47c83ae0a7de7eedfdcc60e21cdcac7aaf8bafe58fd110e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/keras/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/memory-template.md",
+      "byteCount": 1252,
+      "sha256": "fdf1d1e9afb2693ab133fa4dbc87368c3f72f15ff33d882c5d134610bb104111"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/keras/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/setup.md",
+      "byteCount": 1633,
+      "sha256": "4f812ba1796340f5f975d285b0ef80b600a40240851798ffbdd2098d5511ed0b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/keras/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/SKILL.md",
+      "byteCount": 5570,
+      "sha256": "e97c1cf5caea93820462d0619af2fce66113204a475207142839396b7800adc3"
     },
     {
       "path": "training.md",
       "downloadPath": "skills/keras/training.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/training.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/keras/training.md",
+      "byteCount": 4129,
+      "sha256": "c4cf967067f64eff4d86934d20f596cda67c3a398d1054bc3cb1063160dbebf3"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "890d5ddc9d7abe17b3c48180105cf7c2ddce40b099c9682675aeb40fb0872f70",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "timescaledb",
-    "name": "TimescaleDB",
+    "name": "timescaledb",
     "description": "Store and query time-series data with hypertables, compression, and continuous aggregates.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/timescaledb",
     "summary": "Hypertables - Convert table to hypertable: `SELECT create_hypertable('metrics', 'time')` - Must have time column (TIMESTAMPTZ recommended)—partition key for chunks - Call BEFORE inserting data—converting large tables is ",
     "repositoryPath": "skills/timescaledb",
     "manifestPath": "registry/skills/timescaledb.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/timescaledb/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/timescaledb/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/timescaledb/_meta.json",
+      "byteCount": 174,
+      "sha256": "0046b4e139c216def934648f07311264d71921f6b7693b25a8afefd19d968b49"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/timescaledb/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/timescaledb/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/timescaledb/SKILL.md",
+      "byteCount": 3793,
+      "sha256": "dfcad8e1eb986336749689c91b85f7a858114a0aef4d73ae0436cbcf7c6def68"
     }
   ]
 }

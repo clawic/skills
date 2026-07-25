@@ -1,7 +1,13 @@
 ---
-name: Flask
+name: flask
+slug: flask
+version: 1.0.0
 description: Avoid common Flask mistakes — context errors, circular imports, session configuration, and production gotchas.
-metadata: {"clawdbot":{"emoji":"🍶","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/flask
+metadata:
+  clawdbot:
+    emoji: "✨"
+    displayName: Flask
 ---
 
 ## Application Context

@@ -108,7 +108,7 @@ You only enter the chain at decision points. The rest flows.
 
 ## Tracking
 
-Create `~/vibe-clawing/loops.md` to track:
+Create `~/Clawic/data/vibe-clawing/loops.md` to track:
 ```
 ## Closed Loops
 - [Research]: Fully automated since [date]. Review: monthly.

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3921116c3a97157f76b5df5a1c102b24c8e9484508997eee2b955b2ebec7217e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "alipay",
-    "name": "Alipay",
+    "name": "alipay",
     "description": "Implement Alipay for web and mobile with signed request safety, gateway alignment, and production-ready payment operations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/alipay",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/alipay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/_meta.json",
+      "byteCount": 164,
+      "sha256": "0f8a1de43ea6674dde77acd2fd76264c770357a4e5b9fdb687c0a1cdf677688a"
     },
     {
       "path": "failure-handling.md",
       "downloadPath": "skills/alipay/failure-handling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/failure-handling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/failure-handling.md",
+      "byteCount": 1565,
+      "sha256": "57a1d0b49a97b83ee8bc1dcd4fe88993a6771ad5881b1a4de923d9974af51a68"
     },
     {
       "path": "implementation-playbook.md",
       "downloadPath": "skills/alipay/implementation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/implementation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/implementation-playbook.md",
+      "byteCount": 1653,
+      "sha256": "a921c17908159608ea578d9dcddf34fef1c5ec51608b7b60aa81fa88fbcefcc0"
     },
     {
       "path": "launch-playbook.md",
       "downloadPath": "skills/alipay/launch-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/launch-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/launch-playbook.md",
+      "byteCount": 1184,
+      "sha256": "39fea34639afb26a44701f73205e3140d2e9b986937a4763f61d774c11311c4b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/alipay/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/memory-template.md",
+      "byteCount": 1895,
+      "sha256": "01efbf732f40b155d1b7abac47148b376b913c136c3d2e562cfe6fd3ad75fb23"
     },
     {
       "path": "recurring-payments.md",
       "downloadPath": "skills/alipay/recurring-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/recurring-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/recurring-payments.md",
+      "byteCount": 1180,
+      "sha256": "29e691e24bbe70cbc3327040b78d8abdde0bd159f59ebfc63f97928dd752bb13"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/alipay/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/setup.md",
+      "byteCount": 1890,
+      "sha256": "a7ad863deef85e1ece32a0e52fde4a32145cb939f7497fe8919c2ac650703cb1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/alipay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/SKILL.md",
+      "byteCount": 6941,
+      "sha256": "0a91dc9ffb0ec5cd8fac382043863c5df0fd98d1ac8cbe1f5c42aeb9debba643"
     },
     {
       "path": "validation-checklist.md",
       "downloadPath": "skills/alipay/validation-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/validation-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alipay/validation-checklist.md",
+      "byteCount": 1279,
+      "sha256": "fdfd4ff6dadf8578d3aff9768044c642b704411c9db26ca4a2801f8cd58925a8"
     }
   ]
 }

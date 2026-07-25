@@ -1,11 +1,20 @@
 ---
-name: Review Code
+name: review-code
 slug: review-code
 version: 1.0.0
-homepage: https://clawic.com/skills/review-code
 description: Review code with risk-first analysis, reproducible evidence, and patch-ready guidance for correctness, security, performance, and maintainability.
+homepage: https://clawic.com/skills/review-code
 changelog: Initial release with risk-first review workflow, severity-confidence scoring, and fix-ready output templates.
-metadata: {"clawdbot":{"emoji":"🔎","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🔎
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Review Code
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent delivers a risk-ranked review with explicit evidence, impact, confidence, 
 
 ## Architecture
 
-Memory lives in `~/review-code/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/review-code/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/review-code/
+~/Clawic/data/review-code/
 ├── memory.md             # Review preferences, stack context, and recent constraints
 ├── findings/             # Optional per-review finding logs
 ├── baselines/            # Team conventions and accepted risk baselines
@@ -44,7 +53,7 @@ Memory lives in `~/review-code/`. See `memory-template.md` for structure and sta
 
 ## Data Storage
 
-Local notes stay in `~/review-code/`.
+Local notes stay in `~/Clawic/data/review-code/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -105,7 +114,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - Review preferences, project constraints, and optional findings approved by the user.
-- Stored in `~/review-code/`.
+- Stored in `~/Clawic/data/review-code/`.
 
 **This skill does NOT:**
 - auto-approve code or merge pull requests.
@@ -119,7 +128,7 @@ This is an instruction-only code review skill.
 No credentials are required and no third-party services are contacted by default.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `code` - implementation workflow that complements review findings.
 - `git` - safer branch, diff, and commit handling during remediation.
 - `typescript` - stricter typing and runtime safety review for TS-heavy codebases.
@@ -128,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star review-code`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/review-code
+- Latest version: https://clawic.com/skills/review-code

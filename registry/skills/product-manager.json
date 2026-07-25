@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b01c2c02a32e933fab584d16587a4437d1e41acc524c01f89f169f54a66afba8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "product-manager",
-    "name": "Product Manager",
+    "name": "product-manager",
     "description": "Build products users love with discovery, prioritization, roadmapping, and cross-functional leadership.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/product-manager",
     "summary": "Product Management Rules Discovery - Talk to users weekly — not just at project kickoff - Watch behavior, don't just collect opinions — users say one thing, do another - Problem validation before solution validation — ar",
     "repositoryPath": "skills/product-manager",
     "manifestPath": "registry/skills/product-manager.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/product-manager/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/_meta.json",
+      "byteCount": 182,
+      "sha256": "540da79761524c61939581049486140630da9639fc3fcea99d92169a9bd6f903"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/product-manager/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product-manager/SKILL.md",
+      "byteCount": 3255,
+      "sha256": "084e3426fe89349105b539dfd2be9e29a83b79f9f0ac41f7bb1dc91cb58d449b"
     }
   ]
 }

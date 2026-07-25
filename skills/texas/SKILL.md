@@ -1,11 +1,24 @@
 ---
-name: Texas
+name: texas
 slug: texas
 version: 1.0.0
-homepage: https://clawic.com/skills/texas
 description: Navigate Texas for living, moving, working, and road trips with region fit, state rules, weather risk, and daily logistics.
-changelog: "Initial release with resident-first Texas guidance, regional tradeoffs, and practical state-level logistics."
-metadata: {"clawdbot":{"emoji":"🤠","requires":{"bins":[],"config":["~/texas/"]},"os":["linux","darwin","win32"],"configPaths":["~/texas/"]}}
+homepage: https://clawic.com/skills/texas
+changelog: Initial release with resident-first Texas guidance, regional tradeoffs, and practical state-level logistics.
+metadata:
+  clawdbot:
+    emoji: 🤠
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/texas/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/texas/
+    displayName: Texas
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ This skill should activate for four modes: visiting, moving to Texas, living in 
 
 ## Architecture
 
-This skill works statelessly for one-off Texas questions. If the user wants continuity across sessions, memory lives in `~/texas/`. If `~/texas/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
+This skill works statelessly for one-off Texas questions. If the user wants continuity across sessions, memory lives in `~/Clawic/data/texas/`. If `~/Clawic/data/texas/` does not exist, read `setup.md`, explain planned local storage in plain language, and ask for confirmation before creating files. See `memory-template.md` for structure.
 
 ```text
-~/texas/
+~/Clawic/data/texas/
 └── memory.md     # User context, region, timelines, constraints, and open loops
 ```
 
@@ -74,7 +87,7 @@ This skill works statelessly for one-off Texas questions. If the user wants cont
 - Texas users usually need deadlines, documents, portals, sequence, and tradeoffs.
 - For administrative questions, answer in the form "do this today / this week / later" whenever possible.
 - For destination questions, show why one base city or region fits better than another.
-- Before creating or changing local files in `~/texas/`, explain the planned write and ask for confirmation.
+- Before creating or changing local files in `~/Clawic/data/texas/`, explain the planned write and ask for confirmation.
 
 ### 7. Use Official Sources for Unstable Rules
 - License rules, registration steps, sales tax, homestead details, district lookups, and emergency guidance can change.
@@ -112,7 +125,7 @@ No other data is sent externally.
 - ZIP, city, county, or district data only when the user asks for location-specific guidance
 
 **Data that stays local:**
-- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/texas/`
+- Region preference, move timeline, family constraints, vehicle notes, and open tasks in `~/Clawic/data/texas/`
 
 **This skill does NOT:**
 - Submit government forms on the user's behalf without explicit instruction
@@ -126,7 +139,7 @@ By using this skill, location details such as ZIP, county, or district may be ch
 Only install if you trust those public services with that lookup context.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General itinerary design and travel planning structure
 - `car-rental` — Rental car, pickup, and handoff decisions for Texas trips
 - `booking` — Reservation workflows for flights, hotels, and schedule holds
@@ -135,5 +148,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star texas`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/texas
+- Latest version: https://clawic.com/skills/texas

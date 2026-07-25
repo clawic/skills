@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "633f529c4fc4773946cf9f4c1f3833d5ec2c7ba791a16efb344234a8aecb9fbf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "traefik",
-    "name": "Traefik",
+    "name": "traefik",
     "description": "Avoid common Traefik mistakes — router priority, TLS configuration, Docker labels syntax, and middleware ordering.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/traefik",
     "summary": "Router Basics - Router must have `rule` AND `service` — missing either = not working - Rule priority: longer rules win by default — explicit `priority` to override - `Host()` is case-insensitive — `Host(\\`example.com\\`)`",
     "repositoryPath": "skills/traefik",
     "manifestPath": "registry/skills/traefik.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/traefik/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traefik/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traefik/_meta.json",
+      "byteCount": 166,
+      "sha256": "b188efb1ac25ceaa4a6254758a850337eaf4f5b02bbfa7717d399fe3971613c9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/traefik/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traefik/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/traefik/SKILL.md",
+      "byteCount": 3259,
+      "sha256": "690abbbbb371074d9656976cef1b2c01686aca6d8ee8eec6f52165b72136b143"
     }
   ]
 }

@@ -1,7 +1,17 @@
 ---
-name: Assistant
+name: assistant
+slug: assistant
+version: 1.0.0
 description: Manage tasks, communications, and scheduling with proactive and organized support.
-metadata: {"clawdbot":{"emoji":"📋","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/assistant
+metadata:
+  clawdbot:
+    emoji: 📋
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Assistant
 ---
 
 # Personal Assistant Rules

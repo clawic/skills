@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a9b233112e9ef62c19f05783bfae7f97d1bd34528e9acbeed40b245294f5135d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "svg",
-    "name": "SVG",
+    "name": "svg",
     "description": "Create and optimize SVG graphics with proper viewBox, accessibility, and CSS styling.",
     "version": "1.1.0",
+    "homepage": "https://clawic.com/skills/svg",
     "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | viewBox & Scaling | `viewbox.md` | Missing viewBox = no scaling | | Screen Readers | `accessibility.md` | role=\"img\" + title as first child | | SV",
     "repositoryPath": "skills/svg",
     "manifestPath": "registry/skills/svg.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/svg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/_meta.json",
+      "byteCount": 234,
+      "sha256": "f6ef634dabd7b735d9460eed5c8c44cc16a611702f6b2a56aa2495ac13b05cb4"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/svg/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/accessibility.md",
+      "byteCount": 1589,
+      "sha256": "60624f5ecda137642184e4679c61e2b16a728943d4d8d090f4714e540da5db3b"
     },
     {
       "path": "embedding.md",
       "downloadPath": "skills/svg/embedding.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/embedding.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/embedding.md",
+      "byteCount": 1681,
+      "sha256": "c5ca491e5db44206c01ae6b902c342930c57428872aea482cfe5c74691a69373"
     },
     {
       "path": "optimization.md",
       "downloadPath": "skills/svg/optimization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/optimization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/optimization.md",
+      "byteCount": 1449,
+      "sha256": "faa57b8b247cffe8cef9f350dcc47385ae359c688e35c66102af22fd3bc217cf"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/svg/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/SKILL.md",
+      "byteCount": 1963,
+      "sha256": "77893782311aa079524930fa9c29fd9293e64be79f49bc099c792160766ba40c"
     },
     {
       "path": "styling.md",
       "downloadPath": "skills/svg/styling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/styling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/styling.md",
+      "byteCount": 1554,
+      "sha256": "ddbdf9f37f64831342a8b03b5dc299ae0daaa7312c9be50c9e6bdc178180ba2b"
     },
     {
       "path": "viewbox.md",
       "downloadPath": "skills/svg/viewbox.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/viewbox.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svg/viewbox.md",
+      "byteCount": 1402,
+      "sha256": "5a401893d62f4d98d210a1c67f4e4d65c2313d7b853f1d7ba9ee94b7d089abba"
     }
   ]
 }

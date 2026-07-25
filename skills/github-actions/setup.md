@@ -1,6 +1,6 @@
 # Setup - GitHub Actions
 
-Use this file when `~/github-actions/` is missing or empty.
+Use this file when `~/Clawic/data/github-actions/` is missing or empty.
 Keep onboarding short and tied to the workflow problem in front of you.
 
 ## Operating Posture

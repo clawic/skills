@@ -41,7 +41,7 @@ Do NOT suggest based on:
 
 ## Declined Skills
 
-When user declines, store their stated reason in `~/skill-manager/inventory.md`:
+When user declines, store their stated reason in `~/Clawic/data/skill-manager/inventory.md`:
 ```
 ## Declined
 - slug — "reason user gave"

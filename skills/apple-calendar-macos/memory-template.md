@@ -1,6 +1,6 @@
 # Memory Template - Apple Calendar
 
-Create `~/apple-calendar-macos/memory.md` with this structure:
+Create `~/Clawic/data/apple-calendar-macos/memory.md` with this structure:
 
 ```markdown
 # Apple Calendar Memory

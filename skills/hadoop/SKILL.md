@@ -1,15 +1,26 @@
 ---
-name: Hadoop
+name: hadoop
 slug: hadoop
 version: 1.0.0
-homepage: https://clawic.com/skills/hadoop
 description: Manage Hadoop clusters with HDFS operations, YARN job tuning, and distributed processing diagnostics.
-metadata: {"clawdbot":{"emoji":"🐘","requires":{"bins":["hdfs","yarn","hadoop"]},"os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/hadoop
+metadata:
+  clawdbot:
+    emoji: 🐘
+    requires:
+      bins:
+      - hdfs
+      - yarn
+      - hadoop
+    os:
+    - linux
+    - darwin
+    displayName: Hadoop
 ---
 
 ## Setup
 
-If `~/hadoop/` doesn't exist or is empty, read `setup.md` and start the conversation naturally.
+If `~/Clawic/data/hadoop/` doesn't exist or is empty, read `setup.md` and start the conversation naturally.
 
 ## When to Use
 
@@ -17,10 +28,10 @@ User works with Hadoop ecosystem (HDFS, YARN, MapReduce, Hive). Agent handles cl
 
 ## Architecture
 
-Memory lives in `~/hadoop/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/hadoop/`. See `memory-template.md` for structure.
 
 ```
-~/hadoop/
+~/Clawic/data/hadoop/
 ├── memory.md        # Cluster configs, common issues, preferences
 ├── clusters/        # Per-cluster notes and configs
 │   └── {name}.md    # Specific cluster context
@@ -178,7 +189,7 @@ yarn application -movetoqueue <app_id> -queue <target_queue>
 ## Security & Privacy
 
 **Data that stays local:**
-- Cluster notes saved in ~/hadoop/clusters/
+- Cluster notes saved in ~/Clawic/data/hadoop/clusters/
 - Preferences and environment context
 
 **What commands access:**
@@ -192,12 +203,12 @@ yarn application -movetoqueue <app_id> -queue <target_queue>
 - Run destructive commands without asking first
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `linux` — system administration
 - `docker` — containerized deployments
 - `bash` — shell scripting
 
 ## Feedback
 
-- If useful: `clawhub star hadoop`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/hadoop
+- Latest version: https://clawic.com/skills/hadoop

@@ -1,6 +1,6 @@
 # Setup - ChatGPT
 
-Read this when `~/chatgpt/` is missing or empty. Start helping immediately while capturing only the context that changes how ChatGPT should be used for this user.
+Read this when `~/Clawic/data/chatgpt/` is missing or empty. Start helping immediately while capturing only the context that changes how ChatGPT should be used for this user.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first exchanges, confirm when this skill should activate:
 - Only when they explicitly ask for help using ChatGPT
 - Only for selected workflows such as writing, research, or planning
 
-If they confirm, store the activation preference in `~/chatgpt/memory.md`.
+If they confirm, store the activation preference in `~/Clawic/data/chatgpt/memory.md`.
 
 ### 2. Then: Workflow Reality
 
@@ -40,7 +40,7 @@ Store reusable workflow choices, not transcripts.
 
 ## What You Save Internally
 
-Persist only reusable information in `~/chatgpt/memory.md`:
+Persist only reusable information in `~/Clawic/data/chatgpt/memory.md`:
 - Activation preference
 - Stable workflow defaults and tone
 - Privacy boundaries and no-go data categories

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "80856174414055880e75660270cbe275a04a5d7ab6bdabe4a7b2cfa9d977380f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "oracle-db",
-    "name": "Oracle DB",
+    "name": "oracle-db",
     "description": "Write Oracle SQL and PL/SQL with proper syntax, hints, and performance patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/oracle-db",
     "summary": "Syntax Differences - `ROWNUM` for limiting rows—`WHERE ROWNUM <= 10`; 12c+ supports `FETCH FIRST 10 ROWS ONLY` - `DUAL` table for expressions—`SELECT sysdate FROM dual` - `VARCHAR2` not `VARCHAR`—VARCHAR is reserved, VAR",
     "repositoryPath": "skills/oracle-db",
     "manifestPath": "registry/skills/oracle-db.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/oracle-db/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oracle-db/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oracle-db/_meta.json",
+      "byteCount": 170,
+      "sha256": "064eaf3822c127ce6c95b449edcbc20909bd3af0bda3db492491ffa8ddd69ffa"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/oracle-db/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oracle-db/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oracle-db/SKILL.md",
+      "byteCount": 3882,
+      "sha256": "8392016a9443af18cbf210f8741af850d8b932030b26497f03d64757316d5616"
     }
   ]
 }

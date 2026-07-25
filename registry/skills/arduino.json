@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2536816807bf0bd3a3452d4c3fdce0a9921e79c87eddc854551534eccf63d8f5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "arduino",
-    "name": "Arduino",
+    "name": "arduino",
     "description": "Develop Arduino projects avoiding common wiring, power, and code pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/arduino",
     "summary": "Voltage and Power Traps - 3.3V vs 5V logic mixing damages boards — ESP32 is 3.3V, Uno is 5V, level shifter required - USB provides max 500mA — not enough for motors, servos, or many LEDs - Never power motors from Arduino",
     "repositoryPath": "skills/arduino",
     "manifestPath": "registry/skills/arduino.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/arduino/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arduino/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arduino/_meta.json",
+      "byteCount": 166,
+      "sha256": "a4902083ee1bb4762015278fe653baeb626cb3512cd9850698c9764c9c00d3ae"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/arduino/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arduino/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/arduino/SKILL.md",
+      "byteCount": 2940,
+      "sha256": "a17850d3f42f4e0925e6006cadd867dc938c710ac441d118f76ff4f7b3179523"
     }
   ]
 }

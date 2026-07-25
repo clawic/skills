@@ -1,6 +1,6 @@
 # Memory Template — Mobile App Analytics
 
-Create `~/mobile-app-analytics/memory.md` with this structure:
+Create `~/Clawic/data/mobile-app-analytics/memory.md` with this structure:
 
 ```markdown
 # Mobile App Analytics Memory
@@ -31,7 +31,7 @@ integration: pending | done | declined
 
 ## Per-App Template
 
-Create `~/mobile-app-analytics/apps/{app-name}.md` for each app:
+Create `~/Clawic/data/mobile-app-analytics/apps/{app-name}.md` for each app:
 
 ```markdown
 # {App Name} Analytics

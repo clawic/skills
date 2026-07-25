@@ -1,6 +1,6 @@
 # Setup — Property Valuation
 
-Read this when `~/property-valuation/` doesn't exist or is empty.
+Read this when `~/Clawic/data/property-valuation/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ Ask early:
 - "Should I help with property valuations whenever you mention real estate prices or buying/selling?"
 - "Do you want quick estimates or detailed analysis with comparable breakdowns?"
 
-Save their preference to `~/property-valuation/memory.md`.
+Save their preference to `~/Clawic/data/property-valuation/memory.md`.
 
 ### 2. Then: Understand Their Context
 

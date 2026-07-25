@@ -1,9 +1,20 @@
 ---
-name: Vue
+name: vue
 slug: vue
 version: 1.0.1
 description: Build Vue 3 applications with Composition API, proper reactivity patterns, and production-ready components.
-metadata: {"clawdbot":{"emoji":"💚","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vue
+metadata:
+  clawdbot:
+    emoji: 💚
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Vue
 ---
 
 ## When to Use

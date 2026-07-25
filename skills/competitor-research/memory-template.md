@@ -1,6 +1,6 @@
 # Memory Template — Competitor Research
 
-Create `~/competitor-research/memory.md` with this structure:
+Create `~/Clawic/data/competitor-research/memory.md` with this structure:
 
 ```markdown
 # Competitor Research Memory
@@ -35,7 +35,7 @@ style: detailed reports | quick summaries
 
 ## Niche Overview Template
 
-Create `~/competitor-research/niches/{niche}/overview.md`:
+Create `~/Clawic/data/competitor-research/niches/{niche}/overview.md`:
 
 ```markdown
 # {Niche} Competitive Landscape
@@ -72,7 +72,7 @@ Create `~/competitor-research/niches/{niche}/overview.md`:
 
 ## Competitor Profile Template
 
-Create `~/competitor-research/niches/{niche}/{company}.md`:
+Create `~/Clawic/data/competitor-research/niches/{niche}/{company}.md`:
 
 ```markdown
 # {Company} — Competitor Profile

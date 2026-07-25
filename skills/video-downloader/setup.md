@@ -1,6 +1,6 @@
 # Setup - Video Downloader
 
-Read this silently when `~/video-downloader/` is missing or empty.
+Read this silently when `~/Clawic/data/video-downloader/` is missing or empty.
 
 ## Operating Attitude
 

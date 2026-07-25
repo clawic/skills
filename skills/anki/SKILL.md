@@ -1,10 +1,20 @@
 ---
-name: Anki
+name: anki
 slug: anki
 version: 1.0.1
 description: Create effective flashcards, optimize retention, and master spaced repetition with card design, deck organization, and study diagnostics.
+homepage: https://clawic.com/skills/anki
 changelog: Add explicit scope section, clarify data handling, remove undeclared storage
-metadata: {"clawdbot":{"emoji":"🧠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🧠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Anki
 ---
 
 ## Quick Reference

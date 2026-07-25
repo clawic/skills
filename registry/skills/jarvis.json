@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a6dd4e81a62ba173b3adb25874368438bcc1147525984d07cd823d2de2b80902",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "jarvis",
-    "name": "Jarvis",
+    "name": "jarvis",
     "description": "Run the agent like an executive operator with calm briefings, sharp prioritization, context recovery, and proactive follow-through.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/jarvis",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/jarvis/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/_meta.json",
+      "byteCount": 164,
+      "sha256": "a0a7bd24aa177918cb688004c1bf033980ca9e60d60c549e4cc3a7c885f030c1"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/jarvis/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/boundaries.md",
+      "byteCount": 1293,
+      "sha256": "0d4ef3433179ee8831a5648d7304a4784c62cd7a2a5a25562be0c9f71d01c33d"
     },
     {
       "path": "HEARTBEAT.md",
       "downloadPath": "skills/jarvis/HEARTBEAT.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/HEARTBEAT.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/HEARTBEAT.md",
+      "byteCount": 251,
+      "sha256": "1c14fe02a343cd7a7bee0d9117621c806a7ef978e42ea981e0d79cdc788d9f2b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/jarvis/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/memory-template.md",
+      "byteCount": 2327,
+      "sha256": "5041f881768dbc73076c29fdc34717e689fce8f33352ef07c0251f2c43c1796d"
     },
     {
       "path": "openclaw-seed.md",
       "downloadPath": "skills/jarvis/openclaw-seed.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/openclaw-seed.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/openclaw-seed.md",
+      "byteCount": 2222,
+      "sha256": "4da2b5d5191d24971946a9c1bbad065d639e54ea5f011ccef719cdf85a077342"
     },
     {
       "path": "operating-modes.md",
       "downloadPath": "skills/jarvis/operating-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/operating-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/operating-modes.md",
+      "byteCount": 1007,
+      "sha256": "fa0e81014377bbf324105eb5ad2cace49cc72a26da43f41f4825a2d43e41c732"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/jarvis/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/setup.md",
+      "byteCount": 3358,
+      "sha256": "d796527ca04c6f0e00291e5918ee0f472bc4fe72797ea406c01578d76320f6eb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/jarvis/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/SKILL.md",
+      "byteCount": 6260,
+      "sha256": "f6dbe2c0ee98d3abb543fd263f3189bc9595770e53ae57e0a4e94824fb3bb71a"
     },
     {
       "path": "use-cases.md",
       "downloadPath": "skills/jarvis/use-cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/use-cases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/use-cases.md",
+      "byteCount": 1396,
+      "sha256": "394094e46e9ac7d287bb41155e60f3157442183bd938ced75d18ca7fcdcdb967"
     },
     {
       "path": "voice.md",
       "downloadPath": "skills/jarvis/voice.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/voice.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jarvis/voice.md",
+      "byteCount": 1195,
+      "sha256": "cb2aa6853558b40b338b691775c5fb53c8f65bc21be11d09e1465ff7b8d6c1fa"
     }
   ]
 }

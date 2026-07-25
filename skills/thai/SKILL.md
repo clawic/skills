@@ -1,6 +1,13 @@
 ---
-name: Thai
+name: thai
+slug: thai
+version: 1.0.0
 description: Write Thai that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/thai
+metadata:
+  clawdbot:
+    emoji: 🇹🇭
+    displayName: Thai
 ---
 
 ## The Real Problem

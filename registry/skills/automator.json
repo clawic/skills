@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ac2dfc5eac318c2ca00cf13215c4aecc46dc4c11f5990853f8d8c1763c44c6e7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "automator",
-    "name": "macOS Automator",
+    "name": "automator",
     "description": "Automate macOS tasks by composing and executing Automator workflows through automator CLI and AppleScript control.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/automator",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/automator/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/_meta.json",
+      "byteCount": 176,
+      "sha256": "214a25309b4e9d123d0e180938ff08602f908da986a6e5bc2719f80f33eef4ec"
     },
     {
       "path": "execution-guardrails.md",
       "downloadPath": "skills/automator/execution-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/execution-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/execution-guardrails.md",
+      "byteCount": 1263,
+      "sha256": "b46dfe82012feb4701e158824e52e3deca86864dc70e75600fa373522fe212d0"
     },
     {
       "path": "interface-matrix.md",
       "downloadPath": "skills/automator/interface-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/interface-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/interface-matrix.md",
+      "byteCount": 1379,
+      "sha256": "41421a3007ca1ea9c2062b305a7198b5436d9290146c1c4ebe43c69e40b0b266"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/automator/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/memory-template.md",
+      "byteCount": 1438,
+      "sha256": "b785210701e18b0b065eb07f521766e33f093e804bc5cca9dde2cc52238551f0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/automator/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/setup.md",
+      "byteCount": 1492,
+      "sha256": "8824f045bbdd5a6f22c9a93c448cebedcb013ecd1350855a11d31e638702ecdd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/automator/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/SKILL.md",
+      "byteCount": 5586,
+      "sha256": "a16e6537a8266252db30cabbbf9ba3d4568f91533d27014292b5189a8291dace"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/automator/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/troubleshooting.md",
+      "byteCount": 1363,
+      "sha256": "83ca7d7431273187acdc79f922f8f5f963cfd15c74cc714d58b07409d91d25d8"
     },
     {
       "path": "workflow-authoring.md",
       "downloadPath": "skills/automator/workflow-authoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/workflow-authoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automator/workflow-authoring.md",
+      "byteCount": 1625,
+      "sha256": "acdbc28ff86a669cd3581e16c991397ce2f8b7eaae92f0731516ab8d35fe9136"
     }
   ]
 }

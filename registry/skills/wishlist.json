@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5d99e7be8608655a4d4f029f5ce3553c4f4bbb727faa70234cd11b06a8623280",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "wishlist",
-    "name": "Wishlist",
+    "name": "wishlist",
     "description": "Build a personal wishlist system for capturing wants, tracking prices, and smart purchasing decisions.",
-    "summary": "Core Behavior - User shares something they want → capture with details - User asks what to buy → surface by priority and price - Periodically check prices on tracked items - Create `~/wishlist/` as workspace File Structu",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wishlist",
+    "summary": "Core Behavior - User shares something they want → capture with details - User asks what to buy → surface by priority and price - Periodically check prices on tracked items - Create `~/Clawic/data/wishlist/` as workspace ",
     "repositoryPath": "skills/wishlist",
     "manifestPath": "registry/skills/wishlist.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wishlist/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wishlist/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wishlist/_meta.json",
+      "byteCount": 168,
+      "sha256": "12c784306956dca474b62bfad1261502d9b36c056f2675da7c6bcec9a96cb856"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wishlist/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wishlist/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wishlist/SKILL.md",
+      "byteCount": 3945,
+      "sha256": "c8376d9533bff99b2ae88285122cf12917277161d4cbb731a4d164b35bec7dc7"
     }
   ]
 }

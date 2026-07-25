@@ -1,9 +1,20 @@
 ---
-name: macOS
+name: macos
+slug: macos
+version: 1.0.0
 description: macOS system administration, command-line differences from Linux, and automation best practices.
+homepage: https://clawic.com/skills/macos
 metadata:
   category: system
-  skills: ["macos", "osx", "apple", "darwin", "terminal"]
+  skills:
+  - macos
+  - osx
+  - apple
+  - darwin
+  - terminal
+  clawdbot:
+    emoji: 🍎
+    displayName: macOS
 ---
 
 ## BSD vs GNU Commands

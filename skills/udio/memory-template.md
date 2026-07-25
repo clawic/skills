@@ -1,6 +1,6 @@
 # Memory Template — Udio
 
-Create `~/udio/memory.md` with this structure:
+Create `~/Clawic/data/udio/memory.md` with this structure:
 
 ```markdown
 # Udio Memory
@@ -73,7 +73,7 @@ token_location: keychain:udio_auth_token | env:UDIO_AUTH_TOKEN | none
 
 ## Per-Project Tracking
 
-For larger projects, create `~/udio/projects/{project-name}.md`:
+For larger projects, create `~/Clawic/data/udio/projects/{project-name}.md`:
 
 ```markdown
 # {Project Name}

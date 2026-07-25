@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c6e03fac4f81db5c51d58a763d0e076ae295d4a1e157fb8889661c5ebe398633",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "outfits",
-    "name": "Outfits",
+    "name": "outfits",
     "description": "Build an outfit planning system for saving inspiration, creating combinations, and dressing for any occasion.",
-    "summary": "Core Behavior - User saves outfit inspiration → catalog with tags and notes - User asks what to wear → build combination from their clothes - User plans for event → suggest options with reasoning - Create `~/outfits/` as",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/outfits",
+    "summary": "Core Behavior - User saves outfit inspiration → catalog with tags and notes - User asks what to wear → build combination from their clothes - User plans for event → suggest options with reasoning - Create `~/Clawic/data/",
     "repositoryPath": "skills/outfits",
     "manifestPath": "registry/skills/outfits.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/outfits/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/_meta.json",
+      "byteCount": 166,
+      "sha256": "e2d84d9ecb65b2397e2d0bdce9125f68b002f9b88aec841c973cd4b96eb1e60a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/outfits/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/outfits/SKILL.md",
+      "byteCount": 3225,
+      "sha256": "f4900dd1e0785c5667468654a4bc0603a3af03c302e41624e5d911881e5641bc"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "47a90c4bbfc4433a92d9ba2b72ebe6181dc053ab75a025337c207a527e821c4e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "running",
-    "name": "Running",
+    "name": "running",
     "description": "Training principles, pacing strategy, injury prevention, and race preparation for runners.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/running",
     "summary": "Training Fundamentals - 80/20 rule: 80% easy runs, 20% hard — most runners go too hard on easy days - Easy pace: can hold conversation, Zone 2 heart rate — feels too slow, but builds aerobic base - Weekly mileage increas",
     "repositoryPath": "skills/running",
     "manifestPath": "registry/skills/running.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/running/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/running/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/running/_meta.json",
+      "byteCount": 166,
+      "sha256": "f840ffc6dca4a350b965b11c9295fbddc144d841421e2f4e5e73e6515de9eab0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/running/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/running/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/running/SKILL.md",
+      "byteCount": 4794,
+      "sha256": "a89e0d176836d955c17f4f37502ab21f41a56f937b04a39c4f87c66f397e58c2"
     }
   ]
 }

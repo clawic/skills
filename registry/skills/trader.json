@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d01384628cb7bdc09b54e2d5107d4d75218ae9dc380048dc2b3600770c3b6980",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "trader",
-    "name": "Trader",
+    "name": "trader",
     "description": "Analyze markets, manage risk, and execute trades with disciplined strategies and emotional control.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/trader",
     "summary": "Trading Assistance Rules Important Boundaries - This is educational information, not financial advice — recommend licensed advisors for personal decisions - Past performance doesn't guarantee future results - Markets can",
     "repositoryPath": "skills/trader",
     "manifestPath": "registry/skills/trader.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/trader/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trader/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trader/_meta.json",
+      "byteCount": 164,
+      "sha256": "6d32bb2677df058192d56ff19711d54eb7f9387025fc6e6526be224e58b80098"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/trader/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trader/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trader/SKILL.md",
+      "byteCount": 3260,
+      "sha256": "f86ebdc53fa80b035edcb4927aa1693759dd8e7f42244f482466e77ff1fa75b2"
     }
   ]
 }

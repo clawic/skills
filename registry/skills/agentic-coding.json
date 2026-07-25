@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9047cdc02d517b71a52293ea72ecb77260dd24a558cb1a25f1148243695026f5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "agentic-coding",
-    "name": "Agentic Coding",
+    "name": "agentic-coding",
     "description": "Ship production code with AI agents through acceptance contracts, micro diffs, red green loops, and deterministic handoff checkpoints.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/agentic-coding",
-    "summary": "Setup If `~/agentic-coding/` does not exist or is empty, read `setup.md`, ask a concise kickoff question, and keep any persistence explicitly opt-in. Positioning This skill is intentionally different from `agentic-engine",
+    "summary": "Setup If `~/Clawic/data/agentic-coding/` does not exist or is empty, read `setup.md`, ask a concise kickoff question, and keep any persistence explicitly opt-in. Positioning This skill is intentionally different from `ag",
     "repositoryPath": "skills/agentic-coding",
     "manifestPath": "registry/skills/agentic-coding.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/agentic-coding/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/_meta.json",
+      "byteCount": 180,
+      "sha256": "bd2929d06b0dae06bc8ba0d19b529d0d4bee85a77621aff5e97bf21706eae8c5"
     },
     {
       "path": "handoff.md",
       "downloadPath": "skills/agentic-coding/handoff.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/handoff.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/handoff.md",
+      "byteCount": 716,
+      "sha256": "a906a23b422800826f49ceb8faed6d66238879b9bfe31b9df2b76b771a3fcb8f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/agentic-coding/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/memory-template.md",
+      "byteCount": 1888,
+      "sha256": "dae56da771f9f97e391d7b9f7a30f78d518d7303588f5b2ce6acacea90c21729"
     },
     {
       "path": "prompt-contracts.md",
       "downloadPath": "skills/agentic-coding/prompt-contracts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/prompt-contracts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/prompt-contracts.md",
+      "byteCount": 1529,
+      "sha256": "ba4d5a70b775a289dd942fce8146d7bfbf9a4f78c4cb5e4fcce78be1f6ea0492"
     },
     {
       "path": "protocol.md",
       "downloadPath": "skills/agentic-coding/protocol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/protocol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/protocol.md",
+      "byteCount": 1369,
+      "sha256": "9b3283754da94451b273d5645296b1ab65c51fd7a471634cec419aad339af865"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/agentic-coding/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/setup.md",
+      "byteCount": 1779,
+      "sha256": "84811b3016f414613684a70569673d58be457b4ba97e17794ab79e65ea43b9cf"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agentic-coding/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agentic-coding/SKILL.md",
+      "byteCount": 5522,
+      "sha256": "6ccd245b7597dfc86856055518bf842882eb2b139341e12922e69c31681389b8"
     }
   ]
 }

@@ -1,7 +1,17 @@
 ---
-name: Chemistry
+name: chemistry
+slug: chemistry
+version: 1.0.0
 description: Support chemistry learning from kitchen experiments to molecular research.
-metadata: {"clawdbot":{"emoji":"🧪","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/chemistry
+metadata:
+  clawdbot:
+    emoji: 🧪
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Chemistry
 ---
 
 ## Detect Level, Adapt Everything

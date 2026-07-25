@@ -1,6 +1,6 @@
 # Memory Template — India
 
-Create `~/india/memory.md` with this structure:
+Create `~/Clawic/data/india/memory.md` with this structure:
 
 ```markdown
 # India Memory

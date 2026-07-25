@@ -1,11 +1,20 @@
 ---
-name: AirDrop
+name: airdrop
 slug: airdrop
 version: 1.0.0
-homepage: https://clawic.com/skills/airdrop
 description: Send local files to nearby Apple devices through AirDrop with macOS guardrails, staging checks, and automation-friendly workflows.
+homepage: https://clawic.com/skills/airdrop
 changelog: Initial release with direct AirDrop launch, shortcut fallback, and safer file-sharing guardrails for nearby Apple devices.
-metadata: {"clawdbot":{"emoji":"A","requires":{"bins":[]},"os":["darwin"],"configPaths":["~/airdrop/"]}}
+metadata:
+  clawdbot:
+    emoji: A
+    requires:
+      bins: []
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/airdrop/
+    displayName: AirDrop
 ---
 
 ## When to Use
@@ -22,10 +31,10 @@ Agent handles file staging, confirmation, local handoff, and mode selection betw
 
 ## Architecture
 
-Memory lives in `~/airdrop/`. If `~/airdrop/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/airdrop/`. If `~/Clawic/data/airdrop/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/airdrop/
+~/Clawic/data/airdrop/
 |- memory.md          # Activation and confirmation preferences
 `- staging/           # Optional user-approved temp exports before sharing
 ```
@@ -86,13 +95,13 @@ Memory lives in `~/airdrop/`. If `~/airdrop/` does not exist, run `setup.md`. Se
 ## Data Storage
 
 This skill can operate with no persistent local state.
-If the user wants repeatable behavior, store only activation, confirmation, and staging preferences in `~/airdrop/memory.md`.
-Create `~/airdrop/staging/` only with user approval when temporary share files are useful.
+If the user wants repeatable behavior, store only activation, confirmation, and staging preferences in `~/Clawic/data/airdrop/memory.md`.
+Create `~/Clawic/data/airdrop/staging/` only with user approval when temporary share files are useful.
 
 ## Security & Privacy
 
 **Data that stays local:**
-- Skill memory and optional staging files in `~/airdrop/`
+- Skill memory and optional staging files in `~/Clawic/data/airdrop/`
 - The source files until the user chooses a nearby AirDrop recipient
 
 **Data that may leave your machine:**
@@ -106,7 +115,7 @@ Create `~/airdrop/staging/` only with user approval when temporary share files a
 - Read or share files outside the approved payload list
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - General macOS command workflows, permissions checks, and native app automation patterns.
 - `applescript` - Finder and app automation when AirDrop workflows need UI scripting around local files.
 - `files` - File selection, packaging, renaming, and cleanup before sharing the final payload.
@@ -114,5 +123,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star airdrop`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/airdrop
+- Latest version: https://clawic.com/skills/airdrop

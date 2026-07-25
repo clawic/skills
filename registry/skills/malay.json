@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "47d54b6b1604e08f5e4b436c1b9dbe895ea7c754beee7a38b8d30f599421f302",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "malay",
-    "name": "Malay",
+    "name": "malay",
     "description": "Write Malay that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/malay",
     "summary": "The Real Problem AI Malay is technically correct but sounds off. Too formal. Too baku (standard). Natives write more casually, mixing English naturally. Match that. Formality Default Default register is too high. Casual ",
     "repositoryPath": "skills/malay",
     "manifestPath": "registry/skills/malay.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/malay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/malay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/malay/_meta.json",
+      "byteCount": 162,
+      "sha256": "4c8f18a903e56abb3445b3a39bd7989be85001420fdc857e9233b7912b224200"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/malay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/malay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/malay/SKILL.md",
+      "byteCount": 1927,
+      "sha256": "ef3d437f1e35821937e6c2d3150049bbdd8825790c1976f64cef3499ea7e59e8"
     }
   ]
 }

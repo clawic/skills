@@ -1,7 +1,18 @@
 ---
-name: Xcode
+name: xcode
+slug: xcode
+version: 1.0.0
 description: Avoid common Xcode mistakes — signing issues, build settings traps, and cache corruption fixes.
-metadata: {"clawdbot":{"emoji":"🔨","requires":{"bins":["xcodebuild"]},"os":["darwin"]}}
+homepage: https://clawic.com/skills/xcode
+metadata:
+  clawdbot:
+    emoji: 🔨
+    requires:
+      bins:
+      - xcodebuild
+    os:
+    - darwin
+    displayName: Xcode
 ---
 
 ## Signing Issues

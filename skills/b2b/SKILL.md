@@ -1,9 +1,19 @@
 ---
-name: B2B
+name: b2b
 slug: b2b
 version: 1.0.0
 description: Close enterprise deals with qualification frameworks, prospecting research, pipeline management, and outreach personalization.
-metadata: {"clawdbot":{"emoji":"🤝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/b2b
+metadata:
+  clawdbot:
+    emoji: 🤝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: B2B
 ---
 
 ## When to Use

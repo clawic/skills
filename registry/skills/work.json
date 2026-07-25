@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "983eabef55761f21871a080496bb18639bbdd5060de1c3dae89c73b3768e6247",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "work",
-    "name": "Work",
+    "name": "work",
     "description": "Navigate office work with professional communication, meeting prep, workplace dynamics, and visibility tactics.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/work",
     "summary": "Core Focus Day-to-day effectiveness in corporate/office environments. Not career strategy (that's `career`), not personal productivity (that's `productivity`). --- Situation Detection | Signal | Context | Load | |-------",
     "repositoryPath": "skills/work",
     "manifestPath": "registry/skills/work.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/work/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/_meta.json",
+      "byteCount": 160,
+      "sha256": "2d5ea8a7068b20476d0d3e7970ad236b508681330e518e035d7c4a9b67e68caa"
     },
     {
       "path": "clarity.md",
       "downloadPath": "skills/work/clarity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/clarity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/clarity.md",
+      "byteCount": 2641,
+      "sha256": "7d81f1d655c97b3ee95f3756927ff1b6c208302317467fdbd8d42e95ea794397"
     },
     {
       "path": "comms.md",
       "downloadPath": "skills/work/comms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/comms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/comms.md",
+      "byteCount": 2566,
+      "sha256": "c5886b877b0cf9651ab435b0910235ccfc9843c96be71eedfff20af1505d8047"
     },
     {
       "path": "new-hire.md",
       "downloadPath": "skills/work/new-hire.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/new-hire.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/new-hire.md",
+      "byteCount": 2244,
+      "sha256": "0d9937c90e64b86daec4b791f2bd7222d5f77fd0a7bbe5a01ddc4cd194c00588"
     },
     {
       "path": "politics.md",
       "downloadPath": "skills/work/politics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/politics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/politics.md",
+      "byteCount": 2290,
+      "sha256": "cd8b951ad94c9a54b3eabb89a54de0e61d3c144069e20e9f762422aaac86a301"
     },
     {
       "path": "scripts.md",
       "downloadPath": "skills/work/scripts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/scripts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/scripts.md",
+      "byteCount": 3568,
+      "sha256": "0f0894a89aa7b2dbc24a134fc3fa7ec543bf4ce0ffee96c9ae95a48322eb59fc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/work/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/SKILL.md",
+      "byteCount": 2983,
+      "sha256": "aacc1ae337cd9115ffeacef66e53a117444520dbfdee4cca76e8eda22d0b95dd"
     },
     {
       "path": "visibility.md",
       "downloadPath": "skills/work/visibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/visibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/work/visibility.md",
+      "byteCount": 2724,
+      "sha256": "8015a34187fbf9d533e6d8b1c85d2356271dbc9c2100a17e79adecd6845a6af3"
     }
   ]
 }

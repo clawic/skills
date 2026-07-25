@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3d8982f5ddd795b65ec009212d57b0f78c7842d429f227a0b98630d34b2bcedd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "solana",
-    "name": "Solana",
+    "name": "solana",
     "description": "Assist with Solana transactions, token accounts, priority fees, and program interactions.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/solana",
     "summary": "Rent and Account Creation - Every Solana account must hold a minimum SOL balance (~0.00089 SOL for basic accounts) to be rent-exempt — accounts below this get deleted - Sending SOL to a new address that has never receive",
     "repositoryPath": "skills/solana",
     "manifestPath": "registry/skills/solana.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/solana/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solana/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solana/_meta.json",
+      "byteCount": 164,
+      "sha256": "9ec4e9ece13f97c465ec99fb62a799c506776bf96a3f998b12d232ce52cae9f2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/solana/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solana/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/solana/SKILL.md",
+      "byteCount": 3575,
+      "sha256": "7538031a31be73d2be3925225877605abd1d9c1cd94b7f8ecd2da1575c450c13"
     }
   ]
 }

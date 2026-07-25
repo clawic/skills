@@ -1,10 +1,19 @@
 ---
-name: OKRs
+name: okr
 slug: okr
 version: 1.0.0
-homepage: https://clawic.com/skills/okr
 description: Writing objectives and key results, setting cadence, and avoiding common stretch-goal failures.
-metadata: {"clawdbot":{"emoji":"💰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/okr
+metadata:
+  clawdbot:
+    emoji: 💰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: OKRs
 ---
 
 ## Writing the objective (O)
@@ -122,7 +131,7 @@ metadata: {"clawdbot":{"emoji":"💰","requires":{"bins":[]},"os":["linux","darw
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `metrics` - choosing KPIs, leading vs lagging indicators, the measurement layer KRs depend on
 - `strategy` - the annual direction and org themes OKRs decompose from
 - `product` - product roadmaps and bets that OKRs operationalize into measurable focus

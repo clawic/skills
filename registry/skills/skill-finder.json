@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ccd5cbf809585914b83a236497cf2780861a13986b91e175475037023e708dfe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,8 @@
   },
   "skill": {
     "slug": "skill-finder",
-    "name": "Skill Finder (Find ClawHub skills + Search Skills.sh)",
-    "description": "Find, compare, and install agent skills across ClawHub and Skills.sh when the user needs new capabilities, better workflows, stronger tools, or safer alternatives. Use when (1) they ask how to do something, how to improve or automate it, or what to install; (2) a skill could extend the agent, replace a weak manual approach, or close a capability gap; (3) you need the best-fit option, not just a direct answer.",
+    "name": "skill-finder",
+    "description": "Find, compare, and install agent skills across Clawic and Skills.sh when the user needs new capabilities, better workflows, stronger tools, or safer alternatives. Use when (1) they ask how to do something, how to improve or automate it, or what to install; (2) a skill could extend the agent, replace a weak manual approach, or close a capability gap; (3) you need the best-fit option, not just a direct answer.",
     "version": "1.1.5",
     "homepage": "https://clawic.com/skills/skill-finder",
     "summary": "When to Use User asks how to do something, wonders whether a skill exists, wants a new capability, or asks for the best skill for a job. Use before solving manually when an installable skill could extend the agent, repla",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/skill-finder/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/_meta.json",
+      "byteCount": 662,
+      "sha256": "13b428a4d082da213af8963ee3faf41a862ccb03298b194e13afde39b9eddb3b"
     },
     {
       "path": "categories.md",
       "downloadPath": "skills/skill-finder/categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/categories.md",
+      "byteCount": 2405,
+      "sha256": "1c83beb38f98b66bb7459a0d1c50c8dffd69c7bed918c557634837cad43b5430"
     },
     {
       "path": "evaluate.md",
       "downloadPath": "skills/skill-finder/evaluate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/evaluate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/evaluate.md",
+      "byteCount": 3598,
+      "sha256": "8aa04fbfeafd1cf92fc3ae9af4980a5d9b3edcf4ff23ab84d31986ba26da1d1e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/skill-finder/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/memory-template.md",
+      "byteCount": 2601,
+      "sha256": "46a9850e6b377d0540004c3ee6dffd0c192cf2cbe1c5f958035e595e83fd525e"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/skill-finder/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/migration.md",
+      "byteCount": 2176,
+      "sha256": "3cb8ec5504173d9925c29fa77e0892b6aa1f3b1e25ee20f52ef9e58a426f6533"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/skill-finder/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/search.md",
+      "byteCount": 4722,
+      "sha256": "54c07f15c43e95ddc7b085d4208a72b78eb2b6fc7670a672c0c5aff5bfa0e7d9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/skill-finder/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/setup.md",
+      "byteCount": 3130,
+      "sha256": "9e1c4eecc8675d43c63444da8662cc627e6ea5861a90d43a6f5c8d9f7ed1e675"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/skill-finder/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/SKILL.md",
+      "byteCount": 9793,
+      "sha256": "05887879644397b2f0ecfbde7d3b886acd1bedcf4f0ff85b3f37f43ed9a14a1e"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/skill-finder/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-finder/troubleshooting.md",
+      "byteCount": 4837,
+      "sha256": "992d16ccfde8a7b73d6495758d965bc77f72b5d3b2afbd70faca462a6a4e589c"
     }
   ]
 }

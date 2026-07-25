@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2f9013f768daca5d0c978005d0331d1ccd17b382a72b9020abd34693cd39646d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "analyze",
-    "name": "Analyze",
+    "name": "analyze",
     "description": "Structured analysis for any input. Data, code, text, decisions, visuals. Prioritize, question, conclude.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/analyze",
     "summary": "Pattern ``` Purpose → Structure → Analyze → Prioritize → Conclude ``` Before analyzing: State what decision this serves. Pick a framework. Note first impression to challenge later. Before - **Purpose in one line**: \"This",
     "repositoryPath": "skills/analyze",
     "manifestPath": "registry/skills/analyze.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/analyze/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyze/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyze/_meta.json",
+      "byteCount": 166,
+      "sha256": "6df3959b99739d0edfbeed3c801296a48e6210ba339bc625be00425026a5bbc8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/analyze/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyze/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analyze/SKILL.md",
+      "byteCount": 2317,
+      "sha256": "67cfcef1e004558adcff863be6ef02608f8d0145179e3db25c5dd40a95b31054"
     }
   ]
 }

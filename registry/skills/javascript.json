@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5edfb62a97a34a1e5b97fb0b21702100e302a00eeec82b3a5db52b3dff8d9a9b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,84 +23,116 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/javascript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/javascript/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/_meta.json",
+      "byteCount": 470,
+      "sha256": "da7f713f8a5e02461c991ece93e17f2dc14d9094fad3d1a232ca7ea071e29f05"
     },
     {
       "path": "async.md",
       "downloadPath": "skills/javascript/async.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/async.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/async.md",
+      "byteCount": 3719,
+      "sha256": "835012aed1a6ed894a77d939f19686868ec6c53ab21aa567833f77aef6478c02"
     },
     {
       "path": "browser.md",
       "downloadPath": "skills/javascript/browser.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/browser.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/browser.md",
+      "byteCount": 4627,
+      "sha256": "30edb8a9cd717062643d097d8c2b0790aae5be6266d20c77ae30a74b76a9691d"
     },
     {
       "path": "coercion.md",
       "downloadPath": "skills/javascript/coercion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/coercion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/coercion.md",
+      "byteCount": 2468,
+      "sha256": "0429a54d1a9ed1b69bdc76e3445efb5827f7667b6dc22188836c48ecaa75b5f4"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/javascript/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/collections.md",
+      "byteCount": 3363,
+      "sha256": "d892d4394d2b86f9e9e52a98304db3ed7f4d6d4c2c1d0913ee4679c54c159c26"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/javascript/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/debug.md",
+      "byteCount": 5095,
+      "sha256": "580ea59c22b1887953ec0e949c2e9942701c3708c243f9500f153c6577933fb8"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/javascript/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/errors.md",
+      "byteCount": 4346,
+      "sha256": "faef27ddb27ea4109d9f636e37d0217addab9607581304858ae0ca1da5f00731"
     },
     {
       "path": "json.md",
       "downloadPath": "skills/javascript/json.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/json.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/json.md",
+      "byteCount": 3512,
+      "sha256": "8320c5026ddf6b563efc547468bf3e3d166c90e15e86d4fb096c51c3003f9e8f"
     },
     {
       "path": "memory-leaks.md",
       "downloadPath": "skills/javascript/memory-leaks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-leaks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-leaks.md",
+      "byteCount": 3663,
+      "sha256": "3d3838b71ae043b904fbec5c246999142036c84197062168df227b16c1d88aa5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/javascript/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/memory-template.md",
+      "byteCount": 768,
+      "sha256": "8a58e8d5f0eba055928e3ee1a3ceac5cebcb4d3d869da8d9b06271554792fe5d"
     },
     {
       "path": "modern.md",
       "downloadPath": "skills/javascript/modern.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/modern.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/modern.md",
+      "byteCount": 5029,
+      "sha256": "fc4793240d33600ba299a1c70cf47ca6b84eadf0f4217dd5456ee046aca20ccc"
     },
     {
       "path": "node.md",
       "downloadPath": "skills/javascript/node.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/node.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/node.md",
+      "byteCount": 4894,
+      "sha256": "57fa4f70037e742c6afe3f8a748d48e5541c8fa16b6630feee3de4e7ecdf5729"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/javascript/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/performance.md",
+      "byteCount": 4076,
+      "sha256": "d891030395e3cbd1fdb708327f4b693d1ccaecc4c3f14d5a06a9ec9c5b6d9e52"
     },
     {
       "path": "regex.md",
       "downloadPath": "skills/javascript/regex.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/regex.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/regex.md",
+      "byteCount": 3983,
+      "sha256": "5fe427734a3da88b7760d4a792dcc4146bbf2e51ae7639c75ecbd284418200ce"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/javascript/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/setup.md",
+      "byteCount": 1991,
+      "sha256": "49212ebe03b022b0f3f1105cdc2f5e35d1848814a1049407352e04b3ec7677c7"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/javascript/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/SKILL.md",
+      "byteCount": 14298,
+      "sha256": "e7ab1c1156216c3373a4a8c61e85d9b2d55b59f4c1cebd6142a15b42d151eef0"
     }
   ]
 }

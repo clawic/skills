@@ -1,11 +1,22 @@
 ---
-name: ChatGPT
+name: chatgpt
 slug: chatgpt
 version: 1.0.0
-homepage: https://clawic.com/skills/chatgpt
 description: Run ChatGPT with stronger prompts, Projects, GPTs, memory boundaries, and output QA for research, writing, analysis, and planning.
+homepage: https://clawic.com/skills/chatgpt
 changelog: Initial release with surface routing, prompt packets, project workflows, QA checks, and troubleshooting for repeatable ChatGPT work.
-metadata: {"clawdbot":{"emoji":"GPT","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/chatgpt/"]}}
+metadata:
+  clawdbot:
+    emoji: GPT
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/chatgpt/
+    displayName: ChatGPT
 ---
 
 ## Setup
@@ -20,10 +31,10 @@ Use this for research, writing, planning, analysis, brainstorming, study support
 
 ## Architecture
 
-Memory lives in `~/chatgpt/`. If `~/chatgpt/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/chatgpt/`. If `~/Clawic/data/chatgpt/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/chatgpt/
+~/Clawic/data/chatgpt/
 |- memory.md          # Activation preference, constraints, and default workflow
 |- workflows.md       # Reusable prompt packet patterns that worked well
 |- projects.md        # Active ChatGPT projects, files, and decision logs
@@ -99,7 +110,7 @@ Use the smallest relevant file for the current task.
 - Any instructions, files, or examples deliberately used in a ChatGPT workflow.
 
 **Data that stays local:**
-- Activation preferences, reusable workflows, project notes, GPT notes, and QA learnings under `~/chatgpt/`.
+- Activation preferences, reusable workflows, project notes, GPT notes, and QA learnings under `~/Clawic/data/chatgpt/`.
 
 **This skill does NOT:**
 - Automate browser sessions or upload files on its own.
@@ -113,7 +124,7 @@ This skill is designed to improve work done inside ChatGPT. When the user runs t
 Only install and use this skill if that data flow is acceptable for the user's task.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `assistant` - Build clearer working agreements and recurring collaboration patterns with an AI assistant.
 - `brainstorm` - Expand idea generation when the user wants divergence before converging into a final prompt packet.
@@ -123,5 +134,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star chatgpt`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/chatgpt
+- Latest version: https://clawic.com/skills/chatgpt

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3edbae2f45033c16cf1681a5020ef12a0d35a1943d02a7e5343ec96e8e5cd30c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "matomo",
-    "name": "Matomo Analytics",
+    "name": "matomo",
     "description": "Query, analyze, and manage Matomo Analytics with API integration, custom reports, and goal tracking.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/matomo",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. The skill stores configuration in `~/matomo/`. When to Use User needs to query Matomo analytics, generate reports, track goals, or manage their self-hosted ",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. The skill stores configuration in `~/Clawic/data/matomo/`. When to Use User needs to query Matomo analytics, generate reports, track goals, or manage their ",
     "repositoryPath": "skills/matomo",
     "manifestPath": "registry/skills/matomo.json"
   },
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/matomo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/_meta.json",
+      "byteCount": 174,
+      "sha256": "fd8b295db041d893d5cdb82c471345c495c9919a89fe06710a07ccbb896e21ad"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/matomo/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/api.md",
+      "byteCount": 3186,
+      "sha256": "531e62985713f609f7487e1a152a48e8c13b83fbb37e72a87d427e83a2efdb89"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/matomo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/memory-template.md",
+      "byteCount": 1819,
+      "sha256": "68422f0e7c0ef7953874373d47d0d63db33162cbfada5e4d5097667457265dd1"
     },
     {
       "path": "reports.md",
       "downloadPath": "skills/matomo/reports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/reports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/reports.md",
+      "byteCount": 2928,
+      "sha256": "3a6b6bdf5e5407b867008d9d7b9a245ef976830d9c880001904c144cbd7fa693"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/matomo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/setup.md",
+      "byteCount": 1927,
+      "sha256": "e31f396990370569c3ab9b5cc3d8e1428231407cc17990dc3e3477f9b2cd0184"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/matomo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/matomo/SKILL.md",
+      "byteCount": 5062,
+      "sha256": "23f8b018fe7424f535d5f37d9fe6439b50581fd2637ce0c0fecae8ebb943ad0a"
     }
   ]
 }

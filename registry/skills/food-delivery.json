@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ff4f80b5f5936721fd934dde68067a2631fbb6d5763d20213253fb1d8d4bb731",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "food-delivery",
-    "name": "Food Delivery",
+    "name": "food-delivery",
     "description": "Choose and order food with learned preferences, price comparison, and variety protection.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/food-delivery",
     "summary": "When to Use User wants their agent to handle the entire food ordering process — from deciding what to eat, through comparing options, to placing the actual order. Agent learns preferences over time and makes increasingly",
     "repositoryPath": "skills/food-delivery",
     "manifestPath": "registry/skills/food-delivery.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/food-delivery/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/_meta.json",
+      "byteCount": 178,
+      "sha256": "6e903af77bbe611ceab60079c4cc280400f14cd0d5fd4d34331fbbb3d4ee7d82"
     },
     {
       "path": "decisions.md",
       "downloadPath": "skills/food-delivery/decisions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/decisions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/decisions.md",
+      "byteCount": 4165,
+      "sha256": "38a63552608fc090a1d0233f7c25719dab253093b313b5ca8d0a8e379ac4d188"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/food-delivery/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/memory-template.md",
+      "byteCount": 2706,
+      "sha256": "2b47031cdfa018c75a9d1949bdb7c8d3c36036737a311434f571d30d030ea66f"
     },
     {
       "path": "ordering.md",
       "downloadPath": "skills/food-delivery/ordering.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/ordering.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/ordering.md",
+      "byteCount": 3954,
+      "sha256": "83621ef1d8947a384e646cb8eba47e4119bb407770457bc76a55261dd342bc7c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/food-delivery/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/SKILL.md",
+      "byteCount": 6573,
+      "sha256": "951f98353917570f918751295e3686d974931170d5ecc68696f99abeb176b04c"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/food-delivery/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food-delivery/traps.md",
+      "byteCount": 4307,
+      "sha256": "eb584072c2a67a9f4d063b260d2312ac5e3f563e0060f19462aef6d20a1495ed"
     }
   ]
 }

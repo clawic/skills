@@ -1,6 +1,6 @@
 # Memory Template - Sonoff
 
-Create `~/sonoff/memory.md` with this structure:
+Create `~/Clawic/data/sonoff/memory.md` with this structure:
 
 ```markdown
 # Sonoff Memory
@@ -55,7 +55,7 @@ integration: pending | complete | paused | never_ask
 
 ## File Templates
 
-Create `~/sonoff/devices.md`:
+Create `~/Clawic/data/sonoff/devices.md`:
 
 ```markdown
 # Device Registry
@@ -68,7 +68,7 @@ Create `~/sonoff/devices.md`:
 - Last verified:
 ```
 
-Create `~/sonoff/incidents.md`:
+Create `~/Clawic/data/sonoff/incidents.md`:
 
 ```markdown
 # Incident Log

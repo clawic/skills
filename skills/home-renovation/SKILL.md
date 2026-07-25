@@ -1,16 +1,27 @@
 ---
-name: Home Renovation
+name: home-renovation
 slug: home-renovation
 version: 1.0.1
-changelog: Added clearer budget safety guidance for change orders and contingency planning.
-homepage: https://clawic.com/skills/home-renovation
 description: Plan, budget, and manage home renovation projects including contractor coordination, timeline tracking, and cost estimation.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/home-renovation/"]}}
+homepage: https://clawic.com/skills/home-renovation
+changelog: Added clearer budget safety guidance for change orders and contingency planning.
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/home-renovation/
+    displayName: Home Renovation
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Create `~/home-renovation/` if it doesn't exist.
+On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/home-renovation/` if it doesn't exist.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User plans a home renovation or remodel. Agent tracks budgets, timelines, and co
 
 ## Architecture
 
-Memory lives in `~/home-renovation/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/home-renovation/`. See `memory-template.md` for structure.
 
 ```
-~/home-renovation/
+~/Clawic/data/home-renovation/
 ├── memory.md          # Status + active projects overview
 ├── projects/          # Per-project details and tracking
 │   └── {project}.md   # Budget, timeline, contractors, notes
@@ -148,7 +159,7 @@ When user mentions progress:
 ## Security & Privacy
 
 **Data that stays local:**
-- Project details in `~/home-renovation/`
+- Project details in `~/Clawic/data/home-renovation/`
 - Contractor contact info you provide
 - Budget and timeline tracking
 
@@ -156,15 +167,15 @@ When user mentions progress:
 - Access financial accounts
 - Contact contractors directly
 - Make purchases or payments
-- Access files outside `~/home-renovation/`
+- Access files outside `~/Clawic/data/home-renovation/`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `money` — Personal finance and budgeting
 - `projects` — General project tracking
 - `plan` — Planning and goal setting
 
 ## Feedback
 
-- If useful: `clawhub star home-renovation`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/home-renovation
+- Latest version: https://clawic.com/skills/home-renovation

@@ -1,6 +1,13 @@
 ---
-name: "Skill Test"
-description: "Test skills before using or publishing. Trial, compare, evaluate in isolation without affecting your environment."
+name: skill-test
+slug: skill-test
+version: 1.0.0
+description: Test skills before using or publishing. Trial, compare, evaluate in isolation without affecting your environment.
+homepage: https://clawic.com/skills/skill-test
+metadata:
+  clawdbot:
+    emoji: 🧪
+    displayName: Skill Test
 ---
 
 ## Test Skills Safely
@@ -78,7 +85,7 @@ sessions_spawn(
 
 **Skill requires credentials:** Ask user for test credentials or skip auth-dependent features.
 
-**Skill not found:** Verify slug with `npx clawhub info <slug>` before testing.
+**Skill not found:** Verify with `npx clawic show <slug>` before testing, or check the catalog page directly at `https://clawic.com/skills/<slug>`.
 
 **Test fails mid-way:** Sub-agent terminates cleanly. Review logs, adjust test task, retry.
 

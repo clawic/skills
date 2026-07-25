@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "82b289c8129bdd5ef343d024c925a62aadfcd959f00ca8af343bd3e4f4e7ac86",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "australia",
-    "name": "Australia",
+    "name": "australia",
     "description": "Discover Australia like a local with deep city-region coverage, practical route planning, food context, and execution-ready travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/australia",
-    "summary": "Setup If `~/australia/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Australia or asking for local insights: where to base, how to handle huge distances, what to pri",
+    "summary": "Setup If `~/Clawic/data/australia/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Australia or asking for local insights: where to base, how to handle huge distances,",
     "repositoryPath": "skills/australia",
     "manifestPath": "registry/skills/australia.json"
   },
@@ -22,172 +25,240 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/australia/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/_meta.json",
+      "byteCount": 170,
+      "sha256": "f0c70cb183fc9f8b919d12f8162c5a375d908f81650b418e782fade547770637"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/australia/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/accommodation.md",
+      "byteCount": 841,
+      "sha256": "1828bfe7e4365ecde8a188ac0982f9411f3acbcd40627e356314b2854413d050"
     },
     {
       "path": "adelaide-sa.md",
       "downloadPath": "skills/australia/adelaide-sa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/adelaide-sa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/adelaide-sa.md",
+      "byteCount": 765,
+      "sha256": "1f5a1a46a69b53a16f38422867ccc7f021269ac8c76fffe546f982352a2872c5"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/australia/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/apps.md",
+      "byteCount": 566,
+      "sha256": "0f698e6507eb905f9740868d122d353efa5084ac23dbe1eccd6b1badb3311ed3"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/australia/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/beaches.md",
+      "byteCount": 666,
+      "sha256": "2ad7cb9fd031d9a175ff2f5a7eabd3f96daf80f5870ba70efefe1963327870be"
     },
     {
       "path": "brisbane-gold-coast.md",
       "downloadPath": "skills/australia/brisbane-gold-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/brisbane-gold-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/brisbane-gold-coast.md",
+      "byteCount": 752,
+      "sha256": "4dbc1bc6798b90f29711913c623f64d0a3b129a23861a4224da1695c01b053b8"
     },
     {
       "path": "cairns-reef.md",
       "downloadPath": "skills/australia/cairns-reef.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/cairns-reef.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/cairns-reef.md",
+      "byteCount": 802,
+      "sha256": "f396885261e697604ee5528ad54f78e233d556e2c64d60bf57b401ec8225fc49"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/australia/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/culture.md",
+      "byteCount": 687,
+      "sha256": "1c89ac9a6bb0fc1e715d450af8fbcc9239be7faa524bd79ae4831e978e20e815"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/australia/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/emergencies.md",
+      "byteCount": 973,
+      "sha256": "d0f9d335f83f24f31ac704d9ebf390ef7feceead07e5288609207c66a92db2f6"
     },
     {
       "path": "entry-and-biosecurity.md",
       "downloadPath": "skills/australia/entry-and-biosecurity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/entry-and-biosecurity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/entry-and-biosecurity.md",
+      "byteCount": 802,
+      "sha256": "09026098e28816282b8b85fd236376ee14ffbbc3a8eee2340084c960891e4dc7"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/australia/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/experiences.md",
+      "byteCount": 665,
+      "sha256": "00d89851529b916b7a0dfc83e4b62a3c564ad353eef0eaf1295fb583cf325cdf"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/australia/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/food-guide.md",
+      "byteCount": 876,
+      "sha256": "46430e5241cb0d56bc7d8657d511f89b505b207ed2e5b512872af1086b4e7ddd"
     },
     {
       "path": "great-ocean-road.md",
       "downloadPath": "skills/australia/great-ocean-road.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/great-ocean-road.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/great-ocean-road.md",
+      "byteCount": 704,
+      "sha256": "80effea8a6475639749aca463f0540255554ca04da5686ed4d2a9efb7f95bb11"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/australia/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/hiking.md",
+      "byteCount": 644,
+      "sha256": "2496abbc3254742350e9c5538d3b8d2244e30b509a35fa08e374b7c7edca701d"
     },
     {
       "path": "hobart-tasmania.md",
       "downloadPath": "skills/australia/hobart-tasmania.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/hobart-tasmania.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/hobart-tasmania.md",
+      "byteCount": 688,
+      "sha256": "09fce029e05f890dcea9360916cab4de052557f5cc64036656cd862bd65e6bee"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/australia/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/itineraries.md",
+      "byteCount": 663,
+      "sha256": "211fcc1f988f4a2f76c208816b16230364f6ce816f8baae9c0e689eea6741cae"
     },
     {
       "path": "melbourne.md",
       "downloadPath": "skills/australia/melbourne.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/melbourne.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/melbourne.md",
+      "byteCount": 876,
+      "sha256": "a16046f84c770e19c6520de0b218a115a1cb7f2ceeb27a087ab5c657ad094535"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/australia/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/memory-template.md",
+      "byteCount": 1331,
+      "sha256": "9af5fb8c54e941b2dc8893c0851c599f2407cdf2ba95d5f88d51f306e463d384"
     },
     {
       "path": "national-parks-and-permits.md",
       "downloadPath": "skills/australia/national-parks-and-permits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/national-parks-and-permits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/national-parks-and-permits.md",
+      "byteCount": 708,
+      "sha256": "1580ba66bc7de027f55a44c5ce28efc7ea195c347a5b3078210f4e3459170d94"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/australia/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/nightlife.md",
+      "byteCount": 670,
+      "sha256": "7dc1cb4cdad27be61017691a11986af52afb300117017ce78e5bd4882716f3fa"
     },
     {
       "path": "payment-and-costs.md",
       "downloadPath": "skills/australia/payment-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/payment-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/payment-and-costs.md",
+      "byteCount": 732,
+      "sha256": "74bf84a4891e22b3f02db3860ea36b12ebb580aae4001e41bfdbd2f3453982cf"
     },
     {
       "path": "perth-wa.md",
       "downloadPath": "skills/australia/perth-wa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/perth-wa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/perth-wa.md",
+      "byteCount": 767,
+      "sha256": "1b70e9638c895c06f6065bf2960e5ddfa28db1780cdaaf5e7e86589146ba420b"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/australia/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/regions.md",
+      "byteCount": 717,
+      "sha256": "504c93469698cb97c38e29fc1bddfde9a6b261607513f0709f8272a78524072e"
     },
     {
       "path": "road-trips.md",
       "downloadPath": "skills/australia/road-trips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/road-trips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/road-trips.md",
+      "byteCount": 783,
+      "sha256": "d6ac7e0c2421cfa5f317a1f9291582c48fafa819607908310ac4a95891f09e01"
     },
     {
       "path": "seasonality.md",
       "downloadPath": "skills/australia/seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/seasonality.md",
+      "byteCount": 615,
+      "sha256": "518406de0a6b2c186c44329d8fd08739b92620a748df6728cbc2340b09afab7a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/australia/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/setup.md",
+      "byteCount": 1667,
+      "sha256": "6472594a622ffb73770a642b5505023f599bb70376ae0b12a2c88e6968aed715"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/australia/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/SKILL.md",
+      "byteCount": 6256,
+      "sha256": "66d5dde8f10307720a018c78067e1e1cb2ca9206dc17fa056889520e9edb6441"
     },
     {
       "path": "sydney.md",
       "downloadPath": "skills/australia/sydney.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/sydney.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/sydney.md",
+      "byteCount": 982,
+      "sha256": "b6a037f9c4b3451d7e88c0ae8114a458784781ae02e3064007744549f37ece27"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/australia/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/telecoms.md",
+      "byteCount": 569,
+      "sha256": "c6527d0a9423797e356b29e3b40dd29e41df13b7a506093320f28114cdda80bb"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/australia/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/transport.md",
+      "byteCount": 776,
+      "sha256": "54e9f63118898dcc599a7855b970ad6e41fc8b2f9ccdf5d8cc450257bdb354d2"
     },
     {
       "path": "uluru-red-centre.md",
       "downloadPath": "skills/australia/uluru-red-centre.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/uluru-red-centre.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/uluru-red-centre.md",
+      "byteCount": 658,
+      "sha256": "5f093e36937bd69224f3ba8f34d0b53fd2afff4ac603d831386bccabe5868d1c"
     },
     {
       "path": "wildlife-safety.md",
       "downloadPath": "skills/australia/wildlife-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/wildlife-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/wildlife-safety.md",
+      "byteCount": 726,
+      "sha256": "ac5b7b991994ab379c0d274b19e50531c8bdd134651239ab446d8e9133145156"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/australia/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/wine.md",
+      "byteCount": 787,
+      "sha256": "ad5e940b4238dbb60f275cb57a6ffac5bfd8b13bed94873e48743c19e7065662"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/australia/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/australia/with-kids.md",
+      "byteCount": 689,
+      "sha256": "cf135d1b73b5dbe75449d371ed969521e3c8f37295a8a22c0b308dfa08baeed5"
     }
   ]
 }

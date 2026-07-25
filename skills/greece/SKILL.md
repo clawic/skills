@@ -1,16 +1,27 @@
 ---
-name: Greece
+name: greece
 slug: greece
 version: 1.0.0
-homepage: https://clawic.com/skills/greece
-changelog: "Initial release with island-mainland routing, ferry logistics, and practical Greece travel playbooks."
 description: Plan Greece trips with island-mainland routing, ferry logistics, verified entry rules, and practical seasonal safety.
-metadata: {"clawdbot":{"emoji":"🇬🇷","requires":{"bins":[],"config":["~/greece/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/greece
+changelog: Initial release with island-mainland routing, ferry logistics, and practical Greece travel playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇬🇷
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/greece/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Greece
 ---
 
 ## Setup
 
-If `~/greece/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/greece/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Greece trip and needs practical guidance beyond generic islan
 
 ## Architecture
 
-Memory lives in `~/greece/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
+Memory lives in `~/Clawic/data/greece/`. See `setup.md` for first activation flow and `memory-template.md` for the file structure.
 
 ```text
-~/greece/
+~/Clawic/data/greece/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -109,12 +120,12 @@ Every output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/greece/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/greece/`
 
-**This skill does NOT:** Access files outside `~/greece/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/greece/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `booking` - Reservation workflow and confirmation hygiene
 - `car-rental` - Better island and mainland rental strategy
@@ -123,5 +134,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star greece`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/greece
+- Latest version: https://clawic.com/skills/greece

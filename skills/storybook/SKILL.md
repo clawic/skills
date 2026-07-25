@@ -1,7 +1,20 @@
 ---
-name: Storybook
+name: storybook
+slug: storybook
+version: 1.0.0
 description: Build component stories with proper args, controls, decorators, and testing patterns.
-metadata: {"clawdbot":{"emoji":"📖","requires":{"bins":["npx"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/storybook
+metadata:
+  clawdbot:
+    emoji: 📖
+    requires:
+      bins:
+      - npx
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Storybook
 ---
 
 ## CSF Format (Component Story Format)

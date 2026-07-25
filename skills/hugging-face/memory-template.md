@@ -1,6 +1,6 @@
 # Memory Template - Hugging Face
 
-Create `~/hugging-face/memory.md` with this structure:
+Create `~/Clawic/data/hugging-face/memory.md` with this structure:
 
 ```markdown
 # Hugging Face Memory

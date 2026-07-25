@@ -1,11 +1,20 @@
 ---
-name: Mindfulness (Tracker, Logger, Guided Practice)
+name: mindfulness
 slug: mindfulness
 version: 1.0.0
-homepage: https://clawic.com/skills/mindfulness
 description: Track mindfulness habits, run guided meditations, and improve calm focus with adaptive routines, reflective logs, and context-aware practice plans.
+homepage: https://clawic.com/skills/mindfulness
 changelog: Initial release with guided meditation flows, structured tracking, and adaptive mindfulness recommendations for daily consistency.
-metadata: {"clawdbot":{"emoji":"M","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: M
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Mindfulness (Tracker, Logger, Guided Practice)
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent handles session guidance, structured logging, trend-based adjustments, and
 
 ## Architecture
 
-Memory lives in `~/mindfulness/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/mindfulness/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/mindfulness/
+~/Clawic/data/mindfulness/
 ├── memory.md            # Status, active mode, constraints, and baseline
 ├── logs/sessions.md     # Session-by-session logs with quality and context
 ├── plans/current.md     # Current plan, cadence, and next-step focus
@@ -45,7 +54,7 @@ Memory lives in `~/mindfulness/`. See `memory-template.md` for structure and sta
 
 ## Data Storage
 
-Local notes stay in `~/mindfulness/`.
+Local notes stay in `~/Clawic/data/mindfulness/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -115,7 +124,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - session logs, recommendation decisions, and routine planning notes approved by the user.
-- stored in `~/mindfulness/`.
+- stored in `~/Clawic/data/mindfulness/`.
 
 **This skill does NOT:**
 - make undeclared network calls.
@@ -130,7 +139,7 @@ This is an instruction-only mindfulness coaching and tracking skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - broad health context that can shape mindfulness goals.
 - `coach` - accountability loops and progress review structure.
 - `habits` - routine design and adherence reinforcement patterns.
@@ -139,5 +148,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star mindfulness`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mindfulness
+- Latest version: https://clawic.com/skills/mindfulness

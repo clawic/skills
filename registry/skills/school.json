@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4b4c07334ed292e09a90fc3d11caeb25d99b15d147fd8450b05cc4e2415faa47",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "school",
-    "name": "School",
+    "name": "school",
     "description": "AI-powered education for K-12 students with parental controls, adaptive learning by age, homework help, exam prep, and progress tracking.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/school",
     "summary": "When to Use Parent wants to: support their child's education (preschool through high school), create a virtual school complement, track academic progress, or help with homework and exam preparation. Works for any country",
     "repositoryPath": "skills/school",
     "manifestPath": "registry/skills/school.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/school/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/_meta.json",
+      "byteCount": 164,
+      "sha256": "9563e93571ae9d5672df0e77db87732a7c1113140730f97712fe3e3444afad92"
     },
     {
       "path": "by-age.md",
       "downloadPath": "skills/school/by-age.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/by-age.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/by-age.md",
+      "byteCount": 4574,
+      "sha256": "11c38d8583a905363b9e7b5509b4f9de5f25da412852dd459af44ffc40baa619"
     },
     {
       "path": "curriculum.md",
       "downloadPath": "skills/school/curriculum.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/curriculum.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/curriculum.md",
+      "byteCount": 3828,
+      "sha256": "01f47b032b9d439f50b333f6eb1fca660595f014a1fbe64711ab072c38838108"
     },
     {
       "path": "exams.md",
       "downloadPath": "skills/school/exams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/exams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/exams.md",
+      "byteCount": 3685,
+      "sha256": "b4b7ceb000ea74b1d7be190da15f0837357c02d244cbaf96d9d7365eaf288ab1"
     },
     {
       "path": "motivation.md",
       "downloadPath": "skills/school/motivation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/motivation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/motivation.md",
+      "byteCount": 4260,
+      "sha256": "af58ed61c8e0e6a3a8782bbba0b6e7fd152ff41640f9c7bb3df3bb5d06031deb"
     },
     {
       "path": "parents.md",
       "downloadPath": "skills/school/parents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/parents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/parents.md",
+      "byteCount": 3784,
+      "sha256": "267525a7f03aa0a3e9ea9c86aa7d96a2019aa8a7b712864bde64decfb300e25f"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/school/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/safety.md",
+      "byteCount": 4975,
+      "sha256": "2930e8b2ac849bc8f2be3bc900770f3c164dd00ba75aafbfc4f85bf74646144a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/school/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/SKILL.md",
+      "byteCount": 3958,
+      "sha256": "025b39a6df4a824cea527b33ff4378ae51cd2d7cee5512b15d0ce4f802c67f6e"
     },
     {
       "path": "tutoring.md",
       "downloadPath": "skills/school/tutoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/tutoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/school/tutoring.md",
+      "byteCount": 4144,
+      "sha256": "6d0ee0ad824b308688d586bbe2d6b318eb35879bec83df1e630d93ea6c9f48b0"
     }
   ]
 }

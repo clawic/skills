@@ -1,10 +1,19 @@
 ---
-name: Mumbai
+name: mumbai
 slug: mumbai
 version: 1.0.0
-homepage: https://clawic.com/skills/mumbai
 description: Navigate Mumbai as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, local trains, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏙️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mumbai
+metadata:
+  clawdbot:
+    emoji: 🏙️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Mumbai
 ---
 
 ## When to Use
@@ -165,7 +174,7 @@ For NRIs returning:
 See `visas.md` for detailed requirements.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `dubai` — Fellow financial hub, many Mumbai expats there
 - `travel` — General travel planning and tips
@@ -173,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star mumbai`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mumbai
+- Latest version: https://clawic.com/skills/mumbai

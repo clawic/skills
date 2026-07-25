@@ -1,7 +1,17 @@
 ---
-name: Blender
+name: blender
+slug: blender
+version: 1.0.0
 description: Avoid common Blender mistakes — transform application, modifier order, UV seams, and export settings for game engines.
-metadata: {"clawdbot":{"emoji":"🧊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/blender
+metadata:
+  clawdbot:
+    emoji: 🧊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Blender
 ---
 
 ## Transforms

@@ -1,6 +1,6 @@
 # Memory Template - Email Management
 
-Create `~/email-management/memory.md` with this structure:
+Create `~/Clawic/data/email-management/memory.md` with this structure:
 
 ```markdown
 # Email Management Memory

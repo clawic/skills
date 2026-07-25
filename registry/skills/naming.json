@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4db58ac0f9de3bffc753d8f6d6b175a2df9bdc8fdaeda5417d053336618e7a24",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "naming",
-    "name": "Naming",
+    "name": "naming",
     "description": "Create, test, and choose names for products, features, APIs, files, and systems with constraint-first briefs and collision checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/naming",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/naming/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/_meta.json",
+      "byteCount": 164,
+      "sha256": "90568d0005889d9c2c8d05bf2b201f9f18e7f0150a0b720b79b1207658cfb7eb"
     },
     {
       "path": "brief-template.md",
       "downloadPath": "skills/naming/brief-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/brief-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/brief-template.md",
+      "byteCount": 2035,
+      "sha256": "3e1eea38435e0723c2e9b66dd79980fb9bcdddbcf465cafbcce943974ccd853e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/naming/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/memory-template.md",
+      "byteCount": 2096,
+      "sha256": "465239ba131f42c37e44d6e61ae3c1d651b2a18828a2d6a856c44aa157d5b19e"
     },
     {
       "path": "rename-playbook.md",
       "downloadPath": "skills/naming/rename-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/rename-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/rename-playbook.md",
+      "byteCount": 1631,
+      "sha256": "0b395a550ef53586d958947358e0ebedefaf97ec1295704991fae11f1cb1a57c"
     },
     {
       "path": "scorecard.md",
       "downloadPath": "skills/naming/scorecard.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/scorecard.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/scorecard.md",
+      "byteCount": 2202,
+      "sha256": "1a222862ecdba3e0e8b144fc508b062c31d563566fd0e8a65f929f7c97f1a494"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/naming/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/setup.md",
+      "byteCount": 2446,
+      "sha256": "df69900b4621fe92b4ce1bd091119f12fb3d4d819083456fb4cb92a2b8119ee5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/naming/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/SKILL.md",
+      "byteCount": 8720,
+      "sha256": "14ae5ca609006b34ce557f3e7ecfb16285e4433771115dfae6f3b428d264a349"
     },
     {
       "path": "surface-patterns.md",
       "downloadPath": "skills/naming/surface-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/surface-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/naming/surface-patterns.md",
+      "byteCount": 2348,
+      "sha256": "d50d248360b3c1e9671d6b516623a0317e5fcd2b42b9a6fe26231028e98f32c1"
     }
   ]
 }

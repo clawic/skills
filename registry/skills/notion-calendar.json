@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "24991ee2b0b827c9a6ee555b5e1f01da91766d03a47eb468a9b86b0f2157c841",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "notion-calendar",
-    "name": "Notion Calendar",
+    "name": "notion-calendar",
     "description": "Manage Notion calendar databases with date-aware search, page creation, rescheduling, and safe workflows for planning views.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/notion-calendar",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/notion-calendar/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/_meta.json",
+      "byteCount": 182,
+      "sha256": "aed1c79efc22750e5e20ae9c51db4a9360680dfbba42c361dfd92e254f3ba5e5"
     },
     {
       "path": "calendar-schema.md",
       "downloadPath": "skills/notion-calendar/calendar-schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendar-schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendar-schema.md",
+      "byteCount": 1080,
+      "sha256": "405bcc841c799b2f0710c61c2abef108dfa8a06f15ad875c57f2bd7a483c3bb3"
     },
     {
       "path": "calendars.md",
       "downloadPath": "skills/notion-calendar/calendars.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendars.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/calendars.md",
+      "byteCount": 663,
+      "sha256": "bea21560c1cb820b360d0dad1718af5bd9f406c4175c0859fbb480423ebfa9f7"
     },
     {
       "path": "cli-patterns.md",
       "downloadPath": "skills/notion-calendar/cli-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/cli-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/cli-patterns.md",
+      "byteCount": 1072,
+      "sha256": "688c45aaa0a0fb231dcbdb9cd2cee91a1c7b13da67f64cb87a810bc2e7504347"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/notion-calendar/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/memory-template.md",
+      "byteCount": 1509,
+      "sha256": "cb5bf5524f7f475f1b33446ddf86a726f0b274012baba28f52d7cbd1ff72962d"
     },
     {
       "path": "query-playbook.md",
       "downloadPath": "skills/notion-calendar/query-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/query-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/query-playbook.md",
+      "byteCount": 1249,
+      "sha256": "4f2da9eff6aafb2ae24463b3c3fef7f581877ec7f582c178fac3e01cd05f6a7a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/notion-calendar/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/setup.md",
+      "byteCount": 2083,
+      "sha256": "e0c952d041874d14bce528442f89d81d62fabd9814d6f7b1c8a728a0aae6d804"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/notion-calendar/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/SKILL.md",
+      "byteCount": 6955,
+      "sha256": "13e1e24a9fd85fd1dc17e57366eba1fc4e96ccbc0bc7ae6b207a4508e1d08b47"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/notion-calendar/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/templates.md",
+      "byteCount": 602,
+      "sha256": "23701c8ca2e50539349d3829ad2fd9945d30ed92a790bd11c419d0739a56e3b9"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/notion-calendar/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-calendar/troubleshooting.md",
+      "byteCount": 1018,
+      "sha256": "50dff27f28f12e48510990ff7d1c3efa6fa004481a2c5715c87659b566d1a928"
     }
   ]
 }

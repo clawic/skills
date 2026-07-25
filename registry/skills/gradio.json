@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c641391e84477e69431025e6cb2b2bb4387fc1729258b6a03978287a4bfc8b56",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "gradio",
-    "name": "Gradio",
+    "name": "gradio",
     "description": "Build and deploy ML demo interfaces with proper state management, queuing, and production patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gradio",
     "summary": "Gradio Patterns Interface vs Blocks - `gr.Interface` is for single-function demos — use `gr.Blocks` for anything with multiple steps, conditional UI, or custom layout - Blocks gives you `.click()`, `.change()`, `.submit(",
     "repositoryPath": "skills/gradio",
     "manifestPath": "registry/skills/gradio.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gradio/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gradio/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gradio/_meta.json",
+      "byteCount": 164,
+      "sha256": "fe9ab22e29ed4dadeb4cc88eefdd183c7de2f543e2050cf569c5601def2c1f76"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gradio/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gradio/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gradio/SKILL.md",
+      "byteCount": 4188,
+      "sha256": "030b3b3998a8d40d88a41beeb607b75c1f4790473f714e528cf62d6879f78fb3"
     }
   ]
 }

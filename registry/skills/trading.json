@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5126b3dae7813d2fe5d2b0b708809c24e0fb7446130463ca69c4d49dfff41ccc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "trading",
-    "name": "Trading",
+    "name": "trading",
     "description": "Trading analysis and education. Technical analysis, chart patterns, risk management, and position sizing for stocks, forex, and crypto.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/trading",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/trading/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/_meta.json",
+      "byteCount": 242,
+      "sha256": "a4b6384fd64a1f33a5966a114ee07bd244685e49aa2d284e194bde2614706f1c"
     },
     {
       "path": "getting-started.md",
       "downloadPath": "skills/trading/getting-started.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/getting-started.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/getting-started.md",
+      "byteCount": 2253,
+      "sha256": "667c36dca2c0459e8db858f6856138d03b96ef7e52ae1e8a1bdf531cb0b122fb"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/trading/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/legal.md",
+      "byteCount": 4074,
+      "sha256": "6d226ac78db9617a46db261b68445b28ebd7d4f0d5e530485af6e370a5e82223"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/trading/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/memory-template.md",
+      "byteCount": 1644,
+      "sha256": "0ed8f0a55ce8267357887aa92bcb6f1131685070782ef597fdbf0446ed861c26"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/trading/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/platforms.md",
+      "byteCount": 3025,
+      "sha256": "0b036b33db6b688b715e4fddeeec3e9152f5311062cdd6633ac0aa9d2aa54f00"
     },
     {
       "path": "risk.md",
       "downloadPath": "skills/trading/risk.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/risk.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/risk.md",
+      "byteCount": 2754,
+      "sha256": "b0a4bd348ad43905df7092e91087f67dcca8a59463f62535704a7d1855e83563"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/trading/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/setup.md",
+      "byteCount": 1317,
+      "sha256": "e66aab4447dbbe7ca0d9cdd98f513b58c46c20640a29c9dbbcee6122cc383ca9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/trading/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/SKILL.md",
+      "byteCount": 6257,
+      "sha256": "10246ab0d3b1211d7aa5275a05f746e49d3d873e4be3fbfaf388dc6e76973cb2"
     },
     {
       "path": "technical.md",
       "downloadPath": "skills/trading/technical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/technical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/trading/technical.md",
+      "byteCount": 2386,
+      "sha256": "7c2abfd1d1c02f0dd3cc01995a9a319cc41047e00b0e63f5ecf5a6211bf5d190"
     }
   ]
 }

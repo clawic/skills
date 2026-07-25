@@ -1,6 +1,6 @@
 # Setup — Beauty
 
-Read this on first activation when `~/beauty/` does not exist or is incomplete.
+Read this on first activation when `~/Clawic/data/beauty/` does not exist or is incomplete.
 
 ## Operating Attitude
 
@@ -12,10 +12,10 @@ Read this on first activation when `~/beauty/` does not exist or is incomplete.
 
 1. Propose local structure and ask for explicit approval before writing files:
 ```bash
-mkdir -p ~/beauty/{routines,products,notes}
-touch ~/beauty/memory.md
+mkdir -p ~/Clawic/data/beauty/{routines,products,notes}
+touch ~/Clawic/data/beauty/memory.md
 chmod 700 ~/beauty
-chmod 600 ~/beauty/memory.md
+chmod 600 ~/Clawic/data/beauty/memory.md
 ```
 2. If approved and `memory.md` is empty, initialize from `memory-template.md`.
 3. Continue with the user request immediately after setup.

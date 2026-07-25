@@ -1,10 +1,19 @@
 ---
-name: Vancouver
+name: vancouver
 slug: vancouver
 version: 1.0.0
-homepage: https://clawic.com/skills/vancouver
 description: Navigate Vancouver as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.
-metadata: {"clawdbot":{"emoji":"🏔️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vancouver
+metadata:
+  clawdbot:
+    emoji: 🏔️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Vancouver
 ---
 
 ## When to Use
@@ -167,7 +176,7 @@ Key things newcomers should know:
 See `safety.md` and `local.md` for detailed guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `toronto` — Canada's largest city, different vibe but similar immigration
 - `seattle` — Closest US city, similar tech scene and outdoor culture
@@ -176,5 +185,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star vancouver`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/vancouver
+- Latest version: https://clawic.com/skills/vancouver

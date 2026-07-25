@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "69e8943e8a419bdd7d323109c0540a4b20cb484181ca234c8ab82357931df3fe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "retention",
-    "name": "Retention",
+    "name": "retention",
     "description": "User retention strategy, cohort analysis, churn prevention, and reactivation campaigns",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/retention",
     "summary": "Core Metrics | Metric | Formula | Healthy Range | |--------|---------|---------------| | Day 1 retention | Users active day 1 / signups | 40-60% | | Day 7 retention | Users active day 7 / signups | 20-35% | | Day 30 rete",
     "repositoryPath": "skills/retention",
     "manifestPath": "registry/skills/retention.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/retention/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/retention/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/retention/_meta.json",
+      "byteCount": 170,
+      "sha256": "95e3da97134d2d71c8aed3408c583d06708ac1c2d8c3601cfbd5a9d4d3a7dfc0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/retention/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/retention/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/retention/SKILL.md",
+      "byteCount": 4222,
+      "sha256": "fdca8c93306d7f414859a5cc89f4a8e1edd9972b66b9c13b5f6b2051c7e3ef06"
     }
   ]
 }

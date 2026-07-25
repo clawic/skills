@@ -1,6 +1,6 @@
 # Setup — YouTube Video Transcript
 
-Read this when `~/youtube-video-transcript/` doesn't exist or is empty.
+Read this when `~/Clawic/data/youtube-video-transcript/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -27,7 +27,7 @@ If they came with a specific video, help with that first. Don't delay with quest
 ### 2. Then: Ask About Caching Preference
 
 After the first transcript, ask:
-- "Want me to save transcripts locally for faster access next time? They'll go in ~/youtube-video-transcript/videos/"
+- "Want me to save transcripts locally for faster access next time? They'll go in ~/Clawic/data/youtube-video-transcript/videos/"
 - Respect their choice. If they say no, don't cache.
 
 ### 3. Finally: Integration
@@ -38,7 +38,7 @@ When appropriate in conversation:
 
 ## What to Save (With User Consent)
 
-If user agrees to caching, save to `~/youtube-video-transcript/memory.md`:
+If user agrees to caching, save to `~/Clawic/data/youtube-video-transcript/memory.md`:
 - **Preferred format:** markdown / text / srt
 - **Timestamp preference:** always / sometimes / never
 - **Summary style:** brief / detailed / chapter-based

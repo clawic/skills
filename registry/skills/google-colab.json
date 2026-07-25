@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "da71e1eb98356b6f74369c5015e58c3379958c50cf6539e471e83bb3402fbf85",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "google-colab",
-    "name": "Google Colab",
+    "name": "google-colab",
     "description": "Run Google Colab notebooks for Python and machine learning with reproducible runtimes, data pipelines, debugging workflows, and experiment discipline.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/google-colab",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/google-colab/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/_meta.json",
+      "byteCount": 176,
+      "sha256": "18b0206e9b16bbc7a7c99ee7de31e114863eab7dace31df5546158f3c49ba1a7"
     },
     {
       "path": "data-io-patterns.md",
       "downloadPath": "skills/google-colab/data-io-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/data-io-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/data-io-patterns.md",
+      "byteCount": 1106,
+      "sha256": "ad88cfdfc5aae9561475a3801b5a47a1a09f63cf47b60385120fa546d658997a"
     },
     {
       "path": "debugging-runbook.md",
       "downloadPath": "skills/google-colab/debugging-runbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/debugging-runbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/debugging-runbook.md",
+      "byteCount": 777,
+      "sha256": "830140a730d54bbd334d4c0afe8c2dc9ecac38a41cea2c0b4ec96190ac838aca"
     },
     {
       "path": "experiment-log-template.md",
       "downloadPath": "skills/google-colab/experiment-log-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/experiment-log-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/experiment-log-template.md",
+      "byteCount": 745,
+      "sha256": "59b893d7b63fae00431ca208ca1964f692c725486b3930397b1bb9192ed149b6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/google-colab/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/memory-template.md",
+      "byteCount": 2033,
+      "sha256": "ec3b87132dd0e4bb0cb8e901ac3902d7dda994def01ccc6cac1b713d88ece9a2"
     },
     {
       "path": "notebook-architecture.md",
       "downloadPath": "skills/google-colab/notebook-architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/notebook-architecture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/notebook-architecture.md",
+      "byteCount": 1082,
+      "sha256": "1a20d7e7a4f8540f0806ea70bd738ba74f89390a88d0b40f9916361f8ff9b332"
     },
     {
       "path": "runtime-playbook.md",
       "downloadPath": "skills/google-colab/runtime-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/runtime-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/runtime-playbook.md",
+      "byteCount": 1068,
+      "sha256": "0ffcb1a39fc6dd769971467179047535c4eacabf6fa504d814d5cc7363e416f6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-colab/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/setup.md",
+      "byteCount": 2309,
+      "sha256": "2cc37dd51880b3389b30b054f74105e0d7fbe00456b0781eeb8ea3bd28e5c9d8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/google-colab/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-colab/SKILL.md",
+      "byteCount": 7861,
+      "sha256": "02e178498f12cd4584e266cd0576b838bfffb7c756b1f2cf2d3b74311509fd6d"
     }
   ]
 }

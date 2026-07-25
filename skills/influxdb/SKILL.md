@@ -1,7 +1,21 @@
 ---
-name: InfluxDB
+name: influxdb
+slug: influxdb
+version: 1.0.0
 description: Store and query time-series data with proper schema design and retention.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"anyBins":["influx","curl"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/influxdb
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      anyBins:
+      - influx
+      - curl
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: InfluxDB
 ---
 
 ## Version Differences

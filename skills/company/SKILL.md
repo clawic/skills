@@ -1,6 +1,13 @@
 ---
-name: "Company"
-description: "Build an agent-powered organization by mapping functions to skills and iterating on structure."
+name: company
+slug: company
+version: 1.0.0
+description: Build an agent-powered organization by mapping functions to skills and iterating on structure.
+homepage: https://clawic.com/skills/company
+metadata:
+  clawdbot:
+    emoji: 🏢
+    displayName: Company
 ---
 
 ## Triggers

@@ -1,6 +1,6 @@
 # Memory Template - Home Buying
 
-Create `~/home-buying/memory.md` with this structure:
+Create `~/Clawic/data/home-buying/memory.md` with this structure:
 
 ```markdown
 # Home Buying Memory

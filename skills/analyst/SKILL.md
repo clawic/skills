@@ -1,7 +1,17 @@
 ---
-name: Analyst
+name: analyst
+slug: analyst
+version: 1.0.0
 description: Extract insights from data with SQL, visualization, and clear communication of findings.
-metadata: {"clawdbot":{"emoji":"🔍","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/analyst
+metadata:
+  clawdbot:
+    emoji: 🔍
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Analyst
 ---
 
 # Data Analysis Rules

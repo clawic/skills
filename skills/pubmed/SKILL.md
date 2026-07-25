@@ -1,7 +1,17 @@
 ---
-name: PubMed
+name: pubmed
+slug: pubmed
+version: 1.0.0
 description: Search and evaluate biomedical literature with effective queries, filters, and critical appraisal.
-metadata: {"clawdbot":{"emoji":"🔬","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pubmed
+metadata:
+  clawdbot:
+    emoji: 🔬
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: PubMed
 ---
 
 # PubMed Research Rules

@@ -25,7 +25,7 @@ When user overrides agent judgment:
 
 ## Storage Format
 
-Update `~/screenshots/learnings.md`:
+Update `~/Clawic/data/screenshots/learnings.md`:
 
 ```markdown
 # Screenshot Learnings

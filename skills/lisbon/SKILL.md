@@ -1,10 +1,19 @@
 ---
-name: Lisbon
+name: lisbon
 slug: lisbon
 version: 1.0.0
-homepage: https://clawic.com/skills/lisbon
 description: Navigate Lisbon as visitor, resident, digital nomad, tech worker, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🇵🇹","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/lisbon
+metadata:
+  clawdbot:
+    emoji: 🇵🇹
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Lisbon
 ---
 
 ## When to Use

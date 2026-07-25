@@ -1,15 +1,24 @@
 ---
-name: Mobile App Analytics
+name: mobile-app-analytics
 slug: mobile-app-analytics
 version: 1.0.0
-homepage: https://clawic.com/skills/mobile-app-analytics
 description: Track mobile app metrics with Firebase, App Store Connect, Play Console, retention, funnels, and cohort analysis.
-metadata: {"clawdbot":{"emoji":"📱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mobile-app-analytics
+metadata:
+  clawdbot:
+    emoji: 📱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Mobile App Analytics
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Create `~/mobile-app-analytics/` if it doesn't exist.
+On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/mobile-app-analytics/` if it doesn't exist.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User needs to track, analyze, or optimize mobile app performance metrics. Agent 
 
 ## Architecture
 
-Memory lives in `~/mobile-app-analytics/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/mobile-app-analytics/`. See `memory-template.md` for setup.
 
 ```
-~/mobile-app-analytics/
+~/Clawic/data/mobile-app-analytics/
 ├── memory.md          # Apps tracked, goals, alerts
 ├── apps/              # Per-app analytics configs
 │   └── {app-name}.md  # Events, funnels, KPIs per app
@@ -120,34 +129,34 @@ No other data is sent externally.
 - Analytics queries to Firebase/Apple/Google APIs when you provide credentials
 
 **Data that stays local:**
-- Your tracked apps and goals in `~/mobile-app-analytics/`
+- Your tracked apps and goals in `~/Clawic/data/mobile-app-analytics/`
 - Benchmark comparisons and notes
 
 **This skill does NOT:**
 - Store credentials (use your platform's standard credential methods)
-- Access files outside `~/mobile-app-analytics/`
+- Access files outside `~/Clawic/data/mobile-app-analytics/`
 - Make requests to undeclared endpoints
 
 ## Scope
 
 This skill ONLY:
 - Provides guidance on mobile app analytics platforms
-- Stores your app configurations in `~/mobile-app-analytics/`
+- Stores your app configurations in `~/Clawic/data/mobile-app-analytics/`
 - Queries Firebase, App Store Connect, and Play Console when you provide credentials
 
 This skill NEVER:
 - Stores credentials in files (use environment variables)
-- Accesses files outside `~/mobile-app-analytics/`
+- Accesses files outside `~/Clawic/data/mobile-app-analytics/`
 - Makes requests to undeclared endpoints
 - Modifies global agent memory or other skills
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `app-store-connect` — iOS App Store management
 - `flutter` — Cross-platform app development
 - `saas` — SaaS business metrics and growth
 
 ## Feedback
 
-- If useful: `clawhub star mobile-app-analytics`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mobile-app-analytics
+- Latest version: https://clawic.com/skills/mobile-app-analytics

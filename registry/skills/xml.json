@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8aebaacbe81a1836bc86002933a9a6c08aab398e7a1afe0f70f9e8fa4bfec275",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "xml",
-    "name": "XML",
+    "name": "xml",
     "description": "Parse, generate, and transform XML with correct namespace handling and encoding.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/xml",
     "summary": "Namespaces - XPath `/root/child` fails if document has default namespace—use `//*[local-name()='child']` or register prefix - Default namespace (`xmlns=\"...\"`) applies to elements, not attributes—attributes need explicit",
     "repositoryPath": "skills/xml",
     "manifestPath": "registry/skills/xml.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/xml/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/xml/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/xml/_meta.json",
+      "byteCount": 158,
+      "sha256": "112471f548841a174b1778420e3b01f279fbe55b6b5292abed94b53d95bc9364"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/xml/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/xml/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/xml/SKILL.md",
+      "byteCount": 2787,
+      "sha256": "7561543abb9945f170f5c0cfd9b19b46c9dd6d5d0546fb0459ad9926d12d8d3b"
     }
   ]
 }

@@ -1,16 +1,27 @@
 ---
-name: France
+name: france
 slug: france
 version: 1.0.0
-homepage: https://clawic.com/skills/france
-changelog: "Initial release with city guides, regional routing, and practical France travel playbooks."
 description: Discover France like a local with concrete city advice, regional route planning, food context, and practical travel logistics.
-metadata: {"clawdbot":{"emoji":"🇫🇷","requires":{"bins":[],"config":["~/france/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/france
+changelog: Initial release with city guides, regional routing, and practical France travel playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇫🇷
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/france/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: France
 ---
 
 ## Setup
 
-If `~/france/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/france/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to France or asking for local insights: what to prioritize,
 
 ## Architecture
 
-Memory lives in `~/france/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/france/`. See `memory-template.md` for structure.
 
 ```
-~/france/
+~/Clawic/data/france/
 └── memory.md     # Trip context
 ```
 
@@ -114,12 +125,12 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/france/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/france/`
 
-**This skill does NOT:** Access files outside `~/france/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/france/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structuring
 - `food` — Deeper restaurant and cuisine recommendations
 - `french` — Language support for local communication and bookings
@@ -127,5 +138,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star france`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/france
+- Latest version: https://clawic.com/skills/france

@@ -1,10 +1,19 @@
 ---
-name: Spaced Repetition
+name: spaced-repetition
 slug: spaced-repetition
 version: 1.0.0
-homepage: https://clawic.com/skills/spaced-repetition
 description: Scheduling review of material at expanding intervals to optimize long-term retention.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/spaced-repetition
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Spaced Repetition
 ---
 
 ## Mechanism: retrieval is the active ingredient
@@ -118,7 +127,7 @@ Spacing is the schedule; retrieval is the drug. Spacing rereading barely beats m
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `anki` - the dominant SR app: FSRS, deck options, card templates, add-ons
 - `memory` - the cognitive substrate: encoding, consolidation, the testing effect in depth
 - `learning` - broader learning strategy SR plugs into; when to reach for SR vs alternatives

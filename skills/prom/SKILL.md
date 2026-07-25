@@ -1,9 +1,20 @@
 ---
-name: Prometheus
+name: prom
+slug: prom
+version: 1.0.0
 description: Prometheus monitoring patterns, cardinality management, alerting best practices, and PromQL traps.
+homepage: https://clawic.com/skills/prom
 metadata:
   category: infrastructure
-  skills: ["prometheus", "monitoring", "alerting", "metrics", "observability"]
+  skills:
+  - prometheus
+  - monitoring
+  - alerting
+  - metrics
+  - observability
+  clawdbot:
+    emoji: 🎉
+    displayName: Prometheus
 ---
 
 ## Cardinality Explosions

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "509d774faeaa340aceb0c14ad2b108e9c1a7d976083632378185a0e983c02d1a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "macau",
-    "name": "Macau",
+    "name": "macau",
     "description": "Navigate Macau as visitor, resident, worker, student, or founder with districts, transport, costs, borders, culture, and practical local context.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/macau",
@@ -22,177 +25,247 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/macau/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/_meta.json",
+      "byteCount": 162,
+      "sha256": "dc2e1e3754ca4b00e732670d5f14cfd1b7cbc82a97a27a93a7453b9b953a4a01"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/macau/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/business.md",
+      "byteCount": 1404,
+      "sha256": "2aadc3154346b7dab81b07beb7cd2b4067cf9bf6718eba791cf4a9203db35894"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/macau/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/climate.md",
+      "byteCount": 1045,
+      "sha256": "dc645fff31a5a8e0e02e39d3b3b9a131890dad7ecd5f85a0d8f08b6849cfe16e"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/macau/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/cost.md",
+      "byteCount": 1293,
+      "sha256": "25dd5bdbefdc6f5194afe509d74c452496ac4a638ab931ae3d87d3da1af88462"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/macau/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/culture.md",
+      "byteCount": 1042,
+      "sha256": "a8fb7e09b6b474478b24fb428a11506ec6e6babedf317c8541181b015da7f892"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/macau/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/driving.md",
+      "byteCount": 783,
+      "sha256": "0804ea8e39639da8c65e50a4eb62a0bfeb65dbed511e90d61f2efc948812cbd8"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/macau/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/education.md",
+      "byteCount": 1090,
+      "sha256": "c0cd9004a3b3c1834d50989d792e50b8f33ba66b6240ae7029f72f33db642e6f"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/macau/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-areas.md",
+      "byteCount": 651,
+      "sha256": "b23c7c12cbdaaa8267bf786b0fef4eb826df0ea05828f196d2e9de4a14fb0f4c"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/macau/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-international.md",
+      "byteCount": 765,
+      "sha256": "1f7e5c1697dcfdc533aef64dc6b6657d7b916721fe2816f7be812c3ef4566c53"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/macau/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-local.md",
+      "byteCount": 1187,
+      "sha256": "047f143a1373a16a7e7b9767ffa614e857bde5491b5d9c9482a6bc7b0090fd98"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/macau/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-overview.md",
+      "byteCount": 1065,
+      "sha256": "c7e5a95e715f273ef19bf6f55853729d9e0254d52866bd6183e84a334c4fc020"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/macau/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/food-practical.md",
+      "byteCount": 885,
+      "sha256": "1756716caad205c3a92bbd69596d468505430df0f86871a5ef625ec928bf8904"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/macau/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/healthcare.md",
+      "byteCount": 1072,
+      "sha256": "1c5f460091da7c4d0db1093930550d9f61254fe54ddcc9aa94334d42bbb47809"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/macau/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/lifestyle.md",
+      "byteCount": 1168,
+      "sha256": "d7e2f77b49981d542ce49e54211576d4bf12cf6d6ca3736ae7fd0cd167050a65"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/macau/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/local.md",
+      "byteCount": 1049,
+      "sha256": "43e1dc0d122956ca43a563d46474fdb8b8d350acab65c80d1a8984a9c3fb9717"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/macau/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/memory-template.md",
+      "byteCount": 1015,
+      "sha256": "3f8b72a8bad81876ff853eea82915f6fb51ed01f212e203b82e2912349b27cbd"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/macau/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-central.md",
+      "byteCount": 908,
+      "sha256": "a5637f79c48bad663c9dade70fb0b01437a67c40aa8518bfd91e60d8ea041eda"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/macau/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-choosing.md",
+      "byteCount": 1163,
+      "sha256": "a37c4b208c05b1623b855189fc1ca15674aa273b57eeb48f6740e17701fed57e"
     },
     {
       "path": "neighborhoods-coloane.md",
       "downloadPath": "skills/macau/neighborhoods-coloane.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-coloane.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-coloane.md",
+      "byteCount": 769,
+      "sha256": "1b5ac09feda801c0b5bc5b154b67e45462f4854b785c5eb9cd1fcff033f8e3cf"
     },
     {
       "path": "neighborhoods-cotai.md",
       "downloadPath": "skills/macau/neighborhoods-cotai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-cotai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-cotai.md",
+      "byteCount": 959,
+      "sha256": "ca0907e3d2cc4da32a46e610730ab07d40667e2729c0ad6893a29cbaa3fa8cb1"
     },
     {
       "path": "neighborhoods-historic.md",
       "downloadPath": "skills/macau/neighborhoods-historic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-historic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-historic.md",
+      "byteCount": 1315,
+      "sha256": "cba4f49c9f7288c6bf713101e45cdba4eafbd4ce8f1e2350e949280dde06ec24"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/macau/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-index.md",
+      "byteCount": 1221,
+      "sha256": "ea727de45d052371f4e763142fddc51deb1176d2897052431a18ba779cda9ec2"
     },
     {
       "path": "neighborhoods-taipa.md",
       "downloadPath": "skills/macau/neighborhoods-taipa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-taipa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/neighborhoods-taipa.md",
+      "byteCount": 1038,
+      "sha256": "48ee1c02cea96250e823f52c7e4a36b562cbad2a913923bcad4ed95993628a6f"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/macau/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/resident.md",
+      "byteCount": 1376,
+      "sha256": "f5baf3b1e7c365912d4dd8f76f3ec1c3ecf5727040f93eb250a2308850afbf5f"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/macau/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/safety.md",
+      "byteCount": 1417,
+      "sha256": "f0e6da00d34f7b9fcb81a822099bf189ab497a3896614a9eff997750de290766"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/macau/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/setup.md",
+      "byteCount": 1803,
+      "sha256": "8c31760507890b7868c40c05dfb2f3443baaccd2b997bab44a5bb9e8e0c0657c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/macau/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/SKILL.md",
+      "byteCount": 7517,
+      "sha256": "08e4c51b39ae987e42f6bc3bf2112eaf3aed46c4ebdba37c3bfcdfad45eea868"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/macau/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/startup.md",
+      "byteCount": 1462,
+      "sha256": "e418e6070ae9856383f568171864cb4c2d518e294c4aa77af358ff47231a269e"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/macau/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/tech.md",
+      "byteCount": 1345,
+      "sha256": "ed4e51b3e82681d54e4d1228993b2b3b215f4be7bb9a5cfd992b7216804a9656"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/macau/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/transport.md",
+      "byteCount": 1686,
+      "sha256": "a1a2367c5f851dc8d4064d8edafb037660a021d30afe079b0e9ae3b7f9e64bc4"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/macau/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visas.md",
+      "byteCount": 1687,
+      "sha256": "3c09146201d0b97b94b86a2015ebe334e7d270665397e509c011d275a06a4415"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/macau/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-attractions.md",
+      "byteCount": 2381,
+      "sha256": "0e9884d4a7c3764c57ca75cd1c204d80552f3630d3ed4b371ef0bc55a7a2332d"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/macau/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-itineraries.md",
+      "byteCount": 1957,
+      "sha256": "76ae224eb18f8828ea1899805e0ae0206325cb5f9bd002f42399668666230303"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/macau/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-lodging.md",
+      "byteCount": 2344,
+      "sha256": "ea2787ee9e915e1ab884db4841d6d37eeb12d87eb838268675f14adb72d8a564"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/macau/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macau/visitor-tips.md",
+      "byteCount": 1670,
+      "sha256": "ff511b534cda160a32e09633c5ae8c3cacfb5cbce8f0a09f8da2afcbceb1ef4b"
     }
   ]
 }

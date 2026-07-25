@@ -2,7 +2,7 @@
 
 ## Profile Structure
 
-Each device gets a file in `~/bluetooth/profiles/`:
+Each device gets a file in `~/Clawic/data/bluetooth/profiles/`:
 
 ```markdown
 # Device: Living Room Speaker
@@ -137,11 +137,11 @@ Test: press keys, verify input registered
 
 ```bash
 # Find all audio devices
-grep -l "Type: audio" ~/bluetooth/profiles/*.md
+grep -l "Type: audio" ~/Clawic/data/bluetooth/profiles/*.md
 
 # Find devices with connection issues
-grep -l "Known Issues" ~/bluetooth/profiles/*.md
+grep -l "Known Issues" ~/Clawic/data/bluetooth/profiles/*.md
 
 # Find recently used
-ls -lt ~/bluetooth/profiles/ | head -10
+ls -lt ~/Clawic/data/bluetooth/profiles/ | head -10
 ```

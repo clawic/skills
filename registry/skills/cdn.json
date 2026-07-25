@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4eaebaf5c0ab51299bdabe8822797113b88175864ec68689b57c96fedb59f417",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cdn",
-    "name": "CDN",
+    "name": "cdn",
     "description": "Configure, optimize, and troubleshoot CDN deployments with caching strategies, security hardening, and multi-provider management.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/cdn",
     "summary": "When to Use User wants to set up, optimize, or debug a CDN. Covers provider selection, caching, security, and performance monitoring. Quick Reference | Topic | File | |-------|------| | Provider comparison & CLIs | `prov",
     "repositoryPath": "skills/cdn",
     "manifestPath": "registry/skills/cdn.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cdn/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/_meta.json",
+      "byteCount": 158,
+      "sha256": "88fe04a8dbe9fc8ad7af143bfe59bd71b93d9f0d1cc21d1a76b149746443c39b"
     },
     {
       "path": "caching.md",
       "downloadPath": "skills/cdn/caching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/caching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/caching.md",
+      "byteCount": 3215,
+      "sha256": "7882ba8f9ec5923aaccc3eedf3e838a1ef6014abce3bd282a8cd5ccd2bfc7636"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/cdn/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/providers.md",
+      "byteCount": 2630,
+      "sha256": "a3444e7f419ff65381231811fa7dae2d81f38ee64193466fd4215e5587f0072d"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/cdn/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/security.md",
+      "byteCount": 2894,
+      "sha256": "1fcb2746f80e0301a8d811e5251bea00c3c851708c8c7988d4a67f596d977d11"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cdn/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/SKILL.md",
+      "byteCount": 2642,
+      "sha256": "2f94ab3918a162b6b2ca6efe17ef0f5695a626882298ab555ae742e554b0b54c"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/cdn/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cdn/troubleshooting.md",
+      "byteCount": 3804,
+      "sha256": "a0e53bb5aa0866051f6ed0300c220993682cb0d8414c73780bfcb77ce0ed6bea"
     }
   ]
 }

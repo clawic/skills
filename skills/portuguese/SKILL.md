@@ -1,6 +1,13 @@
 ---
-name: Portuguese
+name: portuguese
+slug: portuguese
+version: 1.0.0
 description: Write Portuguese that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/portuguese
+metadata:
+  clawdbot:
+    emoji: 🇵🇹
+    displayName: Portuguese
 ---
 
 ## The Real Problem

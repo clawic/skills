@@ -1,6 +1,6 @@
 # State File Templates
 
-These files go in `~/copilot/` on the user's system. Create them on first interaction or let user initialize.
+These files go in `~/Clawic/data/copilot/` on the user's system. Create them on first interaction or let user initialize.
 
 ---
 

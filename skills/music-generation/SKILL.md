@@ -1,7 +1,17 @@
 ---
-name: Music Generation
+name: music-generation
+slug: music-generation
+version: 1.0.0
 description: Generate AI music with optimized prompts, style control, and production-ready audio output.
-metadata: {"clawdbot":{"emoji":"🎵","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/music-generation
+metadata:
+  clawdbot:
+    emoji: 🎵
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Music Generation
 ---
 
 # AI Music Generation

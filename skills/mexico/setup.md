@@ -10,7 +10,7 @@ mkdir -p ~/mexico
 ```
 
 ### 2. Initialize Memory File
-Create `~/mexico/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/mexico/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Public transport, private transfers, or rental car?
 
 ### 4. Save to Memory
-Update `~/mexico/memory.md` with their answers.
+Update `~/Clawic/data/mexico/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/mexico/memory.md` exists:
+If `~/Clawic/data/mexico/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences
 3. Ask what changed since last plan

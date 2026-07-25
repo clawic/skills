@@ -8,7 +8,7 @@ When the user first brings up New Zealand travel:
 mkdir -p ~/new-zealand
 ```
 
-Create `~/new-zealand/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/new-zealand/memory.md` from `memory-template.md`.
 
 ## 2. Gather the Route Inputs That Actually Matter
 
@@ -31,7 +31,7 @@ Track:
 
 ## 4. Returning Users
 
-If `~/new-zealand/memory.md` exists:
+If `~/Clawic/data/new-zealand/memory.md` exists:
 1. Read it silently
 2. Reuse known route and style preferences
 3. Ask what changed since last plan

@@ -1,6 +1,13 @@
 ---
-name: Podcast
+name: podcast
+slug: podcast
+version: 1.0.1
 description: Create and grow podcasts by planning episodes, producing audio or video, generating clips, and building audience across formats.
+homepage: https://clawic.com/skills/podcast
+metadata:
+  clawdbot:
+    emoji: 🎙️
+    displayName: Podcast
 ---
 
 ## Core Workflow

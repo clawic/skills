@@ -1,6 +1,6 @@
 # Memory Template - Proactivity
 
-Create `~/proactivity/memory.md` with this structure:
+Create `~/Clawic/data/proactivity/memory.md` with this structure:
 
 ```markdown
 # Proactivity Memory
@@ -53,9 +53,9 @@ integration: pending | complete | paused | never_ask
 ## Local Files to Initialize
 
 ```bash
-mkdir -p ~/proactivity/{domains,memory}
-touch ~/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
-touch ~/proactivity/memory/working-buffer.md
+mkdir -p ~/Clawic/data/proactivity/{domains,memory}
+touch ~/Clawic/data/proactivity/{memory.md,session-state.md,heartbeat.md,patterns.md,log.md}
+touch ~/Clawic/data/proactivity/memory/working-buffer.md
 ```
 
 ## Templates for Other Files

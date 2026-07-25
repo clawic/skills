@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d7491442fbc8f461fe8c533dc75bb3f329ce7a9705a4456b95b1895a7af91758",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "freelance",
-    "name": "Freelance",
+    "name": "freelance",
     "description": "Navigate freelance platforms as worker or client with proposals, pricing, vetting, and legal compliance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/freelance",
     "summary": "Platform Selection | Goal | Best Platform | Why | |------|---------------|-----| | Long-term contracts | Upwork | Escrow, hourly tracking | | Quick productized gigs | Fiverr | SEO-driven discovery | | Budget projects | F",
     "repositoryPath": "skills/freelance",
     "manifestPath": "registry/skills/freelance.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/freelance/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/_meta.json",
+      "byteCount": 170,
+      "sha256": "0295d5ca1201d272efd797a21acc49d7ba3a64275197514b88cd1c647f7ed9da"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/freelance/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/legal.md",
+      "byteCount": 2906,
+      "sha256": "61ad98deb89e283411eaacfeb37ee871be6cfb971c1840a6f3896870d5ad0ff7"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/freelance/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/platforms.md",
+      "byteCount": 2115,
+      "sha256": "d554a4335390b8fe896033df508b84755dab365bde13616f957d36bc02e580c7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/freelance/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/SKILL.md",
+      "byteCount": 1979,
+      "sha256": "eb4cb659cc1d0b6cd5fb5cf06b645b0e51fa22d792b5fde69c0aeabc52b0fd92"
     }
   ]
 }

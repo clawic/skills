@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d530c65c8efa25ac6d515fc6feecac29c47040b8b8839e54515710637d67882c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "korean",
-    "name": "Korean",
+    "name": "korean",
     "description": "Write Korean that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/korean",
     "summary": "The Real Problem AI Korean is technically correct but sounds off. Too formal. Too textbook. Too stiff. Natives write with contractions, particles, and casual endings. Match that. Formality Default Default register is too",
     "repositoryPath": "skills/korean",
     "manifestPath": "registry/skills/korean.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/korean/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/korean/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/korean/_meta.json",
+      "byteCount": 164,
+      "sha256": "0c041e79db72f134be6b8bbca8b2d0445757e1d5489a540c3b6fee5763b3b31e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/korean/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/korean/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/korean/SKILL.md",
+      "byteCount": 2750,
+      "sha256": "c35842ff5e441750e839ca9522b979e692ec9cecb59c449c2bdbd101739df054"
     }
   ]
 }

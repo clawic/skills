@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "233e75fc1b7652219a8aaa3bd016c36c47ddc028628fff853d8caa96425885cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "mobile-app-analytics",
-    "name": "Mobile App Analytics",
+    "name": "mobile-app-analytics",
     "description": "Track mobile app metrics with Firebase, App Store Connect, Play Console, retention, funnels, and cohort analysis.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/mobile-app-analytics",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/mobile-app-analytics/` if it doesn't exist. When to Use User needs to track, analyze, or optimize mobile app performance metrics. Agent handles Fi",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/mobile-app-analytics/` if it doesn't exist. When to Use User needs to track, analyze, or optimize mobile app performance metrics. Agen",
     "repositoryPath": "skills/mobile-app-analytics",
     "manifestPath": "registry/skills/mobile-app-analytics.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mobile-app-analytics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/_meta.json",
+      "byteCount": 192,
+      "sha256": "a42d0ee7ba5169afc28f7988f77edb8c623d448e74f112c3ccd009f625c098b2"
     },
     {
       "path": "app-store.md",
       "downloadPath": "skills/mobile-app-analytics/app-store.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/app-store.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/app-store.md",
+      "byteCount": 3630,
+      "sha256": "33aa1a4b510642fa948fde0633bdc207b6b34c30b7bcb7091ee3d05cb7449922"
     },
     {
       "path": "firebase.md",
       "downloadPath": "skills/mobile-app-analytics/firebase.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/firebase.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/firebase.md",
+      "byteCount": 3899,
+      "sha256": "1827c6fdfac63081c883aba32cc5d6ef347696c64cfcce1e19e3b5e1d904ae43"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/mobile-app-analytics/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/memory-template.md",
+      "byteCount": 2311,
+      "sha256": "9e0a9e9b491ba74145f755dc3460331866ed40908b1479e78eb482e79849aee8"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/mobile-app-analytics/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/metrics.md",
+      "byteCount": 4687,
+      "sha256": "011eebd29d551203fc5836e4dcc6cca219a4ee0e229183220ab20e8664806357"
     },
     {
       "path": "play-console.md",
       "downloadPath": "skills/mobile-app-analytics/play-console.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/play-console.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/play-console.md",
+      "byteCount": 4172,
+      "sha256": "6d2eb80183dc01e759d256a33b4d64291f0b44f09e477564c21347b6dfc939a0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/mobile-app-analytics/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/setup.md",
+      "byteCount": 1820,
+      "sha256": "7f85c609c208b07659f0430c531cd0d7dfa535539cb9b0257bf53f4b5221149d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mobile-app-analytics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mobile-app-analytics/SKILL.md",
+      "byteCount": 5415,
+      "sha256": "fa604cc1ceca6cd49c105e7debec42636dc7d19dc509404a4d68f1b880e935d2"
     }
   ]
 }

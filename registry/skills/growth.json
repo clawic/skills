@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e21012add68c3cb57ca7338d1e1fcd3322989d7a1bf853687bafc5e47f09d29d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "growth",
-    "name": "Growth",
+    "name": "growth",
     "description": "Design and execute growth strategies with acquisition loops, activation, and retention systems.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/growth",
     "summary": "North Star Metric (Define First) Pick ONE metric that: - Reflects core value delivered to customer - Leads revenue (not lags) - Entire team can influence Examples by business type: - Marketplace: transactions completed -",
     "repositoryPath": "skills/growth",
     "manifestPath": "registry/skills/growth.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/growth/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/_meta.json",
+      "byteCount": 164,
+      "sha256": "70398ae106b42206e3a4a8ac02681c338b8e39f417e5aed46f4e2f44a9a45ae8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/growth/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/SKILL.md",
+      "byteCount": 4814,
+      "sha256": "86765c8b868cf64241fe5afd8f9e1f1325a3869ba5da9dd2075775bca7f098b5"
     }
   ]
 }

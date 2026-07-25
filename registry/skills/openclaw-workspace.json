@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7ac83a1fe33b262341da2bf0a75c70e176a573f95bf47249299c844aff5c319c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "openclaw-workspace",
-    "name": "OpenClaw Workspace",
+    "name": "openclaw-workspace",
     "description": "Audit and improve OpenClaw workspaces across SOUL, AGENTS, TOOLS, USER, MEMORY, and skills for persona tuning, proactive behavior, recall, and workflow fit. Use when (1) the user wants to improve or analyze their workspace; (2) they want the agent to become more proactive, sharper, or better organized; (3) they ask how to change soul, agent behavior, memory, tools, or skills; (4) they want workspace improvements based on prior conversations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/openclaw-workspace",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/openclaw-workspace/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/_meta.json",
+      "byteCount": 188,
+      "sha256": "3605d281b5b10ca243f2cea2ac9f7d5230138f26f3798b5324a01006f08295fb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/openclaw-workspace/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/SKILL.md",
+      "byteCount": 10565,
+      "sha256": "bff751921a59dff679d3d084bf37e21e7bdedd7c721761a60d521a9d08116321"
     }
   ]
 }

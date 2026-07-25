@@ -15,7 +15,7 @@ Check before creating any job. Prevent common failures.
 
 | Trap | Fix |
 |------|-----|
-| Stored in memory only | Write to ~/schedule/jobs.json |
+| Stored in memory only | Write to ~/Clawic/data/schedule/jobs.json |
 | Session reset loses jobs | Always persist to file, never rely on context |
 | "I'll remember" | You won't. Save to jobs.json. |
 
@@ -51,7 +51,7 @@ Checklist:
 ```
 □ Timezone explicit?
 □ Exact date/time confirmed?
-□ Saved to ~/schedule/jobs.json?
+□ Saved to ~/Clawic/data/schedule/jobs.json?
 □ Unique ID assigned?
 □ Confirmation includes WHAT + WHEN + ID?
 ```

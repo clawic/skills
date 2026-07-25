@@ -1,6 +1,6 @@
 # Florida Memory
 
-Create `~/florida/memory.md` with this structure only if the user wants continuity across sessions:
+Create `~/Clawic/data/florida/memory.md` with this structure only if the user wants continuity across sessions:
 
 ```markdown
 # Florida Memory

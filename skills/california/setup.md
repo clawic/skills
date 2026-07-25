@@ -1,6 +1,6 @@
 # Setup — California
 
-Read this when `~/california/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
+Read this when `~/Clawic/data/california/` does not exist or is empty. Start helping naturally, but be explicit before creating persistent local memory.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ California questions usually hide one of four problems:
 
 Answer the user's question first whenever possible. Then gather only the next detail that improves the next step.
 
-This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/california/` or `memory.md`.
+This skill works statelessly if the user does not want continuity. If persistent memory would help, explain what would be stored and ask for confirmation before creating `~/Clawic/data/california/` or `memory.md`.
 
 ## Priority Order
 
@@ -55,7 +55,7 @@ Pick up only the constraints that change future advice:
 
 ## What You're Saving (internally)
 
-Keep `~/california/memory.md` lightweight and useful:
+Keep `~/Clawic/data/california/memory.md` lightweight and useful:
 - activation preference for California topics
 - current mode and target region
 - major deadlines, open loops, and dependencies

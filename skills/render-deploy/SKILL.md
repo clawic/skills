@@ -1,17 +1,40 @@
 ---
-name: Render Deploy
+name: render-deploy
 slug: render-deploy
 version: 1.0.0
-homepage: https://clawic.com/skills/render-deploy
 description: Deploy applications on Render with codebase analysis, render.yaml Blueprint generation, MCP direct provisioning, and post-deploy verification.
+homepage: https://clawic.com/skills/render-deploy
 changelog: Added end-to-end Render deployment guidance with method selection, runtime checks, and practical troubleshooting flows.
-metadata: {"clawdbot":{"emoji":"🚀","requires":{"bins":["git","render"],"env":["RENDER_API_KEY"],"config":["~/render-deploy/"]},"primaryEnv":"RENDER_API_KEY","install":[{"id":"brew","kind":"brew","formula":"render","bins":["render"],"label":"Install Render CLI (Homebrew)"}],"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🚀
+    requires:
+      bins:
+      - git
+      - render
+      env:
+      - RENDER_API_KEY
+      config:
+      - ~/Clawic/data/render-deploy/
+    primaryEnv: RENDER_API_KEY
+    install:
+    - id: brew
+      kind: brew
+      formula: render
+      bins:
+      - render
+      label: Install Render CLI (Homebrew)
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Render Deploy
 ---
 
 ## Setup
 
 On first use, read `setup.md` for integration guidelines.
-If local memory is needed, ask for consent before creating `~/render-deploy/`.
+If local memory is needed, ask for consent before creating `~/Clawic/data/render-deploy/`.
 
 ## When to Use
 
@@ -19,10 +42,10 @@ Use this skill when the user wants to deploy, publish, or host an application on
 
 ## Architecture
 
-Memory lives in `~/render-deploy/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/render-deploy/`. See `memory-template.md` for setup.
 
 ```text
-~/render-deploy/
+~/Clawic/data/render-deploy/
 |- memory.md                  # Stable preferences and integration choices
 |- deployment-notes.md        # Project-level deployment decisions
 |- env-inventory.md           # Required env vars and source of truth
@@ -122,7 +145,7 @@ No other endpoints should be used unless the user requests an explicit integrati
 - Environment variable names and provided values when the user explicitly sets them.
 
 **Data that stays local:**
-- Preferences and deployment history in `~/render-deploy/` if the user accepts memory.
+- Preferences and deployment history in `~/Clawic/data/render-deploy/` if the user accepts memory.
 - Local codebase inspection outputs and interim analysis notes.
 
 **This skill does NOT:**
@@ -136,7 +159,7 @@ No other endpoints should be used unless the user requests an explicit integrati
 By using this skill, deployment metadata and selected configuration are sent to Render services. Only use it if you trust Render with this operational data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `deploy` - General deployment planning and release execution.
 - `devops` - CI/CD, infrastructure workflows, and ops coordination.
 - `docker` - Container packaging and runtime configuration.
@@ -145,5 +168,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star render-deploy`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/render-deploy
+- Latest version: https://clawic.com/skills/render-deploy

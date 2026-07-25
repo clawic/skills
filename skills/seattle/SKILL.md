@@ -1,10 +1,19 @@
 ---
-name: Seattle
+name: seattle
 slug: seattle
 version: 1.0.0
-homepage: https://clawic.com/skills/seattle
 description: Navigate Seattle as visitor, resident, or tech worker with neighborhoods, transport, costs, weather, and local insights.
-metadata: {"clawdbot":{"emoji":"🌲","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/seattle
+metadata:
+  clawdbot:
+    emoji: 🌲
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Seattle
 ---
 
 ## When to Use
@@ -160,12 +169,12 @@ Seattle invented modern coffee culture (Starbucks, 1971). But locals drink at:
 **Ordering tip:** Just say what you want. No judgment. But expect baristas to care about their craft.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — trip planning and logistics
 - `dubai` — another city guide
 - `negotiate` — salary and offer discussions
 
 ## Feedback
 
-- If useful: `clawhub star seattle`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/seattle
+- Latest version: https://clawic.com/skills/seattle

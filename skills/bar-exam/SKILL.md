@@ -1,9 +1,19 @@
 ---
-name: Bar Exam
+name: bar-exam
 slug: bar-exam
 version: 1.0.0
 description: Prepare for the US Bar Exam with MBE practice, essay drilling, weak area targeting, and jurisdiction planning.
-metadata: {"clawdbot":{"emoji":"⚖️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bar-exam
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bar Exam
 ---
 
 ## When to Use
@@ -23,9 +33,9 @@ User is preparing for a US Bar Exam. Agent becomes a comprehensive prep assistan
 
 ## Data Storage
 
-User data lives in `~/bar-exam/`:
+User data lives in `~/Clawic/data/bar-exam/`:
 ```
-~/bar-exam/
+~/Clawic/data/bar-exam/
 ├── profile.md       # Jurisdiction, test date, law school, baseline
 ├── subjects/        # Per-subject progress (7 MBE subjects)
 ├── essays/          # Essay drafts with feedback

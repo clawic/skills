@@ -1,7 +1,20 @@
 ---
-name: PocketBase
+name: pocketbase
+slug: pocketbase
+version: 1.0.0
 description: Build backends with PocketBase collections, auth, and realtime.
-metadata: {"clawdbot":{"emoji":"📦","requires":{"bins":["pocketbase"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pocketbase
+metadata:
+  clawdbot:
+    emoji: 📦
+    requires:
+      bins:
+      - pocketbase
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: PocketBase
 ---
 
 ## SDK Basics

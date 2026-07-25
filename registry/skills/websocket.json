@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7fd829250b68ee04cee3c863b9a9265be5e3aec1d3c8ca1bfd6b2831fb04379a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "websocket",
-    "name": "WebSocket",
+    "name": "websocket",
     "description": "Implement reliable WebSocket connections with proper reconnection, heartbeats, and scaling.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/websocket",
     "summary": "Reconnection (Always Forget) - Connections drop silently—TCP FIN may never arrive; don't assume `onclose` fires - Exponential backoff: 1s, 2s, 4s, 8s... cap at 30s—prevents thundering herd on server recovery - Add jitter",
     "repositoryPath": "skills/websocket",
     "manifestPath": "registry/skills/websocket.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/websocket/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/websocket/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/websocket/_meta.json",
+      "byteCount": 170,
+      "sha256": "f04ab78b9177f33b7f3c240813e804038d6b78288c2f77e0b7fd7d6e6fc38169"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/websocket/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/websocket/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/websocket/SKILL.md",
+      "byteCount": 3976,
+      "sha256": "db5c10b7094bc4075a6ccfb95900262a37aa10d44df56c020f10cb73649d3fad"
     }
   ]
 }

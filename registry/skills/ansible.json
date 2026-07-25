@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8579ce7176ca3ac91b39bf5d9d8071952b866ddf0c790f54b26dfff791fc80ea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ansible",
-    "name": "Ansible",
+    "name": "ansible",
     "description": "Avoid common Ansible mistakes — YAML syntax traps, variable precedence, idempotence failures, and handler gotchas.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ansible",
     "summary": "YAML Syntax Traps - Jinja2 in value needs quotes — `\"{{ variable }}\"` not `{{ variable }}` - `:` in string needs quotes — `msg: \"Note: this works\"` not `msg: Note: this` - Boolean strings: `yes`, `no`, `true`, `false` pa",
     "repositoryPath": "skills/ansible",
     "manifestPath": "registry/skills/ansible.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ansible/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/_meta.json",
+      "byteCount": 166,
+      "sha256": "fc35039702305c1006d1da0ccb975be2361d8b89936ece9032565f274e8fa117"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ansible/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ansible/SKILL.md",
+      "byteCount": 3191,
+      "sha256": "506a92bf8066e19899548e89b9ecc0ed79d51ed5c515c6ce1b9528bcd42cf6a4"
     }
   ]
 }

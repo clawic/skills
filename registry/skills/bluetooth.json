@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7cee19081a3ecf491d125357ddb46b2afd776caca40b514fa87c5e1668b339de",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "bluetooth",
-    "name": "Bluetooth",
+    "name": "bluetooth",
     "description": "Discover, connect, and control Bluetooth devices with automatic profile learning, cross-platform tools, and device management.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bluetooth",
     "summary": "Core Workflow 1. **Scan** — Discover nearby devices 2. **Identify** — Match against known profiles or learn new device 3. **Connect** — Establish link with appropriate protocol 4. **Execute** — Send commands, read data, ",
     "repositoryPath": "skills/bluetooth",
     "manifestPath": "registry/skills/bluetooth.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bluetooth/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/_meta.json",
+      "byteCount": 170,
+      "sha256": "fc508f75a71c2a65756aaeaef31ad8be4b81b0c64ba47dcc950753e63a80e61f"
     },
     {
       "path": "profiles.md",
       "downloadPath": "skills/bluetooth/profiles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/profiles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/profiles.md",
+      "byteCount": 3157,
+      "sha256": "69ed4a1c89186b4f814d5df544af26c820190eeff1ae38ee2a5f27624af6af77"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/bluetooth/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/security.md",
+      "byteCount": 3387,
+      "sha256": "609b0872f5579f62ecfe49ac9c89c3a33c70b37243c870e780aa7da9ed33795d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bluetooth/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/SKILL.md",
+      "byteCount": 2241,
+      "sha256": "e01573826de92261fc7d2ceef71741f5400a4acfb3095223608daf9f7c041324"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/bluetooth/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/tools.md",
+      "byteCount": 3208,
+      "sha256": "294131e6f81fd33da52a7672762956b33ac212eaced868a8a906698c6ca04143"
     },
     {
       "path": "use-cases.md",
       "downloadPath": "skills/bluetooth/use-cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/use-cases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bluetooth/use-cases.md",
+      "byteCount": 4302,
+      "sha256": "e082fb9e7661d54e298d1fe55cf572d14d7244f8e98a3f6110952c18b9e50483"
     }
   ]
 }

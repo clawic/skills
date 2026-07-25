@@ -1,6 +1,6 @@
 # Memory Template - Domain Registration
 
-Create `~/domain-registration/memory.md` with this structure:
+Create `~/Clawic/data/domain-registration/memory.md` with this structure:
 
 ```markdown
 # Domain Registration Memory

@@ -27,11 +27,11 @@ Use this when the recipient needs a small fixed bundle and no extra packaging.
 When the source is noisy, reduce it first:
 
 ```bash
-mkdir -p ~/airdrop/staging/review-bundle
-cp ./output/final-review.pdf ~/airdrop/staging/review-bundle/
-cp ./output/diff-summary.txt ~/airdrop/staging/review-bundle/
-zip -r ~/airdrop/staging/review-bundle.zip ~/airdrop/staging/review-bundle
-/path/to/airdrop-send.sh ~/airdrop/staging/review-bundle.zip
+mkdir -p ~/Clawic/data/airdrop/staging/review-bundle
+cp ./output/final-review.pdf ~/Clawic/data/airdrop/staging/review-bundle/
+cp ./output/diff-summary.txt ~/Clawic/data/airdrop/staging/review-bundle/
+zip -r ~/Clawic/data/airdrop/staging/review-bundle.zip ~/Clawic/data/airdrop/staging/review-bundle
+/path/to/airdrop-send.sh ~/Clawic/data/airdrop/staging/review-bundle.zip
 ```
 
 Use this for:
@@ -45,8 +45,8 @@ Use this for:
 If the user says "AirDrop this summary", stage it first:
 
 ```bash
-printf '%s\n' "summary text here" > ~/airdrop/staging/session-summary.txt
-/path/to/airdrop-send.sh ~/airdrop/staging/session-summary.txt
+printf '%s\n' "summary text here" > ~/Clawic/data/airdrop/staging/session-summary.txt
+/path/to/airdrop-send.sh ~/Clawic/data/airdrop/staging/session-summary.txt
 ```
 
 Do not claim chat text can be AirDropped directly without a shareable item.

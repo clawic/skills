@@ -1,6 +1,6 @@
 # Macau - Memory Template
 
-Create `~/macau/memory.md` with this structure:
+Create `~/Clawic/data/macau/memory.md` with this structure:
 
 ```markdown
 # Macau Memory

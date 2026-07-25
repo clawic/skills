@@ -1,6 +1,6 @@
 # Setup — Paddle
 
-When `~/paddle/` doesn't exist or is empty, help the user get started with their Paddle integration.
+When `~/Clawic/data/paddle/` doesn't exist or is empty, help the user get started with their Paddle integration.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Early in the conversation, understand:
 - "Do you have your Paddle account set up already?"
 - "Should I help whenever you're working on payments, or only when you ask?"
 
-Note their preferences in `~/paddle/memory.md` for future reference.
+Note their preferences in `~/Clawic/data/paddle/memory.md` for future reference.
 
 ### 2. Then: Understand Their Setup
 
@@ -40,7 +40,7 @@ Once you know the basics, help them with:
 
 ## What You're Saving (internally)
 
-In `~/paddle/memory.md`:
+In `~/Clawic/data/paddle/memory.md`:
 - Environment (sandbox/production)
 - Their product type and pricing model
 - Tech stack for integration recommendations

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "313cad8a971974a45eb92ce02db77700fa6d5a131cfdf8bceacb52865b5cd21d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cofounder",
-    "name": "Cofounder",
+    "name": "cofounder",
     "description": "Balance your entrepreneurial blind spots with adaptive counterweight across technical, strategic, and behavioral dimensions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/cofounder",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cofounder/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/_meta.json",
+      "byteCount": 170,
+      "sha256": "94a6d873f87720ccf38bf4ebe032fd4a9199dc8e484ccac46a8e8559b60ac26b"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/cofounder/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/dimensions.md",
+      "byteCount": 6419,
+      "sha256": "a2d520cdf279f3ee978b1c4665f1d7d300e71995cc2c2528209583ca081fe5a7"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cofounder/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/memory-template.md",
+      "byteCount": 1990,
+      "sha256": "94b6beb8b67bba4d7d671f723b91709cee9d148ee11583ecf4c655e9ddc5dab3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cofounder/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/setup.md",
+      "byteCount": 2858,
+      "sha256": "6eabe35acccad46664d06c12569f2b5eb71681b436119cb2ba2ffd2d47d798f3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cofounder/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cofounder/SKILL.md",
+      "byteCount": 5703,
+      "sha256": "328ee16d1d18339d17b58cf6e656e7d11e9f4c58405a21ad9c5a3be7cc3eef8b"
     }
   ]
 }

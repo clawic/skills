@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ab99c265499c52acc203469ffc1b2cccdb08ff7f47f42a80bcaae1b6b03a5bbd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "fastapi",
-    "name": "FastAPI",
+    "name": "fastapi",
     "description": "Build fast, production-ready Python APIs with type hints, validation, and async support.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fastapi",
     "summary": "FastAPI Patterns Async Traps - Mixing sync database drivers (psycopg2, PyMySQL) in async endpoints blocks the event loop — use async drivers (asyncpg, aiomysql) or run sync code in `run_in_executor` - `time.sleep()` in a",
     "repositoryPath": "skills/fastapi",
     "manifestPath": "registry/skills/fastapi.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fastapi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/_meta.json",
+      "byteCount": 166,
+      "sha256": "39f7d802a62d1916436937ee1ac0f0cf6ee4fff99d37db20c96db3605e4fefbb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fastapi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/SKILL.md",
+      "byteCount": 4289,
+      "sha256": "45628502e17987f24c5e26e9e9e8448e4d9eb387c1a237b5a7e15a681ff9d0f4"
     }
   ]
 }

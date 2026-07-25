@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "81679196854c14a7184ba4ead30460f1555033ccc0ba01ec5454eae757988bb0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "sysadmin",
-    "name": "Sysadmin",
+    "name": "sysadmin",
     "description": "Manage Linux servers with user administration, process control, storage, and system maintenance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/sysadmin",
     "summary": "System Administration Rules User Management - Create service accounts with `--system` flag — no home directory, no login shell - `sudo` with specific commands, not blanket ALL — principle of least privilege - Lock accoun",
     "repositoryPath": "skills/sysadmin",
     "manifestPath": "registry/skills/sysadmin.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/sysadmin/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/_meta.json",
+      "byteCount": 168,
+      "sha256": "8293923e9cf3c39f50c0370560049496e381fd6424928d09e6ef040ab074c6e9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/sysadmin/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sysadmin/SKILL.md",
+      "byteCount": 4758,
+      "sha256": "b0ba1271ea0c08986873f1c117c7b71693b4425ad1fa4df85862455120841b03"
     }
   ]
 }

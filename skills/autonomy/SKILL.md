@@ -1,16 +1,26 @@
 ---
-name: Autonomy
+name: autonomy
 slug: autonomy
 version: 1.0.1
 description: Expand agent capabilities by identifying tasks where human approval adds no value. Systematic delegation.
+homepage: https://clawic.com/skills/autonomy
 changelog: Limited observation to conversation context, explicit safety boundaries
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Autonomy
 ---
 
 ## Data Storage
 
 ```
-~/autonomy/
+~/Clawic/data/autonomy/
 ├── tracking.md         # What's been delegated, success rates
 ├── proposals.md        # Pending takeover proposals
 └── rejected.md         # User declined, don't re-propose
@@ -82,7 +92,7 @@ Want to try?
 **Always requires explicit user approval to move up levels.**
 
 ### 5. Tracking
-In ~/autonomy/tracking.md:
+In ~/Clawic/data/autonomy/tracking.md:
 ```
 ## Delegated
 - deploy/staging: approved 2024-01, 50+ successful

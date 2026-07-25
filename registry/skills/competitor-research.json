@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ab4da62dc19020aec6ffb1bd9cb54228bc7e1a699217d37e4dc172604d1f7f31",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "competitor-research",
-    "name": "Competitor Research",
+    "name": "competitor-research",
     "description": "Deep competitor audits with market positioning, gap analysis, and actionable insights for winning strategies.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/competitor-research",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/competitor-research/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/_meta.json",
+      "byteCount": 190,
+      "sha256": "7882266c0147a9ff4dc8e8645b8b21d02e4236f66ec1c984d0ff2d57866305c6"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/competitor-research/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/frameworks.md",
+      "byteCount": 4958,
+      "sha256": "34da9116336f0a19efe971071eacaf7cd56de8092bf72c50a91d8394848dd86e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/competitor-research/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/memory-template.md",
+      "byteCount": 3414,
+      "sha256": "524c0054a721a191275558a882512c72be979044317416341ccd973a114a65bf"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/competitor-research/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/setup.md",
+      "byteCount": 2039,
+      "sha256": "389b451015f1badf007fecabcf107e3b0c2e02014f5266574199a992047892dd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/competitor-research/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competitor-research/SKILL.md",
+      "byteCount": 7832,
+      "sha256": "bd929698ad77047a213265c7abb24f78e90acf200e147b2fe1e300966978df37"
     }
   ]
 }

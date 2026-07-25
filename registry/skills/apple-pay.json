@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b03f57ac8cefba2e497c5f4b81f5952f829af938d18ae9410a45a1817ae98667",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-pay",
-    "name": "Apple Pay",
+    "name": "apple-pay",
     "description": "Implement Apple Pay for web and iOS with merchant validation, token handling, and production-safe checkout flows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-pay",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-pay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/_meta.json",
+      "byteCount": 170,
+      "sha256": "ff80bb14bd68ef7e1e1006b17cab668184fa3a8af78eac1855a4237a25794df4"
     },
     {
       "path": "failure-handling.md",
       "downloadPath": "skills/apple-pay/failure-handling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/failure-handling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/failure-handling.md",
+      "byteCount": 1525,
+      "sha256": "85ad7a9cf645406882375ccada6f54519b74fadc66d02988c59d7774d326687c"
     },
     {
       "path": "implementation-playbook.md",
       "downloadPath": "skills/apple-pay/implementation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/implementation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/implementation-playbook.md",
+      "byteCount": 1609,
+      "sha256": "fd5620f60998d1f17570baf0e12da357bffff5997bb32eb3a2853a39b2b47326"
     },
     {
       "path": "launch-playbook.md",
       "downloadPath": "skills/apple-pay/launch-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/launch-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/launch-playbook.md",
+      "byteCount": 1190,
+      "sha256": "2f24b1dac6946500498671fa4c976b1710643653a449c8f8b71a98e668f29d0c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-pay/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/memory-template.md",
+      "byteCount": 1907,
+      "sha256": "fdde7103d01f2ad6aef27104b3a1eeab82075059d3dcd7099704daa3459fbce8"
     },
     {
       "path": "recurring-payments.md",
       "downloadPath": "skills/apple-pay/recurring-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/recurring-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/recurring-payments.md",
+      "byteCount": 1197,
+      "sha256": "a19c80193bafb869f281a94e6dd9b937f4ca5a3344171129eba5e90d062010ef"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-pay/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/setup.md",
+      "byteCount": 1857,
+      "sha256": "e0864a2a1f5953f6f418e0c2eba6eba07fce1eea01519b5b2cf3e8c602b52131"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-pay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/SKILL.md",
+      "byteCount": 6951,
+      "sha256": "c68fa9d6e90f04e3a4dc186517bfcd7b3bc36f6e9ba574f5a86354764dd886b2"
     },
     {
       "path": "validation-checklist.md",
       "downloadPath": "skills/apple-pay/validation-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/validation-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-pay/validation-checklist.md",
+      "byteCount": 1293,
+      "sha256": "59fac78ba95c48e032ccac01baf5035ed897c3a4ad4145968a116b492423d79e"
     }
   ]
 }

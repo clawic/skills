@@ -1,18 +1,28 @@
 ---
-name: Nutrition
+name: nutrition
+slug: nutrition
+version: 1.0.0
 description: Build a personal nutrition system for tracking meals, calories, macros, vitamins, and minerals.
-metadata: {"clawdbot":{"emoji":"🥗","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/nutrition
+metadata:
+  clawdbot:
+    emoji: 🥗
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Nutrition
 ---
 
 ## Core Behavior
 - User logs meal → calculate and store nutrition data
 - User asks about nutrients → surface totals and gaps
 - User tracks over time → show patterns and progress
-- Create `~/nutrition/` as workspace
+- Create `~/Clawic/data/nutrition/` as workspace
 
 ## File Structure
 ```
-~/nutrition/
+~/Clawic/data/nutrition/
 ├── daily/
 │   └── 2024-02/
 │       ├── 2024-02-10.md

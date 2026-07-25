@@ -1,12 +1,12 @@
 # Strategy Memory Setup
 
-Create `~/strategy/` on first strategy session.
+Create `~/Clawic/data/strategy/` on first strategy session.
 
 ## Initial Structure
 
 ```bash
-mkdir -p ~/strategy/{domains,playbooks}
-touch ~/strategy/memory.md
+mkdir -p ~/Clawic/data/strategy/{domains,playbooks}
+touch ~/Clawic/data/strategy/memory.md
 ```
 
 ## memory.md Template

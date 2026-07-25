@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "16c86affb7c4f118b6b8ec652fadda9fbd0b7201e5d5d053453dcba86eb0dfa0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "blockchain",
-    "name": "Blockchain",
+    "name": "blockchain",
     "description": "Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/blockchain",
     "summary": "What This Covers Blockchain fundamentals and practical interaction — the technology, not the speculation. **In scope:** Distributed ledgers, consensus, transactions, smart contract interaction, wallets, token standards. ",
     "repositoryPath": "skills/blockchain",
     "manifestPath": "registry/skills/blockchain.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/blockchain/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/_meta.json",
+      "byteCount": 172,
+      "sha256": "b350a61d7e738e1994d2de2a7828ea093bf01f9101dda53bc000dbba227e1e5a"
     },
     {
       "path": "concepts.md",
       "downloadPath": "skills/blockchain/concepts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/concepts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/concepts.md",
+      "byteCount": 1970,
+      "sha256": "a98fbc307976e697b32cbdb128d4c7e400c9f95c7fcbb3b35a9a2afc0743446d"
     },
     {
       "path": "dev.md",
       "downloadPath": "skills/blockchain/dev.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/dev.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/dev.md",
+      "byteCount": 2140,
+      "sha256": "68542299d2a5fee899b5aebcdf490b9ab1e3b9381fb6262e3d884a643946e22d"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/blockchain/evaluation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/evaluation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/evaluation.md",
+      "byteCount": 2435,
+      "sha256": "33e9057d8989c71f6ec5199c10d5912d682bfe7b0b3b87e3b6b645cf7d758f01"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/blockchain/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/security.md",
+      "byteCount": 2147,
+      "sha256": "f1d86c9773ceb19d85e432a92350bccf7a3a5bbcb51f4ddcc88e3de8e9b871e6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/blockchain/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blockchain/SKILL.md",
+      "byteCount": 2398,
+      "sha256": "e3cf452d32b71dcb33ca3e03e7285751a2b57dcc668af660aa2a682eacea1688"
     }
   ]
 }

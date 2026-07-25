@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "34a59f9c91ef71f7d4119b77a49258f09ce2d69a26f0e6ed9ca73d6bec44b5db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "shipping",
-    "name": "Shipping Operations",
+    "name": "shipping",
     "description": "Plan and manage parcel shipping decisions with carrier selection, landed-cost math, customs checks, and delivery exception playbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/shipping",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/shipping/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/_meta.json",
+      "byteCount": 179,
+      "sha256": "e0d425b51755f0b0d14f690a9b60be64b268b093f4ffc1a0592d9977e7b6264f"
     },
     {
       "path": "carrier-selection.md",
       "downloadPath": "skills/shipping/carrier-selection.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/carrier-selection.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/carrier-selection.md",
+      "byteCount": 1892,
+      "sha256": "423b5733253817a5ba59fed02f0c4b991d6ea88e54f0ab930edc51283f3f1a63"
     },
     {
       "path": "exception-playbook.md",
       "downloadPath": "skills/shipping/exception-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/exception-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/exception-playbook.md",
+      "byteCount": 1886,
+      "sha256": "b3bc80f25c54dbab0ab054691c403680df0c8e86519ef0e40b9e49ab40521041"
     },
     {
       "path": "international-customs.md",
       "downloadPath": "skills/shipping/international-customs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/international-customs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/international-customs.md",
+      "byteCount": 1693,
+      "sha256": "8559a536e66d0e8bee80d1e60485bd765995efe24c31f5f09f12ac5593a88a53"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/shipping/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/memory-template.md",
+      "byteCount": 1825,
+      "sha256": "77a6bb4bb878cbf35ef0f437ae69c52aed3084a8c2053d01101b0048d9c57a91"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/shipping/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/setup.md",
+      "byteCount": 1816,
+      "sha256": "9d5d23f686824cff0b7bf3e97a2b15b1488c8c1b5dc5e2878c077cfafdd4c6fc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/shipping/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shipping/SKILL.md",
+      "byteCount": 5446,
+      "sha256": "d0034fbc5de742968f9f2dda5b6e78d913d67199d51d45f460d50da4dcd77c50"
     }
   ]
 }

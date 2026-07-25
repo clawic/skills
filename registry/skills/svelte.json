@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d74c98292a7c8e241f442748f60ee3c1c7c41ca9b4251a53638f92d4b49c649f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "svelte",
-    "name": "Svelte",
+    "name": "svelte",
     "description": "Avoid common Svelte mistakes — reactivity triggers, store subscriptions, and SvelteKit SSR gotchas.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/svelte",
     "summary": "Reactivity Triggers - Assignment triggers reactivity — `arr = arr` after push, or use `arr = [...arr, item]` - Array methods don't trigger — `arr.push()` needs reassignment: `arr = arr` - Object mutation same issue — `ob",
     "repositoryPath": "skills/svelte",
     "manifestPath": "registry/skills/svelte.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/svelte/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/_meta.json",
+      "byteCount": 164,
+      "sha256": "15837084b7a098d86e09eea48926674e080a12621c5261169e5699727d9ba123"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/svelte/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/SKILL.md",
+      "byteCount": 3523,
+      "sha256": "82fed2f6aeeee06eb3f0b6d30c3e170a7eb04b26f7fb350f1618bd92384df6d0"
     }
   ]
 }

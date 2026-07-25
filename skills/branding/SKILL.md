@@ -1,7 +1,17 @@
 ---
-name: Branding
+name: branding
+slug: branding
+version: 1.0.0
 description: Build distinctive brand identity with clear positioning, voice, and visual consistency.
-metadata: {"clawdbot":{"emoji":"✨","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/branding
+metadata:
+  clawdbot:
+    emoji: ✨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Branding
 ---
 
 ## Discovery Questions (Ask First)

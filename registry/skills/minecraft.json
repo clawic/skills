@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0505cb7ac82728c10439df2ab8a42bdbdd5cdaa8f9464ae92669727f2b3b446c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "minecraft",
-    "name": "Minecraft",
+    "name": "minecraft",
     "description": "Plan, build, troubleshoot, and optimize Minecraft worlds, commands, redstone, mods, and servers without mixing Java and Bedrock advice.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/minecraft",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/minecraft/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/_meta.json",
+      "byteCount": 170,
+      "sha256": "9828543348069443cd1a2c305bff7ad58c94e78e74f23d3293e3ffaab621b2b7"
     },
     {
       "path": "build-brief.md",
       "downloadPath": "skills/minecraft/build-brief.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/build-brief.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/build-brief.md",
+      "byteCount": 1175,
+      "sha256": "ef7541002748be9d1b96e63f2f4d168d7471f0ce441258e7ee3664e8cb9b8136"
     },
     {
       "path": "command-patterns.md",
       "downloadPath": "skills/minecraft/command-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/command-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/command-patterns.md",
+      "byteCount": 1166,
+      "sha256": "98e8ded831736c41cea1271d5ce31ab2e968aff9da7b1d42b5acd4a021171f00"
     },
     {
       "path": "edition-gate.md",
       "downloadPath": "skills/minecraft/edition-gate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/edition-gate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/edition-gate.md",
+      "byteCount": 1321,
+      "sha256": "75512c74f9b033ce73d790e9666cb54949e112fd218f6f4ea03870fe2f031e93"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/minecraft/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/memory-template.md",
+      "byteCount": 1545,
+      "sha256": "8b02eb44ad19f8a7f8305994d6a23916abb6d841a5437ddbcb4ee6ab42842fc8"
     },
     {
       "path": "redstone-debug.md",
       "downloadPath": "skills/minecraft/redstone-debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/redstone-debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/redstone-debug.md",
+      "byteCount": 1242,
+      "sha256": "332f3a1d3494eb93ec73725ad63eb110f4e3d9044ec23246768093f23171c95a"
     },
     {
       "path": "server-lanes.md",
       "downloadPath": "skills/minecraft/server-lanes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/server-lanes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/server-lanes.md",
+      "byteCount": 1317,
+      "sha256": "93d3bb952261d0d7f0614e5754561e92a1c71289686b778429a8203a7db5bd33"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/minecraft/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/setup.md",
+      "byteCount": 2558,
+      "sha256": "0d135c142016caf50574e84a9297f1a1c9c2273e2918adde84dd699ed538bb61"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/minecraft/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/SKILL.md",
+      "byteCount": 9711,
+      "sha256": "20c0a4cd2243d55c204ff74b4dbed05d2ed0a25237545f32c07f9b61d56a30b7"
     },
     {
       "path": "survival-routes.md",
       "downloadPath": "skills/minecraft/survival-routes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/survival-routes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minecraft/survival-routes.md",
+      "byteCount": 1234,
+      "sha256": "2e69346224d59fde1b9d2f1e12ca414cb9b2ad0079cd85f5a12348551c917448"
     }
   ]
 }

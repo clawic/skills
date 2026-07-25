@@ -1,6 +1,6 @@
 # Memory Template - Apple News (MacOS)
 
-Create `~/apple-news/memory.md` with this structure:
+Create `~/Clawic/data/apple-news/memory.md` with this structure:
 
 ```markdown
 # Apple News Memory

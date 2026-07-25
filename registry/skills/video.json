@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cf76df33a91e383143075f6d1cf9df6d7bdbb810329605a5f878c5d74e0d29d2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "video",
-    "name": "Video",
+    "name": "video",
     "description": "Process, edit, and optimize videos for any platform with compression, format conversion, captioning, and repurposing workflows.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/video",
     "summary": "Requirements **Required:** - `ffmpeg` / `ffprobe` — core video processing **Optional:** - `whisper` — local transcription for captions - `realesrgan` — AI upscaling Quick Reference | Situation | Load | |-----------|-----",
     "repositoryPath": "skills/video",
     "manifestPath": "registry/skills/video.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/video/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/_meta.json",
+      "byteCount": 238,
+      "sha256": "7ea2b75fa9f6a18b325abb3ac5228d6845168ff6d2ce44cbe045c5098448a315"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/video/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/commands.md",
+      "byteCount": 6052,
+      "sha256": "d9eb968906fbc06b9f0da848ebc34fb0f8c908a64b762f328488ba1ebbdca160"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/video/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/platforms.md",
+      "byteCount": 2256,
+      "sha256": "438a4f64b0fef80c07e85b49ccac684106cbdc417a273e5dbec755cad2637507"
     },
     {
       "path": "quality.md",
       "downloadPath": "skills/video/quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/quality.md",
+      "byteCount": 3084,
+      "sha256": "c2d0151d8b894dfb0c262ed3d8a181ba4b94564d53de4f793f8b2925410265fd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/video/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/SKILL.md",
+      "byteCount": 2847,
+      "sha256": "c378100f0d2b299a9f87895c9e27ab329bfe61dc2f94eb23685be98e65f8df37"
     },
     {
       "path": "workflows.md",
       "downloadPath": "skills/video/workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video/workflows.md",
+      "byteCount": 4353,
+      "sha256": "ac27ab55faa88046c427551f764fb121f6d7c820cb6f6279f6c5cf7c1b765c4a"
     }
   ]
 }

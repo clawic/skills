@@ -1,9 +1,19 @@
 ---
-name: Agency
+name: agency
 slug: agency
 version: 1.0.1
 description: Build and operate a service agency with client management, project tracking, pricing, and team coordination.
-metadata: {"clawdbot":{"emoji":"🏢","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/agency
+metadata:
+  clawdbot:
+    emoji: 🏢
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Agency
 ---
 
 ## When to Use
@@ -25,10 +35,10 @@ User wants to start or scale a service agency: marketing, development, design, c
 
 ## Workspace Structure
 
-Agency data lives in ~/agency/:
+Agency data lives in ~/Clawic/data/agency/:
 
 ```
-~/agency/
+~/Clawic/data/agency/
 ├── clients/           # One file per client
 │   ├── index.md       # Client list with status
 │   └── [name].md      # Client profile, history, preferences
@@ -57,4 +67,4 @@ Agency data lives in ~/agency/:
 
 ## Config Fields
 
-Create ~/agency/config.md with rates, team, and margins. See `pricing.md` for format.
+Create ~/Clawic/data/agency/config.md with rates, team, and margins. See `pricing.md` for format.

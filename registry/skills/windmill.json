@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0a95c15f5a4d673d801faf2e66407a332cc93199c4fcd06f3fe6748a0447ea70",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "windmill",
-    "name": "Windmill",
+    "name": "windmill",
     "description": "Build automation workflows and internal tools with Windmill's code-first platform.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/windmill",
     "summary": "Script Traps - Main function signature determines input schema — Windmill infers from type hints, wrong types break the UI form - Return value is the script output — forgetting to return means downstream steps get nothin",
     "repositoryPath": "skills/windmill",
     "manifestPath": "registry/skills/windmill.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/windmill/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windmill/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windmill/_meta.json",
+      "byteCount": 168,
+      "sha256": "af9e0652c8a3765b5b430de7f3358eede1ac068689016ebd458327fc62520534"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/windmill/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windmill/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/windmill/SKILL.md",
+      "byteCount": 2518,
+      "sha256": "a770a9d334c4fd1bb67ff565dab04054ef1ca2a6d7958f083161cb53b1947a79"
     }
   ]
 }

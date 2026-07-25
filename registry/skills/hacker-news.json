@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3e4825dc46b5da76552144f1a5893694aa8b0dac9a6a94427c713d2611fe8849",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "hacker-news",
-    "name": "Hacker News",
+    "name": "hacker-news",
     "description": "Search and browse Hacker News with API access to stories, comments, users, and hiring threads.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hacker-news",
     "summary": "Quick Reference | Topic | File | |-------|------| | API endpoints | `api.md` | | Search patterns | `search.md` | Core Rules 1. Two APIs Available | API | Use Case | Base URL | |-----|----------|----------| | Official HN ",
     "repositoryPath": "skills/hacker-news",
     "manifestPath": "registry/skills/hacker-news.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hacker-news/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/_meta.json",
+      "byteCount": 174,
+      "sha256": "380fa5681e0cdac4f3f79ac023b61a0fedffcfb9eec2f819b4046a7db20d1da3"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/hacker-news/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/api.md",
+      "byteCount": 1804,
+      "sha256": "06ecae6b862c7f01b4aec8a145dc79832fc44dc02f3a9da848dc7932c87af33d"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/hacker-news/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/search.md",
+      "byteCount": 2425,
+      "sha256": "b5b34d4d5d89f8d1f91201106c065d47a1d47b43e652bcfdd7c4c5b1f1ef935b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hacker-news/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hacker-news/SKILL.md",
+      "byteCount": 2693,
+      "sha256": "4e765811dd9312401c102aeffaa7eed332403294343d58ef9828646e9105999b"
     }
   ]
 }

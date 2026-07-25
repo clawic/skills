@@ -1,6 +1,13 @@
 ---
-name: "Analyze"
-description: "Structured analysis for any input. Data, code, text, decisions, visuals. Prioritize, question, conclude."
+name: analyze
+slug: analyze
+version: 1.0.0
+description: Structured analysis for any input. Data, code, text, decisions, visuals. Prioritize, question, conclude.
+homepage: https://clawic.com/skills/analyze
+metadata:
+  clawdbot:
+    emoji: 🧩
+    displayName: Analyze
 ---
 
 ## Pattern

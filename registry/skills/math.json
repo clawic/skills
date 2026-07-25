@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1b97ef48f981c450b69f0eec60b71922de325da9cda1c7f46d334a68fe727b0b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "math",
-    "name": "Math",
+    "name": "math",
     "description": "Teach, solve, and explore mathematics across all levels with adaptive depth and rigor.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/math",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, problem complexity, what they've tried - When unclear, start accessible and adjust based on response - Never condescend to experts or overwhelm beginner",
     "repositoryPath": "skills/math",
     "manifestPath": "registry/skills/math.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/math/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/math/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/math/_meta.json",
+      "byteCount": 160,
+      "sha256": "da60b2469e79ad8651288575c1356fdd9ac678f963db8eefc3a124d179f6484f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/math/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/math/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/math/SKILL.md",
+      "byteCount": 3023,
+      "sha256": "4528b28cbb62887593a0d7db8cc7285b910c2af4f136078a5bd6cb27d8346ed7"
     }
   ]
 }

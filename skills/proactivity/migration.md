@@ -2,34 +2,34 @@
 
 ## v1.0.1 Architecture Update
 
-This update keeps the same home folder, `~/proactivity/`, and preserves existing files.
+This update keeps the same home folder, `~/Clawic/data/proactivity/`, and preserves existing files.
 The new version adds active-state files for recovery and follow-through.
 
 ### Before
 
-- `~/proactivity/memory.md`
-- `~/proactivity/domains/`
-- `~/proactivity/patterns.md`
-- `~/proactivity/log.md`
+- `~/Clawic/data/proactivity/memory.md`
+- `~/Clawic/data/proactivity/domains/`
+- `~/Clawic/data/proactivity/patterns.md`
+- `~/Clawic/data/proactivity/log.md`
 
 ### After
 
-- `~/proactivity/memory.md`
-- `~/proactivity/session-state.md`
-- `~/proactivity/heartbeat.md`
-- `~/proactivity/patterns.md`
-- `~/proactivity/log.md`
-- `~/proactivity/domains/`
-- `~/proactivity/memory/working-buffer.md`
+- `~/Clawic/data/proactivity/memory.md`
+- `~/Clawic/data/proactivity/session-state.md`
+- `~/Clawic/data/proactivity/heartbeat.md`
+- `~/Clawic/data/proactivity/patterns.md`
+- `~/Clawic/data/proactivity/log.md`
+- `~/Clawic/data/proactivity/domains/`
+- `~/Clawic/data/proactivity/memory/working-buffer.md`
 
 ## Safe Migration
 
 1. Create the new files without deleting the old ones:
 ```bash
-mkdir -p ~/proactivity/memory
-touch ~/proactivity/session-state.md
-touch ~/proactivity/heartbeat.md
-touch ~/proactivity/memory/working-buffer.md
+mkdir -p ~/Clawic/data/proactivity/memory
+touch ~/Clawic/data/proactivity/session-state.md
+touch ~/Clawic/data/proactivity/heartbeat.md
+touch ~/Clawic/data/proactivity/memory/working-buffer.md
 ```
 
 2. Keep `memory.md`, `patterns.md`, and `log.md` exactly as they are.

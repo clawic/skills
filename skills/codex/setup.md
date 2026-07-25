@@ -1,6 +1,6 @@
 # Setup - Codex
 
-Read this when `~/codex/` is missing or empty. Start naturally and keep the user in control.
+Read this when `~/Clawic/data/codex/` is missing or empty. Start naturally and keep the user in control.
 
 ## Your Attitude
 
@@ -45,7 +45,7 @@ Save only durable context:
 - common recovery steps for auth, wrong directory, dirty tree, or stalled runs
 - approved MCP servers and explicit reasons they are allowed
 
-Store data only in `~/codex/` after user consent.
+Store data only in `~/Clawic/data/codex/` after user consent.
 
 ## Golden Rule
 

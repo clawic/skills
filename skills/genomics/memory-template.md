@@ -1,6 +1,6 @@
 # Memory Template — Genomics
 
-Create `~/genomics/memory.md` with this structure:
+Create `~/Clawic/data/genomics/memory.md` with this structure:
 
 ```markdown
 # Genomics Memory

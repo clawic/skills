@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "989f00dabb9694ea9806871dd26f62158ec66470278df2963aa8c21ff381cb40",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "rails",
-    "name": "Rails",
+    "name": "rails",
     "description": "Build reliable Rails apps avoiding ActiveRecord traps, N+1 queries, and callback pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/rails",
     "summary": "Quick Reference | Topic | File | |-------|------| | N+1, callbacks, validations, scopes | `activerecord.md` | | Strong params, filters, render | `controllers.md` | | Route conflicts, constraints | `routing.md` | | Partia",
     "repositoryPath": "skills/rails",
     "manifestPath": "registry/skills/rails.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/rails/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/_meta.json",
+      "byteCount": 238,
+      "sha256": "0c298405680f33e3b8b59166771c974a69ba9ad7b8d390d13faf9f9a87381234"
     },
     {
       "path": "activerecord.md",
       "downloadPath": "skills/rails/activerecord.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/activerecord.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/activerecord.md",
+      "byteCount": 879,
+      "sha256": "7b16efa70b478b73c69998071ed9bb1d855cf8ec74bf564b77fee49f0c1880fd"
     },
     {
       "path": "controllers.md",
       "downloadPath": "skills/rails/controllers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/controllers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/controllers.md",
+      "byteCount": 599,
+      "sha256": "faeaccbd3aeb4f16dc57c8d3db8f0be44f368482f9b025c45c3681136904087b"
     },
     {
       "path": "jobs.md",
       "downloadPath": "skills/rails/jobs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/jobs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/jobs.md",
+      "byteCount": 483,
+      "sha256": "6cadfde97cb56bca8e3b6850325d460756126dcec26303bef8502bcc94e452fb"
     },
     {
       "path": "routing.md",
       "downloadPath": "skills/rails/routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/routing.md",
+      "byteCount": 549,
+      "sha256": "a5edbcb0ed6b4a8e75aa094f96c804f8f13694d0621eb51525fa7df8bbc7afe8"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/rails/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/security.md",
+      "byteCount": 570,
+      "sha256": "76dedbe0999c0087be92dc512b61d9ae179818b60a81649ee670d7763095e9ba"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rails/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/SKILL.md",
+      "byteCount": 1693,
+      "sha256": "17109a0652f3fac216b86195b05910e34a23212d72b531240d16a4d4be7fac58"
     },
     {
       "path": "views.md",
       "downloadPath": "skills/rails/views.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/views.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rails/views.md",
+      "byteCount": 587,
+      "sha256": "86c42a1f161491b40236d04c5a0ee6617ee13ed07b6b9be818767e3c821c469c"
     }
   ]
 }

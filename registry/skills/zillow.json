@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8cb082040297714d10db87092fc29fd6ea53ab5fad445c574365d95df65cccea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "zillow",
-    "name": "Zillow",
+    "name": "zillow",
     "description": "Navigate Zillow for buying, selling, investing, and market research with Zestimate interpretation, pricing strategy, and ROI analysis.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/zillow",
     "summary": "When to Use User needs help with US real estate via Zillow. Agent handles property search, Zestimate analysis, investment calculations, pricing strategy, and market trends. Quick Reference | Topic | File | |-------|-----",
     "repositoryPath": "skills/zillow",
     "manifestPath": "registry/skills/zillow.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/zillow/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/_meta.json",
+      "byteCount": 164,
+      "sha256": "def86ab323b2fb3d91544c6a821947303610b2da916283607a45141fa23880ea"
     },
     {
       "path": "investing.md",
       "downloadPath": "skills/zillow/investing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/investing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/investing.md",
+      "byteCount": 1765,
+      "sha256": "426d2b4c0bca860ed1d2393c96ae44eaf425190c74905feb5866f9a38cac6b82"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/zillow/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/pricing.md",
+      "byteCount": 2227,
+      "sha256": "f0f0504ffab6863f6f84af9081fc1e7c6a5d0c307a2e583f7ae5a148cd4a639c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/zillow/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/zillow/SKILL.md",
+      "byteCount": 3994,
+      "sha256": "9f9f808212e642d0d2c8bb1523b2d9c85986398a1436f54305818f2ea0893cef"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template — Qwen
 
-Create `~/qwen/memory.md` with this structure:
+Create `~/Clawic/data/qwen/memory.md` with this structure:
 
 ```markdown
 # Qwen Memory

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "799945ecb946fa8d8e61a3d4010cd972ba569e90a4f3996a6324d28434dae2e7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "persian",
-    "name": "Persian",
+    "name": "persian",
     "description": "Write Persian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/persian",
     "summary": "The Real Problem AI Persian is technically correct but sounds off. Too formal. Too کتابی (bookish). Natives write more casually, with warmth and colloquial patterns. Match that. Formality Default Default register is too ",
     "repositoryPath": "skills/persian",
     "manifestPath": "registry/skills/persian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/persian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/persian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/persian/_meta.json",
+      "byteCount": 166,
+      "sha256": "8883ae37da191d256a4311857d63dda1bea31b2bd384187bb259d3620d4e6ad7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/persian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/persian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/persian/SKILL.md",
+      "byteCount": 2139,
+      "sha256": "bf37f655ecf4e9083aeafa48ec87f6e18c231a447d5cc3fd2ee60d8a42bbb2b5"
     }
   ]
 }

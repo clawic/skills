@@ -1,7 +1,17 @@
 ---
-name: HTTP
+name: http
+slug: http
+version: 1.0.0
 description: Use HTTP correctly with proper methods, status codes, headers, and caching.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/http
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: HTTP
 ---
 
 ## Redirects (Often Confused)

@@ -1,7 +1,21 @@
 ---
-name: Docker Compose
+name: docker-compose
+slug: docker-compose
+version: 1.0.0
 description: Define multi-container applications with proper dependency handling, networking, and volume management.
-metadata: {"clawdbot":{"emoji":"🐳","requires":{"anyBins":["docker-compose","docker"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/docker-compose
+metadata:
+  clawdbot:
+    emoji: 🐳
+    requires:
+      anyBins:
+      - docker-compose
+      - docker
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Docker Compose
 ---
 
 ## depends_on Ready Condition

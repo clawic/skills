@@ -1,6 +1,6 @@
 # Memory Template — ClickHouse
 
-Create `~/clickhouse/memory.md` with this structure:
+Create `~/Clawic/data/clickhouse/memory.md` with this structure:
 
 ```markdown
 # ClickHouse Memory

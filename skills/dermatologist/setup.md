@@ -1,6 +1,6 @@
 # Setup - Dermatologist
 
-Read this on first activation when `~/dermatologist/` does not exist or is incomplete.
+Read this on first activation when `~/Clawic/data/dermatologist/` does not exist or is incomplete.
 
 ## Operating Attitude
 
@@ -17,8 +17,8 @@ Read this on first activation when `~/dermatologist/` does not exist or is incom
    - only for tracking, photo comparison, or visit prep
 2. Ask permission before writing local files:
 ```bash
-mkdir -p ~/dermatologist/cases ~/dermatologist/exports ~/dermatologist/archive
-touch ~/dermatologist/memory.md
+mkdir -p ~/Clawic/data/dermatologist/cases ~/Clawic/data/dermatologist/exports ~/Clawic/data/dermatologist/archive
+touch ~/Clawic/data/dermatologist/memory.md
 chmod 700 ~/dermatologist
 ```
 3. If approved and `memory.md` is empty, initialize it from `memory-template.md`.

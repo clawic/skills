@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "15e6a90e3723b4fdb3a16f754608fc9ec485da5122d85eeb952c500c4cef6857",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "facebook-marketplace",
-    "name": "Facebook Marketplace",
+    "name": "facebook-marketplace",
     "description": "Buy and sell on Facebook Marketplace with pricing discipline, safer messaging, shipping guardrails, scam detection, and account-safe workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/facebook-marketplace",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/facebook-marketplace/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/_meta.json",
+      "byteCount": 192,
+      "sha256": "476cffa738e18a769fae5ea5630b1d80e45b181ea22338524a685faece552308"
     },
     {
       "path": "buyer-flow.md",
       "downloadPath": "skills/facebook-marketplace/buyer-flow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/buyer-flow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/buyer-flow.md",
+      "byteCount": 1998,
+      "sha256": "e940274f3a963629d30aad9ea2e5333357bee5520bf348500c87c9af71fe02ad"
     },
     {
       "path": "interface-and-automation.md",
       "downloadPath": "skills/facebook-marketplace/interface-and-automation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/interface-and-automation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/interface-and-automation.md",
+      "byteCount": 1995,
+      "sha256": "153cfffd35b778b4a85e7986ae991ac94ea481678be483e44fb9e920fffa623a"
     },
     {
       "path": "listing-and-pricing.md",
       "downloadPath": "skills/facebook-marketplace/listing-and-pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/listing-and-pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/listing-and-pricing.md",
+      "byteCount": 1973,
+      "sha256": "59df7e8114eb3bf0a716c21332a6eb016bd6f2f701ace068743411ba131ab1f0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/facebook-marketplace/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/memory-template.md",
+      "byteCount": 2326,
+      "sha256": "f0ea47ba43e5e7aede6f1a767763492429567ef685200e848a866b23f4001c32"
     },
     {
       "path": "messages-and-negotiation.md",
       "downloadPath": "skills/facebook-marketplace/messages-and-negotiation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/messages-and-negotiation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/messages-and-negotiation.md",
+      "byteCount": 1686,
+      "sha256": "330258394d2c4c5604de04b645ddc659d1aa70793ed5974cafa9950004596bf2"
     },
     {
       "path": "policy-and-account-health.md",
       "downloadPath": "skills/facebook-marketplace/policy-and-account-health.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/policy-and-account-health.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/policy-and-account-health.md",
+      "byteCount": 2050,
+      "sha256": "4241ee4f3d2838c9982470faf262a5ed96c08beb9f68647cea6c1bdba7dde0c0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/facebook-marketplace/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/setup.md",
+      "byteCount": 2418,
+      "sha256": "77157afe7bf8f4d366729be822cf231d1d59ceaab56f520e9f0e233bd406ea63"
     },
     {
       "path": "shipping-and-protection.md",
       "downloadPath": "skills/facebook-marketplace/shipping-and-protection.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/shipping-and-protection.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/shipping-and-protection.md",
+      "byteCount": 1788,
+      "sha256": "dbe9e943f6c1232565c6f7c04f4e1c4a52f739c758afea50b59dc5c69297fdae"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/facebook-marketplace/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/facebook-marketplace/SKILL.md",
+      "byteCount": 8731,
+      "sha256": "fb28ff315630e72d076ee35cf5b5c222b226bc82fde5c2481668e40cc88f8be6"
     }
   ]
 }

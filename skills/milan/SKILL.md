@@ -1,11 +1,20 @@
 ---
-name: Milan
+name: milan
 slug: milan
 version: 1.0.0
-changelog: "Initial release with complete Milan guidance for visitors, residents, students, and professionals."
-homepage: https://clawic.com/skills/milan
 description: Navigate Milan as visitor, resident, student, or professional with neighborhoods, transport, costs, visas, food, and practical local insights.
-metadata: {"clawdbot":{"emoji":"M","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/milan
+changelog: Initial release with complete Milan guidance for visitors, residents, students, and professionals.
+metadata:
+  clawdbot:
+    emoji: M
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Milan
 ---
 
 ## When to Use
@@ -114,7 +123,7 @@ Milan is faster, more expensive, and more international than most Italian cities
 See `safety.md` and `visas.md` for details.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - trip planning, logistics, and scheduling
 - `expat` - relocation mindset, admin priorities, and adaptation
 - `food` - dining research and personalized restaurant planning
@@ -123,5 +132,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star milan`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/milan
+- Latest version: https://clawic.com/skills/milan

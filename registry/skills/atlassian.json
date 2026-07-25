@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ba679c1e524bb737b877501830bce368bfb6885e379879c3621aadb2176ca4d9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "atlassian",
-    "name": "Atlassian Cloud APIs + CLIs",
+    "name": "atlassian",
     "description": "Operate Atlassian Cloud APIs and CLIs across Jira, Confluence, Bitbucket, Trello, Admin, Forge, Compass, Opsgenie, and Statuspage.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/atlassian",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/atlassian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/_meta.json",
+      "byteCount": 188,
+      "sha256": "a563c87939472f053e127ee37d653ea9a2513c5ef746de20e10355fd2b89e6c5"
     },
     {
       "path": "admin-ops.md",
       "downloadPath": "skills/atlassian/admin-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/admin-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/admin-ops.md",
+      "byteCount": 3092,
+      "sha256": "e7946ca60bf4cc6ed2c477bc03c32ece2969b6ccaf23711c95b86a843560eb78"
     },
     {
       "path": "auth-and-clis.md",
       "downloadPath": "skills/atlassian/auth-and-clis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/auth-and-clis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/auth-and-clis.md",
+      "byteCount": 2640,
+      "sha256": "51abcf1d34fce5fc42837596868d8e635fadfd31500935273ce9672a9bada1f3"
     },
     {
       "path": "content-dev-collab.md",
       "downloadPath": "skills/atlassian/content-dev-collab.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/content-dev-collab.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/content-dev-collab.md",
+      "byteCount": 1991,
+      "sha256": "4f87dca8c5e6185d40094e60123404c27e1668a68452b8481b95973173b57837"
     },
     {
       "path": "jira-suite.md",
       "downloadPath": "skills/atlassian/jira-suite.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/jira-suite.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/jira-suite.md",
+      "byteCount": 1958,
+      "sha256": "e152b8136ec7e16d854446db4a88cc7fb230d62be061d37543b10939daa39fdd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/atlassian/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/memory-template.md",
+      "byteCount": 1496,
+      "sha256": "2f9c0638663a86a2f91a8ce64f4d30771d5aa6505a4ad58c93b35a7e3f79bfcc"
     },
     {
       "path": "product-map.md",
       "downloadPath": "skills/atlassian/product-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/product-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/product-map.md",
+      "byteCount": 3133,
+      "sha256": "5ea067f2a6d34d5591e551d3235e13c96b9c8db08d3f2d13c988bbdfb5d6814e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/atlassian/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/setup.md",
+      "byteCount": 2200,
+      "sha256": "b34670f6c11baf609fb860e793360264d6834e66e4a7467e7fe7e366ea21cfd2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/atlassian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/atlassian/SKILL.md",
+      "byteCount": 7729,
+      "sha256": "fb03a4c041a2fb89c03bb021daeb5d8958ae54401a2672f5fc2d023b4fb71fe0"
     }
   ]
 }

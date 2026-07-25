@@ -1,7 +1,17 @@
 ---
-name: Grammar
+name: grammar
+slug: grammar
+version: 1.0.0
 description: Correct grammar and spelling without changing meaning or style.
-metadata: {"clawdbot":{"emoji":"✏️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/grammar
+metadata:
+  clawdbot:
+    emoji: ✏️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Grammar
 ---
 
 ## Core Principle

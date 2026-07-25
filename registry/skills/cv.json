@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6aca301c48363ab02476fd14492266462179f4193b0972df0924ef57fb936a35",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cv",
-    "name": "CV",
+    "name": "cv",
     "description": "Create ATS-optimized resumes and CVs with proper structure, metrics, and industry targeting.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cv",
     "summary": "Resume vs CV | Aspect | Resume | CV | |--------|--------|-----| | Length | 1-2 pages max | No limit (can be 10+ pages) | | Purpose | Snapshot tailored to job | Complete academic/professional history | | Use | Industry jo",
     "repositoryPath": "skills/cv",
     "manifestPath": "registry/skills/cv.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cv/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cv/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cv/_meta.json",
+      "byteCount": 156,
+      "sha256": "634e9908f6ebc71828b4b94b1d323ff56eec00ca5feed51e8e0ab00650b335e1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cv/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cv/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cv/SKILL.md",
+      "byteCount": 6133,
+      "sha256": "0e21d5a352a00c5ff96feb36cf8cf92f7c5d80047dce43c1d0dbf35e39cb9abd"
     }
   ]
 }

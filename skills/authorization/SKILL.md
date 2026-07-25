@@ -1,10 +1,19 @@
 ---
-name: Authorization
+name: authorization
 slug: authorization
 version: 1.0.0
-homepage: https://clawic.com/skills/authorization
 description: Build secure access control with RBAC, ABAC, permissions, policies, and scope-based authorization.
-metadata: {"clawdbot":{"emoji":"🔐","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/authorization
+metadata:
+  clawdbot:
+    emoji: 🔐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Authorization
 ---
 
 ## When to Use
@@ -97,5 +106,5 @@ Roles change. Permissions are stable.
 
 ## Feedback
 
-- If useful: `clawhub star authorization`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/authorization
+- Latest version: https://clawic.com/skills/authorization

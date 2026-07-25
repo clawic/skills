@@ -1,6 +1,6 @@
 # Setup — Daily News Digest
 
-Read this on first use when `~/daily-news-digest/` doesn't exist or is empty.
+Read this on first use when `~/Clawic/data/daily-news-digest/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ Early in the conversation, ask:
 - "Should I jump in whenever you ask about news or current events?"
 - "Want automatic briefings at certain times, or only when you ask?"
 
-Save their answer to `~/daily-news-digest/memory.md` in the Context section.
+Save their answer to `~/Clawic/data/daily-news-digest/memory.md` in the Context section.
 
 ### 2. Then: News Preferences
 
@@ -43,7 +43,7 @@ Create cron job only after they confirm.
 
 ## What You're Saving
 
-After each response, update `~/daily-news-digest/memory.md`:
+After each response, update `~/Clawic/data/daily-news-digest/memory.md`:
 
 - Integration preference (proactive vs on-demand)
 - Topic interests and exclusions

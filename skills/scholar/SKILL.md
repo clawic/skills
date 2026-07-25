@@ -1,7 +1,17 @@
 ---
-name: Scholar
+name: scholar
+slug: scholar
+version: 1.0.0
 description: Search academic literature with Google Scholar using effective queries, citations, and filters.
-metadata: {"clawdbot":{"emoji":"🎓","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/scholar
+metadata:
+  clawdbot:
+    emoji: 🎓
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Scholar
 ---
 
 # Google Scholar Research Rules

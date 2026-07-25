@@ -1,11 +1,22 @@
 ---
-name: macOS Automator
+name: automator
 slug: automator
 version: 1.0.0
-homepage: https://clawic.com/skills/automator
 description: Automate macOS tasks by composing and executing Automator workflows through automator CLI and AppleScript control.
+homepage: https://clawic.com/skills/automator
 changelog: Initial release with Automator CLI execution paths, AppleScript authoring patterns, and safety-first write controls.
-metadata: {"clawdbot":{"emoji":"A","requires":{"bins":["automator","osascript"]},"os":["darwin"],"configPaths":["~/automator/"]}}
+metadata:
+  clawdbot:
+    emoji: A
+    requires:
+      bins:
+      - automator
+      - osascript
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/automator/
+    displayName: macOS Automator
 ---
 
 ## Setup
@@ -26,10 +37,10 @@ Agent handles workflow execution, workflow composition, and repeatable runbooks 
 
 ## Architecture
 
-Memory lives in `~/automator/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/automator/`. See `memory-template.md` for structure.
 
 ```text
-~/automator/
+~/Clawic/data/automator/
 ├── memory.md                # Activation rules and safety defaults
 ├── workflows.md             # Known workflow paths and run arguments
 ├── action-catalog.md        # Verified action names and categories
@@ -51,7 +62,7 @@ Use these files when the task needs deeper detail.
 
 ## Data Storage
 
-All local skill data stays in `~/automator/`.
+All local skill data stays in `~/Clawic/data/automator/`.
 Before creating or changing local files, state the write scope and ask for confirmation.
 
 ## External Endpoints
@@ -110,7 +121,7 @@ No other data is sent externally.
 ## Security & Privacy
 
 **Data that stays local:**
-- Workflow paths, verified action names, and run diagnostics in `~/automator/`.
+- Workflow paths, verified action names, and run diagnostics in `~/Clawic/data/automator/`.
 - Command output required to complete the requested automation task.
 
 **Data that leaves your machine:**
@@ -122,7 +133,7 @@ No other data is sent externally.
 - Execute destructive automation without explicit confirmation.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `applescript` - Script app automation with robust quoting and pre-read checks.
 - `automate` - Design reliable multi-step automation workflows.
 - `macos` - Use macOS command-line and system operation patterns.
@@ -130,5 +141,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star automator`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/automator
+- Latest version: https://clawic.com/skills/automator

@@ -1,9 +1,19 @@
 ---
-name: Vibe Coding
+name: vibe-coding
 slug: vibe-coding
 version: 1.0.0
 description: Build software with AI by describing what you want. Covers prompting techniques, workflow patterns, rules files, and when to intervene.
-metadata: {"clawdbot":{"emoji":"🎸","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vibe-coding
+metadata:
+  clawdbot:
+    emoji: 🎸
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Vibe Coding
 ---
 
 ## What is Vibe Coding

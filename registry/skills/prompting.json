@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "05cad349ce784366ef8bde2d2ece934222b7ba824b123bd354d19ee73b7205f8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "prompting",
-    "name": "Prompting",
+    "name": "prompting",
     "description": "Write, test, and iterate prompts for AI models with voice preservation, model-specific adaptation, and systematic failure analysis.",
     "version": "1.0.0",
-    "summary": "Architecture Prompt patterns and user preferences live in `~/prompting/`. ``` ~/prompting/ ├── memory.md # HOT: user voice, model preferences, learned corrections ├── patterns/ # Reusable prompt templates by task type └─",
+    "homepage": "https://clawic.com/skills/prompting",
+    "summary": "Architecture Prompt patterns and user preferences live in `~/Clawic/data/prompting/`. ``` ~/Clawic/data/prompting/ ├── memory.md # HOT: user voice, model preferences, learned corrections ├── patterns/ # Reusable prompt t",
     "repositoryPath": "skills/prompting",
     "manifestPath": "registry/skills/prompting.json"
   },
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/prompting/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/_meta.json",
+      "byteCount": 170,
+      "sha256": "d36f7cf1583fa88bdc81d2640fcdad5b809350d5ada44eb6913684ce2d3b52ca"
     },
     {
       "path": "failures.md",
       "downloadPath": "skills/prompting/failures.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/failures.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/failures.md",
+      "byteCount": 1669,
+      "sha256": "96d8241558b3d803182eab7410dd86bb74666f53cfb23c8f974895faf46fba72"
     },
     {
       "path": "iteration.md",
       "downloadPath": "skills/prompting/iteration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/iteration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/iteration.md",
+      "byteCount": 1261,
+      "sha256": "fea048dd0d248d1e68a404a08d6f1624f9dd49e45c1899c3046530e9eb9e14df"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/prompting/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/memory-template.md",
+      "byteCount": 781,
+      "sha256": "dd5a1ecfe1ea32956d36e298098163de83b4767be210c6e4906517f207189254"
     },
     {
       "path": "models.md",
       "downloadPath": "skills/prompting/models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/models.md",
+      "byteCount": 1552,
+      "sha256": "f750c76baece5970d300d8fba09879b74bf65eed4f060db0fdc782c26a7cf85f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/prompting/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/SKILL.md",
+      "byteCount": 3462,
+      "sha256": "6cb8ac96f0d602bbc91efd808a243c07f111cd4b1f44d1a05de90a52e6456756"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/prompting/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prompting/techniques.md",
+      "byteCount": 1568,
+      "sha256": "3621904bbfd9c195de9987c10883cfcf9dc43f1479bf8b2bea083e5a0bbc870e"
     }
   ]
 }

@@ -16,7 +16,7 @@ accessed {date}. https://youtube.com/watch?v={id}&t={seconds}
 
 For processing multiple videos on a topic:
 
-1. Create topic folder: `~/youtube-video-transcript/research/{topic}/`
+1. Create topic folder: `~/Clawic/data/youtube-video-transcript/research/{topic}/`
 2. Extract all relevant videos
 3. Generate index with key quotes per video
 4. Cross-reference mentions across videos

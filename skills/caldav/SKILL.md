@@ -1,11 +1,21 @@
 ---
-name: CalDAV
+name: caldav
 slug: caldav
 version: 1.0.0
-homepage: https://clawic.com/skills/caldav
 description: Sync, inspect, and modify CalDAV calendars with vdirsyncer and khal using deterministic windows, verified writes, and recurrence-aware workflows.
+homepage: https://clawic.com/skills/caldav
 changelog: Initial release with safer CalDAV operating rules for vdirsyncer and khal, including sync discipline, edit verification, and conflict-aware workflows.
-metadata: {"clawdbot":{"emoji":"📅","requires":{"bins":["vdirsyncer","khal"]},"os":["linux","darwin"]}}
+metadata:
+  clawdbot:
+    emoji: 📅
+    requires:
+      bins:
+      - vdirsyncer
+      - khal
+    os:
+    - linux
+    - darwin
+    displayName: CalDAV
 ---
 
 ## When to Use
@@ -81,7 +91,7 @@ This skill is for local-first querying, event creation, safe edits, troubleshoot
 - Reporting success before read-back verification -> hidden mismatch between local cache and remote server.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `calendar-planner` - Plan weeks, repair conflicts, and turn calendar state into defended scheduling decisions.
 - `schedule` - Handle general scheduling requests when the user needs timing help beyond raw CalDAV operations.
 - `fastmail-api` - Use provider-specific Fastmail mail and calendar APIs when CalDAV is not enough.
@@ -89,5 +99,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star caldav`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/caldav
+- Latest version: https://clawic.com/skills/caldav

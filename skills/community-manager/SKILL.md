@@ -1,10 +1,21 @@
 ---
-name: Community Manager
+name: community-manager
 slug: community-manager
 version: 1.0.0
-homepage: https://clawic.com/skills/community-manager
 description: Manage online communities with engagement strategies, content planning, and audience growth.
-metadata: {"clawdbot":{"emoji":"👥","requires":{"bins":[],"configPaths":["~/community-manager/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/community-manager
+metadata:
+  clawdbot:
+    emoji: 👥
+    requires:
+      bins: []
+      configPaths:
+      - ~/Clawic/data/community-manager/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Community Manager
 ---
 
 ## When to Use
@@ -13,10 +24,10 @@ User needs to manage communities on Discord, Slack, Telegram, or forums. Agent h
 
 ## Architecture
 
-Memory lives in `~/community-manager/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/community-manager/`. See `memory-template.md` for setup.
 
 ```
-~/community-manager/
+~/Clawic/data/community-manager/
 ├── memory.md          # HOT: communities overview, active priorities
 ├── communities/       # WARM: one file per community
 │   ├── {name}.md      # Platform, channels, voice, metrics
@@ -39,7 +50,7 @@ Memory lives in `~/community-manager/`. See `memory-template.md` for setup.
 ## Core Rules
 
 ### 1. Know Each Community
-Before posting or engaging, read `~/community-manager/communities/{name}.md`. Every community has different:
+Before posting or engaging, read `~/Clawic/data/community-manager/communities/{name}.md`. Every community has different:
 - Platform norms (Discord vs Slack vs Telegram)
 - Tone and voice guidelines
 - Peak activity hours
@@ -54,7 +65,7 @@ Before posting or engaging, read `~/community-manager/communities/{name}.md`. Ev
 
 ### 3. Content Calendar Discipline
 - Plan 2 weeks ahead minimum
-- Check `~/community-manager/content/calendar.md` before creating
+- Check `~/Clawic/data/community-manager/content/calendar.md` before creating
 - Never post identical content across platforms without adapting
 
 ### 4. Moderation Is Protection
@@ -99,7 +110,7 @@ New members in first 48h:
 ## Security & Privacy
 
 **Local storage (persisted to disk):**
-- Creates and maintains `~/community-manager/` directory
+- Creates and maintains `~/Clawic/data/community-manager/` directory
 - Stores: community metadata, content calendars, engagement notes
 - You control what to record about members
 
@@ -118,12 +129,12 @@ New members in first 48h:
 You decide what member data to record. Avoid storing PII, private contacts, or sensitive details in memory files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cmo` — marketing strategy alignment
 - `growth` — audience growth tactics
 - `branding` — voice and identity consistency
 
 ## Feedback
 
-- If useful: `clawhub star community-manager`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/community-manager
+- Latest version: https://clawic.com/skills/community-manager

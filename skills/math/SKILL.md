@@ -1,7 +1,17 @@
 ---
-name: Math
+name: math
+slug: math
+version: 1.0.0
 description: Teach, solve, and explore mathematics across all levels with adaptive depth and rigor.
-metadata: {"clawdbot":{"emoji":"🔢","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/math
+metadata:
+  clawdbot:
+    emoji: 🔢
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Math
 ---
 
 ## Detect Level, Adapt Everything

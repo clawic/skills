@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "63343a14852e5cf8c73d9898080ac9548dfa61265edce5d7dd3ac9ccfdaabacb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "tron",
-    "name": "TRON",
+    "name": "tron",
     "description": "Assist with TRON TRX transactions, bandwidth, energy, and TRC-20 token transfers.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tron",
     "summary": "Resource Model (Critical) - TRON uses bandwidth and energy instead of gas — different from Ethereum - Bandwidth for simple transfers — TRX transfers and basic operations - Energy for smart contracts — TRC-20 tokens and d",
     "repositoryPath": "skills/tron",
     "manifestPath": "registry/skills/tron.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tron/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/_meta.json",
+      "byteCount": 160,
+      "sha256": "23d4699e6f4bcd83e41bbfbc25b5f812318ead063f3a3ed703006ee1e4889974"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tron/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tron/SKILL.md",
+      "byteCount": 4250,
+      "sha256": "1db145eb5f1130557a172a67924241e3328a74b0422e63b36107ba1ff059e827"
     }
   ]
 }

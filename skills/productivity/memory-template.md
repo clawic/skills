@@ -1,6 +1,6 @@
 # Memory Template — Productivity
 
-Create `~/productivity/memory.md` with this structure:
+Create `~/Clawic/data/productivity/memory.md` with this structure:
 
 ```markdown
 # Productivity Memory
@@ -56,4 +56,4 @@ integration: pending
 - Store stable patterns, not every temporary mood
 - Save only what helps future prioritization or planning
 - Prefer constraints and preferences over life-story detail
-- If it belongs in the active system, put it in `~/productivity/` files instead of memory
+- If it belongs in the active system, put it in `~/Clawic/data/productivity/` files instead of memory

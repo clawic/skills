@@ -10,7 +10,7 @@ mkdir -p ~/australia
 ```
 
 ### 2. Initialize Memory File
-Create `~/australia/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/australia/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Flights, rental car, campervan, or mixed transport?
 
 ### 4. Save to Memory
-Update `~/australia/memory.md` with their answers.
+Update `~/Clawic/data/australia/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/australia/memory.md` exists:
+If `~/Clawic/data/australia/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences
 3. Ask what changed since last plan

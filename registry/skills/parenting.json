@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "45f79a7560d706173724318dfee7c77089b9e4589bb4fcff5b5c182df0f94d64",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "parenting",
-    "name": "Parenting",
+    "name": "parenting",
     "description": "Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/parenting",
     "summary": "Before Giving Advice - Ask child's age — advice for toddlers doesn't apply to teens - Ask what they've tried — don't repeat failed approaches - Ask about context — single parent, multiple kids, special needs changes ever",
     "repositoryPath": "skills/parenting",
     "manifestPath": "registry/skills/parenting.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/parenting/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parenting/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parenting/_meta.json",
+      "byteCount": 170,
+      "sha256": "8682b030214f1f7b20f4d702244d1cee7ac3017c0c253d7ff866043668693e1e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/parenting/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parenting/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/parenting/SKILL.md",
+      "byteCount": 4577,
+      "sha256": "cce7f06eac8c35709d122924437f97ddf3ec24373d862cf85bb5dd5edd931ab3"
     }
   ]
 }

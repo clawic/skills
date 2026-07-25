@@ -1,9 +1,21 @@
 ---
-name: Laravel
+name: laravel
 slug: laravel
 version: 1.0.1
 description: Build robust Laravel apps avoiding Eloquent traps, queue failures, and auth pitfalls.
-metadata: {"clawdbot":{"emoji":"🔴","requires":{"bins":["php","composer"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/laravel
+metadata:
+  clawdbot:
+    emoji: 🔴
+    requires:
+      bins:
+      - php
+      - composer
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Laravel
 ---
 
 ## Quick Reference

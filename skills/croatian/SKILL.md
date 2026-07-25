@@ -1,6 +1,13 @@
 ---
-name: Croatian
+name: croatian
+slug: croatian
+version: 1.0.0
 description: Write Croatian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/croatian
+metadata:
+  clawdbot:
+    emoji: 🇭🇷
+    displayName: Croatian
 ---
 
 ## The Real Problem

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "02167f0ff0728f842b139e07e91d83bb91cba119f95fd9ff658352cf605651f8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "video-edit",
-    "name": "Video Editing",
+    "name": "video-edit",
     "description": "Edit videos with AI background removal, color grading, upscaling, stabilization, and enhancement tools.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/video-edit",
     "summary": "AI Video Editing Help users edit and enhance videos with AI tools. **Rules:** - Ask what edit they need: remove background, color grade, upscale, stabilize, enhance - Check technique files: `background-removal.md`, `colo",
     "repositoryPath": "skills/video-edit",
     "manifestPath": "registry/skills/video-edit.json"
@@ -20,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/video-edit/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/_meta.json",
+      "byteCount": 175,
+      "sha256": "1421e8095eacb8c21ccf8d6e20258d9af59ab65a89c0f1dfc8b3b70e63ebe194"
     },
     {
       "path": "audio.md",
       "downloadPath": "skills/video-edit/audio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/audio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/audio.md",
+      "byteCount": 2825,
+      "sha256": "7ac394245279b0781cbd6b1748bc41e1b49b55005aa1d607d6b352aaf55db881"
     },
     {
       "path": "background-removal.md",
       "downloadPath": "skills/video-edit/background-removal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/background-removal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/background-removal.md",
+      "byteCount": 2305,
+      "sha256": "d1dadee374248e2c2969e418d62f289a898e340651ad1b9f45a1d7420caab62d"
     },
     {
       "path": "color-grading.md",
       "downloadPath": "skills/video-edit/color-grading.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/color-grading.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/color-grading.md",
+      "byteCount": 2648,
+      "sha256": "b28ab66dc7146815b4a1d5b0095bb741582006440548ef6f0bfaf2a41d8918bd"
     },
     {
       "path": "effects.md",
       "downloadPath": "skills/video-edit/effects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/effects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/effects.md",
+      "byteCount": 2986,
+      "sha256": "38b426dd56303d7abaca9fb19e4d5132cedbd0630401a549d424131f02e2741d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/video-edit/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/SKILL.md",
+      "byteCount": 2795,
+      "sha256": "dcaa275e36dd25a481fee6ce552eb8c64c21d0c16647eb96f0d3743620fdad73"
     },
     {
       "path": "stabilization.md",
       "downloadPath": "skills/video-edit/stabilization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/stabilization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/stabilization.md",
+      "byteCount": 2703,
+      "sha256": "557fabb6e70e8807c082623ad293216b3b071bd3a518913d543aaad55b37ed28"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/video-edit/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/tools.md",
+      "byteCount": 2682,
+      "sha256": "7ebe540601d6c0392477c19acb5a7b51ff924063c062f2ab0720ebf32e816bde"
     },
     {
       "path": "upscaling.md",
       "downloadPath": "skills/video-edit/upscaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/upscaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/video-edit/upscaling.md",
+      "byteCount": 2556,
+      "sha256": "d55cff98751db9a6bba557e5d6f911a25d09f8407166b7302e7cb9448ba1de1b"
     }
   ]
 }

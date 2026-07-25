@@ -1,9 +1,19 @@
 ---
-name: Hong Kong
+name: hong-kong
 slug: hong-kong
 version: 1.0.1
 description: Navigate Hong Kong as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, MTR transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"HK","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/hong-kong
+metadata:
+  clawdbot:
+    emoji: HK
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Hong Kong
 ---
 
 ## When to Use

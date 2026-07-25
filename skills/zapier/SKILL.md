@@ -1,10 +1,24 @@
 ---
-name: Zapier
+name: zapier
 slug: zapier
 version: 1.0.0
-homepage: https://clawic.com/skills/zapier
 description: Complete Zapier automation with Zaps, Tables, Interfaces, webhooks, REST Hooks API, and 6000+ app integrations.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"env":["ZAPIER_API_KEY","ZAPIER_TABLES_TOKEN"],"config":["~/zapier/"]},"primaryEnv":"ZAPIER_API_KEY","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/zapier
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      env:
+      - ZAPIER_API_KEY
+      - ZAPIER_TABLES_TOKEN
+      config:
+      - ~/Clawic/data/zapier/
+    primaryEnv: ZAPIER_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Zapier
 ---
 
 # Zapier
@@ -21,7 +35,7 @@ curl -H "Authorization: Bearer $ZAPIER_API_KEY" \
 
 ## Setup
 
-On first use, read `setup.md`. Preferences stored in `~/zapier/memory.md`.
+On first use, read `setup.md`. Preferences stored in `~/Clawic/data/zapier/memory.md`.
 
 ## When to Use
 
@@ -30,7 +44,7 @@ Any Zapier operation: create Zaps, manage Tables, build Interfaces, configure we
 ## Architecture
 
 ```
-~/zapier/
+~/Clawic/data/zapier/
 ├── memory.md      # Account context, common Zaps
 └── zaps/          # Documented configurations
 ```
@@ -104,7 +118,7 @@ curl -H "Authorization: Bearer $ZAPIER_API_KEY" \
 
 **Sent to Zapier:** Workflow data, field mappings, trigger/action configs
 **Sent to connected apps:** Only data you explicitly map
-**Stays local:** ~/zapier/ preferences, API keys (never logged)
+**Stays local:** ~/Clawic/data/zapier/ preferences, API keys (never logged)
 **Never:** Expose API keys, skip webhook verification
 
 ## Trust
@@ -112,12 +126,12 @@ curl -H "Authorization: Bearer $ZAPIER_API_KEY" \
 This skill sends data to Zapier (zapier.com) and any apps you connect through Zaps.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API patterns
 - `webhook` — Webhook fundamentals
 - `saas` — SaaS metrics and billing
 
 ## Feedback
 
-- If useful: `clawhub star zapier`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/zapier
+- Latest version: https://clawic.com/skills/zapier

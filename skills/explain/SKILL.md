@@ -1,8 +1,14 @@
 ---
-name: "Explain"
-version: "1.0.2"
-description: "Learns how to explain things to your human. Adapts format, depth, and style by topic."
-changelog: "Restructured with auxiliary files; added Quick Reference"
+name: explain
+slug: explain
+version: 1.0.2
+description: Learns how to explain things to your human. Adapts format, depth, and style by topic.
+homepage: https://clawic.com/skills/explain
+changelog: Restructured with auxiliary files; added Quick Reference
+metadata:
+  clawdbot:
+    emoji: 💬
+    displayName: Explain
 ---
 
 ## Adaptive Explanation Preferences
@@ -35,7 +41,7 @@ changelog: "Restructured with auxiliary files; added Quick Reference"
 
 ## Memory Storage
 
-Preferences persist in `~/explain/memory.md`. Create on first use:
+Preferences persist in `~/Clawic/data/explain/memory.md`. Create on first use:
 
 ```markdown
 ## Format

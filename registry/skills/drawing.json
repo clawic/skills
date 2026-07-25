@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8def42ec6db3a987a9fc74cc3a4236c7b23456f2ca8365fbd2e9e795ddbc5c46",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "drawing",
-    "name": "Drawing",
+    "name": "drawing",
     "description": "Generate children's drawings and coloring pages with modular prompts, style packs, and print-ready constraints across image models.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/drawing",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/drawing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/_meta.json",
+      "byteCount": 166,
+      "sha256": "f8cff93a45571ea4daa71f2569cec2102cbf6c06337272709b5e626a02156a0e"
     },
     {
       "path": "coloring-pages.md",
       "downloadPath": "skills/drawing/coloring-pages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/coloring-pages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/coloring-pages.md",
+      "byteCount": 1810,
+      "sha256": "13424a85f3b9086001188b230c88fa14f15e1ba5c87c1ce01f8aca24cbc40e4b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/drawing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/memory-template.md",
+      "byteCount": 1589,
+      "sha256": "02eabea455273e685a6a4e8bc72548c745d59b5b0733749f7fb3ca1b3d4a40ca"
     },
     {
       "path": "model-portability.md",
       "downloadPath": "skills/drawing/model-portability.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/model-portability.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/model-portability.md",
+      "byteCount": 1743,
+      "sha256": "53f83fb58b39040f9c8e7efdb539e1f190475e300addf5a6a1c54415c552cea0"
     },
     {
       "path": "prompt-system.md",
       "downloadPath": "skills/drawing/prompt-system.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/prompt-system.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/prompt-system.md",
+      "byteCount": 2320,
+      "sha256": "832e0b1cb4fec33053f4e758d41f69b82bb037cbbff4bce4d63ec0ad0d18c40c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/drawing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/setup.md",
+      "byteCount": 2535,
+      "sha256": "7b62da16a52e71d31fce8f3369fc3fedaed5f95facff3b694575908e61c7592f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/drawing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/SKILL.md",
+      "byteCount": 9357,
+      "sha256": "43e266352722edc120ab498e2c260e566d3d4901fd606d394d987b46d005bd71"
     },
     {
       "path": "source-notes.md",
       "downloadPath": "skills/drawing/source-notes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/source-notes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/source-notes.md",
+      "byteCount": 1492,
+      "sha256": "637696a75b90254faf9854c00053d35ab08452c059d07816c38f7c7dad42c9aa"
     },
     {
       "path": "style-packs.md",
       "downloadPath": "skills/drawing/style-packs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/style-packs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/drawing/style-packs.md",
+      "byteCount": 2062,
+      "sha256": "329a1682795574a3b475dd11b515ff54c8696fcbf084f30fbabdb58a9432faff"
     }
   ]
 }

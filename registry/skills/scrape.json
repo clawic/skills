@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b9316fde30af79c1bc08faff306505da613c9604a188d4262af1831b5a417e1d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "scrape",
-    "name": "Scrape",
+    "name": "scrape",
     "description": "Legal web scraping with robots.txt compliance, rate limiting, and GDPR/CCPA-aware data handling.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/scrape",
     "summary": "Pre-Scrape Compliance Checklist Before writing any scraping code: 1. **robots.txt** — Fetch `{domain}/robots.txt`, check if target path is disallowed. If yes, stop. 2. **Terms of Service** — Check `/terms`, `/tos`, `/leg",
     "repositoryPath": "skills/scrape",
     "manifestPath": "registry/skills/scrape.json"
@@ -20,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/scrape/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/_meta.json",
+      "byteCount": 164,
+      "sha256": "4c1f4b86643004e617234d458a1f5e81318b28d58071ef814999f53fe12599d5"
     },
     {
       "path": "code.md",
       "downloadPath": "skills/scrape/code.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/code.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/code.md",
+      "byteCount": 3146,
+      "sha256": "5411bcadc40dd92e41b308234e7cbe83afbd0c6565e37dc3d21d6a23f1dfd5cc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/scrape/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scrape/SKILL.md",
+      "byteCount": 2028,
+      "sha256": "42e62ba6b4db358d635c1ea282db09172d0b8b76f1a9f2827e77d0fe2332e4bd"
     }
   ]
 }

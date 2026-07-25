@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a080d9b95d046a624aef45b08035b1b10e086303424d85990e8dcbeb8ec5daa4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "paddle",
-    "name": "Paddle",
+    "name": "paddle",
     "description": "Integrate Paddle payments with subscriptions, webhooks, checkout, and tax compliance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/paddle",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/paddle/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/_meta.json",
+      "byteCount": 164,
+      "sha256": "f9959b751167a297d2db0e04ccc94768abba374ed0f89d4b26a2c9cbe3528aa4"
     },
     {
       "path": "api.md",
       "downloadPath": "skills/paddle/api.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/api.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/api.md",
+      "byteCount": 3449,
+      "sha256": "ff85bb8f46bcc235857c3b0af3ca7885b730f384ad890657cd732e76aec46cc1"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/paddle/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/memory-template.md",
+      "byteCount": 1247,
+      "sha256": "33d08fd97caeb1e4b4b6b26d5b29260510e2589ab99c3b3620016400119384c8"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/paddle/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/setup.md",
+      "byteCount": 1771,
+      "sha256": "d8d7d2139e0d5ed3a38f4ea4e123c4adc53b18d084de1b124eb64eafbe2e4a43"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/paddle/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/SKILL.md",
+      "byteCount": 4321,
+      "sha256": "c56e12e87679d2e4d9d7b307c8a7bb718e964ae556cbc5623f25c0924c17e6fc"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/paddle/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paddle/webhooks.md",
+      "byteCount": 4632,
+      "sha256": "cff8f8581dac3c20483dfb6ffec5787b2080d5dce6d049876682813eb6c40b80"
     }
   ]
 }

@@ -1,11 +1,34 @@
 ---
-name: YouTube Video Transcript
+name: youtube-video-transcript
 slug: youtube-video-transcript
 version: 1.0.0
-homepage: https://clawic.com/skills/youtube-video-transcript
 description: Fetch, summarize, and save YouTube transcripts with timestamp navigation, chapter detection, and searchable content.
+homepage: https://clawic.com/skills/youtube-video-transcript
 changelog: Initial release with transcript extraction, timestamp navigation, chapter detection, and multi-format export.
-metadata: {"clawdbot":{"emoji":"📺","requires":{"bins":["yt-dlp"]},"install":[{"id":"brew","kind":"brew","formula":"yt-dlp","bins":["yt-dlp"],"label":"Install yt-dlp (Homebrew)"},{"id":"pip","kind":"pip","package":"yt-dlp","bins":["yt-dlp"],"label":"Install yt-dlp (pip)"}],"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📺
+    requires:
+      bins:
+      - yt-dlp
+    install:
+    - id: brew
+      kind: brew
+      formula: yt-dlp
+      bins:
+      - yt-dlp
+      label: Install yt-dlp (Homebrew)
+    - id: pip
+      kind: pip
+      package: yt-dlp
+      bins:
+      - yt-dlp
+      label: Install yt-dlp (pip)
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: YouTube Video Transcript
 ---
 
 Most YouTube transcript tools either require paid APIs, use suspicious proxies, or just dump raw text without structure. This skill extracts transcripts locally using yt-dlp, preserves timestamps for navigation, detects chapters automatically, and exports to any format you need.
@@ -129,10 +152,10 @@ Generate clickable links: `https://youtube.com/watch?v=VIDEO_ID&t=323`
 
 ## Architecture
 
-Memory lives in `~/youtube-video-transcript/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/youtube-video-transcript/`. See `memory-template.md` for structure.
 
 ```
-~/youtube-video-transcript/
+~/Clawic/data/youtube-video-transcript/
 ├── memory.md          # Preferences + recent videos
 ├── videos/            # Cached transcripts (with consent)
 │   └── {video_id}.md  # Individual video data
@@ -170,7 +193,7 @@ Never strip timestamps during any operation. They enable navigation, citation, a
 
 | User Response | Action |
 |---------------|--------|
-| "Yes, save it" | Cache to ~/youtube-video-transcript/videos/ |
+| "Yes, save it" | Cache to ~/Clawic/data/youtube-video-transcript/videos/ |
 | "No thanks" | Don't cache, show once |
 | Not asked yet | Ask after first extraction |
 
@@ -230,13 +253,13 @@ When extracting quotes for research:
 | "What do they say about X?" | Search + timestamps |
 | "Save this transcript" | Cache with confirmation |
 | "Export as SRT" | Convert format |
-| "Show saved videos" | List ~/youtube-video-transcript/videos/ |
+| "Show saved videos" | List ~/Clawic/data/youtube-video-transcript/videos/ |
 | "Delete video X" | Remove from cache |
 
 ## Security & Privacy
 
 **Data that stays local (with your consent):**
-- Transcripts cached in ~/youtube-video-transcript/ (only if you agree)
+- Transcripts cached in ~/Clawic/data/youtube-video-transcript/ (only if you agree)
 - Preferences stored locally (only after confirmation)
 - No external API calls beyond YouTube's public subtitle endpoints
 
@@ -252,12 +275,12 @@ When extracting quotes for research:
 - Save anything without your explicit consent
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `summarizer` — create summaries from any content
 - `video-captions` — generate and edit video subtitles
 - `ffmpeg` — advanced video and audio processing
 
 ## Feedback
 
-- If useful: `clawhub star youtube-video-transcript`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/youtube-video-transcript
+- Latest version: https://clawic.com/skills/youtube-video-transcript

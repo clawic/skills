@@ -1,11 +1,20 @@
 ---
-name: Android Studio
+name: android-studio
 slug: android-studio
-version: 1.0.0
+version: 1.0.1
+description: Work fast in Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.
 homepage: https://clawic.com/skills/android-studio
-description: Master Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
 changelog: Initial release with IDE workflows, debugging, profiling, and shortcuts.
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Android Studio
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User works with Android Studio IDE. Agent helps with debugging tools, profiler, 
 
 ## Architecture
 
-Memory at `~/android-studio/`. See `memory-template.md` for structure.
+Memory at `~/Clawic/data/android-studio/`. See `memory-template.md` for structure.
 
 ```
-~/android-studio/
+~/Clawic/data/android-studio/
 ├── memory.md      # Preferences and project context
 └── shortcuts.md   # Custom shortcuts learned
 ```
@@ -163,12 +172,12 @@ Before suggesting features, confirm Android Studio version. Features vary signif
 | Compose Color Preview | Color visualization |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `android` — Android development patterns
 - `kotlin` — Kotlin language features
 - `java` — Java language patterns
 
 ## Feedback
 
-- If useful: `clawhub star android-studio`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/android-studio
+- Latest version: https://clawic.com/skills/android-studio

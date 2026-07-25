@@ -10,7 +10,7 @@ mkdir -p ~/brazil
 ```
 
 ### 2. Initialize Memory File
-Create `~/brazil/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/brazil/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -23,11 +23,11 @@ Ask in conversational flow:
 - Constraints: kids, mobility, dietary needs, heat tolerance, mosquito sensitivity, swimming confidence.
 
 ### 4. Save to Memory
-Update `~/brazil/memory.md` with current intent, priorities, constraints, and open decisions.
+Update `~/Clawic/data/brazil/memory.md` with current intent, priorities, constraints, and open decisions.
 
 ## Returning Users
 
-If `~/brazil/memory.md` exists:
+If `~/Clawic/data/brazil/memory.md` exists:
 1. Read it silently.
 2. Reuse known constraints and preferences.
 3. Ask only what changed: dates, passport status, region focus, budget, mobility, or weather tolerance.

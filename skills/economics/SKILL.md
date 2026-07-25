@@ -1,7 +1,17 @@
 ---
-name: Economics
+name: economics
+slug: economics
+version: 1.0.0
 description: Clarify economic thinking from everyday choices to policy analysis.
-metadata: {"clawdbot":{"emoji":"📈","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/economics
+metadata:
+  clawdbot:
+    emoji: 📈
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Economics
 ---
 
 ## Detect Level, Adapt Everything

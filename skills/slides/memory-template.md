@@ -4,13 +4,13 @@
 
 Create directory on first use:
 ```bash
-mkdir -p ~/slides/{styles,projects,templates}
-touch ~/slides/memory.md
+mkdir -p ~/Clawic/data/slides/{styles,projects,templates}
+touch ~/Clawic/data/slides/memory.md
 ```
 
 ## memory.md Template
 
-Copy to `~/slides/memory.md`:
+Copy to `~/Clawic/data/slides/memory.md`:
 
 ```markdown
 # Slides Memory

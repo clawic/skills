@@ -10,7 +10,7 @@ mkdir -p ~/panama
 ```
 
 ### 2. Initialize Memory File
-Create `~/panama/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/panama/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Pace: one base, two bases, or a more active route.
 
 ### 4. Save to Memory
-Update `~/panama/memory.md` with current goals, constraints, open decisions, and transport tolerance.
+Update `~/Clawic/data/panama/memory.md` with current goals, constraints, open decisions, and transport tolerance.
 
 ## Returning Users
 
-If `~/panama/memory.md` exists:
+If `~/Clawic/data/panama/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences and friction points
 3. Ask only what changed

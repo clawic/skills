@@ -1,11 +1,22 @@
 ---
-name: Football
+name: football
 slug: football
 version: 1.0.0
-homepage: https://clawic.com/skills/football
 description: Analyze football and soccer matches, squads, players, and training plans with tactical frameworks, scouting grids, and session blueprints.
+homepage: https://clawic.com/skills/football
 changelog: Initial release with the Match Room Protocol, scouting grids, and training week blueprints for practical football work.
-metadata: {"clawdbot":{"emoji":"⚽","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/football/"]}}
+metadata:
+  clawdbot:
+    emoji: ⚽
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/football/
+    displayName: Football
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ Do not use it for American football, gambling picks, medical diagnosis, or fake 
 
 ## Architecture
 
-Memory lives in `~/football/`. If `~/football/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/football/`. If `~/Clawic/data/football/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/football/
+~/Clawic/data/football/
 ├── memory.md         # Activation rules, level, style, and durable preferences
 ├── match-room.md     # Recent match plans, reviews, and key lessons
 ├── squad-notes.md    # Roles, pairings, and scouting conclusions
@@ -50,7 +61,7 @@ Use the smallest file that resolves the blocker.
 
 ## Data Storage
 
-Local notes in `~/football/` may include:
+Local notes in `~/Clawic/data/football/` may include:
 - activation rules and the situations where football help should appear
 - level, region, formations, playing model, and analysis preferences
 - recurring opponents, player-role notes, and squad needs
@@ -122,7 +133,7 @@ Data that leaves your machine:
 - if the user explicitly asks for public football facts, only the needed searches, source fetches, or tool calls for that task
 
 Data that stays local:
-- approved football notes in `~/football/`
+- approved football notes in `~/Clawic/data/football/`
 
 This skill does NOT:
 - store account credentials or betting logins
@@ -145,7 +156,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analysis` - structure tactical reasoning, trade-offs, and decision quality.
 - `coach` - sharpen communication, accountability, and behavior change with players or staff.
 - `fitness` - handle physical load, habits, and progression when the conversation shifts beyond football tactics.
@@ -154,5 +165,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star football`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/football
+- Latest version: https://clawic.com/skills/football

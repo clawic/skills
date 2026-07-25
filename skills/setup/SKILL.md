@@ -1,6 +1,13 @@
 ---
-name: Setup
+name: setup
+slug: setup
+version: 1.0.0
 description: Configure OpenClaw installations with optimized settings, channel setup, security hardening, and production recommendations.
+homepage: https://clawic.com/skills/setup
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    displayName: Setup
 ---
 
 ## Quick Reference

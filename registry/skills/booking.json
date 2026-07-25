@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6f3360a7c7fc530d848736b81299074ca3830ea7a6597a9a82023ce8b55a538b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "booking",
-    "name": "Booking",
+    "name": "booking",
     "description": "Search, compare, and book accommodation across platforms with real pricing, user preferences, and end-to-end execution.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/booking",
     "summary": "Quick Reference | Topic | File | |-------|------| | Search, compare, shortlist | `search.md` | | Platforms, APIs, data sources | `platforms.md` | | Total cost calculation | `pricing.md` | User Preferences Store preferenc",
     "repositoryPath": "skills/booking",
     "manifestPath": "registry/skills/booking.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/booking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/_meta.json",
+      "byteCount": 166,
+      "sha256": "f090513982858f9c63a33d1353ce844838ed7a45a2a331ade21c77183605c4fa"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/booking/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/platforms.md",
+      "byteCount": 2241,
+      "sha256": "ac3322c99f35ab548181bc05bc453f2419ddba653a62d542be13541e0031acb0"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/booking/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/pricing.md",
+      "byteCount": 2358,
+      "sha256": "4e2ffcb15ccfaf1cff7a731725e8d572a3e31e21c95270f95ac8ef8a8d847327"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/booking/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/search.md",
+      "byteCount": 1861,
+      "sha256": "44fd8b5c07d3b341ab5f7e4e8087748c18c1dcde6107aa4ecc42501c329f20ca"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/booking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/booking/SKILL.md",
+      "byteCount": 2612,
+      "sha256": "59e5632a8704c36ef6c7bdad063480760c84edd322e7d8e760351e93c4da98a3"
     }
   ]
 }

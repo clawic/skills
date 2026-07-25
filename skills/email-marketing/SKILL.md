@@ -1,9 +1,20 @@
 ---
-name: Email Marketing
+name: email-marketing
+slug: email-marketing
+version: 1.0.0
 description: Email deliverability, list management, sequences, segmentation, and campaign optimization.
+homepage: https://clawic.com/skills/email-marketing
 metadata:
   category: marketing
-  skills: ["email", "newsletters", "sequences", "deliverability", "automation"]
+  skills:
+  - email
+  - newsletters
+  - sequences
+  - deliverability
+  - automation
+  clawdbot:
+    emoji: 📧
+    displayName: Email Marketing
 ---
 
 ## Deliverability Foundations

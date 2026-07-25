@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "148a11497623a16888a467598847dbb47cf7ca852615a458cac1fee0036937e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "basketball",
-    "name": "Basketball",
+    "name": "basketball",
     "description": "Analyze basketball games, lineups, players, and practice plans with film-room structure, scouting grids, and possession-based coaching tools.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/basketball",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/basketball/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/_meta.json",
+      "byteCount": 172,
+      "sha256": "3c33f4bc567af3aac89e5de3b3b0203a62db505f06d5d1c2ed300ad0c0e65c5c"
     },
     {
       "path": "lineup-cards.md",
       "downloadPath": "skills/basketball/lineup-cards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/lineup-cards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/lineup-cards.md",
+      "byteCount": 1635,
+      "sha256": "e53d0cf3611e4a66ca0c703f87ccafda9ad2b5ccb1603ff3f1845c846ebb739f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/basketball/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/memory-template.md",
+      "byteCount": 2180,
+      "sha256": "4b9e7234b394986573072d38603661d77147c64f1f97c3b019d55609d8c85652"
     },
     {
       "path": "opponent-scout.md",
       "downloadPath": "skills/basketball/opponent-scout.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/opponent-scout.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/opponent-scout.md",
+      "byteCount": 1267,
+      "sha256": "1a3c45420738cc590675f0316e082f708702c90dbdfd8835bc6ad23e9facc1c6"
     },
     {
       "path": "possession-map.md",
       "downloadPath": "skills/basketball/possession-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/possession-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/possession-map.md",
+      "byteCount": 1658,
+      "sha256": "a11d217086444c386abfc1d67c2600bdfb1715718014262435dbbb788e5af6fb"
     },
     {
       "path": "practice-week.md",
       "downloadPath": "skills/basketball/practice-week.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/practice-week.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/practice-week.md",
+      "byteCount": 1607,
+      "sha256": "da3af2f54d6a002198f89ace8a1079f083277a0fbc1a3208d956def5833bb0bd"
     },
     {
       "path": "scouting-grid.md",
       "downloadPath": "skills/basketball/scouting-grid.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/scouting-grid.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/scouting-grid.md",
+      "byteCount": 1326,
+      "sha256": "5f71539fac110030846aff7273068bbd23787e31ec9dcec049aa5f8c4f763315"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/basketball/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/setup.md",
+      "byteCount": 2276,
+      "sha256": "605c05119060ef0f360925a7836e8941c6da237c3dbb6e5fa9ed3f750495db91"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/basketball/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/basketball/SKILL.md",
+      "byteCount": 8255,
+      "sha256": "84dbe81405349a180c06dfe308357e94530cef345866182c2f5e8fcba691ec3a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Memory Template — Salesforce API
 
-Create `~/salesforce-api-integration/memory.md` with this structure:
+Create `~/Clawic/data/salesforce-api-integration/memory.md` with this structure:
 
 ```markdown
 # Salesforce Memory

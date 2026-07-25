@@ -1,6 +1,6 @@
 # Memory Template - Dermatologist
 
-Create `~/dermatologist/memory.md` with this structure:
+Create `~/Clawic/data/dermatologist/memory.md` with this structure:
 
 ```markdown
 # Dermatologist Memory
@@ -39,7 +39,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/dermatologist/cases/{case-id}/summary.md`:
+Create `~/Clawic/data/dermatologist/cases/{case-id}/summary.md`:
 
 ```markdown
 # Case Summary - {case-id}
@@ -53,7 +53,7 @@ Create `~/dermatologist/cases/{case-id}/summary.md`:
 - Last meaningful change:
 ```
 
-Create `~/dermatologist/cases/{case-id}/timeline.md`:
+Create `~/Clawic/data/dermatologist/cases/{case-id}/timeline.md`:
 
 ```markdown
 # Timeline - {case-id}
@@ -61,7 +61,7 @@ Create `~/dermatologist/cases/{case-id}/timeline.md`:
 - YYYY-MM-DD - symptom change, spread, treatment change, clinician visit, or test result
 ```
 
-Create `~/dermatologist/cases/{case-id}/photos.md`:
+Create `~/Clawic/data/dermatologist/cases/{case-id}/photos.md`:
 
 ```markdown
 # Photo Log - {case-id}
@@ -70,7 +70,7 @@ Create `~/dermatologist/cases/{case-id}/photos.md`:
 |------|----------------|-----------|------|------------|-----------------|
 ```
 
-Create `~/dermatologist/cases/{case-id}/treatment-log.md`:
+Create `~/Clawic/data/dermatologist/cases/{case-id}/treatment-log.md`:
 
 ```markdown
 # Treatment Log - {case-id}
@@ -79,7 +79,7 @@ Create `~/dermatologist/cases/{case-id}/treatment-log.md`:
 |-------|------|-----------------------|---------|-----------|--------|----------------------|
 ```
 
-Create `~/dermatologist/cases/{case-id}/consult-notes.md`:
+Create `~/Clawic/data/dermatologist/cases/{case-id}/consult-notes.md`:
 
 ```markdown
 # Consult Notes - {case-id}

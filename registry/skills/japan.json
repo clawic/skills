@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9e9b5d5f8e02f0491b788584a3364ced197cf254bd1fb6fbb7544d5a376dc6d6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "japan",
-    "name": "Japan",
+    "name": "japan",
     "description": "Discover Japan like a local with concrete city tips, regional route planning, food context, and practical travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/japan",
-    "summary": "Setup If `~/japan/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Japan or asking for local insights: what to prioritize, where to base, what to skip, and how to hand",
+    "summary": "Setup If `~/Clawic/data/japan/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Japan or asking for local insights: what to prioritize, where to base, what to skip, and",
     "repositoryPath": "skills/japan",
     "manifestPath": "registry/skills/japan.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/japan/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/_meta.json",
+      "byteCount": 162,
+      "sha256": "d488f1f6f8eb9cbe8e58f0e439e2f84a1449cb84ea85db2e0a5bf76ec22cc981"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/japan/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/accommodation.md",
+      "byteCount": 1261,
+      "sha256": "850d0e67ffc9cc701574fa8779717e009325206019f48d2b476c50efd5cf607d"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/japan/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/apps.md",
+      "byteCount": 928,
+      "sha256": "b6a5069cd99cb1a0ea68901f92314ea5d2f912228b743194074b49e059016c81"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/japan/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/beaches.md",
+      "byteCount": 955,
+      "sha256": "25db89055acf93a0eebcb09c783e0a042309eb16db3d82421d0dcc74d8fe0e4d"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/japan/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/culture.md",
+      "byteCount": 885,
+      "sha256": "dc888ad008893e1df870d1939ecf157a42a0d7db587a14027284b430cac21fe1"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/japan/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/emergencies.md",
+      "byteCount": 1042,
+      "sha256": "06253871c52f4c609ab800e636d5e3e65a71fa0e7e6fdad23ca03e1a90326ef2"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/japan/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/experiences.md",
+      "byteCount": 920,
+      "sha256": "36d2a1bd543aab451d2f00496e807e0681e6b35fd43334fa3e1e897b39b1a469"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/japan/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/food-guide.md",
+      "byteCount": 1413,
+      "sha256": "6f3f484d144008fb1105162678184dcf133e4f61d8c3789470938dca1742a22b"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/japan/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/hiking.md",
+      "byteCount": 849,
+      "sha256": "e713c6d2be09add28a2a38879e7b091cc79c36686b60336911fe1f223fa0ee92"
     },
     {
       "path": "hiroshima-miyajima.md",
       "downloadPath": "skills/japan/hiroshima-miyajima.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/hiroshima-miyajima.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/hiroshima-miyajima.md",
+      "byteCount": 889,
+      "sha256": "68e52606d86ecc0fa47375fdb7e97dd2e48895deb506843141dd61538a3639a6"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/japan/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/itineraries.md",
+      "byteCount": 923,
+      "sha256": "1d06a66d908913bcb244e5f470ed4ffd24a4a2d7050e2258e2de5c41c8af7531"
     },
     {
       "path": "kyoto.md",
       "downloadPath": "skills/japan/kyoto.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/kyoto.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/kyoto.md",
+      "byteCount": 1285,
+      "sha256": "618d2fa397e9d37d5e456652e64d5f96edc9ae621cceafe200498d5d167c6e1e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/japan/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/memory-template.md",
+      "byteCount": 1363,
+      "sha256": "0672c4f368077b3776d02f1828fb5040acde846b9ec5aca128c9bf4d0b480f06"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/japan/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/nightlife.md",
+      "byteCount": 928,
+      "sha256": "aaa321f6e137a22da59356a667f79ea7fae6654e65b032a111c09de0cb352e8d"
     },
     {
       "path": "osaka.md",
       "downloadPath": "skills/japan/osaka.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/osaka.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/osaka.md",
+      "byteCount": 1466,
+      "sha256": "6c8f5edb4d2ccf19de3a14e22c5bdbae20194d2bd562e44265f9be2e277832c9"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/japan/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/regions.md",
+      "byteCount": 788,
+      "sha256": "708cc203d0e1c490b24e1dc931730ccb01c860d57c003ae455ac91a1efd5a2c9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/japan/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/setup.md",
+      "byteCount": 1661,
+      "sha256": "8472905d4f8bcf3eceb00e94fa24bce449031e5e8c702baa345707f1033e2966"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/japan/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/SKILL.md",
+      "byteCount": 5401,
+      "sha256": "32b702479ea60f13dcfa1db9ecfc8e110e1502363ce97c758226d51a85345b98"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/japan/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/telecoms.md",
+      "byteCount": 749,
+      "sha256": "89749f08770d14840efa179500646e21d148d26f728a926b1a30fe98f5e6557b"
     },
     {
       "path": "tokyo.md",
       "downloadPath": "skills/japan/tokyo.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/tokyo.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/tokyo.md",
+      "byteCount": 1566,
+      "sha256": "1a55066359e3a1e456070559f6b492ff9c3f1e7da0aaec3770a57eebe8d42cd2"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/japan/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/transport.md",
+      "byteCount": 1028,
+      "sha256": "c38c4b8eb7e8fcdd6f9d5f44a1e354b60f7a353307915c537340f0a1ba7f8dc6"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/japan/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/wine.md",
+      "byteCount": 1071,
+      "sha256": "fc290690d1ad5bab9e6a502817dc93581564dc9325b16e7c727cb9368d8749c9"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/japan/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japan/with-kids.md",
+      "byteCount": 864,
+      "sha256": "5d5707d831d6a1135e2a462f88115c02a82da60ed284ffef8830e53cf09d5e73"
     }
   ]
 }

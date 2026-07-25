@@ -1,11 +1,32 @@
 ---
-name: AI Video Generation
+name: video-generation
 slug: video-generation
 version: 1.0.1
-homepage: https://clawic.com/skills/video-generation
 description: Create AI videos with Sora 2, Veo 3, Seedance, Runway, and modern APIs using reliable prompt and rendering workflows.
+homepage: https://clawic.com/skills/video-generation
 changelog: Added current model routing and practical API playbooks for modern AI video generation workflows.
-metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":[],"env.optional":["OPENAI_API_KEY","GOOGLE_CLOUD_PROJECT","RUNWAY_API_KEY","LUMA_API_KEY","FAL_KEY","REPLICATE_API_TOKEN","VIDU_API_KEY","TENCENTCLOUD_SECRET_ID","TENCENTCLOUD_SECRET_KEY"],"config":["~/video-generation/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎬
+    requires:
+      bins: []
+      env.optional:
+      - OPENAI_API_KEY
+      - GOOGLE_CLOUD_PROJECT
+      - RUNWAY_API_KEY
+      - LUMA_API_KEY
+      - FAL_KEY
+      - REPLICATE_API_TOKEN
+      - VIDU_API_KEY
+      - TENCENTCLOUD_SECRET_ID
+      - TENCENTCLOUD_SECRET_KEY
+      config:
+      - ~/Clawic/data/video-generation/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: AI Video Generation
 ---
 
 ## Setup
@@ -19,10 +40,10 @@ Use this skill to choose the right current model stack, write stronger motion pr
 
 ## Architecture
 
-User preferences persist in `~/video-generation/`. See `memory-template.md` for setup.
+User preferences persist in `~/Clawic/data/video-generation/`. See `memory-template.md` for setup.
 
 ```text
-~/video-generation/
+~/Clawic/data/video-generation/
 ├── memory.md      # Preferred providers, model routing, reusable shot recipes
 └── history.md     # Optional run log for jobs, costs, and outputs
 ```
@@ -117,8 +138,8 @@ No other data is sent externally.
 - Requested rendering parameters (duration, resolution, aspect ratio)
 
 **Data that stays local:**
-- Provider preferences in `~/video-generation/memory.md`
-- Optional local job history in `~/video-generation/history.md`
+- Provider preferences in `~/Clawic/data/video-generation/memory.md`
+- Optional local job history in `~/Clawic/data/video-generation/history.md`
 
 **This skill does NOT:**
 - Store API keys in project files
@@ -131,7 +152,7 @@ This skill can send prompts and media references to third-party AI providers.
 Only install if you trust those providers with your content.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image-generation` - Build still concepts and keyframes before video generation
 - `image-edit` - Prepare clean references, masks, and style frames
 - `video-edit` - Post-process generated clips and final exports
@@ -140,5 +161,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star video-generation`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/video-generation
+- Latest version: https://clawic.com/skills/video-generation

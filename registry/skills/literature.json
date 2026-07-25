@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bfacc2e7ae4a7c775fc27fc3fac2cbe57f68a5b030e2c1f5d22e203f3d93934b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "literature",
-    "name": "Literature",
+    "name": "literature",
     "description": "Guide literary reading from personal response to scholarly analysis.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/literature",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, references to critics, analytical depth - When unclear, start with their reactions to the text and adjust - Never condescend to experts or overwhelm beg",
     "repositoryPath": "skills/literature",
     "manifestPath": "registry/skills/literature.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/literature/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/literature/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/literature/_meta.json",
+      "byteCount": 172,
+      "sha256": "0670677bb0f93a95ce773a8becf93cab6c7c462b93676d61fbb8df3e097b7699"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/literature/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/literature/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/literature/SKILL.md",
+      "byteCount": 3578,
+      "sha256": "4e91f7ad6cfb5e5b5772354c3604b024f0c83163241b580eddb4f0887bb8be46"
     }
   ]
 }

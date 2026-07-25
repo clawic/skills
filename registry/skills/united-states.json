@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd0462ea5cc210fb236d24cdb47477f16fe909fc0fa4d44e864ae994236fed6a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "united-states",
-    "name": "United States",
+    "name": "united-states",
     "description": "Plan United States trips with region-specific routing, verified entry rules, transport logistics, and practical tourist safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/united-states",
-    "summary": "Setup If `~/united-states/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a U.S. trip and needs practical guidance beyond generic advice: entry requirements, region choice, ",
+    "summary": "Setup If `~/Clawic/data/united-states/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a U.S. trip and needs practical guidance beyond generic advice: entry requirements, reg",
     "repositoryPath": "skills/united-states",
     "manifestPath": "registry/skills/united-states.json"
   },
@@ -22,157 +25,219 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/united-states/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/_meta.json",
+      "byteCount": 178,
+      "sha256": "e49b41e02ef992c0425529c06a6914e059f73ab9edab10de3bed123daba281a0"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/united-states/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/accessibility.md",
+      "byteCount": 806,
+      "sha256": "43e7bf947307eb953e5a22e92fc7afb50a52f5f1e5f3569353dcdc981a977c36"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/united-states/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/accommodation.md",
+      "byteCount": 1108,
+      "sha256": "9fd682001e9d6a5c781973ad7470e771b5719991131fa29d84b64d578c730ddd"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/united-states/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/budget-and-costs.md",
+      "byteCount": 1337,
+      "sha256": "0bb7c98694cd8e43ae47ccf658afdaec99af525c9808639f2e3f2fbc86bb4aca"
     },
     {
       "path": "california.md",
       "downloadPath": "skills/united-states/california.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/california.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/california.md",
+      "byteCount": 995,
+      "sha256": "75bf4410ae16d38ddfcc6aa6f12bf1a7345e9b6b002a5bdff3046b24a04155da"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/united-states/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/customs-and-border.md",
+      "byteCount": 1553,
+      "sha256": "95b205ef7cf06ce8f9d571eb4069476084b6df5d5f37fe8dd0b7e5d7e45374b9"
     },
     {
       "path": "deep-south-and-louisiana.md",
       "downloadPath": "skills/united-states/deep-south-and-louisiana.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/deep-south-and-louisiana.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/deep-south-and-louisiana.md",
+      "byteCount": 636,
+      "sha256": "f915cfa824358031a0f3e50f52c93b360ebeb81814fa73f6958f7d18f5293e7c"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/united-states/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/entry-and-documents.md",
+      "byteCount": 1924,
+      "sha256": "258bfc76fb97a199eaa260871985e4bdf505e8d4e942cbf7e30fe1616748feee"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/united-states/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/family-travel.md",
+      "byteCount": 863,
+      "sha256": "02ad4192febd8892cce221a863bba7e209e8da8bd5aaf9fc846aecde4a4a50b4"
     },
     {
       "path": "florida.md",
       "downloadPath": "skills/united-states/florida.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/florida.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/florida.md",
+      "byteCount": 871,
+      "sha256": "43d5cf6ecd741ae142c114ae5c682f395aeb878adc48aa6bd85fd131210c5e66"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/united-states/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/food-guide.md",
+      "byteCount": 1311,
+      "sha256": "84d29fc394c2088a60c219662e17794ea7b744377a27decc7efcda3e4865a4ca"
     },
     {
       "path": "great-lakes-and-midwest.md",
       "downloadPath": "skills/united-states/great-lakes-and-midwest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/great-lakes-and-midwest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/great-lakes-and-midwest.md",
+      "byteCount": 563,
+      "sha256": "157ac83c40b0ce7928c8c135f989dae3634c4c9d059caaf1756306f9883e905b"
     },
     {
       "path": "hawaii-and-alaska.md",
       "downloadPath": "skills/united-states/hawaii-and-alaska.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/hawaii-and-alaska.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/hawaii-and-alaska.md",
+      "byteCount": 617,
+      "sha256": "a90f6d90e602afd8ef3bcb27f6639b3de4e4e4e733c538c66bad45853b17ff48"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/united-states/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/itineraries.md",
+      "byteCount": 1423,
+      "sha256": "146022799462c13c5d6207107badc56a45bd8140ba2b97ad205d25c42cab8231"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/united-states/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/memory-template.md",
+      "byteCount": 1393,
+      "sha256": "0c6c17c1e19dfb0308dd996426dbfcafc064f4fa41237cb9e4c8cb8afb87505b"
     },
     {
       "path": "national-parks.md",
       "downloadPath": "skills/united-states/national-parks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/national-parks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/national-parks.md",
+      "byteCount": 1593,
+      "sha256": "11824db3fe04a0c3212395539f2595f7683c57c2c9d9b8cfc4e628405931b725"
     },
     {
       "path": "new-york-city.md",
       "downloadPath": "skills/united-states/new-york-city.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/new-york-city.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/new-york-city.md",
+      "byteCount": 1155,
+      "sha256": "b7c063160e6c638e189a1dd16e7f26efc9359d2c3b0082f4f8d58ed27ec941da"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/united-states/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/nightlife.md",
+      "byteCount": 779,
+      "sha256": "4c9ba8c35274ee2385310b41365d121fae29e8071943a1ab8efbcf19f1083004"
     },
     {
       "path": "pacific-northwest.md",
       "downloadPath": "skills/united-states/pacific-northwest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/pacific-northwest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/pacific-northwest.md",
+      "byteCount": 595,
+      "sha256": "4c090dec34ca4b8b3884bfb8a871d5fade406cba093b0e3e9bbcc4bf893923d3"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/united-states/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/regions.md",
+      "byteCount": 1510,
+      "sha256": "556186902c2363c45880e6cfa2bdfc4b932b84d355048932b4773e66cc25defb"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/united-states/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/road-trips-and-driving.md",
+      "byteCount": 1414,
+      "sha256": "cd4b5569fa5ad004f052f6b4978d640feecf0fe18d92a6087fa21352caabd31e"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/united-states/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/safety-and-emergencies.md",
+      "byteCount": 1331,
+      "sha256": "c081ff88b7b2fee192c0e7412cb582a37d3f35254ab958554795778a1bc3c895"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/united-states/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/setup.md",
+      "byteCount": 1968,
+      "sha256": "c98d0fc03db150e4e0844d868a11289750988df753234322f66267295535fc6e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/united-states/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/SKILL.md",
+      "byteCount": 5653,
+      "sha256": "1d77baad3936413bf5b17a7a01fb2c699d8ccff3b313c06510ffce1b66e5bf23"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/united-states/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/sources.md",
+      "byteCount": 3718,
+      "sha256": "f57a53dd11333d425e1e0823f1a6146c09ad03c545602906882e7cb83e33260a"
     },
     {
       "path": "southwest-and-rockies.md",
       "downloadPath": "skills/united-states/southwest-and-rockies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/southwest-and-rockies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/southwest-and-rockies.md",
+      "byteCount": 736,
+      "sha256": "ad55981046adfa5e575dc62ed652982bec9c5985f2cbcebbc81759f19209c73b"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/united-states/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/telecoms-and-apps.md",
+      "byteCount": 1126,
+      "sha256": "d89166fee9fff576eab2586f5b8c92821991580a549b177055141d7f6a865bde"
     },
     {
       "path": "tipping-and-payments.md",
       "downloadPath": "skills/united-states/tipping-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/tipping-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/tipping-and-payments.md",
+      "byteCount": 1076,
+      "sha256": "144f40eb0093f9ae55b3c76aea75f4b9ca19d948ed6f7710d562bb4d8d04a97d"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/united-states/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/transport-domestic.md",
+      "byteCount": 1921,
+      "sha256": "cadcff63eae1c77634cb22f995b72273b4f1bd2a231b1b9e4aa791c6ae614d2d"
     },
     {
       "path": "washington-dc.md",
       "downloadPath": "skills/united-states/washington-dc.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/washington-dc.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/washington-dc.md",
+      "byteCount": 898,
+      "sha256": "3a061da16ac1077590981dc6070c1abd98367628e89bf8da2d55c3807b859c68"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/united-states/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/united-states/weather-and-seasonality.md",
+      "byteCount": 1424,
+      "sha256": "2c98f819751e24ca9696098b33136bfaa4e2d3e3806bfdb3bfc4b445dd403496"
     }
   ]
 }

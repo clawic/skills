@@ -1,6 +1,6 @@
 # Setup — Mixpanel
 
-Read this when `~/mixpanel/` doesn't exist or is empty. Start the conversation naturally with the user.
+Read this when `~/Clawic/data/mixpanel/` doesn't exist or is empty. Start the conversation naturally with the user.
 
 ## Your Attitude
 
@@ -34,7 +34,7 @@ When they need to query Mixpanel:
 
 ## What You Save (internally)
 
-In `~/mixpanel/memory.md`:
+In `~/Clawic/data/mixpanel/memory.md`:
 - Project context (what the product does)
 - Key events they care about
 - Common queries they run

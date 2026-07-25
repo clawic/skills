@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b0670eb5786fcfc9f9f90ccf879ee77e8b7c784ff8437ba5e39557a3297d6333",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "tripadvisor",
-    "name": "Tripadvisor",
+    "name": "tripadvisor",
     "description": "Find and compare Tripadvisor hotels, restaurants, and attractions with official API workflows, URL-first navigation, and policy-safe data handling.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tripadvisor",
-    "summary": "Setup If `~/tripadvisor/` does not exist or is empty, read `setup.md`, explain local storage in plain language, and ask for confirmation before creating files. When to Use User wants to interact with Tripadvisor directly",
+    "summary": "Setup If `~/Clawic/data/tripadvisor/` does not exist or is empty, read `setup.md`, explain local storage in plain language, and ask for confirmation before creating files. When to Use User wants to interact with Tripadvi",
     "repositoryPath": "skills/tripadvisor",
     "manifestPath": "registry/skills/tripadvisor.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tripadvisor/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/_meta.json",
+      "byteCount": 174,
+      "sha256": "a56559b108f5036c56f51aae29330fceff22bf96f6368776b7ccfcf56cc6207d"
     },
     {
       "path": "api-workflows.md",
       "downloadPath": "skills/tripadvisor/api-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/api-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/api-workflows.md",
+      "byteCount": 1547,
+      "sha256": "2a0919bfffde09b80f615f44c05cb9abe7ef01555e70708e04e777ecf4960441"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/tripadvisor/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/compliance.md",
+      "byteCount": 973,
+      "sha256": "a43bec18fce398fc113e206e80faa9f02330f98c33d83ffd25c4ca7aadef23b4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/tripadvisor/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/memory-template.md",
+      "byteCount": 1353,
+      "sha256": "c31c6ef9985a358bdd764e7b98de40313fc6bde79e6c0732ebd5a28c5df2bdbc"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/tripadvisor/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/setup.md",
+      "byteCount": 1868,
+      "sha256": "5cf7498b594ccccfabeed215a7cd3604acfc8cd22cab54ecea6ec279e499638a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tripadvisor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/SKILL.md",
+      "byteCount": 6338,
+      "sha256": "c19fd1641e502a2b2e10e002b4ad3c83e07447dbf0acb0d7271d524ef1c80b59"
     },
     {
       "path": "web-navigation.md",
       "downloadPath": "skills/tripadvisor/web-navigation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/web-navigation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tripadvisor/web-navigation.md",
+      "byteCount": 1307,
+      "sha256": "812557961e27eb53751c6134703419ef2dc641bc26b7bb3d2534cc60161c4d38"
     }
   ]
 }

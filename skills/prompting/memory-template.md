@@ -1,9 +1,9 @@
-# ~/prompting/ Setup
+# ~/Clawic/data/prompting/ Setup
 
 Create on first use:
 
 ```bash
-mkdir -p ~/prompting/patterns
+mkdir -p ~/Clawic/data/prompting/patterns
 ```
 
 ## memory.md Template

@@ -1,6 +1,13 @@
 ---
-name: Dutch
+name: dutch
+slug: dutch
+version: 1.0.0
 description: Write Dutch that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/dutch
+metadata:
+  clawdbot:
+    emoji: 🇳🇱
+    displayName: Dutch
 ---
 
 ## The Real Problem

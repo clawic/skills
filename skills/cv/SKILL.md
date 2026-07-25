@@ -1,7 +1,18 @@
 ---
-name: CV
+name: cv
+slug: cv
+version: 1.0.0
 description: Create ATS-optimized resumes and CVs with proper structure, metrics, and industry targeting.
-metadata: {"clawdbot":{"emoji":"📄","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/cv
+metadata:
+  clawdbot:
+    emoji: 📄
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CV
 ---
 
 ## Resume vs CV

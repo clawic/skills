@@ -5,13 +5,13 @@
 Create directory structure on first use:
 
 ```bash
-mkdir -p ~/business/ideas ~/business/archive
-touch ~/business/decisions.md ~/business/metrics.md
+mkdir -p ~/Clawic/data/business/ideas ~/Clawic/data/business/archive
+touch ~/Clawic/data/business/decisions.md ~/Clawic/data/business/metrics.md
 ```
 
 ## decisions.md Template
 
-Copy to `~/business/decisions.md`:
+Copy to `~/Clawic/data/business/decisions.md`:
 
 ```markdown
 # Business Decisions Log
@@ -53,7 +53,7 @@ After 10+ decisions, note patterns:
 
 ## metrics.md Template
 
-Copy to `~/business/metrics.md`:
+Copy to `~/Clawic/data/business/metrics.md`:
 
 ```markdown
 # Business Metrics
@@ -83,7 +83,7 @@ Copy to `~/business/metrics.md`:
 
 ## ideas/ Folder
 
-For each idea being validated, create `~/business/ideas/{idea-name}.md`:
+For each idea being validated, create `~/Clawic/data/business/ideas/{idea-name}.md`:
 
 ```markdown
 # Idea: {Name}
@@ -135,7 +135,7 @@ For each idea being validated, create `~/business/ideas/{idea-name}.md`:
 
 ## Archive
 
-Move old decisions and completed ideas to `~/business/archive/` with date prefix:
+Move old decisions and completed ideas to `~/Clawic/data/business/archive/` with date prefix:
 
 ```
 archive/

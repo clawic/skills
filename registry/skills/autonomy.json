@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4d530681caf172e0b29adb78be771cc36dd7f3d97fbe0b258fb6d58721bc915a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "autonomy",
-    "name": "Autonomy",
+    "name": "autonomy",
     "description": "Expand agent capabilities by identifying tasks where human approval adds no value. Systematic delegation.",
     "version": "1.0.1",
-    "summary": "Data Storage ``` ~/autonomy/ ├── tracking.md # What's been delegated, success rates ├── proposals.md # Pending takeover proposals └── rejected.md # User declined, don't re-propose ``` Create on first use: `mkdir -p ~/aut",
+    "homepage": "https://clawic.com/skills/autonomy",
+    "summary": "Data Storage ``` ~/Clawic/data/autonomy/ ├── tracking.md # What's been delegated, success rates ├── proposals.md # Pending takeover proposals └── rejected.md # User declined, don't re-propose ``` Create on first use: `mk",
     "repositoryPath": "skills/autonomy",
     "manifestPath": "registry/skills/autonomy.json"
   },
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/autonomy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/_meta.json",
+      "byteCount": 244,
+      "sha256": "edab24f00099e48cce0579f7a673c70de792b594afc61d4dad13ac7b2e4cce99"
     },
     {
       "path": "bottlenecks.md",
       "downloadPath": "skills/autonomy/bottlenecks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/bottlenecks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/bottlenecks.md",
+      "byteCount": 2318,
+      "sha256": "9979756b6e8b74c09357282f2125345ff4328e797813a2e384a4079efb0c91d0"
     },
     {
       "path": "expansion.md",
       "downloadPath": "skills/autonomy/expansion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/expansion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/expansion.md",
+      "byteCount": 2498,
+      "sha256": "161e7c57e7f1330b6bb24cbeb2cd53bae68f3e85dca1eb7d7d3bb9af02e20010"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/autonomy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/autonomy/SKILL.md",
+      "byteCount": 2971,
+      "sha256": "6b861f1bf9672d786a3f4eae0ac206c571ac4a2a93e2701d3202d776326926f2"
     }
   ]
 }

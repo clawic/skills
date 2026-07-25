@@ -6,7 +6,7 @@ Make this skill **maximally useful** for THIS user's decision-making style.
 
 ## When to Read This
 
-- `~/six-thinking-hats/` doesn't exist (first time)
+- `~/Clawic/data/six-thinking-hats/` doesn't exist (first time)
 - `memory.md` has `setup: ongoing` or `setup: paused`
 - `memory.md` version < current skill version
 

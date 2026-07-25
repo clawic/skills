@@ -1,16 +1,27 @@
 ---
-name: Ireland
+name: ireland
 slug: ireland
 version: 1.0.1
-homepage: https://clawic.com/skills/ireland
-changelog: "Refined city and coastal guidance, expanded practical route-planning details, and improved travel traps coverage."
 description: Discover Ireland like a local with concrete pubs, coastal routes, city guides, and practical trip-planning tips.
-metadata: {"clawdbot":{"emoji":"🇮🇪","requires":{"bins":[],"config":["~/ireland/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ireland
+changelog: Refined city and coastal guidance, expanded practical route-planning details, and improved travel traps coverage.
+metadata:
+  clawdbot:
+    emoji: 🇮🇪
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/ireland/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ireland
 ---
 
 ## Setup
 
-If `~/ireland/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/ireland/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to Ireland or asking for local insights: where to eat, what
 
 ## Architecture
 
-Memory lives in `~/ireland/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/ireland/`. See `memory-template.md` for structure.
 
 ```
-~/ireland/
+~/Clawic/data/ireland/
 └── memory.md     # Trip context
 ```
 
@@ -114,12 +125,12 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/ireland/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/ireland/`
 
-**This skill does NOT:** Access files outside `~/ireland/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/ireland/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structuring
 - `food` — Deeper restaurant and cuisine recommendations
 - `irish` — Irish language and local phrase support
@@ -127,5 +138,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star ireland`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/ireland
+- Latest version: https://clawic.com/skills/ireland

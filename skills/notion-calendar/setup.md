@@ -1,6 +1,6 @@
 # Setup - Notion Calendar
 
-If `~/notion-calendar/` does not exist or is empty, start with transparent onboarding. Explain which local files may be created, what data goes to Notion, and ask for confirmation before writing local memory.
+If `~/Clawic/data/notion-calendar/` does not exist or is empty, start with transparent onboarding. Explain which local files may be created, what data goes to Notion, and ask for confirmation before writing local memory.
 
 ## Your Attitude
 

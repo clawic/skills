@@ -1,9 +1,19 @@
 ---
-name: Food Delivery
+name: food-delivery
 slug: food-delivery
 version: 1.0.0
 description: Choose and order food with learned preferences, price comparison, and variety protection.
-metadata: {"clawdbot":{"emoji":"🍕","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/food-delivery
+metadata:
+  clawdbot:
+    emoji: 🍕
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Food Delivery
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User wants their agent to handle the entire food ordering process — from decid
 
 ## Architecture
 
-Memory lives in `~/food-delivery/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/food-delivery/`. See `memory-template.md` for setup.
 
 ```
-~/food-delivery/
+~/Clawic/data/food-delivery/
 ├── memory.md          # Core preferences, restrictions, defaults
 ├── restaurants.md     # Restaurant ratings, dishes, notes
 ├── orders.md          # Recent orders for variety tracking
@@ -35,7 +45,7 @@ User creates these files. Templates in `memory-template.md`.
 
 ## Data Storage
 
-All data stored in `~/food-delivery/`. Create on first use:
+All data stored in `~/Clawic/data/food-delivery/`. Create on first use:
 ```bash
 mkdir -p ~/food-delivery
 ```
@@ -60,7 +70,7 @@ User provides:
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-All learned data stored in `~/food-delivery/` files.
+All learned data stored in `~/Clawic/data/food-delivery/` files.
 
 ## Core Rules
 
@@ -138,7 +148,7 @@ Tell user: "Same order is $4 cheaper on [Platform] today"
 
 ### 6. Group Orders
 When ordering for multiple people:
-1. Load ~/food-delivery/people.md for known preferences
+1. Load ~/Clawic/data/food-delivery/people.md for known preferences
 2. Collect any new restrictions
 3. Find intersection cuisine (works for everyone)
 4. Suggest variety restaurants (broad menus)
@@ -194,7 +204,7 @@ If order has issues:
 
 ## Boundaries
 
-### Stored Locally (in ~/food-delivery/)
+### Stored Locally (in ~/Clawic/data/food-delivery/)
 - Cuisine preferences and restrictions
 - Restaurant ratings and dish notes
 - Recent order log (variety tracking)

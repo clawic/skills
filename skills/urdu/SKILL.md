@@ -1,6 +1,13 @@
 ---
-name: Urdu
+name: urdu
+slug: urdu
+version: 1.0.0
 description: Write Urdu that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/urdu
+metadata:
+  clawdbot:
+    emoji: 🇵🇰
+    displayName: Urdu
 ---
 
 ## The Real Problem

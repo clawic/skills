@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ee13e27fcd1456220b8ced341fb342687b5d2d17adcc9418f6639b02de51d953",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "daily-news-digest",
-    "name": "Daily News Digest",
+    "name": "daily-news-digest",
     "description": "Personalized news briefings from your chosen sources, delivered morning or evening, with voice option and smart filtering.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/daily-news-digest",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/daily-news-digest/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/_meta.json",
+      "byteCount": 186,
+      "sha256": "b8f650108975d08489aca80219755fa61d7a3c63925ca319f39a0e450241074c"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/daily-news-digest/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/formats.md",
+      "byteCount": 4712,
+      "sha256": "c7cd94ed33c94015c7d066d2f74ce7c6e0bdc3510bd1b57f0ce5a52e402e9e18"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/daily-news-digest/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/memory-template.md",
+      "byteCount": 1953,
+      "sha256": "10100590f371656c6cf52be69591e6004a857c74f99a8efbbef3729ae4cbb9e0"
     },
     {
       "path": "scheduling.md",
       "downloadPath": "skills/daily-news-digest/scheduling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/scheduling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/scheduling.md",
+      "byteCount": 2828,
+      "sha256": "250b592818aad1f94aba23fc31e5d9f88824c52fddbd34bc111db0f924978a6e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/daily-news-digest/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/setup.md",
+      "byteCount": 2657,
+      "sha256": "1f5b685ca8d090d8cbf35f2fc72b60f3ced14ab679fe87d0654fdbcd064e6ccb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/daily-news-digest/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/SKILL.md",
+      "byteCount": 7218,
+      "sha256": "8202555830c56ac9c2011c9418183e68e8d24d9dc82c45585f664ffe20e172a0"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/daily-news-digest/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/daily-news-digest/sources.md",
+      "byteCount": 3118,
+      "sha256": "640d41423e4eb4793b16631b7cefd0073de6ce28c7456f6b3b4711d1c5dc1d11"
     }
   ]
 }

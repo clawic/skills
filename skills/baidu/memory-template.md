@@ -1,6 +1,6 @@
 # Memory Template - Baidu
 
-Create these baseline files inside `~/baidu/`.
+Create these baseline files inside `~/Clawic/data/baidu/`.
 
 ## `memory.md`
 

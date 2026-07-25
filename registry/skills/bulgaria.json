@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5fc8d84c444df08b4af37b675d9a86cce2131e46dac54be46be2d6cf3ffb0851",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "bulgaria",
-    "name": "Bulgaria",
+    "name": "bulgaria",
     "description": "Plan Bulgaria with local context on Sofia, Plovdiv, the Black Sea, mountain routes, food, and tourist-trap avoidance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/bulgaria",
-    "summary": "Setup If `~/bulgaria/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a trip to Bulgaria or needs local context on cities, beaches, mountain trips, food, transport, winter r",
+    "summary": "Setup If `~/Clawic/data/bulgaria/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a trip to Bulgaria or needs local context on cities, beaches, mountain trips, food, transpo",
     "repositoryPath": "skills/bulgaria",
     "manifestPath": "registry/skills/bulgaria.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bulgaria/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/_meta.json",
+      "byteCount": 168,
+      "sha256": "3723140f3c3ee6572cd78be9c73ce76e65537fa32f8076a3dc7756d3c85853b7"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/bulgaria/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/accommodation.md",
+      "byteCount": 2026,
+      "sha256": "eb6269f1f79eb7af38f1581970ebe03d3e2731a16ef7b7683b82c50ab70d6dec"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/bulgaria/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/apps.md",
+      "byteCount": 1066,
+      "sha256": "f81d5d76803a9888554fad834494486f299ed29137b3da8d129ed9b9ffc9dace"
     },
     {
       "path": "bansko.md",
       "downloadPath": "skills/bulgaria/bansko.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/bansko.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/bansko.md",
+      "byteCount": 1641,
+      "sha256": "3065547e21b94f2c373a3c575704b26b53cf4722acfe698489e47e2d134ae84d"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/bulgaria/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/beaches.md",
+      "byteCount": 1622,
+      "sha256": "bd6f11b988db577d166e61312f6639b83ea4de6cff58d6c1af24d9cce4be01fb"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/bulgaria/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/culture.md",
+      "byteCount": 1464,
+      "sha256": "8bc27ee5b3052920a46ed7e1cb5037973ca4a6beee489dd10910f23985c906a0"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/bulgaria/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/emergencies.md",
+      "byteCount": 1245,
+      "sha256": "0f4ae17fe666814d9e42e43fa909bb3d5b97f46e039a55965347b2554935858c"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/bulgaria/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/experiences.md",
+      "byteCount": 1450,
+      "sha256": "23249fc2d51eb2cc4c86d3c71b43f94e57e938df2ac4f1a7072c8842b2c07af7"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/bulgaria/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/food-guide.md",
+      "byteCount": 2031,
+      "sha256": "390c90c4953953a92dc86794911fff079854cfffc9e01499842d6a67e98d88ed"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/bulgaria/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/hiking.md",
+      "byteCount": 1132,
+      "sha256": "61449bd1b348861fa9bedd224425ffcde68e38fa8b77ce29e768fb6a8917d604"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/bulgaria/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/itineraries.md",
+      "byteCount": 1622,
+      "sha256": "e199af6b0d62ae3d8cd8f591b5ccf66a259a70b64c6cacf169276af28d8a84dc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/bulgaria/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/memory-template.md",
+      "byteCount": 1168,
+      "sha256": "8a3c318e773b2bf520ce9ca6b3e3c9a38019cb3af846a60fd3ca9961273f0966"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/bulgaria/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/nightlife.md",
+      "byteCount": 1007,
+      "sha256": "b5f15ef214785140ae44f7eca58e0d26ba11704dc5f11e0ab1bbcebd48925ecc"
     },
     {
       "path": "plovdiv.md",
       "downloadPath": "skills/bulgaria/plovdiv.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/plovdiv.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/plovdiv.md",
+      "byteCount": 1514,
+      "sha256": "239719f725d179daafafa65bef0741816e7549ac25e2728543214c53d576a036"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/bulgaria/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/regions.md",
+      "byteCount": 1460,
+      "sha256": "4904117b1e993c5754fde7253253dde331d9d3bd418a747565b1071676428187"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/bulgaria/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/setup.md",
+      "byteCount": 1711,
+      "sha256": "61e170f9c9edff953f1f36964a7a9c9df44511a870ba7afbeea6d1fa8ad663d8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bulgaria/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/SKILL.md",
+      "byteCount": 5075,
+      "sha256": "c1379540e1ca64e5f147f37785f52130ad6a52b59b53556761bb9d09a4fc4f46"
     },
     {
       "path": "sofia.md",
       "downloadPath": "skills/bulgaria/sofia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/sofia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/sofia.md",
+      "byteCount": 2148,
+      "sha256": "cb5e3dc9f48f8313d7438d737ff99ce68f0ef30f56f852f78147c4632e958ebb"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/bulgaria/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/telecoms.md",
+      "byteCount": 765,
+      "sha256": "ff64af1ee8484a34807652f5c3a4c111fa183e690a5c4023546fd2a34acfaee7"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/bulgaria/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/transport.md",
+      "byteCount": 1510,
+      "sha256": "00ab81aaf6fc878ca99481f479e70522067b41f2f63615404c663691fa98cde9"
     },
     {
       "path": "varna.md",
       "downloadPath": "skills/bulgaria/varna.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/varna.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/varna.md",
+      "byteCount": 1646,
+      "sha256": "ea39df059428fdf559eb96a4a362cd587680ab7d57ba762d17d0fd29b9cb303b"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/bulgaria/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/wine.md",
+      "byteCount": 1550,
+      "sha256": "7b35b47539550de461457d55ab9a52bf3d28df5ab200974465e53522006cf188"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/bulgaria/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bulgaria/with-kids.md",
+      "byteCount": 989,
+      "sha256": "200b61392ecc229841c1df695d4c2ef6878d6f87e3ef72859636e95d1471c751"
     }
   ]
 }

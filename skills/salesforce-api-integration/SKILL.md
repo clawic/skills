@@ -1,11 +1,25 @@
 ---
-name: Salesforce API Integration
+name: salesforce-api-integration
 slug: salesforce-api-integration
 version: 1.0.1
-homepage: https://clawic.com/skills/salesforce-api-integration
 description: Complete Salesforce REST API for SOQL queries, CRUD operations, Bulk API, Composite API, authentication, and standard objects with error handling.
+homepage: https://clawic.com/skills/salesforce-api-integration
 changelog: Fixed memory template to use standard status values and natural language context.
-metadata: {"clawdbot":{"emoji":"☁️","requires":{"env":["SF_ACCESS_TOKEN","SF_INSTANCE_URL"],"config":["~/salesforce-api-integration/"]},"primaryEnv":"SF_ACCESS_TOKEN","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ☁️
+    requires:
+      env:
+      - SF_ACCESS_TOKEN
+      - SF_INSTANCE_URL
+      config:
+      - ~/Clawic/data/salesforce-api-integration/
+    primaryEnv: SF_ACCESS_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Salesforce API Integration
 ---
 
 # Salesforce API Integration
@@ -21,7 +35,7 @@ curl "$SF_INSTANCE_URL/services/data/v59.0/sobjects/" \
 
 ## Setup
 
-On first use, read `setup.md`. Preferences stored in `~/salesforce-api-integration/memory.md`.
+On first use, read `setup.md`. Preferences stored in `~/Clawic/data/salesforce-api-integration/memory.md`.
 
 ## When to Use
 
@@ -30,7 +44,7 @@ Any Salesforce operation: SOQL queries, record CRUD, bulk imports/exports, metad
 ## Architecture
 
 ```
-~/salesforce-api-integration/
+~/Clawic/data/salesforce-api-integration/
 ├── memory.md      # Org context and object schemas
 └── queries.md     # Saved SOQL queries
 ```
@@ -95,18 +109,18 @@ curl "$SF_INSTANCE_URL/services/data/v59.0/..." \
 - `SF_INSTANCE_URL` - for API endpoint routing
 
 **Sent to Salesforce:** Queries, record data via your instance URL
-**Stays local:** Access token (in environment variable only), ~/salesforce-api-integration/ preferences
+**Stays local:** Access token (in environment variable only), ~/Clawic/data/salesforce-api-integration/ preferences
 **Never:** Store tokens in files, log sensitive data, bypass field-level security
 
 ## Scope
 
 This skill ONLY:
 - Makes requests to Salesforce REST API endpoints
-- Stores preferences in `~/salesforce-api-integration/`
+- Stores preferences in `~/Clawic/data/salesforce-api-integration/`
 - Provides curl and code examples
 
 This skill NEVER:
-- Accesses files outside `~/salesforce-api-integration/`
+- Accesses files outside `~/Clawic/data/salesforce-api-integration/`
 - Makes requests to non-Salesforce endpoints
 - Stores access tokens in files
 
@@ -116,12 +130,12 @@ By using this skill, data is sent to Salesforce (salesforce.com).
 Only install if you trust Salesforce with your CRM data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API patterns
 - `crm` — CRM workflows
 - `accounting` — Financial operations
 
 ## Feedback
 
-- If useful: `clawhub star salesforce-api-integration`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/salesforce-api-integration
+- Latest version: https://clawic.com/skills/salesforce-api-integration

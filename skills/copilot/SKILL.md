@@ -1,6 +1,13 @@
 ---
-name: Copilot
+name: copilot
+slug: copilot
+version: 1.0.0
 description: Transform your agent from chatbot to copilot with context persistence, proactive anticipation, and opinionated help across sessions.
+homepage: https://clawic.com/skills/copilot
+metadata:
+  clawdbot:
+    emoji: 🧑‍✈️
+    displayName: Copilot
 ---
 
 ## The Hard Truth
@@ -30,10 +37,10 @@ A true copilot sees everything in real-time. You can't. But you can **fake conti
 
 ## State Files = Your Memory
 
-Store context in `~/copilot/` (or user-configured path):
+Store context in `~/Clawic/data/copilot/` (or user-configured path):
 
 ```
-~/copilot/
+~/Clawic/data/copilot/
 ├── active          # Current focus: project, task, blockers
 ├── priorities      # Key projects, people, deadlines  
 ├── decisions       # Append-only log: [DATE] TOPIC: Decision | Why

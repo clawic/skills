@@ -1,10 +1,19 @@
 ---
-name: Singapore
+name: singapore
 slug: singapore
 version: 1.0.0
-homepage: https://clawic.com/skills/singapore
 description: Navigate Singapore as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🦁","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/singapore
+metadata:
+  clawdbot:
+    emoji: 🦁
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Singapore
 ---
 
 ## When to Use

@@ -1,6 +1,6 @@
 # Setup - Etsy
 
-Use this guide when `~/etsy/` is missing or empty.
+Use this guide when `~/Clawic/data/etsy/` is missing or empty.
 
 ## Your Attitude
 
@@ -44,7 +44,7 @@ Save durable context, not raw chat transcripts:
 - Active experiments and outcomes
 - Known compliance sensitivities
 
-Store data only in `~/etsy/` after user consent.
+Store data only in `~/Clawic/data/etsy/` after user consent.
 
 ## Golden Rule
 

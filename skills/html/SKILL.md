@@ -1,7 +1,17 @@
 ---
-name: HTML
+name: html
+slug: html
+version: 1.0.0
 description: Avoid common HTML mistakes — accessibility gaps, form pitfalls, and SEO oversights.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/html
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: HTML
 ---
 
 ## Layout Shift Prevention

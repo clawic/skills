@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "41172c8ba3c45ec03ff28ff23dc6b2795cb46be645583d3f4b5aaaf6b4da0aa0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "golf",
-    "name": "Golf",
+    "name": "golf",
     "description": "Track rounds, handicap, clubs, and courses with personalized improvement tips.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/golf",
-    "summary": "When to Use User wants to track their golf game, log rounds, manage handicap, remember course details, or get personalized practice recommendations based on their history. Architecture Memory lives in `~/golf/`. See `mem",
+    "summary": "When to Use User wants to track their golf game, log rounds, manage handicap, remember course details, or get personalized practice recommendations based on their history. Architecture Memory lives in `~/Clawic/data/golf",
     "repositoryPath": "skills/golf",
     "manifestPath": "registry/skills/golf.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/golf/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/_meta.json",
+      "byteCount": 160,
+      "sha256": "7bde94f0436172873a92389760dcdd5218cfb8b7a78ae35c8398afa44deecedd"
     },
     {
       "path": "clubs.md",
       "downloadPath": "skills/golf/clubs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/clubs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/clubs.md",
+      "byteCount": 1842,
+      "sha256": "57c2d4a36998a9921a8fedf478a46eb627d79435e641115195bf28b573958df0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/golf/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/memory-template.md",
+      "byteCount": 2093,
+      "sha256": "5e3ee48ca8a69eeec4b32938bf96ec88e6ca08d14a9e3fec2ba65bbd5821dd49"
     },
     {
       "path": "rules.md",
       "downloadPath": "skills/golf/rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/rules.md",
+      "byteCount": 2504,
+      "sha256": "7aa196a46386453bb2abc6863cd8728345d53154e0721cbda27d1ec03c9a48fc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/golf/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/golf/SKILL.md",
+      "byteCount": 2546,
+      "sha256": "0c1ba49f34348de6d13d1d6b98f14377716396bfb02d354177cf5ca63ec9e934"
     }
   ]
 }

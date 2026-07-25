@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f3989b70882542e0c972c9d41f6a9eb12b7220940d87958e815524eac9900615",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "writing",
-    "name": "Writing",
+    "name": "writing",
     "description": "Adapt to writing voice, improve clarity, and remember style preferences across sessions.",
     "version": "1.1.0",
     "homepage": "https://clawic.com/skills/writing",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/writing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/_meta.json",
+      "byteCount": 242,
+      "sha256": "6c2bdcd46f4401b0914aebaf2fd496c3fe45f6eba3a800515d214086bea76dc7"
     },
     {
       "path": "criteria.md",
       "downloadPath": "skills/writing/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/criteria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/criteria.md",
+      "byteCount": 1939,
+      "sha256": "ddd31e05cb77a917e2bab38c3f0fa6c008eff8cea6945b06d332d74d19847140"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/writing/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/dimensions.md",
+      "byteCount": 1611,
+      "sha256": "e4b00a93a8ca07514983b20ba60d573a78145cd76e7f604b353549614ff8b796"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/writing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/memory-template.md",
+      "byteCount": 2482,
+      "sha256": "fa7dc2f8ad1eec521a8763503a8617cc0a06e57f09a0c1e6142e16d26b3995b2"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/writing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/setup.md",
+      "byteCount": 3398,
+      "sha256": "bc5240512f48b8e0e75c73c4f8373bee2ff8414ea1442062c9cba190d8ebe280"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/writing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/SKILL.md",
+      "byteCount": 5575,
+      "sha256": "ec163a415b1a0631c304a3de722b20081d73b59141b03f6a77f5112c33c267dc"
     }
   ]
 }

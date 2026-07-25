@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "99821b6e86f0c05ac61da6222a2df51b5404ebe82b1f626462b4c18e66abae8c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "models",
-    "name": "Models",
+    "name": "models",
     "description": "Choose AI models for coding, reasoning, and agents with cost-aware, task-matched recommendations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/models",
     "summary": "AI Model Selection Rules Core Principle - No single model is best for everything — match model to task, not brand loyalty - A $0.75/M model often performs identically to a $40/M model for simple tasks - Test cheaper alte",
     "repositoryPath": "skills/models",
     "manifestPath": "registry/skills/models.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/models/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/_meta.json",
+      "byteCount": 164,
+      "sha256": "f6aeeffc34ea93bb8376b3e6c6cf4a9a4707b8c788f1cada2c18ef56e5f71991"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/models/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/models/SKILL.md",
+      "byteCount": 3796,
+      "sha256": "b35b7a9b8e5b383e3dc6633182e5bf00758b3e52c03f76d4807ce68f83ab555f"
     }
   ]
 }

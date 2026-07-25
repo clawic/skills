@@ -1,11 +1,21 @@
 ---
-name: Speech to Text Transcription
+name: speech-to-text-transcription
 slug: speech-to-text-transcription
 version: 1.0.0
-homepage: https://clawic.com/skills/speech-to-text-transcription
 description: Transcribe audio and video files to text with speaker detection, timestamps, and format conversion.
-metadata: {"clawdbot":{"emoji":"🎤","requires":{"bins":["ffmpeg"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/speech-to-text-transcription
 changelog: Initial release with multi-provider support and batch processing.
+metadata:
+  clawdbot:
+    emoji: 🎤
+    requires:
+      bins:
+      - ffmpeg
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Speech to Text Transcription
 ---
 
 ## Setup
@@ -18,10 +28,10 @@ User has audio or video files that need transcription. Agent handles local files
 
 ## Architecture
 
-Memory lives in `~/speech-to-text-transcription/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/speech-to-text-transcription/`. See `memory-template.md` for structure.
 
 ```
-~/speech-to-text-transcription/
+~/Clawic/data/speech-to-text-transcription/
 ├── memory.md        # Provider preferences, defaults
 ├── transcripts/     # Saved transcriptions
 └── temp/            # Processing workspace
@@ -151,7 +161,7 @@ ffmpeg -i long.mp3 -f segment -segment_time 600 -c copy chunk_%03d.mp3
 ## Security & Privacy
 
 **Data that stays local:**
-- Transcripts in ~/speech-to-text-transcription/transcripts/
+- Transcripts in ~/Clawic/data/speech-to-text-transcription/transcripts/
 - Local Whisper processes entirely on-device
 
 **Data that leaves your machine (if using APIs):**
@@ -178,12 +188,12 @@ Only called when user explicitly chooses cloud provider. Local Whisper sends not
 By using cloud transcription providers, audio data is sent to OpenAI, AssemblyAI, or Deepgram. Only install if you trust these services with your audio. For sensitive content, use local Whisper.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `audio` — General audio processing
 - `ffmpeg` — Video and audio conversion
 - `podcast` — Podcast creation and editing
 
 ## Feedback
 
-- If useful: `clawhub star speech-to-text-transcription`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/speech-to-text-transcription
+- Latest version: https://clawic.com/skills/speech-to-text-transcription

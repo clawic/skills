@@ -1,11 +1,20 @@
 ---
-name: Coding
+name: coding
 slug: coding
 version: 1.0.3
-homepage: https://clawic.com/skills/coding
 description: Coding style memory that adapts to your preferences, conventions, and patterns for consistent coding.
+homepage: https://clawic.com/skills/coding
 changelog: Improve discoverability, add homepage and feedback section
-metadata: {"clawdbot":{"emoji":"💻","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💻
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Coding
 ---
 
 ## When to Use
@@ -14,10 +23,10 @@ User has coding style preferences, stack decisions, or patterns they want rememb
 
 ## Architecture
 
-Memory lives in `~/coding/` with tiered structure. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/coding/` with tiered structure. See `memory-template.md` for setup.
 
 ```
-~/coding/
+~/Clawic/data/coding/
 ├── memory.md      # Active preferences (≤100 lines)
 └── history.md     # Archived old preferences
 ```
@@ -32,7 +41,7 @@ Memory lives in `~/coding/` with tiered structure. See `memory-template.md` for 
 
 ## Data Storage
 
-All data stored in `~/coding/`. Create on first use:
+All data stored in `~/Clawic/data/coding/`. Create on first use:
 ```bash
 mkdir -p ~/coding
 ```
@@ -41,21 +50,21 @@ mkdir -p ~/coding
 
 This skill ONLY:
 - Learns from explicit user corrections ("I prefer X over Y")
-- Stores preferences in local files (`~/coding/`)
+- Stores preferences in local files (`~/Clawic/data/coding/`)
 - Applies stored preferences to code output
 
 This skill NEVER:
 - Reads project files to infer preferences
 - Observes coding patterns without consent
 - Makes network requests
-- Reads files outside `~/coding/`
+- Reads files outside `~/Clawic/data/coding/`
 - Modifies its own SKILL.md
 
 ## Core Rules
 
 ### 1. Learn from Explicit Feedback Only
 - User corrects output → ask: "Should I remember this preference?"
-- User confirms → add to `~/coding/memory.md`
+- User confirms → add to `~/Clawic/data/coding/memory.md`
 - Never infer from silence or observation
 
 ### 2. Confirmation Required
@@ -83,7 +92,7 @@ Group by type (see `dimensions.md`):
 - Merge similar entries: "no Prettier" + "no ESLint" → "minimal tooling"
 
 ### 6. On Session Start
-1. Load `~/coding/memory.md` if exists
+1. Load `~/Clawic/data/coding/memory.md` if exists
 2. Apply stored preferences to responses
 3. If no file exists, start with no assumptions
 
@@ -103,15 +112,15 @@ User can ask:
 ## Security & Privacy
 
 **Data that stays local:**
-- All preferences stored in `~/coding/`
+- All preferences stored in `~/Clawic/data/coding/`
 - No telemetry or analytics
 
 **This skill does NOT:**
 - Send data externally
-- Access files outside `~/coding/`
+- Access files outside `~/Clawic/data/coding/`
 - Observe without explicit user input
 
 ## Feedback
 
-- If useful: `clawhub star coding`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/coding
+- Latest version: https://clawic.com/skills/coding

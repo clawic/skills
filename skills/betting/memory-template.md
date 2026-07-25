@@ -1,6 +1,6 @@
 # Memory Template - Betting
 
-Create `~/betting/memory.md` with this structure:
+Create `~/Clawic/data/betting/memory.md` with this structure:
 
 ```markdown
 # Betting Memory

@@ -1,11 +1,24 @@
 ---
-name: Database Manager
+name: database-manager
 slug: database-manager
 version: 1.0.0
-homepage: https://clawic.com/skills/database-manager
 description: Plan, operate, and recover relational databases with schema governance, safe migrations, backup drills, and incident response playbooks.
+homepage: https://clawic.com/skills/database-manager
 changelog: Initial release with schema governance rules, migration safety checks, backup recovery workflows, and on-call response templates.
-metadata: {"clawdbot":{"emoji":"🗄️","requires":{"bins":[],"config":["~/database-manager/"]},"os":["linux","darwin","win32"],"configPaths":["~/database-manager/"]}}
+metadata:
+  clawdbot:
+    emoji: 🗄️
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/database-manager/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/database-manager/
+    displayName: Database Manager
 ---
 
 ## Setup
@@ -21,10 +34,10 @@ Use this skill when database changes can affect production reliability, latency,
 
 ## Architecture
 
-Memory lives in `~/database-manager/`. See `memory-template.md` for the base structure.
+Memory lives in `~/Clawic/data/database-manager/`. See `memory-template.md` for the base structure.
 
 ```
-~/database-manager/
+~/Clawic/data/database-manager/
 ├── memory.md                  # Durable context and operating preferences
 ├── inventory.md               # Systems, engines, owners, and critical datasets
 ├── standards.md               # Naming, indexing, and schema conventions
@@ -119,7 +132,7 @@ Without closure rules, the same incident class repeats.
 - None by default.
 
 **Data that stays local:**
-- Database operating context and records under `~/database-manager/`.
+- Database operating context and records under `~/Clawic/data/database-manager/`.
 
 **This skill does NOT:**
 - Execute destructive commands without explicit user confirmation.
@@ -127,7 +140,7 @@ Without closure rules, the same incident class repeats.
 - Store secrets in memory files.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `sql` - SQL query authoring and analysis
 - `mysql` - MySQL-specific workflows and troubleshooting
 - `prisma` - Prisma schema and migration tooling
@@ -136,5 +149,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star database-manager`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/database-manager
+- Latest version: https://clawic.com/skills/database-manager

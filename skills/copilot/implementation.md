@@ -85,7 +85,7 @@ Active bug: JWT validation fails on refresh
 # In HEARTBEAT.md
 
 ## Copilot Check
-1. Read ~/copilot/active.md
+1. Read ~/Clawic/data/copilot/active.md
 2. If updated <2 hours ago:
    - User likely still on this
    - Check for proactive opportunities (upcoming meetings, deadlines)
@@ -128,6 +128,6 @@ task: "Summarize week: what got done, what's pending, decisions made"
 ## Privacy Notes
 
 - All state in user's filesystem, not external
-- User can delete ~/copilot/ anytime
+- User can delete ~/Clawic/data/copilot/ anytime
 - Screenshots processed, not stored
 - decisions.md may contain sensitive info — user's choice what to log

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "532a42e5f54e1552c3a21d527bec713367fa67c184a6dff88ebe107dc7c18a57",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "economics",
-    "name": "Economics",
+    "name": "economics",
     "description": "Clarify economic thinking from everyday choices to policy analysis.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/economics",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, question complexity, familiarity with models - When unclear, start with concrete trade-offs and adjust based on response - Never condescend to experts o",
     "repositoryPath": "skills/economics",
     "manifestPath": "registry/skills/economics.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/economics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/economics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/economics/_meta.json",
+      "byteCount": 170,
+      "sha256": "3512114e03a4fcdb5b53b91eaa22df1ee196a63351cef7475e1202a6dad306d5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/economics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/economics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/economics/SKILL.md",
+      "byteCount": 3409,
+      "sha256": "5a727b139ec288e4255194d970e4f2bcd46570ce088976550031722e81374292"
     }
   ]
 }

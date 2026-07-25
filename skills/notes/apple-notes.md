@@ -120,6 +120,6 @@ memo notes -a "Product Sync 2026-02-19"
 
 ## Integration Notes
 
-- Action items extracted from Apple Notes → sync to `~/notes/actions.md`
+- Action items extracted from Apple Notes → sync to `~/Clawic/data/notes/actions.md`
 - Search results include Apple Notes with `apple-notes:` prefix
 - If `memo` unavailable → fall back to local

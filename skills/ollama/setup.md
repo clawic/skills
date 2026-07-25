@@ -1,6 +1,6 @@
 # Setup - Ollama
 
-Read this when `~/ollama/` is missing or empty. Start naturally and stay practical.
+Read this when `~/Clawic/data/ollama/` is missing or empty. Start naturally and stay practical.
 
 ## Your Attitude
 
@@ -45,7 +45,7 @@ Save only durable context:
 - preferred output style for chat, coding, JSON extraction, or embeddings
 - recurring failures such as CPU fallback, partial pulls, or port conflicts
 
-Store data only in `~/ollama/` after user consent.
+Store data only in `~/Clawic/data/ollama/` after user consent.
 
 ## Golden Rule
 

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "accc13c934a99b3074dced83339b5d637a7c3dad25e5aefd97a4e6c914501410",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "pay",
-    "name": "Pay",
+    "name": "pay",
     "description": "Choose the right payment method, optimize rewards, handle disputes, and manage bills safely.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/pay",
     "summary": "Triggers Activate on: \"how should I pay\", \"which card\", payment method questions, dispute help, fraud concerns, bill management. **Before acting on payments:** Never initiate or authorize payments without explicit user c",
     "repositoryPath": "skills/pay",
     "manifestPath": "registry/skills/pay.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/_meta.json",
+      "byteCount": 158,
+      "sha256": "2d4d472a11e37834b404359614912c92ed4dae8e2da8974be875ac623159c51c"
     },
     {
       "path": "cards.md",
       "downloadPath": "skills/pay/cards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/cards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/cards.md",
+      "byteCount": 2040,
+      "sha256": "e3b9018f9ee052d50675563920584e40286c9ecd81d41df69c9e2fa8b45c388f"
     },
     {
       "path": "disputes.md",
       "downloadPath": "skills/pay/disputes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/disputes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/disputes.md",
+      "byteCount": 2131,
+      "sha256": "361a809a9ce46d38951e704c305607a935ce77de128561abf31a3d44a8667cac"
     },
     {
       "path": "rewards.md",
       "downloadPath": "skills/pay/rewards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/rewards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/rewards.md",
+      "byteCount": 1955,
+      "sha256": "f199a827f07c16eec8bf54f8dbe8c13bbdad21d6a5cda173d67ea9e67d61953c"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/pay/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/security.md",
+      "byteCount": 2082,
+      "sha256": "3a69382848277d32a8e910a83a5e09341b04274408a2119fabb8be0203beff4a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pay/SKILL.md",
+      "byteCount": 2543,
+      "sha256": "ee2bbb5f5a15bd126c66fed99a76666dde98dd52c8acc49414d2573bd55c4a57"
     }
   ]
 }

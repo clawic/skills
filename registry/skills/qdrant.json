@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2d112a50c330f7eaecbce9c3dd54083ca98db730c029ff7bb7c18e1557824ebb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "qdrant",
-    "name": "Qdrant",
+    "name": "qdrant",
     "description": "Build vector search with Qdrant using collections, payloads, filtering, and optimized indexing for semantic similarity.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/qdrant",
     "summary": "When to Use User needs vector similarity search, semantic search, or recommendation systems. Agent handles collection design, point insertion, filtered queries, and index optimization. Quick Reference | Topic | File | |-",
     "repositoryPath": "skills/qdrant",
     "manifestPath": "registry/skills/qdrant.json"
@@ -21,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/qdrant/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/_meta.json",
+      "byteCount": 164,
+      "sha256": "28a87e0b6ebc81502b5bf51aad4b076d4e090cc083538fdcd995508859bc5cfd"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/qdrant/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/performance.md",
+      "byteCount": 2690,
+      "sha256": "3d429f53a336a83c1fc16e8ba6a6eeeb7640a542e23da377a987655d219605e3"
     },
     {
       "path": "queries.md",
       "downloadPath": "skills/qdrant/queries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/queries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/queries.md",
+      "byteCount": 2257,
+      "sha256": "09407d07f07fc09cd5efeb4ea5e7949089f3c9b619e77bef50562d7a7ff44166"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/qdrant/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/qdrant/SKILL.md",
+      "byteCount": 2803,
+      "sha256": "7e4545c4d38ce666d015351428b9e788c3120b678d5a1f0f6491a7f066669ee8"
     }
   ]
 }

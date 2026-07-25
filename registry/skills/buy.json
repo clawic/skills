@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cd0a8f68a32a44560b0ba7bfba485c8439d1437d0d2a38ae7b4a1411176b3b7d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "buy",
-    "name": "Buy",
+    "name": "buy",
     "description": "Research purchases, compare prices, detect scams, and negotiate better deals.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/buy",
     "summary": "Triggers Activate on: \"should I buy\", \"is this worth it\", \"is this a good deal\", \"help me find\", \"compare prices\", \"negotiate\", price research requests. **Before acting:** Clarify budget (hard limit vs flexible), timelin",
     "repositoryPath": "skills/buy",
     "manifestPath": "registry/skills/buy.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/buy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/_meta.json",
+      "byteCount": 158,
+      "sha256": "b1c9583abc9e601a1ad8fc2241d290510503f010a116a80f98281cba9133e4e3"
     },
     {
       "path": "categories.md",
       "downloadPath": "skills/buy/categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/categories.md",
+      "byteCount": 2360,
+      "sha256": "275b61c42d4f0d60fcdd6fbf3cfe7953d87296c0b6d6937e1560cf7512708214"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/buy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/SKILL.md",
+      "byteCount": 2312,
+      "sha256": "c0425d3a055d4f4b6917184413d6c44f3c784cb07456b1e1e62815ca646f58ce"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/buy/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/sources.md",
+      "byteCount": 1524,
+      "sha256": "9d511123c3fefc223d9042c4ac2c008abc9881589263f4b5e6c3680c08f0557d"
     },
     {
       "path": "tactics.md",
       "downloadPath": "skills/buy/tactics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/tactics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/buy/tactics.md",
+      "byteCount": 2348,
+      "sha256": "2581aa8e7de5455c482ccf3c47b6dbc0aa3ecd25e2c8900effab78bfca382757"
     }
   ]
 }

@@ -1,11 +1,32 @@
 ---
-name: Codex
+name: codex
 slug: codex
 version: 1.0.0
-homepage: https://clawic.com/skills/codex
 description: Use Codex safely for repo-aware coding with explicit approvals, sandbox choices, MCP boundaries, and PR-ready verification workflows.
+homepage: https://clawic.com/skills/codex
 changelog: Initial release with repo-safe execution, approval and sandbox guidance, MCP and cloud guardrails, and review-ready handoff workflows.
-metadata: {"clawdbot":{"emoji":"🧭","requires":{"bins":["codex"],"bins.optional":["git","rg"],"env.optional":["OPENAI_API_KEY"],"config":["~/codex/","~/.codex/config.toml"]},"os":["linux","darwin","win32"],"configPaths":["~/codex/","~/.codex/config.toml"]}}
+metadata:
+  clawdbot:
+    emoji: 🧭
+    requires:
+      bins:
+      - codex
+      bins.optional:
+      - git
+      - rg
+      env.optional:
+      - OPENAI_API_KEY
+      config:
+      - ~/Clawic/data/codex/
+      - ~/.codex/config.toml
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/codex/
+    - ~/.codex/config.toml
+    displayName: Codex
 ---
 
 ## When to Use
@@ -16,10 +37,10 @@ Use this skill when the hard part is not "write code" but "make Codex behave saf
 
 ## Architecture
 
-Memory lives in `~/codex/`. If `~/codex/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/codex/`. If `~/Clawic/data/codex/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/codex/
+~/Clawic/data/codex/
 |-- memory.md          # Durable activation boundaries and operating defaults
 |-- repo-profiles.md   # Per-repo conventions, test surface, and blast-radius notes
 |-- safety.md          # Sandbox, approval, and trust defaults
@@ -63,7 +84,7 @@ This skill treats Codex as an operational coding surface, not as generic AI advi
 
 ## Data Storage
 
-Keep only durable Codex operating context in `~/codex/`:
+Keep only durable Codex operating context in `~/Clawic/data/codex/`:
 - which repos or workspaces are approved for Codex use
 - default sandbox and approval posture per task type
 - preferred execution surfaces: interactive CLI, `exec`, `review`, cloud, or local OSS provider
@@ -140,7 +161,7 @@ Data that leaves your machine:
 
 Data that stays local:
 - `~/.codex/config.toml` and the user's local Codex session/config state
-- durable operating notes under `~/codex/`
+- durable operating notes under `~/Clawic/data/codex/`
 - local diffs, verification output, and repo metadata unless the user explicitly pushes or uploads them
 
 This skill does NOT:
@@ -169,7 +190,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `agentic-engineering` - Strengthen the human workflow around parallel coding agents and blast-radius thinking.
 - `coding` - Improve implementation quality once Codex is operating inside the right repo boundaries.
 - `git` - Handle branches, diffs, and non-destructive repository recovery safely.
@@ -178,5 +199,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star codex`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/codex
+- Latest version: https://clawic.com/skills/codex

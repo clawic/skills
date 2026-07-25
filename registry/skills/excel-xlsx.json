@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5cd22e50ae2d01d1206b0a278b696e9a31ff8613fbab5e20428c5a002e3a7b54",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "excel-xlsx",
-    "name": "Excel / XLSX",
+    "name": "excel-xlsx",
     "description": "Create, inspect, and edit Microsoft Excel workbooks and XLSX files with reliable formulas, dates, types, formatting, recalculation, and template preservation. Use when (1) the task is about Excel, `.xlsx`, `.xlsm`, `.xls`, `.csv`, or `.tsv`; (2) formulas, formatting, workbook structure, or compatibility matter; (3) the file must stay reliable after edits.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/excel-xlsx",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/excel-xlsx/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/_meta.json",
+      "byteCount": 324,
+      "sha256": "d31f8532ce763de0c9b9178b75a2e48b2d9f39e7508bf6b89b33dd096967e6ca"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/excel-xlsx/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/memory-template.md",
+      "byteCount": 1893,
+      "sha256": "5d1ee90a32aa908eaa7447f12dd144534968b02360d3c828d008a0e6345b7872"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/excel-xlsx/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/setup.md",
+      "byteCount": 2642,
+      "sha256": "52a0f75fec31ea9b76c8059abf534e7b54e28912502c6d283a8485ea82a464fe"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/excel-xlsx/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/excel-xlsx/SKILL.md",
+      "byteCount": 7088,
+      "sha256": "b5733fc8df76c655469a6bb9fee313b38fa6de1b98741e264817bacd9e569323"
     }
   ]
 }

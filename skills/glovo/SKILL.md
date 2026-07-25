@@ -1,11 +1,24 @@
 ---
-name: Glovo
+name: glovo
 slug: glovo
 version: 1.0.0
-homepage: https://clawic.com/skills/glovo
 description: Navigate Glovo in a live browser session to compare stores, manage carts, and reach checkout safely before ordering.
+homepage: https://clawic.com/skills/glovo
 changelog: Initial release with live-browser ordering flow, checkout guardrails, and issue recovery for Glovo orders.
-metadata: {"clawdbot":{"emoji":"🛵","requires":{"bins":[],"config":["~/glovo/"]},"os":["darwin","linux","win32"],"configPaths":["~/glovo/"]}}
+metadata:
+  clawdbot:
+    emoji: 🛵
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/glovo/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/glovo/
+    displayName: Glovo
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Choose this skill when the next step is to browse stores, compare delivery optio
 
 ## Architecture
 
-Memory lives in `~/glovo/`. If `~/glovo/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter fields.
+Memory lives in `~/Clawic/data/glovo/`. If `~/Clawic/data/glovo/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter fields.
 
 ```text
-~/glovo/
+~/Clawic/data/glovo/
 |-- memory.md       # Activation defaults, browser mode, and ordering boundary
 |-- addresses.md    # Approved delivery addresses and area caveats
 |-- stores.md       # Preferred stores, cuisines, fees, and repeat winners
@@ -61,9 +74,9 @@ Do not blur the boundary between browsing and ordering. A live Glovo session has
 
 ## Data Storage
 
-Persistent local notes in `~/glovo/` are optional. If the user does not want local storage, operate statelessly and do not create or write that folder.
+Persistent local notes in `~/Clawic/data/glovo/` are optional. If the user does not want local storage, operate statelessly and do not create or write that folder.
 
-When local notes are allowed, keep only durable operating context in `~/glovo/`:
+When local notes are allowed, keep only durable operating context in `~/Clawic/data/glovo/`:
 - whether the skill may reuse the daily browser profile or should stay read-only
 - preferred addresses, neighborhoods, and delivery caveats approved by the user
 - favorite stores, order patterns, and substitution preferences
@@ -135,7 +148,7 @@ No other data should be sent externally unless the user explicitly opens additio
 - support or issue details the user explicitly submits to Glovo
 
 **Data that stays local:**
-- optional Glovo operating notes in `~/glovo/`, only if the user wants persistent memory
+- optional Glovo operating notes in `~/Clawic/data/glovo/`, only if the user wants persistent memory
 - preferences, address labels, and known-good store patterns approved by the user
 
 **This skill does NOT:**
@@ -163,7 +176,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `food-delivery` - Broader ordering logic when the user is not locked to Glovo.
 - `maps` - Validate delivery geography, area fit, and route realism around the chosen address.
@@ -173,5 +186,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star glovo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/glovo
+- Latest version: https://clawic.com/skills/glovo

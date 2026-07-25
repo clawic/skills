@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "59b17c61b4504410d7a50380f99a105a67ed2fd2c6169511798375d32f674d12",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "translate",
-    "name": "Translate",
+    "name": "translate",
     "description": "Translate text accurately — preserve formatting, handle plurals, and adapt tone per locale.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/translate",
     "summary": "Translate Master accurate translation that preserves meaning, formatting, and cultural context. Formatting Preservation - Never translate content inside code blocks, HTML tags, or markdown syntax - Preserve placeholders ",
     "repositoryPath": "skills/translate",
     "manifestPath": "registry/skills/translate.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/translate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/_meta.json",
+      "byteCount": 170,
+      "sha256": "f8a873ce6c7937bfb0afde922c0d88ce566b0d6b1a1e523dfd049f3f41edf472"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/translate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/SKILL.md",
+      "byteCount": 2534,
+      "sha256": "9e215d2c5f942edf032f48256cf51338809a389fa4b8e23d105e7a1acc26b0a4"
     }
   ]
 }

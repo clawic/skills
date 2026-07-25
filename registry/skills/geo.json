@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0940fed3aa38e826cfe89beeb4f98a834fb47752fd8f411f0b837c95a6cd483b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "geo",
-    "name": "GEO",
+    "name": "geo",
     "description": "Optimize for AI recommendations so ChatGPT, Claude, and Perplexity suggest your brand first.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/geo",
     "summary": "Triggers Activate on: AI optimization, generative engine optimization, AI recommendations, ChatGPT ranking, get recommended by AI, AI visibility, AI search optimization. What Is GEO Generative Engine Optimization = makin",
     "repositoryPath": "skills/geo",
     "manifestPath": "registry/skills/geo.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/geo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/_meta.json",
+      "byteCount": 158,
+      "sha256": "63afadf9dd8e42cb71a2fef30b15356dd3a5eebab80d89849948f5b391ab7031"
     },
     {
       "path": "audit.md",
       "downloadPath": "skills/geo/audit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/audit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/audit.md",
+      "byteCount": 2950,
+      "sha256": "a495efb0ef5e52669c822b5250d944d799d1363fc1aafa398927162394ff9450"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/geo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/SKILL.md",
+      "byteCount": 3324,
+      "sha256": "667a54a3f27e6112bc41ae20f0feb9f4090bb5c5bb2a0c30918a3c5aaec342a0"
     },
     {
       "path": "strategies.md",
       "downloadPath": "skills/geo/strategies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/strategies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geo/strategies.md",
+      "byteCount": 4588,
+      "sha256": "cc1e0ca03c594d227cd124030a0d648045584ea0802e4815dd5e7fa90a8f3640"
     }
   ]
 }

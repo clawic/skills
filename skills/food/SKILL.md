@@ -1,8 +1,14 @@
 ---
-name: "Food Tracker"
-description: "Your intelligent food system. Absorbs, analyzes, and organizes everything you eat."
-version: "1.0.1"
-changelog: "Preferences now persist across skill updates"
+name: food
+slug: food
+version: 1.0.1
+description: Your intelligent food system. Absorbs, analyzes, and organizes everything you eat.
+homepage: https://clawic.com/skills/food
+changelog: Preferences now persist across skill updates
+metadata:
+  clawdbot:
+    emoji: 🍽️
+    displayName: Food Tracker
 ---
 
 ## Intelligent Food Absorption
@@ -24,7 +30,7 @@ This skill absorbs ANY food input, auto-classifies it, and organizes for insight
 
 ## Memory Storage
 
-All user data persists in: `~/food/memory.md`
+All user data persists in: `~/Clawic/data/food/memory.md`
 
 **Format:**
 ```markdown

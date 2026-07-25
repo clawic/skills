@@ -1,6 +1,6 @@
 # Watchlist Template — Stock Market
 
-Use this structure for `~/stock-market/watchlist.md`.
+Use this structure for `~/Clawic/data/stock-market/watchlist.md`.
 
 ```markdown
 # Watchlist

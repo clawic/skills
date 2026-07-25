@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "36135a21c7155c27273722e7eb60ddb42a168edca4d6ef5b693fbfcdb7e12052",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "indonesian",
-    "name": "Indonesian",
+    "name": "indonesian",
     "description": "Write Indonesian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/indonesian",
     "summary": "The Real Problem AI Indonesian is technically correct but sounds off. Too formal. Too baku (standard). Natives write more casually, mixing informal patterns. Match that. Formality Default Default register is too high. Ca",
     "repositoryPath": "skills/indonesian",
     "manifestPath": "registry/skills/indonesian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/indonesian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesian/_meta.json",
+      "byteCount": 172,
+      "sha256": "5ea20c401ee13e4d7097f4bf093013a8fadc43dcd37b8e451972a266f120d724"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/indonesian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/indonesian/SKILL.md",
+      "byteCount": 2247,
+      "sha256": "3017e89bca617e2c1442e75f41818ed92536217dfa44c41d2cd1c79b685fd18f"
     }
   ]
 }

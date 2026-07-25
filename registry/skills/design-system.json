@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a5b54132ab40c0ddd78d74849b33ec8fddd416e508ca5b41b85454d90dce8eda",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "design-system",
-    "name": "Design System",
+    "name": "design-system",
     "description": "Build design systems with tokens, components, and documentation that scale across teams and products.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/design-system",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. All preferences are stored in `~/design-system/memory.md`. When to Use User needs to create, maintain, or extend a design system. Agent handles token archit",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. All preferences are stored in `~/Clawic/data/design-system/memory.md`. When to Use User needs to create, maintain, or extend a design system. Agent handles ",
     "repositoryPath": "skills/design-system",
     "manifestPath": "registry/skills/design-system.json"
   },
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/design-system/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/_meta.json",
+      "byteCount": 178,
+      "sha256": "4b84ae9078124e114ad7f68ac857808279972ffa8f665072957419a092377c8f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/design-system/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/memory-template.md",
+      "byteCount": 1107,
+      "sha256": "b15ce84092498832d10a0bee948ada4ac3f28526e1700c3cfcdcb0861a5b27b8"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/design-system/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/setup.md",
+      "byteCount": 1704,
+      "sha256": "093b3d1911b5826cdd3406f1ff654845d8967e3fd9270cf0e0dd8b19a9c383f4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/design-system/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design-system/SKILL.md",
+      "byteCount": 3985,
+      "sha256": "2f9671db4808eb7cfa581ccbd76e2660030c86a3da5058001d106e1a1a93ded4"
     }
   ]
 }

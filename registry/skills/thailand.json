@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "732b517fb00741c93dc584f94a57bfd56cf1fbeb71f4ddd3f8527dfabd9fe0aa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "thailand",
-    "name": "Thailand",
+    "name": "thailand",
     "description": "Choose the best Thailand base for travel, remote work, expat life, or business with visa clarity, cost reality, and local operating playbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/thailand",
-    "summary": "Setup If `~/thailand/` does not exist or is empty, read `setup.md` and begin naturally. When to Use User asks about Thailand for travel, relocation, remote work, education, retirement, or business setup. Agent gives prac",
+    "summary": "Setup If `~/Clawic/data/thailand/` does not exist or is empty, read `setup.md` and begin naturally. When to Use User asks about Thailand for travel, relocation, remote work, education, retirement, or business setup. Agen",
     "repositoryPath": "skills/thailand",
     "manifestPath": "registry/skills/thailand.json"
   },
@@ -22,192 +25,268 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/thailand/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/_meta.json",
+      "byteCount": 168,
+      "sha256": "2634fb5d59cbed50e61603961ad2affcdabb57d77ec0bf7048e6b7d81edb71bb"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/thailand/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/business.md",
+      "byteCount": 1095,
+      "sha256": "759df984f9454d87fc97a40079b9eaf0983b258725712c2af6d168f4c5a00165"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/thailand/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/climate.md",
+      "byteCount": 1034,
+      "sha256": "86b91ac3066ec4742d500c30665fbb014387b5cddb586ec35abaa3d9ac1e98ae"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/thailand/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/cost.md",
+      "byteCount": 1289,
+      "sha256": "bdeebaca17881a08986ebcb3656dbf58f7f5838aa9482258aa38557f12acbb89"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/thailand/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/culture.md",
+      "byteCount": 926,
+      "sha256": "cdb54da7866346793bc0331c65e8659f4da21d1e59a139fa065cac910dab06ca"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/thailand/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-areas.md",
+      "byteCount": 737,
+      "sha256": "68b027ef5f18ffa1b3d5e1ca9d153ed97355aff5d9c2e145d71e41448516c50b"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/thailand/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-international.md",
+      "byteCount": 748,
+      "sha256": "627a40315d25acfdcd9acf5155ab0e662f8498508d48b36f96b795093df0145c"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/thailand/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-overview.md",
+      "byteCount": 1006,
+      "sha256": "c8d8b63550021109b2237a3a968bdbf3f920cee24f58fe12d3487fe6651a62a9"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/thailand/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-practical.md",
+      "byteCount": 803,
+      "sha256": "adf807690ef6a7a3e54706f934c4fd289857f9907f2994ede8291d6991245936"
     },
     {
       "path": "food-street.md",
       "downloadPath": "skills/thailand/food-street.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-street.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-street.md",
+      "byteCount": 894,
+      "sha256": "a927b5f218645afd805732815b8a0e4c7fa5dc4b6b8a53baae56478236105bb2"
     },
     {
       "path": "food-thai.md",
       "downloadPath": "skills/thailand/food-thai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-thai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/food-thai.md",
+      "byteCount": 863,
+      "sha256": "43d5653a69eb4033b6246c491eb461010de0fb45ea6c732443443ca06103e160"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/thailand/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/healthcare.md",
+      "byteCount": 1011,
+      "sha256": "6a7a1ea876a051b406f07102512a0261cbb3efe8cada709fecbbe5de5332de4d"
     },
     {
       "path": "language.md",
       "downloadPath": "skills/thailand/language.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/language.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/language.md",
+      "byteCount": 789,
+      "sha256": "433e8584b3f2c57cd82bd1f28f88e718bfccd512b23c8627899fb298159557d2"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/thailand/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/lifestyle.md",
+      "byteCount": 1076,
+      "sha256": "acdb4217e95bc8043ee3746b804b78225a8bd637c87aa4727881df2b171addc1"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/thailand/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/local.md",
+      "byteCount": 845,
+      "sha256": "3a5b673708c3483d33498de9fddffd3378648b05dc45e87795b236430a397a1a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/thailand/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/memory-template.md",
+      "byteCount": 1585,
+      "sha256": "b3dd3fb1437f1cd1250904eca6e69681196b9d45f6020fededa839c67c853bf5"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/thailand/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/nightlife.md",
+      "byteCount": 701,
+      "sha256": "c22cc9b90c9dda1e745b9285f78f12442eb591247112d13fd29c6eca8054fa0d"
     },
     {
       "path": "nomad.md",
       "downloadPath": "skills/thailand/nomad.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/nomad.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/nomad.md",
+      "byteCount": 1068,
+      "sha256": "bf2a78edf6cc57a333a3a8b1bb18ecc136c7cfa268ada3ea34d8e37d83504b4e"
     },
     {
       "path": "regions-bangkok.md",
       "downloadPath": "skills/thailand/regions-bangkok.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-bangkok.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-bangkok.md",
+      "byteCount": 1248,
+      "sha256": "32d0763082918364937c20ec5a0f4eef73159ca36318d88993f8310d7b310035"
     },
     {
       "path": "regions-chiang-mai.md",
       "downloadPath": "skills/thailand/regions-chiang-mai.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-chiang-mai.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-chiang-mai.md",
+      "byteCount": 1102,
+      "sha256": "5a725494b83203d7eb6cf5687aff9b94ff7a1d8d2a62e94624d20b9e40e795d4"
     },
     {
       "path": "regions-choosing.md",
       "downloadPath": "skills/thailand/regions-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-choosing.md",
+      "byteCount": 1443,
+      "sha256": "2bb2eac93ec0f8610a76b10facf2fe1d8b9329deec3b8531d47a485167cfc518"
     },
     {
       "path": "regions-index.md",
       "downloadPath": "skills/thailand/regions-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-index.md",
+      "byteCount": 1512,
+      "sha256": "e39cd9f89935935689081d647fc0707b74444e1efb51ecd5672581d38e1f9593"
     },
     {
       "path": "regions-islands.md",
       "downloadPath": "skills/thailand/regions-islands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-islands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-islands.md",
+      "byteCount": 985,
+      "sha256": "4cc9b8808bfd9ceb91db1af8b1c6ca7f00f10a961cb8b1b8cb2987eca1ce589d"
     },
     {
       "path": "regions-north.md",
       "downloadPath": "skills/thailand/regions-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-north.md",
+      "byteCount": 999,
+      "sha256": "8f000b047013bccc9d3319d6b8715a3fe0281f6c6624c2b11d16dbc47a59f33b"
     },
     {
       "path": "regions-phuket.md",
       "downloadPath": "skills/thailand/regions-phuket.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-phuket.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/regions-phuket.md",
+      "byteCount": 1034,
+      "sha256": "b0424c906c227c3d5e339796600e17b8901a8810ac46a8047cd55acb09357686"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/thailand/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/resident.md",
+      "byteCount": 1009,
+      "sha256": "8abe778d4acefc76784b967e100852ad40e9bf2b9196c31f7ae432eb120bbad5"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/thailand/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/safety.md",
+      "byteCount": 1306,
+      "sha256": "69b06a3fbface61beadd7f57315bd139198b728a4ef67e4e5f92bfdb0552f5cc"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/thailand/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/setup.md",
+      "byteCount": 1608,
+      "sha256": "ecb7f1f2ac6d3463a1ddd77154ab5643d5d6c8d4b85aae7753d914ada714e580"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/thailand/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/SKILL.md",
+      "byteCount": 8222,
+      "sha256": "63e4e6245ec87851a8543ed6e7e94f23520a5ef18633b03d36322ccfbae78547"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/thailand/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/sources.md",
+      "byteCount": 5883,
+      "sha256": "c123617a57c1202bac5a88f889f901de60285cac0175e4d5e9a0c5f1035466dd"
     },
     {
       "path": "teaching.md",
       "downloadPath": "skills/thailand/teaching.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/teaching.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/teaching.md",
+      "byteCount": 1038,
+      "sha256": "2418b7b7eb1634647aec7bdd4e7202c16012311f14cde36b08f94b9cd4a093e2"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/thailand/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/tech.md",
+      "byteCount": 976,
+      "sha256": "8f3c539ce316b5c40b9d903ad849edfb67e59e265ec9f7108215867a01984a4b"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/thailand/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/transport.md",
+      "byteCount": 1257,
+      "sha256": "53d2f6e3afba4571515ce6a47a3c5b10baae1455cf1e92a7b439c4db5f0446c9"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/thailand/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visas.md",
+      "byteCount": 1484,
+      "sha256": "49dc6857b48fad344d08dfb87cd6b2f3669923c2b0cb51aa762d58950686cb1d"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/thailand/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-attractions.md",
+      "byteCount": 2400,
+      "sha256": "b19b83c03c43156bc9c548edf567491c79a58c361196fc982ed1c5592a3c6f9d"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/thailand/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-itineraries.md",
+      "byteCount": 1783,
+      "sha256": "5a5af43536d6d69c953b46fff982482bc8aa605c41bfbb434f83ddf18a91cce4"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/thailand/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-lodging.md",
+      "byteCount": 1715,
+      "sha256": "9d1dcf9690fec098806d9583376d4214f3ab058f694555d0c7d6747ed41b0c81"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/thailand/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/thailand/visitor-tips.md",
+      "byteCount": 1673,
+      "sha256": "8a97e96adb90e1284114c6365ef54fe300c9305116bcb1b26c7f5c624a54e3d7"
     }
   ]
 }

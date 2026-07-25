@@ -1,7 +1,17 @@
 ---
-name: Polkadot
+name: polkadot
+slug: polkadot
+version: 1.0.0
 description: Assist with Polkadot DOT transactions, staking, parachains, and cross-chain transfers.
-metadata: {"clawdbot":{"emoji":"⚪","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/polkadot
+metadata:
+  clawdbot:
+    emoji: ⚪
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Polkadot
 ---
 
 ## Network Architecture

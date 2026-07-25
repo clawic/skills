@@ -1,6 +1,6 @@
 # Memory Template — Plausible
 
-Create `~/plausible/memory.md` with this structure:
+Create `~/Clawic/data/plausible/memory.md` with this structure:
 
 ```markdown
 # Plausible Memory

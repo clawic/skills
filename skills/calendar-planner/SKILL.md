@@ -1,11 +1,24 @@
 ---
-name: Calendar Planner
+name: calendar-planner
 slug: calendar-planner
 version: 1.0.0
-homepage: https://clawic.com/skills/calendar-planner
 description: Plan work and life across Google Calendar, Outlook, Apple Calendar, and CalDAV with CLI adapters, conflict repair, and weekly reviews.
-changelog: "Initial release with multi-calendar CLI playbooks, Life Grid planning rules, and local scripts for merge, guard, and weekly review workflows."
-metadata: {"clawdbot":{"emoji":"C","requires":{"bins":["python3","jq"]},"os":["linux","darwin","win32"],"configPaths":["~/calendar-planner/"]}}
+homepage: https://clawic.com/skills/calendar-planner
+changelog: Initial release with multi-calendar CLI playbooks, Life Grid planning rules, and local scripts for merge, guard, and weekly review workflows.
+metadata:
+  clawdbot:
+    emoji: C
+    requires:
+      bins:
+      - python3
+      - jq
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/calendar-planner/
+    displayName: Calendar Planner
 ---
 
 # Calendar Planner
@@ -14,7 +27,7 @@ Calendar planner for work, family, health, travel, deep work, and recovery acros
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. Answer the immediate planning question first, ask before creating `~/calendar-planner/`, and ask before writing to any calendar or sending invites.
+On first use, read `setup.md` for integration guidelines. Answer the immediate planning question first, ask before creating `~/Clawic/data/calendar-planner/`, and ask before writing to any calendar or sending invites.
 
 ## When to Use
 
@@ -27,7 +40,7 @@ This skill should return one defended plan, explicit trade-offs, and a safe acti
 Local continuity is optional and only created with user consent.
 
 ```text
-~/calendar-planner/
+~/Clawic/data/calendar-planner/
 ├── memory.md        # User-stated planning rules and activation preferences
 ├── calendars.md     # Provider map, calendar names, and write boundaries
 ├── rules.md         # Buffers, focus rules, recurring constraints
@@ -133,7 +146,7 @@ No other data is sent externally.
 ## Security & Privacy
 
 **Data that stays local:**
-- Optional planning memory in `~/calendar-planner/`
+- Optional planning memory in `~/Clawic/data/calendar-planner/`
 - Normalized event exports and review outputs produced by `calendar_merge.py`, `calendar_guard.py`, and `week_plan.py`
 - Apple Calendar automation through Calendar.app on macOS
 
@@ -164,7 +177,7 @@ This skill NEVER:
 - Stores credentials in local memory files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `daily-planner` - Daily plan shaping, sequencing, and realistic task placement.
 - `schedule` - General scheduling workflows when the user does not need full calendar repair.
 - `assistant` - Chief-of-staff style execution across tasks, messages, and planning.
@@ -173,5 +186,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star calendar-planner`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/calendar-planner
+- Latest version: https://clawic.com/skills/calendar-planner

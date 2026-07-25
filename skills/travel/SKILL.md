@@ -1,14 +1,24 @@
 ---
-name: Travel
+name: travel
+slug: travel
+version: 1.0.0
 description: Build a personal travel system for dream destinations, trip planning, and travel memories.
-metadata: {"clawdbot":{"emoji":"✈️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/travel
+metadata:
+  clawdbot:
+    emoji: ✈️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Travel
 ---
 
 ## Core Behavior
 - User mentions travel idea → offer to save to wishlist
 - User planning a trip → create trip folder with checklist
 - User returns from trip → help document memories
-- Create `~/travel/` as workspace
+- Create `~/Clawic/data/travel/` as workspace
 
 ## Use Cases
 - Dream destinations: places you want to visit someday
@@ -19,7 +29,7 @@ metadata: {"clawdbot":{"emoji":"✈️","os":["linux","darwin","win32"]}}
 
 ## File Structure
 ```
-~/travel/
+~/Clawic/data/travel/
 ├── wishlist/
 │   └── japan.md
 ├── planned/

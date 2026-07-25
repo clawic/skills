@@ -1,16 +1,25 @@
 ---
-name: Thailand
+name: thailand
 slug: thailand
 version: 1.0.0
-changelog: "Initial release with nationwide Thailand guidance for visitors, residents, remote workers, students, and founders."
-homepage: https://clawic.com/skills/thailand
 description: Choose the best Thailand base for travel, remote work, expat life, or business with visa clarity, cost reality, and local operating playbooks.
-metadata: {"clawdbot":{"emoji":"🇹🇭","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/thailand
+changelog: Initial release with nationwide Thailand guidance for visitors, residents, remote workers, students, and founders.
+metadata:
+  clawdbot:
+    emoji: 🇹🇭
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Thailand
 ---
 
 ## Setup
 
-If `~/thailand/` does not exist or is empty, read `setup.md` and begin naturally.
+If `~/Clawic/data/thailand/` does not exist or is empty, read `setup.md` and begin naturally.
 
 ## When to Use
 
@@ -18,10 +27,10 @@ User asks about Thailand for travel, relocation, remote work, education, retirem
 
 ## Architecture
 
-Memory lives in `~/thailand/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/thailand/`. See `memory-template.md` for structure.
 
 ```bash
-~/thailand/
+~/Clawic/data/thailand/
 └── memory.md     # Trip or relocation context
 ```
 
@@ -159,12 +168,12 @@ See `visas.md`, `safety.md`, and `business.md` for details.
 
 ## Security & Privacy
 
-**Data that stays local:** Preferences and planning context in `~/thailand/`.
+**Data that stays local:** Preferences and planning context in `~/Clawic/data/thailand/`.
 
-**This skill does NOT:** Access files outside `~/thailand/` or make undeclared network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/thailand/` or make undeclared network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `expat` - Relocation planning and adaptation workflows
 - `food` - Deeper dining strategy and cuisine personalization
@@ -173,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star thailand`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/thailand
+- Latest version: https://clawic.com/skills/thailand

@@ -1,6 +1,13 @@
 ---
-name: Fiverr
+name: fiverr
+slug: fiverr
+version: 1.0.0
 description: Build and scale a Fiverr freelancing business with gig optimization, buyer communication, and seller level progression.
+homepage: https://clawic.com/skills/fiverr
+metadata:
+  clawdbot:
+    emoji: 💼
+    displayName: Fiverr
 ---
 
 ## Context

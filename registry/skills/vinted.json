@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "991091cd3610e86e2dd3a860970651bbc2a8f73eb14e7beb2ccddb5005e506f9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "vinted",
-    "name": "Vinted",
+    "name": "vinted",
     "description": "Buy and resell on Vinted with listing systems, price discipline, shipping workflows, and trust-first handling for offers, bundles, and disputes.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/vinted",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vinted/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/_meta.json",
+      "byteCount": 164,
+      "sha256": "eb061cfb372a285c75c8221fa2e6a0b727066cca948ccdea48467f115fd03780"
     },
     {
       "path": "buyer-flow.md",
       "downloadPath": "skills/vinted/buyer-flow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/buyer-flow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/buyer-flow.md",
+      "byteCount": 1704,
+      "sha256": "b0ee18b6adda055fa56d488d33a37e175a298adbad31b942e73c66bbc38ac4ce"
     },
     {
       "path": "closet-ops.md",
       "downloadPath": "skills/vinted/closet-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/closet-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/closet-ops.md",
+      "byteCount": 1375,
+      "sha256": "61edce4dcc736b5047f611195c1d04e330f7e1fb034b3b63c108704939f4bceb"
     },
     {
       "path": "listing-lab.md",
       "downloadPath": "skills/vinted/listing-lab.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/listing-lab.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/listing-lab.md",
+      "byteCount": 1356,
+      "sha256": "1ace3de2ab189820082609e70e332803b3ea18ae7cc6125bcaa9d621ed5d0a23"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/vinted/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/memory-template.md",
+      "byteCount": 1978,
+      "sha256": "75e8b74f962b83df037db5b7ff7aa22c143ec2f4ea4dfc772a6e8c04abd94f6a"
     },
     {
       "path": "operations-rhythm.md",
       "downloadPath": "skills/vinted/operations-rhythm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/operations-rhythm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/operations-rhythm.md",
+      "byteCount": 1193,
+      "sha256": "876194f4f6c10c6101451baf772b9fcf3fb488aded0c0ac6960c7e0bf8f41a4a"
     },
     {
       "path": "pricing-and-bundles.md",
       "downloadPath": "skills/vinted/pricing-and-bundles.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/pricing-and-bundles.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/pricing-and-bundles.md",
+      "byteCount": 1474,
+      "sha256": "568ad332df0cab870dc68d0df11e15245b8fcac303d90ebb0a0ea2e0b1ef0451"
     },
     {
       "path": "pro-ops.md",
       "downloadPath": "skills/vinted/pro-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/pro-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/pro-ops.md",
+      "byteCount": 1312,
+      "sha256": "689fad6c0735ea45a1941877c57ff3de1411b062bb6803baecf595f1daa0a272"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/vinted/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/setup.md",
+      "byteCount": 2105,
+      "sha256": "1b297e97120a47dc08a2fbb15ba203c933691a8e8eca06b5d00822a8dd810b16"
     },
     {
       "path": "shipping-and-claims.md",
       "downloadPath": "skills/vinted/shipping-and-claims.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/shipping-and-claims.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/shipping-and-claims.md",
+      "byteCount": 1385,
+      "sha256": "01de043e56e22fa29126046315d27a9f8721d9ca0f535dbf80e184370d9935ba"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vinted/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/SKILL.md",
+      "byteCount": 7975,
+      "sha256": "92bd9b8b1bf9cb5f07711d9d4446904bc5454bad595d8c50f84a5de674af8134"
     },
     {
       "path": "trust-and-safety.md",
       "downloadPath": "skills/vinted/trust-and-safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/trust-and-safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vinted/trust-and-safety.md",
+      "byteCount": 1427,
+      "sha256": "cb35e3f7f6fbb82b7da904a2c53dd558badf82c49e441e27797610f7d2150769"
     }
   ]
 }

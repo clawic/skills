@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3872238a4dbbd12eb85866fa0edc1b9baa05dbb03106936ff895d6bf4526d096",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "macos",
-    "name": "macOS",
+    "name": "macos",
     "description": "macOS system administration, command-line differences from Linux, and automation best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/macos",
     "summary": "BSD vs GNU Commands - `sed -i` requires extension argument: `sed -i '' 's/a/b/' file` — empty string for no backup, Linux doesn't need it - `find` doesn't support `-printf` — use `-exec stat` or `xargs` with `stat -f` in",
     "repositoryPath": "skills/macos",
     "manifestPath": "registry/skills/macos.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/macos/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macos/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macos/_meta.json",
+      "byteCount": 162,
+      "sha256": "96a99d1402061dc8694669ccc789ac09044b5e8f6f029acd19d720210a5ef9b5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/macos/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macos/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/macos/SKILL.md",
+      "byteCount": 5897,
+      "sha256": "5a986fb86b8d1bf420372b1c7295b0739c5fd4a1dfc81a79fa695373a58da1b4"
     }
   ]
 }

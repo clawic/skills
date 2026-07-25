@@ -40,7 +40,7 @@ Before user-scoped device operations, verify:
 
 ## What to Store Locally
 
-Keep concise, non-secret notes in `~/tuya/environments.md`:
+Keep concise, non-secret notes in `~/Clawic/data/tuya/environments.md`:
 - app model in use
 - region and endpoint mapping
 - user-linking assumptions validated

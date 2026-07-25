@@ -1,6 +1,6 @@
 # Memory Template - Groupon
 
-Create `~/groupon/memory.md` with this structure:
+Create `~/Clawic/data/groupon/memory.md` with this structure:
 
 ```markdown
 # Groupon Memory
@@ -42,7 +42,7 @@ Updated: YYYY-MM-DD
 Create these only when they become useful:
 
 ```markdown
-# ~/groupon/shortlists.md
+# ~/Clawic/data/groupon/shortlists.md
 
 ## YYYY-MM-DD
 - Deal:
@@ -52,7 +52,7 @@ Create these only when they become useful:
 ```
 
 ```markdown
-# ~/groupon/purchases.md
+# ~/Clawic/data/groupon/purchases.md
 
 ## Active vouchers
 - Deal:
@@ -62,7 +62,7 @@ Create these only when they become useful:
 ```
 
 ```markdown
-# ~/groupon/incidents.md
+# ~/Clawic/data/groupon/incidents.md
 
 ## YYYY-MM-DD
 - Merchant or deal:

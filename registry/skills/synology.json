@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "32a497a590e99aafb0adacc7065590243f5908a0d8db7b74fe1a2ba262c5c2f1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "synology",
-    "name": "Synology",
+    "name": "synology",
     "description": "Plan, harden, and recover Synology NAS and DSM setups with storage design, backup discipline, remote access, and Container Manager workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/synology",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/synology/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/_meta.json",
+      "byteCount": 168,
+      "sha256": "f4f0e7ce26620c2964af746de55e78ed882302f25a4c13bf65de7396a7aff83f"
     },
     {
       "path": "backup-and-recovery.md",
       "downloadPath": "skills/synology/backup-and-recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/backup-and-recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/backup-and-recovery.md",
+      "byteCount": 2257,
+      "sha256": "4e6db41bab13e3c69abc0d5154b7b5697f16228ecb3bd466306f6b30257b7eb9"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/synology/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/memory-template.md",
+      "byteCount": 1608,
+      "sha256": "237f2ed14eb69941b80faf9f3ddf91a8dbf7303dafc3dc0b0d0b6feed7bd2b30"
     },
     {
       "path": "packages-and-containers.md",
       "downloadPath": "skills/synology/packages-and-containers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/packages-and-containers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/packages-and-containers.md",
+      "byteCount": 2145,
+      "sha256": "6ffe0484105c1ca64507f4f138675414d613e1b8984debb2e770d7b0e97c9ff2"
     },
     {
       "path": "remote-access-and-networking.md",
       "downloadPath": "skills/synology/remote-access-and-networking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/remote-access-and-networking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/remote-access-and-networking.md",
+      "byteCount": 2046,
+      "sha256": "8cee37b391ea635792a84d4b94b3b8b4d6e3d2999caf190153e444444955b1bd"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/synology/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/setup.md",
+      "byteCount": 2836,
+      "sha256": "0248cdde0fd0c4bf242aecbd4c4443dc044bdd31991eea794040f0dea80bf84f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/synology/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/SKILL.md",
+      "byteCount": 10830,
+      "sha256": "94d221fd466d54c2942c000dd19f11f60893b0293da5f43b2e89a501cb70ccc8"
     },
     {
       "path": "storage-and-shares.md",
       "downloadPath": "skills/synology/storage-and-shares.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/storage-and-shares.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/storage-and-shares.md",
+      "byteCount": 2332,
+      "sha256": "d67f0acde733b183f108334df5478983fa8e5c90161029ee67a4af91744adfbe"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/synology/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synology/troubleshooting.md",
+      "byteCount": 1822,
+      "sha256": "5032425fdf125f26626deb3bf30642bdfd9c33de16703346d92156bbd705dfdf"
     }
   ]
 }

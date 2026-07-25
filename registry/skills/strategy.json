@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d001e49eb6712b87ce0de90a276d529ec27255e3179cf08f995fb8e6bb80e994",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "strategy",
-    "name": "Strategy",
+    "name": "strategy",
     "description": "Design robust strategies for any domain with proven frameworks, cognitive bias protection, and constraint-aware recommendations.",
     "version": "1.0.0",
-    "summary": "Architecture Strategy profiles live in `~/strategy/` with context-specific refinement. ``` ~/strategy/ ├── memory.md # HOT: constraints, preferences, past decisions ├── domains/ # Domain-specific patterns (business, prod",
+    "homepage": "https://clawic.com/skills/strategy",
+    "summary": "Architecture Strategy profiles live in `~/Clawic/data/strategy/` with context-specific refinement. ``` ~/Clawic/data/strategy/ ├── memory.md # HOT: constraints, preferences, past decisions ├── domains/ # Domain-specific ",
     "repositoryPath": "skills/strategy",
     "manifestPath": "registry/skills/strategy.json"
   },
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/strategy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/_meta.json",
+      "byteCount": 168,
+      "sha256": "5b867c7f9dcfd3b1d72e300905fe8660290874b9cc32357bd4fbffb158fb2cd2"
     },
     {
       "path": "biases.md",
       "downloadPath": "skills/strategy/biases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/biases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/biases.md",
+      "byteCount": 3311,
+      "sha256": "5695a3bb388f43b4cdfb7c13a836f97e80648d199b78ccb26023653bb1c51e32"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/strategy/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/frameworks.md",
+      "byteCount": 3579,
+      "sha256": "e4968875159c9c08bc1300c29a933bed7cbb84338686282d7e3d355ba6e615e5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/strategy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/memory-template.md",
+      "byteCount": 1756,
+      "sha256": "d124bb7bffcfa13dd4e7abfc105dcb0cf5a41fe5f906b0a7215ecfa58973959f"
     },
     {
       "path": "process.md",
       "downloadPath": "skills/strategy/process.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/process.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/process.md",
+      "byteCount": 3697,
+      "sha256": "9e721eef6d0d4898b2a2ab94ae1ae8c93f01374750837c0568afbecedb7794f4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/strategy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/SKILL.md",
+      "byteCount": 3344,
+      "sha256": "30c1567e197b368e17b2c647cd0b0d67bf77053a22093dcd093f45fa705a44b6"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/strategy/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/strategy/techniques.md",
+      "byteCount": 3876,
+      "sha256": "5c77440d1317c0db2995284147dc49ac9967bfa22ae03b2d6c45ce24dfee4ee7"
     }
   ]
 }

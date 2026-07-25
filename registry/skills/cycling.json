@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e103f3eafa2680f23699e680e10073e7ee4b991facd4f114166f19a90abdb551",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cycling",
-    "name": "Cycling",
+    "name": "cycling",
     "description": "Cycling training, bike fit, power zones, nutrition, safety, and maintenance essentials.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cycling",
     "summary": "Bike Fit Fundamentals - Saddle height: slight bend in knee at bottom of pedal stroke — too low wastes power, too high causes injury - Saddle fore/aft: knee over pedal spindle when crank is horizontal — affects power tran",
     "repositoryPath": "skills/cycling",
     "manifestPath": "registry/skills/cycling.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cycling/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycling/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycling/_meta.json",
+      "byteCount": 166,
+      "sha256": "732fa010f44cd0a3363c593eddc571484b8b79df1efa9cca42a857eab845ecc9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cycling/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycling/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cycling/SKILL.md",
+      "byteCount": 5313,
+      "sha256": "dfeced10927ffd47f83feb8d04661706f3a68d98ddead129c0dfcfaa7a4937b5"
     }
   ]
 }

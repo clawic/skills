@@ -1,11 +1,26 @@
 ---
-name: Apple Mail (MacOS)
+name: apple-mail-macos
 slug: apple-mail-macos
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-mail-macos
 description: Use local CLI to manage Gmail, Outlook, iCloud, Yahoo, Fastmail, and other mail accounts synced in Apple Mail on macOS, without APIs or OAuth.
+homepage: https://clawic.com/skills/apple-mail-macos
 changelog: Initial release with deterministic Apple Mail command paths, provider-aware operations, and safety gates for send and delete actions.
-metadata: {"clawdbot":{"emoji":"✉️","requires":{"bins":[],"anyBins":["osascript","shortcuts","sqlite3"],"config":["~/apple-mail-macos/"]},"os":["darwin"],"configPaths":["~/apple-mail-macos/"]}}
+metadata:
+  clawdbot:
+    emoji: ✉️
+    requires:
+      bins: []
+      anyBins:
+      - osascript
+      - shortcuts
+      - sqlite3
+      config:
+      - ~/Clawic/data/apple-mail-macos/
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/apple-mail-macos/
+    displayName: Apple Mail (MacOS)
 ---
 
 ## Setup
@@ -26,10 +41,10 @@ Agent handles read, search, triage, draft, send, move, archive, and delete workf
 
 ## Architecture
 
-Memory lives in `~/apple-mail-macos/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/apple-mail-macos/`. See `memory-template.md` for structure.
 
 ```text
-~/apple-mail-macos/
+~/Clawic/data/apple-mail-macos/
 ├── memory.md               # Status, provider map, safety defaults
 ├── command-paths.md        # Working command path and fallback notes
 ├── provider-coverage.md    # Provider-specific behavior and caveats
@@ -51,7 +66,7 @@ Memory lives in `~/apple-mail-macos/`. See `memory-template.md` for structure.
 
 ## Data Storage
 
-All skill files are stored in `~/apple-mail-macos/`.
+All skill files are stored in `~/Clawic/data/apple-mail-macos/`.
 Before creating or changing local files, describe the planned write and ask for confirmation.
 
 ## Core Rules
@@ -95,7 +110,7 @@ Before creating or changing local files, describe the planned write and ask for 
 ## Security & Privacy
 
 **Data that stays local:**
-- Operational context and defaults in `~/apple-mail-macos/`.
+- Operational context and defaults in `~/Clawic/data/apple-mail-macos/`.
 - Message metadata needed to execute the requested task.
 
 **Data that may leave your machine:**
@@ -107,7 +122,7 @@ Before creating or changing local files, describe the planned write and ask for 
 - Request undeclared API keys or call undeclared third-party APIs.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - macOS command workflows and system automation patterns.
 - `mail` - cross-platform mailbox handling patterns and protocol references.
 - `events` - event extraction and action-item framing from communications.
@@ -116,5 +131,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-mail-macos`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-mail-macos
+- Latest version: https://clawic.com/skills/apple-mail-macos

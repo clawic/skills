@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6e3533042879f0bcfdc37bfd0eb47119e0f272b8992b1589bd88228bacdf1382",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vibe-clawing",
-    "name": "Vibe Clawing",
+    "name": "vibe-clawing",
     "description": "Transition from vibe coding to vibe clawing by trusting agents with full responsibilities, designing self-closing loops, and climbing the bottleneck ladder.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/vibe-clawing",
     "summary": "Core Principle Vibe coding = trusting AI with tasks, staying in the loop. Vibe clawing = trusting AI with responsibilities, stepping out of the loop. The shift: Stop asking \"how do I do this?\" Start asking \"how do I make",
     "repositoryPath": "skills/vibe-clawing",
     "manifestPath": "registry/skills/vibe-clawing.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vibe-clawing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/_meta.json",
+      "byteCount": 252,
+      "sha256": "6d7cf7968d5fd937f3d26fb2937eac474dffb9ed5c976bb8b75c7d1af6b8cfd6"
     },
     {
       "path": "bottleneck.md",
       "downloadPath": "skills/vibe-clawing/bottleneck.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/bottleneck.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/bottleneck.md",
+      "byteCount": 3074,
+      "sha256": "24e4cc8aa18d4e6f8ed4e66a1e75eaff4530005a1b6b6717d7f225f47fe578e1"
     },
     {
       "path": "direction.md",
       "downloadPath": "skills/vibe-clawing/direction.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/direction.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/direction.md",
+      "byteCount": 3090,
+      "sha256": "097ba65b6f20237ac612317dd2ce6cc26f8e9c63a390983df62548be25f34c23"
     },
     {
       "path": "evolution.md",
       "downloadPath": "skills/vibe-clawing/evolution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/evolution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/evolution.md",
+      "byteCount": 3935,
+      "sha256": "89a691792bd819a539aa82f7ca68e92d573274ef1c0ea25e5becc10473b5a047"
     },
     {
       "path": "loops.md",
       "downloadPath": "skills/vibe-clawing/loops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/loops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/loops.md",
+      "byteCount": 2938,
+      "sha256": "87edd0892e020410b0ac39f79704f1d94b02bc7cff3fe272d241cfa73689339c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vibe-clawing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vibe-clawing/SKILL.md",
+      "byteCount": 2597,
+      "sha256": "82925f6f90a101d9f7a61c4bad987de2864a0914be2846382bf007c60aa67047"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 ## Rate Card Structure
 
-Maintain in ~/agency/config.md:
+Maintain in ~/Clawic/data/agency/config.md:
 
 ```markdown
 ### Hourly Rates
@@ -44,7 +44,7 @@ Given a scope:
    - Check client type
 
 4. **Compare to historical:**
-   - Search `~/agency/knowledge/` for similar projects
+   - Search `~/Clawic/data/agency/knowledge/` for similar projects
    - Adjust if past estimates were off
 
 ## Proposal Structure
@@ -99,7 +99,7 @@ When client requests changes to proposal:
 
 Before finalizing estimate, search:
 ```
-Similar projects in ~/agency/knowledge/:
+Similar projects in ~/Clawic/data/agency/knowledge/:
 - What was estimated vs actual
 - What caused overruns
 - What would we do differently

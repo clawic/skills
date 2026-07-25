@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fb9d2d13361ca3523382d70115064ebe71bc9e1ed664d61fc70af12042d7ec5a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "flight",
-    "name": "Flight",
+    "name": "flight",
     "description": "Search, compare, book, and manage flights with price tracking, multi-platform comparison, and loyalty optimization.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/flight",
     "summary": "Quick Reference | Topic | File | |-------|------| | Search, compare, flexible dates | `search.md` | | Booking, rebooking, disruptions | `booking.md` | | Price alerts, tracking, predictions | `tracking.md` | | Miles, poin",
     "repositoryPath": "skills/flight",
     "manifestPath": "registry/skills/flight.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/flight/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/_meta.json",
+      "byteCount": 164,
+      "sha256": "6c4018aeaf830af291504a94f4b434a80c5ff4bca24f0c41b72220de771063cd"
     },
     {
       "path": "apis.md",
       "downloadPath": "skills/flight/apis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/apis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/apis.md",
+      "byteCount": 1521,
+      "sha256": "0c6ac955b717e14e5e9b75fc2be01dd6821f97a1692727edb76af67fe9c553de"
     },
     {
       "path": "booking.md",
       "downloadPath": "skills/flight/booking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/booking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/booking.md",
+      "byteCount": 1558,
+      "sha256": "2d1aa8aa8932f76cff4798e435143f2fa9a2db233ddf0a2bb707c511b514af50"
     },
     {
       "path": "points.md",
       "downloadPath": "skills/flight/points.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/points.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/points.md",
+      "byteCount": 1515,
+      "sha256": "774d2d6947af75fcc467a23b24def5fb9ba2d2fd1eacdc264d7aeddc46f66706"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/flight/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/search.md",
+      "byteCount": 1402,
+      "sha256": "879e8cf6b8a60aefa108bacab3577ee44e7557f804e83b6076b32d6ea5fd1313"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/flight/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/SKILL.md",
+      "byteCount": 2507,
+      "sha256": "1c3ce1e39e04dc2a3fff79d4e7e7777f594eb5addfdd6d44944a4317c9379297"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/flight/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/tracking.md",
+      "byteCount": 1345,
+      "sha256": "6080dd1302724254f273f89b760103970ec5430b07af289ffffe1c465f9eb649"
     }
   ]
 }

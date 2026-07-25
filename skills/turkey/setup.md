@@ -1,6 +1,6 @@
 # Setup - Turkey Travel Guide
 
-Create `~/turkey/` on first use and initialize `~/turkey/memory.md` from `memory-template.md`.
+Create `~/Clawic/data/turkey/` on first use and initialize `~/Clawic/data/turkey/memory.md` from `memory-template.md`.
 
 ## First Contact
 
@@ -23,7 +23,7 @@ Keep durable facts in memory:
 
 ## Returning Users
 
-Read `~/turkey/memory.md`, reuse what is still valid, and ask only what changed:
+Read `~/Clawic/data/turkey/memory.md`, reuse what is still valid, and ask only what changed:
 - Dates
 - Region focus
 - Bookings already made

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b4106f195fb8b75d7c3f69481eeee6e5618a6cb185a622668863fcff5348cb8c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "italian",
-    "name": "Italian",
+    "name": "italian",
     "description": "Write Italian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/italian",
     "summary": "The Real Problem AI Italian is technically correct but sounds off. Too formal. Too complete. Too textbook. Natives write with more warmth, expressiveness, and personality. Match that. Formality Default Default register i",
     "repositoryPath": "skills/italian",
     "manifestPath": "registry/skills/italian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/italian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italian/_meta.json",
+      "byteCount": 166,
+      "sha256": "11558bd77fda53e0423a1aa6483f5723ebef642f9d500ec27accda1c3869f927"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/italian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italian/SKILL.md",
+      "byteCount": 2893,
+      "sha256": "1b780f01c66303e7acc67b51f993b614cb1c100cd3b4dd67e584d5512654f5b3"
     }
   ]
 }

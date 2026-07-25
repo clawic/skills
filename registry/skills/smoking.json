@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "dea381d5041c144ec87d03028f6c2558d868b9d8484da98a908fdddb36a4347a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "smoking",
-    "name": "Smoking (Tracker, Logger, Quit, Reduce)",
+    "name": "smoking",
     "description": "Track smoking and nicotine use, reduce consumption, or quit with neutral logs, trigger mapping, and adaptive plans.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/smoking",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/smoking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/_meta.json",
+      "byteCount": 198,
+      "sha256": "510266ef77b66c672c1bada1eacc659db59d402fbad0e629d31abc99ab1a603b"
     },
     {
       "path": "craving-playbook.md",
       "downloadPath": "skills/smoking/craving-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/craving-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/craving-playbook.md",
+      "byteCount": 960,
+      "sha256": "daa83ce64b21f1b854d471a74e1213bc070d0f3e1afa283dc56a1d16f4b45e9a"
     },
     {
       "path": "goal-modes.md",
       "downloadPath": "skills/smoking/goal-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/goal-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/goal-modes.md",
+      "byteCount": 1439,
+      "sha256": "fdf3e5d165a0c9b1a5b01eee523d92cc6eb4221ad1f8234d80b2e947508f272d"
     },
     {
       "path": "log-template.md",
       "downloadPath": "skills/smoking/log-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/log-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/log-template.md",
+      "byteCount": 981,
+      "sha256": "5467883a4bed53a0cc38f97848a132afbd69994ae79174621a265af3cfd93efd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/smoking/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/memory-template.md",
+      "byteCount": 2257,
+      "sha256": "e1cab16fa3afaba977ec4755d4020de0db7607bdd0ea1df0218dc8027bdb6c3b"
     },
     {
       "path": "quit-playbook.md",
       "downloadPath": "skills/smoking/quit-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/quit-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/quit-playbook.md",
+      "byteCount": 1164,
+      "sha256": "121c35613cee394c4601a348e571f070a6e74244c1d1c6a39cb4fa80ab9541e5"
     },
     {
       "path": "reduction-methods.md",
       "downloadPath": "skills/smoking/reduction-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/reduction-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/reduction-methods.md",
+      "byteCount": 1418,
+      "sha256": "2452c47a1405b70959c712b7110dbc3347a861fcdbc121abee3a169189c63c20"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/smoking/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/setup.md",
+      "byteCount": 2057,
+      "sha256": "9299984e287b64a678a62ec0db2bcf2ad6369c55923ef59102f34a1f4b67fe41"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/smoking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/smoking/SKILL.md",
+      "byteCount": 6063,
+      "sha256": "78fdb947107af134d5e54cef1ba09f97845798fde0cb1d858c0cfcda6c9bb112"
     }
   ]
 }

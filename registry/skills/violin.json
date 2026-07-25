@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6fa391a6f685d3fcb12ec5f40f050c4b4846b2ed07261b93073ef4f0746500f4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "violin",
-    "name": "Violin",
+    "name": "violin",
     "description": "Violin practice strategies, technique correction, intonation development, and progress tracking.",
-    "summary": "Core Behavior - Create `~/violin/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask level — years playing, current repertoire - Ask goals — classical vs f",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/violin",
+    "summary": "Core Behavior - Create `~/Clawic/data/violin/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask level — years playing, current repertoire - Ask goals — cl",
     "repositoryPath": "skills/violin",
     "manifestPath": "registry/skills/violin.json"
   },
@@ -20,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/violin/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/_meta.json",
+      "byteCount": 164,
+      "sha256": "ce70953b026c4e43304dbdc232cc2947819f5161ef4fbd331e89bf88c76f8543"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/violin/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/progress.md",
+      "byteCount": 2248,
+      "sha256": "9add65c8d9b4006aa4438d8767d109276236a69ebd708c5f8f73a7fda77ec8bb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/violin/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/violin/SKILL.md",
+      "byteCount": 2507,
+      "sha256": "4066ca7ec66286f91bbdfe3cbaa438db7d00aba66f2f8cdc87c71055129fdd23"
     }
   ]
 }

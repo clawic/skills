@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "315d99e02791c14364ddede61a2ff8bb320a4c2b0a686a1c58b1a7e1cda84eb2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "coding",
-    "name": "Coding",
+    "name": "coding",
     "description": "Coding style memory that adapts to your preferences, conventions, and patterns for consistent coding.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/coding",
-    "summary": "When to Use User has coding style preferences, stack decisions, or patterns they want remembered. Agent learns ONLY from explicit corrections and confirmations, never from observation. Architecture Memory lives in `~/cod",
+    "summary": "When to Use User has coding style preferences, stack decisions, or patterns they want remembered. Agent learns ONLY from explicit corrections and confirmations, never from observation. Architecture Memory lives in `~/Cla",
     "repositoryPath": "skills/coding",
     "manifestPath": "registry/skills/coding.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/coding/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/_meta.json",
+      "byteCount": 388,
+      "sha256": "10294fcfd4f98e10d3f9fdd3d633d33c078763eda1a0ae70da1860e6ef1b2b15"
     },
     {
       "path": "criteria.md",
       "downloadPath": "skills/coding/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/criteria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/criteria.md",
+      "byteCount": 1669,
+      "sha256": "875a0396838401740b6632fca5f53b87d811cdee32e57b2a8462553da4fd7256"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/coding/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/dimensions.md",
+      "byteCount": 1976,
+      "sha256": "2e7d70b19c99ee7d7f5f376047ffc75c52b1f829103c63facd160e0e21da335a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/coding/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/memory-template.md",
+      "byteCount": 972,
+      "sha256": "18bd1b7a38a21fd7d9550d255a46a2cbdebf2014494d2688ebe8ef5f53106aae"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/coding/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coding/SKILL.md",
+      "byteCount": 3575,
+      "sha256": "48abe75c4334922fc4a1e4c2fa3c1b785297360993738208bcf91b45d1c7cd5d"
     }
   ]
 }

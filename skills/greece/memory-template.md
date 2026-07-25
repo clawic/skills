@@ -1,6 +1,6 @@
 # Memory Template - Greece
 
-Create `~/greece/memory.md` with this structure:
+Create `~/Clawic/data/greece/memory.md` with this structure:
 
 ```markdown
 # Greece Trip Memory

@@ -5,7 +5,7 @@ Reference for file structure and logging format.
 ## Workspace Structure
 
 ```
-~/drums/
+~/Clawic/data/drums/
 ├── repertoire.md      # Songs learned and in progress
 ├── sessions/
 │   └── YYYY-MM.md     # Monthly practice logs

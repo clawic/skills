@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b0d648697bdcac7709498d5b0c0c222b59f14093e7147561019533fb05f37d1a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "onboarding",
-    "name": "Onboarding",
+    "name": "onboarding",
     "description": "Design user onboarding flows that maximize activation and time-to-value.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/onboarding",
     "summary": "Define Activation First Answer before designing anything: - What specific action = user got value? - What % of signups currently reach it? - What's the minimum path to get there? If you can't answer these, onboarding wil",
     "repositoryPath": "skills/onboarding",
     "manifestPath": "registry/skills/onboarding.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/onboarding/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/onboarding/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/onboarding/_meta.json",
+      "byteCount": 172,
+      "sha256": "532f2aa75b78abbbda53ad14df992340f750820c5509fa2c01c2c055a9005675"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/onboarding/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/onboarding/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/onboarding/SKILL.md",
+      "byteCount": 2975,
+      "sha256": "7148257bfb47f92a4e844b93f0bbae73f265dacb18a745b6120839f4760fb1ee"
     }
   ]
 }

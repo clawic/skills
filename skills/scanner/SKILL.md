@@ -1,11 +1,20 @@
 ---
-name: Scanner
+name: scanner
 slug: scanner
 version: 1.0.0
+description: Transform document photos into clean scanned-looking pages with automatic edge detection, cropping, and perspective correction. Use when (1) the user wants a photo to look scanned; (2) receipts, forms, pages, or papers need clean borders and straightening; (3) the result should be easier to read, share, archive, or pass to OCR.
 homepage: https://clawic.com/skills/scanner
-description: "Transform document photos into clean scanned-looking pages with automatic edge detection, cropping, and perspective correction. Use when (1) the user wants a photo to look scanned; (2) receipts, forms, pages, or papers need clean borders and straightening; (3) the result should be easier to read, share, archive, or pass to OCR."
 changelog: Added a focused browser-first document scanning workflow with jscanify defaults, edge detection guidance, and low-friction local preview commands.
-metadata: {"clawdbot":{"emoji":"📄","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📄
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Scanner
 ---
 
 ## When to Use
@@ -138,12 +147,12 @@ This skill NEVER:
 | `https://cdn.jsdelivr.net/` | Load `jscanify` without global install |
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `documents` - General document handling after the scan is cleaned.
 - `image` - Extra image cleanup when the user needs post-processing beyond edge detection.
 - `files` - File organization, renaming, and export handling after scans are generated.
 
 ## Feedback
 
-- If useful: `clawhub star scanner`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/scanner
+- Latest version: https://clawic.com/skills/scanner

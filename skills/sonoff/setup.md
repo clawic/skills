@@ -1,6 +1,6 @@
 # Setup - Sonoff
 
-Read this when `~/sonoff/` does not exist or is empty.
+Read this when `~/Clawic/data/sonoff/` does not exist or is empty.
 Keep onboarding short and immediately useful.
 
 ## Operating Priorities
@@ -31,9 +31,9 @@ Keep onboarding short and immediately useful.
 4. If context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/sonoff
-touch ~/sonoff/{memory.md,environments.md,devices.md,automations.md,incidents.md}
+touch ~/Clawic/data/sonoff/{memory.md,environments.md,devices.md,automations.md,incidents.md}
 chmod 700 ~/sonoff
-chmod 600 ~/sonoff/{memory.md,environments.md,devices.md,automations.md,incidents.md}
+chmod 600 ~/Clawic/data/sonoff/{memory.md,environments.md,devices.md,automations.md,incidents.md}
 ```
 
 5. If `memory.md` is empty, initialize it from `memory-template.md`.

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e07b2e3a740d323740a1d88ef83487367e6575bdb68b03d23c9cf693c59a09af",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "product",
-    "name": "Product",
+    "name": "product",
     "description": "Build, visualize, and launch products with strategy frameworks, AI imagery tools, and marketplace optimization.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/product",
     "summary": "When to Use - Creating products (digital SaaS or physical goods) - Generating product mockups and photography with AI - Optimizing listings for marketplaces (Amazon, Etsy, Shopify) - Validating ideas and measuring produc",
     "repositoryPath": "skills/product",
     "manifestPath": "registry/skills/product.json"
@@ -20,67 +25,93 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/product/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/_meta.json",
+      "byteCount": 166,
+      "sha256": "ba6e99ea7804f00476ffcae938c24d04fd061d5e90288a9b0a526210371f89fb"
     },
     {
       "path": "ai-tools.md",
       "downloadPath": "skills/product/ai-tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/ai-tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/ai-tools.md",
+      "byteCount": 3549,
+      "sha256": "639cf6cdaa63b44eb5a63f6ed0bbd456f92554e39df715b57b4374853d33cb44"
     },
     {
       "path": "amazon.md",
       "downloadPath": "skills/product/amazon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/amazon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/amazon.md",
+      "byteCount": 2943,
+      "sha256": "dd3602a09add32c5f1269ea751e1967e0e36ff71ec82984e5ebb3fe8e8f16ef3"
     },
     {
       "path": "compliance.md",
       "downloadPath": "skills/product/compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/compliance.md",
+      "byteCount": 4103,
+      "sha256": "2c7d35b777bb4d95da5b8ca443419cf7f6a1c33bcbd074c5a086d3ebce911dff"
     },
     {
       "path": "etsy.md",
       "downloadPath": "skills/product/etsy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/etsy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/etsy.md",
+      "byteCount": 3296,
+      "sha256": "44d9e8b348df9b6250419e9704bb50d7b122e51defa54516c9165e205ad2c73b"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/product/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/metrics.md",
+      "byteCount": 3334,
+      "sha256": "a1a3a86ba5b0a190f9338672f8f30d3457dbdffcf55ca389c20a0735a0cef4e8"
     },
     {
       "path": "pod.md",
       "downloadPath": "skills/product/pod.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/pod.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/pod.md",
+      "byteCount": 3683,
+      "sha256": "ff977faf655421b95e4013d703665726c3958063d896c3f32091c5a82bda5a4d"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/product/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/pricing.md",
+      "byteCount": 4060,
+      "sha256": "44ff3ce558db52efacca23a48a84dfa037df48014101bcfc93435e4b03f25f03"
     },
     {
       "path": "prioritization.md",
       "downloadPath": "skills/product/prioritization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/prioritization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/prioritization.md",
+      "byteCount": 3647,
+      "sha256": "ed16f3c3ead75567a4074fe3f4e406058b81f0b57e95cc5e9d7d1a20bacc4d9a"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/product/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/prompts.md",
+      "byteCount": 3911,
+      "sha256": "6430746a340649d7474237ae4e38790a2d7c5483132b81305681b79e5b97fee6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/product/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/SKILL.md",
+      "byteCount": 2266,
+      "sha256": "e8b2fe5470b44ebc3f3666887bf3f6d3d6c19cbe885bb42accd063c8df9b75b0"
     },
     {
       "path": "specs.md",
       "downloadPath": "skills/product/specs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/specs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/specs.md",
+      "byteCount": 3754,
+      "sha256": "54de2714fbb53b3191cded10df231f4ea9907e4358139bc0472f9bdc69cba0fd"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/product/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/product/validation.md",
+      "byteCount": 3503,
+      "sha256": "4a42b770d43e4e7ec6688697f0d625fc8acfbc0ac8d214d34aa0ddeb7c70d1b4"
     }
   ]
 }

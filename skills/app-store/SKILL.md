@@ -1,6 +1,13 @@
 ---
-name: App Store
+name: app-store
+slug: app-store
+version: 1.0.0
 description: Publish and manage iOS and Android apps with account setup, submission workflows, review compliance, and rejection handling.
+homepage: https://clawic.com/skills/app-store
+metadata:
+  clawdbot:
+    emoji: 📱
+    displayName: App Store
 ---
 
 ## Scope

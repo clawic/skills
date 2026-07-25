@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1454770419cbcc96057cb2d014b9304c3e6427edcebfa09e54713b698d9800fe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "rust",
-    "name": "Rust",
+    "name": "rust",
     "description": "Write idiomatic Rust avoiding ownership pitfalls, lifetime confusion, and common borrow checker battles.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/rust",
     "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | Ownership & Borrowing | `ownership-borrowing.md` | Move semantics catch everyone | | Strings & Types | `types-strings.md` | `String` vs `&str`, UT",
     "repositoryPath": "skills/rust",
     "manifestPath": "registry/skills/rust.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/rust/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/_meta.json",
+      "byteCount": 236,
+      "sha256": "fe66c876336410a4a2c408c14f37d068cc7c0864156a98080d46e52ed002a599"
     },
     {
       "path": "advanced-traps.md",
       "downloadPath": "skills/rust/advanced-traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/advanced-traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/advanced-traps.md",
+      "byteCount": 2328,
+      "sha256": "84f66cf7f643db3eeb46b81c175853a646499675077c48775509a520cbc6d74e"
     },
     {
       "path": "concurrency-memory.md",
       "downloadPath": "skills/rust/concurrency-memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/concurrency-memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/concurrency-memory.md",
+      "byteCount": 1853,
+      "sha256": "cc49e489433537e89168c3a2b0da9615b36894c72371dddd4927817c57fe57e1"
     },
     {
       "path": "errors-iteration.md",
       "downloadPath": "skills/rust/errors-iteration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/errors-iteration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/errors-iteration.md",
+      "byteCount": 1958,
+      "sha256": "e0be62af8a41c309b178dd65931fb1930cb0c9ac17513928221760aa0e76f6b2"
     },
     {
       "path": "ownership-borrowing.md",
       "downloadPath": "skills/rust/ownership-borrowing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/ownership-borrowing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/ownership-borrowing.md",
+      "byteCount": 1752,
+      "sha256": "9379687e104b05858e0733b65abc3a5f0a7405edb4d22214944d69219e65aed5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rust/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/SKILL.md",
+      "byteCount": 3800,
+      "sha256": "a968f44e5597fcce1399e55b0daaddfd69edf888a94c641493589a3d86365a9f"
     },
     {
       "path": "types-strings.md",
       "downloadPath": "skills/rust/types-strings.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/types-strings.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/types-strings.md",
+      "byteCount": 1650,
+      "sha256": "dfc6fb131a815013010894c4137ac1c48c5c50fe770421f187e489e4c23bd90a"
     }
   ]
 }

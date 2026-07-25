@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f7d049d88dac112194e6d25f77a49f4fab33ee52ec90d69df6fec438a123ecbc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ui",
-    "name": "UI",
+    "name": "ui",
     "description": "Design clear, consistent, and visually polished user interfaces.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ui",
     "summary": "Visual Hierarchy - One focal point per screen—eye knows where to go first - Size, color, weight establish importance—primary action most prominent - Group related elements—proximity implies relationship - White space is ",
     "repositoryPath": "skills/ui",
     "manifestPath": "registry/skills/ui.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ui/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ui/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ui/_meta.json",
+      "byteCount": 156,
+      "sha256": "bd723da26a24e074ae5cd0d6cc1c0efad43d5759dde2f748d6f8f9d47fba0174"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ui/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ui/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ui/SKILL.md",
+      "byteCount": 3996,
+      "sha256": "a27d51bd84e2848c2759aea889933516880e73f352ad2bd7930e2bb1783703e2"
     }
   ]
 }

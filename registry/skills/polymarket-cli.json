@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e3fd3bc4d2df94573a2b6760c27d4802d43029ebedd989f8a17fe03d8d1be3f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "polymarket-cli",
-    "name": "Polymarket CLI",
+    "name": "polymarket-cli",
     "description": "Query prediction markets, place trades, and manage positions with the Polymarket CLI for AI agents.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/polymarket-cli",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/polymarket-cli/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/_meta.json",
+      "byteCount": 180,
+      "sha256": "afdab24f5914bd6800e7d1796659b3d2b6b328f0c8b7e9f87e28e912f90b374f"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/polymarket-cli/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/commands.md",
+      "byteCount": 6763,
+      "sha256": "1f2083984d459e98eb53664a87df74e77cf64871d1441a689deff349242e43be"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/polymarket-cli/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/memory-template.md",
+      "byteCount": 1475,
+      "sha256": "d23339193f509ff9229f9b39c1dca7c499e70a2f72d93628b97f943fbbdc0354"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/polymarket-cli/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/setup.md",
+      "byteCount": 2318,
+      "sha256": "31c7cf492a96870d0728f9b868d5d0e06e38c6a52bf5b08ced50166a2206d585"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/polymarket-cli/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polymarket-cli/SKILL.md",
+      "byteCount": 5318,
+      "sha256": "17259086f5a439cc71f81a21e4a43eb1cf31a2ce10c5ffd39be3747303cd1219"
     }
   ]
 }

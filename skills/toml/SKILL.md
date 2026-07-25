@@ -1,7 +1,17 @@
 ---
-name: TOML
+name: toml
+slug: toml
+version: 1.0.0
 description: Write valid TOML configuration files with correct types and structure.
-metadata: {"clawdbot":{"emoji":"⚙️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/toml
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: TOML
 ---
 
 ## Strings

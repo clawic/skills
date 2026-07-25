@@ -1,6 +1,13 @@
 ---
-name: Influencer
+name: influencer
+slug: influencer
+version: 1.0.0
 description: Create, manage, and scale AI-generated virtual influencers with consistent characters, multi-platform content, and monetization workflows.
+homepage: https://clawic.com/skills/influencer
+metadata:
+  clawdbot:
+    emoji: ⭐
+    displayName: Influencer
 ---
 
 ## Workspace Structure

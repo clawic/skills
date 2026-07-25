@@ -1,11 +1,25 @@
 ---
-name: MinIO S3 (Object Storage)
+name: minio
 slug: minio
 version: 1.0.0
-homepage: https://clawic.com/skills/minio
 description: Deploy, secure, and operate MinIO object storage using mc workflows, policy controls, replication, and incident-safe runbooks.
+homepage: https://clawic.com/skills/minio
 changelog: Initial release with MinIO deployment, policy, replication, and recovery playbooks for object storage operations.
-metadata: {"clawdbot":{"emoji":"🗂️","requires":{"bins":["mc","curl","openssl"]},"os":["linux","darwin","win32"],"configPaths":["~/minio/"]}}
+metadata:
+  clawdbot:
+    emoji: 🗂️
+    requires:
+      bins:
+      - mc
+      - curl
+      - openssl
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/minio/
+    displayName: MinIO S3 (Object Storage)
 ---
 
 ## Setup
@@ -20,10 +34,10 @@ Use this for single-node labs, distributed production clusters, S3-compatible mi
 
 ## Architecture
 
-Memory lives in `~/minio/`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/minio/`. See `memory-template.md` for structure and status values.
 
 ```text
-~/minio/
+~/Clawic/data/minio/
 |-- memory.md              # Activation preferences and approval model
 |-- environments.md        # Endpoint map, topology, and region notes
 |-- buckets.md             # Bucket inventory, versioning, lifecycle, lock mode
@@ -70,7 +84,7 @@ Use the smallest file needed for the current task.
 - Treat partial success as failure until data path and auth path both validate.
 
 ### 7. Record Durable Context for Next Sessions
-- Update `~/minio/` notes with environment constraints, safe defaults, and incident learnings.
+- Update `~/Clawic/data/minio/` notes with environment constraints, safe defaults, and incident learnings.
 - Keep only reusable operational context, never secrets or raw credentials.
 
 ## Common Traps
@@ -99,7 +113,7 @@ Data that leaves your machine:
 - Optional documentation fetches from official MinIO docs.
 
 Data that stays local:
-- Operational context stored in `~/minio/`.
+- Operational context stored in `~/Clawic/data/minio/`.
 - Command planning notes, incident logs, and approved runbooks.
 
 This skill does NOT:
@@ -114,7 +128,7 @@ This skill can send data to MinIO endpoints and optional documentation endpoints
 Only install if you trust the configured MinIO infrastructure and its credential handling model.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `s3` - S3-compatible object storage workflows across providers
 - `cloud-storage` - Storage architecture patterns for mixed cloud and local environments
 - `backups` - Backup verification and restore-first operating practices
@@ -123,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star minio`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/minio
+- Latest version: https://clawic.com/skills/minio

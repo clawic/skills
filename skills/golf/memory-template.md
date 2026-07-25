@@ -4,15 +4,15 @@
 
 Create on first use:
 ```bash
-mkdir -p ~/golf/archive
-touch ~/golf/memory.md
-touch ~/golf/rounds.md
-touch ~/golf/courses.md
+mkdir -p ~/Clawic/data/golf/archive
+touch ~/Clawic/data/golf/memory.md
+touch ~/Clawic/data/golf/rounds.md
+touch ~/Clawic/data/golf/courses.md
 ```
 
 ## memory.md Template
 
-Copy to `~/golf/memory.md`:
+Copy to `~/Clawic/data/golf/memory.md`:
 
 ```markdown
 # Golf Memory
@@ -58,7 +58,7 @@ Copy to `~/golf/memory.md`:
 
 ## rounds.md Template
 
-Copy to `~/golf/rounds.md`:
+Copy to `~/Clawic/data/golf/rounds.md`:
 
 ```markdown
 # Round Log
@@ -86,7 +86,7 @@ Copy to `~/golf/rounds.md`:
 
 ## courses.md Template
 
-Copy to `~/golf/courses.md`:
+Copy to `~/Clawic/data/golf/courses.md`:
 
 ```markdown
 # Courses
@@ -119,7 +119,7 @@ Copy to `~/golf/courses.md`:
 
 ## Archive Structure
 
-Move old season data to `~/golf/archive/`:
+Move old season data to `~/Clawic/data/golf/archive/`:
 ```
 archive/
 ├── rounds-2025.md

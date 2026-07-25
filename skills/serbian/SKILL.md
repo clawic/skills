@@ -1,6 +1,13 @@
 ---
-name: Serbian
+name: serbian
+slug: serbian
+version: 1.0.0
 description: Write Serbian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/serbian
+metadata:
+  clawdbot:
+    emoji: 🇷🇸
+    displayName: Serbian
 ---
 
 ## The Real Problem

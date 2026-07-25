@@ -1,18 +1,28 @@
 ---
-name: Subscriptions
+name: subscriptions
+slug: subscriptions
+version: 1.0.0
 description: Build a personal subscription tracker for managing recurring payments, renewals, and cutting waste.
-metadata: {"clawdbot":{"emoji":"🔄","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/subscriptions
+metadata:
+  clawdbot:
+    emoji: 🔄
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Subscriptions
 ---
 
 ## Core Behavior
 - User mentions subscription → add to tracker
 - User asks about spending → surface totals
 - Alert before renewals and price increases
-- Create `~/subscriptions/` as workspace
+- Create `~/Clawic/data/subscriptions/` as workspace
 
 ## File Structure
 ```
-~/subscriptions/
+~/Clawic/data/subscriptions/
 ├── active/
 │   ├── streaming.md
 │   ├── software.md

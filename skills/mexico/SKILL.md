@@ -1,16 +1,27 @@
 ---
-name: Mexico
+name: mexico
 slug: mexico
 version: 1.0.0
-homepage: https://clawic.com/skills/mexico
-changelog: "Initial release with city guides, coastal routes, and practical Mexico travel playbooks."
 description: Discover Mexico like a local with concrete city tips, regional route planning, food guidance, and practical travel logistics.
-metadata: {"clawdbot":{"emoji":"🇲🇽","requires":{"bins":[],"config":["~/mexico/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mexico
+changelog: Initial release with city guides, coastal routes, and practical Mexico travel playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇲🇽
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/mexico/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Mexico
 ---
 
 ## Setup
 
-If `~/mexico/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/mexico/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to Mexico or asking for local insights: what to eat, where 
 
 ## Architecture
 
-Memory lives in `~/mexico/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/mexico/`. See `memory-template.md` for structure.
 
 ```
-~/mexico/
+~/Clawic/data/mexico/
 └── memory.md     # Trip context
 ```
 
@@ -114,12 +125,12 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/mexico/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/mexico/`
 
-**This skill does NOT:** Access files outside `~/mexico/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/mexico/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structuring
 - `food` — Deeper restaurant and cuisine recommendations
 - `spanish` — Language support for bookings and local communication
@@ -127,5 +138,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star mexico`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mexico
+- Latest version: https://clawic.com/skills/mexico

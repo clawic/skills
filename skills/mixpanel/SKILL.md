@@ -1,11 +1,28 @@
 ---
-name: Mixpanel
+name: mixpanel
 slug: mixpanel
 version: 1.0.1
-homepage: https://clawic.com/skills/mixpanel
 description: Query Mixpanel analytics with funnels, retention, segmentation, and event tracking via REST API.
+homepage: https://clawic.com/skills/mixpanel
 changelog: Improved security docs and env var declarations.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["curl","jq"],"env":["MP_SERVICE_ACCOUNT","MP_SERVICE_SECRET","MP_PROJECT_ID"],"config":["~/mixpanel/"]},"primaryEnv":"MP_SERVICE_SECRET","os":["linux","darwin"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - MP_SERVICE_ACCOUNT
+      - MP_SERVICE_SECRET
+      - MP_PROJECT_ID
+      config:
+      - ~/Clawic/data/mixpanel/
+    primaryEnv: MP_SERVICE_SECRET
+    os:
+    - linux
+    - darwin
+    displayName: Mixpanel
 ---
 
 ## Setup
@@ -18,10 +35,10 @@ User needs product analytics from Mixpanel. Agent handles event queries, funnel 
 
 ## Architecture
 
-Memory lives in `~/mixpanel/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/mixpanel/`. See `memory-template.md` for structure.
 
 ```
-~/mixpanel/
+~/Clawic/data/mixpanel/
 ├── memory.md        # Projects, saved queries, insights
 └── queries/         # Saved JQL queries
 ```
@@ -175,7 +192,7 @@ No other data is sent externally.
 
 **Data that stays local:**
 - Credentials stored ONLY in environment variables
-- Query results cached in ~/mixpanel/
+- Query results cached in ~/Clawic/data/mixpanel/
 
 **This skill does NOT:**
 - Store credentials in memory.md or any file
@@ -188,12 +205,12 @@ By using this skill, analytics data is queried from Mixpanel.
 Only install if you trust Mixpanel with your product data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` — multi-platform analytics
 - `data-analysis` — data processing patterns
 - `api` — REST API best practices
 
 ## Feedback
 
-- If useful: `clawhub star mixpanel`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mixpanel
+- Latest version: https://clawic.com/skills/mixpanel

@@ -3,7 +3,7 @@
 ## The New Discovery Landscape
 
 Agents discover services through:
-1. **Skill registries** (ClawHub, plugin stores)
+1. **Skill registries** (Clawic, plugin stores)
 2. **API directories** (RapidAPI, Postman)
 3. **MCP server listings**
 4. **Schema.org crawlers**

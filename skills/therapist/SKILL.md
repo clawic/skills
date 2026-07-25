@@ -1,9 +1,20 @@
 ---
-name: Therapist
+name: therapist
+slug: therapist
+version: 1.0.0
 description: Evidence-based therapeutic techniques — CBT, ACT, mindfulness, and reframing for anxiety, rumination, and behavioral patterns.
+homepage: https://clawic.com/skills/therapist
 metadata:
   category: role
-  skills: ["therapy", "cbt", "act", "mindfulness", "mental-health"]
+  skills:
+  - therapy
+  - cbt
+  - act
+  - mindfulness
+  - mental-health
+  clawdbot:
+    emoji: 🛋️
+    displayName: Therapist
 ---
 
 ## Cognitive Restructuring (CBT)

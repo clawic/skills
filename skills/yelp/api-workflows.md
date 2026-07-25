@@ -62,7 +62,7 @@ If delivery search is unsupported in the target market, stop and say so clearly.
 ## Logging safety rule
 
 - Never log raw headers or full bearer tokens.
-- In `~/yelp/api/request-log.md`, keep only path, safe params, status, and timestamp.
+- In `~/Clawic/data/yelp/api/request-log.md`, keep only path, safe params, status, and timestamp.
 - Safe example:
 
 ```text

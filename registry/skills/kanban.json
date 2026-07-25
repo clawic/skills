@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bcbdaceec367fc6f297ddbdf2940ebd87bd852e7a68f4857a8586f0b9fc0cf1d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "kanban",
-    "name": "Kanban",
+    "name": "kanban",
     "description": "Build multi-project Kanban systems with deterministic board discovery, consistent task processing, and persistent routing memory across sessions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/kanban",
-    "summary": "Setup If `~/kanban/` does not exist or is empty, read `setup.md` silently and initialize only after user confirmation. When to Use Use this skill when the user wants a Kanban system the agent can maintain across projects",
+    "summary": "Setup If `~/Clawic/data/kanban/` does not exist or is empty, read `setup.md` silently and initialize only after user confirmation. When to Use Use this skill when the user wants a Kanban system the agent can maintain acr",
     "repositoryPath": "skills/kanban",
     "manifestPath": "registry/skills/kanban.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/kanban/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/_meta.json",
+      "byteCount": 164,
+      "sha256": "6792c4727b5991970a6b221a47c6506f799b41a1a5f510283e0fe56873d46217"
     },
     {
       "path": "board-template.md",
       "downloadPath": "skills/kanban/board-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/board-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/board-template.md",
+      "byteCount": 1638,
+      "sha256": "255e9862e961f9928a5a79f9b72b2078ce37e45a3ecef1bdb7037b335cd564cc"
     },
     {
       "path": "discovery-protocol.md",
       "downloadPath": "skills/kanban/discovery-protocol.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/discovery-protocol.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/discovery-protocol.md",
+      "byteCount": 1375,
+      "sha256": "7d9cfd8e525be6c9fdc76de054a8199535b4e01187f3237fb53c37f4d9752b75"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/kanban/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/memory-template.md",
+      "byteCount": 2077,
+      "sha256": "e15328ccf9868fb8c5884034bc1904f05f0e712ff6098c12f043c9a4c78f75f9"
     },
     {
       "path": "processing-rules.md",
       "downloadPath": "skills/kanban/processing-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/processing-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/processing-rules.md",
+      "byteCount": 1417,
+      "sha256": "648685b7193e3bb876e00024a8502392fe7aa1d4f1f0d8323d08a0cd8c8bab0e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/kanban/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/setup.md",
+      "byteCount": 1862,
+      "sha256": "93d665de5c13554e2098bcb4f62b7605fd3ac0307526469cd54750e3a06efec7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/kanban/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kanban/SKILL.md",
+      "byteCount": 4983,
+      "sha256": "4cc5de3aaa09f2b20e67de4acb09aaf300e20df7f4150b84b8964e6c3fdf5613"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c3fb1987809718d96d9bccdb2e936c416ab8bf99728ecf70a5d5b77b6d95ede8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vienna",
-    "name": "Vienna",
+    "name": "vienna",
     "description": "Navigate Vienna as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vienna",
     "summary": "When to Use User asks about Vienna for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | **",
     "repositoryPath": "skills/vienna",
     "manifestPath": "registry/skills/vienna.json"
@@ -21,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vienna/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/_meta.json",
+      "byteCount": 164,
+      "sha256": "6093088eb76def43d84e16da9581ea8ad4b4e977ca28e76238d683e3de2e88d3"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/vienna/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/climate.md",
+      "byteCount": 5790,
+      "sha256": "dbbd1bc18181dbefb446e544efe6bb129243454d522f47eb0bb1e36238d40bc4"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/vienna/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/cost.md",
+      "byteCount": 5819,
+      "sha256": "d28f21bd841a547cea296b93d55f65208936d503d5122e289ac73342ada9f855"
     },
     {
       "path": "food-coffee.md",
       "downloadPath": "skills/vienna/food-coffee.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-coffee.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-coffee.md",
+      "byteCount": 6898,
+      "sha256": "4f253c536a296473f9e490aac40dcac7b8ad25e07b50bb9b353a1d15185189d0"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/vienna/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-markets.md",
+      "byteCount": 6510,
+      "sha256": "740e047d7e99d70a101c7abe2a3c9f531ad8fbd0a28b5e239d72bd09fd708184"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/vienna/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-overview.md",
+      "byteCount": 5783,
+      "sha256": "d518e65df98c74175b5ddbb865bf76d93e54c19179c0ff848dc7016ad92c1d2a"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/vienna/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-practical.md",
+      "byteCount": 5780,
+      "sha256": "dc440648a00d6663abb2a1564f612d2d947f47c52769835d4614f1e538e1ed1a"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/vienna/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/food-traditional.md",
+      "byteCount": 6462,
+      "sha256": "22eb30ff5dace5e25d8c95e8e88ee112f3549a665abaae3fdb5d6b97339f9deb"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/vienna/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/local.md",
+      "byteCount": 6258,
+      "sha256": "2f16b0e7a86a97cd3b9e63f4263e2a7d02ac94129a9072799770954a8efdab74"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/vienna/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-central.md",
+      "byteCount": 4856,
+      "sha256": "b4681ac8fee40fe447205925fb805aa3f75f4422eac7f0dc6dc574307eba949a"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/vienna/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-choosing.md",
+      "byteCount": 5648,
+      "sha256": "b856a2f784cb25f0557cadb095245761b8e0b4587de8fc366102c4334fa53997"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/vienna/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-index.md",
+      "byteCount": 4530,
+      "sha256": "e96deddc2220bd43524747d8edbfb8ff7350e413439af368cde8fd152112fcf4"
     },
     {
       "path": "neighborhoods-inner.md",
       "downloadPath": "skills/vienna/neighborhoods-inner.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-inner.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-inner.md",
+      "byteCount": 7394,
+      "sha256": "8bc842549b86959dd834162213c2569be34770b4ae0d9dc5e0370338544756dc"
     },
     {
       "path": "neighborhoods-outer.md",
       "downloadPath": "skills/vienna/neighborhoods-outer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-outer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-outer.md",
+      "byteCount": 6387,
+      "sha256": "473d4e950986239fe28720cc92f7e04487d60e966f23d7badc868a50b542c6e5"
     },
     {
       "path": "neighborhoods-south.md",
       "downloadPath": "skills/vienna/neighborhoods-south.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-south.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-south.md",
+      "byteCount": 5338,
+      "sha256": "35456d4d02ac51319272137963a84c35b568e3b64003dd58357dec3af62b6d8f"
     },
     {
       "path": "neighborhoods-west.md",
       "downloadPath": "skills/vienna/neighborhoods-west.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-west.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/neighborhoods-west.md",
+      "byteCount": 6268,
+      "sha256": "03ef04a781eee5f9a036ccf291aebb0a6a441e4b713c5249cb5327c0347555f6"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/vienna/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/resident.md",
+      "byteCount": 6962,
+      "sha256": "302b27714953317dba09b39471f43efe8d75ca3b84bd1ebbcb5413e53b46792e"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/vienna/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/safety.md",
+      "byteCount": 6268,
+      "sha256": "fd849f5cc1076c9d6d1710dd395f556c4810bff1650eb3cc896a8205d69e7de3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vienna/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/SKILL.md",
+      "byteCount": 4010,
+      "sha256": "1e6f9f4c7b65c19e169b39973bfa8cd9144b53cd50253275bf1cb61f0b511a1e"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/vienna/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/startup.md",
+      "byteCount": 8391,
+      "sha256": "edf79f8fd3c8a94121d28a171b7ab35ad236b1b2506bc6d48196ef6973e22b29"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/vienna/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/student.md",
+      "byteCount": 7489,
+      "sha256": "28090a0e1f7d6a1411c2324ec3293ee93765824fdd1b65c601dc67745915f553"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/vienna/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/tech.md",
+      "byteCount": 7072,
+      "sha256": "9ae2af13e1ce1772c3c7d3ef1982ebe289d78de801ee1f6d66b0e4aa9c0c30f1"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/vienna/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/transport.md",
+      "byteCount": 6065,
+      "sha256": "59907f4729fa79479c2397ff45b8e6da895b2bc993d08755b27fa772ba464b42"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/vienna/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-attractions.md",
+      "byteCount": 5082,
+      "sha256": "c31d3cc69e88198bf68b1e93566dd733a79b7e7d29c3a2f1e3098c0ea3354cd5"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/vienna/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-itineraries.md",
+      "byteCount": 6692,
+      "sha256": "ea84ab8454227f842efbc693842b2f6ee5f4abef444defc98be0f1867cf4349b"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/vienna/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-lodging.md",
+      "byteCount": 6286,
+      "sha256": "6ac02fec2e9d78c3d94f0864a9212417ed7d9c0b268c38259aabe18a708eac8e"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/vienna/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vienna/visitor-tips.md",
+      "byteCount": 7190,
+      "sha256": "846907479a10d55e315f651cf25aca166f2fafa8022fc7e61492ce728fc55d5e"
     }
   ]
 }

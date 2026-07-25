@@ -1,6 +1,13 @@
 ---
-name: Hungarian
+name: hungarian
+slug: hungarian
+version: 1.0.0
 description: Write Hungarian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/hungarian
+metadata:
+  clawdbot:
+    emoji: 🇭🇺
+    displayName: Hungarian
 ---
 
 ## The Real Problem

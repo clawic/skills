@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bde21bfbf7466e46fe8ca2b06e0db45b4e0dd2c07c49bb784ac0c3f82d110d9b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "game-development",
-    "name": "Game Development",
+    "name": "game-development",
     "description": "Design and ship browser-playable games from no-build Three.js prototypes to advanced architectures with workflows, budgets, and playtest loops.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/game-development",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/game-development/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/_meta.json",
+      "byteCount": 184,
+      "sha256": "4d07c9bd3e58682c948f44c493380bcb8d3177303bb735ee01667cf8274d732c"
     },
     {
       "path": "browser-threejs-fast-path.md",
       "downloadPath": "skills/game-development/browser-threejs-fast-path.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/browser-threejs-fast-path.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/browser-threejs-fast-path.md",
+      "byteCount": 1453,
+      "sha256": "a4df8ebc150bd5122a47e27a5d6c06b01a9ba17fdda7b3a488e532add68209c2"
     },
     {
       "path": "content-pipeline.md",
       "downloadPath": "skills/game-development/content-pipeline.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/content-pipeline.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/content-pipeline.md",
+      "byteCount": 1130,
+      "sha256": "3baf868118c8374b247b6eb38efff6037afd7a3bfc5860d6befbe0dce3bacbd6"
     },
     {
       "path": "game-types-and-loops.md",
       "downloadPath": "skills/game-development/game-types-and-loops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/game-types-and-loops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/game-types-and-loops.md",
+      "byteCount": 1557,
+      "sha256": "407c775fb0735464aaba732b7e623cb18862731d6abd595a3d4cc451bb7ce260"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/game-development/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/memory-template.md",
+      "byteCount": 2465,
+      "sha256": "49344e54987532ed4d8191a9024a047e57f049fa4c1347a4b7cb7d695a30df1f"
     },
     {
       "path": "multiplayer-and-live-ops.md",
       "downloadPath": "skills/game-development/multiplayer-and-live-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/multiplayer-and-live-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/multiplayer-and-live-ops.md",
+      "byteCount": 1212,
+      "sha256": "c96e1cfb20b6a642dc9f8d0189e93c2df96fd1f3ea960c8d24d4de1849dbdf39"
     },
     {
       "path": "project-structure-blueprints.md",
       "downloadPath": "skills/game-development/project-structure-blueprints.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/project-structure-blueprints.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/project-structure-blueprints.md",
+      "byteCount": 1672,
+      "sha256": "bb5a7e58b9ccaee545d6049e7b95ee56d3c59a46b8e7b7f03c4d65193dc9d3e8"
     },
     {
       "path": "qa-balance-launch.md",
       "downloadPath": "skills/game-development/qa-balance-launch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/qa-balance-launch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/qa-balance-launch.md",
+      "byteCount": 1165,
+      "sha256": "3898bd46d885aa77b36ba6db2e4678d07c7ba2b745cddde5bad8721191c0c4d4"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/game-development/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/setup.md",
+      "byteCount": 2100,
+      "sha256": "cd7b4847913488979888dbad423cf3c6ca1af991031899f5ad52e6d8445fec55"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/game-development/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/SKILL.md",
+      "byteCount": 6812,
+      "sha256": "715307c1c15bc63a6a7244ae5b8f21a3c7d7c8654b3d64a827bb7564f1529329"
     },
     {
       "path": "systems-and-state.md",
       "downloadPath": "skills/game-development/systems-and-state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/systems-and-state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/game-development/systems-and-state.md",
+      "byteCount": 1331,
+      "sha256": "6156c681d77406e39822802182a74ee27ced55a5bbca2168cdff97ed26a0921c"
     }
   ]
 }

@@ -1,10 +1,20 @@
 ---
-name: Infrastructure
+name: infrastructure
 slug: infrastructure
 version: 1.0.1
 description: Design, provision, and connect cloud resources across servers, networks, and services.
+homepage: https://clawic.com/skills/infrastructure
 changelog: User-driven credential model, explicit tool requirements
-metadata: {"clawdbot":{"emoji":"🏗️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🏗️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Infrastructure
 ---
 
 ## Scope

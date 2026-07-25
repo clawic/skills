@@ -1,7 +1,17 @@
 ---
-name: Chef
+name: chef
+slug: chef
+version: 1.0.0
 description: Help users cook with recipes, technique explanations, and ingredient substitutions.
-metadata: {"clawdbot":{"emoji":"👨‍🍳","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/chef
+metadata:
+  clawdbot:
+    emoji: 👨‍🍳
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Chef
 ---
 
 # Culinary Assistance Rules

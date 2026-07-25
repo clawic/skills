@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0e6dfa34345d5268ac5ae754821200b6a936824072158c99c632e80a9d99211b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "documentation",
-    "name": "Documentation",
+    "name": "documentation",
     "description": "Technical documentation patterns, structure, maintenance, and avoiding common documentation failures.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/documentation",
     "summary": "Structure Hierarchy - README: what it is, how to install, quick example — 5 minutes to first success - Getting Started: guided tutorial for beginners — one complete workflow - Guides: task-oriented (\"How to X\") — goal-fo",
     "repositoryPath": "skills/documentation",
     "manifestPath": "registry/skills/documentation.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/documentation/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/documentation/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/documentation/_meta.json",
+      "byteCount": 178,
+      "sha256": "48edfda89085e2b827f1fbadfbf2095a3ea7a40072bfb8f3afa5e42ff7ee0e71"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/documentation/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/documentation/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/documentation/SKILL.md",
+      "byteCount": 4120,
+      "sha256": "3dc8cf6391df2aff58d6bf1557a0825409267d9e3324e362e015d889d8c16343"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Setup - Banking
 
-Read this when `~/banking/` is missing or empty.
+Read this when `~/Clawic/data/banking/` is missing or empty.
 
 ## Your Attitude
 
@@ -36,7 +36,7 @@ Capture response style preferences that improve reliability.
 
 ## What to Capture Internally
 
-Keep concise notes in `~/banking/memory.md` and refresh after meaningful changes.
+Keep concise notes in `~/Clawic/data/banking/memory.md` and refresh after meaningful changes.
 
 - Activation boundaries and do-not-activate contexts.
 - Jurisdiction, account scope, and policy constraints.

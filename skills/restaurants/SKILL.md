@@ -1,18 +1,28 @@
 ---
-name: Restaurants
+name: restaurants
+slug: restaurants
+version: 1.0.0
 description: Build a personal restaurant system for tracking places to try, favorites, and dining memories.
-metadata: {"clawdbot":{"emoji":"🍽️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/restaurants
+metadata:
+  clawdbot:
+    emoji: 🍽️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Restaurants
 ---
 
 ## Core Behavior
 - User mentions restaurant → offer to save with notes
 - User asks for recommendation → check their saved places first
 - User returns from meal → help document experience
-- Create `~/restaurants/` as workspace
+- Create `~/Clawic/data/restaurants/` as workspace
 
 ## File Structure
 ```
-~/restaurants/
+~/Clawic/data/restaurants/
 ├── to-try/
 ├── favorites/
 ├── visited/

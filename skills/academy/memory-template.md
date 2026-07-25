@@ -1,6 +1,6 @@
 # Memory Template — Academy
 
-Create `~/academy/memory.md` with this structure:
+Create `~/Clawic/data/academy/memory.md` with this structure:
 
 ```markdown
 # Academy Memory

@@ -5,8 +5,8 @@
 Create the directory structure on first robotics interaction:
 
 ```bash
-mkdir -p ~/robot/projects ~/robot/archive
-touch ~/robot/memory.md ~/robot/inventory.md ~/robot/corrections.md
+mkdir -p ~/Clawic/data/robot/projects ~/Clawic/data/robot/archive
+touch ~/Clawic/data/robot/memory.md ~/Clawic/data/robot/inventory.md ~/Clawic/data/robot/corrections.md
 ```
 
 ## File Templates

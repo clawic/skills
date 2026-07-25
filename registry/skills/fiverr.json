@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "784714b1bac3479990923fe479787553e461c362e9f3d2324104d2c236a0a768",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "fiverr",
-    "name": "Fiverr",
+    "name": "fiverr",
     "description": "Build and scale a Fiverr freelancing business with gig optimization, buyer communication, and seller level progression.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/fiverr",
     "summary": "Context Fiverr explicitly permits AI tools in all service categories. Disclosure required only when clients ask. Focus on adding human value to AI-assisted work. Gig Optimization - **Title**: Include primary keyword + di",
     "repositoryPath": "skills/fiverr",
     "manifestPath": "registry/skills/fiverr.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fiverr/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/_meta.json",
+      "byteCount": 164,
+      "sha256": "51ab7f34d9fe6a5f3323b8c8ebe82d6c82d239cbd9d91f0788835300f5cf3715"
     },
     {
       "path": "getting-started.md",
       "downloadPath": "skills/fiverr/getting-started.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/getting-started.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/getting-started.md",
+      "byteCount": 3128,
+      "sha256": "cef48027fcaa1f1faa36459210e63df3128982679fa1664db81bafcc1cbda018"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/fiverr/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/legal.md",
+      "byteCount": 3678,
+      "sha256": "9ed513792f5b33a399be2f6aa0365958e5d8216b553f0f00d8a7b2e3ce93f333"
     },
     {
       "path": "red-flags.md",
       "downloadPath": "skills/fiverr/red-flags.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/red-flags.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/red-flags.md",
+      "byteCount": 2806,
+      "sha256": "5a40a0221e1efeafd65fd957d8318bdbb1850a383b5c75e9e6dcc9dc23ae0146"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/fiverr/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/scaling.md",
+      "byteCount": 3486,
+      "sha256": "e39ba041b523f0cbae0b029917503b6ce587b88429c6d293bd37516280f36dab"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fiverr/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fiverr/SKILL.md",
+      "byteCount": 2732,
+      "sha256": "213819264bf34055531e5c7824f95662cbc638305f6c33bb6289f88afaaae221"
     }
   ]
 }

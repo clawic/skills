@@ -1,11 +1,23 @@
 ---
-name: Yahoo
+name: yahoo
 slug: yahoo
 version: 1.0.0
-homepage: https://clawic.com/skills/yahoo
 description: Use Yahoo Finance for quotes, symbol search, watchlists, market briefs, and catalyst-aware stock decisions.
+homepage: https://clawic.com/skills/yahoo
 changelog: Initial release with Yahoo Finance quote scripts, watchlist briefings, and risk-first decision workflows.
-metadata: {"clawdbot":{"emoji":"📉","requires":{"bins":["python3"]},"os":["linux","darwin","win32"],"configPaths":["~/yahoo/"]}}
+metadata:
+  clawdbot:
+    emoji: 📉
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/yahoo/
+    displayName: Yahoo
 ---
 
 ## When to Use
@@ -15,10 +27,10 @@ Agent handles symbol search, single-name snapshots, multi-ticker briefings, and 
 
 ## Architecture
 
-Memory lives in `~/yahoo/`. If `~/yahoo/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/yahoo/`. If `~/Clawic/data/yahoo/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/yahoo/
+~/Clawic/data/yahoo/
 ├── memory.md        # Activation preferences, market scope, and answer style
 ├── watchlist.md     # Ranked tickers, benchmarks, and catalyst notes
 ├── briefing-log.md  # Saved pre-market, post-market, or event-driven briefs
@@ -100,7 +112,7 @@ Use the scripts for grounded snapshots, then layer judgment with `market-playboo
 
 ### 6. Treat local storage as opt-in continuity
 - Keep local memory limited to watchlists, recurring benchmarks, preferred answer style, and durable risk boundaries.
-- Do not create `~/yahoo/` silently for sensitive market context.
+- Do not create `~/Clawic/data/yahoo/` silently for sensitive market context.
 - Save only what clearly improves the next Yahoo workflow.
 
 ### 7. Verify timestamp and market state every time
@@ -132,7 +144,7 @@ No other data is sent externally.
 - Ticker symbols or text search queries sent to Yahoo Finance pages and search endpoints
 
 **Data that stays local when the user opts in:**
-- Watchlists, preferred benchmarks, briefing notes, and decision boundaries in `~/yahoo/`
+- Watchlists, preferred benchmarks, briefing notes, and decision boundaries in `~/Clawic/data/yahoo/`
 
 **This skill does NOT:**
 - Place broker orders or connect to brokerage accounts
@@ -147,12 +159,12 @@ Only install if you trust Yahoo with that market lookup data.
 
 ## Data Storage
 
-All local state lives in `~/yahoo/` when the user wants continuity.
+All local state lives in `~/Clawic/data/yahoo/` when the user wants continuity.
 Keep storage compact: watchlists, repeated benchmark sets, answer-style preferences, and thesis reviews.
 Avoid full holdings exports unless the user explicitly asks for local note-taking.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analysis` — turn raw market inputs into explicit conclusions and tradeoffs
 - `economics` — add macro context when rates, inflation, or policy events matter
 - `news` — expand beyond Yahoo headlines when the story needs cross-source verification
@@ -161,5 +173,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star yahoo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/yahoo
+- Latest version: https://clawic.com/skills/yahoo

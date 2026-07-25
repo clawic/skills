@@ -1,11 +1,22 @@
 ---
-name: Mercado Libre
+name: mercado-libre
 slug: mercado-libre
 version: 1.0.0
-homepage: https://clawic.com/skills/mercado-libre
 description: Use Mercado Libre to search, compare, buy, sell, and automate decisions with pricing, safety, and dispute workflows.
+homepage: https://clawic.com/skills/mercado-libre
 changelog: Initial release with end-to-end Mercado Libre support for product discovery, comparison, purchasing, selling, and automation.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[],"config":["~/mercado-libre/"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/mercado-libre/
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Mercado Libre
 ---
 
 ## Setup
@@ -25,10 +36,10 @@ Use this skill when output must feel like a marketplace operator, not a generic 
 
 ## Architecture
 
-Memory lives in `~/mercado-libre/`. See `memory-template.md` for baseline structure.
+Memory lives in `~/Clawic/data/mercado-libre/`. See `memory-template.md` for baseline structure.
 
 ```text
-~/mercado-libre/
+~/Clawic/data/mercado-libre/
 |-- memory.md                # Core user context, constraints, and style
 |-- watchlist.md             # Tracked products and target price thresholds
 |-- comparisons.md           # Side-by-side product comparison decisions
@@ -75,7 +86,7 @@ This table maps common user intents to concrete actions so the skill responds im
 
 ## Data Storage
 
-Local notes in `~/mercado-libre/` may include:
+Local notes in `~/Clawic/data/mercado-libre/` may include:
 - budget limits, preference patterns, and decision style
 - watchlists, comparison outcomes, and buy-now vs wait decisions
 - seller constraints, listing experiments, and post-sale incidents
@@ -141,7 +152,7 @@ Data that leaves your machine:
 - only user-approved Mercado Libre traffic when user requests live operations or API execution
 
 Data that stays local:
-- context and decision memory under `~/mercado-libre/`
+- context and decision memory under `~/Clawic/data/mercado-libre/`
 - watchlist, comparisons, automation notes, and dispute logs
 
 This skill does NOT:
@@ -162,7 +173,7 @@ This skill NEVER:
 - recommends tactics that break policy controls
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ecommerce` - Build full-funnel commerce systems beyond one marketplace.
 - `pricing` - Run margin-safe pricing and promotion frameworks.
 - `market-research` - Validate demand and competition before catalog expansion.
@@ -171,5 +182,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star mercado-libre`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/mercado-libre
+- Latest version: https://clawic.com/skills/mercado-libre

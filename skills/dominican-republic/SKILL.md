@@ -1,11 +1,22 @@
 ---
-name: Dominican Republic
+name: dominican-republic
 slug: dominican-republic
 version: 1.0.0
-homepage: https://clawic.com/skills/dominican-republic
-changelog: "Initial release with verified entry guidance, resort-vs-independent routing, and practical beach, transport, and safety playbooks."
 description: Plan Dominican Republic trips with beach-region routing, verified entry steps, off-resort logistics, and practical local safety.
-metadata: {"clawdbot":{"emoji":"🇩🇴","requires":{"bins":[],"config":["~/dominican-republic/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dominican-republic
+changelog: Initial release with verified entry guidance, resort-vs-independent routing, and practical beach, transport, and safety playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇩🇴
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/dominican-republic/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dominican Republic
 ---
 
 ## When to Use
@@ -14,16 +25,16 @@ User is planning a Dominican Republic trip and needs execution help beyond gener
 
 ## Architecture
 
-Memory lives in `~/dominican-republic/`. If `~/dominican-republic/` does not exist or is empty, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/dominican-republic/`. If `~/Clawic/data/dominican-republic/` does not exist or is empty, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/dominican-republic/
+~/Clawic/data/dominican-republic/
 └── memory.md     # Trip context, route logic, and evolving constraints
 ```
 
 ## Data Storage
 
-- `~/dominican-republic/memory.md` stores durable trip context, route decisions, and constraints for future Dominican Republic planning.
+- `~/Clawic/data/dominican-republic/memory.md` stores durable trip context, route decisions, and constraints for future Dominican Republic planning.
 - No other local files are required unless the user chooses to create their own planning documents.
 
 ## Quick Reference
@@ -126,12 +137,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/dominican-republic/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/dominican-republic/`
 
-**This skill does NOT:** Access files outside `~/dominican-republic/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/dominican-republic/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `car-rental` — Better self-drive strategy and handoff logistics
@@ -140,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star dominican-republic`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/dominican-republic
+- Latest version: https://clawic.com/skills/dominican-republic

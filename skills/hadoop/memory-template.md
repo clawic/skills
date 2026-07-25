@@ -1,6 +1,6 @@
 # Memory Template — Hadoop
 
-Create `~/hadoop/memory.md` with this structure:
+Create `~/Clawic/data/hadoop/memory.md` with this structure:
 
 ```markdown
 # Hadoop Memory
@@ -44,7 +44,7 @@ integration: pending | done | declined
 
 ## Cluster File Template
 
-Create `~/hadoop/clusters/{name}.md` for each cluster:
+Create `~/Clawic/data/hadoop/clusters/{name}.md` for each cluster:
 
 ```markdown
 # Cluster: {Name}

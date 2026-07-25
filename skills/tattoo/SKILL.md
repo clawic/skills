@@ -1,7 +1,13 @@
 ---
-name: Tattoo
+name: tattoo
 slug: tattoo
+version: 1.0.0
 description: Plan, research, and prepare for tattoos with artist discovery, design exploration, cultural research, and aftercare guidance.
+homepage: https://clawic.com/skills/tattoo
+metadata:
+  clawdbot:
+    emoji: 💉
+    displayName: Tattoo
 ---
 
 ## Before Any Tattoo Decision

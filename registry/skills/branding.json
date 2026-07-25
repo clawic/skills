@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cb0610719b8f526c5f099b1d643c613ef1daf7a92e8de31cab738a80e298840b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "branding",
-    "name": "Branding",
+    "name": "branding",
     "description": "Build distinctive brand identity with clear positioning, voice, and visual consistency.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/branding",
     "summary": "Discovery Questions (Ask First) - What does the product/service actually do? In one sentence. - Who is the specific customer? Job title, situation, pain. - What alternatives exist? Direct competitors, indirect solutions,",
     "repositoryPath": "skills/branding",
     "manifestPath": "registry/skills/branding.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/branding/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/branding/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/branding/_meta.json",
+      "byteCount": 168,
+      "sha256": "62c7237713dd489002ac80fd07fce2735f9b1bfe36c7e4f1af2eef261b3c5e0d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/branding/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/branding/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/branding/SKILL.md",
+      "byteCount": 3811,
+      "sha256": "86079aec49d9a072792f335dc950b7a2e5a1b65432bfbf7203bad8b16d397df8"
     }
   ]
 }

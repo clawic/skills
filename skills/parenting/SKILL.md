@@ -1,9 +1,20 @@
 ---
-name: Parenting
+name: parenting
+slug: parenting
+version: 1.0.0
 description: Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.
+homepage: https://clawic.com/skills/parenting
 metadata:
   category: lifestyle
-  skills: ["parenting", "children", "family", "kids", "childcare"]
+  skills:
+  - parenting
+  - children
+  - family
+  - kids
+  - childcare
+  clawdbot:
+    emoji: 👶
+    displayName: Parenting
 ---
 
 ## Before Giving Advice

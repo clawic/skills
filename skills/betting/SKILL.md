@@ -1,11 +1,22 @@
 ---
-name: Betting
+name: betting
 slug: betting
 version: 1.0.0
-homepage: https://clawic.com/skills/betting
 description: Evaluate betting opportunities with line shopping, bankroll discipline, market checks, and risk filters before any stake is placed.
+homepage: https://clawic.com/skills/betting
 changelog: Introduces the Clean Ticket Protocol, bankroll sizing rules, and fast rejection checks for weak bets.
-metadata: {"clawdbot":{"emoji":"$","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/betting/"]}}
+metadata:
+  clawdbot:
+    emoji: $
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/betting/
+    displayName: Betting
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Betting questions involving sports, props, parlays, exchanges, or prediction-sty
 
 ## Architecture
 
-Memory lives in `~/betting/`. If `~/betting/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/betting/`. If `~/Clawic/data/betting/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/betting/
+~/Clawic/data/betting/
 ├── memory.md        # Preferences, books, and activation rules
 ├── tickets.md       # Active or reviewed bets and follow-ups
 ├── market-notes.md  # Sports, books, and recurring edge notes
@@ -26,10 +37,10 @@ Memory lives in `~/betting/`. If `~/betting/` does not exist, run `setup.md`. Se
 
 ## Data Storage
 
-- `~/betting/memory.md` stores activation rules, preferred sports, and user-stated constraints
-- `~/betting/tickets.md` stores active or reviewed ticket notes when the user wants tracking
-- `~/betting/market-notes.md` stores recurring market observations that improve future analysis
-- `~/betting/archive/` stores older notes that no longer need to stay hot
+- `~/Clawic/data/betting/memory.md` stores activation rules, preferred sports, and user-stated constraints
+- `~/Clawic/data/betting/tickets.md` stores active or reviewed ticket notes when the user wants tracking
+- `~/Clawic/data/betting/market-notes.md` stores recurring market observations that improve future analysis
+- `~/Clawic/data/betting/archive/` stores older notes that no longer need to stay hot
 
 ## Quick Reference
 
@@ -125,7 +136,7 @@ Use the full workflow in `workflow.md`. Every ticket should pass this order:
 
 This skill ONLY:
 - Analyzes bets, prices, and sizing discipline
-- Stores user-stated preferences and notes in `~/betting/`
+- Stores user-stated preferences and notes in `~/Clawic/data/betting/`
 - Uses `workflow.md`, `market-checks.md`, `sizing.md`, `ticket-template.md`, and `red-flags.md` for repeatable analysis
 - Identifies when the right answer is no bet, smaller size, or wait
 
@@ -143,7 +154,7 @@ This skill NEVER:
 - If the user explicitly asks for live public information, only the markets, teams, players, or books needed for that request
 
 **Data that stays local:**
-- Preferences, tickets, and notes in `~/betting/`
+- Preferences, tickets, and notes in `~/Clawic/data/betting/`
 
 **This skill does NOT:**
 - Store login details
@@ -151,7 +162,7 @@ This skill NEVER:
 - Make undeclared network requests
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `decide` - structure tradeoffs and pass-or-proceed decisions without hype
 - `legal` - tighten wording when the user asks about compliance, terms, or risk boundaries
 - `pricing` - reason about price quality when the user needs cleaner expected value language
@@ -159,5 +170,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star betting`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/betting
+- Latest version: https://clawic.com/skills/betting

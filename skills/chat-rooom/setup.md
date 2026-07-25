@@ -1,6 +1,6 @@
 # Setup - Chat Rooom
 
-Read this when `~/chat-rooom/` is missing or empty, or when the current workspace has no `.chat-rooom/` folder yet. Start naturally and keep the first exchange focused on usefulness, not ceremony.
+Read this when `~/Clawic/data/chat-rooom/` is missing or empty, or when the current workspace has no `.chat-rooom/` folder yet. Start naturally and keep the first exchange focused on usefulness, not ceremony.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first exchanges, learn when this should activate in future sessions:
 - Only on request, or proactively when work splits into parallel tracks
 - Situations where room logging should stay off
 
-Save only approved defaults in `~/chat-rooom/memory.md`.
+Save only approved defaults in `~/Clawic/data/chat-rooom/memory.md`.
 
 ### 2. Then: Pick the Room Model
 
@@ -38,7 +38,7 @@ Save durable coordination defaults, not chat noise:
 - Common participants and role labels
 - Repeated coordination failures worth preventing
 
-All persistence stays local under `~/chat-rooom/`.
+All persistence stays local under `~/Clawic/data/chat-rooom/`.
 
 ## Golden Rule
 

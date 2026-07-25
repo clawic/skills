@@ -1,11 +1,23 @@
 ---
-name: WhatsApp Business API
+name: whatsapp-business-api
 slug: whatsapp-business-api
 version: 1.0.0
-homepage: https://clawic.com/skills/whatsapp-business-api
 description: Complete WhatsApp Business Cloud API for messages, templates, media, webhooks, flows, and business profiles.
+homepage: https://clawic.com/skills/whatsapp-business-api
 changelog: Initial release with full Cloud API coverage.
-metadata: {"clawdbot":{"emoji":"💬","requires":{"env":["WHATSAPP_ACCESS_TOKEN","WHATSAPP_PHONE_NUMBER_ID"]},"primaryEnv":"WHATSAPP_ACCESS_TOKEN","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 💬
+    requires:
+      env:
+      - WHATSAPP_ACCESS_TOKEN
+      - WHATSAPP_PHONE_NUMBER_ID
+    primaryEnv: WHATSAPP_ACCESS_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: WhatsApp Business API
 ---
 
 # WhatsApp Business API
@@ -23,7 +35,7 @@ curl -X POST "https://graph.facebook.com/v21.0/$WHATSAPP_PHONE_NUMBER_ID/message
 
 ## Setup
 
-On first use, read `setup.md`. Preferences stored in `~/whatsapp-business-api/memory.md`.
+On first use, read `setup.md`. Preferences stored in `~/Clawic/data/whatsapp-business-api/memory.md`.
 
 ## When to Use
 
@@ -32,7 +44,7 @@ Any WhatsApp Business operation: send messages, templates, media, interactive el
 ## Architecture
 
 ```
-~/whatsapp-business-api/
+~/Clawic/data/whatsapp-business-api/
 ├── memory.md      # Account context + phone numbers
 ├── templates.md   # Approved templates reference
 └── webhooks.md    # Webhook configurations
@@ -103,7 +115,7 @@ curl "https://graph.facebook.com/v21.0/$WHATSAPP_PHONE_NUMBER_ID" \
 - `WHATSAPP_APP_SECRET` — for webhook signature verification
 
 **Sent to Meta:** Messages, media, customer phone numbers via graph.facebook.com
-**Stays local:** Tokens (never logged), ~/whatsapp-business-api/ preferences
+**Stays local:** Tokens (never logged), ~/Clawic/data/whatsapp-business-api/ preferences
 **Never:** Log message content, skip webhook verification, store tokens in code
 
 ## Trust
@@ -111,12 +123,12 @@ curl "https://graph.facebook.com/v21.0/$WHATSAPP_PHONE_NUMBER_ID" \
 This skill sends data to Meta (facebook.com/whatsapp).
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API patterns
 - `webhook` — Webhook handling
 - `chat` — Conversational patterns
 
 ## Feedback
 
-- If useful: `clawhub star whatsapp-business-api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/whatsapp-business-api
+- Latest version: https://clawic.com/skills/whatsapp-business-api

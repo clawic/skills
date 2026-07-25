@@ -1,6 +1,13 @@
 ---
-name: Quiz
+name: quiz
+slug: quiz
+version: 1.0.0
 description: Design engaging quizzes with effective questions, scoring logic, and results that drive learning or conversions.
+homepage: https://clawic.com/skills/quiz
+metadata:
+  clawdbot:
+    emoji: ❓
+    displayName: Quiz
 ---
 
 ## Situation Detection

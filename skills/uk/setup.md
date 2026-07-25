@@ -1,6 +1,6 @@
 # Setup — United Kingdom Travel Guide
 
-Use this guide when `~/uk/` does not exist or is empty. Keep the conversation focused on trip planning rather than implementation details.
+Use this guide when `~/Clawic/data/uk/` does not exist or is empty. Keep the conversation focused on trip planning rather than implementation details.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first few exchanges, clarify when this skill should activate:
 - Only when they explicitly ask for UK trip planning
 - Always when England, Scotland, Wales, Northern Ireland, London, or UK rail-road planning appears
 
-Save that preference in `~/uk/memory.md` under the working context for future UK planning.
+Save that preference in `~/Clawic/data/uk/memory.md` under the working context for future UK planning.
 
 ### 2. Then: Understand the Trip Shape
 
@@ -37,7 +37,7 @@ If relevant, learn:
 
 ## What You Are Saving Internally
 
-Update `~/uk/memory.md` with:
+Update `~/Clawic/data/uk/memory.md` with:
 - Trip stage and timing
 - Nation or region focus
 - Transport preference

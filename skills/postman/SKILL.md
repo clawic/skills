@@ -1,16 +1,33 @@
 ---
-name: Postman
+name: postman
 slug: postman
 version: 1.0.0
-homepage: https://clawic.com/skills/postman
 description: Build, test, and automate APIs with Postman collections, environments, and Newman CLI.
-metadata: {"clawdbot":{"emoji":"📮","requires":{"bins":["newman"]},"os":["linux","darwin","win32"],"install":[{"id":"npm","kind":"npm","package":"newman","bins":["newman"],"label":"Install Newman (npm)"}]}}
+homepage: https://clawic.com/skills/postman
 changelog: Initial release with collections, environments, and Newman automation.
+metadata:
+  clawdbot:
+    emoji: 📮
+    requires:
+      bins:
+      - newman
+    os:
+    - linux
+    - darwin
+    - win32
+    install:
+    - id: npm
+      kind: npm
+      package: newman
+      bins:
+      - newman
+      label: Install Newman (npm)
+    displayName: Postman
 ---
 
 ## Setup
 
-If `~/postman/` doesn't exist, read `setup.md` silently and start naturally.
+If `~/Clawic/data/postman/` doesn't exist, read `setup.md` silently and start naturally.
 
 ## When to Use
 
@@ -18,10 +35,10 @@ User needs to test APIs, create Postman collections, manage environments, or run
 
 ## Architecture
 
-Data lives in `~/postman/`. See `memory-template.md` for structure.
+Data lives in `~/Clawic/data/postman/`. See `memory-template.md` for structure.
 
 ```
-~/postman/
+~/Clawic/data/postman/
 ├── memory.md           # Projects, preferences, common patterns
 ├── collections/        # Postman collection JSON files
 └── environments/       # Environment JSON files
@@ -192,7 +209,7 @@ npx openapi-to-postmanv2 -s openapi.yaml -o collection.json
 ## Security & Privacy
 
 **Data that stays local:**
-- Collections and environments in `~/postman/`
+- Collections and environments in `~/Clawic/data/postman/`
 - Newman runs locally
 
 **This skill does NOT:**
@@ -200,12 +217,12 @@ npx openapi-to-postmanv2 -s openapi.yaml -o collection.json
 - Store API credentials in memory.md
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API consumption patterns
 - `json` — JSON manipulation and validation
 - `ci-cd` — Pipeline automation
 
 ## Feedback
 
-- If useful: `clawhub star postman`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/postman
+- Latest version: https://clawic.com/skills/postman

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "628d1c303463d0709556ea1092f545dbc70be85e5c1afff93036e7a6947f4bd5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "panama",
-    "name": "Panama",
+    "name": "panama",
     "description": "Plan Panama trips with region-aware routing, verified entry rules, island and highland logistics, and practical tourist safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/panama",
-    "summary": "Setup If `~/panama/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Panama trip and needs practical guidance beyond generic inspiration: entry rules, region choice, transpo",
+    "summary": "Setup If `~/Clawic/data/panama/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Panama trip and needs practical guidance beyond generic inspiration: entry rules, region cho",
     "repositoryPath": "skills/panama",
     "manifestPath": "registry/skills/panama.json"
   },
@@ -22,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/panama/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/_meta.json",
+      "byteCount": 164,
+      "sha256": "6bd4d457dd86eec61184481437e191c3b643da183bff5280f777b4639335c62f"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/panama/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/accessibility.md",
+      "byteCount": 664,
+      "sha256": "e91ff3228497858e50a21a858c143d8e3bde100201a2a415990ea4c89876dfe2"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/panama/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/accommodation.md",
+      "byteCount": 1312,
+      "sha256": "18741f481daf6d8ca391d11b8253dbd114b70a8e7c67cda9803cb9f4473d0103"
     },
     {
       "path": "azuero-and-pacific-coast.md",
       "downloadPath": "skills/panama/azuero-and-pacific-coast.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/azuero-and-pacific-coast.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/azuero-and-pacific-coast.md",
+      "byteCount": 805,
+      "sha256": "60d4d3d55c7f4571bfe2bdb232655448ddc578adea347581cea55ac01bbbbf1e"
     },
     {
       "path": "bocas-del-toro.md",
       "downloadPath": "skills/panama/bocas-del-toro.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/bocas-del-toro.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/bocas-del-toro.md",
+      "byteCount": 903,
+      "sha256": "b9583caf4ae85ddd94c813fa677a0e173a652beb1136a3eadebf90b4a7552f10"
     },
     {
       "path": "boquete-and-chiriqui-highlands.md",
       "downloadPath": "skills/panama/boquete-and-chiriqui-highlands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/boquete-and-chiriqui-highlands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/boquete-and-chiriqui-highlands.md",
+      "byteCount": 773,
+      "sha256": "6ba9d0638e0c73fa8b2e6ecd8f45bdc9fd322f7a5bbd6f59a84ba9f46debcccb"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/panama/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/budget-and-costs.md",
+      "byteCount": 1279,
+      "sha256": "142ae1799833e34d8ffba15cc0fbbc12c4c3b839ed0c4c6160797590b9f08cd3"
     },
     {
       "path": "canal-and-day-trips.md",
       "downloadPath": "skills/panama/canal-and-day-trips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/canal-and-day-trips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/canal-and-day-trips.md",
+      "byteCount": 1230,
+      "sha256": "744165cc5b42000d40617f9de7a7bc8d55993e780836a151a7229c6a90671125"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/panama/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/customs-and-border.md",
+      "byteCount": 1337,
+      "sha256": "5528a24cc98b785f3a157b89874c5fe3f99f78b367ed3090080050cbe5932b5f"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/panama/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/entry-and-documents.md",
+      "byteCount": 1409,
+      "sha256": "6728f06a9cd21de855d1312f1ccdaa0b5daf792e6ebc9a8ffad9d947fa4074d2"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/panama/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/family-travel.md",
+      "byteCount": 780,
+      "sha256": "19261df8843d091582525dd01b13826608c40e63009595f833615ef669fb590a"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/panama/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/food-guide.md",
+      "byteCount": 899,
+      "sha256": "bacd4c61c98e78ea0cf2c22b90d0cd8c271186b63a192f02a7c3c5a76cbd1f54"
     },
     {
       "path": "guna-yala-and-san-blas.md",
       "downloadPath": "skills/panama/guna-yala-and-san-blas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/guna-yala-and-san-blas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/guna-yala-and-san-blas.md",
+      "byteCount": 1045,
+      "sha256": "d9d9f4e9bdbd757be62d6ce36350fd0ea711bcb2f072b9586311690679556c21"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/panama/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/itineraries.md",
+      "byteCount": 1437,
+      "sha256": "1a0b0ff652250e69a5f1e390bf285e402237c32897086e91fd678f6fd861ba24"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/panama/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/memory-template.md",
+      "byteCount": 1456,
+      "sha256": "f0d6a8bc14e26e2c4f197d1d87c8fb1e291f10e49604efe3cdb5da9b2ece85b3"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/panama/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/nightlife.md",
+      "byteCount": 750,
+      "sha256": "4012d9c739c9b4a8ccf4cfa4558cc561d1b7687e2f4d4dce501b8510bf8f2b48"
     },
     {
       "path": "panama-city.md",
       "downloadPath": "skills/panama/panama-city.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/panama-city.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/panama-city.md",
+      "byteCount": 947,
+      "sha256": "6c8aeb7ede0b9366262bc11d8b0b7ed82e75aa422608759902af7c9b12b6887e"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/panama/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/regions.md",
+      "byteCount": 1762,
+      "sha256": "62d88b1c403e3f5752bc5b9fc2f2b5bb6d226c5c30e011e8f5408636fc195a6f"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/panama/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/road-trips-and-driving.md",
+      "byteCount": 902,
+      "sha256": "7f1d99b7b0010f1ac224742eefd30c79bf632a67c25439a4967c7f9cc36c3432"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/panama/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/safety-and-emergencies.md",
+      "byteCount": 941,
+      "sha256": "7847f594abaa97f281c0026e09c763c2dfcd902f11bb774e8c092758c03b5abd"
     },
     {
       "path": "santa-catalina-and-coiba.md",
       "downloadPath": "skills/panama/santa-catalina-and-coiba.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/santa-catalina-and-coiba.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/santa-catalina-and-coiba.md",
+      "byteCount": 830,
+      "sha256": "b4c5085e01b7e353b1358b712b04b032b302d6a69b6ca45e125de3efb3880f23"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/panama/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/setup.md",
+      "byteCount": 2114,
+      "sha256": "44a8e29a4765c3653ffb1d32c7e650c1828587743fd79768769a0a8cf87b4851"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/panama/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/SKILL.md",
+      "byteCount": 5576,
+      "sha256": "6e177856360f4fc8e42a56be3215c26e9fec07f034fa7e97b07d2af14d496ec0"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/panama/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/sources.md",
+      "byteCount": 2113,
+      "sha256": "951b4f5c8d9913af5292f21321133cc62934a4d4f188cc2607658d7bd503ca38"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/panama/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/telecoms-and-apps.md",
+      "byteCount": 729,
+      "sha256": "61f51e43d2176316f198a229d0c6b5577ed90cc72596d7290cd622d5627480f9"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/panama/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/transport-domestic.md",
+      "byteCount": 1235,
+      "sha256": "c7afdb97cb7d71fc38378467bbd609a58ceb8d337fdb5f0a561b1a38e60cdd70"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/panama/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/panama/weather-and-seasonality.md",
+      "byteCount": 995,
+      "sha256": "0a615177c43ed05ede9770285af4277e482a3c45866bca9f87b7ce5dd172bb80"
     }
   ]
 }

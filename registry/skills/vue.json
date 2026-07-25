@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fabdaddfb5112364c2fdc1035bc2700cb75b02bcf0f1cb6f3a248becc3ec918d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "vue",
-    "name": "Vue",
+    "name": "vue",
     "description": "Build Vue 3 applications with Composition API, proper reactivity patterns, and production-ready components.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/vue",
     "summary": "When to Use User needs Vue expertise — from Composition API patterns to production optimization. Agent handles reactivity, component design, state management, and performance. Quick Reference | Topic | File | |-------|--",
     "repositoryPath": "skills/vue",
     "manifestPath": "registry/skills/vue.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vue/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/_meta.json",
+      "byteCount": 234,
+      "sha256": "cd14bf03f73ea475514afa5952785c68e930ff66494de15c2db240d768b33b5d"
     },
     {
       "path": "components.md",
       "downloadPath": "skills/vue/components.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/components.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/components.md",
+      "byteCount": 2208,
+      "sha256": "0673057b655ed38c9cd715750d49572dfaa104360b1a052665cf0c64085db5c3"
     },
     {
       "path": "composables.md",
       "downloadPath": "skills/vue/composables.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/composables.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/composables.md",
+      "byteCount": 2264,
+      "sha256": "62e1d44b3c62540ee8975bff8b31606ce18d09de74bfaf2cd671be46dab5f6e6"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/vue/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/performance.md",
+      "byteCount": 2430,
+      "sha256": "cf26a9ee43893cb502dffcd91c9a0a7e03fd7d0e3e691860cdec3b4b82cf2c5f"
     },
     {
       "path": "reactivity.md",
       "downloadPath": "skills/vue/reactivity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/reactivity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/reactivity.md",
+      "byteCount": 2212,
+      "sha256": "c60a254c6dac9da67f73be511e9169c4f1669ed5b13c1a5b84b9d597cabc6df2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vue/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/SKILL.md",
+      "byteCount": 4204,
+      "sha256": "86856a0cf020e7473294d866e2c8e6fc499032092b734e3b768517ab7714123e"
     }
   ]
 }

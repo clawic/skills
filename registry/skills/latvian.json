@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "66248ba235d505b81226a73ebeb38c208f33b177bfdb41eb91156363c8e5f941",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "latvian",
-    "name": "Latvian",
+    "name": "latvian",
     "description": "Write Latvian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/latvian",
     "summary": "The Real Problem AI Latvian is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high. Casual Latv",
     "repositoryPath": "skills/latvian",
     "manifestPath": "registry/skills/latvian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/latvian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latvian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latvian/_meta.json",
+      "byteCount": 166,
+      "sha256": "aac35564fd1915661da38c0eb422fc48819dad892966ab38f04482461848e7d8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/latvian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latvian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latvian/SKILL.md",
+      "byteCount": 1639,
+      "sha256": "5e395621978bb0e88a12bfb7ad788ed3fc7d0acd83545fc37532e475212c6c5b"
     }
   ]
 }

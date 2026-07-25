@@ -30,7 +30,7 @@ Use OpenClaw's cron tool with isolated session:
   },
   "payload": {
     "kind": "agentTurn",
-    "message": "Deliver scheduled morning news briefing. Read ~/daily-news-digest/memory.md for preferences. Use Standard format unless user prefers Brief. Include local news for their region."
+    "message": "Deliver scheduled morning news briefing. Read ~/Clawic/data/daily-news-digest/memory.md for preferences. Use Standard format unless user prefers Brief. Include local news for their region."
   },
   "delivery": {
     "mode": "announce",

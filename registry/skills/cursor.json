@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4816ca9321cc78777355bad8b6821596d4192a817b41c8f41119877f93366ec8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cursor",
-    "name": "Cursor",
+    "name": "cursor",
     "description": "Use Cursor safely across editor, CLI, rules, background agents, Bugbot, and MCP workflows with repo-aware context and reviewable execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/cursor",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cursor/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/_meta.json",
+      "byteCount": 164,
+      "sha256": "efafc3d0e8b40276a0212196376a46576d5707d4a1665b808665e7e66bf32917"
     },
     {
       "path": "background-agents-and-bugbot.md",
       "downloadPath": "skills/cursor/background-agents-and-bugbot.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/background-agents-and-bugbot.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/background-agents-and-bugbot.md",
+      "byteCount": 1588,
+      "sha256": "f1a1335db91a70aa46f5c4cfeddfbbc1af58d55f35ab44f03f1b56f63e9104e6"
     },
     {
       "path": "cli-and-mcp.md",
       "downloadPath": "skills/cursor/cli-and-mcp.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/cli-and-mcp.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/cli-and-mcp.md",
+      "byteCount": 1410,
+      "sha256": "d4b3f8fd1bce6f4bd97e03ebeaa6dd25887f776c68455a30ae1039ac29df54e6"
     },
     {
       "path": "install-and-surfaces.md",
       "downloadPath": "skills/cursor/install-and-surfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/install-and-surfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/install-and-surfaces.md",
+      "byteCount": 1505,
+      "sha256": "6ea79b292b06b9c8638d5c60b559a383d2fe9fff9b2fb5a335f5396644cc3a7b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cursor/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/memory-template.md",
+      "byteCount": 1694,
+      "sha256": "67ea979ed0ba3498b4f1f9a7e60ccf0ec1fcf32ec2c21f3b8d5245fe63181093"
     },
     {
       "path": "privacy-and-indexing.md",
       "downloadPath": "skills/cursor/privacy-and-indexing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/privacy-and-indexing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/privacy-and-indexing.md",
+      "byteCount": 1536,
+      "sha256": "6b5767f92c3565edf3605e957245c0907e33e0c6504db54745638bd2e58b12da"
     },
     {
       "path": "rules-and-context.md",
       "downloadPath": "skills/cursor/rules-and-context.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/rules-and-context.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/rules-and-context.md",
+      "byteCount": 1651,
+      "sha256": "ac66f43e91c2fac53921d42e8d6b2c522bec578b2a43989dd727cd49c74e8f0e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cursor/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/setup.md",
+      "byteCount": 2295,
+      "sha256": "80dca3e1e75fe24ee757526bfdc42468bcb9f442351a0dc2d01e6d5ee0b94372"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cursor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/SKILL.md",
+      "byteCount": 11549,
+      "sha256": "86a92a6f179475f6948b81a0435eec9be8ba52e1c2f5aae6f08e68fec68885f1"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/cursor/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cursor/troubleshooting.md",
+      "byteCount": 1595,
+      "sha256": "3163dcafab2018fe7d66e4319aa8cf34c91e79e7e12592b660fbf2a11fc47926"
     }
   ]
 }

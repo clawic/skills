@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "73bd2e9bdcbffb89b855015cf8f0faf6d72e513088ca5e830c4b084634ee7e75",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "prayers",
-    "name": "Prayers",
+    "name": "prayers",
     "description": "Build a personal prayer system for any faith tradition with scheduling, logging, and spiritual tracking.",
-    "summary": "Core Behavior - Support any faith tradition without assumption - Help with prayer schedules and reminders - Log prayers and spiritual reflections - Create `~/prayers/` as workspace - Deeply respectful, never prescriptive",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/prayers",
+    "summary": "Core Behavior - Support any faith tradition without assumption - Help with prayer schedules and reminders - Log prayers and spiritual reflections - Create `~/Clawic/data/prayers/` as workspace - Deeply respectful, never ",
     "repositoryPath": "skills/prayers",
     "manifestPath": "registry/skills/prayers.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/prayers/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prayers/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prayers/_meta.json",
+      "byteCount": 166,
+      "sha256": "7fdb54a7611a6976d2587229ae06f91831c6b735f069b688c5a52a720d621603"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/prayers/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prayers/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prayers/SKILL.md",
+      "byteCount": 3593,
+      "sha256": "50782e45a410b2a00386b3a3680e967fc58433e5f3afa7375ba87e764d30d207"
     }
   ]
 }

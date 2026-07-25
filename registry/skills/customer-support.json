@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1b79774e5f63864d3c869fc9d891814b97220c8a06f94c98d997456538f22345",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "customer-support",
-    "name": "Customer Support",
+    "name": "customer-support",
     "description": "Resolve issues, communicate with empathy, and turn frustrated customers into loyal advocates.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/customer-support",
     "summary": "Customer Support Rules First Response - Acknowledge the problem before solving it — \"I understand this is frustrating\" - Apologize for the experience, not necessarily fault — \"I'm sorry you're dealing with this\" - Set ex",
     "repositoryPath": "skills/customer-support",
     "manifestPath": "registry/skills/customer-support.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/customer-support/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/_meta.json",
+      "byteCount": 184,
+      "sha256": "43d674d3804445efa8771e9359a94f8f58812b9df961a2f61a824ca0a5181376"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/customer-support/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/customer-support/SKILL.md",
+      "byteCount": 3202,
+      "sha256": "31aaf47730e0a6f686a2b6a77db22254303586662253fe0f672ac32c53afdef4"
     }
   ]
 }

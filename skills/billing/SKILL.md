@@ -1,9 +1,19 @@
 ---
-name: Billing
+name: billing
 slug: billing
 version: 1.0.0
 description: Build payment integrations, subscription management, and invoicing systems with webhook handling, tax compliance, and revenue recognition.
-metadata: {"clawdbot":{"emoji":"💳","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/billing
+metadata:
+  clawdbot:
+    emoji: 💳
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Billing
 ---
 
 ## When to Use

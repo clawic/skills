@@ -24,7 +24,7 @@ Read this guide when upgrading from older published versions.
 **Migration steps:**
 1. Create backup:
    ```bash
-   cp ~/image-generation/memory.md ~/image-generation/memory.md.bak
+   cp ~/Clawic/data/image-generation/memory.md ~/Clawic/data/image-generation/memory.md.bak
    ```
 2. Add the new sections from `memory-template.md`.
 3. Copy old content into the closest new section:
@@ -45,7 +45,7 @@ Read this guide when upgrading from older published versions.
 
 ## Post-Migration Verification
 
-- [ ] `~/image-generation/memory.md` exists and keeps prior preferences
+- [ ] `~/Clawic/data/image-generation/memory.md` exists and keeps prior preferences
 - [ ] Any old `openai.md` references now point to `gpt-image.md`
 - [ ] No data was deleted without explicit user confirmation
 - [ ] Generation workflows still run with current model IDs

@@ -1,11 +1,26 @@
 ---
-name: Apple Maps (MacOS)
+name: apple-maps
 slug: apple-maps
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-maps
 description: Search places, open routes, and run Apple Maps workflows on macOS using local CLI commands and shortcut automation with explicit safety checks.
+homepage: https://clawic.com/skills/apple-maps
 changelog: Initial release with deterministic Apple Maps URL workflows, shortcuts CLI fallback, and confirmation gates for high-impact actions.
-metadata: {"clawdbot":{"emoji":"🗺️","requires":{"bins":[],"anyBins":["open","shortcuts","osascript"],"config":["~/apple-maps/"]},"os":["darwin"],"configPaths":["~/apple-maps/"]}}
+metadata:
+  clawdbot:
+    emoji: 🗺️
+    requires:
+      bins: []
+      anyBins:
+      - open
+      - shortcuts
+      - osascript
+      config:
+      - ~/Clawic/data/apple-maps/
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/apple-maps/
+    displayName: Apple Maps (MacOS)
 ---
 
 ## Setup
@@ -26,10 +41,10 @@ Agent handles place search, nearby category lookup, route launching, and reusabl
 
 ## Architecture
 
-Memory lives in `~/apple-maps/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/apple-maps/`. See `memory-template.md` for structure.
 
 ```text
-~/apple-maps/
+~/Clawic/data/apple-maps/
 ├── memory.md             # Status, defaults, and validated command path
 ├── command-paths.md      # Command priority, probes, and URL strategy
 ├── safety-log.md         # Confirmations for high-impact actions
@@ -49,7 +64,7 @@ Memory lives in `~/apple-maps/`. See `memory-template.md` for structure.
 
 ## Data Storage
 
-All skill files are stored in `~/apple-maps/`.
+All skill files are stored in `~/Clawic/data/apple-maps/`.
 Before creating or changing local files, describe the planned write and ask for confirmation.
 
 ## Core Rules
@@ -101,7 +116,7 @@ No other external endpoint is required by default.
 ## Security & Privacy
 
 **Data that stays local:**
-- Operational defaults, safety choices, and command reliability notes in `~/apple-maps/`.
+- Operational defaults, safety choices, and command reliability notes in `~/Clawic/data/apple-maps/`.
 
 **Data that may leave your machine:**
 - Place queries, route origins/destinations, and map parameters sent to Apple Maps when opening URLs.
@@ -117,7 +132,7 @@ By using this skill, map queries and route parameters are sent to Apple Maps.
 Only use this workflow if you trust Apple Maps with that data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - macOS command workflows and automation patterns.
 - `travel` - travel-planning flows and destination strategy.
 - `restaurants` - food venue discovery and shortlist workflows.
@@ -125,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-maps`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-maps
+- Latest version: https://clawic.com/skills/apple-maps

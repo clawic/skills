@@ -1,7 +1,17 @@
 ---
-name: Meilisearch
+name: meilisearch
+slug: meilisearch
+version: 1.0.0
 description: Deploy and tune Meilisearch with indexing, filtering, and production configuration.
-metadata: {"clawdbot":{"emoji":"🔎","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/meilisearch
+metadata:
+  clawdbot:
+    emoji: 🔎
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Meilisearch
 ---
 
 ## Index Configuration Traps

@@ -1,7 +1,17 @@
 ---
-name: Uniswap
+name: uniswap
+slug: uniswap
+version: 1.0.0
 description: Assist with Uniswap swaps, liquidity provision, and avoiding common DeFi losses.
-metadata: {"clawdbot":{"emoji":"🦄","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/uniswap
+metadata:
+  clawdbot:
+    emoji: 🦄
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Uniswap
 ---
 
 ## Swap Execution

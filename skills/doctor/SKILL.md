@@ -1,7 +1,17 @@
 ---
-name: Doctor
+name: doctor
+slug: doctor
+version: 1.0.0
 description: Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.
-metadata: {"clawdbot":{"emoji":"🩺","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/doctor
+metadata:
+  clawdbot:
+    emoji: 🩺
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Doctor
 ---
 
 # Medical Assistance Rules

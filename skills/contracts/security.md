@@ -6,7 +6,7 @@
 
 ```
 ✅ REQUIRED
-├── All contracts in ~/contracts/ (user-controlled)
+├── All contracts in ~/Clawic/data/contracts/ (user-controlled)
 ├── Metadata in local files only
 ├── No cloud sync unless user explicitly enables
 └── No network transmission of contract content

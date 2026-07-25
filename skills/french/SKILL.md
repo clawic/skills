@@ -1,6 +1,13 @@
 ---
-name: French
+name: french
+slug: french
+version: 1.0.0
 description: Write French that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/french
+metadata:
+  clawdbot:
+    emoji: 🇫🇷
+    displayName: French
 ---
 
 ## The Real Problem

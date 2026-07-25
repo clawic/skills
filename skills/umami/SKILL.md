@@ -1,7 +1,17 @@
 ---
-name: Umami
+name: umami
+slug: umami
+version: 1.0.0
 description: Deploy Umami analytics avoiding data loss, tracking failures, and integration issues.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/umami
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Umami
 ---
 
 ## Critical Configuration

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1104fde2bfbae7ee0178e30924018936ec9ac71f768abac6a098e50350da7330",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "agency",
-    "name": "Agency",
+    "name": "agency",
     "description": "Build and operate a service agency with client management, project tracking, pricing, and team coordination.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/agency",
     "summary": "When to Use User wants to start or scale a service agency: marketing, development, design, consulting, content, automation, or any service business. Agent handles operations so human focuses on clients and strategy. Quic",
     "repositoryPath": "skills/agency",
     "manifestPath": "registry/skills/agency.json"
@@ -21,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/agency/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/_meta.json",
+      "byteCount": 240,
+      "sha256": "45de914198af0e810129f9a5d79681919abaefc95b690945c14ce16963bbafae"
     },
     {
       "path": "by-type.md",
       "downloadPath": "skills/agency/by-type.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/by-type.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/by-type.md",
+      "byteCount": 2978,
+      "sha256": "9c9607c7a6eee1cb08748baef21477793ec11420549f6911beb1aa65aa954c4e"
     },
     {
       "path": "communication.md",
       "downloadPath": "skills/agency/communication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/communication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/communication.md",
+      "byteCount": 2626,
+      "sha256": "63fa6c4b5d453b9074723f6bdbf73ff1124dd1f2a16df3912156aa95d82b6ee8"
     },
     {
       "path": "deliverables.md",
       "downloadPath": "skills/agency/deliverables.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/deliverables.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/deliverables.md",
+      "byteCount": 2837,
+      "sha256": "256cf21925f71072dcda5726244bea375a7d5ae53382e35bd9f6bb5026455b18"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/agency/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/feedback.md",
+      "byteCount": 2528,
+      "sha256": "bccdb60a4ceedfafd5bbc912bfae7a4a2512a62a63041f6d1ea7f5db4e3120c8"
     },
     {
       "path": "onboarding.md",
       "downloadPath": "skills/agency/onboarding.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/onboarding.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/onboarding.md",
+      "byteCount": 2484,
+      "sha256": "cb98dc75cec9bd519c19a99de548c1bf7293fb9ee8c5eadeb2c80ace66549ec3"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/agency/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/pricing.md",
+      "byteCount": 2297,
+      "sha256": "ec44a675e13fc7ba2525c028dedba6ce541423266725bbc1880b025fc574ef6f"
     },
     {
       "path": "projects.md",
       "downloadPath": "skills/agency/projects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/projects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/projects.md",
+      "byteCount": 2207,
+      "sha256": "83676b47ea8b0f29cbe4f2b1969f7c9f524bcee605475eac2d5c39963eab9b14"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agency/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/SKILL.md",
+      "byteCount": 2580,
+      "sha256": "ded63a5d19ffc0cbe56966111967782115d688ea89cdf3100abf8e0975d37773"
     },
     {
       "path": "team.md",
       "downloadPath": "skills/agency/team.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/team.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agency/team.md",
+      "byteCount": 2356,
+      "sha256": "0f3a437796c5860b80e832c466b21e11996793cb19d59456c1d469bc81bdfb92"
     }
   ]
 }

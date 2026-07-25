@@ -1,9 +1,19 @@
 ---
-name: Inbox
+name: inbox
 slug: inbox
 version: 1.0.0
-description: Master any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.
-metadata: {"clawdbot":{"emoji":"📥","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+description: Run any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.
+homepage: https://clawic.com/skills/inbox
+metadata:
+  clawdbot:
+    emoji: 📥
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Inbox
 ---
 
 ## When to Use

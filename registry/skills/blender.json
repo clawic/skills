@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7563448416e18933b120f2bfc53b56f15ca30877830131cca38f7ed9afd46230",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "blender",
-    "name": "Blender",
+    "name": "blender",
     "description": "Avoid common Blender mistakes — transform application, modifier order, UV seams, and export settings for game engines.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/blender",
     "summary": "Transforms - Apply scale before export — `Ctrl+A` → Scale, or objects deform in game engines - Apply rotation for correct orientation — especially for rigged models - Non-uniform scale breaks modifiers — apply scale befo",
     "repositoryPath": "skills/blender",
     "manifestPath": "registry/skills/blender.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/blender/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blender/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blender/_meta.json",
+      "byteCount": 166,
+      "sha256": "35e821c4319c784aa6dc4fd81717d282e9ce18c9348c7f580f09f42d15c3712b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/blender/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blender/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/blender/SKILL.md",
+      "byteCount": 3223,
+      "sha256": "cf951e957db3e645e2e1df8ffb9c1ca1522296a29b6881359ab5892075029acc"
     }
   ]
 }

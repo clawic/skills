@@ -1,7 +1,17 @@
 ---
-name: Ethics
+name: ethics
+slug: ethics
+version: 1.0.0
 description: Navigate moral reasoning from personal dilemmas to academic philosophy.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ethics
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ethics
 ---
 
 ## Detect Level, Adapt Everything

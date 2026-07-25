@@ -1,6 +1,6 @@
 # Setup - Hermes Agent
 
-Read this when `~/hermes-agent/` does not exist or is empty. Do not lead with setup language or internal file names. Help first, then install the smallest Hermes loop that will keep working in future sessions.
+Read this when `~/Clawic/data/hermes-agent/` does not exist or is empty. Do not lead with setup language or internal file names. Help first, then install the smallest Hermes loop that will keep working in future sessions.
 
 ## Goal
 
@@ -9,7 +9,7 @@ The loop should be:
 - visible in AGENTS.md for routing and retrieval
 - optional in SOUL.md for self-correction pressure
 - tiny in HEARTBEAT.md for maintenance only
-- stored locally in `~/hermes-agent/` for durable lessons
+- stored locally in `~/Clawic/data/hermes-agent/` for durable lessons
 
 ## Priority Order
 
@@ -21,7 +21,7 @@ Within the first 2-3 exchanges, learn how the user wants Hermes behavior to show
 - only when explicitly asked
 - never in certain repos, channels, or projects
 
-Save that integration preference to the user's main OpenClaw memory only if the path is already clear in the current workspace and the user wants that preference to persist outside Hermes. Otherwise keep it in `~/hermes-agent/` until clarified.
+Save that integration preference to the user's main OpenClaw memory only if the path is already clear in the current workspace and the user wants that preference to persist outside Hermes. Otherwise keep it in `~/Clawic/data/hermes-agent/` until clarified.
 
 If the user already asked for a concrete task, answer that task first, then tighten integration.
 
@@ -30,11 +30,11 @@ If the user already asked for a concrete task, answer that task first, then tigh
 Create this structure:
 
 ```bash
-mkdir -p ~/hermes-agent/archive
-touch ~/hermes-agent/{memory.md,promotions.md,reflections.md,workspace-state.md}
+mkdir -p ~/Clawic/data/hermes-agent/archive
+touch ~/Clawic/data/hermes-agent/{memory.md,promotions.md,reflections.md,workspace-state.md}
 ```
 
-Initialize `~/hermes-agent/memory.md` from `memory-template.md`.
+Initialize `~/Clawic/data/hermes-agent/memory.md` from `memory-template.md`.
 
 Use these files with strict scope:
 - `memory.md` = HOT, always read before non-trivial work
@@ -58,7 +58,7 @@ If the workspace follows the default OpenClaw template, patch two places.
 ### Hermes Retrieval
 
 For non-trivial work only:
-- Read `~/hermes-agent/memory.md` if it exists.
+- Read `~/Clawic/data/hermes-agent/memory.md` if it exists.
 - Read at most one additional Hermes file if the task clearly needs it.
 - Skip Hermes retrieval for trivial replies, casual chat, and one-shot questions.
 ```
@@ -66,9 +66,9 @@ For non-trivial work only:
 2. Inside `### Write It Down - No "Mental Notes"!`, refine the memory routing bullets:
 
 ```markdown
-- Reusable execution lesson -> write to `~/hermes-agent/reflections.md`
-- Stable repeated rule -> distill to `~/hermes-agent/memory.md`
-- Candidate workflow after repeated success -> log to `~/hermes-agent/promotions.md`
+- Reusable execution lesson -> write to `~/Clawic/data/hermes-agent/reflections.md`
+- Stable repeated rule -> distill to `~/Clawic/data/hermes-agent/memory.md`
+- Candidate workflow after repeated success -> log to `~/Clawic/data/hermes-agent/promotions.md`
 - Keep Hermes files short and operational; do not duplicate daily-log history there
 ```
 
@@ -95,9 +95,9 @@ The official template keeps this file empty unless periodic checks are needed, s
 ```markdown
 ## Hermes Maintenance
 
-- [ ] Review `~/hermes-agent/reflections.md` for lessons worth distilling
-- [ ] Review `~/hermes-agent/promotions.md` for patterns ready to become skills
-- [ ] Keep `~/hermes-agent/memory.md` short and current
+- [ ] Review `~/Clawic/data/hermes-agent/reflections.md` for lessons worth distilling
+- [ ] Review `~/Clawic/data/hermes-agent/promotions.md` for patterns ready to become skills
+- [ ] Keep `~/Clawic/data/hermes-agent/memory.md` short and current
 ```
 
 Do not turn HEARTBEAT.md into a second AGENTS.md.
@@ -108,7 +108,7 @@ The token policy is:
 - AGENTS.md carries routing logic
 - SOUL.md carries tone pressure only if needed
 - HEARTBEAT.md carries maintenance only if needed
-- `~/hermes-agent/memory.md` is the only Hermes file read by default before non-trivial work
+- `~/Clawic/data/hermes-agent/memory.md` is the only Hermes file read by default before non-trivial work
 - read at most one more Hermes file unless the task clearly needs more
 
 If the user sounds unsure, start with local Hermes memory only and postpone workspace edits.
@@ -127,7 +127,7 @@ If the user declines file edits, keep Hermes in local memory only and continue h
 ## Guardrails
 
 - Ask before writing to workspace files.
-- Ask before writing to any main OpenClaw memory file outside `~/hermes-agent/`.
+- Ask before writing to any main OpenClaw memory file outside `~/Clawic/data/hermes-agent/`.
 - Patch the smallest matching section; never replace the whole file.
 - Never claim OpenClaw has a native learning loop if you are simulating it with local files and seed blocks.
 - Keep Hermes additions smaller than the surrounding template section whenever possible.

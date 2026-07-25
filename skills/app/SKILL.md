@@ -1,7 +1,17 @@
 ---
-name: App
+name: app
+slug: app
+version: 1.0.0
 description: Launch and scale mobile apps with ASO, viral loops, monetization, and App Store growth tactics.
-metadata: {"clawdbot":{"emoji":"📱","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/app
+metadata:
+  clawdbot:
+    emoji: 📱
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: App
 ---
 
 # Mobile App Growth Rules

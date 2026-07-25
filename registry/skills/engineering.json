@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1b371a01d292ec235a0f2f2843ac796ceaae349d34a0f0834957b45c6fa54efc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "engineering",
-    "name": "Engineering",
+    "name": "engineering",
     "description": "Support engineering understanding from DIY projects to professional practice and research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/engineering",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, technical depth, professional credentials - When unclear, ask about their role before giving specific guidance - Always state safety factors, units, and",
     "repositoryPath": "skills/engineering",
     "manifestPath": "registry/skills/engineering.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/engineering/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineering/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineering/_meta.json",
+      "byteCount": 174,
+      "sha256": "759b3091c9f01d7c3dcd4d60543dfcb8af1563840fa79c452a66624e2c4aa02b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/engineering/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineering/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/engineering/SKILL.md",
+      "byteCount": 7046,
+      "sha256": "ad32d236503c54bc59e91cd30ef5eec90267502ec30cd4e011fcafaf1c320644"
     }
   ]
 }

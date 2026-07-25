@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9dbe1e80eb554a254fc0288ec8576e844041b02a1ecf6373de67b83521247532",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cro",
-    "name": "CRO / Chief Revenue Officer",
+    "name": "cro",
     "description": "Optimize conversion rates with funnel analysis, A/B testing, statistical significance, and compliance-safe experiments.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cro",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cro/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/_meta.json",
+      "byteCount": 258,
+      "sha256": "6bb66ce95b511b96f239d91fbb330b7d42c2eeb8fe70f5132ff0b8e1d84b5ebb"
     },
     {
       "path": "audits.md",
       "downloadPath": "skills/cro/audits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/audits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/audits.md",
+      "byteCount": 3321,
+      "sha256": "55e76abcf7c6f4226c8ed16940ec39c7095080bedf088c3119d44b9ec6e3fb87"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/cro/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/legal.md",
+      "byteCount": 3611,
+      "sha256": "ce45bc1700d713b1ca4ceb3964a3922da1a616bf589f0ab1ac4ff8e8946ad716"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cro/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/SKILL.md",
+      "byteCount": 3466,
+      "sha256": "0065fc72a9db2aaf142b67339da0a3d42e7c111a73ebcbe2620182dfb0bcafdd"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/cro/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/testing.md",
+      "byteCount": 2550,
+      "sha256": "0875857857094af38e8d9ab9182ad9a2f9b9be80df5c2f8f8ca83e00d28b4811"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/cro/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cro/tools.md",
+      "byteCount": 2076,
+      "sha256": "14f41a13929c15bbafcd0ea042cb084a8d7816a0a093bbd393de4c7bfb9fddb1"
     }
   ]
 }

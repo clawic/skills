@@ -36,7 +36,7 @@
 
 ## Source Quality Scoring
 
-Maintain in `~/daily-news-digest/sources.md`:
+Maintain in `~/Clawic/data/daily-news-digest/sources.md`:
 
 ```markdown
 ## Source Quality Scores

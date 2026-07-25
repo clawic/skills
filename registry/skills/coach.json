@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4b84617906a6dbb33d900e08c1c2cc6c6202b76bc9d0477f67f680bae253f45a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "coach",
-    "name": "Coach",
+    "name": "coach",
     "description": "Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/coach",
     "summary": "Core Approach - Coaching is about the client's agenda, not yours — ask what they want to achieve, don't assume - Focus on future and action, not past and analysis — \"What will you do?\" beats \"Why did that happen?\" - Assu",
     "repositoryPath": "skills/coach",
     "manifestPath": "registry/skills/coach.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/coach/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/_meta.json",
+      "byteCount": 162,
+      "sha256": "ee7016bde5eb860a651ec8faf97e085f15a264dbe196e97aa473e28d0373b9dd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/coach/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/SKILL.md",
+      "byteCount": 4802,
+      "sha256": "1cf672ec037ea56aa2accb77d3993f201b50a5219a61b3b9c19f48dfd7a052bf"
     }
   ]
 }

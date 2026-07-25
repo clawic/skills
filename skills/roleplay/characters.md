@@ -88,6 +88,6 @@ User can have many characters saved. For scenes with multiple NPCs:
 ## Archiving Characters
 
 When user is done with a character:
-- Move to `~/roleplay/archive/`
+- Move to `~/Clawic/data/roleplay/archive/`
 - Keep for reference but don't list in active roster
 - Can restore anytime

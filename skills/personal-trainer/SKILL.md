@@ -1,9 +1,20 @@
 ---
-name: Personal Trainer
+name: personal-trainer
+slug: personal-trainer
+version: 1.0.0
 description: Design workout programs, explain exercises, track progress, and adapt training based on user feedback.
+homepage: https://clawic.com/skills/personal-trainer
 metadata:
   category: role
-  skills: ["fitness", "training", "exercise", "workout", "strength"]
+  skills:
+  - fitness
+  - training
+  - exercise
+  - workout
+  - strength
+  clawdbot:
+    emoji: 🏋️
+    displayName: Personal Trainer
 ---
 
 ## Information to Gather First

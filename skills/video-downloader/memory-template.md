@@ -1,6 +1,6 @@
 # Memory Template - Video Downloader
 
-Create `~/video-downloader/memory.md` with this structure:
+Create `~/Clawic/data/video-downloader/memory.md` with this structure:
 
 ```markdown
 # Video Downloader Memory

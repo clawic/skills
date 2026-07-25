@@ -1,9 +1,19 @@
 ---
-name: Reading
+name: reading
+slug: reading
+version: 1.0.0
 description: Help users read better — book recommendations, retention strategies, and matching reading approach to goals.
+homepage: https://clawic.com/skills/reading
 metadata:
   category: learning
-  skills: ["reading", "books", "learning", "retention"]
+  skills:
+  - reading
+  - books
+  - learning
+  - retention
+  clawdbot:
+    emoji: 📚
+    displayName: Reading
 ---
 
 ## Before Recommending Books

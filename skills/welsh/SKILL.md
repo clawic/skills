@@ -1,6 +1,13 @@
 ---
-name: Welsh
+name: welsh
+slug: welsh
+version: 1.0.0
 description: Write Welsh that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/welsh
+metadata:
+  clawdbot:
+    emoji: 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+    displayName: Welsh
 ---
 
 ## The Real Problem

@@ -1,9 +1,17 @@
 ---
-name: JWT
+name: jwt
 slug: jwt
 version: 1.0.1
 description: Implement secure JWT authentication with proper validation, token lifecycle, and key management.
-metadata: {"clawdbot":{"emoji":"🔐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/jwt
+metadata:
+  clawdbot:
+    emoji: 🔐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: JWT
 ---
 
 ## Quick Reference

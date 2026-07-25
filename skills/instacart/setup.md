@@ -1,6 +1,6 @@
 # Setup - Instacart
 
-Use this when `~/instacart/` does not exist or is empty. Start naturally and keep the conversation focused on the user's Instacart workflow instead of file mechanics.
+Use this when `~/Clawic/data/instacart/` does not exist or is empty. Start naturally and keep the conversation focused on the user's Instacart workflow instead of file mechanics.
 
 ## Your Attitude
 
@@ -17,7 +17,7 @@ Good early questions:
 - Should it activate only for real API work, or also for planning and launch-review questions?
 - Should write-capable guidance be offered proactively, or only when explicitly requested?
 
-Record the activation rule in `~/instacart/memory.md` so future sessions can reuse it.
+Record the activation rule in `~/Clawic/data/instacart/memory.md` so future sessions can reuse it.
 
 ### 2. Then: Choose the Operating Surface
 

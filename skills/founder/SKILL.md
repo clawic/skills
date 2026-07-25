@@ -1,7 +1,17 @@
 ---
-name: Founder
+name: founder
+slug: founder
+version: 1.0.0
 description: Build startups with product-market fit, fundraising, team building, and founder resilience.
-metadata: {"clawdbot":{"emoji":"🚀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/founder
+metadata:
+  clawdbot:
+    emoji: 🚀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Founder
 ---
 
 # Founder Assistance Rules

@@ -1,11 +1,24 @@
 ---
-name: LM Studio
+name: lm-studio
 slug: lm-studio
 version: 1.0.0
-homepage: https://clawic.com/skills/lm-studio
 description: Run and integrate LM Studio with local model lifecycle control, OpenAI-compatible APIs, embeddings, and MCP-aware workflows.
+homepage: https://clawic.com/skills/lm-studio
 changelog: Initial release with local server workflows, model lifecycle checks, API recipes, MCP guidance, and troubleshooting for LM Studio.
-metadata: {"clawdbot":{"emoji":"🧪","requires":{"bins":["curl","jq"]},"os":["linux","darwin","win32"],"configPaths":["~/lm-studio/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧪
+    requires:
+      bins:
+      - curl
+      - jq
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/lm-studio/
+    displayName: LM Studio
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Use this for server readiness, model loading, OpenAI-compatible API integration,
 
 ## Architecture
 
-Memory lives in `~/lm-studio/`. If `~/lm-studio/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/lm-studio/`. If `~/Clawic/data/lm-studio/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/lm-studio/
+~/Clawic/data/lm-studio/
 ├── memory.md         # Activation, preferred port, known-good defaults
 ├── server-notes.md   # Reachability checks and server mode notes
 ├── model-profiles.md # Verified models by workload
@@ -92,7 +105,7 @@ Data that leaves your machine:
 
 Data that stays local:
 - Prompt content sent to the LM Studio server running on the same machine.
-- Notes stored in `~/lm-studio/` if the user wants persistent context.
+- Notes stored in `~/Clawic/data/lm-studio/` if the user wants persistent context.
 
 This skill does NOT:
 - Assume remote access is safe by default.
@@ -100,7 +113,7 @@ This skill does NOT:
 - Install MCP servers or open network access without explicit user intent.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `models` — Choose models by workload, context budget, and quality tradeoffs.
 - `api` — Shape request payloads, retries, parsing, and integration debugging.
 - `self-host` — Operate local infrastructure with practical reliability and security habits.
@@ -109,5 +122,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star lm-studio`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/lm-studio
+- Latest version: https://clawic.com/skills/lm-studio

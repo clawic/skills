@@ -1,9 +1,23 @@
 ---
-name: Workflow
+name: workflow
 slug: workflow
 version: 1.0.0
 description: Build automated pipelines with reusable components, data flow between nodes, and state management.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["jq","yq","curl","uuidgen","flock"]},"os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/workflow
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - jq
+      - yq
+      - curl
+      - uuidgen
+      - flock
+    os:
+    - linux
+    - darwin
+    displayName: Workflow
 ---
 
 ## Architecture

@@ -1,6 +1,6 @@
 # Setup — Expedia
 
-Read this when `~/expedia/` does not exist or is empty.
+Read this when `~/Clawic/data/expedia/` does not exist or is empty.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Confirm how this should activate in future sessions:
 - default to public web mode unless partner credentials are explicitly available
 - stay read-only unless the user clearly wants an authorized booking or partner workflow
 
-Store the activation preference and rationale in `~/expedia/memory.md`.
+Store the activation preference and rationale in `~/Clawic/data/expedia/memory.md`.
 
 ### 2. Then: Surface and scope
 
@@ -39,14 +39,14 @@ Then run the first Expedia search or comparison immediately and refine from real
 
 ## What You Are Saving Internally
 
-In `~/expedia/memory.md`, store:
+In `~/Clawic/data/expedia/memory.md`, store:
 - activation preferences
 - recurring destinations and trip shapes
 - package vs separate-booking bias
 - accepted and rejected option patterns
 - known partner capabilities and repeated blockers
 
-Before the first write in a workspace, confirm that local files will be created under `~/expedia/`.
+Before the first write in a workspace, confirm that local files will be created under `~/Clawic/data/expedia/`.
 
 ## When Done
 

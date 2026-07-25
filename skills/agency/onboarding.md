@@ -54,7 +54,7 @@ When new client inquiry arrives (email, audio, call notes):
 
 ## Client Folder Setup
 
-Create `~/agency/clients/[client-slug].md`:
+Create `~/Clawic/data/agency/clients/[client-slug].md`:
 
 ```markdown
 # [Client Name]

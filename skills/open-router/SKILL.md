@@ -1,11 +1,24 @@
 ---
-name: Open Router
+name: open-router
 slug: open-router
 version: 1.0.0
-homepage: https://clawic.com/skills/open-router
 description: Configure OpenRouter model routing with provider auth, model selection, fallback chains, and cost-aware defaults for stable multi-model workflows.
+homepage: https://clawic.com/skills/open-router
 changelog: Initial release with practical OpenRouter setup, routing rules, fallback reliability, and budget-safe operating guidance.
-metadata: {"clawdbot":{"emoji":"🛣️","requires":{"bins":["curl","jq"],"env":["OPENROUTER_API_KEY"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🛣️
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - OPENROUTER_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Open Router
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ Use this skill when the user wants to connect an OpenAI-compatible workflow to O
 
 ## Architecture
 
-Memory lives in `~/open-router/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/open-router/`. See `memory-template.md` for structure.
 
 ```
-~/open-router/
+~/Clawic/data/open-router/
 ├── memory.md            # Active routing profile and constraints
 ├── providers.md         # Confirmed provider and auth choices
 ├── routing-rules.md     # Task -> model and fallback policy
@@ -93,13 +106,13 @@ No other data is sent externally.
 - Prompt text and selected model metadata sent to OpenRouter when inference is requested.
 
 **Data that stays local:**
-- Routing notes and preferences under `~/open-router/`.
+- Routing notes and preferences under `~/Clawic/data/open-router/`.
 - Local environment variable references and verification logs.
 
 **This skill does NOT:**
 - Request raw API keys in chat.
 - Store plaintext secrets in skill memory files.
-- Modify files outside `~/open-router/` for its own state.
+- Modify files outside `~/Clawic/data/open-router/` for its own state.
 
 ## Trust
 
@@ -107,7 +120,7 @@ By using this skill, prompt content is sent to OpenRouter for model execution.
 Only install if you trust this service with your data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — API request design, payload shaping, and response validation patterns
 - `auth` — credential handling and auth troubleshooting workflows
 - `models` — model comparison and selection guidance
@@ -115,5 +128,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star open-router`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/open-router
+- Latest version: https://clawic.com/skills/open-router

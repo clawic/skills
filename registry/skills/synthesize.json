@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7a03f776eee3c683acf1c86ba75bd46d5626a1740c72209791409f605949ef98",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "synthesize",
-    "name": "Synthesize",
+    "name": "synthesize",
     "description": "Combine multiple sources into unified insights with source tracking, conflict resolution, and coverage verification.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/synthesize",
     "summary": "Core Principle Synthesis fails when sources contradict silently or coverage has gaps. Track everything, resolve conflicts explicitly. Protocol ``` Gather → Map → Extract → Reconcile → Synthesize → Verify ``` 1. Gather In",
     "repositoryPath": "skills/synthesize",
     "manifestPath": "registry/skills/synthesize.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/synthesize/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/_meta.json",
+      "byteCount": 172,
+      "sha256": "34d699d03e207e713a02660ae07750b4d0e98c18d7c4646f4898d8191dcba0b8"
     },
     {
       "path": "conflict-resolution.md",
       "downloadPath": "skills/synthesize/conflict-resolution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/conflict-resolution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/conflict-resolution.md",
+      "byteCount": 1403,
+      "sha256": "83b3a4730a6ced16805c55a52eae9a86a661cf101815f882e9d9a8709e029af0"
     },
     {
       "path": "coverage-matrix.md",
       "downloadPath": "skills/synthesize/coverage-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/coverage-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/coverage-matrix.md",
+      "byteCount": 1399,
+      "sha256": "43ee19e131db01ba12bafa8632b975cca4874b39aebe86510a007b014d460658"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/synthesize/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/SKILL.md",
+      "byteCount": 2066,
+      "sha256": "e34d420bbb719b935d3bdb1591df7d589cb8b926916750dd57571afcb38eb51b"
     },
     {
       "path": "source-types.md",
       "downloadPath": "skills/synthesize/source-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/source-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/synthesize/source-types.md",
+      "byteCount": 1432,
+      "sha256": "15efe176aab91615db50be5d6a5344b82e0424f5ab011cd3cf7c914f72bf361f"
     }
   ]
 }

@@ -1,15 +1,24 @@
 ---
-name: Matomo Analytics
+name: matomo
 slug: matomo
 version: 1.0.1
-homepage: https://clawic.com/skills/matomo
 description: Query, analyze, and manage Matomo Analytics with API integration, custom reports, and goal tracking.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/matomo
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Matomo Analytics
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. The skill stores configuration in `~/matomo/`.
+On first use, read `setup.md` for integration guidelines. The skill stores configuration in `~/Clawic/data/matomo/`.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User needs to query Matomo analytics, generate reports, track goals, or manage t
 
 ## Architecture
 
-Memory lives in `~/matomo/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/matomo/`. See `memory-template.md` for structure.
 
 ```
-~/matomo/
+~/Clawic/data/matomo/
 ├── memory.md         # Sites, credentials ref, preferences
 ├── reports/          # Saved report templates
 └── queries/          # Reusable API query templates
@@ -127,22 +136,22 @@ No other data is sent externally. All requests go to user's own Matomo instance.
 - Auth token included in requests (user-controlled)
 
 **Data that stays local:**
-- Site configurations in ~/matomo/
+- Site configurations in ~/Clawic/data/matomo/
 - Report templates
 - No data sent to third parties
 
 **This skill does NOT:**
 - Store auth tokens in plain text
 - Send data to any service except user's Matomo
-- Access files outside ~/matomo/
+- Access files outside ~/Clawic/data/matomo/
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analytics` — general analytics patterns
 - `umami` — privacy-focused analytics
 - `api` — REST API integration
 
 ## Feedback
 
-- If useful: `clawhub star matomo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/matomo
+- Latest version: https://clawic.com/skills/matomo

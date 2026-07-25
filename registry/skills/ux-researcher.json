@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7d682a1deda37ac25f2deea3b01826accaa40137a73c9bf825a206cb14399e1d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "ux-researcher",
-    "name": "UX Researcher",
+    "name": "ux-researcher",
     "description": "Generate user personas, pain points, journey maps, and UX recommendations without conducting interviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/ux-researcher",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ux-researcher/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/_meta.json",
+      "byteCount": 178,
+      "sha256": "b6f3ace60f5d6460c2777a39aae3ff9b84b5d60db84408aea54f37023809bfd5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/ux-researcher/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/memory-template.md",
+      "byteCount": 1593,
+      "sha256": "b2f0200632398a1c0a1ef7c097b27fdec7fb2298832c5eddf96f79edd26f5f1f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/ux-researcher/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/setup.md",
+      "byteCount": 2349,
+      "sha256": "8ed5250517388eae73246759f8c21aa1987bbe6850248203d59b62798d4af8fa"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ux-researcher/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ux-researcher/SKILL.md",
+      "byteCount": 8433,
+      "sha256": "a99f1370255d5e83b99dc8375f3c9c9c38e64d5f8ada1c9a88817fd2f2f223ac"
     }
   ]
 }

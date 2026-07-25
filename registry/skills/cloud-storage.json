@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f7b616c1c6d4b5b6819397d0d8e2df40d1afa0c7d819e3f432571b47e86f790d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "cloud-storage",
-    "name": "Cloud Storage",
+    "name": "cloud-storage",
     "description": "Manage files across cloud providers with authentication, cost awareness, and multi-provider operations.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/cloud-storage",
     "summary": "When to Use User needs to upload, download, sync, or manage files across cloud storage providers. Agent handles multi-provider operations with cost awareness. Quick Reference | Topic | File | |-------|------| | Provider-",
     "repositoryPath": "skills/cloud-storage",
     "manifestPath": "registry/skills/cloud-storage.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cloud-storage/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/_meta.json",
+      "byteCount": 254,
+      "sha256": "105bb3d873fb04e40575214aa249a66031e102bb58ae56c4306d86f70b619f81"
     },
     {
       "path": "auth.md",
       "downloadPath": "skills/cloud-storage/auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/auth.md",
+      "byteCount": 2373,
+      "sha256": "7c5830c41d2b0c96370e5e7834b0afdde230b09ab17437009d6c529a5761f160"
     },
     {
       "path": "costs.md",
       "downloadPath": "skills/cloud-storage/costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/costs.md",
+      "byteCount": 2456,
+      "sha256": "c5c2e772630e12e49cf8716294bc29a60d10cc4bcc40b964d4720f55ce4702b4"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/cloud-storage/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/providers.md",
+      "byteCount": 2441,
+      "sha256": "ee0a98ef082688f85a947d604317c78ef9dadd783a49511d612aaa707c22497a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cloud-storage/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cloud-storage/SKILL.md",
+      "byteCount": 2669,
+      "sha256": "f4eaf473d839cd305fa29d3f38b60ea40e287c3a3db8705e0063046e6a9b6571"
     }
   ]
 }

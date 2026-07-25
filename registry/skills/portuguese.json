@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f7b3bcec7222405672042153ff085b65e500e1734cbbf382989301f984be9083",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "portuguese",
-    "name": "Portuguese",
+    "name": "portuguese",
     "description": "Write Portuguese that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/portuguese",
     "summary": "The Real Problem AI Portuguese is technically correct but sounds off. Too formal. Too stiff. Natives write with more warmth, contractions, and regional flavor. Match that. Formality Default Default register is too high. ",
     "repositoryPath": "skills/portuguese",
     "manifestPath": "registry/skills/portuguese.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/portuguese/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portuguese/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portuguese/_meta.json",
+      "byteCount": 172,
+      "sha256": "0bcbb0211570f91e80404f3f9435cace9b101ec9a1a40e28bc480d44c46c2ac0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/portuguese/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portuguese/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portuguese/SKILL.md",
+      "byteCount": 2894,
+      "sha256": "9069aa1a5a9bb7dcf3c5355233ebc33860cbf10d678bbe1b904e958ea61fcf2d"
     }
   ]
 }

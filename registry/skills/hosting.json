@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c21ef291553d4cbe53bb6d5ae405dc503b7615c0b0933c1a82d1aeac38366f05",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "hosting",
-    "name": "Hosting",
+    "name": "hosting",
     "description": "Choose and manage web hosting services for websites and apps without server administration.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/hosting",
     "summary": "Web Hosting Guidance Choosing the Right Type - Static sites (HTML, CSS, JS only): Use Vercel, Netlify, Cloudflare Pages, GitHub Pages — free tier often enough, no server management - Dynamic sites with backend: Platform ",
     "repositoryPath": "skills/hosting",
     "manifestPath": "registry/skills/hosting.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hosting/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hosting/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hosting/_meta.json",
+      "byteCount": 166,
+      "sha256": "bdab5dba843b0d0d706d2364078e16c1dc46e40b578123cdd056857960fccb05"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hosting/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hosting/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hosting/SKILL.md",
+      "byteCount": 4025,
+      "sha256": "65acec1fc84a8aecb0ce320a854dd58489fd2812b7739b7bb5c5faefe129df77"
     }
   ]
 }

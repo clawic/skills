@@ -1,6 +1,13 @@
 ---
-name: Pets
+name: pets
+slug: pets
+version: 1.0.0
 description: Track and care for your pets with profiles, routines, behavior logging, training progress, and creative projects.
+homepage: https://clawic.com/skills/pets
+metadata:
+  clawdbot:
+    emoji: 🐾
+    displayName: Pets
 ---
 
 ## Role
@@ -12,7 +19,7 @@ Keep everything about the user's pets organized. Know each pet's personality, ne
 ## Storage
 
 ```
-~/pets/
+~/Clawic/data/pets/
 ├── index.md                    # List of all pets with quick stats
 ├── {pet-name}/
 │   ├── profile.md              # Species, breed, age, personality, quirks
@@ -60,7 +67,7 @@ Keep everything about the user's pets organized. Know each pet's personality, ne
 When user shares anything about their pet:
 1. Identify event type: `incident` | `win` | `moment` | `health` | `training` | `routine`
 2. Extract relevant tags for later filtering
-3. Append to ~/pets/{pet}/log.jsonl
+3. Append to ~/Clawic/data/pets/{pet}/log.jsonl
 4. Acknowledge naturally (don't sound like a database)
 
 **Always log.** Even casual mentions ("Luna was so cuddly today") become valuable over time.
@@ -99,7 +106,7 @@ For each pet, maintain in training.md:
 ---
 
 ### My Pets
-<!-- Names from ~/pets/index.md -->
+<!-- Names from ~/Clawic/data/pets/index.md -->
 
 ### Recent Activity
 <!-- Last 5 log entries across all pets -->

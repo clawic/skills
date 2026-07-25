@@ -1,6 +1,6 @@
 # Memory Template — Self-Evolving
 
-Create `~/self-evolving/memory.md` with this structure:
+Create `~/Clawic/data/self-evolving/memory.md` with this structure:
 
 ```markdown
 # Self-Evolving Memory

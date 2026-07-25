@@ -1,9 +1,19 @@
 ---
-name: Message
+name: message
 slug: message
 version: 1.0.0
 description: Communicate across channels without social disasters, with escalation rules, tone calibration, and platform-aware formatting.
-metadata: {"clawdbot":{"emoji":"💬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/message
+metadata:
+  clawdbot:
+    emoji: 💬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Message
 ---
 
 ## When to Use

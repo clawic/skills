@@ -1,7 +1,17 @@
 ---
-name: Contacts
+name: people
+slug: people
+version: 1.0.1
 description: Build a personal contact system with details, interactions, birthdays, and smart reminders.
-metadata: {"clawdbot":{"emoji":"👥","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/people
+metadata:
+  clawdbot:
+    emoji: 👥
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Contacts
 ---
 
 ## Core Behavior

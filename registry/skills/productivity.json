@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "da24ef912d2060412d6e02f713fc011e47d0c116090b69dc1b939a00c86c4fa9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "productivity",
-    "name": "Productivity",
+    "name": "productivity",
     "description": "Plan, focus, and complete work with energy management, time blocking, goals, projects, tasks, habits, reviews, priorities, and context-specific productivity systems; use when (1) the user needs help with productivity, focus, time management, planning, priorities, goals, projects, tasks, habits, or reviews; (2) they want a reusable structure or workspace for organizing work; (3) ongoing work should be routed through a dedicated productivity framework.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/productivity",
@@ -22,102 +25,142 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/productivity/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/_meta.json",
+      "byteCount": 400,
+      "sha256": "ef5e2c8d0caf54275c0189505a7ac4b0f3425280ccac6f506e54baa34c6d6b6c"
     },
     {
       "path": "adhd.md",
       "downloadPath": "skills/productivity/adhd.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/adhd.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/adhd.md",
+      "byteCount": 2169,
+      "sha256": "3691e0fc5661157a2dee7ae811a89a552cab63dc912174c525d19cb38b734e5b"
     },
     {
       "path": "burnout.md",
       "downloadPath": "skills/productivity/burnout.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/burnout.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/burnout.md",
+      "byteCount": 2225,
+      "sha256": "8dfc37a059e238a3ce0b79b099c4971d4b5f1e825866f57ec55b16e6c41ad116"
     },
     {
       "path": "creative.md",
       "downloadPath": "skills/productivity/creative.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/creative.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/creative.md",
+      "byteCount": 2048,
+      "sha256": "aaf14e1d602b3530c6cc19b36f5d5f22d1ec1020f06636630b9a729c4d2060d4"
     },
     {
       "path": "entrepreneur.md",
       "downloadPath": "skills/productivity/entrepreneur.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/entrepreneur.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/entrepreneur.md",
+      "byteCount": 2267,
+      "sha256": "1cfd8ba6017874b3c1cd78798e558a57ae02132fe18b60de8176e549d20fb15e"
     },
     {
       "path": "executive.md",
       "downloadPath": "skills/productivity/executive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/executive.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/executive.md",
+      "byteCount": 2095,
+      "sha256": "93f909997777e2f0d21d30ac2ad1587ceb37147454f9f0eb8a939737f7f3555b"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/productivity/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/frameworks.md",
+      "byteCount": 3540,
+      "sha256": "cb48d7fc14b5ba8bd3fdf383bc9df915baf08fc2a8b59b4af16f5602a1c80251"
     },
     {
       "path": "freelancer.md",
       "downloadPath": "skills/productivity/freelancer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/freelancer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/freelancer.md",
+      "byteCount": 1956,
+      "sha256": "de52c291e6762abf036703e5ac62be1cb30c09446ccf21f5bd949b34331a49d4"
     },
     {
       "path": "guilt.md",
       "downloadPath": "skills/productivity/guilt.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/guilt.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/guilt.md",
+      "byteCount": 2344,
+      "sha256": "327b0e8825d2856608cde9d0dd2211ac3de677a5b83a48ad47ad5a1c1ddee4a0"
     },
     {
       "path": "habits.md",
       "downloadPath": "skills/productivity/habits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/habits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/habits.md",
+      "byteCount": 2160,
+      "sha256": "9dbb1453dc82ae8a02742be3df4c330672b2cdfd602f0406c2ebb1b66564b496"
     },
     {
       "path": "manager.md",
       "downloadPath": "skills/productivity/manager.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/manager.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/manager.md",
+      "byteCount": 2099,
+      "sha256": "22aa0880f9a784ba66945d78a1ccfe611be2387b6ee7f00d4cfcd1aeb6d3a809"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/productivity/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/memory-template.md",
+      "byteCount": 1812,
+      "sha256": "0e5091a0b9025b265f1f0433028428a994b7dc6b6af14e79762e6e5ea8f170ad"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/productivity/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/migration.md",
+      "byteCount": 3796,
+      "sha256": "1f602012420f583f93831542835aa73db991298b30b97d96ed30deb86f821a82"
     },
     {
       "path": "parent.md",
       "downloadPath": "skills/productivity/parent.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/parent.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/parent.md",
+      "byteCount": 2143,
+      "sha256": "184e3b03b158bfcd2aa9840d2ff9ce2baca22a0442b553e6f9c5ce090d7753c4"
     },
     {
       "path": "remote.md",
       "downloadPath": "skills/productivity/remote.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/remote.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/remote.md",
+      "byteCount": 2212,
+      "sha256": "4d6b5bd50f1a79a491ce79fcae5991b42951fe236594ee0f02f338f331b46306"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/productivity/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/setup.md",
+      "byteCount": 5307,
+      "sha256": "ffeb993d61d5ddf63ab913ccb20575d95562a72cd20b6e5a1d8a882d0d82c183"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/productivity/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/SKILL.md",
+      "byteCount": 12630,
+      "sha256": "c287c2a5a8b6134271bf310a8a18688409e6e215a5a36c830879eb17de1071f6"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/productivity/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/student.md",
+      "byteCount": 1969,
+      "sha256": "b168dbc111c59da015e8cb0d0bd45f8a570a60ae8b4e9e2e06b88a4f4de4364c"
     },
     {
       "path": "system-template.md",
       "downloadPath": "skills/productivity/system-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/system-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/system-template.md",
+      "byteCount": 3105,
+      "sha256": "7c4b30fa3f9fe608e7e71feb2042f59cf9d449327aba45121f941eb656b8810b"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/productivity/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/traps.md",
+      "byteCount": 3446,
+      "sha256": "c91150f776362400a530217be5e1eea6d69e267e57928d791717a1854476863f"
     }
   ]
 }

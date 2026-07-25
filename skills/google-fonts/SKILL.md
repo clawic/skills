@@ -1,7 +1,18 @@
 ---
-name: Google Fonts
+name: google-fonts
+slug: google-fonts
+version: 1.0.0
 description: Load Google Fonts with proper performance, subsetting, and proven font pairings.
-metadata: {"clawdbot":{"emoji":"🔤","requires":{},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/google-fonts
+metadata:
+  clawdbot:
+    emoji: 🔤
+    requires: {}
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Google Fonts
 ---
 
 ## Loading Mistakes

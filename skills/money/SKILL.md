@@ -1,7 +1,17 @@
 ---
-name: Money
+name: money
+slug: money
+version: 1.0.0
 description: Personal finance guidance with practical rules for saving, investing, and avoiding common traps.
-metadata: {"clawdbot":{"emoji":"💰","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/money
+metadata:
+  clawdbot:
+    emoji: 💰
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Money
 ---
 
 # Personal Finance Rules

@@ -1,7 +1,17 @@
 ---
-name: Hosting
+name: hosting
+slug: hosting
+version: 1.0.0
 description: Choose and manage web hosting services for websites and apps without server administration.
-metadata: {"clawdbot":{"emoji":"🌍","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/hosting
+metadata:
+  clawdbot:
+    emoji: 🌍
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Hosting
 ---
 
 # Web Hosting Guidance

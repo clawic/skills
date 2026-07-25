@@ -1,6 +1,6 @@
 # Memory Template — Las Vegas
 
-Create `~/las-vegas/memory.md` with this structure:
+Create `~/Clawic/data/las-vegas/memory.md` with this structure:
 
 ```markdown
 # Las Vegas Memory

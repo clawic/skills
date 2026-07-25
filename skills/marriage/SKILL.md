@@ -1,6 +1,13 @@
 ---
-name: Marriage
-description: "Navigate marriage challenges across all stages with conflict resolution, communication tools, and practical frameworks."
+name: marriage
+slug: marriage
+version: 1.0.0
+description: Navigate marriage challenges across all stages with conflict resolution, communication tools, and practical frameworks.
+homepage: https://clawic.com/skills/marriage
+metadata:
+  clawdbot:
+    emoji: 💍
+    displayName: Marriage
 ---
 
 ## Approach

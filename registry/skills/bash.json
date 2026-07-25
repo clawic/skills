@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2aa6fde3aa0082362cd82dd0858fe622452fe303e5535d35c263124fb3ef6aa4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,34 +23,46 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/bash/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/bash/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json",
+      "byteCount": 384,
+      "sha256": "00738dd09cd6633625808dbe21a5f60739082e076ee7964861e4ad0044eae7fc"
     },
     {
       "path": "arrays.md",
       "downloadPath": "skills/bash/arrays.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arrays.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/arrays.md",
+      "byteCount": 1782,
+      "sha256": "a0fa873cc80d00967d574b5f93197e59433e90866d78d55f0f73bdcc14f62893"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/bash/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/errors.md",
+      "byteCount": 2135,
+      "sha256": "855fdba404e0ce478e99a5fb48e3144325494d0863643acebb7a995e788bb577"
     },
     {
       "path": "expansion.md",
       "downloadPath": "skills/bash/expansion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/expansion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/expansion.md",
+      "byteCount": 1994,
+      "sha256": "dd8d79a3153512366f819cc2c619896208278469f2fb9b11378d4c5e6117ebb2"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/bash/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md",
+      "byteCount": 8012,
+      "sha256": "77f03dd64c614c9ddd7faf14f766abef8694cec72fff9b25efb2030d1661586c"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/bash/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/testing.md",
+      "byteCount": 1970,
+      "sha256": "6b3eb2fdcdf47242faf440db5ca9c22ae3d9196f301b6666d3dd74213363104d"
     }
   ]
 }

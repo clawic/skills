@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0eb5d1578eba86e97e9252620298b3d48caf07df3b0d97a538a3ebfa770d326e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "latex",
-    "name": "LaTeX",
+    "name": "latex",
     "description": "Write LaTeX documents with correct syntax, packages, and compilation workflow.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/latex",
     "summary": "Special Characters - Reserved chars need escape: `\\# \\$ \\% \\& \\_ \\{ \\} \\textbackslash` - Tilde as character: `\\textasciitilde` not `\\~` (that's an accent) - Caret: `\\textasciicircum` not `\\^` - Backslash in text: `\\textb",
     "repositoryPath": "skills/latex",
     "manifestPath": "registry/skills/latex.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/latex/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latex/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latex/_meta.json",
+      "byteCount": 162,
+      "sha256": "88f0bf6a13ff76fa0e5758f82e8778470b014c1df3a0e733387e17e72552554c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/latex/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latex/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/latex/SKILL.md",
+      "byteCount": 3307,
+      "sha256": "5ab5bdfae9f52cc7c93b5d59cf6f8f688ee7ec588ef9b95e39f04078760ac88f"
     }
   ]
 }

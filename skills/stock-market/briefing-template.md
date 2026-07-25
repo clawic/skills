@@ -1,6 +1,6 @@
 # Briefing Template — Stock Market
 
-Use this template for `~/stock-market/briefing-log.md`.
+Use this template for `~/Clawic/data/stock-market/briefing-log.md`.
 
 ```markdown
 # Market Briefing

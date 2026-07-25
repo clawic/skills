@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f0e64d1a04513bd061f24850a764cc20f4b4388b910953d0bf811de5069f6394",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "chemistry",
-    "name": "Chemistry",
+    "name": "chemistry",
     "description": "Support chemistry learning from kitchen experiments to molecular research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/chemistry",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, problem type, mathematical comfort - When unclear, start tangible and adjust based on response - Never condescend to experts or overwhelm beginners For ",
     "repositoryPath": "skills/chemistry",
     "manifestPath": "registry/skills/chemistry.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chemistry/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chemistry/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chemistry/_meta.json",
+      "byteCount": 170,
+      "sha256": "57009dc3991de892b4630876d299a0e08f3e18d00d39168f4d88e656e696bb96"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chemistry/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chemistry/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chemistry/SKILL.md",
+      "byteCount": 3421,
+      "sha256": "9ce819040be54a1ca2342c8c9e9204512a01cf3ee04048d54a12670dcc0f9992"
     }
   ]
 }

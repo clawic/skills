@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e12ddfce20dc882c54ffcb2ca4e8b41b0c74aff33d440aafe778a303e22cae8d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "binance",
-    "name": "Binance API",
+    "name": "binance",
     "description": "Operate Binance Spot APIs through safe REST, WebSocket, and SDK workflows with signed requests, rate-limit control, and testnet-first execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/binance",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/binance/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/_meta.json",
+      "byteCount": 170,
+      "sha256": "a443d7ddbf4c90638dee5f95a38dc80a01b2b38a82fa33270363412ce730d628"
     },
     {
       "path": "auth-signing.md",
       "downloadPath": "skills/binance/auth-signing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/auth-signing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/auth-signing.md",
+      "byteCount": 1506,
+      "sha256": "47e75a998bda7d573716f5f765dd792e0c0750f04ad446386c77c8ddf579fa63"
     },
     {
       "path": "errors-limits.md",
       "downloadPath": "skills/binance/errors-limits.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/errors-limits.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/errors-limits.md",
+      "byteCount": 1387,
+      "sha256": "8597dbfc93ba714f9f7f0e5d2c2154578f3781ad1c0ada200e118923ad14f07f"
     },
     {
       "path": "market-data.md",
       "downloadPath": "skills/binance/market-data.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/market-data.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/market-data.md",
+      "byteCount": 1259,
+      "sha256": "998b41d952e3a903e524da2d50b1d0d5f8b8d73a3fa45f416962731c51412ba5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/binance/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/memory-template.md",
+      "byteCount": 1758,
+      "sha256": "149d4046c20368de9b9a35c411afa9ad82e0b34e99428bc492677388c33bafd6"
     },
     {
       "path": "quickstart.md",
       "downloadPath": "skills/binance/quickstart.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/quickstart.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/quickstart.md",
+      "byteCount": 1433,
+      "sha256": "447265827167ae537eaf0e52cba59f836cd00692aed446e3a13be148969f1aa0"
     },
     {
       "path": "sdk-cli.md",
       "downloadPath": "skills/binance/sdk-cli.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/sdk-cli.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/sdk-cli.md",
+      "byteCount": 1331,
+      "sha256": "3951470c99682fcc500deb5ea5b69331b0cf33fa26660d91fe8a36852025fef3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/binance/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/setup.md",
+      "byteCount": 1978,
+      "sha256": "d46602bcbe9df197898e56f26db8e065fe53e9b9079c41fc69e930a15c950c86"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/binance/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/SKILL.md",
+      "byteCount": 6621,
+      "sha256": "5a984a2781ebeea26c02159f6697462b0b37f39e76356e67baf0b4c20b45477c"
     },
     {
       "path": "testnet.md",
       "downloadPath": "skills/binance/testnet.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/testnet.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/testnet.md",
+      "byteCount": 1175,
+      "sha256": "6ad27811d8ae06907d23380040175d7e79e580d900fb059581ee7a6e20987741"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/binance/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/troubleshooting.md",
+      "byteCount": 1307,
+      "sha256": "fdf1ead0f35bee864d0afecc3e96a20276488b018ee289eaa1aba3a7e907d28a"
     },
     {
       "path": "websocket.md",
       "downloadPath": "skills/binance/websocket.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/websocket.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/websocket.md",
+      "byteCount": 1445,
+      "sha256": "c3916aac9a301744b2376f664e58d15f2bdaa85e3516273d6400901b9f1567a9"
     }
   ]
 }

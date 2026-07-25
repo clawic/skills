@@ -1,11 +1,18 @@
 ---
-name: CLO / Chief Legal Officer
+name: clo
 slug: clo
 version: 1.0.1
-homepage: https://clawic.com/skills/clo
 description: Navigate legal strategy with contracts, compliance, IP protection, and corporate governance.
+homepage: https://clawic.com/skills/clo
 changelog: Added Core Rules structure and legal decision frameworks.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CLO / Chief Legal Officer
 ---
 
 ## When to Use
@@ -85,7 +92,7 @@ These decisions require human judgment:
 - M&A deal structuring
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive leadership
 - `cfo` — financial strategy
 - `coo` — operational compliance
@@ -93,5 +100,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star clo`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/clo
+- Latest version: https://clawic.com/skills/clo

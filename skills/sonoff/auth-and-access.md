@@ -11,7 +11,7 @@ Use this guide to keep auth handling and control mode coherent.
 ## Auth Rules
 
 1. Load secrets from environment, never from chat.
-2. Avoid persisting raw token values in `~/sonoff/` files.
+2. Avoid persisting raw token values in `~/Clawic/data/sonoff/` files.
 3. Use least-privilege account scope and rotate tokens when possible.
 4. Re-authenticate after repeated unauthorized responses; do not blind-retry writes.
 

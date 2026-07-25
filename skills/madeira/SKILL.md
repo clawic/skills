@@ -1,10 +1,19 @@
 ---
-name: Madeira
+name: madeira
 slug: madeira
 version: 1.0.0
-homepage: https://clawic.com/skills/madeira
 description: Navigate Madeira as visitor, digital nomad, or resident with neighborhoods, levadas, costs, visas, and local insights for the Atlantic island.
-metadata: {"clawdbot":{"emoji":"🌴","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/madeira
+metadata:
+  clawdbot:
+    emoji: 🌴
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Madeira
 ---
 
 ## When to Use
@@ -174,7 +183,7 @@ See `food-local.md` and `food-drinks.md` for culinary culture.
 Year-round destination, but each season has different character.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Navigate Dubai as visitor, resident, or entrepreneur
 - `travel` — General travel planning and trip assistance
 - `portuguese` — Learn Portuguese for deeper Madeira integration
@@ -182,5 +191,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star madeira`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/madeira
+- Latest version: https://clawic.com/skills/madeira

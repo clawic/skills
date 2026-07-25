@@ -30,7 +30,7 @@ Validators are executable scripts that enforce rules automatically. They make "d
 
 ### Pre-Commit Validators
 
-Run before git commits. Location: `~/self-discipline/validators/pre-commit/`
+Run before git commits. Location: `~/Clawic/data/self-discipline/validators/pre-commit/`
 
 ```bash
 #!/usr/bin/env bash
@@ -61,7 +61,7 @@ exit 0
 
 ### Pre-Send Validators
 
-Run before sending messages/outputs. Location: `~/self-discipline/validators/pre-send/`
+Run before sending messages/outputs. Location: `~/Clawic/data/self-discipline/validators/pre-send/`
 
 ```bash
 #!/usr/bin/env bash
@@ -94,7 +94,7 @@ exit 0
 
 ### Pre-Action Validators
 
-Run before specific dangerous actions. Location: `~/self-discipline/validators/pre-action/`
+Run before specific dangerous actions. Location: `~/Clawic/data/self-discipline/validators/pre-action/`
 
 ```bash
 #!/usr/bin/env bash
@@ -138,7 +138,7 @@ exit 0
 
 ### Periodic Validators
 
-Run on heartbeat or schedule. Location: `~/self-discipline/validators/periodic/`
+Run on heartbeat or schedule. Location: `~/Clawic/data/self-discipline/validators/periodic/`
 
 ```bash
 #!/usr/bin/env bash
@@ -147,8 +147,8 @@ set -euo pipefail
 # SECURITY MANIFEST:
 # Environment variables accessed: none
 # External endpoints called: none
-# Local files read: ~/self-discipline/rules.md
-# Local files written: ~/self-discipline/validator-log.md
+# Local files read: ~/Clawic/data/self-discipline/rules.md
+# Local files written: ~/Clawic/data/self-discipline/validator-log.md
 
 # Validator: rules-integrity
 # Purpose: Verify rules.md hasn't been corrupted
@@ -225,7 +225,7 @@ Add to `.git/hooks/pre-commit`:
 #!/usr/bin/env bash
 
 # Run all pre-commit validators
-for validator in ~/self-discipline/validators/pre-commit/*.sh; do
+for validator in ~/Clawic/data/self-discipline/validators/pre-commit/*.sh; do
   if [[ -x "$validator" ]]; then
     if ! "$validator"; then
       exit 1
@@ -248,7 +248,7 @@ Add to HEARTBEAT.md:
 ```markdown
 ## Discipline Check
 Every heartbeat, run periodic validators:
-~/self-discipline/validators/periodic/*.sh
+~/Clawic/data/self-discipline/validators/periodic/*.sh
 ```
 
 ## Best Practices
@@ -277,10 +277,10 @@ Every script must declare what it accesses. This is auditable.
 
 ```bash
 # Test a validator
-echo "test message" | ~/self-discipline/validators/pre-send/no-secrets.sh -
+echo "test message" | ~/Clawic/data/self-discipline/validators/pre-send/no-secrets.sh -
 
 # Or for validators that take arguments
-~/self-discipline/validators/pre-action/confirm-delete.sh delete /opt/docker
+~/Clawic/data/self-discipline/validators/pre-action/confirm-delete.sh delete /opt/docker
 ```
 
 ### 5. Version Control Validators

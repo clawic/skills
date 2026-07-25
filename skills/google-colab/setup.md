@@ -1,6 +1,6 @@
 # Setup - Google Colab
 
-Read this when `~/google-colab/` is missing or empty.
+Read this when `~/Clawic/data/google-colab/` is missing or empty.
 Keep activation lightweight and useful from the first exchange.
 
 ## Operating Priorities
@@ -30,9 +30,9 @@ Keep activation lightweight and useful from the first exchange.
 4. If context is approved, initialize local workspace:
 ```bash
 mkdir -p ~/google-colab
-touch ~/google-colab/{memory.md,notebooks.md,runtimes.md,datasets.md,incidents.md,experiments.md}
+touch ~/Clawic/data/google-colab/{memory.md,notebooks.md,runtimes.md,datasets.md,incidents.md,experiments.md}
 chmod 700 ~/google-colab
-chmod 600 ~/google-colab/{memory.md,notebooks.md,runtimes.md,datasets.md,incidents.md,experiments.md}
+chmod 600 ~/Clawic/data/google-colab/{memory.md,notebooks.md,runtimes.md,datasets.md,incidents.md,experiments.md}
 ```
 
 5. If `memory.md` is empty, initialize from `memory-template.md`.

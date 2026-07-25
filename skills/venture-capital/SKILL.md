@@ -1,10 +1,19 @@
 ---
-name: Venture Capital
+name: venture-capital
 slug: venture-capital
 version: 1.0.0
-homepage: https://clawic.com/skills/venture-capital
 description: Evaluate startups, structure deals, and make investment decisions with VC frameworks and due diligence patterns.
-metadata: {"clawdbot":{"emoji":"💰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/venture-capital
+metadata:
+  clawdbot:
+    emoji: 💰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Venture Capital
 ---
 
 ## When to Use
@@ -80,7 +89,7 @@ Agent needs to act as venture capital investor: evaluate startup pitches, perfor
 - Replace legal review of term sheets
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cfo` — financial analysis
 - `ceo` — strategic leadership
 - `business` — business strategy
@@ -89,5 +98,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star venture-capital`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/venture-capital
+- Latest version: https://clawic.com/skills/venture-capital

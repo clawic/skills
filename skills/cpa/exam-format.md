@@ -53,7 +53,7 @@ Example:
 | AUD | Mar 15, 2025 | Sep 15, 2026 |
 | ... | ... | ... |
 
-**Agent should maintain this table in ~/cpa/passed/ and alert when <3 months remain.**
+**Agent should maintain this table in ~/Clawic/data/cpa/passed/ and alert when <3 months remain.**
 
 ## Notice to Schedule (NTS)
 

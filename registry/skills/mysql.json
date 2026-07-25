@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "116478991a83cc6f49e2710ce76cf43e465d4e728d6672c371e8c4ef19cae08b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "mysql",
-    "name": "MySQL",
+    "name": "mysql",
     "description": "Write correct MySQL queries with proper character sets, indexing, transactions, and production patterns.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/mysql",
     "summary": "Quick Reference | Topic | File | |-------|------| | Index design deep dive | `indexes.md` | | Transactions and locking | `transactions.md` | | Query optimization | `queries.md` | | Production config | `production.md` | C",
     "repositoryPath": "skills/mysql",
     "manifestPath": "registry/skills/mysql.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mysql/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/_meta.json",
+      "byteCount": 238,
+      "sha256": "b51013788b6f6ba8ba8aacd59a237930ab980073c37efd90bc8315c912faeb26"
     },
     {
       "path": "indexes.md",
       "downloadPath": "skills/mysql/indexes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/indexes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/indexes.md",
+      "byteCount": 202,
+      "sha256": "32b196140b168fb6198ccc926f8eeadba5e4b5562df304b4734ffc603dd3790d"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/mysql/production.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/production.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/production.md",
+      "byteCount": 1605,
+      "sha256": "a2462629cd9ab22118ee1ae7a46c91522ba64e78b9943d3a67f1a32f308c64d6"
     },
     {
       "path": "queries.md",
       "downloadPath": "skills/mysql/queries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/queries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/queries.md",
+      "byteCount": 1596,
+      "sha256": "dd60e3051aee79f67cfb6d7b50f86efab64753ea77f6ff4a0da801196cf35f1d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mysql/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/SKILL.md",
+      "byteCount": 4303,
+      "sha256": "0df257f3ec9bf71433329fe76327b1dcb1142c8bb120bbe2b5696933f9675000"
     },
     {
       "path": "transactions.md",
       "downloadPath": "skills/mysql/transactions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/transactions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mysql/transactions.md",
+      "byteCount": 121,
+      "sha256": "9e32a0625bc6d36da54f47ef1ec043b7febf59004487877de5a6dc16f5c49109"
     }
   ]
 }

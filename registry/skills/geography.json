@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cb9e1ceada93c98e9fc14e98c5173e72a78c563b96f4294e203b696bc2a93280",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "geography",
-    "name": "Geography",
+    "name": "geography",
     "description": "Teach physical and human geography from map reading to spatial analysis.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/geography",
     "summary": "Detect Level, Adapt Everything - Context reveals level: map literacy, terminology, scale of thinking - When unclear, start with familiar places and adjust based on response - Never condescend to experts or overwhelm begi",
     "repositoryPath": "skills/geography",
     "manifestPath": "registry/skills/geography.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/geography/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geography/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geography/_meta.json",
+      "byteCount": 170,
+      "sha256": "4ea1a8739dd5a3de4789ab466993db7e923f19383fae4c25584c1b09a348ae45"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/geography/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geography/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/geography/SKILL.md",
+      "byteCount": 3304,
+      "sha256": "4bff701d82f47ac9b6e3ef377029f52ba1a6f351034c25123ad9935ed5b8c040"
     }
   ]
 }

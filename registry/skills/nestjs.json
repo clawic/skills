@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a431b180fe876d2c4b6394fa939ab2a09a06ee89e370831ddfa518e790abb13c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "nestjs",
-    "name": "NestJS",
+    "name": "nestjs",
     "description": "Avoid common NestJS mistakes — DI scoping, circular dependencies, validation pipes, and module organization traps.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/nestjs",
     "summary": "Dependency Injection - Provider not available — must be in `providers` array AND `exports` if used by other modules - Circular dependency crashes — use `forwardRef(() => Module)` in both modules - Default scope is single",
     "repositoryPath": "skills/nestjs",
     "manifestPath": "registry/skills/nestjs.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/nestjs/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nestjs/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nestjs/_meta.json",
+      "byteCount": 164,
+      "sha256": "521413e8744e4ca88ff4f0892879d628968a058cd6e238fc2e31f7665e62d2c4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/nestjs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nestjs/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nestjs/SKILL.md",
+      "byteCount": 2985,
+      "sha256": "3165b316c226efef657225a73830ace32aec176bf6b9747f430615ffa482a4ba"
     }
   ]
 }

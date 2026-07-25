@@ -1,6 +1,6 @@
 # Memory Template - Maps
 
-Create `~/maps/memory.md` with this structure:
+Create `~/Clawic/data/maps/memory.md` with this structure:
 
 ```markdown
 # Maps Memory

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b225f568a1a6cf6ff9cb57bb7712caddfa9c54d8e91748b47c7c5f4b08972627",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ielts",
-    "name": "IELTS",
+    "name": "ielts",
     "description": "Prepare for IELTS Academic or General Training with progress tracking, weak area analysis, band score targeting, and immigration pathway guidance.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ielts",
     "summary": "When to Use User is preparing for IELTS (International English Language Testing System). Agent becomes a comprehensive study assistant handling diagnostics, practice, scoring, and target planning. Quick Reference | Topic",
     "repositoryPath": "skills/ielts",
     "manifestPath": "registry/skills/ielts.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ielts/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/_meta.json",
+      "byteCount": 162,
+      "sha256": "3cbfea7ba1f16d5fecc866afe5f58b09fd20e57c6073f8c2614eb52c3a9ffe18"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/ielts/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/exam-config.md",
+      "byteCount": 4189,
+      "sha256": "6a03b16d8a697b9e3a1556a9898aab69fd2bcd0bef50117873f0718dab2090d9"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/ielts/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/feedback.md",
+      "byteCount": 4227,
+      "sha256": "4805bbad398526b1709470024ef9b66b2fca1d48afa94dee809d22a6f9f3324d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ielts/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/SKILL.md",
+      "byteCount": 2816,
+      "sha256": "9de641581a1d7dc6e2b151bd7d69685f393d8943d9b257acde314f94b63b3293"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/ielts/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/study-methods.md",
+      "byteCount": 4962,
+      "sha256": "92bc70a0c90e7861b624e028164ba3393294148d3be57e391229941c55d61a47"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/ielts/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/targets.md",
+      "byteCount": 3656,
+      "sha256": "57a7735666acf0d50e2085d8810939ebed1ff26c2745381dc0c9738f0f356434"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/ielts/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/tracking.md",
+      "byteCount": 4533,
+      "sha256": "a09570a8ecc8c6f858f8d93c1642a7a10cbb16cdbb9c38a394079b78b41d4510"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/ielts/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ielts/user-types.md",
+      "byteCount": 5909,
+      "sha256": "bd4c6dbf9b4fe9620276d31c7906bb9e5e8bec35081931338dd55b7f01692c0b"
     }
   ]
 }

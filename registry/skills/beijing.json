@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2aab59a65753cba18cb764bba51027a8adf7f9e069637879f4992e25f933c4e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "beijing",
     "name": "beijing",
-    "description": "Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China \u2014 pair with the china skill for other cities.",
+    "description": "Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China — pair with the china skill for other cities.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/beijing",
     "summary": "User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to ",
@@ -20,199 +23,277 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/beijing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/beijing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/_meta.json",
+      "byteCount": 316,
+      "sha256": "d54670adc8036767ea3c1ca4929a0e7f30cb01aa4a29f06efe598b3b726f9878"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/beijing/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/business.md",
+      "byteCount": 11293,
+      "sha256": "8af435006c7f8869e8a67f8bd30fc0f1c21899df5392b8a189b63146a5795ef8"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/beijing/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/climate.md",
+      "byteCount": 9006,
+      "sha256": "94bbffc36cd5d0199cf7edb1d2e2f9962ca5336893e1995f5ad162e451b2649e"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/beijing/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/cost.md",
+      "byteCount": 10641,
+      "sha256": "2fc7ba22bbcfbe013e67d6c523ce029ac727be75639b14eb77957fe7e0179b6b"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/beijing/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/culture.md",
+      "byteCount": 9504,
+      "sha256": "2bb54ad1c2ba8633a21cbd94b61e6ca6fc20657db7a9566fdf23b7eb7dd8f26e"
     },
     {
       "path": "driving.md",
       "downloadPath": "skills/beijing/driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/driving.md",
+      "byteCount": 9288,
+      "sha256": "b570a5b7d23fed2b0c666202ac3844ea9c62dad4057c96a2e0867a7869e47ba2"
     },
     {
       "path": "education.md",
       "downloadPath": "skills/beijing/education.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/education.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/education.md",
+      "byteCount": 8763,
+      "sha256": "2a2e7303b192fbaa1edb73d1c44d9f67dca85f6ab238d6031e810bda97b7895e"
     },
     {
       "path": "family.md",
       "downloadPath": "skills/beijing/family.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/family.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/family.md",
+      "byteCount": 5519,
+      "sha256": "9a2de86e041ab684a88698ef42fd978c4e292d0c518422d343bd6f2fae20ed0c"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/beijing/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-areas.md",
+      "byteCount": 8339,
+      "sha256": "8e2aa1e1d94ecae352eb50a71c4cbeabf07037698415db97eb30a3b1038205ee"
     },
     {
       "path": "food-international.md",
       "downloadPath": "skills/beijing/food-international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-international.md",
+      "byteCount": 8908,
+      "sha256": "af8f3b27e8f8061e7640501d8ec6a075c039d583eda4ed194cb6bddacafc0f27"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/beijing/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-local.md",
+      "byteCount": 8444,
+      "sha256": "aa9d44ff2c743d8beaf48473786810ff50992f73527719ac4dc4bd3c2f37d85a"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/beijing/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-overview.md",
+      "byteCount": 4468,
+      "sha256": "17335b9809a787217be0b123bcc8de8135ff6494fd063a8def13bbde2eb40a57"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/beijing/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/food-practical.md",
+      "byteCount": 9373,
+      "sha256": "593c46ed2218e5b1c70e1bfdd3c8c2cc1503ed5100f5f32a553eb0abfd35bc29"
     },
     {
       "path": "healthcare.md",
       "downloadPath": "skills/beijing/healthcare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/healthcare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/healthcare.md",
+      "byteCount": 10186,
+      "sha256": "70fd6cd692d658d3685e6bd553774ffc51f4df5c3571b1b633c1027244cd80e9"
     },
     {
       "path": "jobs.md",
       "downloadPath": "skills/beijing/jobs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/jobs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/jobs.md",
+      "byteCount": 5351,
+      "sha256": "fc0c0c5bd3a998a1b68b1e0111364792941ac64d54f2536eb484db5cacea9f3a"
     },
     {
       "path": "leaving.md",
       "downloadPath": "skills/beijing/leaving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/leaving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/leaving.md",
+      "byteCount": 5066,
+      "sha256": "1ad5a6b4f8df433bcd2c08a25799e63ef113ffb6eca89ebc0ce715e1a7349790"
     },
     {
       "path": "lifestyle.md",
       "downloadPath": "skills/beijing/lifestyle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/lifestyle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/lifestyle.md",
+      "byteCount": 9406,
+      "sha256": "b1b3ff7fb4c37eb4d204cb93782f4323e558af4efe954874797901c25c9922a8"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/beijing/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/local.md",
+      "byteCount": 10479,
+      "sha256": "cbf2e8be37fba601ea17d20d9806cff5beb5cfb7385442a515f1be0e9da5b0e6"
     },
     {
       "path": "mandarin.md",
       "downloadPath": "skills/beijing/mandarin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/mandarin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/mandarin.md",
+      "byteCount": 4213,
+      "sha256": "d6c9a2a988e92c20469fe2383f7b734e531832550ccc88448168dcfe9b880d68"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/beijing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/memory-template.md",
+      "byteCount": 903,
+      "sha256": "439a7b4cc098c168e04e02dbd34dbfa24f8e2fd1394da81c358db8e806d4d628"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/beijing/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-choosing.md",
+      "byteCount": 9023,
+      "sha256": "e0ac20a221c36436c3c5ff29ffb034f58dc604d2862bbe38dea8326c3e488bb7"
     },
     {
       "path": "neighborhoods-downtown.md",
       "downloadPath": "skills/beijing/neighborhoods-downtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-downtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-downtown.md",
+      "byteCount": 9427,
+      "sha256": "27a8cf2df0f25dfa75de1768adcf2ab4469a839bbcf9af92af3e3247e9d76f99"
     },
     {
       "path": "neighborhoods-historic.md",
       "downloadPath": "skills/beijing/neighborhoods-historic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-historic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-historic.md",
+      "byteCount": 9128,
+      "sha256": "43d8c4e4dc0122cc9c05c5a8489892960ece90ed0a85883a847617d80e2d9f7c"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/beijing/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-index.md",
+      "byteCount": 6579,
+      "sha256": "db55c368cdabe48cdb5b42f9a23a14320445b71a325b83659862847c2fe250e4"
     },
     {
       "path": "neighborhoods-suburban.md",
       "downloadPath": "skills/beijing/neighborhoods-suburban.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-suburban.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-suburban.md",
+      "byteCount": 9497,
+      "sha256": "8c53684ee9f40b3f076e879f40e753abbd0fe0ac13d84623fd09c4cd482ff60e"
     },
     {
       "path": "neighborhoods-tech.md",
       "downloadPath": "skills/beijing/neighborhoods-tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/neighborhoods-tech.md",
+      "byteCount": 8797,
+      "sha256": "14e579ac26e9370dbb614d6db43ecc1836e19dcf4f83d5919ed4e8a2adf362f0"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/beijing/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/resident.md",
+      "byteCount": 10443,
+      "sha256": "b28623604fe10024488994139901bd46cf13d0032dcd19b7b30b911640ba7799"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/beijing/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/safety.md",
+      "byteCount": 10244,
+      "sha256": "99a9571732180419de9683d3a4a9ef09345810856541f44a9464b4183cc329e1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/beijing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/setup.md",
+      "byteCount": 1919,
+      "sha256": "5f3407f51a3bf53b93adfdde78ff2e3206bf494b743f24c70b436a3a77841de5"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/beijing/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/SKILL.md",
+      "byteCount": 14529,
+      "sha256": "2071942b7a0ed1305e11d6e8e3c0888bde684757e1c2bf9eb59358f0a1b944ab"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/beijing/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/startup.md",
+      "byteCount": 10511,
+      "sha256": "4c2f854b9e58e8bc0a4d1630b546832b167c0d2ff57ff4cab670bdf3d3c4cd06"
     },
     {
       "path": "taxes.md",
       "downloadPath": "skills/beijing/taxes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/taxes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/taxes.md",
+      "byteCount": 5825,
+      "sha256": "c6b918a7d159d419b0390546f71ece46a38e2d27c8691e7a4dd80381be0aae65"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/beijing/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/tech.md",
+      "byteCount": 10993,
+      "sha256": "34a53b3057444fa34a38836e41d654c6daa6851ea91e13c4fd0a68635a7db730"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/beijing/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/transport.md",
+      "byteCount": 10864,
+      "sha256": "41f87f66cf479d7b54ede57661be06098f8e5d6301f04bc6fe28891f3343a7ea"
     },
     {
       "path": "visas.md",
       "downloadPath": "skills/beijing/visas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visas.md",
+      "byteCount": 9970,
+      "sha256": "be5e62f7076beeaad9400445ea86d4638c7864f62433cc23e88372d51ff9f419"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/beijing/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-attractions.md",
+      "byteCount": 8805,
+      "sha256": "bc240b93a5040ffed8316d54814561c8d1410723fa879300d955c75607e05cfc"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/beijing/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-itineraries.md",
+      "byteCount": 8409,
+      "sha256": "8130735391c2f9386a57551fc035d03f4468cebce669a0e001732bc25e37fc7a"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/beijing/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-lodging.md",
+      "byteCount": 10266,
+      "sha256": "9ee7f5837ff5055181387714156a3c77a3aeca5a68294f282a99297edec72692"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/beijing/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/visitor-tips.md",
+      "byteCount": 12226,
+      "sha256": "271f9fc9c180e4cb2d8e08c0e2ec3997c1581bc63f2564ce5b4d8f0a70896d67"
     }
   ]
 }

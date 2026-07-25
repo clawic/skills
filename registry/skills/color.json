@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c695437fe298a627d4c09c163bbe0964779201027829950103df859140455a9b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "color",
-    "name": "Color",
+    "name": "color",
     "description": "Build, inspect, adapt, and validate color systems, palettes, tokens, contrast, color-space choices, and cross-surface color behavior for UI, branding, charts, images, and print.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/color",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/color/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/_meta.json",
+      "byteCount": 162,
+      "sha256": "b1eab6d9d01b8e2be4146f7a0621e5ba0d5b67833ef923da9a59ae84f6dab3b1"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/color/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/accessibility.md",
+      "byteCount": 3500,
+      "sha256": "9a6b137a4e18c8b974fc9536df8d8fbdce45903539d75cf8fb2dd257cd26dbc5"
     },
     {
       "path": "branding.md",
       "downloadPath": "skills/color/branding.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/branding.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/branding.md",
+      "byteCount": 2521,
+      "sha256": "acc0dacb86a018a173242b2fe795ad26b0b638343169051568c3ce4de54f856c"
     },
     {
       "path": "color-spaces.md",
       "downloadPath": "skills/color/color-spaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/color-spaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/color-spaces.md",
+      "byteCount": 2880,
+      "sha256": "f2172771924d12b1b7c210229a10c85b20165174a3c57d7ef81579b2c40e3a15"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/color/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/commands.md",
+      "byteCount": 3422,
+      "sha256": "35481b7d5e246bdb1be7c5e959660bb5b7ffde491f919ccbcb989ceeba712157"
     },
     {
       "path": "data-viz.md",
       "downloadPath": "skills/color/data-viz.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/data-viz.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/data-viz.md",
+      "byteCount": 2685,
+      "sha256": "17c885caee8eeec99815d923fb2c6cce75b3c994c84119a8084372bd45e60b82"
     },
     {
       "path": "palettes.md",
       "downloadPath": "skills/color/palettes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/palettes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/palettes.md",
+      "byteCount": 3152,
+      "sha256": "5159e94b70ee6b20c4e2635839eeb79a732ab2caaffc4b3b5ac8dc12b1b8eb31"
     },
     {
       "path": "print.md",
       "downloadPath": "skills/color/print.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/print.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/print.md",
+      "byteCount": 2118,
+      "sha256": "1e8151b396024d9309d8114ff14aa4f05ba26a822c904de2db9f772cac9c4a15"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/color/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/SKILL.md",
+      "byteCount": 12371,
+      "sha256": "7e52cd3779de7fa06cdb2a7dc9dbc940fbda72a429af43f30071244018e51bdd"
     },
     {
       "path": "ui-systems.md",
       "downloadPath": "skills/color/ui-systems.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/ui-systems.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/color/ui-systems.md",
+      "byteCount": 2895,
+      "sha256": "343a82e7461c69ff9127dcdca2865dd26eb575adb7f2955b159303ed08746aa5"
     }
   ]
 }

@@ -1,9 +1,19 @@
 ---
-name: School
+name: school
 slug: school
 version: 1.0.0
 description: AI-powered education for K-12 students with parental controls, adaptive learning by age, homework help, exam prep, and progress tracking.
-metadata: {"clawdbot":{"emoji":"🏫","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/school
+metadata:
+  clawdbot:
+    emoji: 🏫
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: School
 ---
 
 ## When to Use
@@ -24,10 +34,10 @@ Parent wants to: support their child's education (preschool through high school)
 
 ## Workspace Structure
 
-All data lives in ~/school/:
+All data lives in ~/Clawic/data/school/:
 
 ```
-~/school/
+~/Clawic/data/school/
 ├── children/             # One folder per child
 │   ├── index.md          # Children list with ages, grades
 │   └── [child-name]/     # Per-child folder

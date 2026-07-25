@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "168f7beafa7174fec9dcf82470122f4ebdf75ee8a60eb910c65de7480da1aea6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "polish",
-    "name": "Polish",
+    "name": "polish",
     "description": "Write Polish that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/polish",
     "summary": "The Real Problem AI Polish is technically correct but sounds off. Too formal. Too literary. Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high. Casual Polis",
     "repositoryPath": "skills/polish",
     "manifestPath": "registry/skills/polish.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/polish/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polish/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polish/_meta.json",
+      "byteCount": 164,
+      "sha256": "b4cf1021ff8c7b9ba05bcca0cde39eee9df9ef66721a15302f3dc03e83a20ebc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/polish/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polish/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/polish/SKILL.md",
+      "byteCount": 2273,
+      "sha256": "3c90dcc087f333c69820d3d427d924fe525b66d4c77134341b2c2f52d8113189"
     }
   ]
 }

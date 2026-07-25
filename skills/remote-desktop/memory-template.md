@@ -1,6 +1,6 @@
 # Memory Template — Remote Desktop
 
-Create `~/remote-desktop/memory.md` with this structure:
+Create `~/Clawic/data/remote-desktop/memory.md` with this structure:
 
 ```markdown
 # Remote Desktop Memory
@@ -29,7 +29,7 @@ integration: pending
 
 ## Host Profile Template
 
-For each host, create `~/remote-desktop/hosts/{hostname}.md`:
+For each host, create `~/Clawic/data/remote-desktop/hosts/{hostname}.md`:
 
 ```markdown
 # {Hostname}

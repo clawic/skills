@@ -1,9 +1,19 @@
 ---
-name: Interior Design
+name: interior-design
 slug: interior-design
 version: 1.0.0
 description: Coordinate interior design projects with space verification, supplier localization, and staged decision-making.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/interior-design
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Interior Design
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs help with interior spaces: renovation planning, furniture selection, 
 
 ## Architecture
 
-Project data in `~/interior-design/`. See `memory-template.md` for setup.
+Project data in `~/Clawic/data/interior-design/`. See `memory-template.md` for setup.
 
 ```
-~/interior-design/
+~/Clawic/data/interior-design/
 |-- memory.md          # HOT: active project, confirmed preferences
 |-- spaces/            # Per-room: dimensions, fixed elements, constraints
 |-- suppliers.md       # Verified local suppliers with price tiers
@@ -24,9 +34,9 @@ Project data in `~/interior-design/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-All data stored in `~/interior-design/`. Create on first use:
+All data stored in `~/Clawic/data/interior-design/`. Create on first use:
 ```bash
-mkdir -p ~/interior-design/{spaces,archive}
+mkdir -p ~/Clawic/data/interior-design/{spaces,archive}
 ```
 
 ## Quick Reference
@@ -57,7 +67,7 @@ This skill NEVER:
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-Learned preferences stored in `~/interior-design/memory.md`.
+Learned preferences stored in `~/Clawic/data/interior-design/memory.md`.
 
 ## Core Rules
 

@@ -1,9 +1,19 @@
 ---
-name: Price
+name: price
 slug: price
 version: 1.0.0
 description: Track prices, detect deals and manipulation, time purchases, and make informed buying decisions as a consumer or business buyer.
-metadata: {"clawdbot":{"emoji":"💰","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/price
+metadata:
+  clawdbot:
+    emoji: 💰
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Price
 ---
 
 ## When to Use
@@ -25,10 +35,10 @@ NOT for: setting prices as a seller (use `pricing`), general buying process (use
 
 ## Workspace Structure
 
-All data lives in ~/price/:
+All data lives in ~/Clawic/data/price/:
 
 ```
-~/price/
+~/Clawic/data/price/
 ├── config.md           # Preferred retailers, alert thresholds
 ├── watchlist.md        # Items being tracked with targets
 ├── history/            # Price history by item

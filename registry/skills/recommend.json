@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3d440c5f3772db62f753b010f70703d02d7986b34823125efe79dea3cd206e5d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "recommend",
-    "name": "Recommend",
+    "name": "recommend",
     "description": "Context-aware recommendations. Learns preferences, researches options, anticipates expectations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/recommend",
     "summary": "Core Loop ``` Context → Preferences → Research → Match → Recommend ``` Every recommendation requires: knowing the user + knowing the options. Check `sources.md` for where to find user context. Check `categories.md` for d",
     "repositoryPath": "skills/recommend",
     "manifestPath": "registry/skills/recommend.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/recommend/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/_meta.json",
+      "byteCount": 170,
+      "sha256": "733195995be19e8d0a79f87d7054fbe7e02aa3318a620a3bc27f9584114cf954"
     },
     {
       "path": "categories.md",
       "downloadPath": "skills/recommend/categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/categories.md",
+      "byteCount": 1901,
+      "sha256": "234b39a7dc5d9382ab43866839cf621cb061b8accc443029fa4985af2f0acf39"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/recommend/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/SKILL.md",
+      "byteCount": 2788,
+      "sha256": "363a91c21161fa17b773820512254d046541038be3a62d96ac41b8c454c807b9"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/recommend/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recommend/sources.md",
+      "byteCount": 1421,
+      "sha256": "519d232b4ef8dd104b6ff246fd7cc196ef4b002fc6a4025099255993bb97238c"
     }
   ]
 }

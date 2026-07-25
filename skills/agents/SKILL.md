@@ -1,6 +1,13 @@
 ---
-name: Agents
+name: agents
+slug: agents
+version: 1.0.0
 description: Design, build, and deploy AI agents with architecture patterns, framework selection, memory systems, and production safety.
+homepage: https://clawic.com/skills/agents
+metadata:
+  clawdbot:
+    emoji: 🤖
+    displayName: Agents
 ---
 
 ## When to Use

@@ -1,9 +1,20 @@
 ---
-name: Retention
+name: retention
+slug: retention
+version: 1.0.0
 description: User retention strategy, cohort analysis, churn prevention, and reactivation campaigns
+homepage: https://clawic.com/skills/retention
 metadata:
   category: product
-  skills: ["retention", "churn", "cohorts", "engagement", "lifecycle"]
+  skills:
+  - retention
+  - churn
+  - cohorts
+  - engagement
+  - lifecycle
+  clawdbot:
+    emoji: 🔒
+    displayName: Retention
 ---
 
 ## Core Metrics

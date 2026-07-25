@@ -2,12 +2,12 @@
 
 ## Overview
 
-Local notes are plain markdown files in `~/notes/`. No CLI required, works on all systems.
+Local notes are plain markdown files in `~/Clawic/data/notes/`. No CLI required, works on all systems.
 
 ## File Structure
 
 ```
-~/notes/
+~/Clawic/data/notes/
 ├── config.md         # Platform config
 ├── index.md          # Search index
 ├── actions.md        # Action tracker
@@ -32,35 +32,35 @@ Local notes are plain markdown files in `~/notes/`. No CLI required, works on al
 
 ```bash
 # Meeting
-touch ~/notes/meetings/$(date +%Y-%m-%d)_topic.md
+touch ~/Clawic/data/notes/meetings/$(date +%Y-%m-%d)_topic.md
 
 # Journal
-touch ~/notes/journal/$(date +%Y-%m-%d).md
+touch ~/Clawic/data/notes/journal/$(date +%Y-%m-%d).md
 
 # Quick
-touch ~/notes/quick/$(date +%Y-%m-%d_%H-%M)_topic.md
+touch ~/Clawic/data/notes/quick/$(date +%Y-%m-%d_%H-%M)_topic.md
 ```
 
 ## Searching
 
 **By filename:**
 ```bash
-ls ~/notes/meetings/ | grep "product"
+ls ~/Clawic/data/notes/meetings/ | grep "product"
 ```
 
 **By content:**
 ```bash
-grep -r "keyword" ~/notes/
+grep -r "keyword" ~/Clawic/data/notes/
 ```
 
 **By tag (in frontmatter):**
 ```bash
-grep -l "tags:.*product" ~/notes/**/*.md
+grep -l "tags:.*product" ~/Clawic/data/notes/**/*.md
 ```
 
 ## Index Maintenance
 
-After creating/modifying notes, update `~/notes/index.md`:
+After creating/modifying notes, update `~/Clawic/data/notes/index.md`:
 1. Add to Recent Notes section
 2. Update tag counts
 3. Update people index if new attendees

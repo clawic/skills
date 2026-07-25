@@ -1,6 +1,6 @@
 # Setup - Prediction
 
-Use this file when `~/prediction/` is missing or empty, or when the user wants forecasting to become a recurring capability.
+Use this file when `~/Clawic/data/prediction/` is missing or empty, or when the user wants forecasting to become a recurring capability.
 
 Answer the immediate prediction question first, then lock activation behavior early so future forecasting work starts with the right level of rigor instead of guessing from scratch.
 
@@ -35,14 +35,14 @@ Clarify:
 ### 4. Create local state after the routing contract is clear
 
 ```bash
-mkdir -p ~/prediction/archive
-touch ~/prediction/memory.md
-touch ~/prediction/forecast-log.md
-touch ~/prediction/scorecard.md
-touch ~/prediction/reference-classes.md
-touch ~/prediction/assumptions.md
-chmod 700 ~/prediction ~/prediction/archive
-chmod 600 ~/prediction/memory.md ~/prediction/forecast-log.md ~/prediction/scorecard.md ~/prediction/reference-classes.md ~/prediction/assumptions.md
+mkdir -p ~/Clawic/data/prediction/archive
+touch ~/Clawic/data/prediction/memory.md
+touch ~/Clawic/data/prediction/forecast-log.md
+touch ~/Clawic/data/prediction/scorecard.md
+touch ~/Clawic/data/prediction/reference-classes.md
+touch ~/Clawic/data/prediction/assumptions.md
+chmod 700 ~/prediction ~/Clawic/data/prediction/archive
+chmod 600 ~/Clawic/data/prediction/memory.md ~/Clawic/data/prediction/forecast-log.md ~/Clawic/data/prediction/scorecard.md ~/Clawic/data/prediction/reference-classes.md ~/Clawic/data/prediction/assumptions.md
 ```
 
 If the files are empty, initialize them from `memory-template.md`.

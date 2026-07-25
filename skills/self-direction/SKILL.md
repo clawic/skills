@@ -1,10 +1,21 @@
 ---
-name: Self-Direction
+name: self-direction
 slug: self-direction
 version: 1.0.0
-homepage: https://clawic.com/skills/self-direction
 description: Your agent learns to think like you. Captures your direction system, makes decisions as you would, guides all processes toward your goals.
-metadata: {"clawdbot":{"emoji":"🧭","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/self-direction/"]}}
+homepage: https://clawic.com/skills/self-direction
+metadata:
+  clawdbot:
+    emoji: 🧭
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/self-direction/
+    displayName: Self-Direction
 ---
 
 Every human has an internal direction system — values, goals, decision criteria, risk tolerance, resource priorities. When you direct an agent, you transmit fragments of that system. But fragments aren't enough for true autonomy.
@@ -105,10 +116,10 @@ The agent actively captures direction signals when:
 
 ## Architecture
 
-The direction system lives in `~/self-direction/`. See `memory-template.md` for templates.
+The direction system lives in `~/Clawic/data/self-direction/`. See `memory-template.md` for templates.
 
 ```
-~/self-direction/
+~/Clawic/data/self-direction/
 ├── direction.md          # The complete direction model
 │   ├── values/           # What matters fundamentally
 │   ├── goals/            # Current objectives + reasons
@@ -335,7 +346,7 @@ High-confidence model. Acts on direction without confirmation. Explains reasonin
 New relationship or critical domain. Asks more, assumes less. Prioritizes not breaking trust.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `reflection` — Structured self-evaluation before delivering work
 - `decide` — Auto-learn decision patterns
@@ -345,5 +356,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star self-direction`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/self-direction
+- Latest version: https://clawic.com/skills/self-direction

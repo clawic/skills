@@ -1,11 +1,20 @@
 ---
-name: Paddle
+name: paddle
 slug: paddle
 version: 1.0.0
-homepage: https://clawic.com/skills/paddle
 description: Integrate Paddle payments with subscriptions, webhooks, checkout, and tax compliance.
+homepage: https://clawic.com/skills/paddle
 changelog: Initial release with API reference, webhook handling, and checkout integration.
-metadata: {"clawdbot":{"emoji":"🏓","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🏓
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Paddle
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs to integrate Paddle for SaaS payments. Agent handles API calls, webho
 
 ## Architecture
 
-Memory lives in `~/paddle/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/paddle/`. See `memory-template.md` for structure.
 
 ```
-~/paddle/
+~/Clawic/data/paddle/
 ├── memory.md     # API keys, environment, product IDs
 └── webhooks.md   # Webhook endpoints and event handling
 ```
@@ -111,12 +120,12 @@ By using this skill, customer and payment data is sent to Paddle.
 Only install if you trust Paddle with your billing data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `billing` — General billing patterns
 - `payments` — Payment processing
 - `subscriptions` — Subscription management
 
 ## Feedback
 
-- If useful: `clawhub star paddle`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/paddle
+- Latest version: https://clawic.com/skills/paddle

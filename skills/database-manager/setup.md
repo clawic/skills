@@ -1,6 +1,6 @@
 # Setup - Database Manager
 
-Use this file on first activation or whenever `~/database-manager/` is missing key files.
+Use this file on first activation or whenever `~/Clawic/data/database-manager/` is missing key files.
 
 ## Operating Attitude
 
@@ -14,10 +14,10 @@ Use this file on first activation or whenever `~/database-manager/` is missing k
 2. If approved, create the base structure:
 
 ```bash
-mkdir -p ~/database-manager/archive
-touch ~/database-manager/{memory.md,inventory.md,standards.md,migrations.md,backups.md,incidents.md}
+mkdir -p ~/Clawic/data/database-manager/archive
+touch ~/Clawic/data/database-manager/{memory.md,inventory.md,standards.md,migrations.md,backups.md,incidents.md}
 chmod 700 ~/database-manager
-chmod 600 ~/database-manager/{memory.md,inventory.md,standards.md,migrations.md,backups.md,incidents.md}
+chmod 600 ~/Clawic/data/database-manager/{memory.md,inventory.md,standards.md,migrations.md,backups.md,incidents.md}
 ```
 
 3. If `memory.md` is empty, initialize it from `memory-template.md`.

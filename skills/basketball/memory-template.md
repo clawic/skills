@@ -1,6 +1,6 @@
 # Memory Template - Basketball
 
-Create `~/basketball/memory.md` with this structure:
+Create `~/Clawic/data/basketball/memory.md` with this structure:
 
 ```markdown
 # Basketball Memory
@@ -59,19 +59,19 @@ memory_mode: approved | one-off | declined
 
 ## Supporting Files
 
-For `~/basketball/possession-map.md`, keep:
+For `~/Clawic/data/basketball/possession-map.md`, keep:
 - game context and date
 - preview or review mode
 - possession themes
 - key matchups, triggers, and next actions
 
-For `~/basketball/roster-notes.md`, keep:
+For `~/Clawic/data/basketball/roster-notes.md`, keep:
 - role map
 - lineups that work or fail
 - recruitment needs
 - player-fit summaries
 
-For `~/basketball/practice-log.md`, keep:
+For `~/Clawic/data/basketball/practice-log.md`, keep:
 - weekly rhythm
 - drill notes that actually transfer to games
 - recurring constraints

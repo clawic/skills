@@ -1,6 +1,6 @@
 # Memory Template — Content Marketing
 
-Create `~/content-marketing/memory.md` with this structure:
+Create `~/Clawic/data/content-marketing/memory.md` with this structure:
 
 ```markdown
 # Content Marketing Memory
@@ -42,7 +42,7 @@ integration: pending
 
 ## Calendar Template
 
-Create `~/content-marketing/calendar.md`:
+Create `~/Clawic/data/content-marketing/calendar.md`:
 
 ```markdown
 # Editorial Calendar

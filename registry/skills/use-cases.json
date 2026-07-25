@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4c57194acccf0e6b4a9ddefb78554e360d9b8d0205e1d2f6687dfeff0c515463",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "use-cases",
-    "name": "Use Cases",
+    "name": "use-cases",
     "description": "Discover what AI agents can do for you with practical examples by role, task type, and skill level.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/use-cases",
     "summary": "Who This Is For Someone asking \"what can this actually do?\" Start by identifying their context. | Signal | They are... | Load | |--------|-------------|------| | \"Just heard about AI\", \"is this useful for me?\" | Beginner",
     "repositoryPath": "skills/use-cases",
     "manifestPath": "registry/skills/use-cases.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/use-cases/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/_meta.json",
+      "byteCount": 170,
+      "sha256": "32a1ea0d7e44f7c6d9a453f64c87dd3bca37384a1ce502203e1dda214dc1cbd0"
     },
     {
       "path": "beginner.md",
       "downloadPath": "skills/use-cases/beginner.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/beginner.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/beginner.md",
+      "byteCount": 1547,
+      "sha256": "d5575a9df51cebfe29102b4e07c26315b4e5b996bdc1163e1bd22ff882e6d359"
     },
     {
       "path": "business.md",
       "downloadPath": "skills/use-cases/business.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/business.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/business.md",
+      "byteCount": 1982,
+      "sha256": "1d3e849ede72814a3736f102028a48e3cc44bcf8a61134d602d65aa24d8196cd"
     },
     {
       "path": "creative.md",
       "downloadPath": "skills/use-cases/creative.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/creative.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/creative.md",
+      "byteCount": 2213,
+      "sha256": "c4ab4af7e4f084ca15e781affa5591f1018d4f59b186682a6882cf8598f92a0d"
     },
     {
       "path": "developer.md",
       "downloadPath": "skills/use-cases/developer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/developer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/developer.md",
+      "byteCount": 2022,
+      "sha256": "da258603e82d8363642a71bd2318d3adfeb53c7d9a178b65a949a59022af4746"
     },
     {
       "path": "professional.md",
       "downloadPath": "skills/use-cases/professional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/professional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/professional.md",
+      "byteCount": 1858,
+      "sha256": "a667554f063d577fce1c5d7b38c683a3bc3b98908a329c0184a7616efa8d4df8"
     },
     {
       "path": "skeptic.md",
       "downloadPath": "skills/use-cases/skeptic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/skeptic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/skeptic.md",
+      "byteCount": 2242,
+      "sha256": "d3bbe9394d45f16f4798c53d4994589c5741d4dfb927fb4ee063a72cb2ff7b9b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/use-cases/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/use-cases/SKILL.md",
+      "byteCount": 3380,
+      "sha256": "ea1c276b8490483b456d0dbda3ed423c33b029c5c031ca93bab57539a63390c1"
     }
   ]
 }

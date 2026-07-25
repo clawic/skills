@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "91c8a188ac9ebc6ae720b859830d3b5fe7867ae93ed1e553aac70fd71b4b15c1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "notion-api-integration",
-    "name": "Notion API Integration",
+    "name": "notion-api-integration",
     "description": "Complete Notion API for databases, pages, blocks, users, search, comments, and property types with pagination and error handling.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/notion-api-integration",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/notion-api-integration/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/_meta.json",
+      "byteCount": 196,
+      "sha256": "fe44c82e254724804c722c7435ff08774ed65a130d247485af40abc34f6d0450"
     },
     {
       "path": "blocks.md",
       "downloadPath": "skills/notion-api-integration/blocks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/blocks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/blocks.md",
+      "byteCount": 2599,
+      "sha256": "471daaf53c03aacc3604f3d8c91c05fe27b2bcd6da4c389c7c35ad80e838e0eb"
     },
     {
       "path": "databases.md",
       "downloadPath": "skills/notion-api-integration/databases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/databases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/databases.md",
+      "byteCount": 2316,
+      "sha256": "0589fd522e389459baf04d23910aa286ea61da8cd1c51064f57ce367f8510a00"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/notion-api-integration/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/errors.md",
+      "byteCount": 2240,
+      "sha256": "af31992553110ebc19d9b0083e95c2d9f6ce0c4dde42783c02735865bbe43199"
     },
     {
       "path": "filters.md",
       "downloadPath": "skills/notion-api-integration/filters.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/filters.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/filters.md",
+      "byteCount": 2500,
+      "sha256": "6fb9cb91cef33cc00c764688f371c5fe5c7c2a76edcbc5fb4a7ad02a57480fa0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/notion-api-integration/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/memory-template.md",
+      "byteCount": 1342,
+      "sha256": "13ea7b26ad3331f1159a4b3a55098414706e20e17a2b3a4a6b9708584ffc9ad8"
     },
     {
       "path": "pages.md",
       "downloadPath": "skills/notion-api-integration/pages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pages.md",
+      "byteCount": 2140,
+      "sha256": "4ab8f4f6d0e67cab1dd00b185691c426837b358e32388549dd264590d1cf67e0"
     },
     {
       "path": "pagination.md",
       "downloadPath": "skills/notion-api-integration/pagination.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pagination.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/pagination.md",
+      "byteCount": 2463,
+      "sha256": "f40976623f06ec471a120743e6da2ff9eb618c05e33f1b538bb84d5d4dfd251e"
     },
     {
       "path": "properties.md",
       "downloadPath": "skills/notion-api-integration/properties.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/properties.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/properties.md",
+      "byteCount": 1923,
+      "sha256": "7fa38d005ceadb459c280fbb5b5dd23f44ed8f570a7abd68c07edb90906c6ef4"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/notion-api-integration/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/search.md",
+      "byteCount": 1826,
+      "sha256": "4d265676f2eab70fc80c8838dc635160b6fa35e30d68f6b94f0923671e45657f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/notion-api-integration/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/setup.md",
+      "byteCount": 1660,
+      "sha256": "70d07504c244afe40b30c4e5b0786853f33f63e5c1c9523e537a74f96de6965a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/notion-api-integration/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/SKILL.md",
+      "byteCount": 4248,
+      "sha256": "d63f693471a0d79968d00d74b105610af16b6a5fe8b4603c7e1c8cee95aebdff"
     }
   ]
 }

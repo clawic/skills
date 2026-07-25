@@ -1,10 +1,19 @@
 ---
-name: Stock Images
+name: stock-images
 slug: stock-images
 version: 1.0.0
-homepage: https://clawic.com/skills/stock-images
 description: Source free stock photos and placeholder images with direct URLs for Unsplash, Pexels, Pixabay, and Lorem Picsum.
-metadata: {"clawdbot":{"emoji":"📸","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/stock-images
+metadata:
+  clawdbot:
+    emoji: 📸
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Stock Images
 ---
 
 ## Setup
@@ -129,7 +138,7 @@ No authentication required. No user data sent.
 - Require API registration
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image` — image analysis and manipulation
 - `image-generation` — AI image generation
 - `frontend` — frontend development
@@ -137,5 +146,5 @@ Install with `clawhub install <slug>` if user confirms:
 - `ui` — UI design patterns
 
 ## Feedback
-- If useful: `clawhub star stock-images`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/stock-images
+- Latest version: https://clawic.com/skills/stock-images

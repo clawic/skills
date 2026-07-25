@@ -1,6 +1,6 @@
 # Setup - Uber Eats
 
-Use this when `~/uber-eats/` does not exist or is empty. Start naturally and keep the conversation centered on the user's real Uber Eats ordering habits, not on file mechanics.
+Use this when `~/Clawic/data/uber-eats/` does not exist or is empty. Start naturally and keep the conversation centered on the user's real Uber Eats ordering habits, not on file mechanics.
 
 ## Your Attitude
 
@@ -17,7 +17,7 @@ Good early questions:
 - Should it reuse the daily signed-in browser profile, or stay read-only unless explicitly asked?
 - Is draft-cart help welcome, or should the skill stop at browse-and-compare unless the user asks for checkout?
 
-Record the activation rule in `~/uber-eats/memory.md` so future sessions can reuse it.
+Record the activation rule in `~/Clawic/data/uber-eats/memory.md` so future sessions can reuse it.
 
 ### 2. Then: Session and Safety Mode
 

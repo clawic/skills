@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "14f7ff281dd4a2973791fee2d830a3192d95c42583797ca327ac94edbbe3adde",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "law",
-    "name": "Law",
+    "name": "law",
     "description": "Support legal understanding from everyday rights to professional practice and scholarship.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/law",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, procedural knowledge, professional framing - When unclear, ask about their role before giving specific information - Never provide legal advice; always ",
     "repositoryPath": "skills/law",
     "manifestPath": "registry/skills/law.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/law/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/law/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/law/_meta.json",
+      "byteCount": 158,
+      "sha256": "d069696c4e90004cd0893035a996432b30bc9c80fa1c95c44cb5edca49d5a932"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/law/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/law/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/law/SKILL.md",
+      "byteCount": 7145,
+      "sha256": "1e498cf6cd5ae5d069c0fa9c5ef50db35fa609cb333121aac8abba44b5bdf6fb"
     }
   ]
 }

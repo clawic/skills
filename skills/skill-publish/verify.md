@@ -47,26 +47,25 @@ User should confirm:
 
 ## Publish Command
 
-Only after approval:
-```bash
-npx clawhub publish <folder> \
-  --slug "<slug>" \
-  --name "<name>" \
-  --version "<version>"
-```
+Only after approval, publish using the target platform's own publish mechanism — the exact command or web flow depends on which registry the user is publishing to (several exist; use whichever one the user has an account/CLI for). Regardless of platform, this step is a **publisher-only, one-way push** from the local folder to the registry — it is not the command a consumer runs to install or update the skill later.
+
+Ask the user (or check the platform's own docs) for:
+- The CLI command or web upload flow the registry expects
+- Whether slug/name/version are passed as flags or read from the skill's frontmatter
+- Any account or authentication step required before the push succeeds
 
 ## Post-Publish Verification
 
 After publishing:
-1. Confirm success message
-2. Optionally install to verify: `npx clawhub install <slug> --dir /tmp/verify`
-3. Report to user: "Published [slug]@[version]"
+1. Confirm the platform's success message
+2. Optionally install the published result fresh to verify it round-trips correctly, using that platform's install command
+3. Report to user: "Published [slug]@[version] to <platform>"
 
 ## If Something Goes Wrong
 
-- Wrong slug? Cannot change. Contact ClawHub support.
-- Wrong content? Publish new version with fix.
-- Exposed private data? Publish sanitized version ASAP, contact support.
+- Wrong slug? Usually cannot be changed after the fact — contact the platform's support/moderation channel. Slug uniqueness rules (global vs per-owner) vary by registry.
+- Wrong content? Publish a new version with the fix.
+- Exposed private data? Publish a sanitized version ASAP, then contact the platform's support.
 
 ## Version Guidelines
 

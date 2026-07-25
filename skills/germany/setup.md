@@ -10,7 +10,7 @@ mkdir -p ~/germany
 ```
 
 ### 2. Initialize Memory File
-Create `~/germany/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/germany/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Movement style: rail-first, car-first, or flexible if tradeoffs are clear?
 
 ### 4. Save to Memory
-Update `~/germany/memory.md` with the current intent, constraints, and decision status.
+Update `~/Clawic/data/germany/memory.md` with the current intent, constraints, and decision status.
 
 ## Returning Users
 
-If `~/germany/memory.md` exists:
+If `~/Clawic/data/germany/memory.md` exists:
 1. Read it silently
 2. Reuse known constraints and priorities
 3. Ask only what changed (dates, region focus, event goals, budget, mobility)

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "27003c5e229a490d4ab9acee798f3a3350503c17cbd84ecbfdade90faa74e4fa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "dhgate",
-    "name": "DHgate",
+    "name": "dhgate",
     "description": "Buy, source, and dispute on DHgate with supplier vetting, landed-cost checks, tracking triage, and counterfeit-risk control.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/dhgate",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dhgate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/_meta.json",
+      "byteCount": 164,
+      "sha256": "5f371091dfb7661f71a43fce8d41864189580020ffd4e9096ff6a6c0866e33be"
     },
     {
       "path": "counterfeit-checks.md",
       "downloadPath": "skills/dhgate/counterfeit-checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/counterfeit-checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/counterfeit-checks.md",
+      "byteCount": 1839,
+      "sha256": "fafe53f2298a680eed3a4ac805adba6bf0ae9bbd1e53f32eec72807d505be9d4"
     },
     {
       "path": "landed-cost.md",
       "downloadPath": "skills/dhgate/landed-cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/landed-cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/landed-cost.md",
+      "byteCount": 1993,
+      "sha256": "58d367be64f92dbe58a4e2d34f54dade9accdffda9e2064dafad4d5c32bcdb8d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/dhgate/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/memory-template.md",
+      "byteCount": 2285,
+      "sha256": "a285788390764c30eb13b56564a0e6826c6bcef273903157cf547ce377934feb"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/dhgate/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/setup.md",
+      "byteCount": 2671,
+      "sha256": "a967ab5dd32843d2f9f94ebf19b3f910aa2c0bd9eda7b5a48790e72af4695e08"
     },
     {
       "path": "shipping-disputes.md",
       "downloadPath": "skills/dhgate/shipping-disputes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/shipping-disputes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/shipping-disputes.md",
+      "byteCount": 2730,
+      "sha256": "98afd2316579f1aab69a3df8caeb424d929131dc3f3bc744bbb841b8b684e25c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dhgate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/SKILL.md",
+      "byteCount": 6817,
+      "sha256": "8dcb4e31be34c8a83736f303d57af9d18b2c5d9fcf0a7043be2611ec90f296fa"
     },
     {
       "path": "sourcing-messages.md",
       "downloadPath": "skills/dhgate/sourcing-messages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/sourcing-messages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/sourcing-messages.md",
+      "byteCount": 1711,
+      "sha256": "961c5b1b606422e2efaeac4763c55d2df1da463abccc86405decf014025ec4f6"
     },
     {
       "path": "supplier-vetting.md",
       "downloadPath": "skills/dhgate/supplier-vetting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/supplier-vetting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dhgate/supplier-vetting.md",
+      "byteCount": 2642,
+      "sha256": "b2b94c7dbf6872e6b0defe19d2ec55aad285927c11ef6f9dcf49b2c293bbc65d"
     }
   ]
 }

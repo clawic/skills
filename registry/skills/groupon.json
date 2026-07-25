@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ceb0299bf60851434228b569e89739343cded6d322fda132b6f53f78f52be85e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "groupon",
-    "name": "Groupon",
+    "name": "groupon",
     "description": "Find, compare, and vet Groupon vouchers with fine-print checks, refund rules, and redemption planning.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/groupon",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/groupon/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/_meta.json",
+      "byteCount": 166,
+      "sha256": "1fabf1137b67ba7f90f0241f7ccd484b65678e5e42cd8b1535485a1497309ec8"
     },
     {
       "path": "category-playbook.md",
       "downloadPath": "skills/groupon/category-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/category-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/category-playbook.md",
+      "byteCount": 1372,
+      "sha256": "1c3eb19fbf5645165ec7cedc6133af71ad24ec58bf9234b6937d6890b28d2755"
     },
     {
       "path": "deal-qualification.md",
       "downloadPath": "skills/groupon/deal-qualification.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/deal-qualification.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/deal-qualification.md",
+      "byteCount": 2594,
+      "sha256": "0db0b3132e9f02d7fd43d52b4125b561eff1729a6023e9dd5838241278b83dbb"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/groupon/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/memory-template.md",
+      "byteCount": 1650,
+      "sha256": "e1c88d2369427f05cfba1ae55166658ac5bc9635fb0eecfaa3d4055dfea2e197"
     },
     {
       "path": "merchant-checks.md",
       "downloadPath": "skills/groupon/merchant-checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/merchant-checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/merchant-checks.md",
+      "byteCount": 2783,
+      "sha256": "4f69027ea497286575776a0b2b5123eed455998932e8bbefb473ca34e28e99ef"
     },
     {
       "path": "recovery.md",
       "downloadPath": "skills/groupon/recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/recovery.md",
+      "byteCount": 2494,
+      "sha256": "a02def104bac964810e01ce195ec7b5cdfbe7d26194a00e2f26ad56754c56467"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/groupon/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/setup.md",
+      "byteCount": 2081,
+      "sha256": "3eabb6dea3e715c279b6c188b499723000adbf3d474d418161d850c98d998f51"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/groupon/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groupon/SKILL.md",
+      "byteCount": 8271,
+      "sha256": "ab3e3c34cb136fe0deba8f745eb37eee2d92eb8ec06614fe4c932996056dbafa"
     }
   ]
 }

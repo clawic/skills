@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fc343517597b88adb25b94d8f75b8103752eefc14644c75072acfa8b786c0bbe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "italy",
-    "name": "Italy",
+    "name": "italy",
     "description": "Discover Italy beyond the clichés with specific restaurants, hidden gems, and insights that only locals know.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/italy",
-    "summary": "Setup If `~/italy/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Italy or wanting local insights: where to eat, what to skip, regional differences, hidden gems, and ",
+    "summary": "Setup If `~/Clawic/data/italy/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Italy or wanting local insights: where to eat, what to skip, regional differences, hidde",
     "repositoryPath": "skills/italy",
     "manifestPath": "registry/skills/italy.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/italy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/_meta.json",
+      "byteCount": 162,
+      "sha256": "dbffafd9f0e809e463d8094264f3bfcf9533dab5d79580cf9dcf7bfa3de9ec61"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/italy/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/accommodation.md",
+      "byteCount": 6563,
+      "sha256": "0d0d95a0a0ec3a52c7e66e01566be7f3cf26e5682d1b9111635b4aa2fc70c5fb"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/italy/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/apps.md",
+      "byteCount": 5422,
+      "sha256": "0622e8116814d3a7f9ec965b5ff9892a978183981f3acee9e163437925af5042"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/italy/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/beaches.md",
+      "byteCount": 6333,
+      "sha256": "82e3950881e5ba614322117ccd1a5f61b5d2e839547aba3b1c55f8e8cc8668d8"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/italy/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/culture.md",
+      "byteCount": 5982,
+      "sha256": "ee7edcb10dd9b8f5fb0a5cd1f05b609453604e810c566a7e7e5a5be63ee4fa07"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/italy/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/emergencies.md",
+      "byteCount": 6858,
+      "sha256": "7bd83089a378ee8aec3bb16b24b16b976759a48371f5c745616c62a5a3fba314"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/italy/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/experiences.md",
+      "byteCount": 6379,
+      "sha256": "88d9aa8ab0e62048bea6953cb365bf3de67ee7e25d12b32aff53fd286bcf5585"
     },
     {
       "path": "florence.md",
       "downloadPath": "skills/italy/florence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/florence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/florence.md",
+      "byteCount": 6776,
+      "sha256": "e607523ca343d9e517a6884fe7dae53f88ff960c95a3c185739562888af6a37b"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/italy/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/food-guide.md",
+      "byteCount": 6874,
+      "sha256": "4403a4c0d95244c56c0385ca1541265091f9a6f0b9aa5fd0e2cc7f79f61aca95"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/italy/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/hiking.md",
+      "byteCount": 5928,
+      "sha256": "39e8697887f198c014a8922df27d637a901b916168a503253bda2957b32a940a"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/italy/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/itineraries.md",
+      "byteCount": 5963,
+      "sha256": "2135bd329d4f050cfc8454cade0680f8929d91f182c71073ac836f8633dfb1b2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/italy/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/memory-template.md",
+      "byteCount": 1582,
+      "sha256": "8f84e2f1d742fead10a960a37e624cddea0b6496191cab77c0ec23c95e1735af"
     },
     {
       "path": "naples.md",
       "downloadPath": "skills/italy/naples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/naples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/naples.md",
+      "byteCount": 6239,
+      "sha256": "660fc8ea28a3489df2450de70c16bd012eb7be1fee46c87ace951281cd9cc606"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/italy/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/nightlife.md",
+      "byteCount": 5930,
+      "sha256": "3716dac0324c96c5c672ec3672d517398a25c1783b5a2666c31dbef65d317a75"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/italy/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/regions.md",
+      "byteCount": 6073,
+      "sha256": "7133b3fef197110551371c66e28103e8b928a175567d5585805e22f3a873d16b"
     },
     {
       "path": "rome.md",
       "downloadPath": "skills/italy/rome.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/rome.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/rome.md",
+      "byteCount": 6745,
+      "sha256": "423951fc693d2907625a6eb6821d978bbf2aa1ff48b3aca15772de63fde687c5"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/italy/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/setup.md",
+      "byteCount": 3271,
+      "sha256": "c19ee7a60dc8679625fe5d050967de0fccdbe8a3f7fd007bbbee79122828240f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/italy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/SKILL.md",
+      "byteCount": 4477,
+      "sha256": "692a80d07b27d043cf75372b8d30b310c3774529fd4b508a9cda84dd774d8f99"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/italy/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/telecoms.md",
+      "byteCount": 5928,
+      "sha256": "99f8ab3aa1e37725bbe7765926f207ee7468cdb5535491f0e1143209d53568c1"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/italy/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/transport.md",
+      "byteCount": 6821,
+      "sha256": "fb00ad6da30db9109ec05e21296efb04df0890f4417b4588a4815f271df2ecf5"
     },
     {
       "path": "venice.md",
       "downloadPath": "skills/italy/venice.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/venice.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/venice.md",
+      "byteCount": 7064,
+      "sha256": "13815d5f049ba6abf384c7487d6dc94896592b7af9d135346ddd8384843cfbb1"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/italy/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/wine.md",
+      "byteCount": 6352,
+      "sha256": "9ea725a50971dcfcef2e572bccea1585c486e9f10ba91bb0fe81388b010c60b2"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/italy/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/italy/with-kids.md",
+      "byteCount": 6742,
+      "sha256": "846cfa31c394065df8033cccf8ccbb614ba8700ae5c42fa21a2d53961dff68ae"
     }
   ]
 }

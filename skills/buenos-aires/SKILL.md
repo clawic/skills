@@ -1,11 +1,20 @@
 ---
-name: Buenos Aires
+name: buenos-aires
 slug: buenos-aires
 version: 1.0.1
-changelog: Unicode cleanup for ClawHub compatibility, added Scope section
-homepage: https://clawic.com/skills/buenos-aires
 description: Navigate Buenos Aires as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"AR","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/buenos-aires
+changelog: Unicode cleanup for registry compatibility, added Scope section
+metadata:
+  clawdbot:
+    emoji: AR
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Buenos Aires
 ---
 
 ## When to Use

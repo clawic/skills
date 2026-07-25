@@ -1,7 +1,16 @@
 ---
-name: Raspberry Pi
+name: raspberry
+slug: raspberry
+version: 1.0.0
 description: Set up and maintain Raspberry Pi avoiding common hardware and configuration pitfalls.
-metadata: {"clawdbot":{"emoji":"🍓","os":["linux","darwin"]}}
+homepage: https://clawic.com/skills/raspberry
+metadata:
+  clawdbot:
+    emoji: 🍓
+    os:
+    - linux
+    - darwin
+    displayName: Raspberry Pi
 ---
 
 ## Power Supply Issues

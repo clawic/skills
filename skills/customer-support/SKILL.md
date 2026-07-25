@@ -1,7 +1,17 @@
 ---
-name: Customer Support
+name: customer-support
+slug: customer-support
+version: 1.0.0
 description: Resolve issues, communicate with empathy, and turn frustrated customers into loyal advocates.
-metadata: {"clawdbot":{"emoji":"🎧","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/customer-support
+metadata:
+  clawdbot:
+    emoji: 🎧
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Customer Support
 ---
 
 # Customer Support Rules

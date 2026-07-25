@@ -1,16 +1,35 @@
 ---
-name: Tripadvisor
+name: tripadvisor
 slug: tripadvisor
 version: 1.0.0
-homepage: https://clawic.com/skills/tripadvisor
 description: Find and compare Tripadvisor hotels, restaurants, and attractions with official API workflows, URL-first navigation, and policy-safe data handling.
+homepage: https://clawic.com/skills/tripadvisor
 changelog: Added official API workflows, UI navigation playbook, and clear compliance guardrails for Tripadvisor interactions.
-metadata: {"clawdbot":{"emoji":"🧭","requires":{"bins":["curl","jq","sed"],"env":["TRIPADVISOR_API_KEY"],"config":["~/tripadvisor/"]},"primaryEnv":"TRIPADVISOR_API_KEY","os":["linux","darwin","win32"],"configPaths":["~/tripadvisor/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧭
+    requires:
+      bins:
+      - curl
+      - jq
+      - sed
+      env:
+      - TRIPADVISOR_API_KEY
+      config:
+      - ~/Clawic/data/tripadvisor/
+    primaryEnv: TRIPADVISOR_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/tripadvisor/
+    displayName: Tripadvisor
 ---
 
 ## Setup
 
-If `~/tripadvisor/` does not exist or is empty, read `setup.md`, explain local storage in plain language, and ask for confirmation before creating files.
+If `~/Clawic/data/tripadvisor/` does not exist or is empty, read `setup.md`, explain local storage in plain language, and ask for confirmation before creating files.
 
 ## When to Use
 
@@ -18,10 +37,10 @@ User wants to interact with Tripadvisor directly: search destinations, compare h
 
 ## Architecture
 
-Memory lives in `~/tripadvisor/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/tripadvisor/`. See `memory-template.md` for setup.
 
 ```text
-~/tripadvisor/
+~/Clawic/data/tripadvisor/
 ├── memory.md                 # Preferences and recurring constraints
 ├── sessions/
 │   └── YYYY-MM-DD.md         # Search context and selected candidates
@@ -55,7 +74,7 @@ Pick one mode per task:
 - Hybrid mode: API for discovery, UI for final verification
 
 ### 3. Resolve `location_id` before deep queries
-For API mode, first map user query to a valid `location_id`, then fetch detail/review/photo endpoints. Cache successful mappings in `~/tripadvisor/api/location-cache.md`.
+For API mode, first map user query to a valid `location_id`, then fetch detail/review/photo endpoints. Cache successful mappings in `~/Clawic/data/tripadvisor/api/location-cache.md`.
 
 ### 4. Prefer URL-driven navigation over fragile clicks
 In UI mode, rely on stable Tripadvisor URLs when possible (city vertical pages and entity detail URLs) before complex click chains.
@@ -70,7 +89,7 @@ Always return a ranked shortlist with explicit tradeoffs:
 - uncertainty or missing data
 
 ### 7. Keep storage minimal and transparent
-Store only reusable trip preferences and selected options under `~/tripadvisor/`. Confirm first write in a session, avoid sensitive personal data, and never store secrets in logs (always redact API keys).
+Store only reusable trip preferences and selected options under `~/Clawic/data/tripadvisor/`. Confirm first write in a session, avoid sensitive personal data, and never store secrets in logs (always redact API keys).
 
 ## Common Traps
 
@@ -97,10 +116,10 @@ No other data is sent externally.
 - Destination names, optional date windows, and lightweight filters sent to Tripadvisor API or web pages.
 
 **Data that stays local:**
-- Preferences, shortlist decisions, and request logs in `~/tripadvisor/`.
+- Preferences, shortlist decisions, and request logs in `~/Clawic/data/tripadvisor/`.
 
 **This skill does NOT:**
-- Access files outside `~/tripadvisor/`
+- Access files outside `~/Clawic/data/tripadvisor/`
 - Store payment or passport data by default
 - Use scraping bypasses, CAPTCHA evasion, or anti-bot circumvention
 
@@ -122,7 +141,7 @@ This skill NEVER:
 - Execute purchases or account actions without explicit user instruction
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `booking` — compare accommodation options and total cost breakdowns
 - `travel` — manage broader trip planning workflows
 - `apple-maps` — validate route friction and area accessibility on macOS
@@ -131,5 +150,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tripadvisor`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tripadvisor
+- Latest version: https://clawic.com/skills/tripadvisor

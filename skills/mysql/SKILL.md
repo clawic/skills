@@ -1,9 +1,20 @@
 ---
-name: MySQL
+name: mysql
 slug: mysql
 version: 1.0.1
 description: Write correct MySQL queries with proper character sets, indexing, transactions, and production patterns.
-metadata: {"clawdbot":{"emoji":"🐬","requires":{"bins":["mysql"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mysql
+metadata:
+  clawdbot:
+    emoji: 🐬
+    requires:
+      bins:
+      - mysql
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: MySQL
 ---
 
 ## Quick Reference

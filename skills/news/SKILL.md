@@ -1,11 +1,18 @@
 ---
-name: News
+name: news
 slug: news
 version: 1.0.1
-homepage: https://clawic.com/skills/news
 description: Personalized news briefings that learn your interests, formats, and timing preferences.
-metadata: {"clawdbot":{"emoji":"📰","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/news
 changelog: Added structure with Core Rules and memory system
+metadata:
+  clawdbot:
+    emoji: 📰
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: News
 ---
 
 ## When to Use
@@ -14,10 +21,10 @@ User wants personalized news briefings. Agent builds a news profile, delivers fo
 
 ## Architecture
 
-Memory lives in `~/news/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/news/`. See `memory-template.md` for setup.
 
 ```
-~/news/
+~/Clawic/data/news/
 ├── memory.md       # Profile: interests, format, timing
 ├── history.md      # Past briefings and engagement
 └── sources.md      # Trusted sources and biases
@@ -39,7 +46,7 @@ On first interaction, ask about:
 - Timing (morning, evening, weekly, on-demand)
 
 ### 2. Check Memory First
-Before every briefing, read `~/news/memory.md` for user preferences. Tailor content to their stated interests and format.
+Before every briefing, read `~/Clawic/data/news/memory.md` for user preferences. Tailor content to their stated interests and format.
 
 ### 3. Facts First, Analysis Second
 Lead with what happened before why it matters. Always include when news broke. Cite sources by name.
@@ -63,21 +70,21 @@ Track which stories user engages with vs skips. Periodically suggest profile adj
 ## Security & Privacy
 
 **Data that stays local:**
-- User preferences in `~/news/`
-- Engagement history in `~/news/history.md`
+- User preferences in `~/Clawic/data/news/`
+- Engagement history in `~/Clawic/data/news/history.md`
 
 **This skill does NOT:**
 - Send data to external services
-- Access files outside `~/news/`
+- Access files outside `~/Clawic/data/news/`
 - Store news content permanently
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `summarizer` — condense long articles
 - `scrape` — extract web content
 - `reading` — reading lists and tracking
 
 ## Feedback
 
-- If useful: `clawhub star news`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/news
+- Latest version: https://clawic.com/skills/news

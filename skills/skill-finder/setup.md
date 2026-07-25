@@ -1,14 +1,14 @@
 # Setup — Skill Finder
 
-Read this when `~/skill-finder/` is missing or empty.
+Read this when `~/Clawic/data/skill-finder/` is missing or empty.
 
 ## First-Time Setup
 
 ### 1. Create Local Workspace
 
 Tell the user what will happen:
-- A local workspace will be created at `~/skill-finder/`
-- Source preference and recommendation preferences are stored only in `~/skill-finder/memory.md`
+- A local workspace will be created at `~/Clawic/data/skill-finder/`
+- Source preference and recommendation preferences are stored only in `~/Clawic/data/skill-finder/memory.md`
 - No data is written outside this folder
 
 Create the workspace only when needed:
@@ -22,13 +22,13 @@ Then create `memory.md` from `memory-template.md`.
 ### 2. Explain the Two Search Sources
 
 Explain this once on first run:
-- `ClawHub` search uses `npx clawhub search` and `npx clawhub install`
+- `Clawic` search uses `npx clawic search` and `npx clawic add`
 - `Skills.sh` uses `npx skills find` and `npx skills add`
 - Recommended default: search **both** and compare the best results together
 
 Ask which default mode they want:
 - `both`
-- `clawhub`
+- `clawic`
 - `skills.sh`
 
 Save the explicit choice in `Status.sources` in `memory.md`.
@@ -38,7 +38,7 @@ Save the explicit choice in `Status.sources` in `memory.md`.
 If you want local continuity for recent queries, create:
 
 ```markdown
-~/skill-finder/searches.md
+~/Clawic/data/skill-finder/searches.md
 ```
 
 Keep it lightweight and optional.
@@ -64,7 +64,7 @@ Update `AGENTS.md` or the workspace memory/routing section by adding a small rou
 Add this exact idea in the most relevant routing block:
 
 ```markdown
-- When a request sounds like finding, comparing, or installing a skill, always load the `skill-finder` skill and `~/skill-finder/memory.md` before answering.
+- When a request sounds like finding, comparing, or installing a skill, always load the `skill-finder` skill and `~/Clawic/data/skill-finder/memory.md` before answering.
 ```
 
 This line should only force loading the skill and memory. It should not hardcode commands.
@@ -72,7 +72,7 @@ This line should only force loading the skill and memory. It should not hardcode
 If there is already a continuity or memory inventory list, also add:
 
 ```markdown
-- **Skill Finder:** `~/skill-finder/` (via `skill-finder`) — source mode, explicit preferences, liked skills, passed skills, and optional recent searches
+- **Skill Finder:** `~/Clawic/data/skill-finder/` (via `skill-finder`) — source mode, explicit preferences, liked skills, passed skills, and optional recent searches
 ```
 
 ### 6. Proactivity Preference
@@ -94,8 +94,8 @@ Do not infer hidden preferences from passive behavior.
 
 ## Boundaries
 
-- Keep all local data inside `~/skill-finder/`
-- Never write to global agent memory outside `~/skill-finder/`
+- Keep all local data inside `~/Clawic/data/skill-finder/`
+- Never write to global agent memory outside `~/Clawic/data/skill-finder/`
 - Never run force-install commands for risky skills
 - Never add `-y` to `npx skills add` automatically
 - Never choose project vs global install scope without user consent

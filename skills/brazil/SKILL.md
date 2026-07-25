@@ -1,16 +1,27 @@
 ---
-name: Brazil
+name: brazil
 slug: brazil
 version: 1.0.0
-homepage: https://clawic.com/skills/brazil
-changelog: "Initial release with verified Brazil entry rules, money strategy, region playbooks, and practical travel logistics."
 description: Plan Brazil trips with region-specific routing, visa and money clarity, season-aware logistics, and concrete city-nature playbooks.
-metadata: {"clawdbot":{"emoji":"🇧🇷","requires":{"bins":[],"config":["~/brazil/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/brazil
+changelog: Initial release with verified Brazil entry rules, money strategy, region playbooks, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇧🇷
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/brazil/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Brazil
 ---
 
 ## Setup
 
-If `~/brazil/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/brazil/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Brazil trip and needs more than generic inspiration: national
 
 ## Architecture
 
-Memory lives in `~/brazil/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/brazil/`. See `memory-template.md` for structure.
 
 ```
-~/brazil/
+~/Clawic/data/brazil/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -109,12 +120,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/brazil/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/brazil/`
 
-**This skill does NOT:** Access files outside `~/brazil/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/brazil/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and itinerary structure
 - `booking` - Reservation workflows and confirmation hygiene
 - `car-rental` - Better self-drive strategy and handoff logistics
@@ -123,5 +134,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star brazil`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/brazil
+- Latest version: https://clawic.com/skills/brazil

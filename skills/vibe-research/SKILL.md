@@ -1,9 +1,19 @@
 ---
-name: Vibe Research
+name: vibe-research
 slug: vibe-research
 version: 1.0.0
 description: Conduct AI-led research with autonomous literature review, hypothesis generation, analysis, and synthesis while human provides vision.
-metadata: {"clawdbot":{"emoji":"🔬","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/vibe-research
+metadata:
+  clawdbot:
+    emoji: 🔬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Vibe Research
 ---
 
 ## When to Use

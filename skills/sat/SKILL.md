@@ -1,10 +1,20 @@
 ---
-name: SAT
+name: sat
 slug: sat
 version: 1.0.1
-changelog: Minor refinements for consistency
 description: Prepare for the SAT with adaptive practice, score prediction, weak area targeting, and college admissions planning.
-metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sat
+changelog: Minor refinements for consistency
+metadata:
+  clawdbot:
+    emoji: 📝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: SAT
 ---
 
 ## When to Use
@@ -24,9 +34,9 @@ User is preparing for the SAT (Scholastic Assessment Test) for US college admiss
 
 ## Data Storage
 
-User data lives in `~/sat/`:
+User data lives in `~/Clawic/data/sat/`:
 ```
-~/sat/
+~/Clawic/data/sat/
 ├── profile.md       # Target score, test dates, current level
 ├── sections/        # Per-section progress (RW, Math)
 ├── practice/        # Practice test results and analysis
@@ -60,7 +70,7 @@ Before creating study plan, gather:
 - **Diagnose first** — Always assess current level before making a plan
 - **Weakness-first** — Prioritize topics with highest point-per-hour ROI
 - **Timed practice mandatory** — SAT is time-pressured; always simulate conditions
-- **Track every question** — Log to ~/sat/ for pattern analysis
+- **Track every question** — Log to ~/Clawic/data/sat/ for pattern analysis
 - **Superscore strategy** — Plan multiple attempts to maximize composite
 - **Adapt to digital format** — SAT is now fully digital with adaptive sections
 - **College context matters** — 1400 is different for MIT vs state school

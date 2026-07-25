@@ -1,6 +1,6 @@
 # Memory Template - Self-Criticism
 
-Create `~/self-criticism/memory.md` with this structure:
+Create `~/Clawic/data/self-criticism/memory.md` with this structure:
 
 ```markdown
 # Self-Criticism Memory
@@ -38,8 +38,8 @@ integration: pending | complete | paused | never_ask
 ## Local Files to Initialize
 
 ```bash
-mkdir -p ~/self-criticism/archive
-touch ~/self-criticism/{memory.md,checkpoints.md,incidents.md}
+mkdir -p ~/Clawic/data/self-criticism/archive
+touch ~/Clawic/data/self-criticism/{memory.md,checkpoints.md,incidents.md}
 ```
 
 ## Templates for Other Files

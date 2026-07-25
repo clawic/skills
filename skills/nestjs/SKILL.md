@@ -1,7 +1,20 @@
 ---
-name: NestJS
+name: nestjs
+slug: nestjs
+version: 1.0.0
 description: Avoid common NestJS mistakes — DI scoping, circular dependencies, validation pipes, and module organization traps.
-metadata: {"clawdbot":{"emoji":"🐱","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/nestjs
+metadata:
+  clawdbot:
+    emoji: 🐱
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: NestJS
 ---
 
 ## Dependency Injection

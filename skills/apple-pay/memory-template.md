@@ -1,6 +1,6 @@
 # Memory Template - Apple Pay
 
-Create `~/apple-pay/memory.md` with this structure:
+Create `~/Clawic/data/apple-pay/memory.md` with this structure:
 
 ```markdown
 # Apple Pay Memory
@@ -54,7 +54,7 @@ launch_state: planning | validating | ready | paused
 
 ## File Templates
 
-Create `~/apple-pay/validation-log.md`:
+Create `~/Clawic/data/apple-pay/validation-log.md`:
 
 ```markdown
 # Apple Pay Validation Log
@@ -68,7 +68,7 @@ Create `~/apple-pay/validation-log.md`:
 - Follow-up:
 ```
 
-Create `~/apple-pay/incidents.md`:
+Create `~/Clawic/data/apple-pay/incidents.md`:
 
 ```markdown
 # Apple Pay Incidents

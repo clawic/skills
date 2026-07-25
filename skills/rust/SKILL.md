@@ -1,9 +1,21 @@
 ---
-name: Rust
+name: rust
 slug: rust
 version: 1.0.1
 description: Write idiomatic Rust avoiding ownership pitfalls, lifetime confusion, and common borrow checker battles.
-metadata: {"clawdbot":{"emoji":"🦀","requires":{"bins":["rustc","cargo"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/rust
+metadata:
+  clawdbot:
+    emoji: 🦀
+    requires:
+      bins:
+      - rustc
+      - cargo
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Rust
 ---
 
 ## Quick Reference

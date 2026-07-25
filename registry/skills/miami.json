@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "da5b73f23e7bc62bd5566b2b794170d3393d36c66bd5362cf1ac136ac07205c0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "miami",
-    "name": "Miami",
+    "name": "miami",
     "description": "Navigate Miami as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, beaches, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/miami",
     "summary": "When to Use User asks about Miami for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| | **V",
     "repositoryPath": "skills/miami",
     "manifestPath": "registry/skills/miami.json"
@@ -21,142 +25,198 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/miami/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/_meta.json",
+      "byteCount": 162,
+      "sha256": "279dbb6e75b150631313da6470cdff566a52779d5b90ed86eef64bc00aa84a7b"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/miami/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/climate.md",
+      "byteCount": 4444,
+      "sha256": "983e99b3c28af39db9642c496c11065ad5ecd10cb4e3be6c02ac10b201991c31"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/miami/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/cost.md",
+      "byteCount": 4316,
+      "sha256": "43ade2f9d15655ea0325b8b0ad85b28f03b23c71092fb97222c869620a0f928f"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/miami/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-areas.md",
+      "byteCount": 5140,
+      "sha256": "807e8a0aaa1509d91ecaa391261b35fcaecb4e42de2955bd2d29fa040a02c9cf"
     },
     {
       "path": "food-cuban.md",
       "downloadPath": "skills/miami/food-cuban.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-cuban.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-cuban.md",
+      "byteCount": 4448,
+      "sha256": "1ad02c43e1bc953abc7d4f51d55e371c2bc404bdb090574d8dcc279945efd1b8"
     },
     {
       "path": "food-latin.md",
       "downloadPath": "skills/miami/food-latin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-latin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-latin.md",
+      "byteCount": 5030,
+      "sha256": "8294005fb7491844be959323c519d3f5dd8eeb485e5d605f981efd1680aa6647"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/miami/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-overview.md",
+      "byteCount": 4263,
+      "sha256": "134d204db89dfefc934f12b45831608f6dc92cb2984703d86604c00df063ef26"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/miami/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-practical.md",
+      "byteCount": 5342,
+      "sha256": "8706d5b12238daa9043b1be5a3f21f27da108ff8ec6932890f9dfc0c9d127b0f"
     },
     {
       "path": "food-seafood.md",
       "downloadPath": "skills/miami/food-seafood.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-seafood.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/food-seafood.md",
+      "byteCount": 4468,
+      "sha256": "5b1b8ea890d0f210e9fc879bba556744b5a208980141034ca93b1aa182ffc7ce"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/miami/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/local.md",
+      "byteCount": 5303,
+      "sha256": "f7b44c8ca55d237508c0b99d66e360e6f9461c39446c2638a0b91c97a973faea"
     },
     {
       "path": "neighborhoods-beach.md",
       "downloadPath": "skills/miami/neighborhoods-beach.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-beach.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-beach.md",
+      "byteCount": 4231,
+      "sha256": "0a4f6ad5ac0f507f26c16717d62d5f9154ebef44d0697e381b4b9a9abf1c14ce"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/miami/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-choosing.md",
+      "byteCount": 4662,
+      "sha256": "939efd0dcb3ab45779b32c0954ae72d17646732df8a403861e1941b3c2494f9b"
     },
     {
       "path": "neighborhoods-coral.md",
       "downloadPath": "skills/miami/neighborhoods-coral.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-coral.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-coral.md",
+      "byteCount": 4372,
+      "sha256": "e209c4c2dee75c6af892434848c07b69c3edf6fd7b1559cc88cc3087a94e2cdb"
     },
     {
       "path": "neighborhoods-downtown.md",
       "downloadPath": "skills/miami/neighborhoods-downtown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-downtown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-downtown.md",
+      "byteCount": 3608,
+      "sha256": "1d858c97230abf5973ebeca34c02cc14a9897b4cf1a90e13750f7bd5fac482c7"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/miami/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-index.md",
+      "byteCount": 3595,
+      "sha256": "b9f54b83e5917bed08aed83559de6b30d425361b491446a8672d6186dd481dfc"
     },
     {
       "path": "neighborhoods-north.md",
       "downloadPath": "skills/miami/neighborhoods-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-north.md",
+      "byteCount": 4392,
+      "sha256": "5f4cae3ff0623dccc9c203ca38409993633fed11abed2bcaec8c23857b5f129b"
     },
     {
       "path": "neighborhoods-wynwood.md",
       "downloadPath": "skills/miami/neighborhoods-wynwood.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-wynwood.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/neighborhoods-wynwood.md",
+      "byteCount": 4331,
+      "sha256": "456b7834b6ab42a8c41820d4270579f5b2388922003b77baa4ab93a9afd476e7"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/miami/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/resident.md",
+      "byteCount": 3791,
+      "sha256": "121b2a126641a3280f763f376e91b09126b926e87d0d516dd5f4364d87cb781d"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/miami/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/safety.md",
+      "byteCount": 4869,
+      "sha256": "0440fe4cd99fff7a5493fcbce2190cc3a55ec22f0fd8c9b6d7b43b0136495da1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/miami/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/SKILL.md",
+      "byteCount": 4169,
+      "sha256": "9ceb4b15a7b612b7c7d4c5bec325ab9a2f129f2738150b2a579afd35ea204cbb"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/miami/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/startup.md",
+      "byteCount": 5929,
+      "sha256": "513efca8c1b1b8ab3d50517e8c1170b31b6e78902c5cbbf0e520664a6ac2de1b"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/miami/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/student.md",
+      "byteCount": 4982,
+      "sha256": "653559eb07e7bb3d593deda960e17ba71f62937c126bf40a2333ac20e3bec425"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/miami/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/tech.md",
+      "byteCount": 4385,
+      "sha256": "3e7d7101cdd3420f2007464ae9543ea657d14db075d19829759385b10015d39b"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/miami/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/transport.md",
+      "byteCount": 4328,
+      "sha256": "2c0a8774fd30f58ff4e25ffa52b0089d097d9c7ee9b412dcf42a2d4cf26cb396"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/miami/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-attractions.md",
+      "byteCount": 3166,
+      "sha256": "f26618ca4404177ddd8f364eb33d3a5c8952c54ec7e4f82923eb5f56ad040c63"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/miami/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-itineraries.md",
+      "byteCount": 3125,
+      "sha256": "10ca0e31e1f6b7bc3e9d8a1402f75f9b799d288699765d2d757258d709639a28"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/miami/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-lodging.md",
+      "byteCount": 3435,
+      "sha256": "549509c08eeab8a00aaf4b6754e19370764f39d083e4aa78fe41d91223d8aa39"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/miami/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/miami/visitor-tips.md",
+      "byteCount": 3809,
+      "sha256": "8c09ce552c3491c19299657039739068cd06f573e003f3ce0bc9e31d415ea6c8"
     }
   ]
 }

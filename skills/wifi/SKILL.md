@@ -1,7 +1,17 @@
 ---
-name: WiFi
+name: wifi
+slug: wifi
+version: 1.0.0
 description: Troubleshoot and secure wireless networks with channel optimization and diagnostics.
-metadata: {"clawdbot":{"emoji":"📶","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/wifi
+metadata:
+  clawdbot:
+    emoji: 📶
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: WiFi
 ---
 
 ## Band Selection Traps

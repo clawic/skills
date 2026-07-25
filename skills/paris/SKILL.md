@@ -1,9 +1,19 @@
 ---
-name: Paris
+name: paris
 slug: paris
 version: 1.0.0
 description: Navigate Paris as visitor, resident, tech worker, student, or entrepreneur with arrondissements, transport, costs, safety, and local insights.
-metadata: {"clawdbot":{"emoji":"🇫🇷","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/paris
+metadata:
+  clawdbot:
+    emoji: 🇫🇷
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Paris
 ---
 
 ## When to Use

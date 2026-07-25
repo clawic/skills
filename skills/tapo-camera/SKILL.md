@@ -1,11 +1,46 @@
 ---
-name: Tapo Camera
+name: tapo-camera
 slug: tapo-camera
 version: 1.0.0
-homepage: https://clawic.com/skills/tapo-camera
 description: Connect to Tapo cameras, verify local access, capture snapshots, and inspect frames with local-first RTSP workflows and safe fallbacks.
+homepage: https://clawic.com/skills/tapo-camera
 changelog: Initial release with local discovery, RTSP snapshot capture, device-boundary guardrails, and API fallback guidance for unsupported cases.
-metadata: {"clawdbot":{"emoji":"📷","requires":{"bins":["python3","ffmpeg","kasa"],"pip":["python-kasa"],"config":["~/tapo-camera/"],"env.optional":["TAPO_CAMERA_USERNAME","TAPO_CAMERA_PASSWORD","KASA_CREDENTIALS_HASH"]},"install":[{"id":"pip-python-kasa","kind":"pip","package":"python-kasa","bins":["kasa"],"label":"Install python-kasa and the kasa CLI (pip)"},{"id":"brew-ffmpeg","kind":"brew","formula":"ffmpeg","bins":["ffmpeg"],"label":"Install ffmpeg (Homebrew)"}],"os":["darwin","linux","win32"],"configPaths":["~/tapo-camera/"]}}
+metadata:
+  clawdbot:
+    emoji: 📷
+    requires:
+      bins:
+      - python3
+      - ffmpeg
+      - kasa
+      pip:
+      - python-kasa
+      config:
+      - ~/Clawic/data/tapo-camera/
+      env.optional:
+      - TAPO_CAMERA_USERNAME
+      - TAPO_CAMERA_PASSWORD
+      - KASA_CREDENTIALS_HASH
+    install:
+    - id: pip-python-kasa
+      kind: pip
+      package: python-kasa
+      bins:
+      - kasa
+      label: Install python-kasa and the kasa CLI (pip)
+    - id: brew-ffmpeg
+      kind: brew
+      formula: ffmpeg
+      bins:
+      - ffmpeg
+      label: Install ffmpeg (Homebrew)
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/tapo-camera/
+    displayName: Tapo Camera
 ---
 
 ## When to Use
@@ -16,10 +51,10 @@ This skill is for local camera operations, not general surveillance design. Keep
 
 ## Architecture
 
-Memory lives in `~/tapo-camera/`. If `~/tapo-camera/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/tapo-camera/`. If `~/Clawic/data/tapo-camera/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/tapo-camera/
+~/Clawic/data/tapo-camera/
 ├── memory.md               # activation boundaries, preferred capture defaults, and trust limits
 ├── cameras.md              # hostnames, labels, model notes, and stream capabilities
 ├── sessions/
@@ -91,7 +126,7 @@ Use local notes only when they improve repeatability:
 
 ### 5. Capture the smallest useful artifact
 - Default to one still image, not continuous recording.
-- Write captures only to a user-approved local path under `~/tapo-camera/captures/` or another explicit destination.
+- Write captures only to a user-approved local path under `~/Clawic/data/tapo-camera/captures/` or another explicit destination.
 - Name captures with camera label and timestamp so later inspection stays deterministic.
 
 ### 6. Keep the trust boundary local by default
@@ -112,7 +147,7 @@ Use local notes only when they improve repeatability:
 | Printing the full RTSP URL into logs | That leaks camera credentials into history and shared output | Keep URLs redacted by default and only reveal them on explicit request |
 | Using cloud login assumptions for local capture | Local device auth and camera account setup are separate in practice | Verify the camera account and third-party compatibility state first |
 | Jumping straight to repeated frame pulls | Harder to debug and easier to cross privacy boundaries | Prove one still capture before any loop or batch job |
-| Storing captures and credentials together | Raises the blast radius if the local folder is copied or synced | Keep images and secrets separate, and never persist secrets in `~/tapo-camera/` |
+| Storing captures and credentials together | Raises the blast radius if the local folder is copied or synced | Keep images and secrets separate, and never persist secrets in `~/Clawic/data/tapo-camera/` |
 
 ## External Endpoints
 
@@ -131,7 +166,7 @@ Data that may leave your machine:
 - Local-LAN requests to the user's camera host for auth, capability checks, and frame capture
 
 Data that stays local:
-- User-approved notes under `~/tapo-camera/`
+- User-approved notes under `~/Clawic/data/tapo-camera/`
 - Captured stills in a local folder chosen by the user
 - Troubleshooting logs and device capability notes
 
@@ -140,7 +175,7 @@ This skill does NOT:
 - capture or upload images without explicit user intent
 - run undeclared cloud vision or cloud relay workflows
 - modify camera firmware, privacy settings, or motor position by default
-- access files outside the working directory or `~/tapo-camera/` for memory
+- access files outside the working directory or `~/Clawic/data/tapo-camera/` for memory
 
 ## Scope
 
@@ -158,7 +193,7 @@ This skill NEVER:
 - rewrite the installed skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `cameras` - broader camera capture and review workflows outside the Tapo-specific lane
 - `ffmpeg` - deeper frame extraction, transcoding, and media inspection once capture works
 - `smart-home` - ecosystem-level device coordination and automation planning
@@ -167,5 +202,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tapo-camera`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tapo-camera
+- Latest version: https://clawic.com/skills/tapo-camera

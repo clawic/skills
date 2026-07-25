@@ -1,6 +1,6 @@
 # Setup - Storytelling
 
-Use this file when `~/storytelling/` is missing or empty.
+Use this file when `~/Clawic/data/storytelling/` is missing or empty.
 
 ## Operating Posture
 

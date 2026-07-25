@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "502455bad6f0e7bbadccb2e585e03b52106a25f7b69f949857e38b7aeb1c99b8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "icons",
-    "name": "Icons",
+    "name": "icons",
     "description": "Implement accessible icons with proper sizing, color inheritance, and performance.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/icons",
     "summary": "SVG vs Icon Fonts SVG is the modern standard: - Better accessibility (native ARIA support) - No flash of invisible/wrong icon (FOIT) - Multicolor support - Smaller bundles with tree-shaking Only consider icon fonts for l",
     "repositoryPath": "skills/icons",
     "manifestPath": "registry/skills/icons.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/icons/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icons/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icons/_meta.json",
+      "byteCount": 162,
+      "sha256": "32dc336008209273231a16d0c4ff2de8a509115feeadda60939332786ab5e44e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/icons/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icons/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/icons/SKILL.md",
+      "byteCount": 4143,
+      "sha256": "e74d35506fba1ad60da99159f39d3e57322c4b6049e6f38d2e56151d5a6ddd30"
     }
   ]
 }

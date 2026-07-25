@@ -1,6 +1,13 @@
 ---
-name: Agent
+name: agent
+slug: agent
+version: 1.0.0
 description: Define agent identity, personality, voice, and boundaries to create assistants that feel authentic rather than generic.
+homepage: https://clawic.com/skills/agent
+metadata:
+  clawdbot:
+    emoji: 🤖
+    displayName: Agent
 ---
 
 ## When to Use

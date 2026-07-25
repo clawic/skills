@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "73872e3c279608ba509a28c0c3a406950b2f8e98b38c4a7ccc56e4454063b869",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "greek",
-    "name": "Greek",
+    "name": "greek",
     "description": "Write Greek that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/greek",
     "summary": "The Real Problem AI Greek is technically correct but sounds off. Too formal. Too καθαρεύουσα-influenced. Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high.",
     "repositoryPath": "skills/greek",
     "manifestPath": "registry/skills/greek.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/greek/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greek/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greek/_meta.json",
+      "byteCount": 162,
+      "sha256": "77577b3d639dfc53d46bf41c0c5d050b56c986154ff74441040c0f1ef5c490a4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/greek/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greek/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/greek/SKILL.md",
+      "byteCount": 2587,
+      "sha256": "de7fc555ff4bbe1b2995e8adf94fe434d674cac37087e12b7e329f02d5475194"
     }
   ]
 }

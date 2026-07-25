@@ -1,16 +1,27 @@
 ---
-name: Germany
+name: germany
 slug: germany
 version: 1.0.0
-homepage: https://clawic.com/skills/germany
-changelog: "Initial release with verified Germany entry rules, rail-vs-car planning, regional playbooks, and practical travel logistics."
 description: Plan Germany trips with region-specific routing, rail-vs-car strategy, verified entry rules, and practical travel logistics.
-metadata: {"clawdbot":{"emoji":"🇩🇪","requires":{"bins":[],"config":["~/germany/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/germany
+changelog: Initial release with verified Germany entry rules, rail-vs-car planning, regional playbooks, and practical travel logistics.
+metadata:
+  clawdbot:
+    emoji: 🇩🇪
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/germany/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Germany
 ---
 
 ## Setup
 
-If `~/germany/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/germany/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a Germany trip and needs practical guidance beyond generic insp
 
 ## Architecture
 
-Memory lives in `~/germany/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/germany/`. See `memory-template.md` for structure.
 
 ```
-~/germany/
+~/Clawic/data/germany/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -109,12 +120,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/germany/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/germany/`
 
-**This skill does NOT:** Access files outside `~/germany/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/germany/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `booking` — Reservation workflows and confirmation hygiene
 - `car-rental` — Better rental strategy and handoff logistics
@@ -123,5 +134,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star germany`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/germany
+- Latest version: https://clawic.com/skills/germany

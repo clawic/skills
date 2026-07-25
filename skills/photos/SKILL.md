@@ -1,7 +1,20 @@
 ---
-name: Photos
+name: photos
+slug: photos
+version: 1.0.0
 description: Organize, index, and search local photo libraries with AI-powered metadata and safe file handling.
-metadata: {"clawdbot":{"emoji":"🖼️","requires":{"bins":["exiftool"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/photos
+metadata:
+  clawdbot:
+    emoji: 🖼️
+    requires:
+      bins:
+      - exiftool
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Photos
 ---
 
 ## Safety First

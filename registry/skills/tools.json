@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "dd8e02ac443281dd65ae2c89991769e1983466f7708f1a9984da942e41a6cb49",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "tools",
-    "name": "Tools",
+    "name": "tools",
     "description": "Learns your tool preferences while staying capable of using anything. Adapts to your stack.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/tools",
     "summary": "Adaptive Tool Intelligence You can use ANY tool. Learn new ones instantly. This skill tracks user preferences, not your limits. **Rules:** - Default to user's known tools when they exist - Propose better alternatives whe",
     "repositoryPath": "skills/tools",
     "manifestPath": "registry/skills/tools.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tools/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/_meta.json",
+      "byteCount": 162,
+      "sha256": "f5019c252d31a2a452f854791b6620dc698102bed76b1e944d9ae76ae0696e34"
     },
     {
       "path": "criteria.md",
       "downloadPath": "skills/tools/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/criteria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/criteria.md",
+      "byteCount": 1771,
+      "sha256": "5f7855016fee634bdbc14f0c387052bee75721feb7fdc8769bc8db2d39163eed"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/tools/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/dimensions.md",
+      "byteCount": 1605,
+      "sha256": "dc6c08e1b7105a3a833758caa0d5334c9c4dd855029165e42acc6f9010b2eba5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tools/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tools/SKILL.md",
+      "byteCount": 1054,
+      "sha256": "6b5792e6209dacb2a99b4eecff94db108679090e76ae73589d57a5030f2c0e12"
     }
   ]
 }

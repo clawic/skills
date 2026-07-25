@@ -1,10 +1,19 @@
 ---
-name: Dubai
+name: dubai
 slug: dubai
 version: 1.0.0
-homepage: https://clawic.com/skills/dubai
 description: Navigate Dubai as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏙️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/dubai
+metadata:
+  clawdbot:
+    emoji: 🏙️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dubai
 ---
 
 ## When to Use

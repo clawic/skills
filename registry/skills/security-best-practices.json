@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f32e85289422e7035c03b80141db28499033f42db5c5e8c85ac2a4ffb9927ea2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "security-best-practices",
-    "name": "Security Best Practices",
+    "name": "security-best-practices",
     "description": "Review code with secure-by-default standards, prioritize exploitable risks, and deliver minimal-diff fixes with evidence and regression checks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/security-best-practices",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/security-best-practices/`. When to Use Use this skill for secure-by-default implementation, ta",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. If local memory is needed, ask for consent before creating `~/Clawic/data/security-best-practices/`. When to Use Use this skill for secure-by-default implem",
     "repositoryPath": "skills/security-best-practices",
     "manifestPath": "registry/skills/security-best-practices.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/security-best-practices/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/_meta.json",
+      "byteCount": 198,
+      "sha256": "571dc31fe98e68e33afdcbfa63a515b73f36b07c1c8b215139e17456712e48b5"
     },
     {
       "path": "exceptions.md",
       "downloadPath": "skills/security-best-practices/exceptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/exceptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/exceptions.md",
+      "byteCount": 1120,
+      "sha256": "eb5bbe70b1ae9dea0ce850a307d18f4c312d589902e73748e64d70530375d8ff"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/security-best-practices/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/memory-template.md",
+      "byteCount": 1718,
+      "sha256": "f8a5bf7d79549d8b54708e5622910a509644c17548c60a04d08e7c1a365f207d"
     },
     {
       "path": "remediation-patterns.md",
       "downloadPath": "skills/security-best-practices/remediation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/remediation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/remediation-patterns.md",
+      "byteCount": 1664,
+      "sha256": "e84d59ad1c83111c85211cdd8543b9dcd17d751b11218b138bf12b53bff33f08"
     },
     {
       "path": "review-playbook.md",
       "downloadPath": "skills/security-best-practices/review-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/review-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/review-playbook.md",
+      "byteCount": 1403,
+      "sha256": "dbb6666f8ef00fda124c99428d36e7acc40f5738bf4f69cb34b54e39f6ba489f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/security-best-practices/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/setup.md",
+      "byteCount": 1894,
+      "sha256": "97a54b579817c27122b79143d592ac22376a4c2ffe335b77710f81b7e5f95bd9"
     },
     {
       "path": "severity-model.md",
       "downloadPath": "skills/security-best-practices/severity-model.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/severity-model.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/severity-model.md",
+      "byteCount": 1346,
+      "sha256": "92d3f87a45d617c3b8b0ab7582374234cccc3a749e40754cc324dedb94f9f5ff"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/security-best-practices/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/security-best-practices/SKILL.md",
+      "byteCount": 5135,
+      "sha256": "733b825a3dad9ca1777d261288fb1c3a9e7e18b1aef05f215121255b79c8c7fa"
     }
   ]
 }

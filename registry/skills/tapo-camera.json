@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9cd35953ab37bd74f79a53dca73d14bbb296723b2654926b48db5ffd8647e188",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "tapo-camera",
-    "name": "Tapo Camera",
+    "name": "tapo-camera",
     "description": "Connect to Tapo cameras, verify local access, capture snapshots, and inspect frames with local-first RTSP workflows and safe fallbacks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tapo-camera",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/tapo-camera/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/_meta.json",
+      "byteCount": 174,
+      "sha256": "4a52099f376595c91c481367745f85f073e2f9ed605c826dbcbd7e1b1fcb02eb"
     },
     {
       "path": "api-fallback.md",
       "downloadPath": "skills/tapo-camera/api-fallback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/api-fallback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/api-fallback.md",
+      "byteCount": 1388,
+      "sha256": "c95c138d7b782c708ac13e703c21ea285c60bb01563541bdc6abe66108f4365a"
     },
     {
       "path": "cameras.md",
       "downloadPath": "skills/tapo-camera/cameras.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/cameras.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/cameras.md",
+      "byteCount": 716,
+      "sha256": "d1886fa18530d8642637f41e5d818a81779cb37f18fb78f26617762dda27d493"
     },
     {
       "path": "discovery-and-auth.md",
       "downloadPath": "skills/tapo-camera/discovery-and-auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/discovery-and-auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/discovery-and-auth.md",
+      "byteCount": 1838,
+      "sha256": "66fe134146f3cf9f94689dbe904c702c606c50e504698fe62cde92613eaf99e3"
     },
     {
       "path": "incidents.md",
       "downloadPath": "skills/tapo-camera/incidents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/incidents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/incidents.md",
+      "byteCount": 462,
+      "sha256": "43044f16a4d85ca85f0fb164a277fb48ff47a63ecd063e3690b8445f87d1d7cf"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/tapo-camera/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/memory-template.md",
+      "byteCount": 1516,
+      "sha256": "47cb14d674cd7e349ac3e37f2e642262f6685738bd2da3a68cad24e22c8d4b38"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/tapo-camera/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/setup.md",
+      "byteCount": 2051,
+      "sha256": "4f3223a0abfa05ea872a38f57010ecabfa9b96d1f1cc2e4383308586c4028e9b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tapo-camera/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/SKILL.md",
+      "byteCount": 10103,
+      "sha256": "be32fe78cc5b24b16ff32caec7e2dceec9ba0218b7198a4ca5545c2dde2230f9"
     },
     {
       "path": "snapshot-workflows.md",
       "downloadPath": "skills/tapo-camera/snapshot-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/snapshot-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/snapshot-workflows.md",
+      "byteCount": 1840,
+      "sha256": "0c3988ba429fb46ef81b5d4b376603b93865073e38366645ff64a6ccf323dedf"
     },
     {
       "path": "tapo-capture.py",
       "downloadPath": "skills/tapo-camera/tapo-capture.py",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/tapo-capture.py"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/tapo-capture.py",
+      "byteCount": 7218,
+      "sha256": "e1a9d8fd8045eec37868d265c15dc522df86c0e67122bf153c542edf8e615847"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/tapo-camera/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/troubleshooting.md",
+      "byteCount": 1945,
+      "sha256": "efdd9e99d7de61352b309a032209dc6ee7f30cba5bf000c5f07275262f975067"
     }
   ]
 }

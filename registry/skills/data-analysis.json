@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a38446834f127fa43f81dbea1584e5958072bee309c9242554e51560535d4766",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "data-analysis",
-    "name": "Data Analysis",
+    "name": "data-analysis",
     "description": "Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) you need to analyze, visualize, or explain data; (2) the user wants reports, dashboards, or metrics turned into a decision; (3) the work involves SQL, Python, spreadsheets, BI tools, or notebooks; (4) you need to compare segments, cohorts, funnels, experiments, or time periods; (5) the user explicitly installs or references the skill for the current task.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/data-analysis",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/data-analysis/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/_meta.json",
+      "byteCount": 254,
+      "sha256": "2d09e74c3c3f13b74a3f08086e1f20c3f922ed022797b891e8cfd5d60a5fbc3b"
     },
     {
       "path": "chart-selection.md",
       "downloadPath": "skills/data-analysis/chart-selection.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/chart-selection.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/chart-selection.md",
+      "byteCount": 1756,
+      "sha256": "01d040c85f79df832d8d9956e0decab76cbf6ee57cf7c584e35ab9c0c1410a47"
     },
     {
       "path": "decision-briefs.md",
       "downloadPath": "skills/data-analysis/decision-briefs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/decision-briefs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/decision-briefs.md",
+      "byteCount": 1144,
+      "sha256": "e9a4a5ae1fbe0950f2669d03b9b3ba8b7e85fbbaf42465f48f2ae192fa3d170b"
     },
     {
       "path": "metric-contracts.md",
       "downloadPath": "skills/data-analysis/metric-contracts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/metric-contracts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/metric-contracts.md",
+      "byteCount": 1580,
+      "sha256": "074be3abdc96242096fe516f633315138a07ff216c44e649c59cd8a597a223d6"
     },
     {
       "path": "pitfalls.md",
       "downloadPath": "skills/data-analysis/pitfalls.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/pitfalls.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/pitfalls.md",
+      "byteCount": 3961,
+      "sha256": "88eb29fc1e307bbb984c47a2bb28fbbd045bde7e296aa0f51fa244995566b14e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/data-analysis/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/SKILL.md",
+      "byteCount": 8044,
+      "sha256": "d64721a9c803f38f5532d24ef117a4f4fe4619bcd1ee228196743d8d0a14c264"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/data-analysis/techniques.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/techniques.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/techniques.md",
+      "byteCount": 4994,
+      "sha256": "e073dd1b2af9bed0a11cdf7bd231184ff3d76d9acd61f32e56dc8413118fda78"
     }
   ]
 }

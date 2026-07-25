@@ -1,11 +1,20 @@
 ---
-name: Real Estate Agent
+name: real-estate-agent
 slug: real-estate-agent
 version: 1.0.1
-homepage: https://clawic.com/skills/real-estate-agent
 description: Your personal real estate agent. Find properties, get alerts on deals, sell or rent your home, and navigate any property decision.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/real-estate-agent
 changelog: Initial release with full agent capabilities
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Real Estate Agent
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User discusses real estate: buying, selling, renting, investing, or managing pro
 
 ## Architecture
 
-Memory lives in `~/real-estate-agent/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/real-estate-agent/`. See `memory-template.md` for structure.
 
 ```
-~/real-estate-agent/
+~/Clawic/data/real-estate-agent/
 ├── memory.md           # Client profile, preferences, active goals
 ├── properties/         # Tracked properties (one file per property)
 │   └── [address].md    # Property details, notes, status
@@ -128,7 +137,7 @@ Always recommend professional consultation for contracts, mortgages, and tax imp
 ## Security & Privacy
 
 **Data that stays local:**
-- All client information in ~/real-estate-agent/
+- All client information in ~/Clawic/data/real-estate-agent/
 - Property searches and preferences
 - Viewing history and notes
 - Budget ranges and pre-approval amounts (basic financial context)
@@ -137,17 +146,17 @@ Always recommend professional consultation for contracts, mortgages, and tax imp
 - Send data to external services
 - Store bank account numbers, full mortgage documents, or passwords
 - Make purchases or sign agreements on behalf of the client
-- Access files outside ~/real-estate-agent/
+- Access files outside ~/Clawic/data/real-estate-agent/
 
 **On first use:** The agent will create a folder to remember your preferences and track properties. You can review or delete this data anytime.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `negotiate` — deal negotiation tactics
 - `legal` — contract review basics
 - `invest` — investment analysis
 
 ## Feedback
 
-- If useful: `clawhub star real-estate-agent`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/real-estate-agent
+- Latest version: https://clawic.com/skills/real-estate-agent

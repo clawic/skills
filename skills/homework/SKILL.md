@@ -1,7 +1,13 @@
 ---
-name: Homework
+name: homework
+slug: homework
+version: 1.0.0
 description: Help students with assignments while building real understanding.
-metadata: {"clawdbot":{"emoji":"📚"}}
+homepage: https://clawic.com/skills/homework
+metadata:
+  clawdbot:
+    emoji: 📚
+    displayName: Homework
 ---
 
 ## Core Philosophy

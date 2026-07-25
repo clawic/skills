@@ -1,11 +1,24 @@
 ---
-name: Skool
+name: skool
 slug: skool
 version: 1.0.0
-homepage: https://clawic.com/skills/skool
 description: Operate Skool communities with onboarding, classroom planning, calendar cadence, official automations, and safer member lifecycle workflows.
+homepage: https://clawic.com/skills/skool
 changelog: Initial release with community operations, classroom and calendar workflows, official automation guidance, and member lifecycle controls.
-metadata: {"clawdbot":{"emoji":"SK","requires":{"bins":[],"config":["~/skool/"]},"os":["linux","darwin","win32"],"configPaths":["~/skool/"]}}
+metadata:
+  clawdbot:
+    emoji: SK
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/skool/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/skool/
+    displayName: Skool
 ---
 
 ## When to Use
@@ -15,10 +28,10 @@ Agent handles group positioning, approvals, onboarding, classroom access, calend
 
 ## Architecture
 
-Memory lives in `~/skool/`. If `~/skool/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/skool/`. If `~/Clawic/data/skool/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/skool/
+~/Clawic/data/skool/
 |-- memory.md        # Durable activation rules, group profile, and operating defaults
 |-- groups.md        # Group URLs, offer structure, and positioning notes
 |-- onboarding.md    # Membership questions, approval policy, and welcome flow decisions
@@ -75,7 +88,7 @@ If a requested workflow cannot be mapped to one of these verified surfaces, stop
 
 ## Data Storage
 
-Keep only durable Skool operating context in `~/skool/`:
+Keep only durable Skool operating context in `~/Clawic/data/skool/`:
 - approved group URLs, plan context, and the business model behind the community
 - onboarding rules, membership question logic, and approval boundaries that the user confirmed
 - course unlock patterns, calendar cadence, and retention experiments worth reusing
@@ -145,7 +158,7 @@ Data that leaves your machine:
 - any user-approved payloads needed for member invite or access workflows
 
 Data that stays local:
-- durable operating notes in `~/skool/`
+- durable operating notes in `~/Clawic/data/skool/`
 - group strategy, onboarding rules, classroom defaults, and incident logs unless the user exports them
 - rejected or draft automation plans that were never executed
 
@@ -175,7 +188,7 @@ This skill NEVER:
 - turn local memory into a shadow CRM full of unnecessary member data
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `community-manager` - extend Skool strategy into day-to-day moderation and operating rituals
 - `zapier` - wire approved Skool workflows into broader automation systems
 - `webhook` - harden delivery, retries, and verification around Skool webhook flows
@@ -184,5 +197,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star skool`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/skool
+- Latest version: https://clawic.com/skills/skool

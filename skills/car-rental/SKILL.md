@@ -1,16 +1,25 @@
 ---
-name: Car Rental
+name: car-rental
 slug: car-rental
 version: 1.0.0
-homepage: https://clawic.com/skills/car-rental
 description: Find the best car rental deals with price comparison, alerts, and lease vs rent analysis.
+homepage: https://clawic.com/skills/car-rental
 changelog: Initial release with monitoring, price tracking, and smart comparison features.
-metadata: {"clawdbot":{"emoji":"🚗","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🚗
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Car Rental
 ---
 
 ## Setup
 
-On first use, read `setup.md`. Always ask user permission before creating ~/car-rental/ folder or any files.
+On first use, read `setup.md`. Always ask user permission before creating ~/Clawic/data/car-rental/ folder or any files.
 
 ## When to Use
 
@@ -18,10 +27,10 @@ User needs to rent, lease, or find vehicle deals. Agent handles price comparison
 
 ## Architecture
 
-Memory lives in `~/car-rental/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/car-rental/`. See `memory-template.md` for structure.
 
 ```
-~/car-rental/
+~/Clawic/data/car-rental/
 ├── memory.md        # Preferences, active searches, alerts
 ├── searches/        # Saved search configurations
 └── history/         # Past rentals and price snapshots
@@ -134,20 +143,20 @@ Alert frequency options:
 
 ## Data Storage
 
-**All data is stored locally in ~/car-rental/ (created only with your permission):**
+**All data is stored locally in ~/Clawic/data/car-rental/ (created only with your permission):**
 - memory.md — your preferences and active alerts
 - searches/ — saved search configurations
 - history/ — past rental price snapshots
 
 **You control everything:**
-- View: Read any file in ~/car-rental/
+- View: Read any file in ~/Clawic/data/car-rental/
 - Delete: Remove files or the entire folder anytime
 - No cloud sync, no external storage
 
 ## Security & Privacy
 
 **Data that stays local:**
-- All preferences and search history in ~/car-rental/
+- All preferences and search history in ~/Clawic/data/car-rental/
 - No telemetry or cloud sync
 
 **When comparing prices:**
@@ -158,16 +167,16 @@ Alert frequency options:
 **This skill does NOT:**
 - Store payment information
 - Make bookings on your behalf
-- Access files outside ~/car-rental/
+- Access files outside ~/Clawic/data/car-rental/
 - Send data to any server we control
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — trip planning and logistics
 - `expenses` — track rental costs
 - `money` — budget decisions
 
 ## Feedback
 
-- If useful: `clawhub star car-rental`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/car-rental
+- Latest version: https://clawic.com/skills/car-rental

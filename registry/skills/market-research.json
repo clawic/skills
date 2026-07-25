@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0f161fd18ec58b829e8aa0e746fb97df325ec535ad0d12c15cf6f429e19814b9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "market-research",
-    "name": "Market Research",
+    "name": "market-research",
     "description": "Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use when (1) you need TAM, SAM, SOM, whitespace, or category sizing; (2) you must compare competitors, pricing, positioning, or customer segments before acting; (3) the user asks whether a niche, launch, expansion, or go-to-market bet is actually worth pursuing.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/market-research",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/market-research/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/_meta.json",
+      "byteCount": 258,
+      "sha256": "9dd022cbb0ae0e6929badc39df06542e28d3f7267c584e4f545d968366763e27"
     },
     {
       "path": "competitor-analysis.md",
       "downloadPath": "skills/market-research/competitor-analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/competitor-analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/competitor-analysis.md",
+      "byteCount": 3087,
+      "sha256": "995fc92cb50f685e3369ef1e3e235ec7c0425f0d6ab6500b41c54e8bca62a686"
     },
     {
       "path": "evidence-grading.md",
       "downloadPath": "skills/market-research/evidence-grading.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/evidence-grading.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/evidence-grading.md",
+      "byteCount": 1322,
+      "sha256": "6ff41dd0e76cb58359d4c84c84be09e75875318ac6e59dc508c0a38af58d98e7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/market-research/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/SKILL.md",
+      "byteCount": 7504,
+      "sha256": "441e9062945df27b34d802dcb6b727daa076e96fb46ec5ec51fc39616fe6e74b"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/market-research/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/market-research/validation.md",
+      "byteCount": 3634,
+      "sha256": "dcbaa98fba9b8834a4aa09fc9116471fd9c121198b3e190d5c56eb8b6de03bcd"
     }
   ]
 }

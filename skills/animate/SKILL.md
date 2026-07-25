@@ -1,11 +1,24 @@
 ---
-name: Animate
+name: animate
 slug: animate
 version: 1.0.0
-homepage: https://clawic.com/skills/animate
 description: Animate app and web UIs across Flutter, React, SwiftUI, Compose, and React Native with motion systems, guardrails, and reduced-motion fallbacks.
+homepage: https://clawic.com/skills/animate
 changelog: Initial release focused on app, web, and React animation systems, implementation guardrails, and QA.
-metadata: {"clawdbot":{"emoji":"MOTION","requires":{"bins":[],"config":["~/animate/"]},"os":["linux","darwin","win32"],"configPaths":["~/animate/"]}}
+metadata:
+  clawdbot:
+    emoji: MOTION
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/animate/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/animate/
+    displayName: Animate
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Use this for micro-interactions, navigation transitions, shared-element flows, l
 
 ## Architecture
 
-Memory lives in `~/animate/`. If `~/animate/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/animate/`. If `~/Clawic/data/animate/` does not exist, run `setup.md`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/animate/
+~/Clawic/data/animate/
 |- memory.md             # Durable motion preferences and platform context
 |- tokens.md             # Approved duration, easing, and spring ladders
 |- patterns.md           # Proven interaction and transition patterns
@@ -106,16 +119,16 @@ Avoid low-level animation code when a higher-level primitive already handles int
 - None by default from this skill itself.
 
 **Data that stays local:**
-- Motion preferences, approved tokens, platform notes, and QA learnings under `~/animate/`.
+- Motion preferences, approved tokens, platform notes, and QA learnings under `~/Clawic/data/animate/`.
 
 **This skill does NOT:**
 - Upload builds, videos, or telemetry automatically.
-- Modify files outside `~/animate/` for memory.
+- Modify files outside `~/Clawic/data/animate/` for memory.
 - Disable accessibility settings.
 - Modify its own `SKILL.md`.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `flutter` - Widget lifecycles and performance rules useful for Flutter motion.
 - `react` - Component and rendering patterns that shape animation behavior in React apps.
 - `react-native` - Mobile lifecycle and animation-thread constraints for React Native.
@@ -124,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star animate`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/animate
+- Latest version: https://clawic.com/skills/animate

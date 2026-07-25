@@ -1,6 +1,6 @@
 # Memory Template - Open Source
 
-Create `~/open-source/memory.md` with this structure:
+Create `~/Clawic/data/open-source/memory.md` with this structure:
 
 ```markdown
 # Open Source Memory

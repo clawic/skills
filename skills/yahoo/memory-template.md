@@ -1,6 +1,6 @@
 # Memory Template - Yahoo
 
-Create `~/yahoo/memory.md` with this structure:
+Create `~/Clawic/data/yahoo/memory.md` with this structure:
 
 ```markdown
 # Yahoo Memory

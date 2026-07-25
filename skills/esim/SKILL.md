@@ -1,7 +1,17 @@
 ---
-name: eSIM
+name: esim
+slug: esim
+version: 1.0.0
 description: Implement and troubleshoot eSIM across consumer activation, carrier integration, and RSP development.
-metadata: {"clawdbot":{"emoji":"📱","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/esim
+metadata:
+  clawdbot:
+    emoji: 📱
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: eSIM
 ---
 
 ## Critical Distinction

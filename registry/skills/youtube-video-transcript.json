@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "672206138485e9476cc466b3f0fb198adb643d2da9a1493771411f134f4bbb3e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "youtube-video-transcript",
-    "name": "YouTube Video Transcript",
+    "name": "youtube-video-transcript",
     "description": "Fetch, summarize, and save YouTube transcripts with timestamp navigation, chapter detection, and searchable content.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/youtube-video-transcript",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/youtube-video-transcript/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/_meta.json",
+      "byteCount": 200,
+      "sha256": "9dd9fc40d460e108094e7ccab03eec4dfcb93c6e31ca79178c53e9c66fdba2dc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/youtube-video-transcript/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/memory-template.md",
+      "byteCount": 2095,
+      "sha256": "6d95f9188c09e91ba5b3391e0b8454eee92655fac27664f26d17678857536655"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/youtube-video-transcript/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/patterns.md",
+      "byteCount": 4627,
+      "sha256": "850dddf90e93c124e259de834f4d2d60449a20573216ba8e94735fc84336809d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/youtube-video-transcript/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/setup.md",
+      "byteCount": 2088,
+      "sha256": "c12ce345f0a2fa4f2538827411256cc32ad39ccac79a10e99feb4460458cef60"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/youtube-video-transcript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/youtube-video-transcript/SKILL.md",
+      "byteCount": 10354,
+      "sha256": "1b6147ee1f4609317bafffca29043a8e9a97f1d8612d24ccc99e03f7bf39281d"
     }
   ]
 }

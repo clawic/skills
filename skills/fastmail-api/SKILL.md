@@ -1,11 +1,24 @@
 ---
-name: Fastmail API
+name: fastmail-api
 slug: fastmail-api
 version: 1.0.0
-homepage: https://clawic.com/skills/fastmail-api
 description: Manage Fastmail mail, mailbox, identity, contact, and calendar workflows through JMAP API calls with safe batching and token hygiene.
+homepage: https://clawic.com/skills/fastmail-api
 changelog: Initial release with production-safe Fastmail JMAP API workflows for mail, mailbox, identity, and calendar automation.
-metadata: {"clawdbot":{"emoji":"📬","requires":{"bins":["curl","jq"],"env":["FASTMAIL_API_TOKEN"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📬
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - FASTMAIL_API_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Fastmail API
 ---
 
 # Fastmail API Operations
@@ -20,10 +33,10 @@ User needs to automate Fastmail through API calls: mailbox management, message s
 
 ## Architecture
 
-Memory lives in `~/fastmail-api/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/fastmail-api/`. See `memory-template.md` for structure.
 
 ```text
-~/fastmail-api/
+~/Clawic/data/fastmail-api/
 ├── memory.md         # Account context, IDs, and operating preferences
 ├── request-log.md    # High-impact API actions and outcomes
 └── snapshots/        # Optional payload backups before bulk writes
@@ -53,9 +66,9 @@ Never commit bearer tokens to repository files, shell history, or shared logs.
 
 ## Data Storage
 
-- `~/fastmail-api/memory.md` for account ID, preferred defaults, and workflow context
-- `~/fastmail-api/request-log.md` for high-impact action history
-- `~/fastmail-api/snapshots/` for payload backups before bulk updates
+- `~/Clawic/data/fastmail-api/memory.md` for account ID, preferred defaults, and workflow context
+- `~/Clawic/data/fastmail-api/request-log.md` for high-impact action history
+- `~/Clawic/data/fastmail-api/snapshots/` for payload backups before bulk updates
 
 ## Core Rules
 
@@ -90,7 +103,7 @@ curl -sS "${FASTMAIL_API_BASE:-https://api.fastmail.com/jmap/api}" \
 
 ### 4. Confirm Destructive and Broad-Impact Actions
 - Confirm before mailbox deletes, message moves affecting many threads, identity updates, or bulk calendar edits.
-- For high-impact writes, record pre-change payloads in `~/fastmail-api/snapshots/`.
+- For high-impact writes, record pre-change payloads in `~/Clawic/data/fastmail-api/snapshots/`.
 
 ### 5. Treat Partial Failures as First-Class Results
 - Inspect `notCreated`, `notUpdated`, and method-level errors after every write.
@@ -140,9 +153,9 @@ No other data is sent externally.
 - Message metadata required for requested queries and write actions
 
 **Data that stays local:**
-- Operational context in `~/fastmail-api/memory.md`
-- High-impact action history in `~/fastmail-api/request-log.md`
-- Optional payload snapshots in `~/fastmail-api/snapshots/`
+- Operational context in `~/Clawic/data/fastmail-api/memory.md`
+- High-impact action history in `~/Clawic/data/fastmail-api/request-log.md`
+- Optional payload snapshots in `~/Clawic/data/fastmail-api/snapshots/`
 
 **This skill does NOT:**
 - Send undeclared API traffic
@@ -155,7 +168,7 @@ By using this skill, mailbox and calendar operation data is sent to Fastmail inf
 Only install if you trust Fastmail with this operational data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - Build robust HTTP request and response workflows for complex APIs
 - `oauth` - Handle token lifecycle and secure delegated authorization flows
 - `mail` - Plan high-quality email workflows, tone, and delivery structure
@@ -163,5 +176,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star fastmail-api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/fastmail-api
+- Latest version: https://clawic.com/skills/fastmail-api

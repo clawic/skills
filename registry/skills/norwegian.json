@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7ae0d7c08bccb0cfba3d52204075a71d7b72a3d6c358c9dce108d9c660b8b43c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "norwegian",
-    "name": "Norwegian",
+    "name": "norwegian",
     "description": "Write Norwegian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/norwegian",
     "summary": "The Real Problem AI Norwegian is technically correct but sounds off. Too formal. Too bokmål-perfect. Natives write more casually, with particles and dialect influence. Match that. Formality Default Default register is to",
     "repositoryPath": "skills/norwegian",
     "manifestPath": "registry/skills/norwegian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/norwegian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norwegian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norwegian/_meta.json",
+      "byteCount": 170,
+      "sha256": "fa886f965750dfdf3019d0af819301fb254e866be4b66dba11f38fa4a5258579"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/norwegian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norwegian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/norwegian/SKILL.md",
+      "byteCount": 2209,
+      "sha256": "d401e5f2bcade4fce2ce16c280184cf5db13c310277e2a3d99d080793c7dcbca"
     }
   ]
 }

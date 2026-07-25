@@ -1,6 +1,6 @@
 # Memory Template — AGI
 
-Create `~/agi/memory.md` with this structure:
+Create `~/Clawic/data/agi/memory.md` with this structure:
 
 ```markdown
 # AGI Memory
@@ -29,7 +29,7 @@ integration: pending
 
 ## reflections.md Template
 
-Create `~/agi/reflections.md`:
+Create `~/Clawic/data/agi/reflections.md`:
 
 ```markdown
 # Reasoning Reflections
@@ -47,7 +47,7 @@ Create `~/agi/reflections.md`:
 
 ## limits.md Template
 
-Create `~/agi/limits.md`:
+Create `~/Clawic/data/agi/limits.md`:
 
 ```markdown
 # Known Limits

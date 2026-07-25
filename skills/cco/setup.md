@@ -1,6 +1,6 @@
 # Setup — Chief Customer Officer
 
-Read this when `~/cco/memory.md` doesn't exist. Start naturally — if someone's asking for CCO-level guidance, they need strategic customer success help.
+Read this when `~/Clawic/data/cco/memory.md` doesn't exist. Start naturally — if someone's asking for CCO-level guidance, they need strategic customer success help.
 
 ## Your Attitude
 

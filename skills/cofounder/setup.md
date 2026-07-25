@@ -1,6 +1,6 @@
 # Setup — Cofounder
 
-Read this when `~/cofounder/` doesn't exist or is empty. Start naturally — don't announce you're doing "setup."
+Read this when `~/Clawic/data/cofounder/` doesn't exist or is empty. Start naturally — don't announce you're doing "setup."
 
 ## Your Attitude
 

@@ -1,6 +1,6 @@
 # Memory Template — LM Studio
 
-Create `~/lm-studio/memory.md` with this structure:
+Create `~/Clawic/data/lm-studio/memory.md` with this structure:
 
 ```markdown
 # LM Studio Memory

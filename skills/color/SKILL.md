@@ -1,11 +1,18 @@
 ---
-name: Color
+name: color
 slug: color
 version: 1.0.0
+description: Build, inspect, adapt, and validate color systems, palettes, tokens, contrast, color-space choices, and cross-surface color behavior for UI, branding, charts, images, and print.
 homepage: https://clawic.com/skills/color
-description: "Build, inspect, adapt, and validate color systems, palettes, tokens, contrast, color-space choices, and cross-surface color behavior for UI, branding, charts, images, and print."
-changelog: "Initial release with practical guidance for palettes, contrast, tokens, color spaces, charts, branding, print, and implementation workflows."
-metadata: {"clawdbot":{"emoji":"🎨","os":["linux","darwin","win32"]}}
+changelog: Initial release with practical guidance for palettes, contrast, tokens, color spaces, charts, branding, print, and implementation workflows.
+metadata:
+  clawdbot:
+    emoji: 🎨
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Color
 ---
 
 ## When to Use
@@ -156,7 +163,7 @@ Keep the system-level workflow in this file, then pull in the specialized file t
 - Exporting gorgeous color palettes that have no neutral strategy, state mapping, or component rules behind them.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image` — Image processing, exports, and color-sensitive visual asset workflows.
 - `image-generation` — AI image creation where palette, art direction, and color consistency matter.
 - `branding` — Brand-system decisions beyond color alone.
@@ -165,5 +172,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star color`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/color
+- Latest version: https://clawic.com/skills/color

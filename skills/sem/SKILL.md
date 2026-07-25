@@ -1,9 +1,20 @@
 ---
-name: SEM
+name: sem
+slug: sem
+version: 1.0.0
 description: Search engine marketing strategy, keyword bidding, quality score optimization, and paid search campaign management
+homepage: https://clawic.com/skills/sem
 metadata:
   category: marketing
-  skills: ["sem", "ppc", "google-ads", "paid-search", "adwords"]
+  skills:
+  - sem
+  - ppc
+  - google-ads
+  - paid-search
+  - adwords
+  clawdbot:
+    emoji: 🔍
+    displayName: SEM
 ---
 
 ## Keyword Strategy

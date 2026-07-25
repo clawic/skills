@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fee9f3d71c55b63c44bec567eab8d88273a337d89353b06db89ac0189138776d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cosmos",
-    "name": "Cosmos",
+    "name": "cosmos",
     "description": "Assist with Cosmos ATOM transactions, IBC transfers, staking, and cross-chain ecosystem navigation.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cosmos",
     "summary": "Ecosystem Overview - Cosmos is a network of blockchains — not a single chain - Cosmos Hub is the main chain — where ATOM lives - IBC connects all Cosmos chains — Inter-Blockchain Communication - Each chain is sovereign —",
     "repositoryPath": "skills/cosmos",
     "manifestPath": "registry/skills/cosmos.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cosmos/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cosmos/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cosmos/_meta.json",
+      "byteCount": 164,
+      "sha256": "8c342065aa9fe39cdd0f9224774c2c9080cf545f7ee2c150fbf061321ff92938"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cosmos/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cosmos/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cosmos/SKILL.md",
+      "byteCount": 4173,
+      "sha256": "1a374517d2ac90f8de51293fb5a36259284b9508ac6c045b47a247d44244cd6f"
     }
   ]
 }

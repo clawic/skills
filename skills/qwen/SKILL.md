@@ -1,11 +1,26 @@
 ---
-name: Qwen
+name: qwen
 slug: qwen
 version: 1.0.0
-homepage: https://clawic.com/skills/qwen
 description: Build and route Qwen chat, coding, reasoning, and vision workflows across hosted and self-hosted endpoints with safer debugging.
+homepage: https://clawic.com/skills/qwen
 changelog: Initial release with hosted and self-hosted Qwen routing, API patterns, tool-calling guidance, and troubleshooting playbooks.
-metadata: {"clawdbot":{"emoji":"🧩","requires":{"bins":["curl","jq"],"env":["DASHSCOPE_API_KEY"]},"os":["linux","darwin","win32"],"configPaths":["~/qwen/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧩
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - DASHSCOPE_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/qwen/
+    displayName: Qwen
 ---
 
 ## When to Use
@@ -14,10 +29,10 @@ User needs Qwen to work reliably for chat, coding, reasoning, structured outputs
 
 ## Architecture
 
-Memory lives in `~/qwen/`. If `~/qwen/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/qwen/`. If `~/Clawic/data/qwen/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/qwen/
+~/Clawic/data/qwen/
 ├── memory.md         # Status, activation rules, and deployment defaults
 ├── routes.md         # Preferred route per workload
 ├── servers.md        # Known local or hosted endpoints
@@ -74,7 +89,7 @@ Use the smallest file that resolves the blocker.
 
 ### 7. Ask Before Creating Persistent State
 - Work statelessly by default.
-- Only create `~/qwen/` notes, saved routes, or repro logs after the user wants continuity across Qwen tasks.
+- Only create `~/Clawic/data/qwen/` notes, saved routes, or repro logs after the user wants continuity across Qwen tasks.
 
 ## Common Traps
 
@@ -106,7 +121,7 @@ No other data is sent externally.
 - Optional images or multimodal payloads sent to hosted Qwen vision endpoints when requested
 
 **Data that stays local:**
-- Deployment preferences and routing notes in `~/qwen/` after user approval
+- Deployment preferences and routing notes in `~/Clawic/data/qwen/` after user approval
 - Local server URLs, workload notes, and sanitized repro payloads kept for debugging
 
 **This skill does NOT:**
@@ -125,7 +140,7 @@ This skill ONLY:
 
 This skill NEVER:
 - invent live model availability without checking
-- persist secrets in `~/qwen/`
+- persist secrets in `~/Clawic/data/qwen/`
 - execute destructive downstream automation without validated output
 - pretend one backend's tool-calling behavior applies everywhere
 
@@ -135,7 +150,7 @@ Using hosted Qwen sends prompt data to Alibaba Cloud Model Studio.
 Only install if you trust that service with your data, or keep Qwen fully self-hosted.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `models` — choose model families and cost tiers before locking Qwen into production
 - `api` — debug auth, payloads, retries, and OpenAI-compatible request shapes
 - `coding` — tighten agent coding workflows after the Qwen route itself is stable
@@ -144,5 +159,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star qwen`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/qwen
+- Latest version: https://clawic.com/skills/qwen

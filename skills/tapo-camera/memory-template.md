@@ -1,6 +1,6 @@
 # Memory Template - Tapo Camera
 
-Create `~/tapo-camera/memory.md` with this structure:
+Create `~/Clawic/data/tapo-camera/memory.md` with this structure:
 
 ```markdown
 # Tapo Camera Memory

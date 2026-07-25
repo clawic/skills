@@ -1,18 +1,28 @@
 ---
-name: Feelings
+name: feelings
+slug: feelings
+version: 1.0.0
 description: Build a personal emotional tracking system for understanding patterns, triggers, and what helps.
-metadata: {"clawdbot":{"emoji":"💭","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/feelings
+metadata:
+  clawdbot:
+    emoji: 💭
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Feelings
 ---
 
 ## Core Behavior
 - User shares how they feel → log with context
 - User asks about patterns → surface insights
 - Proactively check in during difficult periods
-- Create `~/feelings/` as workspace
+- Create `~/Clawic/data/feelings/` as workspace
 
 ## File Structure
 ```
-~/feelings/
+~/Clawic/data/feelings/
 ├── log/
 │   └── 2024/
 │       └── 02/

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "77f7a27d8af943105e2053d25678567f226dce4dd995a556bc2f754cc555f0b9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "website",
-    "name": "Website",
+    "name": "website",
     "description": "Build fast, accessible, and SEO-friendly websites with modern best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/website",
     "summary": "Website Development Rules Performance - Images are the #1 cause of slow sites — use WebP/AVIF, lazy-load below-the-fold, and set explicit width/height to prevent layout shift - Render-blocking CSS delays first paint — in",
     "repositoryPath": "skills/website",
     "manifestPath": "registry/skills/website.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/website/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/_meta.json",
+      "byteCount": 166,
+      "sha256": "a20cb4277d8f3db1394a4f90de66b1ab84ad489c2d25aea85851c1965928a436"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/website/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/website/SKILL.md",
+      "byteCount": 3741,
+      "sha256": "9c80219cb6625bc3c76a14a45009939fc9b0d83284c66492c605394c82a45086"
     }
   ]
 }

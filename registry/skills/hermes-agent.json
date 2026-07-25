@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "170c69b9e4e2dc0529e151e69881cf9e777b617a8c90cb49d55f23c49df99288",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "hermes-agent",
-    "name": "Hermes Agent",
+    "name": "hermes-agent",
     "description": "Turn OpenClaw into a learning-loop agent with seeded workspace rules, skill promotion, reflective memory, and proactive maintenance.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/hermes-agent",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hermes-agent/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/_meta.json",
+      "byteCount": 176,
+      "sha256": "69a3ad964dd316da9321abc225566d413b8432c6c175c755d3ecff5545925c9e"
     },
     {
       "path": "loop.md",
       "downloadPath": "skills/hermes-agent/loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/loop.md",
+      "byteCount": 1268,
+      "sha256": "cc7f85ff86569e404d86359ecb8e697dfdb8e34ba782dee310e77468bcb6f716"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/hermes-agent/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/memory-template.md",
+      "byteCount": 2228,
+      "sha256": "a12e0a18490bab866212f0165e290ddc22cf5b603dd6efec2d5887f078c20371"
     },
     {
       "path": "openclaw-seed.md",
       "downloadPath": "skills/hermes-agent/openclaw-seed.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/openclaw-seed.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/openclaw-seed.md",
+      "byteCount": 2431,
+      "sha256": "ff4b1c19861e8291b05f2d7edafdb3c033e54c98020837039ab007e422dd1da4"
     },
     {
       "path": "promotion.md",
       "downloadPath": "skills/hermes-agent/promotion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/promotion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/promotion.md",
+      "byteCount": 872,
+      "sha256": "2caf4153110561b6a19dfa20423baa1d35138a6827a37d00864403dcfeef04a6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/hermes-agent/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/setup.md",
+      "byteCount": 5280,
+      "sha256": "07a29957c2eb29928c5425e3566c876844e8ec2abd42f6b7ab731f55381a3891"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hermes-agent/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hermes-agent/SKILL.md",
+      "byteCount": 5093,
+      "sha256": "731d155f662b6d1b72641c37ddba9efce1538a3d0c89eccc931e4ec21fb56b44"
     }
   ]
 }

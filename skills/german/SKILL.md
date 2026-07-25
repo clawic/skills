@@ -1,6 +1,13 @@
 ---
-name: German
+name: german
+slug: german
+version: 1.0.0
 description: Write German that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/german
+metadata:
+  clawdbot:
+    emoji: 🇩🇪
+    displayName: German
 ---
 
 ## The Real Problem

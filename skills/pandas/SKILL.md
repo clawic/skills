@@ -1,15 +1,25 @@
 ---
-name: Pandas
+name: pandas
 slug: pandas
 version: 1.0.1
-homepage: https://clawic.com/skills/pandas
 description: Analyze, transform, and clean DataFrames with efficient patterns for filtering, grouping, merging, and pivoting.
-metadata: {"clawdbot":{"emoji":"🐼","requires":{"bins":["python3"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pandas
+metadata:
+  clawdbot:
+    emoji: 🐼
+    requires:
+      bins:
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Pandas
 ---
 
 ## Setup
 
-On first use, create `~/pandas/` and read `setup.md` for initialization. User preferences are stored in `~/pandas/memory.md` — users can view or edit this file anytime.
+On first use, create `~/Clawic/data/pandas/` and read `setup.md` for initialization. User preferences are stored in `~/Clawic/data/pandas/memory.md` — users can view or edit this file anytime.
 
 ## When to Use
 
@@ -17,10 +27,10 @@ User needs to work with tabular data in Python. Agent handles DataFrame operatio
 
 ## Architecture
 
-Memory lives in `~/pandas/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/pandas/`. See `memory-template.md` for structure.
 
 ```
-~/pandas/
+~/Clawic/data/pandas/
 ├── memory.md     # User preferences and common patterns
 └── snippets/     # Saved code patterns (optional)
 ```
@@ -105,21 +115,21 @@ user_data = df.loc[12345]  # O(1) lookup
 ## Security & Privacy
 
 **Data storage:**
-- User preferences stored in `~/pandas/memory.md`
+- User preferences stored in `~/Clawic/data/pandas/memory.md`
 - All DataFrame operations run locally
 - No data is sent externally
 
 **This skill does NOT:**
 - Upload data to any service
-- Access files outside `~/pandas/` and the working directory
+- Access files outside `~/Clawic/data/pandas/` and the working directory
 - Modify source data files without explicit instruction
 
 **User control:**
-- View stored preferences: `cat ~/pandas/memory.md`
-- Clear all data: `rm -rf ~/pandas/`
+- View stored preferences: `cat ~/Clawic/data/pandas/memory.md`
+- Clear all data: `rm -rf ~/Clawic/data/pandas/`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `data-analysis` — general data analysis patterns
 - `csv` — CSV file handling
 - `sql` — database queries
@@ -127,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star pandas`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/pandas
+- Latest version: https://clawic.com/skills/pandas

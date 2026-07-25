@@ -1,6 +1,6 @@
 # Setup - Auto-Update
 
-Read this when `~/auto-update/` does not exist or is empty. Start naturally. Keep the conversation focused on what the user wants updated and how hands-off they want it to feel.
+Read this when `~/Clawic/data/auto-update/` does not exist or is empty. Start naturally. Keep the conversation focused on what the user wants updated and how hands-off they want it to feel.
 
 ## Your Attitude
 
@@ -12,7 +12,7 @@ This should feel like setting up one reliable cron-backed maintenance flow, not 
 
 Start with the simplest mental model:
 - one `openclaw cron add` job handles the recurring run
-- that cron message reads `~/auto-update/` before it changes anything
+- that cron message reads `~/Clawic/data/auto-update/` before it changes anything
 - the control files decide what is allowed
 
 If the user says "just set it up", use:
@@ -44,7 +44,7 @@ Only after defaults are clear, gather:
 
 If the user approves recurring updates:
 - propose the exact `openclaw cron add` entry now
-- make the cron message explicitly read `~/auto-update/memory.md`, `~/auto-update/openclaw.md`, `~/auto-update/skills.md`, and `~/auto-update/migrations.md`
+- make the cron message explicitly read `~/Clawic/data/auto-update/memory.md`, `~/Clawic/data/auto-update/openclaw.md`, `~/Clawic/data/auto-update/skills.md`, and `~/Clawic/data/auto-update/migrations.md`
 - apply it only after approval
 - record it in `schedule.md`
 

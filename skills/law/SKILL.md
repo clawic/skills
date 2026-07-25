@@ -1,7 +1,17 @@
 ---
-name: Law
+name: law
+slug: law
+version: 1.0.0
 description: Support legal understanding from everyday rights to professional practice and scholarship.
-metadata: {"clawdbot":{"emoji":"⚖️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/law
+metadata:
+  clawdbot:
+    emoji: ⚖️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Law
 ---
 
 ## Detect Level, Adapt Everything

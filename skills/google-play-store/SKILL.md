@@ -1,10 +1,19 @@
 ---
-name: Google Play Store
+name: google-play-store
 slug: google-play-store
 version: 1.0.0
-homepage: https://clawic.com/skills/google-play-store
 description: Publish, optimize, and scale Android apps on Google Play with release automation, ASO, policy compliance, and rejection recovery.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/google-play-store
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Google Play Store
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User needs to publish, manage, or optimize Android apps on Google Play. Agent ha
 
 ## Architecture
 
-Memory lives in `~/google-play-store/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/google-play-store/`. See `memory-template.md` for structure.
 
 ```
-~/google-play-store/
+~/Clawic/data/google-play-store/
 ├── memory.md         # Account, apps, preferences
 ├── apps/             # Per-app tracking
 │   └── {package}/    # Package-specific notes
@@ -173,7 +182,7 @@ Why: Rejected uploads "burn" the versionCode.
 ## Security & Privacy
 
 **Data that stays local:**
-- Package names and app status in ~/google-play-store/
+- Package names and app status in ~/Clawic/data/google-play-store/
 - Submission checklists and workflow notes
 - Release history and lessons learned
 
@@ -197,12 +206,12 @@ Why: Rejected uploads "burn" the versionCode.
 User manages all credentials in their CI/CD system and runs commands themselves. The Fastlane examples are documentation only.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `android` — Android development
 - `app-store` — iOS and Android publishing
 - `mobile` — Cross-platform mobile
 
 ## Feedback
 
-- If useful: `clawhub star google-play-store`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/google-play-store
+- Latest version: https://clawic.com/skills/google-play-store

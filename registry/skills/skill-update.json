@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "30c49a62c845835baae50aa84d8386d407fc2e846b4dbdfd64fd26032e4f0fd7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,50 +17,66 @@
     "description": "Updates installed agent skills safely: version check, diff preview, backup, approval, data migration, and rollback. Use when updating or upgrading a skill, checking for newer versions, previewing what changed before applying, when a skill breaks, misbehaves, or loses data right after an update, when saved data or config must migrate across a version bump, when local edits to an installed skill would collide with the new version, or when bringing every skill or every agent's copy current. Not for installing new skills (skill-finder) or publishing skills you own (skill-publish).",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/skill-update",
-    "summary": "Updates installed skills safely: preview every change, back up before applying, migrate data only on approval, roll back on failure. Mode: act-as \u2014 it executes the update directly, never advises from the sideline. Backup",
+    "summary": "Updates installed skills safely: preview every change, back up before applying, migrate data only on approval, roll back on failure. Mode: act-as — it executes the update directly, never advises from the sideline. Backup",
     "repositoryPath": "skills/skill-update",
     "manifestPath": "registry/skills/skill-update.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/skill-update/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/skill-update/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/_meta.json",
+      "byteCount": 326,
+      "sha256": "2d007b05685ec5d9998b96fee3ef6f1e396931a5f3839712d168bcb179b88af3"
     },
     {
       "path": "batch.md",
       "downloadPath": "skills/skill-update/batch.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/batch.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/batch.md",
+      "byteCount": 2876,
+      "sha256": "58651105d23453df53182801f0375ef249630c03f348ab387fecc32c3d74eddd"
     },
     {
       "path": "local-changes.md",
       "downloadPath": "skills/skill-update/local-changes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/local-changes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/local-changes.md",
+      "byteCount": 3563,
+      "sha256": "32f0df8c059b2bf6d48ab36dc9403ea02709dbd7e7b06dd1c8838da5d9e1f794"
     },
     {
       "path": "migrate.md",
       "downloadPath": "skills/skill-update/migrate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/migrate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/migrate.md",
+      "byteCount": 4810,
+      "sha256": "c3a46e0fddaa5c0bb3e2e3c9513ece9a921a5aee7ec2171577b0b4a0350e8c71"
     },
     {
       "path": "multi-agent.md",
       "downloadPath": "skills/skill-update/multi-agent.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/multi-agent.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/multi-agent.md",
+      "byteCount": 3029,
+      "sha256": "3d151dff9b14e3d61d76e6ffd2a20b85f0019c6f4cefb7bf47af0ba53997f2b8"
     },
     {
       "path": "preview.md",
       "downloadPath": "skills/skill-update/preview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/preview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/preview.md",
+      "byteCount": 4444,
+      "sha256": "cce6674998dd6122993b35c6970615fe13eb4b00498ea4fadcf898c88f83c7ba"
     },
     {
       "path": "rollback.md",
       "downloadPath": "skills/skill-update/rollback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/rollback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/rollback.md",
+      "byteCount": 3938,
+      "sha256": "8f3addb04fa91c3f3ee966ff7784f43c4af09cfb017e2e7d7f5ff7c79b7961fd"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/skill-update/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/SKILL.md",
+      "byteCount": 14423,
+      "sha256": "bf65ba21ad7cf61f9b485ec186221c88d522fa2e9380f19230f168a296f9b216"
     }
   ]
 }

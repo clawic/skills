@@ -1,11 +1,22 @@
 ---
-name: Store
+name: store
 slug: store
 version: 1.0.0
-homepage: https://clawic.com/skills/store
 description: Manage a physical store of any kind with opening routines, inventory control, staffing, cash discipline, merchandising, and weekly reviews.
+homepage: https://clawic.com/skills/store
 changelog: Initial release with daily store operations, stock control, staffing routines, and weekly performance review workflows.
-metadata: {"clawdbot":{"emoji":"🏬","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/store/"]}}
+metadata:
+  clawdbot:
+    emoji: 🏬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/store/
+    displayName: Store
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ It fits boutiques, convenience stores, specialty retail, home-goods shops, elect
 
 ## Architecture
 
-Memory lives in `~/store/`. If `~/store/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/store/`. If `~/Clawic/data/store/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/store/
+~/Clawic/data/store/
 ├── memory.md          # Status, store profile, active priorities
 ├── routines.md        # Opening, peak-hour, and closing standards
 ├── inventory.md       # Stock priorities, adjustments, replenishment notes
@@ -47,7 +58,7 @@ Load only the smallest playbook that matches the current store problem so the op
 
 ## Data Storage
 
-Local store notes live in `~/store/`.
+Local store notes live in `~/Clawic/data/store/`.
 Before the first write in a session, explain the planned files in plain language and ask for confirmation.
 
 ## Core Rules
@@ -106,7 +117,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - Store profile, routines, KPI snapshots, staffing patterns, stock notes, promotions, and incident logs.
-- Stored in `~/store/`.
+- Stored in `~/Clawic/data/store/`.
 
 **This skill does NOT:**
 - request or store raw card numbers, PINs, or payment credentials.
@@ -120,7 +131,7 @@ This is an instruction-only retail operations skill.
 No third-party service access is required.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `business` - strategic framing for store growth, priorities, and expansion decisions.
 - `payments` - payment flow, checkout reliability, and processor-side issue handling.
 - `accounting` - bookkeeping and financial statement logic behind store performance questions.
@@ -129,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star store`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/store
+- Latest version: https://clawic.com/skills/store

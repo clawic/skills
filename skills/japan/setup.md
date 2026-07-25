@@ -10,7 +10,7 @@ mkdir -p ~/japan
 ```
 
 ### 2. Initialize Memory File
-Create `~/japan/memory.md` using the template from `memory-template.md`.
+Create `~/Clawic/data/japan/memory.md` using the template from `memory-template.md`.
 
 ### 3. Gather Trip Context
 Ask naturally (not as a form):
@@ -22,11 +22,11 @@ Ask naturally (not as a form):
 - Rail-focused, domestic flights, or mixed transport?
 
 ### 4. Save to Memory
-Update `~/japan/memory.md` with their answers.
+Update `~/Clawic/data/japan/memory.md` with their answers.
 
 ## Returning Users
 
-If `~/japan/memory.md` exists:
+If `~/Clawic/data/japan/memory.md` exists:
 1. Read it silently
 2. Reuse known preferences
 3. Ask what changed since last plan

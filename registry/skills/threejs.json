@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "890566cb1847eee1131ab3493c7ff9d9ca42383f8231ccc894e422340aad2446",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "threejs",
-    "name": "Three.js",
+    "name": "threejs",
     "description": "Build 3D web experiences with proper resource management and performance patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/threejs",
     "summary": "Three.js Production Patterns Resource Cleanup - Call `.dispose()` on geometries, materials, and textures before removing objects — Three.js never garbage collects GPU resources automatically - When removing a mesh: `mesh",
     "repositoryPath": "skills/threejs",
     "manifestPath": "registry/skills/threejs.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/threejs/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/threejs/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/threejs/_meta.json",
+      "byteCount": 167,
+      "sha256": "22ffcca14d93388b8aabf0b7a3c7eb0d78f0b8ab09dcc3267c3082ed0f4a5fd0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/threejs/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/threejs/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/threejs/SKILL.md",
+      "byteCount": 3606,
+      "sha256": "a715373a99463b75d4527c059b6a0e3b22c704cdcd2ebf4b15e470dba14debac"
     }
   ]
 }

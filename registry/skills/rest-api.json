@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e18e1c83f3cdb610065b8b146628394d889a69c688fc2cb61d02284ddcf4ec60",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "rest-api",
-    "name": "REST API",
+    "name": "rest-api",
     "description": "Build production-ready REST APIs with contract-first design, secure auth, robust testing, and deployment runbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/rest-api",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/rest-api/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/_meta.json",
+      "byteCount": 168,
+      "sha256": "4dd7fd4738cb7eb4b5d1e04c1e1aa8a1bc7dd33056c36a4fe764864d16f28118"
     },
     {
       "path": "api-contract.md",
       "downloadPath": "skills/rest-api/api-contract.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/api-contract.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/api-contract.md",
+      "byteCount": 1261,
+      "sha256": "e53e2df3292f7e441d5e80b2f7ff2d8cce6da18cf9f287c36dbb907b301933c7"
     },
     {
       "path": "auth-and-security.md",
       "downloadPath": "skills/rest-api/auth-and-security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/auth-and-security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/auth-and-security.md",
+      "byteCount": 1130,
+      "sha256": "974c1450c91b6574a77280ee3814a511e185731cc018e7f78be9f205576ac688"
     },
     {
       "path": "deployment-checklist.md",
       "downloadPath": "skills/rest-api/deployment-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/deployment-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/deployment-checklist.md",
+      "byteCount": 1077,
+      "sha256": "5d1f8e8895d095b942d09eb4f73f12d10931e669f606882b3cab152b2cd2dbc2"
     },
     {
       "path": "endpoint-design.md",
       "downloadPath": "skills/rest-api/endpoint-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/endpoint-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/endpoint-design.md",
+      "byteCount": 1249,
+      "sha256": "af445aba3eefb19ae0b9db8cebabbf984a7b9f7e2606bb28aa856ed2ad73b203"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/rest-api/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/memory-template.md",
+      "byteCount": 1642,
+      "sha256": "2f5fa26cf04ba5f68ff36cb2147c21924953411b554ba6072564ba96d8f66557"
     },
     {
       "path": "persistence-and-migrations.md",
       "downloadPath": "skills/rest-api/persistence-and-migrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/persistence-and-migrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/persistence-and-migrations.md",
+      "byteCount": 1011,
+      "sha256": "050cc028b31e3320cf2d286ea1656b2e7dbb480e9ade94c86de2221c869b1ca7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/rest-api/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/setup.md",
+      "byteCount": 1734,
+      "sha256": "dc115e80f273aaea3bd1d9cef5783916ca11e8cfa49e5f90ecdc5963bc56eee6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rest-api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/SKILL.md",
+      "byteCount": 5087,
+      "sha256": "180e39b12290bdfb3301ba8de396e89a43cdbd37c49617c0da2e59c6663212ef"
     },
     {
       "path": "testing-and-observability.md",
       "downloadPath": "skills/rest-api/testing-and-observability.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/testing-and-observability.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rest-api/testing-and-observability.md",
+      "byteCount": 1182,
+      "sha256": "0711b52afa3a6c57e7e45def9ccb3451c428bcca11a53911c6207f02526cf669"
     }
   ]
 }

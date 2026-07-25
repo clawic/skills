@@ -1,11 +1,27 @@
 ---
-name: Apple Calendar (MacOS)
+name: apple-calendar-macos
 slug: apple-calendar-macos
 version: 1.0.0
-homepage: https://clawic.com/skills/apple-calendar-macos
 description: Use local CLI to manage Apple, Google, iCloud, Outlook, CalDAV, and other calendars synced in macOS Calendar, without API keys or OAuth.
+homepage: https://clawic.com/skills/apple-calendar-macos
 changelog: Initial release with unified macOS Calendar operations, deterministic command fallback, and safety-first write verification.
-metadata: {"clawdbot":{"emoji":"📅","requires":{"bins":[],"anyBins":["apple-calendar-cli","icalBuddy","shortcuts","osascript"],"config":["~/apple-calendar-macos/"]},"os":["darwin"],"configPaths":["~/apple-calendar-macos/"]}}
+metadata:
+  clawdbot:
+    emoji: 📅
+    requires:
+      bins: []
+      anyBins:
+      - apple-calendar-cli
+      - icalBuddy
+      - shortcuts
+      - osascript
+      config:
+      - ~/Clawic/data/apple-calendar-macos/
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/apple-calendar-macos/
+    displayName: Apple Calendar (MacOS)
 ---
 
 ## Setup
@@ -26,10 +42,10 @@ Agent handles lookup, create, update, delete, conflict checks, and post-write ve
 
 ## Architecture
 
-Memory lives in `~/apple-calendar-macos/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/apple-calendar-macos/`. See `memory-template.md` for structure.
 
 ```text
-~/apple-calendar-macos/
+~/Clawic/data/apple-calendar-macos/
 ├── memory.md                  # Status, defaults, and confirmation behavior
 ├── command-paths.md           # Detected CLI path and fallback status
 ├── timezone-defaults.md       # Preferred timezone and date style
@@ -49,7 +65,7 @@ Memory lives in `~/apple-calendar-macos/`. See `memory-template.md` for structur
 
 ## Data Storage
 
-All skill files are stored in `~/apple-calendar-macos/`.
+All skill files are stored in `~/Clawic/data/apple-calendar-macos/`.
 Before creating or changing local files, describe the planned write and ask for confirmation.
 
 ## Core Rules
@@ -94,7 +110,7 @@ Before creating or changing local files, describe the planned write and ask for 
 ## Security & Privacy
 
 **Data that stays local:**
-- Calendar operation context and defaults in `~/apple-calendar-macos/`.
+- Calendar operation context and defaults in `~/Clawic/data/apple-calendar-macos/`.
 - Event metadata used for requested operations.
 
 **Data that may leave your machine:**
@@ -106,7 +122,7 @@ Before creating or changing local files, describe the planned write and ask for 
 - Execute destructive calendar writes without explicit confirmation.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - macOS workflows and system command patterns.
 - `events` - event planning and structure patterns.
 - `meetings` - meeting prep and follow-up workflows.
@@ -115,5 +131,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star apple-calendar-macos`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/apple-calendar-macos
+- Latest version: https://clawic.com/skills/apple-calendar-macos

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3699ebac3882f07f1cf0c28ecb8060a32a1d2f4d6c9efa1487ace65f5ae9aa5d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "dropshipping",
-    "name": "Dropshipping",
+    "name": "dropshipping",
     "description": "Build and scale dropshipping businesses with product research, supplier management, order automation, and multi-channel operations.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/dropshipping",
     "summary": "Core Workflow Product Research - Validate demand: Google Trends, TikTok trending, competitor analysis - Calculate REAL margins: product + shipping + platform fees (8-15%) + payment fees (3%) + ads (CAC) + returns (10-15%",
     "repositoryPath": "skills/dropshipping",
     "manifestPath": "registry/skills/dropshipping.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dropshipping/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/_meta.json",
+      "byteCount": 176,
+      "sha256": "94be10f681f706a09cce6604ae0833d67dd613b45acc1208a409eb46f6050593"
     },
     {
       "path": "integrations.md",
       "downloadPath": "skills/dropshipping/integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/integrations.md",
+      "byteCount": 4473,
+      "sha256": "7d2508d997b54a300db941615d9c0ce04c8ede5cbb39a4d24e719d19161bff2e"
     },
     {
       "path": "risks.md",
       "downloadPath": "skills/dropshipping/risks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/risks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/risks.md",
+      "byteCount": 5710,
+      "sha256": "ba60dbc9aa6a832797ff4e7bf800b374cc72badd5454a656fb97ce0337f5cb30"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dropshipping/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/SKILL.md",
+      "byteCount": 2785,
+      "sha256": "1a05e9500efe98674849e431c6c2acf80d79e74b9693915d01e04dbe6afb7d05"
     },
     {
       "path": "suppliers.md",
       "downloadPath": "skills/dropshipping/suppliers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/suppliers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dropshipping/suppliers.md",
+      "byteCount": 4361,
+      "sha256": "466dac056c813506011eb1a88a95d684c1f81829152e75a176a3d6a63e969def"
     }
   ]
 }

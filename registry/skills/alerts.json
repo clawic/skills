@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "64e4019a34b29135b568470b1e4985f1d564eb437f1764b324737236652911a1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "alerts",
-    "name": "Alerts",
+    "name": "alerts",
     "description": "Smart alerting patterns for AI agents - deduplication, routing, escalation, and fatigue prevention",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/alerts",
     "summary": "Alert Fatigue Prevention **Group alerts by root cause, never by individual symptoms.** Use labels: `alertname`, `service`, `cluster` - not instance IDs. ```bash Good: One alert for database down affecting 50 pods group_b",
     "repositoryPath": "skills/alerts",
     "manifestPath": "registry/skills/alerts.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/alerts/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alerts/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alerts/_meta.json",
+      "byteCount": 164,
+      "sha256": "4f0d9d5e605413a86947e55e17f2d77d7e0faea93d800fc4fec807cde3e6e1cb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/alerts/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alerts/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/alerts/SKILL.md",
+      "byteCount": 4476,
+      "sha256": "764ee158bd50ae264523e2fc15c4af3031bd0c68a583c4ea748bbfe68db0fcae"
     }
   ]
 }

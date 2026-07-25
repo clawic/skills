@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "86db2674dc6811852d67727e43e2f7bbc40e962631946218ee703e9f47dd5b5f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "face",
-    "name": "Face",
+    "name": "face",
     "description": "Put a human face on your agent with fast avatar shortlists, gender control, transparent options, and reusable profile links. Use when the user wants an avatar, profile face, or group image.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/face",
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/face/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/_meta.json",
+      "byteCount": 160,
+      "sha256": "725c40668c3fb8f74bdafd5f34b621096bce4494ebb624585b98b600c9296458"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/face/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/face/SKILL.md",
+      "byteCount": 4892,
+      "sha256": "57fd1add9b50ae33fb4464c22f28e25eaf5c4739644ac51735a9ec3d77d5a93d"
     }
   ]
 }

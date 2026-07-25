@@ -1,6 +1,6 @@
 # Memory Template - Smoking (Logger, Quit, Reduce)
 
-Create `~/smoking/memory.md` with this structure:
+Create `~/Clawic/data/smoking/memory.md` with this structure:
 
 ```markdown
 # Smoking Memory
@@ -53,7 +53,7 @@ what_to_avoid:
 
 ## File Templates
 
-Create `~/smoking/logs/daily.md`:
+Create `~/Clawic/data/smoking/logs/daily.md`:
 
 ```markdown
 # Daily Smoking Log
@@ -68,7 +68,7 @@ Create `~/smoking/logs/daily.md`:
 - most_effective_response:
 ```
 
-Create `~/smoking/plans/current.md`:
+Create `~/Clawic/data/smoking/plans/current.md`:
 
 ```markdown
 # Current Smoking Plan
@@ -91,7 +91,7 @@ Create `~/smoking/plans/current.md`:
 - Next 24h recovery step:
 ```
 
-Create `~/smoking/triggers.md`:
+Create `~/Clawic/data/smoking/triggers.md`:
 
 ```markdown
 # Trigger Map
@@ -104,7 +104,7 @@ Create `~/smoking/triggers.md`:
 - Next adjustment:
 ```
 
-Create `~/smoking/check-ins.md`:
+Create `~/Clawic/data/smoking/check-ins.md`:
 
 ```markdown
 # Weekly Check-Ins

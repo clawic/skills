@@ -1,12 +1,12 @@
 # Setup — Notes
 
-Read this when `~/notes/` doesn't exist or `~/notes/config.md` is missing.
+Read this when `~/Clawic/data/notes/` doesn't exist or `~/Clawic/data/notes/config.md` is missing.
 
 ## First Use
 
 On first use, the skill will:
-1. Create `~/notes/` directory structure
-2. Create `~/notes/config.md` with default routing (all to local)
+1. Create `~/Clawic/data/notes/` directory structure
+2. Create `~/Clawic/data/notes/config.md` with default routing (all to local)
 3. Ask the user about their preferred platforms
 
 **Always inform the user** what files are being created and where.
@@ -30,7 +30,7 @@ Based on what you said, here's what I suggest:
 - Journal → Bear  
 - Everything else → local files
 
-I'll save this to ~/notes/config.md. Sound good?
+I'll save this to ~/Clawic/data/notes/config.md. Sound good?
 ```
 
 Wait for confirmation before writing config.
@@ -54,7 +54,7 @@ If a platform isn't set up, offer to help configure it or route to local instead
 This skill creates and manages:
 
 ```
-~/notes/
+~/Clawic/data/notes/
 ├── config.md      # Platform routing configuration
 ├── index.md       # Note index with tags
 ├── actions.md     # Action items tracker
@@ -83,10 +83,10 @@ Ask the user how they want the skill to activate:
 - "Whenever I mention meetings, decisions, or ideas"
 - "Proactively remind me about overdue action items"
 
-Save their preference in `~/notes/config.md` under a `## Preferences` section.
+Save their preference in `~/Clawic/data/notes/config.md` under a `## Preferences` section.
 
 ## Graceful Fallback
 
 If a configured platform becomes unavailable:
 1. Save to local instead
-2. Inform the user: "Bear wasn't available, saved locally to ~/notes/quick/"
+2. Inform the user: "Bear wasn't available, saved locally to ~/Clawic/data/notes/quick/"

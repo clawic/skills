@@ -1,11 +1,22 @@
 ---
-name: Plant Identifier
+name: plant-identifier
 slug: plant-identifier
 version: 1.0.0
+description: Identify plants from photos using trait-based analysis, ranked species candidates, follow-up capture guidance, and a reusable local log.
 homepage: https://clawic.com/skills/plant-identifier
-description: "Identify plants from photos using trait-based analysis, ranked species candidates, follow-up capture guidance, and a reusable local log."
-changelog: "Initial release with ranked plant identification, trait-based follow-up, and optional local observation memory."
-metadata: {"clawdbot":{"emoji":"P","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/plant-identifier/"]}}
+changelog: Initial release with ranked plant identification, trait-based follow-up, and optional local observation memory.
+metadata:
+  clawdbot:
+    emoji: P
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/plant-identifier/
+    displayName: Plant Identifier
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Use when the user wants to identify a plant from one or more photos, narrow down
 
 ## Architecture
 
-Memory lives in `~/plant-identifier/`. If `~/plant-identifier/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/plant-identifier/`. If `~/Clawic/data/plant-identifier/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/plant-identifier/
+~/Clawic/data/plant-identifier/
 ├── memory.md
 ├── observations/
 │   └── YYYY-MM/
@@ -49,8 +60,8 @@ This skill NEVER:
 ## Security & Privacy
 
 **Data stored locally if approved by the user:**
-- activation and response preferences in `~/plant-identifier/memory.md`
-- one note per saved observation in `~/plant-identifier/observations/`
+- activation and response preferences in `~/Clawic/data/plant-identifier/memory.md`
+- one note per saved observation in `~/Clawic/data/plant-identifier/observations/`
 
 **This skill does NOT:**
 - make network requests
@@ -98,7 +109,7 @@ This skill NEVER:
 - Turning a tentative ID into edibility advice -> that creates avoidable safety risk.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image` - inspect and optimize plant photos before identification
 - `photos` - organize photo sets across repeated observations
 - `plants` - broader plant care context once the plant is identified
@@ -106,5 +117,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star plant-identifier`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/plant-identifier
+- Latest version: https://clawic.com/skills/plant-identifier

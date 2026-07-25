@@ -1,7 +1,20 @@
 ---
-name: Passwords
+name: passwords
+slug: passwords
+version: 1.1.0
 description: Local credential vault with OS keychain integration, encrypted storage, and session-based access control.
-metadata: {"clawdbot":{"emoji":"🔐","requires":{"bins":["age"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/passwords
+metadata:
+  clawdbot:
+    emoji: 🔐
+    requires:
+      bins:
+      - age
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Publish Passwords
 ---
 
 ## Storage

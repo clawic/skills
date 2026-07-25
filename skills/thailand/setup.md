@@ -1,6 +1,6 @@
 # Setup - Thailand Guide
 
-Read this when `~/thailand/` is missing or empty.
+Read this when `~/Clawic/data/thailand/` is missing or empty.
 Keep first-use setup short and practical.
 
 ## First Activation Priorities
@@ -23,16 +23,16 @@ If approved by the user context, initialize local memory:
 
 ```bash
 mkdir -p ~/thailand
-touch ~/thailand/memory.md
+touch ~/Clawic/data/thailand/memory.md
 chmod 700 ~/thailand
-chmod 600 ~/thailand/memory.md
+chmod 600 ~/Clawic/data/thailand/memory.md
 ```
 
-If `~/thailand/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/thailand/memory.md` is empty, initialize it from `memory-template.md`.
 
 ## Returning Users
 
-- Read `~/thailand/memory.md` silently.
+- Read `~/Clawic/data/thailand/memory.md` silently.
 - Reuse known priorities and constraints.
 - Ask only what changed since last conversation.
 - Update memory with new region, date, budget, and risk changes.

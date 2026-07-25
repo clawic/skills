@@ -9,7 +9,7 @@ mkdir -p ~/taxi
 
 ## memory.md Template
 
-Copy to `~/taxi/memory.md`:
+Copy to `~/Clawic/data/taxi/memory.md`:
 
 ```markdown
 # Taxi Preferences

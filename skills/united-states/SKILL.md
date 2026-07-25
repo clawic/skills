@@ -1,16 +1,27 @@
 ---
-name: United States
+name: united-states
 slug: united-states
 version: 1.0.0
-homepage: https://clawic.com/skills/united-states
-changelog: "Initial release with verified U.S. entry rules, region playbooks, and practical tourism logistics."
 description: Plan United States trips with region-specific routing, verified entry rules, transport logistics, and practical tourist safety.
-metadata: {"clawdbot":{"emoji":"🇺🇸","requires":{"bins":[],"config":["~/united-states/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/united-states
+changelog: Initial release with verified U.S. entry rules, region playbooks, and practical tourism logistics.
+metadata:
+  clawdbot:
+    emoji: 🇺🇸
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/united-states/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: United States
 ---
 
 ## Setup
 
-If `~/united-states/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/united-states/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a U.S. trip and needs practical guidance beyond generic advice:
 
 ## Architecture
 
-Memory lives in `~/united-states/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/united-states/`. See `memory-template.md` for structure.
 
 ```
-~/united-states/
+~/Clawic/data/united-states/
 └── memory.md     # Trip context and evolving constraints
 ```
 
@@ -110,12 +121,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/united-states/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/united-states/`
 
-**This skill does NOT:** Access files outside `~/united-states/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/united-states/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `car-rental` — Better rental strategy and handoff logistics
 - `booking` — Reservation workflows and confirmation hygiene
@@ -124,5 +135,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star united-states`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/united-states
+- Latest version: https://clawic.com/skills/united-states

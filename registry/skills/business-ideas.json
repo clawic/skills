@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fdd4c10803cbd75d0ecaa75bfbe142d3fc248c6dd0a3bcc40c24664e90113111",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "business-ideas",
-    "name": "Business Ideas",
+    "name": "business-ideas",
     "description": "Generate unlimited business ideas with validation frameworks, market filters, and viability scoring.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/business-ideas",
-    "summary": "When to Use User wants new business ideas, startup concepts, or side project inspiration. Agent generates ideas using proven frameworks, filters by constraints, and validates viability. Architecture Memory lives in `~/bu",
+    "summary": "When to Use User wants new business ideas, startup concepts, or side project inspiration. Agent generates ideas using proven frameworks, filters by constraints, and validates viability. Architecture Memory lives in `~/Cl",
     "repositoryPath": "skills/business-ideas",
     "manifestPath": "registry/skills/business-ideas.json"
   },
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/business-ideas/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/_meta.json",
+      "byteCount": 180,
+      "sha256": "274b808a797bb3de857ac5a9f9679fda396f89e507c49ce4ebffce6e26626b12"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/business-ideas/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/frameworks.md",
+      "byteCount": 3796,
+      "sha256": "83225ead0168eee7a53aa5faf170b52f57e2723e3877817b7f7608a43897c3fa"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/business-ideas/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/memory-template.md",
+      "byteCount": 1558,
+      "sha256": "0e6cb9c7a3e29e0c2a1e22b650406c00a635de7dc7c82eff1293e7833a96e4e4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/business-ideas/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/SKILL.md",
+      "byteCount": 3830,
+      "sha256": "7f8dbf62d2d2ef83e28d7cae3658a27c8ca6bc7e8964784b704bed4804c09c6c"
     },
     {
       "path": "validation.md",
       "downloadPath": "skills/business-ideas/validation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/validation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/business-ideas/validation.md",
+      "byteCount": 3055,
+      "sha256": "fd7ae9293beed0ab4b0b1ef1f0e5d64cddb7393a41e658ea54d6d916b81e1902"
     }
   ]
 }

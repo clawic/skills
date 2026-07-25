@@ -1,19 +1,40 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
-  "repository": {"owner":"clawic","repo":"skills","branch":"main","registryPath":"registry","skillsPath":"skills"},
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "cf53d8e689dea9c85e4e7548b3d49338d93e8ed86799df4067f105375f473e03",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
   "skill": {
     "slug": "observability",
-    "name": "Observability",
+    "name": "observability",
     "description": "Logs, metrics, and traces as complementary signals, high-cardinality dimensions, and the instrumentation budget.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/observability",
-    "summary": "Metrics answer is-it-broken, logs answer why, traces answer where; exemplars bridge them. Cardinality multiplies across labels (10x10 = 10^10 series); never label user_id, request_id, IP. Percentiles, not averages, for SLIs. Alert on SLO burn: 14.4x over 1h AND 5m to page, 6x over 6h AND 30m to ticket. Tail-sample to keep 100% of errors; sample at the collector before you pay for storage.",
+    "summary": "Mental model: three signals, one budget - Metrics answer \"is it broken, and where\": pre-aggregated, cheap to query, low cardinality, the signal you alert on. Logs answer \"why\": per-event detail, queryable by field. Trace",
     "repositoryPath": "skills/observability",
     "manifestPath": "registry/skills/observability.json"
   },
   "files": [
-    {"path":"_meta.json","downloadPath":"skills/observability/_meta.json","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/observability/_meta.json"},
-    {"path":"SKILL.md","downloadPath":"skills/observability/SKILL.md","downloadUrl":"https://raw.githubusercontent.com/clawic/skills/main/skills/observability/SKILL.md"}
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/observability/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/observability/_meta.json",
+      "byteCount": 168,
+      "sha256": "f0750abc7ea3b90a7128167ebf50434b3b5fcbf51f4d261c37ec1c25b5cb02b0"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/observability/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/observability/SKILL.md",
+      "byteCount": 17822,
+      "sha256": "82c503c1d2e7f5a39a5d0dfb8d5526559831a93519de587f0c6f3038ae037e28"
+    }
   ]
 }

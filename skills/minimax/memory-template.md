@@ -1,6 +1,6 @@
 # Memory Template - MiniMax
 
-Create `~/minimax/memory.md` with this structure:
+Create `~/Clawic/data/minimax/memory.md` with this structure:
 
 ```markdown
 # MiniMax Memory

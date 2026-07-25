@@ -1,16 +1,27 @@
 ---
-name: Canada
+name: canada
 slug: canada
 version: 1.0.0
-homepage: https://clawic.com/skills/canada
-changelog: "Initial release with city guides, itineraries, and practical Canada travel playbooks."
 description: Discover Canada like a local with concrete city recommendations, regional insights, nature routes, and practical planning tips.
-metadata: {"clawdbot":{"emoji":"🍁","requires":{"bins":[],"config":["~/canada/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/canada
+changelog: Initial release with city guides, itineraries, and practical Canada travel playbooks.
+metadata:
+  clawdbot:
+    emoji: 🍁
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/canada/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Canada
 ---
 
 ## Setup
 
-If `~/canada/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/canada/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to Canada or asking for local insights: what to eat, which 
 
 ## Architecture
 
-Memory lives in `~/canada/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/canada/`. See `memory-template.md` for structure.
 
 ```
-~/canada/
+~/Clawic/data/canada/
 └── memory.md     # Trip context
 ```
 
@@ -116,12 +127,12 @@ Be explicit about what to avoid:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/canada/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/canada/`
 
-**This skill does NOT:** Access files outside `~/canada/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/canada/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and trip structuring
 - `food` — Deeper restaurant and cuisine recommendations
 - `english` — Language support for bookings and communication
@@ -129,5 +140,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star canada`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/canada
+- Latest version: https://clawic.com/skills/canada

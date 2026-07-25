@@ -1,11 +1,22 @@
 ---
-name: Denmark
+name: denmark
 slug: denmark
 version: 1.0.0
-homepage: https://clawic.com/skills/denmark
-changelog: "Initial release with verified Denmark entry rules, compact route logic, island transport planning, and practical regional playbooks."
 description: Plan Denmark trips with compact route logic, verified entry rules, island transport choices, and practical local execution.
-metadata: {"clawdbot":{"emoji":"🇩🇰","requires":{"bins":[],"config":["~/denmark/"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/denmark
+changelog: Initial release with verified Denmark entry rules, compact route logic, island transport planning, and practical regional playbooks.
+metadata:
+  clawdbot:
+    emoji: 🇩🇰
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/denmark/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Denmark
 ---
 
 ## When to Use
@@ -14,16 +25,16 @@ User is planning a Denmark trip and needs operational guidance beyond generic ci
 
 ## Architecture
 
-Memory lives in `~/denmark/`. If `~/denmark/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/denmark/`. If `~/Clawic/data/denmark/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/denmark/
+~/Clawic/data/denmark/
 └── memory.md     # Trip context, route logic, and evolving constraints
 ```
 
 ## Data Storage
 
-- `~/denmark/memory.md` stores durable trip context, route decisions, and constraints for future Denmark planning.
+- `~/Clawic/data/denmark/memory.md` stores durable trip context, route decisions, and constraints for future Denmark planning.
 - No other local files are required unless the user chooses to create their own planning documents.
 
 ## Quick Reference
@@ -108,12 +119,12 @@ Output should include:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/denmark/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/denmark/`
 
-**This skill does NOT:** Access files outside `~/denmark/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/denmark/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General trip planning and itinerary structure
 - `europe` — Better wider-Europe context when Denmark is part of a longer route
 - `booking` — Reservation workflows and confirmation hygiene
@@ -122,5 +133,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star denmark`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/denmark
+- Latest version: https://clawic.com/skills/denmark

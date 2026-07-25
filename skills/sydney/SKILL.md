@@ -1,10 +1,19 @@
 ---
-name: Sydney
+name: sydney
 slug: sydney
 version: 1.0.0
-homepage: https://clawic.com/skills/sydney
 description: Navigate Sydney as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, beaches, transport, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🏖️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/sydney
+metadata:
+  clawdbot:
+    emoji: 🏖️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Sydney
 ---
 
 ## When to Use

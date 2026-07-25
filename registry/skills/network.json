@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2c3223845b34f93524c57180b7a560a21259238e0de55a948a6e81d441533bef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "network",
-    "name": "Network",
+    "name": "network",
     "description": "Understand and troubleshoot computer networks with TCP/IP, DNS, routing, and diagnostic tools.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/network",
     "summary": "Network Fundamentals TCP/IP Basics - TCP guarantees delivery with retransmission — use for reliability (HTTP, SSH, databases) - UDP is fire-and-forget — use for speed when loss is acceptable (video, gaming, DNS queries) ",
     "repositoryPath": "skills/network",
     "manifestPath": "registry/skills/network.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/network/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/network/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/network/_meta.json",
+      "byteCount": 166,
+      "sha256": "130a121c8fb17ef0f3c6b6d5a1c5174012ac9399f87aa4bdb233e5567761258b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/network/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/network/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/network/SKILL.md",
+      "byteCount": 4247,
+      "sha256": "1d4592b2f59385690a0671ac1a5b71c8efc7c20ff87f75669b6ca9a094b2ae60"
     }
   ]
 }

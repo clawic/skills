@@ -1,9 +1,20 @@
 ---
-name: Metaverse
+name: metaverse
+slug: metaverse
+version: 1.0.0
 description: Navigate virtual worlds, create avatars, manage digital assets, and understand Web3 social platforms.
+homepage: https://clawic.com/skills/metaverse
 metadata:
   category: technology
-  skills: ["metaverse", "vr", "web3", "virtual-worlds", "nft"]
+  skills:
+  - metaverse
+  - vr
+  - web3
+  - virtual-worlds
+  - nft
+  clawdbot:
+    emoji: 🕶️
+    displayName: Metaverse
 ---
 
 ## Before Recommending Platforms

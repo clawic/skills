@@ -1,10 +1,10 @@
 # Archive Memory Template
 
-Create `~/archive/` on first use:
+Create `~/Clawic/data/archive/` on first use:
 
 ```bash
-mkdir -p ~/archive/items ~/archive/projects
-touch ~/archive/memory.md ~/archive/index.md ~/archive/history.md
+mkdir -p ~/Clawic/data/archive/items ~/Clawic/data/archive/projects
+touch ~/Clawic/data/archive/memory.md ~/Clawic/data/archive/index.md ~/Clawic/data/archive/history.md
 ```
 
 ## memory.md (HOT tier)

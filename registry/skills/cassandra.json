@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7822cda3f2f9fafb638e8ab940b70e02c82c1655a99682a0f9ff3beb22b0c0fe",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cassandra",
-    "name": "Cassandra",
+    "name": "cassandra",
     "description": "Design Cassandra tables, write efficient queries, and avoid distributed database pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cassandra",
     "summary": "Data Modeling Mistakes - Design tables around queries, not entities—denormalization is mandatory, not optional - One table per query pattern—Cassandra has no JOINs; duplicate data across tables - Partition key determines",
     "repositoryPath": "skills/cassandra",
     "manifestPath": "registry/skills/cassandra.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cassandra/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cassandra/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cassandra/_meta.json",
+      "byteCount": 170,
+      "sha256": "e4093706669750d1a75c2cee6f759973b216d5ce3e7092c0cd9fae53c9fd3ee7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cassandra/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cassandra/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cassandra/SKILL.md",
+      "byteCount": 4213,
+      "sha256": "f55d081d99349ba995093de37eee1d343a646740f4ce2d226049f421cab231cc"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Setup — Atlassian Cloud APIs + CLIs
 
-Read this when `~/atlassian/` doesn't exist or is empty. Help the user get useful Atlassian automation quickly without turning the conversation into a credential checklist.
+Read this when `~/Clawic/data/atlassian/` doesn't exist or is empty. Help the user get useful Atlassian automation quickly without turning the conversation into a credential checklist.
 
 ## Your Attitude
 
@@ -41,7 +41,7 @@ Only save defaults that reduce repeated friction and only when the user wants th
 ## What You're Saving (Internally)
 
 - Activation preferences in main memory when the user opts in
-- In `~/atlassian/memory.md`: products in use, preferred auth modes, and write-safety preferences
+- In `~/Clawic/data/atlassian/memory.md`: products in use, preferred auth modes, and write-safety preferences
 - Only the smallest set of site or object identifiers that the user explicitly wants remembered
 
 Never store secrets, raw API keys, or tokens in skill memory. Only note which auth method exists and where the user prefers to source it from.

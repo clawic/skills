@@ -2,7 +2,7 @@
 
 ## File Formats
 
-### index.md (~/tutor/)
+### index.md (~/Clawic/data/tutor/)
 ```markdown
 # Learners
 
@@ -101,7 +101,7 @@ Multiplication facts 7-9
 ## Progress Reports
 
 ### For Parents (minors)
-Generate to `~/tutor/{learner}/reports/{date}-report.md`:
+Generate to `~/Clawic/data/tutor/{learner}/reports/{date}-report.md`:
 
 ```markdown
 # Progress Report — Emma

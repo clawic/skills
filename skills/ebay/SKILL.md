@@ -1,10 +1,20 @@
 ---
-name: eBay
+name: ebay
 slug: ebay
 version: 1.0.1
-changelog: Minor refinements for consistency
 description: Buy, sell, and flip on eBay with listing optimization, pricing research, shipping calculations, and scam detection.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ebay
+changelog: Minor refinements for consistency
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: eBay
 ---
 
 ## When to Use

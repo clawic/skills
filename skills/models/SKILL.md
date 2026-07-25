@@ -1,7 +1,17 @@
 ---
-name: Models
+name: models
+slug: models
+version: 1.0.0
 description: Choose AI models for coding, reasoning, and agents with cost-aware, task-matched recommendations.
-metadata: {"clawdbot":{"emoji":"🤖","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/models
+metadata:
+  clawdbot:
+    emoji: 🤖
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Models
 ---
 
 # AI Model Selection Rules

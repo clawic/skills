@@ -1,6 +1,13 @@
 ---
-name: Norwegian
+name: norwegian
+slug: norwegian
+version: 1.0.0
 description: Write Norwegian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/norwegian
+metadata:
+  clawdbot:
+    emoji: 🇳🇴
+    displayName: Norwegian
 ---
 
 ## The Real Problem

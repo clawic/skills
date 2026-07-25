@@ -1,9 +1,19 @@
 ---
-name: Webflow
+name: webflow
 slug: webflow
 version: 1.0.0
 description: Build, launch, and optimize Webflow sites with responsive design, CMS architecture, and clean handoffs.
-metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/webflow
+metadata:
+  clawdbot:
+    emoji: 🌐
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Webflow
 ---
 
 ## Quick Reference
@@ -17,7 +27,7 @@ metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":[]},"os":["linux","darw
 
 ## Memory Storage
 
-User preferences stored at `~/webflow/memory.md`. Read on activation.
+User preferences stored at `~/Clawic/data/webflow/memory.md`. Read on activation.
 
 **Format:**
 ```markdown

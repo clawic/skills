@@ -70,7 +70,7 @@ Duration: ~[estimate]
 [One specific area to practice]
 ```
 
-Save to `~/roleplay/sessions/[character]-[date].md`
+Save to `~/Clawic/data/roleplay/sessions/[character]-[date].md`
 
 ---
 

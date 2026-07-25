@@ -1,11 +1,20 @@
 ---
-name: Bali
+name: bali
 slug: bali
 version: 1.0.0
-changelog: "Initial release with complete Bali guidance for visitors, residents, remote workers, families, and founders."
-homepage: https://clawic.com/skills/bali
 description: Navigate Bali as visitor, resident, remote worker, student, or founder with neighborhoods, visas, transport, costs, and practical local guidance.
-metadata: {"clawdbot":{"emoji":"🌴","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bali
+changelog: Initial release with complete Bali guidance for visitors, residents, remote workers, families, and founders.
+metadata:
+  clawdbot:
+    emoji: 🌴
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bali
 ---
 
 ## When to Use
@@ -141,7 +150,7 @@ Use `sources.md` for primary references.
 See `visas.md`, `safety.md`, and `business.md` for detail.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - trip planning and itinerary optimization
 - `expat` - relocation planning and adaptation workflows
 - `food` - dining research and culinary personalization
@@ -149,5 +158,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star bali`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/bali
+- Latest version: https://clawic.com/skills/bali

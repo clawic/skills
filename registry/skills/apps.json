@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2b07e6280f8dc6a7c88e9deb4fe92a51d8abbe54e8b19bd67a242ff80f03c68c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "apps",
-    "name": "Apps",
+    "name": "apps",
     "description": "Find, compare, and organize mobile apps with personalized recommendations and preference tracking.",
     "version": "1.0.0",
-    "summary": "When to Use User wants app recommendations, comparisons, or help organizing their apps. Covers iOS and Android. Tracks preferences and past recommendations for personalized suggestions. Architecture Memory lives in `~/ap",
+    "homepage": "https://clawic.com/skills/apps",
+    "summary": "When to Use User wants app recommendations, comparisons, or help organizing their apps. Covers iOS and Android. Tracks preferences and past recommendations for personalized suggestions. Architecture Memory lives in `~/Cl",
     "repositoryPath": "skills/apps",
     "manifestPath": "registry/skills/apps.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apps/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/_meta.json",
+      "byteCount": 160,
+      "sha256": "9efb0cec101cbe094f8cf26a8453c19c34a148d7e77c15909cede393758c09ca"
     },
     {
       "path": "categories.md",
       "downloadPath": "skills/apps/categories.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/categories.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/categories.md",
+      "byteCount": 2065,
+      "sha256": "d4201f49953c9c454068238a03f2152b06078773735da938d4f616872fd6a506"
     },
     {
       "path": "compare.md",
       "downloadPath": "skills/apps/compare.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/compare.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/compare.md",
+      "byteCount": 1769,
+      "sha256": "05efab5a178d75cdd4939d16e8a97dd95d531c1e621e1203247a965a2bb972d2"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apps/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/memory-template.md",
+      "byteCount": 1267,
+      "sha256": "8349d95f6ef2209b9c041f6abeab8a1bfa617ebb1b1385a356ea9d12a0310fa5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apps/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apps/SKILL.md",
+      "byteCount": 3884,
+      "sha256": "e862504cef13b49a2dd59b3e1b5ea9bb0677955aaff2fc802689572aaa76019d"
     }
   ]
 }

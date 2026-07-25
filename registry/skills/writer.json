@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "55a60af98c07fdf063a686af9f1bf38d5fb344f3d17382ed0bbf09d67f510a31",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -12,6 +15,8 @@
     "slug": "writer",
     "name": "writer",
     "description": "Fix AI writing patterns that create repetitive and robotic content",
+    "version": "1.0.2",
+    "homepage": "https://clawic.com/skills/writer",
     "summary": "AI Writing Pattern Fixes Paragraph Opener Trap Scan first word of each paragraph - if 3+ start with \"This/The/It\" = robotic Vary with: \"Meanwhile\", \"Consider\", \"Beyond that\", action verbs, specific nouns Lead with action",
     "repositoryPath": "skills/writer",
     "manifestPath": "registry/skills/writer.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/writer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writer/_meta.json",
+      "byteCount": 240,
+      "sha256": "0a8e66544e7bc7fa378beda43d192c671f9fd3c3be7bfa6501c75757e4fa37f9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/writer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writer/SKILL.md",
+      "byteCount": 2253,
+      "sha256": "8dc15485f5df6c1a498406456d6d385a19cabe87b3920e4b580ca8deb8e1d72b"
     }
   ]
 }

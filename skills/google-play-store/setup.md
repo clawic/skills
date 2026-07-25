@@ -1,6 +1,6 @@
 # Setup — Google Play Store
 
-Read this when `~/google-play-store/` doesn't exist or is empty. Start the conversation naturally.
+Read this when `~/Clawic/data/google-play-store/` doesn't exist or is empty. Start the conversation naturally.
 
 ## Your Attitude
 
@@ -14,7 +14,7 @@ Figure out when this skill should activate:
 - "Want me to help whenever you mention Play Store, Android releases, or app publishing?"
 - "Should I remind you about policy updates that might affect your apps?"
 
-Save their preference to `~/google-play-store/memory.md`.
+Save their preference to `~/Clawic/data/google-play-store/memory.md`.
 
 ### 2. Then: Understand Their Situation
 
@@ -37,13 +37,13 @@ If they have specific apps:
 
 ## What You're Saving
 
-In `~/google-play-store/memory.md`:
+In `~/Clawic/data/google-play-store/memory.md`:
 - Integration preferences
 - Apps they manage
 - Their workflow (CI/CD vs manual)
 - Past issues and lessons learned
 
-In `~/google-play-store/apps/{package}/`:
+In `~/Clawic/data/google-play-store/apps/{package}/`:
 - Per-app notes
 - Submission history
 - Rejection recovery notes

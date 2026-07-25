@@ -1,11 +1,25 @@
 ---
-name: Safari Browser Control
+name: safari
 slug: safari
 version: 1.0.0
-homepage: https://clawic.com/skills/safari
 description: Control Safari on macOS with AppleScript, safaridriver, screenshots, tab navigation, and real-browser read, click, and type workflows.
+homepage: https://clawic.com/skills/safari
 changelog: Initial release with AppleScript control patterns, safaridriver setup, screenshot loops, and Safari permission checks.
-metadata: {"clawdbot":{"emoji":"🧭","requires":{"bins":["osascript","safaridriver","screencapture"],"config":["~/safari/"]},"os":["darwin"],"configPaths":["~/safari/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧭
+    requires:
+      bins:
+      - osascript
+      - safaridriver
+      - screencapture
+      config:
+      - ~/Clawic/data/safari/
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/safari/
+    displayName: Safari Browser Control
 ---
 
 ## When to Use
@@ -16,10 +30,10 @@ Choose this skill when the next step is to read a page, open or switch tabs, run
 
 ## Architecture
 
-Memory lives in `~/safari/`. If `~/safari/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter files.
+Memory lives in `~/Clawic/data/safari/`. If `~/Clawic/data/safari/` does not exist, run `setup.md`. See `memory-template.md` for structure and starter files.
 
 ```text
-~/safari/
+~/Clawic/data/safari/
 |-- memory.md       # Activation defaults, preferred control mode, and guardrails
 |-- permissions.md  # Automation, Develop menu, and screenshot preflight state
 |-- sessions.md     # Real-session vs WebDriver session notes and target tabs
@@ -61,7 +75,7 @@ Do not blur the two. Real-session control and isolated automation have different
 
 ## Data Storage
 
-Keep only durable Safari operating context in `~/safari/`:
+Keep only durable Safari operating context in `~/Clawic/data/safari/`:
 - approved control mode defaults and whether daily-session control is allowed
 - permission state for Apple Events, Screen Recording, Develop menu, and remote automation
 - known-good snippets, task recipes, and incidents worth reusing
@@ -128,7 +142,7 @@ No data is sent externally.
 - None from this skill itself
 
 **Data that stays local:**
-- optional Safari control notes in `~/safari/`
+- optional Safari control notes in `~/Clawic/data/safari/`
 - permission state, approved recipes, and incident notes approved by the user
 
 **This skill does NOT:**
@@ -151,7 +165,7 @@ This skill NEVER:
 - modify its own skill files
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `applescript` - Write safer AppleScript when Safari control moves beyond known-good snippets.
 - `macos` - Handle Apple Events, Screen Recording, app focus, and native system diagnostics on Mac.
 - `playwright` - Automate browser flows once the task no longer depends on the user's real Safari session.
@@ -160,5 +174,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star safari`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/safari
+- Latest version: https://clawic.com/skills/safari

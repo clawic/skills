@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a5a5eaa0991a2dfd0f7911dcb60d194d65f031634ed5755ed2ecfa388b9853f8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "shows",
-    "name": "Shows",
+    "name": "shows",
     "description": "Track movies and series with progress, watchlist, ratings, and proactive alerts for new releases and platform changes.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/shows",
     "summary": "Core Behavior - User mentions watching something → log it with current progress - User finishes something → mark complete, ask for rating - User asks \"what was I watching?\" → surface in-progress items - User asks \"what s",
     "repositoryPath": "skills/shows",
     "manifestPath": "registry/skills/shows.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/shows/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/_meta.json",
+      "byteCount": 162,
+      "sha256": "0ce04cb7108e3483fdcf582d3668a7f85c3f28ca83c128e96dd3be12b9c8c2d9"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/shows/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/discovery.md",
+      "byteCount": 2433,
+      "sha256": "0b1d4e7600b32f946308f8020c8b85b429cf401b936db6bc93c3c5c2fe15bcde"
     },
     {
       "path": "family.md",
       "downloadPath": "skills/shows/family.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/family.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/family.md",
+      "byteCount": 1997,
+      "sha256": "7d7a1cb697bc05e7499e5e30300c3d6f9b3f93028ace897e28886081dde4f576"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/shows/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/platforms.md",
+      "byteCount": 1625,
+      "sha256": "c265b7f2408966161afd2460c320a2e45f0cbd7a246ddadbb65cbf3023aae894"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/shows/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/shows/SKILL.md",
+      "byteCount": 2443,
+      "sha256": "c87b2dcb1390fd6c7490f1a8b71a2d947b1972b5655a5625b3c5db10744b5136"
     }
   ]
 }

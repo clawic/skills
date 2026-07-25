@@ -26,4 +26,4 @@ Use this weekly to validate that the learning OS actually works.
 - Check each active topic has non-empty queue.
 - Check each active topic had at least one session this week.
 - Prune stale or duplicate trigger phrases.
-- Archive retired topics under `~/duolingo/archive/`.
+- Archive retired topics under `~/Clawic/data/duolingo/archive/`.

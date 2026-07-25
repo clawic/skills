@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c7d75257354ff1e2d194dc20b4af33c3d9366644b98a5f5122300517d847e6f2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,69 +23,95 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/docker/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/docker/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/_meta.json",
+      "byteCount": 610,
+      "sha256": "a67b5310dca4dfd015f3fffcc4f418a77e644388e4f240d98393ac94c3cb9116"
     },
     {
       "path": "ci.md",
       "downloadPath": "skills/docker/ci.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/ci.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/ci.md",
+      "byteCount": 4297,
+      "sha256": "08c7b369b2c1691a27f216f0f97b7f031144c736dcfff0c2209fc38fea3942b2"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/docker/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/commands.md",
+      "byteCount": 2248,
+      "sha256": "bdb90fc0b8c276f488a98083b79be333a76cd38f66135cad3f800c64279ab855"
     },
     {
       "path": "compose.md",
       "downloadPath": "skills/docker/compose.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/compose.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/compose.md",
+      "byteCount": 3246,
+      "sha256": "bb99cb756939f3cce1a985d204ecca07ff6ad0e8ae1e3f791403ba5a7c4d2b36"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/docker/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/debug.md",
+      "byteCount": 6248,
+      "sha256": "d9780e41773d576920a8fd2dd25a8c96185fbcab64f6390cde12df3de8459eb6"
     },
     {
       "path": "images.md",
       "downloadPath": "skills/docker/images.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/images.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/images.md",
+      "byteCount": 3558,
+      "sha256": "2b0fa2a564a7981b1e5e77b4892deb92d855134f38c09685e5bb57a65bca56cc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/docker/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/memory-template.md",
+      "byteCount": 639,
+      "sha256": "7483345db17902c5a0788e952bd76f0471f7e9d4cde57659d767b73915f677a5"
     },
     {
       "path": "networking.md",
       "downloadPath": "skills/docker/networking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/networking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/networking.md",
+      "byteCount": 5031,
+      "sha256": "d7ae589615f9ed8fd3f9b5a175443bc388ab6475c059fbd6adff14e19062fcc9"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/docker/production.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/production.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/production.md",
+      "byteCount": 5612,
+      "sha256": "950918e104ce708428431d0dcc916d263f80ff78aa2e1ccc61a1bc102169a437"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/docker/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/security.md",
+      "byteCount": 2862,
+      "sha256": "53b25b7156ead57e3657be336b7759d2f63d315c0e21e57953079edceb1e4e5c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/docker/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/setup.md",
+      "byteCount": 1838,
+      "sha256": "b4b47c5bde376a0f8b8f82b39842dabc1ef71de38464ffae9ca144e69b09bfcc"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/docker/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md",
+      "byteCount": 11127,
+      "sha256": "024892c3021d6b8355233cfe318d90da4e5e5a8ed67ce697b6cfaea8787b9e44"
     },
     {
       "path": "storage.md",
       "downloadPath": "skills/docker/storage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/storage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/storage.md",
+      "byteCount": 4028,
+      "sha256": "adafa862e34bfcfab98dc242166d433a4ee099faecb32df7b77b0a8fa9dda6d3"
     }
   ]
 }

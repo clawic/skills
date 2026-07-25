@@ -1,6 +1,6 @@
 # Setup - Pilates (Session Planner, Form Coach, Progress Tracker)
 
-Read this when `~/pilates/` is missing or empty.
+Read this when `~/Clawic/data/pilates/` is missing or empty.
 Start with the user's immediate need, then shape activation behavior early.
 
 ## Your Attitude

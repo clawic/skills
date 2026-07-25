@@ -1,6 +1,6 @@
 # Setup — Zapier
 
-When `~/zapier/` doesn't exist, initialize memory and learn user context.
+When `~/Clawic/data/zapier/` doesn't exist, initialize memory and learn user context.
 
 ## Attitude
 
@@ -29,7 +29,7 @@ Some want complex multi-step Zaps with filters and paths. Others want simple aut
 
 ## What to Save
 
-In ~/zapier/memory.md:
+In ~/Clawic/data/zapier/memory.md:
 - Apps they use (CRM, email, sheets, etc.)
 - Common workflows they need
 - Preference: simple vs advanced

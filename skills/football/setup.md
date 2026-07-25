@@ -1,6 +1,6 @@
 # Setup - Football
 
-Read this when `~/football/` does not exist or has no saved context yet.
+Read this when `~/Clawic/data/football/` does not exist or has no saved context yet.
 
 ## Your Attitude
 

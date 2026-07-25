@@ -1,6 +1,13 @@
 ---
-name: Latvian
+name: latvian
+slug: latvian
+version: 1.0.0
 description: Write Latvian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/latvian
+metadata:
+  clawdbot:
+    emoji: 🇱🇻
+    displayName: Latvian
 ---
 
 ## The Real Problem

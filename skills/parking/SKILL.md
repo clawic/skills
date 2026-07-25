@@ -1,11 +1,24 @@
 ---
-name: Parking Radar
+name: parking
 slug: parking
 version: 1.0.0
-homepage: https://clawic.com/skills/parking
 description: Find, verify, and reserve parking worldwide with provider selection, live-signal triage, and local memory for favorite places and cities.
+homepage: https://clawic.com/skills/parking
 changelog: Initial release with global provider coverage, booking workflows, API notes, and local memory for favorite parking habits and discoveries.
-metadata: {"clawdbot":{"emoji":"PARK","requires":{"bins":[],"config":["~/parking/"]},"os":["linux","darwin","win32"],"configPaths":["~/parking/"]}}
+metadata:
+  clawdbot:
+    emoji: PARK
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/parking/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/parking/
+    displayName: Parking Radar
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Use this skill when the agent should distinguish maps search from real reservati
 
 ## Architecture
 
-Memory lives in `~/parking/`. If `~/parking/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/parking/`. If `~/Clawic/data/parking/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/parking/
+~/Clawic/data/parking/
 ├── memory.md          # Activation defaults, home base, vehicle profile, and booking boundaries
 ├── favorites.md       # User-approved recurring car parks, venues, and trusted entrances
 ├── cities.md          # City-by-city provider choices, fallback order, and local quirks
@@ -86,7 +99,7 @@ This skill is built for the parking cases where generic map search is not enough
 - "Real-time occupancy" should only be claimed when an official provider or city API exposes it directly.
 
 ### 6. Keep a local parking memory only with consent
-- Offer to remember home city, recurring venues, favorite facilities, vehicle constraints, and trusted providers locally in `~/parking/`.
+- Offer to remember home city, recurring venues, favorite facilities, vehicle constraints, and trusted providers locally in `~/Clawic/data/parking/`.
 - Store durable notes, not raw payment data or full booking receipts.
 - Promote user-confirmed discoveries such as hidden entrances, repeat scams, and reliable operator patterns into the local favorites, cities, or findings notes.
 
@@ -134,7 +147,7 @@ Data that stays local:
 - favorite parking places and entrances in the local favorites note
 - home-city defaults and provider order in the local city notes
 - user-confirmed discoveries and warnings in the local findings note
-- activation rules and parking boundaries in `~/parking/memory.md`
+- activation rules and parking boundaries in `~/Clawic/data/parking/memory.md`
 
 This skill does NOT:
 - store payment card data, account passwords, or unnecessary booking receipts
@@ -162,7 +175,7 @@ This skill NEVER:
 - persist sensitive payment or identity data without a clear need
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `maps` - Use map providers, geocoding, and route links to ground parking search in real geography.
 - `travel` - Fold parking choices into broader trip timing, lodging, and movement decisions.
 - `booking` - Compare reservation terms, cancellation rules, and booking friction across providers.
@@ -171,5 +184,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star parking`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/parking
+- Latest version: https://clawic.com/skills/parking

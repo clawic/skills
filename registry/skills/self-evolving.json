@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "00459367f281ef12e696140ea1b6d664b7cfcc439f7bc1a8816cf006a73636c1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "self-evolving",
-    "name": "Self-Evolving",
+    "name": "self-evolving",
     "description": "Improve reusable agent workflows with reflective experiments, value checks, and local pattern memory.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/self-evolving",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/self-evolving/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/_meta.json",
+      "byteCount": 178,
+      "sha256": "9ea5ac01b17d48bbaa11481ec9613e55ff6b5127131bc9de2e7d5995e09921db"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/self-evolving/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/boundaries.md",
+      "byteCount": 806,
+      "sha256": "1f58b05c306248b7fc576fe1b0b25981ea68f70537d7858b341af2635e8e4dfb"
     },
     {
       "path": "evolution-loop.md",
       "downloadPath": "skills/self-evolving/evolution-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/evolution-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/evolution-loop.md",
+      "byteCount": 851,
+      "sha256": "dd7d1bade587f0b59d23f215d3d809b427aab4119d4325d314632360637def87"
     },
     {
       "path": "experiments.md",
       "downloadPath": "skills/self-evolving/experiments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/experiments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/experiments.md",
+      "byteCount": 961,
+      "sha256": "c44e9214894f294510dd8046a67c00fb399aa6bab81341fb5fcce9da5e6e60c3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/self-evolving/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory-template.md",
+      "byteCount": 1262,
+      "sha256": "76e0283ecf6e9b95faf681d9b36addc3f6f051006e1352517b979ba98064cd8a"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/self-evolving/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/memory.md",
+      "byteCount": 350,
+      "sha256": "b2f6ed52f885f75c00485048b5dfa9874b7101e93183a3c2d3788d0968dc90e3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/self-evolving/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/setup.md",
+      "byteCount": 2153,
+      "sha256": "3f3ad6b29292b8c416732439c906903e196860f28bb7906b8b3e1230502e74dc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/self-evolving/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/self-evolving/SKILL.md",
+      "byteCount": 4858,
+      "sha256": "553ae8788907e11bd3a10ead8142d456faabcffea1887fb77b405dc70257beee"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ffbe76fc714c012a193b2b43b39dec6695c97eb7aaf470d263c58347e6e892dd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "folders",
-    "name": "Folders",
+    "name": "folders",
     "description": "Index important directories and perform safe folder operations with proper security checks.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/folders",
     "summary": "Folder Index Maintain a lightweight index at `~/.config/folder-index.json` to know where important things are without rescanning. ```json { \"folders\": [ {\"path\": \"/Users/alex/projects/webapp\", \"type\": \"project\", \"note\": ",
     "repositoryPath": "skills/folders",
     "manifestPath": "registry/skills/folders.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/folders/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/_meta.json",
+      "byteCount": 166,
+      "sha256": "bf552c235c315aef41d28974d8db3f28246a9fae3e91e6af1d09554d9206d313"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/folders/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/folders/SKILL.md",
+      "byteCount": 1805,
+      "sha256": "b00b52bf887d2a698e02f39d32c3eefb97c39b62e80fe6d8effc2877035edb19"
     }
   ]
 }

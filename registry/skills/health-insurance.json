@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "099e07c1fe78912c683e21f931e1ecb751357ed481ff2d760fc74c2163a4ca98",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "health-insurance",
-    "name": "Health Insurance",
+    "name": "health-insurance",
     "description": "Compare health insurance plans, estimate total yearly costs, and choose coverage that fits medical usage, prescriptions, and financial risk.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/health-insurance",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/health-insurance/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/_meta.json",
+      "byteCount": 184,
+      "sha256": "185313765945470a998783d2c7569e82875cd42bec3b7a1e90a44b3f349b6c11"
     },
     {
       "path": "comparison-checklist.md",
       "downloadPath": "skills/health-insurance/comparison-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/comparison-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/comparison-checklist.md",
+      "byteCount": 880,
+      "sha256": "73e7d6d7351e7515f3057dcfb62d1efc99cc1bf8385e56bda93cc2991f634b97"
     },
     {
       "path": "cost-model.md",
       "downloadPath": "skills/health-insurance/cost-model.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/cost-model.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/cost-model.md",
+      "byteCount": 1134,
+      "sha256": "30716460bd8b78cc8a61e59e4af7207c578c2d0ab100be21b1476cb05af65780"
     },
     {
       "path": "coverage-framework.md",
       "downloadPath": "skills/health-insurance/coverage-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/coverage-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/coverage-framework.md",
+      "byteCount": 1187,
+      "sha256": "c6983611cbc4110908b7bcfa901420989b2d8545a84ab40b58c8a7fb4820e260"
     },
     {
       "path": "enrollment-playbook.md",
       "downloadPath": "skills/health-insurance/enrollment-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/enrollment-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/enrollment-playbook.md",
+      "byteCount": 1205,
+      "sha256": "f60ef1d3506c8e8ab99a05b61150456504d07e3a071fbfa8faa2a009e73e0973"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/health-insurance/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/memory-template.md",
+      "byteCount": 1521,
+      "sha256": "140821eaaea50dcd297d1bfa793b0b1f0f3a964ac05e37185b2bd09a38d2ec1d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/health-insurance/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/setup.md",
+      "byteCount": 1973,
+      "sha256": "e234d365a2cb423b0d382cca181845542541347566f073aa26d308303d7bdd70"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/health-insurance/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/health-insurance/SKILL.md",
+      "byteCount": 5840,
+      "sha256": "d395744e0959806328592aeb7857f82c1c33c35ef5d83e01bc5cfbb723e932b4"
     }
   ]
 }

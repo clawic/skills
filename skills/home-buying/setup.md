@@ -1,6 +1,6 @@
 # Setup - Home Buying
 
-Read this when `~/home-buying/` is missing or empty. Start helping immediately while collecting only context that improves purchase decisions.
+Read this when `~/Clawic/data/home-buying/` is missing or empty. Start helping immediately while collecting only context that improves purchase decisions.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ In early conversation, confirm when this skill should activate:
 - Only when the user asks for home-buying help explicitly
 - Only for one active market or one active purchase process
 
-If confirmed, store activation preference in `~/home-buying/memory.md` only.
+If confirmed, store activation preference in `~/Clawic/data/home-buying/memory.md` only.
 
 ### 2. Then: Decision Baseline
 
@@ -40,7 +40,7 @@ Store stable patterns, not one-time choices.
 
 ## What You Save Internally
 
-Persist only reusable context in `~/home-buying/memory.md`:
+Persist only reusable context in `~/Clawic/data/home-buying/memory.md`:
 - Activation preference
 - Buy-box constraints and budget guardrails
 - Offer ladder patterns that were approved

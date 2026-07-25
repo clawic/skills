@@ -1,6 +1,13 @@
 ---
-name: MVP
-description: "Build, validate, and launch minimum viable products with scope discipline, user signals, and iteration speed."
+name: mvp
+slug: mvp
+version: 1.0.0
+description: Build, validate, and launch minimum viable products with scope discipline, user signals, and iteration speed.
+homepage: https://clawic.com/skills/mvp
+metadata:
+  clawdbot:
+    emoji: 🚀
+    displayName: MVP
 ---
 
 ## First: Identify the User's Role

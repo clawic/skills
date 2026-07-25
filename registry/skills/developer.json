@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "951537ea7df585582b99f1bf32875e47471d7090dc24ba038f4aaf4c3be1b1fd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "developer",
-    "name": "Developer",
+    "name": "developer",
     "description": "Write clean, maintainable code with debugging, testing, and architectural best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/developer",
     "summary": "Software Development Rules Code Quality - Readable code beats clever code — you'll read it 10x more than write it - Functions do one thing — if you need \"and\" to describe it, split it - Name things by what they do, not h",
     "repositoryPath": "skills/developer",
     "manifestPath": "registry/skills/developer.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/developer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/_meta.json",
+      "byteCount": 170,
+      "sha256": "479d66237063f8dfb46eda52ae15676ca26a5b4d07d0ae14ad2dc8de94815a07"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/developer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/SKILL.md",
+      "byteCount": 4209,
+      "sha256": "0ed4ce746af6a1d90683b283c54f6b87fdf1eedb53c68c6874ea59556bd2e212"
     }
   ]
 }

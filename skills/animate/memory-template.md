@@ -1,6 +1,6 @@
 # Memory Template - Animate
 
-Create `~/animate/memory.md` with this structure:
+Create `~/Clawic/data/animate/memory.md` with this structure:
 
 ```markdown
 # Animate Memory

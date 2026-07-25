@@ -1,10 +1,19 @@
 ---
-name: Austin
+name: austin
 slug: austin
 version: 1.0.0
-homepage: https://clawic.com/skills/austin
 description: Navigate Austin as visitor, relocator, tech worker, or entrepreneur with neighborhoods, transport, costs, visas, and Texas-specific insights.
-metadata: {"clawdbot":{"emoji":"🤠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/austin
+metadata:
+  clawdbot:
+    emoji: 🤠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Austin
 ---
 
 ## Setup
@@ -210,12 +219,12 @@ This deserves special attention:
 - **Small talk culture**: Strangers talk to you. It's normal.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Another major expat destination
 - `travel` — General travel planning
 - `work` — Career and productivity
 
 ## Feedback
 
-- If useful: `clawhub star austin`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/austin
+- Latest version: https://clawic.com/skills/austin

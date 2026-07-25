@@ -1,10 +1,19 @@
 ---
-name: PDF Generator
+name: pdf-generator
 slug: pdf-generator
 version: 1.0.1
-homepage: https://clawic.com/skills/pdf-generator
 description: Generate professional PDFs from Markdown, HTML, data, or code. Reports, invoices, contracts, and documents with best practices.
-metadata: {"clawdbot":{"emoji":"📄","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/pdf-generator
+metadata:
+  clawdbot:
+    emoji: 📄
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Pdf Generator
 ---
 
 ## When to Use
@@ -141,5 +150,5 @@ After generating any PDF:
 
 ## Feedback
 
-- If useful: `clawhub star pdf-generator`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/pdf-generator
+- Latest version: https://clawic.com/skills/pdf-generator

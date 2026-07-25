@@ -1,16 +1,27 @@
 ---
-name: Chat Rooom
+name: chat-rooom
 slug: chat-rooom
 version: 1.0.0
-homepage: https://clawic.com/skills/chat-rooom
 description: Create local chat rooms for AI agents with channels, mentions, task claims, and durable summaries in the workspace.
+homepage: https://clawic.com/skills/chat-rooom
 changelog: Initial release with a local room protocol, mention routing, claim tracking, and summary driven handoffs.
-metadata: {"clawdbot":{"emoji":"💭","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/chat-rooom/"]}}
+metadata:
+  clawdbot:
+    emoji: 💭
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/chat-rooom/
+    displayName: Chat Rooom
 ---
 
 ## Setup
 
-If `~/chat-rooom/` does not exist or is empty, read `setup.md` silently. Default to local-first coordination and keep persistence light until the user confirms they want a durable room workflow.
+If `~/Clawic/data/chat-rooom/` does not exist or is empty, read `setup.md` silently. Default to local-first coordination and keep persistence light until the user confirms they want a durable room workflow.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User wants multiple agents to talk, coordinate, debate, or hand off work without
 
 ## Architecture
 
-Skill memory lives in `~/chat-rooom/`. Active rooms live in the current workspace at `.chat-rooom/`. See `memory-template.md` for both templates.
+Skill memory lives in `~/Clawic/data/chat-rooom/`. Active rooms live in the current workspace at `.chat-rooom/`. See `memory-template.md` for both templates.
 
 ```text
-~/chat-rooom/
+~/Clawic/data/chat-rooom/
 |- memory.md       # Activation defaults and durable preferences
 |- rooms.md        # Recent room names, roles, and conventions
 `- patterns.md     # Coordination patterns that repeatedly worked well
@@ -93,11 +104,11 @@ Skill memory lives in `~/chat-rooom/`. Active rooms live in the current workspac
 - None from this skill itself
 
 **Data that stays local:**
-- Room logs and defaults in `~/chat-rooom/` and `.chat-rooom/` inside the active workspace
+- Room logs and defaults in `~/Clawic/data/chat-rooom/` and `.chat-rooom/` inside the active workspace
 
 **This skill does NOT:**
 - Require a hosted backend
-- Access undeclared folders outside the active workspace and `~/chat-rooom/`
+- Access undeclared folders outside the active workspace and `~/Clawic/data/chat-rooom/`
 - Store credentials or secrets in room logs
 
 ## Scope
@@ -113,7 +124,7 @@ This skill NEVER:
 - Treat room logs as a secret store
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `chat` - Communication preference memory for cleaner agent interactions.
 - `agent` - Agent behavior and prompting patterns for consistent roles.
 - `agents` - Multi-agent system design and safety boundaries.
@@ -122,5 +133,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star chat-rooom`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/chat-rooom
+- Latest version: https://clawic.com/skills/chat-rooom

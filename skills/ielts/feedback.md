@@ -80,7 +80,7 @@ Track accuracy by question type:
 If user says "That's not why I lost marks" or similar:
 1. Record the correction
 2. Adjust future feedback criteria
-3. Log in `~/ielts/agent-learning.md`
+3. Log in `~/Clawic/data/ielts/agent-learning.md`
 
 **Example:**
 ```markdown

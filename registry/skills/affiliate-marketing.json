@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8535307ef62d5aac658d89b2a50790e6a55dc3660dc12b3bd4c919daf5ada168",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "affiliate-marketing",
-    "name": "Affiliate Marketing",
+    "name": "affiliate-marketing",
     "description": "Design and optimize affiliate programs with partner scoring, commission economics, tracking QA, fraud controls, and compliance reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/affiliate-marketing",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/affiliate-marketing/` if the user wants persistent partner and program continuity. When to Use User n",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/Clawic/data/affiliate-marketing/` if the user wants persistent partner and program continuity. When t",
     "repositoryPath": "skills/affiliate-marketing",
     "manifestPath": "registry/skills/affiliate-marketing.json"
   },
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/affiliate-marketing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/_meta.json",
+      "byteCount": 190,
+      "sha256": "6d87524d8c9e1424ccb5d412db56412d0ef86df31878c08be2da021a5e0cf089"
     },
     {
       "path": "economics.md",
       "downloadPath": "skills/affiliate-marketing/economics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/economics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/economics.md",
+      "byteCount": 1224,
+      "sha256": "c2d1c323d48998294f83cd2450aa581bd45c9d5c724ea0038a9277015363377b"
     },
     {
       "path": "fraud-qa.md",
       "downloadPath": "skills/affiliate-marketing/fraud-qa.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/fraud-qa.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/fraud-qa.md",
+      "byteCount": 1052,
+      "sha256": "82a40c1988ff39602a33553a90160fc4e087e09ed96f05943afa0b3d2fa2690a"
     },
     {
       "path": "lifecycle-reporting.md",
       "downloadPath": "skills/affiliate-marketing/lifecycle-reporting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/lifecycle-reporting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/lifecycle-reporting.md",
+      "byteCount": 1072,
+      "sha256": "44135aca7ac21ddf88a0bf22f853d5361baa896747e8c3609e6e0677e04a47ed"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/affiliate-marketing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/memory-template.md",
+      "byteCount": 1623,
+      "sha256": "62b93ef034593dab10b052058a6310b1ab489e5170897eadac41b69f094be597"
     },
     {
       "path": "partner-pipeline.md",
       "downloadPath": "skills/affiliate-marketing/partner-pipeline.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/partner-pipeline.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/partner-pipeline.md",
+      "byteCount": 1244,
+      "sha256": "1d10bcdd6c29d1f68c847b1a87f8927a300bc97e1ad4aa13ec815090267ba8ab"
     },
     {
       "path": "playbooks.md",
       "downloadPath": "skills/affiliate-marketing/playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/playbooks.md",
+      "byteCount": 1012,
+      "sha256": "ac9239163d0070bb7303a92d2e0c4c645604b9a92757ef8bfd77f5bd2774ae9d"
     },
     {
       "path": "program-design.md",
       "downloadPath": "skills/affiliate-marketing/program-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/program-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/program-design.md",
+      "byteCount": 1348,
+      "sha256": "2c8bdbcd8609a3ae63e36611c0d6b0b62f7e3b926b83e5fd1436d1e41499f436"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/affiliate-marketing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/setup.md",
+      "byteCount": 1913,
+      "sha256": "8012f53b3cf6ca3626fbd55506206b9cc676583743afe97a70b580cb53a4d828"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/affiliate-marketing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/SKILL.md",
+      "byteCount": 7665,
+      "sha256": "818a6bec0f1ecf3d17e5d93bcfeba7e8d2b942f4e017d6a7afe96dc82625b324"
     },
     {
       "path": "tracking-compliance.md",
       "downloadPath": "skills/affiliate-marketing/tracking-compliance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/tracking-compliance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/affiliate-marketing/tracking-compliance.md",
+      "byteCount": 1013,
+      "sha256": "c7c20f55b4268034342d702e0d5bc1debe89823f688232c3d4b42e33dd770935"
     }
   ]
 }

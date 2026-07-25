@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1e966110e69603ad8f1bd55d9c2725214a01e3c28ef258694a533531a89d374c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "applescript",
-    "name": "AppleScript",
+    "name": "applescript",
     "description": "Write and run safe AppleScript automation on macOS with dictionary discovery, robust quoting, and deterministic read-first workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/applescript",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/applescript/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/_meta.json",
+      "byteCount": 174,
+      "sha256": "d78587d5cbbbbeed7a8320b20308da6a1543d37509297ca2ddab911a6f0535d0"
     },
     {
       "path": "app-dictionary-workflow.md",
       "downloadPath": "skills/applescript/app-dictionary-workflow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/app-dictionary-workflow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/app-dictionary-workflow.md",
+      "byteCount": 1106,
+      "sha256": "22570412d6e1c7f6daee61d0253f583e95b93509532a7c7fec559b4eb019e98a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/applescript/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/memory-template.md",
+      "byteCount": 1325,
+      "sha256": "3bb5df451fba06735d964e38e35fe9ee6cce4c71e7c8b607745e521e045bb484"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/applescript/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/safety-checklist.md",
+      "byteCount": 1037,
+      "sha256": "71b0695224c37bc92e3b78339167171ea02f0e7d9abb0383163ea11398f3b15b"
     },
     {
       "path": "script-patterns.md",
       "downloadPath": "skills/applescript/script-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/script-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/script-patterns.md",
+      "byteCount": 964,
+      "sha256": "cf868e62b3a1a7cb3899d6dd88fefedd2f8a37bfe5a72a113401fb1100e8215f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/applescript/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/setup.md",
+      "byteCount": 1540,
+      "sha256": "cd70e69ec4e31d27d0c1b7e09cdef70a483a6c56d76f89806e7653e074a23a60"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/applescript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/SKILL.md",
+      "byteCount": 5035,
+      "sha256": "4a6de888246eaf977436932248a1d2dc065432e92a325ab1a1b278af5c363cbf"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/applescript/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/applescript/troubleshooting.md",
+      "byteCount": 1078,
+      "sha256": "34974fbf16de132cab1a61d17934ca335bd83aad78a62a5ece6dd4315bef7f39"
     }
   ]
 }

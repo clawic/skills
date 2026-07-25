@@ -1,6 +1,6 @@
 # Memory Template — Help Center
 
-Create `~/help-center/memory.md` with this structure:
+Create `~/Clawic/data/help-center/memory.md` with this structure:
 
 ```markdown
 # Help Center Memory

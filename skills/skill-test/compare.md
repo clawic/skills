@@ -6,8 +6,8 @@ A/B testing when multiple skills could work.
 
 Install candidates to separate folders:
 ```bash
-npx clawhub install skill-a --dir /tmp/compare/skill-a
-npx clawhub install skill-b --dir /tmp/compare/skill-b
+npx clawic install skill-a --dir /tmp/compare/skill-a
+npx clawic install skill-b --dir /tmp/compare/skill-b
 ```
 
 ## Comparison Process

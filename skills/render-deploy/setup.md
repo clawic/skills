@@ -1,6 +1,6 @@
 # Setup - Render Deploy
 
-Read this when `~/render-deploy/` is missing or empty.
+Read this when `~/Clawic/data/render-deploy/` is missing or empty.
 
 ## Your Attitude
 
@@ -41,7 +41,7 @@ Store durable context only:
 - Stable env var inventory (names and ownership, not secret values unless user asks)
 - Recurrent failure signatures and validated fixes
 
-Store only in `~/render-deploy/` after explicit user consent.
+Store only in `~/Clawic/data/render-deploy/` after explicit user consent.
 
 ## Golden Rule
 

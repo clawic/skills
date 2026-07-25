@@ -1,16 +1,27 @@
 ---
-name: India
+name: india
 slug: india
 version: 1.0.0
+description: Plan India trips with specific neighborhoods, regional food calls, route choices, and grounded advice that avoids common travel mistakes.
 homepage: https://clawic.com/skills/india
 changelog: Added country-level routing, city guides, and practical travel advice for first-time and repeat India trips.
-description: Plan India trips with specific neighborhoods, regional food calls, route choices, and grounded advice that avoids common travel mistakes.
-metadata: {"clawdbot":{"emoji":"🇮🇳","requires":{"bins":[],"config":["~/india/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🇮🇳
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/india/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: India
 ---
 
 ## Setup
 
-If `~/india/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/india/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a trip to India or wants local guidance on cities, routes, food
 
 ## Architecture
 
-Memory lives in `~/india/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/india/`. See `memory-template.md` for structure.
 
 ```
-~/india/
+~/Clawic/data/india/
 └── memory.md     # Trip context, pacing, preferences, and warnings already given
 ```
 
@@ -114,20 +125,20 @@ Call out the things that derail trips:
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/india/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/india/`
 
 **This skill does NOT:**
-- Access files outside `~/india/`
+- Access files outside `~/Clawic/data/india/`
 - Make network requests
-- Store payment or passport details unless the user explicitly asks to track them in `~/india/`
+- Store payment or passport details unless the user explicitly asks to track them in `~/Clawic/data/india/`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — General travel planning
 - `food` — Food recommendations and dining guidance
 - `hindi` — Hindi language help for signs, menus, and quick phrases
 
 ## Feedback
 
-- If useful: `clawhub star india`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/india
+- Latest version: https://clawic.com/skills/india

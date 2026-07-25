@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a3cc33f28d1a6061741cc1826fff08b399b6767cd6ebb3e7869d0e16336ce66",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "post-labor-economics",
-    "name": "Post-Labor Economics",
+    "name": "post-labor-economics",
     "description": "Model post-labor economies with automation shocks, distribution redesign, and policy portfolios across income, ownership, time, and services.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/post-labor-economics",
-    "summary": "Setup If `~/post-labor-economics/` does not exist or is empty, read `setup.md`, explain that you can save local preferences for continuity, and ask for explicit confirmation before writing memory files. When to Use User ",
+    "summary": "Setup If `~/Clawic/data/post-labor-economics/` does not exist or is empty, read `setup.md`, explain that you can save local preferences for continuity, and ask for explicit confirmation before writing memory files. When ",
     "repositoryPath": "skills/post-labor-economics",
     "manifestPath": "registry/skills/post-labor-economics.json"
   },
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/post-labor-economics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/_meta.json",
+      "byteCount": 192,
+      "sha256": "d5190082f77a038ab93c35bb971e97320cd4f1ed037af9bdc7048518a4ed7119"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/post-labor-economics/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/frameworks.md",
+      "byteCount": 2150,
+      "sha256": "09b908876af4532575cd6f570131180538bea87648c9820157cf2e6a196c8995"
     },
     {
       "path": "indicators.md",
       "downloadPath": "skills/post-labor-economics/indicators.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/indicators.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/indicators.md",
+      "byteCount": 1748,
+      "sha256": "db76bdbf35a553c1c1afdca0885479760bd514ad1123e1b89ff44b95c81f892a"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/post-labor-economics/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/memory-template.md",
+      "byteCount": 2390,
+      "sha256": "cd03c3575cb521e94952253ee7b12646a018a34b11160c6dc7e146cdd8918c40"
     },
     {
       "path": "policy-portfolio.md",
       "downloadPath": "skills/post-labor-economics/policy-portfolio.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/policy-portfolio.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/policy-portfolio.md",
+      "byteCount": 1867,
+      "sha256": "52e435ee8f2c40ebf1a3a9bf3cfa67dcd0bfc78d730c13ee0cbd454315fb5488"
     },
     {
       "path": "research-notes.md",
       "downloadPath": "skills/post-labor-economics/research-notes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/research-notes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/research-notes.md",
+      "byteCount": 2681,
+      "sha256": "5f6821ece5a6015840d7dd33fb737c69b2d5ca5c68a37caae4e131e9051e14ca"
     },
     {
       "path": "scenarios.md",
       "downloadPath": "skills/post-labor-economics/scenarios.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/scenarios.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/scenarios.md",
+      "byteCount": 1840,
+      "sha256": "946a5697f631c2f701cf092b6ccc578da46d67d7e9ef2679ccb4259b6f4856d7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/post-labor-economics/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/setup.md",
+      "byteCount": 2284,
+      "sha256": "c6cbfe81aa0f5ce49019b2397877d2017793f9ff8d3cda5d91ac741431348cb5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/post-labor-economics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/post-labor-economics/SKILL.md",
+      "byteCount": 5816,
+      "sha256": "894ac14877b858ec660302f4c781775fe86c8b7ff68e94e042eee66081b23ade"
     }
   ]
 }

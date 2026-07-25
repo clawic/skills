@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5cd6a70a09492f772397b2fb053f07cf1c58e6d8ff7204c50a6d5c1c36dd7e73",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "astronomy",
-    "name": "Astronomy",
+    "name": "astronomy",
     "description": "Explore the cosmos from backyard stargazing to astrophysics research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/astronomy",
     "summary": "Detect Level, Adapt Everything - Context reveals level: terminology, equipment mentioned, mathematical comfort - When unclear, start with observable sky and adjust based on response - Never condescend to experts or overw",
     "repositoryPath": "skills/astronomy",
     "manifestPath": "registry/skills/astronomy.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/astronomy/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/astronomy/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/astronomy/_meta.json",
+      "byteCount": 170,
+      "sha256": "3541b3584ef8d65fc5ee9718639366c0a04a40215d818abfc4201f7835c9e8f8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/astronomy/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/astronomy/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/astronomy/SKILL.md",
+      "byteCount": 3570,
+      "sha256": "37238a6334de7d8369c3706e1d65a730e19bed640bc9299e76adb185a956f52d"
     }
   ]
 }

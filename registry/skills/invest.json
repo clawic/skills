@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4573ef713f8b97e2453158f31781072a58401be44963f47c69a0488485538681",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "invest",
-    "name": "Invest",
+    "name": "invest",
     "description": "Start investing with account selection, portfolio building, and long-term wealth strategies.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/invest",
     "summary": "⚠️ Important Disclaimer **This is general educational information, NOT personalized investment advice.** - This AI is not a registered investment adviser, broker-dealer, or fiduciary - Past performance does not guarantee",
     "repositoryPath": "skills/invest",
     "manifestPath": "registry/skills/invest.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/invest/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/_meta.json",
+      "byteCount": 164,
+      "sha256": "31721542cea9a69e8091364943a68fa460fb5e78f5c934f47a3c8123a07cc0e2"
     },
     {
       "path": "allocation.md",
       "downloadPath": "skills/invest/allocation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/allocation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/allocation.md",
+      "byteCount": 2240,
+      "sha256": "8f666e4b26a2f9662de28b175fc7602267837a24ed70d1059810e6f400f9042f"
     },
     {
       "path": "getting-started.md",
       "downloadPath": "skills/invest/getting-started.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/getting-started.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/getting-started.md",
+      "byteCount": 2276,
+      "sha256": "bacc1dfeac73d85393566de285fcbb568061913049f1d75bd7d5651ef6834f6e"
     },
     {
       "path": "international.md",
       "downloadPath": "skills/invest/international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/international.md",
+      "byteCount": 2463,
+      "sha256": "7ede21146a04ca2b4550c80c22fd30f8e1612c41e88f5b11a0aab03057375945"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/invest/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invest/SKILL.md",
+      "byteCount": 3666,
+      "sha256": "bb4400a9d4a1408f0d114227fe7af50a2219b197ad76e6fca36be3711369bd36"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "962b20b4725d67f467dec05b6e937d1d53a56e20b773e8b8560dc06cadca321a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "act-prep",
-    "name": "ACT",
+    "name": "act-prep",
     "description": "Prepare for the ACT with adaptive practice, score tracking, weak area analysis, and college targeting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/act-prep",
     "summary": "When to Use User is preparing for the ACT (American College Testing). Agent becomes a comprehensive test prep assistant handling practice scheduling, score tracking, weak area analysis, and college admission planning. Qu",
     "repositoryPath": "skills/act-prep",
     "manifestPath": "registry/skills/act-prep.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/act-prep/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/_meta.json",
+      "byteCount": 163,
+      "sha256": "e337fa12763a77a0555d7ab92ff8330c810f69cd45b54fbd0d7d9c728e7c61e3"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/act-prep/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/exam-config.md",
+      "byteCount": 1220,
+      "sha256": "57e0471d40b72888fc6a2a460079cd9d8b31c1aa86c6fb8ff2dd0f0a874c3b6a"
     },
     {
       "path": "sections.md",
       "downloadPath": "skills/act-prep/sections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/sections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/sections.md",
+      "byteCount": 2574,
+      "sha256": "87bc60a2274045101c7053bb63bb3e4316ad2cacc1200948be6c24d38a6593a1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/act-prep/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/SKILL.md",
+      "byteCount": 2772,
+      "sha256": "a350aff8c72e8f9f9a961a9f8a627c9af232c8422e969da88e0bad401afe8f21"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/act-prep/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/study-methods.md",
+      "byteCount": 1805,
+      "sha256": "465d5b5fb5d00e8912f5082b3d0c501876ba395c28b0b6a30e2b4fcd3c6e8903"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/act-prep/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/targets.md",
+      "byteCount": 1407,
+      "sha256": "87fec703c2f091680f03a964cdfe0ae1bf3ec10428c672a843baa924554ca093"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/act-prep/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/tracking.md",
+      "byteCount": 1484,
+      "sha256": "8468db1f4fb907c0d615cb3605cf7586301a92a28ac1ce4c99d209df3e874455"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/act-prep/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/act-prep/user-types.md",
+      "byteCount": 1308,
+      "sha256": "38726ffdaec04bd92e57e99bd5f817aefdaccca5ad199e5d71387573ae673cc3"
     }
   ]
 }

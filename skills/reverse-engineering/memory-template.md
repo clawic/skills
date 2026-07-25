@@ -1,6 +1,6 @@
 # Memory Template — Reverse Engineering Operator
 
-Create `~/reverse-engineering/memory.md` with this structure:
+Create `~/Clawic/data/reverse-engineering/memory.md` with this structure:
 
 ```markdown
 # Reverse Engineering Memory
@@ -27,7 +27,7 @@ Use this for short internal observations that improve future sessions without ex
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/reverse-engineering/current-target.md` with this structure:
+Create `~/Clawic/data/reverse-engineering/current-target.md` with this structure:
 
 ```markdown
 # Current Target

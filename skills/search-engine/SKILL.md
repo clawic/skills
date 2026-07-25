@@ -1,11 +1,20 @@
 ---
-name: Search Engine
+name: search-engine
 slug: search-engine
 version: 1.0.0
-homepage: https://clawic.com/skills/search-engine
 description: Design and build any search engine with robust indexing, retrieval logic, relevance controls, and evaluation workflows for production systems.
+homepage: https://clawic.com/skills/search-engine
 changelog: Initial release with indexing pipeline guidance, query handling patterns, and quality evaluation checklists for reliable engine delivery.
-metadata: {"clawdbot":{"emoji":"S","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: S
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Search Engine
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ User needs to create, redesign, or scale a search engine for applications, docum
 
 ## Architecture
 
-Memory lives in `~/search-engine/`. See `memory-template.md` for baseline structure and status values.
+Memory lives in `~/Clawic/data/search-engine/`. See `memory-template.md` for baseline structure and status values.
 
 ```text
-~/search-engine/
+~/Clawic/data/search-engine/
 |-- memory.md              # Persistent context, constraints, and active priorities
 |-- requirements.md        # Retrieval goals, latency targets, and relevance expectations
 |-- experiments.md         # Offline experiments and tuning decisions
@@ -43,7 +52,7 @@ Use the smallest relevant file for the task.
 
 ## Data Storage
 
-Local notes stay in `~/search-engine/`:
+Local notes stay in `~/Clawic/data/search-engine/`:
 - requirements and relevance objectives
 - data source assumptions and indexing decisions
 - experiment outcomes and deployment safeguards
@@ -124,7 +133,7 @@ Data that leaves your machine:
 - only user-approved integration traffic when the user explicitly connects external services
 
 Data that stays local:
-- planning notes and experiment logs under `~/search-engine/`
+- planning notes and experiment logs under `~/Clawic/data/search-engine/`
 - constraints, relevance decisions, and rollback records
 
 This skill does NOT:
@@ -133,7 +142,7 @@ This skill does NOT:
 - bypass user-confirmed environment boundaries
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` - Define stable APIs for indexing, querying, and retrieval orchestration
 - `elasticsearch` - Implement production indexing and query execution on Elasticsearch
 - `meilisearch` - Ship lightweight retrieval stacks with fast iteration cycles
@@ -142,5 +151,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star search-engine`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/search-engine
+- Latest version: https://clawic.com/skills/search-engine

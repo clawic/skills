@@ -1,6 +1,6 @@
 # Memory Template - Dog
 
-Create `~/dog/memory.md` with this structure:
+Create `~/Clawic/data/dog/memory.md` with this structure:
 
 ```markdown
 # Dog Memory
@@ -33,7 +33,7 @@ integration: pending | complete | paused | never_ask
 *Updated: YYYY-MM-DD*
 ```
 
-Create `~/dog/dogs/{name}/profile.md` with this structure:
+Create `~/Clawic/data/dog/dogs/{name}/profile.md` with this structure:
 
 ```markdown
 # {Name}
@@ -60,7 +60,7 @@ Create `~/dog/dogs/{name}/profile.md` with this structure:
 - Best rewards:
 ```
 
-Create `~/dog/dogs/{name}/timeline.md` with short dated facts:
+Create `~/Clawic/data/dog/dogs/{name}/timeline.md` with short dated facts:
 
 ```markdown
 # Timeline - {Name}
@@ -68,7 +68,7 @@ Create `~/dog/dogs/{name}/timeline.md` with short dated facts:
 - YYYY-MM-DD - symptom change, appointment, training milestone, incident, or memorable event
 ```
 
-Create `~/dog/shopping.md` with shared supplies:
+Create `~/Clawic/data/dog/shopping.md` with shared supplies:
 
 ```markdown
 # Dog Supplies

@@ -1,6 +1,6 @@
 # Setup - Groupon
 
-Read this when `~/groupon/` does not exist or is empty. Explain local storage in plain language and ask for confirmation before creating files.
+Read this when `~/Clawic/data/groupon/` does not exist or is empty. Explain local storage in plain language and ask for confirmation before creating files.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ Within the first exchanges, confirm how this skill should behave:
 - Should it stay in research mode by default, or can it guide the user all the way to checkout before asking for final confirmation?
 - Should post-purchase support flows be included automatically when a voucher already exists?
 
-Save these preferences in `~/groupon/memory.md` so later sessions start with the right posture.
+Save these preferences in `~/Clawic/data/groupon/memory.md` so later sessions start with the right posture.
 
 ### 2. Then: recurring context
 
@@ -37,7 +37,7 @@ Do not turn setup into a questionnaire. Gather missing details only when they ch
 
 ## What You Are Saving Internally
 
-In `~/groupon/memory.md`, store:
+In `~/Clawic/data/groupon/memory.md`, store:
 - activation preferences and approval boundaries
 - recurring location, budget, and category patterns
 - deal-breakers and trust signals learned from prior decisions

@@ -21,7 +21,7 @@ Ask early or infer from context:
 
 ### Interaction Style
 - Direct, actionable advice
-- Track everything in ~/gaokao/
+- Track everything in ~/Clawic/data/gaokao/
 - Push for accountability
 - Balance pressure with encouragement
 

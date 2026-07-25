@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "141afdfcf1bec4580c5734fb349bacc0079b45bb6d229148f13e9489391d9e61",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "pull-request",
-    "name": "Pull Request",
+    "name": "pull-request",
     "description": "Create high-quality pull requests with pre-submission validation, maintainer-friendly formatting, and automated quality checks.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/pull-request",
     "summary": "When to Use Before creating or suggesting a pull request to ANY repository. Acts as a quality filter to prevent wasting maintainer time and embarrassing the contributor. Quick Reference | Domain | File | |--------|------",
     "repositoryPath": "skills/pull-request",
     "manifestPath": "registry/skills/pull-request.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pull-request/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/_meta.json",
+      "byteCount": 252,
+      "sha256": "306dd8e35baafffa7ff1f4aed7c8c9bbc3acb1b7559d90213c3933939e530e29"
     },
     {
       "path": "checklist.md",
       "downloadPath": "skills/pull-request/checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/checklist.md",
+      "byteCount": 3807,
+      "sha256": "4be48cc25b2b4fa93db14b6e385848eba5904b8d96bd3e38f2f6bf23e8795de9"
     },
     {
       "path": "red-flags.md",
       "downloadPath": "skills/pull-request/red-flags.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/red-flags.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/red-flags.md",
+      "byteCount": 2492,
+      "sha256": "d1c3de56b443ab886abcc6a8a279d72d0a9a83b61434026e67ac6706d280e586"
     },
     {
       "path": "repo-context.md",
       "downloadPath": "skills/pull-request/repo-context.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/repo-context.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/repo-context.md",
+      "byteCount": 1868,
+      "sha256": "7c0785271522e6620f1bcb28e1c1d26eac5756882d87c4b29744727a79096a6d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pull-request/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/SKILL.md",
+      "byteCount": 3159,
+      "sha256": "172dbce23d14e5a73fbf50d940e8c192abc42d45b14a1198c34cae49660f1e92"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/pull-request/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pull-request/templates.md",
+      "byteCount": 1544,
+      "sha256": "e5d08c1612b68f4a4509bbaf253b68c4d5090df3f86ff8f6a8214595602cabf1"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "730601ccc7f4523b8fd2c2e151a6842ebccd4ea4e3a341aec4bfc2cd13edebd4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "php",
-    "name": "PHP",
+    "name": "php",
     "description": "Write solid PHP avoiding type juggling traps, array quirks, and common security pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/php",
     "summary": "Quick Reference | Topic | File | |-------|------| | Loose typing, ==, ===, type juggling, strict_types | `types.md` | | Associative arrays, iteration, array functions | `arrays.md` | | Traits, interfaces, visibility, lat",
     "repositoryPath": "skills/php",
     "manifestPath": "registry/skills/php.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/php/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/_meta.json",
+      "byteCount": 234,
+      "sha256": "1ac32f271bf41194b75189cb09cd6ca5892c61a859c9163c384d32667f7805de"
     },
     {
       "path": "arrays.md",
       "downloadPath": "skills/php/arrays.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/arrays.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/arrays.md",
+      "byteCount": 624,
+      "sha256": "baa2b248e636be3a830d600b3788b2ba3a821d46ef6606c373228db765eb3e37"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/php/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/errors.md",
+      "byteCount": 461,
+      "sha256": "614d251252871b8ae2c4d8edcbade4dfa3138e0163684b81b02f8a126002b6b1"
     },
     {
       "path": "modern.md",
       "downloadPath": "skills/php/modern.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/modern.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/modern.md",
+      "byteCount": 575,
+      "sha256": "274153a6cc802a97663b7fce1a94a79b30f3d85f4ab3f90be44062e10624a24c"
     },
     {
       "path": "oop.md",
       "downloadPath": "skills/php/oop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/oop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/oop.md",
+      "byteCount": 613,
+      "sha256": "55a9f684236d753afda063ee327d721f091468ff11dee7f480339905d11cb805"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/php/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/security.md",
+      "byteCount": 628,
+      "sha256": "ed236d4dffbe96303aab2071f6dc19b63c0e85ce0c17510063bd25b8145f7f83"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/php/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/SKILL.md",
+      "byteCount": 1901,
+      "sha256": "18f8d7c99b8ceaec714a4e4931a328f46a5b4a046e43ab27f7ab269c8da17635"
     },
     {
       "path": "strings.md",
       "downloadPath": "skills/php/strings.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/strings.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/strings.md",
+      "byteCount": 550,
+      "sha256": "33d8ce6ac1779fef5fa2e941ac0f7824ace226693575b0b6bba9d140a18101f0"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/php/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/types.md",
+      "byteCount": 498,
+      "sha256": "6eacdbd68a81373b2c8a3699036d9329dba7117df60b168b7538076f8d6e85ca"
     }
   ]
 }

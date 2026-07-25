@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "83b457b36e7383ac8632a59efe44bb1d8bc85870c043cfd1db6fd0eafd2e858c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "hadoop",
-    "name": "Hadoop",
+    "name": "hadoop",
     "description": "Manage Hadoop clusters with HDFS operations, YARN job tuning, and distributed processing diagnostics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/hadoop",
-    "summary": "Setup If `~/hadoop/` doesn't exist or is empty, read `setup.md` and start the conversation naturally. When to Use User works with Hadoop ecosystem (HDFS, YARN, MapReduce, Hive). Agent handles cluster diagnostics, job opt",
+    "summary": "Setup If `~/Clawic/data/hadoop/` doesn't exist or is empty, read `setup.md` and start the conversation naturally. When to Use User works with Hadoop ecosystem (HDFS, YARN, MapReduce, Hive). Agent handles cluster diagnost",
     "repositoryPath": "skills/hadoop",
     "manifestPath": "registry/skills/hadoop.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hadoop/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/_meta.json",
+      "byteCount": 164,
+      "sha256": "a6c1b85bacfa683f3e584a557d2800b3fda0ca7c2efc7401a8f1619dd9c9ca26"
     },
     {
       "path": "hdfs.md",
       "downloadPath": "skills/hadoop/hdfs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/hdfs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/hdfs.md",
+      "byteCount": 4639,
+      "sha256": "2197b8292b80af78885948e2ddfaf3f4512b3171f3f14a541402b0cc8f05104e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/hadoop/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/memory-template.md",
+      "byteCount": 1773,
+      "sha256": "3b260d1fa332fbb7f9e55276f42f2965b59a2fb33186d7e8d871274a417846c7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/hadoop/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/setup.md",
+      "byteCount": 1683,
+      "sha256": "2148b0507dc052d162249f23aea23ce9af330bca2f9e313d4d8020c1ca56b03c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hadoop/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/SKILL.md",
+      "byteCount": 6229,
+      "sha256": "8f1526d144da2efd7ca6299f00e4df6e9c48920ac0a6ca9c83873b7dca11f7ce"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/hadoop/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/troubleshooting.md",
+      "byteCount": 7154,
+      "sha256": "251ed4967be02451d68224539d2cb91961ce73cb97433e04dae853beb5e54975"
     },
     {
       "path": "yarn.md",
       "downloadPath": "skills/hadoop/yarn.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/yarn.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hadoop/yarn.md",
+      "byteCount": 6368,
+      "sha256": "14cf5898633ed5438781548fe41a48a6791a22a357f99de545977a226ed4cafb"
     }
   ]
 }

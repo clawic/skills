@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "847c930db15fadc48f8d6096548e08b79ba4b478daea5d3f1893945cbbbdcecb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "json",
-    "name": "JSON",
+    "name": "json",
     "description": "Work with JSON data structures, APIs, and serialization effectively.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/json",
     "summary": "Schema & Validation - Always validate against JSON Schema before processing untrusted input—don't assume structure - Define schemas for API responses—catches contract violations early - Use `additionalProperties: false` ",
     "repositoryPath": "skills/json",
     "manifestPath": "registry/skills/json.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/json/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/_meta.json",
+      "byteCount": 160,
+      "sha256": "2c511312d959d9bf0c40f1e621a6dfa6f910beb42ec4b05e2fa5a2a870649ac7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/json/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/SKILL.md",
+      "byteCount": 3086,
+      "sha256": "db1b2cf5772892304fa42b00c438992f615f3d80188d1573e578b9833a1d241f"
     }
   ]
 }

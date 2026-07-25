@@ -1,7 +1,17 @@
 ---
-name: Physics
+name: physics
+slug: physics
+version: 1.0.0
 description: Assist with physics from intuitive explanations to formal derivations at any level.
-metadata: {"clawdbot":{"emoji":"⚛️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/physics
+metadata:
+  clawdbot:
+    emoji: ⚛️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Physics
 ---
 
 ## Detect Level, Adapt Everything

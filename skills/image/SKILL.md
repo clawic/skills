@@ -1,11 +1,18 @@
 ---
-name: Image
+name: image
 slug: image
 version: 1.0.4
+description: Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes.
 homepage: https://clawic.com/skills/image
-description: "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes."
-changelog: "Expanded the skill with branding, screenshot, accessibility, and richer platform-specific workflows while preserving stronger image-processing guidance."
-metadata: {"clawdbot":{"emoji":"🖼️","os":["linux","darwin","win32"]}}
+changelog: Expanded the skill with branding, screenshot, accessibility, and richer platform-specific workflows while preserving stronger image-processing guidance.
+metadata:
+  clawdbot:
+    emoji: 🖼️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Image
 ---
 
 ## When to Use
@@ -167,7 +174,7 @@ Keep the main workflow in this file, then pull in the specialized file for the e
 - Treating alt text, captions, or chart summaries as someone else's problem after the pixels look good.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `image-edit` — Masking, cleanup, inpainting, and targeted visual edits.
 - `image-generation` — AI image generation and editing across current model providers.
 - `photography` — Capture, color, and print-oriented photo workflows.
@@ -176,5 +183,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star image`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/image
+- Latest version: https://clawic.com/skills/image

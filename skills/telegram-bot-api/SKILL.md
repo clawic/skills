@@ -1,10 +1,20 @@
 ---
-name: Telegram Bot API
+name: telegram-bot-api
 slug: telegram-bot-api
 version: 1.0.0
-homepage: https://clawic.com/skills/telegram-bot-api
 description: Build Telegram bots with correct API calls, message formatting, keyboards, and webhook setup.
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"bins":["curl"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/telegram-bot-api
+metadata:
+  clawdbot:
+    emoji: 🤖
+    requires:
+      bins:
+      - curl
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Telegram Bot API
 ---
 
 ## Setup
@@ -17,10 +27,10 @@ User needs to interact with the Telegram Bot API. Building bots, sending message
 
 ## Architecture
 
-Memory lives in `~/telegram-bot-api/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/telegram-bot-api/`. See `memory-template.md` for structure.
 
 ```
-~/telegram-bot-api/
+~/Clawic/data/telegram-bot-api/
 ├── memory.md          # Bot tokens, preferences, defaults
 ├── bots/              # Per-bot configurations
 │   └── {botname}.md   # Token, webhook URL, defaults
@@ -139,7 +149,7 @@ No other data is sent externally. Bot token is required for all requests.
 - Bot token in every request (required by Telegram)
 
 **Data that stays local:**
-- Bot configurations in `~/telegram-bot-api/`
+- Bot configurations in `~/Clawic/data/telegram-bot-api/`
 - Message templates
 
 **This skill does NOT:**
@@ -153,12 +163,12 @@ By using this skill, data is sent to Telegram's Bot API servers.
 Only install if you trust Telegram with your bot's messages.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — REST API best practices
 - `http` — HTTP protocol essentials
 - `json` — JSON parsing and manipulation
 
 ## Feedback
 
-- If useful: `clawhub star telegram-bot-api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/telegram-bot-api
+- Latest version: https://clawic.com/skills/telegram-bot-api

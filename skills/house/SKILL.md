@@ -1,6 +1,13 @@
 ---
-name: House
+name: house
+slug: house
+version: 1.1.0
 description: Buy, maintain, improve, and sell homes with inspection checklists, maintenance schedules, renovation planning, and transaction guidance.
+homepage: https://clawic.com/skills/house
+metadata:
+  clawdbot:
+    emoji: 🏠
+    displayName: House
 ---
 
 ## Decision Tree

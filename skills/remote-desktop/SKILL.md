@@ -1,10 +1,20 @@
 ---
-name: Remote Desktop
+name: remote-desktop
 slug: remote-desktop
 version: 1.0.0
-homepage: https://clawic.com/skills/remote-desktop
 description: Connect to remote desktops via RDP, VNC, and SSH X11 with secure tunneling and troubleshooting.
-metadata: {"clawdbot":{"emoji":"🖥️","requires":{"bins":["ssh"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/remote-desktop
+metadata:
+  clawdbot:
+    emoji: 🖥️
+    requires:
+      bins:
+      - ssh
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Remote Desktop
 ---
 
 ## Setup
@@ -17,10 +27,10 @@ User needs remote desktop access to another machine. Agent handles protocol sele
 
 ## Architecture
 
-Config lives in `~/remote-desktop/`. See `memory-template.md` for structure.
+Config lives in `~/Clawic/data/remote-desktop/`. See `memory-template.md` for structure.
 
 ```
-~/remote-desktop/
+~/Clawic/data/remote-desktop/
 ├── memory.md         # Saved hosts, preferences
 └── hosts/            # Per-host connection profiles
 ```
@@ -108,7 +118,7 @@ xfreerdp /v:localhost:13389 /u:USER
 | SSH X11 | Needs xclip setup | SCP/SFTP |
 
 ### 7. Save Working Configs (with consent)
-When a connection works, ask "Want me to save this config for next time?" If yes, save to `~/remote-desktop/hosts/`:
+When a connection works, ask "Want me to save this config for next time?" If yes, save to `~/Clawic/data/remote-desktop/hosts/`:
 ```markdown
 # hostname.md
 host: 192.168.1.50
@@ -132,7 +142,7 @@ Never save passwords — only hostnames, users, and connection flags.
 ## Security & Privacy
 
 **Data that stays local:**
-- Host configurations in `~/remote-desktop/` (with user consent)
+- Host configurations in `~/Clawic/data/remote-desktop/` (with user consent)
 - Connection preferences
 
 **This skill does NOT:**
@@ -140,7 +150,7 @@ Never save passwords — only hostnames, users, and connection flags.
 - Auto-save configs without asking first
 - Connect to hosts without explicit user command
 - Make any network requests itself (you run the commands)
-- Access any memory outside `~/remote-desktop/`
+- Access any memory outside `~/Clawic/data/remote-desktop/`
 
 **Before saving a host profile:** Always ask "Want me to save this config for next time?"
 
@@ -157,7 +167,7 @@ This skill NEVER:
 - Modifies SSH or system configs without explicit instruction
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `linux` — Linux system administration
 - `server` — Server setup and management
 - `network` — Network configuration and debugging
@@ -165,5 +175,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star remote-desktop`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/remote-desktop
+- Latest version: https://clawic.com/skills/remote-desktop

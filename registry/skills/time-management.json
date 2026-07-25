@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3e77691a728b1b628e56532d610a4d9766ee375335386c57019347ef90ee462e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "time-management",
-    "name": "Time Management",
+    "name": "time-management",
     "description": "Plan days, prioritize tasks, and protect focus time with time blocking, weekly reviews, and energy-aware scheduling.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/time-management",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/time-management/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/_meta.json",
+      "byteCount": 182,
+      "sha256": "316a2f6ebd75341b8709dea49d893d74d67d3a2b0931eae97db7ab05f43c7dc6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/time-management/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/memory-template.md",
+      "byteCount": 1275,
+      "sha256": "95c8c1f5bb4073cf29c0121a2154df2ce931d6a9b60762936f822c60e9c1a3b9"
     },
     {
       "path": "prioritization.md",
       "downloadPath": "skills/time-management/prioritization.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/prioritization.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/prioritization.md",
+      "byteCount": 2351,
+      "sha256": "9c59f2c7b67277dcdc6c894854be810be8d08a763525e0e1b71f4c85c8589f6c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/time-management/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/setup.md",
+      "byteCount": 2052,
+      "sha256": "10d869c256cce3d661aa34b10c7687cddac0d7a67fca7aa771424f4248815f30"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/time-management/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/SKILL.md",
+      "byteCount": 5095,
+      "sha256": "35652a51c4ab6c2aff6de283e9af5e740b7b03ef18eac1a61700e756e19ca059"
     },
     {
       "path": "time-blocking.md",
       "downloadPath": "skills/time-management/time-blocking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/time-blocking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/time-blocking.md",
+      "byteCount": 2217,
+      "sha256": "0d9ff52c28dcaeeb52ab8a8e7137026db81f60cf5f75699b76a698a84f31f0c0"
     },
     {
       "path": "traps.md",
       "downloadPath": "skills/time-management/traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/traps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/traps.md",
+      "byteCount": 3202,
+      "sha256": "6d0516fb2ae7fce05b21d0d938b7bb336d2a0e506fe9c1c2df11355392bb6bd1"
     },
     {
       "path": "weekly-review.md",
       "downloadPath": "skills/time-management/weekly-review.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/weekly-review.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/time-management/weekly-review.md",
+      "byteCount": 1809,
+      "sha256": "d324f424a4b30695e1771b0d4544fef613343c046b0934565d68a71611879791"
     }
   ]
 }

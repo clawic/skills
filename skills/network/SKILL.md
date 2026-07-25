@@ -1,7 +1,17 @@
 ---
-name: Network
+name: network
+slug: network
+version: 1.0.0
 description: Understand and troubleshoot computer networks with TCP/IP, DNS, routing, and diagnostic tools.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/network
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Network
 ---
 
 # Network Fundamentals

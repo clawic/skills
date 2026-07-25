@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "01dfcfc9c1f12dd2b171179ec89fc6e597dff52a0b0414b3ed150be8e37bcedf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "course",
-    "name": "Course",
+    "name": "course",
     "description": "Create, launch, and manage online or in-person courses with curriculum design, content production, marketing automation, and student engagement.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/course",
     "summary": "When to Use User wants to: create a course to monetize expertise, transform existing materials into online format, launch and sell a course, manage students and track progress, or improve an existing course. Works for on",
     "repositoryPath": "skills/course",
     "manifestPath": "registry/skills/course.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/course/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/_meta.json",
+      "byteCount": 240,
+      "sha256": "fda508bde735075ff8595031235a2f9d09cbf4655d2460690acadfaa9b128502"
     },
     {
       "path": "analytics.md",
       "downloadPath": "skills/course/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/analytics.md",
+      "byteCount": 3816,
+      "sha256": "bba03cd4e72fa823fccb730a0dd226864f9c9e958d9503658453045087bbdc79"
     },
     {
       "path": "by-audience.md",
       "downloadPath": "skills/course/by-audience.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/by-audience.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/by-audience.md",
+      "byteCount": 4535,
+      "sha256": "31cb47edf71fa8449a374f9a8b7e7497b3eb135579af7e0ac5e00200349996ad"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/course/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/content.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/content.md",
+      "byteCount": 3106,
+      "sha256": "1d6d1a5de6ebffcacd14a4e8ea078cb4e064faf3de75c0ab1d6efb1a2b57c78e"
     },
     {
       "path": "marketing.md",
       "downloadPath": "skills/course/marketing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/marketing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/marketing.md",
+      "byteCount": 3544,
+      "sha256": "1d1521bca3a686356ab0d350cd83fbde1b0eb8d85e67f08619e9f55e86246096"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/course/production.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/production.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/production.md",
+      "byteCount": 2742,
+      "sha256": "b662e42ec792c11c599d2b5a92bde934e8f8df2672b707ec86bf25e728e44e5b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/course/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/SKILL.md",
+      "byteCount": 5096,
+      "sha256": "8a221aca1f52576852640f9ab531f9928dd4d154c739c341006b90ee14a0fe92"
     },
     {
       "path": "students.md",
       "downloadPath": "skills/course/students.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/students.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/course/students.md",
+      "byteCount": 3398,
+      "sha256": "94626499cfcaf9231c868b9aaf6588425f1499e6b17dddddccb2eb4e374cb0f5"
     }
   ]
 }

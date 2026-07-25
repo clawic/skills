@@ -1,11 +1,18 @@
 ---
-name: CHRO / Chief Human Resources Officer
+name: chro
 slug: chro
 version: 1.0.1
-homepage: https://clawic.com/skills/chro
 description: Manage HR operations with hiring pipelines, compliance frameworks, compensation strategy, and workforce analytics.
+homepage: https://clawic.com/skills/chro
 changelog: Added Core Rules structure and HR leadership frameworks.
-metadata: {"clawdbot":{"emoji":"👥","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 👥
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CHRO / Chief Human Resources Officer
 ---
 
 ## When to Use
@@ -86,7 +93,7 @@ These decisions require human approval:
 - Settlement amounts
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive alignment
 - `cfo` — compensation budgets
 - `coo` — operational workforce
@@ -94,5 +101,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star chro`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/chro
+- Latest version: https://clawic.com/skills/chro

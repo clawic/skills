@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ad3eb14f80798bb0efb390321ec98c4259a234af868f2b4e35114ecb3154957f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "pilates",
-    "name": "Pilates (Session Planner, Form Coach, Progress Tracker)",
+    "name": "pilates",
     "description": "Plan Pilates sessions, refine form, and track steady progress with equipment-aware modifications, core-focused cues, and weekly reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/pilates",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pilates/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/_meta.json",
+      "byteCount": 214,
+      "sha256": "110c64389d088d58e40b66c6b14bf481e0d58d8ae9fcac0d4ed8d73aeadc866f"
     },
     {
       "path": "form-checks.md",
       "downloadPath": "skills/pilates/form-checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/form-checks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/form-checks.md",
+      "byteCount": 2120,
+      "sha256": "cb720332cb1548c84b3d4ff4800dc9c97402dc342011c1e5b284b3a119a77e56"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/pilates/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/memory-template.md",
+      "byteCount": 2840,
+      "sha256": "685667af126080541d74bc9a743aec205f3ed83ba98bd2baecc6b7f6d2fd33fd"
     },
     {
       "path": "practice-modes.md",
       "downloadPath": "skills/pilates/practice-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/practice-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/practice-modes.md",
+      "byteCount": 2075,
+      "sha256": "bed749df354e520d775129edaadebc6c353e0acaed1721e9ca5181b3589d32b2"
     },
     {
       "path": "progression-ladder.md",
       "downloadPath": "skills/pilates/progression-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/progression-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/progression-ladder.md",
+      "byteCount": 1790,
+      "sha256": "46d5a75314f6f6adfb7a4a6fda4f7b3d73bf7aad9f1d52dc101a5aa57c89b277"
     },
     {
       "path": "safety-modifications.md",
       "downloadPath": "skills/pilates/safety-modifications.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/safety-modifications.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/safety-modifications.md",
+      "byteCount": 2277,
+      "sha256": "30171245c760267751d7adea5513de6d5f328d3ed435d99f7dd1162899c35736"
     },
     {
       "path": "session-templates.md",
       "downloadPath": "skills/pilates/session-templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/session-templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/session-templates.md",
+      "byteCount": 1936,
+      "sha256": "b8b9a95a133ec35ab8f3ecbde314ec67f1c3c321c03af0f1d9f2d7116209784c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/pilates/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/setup.md",
+      "byteCount": 2704,
+      "sha256": "c935de0f32146b9dc1a39d9008590ae3c688b6427f7c57272c8781f6345f9494"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pilates/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/SKILL.md",
+      "byteCount": 7446,
+      "sha256": "ed11795b3f3292f78c2ac4bd7641643b52ac4c42b0b41a7042ad208b835b5fb1"
     },
     {
       "path": "weekly-review-template.md",
       "downloadPath": "skills/pilates/weekly-review-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/weekly-review-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pilates/weekly-review-template.md",
+      "byteCount": 830,
+      "sha256": "36330f3948ee084aed6954775a8c0b92a98425011f5253dee12d0fc9156e7607"
     }
   ]
 }

@@ -5,7 +5,7 @@ How to remember someone well enough to be a real companion.
 ## Folder Structure
 
 ```
-~/companion/
+~/Clawic/data/companion/
 ├── memory.md       # Always loaded first
 ├── topics.md       # What they like discussing
 ├── routines.md     # Their daily life

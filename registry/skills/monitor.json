@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d305a0eb0d87517e14afed81e7b288134fde52f59e5e234b376e327607470ab9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "monitor",
-    "name": "Monitor",
+    "name": "monitor",
     "description": "Create monitors for anything. User defines what to check, skill handles scheduling and alerts.",
     "version": "1.0.2",
-    "summary": "Data Storage ``` ~/monitor/ ├── monitors.json # Monitor definitions ├── config.json # Alert preferences └── logs/ # Check results └── {name}/YYYY-MM.jsonl ``` Create on first use: `mkdir -p ~/monitor/logs` Scope This ski",
+    "homepage": "https://clawic.com/skills/monitor",
+    "summary": "Data Storage ``` ~/Clawic/data/monitor/ ├── monitors.json # Monitor definitions ├── config.json # Alert preferences └── logs/ # Check results └── {name}/YYYY-MM.jsonl ``` Create on first use: `mkdir -p ~/Clawic/data/moni",
     "repositoryPath": "skills/monitor",
     "manifestPath": "registry/skills/monitor.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/monitor/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/_meta.json",
+      "byteCount": 242,
+      "sha256": "336a1578dfa9373b40e4f00e3210c892b2866d5d4ec770c2fff3b7e6d08abcfa"
     },
     {
       "path": "alerts.md",
       "downloadPath": "skills/monitor/alerts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/alerts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/alerts.md",
+      "byteCount": 1559,
+      "sha256": "c097d11e75644b75dc01af6c83ec8d458c451047da39bc0f998a4740ce73f0b1"
     },
     {
       "path": "insights.md",
       "downloadPath": "skills/monitor/insights.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/insights.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/insights.md",
+      "byteCount": 1295,
+      "sha256": "2e52c112b03ef8d4af09a07b051a7eda0cb3e7f164ea9a366899d08fa1154113"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/monitor/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/SKILL.md",
+      "byteCount": 3657,
+      "sha256": "101b2e313e77c1a0d4083a0f8112c3b52c016745d09d68c6fd17b71c3948c190"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/monitor/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/monitor/templates.md",
+      "byteCount": 1783,
+      "sha256": "00a7d8c5c3d39c26d3d9af8ddd36c55691e20fe4345f735f4c1e9b606111d0ea"
     }
   ]
 }

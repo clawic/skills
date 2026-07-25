@@ -1,11 +1,21 @@
 ---
-name: AppleScript
+name: applescript
 slug: applescript
 version: 1.0.0
-homepage: https://clawic.com/skills/applescript
 description: Write and run safe AppleScript automation on macOS with dictionary discovery, robust quoting, and deterministic read-first workflows.
+homepage: https://clawic.com/skills/applescript
 changelog: Initial release with safety-first AppleScript execution rules and reusable automation patterns.
-metadata: {"clawdbot":{"emoji":"A","requires":{"bins":["osascript"]},"os":["darwin"],"configPaths":["~/applescript/"]}}
+metadata:
+  clawdbot:
+    emoji: A
+    requires:
+      bins:
+      - osascript
+    os:
+    - darwin
+    configPaths:
+    - ~/Clawic/data/applescript/
+    displayName: AppleScript
 ---
 
 ## Setup
@@ -27,10 +37,10 @@ Agent handles script design, safe execution with `osascript`, output parsing, an
 
 ## Architecture
 
-Memory lives in `~/applescript/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/applescript/`. See `memory-template.md` for structure.
 
 ```text
-~/applescript/
+~/Clawic/data/applescript/
 ├── memory.md                  # Preferences, safe defaults, and last working patterns
 ├── snippets.md                # Reusable script snippets
 ├── failures.md                # Error signatures and known fixes
@@ -52,7 +62,7 @@ Use these files only when the current request needs deeper detail.
 
 ## Data Storage
 
-All local skill data stays in `~/applescript/`.
+All local skill data stays in `~/Clawic/data/applescript/`.
 Before creating or changing local files, explain the write and ask for confirmation.
 
 ## Core Rules
@@ -96,7 +106,7 @@ Before creating or changing local files, explain the write and ask for confirmat
 ## Security & Privacy
 
 **Data that stays local:**
-- AppleScript snippets, runtime notes, and troubleshooting memory in `~/applescript/`.
+- AppleScript snippets, runtime notes, and troubleshooting memory in `~/Clawic/data/applescript/`.
 - Command output needed only for requested tasks.
 
 **Data that may leave your machine:**
@@ -108,7 +118,7 @@ Before creating or changing local files, explain the write and ask for confirmat
 - Execute destructive app actions without explicit confirmation.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `macos` - macOS command and system operation patterns.
 - `automate` - General automation workflow design and reliability strategy.
 - `bash` - Shell scripting helpers for wrapping and testing commands.
@@ -117,5 +127,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star applescript`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/applescript
+- Latest version: https://clawic.com/skills/applescript

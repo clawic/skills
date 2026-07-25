@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8890509286bee00ddc234a3a2d3e7f0be8cf3e98c2d176e9e6b0fed123312e7e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "chile",
-    "name": "Chile",
+    "name": "chile",
     "description": "Plan Chile trips with macro-region triage, verified entry rules, long-distance logistics, and practical safety for cities, desert, lakes, and Patagonia.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/chile",
-    "summary": "Setup If `~/chile/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Chile trip and needs more than generic sightseeing advice: which macro-region to choose, how to route hug",
+    "summary": "Setup If `~/Clawic/data/chile/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Chile trip and needs more than generic sightseeing advice: which macro-region to choose, how ",
     "repositoryPath": "skills/chile",
     "manifestPath": "registry/skills/chile.json"
   },
@@ -22,137 +25,191 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/chile/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/_meta.json",
+      "byteCount": 162,
+      "sha256": "2006e66d65be6958edc685283f47cf3ada0e93c565ca8f00261314a6fd02e76e"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/chile/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/accessibility.md",
+      "byteCount": 987,
+      "sha256": "426facd8918a0ef7473ac89e5c6c1d5a162c3ce1cecd1b2e0a12e7b6a0be3ff1"
     },
     {
       "path": "atacama.md",
       "downloadPath": "skills/chile/atacama.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/atacama.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/atacama.md",
+      "byteCount": 1372,
+      "sha256": "4d04973c58537339aecfd9b350f14448d815a91e85e4cb3eab1419eac9d84c3c"
     },
     {
       "path": "budget-and-payments.md",
       "downloadPath": "skills/chile/budget-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/budget-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/budget-and-payments.md",
+      "byteCount": 1591,
+      "sha256": "fa4a9d6cd10bfb2cda0c7658820892d48462e8b699d3ad84528746ef5bddcc3f"
     },
     {
       "path": "carretera-austral-and-aysen.md",
       "downloadPath": "skills/chile/carretera-austral-and-aysen.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/carretera-austral-and-aysen.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/carretera-austral-and-aysen.md",
+      "byteCount": 1005,
+      "sha256": "ea8b2af0feebcd2110d9fabcebf6c2e69189f236474fb3eee2d8f212cb656714"
     },
     {
       "path": "customs-and-biosecurity.md",
       "downloadPath": "skills/chile/customs-and-biosecurity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/customs-and-biosecurity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/customs-and-biosecurity.md",
+      "byteCount": 1811,
+      "sha256": "c85fd282a24c7b418826bf3b754692ab3380559dd07892915a7fdc10e24488c1"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/chile/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/entry-and-documents.md",
+      "byteCount": 2213,
+      "sha256": "0197ad30ea8cf50c76f326839f661fbb2d13532006778859a7090d171f0b76a0"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/chile/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/family-travel.md",
+      "byteCount": 966,
+      "sha256": "369cc1eeba77fe78708e66c512a9a3428693ec8836160d36934e4461050ed901"
     },
     {
       "path": "food-and-wine.md",
       "downloadPath": "skills/chile/food-and-wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/food-and-wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/food-and-wine.md",
+      "byteCount": 1241,
+      "sha256": "521989a01fc73a106bedcc19c786bbe2e3737cc1b7048b8ebec9115cfa37a548"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/chile/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/itineraries.md",
+      "byteCount": 1546,
+      "sha256": "9635c11f7010aee93180f218cb1ff567dd7679f9282c412978a09c5bfccf1f25"
     },
     {
       "path": "lake-district-and-chiloe.md",
       "downloadPath": "skills/chile/lake-district-and-chiloe.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/lake-district-and-chiloe.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/lake-district-and-chiloe.md",
+      "byteCount": 1246,
+      "sha256": "6e6bccb53e57a1e6ba2cd8f2b371de021c921d67fe67b6422751dd0446d45a21"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/chile/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/memory-template.md",
+      "byteCount": 1498,
+      "sha256": "97d25b38a7a2913713dae4cab45a854acf6dd166e378acdb86062022b860f337"
     },
     {
       "path": "national-parks.md",
       "downloadPath": "skills/chile/national-parks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/national-parks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/national-parks.md",
+      "byteCount": 1902,
+      "sha256": "935a71c6c1dd5775af45d0bac918c9b96d4daa8d7f19c2b02d88b41dc7f5608c"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/chile/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/nightlife.md",
+      "byteCount": 971,
+      "sha256": "a122b259df5b1863ae8fb15318b62552b6c95ef2653d3ce2ca4946a1adfa3f16"
     },
     {
       "path": "patagonia-and-torres-del-paine.md",
       "downloadPath": "skills/chile/patagonia-and-torres-del-paine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/patagonia-and-torres-del-paine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/patagonia-and-torres-del-paine.md",
+      "byteCount": 1434,
+      "sha256": "979d6afdc6019982366162ca8c1fa28f4f073f50936877b62e2158b988549df6"
     },
     {
       "path": "rapa-nui.md",
       "downloadPath": "skills/chile/rapa-nui.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/rapa-nui.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/rapa-nui.md",
+      "byteCount": 1159,
+      "sha256": "ea7fdac754994bcf587e1534e18f569c2b67d936a3dc7fa0fca10dc54d30c3c4"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/chile/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/regions.md",
+      "byteCount": 1879,
+      "sha256": "a533a50fb1e1a826a6e6659877e4644af2398103aa72625324738ac947e12848"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/chile/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/road-trips-and-driving.md",
+      "byteCount": 1880,
+      "sha256": "74e8d700ab186c45bffd09a55b740ffc11fb9a34ee99d3094442f574533dde50"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/chile/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/safety-and-emergencies.md",
+      "byteCount": 1451,
+      "sha256": "e319bc197779cd9ef3337368e7f9435da90c6ca331366ee92c2dbd40d420a353"
     },
     {
       "path": "santiago.md",
       "downloadPath": "skills/chile/santiago.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/santiago.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/santiago.md",
+      "byteCount": 1373,
+      "sha256": "f6128fba57424b4bee0c4dd0c8690325267ad2e4dbd758171482a2206dd8ccab"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/chile/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/setup.md",
+      "byteCount": 2264,
+      "sha256": "0240cb0567935889d49607951d7cc3446408d0f768596f6b56f714c9a6e976a9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chile/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/SKILL.md",
+      "byteCount": 5761,
+      "sha256": "b70f2ebbb72b6cc9d3fac3fbfc082aa63d3c1f546f17186d179bec5ec76cb925"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/chile/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/sources.md",
+      "byteCount": 3404,
+      "sha256": "c7e0ac5e7c49326b64e4772359c9e0e29b0ade62382382f0a632de759acdcbad"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/chile/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/telecoms-and-apps.md",
+      "byteCount": 1499,
+      "sha256": "13f081443dece5d0beb8683d646ed284b6d9aec0efd077c2a46ea345c34475b2"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/chile/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/transport-domestic.md",
+      "byteCount": 1925,
+      "sha256": "0d53c2449ee748d72e81ed9e8ea0209e46688fa9f6ec0e22822498239bf77c0f"
     },
     {
       "path": "valparaiso-and-vina.md",
       "downloadPath": "skills/chile/valparaiso-and-vina.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/valparaiso-and-vina.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/valparaiso-and-vina.md",
+      "byteCount": 1139,
+      "sha256": "ff0a5039ddce86df056fe524b3461208d69f2cb45c00eb235ea501d53568dd2c"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/chile/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chile/weather-and-seasonality.md",
+      "byteCount": 1689,
+      "sha256": "268624983699bf4dd4cbe2643a2d3e56477150dca6fe59001ab8592b19f8f78a"
     }
   ]
 }

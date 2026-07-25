@@ -1,6 +1,6 @@
 # Memory Template - Review Code
 
-Create `~/review-code/memory.md` with this structure:
+Create `~/Clawic/data/review-code/memory.md` with this structure:
 
 ```markdown
 # Review Code Memory
@@ -50,7 +50,7 @@ non_goals:
 
 ## Optional File Templates
 
-Create `~/review-code/findings/YYYY-MM-DD.md`:
+Create `~/Clawic/data/review-code/findings/YYYY-MM-DD.md`:
 
 ```markdown
 # Findings - YYYY-MM-DD

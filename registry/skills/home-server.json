@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3502383133e256b8509a83467c3549229e3d4829bd4206bdfdf8faba49a33fad",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "home-server",
-    "name": "Home Server",
+    "name": "home-server",
     "description": "Plan, secure, and maintain a home server with Docker services, remote access, backups, and incident recovery.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/home-server",
-    "summary": "Setup On first use, read `setup.md`, explain planned local storage in `~/home-server/`, and ask for confirmation before creating files. When to Use User needs help designing, deploying, or operating a home server environ",
+    "summary": "Setup On first use, read `setup.md`, explain planned local storage in `~/Clawic/data/home-server/`, and ask for confirmation before creating files. When to Use User needs help designing, deploying, or operating a home se",
     "repositoryPath": "skills/home-server",
     "manifestPath": "registry/skills/home-server.json"
   },
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/home-server/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/_meta.json",
+      "byteCount": 174,
+      "sha256": "655f5b4c0f602f02d4b6a9baa701da670b265d498010657da0d59f2e48a62446"
     },
     {
       "path": "incident-playbook.md",
       "downloadPath": "skills/home-server/incident-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/incident-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/incident-playbook.md",
+      "byteCount": 1160,
+      "sha256": "e18503dc4c60895d4f6d27fd9e8fe8169feb509176440ea2bd2d9c3fbbe16c48"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/home-server/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/memory-template.md",
+      "byteCount": 1314,
+      "sha256": "08311051df9f0cda07fe389a07b0f52b73ca834ca0bd17da85ee8df2a4afd9cb"
     },
     {
       "path": "operations-checklists.md",
       "downloadPath": "skills/home-server/operations-checklists.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/operations-checklists.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/operations-checklists.md",
+      "byteCount": 1089,
+      "sha256": "c902e503ce0c3d58958338f562aeea89a5447c8730e4f1fb6f586e193d8909f5"
     },
     {
       "path": "service-catalog.md",
       "downloadPath": "skills/home-server/service-catalog.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/service-catalog.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/service-catalog.md",
+      "byteCount": 1005,
+      "sha256": "5681d5304c0378d89f42a036b893dff6f76d8b70e3455c679e298b305ec18358"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/home-server/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/setup.md",
+      "byteCount": 1797,
+      "sha256": "97dfd694b43b0a7bbb9c0d71b58edca03196e6ffbedc5c37c9860f7fa8068516"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/home-server/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/home-server/SKILL.md",
+      "byteCount": 4283,
+      "sha256": "f24c568d8120413d04cddc31912643b521127b0cef4834af0eef998f11696569"
     }
   ]
 }

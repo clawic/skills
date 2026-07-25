@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ec0d6aa8f609c941f49ab2892d802920d9b0f1b692693cd7e2cde880a6824b65",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "laravel",
-    "name": "Laravel",
+    "name": "laravel",
     "description": "Build robust Laravel apps avoiding Eloquent traps, queue failures, and auth pitfalls.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/laravel",
     "summary": "Quick Reference | Topic | File | |-------|------| | N+1 queries, eager loading, accessors, observers | `eloquent.md` | | Validation, middleware order, dependency injection | `controllers.md` | | Job serialization, retrie",
     "repositoryPath": "skills/laravel",
     "manifestPath": "registry/skills/laravel.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/laravel/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/_meta.json",
+      "byteCount": 242,
+      "sha256": "bc16a711e2bf9fe1fb1190cb22f88612f7199e4b57a2ac471e1b736a1ca97320"
     },
     {
       "path": "artisan.md",
       "downloadPath": "skills/laravel/artisan.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/artisan.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/artisan.md",
+      "byteCount": 555,
+      "sha256": "fe69272f33fa95efbb2c7c42f7b5a34bcff0b9b80ba50a3fbc1a88d511c092fb"
     },
     {
       "path": "auth.md",
       "downloadPath": "skills/laravel/auth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/auth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/auth.md",
+      "byteCount": 567,
+      "sha256": "3f69a687ee754f3dd8f842d73918107124a3d358cdb74a3c7ef5ef6614e07d4a"
     },
     {
       "path": "blade.md",
       "downloadPath": "skills/laravel/blade.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/blade.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/blade.md",
+      "byteCount": 584,
+      "sha256": "fc25ddc2222318766ec247b0f8f77c9341ed2ceb543c9912e4cbc154e23909a9"
     },
     {
       "path": "controllers.md",
       "downloadPath": "skills/laravel/controllers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/controllers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/controllers.md",
+      "byteCount": 665,
+      "sha256": "4f26ab2f0962bf6f9cf1dfc4d34c34d1ff8cd3994407a482a328d6e42b830250"
     },
     {
       "path": "eloquent.md",
       "downloadPath": "skills/laravel/eloquent.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/eloquent.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/eloquent.md",
+      "byteCount": 776,
+      "sha256": "fb312e300bab6e659f19c9f748e4fb40157028c89e29538e4b372e5eedde2eea"
     },
     {
       "path": "queues.md",
       "downloadPath": "skills/laravel/queues.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/queues.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/queues.md",
+      "byteCount": 585,
+      "sha256": "259717ebd7f6c7b2bc8a72074e18d482a1ddb83219bca50e8eb7c4bb3a02f6e2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/laravel/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/laravel/SKILL.md",
+      "byteCount": 1868,
+      "sha256": "417205fd42139101e97bd48f23037e94d100af6363b30cb369007584ceec82c0"
     }
   ]
 }

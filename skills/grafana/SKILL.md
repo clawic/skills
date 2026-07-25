@@ -1,7 +1,17 @@
 ---
-name: Grafana
+name: grafana
+slug: grafana
+version: 1.0.0
 description: Avoid common Grafana mistakes — query pitfalls, variable templating, alerting traps, and provisioning gotchas.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/grafana
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Grafana
 ---
 
 ## Variables and Templating

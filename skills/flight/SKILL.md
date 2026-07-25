@@ -1,10 +1,20 @@
 ---
-name: Flight
+name: flight
 slug: flight
 version: 1.0.1
 description: Search, compare, book, and manage flights with price tracking, multi-platform comparison, and loyalty optimization.
-changelog: "Preferences now persist across skill updates"
-metadata: {"clawdbot":{"emoji":"✈️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/flight
+changelog: Preferences now persist across skill updates
+metadata:
+  clawdbot:
+    emoji: ✈️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Flight
 ---
 
 ## Quick Reference
@@ -19,7 +29,7 @@ metadata: {"clawdbot":{"emoji":"✈️","requires":{"bins":[]},"os":["linux","da
 
 ## User Profile
 
-Preferences persist in `~/flight/memory.md`. Create on first use.
+Preferences persist in `~/Clawic/data/flight/memory.md`. Create on first use.
 
 ```markdown
 ## Home Airports

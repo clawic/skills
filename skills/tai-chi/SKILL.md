@@ -1,11 +1,20 @@
 ---
-name: Tai Chi (Practice Planner, Form Coach, Balance Tracker)
+name: tai-chi
 slug: tai-chi
 version: 1.0.0
-homepage: https://clawic.com/skills/tai-chi
 description: Build tai chi practice plans, improve form, and track balance-focused sessions with safe progressions, concise coaching cues, and weekly reviews.
+homepage: https://clawic.com/skills/tai-chi
 changelog: Initial release with practice planning, form correction workflows, safety-first modifications, and weekly progression reviews.
-metadata: {"clawdbot":{"emoji":"T","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: T
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Tai Chi (Practice Planner, Form Coach, Balance Tracker)
 ---
 
 ## Setup
@@ -19,10 +28,10 @@ Agent helps choose the right mode, build short practice blocks, track what was a
 
 ## Architecture
 
-Memory lives in `~/tai-chi/`. See `memory-template.md` for structure and starter templates.
+Memory lives in `~/Clawic/data/tai-chi/`. See `memory-template.md` for structure and starter templates.
 
 ```text
-~/tai-chi/
+~/Clawic/data/tai-chi/
 |-- memory.md                    # Status, current focus, constraints, and practice cadence
 |-- sessions/log.md              # Session-by-session log with duration, mode, and notes
 |-- plans/current-plan.md        # Active weekly plan and next session target
@@ -48,7 +57,7 @@ Use these files as operating modules: pick the one that matches the current coac
 
 ## Data Storage
 
-Local notes stay in `~/tai-chi/`.
+Local notes stay in `~/Clawic/data/tai-chi/`.
 Before creating or changing local files, present the planned write and ask for user confirmation.
 
 ## Core Rules
@@ -128,7 +137,7 @@ No other data is sent externally.
 
 **Data stored locally:**
 - session logs, practice plans, form checkpoints, and safety notes approved by the user.
-- stored in `~/tai-chi/`.
+- stored in `~/Clawic/data/tai-chi/`.
 
 **This skill does NOT:**
 - make undeclared network calls.
@@ -143,7 +152,7 @@ This is an instruction-only tai chi practice and tracking skill.
 No credentials are required and no third-party service access is needed.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `health` - broader health context and safety-aware habit framing.
 - `fitness` - general movement planning and training consistency support.
 - `yoga` - posture, breath, and gentle movement language for adjacent practice.
@@ -152,5 +161,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star tai-chi`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/tai-chi
+- Latest version: https://clawic.com/skills/tai-chi

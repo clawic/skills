@@ -1,6 +1,6 @@
 # Memory Template - MinIO Operations
 
-Create `~/minio/memory.md` with this structure:
+Create `~/Clawic/data/minio/memory.md` with this structure:
 
 ```markdown
 # MinIO Operations Memory

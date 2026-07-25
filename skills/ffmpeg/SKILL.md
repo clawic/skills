@@ -1,7 +1,20 @@
 ---
-name: FFmpeg
+name: ffmpeg
+slug: ffmpeg
+version: 1.0.0
 description: Process video and audio with correct codec selection, filtering, and encoding settings.
-metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":["ffmpeg"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ffmpeg
+metadata:
+  clawdbot:
+    emoji: 🎬
+    requires:
+      bins:
+      - ffmpeg
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: FFmpeg
 ---
 
 ## Input Seeking (Major Difference)

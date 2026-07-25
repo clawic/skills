@@ -1,10 +1,19 @@
 ---
-name: Product Launch
+name: product-launch
 slug: product-launch
 version: 1.0.0
-homepage: https://clawic.com/skills/product-launch
 description: Orchestrates the announcement, assets, channels, and timing for shipping a product, covering the arc from teaser to launch day to post-launch momentum.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/product-launch
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Product Launch
 ---
 
 ## The arc, not the day
@@ -110,7 +119,7 @@ The finite inventory. Missing any one of these creates a Day 1 fire.
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `go-to-market` - the broader GTM strategy this launch is one beat of
 - `copywriting` - the landing page, email, and social copy the launch runs on
 - `email-marketing` - the waitlist, launch day, and follow-up sequence mechanics

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "de7f94f53659932ba4f5196382296fbf136439872822ce81e439286c9fa11dc3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "bookmarks",
-    "name": "Bookmarks",
+    "name": "bookmarks",
     "description": "Build a unified bookmark system that imports saves from all your platforms into one organized, actionable collection.",
-    "summary": "Core Behavior - Import saves silently from connected platforms - Auto-tag and organize without user effort - Only surface when useful or asked - Create `~/bookmarks/` as workspace Philosophy User saves things and forgets",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bookmarks",
+    "summary": "Core Behavior - Import saves silently from connected platforms - Auto-tag and organize without user effort - Only surface when useful or asked - Create `~/Clawic/data/bookmarks/` as workspace Philosophy User saves things",
     "repositoryPath": "skills/bookmarks",
     "manifestPath": "registry/skills/bookmarks.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bookmarks/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bookmarks/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bookmarks/_meta.json",
+      "byteCount": 170,
+      "sha256": "07b150c1b86a8d166638868bb6bdfc5d8d2bdf17f6395b4a8851b6be10dfc654"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bookmarks/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bookmarks/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bookmarks/SKILL.md",
+      "byteCount": 3255,
+      "sha256": "e35f2cf332639562bae8c8c10bbc6b5b391fc8c33af9c7bce476560f4be451a2"
     }
   ]
 }

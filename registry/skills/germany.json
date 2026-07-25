@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3bfd9096bf671c00116987c54dde7db68adbc33eb06576a02d74f3667188d1ec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "germany",
-    "name": "Germany",
+    "name": "germany",
     "description": "Plan Germany trips with region-specific routing, rail-vs-car strategy, verified entry rules, and practical travel logistics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/germany",
-    "summary": "Setup If `~/germany/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Germany trip and needs practical guidance beyond generic inspiration: Schengen entry checks, rail versu",
+    "summary": "Setup If `~/Clawic/data/germany/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Germany trip and needs practical guidance beyond generic inspiration: Schengen entry checks",
     "repositoryPath": "skills/germany",
     "manifestPath": "registry/skills/germany.json"
   },
@@ -22,157 +25,219 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/germany/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/_meta.json",
+      "byteCount": 166,
+      "sha256": "86c955d0cb651b04e7ad3b1feea41a33620bc0e702d4dafb3cbd582b56987773"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/germany/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/accessibility.md",
+      "byteCount": 901,
+      "sha256": "a1ec99a9c9160b38f5d6f409854a43c716ff999efdb863f88bf9a7bc3743f1ab"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/germany/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/accommodation.md",
+      "byteCount": 1480,
+      "sha256": "f2f4b406581686ae65b138275a767ab67cd5c1e1874694a81e4c2e5f06bf58dc"
     },
     {
       "path": "beer-and-wine-regions.md",
       "downloadPath": "skills/germany/beer-and-wine-regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/beer-and-wine-regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/beer-and-wine-regions.md",
+      "byteCount": 1108,
+      "sha256": "984fb65ab5feb6d604eac761890e1ef7a38c9cf7cd60e0a8ebea275a7dda6535"
     },
     {
       "path": "berlin.md",
       "downloadPath": "skills/germany/berlin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/berlin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/berlin.md",
+      "byteCount": 733,
+      "sha256": "b4f43d01b3061b3ef365ce3c4b4da4e89813bef4c1a28e875b695d633a598eb7"
     },
     {
       "path": "black-forest-and-southwest.md",
       "downloadPath": "skills/germany/black-forest-and-southwest.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/black-forest-and-southwest.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/black-forest-and-southwest.md",
+      "byteCount": 877,
+      "sha256": "8d8449e379197bebcf12992566d124634a89bada73c99597566a959200bc85ec"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/germany/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/budget-and-costs.md",
+      "byteCount": 1416,
+      "sha256": "d3ae6657e3a3adb977fe7751975274393af9d91e83ac42bb8482d97b8d86b90a"
     },
     {
       "path": "christmas-markets-and-festivals.md",
       "downloadPath": "skills/germany/christmas-markets-and-festivals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/christmas-markets-and-festivals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/christmas-markets-and-festivals.md",
+      "byteCount": 1266,
+      "sha256": "420a8fb2fbcfaac3e3f90c4fd4ca0835ce4dd5caf212e7701e5315cf3d85a14a"
     },
     {
       "path": "culture-and-etiquette.md",
       "downloadPath": "skills/germany/culture-and-etiquette.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/culture-and-etiquette.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/culture-and-etiquette.md",
+      "byteCount": 1110,
+      "sha256": "f68ec5a2db1bf93e42786aadf37fee1c3919543cd99c14f865403e9377e5b0f5"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/germany/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/customs-and-border.md",
+      "byteCount": 1412,
+      "sha256": "9fa062590bf5ec5ce6931c419cc475e74e6050d69410146c6cf49ec776705c32"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/germany/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/entry-and-documents.md",
+      "byteCount": 1863,
+      "sha256": "aad43e40202884c7d9be314331c07880f6e6bac5fd342ef5cc5dee00b408290f"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/germany/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/family-travel.md",
+      "byteCount": 1044,
+      "sha256": "f0cce8c78c2783d3ed644ec5fb3b42dd312e794d061b5e335169dafa2ae81f06"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/germany/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/food-guide.md",
+      "byteCount": 1195,
+      "sha256": "7ffa813ad9a9da1139053736f37977d0829fe66197738b3c3f5f8a7271cfe2c7"
     },
     {
       "path": "franconia-and-romantic-road.md",
       "downloadPath": "skills/germany/franconia-and-romantic-road.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/franconia-and-romantic-road.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/franconia-and-romantic-road.md",
+      "byteCount": 767,
+      "sha256": "4e12036a83590959678e3c04fba046715559f38390b21be630ac8b6c20e41806"
     },
     {
       "path": "hamburg-and-north.md",
       "downloadPath": "skills/germany/hamburg-and-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/hamburg-and-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/hamburg-and-north.md",
+      "byteCount": 899,
+      "sha256": "9cc41792ec1b60984fe37769d59825bb453a3eb3408fabfa6a48ff021beeef70"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/germany/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/itineraries.md",
+      "byteCount": 1374,
+      "sha256": "ca071878edf97682e55c84e127d6fc2ca6c5e438170487177ecbcfb947cebf66"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/germany/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/memory-template.md",
+      "byteCount": 1742,
+      "sha256": "c92f587413791880f7f8c8a440c016754d4938e715c419364bca40fd1fdcac56"
     },
     {
       "path": "munich-and-upper-bavaria.md",
       "downloadPath": "skills/germany/munich-and-upper-bavaria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/munich-and-upper-bavaria.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/munich-and-upper-bavaria.md",
+      "byteCount": 866,
+      "sha256": "869f851cd109eb319e10911632685609d0f95f3070efa9f04bed9e072993cc20"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/germany/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/nightlife.md",
+      "byteCount": 858,
+      "sha256": "c3d30b3035b98bcb3c66d7ab6062d293da67a828df3cae88c911db9efbef3366"
     },
     {
       "path": "payments-and-tipping.md",
       "downloadPath": "skills/germany/payments-and-tipping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/payments-and-tipping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/payments-and-tipping.md",
+      "byteCount": 1162,
+      "sha256": "58a7b4099f304ce708a00cfb1d6536457f0b00244ba6710d20027c9e2d45e1fd"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/germany/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/regions.md",
+      "byteCount": 2014,
+      "sha256": "511a082af0cb15304fd13ec2d9a844844b14e4d3f1d3241dcb8df392ce317d79"
     },
     {
       "path": "rhine-moselle-and-west.md",
       "downloadPath": "skills/germany/rhine-moselle-and-west.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/rhine-moselle-and-west.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/rhine-moselle-and-west.md",
+      "byteCount": 816,
+      "sha256": "277d4398dbb511aec86f3c366d5d94e7261b83bcc1ad9d7c3b28c5b4b554617f"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/germany/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/road-trips-and-driving.md",
+      "byteCount": 1295,
+      "sha256": "f237083332eef58bcf172604e80fc6664e9452ec481dd940758a952843f62a11"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/germany/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/safety-and-emergencies.md",
+      "byteCount": 1282,
+      "sha256": "01251ec3f60a6fe5767737fe2400f6efae21ceac3fb5f73d2a6c7f000133551e"
     },
     {
       "path": "saxony-and-east.md",
       "downloadPath": "skills/germany/saxony-and-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/saxony-and-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/saxony-and-east.md",
+      "byteCount": 776,
+      "sha256": "da89e4ac14f64c2d8795be9a19826fdf097b4f7346b993f37ca45b9d6bccc101"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/germany/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/setup.md",
+      "byteCount": 2505,
+      "sha256": "13ffebe159107e050ba514aafdc62354adc728ac336158f1dd0377436d487d9f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/germany/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/SKILL.md",
+      "byteCount": 6201,
+      "sha256": "0dd7032abc876d80a53704a897a7cfa40408cf7b5492e4e779eb4687ce68f0c9"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/germany/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/sources.md",
+      "byteCount": 2263,
+      "sha256": "a6fcac775f7838c0bce874c602df6d5788db76143c73a182456eae6a2ee94648"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/germany/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/telecoms-and-apps.md",
+      "byteCount": 991,
+      "sha256": "63f1644dbb5b837ae2bd18cf07b30636e0e5cd06bb967a1fff34ae26f6069f70"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/germany/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/transport-domestic.md",
+      "byteCount": 1589,
+      "sha256": "7c9f32784bda7e5b5afc582ea29bfff22d034b6465fde99c9cc7ca0676b4de5d"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/germany/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/germany/weather-and-seasonality.md",
+      "byteCount": 1216,
+      "sha256": "3bc94c81fe2af18971d03d234e8cd7f20c7dfe3e1f4d56f427de7e7d53d45881"
     }
   ]
 }

@@ -1,10 +1,20 @@
 ---
-name: Puppeteer
+name: puppeteer
 slug: puppeteer
 version: 1.0.0
-homepage: https://clawic.com/skills/puppeteer
 description: Automate Chrome and Chromium with Puppeteer for scraping, testing, screenshots, and browser workflows.
-metadata: {"clawdbot":{"emoji":"🎭","requires":{"bins":["node"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/puppeteer
+metadata:
+  clawdbot:
+    emoji: 🎭
+    requires:
+      bins:
+      - node
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Puppeteer
 ---
 
 ## Setup
@@ -17,10 +27,10 @@ User needs browser automation: web scraping, E2E testing, PDF generation, screen
 
 ## Architecture
 
-Scripts and outputs in `~/puppeteer/`. See `memory-template.md` for structure.
+Scripts and outputs in `~/Clawic/data/puppeteer/`. See `memory-template.md` for structure.
 
 ```
-~/puppeteer/
+~/Clawic/data/puppeteer/
 ├── memory.md       # Status + preferences
 ├── scripts/        # Reusable automation scripts
 └── output/         # Screenshots, PDFs, scraped data
@@ -112,21 +122,21 @@ Hammering sites triggers CAPTCHAs and IP bans.
 ## Security & Privacy
 
 **Data that stays local:**
-- All scraped data in ~/puppeteer/output/
+- All scraped data in ~/Clawic/data/puppeteer/output/
 - Browser profile in specified userDataDir
 
 **This skill does NOT:**
 - Send scraped data anywhere
 - Store credentials (you provide them per-script)
-- Access files outside ~/puppeteer/
+- Access files outside ~/Clawic/data/puppeteer/
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `playwright` — Cross-browser automation alternative
 - `chrome` — Chrome DevTools and debugging
 - `web` — General web development
 
 ## Feedback
 
-- If useful: `clawhub star puppeteer`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/puppeteer
+- Latest version: https://clawic.com/skills/puppeteer

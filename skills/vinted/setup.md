@@ -1,6 +1,6 @@
 # Setup - Vinted
 
-Use this file when `~/vinted/` is missing or empty.
+Use this file when `~/Clawic/data/vinted/` is missing or empty.
 
 ## Your Attitude
 
@@ -44,7 +44,7 @@ Save durable context, not raw chat transcripts:
 - shipping preferences and recurring issue patterns
 - fraud signals, dispute history, and any business-mode standards
 
-Store data only in `~/vinted/` after user consent.
+Store data only in `~/Clawic/data/vinted/` after user consent.
 
 ## Golden Rule
 

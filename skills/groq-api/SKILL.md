@@ -1,11 +1,24 @@
 ---
-name: Groq API Inference
+name: groq-api
 slug: groq-api
 version: 1.0.0
-homepage: https://clawic.com/skills/groq-api
 description: Build and debug Groq API chat and speech workflows with low-latency routing, structured outputs, and production-safe patterns.
+homepage: https://clawic.com/skills/groq-api
 changelog: Initial release with Groq API workflows, model routing guidance, and troubleshooting playbooks for chat and speech.
-metadata: {"clawdbot":{"emoji":"⚡","requires":{"bins":["curl","jq"],"env":["GROQ_API_KEY"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: ⚡
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - GROQ_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Groq API Inference
 ---
 
 ## Setup
@@ -18,10 +31,10 @@ User needs to build, integrate, or troubleshoot Groq API inference for chat, too
 
 ## Architecture
 
-Memory lives in `~/groq-api/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/groq-api/`. See `memory-template.md` for structure.
 
 ```
-~/groq-api/
+~/Clawic/data/groq-api/
 ├── memory.md           # Status, activation preference, and defaults
 ├── requests/           # Reusable payload snippets
 ├── logs/               # Optional debug snapshots
@@ -100,12 +113,12 @@ No other data is sent externally.
 - Audio content sent to Groq transcription endpoint when requested
 
 **Data that stays local:**
-- Workflow preferences in `~/groq-api/memory.md`
-- Optional local debug notes in `~/groq-api/logs/`
+- Workflow preferences in `~/Clawic/data/groq-api/memory.md`
+- Optional local debug notes in `~/Clawic/data/groq-api/logs/`
 
 **This skill does NOT:**
 - Store `GROQ_API_KEY` in project files
-- Access files outside `~/groq-api/` for persistence
+- Access files outside `~/Clawic/data/groq-api/` for persistence
 - Call undeclared third-party endpoints
 - Modify itself or other skills
 
@@ -115,7 +128,7 @@ By using this skill, prompts and optional audio content are sent to Groq.
 Only install if you trust Groq with that data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — reusable REST patterns, auth, and error handling
 - `models` — model comparison and selection heuristics
 - `ai` — current AI landscape checks before implementation decisions
@@ -124,5 +137,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star groq-api`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/groq-api
+- Latest version: https://clawic.com/skills/groq-api

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "17cba23e2955198ff9029123ed4c8e11c2f3653b7c5b2c99586168fa815d22d0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "expedia",
-    "name": "Expedia",
+    "name": "expedia",
     "description": "Search Expedia stays, packages, cars, and activities, compare real trip costs, and run partner-safe booking workflows with web and API modes.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/expedia",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/expedia/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/_meta.json",
+      "byteCount": 166,
+      "sha256": "69361e645a2c27a70453b2479fdd0b57b77949a6fa3e473f35f8f4a1ef0aa4cc"
     },
     {
       "path": "access-boundaries.md",
       "downloadPath": "skills/expedia/access-boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/access-boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/access-boundaries.md",
+      "byteCount": 1085,
+      "sha256": "f9b51f71b13564645d6ddd61cdd8476dd7021a02cf9822835c0c52fb891661d5"
     },
     {
       "path": "booking-gates.md",
       "downloadPath": "skills/expedia/booking-gates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/booking-gates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/booking-gates.md",
+      "byteCount": 1322,
+      "sha256": "115ed45fa1fe589870096db558d1f10f90016caddf8ef2641f33ea839d30e721"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/expedia/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/memory-template.md",
+      "byteCount": 1508,
+      "sha256": "a202e0093e7c37f6f44a4cfb72b4147baf4e08269f687adf690c3897b180a945"
     },
     {
       "path": "rapid-lodging.md",
       "downloadPath": "skills/expedia/rapid-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/rapid-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/rapid-lodging.md",
+      "byteCount": 2009,
+      "sha256": "4189ea0ed1fb0491c574045eac5cb094d9eeb8f47f4fa9eee7285dc4c8d1a0f1"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/expedia/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/setup.md",
+      "byteCount": 1962,
+      "sha256": "fd1b8e297b6fc0fe83c705b4b280041379eb2e1ac35e9082439356a6b5777400"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/expedia/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/SKILL.md",
+      "byteCount": 9228,
+      "sha256": "5d0ca53a002d983ff2f0555e678cf3cfdfc35f71dc8b5fe60ba71a5ae9e8ead7"
     },
     {
       "path": "total-cost.md",
       "downloadPath": "skills/expedia/total-cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/total-cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/total-cost.md",
+      "byteCount": 1319,
+      "sha256": "8ca2a3d3beaa1f46088cdd0d1c002b84e23b3b695509cd395a57912f9b05c98f"
     },
     {
       "path": "travel-redirect.md",
       "downloadPath": "skills/expedia/travel-redirect.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/travel-redirect.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/travel-redirect.md",
+      "byteCount": 1903,
+      "sha256": "2962d6430e036e850f93b50dd0666f50d9e4bf76f82c137efd0217fa290aa6f4"
     },
     {
       "path": "web-navigation.md",
       "downloadPath": "skills/expedia/web-navigation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/web-navigation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expedia/web-navigation.md",
+      "byteCount": 1461,
+      "sha256": "296564c8b86d632bc4a5a941ab58b60ef7b65d2be623389db0520d4bcb9b01cc"
     }
   ]
 }

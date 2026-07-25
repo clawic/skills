@@ -1,8 +1,13 @@
 ---
-name: 高考 (Gaokao)
+name: gaokao
 slug: gaokao
 version: 1.0.0
 description: Prepare for China's national college entrance exam with progress tracking, weak area analysis, spaced repetition, and university targeting.
+homepage: https://clawic.com/skills/gaokao
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: 高考 (Gaokao)
 ---
 
 ## When to Use
@@ -22,9 +27,9 @@ User is preparing for 高考 (Gaokao), China's national college entrance exam. A
 
 ## Data Storage
 
-User data lives in `~/gaokao/`:
+User data lives in `~/Clawic/data/gaokao/`:
 ```
-~/gaokao/
+~/Clawic/data/gaokao/
 ├── profile.md       # Goals, target score, exam date, province
 ├── subjects/        # Per-subject progress and weak areas
 ├── sessions/        # Study session logs
@@ -55,7 +60,7 @@ Before study planning, gather:
 ## Critical Rules
 
 - **ROI-first** — Prioritize topics with highest points-per-hour potential
-- **Track everything** — Log sessions, scores, errors to `~/gaokao/`
+- **Track everything** — Log sessions, scores, errors to `~/Clawic/data/gaokao/`
 - **Adapt to user type** — Students need scheduling; parents need monitoring; tutors need multi-student
 - **Spaced repetition** — Don't cram; distribute review over time
 - **Wellbeing matters** — Monitor for burnout; suggest breaks

@@ -1,3 +1,14 @@
+---
+name: notify
+slug: notify
+version: 1.0.1
+description: Delivers agent notifications with channel selection, timing, batching, and fatigue control. Use when sending notifications or alerts to users from an agent.
+homepage: https://clawic.com/skills/notify
+metadata:
+  clawdbot:
+    emoji: 🔔
+    displayName: Notify
+---
 # Notify - Smart Notification Delivery
 
 ## When to Use This Skill

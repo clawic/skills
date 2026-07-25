@@ -1,7 +1,13 @@
 ---
-name: "SSL"
-version: "1.0.2"
-description: "Set up HTTPS, manage TLS certificates, and debug secure connection issues."
+name: ssl
+slug: ssl
+version: 1.0.2
+description: Set up HTTPS, manage TLS certificates, and debug secure connection issues.
+homepage: https://clawic.com/skills/ssl
+metadata:
+  clawdbot:
+    emoji: 🔒
+    displayName: SSL
 ---
 
 ## Triggers

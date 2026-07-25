@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4365277493ad5e8f875a8d889f1e2c9e16707bb8991719599af740dbcb7f740c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "spaced-repetition",
-    "name": "Spaced Repetition",
+    "name": "spaced-repetition",
     "description": "Scheduling review of material at expanding intervals to optimize long-term retention.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/spaced-repetition",
-    "summary": "Retrieval, not re-exposure, is the active ingredient; spaced rereading barely beats massed. First review within 24h where decay is steepest; expanding intervals beat equal. FSRS optimizes to a target retention and beats SM-2 after ~1k reviews; 0.9 default, 0.97 costs ~2x reviews. One atomic fact per card; leeches at 8 lapses mean rewrite or suspend. 10-20 new/day sustainable; daily beats binge.",
+    "summary": "Mechanism: retrieval is the active ingredient Spacing is the schedule; retrieval is the drug. Spacing rereading barely beats massed rereading; the retention gain lives in forcing recall, then checking. - Active recall fi",
     "repositoryPath": "skills/spaced-repetition",
     "manifestPath": "registry/skills/spaced-repetition.json"
   },
@@ -22,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/spaced-repetition/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/_meta.json",
+      "byteCount": 186,
+      "sha256": "1bf2cda8dbfc2fb4382c97c88179172ea92370478421b25382fe9b143e207ad7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/spaced-repetition/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spaced-repetition/SKILL.md",
+      "byteCount": 15119,
+      "sha256": "119382daf7a3da54b29a46256dbf6f2b50fd1f23be2ff0deb24dd957ccd38c50"
     }
   ]
 }

@@ -1,16 +1,27 @@
 ---
-name: Digital Marketing
+name: digital-marketing
 slug: digital-marketing
 version: 1.0.0
-homepage: https://clawic.com/skills/digital-marketing
 description: Plan, launch, and optimize digital marketing with growth marketing systems, short-form video, funnel operations, and revenue-focused experimentation.
-changelog: "Initial release with cross-channel growth strategy, short-form video, funnel operations, and measurement rules."
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/digital-marketing/"]}}
+homepage: https://clawic.com/skills/digital-marketing
+changelog: Initial release with cross-channel growth strategy, short-form video, funnel operations, and measurement rules.
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/digital-marketing/
+    displayName: Digital Marketing
 ---
 
 ## Setup
 
-On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/digital-marketing/` if the user wants ongoing continuity.
+On first use, read `setup.md` for integration guidelines. This skill works without local storage. Only create `~/Clawic/data/digital-marketing/` if the user wants ongoing continuity.
 
 ## When to Use
 
@@ -25,7 +36,7 @@ This skill is especially strong when the user needs launch planning, trend respo
 Local workspace is optional and only created with user consent.
 
 ```
-~/digital-marketing/
+~/Clawic/data/digital-marketing/
 ├── memory.md        # Business context, winning angles, active constraints
 ├── campaigns.md     # Current campaign plans and channel bundles
 ├── experiments.md   # Tests, thresholds, outcomes, next steps
@@ -111,7 +122,7 @@ Local workspace is optional and only created with user consent.
 ## Security & Privacy
 
 **Data that stays local when the user opts in:**
-- Business context, channel priorities, and winning angles in `~/digital-marketing/`
+- Business context, channel priorities, and winning angles in `~/Clawic/data/digital-marketing/`
 - Campaign plans, experiment logs, and review notes in local markdown files
 
 **This skill does NOT:**
@@ -125,7 +136,7 @@ Local workspace is optional and only created with user consent.
 - Flag unsupported claims, sensitive categories, and compliance-heavy copy for review
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `content-marketing` — Editorial planning and repurposing systems
 - `seo` — Search intent, technical fixes, and ranking workflows
 - `growth-hacker` — Experiments, loops, and unconventional acquisition tactics
@@ -134,5 +145,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star digital-marketing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/digital-marketing
+- Latest version: https://clawic.com/skills/digital-marketing

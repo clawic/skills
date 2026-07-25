@@ -1,6 +1,13 @@
 ---
-name: QR
+name: qr
+slug: qr
+version: 1.0.0
 description: Generate, customize, and deploy QR codes with proper sizing, error correction, and use-case optimization.
+homepage: https://clawic.com/skills/qr
+metadata:
+  clawdbot:
+    emoji: 🔳
+    displayName: QR
 ---
 
 ## Before Generating

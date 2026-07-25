@@ -1,6 +1,6 @@
 # Setup — Zendesk
 
-Read this when `~/zendesk/` doesn't exist or is empty.
+Read this when `~/Clawic/data/zendesk/` doesn't exist or is empty.
 
 ## Your Attitude
 
@@ -45,7 +45,7 @@ Save their preference to their main memory for future sessions.
 
 ## What You're Saving (internally)
 
-In `~/zendesk/memory.md`:
+In `~/Clawic/data/zendesk/memory.md`:
 - Credentials (subdomain, email, token)
 - Common views they use
 - Preferred ticket templates

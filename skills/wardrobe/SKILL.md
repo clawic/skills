@@ -1,14 +1,24 @@
 ---
-name: Wardrobe
+name: wardrobe
+slug: wardrobe
+version: 1.0.0
 description: Build a personal wardrobe system for cataloging clothes, planning outfits, and mindful shopping.
-metadata: {"clawdbot":{"emoji":"👔","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/wardrobe
+metadata:
+  clawdbot:
+    emoji: 👔
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Wardrobe
 ---
 
 ## Core Behavior
 - User mentions clothing → offer to catalog
 - Help plan outfits → based on what they own
 - Support mindful shopping → do you really need it?
-- Create `~/wardrobe/` as workspace
+- Create `~/Clawic/data/wardrobe/` as workspace
 
 ## Use Cases
 - Know what you own: avoid buying duplicates
@@ -30,7 +40,7 @@ metadata: {"clawdbot":{"emoji":"👔","os":["linux","darwin","win32"]}}
 
 ## File Structure
 ```
-~/wardrobe/
+~/Clawic/data/wardrobe/
 ├── tops/
 ├── bottoms/
 ├── outerwear/

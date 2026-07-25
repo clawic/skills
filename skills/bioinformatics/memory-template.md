@@ -1,6 +1,6 @@
 # Memory Template — Bioinformatics
 
-Create `~/bioinformatics/memory.md` with this structure:
+Create `~/Clawic/data/bioinformatics/memory.md` with this structure:
 
 ```markdown
 # Bioinformatics Memory

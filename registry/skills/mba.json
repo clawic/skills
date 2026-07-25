@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a7b3646f9cad5284eb04e92e11ff7f6edfe9c2ce82785161f35a4558a546ab18",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "mba",
-    "name": "MBA",
+    "name": "mba",
     "description": "Complete MBA curriculum with structured learning, case studies, financial analysis, and practical business decision-making.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/mba",
     "summary": "When to Use User wants business education equivalent to an MBA: understanding finance, strategy, marketing, operations, leadership, or making better business decisions. Works for entrepreneurs, corporate professionals, c",
     "repositoryPath": "skills/mba",
     "manifestPath": "registry/skills/mba.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/mba/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/_meta.json",
+      "byteCount": 158,
+      "sha256": "d6da713857d87432e3ee6a1b68b1dc8aeace72908f80a162e6e66a62b0ac17c5"
     },
     {
       "path": "cases.md",
       "downloadPath": "skills/mba/cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/cases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/cases.md",
+      "byteCount": 2212,
+      "sha256": "20913963becb63f3ed06c8dffa3461088331b266959bf18bb0df4f64010bde35"
     },
     {
       "path": "finance.md",
       "downloadPath": "skills/mba/finance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/finance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/finance.md",
+      "byteCount": 2431,
+      "sha256": "243faa296810f37ba2162b8c82d70f803bb777ca630a010bbeed386a72a42c0b"
     },
     {
       "path": "leadership.md",
       "downloadPath": "skills/mba/leadership.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/leadership.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/leadership.md",
+      "byteCount": 2144,
+      "sha256": "15c8440bb8112eecc39d24195444b39ce3a710b91ae6aad85cb2d63f5e2f6d85"
     },
     {
       "path": "marketing.md",
       "downloadPath": "skills/mba/marketing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/marketing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/marketing.md",
+      "byteCount": 1977,
+      "sha256": "793d9fe39eeed00cf0123832cb4ae760b04281e71fbac4813165a36111bba755"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/mba/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/operations.md",
+      "byteCount": 1944,
+      "sha256": "5fe3b4f8cf28e25ead1becddd0a973848dfaa64eca92acebf0aa36eb76f4039b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/mba/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/SKILL.md",
+      "byteCount": 2641,
+      "sha256": "8bfe0a4e147bf0a4de62cd4bade9fc8d13d70f95859a7ff3374b57b2144aa6a8"
     },
     {
       "path": "startups.md",
       "downloadPath": "skills/mba/startups.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/startups.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/startups.md",
+      "byteCount": 2096,
+      "sha256": "726adf26a60dd26a56e9859debc0891f6bdc60e7aae21413171453d394e06977"
     },
     {
       "path": "strategy.md",
       "downloadPath": "skills/mba/strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mba/strategy.md",
+      "byteCount": 1690,
+      "sha256": "2379ca130c4e6046be75ba10fd1c52ef92a85e2a886f7aa9d744cb573d4498a8"
     }
   ]
 }

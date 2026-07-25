@@ -1,16 +1,27 @@
 ---
-name: Bulgaria
+name: bulgaria
 slug: bulgaria
 version: 1.0.0
-homepage: https://clawic.com/skills/bulgaria
 description: Plan Bulgaria with local context on Sofia, Plovdiv, the Black Sea, mountain routes, food, and tourist-trap avoidance.
+homepage: https://clawic.com/skills/bulgaria
 changelog: Added a Bulgaria travel guide covering cities, coast, mountains, food, and practical trip planning.
-metadata: {"clawdbot":{"emoji":"🇧🇬","requires":{"bins":[],"config":["~/bulgaria/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🇧🇬
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/bulgaria/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Bulgaria
 ---
 
 ## Setup
 
-If `~/bulgaria/` does not exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/bulgaria/` does not exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User is planning a trip to Bulgaria or needs local context on cities, beaches, m
 
 ## Architecture
 
-Memory lives in `~/bulgaria/`. If `~/bulgaria/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/bulgaria/`. If `~/Clawic/data/bulgaria/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```
-~/bulgaria/
+~/Clawic/data/bulgaria/
 └── memory.md     # Trip context and learned preferences
 ```
 
@@ -113,21 +124,21 @@ Bulgaria is easy once the frictions are named:
 ## Security & Privacy
 
 **Data that stays local:**
-- Trip preferences in `~/bulgaria/`
+- Trip preferences in `~/Clawic/data/bulgaria/`
 - Saved notes on cities, budget, pace, and dislikes
 
 **This skill does NOT:**
-- Access files outside `~/bulgaria/`
+- Access files outside `~/Clawic/data/bulgaria/`
 - Make network requests on its own
 - Book or purchase anything without user direction
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` - General trip planning and logistics
 - `food` - Restaurant thinking, dishes, and meal planning
 - `bulgarian` - Bulgarian language help for phrases, menus, and messaging
 
 ## Feedback
 
-- If useful: `clawhub star bulgaria`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/bulgaria
+- Latest version: https://clawic.com/skills/bulgaria

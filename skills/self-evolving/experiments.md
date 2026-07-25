@@ -1,6 +1,6 @@
 # Experiment Log Template
 
-Use `~/self-evolving/experiments.md` to keep tentative ideas separate from stable memory.
+Use `~/Clawic/data/self-evolving/experiments.md` to keep tentative ideas separate from stable memory.
 
 ## Entry Format
 

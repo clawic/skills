@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7087321979df0d25ad8d0084f92e73a464b46d5db889d1cb88d2c79226154375",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "batch",
-    "name": "Batch",
+    "name": "batch",
     "description": "Process multiple items with progress tracking, checkpointing, and failure recovery.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/batch",
     "summary": "Before Starting 1. **Dry run:** Test with 2-3 items first 2. **Count:** \"Processing 47 items, ~2 min estimated\" 3. **Confirm destructive ops:** \"This will delete 200 files. Proceed?\" During Processing - **Progress every ",
     "repositoryPath": "skills/batch",
     "manifestPath": "registry/skills/batch.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/batch/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/_meta.json",
+      "byteCount": 162,
+      "sha256": "be83c19818b886a68e1c181bde3f553cca69ccf959af5a9ebe091f34fb1c0be1"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/batch/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/errors.md",
+      "byteCount": 1954,
+      "sha256": "5513d9ca7a13642f52aa4b282ca6c550ed2ecaca394d5f88e3151a355a57bf15"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/batch/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/SKILL.md",
+      "byteCount": 1169,
+      "sha256": "35770162153176bb54c13f64212b99cb12805ab9a881deb43290199b42891f60"
     },
     {
       "path": "strategies.md",
       "downloadPath": "skills/batch/strategies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/strategies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/batch/strategies.md",
+      "byteCount": 1653,
+      "sha256": "744dd8067afb3569a90f68b3cc9b920939e79eb4b2844db026ff4a3a09aec9cc"
     }
   ]
 }

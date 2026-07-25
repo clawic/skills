@@ -1,6 +1,6 @@
 # Memory Template - Minecraft
 
-Create `~/minecraft/memory.md` with this structure only if the user wants persistence:
+Create `~/Clawic/data/minecraft/memory.md` with this structure only if the user wants persistence:
 
 ```markdown
 # Minecraft Memory
@@ -40,4 +40,4 @@ Updated: YYYY-MM-DD
 - Store reusable Minecraft preferences, not full world saves or sensitive account data.
 - Keep local notes focused on activation, edition, style, and stable constraints.
 - Do not store credentials, paid account details, or private server tokens.
-- If the user declines persistence, do not create or update `~/minecraft/`.
+- If the user declines persistence, do not create or update `~/Clawic/data/minecraft/`.

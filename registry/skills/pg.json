@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0e863a4b03ee79131f0b36bc781b594b9980bc3ff33b801ad681205bfc04aae1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,14 +23,18 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/pg/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/pg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json",
+      "byteCount": 314,
+      "sha256": "251e20f00393c96104ee476964b3b488e5e93d7903ee482c9c581048441f0be2"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pg/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md",
+      "byteCount": 13502,
+      "sha256": "993ec41d0676698dce5fc31c03b4093a2e4914980427a08613384a6eaf413b5a"
     }
   ]
 }

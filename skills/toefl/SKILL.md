@@ -1,8 +1,13 @@
 ---
-name: TOEFL
+name: toefl
 slug: toefl
 version: 1.0.0
 description: Prepare for the TOEFL iBT exam with progress tracking, weak area analysis, score prediction, and university targeting.
+homepage: https://clawic.com/skills/toefl
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: TOEFL
 ---
 
 ## When to Use
@@ -21,9 +26,9 @@ User is preparing for TOEFL iBT (Test of English as a Foreign Language). Agent b
 
 ## Data Storage
 
-User data lives in `~/toefl/`:
+User data lives in `~/Clawic/data/toefl/`:
 ```
-~/toefl/
+~/Clawic/data/toefl/
 ├── profile.md       # Goals, target score, test date, target schools
 ├── sections/        # Per-section progress (reading, listening, speaking, writing)
 ├── sessions/        # Study session logs
@@ -54,7 +59,7 @@ Before study planning, gather:
 ## Critical Rules
 
 - **Deadlines first** — Work backwards from application deadline → score delivery → test date
-- **Track everything** — Log sessions, scores, errors to `~/toefl/`
+- **Track everything** — Log sessions, scores, errors to `~/Clawic/data/toefl/`
 - **Adapt to user type** — Students need university research; professionals need immigration info; tutors need multi-student
 - **Score is composite** — Each section 0-30, total 0-120; some schools require minimums per section
 - **MyBest matters** — Some schools accept best scores across multiple tests; others require single-sitting

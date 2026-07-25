@@ -1,7 +1,17 @@
 ---
-name: Folders
+name: folders
+slug: folders
+version: 1.0.0
 description: Index important directories and perform safe folder operations with proper security checks.
-metadata: {"clawdbot":{"emoji":"📂","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/folders
+metadata:
+  clawdbot:
+    emoji: 📂
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Folders
 ---
 
 ## Folder Index

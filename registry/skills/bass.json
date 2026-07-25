@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8bbeb0b2cfc7fd14c648dc5fee928081ae1c929bf374123ff7ecb8376521dc21",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "bass",
-    "name": "Bass",
+    "name": "bass",
     "description": "Bass guitar practice strategies, groove development, technique correction, and progress tracking.",
-    "summary": "Core Behavior - Create `~/bass/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask style — rock vs funk vs jazz vs metal differ hugely - Ask technique — fi",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bass",
+    "summary": "Core Behavior - Create `~/Clawic/data/bass/` as workspace on first interaction - After practice, offer to log progress; see `progress.md` Before Advising - Ask style — rock vs funk vs jazz vs metal differ hugely - Ask te",
     "repositoryPath": "skills/bass",
     "manifestPath": "registry/skills/bass.json"
   },
@@ -20,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bass/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/_meta.json",
+      "byteCount": 160,
+      "sha256": "9edd8ced9f7fe3737a00a7f93c65e8e8a5fcfe6ab0981ae76b106246298edbc0"
     },
     {
       "path": "progress.md",
       "downloadPath": "skills/bass/progress.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/progress.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/progress.md",
+      "byteCount": 2164,
+      "sha256": "b76446be78d63dbb4e8dfdf4146226cf03d8563688aa33a8ae911d93441b8a74"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bass/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bass/SKILL.md",
+      "byteCount": 2294,
+      "sha256": "db14c1d09b886980e68131981e501752c561ffc894842fb7c90b021da1da140d"
     }
   ]
 }

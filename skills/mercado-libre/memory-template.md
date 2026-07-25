@@ -1,6 +1,6 @@
 # Memory Template - Mercado Libre
 
-Create `~/mercado-libre/memory.md` with this structure:
+Create `~/Clawic/data/mercado-libre/memory.md` with this structure:
 
 ```markdown
 # Mercado Libre Memory

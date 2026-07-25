@@ -1,11 +1,24 @@
 ---
-name: Baidu
+name: baidu
 slug: baidu
 version: 1.0.0
-homepage: https://clawic.com/skills/baidu
 description: Navigate Baidu Search, Maps, Baike, Wenku, and Qianfan with region-aware routing, official-source checks, and China-specific guidance.
+homepage: https://clawic.com/skills/baidu
 changelog: Initial release with clearer Baidu ecosystem routing, region-aware guidance, official-source verification, and safer planning across Baidu products.
-metadata: {"clawdbot":{"emoji":"B","requires":{"bins":[],"config":["~/baidu/"]},"os":["darwin","linux","win32"],"configPaths":["~/baidu/"]}}
+metadata:
+  clawdbot:
+    emoji: B
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/baidu/
+    os:
+    - darwin
+    - linux
+    - win32
+    configPaths:
+    - ~/Clawic/data/baidu/
+    displayName: Baidu
 ---
 
 ## When to Use
@@ -16,10 +29,10 @@ Do not use it as a generic China-market skill or as a substitute for a narrower 
 
 ## Architecture
 
-Memory lives in `~/baidu/`. If `~/baidu/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/baidu/`. If `~/Clawic/data/baidu/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/baidu/
+~/Clawic/data/baidu/
 |- memory.md      # Activation rules, surface defaults, and preferred outputs
 |- accounts.md    # Known accounts, projects, and approval boundaries
 |- regions.md     # Mainland, cross-border, and language defaults
@@ -106,7 +119,7 @@ Do not store secrets, copied console tokens, billing exports, or raw customer da
 
 ### 7. End With a Decision Record
 - Finish non-trivial tasks with a concise decision record: chosen surface, rejected paths, assumptions, hard blockers, and what still needs human confirmation.
-- Save only that durable decision state under `~/baidu/`.
+- Save only that durable decision state under `~/Clawic/data/baidu/`.
 - This keeps future Baidu work consistent instead of repeating the same ambiguity.
 
 ## Common Traps
@@ -139,7 +152,7 @@ Data that may leave your machine:
 - optional comparison requests sent to approved supporting sources when official docs are incomplete
 
 Data that stays local:
-- activation preferences and work history under `~/baidu/`
+- activation preferences and work history under `~/Clawic/data/baidu/`
 - saved region defaults, trusted-source notes, and decision records in local markdown files
 - account labels and approval boundaries only if the user explicitly wants them remembered
 
@@ -160,7 +173,7 @@ This skill ONLY:
 - routes Baidu-related requests to the correct product family
 - compares Baidu options using official-source verification
 - plans Baidu Search, Maps, knowledge, and Qianfan workflows with region-aware assumptions
-- keeps lightweight local memory in `~/baidu/`
+- keeps lightweight local memory in `~/Clawic/data/baidu/`
 
 This skill NEVER:
 - invent product capabilities or region availability
@@ -169,7 +182,7 @@ This skill NEVER:
 - execute account-changing actions without explicit user approval
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `maps` - Deeper routing and geospatial workflows beyond Baidu surface selection
 - `market-research` - Competitive framing and ecosystem analysis outside one vendor
 - `monitoring` - Add thresholds, status rules, and recurring checks
@@ -178,5 +191,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star baidu`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/baidu
+- Latest version: https://clawic.com/skills/baidu

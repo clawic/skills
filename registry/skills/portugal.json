@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "772cfb2164755f03576a97be3d0bf7854d4e5fe2360bf7e98e1e7583e0c5f6bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "portugal",
-    "name": "Portugal",
+    "name": "portugal",
     "description": "Discover Portugal like a local with specific restaurants, hidden gems, wine regions, and tips beyond the tourist traps.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/portugal",
-    "summary": "Setup If `~/portugal/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Portugal or wanting local insights: where to eat, what to skip, regional differences, fado, wine,",
+    "summary": "Setup If `~/Clawic/data/portugal/` doesn't exist or is empty, read `setup.md` and start naturally. When to Use User planning a trip to Portugal or wanting local insights: where to eat, what to skip, regional differences,",
     "repositoryPath": "skills/portugal",
     "manifestPath": "registry/skills/portugal.json"
   },
@@ -22,117 +25,163 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/portugal/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/_meta.json",
+      "byteCount": 168,
+      "sha256": "618192646087a2222490dbce939010c9616e53c4a40eef8456f35e33c79654a3"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/portugal/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/accommodation.md",
+      "byteCount": 5957,
+      "sha256": "05284c20fcdced6b73b7b496dc325a9478fe074d8dfebdefe0c269f861a76fd9"
     },
     {
       "path": "algarve.md",
       "downloadPath": "skills/portugal/algarve.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/algarve.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/algarve.md",
+      "byteCount": 7087,
+      "sha256": "bbbf9003dba99a4c6b299da2ab816189a6e42e66154eec00a1924a44b3bbfb89"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/portugal/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/apps.md",
+      "byteCount": 5256,
+      "sha256": "1199a3d3d506f2b1d586bbd5586a63f8ecdc6701ad67aef38f7f836ef88611e3"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/portugal/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/beaches.md",
+      "byteCount": 6368,
+      "sha256": "676b02ae4aa4d393e44c2ed705a37ddc430bfc7875d70e9fd0a09ef99b12b288"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/portugal/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/culture.md",
+      "byteCount": 6772,
+      "sha256": "7c0a35e79eb5d3ae3a1177f63605ddb5c41abc65f2468514fe426ea2bed6090f"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/portugal/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/emergencies.md",
+      "byteCount": 6130,
+      "sha256": "13304cc18fd1cb64fe50aeff704747bdc787a07bafd65755850bfdc27d865c42"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/portugal/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/experiences.md",
+      "byteCount": 6238,
+      "sha256": "98f1110ffe85cbdccb188565cd0ffc8b1ac66c164a902d27f4c7d4fe31f4e63d"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/portugal/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/food-guide.md",
+      "byteCount": 6457,
+      "sha256": "f06ffb3fc1773bf4040e27db52a660bb9cc55569f5e06f369ba062ad57947721"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/portugal/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/hiking.md",
+      "byteCount": 6109,
+      "sha256": "0ec067f3440e13ea61e7c0239383364fe79d9765f12d1e151be8e6d7e31b17c1"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/portugal/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/itineraries.md",
+      "byteCount": 6358,
+      "sha256": "3d753a5926dcd43b1103a0563b39900edbb1a052ca5d611b532b00f518616ec2"
     },
     {
       "path": "lisbon.md",
       "downloadPath": "skills/portugal/lisbon.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/lisbon.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/lisbon.md",
+      "byteCount": 6909,
+      "sha256": "92f0e4a41a95b0f526994c1aca3b57a05ad81bc7b6a9d1144b1142d6307ead3e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/portugal/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/memory-template.md",
+      "byteCount": 1143,
+      "sha256": "5c8f817937e2d25e5ca85f8096eabd7a6b883a3fad2e7af41e822de7b78e5bec"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/portugal/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/nightlife.md",
+      "byteCount": 6008,
+      "sha256": "570b900d5f749b37838e5a206b9a0c84bf88959dc19c89882b985c167b6e5b62"
     },
     {
       "path": "porto.md",
       "downloadPath": "skills/portugal/porto.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/porto.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/porto.md",
+      "byteCount": 7292,
+      "sha256": "8cae05093b7e1e9da0da687e89b3a7e896ad768417291764927b595aba4333ed"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/portugal/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/regions.md",
+      "byteCount": 5786,
+      "sha256": "7afd671d68e803ee23403be8ec947b1e28efddb874ff7c2be0d4da704bfe690d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/portugal/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/setup.md",
+      "byteCount": 1767,
+      "sha256": "c72d387a6835eb42f76ad95f01d4ac1f5fe22afab1fbe66459fd9183893f1df1"
     },
     {
       "path": "sintra.md",
       "downloadPath": "skills/portugal/sintra.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/sintra.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/sintra.md",
+      "byteCount": 5774,
+      "sha256": "2e09461a2294d495039d6dc1d6e62be43647d4df3e393a16c8ac09c0e0f8520f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/portugal/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/SKILL.md",
+      "byteCount": 5335,
+      "sha256": "ee56f214d72af1455bd8075e1f5b06466cedf755807b6e905b1ab149e27f22b2"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/portugal/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/telecoms.md",
+      "byteCount": 4302,
+      "sha256": "0339c998fa8d4829a7a4a18ee36058a681cf282eff3f96e645f1e16e8601c4cc"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/portugal/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/transport.md",
+      "byteCount": 6216,
+      "sha256": "cbdf4524f7bdb4561fa9663a18a0f7613efa664b5e32dcee3b22a3568cd21689"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/portugal/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/wine.md",
+      "byteCount": 6339,
+      "sha256": "92456a5218514044047e1b6d631e056031e8dedf451b0e2b28a14e8a34c61655"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/portugal/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/portugal/with-kids.md",
+      "byteCount": 6201,
+      "sha256": "eda0a37cac69ca59fa58d312b56e811f0c10e1f9975b1c97ec6b9e651d2ff5eb"
     }
   ]
 }

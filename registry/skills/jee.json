@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d16a19cc722c2c35a6350b8f2030fe3c11a6b207aba9bd27881c09fe14aa6a77",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "jee",
-    "name": "JEE",
+    "name": "jee",
     "description": "Prepare for India's Joint Entrance Examination with progress tracking, weak area analysis, mock test strategy, and IIT/NIT targeting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/jee",
     "summary": "When to Use User is preparing for JEE (Main or Advanced), India's engineering entrance exam. Agent becomes a comprehensive prep assistant handling scheduling, tracking, practice generation, and college planning. Quick Re",
     "repositoryPath": "skills/jee",
     "manifestPath": "registry/skills/jee.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/jee/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/_meta.json",
+      "byteCount": 158,
+      "sha256": "42110db61dadcbc8bf71786af12100c166cfea1bb762b880c6a920666787a126"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/jee/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/exam-config.md",
+      "byteCount": 1660,
+      "sha256": "64232332da1c431e4af83e8a5e2f3cd149ec5a88f056ede64f6e35d3eaf22961"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/jee/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/SKILL.md",
+      "byteCount": 2910,
+      "sha256": "1c3efe9d55dc0381ced695170f0156160e1c2f075259d4fc322a98ac28304ea0"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/jee/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/study-methods.md",
+      "byteCount": 3106,
+      "sha256": "158e46cac988775f4b812e5418a566d053a7b27b5d7f8d56f70e9f08819dc3b3"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/jee/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/targets.md",
+      "byteCount": 3187,
+      "sha256": "c4806bea56fe27d819c942f2c273341526727466d054118c442b46bfed49ca30"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/jee/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/tracking.md",
+      "byteCount": 2928,
+      "sha256": "885d329850ee295d178f7eee58b14a4862f583e49647e8cd3447a7535740acfb"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/jee/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/user-types.md",
+      "byteCount": 3751,
+      "sha256": "4f2ad86c623719b49573755364156e65b89d4ddefd3bb40bc1711f74067e878c"
     },
     {
       "path": "wellbeing.md",
       "downloadPath": "skills/jee/wellbeing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/wellbeing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jee/wellbeing.md",
+      "byteCount": 2559,
+      "sha256": "63d74796ee618596023de0e2dad535b922988c4bae3e0da0b8eb4f234df293f9"
     }
   ]
 }

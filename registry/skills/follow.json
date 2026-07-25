@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "84c47d33429b6252c31e9decd3442cf2d0523812ae9c5e8476c4c1e03e9f4ed1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "follow",
-    "name": "Follow",
+    "name": "follow",
     "description": "Monitor content from people, topics, and sources across platforms with smart filtering, tiered alerts, and searchable archives.",
-    "summary": "Workspace ``` ~/follow/ ├── sources/ # One file per followed entity │ ├── people/ # @naval.md, @dhh.md │ ├── topics/ # ai-safety.md, rust.md │ └── feeds/ # techcrunch.md, hn-frontpage.md ├── archive/ # Captured content b",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/follow",
+    "summary": "Workspace ``` ~/Clawic/data/follow/ ├── sources/ # One file per followed entity │ ├── people/ # @naval.md, @dhh.md │ ├── topics/ # ai-safety.md, rust.md │ └── feeds/ # techcrunch.md, hn-frontpage.md ├── archive/ # Captur",
     "repositoryPath": "skills/follow",
     "manifestPath": "registry/skills/follow.json"
   },
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/follow/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/_meta.json",
+      "byteCount": 164,
+      "sha256": "924143bf5f4479f5dbbe83c15d6fe7cdf592155f7cdfb8064f4c458798ba7f8c"
     },
     {
       "path": "alerts.md",
       "downloadPath": "skills/follow/alerts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/alerts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/alerts.md",
+      "byteCount": 1962,
+      "sha256": "86457edbc7bfbaf44acab17a26c028806404f1e0430468e1ad6b7e0bae85716f"
     },
     {
       "path": "filtering.md",
       "downloadPath": "skills/follow/filtering.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/filtering.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/filtering.md",
+      "byteCount": 2118,
+      "sha256": "4c3717434b97c46a02e6259a68af3d9a9ea53f037df5711f5a686606c3fb8542"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/follow/platforms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/platforms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/platforms.md",
+      "byteCount": 3061,
+      "sha256": "8a75d33e57ca950e0daebc09e8b94968c55aa225a6a538a2d82eb99d3d555603"
     },
     {
       "path": "querying.md",
       "downloadPath": "skills/follow/querying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/querying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/querying.md",
+      "byteCount": 2290,
+      "sha256": "1be3e99f73578f8ab34459798577d2640cf2acf358fb39362fbb07e97456bf8e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/follow/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/SKILL.md",
+      "byteCount": 2278,
+      "sha256": "3db4d3f87c2ed37c56312ea6ff7d2ee074e31780f177df5d3e0d47c56711f8fc"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/follow/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/follow/sources.md",
+      "byteCount": 1761,
+      "sha256": "7620c0d1b4b33ee362fa800f2b39ab08008ddea9703e28607d2a1e59b77942f8"
     }
   ]
 }

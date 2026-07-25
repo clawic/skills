@@ -1,11 +1,22 @@
 ---
-name: Trading
+name: trading
 slug: trading
 version: 1.0.1
+description: Trading analysis and education. Technical analysis, chart patterns, risk management, and position sizing for stocks, forex, and crypto.
 homepage: https://clawic.com/skills/trading
 changelog: Added setup.md, memory-template.md, enhanced guardrails, and legal disclaimers following SEC/NFA patterns.
-description: Trading analysis and education. Technical analysis, chart patterns, risk management, and position sizing for stocks, forex, and crypto.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/trading/"]}}
+metadata:
+  clawdbot:
+    emoji: 📈
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/trading/
+    displayName: Trading
 ---
 
 ## Guardrails
@@ -64,10 +75,10 @@ User wants trading analysis or education. Technical analysis, chart patterns, in
 
 ## Architecture
 
-Memory lives in `~/trading/` with learning progress tracking.
+Memory lives in `~/Clawic/data/trading/` with learning progress tracking.
 
 ```
-~/trading/
+~/Clawic/data/trading/
 ├── memory.md        # Preferences, trading style, focus areas
 ├── journal.md       # Trade journal for review
 └── progress.md      # Concepts mastered vs learning
@@ -148,7 +159,7 @@ For calculations and details, see `risk.md`.
 
 This skill ONLY:
 - Provides trading analysis and education
-- Stores preferences in `~/trading/`
+- Stores preferences in `~/Clawic/data/trading/`
 - References its auxiliary files
 
 This skill NEVER:
@@ -158,7 +169,7 @@ This skill NEVER:
 - Makes guaranteed predictions
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `invest` — long-term investing fundamentals
 - `money` — personal finance basics
 - `crypto-tools` — cryptocurrency utilities
@@ -166,5 +177,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star trading`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/trading
+- Latest version: https://clawic.com/skills/trading

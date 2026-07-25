@@ -1,6 +1,13 @@
 ---
-name: Czech
+name: czech
+slug: czech
+version: 1.0.0
 description: Write Czech that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/czech
+metadata:
+  clawdbot:
+    emoji: 🇨🇿
+    displayName: Czech
 ---
 
 ## The Real Problem

@@ -19,7 +19,7 @@ Use this guide to keep access mode and credential handling coherent.
 ## Credential Handling
 
 - Use `SHELLY_CLOUD_TOKEN` only from environment variables.
-- Do not store raw token values in `~/shelly/` notes.
+- Do not store raw token values in `~/Clawic/data/shelly/` notes.
 - Rotate and scope credentials to least-privilege operations where possible.
 
 ## Policy Rules

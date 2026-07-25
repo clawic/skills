@@ -1,6 +1,6 @@
 # Provider Profiles - SMTP
 
-Use this file as the baseline for `~/smtp/provider-profiles.md`.
+Use this file as the baseline for `~/Clawic/data/smtp/provider-profiles.md`.
 
 Keep only providers the user actually uses and add notes only after a real test confirms them.
 

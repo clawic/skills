@@ -1,11 +1,22 @@
 ---
-name: Trending Now
+name: trending-now
 slug: trending-now
 version: 1.0.0
-homepage: https://clawic.com/skills/trending-now
 description: Monitor internet and social media trends with heartbeat topic watchlists, freshness scoring, and concise alerts on what changed and why it matters.
+homepage: https://clawic.com/skills/trending-now
 changelog: Initial release with heartbeat templates, topic monitoring rules, cross-network validation flow, and alert message formats for actionable updates.
-metadata: {"clawdbot":{"emoji":"T","requires":{"bins":[],"config":["~/trending-now/"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: T
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/trending-now/
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Trending Now
 ---
 
 ## Setup
@@ -19,10 +30,10 @@ Use this skill to define topic watchlists, run heartbeat-based research cycles, 
 
 ## Architecture
 
-Memory lives in `~/trending-now/`. See `memory-template.md` for the baseline structure.
+Memory lives in `~/Clawic/data/trending-now/`. See `memory-template.md` for the baseline structure.
 
 ```text
-~/trending-now/
+~/Clawic/data/trending-now/
 |-- memory.md                 # Activation behavior, scope, and monitoring preferences
 |-- topics.md                 # Active topics, query variants, and relevance boundaries
 |-- runs.md                   # Heartbeat run history and change detection summary
@@ -52,7 +63,7 @@ Never claim a trend is current without timestamped evidence from at least two in
 
 ## Data Storage
 
-Local notes in `~/trending-now/` include:
+Local notes in `~/Clawic/data/trending-now/` include:
 - monitored topics with query variants and stop words
 - run-level evidence links and freshness timestamps
 - alert history with confidence and post-send outcomes
@@ -143,7 +154,7 @@ Data that leaves your machine:
 - source lookups needed to verify recency and momentum
 
 Data that stays local:
-- monitoring preferences and topic definitions under `~/trending-now/`
+- monitoring preferences and topic definitions under `~/Clawic/data/trending-now/`
 - run history, confidence scores, and alert outcomes
 
 This skill does NOT:
@@ -157,7 +168,7 @@ This skill relies on public internet and social sources, including X and other p
 Only install and run it if you trust those sources and the external services used for research.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `monitoring` - Build monitoring loops with clear thresholds and escalation paths
 - `news` - Structure news tracking and summarization for time-sensitive decisions
 - `competitor-monitoring` - Track competitor moves with disciplined evidence and update cadence
@@ -166,5 +177,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star trending-now`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/trending-now
+- Latest version: https://clawic.com/skills/trending-now

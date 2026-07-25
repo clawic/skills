@@ -1,6 +1,6 @@
 # Memory Template — Property Valuation
 
-Create `~/property-valuation/memory.md` with this structure:
+Create `~/Clawic/data/property-valuation/memory.md` with this structure:
 
 ```markdown
 # Property Valuation Memory

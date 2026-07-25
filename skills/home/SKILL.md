@@ -1,7 +1,17 @@
 ---
-name: Home
+name: home
+slug: home
+version: 1.0.0
 description: Home improvement, maintenance, and living space optimization with practical guidance.
-metadata: {"clawdbot":{"emoji":"🏠","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/home
+metadata:
+  clawdbot:
+    emoji: 🏠
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Home
 ---
 
 # Home Assistance Rules

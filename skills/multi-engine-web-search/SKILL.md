@@ -1,11 +1,20 @@
 ---
-name: Multi-Engine Web Search
+name: multi-engine-web-search
 slug: multi-engine-web-search
 version: 1.0.0
-homepage: https://clawic.com/skills/multi-engine-web-search
 description: Search Google, Bing, DuckDuckGo, Brave, Startpage, Yahoo, Yandex, Baidu, Sogou, Qwant, Ecosia, Mojeek, and WolframAlpha from one skill.
+homepage: https://clawic.com/skills/multi-engine-web-search
 changelog: Expanded engine coverage, added shortcut matrix, and improved operator examples for faster cross-check workflows.
-metadata: {"clawdbot":{"emoji":"W","requires":{"bins":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: W
+    requires:
+      bins: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Multi-Engine Web Search
 ---
 
 ## Setup
@@ -18,10 +27,10 @@ Use this when one engine is not enough and you need broader coverage, faster cro
 
 ## Architecture
 
-Store minimal preferences in `~/multi-engine-web-search/`. See `memory-template.md`.
+Store minimal preferences in `~/Clawic/data/multi-engine-web-search/`. See `memory-template.md`.
 
 ```text
-~/multi-engine-web-search/
+~/Clawic/data/multi-engine-web-search/
 `-- memory.md   # activation mode, engine priority, blocked engines, and output style
 ```
 
@@ -183,7 +192,7 @@ Output must include direct answer, best links, and confidence in one concise blo
 No other data is sent externally.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `analysis` - Turn search findings into clear conclusions
 - `compare` - Compare options side by side with tradeoffs
 - `web` - Inspect pages deeply after initial retrieval
@@ -192,5 +201,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star multi-engine-web-search`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/multi-engine-web-search
+- Latest version: https://clawic.com/skills/multi-engine-web-search

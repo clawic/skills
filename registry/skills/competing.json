@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "94aee4689532913abecad954e77dae01c0f050aa40a598a835ca8de05d01f2da",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "competing",
-    "name": "Competing",
+    "name": "competing",
     "description": "Improve systematically by analyzing losses, studying winners, and tracking progress against rivals in any competitive domain.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/competing",
     "summary": "Core Framework Competition is a learning accelerator. Every loss contains the lesson that wins don't. 1. **Analyze the Loss** — Don't just lose, understand WHY 2. **Study the Winner** — What did they do that you didn't? ",
     "repositoryPath": "skills/competing",
     "manifestPath": "registry/skills/competing.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/competing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/_meta.json",
+      "byteCount": 170,
+      "sha256": "7efde0d56e0e8a2cbdca65f389cd3fbc112d359c550a6380f31b09f66b66ce27"
     },
     {
       "path": "analysis.md",
       "downloadPath": "skills/competing/analysis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/analysis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/analysis.md",
+      "byteCount": 2268,
+      "sha256": "c8523b5dc6d320d6db509cc3dec7b54fc1860cad9ea025ec295691e544e76866"
     },
     {
       "path": "domains.md",
       "downloadPath": "skills/competing/domains.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/domains.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/domains.md",
+      "byteCount": 2500,
+      "sha256": "eef5db121d69d331991c9d87303d08c037e8bfb44dbe0b79895592392a009175"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/competing/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/feedback.md",
+      "byteCount": 2410,
+      "sha256": "75d0465230118fb7e003fd1f9c8ba073d7403e8361a307a4ba69a2f0b8222867"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/competing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/SKILL.md",
+      "byteCount": 2544,
+      "sha256": "949e8e5589fcf2a102fcf31a146eb3e8a24ffb277211af68d09824e7e8bcaa4d"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/competing/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/competing/tracking.md",
+      "byteCount": 2010,
+      "sha256": "c6c63c4e3bea6b60358c167784058f1c92190a3666c7fcee477267131197c998"
     }
   ]
 }

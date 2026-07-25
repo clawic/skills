@@ -1,6 +1,6 @@
 # Memory Template — Writing
 
-Copy this structure to `~/writing/memory.md` on first use.
+Copy this structure to `~/Clawic/data/writing/memory.md` on first use.
 
 ```markdown
 # Writing Memory
@@ -73,13 +73,13 @@ integration: (when to activate — proactive/on-request/specific-contexts)
 Create on first activation:
 
 ```bash
-mkdir -p ~/writing/{projects,archive}
-touch ~/writing/memory.md
+mkdir -p ~/Clawic/data/writing/{projects,archive}
+touch ~/Clawic/data/writing/memory.md
 ```
 
 ## Project-Specific Template
 
-For `~/writing/projects/{name}.md`:
+For `~/Clawic/data/writing/projects/{name}.md`:
 
 ```markdown
 # Writing Style — {Project Name}

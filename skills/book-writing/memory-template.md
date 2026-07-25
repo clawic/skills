@@ -1,6 +1,6 @@
 # Memory Template - Book Writing
 
-Create `~/book-writing/memory.md` with this structure:
+Create `~/Clawic/data/book-writing/memory.md` with this structure:
 
 ```markdown
 # Book Writing Memory

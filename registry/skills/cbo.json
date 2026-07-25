@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3c1d2770c3ce0b806023c4a928a9f3daecfb1b6b4ae46ec924dd7083a9523d6e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "cbo",
-    "name": "Chief Business Officer",
+    "name": "cbo",
     "description": "Drive business growth with partnerships, market expansion, deal-making, and commercial strategy.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/cbo",
     "summary": "When to Use User wants business development leadership for their company. Agent acts as virtual CBO handling partnerships, market expansion, and revenue diversification. Quick Reference | Topic | File | |-------|------| ",
     "repositoryPath": "skills/cbo",
     "manifestPath": "registry/skills/cbo.json"
@@ -20,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cbo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/_meta.json",
+      "byteCount": 177,
+      "sha256": "bc018075eddef8339cb51e7c3b7fe79d87ed10bffd0e3a2457315e679a02dbba"
     },
     {
       "path": "deals.md",
       "downloadPath": "skills/cbo/deals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/deals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/deals.md",
+      "byteCount": 3383,
+      "sha256": "077191218733f4f0b8edf48fe19bd57b3100479799ea7501bc256cf2e1a2f86d"
     },
     {
       "path": "expansion.md",
       "downloadPath": "skills/cbo/expansion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/expansion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/expansion.md",
+      "byteCount": 3236,
+      "sha256": "4aadc1c997264b32fff0c6fc22513c4b23551832c90e2dbfa72c39baceec0e8b"
     },
     {
       "path": "partnerships.md",
       "downloadPath": "skills/cbo/partnerships.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/partnerships.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/partnerships.md",
+      "byteCount": 2278,
+      "sha256": "8d0fd3000ef62a39e241b3930085517178b6fd91ff09da25107359753c160688"
     },
     {
       "path": "revenue.md",
       "downloadPath": "skills/cbo/revenue.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/revenue.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/revenue.md",
+      "byteCount": 3496,
+      "sha256": "4dd7d81dff77526f4555814c0ca0d18b31ceeea4397935c8f94d270f0013c3bb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cbo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cbo/SKILL.md",
+      "byteCount": 2570,
+      "sha256": "17645203c718eecafc8edaba2d1bbee7f5e5bdbbe07ed13e9589cc7145c25e16"
     }
   ]
 }

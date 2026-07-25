@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e09f6a42af70f9cb38d6e57eeda31e8c9212c474bc200eeb61e84ead0c2a38f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "book-writing",
-    "name": "Book Writing",
+    "name": "book-writing",
     "description": "Plan, draft, and revise complete books with chapter architecture, voice consistency, and finish-ready revision workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/book-writing",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/book-writing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/_meta.json",
+      "byteCount": 176,
+      "sha256": "31683756e1723c04cdc994747f5f06d33850b1313b8c2250d44fd89ab7c9fa55"
     },
     {
       "path": "blueprint.md",
       "downloadPath": "skills/book-writing/blueprint.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/blueprint.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/blueprint.md",
+      "byteCount": 1098,
+      "sha256": "d586747330d025f6a9da58000f3625258ba3d7d9ba2012f8892f47c1505c2337"
     },
     {
       "path": "chapter-loop.md",
       "downloadPath": "skills/book-writing/chapter-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/chapter-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/chapter-loop.md",
+      "byteCount": 889,
+      "sha256": "1bfae9b431e56aba85477032cf48e12600ce145503bfb8bc9e0da85ff5815ff9"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/book-writing/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/memory-template.md",
+      "byteCount": 1230,
+      "sha256": "617bca695afee18e3942eda7ac777b69526e945aa761fd67dedfa4ee79272756"
     },
     {
       "path": "revision-rubric.md",
       "downloadPath": "skills/book-writing/revision-rubric.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/revision-rubric.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/revision-rubric.md",
+      "byteCount": 948,
+      "sha256": "d810be5ce943ce178f66671fe582174f7d197b1498301355dc9f31d22b3a43a2"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/book-writing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/setup.md",
+      "byteCount": 1658,
+      "sha256": "47b79f5544bcec07e3ae90928ef748e3cefe5105392ae2b43c6dcc1fb0b77b5d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/book-writing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/book-writing/SKILL.md",
+      "byteCount": 4328,
+      "sha256": "ed2f01e2a4ae5b7bb937842500bc7054bc3a03b4b80353a68131269928c2ef8f"
     }
   ]
 }

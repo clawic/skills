@@ -1,6 +1,6 @@
 # Memory Template - Mindfulness (Tracker, Logger, Guided Practice)
 
-Create `~/mindfulness/memory.md` with this structure:
+Create `~/Clawic/data/mindfulness/memory.md` with this structure:
 
 ```markdown
 # Mindfulness Memory
@@ -53,7 +53,7 @@ what_to_avoid:
 
 ## File Templates
 
-Create `~/mindfulness/logs/sessions.md`:
+Create `~/Clawic/data/mindfulness/logs/sessions.md`:
 
 ```markdown
 # Mindfulness Session Log
@@ -69,7 +69,7 @@ Create `~/mindfulness/logs/sessions.md`:
 - friction_point:
 ```
 
-Create `~/mindfulness/plans/current.md`:
+Create `~/Clawic/data/mindfulness/plans/current.md`:
 
 ```markdown
 # Mindfulness Current Plan
@@ -92,7 +92,7 @@ Create `~/mindfulness/plans/current.md`:
 - Adjustment rule:
 ```
 
-Create `~/mindfulness/check-ins/weekly.md`:
+Create `~/Clawic/data/mindfulness/check-ins/weekly.md`:
 
 ```markdown
 # Mindfulness Weekly Check-Ins

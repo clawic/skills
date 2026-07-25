@@ -1,7 +1,17 @@
 ---
-name: Video Editing
+name: video-edit
+slug: video-edit
+version: 1.0.0
 description: Edit videos with AI background removal, color grading, upscaling, stabilization, and enhancement tools.
-metadata: {"clawdbot":{"emoji":"🎞️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/video-edit
+metadata:
+  clawdbot:
+    emoji: 🎞️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Video Editing
 ---
 
 # AI Video Editing

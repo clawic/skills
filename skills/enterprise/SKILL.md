@@ -1,9 +1,19 @@
 ---
-name: Enterprise
+name: enterprise
 slug: enterprise
 version: 1.0.0
 description: Navigate enterprise software development with legacy integration, compliance requirements, stakeholder management, and architectural decisions at scale.
-metadata: {"clawdbot":{"emoji":"🏢","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/enterprise
+metadata:
+  clawdbot:
+    emoji: 🏢
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Enterprise
 ---
 
 ## When to Use

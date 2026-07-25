@@ -1,6 +1,6 @@
 # Setup - OpenAI Symphony
 
-Read this when `~/symphony/` does not exist or is empty. Start naturally and focus on safe autonomous execution outcomes.
+Read this when `~/Clawic/data/symphony/` does not exist or is empty. Start naturally and focus on safe autonomous execution outcomes.
 
 ## Your Attitude
 

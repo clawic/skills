@@ -1,6 +1,6 @@
 # Setup - Safari Browser Control
 
-Read this internally when `~/safari/` is missing or empty. Keep the conversation natural and useful from the first reply. Explain storage only if the user asks or if trust depends on it.
+Read this internally when `~/Clawic/data/safari/` is missing or empty. Keep the conversation natural and useful from the first reply. Explain storage only if the user asks or if trust depends on it.
 
 ## Your Attitude
 
@@ -36,10 +36,10 @@ For recurring use, learn:
 ## What You're Saving (internally)
 
 - activation defaults and explicit boundaries in main memory
-- permission state, preferred control mode, snippets, recipes, and incident notes inside `~/safari/`
+- permission state, preferred control mode, snippets, recipes, and incident notes inside `~/Clawic/data/safari/`
 - recurring no-go actions and reliable control patterns worth reusing
 
-If the user approves local storage and `~/safari/` does not exist, create it and initialize `memory.md`, `permissions.md`, `sessions.md`, `snippets.md`, `recipes.md`, and `incidents.md` from `memory-template.md`.
+If the user approves local storage and `~/Clawic/data/safari/` does not exist, create it and initialize `memory.md`, `permissions.md`, `sessions.md`, `snippets.md`, `recipes.md`, and `incidents.md` from `memory-template.md`.
 
 ## Default Behavior
 

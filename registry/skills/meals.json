@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "834785d5ecb8fe42d130f1c18304b1bcc036736e0e443d97edd1ffdc83c1cafa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "meals",
-    "name": "Meals",
+    "name": "meals",
     "description": "Build a personal meal planning system with weekly plans, shopping lists, and dietary tracking.",
-    "summary": "Core Behavior - User plans their week → help organize meals - Generate shopping lists → from planned meals - Track what works → build personal meal database - Create `~/meals/` as workspace When User Plans Meals - Ask ab",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/meals",
+    "summary": "Core Behavior - User plans their week → help organize meals - Generate shopping lists → from planned meals - Track what works → build personal meal database - Create `~/Clawic/data/meals/` as workspace When User Plans Me",
     "repositoryPath": "skills/meals",
     "manifestPath": "registry/skills/meals.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/meals/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/_meta.json",
+      "byteCount": 162,
+      "sha256": "b11ac5a172d99327b8263054dbcf5a5bcbe0fcca7bb868ad7c3b6e839b025da4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/meals/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meals/SKILL.md",
+      "byteCount": 3810,
+      "sha256": "cf1f801827d0fb7dba9d9cf07a4aebc8c596a3d04d60d6899307103fd16dadc1"
     }
   ]
 }

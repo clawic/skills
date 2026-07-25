@@ -1,6 +1,6 @@
 # Setup - Mercado Libre
 
-Use this file when `~/mercado-libre/` is missing or empty.
+Use this file when `~/Clawic/data/mercado-libre/` is missing or empty.
 
 ## Operating Posture
 

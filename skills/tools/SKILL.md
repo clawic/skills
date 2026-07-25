@@ -1,6 +1,13 @@
 ---
-name: "Tools"
-description: "Learns your tool preferences while staying capable of using anything. Adapts to your stack."
+name: tools
+slug: tools
+version: 1.0.0
+description: Learns your tool preferences while staying capable of using anything. Adapts to your stack.
+homepage: https://clawic.com/skills/tools
+metadata:
+  clawdbot:
+    emoji: 🛠️
+    displayName: Tools
 ---
 
 ## Adaptive Tool Intelligence

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e37a76281486ff164a392671bca39c7949289712d4544a17554bd2bf349f207a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "neet",
-    "name": "NEET",
+    "name": "neet",
     "description": "Prepare for India's medical entrance exam with progress tracking, weak area analysis, spaced repetition, and college targeting.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/neet",
     "summary": "When to Use User is preparing for NEET (National Eligibility cum Entrance Test), India's medical/dental entrance exam. Agent becomes a comprehensive study assistant handling scheduling, tracking, practice, and college pl",
     "repositoryPath": "skills/neet",
     "manifestPath": "registry/skills/neet.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/neet/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/_meta.json",
+      "byteCount": 160,
+      "sha256": "ccee551eb67e439c4aab92f93f5030d59071d6cc864244b7a5e433f9a71ed03d"
     },
     {
       "path": "exam-config.md",
       "downloadPath": "skills/neet/exam-config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/exam-config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/exam-config.md",
+      "byteCount": 3834,
+      "sha256": "4f9415207e21b3ff548a6ac852fb84b3a95247ef8df9f799b6b010460457a67c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/neet/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/SKILL.md",
+      "byteCount": 2727,
+      "sha256": "a960fc7b437f5413ae97b9d59964b9bcf8101c670e3f749858ee0bc0ad40a2ef"
     },
     {
       "path": "study-methods.md",
       "downloadPath": "skills/neet/study-methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/study-methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/study-methods.md",
+      "byteCount": 5263,
+      "sha256": "6e3750449321005254387c5146ae9654d273ab9b352bb2492171ccadb60b2ba3"
     },
     {
       "path": "targets.md",
       "downloadPath": "skills/neet/targets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/targets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/targets.md",
+      "byteCount": 5128,
+      "sha256": "c79f620d9d728e1c39e6bd1b924ad082bf756ef2cc7fc85e2e563228fa033678"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/neet/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/tracking.md",
+      "byteCount": 4254,
+      "sha256": "c93c1cdb99cb08a5b12efe83147d388b840defdbd7001e3651306ba6864622db"
     },
     {
       "path": "user-types.md",
       "downloadPath": "skills/neet/user-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/user-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/user-types.md",
+      "byteCount": 5623,
+      "sha256": "adeea225fff6eaedac9e80bc61a131d7a37e48dd80e8cc2ebb6609dadbb44619"
     },
     {
       "path": "wellbeing.md",
       "downloadPath": "skills/neet/wellbeing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/wellbeing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/neet/wellbeing.md",
+      "byteCount": 4950,
+      "sha256": "16ee45fe52e0aa0553c2d5abe1cf5923a019675b8ee72f4f6b7172f5631372c7"
     }
   ]
 }

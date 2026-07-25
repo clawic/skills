@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2666c90a3451c7d40ac4bc6911ced298e3a00a09beaa4f116fb810bc2d5fc723",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "oauth",
-    "name": "OAuth",
+    "name": "oauth",
     "description": "Implement OAuth 2.0 and OpenID Connect flows securely.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/oauth",
     "summary": "Flow Selection - Authorization Code + PKCE: use for all clients—web apps, mobile, SPAs - Client Credentials: service-to-service only—no user context - Implicit flow: deprecated—don't use; was for SPAs before PKCE existed",
     "repositoryPath": "skills/oauth",
     "manifestPath": "registry/skills/oauth.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/oauth/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/_meta.json",
+      "byteCount": 162,
+      "sha256": "5a43ebf40c5dca47b614140f07d10e3477732dc11b67b87123bc1eb247f033ae"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/oauth/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/oauth/SKILL.md",
+      "byteCount": 3805,
+      "sha256": "bdae8c189c1992d5a118b5f264793fe0179df3d9f0137fcf7f60b58c5c2fe817"
     }
   ]
 }

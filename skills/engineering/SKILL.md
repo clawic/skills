@@ -1,7 +1,17 @@
 ---
-name: Engineering
+name: engineering
+slug: engineering
+version: 1.0.0
 description: Support engineering understanding from DIY projects to professional practice and research.
-metadata: {"clawdbot":{"emoji":"⚙️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/engineering
+metadata:
+  clawdbot:
+    emoji: ⚙️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Engineering
 ---
 
 ## Detect Level, Adapt Everything

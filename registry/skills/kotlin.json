@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "55d6d41576bd40f921fa0a47698ac4136b96e4dd8236ddad9d43c054ea65002b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "kotlin",
-    "name": "Kotlin",
+    "name": "kotlin",
     "description": "Build robust Android and multiplatform apps with Kotlin idioms, coroutines, and null safety.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/kotlin",
     "summary": "Quick Reference | Topic | File | |-------|------| | Null safety operators and patterns | `nullsafety.md` | | Coroutines, flows, structured concurrency | `coroutines.md` | | Collections, sequences, data classes | `collect",
     "repositoryPath": "skills/kotlin",
     "manifestPath": "registry/skills/kotlin.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/kotlin/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/_meta.json",
+      "byteCount": 240,
+      "sha256": "1730aae86a2ee562231b8588377f04e110f7b9e9a6faf627faf10a99429bc618"
     },
     {
       "path": "advanced.md",
       "downloadPath": "skills/kotlin/advanced.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/advanced.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/advanced.md",
+      "byteCount": 1893,
+      "sha256": "95fd13eba9b65bb15c4a7b79f02e6eb6dd5f66801611e879345ff51554a664ee"
     },
     {
       "path": "android.md",
       "downloadPath": "skills/kotlin/android.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/android.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/android.md",
+      "byteCount": 1656,
+      "sha256": "8aa1667e3bc8fe46a68894fc69ca2d523e8c17f1f8d9c6bab6bfb7cb1cc2df30"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/kotlin/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/collections.md",
+      "byteCount": 837,
+      "sha256": "a6af6069ab37b51411155ef30cf6afce19ec70bd3b52f43f77d74dfa68c72ab5"
     },
     {
       "path": "coroutines.md",
       "downloadPath": "skills/kotlin/coroutines.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/coroutines.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/coroutines.md",
+      "byteCount": 1986,
+      "sha256": "c87ba94594596da6d19db4f93e42d76fb59ac86bd568a4f550c704e4bba48924"
     },
     {
       "path": "idioms.md",
       "downloadPath": "skills/kotlin/idioms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/idioms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/idioms.md",
+      "byteCount": 1150,
+      "sha256": "9de30df1050f73580e091195d9b12c703b2896d29ef0e7954e822537b340a3de"
     },
     {
       "path": "interop.md",
       "downloadPath": "skills/kotlin/interop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/interop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/interop.md",
+      "byteCount": 850,
+      "sha256": "c878a401606c350c991e9a00a6a3cefdb83a5aceea2e52187e60743833423f66"
     },
     {
       "path": "nullsafety.md",
       "downloadPath": "skills/kotlin/nullsafety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/nullsafety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/nullsafety.md",
+      "byteCount": 625,
+      "sha256": "26b96538ecdff490b923e0bfc89ab0e6aea6932b53314045842940c9f3f5bb77"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/kotlin/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/SKILL.md",
+      "byteCount": 2526,
+      "sha256": "8e7dbda72b99441fe8da0a6ab6452358533c017d33081da0c81b3163a56eaf4c"
     }
   ]
 }

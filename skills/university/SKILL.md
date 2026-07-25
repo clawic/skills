@@ -1,9 +1,19 @@
 ---
-name: University
+name: university
 slug: university
 version: 1.0.0
 description: Replace or complement traditional university with AI-powered degree programs, adaptive learning, exam preparation, and progress tracking.
-metadata: {"clawdbot":{"emoji":"🎓","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/university
+metadata:
+  clawdbot:
+    emoji: 🎓
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: University
 ---
 
 ## When to Use
@@ -24,10 +34,10 @@ User wants to: learn a complete degree/career autodidactically, support their cu
 
 ## Workspace Structure
 
-All learning data lives in ~/university/:
+All learning data lives in ~/Clawic/data/university/:
 
 ```
-~/university/
+~/Clawic/data/university/
 ├── degrees/              # One folder per degree/career/certification
 │   ├── index.md          # Active degrees list with status
 │   └── [degree-name]/    # Per-degree folder
@@ -81,4 +91,4 @@ See `degrees.md` for setup workflows per mode.
 2. Assess: Current knowledge level, available time per week
 3. Generate: Curriculum with realistic timeline
 4. Configure: Study preferences (formats, schedule, goals)
-5. Create: ~/university/ structure
+5. Create: ~/Clawic/data/university/ structure

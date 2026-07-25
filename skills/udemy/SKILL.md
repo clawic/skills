@@ -1,9 +1,14 @@
 ---
-name: Udemy
+name: udemy
 slug: udemy
 version: 1.0.0
-changelog: Initial release
 description: Create, publish, and monetize Udemy courses with curriculum design, AI-assisted content creation, and platform compliance.
+homepage: https://clawic.com/skills/udemy
+changelog: Initial release
+metadata:
+  clawdbot:
+    emoji: 🎓
+    displayName: Udemy
 ---
 
 ## Quick Reference

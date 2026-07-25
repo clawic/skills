@@ -1,7 +1,17 @@
 ---
-name: Teacher
+name: teacher
+slug: teacher
+version: 1.0.0
 description: Explain concepts clearly, adapt to learner levels, and guide understanding with effective teaching patterns.
-metadata: {"clawdbot":{"emoji":"📚","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/teacher
+metadata:
+  clawdbot:
+    emoji: 📚
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Teacher
 ---
 
 # Teaching Rules

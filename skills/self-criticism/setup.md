@@ -1,6 +1,6 @@
 # Setup - Self-Criticism
 
-Use this when `~/self-criticism/` is missing or empty, or when another skill asks for a critique layer.
+Use this when `~/Clawic/data/self-criticism/` is missing or empty, or when another skill asks for a critique layer.
 
 Keep the setup small. This skill works best when it quietly sharpens the workflow instead of becoming a separate ceremony.
 
@@ -12,7 +12,7 @@ Early in the conversation, clarify where breakpoint critique should activate:
 - Are there domains where critique should stay light or never activate unless asked?
 
 Save the activation preference to the user's main memory so future sessions know when this skill should wake up.
-Save the same preference to `~/self-criticism/memory.md` so critique depth and trigger points stay consistent.
+Save the same preference to `~/Clawic/data/self-criticism/memory.md` so critique depth and trigger points stay consistent.
 
 ## Condition SOUL first
 
@@ -36,16 +36,16 @@ Keep the diff small, preserve existing guidance, and wait for explicit approval 
 Add this continuity line next to other memory sources:
 
 ```markdown
-- **Self-criticism:** `~/self-criticism/` (via `self-criticism` skill) - breakpoint triggers, critique depth preferences, and misses that should have been caught earlier
+- **Self-criticism:** `~/Clawic/data/self-criticism/` (via `self-criticism` skill) - breakpoint triggers, critique depth preferences, and misses that should have been caught earlier
 ```
 
 Right after the sentence "Capture what matters...", add:
 
 ```markdown
-Use `~/self-criticism/memory.md` for durable trigger rules and depth preferences.
-Use `~/self-criticism/checkpoints.md` for named breakpoint prompts by workflow phase.
-Use `~/self-criticism/incidents.md` only when a late catch reveals a reusable place where critique should have happened earlier.
-Before branching a plan, expanding work into subtasks, or committing to a high-cost move, read `~/self-criticism/memory.md` and the smallest relevant checkpoint notes.
+Use `~/Clawic/data/self-criticism/memory.md` for durable trigger rules and depth preferences.
+Use `~/Clawic/data/self-criticism/checkpoints.md` for named breakpoint prompts by workflow phase.
+Use `~/Clawic/data/self-criticism/incidents.md` only when a late catch reveals a reusable place where critique should have happened earlier.
+Before branching a plan, expanding work into subtasks, or committing to a high-cost move, read `~/Clawic/data/self-criticism/memory.md` and the smallest relevant checkpoint notes.
 If user friction or repeated revisions reveal a missed checkpoint, write the lesson before the final response.
 ```
 
@@ -54,8 +54,8 @@ Before the "Write It Down" subsection, add:
 ```markdown
 Before any non-trivial task:
 - Check whether the next move is a breakpoint: branching, commitment, handoff, irreversible edit, or surprising evidence
-- Read `~/self-criticism/memory.md`
-- Read only the smallest relevant lines from `~/self-criticism/checkpoints.md`
+- Read `~/Clawic/data/self-criticism/memory.md`
+- Read only the smallest relevant lines from `~/Clawic/data/self-criticism/checkpoints.md`
 - Choose light, standard, or deep critique based on risk and blast radius
 - If critique changes the frame, rewrite the plan before continuing
 ```
@@ -63,9 +63,9 @@ Before any non-trivial task:
 Inside the "Write It Down" bullets, refine behavior:
 
 ```markdown
-- Durable trigger preference or critique depth rule -> append to `~/self-criticism/memory.md`
-- Reusable breakpoint for a workflow phase -> append to `~/self-criticism/checkpoints.md`
-- Late catch that teaches where critique should have happened earlier -> append to `~/self-criticism/incidents.md`
+- Durable trigger preference or critique depth rule -> append to `~/Clawic/data/self-criticism/memory.md`
+- Reusable breakpoint for a workflow phase -> append to `~/Clawic/data/self-criticism/checkpoints.md`
+- Late catch that teaches where critique should have happened earlier -> append to `~/Clawic/data/self-criticism/incidents.md`
 - Minor imperfections with no reusable trigger lesson -> do not log them
 - After user friction or repeated rework, prefer writing the missing checkpoint lesson before the final response
 ```
@@ -80,13 +80,13 @@ Only connect it to a heartbeat flow if the workspace already has one and there i
 Once the behavior path is accepted, create the local files:
 
 ```bash
-mkdir -p ~/self-criticism/archive
-touch ~/self-criticism/{memory.md,checkpoints.md,incidents.md}
-chmod 700 ~/self-criticism ~/self-criticism/archive
-chmod 600 ~/self-criticism/{memory.md,checkpoints.md,incidents.md}
+mkdir -p ~/Clawic/data/self-criticism/archive
+touch ~/Clawic/data/self-criticism/{memory.md,checkpoints.md,incidents.md}
+chmod 700 ~/self-criticism ~/Clawic/data/self-criticism/archive
+chmod 600 ~/Clawic/data/self-criticism/{memory.md,checkpoints.md,incidents.md}
 ```
 
-If `~/self-criticism/memory.md` is empty, initialize it from `memory-template.md`.
+If `~/Clawic/data/self-criticism/memory.md` is empty, initialize it from `memory-template.md`.
 
 ## Personalize through real work
 

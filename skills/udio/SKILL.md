@@ -1,10 +1,23 @@
 ---
-name: Udio
+name: udio
 slug: udio
 version: 1.0.0
-homepage: https://clawic.com/skills/udio
 description: Generate AI music with Udio via API wrappers or browser automation, with prompt engineering and song extensions.
-metadata: {"clawdbot":{"emoji":"🎵","requires":{"bins":["python3"],"env":["UDIO_AUTH_TOKEN"]},"primaryEnv":"UDIO_AUTH_TOKEN","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/udio
+metadata:
+  clawdbot:
+    emoji: 🎵
+    requires:
+      bins:
+      - python3
+      env:
+      - UDIO_AUTH_TOKEN
+    primaryEnv: UDIO_AUTH_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Udio
 ---
 
 ## Setup
@@ -17,10 +30,10 @@ User wants to generate music with Udio. Agent can use API wrappers for programma
 
 ## Architecture
 
-Memory at `~/udio/`. See `memory-template.md` for structure.
+Memory at `~/Clawic/data/udio/`. See `memory-template.md` for structure.
 
 ```
-~/udio/
+~/Clawic/data/udio/
 ├── [memory.md]       # Created on first use: preferences, auth token location
 ├── [projects/]       # Per-project song tracking
 └── [songs/]          # Downloaded audio files
@@ -232,7 +245,7 @@ Add to final extend/outro:
 
 ## Data Storage
 
-This skill creates `~/udio/` on first use:
+This skill creates `~/Clawic/data/udio/` on first use:
 - **memory file** — Preferences, successful prompts, token location reference
 - **projects folder** — Per-project tracking with seeds and URLs
 - **songs folder** — Downloaded audio files (optional)
@@ -246,12 +259,12 @@ All data stays local. Auth tokens should be stored in system keychain, not plain
 - Navigate udio.com with browser automation (user must be logged in)
 - Craft optimized prompts for Udio's model (no token needed)
 - Track projects, seeds, and successful patterns locally
-- Download generated audio files to `~/udio/songs/`
+- Download generated audio files to `~/Clawic/data/udio/songs/`
 
 **This skill does NOT:**
 - Store auth tokens in plain text (must use keychain/credential manager)
 - Bypass Udio's rate limits or terms of service
-- Access files outside `~/udio/`
+- Access files outside `~/Clawic/data/udio/`
 - Auto-extract tokens without user guidance
 
 ## Security Notes
@@ -281,12 +294,12 @@ Auth token is sent with API requests. No other data leaves the machine.
 By using this skill with API wrappers, prompts and lyrics are sent to Udio's servers for music generation. Only use if you trust Udio with your creative content. Review Udio's terms of service at udio.com/terms.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `audio` — Audio processing and editing
 - `video` — Combine music with video content
 - `ffmpeg` — Audio format conversion
 
 ## Feedback
 
-- If useful: `clawhub star udio`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/udio
+- Latest version: https://clawic.com/skills/udio

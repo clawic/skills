@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fe67aab2ab1eb67dc8fb295a1ebcd9cb1fdc2016d7454463896080897380210a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "vite",
-    "name": "Vite",
+    "name": "vite",
     "description": "Configure and optimize Vite for development, production builds, and library bundling.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/vite",
     "summary": "Vite Patterns Environment Variables - Only `VITE_` prefixed vars are exposed to client code — `DB_PASSWORD` stays server-side, `VITE_API_URL` is bundled - Access via `import.meta.env.VITE_*` not `process.env` — process.e",
     "repositoryPath": "skills/vite",
     "manifestPath": "registry/skills/vite.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/vite/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vite/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vite/_meta.json",
+      "byteCount": 160,
+      "sha256": "aba7070c3e42a416d0a987a5e17ef7465df7bab064fc6b6d213b3bff143c5a81"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vite/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vite/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vite/SKILL.md",
+      "byteCount": 4583,
+      "sha256": "0452840900e947d20a5497a32ad3701ef829cb7719d1ec0f2a4b5afc65ac9684"
     }
   ]
 }

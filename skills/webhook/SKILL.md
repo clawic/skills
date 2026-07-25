@@ -1,7 +1,17 @@
 ---
-name: Webhook
+name: webhook
+slug: webhook
+version: 1.0.0
 description: Implement secure webhook receivers and senders with proper verification and reliability.
-metadata: {"clawdbot":{"emoji":"🪝","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/webhook
+metadata:
+  clawdbot:
+    emoji: 🪝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Webhook
 ---
 
 ## Receiving: Signature Verification

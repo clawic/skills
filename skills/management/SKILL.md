@@ -1,7 +1,17 @@
 ---
-name: Management
+name: management
+slug: management
+version: 1.0.0
 description: Management principles, team leadership, and organizational effectiveness.
-metadata: {"clawdbot":{"emoji":"👔","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/management
+metadata:
+  clawdbot:
+    emoji: 👔
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Management
 ---
 
 ## For Individual Contributors: Navigating Upward

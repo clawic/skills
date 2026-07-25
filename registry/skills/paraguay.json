@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "5bb634af37cd845ce34909b2ee8de8cade970f1b6e0519fbc2b6a2f56da4232e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "paraguay",
-    "name": "Paraguay",
+    "name": "paraguay",
     "description": "Plan Paraguay trips with border-savvy routing, river-city priorities, and practical guidance for Asuncion, Encarnacion, Ciudad del Este, and the Chaco.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/paraguay",
-    "summary": "Setup If `~/paraguay/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Paraguay trip and needs more than generic inspiration: how to split time between Asuncion, the south,",
+    "summary": "Setup If `~/Clawic/data/paraguay/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Paraguay trip and needs more than generic inspiration: how to split time between Asuncion",
     "repositoryPath": "skills/paraguay",
     "manifestPath": "registry/skills/paraguay.json"
   },
@@ -22,127 +25,177 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/paraguay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/_meta.json",
+      "byteCount": 168,
+      "sha256": "176933372864c338465a4c5eeced4f4f5c5331dff81eaf4067dd8f6a03facc0d"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/paraguay/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/accommodation.md",
+      "byteCount": 2076,
+      "sha256": "01251f71e9b7b88e9128a4e630d1ce1c4d24449d85e91dbb5942a386826e3fc8"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/paraguay/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/apps.md",
+      "byteCount": 1500,
+      "sha256": "d2a24f2f99895764acb11f8ae0f9c624b5bf52807ba872c62025d8f11c728f18"
     },
     {
       "path": "asuncion.md",
       "downloadPath": "skills/paraguay/asuncion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/asuncion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/asuncion.md",
+      "byteCount": 3008,
+      "sha256": "acb50257e9697fa98ea681c618490d9d19384b4dd675d438b8dd6cf836fb2060"
     },
     {
       "path": "beaches-and-waterfronts.md",
       "downloadPath": "skills/paraguay/beaches-and-waterfronts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/beaches-and-waterfronts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/beaches-and-waterfronts.md",
+      "byteCount": 1575,
+      "sha256": "7a3d2c8d8e41cbb5406de93c27ae5b3fddca98c03ce9d84694beabe4454c7a9b"
     },
     {
       "path": "border-shopping.md",
       "downloadPath": "skills/paraguay/border-shopping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/border-shopping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/border-shopping.md",
+      "byteCount": 1946,
+      "sha256": "d84348855bd4631d157dcf3d9e0136246603677138632b3179467d70742f9377"
     },
     {
       "path": "chaco-and-north.md",
       "downloadPath": "skills/paraguay/chaco-and-north.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/chaco-and-north.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/chaco-and-north.md",
+      "byteCount": 2148,
+      "sha256": "bd122087e62078d45c99533e9507621fb62c947d6e7971fc236cbd32ad4d35d9"
     },
     {
       "path": "ciudad-del-este.md",
       "downloadPath": "skills/paraguay/ciudad-del-este.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/ciudad-del-este.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/ciudad-del-este.md",
+      "byteCount": 2454,
+      "sha256": "9a7718244030fad8f5622615be3f404f795dea6ccfbd0cd02bb3816b8f0bd2fb"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/paraguay/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/culture.md",
+      "byteCount": 1456,
+      "sha256": "38a25c63a0e61ae4f9a1d0ece279d5ee06e9a4a261a5e1a8581eb3d6f9adfab6"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/paraguay/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/emergencies.md",
+      "byteCount": 1681,
+      "sha256": "e73145e77e349e4ea21dc5eb52fa0012f5d417af27f3ae24dad03ffb06061c7b"
     },
     {
       "path": "encarnacion.md",
       "downloadPath": "skills/paraguay/encarnacion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/encarnacion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/encarnacion.md",
+      "byteCount": 2569,
+      "sha256": "6af67d252ebc9388f3b27af4140717be283927a537dd1d0214d4744fdd9322a1"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/paraguay/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/experiences.md",
+      "byteCount": 1658,
+      "sha256": "4f90c15bd9ceb5b2780767c66533d73bc703f765caabad47528488f9f0369d53"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/paraguay/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/food-guide.md",
+      "byteCount": 2280,
+      "sha256": "2d4670059743bf3a836d2832eba43736b91baae5b7707e726ba26a46371f7f7e"
     },
     {
       "path": "hiking-and-nature.md",
       "downloadPath": "skills/paraguay/hiking-and-nature.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/hiking-and-nature.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/hiking-and-nature.md",
+      "byteCount": 1502,
+      "sha256": "2b431ac818df6ccfde2f99c44285ea74f886bfae2565f6fa6e686f8b53eb4729"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/paraguay/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/itineraries.md",
+      "byteCount": 1926,
+      "sha256": "449157f63c6662bfab8ce627ca53ed0670363fd3f598b8854a3025f530128b6d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/paraguay/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/memory-template.md",
+      "byteCount": 1557,
+      "sha256": "bf19ecb7b83ccc69b955d2a10db1c8b028b66e5eea36f7e238e115c96708a48c"
     },
     {
       "path": "money-and-payments.md",
       "downloadPath": "skills/paraguay/money-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/money-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/money-and-payments.md",
+      "byteCount": 2001,
+      "sha256": "9fd7a91e5fd1610d2237b5d27f1ea6dd3d61b11ef853e0433472196d0dc83067"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/paraguay/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/nightlife.md",
+      "byteCount": 1776,
+      "sha256": "b768f58e768de02cbb81e8dae2f25c919ef62ea7c321619e631adb306b967ba6"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/paraguay/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/regions.md",
+      "byteCount": 1343,
+      "sha256": "f28f21856ed5d350f1f95b96fb580b453fdaced54f79b455d5d60290ef977e6a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/paraguay/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/setup.md",
+      "byteCount": 2728,
+      "sha256": "22a414c29f4a622551be32d7a6394f22e0b967ad3157f033b6fb8774e0f08ecb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/paraguay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/SKILL.md",
+      "byteCount": 5426,
+      "sha256": "542e0a0208cb48509050d875c8bdcfde36870700432cb32482d04a05c5c8951e"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/paraguay/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/telecoms.md",
+      "byteCount": 1377,
+      "sha256": "b666ca32200b24f8841cd57449c2baf5fdc05cd914c78b6a2b391eff27852c1e"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/paraguay/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/transport.md",
+      "byteCount": 1846,
+      "sha256": "881c55873b13a352e560aa42d4ca115792556f65f654aa7d676720af5b93325f"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/paraguay/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/with-kids.md",
+      "byteCount": 1450,
+      "sha256": "2a11a0d6909004eb02f7db0955f8e032bfaf540673fb9f9edf383498efc160b5"
     },
     {
       "path": "yerba-and-drinks.md",
       "downloadPath": "skills/paraguay/yerba-and-drinks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/yerba-and-drinks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paraguay/yerba-and-drinks.md",
+      "byteCount": 1478,
+      "sha256": "51e6aa239b639c86786331fdd1057eecea439ba21e84887ab948fa745d888534"
     }
   ]
 }

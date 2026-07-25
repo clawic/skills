@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7ebfa1a80df8142ba0e63dd3de36d7e9b2f1c9d41c2a0d2c7cc6b520140ee0d2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "decide",
-    "name": "Decide",
+    "name": "decide",
     "description": "Self-learn your decision patterns to safely build its own decision-making over time.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/decide",
-    "summary": "Architecture Decision state lives in `~/decide/`. If that folder is missing or empty, run `setup.md`. ```text ~/decide/ ├── memory.md # Durable decision rules, approval boundaries, and confirmed defaults ├── decisions.md",
+    "summary": "Architecture Decision state lives in `~/Clawic/data/decide/`. If that folder is missing or empty, run `setup.md`. ```text ~/Clawic/data/decide/ ├── memory.md # Durable decision rules, approval boundaries, and confirmed d",
     "repositoryPath": "skills/decide",
     "manifestPath": "registry/skills/decide.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/decide/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/_meta.json",
+      "byteCount": 240,
+      "sha256": "35ff0d7fe2291df410988be214cfd9f1670778e82306a4aff3da9892b216072a"
     },
     {
       "path": "components.md",
       "downloadPath": "skills/decide/components.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/components.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/components.md",
+      "byteCount": 1380,
+      "sha256": "2b994e48eff0b8e0b18a840c2280c9f56e6e1312a0c4163f2caad7f65abbff79"
     },
     {
       "path": "confidence.md",
       "downloadPath": "skills/decide/confidence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/confidence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/confidence.md",
+      "byteCount": 1460,
+      "sha256": "63b4a83f1c096c4407cd191b15ab2ce35191aee2c9c38458998ef0b3c8f900e8"
     },
     {
       "path": "exceptions.md",
       "downloadPath": "skills/decide/exceptions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/exceptions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/exceptions.md",
+      "byteCount": 1194,
+      "sha256": "8553805006b4ae5efe9b94324a8fe1ae24b6ecec31cf94f384dc4beb6cc0f178"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/decide/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/memory-template.md",
+      "byteCount": 2231,
+      "sha256": "ce19b5394ae3ef0ec7e1f87c199eb1c1af7dd0577031294c301c6a354102e5b3"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/decide/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/migration.md",
+      "byteCount": 1302,
+      "sha256": "55b66077c132fec11a5073fb79b9b40c06a273144ee2a5b1c86b1cbd089c8c8f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/decide/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/setup.md",
+      "byteCount": 5058,
+      "sha256": "f72885040ed2febf2431ed668587185d5faf236763e836bc69d2cc1b9b8df4de"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/decide/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/decide/SKILL.md",
+      "byteCount": 7484,
+      "sha256": "9fdbc3b9d88dc22a56bd3cd28aadffd313dedc8d0194a778cb5902db8481276f"
     }
   ]
 }

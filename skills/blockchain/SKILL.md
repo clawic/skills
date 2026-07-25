@@ -1,6 +1,13 @@
 ---
-name: "Blockchain"
-description: "Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems."
+name: blockchain
+slug: blockchain
+version: 1.0.0
+description: Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.
+homepage: https://clawic.com/skills/blockchain
+metadata:
+  clawdbot:
+    emoji: ⛓️
+    displayName: Blockchain
 ---
 
 ## What This Covers

@@ -1,7 +1,13 @@
 ---
-name: Chief Information Officer
+name: cio
 slug: cio
+version: 1.0.0
 description: Drive IT strategy, digital transformation, vendor management, architecture decisions, and technology governance.
+homepage: https://clawic.com/skills/cio
+metadata:
+  clawdbot:
+    emoji: 💻
+    displayName: Chief Information Officer
 ---
 
 ## When to Use

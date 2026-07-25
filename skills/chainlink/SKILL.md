@@ -1,7 +1,17 @@
 ---
-name: Chainlink
+name: chainlink
+slug: chainlink
+version: 1.0.0
 description: Assist with Chainlink LINK tokens, oracle integrations, staking, and price feed usage.
-metadata: {"clawdbot":{"emoji":"⬡","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/chainlink
+metadata:
+  clawdbot:
+    emoji: ⬡
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Chainlink
 ---
 
 ## LINK Token Basics

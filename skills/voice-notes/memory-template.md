@@ -1,8 +1,8 @@
 # Memory Setup
 
 ```bash
-mkdir -p ~/voice-notes/{transcripts,notes,archive}
-touch ~/voice-notes/{memory.md,index.md}
+mkdir -p ~/Clawic/data/voice-notes/{transcripts,notes,archive}
+touch ~/Clawic/data/voice-notes/{memory.md,index.md}
 ```
 
 ## memory.md

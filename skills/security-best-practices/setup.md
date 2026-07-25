@@ -1,6 +1,6 @@
 # Setup - Security Best Practices
 
-Read this when `~/security-best-practices/` is missing or empty.
+Read this when `~/Clawic/data/security-best-practices/` is missing or empty.
 
 ## Your Attitude
 
@@ -45,7 +45,7 @@ Store durable context only:
 - Severity thresholds and reporting format preferences
 - Repeated project-specific security constraints
 
-Store only in `~/security-best-practices/` after explicit user consent.
+Store only in `~/Clawic/data/security-best-practices/` after explicit user consent.
 
 ## Golden Rule
 

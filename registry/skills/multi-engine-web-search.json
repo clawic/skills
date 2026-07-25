@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "2a9297bf496eaecb312cb3bf058abb6bbbeae78ff3325021c16371757dafb08a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "multi-engine-web-search",
-    "name": "Multi-Engine Web Search",
+    "name": "multi-engine-web-search",
     "description": "Search Google, Bing, DuckDuckGo, Brave, Startpage, Yahoo, Yandex, Baidu, Sogou, Qwant, Ecosia, Mojeek, and WolframAlpha from one skill.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/multi-engine-web-search",
@@ -22,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/multi-engine-web-search/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/_meta.json",
+      "byteCount": 198,
+      "sha256": "33b86d09f63bce23438b9533ec4e0c35f70ee2dc42039506b7d6fce8500bc185"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/multi-engine-web-search/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/memory-template.md",
+      "byteCount": 706,
+      "sha256": "c44f7bfb93e420cd0f8f79ae5999e5cc6ea421191a8a835f310e2345693e44ff"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/multi-engine-web-search/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/setup.md",
+      "byteCount": 1170,
+      "sha256": "55d023b852d1ae65f585aef2d3f27ab64e169db4335156e2d9cde31dca66794c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/multi-engine-web-search/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/multi-engine-web-search/SKILL.md",
+      "byteCount": 7292,
+      "sha256": "b97cb68796c41ac156cf218b20b2ed1c4d87e47090af9a504c4b21fb5f65bdb6"
     }
   ]
 }

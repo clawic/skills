@@ -1,11 +1,22 @@
 ---
-name: Dog
+name: dog
 slug: dog
 version: 1.0.0
-homepage: https://clawic.com/skills/dog
 description: Track dog health, walks, training, routines, travel, and vet coordination with species-aware memory and emergency triage.
+homepage: https://clawic.com/skills/dog
 changelog: Initial release with dog care tracking, walking and training workflows, travel prep, and emergency-safe vet coordination.
-metadata: {"clawdbot":{"emoji":"🐕","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/dog/"]}}
+metadata:
+  clawdbot:
+    emoji: 🐕
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/dog/
+    displayName: Dog
 ---
 
 ## Setup
@@ -19,10 +30,10 @@ Use this for real dog-care operations, not for generic animal trivia, memes, or 
 
 ## Architecture
 
-Memory lives in `~/dog/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/dog/`. See `memory-template.md` for structure.
 
 ```text
-~/dog/
+~/Clawic/data/dog/
 ├── memory.md           # Household summary, activation, red flags, shared rules
 ├── dogs/
 │   └── {name}/
@@ -54,7 +65,7 @@ Memory lives in `~/dog/`. See `memory-template.md` for structure.
 
 This skill ONLY:
 - Helps manage real-world dog care, records, logistics, walks, and behavior tracking.
-- Uses local files in `~/dog/` if the user approves memory.
+- Uses local files in `~/Clawic/data/dog/` if the user approves memory.
 - Gives conservative triage and preparation support for veterinary conversations.
 
 This skill NEVER:
@@ -174,18 +185,18 @@ No other data is sent externally.
 - None.
 
 **Data stored locally if approved by the user:**
-- household summary and activation preference in `~/dog/memory.md`
+- household summary and activation preference in `~/Clawic/data/dog/memory.md`
 - one per-dog record with profile, health, routines, behavior, training, and logistics
 - supply thresholds and sitter notes
 
 **This skill does NOT:**
-- access files outside `~/dog/` for storage
+- access files outside `~/Clawic/data/dog/` for storage
 - send dog data to third parties
 - create automations or reminders automatically
 - replace veterinary care for emergencies or diagnosis
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `memory` - persistent local memory patterns for durable pet context
 - `remind` - reminder workflows for meds, appointments, and recurring care
 - `shopping` - purchase planning and reorder support for food and supplies
@@ -194,5 +205,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star dog`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/dog
+- Latest version: https://clawic.com/skills/dog

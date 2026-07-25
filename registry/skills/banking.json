@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1586b35bb174018d475346606a71a862589ed1982a8651fc81b3bc2c432b3bea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "banking",
-    "name": "Banking",
+    "name": "banking",
     "description": "Manage retail and business banking workflows with payment operations, account controls, reconciliation, fraud response, and compliant communication.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/banking",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/banking/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/_meta.json",
+      "byteCount": 166,
+      "sha256": "bb1fc71252e297ed084156526257eb6d63c09451e50133f12689c00ff0e104e3"
     },
     {
       "path": "compliance-scope.md",
       "downloadPath": "skills/banking/compliance-scope.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/compliance-scope.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/compliance-scope.md",
+      "byteCount": 1212,
+      "sha256": "8f53177b322d5a6d1b1ee787febb43f44aedc788534aba1a118f6cf968484b51"
     },
     {
       "path": "customer-messaging.md",
       "downloadPath": "skills/banking/customer-messaging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/customer-messaging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/customer-messaging.md",
+      "byteCount": 1309,
+      "sha256": "833811002ba019c7ff09b5d31b700f975ac8623e3ccca29e39490b9b8c96f9e3"
     },
     {
       "path": "incident-response.md",
       "downloadPath": "skills/banking/incident-response.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/incident-response.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/incident-response.md",
+      "byteCount": 1519,
+      "sha256": "8d58f3f66da815de642b4969dbd5a161e7011495104ac4bb6c94e9176d7f6213"
     },
     {
       "path": "intake-checklist.md",
       "downloadPath": "skills/banking/intake-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/intake-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/intake-checklist.md",
+      "byteCount": 1205,
+      "sha256": "af6afdd4a131378200c7a5a2edee8f07273ddc4a3593764ec8aa9f61375e375b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/banking/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/memory-template.md",
+      "byteCount": 1531,
+      "sha256": "32ad7cb4df69d013e71d915f915fbd457cd74f893f1965a194a8bde90bd8e40f"
     },
     {
       "path": "payment-ops.md",
       "downloadPath": "skills/banking/payment-ops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/payment-ops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/payment-ops.md",
+      "byteCount": 1538,
+      "sha256": "af31daf018bffd256dbd28c6d3af861b2f156f4a0621ebb5ff89fcd7b8cf5a16"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/banking/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/setup.md",
+      "byteCount": 1685,
+      "sha256": "31dd69df508d38f46a27658776616fa83280cf84f74dcd78ff4cbf55665a94ca"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/banking/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/banking/SKILL.md",
+      "byteCount": 5649,
+      "sha256": "65e8c74c39a35ccb65d5bda89622b8f4ef2c2803d91d80b788ae98bc96c2daa4"
     }
   ]
 }

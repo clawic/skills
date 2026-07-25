@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bdaa0dffb65626fd6e5f03fcfc4a7f4f720665d7e73d9d47c607db31de717419",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,11 @@
   },
   "skill": {
     "slug": "gratitude",
-    "name": "Gratitude",
+    "name": "gratitude",
     "description": "Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.",
-    "summary": "Core Behavior - Help user log what they're grateful for - Surface patterns and insights over time - Help identify gratitude when they're stuck - Create `~/gratitude/` as workspace File Structure ``` ~/gratitude/ ├── log/",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/gratitude",
+    "summary": "Core Behavior - Help user log what they're grateful for - Surface patterns and insights over time - Help identify gratitude when they're stuck - Create `~/Clawic/data/gratitude/` as workspace File Structure ``` ~/Clawic/",
     "repositoryPath": "skills/gratitude",
     "manifestPath": "registry/skills/gratitude.json"
   },
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/gratitude/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/_meta.json",
+      "byteCount": 170,
+      "sha256": "9be581306b4e648ea29242a8538bfb7a3ac55af8d607e639c8efad0a66814fe1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gratitude/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gratitude/SKILL.md",
+      "byteCount": 3002,
+      "sha256": "03ebe432140446a14d4c623ec133f3e1dcbc7640928119555190e7c8348742e7"
     }
   ]
 }

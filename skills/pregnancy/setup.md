@@ -1,6 +1,6 @@
 # Setup - Pregnancy (Tracker, Journal, Triage, Visit Prep)
 
-Read this when `~/pregnancy/` is missing or empty.
+Read this when `~/Clawic/data/pregnancy/` is missing or empty.
 Start naturally and answer the user's immediate question first.
 
 ## Your Attitude

@@ -1,6 +1,6 @@
 # Memory Template — Personal Finance Tracker
 
-Create `~/personal-finance-tracker/memory.md` only if the user wants continuity across sessions.
+Create `~/Clawic/data/personal-finance-tracker/memory.md` only if the user wants continuity across sessions.
 
 ```markdown
 # Personal Finance Tracker Memory
@@ -34,10 +34,10 @@ integration: pending
 
 If the user wants deeper continuity, create:
 
-- `~/personal-finance-tracker/accounts.md` — balances, account roles, sync notes
-- `~/personal-finance-tracker/recurring.md` — subscriptions, bills, annual expenses
-- `~/personal-finance-tracker/plans.md` — debt payoff, savings, and cut decisions
-- `~/personal-finance-tracker/reviews.md` — weekly and monthly snapshots
+- `~/Clawic/data/personal-finance-tracker/accounts.md` — balances, account roles, sync notes
+- `~/Clawic/data/personal-finance-tracker/recurring.md` — subscriptions, bills, annual expenses
+- `~/Clawic/data/personal-finance-tracker/plans.md` — debt payoff, savings, and cut decisions
+- `~/Clawic/data/personal-finance-tracker/reviews.md` — weekly and monthly snapshots
 
 ## Key Principles
 

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c1e1427bf0d0105c01f7c7d4893ccc59e83d8d0e84e180869eb372551fde127d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "croatian",
-    "name": "Croatian",
+    "name": "croatian",
     "description": "Write Croatian that sounds human. Not formal, not robotic, not AI-generated.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/croatian",
     "summary": "The Real Problem AI Croatian is technically correct but sounds off. Too formal. Too književni (literary). Natives write more casually, with particles and warmth. Match that. Formality Default Default register is too high",
     "repositoryPath": "skills/croatian",
     "manifestPath": "registry/skills/croatian.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/croatian/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/croatian/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/croatian/_meta.json",
+      "byteCount": 168,
+      "sha256": "e64c296ed6a90a41354217433c0f4c0878e5dd29a7715c8b9b194e48bfbe0b2e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/croatian/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/croatian/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/croatian/SKILL.md",
+      "byteCount": 1901,
+      "sha256": "f64b2ee2162e146fd19517545b7f6787e56d2c26256d50f656ab2f1e05805b07"
     }
   ]
 }

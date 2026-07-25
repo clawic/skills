@@ -1,6 +1,13 @@
 ---
-name: Competing
+name: competing
+slug: competing
+version: 1.0.0
 description: Improve systematically by analyzing losses, studying winners, and tracking progress against rivals in any competitive domain.
+homepage: https://clawic.com/skills/competing
+metadata:
+  clawdbot:
+    emoji: 🏆
+    displayName: Competing
 ---
 
 ## Core Framework
@@ -34,7 +41,7 @@ Don't rationalize. Don't blame externals. Extract the actionable insight.
 Create a tracking folder in the user's workspace:
 
 ```
-~/competing/
+~/Clawic/data/competing/
 ├── domains/           # Per-domain tracking
 ├── rivals.md          # Opponent profiles
 ├── log.md             # Win/loss log with lessons

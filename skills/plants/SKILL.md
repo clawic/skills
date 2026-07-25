@@ -1,14 +1,24 @@
 ---
-name: Plants
+name: plants
+slug: plants
+version: 1.0.0
 description: Build a personal plant care system with watering schedules, care logs, and seasonal reminders.
-metadata: {"clawdbot":{"emoji":"🌱","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/plants
+metadata:
+  clawdbot:
+    emoji: 🌱
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Plants
 ---
 
 ## Core Behavior
 - User mentions a plant → create entry with care requirements
 - Track watering and care → remind when due
 - Seasonal prompts → fertilizing, repotting, pruning timing
-- Create `~/plants/` as workspace
+- Create `~/Clawic/data/plants/` as workspace
 
 ## When User Adds a Plant
 - Name (common and scientific if known)
@@ -69,7 +79,7 @@ One file per plant: `pothos-living-room.md`
 
 ## Folder Structure
 ```
-~/plants/
+~/Clawic/data/plants/
 ├── indoor/
 │   ├── pothos-living-room.md
 │   └── monstera-bedroom.md

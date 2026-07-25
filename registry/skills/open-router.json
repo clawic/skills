@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "521e76fbdd1a1ce89419737b6c9fe966eb1ccf1d89de08136fd3b8a58e18c3cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "open-router",
-    "name": "Open Router",
+    "name": "open-router",
     "description": "Configure OpenRouter model routing with provider auth, model selection, fallback chains, and cost-aware defaults for stable multi-model workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/open-router",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/open-router/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/_meta.json",
+      "byteCount": 174,
+      "sha256": "807f21f5b17346acd4786a2e46e14883737a116d09115eb40aee567956bd5239"
     },
     {
       "path": "auth-and-provider.md",
       "downloadPath": "skills/open-router/auth-and-provider.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/auth-and-provider.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/auth-and-provider.md",
+      "byteCount": 1143,
+      "sha256": "b23be8b456820461230cdd259920a6aa4aa1ab8d577fff965373aabc5080a865"
     },
     {
       "path": "cost-guardrails.md",
       "downloadPath": "skills/open-router/cost-guardrails.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/cost-guardrails.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/cost-guardrails.md",
+      "byteCount": 1168,
+      "sha256": "cfaf410edfa2323ec0c4f048bdb36f3e9e576d612bc0a4dfcf185bd29e728d3d"
     },
     {
       "path": "fallback-reliability.md",
       "downloadPath": "skills/open-router/fallback-reliability.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/fallback-reliability.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/fallback-reliability.md",
+      "byteCount": 1311,
+      "sha256": "41fb58a018f173ffacf615aec07e9acb4c6f660f3f8f55f1f13deef443c27119"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/open-router/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/memory-template.md",
+      "byteCount": 1385,
+      "sha256": "80896f509876bc0ad4456ad552d920b74bba6d87884d5549ef8a0c1fc1f8d9a2"
     },
     {
       "path": "routing-playbooks.md",
       "downloadPath": "skills/open-router/routing-playbooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/routing-playbooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/routing-playbooks.md",
+      "byteCount": 1413,
+      "sha256": "d5020e80711e780f9ccc71d8786198379a3001b94ba2f252c8d073f97a43849d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/open-router/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/setup.md",
+      "byteCount": 1485,
+      "sha256": "75f343dfa9cbaace53092e2dbcacbae2c7ac222c549665c25b1b9d0e930919c5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/open-router/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/open-router/SKILL.md",
+      "byteCount": 5365,
+      "sha256": "cd353730a524321d736e9c6a902b2e5a0e6edc09ffde80593e7acba2cd8b0811"
     }
   ]
 }

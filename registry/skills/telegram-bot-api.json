@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f01fa01b9bf203c45c1508baec8f2cda52f81892d86fadbf5ab33ac0b2e5fb93",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "telegram-bot-api",
-    "name": "Telegram Bot API",
+    "name": "telegram-bot-api",
     "description": "Build Telegram bots with correct API calls, message formatting, keyboards, and webhook setup.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/telegram-bot-api",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/telegram-bot-api/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/_meta.json",
+      "byteCount": 184,
+      "sha256": "452e5190741fe9dc7944d32c4d22e3852bed76154a32e46d7f94370631f6b933"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/telegram-bot-api/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/errors.md",
+      "byteCount": 5675,
+      "sha256": "a0887cf1e3b4ab516b3bedd6135ad00be931392e9c66be96b26fb425b10b6255"
     },
     {
       "path": "formatting.md",
       "downloadPath": "skills/telegram-bot-api/formatting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/formatting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/formatting.md",
+      "byteCount": 4157,
+      "sha256": "92d1c26ff3188e9d8030f7d75ae5e38e6f4a282f9938e534cb73a90a746a64ab"
     },
     {
       "path": "keyboards.md",
       "downloadPath": "skills/telegram-bot-api/keyboards.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/keyboards.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/keyboards.md",
+      "byteCount": 5784,
+      "sha256": "20c3b08176eb3c77d1a6f1e2e4d071601b6dac04c5cf3636c30ba3a61d407c6e"
     },
     {
       "path": "media.md",
       "downloadPath": "skills/telegram-bot-api/media.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/media.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/media.md",
+      "byteCount": 6056,
+      "sha256": "833f8fae1c35b4656582fe55a75e439f3c5cdf9d459a145b178c70915203b9ef"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/telegram-bot-api/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/memory-template.md",
+      "byteCount": 1464,
+      "sha256": "4c8fa7c014683c4b0fabde1c81063a688aa2416b43282f08fcad1fe97f9aed5f"
     },
     {
       "path": "methods.md",
       "downloadPath": "skills/telegram-bot-api/methods.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/methods.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/methods.md",
+      "byteCount": 7954,
+      "sha256": "cc2230cb891467e816d08d0357de0dfcbd3fcb73974324fd9643f1da3701990e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/telegram-bot-api/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/setup.md",
+      "byteCount": 1970,
+      "sha256": "5a974f99efaadee0c1b5538021bed9ca50efa3ae7d3bccc38cd40f8f52fed775"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/telegram-bot-api/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/SKILL.md",
+      "byteCount": 5295,
+      "sha256": "854b5600e9bbf187dc708ef2394c6a786974a14c28cab6965e6bd3f9ba56c497"
     },
     {
       "path": "webhooks.md",
       "downloadPath": "skills/telegram-bot-api/webhooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/webhooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/telegram-bot-api/webhooks.md",
+      "byteCount": 6484,
+      "sha256": "89a8476f4fde0a3e3fd07b75794d88218636c66d9a49e271be29f9489a0f3032"
     }
   ]
 }

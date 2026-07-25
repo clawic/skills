@@ -1,11 +1,20 @@
 ---
-name: Engineer
+name: engineer
 slug: engineer
 version: 1.0.0
-homepage: https://clawic.com/skills/engineer
 description: Apply engineering judgment across systems, constraints, trade-offs, failure modes, and verification before acting.
+homepage: https://clawic.com/skills/engineer
 changelog: Initial release with constraint mapping, failure analysis, trade-off framing, and verification planning for real-world engineering decisions.
-metadata: {"clawdbot":{"emoji":"🛠️","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🛠️
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Engineer
 ---
 
 ## When to Use
@@ -26,11 +35,11 @@ Do not use this skill when the main task is writing or debugging code. Use `soft
 
 ## Architecture
 
-Memory lives in `~/engineer/`. If `~/engineer/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/engineer/`. If `~/Clawic/data/engineer/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 Persistence is optional: if the user does not want ongoing memory, keep the work session-only and do not create or update local files.
 
 ```text
-~/engineer/
+~/Clawic/data/engineer/
 ├── memory.md         # Optional activation preferences and output defaults
 ├── decisions/        # Optional decision records and option comparisons
 ├── assumptions/      # Optional assumption ledgers and open questions
@@ -124,7 +133,7 @@ These traps are where smart teams usually slip from engineering into guesswork.
 - None by default. This is an instruction-only engineering judgment skill.
 
 **Data stored locally:**
-- Optional activation preferences and reusable engineering defaults in `~/engineer/` only if the user wants persistence.
+- Optional activation preferences and reusable engineering defaults in `~/Clawic/data/engineer/` only if the user wants persistence.
 - Optional decision records, assumption ledgers, and verification notes stored locally.
 
 **This skill does NOT:**
@@ -139,7 +148,7 @@ This skill provides structured engineering reasoning and optional local note pat
 No credentials are required and no third-party services are contacted by default.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `architecture` - structure systems and interfaces when the main problem is technical architecture.
 - `analytics` - quantify metrics, thresholds, and trend signals behind engineering decisions.
 - `product-manager` - turn engineering constraints into product scope, priorities, and stakeholder trade-offs.
@@ -148,5 +157,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star engineer`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/engineer
+- Latest version: https://clawic.com/skills/engineer

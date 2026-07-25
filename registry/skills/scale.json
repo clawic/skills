@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "53598a744b0eac2751ff5c43288d4465f52c50368d342646e99c411a60fb7dd8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "scale",
-    "name": "Scale Frameworks",
+    "name": "scale",
     "description": "Scale systems, software architecture, and companies with bottleneck mapping, staged leverage plans, and risk-aware execution loops.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/scale",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/scale/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/_meta.json",
+      "byteCount": 173,
+      "sha256": "60d90cca956f2b2004ccc75a74b59e33a31ec93c4d2a40a371454a05fa288480"
     },
     {
       "path": "architecture-scale-framework.md",
       "downloadPath": "skills/scale/architecture-scale-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/architecture-scale-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/architecture-scale-framework.md",
+      "byteCount": 1407,
+      "sha256": "0cb97b78d0223b748d72c6216b2360b34f7ccb29c5a4f27def60774d2c2dd66d"
     },
     {
       "path": "company-scale-framework.md",
       "downloadPath": "skills/scale/company-scale-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/company-scale-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/company-scale-framework.md",
+      "byteCount": 1320,
+      "sha256": "dabeef6ed1daef36e85f3e7e9e0d9884ed8c0f59a884d2d6046f28228d97eb66"
     },
     {
       "path": "execution-cadence.md",
       "downloadPath": "skills/scale/execution-cadence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/execution-cadence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/execution-cadence.md",
+      "byteCount": 1255,
+      "sha256": "a67b516e5508662ae3727209d13100d6928e2d3f1aa9a407cfb60d85e1f5f4d0"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/scale/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/memory-template.md",
+      "byteCount": 1790,
+      "sha256": "5443f9eac13c18b58d9ca69ad9f6217d5f881610f32e5c3bfe61f656c0fdf0b8"
     },
     {
       "path": "scale-diagnostic.md",
       "downloadPath": "skills/scale/scale-diagnostic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/scale-diagnostic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/scale-diagnostic.md",
+      "byteCount": 1433,
+      "sha256": "db9c788a8e13f6210acc8609b0dbaa804c3c2c9b1d42d1d997d1ecdc37a2264c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/scale/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/setup.md",
+      "byteCount": 1861,
+      "sha256": "2097c41357a6f7e64e4ebe84e8d5acfbffc1f4987d773c9d584963bcb9f6c111"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/scale/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/SKILL.md",
+      "byteCount": 6042,
+      "sha256": "a570dadfe26aead14051379cc2480aeb72c50637eebe0e6a3c864f59984196f4"
     },
     {
       "path": "system-scale-framework.md",
       "downloadPath": "skills/scale/system-scale-framework.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/system-scale-framework.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scale/system-scale-framework.md",
+      "byteCount": 1362,
+      "sha256": "47974485f6db2eb2204ac84058597c7a546f8c7ba45ecfeb84abe0d2db66b1d0"
     }
   ]
 }

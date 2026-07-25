@@ -1,6 +1,13 @@
 ---
-name: Use Cases
-description: "Discover what AI agents can do for you with practical examples by role, task type, and skill level."
+name: use-cases
+slug: use-cases
+version: 1.0.0
+description: Discover what AI agents can do for you with practical examples by role, task type, and skill level.
+homepage: https://clawic.com/skills/use-cases
+metadata:
+  clawdbot:
+    emoji: 📋
+    displayName: Use Cases
 ---
 
 ## Who This Is For

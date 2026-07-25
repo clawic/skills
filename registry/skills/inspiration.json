@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1dc92ebee06e3138ad4f3cb37059f2059e494cbbe8e54672a8933845b407b8bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "inspiration",
-    "name": "Inspiration",
+    "name": "inspiration",
     "description": "Find design and AI art inspiration from curated galleries, screenshot libraries, and creative showcases.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/inspiration",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/inspiration/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/_meta.json",
+      "byteCount": 174,
+      "sha256": "729e74a84a6576daa79eab948ca01a5288579262c0842d85e70798a4326780d8"
     },
     {
       "path": "ai-galleries.md",
       "downloadPath": "skills/inspiration/ai-galleries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/ai-galleries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/ai-galleries.md",
+      "byteCount": 5543,
+      "sha256": "2004e79854f493fb8db297deb9b221fe4a35c85e1c7eba24dd60ca11889ece1f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/inspiration/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/memory-template.md",
+      "byteCount": 668,
+      "sha256": "00b7d2d6dc01f05db8b3a066ee6cb9e9c64d0e3527db079d02687f996db4ea6f"
     },
     {
       "path": "mobile-screenshots.md",
       "downloadPath": "skills/inspiration/mobile-screenshots.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/mobile-screenshots.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/mobile-screenshots.md",
+      "byteCount": 7029,
+      "sha256": "1ab4e9906a86860431872bfc19ecff9be49adffb8228f54bd58b42c2114b5409"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/inspiration/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/setup.md",
+      "byteCount": 1555,
+      "sha256": "8082c4c2b8a700493b52761a5865a3c9d5090faf38c396829cade5e91ab4c929"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/inspiration/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/SKILL.md",
+      "byteCount": 6661,
+      "sha256": "bc517e2c9a7400e59380e3909c414d29263b28be5aabdf28ca4f2b06174baa1b"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/inspiration/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/inspiration/sources.md",
+      "byteCount": 13363,
+      "sha256": "e876ef1a0de9c9cb59f1143de86f83062ab2f63ba16815a3f96b6431598cd708"
     }
   ]
 }

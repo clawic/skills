@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7e56734bb246c3f937a9ceacaced8562ebc0be8c7292d646c177047e1890abd6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "los-angeles",
-    "name": "Los Angeles",
+    "name": "los-angeles",
     "description": "Navigate Los Angeles as visitor, resident, tech worker, student, or creative with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/los-angeles",
     "summary": "When to Use User asks about Los Angeles for any purpose: visiting, moving, working, studying, or pursuing entertainment/creative careers. Agent provides practical guidance with current data. Quick Reference | Topic | Fil",
     "repositoryPath": "skills/los-angeles",
     "manifestPath": "registry/skills/los-angeles.json"
@@ -21,132 +25,184 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/los-angeles/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/_meta.json",
+      "byteCount": 174,
+      "sha256": "90a49c892a977b967191d9e8ca264c7313699117c56987b72d9a330e01542a0b"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/los-angeles/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/climate.md",
+      "byteCount": 6272,
+      "sha256": "8913239e5049d407b9fb6e7e40a3da6aaca7a23ddf2a0914d968f8b656c32bdc"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/los-angeles/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/cost.md",
+      "byteCount": 7128,
+      "sha256": "dfd4f77a90f224d6c5bf06b843d91509562b2af0e5b6585863225c9cfc0229d1"
     },
     {
       "path": "entertainment.md",
       "downloadPath": "skills/los-angeles/entertainment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/entertainment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/entertainment.md",
+      "byteCount": 8477,
+      "sha256": "d7be2c2b64d8b72b113202875cb3a7ca3f3e54b8f916962270a6c60cd9272860"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/los-angeles/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-areas.md",
+      "byteCount": 4598,
+      "sha256": "a6f3009d7d639e1387ddd4fed20df4c292f93443f2c4dd772bbe44ead0034107"
     },
     {
       "path": "food-local.md",
       "downloadPath": "skills/los-angeles/food-local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-local.md",
+      "byteCount": 5732,
+      "sha256": "b4d68671bbd57570cd5bb3769b57e6fea245a8bfb5f003bc806be5a5e205ced3"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/los-angeles/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-overview.md",
+      "byteCount": 6790,
+      "sha256": "2aa1ca90b3a0a35527cdfb1105da7d02588fa8731d7ccaf6dee7505c110a7c0e"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/los-angeles/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/food-practical.md",
+      "byteCount": 5372,
+      "sha256": "92f173094f46cd117f478b6fad563ebb6c94a16c5110ab66857085254db8eb11"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/los-angeles/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/local.md",
+      "byteCount": 6751,
+      "sha256": "5b549213db1930b0e22a7d1a04e2f189ea2dff23283b860eb8fc1d38d9511897"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/los-angeles/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-central.md",
+      "byteCount": 6460,
+      "sha256": "c67d22e35edeba405a7e9a53a7f3b60f9b02555d84431cf79b0c70a5a86c142d"
     },
     {
       "path": "neighborhoods-east.md",
       "downloadPath": "skills/los-angeles/neighborhoods-east.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-east.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-east.md",
+      "byteCount": 5981,
+      "sha256": "39b92a30025fd8c3095686bbe578cf1b702db9757c531ca65cb683809bc9daad"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/los-angeles/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-index.md",
+      "byteCount": 4520,
+      "sha256": "b95cabfb745cd0720859fbe77fc89dd9200ac79313677117aa5d2b35fce1d547"
     },
     {
       "path": "neighborhoods-southbay.md",
       "downloadPath": "skills/los-angeles/neighborhoods-southbay.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-southbay.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-southbay.md",
+      "byteCount": 5205,
+      "sha256": "0926b97ee2c9b08649c1dd6ab3aada540ff65019a69cc85916c661654cdea989"
     },
     {
       "path": "neighborhoods-valley.md",
       "downloadPath": "skills/los-angeles/neighborhoods-valley.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-valley.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-valley.md",
+      "byteCount": 6626,
+      "sha256": "8881f492e47e2c946bdf7b7deaff6c490afa19e72274d82494aac140b1121c29"
     },
     {
       "path": "neighborhoods-westside.md",
       "downloadPath": "skills/los-angeles/neighborhoods-westside.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-westside.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/neighborhoods-westside.md",
+      "byteCount": 7057,
+      "sha256": "2a26bd771ec0fd87087040081b811d06905b20a076117883aa27487016378e58"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/los-angeles/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/resident.md",
+      "byteCount": 7965,
+      "sha256": "89f134c61ec6bea25223c6d3bfd80305817894abed2393d7a4a788a4907b58d8"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/los-angeles/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/safety.md",
+      "byteCount": 6546,
+      "sha256": "54dc62c5fce0488fcf8e904d9d97267187f44459752bb400306fd56aef273a8e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/los-angeles/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/SKILL.md",
+      "byteCount": 4302,
+      "sha256": "6aac5cdebe65ad2460d02d963e61e99939c55d018001ec1d757fc0762964badf"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/los-angeles/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/startup.md",
+      "byteCount": 6980,
+      "sha256": "d1a6cb05ab28e97ff9e94895210fe732c2e5b764ff335d21f74d0e37b8269e9e"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/los-angeles/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/student.md",
+      "byteCount": 6940,
+      "sha256": "88deb44e57332f2c777bee5c364a9a50bd069c03d42f37c76598d85ac8f52604"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/los-angeles/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/tech.md",
+      "byteCount": 7839,
+      "sha256": "a2fac2b0f0532df8969c1edcb4af7a471bce7406f2a8febce482e27d1de01cf3"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/los-angeles/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/transport.md",
+      "byteCount": 5739,
+      "sha256": "4257aee1513883da87c4a90af1af78e60e9a7749cfcb47ea254d4498542750e9"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/los-angeles/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-attractions.md",
+      "byteCount": 5799,
+      "sha256": "32a41a05a6a421b6963b447558a350cea9c02156410093c435fb43b090b3f04d"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/los-angeles/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-itineraries.md",
+      "byteCount": 5199,
+      "sha256": "8bdac7b036f5a0cb7b75be2810c01bb4169daf3d90b6004298c94330515c4e96"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/los-angeles/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-lodging.md",
+      "byteCount": 5980,
+      "sha256": "33711a0e30f669033fe412187a0495bad815558420f46ad1f00a6c9d4fdacd9e"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/los-angeles/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/los-angeles/visitor-tips.md",
+      "byteCount": 6381,
+      "sha256": "a0a00fda360b758734c6598ec10f91072fe9eda2d79c9e69cb87b424bf77b769"
     }
   ]
 }

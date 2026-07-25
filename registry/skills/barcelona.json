@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0eb1591d54da957469e501d631164ed325c1279aec48705df274368dcc8756ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "barcelona",
-    "name": "Barcelona",
+    "name": "barcelona",
     "description": "Navigate Barcelona as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/barcelona",
     "summary": "When to Use User asks about Barcelona for any purpose: visiting, moving, working, studying, or starting a business. Agent provides practical guidance with current data. Quick Reference | Topic | File | |-------|------| |",
     "repositoryPath": "skills/barcelona",
     "manifestPath": "registry/skills/barcelona.json"
@@ -21,132 +25,184 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/barcelona/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/_meta.json",
+      "byteCount": 170,
+      "sha256": "d0d7d221ccff2c47804ff326d3219b86627b5655c4cd6b07ea436884823bd5c3"
     },
     {
       "path": "climate.md",
       "downloadPath": "skills/barcelona/climate.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/climate.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/climate.md",
+      "byteCount": 6586,
+      "sha256": "dd264e5435aa2a168b2bb320f246e08dad8afe122ad7cee725c8ae35d7d9de0f"
     },
     {
       "path": "cost.md",
       "downloadPath": "skills/barcelona/cost.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/cost.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/cost.md",
+      "byteCount": 8559,
+      "sha256": "9ba7be37c3e3f1094f11b4e95af45d6af14443d48991de8fca3b4daa77944aec"
     },
     {
       "path": "food-areas.md",
       "downloadPath": "skills/barcelona/food-areas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-areas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-areas.md",
+      "byteCount": 6340,
+      "sha256": "4ce0f515ed7dafe12f7e4cb33818023dd1699540dce73fa69241c28e843c3d47"
     },
     {
       "path": "food-markets.md",
       "downloadPath": "skills/barcelona/food-markets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-markets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-markets.md",
+      "byteCount": 6372,
+      "sha256": "3447dc5e650955cd584e285a7bc1061706c546c9a166b5fc11df799edda55769"
     },
     {
       "path": "food-overview.md",
       "downloadPath": "skills/barcelona/food-overview.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-overview.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-overview.md",
+      "byteCount": 5804,
+      "sha256": "413c2a2ea1df931b9e35b7c8535fc654ea79d5db84cdfb83e930a3c331c6e65f"
     },
     {
       "path": "food-practical.md",
       "downloadPath": "skills/barcelona/food-practical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-practical.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-practical.md",
+      "byteCount": 7966,
+      "sha256": "e5b08caf1a9cee8665d057823d453c4623790d3aad360c4cc584f70c1278a5f5"
     },
     {
       "path": "food-traditional.md",
       "downloadPath": "skills/barcelona/food-traditional.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-traditional.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/food-traditional.md",
+      "byteCount": 7361,
+      "sha256": "e0ccf22f1b65daddc05ede2b7daa835135d6cfc31e3df0adff8926f636dbc624"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/barcelona/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/local.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/local.md",
+      "byteCount": 8511,
+      "sha256": "6c24098bbe8b26b300882291fc34b4fc4c0d0fc0b4ed13d08b5ac0a47871ccf9"
     },
     {
       "path": "neighborhoods-beach.md",
       "downloadPath": "skills/barcelona/neighborhoods-beach.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-beach.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-beach.md",
+      "byteCount": 5886,
+      "sha256": "25c5bf5d13393738af90b39a1517ec5b25ee629bad1e912f7b323578999dad5d"
     },
     {
       "path": "neighborhoods-central.md",
       "downloadPath": "skills/barcelona/neighborhoods-central.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-central.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-central.md",
+      "byteCount": 5232,
+      "sha256": "db0a70a9cbcec68b24d0279566e08b0980037740224f5a3fe38e51be118b2bbe"
     },
     {
       "path": "neighborhoods-choosing.md",
       "downloadPath": "skills/barcelona/neighborhoods-choosing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-choosing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-choosing.md",
+      "byteCount": 6714,
+      "sha256": "e4da478fc5e635515b26d8e50add47422da7a960a10ab9c79022d7a03be6ba23"
     },
     {
       "path": "neighborhoods-index.md",
       "downloadPath": "skills/barcelona/neighborhoods-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-index.md",
+      "byteCount": 4256,
+      "sha256": "6b254b8280230733abec71567ce19283691eae91a63469140489960b67b4d929"
     },
     {
       "path": "neighborhoods-outer.md",
       "downloadPath": "skills/barcelona/neighborhoods-outer.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-outer.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-outer.md",
+      "byteCount": 6392,
+      "sha256": "3111f9b7c445e49cb6c397f062db5b7c103e09f6ed650fccf4a856b788451b35"
     },
     {
       "path": "neighborhoods-uptown.md",
       "downloadPath": "skills/barcelona/neighborhoods-uptown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-uptown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/neighborhoods-uptown.md",
+      "byteCount": 6492,
+      "sha256": "246201fe02a742f54cc55a340a3f2f3a89ac4ef419c2f55d99bda3bc8295134f"
     },
     {
       "path": "resident.md",
       "downloadPath": "skills/barcelona/resident.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/resident.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/resident.md",
+      "byteCount": 10000,
+      "sha256": "6ca038561f928ff31c4a1cfca9276a0aebe5a04a04293aadbd47178709a5e956"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/barcelona/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/safety.md",
+      "byteCount": 8975,
+      "sha256": "db5ee743be1aab5af01445aa71ec26a0b3321a02b0f37e13e1dfd5a94e756b77"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/barcelona/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/SKILL.md",
+      "byteCount": 5351,
+      "sha256": "703c5e9563bc847a14814e40914a261287c8e3beb79a951563e2f324e326a87c"
     },
     {
       "path": "startup.md",
       "downloadPath": "skills/barcelona/startup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/startup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/startup.md",
+      "byteCount": 9139,
+      "sha256": "8a94740ddda29d397fafdd58004b33a0f217d3f4206f1b166e0851e530991018"
     },
     {
       "path": "student.md",
       "downloadPath": "skills/barcelona/student.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/student.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/student.md",
+      "byteCount": 9034,
+      "sha256": "ab1cf1a559773197a19b298c56505b33c9af5daca05fab0c4ef2bdb4541be6ef"
     },
     {
       "path": "tech.md",
       "downloadPath": "skills/barcelona/tech.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/tech.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/tech.md",
+      "byteCount": 8793,
+      "sha256": "b438c3405ccc5b0caaa998d6d39dbeee5f5a8fa441b19502967e9d5f95508001"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/barcelona/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/transport.md",
+      "byteCount": 8944,
+      "sha256": "e7e3e8a8eef4a07b018be5fb671b1815fc2d3dadcb321fc3961478dd276421de"
     },
     {
       "path": "visitor-attractions.md",
       "downloadPath": "skills/barcelona/visitor-attractions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-attractions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-attractions.md",
+      "byteCount": 8312,
+      "sha256": "ed987193c1e828064d754159e2679ee8e10b278853fcfe7dccadf54e74522b72"
     },
     {
       "path": "visitor-itineraries.md",
       "downloadPath": "skills/barcelona/visitor-itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-itineraries.md",
+      "byteCount": 8489,
+      "sha256": "4ee0105a9f2029fc29a8bba6aaa4289905cadcbf52cf7b3a38ba686e70ea205f"
     },
     {
       "path": "visitor-lodging.md",
       "downloadPath": "skills/barcelona/visitor-lodging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-lodging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-lodging.md",
+      "byteCount": 8969,
+      "sha256": "5dcc79ab397f5e628ab911db86c48d1bfb4abcccf1176fbcb00046a3c6630059"
     },
     {
       "path": "visitor-tips.md",
       "downloadPath": "skills/barcelona/visitor-tips.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-tips.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/barcelona/visitor-tips.md",
+      "byteCount": 8780,
+      "sha256": "55b738b74b6497e4c69522eeb3fb454f7d879b7867c33799462efc2d716570fd"
     }
   ]
 }

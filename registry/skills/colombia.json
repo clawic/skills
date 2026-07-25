@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0b7650a3ace896cffcb0c84e7489dc71ab27a3336bb7a0dc25302c295b4d266a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "colombia",
-    "name": "Colombia",
+    "name": "colombia",
     "description": "Plan Colombia trips with region-specific routing, verified entry rules, weather-aware logistics, and practical tourist safety.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/colombia",
-    "summary": "Setup If `~/colombia/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Colombia trip and needs practical guidance beyond generic advice: entry requirements, region choice, ",
+    "summary": "Setup If `~/Clawic/data/colombia/` does not exist or is empty, read `setup.md` and start naturally. When to Use User is planning a Colombia trip and needs practical guidance beyond generic advice: entry requirements, reg",
     "repositoryPath": "skills/colombia",
     "manifestPath": "registry/skills/colombia.json"
   },
@@ -22,157 +25,219 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/colombia/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/_meta.json",
+      "byteCount": 168,
+      "sha256": "352108da51637a7944a2071566e7eae0f04a2f7639f839284d242d57f9b60bc7"
     },
     {
       "path": "accessibility.md",
       "downloadPath": "skills/colombia/accessibility.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/accessibility.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/accessibility.md",
+      "byteCount": 951,
+      "sha256": "d2ceb778f147bb519ea3ad08eec4dc0b6cd8bebf10af58ef1e77d45262115a8b"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/colombia/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/accommodation.md",
+      "byteCount": 1261,
+      "sha256": "41f04c4e84e75a30a0835ef0ab6a07532a41a9bea825a3af174fa4137a7b5f57"
     },
     {
       "path": "amazon-and-llanos.md",
       "downloadPath": "skills/colombia/amazon-and-llanos.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/amazon-and-llanos.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/amazon-and-llanos.md",
+      "byteCount": 826,
+      "sha256": "bf5dcbbf8b433d29a6596be75e843184be7210749380bb0871303d28726aec03"
     },
     {
       "path": "bogota.md",
       "downloadPath": "skills/colombia/bogota.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/bogota.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/bogota.md",
+      "byteCount": 962,
+      "sha256": "646fe6a44d7ae35f09530d4858509c57cb3a7a082d75a06076ba1eb9972d60e0"
     },
     {
       "path": "budget-and-costs.md",
       "downloadPath": "skills/colombia/budget-and-costs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/budget-and-costs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/budget-and-costs.md",
+      "byteCount": 1280,
+      "sha256": "e3294dc5c61f44a255c879b5fd523d36acb4d1a0ef4e7e8083e3f027d33d08a4"
     },
     {
       "path": "cali-and-pacific.md",
       "downloadPath": "skills/colombia/cali-and-pacific.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/cali-and-pacific.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/cali-and-pacific.md",
+      "byteCount": 842,
+      "sha256": "9f427129affe028df6fb89ac75d518d42f0dd87c66797ffe826c1beddbade7f0"
     },
     {
       "path": "cartagena-and-caribbean.md",
       "downloadPath": "skills/colombia/cartagena-and-caribbean.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/cartagena-and-caribbean.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/cartagena-and-caribbean.md",
+      "byteCount": 1068,
+      "sha256": "11d6e0afedf596b7bcfd4517051ddaab4b5c0cbb514dcd71187a2565f880d6f8"
     },
     {
       "path": "coffee-region.md",
       "downloadPath": "skills/colombia/coffee-region.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/coffee-region.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/coffee-region.md",
+      "byteCount": 818,
+      "sha256": "55f821832a9dba4f59eca92d5dbe6333f8794512f5430ced3edbfcb8f98df0e2"
     },
     {
       "path": "colonial-cities-and-boyaca.md",
       "downloadPath": "skills/colombia/colonial-cities-and-boyaca.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/colonial-cities-and-boyaca.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/colonial-cities-and-boyaca.md",
+      "byteCount": 701,
+      "sha256": "59bf6be553e218f9f79b0d451162083983a18708fddd1fc103dc642d49f7dbcf"
     },
     {
       "path": "customs-and-border.md",
       "downloadPath": "skills/colombia/customs-and-border.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/customs-and-border.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/customs-and-border.md",
+      "byteCount": 1769,
+      "sha256": "aa81fc3eeaa1a79552fd6442647d44f61d1c150103e4545286f15646859ae04a"
     },
     {
       "path": "entry-and-documents.md",
       "downloadPath": "skills/colombia/entry-and-documents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/entry-and-documents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/entry-and-documents.md",
+      "byteCount": 2128,
+      "sha256": "ccfdd505969bfe18f64b2bba469c8de1ffde16bada35cc7af4048a1a77efd376"
     },
     {
       "path": "family-travel.md",
       "downloadPath": "skills/colombia/family-travel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/family-travel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/family-travel.md",
+      "byteCount": 806,
+      "sha256": "4ff2d3917e13c196592175f36d98ae738f668b0bee4188b985b7fae683558bbc"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/colombia/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/food-guide.md",
+      "byteCount": 1279,
+      "sha256": "7deb841efa43913324e520fd087fe2c2055c0779ef9f813c938002053bb8c31c"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/colombia/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/itineraries.md",
+      "byteCount": 1540,
+      "sha256": "a86372db1be4609259ef245678af6c267f3883d85896a123ad98fea233e0806f"
     },
     {
       "path": "medellin-and-antioquia.md",
       "downloadPath": "skills/colombia/medellin-and-antioquia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/medellin-and-antioquia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/medellin-and-antioquia.md",
+      "byteCount": 972,
+      "sha256": "420645adb2788c8d27a7de53c8e7bc58362bc039043857fd0256dbce59fe85d5"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/colombia/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/memory-template.md",
+      "byteCount": 1219,
+      "sha256": "016b6e5eb0cc6de776e5053b9268c2d716979b77834cbe6e837013ea32b2bc0d"
     },
     {
       "path": "national-parks.md",
       "downloadPath": "skills/colombia/national-parks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/national-parks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/national-parks.md",
+      "byteCount": 1590,
+      "sha256": "75202cb14338b940f239016f29339e0d3d3058c749505ceaffb29dcfc51c291e"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/colombia/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/nightlife.md",
+      "byteCount": 917,
+      "sha256": "54cfa9ea2bdba6db6f41f875983a8ebfa70c90bb5e1c40fe8d9c94ceefc8e1eb"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/colombia/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/regions.md",
+      "byteCount": 1906,
+      "sha256": "57bf7045603ebaed5c4dc6e43bfbe38406395de641ada56128dcc7f05845dbc8"
     },
     {
       "path": "road-trips-and-driving.md",
       "downloadPath": "skills/colombia/road-trips-and-driving.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/road-trips-and-driving.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/road-trips-and-driving.md",
+      "byteCount": 1295,
+      "sha256": "03581095c9b3f1abd2060cbc74e7070ae02576d76dcf92faf87c6c520f7cc014"
     },
     {
       "path": "safety-and-emergencies.md",
       "downloadPath": "skills/colombia/safety-and-emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/safety-and-emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/safety-and-emergencies.md",
+      "byteCount": 1306,
+      "sha256": "820b702188aa0f4010241f07cfb33cf816ec1c91d8f5de82d953b3fa75daf453"
     },
     {
       "path": "san-andres-and-providencia.md",
       "downloadPath": "skills/colombia/san-andres-and-providencia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/san-andres-and-providencia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/san-andres-and-providencia.md",
+      "byteCount": 795,
+      "sha256": "8935abf48784dcd7d04cef102c056bb1e115b28016dad0deed8834dffb369239"
     },
     {
       "path": "santander-and-eastern-andes.md",
       "downloadPath": "skills/colombia/santander-and-eastern-andes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/santander-and-eastern-andes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/santander-and-eastern-andes.md",
+      "byteCount": 881,
+      "sha256": "0328f6215821eb332e426a7d730e2bd7228d9f174ad17afd125cf78950d5b41a"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/colombia/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/setup.md",
+      "byteCount": 2137,
+      "sha256": "ec2594e70f9bc478629f0f57786ea7c3d96c7fc1cf0b62a2bf6180559e1df046"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/colombia/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/SKILL.md",
+      "byteCount": 6000,
+      "sha256": "ab57192ee180b32c85110aba846ba530b6ba1949424ceabfd2c16384d25eac3c"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/colombia/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/sources.md",
+      "byteCount": 3262,
+      "sha256": "3b801c73aa3185a23a1c758f1842d3919f3db5208a198b768a839bcd5fd272d2"
     },
     {
       "path": "telecoms-and-apps.md",
       "downloadPath": "skills/colombia/telecoms-and-apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/telecoms-and-apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/telecoms-and-apps.md",
+      "byteCount": 1161,
+      "sha256": "f6b4e7599e19f85798848d12941296e5422952059d6576004c74e0fa19aa6f95"
     },
     {
       "path": "tipping-and-payments.md",
       "downloadPath": "skills/colombia/tipping-and-payments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/tipping-and-payments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/tipping-and-payments.md",
+      "byteCount": 975,
+      "sha256": "c8487e4806e80214a2530d59f17134264e73cd7c9b42646dcaf71180010dab7a"
     },
     {
       "path": "transport-domestic.md",
       "downloadPath": "skills/colombia/transport-domestic.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/transport-domestic.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/transport-domestic.md",
+      "byteCount": 1859,
+      "sha256": "8b43738c9805c12c84a6916c963edf7dba0ecb5494286890e1abbfcb2003018b"
     },
     {
       "path": "weather-and-seasonality.md",
       "downloadPath": "skills/colombia/weather-and-seasonality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/weather-and-seasonality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colombia/weather-and-seasonality.md",
+      "byteCount": 1540,
+      "sha256": "a0e42d9bd40092effddc49c579f6c2620e472798863cb44a4865bd402c863235"
     }
   ]
 }

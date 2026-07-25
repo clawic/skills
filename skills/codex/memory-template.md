@@ -1,6 +1,6 @@
 # Memory Template - Codex
 
-Create `~/codex/memory.md` with this structure:
+Create `~/Clawic/data/codex/memory.md` with this structure:
 
 ```markdown
 # Codex Memory

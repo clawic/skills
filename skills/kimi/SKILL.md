@@ -1,11 +1,26 @@
 ---
-name: Kimi
+name: kimi
 slug: kimi
 version: 1.0.0
-homepage: https://clawic.com/skills/kimi
 description: Build and debug Kimi API workflows for chat, coding, reasoning, and tool-calling with live model checks, retries, and safe routing.
+homepage: https://clawic.com/skills/kimi
 changelog: Initial release with Kimi workflow routing, OpenAI-compatible request patterns, migration guidance, and operational safety checks.
-metadata: {"clawdbot":{"emoji":"🌙","requires":{"bins":["curl","jq"],"env":["MOONSHOT_API_KEY"]},"os":["linux","darwin","win32"],"configPaths":["~/kimi/"]}}
+metadata:
+  clawdbot:
+    emoji: 🌙
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - MOONSHOT_API_KEY
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/kimi/
+    displayName: Kimi
 ---
 
 ## When to Use
@@ -14,10 +29,10 @@ User needs Kimi to work reliably for chat, coding, long-context research, struct
 
 ## Architecture
 
-Memory lives in `~/kimi/`. If `~/kimi/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/kimi/`. If `~/Clawic/data/kimi/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/kimi/
+~/Clawic/data/kimi/
 ├── memory.md         # Status, activation rules, and stable defaults
 ├── routes.md         # Preferred route per workload
 ├── approvals.md      # Sensitive-send boundaries and redaction preferences
@@ -62,7 +77,7 @@ Use the smallest file that resolves the blocker.
 
 ### 4. Keep Sensitive Data Out Unless the User Explicitly Approves It
 - Redact secrets, customer identifiers, internal hostnames, and raw tokens before sending prompts externally.
-- If the user wants repeatable Kimi workflows, save the redaction rule and approval boundary in `~/kimi/approvals.md` after confirming the first write.
+- If the user wants repeatable Kimi workflows, save the redaction rule and approval boundary in `~/Clawic/data/kimi/approvals.md` after confirming the first write.
 
 ### 5. Route by Deadline and Cost, Not Brand Habit
 - Use the smallest Kimi route that can finish the current job reliably.
@@ -74,7 +89,7 @@ Use the smallest file that resolves the blocker.
 
 ### 7. Ask Before Creating Persistent State
 - Work statelessly by default.
-- Only create `~/kimi/` notes, approvals, or debug logs after the user wants continuity across Kimi tasks.
+- Only create `~/Clawic/data/kimi/` notes, approvals, or debug logs after the user wants continuity across Kimi tasks.
 
 ## Common Traps
 
@@ -102,7 +117,7 @@ No other data is sent externally.
 - Optional sanitized excerpts of code, logs, or documents sent for analysis after approval
 
 **Data that stays local:**
-- Activation preferences, route defaults, and approval boundaries in `~/kimi/` after user approval
+- Activation preferences, route defaults, and approval boundaries in `~/Clawic/data/kimi/` after user approval
 - Optional sanitized repro payloads and troubleshooting notes saved for recurring workflows
 
 **This skill does NOT:**
@@ -121,7 +136,7 @@ This skill ONLY:
 
 This skill NEVER:
 - invent live model availability without checking
-- persist secrets in `~/kimi/`
+- persist secrets in `~/Clawic/data/kimi/`
 - execute destructive downstream automation from unvalidated output
 - treat cost-sensitive or sensitive-send boundaries as implicit
 
@@ -131,7 +146,7 @@ Using this skill sends prompt data to Moonshot's Kimi API.
 Only install if you trust Moonshot with that data, or keep sensitive preprocessing local and sanitized.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `api` — debug auth, payloads, retries, and OpenAI-compatible request shapes
 - `models` — compare model families and cost tiers before locking Kimi into production
 - `coding` — tighten coding-agent behavior after the Kimi route itself is stable
@@ -140,5 +155,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star kimi`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/kimi
+- Latest version: https://clawic.com/skills/kimi

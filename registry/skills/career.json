@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bf1302ceba78f1f18eeacfc054a87e7afeb6eb298ab7401c94972af3afd24a65",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "career",
     "name": "career",
-    "description": "Advises on career decisions \u2014 offer evaluation, salary and equity negotiation, promotions, pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion, faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself (resume) or running the application pipeline (job-search).",
+    "description": "Advises on career decisions — offer evaluation, salary and equity negotiation, promotions, pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion, faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself (resume) or running the application pipeline (job-search).",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/career",
     "summary": "Advise mode: this skill guides a human making their own career moves; it never acts on their behalf. User career data lives in `~/Clawic/data/career/` (see `setup.md` on first use, `memory-template.md` for file formats):",
@@ -20,59 +23,81 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/career/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/career/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/_meta.json",
+      "byteCount": 388,
+      "sha256": "0802eabd94fcffa8e0c49dee5298ac59c8c4148052a773567903fbaf03387f6c"
     },
     {
       "path": "equity.md",
       "downloadPath": "skills/career/equity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/equity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/equity.md",
+      "byteCount": 3886,
+      "sha256": "95dbc1049428c29bcd8ca11bad89e899a61cc02cded62564bb9c8fe83d41c3d2"
     },
     {
       "path": "executive.md",
       "downloadPath": "skills/career/executive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/executive.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/executive.md",
+      "byteCount": 3217,
+      "sha256": "e176584f526c7e12782205ce999a22e456b64ce0cfc2f70c0f2be33a9705112b"
     },
     {
       "path": "layoffs.md",
       "downloadPath": "skills/career/layoffs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/layoffs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/layoffs.md",
+      "byteCount": 4554,
+      "sha256": "95d8f9f79a1b7cfb8db8edb245f3302c0f7288e2aca318863e47c66aa6cdd948"
     },
     {
       "path": "market.md",
       "downloadPath": "skills/career/market.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/market.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/market.md",
+      "byteCount": 3880,
+      "sha256": "507d8bc62462a9e1f8c507e8204b5341712c043cf5ec7e45f6185740192cdf92"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/career/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/memory-template.md",
+      "byteCount": 1346,
+      "sha256": "f3a15fd7f9f3566337ec3371104db75d40f5e3515aa97bc15992236240b6c981"
     },
     {
       "path": "offers.md",
       "downloadPath": "skills/career/offers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/offers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/offers.md",
+      "byteCount": 4953,
+      "sha256": "820b26374b06a4efb414bda01d94275677ae8efa7a02475e97d855d650dcca73"
     },
     {
       "path": "pivots.md",
       "downloadPath": "skills/career/pivots.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/pivots.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/pivots.md",
+      "byteCount": 4823,
+      "sha256": "cafd51de333857cfc25d31026bedf72c25a11c685c101c67ef24a01862f34e2c"
     },
     {
       "path": "promotion.md",
       "downloadPath": "skills/career/promotion.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/promotion.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/promotion.md",
+      "byteCount": 4007,
+      "sha256": "10a075686a2247ab041c5c13c7944f3e6936fc9fb46a92399bd49b1baaa34862"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/career/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/setup.md",
+      "byteCount": 1956,
+      "sha256": "d7bbea943802b04dd90db50a4b3dfeef690ae138eb8cd3901afb1fbcd3b183bd"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/career/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/SKILL.md",
+      "byteCount": 12286,
+      "sha256": "508b621c5204ae78d6265a91d0eb140c8b92b242a033db2bc59f25310d5fbf63"
     }
   ]
 }

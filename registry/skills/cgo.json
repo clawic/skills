@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e7f0d40fb57f716cb0d8e195e3dcce15d6967ca55ebf867e69ed76fa5c707bb6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "cgo",
-    "name": "CGO / Chief Growth Officer",
+    "name": "cgo",
     "description": "Drive systematic growth with acquisition loops, experimentation frameworks, retention systems, and product-led strategies.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cgo",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cgo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/_meta.json",
+      "byteCount": 257,
+      "sha256": "a6c92b2ff85ff98e4e7523f9e0af5a0b571c8b685cd77fd6b531514a8e108084"
     },
     {
       "path": "acquisition.md",
       "downloadPath": "skills/cgo/acquisition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/acquisition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/acquisition.md",
+      "byteCount": 2154,
+      "sha256": "b91a826ee6e47d73de682df17c9c56a5f8fbbc86732dd09969368ed6526badce"
     },
     {
       "path": "experiments.md",
       "downloadPath": "skills/cgo/experiments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/experiments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/experiments.md",
+      "byteCount": 2055,
+      "sha256": "13b7a49a938f28ec0963703b51882b1b7de73146a50baa88397f984ef40c09c9"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/cgo/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/metrics.md",
+      "byteCount": 2126,
+      "sha256": "6e74e7db19ade745ffe917ad4507b39a3efc6c04c88348719630077d9c01b015"
     },
     {
       "path": "retention.md",
       "downloadPath": "skills/cgo/retention.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/retention.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/retention.md",
+      "byteCount": 1703,
+      "sha256": "f9da0bb17607e107368ad3cddc67ec25ea82eaa7596ebdc1a40a386b659c0dc6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cgo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cgo/SKILL.md",
+      "byteCount": 2984,
+      "sha256": "56b9b69bcc272c314c4797e67055e7e436466a7d9d7b8ffe286895a83d09fdab"
     }
   ]
 }

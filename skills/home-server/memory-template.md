@@ -1,6 +1,6 @@
 # Memory Template - Home Server
 
-Create `~/home-server/memory.md` with this structure:
+Create `~/Clawic/data/home-server/memory.md` with this structure:
 
 ```markdown
 # Home Server Memory

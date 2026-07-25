@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "11e20440d7199f773ea6f34321b4e806efec1a68e888feb6c8f45e629759d1f6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "authorization",
-    "name": "Authorization",
+    "name": "authorization",
     "description": "Build secure access control with RBAC, ABAC, permissions, policies, and scope-based authorization.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/authorization",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/authorization/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/_meta.json",
+      "byteCount": 178,
+      "sha256": "6bec4c9a79b0873728fdee6cd7392705218382612077de09ce187d88d03057f4"
     },
     {
       "path": "middleware.md",
       "downloadPath": "skills/authorization/middleware.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/middleware.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/middleware.md",
+      "byteCount": 5635,
+      "sha256": "b857e556bb83e784e6b42270b5b1c9eacbc62ef6d5b192de1d8eb773e26bce70"
     },
     {
       "path": "models.md",
       "downloadPath": "skills/authorization/models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/models.md",
+      "byteCount": 2845,
+      "sha256": "9aa3f258cd799f2c3a44d369084c8c6d54839c3ae27b6c605150e6aea1cd73d4"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/authorization/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/patterns.md",
+      "byteCount": 4909,
+      "sha256": "9a2b1b883f63494255e2ab2718cacdc6e0e1c16699356dd89a40c16c80f78fdf"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/authorization/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/authorization/SKILL.md",
+      "byteCount": 3160,
+      "sha256": "ec5020e0704ebcb12a7429be416055535032633f2d10520eb8bba2a983455be9"
     }
   ]
 }

@@ -1,18 +1,28 @@
 ---
-name: Gifts
+name: gifts
+slug: gifts
+version: 1.0.0
 description: Build a personal gift system for tracking ideas, occasions, and gift-giving history.
-metadata: {"clawdbot":{"emoji":"🎁","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/gifts
+metadata:
+  clawdbot:
+    emoji: 🎁
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Gifts
 ---
 
 ## Core Behavior
 - User mentions gift idea → save to person's file
 - User asks what to gift → check saved ideas first
 - User gives/receives gift → log for future reference
-- Create `~/gifts/` as workspace
+- Create `~/Clawic/data/gifts/` as workspace
 
 ## File Structure
 ```
-~/gifts/
+~/Clawic/data/gifts/
 ├── people/
 │   ├── mom.md
 │   └── sarah.md

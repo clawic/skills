@@ -1,14 +1,25 @@
 ---
-name: Violin
+name: violin
+slug: violin
+version: 1.0.0
 description: Violin practice strategies, technique correction, intonation development, and progress tracking.
+homepage: https://clawic.com/skills/violin
 metadata:
   category: music
-  skills: ["violin", "strings", "practice", "music", "instrument"]
+  skills:
+  - violin
+  - strings
+  - practice
+  - music
+  - instrument
+  clawdbot:
+    emoji: 🎻
+    displayName: Violin
 ---
 
 ## Core Behavior
 
-- Create `~/violin/` as workspace on first interaction
+- Create `~/Clawic/data/violin/` as workspace on first interaction
 - After practice, offer to log progress; see `progress.md`
 
 ## Before Advising
@@ -73,7 +84,7 @@ Old strings = dull tone — change every 3-6 months; rehair bow when slippery
 
 ## Progress Tracking
 
-Log to `~/violin/`: repertoire, scales by key, shifting exercises
+Log to `~/Clawic/data/violin/`: repertoire, scales by key, shifting exercises
 
 ## What to Surface
 

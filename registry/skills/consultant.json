@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "c34226c5533f14869d579edd37defee0d50b6725970534cd19ccf4a45ae23c59",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "consultant",
-    "name": "Consultant",
+    "name": "consultant",
     "description": "Diagnose business problems, scope engagements, and deliver decision-ready recommendations with measurable outcomes and executable plans.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/consultant",
-    "summary": "Setup If `~/consultant/` does not exist or is empty, initialize using `setup.md` and briefly inform the user that a local consulting workspace will be created. When to Use User needs structured consulting support: diagno",
+    "summary": "Setup If `~/Clawic/data/consultant/` does not exist or is empty, initialize using `setup.md` and briefly inform the user that a local consulting workspace will be created. When to Use User needs structured consulting sup",
     "repositoryPath": "skills/consultant",
     "manifestPath": "registry/skills/consultant.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/consultant/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/_meta.json",
+      "byteCount": 172,
+      "sha256": "7160ffbf3c5db4ea00bbf42b70d21fab4a1b18c72bf25cdd3e39a312ec35c483"
     },
     {
       "path": "deliverables.md",
       "downloadPath": "skills/consultant/deliverables.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/deliverables.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/deliverables.md",
+      "byteCount": 1394,
+      "sha256": "6723a1c0af7fd90e9d4a530906efaea314cac5871ab5b10bde67bf6add3ac085"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/consultant/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/discovery.md",
+      "byteCount": 1805,
+      "sha256": "9f1b9da5111e7a897371d4d3b9e68aa38851149d2a794d4e26da3948b378b69a"
     },
     {
       "path": "engagement-models.md",
       "downloadPath": "skills/consultant/engagement-models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/engagement-models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/engagement-models.md",
+      "byteCount": 1683,
+      "sha256": "d82f322a63b4649209e712f2caf93a40396303b1c5e1e4e2919d7a1403b94408"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/consultant/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/memory-template.md",
+      "byteCount": 1415,
+      "sha256": "d62c51de5e585c8a7b6d53ab812c2ae861fa0febe09252d8cbbd4069c3183cc5"
     },
     {
       "path": "quality-gates.md",
       "downloadPath": "skills/consultant/quality-gates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/quality-gates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/quality-gates.md",
+      "byteCount": 1590,
+      "sha256": "8bd6a75b1aa9147c7d4f4d911ddbd89f6e5c6bb243fa973f22eb5d7f657359ba"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/consultant/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/setup.md",
+      "byteCount": 2329,
+      "sha256": "eacae1cf1e23dafaa6d33c56592951c88099c1793d6798fb236018c44387932b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/consultant/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/consultant/SKILL.md",
+      "byteCount": 7205,
+      "sha256": "71771c24c80b678c53e82e3c47dd47190fc575d2183c3527f5d8dc467d15bf61"
     }
   ]
 }

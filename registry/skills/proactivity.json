@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "541000d679589a69720d00b5fbad79f76ee12e6dabbaa331501c9afe9c7321ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "proactivity",
-    "name": "Proactivity (Proactive Agent)",
+    "name": "proactivity",
     "description": "Anticipates needs, keeps work moving, and improves through use so the agent gets more proactive over time.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/proactivity",
-    "summary": "Architecture Proactive state lives in `~/proactivity/` and separates durable boundaries from active work. If that folder is missing or empty, run `setup.md`. ``` ~/proactivity/ ├── memory.md # Stable activation and bound",
+    "summary": "Architecture Proactive state lives in `~/Clawic/data/proactivity/` and separates durable boundaries from active work. If that folder is missing or empty, run `setup.md`. ``` ~/Clawic/data/proactivity/ ├── memory.md # Sta",
     "repositoryPath": "skills/proactivity",
     "manifestPath": "registry/skills/proactivity.json"
   },
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/proactivity/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/_meta.json",
+      "byteCount": 268,
+      "sha256": "8e7d1e163a17a4a958219d22de962965f8e43da0f45c6dfacfb6605fdd17a881"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/proactivity/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/boundaries.md",
+      "byteCount": 1252,
+      "sha256": "b46480181f597f9ad00f21846e71056c9c4c6e11210047f9a2ecad53d15997c0"
     },
     {
       "path": "detection.md",
       "downloadPath": "skills/proactivity/detection.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/detection.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/detection.md",
+      "byteCount": 1692,
+      "sha256": "ba2e1029ee3cf3f2cb3683996dad7d6ef01ac425872d0afc866ffdeb2d48655c"
     },
     {
       "path": "execution.md",
       "downloadPath": "skills/proactivity/execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/execution.md",
+      "byteCount": 2235,
+      "sha256": "67984a39fa3fea991555b0e60b6b6680b8fd9b4c1e3b48f5d716805b1917729f"
     },
     {
       "path": "heartbeat-rules.md",
       "downloadPath": "skills/proactivity/heartbeat-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/heartbeat-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/heartbeat-rules.md",
+      "byteCount": 989,
+      "sha256": "ed9a0ef558086fa21b441f916c47d639ba136fce3ccafaea00ba27e3140f99e3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/proactivity/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/memory-template.md",
+      "byteCount": 2020,
+      "sha256": "e6f639b8f85b5f78caf67bc4e755849c58c3c3ec32f40ced16fd1b3322b680fa"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/proactivity/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/migration.md",
+      "byteCount": 1345,
+      "sha256": "91f2fe9ae09b6f53940aaf24b292bd2184f8343624931fc22db4fb0f1cd46344"
     },
     {
       "path": "recovery.md",
       "downloadPath": "skills/proactivity/recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/recovery.md",
+      "byteCount": 744,
+      "sha256": "876c61a40744b3edb34acb485d70d8b6e352d48048f8e872ae13beca99718400"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/proactivity/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/setup.md",
+      "byteCount": 6150,
+      "sha256": "300cc5b3b640ee7d41dc90df2a4460d183e61677be4f30c64899b38ebec1e277"
     },
     {
       "path": "signals.md",
       "downloadPath": "skills/proactivity/signals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/signals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/signals.md",
+      "byteCount": 1637,
+      "sha256": "fc70d2430c9138daacf913f116af1f2fc4b064519df701dc97c5f4dac6d9e4e1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/proactivity/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/SKILL.md",
+      "byteCount": 6487,
+      "sha256": "29245cf442a18c5a639d6122166233e7ef4d09b82f6f6d5dead68e32063572a8"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/proactivity/state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/proactivity/state.md",
+      "byteCount": 930,
+      "sha256": "685c33dbb42ad6ebe987ac0cac222909d0441099b2d0bb0c5d8f3fba263861f3"
     }
   ]
 }

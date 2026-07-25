@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ed759f95836c094f5fdcb6e394b2c4fea6121175d04f74f03b43335e316d45a1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "c",
-    "name": "C",
+    "name": "c",
     "description": "Write safe C avoiding memory corruption, buffer overflows, and undefined behavior traps.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/c",
     "summary": "Quick Reference | Topic | File | |-------|------| | malloc/free, leaks, double free | `memory.md` | | Null, dangling, pointer arithmetic | `pointers.md` | | Null terminator, buffer overflow | `strings.md` | | Integer ove",
     "repositoryPath": "skills/c",
     "manifestPath": "registry/skills/c.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/c/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/_meta.json",
+      "byteCount": 230,
+      "sha256": "71874109de039ba037831aa34fcce181cab05e68a9811eee8f9bdf2928839e63"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/c/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/memory.md",
+      "byteCount": 670,
+      "sha256": "5f0963af42f427396c47ea557fbc5b9c67c939a4c8f34e27c9f3f6c7e775eecb"
     },
     {
       "path": "pointers.md",
       "downloadPath": "skills/c/pointers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/pointers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/pointers.md",
+      "byteCount": 522,
+      "sha256": "222f04d9b9729ea169bbddbedcd1f55a5682a293e047ef0d632614a3a3a71ee6"
     },
     {
       "path": "preprocessor.md",
       "downloadPath": "skills/c/preprocessor.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/preprocessor.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/preprocessor.md",
+      "byteCount": 509,
+      "sha256": "6594eb9e386b2e4b252ac1909b6bd1bba9a4daa0751613db898fc120c0503e82"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/c/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/SKILL.md",
+      "byteCount": 1601,
+      "sha256": "113e5b559757d632f98f839f21ac27dc7ba13d5a7c3b4ab7dec8ee7439dfdbad"
     },
     {
       "path": "strings.md",
       "downloadPath": "skills/c/strings.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/strings.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/strings.md",
+      "byteCount": 552,
+      "sha256": "f14d07c6061902b4e4a0d82ef03c6a8e07a64cc2b5a97e4fc56b5851460e4d07"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/c/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/types.md",
+      "byteCount": 556,
+      "sha256": "1fbec2fb51477d80dacd62ab7c5167f29741d9240ad9d7f2cc4832eccf974a2a"
     },
     {
       "path": "undefined.md",
       "downloadPath": "skills/c/undefined.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/undefined.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/undefined.md",
+      "byteCount": 663,
+      "sha256": "146b57eac8d93b3b634aa4caf5f08eed2aff4ff1789c689522ec7cb794e4e5cb"
     }
   ]
 }

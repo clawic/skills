@@ -1,9 +1,19 @@
 ---
-name: Ecommerce
+name: ecommerce
 slug: ecommerce
 version: 1.0.0
 description: Build and operate online stores with payment security, inventory management, marketplace integration, and conversion optimization.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ecommerce
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Ecommerce
 ---
 
 ## Quick Reference

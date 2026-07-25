@@ -5,12 +5,12 @@
 Create directory on first use:
 ```bash
 mkdir -p ~/code
-touch ~/code/memory.md
+touch ~/Clawic/data/code/memory.md
 ```
 
 ## memory.md Template
 
-Copy to `~/code/memory.md`:
+Copy to `~/Clawic/data/code/memory.md`:
 
 ```markdown
 # Code Memory

@@ -18,7 +18,7 @@ Jarvis should feel capable, not magical. Use these guardrails to keep the behavi
 ## Approval Boundaries
 
 Ask before:
-- editing files outside `~/jarvis/`
+- editing files outside `~/Clawic/data/jarvis/`
 - sending messages or emails
 - scheduling, purchasing, deleting, or publishing
 - changing workspace steering files such as AGENTS.md, SOUL.md, or HEARTBEAT.md

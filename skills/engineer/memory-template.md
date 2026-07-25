@@ -1,6 +1,6 @@
 # Memory Template - Engineer
 
-Create `~/engineer/memory.md` with this structure only if the user wants persistence:
+Create `~/Clawic/data/engineer/memory.md` with this structure only if the user wants persistence:
 
 ```markdown
 # Engineer Memory
@@ -40,4 +40,4 @@ Updated: YYYY-MM-DD
 - Store reusable engineering preferences, not confidential project payloads.
 - Keep local notes focused on activation, risk posture, and preferred output shape.
 - Do not store credentials, proprietary files, or regulated data.
-- If the user declines persistence, do not create or update `~/engineer/`.
+- If the user declines persistence, do not create or update `~/Clawic/data/engineer/`.

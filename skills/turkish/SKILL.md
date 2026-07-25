@@ -1,6 +1,13 @@
 ---
-name: Turkish
+name: turkish
+slug: turkish
+version: 1.0.0
 description: Write Turkish that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/turkish
+metadata:
+  clawdbot:
+    emoji: 🇹🇷
+    displayName: Turkish
 ---
 
 ## The Real Problem

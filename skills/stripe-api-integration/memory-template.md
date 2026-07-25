@@ -1,6 +1,6 @@
 # Memory Template — Stripe API
 
-Create `~/stripe-api-integration/memory.md` with this structure:
+Create `~/Clawic/data/stripe-api-integration/memory.md` with this structure:
 
 ```markdown
 # Stripe Memory

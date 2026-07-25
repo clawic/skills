@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "fdc671a5e53dd2e83131c9a20994148d5bf2ee0486d18522b2969a93014d5c31",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "growth-hacker",
-    "name": "Growth Hacker",
+    "name": "growth-hacker",
     "description": "Drive explosive user growth through rapid experimentation, viral loops, and data-driven tactics.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/growth-hacker",
@@ -22,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/growth-hacker/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/_meta.json",
+      "byteCount": 178,
+      "sha256": "787da400af8b02a89d2633cf457bd2776662307c6d5413ed46f7dd712316ae28"
     },
     {
       "path": "channels.md",
       "downloadPath": "skills/growth-hacker/channels.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/channels.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/channels.md",
+      "byteCount": 4448,
+      "sha256": "06f82b5403af52a621fa369579b93b28e19e16d51aae70faadb51bca6854c4d5"
     },
     {
       "path": "experiments.md",
       "downloadPath": "skills/growth-hacker/experiments.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/experiments.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/experiments.md",
+      "byteCount": 2432,
+      "sha256": "363e656749290fa98d66cc2bee8dba5f3853e826aeb2854b169790c78a4eb396"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/growth-hacker/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/SKILL.md",
+      "byteCount": 3674,
+      "sha256": "8d6c364ab73c92c6dfe92de877a31b664670bd3380bb6190f757a42aa0b890d3"
     },
     {
       "path": "viral-loops.md",
       "downloadPath": "skills/growth-hacker/viral-loops.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/viral-loops.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth-hacker/viral-loops.md",
+      "byteCount": 3346,
+      "sha256": "33954ac35d183a5916497ec950f221d2a3b6a0c96ed7578f2b632becdeae4293"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "702959db161c9947e9524335a298ebf610ea837d74e3ca1827028cd293edfc20",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,10 +13,11 @@
   },
   "skill": {
     "slug": "dashboard",
-    "name": "Dashboard",
+    "name": "dashboard",
     "description": "Build custom dashboards from any data source with local hosting and visual QA loops.",
     "version": "1.0.1",
-    "summary": "Data Storage ``` ~/dashboard/ ├── registry.json # Dashboard index ├── {name}/ │ ├── config.json # Layout, widgets │ ├── data.json # Current data │ └── index.html # Dashboard page ``` Create on first use: `mkdir -p ~/dash",
+    "homepage": "https://clawic.com/skills/dashboard",
+    "summary": "Data Storage ``` ~/Clawic/data/dashboard/ ├── registry.json # Dashboard index ├── {name}/ │ ├── config.json # Layout, widgets │ ├── data.json # Current data │ └── index.html # Dashboard page ``` Create on first use: `mkd",
     "repositoryPath": "skills/dashboard",
     "manifestPath": "registry/skills/dashboard.json"
   },
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/dashboard/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/_meta.json",
+      "byteCount": 246,
+      "sha256": "9ecc0a0e4f8ab95ad5f6f42aa31cba625637cdc4dc94af8715093e1b1fa91369"
     },
     {
       "path": "design.md",
       "downloadPath": "skills/dashboard/design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/design.md",
+      "byteCount": 911,
+      "sha256": "67c43ec681ee42af0a79dd1c524af7fb03fc2a95f011d9a342fd0044edce2c36"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/dashboard/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/SKILL.md",
+      "byteCount": 2805,
+      "sha256": "d8d7e0a05947f66882b0c31a0e133b3b62c02a6a977f9451ed38bb2eb4930c91"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/dashboard/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/sources.md",
+      "byteCount": 1677,
+      "sha256": "40ecca06d80c6627480948d567adc8484f62e0d6435e5944824579f1a990fd32"
     },
     {
       "path": "widgets.md",
       "downloadPath": "skills/dashboard/widgets.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/widgets.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/dashboard/widgets.md",
+      "byteCount": 977,
+      "sha256": "dcf08ab969787844310fba0593406b48eaeb58c23e99ba1a4492195c4d7575d9"
     }
   ]
 }

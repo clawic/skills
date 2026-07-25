@@ -1,6 +1,13 @@
 ---
-name: Payments
+name: payments
+slug: payments
+version: 1.0.0
 description: Integrate payments with provider selection, checkout flows, subscription billing, and security best practices.
+homepage: https://clawic.com/skills/payments
+metadata:
+  clawdbot:
+    emoji: 💳
+    displayName: Payments
 ---
 
 ## Situation Detection

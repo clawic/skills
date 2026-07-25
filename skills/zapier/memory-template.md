@@ -1,6 +1,6 @@
 # Memory Template — Zapier
 
-Create `~/zapier/memory.md`:
+Create `~/Clawic/data/zapier/memory.md`:
 
 ```markdown
 # Zapier Memory

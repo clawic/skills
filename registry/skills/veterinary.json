@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4e770ded01dbed8e68b7afa74bef0e7cab4e65e73d6101cad0c17a7678474ceb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "veterinary",
-    "name": "Veterinary",
+    "name": "veterinary",
     "description": "Support veterinary understanding from pet care to clinical practice and research.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/veterinary",
     "summary": "Detect Level, Adapt Everything - Context reveals level: vocabulary, species knowledge, clinical framing - When unclear, ask about their role before giving clinical guidance - Never replace veterinarian judgment; never di",
     "repositoryPath": "skills/veterinary",
     "manifestPath": "registry/skills/veterinary.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/veterinary/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/veterinary/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/veterinary/_meta.json",
+      "byteCount": 172,
+      "sha256": "ab8a898e210f0d2845088725868cf2f3b09ae78a9ef086580b35b648820b8137"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/veterinary/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/veterinary/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/veterinary/SKILL.md",
+      "byteCount": 6579,
+      "sha256": "01c11bd93b66380f4c3238490aa801fd2d5c544f8792f5799d8384b9a422c58b"
     }
   ]
 }

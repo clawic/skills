@@ -1,6 +1,6 @@
 # Memory Template - Google Reviews
 
-Create `~/google-reviews/memory.md`:
+Create `~/Clawic/data/google-reviews/memory.md`:
 
 ```markdown
 # Google Reviews Memory

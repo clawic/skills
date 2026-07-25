@@ -1,6 +1,6 @@
 # Memory Template - ChatGPT
 
-Create `~/chatgpt/memory.md` with this structure:
+Create `~/Clawic/data/chatgpt/memory.md` with this structure:
 
 ```markdown
 # ChatGPT Memory

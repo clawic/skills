@@ -1,28 +1,38 @@
 ---
-name: Schedule
+name: schedule
 slug: schedule
 version: 1.0.2
 description: Program recurring or one-time tasks. User defines what to do, skill handles when.
+homepage: https://clawic.com/skills/schedule
 changelog: Clarified user-driven execution model, removed assumed access patterns
-metadata: {"clawdbot":{"emoji":"📅","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📅
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Schedule
 ---
 
 ## Data Storage
 
 ```
-~/schedule/
+~/Clawic/data/schedule/
 ├── jobs.json           # Job definitions
 ├── preferences.json    # Timezone, preferred times
 └── history/            # Execution logs
     └── YYYY-MM.jsonl
 ```
 
-Create on first use: `mkdir -p ~/schedule/history`
+Create on first use: `mkdir -p ~/Clawic/data/schedule/history`
 
 ## Scope
 
 This skill:
-- ✅ Stores scheduled job definitions in ~/schedule/
+- ✅ Stores scheduled job definitions in ~/Clawic/data/schedule/
 - ✅ Triggers jobs at specified times
 - ✅ Learns timezone and time preferences from user
 
@@ -77,7 +87,7 @@ User: "Yes"
 ```
 
 ### 4. Job Persistence
-In ~/schedule/jobs.json:
+In ~/Clawic/data/schedule/jobs.json:
 ```json
 {
   "daily_review": {

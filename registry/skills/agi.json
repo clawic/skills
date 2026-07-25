@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7eb55359693cbb90e0352196e981daf7739f06f180e8128921bc45152166cf8f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "agi",
-    "name": "AGI / Artificial General Intelligence",
+    "name": "agi",
     "description": "Think like a human. Reason, plan, adapt, create, and know your limits.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/agi",
@@ -22,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/agi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/_meta.json",
+      "byteCount": 192,
+      "sha256": "55102cc288d8f4d2eec268f5539dae1199f67d0a712b021b817f1adff05844fc"
     },
     {
       "path": "blindspots.md",
       "downloadPath": "skills/agi/blindspots.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/blindspots.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/blindspots.md",
+      "byteCount": 3998,
+      "sha256": "171458b541c9cbe123fad6d27505ae779edccd3b7ba2a1d5aaab897d253009e6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/agi/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/memory-template.md",
+      "byteCount": 1862,
+      "sha256": "226882843312168bf95a39688a8389fb9eae727c94748edcaec9cb24f9058f61"
     },
     {
       "path": "reasoning.md",
       "downloadPath": "skills/agi/reasoning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/reasoning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/reasoning.md",
+      "byteCount": 3417,
+      "sha256": "91f587753e14f46101ac102ceec4176c391682f35f281755136027ac3717247f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/agi/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/setup.md",
+      "byteCount": 2162,
+      "sha256": "fb188c0f3286454c38df2bdc94b6cf034f6362bdc5987cb53885e78c7fa7dc32"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agi/SKILL.md",
+      "byteCount": 6701,
+      "sha256": "845ecddef96e18cc173d3b80a382dd06877e2d9489f61f9991cc554ebafb3125"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "467f1b0d3e181afd0c0022fd60955a5cd2f6ab8a71487b2414daca2a680afe2f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "b2b",
-    "name": "B2B",
+    "name": "b2b",
     "description": "Close enterprise deals with qualification frameworks, prospecting research, pipeline management, and outreach personalization.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/b2b",
     "summary": "When to Use Agent helps with B2B sales: prospecting, outreach, deal qualification, pipeline analysis, forecast reviews, or account strategy. Applies to founders selling enterprise, sales reps, or sales managers. Quick Re",
     "repositoryPath": "skills/b2b",
     "manifestPath": "registry/skills/b2b.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/b2b/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/_meta.json",
+      "byteCount": 158,
+      "sha256": "4c265594e8f775f2f3dc056cc6473ac90aee236c3e42b60aa505ab74c49d0254"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/b2b/frameworks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/frameworks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/frameworks.md",
+      "byteCount": 1864,
+      "sha256": "3701b07bfead4f024068c159bfd73afeef5b3ad46b18fde0cd1737d013ba420c"
     },
     {
       "path": "outreach.md",
       "downloadPath": "skills/b2b/outreach.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/outreach.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/outreach.md",
+      "byteCount": 1814,
+      "sha256": "4247c14afbe573ec985d6ca5f1df5604d0bcf3ff53e8b093804e773be869c380"
     },
     {
       "path": "pipeline.md",
       "downloadPath": "skills/b2b/pipeline.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/pipeline.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/pipeline.md",
+      "byteCount": 1983,
+      "sha256": "6a2ec35668a2918f78f82ddf65f859e438d40295c94eed6dd71c01519fe85f4e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/b2b/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/b2b/SKILL.md",
+      "byteCount": 3384,
+      "sha256": "f7825d47405a76329c6688f204f696c4a2aadb59e33055194d69bc2e92543ff5"
     }
   ]
 }

@@ -1,11 +1,23 @@
 ---
-name: Game Development
+name: game-development
 slug: game-development
 version: 1.0.0
-homepage: https://clawic.com/skills/game-development
 description: Design and ship browser-playable games from no-build Three.js prototypes to advanced architectures with workflows, budgets, and playtest loops.
+homepage: https://clawic.com/skills/game-development
 changelog: Initial release with browser-first workflows, architecture patterns, project templates, and advanced game system playbooks.
-metadata: {"clawdbot":{"emoji":"🕹️","requires":{"bins":["node","python3"],"env":[]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🕹️
+    requires:
+      bins:
+      - node
+      - python3
+      env: []
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: Game Development
 ---
 
 ## Setup
@@ -18,10 +30,10 @@ Use this skill when users want to create playable games with agents, especially 
 
 ## Architecture
 
-Memory lives in `~/game-development/`. See `memory-template.md` for setup and status fields.
+Memory lives in `~/Clawic/data/game-development/`. See `memory-template.md` for setup and status fields.
 
 ```
-~/game-development/
+~/Clawic/data/game-development/
 |-- memory.md                     # Current project state, scope, and delivery profile
 |-- concept-briefs.md             # Game concepts, target audience, and pillar ideas
 |-- user-preferences.md           # User taste, constraints, and style preferences
@@ -57,7 +69,7 @@ Prefer local and static workflows first. Move to backend dependencies only when 
 
 ## Data Storage
 
-Local notes stay under `~/game-development/` and should capture:
+Local notes stay under `~/Clawic/data/game-development/` and should capture:
 - the current game concept and loop assumptions
 - the user preferences and non-negotiable constraints
 - technical architecture choices with reasons
@@ -142,7 +154,7 @@ This allows agents to continue work without repeating discovery.
 ## Security & Privacy
 
 Data that stays local:
-- concept notes and user preferences under `~/game-development/`
+- concept notes and user preferences under `~/Clawic/data/game-development/`
 - project decision logs and playtest outcomes
 
 Data that may leave your machine only if explicitly requested:
@@ -156,7 +168,7 @@ This skill does NOT:
 - recommend production launch without performance and playtest evidence
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `threejs` - 3D rendering patterns and WebGL resource hygiene
 - `javascript` - core scripting patterns for browser game logic
 - `typescript` - safer large-scale game codebases and tooling
@@ -165,5 +177,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star game-development`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/game-development
+- Latest version: https://clawic.com/skills/game-development

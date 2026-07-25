@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a7bb30dc48895656f8b9dcddee29f176a2505be0da26b6eb84237ddde2bc4647",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "colors",
-    "name": "Colors",
+    "name": "colors",
     "description": "Build accessible color palettes with proper contrast ratios and semantic tokens.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/colors",
     "summary": "Contrast Ratios (WCAG) | Level | Normal Text | Large Text (≥18pt or ≥14pt bold) | UI Components | |-------|-------------|----------------------------------|---------------| | AA (minimum) | ≥ 4.5:1 | ≥ 3:1 | ≥ 3:1 | | AA",
     "repositoryPath": "skills/colors",
     "manifestPath": "registry/skills/colors.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/colors/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colors/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colors/_meta.json",
+      "byteCount": 164,
+      "sha256": "61055e00c599ff997f9bc5b793ef5293004d9740ec7e0545ff4b932b34e65d03"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/colors/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colors/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/colors/SKILL.md",
+      "byteCount": 4066,
+      "sha256": "12b96759c4793d553d101d427e371b5e4390a387badbf4ee14a87126a25e755c"
     }
   ]
 }

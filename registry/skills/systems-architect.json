@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "b2bbd2253e9b3c94ff4ff9cabb8b95340495bdd3014ad780fc206ff9de4bbb2d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "systems-architect",
-    "name": "Systems Architect",
+    "name": "systems-architect",
     "description": "Design infrastructure, networks, and cloud systems with integration, reliability, and security patterns.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/systems-architect",
     "summary": "Systems Architecture Rules Infrastructure Design - Design for failure at every layer — hardware fails, networks partition, regions go down - Redundancy costs money, downtime costs more — calculate acceptable risk - Prefe",
     "repositoryPath": "skills/systems-architect",
     "manifestPath": "registry/skills/systems-architect.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/systems-architect/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/_meta.json",
+      "byteCount": 186,
+      "sha256": "163602e7e188c3c9812876cf5b6f31f23e74b7ec0e1dd90dc426542ed5e812b6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/systems-architect/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/systems-architect/SKILL.md",
+      "byteCount": 4499,
+      "sha256": "4d840c2abaa0e1f26bcd1f64103f30079d23aaedc8974367c39c23b26f22a50f"
     }
   ]
 }

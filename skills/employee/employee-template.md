@@ -5,14 +5,14 @@ Copy this structure to initialize the employee system.
 ## Initial Setup
 
 ```bash
-mkdir -p ~/employee/employees ~/employee/shared
-echo '{"employees":{}}' > ~/employee/registry.json
-touch ~/employee/shared/protocols.md
+mkdir -p ~/Clawic/data/employee/employees ~/Clawic/data/employee/shared
+echo '{"employees":{}}' > ~/Clawic/data/employee/registry.json
+touch ~/Clawic/data/employee/shared/protocols.md
 ```
 
 ## Registry Template
 
-For `~/employee/registry.json`:
+For `~/Clawic/data/employee/registry.json`:
 
 ```json
 {
@@ -35,7 +35,7 @@ After hiring employees:
 
 ## Employee Config Template
 
-For `~/employee/employees/{name}/employee.json`:
+For `~/Clawic/data/employee/employees/{name}/employee.json`:
 
 ```json
 {
@@ -82,7 +82,7 @@ For `~/employee/employees/{name}/employee.json`:
 
 ## Memory Template
 
-For `~/employee/employees/{name}/memory/context.md`:
+For `~/Clawic/data/employee/employees/{name}/memory/context.md`:
 
 ```markdown
 # {Name} - Context Memory
@@ -99,7 +99,7 @@ For `~/employee/employees/{name}/memory/context.md`:
 
 ## Log Template
 
-For `~/employee/employees/{name}/logs/YYYY-MM-DD.md`:
+For `~/Clawic/data/employee/employees/{name}/logs/YYYY-MM-DD.md`:
 
 ```markdown
 # {Name} - YYYY-MM-DD

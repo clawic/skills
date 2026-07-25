@@ -1,6 +1,6 @@
 # Memory Template - Store
 
-Create `~/store/memory.md` with this structure:
+Create `~/Clawic/data/store/memory.md` with this structure:
 
 ```markdown
 # Store Memory
@@ -48,7 +48,7 @@ targets:
 
 ## File Templates
 
-Create `~/store/routines.md`:
+Create `~/Clawic/data/store/routines.md`:
 
 ```markdown
 # Store Routines
@@ -72,7 +72,7 @@ Create `~/store/routines.md`:
 - next-day priorities
 ```
 
-Create `~/store/inventory.md`:
+Create `~/Clawic/data/store/inventory.md`:
 
 ```markdown
 # Inventory Notes
@@ -89,7 +89,7 @@ Create `~/store/inventory.md`:
 - transfer_or_order_actions:
 ```
 
-Create `~/store/staff.md`:
+Create `~/Clawic/data/store/staff.md`:
 
 ```markdown
 # Staff Notes
@@ -105,7 +105,7 @@ Create `~/store/staff.md`:
 - break_risks:
 ```
 
-Create `~/store/kpis.md`:
+Create `~/Clawic/data/store/kpis.md`:
 
 ```markdown
 # KPI Tracker
@@ -120,7 +120,7 @@ Create `~/store/kpis.md`:
 - shrink_or_loss_notes:
 ```
 
-Create `~/store/promotions.md`:
+Create `~/Clawic/data/store/promotions.md`:
 
 ```markdown
 # Promotions
@@ -133,7 +133,7 @@ Create `~/store/promotions.md`:
 - result:
 ```
 
-Create `~/store/incidents.md`:
+Create `~/Clawic/data/store/incidents.md`:
 
 ```markdown
 # Incident Log

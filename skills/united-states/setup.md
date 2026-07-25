@@ -10,7 +10,7 @@ mkdir -p ~/united-states
 ```
 
 ### 2. Initialize Memory File
-Create `~/united-states/memory.md` using `memory-template.md`.
+Create `~/Clawic/data/united-states/memory.md` using `memory-template.md`.
 
 ### 3. Gather Trip Context Naturally
 Ask in conversational flow:
@@ -22,11 +22,11 @@ Ask in conversational flow:
 - Pace: relaxed, moderate, or fast-moving itinerary.
 
 ### 4. Save to Memory
-Update `~/united-states/memory.md` with the current intent, constraints, and decision status.
+Update `~/Clawic/data/united-states/memory.md` with the current intent, constraints, and decision status.
 
 ## Returning Users
 
-If `~/united-states/memory.md` exists:
+If `~/Clawic/data/united-states/memory.md` exists:
 1. Read it silently
 2. Reuse known constraints and preferences
 3. Ask only what changed (dates, region focus, budget, mobility)

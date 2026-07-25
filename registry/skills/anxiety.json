@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6814d188a1268c616ff08d7789d27fedeacd1f66fad33149059ac70dd105799e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "anxiety",
-    "name": "Anxiety (Tracker, Trigger Map, Coping Planner)",
+    "name": "anxiety",
     "description": "Track anxiety episodes, triggers, thoughts, and coping responses with therapy-ready logs, weekly trend reviews, and safety-first escalation cues.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/anxiety",
@@ -22,57 +25,79 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/anxiety/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/_meta.json",
+      "byteCount": 205,
+      "sha256": "4700461f111a89f04777e049d31f54b972d223aa0adfd2dd0c4179390746ead2"
     },
     {
       "path": "event-log-template.md",
       "downloadPath": "skills/anxiety/event-log-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/event-log-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/event-log-template.md",
+      "byteCount": 1136,
+      "sha256": "d334bcbcd296d55688b9e0616941471b5bd4bbf2d50e169b89122bcdb0441189"
     },
     {
       "path": "exposure-ladder.md",
       "downloadPath": "skills/anxiety/exposure-ladder.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/exposure-ladder.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/exposure-ladder.md",
+      "byteCount": 950,
+      "sha256": "569843bd12ac1751a2e2ae0da258bb21d01f3c2d76cda0937897b6139fb3fd77"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/anxiety/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/memory-template.md",
+      "byteCount": 3175,
+      "sha256": "759dfcdac7ca5b6ca02002b3277d421da260bdbb683584c7a5e43a42720cab3c"
     },
     {
       "path": "regulation-playbook.md",
       "downloadPath": "skills/anxiety/regulation-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/regulation-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/regulation-playbook.md",
+      "byteCount": 1033,
+      "sha256": "d28dd41c2269967ac6494055cdd0a712dd114bd79565e119fdf734fb8ad180e3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/anxiety/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/setup.md",
+      "byteCount": 2079,
+      "sha256": "e8c285c60179d1ccde0e40b8884b07ae4238f92c0048a150801168b639b8aab0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/anxiety/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/SKILL.md",
+      "byteCount": 6617,
+      "sha256": "db71d622fd957a45618942473718c9cd0e19750cc9e2ebef3c6b13d2f3765dbd"
     },
     {
       "path": "thought-record.md",
       "downloadPath": "skills/anxiety/thought-record.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/thought-record.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/thought-record.md",
+      "byteCount": 986,
+      "sha256": "83240147a4efe02a37364aa078f54f2f1161fcaf75da95df4b108893d685d859"
     },
     {
       "path": "tracking-modes.md",
       "downloadPath": "skills/anxiety/tracking-modes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/tracking-modes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/tracking-modes.md",
+      "byteCount": 1205,
+      "sha256": "6f48c16bec0f334331d2131db756d216e6fbc462fea4643cbf05eaf8117cbe79"
     },
     {
       "path": "triage-rules.md",
       "downloadPath": "skills/anxiety/triage-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/triage-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/triage-rules.md",
+      "byteCount": 1292,
+      "sha256": "19c3a342e916e050a0e9ebe2aed2cbd8108320dfd17bdd4eb022d16ef308089b"
     },
     {
       "path": "weekly-review.md",
       "downloadPath": "skills/anxiety/weekly-review.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/weekly-review.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anxiety/weekly-review.md",
+      "byteCount": 953,
+      "sha256": "55d6c8b8c86e48805b295397765b6c9430e21f223d43ca42b476b5ba1c3bcee1"
     }
   ]
 }

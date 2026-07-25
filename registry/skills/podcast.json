@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "e04f0dcc05c4798796260883122cca90f87ad5ce2fb60009e93cde8dd6ae93f4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "podcast",
-    "name": "Podcast",
+    "name": "podcast",
     "description": "Create and grow podcasts by planning episodes, producing audio or video, generating clips, and building audience across formats.",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/podcast",
     "summary": "Core Workflow Every podcast follows: Concept → Plan → Record/Generate → Edit → Publish → Promote. Before starting ANY podcast: 1. **Format** — Solo, interview, panel, narrative, or AI-generated 2. **Niche** — Specific to",
     "repositoryPath": "skills/podcast",
     "manifestPath": "registry/skills/podcast.json"
@@ -20,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/podcast/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/_meta.json",
+      "byteCount": 242,
+      "sha256": "8a50c0a12133ad6e05ebd1aa672682c2121414f66d9baf87e48cd5808fd8b9a1"
     },
     {
       "path": "ai-generation.md",
       "downloadPath": "skills/podcast/ai-generation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/ai-generation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/ai-generation.md",
+      "byteCount": 3820,
+      "sha256": "6911b912fab0f6d1376c5a46ec0a0de15556b9ad5eac84b736408dbd5664309b"
     },
     {
       "path": "episodes.md",
       "downloadPath": "skills/podcast/episodes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/episodes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/episodes.md",
+      "byteCount": 5260,
+      "sha256": "6061df88d0be35c78202da16c4cdb9481d1dfb1b5363e30d644b88ced9df8c13"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/podcast/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/formats.md",
+      "byteCount": 3995,
+      "sha256": "4d934d86489d610f63d5648a668e677d12a2aa6b96c7f71fb43ea549ad66737b"
     },
     {
       "path": "growth.md",
       "downloadPath": "skills/podcast/growth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/growth.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/growth.md",
+      "byteCount": 4523,
+      "sha256": "0c9750cbf712379b0f33c1144c10626f24d60c92aa7d2933dbab3452759631e5"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/podcast/production.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/production.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/production.md",
+      "byteCount": 3864,
+      "sha256": "9572d8c2f91da81be87a0e7cccc3c91235135ca27c67e00ad8618dcaf87d9d45"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/podcast/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/SKILL.md",
+      "byteCount": 2281,
+      "sha256": "6e46e9c97ecf6abbe1cef6a3471e5e6a9c7e46fea46723681a9d62a2f546bdf9"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/podcast/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/podcast/tools.md",
+      "byteCount": 4220,
+      "sha256": "984b779b097e5f339ed6ff2d6fbf0134d78f97af8bd0bd9491dd26ffc53351b4"
     }
   ]
 }

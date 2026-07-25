@@ -1,16 +1,25 @@
 ---
-name: Garden
+name: garden
 slug: garden
 version: 1.1.6
-homepage: https://clawic.com/skills/garden
-changelog: "Natural setup flow, explicit consent, no technical jargon"
 description: Track your entire garden with structured memory for plants, zones, tasks, harvests, and climate-aware planning that compounds over seasons.
-metadata: {"clawdbot":{"emoji":"🌱","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/garden
+changelog: Natural setup flow, explicit consent, no technical jargon
+metadata:
+  clawdbot:
+    emoji: 🌱
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Garden
 ---
 
 ## Setup
 
-If `~/garden/` doesn't exist or is empty, read `setup.md` and follow it. The user engaging with the skill implies interest — start helping them naturally.
+If `~/Clawic/data/garden/` doesn't exist or is empty, read `setup.md` and follow it. The user engaging with the skill implies interest — start helping them naturally.
 
 ## When to Use
 
@@ -18,10 +27,10 @@ User needs help managing their garden: tracking plants, logging activities, plan
 
 ## Architecture
 
-Memory lives in `~/garden/`. See `memory-template.md` for templates.
+Memory lives in `~/Clawic/data/garden/`. See `memory-template.md` for templates.
 
 ```
-~/garden/
+~/Clawic/data/garden/
 ├── memory.md      # REQUIRED: context and status
 ├── climate.md     # Optional: zone, frost dates
 ├── plants/        # Optional: detailed plant files
@@ -85,23 +94,23 @@ When user reports issue: check plant health history, zone conditions, recent wea
 ## Security & Privacy
 
 **Data that stays local:**
-- All garden data stored in `~/garden/`
+- All garden data stored in `~/Clawic/data/garden/`
 - No external APIs or network calls
 - No telemetry, analytics, or data collection
 
 **What this skill writes:**
-- Files in `~/garden/` (memory.md, plants/, etc.)
+- Files in `~/Clawic/data/garden/` (memory.md, plants/, etc.)
 - Optionally: one line in user's workspace MEMORY.md (e.g., ~/MEMORY.md or equivalent) — **only after asking and receiving explicit "yes"**
 
 **This skill does NOT:**
 - Infer or save preferences without user confirmation
 - Access weather APIs (climate is manually configured)
 - Control hardware or irrigation systems
-- Write outside `~/garden/` without asking first
+- Write outside `~/Clawic/data/garden/` without asking first
 - Make any network requests
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `plants` — Plant care and identification
 - `habits` — Daily habit tracking
 - `journal` — General journaling
@@ -110,5 +119,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star garden`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/garden
+- Latest version: https://clawic.com/skills/garden

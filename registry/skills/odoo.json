@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4a54eacd83845b87a6e3c50070ab415efaaa656b5b05b2dca9acdd65c6df66ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "odoo",
-    "name": "Odoo",
+    "name": "odoo",
     "description": "Operate Odoo across CRM, sales, inventory, purchasing, and accounting with module-aware planning, read-before-write checks, and safe execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/odoo",
@@ -22,62 +25,86 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/odoo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/_meta.json",
+      "byteCount": 160,
+      "sha256": "d5916f10769a95887d0a89561626d7964089cdcd54ceb3caa1c7c50eebf16f16"
     },
     {
       "path": "examples.md",
       "downloadPath": "skills/odoo/examples.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/examples.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/examples.md",
+      "byteCount": 1553,
+      "sha256": "031e74e9af84288f267abbbd5bf2db4a31baf0e0eca066d63743a12c3b920cc4"
     },
     {
       "path": "integrations.md",
       "downloadPath": "skills/odoo/integrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/integrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/integrations.md",
+      "byteCount": 2429,
+      "sha256": "38caca4e5994b28f5736ce8d62f47876bb3fc2441f263c2d194a162f0ae32ded"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/odoo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/memory-template.md",
+      "byteCount": 1327,
+      "sha256": "2ce4b7370b037a810126c7fafe4e393af13bcfea4ba7029e6b639ee99738d63a"
     },
     {
       "path": "models.md",
       "downloadPath": "skills/odoo/models.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/models.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/models.md",
+      "byteCount": 1793,
+      "sha256": "e03e36da35d8d44cbe6c35cfb2e531b4bc37289036c7b1c4b33236b8314c00e7"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/odoo/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/operations.md",
+      "byteCount": 2394,
+      "sha256": "27b1de1525586413b672ce6f0fb39a5d8e3f0851410f3c2d14fc332869a6110b"
     },
     {
       "path": "reporting.md",
       "downloadPath": "skills/odoo/reporting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/reporting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/reporting.md",
+      "byteCount": 1639,
+      "sha256": "d8e6f08ec6cd4628bb788878961663e967fd04ebfbaa59365f4c50f68eec413b"
     },
     {
       "path": "safety.md",
       "downloadPath": "skills/odoo/safety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/safety.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/safety.md",
+      "byteCount": 1869,
+      "sha256": "90e57d31b1f7952d2dd7ddbf467d832cc304bff492fbfbd4901ed7d6f29bfeed"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/odoo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/setup.md",
+      "byteCount": 2400,
+      "sha256": "7fe84c7121eff44cdbe8a0890416ede8292f6f58c5c8faf5d44f00b2728b222c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/odoo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/SKILL.md",
+      "byteCount": 10334,
+      "sha256": "79ccdc16a282cbd0f757f8267d7e2b912e4de9b6a4408f79bcf2a371be048c90"
     },
     {
       "path": "surfaces.md",
       "downloadPath": "skills/odoo/surfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/surfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/surfaces.md",
+      "byteCount": 1782,
+      "sha256": "c5cdaa211d3b1df2ee5b151e452171a6eb580c924b4dc75db70a98a17b93cd36"
     },
     {
       "path": "triage.md",
       "downloadPath": "skills/odoo/triage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/triage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/odoo/triage.md",
+      "byteCount": 1676,
+      "sha256": "84d2926aed3028459c1ab3fd6f4e7ce9b1cae59d8399760715e48e1bf9d52d48"
     }
   ]
 }

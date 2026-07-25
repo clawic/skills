@@ -6,7 +6,7 @@ Isolated environment for safe skill testing.
 
 ```bash
 # Create isolated test folder
-npx clawhub install <slug> --dir /tmp/skill-test/<slug>
+npx clawic install <slug> --dir /tmp/skill-test/<slug>
 ```
 
 ## Running Tests

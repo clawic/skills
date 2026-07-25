@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a7024180e0f63cc37ba7095b78cbf6c418a6802d542b803db40692b381e03fe1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,69 +23,95 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/typescript/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/typescript/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/_meta.json",
+      "byteCount": 544,
+      "sha256": "a06adc388744463cdb91b95cb7c2e8a64c76c6746ed0713445d37e8476dcbb81"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/typescript/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/boundaries.md",
+      "byteCount": 4235,
+      "sha256": "3a8ae169e453110cb94744f1ae7b45214b417484fb9533fbde0f1c141b95dcae"
     },
     {
       "path": "declarations.md",
       "downloadPath": "skills/typescript/declarations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/declarations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/declarations.md",
+      "byteCount": 3563,
+      "sha256": "5b811a5fc3b2ca4df4352fc314f83324db0896558f1fe88c4e6abdb3547d8a2f"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/typescript/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/errors.md",
+      "byteCount": 4695,
+      "sha256": "f556dd8268035ee06a56df385a59341435d6a0654f302d811f99193a6515a105"
     },
     {
       "path": "generics.md",
       "downloadPath": "skills/typescript/generics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/generics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/generics.md",
+      "byteCount": 4591,
+      "sha256": "6c7b8f5445c225ad0ba350a3d742ea71aa4f3a7ff86e39ff23dda15e424c4e24"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/typescript/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/memory-template.md",
+      "byteCount": 711,
+      "sha256": "365be59b6da85accbebe9bcd016435f550ad59856c966edc0f2693a83d09993b"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/typescript/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/migration.md",
+      "byteCount": 3880,
+      "sha256": "c9b739f903d313f00b83bfa2cdc5c5667b84578dddd7cd2f0d0f55133cb87f3d"
     },
     {
       "path": "modules.md",
       "downloadPath": "skills/typescript/modules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/modules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/modules.md",
+      "byteCount": 3604,
+      "sha256": "80523f21a137cec0898e9ca6c46373b568e7a77f8d31bf042f32a6409d0a4b40"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/typescript/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/performance.md",
+      "byteCount": 3595,
+      "sha256": "69c13c93d9ad6b65ff875ab4cd5d5d898cc8c940823c2b748243ea23b77e4834"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/typescript/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/setup.md",
+      "byteCount": 2056,
+      "sha256": "d29847b97c7347b7abe42f334b11756d31b1979fca8d1e6e8e0dfedd44e58341"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/typescript/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/SKILL.md",
+      "byteCount": 15751,
+      "sha256": "934ddd98974a98490b9be66532942bec6d15f85a73b2c79dc752e2919d48d924"
     },
     {
       "path": "tsconfig.md",
       "downloadPath": "skills/typescript/tsconfig.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/tsconfig.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/tsconfig.md",
+      "byteCount": 3636,
+      "sha256": "9ad265b4b6d49f53177944860f90d0c20a1485ff8c1c2461734af1cb6c191ea7"
     },
     {
       "path": "utility-types.md",
       "downloadPath": "skills/typescript/utility-types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/utility-types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/utility-types.md",
+      "byteCount": 2460,
+      "sha256": "4e83506860f72366a7e5f3da8ace54a81d661e59a642e6437c9d009268f97930"
     }
   ]
 }

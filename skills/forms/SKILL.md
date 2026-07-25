@@ -1,9 +1,19 @@
 ---
-name: Forms
+name: forms
 slug: forms
 version: 1.0.0
 description: Create, validate, and deploy forms with field types, validation patterns, conditional logic, and platform integrations.
-metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/forms
+metadata:
+  clawdbot:
+    emoji: 📝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Forms
 ---
 
 ## Quick Reference
@@ -32,7 +42,7 @@ metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":[]},"os":["linux","darw
 
 ## Data Storage
 
-Store form definitions and templates in ~/forms/:
+Store form definitions and templates in ~/Clawic/data/forms/:
 - templates — Reusable form definitions (JSON/YAML)
 - submissions — Collected responses (if self-hosted)
 - feedback — What converts well, what fails

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "19126e88b3ccb0f6ead1fa039d0fc19d543e46188c1a4feb006630bc54935e65",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "fox-news",
-    "name": "Fox News Monitor",
+    "name": "fox-news",
     "description": "Monitor Fox News sections and breaking updates with official RSS routes, live-event tracking, and optional outside verification.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/fox-news",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/fox-news/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/_meta.json",
+      "byteCount": 176,
+      "sha256": "93ae027f7039b41b0f81ba02a28538739728ee5b099d6ffa8aa093dd0ae56f4e"
     },
     {
       "path": "briefing-formats.md",
       "downloadPath": "skills/fox-news/briefing-formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/briefing-formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/briefing-formats.md",
+      "byteCount": 1815,
+      "sha256": "424d45b567b7d6e1e310005f620135f2988b552bbde93cb2e6dc3179b915ce4a"
     },
     {
       "path": "feed-map.md",
       "downloadPath": "skills/fox-news/feed-map.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/feed-map.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/feed-map.md",
+      "byteCount": 2211,
+      "sha256": "bd66aa16ce1dd222149a14c4c2fd897fc3ba9e475382c44903b74ac753bae713"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/fox-news/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/memory-template.md",
+      "byteCount": 1633,
+      "sha256": "e2ca9340b32f27924d7fb26c8757b46e6f03953487cf4a274be38005b8cbd03d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/fox-news/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/setup.md",
+      "byteCount": 1872,
+      "sha256": "2f02e39a6e154ca877c79da48c71bc1a33fe397c9b7941636a0952b9296e10f3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fox-news/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/SKILL.md",
+      "byteCount": 7224,
+      "sha256": "04849fd8e4a43d01737b1bb410921d7213ba7baafec5daf914680f750a390aa8"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/fox-news/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/troubleshooting.md",
+      "byteCount": 1287,
+      "sha256": "8afa02f97cddfe4b32551addd6746bc85c287f3f8ac2de75a409bae83447f3fa"
     },
     {
       "path": "workflow-patterns.md",
       "downloadPath": "skills/fox-news/workflow-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/workflow-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fox-news/workflow-patterns.md",
+      "byteCount": 1467,
+      "sha256": "5b646ceb7eadbf4aaa6786e298a2101ec68d413679f7915d7516f369d7f6bb2a"
     }
   ]
 }

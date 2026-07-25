@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "0c2fa2470e7e4f960675e487fad2a348af15aac4572d62f99471252a08fd9170",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "auto-update",
-    "name": "Auto-Update (OpenClaw + Skills)",
+    "name": "auto-update",
     "description": "Auto-update OpenClaw and skills with OpenClaw cron, per-skill defaults, backups, and migration-aware summaries.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/auto-update",
-    "summary": "When to Use Use when the user wants OpenClaw and installed skills to stay updated automatically. This skill sets up a real `openclaw cron add` job, keeps a small control folder in `~/auto-update/`, remembers which skills",
+    "summary": "When to Use Use when the user wants OpenClaw and installed skills to stay updated automatically. This skill sets up a real `openclaw cron add` job, keeps a small control folder in `~/Clawic/data/auto-update/`, remembers ",
     "repositoryPath": "skills/auto-update",
     "manifestPath": "registry/skills/auto-update.json"
   },
@@ -22,87 +25,121 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/auto-update/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/_meta.json",
+      "byteCount": 194,
+      "sha256": "cfb489b44103e076f7241a11fceb27ba682edb4ef6b0d88e5ce2ae70fc429967"
     },
     {
       "path": "backups.md",
       "downloadPath": "skills/auto-update/backups.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/backups.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/backups.md",
+      "byteCount": 510,
+      "sha256": "2b6b0bb20c9a2faf0c669948b418bee545e3ecee49e0e52ab3cd52442c4e90f2"
     },
     {
       "path": "execution.md",
       "downloadPath": "skills/auto-update/execution.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/execution.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/execution.md",
+      "byteCount": 2694,
+      "sha256": "46d0b4cd1efe4d3b56a06ff4d875592f3a83a3ab2323028c91b48d7ac7fc1302"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/auto-update/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory-template.md",
+      "byteCount": 3014,
+      "sha256": "66f266e9388a8979e7fdd519de8dcff706e5a382e1140c0c1da319b7be3e3c26"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/auto-update/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/memory.md",
+      "byteCount": 684,
+      "sha256": "bd4f7de1799dbd2ef9830b390a131df73f8057cb7e65cfa7b4ae18d090513937"
     },
     {
       "path": "migrations.md",
       "downloadPath": "skills/auto-update/migrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/migrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/migrations.md",
+      "byteCount": 695,
+      "sha256": "634d5e04a1f9c9efaa2cebfd91c3be1d96390404740f5b29e5dcf5ec7212958a"
     },
     {
       "path": "openclaw.md",
       "downloadPath": "skills/auto-update/openclaw.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/openclaw.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/openclaw.md",
+      "byteCount": 1459,
+      "sha256": "6f6640383d5f54d203149c0217a988c85f410ecacbf91a3b7ef2f8ed4f7b99ac"
     },
     {
       "path": "policy.md",
       "downloadPath": "skills/auto-update/policy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/policy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/policy.md",
+      "byteCount": 1077,
+      "sha256": "e29c03dd0117eb2bbb04fab9db7bdaffcf7c502efc254d9aa50af2f5dd499b53"
     },
     {
       "path": "recovery.md",
       "downloadPath": "skills/auto-update/recovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/recovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/recovery.md",
+      "byteCount": 738,
+      "sha256": "df91c4ceb9631e66a469edf1afb77f281f7dcb520c5f723b1bbb1b3e35a9831d"
     },
     {
       "path": "reports.md",
       "downloadPath": "skills/auto-update/reports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/reports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/reports.md",
+      "byteCount": 1008,
+      "sha256": "05eece6ee4f9050d88b8ea6fbe76b9d97d724c781833a6fb47103c883984bf4a"
     },
     {
       "path": "run-log.md",
       "downloadPath": "skills/auto-update/run-log.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/run-log.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/run-log.md",
+      "byteCount": 451,
+      "sha256": "13b60bfc3e952d81e19e31e78ed6ec6792871eb32b4f1896fa477fb418f6be11"
     },
     {
       "path": "schedule.md",
       "downloadPath": "skills/auto-update/schedule.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/schedule.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/schedule.md",
+      "byteCount": 526,
+      "sha256": "5ae967c410b603e02c3ca120a166a402950d159ce086b40bc942af82f77b08ab"
     },
     {
       "path": "scheduler.md",
       "downloadPath": "skills/auto-update/scheduler.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/scheduler.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/scheduler.md",
+      "byteCount": 1837,
+      "sha256": "2b1e5d57e3986ceb3d7663086bfe41e809b4a25d5e4d3d5b420c6c984d8a1942"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/auto-update/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/setup.md",
+      "byteCount": 3285,
+      "sha256": "4f3d37a694d7c750923c8b17758caac434895c505f106d2237d751d452a2df17"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/auto-update/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/SKILL.md",
+      "byteCount": 12253,
+      "sha256": "1296e0cf58119a3dc96255ad4539144f63a94d69c77398521bc47f1e242ae5d9"
     },
     {
       "path": "skills.md",
       "downloadPath": "skills/auto-update/skills.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/skills.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/skills.md",
+      "byteCount": 747,
+      "sha256": "20684dbfa39a34bc6d6c674a29da8c29ddbf5e2543d4aea6bb1645f5d2728037"
     },
     {
       "path": "workspace-integration.md",
       "downloadPath": "skills/auto-update/workspace-integration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/workspace-integration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/workspace-integration.md",
+      "byteCount": 753,
+      "sha256": "5b18f11a2726fd06261f6cc58d7357fdca1164fbcc566ba42a8d5c6f14afa409"
     }
   ]
 }

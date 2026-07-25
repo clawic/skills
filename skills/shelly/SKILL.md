@@ -1,11 +1,25 @@
 ---
-name: Shelly
+name: shelly
 slug: shelly
 version: 1.0.0
-homepage: https://clawic.com/skills/shelly
 description: Control and automate Shelly devices with local RPC workflows, secure access modes, cloud API coordination, and safe multi-device execution.
+homepage: https://clawic.com/skills/shelly
 changelog: Initial release with Shelly local and cloud operations for discovery, command control, telemetry checks, orchestration, and incident-safe rollouts.
-metadata: {"clawdbot":{"emoji":"S","requires":{"bins":["curl","jq"],"env":["SHELLY_CLOUD_TOKEN"]},"primaryEnv":"SHELLY_CLOUD_TOKEN","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: S
+    requires:
+      bins:
+      - curl
+      - jq
+      env:
+      - SHELLY_CLOUD_TOKEN
+    primaryEnv: SHELLY_CLOUD_TOKEN
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Shelly
 ---
 
 ## Setup
@@ -19,10 +33,10 @@ Use this instead of generic IoT advice when outcomes depend on Shelly-specific R
 
 ## Architecture
 
-Memory lives in `~/shelly/`. See `memory-template.md` for structure and status values.
+Memory lives in `~/Clawic/data/shelly/`. See `memory-template.md` for structure and status values.
 
 ```text
-~/shelly/
+~/Clawic/data/shelly/
 |-- memory.md                 # Core context and activation boundaries
 |-- environments.md           # LAN segments, cloud context, and endpoint mapping
 |-- devices.md                # Device registry, components, and command patterns
@@ -54,7 +68,7 @@ Never ask users to paste production secrets in chat logs. Prefer local environme
 
 ## Data Storage
 
-Keep local operational notes in `~/shelly/`:
+Keep local operational notes in `~/Clawic/data/shelly/`:
 - network and endpoint decisions
 - device component maps and verified RPC methods
 - automation policies, sequencing, and rollback constraints
@@ -122,7 +136,7 @@ Data that leaves your machine:
 - optional MQTT publish/subscribe payloads in user-configured broker setups
 
 Data that stays local:
-- environment mapping, device capability notes, and runbooks under `~/shelly/`
+- environment mapping, device capability notes, and runbooks under `~/Clawic/data/shelly/`
 - incident timelines and rollback decisions
 
 This skill does NOT:
@@ -137,7 +151,7 @@ This skill sends operational data to Shelly devices and optionally Shelly cloud 
 Only install if you trust your network environment, broker setup, and Shelly account scope with this automation data.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `iot` - Device connectivity and IoT system integration patterns
 - `smart-home` - Home automation architecture and reliability practices
 - `api` - API contract design and robust request handling
@@ -146,5 +160,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star shelly`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/shelly
+- Latest version: https://clawic.com/skills/shelly

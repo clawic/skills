@@ -1,11 +1,22 @@
 ---
-name: Face
+name: face
 slug: face
 version: 1.0.0
+description: Put a human face on your agent with fast avatar shortlists, gender control, transparent options, and reusable profile links. Use when the user wants an avatar, profile face, or group image.
 homepage: https://clawic.com/skills/face
-description: "Put a human face on your agent with fast avatar shortlists, gender control, transparent options, and reusable profile links. Use when the user wants an avatar, profile face, or group image."
-changelog: "Refines the positioning around putting a human face on the agent with faster avatar selection."
-metadata: {"clawdbot":{"emoji":"👤","requires":{"bins":["curl","python3"]},"os":["linux","darwin","win32"]}}
+changelog: Refines the positioning around putting a human face on the agent with faster avatar selection.
+metadata:
+  clawdbot:
+    emoji: 👤
+    requires:
+      bins:
+      - curl
+      - python3
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Face
 ---
 
 # Put a Face on Your Agent

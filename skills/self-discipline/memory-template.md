@@ -1,6 +1,6 @@
 # Memory Template — Self Discipline
 
-## ~/self-discipline/memory.md
+## ~/Clawic/data/self-discipline/memory.md
 
 ```markdown
 # Self Discipline Memory
@@ -33,7 +33,7 @@ backup_before_edit: true
 *Updated: YYYY-MM-DD*
 ```
 
-## ~/self-discipline/rules.md
+## ~/Clawic/data/self-discipline/rules.md
 
 ```markdown
 # Active Discipline Rules
@@ -78,7 +78,7 @@ validator: validators/pre-send/no-secrets.sh
 *Add new rules below. Most recent first.*
 ```
 
-## ~/self-discipline/incidents.md
+## ~/Clawic/data/self-discipline/incidents.md
 
 ```markdown
 # Incident Log

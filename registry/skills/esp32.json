@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "db8e4cc35895b3b6afeb193a6bb8fc1b284340ba806aac769c4f05ea47da9503",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "esp32",
-    "name": "ESP32",
+    "name": "esp32",
     "description": "Avoid common ESP32 mistakes — GPIO conflicts, WiFi+ADC2 trap, deep sleep gotchas, and FreeRTOS pitfalls.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/esp32",
     "summary": "GPIO Restrictions - Strapping pins boot behavior — GPIO0, GPIO2, GPIO12, GPIO15 affect boot mode - GPIO6-11 connected to flash — don't use, crashes immediately - GPIO34-39 input only — no output, no pullup/pulldown - ADC",
     "repositoryPath": "skills/esp32",
     "manifestPath": "registry/skills/esp32.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/esp32/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esp32/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esp32/_meta.json",
+      "byteCount": 162,
+      "sha256": "dcd9569ae0dc0b2399dc32c543e294b27f8ede0da1671a27258cecfa4d4b4cd0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/esp32/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esp32/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esp32/SKILL.md",
+      "byteCount": 2638,
+      "sha256": "ee2ec8d60536dd639957087ac8817880198dc6092f257932f26be8d851e50eec"
     }
   ]
 }

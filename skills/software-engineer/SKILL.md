@@ -1,10 +1,19 @@
 ---
-name: Software Engineer
+name: software-engineer
 slug: software-engineer
 version: 1.0.0
-homepage: https://clawic.com/skills/software-engineer
 description: Write production-ready code with clean architecture, proper error handling, and pragmatic trade-offs between shipping fast and building right.
-metadata: {"clawdbot":{"emoji":"👨‍💻","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/software-engineer
+metadata:
+  clawdbot:
+    emoji: 👨‍💻
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Software Engineer
 ---
 
 ## When to Use

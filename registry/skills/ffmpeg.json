@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "bc1f8de578d0920f87b17863195012cbaab61a9f7738fe205212ed54b7344bed",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ffmpeg",
-    "name": "FFmpeg",
+    "name": "ffmpeg",
     "description": "Process video and audio with correct codec selection, filtering, and encoding settings.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ffmpeg",
     "summary": "Input Seeking (Major Difference) - `-ss` BEFORE `-i`: fast seek, may be inaccurate—starts from nearest keyframe - `-ss` AFTER `-i`: frame-accurate but slow—decodes from start - Combine both: `-ss 00:30:00 -i input.mp4 -s",
     "repositoryPath": "skills/ffmpeg",
     "manifestPath": "registry/skills/ffmpeg.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ffmpeg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ffmpeg/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ffmpeg/_meta.json",
+      "byteCount": 164,
+      "sha256": "a6f5f05a200b8fa2eb3d3a650635ec11e8fc466b968f6d6f76c8281d0c7e7d99"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ffmpeg/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ffmpeg/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ffmpeg/SKILL.md",
+      "byteCount": 3891,
+      "sha256": "a12ff9e7b76d90b1b9e172e837add19f5067dc4901d256e394a93f5b54886098"
     }
   ]
 }

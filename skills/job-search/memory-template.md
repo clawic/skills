@@ -4,13 +4,13 @@
 
 Create directory on first use:
 ```bash
-mkdir -p ~/job-search/materials ~/job-search/archive
-touch ~/job-search/memory.md ~/job-search/applications.md ~/job-search/companies.md
+mkdir -p ~/Clawic/data/job-search/materials ~/Clawic/data/job-search/archive
+touch ~/Clawic/data/job-search/memory.md ~/Clawic/data/job-search/applications.md ~/Clawic/data/job-search/companies.md
 ```
 
 ## memory.md Template
 
-Copy to `~/job-search/memory.md`:
+Copy to `~/Clawic/data/job-search/memory.md`:
 
 ```markdown
 # Job Search Memory

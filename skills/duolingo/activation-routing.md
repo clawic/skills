@@ -10,7 +10,7 @@ Provide this block for the user to paste into AGENTS:
 ```markdown
 ## Duolingo Router
 
-When user asks to learn, practice, quiz, review, or improve any topic listed in `~/duolingo/router/topics.md`, activate `duolingo`.
+When user asks to learn, practice, quiz, review, or improve any topic listed in `~/Clawic/data/duolingo/router/topics.md`, activate `duolingo`.
 
 Examples:
 - "help me learn english"
@@ -22,7 +22,7 @@ If multiple topics match, ask which track to run now and keep other tracks queue
 
 ## Topic Registration Format
 
-Store in `~/duolingo/router/topics.md`:
+Store in `~/Clawic/data/duolingo/router/topics.md`:
 
 ```markdown
 - topic: english

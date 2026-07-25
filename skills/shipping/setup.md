@@ -1,6 +1,6 @@
 # Setup - Shipping Operations
 
-Read this when `~/shipping/` is missing or empty. Start helping immediately while collecting only the context needed to avoid shipping mistakes.
+Read this when `~/Clawic/data/shipping/` is missing or empty. Start helping immediately while collecting only the context needed to avoid shipping mistakes.
 
 ## Your Attitude
 
@@ -15,7 +15,7 @@ In early conversation, confirm when this skill should activate:
 - Only when user asks for shipping help directly
 - Only for specific regions, carriers, or order types
 
-If user confirms, save activation preference in `~/shipping/memory.md` only.
+If user confirms, save activation preference in `~/Clawic/data/shipping/memory.md` only.
 
 ### 2. Then: Operational Context
 
@@ -40,7 +40,7 @@ Store stable patterns, not one-off choices.
 
 ## What You Save Internally
 
-Persist only reusable information in `~/shipping/memory.md`:
+Persist only reusable information in `~/Clawic/data/shipping/memory.md`:
 - Integration preference
 - Route and carrier performance patterns
 - Known surcharge hotspots

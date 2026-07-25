@@ -1,16 +1,27 @@
 ---
-name: Andorra
+name: andorra
 slug: andorra
 version: 1.0.0
-homepage: https://clawic.com/skills/andorra
 description: Plan Andorra trips with parish-level tips for skiing, hiking, shopping, wellness, and cross-border logistics.
+homepage: https://clawic.com/skills/andorra
 changelog: Initial release with parish guides, seasonal planning, shopping strategy, and mountain logistics.
-metadata: {"clawdbot":{"emoji":"🇦🇩","requires":{"bins":[],"config":["~/andorra/"]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🇦🇩
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/andorra/
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Andorra
 ---
 
 ## Setup
 
-If `~/andorra/` doesn't exist or is empty, read `setup.md` and start naturally.
+If `~/Clawic/data/andorra/` doesn't exist or is empty, read `setup.md` and start naturally.
 
 ## When to Use
 
@@ -18,10 +29,10 @@ User planning a trip to Andorra or needing practical local guidance: where to st
 
 ## Architecture
 
-Memory lives in `~/andorra/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/andorra/`. See `memory-template.md` for structure.
 
 ```text
-~/andorra/
+~/Clawic/data/andorra/
 └── memory.md     # Trip context
 ```
 
@@ -109,12 +120,12 @@ Guide users by category, not just "duty free":
 
 ## Security & Privacy
 
-**Data that stays local:** Trip preferences in `~/andorra/`
+**Data that stays local:** Trip preferences in `~/Clawic/data/andorra/`
 
-**This skill does NOT:** Access files outside `~/andorra/` or make network requests.
+**This skill does NOT:** Access files outside `~/Clawic/data/andorra/` or make network requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `travel` — Travel planning
 - `food` — Food and cooking
 - `catalan` — Catalan language
@@ -122,5 +133,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star andorra`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/andorra
+- Latest version: https://clawic.com/skills/andorra

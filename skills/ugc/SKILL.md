@@ -1,7 +1,17 @@
 ---
-name: UGC
+name: ugc
+slug: ugc
+version: 1.0.0
 description: Create viral user-generated content for marketing with effective hooks, formats, and creator strategies.
-metadata: {"clawdbot":{"emoji":"📱","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/ugc
+metadata:
+  clawdbot:
+    emoji: 📱
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: UGC
 ---
 
 ## Hook (First 1-3 Seconds)

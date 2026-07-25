@@ -1,12 +1,21 @@
 ---
-name: Translate
-description: "Translate text accurately — preserve formatting, handle plurals, and adapt tone per locale."
+name: translate
+slug: translate
+version: 1.0.0
+description: Translate text accurately — preserve formatting, handle plurals, and adapt tone per locale.
+homepage: https://clawic.com/skills/translate
 metadata:
-  emoji: "🌐"
-  category: "text"
-  difficulty: "intermediate"
-  os: "all"
-  tags: ["translation", "localization", "languages", "formatting"]
+  clawdbot:
+    displayName: Translate
+    emoji: "🌐"
+  category: text
+  difficulty: intermediate
+  os: all
+  tags:
+  - translation
+  - localization
+  - languages
+  - formatting
 ---
 
 # Translate

@@ -1,6 +1,6 @@
 # Setup — Self-Evolving
 
-Read this when `~/self-evolving/` does not exist or is empty. Start naturally. If you need to create local notes for the first time, tell the user that this skill keeps concise local notes for repeat improvement. Do not dump file paths or implementation detail unless they ask.
+Read this when `~/Clawic/data/self-evolving/` does not exist or is empty. Start naturally. If you need to create local notes for the first time, tell the user that this skill keeps concise local notes for repeat improvement. Do not dump file paths or implementation detail unless they ask.
 
 ## Your Attitude
 

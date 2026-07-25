@@ -1,7 +1,17 @@
 ---
-name: Stellar
+name: stellar
+slug: stellar
+version: 1.0.0
 description: Assist with Stellar XLM transactions, anchors, memo requirements, and cross-border payments.
-metadata: {"clawdbot":{"emoji":"🚀","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/stellar
+metadata:
+  clawdbot:
+    emoji: 🚀
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Stellar
 ---
 
 ## Memo Field (Critical)

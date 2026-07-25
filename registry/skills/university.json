@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ed8f3187fa100505e1890e43835b282ff58dd5cdf28736960437f4a70ae67508",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "university",
-    "name": "University",
+    "name": "university",
     "description": "Replace or complement traditional university with AI-powered degree programs, adaptive learning, exam preparation, and progress tracking.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/university",
     "summary": "When to Use User wants to: learn a complete degree/career autodidactically, support their current university studies, prepare for certifications/exams, change careers with structured upskilling, or help someone else stud",
     "repositoryPath": "skills/university",
     "manifestPath": "registry/skills/university.json"
@@ -21,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/university/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/_meta.json",
+      "byteCount": 172,
+      "sha256": "54c1ea6a15ef70625230942f80e466de54d33358f9ca59aa7379815d9ca5faa8"
     },
     {
       "path": "assessment.md",
       "downloadPath": "skills/university/assessment.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/assessment.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/assessment.md",
+      "byteCount": 3844,
+      "sha256": "699af9e9ee89aafe5cc73573e533cfd5e75bd5cef0690d16973b80b6907b765c"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/university/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/content.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/content.md",
+      "byteCount": 3886,
+      "sha256": "2f2dee76c03f068924b8bf3b83ce17d20d23b1027ac404ef89ca443104350aed"
     },
     {
       "path": "degrees.md",
       "downloadPath": "skills/university/degrees.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/degrees.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/degrees.md",
+      "byteCount": 3750,
+      "sha256": "f02e1280da8c90c1d262b2aa4f4d1fbf490783814f91655e038e5337a759bc39"
     },
     {
       "path": "feedback.md",
       "downloadPath": "skills/university/feedback.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/feedback.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/feedback.md",
+      "byteCount": 3903,
+      "sha256": "6b02c410b0d399d0077549baded0b958096b8cdd01ae4b41265502055188c22a"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/university/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/formats.md",
+      "byteCount": 3611,
+      "sha256": "519dc013511bcde82b114dbf03ffa3a68d972bb57cc17934c3b8c5a2663d8092"
     },
     {
       "path": "planning.md",
       "downloadPath": "skills/university/planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/planning.md",
+      "byteCount": 3301,
+      "sha256": "882efb0502c2d42b1bfc51e3db8283308a5317bab6e4fc5540da1f9eb8090c5a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/university/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/SKILL.md",
+      "byteCount": 4030,
+      "sha256": "a7b059b18e0d4f4970757bf25fc5c1336f0cc69469828e5905a0af5ba41ed7ab"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/university/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/tracking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/university/tracking.md",
+      "byteCount": 3517,
+      "sha256": "a137206ba0b9a7150286ea69bdd9cb21b0050f1d987b917725df5436ebe7fbc3"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "8ff4745a15a07ce54f3a30e6e857f935f5629db4bfc0d9dfa7a731afdd04f5b5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "apple-mail-macos",
-    "name": "Apple Mail (MacOS)",
+    "name": "apple-mail-macos",
     "description": "Use local CLI to manage Gmail, Outlook, iCloud, Yahoo, Fastmail, and other mail accounts synced in Apple Mail on macOS, without APIs or OAuth.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/apple-mail-macos",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/apple-mail-macos/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/_meta.json",
+      "byteCount": 186,
+      "sha256": "2452f6ebc9933680e52aa7d51c7a6983bc09e8752a4e2578dd8da4f53c085aa4"
     },
     {
       "path": "command-paths.md",
       "downloadPath": "skills/apple-mail-macos/command-paths.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/command-paths.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/command-paths.md",
+      "byteCount": 1787,
+      "sha256": "abf8e2dcc89dad7fb818602f49b5747dce56a5b1a2cb503f717644b077401a84"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/apple-mail-macos/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/memory-template.md",
+      "byteCount": 1758,
+      "sha256": "70283f67a036ac129ec8ff96fdebfbf96c2445596b8b0a670ad7d268be7f9ab3"
     },
     {
       "path": "operation-patterns.md",
       "downloadPath": "skills/apple-mail-macos/operation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/operation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/operation-patterns.md",
+      "byteCount": 1542,
+      "sha256": "dfdc198904e99a21625d0f80168612fd24e12ad8568806f0067d414ea99d3b24"
     },
     {
       "path": "provider-coverage.md",
       "downloadPath": "skills/apple-mail-macos/provider-coverage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/provider-coverage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/provider-coverage.md",
+      "byteCount": 1249,
+      "sha256": "97a05b45bf5a747a5a3ee6a54248513ad0ed858bfca01e2387d1c787d572303e"
     },
     {
       "path": "safety-checklist.md",
       "downloadPath": "skills/apple-mail-macos/safety-checklist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/safety-checklist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/safety-checklist.md",
+      "byteCount": 1327,
+      "sha256": "7c39a8d62650e1388f796afaec2b2f43d7e057b73e583041b2559049eeebc5bd"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/apple-mail-macos/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/setup.md",
+      "byteCount": 1783,
+      "sha256": "a89edf911f654a070806256d5ea81dedc34f0d371b55cfd1dcb35cd3f9da72e8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/apple-mail-macos/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/SKILL.md",
+      "byteCount": 5920,
+      "sha256": "2a8e6ce6e0a9642143db3143108b9b8a0e203d8844fba75ab0d039e903f5eaf7"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/apple-mail-macos/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/apple-mail-macos/troubleshooting.md",
+      "byteCount": 1445,
+      "sha256": "fa25b3d639081f95a5d1fb7cfda59c3e426ab8005d62a9b721daed08f2884b99"
     }
   ]
 }

@@ -1,10 +1,19 @@
 ---
-name: Toronto
+name: toronto
 slug: toronto
 version: 1.0.1
-homepage: https://clawic.com/skills/toronto
 description: Navigate Toronto as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.
-metadata: {"clawdbot":{"emoji":"🍁","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/toronto
+metadata:
+  clawdbot:
+    emoji: 🍁
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Toronto
 ---
 
 ## When to Use
@@ -158,11 +167,11 @@ Key laws visitors/residents should know:
 See `safety.md` for comprehensive legal guidance.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `dubai` — Middle East city guide
 - `travel` — general travel planning
 
 ## Feedback
 
-- If useful: `clawhub star toronto`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/toronto
+- Latest version: https://clawic.com/skills/toronto

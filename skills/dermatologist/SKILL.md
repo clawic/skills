@@ -1,11 +1,22 @@
 ---
-name: Dermatologist
+name: dermatologist
 slug: dermatologist
 version: 1.0.0
-homepage: https://clawic.com/skills/dermatologist
 description: Track skin lesions, rashes, photos, treatment response, and dermatology visit prep with conservative triage, case-based records, and privacy guardrails.
-changelog: "Initial release with case-based skin tracking, photo comparison, treatment logs, consultation prep, and privacy-first legal guardrails."
-metadata: {"clawdbot":{"emoji":"D","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/dermatologist/"]}}
+homepage: https://clawic.com/skills/dermatologist
+changelog: Initial release with case-based skin tracking, photo comparison, treatment logs, consultation prep, and privacy-first legal guardrails.
+metadata:
+  clawdbot:
+    emoji: D
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/dermatologist/
+    displayName: Dermatologist
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ Use when the user needs skin-photo comparison, case tracking, treatment-response
 
 ## Architecture
 
-Memory lives in `~/dermatologist/`. If `~/dermatologist/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/dermatologist/`. If `~/Clawic/data/dermatologist/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/dermatologist/
+~/Clawic/data/dermatologist/
 ├── memory.md
 ├── cases/
 │   └── {case-id}/
@@ -49,7 +60,7 @@ Memory lives in `~/dermatologist/`. If `~/dermatologist/` does not exist, run `s
 
 This skill ONLY:
 - organizes skin concerns, photos, timelines, exposures, and visit prep
-- stores local records in `~/dermatologist/` if the user approves
+- stores local records in `~/Clawic/data/dermatologist/` if the user approves
 - gives conservative escalation guidance for clinician follow-up
 
 This skill NEVER:
@@ -65,9 +76,9 @@ This skill NEVER:
 - None.
 
 **Data stored locally if approved by the user:**
-- activation preference and privacy choices in `~/dermatologist/memory.md`
+- activation preference and privacy choices in `~/Clawic/data/dermatologist/memory.md`
 - one case folder per skin concern with dated notes, photo metadata, and treatment logs
-- visit summaries in `~/dermatologist/exports/`
+- visit summaries in `~/Clawic/data/dermatologist/exports/`
 
 **This skill does NOT:**
 - upload images or call undeclared services
@@ -129,7 +140,7 @@ No other data is sent externally.
 - Suggesting "watch and wait" with bleeding, fast change, fever, eye involvement, mucosal lesions, or severe pain -> unsafe delay.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `doctor` - general medical boundaries when a skin issue may reflect broader illness
 - `health` - broader symptom framing outside specialty care
 - `memory` - persistent local memory for long-running follow-up
@@ -137,5 +148,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star dermatologist`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/dermatologist
+- Latest version: https://clawic.com/skills/dermatologist

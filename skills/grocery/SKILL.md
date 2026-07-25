@@ -1,9 +1,19 @@
 ---
-name: Grocery
+name: grocery
 slug: grocery
 version: 1.0.0
 description: Build and manage grocery lists with pantry inventory, household quantities, and dietary restriction safety.
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/grocery
+metadata:
+  clawdbot:
+    emoji: 🛒
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Grocery
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs help with grocery shopping logistics — creating lists, tracking pan
 
 ## Architecture
 
-Memory lives in `~/grocery/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/grocery/`. See `memory-template.md` for setup.
 
 ```
-~/grocery/
+~/Clawic/data/grocery/
 ├── memory.md          # HOT: preferences, restrictions, current list
 ├── pantry.md          # WARM: what's at home, quantities, expiry
 ├── history.md         # COLD: past purchases, patterns
@@ -31,7 +41,7 @@ Memory lives in `~/grocery/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-All data stored in `~/grocery/`. Create on first use:
+All data stored in `~/Clawic/data/grocery/`. Create on first use:
 ```bash
 mkdir -p ~/grocery
 ```
@@ -48,7 +58,7 @@ This skill NEVER:
 - Accesses real store inventories or prices
 - Makes purchases or places orders
 - Scans barcodes or receipts
-- Reads files outside `~/grocery/`
+- Reads files outside `~/Clawic/data/grocery/`
 
 ## Core Rules
 

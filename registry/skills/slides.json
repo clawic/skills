@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7f9f2c3fad4562189447ffd07af6524297b5df72bac270085062520941d8f11f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "slides",
-    "name": "Slides",
+    "name": "slides",
     "description": "Create, edit, and automate presentations with programmatic tools, visual consistency, and project-based learning of user style preferences.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/slides",
     "summary": "When to Use User needs presentation slides created, edited, or automated. Agent handles tool selection (python-pptx, Google Slides API, reveal.js, Marp, Slidev), applies user's style preferences, generates visually consi",
     "repositoryPath": "skills/slides",
     "manifestPath": "registry/skills/slides.json"
@@ -21,32 +25,44 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/slides/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/_meta.json",
+      "byteCount": 164,
+      "sha256": "5afa5dd09282261c60a534a0c7b5300ae7d7944d19419e858aaafc22a2e8ab59"
     },
     {
       "path": "design.md",
       "downloadPath": "skills/slides/design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/design.md",
+      "byteCount": 4791,
+      "sha256": "3e91f9ea8cf0a3e886c8e272d338d3a5ef2caf5e4f9d3899e7177510bd395279"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/slides/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/formats.md",
+      "byteCount": 5746,
+      "sha256": "bb7e3fe51f934c16c2ebe1b8cfd533894894a86765c75d4652c402caa3a22cfd"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/slides/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/memory-template.md",
+      "byteCount": 2300,
+      "sha256": "5cc68e51736df5105e2641125ca1076ed5d9543489de1fb904872d298d5d4c44"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/slides/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/SKILL.md",
+      "byteCount": 4720,
+      "sha256": "51472f631e449775792cba710ed04c229c83f03cc9bbb9f28e3b87e1d8627de3"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/slides/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/slides/tools.md",
+      "byteCount": 5353,
+      "sha256": "3ec714f8319b24a7ba9e26fcbedba0401810b767b8e2604207f2660263e7d354"
     }
   ]
 }

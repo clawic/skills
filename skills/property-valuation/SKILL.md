@@ -1,10 +1,19 @@
 ---
-name: Property Valuation
+name: property-valuation
 slug: property-valuation
 version: 1.0.0
-homepage: https://clawic.com/skills/property-valuation
 description: Estimate property values using comps, income approach, and market analysis with adjustment calculations.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/property-valuation
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Property Valuation
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User needs property value estimates. Agent handles comparable analysis, income v
 
 ## Architecture
 
-Memory at `~/property-valuation/`. See `memory-template.md` for structure.
+Memory at `~/Clawic/data/property-valuation/`. See `memory-template.md` for structure.
 
 ```
-~/property-valuation/
+~/Clawic/data/property-valuation/
 ├── memory.md          # Properties analyzed, market data
 └── valuations/        # Saved valuation reports
 ```
@@ -117,7 +126,7 @@ If result differs significantly from neighborhood average, explain why.
 ## Security & Privacy
 
 **Data that stays local:**
-- Property details and valuations in ~/property-valuation/
+- Property details and valuations in ~/Clawic/data/property-valuation/
 - No data sent externally
 
 **This skill does NOT:**
@@ -126,12 +135,12 @@ If result differs significantly from neighborhood average, explain why.
 - Store sensitive financial information
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `real-estate-skill` — Real estate transactions
 - `financial-literacy` — Financial concepts
 - `house` — Home management
 
 ## Feedback
 
-- If useful: `clawhub star property-valuation`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/property-valuation
+- Latest version: https://clawic.com/skills/property-valuation

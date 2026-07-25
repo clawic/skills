@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "471ec16399016395eb56e834780a7d2de83ddbabdb32714a739177bc000ce14f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "kimi",
-    "name": "Kimi",
+    "name": "kimi",
     "description": "Build and debug Kimi API workflows for chat, coding, reasoning, and tool-calling with live model checks, retries, and safe routing.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/kimi",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/kimi/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/_meta.json",
+      "byteCount": 160,
+      "sha256": "6635bb57e89bf596ed708144c2d4f518277870a8b862d65efb09f3f7200945c4"
     },
     {
       "path": "api-patterns.md",
       "downloadPath": "skills/kimi/api-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/api-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/api-patterns.md",
+      "byteCount": 1920,
+      "sha256": "9f88bc07cc399f1ac1e1434210ffa448fee768b4d31670453a070e5a845fef0b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/kimi/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/memory-template.md",
+      "byteCount": 1723,
+      "sha256": "73dc3862fbe3c7b36ec3499369418e93e763aff0b43eccd16c0f7f8ea782c337"
     },
     {
       "path": "migration-playbook.md",
       "downloadPath": "skills/kimi/migration-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/migration-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/migration-playbook.md",
+      "byteCount": 1478,
+      "sha256": "5f21edc3f8488d47296c21aa5f63bb48d8c2afcb3008634182aa76f66d5f2a24"
     },
     {
       "path": "routing-matrix.md",
       "downloadPath": "skills/kimi/routing-matrix.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/routing-matrix.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/routing-matrix.md",
+      "byteCount": 1910,
+      "sha256": "5c63f05f7fe49a19402fc6c9933056475168a5a658af4aff170de3230b5d7f3b"
     },
     {
       "path": "safety-workflows.md",
       "downloadPath": "skills/kimi/safety-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/safety-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/safety-workflows.md",
+      "byteCount": 1437,
+      "sha256": "b197f09ed938dfc827eb640dc0ce53bca0c2528e9a3ee3c143d875b6edb9075d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/kimi/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/setup.md",
+      "byteCount": 2548,
+      "sha256": "a4f77a3b05fd89090bbde23464d9fb890bad037f04d0c48053ddea17c93d0d7b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/kimi/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/SKILL.md",
+      "byteCount": 7029,
+      "sha256": "6702f19daaf7ecee462f31fdb01a4b8e88450a30fbad5ec8da770acedfc4da6f"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/kimi/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kimi/troubleshooting.md",
+      "byteCount": 1601,
+      "sha256": "73b30a1ed2ec78254c1dafcb50ebbdd78e8ab7ace41f5dec1e5493a475ba1d84"
     }
   ]
 }

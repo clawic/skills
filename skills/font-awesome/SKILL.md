@@ -1,11 +1,20 @@
 ---
-name: Font Awesome
+name: font-awesome
 slug: font-awesome
 version: 1.0.0
-homepage: https://clawic.com/skills/font-awesome
 description: Add Font Awesome icons to web projects with CDN, npm, React, and SVG sprite methods.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/font-awesome
 changelog: Initial release with icon lookup, installation guides, and React integration.
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Font Awesome
 ---
 
 ## Setup
@@ -216,12 +225,12 @@ No user data is sent. Icons loaded from public CDN.
 - Require authentication for free tier
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `react` — React development patterns
 - `html` — HTML best practices
 - `css` — CSS styling patterns
 
 ## Feedback
 
-- If useful: `clawhub star font-awesome`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/font-awesome
+- Latest version: https://clawic.com/skills/font-awesome

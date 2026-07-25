@@ -1,15 +1,24 @@
 ---
-name: Six Thinking Hats
+name: six-thinking-hats
 slug: six-thinking-hats
 version: 1.0.0
-homepage: https://clawic.com/skills/six-thinking-hats
 description: Analyze decisions using six perspectives with structured parallel thinking.
-metadata: {"clawdbot":{"emoji":"🎩","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/six-thinking-hats
+metadata:
+  clawdbot:
+    emoji: 🎩
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Six Thinking Hats
 ---
 
 ## Setup
 
-If `~/six-thinking-hats/` doesn't exist, or memory shows setup incomplete, read `setup.md` first.
+If `~/Clawic/data/six-thinking-hats/` doesn't exist, or memory shows setup incomplete, read `setup.md` first.
 
 ## When to Use
 
@@ -17,10 +26,10 @@ User needs to analyze a decision, problem, or idea thoroughly. Agent applies De 
 
 ## Architecture
 
-Memory lives in `~/six-thinking-hats/`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/six-thinking-hats/`. See `memory-template.md` for structure.
 
 ```
-~/six-thinking-hats/
+~/Clawic/data/six-thinking-hats/
 ├── memory.md       # Preferences + past analyses
 └── archive/        # Completed analyses
 ```
@@ -134,12 +143,12 @@ When analyzing a decision, structure output as:
 - No Blue at end → analysis without actionable conclusion
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `decide` — decision frameworks
 - `brainstorm` — creative idea generation
 - `first-principles-thinking` — foundational analysis
 
 ## Feedback
 
-- If useful: `clawhub star six-thinking-hats`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/six-thinking-hats
+- Latest version: https://clawic.com/skills/six-thinking-hats

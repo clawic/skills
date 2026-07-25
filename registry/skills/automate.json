@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "088f1da837c69ac184dad1b6e206ec5b8c569ba7672edfb471109718b5ad677c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "automate",
-    "name": "Automate",
+    "name": "automate",
     "description": "Identify tasks that waste tokens. Scripts don't hallucinate, don't cost per-run, and don't fail randomly. Spot automation opportunities and build them.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/automate",
     "summary": "Core Principle LLMs are expensive, slow, and probabilistic. Scripts are free, fast, and deterministic. Every time you do something twice that could be scripted, you're wasting: - **Tokens** — money burned on solved probl",
     "repositoryPath": "skills/automate",
     "manifestPath": "registry/skills/automate.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/automate/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/_meta.json",
+      "byteCount": 168,
+      "sha256": "9fc511f1cfaa9ad76618b7fe29918bbfcf5203428cfc3b5f6846d90d4222f370"
     },
     {
       "path": "signals.md",
       "downloadPath": "skills/automate/signals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/signals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/signals.md",
+      "byteCount": 1949,
+      "sha256": "fed12b67c8307f62ca45314d6e39450b9e757302ff8d5c867008ed63c61d53d7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/automate/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/SKILL.md",
+      "byteCount": 3747,
+      "sha256": "1011c60265148516c9e82446380015dcc4a5f31f8805f8aed4d049fea2c7d6cf"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/automate/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/automate/templates.md",
+      "byteCount": 2416,
+      "sha256": "0916be36e1f696daf5a141d23503943a666290a8666f82981c9e937ddcec18d2"
     }
   ]
 }

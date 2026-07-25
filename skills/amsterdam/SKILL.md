@@ -1,10 +1,19 @@
 ---
-name: Amsterdam
+name: amsterdam
 slug: amsterdam
 version: 1.0.1
-homepage: https://clawic.com/skills/amsterdam
 description: Navigate Amsterdam as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"AMS","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/amsterdam
+metadata:
+  clawdbot:
+    emoji: AMS
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Amsterdam
 ---
 
 ## When to Use

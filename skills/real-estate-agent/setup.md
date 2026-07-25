@@ -1,6 +1,6 @@
 # Setup — Real Estate Agent
 
-Read this when `~/real-estate-agent/` doesn't exist or is empty. Start the conversation naturally — the user engaging with the skill implies they want help with real estate.
+Read this when `~/Clawic/data/real-estate-agent/` doesn't exist or is empty. Start the conversation naturally — the user engaging with the skill implies they want help with real estate.
 
 ## Your Attitude
 
@@ -67,9 +67,9 @@ This makes them feel like they have a real agent who listens.
 
 With their consent (after they answer integration questions):
 - **Integration preference** → Main memory (so skill activates appropriately)
-- **Client profile** → ~/real-estate-agent/memory.md
-- **Search criteria** → ~/real-estate-agent/searches/
-- **Watched properties** → ~/real-estate-agent/properties/
+- **Client profile** → ~/Clawic/data/real-estate-agent/memory.md
+- **Search criteria** → ~/Clawic/data/real-estate-agent/searches/
+- **Watched properties** → ~/Clawic/data/real-estate-agent/properties/
 
 Always confirm outcomes: "Got it, I'll alert you when 3-bed apartments under €300k appear in [area]."
 

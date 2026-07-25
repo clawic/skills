@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "eb330ea02e093b4c3619e74f7fdc2dcc3f7e95175bc5d649c649bb3ab0c2ee4f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "upwork",
-    "name": "Upwork",
+    "name": "upwork",
     "description": "Win freelance projects on Upwork with profile optimization, proposal writing, client communication, and scam detection.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/upwork",
     "summary": "Quick Reference | Area | What the Agent Does | |------|---------------------| | Profile | Optimize title, bio, portfolio, hourly rate | | Proposals | Write personalized, non-templated proposals | | Red Flags | Detect sca",
     "repositoryPath": "skills/upwork",
     "manifestPath": "registry/skills/upwork.json"
@@ -20,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/upwork/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/_meta.json",
+      "byteCount": 164,
+      "sha256": "aa4b564ec43124db0cb91a118a6745397c7479959caeb6b9a94c76370b7c22cc"
     },
     {
       "path": "communication.md",
       "downloadPath": "skills/upwork/communication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/communication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/communication.md",
+      "byteCount": 1173,
+      "sha256": "68030bb8d4ee876e1dc2bc9f9c197ad42ad026871823492778a479145c3c6551"
     },
     {
       "path": "legal.md",
       "downloadPath": "skills/upwork/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/legal.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/legal.md",
+      "byteCount": 1432,
+      "sha256": "c8fb5534b4c44495e96e906be2bbd571f01407b5b3b0f888501a6d0aea0f2e35"
     },
     {
       "path": "platform.md",
       "downloadPath": "skills/upwork/platform.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/platform.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/platform.md",
+      "byteCount": 1488,
+      "sha256": "0459b8b24736a9ab2c2a4a7c878913085ccff84b8dff24f39e60e7d30f4188ba"
     },
     {
       "path": "profile.md",
       "downloadPath": "skills/upwork/profile.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/profile.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/profile.md",
+      "byteCount": 1068,
+      "sha256": "6a2efa10a90c9d4b41ba999f264a8027ee142c3fc62b5ea4379037955979f033"
     },
     {
       "path": "proposals.md",
       "downloadPath": "skills/upwork/proposals.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/proposals.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/proposals.md",
+      "byteCount": 1147,
+      "sha256": "e8c005b2c9dabddbea1536ad416627629050d98292f608b7813fd17d21e8e52b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/upwork/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/upwork/SKILL.md",
+      "byteCount": 2029,
+      "sha256": "142b78046746c120fc8543f1e3358a1086539016b80fb1ed3b5bac1b903de4d6"
     }
   ]
 }

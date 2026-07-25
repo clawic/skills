@@ -1,6 +1,6 @@
 # Setup — Writing
 
-Read this when `~/writing/` doesn't exist or is empty. Start the conversation naturally — the user engaging with writing help implies they want assistance.
+Read this when `~/Clawic/data/writing/` doesn't exist or is empty. Start the conversation naturally — the user engaging with writing help implies they want assistance.
 
 ## Your Attitude
 

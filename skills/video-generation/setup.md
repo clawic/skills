@@ -5,7 +5,7 @@
 Detect existing memory:
 
 ```bash
-test -f ~/video-generation/memory.md
+test -f ~/Clawic/data/video-generation/memory.md
 ```
 
 If it exists, continue normally.
@@ -18,7 +18,7 @@ Create a lightweight workspace:
 mkdir -p ~/video-generation
 ```
 
-Copy `memory-template.md` into `~/video-generation/memory.md`.
+Copy `memory-template.md` into `~/Clawic/data/video-generation/memory.md`.
 
 ## Operating Behavior
 

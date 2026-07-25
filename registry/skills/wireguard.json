@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "ac0b4af68684c860b4016b9f3e3ea40beecaea32c0312c9717fc10ecdd97bbdf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "wireguard",
-    "name": "WireGuard",
+    "name": "wireguard",
     "description": "Configure WireGuard VPN tunnels with secure routing and key management.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/wireguard",
     "summary": "AllowedIPs Traps (Most Common Mistakes) - `AllowedIPs` means different things on each side — server: what peer CAN send; client: what to ROUTE through tunnel - `0.0.0.0/0` routes ALL traffic including tunnel endpoint — b",
     "repositoryPath": "skills/wireguard",
     "manifestPath": "registry/skills/wireguard.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/wireguard/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wireguard/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wireguard/_meta.json",
+      "byteCount": 170,
+      "sha256": "956b4040f78c3e18e8f051a70f1080301d8ef2552f6dfad9c3af039e5febf4bd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/wireguard/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wireguard/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/wireguard/SKILL.md",
+      "byteCount": 2586,
+      "sha256": "1e379215b02cfa202b0816c49b078071e46153504e7fc3bb503d79ed9f9c5947"
     }
   ]
 }

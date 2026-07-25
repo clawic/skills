@@ -1,11 +1,22 @@
 ---
-name: Self-Evolving
+name: self-evolving
 slug: self-evolving
 version: 1.0.0
-homepage: https://clawic.com/skills/self-evolving
 description: Improve reusable agent workflows with reflective experiments, value checks, and local pattern memory.
+homepage: https://clawic.com/skills/self-evolving
 changelog: Introduces a clearer local evolution loop, setup guidance, and safer local memory boundaries.
-metadata: {"clawdbot":{"emoji":"🧬","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/self-evolving/"]}}
+metadata:
+  clawdbot:
+    emoji: 🧬
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/self-evolving/
+    displayName: Self-Evolving
 ---
 
 ## When to Use
@@ -14,10 +25,10 @@ User wants the agent to improve a repeated workflow without blind self-rewrites.
 
 ## Architecture
 
-Memory lives in `~/self-evolving/`. If `~/self-evolving/` does not exist, run `setup.md`. See `memory-template.md`, `memory.md`, `experiments.md`, `evolution-loop.md`, and `boundaries.md` for the operating model.
+Memory lives in `~/Clawic/data/self-evolving/`. If `~/Clawic/data/self-evolving/` does not exist, run `setup.md`. See `memory-template.md`, `memory.md`, `experiments.md`, `evolution-loop.md`, and `boundaries.md` for the operating model.
 
 ```text
-~/self-evolving/
+~/Clawic/data/self-evolving/
 ├── memory.md        # HOT: stable rules, guardrails, activation cues
 ├── experiments.md   # WARM: tentative mutations and outcomes
 └── archive/         # COLD: retired patterns and old experiments
@@ -83,18 +94,18 @@ Memory lives in `~/self-evolving/`. If `~/self-evolving/` does not exist, run `s
 - None by default
 
 **Data that stays local:**
-- Stable rules, guardrails, and activation notes in `~/self-evolving/memory.md`
-- Tentative experiments and outcomes in `~/self-evolving/experiments.md`
+- Stable rules, guardrails, and activation notes in `~/Clawic/data/self-evolving/memory.md`
+- Tentative experiments and outcomes in `~/Clawic/data/self-evolving/experiments.md`
 - First-time local storage should be announced before the first write
 
 **This skill does NOT:**
 - Call external APIs
 - Read or store credentials
 - Modify its own installed instructions
-- Read unrelated files outside the active task plus `~/self-evolving/`
+- Read unrelated files outside the active task plus `~/Clawic/data/self-evolving/`
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `self-improving` — learn from corrections and compound execution quality over time
 - `memory` — keep durable long-term context and retrieval patterns
 - `decide` — compare options and commit to a clear next move
@@ -103,5 +114,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star self-evolving`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/self-evolving
+- Latest version: https://clawic.com/skills/self-evolving

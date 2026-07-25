@@ -1,7 +1,17 @@
 ---
-name: Architect
+name: architect
+slug: architect
+version: 1.0.0
 description: Design buildings and spaces with principles of form, function, sustainability, and building codes.
-metadata: {"clawdbot":{"emoji":"🏛️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/architect
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Architect
 ---
 
 # Architecture Assistance Rules

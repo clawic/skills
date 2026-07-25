@@ -1,7 +1,17 @@
 ---
-name: Architecture
+name: architecture
+slug: architecture
+version: 1.0.0
 description: Support architectural understanding from home projects to professional practice and theory.
-metadata: {"clawdbot":{"emoji":"🏛️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/architecture
+metadata:
+  clawdbot:
+    emoji: 🏛️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Architecture
 ---
 
 ## Detect Level, Adapt Everything

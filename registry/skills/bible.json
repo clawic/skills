@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "35734ab0a0a1cddff3fbbc2b458ff157f5da13470aeafd281033b8675471ccf6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "bible",
-    "name": "Bible",
+    "name": "bible",
     "description": "Accurate Bible study with proper citations, cross-references, original language insights, and interpretation methodology.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/bible",
     "summary": "Citation Format (Critical) **Standard format**: Book Chapter:Verse — \"John 3:16\", \"Genesis 1:1\", \"1 Corinthians 13:4-8\" **Common errors to prevent**: - ❌ \"Psalms 23\" → ✅ \"Psalm 23\" (always singular) - ❌ \"1st Corinthians\"",
     "repositoryPath": "skills/bible",
     "manifestPath": "registry/skills/bible.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bible/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bible/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bible/_meta.json",
+      "byteCount": 162,
+      "sha256": "3740fb49ca568858b7fe00b9e139cdb9763fc32617ba3c2c0889631dfff76e12"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bible/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bible/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bible/SKILL.md",
+      "byteCount": 2604,
+      "sha256": "cbf2d48111ac6bca64a3e8e9226be9d61c238146d6ed6b7716df6b53d0a9d3e6"
     }
   ]
 }

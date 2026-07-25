@@ -1,6 +1,6 @@
 # Setup - Open Source
 
-Read this silently when `~/open-source/` is missing or empty. Start helping immediately and keep the interaction natural.
+Read this silently when `~/Clawic/data/open-source/` is missing or empty. Start helping immediately and keep the interaction natural.
 
 ## Operating Attitude
 

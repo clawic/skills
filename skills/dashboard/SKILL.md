@@ -1,16 +1,26 @@
 ---
-name: Dashboard
+name: dashboard
 slug: dashboard
 version: 1.0.1
 description: Build custom dashboards from any data source with local hosting and visual QA loops.
+homepage: https://clawic.com/skills/dashboard
 changelog: User-driven data source model, explicit credential handling
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Dashboard
 ---
 
 ## Data Storage
 
 ```
-~/dashboard/
+~/Clawic/data/dashboard/
 ├── registry.json           # Dashboard index
 ├── {name}/
 │   ├── config.json         # Layout, widgets
@@ -25,7 +35,7 @@ Create on first use: `mkdir -p ~/dashboard`
 This skill:
 - ✅ Generates static HTML dashboards
 - ✅ Creates fetch scripts user can run
-- ✅ Stores dashboards in ~/dashboard/
+- ✅ Stores dashboards in ~/Clawic/data/dashboard/
 
 **User-driven model:**
 - User specifies data sources
@@ -54,8 +64,8 @@ When creating a dashboard:
 User: "Dashboard for my Stripe revenue"
 Agent: "I'll create a fetch script. Set STRIPE_API_KEY 
         in your environment, then run the script."
-→ Generates: ~/dashboard/stripe/fetch.sh
-→ User adds to cron: */15 * * * * ~/dashboard/stripe/fetch.sh
+→ Generates: ~/Clawic/data/dashboard/stripe/fetch.sh
+→ User adds to cron: */15 * * * * ~/Clawic/data/dashboard/stripe/fetch.sh
 ```
 
 ### 2. Architecture
@@ -73,7 +83,7 @@ Agent generates scripts. User runs them.
 # Requires: STRIPE_API_KEY in environment
 curl -s -u "$STRIPE_API_KEY:" \
   https://api.stripe.com/v1/balance \
-  | jq '.' > ~/dashboard/stripe/data.json
+  | jq '.' > ~/Clawic/data/dashboard/stripe/data.json
 ```
 
 ### 4. Visual QA (Before Delivery)

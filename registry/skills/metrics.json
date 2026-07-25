@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "4a30d8d2b07964253fc9a2b879b4fe23eb9e775f13c4415fb0fdb6882dc28526",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "metrics",
-    "name": "Metrics",
+    "name": "metrics",
     "description": "Capture, normalize, and report metrics across any domain with reusable dimensions, programmable formulas, and scalable reporting workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/metrics",
@@ -22,47 +25,65 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/metrics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/_meta.json",
+      "byteCount": 166,
+      "sha256": "fbaa1612473250c21ff9db3f04f57e31e49d8d8c5aa8c53096086e7077a25fd4"
     },
     {
       "path": "automation-patterns.md",
       "downloadPath": "skills/metrics/automation-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/automation-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/automation-patterns.md",
+      "byteCount": 1545,
+      "sha256": "ecec830a540df42246482ebcb48a38259ec14a76bb0bcdc1b7b1110575d7b8f8"
     },
     {
       "path": "data-quality.md",
       "downloadPath": "skills/metrics/data-quality.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/data-quality.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/data-quality.md",
+      "byteCount": 1319,
+      "sha256": "46922a5000a221a676ddf5f6aa712d654ad8150557e2141dd8cb3492354ff07b"
     },
     {
       "path": "formula-playbook.md",
       "downloadPath": "skills/metrics/formula-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/formula-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/formula-playbook.md",
+      "byteCount": 1829,
+      "sha256": "ae3a2299758b718555aed2fbb4318e216a89e70519a6f4bcba25ff9073c89036"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/metrics/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/memory-template.md",
+      "byteCount": 1798,
+      "sha256": "574b9d55a6c6422716d05b92a3cc185083190f5f19e6971b192c86baa3bba4f8"
     },
     {
       "path": "metric-registry.md",
       "downloadPath": "skills/metrics/metric-registry.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/metric-registry.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/metric-registry.md",
+      "byteCount": 1691,
+      "sha256": "f91d3392750dc898ea0f46f987f2a387a8c8b83cd468d73bf3a6f1d53357327b"
     },
     {
       "path": "reporting-pack.md",
       "downloadPath": "skills/metrics/reporting-pack.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/reporting-pack.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/reporting-pack.md",
+      "byteCount": 1545,
+      "sha256": "c24dc188ad6c840f9888c3c810c85efa59716a6643818c195a4c5ff0ba809104"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/metrics/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/setup.md",
+      "byteCount": 1801,
+      "sha256": "3d7ac23948e3017a55d7a5f2aa8aca99e138b25b24b9c52613f6b059dee4a817"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/metrics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/metrics/SKILL.md",
+      "byteCount": 5457,
+      "sha256": "d135128d546ec96a9a9a69c0485ac696656e7248ead8f1c76cd36cb6300d7399"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a92ff669558ff97e3fadb2e746ece3627638b7191f323c2c68872487b0e914c5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "google-workspace-cli",
     "name": "google-workspace-cli",
-    "description": "Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK \u2014 bulk mail search and send, file sharing and export, event, user, and group management \u2014 when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.",
+    "description": "Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK — bulk mail search and send, file sharing and export, event, user, and group management — when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/google-workspace-cli",
     "summary": "All persistent data for this skill lives in `~/Clawic/data/google-workspace-cli/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/google-workspace-cli/` or `~",
@@ -20,89 +23,123 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/google-workspace-cli/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/google-workspace-cli/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/_meta.json",
+      "byteCount": 416,
+      "sha256": "dc6c951d1554f9fa27e40713d5b356e6d4039e17c227ca988ce90e52239db9fe"
     },
     {
       "path": "admin.md",
       "downloadPath": "skills/google-workspace-cli/admin.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/admin.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/admin.md",
+      "byteCount": 3760,
+      "sha256": "b1c71fbea2f43e9ca5f16715c3c0fcff8fc91087ab99b703317e60b897adfa98"
     },
     {
       "path": "auth-playbook.md",
       "downloadPath": "skills/google-workspace-cli/auth-playbook.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/auth-playbook.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/auth-playbook.md",
+      "byteCount": 3649,
+      "sha256": "29237de4de2af9bae3e3a42a2b01418a37318e13b8ac2e09b67631973a34edb8"
     },
     {
       "path": "automation.md",
       "downloadPath": "skills/google-workspace-cli/automation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/automation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/automation.md",
+      "byteCount": 3832,
+      "sha256": "282d6531015b985b1daf5d0aa3efd16ea233621a76e7b7f8e01019450ba865b6"
     },
     {
       "path": "calendar.md",
       "downloadPath": "skills/google-workspace-cli/calendar.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/calendar.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/calendar.md",
+      "byteCount": 3278,
+      "sha256": "4661bfdf0f33da05db8e208698fdd184af24f3547c39605d2c871739842955e6"
     },
     {
       "path": "change-control.md",
       "downloadPath": "skills/google-workspace-cli/change-control.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/change-control.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/change-control.md",
+      "byteCount": 3229,
+      "sha256": "c7fa36c9909d9b242ca5fd4cd80ef72d7b886bc52e9944d4f3ae0540dd497e7e"
     },
     {
       "path": "command-index.md",
       "downloadPath": "skills/google-workspace-cli/command-index.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/command-index.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/command-index.md",
+      "byteCount": 3576,
+      "sha256": "a44f697557ca1b6e0e8aaaf1cd2b47927821f2902155945e0186a306a9000527"
     },
     {
       "path": "command-patterns.md",
       "downloadPath": "skills/google-workspace-cli/command-patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/command-patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/command-patterns.md",
+      "byteCount": 3613,
+      "sha256": "6ec3dc5e9d7b62f034975f6520e53a0de9357749dbedde808500b7ad0ceb7e49"
     },
     {
       "path": "drive.md",
       "downloadPath": "skills/google-workspace-cli/drive.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/drive.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/drive.md",
+      "byteCount": 4667,
+      "sha256": "b15efa2c0dc931b6d2d25bc8d22b9205c0338d10a12ab33e01b9bcdd2854031c"
     },
     {
       "path": "editors.md",
       "downloadPath": "skills/google-workspace-cli/editors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/editors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/editors.md",
+      "byteCount": 3827,
+      "sha256": "c7423b86ce767094bf4fe67c03a8ae8201d3e03a46c1a6a602d29c216b92ab39"
     },
     {
       "path": "gmail.md",
       "downloadPath": "skills/google-workspace-cli/gmail.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/gmail.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/gmail.md",
+      "byteCount": 4626,
+      "sha256": "ff6ee2fc6f7cc51cf7a448f42e1f9c367d814f274e8e1500a24f2ae7f306ebbf"
     },
     {
       "path": "mcp-integration.md",
       "downloadPath": "skills/google-workspace-cli/mcp-integration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/mcp-integration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/mcp-integration.md",
+      "byteCount": 2622,
+      "sha256": "3f9cf799c4f1b99ff665ce209f5e317f08dab6371ae123993336253c6a6121dc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/google-workspace-cli/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/memory-template.md",
+      "byteCount": 2277,
+      "sha256": "dffe78767eb8fefec31d10f5d483b360aa826cc272b8f1af9f780463a64dcb69"
     },
     {
       "path": "quotas.md",
       "downloadPath": "skills/google-workspace-cli/quotas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/quotas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/quotas.md",
+      "byteCount": 3158,
+      "sha256": "31a78975bd8652fe2bd90c8ee919a4d0bfe79738adcbb4d65b8ec57e978a1279"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/google-workspace-cli/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/setup.md",
+      "byteCount": 2646,
+      "sha256": "e2ff0c505f98864700d04940dddb20ddb4d9762ba9a9b40cd0f21e5c208ab5d8"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/google-workspace-cli/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/SKILL.md",
+      "byteCount": 16544,
+      "sha256": "6872f4516faff15e892d47b0f816c301aeabd195c0bf4fc73b7f238d2b5ea42e"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/google-workspace-cli/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/troubleshooting.md",
+      "byteCount": 4865,
+      "sha256": "d40da19767b962ac4267ed898872d2ea3c4cea45f61aa8b12cb16ee97d749409"
     }
   ]
 }

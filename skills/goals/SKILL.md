@@ -1,14 +1,24 @@
 ---
-name: Goals
+name: goals
+slug: goals
+version: 1.0.0
 description: Build a personal goal-setting system with milestones, tracking, and regular reviews.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/goals
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Goals
 ---
 
 ## Core Behavior
 - User mentions an aspiration → help clarify and structure as goal
 - Track progress without nagging → surface when relevant
 - Regular reviews → quarterly and yearly reflection
-- Create `~/goals/` as workspace
+- Create `~/Clawic/data/goals/` as workspace
 
 ## Goal vs Project vs Habit
 - Goal: outcome you want (run a marathon, save €10k, learn Spanish)
@@ -40,7 +50,7 @@ Break big goals into checkable milestones:
 
 ## Folder Structure
 ```
-~/goals/
+~/Clawic/data/goals/
 ├── active/
 │   ├── run-marathon-2024.md
 │   └── save-10k.md

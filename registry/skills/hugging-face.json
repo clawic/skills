@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "294ecc0a17e0986c1cb88885d956a9d2ace5b732654ff857a0cb750a8a204f1d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "hugging-face",
-    "name": "Hugging Face",
+    "name": "hugging-face",
     "description": "Discover, evaluate, and run Hugging Face models, datasets, and spaces with license checks, benchmark prompts, and reproducible integration plans.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/hugging-face",
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/hugging-face/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/_meta.json",
+      "byteCount": 176,
+      "sha256": "2684b6a040bad5c10f91412bb2232094a1fc537d30ed5306cc7519e913598df4"
     },
     {
       "path": "discovery.md",
       "downloadPath": "skills/hugging-face/discovery.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/discovery.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/discovery.md",
+      "byteCount": 1306,
+      "sha256": "326548b6c19e2548ad96896617543d659a482219a5126f02a15ccd2f9c7cf961"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/hugging-face/evaluation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/evaluation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/evaluation.md",
+      "byteCount": 1435,
+      "sha256": "23cce5e64dc26aef8c58719cc833bddfbeab454565218583bbe409c075fedf83"
     },
     {
       "path": "inference.md",
       "downloadPath": "skills/hugging-face/inference.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/inference.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/inference.md",
+      "byteCount": 1344,
+      "sha256": "32dd83713831dfa0fe060daab69b89ed983a1feef24d633cd263cd147b50803e"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/hugging-face/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/memory-template.md",
+      "byteCount": 1406,
+      "sha256": "d11065f9f9ffb381920b5ecb901f2886a6944962cdedb5e1c5d8b47df3c1555f"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/hugging-face/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/setup.md",
+      "byteCount": 1996,
+      "sha256": "722deedcaed766cf4508ca131afb0623c2d9417ba671202c2e4c543c835efeb8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/hugging-face/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/SKILL.md",
+      "byteCount": 6092,
+      "sha256": "5871a74f0f20a2673f6567e2fdeced3412755e16cf8059e6b5169c533ab61d12"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/hugging-face/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/hugging-face/troubleshooting.md",
+      "byteCount": 1481,
+      "sha256": "dba3f26c27195a48afe00c6e85045353fcf87a692832e5bfccb34d1cd6e585c8"
     }
   ]
 }

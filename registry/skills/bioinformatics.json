@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "78cc1b1db1dfe6d04d04cab8c55e4ba6335aebba6602637fa8bef90f5250fb59",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,11 +13,11 @@
   },
   "skill": {
     "slug": "bioinformatics",
-    "name": "Bioinformatics",
+    "name": "bioinformatics",
     "description": "Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/bioinformatics",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/bioinformatics/` with user consent to store project context and preferences. When to Use User needs to analyze biological sequences, run genomic p",
+    "summary": "Setup On first use, read `setup.md` for integration guidelines. Create `~/Clawic/data/bioinformatics/` with user consent to store project context and preferences. When to Use User needs to analyze biological sequences, r",
     "repositoryPath": "skills/bioinformatics",
     "manifestPath": "registry/skills/bioinformatics.json"
   },
@@ -22,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/bioinformatics/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/_meta.json",
+      "byteCount": 180,
+      "sha256": "4534dd8363ffb471a71d3fc2438c9a9d1f5ffdf79a10ea74bcf44ccec952d5a6"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/bioinformatics/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/formats.md",
+      "byteCount": 3612,
+      "sha256": "87f52d3c3dbbece33c9b6242a813c4ab9439cf5031603ecd5ab4b0d518629941"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/bioinformatics/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/memory-template.md",
+      "byteCount": 1714,
+      "sha256": "842b56e2e82bea48c3916528cb625fdfc94f0c7dbd745102c3bad195e006f604"
     },
     {
       "path": "rnaseq.md",
       "downloadPath": "skills/bioinformatics/rnaseq.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/rnaseq.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/rnaseq.md",
+      "byteCount": 4128,
+      "sha256": "806ca03b7ea94db7ea7dfba87dfe2b99302155a0fcafba4334159b06d9e544f9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/bioinformatics/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/setup.md",
+      "byteCount": 1712,
+      "sha256": "7834a552171b56601fedaed61cce6c333130a55ed33340ed6f4141ff1ca4a166"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/bioinformatics/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/SKILL.md",
+      "byteCount": 5886,
+      "sha256": "5659fb3e142d8f28449a9d38a45f3aa71d8577d36e5463a5a7b53661c60e4aab"
     },
     {
       "path": "tools.md",
       "downloadPath": "skills/bioinformatics/tools.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/tools.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/tools.md",
+      "byteCount": 3942,
+      "sha256": "42f27f336221006bbbd3b7509c434270ed1053f8c14fdd13623be1269133271a"
     },
     {
       "path": "variants.md",
       "downloadPath": "skills/bioinformatics/variants.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/variants.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bioinformatics/variants.md",
+      "byteCount": 5326,
+      "sha256": "aaa76eb56adde1a0d60ce4eedfce1ba30efaaaf9d797b1f5d0b6e0817c17064a"
     }
   ]
 }

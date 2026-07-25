@@ -1,16 +1,27 @@
 ---
-name: Home Server
+name: home-server
 slug: home-server
 version: 1.0.0
-homepage: https://clawic.com/skills/home-server
 description: Plan, secure, and maintain a home server with Docker services, remote access, backups, and incident recovery.
+homepage: https://clawic.com/skills/home-server
 changelog: Initial release with practical home server planning, security, and recovery workflows.
-metadata: {"clawdbot":{"emoji":"🏠","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/home-server/"]}}
+metadata:
+  clawdbot:
+    emoji: 🏠
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/home-server/
+    displayName: Home Server
 ---
 
 ## Setup
 
-On first use, read `setup.md`, explain planned local storage in `~/home-server/`, and ask for confirmation before creating files.
+On first use, read `setup.md`, explain planned local storage in `~/Clawic/data/home-server/`, and ask for confirmation before creating files.
 
 ## When to Use
 
@@ -19,10 +30,10 @@ Agent handles architecture choices, secure exposure, service operations, backup 
 
 ## Architecture
 
-Memory lives in `~/home-server/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/home-server/`. See `memory-template.md` for setup.
 
 ```text
-~/home-server/
+~/Clawic/data/home-server/
 ├── memory.md                  # Current environment and preferences
 ├── services.md                # Service inventory and ownership
 ├── backup-status.md           # Backup coverage and restore checks
@@ -89,7 +100,7 @@ Memory lives in `~/home-server/`. See `memory-template.md` for setup.
 - Send undeclared external requests.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `self-host` — self-hosted service strategy and security baselines
 - `server` — server deployment and troubleshooting patterns
 - `docker` — container build and runtime discipline
@@ -98,5 +109,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star home-server`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/home-server
+- Latest version: https://clawic.com/skills/home-server

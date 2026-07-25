@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "a2dd10c9a10f8864b59ea7e1b6fc3b2542dee50d78279acd641c4a6dda58982b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "car",
-    "name": "Car",
+    "name": "car",
     "description": "Buy, maintain, and handle car emergencies with cost estimates, maintenance schedules, and roadside problem-solving.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/car",
     "summary": "Decision Tree | Situation | Action | |-----------|--------| | Buying a car | Check `buying.md` for price negotiation, inspection checklist, financing | | Maintenance due or warning light | Check `maintenance.md` for sche",
     "repositoryPath": "skills/car",
     "manifestPath": "registry/skills/car.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/car/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/_meta.json",
+      "byteCount": 158,
+      "sha256": "73f18e8bcc609aedd9c90dca259f9caea7c46fd3d338682b60d55558b917137f"
     },
     {
       "path": "buying.md",
       "downloadPath": "skills/car/buying.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/buying.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/buying.md",
+      "byteCount": 3755,
+      "sha256": "4de43e195d4918cb7412e94b2579fd9572c53a1ed3a761bbbb452588c241f5a9"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/car/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/emergencies.md",
+      "byteCount": 4447,
+      "sha256": "66801354a58dd778465fb36247eefead21809ea3ee5c97e78dcedb3810bb4602"
     },
     {
       "path": "maintenance.md",
       "downloadPath": "skills/car/maintenance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/maintenance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/maintenance.md",
+      "byteCount": 3939,
+      "sha256": "537767d2a527f8af714aed8b3a24a83dfdea5377b8db11bcc6964501d2e39b0e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/car/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/car/SKILL.md",
+      "byteCount": 2734,
+      "sha256": "0a0f5824e8109dd399fa4a172fd5aa2513f7a22a27b3ba254907e8283b9a4d84"
     }
   ]
 }

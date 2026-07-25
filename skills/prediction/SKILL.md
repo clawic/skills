@@ -1,11 +1,22 @@
 ---
-name: Prediction
+name: prediction
 slug: prediction
 version: 1.0.0
-homepage: https://clawic.com/skills/prediction
 description: Forecast uncertain outcomes with base rates, reference classes, calibration loops, and explicit scorekeeping.
+homepage: https://clawic.com/skills/prediction
 changelog: Initial release with question design, calibration, forecast review, and post-mortem workflows for probabilistic forecasting.
-metadata: {"clawdbot":{"emoji":"🔮","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/prediction/"]}}
+metadata:
+  clawdbot:
+    emoji: 🔮
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/prediction/
+    displayName: Prediction
 ---
 
 ## When to Use
@@ -16,10 +27,10 @@ Use it for business, product, technical, operational, policy, sports, market, or
 
 ## Architecture
 
-Memory lives in `~/prediction/`. If `~/prediction/` does not exist, run `setup.md`. See `memory-template.md` for structure.
+Memory lives in `~/Clawic/data/prediction/`. If `~/Clawic/data/prediction/` does not exist, run `setup.md`. See `memory-template.md` for structure.
 
 ```text
-~/prediction/
+~/Clawic/data/prediction/
 ├── memory.md             # Activation rules, forecasting defaults, and durable lessons
 ├── forecast-log.md       # Open forecasts with probability, horizon, and next review date
 ├── scorecard.md          # Resolved forecasts, Brier scores, and error patterns
@@ -107,7 +118,7 @@ These are the failure modes that usually destroy forecast accuracy even when the
 
 ## Data Storage
 
-Local state in `~/prediction/` may include:
+Local state in `~/Clawic/data/prediction/` may include:
 - activation preferences and forecasting defaults
 - open forecasts with probabilities, scenarios, and review dates
 - resolved forecasts with scores and miss patterns
@@ -119,7 +130,7 @@ Store only the smallest durable note that improves the next forecast.
 ## Security & Privacy
 
 **Data that stays local:**
-- forecast logs, scorecards, assumptions, and reference-class notes in `~/prediction/`
+- forecast logs, scorecards, assumptions, and reference-class notes in `~/Clawic/data/prediction/`
 
 **Data that leaves your machine:**
 - none by default unless the current environment uses approved search or browsing tools for evidence collection
@@ -146,7 +157,7 @@ This skill NEVER:
 - skip scoring on forecasts that matter
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `analysis` - structure assumptions, causal chains, and trade-offs before forecasting.
 - `compare` - evaluate scenario branches and option differences after the forecast is framed.
@@ -155,5 +166,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star prediction`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/prediction
+- Latest version: https://clawic.com/skills/prediction

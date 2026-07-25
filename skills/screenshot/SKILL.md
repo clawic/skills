@@ -1,11 +1,18 @@
 ---
-name: Screenshot
+name: screenshot
 slug: screenshot
 version: 1.0.1
+description: Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and output format. Use when (1) you need screenshots for debugging, QA, docs, bug reports, or visual review; (2) desktop, browser, simulator, or headless capture is involved; (3) stable screenshots require fixed viewport, settling, masking, or animation control.
 homepage: https://clawic.com/skills/screenshot
-description: "Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and output format. Use when (1) you need screenshots for debugging, QA, docs, bug reports, or visual review; (2) desktop, browser, simulator, or headless capture is involved; (3) stable screenshots require fixed viewport, settling, masking, or animation control."
-changelog: "Improved screenshot guidance with stronger browser, simulator, CI, and visual-stability rules while keeping the skill compact."
-metadata: {"clawdbot":{"emoji":"📸","os":["linux","darwin","win32"]}}
+changelog: Improved screenshot guidance with stronger browser, simulator, CI, and visual-stability rules while keeping the skill compact.
+metadata:
+  clawdbot:
+    emoji: 📸
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Screenshot
 ---
 
 ## When to Use
@@ -106,7 +113,7 @@ Default to the most native capture path first. Move to browser-native tooling wh
 - Taking full-page captures of huge pages and ending up with unreadable evidence.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `playwright` — Browser automation, DOM interaction, and web screenshots
 - `image` — Post-capture format, cropping, compression, and export decisions
@@ -116,5 +123,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star screenshot`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/screenshot
+- Latest version: https://clawic.com/skills/screenshot

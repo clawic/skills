@@ -1,6 +1,6 @@
 # Memory Template — Beauty
 
-Create `~/beauty/memory.md` with this structure:
+Create `~/Clawic/data/beauty/memory.md` with this structure:
 
 ```markdown
 # Beauty Memory

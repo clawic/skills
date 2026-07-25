@@ -1,6 +1,6 @@
 # Memory Template — Health Insurance
 
-Create `~/health-insurance/memory.md` with this structure:
+Create `~/Clawic/data/health-insurance/memory.md` with this structure:
 
 ```markdown
 # Health Insurance Memory

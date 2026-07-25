@@ -1,6 +1,6 @@
 # Setup - Apple News (MacOS)
 
-If `~/apple-news/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
+If `~/Clawic/data/apple-news/` does not exist or is empty, start with transparent onboarding. Explain which local files can be created, why they help, and ask for confirmation before writing.
 
 ## Your Attitude
 

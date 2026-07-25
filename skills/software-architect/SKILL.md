@@ -1,7 +1,17 @@
 ---
-name: Software Architect
+name: software-architect
+slug: software-architect
+version: 1.0.0
 description: Design scalable systems with sound trade-offs, clear boundaries, and maintainable patterns.
-metadata: {"clawdbot":{"emoji":"🏗️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/software-architect
+metadata:
+  clawdbot:
+    emoji: 🏗️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Software Architect
 ---
 
 # Software Architecture Rules

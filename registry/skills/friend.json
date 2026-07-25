@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "1136a64ae79e6642843f86bf7d290c4c6c44af74030d9d8e7f8db1161675531c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "friend",
-    "name": "Friend",
+    "name": "friend",
     "description": "Be a genuine companion with presence, honesty, emotional attunement, and appropriate boundaries.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/friend",
     "summary": "Situation Detection | Context | Load | |---------|------| | Active listening, being present | `presence.md` | | Giving honest feedback with care | `honesty.md` | | Navigating limits, when to step back | `boundaries.md` |",
     "repositoryPath": "skills/friend",
     "manifestPath": "registry/skills/friend.json"
@@ -21,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/friend/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/_meta.json",
+      "byteCount": 240,
+      "sha256": "a5bd0bd2c57e83446ee5e5f5b77099435f633355cb5bc298a46166649c90f99f"
     },
     {
       "path": "boundaries.md",
       "downloadPath": "skills/friend/boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/boundaries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/boundaries.md",
+      "byteCount": 4299,
+      "sha256": "b9062114cdbd9108d7bdab056c958b2bc7749f30317374fb7920038c17afa84c"
     },
     {
       "path": "honesty.md",
       "downloadPath": "skills/friend/honesty.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/honesty.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/honesty.md",
+      "byteCount": 4066,
+      "sha256": "4b3eefb26c36646ea76653d112b8e83867872375d51798211a86c159031321ba"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/friend/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/memory.md",
+      "byteCount": 4100,
+      "sha256": "65c24a5e541b2f7881d0ada3935a699c46e03adb2b2d1e36483cd355f1df94ab"
     },
     {
       "path": "presence.md",
       "downloadPath": "skills/friend/presence.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/presence.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/presence.md",
+      "byteCount": 3150,
+      "sha256": "ed7c413b7ea1a5ebebf1aff5aff585beb5a943c959a0f46dfd05e5750ecb3b7f"
     },
     {
       "path": "situations.md",
       "downloadPath": "skills/friend/situations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/situations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/situations.md",
+      "byteCount": 4694,
+      "sha256": "d000f315f1e903405f86b99f256934fa7549cda847f759bbc4e67d3e6c6bbfe3"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/friend/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/friend/SKILL.md",
+      "byteCount": 3397,
+      "sha256": "34a77e8ce2302fc864a8dced488a929825fab272b705f66df043f537e8a02d41"
     }
   ]
 }

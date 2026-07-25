@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3bde1bb2fd39f73dd366006f56a10ca5ce4531b6c5c1fc36c8dddf2b73511c05",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "pocketbase",
-    "name": "PocketBase",
+    "name": "pocketbase",
     "description": "Build backends with PocketBase collections, auth, and realtime.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/pocketbase",
     "summary": "SDK Basics - Import from `pocketbase` not `pocketbase/dist` — the dist path is internal and breaks on updates - Always check `pb.authStore.isValid` before using `pb.authStore.model` — expired tokens return stale data wit",
     "repositoryPath": "skills/pocketbase",
     "manifestPath": "registry/skills/pocketbase.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pocketbase/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pocketbase/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pocketbase/_meta.json",
+      "byteCount": 172,
+      "sha256": "c9b37bed8bfa17ae4c930e53514ab1ab7865570933c69ba1c5031c3491495106"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pocketbase/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pocketbase/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pocketbase/SKILL.md",
+      "byteCount": 2881,
+      "sha256": "1a95708a7605a41bdba25982e45a6974362347203c30c8a1b3027a95861bf694"
     }
   ]
 }

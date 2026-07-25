@@ -1,7 +1,17 @@
 ---
-name: MQTT
+name: mqtt
+slug: mqtt
+version: 1.0.0
 description: Implement MQTT messaging avoiding security, QoS, and connection management pitfalls.
-metadata: {"clawdbot":{"emoji":"📡","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mqtt
+metadata:
+  clawdbot:
+    emoji: 📡
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: MQTT
 ---
 
 ## Security Traps

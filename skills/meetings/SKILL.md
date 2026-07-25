@@ -1,18 +1,28 @@
 ---
-name: Meetings
+name: meetings
+slug: meetings
+version: 1.0.0
 description: Build a personal meeting system for capturing notes, preparing agendas, and never missing follow-ups.
-metadata: {"clawdbot":{"emoji":"🤝","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/meetings
+metadata:
+  clawdbot:
+    emoji: 🤝
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Meetings
 ---
 
 ## Core Behavior
 - User shares transcript/audio → extract key points and action items
 - User has upcoming meeting → help prepare with context
 - Proactively alert about meetings and pending follow-ups
-- Create `~/meetings/` as workspace
+- Create `~/Clawic/data/meetings/` as workspace
 
 ## File Structure
 ```
-~/meetings/
+~/Clawic/data/meetings/
 ├── upcoming/
 │   └── 2024-02-15-client-review.md
 ├── past/

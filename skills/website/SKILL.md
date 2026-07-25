@@ -1,7 +1,17 @@
 ---
-name: Website
+name: website
+slug: website
+version: 1.0.0
 description: Build fast, accessible, and SEO-friendly websites with modern best practices.
-metadata: {"clawdbot":{"emoji":"🌐","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/website
+metadata:
+  clawdbot:
+    emoji: 🌐
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Website
 ---
 
 # Website Development Rules

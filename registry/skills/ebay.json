@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9b48e11e0e31799cb4389c2904a75a9dc12aff1b08bfd1af395f3f01b249b0cf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "ebay",
-    "name": "eBay",
+    "name": "ebay",
     "description": "Buy, sell, and flip on eBay with listing optimization, pricing research, shipping calculations, and scam detection.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/ebay",
     "summary": "When to Use User wants to buy, sell, or flip items on eBay. Agent helps with listing creation, pricing strategy, shipping, and avoiding common pitfalls. Quick Reference | Topic | File | |-------|------| | Listing strateg",
     "repositoryPath": "skills/ebay",
     "manifestPath": "registry/skills/ebay.json"
@@ -21,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ebay/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/_meta.json",
+      "byteCount": 236,
+      "sha256": "8ee92c411c2b6c75f402534f1a12bf0cfb25d142cf54c4a588e158ab2fac17f3"
     },
     {
       "path": "listing.md",
       "downloadPath": "skills/ebay/listing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/listing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/listing.md",
+      "byteCount": 1591,
+      "sha256": "e54077f937e6f73e6096dac9a48eeced93f0463bb5fa37a3ba5c1b43ff294603"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/ebay/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/pricing.md",
+      "byteCount": 1529,
+      "sha256": "8a76a3e6f21c38420afff880b5d9c8aa85d5f3388b8243d4820543611a27f7da"
     },
     {
       "path": "shipping.md",
       "downloadPath": "skills/ebay/shipping.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/shipping.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/shipping.md",
+      "byteCount": 1956,
+      "sha256": "827ad4f8edf4aceb870d02b8e81b6538ad52d69dd2e94891e51d832b566921dc"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ebay/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ebay/SKILL.md",
+      "byteCount": 3423,
+      "sha256": "a610111da4d09ab31ba8011e21fb80525b090ecbde8c2d97280cabd4b1e060c9"
     }
   ]
 }

@@ -1,10 +1,20 @@
 ---
-name: Meditate
+name: meditate
 slug: meditate
 version: 1.0.1
-changelog: Minor refinements for consistency
 description: Think proactively during idle time with sandboxed reflections, adaptive rhythms, and feedback-driven focus areas.
-metadata: {"clawdbot":{"emoji":"🧘","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/meditate
+changelog: Minor refinements for consistency
+metadata:
+  clawdbot:
+    emoji: 🧘
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Meditate
 ---
 
 ## When to Use
@@ -13,10 +23,10 @@ Agent has idle time between user interactions. User wants proactive thinking tha
 
 ## Architecture
 
-Memory lives in `~/meditate/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/meditate/`. See `memory-template.md` for setup.
 
 ```
-~/meditate/
+~/Clawic/data/meditate/
 ├── profile.md         # User type, focus areas, rhythm preferences
 ├── topics.md          # Active meditation topics with priority
 ├── insights.md        # Pending insights to present (queue)
@@ -37,13 +47,13 @@ Memory lives in `~/meditate/`. See `memory-template.md` for setup.
 
 This skill ONLY:
 - Reads conversation history to find patterns
-- Reads memory files in `~/meditate/`
+- Reads memory files in `~/Clawic/data/meditate/`
 - Generates text reflections and questions
 - Stores insights in local queue
 
 This skill NEVER:
 - Executes commands or scripts
-- Modifies files outside `~/meditate/`
+- Modifies files outside `~/Clawic/data/meditate/`
 - Sends messages or notifications
 - Accesses external services
 - Creates executable code
@@ -52,7 +62,7 @@ This skill NEVER:
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-All data stored in `~/meditate/` directory only.
+All data stored in `~/Clawic/data/meditate/` directory only.
 
 ## Core Rules
 
@@ -88,7 +98,7 @@ Observe conversation patterns to identify:
 | Personal | Calendar, habits, goals mentioned |
 | System | Configurations, workflows, automations |
 
-Store detected profile in `~/meditate/profile.md`. Update only after confirmation.
+Store detected profile in `~/Clawic/data/meditate/profile.md`. Update only after confirmation.
 
 ### 5. Meditation Output Format
 Always present insights as questions or observations:

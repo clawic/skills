@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "10b33860d3c3f807e8eedf0fd7038ae7710820e95fa03f19e945a6a2388e15f2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "esim",
-    "name": "eSIM",
+    "name": "esim",
     "description": "Implement and troubleshoot eSIM across consumer activation, carrier integration, and RSP development.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/esim",
     "summary": "Critical Distinction - Consumer RSP (SGP.22) and M2M RSP (SGP.02) are completely different architectures — not interchangeable, verify which applies before starting Platform API Restrictions - Apple eSIM APIs require car",
     "repositoryPath": "skills/esim",
     "manifestPath": "registry/skills/esim.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/esim/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esim/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esim/_meta.json",
+      "byteCount": 160,
+      "sha256": "8cc6fa30ecc9cdedff37e9a08bf894cb8f8dfb23ad990b7c2440fb1db8b4fac1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/esim/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esim/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esim/SKILL.md",
+      "byteCount": 2872,
+      "sha256": "b1dfe171e86caedaf01931c7e3e95534f9b25d4c251ec8543f5bf74fa75ef50d"
     }
   ]
 }

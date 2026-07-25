@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "86804f7bbb2d862f29895d2792c13baa87a8191e0b1994f33de017210bf74764",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "nginx",
     "name": "nginx",
-    "description": "Configures and debugs nginx: reverse proxy, load balancing, SSL/TLS termination, caching, redirects, and static file serving. Use when writing or reviewing nginx.conf, server blocks, locations, upstreams, or proxy_pass, when a site behind nginx throws 502, 504, 413, 403, or a redirect loop, when WebSockets, SSE, or gRPC break through the proxy, when a certificate works in curl but warns in browsers, when requests hit the wrong location or the backend sees the wrong path, when tuning workers, buffers, gzip, or proxy cache, when rate limiting or blocking abuse, when proxying raw TCP/UDP, or when nginx runs in Docker or Kubernetes. Not for certificate issuance or renewal (ACME, Let's Encrypt) \u2014 that is the ssl skill.",
+    "description": "Configures and debugs nginx: reverse proxy, load balancing, SSL/TLS termination, caching, redirects, and static file serving. Use when writing or reviewing nginx.conf, server blocks, locations, upstreams, or proxy_pass, when a site behind nginx throws 502, 504, 413, 403, or a redirect loop, when WebSockets, SSE, or gRPC break through the proxy, when a certificate works in curl but warns in browsers, when requests hit the wrong location or the backend sees the wrong path, when tuning workers, buffers, gzip, or proxy cache, when rate limiting or blocking abuse, when proxying raw TCP/UDP, or when nginx runs in Docker or Kubernetes. Not for certificate issuance or renewal (ACME, Let's Encrypt) — that is the ssl skill.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/nginx",
     "summary": "User preferences and memory live in `~/Clawic/data/nginx/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/nginx/` or `~/clawic/nginx/`), move it to `~/Cla",
@@ -20,79 +23,109 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/nginx/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/nginx/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/_meta.json",
+      "byteCount": 460,
+      "sha256": "0b60335420ef2ae73c82eb1721b9a2c990d9f87e25785b4631a525b26a031073"
     },
     {
       "path": "containers.md",
       "downloadPath": "skills/nginx/containers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/containers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/containers.md",
+      "byteCount": 4950,
+      "sha256": "e1dbb87f0820a4a0008a6a071145cc1e22a1cbe3d85347bca95d6c856dbd1a8c"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/nginx/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/debug.md",
+      "byteCount": 6243,
+      "sha256": "121015f0ee39d2ebf1f9e9f6ffdff54b024899feddc5875d3aa860e94a5cf235"
     },
     {
       "path": "fastcgi.md",
       "downloadPath": "skills/nginx/fastcgi.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/fastcgi.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/fastcgi.md",
+      "byteCount": 4591,
+      "sha256": "797aa538bf6e4cdf73611dba6c24034bd69b652afcd94050fc140ee646412f9c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/nginx/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/memory-template.md",
+      "byteCount": 663,
+      "sha256": "f0461502d546c763829076b9975d4b069e61f55ad2c9372e75187104a94be649"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/nginx/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/operations.md",
+      "byteCount": 5975,
+      "sha256": "a2d414e79175727ac8585b2ff4225fd60c0bda419eb8428b73a978d7a379a598"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/nginx/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/performance.md",
+      "byteCount": 4708,
+      "sha256": "89d72163466edfab0fdde548cfca2ec4660869e4e304a7dbd303842776a63c51"
     },
     {
       "path": "proxy.md",
       "downloadPath": "skills/nginx/proxy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/proxy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/proxy.md",
+      "byteCount": 6493,
+      "sha256": "425363984fa8084b39d01bc414329109cc28933d7feae4daf33c71565af57de1"
     },
     {
       "path": "redirects.md",
       "downloadPath": "skills/nginx/redirects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/redirects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/redirects.md",
+      "byteCount": 4883,
+      "sha256": "efe0b4b8bef5cef12864dc15dc13e941ddddf1200c113e68ed75429c465f8f0e"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/nginx/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/security.md",
+      "byteCount": 5448,
+      "sha256": "2c9fc8707fcc8e515e5a339ba8ffe849c647f715ebb551b92331369bb0f94c12"
     },
     {
       "path": "semantics.md",
       "downloadPath": "skills/nginx/semantics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/semantics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/semantics.md",
+      "byteCount": 5592,
+      "sha256": "3d72c391d34bd05a0412d59f0fde237e9d16af32a01e21128b499f25b9c836e0"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/nginx/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/setup.md",
+      "byteCount": 1871,
+      "sha256": "624923b5e2d79b6d4ab3c749fe42ea69facf9bc2498688a99c623a6714af692d"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/nginx/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/SKILL.md",
+      "byteCount": 18460,
+      "sha256": "e69af88fbf8c78eea344f185bc067dbe26c1e445b57620fd5b746c9db1da62ee"
     },
     {
       "path": "ssl.md",
       "downloadPath": "skills/nginx/ssl.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/ssl.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/ssl.md",
+      "byteCount": 4592,
+      "sha256": "ce577c1edbfe88c95aba7fbe13a4a8cc9d487e4390bca989aee611d8fcc07cb1"
     },
     {
       "path": "stream.md",
       "downloadPath": "skills/nginx/stream.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/stream.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nginx/stream.md",
+      "byteCount": 4664,
+      "sha256": "158ad2e63f7f5c4ded7b1dbfa04535c69adf986134ec495782b60756e83fdfd8"
     }
   ]
 }

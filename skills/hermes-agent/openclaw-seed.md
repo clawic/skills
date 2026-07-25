@@ -16,24 +16,24 @@ Insert after the default startup list in `## Session Startup`:
 ## Hermes Agent Seed (DO NOT EDIT BLINDLY)
 
 Before non-trivial work:
-1. Read `~/hermes-agent/memory.md` if it exists.
+1. Read `~/Clawic/data/hermes-agent/memory.md` if it exists.
 2. Read at most one additional Hermes file only if the task clearly needs it.
 3. Prefer existing lessons before inventing a new workflow.
 4. Skip Hermes retrieval for trivial replies, casual chat, and one-shot questions.
 
 After significant work:
 1. Compare result vs intent.
-2. Write one reusable lesson to `~/hermes-agent/reflections.md` if needed.
-3. If the lesson should shape future behavior, distill it into `~/hermes-agent/memory.md`.
-4. If the pattern repeats, log it in `~/hermes-agent/promotions.md`.
+2. Write one reusable lesson to `~/Clawic/data/hermes-agent/reflections.md` if needed.
+3. If the lesson should shape future behavior, distill it into `~/Clawic/data/hermes-agent/memory.md`.
+4. If the pattern repeats, log it in `~/Clawic/data/hermes-agent/promotions.md`.
 ```
 
 Inside `### Write It Down - No "Mental Notes"!`, add these routing bullets without removing the existing ones:
 
 ```markdown
-- Reusable execution lesson -> write to `~/hermes-agent/reflections.md`
-- Stable repeated rule -> distill to `~/hermes-agent/memory.md`
-- Candidate workflow after repeated success -> log to `~/hermes-agent/promotions.md`
+- Reusable execution lesson -> write to `~/Clawic/data/hermes-agent/reflections.md`
+- Stable repeated rule -> distill to `~/Clawic/data/hermes-agent/memory.md`
+- Candidate workflow after repeated success -> log to `~/Clawic/data/hermes-agent/promotions.md`
 ```
 
 ## SOUL.md Seed
@@ -55,9 +55,9 @@ Append only if heartbeat maintenance is desired. Keep it smaller than AGENTS.md:
 ```markdown
 ## Hermes Maintenance
 
-- [ ] Review `~/hermes-agent/reflections.md` for lessons worth distilling
-- [ ] Review `~/hermes-agent/promotions.md` for patterns ready to become skills
-- [ ] Keep `~/hermes-agent/memory.md` short and current
+- [ ] Review `~/Clawic/data/hermes-agent/reflections.md` for lessons worth distilling
+- [ ] Review `~/Clawic/data/hermes-agent/promotions.md` for patterns ready to become skills
+- [ ] Keep `~/Clawic/data/hermes-agent/memory.md` short and current
 ```
 
 ## Install Rule

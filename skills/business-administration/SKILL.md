@@ -1,7 +1,17 @@
 ---
-name: Business Administration
+name: business-administration
+slug: business-administration
+version: 1.0.0
 description: Support business understanding from small ventures to corporate strategy and academic research.
-metadata: {"clawdbot":{"emoji":"📊","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/business-administration
+metadata:
+  clawdbot:
+    emoji: 📊
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Business Administration
 ---
 
 ## Detect Level, Adapt Everything

@@ -1,7 +1,17 @@
 ---
-name: Image Editing
+name: image-edit
+slug: image-edit
+version: 1.0.0
 description: Edit images with AI inpainting, outpainting, background removal, upscaling, and restoration tools.
-metadata: {"clawdbot":{"emoji":"✂️","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/image-edit
+metadata:
+  clawdbot:
+    emoji: ✂️
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Image Editing
 ---
 
 # AI Image Editing

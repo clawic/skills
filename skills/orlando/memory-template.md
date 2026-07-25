@@ -1,6 +1,6 @@
 # Memory Template - Orlando
 
-Create `~/orlando/memory.md` with this structure:
+Create `~/Clawic/data/orlando/memory.md` with this structure:
 
 ```markdown
 # Orlando Memory

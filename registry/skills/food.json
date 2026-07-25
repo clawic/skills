@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "6eb0ac9cb89646fb1858d00e836e85a0605f184b1fb4f8826a5da9cba2842a30",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "food",
-    "name": "Food Tracker",
+    "name": "food",
     "description": "Your intelligent food system. Absorbs, analyzes, and organizes everything you eat.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/food",
     "summary": "Intelligent Food Absorption This skill absorbs ANY food input, auto-classifies it, and organizes for insights. **Rules:** - Auto-detect input type: meal photo, nutrition label, recipe, menu, text - Extract and structure:",
     "repositoryPath": "skills/food",
     "manifestPath": "registry/skills/food.json"
@@ -21,17 +25,23 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/food/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/_meta.json",
+      "byteCount": 244,
+      "sha256": "0606b399db1f3f0a9392d9ce6a34e8f691ae6426a0d000e099e97ab3faf95ef7"
     },
     {
       "path": "processing.md",
       "downloadPath": "skills/food/processing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/processing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/processing.md",
+      "byteCount": 2051,
+      "sha256": "6f5ddbbd1704bc32ba6043ad1e1d5d650422e08637eec4881dce6713aaf08c04"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/food/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/food/SKILL.md",
+      "byteCount": 2115,
+      "sha256": "626413bd7b8a00979eb0b4ec12e26355684c04a4c27ec8b49786a6a2c7a8a676"
     }
   ]
 }

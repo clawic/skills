@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "14aee0d665174e8e332fe81d7c1f382ca57d679d5e6e7db3d7dd073cb70e2618",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "scholar",
-    "name": "Scholar",
+    "name": "scholar",
     "description": "Search academic literature with Google Scholar using effective queries, citations, and filters.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/scholar",
     "summary": "Google Scholar Research Rules Query Construction - Exact phrases in quotes: \"machine learning\" finds the phrase, not separate words - Exclude terms with minus: neural networks -deep removes deep learning results - OR for",
     "repositoryPath": "skills/scholar",
     "manifestPath": "registry/skills/scholar.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/scholar/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scholar/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scholar/_meta.json",
+      "byteCount": 166,
+      "sha256": "5f1de4e99e9217a191162cd1459f88b7db479448f03fd5e1a24369dabe518761"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/scholar/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scholar/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/scholar/SKILL.md",
+      "byteCount": 4194,
+      "sha256": "e0ea9b1fadd8005213dfa26bc96643c869e5410b69120fe054ad88d072487a7c"
     }
   ]
 }

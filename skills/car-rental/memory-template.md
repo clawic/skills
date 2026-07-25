@@ -1,6 +1,6 @@
 # Memory Template — Car Rental
 
-Create `~/car-rental/memory.md` with this structure:
+Create `~/Clawic/data/car-rental/memory.md` with this structure:
 
 ```markdown
 # Car Rental Memory
@@ -49,7 +49,7 @@ integration: pending
 
 ## Search Configuration
 
-For saved searches in `~/car-rental/searches/`:
+For saved searches in `~/Clawic/data/car-rental/searches/`:
 
 ```markdown
 # Search: [Name]

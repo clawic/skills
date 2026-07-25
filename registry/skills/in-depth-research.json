@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "f23260a14b08a92c3ff6427f4c49ba87aca62338b9d20a86e62d30efc18d14c9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "in-depth-research",
-    "name": "Deep Research",
+    "name": "in-depth-research",
     "description": "Conduct exhaustive multi-source investigation with methodology tracking, source evaluation, and iterative depth.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/in-depth-research",
     "summary": "Core Role Deep Research = investigate thoroughly until the question is answered. Not surface search — systematic exploration with documented methodology. **Not:** quick lookups (→ just search), combining existing docs (→",
     "repositoryPath": "skills/in-depth-research",
     "manifestPath": "registry/skills/in-depth-research.json"
@@ -20,27 +25,37 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/in-depth-research/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/_meta.json",
+      "byteCount": 182,
+      "sha256": "f0101d0d258fa7a368e5f32fff7d0e59fa015ce1397b38f30fc57a853755fae0"
     },
     {
       "path": "methodology.md",
       "downloadPath": "skills/in-depth-research/methodology.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/methodology.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/methodology.md",
+      "byteCount": 2301,
+      "sha256": "619a7990a7d1a74b1317e7e89e84632d2bad601291d14151ba72ef97abf72727"
     },
     {
       "path": "output-formats.md",
       "downloadPath": "skills/in-depth-research/output-formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/output-formats.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/output-formats.md",
+      "byteCount": 2987,
+      "sha256": "2a39c4a300a54420eb61ab15f6286ec206cfde586c966c3bee0b9e63636567ec"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/in-depth-research/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/SKILL.md",
+      "byteCount": 3277,
+      "sha256": "11ed3423c9b216ffc54d86bc0761e0be4fd8012eabef5deea9cbea4a4c53fcad"
     },
     {
       "path": "sources.md",
       "downloadPath": "skills/in-depth-research/sources.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/sources.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/in-depth-research/sources.md",
+      "byteCount": 2889,
+      "sha256": "72f45bcbe7fe307e5cb3bada2704c77917ed12b1952f7346b900d27cf886c116"
     }
   ]
 }

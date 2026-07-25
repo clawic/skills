@@ -1,6 +1,6 @@
 # Memory Template — Meal Planner
 
-Create `~/meal-planner/memory.md` with this structure:
+Create `~/Clawic/data/meal-planner/memory.md` with this structure:
 
 ```markdown
 # Meal Planner Memory

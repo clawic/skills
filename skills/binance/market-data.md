@@ -42,6 +42,6 @@ When debugging inconsistencies, verify endpoint data source characteristics in o
 ## Safe local snapshot
 
 ```bash
-mkdir -p ~/binance/snapshots
-curl -s "$BASE/api/v3/exchangeInfo?symbol=BTCUSDT" > ~/binance/snapshots/BTCUSDT-exchangeInfo.json
+mkdir -p ~/Clawic/data/binance/snapshots
+curl -s "$BASE/api/v3/exchangeInfo?symbol=BTCUSDT" > ~/Clawic/data/binance/snapshots/BTCUSDT-exchangeInfo.json
 ```

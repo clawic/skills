@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "7585bed72664efc76e4d6e613b6436a4f7a755c55dc38c4a5cf7210912073dda",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "talk",
-    "name": "Talk",
+    "name": "talk",
     "description": "Set up real-time voice conversations. Phone calls, voice agents, live speech.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/talk",
     "summary": "Real-Time Voice Setup Help users configure live voice conversations with OpenClaw. **Rules:** - Ask what they want: phone calls, web voice, or voice agent - Check `config.md` for OpenClaw setup options - Start with the s",
     "repositoryPath": "skills/talk",
     "manifestPath": "registry/skills/talk.json"
@@ -20,22 +25,30 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/talk/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/_meta.json",
+      "byteCount": 160,
+      "sha256": "afd084ec481b5e083a96b79128a5148aba954e04f5e98954e110d69ae0f39cc0"
     },
     {
       "path": "config.md",
       "downloadPath": "skills/talk/config.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/config.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/config.md",
+      "byteCount": 1898,
+      "sha256": "174fa3d9a7610555ccde7ad4ee5e9c52465efc48278395b03057a7ffe7899e26"
     },
     {
       "path": "providers.md",
       "downloadPath": "skills/talk/providers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/providers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/providers.md",
+      "byteCount": 1586,
+      "sha256": "f940ee1109c5f9f826919f84e2f3908ccad2d46b5d9fe9175d48d9529dd7f918"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/talk/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/talk/SKILL.md",
+      "byteCount": 865,
+      "sha256": "2f7bc90bb0c624ad564e756860769ae44213cd1d6d802b8afc2b292233ab1499"
     }
   ]
 }

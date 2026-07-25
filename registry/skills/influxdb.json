@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9b0c766f83b389f308d2ba70b356ec38984eaf51f942fca3f1ce0a253301f137",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "influxdb",
-    "name": "InfluxDB",
+    "name": "influxdb",
     "description": "Store and query time-series data with proper schema design and retention.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/influxdb",
     "summary": "Version Differences - InfluxDB 2.x uses Flux query language, 1.x uses InfluxQL—syntax completely different - 2.x: buckets, organizations, tokens; 1.x: databases, retention policies, users - Don't mix documentation—check ",
     "repositoryPath": "skills/influxdb",
     "manifestPath": "registry/skills/influxdb.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/influxdb/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influxdb/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influxdb/_meta.json",
+      "byteCount": 168,
+      "sha256": "502feea1ea0a4b22f49b72916e688023dd2a4215e49ef8413d6e7c4fbee19b64"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/influxdb/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influxdb/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/influxdb/SKILL.md",
+      "byteCount": 4103,
+      "sha256": "0ebe3bb2613066f23e5a36c8299eff1da8a0576df44cc66874f504f74e4b95c8"
     }
   ]
 }

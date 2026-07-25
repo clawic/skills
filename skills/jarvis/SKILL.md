@@ -1,11 +1,26 @@
 ---
-name: Jarvis
+name: jarvis
 slug: jarvis
 version: 1.0.0
-homepage: https://clawic.com/skills/jarvis
 description: Run the agent like an executive operator with calm briefings, sharp prioritization, context recovery, and proactive follow-through.
-changelog: "Initial release with a Jarvis-style executive operating persona, workspace seed blocks, briefing modes, and anti-drift guardrails."
-metadata: {"clawdbot":{"emoji":"J","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/jarvis/"],"configPaths.optional":["./AGENTS.md","./SOUL.md","./HEARTBEAT.md"]}}
+homepage: https://clawic.com/skills/jarvis
+changelog: Initial release with a Jarvis-style executive operating persona, workspace seed blocks, briefing modes, and anti-drift guardrails.
+metadata:
+  clawdbot:
+    emoji: J
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/jarvis/
+    configPaths.optional:
+    - ./AGENTS.md
+    - ./SOUL.md
+    - ./HEARTBEAT.md
+    displayName: Jarvis
 ---
 
 ## When to Use
@@ -15,12 +30,12 @@ User wants the agent to feel like a calm executive operator instead of a generic
 ## Architecture
 
 This skill mainly changes how the agent works through optional workspace steering in SOUL and AGENTS.
-Local Jarvis state in `~/jarvis/` keeps activation rules, approved behavior patterns, and stable executive context.
+Local Jarvis state in `~/Clawic/data/jarvis/` keeps activation rules, approved behavior patterns, and stable executive context.
 Workspace setup should add the standard Jarvis steering to the workspace AGENTS, SOUL, and `HEARTBEAT.md` files through the additive blocks in `openclaw-seed.md`.
-If `~/jarvis/` does not exist or is empty, run `setup.md`.
+If `~/Clawic/data/jarvis/` does not exist or is empty, run `setup.md`.
 
 ```text
-~/jarvis/
+~/Clawic/data/jarvis/
 ├── memory.md           # Durable activation rules, tone, and vetoes
 ├── active-profile.md   # Current Jarvis operating profile
 ├── mission-log.md      # Recurring contexts, stakeholder expectations, handoff notes
@@ -74,7 +89,7 @@ If `~/jarvis/` does not exist or is empty, run `setup.md`.
 - Never imply hidden monitoring, native hooks, or external action unless it actually happened.
 
 ### 7. Respect Approval Boundaries
-- Any edit outside `~/jarvis/` requires explicit approval in that session.
+- Any edit outside `~/Clawic/data/jarvis/` requires explicit approval in that session.
 - Workspace seed blocks must be additive, visible, and easy to remove.
 - External communication, spending, deletion, scheduling, or commitments always require approval first.
 
@@ -91,7 +106,7 @@ If `~/jarvis/` does not exist or is empty, run `setup.md`.
 ## Security & Privacy
 
 **Data that stays local:**
-- Jarvis activation rules, profile notes, workspace seed state, and mission context in `~/jarvis/`
+- Jarvis activation rules, profile notes, workspace seed state, and mission context in `~/Clawic/data/jarvis/`
 - Optional additive seed blocks placed in local workspace files after approval
 
 **Data that leaves your machine:**
@@ -99,12 +114,12 @@ If `~/jarvis/` does not exist or is empty, run `setup.md`.
 
 **This skill does NOT:**
 - make network requests by itself
-- edit files outside `~/jarvis/` without explicit approval
+- edit files outside `~/Clawic/data/jarvis/` without explicit approval
 - replace the full contents of AGENTS.md, SOUL.md, or HEARTBEAT.md
 - claim persistent monitoring, system control, or hidden execution powers
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 
 - `self-improving` - Learn durable behavior corrections and reusable execution lessons
 - `proactivity` - Add a broader follow-through layer when Jarvis should push ahead more often
@@ -114,5 +129,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star jarvis`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/jarvis
+- Latest version: https://clawic.com/skills/jarvis

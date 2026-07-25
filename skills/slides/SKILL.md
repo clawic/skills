@@ -1,9 +1,19 @@
 ---
-name: Slides
+name: slides
 slug: slides
 version: 1.0.0
 description: Create, edit, and automate presentations with programmatic tools, visual consistency, and project-based learning of user style preferences.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/slides
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Slides
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs presentation slides created, edited, or automated. Agent handles tool
 
 ## Architecture
 
-Projects and styles stored in `~/slides/`. See `memory-template.md` for setup.
+Projects and styles stored in `~/Clawic/data/slides/`. See `memory-template.md` for setup.
 
 ```
-~/slides/
+~/Clawic/data/slides/
 ├── memory.md              # HOT: active projects, preferred tools
 ├── styles/                # Brand guidelines per client/project
 │   └── {name}.md          # Colors, fonts, templates
@@ -38,30 +48,30 @@ Projects and styles stored in `~/slides/`. See `memory-template.md` for setup.
 
 ## Data Storage
 
-All data stored in `~/slides/`. Create on first use:
+All data stored in `~/Clawic/data/slides/`. Create on first use:
 ```bash
-mkdir -p ~/slides/{styles,projects,templates}
+mkdir -p ~/Clawic/data/slides/{styles,projects,templates}
 ```
 
 ## Scope
 
 This skill ONLY:
 - Creates/edits presentations via declared tools
-- Stores style preferences in local files (`~/slides/`)
+- Stores style preferences in local files (`~/Clawic/data/slides/`)
 - Reads user's templates and brand guidelines
 - Generates visual output for validation
 
 This skill NEVER:
 - Accesses email, calendar, or contacts
 - Makes network requests without user action
-- Reads files outside `~/slides/` and project paths
+- Reads files outside `~/Clawic/data/slides/` and project paths
 - Sends presentations to external services automatically
 
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-Learned styles stored in `~/slides/styles/`.
-Project context stored in `~/slides/projects/`.
+Learned styles stored in `~/Clawic/data/slides/styles/`.
+Project context stored in `~/Clawic/data/slides/projects/`.
 
 ## Core Rules
 
@@ -70,7 +80,7 @@ Before generating slides:
 - **Purpose**: Pitch, lesson, report, demo?
 - **Audience**: Investors, students, executives, clients?
 - **Tool**: PowerPoint, Google Slides, web-based (reveal.js)?
-- Load relevant style from `~/slides/styles/` if exists
+- Load relevant style from `~/Clawic/data/slides/styles/` if exists
 
 ### 2. Tool Selection by Output
 | Need | Tool | When to use |
@@ -101,10 +111,10 @@ Before generating slides:
 ### 6. Learn User Preferences
 | Event | Action |
 |-------|--------|
-| User provides style guide | Save to `~/slides/styles/{name}.md` |
+| User provides style guide | Save to `~/Clawic/data/slides/styles/{name}.md` |
 | User corrects design choice | Update style file |
-| User approves template | Save to `~/slides/templates/` |
-| New project started | Create `~/slides/projects/{name}/` |
+| User approves template | Save to `~/Clawic/data/slides/templates/` |
+| New project started | Create `~/Clawic/data/slides/projects/{name}/` |
 
 ### 7. Version Management
 - Each significant revision → log in `projects/{name}/versions.md`

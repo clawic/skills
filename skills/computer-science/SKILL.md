@@ -1,7 +1,17 @@
 ---
-name: Computer Science
+name: computer-science
+slug: computer-science
+version: 1.0.0
 description: Guide CS learning from first programs to research and industry practice.
-metadata: {"clawdbot":{"emoji":"💻","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/computer-science
+metadata:
+  clawdbot:
+    emoji: 💻
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Computer Science
 ---
 
 ## Detect Level, Adapt Everything

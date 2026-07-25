@@ -1,16 +1,29 @@
 ---
-name: Report
+name: report
 slug: report
 version: 1.0.3
 description: Configure custom recurring reports. User defines data sources, skill handles scheduling and formatting.
+homepage: https://clawic.com/skills/report
 changelog: Fixed path consistency, declared optional env vars in metadata
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[],"env":{"optional":["USER_PROVIDED_API_KEYS"]}},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+      env:
+        optional:
+        - USER_PROVIDED_API_KEYS
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Report
 ---
 
 ## Data Storage
 
 ```
-~/report/
+~/Clawic/data/report/
 ├── memory.md               # Index + preferences
 ├── {name}/
 │   ├── config.md           # Report configuration
@@ -23,7 +36,7 @@ Create on first use: `mkdir -p ~/report`
 ## Scope
 
 This skill:
-- ✅ Stores report configurations in ~/report/
+- ✅ Stores report configurations in ~/Clawic/data/report/
 - ✅ Generates reports on schedule
 - ✅ Delivers via channels user configures
 
@@ -57,7 +70,7 @@ Config references env var name, never the value.
 External delivery (Telegram/webhook/email) sends report content off-device.
 - User explicitly configures each channel
 - User responsible for trusting destination
-- `file` delivery stays local (~/report/{name}/generated/)
+- `file` delivery stays local (~/Clawic/data/report/{name}/generated/)
 
 ## Quick Reference
 
@@ -85,7 +98,7 @@ User: "Done"
 ```
 
 ### 2. Report Configuration
-In ~/report/{name}/config.md:
+In ~/Clawic/data/report/{name}/config.md:
 ```yaml
 name: weekly-revenue
 schedule: "0 9 * * 1"  # Monday 9am
@@ -108,12 +121,12 @@ delivery: telegram
 User configures in config.md:
 - `chat` — Reply in conversation
 - `telegram` — Send to Telegram (user provides chat ID)
-- `file` — Save to ~/report/{name}/generated/
+- `file` — Save to ~/Clawic/data/report/{name}/generated/
 - `email` — Send via user's configured mail
 
 ### 5. Managing Reports
 ```
-"List my reports" → Read ~/report/memory.md
+"List my reports" → Read ~/Clawic/data/report/memory.md
 "Pause X report" → Update config
 "Run X now" → Generate on-demand
 ```

@@ -1,17 +1,27 @@
 ---
-name: Indie Hacker
+name: indie-hacker
 slug: indie-hacker
 version: 1.0.0
 description: Build profitable products as a solo founder with validation-first approach, time protection, and brutal honesty.
-metadata: {"clawdbot":{"emoji":"🚀","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/indie-hacker
+metadata:
+  clawdbot:
+    emoji: 🚀
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Indie Hacker
 ---
 
 ## Architecture
 
-Project context lives in `~/indie-hacker/` with per-project tracking. See `memory-template.md` for setup.
+Project context lives in `~/Clawic/data/indie-hacker/` with per-project tracking. See `memory-template.md` for setup.
 
 ```
-~/indie-hacker/
+~/Clawic/data/indie-hacker/
 ├── memory.md         # Active projects, current priorities
 ├── projects/         # Per-project: metrics, decisions, learnings
 └── archive/          # Killed projects with post-mortems

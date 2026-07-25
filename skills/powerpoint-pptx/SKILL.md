@@ -1,11 +1,20 @@
 ---
-name: Powerpoint / PPTX
+name: powerpoint-pptx
 slug: powerpoint-pptx
 version: 1.0.1
+description: Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use when (1) the task is about PowerPoint or `.pptx`; (2) layouts, placeholders, notes, charts, comments, or template fidelity matter; (3) the deck must render cleanly after edits.
 homepage: https://clawic.com/skills/powerpoint-pptx
-description: "Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use when (1) the task is about PowerPoint or `.pptx`; (2) layouts, placeholders, notes, charts, comments, or template fidelity matter; (3) the deck must render cleanly after edits."
 changelog: Rebalanced the skill toward template inventory, layout mapping, and higher-signal QA after a stricter external audit.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Powerpoint / PPTX
 ---
 
 ## When to Use
@@ -89,12 +98,12 @@ Use when the main artifact is a Microsoft PowerPoint presentation or `.pptx` dec
 - Aspect-ratio mismatches like `16:9` versus `4:3` can shift every placement decision even when each slide looks locally reasonable.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `documents` — Document workflows that often feed presentation content.
 - `design` — Visual direction and layout decisions.
 - `brief` — Concise business messaging for slide narratives.
 
 ## Feedback
 
-- If useful: `clawhub star powerpoint-pptx`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/powerpoint-pptx
+- Latest version: https://clawic.com/skills/powerpoint-pptx

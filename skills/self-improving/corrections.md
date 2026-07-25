@@ -1,6 +1,6 @@
 # Corrections Log — Template
 
-> This file is created in `~/self-improving/corrections.md` when you first use the skill.
+> This file is created in `~/Clawic/data/self-improving/corrections.md` when you first use the skill.
 > Keeps the last 50 corrections. Older entries are evaluated for promotion or archived.
 
 ## Example Entries

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "476a140206ceca484be139f5caa13450ffd15384282408db78ac55048febaf63",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "ios",
-    "name": "iOS",
+    "name": "ios",
     "description": "Build, test, and ship iOS apps with Swift, Xcode, and App Store best practices.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/ios",
     "summary": "iOS Development Rules Xcode & Build - Clean build folder (Cmd+Shift+K) fixes most \"impossible\" build errors — derived data gets corrupted regularly - Simulator reset (Device > Erase All Content and Settings) clears cache",
     "repositoryPath": "skills/ios",
     "manifestPath": "registry/skills/ios.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/ios/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/_meta.json",
+      "byteCount": 158,
+      "sha256": "3f5dde496f75777e5be9dcb00db16ea731a7f177cb077dd4a3f0bb1c2628232f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ios/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/SKILL.md",
+      "byteCount": 4174,
+      "sha256": "dc6a7e10e125e22f243296be23b3700a4f08ef22962bbd9e0acd74f6bca57e0d"
     }
   ]
 }

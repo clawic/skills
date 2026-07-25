@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "740b06c66e324a767efdefbd758b48dd7fc49f63abb43e7c4fc92f02b591b3e9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "discover",
-    "name": "Discover",
+    "name": "discover",
     "description": "Discover new ideas, sources, opportunities, and angles with durable watchlists, novelty rules, and heartbeat-backed finding logs.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/discover",
@@ -22,67 +25,93 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/discover/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/_meta.json",
+      "byteCount": 168,
+      "sha256": "42e2c1c3336c68f12f973e0a3472dfec53066269d970b1a34505a650100d86b2"
     },
     {
       "path": "AGENTS.md",
       "downloadPath": "skills/discover/AGENTS.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/AGENTS.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/AGENTS.md",
+      "byteCount": 928,
+      "sha256": "628ff8253ba0486e7b295bee21fdfd62805e4e3b587751e0e17e3fc19ca96856"
     },
     {
       "path": "discovery-loop.md",
       "downloadPath": "skills/discover/discovery-loop.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/discovery-loop.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/discovery-loop.md",
+      "byteCount": 1293,
+      "sha256": "f36107b590b8ea1e2893cd8fa3b2910ca80cefb0136dbb630ec18dd4c4ade4c6"
     },
     {
       "path": "heartbeat-rules.md",
       "downloadPath": "skills/discover/heartbeat-rules.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/heartbeat-rules.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/heartbeat-rules.md",
+      "byteCount": 1636,
+      "sha256": "67ad8acf3e8757dc33834d5ef8d07adf46b85f34da99ec2dd3fcb7ed5336aba8"
     },
     {
       "path": "heartbeat-state.md",
       "downloadPath": "skills/discover/heartbeat-state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/heartbeat-state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/heartbeat-state.md",
+      "byteCount": 337,
+      "sha256": "f56978724e8f5d1d8e33d4f93010e3531ac3f7198f71db6bfac279dda935884b"
     },
     {
       "path": "HEARTBEAT.md",
       "downloadPath": "skills/discover/HEARTBEAT.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/HEARTBEAT.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/HEARTBEAT.md",
+      "byteCount": 349,
+      "sha256": "fcdf53830a14a05662795bf4e88525271699cec2b57110e3d1ac9a992fd342c4"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/discover/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/memory-template.md",
+      "byteCount": 1014,
+      "sha256": "b87183926edb24bb0815d721771237954d2fcb10848d71d024120b547911f5ed"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/discover/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/memory.md",
+      "byteCount": 551,
+      "sha256": "20e3aefd9b28bf3b48ecacaee25da3a3f2dc09d18a8ef7c5c7607d2c1041284f"
     },
     {
       "path": "novelty-test.md",
       "downloadPath": "skills/discover/novelty-test.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/novelty-test.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/novelty-test.md",
+      "byteCount": 1079,
+      "sha256": "6d1da04feab2bc8858f46498336c89525af145d84002751a1b8e0c31fe8bed30"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/discover/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/setup.md",
+      "byteCount": 3151,
+      "sha256": "978d721f5e4ef2824835adcc76fa988d84f7d072e9ea93a4c7fe4d70710bd5a8"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/discover/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/SKILL.md",
+      "byteCount": 9583,
+      "sha256": "d2139b7671c2a3ba6c52b9531891df7e84880d348f7e37ead697830993e32805"
     },
     {
       "path": "watchlist-template.md",
       "downloadPath": "skills/discover/watchlist-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/watchlist-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/watchlist-template.md",
+      "byteCount": 762,
+      "sha256": "bceaed06650297551cf2760026df837f039d91a6d66038b3a9d68e586440f565"
     },
     {
       "path": "watchlist.md",
       "downloadPath": "skills/discover/watchlist.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/watchlist.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/watchlist.md",
+      "byteCount": 612,
+      "sha256": "a773c71b1387c186578c33e4eb8a58a3cf78440a59cc3b93e5de9bdb003f39ff"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-23T09:03:09.464Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "956c9b8e9428133d1661ad533ddeec3e1e85ed055396800876d528473f78f76e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "spain",
     "name": "spain",
-    "description": "Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, M\u00e1laga, or San Sebasti\u00e1n, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Ferm\u00edn, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language \u2014 that is the spanish skill.",
+    "description": "Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, Málaga, or San Sebastián, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Fermín, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that is the spanish skill.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/spain",
     "summary": "User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Cla",
@@ -20,149 +23,207 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/spain/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/spain/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/_meta.json",
+      "byteCount": 312,
+      "sha256": "b0429637e11f43fbd3cd6cbf997f4214707fdb592281c9cf4bf1df202db1eba1"
     },
     {
       "path": "accommodation.md",
       "downloadPath": "skills/spain/accommodation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/accommodation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/accommodation.md",
+      "byteCount": 5039,
+      "sha256": "80b2d3ee347fa0e20621dc0ae0ade9def656c1bcd416afd6ddb492fc7b03254c"
     },
     {
       "path": "apps.md",
       "downloadPath": "skills/spain/apps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/apps.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/apps.md",
+      "byteCount": 3939,
+      "sha256": "25f21e6b84310c184f48a0e90e89f2fefd3cab019c94b20760f15917e15b3a88"
     },
     {
       "path": "barcelona.md",
       "downloadPath": "skills/spain/barcelona.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/barcelona.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/barcelona.md",
+      "byteCount": 5071,
+      "sha256": "c2c5243c13fd673b8970b896267ba6605ba9f5aa033d47705458f072fd695ec1"
     },
     {
       "path": "beaches.md",
       "downloadPath": "skills/spain/beaches.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/beaches.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/beaches.md",
+      "byteCount": 5197,
+      "sha256": "f8235ab43fcd7942fe02ed0889b8f30f4877e68b3bca7c9c398f0620a476e109"
     },
     {
       "path": "bilbao.md",
       "downloadPath": "skills/spain/bilbao.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/bilbao.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/bilbao.md",
+      "byteCount": 3978,
+      "sha256": "eb3736f171529b07e0f210ef55a7bb07973343dcb3ab8ef6ae71d6fb47f54c78"
     },
     {
       "path": "camino.md",
       "downloadPath": "skills/spain/camino.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/camino.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/camino.md",
+      "byteCount": 4704,
+      "sha256": "73e270f83446f22ab629ee841d517a501a22294f3d66f4ff40fa3dd9a569d3a0"
     },
     {
       "path": "culture.md",
       "downloadPath": "skills/spain/culture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/culture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/culture.md",
+      "byteCount": 6534,
+      "sha256": "81746ba74cd17a564bdfc8815ddd9f3aa1d75a3faa8a3dfb80e705964e01003d"
     },
     {
       "path": "emergencies.md",
       "downloadPath": "skills/spain/emergencies.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/emergencies.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/emergencies.md",
+      "byteCount": 3945,
+      "sha256": "d7e9951f92b1df95b2a6bee09b9386f1014a6e5f2a0a544822d197ad4dcf19bd"
     },
     {
       "path": "experiences.md",
       "downloadPath": "skills/spain/experiences.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/experiences.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/experiences.md",
+      "byteCount": 5089,
+      "sha256": "37962bfffde86e7744b3f389da051009ba46e91ca67463f662316941519812d6"
     },
     {
       "path": "food-guide.md",
       "downloadPath": "skills/spain/food-guide.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/food-guide.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/food-guide.md",
+      "byteCount": 7613,
+      "sha256": "65e7f4c067715d7cc2a02b4c1c8d8c44a84847fca8841cf5ddaeff872bc6eb50"
     },
     {
       "path": "granada.md",
       "downloadPath": "skills/spain/granada.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/granada.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/granada.md",
+      "byteCount": 3985,
+      "sha256": "cd27792af23848cb17e0a63dd6af63198df013388596d41220da06890e3caaff"
     },
     {
       "path": "hiking.md",
       "downloadPath": "skills/spain/hiking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/hiking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/hiking.md",
+      "byteCount": 4855,
+      "sha256": "d368814d578dddcf12e55ad4e3dfdea1346d2979e4218af9305a6010321995af"
     },
     {
       "path": "islands.md",
       "downloadPath": "skills/spain/islands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/islands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/islands.md",
+      "byteCount": 3042,
+      "sha256": "afd1727eb9d1e1ecd698e57ab18037b2a4071b24278870b0ae7362a050c129fd"
     },
     {
       "path": "itineraries.md",
       "downloadPath": "skills/spain/itineraries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/itineraries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/itineraries.md",
+      "byteCount": 4111,
+      "sha256": "7e6d653826103b755f6857b0ceb2e9e34a24a27aafc5a3524ecc63e310e429ee"
     },
     {
       "path": "madrid.md",
       "downloadPath": "skills/spain/madrid.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/madrid.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/madrid.md",
+      "byteCount": 4654,
+      "sha256": "bf605afaa4fae29f3ce6e49832599603dee34ac4fed79dbb58046590e962f0c4"
     },
     {
       "path": "malaga.md",
       "downloadPath": "skills/spain/malaga.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/malaga.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/malaga.md",
+      "byteCount": 3737,
+      "sha256": "87ccc9961857cc7aac3c706e996a3ab80a90398b354f8febe451c90d9fbaded3"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/spain/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/memory-template.md",
+      "byteCount": 511,
+      "sha256": "234895e33114ad301d10bdf4432c6f41ce8e70dbba5f48ba99be937ff750aa57"
     },
     {
       "path": "nightlife.md",
       "downloadPath": "skills/spain/nightlife.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/nightlife.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/nightlife.md",
+      "byteCount": 4804,
+      "sha256": "bfa8e1f1341b34c03d7023b5839e29623c37d909bed7e02e00c5e278672f2af0"
     },
     {
       "path": "regions.md",
       "downloadPath": "skills/spain/regions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/regions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/regions.md",
+      "byteCount": 6139,
+      "sha256": "a19ecf52dd02a606f0353812d7ea532fa691052b3eea6f92a25846f34e7a125f"
     },
     {
       "path": "san-sebastian.md",
       "downloadPath": "skills/spain/san-sebastian.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/san-sebastian.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/san-sebastian.md",
+      "byteCount": 3859,
+      "sha256": "c727536ef7afb42bb5e0e2028fcc48c582ed62eb9174e4ba848d6c5d252d2597"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/spain/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/setup.md",
+      "byteCount": 1961,
+      "sha256": "ac8824ebb445d0cc2e9c77410ba23da838a9c9339e384892a3f0de9dd6437f03"
     },
     {
       "path": "sevilla.md",
       "downloadPath": "skills/spain/sevilla.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/sevilla.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/sevilla.md",
+      "byteCount": 3849,
+      "sha256": "9e1a06a18952e82e159dfbb6b95ec457350d48e5c3b1d9e99ea134533b20f364"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/spain/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/SKILL.md",
+      "byteCount": 11030,
+      "sha256": "6ea1f313871f19b448624a4e3c606dc6239a206162e830a29780ee6e8d378164"
     },
     {
       "path": "telecoms.md",
       "downloadPath": "skills/spain/telecoms.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/telecoms.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/telecoms.md",
+      "byteCount": 1828,
+      "sha256": "0be0ff7af016d6137da9ed4bfc2c460582e2eef0a6abaff7395d8432b92f8a0b"
     },
     {
       "path": "transport.md",
       "downloadPath": "skills/spain/transport.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/transport.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/transport.md",
+      "byteCount": 3837,
+      "sha256": "931ea20aeb27a8a40f964469fa4e1145159f5855815edf97cfbf621d64cf5cf8"
     },
     {
       "path": "valencia.md",
       "downloadPath": "skills/spain/valencia.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/valencia.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/valencia.md",
+      "byteCount": 3231,
+      "sha256": "3e700194a0340fa9d801054918f27cd8a87443cd9e10d47a4688c7a277e39feb"
     },
     {
       "path": "wine.md",
       "downloadPath": "skills/spain/wine.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/wine.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/wine.md",
+      "byteCount": 4894,
+      "sha256": "8a7b9cd79975ffe493a51935e57804059c70cbdcd38d34fd73a099a3f10c0b2c"
     },
     {
       "path": "with-kids.md",
       "downloadPath": "skills/spain/with-kids.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/with-kids.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/with-kids.md",
+      "byteCount": 5092,
+      "sha256": "8efb9b5771bf21c946a19a9902bbbbcdc26c35605be9d56b7b54b4abc5dab687"
     }
   ]
 }

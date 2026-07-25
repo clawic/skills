@@ -1,10 +1,19 @@
 ---
-name: Content Marketing
+name: content-marketing
 slug: content-marketing
 version: 1.0.0
-homepage: https://clawic.com/skills/content-marketing
 description: Plan, create, and distribute content with editorial calendars, funnel strategy, and repurposing workflows.
-metadata: {"clawdbot":{"emoji":"📝","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/content-marketing
+metadata:
+  clawdbot:
+    emoji: 📝
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Content Marketing
 ---
 
 ## Setup
@@ -17,10 +26,10 @@ User needs help with content strategy, editorial planning, blog posts, social me
 
 ## Architecture
 
-With user consent, data is stored locally in `~/content-marketing/`. See `memory-template.md` for structure.
+With user consent, data is stored locally in `~/Clawic/data/content-marketing/`. See `memory-template.md` for structure.
 
 ```
-~/content-marketing/
+~/Clawic/data/content-marketing/
 ├── memory.md           # Strategy, voice, goals
 ├── calendar.md         # Editorial calendar
 ├── content-bank/       # Drafts and ideas
@@ -113,22 +122,22 @@ If you run out of ideas, you're not listening enough.
 ## Security & Privacy
 
 **Data that stays local (with user consent):**
-- Content strategy and voice preferences in `~/content-marketing/memory.md`
-- Editorial calendar in `~/content-marketing/calendar.md`
-- Content ideas in `~/content-marketing/content-bank/`
+- Content strategy and voice preferences in `~/Clawic/data/content-marketing/memory.md`
+- Editorial calendar in `~/Clawic/data/content-marketing/calendar.md`
+- Content ideas in `~/Clawic/data/content-marketing/content-bank/`
 
 **This skill does NOT:**
 - Send data to external services
-- Access files outside `~/content-marketing/`
+- Access files outside `~/Clawic/data/content-marketing/`
 - Create files without explicit user permission
 - Collect or transmit analytics
 
 **User control:**
 - Storage is optional — decline and the skill still works for ideation and advice
-- Delete `~/content-marketing/` anytime to remove all stored data
+- Delete `~/Clawic/data/content-marketing/` anytime to remove all stored data
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `seo` — Optimize content for search
 - `writing` — Craft better copy
 - `growth-hacker` — Distribution tactics
@@ -136,5 +145,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star content-marketing`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/content-marketing
+- Latest version: https://clawic.com/skills/content-marketing

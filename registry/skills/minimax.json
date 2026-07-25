@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "43d4bfc8d26881baf403712f88a90f80d0b6e9ea73747d8da3626f964dfa2322",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "minimax",
-    "name": "MiniMax",
+    "name": "minimax",
     "description": "Build with MiniMax text, speech, video, and music APIs using model routing, compatible SDKs, and safer multimodal workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/minimax",
@@ -22,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/minimax/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/_meta.json",
+      "byteCount": 166,
+      "sha256": "95b5c9c2e086049de31a29f345fe2ac7a31ddc6a27480bf5b1954d07db203a31"
     },
     {
       "path": "mcp-and-orchestration.md",
       "downloadPath": "skills/minimax/mcp-and-orchestration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/mcp-and-orchestration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/mcp-and-orchestration.md",
+      "byteCount": 1436,
+      "sha256": "a29a8aa3fe8afaa6bd40b08fffd6deda5fad214313a027cafe362a12712e4eee"
     },
     {
       "path": "media-generation.md",
       "downloadPath": "skills/minimax/media-generation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/media-generation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/media-generation.md",
+      "byteCount": 1727,
+      "sha256": "aa445b700ca5220b8124269c946d096cf54bb9afd49da912ade5dd636d3ebfd8"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/minimax/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/memory-template.md",
+      "byteCount": 1691,
+      "sha256": "86ebf55afa05ed17cf9dc25a3c74760faf7094ddda0ca4c3ffbb8ad4541b3e1a"
     },
     {
       "path": "model-routing.md",
       "downloadPath": "skills/minimax/model-routing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/model-routing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/model-routing.md",
+      "byteCount": 2536,
+      "sha256": "d3b5d4b9ac75eb60a6e1a07699e1f696f1c5f5ce9478ecda9621976f3eaae8b9"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/minimax/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/setup.md",
+      "byteCount": 2511,
+      "sha256": "6a2eb8952c2b53200be0f179c10504d3b2f53b325c56bedefdbf6734df655fe2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/minimax/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/SKILL.md",
+      "byteCount": 10875,
+      "sha256": "3553cc8877511e1221712a7fa729d0c0ebc6324b565509cfaedb673b2b38e39e"
     },
     {
       "path": "speech-workflows.md",
       "downloadPath": "skills/minimax/speech-workflows.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/speech-workflows.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/speech-workflows.md",
+      "byteCount": 1732,
+      "sha256": "a6c364f9e7326129b88b3bd281a3ed82ed6b56bc6dea7158cd06c143affe66a0"
     },
     {
       "path": "text-interfaces.md",
       "downloadPath": "skills/minimax/text-interfaces.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/text-interfaces.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/text-interfaces.md",
+      "byteCount": 2481,
+      "sha256": "494b4d0ab42ec6c0347c287631888b38521d865e5b770bb532d9cbbd833baab7"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/minimax/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minimax/troubleshooting.md",
+      "byteCount": 1678,
+      "sha256": "69e4422b0f342abd23d0352ca1ee32b8a5275e01ada41e4238bca370a3a3d3c0"
     }
   ]
 }

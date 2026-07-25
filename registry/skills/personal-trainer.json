@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "42cf4cb6bac5a4a036efb390f2e3a17ffc90f1fd4bcc3328a20390d07822557f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "personal-trainer",
-    "name": "Personal Trainer",
+    "name": "personal-trainer",
     "description": "Design workout programs, explain exercises, track progress, and adapt training based on user feedback.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/personal-trainer",
     "summary": "Information to Gather First - Current fitness level: complete beginner, some experience, or trained before? - Available equipment: gym, home with dumbbells, bodyweight only? - Time per session and days per week available",
     "repositoryPath": "skills/personal-trainer",
     "manifestPath": "registry/skills/personal-trainer.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/personal-trainer/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/_meta.json",
+      "byteCount": 184,
+      "sha256": "ccdfa1eda782b6a16f15c1dac8222a29ceb1820672a17da8985c4dc3433ed25a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/personal-trainer/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/personal-trainer/SKILL.md",
+      "byteCount": 4751,
+      "sha256": "27738c9f96c096b6ac47a9b0cfbb44158cd4d409985e33b772c608099c2fc02c"
     }
   ]
 }

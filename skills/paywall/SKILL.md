@@ -1,6 +1,13 @@
 ---
-name: "Paywall"
-description: "Build high-converting paywalls for mobile apps and web with proven patterns, pricing strategies, and A/B testing."
+name: paywall
+slug: paywall
+version: 1.0.0
+description: Build high-converting paywalls for mobile apps and web with proven patterns, pricing strategies, and A/B testing.
+homepage: https://clawic.com/skills/paywall
+metadata:
+  clawdbot:
+    emoji: 🔓
+    displayName: Paywall
 ---
 
 ## Triggers

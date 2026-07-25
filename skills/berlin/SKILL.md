@@ -1,10 +1,19 @@
 ---
-name: Berlin
+name: berlin
 slug: berlin
 version: 1.0.0
-homepage: https://clawic.com/skills/berlin
 description: Navigate Berlin as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.
-metadata: {"clawdbot":{"emoji":"🐻","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/berlin
+metadata:
+  clawdbot:
+    emoji: 🐻
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Berlin
 ---
 
 ## When to Use

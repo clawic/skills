@@ -1,9 +1,19 @@
 ---
-name: Spreadsheet
+name: spreadsheet
 slug: spreadsheet
 version: 1.0.0
 description: Read, write, and analyze tabular data with schema memory, format preservation, and multi-platform support.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/spreadsheet
+metadata:
+  clawdbot:
+    emoji: 📊
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Spreadsheet
 ---
 
 ## When to Use
@@ -12,10 +22,10 @@ User needs spreadsheet operations: reading data, writing cells, analyzing tables
 
 ## Architecture
 
-Memory lives in `~/spreadsheet/`. See `memory-template.md` for setup.
+Memory lives in `~/Clawic/data/spreadsheet/`. See `memory-template.md` for setup.
 
 ```
-~/spreadsheet/
+~/Clawic/data/spreadsheet/
   memory.md           # Preferences, recent sheets, format rules
   projects/           # Per-project schemas and configs
     {name}.md         # Sheet IDs, columns, formulas
@@ -36,25 +46,25 @@ Memory lives in `~/spreadsheet/`. See `memory-template.md` for setup.
 
 This skill ONLY:
 - Reads/writes spreadsheets user explicitly requests
-- Stores schemas and preferences in `~/spreadsheet/`
+- Stores schemas and preferences in `~/Clawic/data/spreadsheet/`
 - Processes files user provides
 
 This skill NEVER:
 - Accesses sheets without user request
 - Stores passwords, API keys, or sensitive financial data
-- Modifies files outside `~/spreadsheet/` or user paths
+- Modifies files outside `~/Clawic/data/spreadsheet/` or user paths
 
 ## Data Storage
 
-All data stored in `~/spreadsheet/`. Create on first use:
+All data stored in `~/Clawic/data/spreadsheet/`. Create on first use:
 ```bash
-mkdir -p ~/spreadsheet/{projects,templates,exports}
+mkdir -p ~/Clawic/data/spreadsheet/{projects,templates,exports}
 ```
 
 ## Self-Modification
 
 This skill NEVER modifies its own SKILL.md.
-All user data stored in `~/spreadsheet/` only.
+All user data stored in `~/Clawic/data/spreadsheet/` only.
 
 ## Core Rules
 

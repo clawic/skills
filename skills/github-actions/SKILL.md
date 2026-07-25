@@ -1,11 +1,22 @@
 ---
-name: GitHub Actions
+name: github-actions
 slug: github-actions
 version: 1.0.0
-homepage: https://clawic.com/skills/github-actions
 description: Design, debug, and harden GitHub Actions workflows with reusable pipelines, safe permissions, and faster CI and release automation.
+homepage: https://clawic.com/skills/github-actions
 changelog: Initial release with workflow design, reusable pipeline patterns, security guardrails, and debugging playbooks for GitHub Actions.
-metadata: {"clawdbot":{"emoji":"GHA","requires":{"bins":[],"config":["~/github-actions/"]},"os":["darwin","linux","win32"]}}
+metadata:
+  clawdbot:
+    emoji: GHA
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/github-actions/
+    os:
+    - darwin
+    - linux
+    - win32
+    displayName: GitHub Actions
 ---
 
 ## Setup
@@ -19,10 +30,10 @@ Use this skill when the result depends on GitHub Actions semantics and GitHub de
 
 ## Architecture
 
-Memory lives in `~/github-actions/`. See `memory-template.md` for the baseline structure.
+Memory lives in `~/Clawic/data/github-actions/`. See `memory-template.md` for the baseline structure.
 
 ```text
-~/github-actions/
+~/Clawic/data/github-actions/
 |-- memory.md              # Persistent repo context and activation boundaries
 |-- repo-map.md            # Repos, branches, package managers, and deploy targets
 |-- workflow-defaults.md   # Stable defaults for triggers, permissions, caches, and runners
@@ -68,7 +79,7 @@ This skill covers GitHub Actions as an operating system for delivery:
 
 ## Data Storage
 
-Local notes in `~/github-actions/` may include:
+Local notes in `~/Clawic/data/github-actions/` may include:
 - repo topology, protected branches, and environment names
 - known-good workflow defaults and reusable workflow contracts
 - recurring incident signatures with fixes and prevention notes
@@ -141,7 +152,7 @@ Data that leaves your machine:
 - deployment traffic only to user-approved targets configured in the workflow
 
 Data that stays local:
-- operating notes under `~/github-actions/`
+- operating notes under `~/Clawic/data/github-actions/`
 - workflow drafts, incident analysis, and release policies prepared locally
 
 This skill does NOT:
@@ -168,7 +179,7 @@ This skill NEVER:
 - normalize production deployment from untrusted pull request contexts
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ci-cd` - Choose CI and deployment strategy before locking into one platform.
 - `git` - Tighten branch, tag, and history handling around workflow events.
 - `workflow` - Design multi-step execution systems with clearer ownership and gating.
@@ -177,5 +188,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star github-actions`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/github-actions
+- Latest version: https://clawic.com/skills/github-actions

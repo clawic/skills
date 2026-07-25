@@ -1,6 +1,6 @@
 # Setup - Real Estate Investing
 
-Use this file when `~/real-estate-investing/` is missing or empty, or when the user wants investing help to become a recurring capability.
+Use this file when `~/Clawic/data/real-estate-investing/` is missing or empty, or when the user wants investing help to become a recurring capability.
 
 Answer the immediate deal question first, then lock activation behavior early so future investing conversations start with the right guardrails instead of re-learning the same context.
 
@@ -35,13 +35,13 @@ Clarify:
 ### 4. Create local state only after the routing contract is clear
 
 ```bash
-mkdir -p ~/real-estate-investing/archive
-touch ~/real-estate-investing/memory.md
-touch ~/real-estate-investing/pipeline.md
-touch ~/real-estate-investing/markets.md
-touch ~/real-estate-investing/decisions.md
-chmod 700 ~/real-estate-investing ~/real-estate-investing/archive
-chmod 600 ~/real-estate-investing/memory.md ~/real-estate-investing/pipeline.md ~/real-estate-investing/markets.md ~/real-estate-investing/decisions.md
+mkdir -p ~/Clawic/data/real-estate-investing/archive
+touch ~/Clawic/data/real-estate-investing/memory.md
+touch ~/Clawic/data/real-estate-investing/pipeline.md
+touch ~/Clawic/data/real-estate-investing/markets.md
+touch ~/Clawic/data/real-estate-investing/decisions.md
+chmod 700 ~/real-estate-investing ~/Clawic/data/real-estate-investing/archive
+chmod 600 ~/Clawic/data/real-estate-investing/memory.md ~/Clawic/data/real-estate-investing/pipeline.md ~/Clawic/data/real-estate-investing/markets.md ~/Clawic/data/real-estate-investing/decisions.md
 ```
 
 If the files are empty, initialize them from `memory-template.md`.

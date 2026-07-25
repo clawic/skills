@@ -1,6 +1,13 @@
 ---
-name: Slovenian
+name: slovenian
+slug: slovenian
+version: 1.0.0
 description: Write Slovenian that sounds human. Not formal, not robotic, not AI-generated.
+homepage: https://clawic.com/skills/slovenian
+metadata:
+  clawdbot:
+    emoji: 🇸🇮
+    displayName: Slovenian
 ---
 
 ## The Real Problem

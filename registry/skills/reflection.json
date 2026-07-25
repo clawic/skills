@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "9754fdc29312fa19718bfb5f78fccf1c4454bdcbbb64d19551e5541e42f825b9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,7 +13,7 @@
   },
   "skill": {
     "slug": "reflection",
-    "name": "Self Reflection",
+    "name": "reflection",
     "description": "Learns when to stop and review. Self-critiques before showing you, fewer revision rounds.",
     "version": "1.1.0",
     "homepage": "https://clawic.com/skills/reflection",
@@ -22,37 +25,51 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/reflection/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/_meta.json",
+      "byteCount": 253,
+      "sha256": "ca89a4ac126cd8a26d0949c1cc9fa5dd0294d6d052856d5f2903b2a94b329cd5"
     },
     {
       "path": "dimensions.md",
       "downloadPath": "skills/reflection/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/dimensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/dimensions.md",
+      "byteCount": 1644,
+      "sha256": "79ca27a3a734222b4225bf24346f8c9aa93ad2b6064e7bd0505ab1aeecf9707c"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/reflection/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/memory-template.md",
+      "byteCount": 1556,
+      "sha256": "16716a566e55093e2c01df87025eb838ee57ef198f4c6181c34fd327f3a75e7f"
     },
     {
       "path": "prompts.md",
       "downloadPath": "skills/reflection/prompts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/prompts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/prompts.md",
+      "byteCount": 1347,
+      "sha256": "0c71b04a156c50aecc2b50dee9f4f98f65557b796b1807ca05f41278d1d53553"
     },
     {
       "path": "reflections.md",
       "downloadPath": "skills/reflection/reflections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/reflections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/reflections.md",
+      "byteCount": 241,
+      "sha256": "8d6f71d0f0543002683c180a6664db48619980221144d99d8a544a894b99319e"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/reflection/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/setup.md",
+      "byteCount": 1589,
+      "sha256": "b73e0414d64dac221c22acdba0f5902a0be79168246be8ae3a5c9af53e3faa3f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/reflection/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/reflection/SKILL.md",
+      "byteCount": 9535,
+      "sha256": "d4dc953c0423771c13ba63993a2c10a95936f2767f7a95b6e14f04b8cdf8087a"
     }
   ]
 }

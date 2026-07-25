@@ -1,11 +1,18 @@
 ---
-name: CSO / Chief Strategy Officer
+name: cso
 slug: cso
 version: 1.0.2
-homepage: https://clawic.com/skills/cso
 description: Lead strategy with competitive analysis, strategic planning, growth roadmaps, and business portfolio management.
+homepage: https://clawic.com/skills/cso
 changelog: Added Core Rules structure and strategic decision frameworks.
-metadata: {"clawdbot":{"emoji":"🎯","os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎯
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: CSO / Chief Strategy Officer
 ---
 
 ## When to Use
@@ -88,7 +95,7 @@ These decisions require human judgment:
 - Resource allocation across business units
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ceo` — executive leadership
 - `cfo` — financial strategy
 - `coo` — operational execution
@@ -96,5 +103,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star cso`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/cso
+- Latest version: https://clawic.com/skills/cso

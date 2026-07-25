@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "d0ba2642da50dde2b3bd6e3070a7e515e2ea8dbdeedee82b0b7a56df7848e55e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "cpp",
-    "name": "C++",
+    "name": "cpp",
     "description": "Write safe C++ avoiding memory leaks, dangling pointers, undefined behavior, and ownership confusion.",
     "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/cpp",
     "summary": "Quick Reference | Topic | File | |-------|------| | RAII, smart pointers, new/delete | `memory.md` | | Raw pointers, references, nullptr | `pointers.md` | | Rule of 3/5/0, inheritance, virtual | `classes.md` | | Containe",
     "repositoryPath": "skills/cpp",
     "manifestPath": "registry/skills/cpp.json"
@@ -21,52 +25,72 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/cpp/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/_meta.json",
+      "byteCount": 234,
+      "sha256": "fe0a51577c5da50eb7b77bc48132c66c6f64e60e1e55b3bf8e4462d24686eddc"
     },
     {
       "path": "classes.md",
       "downloadPath": "skills/cpp/classes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/classes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/classes.md",
+      "byteCount": 616,
+      "sha256": "2e62e57b827bc94761b0e189e5303c77f92f764cd8fa0bbd15d9dc23f5ecce48"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/cpp/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/concurrency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/concurrency.md",
+      "byteCount": 544,
+      "sha256": "3816a980cd8510eb08f72916dca11525669b70c44b6c031f283897ec76b6e2d5"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/cpp/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/memory.md",
+      "byteCount": 551,
+      "sha256": "3e31fe55cc4c2919ed5a79775458df6a0fbe387756bbe87564f523b7f0f67cff"
     },
     {
       "path": "modern.md",
       "downloadPath": "skills/cpp/modern.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/modern.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/modern.md",
+      "byteCount": 600,
+      "sha256": "a51117ad47c69ed755c0e5b461a72b8bc15e2f592f87a8f909e6aa93ac1d2316"
     },
     {
       "path": "pointers.md",
       "downloadPath": "skills/cpp/pointers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/pointers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/pointers.md",
+      "byteCount": 558,
+      "sha256": "04e9e4350ec191053897469d1c7365ca59479d42b16339a837ef3ca1eb30dec9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cpp/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/SKILL.md",
+      "byteCount": 1829,
+      "sha256": "6ff1810e9d0058077d2a7a9c68b0e71d92986c03a9b71069f911d1d8bf256bd9"
     },
     {
       "path": "stl.md",
       "downloadPath": "skills/cpp/stl.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/stl.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/stl.md",
+      "byteCount": 574,
+      "sha256": "a38e38b5434dc45b138e8f6fe1b8ab31ef2fb93307b3c3fa0ec7c03ab5b888ba"
     },
     {
       "path": "templates.md",
       "downloadPath": "skills/cpp/templates.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/templates.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/templates.md",
+      "byteCount": 571,
+      "sha256": "05f50774f2152381513fafa262a2697c2edae3c77d2805ef1f4d68510d1e8633"
     },
     {
       "path": "ub.md",
       "downloadPath": "skills/cpp/ub.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/ub.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cpp/ub.md",
+      "byteCount": 487,
+      "sha256": "b9b6db4acb5e301af48001317ff1107ad1a4c07cc4661db027419dbb18faec08"
     }
   ]
 }

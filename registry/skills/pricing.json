@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "3a40c7307985225e70a398245d6967e76d56b09309bc37b6a6302f22a9723131",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,8 +13,10 @@
   },
   "skill": {
     "slug": "pricing",
-    "name": "Pricing",
+    "name": "pricing",
     "description": "Design pricing strategies for products, services, and subscriptions that maximize conversion and value.",
+    "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/pricing",
     "summary": "Pricing Psychology - Charm pricing: $9.99 vs $10—left digit effect, perceived as \"nine dollars\" - Round numbers for premium: $100 vs $99.99—signals quality, less \"deal hunting\" - Remove currency symbols when possible—red",
     "repositoryPath": "skills/pricing",
     "manifestPath": "registry/skills/pricing.json"
@@ -20,12 +25,16 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/pricing/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/_meta.json",
+      "byteCount": 166,
+      "sha256": "ab82a4feaca474d5782aaee4b1c2c737d2b70737ac64c7a11f39834f77a5f88b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pricing/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/SKILL.md",
+      "byteCount": 4298,
+      "sha256": "4a21a68b0c062395a6cde37fd49470e05764fb471fe57986996c62bcd3cdace9"
     }
   ]
 }

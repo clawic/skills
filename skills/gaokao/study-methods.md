@@ -54,7 +54,7 @@
 
 ### Flashcard File Format
 
-`~/gaokao/flashcards/{subject}.md`:
+`~/Clawic/data/gaokao/flashcards/{subject}.md`:
 ```markdown
 # 数学公式卡
 

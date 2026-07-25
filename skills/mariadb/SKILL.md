@@ -1,7 +1,20 @@
 ---
-name: MariaDB
+name: mariadb
+slug: mariadb
+version: 1.0.0
 description: Write efficient MariaDB queries with proper indexing, temporal tables, and clustering.
-metadata: {"clawdbot":{"emoji":"🦭","requires":{"bins":["mariadb"]},"os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/mariadb
+metadata:
+  clawdbot:
+    emoji: 🦭
+    requires:
+      bins:
+      - mariadb
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: MariaDB
 ---
 
 ## Character Set

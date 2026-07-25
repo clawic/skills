@@ -1,7 +1,17 @@
 ---
-name: BNB
+name: bnb
+slug: bnb
+version: 1.0.0
 description: Assist with BNB Chain transactions, BEP-20 tokens, gas fees, and cross-chain transfers.
-metadata: {"clawdbot":{"emoji":"🔶","os":["linux","darwin","win32"]}}
+homepage: https://clawic.com/skills/bnb
+metadata:
+  clawdbot:
+    emoji: 🔶
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: BNB
 ---
 
 ## Network Clarity (Critical)

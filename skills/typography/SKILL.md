@@ -1,10 +1,19 @@
 ---
-name: Typography Foundations
+name: typography
 slug: typography
 version: 1.0.0
+description: 'Set type for screen and print: measure, leading, tracking, optical sizes, weight axes, and the difference between display and text cuts.'
 homepage: https://clawic.com/skills/typography
-description: Set type for screen and print: measure, leading, tracking, optical sizes, weight axes, and the difference between display and text cuts.
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darwin","win32"]}}
+metadata:
+  clawdbot:
+    emoji: 🎨
+    requires:
+      bins: []
+    os:
+    - linux
+    - darwin
+    - win32
+    displayName: Typography Foundations
 ---
 
 ## Measure, leading, and the reading engine
@@ -108,7 +117,7 @@ metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darw
 
 ## Related Skills
 
-Install with `clawhub install <slug>` if the user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `figma` - where type specs become components, variables, and Dev Mode handoff
 - `design-tokens` - pipe the type scale and font features into platform code via Style Dictionary
 - `design-system` - the type scale, weights, and feature settings this skill feeds

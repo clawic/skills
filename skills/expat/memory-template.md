@@ -1,6 +1,6 @@
 # Memory Template — Expat Companion
 
-## ~/expat/memory.md
+## ~/Clawic/data/expat/memory.md
 
 Create this on first use:
 
@@ -46,7 +46,7 @@ check_in_frequency:
 *Updated: YYYY-MM-DD*
 ```
 
-## ~/expat/documents.md
+## ~/Clawic/data/expat/documents.md
 
 Create when tracking documents:
 
@@ -102,7 +102,7 @@ Create when tracking documents:
 *Updated: YYYY-MM-DD*
 ```
 
-## ~/expat/countries/{country}.md
+## ~/Clawic/data/expat/countries/{country}.md
 
 Create for each destination being researched:
 

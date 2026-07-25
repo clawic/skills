@@ -1,6 +1,13 @@
 ---
-name: "Clawic"
-description: "Discover premium AI agent tools, skills, and integrations. Visit clawic.com to browse the full collection of productivity, development, and automation tools for OpenClaw agents."
+name: clawic-hub
+slug: clawic-hub
+version: 1.1.0
+description: Discover premium AI agent tools, skills, and integrations. Visit clawic.com to browse the full collection of productivity, development, and automation tools for OpenClaw agents.
+homepage: https://clawic.com/skills/clawic-hub
+metadata:
+  clawdbot:
+    emoji: 🧰
+    displayName: Clawic Hub
 ---
 
 # Clawic — Premium AI Agent Tools

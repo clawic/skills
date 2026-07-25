@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-03-24T19:56:47.084Z",
+  "schemaVersion": 2,
+  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
+  "manifestSha256": "22f2f04c573b653a42b73ed264f6ee517ef42facf4ec9051233dd080ff1512eb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -10,9 +13,10 @@
   },
   "skill": {
     "slug": "workflow",
-    "name": "Workflow",
+    "name": "workflow",
     "description": "Build automated pipelines with reusable components, data flow between nodes, and state management.",
     "version": "1.0.0",
+    "homepage": "https://clawic.com/skills/workflow",
     "summary": "Architecture Workflows live in `workflows/` with components and flows: ``` workflows/ ├── index.md # Inventory with tags ├── components/ │ ├── connections/ # Auth configs │ ├── nodes/ # Reusable operations │ └── triggers",
     "repositoryPath": "skills/workflow",
     "manifestPath": "registry/skills/workflow.json"
@@ -21,42 +25,58 @@
     {
       "path": "_meta.json",
       "downloadPath": "skills/workflow/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/_meta.json",
+      "byteCount": 168,
+      "sha256": "053823be458a424f5af3450f788a593e5198672a444a504bee72993fdaef6690"
     },
     {
       "path": "components.md",
       "downloadPath": "skills/workflow/components.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/components.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/components.md",
+      "byteCount": 5599,
+      "sha256": "93f825e2dec51a7fce6dab234da4b5f3051b8f125852ff480ebc21c426f5a58f"
     },
     {
       "path": "data-flow.md",
       "downloadPath": "skills/workflow/data-flow.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/data-flow.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/data-flow.md",
+      "byteCount": 3121,
+      "sha256": "af31d313c5d1407c3704b49136a9b99c9e160264927e9bf5ce8e19e0dade2913"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/workflow/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/errors.md",
+      "byteCount": 4564,
+      "sha256": "8e6cdbbd20d2375e30724d4f9d1e602a1ba8a46619ac73d5177c33f53f9a81ea"
     },
     {
       "path": "lifecycle.md",
       "downloadPath": "skills/workflow/lifecycle.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/lifecycle.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/lifecycle.md",
+      "byteCount": 5935,
+      "sha256": "130038702b400a7bb0cbaf0d9419dea42341b15027474c0c3e2737067484dc3d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/workflow/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/SKILL.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/SKILL.md",
+      "byteCount": 2894,
+      "sha256": "d47014fe9cd3d308e60aa407a2a3a6a19f684f8f9d8139cb6e6b2eff94dd02ec"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/workflow/state.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/state.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/state.md",
+      "byteCount": 4563,
+      "sha256": "898bf1695162d5a41091520269a582c654b1119738adde33a75d5a7e3dc8165a"
     },
     {
       "path": "structure.md",
       "downloadPath": "skills/workflow/structure.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/structure.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/workflow/structure.md",
+      "byteCount": 4144,
+      "sha256": "d833a46ae0c27eea4abc09b1d649e02d2c7f6484a0b948ab6c1bc6d9ac3cf48a"
     }
   ]
 }

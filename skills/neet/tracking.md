@@ -1,6 +1,6 @@
 # Progress Tracking System
 
-## File Structure in ~/neet/
+## File Structure in ~/Clawic/data/neet/
 
 ### profile.md
 ```markdown

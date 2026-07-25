@@ -1,11 +1,24 @@
 ---
-name: Shipping Operations
+name: shipping
 slug: shipping
 version: 1.0.0
-homepage: https://clawic.com/skills/shipping
 description: Plan and manage parcel shipping decisions with carrier selection, landed-cost math, customs checks, and delivery exception playbooks.
+homepage: https://clawic.com/skills/shipping
 changelog: Initial release with carrier selection, customs checks, and exception handling workflows.
-metadata: {"clawdbot":{"emoji":"BOX","requires":{"bins":[],"config":["~/shipping/"]},"os":["linux","darwin","win32"],"configPaths":["~/shipping/"]}}
+metadata:
+  clawdbot:
+    emoji: BOX
+    requires:
+      bins: []
+      config:
+      - ~/Clawic/data/shipping/
+    os:
+    - linux
+    - darwin
+    - win32
+    configPaths:
+    - ~/Clawic/data/shipping/
+    displayName: Shipping Operations
 ---
 
 ## Setup
@@ -20,10 +33,10 @@ This skill is advisory and workflow-focused. It does not buy labels, call carrie
 
 ## Architecture
 
-Memory lives in `~/shipping/`. See `memory-template.md` for structure and status fields.
+Memory lives in `~/Clawic/data/shipping/`. See `memory-template.md` for structure and status fields.
 
 ```text
-~/shipping/
+~/Clawic/data/shipping/
 |- memory.md             # Durable shipping context and preferences
 |- carrier-rules.md      # Preferred carriers and service constraints
 |- international.md      # Country and customs notes
@@ -118,17 +131,17 @@ This turns shipping from reactive to compounding.
 - None by default from this skill itself.
 
 **Data that stays local:**
-- Shipping context and learned patterns under `~/shipping/`.
+- Shipping context and learned patterns under `~/Clawic/data/shipping/`.
 
 **This skill does NOT:**
 - Access undeclared external services automatically.
 - Buy labels or place shipping orders automatically.
 - Retrieve tracking events from carrier APIs automatically.
 - Store payment credentials or full card data.
-- Modify files outside `~/shipping/` for memory.
+- Modify files outside `~/Clawic/data/shipping/` for memory.
 
 ## Related Skills
-Install with `clawhub install <slug>` if user confirms:
+More Clawic skills, get them at https://clawic.com/skills/<slug> (install if the user confirms):
 - `ecommerce` - Store operations and conversion workflows.
 - `marketplace` - Multi-platform selling and fulfillment strategy.
 - `inventory` - Stock planning and replenishment control.
@@ -137,5 +150,5 @@ Install with `clawhub install <slug>` if user confirms:
 
 ## Feedback
 
-- If useful: `clawhub star shipping`
-- Stay updated: `clawhub sync`
+- If useful, star it: https://clawic.com/skills/shipping
+- Latest version: https://clawic.com/skills/shipping

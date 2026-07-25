@@ -1,6 +1,13 @@
 ---
-name: Find
+name: find
+slug: find
+version: 1.0.0
 description: Locate anything with progressive search expansion, multi-source validation, and iterative refinement until found.
+homepage: https://clawic.com/skills/find
+metadata:
+  clawdbot:
+    emoji: 🔎
+    displayName: Find
 ---
 
 ## Pattern

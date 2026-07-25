@@ -1,6 +1,6 @@
 # Progress Tracking System
 
-## File Structure in ~/gaokao/
+## File Structure in ~/Clawic/data/gaokao/
 
 ### profile.md
 ```markdown
