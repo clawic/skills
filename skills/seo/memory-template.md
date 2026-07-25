@@ -1,84 +1,115 @@
 # Memory Template — SEO
 
-## ~/Clawic/data/seo/memory.md
+File formats for everything under `~/Clawic/data/seo/`. `config.yaml` is what the user **declared**; `memory.md` is what the agent **observed**. An observation never overwrites a declaration.
+
+**Contents:** [config.yaml](#clawicdataseoconfigyaml) · [memory.md](#clawicdataseomemorymd) · [Status Values](#status-values) · [Audit Report Template](#audit-report-template)
+
+## `~/Clawic/data/seo/config.yaml`
+
+Declared preferences only — what the user stated, never what the agent inferred.
+
+```yaml
+site_type: ecommerce        # blog | ecommerce | saas | local | news | directory | auto
+target_market: en-GB        # locale used for SERP checks and spelling
+tool_access: gsc-only       # gsc-only | paid-suite
+risk_posture: conservative  # conservative | standard | aggressive
+cms: shopify                # wordpress | shopify | webflow | wix | headless | other | auto
+voice_file: voice.md        # long-form style guide in this folder; none if unset
+
+# Preference areas — keys added as the user states preferences
+reporting:
+  depth: priorities-only
+  kpi: revenue
+conventions:
+  title_format: "{page} | {brand}"
+scope:
+  off_limits: ["/careers/", "/legal/"]
+implementation:
+  mode: specs               # specs | patches
+measurement:
+  exclude_branded: true
+cadence:
+  gsc_review: monthly
+```
+
+## `~/Clawic/data/seo/memory.md`
 
 ```markdown
 # SEO Memory
 
 ## Status
-- Last audit: [date]
-- Active sites: [count]
-- Keywords tracked: [count]
+status: ongoing
+last: YYYY-MM-DD
 
 ## Sites
 
 ### [site-name]
 - Domain: example.com
-- Type: e-commerce / blog / saas / local
-- Last audit: [date]
-- Priority issues: [list]
-- Notes: [context]
+- Type / platform / market: ecommerce / Shopify / en-GB
+- Search Console access: yes/no, property type
+- Last audit: [date] → audits/[file]
+- Open priorities: [ranked list]
+- Constraints: [who ships, release cadence, what is off-limits]
 
-## Keyword Tracking
+## Keyword Basket
 
-| Keyword | Site | Current | Target | Trend | Last Checked |
-|---------|------|---------|--------|-------|--------------|
-| [keyword] | [site] | [rank] | [goal] | ↑/↓/→ | [date] |
+| Query | Site | URL | Position | Checked | Note |
+|---|---|---|---|---|---|
+| [query] | [site] | [url] | [n] | [date] | [movement, cause] |
 
-## Audit History
+## Timeline
 
-### [date] — [site]
-- Issues found: [count]
-- Critical: [list]
-- Fixed: [list]
-- Pending: [list]
+| Date | Event | Type |
+|---|---|---|
+| YYYY-MM-DD | [shipped / Google update / migration / drop] | [ours / Google] |
 
-## Content Pipeline
-
-| Title | Target Keyword | Status | Published |
-|-------|----------------|--------|-----------|
-| [title] | [keyword] | draft/review/live | [date/url] |
-
-## Backlink Opportunities
-
-| Site | DA | Status | Notes |
-|------|----|---------| ------|
-| [domain] | [score] | contacted/pending/secured | [context] |
+## Tried And Rejected
+<!-- Recommendations the user declined, and the reason. Do not re-propose without new evidence. -->
 
 ## Notes
+<!-- Site-specific context, patterns, vocabulary the business uses -->
 
-[Learnings, patterns, site-specific context]
+---
+*Updated: YYYY-MM-DD*
 ```
+
+## Status Values
+
+| Value | Meaning |
+|-------|---------|
+| `ongoing` | Still learning the site and its constraints |
+| `complete` | Site profile, access, and constraints are known |
 
 ## Audit Report Template
 
-Save audit reports to `~/Clawic/data/seo/audits/[site]-[date].md`:
+Save to `~/Clawic/data/seo/audits/[site]-[date].md`:
 
 ```markdown
 # SEO Audit — [site] — [date]
 
-## Summary
-- Overall health: [score]/100
-- Critical issues: [count]
-- Warnings: [count]
-- Passed: [count]
+## Verdict
+[One paragraph: what is capping this site, and what fixing it is worth.]
 
-## Critical Issues
-1. [Issue] — [impact] — [fix]
+## Top 5 Fixes
 
-## Warnings
-1. [Issue] — [recommendation]
+| # | URL or template | Exact change | Effort | Traffic at stake | Owner |
+|---|---|---|---|---|---|
 
-## Recommendations
-1. [Priority action]
-2. [Next action]
+## Findings By Layer
+### Penalties and security
+### Indexing
+### Intent and content
+### Technical quality
+### Authority
 
-## Technical Details
-- Core Web Vitals: LCP [x]s, INP [x]ms, CLS [x]
-- Mobile: [pass/fail]
-- Indexing: [x] pages indexed
-- Crawl errors: [count]
+## Baselines
+- Clicks / impressions (last 28 days, and same period last year)
+- Indexed pages, by section
+- Core Web Vitals (field, p75): LCP [x]s, INP [x]ms, CLS [x]
 
-## Next Steps
-1. [Action item with deadline]
+## Not Verified
+[Access gaps, missing data, open questions.]
+
+## Measurement Plan
+[The exact GSC or analytics view that will show whether this worked, and when to look.]
 ```

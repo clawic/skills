@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "be2c617cac2db2ed7414abd921b3563209d76952b71ba731a734b72c8a694e10",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,90 +11,148 @@
   "skill": {
     "slug": "seo",
     "name": "seo",
-    "description": "Runs SEO site audits, keyword research, content optimization, technical fixes, and link strategy. Use for auditing a site, diagnosing ranking drops, writing content to rank, local SEO, or schema markup.",
-    "version": "1.0.5",
+    "description": "Improves Google rankings with search engine optimization (SEO): audits, keyword research, content optimization, technical fixes, schema, and links. Not for paid search ads (PPC/SEM) or app store optimization. Use when organic traffic or rankings drop, pages are not indexed or get deindexed, crawl errors appear in Search Console, or a migration, redesign, or domain change is planned. Also for writing or refreshing content to rank, picking target keywords, fixing titles, canonicals, sitemaps, robots.txt, redirects, hreflang, duplicate content, or Core Web Vitals, and adding schema markup. And for chasing featured snippets or AI Overview citations, recovering from a Google penalty, core update, or manual action, optimizing local, ecommerce, SaaS, or publisher sites, or setting up Bing Webmaster Tools and IndexNow.",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/seo",
-    "summary": "All persistent data (site profiles, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`. When To Use - Auditi",
+    "summary": "All persistent data (site profiles, config, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`. Read `setup.",
     "repositoryPath": "skills/seo",
     "manifestPath": "registry/skills/seo.json"
   },
   "files": [
     {
+      "path": "SKILL.md",
+      "downloadPath": "skills/seo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md"
+    },
+    {
       "path": "_meta.json",
       "downloadPath": "skills/seo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/_meta.json",
-      "byteCount": 582,
-      "sha256": "9899d6ca172aa5d4873c047f910a684a5b53e4ece6e07a0772ce067d7c7f466c"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/_meta.json"
+    },
+    {
+      "path": "ai-search.md",
+      "downloadPath": "skills/seo/ai-search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/ai-search.md"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/seo/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/architecture.md"
+    },
+    {
+      "path": "audits.md",
+      "downloadPath": "skills/seo/audits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/audits.md"
+    },
+    {
+      "path": "cms-platforms.md",
+      "downloadPath": "skills/seo/cms-platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/cms-platforms.md"
+    },
+    {
+      "path": "commercial-pages.md",
+      "downloadPath": "skills/seo/commercial-pages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/commercial-pages.md"
     },
     {
       "path": "content.md",
       "downloadPath": "skills/seo/content.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/content.md",
-      "byteCount": 3471,
-      "sha256": "1c6fcb59e12a1ba2e055b69e8430779909f2a96f8c386da249e32b7e38f2a687"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/content.md"
+    },
+    {
+      "path": "ecommerce.md",
+      "downloadPath": "skills/seo/ecommerce.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/ecommerce.md"
+    },
+    {
+      "path": "international.md",
+      "downloadPath": "skills/seo/international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/international.md"
+    },
+    {
+      "path": "javascript.md",
+      "downloadPath": "skills/seo/javascript.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/javascript.md"
     },
     {
       "path": "keywords.md",
       "downloadPath": "skills/seo/keywords.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/keywords.md",
-      "byteCount": 4151,
-      "sha256": "c62d409386e54a0b394f6458d6e8bcea9caaf73fb0a59551a367a56be8badcb0"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/keywords.md"
     },
     {
       "path": "links.md",
       "downloadPath": "skills/seo/links.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/links.md",
-      "byteCount": 3030,
-      "sha256": "51675b9c1d5ce43023fb7bf73f39cd220c80fe9f4f95ca5e45a77e923e0e61bd"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/links.md"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/seo/local.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/local.md",
-      "byteCount": 2842,
-      "sha256": "276917ff426b2841ccdb37b6979c0f3cd56cd38a0a7385d16c4a2042ba79e88f"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/local.md"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/seo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/memory-template.md",
-      "byteCount": 1640,
-      "sha256": "7827951539880dd332336c960a4bbabdae7f28f5edd519648c840ca993faa605"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/memory-template.md"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/seo/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/migrations.md"
+    },
+    {
+      "path": "news-discover.md",
+      "downloadPath": "skills/seo/news-discover.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/news-discover.md"
     },
     {
       "path": "on-page.md",
       "downloadPath": "skills/seo/on-page.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/on-page.md",
-      "byteCount": 2283,
-      "sha256": "58c4a2d3c6b01705dfb59e437a6f28ecdaafe4605e674e56bb860840c248519e"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/on-page.md"
+    },
+    {
+      "path": "other-engines.md",
+      "downloadPath": "skills/seo/other-engines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/other-engines.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/seo/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/performance.md"
+    },
+    {
+      "path": "programmatic.md",
+      "downloadPath": "skills/seo/programmatic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/programmatic.md"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/seo/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/recovery.md"
     },
     {
       "path": "schema.md",
       "downloadPath": "skills/seo/schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/schema.md",
-      "byteCount": 2385,
-      "sha256": "7147dc4dcc1a526f0a303fa35f0e7c79f9ec72bfeba75ab4dea82947f4d0cff1"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/schema.md"
+    },
+    {
+      "path": "search-console.md",
+      "downloadPath": "skills/seo/search-console.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/search-console.md"
+    },
+    {
+      "path": "serp-features.md",
+      "downloadPath": "skills/seo/serp-features.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/serp-features.md"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/seo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/setup.md",
-      "byteCount": 969,
-      "sha256": "d93ccc052ea1605de9c28d121848c9d709ad423551c8f498b88a3711323b01d3"
-    },
-    {
-      "path": "SKILL.md",
-      "downloadPath": "skills/seo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md",
-      "byteCount": 9587,
-      "sha256": "95de1d6005bb63ccd10d1f64eabd03190f0f7561cc629a61a7f9f3a7a1f607e0"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/setup.md"
     },
     {
       "path": "technical.md",
       "downloadPath": "skills/seo/technical.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/technical.md",
-      "byteCount": 2234,
-      "sha256": "b7342ca817ed61b06f3164b3ceef0833473c4e45b117e7c71f87e01f574b06ec"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/technical.md"
     }
   ]
 }
