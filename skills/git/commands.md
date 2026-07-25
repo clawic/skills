@@ -1,6 +1,6 @@
 # High-Leverage Commands
 
-Basics (`add`, `commit`, `push`, `pull`, `status`, `log`) are assumed. These are the flags and configs that separate fluent Git from muscle memory.
+Basics (`add`, `commit`, `push`, `pull`, `status`, `log`) are assumed. These are the flags and configs that separate fluent Git from muscle memory. History search and blame live in `forensics.md`.
 
 ## One-Time Config That Prevents Whole Trap Classes
 
@@ -15,32 +15,34 @@ git config --global rerere.enabled true         # identical conflicts auto-resol
 git config --global merge.conflictStyle zdiff3  # git >=2.35: conflict markers include the base version
 git config --global diff.algorithm histogram    # cleaner diffs on moved/refactored code
 git config --global branch.sort -committerdate  # `git branch` lists recent work first
-```
-
-## History Forensics
-
-```bash
-git log -S "someFunction"            # pickaxe: commits that add/remove the string — when did this code appear/vanish
-git log -G "regex"                   # commits whose diff matches regex (catches moves that -S ignores)
-git log -L :myFunc:src/file.c        # full evolution of one function
-git log --follow -p -- path          # file history across renames
-git log --first-parent main          # PR-level history: one line per merge, branch noise hidden
-git blame -w -C -C -C file           # ignore whitespace, follow code copied between files
-git config blame.ignoreRevsFile .git-blame-ignore-revs   # git >=2.23: skip mass-format commits in blame
-git range-diff main old-tip new-tip  # what actually changed between two versions of a rebased branch
+git config --global rebase.missingCommitsCheck error   # refuse a rebase todo list that drops commits without warning
 ```
 
 ## Surgical State Manipulation
 
 ```bash
+git add -N <file>                     # intent-to-add: makes an untracked file visible to `add -p`
 git add -p                            # stage hunks, not files — split mixed work into clean commits
 git restore -p                        # discard hunks selectively
 git restore --source HEAD~3 -- path   # one file as it was 3 commits ago; nothing else moves
 git commit --fixup <sha>              # mark a correction for a specific commit; autosquash folds it in
 git stash push -m "msg" -- path/      # stash only some paths
-git stash -u                          # include untracked — plain stash silently skips them
+git stash -u                          # include untracked — plain stash skips them with no warning
 git cherry-pick -x <sha>              # record the origin sha in the message — traceable across branches
 git rebase --onto main old-base feature   # move a branch off an abandoned or merged base
+git rebase --exec 'make test' main    # run a command after every replayed commit
+```
+
+## Answering "What Is Going On"
+
+```bash
+git status -sb                        # short status + ahead/behind against upstream
+git config --show-origin --get <key>  # which config file is responsible for a setting
+git check-ignore -v <path>            # the exact ignore rule hiding your file
+git ls-remote --heads origin          # server-side refs without cloning or fetching
+git count-objects -vH                 # repo size, loose objects, pack count
+git worktree list                     # every checkout backed by this repo
+git describe --tags --dirty --always  # human-readable build stamp for the current commit
 ```
 
 ## Cloning Big Repos
@@ -50,13 +52,23 @@ git clone --filter=blob:none <url>    # blobless: full history metadata, file co
 git clone --depth 1 <url>             # shallow: fastest, but log/bisect/blame are truncated
 ```
 
-The invisible distinction: blobless keeps every history command working (first access to old files is slower); shallow breaks them. CI throwaway checkout → shallow; a repo you will actually work in → blobless.
+The invisible distinction: blobless keeps every history command working (first access to old files is slower); shallow breaks them. CI throwaway checkout → shallow; a repo you will actually work in → blobless. Full strategy table, sparse checkout, and LFS: `large-repos.md`.
 
 ## Push/Pull Precision
 
 ```bash
 git push origin HEAD                             # push current branch without typing its name
 git push --force-with-lease --force-if-includes  # git >=2.30: refuses even if auto-fetch already saw the remote move
+git push origin HEAD:main                        # push current branch to a differently named remote branch
+git push --follow-tags                           # send annotated tags reachable from what you're pushing
 git fetch origin main:main                       # fast-forward local main without leaving your branch
 git pull --rebase --autostash                    # sync with a dirty working tree
+```
+
+## One-Off Overrides And Tracing
+
+```bash
+GIT_TRACE=1 git <cmd>                 # every subprocess and hook Git invokes — the hang debugger
+git -c user.email=me@work.com commit  # one setting, one command, no config file touched
+git -C ../other-repo status -sb       # run somewhere else without cd
 ```

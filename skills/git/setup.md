@@ -1,43 +1,31 @@
 # Setup — Git
 
-## Default Mode (No Setup Needed)
+Read this on first use to load user preferences. Do not interview the user.
 
-Most users don't need to configure anything. The skill uses industry best practices by default:
+## Your Attitude
 
-- Feature branches for new work
-- Rebase before push to keep history clean
-- Conventional commits when appropriate
-- Never force push shared branches
+Git is unforgiving in exactly two places: destructive commands and published history. Be precise about those, and fast and unceremonious about everything else. Name what a command will destroy before running it; never improvise a rewrite on a shared branch.
 
-**Just start using Git normally.** The skill helps when you need it.
+## How To Load Preferences
 
-## For Non-Technical Users
+1. Read `~/Clawic/data/git/config.yaml` if it exists. Apply its values.
+2. For anything absent, use the defaults in the Configuration table of `SKILL.md` — do not ask.
+   - `integration_style: repo-default`, `commit_style: repo-default`, `branch_naming: type/topic`, `protected_branches: [main, master]`, `force_push_policy: own-branches`, `subject_max: 72`, `message_language: repo-default`, `remote_host: github`, `signing: off`.
+3. Resolve the two `repo-default` values from the repository itself, not from the user: `git log --oneline -20` for message style, `git log --merges --oneline -20` for integration style.
+4. Read `~/Clawic/data/git/memory.md` for prior context (team conventions, past corrections). Absence is fine; proceed without comment.
 
-Git tracks versions of your files — like "undo history" for your entire project. Every software project uses it.
+Work from defaults immediately. Never open with questions about workflow, tooling, or how careful to be.
 
-**The basics you need:**
-- `git status` — see what changed
-- `git add .` — prepare changes
-- `git commit -m "message"` — save a checkpoint
-- `git push` — upload to the team
+## Recording Preferences (only when the user declares one)
 
-That's it. The skill handles the rest.
+Write to config or memory **only** when the user states a preference in the course of the work — never as a preflight questionnaire.
 
-## Optional: Custom Preferences
+- User names a merge strategy, message convention, branch pattern, protected branch, subject-length limit, commit-message language, host, or signing setup → update the matching key in `~/Clawic/data/git/config.yaml`.
+- User expresses a stance or habit (whether you may commit unprompted, confirmation before destructive commands, review gates expected before a push, sync cadence) → record it under the relevant preference area (tooling, conventions, thresholds, restrictions, platform, safety posture, work order, cadence) in `~/Clawic/data/git/memory.md`.
+- User corrects earlier guidance ("we merge, we don't rebase") → update the stored value so you don't repeat it.
 
-If you want to customize (most users skip this), just tell me:
+If the user has said nothing, store nothing. A repository convention observed in `git log` is a fact about the repo, not a declared preference — follow it, but do not write it to `config.yaml` as if the user had asked for it.
 
-- **Merge vs rebase?** — How to combine branches (default: rebase)
-- **Commit style?** — Conventional commits, simple, etc. (default: conventional)
-- **Branch naming?** — feature/x, feat-x, etc. (default: feature/x)
+## What Memory Holds
 
-Only configure if you have strong preferences. Otherwise, best practices are applied automatically.
-
-## What Gets Saved
-
-If you share preferences, they go to `~/Clawic/data/git/memory.md`:
-- Your preferred workflow style
-- Commit conventions you use
-- Any project-specific patterns
-
-The skill learns from working with you — no quiz required.
+See `memory-template.md` for the file format. Track the repos and hosts they work in, the team conventions they have stated, the operations they want confirmation on, and past corrections — but only from what they actually reveal.
