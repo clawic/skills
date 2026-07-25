@@ -5424,10 +5424,10 @@
     {
       "slug": "linux",
       "name": "linux",
-      "description": "Avoids Linux traps \u2014 permission denials, disk-full mysteries, OOM kills, unkillable processes, systemd and cron failures, SSH lockouts. Use when operating, debugging, or hardening Linux systems.",
-      "version": "1.0.2",
+      "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/linux",
-      "summary": "When To Use - Diagnosing \"permission denied\", disk full, OOM kills, unkillable processes, or services that fail only at boot - Running or reviewing operations that touch permissions, signals, systemd units, cron jobs, or",
+      "summary": "User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Cla",
       "repositoryPath": "skills/linux",
       "manifestPath": "registry/skills/linux.json"
     },

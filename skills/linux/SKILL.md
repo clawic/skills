@@ -1,11 +1,17 @@
 ---
 name: linux
 slug: linux
-version: 1.0.2
+version: 1.0.3
 description: >-
-  Avoids Linux traps — permission denials, disk-full mysteries, OOM kills,
-  unkillable processes, systemd and cron failures, SSH lockouts. Use when
-  operating, debugging, or hardening Linux systems.
+  Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck
+  processes, systemd units, cron, networking, SSH, and boot failures. Use when a
+  service starts by hand but fails at boot, a process ignores kill -9, df and du
+  disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux
+  blocks a write, a job works in the shell but not in cron, sshd rejects a key,
+  an upgrade leaves packages half-configured, load is high while the CPU sits
+  idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a
+  security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for
+  shell-script syntax (bash) or container build and runtime internals (docker).
 homepage: https://clawic.com/skills/linux
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
 metadata:
@@ -15,143 +21,177 @@ metadata:
     - linux
     - darwin
     displayName: Linux
+    configPaths:
+    - ~/Clawic/data/linux/
 ---
+
+User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Clawic/data/linux/`.
 
 ## When To Use
 
-- Diagnosing "permission denied", disk full, OOM kills, unkillable processes, or services that fail only at boot
-- Running or reviewing operations that touch permissions, signals, systemd units, cron jobs, or firewalls
-- Changing config on a remote host over SSH without locking yourself out
-- Reading system tools whose output misleads: `free`, `df`, `top`, load average
-- Not for shell scripting syntax (`bash`) or container build/runtime internals (`docker`)
+- Diagnosing permission denials, disk full, OOM kills, unkillable processes, or services that fail only at boot
+- Running or reviewing operations that touch permissions, signals, systemd units, scheduled jobs, packages, or firewalls
+- Changing configuration on a remote host without locking yourself out, and recovering one that will not boot
+- Reading system tools whose output misleads: `free`, `df`, `top`, `%util`, load average
+- Hardening an exposed host: SSH, firewall, MAC, accounts, auditing
+- Not for shell scripting syntax (`bash`), container build and runtime internals (`docker`), or cluster scheduling (`k8s`)
 
 ## Quick Reference
 
 | Symptom | First move |
 |---------|-----------|
-| "Permission denied" though perms look right | `namei -l <path>` — first failing component is the bug; then ACL (`+` in `ls -l`), SELinux (`ls -Z`), immutable (`lsattr`) |
-| `df` says full, `du` can't find it | `lsof +L1` for deleted-but-open files; then the bind-mount check (→ Disk And Filesystem) |
-| "No space left on device" but `df -h` shows free | `df -i` — inode exhaustion from many small files |
-| `kill -9` doesn't kill it | `ps -o pid,stat,wchan <pid>` — D state waits on I/O; no signal helps (→ Processes And Signals) |
-| Service fails at boot, starts fine by hand | Ordering and env: `network-online.target`, absolute paths, drop-in via `systemctl edit` (→ Systemd And Cron) |
-| Job runs in your shell, fails in cron | Minimal PATH, no profile, `%` is special (→ Systemd And Cron) |
-| SSH key suddenly rejected, no error | Perms: dir 700, key 600, home dir not group-writable; `ssh -vvv` (→ Networking And SSH) |
-| Process or container exits with code 137 | 128+9 = SIGKILL, almost always OOM — `dmesg -T \| grep -i oom` |
-| Load average high, CPU mostly idle | I/O wait and D-state tasks inflate load — storage problem, not compute (→ Commands That Lie) |
-| Anything else | Core Rules below, then the matching section |
+| "Permission denied" though the mode bits look right | `namei -l <path>`; then ACL (`+` in `ls -l`), SELinux (`ls -Z`), mount options (`findmnt -T`) → `permissions.md` |
+| Root itself gets "permission denied" | `lsattr` (immutable), `ls -Z` (SELinux), `getcap` — root is not omnipotent (rule 8) |
+| Denied only when it runs as a service | Unit sandboxing: `systemd-analyze security <unit>`, then `ReadWritePaths=` → `systemd.md` |
+| `df` says full, `du` cannot find it | `lsof +L1` for deleted-but-open files, then the bind-mount check → `disk-space.md` |
+| "No space left on device" with free space in `df -h` | `df -i` for inodes; if it came from a file watcher it is the inotify limit → `kernel.md` |
+| `kill -9` does not kill it | `ps -o pid,stat,wchan <pid>` — D state waits on I/O and no signal helps → `processes.md` |
+| Exit code 137, or the OOM killer fired | `dmesg -T \| grep -i oom`; cgroup limit vs host exhaustion → `memory.md` |
+| Host swaps and crawls but nothing dies | `vmstat 1` — sustained `si`/`so` is thrash, worse than an OOM kill → `memory.md` |
+| Service starts by hand, fails at boot | Ordering (`network-online.target`) and environment (absolute paths) → `systemd.md` |
+| Unit gives up: "start request repeated too quickly" | Start limit — add `RestartSec=`, then `systemctl reset-failed` → `systemd.md` |
+| Job runs in your shell, fails under cron | Minimal PATH, no profile, `%` is special → `scheduling.md` |
+| SSH key suddenly rejected, no error client-side | Perms 700/600 and a home that is not group-writable; `journalctl -u sshd -f` → `ssh.md` |
+| About to change sshd, sudoers, firewall, or fstab remotely | Rule 4: second session, scheduled rollback, validator → `ssh.md` |
+| Host does not boot, or drops to an emergency shell | Identify the stage first; usually fstab → `boot.md` |
+| Port unreachable | `ss -tlnp` (bound to 127.0.0.1?), then the firewall front end, then the route → `networking.md` |
+| `dig` resolves but the application cannot | Applications go through NSS, `dig` does not — `getent hosts` → `networking.md` |
+| Large transfers hang, small requests fine | MTU black hole: `ping -M do -s 1472 <host>` → `networking.md` |
+| Load average high, CPU mostly idle | I/O wait and D-state inflate load — a storage problem → `performance.md` |
+| Latency spikes with the host CPU idle | cgroup CPU throttling: `cpu.stat` `nr_throttled` → `performance.md` |
+| Upgrade broke or was interrupted | `dpkg --configure -a` / `dnf history undo`; never kill a running package transaction → `packages.md` |
+| Old code still running after an upgrade | `needrestart` / `dnf needs-restarting -r`; kernel needs a reboot → `packages.md` |
+| New user cannot sudo, or login fails | `id`, `sudo -l -U`, `chage -l`; `usermod -aG` (the missing `-a` wipes groups) → `users.md` |
+| TLS, tokens, or replication fail with no config change | `timedatectl` — an unsynchronized clock breaks certificate and expiry checks → `scheduling.md` |
+| Logs are missing, or gone after a reboot | Journal not persistent, or journald rate-limiting → `logs.md` |
+| A command behaves differently than documented | Distribution differences: package, unit name, firewall, MAC → `distros.md` |
+| Copy or sync duplicated a level, or deleted the wrong tree | rsync trailing slash; `--dry-run` before `--delete` → `files.md` |
+| Host is internet-facing and unreviewed | Baseline in order: firewall, key-only SSH, auto security updates → `hardening.md` |
+| Anything else | Core Rules below, then the file whose name matches the subsystem |
+
+Depth on demand: `permissions.md` denial layers, ACLs, SELinux/AppArmor, capabilities · `processes.md` signals, D state, limits, /proc · `disk-space.md` full-disk triage and safe reclaim · `storage.md` devices, LVM, filesystems, fstab, RAID · `memory.md` OOM, swap, PSS, cgroup limits · `networking.md` reachability, DNS, firewalls, MTU, conntrack · `ssh.md` access, keys, lockout-proof changes · `systemd.md` units, ordering, drop-ins, sandboxing · `scheduling.md` cron, timers, locking, clock · `boot.md` boot failures, GRUB, rescue, chroot · `users.md` accounts, groups, sudo, PAM, offboarding · `packages.md` upgrades, holds, broken states, reboots · `performance.md` saturation triage, PSI, iostat, throttling · `logs.md` journalctl, rotation, retention · `kernel.md` sysctl, modules, dmesg, tunables · `hardening.md` exposed-host baseline · `distros.md` Debian/RHEL/Arch/Alpine/WSL differences · `files.md` rsync, find, archives, atomic replace · `commands.md` incident toolkit.
 
 ## Core Rules
 
-1. Never `chmod 777` — it removes the audit trail and usually still fails (ACL mask, SELinux, mount options). Diagnose instead: `namei -l <path>` prints every path component; directories need `x` to traverse, the file needs the right bit for the uid/gid that actually runs.
-2. Signal ladder: SIGTERM → wait → SIGKILL only if ignored. systemd itself waits 90s by default (`TimeoutStopSec`) before escalating. `kill -9` first skips cleanup handlers; on a database that means crash recovery on next start.
-3. Disk-full triage in this order: `df -h` → `df -i` → `lsof +L1` → `mount --bind / /mnt && du -xh --max-depth=1 /mnt`. Each step catches a class the previous one cannot: space, inodes, deleted-but-open, files shadowed under mount points.
-4. Remote-change safety: keep the current SSH session open, apply, verify from a NEW session before closing the old one. Run the validator when one exists: `sshd -t`, `visudo -c`, `nginx -t`, `mount -a` (tests fstab without rebooting).
-5. Live change ≠ persistent change — pair every runtime command with its persistence mechanism: `sysctl -w` with a file in `/etc/sysctl.d/`, `iptables` with `iptables-save`/`netfilter-persistent`, `systemctl start` with `enable`. "Works now" is untested until it survives a reboot.
-6. Capacity is relative, not absolute: alarm on load1/nproc > 1 sustained (load 8 on 4 cores = 2x oversubscribed), and on low `available` in `free` — never on low "free", cache is doing its job.
-7. Never edit unit files under `/usr/lib/systemd/` — package upgrades silently overwrite them. `systemctl edit <unit>` writes a drop-in under `/etc/` that survives; any manual edit needs `daemon-reload` to take effect.
-8. Root is not omnipotent: `chattr +i` blocks writes even for root, SELinux denies root by policy, file capabilities replace root entirely. When root gets "permission denied", check `lsattr` and `ls -Z` before doubting the filesystem.
-9. Guard destructive paths against empty variables: `rm -rf "${DIR:?}/"` aborts if DIR is unset — `rm -rf $DIR/` with unset DIR expands to `rm -rf /`.
+1. **Never `chmod 777`.** It destroys the audit trail and usually still fails, because the denial is a different layer: ACL mask, SELinux label, mount option, or unit sandboxing. Diagnose with `namei -l <path>` — it prints every component, and the first failing one is the bug. Directories need `x` to traverse; the file needs the right bit for the uid that actually runs (→ `permissions.md`).
+2. **Signal ladder: SIGTERM → wait → SIGKILL only if ignored.** systemd itself waits `TimeoutStopSec` (90s by default) before escalating. `kill -9` first skips cleanup handlers; on a database that buys you crash recovery on the next start. Nothing at all works on a D-state task (→ `processes.md`).
+3. **Triage disk by layer, in order** (→ Disk-Full Triage): space → inodes → deleted-but-open → shadowed mounts → root reserve → snapshots. Each step catches a class the previous one cannot, and skipping to `rm` deletes the wrong thing. Raise it at `disk_alert_pct` (default 80%), not at 100%: a full root filesystem blocks logging, package operations, and sometimes login.
+4. **Remote-change safety, every time.** Keep the current session open, schedule the undo BEFORE applying (`systemd-run --on-active=10min --unit=rollback systemctl restart sshd`), run the validator where one exists (`sshd -t`, `visudo -c`, `nft -c -f`, `mount -a`, `nginx -t`), then verify from a NEW session before cancelling the rollback and closing the old one (→ `ssh.md`).
+5. **Live change ≠ persistent change.** Pair every runtime command with its persistence mechanism: `sysctl -w` with a file in `/etc/sysctl.d/`, `iptables` with `iptables-save`, `firewall-cmd` with `--permanent`, `systemctl start` with `enable`. "Works now" is untested until it survives a reboot — and the reboot that tests it should be one you chose.
+6. **Capacity is relative, not absolute.** Alarm on `load1 / nproc` above `load_alarm_ratio` (default 1.0) sustained — load 8 on 4 cores is a ratio of 2.0, twice oversubscribed; load 8 on 16 cores is a half-idle host. Alarm on low `available` in `free`, never on low "free": cache is doing its job (→ `performance.md`, `memory.md`).
+7. **Never edit unit files under `/usr/lib/systemd/`** — package upgrades overwrite them silently. `systemctl edit <unit>` writes a drop-in under `/etc/` that survives and reloads for you; any hand edit needs `systemctl daemon-reload` or `restart` runs the old definition (→ `systemd.md`).
+8. **Root is not omnipotent.** `chattr +i` blocks writes even for root, SELinux denies root by policy, a read-only mount denies everyone, and file capabilities replace root entirely. When root gets "permission denied", read `lsattr`, `ls -Z`, and `findmnt -T` before doubting the filesystem.
+9. **Guard destructive paths against empty variables and wide matches.** `rm -rf "${DIR:?}/"` aborts when `DIR` is unset — `rm -rf $DIR/` with an unset variable expands to `rm -rf /`. Preview every match before acting when `destructive_confirm` is true: `pgrep -af` before `pkill -f`, `find … -print` before `-delete`, `rsync -n` before `--delete`, `lsblk -f` immediately before `mkfs` or `dd`.
 
-## Permissions And Ownership
+## Signals And Exit Codes
 
-- Shared team directory: `chmod 2775 dir` (setgid) + `setfacl -d -m g::rwx dir` — new files inherit the directory's group and perms. Without setgid every file lands in the creator's primary group and collaboration breaks one file at a time.
-- Mode-string suffix in `ls -l`: `+` means ACLs present (`getfacl`; the `mask` line caps effective perms — an ACL grant can be silently neutered by the mask), `.` means SELinux context.
-- `mv` preserves SELinux context and ownership; `cp` inherits the destination's defaults. A file moved into `/var/www` keeps its `user_home_t` context and the web server is denied; `restorecon -v <file>` fixes it.
-- File capabilities (`setcap cap_net_bind_service=+ep`) live in xattrs: lost on package upgrade and on plain `cp`. Re-apply after upgrading any binary you granted caps to.
-- Recursive perms without breaking directories: `chmod -R u=rwX,go=rX` — capital `X` sets execute only on dirs and files already executable. `chmod -R 600` strips directory `x` and locks you out of the tree.
-- Setuid is ignored on scripts (kernel security policy) — it only works on binaries; use `sudo` rules or capabilities.
-- `chown -R` follows symlinks pointing outside the target — use `--no-dereference` (`-h`).
-- Default umask 022 makes every new file world-readable; set 077 on multi-user or sensitive hosts.
+Formula: an exit status above 128 means killed by signal `status − 128`. A process can also return those numbers itself, so confirm a real kill in `dmesg -T` or the journal before blaming the kernel.
 
-## Processes And Signals
+| Status | Meaning | First move |
+|---|---|---|
+| 1 | Generic application error | Read the application log, not the OS |
+| 126 | Found but not executable | `chmod +x`, a `noexec` mount, or a directory where a binary was expected |
+| 127 | Command not found | PATH (cron and units get a minimal one), or a missing shared library — check `ldd` |
+| 130 | SIGINT (128+2) | Ctrl-C, or a parent forwarding it |
+| 137 | SIGKILL (128+9) | OOM killer first (`dmesg -T \| grep -i oom`), then a stop-timeout escalation |
+| 139 | SIGSEGV (128+11) | Native crash — `coredumpctl`, and suspect a library or architecture mismatch |
+| 141 | SIGPIPE (128+13) | The reader of a pipe exited first (`head` closing early is the usual cause) |
+| 143 | SIGTERM (128+15) | Clean external stop — usually systemd stopping the unit, not a bug |
+| 255 | Wrapper failure (ssh and some runtimes) | The transport failed; the remote command may never have run |
 
-- D state (uninterruptible sleep) is immune to every signal including SIGKILL — almost always a dead NFS mount or failing disk. `wchan` shows what it waits on; fix the I/O (`umount -l` the dead mount) and the process exits on its own.
-- Zombies are already dead — they cost one process-table slot, no memory. Killing them is impossible; kill or fix the PARENT, and init adopts and reaps them.
-- Closing the terminal SIGHUPs background jobs: `disown -h %1` rescues an already-running job; `nohup`/`setsid` protect one you're about to start.
-- `pkill -f` matches the FULL command line: `pkill -f python` kills editors, agents, and daemons that merely mention python. Always preview with `pgrep -af <pattern>`.
-- Exit-code decode: 126 = found but not executable, 127 = command not found, 128+N = killed by signal N (137 SIGKILL/OOM, 139 SIGSEGV, 143 SIGTERM).
-- "Too many open files": soft limit is commonly 1024 (`ulimit -n`). systemd services ignore `/etc/security/limits.conf` (that's PAM, login sessions only) — set `LimitNOFILE=` in the unit.
+## Disk-Full Triage
 
-## Disk And Filesystem
+Run in this order and stop at the first one that explains the gap. Detail and the safe reclaim order live in `disk-space.md`.
 
-- Huge open logfile: `rm` frees nothing while a process holds it. `: > /path/file` truncates in place and frees space immediately — safe for append-mode writers (normal loggers); a non-append writer keeps its offset and leaves a sparse file.
-- Files written to a mount point before the disk mounted are shadowed underneath and invisible to `du`: `mount --bind / /mnt/root` exposes the underlying tree.
-- ext4 reserves 5% for root by default — 50GB "missing" on a 1TB volume. `tune2fs -m 1` on data volumes; keep the 5% on the root fs so root can still log and recover when users fill it.
-- `du -xh --max-depth=1 /` stays on one filesystem — finds what's eating the root disk without descending into mounted volumes.
-- Atomic replace requires a same-filesystem rename: `mv` across filesystems is copy+delete, and readers can catch the half-written file. Write the temp file into the destination directory, then `mv`.
-- `/tmp` is cleared on reboot and often tmpfs (RAM-backed) — a big file there eats memory. Data that must survive a reboot but stay temp-like goes in `/var/tmp`.
-- Space hogs beyond files: `journalctl --vacuum-size=500M`, `docker system prune -a`, and LVM/ZFS/cloud snapshots that hold deleted data alive.
-- `du` reports blocks, `ls -l` reports apparent size — sparse files diverge wildly; compare with `du --apparent-size`.
-
-## Memory And OOM
-
-- Read `available` in `free`, never "free" — cache is reclaimable on demand. Low "free" with high `available` is a healthy system.
-- OOM forensics: `dmesg -T | grep -iE "out of memory|oom"` — the killer picks the highest `oom_score` (roughly: biggest memory user), often not the process that triggered the shortage.
-- Protect critical daemons with `OOMScoreAdjust=-900` in the unit (range -1000..1000). Reserve -1000 (full exemption) for sshd only — an exempt memory hog forces the kernel to kill everything else around it.
-- Containers die at their cgroup limit long before host OOM: exit 137 with plenty of free host memory means the container's limit, not the host, is the ceiling.
-- `vm.swappiness` defaults to 60; set 1-10 for databases and latency-sensitive services so the kernel prefers dropping cache over swapping anonymous pages.
-- Thrash detection: `vmstat 1` — `si`/`so` sustained nonzero is swap thrashing, which is worse than an OOM kill: everything crawls instead of one process dying cleanly.
-- Summing RSS across processes overcounts shared memory (each process counts the same shared pages). PSS (`smem`, or `/proc/<pid>/smaps_rollup`) divides shared pages fairly — use it before claiming "these workers use 40GB".
-
-## Networking And SSH
-
-- `localhost` is dual-stack: the resolver may return `::1` first while the service listens only on `127.0.0.1` — "connection refused" on a running service. Test both literals; bind `0.0.0.0` or `::` when in doubt.
-- `ss -tlnp` replaces netstat for "what's listening and which pid owns it".
-- Ports below 1024 don't need root: `setcap cap_net_bind_service=+ep <binary>` (re-apply after upgrades, → Permissions And Ownership).
-- Outbound connection math: ephemeral range 32768-60999 ≈ 28k ports, TIME_WAIT holds each for 60s → ceiling ≈ 28232/60 ≈ 470 new connections/s to one destination. Fix with keep-alive/pooling and `net.ipv4.tcp_tw_reuse=1` (safe for outbound; `tcp_tw_recycle` broke NAT clients and was removed in kernel 4.12).
-- "nf_conntrack: table full, dropping packet" in dmesg = silent drops under load — raise `net.netfilter.nf_conntrack_max`; each entry is cheap, the drops are not.
-- MTU black hole: small requests work, large transfers hang. Probe with `ping -M do -s 1472 <host>` (1472 + 28 headers = 1500); fix with a lower interface MTU or `net.ipv4.tcp_mtu_probing=1`.
-- Raw `iptables` rules vanish on reboot — persist with `iptables-save`/`netfilter-persistent`, or use firewalld/ufw which persist by design.
-- SSH auth fails silently on permissions: `~/.ssh` 700, keys 600, and the HOME DIRECTORY must not be group/world-writable — StrictModes rejects without a client-side error, and the home-dir check is the one nobody looks at.
-- Reaching internal hosts: `ssh -J bastion host` (ProxyJump), not agent forwarding — a root admin on the bastion can use your forwarded agent; ProxyJump never exposes keys.
-- Debug from both ends at once: client `ssh -vvv`, server `journalctl -u sshd -f` during the attempt.
-- Host key changed after a rebuild: `ssh-keygen -R <host>`. Idle drops: `ServerAliveInterval 60` in `~/.ssh/config`. Host blocks: first match wins — specific hosts above wildcards.
-
-## Systemd And Cron
-
-- `systemctl enable` only wires boot; `start` only affects now — `enable --now` for both.
-- `After=` orders, it never pulls in: pair `Wants=network-online.target` WITH `After=network-online.target`. `After=network.target` alone means "the network stack exists", not "the network is up" — the classic boot-only failure.
-- `Restart=on-failure` alone trips the start limit: defaults are 5 starts per 10s window, then "start request repeated too quickly" and systemd gives up. Add `RestartSec=5`: 5 retries then span ≥20s, which never exhausts the 10s window.
-- Persistent journal without touching config: default `Storage=auto` persists only if `/var/log/journal` exists — `mkdir -p /var/log/journal && systemctl restart systemd-journald`.
-- `disable` removes boot start but dependencies can still activate the unit; `mask` blocks every activation path.
-- systemd timers vs cron: `Persistent=true` runs a missed job after downtime; cron silently skips it (anacron excepted).
-- Cron runs with minimal PATH (`/usr/bin:/bin`) and no shell profile — reproduce failures with `env -i /bin/sh -c 'your command'` before blaming the job.
-- `%` in a crontab line means newline (rest becomes stdin) — escape it: `date +\%F`.
-- Overlap guard for any job that can outlast its interval: `flock -n /var/lock/job.lock <cmd>` — a slow run plus the next tick = two instances corrupting shared state.
-- Capture both streams: `cmd >> /var/log/job.log 2>&1` — default output goes to local mail nobody reads.
-- `@reboot` fires on cron daemon restart too, not only on boot. And keep `crontab -l > ~/crontab.bak` current: `-r` sits next to `-e` and wipes everything with no undo.
+| # | Check | Catches |
+|---|---|---|
+| 1 | `df -hT` | Which filesystem is actually full — the error names a path, not a device |
+| 2 | `df -i` | Inode exhaustion: "No space left on device" with free space showing |
+| 3 | `lsof +L1` | Deleted files still held open — `rm` freed nothing |
+| 4 | `mount --bind / /mnt && du -xh --max-depth=1 /mnt` | Files shadowed under a mount point, invisible to every `du` |
+| 5 | `tune2fs -l <dev> \| grep -i 'reserved block'` | The ext4 5% root reserve — 50 GB on a 1 TB volume, "full" for users |
+| 6 | `lvs -o +snap_percent`, `zfs list -t snapshot`, cloud snapshots | Deleted data kept alive by a snapshot |
+| else | `du -xh --max-depth=1 / \| sort -h \| tail` | Ordinary growth — descend into the winner |
 
 ## Commands That Lie
 
-- `top` %CPU is per-core: 400% = 4 cores saturated, not a bug.
-- Load average counts D-state (disk-wait) tasks: load 30 with idle CPU is a storage incident, not a compute one.
-- `df` vs `du` disagreement is data: deleted-but-open files or shadowed mounts (→ Disk And Filesystem).
-- `which` misses aliases, functions, and builtins — `type -a <cmd>` shows what the shell will actually run.
-- `du -sh *` skips dotfiles — `du -sh .` for the true directory total.
-- `ping` success proves ICMP reachability only, never that a port is open — `nc -zv host port` or `curl` the actual service.
-- `ps aux` %MEM can sum past 100% — shared pages counted once per process (→ PSS in Memory And OOM).
-- `df` shows the filesystem, not the physical disk — thin-provisioned and overlay storage can run out underneath a "half-empty" filesystem.
+| Tool | What it seems to say | What is true |
+|---|---|---|
+| `free` "free" column | Memory is nearly gone | Cache is reclaimable; only `available` answers "can I start something" |
+| Load average | The CPU is overloaded | It counts D-state tasks too — high load with idle CPU is a storage incident |
+| `top` %CPU | Above 100% is a bug | It is per-core: 400% = four cores saturated |
+| `iostat` %util | The disk is maxed out | Meaningless on SSD/NVMe with parallel queues — judge by `await` and queue depth |
+| `df` vs `du` | One of them is wrong | Both are right: deleted-but-open files or shadowed mounts explain the gap |
+| `ps aux` %MEM | These workers use 40 GB | Shared pages are counted once per process — use PSS (`smaps_rollup`, `smem`) |
+| `which` | This is what runs | It misses aliases, functions, and builtins — `type -a <cmd>` |
+| `ping` | The service is up | It proves ICMP only — `nc -zv host port` or call the service |
+| `dig` | The name resolves | Applications resolve through NSS, which `dig` bypasses — `getent hosts` |
+| `df` on a thin volume | Half the disk is free | Thin-provisioned and overlay storage can exhaust underneath the filesystem |
+| `du -sh *` | This is the directory total | It skips dotfiles — `du -sh .` |
+| `uptime` 400 days | The host is reliable | It has never proven it can boot; reboot on a schedule you choose |
 
 ## Output Gates
 
 Before running a destructive or remote-risky command, verify:
 
-- Variables in destructive paths expanded and echoed first? `rm -rf` targets use `"${VAR:?}"`.
-- Fallback session open before touching sshd, sudoers, firewall, or network config on a remote host?
+- Variables in destructive paths expanded and echoed first — `rm -rf` targets use `"${VAR:?}"`?
+- Fallback session open and a rollback scheduled before touching sshd, sudoers, firewall, fstab, or network config on a remote host?
 - SIGTERM sent and waited before any `-9`?
-- Persistence step included, or is this change gone on reboot?
-- Match blast radius previewed? `pgrep -af` before `pkill -f`; `find ... -print` before `-delete`; `lsblk -f` immediately before `mkfs`/`dd`.
+- Persistence step included, or is this change gone at the next reboot?
+- Blast radius previewed — `pgrep -af` before `pkill -f`, `find … -print` before `-delete`, `rsync -n` before `--delete`, `lsblk -f` before `mkfs`/`dd`?
+- Command matches the host's `distro_family` — package manager, unit name, firewall front end, MAC system?
+- Validator run where one exists (`sshd -t`, `visudo -c`, `mount -a`, `nft -c -f`, `systemd-analyze verify`)?
+
+## Configuration
+
+User-dependent variables. Defaults apply until the user states a preference; store them in `~/Clawic/data/linux/config.yaml`.
+
+| Variable | Type | Default | Effect |
+|---|---|---|---|
+| distro_family | debian \| rhel \| arch \| alpine \| suse | debian | Selects package manager, unit names, config paths, firewall front end, and MAC system in every command emitted (→ `distros.md`) |
+| init_system | systemd \| openrc \| sysvinit | systemd | Routes service and boot guidance; non-systemd hosts skip `systemd.md` and timers in favour of the distro's init and cron |
+| firewall_tool | auto \| ufw \| firewalld \| nftables \| iptables | auto | Which syntax firewall examples use; `auto` derives it from `distro_family` (ufw on debian, firewalld on rhel) |
+| privilege_mode | sudo \| root-shell | sudo | Whether emitted commands carry a `sudo` prefix and whether sudo-specific traps (secure_path, sudoers.d naming) are surfaced |
+| disk_alert_pct | number (50-95) | 80 | Filesystem usage at which disk triage is raised proactively rather than on request (rule 3) |
+| load_alarm_ratio | number (0.5-4) | 1.0 | `load1 / nproc` ratio treated as saturation in capacity judgements (rule 6, `performance.md`) |
+| destructive_confirm | bool | true | Whether every destructive command is preceded by its preview or dry-run (rule 9, Output Gates) |
+| reboot_policy | allowed \| maintenance-window \| never | maintenance-window | Whether a required reboot is proposed inline, deferred to a window, or reported as a standing requirement (`packages.md`, `kernel.md`) |
+
+Preference areas — customizable dimensions; a stated preference gets recorded in `config.yaml` and applied:
+
+- **Tooling**: editor, terminal multiplexer for long remote operations, monitoring stack, whether config management (Ansible, Puppet, Salt) owns `/etc` — affects whether fixes are proposed as commands or as managed configuration
+- **Conventions**: where local units, scripts, and logs live; naming of hosts, volumes, and users — affects every path in examples
+- **Platform**: cloud provider, bare metal, VM, WSL, container; architecture; filesystem in use — affects storage, boot, and performance guidance
+- **Safety posture**: dry-run everything vs act directly, change windows, backup or snapshot required before storage and fstab work — affects how much of a change is proposed before anything runs
+- **Output format**: one-liners vs explained procedures, command blocks vs prose, how much diagnosis to show alongside the fix
+- **Work order**: diagnose-then-fix vs fix-then-explain, and whether a review gate exists before production changes
+- **Integrations**: log destination, alerting target, patch tooling, secret store — the choice, never the credentials
+- **Restrictions**: compliance regime in force (CIS, STIG), forbidden tools or commands, air-gapped hosts with no package repository access
+- **Cadence**: patch window, journal and log vacuum schedule, reboot drill frequency
 
 ## Traps
 
 | Trap | Why it fails | Do instead |
 |------|-------------|------------|
 | `sudo echo x > /etc/file` | The redirect runs in YOUR shell before sudo starts | `echo x \| sudo tee /etc/file` |
-| Editing sudoers or fstab bare | One typo = no sudo at all / unbootable box | `visudo`; edit fstab then `mount -a` to test before reboot |
-| Fixing web perms with `chmod -R 777` | Masks the real cause (ACL mask, SELinux, wrong owner) and makes every file writable by any local process | Diagnose: `namei -l`, `getfacl`, `ls -Z` |
-| Testing a cron job in your login shell | Your shell has PATH and env that cron lacks — it proves nothing | `env -i /bin/sh -c 'cmd'` |
-| Storing state in `/tmp` | Cleared on reboot, often RAM-backed tmpfs | `/var/tmp` for reboot-surviving temp data |
-| `dd`/`mkfs` on a device name from memory | `sda` vs `sdb` is one keystroke and device names reorder across boots | `lsblk -f` immediately before; address disks by UUID or /dev/disk/by-id |
+| Editing sudoers or fstab bare | One typo = no sudo at all, or an unbootable host | `visudo`; edit fstab then `mount -a` to test before rebooting |
+| Fixing web permissions with `chmod -R 777` | Masks the real cause (ACL mask, SELinux, wrong owner) and makes every file writable by any local process | Diagnose: `namei -l`, `getfacl`, `ls -Z` |
+| Testing a cron job in your login shell | Your shell has PATH and environment that cron lacks — it proves nothing | `env -i /bin/sh -c 'cmd'` |
+| Restarting a unit you edited by hand without `daemon-reload` | systemd runs the cached definition; you debug a file the system is not using | `systemctl daemon-reload`, or use `systemctl edit` |
+| `usermod -G docker alice` | Without `-a` it REPLACES every supplementary group, including sudo | `usermod -aG`, and diff `id alice` before and after |
+| `passwd -l alice` as offboarding | Locks the password only; her SSH key still logs in | `usermod --expiredate 1`, then remove her authorized_keys |
+| `iptables -F` to "start clean" on a remote host | With a DROP default policy you flush your own access | Set policies to ACCEPT first, or schedule a rollback (rule 4) |
+| `setenforce 0` to fix a denial | Hides the label bug and comes back at reboot | `restorecon`, a boolean, or `semanage fcontext` (→ `permissions.md`) |
+| Killing a stuck `dpkg`/`dnf` to release the lock | Leaves packages half-configured — minutes of waiting become hours of repair | Find the holder with `fuser -v /var/lib/dpkg/lock-frontend` and wait |
+| Storing state in `/tmp` | Cleared at reboot, and often tmpfs, so it consumes RAM | `/var/tmp` for temp data that must survive a reboot |
+| `dd` or `mkfs` on a device name from memory | `sda` vs `sdb` is one keystroke, and device names reorder across boots | `lsblk -f` immediately before; address disks by UUID or `/dev/disk/by-id` |
+
+## Where Experts Disagree
+
+- **Swap on servers.** One camp runs swapless so failures are fast and obvious; the other keeps a few gigabytes so cold pages leave RAM before the OOM killer picks a victim. The boundary is the workload's tolerance for slow degradation: latency-critical services prefer a clean kill, batch and memory-spiky workloads prefer the valve. Both camps agree that sizing swap to match RAM on a server buys nothing.
+- **SELinux enforcing vs disabled.** "Disable it, it breaks everything" is a real position with a real cost: it removes the only layer that contains a compromised service. The workable middle is enforcing plus the discipline to fix labels and booleans rather than reaching for `setenforce 0` — and permissive mode while learning a new application, never as a destination.
+- **Host firewall when there is a cloud security group.** Redundant to some, defence in depth to others. Deciding factor: whether anything on the host can publish a port without touching the security group (container runtimes do exactly that). Where that is possible, run both.
+- **Configuration management vs hand edits.** Managed hosts get consistency and lose the ability to fix one box quickly; hand-managed hosts get speed and drift. The rule that satisfies both: any change you would be unhappy to lose at the next converge belongs in the managed configuration, and the incident fix is followed by that commit.
 
 ## Related Skills
 

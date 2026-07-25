@@ -1,9 +1,6 @@
 {
-  "schemaVersion": 2,
-  "snapshotId": "64135472d8c8192182f6737f8705c4145d457aac7188729335f93db87f905edc",
+  "schemaVersion": 1,
   "generatedAt": "2026-07-24T16:18:06.919Z",
-  "sourceRevision": "ef122600ec9f1ed9b635fe6716f1c235f715a9a3",
-  "manifestSha256": "1860f4c97851e8c66bf75e8e5bf2f6e47770eafafdc608d0cec4d354906030e0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,27 +11,128 @@
   "skill": {
     "slug": "linux",
     "name": "linux",
-    "description": "Avoids Linux traps — permission denials, disk-full mysteries, OOM kills, unkillable processes, systemd and cron failures, SSH lockouts. Use when operating, debugging, or hardening Linux systems.",
-    "version": "1.0.2",
+    "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/linux",
-    "summary": "When To Use - Diagnosing \"permission denied\", disk full, OOM kills, unkillable processes, or services that fail only at boot - Running or reviewing operations that touch permissions, signals, systemd units, cron jobs, or",
+    "summary": "User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Cla",
     "repositoryPath": "skills/linux",
     "manifestPath": "registry/skills/linux.json"
   },
   "files": [
     {
-      "path": "_meta.json",
-      "downloadPath": "skills/linux/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json",
-      "byteCount": 312,
-      "sha256": "6e38b0a7b3c273e38604ee59df7fa28fd4027d5dc89d9e9aa72961ce5e0f0e88"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/linux/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
-      "byteCount": 16204,
-      "sha256": "d74cd26331a2aa73e589e7432be6cece00a8cbb095e9c78bc73abd5ff0f057ee"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md"
+    },
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/linux/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json"
+    },
+    {
+      "path": "boot.md",
+      "downloadPath": "skills/linux/boot.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/boot.md"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/linux/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/commands.md"
+    },
+    {
+      "path": "disk-space.md",
+      "downloadPath": "skills/linux/disk-space.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/disk-space.md"
+    },
+    {
+      "path": "distros.md",
+      "downloadPath": "skills/linux/distros.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/distros.md"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/linux/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/files.md"
+    },
+    {
+      "path": "hardening.md",
+      "downloadPath": "skills/linux/hardening.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/hardening.md"
+    },
+    {
+      "path": "kernel.md",
+      "downloadPath": "skills/linux/kernel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/kernel.md"
+    },
+    {
+      "path": "logs.md",
+      "downloadPath": "skills/linux/logs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/logs.md"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/linux/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory-template.md"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/linux/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory.md"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/linux/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/networking.md"
+    },
+    {
+      "path": "packages.md",
+      "downloadPath": "skills/linux/packages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/packages.md"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/linux/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/performance.md"
+    },
+    {
+      "path": "permissions.md",
+      "downloadPath": "skills/linux/permissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/permissions.md"
+    },
+    {
+      "path": "processes.md",
+      "downloadPath": "skills/linux/processes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/processes.md"
+    },
+    {
+      "path": "scheduling.md",
+      "downloadPath": "skills/linux/scheduling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/scheduling.md"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/linux/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/setup.md"
+    },
+    {
+      "path": "ssh.md",
+      "downloadPath": "skills/linux/ssh.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/ssh.md"
+    },
+    {
+      "path": "storage.md",
+      "downloadPath": "skills/linux/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/storage.md"
+    },
+    {
+      "path": "systemd.md",
+      "downloadPath": "skills/linux/systemd.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/systemd.md"
+    },
+    {
+      "path": "users.md",
+      "downloadPath": "skills/linux/users.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/users.md"
     }
   ]
 }
