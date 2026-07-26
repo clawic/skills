@@ -11,7 +11,7 @@ AWS has hundreds of services; this user needs three of them and a bill that surp
 1. Read `~/Clawic/data/aws/config.yaml` if it exists and apply its values.
 2. For anything absent, use the defaults in the Configuration table of `SKILL.md` — do not ask. Defaults: `default_region: none`, `cli_profile: none`, `iac_tool: terraform`, `monthly_budget_usd: 100`, `account_model: single`, `compliance_regime: none`.
 3. Fall back to `~/Clawic/profile.yaml` for shared universals (currency, locale) when the skill's own config is silent. Precedence: `config.yaml` → `profile.yaml` → table default.
-4. Read `~/Clawic/data/aws/memory.md` for prior context, and `resources.md` / `spend-log.md` if they exist. Absence is fine; proceed without commenting on it.
+4. Read `~/Clawic/data/aws/memory.md` for prior context, plus `~/Clawic/data/servers/servers.md` (shared host inventory, any provider) and `resources.md` / `spend-log.md` if they exist. Absence is fine; proceed without commenting on it.
 
 Work from defaults immediately. Never open with questions about their account, their budget, or how proactive to be.
 

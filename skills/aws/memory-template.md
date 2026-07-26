@@ -1,8 +1,19 @@
 # Working File Templates — AWS
 
-Everything lives in `~/Clawic/data/aws/`. `config.yaml` is what the user **declared**; the files below are what the agent **observed** or **recorded**. An observation never overwrites a declaration.
+Read this file only when WRITING. `config.yaml` is what the user **declared**; the rest is what the agent **observed**. An observation never overwrites a declaration.
 
-**Contents:** [config.yaml](#configyaml) · [memory.md](#memorymd) · [resources.md](#resourcesmd) · [spend-log.md](#spend-logmd)
+**Where each thing goes**
+
+| Data | Home | Why |
+|---|---|---|
+| Declared preferences | `~/Clawic/data/aws/config.yaml` | Replaced, never grows |
+| Account shape, pain points, cost history | `~/Clawic/data/aws/memory.md` | Rewritten in place; stays small |
+| Hosts and managed instances | `~/Clawic/data/servers/servers.md` (**shared**) | Every provider in one inventory, so "my servers" has one answer |
+| Credentials of any kind | Nowhere in these files | Profile, environment, or secret manager at call time; store at most a pointer |
+
+**Start flat, split only when it hurts.** Everything begins inside `memory.md`. When a section passes ~40 lines or ~15 entries, move it to its own file in `~/Clawic/data/aws/` and leave one index line in `memory.md` saying when to open it — for example `Spend history (18 months) → spend-log.md; read before any cost comparison`. Until that happens, creating extra files only makes them less likely to be read.
+
+**Contents:** [config.yaml](#configyaml) · [memory.md](#memorymd) · [shared servers inventory](#shared-servers-inventory) · [spend-log.md](#spend-logmd-only-once-it-outgrows-memorymd)
 
 ## config.yaml
 
@@ -56,16 +67,24 @@ last: YYYY-MM-DD
 | `ongoing` | Still learning their setup |
 | `complete` | Know their account and workflow well |
 
-## resources.md
+## Shared servers inventory
 
-Written by an inventory pass (SKILL.md Rule 1) so the next session starts from facts, not from a rediscovery.
+Lives at `~/Clawic/data/servers/servers.md` and is shared with every other infrastructure skill. Create the file if it does not exist; append rows, never rewrite someone else's. One row per host, provider column included so an AWS box and a Hetzner box sit side by side:
+
+```markdown
+# Servers
+
+| Name | Provider | Account / Project | Region | Type | Role | Monthly | Access reference |
+|------|----------|-------------------|--------|------|------|---------|------------------|
+| api-prod-1 | aws | 111122223333 | eu-west-1 | m7g.large | API | $62 | ssm:/prod/api/key-name |
+```
+
+Access reference is a pointer only (SSM parameter name, profile name, key path). Never a key, token, or password.
+
+The rest of the AWS inventory — databases, buckets, VPCs — is AWS-shaped and stays in this skill: keep it inside `memory.md` under `## Current Infrastructure` while it fits, and split it into `~/Clawic/data/aws/resources.md` once it passes ~40 lines, leaving the index line behind:
 
 ```markdown
 # AWS Resources — account 111122223333
-
-## Compute
-| Name | Type | Region/AZ | Purpose | Monthly |
-|------|------|-----------|---------|---------|
 
 ## Databases
 | Name | Engine | Class | Multi-AZ | Backup retention |
@@ -80,13 +99,10 @@ Written by an inventory pass (SKILL.md Rule 1) so the next session starts from f
 |-----|------|---------|-----------------|
 
 ## Known Gaps
-<!-- Things seen but not yet understood, resources with no owner -->
-
----
-*Inventoried: YYYY-MM-DD*
+<!-- Seen but not yet understood; resources with no owner -->
 ```
 
-## spend-log.md
+## spend-log.md (only once it outgrows memory.md)
 
 ```markdown
 # AWS Spend

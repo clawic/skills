@@ -36,7 +36,7 @@ metadata:
     - ~/Clawic/data/aws/
 ---
 
-Working data lives in `~/Clawic/data/aws/` — `config.yaml` (declared preferences), `memory.md` (observed context), `resources.md` (infrastructure inventory), `spend-log.md` (cost history). Read `setup.md` on first use; `memory-template.md` has the file formats. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`.
+Working data lives in `~/Clawic/data/aws/` — `config.yaml` (declared preferences) and `memory.md` (observed context, account shape, cost history). **Hosts and managed instances go in the shared inventory `~/Clawic/data/servers/servers.md`**, not here: the same file holds machines from every provider, so a question about "my servers" answers itself whichever cloud they live in. One row per host: `name | provider (aws) | account/project | region | type | role | monthly cost | access reference`. The access reference is a pointer, never a secret: an SSM parameter name, a profile name, or a key path. Credentials never live in any of these files: read them from your AWS profile, environment, or secret manager at call time. Read `setup.md` on first use; `memory-template.md` has the file formats and tells you when a section outgrows `memory.md`. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`.
 
 ## When To Use
 
