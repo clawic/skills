@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -394,10 +394,10 @@
     {
       "slug": "anki",
       "name": "anki",
-      "description": "Create effective flashcards, optimize retention, and master spaced repetition with card design, deck organization, and study diagnostics.",
-      "version": "1.0.1",
+      "description": "Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or vocabulary lists; when reviews pile up, take too long, or a backlog builds after time off; when retention drops, cards keep failing, or a deck falls into ease hell; when choosing FSRS vs SM-2, or setting desired retention, new cards per day, learning steps, and leech thresholds; when a deck asks to upload or download in a one-way sync, loses media, or fails Check Database; when importing CSV/TSV, an .apkg, or a shared deck, or migrating from Quizlet, Memrise, or SuperMemo; when cards are due but nothing appears; and when a fixed exam date forces a study plan. Covers language decks, medical and board decks, code and math material, and personal decks such as names and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm theory, study-session planning, or add-on development.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/anki",
-      "summary": "Quick Reference | Area | File | |------|------| | Card creation & formats | `cards.md` | | Retention optimization | `retention.md` | | Deck management | `organization.md` | | Language learning | `language.md` | What the ",
+      "summary": "User preferences and memory live in `~/Clawic/data/anki/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/anki/` or `~/clawic/anki/`), move it to `~/Clawic",
       "repositoryPath": "skills/anki",
       "manifestPath": "registry/skills/anki.json"
     },
@@ -2924,10 +2924,10 @@
     {
       "slug": "django",
       "name": "django",
-      "description": "Build secure Django apps avoiding ORM pitfalls, N+1 queries, and common security traps.",
-      "version": "1.0.1",
+      "description": "Builds, debugs, and hardens Django apps: models, the ORM, views, templates, forms, the admin, DRF APIs, and deployment. Use when a page fires one query per row (N+1, select_related, prefetch_related, annotate double-counting); when makemigrations conflicts, a migration locks a live table, or InconsistentMigrationHistory blocks a deploy; on 403 CSRF verification failed, DEBUG=False turning every request into 400 DisallowedHost or a blank 500, or SECURE_SSL_REDIRECT looping behind a proxy; on SynchronousOnlyOperation, AppRegistryNotReady, or NoReverseMatch; when a background task runs before its transaction commits, signals fire on rows that roll back, or update() skips auto_now; when the admin times out on a big table, collectstatic breaks static files, or workers exhaust database connections; when writing serializers, formsets, a custom user model, permissions, or assertNumQueries tests; or upgrading Django across a deprecation. Not for plain Python, FastAPI or Flask services, or engine-level SQL tuning.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/django",
-      "summary": "Quick Reference | Topic | File | |-------|------| | QuerySet lazy eval, N+1, transactions | `orm.md` | | Request handling, middleware, context | `views.md` | | Validation, CSRF, file uploads | `forms.md` | | Migrations, ",
+      "summary": "User preferences and memory live in `~/Clawic/data/django/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/django/` or `~/clawic/django/`), move it to `~/",
       "repositoryPath": "skills/django",
       "manifestPath": "registry/skills/django.json"
     },
@@ -3184,10 +3184,10 @@
     {
       "slug": "elasticsearch",
       "name": "elasticsearch",
-      "description": "Query and index Elasticsearch with proper mappings, analyzers, and search patterns.",
-      "version": "1.0.0",
+      "description": "Designs, queries, and operates Elasticsearch: mappings, analyzers, query DSL, aggregations, bulk indexing, shard sizing, and cluster health. Use when writing a search query or an index mapping, when a search returns nothing or the wrong documents, when a term query on a text field returns zero hits without an error, when results rank badly, when aggregations fail with \"fielddata is disabled\", when the cluster turns yellow or red, when shards stay unassigned, when indexing is slow or a bulk request returns per-item errors, when disk hits the flood-stage watermark and indices go read-only, when circuit breakers trip, or when paging past 10,000 hits breaks. Covers ILM rollover, reindexing, snapshots, upgrades, kNN and hybrid vector search, autocomplete, synonyms and analyzers, nested modeling, geo queries, ES|QL, Painless, ingest pipelines, data streams, security, language clients, and OpenSearch compatibility. Not for standalone vector stores (vector-databases) or lightweight site search (meilisearch).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/elasticsearch",
-      "summary": "Mapping Mistakes - Always define explicit mappings—dynamic mapping guesses wrong (first \"123\" makes field integer, later \"abc\" fails) - `text` for full-text search, `keyword` for exact match/aggregations—using text for I",
+      "summary": "User preferences and memory live in `~/Clawic/data/elasticsearch/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/elasticsearch/` or `~/clawic/elasticsear",
       "repositoryPath": "skills/elasticsearch",
       "manifestPath": "registry/skills/elasticsearch.json"
     },
@@ -3544,10 +3544,10 @@
     {
       "slug": "fastapi",
       "name": "fastapi",
-      "description": "Build fast, production-ready Python APIs with type hints, validation, and async support.",
-      "version": "1.0.0",
+      "description": "Builds, debugs, and hardens FastAPI services: async endpoints, Pydantic models, dependency injection, auth, and deployment. Use when writing or reviewing a FastAPI app, router, or schema; when the API hangs or every route slows because a sync driver or CPU work blocks the event loop; when a request returns an unexpected 422, a POST becomes a 307, or a 500 arrives with no CORS headers; when migrating pydantic v1 to v2 (`model_dump`, `from_attributes`, `field_validator`); when `Depends` runs too often, `yield` cleanup misfires, or dependency overrides do not take; when SQLAlchemy raises `QueuePool limit` or `MissingGreenlet`, or connections leak across workers; when TestClient, httpx `AsyncClient`, or pytest-asyncio fail with a closed event loop; when uvicorn or gunicorn workers, graceful shutdown, `root_path`, or proxy headers need deciding; or when background tasks, WebSockets, SSE, uploads, or the OpenAPI docs misbehave. Not for Django, Flask, or general Python — `django`, `flask`, `py`.",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/fastapi",
-      "summary": "FastAPI Patterns Async Traps - Mixing sync database drivers (psycopg2, PyMySQL) in async endpoints blocks the event loop — use async drivers (asyncpg, aiomysql) or run sync code in `run_in_executor` - `time.sleep()` in a",
+      "summary": "User preferences live in `~/Clawic/data/fastapi/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/fastapi/` or `~/clawic/fastapi/`), move it to `~/Cla",
       "repositoryPath": "skills/fastapi",
       "manifestPath": "registry/skills/fastapi.json"
     },
@@ -3604,10 +3604,10 @@
     {
       "slug": "figma",
       "name": "figma",
-      "description": "Build and ship production UI in Figma: auto-layout, components and variants, variables and modes, libraries, Dev Mode handoff, branching, and plugin automation for design at scale.",
-      "version": "1.0.0",
+      "description": "Builds and debugs Figma files: auto layout, components and variants, variables and modes, libraries, prototypes, and Dev Mode handoff. Use when a frame will not resize, text clips or overflows, a variant set lags, a library update breaks instances, dark mode or theming needs modes instead of duplicated screens, engineers say the UI breaks on resize, icons export blurry, a file opens slowly, an inherited file needs auditing, or work has to be scripted through plugins, the REST API, or the Dev Mode MCP server. Covers component properties, token naming, Code Connect, export densities, FigJam and Slides. Not for piping tokens into platform code (design-tokens), prototyping beyond Figma (prototyping), visual design judgment (design), or the handoff process around the file — spec documents, redlines, review rituals (design-handoff).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/figma",
-      "summary": "Mental model: hug vs fill vs fixed Auto Layout is the layout engine; the whole game is which sizing mode each side of each layer has. - **Fill** = take the parent's available space on that axis. The default you reach for",
+      "summary": "User preferences and observed context live in `~/Clawic/data/figma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/figma/` or `~/clawic/figma/`), move it",
       "repositoryPath": "skills/figma",
       "manifestPath": "registry/skills/figma.json"
     },
@@ -3784,10 +3784,10 @@
     {
       "slug": "flutter",
       "name": "flutter",
-      "description": "Build reliable Flutter apps avoiding state loss, widget rebuild traps, and async pitfalls.",
-      "version": "1.0.1",
+      "description": "Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation, performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows, a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button handling; when the keyboard covers a form field or validation misfires; when a platform channel throws MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget, golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK, IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/flutter",
-      "summary": "Quick Reference | Topic | File | |-------|------| | setState, state loss, keys | `state.md` | | build method, context, GlobalKey | `widgets.md` | | FutureBuilder, dispose, mounted | `async.md` | | Context after pop, deep",
+      "summary": "User preferences live in `~/Clawic/data/flutter/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/flutter/` or `~/clawic/flutter/`), move it to `~/Cla",
       "repositoryPath": "skills/flutter",
       "manifestPath": "registry/skills/flutter.json"
     },
@@ -4164,10 +4164,10 @@
     {
       "slug": "go",
       "name": "go",
-      "description": "Write reliable Go code avoiding goroutine leaks, interface traps, and common concurrency bugs.",
-      "version": "1.0.2",
+      "description": "Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http. Use when Go panics or misbehaves — \"all goroutines are asleep - deadlock!\", \"concurrent map writes\", \"send on closed channel\", \"assignment to entry in nil map\", or a WARNING: DATA RACE from `go test -race`; when a goroutine, timer, or connection leaks and memory climbs; when a service hangs for want of a timeout; when errors.Is or errors.As stops matching after a %v wrap; when a slice mutates its parent, a map iterates in a new order, or a typed nil returned as error compares non-nil; when go.mod, go.sum, workspaces, replace, or a /v2 path fight over dependencies; when cross-compiling, cgo, build tags, go:embed, or a static container binary fail; when tests are flaky under -race or -parallel or benchmarks lie; when GOGC, GOMEMLIMIT, GOMAXPROCS, or escape analysis need tuning; or when writing handlers, CLIs, database access, or generics. Not for Kubernetes operators or framework internals.",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/go",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Concurrency patterns | `concurrency.md` | | Interface and type system | `interfaces.md` | | Slices, maps, strings | `collections.md` | | Error handling patterns | `erro",
+      "summary": "User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`. ",
       "repositoryPath": "skills/go",
       "manifestPath": "registry/skills/go.json"
     },
@@ -4314,10 +4314,10 @@
     {
       "slug": "graphql",
       "name": "graphql",
-      "description": "Design GraphQL schemas and resolvers with proper performance, security, and error handling.",
-      "version": "1.0.1",
+      "description": "Designs, debugs, and hardens GraphQL schemas, resolvers, and clients: N+1 batching, nullability, cost limits, subscriptions, federation. Use when writing or reviewing a schema, SDL, or resolvers; when a query is slow or fires hundreds of database queries; when the response says \"Cannot return null for non-nullable field\", comes back with an errors array, or nulls a whole branch; when designing mutations, cursor pagination, custom scalars, unions, or input types; when an Apollo, Relay, or urql cache will not update after a mutation; when subscriptions drop or never fire; when adding depth, alias, complexity, or persisted-query limits, disabling introspection, or masking errors; when a schema change breaks clients; or when composing Apollo Federation subgraphs and entity references. Not for consuming someone else's GraphQL API (api) or for designing REST endpoints (rest-api).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/graphql",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Schema design patterns | `schema.md` | | Security and limits | `security.md` | | Performance optimization | `performance.md` | | Client-side patterns | `client.md` | N+",
+      "summary": "User preferences and memory live in `~/Clawic/data/graphql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/graphql/` or `~/clawic/graphql/`), move it to ",
       "repositoryPath": "skills/graphql",
       "manifestPath": "registry/skills/graphql.json"
     },
@@ -5154,10 +5154,10 @@
     {
       "slug": "java",
       "name": "java",
-      "description": "Write robust Java avoiding null traps, equality bugs, and concurrency pitfalls.",
-      "version": "1.0.1",
+      "description": "Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades. Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError, UnsupportedClassVersionError or OutOfMemoryError, when a service deadlocks, hangs, burns CPU, or leaks memory, when equals/hashCode, Optional, generics, streams, or CompletableFuture misbehave, when dates shift or text turns into question marks, when Maven or Gradle resolves the wrong version or a fat jar fails only after packaging, when @Transactional does not roll back or an entity throws LazyInitializationException, when tests silently do not run, or when moving from Java 8 to 17/21+ and javax became jakarta. Also for choosing collections, sizing heap in containers, thread dumps, profiling, JDBC connection pools, HTTP timeouts, and logging setup. Not for Kotlin, Android app development, or JavaScript.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/java",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Nulls, Optional, autoboxing | `nulls.md` | | Collections and iteration traps | `collections.md` | | Generics and type erasure | `generics.md` | | Concurrency and synchr",
+      "summary": "User preferences and memory live in `~/Clawic/data/java/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/java/` or `~/clawic/java/`), move it to `~/Clawic",
       "repositoryPath": "skills/java",
       "manifestPath": "registry/skills/java.json"
     },
@@ -5294,10 +5294,10 @@
     {
       "slug": "kotlin",
       "name": "kotlin",
-      "description": "Build robust Android and multiplatform apps with Kotlin idioms, coroutines, and null safety.",
-      "version": "1.0.1",
+      "description": "Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state. Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring or Ktor. Not for Java-only codebases or Android release/build-system configuration.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/kotlin",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Null safety operators and patterns | `nullsafety.md` | | Coroutines, flows, structured concurrency | `coroutines.md` | | Collections, sequences, data classes | `collect",
+      "summary": "User preferences and memory live in `~/Clawic/data/kotlin/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/kotlin/` or `~/clawic/kotlin/`), move it to `~/",
       "repositoryPath": "skills/kotlin",
       "manifestPath": "registry/skills/kotlin.json"
     },
@@ -5314,10 +5314,10 @@
     {
       "slug": "langchain",
       "name": "langchain",
-      "description": "Avoid common LangChain mistakes — LCEL gotchas, memory persistence, RAG chunking, and output parser traps.",
-      "version": "1.0.0",
+      "description": "Builds and debugs LangChain apps in Python: LCEL chains, agents, tools, retrievers, streaming, and structured output. Use when writing or reviewing a chain, agent, tool, retriever, or prompt template; when a prompt raises KeyError or \"missing variables\"; when streaming arrives as one blob or astream_events yields nothing; when an agent loops until GraphRecursionError or repeats a tool; when tool calls fail validation or the provider rejects a tool_call_id; when chat history disappears or the context window overflows; when with_structured_output returns None or a parser crashes on valid JSON; when retrieval returns the wrong chunks; when LangSmith traces are empty; when retries, rate limits, or token cost need bounding; or when imports break after an upgrade. Covers LangGraph state, checkpointers, and middleware. Not for framework-agnostic agent architecture (agents), retrieval design (rag), or chunk tuning (rag-chunking).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/langchain",
-      "summary": "LCEL Basics - `|` pipes output to next — `prompt | llm | parser` - `RunnablePassthrough()` forwards input unchanged — use in parallel branches - `RunnableParallel` runs branches concurrently — `{\"a\": chain1, \"b\": chain2}",
+      "summary": "User preferences and memory live in `~/Clawic/data/langchain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/langchain/` or `~/clawic/langchain/`), move ",
       "repositoryPath": "skills/langchain",
       "manifestPath": "registry/skills/langchain.json"
     },
@@ -6864,10 +6864,10 @@
     {
       "slug": "php",
       "name": "php",
-      "description": "Write solid PHP avoiding type juggling traps, array quirks, and common security pitfalls.",
-      "version": "1.0.1",
+      "description": "Writes, debugs, and reviews PHP: type juggling, arrays, OOP, Composer, PDO, sessions, PHP-FPM, OPcache, PHP 8 features. Use when PHP returns a blank white page or a 500 with no message, when \"headers already sent\", \"Allowed memory size exhausted\", \"Maximum execution time exceeded\", \"Class not found\" after a Composer install, or an undefined array key warning appears; when `==` compares wrong, `strpos` or `preg_match` returns a falsy match, accents turn into mojibake, `DateTime` shifts by a day or an hour, `json_encode` returns false, PDO refuses to bind a parameter or emulates prepares, sessions serialize parallel AJAX requests, nginx answers 502 or 504 in front of PHP-FPM, OPcache keeps serving old code, or a version upgrade breaks on deprecations. Also for escaping output, hashing passwords, sizing FPM workers, writing PHPUnit tests, and clearing PHPStan errors. Not for framework internals — `laravel` covers Eloquent, queues, and Laravel auth.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/php",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Loose typing, ==, ===, type juggling, strict_types | `types.md` | | Associative arrays, iteration, array functions | `arrays.md` | | Traits, interfaces, visibility, lat",
+      "summary": "User preferences live in `~/Clawic/data/php/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/php/` or `~/clawic/php/`), move it to `~/Clawic/data/php",
       "repositoryPath": "skills/php",
       "manifestPath": "registry/skills/php.json"
     },
@@ -6964,10 +6964,10 @@
     {
       "slug": "playwright",
       "name": "playwright",
-      "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.",
-      "version": "1.0.3",
+      "description": "Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control. Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).",
+      "version": "1.0.4",
       "homepage": "https://clawic.com/skills/playwright",
-      "summary": "When to Use Use this skill for real browser tasks: JS-rendered pages, multi-step forms, screenshots or PDFs, UI debugging, Playwright test authoring, MCP-driven browser control, and structured extraction from rendered pa",
+      "summary": "User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`. Ever",
       "repositoryPath": "skills/playwright",
       "manifestPath": "registry/skills/playwright.json"
     },
@@ -7204,10 +7204,10 @@
     {
       "slug": "prisma",
       "name": "prisma",
-      "description": "Write efficient Prisma queries, design schemas, and avoid common ORM pitfalls.",
-      "version": "1.0.0",
+      "description": "Designs Prisma schemas, writes type-safe queries, and fixes migrations, connection pools, and N+1 relation loads in Node and TypeScript. Use when editing schema.prisma, modeling relations, indexes, enums, JSON or Decimal columns, or choosing between db push, migrate dev and migrate deploy; when a migration drifts, fails, or would drop a column on rename, or a database needs baselining; on errors P2002, P2025, P2024, P2034 or P3009; when connections run out on Lambda, Vercel or behind PgBouncer; when queries are slow or include loads too much; on transaction timeouts, deadlocks and optimistic locking; when Decimal or BigInt break JSON.stringify; for $queryRaw and TypedSQL; when porting $use middleware to client extensions; when prisma generate fails in Docker, Alpine or CI; and for seeding and test isolation. Not for database-server tuning or hand-written SQL (pg, sql), or other ORMs.",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/prisma",
-      "summary": "Schema Design Traps - `@default(cuid())` over `@default(uuid())` for IDs—shorter, URL-safe, still unique - `@updatedAt` doesn't update on nested writes—must touch parent record explicitly - Implicit many-to-many creates ",
+      "summary": "User preferences and memory live in `~/Clawic/data/prisma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/prisma/` or `~/clawic/prisma/`), move it to `~/",
       "repositoryPath": "skills/prisma",
       "manifestPath": "registry/skills/prisma.json"
     },
@@ -7704,10 +7704,10 @@
     {
       "slug": "redis-store",
       "name": "redis-store",
-      "description": "Use Redis effectively for caching, queues, and data structures with proper expiration and persistence.",
-      "version": "1.0.0",
+      "description": "Designs, tunes, and debugs Redis: data structures, memory limits, persistence, Streams and queues, locks, replication, and cluster. Use when writing Redis commands or Lua, choosing between a hash, a sorted set and a stream, setting expirations on cache keys, building a queue, distributed lock, rate limiter, leaderboard, session store or counter, or when Redis answers OOM, MISCONF, CROSSSLOT, MOVED, BUSY, LOADING or WRONGTYPE, latency spikes, memory keeps growing, keys vanish early or never expire, a replica lags or a failover loses writes, KEYS or a big DEL freezes the server, connections are refused, or a cluster reshard, a Valkey / ElastiCache / MemoryDB / Upstash move, or a persistence and backup plan is on the table. Covers redis-cli forensics, pipelining, eviction policies, keyspace notifications, ACLs and exposed-instance hardening, and the JSON, Search and TimeSeries modules. Not for store-agnostic cache hierarchy strategy (caching) or picking a rate-limit algorithm (rate-limiting).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/redis-store",
-      "summary": "Expiration (Memory Leaks) - Keys without TTL live forever—set expiry on every cache key: `SET key value EX 3600` - Can't add TTL after SET without another command—use `SETEX` or `SET ... EX` - `EXPIRE` resets on key upda",
+      "summary": "User preferences and memory live in `~/Clawic/data/redis-store/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/redis-store/` or `~/clawic/redis-store/`),",
       "repositoryPath": "skills/redis-store",
       "manifestPath": "registry/skills/redis-store.json"
     },
@@ -7974,10 +7974,10 @@
     {
       "slug": "rust",
       "name": "rust",
-      "description": "Write idiomatic Rust avoiding ownership pitfalls, lifetime confusion, and common borrow checker battles.",
-      "version": "1.0.1",
+      "description": "Writes, debugs, and optimizes Rust code, crates, and Cargo builds: ownership, lifetimes, traits, async, unsafe, and FFI. Use when the borrow checker rejects code, when rustc reports value moved, cannot borrow as mutable, does not live long enough, missing lifetime specifier, trait bound not satisfied, or not dyn compatible; when a future cannot be sent between threads, a Mutex guard crosses an await, a task blocks the async runtime, or select! loses data; when code deadlocks, panics on unwrap, or hits BorrowMutError; when cargo builds are slow, features unify unexpectedly, two versions of one crate collide, or the build fails only in CI; when writing unsafe, C FFI, proc macros, serde derives, no_std firmware, or wasm; when cross-compiling to musl or another target; when profiling, benchmarking, or shrinking a Rust binary. Not for C++ or language-agnostic concurrency theory.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/rust",
-      "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | Ownership & Borrowing | `ownership-borrowing.md` | Move semantics catch everyone | | Strings & Types | `types-strings.md` | `String` vs `&str`, UT",
+      "summary": "User preferences and memory live in `~/Clawic/data/rust/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/rust/` or `~/clawic/rust/`), move it to `~/Clawic",
       "repositoryPath": "skills/rust",
       "manifestPath": "registry/skills/rust.json"
     },
@@ -8944,10 +8944,10 @@
     {
       "slug": "svelte",
       "name": "svelte",
-      "description": "Avoid common Svelte mistakes — reactivity triggers, store subscriptions, and SvelteKit SSR gotchas.",
-      "version": "1.0.0",
+      "description": "Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters. Use when the UI does not update after a state change, an effect loops forever (\"effect_update_depth_exceeded\"), props or bindings stop reacting, a Map or class field is not tracked, state leaks between users on the server, \"window is not defined\" breaks the build, markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node, Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes, converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots to snippets and on:click to onclick, typing props and route data in TypeScript, testing components with Vitest or Playwright, and cutting bundle size and rerender cost. Not for Vue or Nuxt, React, or plain browser JavaScript semantics.",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/svelte",
-      "summary": "Reactivity Triggers - Assignment triggers reactivity — `arr = arr` after push, or use `arr = [...arr, item]` - Array methods don't trigger — `arr.push()` needs reassignment: `arr = arr` - Object mutation same issue — `ob",
+      "summary": "User preferences and memory live in `~/Clawic/data/svelte/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/svelte/` or `~/clawic/svelte/`), move it to `~/",
       "repositoryPath": "skills/svelte",
       "manifestPath": "registry/skills/svelte.json"
     },
@@ -8984,10 +8984,10 @@
     {
       "slug": "swift",
       "name": "swift",
-      "description": "Write safe Swift code avoiding memory leaks, optional traps, and concurrency bugs.",
-      "version": "1.0.1",
+      "description": "Writes, debugs, and optimizes Swift — concurrency, ARC leaks, optionals, generics, SwiftUI state, and packages. Use when writing or reviewing Swift code, when a build won't type-check or the compiler \"is unable to type-check this expression in reasonable time\", when an app crashes on a force unwrap, an unowned reference, or EXC_BAD_ACCESS, when Swift 6 raises Sendable / actor-isolated / data-race errors, when a retain cycle keeps objects alive, when JSON fails to decode, when async code hangs or deadlocks, when SwiftUI state resets or views redraw too often, when XCTest or Swift Testing tests are flaky, when a Swift package won't resolve, or when bridging to Objective-C, C, or Linux. Not for Xcode signing and IDE settings, or App Store submission and iOS app lifecycle.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/swift",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Optionals, nil safety, force unwrap | `optionals.md` | | Retain cycles, weak refs, closures | `memory.md` | | async/await, actors, Sendable, value types | `concurrency.",
+      "summary": "User preferences and memory live in `~/Clawic/data/swift/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/swift/` or `~/clawic/swift/`), move it to `~/Cla",
       "repositoryPath": "skills/swift",
       "manifestPath": "registry/skills/swift.json"
     },
@@ -9094,10 +9094,10 @@
     {
       "slug": "tailwindcss",
       "name": "tailwindcss",
-      "description": "Write Tailwind utility classes with proper responsive design, dark mode, and configuration.",
-      "version": "1.0.0",
+      "description": "Writes and debugs Tailwind CSS: utility classes, theme config, dark mode, variants, plugins, and build setup. Not for CSS mechanics themselves — stacking contexts, flex sizing, and cascade behavior belong to the `css` skill. Use when a class produces no CSS, when dynamically built names (`bg-${color}-500`) never render, when styles work in dev but vanish after deploy, when your own CSS beats a utility or can't override one, when `@apply` breaks inside a Vue, Svelte, or CSS-module file, when `hover:`, `group-hover:`, `peer-*`, `has-[…]`, or `dark:` won't fire, when upgrading v3 to v4 (`@tailwind` directives, `tailwind.config.js` → `@theme`, renamed utilities), when adding custom colors, spacing, breakpoints, fonts, or keyframes, when wiring Tailwind into Vite, Next.js, Astro, SvelteKit, Rails, or Laravel, when the CSS bundle is huge or rebuilds crawl, when Preflight flattens third-party widgets, or when choosing between `@apply`, a component, and `tailwind-merge`.",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/tailwindcss",
-      "summary": "Content Configuration - `content` array in tailwind.config.js must include ALL files with classes—missing paths = missing styles in production - Glob patterns: `\"./src/**/*.{js,jsx,ts,tsx,html}\"` covers nested directorie",
+      "summary": "User preferences and memory live in `~/Clawic/data/tailwindcss/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/tailwindcss/` or `~/clawic/tailwindcss/`),",
       "repositoryPath": "skills/tailwindcss",
       "manifestPath": "registry/skills/tailwindcss.json"
     },
@@ -10154,10 +10154,10 @@
     {
       "slug": "vue",
       "name": "vue",
-      "description": "Build Vue 3 applications with Composition API, proper reactivity patterns, and production-ready components.",
-      "version": "1.0.1",
+      "description": "Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance. Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment, .value is forgotten, a watcher never fires or loops (\"Maximum recursive updates exceeded\"), props or v-model stop syncing, a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns \"getActivePinia() was called but there was no active Pinia\", the console shows \"Failed to resolve component\" or \"Extraneous non-props attributes\", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/vue",
-      "summary": "When to Use User needs Vue expertise — from Composition API patterns to production optimization. Agent handles reactivity, component design, state management, and performance. Quick Reference | Topic | File | |-------|--",
+      "summary": "User preferences and memory live in `~/Clawic/data/vue/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/vue/` or `~/clawic/vue/`), move it to `~/Clawic/da",
       "repositoryPath": "skills/vue",
       "manifestPath": "registry/skills/vue.json"
     },
