@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "55d6d41576bd40f921fa0a47698ac4136b96e4dd8236ddad9d43c054ea65002b",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "1c902e790546ab8dc59da9ca489e7ddd128fe0593187fcc52fdf6bc470937e22",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "kotlin",
     "name": "kotlin",
-    "description": "Build robust Android and multiplatform apps with Kotlin idioms, coroutines, and null safety.",
-    "version": "1.0.1",
+    "description": "Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state. Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring or Ktor. Not for Java-only codebases or Android release/build-system configuration.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/kotlin",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Null safety operators and patterns | `nullsafety.md` | | Coroutines, flows, structured concurrency | `coroutines.md` | | Collections, sequences, data classes | `collect",
+    "summary": "User preferences and memory live in `~/Clawic/data/kotlin/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/kotlin/` or `~/clawic/kotlin/`), move it to `~/",
     "repositoryPath": "skills/kotlin",
     "manifestPath": "registry/skills/kotlin.json"
   },
@@ -26,64 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/kotlin/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/_meta.json",
-      "byteCount": 240,
-      "sha256": "1730aae86a2ee562231b8588377f04e110f7b9e9a6faf627faf10a99429bc618"
-    },
-    {
-      "path": "advanced.md",
-      "downloadPath": "skills/kotlin/advanced.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/advanced.md",
-      "byteCount": 1893,
-      "sha256": "95fd13eba9b65bb15c4a7b79f02e6eb6dd5f66801611e879345ff51554a664ee"
+      "byteCount": 314,
+      "sha256": "e22ea1ac51949f18a6fb18d6889e2de5603268270d2449d2e8d92f69b53a9eed"
     },
     {
       "path": "android.md",
       "downloadPath": "skills/kotlin/android.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/android.md",
-      "byteCount": 1656,
-      "sha256": "8aa1667e3bc8fe46a68894fc69ca2d523e8c17f1f8d9c6bab6bfb7cb1cc2df30"
+      "byteCount": 8006,
+      "sha256": "59e37c25070fb9101b44ca8bc1868b36773c5cd4f3366d29090223a41a65e9dd"
+    },
+    {
+      "path": "build.md",
+      "downloadPath": "skills/kotlin/build.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/build.md",
+      "byteCount": 7759,
+      "sha256": "84a2237fcde34fd106a7e8fe278265301e724a028f567fb445ec0c65f463bbcd"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/kotlin/collections.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/collections.md",
-      "byteCount": 837,
-      "sha256": "a6af6069ab37b51411155ef30cf6afce19ec70bd3b52f43f77d74dfa68c72ab5"
+      "byteCount": 7969,
+      "sha256": "8c61ccfd7a69abcb30e8fe8684769f52a7400c5ab7aaf3e4c0e3d782afd718cd"
+    },
+    {
+      "path": "compose.md",
+      "downloadPath": "skills/kotlin/compose.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/compose.md",
+      "byteCount": 8802,
+      "sha256": "332e941d7bb686ca1c2b603cfcc7c5fa34ea31af13ce5e3dde4419905513c5d8"
     },
     {
       "path": "coroutines.md",
       "downloadPath": "skills/kotlin/coroutines.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/coroutines.md",
-      "byteCount": 1986,
-      "sha256": "c87ba94594596da6d19db4f93e42d76fb59ac86bd568a4f550c704e4bba48924"
+      "byteCount": 9467,
+      "sha256": "940dcddc7fdf5308d1ad7993c6775e7230e384e8c2b81df612c95713831a4e57"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/kotlin/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/errors.md",
+      "byteCount": 6949,
+      "sha256": "6e1dcbcf2834459cb9560efa156abad9ddfeb0963bb6201de8ed402c8cb42640"
+    },
+    {
+      "path": "flows.md",
+      "downloadPath": "skills/kotlin/flows.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/flows.md",
+      "byteCount": 7600,
+      "sha256": "ed178d5a88743b554eb28da7114746e8afc370789f150f6c75e610f38c00e680"
+    },
+    {
+      "path": "generics.md",
+      "downloadPath": "skills/kotlin/generics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/generics.md",
+      "byteCount": 7453,
+      "sha256": "66aab9d9752df6d2da44811c03515a8198099bdfaeddc9f8760f005fc2e39368"
     },
     {
       "path": "idioms.md",
       "downloadPath": "skills/kotlin/idioms.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/idioms.md",
-      "byteCount": 1150,
-      "sha256": "9de30df1050f73580e091195d9b12c703b2896d29ef0e7954e822537b340a3de"
+      "byteCount": 8350,
+      "sha256": "d8562eaa3196262c14099d7d87bfcff222da968b5f18ea6b3413031fde67ff26"
     },
     {
       "path": "interop.md",
       "downloadPath": "skills/kotlin/interop.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/interop.md",
-      "byteCount": 850,
-      "sha256": "c878a401606c350c991e9a00a6a3cefdb83a5aceea2e52187e60743833423f66"
+      "byteCount": 6629,
+      "sha256": "dac29b80e6e262d75310bd51ddb540a1b4ec5b120183a4e14d2e737d1981e5a7"
     },
     {
-      "path": "nullsafety.md",
-      "downloadPath": "skills/kotlin/nullsafety.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/nullsafety.md",
-      "byteCount": 625,
-      "sha256": "26b96538ecdff490b923e0bfc89ab0e6aea6932b53314045842940c9f3f5bb77"
+      "path": "memory-template.md",
+      "downloadPath": "skills/kotlin/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/memory-template.md",
+      "byteCount": 755,
+      "sha256": "dd66fef0e7980662c1bcde63af993273445e75b4e4cfed4b7d330b4c38d53092"
+    },
+    {
+      "path": "multiplatform.md",
+      "downloadPath": "skills/kotlin/multiplatform.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/multiplatform.md",
+      "byteCount": 6542,
+      "sha256": "fb7e9c1bc90d27c7f5301519e4da7434f92213407867ffae43111993ab45ac70"
+    },
+    {
+      "path": "null-safety.md",
+      "downloadPath": "skills/kotlin/null-safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/null-safety.md",
+      "byteCount": 7056,
+      "sha256": "81a8d3b7c92452de112f2d0d72bede783adb7bfe960d8d11d90b1558b32b0d01"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/kotlin/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/performance.md",
+      "byteCount": 6670,
+      "sha256": "c13cb8c6d7236b4a3c87c84d987b1a1343222a6166cb6d3d1b0d3e67319ffe3b"
+    },
+    {
+      "path": "serialization.md",
+      "downloadPath": "skills/kotlin/serialization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/serialization.md",
+      "byteCount": 7051,
+      "sha256": "213d934373d0552d5474fb57da12968fdcd6994ce6764210e33570b8b4cea2b5"
+    },
+    {
+      "path": "server.md",
+      "downloadPath": "skills/kotlin/server.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/server.md",
+      "byteCount": 7656,
+      "sha256": "2fbb74d58a28f2adea4affd8705afafc67fc16616fcd2daed6484e52fba8ab14"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/kotlin/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/setup.md",
+      "byteCount": 2465,
+      "sha256": "a778b6cf5e4d70ec789474a724434069e2db0b90d6495af9685359c3cdda920d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/kotlin/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/SKILL.md",
-      "byteCount": 2526,
-      "sha256": "8e7dbda72b99441fe8da0a6ab6452358533c017d33081da0c81b3163a56eaf4c"
+      "byteCount": 18833,
+      "sha256": "712a27a5bb750790cd9cd684dcafc668b7f1b5be449950e19b74789bb4a9c3d1"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/kotlin/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/testing.md",
+      "byteCount": 7757,
+      "sha256": "4643ff8a167cc909df0b67db1b69e61d22c0cd51863025b3a11f7c79b853b048"
     }
   ]
 }
