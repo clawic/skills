@@ -1,5 +1,5 @@
 ---
-name: whop
+name: Whop
 slug: whop
 version: 1.0.1
 description: Run and grow a Whop business with better offers, checkout flows, promo strategy, affiliates, ads, tracking, analytics, support operations, and advanced API workflows when needed

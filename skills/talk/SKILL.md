@@ -1,5 +1,5 @@
 ---
-name: talk
+name: Talk
 slug: talk
 version: 1.0.0
 description: Set up real-time voice conversations. Phone calls, voice agents, live speech.

@@ -1,5 +1,5 @@
 ---
-name: monitor
+name: Monitor
 slug: monitor
 version: 1.0.2
 description: Create monitors for anything. User defines what to check, skill handles scheduling and alerts.

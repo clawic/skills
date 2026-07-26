@@ -1,5 +1,5 @@
 ---
-name: ollama
+name: Ollama
 slug: ollama
 version: 1.0.0
 description: Run, tune, and troubleshoot local Ollama models with reliable API patterns, Modelfiles, embeddings, and hardware-aware deployment workflows.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "ff06eaae843324aa1f3c7bd8e95dbc989e06be6ce78b6a8278045208bab5575c",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "4335b5bd3fb2b8ec6427298fb049816d857b090dd76f28dafbace23a70908d0d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "flutter",
-    "name": "flutter",
+    "name": "Flutter",
     "description": "Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation, performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows, a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button handling; when the keyboard covers a form field or validation misfires; when a platform channel throws MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget, golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK, IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/flutter",
@@ -160,7 +160,7 @@
       "downloadPath": "skills/flutter/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/SKILL.md",
       "byteCount": 26756,
-      "sha256": "f9c9e507c8da9ea35678c3aaaa1764df1c19a75fa6fc31b4eb421ea88506e17b"
+      "sha256": "4e304a2d59cec239593b4835352e87bf4873b763c78a456490795f859a453892"
     },
     {
       "path": "state.md",

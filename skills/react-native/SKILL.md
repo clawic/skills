@@ -1,5 +1,5 @@
 ---
-name: react-native
+name: React Native
 slug: react-native
 version: 1.0.0
 description: Build performant cross-platform mobile apps with React Native components, navigation, and native modules.

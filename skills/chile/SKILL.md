@@ -1,5 +1,5 @@
 ---
-name: chile
+name: Chile
 slug: chile
 version: 1.0.0
 description: Plan Chile trips with macro-region triage, verified entry rules, long-distance logistics, and practical safety for cities, desert, lakes, and Patagonia.

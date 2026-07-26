@@ -1,5 +1,5 @@
 ---
-name: gratitude
+name: Gratitude
 slug: gratitude
 version: 1.0.0
 description: Build a personal gratitude practice for logging what's good, discovering patterns, and cultivating appreciation.

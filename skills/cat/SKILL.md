@@ -1,5 +1,5 @@
 ---
-name: cat
+name: Cat
 slug: cat
 version: 1.0.0
 description: Track cat health, litter, routines, behavior, travel, and vet coordination with species-aware memory and emergency triage.

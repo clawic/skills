@@ -1,5 +1,5 @@
 ---
-name: meal-planner
+name: Meal Planner
 slug: meal-planner
 version: 1.0.0
 description: Plan meals with weekly menus, shopping lists, batch cooking, budget tracking, dietary preferences, and recipe management.

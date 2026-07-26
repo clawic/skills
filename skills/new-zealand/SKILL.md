@@ -1,5 +1,5 @@
 ---
-name: new-zealand
+name: New Zealand
 slug: new-zealand
 version: 1.0.0
 description: Discover New Zealand with island-aware routing, practical road-trip logistics, outdoor safety, and local food and region guidance.

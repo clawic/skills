@@ -1,5 +1,5 @@
 ---
-name: playwright
+name: Playwright (Automation + MCP + Scraper)
 slug: playwright
 version: 1.0.4
 description: >-

@@ -1,5 +1,5 @@
 ---
-name: systems-architect
+name: Systems Architect
 slug: systems-architect
 version: 1.0.0
 description: Design infrastructure, networks, and cloud systems with integration, reliability, and security patterns.

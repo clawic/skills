@@ -1,5 +1,5 @@
 ---
-name: home-renovation
+name: Home Renovation
 slug: home-renovation
 version: 1.0.1
 description: Plan, budget, and manage home renovation projects including contractor coordination, timeline tracking, and cost estimation.

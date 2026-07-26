@@ -1,5 +1,5 @@
 ---
-name: landing-page
+name: Landing Page
 slug: landing-page
 version: 1.0.0
 description: Build high-converting landing pages with proven structure, persuasive copy, and conversion optimization.

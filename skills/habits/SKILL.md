@@ -1,5 +1,5 @@
 ---
-name: habits
+name: Habits
 slug: habits
 version: 1.0.0
 description: Build a personal habit tracking system with streaks, reviews, and progression.

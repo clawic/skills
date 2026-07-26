@@ -1,5 +1,5 @@
 ---
-name: archive
+name: Archive
 slug: archive
 version: 1.0.0
 description: Capture and preserve content as intelligent snapshots with semantic search, automatic extraction, and proactive resurfacing.

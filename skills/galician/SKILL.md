@@ -1,5 +1,5 @@
 ---
-name: galician
+name: Galician
 slug: galician
 version: 1.0.0
 description: Write Galician that sounds human. Not formal, not robotic, not AI-generated.

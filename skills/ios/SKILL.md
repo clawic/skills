@@ -1,5 +1,5 @@
 ---
-name: ios
+name: iOS
 slug: ios
 version: 1.0.0
 description: Build, test, and ship iOS apps with Swift, Xcode, and App Store best practices.

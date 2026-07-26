@@ -1,5 +1,5 @@
 ---
-name: inventory
+name: Inventory
 slug: inventory
 version: 1.0.0
 description: Build a personal inventory system for home items, valuables, and equipment tracking.

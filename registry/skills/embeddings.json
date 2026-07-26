@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "30050646946089e0ebc1f2e99e6e1d849de22e5d633480b812a155c48d3176c5",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "ff62eb900c286ff3eabde9053effb0093a5b4ef35838db02901f239e862c8f71",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "embeddings",
-    "name": "embeddings",
+    "name": "Embeddings",
     "description": "Generate, store, and search vector embeddings with provider selection, chunking strategies, and similarity search optimization.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/embeddings",
@@ -55,7 +55,7 @@
       "downloadPath": "skills/embeddings/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/embeddings/SKILL.md",
       "byteCount": 3024,
-      "sha256": "1ba8fe3d3065a5b8744849679218b236531ba0cce46d6605ae4f704049e5bf93"
+      "sha256": "18608d17b90d8de551e80228839dc85788009e9e7a76294d719a1f25a814d837"
     },
     {
       "path": "storage.md",

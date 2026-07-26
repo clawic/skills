@@ -1,5 +1,5 @@
 ---
-name: mail
+name: Mail
 slug: mail
 version: 1.2.0
 description: Execute email operations with platform-specific optimizations and secure credential handling.

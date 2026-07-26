@@ -1,5 +1,5 @@
 ---
-name: helsinki
+name: Helsinki
 slug: helsinki
 version: 1.0.0
 description: Navigate Helsinki as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

@@ -1,5 +1,5 @@
 ---
-name: aws
+name: AWS | Amazon Web Services
 slug: aws
 version: 1.0.5
 description: >-

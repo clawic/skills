@@ -1,5 +1,5 @@
 ---
-name: expedia
+name: Expedia
 slug: expedia
 version: 1.0.0
 description: Search Expedia stays, packages, cars, and activities, compare real trip costs, and run partner-safe booking workflows with web and API modes.

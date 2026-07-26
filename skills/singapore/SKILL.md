@@ -1,5 +1,5 @@
 ---
-name: singapore
+name: Singapore
 slug: singapore
 version: 1.0.0
 description: Navigate Singapore as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

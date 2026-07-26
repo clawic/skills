@@ -1,5 +1,5 @@
 ---
-name: genomics
+name: Genomics
 slug: genomics
 version: 1.0.0
 description: Interpret genomic variants with ACMG classification, pharmacogenomics, and clinical annotation from ClinVar and gnomAD.

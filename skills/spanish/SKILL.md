@@ -1,5 +1,5 @@
 ---
-name: spanish
+name: Spanish
 slug: spanish
 version: 1.0.1
 description: Write Spanish that sounds human. Not formal, not robotic, not AI-generated.

@@ -1,5 +1,5 @@
 ---
-name: gifts
+name: Gifts
 slug: gifts
 version: 1.0.0
 description: Build a personal gift system for tracking ideas, occasions, and gift-giving history.

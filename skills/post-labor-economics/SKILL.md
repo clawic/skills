@@ -1,5 +1,5 @@
 ---
-name: post-labor-economics
+name: Post-Labor Economics
 slug: post-labor-economics
 version: 1.0.0
 description: Model post-labor economies with automation shocks, distribution redesign, and policy portfolios across income, ownership, time, and services.

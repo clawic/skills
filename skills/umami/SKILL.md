@@ -1,5 +1,5 @@
 ---
-name: umami
+name: Umami
 slug: umami
 version: 1.0.0
 description: Deploy Umami analytics avoiding data loss, tracking failures, and integration issues.

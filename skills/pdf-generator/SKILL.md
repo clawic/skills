@@ -1,5 +1,5 @@
 ---
-name: pdf-generator
+name: Pdf Generator
 slug: pdf-generator
 version: 1.0.1
 description: Generate professional PDFs from Markdown, HTML, data, or code. Reports, invoices, contracts, and documents with best practices.

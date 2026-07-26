@@ -1,5 +1,5 @@
 ---
-name: tuya
+name: Tuya Smart
 slug: tuya
 version: 1.0.0
 description: Control and automate Tuya Smart devices with official cloud APIs, secure request signing, region-aware routing, and safe command execution.

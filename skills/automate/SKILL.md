@@ -1,5 +1,5 @@
 ---
-name: automate
+name: Automate
 slug: automate
 version: 1.0.0
 description: Identify tasks that waste tokens. Scripts don't hallucinate, don't cost per-run, and don't fail randomly. Spot automation opportunities and build them.

@@ -1,5 +1,5 @@
 ---
-name: buenos-aires
+name: Buenos Aires
 slug: buenos-aires
 version: 1.0.1
 description: Navigate Buenos Aires as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

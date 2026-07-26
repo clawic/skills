@@ -1,5 +1,5 @@
 ---
-name: accounting
+name: Accounting
 slug: accounting
 version: 1.0.0
 description: Support accounting understanding from basic bookkeeping to professional practice and research.

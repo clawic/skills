@@ -1,5 +1,5 @@
 ---
-name: decide
+name: Decide
 slug: decide
 version: 1.0.1
 description: Self-learn your decision patterns to safely build its own decision-making over time.

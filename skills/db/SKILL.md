@@ -1,5 +1,5 @@
 ---
-name: db
+name: Database
 slug: db
 version: 1.0.0
 description: Design and operate databases avoiding common scaling, reliability, and data integrity traps.

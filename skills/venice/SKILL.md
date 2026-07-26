@@ -1,5 +1,5 @@
 ---
-name: venice
+name: Venice
 slug: venice
 version: 1.0.0
 description: Navigate Venice as visitor or resident with neighborhoods, transport by water, costs, local insights, and authentic experiences beyond tourist traps.

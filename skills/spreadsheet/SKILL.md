@@ -1,5 +1,5 @@
 ---
-name: spreadsheet
+name: Spreadsheet
 slug: spreadsheet
 version: 1.0.0
 description: Read, write, and analyze tabular data with schema memory, format preservation, and multi-platform support.

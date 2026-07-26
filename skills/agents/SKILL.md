@@ -1,5 +1,5 @@
 ---
-name: agents
+name: Agents
 slug: agents
 version: 1.0.0
 description: Design, build, and deploy AI agents with architecture patterns, framework selection, memory systems, and production safety.

@@ -1,5 +1,5 @@
 ---
-name: memory
+name: Memory
 slug: memory
 version: 1.0.5
 description: >-

@@ -1,5 +1,5 @@
 ---
-name: call-center
+name: Call Center
 slug: call-center
 version: 1.0.0
 description: Handle customer calls with scripts, issue resolution, escalation protocols, and interaction logging.

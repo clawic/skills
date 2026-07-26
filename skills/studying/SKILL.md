@@ -1,5 +1,5 @@
 ---
-name: studying
+name: Studying
 slug: studying
 version: 1.0.3
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"

@@ -1,5 +1,5 @@
 ---
-name: shein
+name: Shein Shopping
 slug: shein
 version: 1.0.0
 description: Shop Shein with price tracking, size guidance, quality assessment, and smart deal finding.

@@ -1,5 +1,5 @@
 ---
-name: hadoop
+name: Hadoop
 slug: hadoop
 version: 1.0.0
 description: Manage Hadoop clusters with HDFS operations, YARN job tuning, and distributed processing diagnostics.

@@ -1,5 +1,5 @@
 ---
-name: swedish
+name: Swedish
 slug: swedish
 version: 1.0.0
 description: Write Swedish that sounds human. Not formal, not robotic, not AI-generated.

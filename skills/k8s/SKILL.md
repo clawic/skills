@@ -1,5 +1,5 @@
 ---
-name: k8s
+name: Kubernetes
 slug: k8s
 version: 1.0.3
 description: >-

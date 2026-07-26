@@ -1,5 +1,5 @@
 ---
-name: contract
+name: Contract
 slug: contract
 version: 1.0.0
 description: Write contracts from scratch with guided intake, multi-party negotiation, risk analysis, and version control for lawyers, freelancers, and individuals.

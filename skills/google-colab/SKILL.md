@@ -1,5 +1,5 @@
 ---
-name: google-colab
+name: Google Colab
 slug: google-colab
 version: 1.0.0
 description: Run Google Colab notebooks for Python and machine learning with reproducible runtimes, data pipelines, debugging workflows, and experiment discipline.

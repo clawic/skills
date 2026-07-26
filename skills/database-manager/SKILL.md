@@ -1,5 +1,5 @@
 ---
-name: database-manager
+name: Database Manager
 slug: database-manager
 version: 1.0.0
 description: Plan, operate, and recover relational databases with schema governance, safe migrations, backup drills, and incident response playbooks.

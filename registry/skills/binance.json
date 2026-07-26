@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "e12ddfce20dc882c54ffcb2ca4e8b41b0c74aff33d440aafe778a303e22cae8d",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "0c65044640b54415c47ce8f95cf7240fa915bd2096b44c6fa82512e86296f9ea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "binance",
-    "name": "binance",
+    "name": "Binance API",
     "description": "Operate Binance Spot APIs through safe REST, WebSocket, and SDK workflows with signed requests, rate-limit control, and testnet-first execution.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/binance",
@@ -82,8 +82,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/binance/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/binance/SKILL.md",
-      "byteCount": 6621,
-      "sha256": "5a984a2781ebeea26c02159f6697462b0b37f39e76356e67baf0b4c20b45477c"
+      "byteCount": 6625,
+      "sha256": "a2d712c3c3c49f1b551ca1db641fc10a9eeeaf7fca8bb110698b69ef49bedb92"
     },
     {
       "path": "testnet.md",

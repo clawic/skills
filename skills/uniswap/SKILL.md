@@ -1,5 +1,5 @@
 ---
-name: uniswap
+name: Uniswap
 slug: uniswap
 version: 1.0.0
 description: Assist with Uniswap swaps, liquidity provision, and avoiding common DeFi losses.

@@ -1,5 +1,5 @@
 ---
-name: heartbeat
+name: Heartbeat
 slug: heartbeat
 version: 1.0.1
 description: Design better OpenClaw HEARTBEAT.md files with adaptive cadence, safe checks, and cron handoffs for precise schedules.

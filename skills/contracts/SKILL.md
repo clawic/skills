@@ -1,5 +1,5 @@
 ---
-name: contracts
+name: Contracts
 slug: contracts
 version: 1.0.0
 description: Organize, track, and analyze contracts with renewal alerts, clause lookups, and multi-role support for individuals, landlords, freelancers, and legal teams.

@@ -1,5 +1,5 @@
 ---
-name: gaming
+name: Gaming
 slug: gaming
 version: 1.0.0
 description: Help users with game recommendations, stuck points, settings optimization, and healthy gaming habits.

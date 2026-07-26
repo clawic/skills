@@ -1,5 +1,5 @@
 ---
-name: outreach
+name: Outreach
 slug: outreach
 version: 1.0.0
 description: Plan, personalize, and track outreach campaigns for sales, PR, recruiting, partnerships, and link building with timing strategy and follow-up cadence.

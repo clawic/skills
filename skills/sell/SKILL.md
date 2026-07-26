@@ -1,5 +1,5 @@
 ---
-name: sell
+name: Sell
 slug: sell
 version: 1.0.0
 description: Price items accurately, create compelling listings, choose platforms, and handle negotiations.

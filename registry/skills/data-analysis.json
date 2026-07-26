@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "a38446834f127fa43f81dbea1584e5958072bee309c9242554e51560535d4766",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "6b7aad502b8d1ebdf7fc2ec07751518d08486a7f9857a61e788142451044cf0a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "data-analysis",
-    "name": "data-analysis",
+    "name": "Data Analysis",
     "description": "Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) you need to analyze, visualize, or explain data; (2) the user wants reports, dashboards, or metrics turned into a decision; (3) the work involves SQL, Python, spreadsheets, BI tools, or notebooks; (4) you need to compare segments, cohorts, funnels, experiments, or time periods; (5) the user explicitly installs or references the skill for the current task.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/data-analysis",
@@ -62,7 +62,7 @@
       "downloadPath": "skills/data-analysis/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/data-analysis/SKILL.md",
       "byteCount": 8044,
-      "sha256": "d64721a9c803f38f5532d24ef117a4f4fe4619bcd1ee228196743d8d0a14c264"
+      "sha256": "6400602e9252387d54bce53541b077eee16224fb5e1aadc0340b16bf34cc3c9a"
     },
     {
       "path": "techniques.md",

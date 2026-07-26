@@ -1,5 +1,5 @@
 ---
-name: extract-pdf-text
+name: Extract PDF Text
 slug: extract-pdf-text
 version: 1.0.2
 description: Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.

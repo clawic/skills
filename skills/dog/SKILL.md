@@ -1,5 +1,5 @@
 ---
-name: dog
+name: Dog
 slug: dog
 version: 1.0.0
 description: Track dog health, walks, training, routines, travel, and vet coordination with species-aware memory and emergency triage.

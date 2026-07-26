@@ -1,5 +1,5 @@
 ---
-name: marriage
+name: Marriage
 slug: marriage
 version: 1.0.0
 description: Navigate marriage challenges across all stages with conflict resolution, communication tools, and practical frameworks.

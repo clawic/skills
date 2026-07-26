@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "e66ce468906d25d3a786c755304435b3bf885814f4efba826c5953d7e8046ceb",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "2f079516afebd2217ddcd57aed23ec6f55076a8816c947bd25dfac41fdb0f87e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "listen",
-    "name": "listen",
+    "name": "Listen",
     "description": "Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and commands in voice-dictated messages. Use when a message arrived by voice and a word breaks the sentence, dictation mangles proper nouns, jargon, amounts, times, or email addresses, the user says \"no, I said X\" or repeats themselves, transcripts contain filler, spoken punctuation, or hallucinated sentences, the user dictates an email or document by voice, or an STT engine (Whisper or cloud speech) needs vocabulary tuning for recurring terms. Not for transcribing audio files or for typed-text typos.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/listen",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/listen/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/listen/SKILL.md",
-      "byteCount": 14895,
-      "sha256": "ec8eebdc2a583265c72b50ee81e722df1afc038ed388bf0f699496cbf10e9dd3"
+      "byteCount": 15013,
+      "sha256": "5e42a97927ad63696d24d6ed4e3fa1521bccae3601752dd612ef75fc0d5146e2"
     },
     {
       "path": "tuning.md",

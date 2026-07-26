@@ -1,5 +1,5 @@
 ---
-name: smoking
+name: Smoking (Tracker, Logger, Quit, Reduce)
 slug: smoking
 version: 1.0.0
 description: Track smoking and nicotine use, reduce consumption, or quit with neutral logs, trigger mapping, and adaptive plans.

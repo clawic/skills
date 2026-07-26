@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "a172a0c86cc1db9994debbbfb2c9a8f189e630887bb99d2b0a370b68167c48ea",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "2fce6dbfe77f5055bd5bf24a2177118dfc039fb86392e1ce0a38d8007556d83f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "memory",
-    "name": "memory",
+    "name": "Memory",
     "description": "Remembers, recalls, and organizes durable facts in a categorized markdown store at ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember this, save this, note that for later, or don't forget; when they ask what did I tell you about X, when did we decide Y, or who is Z; when a stored fact is wrong, outdated, or contradicts what they just said; when they want something forgotten or deleted; when recall misses, returns stale facts, or slows down as the store grows; when duplicate or conflicting entries appear; when consolidating scattered notes, importing an existing vault, or sharing memory across devices and agents. Not for session-scoped context the runtime already holds, note-taking apps (notes), journaling practice (journal), or study techniques like spaced repetition (learn, active-recall).",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/memory",
@@ -125,7 +125,7 @@
       "downloadPath": "skills/memory/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md",
       "byteCount": 20885,
-      "sha256": "ec99d59d8d4bb052a04816f59771409a49cf6e14f846c85daf8ab6aa4869693e"
+      "sha256": "e1c9e446e3e516d3871ec01991a8ff27b24a37339ce2a14b01be58d379b0258f"
     },
     {
       "path": "sync.md",

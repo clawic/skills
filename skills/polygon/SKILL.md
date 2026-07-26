@@ -1,5 +1,5 @@
 ---
-name: polygon
+name: Polygon
 slug: polygon
 version: 1.0.0
 description: Assist with Polygon PoS and zkEVM transactions, bridging, gas tokens, and ecosystem navigation.

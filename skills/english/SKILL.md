@@ -1,5 +1,5 @@
 ---
-name: english
+name: English
 slug: english
 version: 1.0.1
 description: Write English that sounds human. Not formal, not robotic, not AI-generated.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "d8aec2e2b3aa327240e7ec9e1d2052f8996929257cb48a186e93e1e211b1666b",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "689c72036dea7c1301e9c7b12b1daa6ca200018a2dfa408c5faa07120a945713",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "sql",
-    "name": "sql",
+    "name": "SQL",
     "description": "Writes, reviews, and optimizes SQL queries; designs schemas, indexes, and constraints; plans migrations for any relational database. Use when a query is slow, EXPLAIN shows a sequential scan, or an index is ignored; when rows come back duplicated, missing, or with inflated totals after a JOIN; on deadlocks, lock timeouts, \"too many connections\", or transactions that never commit; when designing tables, keys, and column types, normalizing or denormalizing a model, or deciding between a JSON column and real columns; for ALTER TABLE on a live table, expand-migrate-contract rollouts, backups and restores, replication lag, connection pooling, partitioning, bulk CSV imports, and moving data between engines; for window functions, CTEs, keyset pagination, upserts, full-text search, multi-tenancy, row-level security, and timezone handling in MySQL, SQLite, MariaDB, or SQL Server. Not for PostgreSQL server internals such as vacuum tuning and work_mem sizing, and not for ORM schema modeling inside a framework.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/sql",
@@ -146,7 +146,7 @@
       "downloadPath": "skills/sql/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/SKILL.md",
       "byteCount": 20267,
-      "sha256": "0e2eacad802a1757d9d4cd949e3191c714015d8c5617655259626b8e3e55eda5"
+      "sha256": "de9b60696a7a4e8be7152df672bea479835dc049de14ae45ef13f985b8047e3d"
     },
     {
       "path": "testing.md",

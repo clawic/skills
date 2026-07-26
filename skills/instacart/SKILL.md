@@ -1,5 +1,5 @@
 ---
-name: instacart
+name: Instacart
 slug: instacart
 version: 1.0.0
 description: Build Instacart recipe pages, shopping lists, and retailer lookups with MCP, REST, secure auth, and launch-ready integration rules.

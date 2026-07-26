@@ -1,5 +1,5 @@
 ---
-name: consultant
+name: Consultant
 slug: consultant
 version: 1.0.0
 description: Diagnose business problems, scope engagements, and deliver decision-ready recommendations with measurable outcomes and executable plans.

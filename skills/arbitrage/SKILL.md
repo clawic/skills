@@ -1,5 +1,5 @@
 ---
-name: arbitrage
+name: Arbitrage
 slug: arbitrage
 version: 1.0.0
 description: Find, validate, and compare arbitrage opportunities across markets with fee-aware math, execution sequencing, and failure-mode checks.

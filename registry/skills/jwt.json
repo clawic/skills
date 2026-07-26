@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "09e67282fd646840e98a0cc825cfc7502eab5976280e9b2f77cfe852e73746e1",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "e97219ff1168172c674cc3a78bd10c347fe71c44ccb9c0a4ab01f1fa07b109e1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "jwt",
-    "name": "jwt",
+    "name": "JWT",
     "description": "Implement secure JWT authentication with proper validation, token lifecycle, and key management.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/jwt",
@@ -55,7 +55,7 @@
       "downloadPath": "skills/jwt/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/jwt/SKILL.md",
       "byteCount": 3778,
-      "sha256": "00dcff70cb4f49fcd0ebb458f94fb7671eea13532ef400769ff6c3278ce7825d"
+      "sha256": "87ba6a5951be1dc7e67085686875ea4b7d26f53821fe7f144aebef96ce6e62a7"
     },
     {
       "path": "validation.md",

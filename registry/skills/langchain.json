@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "048b97ab9520b68f3e3fd13e493a2de9a1427b475d6142cf3fe1d700432d2a45",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "cb6d8ebe1c837c94afea31c34733d3d2007d214a27297a2db600fe0d95a097b7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "langchain",
-    "name": "langchain",
+    "name": "LangChain",
     "description": "Builds and debugs LangChain apps in Python: LCEL chains, agents, tools, retrievers, streaming, and structured output. Use when writing or reviewing a chain, agent, tool, retriever, or prompt template; when a prompt raises KeyError or \"missing variables\"; when streaming arrives as one blob or astream_events yields nothing; when an agent loops until GraphRecursionError or repeats a tool; when tool calls fail validation or the provider rejects a tool_call_id; when chat history disappears or the context window overflows; when with_structured_output returns None or a parser crashes on valid JSON; when retrieval returns the wrong chunks; when LangSmith traces are empty; when retries, rate limits, or token cost need bounding; or when imports break after an upgrade. Covers LangGraph state, checkpointers, and middleware. Not for framework-agnostic agent architecture (agents), retrieval design (rag), or chunk tuning (rag-chunking).",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/langchain",
@@ -132,7 +132,7 @@
       "downloadPath": "skills/langchain/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/SKILL.md",
       "byteCount": 21232,
-      "sha256": "ce5a623f50e0884786b92c315d0be3cd0fa501da370367e23fdc9d5258fb933e"
+      "sha256": "f6530823d178fa3280b937e0d01410be7fb33fb2ff385de3d32fb7eac6ed7681"
     },
     {
       "path": "streaming.md",

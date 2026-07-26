@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "bd3d4b6c4dce4280593a91dae71be430e85539238cd32deddbdcb9bd838f98bc",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "01f88a468e47bbc9b073f7d3fe66ee08068155742713f43b71d995d07de3a0a1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "triage",
-    "name": "triage",
+    "name": "Triage / Task Prioritization",
     "description": "Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work. Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush. Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/triage",
@@ -75,8 +75,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/triage/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/SKILL.md",
-      "byteCount": 12300,
-      "sha256": "91acafd1a87a7cfa4c8e0cc075d09ebf07f2623bf92ae882d59f7825b50dfb67"
+      "byteCount": 12322,
+      "sha256": "8c73c02b6e902aa08cf5a21b130688a20d8ea24fbef6ce31e9f6361c37fdc04e"
     }
   ]
 }

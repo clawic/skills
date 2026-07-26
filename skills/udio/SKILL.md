@@ -1,5 +1,5 @@
 ---
-name: udio
+name: Udio
 slug: udio
 version: 1.0.0
 description: Generate AI music with Udio via API wrappers or browser automation, with prompt engineering and song extensions.

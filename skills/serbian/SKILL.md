@@ -1,5 +1,5 @@
 ---
-name: serbian
+name: Serbian
 slug: serbian
 version: 1.0.0
 description: Write Serbian that sounds human. Not formal, not robotic, not AI-generated.

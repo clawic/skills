@@ -1,5 +1,5 @@
 ---
-name: quiz
+name: Quiz
 slug: quiz
 version: 1.0.0
 description: Design engaging quizzes with effective questions, scoring logic, and results that drive learning or conversions.

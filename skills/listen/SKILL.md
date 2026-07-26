@@ -1,5 +1,5 @@
 ---
-name: listen
+name: Listen
 slug: listen
 version: 1.0.2
 description: >-
@@ -33,7 +33,7 @@ Voice input reaches the agent as text that already passed through a speech-to-te
 - The user repeats, rephrases, or says "no, I said X" after your response or action
 - The same name, product, or term gets mangled across sessions and needs a persistent fix
 - The user dictates an artifact by voice — an email, message, document, or note
-- A voice command feeds an action with side effects (send, delete, book, pay) and a token looks off
+- A voice command feeds an action with side effects (send, delete, book, pay) and a token looks off — repairs that change the target of such an action are always confirmed with the user before anything runs (Rule 1)
 - A transcript arrives noisy, truncated, mixed-language, or padded with hallucinated sentences
 - An STT engine needs vocabulary tuning for a user's recurring domain terms
 - Not for transcribing audio files (that is batch transcription work) and not for typed-text typos: keyboard errors are adjacency-based, so phonetic repair misfires on them

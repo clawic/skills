@@ -1,5 +1,5 @@
 ---
-name: boston
+name: Boston
 slug: boston
 version: 1.0.0
 description: Navigate Boston as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, and local insights.

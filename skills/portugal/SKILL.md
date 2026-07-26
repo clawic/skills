@@ -1,5 +1,5 @@
 ---
-name: portugal
+name: Portugal
 slug: portugal
 version: 1.0.0
 description: Discover Portugal like a local with specific restaurants, hidden gems, wine regions, and tips beyond the tourist traps.

@@ -1,5 +1,5 @@
 ---
-name: brazil
+name: Brazil
 slug: brazil
 version: 1.0.0
 description: Plan Brazil trips with region-specific routing, visa and money clarity, season-aware logistics, and concrete city-nature playbooks.

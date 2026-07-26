@@ -1,5 +1,5 @@
 ---
-name: recruiter
+name: Recruiter
 slug: recruiter
 version: 1.0.0
 description: Source candidates, screen resumes, and manage hiring pipelines with effective recruiting practices.

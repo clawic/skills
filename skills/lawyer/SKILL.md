@@ -1,5 +1,5 @@
 ---
-name: lawyer
+name: Lawyer
 slug: lawyer
 version: 1.0.0
 description: Draft contracts, review legal documents, and navigate compliance with practical legal patterns.

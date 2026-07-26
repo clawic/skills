@@ -1,5 +1,5 @@
 ---
-name: customer-support
+name: Customer Support
 slug: customer-support
 version: 1.0.0
 description: Resolve issues, communicate with empathy, and turn frustrated customers into loyal advocates.

@@ -1,5 +1,5 @@
 ---
-name: fastmail-api
+name: Fastmail API
 slug: fastmail-api
 version: 1.0.0
 description: Manage Fastmail mail, mailbox, identity, contact, and calendar workflows through JMAP API calls with safe batching and token hygiene.

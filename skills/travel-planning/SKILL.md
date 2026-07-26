@@ -1,5 +1,5 @@
 ---
-name: travel-planning
+name: Travel Planning
 slug: travel-planning
 version: 1.0.1
 description: Plan trips with itineraries, multi-city routing, budget optimization, family logistics, packing lists, and visa timelines.

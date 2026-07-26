@@ -1,5 +1,5 @@
 ---
-name: turkey
+name: Turkey
 slug: turkey
 version: 1.0.0
 description: Plan Turkey trips with city-coast-Cappadocia routing, verified entry rules, domestic transport strategy, and practical seasonal safety.

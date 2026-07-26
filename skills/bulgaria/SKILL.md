@@ -1,5 +1,5 @@
 ---
-name: bulgaria
+name: Bulgaria
 slug: bulgaria
 version: 1.0.0
 description: Plan Bulgaria with local context on Sofia, Plovdiv, the Black Sea, mountain routes, food, and tourist-trap avoidance.

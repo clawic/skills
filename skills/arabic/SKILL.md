@@ -1,5 +1,5 @@
 ---
-name: arabic
+name: Arabic
 slug: arabic
 version: 1.0.0
 description: Write Arabic that sounds human. Not formal, not robotic, not AI-generated.

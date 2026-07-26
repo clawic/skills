@@ -1,5 +1,5 @@
 ---
-name: philosophy
+name: Philosophy
 slug: philosophy
 version: 1.0.0
 description: Guide philosophical inquiry from first questions to scholarly debate.

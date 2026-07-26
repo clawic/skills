@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "bc1f8de578d0920f87b17863195012cbaab61a9f7738fe205212ed54b7344bed",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "a3256e785115272c5b67a6deac509c6f0a749cde75e6cbdeba122481c360e23d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "ffmpeg",
-    "name": "ffmpeg",
+    "name": "FFmpeg",
     "description": "Process video and audio with correct codec selection, filtering, and encoding settings.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/ffmpeg",
@@ -34,7 +34,7 @@
       "downloadPath": "skills/ffmpeg/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ffmpeg/SKILL.md",
       "byteCount": 3891,
-      "sha256": "a12ff9e7b76d90b1b9e172e837add19f5067dc4901d256e394a93f5b54886098"
+      "sha256": "696791900587a044890592403940bc3d44778a824672865366be3a8edb2795e4"
     }
   ]
 }

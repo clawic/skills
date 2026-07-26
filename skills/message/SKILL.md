@@ -1,5 +1,5 @@
 ---
-name: message
+name: Message
 slug: message
 version: 1.0.0
 description: Communicate across channels without social disasters, with escalation rules, tone calibration, and platform-aware formatting.

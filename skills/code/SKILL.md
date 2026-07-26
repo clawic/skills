@@ -1,5 +1,5 @@
 ---
-name: code
+name: Code
 slug: code
 version: 1.0.4
 description: Coding workflow with planning, implementation, verification, and testing for clean software development.

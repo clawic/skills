@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "a1454664e44a87c64b953e8413843a3ae005ce33b9c291f037615ad6578cad20",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "0067286cae76bb08ae54eaab1e182f15987f1b2f1c3178267bfed052986c3841",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "css",
-    "name": "css",
+    "name": "CSS",
     "description": "Writes and debugs CSS: flexbox and grid layout, z-index and stacking, responsive breakpoints, theming, and render performance. Use when a layout breaks or overflows, z-index does nothing, the page scrolls sideways, `position: sticky` won't stick, text won't truncate, styles lose the cascade or need `!important`, content jumps while loading (CLS), transitions stutter, fonts flash, a modal or dropdown sits behind other content, form controls need restyling, a table needs sticky headers, printing comes out wrong, or a style works in Chrome but not Safari. Also for starting a stylesheet from scratch (reset and base layer), centering, container queries, fluid type with clamp(), design tokens and dark mode, RTL and logical properties, and modernizing old stylesheets with `:has()`, `@layer`, and nesting. Not for visual design taste — palettes, spacing scales, typeface choice.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/css",
@@ -160,7 +160,7 @@
       "downloadPath": "skills/css/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/css/SKILL.md",
       "byteCount": 19522,
-      "sha256": "5763a79b48f5789297fd56eeeb823a8cc9aadd8dbb24e5d4504a8491de93df60"
+      "sha256": "bd3fc94c2e463010dbdd5dfd5259cf2b3852d1a0b260dc5c38ed95db72c1f968"
     },
     {
       "path": "tables.md",

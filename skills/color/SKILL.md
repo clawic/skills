@@ -1,5 +1,5 @@
 ---
-name: color
+name: Color
 slug: color
 version: 1.0.0
 description: Build, inspect, adapt, and validate color systems, palettes, tokens, contrast, color-space choices, and cross-surface color behavior for UI, branding, charts, images, and print.

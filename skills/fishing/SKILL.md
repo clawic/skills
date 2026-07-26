@@ -1,5 +1,5 @@
 ---
-name: fishing
+name: Fishing
 slug: fishing
 version: 1.0.0
 description: Track fishing spots, gear, catches, and conditions with personalized recommendations.

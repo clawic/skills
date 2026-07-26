@@ -1,5 +1,5 @@
 ---
-name: naming
+name: Naming
 slug: naming
 version: 1.0.0
 description: Create, test, and choose names for products, features, APIs, files, and systems with constraint-first briefs and collision checks.

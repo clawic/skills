@@ -1,5 +1,5 @@
 ---
-name: projects
+name: Projects
 slug: projects
 version: 1.0.0
 description: Build a personal project management system that scales from simple lists to structured planning.

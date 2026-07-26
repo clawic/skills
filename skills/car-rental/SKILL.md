@@ -1,5 +1,5 @@
 ---
-name: car-rental
+name: Car Rental
 slug: car-rental
 version: 1.0.0
 description: Find the best car rental deals with price comparison, alerts, and lease vs rent analysis.

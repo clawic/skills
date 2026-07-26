@@ -1,5 +1,5 @@
 ---
-name: startup
+name: Startup
 slug: startup
 version: 1.0.2
 description: >-

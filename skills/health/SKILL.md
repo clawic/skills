@@ -1,5 +1,5 @@
 ---
-name: health
+name: Health
 slug: health
 version: 1.0.1
 description: Provide personalized wellness guidance while maintaining strict safety boundaries.

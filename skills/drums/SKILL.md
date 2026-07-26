@@ -1,5 +1,5 @@
 ---
-name: drums
+name: Drums
 slug: drums
 version: 1.0.0
 description: Drum practice strategies, technique correction, groove development, and progress tracking.

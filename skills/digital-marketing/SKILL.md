@@ -1,5 +1,5 @@
 ---
-name: digital-marketing
+name: Digital Marketing
 slug: digital-marketing
 version: 1.0.0
 description: Plan, launch, and optimize digital marketing with growth marketing systems, short-form video, funnel operations, and revenue-focused experimentation.

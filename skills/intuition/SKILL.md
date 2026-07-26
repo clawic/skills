@@ -1,5 +1,5 @@
 ---
-name: intuition
+name: Intuition
 slug: intuition
 version: 1.0.0
 description: Make rapid pattern-based judgments without explicit reasoning, using Recognition-Primed Decision techniques and System 1 response patterns.

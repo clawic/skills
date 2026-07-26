@@ -1,5 +1,5 @@
 ---
-name: setup
+name: Setup
 slug: setup
 version: 1.0.0
 description: Configure OpenClaw installations with optimized settings, channel setup, security hardening, and production recommendations.

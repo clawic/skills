@@ -1,5 +1,5 @@
 ---
-name: tailwindcss
+name: Tailwind CSS
 slug: tailwindcss
 version: 1.0.1
 description: >-

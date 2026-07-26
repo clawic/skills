@@ -1,5 +1,5 @@
 ---
-name: investor
+name: Investor
 slug: investor
 version: 1.0.0
 description: Evaluate opportunities, conduct due diligence, and manage portfolios with sound investment principles.

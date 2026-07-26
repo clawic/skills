@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "a7024180e0f63cc37ba7095b78cbf6c418a6802d542b803db40692b381e03fe1",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "a9b3f6f05b6606c315f3461e82c4bc6e9533ee3b9ce1bec8e5c8fb837471da36",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "typescript",
-    "name": "typescript",
+    "name": "TypeScript",
     "description": "Writes, reviews, and debugs type-safe TypeScript: type errors, narrowing, generics, tsconfig strictness, and declaration files. Use when a build hits type errors (\"not assignable\", \"possibly undefined\", \"excessively deep\", \"cannot find module\"), when eliminating any or unchecked as casts, designing generics or discriminated unions, writing .d.ts files or typing untyped npm packages, configuring tsconfig or module resolution, fixing ESM/CJS import crashes (\"ERR_REQUIRE_ESM\", \"x is not a function\"), validating API or JSON data at runtime, migrating JavaScript to TypeScript or upgrading the TypeScript version, or when tsc or the editor gets slow or runs out of memory.",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/typescript",
@@ -97,7 +97,7 @@
       "downloadPath": "skills/typescript/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/typescript/SKILL.md",
       "byteCount": 15751,
-      "sha256": "934ddd98974a98490b9be66532942bec6d15f85a73b2c79dc752e2919d48d924"
+      "sha256": "ea1900e881cd8991fc712fe28fedcc91a28bc1755e62ae68b49edb881ed931cb"
     },
     {
       "path": "tsconfig.md",

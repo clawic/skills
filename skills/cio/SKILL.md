@@ -1,5 +1,5 @@
 ---
-name: cio
+name: Chief Information Officer
 slug: cio
 version: 1.0.0
 description: Drive IT strategy, digital transformation, vendor management, architecture decisions, and technology governance.

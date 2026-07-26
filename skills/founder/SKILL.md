@@ -1,5 +1,5 @@
 ---
-name: founder
+name: Founder
 slug: founder
 version: 1.0.0
 description: Build startups with product-market fit, fundraising, team building, and founder resilience.

@@ -1,5 +1,5 @@
 ---
-name: banking
+name: Banking
 slug: banking
 version: 1.0.0
 description: Manage retail and business banking workflows with payment operations, account controls, reconciliation, fraud response, and compliant communication.

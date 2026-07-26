@@ -1,5 +1,5 @@
 ---
-name: ruby
+name: Ruby
 slug: ruby
 version: 1.0.1
 description: Write reliable Ruby avoiding mutable string traps, block pitfalls, and metaprogramming bugs.

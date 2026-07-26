@@ -1,5 +1,5 @@
 ---
-name: telegram-bot-api
+name: Telegram Bot API
 slug: telegram-bot-api
 version: 1.0.0
 description: Build Telegram bots with correct API calls, message formatting, keyboards, and webhook setup.

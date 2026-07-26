@@ -1,5 +1,5 @@
 ---
-name: udemy
+name: Udemy
 slug: udemy
 version: 1.0.0
 description: Create, publish, and monetize Udemy courses with curriculum design, AI-assisted content creation, and platform compliance.

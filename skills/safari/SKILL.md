@@ -1,5 +1,5 @@
 ---
-name: safari
+name: Safari Browser Control
 slug: safari
 version: 1.0.0
 description: Control Safari on macOS with AppleScript, safaridriver, screenshots, tab navigation, and real-browser read, click, and type workflows.

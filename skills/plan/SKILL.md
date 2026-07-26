@@ -1,5 +1,5 @@
 ---
-name: plan
+name: Plan
 slug: plan
 version: 1.0.2
 description: >-

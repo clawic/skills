@@ -1,5 +1,5 @@
 ---
-name: nas
+name: NAS
 slug: nas
 version: 1.0.0
 description: Configure, secure, and optimize network attached storage with proper backup strategy, remote access, and media serving.

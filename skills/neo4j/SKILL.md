@@ -1,5 +1,5 @@
 ---
-name: neo4j
+name: Neo4j
 slug: neo4j
 version: 1.0.0
 description: Write Cypher queries with proper patterns for merging, traversal, and performance.

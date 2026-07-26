@@ -1,5 +1,5 @@
 ---
-name: slides
+name: Slides
 slug: slides
 version: 1.0.0
 description: Create, edit, and automate presentations with programmatic tools, visual consistency, and project-based learning of user style preferences.

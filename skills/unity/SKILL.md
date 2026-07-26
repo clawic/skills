@@ -1,5 +1,5 @@
 ---
-name: unity
+name: Unity
 slug: unity
 version: 1.0.0
 description: Avoid common Unity mistakes — lifecycle ordering, GetComponent caching, physics timing, and Unity's fake null.

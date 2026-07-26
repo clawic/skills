@@ -1,5 +1,5 @@
 ---
-name: automator
+name: macOS Automator
 slug: automator
 version: 1.0.0
 description: Automate macOS tasks by composing and executing Automator workflows through automator CLI and AppleScript control.

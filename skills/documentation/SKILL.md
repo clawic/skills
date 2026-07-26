@@ -1,5 +1,5 @@
 ---
-name: documentation
+name: Documentation
 slug: documentation
 version: 1.0.0
 description: Technical documentation patterns, structure, maintenance, and avoiding common documentation failures.

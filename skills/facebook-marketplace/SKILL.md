@@ -1,5 +1,5 @@
 ---
-name: facebook-marketplace
+name: Facebook Marketplace
 slug: facebook-marketplace
 version: 1.0.0
 description: Buy and sell on Facebook Marketplace with pricing discipline, safer messaging, shipping guardrails, scam detection, and account-safe workflows.

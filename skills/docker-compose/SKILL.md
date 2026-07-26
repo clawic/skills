@@ -1,5 +1,5 @@
 ---
-name: docker-compose
+name: Docker Compose
 slug: docker-compose
 version: 1.0.0
 description: Define multi-container applications with proper dependency handling, networking, and volume management.

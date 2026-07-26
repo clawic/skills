@@ -1,5 +1,5 @@
 ---
-name: pytorch
+name: PyTorch
 slug: pytorch
 version: 1.0.0
 description: Avoid common PyTorch mistakes — train/eval mode, gradient leaks, device mismatches, and checkpoint gotchas.

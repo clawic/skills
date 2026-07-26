@@ -1,5 +1,5 @@
 ---
-name: monetize
+name: Monetize
 slug: monetize
 version: 1.0.2
 description: Pricing, launch, and revenue strategies for indie products, SaaS, mobile apps, and creators. Concrete prices, not theory.

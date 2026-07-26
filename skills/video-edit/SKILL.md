@@ -1,5 +1,5 @@
 ---
-name: video-edit
+name: Video Editing
 slug: video-edit
 version: 1.0.0
 description: Edit videos with AI background removal, color grading, upscaling, stabilization, and enhancement tools.

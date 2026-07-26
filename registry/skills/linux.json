@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "4e519bb5724a54cd1765da229d47347f415f0a61a619cb7643090c692532d288",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "73c2f0afef92810899abe836c9655e2d032bdd57dd2cef9be165acb74e0cfca6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "linux",
-    "name": "linux",
+    "name": "Linux",
     "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/linux",
@@ -153,7 +153,7 @@
       "downloadPath": "skills/linux/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
       "byteCount": 21218,
-      "sha256": "cd1852330c2c3f69f3c44cd29b4976a920f11ddeee691f8175ef47af737ad36f"
+      "sha256": "d6bd8512176581332f63e3f49cd949a9de8875db26c4e025753983167e082a95"
     },
     {
       "path": "ssh.md",

@@ -1,5 +1,5 @@
 ---
-name: oracle-db
+name: Oracle DB
 slug: oracle-db
 version: 1.0.0
 description: Write Oracle SQL and PL/SQL with proper syntax, hints, and performance patterns.

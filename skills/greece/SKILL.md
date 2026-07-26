@@ -1,5 +1,5 @@
 ---
-name: greece
+name: Greece
 slug: greece
 version: 1.0.0
 description: Plan Greece trips with island-mainland routing, ferry logistics, verified entry rules, and practical seasonal safety.

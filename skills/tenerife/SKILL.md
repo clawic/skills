@@ -1,5 +1,5 @@
 ---
-name: tenerife
+name: Tenerife
 slug: tenerife
 version: 1.0.0
 description: Navigate Tenerife as visitor, resident, digital nomad, or retiree with zones, transport, costs, residency, and local insights.

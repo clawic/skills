@@ -1,5 +1,5 @@
 ---
-name: apps
+name: Apps
 slug: apps
 version: 1.0.0
 description: Find, compare, and organize mobile apps with personalized recommendations and preference tracking.

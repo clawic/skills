@@ -1,5 +1,5 @@
 ---
-name: russian
+name: Russian
 slug: russian
 version: 1.0.0
 description: Write Russian that sounds human. Not formal, not robotic, not AI-generated.

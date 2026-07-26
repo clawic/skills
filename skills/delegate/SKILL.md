@@ -1,5 +1,5 @@
 ---
-name: delegate
+name: Delegate
 slug: delegate
 version: 1.0.0
 description: Route tasks to sub-agents with optimal model selection, error recovery, and result verification.

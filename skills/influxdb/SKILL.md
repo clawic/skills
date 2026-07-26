@@ -1,5 +1,5 @@
 ---
-name: influxdb
+name: InfluxDB
 slug: influxdb
 version: 1.0.0
 description: Store and query time-series data with proper schema design and retention.

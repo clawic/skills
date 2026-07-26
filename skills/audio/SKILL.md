@@ -1,5 +1,5 @@
 ---
-name: audio
+name: Audio
 slug: audio
 version: 1.0.1
 description: Process, enhance, and convert audio files with noise removal, normalization, format conversion, transcription, and podcast workflows.

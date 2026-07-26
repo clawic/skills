@@ -1,5 +1,5 @@
 ---
-name: pay
+name: Pay
 slug: pay
 version: 1.0.0
 description: Choose the right payment method, optimize rewards, handle disputes, and manage bills safely.

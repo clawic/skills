@@ -1,5 +1,5 @@
 ---
-name: self-direction
+name: Self-Direction
 slug: self-direction
 version: 1.0.0
 description: Your agent learns to think like you. Captures your direction system, makes decisions as you would, guides all processes toward your goals.

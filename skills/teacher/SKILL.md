@@ -1,5 +1,5 @@
 ---
-name: teacher
+name: Teacher
 slug: teacher
 version: 1.0.0
 description: Explain concepts clearly, adapt to learner levels, and guide understanding with effective teaching patterns.

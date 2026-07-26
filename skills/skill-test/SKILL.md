@@ -1,5 +1,5 @@
 ---
-name: skill-test
+name: Skill Test
 slug: skill-test
 version: 1.0.0
 description: Test skills before using or publishing. Trial, compare, evaluate in isolation without affecting your environment.

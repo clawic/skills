@@ -1,5 +1,5 @@
 ---
-name: dreams
+name: Dreams
 slug: dreams
 version: 1.0.0
 description: Build a personal dream journal for recording, analyzing patterns, and exploring your subconscious.

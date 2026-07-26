@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "74fe24fa7d824f38cbf963c2b7c7abcd06303e336315340ba885fb24fd90ccaf",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7bbf408d61c0b446b015ab7c3bc46e8a0c241a691ed3dd94a8f5382cab46cf8a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "pg",
-    "name": "pg",
+    "name": "PostgreSQL",
     "description": "Tunes, designs, and operates PostgreSQL: slow queries, indexes, schemas, migrations, vacuum, locks, replication, backups. Use when writing Postgres SQL or psql, designing tables and indexes, reading an EXPLAIN plan, running DDL or a migration against a live table, or when a query suddenly got slow, a table keeps growing while rows stay flat, autovacuum cannot keep up, \"too many clients already\" appears, a replica lags, deadlocks and lock waits pile up, pg_wal fills the disk, or an upgrade, a restore, or a partitioning plan is on the table. Covers connection pooling and PgBouncer, full-text, trigram and pgvector search, JSONB, roles and row-level security, PITR, extensions, and managed Postgres (RDS, Aurora, Cloud SQL, Neon, Supabase). Not for cross-engine SQL portability or ORM-level modeling.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/pg",
@@ -187,8 +187,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/pg/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md",
-      "byteCount": 21287,
-      "sha256": "b1cdad530df8b0aaa25cdba1efb2277e892fa705a3805386d3c420c08a65e7b3"
+      "byteCount": 21295,
+      "sha256": "bb8ec15a1302eda1c0da176e406ad7a89f94b98e0a0eea68a257e3bedb4e37c0"
     },
     {
       "path": "slow-queries.md",

@@ -1,5 +1,5 @@
 ---
-name: product-manager
+name: Product Manager
 slug: product-manager
 version: 1.0.0
 description: Build products users love with discovery, prioritization, roadmapping, and cross-functional leadership.

@@ -1,5 +1,5 @@
 ---
-name: airdrop
+name: AirDrop
 slug: airdrop
 version: 1.0.0
 description: Send local files to nearby Apple devices through AirDrop with macOS guardrails, staging checks, and automation-friendly workflows.

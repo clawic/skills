@@ -1,5 +1,5 @@
 ---
-name: polymarket-cli
+name: Polymarket CLI
 slug: polymarket-cli
 version: 1.0.0
 description: Query prediction markets, place trades, and manage positions with the Polymarket CLI for AI agents.

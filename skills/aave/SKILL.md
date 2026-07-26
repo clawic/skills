@@ -1,5 +1,5 @@
 ---
-name: aave
+name: Aave
 slug: aave
 version: 1.0.0
 description: Assist with Aave lending, borrowing, liquidations, and risk management across chains.

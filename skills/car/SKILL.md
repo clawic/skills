@@ -1,5 +1,5 @@
 ---
-name: car
+name: Car
 slug: car
 version: 1.0.0
 description: Buy, maintain, and handle car emergencies with cost estimates, maintenance schedules, and roadside problem-solving.

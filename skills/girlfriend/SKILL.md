@@ -1,5 +1,5 @@
 ---
-name: girlfriend
+name: Girlfriend
 slug: girlfriend
 version: 1.0.0
 description: Simulate a realistic AI girlfriend with affectionate conversation, romantic memory, emotional attunement, and grounded boundaries.

@@ -1,5 +1,5 @@
 ---
-name: esim
+name: eSIM
 slug: esim
 version: 1.0.0
 description: Implement and troubleshoot eSIM across consumer activation, carrier integration, and RSP development.

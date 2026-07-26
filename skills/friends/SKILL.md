@@ -1,5 +1,5 @@
 ---
-name: friends
+name: Friends
 slug: friends
 version: 1.0.0
 description: Build a personal friendship system with interaction tracking, relationship health, and proactive maintenance reminders.

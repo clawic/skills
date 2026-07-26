@@ -1,5 +1,5 @@
 ---
-name: cycling
+name: Cycling
 slug: cycling
 version: 1.0.0
 description: Cycling training, bike fit, power zones, nutrition, safety, and maintenance essentials.

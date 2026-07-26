@@ -1,5 +1,5 @@
 ---
-name: models
+name: Models
 slug: models
 version: 1.0.0
 description: Choose AI models for coding, reasoning, and agents with cost-aware, task-matched recommendations.

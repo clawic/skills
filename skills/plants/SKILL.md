@@ -1,5 +1,5 @@
 ---
-name: plants
+name: Plants
 slug: plants
 version: 1.0.0
 description: Build a personal plant care system with watering schedules, care logs, and seasonal reminders.

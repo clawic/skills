@@ -1,5 +1,5 @@
 ---
-name: daily-news-digest
+name: Daily News Digest
 slug: daily-news-digest
 version: 1.0.0
 description: Personalized news briefings from your chosen sources, delivered morning or evening, with voice option and smart filtering.

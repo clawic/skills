@@ -1,5 +1,5 @@
 ---
-name: first-principles-thinking
+name: First Principles Thinking
 slug: first-principles-thinking
 version: 1.0.0
 description: Break problems to fundamentals, rebuild from truth, eliminate hidden assumptions.

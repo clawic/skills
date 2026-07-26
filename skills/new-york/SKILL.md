@@ -1,5 +1,5 @@
 ---
-name: new-york
+name: New York (State)
 slug: new-york
 version: 1.0.1
 description: Navigate New York State for living, moving, working, and visiting with region fit, taxes, winter risk, and daily logistics.

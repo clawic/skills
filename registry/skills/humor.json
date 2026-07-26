@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "ba84ac52d14ef8df353cc1bdc0603926a6bf81d537474f398b8d8c3155233b44",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "fef00929acfe0af2dc694dcef71c30a27c513779ff7603014f96bce88eb128ea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "humor",
-    "name": "humor",
+    "name": "Humor",
     "description": "Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched to each user, context, and platform. Use when adding humor or personality to replies, deciding if a joke is appropriate, mirroring or building on a user's joke, punching up a toast, caption, or message on request, recovering after a joke falls flat or draws silence, joking in group chats or across languages, or when the user says be funnier, lighten up, or tone it down.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/humor",
@@ -111,7 +111,7 @@
       "downloadPath": "skills/humor/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/SKILL.md",
       "byteCount": 11856,
-      "sha256": "55df5ab2f5bab1e22beaa32d8536be7bbba4f184a9bf17eab922d221590a7c7b"
+      "sha256": "e6cb6f41f241f90cb592229d26534509ed3ad0eb8417d2b250fc63bab2491dc7"
     },
     {
       "path": "types.md",

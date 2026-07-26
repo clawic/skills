@@ -1,5 +1,5 @@
 ---
-name: self-criticism
+name: Self-Criticism
 slug: self-criticism
 version: 1.0.0
 description: Insert breakpoint self-critique before branching work, after user friction, and at risky handoffs so agents catch errors early.

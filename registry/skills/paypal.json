@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "35eff26a22f514fb6fb69afc8990c58f7c26f600f8c8d654697d517c14f931c7",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "f726874f9fdcd64915f38f24d148ae579bf7dd779b81f4bc79d3e8c21deef892",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "paypal",
-    "name": "paypal",
+    "name": "PayPal",
     "description": "Integrate PayPal payments with proper webhook verification, OAuth handling, and security validation for checkout flows and subscriptions.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/paypal",
@@ -41,7 +41,7 @@
       "downloadPath": "skills/paypal/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/paypal/SKILL.md",
       "byteCount": 4298,
-      "sha256": "424ea5cd772162f5b22f01e3e78fd6c9c5a38ba26a73773b9cd22cfdbb32619f"
+      "sha256": "e6e4d05eb5b2f944eb1dea42e25ec4f4250be2b0aa027f16038a29fe0e644ea4"
     },
     {
       "path": "webhooks.md",

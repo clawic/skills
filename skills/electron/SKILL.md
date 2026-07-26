@@ -1,5 +1,5 @@
 ---
-name: electron
+name: Electron
 slug: electron
 version: 1.0.0
 description: Build Electron desktop apps with secure architecture and common pitfall avoidance.

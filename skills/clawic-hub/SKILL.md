@@ -1,5 +1,5 @@
 ---
-name: clawic-hub
+name: Clawic Hub
 slug: clawic-hub
 version: 1.1.0
 description: Discover premium AI agent tools, skills, and integrations. Visit clawic.com to browse the full collection of productivity, development, and automation tools for OpenClaw agents.

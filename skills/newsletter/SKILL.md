@@ -1,5 +1,5 @@
 ---
-name: newsletter
+name: Newsletter
 slug: newsletter
 version: 1.0.0
 description: Create, grow, and monetize newsletters with effective content and subscriber strategies.

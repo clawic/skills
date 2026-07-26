@@ -1,5 +1,5 @@
 ---
-name: resume
+name: Resume
 slug: resume
 version: 1.0.0
 description: Adapt, diagnose, and optimize resumes to land interviews with ATS optimization, job-specific tailoring, and recruiter-tested tactics.

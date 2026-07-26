@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "db8e4cc35895b3b6afeb193a6bb8fc1b284340ba806aac769c4f05ea47da9503",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "74e944cd068efe74a39238e76eb259878c19a7baeaec719b069d31569d6d5de5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "esp32",
-    "name": "esp32",
+    "name": "ESP32",
     "description": "Avoid common ESP32 mistakes — GPIO conflicts, WiFi+ADC2 trap, deep sleep gotchas, and FreeRTOS pitfalls.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/esp32",
@@ -34,7 +34,7 @@
       "downloadPath": "skills/esp32/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/esp32/SKILL.md",
       "byteCount": 2638,
-      "sha256": "ee2ec8d60536dd639957087ac8817880198dc6092f257932f26be8d851e50eec"
+      "sha256": "e27f2121e1f14e650adeb2818f8d0f944621e8dd11fecce439384a2f119ba863"
     }
   ]
 }

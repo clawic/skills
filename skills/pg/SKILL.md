@@ -1,5 +1,5 @@
 ---
-name: pg
+name: PostgreSQL
 slug: pg
 version: 1.0.3
 description: >-

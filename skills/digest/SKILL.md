@@ -1,5 +1,5 @@
 ---
-name: digest
+name: Digest
 slug: digest
 version: 1.0.2
 description: >-

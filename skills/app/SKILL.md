@@ -1,5 +1,5 @@
 ---
-name: app
+name: App
 slug: app
 version: 1.0.0
 description: Launch and scale mobile apps with ASO, viral loops, monetization, and App Store growth tactics.

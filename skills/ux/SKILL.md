@@ -1,5 +1,5 @@
 ---
-name: ux
+name: UX
 slug: ux
 version: 1.0.0
 description: Design and analyze user experiences that are intuitive, efficient, and aligned with user mental models.

@@ -1,5 +1,5 @@
 ---
-name: drawing
+name: Drawing
 slug: drawing
 version: 1.0.0
 description: Generate children's drawings and coloring pages with modular prompts, style packs, and print-ready constraints across image models.

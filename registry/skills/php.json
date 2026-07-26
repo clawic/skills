@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "f76fbd3e6b0cf1f47b9ba162a8f3c4bd7871685f4bdb399266d170746e3b4df1",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "bb7f356785d0d5481f7abf72e879b47cc9efb2f69d2690e3ddd449e3b6e37cec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "php",
-    "name": "php",
+    "name": "PHP",
     "description": "Writes, debugs, and reviews PHP: type juggling, arrays, OOP, Composer, PDO, sessions, PHP-FPM, OPcache, PHP 8 features. Use when PHP returns a blank white page or a 500 with no message, when \"headers already sent\", \"Allowed memory size exhausted\", \"Maximum execution time exceeded\", \"Class not found\" after a Composer install, or an undefined array key warning appears; when `==` compares wrong, `strpos` or `preg_match` returns a falsy match, accents turn into mojibake, `DateTime` shifts by a day or an hour, `json_encode` returns false, PDO refuses to bind a parameter or emulates prepares, sessions serialize parallel AJAX requests, nginx answers 502 or 504 in front of PHP-FPM, OPcache keeps serving old code, or a version upgrade breaks on deprecations. Also for escaping output, hashing passwords, sizing FPM workers, writing PHPUnit tests, and clearing PHPStan errors. Not for framework internals — `laravel` covers Eloquent, queues, and Laravel auth.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/php",
@@ -160,7 +160,7 @@
       "downloadPath": "skills/php/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/SKILL.md",
       "byteCount": 20444,
-      "sha256": "8457e23f6dbb5aea7999315b5ae564216ba9e520fb3d55c1cb68c362a871fdbb"
+      "sha256": "217c14b4527b0e73aedccadc02195c0a382d86903116f91aeab51f2753cfa752"
     },
     {
       "path": "static-analysis.md",

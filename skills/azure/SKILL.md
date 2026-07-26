@@ -1,5 +1,5 @@
 ---
-name: azure
+name: Azure
 slug: azure
 version: 1.0.0
 description: Deploy, monitor, and manage Azure services with battle-tested patterns.

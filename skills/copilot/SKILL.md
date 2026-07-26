@@ -1,5 +1,5 @@
 ---
-name: copilot
+name: Copilot
 slug: copilot
 version: 1.0.0
 description: Transform your agent from chatbot to copilot with context persistence, proactive anticipation, and opinionated help across sessions.

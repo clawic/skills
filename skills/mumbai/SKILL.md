@@ -1,5 +1,5 @@
 ---
-name: mumbai
+name: Mumbai
 slug: mumbai
 version: 1.0.0
 description: Navigate Mumbai as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, local trains, costs, visas, and local insights.

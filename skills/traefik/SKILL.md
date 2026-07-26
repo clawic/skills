@@ -1,5 +1,5 @@
 ---
-name: traefik
+name: Traefik
 slug: traefik
 version: 1.0.0
 description: Avoid common Traefik mistakes — router priority, TLS configuration, Docker labels syntax, and middleware ordering.

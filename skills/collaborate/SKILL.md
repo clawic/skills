@@ -1,5 +1,5 @@
 ---
-name: collaborate
+name: Collaborate
 slug: collaborate
 version: 1.0.2
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"

@@ -1,5 +1,5 @@
 ---
-name: trending-now
+name: Trending Now
 slug: trending-now
 version: 1.0.0
 description: Monitor internet and social media trends with heartbeat topic watchlists, freshness scoring, and concise alerts on what changed and why it matters.

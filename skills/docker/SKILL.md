@@ -1,5 +1,5 @@
 ---
-name: docker
+name: Docker
 slug: docker
 version: 1.0.7
 description: Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.

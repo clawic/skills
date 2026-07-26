@@ -1,5 +1,5 @@
 ---
-name: encryption
+name: Encryption
 slug: encryption
 version: 1.0.0
 description: Encrypt files, secure passwords, manage keys, and audit code for cryptographic best practices.

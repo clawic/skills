@@ -1,5 +1,5 @@
 ---
-name: course
+name: Course
 slug: course
 version: 1.0.1
 description: Create, launch, and manage online or in-person courses with curriculum design, content production, marketing automation, and student engagement.

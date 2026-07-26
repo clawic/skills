@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "bd3417b7ead8ab4671b2bb54873c20e23b561bf303d77b0a0fc96a3bf1442d88",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "62ae574be19118c7535035c4159dd6600a778c05a1ad7b976e2b2ac346121d06",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "skill-audit",
-    "name": "skill-audit",
+    "name": "Skill Audit",
     "description": "Audits agent skills for prompt injection, hidden instructions, data exfiltration, and supply-chain risk before install and after updates. Use when vetting or scanning a skill from a registry, repo, or pasted folder, deciding whether a skill is safe to install or trust, diff-auditing a skill update, sweeping everything installed, verifying a package or publisher name against typosquats, or when the agent behaved oddly and a skill may explain it. Covers stealth language, undeclared endpoints or paths, obfuscated and encoded payloads, malicious scripts, and compromised-skill incident response. Not for auditing application source code or judging whether a skill is useful.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/skill-audit",
@@ -76,7 +76,7 @@
       "downloadPath": "skills/skill-audit/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/SKILL.md",
       "byteCount": 12439,
-      "sha256": "3b2705181eddd9a29f59afea4c645632d53a506450cbe7bbee1536ba8684483f"
+      "sha256": "3d7ba759206b1c334729d7ccd7c816120ed85df9d47beb62b1fb8c06c86dd43a"
     },
     {
       "path": "supply-chain.md",

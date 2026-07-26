@@ -1,5 +1,5 @@
 ---
-name: embeddings
+name: Embeddings
 slug: embeddings
 version: 1.0.0
 description: Generate, store, and search vector embeddings with provider selection, chunking strategies, and similarity search optimization.

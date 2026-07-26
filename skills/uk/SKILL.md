@@ -1,5 +1,5 @@
 ---
-name: uk
+name: United Kingdom
 slug: uk
 version: 1.0.0
 description: Plan United Kingdom trips with nation-specific routing, ETA-aware entry rules, rail-road tradeoffs, and practical local logistics.

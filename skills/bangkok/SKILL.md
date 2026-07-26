@@ -1,7 +1,7 @@
 ---
-name: bangkok
+name: Bangkok
 slug: bangkok
-version: 1.0.2
+version: 1.0.4
 description: >-
   Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport,
   street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an
@@ -108,6 +108,7 @@ Thailand rewrites visa rules several times a year. Ranges below held as of early
 - Heuristic: if the user plans >90 days/year in Thailand on exempt entries, immigration will eventually flag them — route to a real visa in `visas.md`.
 
 ### 3. Tax Residency (the 2024 change)
+Compliance framing: everything below exists so the user meets Thai obligations and is not caught out by them. Thresholds and rules change; for a filing, a visa application, or anything with legal consequence, confirm with Thai immigration, the Revenue Department, or a licensed professional.
 - **≥180 days in Thailand in a calendar year = Thai tax resident** — automatic, on any visa, including chained tourist entries.
 - Since 1 Jan 2024, foreign income remitted by a resident is assessable whenever remitted (pre-2024 savings grandfathered). The DTV gives zero tax shelter; LTR is the exemption route.
 - Trigger: any plan crossing ~6 months/year → raise the 180-day rule once and route to `taxes.md`. The user who learns this at filing time learns it as back taxes.

@@ -1,5 +1,5 @@
 ---
-name: anxiety
+name: Anxiety (Tracker, Trigger Map, Coping Planner)
 slug: anxiety
 version: 1.0.0
 description: Track anxiety episodes, triggers, thoughts, and coping responses with therapy-ready logs, weekly trend reviews, and safety-first escalation cues.

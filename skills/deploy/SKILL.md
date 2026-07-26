@@ -1,5 +1,5 @@
 ---
-name: deploy
+name: Deploy
 slug: deploy
 version: 1.0.0
 description: Ship applications reliably with CI/CD, rollback strategies, and zero-downtime deployment patterns.

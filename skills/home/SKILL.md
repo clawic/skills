@@ -1,5 +1,5 @@
 ---
-name: home
+name: Home
 slug: home
 version: 1.0.0
 description: Home improvement, maintenance, and living space optimization with practical guidance.

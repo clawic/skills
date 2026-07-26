@@ -1,5 +1,5 @@
 ---
-name: devops
+name: DevOps
 slug: devops
 version: 1.0.0
 description: Automate deployments, manage infrastructure, and build reliable CI/CD pipelines.

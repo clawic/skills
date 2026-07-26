@@ -1,5 +1,5 @@
 ---
-name: svelte
+name: Svelte
 slug: svelte
 version: 1.0.1
 description: >-

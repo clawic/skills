@@ -1,5 +1,5 @@
 ---
-name: brave
+name: Brave Browser
 slug: brave
 version: 1.0.0
 description: Operate, automate, and troubleshoot Brave Browser with profiles, Shields, extensions, and Chromium debugging workflows.

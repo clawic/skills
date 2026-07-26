@@ -1,5 +1,5 @@
 ---
-name: opentable
+name: OpenTable
 slug: opentable
 version: 1.0.0
 description: Guide OpenTable availability, booking flows, and guest messaging with conversion-focused listing, pacing, and incident response playbooks.

@@ -1,5 +1,5 @@
 ---
-name: las-vegas
+name: Las Vegas
 slug: las-vegas
 version: 1.0.0
 description: Navigate Las Vegas as visitor, resident, remote worker, or entrepreneur with neighborhoods, entertainment, costs, and desert-living insights.

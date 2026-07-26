@@ -1,5 +1,5 @@
 ---
-name: rome
+name: Rome
 slug: rome
 version: 1.0.0
 description: Navigate Rome as visitor, expat, digital nomad, or entrepreneur with neighborhoods, transport, costs, visas, and Italian lifestyle insights.

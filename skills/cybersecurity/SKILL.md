@@ -1,5 +1,5 @@
 ---
-name: cybersecurity
+name: Cybersecurity
 slug: cybersecurity
 version: 1.0.0
 description: Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline.

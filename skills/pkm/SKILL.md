@@ -1,5 +1,5 @@
 ---
-name: pkm
+name: Personal Knowledge Base
 slug: pkm
 version: 1.0.1
 description: Help users build a personal knowledge base by organizing whatever they send into structured notes.

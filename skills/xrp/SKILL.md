@@ -1,5 +1,5 @@
 ---
-name: xrp
+name: XRP
 slug: xrp
 version: 1.0.0
 description: Assist with XRP transactions, destination tags, reserves, and XRPL features.

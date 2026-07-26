@@ -1,5 +1,5 @@
 ---
-name: wiki-js
+name: Wiki.js
 slug: wiki-js
 version: 1.0.0
 description: Deploy and manage Wiki.js documentation sites avoiding common configuration traps.

@@ -1,5 +1,5 @@
 ---
-name: fastapi
+name: FastAPI
 slug: fastapi
 version: 1.0.1
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"

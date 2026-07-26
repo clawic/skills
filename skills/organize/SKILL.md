@@ -1,5 +1,5 @@
 ---
-name: organize
+name: Organize
 slug: organize
 version: 1.0.0
 description: Proactively organize while working. Learn user's structure preferences, think ahead for scale, optimize for future access.

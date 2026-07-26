@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "0935d3ae44579e0ff4b4f8fba3b2ee41672dd5268a1bd88b50eae59d2f66a310",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7b0a925706c38b6d99a78a2347b2e016914fd1bfa9a4a29682f3ea106b5ec654",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "redis-store",
-    "name": "redis-store",
+    "name": "Redis",
     "description": "Designs, tunes, and debugs Redis: data structures, memory limits, persistence, Streams and queues, locks, replication, and cluster. Use when writing Redis commands or Lua, choosing between a hash, a sorted set and a stream, setting expirations on cache keys, building a queue, distributed lock, rate limiter, leaderboard, session store or counter, or when Redis answers OOM, MISCONF, CROSSSLOT, MOVED, BUSY, LOADING or WRONGTYPE, latency spikes, memory keeps growing, keys vanish early or never expire, a replica lags or a failover loses writes, KEYS or a big DEL freezes the server, connections are refused, or a cluster reshard, a Valkey / ElastiCache / MemoryDB / Upstash move, or a persistence and backup plan is on the table. Covers redis-cli forensics, pipelining, eviction policies, keyspace notifications, ACLs and exposed-instance hardening, and the JSON, Search and TimeSeries modules. Not for store-agnostic cache hierarchy strategy (caching) or picking a rate-limit algorithm (rate-limiting).",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/redis-store",
@@ -187,8 +187,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/redis-store/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/SKILL.md",
-      "byteCount": 27874,
-      "sha256": "b1b048aff35dbaa7d0fd3283e6b11f48d64293553e9db26e069dba8a18b06af8"
+      "byteCount": 27868,
+      "sha256": "f11e321cb8728e21b687cc8adb11fd543a1bea00c22c905d2670de4d7a553058"
     },
     {
       "path": "testing.md",

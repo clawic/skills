@@ -1,5 +1,5 @@
 ---
-name: crm
+name: CRM
 slug: crm
 version: 1.0.0
 description: Guide users building a personal CRM from simple files to structured database.

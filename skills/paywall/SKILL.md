@@ -1,5 +1,5 @@
 ---
-name: paywall
+name: Paywall
 slug: paywall
 version: 1.0.0
 description: Build high-converting paywalls for mobile apps and web with proven patterns, pricing strategies, and A/B testing.

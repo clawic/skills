@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "dbbadd04dc81708a1bd9776aa18548e43476e6f15e8f15b5ed8dc1ed733ea1be",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "432032c1022782602bf28a159145e07f4dac68389581ad0d3592125a3fe92bff",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "mongodb",
-    "name": "mongodb",
+    "name": "MongoDB",
     "description": "Designs MongoDB schemas, indexes, and aggregation pipelines, and debugs slow queries, connection errors, and replica set failures. Use when modeling documents, deciding embed vs reference, reading an explain plan, or fixing a COLLSCAN, and when a query times out, a pipeline aborts at the memory limit, a cursor dies mid-loop, the pool exhausts and server selection times out, writes fail with duplicate key or \"not writable primary\", a secondary lags, the oplog window closes, a shard key hotspots, or WiredTiger cache stalls the cluster. Covers mongosh and Compass, Atlas, Mongoose and driver connection strings, transactions and retry loops, change streams, time-series collections, Atlas Search and vector search, sharding, backups, restores, and upgrades. Not for SQL or relational modeling — normalization instincts actively mislead here.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/mongodb",
@@ -160,7 +160,7 @@
       "downloadPath": "skills/mongodb/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/SKILL.md",
       "byteCount": 22400,
-      "sha256": "ac7d9d7460ac43319a094a0f6994ac6237df51bb62a5c342021e93e6764dafde"
+      "sha256": "b614e08272645bf4a6fd8b7bf6d484df9481886d58032b546a017f682ba0a2ee"
     },
     {
       "path": "slow-queries.md",

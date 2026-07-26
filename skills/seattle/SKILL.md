@@ -1,5 +1,5 @@
 ---
-name: seattle
+name: Seattle
 slug: seattle
 version: 1.0.0
 description: Navigate Seattle as visitor, resident, or tech worker with neighborhoods, transport, costs, weather, and local insights.

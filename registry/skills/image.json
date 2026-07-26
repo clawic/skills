@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "6ae14caed50ebd40fc08ecb0b3a7b91714f0af0c92fadb1d5d8abe86b095f75e",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "82b94e966e1f6b52abddaee51527db3c8b413da1d3fc747cb9cdbdf22b62a4ec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "image",
-    "name": "image",
+    "name": "Image",
     "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/image",
@@ -76,7 +76,7 @@
       "downloadPath": "skills/image/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/image/SKILL.md",
       "byteCount": 14078,
-      "sha256": "12b441588701576bb5be4b84819518e7835f1dabcff24453fc23171d07517ba0"
+      "sha256": "7dcfe8e7e84cff83be137418913651e42574c53f6bc6eb08e9959a37d74e98d2"
     },
     {
       "path": "social.md",

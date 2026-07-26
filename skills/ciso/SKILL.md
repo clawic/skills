@@ -1,5 +1,5 @@
 ---
-name: ciso
+name: Chief Information Security Officer
 slug: ciso
 version: 1.0.0
 description: Lead security with infrastructure audits, vulnerability triage, compliance tracking, vendor assessment, and incident response.

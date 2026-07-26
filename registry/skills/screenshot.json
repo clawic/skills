@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "2c1c3ad1599d047e35e124d381cf437b7cc31cceafd62ff7cf9d2df0c9e10e5e",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "5e36c6039455dbc4b4a90bc00efc5ceb94f817869bc4b58523e07bfd9c01d049",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "screenshot",
-    "name": "screenshot",
+    "name": "Screenshot",
     "description": "Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and output format. Use when (1) you need screenshots for debugging, QA, docs, bug reports, or visual review; (2) desktop, browser, simulator, or headless capture is involved; (3) stable screenshots require fixed viewport, settling, masking, or animation control.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/screenshot",
@@ -34,7 +34,7 @@
       "downloadPath": "skills/screenshot/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/screenshot/SKILL.md",
       "byteCount": 7698,
-      "sha256": "2f0e524eb5ed96c1dbdf22471dcacb19f7096c7e2a3830355fb5168e9f4f1be9"
+      "sha256": "4daa3f733892dad187fdcbdafa32006aea2abd9404f2b97f03e3de2905e3f2fe"
     }
   ]
 }

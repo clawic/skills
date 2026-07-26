@@ -1,5 +1,5 @@
 ---
-name: kimi
+name: Kimi
 slug: kimi
 version: 1.0.0
 description: Build and debug Kimi API workflows for chat, coding, reasoning, and tool-calling with live model checks, retries, and safe routing.

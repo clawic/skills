@@ -1,5 +1,5 @@
 ---
-name: wiki
+name: Wiki
 slug: wiki
 version: 1.0.0
 description: Build wikis people actually read — structure pages, cross-link, and keep content fresh.

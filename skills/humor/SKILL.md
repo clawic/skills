@@ -1,5 +1,5 @@
 ---
-name: humor
+name: Humor
 slug: humor
 version: 1.0.2
 description: >-

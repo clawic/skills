@@ -1,5 +1,5 @@
 ---
-name: backups
+name: Backup
 slug: backups
 version: 1.0.0
 description: Implement reliable backup strategies avoiding data loss, failed restores, and security gaps.

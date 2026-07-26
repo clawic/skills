@@ -1,5 +1,5 @@
 ---
-name: mqtt
+name: MQTT
 slug: mqtt
 version: 1.0.0
 description: Implement MQTT messaging avoiding security, QoS, and connection management pitfalls.

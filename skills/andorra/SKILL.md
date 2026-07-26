@@ -1,5 +1,5 @@
 ---
-name: andorra
+name: Andorra
 slug: andorra
 version: 1.0.0
 description: Plan Andorra trips with parish-level tips for skiing, hiking, shopping, wellness, and cross-border logistics.

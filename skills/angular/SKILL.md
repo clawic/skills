@@ -1,5 +1,5 @@
 ---
-name: angular
+name: Angular
 slug: angular
 version: 1.0.1
 description: Build reliable Angular apps avoiding RxJS leaks, change detection traps, and DI pitfalls.

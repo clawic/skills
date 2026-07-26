@@ -1,5 +1,5 @@
 ---
-name: blender
+name: Blender
 slug: blender
 version: 1.0.0
 description: Avoid common Blender mistakes — transform application, modifier order, UV seams, and export settings for game engines.

@@ -1,5 +1,5 @@
 ---
-name: news
+name: News
 slug: news
 version: 1.0.1
 description: Personalized news briefings that learn your interests, formats, and timing preferences.

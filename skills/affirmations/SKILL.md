@@ -1,5 +1,5 @@
 ---
-name: affirmations
+name: Affirmations
 slug: affirmations
 version: 1.0.0
 description: Build a personal affirmation system for daily practice, custom affirmations, and mindset reinforcement.

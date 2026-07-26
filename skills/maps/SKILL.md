@@ -1,5 +1,5 @@
 ---
-name: maps
+name: Maps
 slug: maps
 version: 1.0.0
 description: Plan place search, geocoding, routing, and map-link workflows across Google Maps, Apple Maps, OpenStreetMap, and other providers.

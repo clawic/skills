@@ -1,5 +1,5 @@
 ---
-name: csv
+name: CSV
 slug: csv
 version: 1.0.0
 description: Parse and generate RFC 4180 compliant CSV that works across tools.

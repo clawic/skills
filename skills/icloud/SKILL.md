@@ -1,5 +1,5 @@
 ---
-name: icloud
+name: iCloud
 slug: icloud
 version: 1.0.0
 description: Let agents operate your iCloud Drive, Photos, and Find My safely with local 2FA authentication and explicit confirmation gates.

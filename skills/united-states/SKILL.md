@@ -1,5 +1,5 @@
 ---
-name: united-states
+name: United States
 slug: united-states
 version: 1.0.0
 description: Plan United States trips with region-specific routing, verified entry rules, transport logistics, and practical tourist safety.

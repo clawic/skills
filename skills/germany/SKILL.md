@@ -1,5 +1,5 @@
 ---
-name: germany
+name: Germany
 slug: germany
 version: 1.0.0
 description: Plan Germany trips with region-specific routing, rail-vs-car strategy, verified entry rules, and practical travel logistics.

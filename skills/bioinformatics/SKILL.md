@@ -1,5 +1,5 @@
 ---
-name: bioinformatics
+name: Bioinformatics
 slug: bioinformatics
 version: 1.0.0
 description: Analyze DNA, RNA, and protein sequences with alignment, variant calling, and expression analysis pipelines.

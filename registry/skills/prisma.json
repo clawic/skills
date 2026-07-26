@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "e313f35d0232974e2b49bacb33404ba14c0f874d7223ced14a88b45b660eddf5",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "173e5d3f1f1abbe904ba20755647f5fe527d4d0d8cba12eb42b665f164d60000",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "prisma",
-    "name": "prisma",
+    "name": "Prisma",
     "description": "Designs Prisma schemas, writes type-safe queries, and fixes migrations, connection pools, and N+1 relation loads in Node and TypeScript. Use when editing schema.prisma, modeling relations, indexes, enums, JSON or Decimal columns, or choosing between db push, migrate dev and migrate deploy; when a migration drifts, fails, or would drop a column on rename, or a database needs baselining; on errors P2002, P2025, P2024, P2034 or P3009; when connections run out on Lambda, Vercel or behind PgBouncer; when queries are slow or include loads too much; on transaction timeouts, deadlocks and optimistic locking; when Decimal or BigInt break JSON.stringify; for $queryRaw and TypedSQL; when porting $use middleware to client extensions; when prisma generate fails in Docker, Alpine or CI; and for seeding and test isolation. Not for database-server tuning or hand-written SQL (pg, sql), or other ORMs.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/prisma",
@@ -118,7 +118,7 @@
       "downloadPath": "skills/prisma/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/SKILL.md",
       "byteCount": 24270,
-      "sha256": "44db5ceef2d6d321bd5fd6b7d9881c34af82cb6813a01a27a81d780dbcb8ff7f"
+      "sha256": "11fba7f240bd0a73442df8a4a3443fedd15e663cd1237ca0ddc1e68bdcbdc5cd"
     },
     {
       "path": "testing.md",

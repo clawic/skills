@@ -1,5 +1,5 @@
 ---
-name: ielts
+name: IELTS
 slug: ielts
 version: 1.0.0
 description: Prepare for IELTS Academic or General Training with progress tracking, weak area analysis, band score targeting, and immigration pathway guidance.

@@ -1,5 +1,5 @@
 ---
-name: network
+name: Network
 slug: network
 version: 1.0.0
 description: Understand and troubleshoot computer networks with TCP/IP, DNS, routing, and diagnostic tools.

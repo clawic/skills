@@ -1,5 +1,5 @@
 ---
-name: codex
+name: Codex
 slug: codex
 version: 1.0.0
 description: Use Codex safely for repo-aware coding with explicit approvals, sandbox choices, MCP boundaries, and PR-ready verification workflows.

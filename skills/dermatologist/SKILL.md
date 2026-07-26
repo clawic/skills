@@ -1,5 +1,5 @@
 ---
-name: dermatologist
+name: Dermatologist
 slug: dermatologist
 version: 1.0.0
 description: Track skin lesions, rashes, photos, treatment response, and dermatology visit prep with conservative triage, case-based records, and privacy guardrails.

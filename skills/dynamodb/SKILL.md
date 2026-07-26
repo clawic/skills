@@ -1,5 +1,5 @@
 ---
-name: dynamodb
+name: DynamoDB
 slug: dynamodb
 version: 1.0.0
 description: Design DynamoDB tables and write efficient queries avoiding common NoSQL pitfalls.

@@ -1,5 +1,5 @@
 ---
-name: chef
+name: Chef
 slug: chef
 version: 1.0.0
 description: Help users cook with recipes, technique explanations, and ingredient substitutions.

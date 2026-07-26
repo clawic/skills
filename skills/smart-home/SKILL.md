@@ -1,5 +1,5 @@
 ---
-name: smart-home
+name: Smart Home
 slug: smart-home
 version: 1.0.0
 description: Set up, automate, secure, and troubleshoot smart home devices with protocol selection, network isolation, and ecosystem-agnostic automation patterns.

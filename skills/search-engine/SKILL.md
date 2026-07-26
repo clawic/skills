@@ -1,5 +1,5 @@
 ---
-name: search-engine
+name: Search Engine
 slug: search-engine
 version: 1.0.0
 description: Design and build any search engine with robust indexing, retrieval logic, relevance controls, and evaluation workflows for production systems.

@@ -1,5 +1,5 @@
 ---
-name: dhgate
+name: DHgate
 slug: dhgate
 version: 1.0.0
 description: Buy, source, and dispute on DHgate with supplier vetting, landed-cost checks, tracking triage, and counterfeit-risk control.

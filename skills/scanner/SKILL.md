@@ -1,5 +1,5 @@
 ---
-name: scanner
+name: Scanner
 slug: scanner
 version: 1.0.0
 description: Transform document photos into clean scanned-looking pages with automatic edge detection, cropping, and perspective correction. Use when (1) the user wants a photo to look scanned; (2) receipts, forms, pages, or papers need clean borders and straightening; (3) the result should be easier to read, share, archive, or pass to OCR.

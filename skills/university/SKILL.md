@@ -1,5 +1,5 @@
 ---
-name: university
+name: University
 slug: university
 version: 1.0.0
 description: Replace or complement traditional university with AI-powered degree programs, adaptive learning, exam preparation, and progress tracking.

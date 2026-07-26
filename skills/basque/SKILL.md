@@ -1,5 +1,5 @@
 ---
-name: basque
+name: Basque
 slug: basque
 version: 1.0.0
 description: Write Basque that sounds human. Not formal, not robotic, not AI-generated.

@@ -1,5 +1,5 @@
 ---
-name: vibe-research
+name: Vibe Research
 slug: vibe-research
 version: 1.0.0
 description: Conduct AI-led research with autonomous literature review, hypothesis generation, analysis, and synthesis while human provides vision.

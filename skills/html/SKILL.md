@@ -1,5 +1,5 @@
 ---
-name: html
+name: HTML
 slug: html
 version: 1.0.0
 description: Avoid common HTML mistakes — accessibility gaps, form pitfalls, and SEO oversights.

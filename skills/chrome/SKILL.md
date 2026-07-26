@@ -1,5 +1,5 @@
 ---
-name: chrome
+name: Chrome
 slug: chrome
 version: 1.0.0
 description: Chrome DevTools Protocol, extension Manifest V3, and debugging patterns that prevent common automation failures.

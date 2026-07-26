@@ -1,5 +1,5 @@
 ---
-name: dns
+name: DNS
 slug: dns
 version: 1.0.0
 description: Configure DNS records correctly with proper TTLs, email authentication, and migration strategies.

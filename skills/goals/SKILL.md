@@ -1,5 +1,5 @@
 ---
-name: goals
+name: Goals
 slug: goals
 version: 1.0.0
 description: Build a personal goal-setting system with milestones, tracking, and regular reviews.

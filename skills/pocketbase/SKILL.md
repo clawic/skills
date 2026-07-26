@@ -1,5 +1,5 @@
 ---
-name: pocketbase
+name: PocketBase
 slug: pocketbase
 version: 1.0.0
 description: Build backends with PocketBase collections, auth, and realtime.

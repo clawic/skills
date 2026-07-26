@@ -1,5 +1,5 @@
 ---
-name: monero
+name: Monero
 slug: monero
 version: 1.0.0
 description: Assist with Monero XMR transactions, privacy features, wallet management, and security practices.

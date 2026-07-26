@@ -1,5 +1,5 @@
 ---
-name: clo
+name: CLO / Chief Legal Officer
 slug: clo
 version: 1.0.1
 description: Navigate legal strategy with contracts, compliance, IP protection, and corporate governance.

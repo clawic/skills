@@ -1,5 +1,5 @@
 ---
-name: toronto
+name: Toronto
 slug: toronto
 version: 1.0.1
 description: Navigate Toronto as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.

@@ -1,5 +1,5 @@
 ---
-name: cfo
+name: CFO / Chief Financial Officer
 slug: cfo
 version: 1.0.6
 description: >-

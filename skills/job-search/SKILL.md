@@ -1,5 +1,5 @@
 ---
-name: job-search
+name: Job Search
 slug: job-search
 version: 1.0.1
 description: Navigate job hunting with application tracking, company research, and interview preparation.

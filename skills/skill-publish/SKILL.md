@@ -1,5 +1,5 @@
 ---
-name: skill-publish
+name: Skill Publish
 slug: skill-publish
 version: 1.0.0
 description: Safely publish skills to your platform's registry. Sanitize, format, verify, and publish without modifying your local files.

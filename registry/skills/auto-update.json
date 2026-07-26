@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "0c2fa2470e7e4f960675e487fad2a348af15aac4572d62f99471252a08fd9170",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "07d55770eaf6af0e82b95db741be9baab5397244a225cf25bc511c7b2781d190",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "auto-update",
-    "name": "auto-update",
+    "name": "Auto-Update (OpenClaw + Skills)",
     "description": "Auto-update OpenClaw and skills with OpenClaw cron, per-skill defaults, backups, and migration-aware summaries.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/auto-update",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/auto-update/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/auto-update/SKILL.md",
-      "byteCount": 12253,
-      "sha256": "1296e0cf58119a3dc96255ad4539144f63a94d69c77398521bc47f1e242ae5d9"
+      "byteCount": 12273,
+      "sha256": "2c99360b745338995915b19cfab862db32819b41273a4e6701f7d626e807e522"
     },
     {
       "path": "skills.md",

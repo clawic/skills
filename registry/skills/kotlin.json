@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "1c902e790546ab8dc59da9ca489e7ddd128fe0593187fcc52fdf6bc470937e22",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "94860dfaa6c57a23ea37b1b37eb456ca09a0d5b189b2e0eb1faa344b52430f1b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "kotlin",
-    "name": "kotlin",
+    "name": "Kotlin",
     "description": "Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state. Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring or Ktor. Not for Java-only codebases or Android release/build-system configuration.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/kotlin",
@@ -153,7 +153,7 @@
       "downloadPath": "skills/kotlin/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/SKILL.md",
       "byteCount": 18833,
-      "sha256": "712a27a5bb750790cd9cd684dcafc668b7f1b5be449950e19b74789bb4a9c3d1"
+      "sha256": "cba99bc1ffa90f19ed1584d52140e6c432c667f21964d8ea8afb336c3af09ac4"
     },
     {
       "path": "testing.md",

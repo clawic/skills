@@ -1,5 +1,5 @@
 ---
-name: polkadot
+name: Polkadot
 slug: polkadot
 version: 1.0.0
 description: Assist with Polkadot DOT transactions, staking, parachains, and cross-chain transfers.

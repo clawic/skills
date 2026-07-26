@@ -1,5 +1,5 @@
 ---
-name: bookmarks
+name: Bookmarks
 slug: bookmarks
 version: 1.0.0
 description: Build a unified bookmark system that imports saves from all your platforms into one organized, actionable collection.

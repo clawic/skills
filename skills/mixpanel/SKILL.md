@@ -1,5 +1,5 @@
 ---
-name: mixpanel
+name: Mixpanel
 slug: mixpanel
 version: 1.0.1
 description: Query Mixpanel analytics with funnels, retention, segmentation, and event tracking via REST API.

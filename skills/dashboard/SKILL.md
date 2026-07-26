@@ -1,5 +1,5 @@
 ---
-name: dashboard
+name: Dashboard
 slug: dashboard
 version: 1.0.1
 description: Build custom dashboards from any data source with local hosting and visual QA loops.

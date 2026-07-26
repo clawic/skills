@@ -1,5 +1,5 @@
 ---
-name: animations
+name: Animations
 slug: animations
 version: 1.0.0
 description: Create performant web animations with proper accessibility and timing.

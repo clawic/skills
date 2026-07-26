@@ -1,5 +1,5 @@
 ---
-name: nextjs
+name: NextJS
 slug: nextjs
 version: 1.1.2
 description: Builds Next.js apps with App Router — server components, caching, Server Actions, auth, deployment. Use for any Next.js routing, data, cache, or build issue.

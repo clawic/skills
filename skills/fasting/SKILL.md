@@ -1,5 +1,5 @@
 ---
-name: fasting
+name: Fasting Tracker
 slug: fasting
 version: 1.0.3
 description: >-

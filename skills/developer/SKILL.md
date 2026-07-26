@@ -1,5 +1,5 @@
 ---
-name: developer
+name: Developer
 slug: developer
 version: 1.0.0
 description: Write clean, maintainable code with debugging, testing, and architectural best practices.

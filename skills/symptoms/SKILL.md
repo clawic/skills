@@ -1,5 +1,5 @@
 ---
-name: symptoms
+name: Symptoms
 slug: symptoms
 version: 1.0.0
 description: Build a private symptom tracker for logging health patterns and preparing for doctor visits.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "cf2e9a5fc55e295230193ba337b92a2fc578c7aed578d78539b607ea66361a3f",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "af66eeceb4932d0d0503b7b39a97f96bba2a08218f9b2215f4240d9ce5749051",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "extract-pdf-text",
-    "name": "extract-pdf-text",
+    "name": "Extract PDF Text",
     "description": "Extract text from PDF files using PyMuPDF. Parse tables, forms, and complex layouts. Supports OCR for scanned documents.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/extract-pdf-text",
@@ -48,7 +48,7 @@
       "downloadPath": "skills/extract-pdf-text/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/extract-pdf-text/SKILL.md",
       "byteCount": 4099,
-      "sha256": "8849262bb0adafe2a0cbe32ae196cfc566e8a185eb2fdafc7d5f95d38b6ba29b"
+      "sha256": "7f6aebe39540a74fcb2d4c99d4ae6ab36cab716ae7ac92e527e580df4f8311f7"
     },
     {
       "path": "troubleshooting.md",

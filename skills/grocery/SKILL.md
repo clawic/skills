@@ -1,5 +1,5 @@
 ---
-name: grocery
+name: Grocery
 slug: grocery
 version: 1.0.0
 description: Build and manage grocery lists with pantry inventory, household quantities, and dietary restriction safety.

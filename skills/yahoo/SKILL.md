@@ -1,5 +1,5 @@
 ---
-name: yahoo
+name: Yahoo
 slug: yahoo
 version: 1.0.0
 description: Use Yahoo Finance for quotes, symbol search, watchlists, market briefs, and catalyst-aware stock decisions.

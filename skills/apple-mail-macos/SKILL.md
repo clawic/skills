@@ -1,5 +1,5 @@
 ---
-name: apple-mail-macos
+name: Apple Mail (MacOS)
 slug: apple-mail-macos
 version: 1.0.0
 description: Use local CLI to manage Gmail, Outlook, iCloud, Yahoo, Fastmail, and other mail accounts synced in Apple Mail on macOS, without APIs or OAuth.

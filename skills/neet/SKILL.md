@@ -1,5 +1,5 @@
 ---
-name: neet
+name: NEET
 slug: neet
 version: 1.0.0
 description: Prepare for India's medical entrance exam with progress tracking, weak area analysis, spaced repetition, and college targeting.

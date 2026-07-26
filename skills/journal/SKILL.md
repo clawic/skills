@@ -1,5 +1,5 @@
 ---
-name: journal
+name: Journal
 slug: journal
 version: 1.0.0
 description: Build a personal journaling practice with prompts, reflection, and pattern discovery.

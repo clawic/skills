@@ -1,5 +1,5 @@
 ---
-name: stripe-api-integration
+name: Stripe API Integration
 slug: stripe-api-integration
 version: 1.0.2
 description: Complete Stripe API integration for payments, subscriptions, checkout, invoices, webhooks, Connect, Issuing, Terminal, and Treasury.

@@ -1,5 +1,5 @@
 ---
-name: roblox
+name: Roblox
 slug: roblox
 version: 1.0.0
 description: Avoid common Roblox mistakes — server/client security, DataStore pitfalls, memory leaks, and replication gotchas.

@@ -1,5 +1,5 @@
 ---
-name: task-list
+name: Task List
 slug: task-list
 version: 1.0.0
 description: Run a conversational task list with Inbox, Today, Upcoming, recurring tasks, waiting items, projects, and review loops that stay trustworthy.

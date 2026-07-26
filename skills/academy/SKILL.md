@@ -1,5 +1,5 @@
 ---
-name: academy
+name: Academy
 slug: academy
 version: 1.0.0
 description: Run academies with enrollment, scheduling, staffing, billing, retention, and student outcome systems.

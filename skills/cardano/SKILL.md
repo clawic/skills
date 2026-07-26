@@ -1,5 +1,5 @@
 ---
-name: cardano
+name: Cardano
 slug: cardano
 version: 1.0.0
 description: Assist with Cardano ADA transactions, staking, native tokens, and UTxO model.

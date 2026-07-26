@@ -1,5 +1,5 @@
 ---
-name: android
+name: Android
 slug: android
 version: 1.0.1
 description: Android build system and deployment patterns

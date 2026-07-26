@@ -1,5 +1,5 @@
 ---
-name: math
+name: Math
 slug: math
 version: 1.0.0
 description: Teach, solve, and explore mathematics across all levels with adaptive depth and rigor.

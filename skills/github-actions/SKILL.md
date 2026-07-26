@@ -1,5 +1,5 @@
 ---
-name: github-actions
+name: GitHub Actions
 slug: github-actions
 version: 1.0.0
 description: Design, debug, and harden GitHub Actions workflows with reusable pipelines, safe permissions, and faster CI and release automation.

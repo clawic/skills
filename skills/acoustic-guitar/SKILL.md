@@ -1,5 +1,5 @@
 ---
-name: acoustic-guitar
+name: Acoustic Guitar
 slug: acoustic-guitar
 version: 1.0.0
 description: Acoustic guitar practice strategies, fingerpicking, strumming, and progress tracking.

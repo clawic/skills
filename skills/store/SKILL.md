@@ -1,5 +1,5 @@
 ---
-name: store
+name: Store
 slug: store
 version: 1.0.0
 description: Manage a physical store of any kind with opening routines, inventory control, staffing, cash discipline, merchandising, and weekly reviews.

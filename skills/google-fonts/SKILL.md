@@ -1,5 +1,5 @@
 ---
-name: google-fonts
+name: Google Fonts
 slug: google-fonts
 version: 1.0.0
 description: Load Google Fonts with proper performance, subsetting, and proven font pairings.

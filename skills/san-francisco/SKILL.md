@@ -1,5 +1,5 @@
 ---
-name: san-francisco
+name: San Francisco
 slug: san-francisco
 version: 1.1.0
 description: Navigate San Francisco as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.

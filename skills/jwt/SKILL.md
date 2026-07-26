@@ -1,5 +1,5 @@
 ---
-name: jwt
+name: JWT
 slug: jwt
 version: 1.0.1
 description: Implement secure JWT authentication with proper validation, token lifecycle, and key management.

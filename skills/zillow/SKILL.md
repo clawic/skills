@@ -1,5 +1,5 @@
 ---
-name: zillow
+name: Zillow
 slug: zillow
 version: 1.0.0
 description: Navigate Zillow for buying, selling, investing, and market research with Zestimate interpretation, pricing strategy, and ROI analysis.

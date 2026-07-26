@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "b18de7a15e6bb7c6f9eac846239dac9304fe5df8a72e7a9c97bb69d72d3f3caa",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "671c1aab8a96a9ec3c6a96b051cbfad37363d6d0474356595d0603818bbb1969",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "terraform",
-    "name": "terraform",
+    "name": "Terraform",
     "description": "Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or \"forces replacement\", when renaming, importing, or moving resources between modules and states, when a state lock is stuck or state is lost or corrupted, when for_each fails because a value is not known until apply, when pinning providers or surviving a major version upgrade, or when wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu, tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which cloud services to build — see aws, gcp, or azure.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/terraform",
@@ -125,7 +125,7 @@
       "downloadPath": "skills/terraform/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md",
       "byteCount": 19230,
-      "sha256": "ba432ca59b25861f736da4d3b3b1bf10cab209ddf44a690e718d70b619034730"
+      "sha256": "0904a42ff07ef18c2f1aaaca9b9973b77d9aacc5118a6e59d6ed3e2a62a32115"
     },
     {
       "path": "state.md",

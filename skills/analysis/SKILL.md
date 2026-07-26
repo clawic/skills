@@ -1,5 +1,5 @@
 ---
-name: analysis
+name: Analysis
 slug: analysis
 version: 1.0.0
 description: Run deep system health checks across workspace, config, skills, and integrations with prioritized findings and remediation.

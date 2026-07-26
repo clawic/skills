@@ -1,5 +1,5 @@
 ---
-name: computer-science
+name: Computer Science
 slug: computer-science
 version: 1.0.0
 description: Guide CS learning from first programs to research and industry practice.

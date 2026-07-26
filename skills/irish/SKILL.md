@@ -1,5 +1,5 @@
 ---
-name: irish
+name: Irish
 slug: irish
 version: 1.0.0
 description: Write Irish that sounds human. Not formal, not robotic, not AI-generated.

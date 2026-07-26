@@ -1,5 +1,5 @@
 ---
-name: tattoo
+name: Tattoo
 slug: tattoo
 version: 1.0.0
 description: Plan, research, and prepare for tattoos with artist discovery, design exploration, cultural research, and aftercare guidance.

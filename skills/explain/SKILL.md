@@ -1,5 +1,5 @@
 ---
-name: explain
+name: Explain
 slug: explain
 version: 1.0.2
 description: Learns how to explain things to your human. Adapts format, depth, and style by topic.

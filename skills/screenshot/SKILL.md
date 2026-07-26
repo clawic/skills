@@ -1,5 +1,5 @@
 ---
-name: screenshot
+name: Screenshot
 slug: screenshot
 version: 1.0.1
 description: Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and output format. Use when (1) you need screenshots for debugging, QA, docs, bug reports, or visual review; (2) desktop, browser, simulator, or headless capture is involved; (3) stable screenshots require fixed viewport, settling, masking, or animation control.

@@ -1,5 +1,5 @@
 ---
-name: financial-literacy
+name: Finance
 slug: financial-literacy
 version: 1.0.0
 description: Support financial understanding from personal budgeting to professional analysis and research.

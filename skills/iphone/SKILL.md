@@ -1,5 +1,5 @@
 ---
-name: iphone
+name: iPhone
 slug: iphone
 version: 1.0.0
 description: Run iPhone mission playbooks for battery, storage, privacy, connectivity, and daily automation with live operator-style guidance.

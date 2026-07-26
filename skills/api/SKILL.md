@@ -1,5 +1,5 @@
 ---
-name: api
+name: API / Application Programming Interface
 slug: api
 version: 1.3.7
 description: >-

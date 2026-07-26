@@ -1,5 +1,5 @@
 ---
-name: plant-identifier
+name: Plant Identifier
 slug: plant-identifier
 version: 1.0.0
 description: Identify plants from photos using trait-based analysis, ranked species candidates, follow-up capture guidance, and a reusable local log.

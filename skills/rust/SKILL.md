@@ -1,5 +1,5 @@
 ---
-name: rust
+name: Rust
 slug: rust
 version: 1.0.2
 description: >-

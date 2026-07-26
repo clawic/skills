@@ -1,5 +1,5 @@
 ---
-name: terraform
+name: Terraform
 slug: terraform
 version: 1.0.3
 description: >-

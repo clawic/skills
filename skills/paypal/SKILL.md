@@ -1,5 +1,5 @@
 ---
-name: paypal
+name: PayPal
 slug: paypal
 version: 1.0.0
 description: Integrate PayPal payments with proper webhook verification, OAuth handling, and security validation for checkout flows and subscriptions.

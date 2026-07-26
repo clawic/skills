@@ -1,5 +1,5 @@
 ---
-name: flashcards
+name: Flashcards
 slug: flashcards
 version: 1.0.0
 description: Create effective flashcards with optimal formatting, spaced repetition integration, and memory science principles.

@@ -1,5 +1,5 @@
 ---
-name: avalanche
+name: Avalanche
 slug: avalanche
 version: 1.0.0
 description: Assist with Avalanche C-Chain transactions, AVAX transfers, subnets, and cross-chain bridges.

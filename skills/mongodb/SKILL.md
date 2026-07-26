@@ -1,5 +1,5 @@
 ---
-name: mongodb
+name: MongoDB
 slug: mongodb
 version: 1.0.4
 description: >-

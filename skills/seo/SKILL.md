@@ -1,5 +1,5 @@
 ---
-name: seo
+name: SEO (Site Audit + Content Writer + Competitor Analysis)
 slug: seo
 version: 1.0.6
 description: "Improves Google rankings with search engine optimization (SEO): audits, keyword research, content optimization, technical fixes, schema, and links. Not for paid search ads (PPC/SEM) or app store optimization. Use when organic traffic or rankings drop, pages are not indexed or get deindexed, crawl errors appear in Search Console, or a migration, redesign, or domain change is planned. Also for writing or refreshing content to rank, picking target keywords, fixing titles, canonicals, sitemaps, robots.txt, redirects, hreflang, duplicate content, or Core Web Vitals, and adding schema markup. And for chasing featured snippets or AI Overview citations, recovering from a Google penalty, core update, or manual action, optimizing local, ecommerce, SaaS, or publisher sites, or setting up Bing Webmaster Tools and IndexNow."

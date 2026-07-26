@@ -1,5 +1,5 @@
 ---
-name: welsh
+name: Welsh
 slug: welsh
 version: 1.0.0
 description: Write Welsh that sounds human. Not formal, not robotic, not AI-generated.

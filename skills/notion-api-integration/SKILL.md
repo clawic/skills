@@ -1,5 +1,5 @@
 ---
-name: notion-api-integration
+name: Notion API Integration
 slug: notion-api-integration
 version: 1.0.2
 description: Complete Notion API for databases, pages, blocks, users, search, comments, and property types with pagination and error handling.

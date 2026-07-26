@@ -1,5 +1,5 @@
 ---
-name: font-awesome
+name: Font Awesome
 slug: font-awesome
 version: 1.0.0
 description: Add Font Awesome icons to web projects with CDN, npm, React, and SVG sprite methods.

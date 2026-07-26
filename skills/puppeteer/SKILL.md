@@ -1,5 +1,5 @@
 ---
-name: puppeteer
+name: Puppeteer
 slug: puppeteer
 version: 1.0.0
 description: Automate Chrome and Chromium with Puppeteer for scraping, testing, screenshots, and browser workflows.

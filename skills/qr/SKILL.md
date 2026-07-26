@@ -1,5 +1,5 @@
 ---
-name: qr
+name: QR
 slug: qr
 version: 1.0.0
 description: Generate, customize, and deploy QR codes with proper sizing, error correction, and use-case optimization.

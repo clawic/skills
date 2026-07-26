@@ -1,5 +1,5 @@
 ---
-name: usmle
+name: USMLE
 slug: usmle
 version: 1.0.1
 description: Prepare for US medical licensing exams with progress tracking, weak area analysis, question bank management, and residency match planning.

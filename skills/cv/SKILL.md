@@ -1,5 +1,5 @@
 ---
-name: cv
+name: CV
 slug: cv
 version: 1.0.0
 description: Create ATS-optimized resumes and CVs with proper structure, metrics, and industry targeting.

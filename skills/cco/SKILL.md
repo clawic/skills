@@ -1,5 +1,5 @@
 ---
-name: cco
+name: CCO / Chief Customer Officer
 slug: cco
 version: 1.0.2
 description: Lead customer success with retention strategies, health scoring, expansion revenue, and lifecycle management.

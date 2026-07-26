@@ -1,5 +1,5 @@
 ---
-name: yaml
+name: YAML
 slug: yaml
 version: 1.0.0
 description: Write valid YAML that parses predictably across languages and versions.

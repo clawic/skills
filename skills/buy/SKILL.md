@@ -1,5 +1,5 @@
 ---
-name: buy
+name: Buy
 slug: buy
 version: 1.0.0
 description: Research purchases, compare prices, detect scams, and negotiate better deals.

@@ -1,5 +1,5 @@
 ---
-name: community-manager
+name: Community Manager
 slug: community-manager
 version: 1.0.0
 description: Manage online communities with engagement strategies, content planning, and audience growth.

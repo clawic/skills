@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "e95ec3776fcab5d9326f033b770d7227a8946b6f979065df386ee0ee94e63d71",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "fa601671ca5ab54f821b3a3e55c4e77f5a6545debb681c26173fd074f58eae6f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "skill-manager",
-    "name": "skill-manager",
+    "name": "Skill Manager",
     "description": "Manage installed skills lifecycle: suggest by context, track installations, check updates, and cleanup unused.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/skill-manager",
@@ -41,7 +41,7 @@
       "downloadPath": "skills/skill-manager/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-manager/SKILL.md",
       "byteCount": 2747,
-      "sha256": "0612c08401a8c7e7c73a77685a3ff7179dee12b7600dd725e0ef74c75b88affe"
+      "sha256": "d0c42a2179ce4492dc78835bff9e222dc6e17d8bdb8e371e6936a24018901c14"
     },
     {
       "path": "suggestions.md",

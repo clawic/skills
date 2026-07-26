@@ -1,5 +1,5 @@
 ---
-name: kernel
+name: Kernel
 slug: kernel
 version: 1.0.0
 description: Avoid common Linux kernel mistakes — atomic context violations, allocation failures, and locking traps.

@@ -1,5 +1,5 @@
 ---
-name: psychologist
+name: Psychologist
 slug: psychologist
 version: 1.0.0
 description: Provide empathetic emotional support with active listening and evidence-based techniques.

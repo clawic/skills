@@ -1,5 +1,5 @@
 ---
-name: google-workspace-cli
+name: Google Workspace CLI
 slug: google-workspace-cli
 version: 1.0.3
 description: >-

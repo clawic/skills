@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "1619feb80c24ad27c1efd5faf5c4719b1891f73aa8b4028705518a241a292b5e",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "cb602176316f810f834b1bec7b8802020d26190d83cbfa74871dc9db3a01faed",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "bash",
-    "name": "bash",
+    "name": "Bash",
     "description": "Writes, debugs, and hardens Bash shell scripts — quoting, arrays, strict mode, traps, argument parsing, and macOS/Linux portability. Use when writing or reviewing any script, one-liner, cron job, deploy script, container entrypoint, or CI step; when a script breaks on spaces in filenames, exits silently, ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS, globs, arrays, heredocs, process substitution, trap, getopts, or mapfile misbehave; when shellcheck flags SC2086 and friends; when unbound variable, bad substitution, command not found, ambiguous redirect, or unexpected end of file show up; when a script works by hand but fails under cron, systemd, sudo, or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and not for host-level cron, systemd, or permission failures (linux).",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/bash",
@@ -160,7 +160,7 @@
       "downloadPath": "skills/bash/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md",
       "byteCount": 18270,
-      "sha256": "4acdc0d919e84b5a209fd22e100a438ef7d945ba577638ff838e443ef9fa2b29"
+      "sha256": "27e3b1c7432cbed144f4d9bb5878e71239c18cd9059e81ecdacedbe9fe860bfd"
     },
     {
       "path": "testing.md",

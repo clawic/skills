@@ -1,5 +1,5 @@
 ---
-name: mba
+name: MBA
 slug: mba
 version: 1.0.0
 description: Complete MBA curriculum with structured learning, case studies, financial analysis, and practical business decision-making.

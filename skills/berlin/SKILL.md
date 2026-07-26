@@ -1,5 +1,5 @@
 ---
-name: berlin
+name: Berlin
 slug: berlin
 version: 1.0.0
 description: Navigate Berlin as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

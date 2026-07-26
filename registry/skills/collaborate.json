@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "9c93c0822a6d9a36c0695fee02b75ae5b3d7587227051eb68568e2806b812a17",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7af66ec21d335bf4b42662c5b41a8cd7e8fff112cff509e7e64f877b3abbaad7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "collaborate",
-    "name": "collaborate",
+    "name": "Collaborate",
     "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/collaborate",
@@ -104,7 +104,7 @@
       "downloadPath": "skills/collaborate/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/SKILL.md",
       "byteCount": 14420,
-      "sha256": "c8386f1cb176f8645a0c767ae49f0e377526a2a049c07e7b4e7ef8a74b5b8878"
+      "sha256": "39087b67a3e9be6caaf556f05663bc7c3bac55808e2bcf017f2f0cb2c6bb5afd"
     },
     {
       "path": "vs-delegate.md",

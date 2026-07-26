@@ -1,5 +1,5 @@
 ---
-name: fitness
+name: Fitness
 slug: fitness
 version: 1.0.3
 description: Plans and progresses workout programs — strength, muscle building, cardio, endurance, and general conditioning — with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.

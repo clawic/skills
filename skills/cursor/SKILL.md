@@ -1,5 +1,5 @@
 ---
-name: cursor
+name: Cursor
 slug: cursor
 version: 1.0.0
 description: Use Cursor safely across editor, CLI, rules, background agents, Bugbot, and MCP workflows with repo-aware context and reviewable execution.

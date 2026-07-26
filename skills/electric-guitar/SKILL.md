@@ -1,5 +1,5 @@
 ---
-name: electric-guitar
+name: Electric Guitar
 slug: electric-guitar
 version: 1.0.0
 description: Electric guitar practice strategies, technique, tone shaping, and progress tracking.

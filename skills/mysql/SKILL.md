@@ -1,5 +1,5 @@
 ---
-name: mysql
+name: MySQL
 slug: mysql
 version: 1.0.1
 description: Write correct MySQL queries with proper character sets, indexing, transactions, and production patterns.

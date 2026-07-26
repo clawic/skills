@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "a92ff669558ff97e3fadb2e746ece3627638b7191f323c2c68872487b0e914c5",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "3dbeea0e13d5ef98a326136664198223838950752b08eaa2e3861865a7129b18",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "google-workspace-cli",
-    "name": "google-workspace-cli",
+    "name": "Google Workspace CLI",
     "description": "Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK — bulk mail search and send, file sharing and export, event, user, and group management — when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/google-workspace-cli",
@@ -132,7 +132,7 @@
       "downloadPath": "skills/google-workspace-cli/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/google-workspace-cli/SKILL.md",
       "byteCount": 16544,
-      "sha256": "6872f4516faff15e892d47b0f816c301aeabd195c0bf4fc73b7f238d2b5ea42e"
+      "sha256": "5e8c7c8e358f484457baacc1e10b18d9f4481e2f8c80eb9844720d7999339a05"
     },
     {
       "path": "troubleshooting.md",

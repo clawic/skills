@@ -1,5 +1,5 @@
 ---
-name: branding
+name: Branding
 slug: branding
 version: 1.0.0
 description: Build distinctive brand identity with clear positioning, voice, and visual consistency.

@@ -1,5 +1,5 @@
 ---
-name: glovo
+name: Glovo
 slug: glovo
 version: 1.0.0
 description: Navigate Glovo in a live browser session to compare stores, manage carts, and reach checkout safely before ordering.

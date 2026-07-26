@@ -1,5 +1,5 @@
 ---
-name: science
+name: Science
 slug: science
 version: 1.0.0
 description: Guide scientific understanding from childhood wonder to research precision.

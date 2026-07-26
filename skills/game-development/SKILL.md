@@ -1,5 +1,5 @@
 ---
-name: game-development
+name: Game Development
 slug: game-development
 version: 1.0.0
 description: Design and ship browser-playable games from no-build Three.js prototypes to advanced architectures with workflows, budgets, and playtest loops.

@@ -1,5 +1,5 @@
 ---
-name: agent
+name: Agent
 slug: agent
 version: 1.0.0
 description: Define agent identity, personality, voice, and boundaries to create assistants that feel authentic rather than generic.

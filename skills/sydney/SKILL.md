@@ -1,5 +1,5 @@
 ---
-name: sydney
+name: Sydney
 slug: sydney
 version: 1.0.0
 description: Navigate Sydney as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, beaches, transport, visas, and local insights.

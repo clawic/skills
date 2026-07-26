@@ -1,5 +1,5 @@
 ---
-name: clients
+name: Clients
 slug: clients
 version: 1.0.0
 description: Build a personal client system for tracking relationships, projects, documents, and history.

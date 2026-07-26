@@ -1,5 +1,5 @@
 ---
-name: passwords
+name: Publish Passwords
 slug: passwords
 version: 1.1.0
 description: Local credential vault with OS keychain integration, encrypted storage, and session-based access control.

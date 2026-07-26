@@ -1,5 +1,5 @@
 ---
-name: screenshots
+name: Screenshots
 slug: screenshots
 version: 1.0.1
 description: Create professional App Store and Google Play screenshots with automatic sizing, device frames, marketing copy, and iterative visual learning.

@@ -1,5 +1,5 @@
 ---
-name: indonesia
+name: Indonesia
 slug: indonesia
 version: 1.0.0
 description: Plan Indonesia trips with island-routing logic, verified entry guidance, weather-aware logistics, and practical local execution.

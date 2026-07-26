@@ -1,5 +1,5 @@
 ---
-name: saas
+name: SaaS
 slug: saas
 version: 1.0.0
 description: Build and scale profitable software-as-a-service with viral growth, retention, and monetization strategies.

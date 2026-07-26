@@ -1,5 +1,5 @@
 ---
-name: inbox
+name: Inbox
 slug: inbox
 version: 1.0.0
 description: Run any inbox with triage frameworks, cognitive load reduction, and multi-channel prioritization.

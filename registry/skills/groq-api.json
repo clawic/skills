@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "1343a0fd274d5181fba22d9e0c0173f76a3504dfee306b2122e375fa7adb5718",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "6e5a8e7e39e4ce791e0649876e9b16f17fc633a5c2ad8d8b2daf23c5bf7f3f06",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "groq-api",
-    "name": "groq-api",
+    "name": "Groq API Inference",
     "description": "Build and debug Groq API chat and speech workflows with low-latency routing, structured outputs, and production-safe patterns.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/groq-api",
@@ -61,8 +61,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/groq-api/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/groq-api/SKILL.md",
-      "byteCount": 5368,
-      "sha256": "7e73e97fa65c4fdd6c947b301922fa5d98f8d926897c69a80d7b4ab770876fc5"
+      "byteCount": 5378,
+      "sha256": "9d576cfdcec9a78677496720138d72ae41e680b7ffb16f83fc973253ec2bffcd"
     },
     {
       "path": "troubleshooting.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "6338b572817f3a27b78429c86b7e1598682307ec3ab1041b2d8a9bdaa90f1359",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "2430b4c8815e281cd8c77ea132ba0e70b0c3259fdd791eb6671fb6cd9015f6f6",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "svelte",
-    "name": "svelte",
+    "name": "Svelte",
     "description": "Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters. Use when the UI does not update after a state change, an effect loops forever (\"effect_update_depth_exceeded\"), props or bindings stop reacting, a Map or class field is not tracked, state leaks between users on the server, \"window is not defined\" breaks the build, markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node, Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes, converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots to snippets and on:click to onclick, typing props and route data in TypeScript, testing components with Vitest or Playwright, and cutting bundle size and rerender cost. Not for Vue or Nuxt, React, or plain browser JavaScript semantics.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/svelte",
@@ -125,7 +125,7 @@
       "downloadPath": "skills/svelte/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/SKILL.md",
       "byteCount": 20033,
-      "sha256": "07be2d3ab4d9cc9882e41c455c01acee3b195816096d3523b9770f0369c7a5b7"
+      "sha256": "0b23dcf9ba5b0a51611ae401465925bfcdfcd96cf3b82922e50371df823e41e0"
     },
     {
       "path": "ssr.md",

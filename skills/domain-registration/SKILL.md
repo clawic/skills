@@ -1,5 +1,5 @@
 ---
-name: domain-registration
+name: Domain Registration
 slug: domain-registration
 version: 1.0.0
 description: Register, transfer, renew, and secure domains across major provider APIs and dashboards with provider-specific workflows and rollback-safe execution.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "2a6f574cddddfe3e4db609710dc7e17f2046ef0d27bddd0da2a6a49fd8d95471",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "236b681c3f787620ff91e8b3f4acdf19293cf8b547885544b8bab87adf9b3447",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "speak",
-    "name": "speak",
+    "name": "Speak",
     "description": "Writes and converts text into natural speech-ready output for any TTS engine: normalization, prosody, pronunciation, and voice preferences. Use when a reply will be read aloud or sent to a voice channel, when writing voiceover scripts, spoken briefings, voice notifications, or dialogue turns, when TTS sounds robotic, reads markdown, URLs, or code aloud, mispronounces names, garbles numbers, dates, or acronyms, speaks too fast or in the wrong accent, or when the user corrects pronunciation, pacing, or voice choice. Not for speech-to-text or live two-way call setup.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/speak",
@@ -111,7 +111,7 @@
       "downloadPath": "skills/speak/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/speak/SKILL.md",
       "byteCount": 15146,
-      "sha256": "3dea6334a27926db304506680ce94d7acfb24437977bb226ce652d1c20191035"
+      "sha256": "dc26990acf9b7da8fc1dba052bf830571c0c8c658b7e6fd2b2d5638c5edc2831"
     },
     {
       "path": "ssml.md",

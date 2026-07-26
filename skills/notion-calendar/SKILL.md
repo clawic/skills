@@ -1,5 +1,5 @@
 ---
-name: notion-calendar
+name: Notion Calendar
 slug: notion-calendar
 version: 1.0.0
 description: Manage Notion calendar databases with date-aware search, page creation, rescheduling, and safe workflows for planning views.

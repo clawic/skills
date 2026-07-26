@@ -1,5 +1,5 @@
 ---
-name: cooking
+name: Cooking
 slug: cooking
 version: 1.0.0
 description: Help users cook better — recipe adaptation, substitutions, troubleshooting, and skill building.

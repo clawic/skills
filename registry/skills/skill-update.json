@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "30c49a62c845835baae50aa84d8386d407fc2e846b4dbdfd64fd26032e4f0fd7",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "cfde6eecb8bccead2c2bfde37e0155c7a8662de14b684a29ec4861ad7a09da5f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "skill-update",
-    "name": "skill-update",
+    "name": "Skill Update",
     "description": "Updates installed agent skills safely: version check, diff preview, backup, approval, data migration, and rollback. Use when updating or upgrading a skill, checking for newer versions, previewing what changed before applying, when a skill breaks, misbehaves, or loses data right after an update, when saved data or config must migrate across a version bump, when local edits to an installed skill would collide with the new version, or when bringing every skill or every agent's copy current. Not for installing new skills (skill-finder) or publishing skills you own (skill-publish).",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/skill-update",
@@ -76,7 +76,7 @@
       "downloadPath": "skills/skill-update/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/SKILL.md",
       "byteCount": 14423,
-      "sha256": "bf65ba21ad7cf61f9b485ec186221c88d522fa2e9380f19230f168a296f9b216"
+      "sha256": "b640aca710b97fa8b6d67d843b70e49d16be7941c3f014ff27839ffeed70f63f"
     }
   ]
 }

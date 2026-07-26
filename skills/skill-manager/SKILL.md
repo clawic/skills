@@ -1,5 +1,5 @@
 ---
-name: skill-manager
+name: Skill Manager
 slug: skill-manager
 version: 1.0.3
 description: 'Manage installed skills lifecycle: suggest by context, track installations, check updates, and cleanup unused.'

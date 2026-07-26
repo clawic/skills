@@ -1,5 +1,5 @@
 ---
-name: influencer
+name: Influencer
 slug: influencer
 version: 1.0.0
 description: Create, manage, and scale AI-generated virtual influencers with consistent characters, multi-platform content, and monetization workflows.

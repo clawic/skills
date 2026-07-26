@@ -1,5 +1,5 @@
 ---
-name: cassandra
+name: Cassandra
 slug: cassandra
 version: 1.0.0
 description: Design Cassandra tables, write efficient queries, and avoid distributed database pitfalls.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "8cc6ad8b4adc4d38c35b319bbcc4d5c9dc9af859e101cb8ff6ebab6b234d63ee",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "5a7266a2713cf31a9952a79c31b8b5655dfae7d400a2965dab7cffa4011df10b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "plant-identifier",
-    "name": "plant-identifier",
+    "name": "Plant Identifier",
     "description": "Identify plants from photos using trait-based analysis, ranked species candidates, follow-up capture guidance, and a reusable local log.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/plant-identifier",
@@ -55,7 +55,7 @@
       "downloadPath": "skills/plant-identifier/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plant-identifier/SKILL.md",
       "byteCount": 5099,
-      "sha256": "faaf52184451609d49bf3ae71e0c1c11a3c259bd41ef9ab6b710aa994531038e"
+      "sha256": "c261d7be3b08c5d375e50ddad795f223eef78fde740233ed1e833f5ce1214166"
     }
   ]
 }

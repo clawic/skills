@@ -1,5 +1,5 @@
 ---
-name: japanese
+name: Japanese
 slug: japanese
 version: 1.0.0
 description: Write Japanese that sounds human. Not formal, not robotic, not AI-generated.

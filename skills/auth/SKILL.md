@@ -1,5 +1,5 @@
 ---
-name: auth
+name: Auth
 slug: auth
 version: 1.3.0
 description: Build secure authentication with sessions, JWT, OAuth, passwordless, MFA, and SSO for web and mobile apps.

@@ -1,5 +1,5 @@
 ---
-name: ui
+name: UI
 slug: ui
 version: 1.0.0
 description: Design clear, consistent, and visually polished user interfaces.

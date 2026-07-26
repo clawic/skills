@@ -1,5 +1,5 @@
 ---
-name: mexico
+name: Mexico
 slug: mexico
 version: 1.0.0
 description: Discover Mexico like a local with concrete city tips, regional route planning, food guidance, and practical travel logistics.

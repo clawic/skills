@@ -1,5 +1,5 @@
 ---
-name: orlando
+name: Orlando
 slug: orlando
 version: 1.0.0
 description: Navigate Orlando as visitor, resident, remote worker, or family with theme parks, neighborhoods, transit, costs, and local strategies.

@@ -1,5 +1,5 @@
 ---
-name: valencia
+name: Valencia
 slug: valencia
 version: 1.0.0
 description: Navigate Valencia as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

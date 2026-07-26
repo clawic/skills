@@ -1,5 +1,5 @@
 ---
-name: chatgpt
+name: ChatGPT
 slug: chatgpt
 version: 1.0.0
 description: Run ChatGPT with stronger prompts, Projects, GPTs, memory boundaries, and output QA for research, writing, analysis, and planning.

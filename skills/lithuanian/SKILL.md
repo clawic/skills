@@ -1,5 +1,5 @@
 ---
-name: lithuanian
+name: Lithuanian
 slug: lithuanian
 version: 1.0.0
 description: Write Lithuanian that sounds human. Not formal, not robotic, not AI-generated.

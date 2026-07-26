@@ -1,5 +1,5 @@
 ---
-name: urdu
+name: Urdu
 slug: urdu
 version: 1.0.0
 description: Write Urdu that sounds human. Not formal, not robotic, not AI-generated.

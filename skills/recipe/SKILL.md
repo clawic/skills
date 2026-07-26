@@ -1,5 +1,5 @@
 ---
-name: recipe
+name: Recipes
 slug: recipe
 version: 1.0.0
 description: Build a personal recipe collection with ingredients, scaling, and meal planning.

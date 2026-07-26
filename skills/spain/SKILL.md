@@ -1,5 +1,5 @@
 ---
-name: spain
+name: Spain
 slug: spain
 version: 1.0.2
 description: >-

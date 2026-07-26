@@ -1,5 +1,5 @@
 ---
-name: apple-search-ads
+name: Apple Search Ads
 slug: apple-search-ads
 version: 1.0.2
 description: >-
@@ -34,7 +34,7 @@ metadata:
     displayName: Apple Search Ads
 ---
 
-Toolkit for Apple Search Ads (rebranded "Apple Ads" in 2024; API paths still read `searchads`): Campaign Management API v5, attribution (AdServices + SKAdNetwork), bid math, diagnosis, and scaling strategy. All local state (config, memory, campaign notes, reports) lives in `~/Clawic/data/apple-search-ads/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/apple-search-ads/` or `~/clawic/apple-search-ads/`), move it to `~/Clawic/data/apple-search-ads/`.
+Toolkit for Apple Search Ads (rebranded "Apple Ads" in 2024; API paths still read `searchads`): Campaign Management API v5, attribution (AdServices + SKAdNetwork), bid math, diagnosis, and scaling strategy. All local state (config, memory, campaign notes, reports) lives in `~/Clawic/data/apple-search-ads/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/apple-search-ads/` or `~/clawic/apple-search-ads/`), move it to `~/Clawic/data/apple-search-ads/`. Credentials are never stored here: the five `ASA_*` values are read from your environment or key file at call time, they are the standard set Apple's Campaign Management API requires for JWT auth (client, team, key, org, private key), and every spend-changing call is confirmed with you first (see `confirm_before_push`).
 
 ## Configuration
 
@@ -46,7 +46,7 @@ User-dependent variables. Defaults apply until the user states a preference; sto
 | report_timezone | UTC \| ORTZ | UTC | Passed as `timeZone` in every report request — one value everywhere, never mixed (Traps) |
 | ltv_divisor | number (3-5) | 4 | Target CPA = LTV / `ltv_divisor`; 3 = aggressive payback, 5 = conservative (`strategy.md`) |
 | mmp | none \| appsflyer \| adjust \| singular \| kochava \| branch | none | With an MMP set, it owns AdServices and SKAN integration and cross-channel truth (`ios-integration.md`, `measurement.md`) |
-| confirm_before_push | bool | true | Every API mutation (bids, budgets, status, keywords) is listed and confirmed before pushing; false = push and log without asking |
+| confirm_before_push | bool | true | Every API mutation (bids, budgets, status, keywords) is listed and confirmed before pushing; false = push and log without asking. Setting it to false means real ad spend changes without a prompt: only do it for campaigns you own and can afford to have moved unattended; campaign DELETE stays confirmed either way |
 | naming_pattern | text | App - Country - Intent | Template for every campaign name in create payloads, scripts, and memory logs; parsing reports assumes this pattern |
 
 Preference areas to record as the user reveals them:

@@ -1,5 +1,5 @@
 ---
-name: meetings
+name: Meetings
 slug: meetings
 version: 1.0.0
 description: Build a personal meeting system for capturing notes, preparing agendas, and never missing follow-ups.

@@ -1,5 +1,5 @@
 ---
-name: play-store
+name: Google Play Store
 slug: play-store
 version: 1.0.0
 description: Publish and optimize Android apps on Google Play with listing optimization, ASO keywords, and policy compliance.

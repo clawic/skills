@@ -1,5 +1,5 @@
 ---
-name: c
+name: C
 slug: c
 version: 1.0.1
 description: Write safe C avoiding memory corruption, buffer overflows, and undefined behavior traps.

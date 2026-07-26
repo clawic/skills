@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "56f262010f76c7fca1812bf352abd22b8fb5013ac66ad721cc27df79e16ae277",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "bd475ff1977150957e3650b693a9f06ec77247d00a36b8c118e42f64013b2510",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "minio",
-    "name": "minio",
+    "name": "MinIO S3 (Object Storage)",
     "description": "Deploy, secure, and operate MinIO object storage using mc workflows, policy controls, replication, and incident-safe runbooks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/minio",
@@ -68,8 +68,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/minio/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/minio/SKILL.md",
-      "byteCount": 6287,
-      "sha256": "87a6a935886dcd2443763efaff288d40eb99d6ac36a11b684b0265fc8e32b5dd"
+      "byteCount": 6307,
+      "sha256": "86de4c8874514114cc3710b50057955e97d81dd890235fd46af4de730ebd2589"
     }
   ]
 }

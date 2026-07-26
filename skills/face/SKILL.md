@@ -1,5 +1,5 @@
 ---
-name: face
+name: Face
 slug: face
 version: 1.0.0
 description: Put a human face on your agent with fast avatar shortlists, gender control, transparent options, and reusable profile links. Use when the user wants an avatar, profile face, or group image.

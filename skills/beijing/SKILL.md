@@ -1,5 +1,5 @@
 ---
-name: beijing
+name: Beijing
 slug: beijing
 version: 1.0.2
 description: >-

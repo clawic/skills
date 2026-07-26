@@ -1,5 +1,5 @@
 ---
-name: rag
+name: RAG
 slug: rag
 version: 1.0.0
 description: Build, optimize, and debug RAG pipelines with chunking strategies, retrieval tuning, evaluation metrics, and production monitoring.

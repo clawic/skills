@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "97bd0641c61d2d18320c5fc09f33169f95ec12984daf2f7e470b31d1cf6fcb15",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "95210520f21184ca548cb857a76bbb73441bc886943e81a7716112617dae44da",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "playwright",
-    "name": "playwright",
+    "name": "Playwright (Automation + MCP + Scraper)",
     "description": "Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control. Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/playwright",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/playwright/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md",
-      "byteCount": 21439,
-      "sha256": "7fc651f770d1ab18e1b48dac66ac58d456896d455846bb649fc635182aaac6a4"
+      "byteCount": 21468,
+      "sha256": "a59b46a9d526291f703d82dfed6a99d063eca1c9b8d27f6c0c58ce15069c6887"
     },
     {
       "path": "testing.md",

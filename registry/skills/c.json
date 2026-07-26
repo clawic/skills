@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "ed759f95836c094f5fdcb6e394b2c4fea6121175d04f74f03b43335e316d45a1",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "e5bc9567ef3f858cc31cc77c663b2d837b1fd78837c050225e49de7ca0930455",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "c",
-    "name": "c",
+    "name": "C",
     "description": "Write safe C avoiding memory corruption, buffer overflows, and undefined behavior traps.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/c",
@@ -55,7 +55,7 @@
       "downloadPath": "skills/c/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/c/SKILL.md",
       "byteCount": 1601,
-      "sha256": "113e5b559757d632f98f839f21ac27dc7ba13d5a7c3b4ab7dec8ee7439dfdbad"
+      "sha256": "975957ab49323b4b2d40956ac36560b1727e549c2e3e0690c8f288a08c534d08"
     },
     {
       "path": "strings.md",

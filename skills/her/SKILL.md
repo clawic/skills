@@ -1,5 +1,5 @@
 ---
-name: her
+name: Her
 slug: her
 version: 1.0.0
 description: Shift the assistant by rewriting SOUL.md with a warm AI persona, elegant tone, emotional attunement, and fluid conversation.

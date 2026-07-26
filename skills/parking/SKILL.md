@@ -1,5 +1,5 @@
 ---
-name: parking
+name: Parking Radar
 slug: parking
 version: 1.0.0
 description: Find, verify, and reserve parking worldwide with provider selection, live-signal triage, and local memory for favorite places and cities.

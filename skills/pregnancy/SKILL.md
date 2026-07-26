@@ -1,5 +1,5 @@
 ---
-name: pregnancy
+name: Pregnancy (Tracker, Journal, Triage, Visit Prep)
 slug: pregnancy
 version: 1.0.0
 description: Track pregnancy routines, symptoms, and clinical signals with flexible logs, weekly summaries, and safety-first triage for medical follow-up.

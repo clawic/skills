@@ -1,5 +1,5 @@
 ---
-name: pubmed
+name: PubMed
 slug: pubmed
 version: 1.0.0
 description: Search and evaluate biomedical literature with effective queries, filters, and critical appraisal.

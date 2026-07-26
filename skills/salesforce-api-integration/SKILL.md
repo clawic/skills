@@ -1,5 +1,5 @@
 ---
-name: salesforce-api-integration
+name: Salesforce API Integration
 slug: salesforce-api-integration
 version: 1.0.1
 description: Complete Salesforce REST API for SOQL queries, CRUD operations, Bulk API, Composite API, authentication, and standard objects with error handling.

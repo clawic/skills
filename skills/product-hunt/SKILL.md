@@ -1,5 +1,5 @@
 ---
-name: product-hunt
+name: Product Hunt
 slug: product-hunt
 version: 1.0.0
 description: Launch, hunt, and research products on Product Hunt with timing, assets, engagement, and anti-manipulation practices.

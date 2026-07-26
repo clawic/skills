@@ -1,5 +1,5 @@
 ---
-name: coach
+name: Coach
 slug: coach
 version: 1.0.0
 description: 'Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.'

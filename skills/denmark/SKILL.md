@@ -1,5 +1,5 @@
 ---
-name: denmark
+name: Denmark
 slug: denmark
 version: 1.0.0
 description: Plan Denmark trips with compact route logic, verified entry rules, island transport choices, and practical local execution.

@@ -1,5 +1,5 @@
 ---
-name: thermostat
+name: Thermostat
 slug: thermostat
 version: 1.0.0
 description: Adjust temperatures, diagnose comfort issues, calculate energy savings, and automate schedules through voice commands or smart home integration.

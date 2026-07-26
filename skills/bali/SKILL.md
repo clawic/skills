@@ -1,5 +1,5 @@
 ---
-name: bali
+name: Bali
 slug: bali
 version: 1.0.0
 description: Navigate Bali as visitor, resident, remote worker, student, or founder with neighborhoods, visas, transport, costs, and practical local guidance.

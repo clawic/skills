@@ -1,5 +1,5 @@
 ---
-name: b2a
+name: B2A
 slug: b2a
 version: 1.0.0
 description: Sell to AI agents with machine-readable products, agent-optimized APIs, structured pricing, and discovery strategies for the agentic economy.

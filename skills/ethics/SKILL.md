@@ -1,5 +1,5 @@
 ---
-name: ethics
+name: Ethics
 slug: ethics
 version: 1.0.0
 description: Navigate moral reasoning from personal dilemmas to academic philosophy.

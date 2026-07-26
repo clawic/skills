@@ -1,5 +1,5 @@
 ---
-name: meilisearch
+name: Meilisearch
 slug: meilisearch
 version: 1.0.0
 description: Deploy and tune Meilisearch with indexing, filtering, and production configuration.

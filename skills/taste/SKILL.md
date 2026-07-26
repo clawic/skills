@@ -1,5 +1,5 @@
 ---
-name: taste
+name: Taste
 slug: taste
 version: 1.0.0
 description: Develop refined aesthetic judgment by learning from human feedback, asking genuine questions about quality, and calibrating over time.

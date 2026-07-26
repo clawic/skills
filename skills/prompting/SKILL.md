@@ -1,5 +1,5 @@
 ---
-name: prompting
+name: Prompting
 slug: prompting
 version: 1.0.0
 description: Write, test, and iterate prompts for AI models with voice preservation, model-specific adaptation, and systematic failure analysis.

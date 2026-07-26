@@ -1,5 +1,5 @@
 ---
-name: firewall
+name: Firewall
 slug: firewall
 version: 1.0.0
 description: Configure firewalls on servers and cloud providers with security best practices.

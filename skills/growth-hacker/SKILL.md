@@ -1,5 +1,5 @@
 ---
-name: growth-hacker
+name: Growth Hacker
 slug: growth-hacker
 version: 1.0.0
 description: Drive explosive user growth through rapid experimentation, viral loops, and data-driven tactics.

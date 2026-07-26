@@ -1,5 +1,5 @@
 ---
-name: apple-maps
+name: Apple Maps (MacOS)
 slug: apple-maps
 version: 1.0.0
 description: Search places, open routes, and run Apple Maps workflows on macOS using local CLI commands and shortcut automation with explicit safety checks.

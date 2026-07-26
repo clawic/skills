@@ -1,5 +1,5 @@
 ---
-name: people
+name: Contacts
 slug: people
 version: 1.0.1
 description: Build a personal contact system with details, interactions, birthdays, and smart reminders.

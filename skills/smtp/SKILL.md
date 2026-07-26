@@ -1,5 +1,5 @@
 ---
-name: smtp
+name: SMTP
 slug: smtp
 version: 1.0.0
 description: Send, test, and debug SMTP mail flows with safe dry runs, provider-aware auth, and deliverability checks.

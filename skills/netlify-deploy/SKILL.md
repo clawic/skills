@@ -1,5 +1,5 @@
 ---
-name: netlify-deploy
+name: Netlify Deploy
 slug: netlify-deploy
 version: 1.0.0
 description: Deploy and manage Netlify sites with npx netlify, including auth, linking, preview deploys, production releases, and config checks.

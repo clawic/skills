@@ -1,5 +1,5 @@
 ---
-name: numpy
+name: NumPy
 slug: numpy
 version: 1.0.0
 description: Write fast, memory-efficient numerical code with arrays, broadcasting, vectorization, and linear algebra.

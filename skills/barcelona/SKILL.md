@@ -1,5 +1,5 @@
 ---
-name: barcelona
+name: Barcelona
 slug: barcelona
 version: 1.0.0
 description: Navigate Barcelona as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.

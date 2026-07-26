@@ -1,5 +1,5 @@
 ---
-name: sql
+name: SQL
 slug: sql
 version: 1.0.4
 description: >-

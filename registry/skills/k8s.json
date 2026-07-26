@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "ab403ed8f5213c07ea0639980ebf199a239a4f42b20c0900b1a2867e65032ff3",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "c15d812b42b50f728cc771cb7d3c0af2a56f937ed5adcd1ac8a2394406a594a2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "k8s",
-    "name": "k8s",
+    "name": "Kubernetes",
     "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, or when locking down RBAC, NetworkPolicy, Pod Security and Secrets. Covers kubectl triage, StatefulSets and PVCs, Jobs and CronJobs, autoscaling, admission webhooks, node drains and cluster upgrades. Not for building container images — that is `docker`.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/k8s",
@@ -180,8 +180,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/k8s/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md",
-      "byteCount": 21649,
-      "sha256": "6ffc598f4a5d46035c24eff46f0f9dbe5534264d36e8c8873e4291aabfc3042d"
+      "byteCount": 21656,
+      "sha256": "9c4f1a362ae0fa5c8780b61e8e765c40c9bfb23d62f611edd4b8d567b95e4282"
     },
     {
       "path": "stateful.md",

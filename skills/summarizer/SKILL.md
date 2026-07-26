@@ -1,5 +1,5 @@
 ---
-name: summarizer
+name: Summarizer
 slug: summarizer
 version: 1.0.0
 description: Distill content to its essence with audience-aware compression, format selection, and quality verification.

@@ -1,5 +1,5 @@
 ---
-name: windmill
+name: Windmill
 slug: windmill
 version: 1.0.0
 description: Build automation workflows and internal tools with Windmill's code-first platform.

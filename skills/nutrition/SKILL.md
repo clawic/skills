@@ -1,5 +1,5 @@
 ---
-name: nutrition
+name: Nutrition
 slug: nutrition
 version: 1.0.0
 description: Build a personal nutrition system for tracking meals, calories, macros, vitamins, and minerals.

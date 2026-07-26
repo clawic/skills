@@ -1,5 +1,5 @@
 ---
-name: slovenian
+name: Slovenian
 slug: slovenian
 version: 1.0.0
 description: Write Slovenian that sounds human. Not formal, not robotic, not AI-generated.

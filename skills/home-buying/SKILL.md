@@ -1,5 +1,5 @@
 ---
-name: home-buying
+name: Home Buying
 slug: home-buying
 version: 1.0.0
 description: Buy a home with budget guardrails, listing scorecards, offer strategy, due diligence triage, and closing readiness checks.

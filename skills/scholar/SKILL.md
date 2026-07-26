@@ -1,5 +1,5 @@
 ---
-name: scholar
+name: Scholar
 slug: scholar
 version: 1.0.0
 description: Search academic literature with Google Scholar using effective queries, citations, and filters.

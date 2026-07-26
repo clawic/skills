@@ -1,5 +1,5 @@
 ---
-name: apple-pay
+name: Apple Pay
 slug: apple-pay
 version: 1.0.0
 description: Implement Apple Pay for web and iOS with merchant validation, token handling, and production-safe checkout flows.

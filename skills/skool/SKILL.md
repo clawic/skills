@@ -1,5 +1,5 @@
 ---
-name: skool
+name: Skool
 slug: skool
 version: 1.0.0
 description: Operate Skool communities with onboarding, classroom planning, calendar cadence, official automations, and safer member lifecycle workflows.

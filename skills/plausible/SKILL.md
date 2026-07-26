@@ -1,5 +1,5 @@
 ---
-name: plausible
+name: Plausible
 slug: plausible
 version: 1.0.1
 description: Query Plausible Analytics API for traffic stats, referrers, conversions, and custom events.

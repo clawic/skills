@@ -1,5 +1,5 @@
 ---
-name: career
+name: Career
 slug: career
 version: 1.0.4
 description: >-

@@ -1,5 +1,5 @@
 ---
-name: product
+name: Product
 slug: product
 version: 1.0.0
 description: Build, visualize, and launch products with strategy frameworks, AI imagery tools, and marketplace optimization.

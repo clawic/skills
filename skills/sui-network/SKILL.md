@@ -1,5 +1,5 @@
 ---
-name: sui-network
+name: Sui Network
 slug: sui-network
 version: 1.0.2
 description: Assist with SUI transactions, object model, staking, and Move smart contracts.

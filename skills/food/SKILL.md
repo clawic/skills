@@ -1,5 +1,5 @@
 ---
-name: food
+name: Food Tracker
 slug: food
 version: 1.0.1
 description: Your intelligent food system. Absorbs, analyzes, and organizes everything you eat.

@@ -1,5 +1,5 @@
 ---
-name: cmo
+name: CMO / Chief Marketing Officer
 slug: cmo
 version: 1.0.5
 description: >-

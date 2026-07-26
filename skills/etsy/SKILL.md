@@ -1,5 +1,5 @@
 ---
-name: etsy
+name: Etsy
 slug: etsy
 version: 1.0.0
 description: Improve Etsy listings with buyer-intent keywords, margin-safe pricing checks, and structured experiments that raise qualified traffic and conversion.

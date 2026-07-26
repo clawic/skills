@@ -1,5 +1,5 @@
 ---
-name: app-store-connect
+name: App Store Connect
 slug: app-store-connect
 version: 1.0.0
 description: Manage iOS apps, TestFlight builds, submissions, and analytics via App Store Connect API.

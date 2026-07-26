@@ -1,5 +1,5 @@
 ---
-name: feelings
+name: Feelings
 slug: feelings
 version: 1.0.0
 description: Build a personal emotional tracking system for understanding patterns, triggers, and what helps.

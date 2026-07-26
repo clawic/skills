@@ -1,5 +1,5 @@
 ---
-name: kanban
+name: Kanban
 slug: kanban
 version: 1.0.0
 description: Build multi-project Kanban systems with deterministic board discovery, consistent task processing, and persistent routing memory across sessions.

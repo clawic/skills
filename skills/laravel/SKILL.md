@@ -1,5 +1,5 @@
 ---
-name: laravel
+name: Laravel
 slug: laravel
 version: 1.0.1
 description: Build robust Laravel apps avoiding Eloquent traps, queue failures, and auth pitfalls.

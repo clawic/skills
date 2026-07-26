@@ -1,5 +1,5 @@
 ---
-name: triage
+name: Triage / Task Prioritization
 slug: triage
 version: 1.0.2
 description: >-

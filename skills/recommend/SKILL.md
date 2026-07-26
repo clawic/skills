@@ -1,5 +1,5 @@
 ---
-name: recommend
+name: Recommend
 slug: recommend
 version: 1.0.0
 description: Context-aware recommendations. Learns preferences, researches options, anticipates expectations.

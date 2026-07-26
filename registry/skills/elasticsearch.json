@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "abe4e9322f94856db56fb37650340131e825a35425c0dae4438b518c04081b90",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "b3a7a21ad327a67327a0aa2bfddf50ffb9ff2e8e25fd1292ca374d350f5dbb64",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "elasticsearch",
-    "name": "elasticsearch",
+    "name": "Elasticsearch",
     "description": "Designs, queries, and operates Elasticsearch: mappings, analyzers, query DSL, aggregations, bulk indexing, shard sizing, and cluster health. Use when writing a search query or an index mapping, when a search returns nothing or the wrong documents, when a term query on a text field returns zero hits without an error, when results rank badly, when aggregations fail with \"fielddata is disabled\", when the cluster turns yellow or red, when shards stay unassigned, when indexing is slow or a bulk request returns per-item errors, when disk hits the flood-stage watermark and indices go read-only, when circuit breakers trip, or when paging past 10,000 hits breaks. Covers ILM rollover, reindexing, snapshots, upgrades, kNN and hybrid vector search, autocomplete, synonyms and analyzers, nested modeling, geo queries, ES|QL, Painless, ingest pipelines, data streams, security, language clients, and OpenSearch compatibility. Not for standalone vector stores (vector-databases) or lightweight site search (meilisearch).",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/elasticsearch",
@@ -195,7 +195,7 @@
       "downloadPath": "skills/elasticsearch/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/SKILL.md",
       "byteCount": 28122,
-      "sha256": "a8926701ce1e70b64c4dd84b38468e5ac543d6b2fa8e3e679f1bdfcec100dada"
+      "sha256": "a3e0ab7580238c6a3d859306524692c03c745dce95d2f2db08cb2bf4103432dd"
     },
     {
       "path": "snapshots.md",

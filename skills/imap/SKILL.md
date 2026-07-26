@@ -1,5 +1,5 @@
 ---
-name: imap
+name: IMAP
 slug: imap
 version: 1.0.0
 description: Read, search, and sync IMAP mailboxes with UID-safe fetches, precise filters, and attachment-aware workflows.

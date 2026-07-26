@@ -1,5 +1,5 @@
 ---
-name: sonoff
+name: Sonoff
 slug: sonoff
 version: 1.0.0
 description: Control and automate SONOFF devices with eWeLink cloud workflows, LAN and DIY mode operations, and safe multi-device execution.

@@ -1,5 +1,5 @@
 ---
-name: growth
+name: Growth
 slug: growth
 version: 1.0.0
 description: Design and execute growth strategies with acquisition loops, activation, and retention systems.

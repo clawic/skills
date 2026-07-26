@@ -1,5 +1,5 @@
 ---
-name: vinted
+name: Vinted
 slug: vinted
 version: 1.0.0
 description: Buy and resell on Vinted with listing systems, price discipline, shipping workflows, and trust-first handling for offers, bundles, and disputes.

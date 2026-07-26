@@ -1,5 +1,5 @@
 ---
-name: expenses
+name: Expenses
 slug: expenses
 version: 1.0.0
 description: Build a personal expense tracking system for daily spending, shared costs, business expenses, and project budgets.

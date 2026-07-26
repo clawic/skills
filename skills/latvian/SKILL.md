@@ -1,5 +1,5 @@
 ---
-name: latvian
+name: Latvian
 slug: latvian
 version: 1.0.0
 description: Write Latvian that sounds human. Not formal, not robotic, not AI-generated.

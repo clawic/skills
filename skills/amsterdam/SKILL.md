@@ -1,5 +1,5 @@
 ---
-name: amsterdam
+name: Amsterdam
 slug: amsterdam
 version: 1.0.1
 description: Navigate Amsterdam as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

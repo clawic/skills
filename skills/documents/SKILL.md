@@ -1,5 +1,5 @@
 ---
-name: documents
+name: Documents
 slug: documents
 version: 1.0.0
 description: Build a personal document system for instant access to IDs, contracts, certificates, and important files.

@@ -1,5 +1,5 @@
 ---
-name: personal-trainer
+name: Personal Trainer
 slug: personal-trainer
 version: 1.0.0
 description: Design workout programs, explain exercises, track progress, and adapt training based on user feedback.

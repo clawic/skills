@@ -1,5 +1,5 @@
 ---
-name: folders
+name: Folders
 slug: folders
 version: 1.0.0
 description: Index important directories and perform safe folder operations with proper security checks.

@@ -1,5 +1,5 @@
 ---
-name: report
+name: Report
 slug: report
 version: 1.0.3
 description: Configure custom recurring reports. User defines data sources, skill handles scheduling and formatting.

@@ -1,5 +1,5 @@
 ---
-name: langchain
+name: LangChain
 slug: langchain
 version: 1.0.1
 description: >-

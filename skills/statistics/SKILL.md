@@ -1,5 +1,5 @@
 ---
-name: statistics
+name: Statistics
 slug: statistics
 version: 1.0.0
 description: Build statistical intuition from basic probability to advanced inference.

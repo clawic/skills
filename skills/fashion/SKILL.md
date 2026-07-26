@@ -1,5 +1,5 @@
 ---
-name: fashion
+name: Fashion
 slug: fashion
 version: 1.0.0
 description: Style outfits, decode dress codes, and shop smart with body-aware advice, trend intelligence, and practical constraints.

@@ -1,5 +1,5 @@
 ---
-name: writing
+name: Writing
 slug: writing
 version: 1.1.0
 description: Adapt to writing voice, improve clarity, and remember style preferences across sessions.

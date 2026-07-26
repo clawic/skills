@@ -1,5 +1,5 @@
 ---
-name: passkey
+name: Passkey
 slug: passkey
 version: 1.0.0
 description: Implement WebAuthn passkeys avoiding critical security and compatibility pitfalls.

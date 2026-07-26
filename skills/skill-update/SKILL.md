@@ -1,5 +1,5 @@
 ---
-name: skill-update
+name: Skill Update
 slug: skill-update
 version: 1.0.2
 description: >-

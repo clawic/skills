@@ -1,5 +1,5 @@
 ---
-name: graphic-design
+name: Graphic Design
 slug: graphic-design
 version: 1.0.0
 description: Support design understanding from basic visuals to professional production and theory.

@@ -1,5 +1,5 @@
 ---
-name: biotechnology
+name: Biotechnology
 slug: biotechnology
 version: 1.0.0
 description: Assist with biotechnology from basic concepts to research design and industry applications.

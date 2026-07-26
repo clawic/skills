@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "519922b56b1f2610e492934b5eeb1d59758bf2713ddab8f8a38ee3e22ca6023f",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "a0a07aa5581e1add6a24cc0cde82e050ee22fc16508878c58784a0ba465390d0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "swift",
-    "name": "swift",
+    "name": "Swift",
     "description": "Writes, debugs, and optimizes Swift — concurrency, ARC leaks, optionals, generics, SwiftUI state, and packages. Use when writing or reviewing Swift code, when a build won't type-check or the compiler \"is unable to type-check this expression in reasonable time\", when an app crashes on a force unwrap, an unowned reference, or EXC_BAD_ACCESS, when Swift 6 raises Sendable / actor-isolated / data-race errors, when a retain cycle keeps objects alive, when JSON fails to decode, when async code hangs or deadlocks, when SwiftUI state resets or views redraw too often, when XCTest or Swift Testing tests are flaky, when a Swift package won't resolve, or when bridging to Objective-C, C, or Linux. Not for Xcode signing and IDE settings, or App Store submission and iOS app lifecycle.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/swift",
@@ -146,7 +146,7 @@
       "downloadPath": "skills/swift/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/SKILL.md",
       "byteCount": 19592,
-      "sha256": "79fe46794030db17d9a5e7809268b5a9fc3c1b7d62dd33856146018782e3b754"
+      "sha256": "d1f5a52c300e5cfc393e7a8bba092678642cfdec94fe7c8392c92a7d62df01dd"
     },
     {
       "path": "strings.md",

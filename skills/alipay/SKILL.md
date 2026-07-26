@@ -1,5 +1,5 @@
 ---
-name: alipay
+name: Alipay
 slug: alipay
 version: 1.0.0
 description: Implement Alipay for web and mobile with signed request safety, gateway alignment, and production-ready payment operations.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "974e45d9592b010c97a1203c0e802d702fe5ca1ae452c89a831bcc2b3b725d1e",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "a15a18009edd61b6b8ebf4bdc0adda83be9631ba696626627263363a55370b9c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "anki",
-    "name": "anki",
+    "name": "Anki",
     "description": "Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or vocabulary lists; when reviews pile up, take too long, or a backlog builds after time off; when retention drops, cards keep failing, or a deck falls into ease hell; when choosing FSRS vs SM-2, or setting desired retention, new cards per day, learning steps, and leech thresholds; when a deck asks to upload or download in a one-way sync, loses media, or fails Check Database; when importing CSV/TSV, an .apkg, or a shared deck, or migrating from Quizlet, Memrise, or SuperMemo; when cards are due but nothing appears; and when a fixed exam date forces a study plan. Covers language decks, medical and board decks, code and math material, and personal decks such as names and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm theory, study-session planning, or add-on development.",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/anki",
@@ -153,7 +153,7 @@
       "downloadPath": "skills/anki/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/SKILL.md",
       "byteCount": 20441,
-      "sha256": "ea806a6e7e52f517f925ed57330da1fc6aa95343a41582fe9ff4cdbd9c30d361"
+      "sha256": "dab63fcc8477e83f5b8b0031d1f898a3407c4ffd9431004b95938cccd63afa64"
     },
     {
       "path": "sync-and-backup.md",

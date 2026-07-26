@@ -1,5 +1,5 @@
 ---
-name: email-marketing
+name: Email Marketing
 slug: email-marketing
 version: 1.0.0
 description: Email deliverability, list management, sequences, segmentation, and campaign optimization.

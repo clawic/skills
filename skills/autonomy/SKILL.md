@@ -1,5 +1,5 @@
 ---
-name: autonomy
+name: Autonomy
 slug: autonomy
 version: 1.0.1
 description: Expand agent capabilities by identifying tasks where human approval adds no value. Systematic delegation.

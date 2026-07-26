@@ -1,5 +1,5 @@
 ---
-name: write
+name: Write
 slug: write
 version: 1.0.0
 description: Plan, draft, version, and refine written content with enforced versioning and quality audits.

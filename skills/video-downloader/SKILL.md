@@ -1,5 +1,5 @@
 ---
-name: video-downloader
+name: Video Downloader
 slug: video-downloader
 version: 1.0.0
 description: Download online videos with quality and format controls using yt-dlp for reliable local saves.

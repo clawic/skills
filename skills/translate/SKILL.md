@@ -1,5 +1,5 @@
 ---
-name: translate
+name: Translate
 slug: translate
 version: 1.0.0
 description: Translate text accurately — preserve formatting, handle plurals, and adapt tone per locale.

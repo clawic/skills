@@ -1,5 +1,5 @@
 ---
-name: family
+name: Family
 slug: family
 version: 1.0.0
 description: Coordinate family schedules, household tasks, school logistics, care routines, and private-versus-shared memory with a structured family system

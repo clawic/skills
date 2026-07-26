@@ -1,5 +1,5 @@
 ---
-name: stock-market
+name: Stock Market
 slug: stock-market
 version: 1.0.0
 description: Analyze stock market setups with thesis checks, catalyst mapping, risk controls, and explicit trade or no-trade decisions.

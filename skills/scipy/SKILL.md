@@ -1,5 +1,5 @@
 ---
-name: scipy
+name: SciPy
 slug: scipy
 version: 1.0.0
 description: Solve optimization, statistics, signal processing, and linear algebra problems with SciPy recipes and ready-to-run code.

@@ -1,5 +1,5 @@
 ---
-name: atlassian
+name: Atlassian Cloud APIs + CLIs
 slug: atlassian
 version: 1.0.0
 description: Operate Atlassian Cloud APIs and CLIs across Jira, Confluence, Bitbucket, Trello, Admin, Forge, Compass, Opsgenie, and Statuspage.

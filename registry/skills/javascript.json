@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "5edfb62a97a34a1e5b97fb0b21702100e302a00eeec82b3a5db52b3dff8d9a9b",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "739d2108f6f475d65d62097a2bcf9b682d298e159c994ce3ad551e5b3d79bddd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "javascript",
-    "name": "javascript",
+    "name": "JavaScript",
     "description": "Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs. Use when JS throws TypeError or \"undefined is not a function\", a promise never settles or a rejection goes unhandled, NaN or [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision, a Node process won't exit or ignores signals, or fetch doesn't reject on a 404; also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/javascript",
@@ -132,7 +132,7 @@
       "downloadPath": "skills/javascript/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/javascript/SKILL.md",
       "byteCount": 14298,
-      "sha256": "e7ab1c1156216c3373a4a8c61e85d9b2d55b59f4c1cebd6142a15b42d151eef0"
+      "sha256": "10cbcd848cf42dae480d3b70391e92e8eca1952812a9a4c7b6e0c0263ce1ee40"
     }
   ]
 }

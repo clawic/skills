@@ -1,5 +1,5 @@
 ---
-name: dropshipping
+name: Dropshipping
 slug: dropshipping
 version: 1.0.0
 description: Build and scale dropshipping businesses with product research, supplier management, order automation, and multi-channel operations.

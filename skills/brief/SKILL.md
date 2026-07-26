@@ -1,5 +1,5 @@
 ---
-name: brief
+name: Brief
 slug: brief
 version: 1.0.3
 description: >-

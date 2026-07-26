@@ -1,5 +1,5 @@
 ---
-name: arbitrum
+name: Arbitrum
 slug: arbitrum
 version: 1.0.0
 description: Assist with Arbitrum One transactions, bridging, gas optimization, and L2 ecosystem navigation.

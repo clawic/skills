@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "7f64fb917ce76321e3d159d1a350d1e24731872f52b7645942ff411a5251b437",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "abbd02f04a4c4f0eec47c986e129b47ce3c943fad7a66fe791d505edd10b94ab",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "api",
-    "name": "api",
+    "name": "API / Application Programming Interface",
     "description": "Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services. Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403, or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching with ETags, or syncing API data into a local database — with per-service gotchas and curl examples. Not for designing or building your own API.",
     "version": "1.3.7",
     "homepage": "https://clawic.com/skills/api",
@@ -236,8 +236,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/api/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/api/SKILL.md",
-      "byteCount": 16002,
-      "sha256": "966c07f3be41b7b3aa21a669f3d1d9f97671aa045e3d3fa94bd883b3f7397f03"
+      "byteCount": 16038,
+      "sha256": "baab9694f74e0577c4536673f9f5e43245dc3420d035984b81d74c80d993533e"
     },
     {
       "path": "streaming.md",

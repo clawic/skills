@@ -1,5 +1,5 @@
 ---
-name: walmart
+name: Walmart
 slug: walmart
 version: 1.0.1
 description: Plan Walmart grocery and household orders with pickup timing, substitutions, repeat restocks, and budget-aware cart decisions.

@@ -1,5 +1,5 @@
 ---
-name: reverse-engineering
+name: Reverse Engineering
 slug: reverse-engineering
 version: 1.0.0
 description: Reverse engineer binaries, APIs, protocols, and workflows with evidence ladders, interface maps, and falsifiable hypotheses.

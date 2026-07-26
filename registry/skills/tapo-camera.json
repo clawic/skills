@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "9cd35953ab37bd74f79a53dca73d14bbb296723b2654926b48db5ffd8647e188",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7af7001263dbd0370217e55c3edd89a9e61dc4470163bba3962e2ae0baf3d8fb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "tapo-camera",
-    "name": "tapo-camera",
+    "name": "Tapo Camera",
     "description": "Connect to Tapo cameras, verify local access, capture snapshots, and inspect frames with local-first RTSP workflows and safe fallbacks.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/tapo-camera",
@@ -76,7 +76,7 @@
       "downloadPath": "skills/tapo-camera/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tapo-camera/SKILL.md",
       "byteCount": 10103,
-      "sha256": "be32fe78cc5b24b16ff32caec7e2dceec9ba0218b7198a4ca5545c2dde2230f9"
+      "sha256": "acd967304b971ebd5c0aaa98b8c2f8a1182d33d19b38f94d40db232ef4b24330"
     },
     {
       "path": "snapshot-workflows.md",

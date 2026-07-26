@@ -1,5 +1,5 @@
 ---
-name: office
+name: Office
 slug: office
 version: 1.0.0
 description: Get productive with Excel, Word, PowerPoint, and Google Workspace with formulas, formatting, and automation.

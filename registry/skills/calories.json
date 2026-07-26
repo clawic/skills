@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "591b2bb892d63aba5fa58546577be85bbb5931dc354f743459179ab717a56536",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "84531ef11f8c71fc21322d778b4ab5eaa0eaf73e89adc9cec8dc3dd031e542bc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "calories",
-    "name": "calories",
+    "name": "Calorie Tracker",
     "description": "Tracks calories, macros, and weight trends from meal photos, text logs, and nutrition labels. Use when the user logs a meal or a drink, keeps a food diary, asks how many calories something has, wants a calorie or protein target for a cut, bulk, deficit, or maintenance, asks for their TDEE or maintenance calories, counts macros or carbs, reads a food label, asks whether to eat back exercise calories or workout burn, or asks why the scale is stuck, why they are not losing weight, or why it jumped overnight. Covers TDEE calibration from the user's own logs, restaurant, alcohol, and cheat-day estimates, plateaus and water weight, smart-scale body-fat readings, GLP-1 and medical guardrails, and eating disorder safety. Not for meal planning or recipes.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/calories",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/calories/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calories/SKILL.md",
-      "byteCount": 13803,
-      "sha256": "5f5ce91022f9d9543b8ed5004bbd26c7ba9d99f677b52b97156bef32302549c8"
+      "byteCount": 13810,
+      "sha256": "747fa9a31c8fd6bc9648bb46ea2f78358e08dfb02060c18e10968c8ff864259d"
     },
     {
       "path": "targets.md",

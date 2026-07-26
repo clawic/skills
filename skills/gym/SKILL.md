@@ -1,5 +1,5 @@
 ---
-name: gym
+name: Gym
 slug: gym
 version: 1.0.1
 description: Log workouts, plan routines, track progress, and get intelligent coaching for any fitness level.

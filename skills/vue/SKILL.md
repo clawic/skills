@@ -1,5 +1,5 @@
 ---
-name: vue
+name: Vue
 slug: vue
 version: 1.0.2
 description: >-

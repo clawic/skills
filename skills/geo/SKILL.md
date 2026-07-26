@@ -1,5 +1,5 @@
 ---
-name: geo
+name: GEO
 slug: geo
 version: 1.0.0
 description: Optimize for AI recommendations so ChatGPT, Claude, and Perplexity suggest your brand first.

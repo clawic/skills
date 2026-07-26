@@ -1,5 +1,5 @@
 ---
-name: cgo
+name: CGO / Chief Growth Officer
 slug: cgo
 version: 1.0.1
 description: Drive systematic growth with acquisition loops, experimentation frameworks, retention systems, and product-led strategies.

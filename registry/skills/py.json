@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "97232c41c47c350a2a57cf04e0b9f67d181b79ebb1cd889f79fb7d09f75be7f5",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "15d993eb1c899c38ec37d954122d445f625e7ddf3df5f436ac4c197caafccba1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "py",
-    "name": "py",
+    "name": "Python",
     "description": "Writes, debugs, and reviews Python code — runtime traps, packaging, typing, async, tests, performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports, AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments, `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies, or a package installs but will not import; when threads, asyncio, multiprocessing or the GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the wrong module, or async tests never run; when mypy or pyright errors need clearing; when a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never appear; or when upgrading Python breaks the build. Not for library-specific problems — pandas, numpy, django, fastapi and flask have their own skills.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/py",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/py/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md",
-      "byteCount": 18036,
-      "sha256": "625b4c811436cc9654cfa9852663806875da772cefaf9df3f0efa9979a719b46"
+      "byteCount": 18040,
+      "sha256": "54c2768c6b6ea0e3b8f10519b2fd5fbf520dbed3600722fc6784821ce3ee558d"
     },
     {
       "path": "sqlite.md",

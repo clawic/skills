@@ -1,5 +1,5 @@
 ---
-name: sqlite
+name: SQLite
 slug: sqlite
 version: 1.0.0
 description: Use SQLite correctly with proper concurrency, pragmas, and type handling.

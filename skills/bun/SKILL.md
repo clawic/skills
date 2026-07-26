@@ -1,5 +1,5 @@
 ---
-name: bun
+name: Bun
 slug: bun
 version: 1.0.0
 description: Build with Bun runtime avoiding Node.js compatibility traps, bundler pitfalls, and package manager gotchas.

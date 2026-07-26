@@ -1,5 +1,5 @@
 ---
-name: storytelling
+name: Storytelling
 slug: storytelling
 version: 1.0.0
 description: Craft clear, emotionally resonant stories with audience-first framing, narrative arc control, and channel-specific rewrites.

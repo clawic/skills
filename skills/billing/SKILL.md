@@ -1,5 +1,5 @@
 ---
-name: billing
+name: Billing
 slug: billing
 version: 1.0.0
 description: Build payment integrations, subscription management, and invoicing systems with webhook handling, tax compliance, and revenue recognition.

@@ -1,5 +1,5 @@
 ---
-name: vite
+name: Vite
 slug: vite
 version: 1.0.0
 description: Configure and optimize Vite for development, production builds, and library bundling.

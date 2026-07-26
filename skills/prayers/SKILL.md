@@ -1,5 +1,5 @@
 ---
-name: prayers
+name: Prayers
 slug: prayers
 version: 1.0.0
 description: Build a personal prayer system for any faith tradition with scheduling, logging, and spiritual tracking.

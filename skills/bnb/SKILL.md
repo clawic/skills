@@ -1,5 +1,5 @@
 ---
-name: bnb
+name: BNB
 slug: bnb
 version: 1.0.0
 description: Assist with BNB Chain transactions, BEP-20 tokens, gas fees, and cross-chain transfers.

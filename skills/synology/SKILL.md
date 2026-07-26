@@ -1,5 +1,5 @@
 ---
-name: synology
+name: Synology
 slug: synology
 version: 1.0.0
 description: Plan, harden, and recover Synology NAS and DSM setups with storage design, backup discipline, remote access, and Container Manager workflows.

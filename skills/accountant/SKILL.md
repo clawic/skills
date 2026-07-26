@@ -1,5 +1,5 @@
 ---
-name: accountant
+name: Accountant
 slug: accountant
 version: 1.0.0
 description: Manage bookkeeping, financial statements, and tax planning with sound accounting practices.

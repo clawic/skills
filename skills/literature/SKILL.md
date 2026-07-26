@@ -1,5 +1,5 @@
 ---
-name: literature
+name: Literature
 slug: literature
 version: 1.0.0
 description: Guide literary reading from personal response to scholarly analysis.

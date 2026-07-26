@@ -1,5 +1,5 @@
 ---
-name: powershell
+name: PowerShell
 slug: powershell
 version: 1.0.0
 description: Avoid common PowerShell mistakes — output behavior, array traps, and comparison operator gotchas.

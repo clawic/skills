@@ -1,5 +1,5 @@
 ---
-name: gif
+name: GIF
 slug: gif
 version: 1.0.1
 description: Find, search, and create GIFs with proper optimization and accessibility.

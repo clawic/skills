@@ -1,5 +1,5 @@
 ---
-name: colombia
+name: Colombia
 slug: colombia
 version: 1.0.0
 description: Plan Colombia trips with region-specific routing, verified entry rules, weather-aware logistics, and practical tourist safety.

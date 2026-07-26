@@ -1,5 +1,5 @@
 ---
-name: psychology
+name: Psychology
 slug: psychology
 version: 1.0.0
 description: Navigate the mind from curiosity about behavior to clinical research.

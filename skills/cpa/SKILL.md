@@ -1,5 +1,5 @@
 ---
-name: cpa
+name: CPA
 slug: cpa
 version: 1.0.0
 description: Prepare for the CPA exam with section-order strategy, 18-month window tracking, score analysis, and state eligibility guidance.

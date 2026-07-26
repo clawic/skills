@@ -1,5 +1,5 @@
 ---
-name: book-writing
+name: Book Writing
 slug: book-writing
 version: 1.0.0
 description: Plan, draft, and revise complete books with chapter architecture, voice consistency, and finish-ready revision workflows.

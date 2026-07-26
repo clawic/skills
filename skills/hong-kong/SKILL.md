@@ -1,5 +1,5 @@
 ---
-name: hong-kong
+name: Hong Kong
 slug: hong-kong
 version: 1.0.1
 description: Navigate Hong Kong as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, MTR transport, costs, visas, and local insights.

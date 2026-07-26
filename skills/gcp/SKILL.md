@@ -1,5 +1,5 @@
 ---
-name: gcp
+name: Google Cloud
 slug: gcp
 version: 1.0.0
 description: Deploy, monitor, and manage GCP services with battle-tested patterns.

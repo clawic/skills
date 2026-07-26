@@ -1,5 +1,5 @@
 ---
-name: domains
+name: Domains
 slug: domains
 version: 1.0.0
 description: Register, manage, and protect domain names with practical DNS and security guidance.

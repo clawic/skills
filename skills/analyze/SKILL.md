@@ -1,5 +1,5 @@
 ---
-name: analyze
+name: Analyze
 slug: analyze
 version: 1.0.0
 description: Structured analysis for any input. Data, code, text, decisions, visuals. Prioritize, question, conclude.

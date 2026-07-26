@@ -1,5 +1,5 @@
 ---
-name: deno
+name: Deno
 slug: deno
 version: 1.0.0
 description: Build with Deno runtime avoiding permission gotchas, URL import traps, and Node.js migration pitfalls.

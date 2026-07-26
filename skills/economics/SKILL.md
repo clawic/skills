@@ -1,5 +1,5 @@
 ---
-name: economics
+name: Economics
 slug: economics
 version: 1.0.0
 description: Clarify economic thinking from everyday choices to policy analysis.

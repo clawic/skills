@@ -1,5 +1,5 @@
 ---
-name: tinder
+name: Tinder
 slug: tinder
 version: 1.0.0
 description: Coach Tinder goals with profile reviews, opener feedback, chat triage, and local experiments that improve matches and dates over time.

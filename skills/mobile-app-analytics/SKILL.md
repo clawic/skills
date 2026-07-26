@@ -1,5 +1,5 @@
 ---
-name: mobile-app-analytics
+name: Mobile App Analytics
 slug: mobile-app-analytics
 version: 1.0.0
 description: Track mobile app metrics with Firebase, App Store Connect, Play Console, retention, funnels, and cohort analysis.

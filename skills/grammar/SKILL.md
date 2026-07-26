@@ -1,5 +1,5 @@
 ---
-name: grammar
+name: Grammar
 slug: grammar
 version: 1.0.0
 description: Correct grammar and spelling without changing meaning or style.

@@ -1,5 +1,5 @@
 ---
-name: in-app-purchases
+name: In-App Purchases
 slug: in-app-purchases
 version: 1.0.0
 description: Implement in-app purchases and subscriptions across iOS, Android, and Flutter with RevenueCat, paywalls, receipt validation, and subscription analytics.

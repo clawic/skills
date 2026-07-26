@@ -1,5 +1,5 @@
 ---
-name: ibiza
+name: Ibiza
 slug: ibiza
 version: 1.0.0
 description: Navigate Ibiza as visitor, resident, remote worker, or founder with neighborhoods, transport, costs, visas, and local operational guidance.

@@ -1,5 +1,5 @@
 ---
-name: venture-capital
+name: Venture Capital
 slug: venture-capital
 version: 1.0.0
 description: Evaluate startups, structure deals, and make investment decisions with VC frameworks and due diligence patterns.

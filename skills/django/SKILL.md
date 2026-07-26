@@ -1,5 +1,5 @@
 ---
-name: django
+name: Django
 slug: django
 version: 1.0.2
 description: >-

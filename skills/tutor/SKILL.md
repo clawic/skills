@@ -1,5 +1,5 @@
 ---
-name: tutor
+name: Tutor
 slug: tutor
 version: 1.0.0
 description: Personalized tutoring for any age and subject with adaptive teaching, progress tracking, and parent oversight.

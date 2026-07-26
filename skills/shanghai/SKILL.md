@@ -1,5 +1,5 @@
 ---
-name: shanghai
+name: Shanghai
 slug: shanghai
 version: 1.0.0
 description: Navigate Shanghai as visitor, resident, student, or builder with practical neighborhoods, transport, costs, visas, and local operating rules.

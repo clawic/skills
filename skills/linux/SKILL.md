@@ -1,5 +1,5 @@
 ---
-name: linux
+name: Linux
 slug: linux
 version: 1.0.3
 description: >-

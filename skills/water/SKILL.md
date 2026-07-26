@@ -1,5 +1,5 @@
 ---
-name: water
+name: Water Tracker
 slug: water
 version: 1.0.3
 description: >-
@@ -22,7 +22,7 @@ metadata:
     - ~/Clawic/data/water/
 ---
 
-Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared preferences); this skill reads and writes only that folder. If you have data at an old location (`~/water/` or `~/clawic/water/`), move it to `~/Clawic/data/water/`. First use: read `setup.md`; file formats in `memory-template.md`.
+Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared preferences); this skill reads and writes only that folder. Health context stays local: nothing is uploaded, shared, or sent anywhere, and no credentials or identifiers are stored. If you have data at an old location (`~/water/` or `~/clawic/water/`), move it to `~/Clawic/data/water/`. First use: read `setup.md`; file formats in `memory-template.md`.
 
 ## When To Use
 

@@ -1,5 +1,5 @@
 ---
-name: australia
+name: Australia
 slug: australia
 version: 1.0.0
 description: Discover Australia like a local with deep city-region coverage, practical route planning, food context, and execution-ready travel logistics.

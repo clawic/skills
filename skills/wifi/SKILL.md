@@ -1,5 +1,5 @@
 ---
-name: wifi
+name: WiFi
 slug: wifi
 version: 1.0.0
 description: Troubleshoot and secure wireless networks with channel optimization and diagnostics.

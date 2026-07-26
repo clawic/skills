@@ -1,5 +1,5 @@
 ---
-name: boyfriend
+name: Boyfriend
 slug: boyfriend
 version: 1.0.0
 description: Simulate a realistic AI boyfriend with steady affection, romantic memory, emotional attunement, and grounded boundaries.

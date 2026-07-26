@@ -1,5 +1,5 @@
 ---
-name: cdn
+name: CDN
 slug: cdn
 version: 1.0.1
 description: Configure, optimize, and troubleshoot CDN deployments with caching strategies, security hardening, and multi-provider management.

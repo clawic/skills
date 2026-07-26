@@ -1,5 +1,5 @@
 ---
-name: synthesize
+name: Synthesize
 slug: synthesize
 version: 1.0.0
 description: Combine multiple sources into unified insights with source tracking, conflict resolution, and coverage verification.

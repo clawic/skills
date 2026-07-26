@@ -1,5 +1,5 @@
 ---
-name: meals
+name: Meals
 slug: meals
 version: 1.0.0
 description: Build a personal meal planning system with weekly plans, shopping lists, and dietary tracking.

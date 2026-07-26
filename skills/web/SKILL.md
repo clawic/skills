@@ -1,5 +1,5 @@
 ---
-name: web
+name: Web Development
 slug: web
 version: 1.0.0
 description: Build, debug, and deploy websites with HTML, CSS, JavaScript, modern frameworks, and production best practices.

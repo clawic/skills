@@ -1,5 +1,5 @@
 ---
-name: six-thinking-hats
+name: Six Thinking Hats
 slug: six-thinking-hats
 version: 1.0.0
 description: Analyze decisions using six perspectives with structured parallel thinking.

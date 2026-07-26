@@ -1,5 +1,5 @@
 ---
-name: paperclip
+name: Paperclip
 slug: paperclip
 version: 1.0.0
 description: Run Paperclip locally for agent orchestration, AI company setup, and OpenClaw, Codex, or Claude control-plane operations.

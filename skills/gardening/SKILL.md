@@ -1,5 +1,5 @@
 ---
-name: gardening
+name: Gardening
 slug: gardening
 version: 1.0.0
 description: Plant care, soil management, seasonal timing, pest control, and garden planning.

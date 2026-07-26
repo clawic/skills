@@ -1,5 +1,5 @@
 ---
-name: gradio
+name: Gradio
 slug: gradio
 version: 1.0.0
 description: Build and deploy ML demo interfaces with proper state management, queuing, and production patterns.

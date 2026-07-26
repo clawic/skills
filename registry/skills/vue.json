@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "828a69dd058647c474a5d64b0a88898d8bced8940a0c9d954447a34ff4fe3b75",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7541b95a35b5641d6c5f69765683b19547309234988de81a76659d10905572b8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "vue",
-    "name": "vue",
+    "name": "Vue",
     "description": "Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance. Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment, .value is forgotten, a watcher never fires or loops (\"Maximum recursive updates exceeded\"), props or v-model stop syncing, a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns \"getActivePinia() was called but there was no active Pinia\", the console shows \"Failed to resolve component\" or \"Extraneous non-props attributes\", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).",
     "version": "1.0.2",
     "homepage": "https://clawic.com/skills/vue",
@@ -132,7 +132,7 @@
       "downloadPath": "skills/vue/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/SKILL.md",
       "byteCount": 20524,
-      "sha256": "6ebd694cbc3e65a4ed1f7cf6b2ca9bca0f74a871c568bf96051115c241b006f0"
+      "sha256": "cda3213c468a147adc3fa2e6e7cc10b32bcddde4d8bbd8f16392264d2fa0326d"
     },
     {
       "path": "ssr.md",

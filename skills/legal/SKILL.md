@@ -1,5 +1,5 @@
 ---
-name: legal
+name: Legal
 slug: legal
 version: 1.0.0
 description: Think through any legal situation like a lawyer. Issue spotting, jurisdiction, risk assessment, actionable conclusions.

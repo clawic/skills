@@ -1,5 +1,5 @@
 ---
-name: invoice
+name: Invoice
 slug: invoice
 version: 1.0.0
 description: Create and send professional invoices with automatic numbering, tax calculation, templates, and payment tracking.

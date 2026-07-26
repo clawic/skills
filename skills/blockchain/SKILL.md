@@ -1,5 +1,5 @@
 ---
-name: blockchain
+name: Blockchain
 slug: blockchain
 version: 1.0.0
 description: Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.

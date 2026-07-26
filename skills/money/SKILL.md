@@ -1,5 +1,5 @@
 ---
-name: money
+name: Money
 slug: money
 version: 1.0.0
 description: Personal finance guidance with practical rules for saving, investing, and avoiding common traps.

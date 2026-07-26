@@ -1,5 +1,5 @@
 ---
-name: biology
+name: Biology
 slug: biology
 version: 1.0.0
 description: Explore and explain biology with depth adapted to any learner or expert.

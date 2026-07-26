@@ -1,5 +1,5 @@
 ---
-name: server
+name: Server
 slug: server
 version: 1.0.0
 description: Configure, deploy, and troubleshoot web servers, application servers, and containerized services.

@@ -1,5 +1,5 @@
 ---
-name: product-owner
+name: Product Owner
 slug: product-owner
 version: 1.0.1
 description: Manage backlogs, write user stories, define acceptance criteria, and maximize product value.

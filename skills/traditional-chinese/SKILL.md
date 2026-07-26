@@ -1,5 +1,5 @@
 ---
-name: traditional-chinese
+name: Traditional Chinese
 slug: traditional-chinese
 version: 1.0.0
 description: Write Traditional Chinese that sounds human. Not formal, not robotic, not AI-generated.

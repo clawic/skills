@@ -1,5 +1,5 @@
 ---
-name: second-order-effects
+name: Second Order Effects
 slug: second-order-effects
 version: 1.0.0
 description: Analyze decisions by tracing consequences beyond immediate outcomes to second and third-order effects.

@@ -1,5 +1,5 @@
 ---
-name: matlab
+name: MATLAB
 slug: matlab
 version: 1.0.0
 description: Avoid common MATLAB mistakes — indexing traps, matrix vs element-wise ops, and vectorization pitfalls.

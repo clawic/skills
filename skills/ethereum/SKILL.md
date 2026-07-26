@@ -1,5 +1,5 @@
 ---
-name: ethereum
+name: Ethereum
 slug: ethereum
 version: 1.0.0
 description: Assist with Ethereum transactions, gas optimization, token approvals, and L2 bridges.

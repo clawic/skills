@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "1db17174176b809e9c14148b99ec3b4366e28fe1c39add34d20c22bdb54a5c49",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "7214eb30192c91ce4305f2cd1331522a91e97e43f619d3ffefbef62b33387487",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "fastapi",
-    "name": "fastapi",
+    "name": "FastAPI",
     "description": "Builds, debugs, and hardens FastAPI services: async endpoints, Pydantic models, dependency injection, auth, and deployment. Use when writing or reviewing a FastAPI app, router, or schema; when the API hangs or every route slows because a sync driver or CPU work blocks the event loop; when a request returns an unexpected 422, a POST becomes a 307, or a 500 arrives with no CORS headers; when migrating pydantic v1 to v2 (`model_dump`, `from_attributes`, `field_validator`); when `Depends` runs too often, `yield` cleanup misfires, or dependency overrides do not take; when SQLAlchemy raises `QueuePool limit` or `MissingGreenlet`, or connections leak across workers; when TestClient, httpx `AsyncClient`, or pytest-asyncio fail with a closed event loop; when uvicorn or gunicorn workers, graceful shutdown, `root_path`, or proxy headers need deciding; or when background tasks, WebSockets, SSE, uploads, or the OpenAPI docs misbehave. Not for Django, Flask, or general Python — `django`, `flask`, `py`.",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/fastapi",
@@ -139,7 +139,7 @@
       "downloadPath": "skills/fastapi/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/SKILL.md",
       "byteCount": 20034,
-      "sha256": "4481647ae4c8aca8d639b07c57fbaeb6c606974972c6255d7f60ea018b9a5b5c"
+      "sha256": "72cfff6a5b923af5a7845e01ea9bd4a75fb0880be0414372c6ef9dfd938516af"
     },
     {
       "path": "streaming.md",

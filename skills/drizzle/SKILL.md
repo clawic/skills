@@ -1,5 +1,5 @@
 ---
-name: drizzle
+name: Drizzle
 slug: drizzle
 version: 1.0.0
 description: Build type-safe database queries with Drizzle ORM patterns.

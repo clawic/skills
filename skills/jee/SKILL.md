@@ -1,5 +1,5 @@
 ---
-name: jee
+name: JEE
 slug: jee
 version: 1.0.0
 description: Prepare for India's Joint Entrance Examination with progress tracking, weak area analysis, mock test strategy, and IIT/NIT targeting.

@@ -1,5 +1,5 @@
 ---
-name: macos
+name: macOS
 slug: macos
 version: 1.0.0
 description: macOS system administration, command-line differences from Linux, and automation best practices.

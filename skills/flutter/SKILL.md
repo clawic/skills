@@ -1,5 +1,5 @@
 ---
-name: flutter
+name: Flutter
 slug: flutter
 version: 1.0.2
 description: >-

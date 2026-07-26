@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "8705ca7670cbdc371ac688ddadbfebade4b105d95089b0d22218936c2963a7c8",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "44f52376bcedcd517b2a459e213a6f06a02da3ef78abbe790027c56821b62b29",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "cfo",
-    "name": "cfo",
+    "name": "CFO / Chief Financial Officer",
     "description": "Acts as chief financial officer (CFO): forecasts cash, computes runway and burn, runs the monthly close, and models a fundraise. Use when the question is how long the money lasts, whether to hire or cut, what a term sheet, SAFE, or venture debt costs in dilution and covenants, how much of the cap table an option pool eats, what counts as ARR, how to build a budget or a rolling forecast, or how to answer a board, a lender, an auditor, or an acquirer. Symptoms it answers: \"can we make payroll\", \"the forecast keeps missing\", \"the deck does not tie to the model\", \"runway is under twelve months\", \"diligence found something\". Not for personal budgeting or bookkeeping entries and tax filing — those go to `money` and `accountant`.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/cfo",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/cfo/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md",
-      "byteCount": 18218,
-      "sha256": "f8627a1ee17b1fcc1c16e3599c973f9f199b0a867194a7043026f0de2f85e5cc"
+      "byteCount": 18244,
+      "sha256": "16a2d0c8a1a4a433af114f2c4fec6894139abcaa7906267b89e9f7a8d0d71f3c"
     },
     {
       "path": "tax.md",

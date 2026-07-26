@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "e3cb8b74c21aee96c1456990fb367d462d3f1899fe7b800c04cac11ecdb0be14",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "72ad0d5d6fbdf64b3a6b874a16ec2c8e9d7b6f92f7dd6fd09aade8a7d82c6bab",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "aws",
-    "name": "aws",
+    "name": "AWS | Amazon Web Services",
     "description": "Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront. Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied, throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda, Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design, NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest authoring (`k8s`), or Terraform language mechanics (`terraform`).",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/aws",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/aws/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/SKILL.md",
-      "byteCount": 24424,
-      "sha256": "4e4d79d3950868748268333be3b9b6a9f8d20deae1d40a8b837665c05612e047"
+      "byteCount": 24446,
+      "sha256": "99b2e8273c6f93564eed3b78b0fea41e064d357342fc09abf772edd8e4ccf6b9"
     },
     {
       "path": "storage.md",

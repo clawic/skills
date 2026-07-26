@@ -1,5 +1,5 @@
 ---
-name: vr
+name: VR
 slug: vr
 version: 1.0.0
 description: Set up VR headsets, troubleshoot common issues, optimize comfort, and recommend experiences by use case.

@@ -1,5 +1,5 @@
 ---
-name: baby
+name: Baby (Tracker, Feeding, Sleep, Triage, Visit Prep)
 slug: baby
 version: 1.0.0
 description: Track baby feeds, sleep, diapers, symptoms, growth, routines, and pediatric follow-up with caregiver handoffs and safety-first triage.

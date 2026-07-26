@@ -1,5 +1,5 @@
 ---
-name: health-insurance
+name: Health Insurance
 slug: health-insurance
 version: 1.0.0
 description: Compare health insurance plans, estimate total yearly costs, and choose coverage that fits medical usage, prescriptions, and financial risk.

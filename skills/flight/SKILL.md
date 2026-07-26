@@ -1,5 +1,5 @@
 ---
-name: flight
+name: Flight
 slug: flight
 version: 1.0.1
 description: Search, compare, book, and manage flights with price tracking, multi-platform comparison, and loyalty optimization.

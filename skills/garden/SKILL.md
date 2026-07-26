@@ -1,5 +1,5 @@
 ---
-name: garden
+name: Garden
 slug: garden
 version: 1.1.6
 description: Track your entire garden with structured memory for plants, zones, tasks, harvests, and climate-aware planning that compounds over seasons.

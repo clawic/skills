@@ -1,5 +1,5 @@
 ---
-name: cloud
+name: Cloud
 slug: cloud
 version: 1.0.0
 description: Choose, organize, sync, share, and back up personal files across iCloud, Google Drive, Dropbox, and OneDrive.

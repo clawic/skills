@@ -1,5 +1,5 @@
 ---
-name: pricing
+name: Pricing
 slug: pricing
 version: 1.0.0
 description: Design pricing strategies for products, services, and subscriptions that maximize conversion and value.

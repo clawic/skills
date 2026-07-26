@@ -1,5 +1,5 @@
 ---
-name: use-cases
+name: Use Cases
 slug: use-cases
 version: 1.0.0
 description: Discover what AI agents can do for you with practical examples by role, task type, and skill level.

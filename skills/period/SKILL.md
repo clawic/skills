@@ -1,5 +1,5 @@
 ---
-name: period
+name: Period Tracker
 slug: period
 version: 1.0.3
 description: >-

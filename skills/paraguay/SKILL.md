@@ -1,5 +1,5 @@
 ---
-name: paraguay
+name: Paraguay
 slug: paraguay
 version: 1.0.0
 description: Plan Paraguay trips with border-savvy routing, river-city priorities, and practical guidance for Asuncion, Encarnacion, Ciudad del Este, and the Chaco.

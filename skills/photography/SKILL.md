@@ -1,5 +1,5 @@
 ---
-name: photography
+name: Photography
 slug: photography
 version: 1.0.0
 description: Camera settings, composition, lighting, editing workflow, and genre-specific techniques.

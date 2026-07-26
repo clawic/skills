@@ -1,5 +1,5 @@
 ---
-name: xcode
+name: Xcode
 slug: xcode
 version: 1.0.0
 description: Avoid common Xcode mistakes — signing issues, build settings traps, and cache corruption fixes.

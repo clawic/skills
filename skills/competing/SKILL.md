@@ -1,5 +1,5 @@
 ---
-name: competing
+name: Competing
 slug: competing
 version: 1.0.0
 description: Improve systematically by analyzing losses, studying winners, and tracking progress against rivals in any competitive domain.

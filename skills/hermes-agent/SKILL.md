@@ -1,5 +1,5 @@
 ---
-name: hermes-agent
+name: Hermes Agent
 slug: hermes-agent
 version: 1.0.0
 description: Turn OpenClaw into a learning-loop agent with seeded workspace rules, skill promotion, reflective memory, and proactive maintenance.

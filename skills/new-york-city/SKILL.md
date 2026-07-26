@@ -1,5 +1,5 @@
 ---
-name: new-york-city
+name: New York City
 slug: new-york-city
 version: 1.0.0
 description: Navigate New York City for visits, moves, neighborhoods, transit, housing, food, work, and daily street-level decisions.

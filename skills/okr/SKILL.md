@@ -1,5 +1,5 @@
 ---
-name: okr
+name: OKRs
 slug: okr
 version: 1.0.0
 description: Writing objectives and key results, setting cadence, and avoiding common stretch-goal failures.

@@ -1,5 +1,5 @@
 ---
-name: milan
+name: Milan
 slug: milan
 version: 1.0.0
 description: Navigate Milan as visitor, resident, student, or professional with neighborhoods, transport, costs, visas, food, and practical local insights.

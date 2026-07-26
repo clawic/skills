@@ -1,5 +1,5 @@
 ---
-name: architect
+name: Architect
 slug: architect
 version: 1.0.0
 description: Design buildings and spaces with principles of form, function, sustainability, and building codes.

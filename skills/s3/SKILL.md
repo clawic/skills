@@ -1,5 +1,5 @@
 ---
-name: s3
+name: S3
 slug: s3
 version: 1.0.0
 description: Work with S3-compatible object storage with proper security, lifecycle policies, and access patterns.

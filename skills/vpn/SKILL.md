@@ -1,5 +1,5 @@
 ---
-name: vpn
+name: VPN
 slug: vpn
 version: 1.0.0
 description: Configure and troubleshoot VPN connections for privacy and remote access.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "79611f1a21f92e7bdc1ba03671b0448c0fd3787c20f3300f513fb6eeaf812deb",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "4c1a3bbb92c0e72f450cc381ef416db7baaa17d3bb175cf70c8e1f7337b2ec92",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "calendar-planner",
-    "name": "calendar-planner",
+    "name": "Calendar Planner",
     "description": "Plan work and life across Google Calendar, Outlook, Apple Calendar, and CalDAV with CLI adapters, conflict repair, and weekly reviews.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/calendar-planner",
@@ -83,7 +83,7 @@
       "downloadPath": "skills/calendar-planner/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/calendar-planner/SKILL.md",
       "byteCount": 9570,
-      "sha256": "b468d74ab901ab4e6c24b4e8c9f55f99ba5d18d630839748d65a2ba16d8dac54"
+      "sha256": "0f0f73ce343d43803e2460069fc03ab198da9a299eab2f5d0799d2dcf6e73351"
     },
     {
       "path": "week_plan.py",

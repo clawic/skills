@@ -1,5 +1,5 @@
 ---
-name: events
+name: Events
 slug: events
 version: 1.0.0
 description: Build a personal event system for tracking concerts, conferences, parties, appointments, and everything in between.

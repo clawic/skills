@@ -1,5 +1,5 @@
 ---
-name: inspiration
+name: Inspiration
 slug: inspiration
 version: 1.0.0
 description: Find design and AI art inspiration from curated galleries, screenshot libraries, and creative showcases.

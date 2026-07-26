@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "6018bb81a76c232a1c5e6bb2cfc7bbef9bd11ff4408a13a4645c50b29e945762",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "e1d2125b0e7403bebde0aaba2efa97d54f4d2037be982bb201c3ad7cbad86bac",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "caldav",
-    "name": "caldav",
+    "name": "CalDAV",
     "description": "Sync, inspect, and modify CalDAV calendars with vdirsyncer and khal using deterministic windows, verified writes, and recurrence-aware workflows.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/caldav",
@@ -34,7 +34,7 @@
       "downloadPath": "skills/caldav/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/caldav/SKILL.md",
       "byteCount": 5897,
-      "sha256": "6148ac9206409c59e9833c8cd885ca49a6654d9d444dc4d8f9210617a1a1cde6"
+      "sha256": "372bf25ea534655a77c3715dc445add1d03753373053fb9965095fea01986408"
     }
   ]
 }

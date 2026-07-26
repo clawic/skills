@@ -1,5 +1,5 @@
 ---
-name: notes
+name: Notes (Local, Apple, Notion, Obsidian & more)
 slug: notes
 version: 1.1.3
 description: 'Let your agent write notes anywhere: local markdown, Apple Notes, Bear, Obsidian, Notion, Evernote, configurable per note type.'

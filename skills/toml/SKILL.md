@@ -1,5 +1,5 @@
 ---
-name: toml
+name: TOML
 slug: toml
 version: 1.0.0
 description: Write valid TOML configuration files with correct types and structure.

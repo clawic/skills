@@ -1,5 +1,5 @@
 ---
-name: diverge
+name: Diverge
 slug: diverge
 version: 1.0.0
 description: Spawn multiple perspectives to evaluate a problem before converging on a solution.

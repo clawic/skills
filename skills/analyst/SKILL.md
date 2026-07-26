@@ -1,5 +1,5 @@
 ---
-name: analyst
+name: Analyst
 slug: analyst
 version: 1.0.0
 description: Extract insights from data with SQL, visualization, and clear communication of findings.

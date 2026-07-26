@@ -1,5 +1,5 @@
 ---
-name: aliexpress
+name: Aliexpress
 slug: aliexpress
 version: 1.0.0
 description: Navigate Aliexpress as buyer, seller, or dropshipper with vendor evaluation, price comparison, and scam detection.

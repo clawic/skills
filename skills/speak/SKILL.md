@@ -1,5 +1,5 @@
 ---
-name: speak
+name: Speak
 slug: speak
 version: 1.0.2
 description: >-

@@ -1,5 +1,5 @@
 ---
-name: symphony
+name: OpenAI Symphony
 slug: symphony
 version: 1.0.0
 description: Set up and run OpenAI Symphony with isolated issue workspaces, workflow contracts, and unattended Codex orchestration for Linear projects.

@@ -1,5 +1,5 @@
 ---
-name: exam
+name: Exam
 slug: exam
 version: 1.0.0
 description: Generate practice tests, flashcards, study schedules, and timed simulations from any study material.

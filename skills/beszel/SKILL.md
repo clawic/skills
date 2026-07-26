@@ -1,5 +1,5 @@
 ---
-name: beszel
+name: Beszel
 slug: beszel
 version: 1.0.0
 description: Deploy, secure, and troubleshoot Beszel monitoring with Docker agents, alert tuning, and upgrade-safe operations for self-hosted servers

@@ -1,5 +1,5 @@
 ---
-name: webhook
+name: Webhook
 slug: webhook
 version: 1.0.0
 description: Implement secure webhook receivers and senders with proper verification and reliability.

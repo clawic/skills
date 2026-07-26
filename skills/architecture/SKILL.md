@@ -1,5 +1,5 @@
 ---
-name: architecture
+name: Architecture
 slug: architecture
 version: 1.0.0
 description: Support architectural understanding from home projects to professional practice and theory.

@@ -1,5 +1,5 @@
 ---
-name: vienna
+name: Vienna
 slug: vienna
 version: 1.0.0
 description: Navigate Vienna as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transport, costs, safety, and local insights.

@@ -1,5 +1,5 @@
 ---
-name: work
+name: Work
 slug: work
 version: 1.0.0
 description: Navigate office work with professional communication, meeting prep, workplace dynamics, and visibility tactics.

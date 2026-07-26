@@ -1,5 +1,5 @@
 ---
-name: redis-store
+name: Redis
 slug: redis-store
 version: 1.0.1
 description: >-

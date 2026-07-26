@@ -1,5 +1,5 @@
 ---
-name: voice-notes
+name: Voice Notes
 slug: voice-notes
 version: 1.0.2
 description: Organize voice message transcripts into a structured, searchable knowledge base with tags, links, and progressive note-taking.

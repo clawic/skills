@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "7ac83a1fe33b262341da2bf0a75c70e176a573f95bf47249299c844aff5c319c",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "45ca8a91d6be8d0e1aa85dd24101c3a4bd40b66c160aea3b25ecd06c13e2125f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "openclaw-workspace",
-    "name": "openclaw-workspace",
+    "name": "OpenClaw Workspace",
     "description": "Audit and improve OpenClaw workspaces across SOUL, AGENTS, TOOLS, USER, MEMORY, and skills for persona tuning, proactive behavior, recall, and workflow fit. Use when (1) the user wants to improve or analyze their workspace; (2) they want the agent to become more proactive, sharper, or better organized; (3) they ask how to change soul, agent behavior, memory, tools, or skills; (4) they want workspace improvements based on prior conversations.",
     "version": "1.0.0",
     "homepage": "https://clawic.com/skills/openclaw-workspace",
@@ -34,7 +34,7 @@
       "downloadPath": "skills/openclaw-workspace/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/openclaw-workspace/SKILL.md",
       "byteCount": 10565,
-      "sha256": "bff751921a59dff679d3d084bf37e21e7bdedd7c721761a60d521a9d08116321"
+      "sha256": "13d3e2c13ff903ef277141a18784fd5770f6a537b5b1efcfd248d9211037c5c3"
     }
   ]
 }

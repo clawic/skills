@@ -1,5 +1,5 @@
 ---
-name: vscode
+name: VSCode
 slug: vscode
 version: 1.0.0
 description: Avoid common VSCode mistakes — settings conflicts, debugger setup, and extension clashes.

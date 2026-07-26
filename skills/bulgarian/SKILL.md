@@ -1,5 +1,5 @@
 ---
-name: bulgarian
+name: Bulgarian
 slug: bulgarian
 version: 1.0.0
 description: Write Bulgarian that sounds human. Not formal, not robotic, not AI-generated.

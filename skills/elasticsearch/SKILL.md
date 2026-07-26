@@ -1,5 +1,5 @@
 ---
-name: elasticsearch
+name: Elasticsearch
 slug: elasticsearch
 version: 1.0.1
 description: >-

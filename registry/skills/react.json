@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "716872dfd7b04279af771d0a5ec5ac31e446312bf57e4ee472f9862e15c72bd0",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "9474b1c27e7187934a656f8c1a23ab0500488b2c8923e45787d26aee2ef7dbf7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "react",
-    "name": "react",
+    "name": "React",
     "description": "Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing. Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux), when a component rerenders too often, loops infinitely (\"too many re-renders\"), shows stale or not-updating state, fails with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library, typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and deployment — use react-native or nextjs.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/react",
@@ -48,7 +48,7 @@
       "downloadPath": "skills/react/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/SKILL.md",
       "byteCount": 17637,
-      "sha256": "1351da356e514aff2dd6787f2dc3418944cfa6aebf2bf49264e3ad8ea039d451"
+      "sha256": "32d895bd56546f6b9cc6f2f18e515ef614851d95e4a13bb5dde0d86350f766c8"
     }
   ]
 }

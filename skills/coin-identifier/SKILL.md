@@ -1,5 +1,5 @@
 ---
-name: coin-identifier
+name: Coin Identifier
 slug: coin-identifier
 version: 1.0.0
 description: Identify coins from photos using evidence-based visual checks, ranked candidates, mint-mark reasoning, and a reusable local catalog.

@@ -1,5 +1,5 @@
 ---
-name: websocket
+name: WebSocket
 slug: websocket
 version: 1.0.0
 description: Implement reliable WebSocket connections with proper reconnection, heartbeats, and scaling.

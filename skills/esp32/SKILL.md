@@ -1,5 +1,5 @@
 ---
-name: esp32
+name: ESP32
 slug: esp32
 version: 1.0.0
 description: Avoid common ESP32 mistakes — GPIO conflicts, WiFi+ADC2 trap, deep sleep gotchas, and FreeRTOS pitfalls.

@@ -1,5 +1,5 @@
 ---
-name: py
+name: Python
 slug: py
 version: 1.0.4
 changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"

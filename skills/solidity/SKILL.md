@@ -1,5 +1,5 @@
 ---
-name: solidity
+name: Solidity
 slug: solidity
 version: 1.0.0
 description: Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.

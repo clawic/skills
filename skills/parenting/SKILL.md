@@ -1,5 +1,5 @@
 ---
-name: parenting
+name: Parenting
 slug: parenting
 version: 1.0.0
 description: Help parents with age-appropriate guidance, behavior challenges, and avoiding common parenting advice pitfalls.

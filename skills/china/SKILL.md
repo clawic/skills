@@ -1,5 +1,5 @@
 ---
-name: china
+name: China
 slug: china
 version: 1.0.0
 description: Discover China like a local with deep city-region coverage, practical route planning, food context, and execution-ready travel logistics.

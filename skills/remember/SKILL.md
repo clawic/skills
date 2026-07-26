@@ -1,5 +1,5 @@
 ---
-name: remember
+name: Remember
 slug: remember
 version: 1.0.0
 description: Curate persistent memory that actually helps. Filter what matters, organize by function, decay what doesn't.

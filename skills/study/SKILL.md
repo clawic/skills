@@ -1,5 +1,5 @@
 ---
-name: study
+name: Study
 slug: study
 version: 1.0.1
 description: Structure study sessions, manage materials, and prepare for exams with active recall techniques.

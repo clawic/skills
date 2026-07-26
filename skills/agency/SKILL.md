@@ -1,5 +1,5 @@
 ---
-name: agency
+name: Agency
 slug: agency
 version: 1.0.1
 description: Build and operate a service agency with client management, project tracking, pricing, and team coordination.

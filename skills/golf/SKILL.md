@@ -1,5 +1,5 @@
 ---
-name: golf
+name: Golf
 slug: golf
 version: 1.0.0
 description: Track rounds, handicap, clubs, and courses with personalized improvement tips.

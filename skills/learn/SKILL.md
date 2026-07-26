@@ -1,5 +1,5 @@
 ---
-name: learn
+name: Learn
 slug: learn
 version: 1.0.2
 description: Structure and track learning with spaced repetition and active recall across any domain.

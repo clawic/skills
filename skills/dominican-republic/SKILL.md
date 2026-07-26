@@ -1,5 +1,5 @@
 ---
-name: dominican-republic
+name: Dominican Republic
 slug: dominican-republic
 version: 1.0.0
 description: Plan Dominican Republic trips with beach-region routing, verified entry steps, off-resort logistics, and practical local safety.

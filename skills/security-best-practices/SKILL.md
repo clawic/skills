@@ -1,5 +1,5 @@
 ---
-name: security-best-practices
+name: Security Best Practices
 slug: security-best-practices
 version: 1.0.0
 description: Review code with secure-by-default standards, prioritize exploitable risks, and deliver minimal-diff fixes with evidence and regression checks.

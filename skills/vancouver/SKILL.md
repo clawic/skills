@@ -1,5 +1,5 @@
 ---
-name: vancouver
+name: Vancouver
 slug: vancouver
 version: 1.0.0
 description: Navigate Vancouver as visitor, resident, tech worker, student, or entrepreneur with neighborhoods, transit, costs, immigration, and local insights.

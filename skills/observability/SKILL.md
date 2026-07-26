@@ -1,5 +1,5 @@
 ---
-name: observability
+name: Observability
 slug: observability
 version: 1.0.0
 description: Logs, metrics, and traces as complementary signals, high-cardinality dimensions, and the instrumentation budget.

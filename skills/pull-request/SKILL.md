@@ -1,5 +1,5 @@
 ---
-name: pull-request
+name: Pull Request
 slug: pull-request
 version: 1.0.1
 description: Create high-quality pull requests with pre-submission validation, maintainer-friendly formatting, and automated quality checks.

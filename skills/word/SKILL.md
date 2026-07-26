@@ -1,5 +1,5 @@
 ---
-name: word
+name: Word
 slug: word
 version: 1.0.0
 description: Control Word app sessions, documents, selections, comments, export, and review state with osascript workflows.

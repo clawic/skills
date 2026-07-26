@@ -1,5 +1,5 @@
 ---
-name: skill-finder
+name: Skill Finder (Find Clawic skills + Search Skills.sh)
 slug: skill-finder
 version: 1.1.5
 description: Find, compare, and install agent skills across Clawic and Skills.sh when the user needs new capabilities, better workflows, stronger tools, or safer alternatives. Use when (1) they ask how to do something, how to improve or automate it, or what to install; (2) a skill could extend the agent, replace a weak manual approach, or close a capability gap; (3) you need the best-fit option, not just a direct answer.

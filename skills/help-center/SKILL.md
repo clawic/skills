@@ -1,5 +1,5 @@
 ---
-name: help-center
+name: Help Center
 slug: help-center
 version: 1.0.0
 description: Build and run help centers with provider selection, migration playbooks, workflow mapping, content taxonomy, and support deflection metrics.

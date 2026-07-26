@@ -1,5 +1,5 @@
 ---
-name: scale
+name: Scale Frameworks
 slug: scale
 version: 1.0.0
 description: Scale systems, software architecture, and companies with bottleneck mapping, staged leverage plans, and risk-aware execution loops.

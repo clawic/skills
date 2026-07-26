@@ -1,5 +1,5 @@
 ---
-name: travel
+name: Travel
 slug: travel
 version: 1.0.0
 description: Build a personal travel system for dream destinations, trip planning, and travel memories.

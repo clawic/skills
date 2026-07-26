@@ -1,5 +1,5 @@
 ---
-name: thai
+name: Thai
 slug: thai
 version: 1.0.0
 description: Write Thai that sounds human. Not formal, not robotic, not AI-generated.

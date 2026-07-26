@@ -1,5 +1,5 @@
 ---
-name: ceo
+name: CEO / Chief Executive Officer
 slug: ceo
 version: 1.1.6
 description: >-

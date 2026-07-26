@@ -1,5 +1,5 @@
 ---
-name: yelp
+name: Yelp
 slug: yelp
 version: 1.0.0
 description: Search Yelp businesses and reviews, compare local options, and audit listing quality with official APIs, public pages, and safe action boundaries.

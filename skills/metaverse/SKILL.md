@@ -1,5 +1,5 @@
 ---
-name: metaverse
+name: Metaverse
 slug: metaverse
 version: 1.0.0
 description: Navigate virtual worlds, create avatars, manage digital assets, and understand Web3 social platforms.

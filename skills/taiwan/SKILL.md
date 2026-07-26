@@ -1,5 +1,5 @@
 ---
-name: taiwan
+name: Taiwan
 slug: taiwan
 version: 1.0.0
 description: Plan Taiwan trips with city-specific food, rail, hot spring, and regional tips that avoid tourist filler and logistics mistakes.

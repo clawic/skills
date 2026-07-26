@@ -1,5 +1,5 @@
 ---
-name: running
+name: Running
 slug: running
 version: 1.0.0
 description: Training principles, pacing strategy, injury prevention, and race preparation for runners.

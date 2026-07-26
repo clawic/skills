@@ -1,5 +1,5 @@
 ---
-name: taxi
+name: Taxi
 slug: taxi
 version: 1.0.0
 description: Handle everything for ground transportation, from price comparison to booking, tracking, disputes, and expense management.

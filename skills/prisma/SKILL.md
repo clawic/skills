@@ -1,5 +1,5 @@
 ---
-name: prisma
+name: Prisma
 slug: prisma
 version: 1.0.1
 description: >-

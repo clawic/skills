@@ -1,5 +1,5 @@
 ---
-name: quotes
+name: Quotes
 slug: quotes
 version: 1.0.0
 description: Build a personal quotes system for saving, discovering, and automatically surfacing meaningful words.

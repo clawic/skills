@@ -1,5 +1,5 @@
 ---
-name: toefl
+name: TOEFL
 slug: toefl
 version: 1.0.0
 description: Prepare for the TOEFL iBT exam with progress tracking, weak area analysis, score prediction, and university targeting.

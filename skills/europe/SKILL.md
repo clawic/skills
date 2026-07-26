@@ -1,5 +1,5 @@
 ---
-name: europe
+name: Europe
 slug: europe
 version: 1.0.0
 description: Navigate Europe for travel, relocation, study, remote work, and cross-border life with bloc logic, country fit, rights, timing, and practical execution.

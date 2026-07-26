@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "41d8f406e0893845a573e69718aa5e0b83f729f1e46f69b8f0f69baedf8e5ac0",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "f0919244223b890da46a661cb571d3298a473af2cc73b92c3e2b4206e810d2ce",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "water",
-    "name": "water",
+    "name": "Water Tracker",
     "description": "Tracks daily water intake from casual mentions and sets hydration targets from weight, exercise, heat, and health context. Use when the user logs a drink (\"had a glass\", \"finished my bottle\"), asks how much water they should drink or whether they drink enough, reports thirst, dark urine, dry mouth, cramps, or a headache that could be dehydration, plans fluid or electrolyte replacement for workouts, races, sauna, hiking, flights, or hot weather, or needs rehydration guidance during fever, vomiting, diarrhea, or a hangover, or asks whether tap, bottled, filtered, mineral, or sparkling water is safe or better. Not for meal or calorie logging.",
     "version": "1.0.3",
     "homepage": "https://clawic.com/skills/water",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/water/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md",
-      "byteCount": 15292,
-      "sha256": "9f03ea9c15ef2d75934b1bdfbcad081d4a27d95c0acc05fd0b94838921ca82b3"
+      "byteCount": 15421,
+      "sha256": "c81081c6fae836626e5fdd0afd6ba6f7794fe94eef0a2f6f87c48b259527ede0"
     }
   ]
 }

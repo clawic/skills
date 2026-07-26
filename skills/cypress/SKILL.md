@@ -1,5 +1,5 @@
 ---
-name: cypress
+name: Cypress
 slug: cypress
 version: 1.0.0
 description: Write reliable E2E and component tests with Cypress avoiding flaky selectors, race conditions, and CI failures.

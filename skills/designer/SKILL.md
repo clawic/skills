@@ -1,5 +1,5 @@
 ---
-name: designer
+name: Designer
 slug: designer
 version: 1.0.0
 description: Create logos, interfaces, and visual systems with principles of hierarchy, branding, and usability.

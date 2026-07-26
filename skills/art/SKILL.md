@@ -1,5 +1,5 @@
 ---
-name: art
+name: Art
 slug: art
 version: 1.0.0
 description: Guide art creation, technique development, and appreciation with practical, medium-specific advice.

@@ -1,5 +1,5 @@
 ---
-name: hacker-news
+name: Hacker News
 slug: hacker-news
 version: 1.0.0
 description: Search and browse Hacker News with API access to stories, comments, users, and hiring threads.

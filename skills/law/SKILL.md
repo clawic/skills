@@ -1,5 +1,5 @@
 ---
-name: law
+name: Law
 slug: law
 version: 1.0.0
 description: Support legal understanding from everyday rights to professional practice and scholarship.

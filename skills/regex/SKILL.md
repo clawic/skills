@@ -1,5 +1,5 @@
 ---
-name: regex
+name: Regex
 slug: regex
 version: 1.0.0
 description: Write correct, efficient regular expressions across different engines.

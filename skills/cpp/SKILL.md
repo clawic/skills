@@ -1,5 +1,5 @@
 ---
-name: cpp
+name: C++
 slug: cpp
 version: 1.0.1
 description: Write safe C++ avoiding memory leaks, dangling pointers, undefined behavior, and ownership confusion.

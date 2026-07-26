@@ -1,5 +1,5 @@
 ---
-name: anki
+name: Anki
 slug: anki
 version: 1.0.2
 description: >-

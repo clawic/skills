@@ -1,5 +1,5 @@
 ---
-name: markdown
+name: Markdown
 slug: markdown
 version: 1.0.1
 description: Generate clean, portable Markdown that renders correctly across parsers.

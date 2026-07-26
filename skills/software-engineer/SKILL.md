@@ -1,5 +1,5 @@
 ---
-name: software-engineer
+name: Software Engineer
 slug: software-engineer
 version: 1.0.0
 description: Write production-ready code with clean architecture, proper error handling, and pragmatic trade-offs between shipping fast and building right.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "25e1d13b34d77b6c69ba3b5abbe969eb64294aef67882641da80cd8971a4a825",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "8184870d23d8fdc9568ba551efa7170f4a57dd3fc4ee67b383b0cde7e8659389",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,9 +13,9 @@
   },
   "skill": {
     "slug": "bangkok",
-    "name": "bangkok",
+    "name": "Bangkok",
     "description": "Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases — use the thailand skill for those.",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/bangkok",
     "summary": "User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences — see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/",
     "repositoryPath": "skills/bangkok",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/bangkok/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/_meta.json",
-      "byteCount": 316,
-      "sha256": "3682b6d9ed1562cc3984bc82987d00fd4230123b25eb68261fabf45cb8cb2c0e"
+      "byteCount": 464,
+      "sha256": "dbc39d86e2c7da96fabd3f3b5db61ce2b2ac9f0fcf7164da0cefd3676780c15e"
     },
     {
       "path": "business.md",
@@ -243,8 +243,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/bangkok/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bangkok/SKILL.md",
-      "byteCount": 18102,
-      "sha256": "df7dca11ea0e0ae3f671f0c81f3adeb6c82668adfcce51b092784909c3afdc50"
+      "byteCount": 18394,
+      "sha256": "40f63bbd98e77cbba856454f33834de523c32f825322a795035a84f96f3c3180"
     },
     {
       "path": "taxes.md",

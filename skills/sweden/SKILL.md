@@ -1,5 +1,5 @@
 ---
-name: sweden
+name: Sweden
 slug: sweden
 version: 1.0.0
 description: Plan Sweden trips with verified entry rules, region-specific routing, rail-ferry logistics, and practical seasonal safety.

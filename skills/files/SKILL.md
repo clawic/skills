@@ -1,5 +1,5 @@
 ---
-name: files
+name: Files
 slug: files
 version: 1.0.0
 description: Safely organize, deduplicate, and analyze files with intelligent bulk operations and full undo support.

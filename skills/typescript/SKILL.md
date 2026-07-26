@@ -1,5 +1,5 @@
 ---
-name: typescript
+name: TypeScript
 slug: typescript
 version: 1.0.5
 description: >-

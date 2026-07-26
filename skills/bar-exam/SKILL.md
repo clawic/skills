@@ -1,5 +1,5 @@
 ---
-name: bar-exam
+name: Bar Exam
 slug: bar-exam
 version: 1.0.0
 description: Prepare for the US Bar Exam with MBE practice, essay drilling, weak area targeting, and jurisdiction planning.

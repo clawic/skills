@@ -1,5 +1,5 @@
 ---
-name: vps
+name: VPS
 slug: vps
 version: 1.0.0
 description: Provision, secure, and manage virtual private servers with practical hosting guidance.

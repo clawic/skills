@@ -1,5 +1,5 @@
 ---
-name: apple-calendar-macos
+name: Apple Calendar (MacOS)
 slug: apple-calendar-macos
 version: 1.0.0
 description: Use local CLI to manage Apple, Google, iCloud, Outlook, CalDAV, and other calendars synced in macOS Calendar, without API keys or OAuth.

@@ -1,5 +1,5 @@
 ---
-name: schedule
+name: Schedule
 slug: schedule
 version: 1.0.2
 description: Program recurring or one-time tasks. User defines what to do, skill handles when.

@@ -1,5 +1,5 @@
 ---
-name: negotiate
+name: Negotiation
 slug: negotiate
 version: 1.0.0
 description: Negotiate on behalf of your principal with hard limits, graduated autonomy, and mandatory human approval for commitments.

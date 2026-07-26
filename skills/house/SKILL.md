@@ -1,5 +1,5 @@
 ---
-name: house
+name: House
 slug: house
 version: 1.1.0
 description: Buy, maintain, improve, and sell homes with inspection checklists, maintenance schedules, renovation planning, and transaction guidance.

@@ -1,5 +1,5 @@
 ---
-name: cpo
+name: CPO / Chief Product Officer
 slug: cpo
 version: 1.0.1
 description: Drive product strategy with roadmap prioritization, team leadership, board communication, and competitive intelligence.

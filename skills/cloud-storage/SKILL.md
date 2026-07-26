@@ -1,5 +1,5 @@
 ---
-name: cloud-storage
+name: Cloud Storage
 slug: cloud-storage
 version: 1.0.1
 description: Manage files across cloud providers with authentication, cost awareness, and multi-provider operations.

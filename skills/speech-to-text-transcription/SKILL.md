@@ -1,5 +1,5 @@
 ---
-name: speech-to-text-transcription
+name: Speech to Text Transcription
 slug: speech-to-text-transcription
 version: 1.0.0
 description: Transcribe audio and video files to text with speaker detection, timestamps, and format conversion.

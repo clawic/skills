@@ -1,5 +1,5 @@
 ---
-name: android-studio
+name: Android Studio
 slug: android-studio
 version: 1.0.1
 description: Work fast in Android Studio IDE with debugging, profiling, refactoring, and productivity shortcuts.

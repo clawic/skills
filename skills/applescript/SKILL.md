@@ -1,5 +1,5 @@
 ---
-name: applescript
+name: AppleScript
 slug: applescript
 version: 1.0.0
 description: Write and run safe AppleScript automation on macOS with dictionary discovery, robust quoting, and deterministic read-first workflows.

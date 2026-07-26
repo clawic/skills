@@ -1,5 +1,5 @@
 ---
-name: meditate
+name: Meditate
 slug: meditate
 version: 1.0.1
 description: Think proactively during idle time with sandboxed reflections, adaptive rhythms, and feedback-driven focus areas.

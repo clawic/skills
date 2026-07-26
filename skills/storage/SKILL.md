@@ -1,5 +1,5 @@
 ---
-name: storage
+name: Storage
 slug: storage
 version: 1.0.0
 description: Choose and architect storage systems for applications with the right tradeoffs.

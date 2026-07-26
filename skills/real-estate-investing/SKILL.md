@@ -1,5 +1,5 @@
 ---
-name: real-estate-investing
+name: Real Estate Investing
 slug: real-estate-investing
 version: 1.0.0
 description: Analyze real estate investments with conservative underwriting, financing stress tests, diligence gates, and exit planning.

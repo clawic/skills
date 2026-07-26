@@ -1,5 +1,5 @@
 ---
-name: git
+name: Git
 slug: git
 version: 1.0.11
 description: Commits, branches, merges, and rebases Git repositories, resolves conflicts, and recovers lost history. Use when the work touches a repo, commit, branch, merge, rebase, stash, tag, or submodule; when Git refuses a command — index.lock exists, push rejected as non-fast-forward, detached HEAD, dubious ownership, unrelated histories, conflict markers left behind; when something looks lost after a hard reset, a bad rebase, a deleted branch, or a dropped stash; when splitting a mixed change, wording commit messages, cleaning history before review, or force-pushing without wrecking a teammate's work; when a credential or a huge file got committed; when setting up worktrees, hooks, LFS, sparse checkout, signing, or separate work and personal identities. Not for CI pipeline YAML (github-actions, gitlab) or for composing the pull request description itself (pull-request).

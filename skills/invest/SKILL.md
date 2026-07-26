@@ -1,5 +1,5 @@
 ---
-name: invest
+name: Invest
 slug: invest
 version: 1.0.0
 description: Start investing with account selection, portfolio building, and long-term wealth strategies.

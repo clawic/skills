@@ -1,5 +1,5 @@
 ---
-name: real-estate-agent
+name: Real Estate Agent
 slug: real-estate-agent
 version: 1.0.1
 description: Your personal real estate agent. Find properties, get alerts on deals, sell or rent your home, and navigate any property decision.

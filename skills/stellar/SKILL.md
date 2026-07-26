@@ -1,5 +1,5 @@
 ---
-name: stellar
+name: Stellar
 slug: stellar
 version: 1.0.0
 description: Assist with Stellar XLM transactions, anchors, memo requirements, and cross-border payments.

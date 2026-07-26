@@ -1,5 +1,5 @@
 ---
-name: school
+name: School
 slug: school
 version: 1.0.0
 description: AI-powered education for K-12 students with parental controls, adaptive learning by age, homework help, exam prep, and progress tracking.

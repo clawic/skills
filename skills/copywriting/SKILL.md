@@ -1,5 +1,5 @@
 ---
-name: copywriting
+name: Copywriting
 slug: copywriting
 version: 1.0.0
 description: Writes persuasive marketing copy across formats, covering tone, structure, clarity, and the discipline of selling benefits rather than features.

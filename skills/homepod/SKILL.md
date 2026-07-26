@@ -1,5 +1,5 @@
 ---
-name: homepod
+name: HomePod
 slug: homepod
 version: 1.0.0
 description: Set up, troubleshoot, and optimize HomePod and HomeKit audio workflows with reliable Siri control and room-aware playback tuning.

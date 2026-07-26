@@ -1,5 +1,5 @@
 ---
-name: forms
+name: Forms
 slug: forms
 version: 1.0.0
 description: Create, validate, and deploy forms with field types, validation patterns, conditional logic, and platform integrations.

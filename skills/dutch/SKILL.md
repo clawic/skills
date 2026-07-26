@@ -1,5 +1,5 @@
 ---
-name: dutch
+name: Dutch
 slug: dutch
 version: 1.0.0
 description: Write Dutch that sounds human. Not formal, not robotic, not AI-generated.

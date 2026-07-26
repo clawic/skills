@@ -1,5 +1,5 @@
 ---
-name: json
+name: JSON
 slug: json
 version: 1.0.0
 description: Work with JSON data structures, APIs, and serialization effectively.

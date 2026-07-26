@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
-  "generatedAt": "2026-07-26T11:41:05.166Z",
-  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
-  "manifestSha256": "2074c971e20133367c4a6da06b6a0343e13783ad3452324e313bb16c1cd2c988",
+  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
+  "generatedAt": "2026-07-26T12:22:57.201Z",
+  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
+  "manifestSha256": "64c77de3ff54032e08d8a06477d5d1fda082b448db467a5999ee9d8dec00ea8d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -13,7 +13,7 @@
   },
   "skill": {
     "slug": "figma",
-    "name": "figma",
+    "name": "Figma",
     "description": "Builds and debugs Figma files: auto layout, components and variants, variables and modes, libraries, prototypes, and Dev Mode handoff. Use when a frame will not resize, text clips or overflows, a variant set lags, a library update breaks instances, dark mode or theming needs modes instead of duplicated screens, engineers say the UI breaks on resize, icons export blurry, a file opens slowly, an inherited file needs auditing, or work has to be scripted through plugins, the REST API, or the Dev Mode MCP server. Covers component properties, token naming, Code Connect, export densities, FigJam and Slides. Not for piping tokens into platform code (design-tokens), prototyping beyond Figma (prototyping), visual design judgment (design), or the handoff process around the file — spec documents, redlines, review rituals (design-handoff).",
     "version": "1.0.1",
     "homepage": "https://clawic.com/skills/figma",
@@ -146,7 +146,7 @@
       "downloadPath": "skills/figma/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/SKILL.md",
       "byteCount": 21637,
-      "sha256": "3653b4d659bb798b5348de1ba86aa39f433977f761ab94896102d0b51470c315"
+      "sha256": "15f1a5b41ce50f6aeff785b61ec561dc12ad80226d9e4e5140bc182d3df5ee5d"
     },
     {
       "path": "surfaces.md",

@@ -1,5 +1,5 @@
 ---
-name: shipping
+name: Shipping Operations
 slug: shipping
 version: 1.0.0
 description: Plan and manage parcel shipping decisions with carrier selection, landed-cost math, customs checks, and delivery exception playbooks.

@@ -1,5 +1,5 @@
 ---
-name: software-architect
+name: Software Architect
 slug: software-architect
 version: 1.0.0
 description: Design scalable systems with sound trade-offs, clear boundaries, and maintainable patterns.

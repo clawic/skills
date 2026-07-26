@@ -1,5 +1,5 @@
 ---
-name: shopping
+name: Shopping
 slug: shopping
 version: 1.0.0
 description: Help users make better purchase decisions — research, comparison, timing, and avoiding buyer's remorse.

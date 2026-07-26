@@ -1,5 +1,5 @@
 ---
-name: india
+name: India
 slug: india
 version: 1.0.0
 description: Plan India trips with specific neighborhoods, regional food calls, route choices, and grounded advice that avoids common travel mistakes.

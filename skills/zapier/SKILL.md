@@ -1,5 +1,5 @@
 ---
-name: zapier
+name: Zapier
 slug: zapier
 version: 1.0.0
 description: Complete Zapier automation with Zaps, Tables, Interfaces, webhooks, REST Hooks API, and 6000+ app integrations.

@@ -1,5 +1,5 @@
 ---
-name: groq-api
+name: Groq API Inference
 slug: groq-api
 version: 1.0.0
 description: Build and debug Groq API chat and speech workflows with low-latency routing, structured outputs, and production-safe patterns.

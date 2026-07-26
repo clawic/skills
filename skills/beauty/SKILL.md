@@ -1,5 +1,5 @@
 ---
-name: beauty
+name: Beauty
 slug: beauty
 version: 1.0.0
 description: Build practical beauty routines with skincare basics, makeup strategy, and hair care plans tailored to skin type, budget, and schedule.

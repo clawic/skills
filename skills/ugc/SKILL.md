@@ -1,5 +1,5 @@
 ---
-name: ugc
+name: UGC
 slug: ugc
 version: 1.0.0
 description: Create viral user-generated content for marketing with effective hooks, formats, and creator strategies.

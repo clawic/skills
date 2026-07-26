@@ -1,5 +1,5 @@
 ---
-name: invoices
+name: Invoices
 slug: invoices
 version: 1.0.1
 description: Capture, extract, and organize received invoices with automatic OCR, provider detection, and searchable archive.

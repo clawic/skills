@@ -1,5 +1,5 @@
 ---
-name: prom
+name: Prometheus
 slug: prom
 version: 1.0.0
 description: Prometheus monitoring patterns, cardinality management, alerting best practices, and PromQL traps.

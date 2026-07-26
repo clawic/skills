@@ -1,5 +1,5 @@
 ---
-name: backend
+name: Backend
 slug: backend
 version: 1.0.0
 description: Build reliable backend services with proper error handling, security, and observability.

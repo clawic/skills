@@ -1,5 +1,5 @@
 ---
-name: cto
+name: CTO / Chief Technology Officer
 slug: cto
 version: 1.0.6
 description: >-

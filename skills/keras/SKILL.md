@@ -1,5 +1,5 @@
 ---
-name: keras
+name: Keras
 slug: keras
 version: 1.0.0
 description: Build, train, and debug deep learning models with Keras patterns, layer recipes, and training diagnostics.

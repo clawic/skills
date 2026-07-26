@@ -1,5 +1,5 @@
 ---
-name: finnish
+name: Finnish
 slug: finnish
 version: 1.0.0
 description: Write Finnish that sounds human. Not formal, not robotic, not AI-generated.

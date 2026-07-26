@@ -1,5 +1,5 @@
 ---
-name: freelance
+name: Freelance
 slug: freelance
 version: 1.0.0
 description: Navigate freelance platforms as worker or client with proposals, pricing, vetting, and legal compliance.

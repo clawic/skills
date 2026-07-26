@@ -1,5 +1,5 @@
 ---
-name: expat
+name: Expat Companion
 slug: expat
 version: 1.0.0
 description: Plan and track international moves with visa timelines, document checklists, and country-specific guides.

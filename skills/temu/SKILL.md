@@ -1,5 +1,5 @@
 ---
-name: temu
+name: Temu
 slug: temu
 version: 1.0.0
 description: Shop smarter on Temu with price tracking, review analysis, scam detection, and shipping optimization.

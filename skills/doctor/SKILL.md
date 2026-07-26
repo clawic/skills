@@ -1,5 +1,5 @@
 ---
-name: doctor
+name: Doctor
 slug: doctor
 version: 1.0.0
 description: Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.

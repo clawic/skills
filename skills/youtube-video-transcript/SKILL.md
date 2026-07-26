@@ -1,5 +1,5 @@
 ---
-name: youtube-video-transcript
+name: YouTube Video Transcript
 slug: youtube-video-transcript
 version: 1.0.0
 description: Fetch, summarize, and save YouTube transcripts with timestamp navigation, chapter detection, and searchable content.

@@ -1,5 +1,5 @@
 ---
-name: coding
+name: Coding
 slug: coding
 version: 1.0.3
 description: Coding style memory that adapts to your preferences, conventions, and patterns for consistent coding.

@@ -1,5 +1,5 @@
 ---
-name: video
+name: Video
 slug: video
 version: 1.0.1
 description: Process, edit, and optimize videos for any platform with compression, format conversion, captioning, and repurposing workflows.

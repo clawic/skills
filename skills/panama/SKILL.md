@@ -1,5 +1,5 @@
 ---
-name: panama
+name: Panama
 slug: panama
 version: 1.0.0
 description: Plan Panama trips with region-aware routing, verified entry rules, island and highland logistics, and practical tourist safety.

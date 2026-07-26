@@ -1,5 +1,5 @@
 ---
-name: cycle
+name: Cycle
 slug: cycle
 version: 1.1.0
 description: Design custom workflow cycles for any domain. Create structured, repeatable processes that become persistent skills.

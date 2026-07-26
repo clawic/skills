@@ -1,5 +1,5 @@
 ---
-name: retention
+name: Retention
 slug: retention
 version: 1.0.0
 description: User retention strategy, cohort analysis, churn prevention, and reactivation campaigns

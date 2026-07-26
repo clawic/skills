@@ -1,5 +1,5 @@
 ---
-name: webflow
+name: Webflow
 slug: webflow
 version: 1.0.0
 description: Build, launch, and optimize Webflow sites with responsive design, CMS architecture, and clean handoffs.

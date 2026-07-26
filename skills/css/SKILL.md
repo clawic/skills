@@ -1,5 +1,5 @@
 ---
-name: css
+name: CSS
 slug: css
 version: 1.0.4
 description: >-

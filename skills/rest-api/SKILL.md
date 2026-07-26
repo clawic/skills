@@ -1,5 +1,5 @@
 ---
-name: rest-api
+name: REST API
 slug: rest-api
 version: 1.0.0
 description: Build production-ready REST APIs with contract-first design, secure auth, robust testing, and deployment runbooks.

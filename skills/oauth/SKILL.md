@@ -1,5 +1,5 @@
 ---
-name: oauth
+name: OAuth
 slug: oauth
 version: 1.0.0
 description: Implement OAuth 2.0 and OpenID Connect flows securely.

@@ -1,5 +1,5 @@
 ---
-name: music-generation
+name: Music Generation
 slug: music-generation
 version: 1.0.0
 description: Generate AI music with optimized prompts, style control, and production-ready audio output.

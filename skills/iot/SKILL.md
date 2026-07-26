@@ -1,5 +1,5 @@
 ---
-name: iot
+name: IoT
 slug: iot
 version: 1.0.0
 description: Assist with IoT device setup, protocols, security hardening, and home automation integration.

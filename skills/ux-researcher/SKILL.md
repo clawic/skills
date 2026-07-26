@@ -1,5 +1,5 @@
 ---
-name: ux-researcher
+name: UX Researcher
 slug: ux-researcher
 version: 1.0.0
 description: Generate user personas, pain points, journey maps, and UX recommendations without conducting interviews.

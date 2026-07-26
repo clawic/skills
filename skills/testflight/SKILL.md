@@ -1,5 +1,5 @@
 ---
-name: testflight
+name: TestFlight
 slug: testflight
 version: 1.0.0
 description: Distribute iOS and macOS beta builds with TestFlight, tester management, and CI/CD automation.

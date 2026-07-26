@@ -1,5 +1,5 @@
 ---
-name: macau
+name: Macau
 slug: macau
 version: 1.0.0
 description: Navigate Macau as visitor, resident, worker, student, or founder with districts, transport, costs, borders, culture, and practical local context.

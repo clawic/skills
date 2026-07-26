@@ -1,5 +1,5 @@
 ---
-name: gaokao
+name: 高考 (Gaokao)
 slug: gaokao
 version: 1.0.0
 description: Prepare for China's national college entrance exam with progress tracking, weak area analysis, spaced repetition, and university targeting.

@@ -1,5 +1,5 @@
 ---
-name: property-valuation
+name: Property Valuation
 slug: property-valuation
 version: 1.0.0
 description: Estimate property values using comps, income approach, and market analysis with adjustment calculations.

@@ -1,5 +1,5 @@
 ---
-name: switzerland
+name: Switzerland
 slug: switzerland
 version: 1.0.0
 description: Plan Switzerland trips with Alpine rail and mountain logistics, verified entry rules, scenic routing, and practical local execution.

@@ -1,5 +1,5 @@
 ---
-name: amazon
+name: Amazon
 slug: amazon
 version: 1.0.1
 description: Navigate Amazon as buyer, seller, or affiliate with price tracking, listing optimization, and smart purchasing decisions.

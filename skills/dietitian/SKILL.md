@@ -1,5 +1,5 @@
 ---
-name: dietitian
+name: Dietitian
 slug: dietitian
 version: 1.0.0
 description: Structured meal planning — calorie targets, macro calculations, meal timing, and goal-specific diet protocols.

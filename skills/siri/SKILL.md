@@ -1,5 +1,5 @@
 ---
-name: siri
+name: Siri
 slug: siri
 version: 1.0.0
 description: Control devices, run automations, and help users get more from Siri with HomeKit, Shortcuts, and voice command guidance.

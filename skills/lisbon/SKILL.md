@@ -1,5 +1,5 @@
 ---
-name: lisbon
+name: Lisbon
 slug: lisbon
 version: 1.0.0
 description: Navigate Lisbon as visitor, resident, digital nomad, tech worker, or entrepreneur with neighborhoods, transport, costs, visas, and local insights.

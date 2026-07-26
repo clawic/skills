@@ -1,5 +1,5 @@
 ---
-name: roleplay
+name: Roleplay
 slug: roleplay
 version: 1.0.0
 description: Create persistent characters, run practice scenarios, and track progress across roleplay sessions with activation control and structured feedback.

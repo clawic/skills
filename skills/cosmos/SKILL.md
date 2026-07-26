@@ -1,5 +1,5 @@
 ---
-name: cosmos
+name: Cosmos
 slug: cosmos
 version: 1.0.0
 description: Assist with Cosmos ATOM transactions, IBC transfers, staking, and cross-chain ecosystem navigation.
