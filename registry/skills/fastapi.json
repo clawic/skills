@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "ab99c265499c52acc203469ffc1b2cccdb08ff7f47f42a80bcaae1b6b03a5bbd",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "1db17174176b809e9c14148b99ec3b4366e28fe1c39add34d20c22bdb54a5c49",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "fastapi",
     "name": "fastapi",
-    "description": "Build fast, production-ready Python APIs with type hints, validation, and async support.",
-    "version": "1.0.0",
+    "description": "Builds, debugs, and hardens FastAPI services: async endpoints, Pydantic models, dependency injection, auth, and deployment. Use when writing or reviewing a FastAPI app, router, or schema; when the API hangs or every route slows because a sync driver or CPU work blocks the event loop; when a request returns an unexpected 422, a POST becomes a 307, or a 500 arrives with no CORS headers; when migrating pydantic v1 to v2 (`model_dump`, `from_attributes`, `field_validator`); when `Depends` runs too often, `yield` cleanup misfires, or dependency overrides do not take; when SQLAlchemy raises `QueuePool limit` or `MissingGreenlet`, or connections leak across workers; when TestClient, httpx `AsyncClient`, or pytest-asyncio fail with a closed event loop; when uvicorn or gunicorn workers, graceful shutdown, `root_path`, or proxy headers need deciding; or when background tasks, WebSockets, SSE, uploads, or the OpenAPI docs misbehave. Not for Django, Flask, or general Python — `django`, `flask`, `py`.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/fastapi",
-    "summary": "FastAPI Patterns Async Traps - Mixing sync database drivers (psycopg2, PyMySQL) in async endpoints blocks the event loop — use async drivers (asyncpg, aiomysql) or run sync code in `run_in_executor` - `time.sleep()` in a",
+    "summary": "User preferences live in `~/Clawic/data/fastapi/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/fastapi/` or `~/clawic/fastapi/`), move it to `~/Cla",
     "repositoryPath": "skills/fastapi",
     "manifestPath": "registry/skills/fastapi.json"
   },
@@ -26,15 +26,155 @@
       "path": "_meta.json",
       "downloadPath": "skills/fastapi/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/_meta.json",
-      "byteCount": 166,
-      "sha256": "39f7d802a62d1916436937ee1ac0f0cf6ee4fff99d37db20c96db3605e4fefbb"
+      "byteCount": 242,
+      "sha256": "80c03bcde87f40c8441d24632fdaac6cbafd03c2c1aa3289282a5abdcb83cf1d"
+    },
+    {
+      "path": "async.md",
+      "downloadPath": "skills/fastapi/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/async.md",
+      "byteCount": 5758,
+      "sha256": "12769447fce0f1caee0f734ead29bd064b34603d4285ada18339e680bc8e92d2"
+    },
+    {
+      "path": "auth.md",
+      "downloadPath": "skills/fastapi/auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/auth.md",
+      "byteCount": 6402,
+      "sha256": "19b86e33110ad1837e712fc3ba618c06c3e20d002829b5aac7c9685a0e89bdcc"
+    },
+    {
+      "path": "background.md",
+      "downloadPath": "skills/fastapi/background.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/background.md",
+      "byteCount": 4791,
+      "sha256": "0105105083bd1abb46d6ca525866c991a373e0514ac70c5ca60ee717df796803"
+    },
+    {
+      "path": "database.md",
+      "downloadPath": "skills/fastapi/database.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/database.md",
+      "byteCount": 6646,
+      "sha256": "5ff77a121d78a5a2e6c4f2d2ef59b4887b35305e641fdd9d303370e45a0bd862"
+    },
+    {
+      "path": "dependencies.md",
+      "downloadPath": "skills/fastapi/dependencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/dependencies.md",
+      "byteCount": 5752,
+      "sha256": "1cde150f6e1e593c149c89d3fc0f54eeaa917760b40336ee8f3362de1434d887"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/fastapi/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/deployment.md",
+      "byteCount": 6071,
+      "sha256": "e4d762455c7916704402e8325650381d3319989b41ef9debf656b7c15e1ff4c5"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/fastapi/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/errors.md",
+      "byteCount": 5509,
+      "sha256": "4891d069630d36696baa15830793bcbc82bba0776a9fec51cba0d06fa90efe62"
+    },
+    {
+      "path": "middleware.md",
+      "downloadPath": "skills/fastapi/middleware.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/middleware.md",
+      "byteCount": 5593,
+      "sha256": "64e231db662129df79993ce67c3d9eee49e3be516ab3bcad6ef481067d229019"
+    },
+    {
+      "path": "observability.md",
+      "downloadPath": "skills/fastapi/observability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/observability.md",
+      "byteCount": 5428,
+      "sha256": "8faaefaa78c4ea2159fc5aae35e9b89f424dc214d4a119dd698ea6f114ce517f"
+    },
+    {
+      "path": "openapi.md",
+      "downloadPath": "skills/fastapi/openapi.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/openapi.md",
+      "byteCount": 5047,
+      "sha256": "bbf37f5fe5fac863f414ec99d71bcff504b169f4122bbae124f6bf536c597a60"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/fastapi/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/performance.md",
+      "byteCount": 5899,
+      "sha256": "fd02bcd19528173fb7b71d5b0f4a9d4572084a911b49dea833d4dbe2184685c6"
+    },
+    {
+      "path": "pydantic.md",
+      "downloadPath": "skills/fastapi/pydantic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/pydantic.md",
+      "byteCount": 6731,
+      "sha256": "dc5c9c09779405860826e5bfa5a04267e9a5f77fa00ea7890e6e498163c1db67"
+    },
+    {
+      "path": "routing.md",
+      "downloadPath": "skills/fastapi/routing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/routing.md",
+      "byteCount": 5507,
+      "sha256": "db8bcbdc3a69b756ae8832c79f10912ba7ffc7eed6443df5e3d375b968a50239"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/fastapi/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/security.md",
+      "byteCount": 5655,
+      "sha256": "e4fd10941ca38f1097f57a73d3cb4d6813de6b39d4e494c6a23670b173e35f72"
+    },
+    {
+      "path": "settings.md",
+      "downloadPath": "skills/fastapi/settings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/settings.md",
+      "byteCount": 5408,
+      "sha256": "20ad62530330d9d92a824a8f7881286cde2f0d288a4f4d9140bcf6c5fdcf00fb"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/fastapi/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/SKILL.md",
-      "byteCount": 4289,
-      "sha256": "45628502e17987f24c5e26e9e9e8448e4d9eb387c1a237b5a7e15a681ff9d0f4"
+      "byteCount": 20034,
+      "sha256": "4481647ae4c8aca8d639b07c57fbaeb6c606974972c6255d7f60ea018b9a5b5c"
+    },
+    {
+      "path": "streaming.md",
+      "downloadPath": "skills/fastapi/streaming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/streaming.md",
+      "byteCount": 5490,
+      "sha256": "126713574cad7ca782540f9fe508a49d2ea59bb2bd2c2f2493e28578524d55f1"
+    },
+    {
+      "path": "structure.md",
+      "downloadPath": "skills/fastapi/structure.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/structure.md",
+      "byteCount": 5124,
+      "sha256": "315c0b0495fb91a5cf2a90f8e63d965ee8b40a33e7d569a8ee4b033cb9cfdc2d"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/fastapi/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/templates.md",
+      "byteCount": 5137,
+      "sha256": "3bc81afcb9647411a71248290b6961188d142669a8cf4a15358dd301d8afd351"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/fastapi/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/testing.md",
+      "byteCount": 5709,
+      "sha256": "467e98256b4bf67ccb343df773712c32631cb612822b1c84b464b8e4a3633469"
+    },
+    {
+      "path": "websockets.md",
+      "downloadPath": "skills/fastapi/websockets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastapi/websockets.md",
+      "byteCount": 5799,
+      "sha256": "d09f225569bfadd7bd32ca2e6eb6b096cdca4f571342862cac35e4583043907e"
     }
   ]
 }
