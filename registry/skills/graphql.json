@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "8381d23e256f5a217259dd76c17b63e2dacd556ab22e1e683c3a67dc994e144b",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "e01e1e6a2448cab0c8ecaa66c1bd9babf08cfeded6c06ba3bb5e397582f10343",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "graphql",
     "name": "graphql",
-    "description": "Design GraphQL schemas and resolvers with proper performance, security, and error handling.",
-    "version": "1.0.1",
+    "description": "Designs, debugs, and hardens GraphQL schemas, resolvers, and clients: N+1 batching, nullability, cost limits, subscriptions, federation. Use when writing or reviewing a schema, SDL, or resolvers; when a query is slow or fires hundreds of database queries; when the response says \"Cannot return null for non-nullable field\", comes back with an errors array, or nulls a whole branch; when designing mutations, cursor pagination, custom scalars, unions, or input types; when an Apollo, Relay, or urql cache will not update after a mutation; when subscriptions drop or never fire; when adding depth, alias, complexity, or persisted-query limits, disabling introspection, or masking errors; when a schema change breaks clients; or when composing Apollo Federation subgraphs and entity references. Not for consuming someone else's GraphQL API (api) or for designing REST endpoints (rest-api).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/graphql",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Schema design patterns | `schema.md` | | Security and limits | `security.md` | | Performance optimization | `performance.md` | | Client-side patterns | `client.md` | N+",
+    "summary": "User preferences and memory live in `~/Clawic/data/graphql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/graphql/` or `~/clawic/graphql/`), move it to ",
     "repositoryPath": "skills/graphql",
     "manifestPath": "registry/skills/graphql.json"
   },
@@ -26,43 +26,169 @@
       "path": "_meta.json",
       "downloadPath": "skills/graphql/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/_meta.json",
-      "byteCount": 242,
-      "sha256": "c368c116b8f702627bca797e32c4ab66e210c10c2dfdefc3784451b5ccbd6736"
+      "byteCount": 316,
+      "sha256": "8e42e88c3041cb2effbf8b2274a10f333c2b09b0e055350bfbe07747dafba6d4"
+    },
+    {
+      "path": "authorization.md",
+      "downloadPath": "skills/graphql/authorization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/authorization.md",
+      "byteCount": 9570,
+      "sha256": "3733890c4cf0c2461f9fbe2db79451f8317d1bb12c7446f95699dfa734435b3c"
+    },
+    {
+      "path": "caching.md",
+      "downloadPath": "skills/graphql/caching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/caching.md",
+      "byteCount": 9635,
+      "sha256": "cca16e1ea673f8e827d26177a1a3a087d4160ef4d6838e9272b14b41b2ff9457"
     },
     {
       "path": "client.md",
       "downloadPath": "skills/graphql/client.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/client.md",
-      "byteCount": 1769,
-      "sha256": "275ace4db41371f65c95d76d7c7d34b91f029faa760c4814967c8aa7c3d4f3f7"
+      "byteCount": 11332,
+      "sha256": "7a952fd2aa563ead7dc1e51ab488cd5d2e28373dd63ddcb991b4d32688259c20"
+    },
+    {
+      "path": "codegen.md",
+      "downloadPath": "skills/graphql/codegen.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/codegen.md",
+      "byteCount": 9133,
+      "sha256": "1e1d9332ee001f3223e23a71ff954cca0c85bf80419aca7c124592de2661af49"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/graphql/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/commands.md",
+      "byteCount": 5815,
+      "sha256": "0af50baf73fb9aae3ba6f06966b9f8e42ce921adccdeab307501560c19640681"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/graphql/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/debug.md",
+      "byteCount": 9859,
+      "sha256": "b6fbe107f46b385e366dc31ea2be6d58874d79eaa6616292ccd1fdc7b8e6c46a"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/graphql/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/errors.md",
+      "byteCount": 8894,
+      "sha256": "5ab1ad2112a332999486b37fccf674b8a54558a6b34d12f013912e7da4f9d2a1"
+    },
+    {
+      "path": "federation.md",
+      "downloadPath": "skills/graphql/federation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/federation.md",
+      "byteCount": 10782,
+      "sha256": "ed8c42dd00a52d6d3cd560bd91785055a844d1066d8f0641e54e8395d16a8a4d"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/graphql/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/memory-template.md",
+      "byteCount": 1011,
+      "sha256": "3e22fd27e84547a359049562c5021483afe3b6792776d63e6d43b1dedf211a62"
+    },
+    {
+      "path": "mutations.md",
+      "downloadPath": "skills/graphql/mutations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/mutations.md",
+      "byteCount": 10193,
+      "sha256": "8fe24d20300de349b9948b994d888b059550bdfbabeabd70f1208fdbb2646e80"
+    },
+    {
+      "path": "n-plus-one.md",
+      "downloadPath": "skills/graphql/n-plus-one.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/n-plus-one.md",
+      "byteCount": 8500,
+      "sha256": "c942f502f4c3b43cbd888bae87e225b9fc011ffd3cf0fdf96cea0b51bd43a6a7"
+    },
+    {
+      "path": "pagination.md",
+      "downloadPath": "skills/graphql/pagination.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/pagination.md",
+      "byteCount": 9296,
+      "sha256": "a48b0fd24a208f9102d8b86ff7c6544372c4146d121350c933819058a9ba14a8"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/graphql/performance.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/performance.md",
-      "byteCount": 1672,
-      "sha256": "e2541f28183344256b78a1b42ad109f504c53174eb680cc99d051641a10c442f"
+      "byteCount": 9383,
+      "sha256": "a44384bf41d88022cb16fcbd328bde47cdfc23a63656c1b4e83b40a80df2659a"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/graphql/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/production.md",
+      "byteCount": 9931,
+      "sha256": "8b162378f758fe7d88ceaee7948698b816553661ade73ac8975d2aac0876c7c5"
+    },
+    {
+      "path": "resolvers.md",
+      "downloadPath": "skills/graphql/resolvers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/resolvers.md",
+      "byteCount": 9500,
+      "sha256": "5073cf3144ae26c79c0a3a1d76105c0678c8bd3b7fdaeb4000b7990aa3bce176"
+    },
+    {
+      "path": "rest-migration.md",
+      "downloadPath": "skills/graphql/rest-migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/rest-migration.md",
+      "byteCount": 9831,
+      "sha256": "ff6fc817f737bcfd0ca0151caa5d8f60e9d92d617d9f1e0d8b134d88b0e26bde"
+    },
+    {
+      "path": "schema-evolution.md",
+      "downloadPath": "skills/graphql/schema-evolution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/schema-evolution.md",
+      "byteCount": 10345,
+      "sha256": "cd943112f1c02db2b3c49dc0a96b982e0dec2a4aeb58e11d0fff259029dbf2a0"
     },
     {
       "path": "schema.md",
       "downloadPath": "skills/graphql/schema.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/schema.md",
-      "byteCount": 1745,
-      "sha256": "9b67ac59a3988bc9f5466d00a3c54ef83013c3bf1ce421de521f8eb0442683e6"
+      "byteCount": 11683,
+      "sha256": "929a822ecb6296b8f8812da72e1a7176e7c0dfc56a90cacedbd86b163edd27e7"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/graphql/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/security.md",
-      "byteCount": 1757,
-      "sha256": "626795c5c4b74cd008ea95d42bd3eddf4f0af9366116a797c04c321a161f1df8"
+      "byteCount": 10137,
+      "sha256": "0e7c84283453f84f72c8c82c7ec2d9acc3865719355d3e0fb5a00919fe6df050"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/graphql/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/setup.md",
+      "byteCount": 2582,
+      "sha256": "a1884a58682cdb4843d6c6c7e49ebbda5d0fbd7c640f35d4f4aefc9aa3927702"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/graphql/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/SKILL.md",
-      "byteCount": 4524,
-      "sha256": "411de60d961d6ccd79bbd326989164061a545d24e8c539faedf86a8dfd4beb17"
+      "byteCount": 21794,
+      "sha256": "030a28a4663ac0cebdc170edf6a33149676d241d62fa97c4568fc6594fa99241"
+    },
+    {
+      "path": "subscriptions.md",
+      "downloadPath": "skills/graphql/subscriptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/subscriptions.md",
+      "byteCount": 11519,
+      "sha256": "56fe692d0db0e6c4128a9ae2f4e541a4ec38f518c905bc3952a962d99a1373bd"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/graphql/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/graphql/testing.md",
+      "byteCount": 9137,
+      "sha256": "4a891ff71bbbe31f84f05955a6e71cfa60c1d5d88f7008a21119cbe4c8a1dd5f"
     }
   ]
 }
