@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "e80c903799e17d01beb23d245db32741a3523f8b848af15a02d56f378bf404c2",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "ff06eaae843324aa1f3c7bd8e95dbc989e06be6ce78b6a8278045208bab5575c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "flutter",
     "name": "flutter",
-    "description": "Build reliable Flutter apps avoiding state loss, widget rebuild traps, and async pitfalls.",
-    "version": "1.0.1",
+    "description": "Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation, performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows, a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button handling; when the keyboard covers a form field or validation misfires; when a platform channel throws MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget, golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK, IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/flutter",
-    "summary": "Quick Reference | Topic | File | |-------|------| | setState, state loss, keys | `state.md` | | build method, context, GlobalKey | `widgets.md` | | FutureBuilder, dispose, mounted | `async.md` | | Context after pop, deep",
+    "summary": "User preferences live in `~/Clawic/data/flutter/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/flutter/` or `~/clawic/flutter/`), move it to `~/Cla",
     "repositoryPath": "skills/flutter",
     "manifestPath": "registry/skills/flutter.json"
   },
@@ -26,57 +26,162 @@
       "path": "_meta.json",
       "downloadPath": "skills/flutter/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/_meta.json",
-      "byteCount": 242,
-      "sha256": "774de5925f718c460a8cb87204441cfb6267330102524690a27e3125a4a0d752"
+      "byteCount": 316,
+      "sha256": "537e32f3760c954412a807840d482123654bba2aea21b81ba56576acd4534c5f"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/flutter/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/accessibility.md",
+      "byteCount": 6115,
+      "sha256": "a5b276172809c25093468d510fcee1ba435169eb256b76d57702f87279b60813"
+    },
+    {
+      "path": "adaptive.md",
+      "downloadPath": "skills/flutter/adaptive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/adaptive.md",
+      "byteCount": 6648,
+      "sha256": "cc38bb42ddd4d0116c8740e0c7f24dc84cd6f9164b076afb1819d56a01d7e515"
+    },
+    {
+      "path": "animations.md",
+      "downloadPath": "skills/flutter/animations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/animations.md",
+      "byteCount": 6501,
+      "sha256": "cf26531a856e149ec440b599b70c050782e94e47291477a7d5ebf4b74de8dbee"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/flutter/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/architecture.md",
+      "byteCount": 7885,
+      "sha256": "d057e8227b2924654dfbf219848dc28d346d8463698adce8b6b93435496f2459"
     },
     {
       "path": "async.md",
       "downloadPath": "skills/flutter/async.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/async.md",
-      "byteCount": 662,
-      "sha256": "52ec87368cc4b9bd3e29a71f6c3856c496c84ea6c611131fe65c45c0a0da351b"
+      "byteCount": 7416,
+      "sha256": "519bd03e15aec4c884b7bbf928d9dbd0c46c7a56eb28b4f157b8dfb22b9b4c34"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/flutter/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/commands.md",
+      "byteCount": 5284,
+      "sha256": "038834d84eb2ef6c84f256abae22842e4f337de5dc88f0a6a31ca7501fc1ced3"
+    },
+    {
+      "path": "custom-painting.md",
+      "downloadPath": "skills/flutter/custom-painting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/custom-painting.md",
+      "byteCount": 6814,
+      "sha256": "e5f32c29e1923a1c7827bc100105bca9ea6e3d034611e4b2c3d4c602637d1b06"
+    },
+    {
+      "path": "dart.md",
+      "downloadPath": "skills/flutter/dart.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/dart.md",
+      "byteCount": 6836,
+      "sha256": "b308421b0f4c90e952b9fcaae26cd622d43cfddf1b8161bd1d34bd8827dda020"
+    },
+    {
+      "path": "data.md",
+      "downloadPath": "skills/flutter/data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/data.md",
+      "byteCount": 7699,
+      "sha256": "d88ae2bc2b58c1b038ff80f0d880537efdbcfb007b501ab71e2e72cb9438e10f"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/flutter/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/debug.md",
+      "byteCount": 9350,
+      "sha256": "6c5c764d163cd32b1ce864e08f09abc447ed1f1cfb758a0fa6301609e77db5a1"
+    },
+    {
+      "path": "dependencies.md",
+      "downloadPath": "skills/flutter/dependencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/dependencies.md",
+      "byteCount": 6790,
+      "sha256": "4ac580595d934c0f900217bc475e62744db96954a53b62dcdddf81e8535b456e"
+    },
+    {
+      "path": "forms.md",
+      "downloadPath": "skills/flutter/forms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/forms.md",
+      "byteCount": 7169,
+      "sha256": "8a25d6c80341251878abc7a11f1f4764aa326a54426001e538b266689987e26d"
+    },
+    {
+      "path": "layout.md",
+      "downloadPath": "skills/flutter/layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/layout.md",
+      "byteCount": 7931,
+      "sha256": "b4042cc3011a1688108644744f31cacc7f6f211da895162d7b2404ac22ab1264"
+    },
+    {
+      "path": "localization.md",
+      "downloadPath": "skills/flutter/localization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/localization.md",
+      "byteCount": 7018,
+      "sha256": "0c0100d6ed5a898acd0b542af6df3800c06615a7fb99be5ba4f31c56a7a6947d"
     },
     {
       "path": "navigation.md",
       "downloadPath": "skills/flutter/navigation.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/navigation.md",
-      "byteCount": 648,
-      "sha256": "a3f4b076978cea1126f8cbe29102599244a6665e5dc789d1f480b407a863b7f9"
+      "byteCount": 7257,
+      "sha256": "a006e5c67e9a0af1f1a041a30b155ce18c38f065139b2ed2cef158687a0db86c"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/flutter/performance.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/performance.md",
-      "byteCount": 674,
-      "sha256": "20dbf3c3d3e8f01cbcf1ecfee55bd4cc5b0a938fe5a0fd9500a5b011136e9062"
+      "byteCount": 7867,
+      "sha256": "303a1432953cf888b2e07e0357a050d1d2b0ef106512621414fa0d89e0725b97"
     },
     {
       "path": "platform.md",
       "downloadPath": "skills/flutter/platform.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/platform.md",
-      "byteCount": 589,
-      "sha256": "b4189bdc8f6c81d6bad8a6cc38340a15a2feed7b58371a0a74e85569cc32c73c"
+      "byteCount": 7015,
+      "sha256": "310e45eb2835df92ad1a09e44b9316c5ff86e956dda421104cb60c322ec7d392"
+    },
+    {
+      "path": "release.md",
+      "downloadPath": "skills/flutter/release.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/release.md",
+      "byteCount": 7082,
+      "sha256": "c45fd31c623cfe9ca07495817d8e9517e0246a925e04c19a387a0dcba457fab6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/flutter/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/SKILL.md",
-      "byteCount": 1602,
-      "sha256": "1f29e864975bc9dbe6ebab63d479360fb94e0b04f96a85656866d2f8e6398416"
+      "byteCount": 26756,
+      "sha256": "f9c9e507c8da9ea35678c3aaaa1764df1c19a75fa6fc31b4eb421ea88506e17b"
     },
     {
       "path": "state.md",
       "downloadPath": "skills/flutter/state.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/state.md",
-      "byteCount": 625,
-      "sha256": "c9fc7764d9938ec28e0d36a652bee47f97bffd3d0a084eba33aab98f7220592d"
+      "byteCount": 7622,
+      "sha256": "a5f9bf7fcc532d7c3135325fdf9861067c6525431fd477e5505c49c3abf353ab"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/flutter/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/testing.md",
+      "byteCount": 6898,
+      "sha256": "5636379cd5dd73d6d3cd1de242d2f9753df13ce7dd8e85ebe0748bf1e21761dc"
     },
     {
       "path": "widgets.md",
       "downloadPath": "skills/flutter/widgets.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/widgets.md",
-      "byteCount": 631,
-      "sha256": "2157947ca3a35cd71623c8816608729d3dddc7e4f9638c88aa901118befc5760"
+      "byteCount": 7416,
+      "sha256": "e36d58fa0eadfc900b904a638e5cd8edbb1def7f3e212561f3ea8fbee806f7f7"
     }
   ]
 }
