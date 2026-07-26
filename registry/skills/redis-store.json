@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "fdd5b77b43b11710dabda8a4faa321361a82589932ae9b8cac6c00ac813adcee",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "0935d3ae44579e0ff4b4f8fba3b2ee41672dd5268a1bd88b50eae59d2f66a310",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "redis-store",
     "name": "redis-store",
-    "description": "Use Redis effectively for caching, queues, and data structures with proper expiration and persistence.",
-    "version": "1.0.0",
+    "description": "Designs, tunes, and debugs Redis: data structures, memory limits, persistence, Streams and queues, locks, replication, and cluster. Use when writing Redis commands or Lua, choosing between a hash, a sorted set and a stream, setting expirations on cache keys, building a queue, distributed lock, rate limiter, leaderboard, session store or counter, or when Redis answers OOM, MISCONF, CROSSSLOT, MOVED, BUSY, LOADING or WRONGTYPE, latency spikes, memory keeps growing, keys vanish early or never expire, a replica lags or a failover loses writes, KEYS or a big DEL freezes the server, connections are refused, or a cluster reshard, a Valkey / ElastiCache / MemoryDB / Upstash move, or a persistence and backup plan is on the table. Covers redis-cli forensics, pipelining, eviction policies, keyspace notifications, ACLs and exposed-instance hardening, and the JSON, Search and TimeSeries modules. Not for store-agnostic cache hierarchy strategy (caching) or picking a rate-limit algorithm (rate-limiting).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/redis-store",
-    "summary": "Expiration (Memory Leaks) - Keys without TTL live forever—set expiry on every cache key: `SET key value EX 3600` - Can't add TTL after SET without another command—use `SETEX` or `SET ... EX` - `EXPIRE` resets on key upda",
+    "summary": "User preferences and memory live in `~/Clawic/data/redis-store/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/redis-store/` or `~/clawic/redis-store/`),",
     "repositoryPath": "skills/redis-store",
     "manifestPath": "registry/skills/redis-store.json"
   },
@@ -26,15 +26,176 @@
       "path": "_meta.json",
       "downloadPath": "skills/redis-store/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/_meta.json",
-      "byteCount": 168,
-      "sha256": "b1f6e35d92088fe71ad656bde508026ebe2189512e68a54e9bbb566f18801dc3"
+      "byteCount": 244,
+      "sha256": "94abe7036287853f8ffa4165ecf88ccf70a22c52ce7917f2b271b7698dd01b2d"
+    },
+    {
+      "path": "caching.md",
+      "downloadPath": "skills/redis-store/caching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/caching.md",
+      "byteCount": 6097,
+      "sha256": "8c1fc152a111fb42a9e92fdad26a58bf4287c7b2951cd426d289902c3fa2dcf3"
+    },
+    {
+      "path": "cli.md",
+      "downloadPath": "skills/redis-store/cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/cli.md",
+      "byteCount": 5636,
+      "sha256": "faef3b41e0ed261f295c0e826c32a0edd3024bfc1b0df94e99b0d6834b570479"
+    },
+    {
+      "path": "cluster.md",
+      "downloadPath": "skills/redis-store/cluster.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/cluster.md",
+      "byteCount": 6001,
+      "sha256": "0adca693c3d30c930a1e33d8df2aeaa3d9c8796557f2e9907450e14bcca9b103"
+    },
+    {
+      "path": "connections.md",
+      "downloadPath": "skills/redis-store/connections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/connections.md",
+      "byteCount": 5648,
+      "sha256": "d6c64af797aca4ec0a2c6c32f654c13fe9a0dd655ff0ab4c4e254f38c6f2c7e8"
+    },
+    {
+      "path": "data-types.md",
+      "downloadPath": "skills/redis-store/data-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/data-types.md",
+      "byteCount": 7358,
+      "sha256": "c8f08b97a45f29890bfbea5ed3c8294aa6fec1f4f9dd543d4839d6e168abd479"
+    },
+    {
+      "path": "high-availability.md",
+      "downloadPath": "skills/redis-store/high-availability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/high-availability.md",
+      "byteCount": 5962,
+      "sha256": "9db7db223839064260616da296d928d3495cac8330dfc3936f7019e19ccac8fe"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/redis-store/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/incidents.md",
+      "byteCount": 6200,
+      "sha256": "c4d74b0b41281ba4b44e387c6c40ff14c8cffea3faf63246a59458b3da20871b"
+    },
+    {
+      "path": "keys-ttl.md",
+      "downloadPath": "skills/redis-store/keys-ttl.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/keys-ttl.md",
+      "byteCount": 6740,
+      "sha256": "20297c5c106c3839f81aef6dc6724199bd4f8085caa78db03d8301480792bb92"
+    },
+    {
+      "path": "locks.md",
+      "downloadPath": "skills/redis-store/locks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/locks.md",
+      "byteCount": 6024,
+      "sha256": "16eb41de57d6ff5d4624c5655f1bdb2ae08678964a230709158168e0cd873c07"
+    },
+    {
+      "path": "managed-redis.md",
+      "downloadPath": "skills/redis-store/managed-redis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/managed-redis.md",
+      "byteCount": 5211,
+      "sha256": "34c229c9e20b91df45b609a48a32a71098fa9222993a0a65d63034539daf1140"
+    },
+    {
+      "path": "memory-eviction.md",
+      "downloadPath": "skills/redis-store/memory-eviction.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/memory-eviction.md",
+      "byteCount": 6841,
+      "sha256": "a2f8aa7576e62adb1de6aaf56c5969543f01b02014efd8ca1acf7734795723b9"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/redis-store/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/memory-template.md",
+      "byteCount": 913,
+      "sha256": "0a637399968911f1f44137e610a43e72f59ac6e8ac6edd2e0cfc3608e10d8c11"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/redis-store/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/migrations.md",
+      "byteCount": 5835,
+      "sha256": "ce8e7552148b103450c73a776f0cb24d852758a86b282994fb6092789ebde2ca"
+    },
+    {
+      "path": "modules.md",
+      "downloadPath": "skills/redis-store/modules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/modules.md",
+      "byteCount": 5881,
+      "sha256": "d100c1c338290ec5653ad3bbda9964662ff8ba2347e46d6c40be9e3483cf9d02"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/redis-store/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/patterns.md",
+      "byteCount": 6984,
+      "sha256": "5700f54d9ca54cd6efc4a5f5c63f91912955206a202295bcc78f47fe7228635c"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/redis-store/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/performance.md",
+      "byteCount": 6108,
+      "sha256": "0406bbb178d85b2f793c6042d700efae1765bf358d480eafd2d04371451b33ba"
+    },
+    {
+      "path": "persistence.md",
+      "downloadPath": "skills/redis-store/persistence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/persistence.md",
+      "byteCount": 6243,
+      "sha256": "bc105755905edbfb997258e17cdb8d8a1fd13255d9140061e92dd091b2f65331"
+    },
+    {
+      "path": "pubsub.md",
+      "downloadPath": "skills/redis-store/pubsub.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/pubsub.md",
+      "byteCount": 5193,
+      "sha256": "91a903ceb26423b5613349ab5d35e9c66555c203aa7873ef0b2385973b924cbf"
+    },
+    {
+      "path": "queues.md",
+      "downloadPath": "skills/redis-store/queues.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/queues.md",
+      "byteCount": 7357,
+      "sha256": "0efb10f18a1ef1f80a1befd588bd0703ad396565fab817764a5f9693b6b30ce1"
+    },
+    {
+      "path": "scripting.md",
+      "downloadPath": "skills/redis-store/scripting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/scripting.md",
+      "byteCount": 5678,
+      "sha256": "4573767c2570b3d9c517f997128a2b09cbc107a8eb5c1b4979be8d72915af7d2"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/redis-store/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/security.md",
+      "byteCount": 5200,
+      "sha256": "9aef0df76c509601d338600ee5b0c6d882f1d8ef94dca9a5762259fa5afba552"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/redis-store/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/setup.md",
+      "byteCount": 2876,
+      "sha256": "63f0abea28b190c8e03f0490329e68eb58a39d9a5dc031e2289ba0144a3e1355"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/redis-store/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/SKILL.md",
-      "byteCount": 3953,
-      "sha256": "0ce269701f8cb5f5700bd796c62a0982ae741aef2c596854739ad88763c26574"
+      "byteCount": 27874,
+      "sha256": "b1b048aff35dbaa7d0fd3283e6b11f48d64293553e9db26e069dba8a18b06af8"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/redis-store/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/redis-store/testing.md",
+      "byteCount": 5414,
+      "sha256": "d1a3eed12b9a2c5151a9e8d97cbe90cf111f43100674617b9734ed083052d24b"
     }
   ]
 }
