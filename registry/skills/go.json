@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "0df8027534103fe30874d3d05d9b1d2ec02eba8552e683a8fe1a71f60a945b37",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "58e86d189a73ab4ca1ef119863f5855b89912092ac4cd2b1f2003d13498464a8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "go",
     "name": "go",
-    "description": "Write reliable Go code avoiding goroutine leaks, interface traps, and common concurrency bugs.",
-    "version": "1.0.2",
+    "description": "Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http. Use when Go panics or misbehaves — \"all goroutines are asleep - deadlock!\", \"concurrent map writes\", \"send on closed channel\", \"assignment to entry in nil map\", or a WARNING: DATA RACE from `go test -race`; when a goroutine, timer, or connection leaks and memory climbs; when a service hangs for want of a timeout; when errors.Is or errors.As stops matching after a %v wrap; when a slice mutates its parent, a map iterates in a new order, or a typed nil returned as error compares non-nil; when go.mod, go.sum, workspaces, replace, or a /v2 path fight over dependencies; when cross-compiling, cgo, build tags, go:embed, or a static container binary fail; when tests are flaky under -race or -parallel or benchmarks lie; when GOGC, GOMEMLIMIT, GOMAXPROCS, or escape analysis need tuning; or when writing handlers, CLIs, database access, or generics. Not for Kubernetes operators or framework internals.",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/go",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Concurrency patterns | `concurrency.md` | | Interface and type system | `interfaces.md` | | Slices, maps, strings | `collections.md` | | Error handling patterns | `erro",
+    "summary": "User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`. ",
     "repositoryPath": "skills/go",
     "manifestPath": "registry/skills/go.json"
   },
@@ -26,43 +26,190 @@
       "path": "_meta.json",
       "downloadPath": "skills/go/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/_meta.json",
-      "byteCount": 306,
-      "sha256": "80de2cb23314f02d64503e3e59ed944091bdbc663cbe0bfb405dc32900ea0565"
+      "byteCount": 380,
+      "sha256": "6c5a47141afa3a211fbf6e0da0186dbea34049faad4194eb406481b3faca97bd"
+    },
+    {
+      "path": "build.md",
+      "downloadPath": "skills/go/build.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/build.md",
+      "byteCount": 7422,
+      "sha256": "e18c0bbd22249445cfa698ac2e2c70e6ccb8c23bbb5c3343f0dd31fcc4238d00"
+    },
+    {
+      "path": "cli.md",
+      "downloadPath": "skills/go/cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/cli.md",
+      "byteCount": 6564,
+      "sha256": "2d0d3db99a6b186fc6d78f3f092f608ff1dbf22f7c14274deaff64fcd5751c4b"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/go/collections.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/collections.md",
-      "byteCount": 992,
-      "sha256": "f960596b05e7a25ec232d43cb6d66ef183d4fa82fd809736039283e86b824caa"
+      "byteCount": 7652,
+      "sha256": "7ebcb4f8144d46909adbba865f1cfd2cf821a5935056ccb8243283f6d3e4c00c"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/go/concurrency.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/concurrency.md",
-      "byteCount": 1108,
-      "sha256": "551b44642ae99647ad48ba94ba82151361dacd110f058daefa78a649ee12d54b"
+      "byteCount": 9252,
+      "sha256": "0e3fe789263fa06dbef1b11f32bf23ef7b693f87db8635d17f85321bb50452c9"
+    },
+    {
+      "path": "context.md",
+      "downloadPath": "skills/go/context.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/context.md",
+      "byteCount": 6943,
+      "sha256": "7c0c74c0820c6f3f239c8ac09f7781383cdfba7499f54693c96ad165729f0017"
+    },
+    {
+      "path": "database.md",
+      "downloadPath": "skills/go/database.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/database.md",
+      "byteCount": 7314,
+      "sha256": "340761d8fab9a5e7d5321e3b4990576ac1b12ddebe0c17d0ec84f6ca07946907"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/go/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/debugging.md",
+      "byteCount": 8009,
+      "sha256": "ec45146a98313516e57f7416c9c539c65ec2068a05e9acd4c379d52dd27d51ea"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/go/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/deployment.md",
+      "byteCount": 8866,
+      "sha256": "9c6155c32304d244a12d7392d633fdf28dbb79749206813ff6f4aa786f8ebdd0"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/go/errors.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/errors.md",
-      "byteCount": 957,
-      "sha256": "ac070eb4920634dc491bf042b38fafb85139f08528d5b7b0cd164b6c114fcc5c"
+      "byteCount": 7792,
+      "sha256": "b0b27b91cccc4e7dc97cab5ca094ec9f6481bb43d76dfc73876349c13bccbf70"
+    },
+    {
+      "path": "generics.md",
+      "downloadPath": "skills/go/generics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/generics.md",
+      "byteCount": 6112,
+      "sha256": "ef95b6dd26ae7033d8832e2d14db3b7bab6cf96d1d19019273de8529edcd2ad1"
+    },
+    {
+      "path": "http.md",
+      "downloadPath": "skills/go/http.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/http.md",
+      "byteCount": 9087,
+      "sha256": "bed11a88d840ba7fddad9912a4cc42fb83321540a79e563b80b7d34c4588094b"
+    },
+    {
+      "path": "idioms.md",
+      "downloadPath": "skills/go/idioms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/idioms.md",
+      "byteCount": 8081,
+      "sha256": "c5cea81321cfd4ae88dbef5c86df3edb9557f62b9db89d732af534e8182b027c"
     },
     {
       "path": "interfaces.md",
       "downloadPath": "skills/go/interfaces.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/interfaces.md",
-      "byteCount": 954,
-      "sha256": "2f0135d11e1e468773f486d0e10bb806f49d092061b94dcc9e97d290f40cfdc1"
+      "byteCount": 7388,
+      "sha256": "b7a72b36a295f533842012c8852158e2c6dfbc6e633dc31cba445ab96d595c15"
+    },
+    {
+      "path": "io.md",
+      "downloadPath": "skills/go/io.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/io.md",
+      "byteCount": 7257,
+      "sha256": "bcd38b1d1cf3dabda7a5157b044d5c8ea4eee39cff161c78c3c827a01bbc12b6"
+    },
+    {
+      "path": "json.md",
+      "downloadPath": "skills/go/json.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/json.md",
+      "byteCount": 7318,
+      "sha256": "9f38c7d4769f6f962cf1502d91b986367063287505cb8c7bf3babb043abb5906"
+    },
+    {
+      "path": "logging.md",
+      "downloadPath": "skills/go/logging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/logging.md",
+      "byteCount": 6671,
+      "sha256": "0f90fba8103aafa586a4e93bb3a8ab484582fa6652d362eea1757d51ee60d246"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/go/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/memory.md",
+      "byteCount": 8095,
+      "sha256": "162d7f0f85d2accba349ff7ae1899f23d8b20d21e0e856f58274aa8d94364ddf"
+    },
+    {
+      "path": "modules.md",
+      "downloadPath": "skills/go/modules.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/modules.md",
+      "byteCount": 7585,
+      "sha256": "072ff3566c7bcca12957cd9f5517f754909b98c907dde8039794865fc5348343"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/go/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/performance.md",
+      "byteCount": 7859,
+      "sha256": "a72a47dc4ff48866813fc65e93fbbdcb3d001f21a1abca00b7f8c9bf880f7608"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/go/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/security.md",
+      "byteCount": 8224,
+      "sha256": "74438b601a891f2164558e61968ae3b214d434fa522f5c29d8ed9098603d1195"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/go/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/SKILL.md",
-      "byteCount": 4484,
-      "sha256": "bf3b1a67fc3b0824c9bdcf3c9ad9b64fe6a6d815fd0ec9689aa7b6ad15f16640"
+      "byteCount": 24357,
+      "sha256": "8e8a5e0d25502a7614fa2817bda719be5aee8204c8878b4077dcea0b3ba4dc8f"
+    },
+    {
+      "path": "strings.md",
+      "downloadPath": "skills/go/strings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/strings.md",
+      "byteCount": 7272,
+      "sha256": "bdd19c519ceb007de24db73c8d27a9de7a23dce92777b06d9b8f3a9d4a01ef21"
+    },
+    {
+      "path": "structs.md",
+      "downloadPath": "skills/go/structs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/structs.md",
+      "byteCount": 7675,
+      "sha256": "eedcde56276e8691fb33f1ae8def706a79ce6500b9a0c1477807a0919f702ee5"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/go/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/testing.md",
+      "byteCount": 8891,
+      "sha256": "8f00ebf0359880b6e639e2fcb9948191581ccb12d573a23d7de2804365673d13"
+    },
+    {
+      "path": "time.md",
+      "downloadPath": "skills/go/time.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/time.md",
+      "byteCount": 7149,
+      "sha256": "cdb0275bbe3383e6b89f4621ab259df9d699528ecfe338953c422125b31df348"
+    },
+    {
+      "path": "versions.md",
+      "downloadPath": "skills/go/versions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/versions.md",
+      "byteCount": 6528,
+      "sha256": "113e86edbc4b60e62be6d4c0ba9cd9110da30d89672e5a0959b795fd1b03dd07"
     }
   ]
 }
