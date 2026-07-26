@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "481e02e2a9d26dea98a93643541a9afc2e79f9bee614dffa7bcec6d54bd74e0f",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "048b97ab9520b68f3e3fd13e493a2de9a1427b475d6142cf3fe1d700432d2a45",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "langchain",
     "name": "langchain",
-    "description": "Avoid common LangChain mistakes — LCEL gotchas, memory persistence, RAG chunking, and output parser traps.",
-    "version": "1.0.0",
+    "description": "Builds and debugs LangChain apps in Python: LCEL chains, agents, tools, retrievers, streaming, and structured output. Use when writing or reviewing a chain, agent, tool, retriever, or prompt template; when a prompt raises KeyError or \"missing variables\"; when streaming arrives as one blob or astream_events yields nothing; when an agent loops until GraphRecursionError or repeats a tool; when tool calls fail validation or the provider rejects a tool_call_id; when chat history disappears or the context window overflows; when with_structured_output returns None or a parser crashes on valid JSON; when retrieval returns the wrong chunks; when LangSmith traces are empty; when retries, rate limits, or token cost need bounding; or when imports break after an upgrade. Covers LangGraph state, checkpointers, and middleware. Not for framework-agnostic agent architecture (agents), retrieval design (rag), or chunk tuning (rag-chunking).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/langchain",
-    "summary": "LCEL Basics - `|` pipes output to next — `prompt | llm | parser` - `RunnablePassthrough()` forwards input unchanged — use in parallel branches - `RunnableParallel` runs branches concurrently — `{\"a\": chain1, \"b\": chain2}",
+    "summary": "User preferences and memory live in `~/Clawic/data/langchain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/langchain/` or `~/clawic/langchain/`), move ",
     "repositoryPath": "skills/langchain",
     "manifestPath": "registry/skills/langchain.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/langchain/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/_meta.json",
-      "byteCount": 170,
-      "sha256": "b43002f844a0f9ecbd4479429fc322852462e9a6e97f4478f2649e3ef3853df8"
+      "byteCount": 246,
+      "sha256": "679691ee16b1845faf8a8f6be6c96250543d57c6fdd9f678938124be08999914"
+    },
+    {
+      "path": "agent-loop.md",
+      "downloadPath": "skills/langchain/agent-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/agent-loop.md",
+      "byteCount": 5826,
+      "sha256": "9d3ab6101ae432c646836b29e51e19a900c267585be29816338a1bf39f4f5980"
+    },
+    {
+      "path": "chat-history.md",
+      "downloadPath": "skills/langchain/chat-history.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/chat-history.md",
+      "byteCount": 5273,
+      "sha256": "a873fbb1d3868a8b74366941ff9bed53eefd88cb1dac44a8daaa1150b946331e"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/langchain/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/debug.md",
+      "byteCount": 5473,
+      "sha256": "47bd3363ae09f8957901dfaf095cb79f430b880bc65b5c79d41e27f698a01306"
+    },
+    {
+      "path": "langgraph.md",
+      "downloadPath": "skills/langchain/langgraph.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/langgraph.md",
+      "byteCount": 4732,
+      "sha256": "48613c6bda97f32984f53240b257266e841ddae15d806fe23b365bdf9e9a8501"
+    },
+    {
+      "path": "lcel.md",
+      "downloadPath": "skills/langchain/lcel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/lcel.md",
+      "byteCount": 5611,
+      "sha256": "08175a47e726e2dcea307f2db947c08065e78b9a333560cd68b617db2909e733"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/langchain/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/memory-template.md",
+      "byteCount": 920,
+      "sha256": "f6cc80fb6d0fbc904fb2346eabd28584efa6d8c8f5c3457f3ba2d3bb522ffd47"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/langchain/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/migration.md",
+      "byteCount": 5015,
+      "sha256": "dc4c7d405c6f2dc373c48c14dd579365ab53c3af44289434f798e3cabb3a8f74"
+    },
+    {
+      "path": "models.md",
+      "downloadPath": "skills/langchain/models.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/models.md",
+      "byteCount": 4849,
+      "sha256": "c4460ac506e90b20e2291fd6d64fb7157ea65120715b3c5c4c39c596f17e184f"
+    },
+    {
+      "path": "observability.md",
+      "downloadPath": "skills/langchain/observability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/observability.md",
+      "byteCount": 4361,
+      "sha256": "e7f2d63d8bc7c4301081320bdb60a7fc22f6495690c6f68566c13d0277f27bd0"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/langchain/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/production.md",
+      "byteCount": 4965,
+      "sha256": "d452457f5f819219917cd83462703c45e57caca9c0d36c6eb1dfa12c28c6a69f"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/langchain/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/prompts.md",
+      "byteCount": 5547,
+      "sha256": "7d6da6041c1b895c8fa387dedc9f7f85ba780c259ac337841ab6b4ce31c2121a"
+    },
+    {
+      "path": "retrieval.md",
+      "downloadPath": "skills/langchain/retrieval.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/retrieval.md",
+      "byteCount": 7316,
+      "sha256": "c61cb8f3bda0cbf65c1d63d03605c0d2d191d4201e6f46c3a7217961fa797ac0"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/langchain/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/security.md",
+      "byteCount": 4806,
+      "sha256": "ebad7aae5fe6fadaaad1e60e6844fc8fb63f626d5c355b95e89b7586916c3993"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/langchain/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/setup.md",
+      "byteCount": 2435,
+      "sha256": "de5329b85171263ac10fc82f7933d101118ccaa5890b8bfb7ef828f08045d774"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/langchain/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/SKILL.md",
-      "byteCount": 2972,
-      "sha256": "2a5a91ce4e9bd548fefe87ddd62f62b670d3bf62ac9076ebe56f05222e4b6c6c"
+      "byteCount": 21232,
+      "sha256": "ce5a623f50e0884786b92c315d0be3cd0fa501da370367e23fdc9d5258fb933e"
+    },
+    {
+      "path": "streaming.md",
+      "downloadPath": "skills/langchain/streaming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/streaming.md",
+      "byteCount": 4812,
+      "sha256": "22f91c3118bdc0c8cc1589f058ee584192919237081d3b1ec0451e69f8815062"
+    },
+    {
+      "path": "structured-output.md",
+      "downloadPath": "skills/langchain/structured-output.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/structured-output.md",
+      "byteCount": 4843,
+      "sha256": "1c6e4ac69a8dbe63d54882fd46558f3c9cda29b1058dc36d1ffb7ce29942ce85"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/langchain/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/testing.md",
+      "byteCount": 4440,
+      "sha256": "ae06864261292bd8f8f443ebbcf2677647a9dbe51f89012efa7aa1459fc74e9b"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/langchain/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/langchain/tools.md",
+      "byteCount": 4176,
+      "sha256": "f64d2c2767ebee5d3401cac209b5cc822403af19c44d872d635bba65b8e9f89f"
     }
   ]
 }
