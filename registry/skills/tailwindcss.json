@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "d823b23c20df8ada00c74e0d2d17ebf69147945c7b2b5897ca3c0e46580fc010",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "ca557ac36f943591b30cc29e46d357ae849ab0abc50be47abc8f6e7bef476219",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "tailwindcss",
     "name": "tailwindcss",
-    "description": "Write Tailwind utility classes with proper responsive design, dark mode, and configuration.",
-    "version": "1.0.0",
+    "description": "Writes and debugs Tailwind CSS: utility classes, theme config, dark mode, variants, plugins, and build setup. Not for CSS mechanics themselves — stacking contexts, flex sizing, and cascade behavior belong to the `css` skill. Use when a class produces no CSS, when dynamically built names (`bg-${color}-500`) never render, when styles work in dev but vanish after deploy, when your own CSS beats a utility or can't override one, when `@apply` breaks inside a Vue, Svelte, or CSS-module file, when `hover:`, `group-hover:`, `peer-*`, `has-[…]`, or `dark:` won't fire, when upgrading v3 to v4 (`@tailwind` directives, `tailwind.config.js` → `@theme`, renamed utilities), when adding custom colors, spacing, breakpoints, fonts, or keyframes, when wiring Tailwind into Vite, Next.js, Astro, SvelteKit, Rails, or Laravel, when the CSS bundle is huge or rebuilds crawl, when Preflight flattens third-party widgets, or when choosing between `@apply`, a component, and `tailwind-merge`.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/tailwindcss",
-    "summary": "Content Configuration - `content` array in tailwind.config.js must include ALL files with classes—missing paths = missing styles in production - Glob patterns: `\"./src/**/*.{js,jsx,ts,tsx,html}\"` covers nested directorie",
+    "summary": "User preferences and memory live in `~/Clawic/data/tailwindcss/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/tailwindcss/` or `~/clawic/tailwindcss/`),",
     "repositoryPath": "skills/tailwindcss",
     "manifestPath": "registry/skills/tailwindcss.json"
   },
@@ -26,15 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/tailwindcss/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/_meta.json",
-      "byteCount": 175,
-      "sha256": "2041142b4d698d9797d00bc784f9a5361b700f3594889eed24f99297d40b4939"
+      "byteCount": 251,
+      "sha256": "ada01620852daae5faa8a23ff9638050e23cba59320d548750932cf177f107d5"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/tailwindcss/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/accessibility.md",
+      "byteCount": 5821,
+      "sha256": "ae2e57baf5349a68006d966c069f61801db9cda652aa89f916c333a856eff3ec"
+    },
+    {
+      "path": "adoption.md",
+      "downloadPath": "skills/tailwindcss/adoption.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/adoption.md",
+      "byteCount": 5971,
+      "sha256": "e2d6fa524b0790a3554dfcb2775a011a71ab0cede42b678f711456f352dd6943"
+    },
+    {
+      "path": "animations.md",
+      "downloadPath": "skills/tailwindcss/animations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/animations.md",
+      "byteCount": 5106,
+      "sha256": "f40f7de5cfec1fecb83ff7357c20faee6e18a7e1d54b511b6cbc2d829dd3f551"
+    },
+    {
+      "path": "arbitrary-values.md",
+      "downloadPath": "skills/tailwindcss/arbitrary-values.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/arbitrary-values.md",
+      "byteCount": 4134,
+      "sha256": "235ea29c6b8156267db67eed0a8792263d9d1e1331b974c4fe9e7411f1645be7"
+    },
+    {
+      "path": "components.md",
+      "downloadPath": "skills/tailwindcss/components.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/components.md",
+      "byteCount": 7389,
+      "sha256": "81e9f9365d8dd2cb570109d83b3c14bdcd81f85035780e5c5e5a3a031ccab721"
+    },
+    {
+      "path": "dark-mode.md",
+      "downloadPath": "skills/tailwindcss/dark-mode.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/dark-mode.md",
+      "byteCount": 5138,
+      "sha256": "06f77c9193b6f8e73fc90f739a32babfc1d186672abb74bee5f211d1b885f14b"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/tailwindcss/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/debugging.md",
+      "byteCount": 6084,
+      "sha256": "a15189b41ea621d307c3f64e8beae975c2a8a1279dd02d8dde0797edfdb15fcf"
+    },
+    {
+      "path": "frameworks.md",
+      "downloadPath": "skills/tailwindcss/frameworks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/frameworks.md",
+      "byteCount": 5781,
+      "sha256": "d553234e5339d3d46413640334af0a58975a207c4a4388065a232bccfc830c58"
+    },
+    {
+      "path": "installation.md",
+      "downloadPath": "skills/tailwindcss/installation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/installation.md",
+      "byteCount": 5607,
+      "sha256": "e8b164d029fc855d725f7698e0573da4d029274fcf597d1e534f6805bde273a1"
+    },
+    {
+      "path": "layout.md",
+      "downloadPath": "skills/tailwindcss/layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/layout.md",
+      "byteCount": 5093,
+      "sha256": "55226427e0abf8beb793ef2b8b5c948002dfadc579cf1aa6244261387e652020"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/tailwindcss/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/memory-template.md",
+      "byteCount": 804,
+      "sha256": "367545d3b54683ed01e75711d4b1ff9c73139888148910336370e84dab9ad0ca"
+    },
+    {
+      "path": "missing-styles.md",
+      "downloadPath": "skills/tailwindcss/missing-styles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/missing-styles.md",
+      "byteCount": 5445,
+      "sha256": "9bede9351ed03085d8a682a5bf4cb7db0769a5ec11247fea9cf7e37899f29431"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/tailwindcss/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/performance.md",
+      "byteCount": 4871,
+      "sha256": "87bb2dfd2d3c0685fbad8911a711feaa0e3acf8ecceab6a2a5ac51fc80b64a9a"
+    },
+    {
+      "path": "plugins.md",
+      "downloadPath": "skills/tailwindcss/plugins.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/plugins.md",
+      "byteCount": 5031,
+      "sha256": "42811706db77a7e96c63306d35028a40f64b408f4af9e6f682ae650f9084edd4"
+    },
+    {
+      "path": "responsive.md",
+      "downloadPath": "skills/tailwindcss/responsive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/responsive.md",
+      "byteCount": 4867,
+      "sha256": "1eaf075c2ab8894e3e2892c9b4a940caeacb016fcc24df8266d1fef362110727"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/tailwindcss/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/setup.md",
+      "byteCount": 2688,
+      "sha256": "cb0cab120f2a972eaed3fc59e0b2834404c0c6bdbad6f129a07691604ca368a0"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/tailwindcss/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/SKILL.md",
-      "byteCount": 3790,
-      "sha256": "75d48c6ccfc1c3e456f0f4f91d77b8d2983eebed76db77d2987d2fbd4b7af8ca"
+      "byteCount": 21234,
+      "sha256": "b9266b62a4ce76dfd2208ae92edcc359bf87982b0f1e7110654256b0a241b41e"
+    },
+    {
+      "path": "theming.md",
+      "downloadPath": "skills/tailwindcss/theming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/theming.md",
+      "byteCount": 6302,
+      "sha256": "ffb4774786e9eb5e93f080daca36b8856143be3194b64c4e22bf889f141f7ec6"
+    },
+    {
+      "path": "v4-migration.md",
+      "downloadPath": "skills/tailwindcss/v4-migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/v4-migration.md",
+      "byteCount": 6290,
+      "sha256": "49ef20af666d4d931e7ea656ee0dc7129b776eb3a0b9b7a04df57992686bb55b"
+    },
+    {
+      "path": "variants.md",
+      "downloadPath": "skills/tailwindcss/variants.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/tailwindcss/variants.md",
+      "byteCount": 5742,
+      "sha256": "9877db4260a6ad05ec7a18801b2d3198f1efecf71ba96e1f8d07e1baa9d301b6"
     }
   ]
 }
