@@ -1,7 +1,7 @@
 ---
 name: Nginx
 slug: nginx
-version: 1.0.4
+version: 1.0.5
 description: >-
   Configures and debugs nginx: reverse proxy, load balancing, SSL/TLS termination, caching,
   redirects, and static file serving. Use when writing or reviewing nginx.conf, server blocks,
@@ -12,7 +12,7 @@ description: >-
   abuse, when proxying raw TCP/UDP, or when nginx runs in Docker or Kubernetes. Not for
   certificate issuance or renewal (ACME, Let's Encrypt) — that is the ssl skill.
 homepage: https://clawic.com/skills/nginx
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🌐

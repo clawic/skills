@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "2fce6dbfe77f5055bd5bf24a2177118dfc039fb86392e1ce0a38d8007556d83f",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "529c95d16577f8ea366be4251b01779a596d14d77620c033ba3ef1960b292f32",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "memory",
     "name": "Memory",
     "description": "Remembers, recalls, and organizes durable facts in a categorized markdown store at ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember this, save this, note that for later, or don't forget; when they ask what did I tell you about X, when did we decide Y, or who is Z; when a stored fact is wrong, outdated, or contradicts what they just said; when they want something forgotten or deleted; when recall misses, returns stale facts, or slows down as the store grows; when duplicate or conflicting entries appear; when consolidating scattered notes, importing an existing vault, or sharing memory across devices and agents. Not for session-scoped context the runtime already holds, note-taking apps (notes), journaling practice (journal), or study techniques like spaced repetition (learn, active-recall).",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/memory",
     "summary": "All data lives in `~/Clawic/data/memory/` on the user's machine — plain markdown, no external services, no network requests. Configuration in `~/Clawic/data/memory/config.yaml` (`setup.md` on first use, `memory-template.",
     "repositoryPath": "skills/memory",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/memory/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/_meta.json",
-      "byteCount": 462,
-      "sha256": "badce4a4fe9003fa017a710f5d93750d9ffdc37f8552bd05a5877a69364568fe"
+      "byteCount": 536,
+      "sha256": "23f849cee0b9e3247bcbd4086b368cb7767f6d33a33d73f0cca6626a9eaaf317"
     },
     {
       "path": "capture.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/memory/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md",
-      "byteCount": 20885,
-      "sha256": "e1c9e446e3e516d3871ec01991a8ff27b24a37339ce2a14b01be58d379b0258f"
+      "byteCount": 20829,
+      "sha256": "6e9a203ad94de9ceaf8a41c27da02fd6368b5090ca6f6b743a114294d9664560"
     },
     {
       "path": "sync.md",

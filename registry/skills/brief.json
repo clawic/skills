@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "30e734d1111e78165d274eef67bdb1316e90f4cc5471418396db658c6eaa6dc0",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "81fc2a22b609bd783974441f5d087ac783a5e6459120932f8e6e1313ced7ec88",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "brief",
     "name": "Brief",
     "description": "Turns raw material into decision-ready briefs: executive summaries, status updates, meeting pre-reads, and decision documents. Use when asked to brief someone, write a TL;DR or weekly update, prepare a board, investor, or incident update, hand off a project, compare options with a recommendation, or condense a long report, thread, transcript, or doc pile into what the reader needs to act. Also when updates run long, readers skim past the point, or the lede keeps getting buried. Not for plain compression with no decision to serve, or for recurring digests pulled from external sources.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/brief",
     "summary": "User configuration and learned preferences live in `~/Clawic/data/brief/` (see `setup.md` on first use, `preferences-template.md` for the learned-preferences file format). If you have data at an old location (`~/brief/` ",
     "repositoryPath": "skills/brief",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/brief/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/_meta.json",
-      "byteCount": 386,
-      "sha256": "7a973a21d17adf533e5bd7d525a0bd54027b769a8e009fc238146e37929edcf4"
+      "byteCount": 460,
+      "sha256": "b03566e2a00af2e9d1c63f6b13579eb38b61b5c75d2ff9b8bfb4da26849aaa74"
     },
     {
       "path": "audiences.md",
@@ -75,8 +75,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/brief/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/brief/SKILL.md",
-      "byteCount": 14089,
-      "sha256": "9bfe4645d7571ccc552a9abe4353fb15449a6cc8794702258c02000d520bde9a"
+      "byteCount": 14033,
+      "sha256": "a06e8b2ffd5c363d4156e2fef981c6396de07a2a927e64e07d5d9e66d4ce7e35"
     },
     {
       "path": "sources.md",

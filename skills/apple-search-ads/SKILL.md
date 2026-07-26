@@ -1,7 +1,7 @@
 ---
 name: Apple Search Ads
 slug: apple-search-ads
-version: 1.0.2
+version: 1.0.3
 description: >-
   Plans, launches, and optimizes Apple Search Ads (Apple Ads, ASA) campaigns for iOS apps: bids,
   keywords, budgets, CPA, attribution. Use for paid iOS user acquisition and App Store ads —
@@ -12,7 +12,7 @@ description: >-
   campaign stops spending its budget, ads got rejected, or ASA, SKAN, and MMP install counts
   disagree. Not for App Store listing optimization itself (ASO).
 homepage: https://clawic.com/skills/apple-search-ads
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🍎

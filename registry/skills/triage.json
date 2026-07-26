@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "01f88a468e47bbc9b073f7d3fe66ee08068155742713f43b71d995d07de3a0a1",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "c10bd57bb2822271e7482c3df0c4b0577aada9ff4ffc17322f3f01d6fadde352",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "triage",
     "name": "Triage / Task Prioritization",
     "description": "Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work. Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush. Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/triage",
     "summary": "Classify incoming work into P0-P3 by cost of delay, route it, and learn the user's real priority rules from their corrections. Learned rules and stated preferences persist in `~/Clawic/data/triage/` (created on first con",
     "repositoryPath": "skills/triage",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/triage/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/_meta.json",
-      "byteCount": 314,
-      "sha256": "614739fa73bd495877354c3ab0644cb25361fe65f9658276ea2aa536d07d65da"
+      "byteCount": 388,
+      "sha256": "6cea323e48fcdf5d802a1701d635a9d643743c3406b8d5d25a3d2dcc19c623cf"
     },
     {
       "path": "batch.md",
@@ -75,8 +75,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/triage/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/triage/SKILL.md",
-      "byteCount": 12322,
-      "sha256": "8c73c02b6e902aa08cf5a21b130688a20d8ea24fbef6ce31e9f6361c37fdc04e"
+      "byteCount": 12266,
+      "sha256": "999245e4709d993b76f5841705523200f704148b8bbdb501ac149e6093824d1e"
     }
   ]
 }

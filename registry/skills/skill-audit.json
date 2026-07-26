@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "62ae574be19118c7535035c4159dd6600a778c05a1ad7b976e2b2ac346121d06",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "fb51c221c418828123b7431828243a14ac002d2cf1a93c9b1534d885051be289",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "skill-audit",
     "name": "Skill Audit",
     "description": "Audits agent skills for prompt injection, hidden instructions, data exfiltration, and supply-chain risk before install and after updates. Use when vetting or scanning a skill from a registry, repo, or pasted folder, deciding whether a skill is safe to install or trust, diff-auditing a skill update, sweeping everything installed, verifying a package or publisher name against typosquats, or when the agent behaved oddly and a skill may explain it. Covers stealth language, undeclared endpoints or paths, obfuscated and encoded payloads, malicious scripts, and compromised-skill incident response. Not for auditing application source code or judging whether a skill is useful.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/skill-audit",
     "summary": "User preferences, the audit log, and quarantined skills live in `~/Clawic/data/skill-audit/` (see `setup.md` on first use). If you have data at an old location (`~/skill-audit/` or `~/clawic/skill-audit/`), move it to `~",
     "repositoryPath": "skills/skill-audit",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/skill-audit/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/_meta.json",
-      "byteCount": 324,
-      "sha256": "3d2003dc0d9e74d54584fba4de055fd4e0d537d05a00d9e0dd5481fcf59d2311"
+      "byteCount": 398,
+      "sha256": "80316aa2012f71015c7c8f5f2204ef68be375ca386d23c379f63a8ca8ea66b43"
     },
     {
       "path": "checks.md",
@@ -75,8 +75,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/skill-audit/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-audit/SKILL.md",
-      "byteCount": 12439,
-      "sha256": "3d7ba759206b1c334729d7ccd7c816120ed85df9d47beb62b1fb8c06c86dd43a"
+      "byteCount": 12383,
+      "sha256": "2cb9d0204488e53776f77ce1e6b1cce5c48035234c9d45c1c5be3fd9b9d13d40"
     },
     {
       "path": "supply-chain.md",

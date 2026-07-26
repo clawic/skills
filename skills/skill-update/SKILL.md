@@ -1,7 +1,7 @@
 ---
 name: Skill Update
 slug: skill-update
-version: 1.0.2
+version: 1.0.3
 description: >-
   Updates installed agent skills safely: version check, diff preview, backup, approval,
   data migration, and rollback. Use when updating or upgrading a skill, checking for newer
@@ -11,7 +11,7 @@ description: >-
   bringing every skill or every agent's copy current. Not for installing new skills
   (skill-finder) or publishing skills you own (skill-publish).
 homepage: https://clawic.com/skills/skill-update
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🔄

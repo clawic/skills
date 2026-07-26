@@ -1,7 +1,7 @@
 ---
 name: Brief
 slug: brief
-version: 1.0.3
+version: 1.0.4
 description: >-
   Turns raw material into decision-ready briefs: executive summaries, status updates,
   meeting pre-reads, and decision documents. Use when asked to brief someone, write a
@@ -12,7 +12,7 @@ description: >-
   compression with no decision to serve, or for recurring digests pulled from external
   sources.
 homepage: https://clawic.com/skills/brief
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 📋

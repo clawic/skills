@@ -1,8 +1,8 @@
 ---
 name: Collaborate
 slug: collaborate
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: >-
   Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.
 homepage: https://clawic.com/skills/collaborate

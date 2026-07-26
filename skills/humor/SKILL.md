@@ -1,7 +1,7 @@
 ---
 name: Humor
 slug: humor
-version: 1.0.2
+version: 1.0.3
 description: >-
   Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched
   to each user, context, and platform. Use when adding humor or personality to replies,
@@ -10,7 +10,7 @@ description: >-
   joking in group chats or across languages, or when the user says be funnier, lighten up,
   or tone it down.
 homepage: https://clawic.com/skills/humor
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 😄

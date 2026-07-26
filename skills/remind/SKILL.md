@@ -1,8 +1,8 @@
 ---
 name: Remind
 slug: remind
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: >-
   Reminds the user of commitments they already know — meetings, deadlines, bills,
   promises, follow-ups — at the right lead time, in their style. Use when the user

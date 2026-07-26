@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "8b0d7e163fbc6947f4caa016caad1778a78b0a0833f6fd5f22a75d242fb20ae5",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "dca5c81f749104f7bace5b43e44aca734404a7b1d23b87a8af7818d2e0177a54",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "beijing",
     "name": "Beijing",
     "description": "Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China — pair with the china skill for other cities.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/beijing",
     "summary": "User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to ",
     "repositoryPath": "skills/beijing",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/beijing/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/_meta.json",
-      "byteCount": 316,
-      "sha256": "d54670adc8036767ea3c1ca4929a0e7f30cb01aa4a29f06efe598b3b726f9878"
+      "byteCount": 390,
+      "sha256": "f95f95dd4bb855a3d1068db8602c377fb3072c801d6ca40b53d042080c906ae7"
     },
     {
       "path": "business.md",
@@ -229,8 +229,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/beijing/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/beijing/SKILL.md",
-      "byteCount": 14529,
-      "sha256": "dabebf31bc8c50c34cd757ca420a60d683ca6dfbfe04ecef230a5618a5478ce9"
+      "byteCount": 14473,
+      "sha256": "91c1cae639f9cf6566805a83e89a35ab835c6cf55102a68483151fb4e18392e5"
     },
     {
       "path": "startup.md",

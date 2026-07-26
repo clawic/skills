@@ -1,7 +1,7 @@
 ---
 name: Rust
 slug: rust
-version: 1.0.2
+version: 1.0.3
 description: >-
   Writes, debugs, and optimizes Rust code, crates, and Cargo builds: ownership, lifetimes, traits, async, unsafe, and FFI.
   Use when the borrow checker rejects code, when rustc reports value moved, cannot borrow as mutable, does not live long
@@ -12,7 +12,7 @@ description: >-
   when cross-compiling to musl or another target; when profiling, benchmarking, or shrinking a Rust binary. Not for C++ or
   language-agnostic concurrency theory.
 homepage: https://clawic.com/skills/rust
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🦀

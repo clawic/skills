@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "7aa37b236db3d81c4e35777d7e0f76fd4955d7f24963632c3f3b891e6aa52558",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "230dac7650fc83c7dcb420571d3dd0f7f59a801366b37fa49e6df195f5124a98",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "sleep",
     "name": "Sleep",
     "description": "Coaches sleep with quantified protocols: insomnia CBT-I, jet lag light timing, shift work anchors, caffeine and melatonin cutoffs. Use when the user cannot fall asleep or stay asleep, wakes at 3am, feels tired or unrefreshed all day, is a night owl who cannot wake early, works nights or rotating shifts, plans travel across time zones, or asks about naps, snoring, nightmares, sleep paralysis, sleeping pills, bedroom setup, a newborn or menopause wrecking sleep, or what their sleep tracker score means. Not for dream journaling or interpretation.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/sleep",
     "summary": "Operational sleep coaching: triage the complaint, run the protocol with numbers, route red flags to a clinician instead of coaching past them. Advise mode only: guide the human, never touch their medication. Diary, trip ",
     "repositoryPath": "skills/sleep",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/sleep/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/_meta.json",
-      "byteCount": 386,
-      "sha256": "9e8d0b024b09acf7ea3f737926c8e77f014ecb2c27d0d986ec54ae8e11743b65"
+      "byteCount": 460,
+      "sha256": "1824df646400e2f28920d6b79a0786fdba3f9efca1a5589013461feff000fb03"
     },
     {
       "path": "circadian.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/sleep/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sleep/SKILL.md",
-      "byteCount": 12881,
-      "sha256": "270333be94fc138b030849c4711235884d604a4a2f5cd62dec871374c9d3234b"
+      "byteCount": 12825,
+      "sha256": "694465636a0826eab6ec46c0286db8df7cb3cb3d110e7908a3a0444634098127"
     },
     {
       "path": "substances.md",

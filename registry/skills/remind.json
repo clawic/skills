@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "e4cba82655d26cec500f675d212a0e627c273dbf264e0aefa1bd822d6bb6c427",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "4c7f989cf8931289c7c0a725f7cd3991c69d22fc5d005da5c31b48ad54cfca80",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "remind",
     "name": "Remind",
     "description": "Reminds the user of commitments they already know — meetings, deadlines, bills, promises, follow-ups — at the right lead time, in their style. Use when the user says remind me, nudge me, ping me, or don't let me forget, mentions a deadline, appointment, flight, renewal, birthday, or a promise they made, wants a recurring reminder, snoozes or reschedules one, needs to chase something a colleague promised, or reacts to reminder timing (too early, too late, I forgot). Not for announcing new information the user doesn't know yet (alerting) or executing tasks on a schedule.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/remind",
     "summary": "User preferences, learned lead times, and the active reminder list live in `~/Clawic/data/remind/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/remind/`, `",
     "repositoryPath": "skills/remind",
@@ -26,15 +26,15 @@
       "path": "_meta.json",
       "downloadPath": "skills/remind/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remind/_meta.json",
-      "byteCount": 314,
-      "sha256": "76d4a6ff3ac2238f55ddb3dbc8903160946932cf262c5ecbae952ec7eb5af6ba"
+      "byteCount": 388,
+      "sha256": "173183c4ca18bfbb82362e53c2380230556cfdf979c28f73548dc50035f10057"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/remind/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/remind/SKILL.md",
-      "byteCount": 10172,
-      "sha256": "9fc1238e59fbda0f869c962a551f8c5f461e7dfdb6f22e05c8765035bf03f4d8"
+      "byteCount": 10116,
+      "sha256": "56bcd6ddd0e15108f9263bb409b7866823bad8b72e72b19cfe42d13ebf0e6c70"
     },
     {
       "path": "timing.md",

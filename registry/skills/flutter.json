@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "4335b5bd3fb2b8ec6427298fb049816d857b090dd76f28dafbace23a70908d0d",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "b6121e8acd586047b890172ba056ae8d9285c00e69ca88d01f9205c552d0db6c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "flutter",
     "name": "Flutter",
     "description": "Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation, performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows, a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button handling; when the keyboard covers a form field or validation misfires; when a platform channel throws MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget, golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK, IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/flutter",
     "summary": "User preferences live in `~/Clawic/data/flutter/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/flutter/` or `~/clawic/flutter/`), move it to `~/Cla",
     "repositoryPath": "skills/flutter",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/flutter/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/_meta.json",
-      "byteCount": 316,
-      "sha256": "537e32f3760c954412a807840d482123654bba2aea21b81ba56576acd4534c5f"
+      "byteCount": 390,
+      "sha256": "6a7bce2f0f03821082a005ce6cc4d8871b5a1a437a933bd86d11801c81622bb6"
     },
     {
       "path": "accessibility.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/flutter/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flutter/SKILL.md",
-      "byteCount": 26756,
-      "sha256": "4e304a2d59cec239593b4835352e87bf4873b763c78a456490795f859a453892"
+      "byteCount": 26700,
+      "sha256": "944131347c107709cee58950422c68cc1763fbeb3d6477c07bdfc3835977c72f"
     },
     {
       "path": "state.md",

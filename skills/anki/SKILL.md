@@ -1,7 +1,7 @@
 ---
 name: Anki
 slug: anki
-version: 1.0.2
+version: 1.0.3
 description: >-
   Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review
   workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or
@@ -15,7 +15,7 @@ description: >-
   and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm
   theory, study-session planning, or add-on development.
 homepage: https://clawic.com/skills/anki
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🧠

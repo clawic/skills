@@ -1,8 +1,8 @@
 ---
 name: Kotlin
 slug: kotlin
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: >-
   Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state.
   Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows

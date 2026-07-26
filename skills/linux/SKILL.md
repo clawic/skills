@@ -1,7 +1,7 @@
 ---
 name: Linux
 slug: linux
-version: 1.0.3
+version: 1.0.4
 description: >-
   Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck
   processes, systemd units, cron, networking, SSH, and boot failures. Use when a
@@ -13,7 +13,7 @@ description: >-
   security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for
   shell-script syntax (bash) or container build and runtime internals (docker).
 homepage: https://clawic.com/skills/linux
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🐧

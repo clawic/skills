@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "c104b8250933fccb3f571fcbe4a487ff578ab51730cb3b77fa1a6ee5d728cb71",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "bc341ba8953c6004e92a817503a295b33e4ec8b5146a1e84410c6f6f0a7bdd1f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "studying",
     "name": "Studying",
     "description": "Plans study schedules and runs study sessions with retrieval practice, spaced review, and exam countdown protocols. Use when a student prepares for an exam, midterm, final, or certification, asks how to study, revise, memorize, or cram, says they studied hard but forgot everything, failed or blanked on a practice test, cannot focus or keeps procrastinating, or is juggling several courses before test week. Covers technique choice, weekly planning, note-taking, problem practice, essay prep, and test-day strategy, and persists what works for this student across sessions. Not for producing flashcard decks or practice tests themselves.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/studying",
     "summary": "User preferences and session history persist in `~/Clawic/data/studying/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/studying/` or `~/clawic/studying/",
     "repositoryPath": "skills/studying",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/studying/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/_meta.json",
-      "byteCount": 392,
-      "sha256": "c1848cb5615a2a19005b66e94ba0ba6d713a1b2d3747f3e3bc63ed0c9c812a9b"
+      "byteCount": 466,
+      "sha256": "4c3d96440021ce508e447e0140665e270346fd6aecb2b33ace4a8a08d8a479b1"
     },
     {
       "path": "certifications.md",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/studying/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/studying/SKILL.md",
-      "byteCount": 16428,
-      "sha256": "b160b5566eb10d6a97f27da62f8cba94d66ffb71d928a0e8cacbb0daf6d5d26f"
+      "byteCount": 16372,
+      "sha256": "aa30373c75cda73da32c23b563d5d53504959a1576ec006a3bdb6dfc03e7683b"
     },
     {
       "path": "techniques.md",

@@ -1,8 +1,8 @@
 ---
 name: Sleep
 slug: sleep
-version: 1.0.3
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.4
+changelog: "Display name shown correctly"
 description: 'Coaches sleep with quantified protocols: insomnia CBT-I, jet lag light timing, shift work anchors, caffeine and melatonin cutoffs. Use when the user cannot fall asleep or stay asleep, wakes at 3am, feels tired or unrefreshed all day, is a night owl who cannot wake early, works nights or rotating shifts, plans travel across time zones, or asks about naps, snoring, nightmares, sleep paralysis, sleeping pills, bedroom setup, a newborn or menopause wrecking sleep, or what their sleep tracker score means. Not for dream journaling or interpretation.'
 homepage: https://clawic.com/skills/sleep
 metadata:

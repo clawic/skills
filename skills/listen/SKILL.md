@@ -1,7 +1,7 @@
 ---
 name: Listen
 slug: listen
-version: 1.0.2
+version: 1.0.3
 description: >-
   Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and
   commands in voice-dictated messages. Use when a message arrived by voice and a
@@ -12,7 +12,7 @@ description: >-
   vocabulary tuning for recurring terms. Not for transcribing audio files or for
   typed-text typos.
 homepage: https://clawic.com/skills/listen
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 👂

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "7af66ec21d335bf4b42662c5b41a8cd7e8fff112cff509e7e64f877b3abbaad7",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "52b9ec77a064c301952dcb9d9b62d0aa55b6d333632fa9941b7872fee5f33e13",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "collaborate",
     "name": "Collaborate",
     "description": "Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/collaborate",
     "summary": "Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawi",
     "repositoryPath": "skills/collaborate",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/collaborate/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/_meta.json",
-      "byteCount": 324,
-      "sha256": "7522546ac8e2f7932598a8c3ded0f1c9a4cc8e1926a5849967dd4216bec22e32"
+      "byteCount": 398,
+      "sha256": "581a9acfc8fe5fd0d9c27cd31d16c73bec2e562904e34e64e646c09201dc165f"
     },
     {
       "path": "adversarial-review.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/collaborate/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/collaborate/SKILL.md",
-      "byteCount": 14420,
-      "sha256": "39087b67a3e9be6caaf556f05663bc7c3bac55808e2bcf017f2f0cb2c6bb5afd"
+      "byteCount": 14364,
+      "sha256": "d97b041490b4d8de37c335f3d541a620f73aa50dacbf384ca601868b6dbf7dd2"
     },
     {
       "path": "vs-delegate.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "94860dfaa6c57a23ea37b1b37eb456ca09a0d5b189b2e0eb1faa344b52430f1b",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "2bf9b5aa381ba575165ab1981ce14d12fd075c659b368c1db809acf731b6a2db",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "kotlin",
     "name": "Kotlin",
     "description": "Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state. Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring or Ktor. Not for Java-only codebases or Android release/build-system configuration.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/kotlin",
     "summary": "User preferences and memory live in `~/Clawic/data/kotlin/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/kotlin/` or `~/clawic/kotlin/`), move it to `~/",
     "repositoryPath": "skills/kotlin",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/kotlin/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/_meta.json",
-      "byteCount": 314,
-      "sha256": "e22ea1ac51949f18a6fb18d6889e2de5603268270d2449d2e8d92f69b53a9eed"
+      "byteCount": 388,
+      "sha256": "deaef76158753c1e854ebcb8f8330f34f17c4d1c284f7cd78f0e9003f72c4934"
     },
     {
       "path": "android.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/kotlin/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/kotlin/SKILL.md",
-      "byteCount": 18833,
-      "sha256": "cba99bc1ffa90f19ed1584d52140e6c432c667f21964d8ea8afb336c3af09ac4"
+      "byteCount": 18777,
+      "sha256": "8afbfe8a28cd7247857f71bf5e5d4a0101b0eea47e7f208c1e888f0bc7cc3b59"
     },
     {
       "path": "testing.md",

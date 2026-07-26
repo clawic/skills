@@ -1,7 +1,7 @@
 ---
 name: Vue
 slug: vue
-version: 1.0.2
+version: 1.0.3
 description: >-
   Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance.
   Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment,
@@ -12,7 +12,7 @@ description: >-
   styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific
   SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).
 homepage: https://clawic.com/skills/vue
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 💚

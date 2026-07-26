@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "d6a82566841bf4a8e7d8982e54e84b5d8f4906fae358a86627aea91ca1f91cef",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "4903d5f04cf83ea870bec68ecb1c459713996103509439aab0ab0829233e07fc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "suno",
     "name": "Suno",
     "description": "Creates music with Suno: crafts style prompts and structured lyrics, generates via API or browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle, anthem, podcast intro, or background track, wants lyrics turned into audio or written for singing, asks to sound like an artist, or when a generation comes out generic, off-genre, cuts off mid-song, sings the style description, garbles words, or gets rejected by moderation. Also covers extending and stitching songs, stems, WAV export, credits, and commercial-use rights. Not for editing or mixing existing audio files.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/suno",
     "summary": "This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio — see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at a",
     "repositoryPath": "skills/suno",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/suno/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/_meta.json",
-      "byteCount": 384,
-      "sha256": "3d391d436af614fd147d995ba0cc4153813c3f871c971cd5d2476fbae49d562a"
+      "byteCount": 458,
+      "sha256": "7a786c909421ea1df09584270a7a900e1c35045bbf71efdee86a782f59f53ff2"
     },
     {
       "path": "api.md",
@@ -110,8 +110,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/suno/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/suno/SKILL.md",
-      "byteCount": 12062,
-      "sha256": "f35ee4abb4296035b1741b26d46734ce16fdd9f546d1aceab0f19afaa84edb47"
+      "byteCount": 12006,
+      "sha256": "02a861ea443a10b8ab4cef575c2a388710954fb2ff0d72cf4b668ffabb57e44f"
     },
     {
       "path": "styles.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "671c1aab8a96a9ec3c6a96b051cbfad37363d6d0474356595d0603818bbb1969",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "949b2ab84408e4778cb171532e14c2794831f2ef662517c9fb3fbfbc27cb914e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "terraform",
     "name": "Terraform",
     "description": "Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or \"forces replacement\", when renaming, importing, or moving resources between modules and states, when a state lock is stuck or state is lost or corrupted, when for_each fails because a value is not known until apply, when pinning providers or surviving a major version upgrade, or when wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu, tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which cloud services to build — see aws, gcp, or azure.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/terraform",
     "summary": "User preferences and memory live in `~/Clawic/data/terraform/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/terraform/` or `~/clawic/terraform/`), move ",
     "repositoryPath": "skills/terraform",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/terraform/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/_meta.json",
-      "byteCount": 394,
-      "sha256": "3c95347542927517f4c8fcf60094e7181ece7b29fe8f5cdd0a7fd5fe91a6a570"
+      "byteCount": 468,
+      "sha256": "33976e50f6cdbcd41147491afd6c113084f820a9f694a444092d491bcb5053c2"
     },
     {
       "path": "ci.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/terraform/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/terraform/SKILL.md",
-      "byteCount": 19230,
-      "sha256": "0904a42ff07ef18c2f1aaaca9b9973b77d9aacc5118a6e59d6ed3e2a62a32115"
+      "byteCount": 19174,
+      "sha256": "9d58f88d634515f9dd9ecdfa3a30b475f3e5cf764ae72b8635d1cbed4fc0962b"
     },
     {
       "path": "state.md",

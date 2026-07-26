@@ -1,7 +1,7 @@
 ---
 name: Svelte
 slug: svelte
-version: 1.0.1
+version: 1.0.2
 description: >-
   Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters.
   Use when the UI does not update after a state change, an effect loops forever
@@ -15,7 +15,7 @@ description: >-
   testing components with Vitest or Playwright, and cutting bundle size and rerender cost.
   Not for Vue or Nuxt, React, or plain browser JavaScript semantics.
 homepage: https://clawic.com/skills/svelte
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🔥

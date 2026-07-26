@@ -1,7 +1,7 @@
 ---
 name: Digest
 slug: digest
-version: 1.0.2
+version: 1.0.3
 description: >-
   Curates news, feeds, and industry sources into personalized recurring digests: sourcing,
   filtering, ranking, and delivery. Use to set up a daily briefing or morning/evening news
@@ -12,7 +12,7 @@ description: >-
   audio); learns format, timing, and depth preferences from reactions. Not for summarizing
   documents the user provides or internal business reporting.
 homepage: https://clawic.com/skills/digest
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 📰

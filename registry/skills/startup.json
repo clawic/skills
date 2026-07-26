@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "01ed04c0cfef05512bebbcf9b6cb105c869ec5cf92a122c58ab75cab8a4ca2a5",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "6b9dca10abf8f3b4c75e183c578ac49d5484913104be8a04764babb355aaf606",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "startup",
     "name": "Startup",
     "description": "Orchestrates startup work: routes tasks to specialized agents and applies stage-appropriate priorities. Use when advising founders on product-market fit, growth, hiring, fundraising, runway, or burn decisions.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/startup",
     "summary": "Startup Orchestration Two modes: **orchestrate** (spawn function agents and synthesize their outputs) and **advise** (stage-appropriate guidance to a founder). User data (stage, business model, runway) lives in `~/Clawic",
     "repositoryPath": "skills/startup",
@@ -26,15 +26,15 @@
       "path": "_meta.json",
       "downloadPath": "skills/startup/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/_meta.json",
-      "byteCount": 316,
-      "sha256": "debfcfbb51413825b46066c07b06706ceda0b1767f76da4df0c17ce105ca6973"
+      "byteCount": 390,
+      "sha256": "b88b4f7b22600f0526e863f7c738be579ca136a667429624632fe84d2768aa8e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/startup/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/startup/SKILL.md",
-      "byteCount": 13112,
-      "sha256": "437d3101a79e5a891d4530f814c4b011ebc122db374ec3b1570b2d48c4973080"
+      "byteCount": 13056,
+      "sha256": "2ac24d5575b3b18626f281397dc3ec5bcef0cc6292cdf79f71d08127799fea8d"
     }
   ]
 }

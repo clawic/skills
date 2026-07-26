@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "73c2f0afef92810899abe836c9655e2d032bdd57dd2cef9be165acb74e0cfca6",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "42dd5e34efeab44b281e1cbe71e14cc20cff64f911d7dab1b56928576da1e20d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "linux",
     "name": "Linux",
     "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/linux",
     "summary": "User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Cla",
     "repositoryPath": "skills/linux",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/linux/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json",
-      "byteCount": 386,
-      "sha256": "c7da85aacaf0025a70f35554cb8f4a8bcf98c5cee0727613e29a114ec9d86d23"
+      "byteCount": 460,
+      "sha256": "e217a360a6e57ed0b6277241b6500023b35ab336bce11597d29165d01d573910"
     },
     {
       "path": "boot.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/linux/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
-      "byteCount": 21218,
-      "sha256": "d6bd8512176581332f63e3f49cd949a9de8875db26c4e025753983167e082a95"
+      "byteCount": 21162,
+      "sha256": "7eff7eea46e663bc9352f2ce0f33aeb762971a57ee9bab513afa01448c8455f7"
     },
     {
       "path": "ssh.md",

@@ -1,7 +1,7 @@
 ---
 name: Flutter
 slug: flutter
-version: 1.0.2
+version: 1.0.3
 description: >-
   Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation,
   performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows,
@@ -14,7 +14,7 @@ description: >-
   golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK,
   IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.
 homepage: https://clawic.com/skills/flutter
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🐦

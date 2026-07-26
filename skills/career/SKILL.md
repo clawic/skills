@@ -1,7 +1,7 @@
 ---
 name: Career
 slug: career
-version: 1.0.4
+version: 1.0.5
 description: >-
   Advises on career decisions — offer evaluation, salary and equity negotiation, promotions,
   pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels
@@ -10,7 +10,7 @@ description: >-
   plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself
   (resume) or running the application pipeline (job-search).
 homepage: https://clawic.com/skills/career
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: "💼"

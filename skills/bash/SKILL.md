@@ -1,7 +1,7 @@
 ---
 name: Bash
 slug: bash
-version: 1.0.5
+version: 1.0.6
 description: >-
   Writes, debugs, and hardens Bash shell scripts — quoting, arrays, strict mode,
   traps, argument parsing, and macOS/Linux portability. Use when writing or
@@ -16,7 +16,7 @@ description: >-
   POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and
   not for host-level cron, systemd, or permission failures (linux).
 homepage: https://clawic.com/skills/bash
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🖥️

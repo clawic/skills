@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "a0a07aa5581e1add6a24cc0cde82e050ee22fc16508878c58784a0ba465390d0",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "271a6b24719882a8251777b9eae831f7715f5aac50e4501ad4a9614f5ba90e3e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "swift",
     "name": "Swift",
     "description": "Writes, debugs, and optimizes Swift — concurrency, ARC leaks, optionals, generics, SwiftUI state, and packages. Use when writing or reviewing Swift code, when a build won't type-check or the compiler \"is unable to type-check this expression in reasonable time\", when an app crashes on a force unwrap, an unowned reference, or EXC_BAD_ACCESS, when Swift 6 raises Sendable / actor-isolated / data-race errors, when a retain cycle keeps objects alive, when JSON fails to decode, when async code hangs or deadlocks, when SwiftUI state resets or views redraw too often, when XCTest or Swift Testing tests are flaky, when a Swift package won't resolve, or when bridging to Objective-C, C, or Linux. Not for Xcode signing and IDE settings, or App Store submission and iOS app lifecycle.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/swift",
     "summary": "User preferences and memory live in `~/Clawic/data/swift/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/swift/` or `~/clawic/swift/`), move it to `~/Cla",
     "repositoryPath": "skills/swift",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/swift/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/_meta.json",
-      "byteCount": 312,
-      "sha256": "86dea9db6fc560b309c4a820138acf2e40fec9085ba345b268d039d3c7b56cc1"
+      "byteCount": 386,
+      "sha256": "01053ae2256e2736b6703ec0480a231c3c596104c1132c94d27aa802caff6a50"
     },
     {
       "path": "api-design.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/swift/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/swift/SKILL.md",
-      "byteCount": 19592,
-      "sha256": "d1f5a52c300e5cfc393e7a8bba092678642cfdec94fe7c8392c92a7d62df01dd"
+      "byteCount": 19536,
+      "sha256": "6188950aefb4a05f58f4a754195d546d61a226f2f45145f308a03e459b3d38d5"
     },
     {
       "path": "strings.md",

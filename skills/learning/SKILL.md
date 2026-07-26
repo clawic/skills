@@ -1,8 +1,8 @@
 ---
 name: Learning
 slug: learning
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: 'Teaches any topic in adaptive sessions: probes prior knowledge, calibrates depth and format, and checks retention before advancing. Use when the user says teach me, explain this, ELI5, break it down, or help me understand or study something, when an explanation is not landing (re-asks, blank answers, "makes sense" with no follow-through), when material learned earlier keeps getting forgotten, when practice answers are confidently wrong, or when pacing study before an exam or deadline. Not for building a multi-week study plan or curriculum tracker, and not for authoring flashcard decks.'
 homepage: https://clawic.com/skills/learning
 metadata:

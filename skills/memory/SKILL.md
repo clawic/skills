@@ -1,7 +1,7 @@
 ---
 name: Memory
 slug: memory
-version: 1.0.5
+version: 1.0.6
 description: >-
   Remembers, recalls, and organizes durable facts in a categorized markdown store at
   ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember
@@ -14,7 +14,7 @@ description: >-
   runtime already holds, note-taking apps (notes), journaling practice (journal), or study
   techniques like spaced repetition (learn, active-recall).
 homepage: https://clawic.com/skills/memory
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🧠

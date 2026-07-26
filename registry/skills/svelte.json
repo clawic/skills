@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "2430b4c8815e281cd8c77ea132ba0e70b0c3259fdd791eb6671fb6cd9015f6f6",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "51ee5c9f33df8d4f4738d05551a3aae86b5e398c284344c39d9acc07ba874067",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "svelte",
     "name": "Svelte",
     "description": "Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters. Use when the UI does not update after a state change, an effect loops forever (\"effect_update_depth_exceeded\"), props or bindings stop reacting, a Map or class field is not tracked, state leaks between users on the server, \"window is not defined\" breaks the build, markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node, Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes, converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots to snippets and on:click to onclick, typing props and route data in TypeScript, testing components with Vitest or Playwright, and cutting bundle size and rerender cost. Not for Vue or Nuxt, React, or plain browser JavaScript semantics.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/svelte",
     "summary": "User preferences and memory live in `~/Clawic/data/svelte/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/svelte/` or `~/clawic/svelte/`), move it to `~/",
     "repositoryPath": "skills/svelte",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/svelte/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/_meta.json",
-      "byteCount": 240,
-      "sha256": "e9b8bd8a660919b356cd359e91c6e7cacb1bf5c2547867fa97b264455d38518e"
+      "byteCount": 314,
+      "sha256": "261f344a1b87194bc9291528bb46199eff87245dbbe78e5fc7e8fe13effc81e6"
     },
     {
       "path": "components.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/svelte/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/SKILL.md",
-      "byteCount": 20033,
-      "sha256": "0b23dcf9ba5b0a51611ae401465925bfcdfcd96cf3b82922e50371df823e41e0"
+      "byteCount": 19977,
+      "sha256": "9cfb614f7a31ded9ff08729115c4065440faf667b30fed72a1e36af0290bfe7d"
     },
     {
       "path": "ssr.md",

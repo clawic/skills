@@ -1,7 +1,7 @@
 ---
 name: Spain
 slug: spain
-version: 1.0.2
+version: 1.0.3
 description: >-
   Plans Spain travel with local-level picks: named restaurants, regional rules, timing,
   booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to
@@ -12,7 +12,7 @@ description: >-
   pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that
   is the spanish skill.
 homepage: https://clawic.com/skills/spain
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🇪🇸

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "4f0633995f68a1355418c6ad69be3a5b38073baef0bafebc4351e6766953ff4a",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "16897d59c4f324f410cc1567e3d3de34bc001e8268a89409b3f2e5a6f017502e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "career",
     "name": "Career",
     "description": "Advises on career decisions — offer evaluation, salary and equity negotiation, promotions, pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion, faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself (resume) or running the application pipeline (job-search).",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/career",
     "summary": "Advise mode: this skill guides a human making their own career moves; it never acts on their behalf. User career data lives in `~/Clawic/data/career/` (see `setup.md` on first use, `memory-template.md` for file formats):",
     "repositoryPath": "skills/career",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/career/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/_meta.json",
-      "byteCount": 388,
-      "sha256": "0802eabd94fcffa8e0c49dee5298ac59c8c4148052a773567903fbaf03387f6c"
+      "byteCount": 462,
+      "sha256": "0674ba8e0ae1ef546133783754c450b3c36c3abbb22861fea1747b4d7771e6f7"
     },
     {
       "path": "equity.md",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/career/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/career/SKILL.md",
-      "byteCount": 12286,
-      "sha256": "2a44cd212773d08ee6bb448df536ac5782acede2a749112ff08a467b2cb09501"
+      "byteCount": 12230,
+      "sha256": "77d18ea3e8110cbefaf46c6e351cafe4b324407c3096fe775e20c42fda519078"
     }
   ]
 }

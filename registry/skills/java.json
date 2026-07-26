@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "083230c0051854a5aa21423f40a7182c5a8739702d13b15bb704725184a9e6bb",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "35f63761e17fd41c262c73d332cc58f2a73f5f574574856eb4531891f93ce27f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "java",
     "name": "Java",
     "description": "Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades. Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError, UnsupportedClassVersionError or OutOfMemoryError, when a service deadlocks, hangs, burns CPU, or leaks memory, when equals/hashCode, Optional, generics, streams, or CompletableFuture misbehave, when dates shift or text turns into question marks, when Maven or Gradle resolves the wrong version or a fat jar fails only after packaging, when @Transactional does not roll back or an entity throws LazyInitializationException, when tests silently do not run, or when moving from Java 8 to 17/21+ and javax became jakarta. Also for choosing collections, sizing heap in containers, thread dumps, profiling, JDBC connection pools, HTTP timeouts, and logging setup. Not for Kotlin, Android app development, or JavaScript.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/java",
     "summary": "User preferences and memory live in `~/Clawic/data/java/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/java/` or `~/clawic/java/`), move it to `~/Clawic",
     "repositoryPath": "skills/java",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/java/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/_meta.json",
-      "byteCount": 310,
-      "sha256": "004869158d941ec58b7defe4e3fb7b9bf42f7a6a688faa1a922d4808863eff19"
+      "byteCount": 384,
+      "sha256": "e16c34ab74f47890c72b4b1535a34d3a36e2272f3604518fe1c5520d48a0cd90"
     },
     {
       "path": "async.md",
@@ -201,8 +201,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/java/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/SKILL.md",
-      "byteCount": 22073,
-      "sha256": "9c441ffa01bd4306e6a6a455466da4ce5036b3afde1ca318a13c606ba4b3ac95"
+      "byteCount": 22017,
+      "sha256": "2432e2d10f6bb8054a690c7b6bcd565e2413839475004314732f2a9dec4a87d4"
     },
     {
       "path": "spring.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "2154d39fd84236787fb59d9b91157bb95ecab73f58424e9818789b4621b92b21",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "17d19314991d120bb49721ed7ade9f8a38f1da7bd0f6c8aa0cda1f98d0a332cb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "django",
     "name": "Django",
     "description": "Builds, debugs, and hardens Django apps: models, the ORM, views, templates, forms, the admin, DRF APIs, and deployment. Use when a page fires one query per row (N+1, select_related, prefetch_related, annotate double-counting); when makemigrations conflicts, a migration locks a live table, or InconsistentMigrationHistory blocks a deploy; on 403 CSRF verification failed, DEBUG=False turning every request into 400 DisallowedHost or a blank 500, or SECURE_SSL_REDIRECT looping behind a proxy; on SynchronousOnlyOperation, AppRegistryNotReady, or NoReverseMatch; when a background task runs before its transaction commits, signals fire on rows that roll back, or update() skips auto_now; when the admin times out on a big table, collectstatic breaks static files, or workers exhaust database connections; when writing serializers, formsets, a custom user model, permissions, or assertNumQueries tests; or upgrading Django across a deprecation. Not for plain Python, FastAPI or Flask services, or engine-level SQL tuning.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/django",
     "summary": "User preferences and memory live in `~/Clawic/data/django/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/django/` or `~/clawic/django/`), move it to `~/",
     "repositoryPath": "skills/django",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/django/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/_meta.json",
-      "byteCount": 314,
-      "sha256": "10d8a4b72b88e126a35b54b4a9a3794fff4b2465bfcc655f9667aab315af937a"
+      "byteCount": 388,
+      "sha256": "1447ee15f6fbb97d4f4118f4bfc4400e9cfa3395e785a1be39df3bb7a39a8715"
     },
     {
       "path": "admin.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/django/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/django/SKILL.md",
-      "byteCount": 25560,
-      "sha256": "c8e1979bfda9c555d34d3e574cbe99c2f011f7ac30e6de5736ba78b4cbc1d58f"
+      "byteCount": 25504,
+      "sha256": "fb8ee2b65d4465a1a6564869159b852b5cdeec0659c37650d9e38a6f18ba230b"
     },
     {
       "path": "tasks.md",

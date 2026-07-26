@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "1adc94077096810478dc60d4ebaccb321f8065ad922499bfb80446462b34e62c",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "1347727637771ddd5c309bb9f6b2133ddf1dd83041320743f1608520ff58d9d3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "fitness",
     "name": "Fitness",
     "description": "Plans and progresses workout programs — strength, muscle building, cardio, endurance, and general conditioning — with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/fitness",
     "summary": "Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you ha",
     "repositoryPath": "skills/fitness",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/fitness/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/_meta.json",
-      "byteCount": 390,
-      "sha256": "76bfc2766b5b8026083f898aebb7460ca2c0e99a55d56858e8783f8250bb5560"
+      "byteCount": 464,
+      "sha256": "7d29132cf8f2e6108efd906defa4562d48950efacf87b1e3cfa29013d89fb90c"
     },
     {
       "path": "assessment.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/fitness/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fitness/SKILL.md",
-      "byteCount": 16385,
-      "sha256": "c35cbec560e999c2d556da827dd7226bf1e25dc46d958193ec54c9a4dcfc85e8"
+      "byteCount": 16329,
+      "sha256": "945d07a4058eee8fad34633877775fe0b122eb7e1a17486d227f5a3e21c9a9b1"
     },
     {
       "path": "tracking.md",

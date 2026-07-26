@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "a15a18009edd61b6b8ebf4bdc0adda83be9631ba696626627263363a55370b9c",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "16289608033fa4d140ef7daa61d7117c54e7f7345f5084f37266c64ad08783e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "anki",
     "name": "Anki",
     "description": "Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or vocabulary lists; when reviews pile up, take too long, or a backlog builds after time off; when retention drops, cards keep failing, or a deck falls into ease hell; when choosing FSRS vs SM-2, or setting desired retention, new cards per day, learning steps, and leech thresholds; when a deck asks to upload or download in a one-way sync, loses media, or fails Check Database; when importing CSV/TSV, an .apkg, or a shared deck, or migrating from Quizlet, Memrise, or SuperMemo; when cards are due but nothing appears; and when a fixed exam date forces a study plan. Covers language decks, medical and board decks, code and math material, and personal decks such as names and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm theory, study-session planning, or add-on development.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/anki",
     "summary": "User preferences and memory live in `~/Clawic/data/anki/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/anki/` or `~/clawic/anki/`), move it to `~/Clawic",
     "repositoryPath": "skills/anki",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/anki/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/_meta.json",
-      "byteCount": 236,
-      "sha256": "db190dcef3aa7a314cafd2220826c17cd4a65a9d0de30dcfc59d98ffa245f546"
+      "byteCount": 310,
+      "sha256": "67dcd6502812f28fc931e99a75fa09e325fb002f93fce1cd0aac47318e3c07bd"
     },
     {
       "path": "addons.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/anki/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/anki/SKILL.md",
-      "byteCount": 20441,
-      "sha256": "dab63fcc8477e83f5b8b0031d1f898a3407c4ffd9431004b95938cccd63afa64"
+      "byteCount": 20385,
+      "sha256": "2f0419f642f1ae58331a1329cdf702f8f68365fd9a560c387ad1259a9841e1f6"
     },
     {
       "path": "sync-and-backup.md",

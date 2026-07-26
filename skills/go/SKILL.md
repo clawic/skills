@@ -1,8 +1,8 @@
 ---
 name: Go
 slug: go
-version: 1.0.3
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.4
+changelog: "Display name shown correctly"
 description: >-
   Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http.
   Use when Go panics or misbehaves — "all goroutines are asleep - deadlock!", "concurrent map writes", "send on closed

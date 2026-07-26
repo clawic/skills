@@ -1,14 +1,14 @@
 ---
 name: Triage / Task Prioritization
 slug: triage
-version: 1.0.2
+version: 1.0.3
 description: >-
   Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work.
   Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog
   after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush.
   Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.
 homepage: https://clawic.com/skills/triage
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🚦

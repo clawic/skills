@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "b3a7a21ad327a67327a0aa2bfddf50ffb9ff2e8e25fd1292ca374d350f5dbb64",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "8a4d59a2dcdd44717c180e578d3cd01f29b657e0a2884dda29ab4629540b3a01",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "elasticsearch",
     "name": "Elasticsearch",
     "description": "Designs, queries, and operates Elasticsearch: mappings, analyzers, query DSL, aggregations, bulk indexing, shard sizing, and cluster health. Use when writing a search query or an index mapping, when a search returns nothing or the wrong documents, when a term query on a text field returns zero hits without an error, when results rank badly, when aggregations fail with \"fielddata is disabled\", when the cluster turns yellow or red, when shards stay unassigned, when indexing is slow or a bulk request returns per-item errors, when disk hits the flood-stage watermark and indices go read-only, when circuit breakers trip, or when paging past 10,000 hits breaks. Covers ILM rollover, reindexing, snapshots, upgrades, kNN and hybrid vector search, autocomplete, synonyms and analyzers, nested modeling, geo queries, ES|QL, Painless, ingest pipelines, data streams, security, language clients, and OpenSearch compatibility. Not for standalone vector stores (vector-databases) or lightweight site search (meilisearch).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/elasticsearch",
     "summary": "User preferences and memory live in `~/Clawic/data/elasticsearch/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/elasticsearch/` or `~/clawic/elasticsear",
     "repositoryPath": "skills/elasticsearch",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/elasticsearch/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/_meta.json",
-      "byteCount": 254,
-      "sha256": "e985de619dc4960a6c79b4a8e6cd1836b08f2779c62fd052b20c1112a350f05f"
+      "byteCount": 328,
+      "sha256": "34df83c1dc8cb05c607197450fa4fac94de0ca5edc99e5ad2d2d29a7e8dfaeeb"
     },
     {
       "path": "aggregations.md",
@@ -194,8 +194,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/elasticsearch/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/SKILL.md",
-      "byteCount": 28122,
-      "sha256": "a3e0ab7580238c6a3d859306524692c03c745dce95d2f2db08cb2bf4103432dd"
+      "byteCount": 28066,
+      "sha256": "fbea5e0432158ca6eacf0fcecddc72138be2d659a2f62d18af8a9c96beb15a4e"
     },
     {
       "path": "snapshots.md",

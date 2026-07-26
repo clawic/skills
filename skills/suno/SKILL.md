@@ -1,7 +1,7 @@
 ---
 name: Suno
 slug: suno
-version: 1.0.3
+version: 1.0.4
 description: >-
   Creates music with Suno: crafts style prompts and structured lyrics, generates via API or
   browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle,
@@ -11,7 +11,7 @@ description: >-
   moderation. Also covers extending and stitching songs, stems, WAV export, credits, and
   commercial-use rights. Not for editing or mixing existing audio files.
 homepage: https://clawic.com/skills/suno
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🎵

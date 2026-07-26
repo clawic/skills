@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "9474b1c27e7187934a656f8c1a23ab0500488b2c8923e45787d26aee2ef7dbf7",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "1b27f19d25b59ed91780759afb617f642200c34e177e494d92882302a747a528",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "react",
     "name": "React",
     "description": "Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing. Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux), when a component rerenders too often, loops infinitely (\"too many re-renders\"), shows stale or not-updating state, fails with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library, typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and deployment — use react-native or nextjs.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "homepage": "https://clawic.com/skills/react",
     "summary": "User preferences and memory live in `~/Clawic/data/react/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/react/` or `~/clawic/react/`), move it to `~/Cla",
     "repositoryPath": "skills/react",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/react/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/_meta.json",
-      "byteCount": 534,
-      "sha256": "465c21f26e78f83b3689da2e215cc1e7a72cfc11785f942bb7dca09cc215f1b2"
+      "byteCount": 608,
+      "sha256": "9e740c814f1c227199e9e9146d13668ab1288228652099dd362ede4d5e8fb86e"
     },
     {
       "path": "memory-template.md",
@@ -47,8 +47,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/react/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/react/SKILL.md",
-      "byteCount": 17637,
-      "sha256": "32d895bd56546f6b9cc6f2f18e515ef614851d95e4a13bb5dde0d86350f766c8"
+      "byteCount": 17581,
+      "sha256": "3c87b5125d26d537cdd840cc77d8dd0ef14b0a5b47d564985f13bc40f3c9a2bf"
     }
   ]
 }

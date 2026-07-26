@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "a3f38602ad73997a7435f001ccf8560912b21c74ac797af4044f3f3862046bc7",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "d1a81265b60b5ff7d45e14dba1dc2cd1a1030b599fe2ff13523460e9d3858dc5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "plan",
     "name": "Plan",
     "description": "Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps, dependencies, or irreversible actions (deploys, migrations, deletions, sending anything external), when success criteria are unclear or an estimate would be a guess, when execution drifts off plan or a one-shot attempt failed, when resuming or handing off multi-day work, or when the user asks to plan, scope, break down, or estimate a task. Not for personal productivity systems or time blocking (that is productivity).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/plan",
     "summary": "User preferences, the outcome log, and active plans live in `~/Clawic/data/plan/` (see `setup.md` on first use). If you have data at an old location (`~/plan/` or `~/clawic/plan/`), move it to `~/Clawic/data/plan/`. When",
     "repositoryPath": "skills/plan",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/plan/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/_meta.json",
-      "byteCount": 310,
-      "sha256": "a136b75cfaa9958f01437009db01fc9e30e2c7c8f03491d9e875e03cfa14fb09"
+      "byteCount": 384,
+      "sha256": "f582896ae0eea506c45d2f5088df02dbea2c4c94e682b8cb4622adfec7b99ab2"
     },
     {
       "path": "approval.md",
@@ -89,8 +89,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/plan/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/plan/SKILL.md",
-      "byteCount": 15748,
-      "sha256": "88e4431eacfd8928e26795d534332e91af50ad4cf70c2ca8d62212cd3c40762a"
+      "byteCount": 15692,
+      "sha256": "2b83108e0ffcd6ae0924a5e5036bc3a6a2550cf6492cda8e345dc6b10dafb16d"
     },
     {
       "path": "strategies.md",

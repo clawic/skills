@@ -1,8 +1,8 @@
 ---
 name: Java
 slug: java
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: >-
   Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades.
   Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError,

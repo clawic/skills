@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "22accfdb6014e05a83fb03030556d4612c24baf3e2d8f5868ef8eef2a06c0897",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "cb2092c5d8da1cd22ecf014dc6baea6879c2bcfe058be984e3bf37afe3c07288",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "design",
     "name": "Design",
     "description": "Executes and critiques visual design with quantified rules for hierarchy, spacing, type scale, color, and layout. Use when designing UI screens, landing pages, slides, posters, social graphics, emails, charts, or PDFs, when a design looks off, cluttered, amateur, or flat and the user cannot say why, when nothing stands out or text is hard to read, when choosing fonts, pairing typefaces, or building a palette without a design system, when adapting a screen to dark mode or mobile, or when reviewing generated HTML/CSS before delivery. Not for design tokens and component libraries (design-system) or brand strategy (branding).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/design",
     "summary": "User preferences and memory live in `~/Clawic/data/design/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/design/` or `~/clawic/design/`), move it to `~/",
     "repositoryPath": "skills/design",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/design/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/_meta.json",
-      "byteCount": 314,
-      "sha256": "19d984d738bff7d5aa69e744484bbdfd1897fbeedb91ab8b4baa59c851bcb522"
+      "byteCount": 388,
+      "sha256": "7fa29af60816a5bc8177709c7952c7e7907e3ee4aa0fcf294d2952dae17a124c"
     },
     {
       "path": "accessibility.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/design/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/design/SKILL.md",
-      "byteCount": 14346,
-      "sha256": "cc303511165f41ea1d77e68dd723f13c9c4ac85e21635d539a1fad31be08229a"
+      "byteCount": 14290,
+      "sha256": "c1f9bd6cf1b2ffb8d00e47f2e41cbc4bd3f33bc5db8246aa5375155291546b5f"
     },
     {
       "path": "slides.md",

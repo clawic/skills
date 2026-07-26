@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "4e398f42cc27eac9e387e71e15dfa0326f025a7c941accacb1967ec529958e57",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "8c491338a1915b4dc526ac948e5f57e7d454a0cf3600635d4d5aba502588f120",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "spain",
     "name": "Spain",
     "description": "Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, Málaga, or San Sebastián, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Fermín, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that is the spanish skill.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/spain",
     "summary": "User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Cla",
     "repositoryPath": "skills/spain",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/spain/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/_meta.json",
-      "byteCount": 312,
-      "sha256": "b0429637e11f43fbd3cd6cbf997f4214707fdb592281c9cf4bf1df202db1eba1"
+      "byteCount": 386,
+      "sha256": "7833f4c01a57c1c9e43fe0df80e7cae842c17ac967da1826d4180a718cd52044"
     },
     {
       "path": "accommodation.md",
@@ -187,8 +187,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/spain/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/spain/SKILL.md",
-      "byteCount": 11030,
-      "sha256": "727d271e35caa113d0cceffd845697b465e52017064b81971ed561a20bcce530"
+      "byteCount": 10974,
+      "sha256": "48ba566bcc3945edcfe24b291f3f4404e5247d79bf5194108f7070485f6625b0"
     },
     {
       "path": "telecoms.md",

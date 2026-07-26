@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "cfde6eecb8bccead2c2bfde37e0155c7a8662de14b684a29ec4861ad7a09da5f",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "d0f98408ca2983e2031a25bde3585d8dc0eb1e32e2241cbc8be409c33b887d63",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "skill-update",
     "name": "Skill Update",
     "description": "Updates installed agent skills safely: version check, diff preview, backup, approval, data migration, and rollback. Use when updating or upgrading a skill, checking for newer versions, previewing what changed before applying, when a skill breaks, misbehaves, or loses data right after an update, when saved data or config must migrate across a version bump, when local edits to an installed skill would collide with the new version, or when bringing every skill or every agent's copy current. Not for installing new skills (skill-finder) or publishing skills you own (skill-publish).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/skill-update",
     "summary": "Updates installed skills safely: preview every change, back up before applying, migrate data only on approval, roll back on failure. Mode: act-as — it executes the update directly, never advises from the sideline. Backup",
     "repositoryPath": "skills/skill-update",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/skill-update/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/_meta.json",
-      "byteCount": 326,
-      "sha256": "2d007b05685ec5d9998b96fee3ef6f1e396931a5f3839712d168bcb179b88af3"
+      "byteCount": 400,
+      "sha256": "ec4468456b32c4a760386707fe863ef305f4d5430c1d39af130d5ae58d2508e2"
     },
     {
       "path": "batch.md",
@@ -75,8 +75,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/skill-update/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/skill-update/SKILL.md",
-      "byteCount": 14423,
-      "sha256": "b640aca710b97fa8b6d67d843b70e49d16be7941c3f014ff27839ffeed70f63f"
+      "byteCount": 14367,
+      "sha256": "b530b67a415e739086697354b396cf76590ab00ad38c14ea5b632c474c6283df"
     }
   ]
 }

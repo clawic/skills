@@ -1,7 +1,7 @@
 ---
 name: React
 slug: react
-version: 1.0.6
+version: 1.0.7
 description: >-
   Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing.
   Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux),
@@ -11,7 +11,7 @@ description: >-
   typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and
   deployment — use react-native or nextjs.
 homepage: https://clawic.com/skills/react
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: ⚛️

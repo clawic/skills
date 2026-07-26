@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "fef00929acfe0af2dc694dcef71c30a27c513779ff7603014f96bce88eb128ea",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "367c54202946851f8b8482ef3057b673d43552b482f28c06d1ef648fff2b04af",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "humor",
     "name": "Humor",
     "description": "Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched to each user, context, and platform. Use when adding humor or personality to replies, deciding if a joke is appropriate, mirroring or building on a user's joke, punching up a toast, caption, or message on request, recovering after a joke falls flat or draws silence, joking in group chats or across languages, or when the user says be funnier, lighten up, or tone it down.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/humor",
     "summary": "Learned humor state lives in `~/Clawic/data/humor/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/humor/` or `~/clawic/humor/`), move it to `~/Clawic/data/h",
     "repositoryPath": "skills/humor",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/humor/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/_meta.json",
-      "byteCount": 312,
-      "sha256": "397a15a8ba30d7f6f7c8f60574558d104e42feb9369bc4d7820f1230c5545bb7"
+      "byteCount": 386,
+      "sha256": "dba2615edb805fd5c220b1e4cf93dc94de0917ba20aec15fecb008a339f27386"
     },
     {
       "path": "banter.md",
@@ -110,8 +110,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/humor/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/humor/SKILL.md",
-      "byteCount": 11856,
-      "sha256": "e6cb6f41f241f90cb592229d26534509ed3ad0eb8417d2b250fc63bab2491dc7"
+      "byteCount": 11800,
+      "sha256": "711e7cd9f2d29b6321c194935deb8c23a808d5825880f62caeff5b218967369d"
     },
     {
       "path": "types.md",

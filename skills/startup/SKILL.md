@@ -1,12 +1,12 @@
 ---
 name: Startup
 slug: startup
-version: 1.0.2
+version: 1.0.3
 description: >-
   Orchestrates startup work: routes tasks to specialized agents and applies stage-appropriate priorities.
   Use when advising founders on product-market fit, growth, hiring, fundraising, runway, or burn decisions.
 homepage: https://clawic.com/skills/startup
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🦄

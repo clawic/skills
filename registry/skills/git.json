@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "e51b8e0be171ea712907d10813285694d7323e563d9096e08dc29c86f1644cdf",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "0503a0af92a9d333939d0cb5ba2c6dbcd2db0081babc9d09f52317427f9ea6b1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "git",
     "name": "Git",
     "description": "Commits, branches, merges, and rebases Git repositories, resolves conflicts, and recovers lost history. Use when the work touches a repo, commit, branch, merge, rebase, stash, tag, or submodule; when Git refuses a command — index.lock exists, push rejected as non-fast-forward, detached HEAD, dubious ownership, unrelated histories, conflict markers left behind; when something looks lost after a hard reset, a bad rebase, a deleted branch, or a dropped stash; when splitting a mixed change, wording commit messages, cleaning history before review, or force-pushing without wrecking a teammate's work; when a credential or a huge file got committed; when setting up worktrees, hooks, LFS, sparse checkout, signing, or separate work and personal identities. Not for CI pipeline YAML (github-actions, gitlab) or for composing the pull request description itself (pull-request).",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "homepage": "https://clawic.com/skills/git",
     "summary": "User preferences and memory live in `~/Clawic/data/git/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/git/` or `~/clawic/git/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/git",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/git/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/_meta.json",
-      "byteCount": 680,
-      "sha256": "ff4465ebe6fd19cd50d8971a5901f7e3af689b7eb2c51da4f552dfe22841542d"
+      "byteCount": 755,
+      "sha256": "630867c1c7e801c82e6781b9a24d918644f8b77fd9f469fae9b2b8ae1831ede4"
     },
     {
       "path": "branching.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/git/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/git/SKILL.md",
-      "byteCount": 18205,
-      "sha256": "a8d77b805885972544acde6e247de35dd32c619acfe15785f140dc0717749763"
+      "byteCount": 18149,
+      "sha256": "8e83d3beaf251a167f7cfecff0efb4c7bb3cedec993aa81875bdb5e512406256"
     },
     {
       "path": "submodules.md",

@@ -1,7 +1,7 @@
 ---
 name: Speak
 slug: speak
-version: 1.0.2
+version: 1.0.3
 description: >-
   Writes and converts text into natural speech-ready output for any TTS engine:
   normalization, prosody, pronunciation, and voice preferences. Use when a reply
@@ -12,7 +12,7 @@ description: >-
   the user corrects pronunciation, pacing, or voice choice. Not for
   speech-to-text or live two-way call setup.
 homepage: https://clawic.com/skills/speak
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🗣️

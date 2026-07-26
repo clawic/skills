@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "469d810f169c196a1a1a0389c63a7da814bc9e9baeb170b76812c74dadfcdb86",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "eb327e085885238ae0c9423f65313828bfd976ee2b3896793300686759560952",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "docker",
     "name": "Docker",
     "description": "Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "homepage": "https://clawic.com/skills/docker",
     "summary": "User preferences and memory live in `~/Clawic/data/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/",
     "repositoryPath": "skills/docker",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/docker/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/_meta.json",
-      "byteCount": 610,
-      "sha256": "a67b5310dca4dfd015f3fffcc4f418a77e644388e4f240d98393ac94c3cb9116"
+      "byteCount": 684,
+      "sha256": "461ce09e8d7b9b901fae44f34a874af80dd7b7b866732c0b390573873233632c"
     },
     {
       "path": "ci.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/docker/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md",
-      "byteCount": 11127,
-      "sha256": "c4768e070dbb2bdc04909451f822e6541adc77a5d5e4b9c3aacef09980310884"
+      "byteCount": 11075,
+      "sha256": "170b3b33fd01a58cadbd931ea58eae62522a7183a83d7c1bba58630e0567613e"
     },
     {
       "path": "storage.md",

@@ -1,7 +1,7 @@
 ---
 name: Plan
 slug: plan
-version: 1.0.2
+version: 1.0.3
 description: >-
   Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to
   risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps,
@@ -11,7 +11,7 @@ description: >-
   multi-day work, or when the user asks to plan, scope, break down, or estimate a task.
   Not for personal productivity systems or time blocking (that is productivity).
 homepage: https://clawic.com/skills/plan
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🗺️

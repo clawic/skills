@@ -1,8 +1,8 @@
 ---
 name: Design
 slug: design
-version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+version: 1.0.3
+changelog: "Display name shown correctly"
 description: Executes and critiques visual design with quantified rules for hierarchy, spacing, type scale, color, and layout. Use when designing UI screens, landing pages, slides, posters, social graphics, emails, charts, or PDFs, when a design looks off, cluttered, amateur, or flat and the user cannot say why, when nothing stands out or text is hard to read, when choosing fonts, pairing typefaces, or building a palette without a design system, when adapting a screen to dark mode or mobile, or when reviewing generated HTML/CSS before delivery. Not for design tokens and component libraries (design-system) or brand strategy (branding).
 homepage: https://clawic.com/skills/design
 metadata:

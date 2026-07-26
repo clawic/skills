@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "cb602176316f810f834b1bec7b8802020d26190d83cbfa74871dc9db3a01faed",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "908d4c5a57d0c12aeab53a18c356ec71b5b24c3bcbbd3cbbdfc2d4306ac4147d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "bash",
     "name": "Bash",
     "description": "Writes, debugs, and hardens Bash shell scripts — quoting, arrays, strict mode, traps, argument parsing, and macOS/Linux portability. Use when writing or reviewing any script, one-liner, cron job, deploy script, container entrypoint, or CI step; when a script breaks on spaces in filenames, exits silently, ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS, globs, arrays, heredocs, process substitution, trap, getopts, or mapfile misbehave; when shellcheck flags SC2086 and friends; when unbound variable, bad substitution, command not found, ambiguous redirect, or unexpected end of file show up; when a script works by hand but fails under cron, systemd, sudo, or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and not for host-level cron, systemd, or permission failures (linux).",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/bash",
     "summary": "User preferences live in `~/Clawic/data/bash/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/bash/` or `~/clawic/bash/`), move it to `~/Clawic/data/",
     "repositoryPath": "skills/bash",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/bash/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/_meta.json",
-      "byteCount": 458,
-      "sha256": "ea84def8438d1ae695b9f7852bdb7dde6071edbe022e71ca80d8915ac1c4cea9"
+      "byteCount": 532,
+      "sha256": "f90bfe0633783c07a363a1970855817f9762372038416297ac2b9bdb7197a5a5"
     },
     {
       "path": "arguments.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/bash/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/bash/SKILL.md",
-      "byteCount": 18270,
-      "sha256": "27e3b1c7432cbed144f4d9bb5878e71239c18cd9059e81ecdacedbe9fe860bfd"
+      "byteCount": 18214,
+      "sha256": "d8fb0ad3f5d499e400c939fc5eade7b5d9695d14d65884fe33f2ae0483d2b368"
     },
     {
       "path": "testing.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "df3c76b16cbf372519569d5279864ff46fa384c9b99844aecc038ed84ac40a9a",
-  "generatedAt": "2026-07-26T12:22:57.201Z",
-  "sourceRevision": "7dae86e6f06be3768bf4320f8a615c07d9519bed",
-  "manifestSha256": "7541b95a35b5641d6c5f69765683b19547309234988de81a76659d10905572b8",
+  "snapshotId": "2ed8d0b8df65b7a55ff2d997ff2631334fc8e43240192871c6a0f90a3ffec908",
+  "generatedAt": "2026-07-26T12:26:06.160Z",
+  "sourceRevision": "f84d54cb4598a24a4146176aa4b3c3da413edc1e",
+  "manifestSha256": "a470c4cd3c87ee2a3d6aa44ad9d59efc4009f81cff9c8d8319feb910c5f9c5cc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "vue",
     "name": "Vue",
     "description": "Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance. Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment, .value is forgotten, a watcher never fires or loops (\"Maximum recursive updates exceeded\"), props or v-model stop syncing, a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns \"getActivePinia() was called but there was no active Pinia\", the console shows \"Failed to resolve component\" or \"Extraneous non-props attributes\", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/vue",
     "summary": "User preferences and memory live in `~/Clawic/data/vue/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/vue/` or `~/clawic/vue/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/vue",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/vue/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/_meta.json",
-      "byteCount": 308,
-      "sha256": "0697402f10f69f6a29ca941f28348d92eff87cbf2041883d3940b5c2bb71d4e7"
+      "byteCount": 382,
+      "sha256": "64df0f04dc8bfbde39dba6dd896e05a017b0916466794a4edeac3d8d5e14895b"
     },
     {
       "path": "components.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/vue/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/SKILL.md",
-      "byteCount": 20524,
-      "sha256": "cda3213c468a147adc3fa2e6e7cc10b32bcddde4d8bbd8f16392264d2fa0326d"
+      "byteCount": 20468,
+      "sha256": "3f631716d57cb8608a34341fce526438f2d149ac154f5dc69814bec0f4a4b535"
     },
     {
       "path": "ssr.md",

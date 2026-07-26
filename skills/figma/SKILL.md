@@ -1,10 +1,10 @@
 ---
 name: Figma
 slug: figma
-version: 1.0.1
+version: 1.0.2
 description: 'Builds and debugs Figma files: auto layout, components and variants, variables and modes, libraries, prototypes, and Dev Mode handoff. Use when a frame will not resize, text clips or overflows, a variant set lags, a library update breaks instances, dark mode or theming needs modes instead of duplicated screens, engineers say the UI breaks on resize, icons export blurry, a file opens slowly, an inherited file needs auditing, or work has to be scripted through plugins, the REST API, or the Dev Mode MCP server. Covers component properties, token naming, Code Connect, export densities, FigJam and Slides. Not for piping tokens into platform code (design-tokens), prototyping beyond Figma (prototyping), visual design judgment (design), or the handoff process around the file — spec documents, redlines, review rituals (design-handoff).'
 homepage: https://clawic.com/skills/figma
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🎨

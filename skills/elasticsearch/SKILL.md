@@ -1,7 +1,7 @@
 ---
 name: Elasticsearch
 slug: elasticsearch
-version: 1.0.1
+version: 1.0.2
 description: >-
   Designs, queries, and operates Elasticsearch: mappings, analyzers, query DSL, aggregations, bulk indexing, shard sizing, and cluster health.
   Use when writing a search query or an index mapping, when a search returns nothing or the wrong documents, when a term query on a text field
@@ -12,7 +12,7 @@ description: >-
   data streams, security, language clients, and OpenSearch compatibility. Not for standalone vector stores (vector-databases) or lightweight
   site search (meilisearch).
 homepage: https://clawic.com/skills/elasticsearch
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Display name shown correctly"
 metadata:
   clawdbot:
     emoji: 🔍
