@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "3a75426292a5c58d1d7e610ca7017346bb89570ccc2b612f08ed511fa5784a96",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "97bd0641c61d2d18320c5fc09f33169f95ec12984daf2f7e470b31d1cf6fcb15",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "playwright",
     "name": "playwright",
-    "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.",
-    "version": "1.0.3",
+    "description": "Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control. Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/playwright",
-    "summary": "When to Use Use this skill for real browser tasks: JS-rendered pages, multi-step forms, screenshots or PDFs, UI debugging, Playwright test authoring, MCP-driven browser control, and structured extraction from rendered pa",
+    "summary": "User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`. Ever",
     "repositoryPath": "skills/playwright",
     "manifestPath": "registry/skills/playwright.json"
   },
@@ -26,50 +26,162 @@
       "path": "_meta.json",
       "downloadPath": "skills/playwright/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/_meta.json",
-      "byteCount": 351,
-      "sha256": "d5e77018ffd595aa5d56fd7b4eea764ef03fb610d449bde077da5e718cbc894f"
+      "byteCount": 425,
+      "sha256": "04f2ab2b748c0370709489d2a421efb0cdc27bb22cc0a56e46c13d2eb7e0c638"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/playwright/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/accessibility.md",
+      "byteCount": 5304,
+      "sha256": "dec333192ba06b28f5f190c2f0bc9f9b939d30d2121f181d783d360a5b8eceaf"
+    },
+    {
+      "path": "auth.md",
+      "downloadPath": "skills/playwright/auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/auth.md",
+      "byteCount": 6234,
+      "sha256": "2d2e82eabe7a712045cc81f205f20e9049974f27a5ef4b342fc1c2abdd929f86"
+    },
+    {
+      "path": "browsers.md",
+      "downloadPath": "skills/playwright/browsers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/browsers.md",
+      "byteCount": 5374,
+      "sha256": "d0eec11c6868894adf97f23b672cac70c5081dbc051afccbf9b67c65e9fbb2f1"
     },
     {
       "path": "ci-cd.md",
       "downloadPath": "skills/playwright/ci-cd.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/ci-cd.md",
-      "byteCount": 3501,
-      "sha256": "5821e33e0b8184e8b799da3acf439f6c91bd3daa7eabaa977be1c470182a6515"
+      "byteCount": 6961,
+      "sha256": "353bfb0150199f4204d18c724e984f75fbbe913c548d28fcbd86baeba0182698"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/playwright/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/commands.md",
+      "byteCount": 3592,
+      "sha256": "2e33f0654716126e49fa86cf8236955858b8964afd177bedb94039f78959af9b"
+    },
+    {
+      "path": "config.md",
+      "downloadPath": "skills/playwright/config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/config.md",
+      "byteCount": 4878,
+      "sha256": "f66d7202a4399d052db9dfbfe5351ca78d8e6185cb5ea55c0e831869e4cf31f8"
+    },
+    {
+      "path": "contexts.md",
+      "downloadPath": "skills/playwright/contexts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/contexts.md",
+      "byteCount": 6140,
+      "sha256": "4d62f9993e7d7000ad37e684b550d378b063dbf06a91b6cdd15a4f9801eec1f3"
     },
     {
       "path": "debugging.md",
       "downloadPath": "skills/playwright/debugging.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/debugging.md",
-      "byteCount": 3624,
-      "sha256": "8fb3cabd6c6b047ee89de54bf375d57a52124832b3952e3d37490c6a3c78bea2"
+      "byteCount": 6999,
+      "sha256": "c5468b84cffac75ae9a6e2a0a2e0e1ab1b015fbbdcd188b90222603ddd7d9488"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/playwright/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/files.md",
+      "byteCount": 4948,
+      "sha256": "2b927576168f682f01d11767a84cb264b60749eecc4449fb62c37bf1a7128980"
+    },
+    {
+      "path": "fixtures.md",
+      "downloadPath": "skills/playwright/fixtures.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/fixtures.md",
+      "byteCount": 3296,
+      "sha256": "0e3341960a479e359aff6ee3d11cb6228f905f2f331ed0a5450b4e08cd91aa8e"
+    },
+    {
+      "path": "flake.md",
+      "downloadPath": "skills/playwright/flake.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/flake.md",
+      "byteCount": 5570,
+      "sha256": "b66e3dbfbe78b22ad4c2ecf0617b4f1db9a7570296c17f109511792bfd8bc468"
+    },
+    {
+      "path": "mcp.md",
+      "downloadPath": "skills/playwright/mcp.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/mcp.md",
+      "byteCount": 5118,
+      "sha256": "4d09b3957ddee40ce513745d5d61c3639996c0eacfb699b1e6c37ef73a350e02"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/playwright/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/migration.md",
+      "byteCount": 4731,
+      "sha256": "068b997f3beb3b45fa8232ef96b3cbe01c35065f539fe7aaad0dda00555c425d"
+    },
+    {
+      "path": "network.md",
+      "downloadPath": "skills/playwright/network.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/network.md",
+      "byteCount": 6854,
+      "sha256": "245b4447d9ca4f66ac337364f5bc146bb450811400aba1c4b20b397ebfb7f68f"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/playwright/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/performance.md",
+      "byteCount": 4815,
+      "sha256": "324bece78ebf37de6d2bfd09cab3d95f67319eba98813054cebee973a71e240d"
     },
     {
       "path": "scraping.md",
       "downloadPath": "skills/playwright/scraping.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/scraping.md",
-      "byteCount": 3968,
-      "sha256": "db47f9bf86e933647fc54c1f8d0ec7e0ef590f08a5dfa28e4c54dcecf3ed6c09"
+      "byteCount": 5790,
+      "sha256": "22959500f803ccdbb24a060acd5ec45aaa5bdc8ac43ca1e018e509e7c5e92d99"
     },
     {
       "path": "selectors.md",
       "downloadPath": "skills/playwright/selectors.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/selectors.md",
-      "byteCount": 2384,
-      "sha256": "0b4aae1cdeaf77ea80f0f9a19e6007deb4cab53bb5f066d85fc87e1e11a19003"
+      "byteCount": 6683,
+      "sha256": "ff9ce4a3e2f46be073e68b0cbc0d8dddcc1ddeb7a2ed1332e863acab35c561e9"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/playwright/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/setup.md",
+      "byteCount": 2843,
+      "sha256": "c827d9e6c5de5003456020528fff368017f1dd8f5ba2e1f685a253296cf7a412"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/playwright/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md",
-      "byteCount": 11149,
-      "sha256": "4dd02dd2e07eda28eb41a7f275bbfe8df8426bcf44ca2cd38352e3a8a6325a80"
+      "byteCount": 21439,
+      "sha256": "7fc651f770d1ab18e1b48dac66ac58d456896d455846bb649fc635182aaac6a4"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/playwright/testing.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/testing.md",
-      "byteCount": 4512,
-      "sha256": "62afb90d96e68eec8776dbfc7724a193eeed99d11495f027c7345b6e15254483"
+      "byteCount": 5170,
+      "sha256": "43881fbcb41601556d396ab1accc0217036c5d09d5770d9b4140852d72ce88d2"
+    },
+    {
+      "path": "visual.md",
+      "downloadPath": "skills/playwright/visual.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/visual.md",
+      "byteCount": 5184,
+      "sha256": "3c2770a72c2a22fb08c4a01afc73847e127eced227a782c867067d42d2dc7ce1"
+    },
+    {
+      "path": "waiting.md",
+      "downloadPath": "skills/playwright/waiting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/waiting.md",
+      "byteCount": 6886,
+      "sha256": "31c46870d6aa11d1cdc6a462d753950692ad979fca98273e96c4ade03f50df1d"
     }
   ]
 }
