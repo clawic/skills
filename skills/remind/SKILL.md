@@ -1,7 +1,7 @@
 ---
 name: Remind
 slug: remind
-version: 1.0.3
+version: 1.0.4
 changelog: "Display name shown correctly"
 description: >-
   Reminds the user of commitments they already know — meetings, deadlines, bills,

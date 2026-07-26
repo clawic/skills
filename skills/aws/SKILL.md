@@ -1,7 +1,7 @@
 ---
 name: AWS | Amazon Web Services
 slug: aws
-version: 1.0.5
+version: 1.0.6
 description: >-
   Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront.
   Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied,

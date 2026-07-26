@@ -1,7 +1,7 @@
 ---
 name: Discover
 slug: discover
-version: 1.0.0
+version: 1.0.1
 description: Discover new ideas, sources, opportunities, and angles with durable watchlists, novelty rules, and heartbeat-backed finding logs.
 homepage: https://clawic.com/skills/discover
 changelog: Initial release with discovery watchlists, novelty filters, heartbeat logging, and lightweight workspace routing.

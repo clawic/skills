@@ -1,7 +1,7 @@
 ---
 name: Water Tracker
 slug: water
-version: 1.0.3
+version: 1.0.4
 description: >-
   Tracks daily water intake from casual mentions and sets hydration targets
   from weight, exercise, heat, and health context. Use when the user logs a

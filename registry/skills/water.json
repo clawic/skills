@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "20586d40586dc537eff665572fa81b98676415fd0356a9adf7209983d30352fd",
-  "generatedAt": "2026-07-26T13:16:43.149Z",
-  "sourceRevision": "c6597d400ab2918b26834e21c8d8a6487c2378b6",
-  "manifestSha256": "ed22046efa8ddc5835c7869f25ad054c6cea3157f17094d2a6923f8f50ab34ff",
+  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
+  "generatedAt": "2026-07-26T13:17:12.651Z",
+  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
+  "manifestSha256": "eb1790d29f87003878d45408bfed770fe6763506030ce43da6822376ad13868a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "water",
     "name": "Water Tracker",
     "description": "Tracks daily water intake from casual mentions and sets hydration targets from weight, exercise, heat, and health context. Use when the user logs a drink (\"had a glass\", \"finished my bottle\"), asks how much water they should drink or whether they drink enough, reports thirst, dark urine, dry mouth, cramps, or a headache that could be dehydration, plans fluid or electrolyte replacement for workouts, races, sauna, hiking, flights, or hot weather, or needs rehydration guidance during fever, vomiting, diarrhea, or a hangover, or asks whether tap, bottled, filtered, mineral, or sparkling water is safe or better. Not for meal or calorie logging.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/water",
     "summary": "Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared pr",
     "repositoryPath": "skills/water",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/water/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/_meta.json",
-      "byteCount": 394,
-      "sha256": "edeafd56d431651967432436c169e954996f1933523d9ec273bcdee7ee80ed25"
+      "byteCount": 468,
+      "sha256": "d2ce83d2e4264576332387dbd03c39560b39e5cbd8e91b4004cc61d0dfbe8eb5"
     },
     {
       "path": "conditions.md",
@@ -104,7 +104,7 @@
       "downloadPath": "skills/water/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/water/SKILL.md",
       "byteCount": 15428,
-      "sha256": "80b4565dddc0135e17b323c962757eb822e881b87456db0e04fb4b379b5b3721"
+      "sha256": "c88aedf5b19f539643f8198b654f1a66a48bd421efb7e70470ad2fe31b2cc539"
     }
   ]
 }

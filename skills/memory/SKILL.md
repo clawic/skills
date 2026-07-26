@@ -1,7 +1,7 @@
 ---
 name: Memory
 slug: memory
-version: 1.0.6
+version: 1.0.7
 description: >-
   Remembers, recalls, and organizes durable facts in a categorized markdown store at
   ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "20586d40586dc537eff665572fa81b98676415fd0356a9adf7209983d30352fd",
-  "generatedAt": "2026-07-26T13:16:43.149Z",
-  "sourceRevision": "c6597d400ab2918b26834e21c8d8a6487c2378b6",
-  "manifestSha256": "2c02c98b31a018e2f3404d4242db1dc305201c4c5826c7e92c00532c8f83f867",
+  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
+  "generatedAt": "2026-07-26T13:17:12.651Z",
+  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
+  "manifestSha256": "a16e0f11e56b3756369b1293ea4b45f2e8184fe696adc17bf253b15fd16ff0bc",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "discover",
     "name": "Discover",
     "description": "Discover new ideas, sources, opportunities, and angles with durable watchlists, novelty rules, and heartbeat-backed finding logs.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/discover",
     "summary": "When to Use Use this skill when the user does not just want an answer once. Use it when they want the agent to keep discovering new things that matter: opportunities, risks, angles, operators, jurisdictions, sources, or ",
     "repositoryPath": "skills/discover",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/discover/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/_meta.json",
-      "byteCount": 168,
-      "sha256": "42e2c1c3336c68f12f973e0a3472dfec53066269d970b1a34505a650100d86b2"
+      "byteCount": 244,
+      "sha256": "30eca48ca1d59ac0d360bf5e56ecae3d96b378ec645227cfd03dbb2586fcf7b9"
     },
     {
       "path": "AGENTS.md",
@@ -97,7 +97,7 @@
       "downloadPath": "skills/discover/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/discover/SKILL.md",
       "byteCount": 9583,
-      "sha256": "327b5e3b1d4e4654e8a785b59a4c59d28402691a2c9849d1663cb6964f9b1479"
+      "sha256": "98567cf8a10551006fe7fb2c99beb402d2893fd96d925b7b593fed76f865c127"
     },
     {
       "path": "watchlist-template.md",
