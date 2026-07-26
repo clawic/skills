@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "6a612ef813d2597894160ff4c9e935cbb089018498fe988ac01f4b0db12f056a",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "733cba7d654f9baf99f6f2d943250fd4a471b14956e40bec09a0105e2ff1bbc1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "java",
     "name": "java",
-    "description": "Write robust Java avoiding null traps, equality bugs, and concurrency pitfalls.",
-    "version": "1.0.1",
+    "description": "Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades. Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError, UnsupportedClassVersionError or OutOfMemoryError, when a service deadlocks, hangs, burns CPU, or leaks memory, when equals/hashCode, Optional, generics, streams, or CompletableFuture misbehave, when dates shift or text turns into question marks, when Maven or Gradle resolves the wrong version or a fat jar fails only after packaging, when @Transactional does not roll back or an entity throws LazyInitializationException, when tests silently do not run, or when moving from Java 8 to 17/21+ and javax became jakarta. Also for choosing collections, sizing heap in containers, thread dumps, profiling, JDBC connection pools, HTTP timeouts, and logging setup. Not for Kotlin, Android app development, or JavaScript.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/java",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Nulls, Optional, autoboxing | `nulls.md` | | Collections and iteration traps | `collections.md` | | Generics and type erasure | `generics.md` | | Concurrency and synchr",
+    "summary": "User preferences and memory live in `~/Clawic/data/java/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/java/` or `~/clawic/java/`), move it to `~/Clawic",
     "repositoryPath": "skills/java",
     "manifestPath": "registry/skills/java.json"
   },
@@ -26,71 +26,211 @@
       "path": "_meta.json",
       "downloadPath": "skills/java/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/_meta.json",
-      "byteCount": 236,
-      "sha256": "b15edce580473ea84b8886785fa1a25970d9dd8ede74da5d23aad9eb2c05bfc9"
+      "byteCount": 310,
+      "sha256": "004869158d941ec58b7defe4e3fb7b9bf42f7a6a688faa1a922d4808863eff19"
+    },
+    {
+      "path": "async.md",
+      "downloadPath": "skills/java/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/async.md",
+      "byteCount": 6642,
+      "sha256": "cdec126ae4ef3839853f85019171d18a5c5116380b56934995aaa05a7bde852a"
+    },
+    {
+      "path": "build.md",
+      "downloadPath": "skills/java/build.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/build.md",
+      "byteCount": 7265,
+      "sha256": "fd0eb879c001f7e0515ac93493f323d87b4aa38f9f9aebfaa8facea09a65ed49"
     },
     {
       "path": "classes.md",
       "downloadPath": "skills/java/classes.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/classes.md",
-      "byteCount": 2328,
-      "sha256": "e453c484cc95c93fb0817168bc3ad85c83cbb1fabc0944c1e2196dd6405a1e18"
+      "byteCount": 7266,
+      "sha256": "7502b60f5dc6f6eeb2de1f2475638e100bf264be76fea2e1905d3f59cb87f382"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/java/collections.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/collections.md",
-      "byteCount": 958,
-      "sha256": "13859b00638fae682b2e88285b067c8b7e2753e241dd0fa91cb93f055092619c"
+      "byteCount": 7684,
+      "sha256": "33ce20d83e702607ab50b3c8e1086b83fdfb4ea23cca9d8a1a3e65a36992c4fa"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/java/concurrency.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/concurrency.md",
-      "byteCount": 906,
-      "sha256": "16deeaeaa36f72931b2a3815e202010c36c7fb9816dc34229db728da8337b46f"
+      "byteCount": 8183,
+      "sha256": "6cb5bca8e8337f0664d4fda37e93cf5724bfcc35bc2862369c718fb06749af1d"
+    },
+    {
+      "path": "datetime.md",
+      "downloadPath": "skills/java/datetime.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/datetime.md",
+      "byteCount": 6332,
+      "sha256": "b672068803f971dba82c2bbcebd9967432d6036139d283fcde05633fbced599f"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/java/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/debug.md",
+      "byteCount": 8071,
+      "sha256": "5ff81a3ff9b3a23726cf2e467b1fcfb19307460176f6efa0b21d5f7718a22e66"
+    },
+    {
+      "path": "exceptions.md",
+      "downloadPath": "skills/java/exceptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/exceptions.md",
+      "byteCount": 6129,
+      "sha256": "9c1220bfe7895cd44538f224c60e23b6a9ede6d45b49b18553be8209746aee9e"
     },
     {
       "path": "generics.md",
       "downloadPath": "skills/java/generics.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/generics.md",
-      "byteCount": 490,
-      "sha256": "1bd1887fed560722575086ff7e79d4df413cc2fc4e08167e043e29da8683b396"
+      "byteCount": 4846,
+      "sha256": "caf0dc437e0b9fe957dab9a3e0cc496c3f6cce0c1ffda047946c75417aabd4ed"
+    },
+    {
+      "path": "http.md",
+      "downloadPath": "skills/java/http.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/http.md",
+      "byteCount": 6626,
+      "sha256": "e7b7532e3239c7f37d35c9e4c484dbf1b51b4e1781f4dfa1e06f1b25148306a7"
+    },
+    {
+      "path": "io.md",
+      "downloadPath": "skills/java/io.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/io.md",
+      "byteCount": 6430,
+      "sha256": "ac498ff9cae5ed248fbcb0e62cfed00ca116aeaa33938046f53d0a987625e567"
+    },
+    {
+      "path": "jdbc.md",
+      "downloadPath": "skills/java/jdbc.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/jdbc.md",
+      "byteCount": 6617,
+      "sha256": "22d290da7be2f58f1bf6233dc69a8c724de3134d82941cbab857ab77eeb21080"
     },
     {
       "path": "jvm.md",
       "downloadPath": "skills/java/jvm.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/jvm.md",
-      "byteCount": 1665,
-      "sha256": "e7db91fb3caf0179f7319bd98a3f7838b44388ce06b502ddb4eaa389bb10f52e"
+      "byteCount": 7043,
+      "sha256": "4a2b9c0bcd87aaac05309857cec760983d5737156dedebff324440f3af801893"
+    },
+    {
+      "path": "lambdas.md",
+      "downloadPath": "skills/java/lambdas.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/lambdas.md",
+      "byteCount": 8068,
+      "sha256": "86c2158844a2ec5ba1b5218009d07fade78a1f1c1eee837b15fc3d3a19e90c45"
+    },
+    {
+      "path": "logging.md",
+      "downloadPath": "skills/java/logging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/logging.md",
+      "byteCount": 5398,
+      "sha256": "a69ee062d0ec41ffd162e4d0b51c1c007cbc413d161da00478b10c214da83bde"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/java/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/memory-template.md",
+      "byteCount": 722,
+      "sha256": "6e4ff85c7779d6663f30129adcb908954d9af15c0bf739bc5510851e69c663dc"
+    },
+    {
+      "path": "memory.md",
+      "downloadPath": "skills/java/memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/memory.md",
+      "byteCount": 6674,
+      "sha256": "49ec901d9b63e7e7ff3d545b6ed17b20f1377b47374c3d600b4d1c8a29ec6c2a"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/java/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/migration.md",
+      "byteCount": 6321,
+      "sha256": "6185e9139cec502af3567379fd7123e02d0968e47dff0705411b53e8f7f9d892"
     },
     {
       "path": "nulls.md",
       "downloadPath": "skills/java/nulls.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/nulls.md",
-      "byteCount": 1181,
-      "sha256": "db34a268862b59c6eab74bb79370e0d262cbaebd47d3bcd2bf172b942a5a330a"
+      "byteCount": 5313,
+      "sha256": "eb40ffb60c05ad4c8a88556205f3305b2cd8062b8ebec78e40c983b0581efece"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/java/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/performance.md",
+      "byteCount": 7086,
+      "sha256": "df52309ec394eb7e75e62e0f38ac456cb38e9fd41cf917043623716454d09ad1"
+    },
+    {
+      "path": "reflection.md",
+      "downloadPath": "skills/java/reflection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/reflection.md",
+      "byteCount": 8660,
+      "sha256": "c9dedce4256c60c5a5e55b0cee26e352cda63953f9d8e8b627b0be2319042e62"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/java/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/security.md",
+      "byteCount": 7360,
+      "sha256": "bd95998b7b7867a1bf6ab451dd199a8eb9fba46afb2ea93e34c45400ef4861ce"
+    },
+    {
+      "path": "serialization.md",
+      "downloadPath": "skills/java/serialization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/serialization.md",
+      "byteCount": 6206,
+      "sha256": "85ee02e82a217d1091a3c84881ad173e827d9cb82776c110dc9caf5609174f0c"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/java/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/setup.md",
+      "byteCount": 2911,
+      "sha256": "6af8d18ea3e3497f50d1a065df6c2eca8eac5471916c02c0ff2bb9c6e7ad70a6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/java/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/SKILL.md",
-      "byteCount": 1934,
-      "sha256": "50ba8fa8b7003dbfa46bcf394428ba769f1cb7b96931b5e7da0b17d7166adcd9"
+      "byteCount": 22073,
+      "sha256": "6008a77bec49cca9d22de0ae70562a12a611aff6ee7080e1e7193457eb0642af"
+    },
+    {
+      "path": "spring.md",
+      "downloadPath": "skills/java/spring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/spring.md",
+      "byteCount": 7773,
+      "sha256": "faee8b75b44216cfd075be95b2a098f5284041054677f6f2c9e8fcd107b5b790"
     },
     {
       "path": "streams.md",
       "downloadPath": "skills/java/streams.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/streams.md",
-      "byteCount": 1723,
-      "sha256": "d34f60d1562a8de5a5d99d252fc037dbc2e4a36dcd0210f4a384c1865d5b96ba"
+      "byteCount": 5910,
+      "sha256": "bb678a67a4a1b29f43a4a4b1ec889abf5504a9126589d3afc24fcac6e6deab77"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/java/testing.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/testing.md",
-      "byteCount": 1914,
-      "sha256": "32ee9c9a6ad4c8620d922fe19b94cbd3052df60873d77ecbcdd40c5f1cad8921"
+      "byteCount": 6971,
+      "sha256": "c30f50af525994c288a81c5429d3580672e3b38d0dc7dd01c2085d565709a1e9"
+    },
+    {
+      "path": "text.md",
+      "downloadPath": "skills/java/text.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/java/text.md",
+      "byteCount": 6323,
+      "sha256": "e3bdc3707924b028b63a82e5998e473bd14a6f7536b2d31bf1a4eab58e6cdff0"
     }
   ]
 }
