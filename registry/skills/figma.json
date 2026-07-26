@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "2074c971e20133367c4a6da06b6a0343e13783ad3452324e313bb16c1cd2c988",
+  "repository": {
+    "owner": "clawic",
+    "repo": "skills",
+    "branch": "main",
+    "registryPath": "registry",
+    "skillsPath": "skills"
+  },
+  "skill": {
+    "slug": "figma",
+    "name": "figma",
+    "description": "Builds and debugs Figma files: auto layout, components and variants, variables and modes, libraries, prototypes, and Dev Mode handoff. Use when a frame will not resize, text clips or overflows, a variant set lags, a library update breaks instances, dark mode or theming needs modes instead of duplicated screens, engineers say the UI breaks on resize, icons export blurry, a file opens slowly, an inherited file needs auditing, or work has to be scripted through plugins, the REST API, or the Dev Mode MCP server. Covers component properties, token naming, Code Connect, export densities, FigJam and Slides. Not for piping tokens into platform code (design-tokens), prototyping beyond Figma (prototyping), visual design judgment (design), or the handoff process around the file — spec documents, redlines, review rituals (design-handoff).",
+    "version": "1.0.1",
+    "homepage": "https://clawic.com/skills/figma",
+    "summary": "User preferences and observed context live in `~/Clawic/data/figma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/figma/` or `~/clawic/figma/`), move it",
+    "repositoryPath": "skills/figma",
+    "manifestPath": "registry/skills/figma.json"
+  },
+  "files": [
+    {
+      "path": "_meta.json",
+      "downloadPath": "skills/figma/_meta.json",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/_meta.json",
+      "byteCount": 238,
+      "sha256": "eb1c2c057235dc5ac03cbfc640155e3f5a1df344e2694b56e1be2d6266e1cf78"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/figma/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/accessibility.md",
+      "byteCount": 5070,
+      "sha256": "6c17f122f9d28c0b3d67dc0440b0667d72221e27fb243e2f407434597c519c39"
+    },
+    {
+      "path": "audit.md",
+      "downloadPath": "skills/figma/audit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/audit.md",
+      "byteCount": 5515,
+      "sha256": "56202ff5d144f3e0b6453d911d99ceff5f8d3c40fc94757ef926338a44f031c0"
+    },
+    {
+      "path": "auto-layout.md",
+      "downloadPath": "skills/figma/auto-layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/auto-layout.md",
+      "byteCount": 6981,
+      "sha256": "bfbe8792961e635631032a782e7e1e8f7da2b3593e4b8005fef53154f33b93a5"
+    },
+    {
+      "path": "collaboration.md",
+      "downloadPath": "skills/figma/collaboration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/collaboration.md",
+      "byteCount": 5583,
+      "sha256": "36d73591e3a77a70f4263f85553447e78f0aa694b38e4a734109a611e4199475"
+    },
+    {
+      "path": "components.md",
+      "downloadPath": "skills/figma/components.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/components.md",
+      "byteCount": 7395,
+      "sha256": "a4055d2fa5d54a59d5656de9c2853ba65a02f80aee83bccb41966001bea1adea"
+    },
+    {
+      "path": "dev-mode.md",
+      "downloadPath": "skills/figma/dev-mode.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/dev-mode.md",
+      "byteCount": 5948,
+      "sha256": "f3beb2a36782eeecc8dccfdb257d3ac1217eb1fc0363566bc4f4991abfe91518"
+    },
+    {
+      "path": "export.md",
+      "downloadPath": "skills/figma/export.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/export.md",
+      "byteCount": 5471,
+      "sha256": "5a983510e7b8af9584e5103218bf8468e0e4e181ee5d393de45c15db31bb2f34"
+    },
+    {
+      "path": "libraries.md",
+      "downloadPath": "skills/figma/libraries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/libraries.md",
+      "byteCount": 6070,
+      "sha256": "f1771a5bcdc2ddb213ea0d2d5e758d70c552bde01c027f00f96988e161858689"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/figma/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/memory-template.md",
+      "byteCount": 851,
+      "sha256": "d676ca1bcc7ce2a333170f64ffb864218c6915563984fd44307eb6a3f117fbd6"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/figma/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/mobile.md",
+      "byteCount": 5619,
+      "sha256": "fa94ed1c3c9c4fb5a4256bdac6d7b7ec055ef4e7fbd7d84d8708725a5842bb30"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/figma/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/performance.md",
+      "byteCount": 4518,
+      "sha256": "1d8b4dbb6d01c305ea67b6f9902cfb1de012c497ac7e9653fa9aca137e0c255f"
+    },
+    {
+      "path": "plugins.md",
+      "downloadPath": "skills/figma/plugins.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/plugins.md",
+      "byteCount": 5300,
+      "sha256": "cd38ef3e3580d1e2f1dadb0c2d84f62ba163dbe8309fc445f6be6db4bd573f8d"
+    },
+    {
+      "path": "prototyping.md",
+      "downloadPath": "skills/figma/prototyping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/prototyping.md",
+      "byteCount": 6171,
+      "sha256": "17cb28010d4d31ce1eaf52984e66d5b2390487030a3096c079b63007ac5ac4fc"
+    },
+    {
+      "path": "rest-api.md",
+      "downloadPath": "skills/figma/rest-api.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/rest-api.md",
+      "byteCount": 5484,
+      "sha256": "3e8671223456a25e6fac0a72ba582fb76bebc34b67648bf2c63c272365e1068d"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/figma/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/setup.md",
+      "byteCount": 2662,
+      "sha256": "9aa44cb841adb7abe5543cfb3fc04555009aea72f2765db44f987ebc25f5f583"
+    },
+    {
+      "path": "shortcuts.md",
+      "downloadPath": "skills/figma/shortcuts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/shortcuts.md",
+      "byteCount": 8461,
+      "sha256": "51794638733f3712ac0627e47fbf65da6c00342d7ad5e96dda07cada736f4097"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/figma/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/SKILL.md",
+      "byteCount": 21637,
+      "sha256": "3653b4d659bb798b5348de1ba86aa39f433977f761ab94896102d0b51470c315"
+    },
+    {
+      "path": "surfaces.md",
+      "downloadPath": "skills/figma/surfaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/surfaces.md",
+      "byteCount": 5638,
+      "sha256": "33704b61aa69fa71f2630b021b63285722f6ccb82a00dd0f12da99c02d6d5545"
+    },
+    {
+      "path": "text.md",
+      "downloadPath": "skills/figma/text.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/text.md",
+      "byteCount": 6050,
+      "sha256": "0c8656a2dcc381946a434a9642383beb7dccebb3e3108f91003239aa14e6f8cb"
+    },
+    {
+      "path": "variables.md",
+      "downloadPath": "skills/figma/variables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/variables.md",
+      "byteCount": 6646,
+      "sha256": "e96db4106f8a5f4a12d5ed5b20d80a99ba78d584162339fbe0eb4bdabec15a6f"
+    },
+    {
+      "path": "vectors.md",
+      "downloadPath": "skills/figma/vectors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/figma/vectors.md",
+      "byteCount": 5377,
+      "sha256": "37ba09770704bb79423023784d89e58448865169846469b06b1b3e014424082d"
+    }
+  ]
+}
