@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "730601ccc7f4523b8fd2c2e151a6842ebccd4ea4e3a341aec4bfc2cd13edebd4",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "f76fbd3e6b0cf1f47b9ba162a8f3c4bd7871685f4bdb399266d170746e3b4df1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "php",
     "name": "php",
-    "description": "Write solid PHP avoiding type juggling traps, array quirks, and common security pitfalls.",
-    "version": "1.0.1",
+    "description": "Writes, debugs, and reviews PHP: type juggling, arrays, OOP, Composer, PDO, sessions, PHP-FPM, OPcache, PHP 8 features. Use when PHP returns a blank white page or a 500 with no message, when \"headers already sent\", \"Allowed memory size exhausted\", \"Maximum execution time exceeded\", \"Class not found\" after a Composer install, or an undefined array key warning appears; when `==` compares wrong, `strpos` or `preg_match` returns a falsy match, accents turn into mojibake, `DateTime` shifts by a day or an hour, `json_encode` returns false, PDO refuses to bind a parameter or emulates prepares, sessions serialize parallel AJAX requests, nginx answers 502 or 504 in front of PHP-FPM, OPcache keeps serving old code, or a version upgrade breaks on deprecations. Also for escaping output, hashing passwords, sizing FPM workers, writing PHPUnit tests, and clearing PHPStan errors. Not for framework internals — `laravel` covers Eloquent, queues, and Laravel auth.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/php",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Loose typing, ==, ===, type juggling, strict_types | `types.md` | | Associative arrays, iteration, array functions | `arrays.md` | | Traits, interfaces, visibility, lat",
+    "summary": "User preferences live in `~/Clawic/data/php/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/php/` or `~/clawic/php/`), move it to `~/Clawic/data/php",
     "repositoryPath": "skills/php",
     "manifestPath": "registry/skills/php.json"
   },
@@ -26,64 +26,176 @@
       "path": "_meta.json",
       "downloadPath": "skills/php/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/_meta.json",
-      "byteCount": 234,
-      "sha256": "1ac32f271bf41194b75189cb09cd6ca5892c61a859c9163c384d32667f7805de"
+      "byteCount": 308,
+      "sha256": "0165a9d4e8dbb2dac380eabdee8db464a5c77ac05c0238984ae1abff8add2e92"
     },
     {
       "path": "arrays.md",
       "downloadPath": "skills/php/arrays.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/arrays.md",
-      "byteCount": 624,
-      "sha256": "baa2b248e636be3a830d600b3788b2ba3a821d46ef6606c373228db765eb3e37"
+      "byteCount": 6864,
+      "sha256": "7109038a206959c654dde855b12c2b33f5129782c757cbf9ea52603790a7e325"
+    },
+    {
+      "path": "cli.md",
+      "downloadPath": "skills/php/cli.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/cli.md",
+      "byteCount": 6496,
+      "sha256": "1574cd310ae2a818de8cea30f792967f97a1a2e827291bc68553375c83be5e4a"
+    },
+    {
+      "path": "composer.md",
+      "downloadPath": "skills/php/composer.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/composer.md",
+      "byteCount": 5616,
+      "sha256": "b316a5a42f9b6952e5a6372099579578d9c6c9c92c7cadc2aa5a96053774c1af"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/php/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/concurrency.md",
+      "byteCount": 6795,
+      "sha256": "23c4666a1d8d4583458f7f453c2fc60e9fb7c5df232ac0f6ee502e3eccf5446f"
+    },
+    {
+      "path": "database.md",
+      "downloadPath": "skills/php/database.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/database.md",
+      "byteCount": 7855,
+      "sha256": "38f669b881cb9e1b180c5639645e7ff42bb56a5853bfdb01802ba8cd52a37bad"
+    },
+    {
+      "path": "datetime.md",
+      "downloadPath": "skills/php/datetime.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/datetime.md",
+      "byteCount": 6254,
+      "sha256": "b3929137a93707a3fea5742b2343dcb01273182a6549b527bb5c27465c047743"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/php/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/debugging.md",
+      "byteCount": 8732,
+      "sha256": "7d2ecdad502380f67ddd283b9532cb16e571ff64cdd0213564a53d1437ca530f"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/php/errors.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/errors.md",
-      "byteCount": 461,
-      "sha256": "614d251252871b8ae2c4d8edcbade4dfa3138e0163684b81b02f8a126002b6b1"
+      "byteCount": 6740,
+      "sha256": "68c88e822d1ec94bef15178dcf2a3f8d07c512183e69a7b754214fa51a51cd0e"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/php/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/files.md",
+      "byteCount": 6890,
+      "sha256": "643fa0e5c1d7b3bb90df76a36047921eb8d9335c040fe56934c21743c86157ce"
+    },
+    {
+      "path": "fpm.md",
+      "downloadPath": "skills/php/fpm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/fpm.md",
+      "byteCount": 6889,
+      "sha256": "49265c955a560dbfe0221b909041f40f5dccff2ec6234d30d52996d404a28454"
+    },
+    {
+      "path": "http.md",
+      "downloadPath": "skills/php/http.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/http.md",
+      "byteCount": 7342,
+      "sha256": "ad5ce6cc37219ef9c4c70589bb9a2f0c5b877c60b188e50028ec662d232828eb"
+    },
+    {
+      "path": "json.md",
+      "downloadPath": "skills/php/json.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/json.md",
+      "byteCount": 5372,
+      "sha256": "d9095904320280112d62c5c160b83b69cb18289398d82ddbb28bc57da6ac62ea"
     },
     {
       "path": "modern.md",
       "downloadPath": "skills/php/modern.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/modern.md",
-      "byteCount": 575,
-      "sha256": "274153a6cc802a97663b7fce1a94a79b30f3d85f4ab3f90be44062e10624a24c"
+      "byteCount": 6689,
+      "sha256": "bf8ce8f1cb193a05a036676805397e14278e163b4eb91719ed99022d361b922e"
     },
     {
       "path": "oop.md",
       "downloadPath": "skills/php/oop.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/oop.md",
-      "byteCount": 613,
-      "sha256": "55a9f684236d753afda063ee327d721f091468ff11dee7f480339905d11cb805"
+      "byteCount": 7676,
+      "sha256": "521389ce76fece6fc0caeaa78f5d78d0b623ed61f88d2d9403f2638ae50a2ec7"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/php/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/performance.md",
+      "byteCount": 6675,
+      "sha256": "4ece1319abcdd6392d4aa331ce70872e3a63de66a21732e18c853e20a7d2e676"
+    },
+    {
+      "path": "php-ini.md",
+      "downloadPath": "skills/php/php-ini.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/php-ini.md",
+      "byteCount": 6045,
+      "sha256": "a07883562a496f0bc858c7264320c20f54cdbf3deade33f6e32225bfdd67701d"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/php/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/security.md",
-      "byteCount": 628,
-      "sha256": "ed236d4dffbe96303aab2071f6dc19b63c0e85ce0c17510063bd25b8145f7f83"
+      "byteCount": 9321,
+      "sha256": "ea483e39ebce30ea8d67a3ee83d0a2bde81bcaad2440c814b5f684df83e460fb"
+    },
+    {
+      "path": "sessions.md",
+      "downloadPath": "skills/php/sessions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/sessions.md",
+      "byteCount": 6068,
+      "sha256": "018e80d0e7bf3c0c14bc9b6e9d66268fc8a5821e33e1d12bf1656c14ee21de4f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/php/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/SKILL.md",
-      "byteCount": 1901,
-      "sha256": "18f8d7c99b8ceaec714a4e4931a328f46a5b4a046e43ab27f7ab269c8da17635"
+      "byteCount": 20444,
+      "sha256": "8457e23f6dbb5aea7999315b5ae564216ba9e520fb3d55c1cb68c362a871fdbb"
+    },
+    {
+      "path": "static-analysis.md",
+      "downloadPath": "skills/php/static-analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/static-analysis.md",
+      "byteCount": 5552,
+      "sha256": "ca8222294de1fe731b68ebd2a0669538262f9619f3e53ccefa30dc97c5246538"
     },
     {
       "path": "strings.md",
       "downloadPath": "skills/php/strings.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/strings.md",
-      "byteCount": 550,
-      "sha256": "33d8ce6ac1779fef5fa2e941ac0f7824ace226693575b0b6bba9d140a18101f0"
+      "byteCount": 7640,
+      "sha256": "a237d23a2a5341be542668541d8b6ebc31ed0a255ad2f07ce0bead064ac6bc81"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/php/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/testing.md",
+      "byteCount": 6307,
+      "sha256": "762c3e4bb43d2dcc908e4786ab64e1c35e32378f63121d76cb874b71bdb9a2a0"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/php/types.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/types.md",
-      "byteCount": 498,
-      "sha256": "6eacdbd68a81373b2c8a3699036d9329dba7117df60b168b7538076f8d6e85ca"
+      "byteCount": 6156,
+      "sha256": "d91fa2f6b196760fd543787d9d216e17845e2e9f6663bc14c6233b1b5afb7dfe"
+    },
+    {
+      "path": "versions.md",
+      "downloadPath": "skills/php/versions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/php/versions.md",
+      "byteCount": 4989,
+      "sha256": "5babcd547741f7716894a4a2aacc3168db95b99d82d7e6b9b305db0ae723b0bd"
     }
   ]
 }
