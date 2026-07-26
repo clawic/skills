@@ -1,5 +1,7 @@
 # Resources — Requests, Limits, QoS, and Throttling
 
+**Before sizing anything, read `## Workloads` in `~/Clawic/data/k8s/memory.md`** (or the file its `## Boxes` line names). A peak already measured over a full traffic cycle beats anything you can infer in a session, and the row carries the date it was taken.
+
 Requests buy you a place on a node. Limits are what the kernel enforces on you. Confusing the two produces both halves of the classic pair: a cluster that is 100% "full" at 15% utilization, and nodes that OOM-kill innocent pods.
 
 ## What Each Field Actually Does
@@ -84,3 +86,5 @@ kubectl describe nodes | grep -A5 "Allocated resources"
 ```
 
 Compare cluster-wide `sum(requests)` against `sum(allocatable)`: below ~50% you are paying for air; above ~85% a single node failure has nowhere to reschedule (`production.md`).
+
+Write every number this produced into the workload's row in `## Workloads` in `~/Clawic/data/k8s/memory.md` — observed peak memory with the date it was measured, p90 CPU, and the quota ceiling the namespace enforces (`memory-template.md` for the columns). Observing a full traffic cycle costs a day; re-observing it next quarter costs another one.

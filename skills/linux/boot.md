@@ -68,7 +68,7 @@ chroot /mnt /bin/bash
 - `journalctl -b -1 -p err --no-pager` — errors from the boot that failed, which only exists if the journal is persistent (`mkdir -p /var/log/journal`). Do this once on every host you care about, before the incident.
 - `systemd-analyze blame` (per-unit time) and `systemd-analyze critical-chain` (the actual serial path) — a 90-second boot is almost always one unit waiting for a timeout, usually a network wait or a missing mount.
 - SELinux hosts restored from backup or repaired from a live image often have wrong labels everywhere: `touch /.autorelabel && reboot` relabels the whole filesystem once (→ `permissions.md`).
-- Record what fixed it in the host's own documentation. Boot recovery is the work most likely to be repeated by someone with no context at 3am.
+- **Write the recovery down while it is fresh**: the sequence that worked goes to `~/Clawic/data/linux/artifacts/runbook-<host>-boot.md` with its `## Boxes` line in `memory.md`, and the incident (symptom, root cause, fix, time to resolve) to `incidents/<year>.md`. Boot recovery is the work most likely to be repeated by someone with no context at 3am (`memory-template.md`).
 
 ## Prevention That Costs Nothing
 

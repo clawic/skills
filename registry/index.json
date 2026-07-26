@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -844,10 +844,10 @@
     {
       "slug": "azure",
       "name": "Azure",
-      "description": "Deploy, monitor, and manage Azure services with battle-tested patterns.",
-      "version": "1.0.0",
+      "description": "Architects, debugs, secures, and cost-optimizes Azure — VMs, App Service, Functions, AKS, Azure SQL, Cosmos DB, Entra ID, VNets, Storage. Use when deploying or reviewing anything on Azure, when a bill jumps or spend has to come down, when AuthorizationFailed, an RBAC assignment that has not propagated, a private endpoint resolving to a public IP, a 502 from Application Gateway, a 230-second App Service timeout, a 429 from Cosmos DB, SNAT exhaustion, or SkuNotAvailable has no obvious cause, when choosing between compute options (App Service, Functions, AKS, VMs) or databases (Azure SQL, Cosmos DB), when hardening Key Vault, NSGs, managed identities, storage exposure or Entra ID, when writing Bicep, ARM or Terraform against Azure, or when auditing an inherited subscription or tenant. Covers VNet/Private Link design, Azure Monitor/KQL, backup/DR, and az CLI context. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or SQL query tuning (`sql`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/azure",
-      "summary": "Azure Production Rules Cost Traps - Stopped VMs still pay for attached disks and public IPs — deallocate fully with `az vm deallocate` not just stop from portal - Premium SSD default on VM creation — switch to Standard S",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/azure/config.yaml` (what the user declared) and `~/Clawic/data/azure/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
       "repositoryPath": "skills/azure",
       "manifestPath": "registry/skills/azure.json"
     },
@@ -1844,10 +1844,10 @@
     {
       "slug": "clients",
       "name": "Clients",
-      "description": "Build a personal client system for tracking relationships, projects, documents, and history.",
-      "version": "1.0.0",
+      "description": "Manages client relationships end to end for freelancers, consultants, and agencies: qualifying leads, scoping, onboarding, scope creep, getting paid. Use when a prospect enquires and the call is whether to take them, when a proposal or SOW has to be scoped and priced, when onboarding needs access, stakeholders and approvals, when the client keeps adding \"one small thing\", when an invoice is late and the chase has to escalate, when a client goes quiet or the relationship is decaying, when rates have to go up on an existing client, when an engagement is renewing, expanding, or ending, and when a client has to be fired or a hard conversation drafted. Covers retainers versus project work, change orders, procurement, handover, and referrals. Not for drafting the contract itself (`contract`), issuing invoices (`invoice`), filing received invoices (`invoices`), a personal contact book (`people`), running an agency as a business (`agency`), or platform tactics on Upwork (`upwork`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/clients",
-      "summary": "Core Behavior - User mentions client → offer to create/update profile - User needs context → surface relevant history - User shares document → help associate to client - Create `~/Clawic/data/clients/` as workspace File ",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/clients/config.yaml` (what the user declared) and `~/Clawic/data/clients/memory.md` (what you observed, plus its `## Boxes` index and its `## Due` table). Open",
       "repositoryPath": "skills/clients",
       "manifestPath": "registry/skills/clients.json"
     },
@@ -2344,10 +2344,10 @@
     {
       "slug": "crm",
       "name": "CRM",
-      "description": "Guide users building a personal CRM from simple files to structured database.",
-      "version": "1.0.0",
+      "description": "Runs a CRM: contacts, companies, deals, pipeline stages, follow-ups, and the data hygiene that keeps it usable. Use when setting up, rescuing, or operating a CRM (personal, freelance, sales, donor, or job-search); when the pipeline needs review, a deal has gone quiet, a forecast has to be defended, or who has not been contacted in months; when contacts are duplicated, bouncing, or out of date; when importing/exporting a CSV of leads, or migrating between plain files, Notion, HubSpot, or Salesforce; when choosing which CRM to use, or why nobody updates the current one; when defining stages, fields, tags, lead scoring, or win/loss reasons; when logging a call or email for later; and when a deletion, unsubscribe, or do-not-contact request has to be honored. Not for address-book upkeep and birthdays (`people`), delivering the client work itself (`clients`), outreach campaigns (`outreach`), sourcing candidates (`recruiter`), or support tickets (`customer-support`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/crm",
-      "summary": "First Interaction - Ask what they're tracking: clients, leads, investors, job contacts, networking — context shapes schema - Ask their technical comfort: spreadsheets, JSON, databases — determines starting format - Creat",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/crm/config.yaml` (what the user declared) and `~/Clawic/data/crm/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
       "repositoryPath": "skills/crm",
       "manifestPath": "registry/skills/crm.json"
     },
@@ -2944,10 +2944,10 @@
     {
       "slug": "docker",
       "name": "Docker",
-      "description": "Builds, debugs, and hardens Docker containers, images, and Compose stacks. Use when writing Dockerfiles or compose files, when a container crashes, restart-loops, gets OOM-killed, cannot reach the network, or fills the disk, when builds are slow or fail only in CI, when choosing base images or pinning, or when preparing containers and hosts for production.",
-      "version": "1.0.8",
+      "description": "Builds, debugs, hardens, and ships Docker containers, images, and Compose stacks. Use when writing or reviewing a Dockerfile, a compose file, or a CI build step; when a container exits instantly, restart-loops, is OOM-killed, hangs on stop, or exits 137/139/127; when a published port is unreachable, containers cannot resolve each other, or requests hang behind a VPN; when the disk fills and `/var/lib/docker` will not prune; when a build is slow, the cache never hits, or fails only in CI; when `exec format error` or a musl-versus-glibc break is the problem; when choosing a base image or a multi-stage layout; when a registry login or pull rate limit fails; when a secret must stay out of image history; and when volumes need backup, restore or a permission fix. Covers Compose traps and Desktop/colima/OrbStack/Podman differences. Not for Kubernetes manifests or cluster scheduling (`k8s`).",
+      "version": "1.0.9",
       "homepage": "https://clawic.com/skills/docker",
-      "summary": "User preferences and memory live in `~/Clawic/data/docker/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/docker/config.yaml` (what the user declared) and `~/Clawic/data/docker/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/docker",
       "manifestPath": "registry/skills/docker.json"
     },
@@ -3474,10 +3474,10 @@
     {
       "slug": "expenses",
       "name": "Expenses",
-      "description": "Build a personal expense tracking system for daily spending, shared costs, business expenses, and project budgets.",
-      "version": "1.0.0",
+      "description": "Logs, splits, categorizes and reports spending — daily expenses, shared costs, reimbursements, receipts, project and trip budgets. Use when the user paid for something and wants it recorded, when a bill has to be split and someone told what they owe, when a group trip or shared flat needs settling up, when a client owes money back and the claim has to be assembled, when they ask where their money went or why a category jumped, when a renovation, wedding or trip budget needs a remaining number, when something was paid in another currency, when a refund, deposit or duplicate charge has to be booked, or when the log no longer matches the card statement. Not for net worth or debt planning (`personal-finance-tracker`), zero-based budgeting (`zero-based-budgeting`), subscription inventories (`subscriptions`), issuing invoices (`invoice`), OCR archiving of supplier invoices (`invoices`), payment software (`billing`), or bookkeeping (`accountant`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/expenses",
-      "summary": "Core Behavior - User mentions spending money → offer to log expense - Different contexts need different tracking → adapt to their use case - Surface patterns when asked → where is money going? - Create `~/Clawic/data/exp",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/expenses/config.yaml` (what the user declared) and `~/Clawic/data/expenses/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
       "repositoryPath": "skills/expenses",
       "manifestPath": "registry/skills/expenses.json"
     },
@@ -3564,10 +3564,10 @@
     {
       "slug": "fastmail-api",
       "name": "Fastmail API",
-      "description": "Manage Fastmail mail, mailbox, identity, contact, and calendar workflows through JMAP API calls with safe batching and token hygiene.",
-      "version": "1.0.0",
+      "description": "Drives the Fastmail JMAP API for mail, search, bulk triage, sending, masked email, contacts, and calendars. Use when the user mentions Fastmail, JMAP, api.fastmail.com, or a Fastmail API token; when a JMAP call returns 401, 403, `unknownCapability`, `invalidResultReference`, `stateMismatch`, or a `notCreated`/`notUpdated`/`notDestroyed` map; when thousands of messages have to be searched, archived, moved, flagged, or deleted without touching the wrong mailbox; when a draft has to be sent from an alias, identity, or custom domain; when a masked email address has to be created, disabled, or audited; when contacts or calendar events are read or written through JMAP; when an incremental sync or push subscription has to keep a local mirror current; or when a mailbox is being migrated in or out. Not for IMAP clients (`imap`), SMTP delivery (`smtp`), inbox triage as a habit (`inbox`, `email-management`), or Apple Mail on macOS (`apple-mail-macos`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/fastmail-api",
-      "summary": "Fastmail API Operations Setup On first use, read `setup.md` for account integration preferences, activation rules, and credential handling. When to Use User needs to automate Fastmail through API calls: mailbox managemen",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/fastmail-api/config.yaml` (what the user declared) and `~/Clawic/data/fastmail-api/memory.md` (what you observed — its `## Boxes` index, its `## Due` table, th",
       "repositoryPath": "skills/fastmail-api",
       "manifestPath": "registry/skills/fastmail-api.json"
     },
@@ -3764,10 +3764,10 @@
     {
       "slug": "flight",
       "name": "Flight",
-      "description": "Search, compare, book, and manage flights with price tracking, multi-platform comparison, and loyalty optimization.",
-      "version": "1.0.1",
+      "description": "Searches, compares, books, and fixes flights — fares and fare rules, connections, baggage, seats, miles, delays, and passenger rights. Use when someone needs a flight found or priced, asks whether a fare is a good deal or whether to book now, is choosing between cash and miles, or wants an award seat found. Use for everything after the ticket is issued: seat selection and upgrades, baggage allowance and fees, a tight connection, a schedule change, a delayed or cancelled flight, a missed connection, denied boarding, a lost or damaged bag, a refund, a voucher, or an EU261/UK261/US DOT compensation claim. Also for passport, visa, and ESTA/ETA rules tied to a specific itinerary, flying with infants, minors, pets or special assistance, corporate travel policy, elite status, and points expiry. Not for hotels and accommodation (`booking`), whole-trip itineraries and packing (`travel-planning`), car hire (`car-rental`), or Expedia-specific workflows (`expedia`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/flight",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Search, compare, flexible dates | `search.md` | | Booking, rebooking, disruptions | `booking.md` | | Price alerts, tracking, predictions | `tracking.md` | | Miles, poin",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/flight/config.yaml` (what the user declared) and `~/Clawic/data/flight/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/flight",
       "manifestPath": "registry/skills/flight.json"
     },
@@ -4024,10 +4024,10 @@
     {
       "slug": "gcp",
       "name": "Google Cloud",
-      "description": "Deploy, monitor, and manage GCP services with battle-tested patterns.",
-      "version": "1.0.0",
+      "description": "Architects, debugs, secures, and cost-optimizes Google Cloud — Cloud Run, GKE, Compute Engine, BigQuery, Cloud SQL, IAM, VPC. Use when deploying or reviewing anything on GCP, when a bill jumps or BigQuery scan cost has to come down, when a 403 PERMISSION_DENIED, a SERVICE_DISABLED, a RESOURCE_EXHAUSTED quota error, a 502/503/504, or an unreachable Cloud SQL instance has no obvious cause, when choosing between compute (Cloud Run, GKE, Cloud Functions) or databases (Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable), when hardening service accounts, org policies, firewall rules, public buckets, or secrets, when writing Terraform against the google provider, or when auditing an inherited project. Covers VPC/subnet design, Private Google Access, Vertex AI/GPU quota, Pub/Sub/Dataflow, backups/DR, and gcloud. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or PostgreSQL tuning inside Cloud SQL (`pg`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/gcp",
-      "summary": "Google Cloud Production Rules Cost Traps - Stopped Compute Engine VMs still pay for persistent disks and static IPs — delete disks or use snapshots for long-term storage - Cloud NAT charges per VM and per GB processed — ",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/gcp/config.yaml` (what the user declared) and `~/Clawic/data/gcp/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
       "repositoryPath": "skills/gcp",
       "manifestPath": "registry/skills/gcp.json"
     },
@@ -4552,6 +4552,16 @@
       "manifestPath": "registry/skills/hermes-agent.json"
     },
     {
+      "slug": "hetzner",
+      "name": "Hetzner",
+      "description": "Runs Hetzner Cloud and Hetzner dedicated servers end to end: sizing, private networks, firewalls, volumes, backups, and the bill. Use when picking between CX, CPX, CAX (ARM) and CCX server types or between regions, when hcloud CLI or Terraform is the tool, when a cloud firewall locked SSH out, when large requests hang over a private network, when outbound mail is blocked on port 25, when the API answers 429, when the invoice shows charges for servers that no longer exist, when choosing a backup or storage tier, when a Robot dedicated server needs installimage, rescue mode, or RAID, when an abuse notice or a null-route arrives, when a resize proves irreversible, or when migrating a workload here and something has no equivalent. Covers EU data residency, VAT, and k3s. Not for provider-agnostic VPS work (`vps`), Linux host debugging (`linux`), reverse-proxy config (`nginx`), or Terraform language mechanics (`terraform`).",
+      "version": "1.0.1",
+      "homepage": "https://clawic.com/skills/hetzner",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/hetzner/config.yaml` (what the user declared) and `~/Clawic/data/hetzner/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
+      "repositoryPath": "skills/hetzner",
+      "manifestPath": "registry/skills/hetzner.json"
+    },
+    {
       "slug": "hindi",
       "name": "Hindi",
       "description": "Write Hindi that sounds human. Not formal, not robotic, not AI-generated.",
@@ -5044,10 +5054,10 @@
     {
       "slug": "invoices",
       "name": "Invoices",
-      "description": "Capture, extract, and organize received invoices with automatic OCR, provider detection, and searchable archive.",
-      "version": "1.0.1",
+      "description": "Files, checks, and audits the invoices you receive: OCR and e-invoice XML, duplicate and fraud checks, VAT deduction, and a searchable archive. Use when an invoice, bill, or receipt arrives as a PDF, photo, email attachment, or portal download and has to be filed; when asked where an old invoice is, or what was spent with a supplier last quarter; when preparing a VAT return or an export for an accountant; when an invoice looks wrong, duplicated, or larger than usual; when a supplier's bank details changed on the document; when a recurring invoice never arrived; and when a credit note, reverse charge, import VAT, or a foreign currency has to be booked correctly. Covers Factur-X/ZUGFeRD, XRechnung, Peppol, supplier normalization, and retention mandates. Not for issuing invoices to your own clients (`invoice`), tracking personal spending (`expenses`), chasing a client who owes you money (`clients`), or building a billing system (`billing`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/invoices",
-      "summary": "Trigger Use when user receives invoices (email, photo, PDF) and wants them organized automatically. **Key difference:** This skill MANAGES received invoices. The `invoice` skill CREATES invoices to send. --- Storage ``` ",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/invoices/config.yaml` (what the user declared) and `~/Clawic/data/invoices/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
       "repositoryPath": "skills/invoices",
       "manifestPath": "registry/skills/invoices.json"
     },
@@ -5224,10 +5234,10 @@
     {
       "slug": "k8s",
       "name": "Kubernetes",
-      "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, or when locking down RBAC, NetworkPolicy, Pod Security and Secrets. Covers kubectl triage, StatefulSets and PVCs, Jobs and CronJobs, autoscaling, admission webhooks, node drains and cluster upgrades. Not for building container images — that is `docker`.",
-      "version": "1.0.3",
+      "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, when locking down RBAC, NetworkPolicy, Pod Security and Secrets, when the API server throttles or an admission webhook blocks every create, when a GPU pod never schedules, when a mesh sidecar breaks a Job, or when planning a cluster upgrade, a backup, or a restore. Covers kubectl triage, StatefulSets, Jobs and CronJobs, autoscaling, operators, node drains and DaemonSet agents. Not for building container images — that is `docker`.",
+      "version": "1.0.4",
       "homepage": "https://clawic.com/skills/k8s",
-      "summary": "User preferences and memory live in `~/Clawic/data/k8s/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/da",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/k8s/config.yaml` (what the user declared) and `~/Clawic/data/k8s/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
       "repositoryPath": "skills/k8s",
       "manifestPath": "registry/skills/k8s.json"
     },
@@ -5424,10 +5434,10 @@
     {
       "slug": "linux",
       "name": "Linux",
-      "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
-      "version": "1.0.4",
+      "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Also for setting up a fresh server, deciding what to alert on, backups whose restore has never been tested, a host that may be compromised, and desktop or laptop trouble — GPU drivers, Wayland, suspend, audio, Wi-Fi. Covers Debian/Ubuntu, RHEL/Fedora, Arch, Alpine, SUSE and WSL. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
+      "version": "1.0.5",
       "homepage": "https://clawic.com/skills/linux",
-      "summary": "User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Cla",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/linux/config.yaml` (what the user declared) and `~/Clawic/data/linux/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
       "repositoryPath": "skills/linux",
       "manifestPath": "registry/skills/linux.json"
     },
@@ -6044,10 +6054,10 @@
     {
       "slug": "money",
       "name": "Money",
-      "description": "Personal finance guidance with practical rules for saving, investing, and avoiding common traps.",
-      "version": "1.0.0",
+      "description": "Decides where money goes next: which debt to clear first, how big the emergency fund must be, what to save, and whether a purchase is affordable. Use when the question is \"should I pay this off or invest it\", \"how much do I need saved\", \"can I afford this\", \"rent or buy\", \"am I on track to stop working\", or \"where does my money even go\"; when a raise, bonus, inheritance, equity vest or business sale lands and nobody has decided what to do with it; when a card is at 20% and only minimums are going out; when a job ends, a diagnosis arrives, a marriage ends, or income suddenly swings; when a credit score drops or a loan is refused; or when judging a pitch, an adviser's fee, or a \"guaranteed\" return. Covers savings rate, order of operations, real-versus-nominal maths, and fee drag. Not for picking funds or brokers (`invest`), building a tracker or importing statements (`personal-finance-tracker`), a recurring-payment list (`subscriptions`), or company finance (`cfo`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/money",
-      "summary": "Personal Finance Rules Before Any Advice - Ask about existing debts, income stability, and country of residence — generic advice without context is dangerous - High-interest debt (credit cards, payday loans) must be paid",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/money/config.yaml` (what the user declared) and `~/Clawic/data/money/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
       "repositoryPath": "skills/money",
       "manifestPath": "registry/skills/money.json"
     },
@@ -6374,10 +6384,10 @@
     {
       "slug": "notion-api-integration",
       "name": "Notion API Integration",
-      "description": "Complete Notion API for databases, pages, blocks, users, search, comments, and property types with pagination and error handling.",
-      "version": "1.0.2",
+      "description": "Builds and debugs Notion API integrations: data sources, pages, blocks, properties, filters, files, webhooks, bulk imports. Use when calling api.notion.com from code, curl, or an SDK, when a request returns 404 on an object that exists, a 400 validation_error, a 401, or a 429, when a database query returns the wrong rows or none at all, when results stop at 100, when a relation or rollup comes back with only part of its entries, when property names or select options do not match, when Notion-Version has to be bumped and database_id becomes data_source_id, when setting up an internal integration token or an OAuth flow, when importing a CSV or another tool's data into a workspace, exporting it, backfilling a property across thousands of pages, syncing Notion with an external system by webhook or polling, or uploading and attaching files. Not for calendar and rescheduling workflows (`notion-calendar`), writing notes across apps (`notes`), or generic REST and OAuth mechanics with no Notion specifics (`api`).",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/notion-api-integration",
-      "summary": "Notion API Integration Complete Notion API reference. See auxiliary files for detailed operations. Quick Start ```bash curl 'https://api.notion.com/v1/users/me' \\ -H \"Authorization: Bearer $NOTION_API_KEY\" \\ -H \"Notion-V",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/notion-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/notion-api-integration/memory.md` (what you observed, plus its `## Boxes` index",
       "repositoryPath": "skills/notion-api-integration",
       "manifestPath": "registry/skills/notion-api-integration.json"
     },
@@ -6764,10 +6774,10 @@
     {
       "slug": "people",
       "name": "Contacts",
-      "description": "Build a personal contact system with details, interactions, birthdays, and smart reminders.",
-      "version": "1.0.1",
+      "description": "Maintains a personal address book: who each person is, what matters to them, when they were last in touch, and which birthdays are coming up. Use when someone is mentioned by name with context worth keeping — met, called, or ran into them; when a birthday, anniversary, or death anniversary is approaching; when the question is what do I know about X, who do I know at Acme, who lives in Berlin, or who have I not spoken to in months; before a meeting, to surface what happened last time; when reconnecting after a long silence, or drafting a congratulations, a condolence, or a message about a job change or a bereavement; when making or chasing an introduction; when duplicates, name changes, or an export have to be merged into one address book; and when deciding what should never be written down about someone else. Not for sales pipelines and forecasts (`crm`), friendship depth (`friends`), family logistics (`family`), gift ideas (`gifts`), or reminders unrelated to people (`remind`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/people",
-      "summary": "Core Behavior - User mentions a person → check if contact exists, offer to create/update - Calendar event detected with contact → surface relevant notes before meeting - Birthday approaching → remind with context about t",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/people/config.yaml` (what the user declared) and `~/Clawic/data/people/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/people",
       "manifestPath": "registry/skills/people.json"
     },
@@ -8024,10 +8034,10 @@
     {
       "slug": "salesforce-api-integration",
       "name": "Salesforce API Integration",
-      "description": "Complete Salesforce REST API for SOQL queries, CRUD operations, Bulk API, Composite API, authentication, and standard objects with error handling.",
-      "version": "1.0.1",
+      "description": "Calls the Salesforce REST, Bulk, Composite, and Metadata APIs: SOQL, record CRUD, upserts, OAuth, sync, and error handling. Use when querying, loading, exporting or syncing Salesforce data, when writing SOQL or SOSL against Account, Contact, Opportunity, Lead, Case or a `__c` custom object, when a call returns INVALID_SESSION_ID, MALFORMED_QUERY, INVALID_FIELD, REQUEST_LIMIT_EXCEEDED, UNABLE_TO_LOCK_ROW, or DUPLICATES_DETECTED, when importing tens of thousands of records or migrating from another CRM, when setting up server-to-server auth with a Connected App, JWT bearer or refresh token, when keeping an external database in step through Change Data Capture or Platform Events, or when calling a custom Apex REST endpoint or invoking a Flow. Covers sandboxes, API versioning, external IDs, and field-level security. Not for designing a personal CRM (`crm`), generic third-party API mechanics (`api`), or authoring Apex code.",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/salesforce-api-integration",
-      "summary": "Salesforce API Integration Complete Salesforce REST API reference. See auxiliary files for detailed operations. Quick Start ```bash curl \"$SF_INSTANCE_URL/services/data/v59.0/sobjects/\" \\ -H \"Authorization: Bearer $SF_AC",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/salesforce-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/salesforce-api-integration/memory.md` (what you observed, plus its `## Boxe",
       "repositoryPath": "skills/salesforce-api-integration",
       "manifestPath": "registry/skills/salesforce-api-integration.json"
     },
@@ -8334,10 +8344,10 @@
     {
       "slug": "server",
       "name": "Server",
-      "description": "Configure, deploy, and troubleshoot web servers, application servers, and containerized services.",
-      "version": "1.0.0",
+      "description": "Runs web and application services on a host: process supervision, ports and sockets, worker sizing, restarting without dropping requests. Use when a service will not start, dies after logout, restart-loops, or vanishes on reboot; when a port is already in use, or it answers on localhost but refuses connections from outside; when a request returns 502, 504, 413, 499, or a redirect loop between proxy and app; when wiring nginx, Caddy, Traefik, HAProxy, systemd, PM2, or php-fpm; when sizing workers and threads, tuning keepalive and timeouts, or a box runs out of file descriptors or memory under load; when shipping a release and rolling it back; when serving large uploads, WebSockets, or gRPC through a proxy; and when self-hosting apps or media servers. Not for nginx directive tuning (`nginx`), certificate issuance (`ssl`), host OS failures (`linux`), image building (`docker`), Kubernetes (`k8s`), CI/CD pipelines (`deploy`), or provisioning the machine (`vps`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/server",
-      "summary": "Scope This skill covers the **software layer** — what runs inside a machine. For infrastructure (provisioning VMs, SSH hardening, firewalls, backups), use the `vps` skill. When to Use - Configuring nginx, Caddy, or Apach",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/server/config.yaml` (what the user declared) and `~/Clawic/data/server/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/server",
       "manifestPath": "registry/skills/server.json"
     },
@@ -8864,10 +8874,10 @@
     {
       "slug": "stripe-api-integration",
       "name": "Stripe API Integration",
-      "description": "Complete Stripe API integration for payments, subscriptions, checkout, invoices, webhooks, Connect, Issuing, Terminal, and Treasury.",
-      "version": "1.0.2",
+      "description": "Builds and debugs Stripe integrations: payments, subscriptions, Checkout, invoices, webhooks, Connect, disputes, tax. Use when a charge, refund, payout or subscription behaves wrong, when a webhook never arrives or its signature fails, when a card is declined or stuck on 3D Secure, when a customer was billed twice or the amount came out 100x off, when proration, trials, dunning or a plan change has to be exactly right, when splitting money across a marketplace with Connect, when disputes, chargebacks or fraud rules need work, when the payout does not match the bank, or when moving from test mode to live. Covers Payment Intents, Checkout Sessions, Payment Links, the Billing Portal, metered and tiered pricing, Stripe Tax, Radar, test clocks, idempotency, API versioning, and reconciliation. Not for choosing which payment provider to use (`payments`), PayPal integrations (`paypal`), App Store and Play Store purchases (`in-app-purchases`), or tracking the subscriptions you pay for as a consumer (`subscriptions`).",
+      "version": "1.0.3",
       "homepage": "https://clawic.com/skills/stripe-api-integration",
-      "summary": "Stripe API Integration Complete Stripe API reference. See auxiliary files for detailed operations. Quick Start ```bash curl https://api.stripe.com/v1/balance -u \"$STRIPE_SECRET_KEY:\" ``` Setup On first use, read `setup.m",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/stripe-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/stripe-api-integration/memory.md` (what you observed, plus its `## Boxes` index",
       "repositoryPath": "skills/stripe-api-integration",
       "manifestPath": "registry/skills/stripe-api-integration.json"
     },
@@ -9534,10 +9544,10 @@
     {
       "slug": "travel",
       "name": "Travel",
-      "description": "Build a personal travel system for dream destinations, trip planning, and travel memories.",
-      "version": "1.0.0",
+      "description": "Runs a traveler's standing system: dream list, passports and visas, Schengen day counts, bookings, points, budgets, and what broke last time. Use when someone names a destination they want to visit someday, when a passport, visa, ETA, or entry rule has to be checked before dates are fixed, when counting days already spent in a visa-limited region, when a reservation or cancellation deadline needs recording, when a flight is cancelled or delayed, a bag goes missing, a passport is stolen or a claim has to be filed, when deciding which destination to take next against a season and a budget, when travelling with children, a group, elderly parents or a pet, when a stay runs past a month or needs per-diem handling, or when points or elite status are about to expire. Not for building one trip's day-by-day itinerary (`travel-planning`), fare search (`flight`), accommodation search (`booking`), rental cars (`car-rental`), or moving abroad for good (`expat`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/travel",
-      "summary": "Core Behavior - User mentions travel idea → offer to save to wishlist - User planning a trip → create trip folder with checklist - User returns from trip → help document memories - Create `~/Clawic/data/travel/` as works",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/travel/config.yaml` (what the user declared) and `~/Clawic/data/travel/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/travel",
       "manifestPath": "registry/skills/travel.json"
     },
@@ -10124,10 +10134,10 @@
     {
       "slug": "vps",
       "name": "VPS",
-      "description": "Provision, secure, and manage virtual private servers with practical hosting guidance.",
-      "version": "1.0.0",
+      "description": "Runs rented virtual private servers end to end: picking a provider and plan, first boot, snapshots, resizing, IP addresses, and moving between hosts. Use when choosing between Hetzner, DigitalOcean, Vultr, or Linode, when a box is unreachable and it is unclear whether the fault is the provider or the machine, when SSH refuses and the only way in is the web console or rescue mode, when the disk filled, the plan has to change, or a snapshot has to be restored, when a firewall rule looks correct but is ignored, when the provider sends an abuse notice or suspends the server, when outbound mail is rejected or blacklisted, or when bandwidth overage or IPv4 charges make the bill jump. Covers provider firewalls, private networking, and restorable backups. Not for Linux internals (`linux`), container runtime problems (`docker`), reverse-proxy/TLS configuration (`nginx`), DNS record design (`dns`), or managed platforms with no server to administer (`hosting`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/vps",
-      "summary": "VPS Management Rules Choosing a VPS - Match location to users — latency matters more than raw specs for user-facing apps - ARM instances cost 20-40% less with equivalent performance for most workloads — check compatibili",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/vps/config.yaml` (what the user declared) and `~/Clawic/data/vps/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file th",
       "repositoryPath": "skills/vps",
       "manifestPath": "registry/skills/vps.json"
     },

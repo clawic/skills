@@ -71,4 +71,8 @@ WantedBy=timers.target
 3. Make failures loud: have the job write a heartbeat (timestamp file, monitoring ping) on SUCCESS, and alert on the absence of the heartbeat. A job that silently stops running is the failure mode nobody notices for months.
 4. `OnFailure=notify@%n.service` on the unit turns a failed timer job into an alert without any extra tooling.
 
-Related: unit files, environment, and sandboxing → `systemd.md` · log retention for job output → `logs.md` · long remote operations → `ssh.md`.
+## Record It
+
+Every recurring thing you schedule — patch window, backup, restore drill, log vacuum, audit diff, reboot drill, certificate renewal — gets a row in the `## Due` table of `~/Clawic/data/linux/memory.md` (what / every / last run / next due), checked against today's date at the start of every session and stated in one line when overdue. The job itself (unit, timer, crontab entry, lock file) goes to `changes/<year>.md` with the command that removes it. A cadence that lives only in a crontab on one host is invisible the moment that host is not the one you are looking at (`memory-template.md`).
+
+Related: unit files, environment, and sandboxing → `systemd.md` · log retention for job output → `logs.md` · long remote operations → `ssh.md` · alerting on a job that stopped running → `monitoring.md`.

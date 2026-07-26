@@ -69,3 +69,5 @@ The trap: a `hostNetwork: true` pod left on the default policy silently uses nod
 4. Works for cluster names, fails externally → CoreDNS upstream (`forward`) or the node's own resolver; test from the node (`nodes.md`).
 5. Works but slowly → count the queries: `kubectl exec <p> -- getent hosts api.example.com` with the CoreDNS log plugin on shows the search-path expansion directly.
 6. Works from one pod, fails from another on the same Service → compare `resolv.conf` between them; a `dnsConfig` or `dnsPolicy` override in one manifest explains it.
+
+DNS failures are the most re-diagnosed shape in Kubernetes, because the symptom (a 5s stall, an intermittent timeout) never looks like DNS. When one is finally pinned, write the shape, its cause, and the fix into `## Incident History` in `~/Clawic/data/k8s/memory.md`, and the cluster-level remedy that was adopted — NodeLocal DNSCache, a CoreDNS replica count and PDB, an `ndots` default — into `## Clusters`. The next person to see a 5.000s p99 cliff should find the answer in one read.

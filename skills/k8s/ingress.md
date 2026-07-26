@@ -1,5 +1,7 @@
 # Ingress and Gateway — Getting Outside Traffic To A Pod
 
+**Read `~/Clawic/data/domains/domains.md` before debugging a hostname**: what that name is supposed to point at, and who issues its certificate, is recorded there and settles half the DNS-shaped questions without touching the cluster.
+
 The chain is: DNS → cloud load balancer → controller pod → Service → EndpointSlice → pod. Six links, and the HTTP status code tells you which one broke. The status decoder and the failure modes are universal; the syntax for every knob follows `ingress_controller` (translation table below — examples elsewhere in this file are ingress-nginx unless marked).
 
 ## Status Code Decoder
@@ -79,3 +81,5 @@ Bisect the chain from the inside out; each step eliminates everything below it:
 3. `kubectl exec` into the controller pod and curl the Service directly → controller-to-backend path is fine; the fault is routing config or the LB.
 4. `curl -H 'Host: real.example.com' http://<controller-pod-ip>/` → tests rule matching without DNS or the LB in the way.
 5. Controller logs with the request ID → the only place that shows which rule matched and which upstream was chosen.
+
+When a hostname starts being served, changes what it points at, or gets a new certificate issuer, write its row in the shared `~/Clawic/data/domains/domains.md`: `Domain | Registrar | Expires | Points to | Notes`, with the cluster and ingress controller in `Points to` and the certificate expiry in `Notes` prefixed `TLS:`. Identity is the hostname — update your fields in place and never overwrite `Registrar` or the domain's own `Expires`, which belong to whichever skill manages the registrar (a certificate expiry is not a domain expiry). If the file already has different columns, match them and never rewrite its header. Renewal dates that matter also go in the `## Due` table of `~/Clawic/data/k8s/memory.md`, because certificate renewal failures are silent until expiry.

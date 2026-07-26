@@ -80,7 +80,11 @@ cat /proc/<pid>/status                  # Threads, VmRSS, voluntary/nonvoluntary
 
 The 128+N decoding table and the signal numbers live in `SKILL.md` (Signals And Exit Codes). Two traps that belong here:
 
-- An application may return 137 by itself; confirm a real SIGKILL with `journalctl -k` or `dmesg -T` before blaming the OOM killer (→ `memory.md`).
+- An application may return 137 by itself; confirm a real SIGKILL with `journalctl -k` or `dmesg -T` before blaming the OOM killer (→ `oom.md`).
 - In a pipeline, `$?` is the LAST command's status. `set -o pipefail` or `${PIPESTATUS[@]}` recovers the rest (→ the `bash` skill).
 
-Related: OOM kills and memory pressure → `memory.md` · CPU/IO saturation → `performance.md` · services and their cgroups → `systemd.md`.
+## Record It
+
+A limit you raised is a change: `LimitNOFILE=`, `TasksMax=`, a `prlimit` applied live, or a nice/ionice policy goes to `~/Clawic/data/linux/changes/<year>.md` with the drop-in path and the rollback — and note whether it was applied live only, because that one is gone at the next restart. A process that had to be killed the same way twice is an incident pattern, not a chore: `incidents/<year>.md`, then `## Recurring Incidents` on the repeat (`memory-template.md`).
+
+Related: OOM kills and memory pressure → `oom.md` · CPU/IO saturation → `performance.md` · services and their cgroups → `systemd.md`.

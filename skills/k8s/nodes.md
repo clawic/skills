@@ -1,5 +1,7 @@
 # Nodes — Pressure, Drains, and the Machine Under the Pod
 
+**Read `~/Clawic/data/servers/servers.md` and `## Clusters` in `~/Clawic/data/k8s/memory.md` first**: node classes, pool layout and who owns upgrades are usually already recorded, and rediscovering them costs the time you need for the incident.
+
 When the pod is innocent, the node is the suspect. Node problems present as application problems on every pod that happens to be there, which is why "it only fails sometimes" so often correlates perfectly with one hostname.
 
 ## Heartbeats and the Failure Timeline
@@ -85,3 +87,5 @@ df -h /var/lib/kubelet /var/lib/containerd && dmesg -T | tail -50
 4. `kubectl debug node/<n>` → kubelet journal, disk, dmesg. Most answers are in one of those three.
 5. Network-shaped symptoms (random resets, DNS failures on that node only) → conntrack table fullness, MTU, and the kube-proxy and CNI pods on that node (`networking.md`).
 6. Still unexplained → cordon, drain, and replace the node. On cloud infrastructure, replacing a sick node is nearly always cheaper than diagnosing it further; capture the evidence first if the failure is novel.
+
+After any inventory pass or pool change, write it down: the cluster's row in `~/Clawic/data/servers/servers.md` (one row per cluster — node counts and instance classes live in its `Type` field, and cattle nodes never get rows of their own), and the pool detail, taints, and upgrade ownership in `## Clusters` in `~/Clawic/data/k8s/memory.md`. A node that was decommissioned gets its row deleted, not left behind; a pet node — a bare-metal box, a single-node cluster — keeps its own row. Formats and the scale cut: `memory-template.md`.

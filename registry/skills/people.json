@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "c57ea1ea059b01e76165d243db629173052dd91b62d086e7cba869984b3d66b5",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "59c1762507f5c83f6343a5074917ed62056b2b3d5a6ff030bec51a88e4813625",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "people",
     "name": "Contacts",
-    "description": "Build a personal contact system with details, interactions, birthdays, and smart reminders.",
-    "version": "1.0.1",
+    "description": "Maintains a personal address book: who each person is, what matters to them, when they were last in touch, and which birthdays are coming up. Use when someone is mentioned by name with context worth keeping — met, called, or ran into them; when a birthday, anniversary, or death anniversary is approaching; when the question is what do I know about X, who do I know at Acme, who lives in Berlin, or who have I not spoken to in months; before a meeting, to surface what happened last time; when reconnecting after a long silence, or drafting a congratulations, a condolence, or a message about a job change or a bereavement; when making or chasing an introduction; when duplicates, name changes, or an export have to be merged into one address book; and when deciding what should never be written down about someone else. Not for sales pipelines and forecasts (`crm`), friendship depth (`friends`), family logistics (`family`), gift ideas (`gifts`), or reminders unrelated to people (`remind`).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/people",
-    "summary": "Core Behavior - User mentions a person → check if contact exists, offer to create/update - Calendar event detected with contact → surface relevant notes before meeting - Birthday approaching → remind with context about t",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/people/config.yaml` (what the user declared) and `~/Clawic/data/people/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/people",
     "manifestPath": "registry/skills/people.json"
   },
@@ -26,15 +26,113 @@
       "path": "_meta.json",
       "downloadPath": "skills/people/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/_meta.json",
-      "byteCount": 166,
-      "sha256": "58d63a92e07664df22e2a0b9d51efe95d4a6731f6bbc6a93b45e359d1b0a75e9"
+      "byteCount": 242,
+      "sha256": "63435f76e18b48aae0439489fe5bca34a12b76ddb9c7d3a142227a238557181c"
+    },
+    {
+      "path": "briefing.md",
+      "downloadPath": "skills/people/briefing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/briefing.md",
+      "byteCount": 6478,
+      "sha256": "ac422bd1ca77dd45dcca3a4936bcbac85f6aa9f3bbed39b6b356d524a73c278e"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/people/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/capture.md",
+      "byteCount": 7156,
+      "sha256": "8889d97beb95d8da77b8210a3a8f026a48dd85a64d6a729dae87b909ed659f52"
+    },
+    {
+      "path": "dates.md",
+      "downloadPath": "skills/people/dates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/dates.md",
+      "byteCount": 8357,
+      "sha256": "f3bb809fbfea9dac707a87733aac52d83a6aff1f95fcbd5afbba80cd483e05ba"
+    },
+    {
+      "path": "details.md",
+      "downloadPath": "skills/people/details.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/details.md",
+      "byteCount": 8081,
+      "sha256": "a034065dfacfb54521f1204c790cc937437cde16bf8df50d1a6ae02a4fa078a7"
+    },
+    {
+      "path": "hygiene.md",
+      "downloadPath": "skills/people/hygiene.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/hygiene.md",
+      "byteCount": 10224,
+      "sha256": "577c7b3bf54a081a333ee4b71e0d249ee3dbb0915422ea640e10a88b461a3db0"
+    },
+    {
+      "path": "interactions.md",
+      "downloadPath": "skills/people/interactions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/interactions.md",
+      "byteCount": 7031,
+      "sha256": "6a1b670526c7298066fd6f529377352621bf09c61cf238211d74d2a2f6036741"
+    },
+    {
+      "path": "introductions.md",
+      "downloadPath": "skills/people/introductions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/introductions.md",
+      "byteCount": 7329,
+      "sha256": "6ee34987bf9573efa2a1fd49d7b769cefa468c1a0adb73d494260fa7e29febba"
+    },
+    {
+      "path": "keeping-in-touch.md",
+      "downloadPath": "skills/people/keeping-in-touch.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/keeping-in-touch.md",
+      "byteCount": 8402,
+      "sha256": "d133369ff1a49c9c088680e99f337f49800f5f1c2605a2409bd990392e7fe2b1"
+    },
+    {
+      "path": "life-events.md",
+      "downloadPath": "skills/people/life-events.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/life-events.md",
+      "byteCount": 9187,
+      "sha256": "500462337d5b19f07198b9d651fa5b51044388a8ce9df282ae3eaa640e344152"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/people/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/memory-template.md",
+      "byteCount": 22352,
+      "sha256": "b1526d7be2fb73df8ed1f0ef8dcb9d5e25c2fd4ccc2ba9818724b3c09a602092"
+    },
+    {
+      "path": "names.md",
+      "downloadPath": "skills/people/names.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/names.md",
+      "byteCount": 8149,
+      "sha256": "4e2235d9f84c0950893e4ccc337e15e528229de6ec770e4bba041984f3f02664"
+    },
+    {
+      "path": "network.md",
+      "downloadPath": "skills/people/network.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/network.md",
+      "byteCount": 7895,
+      "sha256": "167a711220438d9b34d1ca4205fdeb1d71b63baa3b933e7b643b3242f35b5a91"
+    },
+    {
+      "path": "privacy.md",
+      "downloadPath": "skills/people/privacy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/privacy.md",
+      "byteCount": 9697,
+      "sha256": "4b944560ef8a4e0a48a693347d7c6012541e92d70fce030b1ca8430cf0b2f782"
+    },
+    {
+      "path": "search.md",
+      "downloadPath": "skills/people/search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/search.md",
+      "byteCount": 7097,
+      "sha256": "06a08f4905f0a2e70e2f85e52314204b69d511edd0de44b42970ed0571426b44"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/people/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/SKILL.md",
-      "byteCount": 4094,
-      "sha256": "dbea7073a9d05f6b1311eb37fd94f3ce6594034799e00cd70eb238f5d469b2d0"
+      "byteCount": 25569,
+      "sha256": "5c865e99ab985ee89c48d9558c84653bc2641f20026a91575eb01b9fb5378fd6"
     }
   ]
 }

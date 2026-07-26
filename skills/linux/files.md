@@ -72,4 +72,8 @@ find /srv -xdev -newermt '2026-07-01' -type f                    # changed since
 - Deleting millions of small files is I/O-bound, not CPU-bound: `find … -delete` under `ionice -c3`, or recreate the parent directory and remove the old one if the whole tree goes.
 - Sync tools and editors that watch trees hit the inotify watch limit and fail with ENOSPC — a kernel limit, not a disk problem (→ `kernel.md`).
 
-Related: filesystem behaviour and durability → `storage.md` · reclaiming space → `disk-space.md` · transfer over SSH → `ssh.md`.
+## Record It
+
+A migration or sync procedure that worked — the exact rsync flag set for a tree that relies on hardlinks, ACLs or capabilities, the order of steps, the verification command — goes to `~/Clawic/data/linux/artifacts/procedure-<what>.md` with its `## Boxes` line in `memory.md`. It is the kind of thing that is rebuilt from scratch, slightly wrong, every time it is needed (`memory-template.md`).
+
+Related: filesystem behaviour and durability → `storage.md` · reclaiming space → `disk-space.md` · transfer over SSH → `ssh.md` · restoring what you copied → `backups.md`.

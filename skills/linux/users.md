@@ -65,4 +65,8 @@ loginctl user-status alice   # active sessions and lingering
 - Reassign or archive files they own: `find / -xdev -user <user>` before the UID is recycled
 - Rotate any shared credential they could read — the account is closed, the secret is not (→ `hardening.md`)
 
-Related: filesystem denials → `permissions.md` · SSH key rejection → `ssh.md` · audit and exposure baseline → `hardening.md`.
+## Record It
+
+Account work is change work: every account created or disabled, every sudo rule added, and every group grant that is root-equivalent (docker, wheel, sudo) goes to `~/Clawic/data/linux/changes/<year>.md` with its rollback. An offboarding gets its own row with the checklist items actually completed, because "we removed the account" and "we rotated what she could read" are different claims and only one of them is usually true. If the person is someone the user tracks, they belong in the shared `~/Clawic/data/contacts/contacts.md` — the person keyed by email or handle, with role, channel and one line of context, and never their credentials, hashes, or key material, which are not written anywhere under `~/Clawic/data/`. Their Unix accounts and group grants stay in the change rows here and point at them by name (`memory-template.md`).
+
+Related: filesystem denials → `permissions.md` · SSH key rejection → `ssh.md` · audit and exposure baseline → `hardening.md` · unexpected UID 0 accounts → `compromise.md`.

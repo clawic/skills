@@ -2,6 +2,8 @@
 
 Mental model: every container has its own network namespace; a "network" is a virtual switch with an embedded DNS server; `-p` is a NAT rule from the host into one namespace. Most "networking bugs" are one of these three pieces misassigned.
 
+**Before diagnosing reachability on a machine you have seen before**, read `## Environment` in `~/Clawic/data/docker/memory.md`: the VPN MTU, the corporate CA, the daemon DNS override, the address pool chosen to avoid a collision, and which host ports are already taken by non-Docker services are recorded there. Those five facts account for most of the failures below and none of them are discoverable from the container.
+
 ## Reachability Matrix
 
 | From → To | How | Gotcha |
@@ -58,3 +60,5 @@ docker run --rm -it --network container:<c> nicolaka/netshoot   # tcpdump, dig, 
 docker exec <c> getent hosts <name>                      # portable resolution test
 docker exec <c> sh -c 'ss -ltn || netstat -ltn'          # who listens where
 ```
+
+**Write the network facts that are properties of the machine, not of the bug**: the VPN's MTU and the value the networks were created with, the corporate CA and where it is mounted, a daemon-level DNS or address-pool override, a host port permanently held by a non-Docker service. One line each in `## Environment` of `~/Clawic/data/docker/memory.md`, in the same turn you establish them (`memory-template.md`). Anything that only makes sense as a whole file — a `daemon.json`, a working proxy and CA setup — is an `artifacts/` file with its `## Boxes` line. These are the facts that are invisible from inside a container and expensive to rediscover.

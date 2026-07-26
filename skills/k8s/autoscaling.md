@@ -74,3 +74,5 @@ Realistically 1-3 minutes for pod scaling, 3-6 with a node provision. A traffic 
 | Pods Pending, no new nodes | No node shape fits the request, quota exhausted, or the pod's affinity excludes every group |
 | Nodes never scale down | Read the blocker list above in that order |
 | Scaled up but latency did not improve | Cold caches or connection-pool limits at the dependency; measure per-replica warm-up before blaming the autoscaler |
+
+VPA recommendations, the HPA target that finally stopped flapping, the measured scale-up latency, and the downstream ceiling a workload hits at `maxReplicas` all belong in that workload's row in `## Workloads` in `~/Clawic/data/k8s/memory.md`. Each took observation under real load to establish, and the last one — "more replicas stop helping at 12 because the database connection pool is the wall" — is the fact most likely to be rediscovered painfully during a traffic spike.

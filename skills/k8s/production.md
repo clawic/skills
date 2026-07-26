@@ -2,6 +2,8 @@
 
 Scope: the cluster-level decisions that decide whether an incident is fifteen minutes or a day. Workload-level readiness lives in the Output Gates of SKILL.md; this is everything above the Deployment.
 
+**Open with the `## Due` table and `## Clusters` in `~/Clawic/data/k8s/memory.md`**: an overdue restore drill, certificate sweep, or deprecated-API sweep is stated in one line before anything else here is worth discussing, and the last upgrade's record in `deploys/<year>.md` is the only honest input to planning the next one.
+
 ## Capacity With Failure Budgeted In
 
 ```
@@ -76,3 +78,5 @@ Ship events off-cluster (they expire after 1h) and keep audit logs elsewhere too
 - Backups of data and manifests in a separate failure domain, with a restore performed this quarter?
 - The ten alerts above wired to a human, and events plus audit logs shipped off-cluster?
 - Upgrade path known: current version, target, deprecated APIs swept, extensions verified?
+
+Every line of that gate produces a durable fact, so write them where the next session finds them: cluster version, capacity ratio, alerting and control-plane posture into `## Clusters`; the upgrade itself, its drain time and what broke into `~/Clawic/data/k8s/deploys/<year>.md`; the measured RTO of any drill into the same file under `## Restore Drills` (`backup.md` runs the drill); every recurring item above — upgrade window, quarterly drill, monthly certificate and orphaned-storage sweeps — into the `## Due` table with a real date; and any gate item consciously left unmet into `## Known Gaps` with the date and the reason. A readiness gate whose result is not written is a gate that gets re-run from zero next quarter.

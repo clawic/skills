@@ -61,6 +61,10 @@ Mem:            15Gi  4.0Gi   180Mi   320Mi        11Gi        10Gi
 | Exit 137, host-wide OOM report | Real host exhaustion | Find the largest PSS consumer, add limits to prevent a repeat |
 | RSS flat, `available` falling for days | Kernel slab or tmpfs growth | `slabtop -s c`, `df -h /dev/shm` |
 | ENOMEM without any kill | Overcommit mode 2 or a per-process limit | `cat /proc/<pid>/limits`, `sysctl vm.overcommit_memory` |
-| Anything else | Establish the trend before acting | Record `available` and per-cgroup `memory.current` over an hour |
+| Anything else | Establish the trend before acting | Sample `available` and per-cgroup `memory.current` over an hour, against the figure in `baselines/<host>.md` |
 
-Related: cgroup limits and unit directives → `systemd.md` · CPU and I/O saturation → `performance.md` · kernel tunables and persistence → `kernel.md`.
+## Record It
+
+An OOM kill is an incident with a root cause worth one row: host, which process the kernel picked, whether the constraint was the cgroup or the host, and what fixed it, in `~/Clawic/data/linux/incidents/<year>.md`. The fix itself — `MemoryMax=`, `MemoryHigh=`, `OOMScoreAdjust=`, a swappiness change, a new swap file — goes to `changes/<year>.md` with its drop-in path and rollback, and the host's normal `available` figure belongs in `baselines/<host>.md` so the next "it is running out of memory" report can be checked against a number instead of a feeling (`memory-template.md`).
+
+Related: cgroup limits and unit directives → `systemd.md` · CPU and I/O saturation → `performance.md` · kernel tunables and persistence → `kernel.md` · thresholds worth alerting on → `monitoring.md`.

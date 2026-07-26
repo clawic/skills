@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "fdddd2c40dd9f356a0d7a99812a200403b9b77313305c83e856444a9fd719bd6",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "09fac7a0a06ae948b4e3f9a545bfdfc90f59296d96063d4a78241e2164f92f2f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "salesforce-api-integration",
     "name": "Salesforce API Integration",
-    "description": "Complete Salesforce REST API for SOQL queries, CRUD operations, Bulk API, Composite API, authentication, and standard objects with error handling.",
-    "version": "1.0.1",
+    "description": "Calls the Salesforce REST, Bulk, Composite, and Metadata APIs: SOQL, record CRUD, upserts, OAuth, sync, and error handling. Use when querying, loading, exporting or syncing Salesforce data, when writing SOQL or SOSL against Account, Contact, Opportunity, Lead, Case or a `__c` custom object, when a call returns INVALID_SESSION_ID, MALFORMED_QUERY, INVALID_FIELD, REQUEST_LIMIT_EXCEEDED, UNABLE_TO_LOCK_ROW, or DUPLICATES_DETECTED, when importing tens of thousands of records or migrating from another CRM, when setting up server-to-server auth with a Connected App, JWT bearer or refresh token, when keeping an external database in step through Change Data Capture or Platform Events, or when calling a custom Apex REST endpoint or invoking a Flow. Covers sandboxes, API versioning, external IDs, and field-level security. Not for designing a personal CRM (`crm`), generic third-party API mechanics (`api`), or authoring Apex code.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/salesforce-api-integration",
-    "summary": "Salesforce API Integration Complete Salesforce REST API reference. See auxiliary files for detailed operations. Quick Start ```bash curl \"$SF_INSTANCE_URL/services/data/v59.0/sobjects/\" \\ -H \"Authorization: Bearer $SF_AC",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/salesforce-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/salesforce-api-integration/memory.md` (what you observed, plus its `## Boxe",
     "repositoryPath": "skills/salesforce-api-integration",
     "manifestPath": "registry/skills/salesforce-api-integration.json"
   },
@@ -26,78 +26,120 @@
       "path": "_meta.json",
       "downloadPath": "skills/salesforce-api-integration/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/_meta.json",
-      "byteCount": 204,
-      "sha256": "8db0738be209401aa7c861e892a4f1fc6a488d9f7de6f82c56d96324a9210fe7"
+      "byteCount": 280,
+      "sha256": "ce6abd24502280ed6ed9d17f66779b80ceb3652528f86955742b739f53006699"
+    },
+    {
+      "path": "apex.md",
+      "downloadPath": "skills/salesforce-api-integration/apex.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/apex.md",
+      "byteCount": 9071,
+      "sha256": "2cf9df94a49565b4609043aae01178724d4565388fa16619c3253909ae967a4c"
+    },
+    {
+      "path": "auth.md",
+      "downloadPath": "skills/salesforce-api-integration/auth.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/auth.md",
+      "byteCount": 12110,
+      "sha256": "de2449c6c158b88087bf68dcdfa2168e5c27b780348bd59d9917173bcee6a7f3"
     },
     {
       "path": "bulk.md",
       "downloadPath": "skills/salesforce-api-integration/bulk.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/bulk.md",
-      "byteCount": 4392,
-      "sha256": "b6d57d04aed3d93b94b934c5ccb5b27a139a93c3db5067ca4ca91e960b0acc93"
+      "byteCount": 11199,
+      "sha256": "b81919fc524c5e6d323b28bf17a99f390ff91be7b0dd99f10e3d46584dff9f38"
     },
     {
       "path": "composite.md",
       "downloadPath": "skills/salesforce-api-integration/composite.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/composite.md",
-      "byteCount": 4372,
-      "sha256": "315b02b5a58d1d043d5360132cfcbf3312537400cb1168d3a919e79d70d02ad7"
+      "byteCount": 9166,
+      "sha256": "795d9b5756718d3e5ddcaab62ddaf519f61dd53376d2934a9852326aa676b43c"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/salesforce-api-integration/errors.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/errors.md",
-      "byteCount": 4438,
-      "sha256": "77b38a23985aeea83d2b6babb5ab0d1103a2c173d4d0ba40e8cfe315e23605bf"
+      "byteCount": 9410,
+      "sha256": "274d6a007e91e987ed14002d47f2ec08294f2f6444ee055a43b68be96b9d4585"
+    },
+    {
+      "path": "files.md",
+      "downloadPath": "skills/salesforce-api-integration/files.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/files.md",
+      "byteCount": 8351,
+      "sha256": "191ae34bb3107e7f8aff374d9746c166b71be7a62f2efb3162cf3225c93ec2d0"
+    },
+    {
+      "path": "limits.md",
+      "downloadPath": "skills/salesforce-api-integration/limits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/limits.md",
+      "byteCount": 7797,
+      "sha256": "76102fcc8248ca2b3b437029bca3956d10e5060c1e44dff69f609af56a58c370"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/salesforce-api-integration/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/memory-template.md",
-      "byteCount": 1511,
-      "sha256": "2b667f4f0052fe11a9468fa00f04a5612a410d6943331b78b685788021f18427"
+      "byteCount": 19964,
+      "sha256": "2a4373c6352083e737cca41cc5445669bca58618ad38aa65021779642f9af120"
     },
     {
       "path": "metadata.md",
       "downloadPath": "skills/salesforce-api-integration/metadata.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/metadata.md",
-      "byteCount": 3795,
-      "sha256": "57b880dbf3b79779ae87ee1731f8a11f8c6beb97cefa272b132595a2887940ef"
+      "byteCount": 10008,
+      "sha256": "bda047d439ce3c74f643ffca624414ba49d94615fbf17a06430fc4cd4d1f6b98"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/salesforce-api-integration/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/migration.md",
+      "byteCount": 11127,
+      "sha256": "91516a1bacd787c1f72dc04893f2f4ed5b775cbeaedf0899795179057de5d82f"
     },
     {
       "path": "objects.md",
       "downloadPath": "skills/salesforce-api-integration/objects.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/objects.md",
-      "byteCount": 5051,
-      "sha256": "0355adc3028e81de1ae9ca9b5b002c4d0d1b1a02c4b580b3145634fb509a5153"
+      "byteCount": 10310,
+      "sha256": "1ab3d37d79a1c5feaf8d98086a780eb0e12467287542c9eea9fe4ee815b5adaf"
     },
     {
       "path": "records.md",
       "downloadPath": "skills/salesforce-api-integration/records.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/records.md",
-      "byteCount": 3692,
-      "sha256": "edc00613b6861278057bc1d869c643d1ca518ddcf5cccbf955507e06d5250bbb"
+      "byteCount": 10390,
+      "sha256": "9ace90f4b0eb9ccdd7011f58b5b8e73992d34acab2a6cf65066a65b7d4590560"
     },
     {
-      "path": "setup.md",
-      "downloadPath": "skills/salesforce-api-integration/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/setup.md",
-      "byteCount": 3022,
-      "sha256": "6e625f3c249c51e051b47bc370cc014d401835f468b81f4864a19b6f85598b77"
+      "path": "reports.md",
+      "downloadPath": "skills/salesforce-api-integration/reports.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/reports.md",
+      "byteCount": 8120,
+      "sha256": "ff084f42e07e1930a36ab550f8685c1054d593744860f978b82d1f9b3ccfcae1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/salesforce-api-integration/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/SKILL.md",
-      "byteCount": 4622,
-      "sha256": "41287fc0f6250e101d7ab9ad8bb21ece263d43cd66576f1cc7c2fb2f9aef0dd5"
+      "byteCount": 26382,
+      "sha256": "fac4d0a53a29065ea4e5253e089832bc91ff0a33b120247baf77fd456ee34653"
     },
     {
       "path": "soql.md",
       "downloadPath": "skills/salesforce-api-integration/soql.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/soql.md",
-      "byteCount": 4182,
-      "sha256": "e3175829b8d6c6a145154c06fe7ed643bfdd1ec2823143222e21a3855d14e2d0"
+      "byteCount": 12770,
+      "sha256": "78a7ea348df75e18d58ecf2e755b9cd642b3ed8386dda7062ae8a09a8f7e34c2"
+    },
+    {
+      "path": "sync.md",
+      "downloadPath": "skills/salesforce-api-integration/sync.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/sync.md",
+      "byteCount": 10131,
+      "sha256": "45ef371f8ca197648fccbeef79dfcb4859951ccda94dd091072fedab1c6d035d"
     }
   ]
 }

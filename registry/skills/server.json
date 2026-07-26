@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "8f8d35148c996d34715f6bd957e025b4595a6af5c715ca322345cbcaa92a8f1c",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "a4b53bd7b984ce84b2f78d20e4d0e5296954f41b4ae3b850521d142d798324b0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "server",
     "name": "Server",
-    "description": "Configure, deploy, and troubleshoot web servers, application servers, and containerized services.",
-    "version": "1.0.0",
+    "description": "Runs web and application services on a host: process supervision, ports and sockets, worker sizing, restarting without dropping requests. Use when a service will not start, dies after logout, restart-loops, or vanishes on reboot; when a port is already in use, or it answers on localhost but refuses connections from outside; when a request returns 502, 504, 413, 499, or a redirect loop between proxy and app; when wiring nginx, Caddy, Traefik, HAProxy, systemd, PM2, or php-fpm; when sizing workers and threads, tuning keepalive and timeouts, or a box runs out of file descriptors or memory under load; when shipping a release and rolling it back; when serving large uploads, WebSockets, or gRPC through a proxy; and when self-hosting apps or media servers. Not for nginx directive tuning (`nginx`), certificate issuance (`ssl`), host OS failures (`linux`), image building (`docker`), Kubernetes (`k8s`), CI/CD pipelines (`deploy`), or provisioning the machine (`vps`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/server",
-    "summary": "Scope This skill covers the **software layer** — what runs inside a machine. For infrastructure (provisioning VMs, SSH hardening, firewalls, backups), use the `vps` skill. When to Use - Configuring nginx, Caddy, or Apach",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/server/config.yaml` (what the user declared) and `~/Clawic/data/server/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/server",
     "manifestPath": "registry/skills/server.json"
   },
@@ -26,29 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/server/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/_meta.json",
-      "byteCount": 164,
-      "sha256": "0e80977ee7914e3bfe24ad08e6510bd1813ec2254219b0f6e8209d7d1da281da"
+      "byteCount": 240,
+      "sha256": "25ec4745f144128e83846bc82b5a5a956249f2848c44ac3e923e5d11494dcc5a"
     },
     {
-      "path": "configs.md",
-      "downloadPath": "skills/server/configs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/configs.md",
-      "byteCount": 2604,
-      "sha256": "252df9358ec3f5d736153542af075168514aeafa6c62b09aa08f2216320e3b6a"
+      "path": "capacity.md",
+      "downloadPath": "skills/server/capacity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/capacity.md",
+      "byteCount": 9763,
+      "sha256": "4bdf132c948bb2489f94e22841de882d69978d06c0b7aa4d0774ce5079341e1d"
     },
     {
-      "path": "docker.md",
-      "downloadPath": "skills/server/docker.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/docker.md",
-      "byteCount": 3085,
-      "sha256": "217afb2c2ab0279cd6f2e5e4848ab15e15c92327d91fc9aa59e56a63c81a66a1"
+      "path": "containers.md",
+      "downloadPath": "skills/server/containers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/containers.md",
+      "byteCount": 12028,
+      "sha256": "79f1b1b6e0d838b48ba9edc8997a2a76932367e9d5a135c31ce6b6c262c782ff"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/server/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/debug.md",
+      "byteCount": 13168,
+      "sha256": "ee1d4d0f537f4a15f237930efb16f2a30f158cfe071fc5091987c0db759cc20e"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/server/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/deployment.md",
+      "byteCount": 10858,
+      "sha256": "313e853def2d537ec5419a958911d98854d1bd1ba5d76d6df34a47f71d463a6c"
+    },
+    {
+      "path": "dev-servers.md",
+      "downloadPath": "skills/server/dev-servers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/dev-servers.md",
+      "byteCount": 8239,
+      "sha256": "56300e7ef799472156c3beab2ead55075db56087eb2e305af1b651b74eac5590"
+    },
+    {
+      "path": "logs.md",
+      "downloadPath": "skills/server/logs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/logs.md",
+      "byteCount": 10516,
+      "sha256": "dedeac9eff970adce914c7c04d399d53cfcf5e0aa790d20915896467d5e32fe6"
+    },
+    {
+      "path": "maintenance.md",
+      "downloadPath": "skills/server/maintenance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/maintenance.md",
+      "byteCount": 12090,
+      "sha256": "ea837f52f6daeaa1da19f65213189abb328792756721fea6d0b562243dec7057"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/server/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/memory-template.md",
+      "byteCount": 20761,
+      "sha256": "4c10a8aea2d3178de99b3efc616338638ba5632047f6c8fdce0a0e8515a40a14"
+    },
+    {
+      "path": "processes.md",
+      "downloadPath": "skills/server/processes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/processes.md",
+      "byteCount": 13268,
+      "sha256": "f0b0d458a8b922216dfde8ca5747da0ef43ab0c892259c97b0ef86223d41bd99"
+    },
+    {
+      "path": "proxy.md",
+      "downloadPath": "skills/server/proxy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/proxy.md",
+      "byteCount": 14062,
+      "sha256": "99dfc176ba6c2e97aa8dbcbf396cd414812f05454465bd6ea2c5f5edb4d98e54"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/server/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/security.md",
+      "byteCount": 13228,
+      "sha256": "f75a7492cdc0021e0f527cbec167c578cd345aad1f14133439b956bf75324a49"
+    },
+    {
+      "path": "selfhosted.md",
+      "downloadPath": "skills/server/selfhosted.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/selfhosted.md",
+      "byteCount": 13281,
+      "sha256": "7a27f2cd0146ba10075985c1426084cfb02eea55db9e5c052c7391422f9b75ac"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/server/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/SKILL.md",
-      "byteCount": 2449,
-      "sha256": "9df0ad7b710bc53b102abe6c74c1e7244d6b0a76d5b26764f43d9740a4b6437f"
+      "byteCount": 29259,
+      "sha256": "a8e7c03a31e91c5bc097963e888803156ba6866179011bcc434a3e481a3ab89f"
+    },
+    {
+      "path": "stack.md",
+      "downloadPath": "skills/server/stack.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/stack.md",
+      "byteCount": 10252,
+      "sha256": "79a5b85df33c1a76c556cff2e36cb8a2e40730654ae25171e0a8ec54604d1be3"
+    },
+    {
+      "path": "static.md",
+      "downloadPath": "skills/server/static.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/static.md",
+      "byteCount": 10296,
+      "sha256": "e8dc3665463a3e917068c10d7a6eca8f62ba42fbd07b94342b2bebe3ef40fbce"
+    },
+    {
+      "path": "tls.md",
+      "downloadPath": "skills/server/tls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/tls.md",
+      "byteCount": 11470,
+      "sha256": "46049cb633dc22f7cdc5a6431aa6204a489af2a5799f82a4943dbc352b784b38"
+    },
+    {
+      "path": "workers.md",
+      "downloadPath": "skills/server/workers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/workers.md",
+      "byteCount": 11383,
+      "sha256": "3ab0c5a3f0c4c53464a096d440fe23baa20db54c62c058044b62516da470270b"
     }
   ]
 }

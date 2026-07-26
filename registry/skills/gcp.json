@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "335205af70114ae8101b07f059a39f5c3dacc8fca1a2b15c7d2471892c8b289d",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "426b601974762de467a12922b3c019bf1c2db1a3c33a1467040a7650eb470277",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "gcp",
     "name": "Google Cloud",
-    "description": "Deploy, monitor, and manage GCP services with battle-tested patterns.",
-    "version": "1.0.0",
+    "description": "Architects, debugs, secures, and cost-optimizes Google Cloud — Cloud Run, GKE, Compute Engine, BigQuery, Cloud SQL, IAM, VPC. Use when deploying or reviewing anything on GCP, when a bill jumps or BigQuery scan cost has to come down, when a 403 PERMISSION_DENIED, a SERVICE_DISABLED, a RESOURCE_EXHAUSTED quota error, a 502/503/504, or an unreachable Cloud SQL instance has no obvious cause, when choosing between compute (Cloud Run, GKE, Cloud Functions) or databases (Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable), when hardening service accounts, org policies, firewall rules, public buckets, or secrets, when writing Terraform against the google provider, or when auditing an inherited project. Covers VPC/subnet design, Private Google Access, Vertex AI/GPU quota, Pub/Sub/Dataflow, backups/DR, and gcloud. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or PostgreSQL tuning inside Cloud SQL (`pg`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/gcp",
-    "summary": "Google Cloud Production Rules Cost Traps - Stopped Compute Engine VMs still pay for persistent disks and static IPs — delete disks or use snapshots for long-term storage - Cloud NAT charges per VM and per GB processed — ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/gcp/config.yaml` (what the user declared) and `~/Clawic/data/gcp/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/gcp",
     "manifestPath": "registry/skills/gcp.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/gcp/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/_meta.json",
-      "byteCount": 167,
-      "sha256": "979055c2aae6e3ee781d39735d795f992dff4a3464724407604eec2cb65126a6"
+      "byteCount": 243,
+      "sha256": "32d4cf52265f97897fefa9e032af2daa49d8b1d3e6a405c9aa10c8cdf6fc94d2"
+    },
+    {
+      "path": "bigquery.md",
+      "downloadPath": "skills/gcp/bigquery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/bigquery.md",
+      "byteCount": 13139,
+      "sha256": "cb552a3c3eab7ea55061d16239d15d67e8b8f1ab2f698c23bcced774b7ccda92"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/gcp/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/commands.md",
+      "byteCount": 11313,
+      "sha256": "5908cb91178bcb8d2eb520ffa2be15c5958f983fc117d650ffccb319f42bb401"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/gcp/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/costs.md",
+      "byteCount": 14357,
+      "sha256": "f4c3ddea29dfc28ed83e1998a0a990859978fb5115e255722b5e53cc74e4123e"
+    },
+    {
+      "path": "databases.md",
+      "downloadPath": "skills/gcp/databases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/databases.md",
+      "byteCount": 12446,
+      "sha256": "025b1b282ee941794289dea5bf7ad512d925c885cfa728871be484e3fddec8b2"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/gcp/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/debug.md",
+      "byteCount": 11328,
+      "sha256": "cf0c89321842c1ec0d6ff0f8171213e9467a802f8dd74eaf2a9774892bed5c7b"
+    },
+    {
+      "path": "gke.md",
+      "downloadPath": "skills/gcp/gke.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/gke.md",
+      "byteCount": 12267,
+      "sha256": "8a3bfc4f105bbfe0c38bb6f7820d2c3cf5a76c45e12fd733d519e335f371b1c4"
+    },
+    {
+      "path": "iac.md",
+      "downloadPath": "skills/gcp/iac.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/iac.md",
+      "byteCount": 12242,
+      "sha256": "baa8cb688811706454df85d3bb93aba7348856fba495ca325ccc17c92fd96c25"
+    },
+    {
+      "path": "iam.md",
+      "downloadPath": "skills/gcp/iam.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/iam.md",
+      "byteCount": 15643,
+      "sha256": "3124f2a3aa25f4f629c65156543c6935d4f372b943138a66424ec6684093728a"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/gcp/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/memory-template.md",
+      "byteCount": 29069,
+      "sha256": "6ffd5e33a610273d7e6fd089455538eff9aaa78f6a0af86a9aa61608e0fd33d5"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/gcp/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/networking.md",
+      "byteCount": 14060,
+      "sha256": "835190b9c92be5f4588d90df8d74a9176cecd8430ba48d6dc1442c2c8c4f29bc"
+    },
+    {
+      "path": "organization.md",
+      "downloadPath": "skills/gcp/organization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/organization.md",
+      "byteCount": 13057,
+      "sha256": "fd8581973ed4f7a1432a2a36cfe63134b2f35afe21de79b604de128c01b1d080"
+    },
+    {
+      "path": "pipelines.md",
+      "downloadPath": "skills/gcp/pipelines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/pipelines.md",
+      "byteCount": 12748,
+      "sha256": "5916cb7badae490746d750aa64198c82b63051109b3822989ec70992ac0d8831"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/gcp/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/production.md",
+      "byteCount": 13498,
+      "sha256": "aa593f5666b5a482522731df9b10b1612592bbfe86b45e5fdbc1215705360593"
+    },
+    {
+      "path": "run.md",
+      "downloadPath": "skills/gcp/run.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/run.md",
+      "byteCount": 11760,
+      "sha256": "d126a4592ff9bba9e5646d3bae1f941a744809f88d09ca3e65d36de1f9cb1aab"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/gcp/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/security.md",
+      "byteCount": 14997,
+      "sha256": "8bba40940de2ab325900737768748176a9dd99d1659cc64dcb6461ce70799e7a"
+    },
+    {
+      "path": "services.md",
+      "downloadPath": "skills/gcp/services.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/services.md",
+      "byteCount": 11504,
+      "sha256": "f34e6c58f2f9612c7f446422131cbbd4e2151f5ba4ea0097fa8ce07fb378192c"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/gcp/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/SKILL.md",
-      "byteCount": 4502,
-      "sha256": "2cc20f71c22e0efac318d05e5df6980a53f5920b59d7b954cd5dbe2a9fc5a60c"
+      "byteCount": 36398,
+      "sha256": "75928013da85bd90cbf34d8b19188d27c4869c12a3267185c96469a134882b5b"
+    },
+    {
+      "path": "storage.md",
+      "downloadPath": "skills/gcp/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/storage.md",
+      "byteCount": 11570,
+      "sha256": "010682e02a82e1fd417de24283ed94ec12d32271c4f9767cce403749ab1a707e"
+    },
+    {
+      "path": "vertex.md",
+      "downloadPath": "skills/gcp/vertex.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/vertex.md",
+      "byteCount": 10604,
+      "sha256": "e67715d941619f6d3cfcb6ad15deeabdcc8ec569de1aab6c9851b49f5a5f1e9f"
     }
   ]
 }

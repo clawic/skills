@@ -58,7 +58,7 @@ ss -tlnp                                           # everything listening, and i
 systemctl list-unit-files --state=enabled          # what starts at boot, and why
 ```
 
-- Run these once on a new host and record the output as the baseline; the value is in the DIFF at the next review, not in the first listing.
+- Run these once on a new host and write the output to `~/Clawic/data/linux/baselines/<host>.md` under `## Audit Surface` and `## Listening`, with its `## Boxes` line in `memory.md`. The value is entirely in the DIFF at the next review, not in the first listing — and the review cadence belongs in `## Due` (`memory-template.md`).
 - Remove packages you do not use rather than configuring them off — an uninstalled service has no CVEs and no misconfiguration.
 - Secrets on disk: mode 600, owned by the service user, never in a world-readable `/etc` file, never in a unit's `Environment=` (which `systemctl show` exposes to any user). Use `EnvironmentFile=` with a 600 file or a credential store.
 
@@ -78,11 +78,13 @@ systemctl list-unit-files --state=enabled          # what starts at boot, and wh
 ## Compliance Regimes
 
 - CIS Benchmarks and DISA STIGs are checklists with automated scanners (`oscap`, `lynis` for an informal pass). Treat a scanner's score as a to-do list to triage, not a target to maximize — several controls break real workloads and need documented exceptions.
-- Record every exception with its reason next to the configuration; an undocumented deviation is indistinguishable from a mistake at the next audit.
+- Every exception is written with its reason in `artifacts/exceptions-<host>.md`, and next to the configuration itself; an undocumented deviation is indistinguishable from a mistake at the next audit.
 - Compliance is a floor. A host that passes every control and runs an unpatched application is compromised on schedule.
 
 ## What This Skill Does Not Cover
 
 Application-level security (input validation, authentication design, dependency CVEs) is a different discipline. This file is about the host: who can reach it, who can log in, what a compromised service can touch, and what evidence survives.
 
-Related: accounts and offboarding → `users.md` · SSH configuration → `ssh.md` · MAC denials → `permissions.md` · log shipping → `logs.md`.
+**After hardening a host**, write each applied control to `changes/<year>.md` with its persistence file and its rollback, and record any documented compliance exception in `artifacts/exceptions-<host>.md`. An undocumented deviation is indistinguishable from a mistake at the next audit, and a hardening pass nobody recorded gets re-done from scratch (`memory-template.md`).
+
+Related: accounts and offboarding → `users.md` · SSH configuration → `ssh.md` · MAC denials → `permissions.md` · log shipping → `logs.md` · what to alert on afterwards → `monitoring.md` · a host that is already compromised → `compromise.md`.

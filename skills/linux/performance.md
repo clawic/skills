@@ -66,7 +66,7 @@ full avg10=11.03 ...
 2. **Sweep all four resources** (CPU, memory, disk, network) for saturation before drilling into any one. The obvious resource is often the victim of another.
 3. **Attribute to a process or cgroup** before touching configuration.
 4. **Change one thing, re-measure.** Tuning several sysctls at once produces a host nobody can reason about (→ `kernel.md`).
-5. **Compare to a baseline.** Without a known-good number from the same host, "high" is an opinion. Record `vmstat`/`iostat`/PSI during a healthy period so the next incident has a reference.
+5. **Compare to a baseline.** Without a known-good number from the same host, "high" is an opinion. Read `~/Clawic/data/linux/baselines/<host>.md` before judging any number, and when it does not exist, measure during the next healthy period and write it there under `## Healthy Numbers` — load range, PSI, `available`, per-device `await` — with its `## Boxes` line in `memory.md`. Any tuning that came out of the investigation goes to `changes/<year>.md` with its rollback (`memory-template.md`, thresholds in `monitoring.md`).
 
 ## Fast Attribution Table
 
@@ -76,9 +76,9 @@ full avg10=11.03 ...
 | One core pinned, others idle | Single-threaded app | `perf top -p <pid>` |
 | High `%st` | Hypervisor contention | Resize or migrate the instance |
 | Latency spikes with idle host CPU | cgroup CPU throttling | `cpu.stat` `nr_throttled`, raise `CPUQuota` |
-| `si`/`so` nonzero in vmstat | Memory — swap thrash | → `memory.md` |
+| `si`/`so` nonzero in vmstat | Memory — swap thrash | → `oom.md` |
 | High `await`, low IOPS | Slow or failing device | `dmesg`, `smartctl` (→ `storage.md`) |
 | Retransmits climbing, CPU idle | Network path | `ss -tin`, `nstat` (→ `networking.md`) |
 | Everything looks fine, users complain | Wrong layer measured | Measure inside the application (the `debugging` skill) |
 
-Related: memory pressure and OOM → `memory.md` · tunables and their persistence → `kernel.md` · per-process tools → `processes.md`.
+Related: memory pressure and OOM → `oom.md` · tunables and their persistence → `kernel.md` · per-process tools → `processes.md`.

@@ -60,9 +60,13 @@ Package operations are transactions on a live system. The failure modes are: int
 
 ## Installing Outside The Package Manager
 
-- Binaries dropped in `/usr/local/bin` are invisible to the package manager: no upgrades, no CVE tracking, no dependency checks. Record them somewhere the next admin will find (a manifest in `/usr/local/etc`, or config management).
+- Binaries dropped in `/usr/local/bin` are invisible to the package manager: no upgrades, no CVE tracking, no dependency checks. Write each one to `changes/<year>.md` and keep a manifest on the host (`/usr/local/etc`, or config management) so the next admin knows what the package manager does not own.
 - Never `curl … | sh` on a host you care about: download, read, checksum, then run.
 - `update-alternatives --config <name>` (Debian) or `alternatives` (RHEL) is the supported way to have two versions of the same tool and choose one.
 - Language package managers (pip, npm, gem) installing system-wide fight the distro's copies. Use a virtualenv, a user prefix, or a container. On modern Debian/Ubuntu a system-wide `pip install` is blocked by design (PEP 668) — that error is the packaging system protecting itself, not a bug to override.
 
-Related: reboot recovery → `boot.md` · disk space for `/boot` → `disk-space.md` · distro command mapping → `distros.md`.
+## Record It
+
+Every upgrade that changed behaviour, every hold, and every third-party repository added goes to `~/Clawic/data/linux/changes/<year>.md` with the file that persists it and the command that undoes it (`apt-mark unhold`, `dnf history undo <id>`). A reboot that became required and was NOT taken goes on the host's row in `## Hosts` as `reboot pending since <date>` — a pending reboot that only lives in one session's memory is an unpatched kernel with a false sense of safety. The patch window itself belongs in `## Due` (`memory-template.md`).
+
+Related: reboot recovery → `boot.md` · disk space for `/boot` → `disk-space.md` · distro command mapping → `distros.md` · alerting on pending reboots → `monitoring.md`.

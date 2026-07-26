@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "4fa0c676ca7e0d5f195a9d2d94c96675177e5a3422347a5bcf0dff516bb7f810",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "05341776416e7c605c5a550486e86ebf7d1a872ea15c431e2b3cf65da2200803",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "azure",
     "name": "Azure",
-    "description": "Deploy, monitor, and manage Azure services with battle-tested patterns.",
-    "version": "1.0.0",
+    "description": "Architects, debugs, secures, and cost-optimizes Azure — VMs, App Service, Functions, AKS, Azure SQL, Cosmos DB, Entra ID, VNets, Storage. Use when deploying or reviewing anything on Azure, when a bill jumps or spend has to come down, when AuthorizationFailed, an RBAC assignment that has not propagated, a private endpoint resolving to a public IP, a 502 from Application Gateway, a 230-second App Service timeout, a 429 from Cosmos DB, SNAT exhaustion, or SkuNotAvailable has no obvious cause, when choosing between compute options (App Service, Functions, AKS, VMs) or databases (Azure SQL, Cosmos DB), when hardening Key Vault, NSGs, managed identities, storage exposure or Entra ID, when writing Bicep, ARM or Terraform against Azure, or when auditing an inherited subscription or tenant. Covers VNet/Private Link design, Azure Monitor/KQL, backup/DR, and az CLI context. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or SQL query tuning (`sql`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/azure",
-    "summary": "Azure Production Rules Cost Traps - Stopped VMs still pay for attached disks and public IPs — deallocate fully with `az vm deallocate` not just stop from portal - Premium SSD default on VM creation — switch to Standard S",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/azure/config.yaml` (what the user declared) and `~/Clawic/data/azure/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/azure",
     "manifestPath": "registry/skills/azure.json"
   },
@@ -26,15 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/azure/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/_meta.json",
-      "byteCount": 162,
-      "sha256": "e710074f0518934506a174e2d7c31d2f003309267e5fe0e05d49eb2d764c84e7"
+      "byteCount": 238,
+      "sha256": "54a9442ee40e37cb0c5edbb98ffc9acb2a606d8b70d6a90e566caeae1f032205"
+    },
+    {
+      "path": "appservice.md",
+      "downloadPath": "skills/azure/appservice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/appservice.md",
+      "byteCount": 9858,
+      "sha256": "bc3ca19cbf6272e9150ad10cd0fd116d2934a393f56fa4129d8c08dcbe515e25"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/azure/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/commands.md",
+      "byteCount": 8604,
+      "sha256": "0ebff12298b9252845ec1c63588f9955490eaf0ab332cc306da2dd924b403cb1"
+    },
+    {
+      "path": "containers.md",
+      "downloadPath": "skills/azure/containers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/containers.md",
+      "byteCount": 10633,
+      "sha256": "967f6174713bd02772e40f5a3f526058b4a7389d8ae4a49ddcce37413d7c611a"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/azure/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/costs.md",
+      "byteCount": 11742,
+      "sha256": "3f89b1b80a0523af51dca9b7a712c7dace16be2debf0dcae7cc716593080473a"
+    },
+    {
+      "path": "databases.md",
+      "downloadPath": "skills/azure/databases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/databases.md",
+      "byteCount": 10723,
+      "sha256": "dd620117be0161771321a13adc22fab215289f77cff344c704cc8a905c72decc"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/azure/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/debug.md",
+      "byteCount": 10041,
+      "sha256": "437575533b15897678d3d2e07b6baa67bf018e76a72cbbc60ecfba5712cc9e45"
+    },
+    {
+      "path": "functions.md",
+      "downloadPath": "skills/azure/functions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/functions.md",
+      "byteCount": 9109,
+      "sha256": "6b4a9608cd7357ca04ec9c3b0512c9cdc7d34f72688c809b914c7332c1c23118"
+    },
+    {
+      "path": "governance.md",
+      "downloadPath": "skills/azure/governance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/governance.md",
+      "byteCount": 10608,
+      "sha256": "23d6c6c7a4f323fd6cfb1051adee5af20fd3da9544ee74244c10386b3334a1c1"
+    },
+    {
+      "path": "iac.md",
+      "downloadPath": "skills/azure/iac.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/iac.md",
+      "byteCount": 11147,
+      "sha256": "bf1236f6cc9e2cb736af3b7b05ce21c8733fdd35a11b5edf84b0be111d7f9843"
+    },
+    {
+      "path": "identity.md",
+      "downloadPath": "skills/azure/identity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/identity.md",
+      "byteCount": 12841,
+      "sha256": "1ab332f8875645c51f437dfa92f48d3ec95ba3669ac66bba39eba2e188db9de1"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/azure/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/memory-template.md",
+      "byteCount": 23057,
+      "sha256": "71ae99a25af66f719b66d7386cf2df6c148f48fed28457df3d46538373c35be9"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/azure/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/migration.md",
+      "byteCount": 9817,
+      "sha256": "b1c067193076764bfa7ec9b1e9281026e06fd3a6128ba47fdda1e783d2f58e15"
+    },
+    {
+      "path": "monitoring.md",
+      "downloadPath": "skills/azure/monitoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/monitoring.md",
+      "byteCount": 10221,
+      "sha256": "56475a82f8f7ea3b24088bcc4a3f34dfe90d32755006a62d292bafaf1fa3b374"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/azure/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/networking.md",
+      "byteCount": 12973,
+      "sha256": "797bd4da6ef52ddb3ef93687b8840c97817cc0a87f634d0edac215e40574c51c"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/azure/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/production.md",
+      "byteCount": 10282,
+      "sha256": "ca4935828d97da9f43d4ebf0c686a2e7c4c373cb396269abf0035e956f891c35"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/azure/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/security.md",
+      "byteCount": 11294,
+      "sha256": "f3bdaad46e8ba7b91fd6a37c731ce5a4927b0a36cd62ea94597e43027a3e67cc"
+    },
+    {
+      "path": "services.md",
+      "downloadPath": "skills/azure/services.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/services.md",
+      "byteCount": 10141,
+      "sha256": "c10b9ad06202deea138922c13eb4f63afb9e44a81bb628b2b7bbc26e4e959f87"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/azure/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/SKILL.md",
-      "byteCount": 4486,
-      "sha256": "66096499fb39ff55970f5fa4ab2683da91081cd393d9bf41ca16869acf788552"
+      "byteCount": 34209,
+      "sha256": "934e20b453a0bfe7d78d33cbad502ac5923c6874defd17bd1ddfd9516eb38464"
+    },
+    {
+      "path": "storage.md",
+      "downloadPath": "skills/azure/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/storage.md",
+      "byteCount": 9497,
+      "sha256": "f2d8fcc907b1f718307802d28e32832af1f386572ae429b826fea74d15733959"
+    },
+    {
+      "path": "vms.md",
+      "downloadPath": "skills/azure/vms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/vms.md",
+      "byteCount": 10011,
+      "sha256": "1f83dbd91e738afd15fb1e2836d0739a80c0982643a74180065693a42b43385b"
     }
   ]
 }

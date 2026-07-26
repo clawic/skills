@@ -11,7 +11,7 @@ Order on every write: authentication → authorization (RBAC) → **mutating web
 - `failurePolicy: Ignore` trades enforcement for availability: policy is skipped exactly when the cluster is unhealthy. Correct for advisory mutations, wrong for a security control you claim to enforce.
 - Webhook serving certificates expire. When they do, every write fails at once with an x509 error — cert-manager or the operator's own rotation must be verified, not assumed (`ingress.md` for the cert-manager debugging chain).
 - Mutating webhooks are invisible in your manifest: sidecar injection, default labels, image rewriting. When the running pod does not match the YAML you applied, list them: `kubectl get mutatingwebhookconfigurations`.
-- Emergency break-glass, in full knowledge of what it disables: `kubectl delete validatingwebhookconfiguration <name>` (save the YAML first). Re-apply once the backend is healthy.
+- Emergency break-glass, in full knowledge of what it disables: `kubectl delete validatingwebhookconfiguration <name>` (save the YAML into `~/Clawic/data/k8s/artifacts/` first — it is both the restore path and the runbook). Re-apply once the backend is healthy.
 
 ## CRDs
 
@@ -58,3 +58,5 @@ kubectl api-resources --verbs=list --namespaced -o name \
 - Prefer namespace-scoped operators when the option exists: blast radius, RBAC, and upgrade independence all improve at once.
 - Watch resource consumption of the controller itself. A controller listing every pod in a large cluster without field selectors is a memory problem that arrives at scale, not at install.
 - Debugging an operator's CR, in order: `kubectl describe <cr>` (events and `status.conditions` — a well-built operator explains itself there), controller logs, lease holder, then the external system it manages.
+
+Keep the extension inventory in `## Clusters` in `~/Clawic/data/k8s/memory.md`: which operators are installed, their versions and the CRD versions they own, which webhooks exist with their failure policy, and what each one is allowed to do. It is the list an upgrade plan needs first (`production.md`) and the one nobody can reconstruct mid-incident. An operator upgrade that broke something, and the CRD change that caused it, go to `## Incident History`; a break-glass procedure you had to invent — deleting a webhook configuration to unblock the cluster — belongs in `artifacts/runbook-<kebab>.md` with the YAML saved and its `## Boxes` line added.

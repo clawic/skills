@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "6ddec7ccc3abe24ddd03156df8ad6ed689b11ee820f68a34ff24f5b714248cb2",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "93de376421211abcd2a6fb65dc7c3f6913a41c7820a87d5e43e7f8bea6ec0431",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "crm",
     "name": "CRM",
-    "description": "Guide users building a personal CRM from simple files to structured database.",
-    "version": "1.0.0",
+    "description": "Runs a CRM: contacts, companies, deals, pipeline stages, follow-ups, and the data hygiene that keeps it usable. Use when setting up, rescuing, or operating a CRM (personal, freelance, sales, donor, or job-search); when the pipeline needs review, a deal has gone quiet, a forecast has to be defended, or who has not been contacted in months; when contacts are duplicated, bouncing, or out of date; when importing/exporting a CSV of leads, or migrating between plain files, Notion, HubSpot, or Salesforce; when choosing which CRM to use, or why nobody updates the current one; when defining stages, fields, tags, lead scoring, or win/loss reasons; when logging a call or email for later; and when a deletion, unsubscribe, or do-not-contact request has to be honored. Not for address-book upkeep and birthdays (`people`), delivering the client work itself (`clients`), outreach campaigns (`outreach`), sourcing candidates (`recruiter`), or support tickets (`customer-support`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/crm",
-    "summary": "First Interaction - Ask what they're tracking: clients, leads, investors, job contacts, networking — context shapes schema - Ask their technical comfort: spreadsheets, JSON, databases — determines starting format - Creat",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/crm/config.yaml` (what the user declared) and `~/Clawic/data/crm/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/crm",
     "manifestPath": "registry/skills/crm.json"
   },
@@ -26,15 +26,113 @@
       "path": "_meta.json",
       "downloadPath": "skills/crm/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/_meta.json",
-      "byteCount": 158,
-      "sha256": "efb92f1d4b47fceb9f1abc2dfe90fd40b16d013fd6b1c5f4cbadfa030978f510"
+      "byteCount": 234,
+      "sha256": "8ad92ad1cc5709d3aba3950e379e675d9dd4d80d48fa26d92b9766f13f4d0276"
+    },
+    {
+      "path": "adoption.md",
+      "downloadPath": "skills/crm/adoption.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/adoption.md",
+      "byteCount": 8092,
+      "sha256": "a56e660d8f631bca2fbba0a05a4b569b4c7d97712ae621d055e74dd6dae7d09e"
+    },
+    {
+      "path": "automation.md",
+      "downloadPath": "skills/crm/automation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/automation.md",
+      "byteCount": 9653,
+      "sha256": "d45214672a2ea2ed00283fc78ebfd2c339f232ad7b2ce5e449e17bbcbbcacd06"
+    },
+    {
+      "path": "files-and-sqlite.md",
+      "downloadPath": "skills/crm/files-and-sqlite.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/files-and-sqlite.md",
+      "byteCount": 9742,
+      "sha256": "6c6b02fd35529c6ca832b05ecf1243d40b5db759e31008de1fef1376152e4b8d"
+    },
+    {
+      "path": "followup.md",
+      "downloadPath": "skills/crm/followup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/followup.md",
+      "byteCount": 10215,
+      "sha256": "4efaeb0098a39ceb20a3c1c442252af972ab3eb70d8dbe0ea9db74120fd191a2"
+    },
+    {
+      "path": "fundraising.md",
+      "downloadPath": "skills/crm/fundraising.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/fundraising.md",
+      "byteCount": 11467,
+      "sha256": "9f1c347b180393f3087f8e7cc27178954b7687157b468719e41f62f331078266"
+    },
+    {
+      "path": "hygiene.md",
+      "downloadPath": "skills/crm/hygiene.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/hygiene.md",
+      "byteCount": 9705,
+      "sha256": "aec7386fc3d071517201207a42794c6987a699dad08ee4fbcae829f8d1e02f89"
+    },
+    {
+      "path": "import.md",
+      "downloadPath": "skills/crm/import.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/import.md",
+      "byteCount": 10396,
+      "sha256": "4199b57745d6edac086f14e100f968114807ab6f8c02ea5a642b90fc40778b67"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/crm/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/memory-template.md",
+      "byteCount": 26485,
+      "sha256": "cf33a13d130e7cbc780e25986e89c149d66539fbf3050efd6d4b4345fec8f701"
+    },
+    {
+      "path": "metrics.md",
+      "downloadPath": "skills/crm/metrics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/metrics.md",
+      "byteCount": 7858,
+      "sha256": "8dca7b2a42a9449094bb36af726cc9dc83243f1de4bb3b3960767c7eacb0dc16"
+    },
+    {
+      "path": "personal-crm.md",
+      "downloadPath": "skills/crm/personal-crm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/personal-crm.md",
+      "byteCount": 10362,
+      "sha256": "bbb40cda7305c27ce55d974b6ce6e81a9cd6fdfb618ad2a361f7cbdb810ac37c"
+    },
+    {
+      "path": "pipeline.md",
+      "downloadPath": "skills/crm/pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/pipeline.md",
+      "byteCount": 10711,
+      "sha256": "d76ffa5da2639ab6064ff337a323fd41043b6b3eafed55c8bf0a0dfcd06fbe7f"
+    },
+    {
+      "path": "privacy.md",
+      "downloadPath": "skills/crm/privacy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/privacy.md",
+      "byteCount": 11819,
+      "sha256": "c3a3a156e06369209df53078a17ea19cbc95d539b7c7e6acd9ca966d3406fbe0"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/crm/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/schema.md",
+      "byteCount": 10092,
+      "sha256": "3fab17c861dc84370643e97cd1d50857f6a0bedfda24c662f24beec80f720e8b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/crm/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/SKILL.md",
-      "byteCount": 3548,
-      "sha256": "f5accbc5e1ebc077e58d90cc3ed74b3ad2a0b748048464054c22a86b4a3493cc"
+      "byteCount": 25176,
+      "sha256": "922bc236e6e3ccaf9bcd9e10cb131c5206e10b69eec37533ae9fb7f2f8437f70"
+    },
+    {
+      "path": "tools.md",
+      "downloadPath": "skills/crm/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/crm/tools.md",
+      "byteCount": 8637,
+      "sha256": "93fb7eafdd7bfe07141c4015db053ec3302d4fe10a3698ed974e0a4882697a81"
     }
   ]
 }

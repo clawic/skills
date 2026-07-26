@@ -77,4 +77,8 @@ tcpdump -ni any 'tcp[tcpflags] & (tcp-syn|tcp-rst) != 0'   # who resets whom
 
 Every runtime networking change is gone at reboot unless paired with its persistence mechanism: `ip`/`sysctl -w` → a file in `/etc/sysctl.d/` and the distro's network config; `iptables` → `iptables-save`; `nft` → `/etc/nftables.conf`; `firewall-cmd` → `--permanent`. Verify the pairing the same day, not at the next unplanned reboot (→ `SKILL.md` rule 5).
 
-Related: SSH specifics and lockout safety → `ssh.md` · sysctl tuning and persistence → `kernel.md` · exposure baseline for public hosts → `hardening.md`.
+## Record It
+
+Firewall state is the change most likely to be undone accidentally and the hardest to reconstruct: every rule added or removed goes to `~/Clawic/data/linux/changes/<year>.md` with its front end, its persistence step (`--permanent`, `iptables-save`, `/etc/nftables.conf`), its rollback, and how it was verified from OUTSIDE the host. The set of listening ports a host is supposed to have belongs in `## Listening` in `baselines/<host>.md`, because a new listener is only visible as a diff. Which firewall front end this host actually uses goes on its row in `## Hosts` — checking all four again next session is wasted work (`memory-template.md`).
+
+Related: SSH specifics and lockout safety → `ssh.md` · sysctl tuning and persistence → `kernel.md` · exposure baseline for public hosts → `hardening.md` · unexpected outbound connections → `compromise.md`.

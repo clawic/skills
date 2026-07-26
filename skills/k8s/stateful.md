@@ -60,3 +60,5 @@ Honest frontier: managed services win unless at least two of these hold — you 
 | Scaled up, old data reappeared | Retained PVCs bound to those ordinals | Delete the PVCs deliberately, or expect the data |
 | Cannot edit `volumeClaimTemplates` | The field is immutable | `--cascade=orphan` recreate |
 | Two pods writing one volume | RWO across nodes, or a force-delete during a partition | Move to `ReadWriteOncePod`; restore from backup |
+
+Stateful work produces the numbers nobody wants to measure twice: the real `terminationGracePeriodSeconds` a graceful membership change needs, the quorum size and its PDB, the observed peak memory of a database under load. Write them into the workload's row in `## Workloads` in `~/Clawic/data/k8s/memory.md`. The backup schedule and the restore rehearsal go in the `## Due` table, and the rehearsal's measured RTO in `deploys/<year>.md` (`backup.md`); the decision to run this engine in-cluster rather than managed, with what it was traded against, belongs in `artifacts/decision-<kebab>.md` with its `## Boxes` line.

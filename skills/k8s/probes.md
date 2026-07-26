@@ -72,3 +72,5 @@ Because step 2 is concurrent, a pod that exits immediately on SIGTERM drops in-f
 | Restart storm during a dependency outage | Liveness touching that dependency | In-process only |
 | Pod ready, traffic still 502 | LB registration lag | `readinessGates`, or `minReadySeconds` (`rollouts.md`) |
 | Probe passes, users see errors | Health endpoint returns 200 unconditionally | Make it assert something that can fail |
+
+The two numbers this file produces are worth more than the manifest they end up in: the **boot budget** that actually covers a cold start, and the **real drain time** a graceful shutdown needs. Both come from watching a live rollout, and both are guessed wrong by every later engineer who did not. Write them into the workload's row in `## Workloads` in `~/Clawic/data/k8s/memory.md` the moment they are measured (Core Rule 10).

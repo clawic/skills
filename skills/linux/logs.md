@@ -73,4 +73,8 @@ journalctl --since "2026-07-01" --until "2026-07-02 06:00" -o short-iso
 - Set retention deliberately: journal vacuum policy plus logrotate `rotate N`. "Keep everything" ends as a full disk during an incident, which is when logs matter most.
 - Structured output (`-o json`) is what makes journal data usable by a collector without reparsing free text.
 
-Related: disk reclaim → `disk-space.md` · unit logging directives → `systemd.md` · audit rules and log shipping → `hardening.md`.
+## Record It
+
+Retention is a decision with a rollback, so it goes to `~/Clawic/data/linux/changes/<year>.md`: the journald caps you set, the logrotate rule you added, the shipping target you configured, and how to undo each. Put the retention review itself in `## Due` — "keep everything" becomes a full disk during the incident when logs matter most, and nobody notices the drift until then. What an investigation concluded goes to `incidents/<year>.md`, not into a log excerpt: the line that explained it, in one sentence, beats a thousand pasted lines. Strip tokens and passwords out of any log excerpt before it is written anywhere under `~/Clawic/data/` (`memory-template.md`).
+
+Related: disk reclaim → `disk-space.md` · unit logging directives → `systemd.md` · audit rules and log shipping → `hardening.md` · preserving logs off-box during a breach → `compromise.md`.

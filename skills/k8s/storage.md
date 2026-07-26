@@ -70,3 +70,5 @@ Each arrow is a separate failure point, and `kubectl describe pvc` plus `describ
 | Volume mounts empty | Wrong `subPath`, or a fresh volume where data was expected | `kubectl exec ... ls -la` on the mount before blaming the app |
 | Writes fail, pod Ready | Volume full | `kubelet_volume_stats_available_bytes`; expand |
 | Data gone after a rollout | The workload used emptyDir, or the PVC was recreated | Check whether the PVC still exists and its `Bound` age |
+
+Two things here outlive the session. Any volume whose reclaim policy, access mode, or snapshot schedule was decided deliberately — especially a `Retain` on data nobody can re-derive — goes into the workload's row in `## Workloads` in `~/Clawic/data/k8s/memory.md`; a future engineer deleting that PVC needs to find the decision before the incident, not after. And the orphaned-PVC sweep (`kubectl get pvc -A` matched against existing workloads, per `stateful.md`) is a recurring job: put it in the `## Due` table with its date, and anything found and knowingly kept in `## Known Gaps`.

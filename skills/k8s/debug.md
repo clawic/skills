@@ -2,6 +2,8 @@
 
 Work symptom-first. Each chain is ordered by probability, and every step is a check that eliminates a branch, not a guess. If two steps in a row produce nothing, you are in the wrong chain — go back to the Status Decoder in SKILL.md.
 
+**Read `## Incident History` in `~/Clawic/data/k8s/memory.md` before starting** (and whatever `## Boxes` points to for it). Most production failures are a shape that has happened before; if the row names a runbook in `artifacts/`, open that instead of re-deriving the chain.
+
 ## CrashLoopBackOff
 
 1. `kubectl logs <p> -p --tail=200`. Empty previous logs means the process died before writing anything: bad entrypoint, missing binary, or an arch mismatch (exit 126/127 → `docker` skill).
@@ -79,3 +81,12 @@ Check in this order; each is a one-minute test:
 ## When You Are Truly Stuck
 
 Reduce to the smallest object that still fails: `kubectl run tmp --image=<same-image> --restart=Never --command -- sleep 1d` in the same namespace, then re-add pieces one at a time — the ServiceAccount, then the volumes, then the securityContext, then the network policy. The addition that breaks it names the subsystem and the file to open next.
+
+## Before You Close The Session
+
+Once the cause is named, write it down — the diagnosis is the expensive part and it evaporates by Monday:
+
+- The shape, its root cause, and what actually fixed it → a row in `## Incident History` in `~/Clawic/data/k8s/memory.md`. If the shape is already there, update `Last seen` and sharpen the fix rather than adding a second row.
+- A shape seen three times, or one whose fix is a procedure rather than a sentence → a runbook at `~/Clawic/data/k8s/artifacts/runbook-<kebab>.md`, opening with the symptom that should make someone read it, with every secret replaced by its pointer — plus its `## Boxes` line in the same turn.
+- Anything found and deliberately not fixed → `## Known Gaps`, with the date and why.
+

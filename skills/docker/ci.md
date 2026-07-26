@@ -1,6 +1,8 @@
 # CI — Building Images Where There Is No Yesterday
 
-CI runners are amnesiac: every trick that makes local builds fast (warm cache, existing images) is absent. CI Docker work is cache strategy + tagging strategy + a security boundary decision.
+CI runners are amnesiac: every trick that makes local builds fast (warm cache, existing images) is absent. CI Docker work is cache strategy + tagging strategy + a security boundary decision. `ci_platform` in `config.yaml` decides the dialect of every example below; when it is unset, say which one you are assuming before writing a pipeline file.
+
+**Before changing a pipeline**, read `## Stacks` and `## Registries` in `~/Clawic/data/docker/memory.md` — the platforms this project actually builds, the registry it pushes to, the mirror in front of Docker Hub and the retention policy on PR tags are recorded there (`registry.md` for the registry side).
 
 ## Cache in CI (the difference between 90s and 9min builds)
 
@@ -57,3 +59,5 @@ docker buildx build --platform linux/amd64,linux/arm64 -t app:$TAG --push .
 - `docker buildx imagetools inspect app:$TAG` — digest + platforms without pulling; assert the platforms you meant to build.
 - Smoke the artifact, not the source: run the PUSHED image (`docker run --rm app@$DIGEST --version` or your healthcheck) as a CI step — catches "builds fine, missing runtime dep" before deploy does.
 - Record the digest in the build output/artifact metadata — it is your rollback key (production.md).
+
+**When a released build ships**, write its row in `~/Clawic/data/docker/deploys/<year>.md`: date, service, host, digest, tag, rollback target, result (SKILL.md Rule 9, format in `memory-template.md`). **When the pipeline's shape changes** — platforms built, cache backend, the socket-boundary choice — update the service's row in `## Stacks` and, if the working pipeline file is worth re-reading, save it to `artifacts/<kebab-name>.md` with its `## Boxes` line in the same turn. Every CI credential is a pointer in those files (`env:REGISTRY_TOKEN`), never a value.

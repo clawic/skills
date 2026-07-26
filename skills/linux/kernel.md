@@ -21,8 +21,8 @@ sysctl --system                          # reload every file, printing what appl
 
 | Key | Default | When to change it |
 |---|---|---|
-| `vm.swappiness` | 60 | 1-10 for databases and latency-sensitive services (→ `memory.md`) |
-| `vm.overcommit_memory` | 0 | 1 for fork-heavy processes that reserve large address spaces; 2 only with a calculated ratio (→ `memory.md`) |
+| `vm.swappiness` | 60 | 1-10 for databases and latency-sensitive services (→ `oom.md`) |
+| `vm.overcommit_memory` | 0 | 1 for fork-heavy processes that reserve large address spaces; 2 only with a calculated ratio (→ `oom.md`) |
 | `vm.dirty_background_ratio` / `vm.dirty_ratio` | 10 / 20 | Lower both on hosts where large write bursts cause multi-second stalls |
 | `fs.inotify.max_user_watches` | distro-dependent, often 8192-65536 | Raise for editors, hot reloaders, and log shippers — the ENOSPC that is not a disk problem |
 | `fs.file-max` | Sized from RAM | Rarely; the per-process limit is what you hit first (→ `processes.md`) |
@@ -57,7 +57,7 @@ cat /sys/module/<mod>/parameters/<param> # the value actually in effect
 ## dmesg And The Ring Buffer
 
 - `dmesg -T` for human timestamps, `dmesg -w` to follow, `journalctl -k -b` for the journal's copy with reliable timestamps.
-- What only the kernel log tells you: OOM kills (→ `memory.md`), I/O errors and device resets (→ `storage.md`), conntrack table exhaustion and interface flaps (→ `networking.md`), segfaults with the faulting address, filesystem remounts to read-only, and hardware corrected/uncorrected errors.
+- What only the kernel log tells you: OOM kills (→ `oom.md`), I/O errors and device resets (→ `storage.md`), conntrack table exhaustion and interface flaps (→ `networking.md`), segfaults with the faulting address, filesystem remounts to read-only, and hardware corrected/uncorrected errors.
 - The buffer is finite and wraps; on a chatty host the message you want may already be gone unless the journal persisted it (→ `logs.md`).
 - Taint flags: `cat /proc/sys/kernel/tainted` non-zero means proprietary modules, a forced module load, or a previous oops. Non-zero taint is context for a bug report, not a fault by itself.
 
@@ -73,4 +73,8 @@ cat /sys/module/<mod>/parameters/<param> # the value actually in effect
 - Keep the previous kernel installed. The most common recovery from a bad kernel is choosing the older entry in the GRUB menu, and that entry has to exist.
 - Vendor-specific tuning guides (database, storage, network appliance) are the legitimate source for kernel settings. Apply them as a documented set with a rollback file, not as accumulated one-liners.
 
-Related: memory tunables in context → `memory.md` · network limits → `networking.md` · boot parameters and initramfs → `boot.md`.
+## Record It
+
+Before reading this file's tables, check `artifacts/` for an existing tuning set for this host — re-deriving one is how two contradictory sysctl files end up in `/etc/sysctl.d/`. After applying: a single tunable goes to `~/Clawic/data/linux/changes/<year>.md` (key, value, persistence file, rollback, why); a coherent SET of them goes to `artifacts/tuning-<host>-<workload>.md` with the measurement that justified it and the exact rollback, plus its `## Boxes` line in `memory.md`. A tunable that exists only in one incident's shell history is a future outage (`memory-template.md`).
+
+Related: memory tunables in context → `oom.md` · network limits → `networking.md` · boot parameters and initramfs → `boot.md` · measuring before and after → `performance.md`.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "7541950833f0b23a9951b19251ab96c47359450ff088feadd5ea78ca3c72ad95",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "f4bf60e728cc54a0f4b79f5a5c3a5f0ef90a3dc21a2431d27720585c5495a876",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "vps",
     "name": "VPS",
-    "description": "Provision, secure, and manage virtual private servers with practical hosting guidance.",
-    "version": "1.0.0",
+    "description": "Runs rented virtual private servers end to end: picking a provider and plan, first boot, snapshots, resizing, IP addresses, and moving between hosts. Use when choosing between Hetzner, DigitalOcean, Vultr, or Linode, when a box is unreachable and it is unclear whether the fault is the provider or the machine, when SSH refuses and the only way in is the web console or rescue mode, when the disk filled, the plan has to change, or a snapshot has to be restored, when a firewall rule looks correct but is ignored, when the provider sends an abuse notice or suspends the server, when outbound mail is rejected or blacklisted, or when bandwidth overage or IPv4 charges make the bill jump. Covers provider firewalls, private networking, and restorable backups. Not for Linux internals (`linux`), container runtime problems (`docker`), reverse-proxy/TLS configuration (`nginx`), DNS record design (`dns`), or managed platforms with no server to administer (`hosting`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/vps",
-    "summary": "VPS Management Rules Choosing a VPS - Match location to users — latency matters more than raw specs for user-facing apps - ARM instances cost 20-40% less with equivalent performance for most workloads — check compatibili",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/vps/config.yaml` (what the user declared) and `~/Clawic/data/vps/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file th",
     "repositoryPath": "skills/vps",
     "manifestPath": "registry/skills/vps.json"
   },
@@ -26,15 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/vps/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/_meta.json",
-      "byteCount": 158,
-      "sha256": "5913ddfffcfc048953566c438888ea1b353999d289af31a7ed98a6ec70b5c726"
+      "byteCount": 234,
+      "sha256": "ee7039c01d682eb3a92184046e784008d5443234e447a01a6feb4098fcace9ad"
+    },
+    {
+      "path": "access.md",
+      "downloadPath": "skills/vps/access.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/access.md",
+      "byteCount": 11443,
+      "sha256": "f57bc8c79cd5c580f91578c45c81f4f4dae018b337f959199858acc1ce5b9998"
+    },
+    {
+      "path": "backups.md",
+      "downloadPath": "skills/vps/backups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/backups.md",
+      "byteCount": 10148,
+      "sha256": "4d93ada3398c724e938c314774ca709c18da687488f0c5c9913d8809de0d6548"
+    },
+    {
+      "path": "choosing.md",
+      "downloadPath": "skills/vps/choosing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/choosing.md",
+      "byteCount": 7769,
+      "sha256": "9a9bfdaf67e5ef34599b6a1a13bb00888dbc1316a745dd59cbf93a5668277d67"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/vps/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/costs.md",
+      "byteCount": 10246,
+      "sha256": "3bc83d36885b8ceec3140335537f7b0514f7934b4ccaff482400ed85c99bb82e"
+    },
+    {
+      "path": "email.md",
+      "downloadPath": "skills/vps/email.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/email.md",
+      "byteCount": 8994,
+      "sha256": "930c9bf2d3dc3760e0a0d342779f2f63b81f9d1125b185e74d0d367f9784f1a9"
+    },
+    {
+      "path": "firewall.md",
+      "downloadPath": "skills/vps/firewall.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/firewall.md",
+      "byteCount": 9283,
+      "sha256": "64338e5fa1c2360c25d797229fd021fb230a8f354e1c5475bc85b74038b49341"
+    },
+    {
+      "path": "hosting.md",
+      "downloadPath": "skills/vps/hosting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/hosting.md",
+      "byteCount": 9977,
+      "sha256": "25ba7f971ce8aa4d0b1e2f8245f1f68d59bd4f854798eaf9e08e5e7593579cea"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/vps/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/incidents.md",
+      "byteCount": 7910,
+      "sha256": "35e8234869236851fca3d632efba36b7231b08b389f651e1d24945a78572586c"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/vps/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/memory-template.md",
+      "byteCount": 21031,
+      "sha256": "3b879037783a2bc5e8c048d199ba9552665d9b4a035fb4c61e3bce18d5d3969e"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/vps/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/migration.md",
+      "byteCount": 10676,
+      "sha256": "ce4522df04663f430c09db3ddf5f6ce0ab38377eceddf77c9193181f7a0fc732"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/vps/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/networking.md",
+      "byteCount": 9051,
+      "sha256": "c27ce06425a7ac2f1ec9a1f34dc0ad58198cf3f4ce07177738b28833632d9e68"
+    },
+    {
+      "path": "operations.md",
+      "downloadPath": "skills/vps/operations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/operations.md",
+      "byteCount": 10274,
+      "sha256": "131ade7184c01a8fbdbb4ddb8de612daf2d921e217dc3b4f311291cc37b48764"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/vps/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/providers.md",
+      "byteCount": 7298,
+      "sha256": "cf50f2735858f5d08e2e523ce029c65f354f739f7b4a2dc57595b9066330d6d7"
+    },
+    {
+      "path": "provisioning.md",
+      "downloadPath": "skills/vps/provisioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/provisioning.md",
+      "byteCount": 9071,
+      "sha256": "4b4aa872fd3920fc85c6e45b92164327c9ddf0c529c08aea3dfd24c3e698230a"
+    },
+    {
+      "path": "resizing.md",
+      "downloadPath": "skills/vps/resizing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/resizing.md",
+      "byteCount": 9867,
+      "sha256": "b6d4d3699940a78ea01f569da0adc49cd3aaca065221d27e32e6c028b99600d9"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/vps/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/security.md",
+      "byteCount": 12028,
+      "sha256": "75ed216da7c9b8caf8aa100a1af7e020a84447271f572e08ccd95558dba909a5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vps/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/SKILL.md",
-      "byteCount": 3800,
-      "sha256": "a8826c5cf8341bedb45fad14488b890f2191af08cb039f441fe7322fc0f73752"
+      "byteCount": 29398,
+      "sha256": "861672ee54ff0c2813f897e3fb413ed5e989b6d6fc9ba3747c54d37e8f7bb07d"
     }
   ]
 }

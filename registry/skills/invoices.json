@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "f8a51665c9d0077e4ff92d8629f726a86d494510aa8a638ef5782c81062b087e",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "362c4ea51c37dee949f336231620cf73cbff83546ed25b0911f61f4d37984af0",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "invoices",
     "name": "Invoices",
-    "description": "Capture, extract, and organize received invoices with automatic OCR, provider detection, and searchable archive.",
-    "version": "1.0.1",
+    "description": "Files, checks, and audits the invoices you receive: OCR and e-invoice XML, duplicate and fraud checks, VAT deduction, and a searchable archive. Use when an invoice, bill, or receipt arrives as a PDF, photo, email attachment, or portal download and has to be filed; when asked where an old invoice is, or what was spent with a supplier last quarter; when preparing a VAT return or an export for an accountant; when an invoice looks wrong, duplicated, or larger than usual; when a supplier's bank details changed on the document; when a recurring invoice never arrived; and when a credit note, reverse charge, import VAT, or a foreign currency has to be booked correctly. Covers Factur-X/ZUGFeRD, XRechnung, Peppol, supplier normalization, and retention mandates. Not for issuing invoices to your own clients (`invoice`), tracking personal spending (`expenses`), chasing a client who owes you money (`clients`), or building a billing system (`billing`).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/invoices",
-    "summary": "Trigger Use when user receives invoices (email, photo, PDF) and wants them organized automatically. **Key difference:** This skill MANAGES received invoices. The `invoice` skill CREATES invoices to send. --- Storage ``` ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/invoices/config.yaml` (what the user declared) and `~/Clawic/data/invoices/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/invoices",
     "manifestPath": "registry/skills/invoices.json"
   },
@@ -26,43 +26,106 @@
       "path": "_meta.json",
       "downloadPath": "skills/invoices/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/_meta.json",
-      "byteCount": 244,
-      "sha256": "1ac989690f4826b22afe78875d01bd90b9205ea580c04a155b3c1a068aba6650"
+      "byteCount": 318,
+      "sha256": "8d22c504b9ec090dbf562f3aba378fbaf4d0307005b809e7f422e20db02f2daf"
+    },
+    {
+      "path": "approvals.md",
+      "downloadPath": "skills/invoices/approvals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/approvals.md",
+      "byteCount": 9106,
+      "sha256": "91abbba5d4565ac2503d2785bebd179d5c1ffbd5bc31e9ee53a1b4da2093211d"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/invoices/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/capture.md",
+      "byteCount": 10186,
+      "sha256": "df30f6a387606ba520f29ef36c304256f23247e059691f52a90a0462fd1a4bbf"
+    },
+    {
+      "path": "countries.md",
+      "downloadPath": "skills/invoices/countries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/countries.md",
+      "byteCount": 12582,
+      "sha256": "df670d6d1dcc1d1595f66e532f99e79d35e10c02f2a9b455c854b501558e1c6d"
+    },
+    {
+      "path": "disputes.md",
+      "downloadPath": "skills/invoices/disputes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/disputes.md",
+      "byteCount": 9190,
+      "sha256": "ec2664f5cc08ca0eac38694074ce0b3d4a835bde980db96156752f8fddcb6a91"
     },
     {
       "path": "extraction.md",
       "downloadPath": "skills/invoices/extraction.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/extraction.md",
-      "byteCount": 2099,
-      "sha256": "b1c43030ee63689ad5637c62e16a83ec863c978a049e44e89bbc5bc1f8d8c3fb"
+      "byteCount": 10390,
+      "sha256": "ac8fb1525807aa508f8d264f07245bba01c7d0d23b379edaf455a0ed40344150"
     },
     {
-      "path": "legal.md",
-      "downloadPath": "skills/invoices/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/legal.md",
-      "byteCount": 2055,
-      "sha256": "b8216ab5da71812e534928324528c06203ca4b32d9dcc9951ed6fd9c015376bf"
+      "path": "filing.md",
+      "downloadPath": "skills/invoices/filing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/filing.md",
+      "byteCount": 9791,
+      "sha256": "8fceeb78e42b3d6079cc9ab3b1ab3888948e65c18374b8a3e677a1e427e54cbd"
     },
     {
-      "path": "process.md",
-      "downloadPath": "skills/invoices/process.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/process.md",
-      "byteCount": 3193,
-      "sha256": "c30fc7b2743802ba367976fb93ca9b1c172ddc21d790edf6386fa35bfa20aa5d"
+      "path": "memory-template.md",
+      "downloadPath": "skills/invoices/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/memory-template.md",
+      "byteCount": 29037,
+      "sha256": "47f7dcb660b1ab481f7e6538b8dd93480986a72e0471cac503f2fc6f117985ae"
+    },
+    {
+      "path": "payments.md",
+      "downloadPath": "skills/invoices/payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/payments.md",
+      "byteCount": 9979,
+      "sha256": "e8c016a8c422fa42d69bf8411ca961c0856dc20124ea39cbdcf843c208e3bab4"
+    },
+    {
+      "path": "period-close.md",
+      "downloadPath": "skills/invoices/period-close.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/period-close.md",
+      "byteCount": 9992,
+      "sha256": "979b551f2e4ce19aa18a3c6d5a36eb797fd2f403e6f435cdaea6f0a109ccae73"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/invoices/search.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/search.md",
-      "byteCount": 2072,
-      "sha256": "6424b5f6cf1c01d1d57cc2a9e5f5ae022c599a2c4835b1754bc388bfe22be876"
+      "byteCount": 7695,
+      "sha256": "b2b49b0f9f502af3e88767bdabc862ee9553293106621053e9c958d9345e769b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/invoices/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/SKILL.md",
-      "byteCount": 2258,
-      "sha256": "422c4082979c6dd89d0c43470fd12dcd55466fbf4bdf5c2bf81c7c53e32152e1"
+      "byteCount": 25672,
+      "sha256": "281f533c5bb8f28bd0da94fb5d86bffee2e3849100b0a346f7727e725a1d8e9f"
+    },
+    {
+      "path": "suppliers.md",
+      "downloadPath": "skills/invoices/suppliers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/suppliers.md",
+      "byteCount": 10429,
+      "sha256": "0c441d3823e68efc7f9132f2e2b86783de56461a12468396ee393236beaf40d7"
+    },
+    {
+      "path": "validation.md",
+      "downloadPath": "skills/invoices/validation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/validation.md",
+      "byteCount": 9584,
+      "sha256": "b681c0556e16216403b3f74f70e9bff2cc6590902244745c41166307dc599059"
+    },
+    {
+      "path": "vat.md",
+      "downloadPath": "skills/invoices/vat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/invoices/vat.md",
+      "byteCount": 11444,
+      "sha256": "bca346b5d897812db264ef9525357a98030bda21aa5efeb25b69e1617fbc7a50"
     }
   ]
 }

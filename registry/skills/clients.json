@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "35950757d83a2f84f51ed38fa3c7dc95b8da33fc7941d1dcc83bc140aa1ae948",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "737292e5ff1773479f31153772bd1e80cf5f2467b51a1ed363cd1a3bf0f73308",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "clients",
     "name": "Clients",
-    "description": "Build a personal client system for tracking relationships, projects, documents, and history.",
-    "version": "1.0.0",
+    "description": "Manages client relationships end to end for freelancers, consultants, and agencies: qualifying leads, scoping, onboarding, scope creep, getting paid. Use when a prospect enquires and the call is whether to take them, when a proposal or SOW has to be scoped and priced, when onboarding needs access, stakeholders and approvals, when the client keeps adding \"one small thing\", when an invoice is late and the chase has to escalate, when a client goes quiet or the relationship is decaying, when rates have to go up on an existing client, when an engagement is renewing, expanding, or ending, and when a client has to be fired or a hard conversation drafted. Covers retainers versus project work, change orders, procurement, handover, and referrals. Not for drafting the contract itself (`contract`), issuing invoices (`invoice`), filing received invoices (`invoices`), a personal contact book (`people`), running an agency as a business (`agency`), or platform tactics on Upwork (`upwork`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/clients",
-    "summary": "Core Behavior - User mentions client → offer to create/update profile - User needs context → surface relevant history - User shares document → help associate to client - Create `~/Clawic/data/clients/` as workspace File ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/clients/config.yaml` (what the user declared) and `~/Clawic/data/clients/memory.md` (what you observed, plus its `## Boxes` index and its `## Due` table). Open",
     "repositoryPath": "skills/clients",
     "manifestPath": "registry/skills/clients.json"
   },
@@ -26,15 +26,106 @@
       "path": "_meta.json",
       "downloadPath": "skills/clients/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/_meta.json",
-      "byteCount": 166,
-      "sha256": "1e63fb8daabda9e65132b9e4fd0387e10df69aed480d57c44d3529719fa11649"
+      "byteCount": 242,
+      "sha256": "5966fca2cc96bf1c49594e0a0e22cdc54b325c4f60d3feb4e6e0fbd37fdaef32"
+    },
+    {
+      "path": "delivery.md",
+      "downloadPath": "skills/clients/delivery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/delivery.md",
+      "byteCount": 8963,
+      "sha256": "cc1bb0d50f8bccc41933a02c4959228f942d992ad823ec143f1d9d2e39552dab"
+    },
+    {
+      "path": "difficult-clients.md",
+      "downloadPath": "skills/clients/difficult-clients.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/difficult-clients.md",
+      "byteCount": 10525,
+      "sha256": "511a32c692d6cc87206202de82e965f0a90598796097e27295bbad295b23aaa9"
+    },
+    {
+      "path": "getting-paid.md",
+      "downloadPath": "skills/clients/getting-paid.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/getting-paid.md",
+      "byteCount": 10712,
+      "sha256": "a141e12b3d47acc00f6201104204c4523c9c073f2c7d7cb1c5c0501c0eb48121"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/clients/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/memory-template.md",
+      "byteCount": 21168,
+      "sha256": "a4ce23bbc0cfd42dce1d3257e796d7dafd176fa658a1cd4f237c078d49fe266f"
+    },
+    {
+      "path": "offboarding.md",
+      "downloadPath": "skills/clients/offboarding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/offboarding.md",
+      "byteCount": 9137,
+      "sha256": "423ff060ff00940b0b5b34a990b3e03864af63c22a3c46a4b17ea16de6fed563"
+    },
+    {
+      "path": "onboarding.md",
+      "downloadPath": "skills/clients/onboarding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/onboarding.md",
+      "byteCount": 9772,
+      "sha256": "b5176d541596b3cdfdef0390771f69656bc192d3c505617e478900e515f8f650"
+    },
+    {
+      "path": "pipeline.md",
+      "downloadPath": "skills/clients/pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/pipeline.md",
+      "byteCount": 9325,
+      "sha256": "4ce6b0d78452fc881c6c1374995eadbb9c4379b543d7e15da99eb546707d75a2"
+    },
+    {
+      "path": "portfolio.md",
+      "downloadPath": "skills/clients/portfolio.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/portfolio.md",
+      "byteCount": 9321,
+      "sha256": "0b80fb912c14e8fc8b970fbe79556ea48c51022a780ee6c7f0afa377a34a938f"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/clients/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/pricing.md",
+      "byteCount": 9396,
+      "sha256": "6bdc157d5e29d261124d922bfcfd8222c338a0d446b6aaba645b387f6b611e71"
+    },
+    {
+      "path": "proposals.md",
+      "downloadPath": "skills/clients/proposals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/proposals.md",
+      "byteCount": 8232,
+      "sha256": "aebe0495ccd3f63a45b5743adff8505aad56145695b966c09c65360f1ec45ab0"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/clients/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/retention.md",
+      "byteCount": 9425,
+      "sha256": "6831ba33289c6e9950dbedce0b40b192467195bb0baf117e6fafa1699e4aaa3f"
+    },
+    {
+      "path": "scope.md",
+      "downloadPath": "skills/clients/scope.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/scope.md",
+      "byteCount": 8651,
+      "sha256": "33e3ff887272cc3a4fba54d46c9113f4bb917d66971203c9e148e5435eb7b42d"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/clients/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/SKILL.md",
-      "byteCount": 4184,
-      "sha256": "4a54534fe1ca98f35275601090e6621e6d1a2067ed137b119e5c4231a20364cb"
+      "byteCount": 24629,
+      "sha256": "2de382019e96ecfd4b4bb68e5274b1480615efa56176e542c980e29eb3603b61"
+    },
+    {
+      "path": "stakeholders.md",
+      "downloadPath": "skills/clients/stakeholders.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/stakeholders.md",
+      "byteCount": 8749,
+      "sha256": "6086f017ff34d78bd3609a185a3ee39292a509e94e1ba9bf03b2b48b427a35da"
     }
   ]
 }

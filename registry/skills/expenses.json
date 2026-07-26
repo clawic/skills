@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "fb62a75b6336515c84ad3be56d59ba47c8a17a3a3c460706c72c1235007d8115",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "9d88fcbe32811ecd2570e2c522e1d787ecc55047cc07af1abc521b959b150997",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "expenses",
     "name": "Expenses",
-    "description": "Build a personal expense tracking system for daily spending, shared costs, business expenses, and project budgets.",
-    "version": "1.0.0",
+    "description": "Logs, splits, categorizes and reports spending — daily expenses, shared costs, reimbursements, receipts, project and trip budgets. Use when the user paid for something and wants it recorded, when a bill has to be split and someone told what they owe, when a group trip or shared flat needs settling up, when a client owes money back and the claim has to be assembled, when they ask where their money went or why a category jumped, when a renovation, wedding or trip budget needs a remaining number, when something was paid in another currency, when a refund, deposit or duplicate charge has to be booked, or when the log no longer matches the card statement. Not for net worth or debt planning (`personal-finance-tracker`), zero-based budgeting (`zero-based-budgeting`), subscription inventories (`subscriptions`), issuing invoices (`invoice`), OCR archiving of supplier invoices (`invoices`), payment software (`billing`), or bookkeeping (`accountant`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/expenses",
-    "summary": "Core Behavior - User mentions spending money → offer to log expense - Different contexts need different tracking → adapt to their use case - Surface patterns when asked → where is money going? - Create `~/Clawic/data/exp",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/expenses/config.yaml` (what the user declared) and `~/Clawic/data/expenses/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/expenses",
     "manifestPath": "registry/skills/expenses.json"
   },
@@ -26,15 +26,99 @@
       "path": "_meta.json",
       "downloadPath": "skills/expenses/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/_meta.json",
-      "byteCount": 168,
-      "sha256": "2a7637c0443e03944adc643383a0e15861751666e952ac8d0bb3c43d8770f6eb"
+      "byteCount": 244,
+      "sha256": "c86079d56aeaecbdd8270141463a4b39c681b9aaff3639456c86e2d780f2f02e"
+    },
+    {
+      "path": "budgets.md",
+      "downloadPath": "skills/expenses/budgets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/budgets.md",
+      "byteCount": 8726,
+      "sha256": "5ba2e12a535abf8a44648e39078e648df864dc3657292b3cafc58a2ea3dc5fe5"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/expenses/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/business.md",
+      "byteCount": 11993,
+      "sha256": "5d099ea236266490416849751a1efeebafaca798516e5c09619f5f4df99553ff"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/expenses/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/capture.md",
+      "byteCount": 10166,
+      "sha256": "87ea733206ec7d148dd56a81cdec18ce3fc987fe085aa5c62d4780b05d0f0217"
+    },
+    {
+      "path": "categories.md",
+      "downloadPath": "skills/expenses/categories.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/categories.md",
+      "byteCount": 8164,
+      "sha256": "6177da8b5f26da8e3ec6097f62e34fc274fc47c228e0e91c27110bb45b44243d"
+    },
+    {
+      "path": "currency.md",
+      "downloadPath": "skills/expenses/currency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/currency.md",
+      "byteCount": 7421,
+      "sha256": "02b9c48c771354ac9a23a5b42c21c9b458b66d8d44f03d836a2dbbe593a3a846"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/expenses/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/memory-template.md",
+      "byteCount": 24432,
+      "sha256": "2c3311e19ddadbb7164c19ced10d6b2586151b5d0328cf2f815010dc0389215f"
+    },
+    {
+      "path": "receipts.md",
+      "downloadPath": "skills/expenses/receipts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/receipts.md",
+      "byteCount": 7464,
+      "sha256": "dcf44a76be6ae1cff0e857f864d85f552fe05dcc5cca354e24c37eca8a3c8179"
+    },
+    {
+      "path": "reconciliation.md",
+      "downloadPath": "skills/expenses/reconciliation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/reconciliation.md",
+      "byteCount": 8924,
+      "sha256": "454ceb739655300418f610d04255a4878c5b531843b875e006fdafe06b9481e9"
+    },
+    {
+      "path": "reimbursement.md",
+      "downloadPath": "skills/expenses/reimbursement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/reimbursement.md",
+      "byteCount": 9044,
+      "sha256": "957e3e73eadaa0ef310887e2ee5318c192741762a7471373a04b453d19e55e73"
+    },
+    {
+      "path": "reports.md",
+      "downloadPath": "skills/expenses/reports.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/reports.md",
+      "byteCount": 8534,
+      "sha256": "aafee94a4e550dacac284a0c02fb5d3967f0b7200a1ed81dc392550530eb8723"
+    },
+    {
+      "path": "sharing.md",
+      "downloadPath": "skills/expenses/sharing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/sharing.md",
+      "byteCount": 10430,
+      "sha256": "c33fd692227050791d784ee3256e1daf95c97be63d5f1150cc117d2537f6fb3a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/expenses/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/SKILL.md",
-      "byteCount": 4640,
-      "sha256": "18ff7cd36a6c5ea053275716bbade6b3367724bc3d7f9ad0a953467c6ed804b1"
+      "byteCount": 19333,
+      "sha256": "5211d4e680a2f45d72a7c2c8b6b7c356369bfbcc5808150fe70c81db32efe0e4"
+    },
+    {
+      "path": "travel.md",
+      "downloadPath": "skills/expenses/travel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/expenses/travel.md",
+      "byteCount": 7504,
+      "sha256": "04b5f7cd503b2d105ebc0b25c1f2fe4824aa01f40b600f9eba8b58120ef573f9"
     }
   ]
 }

@@ -66,3 +66,5 @@ Before starting a deploy that matters:
 - PDB present and looser than the replica count?
 - Grace period and `preStop` sized for real drain time (`probes.md`)?
 - A watch on `kubectl rollout status --timeout=<deadline>` in CI, since nothing rolls back by itself?
+
+Record the deploy in `~/Clawic/data/k8s/deploys/<year>.md` — date, workload, image digest and commit, chart or overlay version, and **the digest to roll back to**. During the next incident nobody can reconstruct which digest was last good, and `revisionHistoryLimit` may already have discarded the ReplicaSet that knew. A rollback that actually happened gets its own row with what forced it, and the failure shape goes to `## Incident History` in `memory.md`.

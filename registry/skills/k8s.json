@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "c15d812b42b50f728cc771cb7d3c0af2a56f937ed5adcd1ac8a2394406a594a2",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "59843afab4fd93ec3e716fc24dfdd8dd08b9f0a20bcff308df448f206d557e4e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "k8s",
     "name": "Kubernetes",
-    "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, or when locking down RBAC, NetworkPolicy, Pod Security and Secrets. Covers kubectl triage, StatefulSets and PVCs, Jobs and CronJobs, autoscaling, admission webhooks, node drains and cluster upgrades. Not for building container images — that is `docker`.",
-    "version": "1.0.3",
+    "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, when locking down RBAC, NetworkPolicy, Pod Security and Secrets, when the API server throttles or an admission webhook blocks every create, when a GPU pod never schedules, when a mesh sidecar breaks a Job, or when planning a cluster upgrade, a backup, or a restore. Covers kubectl triage, StatefulSets, Jobs and CronJobs, autoscaling, operators, node drains and DaemonSet agents. Not for building container images — that is `docker`.",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/k8s",
-    "summary": "User preferences and memory live in `~/Clawic/data/k8s/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/da",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/k8s/config.yaml` (what the user declared) and `~/Clawic/data/k8s/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/k8s",
     "manifestPath": "registry/skills/k8s.json"
   },
@@ -26,15 +26,22 @@
       "path": "_meta.json",
       "downloadPath": "skills/k8s/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json",
-      "byteCount": 389,
-      "sha256": "29e8482be1f056dcf14dabf561a46d7f584a38f17bc98102cb52d25de0ce6ef6"
+      "byteCount": 463,
+      "sha256": "ad058f5acad1fde986e4b2f39d62d4f82b108a5b9bba973533d2703aa0f2ea1d"
     },
     {
       "path": "autoscaling.md",
       "downloadPath": "skills/k8s/autoscaling.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/autoscaling.md",
-      "byteCount": 6836,
-      "sha256": "ab8332d834d05b14a8bab3e5c3d00a9389b79be668b9fd1626ad409eada654b2"
+      "byteCount": 7319,
+      "sha256": "ce7bdbae7ddafeaaf273930c4e902469ae89f06b3602ae80b384f35eb79a8b9b"
+    },
+    {
+      "path": "backup.md",
+      "downloadPath": "skills/k8s/backup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/backup.md",
+      "byteCount": 8138,
+      "sha256": "8fe5181c4d8793c16cc52d5f180d1ff2dcbd68ca2a209995df517dddd4d7d3b8"
     },
     {
       "path": "commands.md",
@@ -47,29 +54,50 @@
       "path": "config-and-secrets.md",
       "downloadPath": "skills/k8s/config-and-secrets.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/config-and-secrets.md",
-      "byteCount": 6333,
-      "sha256": "f2ba74dc2acdc69c7fcd80797863a10fd94fc660d68378ad784b2d1b33d95484"
+      "byteCount": 7037,
+      "sha256": "0723c25c6173a81ef3fe7546251ca8613bcd84b8c7fd17758725b4614997581d"
+    },
+    {
+      "path": "control-plane.md",
+      "downloadPath": "skills/k8s/control-plane.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/control-plane.md",
+      "byteCount": 9363,
+      "sha256": "7a10f7fc591593d3adb72e95e4b5be4eb2a43c39d63453306410e81f6c5a408f"
+    },
+    {
+      "path": "daemonsets.md",
+      "downloadPath": "skills/k8s/daemonsets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/daemonsets.md",
+      "byteCount": 8450,
+      "sha256": "247004078ab81fbd7095ce510216c988bf24cb9954925982e5e8e46c32f2eb1a"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/k8s/debug.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/debug.md",
-      "byteCount": 8376,
-      "sha256": "de8cef4f263e57ef39c36decc30e1cf96907c875f7bec616e7fb2735d004b7b7"
+      "byteCount": 9410,
+      "sha256": "0a6132c6c0b72549f04990689b87de817faeb142792cfd6d6590af29ac4f8bef"
     },
     {
       "path": "dns.md",
       "downloadPath": "skills/k8s/dns.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/dns.md",
-      "byteCount": 6066,
-      "sha256": "b1bdabe28de4d6c78bd0d35defead7dae58f6ea25a600cc5fd52f5c28ff54fd8"
+      "byteCount": 6560,
+      "sha256": "8e5d99cccd9d5d2b0a27fd7ed94bd0962c5eee35c5bfbb482481af901214325b"
+    },
+    {
+      "path": "gpu.md",
+      "downloadPath": "skills/k8s/gpu.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/gpu.md",
+      "byteCount": 8786,
+      "sha256": "1ffd3ced26e04ed19c7a0c53e37f0fb12360eaf1e7ef641911e6ae5d3b9b8707"
     },
     {
       "path": "ingress.md",
       "downloadPath": "skills/k8s/ingress.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/ingress.md",
-      "byteCount": 9852,
-      "sha256": "3ed5b6e0b27425d4fcf6e95786d9bb22214500793c7509c8dca76cf03d1f935d"
+      "byteCount": 10870,
+      "sha256": "e50a22fa898b7bbbdbefab18d17ec0713fe2a04613fcebc09e65ffa3d543177b"
     },
     {
       "path": "jobs.md",
@@ -82,78 +110,85 @@
       "path": "local-dev.md",
       "downloadPath": "skills/k8s/local-dev.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/local-dev.md",
-      "byteCount": 5964,
-      "sha256": "040c8d256a56312f3d0ba4924209ba631b969af10f52c55335c0dfe2cacfcc76"
+      "byteCount": 6580,
+      "sha256": "358ba87f533376d1618ebf34663aea3b87cb2d5d67a921901e3248da64340895"
     },
     {
       "path": "manifests.md",
       "downloadPath": "skills/k8s/manifests.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/manifests.md",
-      "byteCount": 7107,
-      "sha256": "7d6a4b06115b7b00227b04550a67b2bad57363be9848b992834a655bfb2171f8"
+      "byteCount": 7635,
+      "sha256": "2e7864d723567c73f7280539b6087e0906f83cca11315f019a77f4f23cddcb8f"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/k8s/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/memory-template.md",
-      "byteCount": 1070,
-      "sha256": "f661280732ce27929b1a99781530933b7645e59a291f4894f32c7d20353a4e28"
+      "byteCount": 19218,
+      "sha256": "04023d182ef20694a7a041ace2fb74d50712087eb3f385093ecd601d0224679c"
+    },
+    {
+      "path": "mesh.md",
+      "downloadPath": "skills/k8s/mesh.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/mesh.md",
+      "byteCount": 9604,
+      "sha256": "83b34f7efa40fd68af79a1f5aebb32553f39fbe6b628ad90756acbc4e10a7577"
     },
     {
       "path": "networking.md",
       "downloadPath": "skills/k8s/networking.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/networking.md",
-      "byteCount": 7809,
-      "sha256": "9a3a4e4de27d12877c5cf992b562730b3aa276722a00b96b4323595cea82c8d3"
+      "byteCount": 8353,
+      "sha256": "3bde75a57120ad303b691c589ae65d48bf55e06972f543585783708033e2eee5"
     },
     {
       "path": "nodes.md",
       "downloadPath": "skills/k8s/nodes.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/nodes.md",
-      "byteCount": 7185,
-      "sha256": "b47924955142126d6b573c06444794bbe209ad51c396bb8714ce1022cdcd3516"
+      "byteCount": 7974,
+      "sha256": "d59375f8cd623f3fb0f21db0a633d74f8ed5f5274f096fbf8a6b2a84f3370f5f"
     },
     {
       "path": "operators.md",
       "downloadPath": "skills/k8s/operators.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/operators.md",
-      "byteCount": 7408,
-      "sha256": "dfe7125895e97b62c23f0a8b069e21f66780000cf0a59282f0a03510b42691c8"
+      "byteCount": 8149,
+      "sha256": "2e648082d5854fac3ae03a0effc3a1c01df35d054a10d677035869ef40ec84de"
     },
     {
       "path": "probes.md",
       "downloadPath": "skills/k8s/probes.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/probes.md",
-      "byteCount": 7684,
-      "sha256": "2da8433de5fb0d7cfc52c2ae653cc47b9b7d7f7a206785b6ed89e3cb70fbf48a"
+      "byteCount": 8114,
+      "sha256": "141b225a1b4582ed4abe7df838d0b783040f3b3df81f1a48cc54587dcc92c3cb"
     },
     {
       "path": "production.md",
       "downloadPath": "skills/k8s/production.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/production.md",
-      "byteCount": 6964,
-      "sha256": "8833914320fd919b7b6d0c3976acd8efbbeb4d19adde08cffbb0a782d83583fc"
+      "byteCount": 8024,
+      "sha256": "79fa104dca82602dd293de8cc0ed4d2394c149c0caaa31159ba93733652ed3d6"
     },
     {
       "path": "rbac.md",
       "downloadPath": "skills/k8s/rbac.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/rbac.md",
-      "byteCount": 6367,
-      "sha256": "a50921c56133898a775691ee526bcd2edef238397a78849685686282abbc169d"
+      "byteCount": 6796,
+      "sha256": "c97dd7f6239950deff36a29e0f6c1ab6f00c05d7f51437d7ff77fe3ffb7c8941"
     },
     {
       "path": "resources.md",
       "downloadPath": "skills/k8s/resources.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/resources.md",
-      "byteCount": 8157,
-      "sha256": "9a9b3282f775daef7c6a2986fc354e210ace1420841deda1d021f3c51c5aa466"
+      "byteCount": 8767,
+      "sha256": "3a2426c93f73fca62c23d4c507870396bb6e1a3ee857ebda13e3185d1a95f76e"
     },
     {
       "path": "rollouts.md",
       "downloadPath": "skills/k8s/rollouts.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/rollouts.md",
-      "byteCount": 7204,
-      "sha256": "43640fdf6e5e03eda655033e80a07619bfa960726afbcd09cfb759804b223c28"
+      "byteCount": 7667,
+      "sha256": "b68cdfa63656d1cd0f0beac5a4840e11b83aeb7d64ea80d79049b60b53ab0dc5"
     },
     {
       "path": "scheduling.md",
@@ -166,36 +201,29 @@
       "path": "security.md",
       "downloadPath": "skills/k8s/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/security.md",
-      "byteCount": 7508,
-      "sha256": "4f6a808b5c67450833ed56cf1f1eec99ef1b09375eee20ca34acdc48ab8181e0"
-    },
-    {
-      "path": "setup.md",
-      "downloadPath": "skills/k8s/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/setup.md",
-      "byteCount": 3577,
-      "sha256": "4e3645491cbb7509adf490f9d56285d961267e08402e6d39f0304037b62bcd4d"
+      "byteCount": 8463,
+      "sha256": "80889be54eee2321de14794998a1e2a5167a49284270f2034206485d2c0eb4d2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/k8s/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md",
-      "byteCount": 21656,
-      "sha256": "9c4f1a362ae0fa5c8780b61e8e765c40c9bfb23d62f611edd4b8d567b95e4282"
+      "byteCount": 30600,
+      "sha256": "45d5cc489a3ba9b29cff4ea7713c84005f9e18b0d027335f2b2d832412afbb56"
     },
     {
       "path": "stateful.md",
       "downloadPath": "skills/k8s/stateful.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/stateful.md",
-      "byteCount": 7455,
-      "sha256": "f75c63b9e51fc9172e534ae145740f8e4fc1b5cd9afb04ce0534ab43fdc84f10"
+      "byteCount": 8075,
+      "sha256": "12c3cb3e991c641629d84e08341270079e354088c4390bb7eb0af80d99300863"
     },
     {
       "path": "storage.md",
       "downloadPath": "skills/k8s/storage.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/storage.md",
-      "byteCount": 7268,
-      "sha256": "c874d3c4bd50bef4b84ac12c80beb4d61563e2f61568630b0323dddab150dbec"
+      "byteCount": 7859,
+      "sha256": "fbcb116a67e43b785f5e721b949b38f99d73d4bb8b206a572f8c8581e7b2cd39"
     }
   ]
 }

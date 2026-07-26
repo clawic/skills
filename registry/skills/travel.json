@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "70470f3b6b67ee204dc3c85e232a837b708c98367de7165c006aeff5ed1110f1",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "c7580310be31fce0a89245b1214f5f060717a6c3c94773537fec279e0460528e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "travel",
     "name": "Travel",
-    "description": "Build a personal travel system for dream destinations, trip planning, and travel memories.",
-    "version": "1.0.0",
+    "description": "Runs a traveler's standing system: dream list, passports and visas, Schengen day counts, bookings, points, budgets, and what broke last time. Use when someone names a destination they want to visit someday, when a passport, visa, ETA, or entry rule has to be checked before dates are fixed, when counting days already spent in a visa-limited region, when a reservation or cancellation deadline needs recording, when a flight is cancelled or delayed, a bag goes missing, a passport is stolen or a claim has to be filed, when deciding which destination to take next against a season and a budget, when travelling with children, a group, elderly parents or a pet, when a stay runs past a month or needs per-diem handling, or when points or elite status are about to expire. Not for building one trip's day-by-day itinerary (`travel-planning`), fare search (`flight`), accommodation search (`booking`), rental cars (`car-rental`), or moving abroad for good (`expat`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/travel",
-    "summary": "Core Behavior - User mentions travel idea → offer to save to wishlist - User planning a trip → create trip folder with checklist - User returns from trip → help document memories - Create `~/Clawic/data/travel/` as works",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/travel/config.yaml` (what the user declared) and `~/Clawic/data/travel/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/travel",
     "manifestPath": "registry/skills/travel.json"
   },
@@ -26,15 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/travel/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/_meta.json",
-      "byteCount": 164,
-      "sha256": "fa1d2028125229f2b1034b939adcae88acf539a6d9f7ff1a4e4a642f6aa10247"
+      "byteCount": 240,
+      "sha256": "220d7eb55c4a000b60d3737dead7ab65b05b55283298e43ee88418deb597aacc"
+    },
+    {
+      "path": "bookings.md",
+      "downloadPath": "skills/travel/bookings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/bookings.md",
+      "byteCount": 7999,
+      "sha256": "e95c9adfdcc26c48f4d122fec97efafbfc43cd9ed908c2225f4bba88e9049b14"
+    },
+    {
+      "path": "business-trips.md",
+      "downloadPath": "skills/travel/business-trips.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/business-trips.md",
+      "byteCount": 8466,
+      "sha256": "ab0b90be23a2d8573494215b954624273c49a0b43ff74422456c979d12b4e9e4"
+    },
+    {
+      "path": "companions.md",
+      "downloadPath": "skills/travel/companions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/companions.md",
+      "byteCount": 9521,
+      "sha256": "72ac9cb5f1882d0b89b6b3766068b970805d738a2aaf84b9a6c13232e38af104"
+    },
+    {
+      "path": "debrief.md",
+      "downloadPath": "skills/travel/debrief.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/debrief.md",
+      "byteCount": 7343,
+      "sha256": "7a1007f109ca009ed10e4dcdb27fb94ce5836f82df3ed5c25fcbbbf4a5f56997"
+    },
+    {
+      "path": "disruption.md",
+      "downloadPath": "skills/travel/disruption.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/disruption.md",
+      "byteCount": 9823,
+      "sha256": "33e707628a6d0375a08f4bfaea776719d292a03e2767cb11aba1988bfafd5d87"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/travel/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/documents.md",
+      "byteCount": 9711,
+      "sha256": "f721faf635c1903b3c46464c38adbaa7856362640e27de0d8079109803c28e26"
+    },
+    {
+      "path": "health.md",
+      "downloadPath": "skills/travel/health.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/health.md",
+      "byteCount": 11057,
+      "sha256": "f226bccea2a7d4c5d35b2d6cde02c226625f578bd04734aa26b80e1583465d7c"
+    },
+    {
+      "path": "kit.md",
+      "downloadPath": "skills/travel/kit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/kit.md",
+      "byteCount": 6779,
+      "sha256": "790f15478fcef973a4e1262d18862d58b93989d72148318664d69de2ebfc2321"
+    },
+    {
+      "path": "long-stays.md",
+      "downloadPath": "skills/travel/long-stays.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/long-stays.md",
+      "byteCount": 8884,
+      "sha256": "d486c0e108e941ba7425c96d79ecaeff36e68d986a2a79f576a08bc670802bc2"
+    },
+    {
+      "path": "loyalty.md",
+      "downloadPath": "skills/travel/loyalty.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/loyalty.md",
+      "byteCount": 7858,
+      "sha256": "639b47434c22ef86f1f493505771b110910b08f266fd9e8ad444c4610f4d4baf"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/travel/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/memory-template.md",
+      "byteCount": 25881,
+      "sha256": "02184b25e237e42cab1e51b98ec8d44973e7199d4218a673a8f38c8ad8b3a114"
+    },
+    {
+      "path": "money.md",
+      "downloadPath": "skills/travel/money.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/money.md",
+      "byteCount": 8624,
+      "sha256": "3893b7630f89b68f8b446d9bf7a350a8d6b1b4860bae2b8db7ac14dc53f815c5"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/travel/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/safety.md",
+      "byteCount": 9118,
+      "sha256": "4beb7a9516710b5a3e5ad339597b675f6d6c1a537e86584246051ceafb3e1b20"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/travel/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/SKILL.md",
-      "byteCount": 3881,
-      "sha256": "86d5ecaa0c19479f51220d04b3633c6f5a680cae0368812848d782383202c9ca"
+      "byteCount": 26790,
+      "sha256": "bdec476c3e0f733b9f6d2c431d0f3909238434d444bc87319b0f4cd2b930ba4c"
+    },
+    {
+      "path": "transport.md",
+      "downloadPath": "skills/travel/transport.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/transport.md",
+      "byteCount": 8687,
+      "sha256": "1368b5e0a0b5ab230548c104c9d15496c17e4b1d938b3c456d61c9c6bb34c006"
+    },
+    {
+      "path": "travel-day.md",
+      "downloadPath": "skills/travel/travel-day.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/travel-day.md",
+      "byteCount": 8541,
+      "sha256": "6389acf00cf1fd6ef39065457e3adb065a1d1d162a4730d729a7295455bb9fdf"
+    },
+    {
+      "path": "wishlist.md",
+      "downloadPath": "skills/travel/wishlist.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/wishlist.md",
+      "byteCount": 6488,
+      "sha256": "0f9855ae4dbf3b792c26e1bfc7e146b0a7ccf5fa35bf8087e1b39d3535de4e23"
     }
   ]
 }

@@ -2,6 +2,8 @@
 
 Diagnosis is where containers eat hours. Work symptom-first; each chain is ordered by probability, and every step is a check, not a guess.
 
+**Before the first command**, read `## Pain Points` and `## Environment` in `~/Clawic/data/docker/memory.md` and open any `artifacts/runbook-*.md` its `## Boxes` index names for this symptom. Half of all repeat incidents are the same incident, and the runbook is faster than the chain below. Runtime-specific behavior (VM ceiling, rootless, Podman) is in `runtimes.md`; language runtime behavior under a cgroup is in `languages.md`.
+
 ## The Universal First Three
 
 1. `docker logs --tail 100 <c>` — works on dead containers; read the LAST lines first (the crash), then scroll up for the cause.
@@ -76,3 +78,11 @@ Check in this order; each is a one-minute test:
 ## When You Are Truly Stuck
 
 Reproduce minimal: `docker run --rm -it <image> sh` with ZERO flags, then re-add your real flags one at a time — the flag that breaks it names the subsystem, and the file above to open next.
+
+## Write Down What It Was
+
+A cause that took more than a couple of minutes to find is worth more than the fix. Three destinations (`memory-template.md`):
+
+- **One line in `## Pain Points`** of `~/Clawic/data/docker/memory.md`: date, symptom, actual cause, what changed. This is what stops the next session from re-walking the chain.
+- **A fact that will change future decisions** — the VM's memory ceiling, the VPN MTU, a corporate CA, a host port already taken, an SELinux relabel requirement — goes in `## Environment` instead, because it applies to everything, not just this incident.
+- **The second time the same failure appears**, it stops being a note and becomes `artifacts/runbook-<symptom>.md`: the ordered checks, the fix, and the digest to roll back to. Add its `## Boxes` line with a read condition naming the symptom, so the next session opens it before the chain above rather than after.

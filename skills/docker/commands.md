@@ -54,4 +54,6 @@ docker compose down -v              # also deletes named volumes — destructive
 
 ## Cleanup
 
-`docker system df -v` first — locate before deleting. Prune matrix: → SKILL.md Disk Leaks.
+`docker system df -v` first — locate before deleting. Prune matrix: → SKILL.md Disk Leaks. Scope the prune to `build_cache_budget_gb`, and when `destructive_confirm` is true, name exactly what dies before running it.
+
+Anything these commands establish that outlives the session has a home: a cause in `## Pain Points`, a machine or network fact in `## Environment`, a deployed digest in `deploys/<year>.md`, a host in the shared `~/Clawic/data/servers/servers.md` (`memory-template.md`). A forensic finding that stays in the scrollback gets rediscovered at the same cost next quarter.

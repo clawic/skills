@@ -61,7 +61,7 @@ Signature: `df` on `/` reports 40 GB used, `du -x /` totals 12 GB, and the gap n
 3. **Package caches**: `apt-get clean` (Debian) or `dnf clean all` (RHEL); `/var/cache/*` generally.
 4. **Old kernels** — a frequent `/boot` filler: `apt autoremove --purge` on Debian, `dnf remove --oldinstallonly` on RHEL. `/boot` full also blocks the next kernel upgrade mid-transaction (→ `packages.md`).
 5. **Crash dumps and cores**: `/var/crash`, `/var/lib/systemd/coredump`, `coredumpctl` retention.
-6. **Temp**: `/tmp` clears at reboot (often tmpfs, so it eats RAM instead — → `memory.md`); `/var/tmp` survives reboots and is the one that quietly grows for years.
+6. **Temp**: `/tmp` clears at reboot (often tmpfs, so it eats RAM instead — → `oom.md`); `/var/tmp` survives reboots and is the one that quietly grows for years.
 7. **User caches on build hosts**: `~/.cache`, language package caches, container build caches. Big, safe, and back the next day — schedule instead of doing it by hand.
 
 Everything above is reversible. Anything that deletes application data goes through the owner of that data, not through a disk-space incident.
@@ -78,4 +78,8 @@ Everything above is reversible. Anything that deletes application data goes thro
 - "Read-only file system" after a burst of I/O errors means the kernel remounted it read-only to protect data — check `dmesg -T` and the device's SMART data before clearing space (→ `storage.md`).
 - A full `/boot` (a separate, small partition on most Debian/Ubuntu installs) fails upgrades while `/` has hundreds of free gigabytes. Always read the `df` line for the specific mount point named in the error.
 
-Related: block devices, LVM, resizing → `storage.md` · journald and rotation policy → `logs.md` · package caches and kernels → `packages.md`.
+## Record It
+
+A disk that filled once will fill again: write the incident (host, what consumed the space, what reclaimed it, time to resolve) to `~/Clawic/data/linux/incidents/<year>.md`, and the second time the same cause appears, promote it to `## Recurring Incidents` in `memory.md` with the fix that holds. Any retention or reserve change (`journalctl --vacuum-*` policy, logrotate rule, `tune2fs -m`) goes to `changes/<year>.md`, and a cleanup that has to repeat goes to `## Due` rather than into someone's memory (`memory-template.md`).
+
+Related: block devices, LVM, resizing → `storage.md` · journald and rotation policy → `logs.md` · package caches and kernels → `packages.md` · alerting before it fills → `monitoring.md`.

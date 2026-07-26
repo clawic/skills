@@ -37,7 +37,7 @@ The rule that follows: local clusters validate **manifests and application wirin
 - **k3s / k3d** — real distribution, small footprint, Traefik and a local-path provisioner preinstalled. Closest to a real cluster of the three, and its opinionated defaults are also what differs from your production distribution.
 - **Docker Desktop Kubernetes** — shares the local image store, so no loading step; single node, no realistic networking or storage.
 
-Whatever the flavor, record it as `cluster_flavor` once the user reveals it: it changes the LoadBalancer, StorageClass, and Ingress advice in every other file.
+Whatever the flavor, record it as `cluster_flavor` in `~/Clawic/data/k8s/config.yaml` once the user reveals it: it changes the LoadBalancer, StorageClass, and Ingress advice in every other file.
 
 ## The Inner Loop
 
@@ -55,3 +55,5 @@ Ordered by how often it works:
 2. Same resource limits, including the CPU limit: throttling-shaped bugs disappear on an unlimited laptop (`resources.md`).
 3. Multi-node kind config when the bug involves scheduling, anti-affinity, RWO volumes across nodes, or `externalTrafficPolicy`.
 4. Do not attempt: cloud LB behavior, cloud IAM, CSI driver semantics, node pressure eviction, or anything about etcd. Those reproduce only on a real cluster — use a staging namespace with a copy of the workload instead.
+
+Two things learned here are declarations, so they go straight to `~/Clawic/data/k8s/config.yaml` the moment the user reveals them: the local distribution as `cluster_flavor`, and the kubeconfig context that must never be treated casually as `prod_context`. The second one is the cheapest incident prevention in this skill — once it is recorded, every state-changing command against that context is proposed with its blast radius instead of executed. Local clusters and scratch contexts do not belong in the shared `servers.md` inventory; only real clusters and pet machines do.

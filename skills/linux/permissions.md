@@ -78,4 +78,8 @@ getfacl /srv/app                            # read the mask line before believin
 - Files in `/etc/sudoers.d/` are ignored if the name contains a dot or ends in `~` — `myrule.conf` never loads and nothing warns you (→ `users.md`).
 - Redirection happens in YOUR shell before sudo runs: `sudo echo x > /etc/f` fails. `echo x | sudo tee /etc/f`, or `sudo sh -c 'echo x > /etc/f'`.
 
-Related: unit-level denials → `systemd.md` · SSH key permission rejections → `ssh.md` · users, groups, and sudoers structure → `users.md`.
+## Record It
+
+A denial that took six layers to find is worth exactly one file: the SELinux fcontext rule, the boolean, the ACL recipe, or the `ReadWritePaths=` set that finally worked goes to `~/Clawic/data/linux/artifacts/policy-<service>.md` — what it unblocked, the commands, and the date — with its `## Boxes` line in `memory.md`. Applying it is a change (`changes/<year>.md`, with `semanage fcontext -d` or the equivalent as the rollback). The second time the same class of denial appears on the same host, it is a pattern for `## Recurring Incidents` (`memory-template.md`).
+
+Related: unit-level denials → `systemd.md` · SSH key permission rejections → `ssh.md` · users, groups, and sudoers structure → `users.md` · sandboxed desktop apps denied by confinement → `desktop.md`.

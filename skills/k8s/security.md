@@ -2,6 +2,8 @@
 
 Threat model in one line: a container escape is root on the node, and root on a node is the credentials of every pod scheduled there. Everything below is about making that path longer.
 
+**Read `## Known Gaps` in `~/Clawic/data/k8s/memory.md` before auditing anything.** Findings the user already saw and consciously accepted are not findings; re-raising them every quarter is how the real ones get ignored.
+
 ## Pod Security Admission
 
 PodSecurityPolicy was removed in 1.25; the built-in replacement is namespace-label based:
@@ -92,3 +94,5 @@ RBAC cannot express field-level rules (`rbac.md`). Those need admission:
 - Images pinned by digest, signature verified at admission, registry allow-list enforced?
 - `automountServiceAccountToken: false` wherever the pod never calls the API (`rbac.md`)?
 - Audit logs shipped off-cluster and someone actually reads the five queries above?
+
+Write the sweep result rather than repeating it next quarter: anything found and deliberately not fixed goes to `## Known Gaps` in `~/Clawic/data/k8s/memory.md` with the date and the reason it was accepted; the PSA level, policy engine, and audit destination the cluster ended up with go to `## Clusters`; a securityContext, NetworkPolicy, or policy rule that finally satisfied both the workload and the profile goes to `~/Clawic/data/k8s/artifacts/policy-<name>.md` with its `## Boxes` line. Set the next audit date in `## Due`. **Nothing from an audit ever carries a secret value into those files** — a leaked-credential runbook stores `keychain:` and `vault:` pointers, never the credential it is about (`memory-template.md`).

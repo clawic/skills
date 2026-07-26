@@ -2,6 +2,8 @@
 
 BuildKit is the default builder on Docker Engine >=23.0; on older engines set `DOCKER_BUILDKIT=1` to use the `--mount` features below.
 
+**Before writing or reviewing a Dockerfile for an existing service**, read `## Stacks` in `~/Clawic/data/docker/memory.md` (or `stacks.md` if `## Boxes` points there) plus any `artifacts/dockerfile-<service>.md` it indexes: the base, the platform, the pin actually in force and the reason for any exception are recorded there. Language-specific recipes are in `languages.md`.
+
 ## Layer Cache
 
 - `COPY . .` before `RUN npm install` = dependency reinstall on every code edit. Canonical order: manifest → install → source (→ SKILL.md rule 2).
@@ -49,3 +51,5 @@ Package-manager downloads survive across builds without bloating any layer — t
 - `rm -rf /var/lib/apt/lists/*` must be in the SAME RUN as the install — a later RUN can't shrink an earlier layer.
 - Deleting a file in a later layer hides it but keeps the bytes; `docker history` shows each layer's true size.
 - No `.dockerignore` = `.git` and dependency dirs enter the build context. Context above ~100 MB in the build output is almost always this — fix the ignore file before optimizing anything else.
+
+**After a base image, platform or pin changes for a service** — or the first time a service is containerized — write its row in `## Stacks` of `~/Clawic/data/docker/memory.md`: service, image reference, base, platforms actually built, pin strictness in force, registry (`memory-template.md`). When the Dockerfile itself is the thing worth keeping, it goes to `artifacts/dockerfile-<service>.md` with the reasoning above the file and its `## Boxes` line in the same turn. A base-image choice re-argued every quarter is the cost of not writing down why alpine was rejected.

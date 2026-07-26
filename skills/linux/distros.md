@@ -51,7 +51,7 @@ Identify before typing: `cat /etc/os-release` (`ID`, `VERSION_ID`, `ID_LIKE`) is
 ## Containers Are Not Hosts
 
 - No init unless you provide one, so no systemd, no journal, and PID 1 semantics apply (the `docker` skill owns this).
-- `/proc/meminfo` and `nproc` may report the HOST's resources while the cgroup limits are much lower — every capacity rule in this skill must be read against the cgroup, not the host (→ `memory.md`, `performance.md`).
+- `/proc/meminfo` and `nproc` may report the HOST's resources while the cgroup limits are much lower — every capacity rule in this skill must be read against the cgroup, not the host (→ `oom.md`, `performance.md`).
 - `dmesg` inside a container shows the host kernel's buffer (or nothing) and cannot be trusted for attribution.
 
 ## Immutable And Minimal Server Images
@@ -73,6 +73,10 @@ esac
 - Detect, branch, and fail loudly on the unknown case. A script that silently assumes Debian on an unrecognized host is worse than one that stops.
 - Set `LC_ALL=C` in automation. Locale changes `sort` order (byte order vs collation), decimal separators, and the output format of `date` and `ls` — a script that parses tool output works on your host and produces silently wrong results on one with a different `LANG`.
 - Prefer distro-agnostic interfaces where they exist: `systemctl`, `ip`, `ss`, `journalctl`, `getent`, `findmnt`. They behave identically wherever they exist, which is most places.
-- Record the host's `distro_family` once and let it drive every subsequent command, rather than re-detecting in each step.
+- Write the host's family down once (Record It below) and let it drive every subsequent command, rather than re-detecting it at each step.
 
-Related: package operations per family → `packages.md` · firewall front ends → `networking.md` · MAC systems → `permissions.md`.
+## Record It
+
+Two different destinations, and mixing them is the common error. A per-host fact — this box is Rocky 9 with firewalld and SELinux enforcing — goes to that host's row in `## Hosts` in `~/Clawic/data/linux/memory.md`, alongside its init, filesystem layout and quirks. A user statement that their estate is standardized on something ("we are a Debian shop", "we always use nftables") is a declaration and goes to `distro_family` / `firewall_tool` / `init_system` in `config.yaml`. One Alpine box in a Debian shop must not rewrite the default (`memory-template.md`).
+
+Related: package operations per family → `packages.md` · firewall front ends → `networking.md` · MAC systems → `permissions.md` · first configuration of a new host → `new-host.md`.

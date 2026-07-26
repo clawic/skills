@@ -94,3 +94,5 @@ One list item with two selectors is an intersection; two list items are a union.
 | Pod → Pod, both healthy | `kubectl exec <p> -- nc -zv <podIP> <port>` | CNI or NetworkPolicy, in that order |
 
 Never use `ping` to test a Service: a ClusterIP has no interface and answers no ICMP. It is not down; it is not a host.
+
+A NetworkPolicy that finally allows exactly what the workload needs and nothing else is expensive knowledge: it took an outage, a DNS rule, and several rounds of selector arithmetic. Save it to `~/Clawic/data/k8s/artifacts/policy-<name>.md` with the date and what it unblocked, and add its `## Boxes` line in the same turn. The CNI in use, whether it enforces policy at all, and the cluster's pod/service CIDRs go in `## Clusters` in `~/Clawic/data/k8s/memory.md` — the CIDRs are needed by every future peering, MTU, and `ipBlock` question.

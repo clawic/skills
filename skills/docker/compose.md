@@ -1,6 +1,8 @@
 # Compose Traps
 
-`docker-compose` v1 is EOL (2023) — use the `docker compose` plugin; behavior below assumes v2.
+`docker-compose` v1 is EOL (2023) — use the `docker compose` plugin; behavior below assumes v2. The development-loop side of Compose — watch mode, hot reload, seeded databases, debuggers — is in `development.md`.
+
+**Before editing a stack that already exists**, read `## Stacks` and `## Volumes` in `~/Clawic/data/docker/memory.md` and any `artifacts/` compose file its `## Boxes` index names. The `start_period` that was tuned to a real boot time, and which volumes hold data that has never been restore-tested, are both there.
 
 ## Project Identity
 
@@ -45,3 +47,5 @@
 - The entire context uploads to the daemon before building — combined with a missing `.dockerignore` this is the usual "slow build" (→ `images.md` Size).
 - `image:` + `build:` together = build locally and tag with that name; without `image:` the tag is `<project>-<service>`.
 - YAML anchors don't cross files — for shared config use multiple `-f` files or `extends:`.
+
+**When a compose file finally works**, save it to `~/Clawic/data/docker/artifacts/compose-<stack>.md` with a line saying when to read it and why the non-obvious parts are there — the `start_period` above worst-case boot, the anonymous volume shadowing a dependency directory, the `name:` that stops two checkouts clobbering each other. Add its `## Boxes` line to `memory.md` in the same turn, one row per service in `## Stacks`, and one row per named volume in `## Volumes` (`memory-template.md`). Every value that authenticates becomes a pointer before it is written: `POSTGRES_PASSWORD: <env:POSTGRES_PASSWORD>`.

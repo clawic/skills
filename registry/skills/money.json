@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "23cd5c177bdde511dff0da7b41e7d390e8aa333fe2ab8dc9457fba52dc2f68b4",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "8c427f4353bc60bfbe939c26663e6f6380199167ddbd8f668b3a8cd2a8d4d8bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "money",
     "name": "Money",
-    "description": "Personal finance guidance with practical rules for saving, investing, and avoiding common traps.",
-    "version": "1.0.0",
+    "description": "Decides where money goes next: which debt to clear first, how big the emergency fund must be, what to save, and whether a purchase is affordable. Use when the question is \"should I pay this off or invest it\", \"how much do I need saved\", \"can I afford this\", \"rent or buy\", \"am I on track to stop working\", or \"where does my money even go\"; when a raise, bonus, inheritance, equity vest or business sale lands and nobody has decided what to do with it; when a card is at 20% and only minimums are going out; when a job ends, a diagnosis arrives, a marriage ends, or income suddenly swings; when a credit score drops or a loan is refused; or when judging a pitch, an adviser's fee, or a \"guaranteed\" return. Covers savings rate, order of operations, real-versus-nominal maths, and fee drag. Not for picking funds or brokers (`invest`), building a tracker or importing statements (`personal-finance-tracker`), a recurring-payment list (`subscriptions`), or company finance (`cfo`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/money",
-    "summary": "Personal Finance Rules Before Any Advice - Ask about existing debts, income stability, and country of residence — generic advice without context is dangerous - High-interest debt (credit cards, payday loans) must be paid",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/money/config.yaml` (what the user declared) and `~/Clawic/data/money/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/money",
     "manifestPath": "registry/skills/money.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/money/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/_meta.json",
-      "byteCount": 162,
-      "sha256": "dd93ac1f447f19bef2b2271a149f4cd6ab56c16530ba214de005044e4ccb59e2"
+      "byteCount": 238,
+      "sha256": "2577c5614de616c4e754b3cabb93addc5815e883b9958a1384ea268b4eeda545"
+    },
+    {
+      "path": "big-purchases.md",
+      "downloadPath": "skills/money/big-purchases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/big-purchases.md",
+      "byteCount": 7397,
+      "sha256": "80a26327ccfbc044a5686d1c260b8d3a2062435968d9d1c14cb8890d9721d72b"
+    },
+    {
+      "path": "budget.md",
+      "downloadPath": "skills/money/budget.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/budget.md",
+      "byteCount": 9140,
+      "sha256": "144e07e796f4c4ccf29839add909513ef7034e319055edc9f23061566f2f2d9a"
+    },
+    {
+      "path": "credit.md",
+      "downloadPath": "skills/money/credit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/credit.md",
+      "byteCount": 7189,
+      "sha256": "f161ca1f535b73f58ffd3073317e3aebaa82d35ab95af81dc4a4dfffd8eef3c3"
+    },
+    {
+      "path": "debt.md",
+      "downloadPath": "skills/money/debt.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/debt.md",
+      "byteCount": 10305,
+      "sha256": "f30f7d977b71ed6022f688605a0227500670ef26593c7543f0dbf7b242a82bd3"
+    },
+    {
+      "path": "emergency-fund.md",
+      "downloadPath": "skills/money/emergency-fund.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/emergency-fund.md",
+      "byteCount": 6618,
+      "sha256": "31abbdfb99b8ae5109e4380bb4c914588b31cedcae1f6ed68820b75ebb9bfc70"
+    },
+    {
+      "path": "household.md",
+      "downloadPath": "skills/money/household.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/household.md",
+      "byteCount": 8216,
+      "sha256": "e04789a586365e48bfa7e27f8ef24e6cbd027cc1ca02a4b10e98917dc8b18d30"
+    },
+    {
+      "path": "housing.md",
+      "downloadPath": "skills/money/housing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/housing.md",
+      "byteCount": 8938,
+      "sha256": "2df71d8b8c35929e27b253994b1ae7b3bf4b830ed602e6f224c0393603625613"
+    },
+    {
+      "path": "income.md",
+      "downloadPath": "skills/money/income.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/income.md",
+      "byteCount": 7266,
+      "sha256": "a771df1bd90051d95d13928ab8c537c75b6c30499730dcb94839103c1d6324a7"
+    },
+    {
+      "path": "insurance.md",
+      "downloadPath": "skills/money/insurance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/insurance.md",
+      "byteCount": 9458,
+      "sha256": "9f33d2aa90b182b664ed291aba3ef5ab03d35a42d17213ef9f349da0b7191947"
+    },
+    {
+      "path": "investing.md",
+      "downloadPath": "skills/money/investing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/investing.md",
+      "byteCount": 10192,
+      "sha256": "eb14662d3eddf10318848bb47d3408eace243caf97df1e81808bf56755b9c240"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/money/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/memory-template.md",
+      "byteCount": 22870,
+      "sha256": "da785045a90f9b4ac39caf1c7546010d944cf0a773bff7904abd54d00457f6c4"
+    },
+    {
+      "path": "retirement.md",
+      "downloadPath": "skills/money/retirement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/retirement.md",
+      "byteCount": 9437,
+      "sha256": "7538d21deb37ddcdee5747c77e865e488ac361ab419a2ddb4c5987106ed6e2ff"
+    },
+    {
+      "path": "reviews.md",
+      "downloadPath": "skills/money/reviews.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/reviews.md",
+      "byteCount": 7274,
+      "sha256": "b3b01f3e71a166d650757406f53f25278a2fa013539d77412ba7ff4ab034192b"
+    },
+    {
+      "path": "scams.md",
+      "downloadPath": "skills/money/scams.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/scams.md",
+      "byteCount": 8840,
+      "sha256": "b65c60c5176131a9f7a87c107eedfbfe4dde5042f8ec1f2aecabaed6226e572e"
+    },
+    {
+      "path": "self-employed.md",
+      "downloadPath": "skills/money/self-employed.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/self-employed.md",
+      "byteCount": 8246,
+      "sha256": "8baf6f1c19210df13c083b553f8049317244c2e9a3f26b8409a23d67f159b8ea"
+    },
+    {
+      "path": "shocks.md",
+      "downloadPath": "skills/money/shocks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/shocks.md",
+      "byteCount": 8209,
+      "sha256": "2b12822bddb4b367851d4656b2bb717a20f345ac7f98af77547886ebe6cdd1d1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/money/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/SKILL.md",
-      "byteCount": 3616,
-      "sha256": "80771cd25e02786f798d48c99111b92f54fe4af425706e5bd53b7d763eaa5b27"
+      "byteCount": 26279,
+      "sha256": "7acc895a795844df779398ddc8cd9638df6e03d0e90a876da0ea4ed8797fb0e9"
+    },
+    {
+      "path": "taxes.md",
+      "downloadPath": "skills/money/taxes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/taxes.md",
+      "byteCount": 8157,
+      "sha256": "7d89d9ff26ffe4705c678435a7888635705c82ea011b83529ae723ff6dc2749c"
+    },
+    {
+      "path": "windfalls.md",
+      "downloadPath": "skills/money/windfalls.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/windfalls.md",
+      "byteCount": 6797,
+      "sha256": "4dfd912d08668ac4df6cd1805bbbd43986712a8c1207d8cd0376449ac14a06de"
     }
   ]
 }

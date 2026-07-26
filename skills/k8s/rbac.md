@@ -62,4 +62,6 @@ The last query finds bindings to `system:authenticated` or `system:unauthenticat
 
 ## What RBAC Cannot Express
 
+After a least-privilege Role finally works, save it to `~/Clawic/data/k8s/artifacts/policy-<serviceaccount>.md` — the YAML, the date, what it unblocked, and which verbs were removed and proved unnecessary — and add its `## Boxes` line to `memory.md`. Deriving one from audit logs costs a full staging cycle; nobody should pay it twice. A binding deliberately left broader than ideal goes to `## Known Gaps` with its reason.
+
 RBAC operates on verbs and resources, never on field values. "Nobody may create a privileged pod", "images must come from our registry", "every Service must have a team label" are all unexpressible here — those are admission-control policies (`security.md`, `operators.md`). Trying to encode them as narrower roles produces a permission model that blocks legitimate work and still allows the thing you were worried about.

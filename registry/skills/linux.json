@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "a12b9816e8608cded13a75f4dfeb4789d42d1cd7d5f87e0b48bfcd9901087fed",
-  "generatedAt": "2026-07-26T13:17:12.651Z",
-  "sourceRevision": "2f1efd9781b3a21de717b05fbcb1dba3ab781885",
-  "manifestSha256": "42dd5e34efeab44b281e1cbe71e14cc20cff64f911d7dab1b56928576da1e20d",
+  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
+  "generatedAt": "2026-07-26T15:41:42.474Z",
+  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
+  "manifestSha256": "d82a048c9153d794df521f7d8c139d140f8ec3f60b587da7fe6ff835fd6f0c5c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "linux",
     "name": "Linux",
-    "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Covers Debian/Ubuntu, RHEL/Fedora, Arch, and Alpine. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
-    "version": "1.0.4",
+    "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Also for setting up a fresh server, deciding what to alert on, backups whose restore has never been tested, a host that may be compromised, and desktop or laptop trouble — GPU drivers, Wayland, suspend, audio, Wi-Fi. Covers Debian/Ubuntu, RHEL/Fedora, Arch, Alpine, SUSE and WSL. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/linux",
-    "summary": "User preferences and memory live in `~/Clawic/data/linux/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Cla",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/linux/config.yaml` (what the user declared) and `~/Clawic/data/linux/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/linux",
     "manifestPath": "registry/skills/linux.json"
   },
@@ -26,162 +26,190 @@
       "path": "_meta.json",
       "downloadPath": "skills/linux/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json",
-      "byteCount": 460,
-      "sha256": "e217a360a6e57ed0b6277241b6500023b35ab336bce11597d29165d01d573910"
+      "byteCount": 534,
+      "sha256": "51872d36cb474b254c436e8415934595ccbd34321a1df9b00a5d93536f090ef3"
+    },
+    {
+      "path": "backups.md",
+      "downloadPath": "skills/linux/backups.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/backups.md",
+      "byteCount": 8610,
+      "sha256": "3d72d4fd6234d2b0c94e7fca6deb2dbdf71793a0727677eae20aa8208d1c1144"
     },
     {
       "path": "boot.md",
       "downloadPath": "skills/linux/boot.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/boot.md",
-      "byteCount": 6683,
-      "sha256": "7e292f9c629eceb8d42358ac6a577f7cb9f6a97cbdb64a9a40977c3f8274b956"
+      "byteCount": 6915,
+      "sha256": "53af91f3faa6417474f09900003114b393739f8e6e6dee6689d718cb1b3d99cd"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/linux/commands.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/commands.md",
-      "byteCount": 5081,
-      "sha256": "9bfd54c2c9cbf2f575d17c8bbc1dd6395eab83c412bb3ddd3a502587fa3c354f"
+      "byteCount": 5329,
+      "sha256": "64fee77812150098aa86aa1a31980842bdefd9dbf6881806ac7827155d50b307"
+    },
+    {
+      "path": "compromise.md",
+      "downloadPath": "skills/linux/compromise.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/compromise.md",
+      "byteCount": 8542,
+      "sha256": "c150f8c7b4537fb9d9c7d920caa18d9f630045256b40edae292ee92e3309bb76"
+    },
+    {
+      "path": "desktop.md",
+      "downloadPath": "skills/linux/desktop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/desktop.md",
+      "byteCount": 9551,
+      "sha256": "1ca971906b02c9856a8573fd91dd8ec221e33e18fabd8cdc7a124d9e9b94f892"
     },
     {
       "path": "disk-space.md",
       "downloadPath": "skills/linux/disk-space.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/disk-space.md",
-      "byteCount": 6564,
-      "sha256": "6a31788568808e037f947c45e2750937cf2a57afa3b2cdfab4aadc7ef9293c14"
+      "byteCount": 7153,
+      "sha256": "9c075a15a05b5d7f15225dd719938ead0f63772d11e5e4cc73d0e549d69b076d"
     },
     {
       "path": "distros.md",
       "downloadPath": "skills/linux/distros.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/distros.md",
-      "byteCount": 6594,
-      "sha256": "1612367b71a89cc3f755c444b05588473af8114e2c8c6e8bfeb784b33d59e308"
+      "byteCount": 7244,
+      "sha256": "3c674f7acbc241c33f9b8107538387f662e77631d1fefba0929bbbb7253dcdbb"
     },
     {
       "path": "files.md",
       "downloadPath": "skills/linux/files.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/files.md",
-      "byteCount": 6990,
-      "sha256": "32cf9efbce9318b0d8dfca5e6fbf9655c8f7d1d1582b568420ca7c2da6b82bb3"
+      "byteCount": 7449,
+      "sha256": "91ee4d937577ef8e2d424af7554816d188a20132b9872de877f1706d750d5eb6"
     },
     {
       "path": "hardening.md",
       "downloadPath": "skills/linux/hardening.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/hardening.md",
-      "byteCount": 6736,
-      "sha256": "7a309f8a9933e2f9db9d99b814de3dbbd5646182eb4cf0236af4fe74ccd2305e"
+      "byteCount": 7464,
+      "sha256": "941ef8a4c1a97e7e0cd41f4b7aa78eaac61a14dd2a75d7eda90b9f02bf3e04eb"
     },
     {
       "path": "kernel.md",
       "downloadPath": "skills/linux/kernel.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/kernel.md",
-      "byteCount": 6523,
-      "sha256": "544261e54eb3756c65d02a22e88bb119b3b27f60ae708286bb337b1edae75bf7"
+      "byteCount": 7163,
+      "sha256": "269e266432ff41ef50bf4289e1806c0590797af0df936679a5854145576e3170"
     },
     {
       "path": "logs.md",
       "downloadPath": "skills/linux/logs.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/logs.md",
-      "byteCount": 6422,
-      "sha256": "7ecf1221748ca84398ec251a5452d11e625e3f985935e60967c251cd5936ad80"
+      "byteCount": 7171,
+      "sha256": "b7f7da3ce3054a47441e487117bf796855afe775160d8d068c5edfbc7f73f450"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/linux/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory-template.md",
-      "byteCount": 714,
-      "sha256": "7858f50bdddc2625a119c5c7acf68fff10b14e61b4bc8415596b5dc3274757e6"
+      "byteCount": 24071,
+      "sha256": "9b71962d08752e0aa7d87d5c19ef5cb86f31c39528c48d4fa39c08a52ffca784"
     },
     {
-      "path": "memory.md",
-      "downloadPath": "skills/linux/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory.md",
-      "byteCount": 7287,
-      "sha256": "5b702bd9e9c2da98d49049e44246349f649fe867a6393d2c2616944e22ba4955"
+      "path": "monitoring.md",
+      "downloadPath": "skills/linux/monitoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/monitoring.md",
+      "byteCount": 6954,
+      "sha256": "feb7376a2945df7f5ed37ee4ffa928097181a4df611e8d250972647086cf029b"
     },
     {
       "path": "networking.md",
       "downloadPath": "skills/linux/networking.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/networking.md",
-      "byteCount": 8426,
-      "sha256": "8be50545d477224b6afa410188bfe5706a1362515134285166da7b8e6391178e"
+      "byteCount": 9144,
+      "sha256": "4f12b5929e11e606d850d7be6e719386940de59e5a71e9f37df2152719848ef1"
+    },
+    {
+      "path": "new-host.md",
+      "downloadPath": "skills/linux/new-host.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/new-host.md",
+      "byteCount": 8244,
+      "sha256": "cdf873114d160369c9d54361484eafadf1d330fc4378d2354d4ae853ed635dc0"
+    },
+    {
+      "path": "oom.md",
+      "downloadPath": "skills/linux/oom.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/oom.md",
+      "byteCount": 7986,
+      "sha256": "e982733403cd1e1f52b92e0d292d204dbf5f737869192f3435fe8922b19d61d2"
     },
     {
       "path": "packages.md",
       "downloadPath": "skills/linux/packages.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/packages.md",
-      "byteCount": 7188,
-      "sha256": "b4ed07b3c91b45692224923d7e132296066304a92cba9aa7494bef62c39f2e35"
+      "byteCount": 7870,
+      "sha256": "2c10752873f72815e6d07ac5ff994f20805d61ad89bc86005be2858b36ebd6f5"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/linux/performance.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/performance.md",
-      "byteCount": 7088,
-      "sha256": "8576f42c8b17c343218673626d27b131210e421e0198c0fc655abe019d258301"
+      "byteCount": 7423,
+      "sha256": "4c8a5bc3e84f9570e4ab11abe1ee4f0f079654bfa2dbc20d87d85ea68aa5a0a6"
     },
     {
       "path": "permissions.md",
       "downloadPath": "skills/linux/permissions.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/permissions.md",
-      "byteCount": 7569,
-      "sha256": "9a812553a5647e685ceb5255280a34deceae030111cda4d78d9f0c0cb9738e1a"
+      "byteCount": 8220,
+      "sha256": "e5740d30ddb340362e2e42c27a4ace218cb198577886766bf843ab943598138d"
     },
     {
       "path": "processes.md",
       "downloadPath": "skills/linux/processes.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/processes.md",
-      "byteCount": 6935,
-      "sha256": "04e2011ad30408db9763c726a1251beaf4a2dd3c10a8294960d242c6f82ed6b9"
+      "byteCount": 7414,
+      "sha256": "58b0f6fb928c8323c56b107ddae6ad3aaf49af40fc9be2fd17a70c6dcb6f07f2"
     },
     {
       "path": "scheduling.md",
       "downloadPath": "skills/linux/scheduling.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/scheduling.md",
-      "byteCount": 6628,
-      "sha256": "346080c39dd863581fa394686c38d5b1e8aa73c2e3521d84d56d0e483e0a7af6"
-    },
-    {
-      "path": "setup.md",
-      "downloadPath": "skills/linux/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/setup.md",
-      "byteCount": 2557,
-      "sha256": "ffb6c6877882f717e4e1fe68eb05adf584ef5f1a249c0e7ab5def74fa73d4b9f"
+      "byteCount": 7305,
+      "sha256": "e035a87c03c76cf822284765a552556cd321ad17e794ee58c554c7e203ddb936"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/linux/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
-      "byteCount": 21162,
-      "sha256": "7eff7eea46e663bc9352f2ce0f33aeb762971a57ee9bab513afa01448c8455f7"
+      "byteCount": 28087,
+      "sha256": "4b7e49d9959acbea24d06da730a77a2ce4ccf72fa42296cb2e1c3d753cfd6abe"
     },
     {
       "path": "ssh.md",
       "downloadPath": "skills/linux/ssh.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/ssh.md",
-      "byteCount": 7661,
-      "sha256": "6c0bf4b83a557461dd713353a07a4f935b7ad81e8dcb045a1cf902e7def1ca5b"
+      "byteCount": 8403,
+      "sha256": "56548c2249e12c381b0fd0aa80b51ee254d870feffbc357b5c98f9bcc8b5893f"
     },
     {
       "path": "storage.md",
       "downloadPath": "skills/linux/storage.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/storage.md",
-      "byteCount": 7656,
-      "sha256": "4b06ae1bd20c3ea227aa1e1f893d54b815070714ee4c22c156355463232ffda0"
+      "byteCount": 8279,
+      "sha256": "dd8dcccd7d5bd8e4f35626742d65e5b3071fb956e376b253495fbbf6482d2b78"
     },
     {
       "path": "systemd.md",
       "downloadPath": "skills/linux/systemd.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/systemd.md",
-      "byteCount": 8721,
-      "sha256": "44e708b379904bf0e82fe5d8da67e9ab1d98ffa575b7914eb5e96d09e2d1223e"
+      "byteCount": 9363,
+      "sha256": "b4bf173f1122abd18c1204a3721276075749ccbed55fc30be442f9be8bbc1aa7"
     },
     {
       "path": "users.md",
       "downloadPath": "skills/linux/users.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/users.md",
-      "byteCount": 6995,
-      "sha256": "e5aaffc2b78b090464f97aa33a4ea8cb7b9e1b3042ef5acec7938dbc1778e818"
+      "byteCount": 7902,
+      "sha256": "f53a2753413c13fbacadc95513da23ce35a0b1823d4103895bcbd2d14f2a81f8"
     }
   ]
 }
