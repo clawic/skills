@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "a048c430b989d245e842ff2d6c934cc817d106e25aa10fdc5dab88792fc7ab45",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "54d72c19768dc99c0a4e2e62d857d34cee320568826cbcd1cdc3256aa1b3d3bf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "translate",
     "name": "Translate",
-    "description": "Translate text accurately — preserve formatting, handle plurals, and adapt tone per locale.",
-    "version": "1.0.0",
+    "description": "Translates and localizes text, software strings, documents, subtitles, and marketing copy between any language pair. Use when translating anything, when fixing a translation that reads machine-made, or when localizing a product: ICU plurals and gender, placeholders that must survive, string catalogs (JSON, XLIFF, .po, .strings, .xcstrings, ARB, RESX, YAML), locale codes and fallback chains, RTL and bidi breakage, CJK typography, mojibake, text expansion that overflows the UI, subtitle timing and reading speed, hreflang and multilingual SEO, glossaries, translation memory and fuzzy matches, and post-editing machine output. Use when choosing register (tu/vous, tú/usted, du/Sie, keigo), between es-ES and es-419 or zh-Hans and zh-Hant, or when a certified, legal, or medical translation carries liability. Not for writing original copy natively in one language (spanish, french, german, japanese, chinese) or generating captions from audio (video-captions).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/translate",
-    "summary": "Translate Master accurate translation that preserves meaning, formatting, and cultural context. Formatting Preservation - Never translate content inside code blocks, HTML tags, or markdown syntax - Preserve placeholders ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/translate/config.yaml` (what the user declared) and `~/Clawic/data/translate/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/translate",
     "manifestPath": "registry/skills/translate.json"
   },
@@ -26,15 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/translate/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/_meta.json",
-      "byteCount": 170,
-      "sha256": "f8a873ce6c7937bfb0afde922c0d88ce566b0d6b1a1e523dfd049f3f41edf472"
+      "byteCount": 246,
+      "sha256": "acac427c0c24c2f2341be00ba9c92134285c69d5a5442f30c0bb518e5a0553df"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/translate/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/documents.md",
+      "byteCount": 12237,
+      "sha256": "994f4a3899f4ef1846d194f379874ed7a63a3b57e5d0a26e3e2cb727e1a744c5"
+    },
+    {
+      "path": "games.md",
+      "downloadPath": "skills/translate/games.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/games.md",
+      "byteCount": 10439,
+      "sha256": "73ce3bae32d61de4c9585ab795ec0a2cbf32da4619aed3a2e642b12baccb9577"
+    },
+    {
+      "path": "jobs.md",
+      "downloadPath": "skills/translate/jobs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/jobs.md",
+      "byteCount": 12432,
+      "sha256": "b7cb44a5dd9529a25badbd9a90d3610febd462cefbe34bf69459004923886885"
+    },
+    {
+      "path": "legal-medical.md",
+      "downloadPath": "skills/translate/legal-medical.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/legal-medical.md",
+      "byteCount": 14308,
+      "sha256": "504e924d367bdd081f83a69cecdc00e7ad6b467140046b003773cb1c2a75e90e"
+    },
+    {
+      "path": "locales.md",
+      "downloadPath": "skills/translate/locales.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/locales.md",
+      "byteCount": 11602,
+      "sha256": "bff7fa1d900871cd8ab0778f548cfbd286224cf498e32ced441c51caf8f6cfa1"
+    },
+    {
+      "path": "machine-translation.md",
+      "downloadPath": "skills/translate/machine-translation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/machine-translation.md",
+      "byteCount": 11445,
+      "sha256": "faea652fa76f3c8beae74ec8bb56ce8c5d50ab1249a2be60216a26f1076b6f91"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/translate/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/memory-template.md",
+      "byteCount": 23025,
+      "sha256": "995bd4dd4348f80a70f2715fe8a10a9480f29483c1ba72d971c7eef280d8e5d1"
+    },
+    {
+      "path": "numbers-and-names.md",
+      "downloadPath": "skills/translate/numbers-and-names.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/numbers-and-names.md",
+      "byteCount": 11644,
+      "sha256": "0b5475a5e5edc49287cf785fdbb6c8ded30bbcc31e896b75814198eee6078d92"
+    },
+    {
+      "path": "quality.md",
+      "downloadPath": "skills/translate/quality.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/quality.md",
+      "byteCount": 11087,
+      "sha256": "b26bac1421b5415a0274ad449547ad3d4a91fc845271875413995cf9ecfbc155"
+    },
+    {
+      "path": "rtl-and-scripts.md",
+      "downloadPath": "skills/translate/rtl-and-scripts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/rtl-and-scripts.md",
+      "byteCount": 12477,
+      "sha256": "aa9dad9439061bfaf57e97648c12b91a85d68d83e43d5a3c78e3409b3e29ad47"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/translate/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/SKILL.md",
-      "byteCount": 2534,
-      "sha256": "8780076f60e49153c9243abda446aa0ad7f0c7e484af97656afc2993d505df56"
+      "byteCount": 28914,
+      "sha256": "9f9046c0653f0ca912f2ffcc5af0048b146373fe2774a4bac4f4d84aa15ab2b5"
+    },
+    {
+      "path": "software-strings.md",
+      "downloadPath": "skills/translate/software-strings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/software-strings.md",
+      "byteCount": 17008,
+      "sha256": "53ad82d4f2af2ef3b8fa492f9f5e6367e522fd1405714562344b81090df82d37"
+    },
+    {
+      "path": "subtitles.md",
+      "downloadPath": "skills/translate/subtitles.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/subtitles.md",
+      "byteCount": 11873,
+      "sha256": "1432c51473b54936a629205deb9585420c8ea237c841ead930eeb5f59bdb2bf3"
+    },
+    {
+      "path": "terminology.md",
+      "downloadPath": "skills/translate/terminology.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/terminology.md",
+      "byteCount": 10314,
+      "sha256": "2819aaf46394da279a201e076056ac2ca280c2c160e6167439d2a6a50d22a951"
+    },
+    {
+      "path": "transcreation.md",
+      "downloadPath": "skills/translate/transcreation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/transcreation.md",
+      "byteCount": 11646,
+      "sha256": "f16bb06b2a5fc0f02e93ae1e6dd5c82e2328780d5a4e5cd1dc3e924271bcc9ac"
+    },
+    {
+      "path": "translation-memory.md",
+      "downloadPath": "skills/translate/translation-memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/translation-memory.md",
+      "byteCount": 9779,
+      "sha256": "3544c1a301298290d38fe35584ae9e819c23038bd471fff7a5df7d1fb4ce1ebc"
+    },
+    {
+      "path": "web.md",
+      "downloadPath": "skills/translate/web.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/web.md",
+      "byteCount": 12510,
+      "sha256": "16bd80be23a36eed433d39c48e0fb312f484a89e4e7b8603bc26b60eb092f62a"
     }
   ]
 }

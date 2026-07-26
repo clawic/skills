@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "33a7bbf424fe6b2299d1472112ba5fe04b91dd8ff4a1cbbd0c39fdd58f58dd87",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "9e5a13c4f2cef95968beab5f1f7bdd6cf6743faf845702defbfd4b8f2d38a101",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "growth",
     "name": "Growth",
-    "description": "Design and execute growth strategies with acquisition loops, activation, and retention systems.",
-    "version": "1.0.0",
+    "description": "Runs growth as a system: finds which funnel stage is the constraint, picks the loop that compounds, and sizes the channel and experiment program. Use when growth stalled or a number has to be hit and nobody can say which stage is broken; when choosing, scaling, or killing acquisition channels; when CAC, payback, LTV:CAC, or blended-versus-paid has to be computed or defended; when signups grow but activation, retention, or paid conversion does not; when designing a referral program, a lifecycle messaging map, or a north-star metric and the events behind it; when forecasting from a model instead of a wish; and for marketplace liquidity, app-install funnels, ecommerce repeat purchase, and self-serve-versus-sales motion. Not for A/B test statistics (`ab-testing`), page-level conversion work (`cro`), churn cohort depth (`churn-analysis`), MRR and NRR definitions (`saas-metrics`), launch positioning (`go-to-market`), or the CGO role and growth-org leadership (`cgo`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/growth",
-    "summary": "North Star Metric (Define First) Pick ONE metric that: - Reflects core value delivered to customer - Leads revenue (not lags) - Entire team can influence Examples by business type: - Marketplace: transactions completed -",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/growth/config.yaml` (what the user declared) and `~/Clawic/data/growth/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/growth",
     "manifestPath": "registry/skills/growth.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/growth/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/_meta.json",
-      "byteCount": 164,
-      "sha256": "70398ae106b42206e3a4a8ac02681c338b8e39f417e5aed46f4e2f44a9a45ae8"
+      "byteCount": 240,
+      "sha256": "03f491b5e0ef316a7f1e3a041bd258c23d68d30e6095561610eb181b463c4200"
+    },
+    {
+      "path": "acquisition.md",
+      "downloadPath": "skills/growth/acquisition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/acquisition.md",
+      "byteCount": 11357,
+      "sha256": "6d8e5c5942cdcefd0ba0937e507089994112ad102109acfa704316e16a6708f3"
+    },
+    {
+      "path": "activation.md",
+      "downloadPath": "skills/growth/activation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/activation.md",
+      "byteCount": 9969,
+      "sha256": "28a060e6c54cd135799b89b73f082963d03e9ec33c2245832e36436c1e7248f2"
+    },
+    {
+      "path": "b2b.md",
+      "downloadPath": "skills/growth/b2b.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/b2b.md",
+      "byteCount": 10047,
+      "sha256": "79c8ed5e08da115d0be652778851b5618d86fc73a9f0ef63a9765cc76da86cca"
+    },
+    {
+      "path": "diagnosis.md",
+      "downloadPath": "skills/growth/diagnosis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/diagnosis.md",
+      "byteCount": 8383,
+      "sha256": "7d8dc0f0bfc78613daf5d6d56e8e58bacd81a6f05b50787f2d6e5910c94fe8a9"
+    },
+    {
+      "path": "ecommerce.md",
+      "downloadPath": "skills/growth/ecommerce.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/ecommerce.md",
+      "byteCount": 10135,
+      "sha256": "4bfa5a1cb15105b0d5ec4afdcc62b9571b4f05d9d3a0b2bad7247cd7bab1c780"
+    },
+    {
+      "path": "experiments.md",
+      "downloadPath": "skills/growth/experiments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/experiments.md",
+      "byteCount": 11189,
+      "sha256": "ff570de1fa6ec91944d582dd20239cd9c378957478be516d0fe2049bb14c0619"
+    },
+    {
+      "path": "forecasting.md",
+      "downloadPath": "skills/growth/forecasting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/forecasting.md",
+      "byteCount": 9270,
+      "sha256": "4bd4f68c12c853cc86aca9e72efa2b8049168a23868823df78441c10b978f2a9"
+    },
+    {
+      "path": "instrumentation.md",
+      "downloadPath": "skills/growth/instrumentation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/instrumentation.md",
+      "byteCount": 10215,
+      "sha256": "aafa987f35ff2eada5cab7bba0ace609b51f98a3056e6b78cad557854535d03f"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/growth/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/lifecycle.md",
+      "byteCount": 10502,
+      "sha256": "1ef8bb1c47e5fdbfa12b761c76abc5cdd5aa0f6f22f1d9f29a3b5715c0ee2317"
+    },
+    {
+      "path": "loops.md",
+      "downloadPath": "skills/growth/loops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/loops.md",
+      "byteCount": 10669,
+      "sha256": "b07b54d3be8e6f3bab2888d7e984ec1875ac15269a2752967bd4c003f84bc714"
+    },
+    {
+      "path": "marketplaces.md",
+      "downloadPath": "skills/growth/marketplaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/marketplaces.md",
+      "byteCount": 11025,
+      "sha256": "a1235f46347421c3133cb858b090a4d4bf958875a2021c84065ac98a56eef0b1"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/growth/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/memory-template.md",
+      "byteCount": 24640,
+      "sha256": "e164fbc89d1cd4c34204905baa3b1fd7d92f3b72d5edd96e2c137edb830d7b73"
+    },
+    {
+      "path": "mobile.md",
+      "downloadPath": "skills/growth/mobile.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/mobile.md",
+      "byteCount": 10067,
+      "sha256": "9747845aad1d91bc4619f65148e3baf260c7a4acabcea17d4fe9d2f773c6fdd6"
+    },
+    {
+      "path": "monetization.md",
+      "downloadPath": "skills/growth/monetization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/monetization.md",
+      "byteCount": 10853,
+      "sha256": "e547dd778915b9f8fc89867038dedbc8c0c8045be32bc0b7299d9020f75e12a9"
+    },
+    {
+      "path": "paid.md",
+      "downloadPath": "skills/growth/paid.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/paid.md",
+      "byteCount": 10261,
+      "sha256": "ae2e69c4ed48ae1b7e3da0206d73d1acd775b87ea9c984f53e351fed2c17548f"
+    },
+    {
+      "path": "plateaus.md",
+      "downloadPath": "skills/growth/plateaus.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/plateaus.md",
+      "byteCount": 9659,
+      "sha256": "f548c167de1d44e58d83b50728b9dcb7bac968316768ec21c09f0c7c110ea6ae"
+    },
+    {
+      "path": "referrals.md",
+      "downloadPath": "skills/growth/referrals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/referrals.md",
+      "byteCount": 9678,
+      "sha256": "b4a8e1a17b2aeea4d1e6b52177b1c1d4086d2a80965eb8f47b8e1f9c3ddea511"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/growth/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/retention.md",
+      "byteCount": 9536,
+      "sha256": "0efded0abdcbe6187472ebc36ff3e95db79e12602023a452ca838b56d83cd07e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/growth/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/SKILL.md",
-      "byteCount": 4814,
-      "sha256": "f3a5e4c6aa8588b3ad4c06cfbc93bebdf41201d0b52245169c9781df07aa4f30"
+      "byteCount": 25466,
+      "sha256": "1ec506e44928c412d673b09638a3421da1182c107603112b1149dc5fe3d90679"
     }
   ]
 }

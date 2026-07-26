@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "14fe0a027717120889ff1d5522497265215f5f0a3025d9974925093ef43c8d80",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "667ccecc02018447a0fbb80cddfe123004f3d978a0dcb5dd8c2863836da23eb9",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "writing",
     "name": "Writing",
-    "description": "Adapt to writing voice, improve clarity, and remember style preferences across sessions.",
-    "version": "1.1.0",
+    "description": "Drafts, edits, and rewrites prose in the user's own voice — emails, posts, essays, memos, proposals, social copy. Use when asked to write, draft, edit, tighten, shorten, rewrite, or proofread something; when a draft reads flat, wordy, robotic, or \"not like me\"; when a piece will not start, a sentence will not come out right, or the ending trails off; when an email has to deliver bad news, say no, chase a reply, or make an ask that lands; when a post needs a hook, a headline, or a cut to fit a limit; when order, transitions, or paragraph structure are the real problem; when writing in a second language, or matching a house style, spelling variant, or word count. Learns and reuses their voice across sessions. Not for grammar-only fixes (`grammar`), sales copy (`copywriting`), book manuscripts (`book-writing`), journal papers (`academic-writing`), narrative craft (`storytelling`), versioned draft-and-audit workflows (`write`), or inbox triage and follow-ups (`email-management`).",
+    "version": "1.1.1",
     "homepage": "https://clawic.com/skills/writing",
-    "summary": "Setup On first use, read `setup.md` for integration guidelines. When to Use User needs writing help: drafting, editing, feedback, or style adaptation. Agent remembers their voice and preferences across sessions. Architec",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/writing/config.yaml` (what the user declared) and `~/Clawic/data/writing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/writing",
     "manifestPath": "registry/skills/writing.json"
   },
@@ -26,43 +26,106 @@
       "path": "_meta.json",
       "downloadPath": "skills/writing/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/_meta.json",
-      "byteCount": 242,
-      "sha256": "6c2bdcd46f4401b0914aebaf2fd496c3fe45f6eba3a800515d214086bea76dc7"
+      "byteCount": 316,
+      "sha256": "1c58d68c5e44a4952ef625bbb23991a71e1692644a6496edb1daab186c019791"
     },
     {
-      "path": "criteria.md",
-      "downloadPath": "skills/writing/criteria.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/criteria.md",
-      "byteCount": 1939,
-      "sha256": "ddd31e05cb77a917e2bab38c3f0fa6c008eff8cea6945b06d332d74d19847140"
+      "path": "clarity.md",
+      "downloadPath": "skills/writing/clarity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/clarity.md",
+      "byteCount": 10791,
+      "sha256": "9a515fdec66d86c1f88b27f12705309c012a5d68a3edce634457ae6d195acc1f"
     },
     {
-      "path": "dimensions.md",
-      "downloadPath": "skills/writing/dimensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/dimensions.md",
-      "byteCount": 1611,
-      "sha256": "e4b00a93a8ca07514983b20ba60d573a78145cd76e7f604b353549614ff8b796"
+      "path": "drafting.md",
+      "downloadPath": "skills/writing/drafting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/drafting.md",
+      "byteCount": 6893,
+      "sha256": "c4cbf60cab6791cceb26a0179976abfa1770bb6988e8dadfa5204dd9ebf43a03"
+    },
+    {
+      "path": "emails.md",
+      "downloadPath": "skills/writing/emails.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/emails.md",
+      "byteCount": 10118,
+      "sha256": "4d0a804656cdef716d952ab7f538b033511f4f864dfd47ad54c5e5d79e15313f"
+    },
+    {
+      "path": "feedback.md",
+      "downloadPath": "skills/writing/feedback.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/feedback.md",
+      "byteCount": 6379,
+      "sha256": "e1bb9bf92d1da1fcd0b4a3fa312ecc12f7bb2e957d35891b6a36a6cde9b9506d"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/writing/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/memory-template.md",
-      "byteCount": 2482,
-      "sha256": "fa7dc2f8ad1eec521a8763503a8617cc0a06e57f09a0c1e6142e16d26b3995b2"
+      "byteCount": 20724,
+      "sha256": "0665d42d224de7bb1212140e97a47a6bfa624f862657e8b8aca97f7630e889ac"
     },
     {
-      "path": "setup.md",
-      "downloadPath": "skills/writing/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/setup.md",
-      "byteCount": 3398,
-      "sha256": "bc5240512f48b8e0e75c73c4f8373bee2ff8414ea1442062c9cba190d8ebe280"
+      "path": "posts.md",
+      "downloadPath": "skills/writing/posts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/posts.md",
+      "byteCount": 9569,
+      "sha256": "6c264e985a0f5be49946d96418043deaae959ce1dfbf10f1495aaefec033eab0"
+    },
+    {
+      "path": "revision.md",
+      "downloadPath": "skills/writing/revision.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/revision.md",
+      "byteCount": 7352,
+      "sha256": "ac987479808fc9ce00ca9b793a778f9828ece16774c14871a0533f06353f509b"
+    },
+    {
+      "path": "second-language.md",
+      "downloadPath": "skills/writing/second-language.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/second-language.md",
+      "byteCount": 7462,
+      "sha256": "7ca6461ef7170c7ac50d7303609c870c05cc249b7c3bd8ab0444257661c342b4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/writing/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/SKILL.md",
-      "byteCount": 5575,
-      "sha256": "f894c67585bf2ab222a81535432ffdaa312afe2217e93fb3a20570e2f768f1e7"
+      "byteCount": 25776,
+      "sha256": "8a068b23aa155515e3e492a515ffc96cac93d835dab90667e3a838226e5154f5"
+    },
+    {
+      "path": "social.md",
+      "downloadPath": "skills/writing/social.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/social.md",
+      "byteCount": 5912,
+      "sha256": "71f4272815b3053ab0fcab52a59f258607c6e09fde6a370ac37c7c64ad192264"
+    },
+    {
+      "path": "structure.md",
+      "downloadPath": "skills/writing/structure.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/structure.md",
+      "byteCount": 9562,
+      "sha256": "f9b53d90b289e927387a6de8dd2b5809857a094e75fd55b5e29ef1fef36d5b46"
+    },
+    {
+      "path": "style-guide.md",
+      "downloadPath": "skills/writing/style-guide.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/style-guide.md",
+      "byteCount": 6879,
+      "sha256": "b872c5a6b6dafbad843a7a71f076c120b7486c9fd39fc6677a23cb27d5620161"
+    },
+    {
+      "path": "voice.md",
+      "downloadPath": "skills/writing/voice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/voice.md",
+      "byteCount": 10013,
+      "sha256": "0de1cb7a68ef30cce37f46e33d93b81712d1afb48490db3c1821cf5d673dd37e"
+    },
+    {
+      "path": "workplace.md",
+      "downloadPath": "skills/writing/workplace.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/workplace.md",
+      "byteCount": 8873,
+      "sha256": "b18be231e828cab812f04d573e9f37c96a516c68840d08eb65b46ab4cd1448b1"
     }
   ]
 }

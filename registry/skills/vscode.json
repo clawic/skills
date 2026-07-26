@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "ff2c6e2f6a8124ede8015895804d70dd732a542f5c58a83b5aa6e9d011600a4c",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "4f9dd71e274065e91eb4b41d63b83ad17026589d3c9b78a8e4b45e837c8d3b9a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "vscode",
     "name": "VSCode",
-    "description": "Avoid common VSCode mistakes — settings conflicts, debugger setup, and extension clashes.",
-    "version": "1.0.0",
+    "description": "Configures, debugs, and speeds up Visual Studio Code: settings scopes, launch.json, tasks.json, extensions, keybindings, formatters, and remote work. Use when a setting has no effect because something else overrides it, when format-on-save runs the wrong formatter or two formatters fight, when a breakpoint stays hollow, F5 does nothing, or a debug config will not attach, when a watch task hangs preLaunchTask forever, when the extension host crashes or two extensions collide, when IntelliSense dies and the TypeScript server or Python interpreter stops resolving, when a keyboard shortcut is swallowed by the terminal, when Remote-SSH, WSL, dev containers, or tunnels misbehave, when startup, search, or file watching is slow, or when deciding what belongs in .vscode/ and which extensions a fork like VSCodium or Cursor can install. Not for language semantics (`typescript`, `py`), Docker image authoring (`docker`), or general bug isolation (`debugging`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/vscode",
-    "summary": "Settings Precedence - User → Workspace → Folder — later overrides earlier - `.vscode/settings.json` per project — overrides user settings - `\"editor.formatOnSave\"` in workspace overrides user — can be confusing - Multi-r",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/vscode/config.yaml` (what the user declared) and `~/Clawic/data/vscode/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/vscode",
     "manifestPath": "registry/skills/vscode.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/vscode/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/_meta.json",
-      "byteCount": 164,
-      "sha256": "1af9a13ac06e428635b6be35e344bb206f983c342593f93b2cfff741db5a316d"
+      "byteCount": 240,
+      "sha256": "722d4b7cc5566b70b665f17ccfeecfdc7cf0990c17ed6a030bf721041a9936cd"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/vscode/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/debugging.md",
+      "byteCount": 13837,
+      "sha256": "a468cde219d0584ff17addd232e94d8571319a9beb7b1c8993600df7a72c28a4"
+    },
+    {
+      "path": "editing.md",
+      "downloadPath": "skills/vscode/editing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/editing.md",
+      "byteCount": 10145,
+      "sha256": "8eb1d995649f6d1e45d7fa7423c47b2e587416684c02cba4d2e7b87b45ce5b50"
+    },
+    {
+      "path": "extensions.md",
+      "downloadPath": "skills/vscode/extensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/extensions.md",
+      "byteCount": 10036,
+      "sha256": "bd8bf8d86db1a4b4ad916826c9771dc85dfd5994c90bd18bb9534ddb2c053849"
+    },
+    {
+      "path": "forks.md",
+      "downloadPath": "skills/vscode/forks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/forks.md",
+      "byteCount": 9934,
+      "sha256": "10bf3d7fe4cbb5aef04345f3ef5196383d200a9ebf54fda6ecde703875c5969a"
+    },
+    {
+      "path": "formatting.md",
+      "downloadPath": "skills/vscode/formatting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/formatting.md",
+      "byteCount": 9988,
+      "sha256": "83b512afdc0378d0cb88f40a72198e8ddf0f3d36410d59d914969f938a7b42ba"
+    },
+    {
+      "path": "git.md",
+      "downloadPath": "skills/vscode/git.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/git.md",
+      "byteCount": 9922,
+      "sha256": "baa54aa6f5895e7a65d05fcb816d3d9d8ab8af27fa2fe2c345839b9c5f6cff14"
+    },
+    {
+      "path": "keybindings.md",
+      "downloadPath": "skills/vscode/keybindings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/keybindings.md",
+      "byteCount": 10121,
+      "sha256": "dbb9cb9c70d1708985194891698710e64a488d9935435a6c7e6049f00bc3d03e"
+    },
+    {
+      "path": "languages.md",
+      "downloadPath": "skills/vscode/languages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/languages.md",
+      "byteCount": 11710,
+      "sha256": "63294d9b12da72e6017500c0f9563365339adf6eb873a8bdf7bc1e5a63bb22ab"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/vscode/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/memory-template.md",
+      "byteCount": 19986,
+      "sha256": "219f1de2573c444fea7bfa77c0501e1be4e32f2aaa658fdbd4877764a11ddbd3"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/vscode/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/performance.md",
+      "byteCount": 11004,
+      "sha256": "8274628ff0d2a369ff52ff6e338c4f7b9235549e712e7b47904baccd8142782a"
+    },
+    {
+      "path": "remote.md",
+      "downloadPath": "skills/vscode/remote.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/remote.md",
+      "byteCount": 12783,
+      "sha256": "1178fb4988a0870d9f9792af26de533a62d0dd9bb43becc53691c9d01eb4c404"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/vscode/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/security.md",
+      "byteCount": 11008,
+      "sha256": "1f07e2fa763628375c006e33d360695a35a4850f0f81e0117e3d171dbaf82902"
+    },
+    {
+      "path": "settings.md",
+      "downloadPath": "skills/vscode/settings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/settings.md",
+      "byteCount": 10686,
+      "sha256": "c97bb606b7e3f743191831084b4389f2d3dde869cb5baf8ea8f16862420572f6"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vscode/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/SKILL.md",
-      "byteCount": 3028,
-      "sha256": "7357c5f8de5a237a0eec5bfa208a20bbeee74ad3b50da3d3ecc41c8c7509ddfb"
+      "byteCount": 30582,
+      "sha256": "ad8f761a3b909c309e61bd1553975cfbcd34920a5278784c168426faac05d2de"
+    },
+    {
+      "path": "tasks.md",
+      "downloadPath": "skills/vscode/tasks.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/tasks.md",
+      "byteCount": 10699,
+      "sha256": "fb9927eead2565fc8e799ce831863974ed72f042dfcfffc4ab3b7790e42a7dc7"
+    },
+    {
+      "path": "terminal.md",
+      "downloadPath": "skills/vscode/terminal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/terminal.md",
+      "byteCount": 10547,
+      "sha256": "8886fa0ea97d953821fc86f4600e438a4c36efaa114bbca690f5026dd1cafda6"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/vscode/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/testing.md",
+      "byteCount": 8492,
+      "sha256": "9613e16ddf408001b41613cae532709e9a7434aabbd365f85f8cdbef8ecc64f2"
+    },
+    {
+      "path": "workspaces.md",
+      "downloadPath": "skills/vscode/workspaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/workspaces.md",
+      "byteCount": 10374,
+      "sha256": "fa3024805675a65f4d1b97e2a99ec87a5c9d774ec7b4ef2763692933cd692382"
     }
   ]
 }

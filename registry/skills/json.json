@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "1cdc86bb64912ed11754685bc7d583d87341d7d5539ebcc22801af307670ded4",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "9557863cef44f890b795480e464d8d11f294f9b06a8486c70a412dcff9dbb203",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "json",
     "name": "JSON",
-    "description": "Work with JSON data structures, APIs, and serialization effectively.",
-    "version": "1.0.0",
+    "description": "Parses, validates, transforms, and designs JSON payloads that survive real parsers, real clients, and real data sizes. Use when a parse fails at a byte offset or on a trailing comma, an id or an amount loses precision, accents and emoji come back as mojibake, a field is null when it should be absent, duplicate keys silently win, a JSON Schema passes what it should reject or a `$ref` will not resolve, a multi-gigabyte file will not fit in memory, a jq, JMESPath, or JSONPath expression returns nothing, two documents must be diffed or patched, a webhook signature fails after the body was re-serialized, untrusted input must be parsed safely, or a response shape has to change without breaking existing clients. Covers NDJSON, JSON Patch, canonical form, JSON columns in SQL, and JSON5/JSONC config files. Not for constraining LLM output (`structured-output`), for YAML, TOML, XML, or CSV (their own skills), or for designing REST endpoints (`rest-api`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/json",
-    "summary": "Schema & Validation - Always validate against JSON Schema before processing untrusted input—don't assume structure - Define schemas for API responses—catches contract violations early - Use `additionalProperties: false` ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/json/config.yaml` (what the user declared) and `~/Clawic/data/json/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/json",
     "manifestPath": "registry/skills/json.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/json/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/_meta.json",
-      "byteCount": 160,
-      "sha256": "2c511312d959d9bf0c40f1e621a6dfa6f910beb42ec4b05e2fa5a2a870649ac7"
+      "byteCount": 236,
+      "sha256": "f8ea006cda7d50fcbbe0bb4ecdff4f2de3c77c76bf94914e11d79f21183efad2"
+    },
+    {
+      "path": "api-payloads.md",
+      "downloadPath": "skills/json/api-payloads.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/api-payloads.md",
+      "byteCount": 11680,
+      "sha256": "ce77ea46ecf863a5d477854e4ac72837a547a6fbd7386e067d3c49f67affc5e1"
+    },
+    {
+      "path": "config.md",
+      "downloadPath": "skills/json/config.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/config.md",
+      "byteCount": 9434,
+      "sha256": "3042072b39486293182b8f01f2c4149bef53a6dfbbc72ada864dc8d3265df700"
+    },
+    {
+      "path": "databases.md",
+      "downloadPath": "skills/json/databases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/databases.md",
+      "byteCount": 10010,
+      "sha256": "9b480bb1bfde9ef6f7335663aeb745f212b84af5f1b88d392acfbc1ad3a34370"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/json/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/debug.md",
+      "byteCount": 9100,
+      "sha256": "814f55866d03b81e17bc652e31f1c6f32519a55a277b33d65397f474e4a6b36d"
+    },
+    {
+      "path": "encoding.md",
+      "downloadPath": "skills/json/encoding.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/encoding.md",
+      "byteCount": 9299,
+      "sha256": "9af63fec546573f730098c49943902e35ed792e213718ad1c3516b213ab097ee"
+    },
+    {
+      "path": "evolution.md",
+      "downloadPath": "skills/json/evolution.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/evolution.md",
+      "byteCount": 9896,
+      "sha256": "a12148b2b667ca1927a0641d0e9adbe2fc28ef893c878a076052ed7b35bc11a7"
+    },
+    {
+      "path": "languages.md",
+      "downloadPath": "skills/json/languages.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/languages.md",
+      "byteCount": 10737,
+      "sha256": "725448ac66b0bd1a4cd71830fcc28c74da60510b66cad69776007f8621df872c"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/json/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/memory-template.md",
+      "byteCount": 20725,
+      "sha256": "91349dcdaf20a060db8fde5d8158dfccda23f34bd2fec652c0a59d05f538f331"
+    },
+    {
+      "path": "numbers.md",
+      "downloadPath": "skills/json/numbers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/numbers.md",
+      "byteCount": 8875,
+      "sha256": "7bf72e32e5b9970d3e068e0160aa46681df76e884f23235655b45780cd650ccc"
+    },
+    {
+      "path": "patching.md",
+      "downloadPath": "skills/json/patching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/patching.md",
+      "byteCount": 9276,
+      "sha256": "7cbd0adec9e065416705b394a38a9f23a18aa1f9cc79b68d9b6b2613fc93b684"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/json/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/performance.md",
+      "byteCount": 9643,
+      "sha256": "1f3bb0b3b49cb2ed82694a4d5ac914690d8b48297e62b2772ddff5a0dd22422b"
+    },
+    {
+      "path": "querying.md",
+      "downloadPath": "skills/json/querying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/querying.md",
+      "byteCount": 9361,
+      "sha256": "cdf2c0360eedca4827404ec958cd20275f8c312c646ffb63e55be286720a24bb"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/json/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/schema.md",
+      "byteCount": 12016,
+      "sha256": "c1fc4ff08906e56c732a1537b66ff72633635c446f58fa36c8940ab889524ed4"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/json/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/security.md",
+      "byteCount": 11310,
+      "sha256": "562939d6c29b35db53d2b7758ab43231d17cc09ee193e08dafdcbbcc15ab0feb"
+    },
+    {
+      "path": "signing.md",
+      "downloadPath": "skills/json/signing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/signing.md",
+      "byteCount": 9339,
+      "sha256": "6847e11e9d26cf83151ebb3338f1f4be4087f353bf8852c3913b92997b38ef0a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/json/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/SKILL.md",
-      "byteCount": 3086,
-      "sha256": "bcbde33ef6cd88552007bde35c49bba71ec3fad98b102a900eaa1f0de1e2d920"
+      "byteCount": 30213,
+      "sha256": "c831850ef6ae51cc45c94b0065d4359445ca7e7c5d5b0b3435b9a83a8e9b0d82"
+    },
+    {
+      "path": "streaming.md",
+      "downloadPath": "skills/json/streaming.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/streaming.md",
+      "byteCount": 9142,
+      "sha256": "24800290a21d8af2c374b31f16f1439409c4af4a1a2073be0b6955de62f2a171"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/json/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/testing.md",
+      "byteCount": 8887,
+      "sha256": "41dfb699802b916a4c250f6cb1644e0dd3b852a16af8d4018e6957614672d1c2"
     }
   ]
 }

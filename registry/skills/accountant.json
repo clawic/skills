@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "ccede151a11058674f105b303213c608c4babd51c3cc40f15f54c474f331a51d",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "eb95c11f2b6bc5d2bd8c8251aac2b3e7ccf914930d548797e58465cd4a1cf7c4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "accountant",
     "name": "Accountant",
-    "description": "Manage bookkeeping, financial statements, and tax planning with sound accounting practices.",
-    "version": "1.0.0",
+    "description": "Keeps books that close: double-entry entries, reconciliation, month-end close, financial statements, and the tax filings that follow. Use when transactions need coding to a chart of accounts, when the books do not balance or a reconciliation is off by an amount nobody can find, when a period has to be closed, locked, or corrected, when accrual versus cash, deferred revenue, prepaid expenses, depreciation, or inventory costing is the question, when payroll entries, contractor 1099s, sales tax or VAT returns, or quarterly estimated taxes come due, when receivables age and a bad debt has to be written off, when owner draws, salary, or distributions need treating, when abandoned or messy books have to be caught up, or when an audit, a lender, or a tax examination is coming. Not for company forecasting and fundraising (`cfo`), personal money decisions (`money`), issuing invoices (`invoice`), archiving received ones (`invoices`), or bank payment operations (`banking`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/accountant",
-    "summary": "Accounting Rules Important Boundaries - This is financial information, not professional advice — recommend CPA for complex tax situations - Tax laws vary by jurisdiction and change frequently — verify current rules - Aud",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/accountant/config.yaml` (what the user declared) and `~/Clawic/data/accountant/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Op",
     "repositoryPath": "skills/accountant",
     "manifestPath": "registry/skills/accountant.json"
   },
@@ -26,15 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/accountant/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/_meta.json",
-      "byteCount": 172,
-      "sha256": "260addc000abf75e3e8c17abc6db6cd23d3095d5f4ed4170a411112b0824ecb1"
+      "byteCount": 248,
+      "sha256": "9ba5ef799876f040ea3ff11052cbd260f110df5312d1ff65d15f4953c19e34d4"
+    },
+    {
+      "path": "audit.md",
+      "downloadPath": "skills/accountant/audit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/audit.md",
+      "byteCount": 7516,
+      "sha256": "b91d313eadd119f6cf9d8bf388f6abe08c6806aedc8831ad57c5f780b7f8045f"
+    },
+    {
+      "path": "bookkeeping.md",
+      "downloadPath": "skills/accountant/bookkeeping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/bookkeeping.md",
+      "byteCount": 10145,
+      "sha256": "671ac5c0fd969f8152eaa59c704c06d97c634517eed9c3c0aa68db0922c45d2e"
+    },
+    {
+      "path": "cleanup.md",
+      "downloadPath": "skills/accountant/cleanup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/cleanup.md",
+      "byteCount": 8647,
+      "sha256": "6fcbb42de3f72d8b478db09db69d87e5b2130e7a155f15dd8ccda2a7c0f0adfd"
+    },
+    {
+      "path": "close.md",
+      "downloadPath": "skills/accountant/close.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/close.md",
+      "byteCount": 9459,
+      "sha256": "f6dda5f2685b31fba54600ea364a4328d736e1c59a48060df9379e26e276c9fc"
+    },
+    {
+      "path": "currency.md",
+      "downloadPath": "skills/accountant/currency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/currency.md",
+      "byteCount": 8568,
+      "sha256": "7a1d04a21c8819bfef82c2ee8b2a1dfc59da190e611ffc75bf8ffb2ddf49312d"
+    },
+    {
+      "path": "fixed-assets.md",
+      "downloadPath": "skills/accountant/fixed-assets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/fixed-assets.md",
+      "byteCount": 9696,
+      "sha256": "ea675ca51c1ac866cb698f89dc9190d48426b202205cf33e76378214a65fca67"
+    },
+    {
+      "path": "inventory.md",
+      "downloadPath": "skills/accountant/inventory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/inventory.md",
+      "byteCount": 7935,
+      "sha256": "950dfa876ccbe7a5ed4c3c196cf85d098f4be0301f632f965c832cfda89eb9b2"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/accountant/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/memory-template.md",
+      "byteCount": 29801,
+      "sha256": "aeca9d3ec208a1bf2121a4ad62d928230d59f3150ecc4c9c8ed395cc582faf95"
+    },
+    {
+      "path": "nonprofit.md",
+      "downloadPath": "skills/accountant/nonprofit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/nonprofit.md",
+      "byteCount": 8911,
+      "sha256": "003fd84d6fb3282efc7c1213779d1a9c16b39938fa56e82e62006d5c3f05b2a6"
+    },
+    {
+      "path": "owner-pay.md",
+      "downloadPath": "skills/accountant/owner-pay.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/owner-pay.md",
+      "byteCount": 8505,
+      "sha256": "ba255d941b3bafc0c11ac7065984581f6c9db8204b974006e7d2ac66c3563d2c"
+    },
+    {
+      "path": "payables.md",
+      "downloadPath": "skills/accountant/payables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/payables.md",
+      "byteCount": 7213,
+      "sha256": "c05853d3459e6f0f655a82104c115a557e3927c9cfd23b1befb15ad59316d098"
+    },
+    {
+      "path": "payroll.md",
+      "downloadPath": "skills/accountant/payroll.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/payroll.md",
+      "byteCount": 9729,
+      "sha256": "63ed9d97e8708f26ad83856862639840173db70fffe199224270d65ddc41a531"
+    },
+    {
+      "path": "receivables.md",
+      "downloadPath": "skills/accountant/receivables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/receivables.md",
+      "byteCount": 7504,
+      "sha256": "5a9cec976d6260dd57e61607c4e76a78b81d3bf8114977ae2b3257e034f77015"
+    },
+    {
+      "path": "reconciliation.md",
+      "downloadPath": "skills/accountant/reconciliation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/reconciliation.md",
+      "byteCount": 8814,
+      "sha256": "5ccbd5d4c284e9209ef69a9145f4bea311b9e5bddc3e409d4b733d3e83e78721"
+    },
+    {
+      "path": "revenue.md",
+      "downloadPath": "skills/accountant/revenue.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/revenue.md",
+      "byteCount": 7870,
+      "sha256": "7447f87aca1c39764e7952bb1ef86b9caad0f9f006903f43862dc6989b9ceaf0"
+    },
+    {
+      "path": "sales-tax.md",
+      "downloadPath": "skills/accountant/sales-tax.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/sales-tax.md",
+      "byteCount": 7983,
+      "sha256": "32ff9d514bbb5c0997fc23e01351d557197aa3577511991899a68530e3af93c1"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/accountant/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/SKILL.md",
-      "byteCount": 4419,
-      "sha256": "fec47982dae380fe74d4fcd39c6a8413ee890b9bac18708cbbaf284f40dd7dc0"
+      "byteCount": 32612,
+      "sha256": "a769fee4af69a7c63ba75f9e0434db290f3911465437b1cc8d55f0f1c3808c8e"
+    },
+    {
+      "path": "software.md",
+      "downloadPath": "skills/accountant/software.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/software.md",
+      "byteCount": 8265,
+      "sha256": "69a471b01ce6677f5016b2d76dc51739e560a16497f9d8859e5a99b390b7e717"
+    },
+    {
+      "path": "statements.md",
+      "downloadPath": "skills/accountant/statements.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/statements.md",
+      "byteCount": 10408,
+      "sha256": "bc9b740d631f13df5f983bde0e036913728bad4d4f46b7f57715633e19fb5824"
+    },
+    {
+      "path": "tax.md",
+      "downloadPath": "skills/accountant/tax.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/accountant/tax.md",
+      "byteCount": 11266,
+      "sha256": "a8ee11b7f6e3719390bb4be4bf20ae6ceea1e3f8dd8d060007d975259ab7e9f9"
     }
   ]
 }

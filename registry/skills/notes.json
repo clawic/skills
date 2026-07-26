@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "85cd3730016110e37fe4f063c09dc942bb7379b0f023892e3d6bc79f79aaa2fc",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "18779a16ab371b1d13a232f527b2afac8c1a5de3e1843abf59e01f1f29eaae01",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "notes",
     "name": "Notes (Local, Apple, Notion, Obsidian & more)",
-    "description": "Let your agent write notes anywhere: local markdown, Apple Notes, Bear, Obsidian, Notion, Evernote, configurable per note type.",
-    "version": "1.1.3",
+    "description": "Captures, structures, and retrieves notes in local markdown, Apple Notes, Bear, Obsidian, Notion, or Evernote. Use when the user says take notes, write this up, capture this, or turn this transcript into a note; for meeting, 1-on-1, decision, journal, project, or research notes; when a note must land in a specific app or vault; when action items need owners and real dates; when a note cannot be found again and titles, tags, folders, or an index are the problem; when quick captures pile up untriaged; when a decision needs a durable record; when a vault shows conflicted copies, duplicates, or links broken by a rename; when notes must move between apps, be exported, or be backed up; and when something is too sensitive to write down at all. Not for journaling practice and prompts (`journal`), meeting facilitation and agendas (`meetings`), Notion API development (`notion-api-integration`), running a to-do list (`task-list`), or growing a linked atomic-note knowledge base (`pkm`).",
+    "version": "1.1.4",
     "homepage": "https://clawic.com/skills/notes",
-    "summary": "Setup On first use, read `setup.md` for platform selection and integration guidelines. When to Use User needs to capture any type of notes: meetings, brainstorms, decisions, daily journals, or project logs. Agent handles",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/notes/config.yaml` (what the user declared: routing, vault path, cadences) and `~/Clawic/data/notes/memory.md` (what you observed, plus its `## Boxes` index an",
     "repositoryPath": "skills/notes",
     "manifestPath": "registry/skills/notes.json"
   },
@@ -26,85 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/notes/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/_meta.json",
-      "byteCount": 352,
-      "sha256": "0a868d88735c66a076e584d4ccc1310cf408c4c68959e4e1159e8b7736a438ec"
+      "byteCount": 426,
+      "sha256": "5d1b4c2db75496abf370463af8d6f6646becd8d0ff1380f9839312bc5b170ea8"
+    },
+    {
+      "path": "action-items.md",
+      "downloadPath": "skills/notes/action-items.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/action-items.md",
+      "byteCount": 8300,
+      "sha256": "3af287c7fbe35d9b9090fb0d66d93ced5348d6071d24abfe8ddef0e74f0df575"
     },
     {
       "path": "apple-notes.md",
       "downloadPath": "skills/notes/apple-notes.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/apple-notes.md",
-      "byteCount": 2055,
-      "sha256": "ace7ab201ef84e71bd8e229b6a68c63704490b69762ad007b482a37193d5f550"
+      "byteCount": 5684,
+      "sha256": "0d1f08e1af118bab741e3fa650c539336ffcc83da4eb7fb81667121435d5b386"
     },
     {
       "path": "bear.md",
       "downloadPath": "skills/notes/bear.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/bear.md",
-      "byteCount": 2855,
-      "sha256": "b33865d5c7218806d3e8fe73d4e1fa87f312979f859a0d1e74054dd22f19270b"
+      "byteCount": 6843,
+      "sha256": "d2dbe781c3a92233f65e85f905cbcac4a0eeefad30569aa976e70649bf278a1d"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/notes/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/capture.md",
+      "byteCount": 8219,
+      "sha256": "6984edd7948c85fc067cd2ca7ca73daf0ac9c154e998cdef40f8146ee6bfb2e4"
+    },
+    {
+      "path": "decisions.md",
+      "downloadPath": "skills/notes/decisions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/decisions.md",
+      "byteCount": 7811,
+      "sha256": "cc85cb296cf34d7531eafd7290556f72c8a77d14d44cd98d8ab7e37137d1856d"
     },
     {
       "path": "evernote.md",
       "downloadPath": "skills/notes/evernote.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/evernote.md",
-      "byteCount": 2036,
-      "sha256": "e75f149cfc7240d269611ddb76e859a3d6e079813ed2c4a39f12c86637996fbb"
+      "byteCount": 5804,
+      "sha256": "b9a236e4774eb4bb14b5c4596349c803f5c73029d830d7169de870771fbf2ad1"
     },
     {
-      "path": "formats.md",
-      "downloadPath": "skills/notes/formats.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/formats.md",
-      "byteCount": 5315,
-      "sha256": "b02b8c8962ee758f78b1434051cd86e4d27c7d94b61d40acb67af70f651cfce2"
+      "path": "journal.md",
+      "downloadPath": "skills/notes/journal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/journal.md",
+      "byteCount": 6598,
+      "sha256": "5b20c848338c9ae65bf386c2cef78af6dabfe328cf3fdc72558778658d4242d9"
     },
     {
       "path": "local.md",
       "downloadPath": "skills/notes/local.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/local.md",
-      "byteCount": 1989,
-      "sha256": "e78444f3339a03742449270b7bdf6a440f5289363a203fec59ef5244a20a6a72"
+      "byteCount": 5638,
+      "sha256": "b6ca8278557a9e52cd4ebdf5c7ad1062d731715f4c9acbe06de483d0994f4a8e"
+    },
+    {
+      "path": "meetings.md",
+      "downloadPath": "skills/notes/meetings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/meetings.md",
+      "byteCount": 10594,
+      "sha256": "c3108c976b752fc4550e7194448e595bb9422a5a67fb95a5568d849ef1f4b481"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/notes/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/memory-template.md",
-      "byteCount": 5486,
-      "sha256": "45ec2d732092ffce7f76e8a19b7063abdd7251675823bf581001b1e80faf6490"
+      "byteCount": 22481,
+      "sha256": "0c143ae422b5f19313a750ba6dc37194f888bf9621a5d10c48f92d46c6a1abeb"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/notes/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/migration.md",
+      "byteCount": 9463,
+      "sha256": "da4232b2a00686c453401feab19f2c4ab0ebf913a35bdfa7fae13d08772a526a"
     },
     {
       "path": "notion.md",
       "downloadPath": "skills/notes/notion.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/notion.md",
-      "byteCount": 4684,
-      "sha256": "6ff0216024be8fb0b212972c2ca41761aa2470bc1bc8ff3d96924952af34c210"
+      "byteCount": 8655,
+      "sha256": "e43d1e775b94997f4eb78339ab61959619f1b14888298d6da213d77c694e1711"
     },
     {
       "path": "obsidian.md",
       "downloadPath": "skills/notes/obsidian.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/obsidian.md",
-      "byteCount": 2934,
-      "sha256": "edd80dc8acdbefe0696e4eeb9608ac9d84dd98663dbef7cdc3b2eda9bff99b8a"
+      "byteCount": 7288,
+      "sha256": "ec5b53a42a69bd1e980507cc9601ec258be475251519ecf29aeaa7a199279d09"
     },
     {
-      "path": "setup.md",
-      "downloadPath": "skills/notes/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/setup.md",
-      "byteCount": 2956,
-      "sha256": "93edc5c62b906ff54873927ffe09b829c2d76b77c171598f784742f3a3ae62e6"
+      "path": "projects.md",
+      "downloadPath": "skills/notes/projects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/projects.md",
+      "byteCount": 8424,
+      "sha256": "5546bc1f3bc19ea4c9cc0aedd0ce818d87fe343bea91c058c6f55a87c4bf91d4"
+    },
+    {
+      "path": "research.md",
+      "downloadPath": "skills/notes/research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/research.md",
+      "byteCount": 8817,
+      "sha256": "551de69721595558f4fecb9f9194e0068ab0d9ca5e4cbcee78b314913f200e05"
+    },
+    {
+      "path": "retrieval.md",
+      "downloadPath": "skills/notes/retrieval.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/retrieval.md",
+      "byteCount": 9865,
+      "sha256": "474c5888eb93a343f416cb839de8ec090fecc157e01225fcb6db2bdbb3e31088"
+    },
+    {
+      "path": "sensitive.md",
+      "downloadPath": "skills/notes/sensitive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/sensitive.md",
+      "byteCount": 8958,
+      "sha256": "359dd503eefbb6aa5e4f692e120df12be8cf6111df4ebe8b3871a9174aee5dfd"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/notes/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/SKILL.md",
-      "byteCount": 8733,
-      "sha256": "bd5bf59a6966cbf363feabdf4ebe3e2e62fb6ca93609758a8d917c3811138a13"
+      "byteCount": 23969,
+      "sha256": "6ad57b4b00bb7abb87ee88a097e5cd90d6f4aa1a967f3dfa800402b8ad55237d"
     },
     {
-      "path": "tracking.md",
-      "downloadPath": "skills/notes/tracking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/tracking.md",
-      "byteCount": 5263,
-      "sha256": "676a9395fc6e942c607d8891d56ec81aa2688ad682d951d6281cfff9bef2b59e"
+      "path": "sync.md",
+      "downloadPath": "skills/notes/sync.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/sync.md",
+      "byteCount": 9562,
+      "sha256": "107ce5eab87203835016c22149ab17d21720e7a66b9d5e2371d37ab8f7b06236"
     }
   ]
 }

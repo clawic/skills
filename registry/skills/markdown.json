@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "93a772bf76f2772ab1032604cdcc0241e631e3966eee3b26791d39e2c48f15fc",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "b77024c974837f2f5b7afc45e0b69b5a75438473edf6e176dc060277b68361e5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "markdown",
     "name": "Markdown",
-    "description": "Generate clean, portable Markdown that renders correctly across parsers.",
-    "version": "1.0.1",
+    "description": "Writes, fixes, and converts Markdown that renders the same in every parser — GitHub, MDX, Pandoc, docs sites, Slack, Notion. Use when a list stops nesting, a table renders as literal pipes, a code fence swallows the rest of the file, half a document turns italic, or an anchor link 404s; when frontmatter shows up as text; when footnotes, task lists, callouts, math, or Mermaid render on GitHub but not on the docs site; when MDX rejects `{`, `<`, or an HTML comment; when a README's images break on npm or PyPI; when converting Markdown to PDF, DOCX, or HTML, or HTML back to Markdown; when markdownlint or Prettier fights the file in CI; when pasting into Slack, Discord, Notion, Confluence, or Jira; and when Markdown from an untrusted source has to be rendered safely. Not for LaTeX documents (`latex`), Word files (`word-docx`), templated PDF deliverables such as reports, invoices, and contracts (`pdf-generator`), or documentation strategy and information architecture (`documentation`).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/markdown",
-    "summary": "Whitespace Traps - Blank line required before lists, code blocks, and blockquotes—without it, many parsers continue the previous paragraph - Nested lists need 4 spaces (not 2) for GitHub/CommonMark; 2 spaces breaks nesti",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/markdown/config.yaml` (what the user declared) and `~/Clawic/data/markdown/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/markdown",
     "manifestPath": "registry/skills/markdown.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/markdown/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/_meta.json",
-      "byteCount": 168,
-      "sha256": "c6e7474968b8cb4b9d28c5357e94ca1517413f5e3143c22f8ece2a8c8260b09e"
+      "byteCount": 244,
+      "sha256": "6adafc75ab3ef9d43e32ec7858b91226216a9553c546a3694cc0461f05e010da"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/markdown/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/accessibility.md",
+      "byteCount": 7941,
+      "sha256": "72f6dd1e1840fd9a824a5b28050893a7158abe880c24b7b6cef752b9cdc91217"
+    },
+    {
+      "path": "chat-platforms.md",
+      "downloadPath": "skills/markdown/chat-platforms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/chat-platforms.md",
+      "byteCount": 8057,
+      "sha256": "ba54e8fb98c3a38d09bc52805f3edd0ae720cd55f4afac5bde05a1d74ef36cc3"
+    },
+    {
+      "path": "code.md",
+      "downloadPath": "skills/markdown/code.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/code.md",
+      "byteCount": 8559,
+      "sha256": "7bfbbb8ac64ffeef1bd047127a4ec51fea2d6ebb7351030b8756c881a23cb4ba"
+    },
+    {
+      "path": "conversion.md",
+      "downloadPath": "skills/markdown/conversion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/conversion.md",
+      "byteCount": 8479,
+      "sha256": "56a5f63c3f1c9abe0b5df586063b3ecff1239dfaa867e64ebf42e070a6c3e5f2"
+    },
+    {
+      "path": "docs-sites.md",
+      "downloadPath": "skills/markdown/docs-sites.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/docs-sites.md",
+      "byteCount": 9188,
+      "sha256": "b6404cb1ae0e695a1cb5d6d071348ead4c179c975f725cd236a516797319ad24"
+    },
+    {
+      "path": "editing.md",
+      "downloadPath": "skills/markdown/editing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/editing.md",
+      "byteCount": 8515,
+      "sha256": "d2a5705bc3cb8731211dba1fc30962f8ee96a326bf2ce1c997089d906f12dc6b"
+    },
+    {
+      "path": "extensions.md",
+      "downloadPath": "skills/markdown/extensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/extensions.md",
+      "byteCount": 9291,
+      "sha256": "ec088918047dd7b4c3ae9ed5245452f1a983c7e8da7759194ee8213d97694691"
+    },
+    {
+      "path": "flavors.md",
+      "downloadPath": "skills/markdown/flavors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/flavors.md",
+      "byteCount": 8776,
+      "sha256": "7fa24aed509113d93bf0f90442f8685b738b545a0cd6d0ce37e065026e3bc967"
+    },
+    {
+      "path": "frontmatter.md",
+      "downloadPath": "skills/markdown/frontmatter.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/frontmatter.md",
+      "byteCount": 7659,
+      "sha256": "20cd45732665048269ab8b70919ff7dcd289751a9a6c689a712942a1e92bc1c0"
+    },
+    {
+      "path": "links.md",
+      "downloadPath": "skills/markdown/links.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/links.md",
+      "byteCount": 9556,
+      "sha256": "09f996a479cc51e7e1d89e6540407b71318cc09f1646660f15c2d7d3699244c2"
+    },
+    {
+      "path": "linting.md",
+      "downloadPath": "skills/markdown/linting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/linting.md",
+      "byteCount": 9032,
+      "sha256": "ab7bf6dde8fdee3468b6c6130b902ccd61e00ab1131a304dee1448a42a18f3ad"
+    },
+    {
+      "path": "mdx.md",
+      "downloadPath": "skills/markdown/mdx.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/mdx.md",
+      "byteCount": 7189,
+      "sha256": "dce609ce8a0bd8e3d5212a5114223607f6cf0cd0d2f6a335179f73147a72caa0"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/markdown/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/memory-template.md",
+      "byteCount": 19976,
+      "sha256": "8a089526a4d77ac1db1e77ff3af7782f073180d79d7de018373d10487f5d8f99"
+    },
+    {
+      "path": "readmes.md",
+      "downloadPath": "skills/markdown/readmes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/readmes.md",
+      "byteCount": 8202,
+      "sha256": "212dd68ddaa0e7be44b47ecaa1d2066f7978537f9ff941f01bf5c653a1b35788"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/markdown/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/security.md",
+      "byteCount": 10367,
+      "sha256": "2a78d1394737ca7db8242ffe742e57fae2e1bdc38b36e6857263c7f87ef9e7a7"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/markdown/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/SKILL.md",
-      "byteCount": 2167,
-      "sha256": "f37542a340d393162925571183e5f5883ed7702d59598d1dba0ee21feaede420"
+      "byteCount": 26732,
+      "sha256": "e7da512fbb03836c02f7f485fd0269943806c2a09f4f335d84f6c83ed5b389b2"
+    },
+    {
+      "path": "structure.md",
+      "downloadPath": "skills/markdown/structure.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/structure.md",
+      "byteCount": 10105,
+      "sha256": "8e7f0880c8386b3f8873d6ee07187676d5096c8113eaa188608a17af7a17e7f0"
+    },
+    {
+      "path": "tables.md",
+      "downloadPath": "skills/markdown/tables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/markdown/tables.md",
+      "byteCount": 7967,
+      "sha256": "0eea8404298bd4d6f30ccccc01fa033f8b2626ea19f7ce802737a8d9973a0cab"
     }
   ]
 }

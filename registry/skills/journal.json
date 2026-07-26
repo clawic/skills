@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "14fa0bc008330008f43ad94f1b1bc35a2e040a636382313b488f42445662512b",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "aca863fbe362bc946f53dfcf6676e1f79d282422ca028db365734c9c6b845af2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "journal",
     "name": "Journal",
-    "description": "Build a personal journaling practice with prompts, reflection, and pattern discovery.",
-    "version": "1.0.0",
+    "description": "Runs a personal journaling practice: capturing entries, prompts for a blank page, weekly and yearly reviews, and patterns across years of writing. Use when the user wants to write, vent, dictate, or get something out of their head; when they ask for a prompt or say they are stuck; for morning pages, bullet journal, five-minute, interstitial, dream, travel, decision, or work journaling; for a weekly, monthly, or annual review; when they ask what they have been writing about, whether a mood or theme keeps recurring, or what they wrote a year ago; when the practice lapsed and they want to restart; when entries need naming, tagging, searching, encrypting, backing up, or migrating out of Day One, Notion, or an Obsidian vault; when writing through grief, anger, shame, or a decision that will not settle; or when a work journal must become performance-review evidence. Not for retrieval-oriented notes (`notes`), gratitude logging alone (`gratitude`), or live emotional support (`psychologist`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/journal",
-    "summary": "Core Behavior - User wants to write → provide space, optional prompts - No pressure, no judgment → journaling should feel safe - Surface patterns when asked → insights from past entries - Create `~/Clawic/data/journal/` ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/journal/config.yaml` (what the user declared) and `~/Clawic/data/journal/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its ",
     "repositoryPath": "skills/journal",
     "manifestPath": "registry/skills/journal.json"
   },
@@ -26,15 +26,92 @@
       "path": "_meta.json",
       "downloadPath": "skills/journal/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/_meta.json",
-      "byteCount": 166,
-      "sha256": "da901dbb54647925f0155fb32c1bce999c156fce12d3bd39ee220d1c25141422"
+      "byteCount": 242,
+      "sha256": "c7f8254b3e77c3e033cd9e30a31cefe366bbc19c3fd65cbd3b8aef23197b1853"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/journal/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/capture.md",
+      "byteCount": 8282,
+      "sha256": "bf9887c249c120d614004dfbee6f6b35d85171973202cf6969699ebb439296fd"
+    },
+    {
+      "path": "consistency.md",
+      "downloadPath": "skills/journal/consistency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/consistency.md",
+      "byteCount": 8313,
+      "sha256": "484d89afc2ec6e5250043097ef876e4ef1feb42ec425b41fcfddec1bed35acbb"
+    },
+    {
+      "path": "difficult-entries.md",
+      "downloadPath": "skills/journal/difficult-entries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/difficult-entries.md",
+      "byteCount": 10659,
+      "sha256": "d1c1ec7ab87d0bba6c7927f7892e5295aebad60fb0329ec3f4f7fd8e838aab94"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/journal/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/memory-template.md",
+      "byteCount": 28220,
+      "sha256": "7cc2acc7534dfc9180af3733593326cc573366e04660058d5306636080b36a84"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/journal/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/patterns.md",
+      "byteCount": 10095,
+      "sha256": "bf71d8e22421f7d506e4784c6daa271302e4c8dd5d4a6142fbcae8c10ffd994c"
+    },
+    {
+      "path": "practices.md",
+      "downloadPath": "skills/journal/practices.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/practices.md",
+      "byteCount": 11736,
+      "sha256": "ad8dbedbf061face9a94e1982fa32c7dce54652e0ec7b8c3fbe331ce7139aa1f"
+    },
+    {
+      "path": "privacy.md",
+      "downloadPath": "skills/journal/privacy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/privacy.md",
+      "byteCount": 9374,
+      "sha256": "8c2d66e6527de52955f924d797071690e7bbf1064ec15166e0dc080d5adcc019"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/journal/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/prompts.md",
+      "byteCount": 9956,
+      "sha256": "dbdd4f24fe1ea0f6e7d0dd32ed2dbfdd73eb473789ad78c382b782acd1c23045"
+    },
+    {
+      "path": "review.md",
+      "downloadPath": "skills/journal/review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/review.md",
+      "byteCount": 8408,
+      "sha256": "659f0242dff1efc268f6b88310e6f28d464558f87d4da9db36e1979f4dedd91f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/journal/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/SKILL.md",
-      "byteCount": 4075,
-      "sha256": "b6120070b5e03be6227ca48dce2c3911e24dcd92a54be84ea50eee692df8e04c"
+      "byteCount": 27422,
+      "sha256": "b54d37e62f5f8cbed551e4e35c8dfe950ca499014d20e187652245127fa56939"
+    },
+    {
+      "path": "storage.md",
+      "downloadPath": "skills/journal/storage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/storage.md",
+      "byteCount": 11220,
+      "sha256": "950982a11db8bf44f3abd6fed8070c6d75f0f43c2b1cadf57f639619de310d2e"
+    },
+    {
+      "path": "work-journal.md",
+      "downloadPath": "skills/journal/work-journal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/work-journal.md",
+      "byteCount": 9032,
+      "sha256": "6411fb65aa35f3ce91b7eb7e12c5f506b72f6e549f5a1908b2dad891931bbc67"
     }
   ]
 }

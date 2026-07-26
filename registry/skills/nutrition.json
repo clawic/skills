@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "ca2e5f01f66a26e89ebf1489cd79a25ff1ff55c8e7926d3c20eb9e6e7f4fa104",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "e4a1cdeeb44cfa6967d8548f4b4b633deb9870078b728087d3cf0cb244f5198b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "nutrition",
     "name": "Nutrition",
-    "description": "Build a personal nutrition system for tracking meals, calories, macros, vitamins, and minerals.",
-    "version": "1.0.0",
+    "description": "Closes micronutrient gaps and raises diet quality: vitamins, minerals, fiber, supplements, and food-drug interactions. Use when the user asks if they get enough iron, B12, vitamin D, magnesium, calcium, zinc, folate, iodine, potassium, or omega-3, reports fatigue, hair loss, cramps, tingling, or mouth sores, brings blood work to read (ferritin, 25-OH D, homocysteine), builds or prunes a supplement stack with doses, forms, and upper limits, checks a food or supplement against a medication, needs the gaps of a vegan, vegetarian, keto, gluten-free, low-FODMAP, DASH, or Mediterranean diet, eats for pregnancy, older age, celiac, IBD, kidney disease, or bariatric surgery, wants more fiber or less ultra-processed food and sodium, or reads a label's %DV, NRV, or ingredients. Not for calorie and macro counting (`calories`, `dietitian`), meal plans and recipes (`meal-planner`, `meals`), food logging or eating habits (`food`, `nutritionist`), hydration (`water`), or fasting windows (`fasting`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/nutrition",
-    "summary": "Core Behavior - User logs meal → calculate and store nutrition data - User asks about nutrients → surface totals and gaps - User tracks over time → show patterns and progress - Create `~/Clawic/data/nutrition/` as worksp",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/nutrition/config.yaml` (what the user declared) and `~/Clawic/data/nutrition/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/nutrition",
     "manifestPath": "registry/skills/nutrition.json"
   },
@@ -26,15 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/nutrition/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/_meta.json",
-      "byteCount": 170,
-      "sha256": "d5ba0e224e624b0e316a072338d95dbca07ec50d92e11e9ad4cf5da104cf9fa3"
+      "byteCount": 246,
+      "sha256": "086fc4e803790d686cf68412c4a7faee6c8388d4256753bb286182e8ca259f6d"
+    },
+    {
+      "path": "absorption.md",
+      "downloadPath": "skills/nutrition/absorption.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/absorption.md",
+      "byteCount": 9092,
+      "sha256": "941de5639f28476155bdc178097f08cb3e9c9d276556371fdf0f4459f926502f"
+    },
+    {
+      "path": "conditions.md",
+      "downloadPath": "skills/nutrition/conditions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/conditions.md",
+      "byteCount": 12678,
+      "sha256": "5ea34e4972750df0eb727df378ff50579b2b080da27d03e2ecfd08faab0868a2"
+    },
+    {
+      "path": "deficiencies.md",
+      "downloadPath": "skills/nutrition/deficiencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/deficiencies.md",
+      "byteCount": 9575,
+      "sha256": "a56cad354d4aa729147c904e12eba4bcccb9fc689a44ad97e4a8b74fa0dd76f1"
+    },
+    {
+      "path": "diet-quality.md",
+      "downloadPath": "skills/nutrition/diet-quality.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/diet-quality.md",
+      "byteCount": 9380,
+      "sha256": "65778714ede38d08676c65d096158fd8bdadef63fcd3bf1eb134883bf6780e20"
+    },
+    {
+      "path": "gut.md",
+      "downloadPath": "skills/nutrition/gut.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/gut.md",
+      "byteCount": 10220,
+      "sha256": "52ce26fb33900cc8aec4ce0d2d04ef054b8dfe9c2f123eaa97141888008e618c"
+    },
+    {
+      "path": "interactions.md",
+      "downloadPath": "skills/nutrition/interactions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/interactions.md",
+      "byteCount": 9111,
+      "sha256": "a62d81ebdc0f474aad778fe5b62eb41d35ec0ab7200e3dc9c1ff9c6ce98aac62"
+    },
+    {
+      "path": "labels.md",
+      "downloadPath": "skills/nutrition/labels.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/labels.md",
+      "byteCount": 10297,
+      "sha256": "7bf7953a64f7c8660ba9d24e1d8a1cae3ed83eba003d2b581ed6e6ba2da9ea17"
+    },
+    {
+      "path": "labs.md",
+      "downloadPath": "skills/nutrition/labs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/labs.md",
+      "byteCount": 9894,
+      "sha256": "1a0d687350bd76404ce95cbcfd2404cca9d8b0713bced1543b90d0e1c36fd6d5"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/nutrition/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/memory-template.md",
+      "byteCount": 20840,
+      "sha256": "5fb32d50d713abfe0616a9fa8e8ffef290c68c91f3e8cc7553b024a9e09c68a3"
+    },
+    {
+      "path": "micronutrients.md",
+      "downloadPath": "skills/nutrition/micronutrients.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/micronutrients.md",
+      "byteCount": 12438,
+      "sha256": "2102aba87c2612a314c06b2c2623c811191d0452dd052c9e3e22770fae9eac21"
+    },
+    {
+      "path": "patterns.md",
+      "downloadPath": "skills/nutrition/patterns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/patterns.md",
+      "byteCount": 10491,
+      "sha256": "17f6fa8aafcc043addf2b623604a3778d8b224a74106b18f6eb3818cb8a1d15a"
+    },
+    {
+      "path": "populations.md",
+      "downloadPath": "skills/nutrition/populations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/populations.md",
+      "byteCount": 10255,
+      "sha256": "894a85e7d1a2e6c3f1bb8169b241b9b155e71f48d89d96da6b65e81eff6185f2"
+    },
+    {
+      "path": "restrictions.md",
+      "downloadPath": "skills/nutrition/restrictions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/restrictions.md",
+      "byteCount": 10952,
+      "sha256": "7183dbba7185ba25c81a2335c0b45c333bf0dd6dd8327277ea08baba12422db3"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/nutrition/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/safety.md",
+      "byteCount": 11501,
+      "sha256": "1aeaf4851d0471aecd4453b34920de73f6d692a01617b5c07063da7d9c7f0283"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/nutrition/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/SKILL.md",
-      "byteCount": 3777,
-      "sha256": "3bbecb806cc85ebf5bdedebd5c7eabfb87cee615e966638ca8d2803c0da48540"
+      "byteCount": 30287,
+      "sha256": "1f8cae4905fda427e0130b9ed42f456c6064eff697380be15718b32a07662dc6"
+    },
+    {
+      "path": "supplements.md",
+      "downloadPath": "skills/nutrition/supplements.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/supplements.md",
+      "byteCount": 9909,
+      "sha256": "370d8fb13e2cb2931bda26d2db34457910b230e1b14e289310a1fa04562ff50a"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/nutrition/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/tracking.md",
+      "byteCount": 9488,
+      "sha256": "db9627d4f0e962fbcb8811140f8a1cd0be802572d2a6ba34389bef47ea475461"
     }
   ]
 }

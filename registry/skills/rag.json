@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "40b75cfab69d7ce89d02a7b4f07376332159060f34f27a9557a53a5f29d6359c",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "0e3226a5082b0986a03c8c1f524bb95a54fa0e5de6f9c4d660b60e7562d6027b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "rag",
     "name": "RAG",
-    "description": "Build, optimize, and debug RAG pipelines with chunking strategies, retrieval tuning, evaluation metrics, and production monitoring.",
-    "version": "1.0.0",
+    "description": "Designs, tunes, and debugs retrieval-augmented generation (RAG) pipelines: chunking, embeddings, hybrid retrieval, reranking, and grounded answers. Use when a system returns the wrong passages, misses a document that is indexed, cites nothing, or hallucinates over good context; when choosing a vector store, an embedding model, a chunk size, or a reranker; when similarity scores collapse after a model swap; when a metadata filter empties the result set; when answers ignore mid-context facts; when follow-up questions retrieve the wrong thing; when indexing PDFs, scanned pages, tables, code, or transcripts; when GDPR erasure, tenant isolation, or prompt injection from indexed documents is the problem; or when per-query cost or p95 latency has to come down. Covers reindex migrations, corpus freshness, evaluation sets, and agentic and graph retrieval. Not for splitter internals (`rag-chunking`), scoring rubrics (`rag-evaluation`), or LangChain APIs (`langchain`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/rag",
-    "summary": "When to Use User wants to implement, improve, or troubleshoot Retrieval-Augmented Generation systems. Quick Reference | Topic | File | |-------|------| | Pipeline components & architecture | `architecture.md` | | Impleme",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/rag/config.yaml` (what the user declared) and `~/Clawic/data/rag/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/rag",
     "manifestPath": "registry/skills/rag.json"
   },
@@ -26,43 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/rag/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/_meta.json",
-      "byteCount": 158,
-      "sha256": "03a33d3092a6f060ad2815f43ad674e00b81d13cf7f4718fea1dbd9a1b6b81cf"
+      "byteCount": 234,
+      "sha256": "ac7c7e6c6dd5d323bfaa389c0971a69db9c0df4a6eca994a875e7d751ccf1e3e"
     },
     {
-      "path": "architecture.md",
-      "downloadPath": "skills/rag/architecture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/architecture.md",
-      "byteCount": 2735,
-      "sha256": "5e92151c6f4d14380b8c6ba7e4762807ccb554fb802eabff9edc416816874a4a"
+      "path": "agentic.md",
+      "downloadPath": "skills/rag/agentic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/agentic.md",
+      "byteCount": 8740,
+      "sha256": "3bb8a599c405d6a1c79faf4fb7e07c2780182757a8ac888366acff159bd27712"
+    },
+    {
+      "path": "chunking.md",
+      "downloadPath": "skills/rag/chunking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/chunking.md",
+      "byteCount": 8211,
+      "sha256": "18cf1c68e73d5dd01c1daa270d5f0cbfc966e5959aaf8be3915683abfa1c6f69"
+    },
+    {
+      "path": "conversation.md",
+      "downloadPath": "skills/rag/conversation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/conversation.md",
+      "byteCount": 7321,
+      "sha256": "27fddb8e5408d2121743bfd2e93d783c1667e2cc8af1d98041af7bad7b8290b5"
+    },
+    {
+      "path": "costs.md",
+      "downloadPath": "skills/rag/costs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/costs.md",
+      "byteCount": 9668,
+      "sha256": "c68e00519c9a153c8747e75b01e39bfdc9759e141cb6d7f90a748d5c504f96ae"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/rag/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/debug.md",
+      "byteCount": 9318,
+      "sha256": "3250e82585dcae1c2d9d303567cc2cd2244f71996746b06a983cf7c96d958e76"
+    },
+    {
+      "path": "embeddings.md",
+      "downloadPath": "skills/rag/embeddings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/embeddings.md",
+      "byteCount": 9579,
+      "sha256": "28f0e33a8ab9584e9091af06de1a41591d27c2a8dc6737eefa4845c8f2c931ec"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/rag/evaluation.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/evaluation.md",
-      "byteCount": 2644,
-      "sha256": "af28960856f1f0b07f48372d184fba87bc6047cc6644207cf01be82889cb6a54"
+      "byteCount": 9907,
+      "sha256": "5f29a1ce0af23e88804127f4700ff012b3599a5f4c54b601a5a7f21af4413c61"
     },
     {
-      "path": "implementation.md",
-      "downloadPath": "skills/rag/implementation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/implementation.md",
-      "byteCount": 2784,
-      "sha256": "b6f3d5e868662388bc4584b5ecfeff7e68f1432782f92ca163693e4c39c60533"
+      "path": "generation.md",
+      "downloadPath": "skills/rag/generation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/generation.md",
+      "byteCount": 8672,
+      "sha256": "b202fffb79e27758679fc75665a05ef0b08c3b2dd6c0ad74b6e0a9a88d6e5ec6"
+    },
+    {
+      "path": "indexing.md",
+      "downloadPath": "skills/rag/indexing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/indexing.md",
+      "byteCount": 10663,
+      "sha256": "c4d562f7424083ed0b4376ecdb620b73b9f5ab7056dadb351b0b4145acf1fbce"
+    },
+    {
+      "path": "ingestion.md",
+      "downloadPath": "skills/rag/ingestion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/ingestion.md",
+      "byteCount": 9618,
+      "sha256": "ca5fb56b120a7e6ae7378ee606392b758375096054e12f98e91e23b6082fab64"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/rag/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/memory-template.md",
+      "byteCount": 21549,
+      "sha256": "ac886f4945fb22f59c9ac4c184359a03089dd7f22b59afb2acd1a237e71c614c"
+    },
+    {
+      "path": "multimodal.md",
+      "downloadPath": "skills/rag/multimodal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/multimodal.md",
+      "byteCount": 8479,
+      "sha256": "dd5898eff3255ab611e78793cbd2e1f572a48108a642862c5f83f26b9ae5a715"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/rag/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/production.md",
+      "byteCount": 10620,
+      "sha256": "799293e3d9f9fba34b376079895dc33dd97611f7477f3d1727468da137a5f975"
+    },
+    {
+      "path": "reranking.md",
+      "downloadPath": "skills/rag/reranking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/reranking.md",
+      "byteCount": 7725,
+      "sha256": "77d0942ee2e8073052e9e502ccb02c8c881a4daeb4b75a2f6e10ec34f3ba6011"
+    },
+    {
+      "path": "retrieval.md",
+      "downloadPath": "skills/rag/retrieval.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/retrieval.md",
+      "byteCount": 9676,
+      "sha256": "d511b210093580af0588392395cd636713580149109207b056b2f5ba71badacc"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/rag/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/security.md",
-      "byteCount": 3710,
-      "sha256": "2278b6aeb5040ad1c10ddbbcc8f8cf7828f27689f1ce6fceb6a23dea27b9a076"
+      "byteCount": 13110,
+      "sha256": "fafc9ff06d74713d4a0c3ad8d35cc38f2866e73f73a2ab2fb8914812cfd23388"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rag/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/SKILL.md",
-      "byteCount": 2560,
-      "sha256": "88e287bc23d064dd24a8be8956c0abc2d34870e44fd580c9767ce6a5c13a7f39"
+      "byteCount": 30633,
+      "sha256": "e3278224e1946a6feb14de9c72861075565d0aeb86aea0a308bdf9aec09bea6e"
+    },
+    {
+      "path": "structured-data.md",
+      "downloadPath": "skills/rag/structured-data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/structured-data.md",
+      "byteCount": 9017,
+      "sha256": "4dc570e46518979cbea147fa84bbdb091b46baddd52c9cfe9e0d37506ef5b010"
     }
   ]
 }

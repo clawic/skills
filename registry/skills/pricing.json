@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "6800385bd948052f12736d85cff35ccc336cb70ad01ee867c37673f243ffc6cc",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "aa74de0167fa7a6fb27dee361fa94204e3aba20b8c0cebc180a4d684ba83adec",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "pricing",
     "name": "Pricing",
-    "description": "Design pricing strategies for products, services, and subscriptions that maximize conversion and value.",
-    "version": "1.0.0",
+    "description": "Sets, tests, and changes prices: value metric, tier packaging, discounts, price increases, and willingness-to-pay research. Use when deciding what to charge for a new product, when nobody knows what it is worth, when a raise is overdue but churn is feared, when every deal closes at a discount, when the free plan never converts, when a competitor undercuts, when choosing per-seat versus usage-based versus flat, when designing a pricing page, when quoting an enterprise deal or a day rate, when entering a new country or currency, or when setting a marketplace take rate. Covers Van Westendorp and conjoint research, grandfathering, annual prepay maths, price tests, and auto-renewal and price-display rules. Not for consumer buying decisions (`price`), indie launch sequencing and revenue mix (`monetize`), building the billing system (`billing`), CAC and LTV decomposition (`unit-economics`), or company financial models (`cfo`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/pricing",
-    "summary": "Pricing Psychology - Charm pricing: $9.99 vs $10—left digit effect, perceived as \"nine dollars\" - Round numbers for premium: $100 vs $99.99—signals quality, less \"deal hunting\" - Remove currency symbols when possible—red",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/pricing/config.yaml` (what the user declared) and `~/Clawic/data/pricing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/pricing",
     "manifestPath": "registry/skills/pricing.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/pricing/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/_meta.json",
-      "byteCount": 166,
-      "sha256": "ab82a4feaca474d5782aaee4b1c2c737d2b70737ac64c7a11f39834f77a5f88b"
+      "byteCount": 242,
+      "sha256": "e493209293298417d864e11b509b631fc587dfff95b5eb83a40e5279c4a43e85"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/pricing/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/compliance.md",
+      "byteCount": 7982,
+      "sha256": "9efdfa5090a47d6716c6e1979822caa3934706ae183ee2d4795415988dd1902c"
+    },
+    {
+      "path": "discounting.md",
+      "downloadPath": "skills/pricing/discounting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/discounting.md",
+      "byteCount": 7403,
+      "sha256": "674e309cff86cb1e0aea644fe93244eaf858f067b14379a04eb0d1a8876b82a4"
+    },
+    {
+      "path": "elasticity.md",
+      "downloadPath": "skills/pricing/elasticity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/elasticity.md",
+      "byteCount": 6241,
+      "sha256": "bac15cb7f5d7a3db94b49088541e427e59a27d122822d3cb7a8f0b4688e6913a"
+    },
+    {
+      "path": "enterprise.md",
+      "downloadPath": "skills/pricing/enterprise.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/enterprise.md",
+      "byteCount": 7213,
+      "sha256": "f29d92a2a47c9d7d84ab9fd3539f24a97e48db651b8f5065dd272f88bf596758"
+    },
+    {
+      "path": "freemium.md",
+      "downloadPath": "skills/pricing/freemium.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/freemium.md",
+      "byteCount": 7004,
+      "sha256": "c7e537e8ebc55674a52f0958ae6aded7fa0d58ba3bd119138d5ed9c87b086a34"
+    },
+    {
+      "path": "international.md",
+      "downloadPath": "skills/pricing/international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/international.md",
+      "byteCount": 6901,
+      "sha256": "9b1da7205bbfbb85aba4c8fffa0935720f240b4c5773a84872e90da86ede77dc"
+    },
+    {
+      "path": "marketplace.md",
+      "downloadPath": "skills/pricing/marketplace.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/marketplace.md",
+      "byteCount": 6115,
+      "sha256": "f6920ac918a81a455b5a0bc08b6b1b13341fd5a8930ed8f3051317099195ef07"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/pricing/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/memory-template.md",
+      "byteCount": 22920,
+      "sha256": "59d8f0aae3cc3bcf902c487539d60afc960c5cceebc3eb258c4d66c0537f5703"
+    },
+    {
+      "path": "packaging.md",
+      "downloadPath": "skills/pricing/packaging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/packaging.md",
+      "byteCount": 6769,
+      "sha256": "8d6a7474d3c827b0e7723f62029d6cb20ca7c76ad4a16474c12e109bb7a9e31a"
+    },
+    {
+      "path": "price-increase.md",
+      "downloadPath": "skills/pricing/price-increase.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/price-increase.md",
+      "byteCount": 8558,
+      "sha256": "99d17e4f84b403a5ba93921f4e846c0ba3ea95d8fcad60b18b2e1671c1fa84c6"
+    },
+    {
+      "path": "pricing-page.md",
+      "downloadPath": "skills/pricing/pricing-page.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/pricing-page.md",
+      "byteCount": 6916,
+      "sha256": "d56dd93d29cfe5b6a1e4b2313774be64a1d6691dc4047e0fb3e60b19fe506680"
+    },
+    {
+      "path": "research.md",
+      "downloadPath": "skills/pricing/research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/research.md",
+      "byteCount": 8224,
+      "sha256": "759ed9d4e5e9bc3a2afc861fb240ddb161d69700a2b9c8df2c3d7e4b43d138bc"
+    },
+    {
+      "path": "retail.md",
+      "downloadPath": "skills/pricing/retail.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/retail.md",
+      "byteCount": 6633,
+      "sha256": "97834105eed47b5fc6217c16ff14d387e8ab7955b471f738f0c793418fc819be"
+    },
+    {
+      "path": "services.md",
+      "downloadPath": "skills/pricing/services.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/services.md",
+      "byteCount": 6785,
+      "sha256": "ff423ea154bd86b8f257975868abf629c2a9873c7c3eabbeb38519f373b53bad"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/pricing/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/SKILL.md",
-      "byteCount": 4298,
-      "sha256": "41776c8d4e4a6ddb433b0f4edf6b8b7c6b8924737ba62ff83a537a135405c72b"
+      "byteCount": 28594,
+      "sha256": "94c10c1283e29fd655d1b536f3777cbf318720750b6157e12ad16ccbdd62e8ad"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/pricing/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/testing.md",
+      "byteCount": 6366,
+      "sha256": "6ba6f466b7dde0eee61429727ec6f8533ab73029e672471439a60218ddc5dfa0"
+    },
+    {
+      "path": "usage-based.md",
+      "downloadPath": "skills/pricing/usage-based.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/usage-based.md",
+      "byteCount": 6570,
+      "sha256": "c13bb9eeed4d30e54320b34a0d52c1153b4475062432ce0cc0e5ef578878dbaf"
+    },
+    {
+      "path": "value-metric.md",
+      "downloadPath": "skills/pricing/value-metric.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/value-metric.md",
+      "byteCount": 7454,
+      "sha256": "f50671036c55a54ca9a3e549939aac316c1df03a390d66d3789eddacaacdc127"
     }
   ]
 }

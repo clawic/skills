@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "d311873549bcdda3e0ca7f010aa897b02033ac4d6e2b29b387927ecae996aee9",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "c6433a09e9b1b82efa2af2c4c181d86088723aad5338d78bd35454afbe5aabc5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "agents",
     "name": "Agents",
-    "description": "Design, build, and deploy AI agents with architecture patterns, framework selection, memory systems, and production safety.",
-    "version": "1.0.0",
+    "description": "Designs, debugs, evaluates, and hardens AI agents — the loop, tools, memory, context budget, cost, and escalation — independent of any framework. Use when an agent loops forever, repeats a tool call, drifts from its instructions after many turns, invents tool arguments, stops mid-task, or swallows a tool error silently; when deciding single agent versus several, or which framework to build on; when token cost per task or p95 latency has to come down; when designing tool schemas, retries, timeouts, checkpoints, or human approval; when writing an eval set or a regression suite for agent behavior; when prompt injection, tool abuse, or an over-permissioned action is the risk; and when specifying an agent's purpose, escalation rules, and cost ceiling for a team. Covers memory design, multi-agent handoffs, tracing, and rollout. Not for LangChain APIs (`langchain`), retrieval pipelines (`rag`), prompt craft alone (`prompting`), or agent persona and voice (`agent`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/agents",
-    "summary": "When to Use Use when designing agent systems, choosing frameworks, implementing memory/tools, specifying agent behavior for teams, or reviewing agent security. Quick Reference | Topic | File | |-------|------| | Architec",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/agents/config.yaml` (what the user declared) and `~/Clawic/data/agents/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/agents",
     "manifestPath": "registry/skills/agents.json"
   },
@@ -26,57 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/agents/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/_meta.json",
-      "byteCount": 164,
-      "sha256": "67b61506a52dbf087a23ad1efe30f22cef80cd4d4f9599b7c3996c13e2eaf4af"
+      "byteCount": 240,
+      "sha256": "acd8be442ad40d0686154f36592717c00826187b75aa707f67d385ad194e9c35"
+    },
+    {
+      "path": "agent-types.md",
+      "downloadPath": "skills/agents/agent-types.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/agent-types.md",
+      "byteCount": 9474,
+      "sha256": "8cfb1b134bbd1bcf8e191933a678b1de0e7ed8ec046d9d5c3c40283cfc70c539"
     },
     {
       "path": "architecture.md",
       "downloadPath": "skills/agents/architecture.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/architecture.md",
-      "byteCount": 3352,
-      "sha256": "5f6843b76dc72ffb23d660eb06f6299bcb4a7895ac368d5c7c09822f77d88c06"
+      "byteCount": 6549,
+      "sha256": "6d01a95f4735e089d2378f029a7e3f3f7ae8f0b5bd43065e4d3f799733a3aee7"
+    },
+    {
+      "path": "context.md",
+      "downloadPath": "skills/agents/context.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/context.md",
+      "byteCount": 6411,
+      "sha256": "13ac795956635018eaa76e6cf949f1182c175a8977117d6fa6a4fc9a8077ee5f"
+    },
+    {
+      "path": "cost.md",
+      "downloadPath": "skills/agents/cost.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/cost.md",
+      "byteCount": 7167,
+      "sha256": "7425aa5253fbc400bff0126a8283e2c370a1256eea02511541337ea70980dede"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/agents/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/debugging.md",
+      "byteCount": 6522,
+      "sha256": "c13d6442b84f1cc6c720c840a068361692cd60ec1d94322255dc28fafb46dcf5"
     },
     {
       "path": "evaluation.md",
       "downloadPath": "skills/agents/evaluation.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/evaluation.md",
-      "byteCount": 4242,
-      "sha256": "b437b99229ae713ce00c7acefdf5be76725a661be10313580e51e8b80e813704"
+      "byteCount": 8088,
+      "sha256": "b09ec8b70eb6512fd0cea4232febb442490ad5648affaca3263d5642f133c810"
     },
     {
       "path": "frameworks.md",
       "downloadPath": "skills/agents/frameworks.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/frameworks.md",
-      "byteCount": 2936,
-      "sha256": "cfdfd84d644cdd4f0766e104354a9df380aa9dfeeeb47c064a9c4ef07d6a1c05"
+      "byteCount": 5461,
+      "sha256": "f78e706a6f61c2cd675a404c1a3f7304048dce740244310d8b20db026d20a0e2"
+    },
+    {
+      "path": "human-in-the-loop.md",
+      "downloadPath": "skills/agents/human-in-the-loop.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/human-in-the-loop.md",
+      "byteCount": 6267,
+      "sha256": "07fa8d3f3cff2641517a135e9921604bed4ad5f8d2bae314472b401437b1f98f"
     },
     {
       "path": "implementation.md",
       "downloadPath": "skills/agents/implementation.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/implementation.md",
-      "byteCount": 4434,
-      "sha256": "10893408c9b320de103bd60cf96e4fa30f4794758428dcc8ec46a13640326e7b"
+      "byteCount": 9528,
+      "sha256": "7ccdc0a972c7e3db1c3945b4949aa861d2c4896bc0c40c9443a402f996d88cc8"
+    },
+    {
+      "path": "memory-design.md",
+      "downloadPath": "skills/agents/memory-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/memory-design.md",
+      "byteCount": 7165,
+      "sha256": "c342f6a64caac1d7ad0479e248235b3f2a97a25356b54de50e40bd95af04397a"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/agents/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/memory-template.md",
+      "byteCount": 25022,
+      "sha256": "ead5902897c62d202e18a305981cc5dfb85c774415ff6a92ecb1b066af720ebd"
+    },
+    {
+      "path": "multi-agent.md",
+      "downloadPath": "skills/agents/multi-agent.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/multi-agent.md",
+      "byteCount": 6556,
+      "sha256": "36c06d2c1a851a718fabac1ad35cbb18289323663c5f865f6c9b78ad49647b3f"
+    },
+    {
+      "path": "production.md",
+      "downloadPath": "skills/agents/production.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/production.md",
+      "byteCount": 6611,
+      "sha256": "38b4bfd7207abccd7d43bbe570ff43e5cef45ae8dfe8d1062b48ae1831261584"
+    },
+    {
+      "path": "prompts.md",
+      "downloadPath": "skills/agents/prompts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/prompts.md",
+      "byteCount": 6620,
+      "sha256": "ba859eb2bd1853aae6529f11e5434fbba551da4e8b8abfaf580c3c19c340cdc2"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/agents/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/security.md",
-      "byteCount": 4289,
-      "sha256": "0b1d65414cb53b6a4e8d7c9ed0392f0cef410041f3e9ec8f4cc6353c66217a1f"
+      "byteCount": 8696,
+      "sha256": "25b1d5cd318ec292510fd3eccfa79ea3b0c8d32abd138f2588a0071d011a42a5"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/agents/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/SKILL.md",
-      "byteCount": 2374,
-      "sha256": "0ba0cbe8bc6809bc83a5167c5441798febf2698bdde1392ea0b20b5c15646aaa"
+      "byteCount": 28539,
+      "sha256": "04d6823ad585786d847bfe1dc30b435dbcfe3e8e369f599ea3b319bfa37f2f01"
     },
     {
-      "path": "use-cases.md",
-      "downloadPath": "skills/agents/use-cases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/use-cases.md",
-      "byteCount": 4177,
-      "sha256": "aceb22b91fe0c7fc315b7597de0c00cf975bbcf495d44bf6e94022aac8907b63"
+      "path": "tools.md",
+      "downloadPath": "skills/agents/tools.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/tools.md",
+      "byteCount": 9464,
+      "sha256": "bf248da8479a62f8affdfa57aacc489f785d3aeed7bb7360eea4b15dbbe2c4e6"
     }
   ]
 }

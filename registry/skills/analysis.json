@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "975c25167ff0bc298b6a77bbb77256a31c248045babeff3a021318c585765af9",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "e66499d2edac756511e32bfb8fb0ce68812550a32811be1d3adebba8ef8dc217",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "analysis",
     "name": "Analysis",
-    "description": "Run deep system health checks across workspace, config, skills, and integrations with prioritized findings and remediation.",
-    "version": "1.0.0",
+    "description": "Audits an AI agent's own setup — workspace, config, memory, skills, jobs, integrations — and reports what is broken, exposed, or wasteful. Use when asked to check the system, run a health check, or diagnose the setup, or when something feels off or the agent got slow or expensive; when a token, key, or .env may be exposed in a file, config, or git history; when permissions or auto-approve rules look too broad; when a scheduled job stops firing, runs twice, or fails silently; when sessions or subagents pile up or loop; when memory files bloat, go stale, contradict, or fall out of their index; when skills collide, never activate, or point at missing files; when an integration returns 401 or 429 or goes quiet; when token spend or context size jumps; and when the same finding keeps coming back. Not for vetting third-party skill code (`skill-audit`), workspace persona and proactivity tuning (`openclaw-workspace`), application monitoring (`monitoring`), or statistical analysis of a dataset.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/analysis",
-    "summary": "When To Use Trigger when user says: \"check my system\", \"what's wrong\", \"health check\", \"diagnose\", \"audit\", \"why is X slow\", \"something feels off\" This is NOT generic data analysis. This is **system self-diagnosis** — ex",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/analysis/config.yaml` (what the user declared) and `~/Clawic/data/analysis/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/analysis",
     "manifestPath": "registry/skills/analysis.json"
   },
@@ -26,36 +26,106 @@
       "path": "_meta.json",
       "downloadPath": "skills/analysis/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/_meta.json",
-      "byteCount": 168,
-      "sha256": "423fafbef2beb7795cd6f59a428ccf2574f1188bf71a512e69c50b75e11af432"
+      "byteCount": 244,
+      "sha256": "9dc51200444b82b9a56853651e3e03e49017e7cbc8d37c047e8aa27e1995d8ff"
     },
     {
-      "path": "checks.md",
-      "downloadPath": "skills/analysis/checks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/checks.md",
-      "byteCount": 3089,
-      "sha256": "b53e535ccbee897f31c44ff76c777b6d0d016f0e34e37e2dc03dbf0555115fb4"
+      "path": "agent-memory.md",
+      "downloadPath": "skills/analysis/agent-memory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/agent-memory.md",
+      "byteCount": 8243,
+      "sha256": "dbcb159aaa8fcbc433574903d4e0c1520941674eae57f81567edca0c20f23c79"
+    },
+    {
+      "path": "cost.md",
+      "downloadPath": "skills/analysis/cost.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/cost.md",
+      "byteCount": 8448,
+      "sha256": "78c3d2d3d7123b7246762c56064ace8d9284600404375c157bd60b481e11a2e7"
+    },
+    {
+      "path": "integrations.md",
+      "downloadPath": "skills/analysis/integrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/integrations.md",
+      "byteCount": 10108,
+      "sha256": "dc1cbd068546f3243834c151b73783ea513f4c1d0e544ac8c8dbb8cddd6ed9dc"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/analysis/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/memory-template.md",
+      "byteCount": 22249,
+      "sha256": "0adf3913721714027751f0fc2a6f10f587a4fa5d9847f85ae3f44f96e00c9f11"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/analysis/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/performance.md",
+      "byteCount": 7792,
+      "sha256": "8a56c6f768065e7faf350c2b73873344bbde2ec14f0a16167a2dc8f450e17ff2"
+    },
+    {
+      "path": "permissions.md",
+      "downloadPath": "skills/analysis/permissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/permissions.md",
+      "byteCount": 9845,
+      "sha256": "e1f2518a2912734194bca575a1d7976a74496b34878184e95b0f91a06f1b0112"
     },
     {
       "path": "remediation.md",
       "downloadPath": "skills/analysis/remediation.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/remediation.md",
-      "byteCount": 3307,
-      "sha256": "7d91668f9d0d4e93dd80861a64ab0e6d96cca2acf27e7c4c3a542bdfa9b54ba3"
+      "byteCount": 8819,
+      "sha256": "524d976e67df4653910302fb6e19a2b8ba22cc386235b8b231cd0dbc64ff953f"
+    },
+    {
+      "path": "scheduled.md",
+      "downloadPath": "skills/analysis/scheduled.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/scheduled.md",
+      "byteCount": 10706,
+      "sha256": "fae06fec88adc15327a5b5ca4a99588deb36b6f6e773a54118851a2abbdabd99"
+    },
+    {
+      "path": "secrets.md",
+      "downloadPath": "skills/analysis/secrets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/secrets.md",
+      "byteCount": 11099,
+      "sha256": "9d694d53600bbd184a4c80fa1cf799400c997192d4a3ec24bd93ff442a4e31f9"
+    },
+    {
+      "path": "sessions.md",
+      "downloadPath": "skills/analysis/sessions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/sessions.md",
+      "byteCount": 7899,
+      "sha256": "45f31aa01f95c3232a5ef5288e7154e956552613403e749a9e1dd88977de93b4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/analysis/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/SKILL.md",
-      "byteCount": 2095,
-      "sha256": "460b27a6d011e6ec144f3173f476d1e2b56f2b85dff86b1726ed65b138b507ca"
+      "byteCount": 28434,
+      "sha256": "64b66bddd569fca13f12283f589f2a0e2bc93d07063bfac470d46bbf74e11ff8"
+    },
+    {
+      "path": "skills.md",
+      "downloadPath": "skills/analysis/skills.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/skills.md",
+      "byteCount": 8186,
+      "sha256": "30f16225f2dc7416b983ca5ac75bb6997a1adc512a1887eb775dde4642c6bcee"
     },
     {
       "path": "tracking.md",
       "downloadPath": "skills/analysis/tracking.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/tracking.md",
-      "byteCount": 2699,
-      "sha256": "f32e61ac884cd4f7cc25b367472db97496b818d28359d89863491f93be2cf0c6"
+      "byteCount": 8098,
+      "sha256": "bc6d70db1eba944e89220885a9ba0e43c6aa521244376254a683bb72fde0b4dd"
+    },
+    {
+      "path": "workspace.md",
+      "downloadPath": "skills/analysis/workspace.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/workspace.md",
+      "byteCount": 9228,
+      "sha256": "774abd0b1d7fe91724589b1b0d80587d3094dacce51a94fc60115e31adedd2e3"
     }
   ]
 }

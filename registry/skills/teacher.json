@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "6c9b65c3a7e691066f06b70117ce89f1648c17730a1f54fbc18b227624a36394",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "1854aa70b2acd3a6202798628d7e0ee65ebfd128543d82c61f92f46c50a36ffd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "teacher",
     "name": "Teacher",
-    "description": "Explain concepts clearly, adapt to learner levels, and guide understanding with effective teaching patterns.",
-    "version": "1.0.0",
+    "description": "Plans lessons, units and syllabi, designs assessments and rubrics, marks and gives feedback at scale, and runs a room that behaves. Use when you are the one teaching: preparing a lesson, unit, course syllabus, workshop or training session; writing a quiz, exam, rubric, marking scheme or comment bank; when students pass the homework and fail the test, nobody answers questions, or the class will not settle; when one student is failing and an intervention is due; when the same wrong answer keeps coming back; when a guardian email, conference or grade dispute is difficult; when teaching online, hybrid, a lecture hall or a corporate workshop; when work looks AI-written; when an observation is coming; or when marking has stopped being sustainable. Covers K-12, higher education, bootcamps and adult training. Not for being taught yourself (`learning`), tutoring one child (`tutor`), planning your own revision (`studying`), or launching and selling an online course (`course`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/teacher",
-    "summary": "Teaching Rules Assessing the Learner - Ask what they already know before explaining — build on existing knowledge - Watch for confusion signals — \"I guess\" or silence means lost, not understanding - Wrong answers reveal ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/teacher/config.yaml` (what the user declared) and `~/Clawic/data/teacher/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/teacher",
     "manifestPath": "registry/skills/teacher.json"
   },
@@ -26,15 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/teacher/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/_meta.json",
-      "byteCount": 166,
-      "sha256": "3010b4a178afef563ebf07dbaa26c0759c94ffe0868646853a4f8473126ef496"
+      "byteCount": 242,
+      "sha256": "1520a220e06d1dafbd7f2ccbe5f6b0b9a205ec55587c92b8d5a0f7c4cb22b0d6"
+    },
+    {
+      "path": "assessment.md",
+      "downloadPath": "skills/teacher/assessment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/assessment.md",
+      "byteCount": 11199,
+      "sha256": "7241c31dcf59aa39d23adbcd5f438eb71664a4c3e2cbe427e5823e2f666c069f"
+    },
+    {
+      "path": "checking.md",
+      "downloadPath": "skills/teacher/checking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/checking.md",
+      "byteCount": 9983,
+      "sha256": "4176905f6073ffc8442d3ca7624988467d80401b1a36e89c36eeab3f1f9da451"
+    },
+    {
+      "path": "classroom.md",
+      "downloadPath": "skills/teacher/classroom.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/classroom.md",
+      "byteCount": 12228,
+      "sha256": "7b5e67eedb22c958a797775cf0dfe350e693ce7c130114ec41067d958756708c"
+    },
+    {
+      "path": "curriculum.md",
+      "downloadPath": "skills/teacher/curriculum.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/curriculum.md",
+      "byteCount": 9407,
+      "sha256": "6d8a6995a5b585a6f4787d699a7e0641af6c48d3029422d41bd4c52fe527bd52"
+    },
+    {
+      "path": "differentiation.md",
+      "downloadPath": "skills/teacher/differentiation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/differentiation.md",
+      "byteCount": 10834,
+      "sha256": "8f0203cb10b19eaa479eaa13479d4fd1029f8af870a368c4826fddfcdaef633c"
+    },
+    {
+      "path": "engagement.md",
+      "downloadPath": "skills/teacher/engagement.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/engagement.md",
+      "byteCount": 10009,
+      "sha256": "9b7e8902f63bf93eb791560cf69b1953042c19b6a000ffcc348d1265d1e312c1"
+    },
+    {
+      "path": "explaining.md",
+      "downloadPath": "skills/teacher/explaining.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/explaining.md",
+      "byteCount": 10589,
+      "sha256": "260dd5f172e56800485b939adf2d7c004454a6047fb28c50bcd26e6e8ea7b0b0"
+    },
+    {
+      "path": "grading.md",
+      "downloadPath": "skills/teacher/grading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/grading.md",
+      "byteCount": 12249,
+      "sha256": "9e52f8a08ac9eaa92ad35c95f18c6a505015ecdb0698f485445668c4f1e0924c"
+    },
+    {
+      "path": "higher-ed.md",
+      "downloadPath": "skills/teacher/higher-ed.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/higher-ed.md",
+      "byteCount": 11235,
+      "sha256": "ad0902e22d89a18d4ef47f1cb3bff37f1f8644de49d56f56a70ab621557d26de"
+    },
+    {
+      "path": "integrity.md",
+      "downloadPath": "skills/teacher/integrity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/integrity.md",
+      "byteCount": 11288,
+      "sha256": "caca90a8b3fd1211313fc329695d3a89d68679a134093bc2118014a78eea0ecd"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/teacher/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/memory-template.md",
+      "byteCount": 25032,
+      "sha256": "f22134066895ff824f1fd8aeebae589e0fd8ed5204c82ee2399903ac7cc315ae"
+    },
+    {
+      "path": "observation.md",
+      "downloadPath": "skills/teacher/observation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/observation.md",
+      "byteCount": 11013,
+      "sha256": "26fd1135b9cc5678cf79b5ba8b87dd231a783811344aba6edd64a5bf87a928fc"
+    },
+    {
+      "path": "online.md",
+      "downloadPath": "skills/teacher/online.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/online.md",
+      "byteCount": 10736,
+      "sha256": "fa44123c4b9534caeda0ded3bfb8a4ea6a97625e0bde3f6cd897bc4f636745ea"
+    },
+    {
+      "path": "parents.md",
+      "downloadPath": "skills/teacher/parents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/parents.md",
+      "byteCount": 10320,
+      "sha256": "85291ee90c320d774a58436766ddef4ca225ff5fad81d847c7b49a11344b5628"
+    },
+    {
+      "path": "planning.md",
+      "downloadPath": "skills/teacher/planning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/planning.md",
+      "byteCount": 10988,
+      "sha256": "5c898e17423cab02c42d821f16313ee95a6c1151f60afc6c7a4cd551d0422c95"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/teacher/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/SKILL.md",
-      "byteCount": 4245,
-      "sha256": "46b4f5b346345e5aa411a28f1574de2fc06ee19a6bc37716bcfc37cbe3868918"
+      "byteCount": 34869,
+      "sha256": "72e8d99d357c318f50432111edbd86ac83db355ec4a5d9dc67eb6210045cabe5"
+    },
+    {
+      "path": "struggling.md",
+      "downloadPath": "skills/teacher/struggling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/struggling.md",
+      "byteCount": 10404,
+      "sha256": "8f81c48f2108e818d23ef5c324c06abd480beddd5eb08f05d685ff082467e71d"
+    },
+    {
+      "path": "subjects.md",
+      "downloadPath": "skills/teacher/subjects.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/subjects.md",
+      "byteCount": 13583,
+      "sha256": "122afd451627b5f0daca488aa6f5cf03f90ceb09abfb3bc09b026f90eea2107a"
+    },
+    {
+      "path": "training.md",
+      "downloadPath": "skills/teacher/training.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/training.md",
+      "byteCount": 12279,
+      "sha256": "ed87fb481e20871ba58b7cf654a1af6ac0e6f5c576c1f034a732ce88dae6b994"
+    },
+    {
+      "path": "workload.md",
+      "downloadPath": "skills/teacher/workload.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/workload.md",
+      "byteCount": 10216,
+      "sha256": "52e4044b4e49832588eedea19f8bb18dfa39f00387570311694718edf1e0eb8d"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "de43e9b81187c4a9cc9d323cb92763139b0b0ad4d8d9bb0728aeb44826a70c02",
-  "generatedAt": "2026-07-26T15:41:42.474Z",
-  "sourceRevision": "4a7204dddc151dd6c6bdd2fa4e5737a521a11cf2",
-  "manifestSha256": "dac16fc785a53a99ff3cf824a7a0732aa8a363ba3f83d78054aed18ce31d8dba",
+  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
+  "generatedAt": "2026-07-26T18:08:41.307Z",
+  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "manifestSha256": "24eb1474e7713cbfd63d0003938a7c035be23101a918c3872e86fd7c334bf11a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "summarizer",
     "name": "Summarizer",
-    "description": "Distill content to its essence with audience-aware compression, format selection, and quality verification.",
-    "version": "1.0.0",
+    "description": "Summarizes any source without losing the claim: documents, meetings, papers, threads, transcripts, data, and code changes. Use when asked to summarize, condense, shorten, recap, distill, or write a TLDR, abstract, or executive summary; when a source is too long to read or must hit a word count; when summarizing a call, interview, Slack channel, pull request, contract, earnings report, podcast, or a stack of sources on one topic; when a summary dropped something important, invented a detail, turned a hedge into a fact, or reads like the headings; and when the same material must be re-cut for another audience, length, or channel. Covers compression ratios, chunking, faithfulness and omission audits. Not for recurring external feeds (`digest`), decision documents whose point is the recommendation (`brief`), cross-source insight generation rather than compression (`synthesize`), or pulling text or a transcript out of a file or video first (`extract-pdf-text`, `youtube-video-transcript`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/summarizer",
-    "summary": "Core Principle Good summaries preserve meaning while eliminating noise. Bad ones drop critical points or miss the audience. **Summarization = Compression + Preservation + Adaptation** Protocol ``` Analyze → Select techni",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/summarizer/config.yaml` (what the user declared) and `~/Clawic/data/summarizer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Op",
     "repositoryPath": "skills/summarizer",
     "manifestPath": "registry/skills/summarizer.json"
   },
@@ -26,29 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/summarizer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/_meta.json",
-      "byteCount": 172,
-      "sha256": "61263206c315049ce4f606eaa9aed865b78babebba1ba9d5572e8ccd559a558e"
+      "byteCount": 248,
+      "sha256": "10c0f839b941f01c6203ac519721250ff0fdb1107df78a740ed73d0da8292e42"
+    },
+    {
+      "path": "audience.md",
+      "downloadPath": "skills/summarizer/audience.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/audience.md",
+      "byteCount": 9419,
+      "sha256": "6e52ae91f8cf76c5b3625963b8a159c5b436ba0c66a693cfd97900d4120c9606"
+    },
+    {
+      "path": "code.md",
+      "downloadPath": "skills/summarizer/code.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/code.md",
+      "byteCount": 9131,
+      "sha256": "4f7d8cecd9c9eb95108024305eb52a7b6d104c8fb6cb166bdcfb222a056e9b2c"
+    },
+    {
+      "path": "data.md",
+      "downloadPath": "skills/summarizer/data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/data.md",
+      "byteCount": 9689,
+      "sha256": "b2a0a7eb4aa50a47b2e42dced5a06d96647467e62e36962e7670b4ad83dda854"
     },
     {
       "path": "formats.md",
       "downloadPath": "skills/summarizer/formats.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/formats.md",
-      "byteCount": 3193,
-      "sha256": "39fc5af0a58a4c39a3e11900ffd8bc3827a26e2a4ba808725735a1b4faf7f089"
+      "byteCount": 9277,
+      "sha256": "c2b9b1a03bf341d754547d7d10a50d4d676eef133fe20a76dd3415eb6f18ec17"
+    },
+    {
+      "path": "legal.md",
+      "downloadPath": "skills/summarizer/legal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/legal.md",
+      "byteCount": 10919,
+      "sha256": "cd049286ac13c32c6fc37f7ec2fb2b96b1828ddf2e6a9c555e33bc58da68c9c0"
+    },
+    {
+      "path": "long-sources.md",
+      "downloadPath": "skills/summarizer/long-sources.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/long-sources.md",
+      "byteCount": 9056,
+      "sha256": "48509673a423933ab6c1aca387f81aa748635657afe7231ffb7b64ebc287e10c"
+    },
+    {
+      "path": "media.md",
+      "downloadPath": "skills/summarizer/media.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/media.md",
+      "byteCount": 9381,
+      "sha256": "fe54617919a473b25cfeba5d9c2f011a4f815d985dfcfae9eafa03a3aedcfce8"
+    },
+    {
+      "path": "meetings.md",
+      "downloadPath": "skills/summarizer/meetings.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/meetings.md",
+      "byteCount": 10046,
+      "sha256": "487ab85ad0273046fc38becbc75a7fead385ae3722bb8879f6b635d13d694744"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/summarizer/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/memory-template.md",
+      "byteCount": 21197,
+      "sha256": "31a0cb50bb4e76c02297f3fefd3a65eee075f2ee347db613152c4c9acc81b15d"
+    },
+    {
+      "path": "multi-source.md",
+      "downloadPath": "skills/summarizer/multi-source.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/multi-source.md",
+      "byteCount": 9335,
+      "sha256": "f0a6e42af6279a5388b1a3b40a51b452650a71d894d7db550363348e0af2de8e"
+    },
+    {
+      "path": "news.md",
+      "downloadPath": "skills/summarizer/news.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/news.md",
+      "byteCount": 8043,
+      "sha256": "89a79438805749f39d9f8f0ef5790f73b8e8819ffd5f774de6bd48b51000b292"
+    },
+    {
+      "path": "recurring.md",
+      "downloadPath": "skills/summarizer/recurring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/recurring.md",
+      "byteCount": 7689,
+      "sha256": "37f85495d42e92a6f1caac44760f11704f6aacff4e241f414ba1f337f0168c74"
+    },
+    {
+      "path": "research.md",
+      "downloadPath": "skills/summarizer/research.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/research.md",
+      "byteCount": 10063,
+      "sha256": "8bfefbb515506f963780b424881d425e2f499bf707e78c3e91581af90d76f104"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/summarizer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/SKILL.md",
-      "byteCount": 2398,
-      "sha256": "087e439311ce9d4e5ccf0954463c59e6a4c407296005d0edd012e48b054a06ce"
+      "byteCount": 27109,
+      "sha256": "491acf88c5e2ac9bfcd3dd469ef9a0e215a8ec176a236aff24a9509880f8b784"
     },
     {
       "path": "techniques.md",
       "downloadPath": "skills/summarizer/techniques.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/techniques.md",
-      "byteCount": 3548,
-      "sha256": "23155632bde512e61e7c21a788994fa2c2df5a68ccefe87098aab0467576cdb1"
+      "byteCount": 9416,
+      "sha256": "ef7e709a1a7a6dbde129afad4ae528a2e6d6be5287caf844528e6daf9699c986"
+    },
+    {
+      "path": "threads.md",
+      "downloadPath": "skills/summarizer/threads.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/threads.md",
+      "byteCount": 9486,
+      "sha256": "e5045626d2be1a4b6fde4dae6443212aeece974b077222ab08cc8351f3cc80f7"
+    },
+    {
+      "path": "verification.md",
+      "downloadPath": "skills/summarizer/verification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/verification.md",
+      "byteCount": 11772,
+      "sha256": "eacc045458b7b84edff62a1f71744f9ba5d9ad9d8ba7dedba463583bc961089d"
     }
   ]
 }
