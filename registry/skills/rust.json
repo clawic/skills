@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "1454770419cbcc96057cb2d014b9304c3e6427edcebfa09e54713b698d9800fe",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "e0e730de0a2e5a092ba06df1059cdb9e509a077da7dcc04f6bdb2e5add3e3204",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "rust",
     "name": "rust",
-    "description": "Write idiomatic Rust avoiding ownership pitfalls, lifetime confusion, and common borrow checker battles.",
-    "version": "1.0.1",
+    "description": "Writes, debugs, and optimizes Rust code, crates, and Cargo builds: ownership, lifetimes, traits, async, unsafe, and FFI. Use when the borrow checker rejects code, when rustc reports value moved, cannot borrow as mutable, does not live long enough, missing lifetime specifier, trait bound not satisfied, or not dyn compatible; when a future cannot be sent between threads, a Mutex guard crosses an await, a task blocks the async runtime, or select! loses data; when code deadlocks, panics on unwrap, or hits BorrowMutError; when cargo builds are slow, features unify unexpectedly, two versions of one crate collide, or the build fails only in CI; when writing unsafe, C FFI, proc macros, serde derives, no_std firmware, or wasm; when cross-compiling to musl or another target; when profiling, benchmarking, or shrinking a Rust binary. Not for C++ or language-agnostic concurrency theory.",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/rust",
-    "summary": "Quick Reference | Topic | File | Key Trap | |-------|------|----------| | Ownership & Borrowing | `ownership-borrowing.md` | Move semantics catch everyone | | Strings & Types | `types-strings.md` | `String` vs `&str`, UT",
+    "summary": "User preferences and memory live in `~/Clawic/data/rust/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/rust/` or `~/clawic/rust/`), move it to `~/Clawic",
     "repositoryPath": "skills/rust",
     "manifestPath": "registry/skills/rust.json"
   },
@@ -26,50 +26,190 @@
       "path": "_meta.json",
       "downloadPath": "skills/rust/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/_meta.json",
-      "byteCount": 236,
-      "sha256": "fe66c876336410a4a2c408c14f37d068cc7c0864156a98080d46e52ed002a599"
+      "byteCount": 310,
+      "sha256": "e54252467de2296ff7caed6433882105b8b778e319f8acd3223fee04d64245be"
     },
     {
-      "path": "advanced-traps.md",
-      "downloadPath": "skills/rust/advanced-traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/advanced-traps.md",
-      "byteCount": 2328,
-      "sha256": "84f66cf7f643db3eeb46b81c175853a646499675077c48775509a520cbc6d74e"
+      "path": "api-design.md",
+      "downloadPath": "skills/rust/api-design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/api-design.md",
+      "byteCount": 6974,
+      "sha256": "503b1f35423caad40df9e36da697d8af135b67622656fdc901a7f149d3545d6c"
     },
     {
-      "path": "concurrency-memory.md",
-      "downloadPath": "skills/rust/concurrency-memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/concurrency-memory.md",
-      "byteCount": 1853,
-      "sha256": "cc49e489433537e89168c3a2b0da9615b36894c72371dddd4927817c57fe57e1"
+      "path": "async.md",
+      "downloadPath": "skills/rust/async.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/async.md",
+      "byteCount": 7624,
+      "sha256": "6b7341c42c4c2c28bdece85ba00602bbda5aec8d6b33d990f6d1420c0390fe97"
     },
     {
-      "path": "errors-iteration.md",
-      "downloadPath": "skills/rust/errors-iteration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/errors-iteration.md",
-      "byteCount": 1958,
-      "sha256": "e0be62af8a41c309b178dd65931fb1930cb0c9ac17513928221760aa0e76f6b2"
+      "path": "cargo.md",
+      "downloadPath": "skills/rust/cargo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/cargo.md",
+      "byteCount": 7780,
+      "sha256": "073c6b6a0588af7d0a16f705ceee4a6bdad7f09e4fb77e18141491cce805194d"
     },
     {
-      "path": "ownership-borrowing.md",
-      "downloadPath": "skills/rust/ownership-borrowing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/ownership-borrowing.md",
-      "byteCount": 1752,
-      "sha256": "9379687e104b05858e0733b65abc3a5f0a7405edb4d22214944d69219e65aed5"
+      "path": "collections.md",
+      "downloadPath": "skills/rust/collections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/collections.md",
+      "byteCount": 7492,
+      "sha256": "013a11c02c8eff4f61217d6911067c03a9bb1981e671b1d5ee6b93990a43e358"
+    },
+    {
+      "path": "compiler-errors.md",
+      "downloadPath": "skills/rust/compiler-errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/compiler-errors.md",
+      "byteCount": 8834,
+      "sha256": "78a095d0088b3c0f9346ccb39b1d717449e1218c00443b50f34520dc4ce098cb"
+    },
+    {
+      "path": "concurrency.md",
+      "downloadPath": "skills/rust/concurrency.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/concurrency.md",
+      "byteCount": 7351,
+      "sha256": "38b89cd7f2a32aaac65128fe6e3ebb5b2bfb8c82cb059c6614b8bacf2602eca2"
+    },
+    {
+      "path": "cross-compilation.md",
+      "downloadPath": "skills/rust/cross-compilation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/cross-compilation.md",
+      "byteCount": 7358,
+      "sha256": "60f49bd70b3ff5f585058467b94695a518fc9accc945964ad33bb67cce5a5f29"
+    },
+    {
+      "path": "embedded-no-std.md",
+      "downloadPath": "skills/rust/embedded-no-std.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/embedded-no-std.md",
+      "byteCount": 7396,
+      "sha256": "74c63e0ea6782b7758a507b0b65cf93b17cddd61bd906e42c282f26c9e2b01b4"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/rust/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/errors.md",
+      "byteCount": 6902,
+      "sha256": "7c57e6dc13920df60223d023f44e2b697d08739cdb5c3ccc2f7a8b0536a3d78b"
+    },
+    {
+      "path": "ffi.md",
+      "downloadPath": "skills/rust/ffi.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/ffi.md",
+      "byteCount": 7026,
+      "sha256": "86fd19ed162a5a89de16c65ca15f00adfb34fcb834e16adbf55b197d90db269a"
+    },
+    {
+      "path": "lifetimes.md",
+      "downloadPath": "skills/rust/lifetimes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/lifetimes.md",
+      "byteCount": 6287,
+      "sha256": "0f7900fd4c77672fe4b974aa1395267344f6f9d55e1a9649fc25be6f770f739c"
+    },
+    {
+      "path": "macros.md",
+      "downloadPath": "skills/rust/macros.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/macros.md",
+      "byteCount": 7181,
+      "sha256": "f40d55c411202cbb64af79f4dbe27da5b2172db760174383a493421d465dd95b"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/rust/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/memory-template.md",
+      "byteCount": 774,
+      "sha256": "cd7bbcb08bcc4670abc905416ada644f113e29b66cd92b9db6126c6388741267"
+    },
+    {
+      "path": "modules-and-layout.md",
+      "downloadPath": "skills/rust/modules-and-layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/modules-and-layout.md",
+      "byteCount": 6323,
+      "sha256": "947d4c347ba1fec72bae8f99192517fcfdfdcbb0ad8098f175dde54b68baa13b"
+    },
+    {
+      "path": "observability.md",
+      "downloadPath": "skills/rust/observability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/observability.md",
+      "byteCount": 7493,
+      "sha256": "bb1b28d0518de58f592eccc0433d5802ee652f24b422d5835b03a517bbb4d303"
+    },
+    {
+      "path": "ownership.md",
+      "downloadPath": "skills/rust/ownership.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/ownership.md",
+      "byteCount": 6519,
+      "sha256": "40b9ca6a5c786a70889b84cb27adb5f1e5a01c4269cdccc5d096ce1e9711e863"
+    },
+    {
+      "path": "pattern-matching.md",
+      "downloadPath": "skills/rust/pattern-matching.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/pattern-matching.md",
+      "byteCount": 7441,
+      "sha256": "8984cbe3c89d1ad9e4a56ff7d3a5eb3361f5b7ee394dc9b3f37457626f38165d"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/rust/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/performance.md",
+      "byteCount": 7316,
+      "sha256": "1f2a928d2db73c05caea21baa5d5f5965e734b0d6e8247c9010d9804c85443ba"
+    },
+    {
+      "path": "serde.md",
+      "downloadPath": "skills/rust/serde.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/serde.md",
+      "byteCount": 7675,
+      "sha256": "b0c4f7b76c343c77579b6b05a0ec24c8db30e4600151007526bec7cda1471a61"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/rust/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/setup.md",
+      "byteCount": 2393,
+      "sha256": "15025a277912a0cf0acf12a840780846ec6cb3c3d343d029780209ad91261f66"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/rust/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/SKILL.md",
-      "byteCount": 3800,
-      "sha256": "a968f44e5597fcce1399e55b0daaddfd69edf888a94c641493589a3d86365a9f"
+      "byteCount": 23608,
+      "sha256": "bf1bcfadf18728f5403c7b22b1709ae17422799f3df43ffbbe46090f427ebfef"
     },
     {
-      "path": "types-strings.md",
-      "downloadPath": "skills/rust/types-strings.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/types-strings.md",
-      "byteCount": 1650,
-      "sha256": "dfc6fb131a815013010894c4137ac1c48c5c50fe770421f187e489e4c23bd90a"
+      "path": "strings-and-text.md",
+      "downloadPath": "skills/rust/strings-and-text.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/strings-and-text.md",
+      "byteCount": 7606,
+      "sha256": "72d1ced011ca86292d6d44f94cc854222de3b88c1df8bf3dca363f2b3329fe71"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/rust/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/testing.md",
+      "byteCount": 7112,
+      "sha256": "d1de0f3f309c29ad1fcb79295705d65a24d065261c1962a0765e26af035d2f71"
+    },
+    {
+      "path": "traits.md",
+      "downloadPath": "skills/rust/traits.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/traits.md",
+      "byteCount": 6777,
+      "sha256": "5488bceb75744d789000d7880f1f8395047cba5c29e66e909ff5b19c630f929d"
+    },
+    {
+      "path": "unsafe.md",
+      "downloadPath": "skills/rust/unsafe.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/unsafe.md",
+      "byteCount": 6766,
+      "sha256": "3ad39079ba800601698968819bf68a6cc5b7be12cf5e996e7e5fd59e30c3b7b5"
+    },
+    {
+      "path": "wasm.md",
+      "downloadPath": "skills/rust/wasm.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rust/wasm.md",
+      "byteCount": 6736,
+      "sha256": "cb0917ef75e5a2f814d7e5afecc96cea62504168b9db4c129351a9ebcd079df9"
     }
   ]
 }
