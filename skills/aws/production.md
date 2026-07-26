@@ -25,7 +25,7 @@ Formula: `downtime_minutes = 43,200 × (1 − target)`. Note that your availabil
 
 - **RPO** (how much data you can lose) is set by backup frequency and replication lag. Automated RDS backups with 5-minute PITR granularity give RPO ≈ 5 minutes. A nightly snapshot gives RPO = 24 hours, and someone should agree to that in writing.
 - **RTO** (how long recovery takes) is only known if you have measured it. Restoring a 500 GB RDS snapshot is not instant, and the first restore is slower still because the volume lazy-loads from S3.
-- Quarterly drill, timed: restore the newest snapshot into a scratch instance, point a copy of the app at it, and record how long it took and what was missing. What breaks is never the data — it is the KMS grant, the parameter group, the security group, the DNS record, and the one credential nobody documented.
+- Quarterly drill, timed: restore the newest snapshot into a scratch instance, point a copy of the app at it, and record how long it took and what was missing in `~/Clawic/data/aws/deploys/<year>.md`, updating the `## Due` table in `memory.md`. An untimed drill is a drill that did not happen. What breaks is never the data — it is the KMS grant, the parameter group, the security group, the DNS record, and the one credential nobody documented.
 - Backups live in a different account when the threat model includes a compromised credential or an angry admin. AWS Backup with a vault in the log-archive account and a vault lock is the mechanism.
 
 ## Scaling That Works
@@ -74,7 +74,7 @@ Four metrics answer "is it healthy" for almost any AWS service: **saturation** (
 - Health-gated rolling deploys are the baseline: new instances or tasks must pass health checks before the old ones drain.
 - Blue/green when rollback must be instant; canary when the failure mode is subtle and needs real traffic to reveal. Both cost more than rolling; pick per service, not per company.
 - Database migrations are the part that cannot roll back. Expand-contract: deploy the schema change that is compatible with both versions, deploy the code, then remove the old column in a later release. A migration and a code deploy in the same step means the rollback plan is fiction.
-- Record what you deployed — image digest, commit sha, template version — at deploy time. Rollback is only possible if the previous artifact is identified, and "the previous tag" is not an identity.
+- Record what you deployed — image digest, commit sha, template version — at deploy time, in `~/Clawic/data/aws/deploys/<year>.md`. Rollback is only possible if the previous artifact is identified, and "the previous tag" is not an identity.
 - Deploy during hours when the people who can fix it are awake. This is not a technical control and it prevents more incidents than most technical controls.
 
 ## Patching and Maintenance
@@ -95,4 +95,4 @@ Before calling something production:
 - The first quota the design will hit is named, its current value known, and headroom requested
 - Deploy path is health-gated with an identified rollback artifact; database migrations are expand-contract
 - Deletion protection and `prevent_destroy` on data resources; the state and template are in version control
-- Runbook exists for the top three failure modes, and the DR drill has been run once with a recorded time
+- Runbook exists for the top three failure modes, saved to `~/Clawic/data/aws/artifacts/` with its `## Boxes` line in `memory.md`, and the DR drill has been run once with a recorded time

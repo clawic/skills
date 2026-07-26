@@ -154,3 +154,5 @@ Run top to bottom on any account you inherit.
 | GuardDuty enabled in every region in use | `aws guardduty list-detectors`, per region |
 | Budget and cost anomaly alerts exist | `aws budgets describe-budgets` + `aws ce get-anomaly-monitors` |
 | External access surfaces reviewed | `aws accessanalyzer list-findings` |
+
+Write the sweep result into `## Current Infrastructure` in `~/Clawic/data/aws/memory.md`, and any host it turned up into `~/Clawic/data/servers/servers.md`. The next session should start from the gaps, not from `describe-*`.

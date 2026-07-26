@@ -25,4 +25,4 @@ If the user has said nothing, store nothing.
 
 ## First Log Entry
 
-The first drink mention: log it silently with the type default from Logging Defaults, reply with one short acknowledgment. Do not present the skill, the target, or the file layout — the system introduces itself through usefulness, not onboarding.
+The first drink mention: log it without comment with the type default from Logging Defaults, reply with one short acknowledgment. Do not present the skill, the target, or the file layout — the system introduces itself through usefulness, not onboarding.

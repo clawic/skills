@@ -39,7 +39,7 @@ Before any recurring loop exists, clarify:
 
 Default to conservative behavior:
 - propose heartbeat tracks first
-- log quietly when nothing changed
+- log without comment when nothing changed
 - ask before any new recurring topic, schedule, or tool with cost
 
 ### 4. Prepare the AGENTS routing early

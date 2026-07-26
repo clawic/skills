@@ -59,7 +59,7 @@ Depth on demand: `triggers.md` what qualifies · `timing.md` lead times, ladder,
 4. **Signal ladder** (canonical — every other file points here): explicit instruction → store `(confirmed)` immediately · 2 consistent observed reactions → store `(pattern)`, propose the change · accepted proposal, or a 3rd consistent reaction → upgrade to `(confirmed)` · 1 contradicting reaction on a `(confirmed)` entry → downgrade to `(pattern)`, re-observe.
 5. **Remind while acting is still possible.** Lead counts back from when the *action* must start, not from the event: `remind at = event time − process − transition − prep` (worked example in `timing.md`).
 6. **One acknowledgment = done.** Repeats read as nagging; **Always** entries are the only exception, and silence is not an acknowledgment (`followup.md`).
-7. **Never store silently.** Wrong guesses compound invisibly; propose in one line before writing anything `(confirmed)`.
+7. **Never store without comment.** Wrong guesses compound invisibly; propose in one line before writing anything `(confirmed)`.
 8. **A working system sends fewer reminders each month, not more.** Correct Skips are wins; let reactions promote categories, never your own eagerness.
 
 ## Reminder Components

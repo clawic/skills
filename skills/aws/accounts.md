@@ -78,3 +78,5 @@ Role chaining (assume A, then assume B from A) caps the session at 1 hour regard
 - **Account Factory for Terraform / custom pipelines** where you already have IaC discipline and want account creation in the same review flow as everything else.
 - Whatever creates accounts must also apply the baseline: CloudTrail to the log archive, Config recorder, GuardDuty, default EBS encryption, account-level S3 Block Public Access, a budget, and the standard roles. An account created without its baseline is the one that shows up in the next audit.
 - Closing an account is a 90-day process with a suspension period, and the account still counts against the Organization's quota during it. Reuse a sandbox rather than churning accounts.
+
+Record the account → alias → owner/client → billing mapping (`memory-template.md`): with one account it lives in `## Account Context`, from the second it is `~/Clawic/data/aws/accounts.md`. Per-account budgets are unactionable if nobody can say whose account it is. If an account belongs to a client, the client goes in the shared `~/Clawic/data/contacts/contacts.md` and is referenced here by name only.

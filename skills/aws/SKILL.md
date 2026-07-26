@@ -34,9 +34,18 @@ metadata:
     displayName: AWS | Amazon Web Services
     configPaths:
     - ~/Clawic/data/aws/
+    - ~/Clawic/data/servers/
 ---
 
-Working data lives in `~/Clawic/data/aws/` — `config.yaml` (declared preferences) and `memory.md` (observed context, account shape, cost history). **Hosts and managed instances go in the shared inventory `~/Clawic/data/servers/servers.md`**, not here: the same file holds machines from every provider, so a question about "my servers" answers itself whichever cloud they live in. One row per host: `name | provider (aws) | account/project | region | type | role | monthly cost | access reference`. The access reference is a pointer, never a secret: an SSM parameter name, a profile name, or a key path. Credentials never live in any of these files: read them from your AWS profile, environment, or secret manager at call time. Read `setup.md` on first use; `memory-template.md` has the file formats and tells you when a section outgrows `memory.md`. If you have data at an old location (`~/aws/` or `~/clawic/aws/`), move it to `~/Clawic/data/aws/`.
+**Data.** At the start of every session, read `~/Clawic/data/aws/config.yaml` (what the user declared) and `~/Clawic/data/aws/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question. If none of it exists, work from defaults and say nothing about it.
+
+**Write before the session ends** whenever it produced something durable: a host created, resized, discovered or retired; an inventory pass; a spend number or a saving; a budget or alert; an account and its owner; a deploy or a timed DR drill; or something the user will want to read again — a runbook, a policy that finally worked, an architecture decision. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
+
+**Hosts go to the shared inventory `~/Clawic/data/servers/servers.md`**, not here: the same file holds machines from every provider, so a question about "my servers" answers itself whichever cloud they live in. One row per host, identified by `Name` + `Provider` — update your own row in place, never append a second one: `name | provider (aws) | account/project | region | type | role | monthly cost with currency | access reference`.
+
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in these files, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `ssm:/prod/db/password`, `env:AWS_PROFILE`, `keychain:aws-prod`, `profile:prod`.
+
+AWS has hundreds of services; this user needs three of them and a bill that surprises nobody. Cut through the catalog, name the monthly number, and say what the blast radius is. Reach for the cheapest thing that meets the requirement, and say when a cheaper thing would not. Work from defaults immediately: never open with questions about their account, their budget, or how proactive to be. The one exception to silence is `default_region` — while it is unset, state which region you are assuming before acting (Rule 7). That is a statement, not a question. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, locale) → the Configuration table default.
 
 ## When To Use
 
@@ -72,7 +81,7 @@ Coverage map: `debug.md` symptom→cause · `iam.md` permissions · `networking.
 
 ## Core Rules
 
-1. **Inventory before architecture.** Never propose infrastructure into an unknown account. Minimum discovery: `aws sts get-caller-identity`, `aws ec2 describe-vpcs`, and 30 days of Cost Explorer grouped by service (`commands.md`). The spend report maps the account faster than any console tour, because anything real costs something.
+1. **Inventory before architecture.** Never propose infrastructure into an unknown account — and never rediscover an account you already mapped. Read the stored inventory first: `## Current Infrastructure` in `memory.md`, whatever its `## Boxes` line points to, and `~/Clawic/data/servers/servers.md`. Then run discovery only for what is missing or older than the last recorded pass, and write the result back. Minimum discovery: `aws sts get-caller-identity`, `aws ec2 describe-vpcs`, and 30 days of Cost Explorer grouped by service (`commands.md`). The spend report maps the account faster than any console tour, because anything real costs something.
 2. **Billing alarm before the first resource.** On a fresh account the first deploy is a budget plus an anomaly subscription, not an EC2 instance. Thresholds: alert at 80% of budget actual and 100% forecast; set the anomaly threshold near *daily* spend — `monthly_budget_usd ÷ 30`, so a $100/mo budget alerts at $3, not $50 — because anomalies are daily events and a monthly-sized threshold never fires. Commands, in order (monitor first, then subscription): `costs.md`.
 3. **A monthly number with every recommendation.** Rough stages (us-east-1, on-demand — verify current pricing before committing):
 
@@ -178,7 +187,7 @@ One default per need, with the escape hatch. Thresholds and break-evens: `servic
 Before delivering an architecture, a policy, or a command:
 
 - Did I state the monthly cost of what I recommended, in the region it will actually run?
-- Did I check what already exists before proposing something new?
+- Did I check the stored inventory *and* the live account before proposing something new?
 - Is anything holding data reachable from the public internet?
 - Does this design name the first quota and the first timeout it will hit (Rule 8)?
 - Is anything that cannot be retrofitted — encryption, CIDR, DynamoDB keys, subnet size — set correctly at creation?

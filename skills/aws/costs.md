@@ -4,6 +4,11 @@ Prices: us-east-1, on-demand, recorded early 2026. The **ratios and break-evens 
 
 **Contents:** [Set Up the Alarms Before the Resources](#set-up-the-alarms-before-the-resources) · [Diagnosing a Surprise Bill](#diagnosing-a-surprise-bill) · [The Ten Biggest Line Items](#the-ten-biggest-line-items) · [Commitment Discounts — After Right-Sizing, Never Before](#commitment-discounts--after-right-sizing-never-before) · [S3 Lifecycle Economics](#s3-lifecycle-economics) · [Free Tier and Support](#free-tier-and-support) · [Monthly Review Checklist](#monthly-review-checklist)
 
+**Before answering any spend question**, read `## Spend` in `~/Clawic/data/aws/memory.md` — or `spend-log.md` if the `## Boxes` index points there. A current-month number with no prior months is not an answer.
+
+**After any bill review or saving**, write it back in the same turn: the month row with its `As of` date, the top three services, and any optimization (`memory-template.md`).
+
+
 ## Set Up the Alarms Before the Resources
 
 ```bash
@@ -219,3 +224,5 @@ The costs hiding inside the savings: transitions bill per request (order of $0.0
 | Savings Plan utilization and coverage | Under 95% utilization = over-committed; large uncovered steady spend = under-committed |
 | Non-production running outside business hours | Schedule it |
 | Untagged spend | Anything unattributable is next month's argument — fix the tags now (SKILL.md Rule 6) |
+
+Record the date this ran in the `## Due` table of `memory.md`, and the month row in `## Spend`. A checklist with no last-run date gets skipped for a quarter and nobody notices.

@@ -51,7 +51,7 @@ Hydration tracking and advice from conversational mentions. All persistent data 
 | Active fasting window | Water, black coffee, and plain tea do not break a fast; fasts over 24 h need electrolytes (→ fasting skill) |
 | Tap vs bottled, filter choice, travel water safety | Taste and context, not fear; certifications, boil rules, lead → quality.md |
 | User asks for trends or opted into summaries | Weekly summary format → habits.md |
-| Any other hydration mention (default) | Log silently with timestamp and estimated ml; no comment, no reminder, no target talk |
+| Any other hydration mention (default) | Log without comment with timestamp and estimated ml; no comment, no reminder, no target talk |
 
 Depth on demand: `logging.md` mention→ml parsing, calibration, day boundaries · `exercise.md` sweat rate, endurance, hyponatremia · `environment.md` heat, cold, altitude, flights · `illness.md` fever, GI losses, hangover, kids and elderly · `electrolytes.md` sodium, ORS, sports drinks · `conditions.md` stones, pregnancy, fluid restriction, medications · `habits.md` pattern detection, summaries, habit design · `quality.md` tap, bottled, filters, travel safety · `setup.md` first run · `memory-template.md` file formats.
 

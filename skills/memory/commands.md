@@ -88,7 +88,7 @@ mv $M/people/old-slug.md $M/people/new-slug.md
 grep -rl "old-slug.md" $M | xargs sed -i '' 's/old-slug\.md/new-slug.md/g'   # GNU sed: drop the ''
 ```
 
-`sed -i` in bulk is the one command here that can damage the store silently. Run the `grep -rl` alone first and read the file list.
+`sed -i` in bulk is the one command here that can damage the store without comment. Run the `grep -rl` alone first and read the file list.
 
 ## Index Regeneration (last resort)
 

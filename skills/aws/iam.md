@@ -125,3 +125,5 @@ Expect `1` and `0`. A root access key bypasses every policy and every SCP you wi
 | External access surfaces known | `aws accessanalyzer list-findings` — resources shared outside the account or Organization |
 | Unused roles and permissions | IAM Access Advisor: services not accessed in 90+ days are candidates for removal |
 | Boundaries on developer-creatable roles | `aws iam get-role --query 'Role.PermissionsBoundary'` |
+
+After a least-privilege policy finally works, save it to `~/Clawic/data/aws/artifacts/policy-<role>.md` — the JSON with every secret value replaced by its pointer, the date, and what it unblocked — and add its `## Boxes` line to `memory.md`. Deriving one costs a full business cycle; nobody should pay it twice.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "9221492fb63143177c54544a7854d68b7193f82b9e12f9361ed564333d415fab",
-  "generatedAt": "2026-07-26T12:41:29.597Z",
-  "sourceRevision": "245f0006759cd0e93138b6ed468b0facd08ae213",
-  "manifestSha256": "dd2a51bad569ece7a39f8caab878d82408caf5d045820497add6faaa58e96ec3",
+  "snapshotId": "20586d40586dc537eff665572fa81b98676415fd0356a9adf7209983d30352fd",
+  "generatedAt": "2026-07-26T13:16:43.149Z",
+  "sourceRevision": "c6597d400ab2918b26834e21c8d8a6487c2378b6",
+  "manifestSha256": "f09f602cf510d4481d79036a340ef5cc488f36b413752938ff9fad08353c7412",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -17,7 +17,7 @@
     "description": "Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront. Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied, throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda, Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design, NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest authoring (`k8s`), or Terraform language mechanics (`terraform`).",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/aws",
-    "summary": "Working data lives in `~/Clawic/data/aws/` — `config.yaml` (declared preferences) and `memory.md` (observed context, account shape, cost history). **Hosts and managed instances go in the shared inventory `~/Clawic/data/s",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/aws/config.yaml` (what the user declared) and `~/Clawic/data/aws/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/aws",
     "manifestPath": "registry/skills/aws.json"
   },
@@ -33,8 +33,8 @@
       "path": "accounts.md",
       "downloadPath": "skills/aws/accounts.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/accounts.md",
-      "byteCount": 6655,
-      "sha256": "94a358570ece887783ddc036e950e9325358f61254d9d283d37b315d38cb28d6"
+      "byteCount": 7067,
+      "sha256": "136872db13c01baa70018ee48d9d0703979b33e493cb9cc05e790ef0c6544386"
     },
     {
       "path": "commands.md",
@@ -54,8 +54,8 @@
       "path": "costs.md",
       "downloadPath": "skills/aws/costs.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/costs.md",
-      "byteCount": 14041,
-      "sha256": "6dcdbaf63e5b7ca2221eb2d90cb27b211c2d15c6834cc0e166ec2c33ed3331b0"
+      "byteCount": 14609,
+      "sha256": "4614a7db8eac6466d59174b0155d20fea6ba852609a33d565956c516487bdc2b"
     },
     {
       "path": "databases.md",
@@ -82,8 +82,8 @@
       "path": "iam.md",
       "downloadPath": "skills/aws/iam.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/iam.md",
-      "byteCount": 9343,
-      "sha256": "a579a410bdd834b9af6b51a6076587be9304b0aff641c4efe99b00490962a5f7"
+      "byteCount": 9660,
+      "sha256": "0864ebdd7da0724dc1087cde1990061b446ea3315103ba0a7e3b557778a6ca7e"
     },
     {
       "path": "lambda.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/aws/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/memory-template.md",
-      "byteCount": 4600,
-      "sha256": "e40cc7a61e6f790025717303bf7d08f4dd33fb69e3c9b0937861a4fcb5da27b0"
+      "byteCount": 13667,
+      "sha256": "cbd0bdcdaf6ecedca89ee08f458b2546917072a69b81bc74f539ca4896142f3d"
     },
     {
       "path": "networking.md",
@@ -110,15 +110,15 @@
       "path": "production.md",
       "downloadPath": "skills/aws/production.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/production.md",
-      "byteCount": 9312,
-      "sha256": "d8c3da290e6be7101d9f6d4e2809005c95b00cacaa09e5b4d3a54885e9f9d6b8"
+      "byteCount": 9569,
+      "sha256": "b232374e6790da47636754e9f9e7f401a140d115183f6200c92fd736f1b0f5ca"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/aws/security.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/security.md",
-      "byteCount": 11802,
-      "sha256": "4af4c67a770a7157a45788aa592f9feb68106b73f0a74e607f4070eee8a56750"
+      "byteCount": 12028,
+      "sha256": "bdc8ba8abd4e329370b13a8e76ed0d25d3a5ff9ffad0e05293ef6c028f067e35"
     },
     {
       "path": "services.md",
@@ -128,18 +128,11 @@
       "sha256": "5ba93fbc238666a6ed1b73676613fd448d8c9b2d955f13859dff40e7a9df4d1d"
     },
     {
-      "path": "setup.md",
-      "downloadPath": "skills/aws/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/setup.md",
-      "byteCount": 3073,
-      "sha256": "e079d18a3cc3286ad70110d82c2632e18a94b947b74b1d94cfa90106d07c5f99"
-    },
-    {
       "path": "SKILL.md",
       "downloadPath": "skills/aws/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/SKILL.md",
-      "byteCount": 25034,
-      "sha256": "4ff751b7790535390fdaf670648047ad5ea705d8f7be27f9e03b9e3987d4e373"
+      "byteCount": 26855,
+      "sha256": "779ec16c5770b55a43caba7529f7dae938f13ff8f1e5b4d2f88fe9161dbf70e6"
     },
     {
       "path": "storage.md",
