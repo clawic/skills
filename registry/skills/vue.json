@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "fabdaddfb5112364c2fdc1035bc2700cb75b02bcf0f1cb6f3a248becc3ec918d",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "828a69dd058647c474a5d64b0a88898d8bced8940a0c9d954447a34ff4fe3b75",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "vue",
     "name": "vue",
-    "description": "Build Vue 3 applications with Composition API, proper reactivity patterns, and production-ready components.",
-    "version": "1.0.1",
+    "description": "Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance. Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment, .value is forgotten, a watcher never fires or loops (\"Maximum recursive updates exceeded\"), props or v-model stop syncing, a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns \"getActivePinia() was called but there was no active Pinia\", the console shows \"Failed to resolve component\" or \"Extraneous non-props attributes\", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/vue",
-    "summary": "When to Use User needs Vue expertise — from Composition API patterns to production optimization. Agent handles reactivity, component design, state management, and performance. Quick Reference | Topic | File | |-------|--",
+    "summary": "User preferences and memory live in `~/Clawic/data/vue/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/vue/` or `~/clawic/vue/`), move it to `~/Clawic/da",
     "repositoryPath": "skills/vue",
     "manifestPath": "registry/skills/vue.json"
   },
@@ -26,43 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/vue/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/_meta.json",
-      "byteCount": 234,
-      "sha256": "cd14bf03f73ea475514afa5952785c68e930ff66494de15c2db240d768b33b5d"
+      "byteCount": 308,
+      "sha256": "0697402f10f69f6a29ca941f28348d92eff87cbf2041883d3940b5c2bb71d4e7"
     },
     {
       "path": "components.md",
       "downloadPath": "skills/vue/components.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/components.md",
-      "byteCount": 2208,
-      "sha256": "0673057b655ed38c9cd715750d49572dfaa104360b1a052665cf0c64085db5c3"
+      "byteCount": 8559,
+      "sha256": "5bdc31780a2d1519c759c2040598af96d53d25d83ef3e66fe5c9e146b6536644"
     },
     {
       "path": "composables.md",
       "downloadPath": "skills/vue/composables.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/composables.md",
-      "byteCount": 2264,
-      "sha256": "62e1d44b3c62540ee8975bff8b31606ce18d09de74bfaf2cd671be46dab5f6e6"
+      "byteCount": 6431,
+      "sha256": "0abab5cc0c6cb8ed6c167ff5338212652c345f77f477e53ec2508b95ee3c5cd4"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/vue/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/debug.md",
+      "byteCount": 8399,
+      "sha256": "24e5e37b687ed3764fe1b942df250064a6ac7ca7d21ac028927e93dbb966ab52"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/vue/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/errors.md",
+      "byteCount": 7268,
+      "sha256": "37a245371d7d79a8ed6964a41b61e0a787e2dec1057154a87c98821934a4f900"
+    },
+    {
+      "path": "forms.md",
+      "downloadPath": "skills/vue/forms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/forms.md",
+      "byteCount": 7209,
+      "sha256": "4adf40ca861079987a01df636dad0daa49d4f19a3c73ba0ec3db42362c9990b3"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/vue/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/memory-template.md",
+      "byteCount": 742,
+      "sha256": "4894843eb23d41039b0fd4bd3d68ae79539ea67545b1e83286afeae38d8c812f"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/vue/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/migration.md",
+      "byteCount": 6195,
+      "sha256": "f863ca762fd3875522c24d24227b08ab3cbe89291e667f0c12a03051b6706ab2"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/vue/performance.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/performance.md",
-      "byteCount": 2430,
-      "sha256": "cf26a9ee43893cb502dffcd91c9a0a7e03fd7d0e3e691860cdec3b4b82cf2c5f"
+      "byteCount": 6525,
+      "sha256": "261fc04c4b9c2c7e0a37e1cc4780336989115024ff825e627fa740c8ffc33246"
+    },
+    {
+      "path": "plugins.md",
+      "downloadPath": "skills/vue/plugins.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/plugins.md",
+      "byteCount": 4944,
+      "sha256": "302764de8ba836b2c358fb5f80934bab95d09614d6e006701176c45144d563fe"
     },
     {
       "path": "reactivity.md",
       "downloadPath": "skills/vue/reactivity.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/reactivity.md",
-      "byteCount": 2212,
-      "sha256": "c60a254c6dac9da67f73be511e9169c4f1669ed5b13c1a5b84b9d597cabc6df2"
+      "byteCount": 7616,
+      "sha256": "54d3e552ee6591faebdb6e737c648a0a49bc7b8bfe126a6065bcf475c2f102bf"
+    },
+    {
+      "path": "routing.md",
+      "downloadPath": "skills/vue/routing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/routing.md",
+      "byteCount": 8479,
+      "sha256": "547d1769e07800594bdaf766309de4cdfc0eaafbb19457a7aabe247b912c2fe3"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/vue/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/security.md",
+      "byteCount": 4585,
+      "sha256": "2134713473547cad1f8fcf057472e14d0d6bc5cf9c61311c881d4bf390ef34ed"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/vue/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/setup.md",
+      "byteCount": 2435,
+      "sha256": "d8bc0adea11d5d22b916cee8f4977c527e7fb6ea22c962a017bed7ae1752626d"
+    },
+    {
+      "path": "sfc.md",
+      "downloadPath": "skills/vue/sfc.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/sfc.md",
+      "byteCount": 6219,
+      "sha256": "bb326e1578e53cec9fe0c55a383bcb6f2aaac8047ae0839cc776dda31ec75723"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/vue/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/SKILL.md",
-      "byteCount": 4204,
-      "sha256": "86856a0cf020e7473294d866e2c8e6fc499032092b734e3b768517ab7714123e"
+      "byteCount": 20524,
+      "sha256": "6ebd694cbc3e65a4ed1f7cf6b2ca9bca0f74a871c568bf96051115c241b006f0"
+    },
+    {
+      "path": "ssr.md",
+      "downloadPath": "skills/vue/ssr.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/ssr.md",
+      "byteCount": 6057,
+      "sha256": "1dc13a935bea6fefa4b588f2eedfa2e2a77b43c2e3dc90860c0bb434e2bb6670"
+    },
+    {
+      "path": "state.md",
+      "downloadPath": "skills/vue/state.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/state.md",
+      "byteCount": 8302,
+      "sha256": "e2383785ad31370177accddb73c5dfd195e265d6248b8363690c39911ab93985"
+    },
+    {
+      "path": "templates.md",
+      "downloadPath": "skills/vue/templates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/templates.md",
+      "byteCount": 6388,
+      "sha256": "0abc92bc6ad689c9d0555a3f770e7b0500823bfb34ab4937406d9f4024eda1b0"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/vue/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/testing.md",
+      "byteCount": 7701,
+      "sha256": "f16e5c470a7d17b6499669165db5e9bf0d22c9f805c9604b41a8bfcc6183833f"
+    },
+    {
+      "path": "typescript.md",
+      "downloadPath": "skills/vue/typescript.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vue/typescript.md",
+      "byteCount": 6018,
+      "sha256": "79a1cd66b3deb9518fd8aaf6916fcc27c7e0a80c35fa81ec17ea180a13a15e20"
     }
   ]
 }
