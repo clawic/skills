@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "86bae652db2cb716b77691ad3727b36508c14328887b366e1978de58f68c77b8",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "e313f35d0232974e2b49bacb33404ba14c0f874d7223ced14a88b45b660eddf5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "prisma",
     "name": "prisma",
-    "description": "Write efficient Prisma queries, design schemas, and avoid common ORM pitfalls.",
-    "version": "1.0.0",
+    "description": "Designs Prisma schemas, writes type-safe queries, and fixes migrations, connection pools, and N+1 relation loads in Node and TypeScript. Use when editing schema.prisma, modeling relations, indexes, enums, JSON or Decimal columns, or choosing between db push, migrate dev and migrate deploy; when a migration drifts, fails, or would drop a column on rename, or a database needs baselining; on errors P2002, P2025, P2024, P2034 or P3009; when connections run out on Lambda, Vercel or behind PgBouncer; when queries are slow or include loads too much; on transaction timeouts, deadlocks and optimistic locking; when Decimal or BigInt break JSON.stringify; for $queryRaw and TypedSQL; when porting $use middleware to client extensions; when prisma generate fails in Docker, Alpine or CI; and for seeding and test isolation. Not for database-server tuning or hand-written SQL (pg, sql), or other ORMs.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/prisma",
-    "summary": "Schema Design Traps - `@default(cuid())` over `@default(uuid())` for IDs—shorter, URL-safe, still unique - `@updatedAt` doesn't update on nested writes—must touch parent record explicitly - Implicit many-to-many creates ",
+    "summary": "User preferences and memory live in `~/Clawic/data/prisma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/prisma/` or `~/clawic/prisma/`), move it to `~/",
     "repositoryPath": "skills/prisma",
     "manifestPath": "registry/skills/prisma.json"
   },
@@ -26,15 +26,120 @@
       "path": "_meta.json",
       "downloadPath": "skills/prisma/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/_meta.json",
-      "byteCount": 164,
-      "sha256": "a4ebf57577d6cbbeab1280a3b2c48a1e3a3eadbefa56428f592ced83e1111b54"
+      "byteCount": 240,
+      "sha256": "df556e17e3ef1e369693492b57db312948e6422a94a3e615b559838b947b69d7"
+    },
+    {
+      "path": "connections.md",
+      "downloadPath": "skills/prisma/connections.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/connections.md",
+      "byteCount": 7490,
+      "sha256": "5729ffa2c930c04a26cad288c0f86d093029a89a41125d70f48a9a8886e350c9"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/prisma/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/deployment.md",
+      "byteCount": 7740,
+      "sha256": "1bd3441d1bbed92610bda895e648db2424c92a64082cd331e4013d5715f9e7b3"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/prisma/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/errors.md",
+      "byteCount": 9322,
+      "sha256": "53fe79b32e1c62d206bc24c431179533de02e96741f35d805f8a29bc83538065"
+    },
+    {
+      "path": "extensions.md",
+      "downloadPath": "skills/prisma/extensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/extensions.md",
+      "byteCount": 7685,
+      "sha256": "b9dcbc61b74585219e8e9ecde31687486bc41cd5f2a687f124b5bdddb93c8bf9"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/prisma/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/memory-template.md",
+      "byteCount": 789,
+      "sha256": "d161128783fc864b411767493a1ff7e48f5e8c56de0a3fcf08648ced0b42da42"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/prisma/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/migrations.md",
+      "byteCount": 10173,
+      "sha256": "466a481627bdb51dda6d75f9f86c6b6f9bf188111a8803b5d79e969f252d6f54"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/prisma/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/performance.md",
+      "byteCount": 7324,
+      "sha256": "943beb982467d89bd6df75a0b04ca964669be8c8986661c09e9d8739f0f336a0"
+    },
+    {
+      "path": "providers.md",
+      "downloadPath": "skills/prisma/providers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/providers.md",
+      "byteCount": 6432,
+      "sha256": "7f837d085efd3f503f0d196556782264ace0c0afb0d882313384b0dde3a273e2"
+    },
+    {
+      "path": "queries.md",
+      "downloadPath": "skills/prisma/queries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/queries.md",
+      "byteCount": 10632,
+      "sha256": "41188c7bbbe231e6f890fdd654c94cf941f41b38ed01d55df55490237607dd5e"
+    },
+    {
+      "path": "raw-sql.md",
+      "downloadPath": "skills/prisma/raw-sql.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/raw-sql.md",
+      "byteCount": 6335,
+      "sha256": "f467687cb7b7584276af6627001f0eac7c8d691874b7e8de32aa7cc25614999a"
+    },
+    {
+      "path": "schema.md",
+      "downloadPath": "skills/prisma/schema.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/schema.md",
+      "byteCount": 10448,
+      "sha256": "0f21e3fe976bb2a050a9b3bff22459fc246e370d7622b4bd3a6168fd11d229a4"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/prisma/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/setup.md",
+      "byteCount": 2371,
+      "sha256": "680ced1a51e2b581cf418aee7b61777b5b0428d0d68a699506d8f4f635c5f410"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/prisma/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/SKILL.md",
-      "byteCount": 4978,
-      "sha256": "b35f5cf76046161a6bdc37e1f0ab5e722c49bce9d9348fa0052d642dc8428ecd"
+      "byteCount": 24270,
+      "sha256": "44db5ceef2d6d321bd5fd6b7d9881c34af82cb6813a01a27a81d780dbcb8ff7f"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/prisma/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/testing.md",
+      "byteCount": 6169,
+      "sha256": "964f8cee2f40caea8642876005501b74b7426b8cc8d721f6192663c7d81393b5"
+    },
+    {
+      "path": "transactions.md",
+      "downloadPath": "skills/prisma/transactions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/transactions.md",
+      "byteCount": 7216,
+      "sha256": "c473fa97ce4cf93ce9f48efd1ace5b9a14439e39e156bfba08272b22560f7413"
+    },
+    {
+      "path": "typescript.md",
+      "downloadPath": "skills/prisma/typescript.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/prisma/typescript.md",
+      "byteCount": 6315,
+      "sha256": "46fc0b6cf98e8141b42bad0b3ba54fe75f73655045c0ded7f93884006be677a8"
     }
   ]
 }
