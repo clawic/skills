@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "aedcff9eb597c351fae1081a6e63887cb648787c3ca99c7be0172d1d9486ab1e",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "abe4e9322f94856db56fb37650340131e825a35425c0dae4438b518c04081b90",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "elasticsearch",
     "name": "elasticsearch",
-    "description": "Query and index Elasticsearch with proper mappings, analyzers, and search patterns.",
-    "version": "1.0.0",
+    "description": "Designs, queries, and operates Elasticsearch: mappings, analyzers, query DSL, aggregations, bulk indexing, shard sizing, and cluster health. Use when writing a search query or an index mapping, when a search returns nothing or the wrong documents, when a term query on a text field returns zero hits without an error, when results rank badly, when aggregations fail with \"fielddata is disabled\", when the cluster turns yellow or red, when shards stay unassigned, when indexing is slow or a bulk request returns per-item errors, when disk hits the flood-stage watermark and indices go read-only, when circuit breakers trip, or when paging past 10,000 hits breaks. Covers ILM rollover, reindexing, snapshots, upgrades, kNN and hybrid vector search, autocomplete, synonyms and analyzers, nested modeling, geo queries, ES|QL, Painless, ingest pipelines, data streams, security, language clients, and OpenSearch compatibility. Not for standalone vector stores (vector-databases) or lightweight site search (meilisearch).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/elasticsearch",
-    "summary": "Mapping Mistakes - Always define explicit mappings—dynamic mapping guesses wrong (first \"123\" makes field integer, later \"abc\" fails) - `text` for full-text search, `keyword` for exact match/aggregations—using text for I",
+    "summary": "User preferences and memory live in `~/Clawic/data/elasticsearch/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/elasticsearch/` or `~/clawic/elasticsear",
     "repositoryPath": "skills/elasticsearch",
     "manifestPath": "registry/skills/elasticsearch.json"
   },
@@ -26,15 +26,197 @@
       "path": "_meta.json",
       "downloadPath": "skills/elasticsearch/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/_meta.json",
-      "byteCount": 178,
-      "sha256": "eebedfad7e6eaa37f054a0c2ab1f8beea9aa83933d7334a31ee5ea61a815cf37"
+      "byteCount": 254,
+      "sha256": "e985de619dc4960a6c79b4a8e6cd1836b08f2779c62fd052b20c1112a350f05f"
+    },
+    {
+      "path": "aggregations.md",
+      "downloadPath": "skills/elasticsearch/aggregations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/aggregations.md",
+      "byteCount": 8641,
+      "sha256": "77294b4d00459ab30d6a83a78b0b267286c884e3ec0864d5653e9305f922a60a"
+    },
+    {
+      "path": "analyzers.md",
+      "downloadPath": "skills/elasticsearch/analyzers.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/analyzers.md",
+      "byteCount": 7599,
+      "sha256": "ad97b3208f26379267c88a6193fdfbf836d92886bf8b335f73862dd1cf3602b3"
+    },
+    {
+      "path": "autocomplete.md",
+      "downloadPath": "skills/elasticsearch/autocomplete.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/autocomplete.md",
+      "byteCount": 6825,
+      "sha256": "af8b7fa50543854ad3e05a71829d4c73b4d99d494eeca2c208287765102ad3f8"
+    },
+    {
+      "path": "bulk-indexing.md",
+      "downloadPath": "skills/elasticsearch/bulk-indexing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/bulk-indexing.md",
+      "byteCount": 9425,
+      "sha256": "2f849f81b81d4061dde223fb2b8fdd15986eb3814537b97b9f7826a339e839d1"
+    },
+    {
+      "path": "clients.md",
+      "downloadPath": "skills/elasticsearch/clients.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/clients.md",
+      "byteCount": 9087,
+      "sha256": "fdc2f2cd938e5c6db0c17616a53ef1c65fb3468cbdfafa8ecf5882e536e06277"
+    },
+    {
+      "path": "cluster.md",
+      "downloadPath": "skills/elasticsearch/cluster.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/cluster.md",
+      "byteCount": 7504,
+      "sha256": "7771aa610564226eac42fa90d63deb99a5407b9ad1c6514c527b3fad12e06c7d"
+    },
+    {
+      "path": "data-modeling.md",
+      "downloadPath": "skills/elasticsearch/data-modeling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/data-modeling.md",
+      "byteCount": 6655,
+      "sha256": "eec090940e039256e402ad48bcaf3dbdf55624fc5e62074e75e040874354888f"
+    },
+    {
+      "path": "debugging.md",
+      "downloadPath": "skills/elasticsearch/debugging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/debugging.md",
+      "byteCount": 6395,
+      "sha256": "54681094fddb2d4228e8211d7a9cb0caa1a539d3b91ddfdf6de693e8a31e7434"
+    },
+    {
+      "path": "errors.md",
+      "downloadPath": "skills/elasticsearch/errors.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/errors.md",
+      "byteCount": 8642,
+      "sha256": "269affb1757a7b451cb8615712694fde5a7b02954bc5178a8c1e890ed8fc4053"
+    },
+    {
+      "path": "esql.md",
+      "downloadPath": "skills/elasticsearch/esql.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/esql.md",
+      "byteCount": 7776,
+      "sha256": "eb02f298d6734432414f4d1f4fbcc37e5e0b11a69e7e50c14afbad6b3a44507b"
+    },
+    {
+      "path": "geo-search.md",
+      "downloadPath": "skills/elasticsearch/geo-search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/geo-search.md",
+      "byteCount": 6395,
+      "sha256": "de6e24e6f93e4e8925c88fc65e32cf2474c9f9a09a8205eb98a6b14afe8383ac"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/elasticsearch/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/incidents.md",
+      "byteCount": 8251,
+      "sha256": "f6e0cb08f0b3c25d182ddd2adfc7e8ec15d26fe3803665472101f7d8f5b1523e"
+    },
+    {
+      "path": "index-lifecycle.md",
+      "downloadPath": "skills/elasticsearch/index-lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/index-lifecycle.md",
+      "byteCount": 7361,
+      "sha256": "6169ad7f30b515871ef8c266d07594e292c1b6eb89f6f816c91ccba769323d06"
+    },
+    {
+      "path": "logs-and-timeseries.md",
+      "downloadPath": "skills/elasticsearch/logs-and-timeseries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/logs-and-timeseries.md",
+      "byteCount": 7501,
+      "sha256": "ef6bce135fb6faee62644941e831cc44ffa7f5eeb623849cf6366032d2885dc0"
+    },
+    {
+      "path": "mapping.md",
+      "downloadPath": "skills/elasticsearch/mapping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/mapping.md",
+      "byteCount": 8654,
+      "sha256": "223ede1884d6da91eb73f69f309c243ea36812c2669dcf849db8447bffdb8a9d"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/elasticsearch/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/memory-template.md",
+      "byteCount": 859,
+      "sha256": "e428ca57943452c27df2c0cdfeced42af85f0b0c51dbd457fc7a27003b547115"
+    },
+    {
+      "path": "monitoring.md",
+      "downloadPath": "skills/elasticsearch/monitoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/monitoring.md",
+      "byteCount": 6135,
+      "sha256": "263e26da6c75bc1fbeb3966b4b5b13aff714acc16fa5d6e400110f6ea7165e05"
+    },
+    {
+      "path": "queries.md",
+      "downloadPath": "skills/elasticsearch/queries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/queries.md",
+      "byteCount": 10558,
+      "sha256": "903d15d8c498be218375e3653108d1981c8576abc7ae59dccad1e2c00163c8c1"
+    },
+    {
+      "path": "relevance.md",
+      "downloadPath": "skills/elasticsearch/relevance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/relevance.md",
+      "byteCount": 7399,
+      "sha256": "7981e81569030eb76f2e8cb301d0ba2917d2406a955649fbabeb5bc7a2f736d3"
+    },
+    {
+      "path": "scripting.md",
+      "downloadPath": "skills/elasticsearch/scripting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/scripting.md",
+      "byteCount": 6986,
+      "sha256": "777fa653782be1ea0ad4ec9496eede7c9a3ca50bb26ff72a16438690bf59aaf5"
+    },
+    {
+      "path": "search-performance.md",
+      "downloadPath": "skills/elasticsearch/search-performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/search-performance.md",
+      "byteCount": 7542,
+      "sha256": "3d5526fec80ba22af383ef1b5f65c59eaadc343733e5ec49f95ce6ecb62bdd2b"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/elasticsearch/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/security.md",
+      "byteCount": 7483,
+      "sha256": "c6ab01bf1a8981cc77fca42847a917cdcd22927d091b8284c63dd1b38de05c34"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/elasticsearch/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/setup.md",
+      "byteCount": 2465,
+      "sha256": "f5d3a1238590a68ece83851233f9efa9ab825cf1cea63a373e805fcaa8573eef"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/elasticsearch/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/SKILL.md",
-      "byteCount": 4546,
-      "sha256": "559d395b603ada23f60f147b9b7610e2e5d81b41d0e1d384f912b266b6136db1"
+      "byteCount": 28122,
+      "sha256": "a8926701ce1e70b64c4dd84b38468e5ac543d6b2fa8e3e679f1bdfcec100dada"
+    },
+    {
+      "path": "snapshots.md",
+      "downloadPath": "skills/elasticsearch/snapshots.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/snapshots.md",
+      "byteCount": 7106,
+      "sha256": "c481b18167fca50c40155a89c1c825385fbb4512d97eb4c4187c637c72d80049"
+    },
+    {
+      "path": "upgrades.md",
+      "downloadPath": "skills/elasticsearch/upgrades.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/upgrades.md",
+      "byteCount": 7785,
+      "sha256": "c7da05f37a9b7a70b47b2df93fa7d1c14e4b6e7852b684254ffda3c908f10ccb"
+    },
+    {
+      "path": "vector-search.md",
+      "downloadPath": "skills/elasticsearch/vector-search.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/elasticsearch/vector-search.md",
+      "byteCount": 7750,
+      "sha256": "8c5aa76f816b99fe2c2433b93d4fe6ed0610ff32d47507818c01b4b93d2d7576"
     }
   ]
 }
