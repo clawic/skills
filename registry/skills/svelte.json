@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
-  "generatedAt": "2026-07-25T10:43:00.198Z",
-  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
-  "manifestSha256": "d74c98292a7c8e241f442748f60ee3c1c7c41ca9b4251a53638f92d4b49c649f",
+  "snapshotId": "cfcb4dddce75cd6e6a71ae2bfa9d90c1b2df378f338839e9b46eacec713a3eb2",
+  "generatedAt": "2026-07-26T11:41:05.166Z",
+  "sourceRevision": "271f96fa55588febc69a58e8bb3da059c1dc4dbc",
+  "manifestSha256": "6338b572817f3a27b78429c86b7e1598682307ec3ab1041b2d8a9bdaa90f1359",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "svelte",
     "name": "svelte",
-    "description": "Avoid common Svelte mistakes — reactivity triggers, store subscriptions, and SvelteKit SSR gotchas.",
-    "version": "1.0.0",
+    "description": "Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters. Use when the UI does not update after a state change, an effect loops forever (\"effect_update_depth_exceeded\"), props or bindings stop reacting, a Map or class field is not tracked, state leaks between users on the server, \"window is not defined\" breaks the build, markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node, Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes, converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots to snippets and on:click to onclick, typing props and route data in TypeScript, testing components with Vitest or Playwright, and cutting bundle size and rerender cost. Not for Vue or Nuxt, React, or plain browser JavaScript semantics.",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/svelte",
-    "summary": "Reactivity Triggers - Assignment triggers reactivity — `arr = arr` after push, or use `arr = [...arr, item]` - Array methods don't trigger — `arr.push()` needs reassignment: `arr = arr` - Object mutation same issue — `ob",
+    "summary": "User preferences and memory live in `~/Clawic/data/svelte/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/svelte/` or `~/clawic/svelte/`), move it to `~/",
     "repositoryPath": "skills/svelte",
     "manifestPath": "registry/skills/svelte.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/svelte/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/_meta.json",
-      "byteCount": 164,
-      "sha256": "15837084b7a098d86e09eea48926674e080a12621c5261169e5699727d9ba123"
+      "byteCount": 240,
+      "sha256": "e9b8bd8a660919b356cd359e91c6e7cacb1bf5c2547867fa97b264455d38518e"
+    },
+    {
+      "path": "components.md",
+      "downloadPath": "skills/svelte/components.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/components.md",
+      "byteCount": 7235,
+      "sha256": "5e1e390c562d47b0155e70e9321e54e17c9adb84b949d6709de2102a403fd7f8"
+    },
+    {
+      "path": "data-loading.md",
+      "downloadPath": "skills/svelte/data-loading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/data-loading.md",
+      "byteCount": 7581,
+      "sha256": "7e5ef8b5443242cb160478408b5090c4880a02031ca9b4c1566bad21ba0654a8"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/svelte/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/debug.md",
+      "byteCount": 7836,
+      "sha256": "90e91e1e8442bb27ab45af2946fa95eb641f3c82f405af675cf987b4fcb0fbfe"
+    },
+    {
+      "path": "deployment.md",
+      "downloadPath": "skills/svelte/deployment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/deployment.md",
+      "byteCount": 8304,
+      "sha256": "3373c0c9286eb1608fe15821f83976b53cf15bd12003cb6f5bab86685f08aafe"
+    },
+    {
+      "path": "forms.md",
+      "downloadPath": "skills/svelte/forms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/forms.md",
+      "byteCount": 7136,
+      "sha256": "a6943b21cee0f474bed8e1978d0342a2ae55cd6d44c2cc356005944282c2a434"
+    },
+    {
+      "path": "library.md",
+      "downloadPath": "skills/svelte/library.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/library.md",
+      "byteCount": 4837,
+      "sha256": "e3b4897230895811f107d24fd6801899bdbd08501cf28f9ae052192732fbe52c"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/svelte/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/memory-template.md",
+      "byteCount": 961,
+      "sha256": "350f4531b77d45ed5c5d0864475fb8b45853564f310d67ebde338a88b56e4caf"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/svelte/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/migration.md",
+      "byteCount": 6283,
+      "sha256": "c4da4a60f881f1e00f67c7586b434a0c005356c7bdd8eddef87454d37aaf17ff"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/svelte/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/performance.md",
+      "byteCount": 6000,
+      "sha256": "1ccbd6af53e3a066147bc7075d5207ec4d2d7e10914a26cd6d949a9f4c8b794e"
+    },
+    {
+      "path": "routing.md",
+      "downloadPath": "skills/svelte/routing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/routing.md",
+      "byteCount": 7638,
+      "sha256": "d22c646811473bd25012e97e1255f583826e71c73bb6563ae56a01ad091100ba"
+    },
+    {
+      "path": "runes.md",
+      "downloadPath": "skills/svelte/runes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/runes.md",
+      "byteCount": 7196,
+      "sha256": "9aa44c45f6501009880fb2c57fba598411cc50c3b8dc074415778a582d4b845c"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/svelte/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/security.md",
+      "byteCount": 10987,
+      "sha256": "9800ac620880666571d7437d21f0303a63818571002ee83af6acbaef714697d1"
+    },
+    {
+      "path": "setup.md",
+      "downloadPath": "skills/svelte/setup.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/setup.md",
+      "byteCount": 2722,
+      "sha256": "1b585a5cf247912fc017b3c76597c2fecda32b68e52cde8b7b8bdebda37dcf44"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/svelte/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/SKILL.md",
-      "byteCount": 3523,
-      "sha256": "82fed2f6aeeee06eb3f0b6d30c3e170a7eb04b26f7fb350f1618bd92384df6d0"
+      "byteCount": 20033,
+      "sha256": "07be2d3ab4d9cc9882e41c455c01acee3b195816096d3523b9770f0369c7a5b7"
+    },
+    {
+      "path": "ssr.md",
+      "downloadPath": "skills/svelte/ssr.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/ssr.md",
+      "byteCount": 6986,
+      "sha256": "105b8ba940580d342c53b1289574ab0239d081c286be296b7bbab58aa6264252"
+    },
+    {
+      "path": "stores.md",
+      "downloadPath": "skills/svelte/stores.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/stores.md",
+      "byteCount": 5139,
+      "sha256": "6f8d81c2597a9d926e073445ea01dcfb6120b52a814f846e1d1495ae192a0147"
+    },
+    {
+      "path": "styling.md",
+      "downloadPath": "skills/svelte/styling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/styling.md",
+      "byteCount": 5659,
+      "sha256": "72fe67d2b757dfaed03dd8d20aed94f050843309f85440b8e21dc078b287a80d"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/svelte/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/testing.md",
+      "byteCount": 7242,
+      "sha256": "245eadfa124d03db480711b5773204e25ce4dc86fbb59cefe9e43b3b44a7c96e"
+    },
+    {
+      "path": "typescript.md",
+      "downloadPath": "skills/svelte/typescript.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/svelte/typescript.md",
+      "byteCount": 5593,
+      "sha256": "a6a5f8a5021e750cf2bd8eb119ce15d04c150645c54e1d759d3f9c8633b39208"
     }
   ]
 }
