@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "d8aec2e2b3aa327240e7ec9e1d2052f8996929257cb48a186e93e1e211b1666b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,104 +23,144 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/sql/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/sql/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/_meta.json",
+      "byteCount": 456,
+      "sha256": "f2853de96d6e5f5802d6bee812895a09627f7bbde6b6c6ef2fe5a57029299919"
     },
     {
       "path": "analytics.md",
       "downloadPath": "skills/sql/analytics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/analytics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/analytics.md",
+      "byteCount": 12738,
+      "sha256": "4edbaf8ab58eb167c7bb4d9e8564b9ebad1f6bae4dcebdf503d25d18e44b1ce6"
     },
     {
       "path": "data-loading.md",
       "downloadPath": "skills/sql/data-loading.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/data-loading.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/data-loading.md",
+      "byteCount": 12324,
+      "sha256": "1b62e0ca28c524b445fb9265bf6b2e99b3860721e24f47cd541ae216fd6e6b0b"
     },
     {
       "path": "datetime.md",
       "downloadPath": "skills/sql/datetime.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/datetime.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/datetime.md",
+      "byteCount": 13431,
+      "sha256": "bd643df4fcfc4940c7be85a6254ef2efc48c0d9c8b72bc31383ff4a323bfa5d9"
     },
     {
       "path": "debug.md",
       "downloadPath": "skills/sql/debug.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/debug.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/debug.md",
+      "byteCount": 13646,
+      "sha256": "7708d77cc0f070c3d23495c29d6a4ee21594ceef54a04c7cac910c1e53e6d812"
     },
     {
       "path": "dialects.md",
       "downloadPath": "skills/sql/dialects.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/dialects.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/dialects.md",
+      "byteCount": 12400,
+      "sha256": "2b6d26477126dfbb99300427fc0523f3bdc2d8aed59f33df0b50e804b29728ea"
     },
     {
       "path": "json.md",
       "downloadPath": "skills/sql/json.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/json.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/json.md",
+      "byteCount": 10194,
+      "sha256": "7cab974e51516987ff77ac3e8c832918c79ff47ce478cbe5a5d50aa500c2eb73"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/sql/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/memory-template.md",
+      "byteCount": 976,
+      "sha256": "3c779610ff0754e1eabd14274fa9a65c35fe90e970f76f09ff0d6138298b6ba6"
     },
     {
       "path": "modeling.md",
       "downloadPath": "skills/sql/modeling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/modeling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/modeling.md",
+      "byteCount": 11560,
+      "sha256": "56013e66d57f3306485fa6476a07c9de828f98bdc33901b28255a57f35680a32"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/sql/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/operations.md",
+      "byteCount": 21126,
+      "sha256": "5f0df1c3c60b0a6d53540600941cb8df4ab96aca59da9df0b74eaaf73e3d6400"
     },
     {
       "path": "orm.md",
       "downloadPath": "skills/sql/orm.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/orm.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/orm.md",
+      "byteCount": 10254,
+      "sha256": "538c9105081212a664ea165fbccbd71beeb22a4a0806f91540a9480f2812797d"
     },
     {
       "path": "patterns.md",
       "downloadPath": "skills/sql/patterns.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/patterns.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/patterns.md",
+      "byteCount": 18405,
+      "sha256": "036f508c7e48707d089c0d75eaef709936f4f11dad8b7da8e0fde41fc44be397"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/sql/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/performance.md",
+      "byteCount": 11620,
+      "sha256": "74f48bdee26eef06dbffa244884c9820b86d4726c73b1a6e1c5e072233663d0a"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/sql/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/scaling.md",
+      "byteCount": 11083,
+      "sha256": "9140aa56fc1bc397a7d826bec055e4930b5349ab8817a17a6f27f0c1b2909377"
     },
     {
       "path": "schemas.md",
       "downloadPath": "skills/sql/schemas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/schemas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/schemas.md",
+      "byteCount": 23974,
+      "sha256": "a895730ea30482db86543a0ba0a4ca0a150d86d43df7a3433876db6eb98974e0"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/sql/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/security.md",
+      "byteCount": 12412,
+      "sha256": "2e8afd2fc874b35100050c56743afed67300d214f9a11472771506de462a95e8"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/sql/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/setup.md",
+      "byteCount": 2692,
+      "sha256": "277023416cbd67cc8ae5363ed8126f539fab1a89c82f0ce31aae1517d7eeca12"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/sql/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/SKILL.md",
+      "byteCount": 20267,
+      "sha256": "0e2eacad802a1757d9d4cd949e3191c714015d8c5617655259626b8e3e55eda5"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/sql/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/testing.md",
+      "byteCount": 9820,
+      "sha256": "90e3b8ad6d3a4bfaf6206992ef1f1f6b8884dc72bb42fa42c503af5dafa6a5bf"
     },
     {
       "path": "transactions.md",
       "downloadPath": "skills/sql/transactions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/transactions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/sql/transactions.md",
+      "byteCount": 10194,
+      "sha256": "d758e47ffc10aca6ae3c235281cfa9a0ac0fb1403fd310f3bc29853072dcc874"
     }
   ]
 }

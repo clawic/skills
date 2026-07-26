@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "74fe24fa7d824f38cbf963c2b7c7abcd06303e336315340ba885fb24fd90ccaf",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,149 +23,207 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/pg/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/pg/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/_meta.json",
+      "byteCount": 388,
+      "sha256": "da3a0ee7d9ee4b892bb2595d4036db1fbe8e9516c64b8ac6a0f81d094a4fc14e"
     },
     {
       "path": "backup-restore.md",
       "downloadPath": "skills/pg/backup-restore.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/backup-restore.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/backup-restore.md",
+      "byteCount": 6467,
+      "sha256": "ae81fbccb11c4eccafbe099801e41adbe31f11fcf73e2c3f387b030c1590cecc"
     },
     {
       "path": "bulk-load.md",
       "downloadPath": "skills/pg/bulk-load.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/bulk-load.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/bulk-load.md",
+      "byteCount": 5501,
+      "sha256": "39f8860ad518cda6cb9c74dde9e814864eda0c5193f7c9c232c2e9c7d97ea384"
     },
     {
       "path": "connections.md",
       "downloadPath": "skills/pg/connections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/connections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/connections.md",
+      "byteCount": 5697,
+      "sha256": "819e110a809526f623444c60565a9bbe5699d2e2b1965b978fe9bddd1383d2cc"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/pg/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/errors.md",
+      "byteCount": 7081,
+      "sha256": "c610237840fa50f3a7bba1da76383f72ac806ba11836ee829113f8be9c22d39e"
     },
     {
       "path": "extensions.md",
       "downloadPath": "skills/pg/extensions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/extensions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/extensions.md",
+      "byteCount": 5039,
+      "sha256": "fb9249ea42a938879c3e107a5341677dd843d4f8fb943711bcdc1bbdb30b400f"
     },
     {
       "path": "functions-triggers.md",
       "downloadPath": "skills/pg/functions-triggers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/functions-triggers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/functions-triggers.md",
+      "byteCount": 6834,
+      "sha256": "899ec2c833716a67cfc2b42caa339b3dabe366bbac5657e2e1facbfc1b4f3aec"
     },
     {
       "path": "incidents.md",
       "downloadPath": "skills/pg/incidents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/incidents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/incidents.md",
+      "byteCount": 6539,
+      "sha256": "84a45786a7c7fa9cfb6ff9817231ac08cb6436f0ddf900a7e31b9c11d1eb68b1"
     },
     {
       "path": "indexing.md",
       "downloadPath": "skills/pg/indexing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/indexing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/indexing.md",
+      "byteCount": 6634,
+      "sha256": "f86e640c53f8d7781ebe9bf40ecf59fe79090c55a23adca8912e214caa49e6ac"
     },
     {
       "path": "json.md",
       "downloadPath": "skills/pg/json.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/json.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/json.md",
+      "byteCount": 5778,
+      "sha256": "c3a419b5a9cf6ad6d44f4b72005d133b5d33cce98e7d9799a6a0fd870e81bfa6"
     },
     {
       "path": "locks.md",
       "downloadPath": "skills/pg/locks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/locks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/locks.md",
+      "byteCount": 6718,
+      "sha256": "acade3a4c2d7c1cafb2afdb9fd838c8fd04c955b7f17f8747cbee4207a5d9fad"
     },
     {
       "path": "managed-postgres.md",
       "downloadPath": "skills/pg/managed-postgres.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/managed-postgres.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/managed-postgres.md",
+      "byteCount": 5856,
+      "sha256": "7c6dedaa9e09dfe723a367ea15c06b05f9ee9e748406dbba7350c3905248078b"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/pg/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/memory-template.md",
+      "byteCount": 835,
+      "sha256": "290341a32f6a1ce06e7b35889b6d0ab698296ddd4313691da6f8891f3bf5dea2"
     },
     {
       "path": "migrations.md",
       "downloadPath": "skills/pg/migrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/migrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/migrations.md",
+      "byteCount": 7074,
+      "sha256": "a0e39f3ffc35e035425d66670a0e5f6c9d2adbc0e8cdb42625643f18168944a1"
     },
     {
       "path": "monitoring.md",
       "downloadPath": "skills/pg/monitoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/monitoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/monitoring.md",
+      "byteCount": 6400,
+      "sha256": "b9769025cb7e5c4e7ae7965c6f11f5a011bf472dea9fa1862ebdc19019927fa8"
     },
     {
       "path": "partitioning.md",
       "downloadPath": "skills/pg/partitioning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/partitioning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/partitioning.md",
+      "byteCount": 6362,
+      "sha256": "378de9aba359afce56d769967bac819a1779e3eea1d63334cf443657d342b0f3"
     },
     {
       "path": "psql.md",
       "downloadPath": "skills/pg/psql.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/psql.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/psql.md",
+      "byteCount": 5432,
+      "sha256": "75191b030308762e8bbbb9d14e1f66a4bff1e2434e87c5aa43185650f3550531"
     },
     {
       "path": "queues.md",
       "downloadPath": "skills/pg/queues.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/queues.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/queues.md",
+      "byteCount": 5708,
+      "sha256": "7e4af9d0183c45dfeda18ef60f3aa27f724443fd97e204d924bf5b03b2fa8ff3"
     },
     {
       "path": "replication.md",
       "downloadPath": "skills/pg/replication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/replication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/replication.md",
+      "byteCount": 6740,
+      "sha256": "624f04131e35bdc3324c3233336b3c45a9199686a6873864f09bb60f722d6403"
     },
     {
       "path": "schema-design.md",
       "downloadPath": "skills/pg/schema-design.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/schema-design.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/schema-design.md",
+      "byteCount": 7394,
+      "sha256": "a28fff0b33f8c510cf016695e1a4e1b9bfe32c39091ad2cfb057c764ead3db1b"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/pg/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/search.md",
+      "byteCount": 5973,
+      "sha256": "f91d7c51dc8d08bc9ac1cbb0cb0528713fd793f9fc42b2db9b7a0f15ee8040e5"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/pg/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/security.md",
+      "byteCount": 7859,
+      "sha256": "c635f1ab445152095247e72b345a63841dd073acbac8515d4e262082bbfa59f3"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/pg/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/setup.md",
+      "byteCount": 2395,
+      "sha256": "4d06e466298afb889edcc3dbdaab58971be81d069e08fdba85ed173edd430c02"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/pg/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/SKILL.md",
+      "byteCount": 21287,
+      "sha256": "b1cdad530df8b0aaa25cdba1efb2277e892fa705a3805386d3c420c08a65e7b3"
     },
     {
       "path": "slow-queries.md",
       "downloadPath": "skills/pg/slow-queries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/slow-queries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/slow-queries.md",
+      "byteCount": 7302,
+      "sha256": "b3ff6e4be986e46bddafdc277e650aeb76b2586c1fec9ddd410d4043010a4efe"
     },
     {
       "path": "test-databases.md",
       "downloadPath": "skills/pg/test-databases.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/test-databases.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/test-databases.md",
+      "byteCount": 5442,
+      "sha256": "b81e56cf95683deab61c00104474753d109caf9500fbc19ea843188fa39eecc2"
     },
     {
       "path": "tuning.md",
       "downloadPath": "skills/pg/tuning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/tuning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/tuning.md",
+      "byteCount": 6331,
+      "sha256": "0ba6b3531f5f6c3c0628431af206e1f73521f74f3261499feffeb36f644d6ced"
     },
     {
       "path": "upgrades.md",
       "downloadPath": "skills/pg/upgrades.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/upgrades.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/upgrades.md",
+      "byteCount": 5900,
+      "sha256": "f26d21a0e065dd6c50301a6b1a3c90317dc098990fea90e1b5173383b6c80975"
     },
     {
       "path": "vacuum-bloat.md",
       "downloadPath": "skills/pg/vacuum-bloat.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/vacuum-bloat.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pg/vacuum-bloat.md",
+      "byteCount": 7012,
+      "sha256": "24068c83023e8a08c00d4f2db7a0d988cea0481fc073b243f83270746e243ba1"
     }
   ]
 }

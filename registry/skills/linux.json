@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "4e519bb5724a54cd1765da229d47347f415f0a61a619cb7643090c692532d288",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -20,119 +23,165 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/linux/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/linux/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json",
+      "byteCount": 386,
+      "sha256": "c7da85aacaf0025a70f35554cb8f4a8bcf98c5cee0727613e29a114ec9d86d23"
     },
     {
       "path": "boot.md",
       "downloadPath": "skills/linux/boot.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/boot.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/boot.md",
+      "byteCount": 6683,
+      "sha256": "7e292f9c629eceb8d42358ac6a577f7cb9f6a97cbdb64a9a40977c3f8274b956"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/linux/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/commands.md",
+      "byteCount": 5081,
+      "sha256": "9bfd54c2c9cbf2f575d17c8bbc1dd6395eab83c412bb3ddd3a502587fa3c354f"
     },
     {
       "path": "disk-space.md",
       "downloadPath": "skills/linux/disk-space.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/disk-space.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/disk-space.md",
+      "byteCount": 6564,
+      "sha256": "6a31788568808e037f947c45e2750937cf2a57afa3b2cdfab4aadc7ef9293c14"
     },
     {
       "path": "distros.md",
       "downloadPath": "skills/linux/distros.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/distros.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/distros.md",
+      "byteCount": 6594,
+      "sha256": "1612367b71a89cc3f755c444b05588473af8114e2c8c6e8bfeb784b33d59e308"
     },
     {
       "path": "files.md",
       "downloadPath": "skills/linux/files.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/files.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/files.md",
+      "byteCount": 6990,
+      "sha256": "32cf9efbce9318b0d8dfca5e6fbf9655c8f7d1d1582b568420ca7c2da6b82bb3"
     },
     {
       "path": "hardening.md",
       "downloadPath": "skills/linux/hardening.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/hardening.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/hardening.md",
+      "byteCount": 6736,
+      "sha256": "7a309f8a9933e2f9db9d99b814de3dbbd5646182eb4cf0236af4fe74ccd2305e"
     },
     {
       "path": "kernel.md",
       "downloadPath": "skills/linux/kernel.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/kernel.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/kernel.md",
+      "byteCount": 6523,
+      "sha256": "544261e54eb3756c65d02a22e88bb119b3b27f60ae708286bb337b1edae75bf7"
     },
     {
       "path": "logs.md",
       "downloadPath": "skills/linux/logs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/logs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/logs.md",
+      "byteCount": 6422,
+      "sha256": "7ecf1221748ca84398ec251a5452d11e625e3f985935e60967c251cd5936ad80"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/linux/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory-template.md",
+      "byteCount": 714,
+      "sha256": "7858f50bdddc2625a119c5c7acf68fff10b14e61b4bc8415596b5dc3274757e6"
     },
     {
       "path": "memory.md",
       "downloadPath": "skills/linux/memory.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory.md",
+      "byteCount": 7287,
+      "sha256": "5b702bd9e9c2da98d49049e44246349f649fe867a6393d2c2616944e22ba4955"
     },
     {
       "path": "networking.md",
       "downloadPath": "skills/linux/networking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/networking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/networking.md",
+      "byteCount": 8426,
+      "sha256": "8be50545d477224b6afa410188bfe5706a1362515134285166da7b8e6391178e"
     },
     {
       "path": "packages.md",
       "downloadPath": "skills/linux/packages.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/packages.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/packages.md",
+      "byteCount": 7188,
+      "sha256": "b4ed07b3c91b45692224923d7e132296066304a92cba9aa7494bef62c39f2e35"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/linux/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/performance.md",
+      "byteCount": 7088,
+      "sha256": "8576f42c8b17c343218673626d27b131210e421e0198c0fc655abe019d258301"
     },
     {
       "path": "permissions.md",
       "downloadPath": "skills/linux/permissions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/permissions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/permissions.md",
+      "byteCount": 7569,
+      "sha256": "9a812553a5647e685ceb5255280a34deceae030111cda4d78d9f0c0cb9738e1a"
     },
     {
       "path": "processes.md",
       "downloadPath": "skills/linux/processes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/processes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/processes.md",
+      "byteCount": 6935,
+      "sha256": "04e2011ad30408db9763c726a1251beaf4a2dd3c10a8294960d242c6f82ed6b9"
     },
     {
       "path": "scheduling.md",
       "downloadPath": "skills/linux/scheduling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/scheduling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/scheduling.md",
+      "byteCount": 6628,
+      "sha256": "346080c39dd863581fa394686c38d5b1e8aa73c2e3521d84d56d0e483e0a7af6"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/linux/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/setup.md",
+      "byteCount": 2557,
+      "sha256": "ffb6c6877882f717e4e1fe68eb05adf584ef5f1a249c0e7ab5def74fa73d4b9f"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/linux/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
+      "byteCount": 21218,
+      "sha256": "cd1852330c2c3f69f3c44cd29b4976a920f11ddeee691f8175ef47af737ad36f"
     },
     {
       "path": "ssh.md",
       "downloadPath": "skills/linux/ssh.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/ssh.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/ssh.md",
+      "byteCount": 7661,
+      "sha256": "6c0bf4b83a557461dd713353a07a4f935b7ad81e8dcb045a1cf902e7def1ca5b"
     },
     {
       "path": "storage.md",
       "downloadPath": "skills/linux/storage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/storage.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/storage.md",
+      "byteCount": 7656,
+      "sha256": "4b06ae1bd20c3ea227aa1e1f893d54b815070714ee4c22c156355463232ffda0"
     },
     {
       "path": "systemd.md",
       "downloadPath": "skills/linux/systemd.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/systemd.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/systemd.md",
+      "byteCount": 8721,
+      "sha256": "44e708b379904bf0e82fe5d8da67e9ab1d98ffa575b7914eb5e96d09e2d1223e"
     },
     {
       "path": "users.md",
       "downloadPath": "skills/linux/users.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/users.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/users.md",
+      "byteCount": 6995,
+      "sha256": "e5aaffc2b78b090464f97aa33a4ea8cb7b9e1b3042ef5acec7938dbc1778e818"
     }
   ]
 }

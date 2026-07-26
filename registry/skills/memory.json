@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "a172a0c86cc1db9994debbbfb2c9a8f189e630887bb99d2b0a370b68167c48ea",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,95 +17,129 @@
     "description": "Remembers, recalls, and organizes durable facts in a categorized markdown store at ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember this, save this, note that for later, or don't forget; when they ask what did I tell you about X, when did we decide Y, or who is Z; when a stored fact is wrong, outdated, or contradicts what they just said; when they want something forgotten or deleted; when recall misses, returns stale facts, or slows down as the store grows; when duplicate or conflicting entries appear; when consolidating scattered notes, importing an existing vault, or sharing memory across devices and agents. Not for session-scoped context the runtime already holds, note-taking apps (notes), journaling practice (journal), or study techniques like spaced repetition (learn, active-recall).",
     "version": "1.0.5",
     "homepage": "https://clawic.com/skills/memory",
-    "summary": "All data lives in `~/Clawic/data/memory/` on the user's machine \u2014 plain markdown, no external services, no network requests. Configuration in `~/Clawic/data/memory/config.yaml` (`setup.md` on first use, `memory-template.",
+    "summary": "All data lives in `~/Clawic/data/memory/` on the user's machine — plain markdown, no external services, no network requests. Configuration in `~/Clawic/data/memory/config.yaml` (`setup.md` on first use, `memory-template.",
     "repositoryPath": "skills/memory",
     "manifestPath": "registry/skills/memory.json"
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/memory/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/memory/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/_meta.json",
+      "byteCount": 462,
+      "sha256": "badce4a4fe9003fa017a710f5d93750d9ffdc37f8552bd05a5877a69364568fe"
     },
     {
       "path": "capture.md",
       "downloadPath": "skills/memory/capture.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/capture.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/capture.md",
+      "byteCount": 6003,
+      "sha256": "67b18d54b73dccee45a6c229e5eb72940a7d39d6d1d6383cc84e39e472b5ccf7"
     },
     {
       "path": "commands.md",
       "downloadPath": "skills/memory/commands.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/commands.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/commands.md",
+      "byteCount": 4301,
+      "sha256": "4610665e3dccdf6d174d3c67755113d59c6a193b4d256a58dcf60a6767860e76"
     },
     {
       "path": "conflicts.md",
       "downloadPath": "skills/memory/conflicts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/conflicts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/conflicts.md",
+      "byteCount": 5144,
+      "sha256": "047d73c6e1d521b37eac853a0a599e37966f703fe335180e001d5aa341638f7e"
     },
     {
       "path": "entities.md",
       "downloadPath": "skills/memory/entities.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/entities.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/entities.md",
+      "byteCount": 5296,
+      "sha256": "1bef6788b5f7c1e1d0d43669938dd6cdc20dbf1eeccdd1d0a3feba103e79f628"
     },
     {
       "path": "layouts.md",
       "downloadPath": "skills/memory/layouts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/layouts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/layouts.md",
+      "byteCount": 6348,
+      "sha256": "bbbbf8b824c7f651b6044a8f166be3a38d4a548bdb098bbb45569eb226167d65"
     },
     {
       "path": "maintenance.md",
       "downloadPath": "skills/memory/maintenance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/maintenance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/maintenance.md",
+      "byteCount": 5106,
+      "sha256": "43f3f21b142cb6eaaa85638a7eb4f131fc72f105822e90f6a83c48ee4e247528"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/memory/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/memory-template.md",
+      "byteCount": 8282,
+      "sha256": "1dfb98382959d7c52cd58b218fd0169999cef5e025e321c8e0d30578a7af4be7"
     },
     {
       "path": "migration.md",
       "downloadPath": "skills/memory/migration.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/migration.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/migration.md",
+      "byteCount": 5465,
+      "sha256": "a7547c9e3735fc82802b91b666b38e6b52a345351d9a4425230658b1095e1443"
     },
     {
       "path": "privacy.md",
       "downloadPath": "skills/memory/privacy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/privacy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/privacy.md",
+      "byteCount": 4747,
+      "sha256": "424bb472278c09725b339a25b95a3a333b753ae7797a70fe348c58e63d2569e5"
     },
     {
       "path": "recall.md",
       "downloadPath": "skills/memory/recall.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/recall.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/recall.md",
+      "byteCount": 5467,
+      "sha256": "2a4aa317a52ef89260a7ca8a7cd885991b31de43049deb1232b3aa9901b08d85"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/memory/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/scaling.md",
+      "byteCount": 5227,
+      "sha256": "90c1dddbaa20e9528b37699fd5471da4e9c4a75db5087901ab850ebf6190f752"
     },
     {
       "path": "sessions.md",
       "downloadPath": "skills/memory/sessions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/sessions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/sessions.md",
+      "byteCount": 4827,
+      "sha256": "ebb5c8859098709118215ae0a7a6e9ae0853990f0c194a9d4b0f6c92f04cd671"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/memory/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/setup.md",
+      "byteCount": 4462,
+      "sha256": "7465c31d8a8023bf105631bd928217d539a0d64560af8b57d670edfb8fe3a09b"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/memory/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/SKILL.md",
+      "byteCount": 20885,
+      "sha256": "ec99d59d8d4bb052a04816f59771409a49cf6e14f846c85daf8ab6aa4869693e"
     },
     {
       "path": "sync.md",
       "downloadPath": "skills/memory/sync.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/sync.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/sync.md",
+      "byteCount": 5054,
+      "sha256": "94d63e2906f43fd6223bdcdb4a5641667764c44b2f0a63b1cda84d3be07ecc9c"
     },
     {
       "path": "troubleshooting.md",
       "downloadPath": "skills/memory/troubleshooting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/troubleshooting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/memory/troubleshooting.md",
+      "byteCount": 6344,
+      "sha256": "6d60a7428ba9b676ef89bfc7277f75c9c30806b6ad8f54238c33de7025eae911"
     }
   ]
 }

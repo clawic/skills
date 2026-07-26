@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "b0dd1321c772cb1d9fd642f3869224b069ccabce1187ee241f246353aea55865",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "ceo",
     "name": "ceo",
-    "description": "Acts as chief executive (CEO): company strategy, capital allocation, board and investor management, executive hiring, and crisis calls. Use when a company-level call has to be made or pressure-tested \u2014 persevere or pivot, raise or cut, hire or fire an executive, sell the company or keep going, enter a new market, shut it down. Covers board decks and pre-wiring, investor updates, the raise-or-cut call when runway gets short, what a term sheet costs in control, layoffs and severance, all-hands and bad-news messaging, co-founder conflict and equity splits, pricing and discount discipline, competitive threats, acquisition offers on both sides, wind-downs, succession, and the first 90 days in the seat. Not for functional depth \u2014 financial models, forecasts, and dilution and term-sheet math go to cfo, marketing plans to cmo, operational execution to coo, architecture to cto.",
+    "description": "Acts as chief executive (CEO): company strategy, capital allocation, board and investor management, executive hiring, and crisis calls. Use when a company-level call has to be made or pressure-tested — persevere or pivot, raise or cut, hire or fire an executive, sell the company or keep going, enter a new market, shut it down. Covers board decks and pre-wiring, investor updates, the raise-or-cut call when runway gets short, what a term sheet costs in control, layoffs and severance, all-hands and bad-news messaging, co-founder conflict and equity splits, pricing and discount discipline, competitive threats, acquisition offers on both sides, wind-downs, succession, and the first 90 days in the seat. Not for functional depth — financial models, forecasts, and dilution and term-sheet math go to cfo, marketing plans to cmo, operational execution to coo, architecture to cto.",
     "version": "1.1.6",
     "homepage": "https://clawic.com/skills/ceo",
     "summary": "User preferences, company context, and memory live in `~/Clawic/data/ceo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/ceo/` or `~/clawic/ceo/`), move ",
@@ -20,154 +23,214 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/ceo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/ceo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/_meta.json",
+      "byteCount": 630,
+      "sha256": "9c0e6cd907a21d70f8a3f14ff3b7e0a60b8c88829761742daff344e87546f5e3"
     },
     {
       "path": "acquisitions.md",
       "downloadPath": "skills/ceo/acquisitions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/acquisitions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/acquisitions.md",
+      "byteCount": 6806,
+      "sha256": "6823e787b07fd6cf2dd55d336771f88ccd891620662c105b731c234b40521dfb"
     },
     {
       "path": "board.md",
       "downloadPath": "skills/ceo/board.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/board.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/board.md",
+      "byteCount": 7036,
+      "sha256": "435dc57d92e092a8b685a3fce44c5c2f97336a1db52b916bec371c6bbe7cc2f6"
     },
     {
       "path": "ceo-operating-system.md",
       "downloadPath": "skills/ceo/ceo-operating-system.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/ceo-operating-system.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/ceo-operating-system.md",
+      "byteCount": 6189,
+      "sha256": "745365bb1ec79b2ecf63603e3954aada1dd3e5e95550d60b214a9c2c217fd0f7"
     },
     {
       "path": "cofounders.md",
       "downloadPath": "skills/ceo/cofounders.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/cofounders.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/cofounders.md",
+      "byteCount": 6183,
+      "sha256": "ac931be3af09e8070421cb67a12beb608105b34bd2d9631b6c3b8d4615489efc"
     },
     {
       "path": "communication.md",
       "downloadPath": "skills/ceo/communication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/communication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/communication.md",
+      "byteCount": 6536,
+      "sha256": "f33932e5a8b19bee893dc1f32dc29d73d3dd96f9cd8f714ec2bf15cf51c180a6"
     },
     {
       "path": "competition.md",
       "downloadPath": "skills/ceo/competition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/competition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/competition.md",
+      "byteCount": 5278,
+      "sha256": "dbc463cbd085f638120b342e1310a39a1e0d4e71169c7ae23290194045c1a3b2"
     },
     {
       "path": "crisis.md",
       "downloadPath": "skills/ceo/crisis.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/crisis.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/crisis.md",
+      "byteCount": 7963,
+      "sha256": "db91abfe5814058335379040db8d99564ddad503d517a3323826d67aa149b016"
     },
     {
       "path": "customers.md",
       "downloadPath": "skills/ceo/customers.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/customers.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/customers.md",
+      "byteCount": 5673,
+      "sha256": "249e0fada608de1ab1a9754bf991b651c717f385e8f63f0ce363c1ba32d3270b"
     },
     {
       "path": "decisions.md",
       "downloadPath": "skills/ceo/decisions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/decisions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/decisions.md",
+      "byteCount": 6016,
+      "sha256": "4791dd3fa3fa2a8b60244b6acee5c37fb6462ecf39373a444a286df25a86997d"
     },
     {
       "path": "exit.md",
       "downloadPath": "skills/ceo/exit.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/exit.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/exit.md",
+      "byteCount": 6512,
+      "sha256": "2c9c08c39d682824c5ad897e73e6e1363df84ff8ab47d693e4008351bea1598d"
     },
     {
       "path": "finance.md",
       "downloadPath": "skills/ceo/finance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/finance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/finance.md",
+      "byteCount": 8900,
+      "sha256": "9dcca15d5611ba58fcdeec57f2633ce971bcbfddee1eab4a9bb1e50bf931285e"
     },
     {
       "path": "first-90-days.md",
       "downloadPath": "skills/ceo/first-90-days.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/first-90-days.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/first-90-days.md",
+      "byteCount": 6403,
+      "sha256": "41f1083cb9f7778cf071105f6a4db6cf648d45c9c65cb03467268ca1847f9d07"
     },
     {
       "path": "fundraising.md",
       "downloadPath": "skills/ceo/fundraising.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/fundraising.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/fundraising.md",
+      "byteCount": 11894,
+      "sha256": "1fcd6b96bfa74a730eff4d82e300bd3ccd9ec13efdb49258520c1896af6ecebd"
     },
     {
       "path": "governance.md",
       "downloadPath": "skills/ceo/governance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/governance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/governance.md",
+      "byteCount": 6647,
+      "sha256": "81b8547f652bebc1959f9e2879ff8811f1a11b4a3e026f32134010ac6ea53799"
     },
     {
       "path": "international.md",
       "downloadPath": "skills/ceo/international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/international.md",
+      "byteCount": 5680,
+      "sha256": "154aef91bf5ac4cf7d0fe7f71f4b6d03c77536ba0d261ce55800dbaaf359a20f"
     },
     {
       "path": "layoffs.md",
       "downloadPath": "skills/ceo/layoffs.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/layoffs.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/layoffs.md",
+      "byteCount": 8099,
+      "sha256": "c18389b9c3e46fe4a719cb27a4d28e050e5f5c35719c94a6523f7eb4b502a8bc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/ceo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/memory-template.md",
+      "byteCount": 1175,
+      "sha256": "59b83a174356704d479e2b65a758e5597692e9087f42053030437179f7b14c82"
     },
     {
       "path": "metrics.md",
       "downloadPath": "skills/ceo/metrics.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/metrics.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/metrics.md",
+      "byteCount": 6391,
+      "sha256": "e19388ebd744346ebbce2dadbb6d3df28e5a2a3e2bd11db1eef19f7d2ed1cc8e"
     },
     {
       "path": "partnerships.md",
       "downloadPath": "skills/ceo/partnerships.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/partnerships.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/partnerships.md",
+      "byteCount": 5040,
+      "sha256": "cdb991f245b8dcfeacbef3868e9684e01888b8645e2fa99a181eea3d4a9dbad3"
     },
     {
       "path": "pe-backed.md",
       "downloadPath": "skills/ceo/pe-backed.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pe-backed.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pe-backed.md",
+      "byteCount": 5949,
+      "sha256": "3dffdbddc5678837daeb1b78c61459ca4fd7ee5f6bfbb731eb5cdab2a2126e55"
     },
     {
       "path": "people.md",
       "downloadPath": "skills/ceo/people.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/people.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/people.md",
+      "byteCount": 7319,
+      "sha256": "7d753fb084611ada251b7e22baf9900c9ea762fda2f255feb1f7260be2bbb286"
     },
     {
       "path": "pivot.md",
       "downloadPath": "skills/ceo/pivot.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pivot.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pivot.md",
+      "byteCount": 6243,
+      "sha256": "cc18d8743ea56493e2a98f254c9ab4229b555ecc1c7ed8be35ff0513eeca11c1"
     },
     {
       "path": "pricing.md",
       "downloadPath": "skills/ceo/pricing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pricing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/pricing.md",
+      "byteCount": 6464,
+      "sha256": "508d6c8b13ff2ef07d22b85eb4fdaa1062bbb772a4decab62bb642f18f245426"
     },
     {
       "path": "scaling.md",
       "downloadPath": "skills/ceo/scaling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/scaling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/scaling.md",
+      "byteCount": 5987,
+      "sha256": "7abedf2a55f3630392ef93386c134c5d0af75ae94fefda67ad4b59c09648a44d"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/ceo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/setup.md",
+      "byteCount": 2767,
+      "sha256": "48d9d3d259fb3eff95cccf7b63d59bc085a19833ea7f367018e7f3d30aec3998"
     },
     {
       "path": "shutdown.md",
       "downloadPath": "skills/ceo/shutdown.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/shutdown.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/shutdown.md",
+      "byteCount": 6299,
+      "sha256": "17b78a95710b61d4e09b38bc756991beb3702e8aac1e0650c6f7f33ab1b03144"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/ceo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/SKILL.md",
+      "byteCount": 18645,
+      "sha256": "fda2d801903b1550afe10ab7f77bbb540ca921571d8ef93a7debbcdb17136885"
     },
     {
       "path": "strategy.md",
       "downloadPath": "skills/ceo/strategy.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/strategy.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/strategy.md",
+      "byteCount": 7353,
+      "sha256": "abd7bb16715e6f11503d1636253fcd9db775371c4102092ac00fc5b8ff06ebc1"
     },
     {
       "path": "succession.md",
       "downloadPath": "skills/ceo/succession.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/succession.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ceo/succession.md",
+      "byteCount": 5997,
+      "sha256": "b4dcbd8e14195bffd346ca93704dca7a1d3ebd34da0872b648b011e3e76e148c"
     }
   ]
 }

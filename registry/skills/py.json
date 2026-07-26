@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-25T10:16:34.813Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "97232c41c47c350a2a57cf04e0b9f67d181b79ebb1cd889f79fb7d09f75be7f5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "py",
     "name": "py",
-    "description": "Writes, debugs, and reviews Python code \u2014 runtime traps, packaging, typing, async, tests, performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports, AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments, `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies, or a package installs but will not import; when threads, asyncio, multiprocessing or the GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the wrong module, or async tests never run; when mypy or pyright errors need clearing; when a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never appear; or when upgrading Python breaks the build. Not for library-specific problems \u2014 pandas, numpy, django, fastapi and flask have their own skills.",
+    "description": "Writes, debugs, and reviews Python code — runtime traps, packaging, typing, async, tests, performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports, AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments, `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies, or a package installs but will not import; when threads, asyncio, multiprocessing or the GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the wrong module, or async tests never run; when mypy or pyright errors need clearing; when a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never appear; or when upgrading Python breaks the build. Not for library-specific problems — pandas, numpy, django, fastapi and flask have their own skills.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/py",
     "summary": "User preferences live in `~/Clawic/data/py/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/py/` or `~/clawic/py/`), move it to `~/Clawic/data/py/`. ",
@@ -20,139 +23,193 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/py/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/py/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/_meta.json",
+      "byteCount": 458,
+      "sha256": "7e7df18274076ba8689238e1f113433429bfd8e9f3046b52d443e1a5e747e418"
     },
     {
       "path": "classes.md",
       "downloadPath": "skills/py/classes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/classes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/classes.md",
+      "byteCount": 5206,
+      "sha256": "2ec46023c369c49f63a87d8cc1842768892e9f62d1d4506342d1cbb508381839"
     },
     {
       "path": "cli.md",
       "downloadPath": "skills/py/cli.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/cli.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/cli.md",
+      "byteCount": 5860,
+      "sha256": "254bfb6f0ad14e3012033e57c3beb3b456dbe31d0930c23fa35019844859d8b3"
     },
     {
       "path": "collections.md",
       "downloadPath": "skills/py/collections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/collections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/collections.md",
+      "byteCount": 5505,
+      "sha256": "7fbddd542bb13219eb1dfa7200ba0ed9455f612ae2fa8df3778070df5d40cc30"
     },
     {
       "path": "concurrency.md",
       "downloadPath": "skills/py/concurrency.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/concurrency.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/concurrency.md",
+      "byteCount": 6884,
+      "sha256": "84793d99c6e198e6a0400d27d97d51b591a5004855adad18cef2497e553949bc"
     },
     {
       "path": "data-modeling.md",
       "downloadPath": "skills/py/data-modeling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/data-modeling.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/data-modeling.md",
+      "byteCount": 5922,
+      "sha256": "137e3eb3b52bfbbebdfdd5fff7bcb5469666721b50efebe415ab4355239b2374"
     },
     {
       "path": "datetime.md",
       "downloadPath": "skills/py/datetime.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/datetime.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/datetime.md",
+      "byteCount": 5703,
+      "sha256": "7dea5f7295d4ab978bfd0d62b84af75731a0f1a6889e5a3758e2458035d5c43a"
     },
     {
       "path": "debugging.md",
       "downloadPath": "skills/py/debugging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/debugging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/debugging.md",
+      "byteCount": 8980,
+      "sha256": "7a18842e7cf2b4eec3734eaf090e412c747e17be4ea9429341ef9afef16f87d9"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/py/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/errors.md",
+      "byteCount": 7000,
+      "sha256": "015de804af001a516770db38ad98c6ab7baec588604a9b0e80dc1937668e5eb5"
     },
     {
       "path": "files.md",
       "downloadPath": "skills/py/files.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/files.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/files.md",
+      "byteCount": 6637,
+      "sha256": "f841fec8fd1c31798a09f31731d55ed01087c9020bbd73eb6be86de0346e27a7"
     },
     {
       "path": "functions.md",
       "downloadPath": "skills/py/functions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/functions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/functions.md",
+      "byteCount": 4964,
+      "sha256": "addf0129b01982a7954b9825f9d781fffdb0420133bb3c205d98ae0887572646"
     },
     {
       "path": "http.md",
       "downloadPath": "skills/py/http.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/http.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/http.md",
+      "byteCount": 7463,
+      "sha256": "875590836194d01337a9dcde6342f6c8bdd4e473cdca39dd894aca131b9e7f29"
     },
     {
       "path": "imports.md",
       "downloadPath": "skills/py/imports.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/imports.md",
+      "byteCount": 4708,
+      "sha256": "211f8c77b14e06c0c94a282c364d4ffe4c9de0d343678bcdfaaf37ecaa2315ae"
     },
     {
       "path": "linting.md",
       "downloadPath": "skills/py/linting.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/linting.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/linting.md",
+      "byteCount": 5724,
+      "sha256": "ac557636411af5d32c15a359f44f26d3dae800c0c6a28d19291376347b1fbc0f"
     },
     {
       "path": "logging.md",
       "downloadPath": "skills/py/logging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/logging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/logging.md",
+      "byteCount": 5816,
+      "sha256": "bb368bf75f6052767bc000ca3dcbb48238afc09ec0ec00d35707af1f1ece3694"
     },
     {
       "path": "notebooks.md",
       "downloadPath": "skills/py/notebooks.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/notebooks.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/notebooks.md",
+      "byteCount": 3799,
+      "sha256": "0afa059078eee80432d6bc151c4d0a76cdf9e883d1f915f293b581f3417dbb89"
     },
     {
       "path": "packaging.md",
       "downloadPath": "skills/py/packaging.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/packaging.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/packaging.md",
+      "byteCount": 7211,
+      "sha256": "f543073b99e56339bdc6add842b352a339ebfdae364f21f2b224bd363f30fcb4"
     },
     {
       "path": "performance.md",
       "downloadPath": "skills/py/performance.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/performance.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/performance.md",
+      "byteCount": 6215,
+      "sha256": "0d3c3e24cc99a6e74501b0de17e3719ce496b15f589c9095db11b822fe0bec72"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/py/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/security.md",
+      "byteCount": 6448,
+      "sha256": "c76c51264147ffc47cd660f03b22c206b176da4bfab1d11832a3c7c0537195c1"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/py/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/SKILL.md",
+      "byteCount": 18036,
+      "sha256": "625b4c811436cc9654cfa9852663806875da772cefaf9df3f0efa9979a719b46"
     },
     {
       "path": "sqlite.md",
       "downloadPath": "skills/py/sqlite.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/sqlite.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/sqlite.md",
+      "byteCount": 7446,
+      "sha256": "4ffd12ff47b5955d24e0b0370c99ecb1d32cf3e00ac2962c9a8adcb8fff75220"
     },
     {
       "path": "stdlib.md",
       "downloadPath": "skills/py/stdlib.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/stdlib.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/stdlib.md",
+      "byteCount": 5239,
+      "sha256": "ed567ac281394f1b5a9f306f749ebd737bcee3120805f8d535c561265443d33a"
     },
     {
       "path": "subprocess.md",
       "downloadPath": "skills/py/subprocess.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/subprocess.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/subprocess.md",
+      "byteCount": 5471,
+      "sha256": "7b552aea47ab2f484c0cb38792fe3492859e86a04d04b6ed88702b138145e1c3"
     },
     {
       "path": "testing.md",
       "downloadPath": "skills/py/testing.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/testing.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/testing.md",
+      "byteCount": 6226,
+      "sha256": "8e68b742359e85e447eaa8f5e44c65a6c40fea39bafc70ca2d7c5a06e44fb2b2"
     },
     {
       "path": "type-checking.md",
       "downloadPath": "skills/py/type-checking.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/type-checking.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/type-checking.md",
+      "byteCount": 5884,
+      "sha256": "aadfe399c5c4e551c0b87c230028bf5aa3a0077730620ba4a58d0a6146cb0425"
     },
     {
       "path": "types.md",
       "downloadPath": "skills/py/types.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/types.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/types.md",
+      "byteCount": 5654,
+      "sha256": "f78e9081d8ffbf08cae98eee2f31eb02ac476486f0b239a46757eef173d02057"
     },
     {
       "path": "versions.md",
       "downloadPath": "skills/py/versions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/versions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/py/versions.md",
+      "byteCount": 5381,
+      "sha256": "de54a0ab5372030111e3e3a80c0e9e7b3b6cb5fd12e49acf94337b1793bcb896"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-24T16:18:06.919Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "dbbadd04dc81708a1bd9776aa18548e43476e6f15e8f15b5ed8dc1ed733ea1be",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "mongodb",
     "name": "mongodb",
-    "description": "Designs MongoDB schemas, indexes, and aggregation pipelines, and debugs slow queries, connection errors, and replica set failures. Use when modeling documents, deciding embed vs reference, reading an explain plan, or fixing a COLLSCAN, and when a query times out, a pipeline aborts at the memory limit, a cursor dies mid-loop, the pool exhausts and server selection times out, writes fail with duplicate key or \"not writable primary\", a secondary lags, the oplog window closes, a shard key hotspots, or WiredTiger cache stalls the cluster. Covers mongosh and Compass, Atlas, Mongoose and driver connection strings, transactions and retry loops, change streams, time-series collections, Atlas Search and vector search, sharding, backups, restores, and upgrades. Not for SQL or relational modeling \u2014 normalization instincts actively mislead here.",
+    "description": "Designs MongoDB schemas, indexes, and aggregation pipelines, and debugs slow queries, connection errors, and replica set failures. Use when modeling documents, deciding embed vs reference, reading an explain plan, or fixing a COLLSCAN, and when a query times out, a pipeline aborts at the memory limit, a cursor dies mid-loop, the pool exhausts and server selection times out, writes fail with duplicate key or \"not writable primary\", a secondary lags, the oplog window closes, a shard key hotspots, or WiredTiger cache stalls the cluster. Covers mongosh and Compass, Atlas, Mongoose and driver connection strings, transactions and retry loops, change streams, time-series collections, Atlas Search and vector search, sharding, backups, restores, and upgrades. Not for SQL or relational modeling — normalization instincts actively mislead here.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/mongodb",
     "summary": "User preferences and memory live in `~/Clawic/data/mongodb/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/mongodb/` or `~/clawic/mongodb/`), move it to ",
@@ -20,124 +23,172 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/mongodb/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/mongodb/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/_meta.json",
+      "byteCount": 464,
+      "sha256": "c4eb7e0ed0c10e1cf80ffb6533783fd68c8cd457de311567f4f3904f3a1b78b7"
     },
     {
       "path": "aggregation.md",
       "downloadPath": "skills/mongodb/aggregation.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/aggregation.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/aggregation.md",
+      "byteCount": 9332,
+      "sha256": "dee620ee616e4976b4b0bc4c03176a7f5633c54205f5845a60d0a67e79943a29"
     },
     {
       "path": "atlas.md",
       "downloadPath": "skills/mongodb/atlas.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/atlas.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/atlas.md",
+      "byteCount": 6206,
+      "sha256": "500a05d8441a79de3e2f167e763837bf8a0a878e939b08d5fa60fddc73170cc1"
     },
     {
       "path": "backups.md",
       "downloadPath": "skills/mongodb/backups.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/backups.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/backups.md",
+      "byteCount": 6066,
+      "sha256": "7ab4f1bdb29bce7141c425eb2bf08aa8d01c22340874c90aea3bc26424c90ab5"
     },
     {
       "path": "change-streams.md",
       "downloadPath": "skills/mongodb/change-streams.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/change-streams.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/change-streams.md",
+      "byteCount": 6597,
+      "sha256": "add0c3da00ae849d1e6f488a31a7ac4053edfd50c1c0f30f1d1bd486bc052a1e"
     },
     {
       "path": "connections.md",
       "downloadPath": "skills/mongodb/connections.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/connections.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/connections.md",
+      "byteCount": 7984,
+      "sha256": "347968efbcefb0d7bc5c85d2e9f68a0709c66d16c98c93cde3b8d7670a96a078"
     },
     {
       "path": "errors.md",
       "downloadPath": "skills/mongodb/errors.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/errors.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/errors.md",
+      "byteCount": 6775,
+      "sha256": "18700fea69ed1bdf9549b8c885983ec7baed0af949660fbe0a80f7b3295fabc0"
     },
     {
       "path": "incidents.md",
       "downloadPath": "skills/mongodb/incidents.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/incidents.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/incidents.md",
+      "byteCount": 6738,
+      "sha256": "75ae0e63a82b5aa3bc6cb0a7799548efe6900fa4b70dcd6af5f46256e3c3e472"
     },
     {
       "path": "indexes.md",
       "downloadPath": "skills/mongodb/indexes.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/indexes.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/indexes.md",
+      "byteCount": 6632,
+      "sha256": "d98584b9a14ef876cdd2e3e8cd5c14b129744fa6e16ef2c8df27b2823b6a7eb6"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/mongodb/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/memory-template.md",
+      "byteCount": 1264,
+      "sha256": "59a4ff67c2b3c2bea9213befcf1ec96fd366747d6f929285801130acbad261f9"
     },
     {
       "path": "migrations.md",
       "downloadPath": "skills/mongodb/migrations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/migrations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/migrations.md",
+      "byteCount": 6284,
+      "sha256": "1529681b07760e8adeb5e1dce481f572d29a9fe0ae561a1fb3fa3fb8d3bf5a6d"
     },
     {
       "path": "mongosh.md",
       "downloadPath": "skills/mongodb/mongosh.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/mongosh.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/mongosh.md",
+      "byteCount": 5187,
+      "sha256": "c761eb18c2cb808233c04abe88d9edd15dcc1715a6a8727040dd98205414e17d"
     },
     {
       "path": "monitoring.md",
       "downloadPath": "skills/mongodb/monitoring.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/monitoring.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/monitoring.md",
+      "byteCount": 5124,
+      "sha256": "2f875acf0358b758000332d498d8bd4d6d0d34ff29f4b370ad2bf8c9a621bc99"
     },
     {
       "path": "replication.md",
       "downloadPath": "skills/mongodb/replication.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/replication.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/replication.md",
+      "byteCount": 6616,
+      "sha256": "60854975c83df0f06eed68f66fa68eb2a6bd2c9eab96cf079406144a153a63d8"
     },
     {
       "path": "schema.md",
       "downloadPath": "skills/mongodb/schema.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/schema.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/schema.md",
+      "byteCount": 11043,
+      "sha256": "570ab620d484ff03a527b230d2bf307b6f91edc051b08ed4b00af4eebe47f1d6"
     },
     {
       "path": "search.md",
       "downloadPath": "skills/mongodb/search.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/search.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/search.md",
+      "byteCount": 6541,
+      "sha256": "774b806da7a97f614a1f8dd8644cda91774938194b0a07c032ecfb0c28f1b829"
     },
     {
       "path": "security.md",
       "downloadPath": "skills/mongodb/security.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/security.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/security.md",
+      "byteCount": 7035,
+      "sha256": "8fb956d1a9a8fd59cd2cf1e4c52762c3953a38315523d01b14eea552068c12e7"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/mongodb/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/setup.md",
+      "byteCount": 2845,
+      "sha256": "b23201e4440fe5683cc3e08b4d5ea44de63f3645b14118719d1fdd895a30d8ed"
     },
     {
       "path": "sharding.md",
       "downloadPath": "skills/mongodb/sharding.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/sharding.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/sharding.md",
+      "byteCount": 6140,
+      "sha256": "4a1302c7da78cc7b12194ea47fd66dd5f74418a3a62bd16a6261adf1bfce99bd"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/mongodb/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/SKILL.md",
+      "byteCount": 22400,
+      "sha256": "ac7d9d7460ac43319a094a0f6994ac6237df51bb62a5c342021e93e6764dafde"
     },
     {
       "path": "slow-queries.md",
       "downloadPath": "skills/mongodb/slow-queries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/slow-queries.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/slow-queries.md",
+      "byteCount": 6228,
+      "sha256": "198d5eb2b5248d7a6da92f2243d708352b721a8eb944f9d0ccd1e05b9136fb11"
     },
     {
       "path": "time-series.md",
       "downloadPath": "skills/mongodb/time-series.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/time-series.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/time-series.md",
+      "byteCount": 5800,
+      "sha256": "cb48ac9c4ff0e46c4f4c2bb5798333335290e81237be17a43606a4d621a3d215"
     },
     {
       "path": "transactions.md",
       "downloadPath": "skills/mongodb/transactions.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/transactions.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/transactions.md",
+      "byteCount": 6161,
+      "sha256": "17c9f34cbdcf49eb936f20fcf6542c6e17d9318c14db845836679a3a51c56313"
     },
     {
       "path": "tuning.md",
       "downloadPath": "skills/mongodb/tuning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/tuning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/mongodb/tuning.md",
+      "byteCount": 5930,
+      "sha256": "42381a30032446e2b874d2f2f6c3a753a385bc080742deacd8884628b325da15"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-25T09:59:55.705Z",
+  "schemaVersion": 2,
+  "snapshotId": "3febe696b8096ee16aceb90efd139eff37d2be8630721ac6a5d3e77be13d6b48",
+  "generatedAt": "2026-07-25T10:43:00.198Z",
+  "sourceRevision": "557c045a2c6300d42b63452095998c2e3622b7e6",
+  "manifestSha256": "8705ca7670cbdc371ac688ddadbfebade4b105d95089b0d22218936c2963a7c8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -11,7 +14,7 @@
   "skill": {
     "slug": "cfo",
     "name": "cfo",
-    "description": "Acts as chief financial officer (CFO): forecasts cash, computes runway and burn, runs the monthly close, and models a fundraise. Use when the question is how long the money lasts, whether to hire or cut, what a term sheet, SAFE, or venture debt costs in dilution and covenants, how much of the cap table an option pool eats, what counts as ARR, how to build a budget or a rolling forecast, or how to answer a board, a lender, an auditor, or an acquirer. Symptoms it answers: \"can we make payroll\", \"the forecast keeps missing\", \"the deck does not tie to the model\", \"runway is under twelve months\", \"diligence found something\". Not for personal budgeting or bookkeeping entries and tax filing \u2014 those go to `money` and `accountant`.",
+    "description": "Acts as chief financial officer (CFO): forecasts cash, computes runway and burn, runs the monthly close, and models a fundraise. Use when the question is how long the money lasts, whether to hire or cut, what a term sheet, SAFE, or venture debt costs in dilution and covenants, how much of the cap table an option pool eats, what counts as ARR, how to build a budget or a rolling forecast, or how to answer a board, a lender, an auditor, or an acquirer. Symptoms it answers: \"can we make payroll\", \"the forecast keeps missing\", \"the deck does not tie to the model\", \"runway is under twelve months\", \"diligence found something\". Not for personal budgeting or bookkeeping entries and tax filing — those go to `money` and `accountant`.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/cfo",
     "summary": "User preferences and prior context live in `~/Clawic/data/cfo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cfo/` or `~/clawic/cfo/`), move it to `~/Cl",
@@ -20,94 +23,130 @@
   },
   "files": [
     {
-      "path": "SKILL.md",
-      "downloadPath": "skills/cfo/SKILL.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md"
-    },
-    {
       "path": "_meta.json",
       "downloadPath": "skills/cfo/_meta.json",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/_meta.json"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/_meta.json",
+      "byteCount": 556,
+      "sha256": "5afc82d2801c833e43b773566e8c7bd59570b77ca0d1dc40c4b14f56adc1f9aa"
     },
     {
       "path": "acquisition.md",
       "downloadPath": "skills/cfo/acquisition.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/acquisition.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/acquisition.md",
+      "byteCount": 6590,
+      "sha256": "139686af7c1d712120664c5aa4187d3f72659ba91da03826f8513cc2697b1a95"
     },
     {
       "path": "board.md",
       "downloadPath": "skills/cfo/board.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/board.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/board.md",
+      "byteCount": 5447,
+      "sha256": "bebb5e372b7094681b5f149f8275f68385784dc30a4bdf1505a4d565cf4c44fd"
     },
     {
       "path": "cash.md",
       "downloadPath": "skills/cfo/cash.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/cash.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/cash.md",
+      "byteCount": 7233,
+      "sha256": "c13f4d8b6d703839ff160637d75e2c45c44936fcb1d92294eec21331c866c3c5"
     },
     {
       "path": "cost-cuts.md",
       "downloadPath": "skills/cfo/cost-cuts.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/cost-cuts.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/cost-cuts.md",
+      "byteCount": 6385,
+      "sha256": "dfe37c625fb34671997c82319bed930fa0f2b6d3fbbb52d2419653952fa96c6c"
     },
     {
       "path": "deal-desk.md",
       "downloadPath": "skills/cfo/deal-desk.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/deal-desk.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/deal-desk.md",
+      "byteCount": 5086,
+      "sha256": "99481b4ae0906df8c8190bd3ef7eef444f1634acba945bd7090b216dd74e21ac"
     },
     {
       "path": "debt.md",
       "downloadPath": "skills/cfo/debt.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/debt.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/debt.md",
+      "byteCount": 6643,
+      "sha256": "fca9cd5cbdf06137a567394ee650fbfc9e94217be523d68d9896ac83de699625"
     },
     {
       "path": "equity.md",
       "downloadPath": "skills/cfo/equity.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/equity.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/equity.md",
+      "byteCount": 5053,
+      "sha256": "6244f3bfdcca86e64156267aac2884f95a7fb4647dd77b05f8277aa36548dd08"
     },
     {
       "path": "fundraising.md",
       "downloadPath": "skills/cfo/fundraising.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/fundraising.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/fundraising.md",
+      "byteCount": 7600,
+      "sha256": "2cbbf4c5dad19ceb7bd83c9eda4e47106b8eea4c5363a51ceec9963873714eb7"
     },
     {
       "path": "headcount.md",
       "downloadPath": "skills/cfo/headcount.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/headcount.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/headcount.md",
+      "byteCount": 4757,
+      "sha256": "f54d649118d37657930a75ff5fae6e3c75172d0c9c32b4ef67261ef2079fa7aa"
     },
     {
       "path": "international.md",
       "downloadPath": "skills/cfo/international.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/international.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/international.md",
+      "byteCount": 5980,
+      "sha256": "6330c0c34c9c6422ec9a460513573e03ac7a1ac228733c0ea71f66bd92f22eed"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cfo/memory-template.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/memory-template.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/memory-template.md",
+      "byteCount": 1160,
+      "sha256": "171d48e79b898f41df6a0e97ecc66310061829d735233327e834e264018182cd"
     },
     {
       "path": "operations.md",
       "downloadPath": "skills/cfo/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/operations.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/operations.md",
+      "byteCount": 6925,
+      "sha256": "503162d7f9ab2bd54504b6ad4f8040f5799a5c4bd0c99eab561ddb25305c96db"
     },
     {
       "path": "planning.md",
       "downloadPath": "skills/cfo/planning.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/planning.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/planning.md",
+      "byteCount": 6475,
+      "sha256": "5b2a1a4b357084d9e0c55bc6979d5e317cdfa56c87bf262860763ca818883bd2"
     },
     {
       "path": "revenue.md",
       "downloadPath": "skills/cfo/revenue.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/revenue.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/revenue.md",
+      "byteCount": 5333,
+      "sha256": "8c4667ed3c32b4f6a492e474666cb1d4cc4d317a6668e3423b5301078ce6fe1c"
     },
     {
       "path": "setup.md",
       "downloadPath": "skills/cfo/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/setup.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/setup.md",
+      "byteCount": 2680,
+      "sha256": "4ecdbc59e2c02a6685a99255487507083c7ddc474c58c6db5af2dacfc48d81de"
+    },
+    {
+      "path": "SKILL.md",
+      "downloadPath": "skills/cfo/SKILL.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/SKILL.md",
+      "byteCount": 18218,
+      "sha256": "f8627a1ee17b1fcc1c16e3599c973f9f199b0a867194a7043026f0de2f85e5cc"
     },
     {
       "path": "tax.md",
       "downloadPath": "skills/cfo/tax.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/tax.md"
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cfo/tax.md",
+      "byteCount": 5772,
+      "sha256": "85dd89a3e7ed118a653840349363e78f672b2a51a98fb39b4fc3aca02514e861"
     }
   ]
 }
