@@ -1,9 +1,10 @@
 ---
 name: Projects
 slug: projects
-version: 1.0.0
+version: 1.0.1
 description: Build a personal project management system that scales from simple lists to structured planning.
 homepage: https://clawic.com/skills/projects
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📁
@@ -18,7 +19,7 @@ metadata:
 - User mentions a project → help define scope, create folder
 - User adds tasks → capture in project context
 - Regular review prompts → surface stalled projects
-- Create `~/Clawic/data/projects/` as workspace
+- Create `~/Clawic/data/projects/` as workspace Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 ## First Question
 - "What does done look like?" — define success before starting

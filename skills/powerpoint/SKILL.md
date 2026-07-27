@@ -16,6 +16,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/powerpoint/
     displayName: PowerPoint
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/powerpoint/
 ---
 
 ## When to Use

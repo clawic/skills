@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/betting/
     displayName: Betting
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/betting/
 ---
 
 ## When to Use

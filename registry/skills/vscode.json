@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "4f9dd71e274065e91eb4b41d63b83ad17026589d3c9b78a8e4b45e837c8d3b9a",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "5a62f142f063519e38283539162a5c807322920a6d4ed4c03f0796ab78bccff7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "vscode",
     "name": "VSCode",
     "description": "Configures, debugs, and speeds up Visual Studio Code: settings scopes, launch.json, tasks.json, extensions, keybindings, formatters, and remote work. Use when a setting has no effect because something else overrides it, when format-on-save runs the wrong formatter or two formatters fight, when a breakpoint stays hollow, F5 does nothing, or a debug config will not attach, when a watch task hangs preLaunchTask forever, when the extension host crashes or two extensions collide, when IntelliSense dies and the TypeScript server or Python interpreter stops resolving, when a keyboard shortcut is swallowed by the terminal, when Remote-SSH, WSL, dev containers, or tunnels misbehave, when startup, search, or file watching is slow, or when deciding what belongs in .vscode/ and which extensions a fork like VSCodium or Cursor can install. Not for language semantics (`typescript`, `py`), Docker image authoring (`docker`), or general bug isolation (`debugging`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/vscode",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/vscode/config.yaml` (what the user declared) and `~/Clawic/data/vscode/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/vscode",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/vscode/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/_meta.json",
-      "byteCount": 240,
-      "sha256": "722d4b7cc5566b70b665f17ccfeecfdc7cf0990c17ed6a030bf721041a9936cd"
+      "byteCount": 314,
+      "sha256": "9fa0e3c67a02ec480e348f3d5230e3e00a53575eaa2af5abe09cd54b0dcb21a5"
     },
     {
       "path": "debugging.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/vscode/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/memory-template.md",
-      "byteCount": 19986,
-      "sha256": "219f1de2573c444fea7bfa77c0501e1be4e32f2aaa658fdbd4877764a11ddbd3"
+      "byteCount": 20216,
+      "sha256": "6f8c436974516e1c3dedcf920d464fa9857fb009f5f5cc62f1e77ce0664918c4"
     },
     {
       "path": "performance.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/vscode/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vscode/SKILL.md",
-      "byteCount": 30582,
-      "sha256": "ad8f761a3b909c309e61bd1553975cfbcd34920a5278784c168426faac05d2de"
+      "byteCount": 31351,
+      "sha256": "d208d8fd34f64659bf77123e35181c66cf79785340fe085e7b65926d39bcda0a"
     },
     {
       "path": "tasks.md",

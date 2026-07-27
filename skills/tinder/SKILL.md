@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/tinder/
     displayName: Tinder
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/tinder/
 ---
 
 ## When to Use

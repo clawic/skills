@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "0e3226a5082b0986a03c8c1f524bb95a54fa0e5de6f9c4d660b60e7562d6027b",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "afc036b4f0c7e44295603d9748d63f9237bc09d8eea65ba0825f9e9782a92554",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "rag",
     "name": "RAG",
     "description": "Designs, tunes, and debugs retrieval-augmented generation (RAG) pipelines: chunking, embeddings, hybrid retrieval, reranking, and grounded answers. Use when a system returns the wrong passages, misses a document that is indexed, cites nothing, or hallucinates over good context; when choosing a vector store, an embedding model, a chunk size, or a reranker; when similarity scores collapse after a model swap; when a metadata filter empties the result set; when answers ignore mid-context facts; when follow-up questions retrieve the wrong thing; when indexing PDFs, scanned pages, tables, code, or transcripts; when GDPR erasure, tenant isolation, or prompt injection from indexed documents is the problem; or when per-query cost or p95 latency has to come down. Covers reindex migrations, corpus freshness, evaluation sets, and agentic and graph retrieval. Not for splitter internals (`rag-chunking`), scoring rubrics (`rag-evaluation`), or LangChain APIs (`langchain`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/rag",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/rag/config.yaml` (what the user declared) and `~/Clawic/data/rag/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/rag",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/rag/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/_meta.json",
-      "byteCount": 234,
-      "sha256": "ac7c7e6c6dd5d323bfaa389c0971a69db9c0df4a6eca994a875e7d751ccf1e3e"
+      "byteCount": 308,
+      "sha256": "19e8bc13cc26f5ece9b3dbb50975dfddc88c07305e9396842b5559b517005a0f"
     },
     {
       "path": "agentic.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/rag/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/memory-template.md",
-      "byteCount": 21549,
-      "sha256": "ac886f4945fb22f59c9ac4c184359a03089dd7f22b59afb2acd1a237e71c614c"
+      "byteCount": 21779,
+      "sha256": "462d140d2fec7dc7f93e6e321245952ab0b38e0e380c0c2462496399374754d3"
     },
     {
       "path": "multimodal.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/rag/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/rag/SKILL.md",
-      "byteCount": 30633,
-      "sha256": "e3278224e1946a6feb14de9c72861075565d0aeb86aea0a308bdf9aec09bea6e"
+      "byteCount": 31421,
+      "sha256": "39c2ab751ec3c755bf11d81c18e1b39fb42446b65ca147e1c23955880c76bd42"
     },
     {
       "path": "structured-data.md",

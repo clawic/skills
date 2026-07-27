@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "2ec4c8994c30ebffe0e6caa6f39efc13363df3548c9d934b8bf9dac4f6ca5172",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "2a1904bf0073d45a5381629b70552229e87b314b0e80b5902c961500255cf7ca",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "coach",
     "name": "Coach",
     "description": "Coaches a person toward a goal, and runs the professional coaching craft: sessions, questions, accountability, and clients who will not move. Use when someone asks to be coached, held accountable, or pushed on a goal; when they restate the same intention for weeks without acting, over-plan instead of starting, answer every option with \"yes, but\", or miss the same commitment again; when a session needs an arc, an opening question, or a closing commitment; when the user is a coach and needs a chemistry call, intake, a coaching agreement, pricing and packages, a stalled client, group or team work, supervision, or credential hours; and when the line between coaching, therapy, consulting, and mentoring has to be drawn. Covers executive, career, business, health, life, creative, and ADHD coaching. Not for clinical care (`therapist`, `psychologist`), personal productivity systems (`productivity`), or habit streaks (`habits`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/coach",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/coach/config.yaml` (what the user declared) and `~/Clawic/data/coach/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/coach",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/coach/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/_meta.json",
-      "byteCount": 238,
-      "sha256": "81dc3890c3a95d6f40e47dfd982a30f85697b8c8cb0338252eca92d83a287436"
+      "byteCount": 312,
+      "sha256": "d903be92b8bf3d25f9c883d41658f6379ed6d9574e65ac2c1e76142a7e4621c4"
     },
     {
       "path": "accountability.md",
@@ -61,8 +61,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/coach/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/memory-template.md",
-      "byteCount": 21539,
-      "sha256": "2e5bf6cbe37dbbd6fed44526e05b184de967a84030d32a4094ca95df6f265f2d"
+      "byteCount": 21769,
+      "sha256": "b5256596d3125797693e56e4a601b6a4144c6ce243be583d064498a5a0f4ffc5"
     },
     {
       "path": "niches.md",
@@ -110,8 +110,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/coach/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/SKILL.md",
-      "byteCount": 30694,
-      "sha256": "51f57ceac61cd04d1ee2367a6d3aba2591d46e75bb6e9382e8c4076c31f6bfc0"
+      "byteCount": 31389,
+      "sha256": "248ed05199ffe8a643303f757ca18f2a868865a7c27050baa8a77b12f603a365"
     },
     {
       "path": "stuck.md",

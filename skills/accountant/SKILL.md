@@ -1,19 +1,10 @@
 ---
 name: Accountant
 slug: accountant
-version: 1.0.1
-description: >-
-  Keeps books that close: double-entry entries, reconciliation, month-end close, financial statements, and the tax
-  filings that follow. Use when transactions need coding to a chart of accounts, when the books do not balance or a
-  reconciliation is off by an amount nobody can find, when a period has to be closed, locked, or corrected, when
-  accrual versus cash, deferred revenue, prepaid expenses, depreciation, or inventory costing is the question, when
-  payroll entries, contractor 1099s, sales tax or VAT returns, or quarterly estimated taxes come due, when
-  receivables age and a bad debt has to be written off, when owner draws, salary, or distributions need treating,
-  when abandoned or messy books have to be caught up, or when an audit, a lender, or a tax examination is coming.
-  Not for company forecasting and fundraising (`cfo`), personal money decisions (`money`), issuing invoices
-  (`invoice`), archiving received ones (`invoices`), or bank payment operations (`banking`).
+version: 1.0.2
+description: 'Keeps books that close: double-entry entries, reconciliation, month-end close, financial statements, and the tax filings that follow. Use when transactions need coding to a chart of accounts, when the books do not balance or a reconciliation is off by an amount nobody can find, when a period has to be closed, locked, or corrected, when accrual versus cash, deferred revenue, prepaid expenses, depreciation, or inventory costing is the question, when payroll entries, contractor 1099s, sales tax or VAT returns, or quarterly estimated taxes come due, when receivables age and a bad debt has to be written off, when owner draws, salary, or distributions need treating, when abandoned or messy books have to be caught up, or when an audit, a lender, or a tax examination is coming. Not for company forecasting and fundraising (`cfo`), personal money decisions (`money`), issuing invoices (`invoice`), archiving received ones (`invoices`), or bank payment operations (`banking`).'
 homepage: https://clawic.com/skills/accountant
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📊
@@ -27,9 +18,18 @@ metadata:
     - ~/Clawic/data/finances/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/accountant/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/accountant/config.yaml` (what the user declared) and `~/Clawic/data/accountant/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index *is* the list of files; never work from a list of names memorized here, because most boxes get created after this skill was written. Read `~/Clawic/data/finances/accounts.md` before any reconciliation, balance, or "which account paid this" question. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/accountant/config.yaml` (what the user declared) and `~/Clawic/data/accountant/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index *is* the list of files; never work from a list of names memorized here, because most boxes get created after this skill was written. Read `~/Clawic/data/finances/accounts.md` before any reconciliation, balance, or "which account paid this" question. If none of it exists, work from defaults and say nothing about it. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: a chart of accounts or a coding decision that will repeat; a period closed or reopened; a reconciliation finished, or a difference found and explained; an asset capitalized, depreciated, or disposed; a filing submitted with its totals; a recurring accrual or amortization schedule; a registration or a deadline; a balance the next session must not re-derive — or something the user will read again: an accounting policy, a position taken and why, a close procedure, an audit package, a cleanup plan. `memory-template.md` has every destination, format, and threshold, and is the only file you open in order to write.
 

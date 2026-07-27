@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/chat-rooom/
     displayName: Chat Rooom
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/chat-rooom/
 ---
 
 ## Setup

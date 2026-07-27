@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "18779a16ab371b1d13a232f527b2afac8c1a5de3e1843abf59e01f1f29eaae01",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "f8b75aefe76e31a177bab2ccc163cbe1c0f2b1101bd7c4c0558d50cd3f1ff30a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "notes",
     "name": "Notes (Local, Apple, Notion, Obsidian & more)",
     "description": "Captures, structures, and retrieves notes in local markdown, Apple Notes, Bear, Obsidian, Notion, or Evernote. Use when the user says take notes, write this up, capture this, or turn this transcript into a note; for meeting, 1-on-1, decision, journal, project, or research notes; when a note must land in a specific app or vault; when action items need owners and real dates; when a note cannot be found again and titles, tags, folders, or an index are the problem; when quick captures pile up untriaged; when a decision needs a durable record; when a vault shows conflicted copies, duplicates, or links broken by a rename; when notes must move between apps, be exported, or be backed up; and when something is too sensitive to write down at all. Not for journaling practice and prompts (`journal`), meeting facilitation and agendas (`meetings`), Notion API development (`notion-api-integration`), running a to-do list (`task-list`), or growing a linked atomic-note knowledge base (`pkm`).",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "homepage": "https://clawic.com/skills/notes",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/notes/config.yaml` (what the user declared: routing, vault path, cadences) and `~/Clawic/data/notes/memory.md` (what you observed, plus its `## Boxes` index an",
     "repositoryPath": "skills/notes",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/notes/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/_meta.json",
-      "byteCount": 426,
-      "sha256": "5d1b4c2db75496abf370463af8d6f6646becd8d0ff1380f9839312bc5b170ea8"
+      "byteCount": 500,
+      "sha256": "d8d0ad5e7800abccfef4afa0a4dcc0dd81cddc8e70e8eac3624bb30f5ecb5404"
     },
     {
       "path": "action-items.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/notes/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/memory-template.md",
-      "byteCount": 22481,
-      "sha256": "0c143ae422b5f19313a750ba6dc37194f888bf9621a5d10c48f92d46c6a1abeb"
+      "byteCount": 22711,
+      "sha256": "bb11f9d55513199c6c24c8251d642ea34178f250893cf07b93310d93bcd58931"
     },
     {
       "path": "migration.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/notes/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notes/SKILL.md",
-      "byteCount": 23969,
-      "sha256": "6ad57b4b00bb7abb87ee88a097e5cd90d6f4aa1a967f3dfa800402b8ad55237d"
+      "byteCount": 24734,
+      "sha256": "f7995774d9e3a17d6120c9e028fee2e789273dbb27fb79fd5649db5128b4c0fe"
     },
     {
       "path": "sync.md",

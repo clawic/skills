@@ -2,18 +2,26 @@
 name: Studying
 slug: studying
 version: 1.0.4
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 description: Plans study schedules and runs study sessions with retrieval practice, spaced review, and exam countdown protocols. Use when a student prepares for an exam, midterm, final, or certification, asks how to study, revise, memorize, or cram, says they studied hard but forgot everything, failed or blanked on a practice test, cannot focus or keeps procrastinating, or is juggling several courses before test week. Covers technique choice, weekly planning, note-taking, problem practice, essay prep, and test-day strategy, and persists what works for this student across sessions. Not for producing flashcard decks or practice tests themselves.
 homepage: https://clawic.com/skills/studying
 metadata:
   clawdbot:
-    emoji: "📖"
+    emoji: 📖
     displayName: Studying
     configPaths:
     - ~/Clawic/data/studying/
+    - ~/studying/
+    - ~/clawic/studying/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/studying/
+      - ~/studying/
+      - ~/clawic/studying/
 ---
 
-User preferences and session history persist in `~/Clawic/data/studying/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/studying/` or `~/clawic/studying/`), move it to `~/Clawic/data/studying/`.
+User preferences and session history persist in `~/Clawic/data/studying/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/studying/` or `~/clawic/studying/`), move it to `~/Clawic/data/studying/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "a4b53bd7b984ce84b2f78d20e4d0e5296954f41b4ae3b850521d142d798324b0",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "aaa03a8c5d56da76fb5ee8367568e9ee7680b38e89d771e1b9054daf0f080f7e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "server",
     "name": "Server",
     "description": "Runs web and application services on a host: process supervision, ports and sockets, worker sizing, restarting without dropping requests. Use when a service will not start, dies after logout, restart-loops, or vanishes on reboot; when a port is already in use, or it answers on localhost but refuses connections from outside; when a request returns 502, 504, 413, 499, or a redirect loop between proxy and app; when wiring nginx, Caddy, Traefik, HAProxy, systemd, PM2, or php-fpm; when sizing workers and threads, tuning keepalive and timeouts, or a box runs out of file descriptors or memory under load; when shipping a release and rolling it back; when serving large uploads, WebSockets, or gRPC through a proxy; and when self-hosting apps or media servers. Not for nginx directive tuning (`nginx`), certificate issuance (`ssl`), host OS failures (`linux`), image building (`docker`), Kubernetes (`k8s`), CI/CD pipelines (`deploy`), or provisioning the machine (`vps`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/server",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/server/config.yaml` (what the user declared) and `~/Clawic/data/server/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/server",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/server/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/_meta.json",
-      "byteCount": 240,
-      "sha256": "25ec4745f144128e83846bc82b5a5a956249f2848c44ac3e923e5d11494dcc5a"
+      "byteCount": 314,
+      "sha256": "49037228a93ec1f3a6880370d196b7e3ebf78403d332cf55984bdf91c377cded"
     },
     {
       "path": "capacity.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/server/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/memory-template.md",
-      "byteCount": 20761,
-      "sha256": "4c10a8aea2d3178de99b3efc616338638ba5632047f6c8fdce0a0e8515a40a14"
+      "byteCount": 20991,
+      "sha256": "d3c52022cbc851cab8910b8921ae0f7b46a02198c8240e14820bfd17a9760c20"
     },
     {
       "path": "processes.md",
@@ -117,8 +117,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/server/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/server/SKILL.md",
-      "byteCount": 29259,
-      "sha256": "a8e7c03a31e91c5bc097963e888803156ba6866179011bcc434a3e481a3ab89f"
+      "byteCount": 30028,
+      "sha256": "c1e9061a66724fe79c335c6ae8a3f6b2b2bc00b6203019b482b8d43ffeb57e7a"
     },
     {
       "path": "stack.md",

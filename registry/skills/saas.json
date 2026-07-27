@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "f2f46dfeac886f48ff540505da6c7d3ccaadfddab6a9a9f6462906cc860e5229",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "bd7542c75d4bed2a91b816291299ad5c4526eb0018aab1c995bb742002d7e8e3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "saas",
     "name": "SaaS",
     "description": "Runs a SaaS business: subscription revenue, plan packaging, trials, retention, expansion, and enterprise readiness. Use when MRR or ARR has to be computed, reconciled, or explained; when NRR, gross margin, CAC payback, burn multiple, or rule of 40 is the question; when designing plans, seats, usage limits, add-ons, or a free tier; when trials sign up but never convert; when failed payments leak revenue; when a renewal, downgrade, or cancellation flow needs building; when expansion has stalled; when an enterprise buyer demands SSO, SCIM, audit logs, SOC 2, a DPA, or an uptime SLA; when per-tenant cost or AI inference COGS breaks the margin; when designing multi-tenant isolation, metering, or entitlements; or when an investor questions ARR quality. Not for setting the price itself (`pricing`), acquisition channels and funnel diagnosis (`growth`), building the payment integration (`billing`), company financial models (`cfo`), or closing an individual deal (`b2b`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/saas",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/saas/config.yaml` (what the user declared) and `~/Clawic/data/saas/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/saas",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/saas/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/_meta.json",
-      "byteCount": 236,
-      "sha256": "def24c20443e8133c92cb0956413a3b47be6e916c6cfbfa794419885ea528825"
+      "byteCount": 310,
+      "sha256": "f3c1aa1dfff132cc1cfc915dc149b9bb20aa4fd6c729a1acfeab377ac3445849"
     },
     {
       "path": "compliance.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/saas/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/memory-template.md",
-      "byteCount": 25129,
-      "sha256": "1db71b7275c35cd122763be186a92311430a75bea67d72a731b2e4544f435fc0"
+      "byteCount": 25359,
+      "sha256": "34346f117200309b688a55b2c5ea37c554c86609d9da42613cce7bb2142c7d02"
     },
     {
       "path": "metering.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/saas/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/SKILL.md",
-      "byteCount": 30179,
-      "sha256": "331f216f715714c646d94900dd6471916ceb97ce29efb73c900bf89158bc0f50"
+      "byteCount": 30811,
+      "sha256": "14b5ee9200a2795f6b2acd6efe820fc9418415f9bf6630566da8633b5e5c67fc"
     },
     {
       "path": "support.md",

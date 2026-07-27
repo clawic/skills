@@ -1,20 +1,10 @@
 ---
 name: VSCode
 slug: vscode
-version: 1.0.1
-description: >-
-  Configures, debugs, and speeds up Visual Studio Code: settings scopes, launch.json, tasks.json,
-  extensions, keybindings, formatters, and remote work. Use when a setting has no effect because
-  something else overrides it, when format-on-save runs the wrong formatter or two formatters fight,
-  when a breakpoint stays hollow, F5 does nothing, or a debug config will not attach, when a watch
-  task hangs preLaunchTask forever, when the extension host crashes or two extensions collide, when
-  IntelliSense dies and the TypeScript server or Python interpreter stops resolving, when a keyboard
-  shortcut is swallowed by the terminal, when Remote-SSH, WSL, dev containers, or tunnels misbehave,
-  when startup, search, or file watching is slow, or when deciding what belongs in .vscode/ and which
-  extensions a fork like VSCodium or Cursor can install. Not for language semantics (`typescript`,
-  `py`), Docker image authoring (`docker`), or general bug isolation (`debugging`).
+version: 1.0.2
+description: 'Configures, debugs, and speeds up Visual Studio Code: settings scopes, launch.json, tasks.json, extensions, keybindings, formatters, and remote work. Use when a setting has no effect because something else overrides it, when format-on-save runs the wrong formatter or two formatters fight, when a breakpoint stays hollow, F5 does nothing, or a debug config will not attach, when a watch task hangs preLaunchTask forever, when the extension host crashes or two extensions collide, when IntelliSense dies and the TypeScript server or Python interpreter stops resolving, when a keyboard shortcut is swallowed by the terminal, when Remote-SSH, WSL, dev containers, or tunnels misbehave, when startup, search, or file watching is slow, or when deciding what belongs in .vscode/ and which extensions a fork like VSCodium or Cursor can install. Not for language semantics (`typescript`, `py`), Docker image authoring (`docker`), or general bug isolation (`debugging`).'
 homepage: https://clawic.com/skills/vscode
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💻
@@ -27,15 +17,27 @@ metadata:
     - ~/Clawic/data/vscode/
     - ~/Clawic/data/servers/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/vscode/
+    - ~/clawic/vscode/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/vscode/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/vscode/
+      - ~/clawic/vscode/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/vscode/config.yaml` (what the user declared) and `~/Clawic/data/vscode/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before touching Remote-SSH, a tunnel, or a dev container on a named host. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/vscode/config.yaml` (what the user declared) and `~/Clawic/data/vscode/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before touching Remote-SSH, a tunnel, or a dev container on a named host. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a config that finally worked (`settings.json`, `launch.json`, `tasks.json` with its problem matcher, `keybindings.json`, `devcontainer.json`, a `.code-workspace`, a snippet set); an extension adopted, rejected, or blamed for a conflict; a profile and what it is for; a per-project editor setup; a remote host reached from the editor; an environment fact that cost effort to find (shell PATH resolution, keyboard layout, watcher limit, glibc floor, marketplace restriction); a failure whose cause was not obvious; or a decision the user will re-litigate. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Remote hosts go to the shared inventory `~/Clawic/data/servers/servers.md`**, not here: one file holds machines from every provider, so "which box am I editing on" answers itself whoever provisioned it. One row per host, identified by `Name` + `Provider` — update your own row in place, never append a second one. A tracked codebase goes to the shared `~/Clawic/data/projects/<project>.md` by name; the editor-shaped facts about it stay here.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted `settings.json`, `devcontainer.json`, `tasks.json` or terminal-env block is the densest source of secrets in this domain: strip the value and store the pointer — `env:GITHUB_TOKEN`, `keychain:npm-publish`, `1password:Work/Registry/ci`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/vscode/` or `~/clawic/vscode/`), move it to `~/Clawic/data/vscode/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted `settings.json`, `devcontainer.json`, `tasks.json` or terminal-env block is the densest source of secrets in this domain: strip the value and store the pointer — `env:GITHUB_TOKEN`, `keychain:npm-publish`, `1password:Work/Registry/ci`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/vscode/` or `~/clawic/vscode/`), move it to `~/Clawic/data/vscode/`, and say in one line that you moved it and from where.
 
 Almost every VS Code problem is one of five things: a setting resolved at the wrong scope, an extension doing something you did not attribute to it, a path that means something different to the debugger than to you, a process boundary (extension host, remote server, shell), or trust. Name which one before proposing a fix, and give the file, the key, and the value that changes. Work from defaults immediately: never open with questions about their OS, their extensions, or how proactive to be. The one exception to silence is `os_family` — while it is unset, give shortcuts in both `Cmd` and `Ctrl` form rather than asking. That is a statement, not a question. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals) → the Configuration table default.
 

@@ -2,17 +2,9 @@
 name: Spain
 slug: spain
 version: 1.0.3
-description: >-
-  Plans Spain travel with local-level picks: named restaurants, regional rules, timing,
-  booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to
-  Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia,
-  Bilbao, Málaga, or San Sebastián, the Balearics or Canaries, tapas, paella, pintxos, wine
-  or flamenco, festivals like San Fermín, Fallas, or Semana Santa, walking the Camino de
-  Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and
-  pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that
-  is the spanish skill.
+description: 'Plans Spain travel with local-level picks: named restaurants, regional rules, timing, booking windows, and tourist-trap avoidance. Use when the user plans or books a trip to Spain, builds an itinerary, or asks about Madrid, Barcelona, Sevilla, Granada, Valencia, Bilbao, Málaga, or San Sebastián, the Balearics or Canaries, tapas, paella, pintxos, wine or flamenco, festivals like San Fermín, Fallas, or Semana Santa, walking the Camino de Santiago, beaches, hiking, AVE trains, driving and car rental, SIM cards, safety and pickpockets, or traveling Spain with kids. Not for learning the Spanish language — that is the spanish skill.'
 homepage: https://clawic.com/skills/spain
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🇪🇸
@@ -23,9 +15,19 @@ metadata:
     displayName: Spain
     configPaths:
     - ~/Clawic/data/spain/
+    - ~/Clawic/profile.yaml
+    - ~/spain/
+    - ~/clawic/spain/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/spain/
+      - ~/Clawic/profile.yaml
+      - ~/spain/
+      - ~/clawic/spain/
 ---
 
-User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Clawic/data/spain/`.
+User preferences and memory live in `~/Clawic/data/spain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/spain/` or `~/clawic/spain/`), move it to `~/Clawic/data/spain/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

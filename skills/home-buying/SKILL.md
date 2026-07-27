@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/home-buying/
     displayName: Home Buying
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/home-buying/
 ---
 
 ## Setup

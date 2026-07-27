@@ -2,17 +2,8 @@
 name: Go
 slug: go
 version: 1.0.4
-changelog: "Display name shown correctly"
-description: >-
-  Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http.
-  Use when Go panics or misbehaves — "all goroutines are asleep - deadlock!", "concurrent map writes", "send on closed
-  channel", "assignment to entry in nil map", or a WARNING: DATA RACE from `go test -race`; when a goroutine, timer,
-  or connection leaks and memory climbs; when a service hangs for want of a timeout; when errors.Is or errors.As stops
-  matching after a %v wrap; when a slice mutates its parent, a map iterates in a new order, or a typed nil returned as
-  error compares non-nil; when go.mod, go.sum, workspaces, replace, or a /v2 path fight over dependencies; when
-  cross-compiling, cgo, build tags, go:embed, or a static container binary fail; when tests are flaky under -race
-  or -parallel or benchmarks lie; when GOGC, GOMEMLIMIT, GOMAXPROCS, or escape analysis need tuning; or when writing
-  handlers, CLIs, database access, or generics. Not for Kubernetes operators or framework internals.
+changelog: Display name shown correctly
+description: 'Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http. Use when Go panics or misbehaves — "all goroutines are asleep - deadlock!", "concurrent map writes", "send on closed channel", "assignment to entry in nil map", or a WARNING: DATA RACE from `go test -race`; when a goroutine, timer, or connection leaks and memory climbs; when a service hangs for want of a timeout; when errors.Is or errors.As stops matching after a %v wrap; when a slice mutates its parent, a map iterates in a new order, or a typed nil returned as error compares non-nil; when go.mod, go.sum, workspaces, replace, or a /v2 path fight over dependencies; when cross-compiling, cgo, build tags, go:embed, or a static container binary fail; when tests are flaky under -race or -parallel or benchmarks lie; when GOGC, GOMEMLIMIT, GOMAXPROCS, or escape analysis need tuning; or when writing handlers, CLIs, database access, or generics. Not for Kubernetes operators or framework internals.'
 homepage: https://clawic.com/skills/go
 metadata:
   clawdbot:
@@ -27,9 +18,17 @@ metadata:
     displayName: Go
     configPaths:
     - ~/Clawic/data/go/
+    - ~/go/
+    - ~/clawic/go/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/go/
+      - ~/go/
+      - ~/clawic/go/
 ---
 
-User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`. Note that `~/go/` may also be the user's GOPATH — never write skill data there, and never delete it.
+User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`, and say in one line that you moved it and from where. Note that `~/go/` may also be the user's GOPATH — never write skill data there, and never delete it.
 
 ## When To Use
 

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/hermes-agent/
     displayName: Hermes Agent
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/hermes-agent/
 ---
 
 ## When to Use

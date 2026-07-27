@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "b657e353b3adb0fd512f13f2d1cb7216c6c988232cbcf29684a22878abfd3453",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "dfc757849d7f45e094bbdb7de1f5106b5cf377294a847a895d879e5601272ad8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "ecommerce",
     "name": "Ecommerce",
     "description": "Runs an online store end to end: catalog, checkout, payments, inventory, fulfillment, returns, pricing, conversion, retention, and tax. Use when building or reviewing store code — checkout totals, webhooks, stock decrements; when a payment double-charges, a webhook replays, or an order is paid but missing in the store; when stock oversells across channels or a reorder point is missing; when carts abandon, conversion drops, or AOV has to rise; when a discount or free-shipping threshold might sell below cost; when chargebacks, refund abuse, or fraud rules need setting; when choosing or migrating a platform or adding a marketplace; when VAT/OSS, sales-tax nexus, or a 14-day withdrawal window applies; and for peak season, subscriptions, and wholesale terms. Not for parcel carrier depth (skill `shipping`), payment-provider integration code (skill `payments`), CRO method (skill `conversion-rate-optimization`), SaaS pricing (skill `pricing`), or a physical shop (skill `store`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/ecommerce",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/ecommerce/config.yaml` (what the user declared) and `~/Clawic/data/ecommerce/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/ecommerce",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/ecommerce/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/_meta.json",
-      "byteCount": 246,
-      "sha256": "74402239aac733eb2f7587c6811482d8e6adeb9935a7561f59d4eebb08a247f4"
+      "byteCount": 320,
+      "sha256": "a4fc07f091a0c559550a5f455d191c1290d08e7ba1a2ee92ff8fa63e6e8eefc3"
     },
     {
       "path": "acquisition.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/ecommerce/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/memory-template.md",
-      "byteCount": 29477,
-      "sha256": "21e1a60c4c690077ef1d764bf69262b9757b09a0881e9b0ae6277dea3d81f6a7"
+      "byteCount": 29707,
+      "sha256": "a1145e2d6b04293ea5ea29b1651e15423479c9d23338c5f9e9ec50489229abfb"
     },
     {
       "path": "orders.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/ecommerce/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/SKILL.md",
-      "byteCount": 31872,
-      "sha256": "0c2ef646d898a433fe4d103a40f99b6e46939db25371f977039c3446d2228f09"
+      "byteCount": 32751,
+      "sha256": "9ecfc18692781c218aa8944d72c55f1596e6c61c53b05003a38469c5f04c21e0"
     },
     {
       "path": "storefront.md",

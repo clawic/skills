@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "c6433a09e9b1b82efa2af2c4c181d86088723aad5338d78bd35454afbe5aabc5",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "7a70295827b20e29195a895e71aca1b582bf4a577a6d2f356a0f50780ab1c2a8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "agents",
     "name": "Agents",
     "description": "Designs, debugs, evaluates, and hardens AI agents — the loop, tools, memory, context budget, cost, and escalation — independent of any framework. Use when an agent loops forever, repeats a tool call, drifts from its instructions after many turns, invents tool arguments, stops mid-task, or swallows a tool error silently; when deciding single agent versus several, or which framework to build on; when token cost per task or p95 latency has to come down; when designing tool schemas, retries, timeouts, checkpoints, or human approval; when writing an eval set or a regression suite for agent behavior; when prompt injection, tool abuse, or an over-permissioned action is the risk; and when specifying an agent's purpose, escalation rules, and cost ceiling for a team. Covers memory design, multi-agent handoffs, tracing, and rollout. Not for LangChain APIs (`langchain`), retrieval pipelines (`rag`), prompt craft alone (`prompting`), or agent persona and voice (`agent`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/agents",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/agents/config.yaml` (what the user declared) and `~/Clawic/data/agents/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/agents",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/agents/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/_meta.json",
-      "byteCount": 240,
-      "sha256": "acd8be442ad40d0686154f36592717c00826187b75aa707f67d385ad194e9c35"
+      "byteCount": 314,
+      "sha256": "374a96222d8129ebe0280ed9be8123a265daa8008dd1a9a8e2d324b176d217ec"
     },
     {
       "path": "agent-types.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/agents/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/memory-template.md",
-      "byteCount": 25022,
-      "sha256": "ead5902897c62d202e18a305981cc5dfb85c774415ff6a92ecb1b066af720ebd"
+      "byteCount": 25252,
+      "sha256": "34ad41d63bae1e07c9fd4cae9cde1921cf3bf92a33f967ce6bc5231b80465140"
     },
     {
       "path": "multi-agent.md",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/agents/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/agents/SKILL.md",
-      "byteCount": 28539,
-      "sha256": "04d6823ad585786d847bfe1dc30b435dbcfe3e8e369f599ea3b319bfa37f2f01"
+      "byteCount": 29370,
+      "sha256": "334d7a302eeb86dbef7d9e7a0bd66136620f55990ac050ca59426d7f3bfce351"
     },
     {
       "path": "tools.md",

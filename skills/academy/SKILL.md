@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/academy/
     displayName: Academy
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/academy/
 ---
 
 ## When to Use

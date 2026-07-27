@@ -2,19 +2,9 @@
 name: Memory
 slug: memory
 version: 1.0.7
-description: >-
-  Remembers, recalls, and organizes durable facts in a categorized markdown store at
-  ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember
-  this, save this, note that for later, or don't forget; when they ask what did I tell you
-  about X, when did we decide Y, or who is Z; when a stored fact is wrong, outdated, or
-  contradicts what they just said; when they want something forgotten or deleted; when
-  recall misses, returns stale facts, or slows down as the store grows; when duplicate or
-  conflicting entries appear; when consolidating scattered notes, importing an existing
-  vault, or sharing memory across devices and agents. Not for session-scoped context the
-  runtime already holds, note-taking apps (notes), journaling practice (journal), or study
-  techniques like spaced repetition (learn, active-recall).
+description: Remembers, recalls, and organizes durable facts in a categorized markdown store at ~/Clawic/data/memory/, parallel to built-in agent memory. Use when the user says remember this, save this, note that for later, or don't forget; when they ask what did I tell you about X, when did we decide Y, or who is Z; when a stored fact is wrong, outdated, or contradicts what they just said; when they want something forgotten or deleted; when recall misses, returns stale facts, or slows down as the store grows; when duplicate or conflicting entries appear; when consolidating scattered notes, importing an existing vault, or sharing memory across devices and agents. Not for session-scoped context the runtime already holds, note-taking apps (notes), journaling practice (journal), or study techniques like spaced repetition (learn, active-recall).
 homepage: https://clawic.com/skills/memory
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🧠
@@ -27,9 +17,17 @@ metadata:
     displayName: Memory
     configPaths:
     - ~/Clawic/data/memory/
+    - ~/memory/
+    - ~/clawic/memory/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/memory/
+      - ~/memory/
+      - ~/clawic/memory/
 ---
 
-All data lives in `~/Clawic/data/memory/` on the user's machine — plain markdown, no external services, no network requests. Configuration in `~/Clawic/data/memory/config.yaml` (`setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/memory/` or `~/clawic/memory/`), move it to `~/Clawic/data/memory/`.
+All data lives in `~/Clawic/data/memory/` on the user's machine — plain markdown, no external services, no network requests. Configuration in `~/Clawic/data/memory/config.yaml` (`setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/memory/` or `~/clawic/memory/`), move it to `~/Clawic/data/memory/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

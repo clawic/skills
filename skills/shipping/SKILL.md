@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/shipping/
     displayName: Shipping Operations
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/shipping/
 ---
 
 ## Setup

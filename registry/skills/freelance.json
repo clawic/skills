@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "f8a28ce81b8ba07326b158adbcc833466190d072891b7cacc41c3c55f184ad73",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "03e3c57538f3f012b44375e89fc81aaa43f00d492f0271391e6b51c855fac2dd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "freelance",
     "name": "Freelance",
     "description": "Runs an independent freelance or contractor practice as a business: rate floor, pipeline, cash buffer, taxes, and the paper. Use when going freelance or weighing quitting a job for it, when setting or raising an hourly or day rate, when the pipeline is empty and work dried up, when income swings and a buffer or tax set-aside has to be sized, when one client is too much of the revenue, when a client asks for free spec work, rewrites your contract, or sends an NDA you should not sign, when payment is late, disputed, or a project has to be walked away from, when self-employment tax, VAT registration, invoicing abroad, or IR35 and worker-classification tests come up, when insurance, sick days, holiday, or a pension has to be self-funded, and when the next step is subcontracting, productizing, or an agency. Not for managing one client relationship (`clients`), Upwork (`upwork`) or Fiverr (`fiverr`) tactics, drafting the contract document (`contract`), or issuing invoices (`invoice`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/freelance",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/freelance/config.yaml` (what the user declared) and `~/Clawic/data/freelance/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/freelance",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/freelance/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/_meta.json",
-      "byteCount": 246,
-      "sha256": "3a614c4847894a4adada035c879f33c670245b4838088f1ca88fd4e298919cd1"
+      "byteCount": 320,
+      "sha256": "b259ee863c3afe1da3dda7c75b0e82d8c0ffc00fdd68e715d5fa3875c5da84d4"
     },
     {
       "path": "capacity.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/freelance/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/memory-template.md",
-      "byteCount": 28365,
-      "sha256": "e30b62aa8316341d3157f8d8f340c04034a43ac82ef73b06b1087998cd8b3238"
+      "byteCount": 28595,
+      "sha256": "fa038c4648cc457efc497f05847387f197e4e32f57f4d83b19becef2b71bb481"
     },
     {
       "path": "pipeline.md",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/freelance/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/SKILL.md",
-      "byteCount": 28941,
-      "sha256": "04d32283d17cf16d51f91ac47b9771c01bffa0abf42aae06ded990f029dbdbd1"
+      "byteCount": 29758,
+      "sha256": "5d4c1de48db14b0ee44eeb782be2477087ae171812d8e6628ce2809c56cd140f"
     },
     {
       "path": "taxes.md",

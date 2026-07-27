@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/coin-identifier/
     displayName: Coin Identifier
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/coin-identifier/
 ---
 
 ## When to Use

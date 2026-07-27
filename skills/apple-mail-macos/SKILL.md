@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/apple-mail-macos/
     displayName: Apple Mail (MacOS)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/apple-mail-macos/
 ---
 
 ## Setup

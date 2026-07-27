@@ -1,19 +1,10 @@
 ---
 name: Developer
 slug: developer
-version: 1.0.1
-description: >-
-  Works as a software developer day to day: turning a ticket into merged, shipped, supported code inside a
-  codebase someone else wrote. Use when landing in an unfamiliar repo and hunting for where the change goes;
-  when scoping, splitting, or estimating work; when a bug has to go from report to verified fix; when tests
-  are missing, slow, or flaky; when a pull request is too big to review or a review has stalled; when a
-  dependency upgrade breaks the build; when a schema change or backfill must ship without downtime; when
-  something works locally but fails in CI or production; when a release needs a rollback plan or a flag; when
-  on call and mitigation has to come before root cause; or when deciding what is reversible. Covers
-  environment parity, security on your own diff, and new services. Not for isolation technique (`debugging`),
-  the transformation catalog (`refactoring`), review analysis (`review-code`), or Git mechanics (`git`).
+version: 1.0.2
+description: 'Works as a software developer day to day: turning a ticket into merged, shipped, supported code inside a codebase someone else wrote. Use when landing in an unfamiliar repo and hunting for where the change goes; when scoping, splitting, or estimating work; when a bug has to go from report to verified fix; when tests are missing, slow, or flaky; when a pull request is too big to review or a review has stalled; when a dependency upgrade breaks the build; when a schema change or backfill must ship without downtime; when something works locally but fails in CI or production; when a release needs a rollback plan or a flag; when on call and mitigation has to come before root cause; or when deciding what is reversible. Covers environment parity, security on your own diff, and new services. Not for isolation technique (`debugging`), the transformation catalog (`refactoring`), review analysis (`review-code`), or Git mechanics (`git`).'
 homepage: https://clawic.com/skills/developer
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💻
@@ -26,9 +17,17 @@ metadata:
     - ~/Clawic/data/developer/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/developer/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/developer/config.yaml` (what the user declared) and `~/Clawic/data/developer/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its `## Repos` index). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Before touching code in a repo, open its profile at `~/Clawic/data/developer/repos/<repo>.md` if `## Repos` has a row for it: it holds the run and test commands, the conventions, and the traps that cost someone an afternoon. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/developer/config.yaml` (what the user declared) and `~/Clawic/data/developer/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its `## Repos` index). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Before touching code in a repo, open its profile at `~/Clawic/data/developer/repos/<repo>.md` if `## Repos` has a row for it: it holds the run and test commands, the conventions, and the traps that cost someone an afternoon. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a repo learned or a command that finally worked; a root cause that took real time to find; a decision and what it rejected; an estimate made or an estimate closed against reality; a flaky test, a performance baseline, a dependency verdict; a release, a migration, or an incident; or something the user will re-read — a postmortem, a runbook, a setup recipe, a review checklist. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

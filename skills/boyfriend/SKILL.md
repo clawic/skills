@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/boyfriend/
     displayName: Boyfriend
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/boyfriend/
 ---
 
 ## Setup

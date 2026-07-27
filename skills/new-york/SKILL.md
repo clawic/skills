@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/new-york/
     displayName: New York (State)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/new-york/
 ---
 
 ## When to Use

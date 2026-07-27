@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "884ac9986ff7e6105c09b3baf5aef6b88916902ba70ca97866579bfc149cdeba",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "1b766747e0788cc7b7d555d9587f89bd9a44baa89d8fea7d362b5981b21d4c38",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "projects",
     "name": "Projects",
     "description": "Build a personal project management system that scales from simple lists to structured planning.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/projects",
     "summary": "Core Behavior - User mentions a project → help define scope, create folder - User adds tasks → capture in project context - Regular review prompts → surface stalled projects - Create `~/Clawic/data/projects/` as workspac",
     "repositoryPath": "skills/projects",
@@ -26,15 +26,15 @@
       "path": "_meta.json",
       "downloadPath": "skills/projects/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/_meta.json",
-      "byteCount": 168,
-      "sha256": "5788c485df6c65663abdb78f6a0c18658e063816ad569921f7ad26d5531f92ab"
+      "byteCount": 244,
+      "sha256": "7fb46c98ec5f9f408c1bd66d3d83486c1193b17d07501ad50560d1f6dd14feba"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/projects/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/projects/SKILL.md",
-      "byteCount": 4614,
-      "sha256": "4a57b9caea2c5e11647531a8773afc604b3cfdabf97f3f248f3e61d337e3853b"
+      "byteCount": 5084,
+      "sha256": "9c7383cc23a21159f815179169acc9cebcab16262763500b973a0ef21f0b0757"
     }
   ]
 }

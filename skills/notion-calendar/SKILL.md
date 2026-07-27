@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/notion-calendar/
     displayName: Notion Calendar
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/notion-calendar/
 ---
 
 ## Setup

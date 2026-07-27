@@ -1,20 +1,10 @@
 ---
 name: DevOps
 slug: devops
-version: 1.0.1
-description: >-
-  Runs the delivery side of software: CI/CD pipelines, release and rollback strategy, environments, reliability
-  and on-call. Use when designing or fixing a pipeline, when builds are slow, flaky, or green locally and red
-  in CI; when planning a deploy — rolling, blue-green, canary, feature flags — or rolling a release back; when
-  promoting an artifact to production, standing up preview environments, or chasing drift; when a schema
-  change, backfill, or DNS cutover must ship without downtime; when pipeline secrets, OIDC, or deploy
-  permissions need hardening; when alerts are noisy, an SLO or error budget is missing, or burn-rate paging is
-  wrong; for on-call, severities, postmortems, runbooks, and DORA metrics; when infrastructure drifts from
-  code, or backups were never restored. Not for Kubernetes manifests (`k8s`), image builds (`docker`), HCL
-  mechanics (`terraform`), one CI product's workflow-file dialect (`github-actions`, `gitlab`, `ci-cd`), or a
-  single app's ship checklist (`deploy`).
+version: 1.0.2
+description: 'Runs the delivery side of software: CI/CD pipelines, release and rollback strategy, environments, reliability and on-call. Use when designing or fixing a pipeline, when builds are slow, flaky, or green locally and red in CI; when planning a deploy — rolling, blue-green, canary, feature flags — or rolling a release back; when promoting an artifact to production, standing up preview environments, or chasing drift; when a schema change, backfill, or DNS cutover must ship without downtime; when pipeline secrets, OIDC, or deploy permissions need hardening; when alerts are noisy, an SLO or error budget is missing, or burn-rate paging is wrong; for on-call, severities, postmortems, runbooks, and DORA metrics; when infrastructure drifts from code, or backups were never restored. Not for Kubernetes manifests (`k8s`), image builds (`docker`), HCL mechanics (`terraform`), one CI product''s workflow-file dialect (`github-actions`, `gitlab`, `ci-cd`), or a single app''s ship checklist (`deploy`).'
 homepage: https://clawic.com/skills/devops
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🔧
@@ -30,15 +20,30 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/domains/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/devops/
+    - ~/clawic/devops/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/devops/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/devops/
+      - ~/clawic/devops/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/devops/config.yaml` (what the user declared) and `~/Clawic/data/devops/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any deploy, environment, or capacity question. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/devops/config.yaml` (what the user declared) and `~/Clawic/data/devops/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before any deploy, environment, or capacity question. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a service or an environment mapped; a pipeline reshaped; a release shipped, rolled back, or promoted; an incident, its severity, and its postmortem; an SLO agreed or an error budget spent; a cadence scheduled or run; an environment fact that cost effort to find (a TTL, a lock timeout, a runner limit, a quota); or something the user will re-read — a runbook, a cutover plan, a pipeline file that finally worked, a decision and what it rejected. `memory-template.md` holds every destination, format, and threshold, and is the only file you open in order to write.
 
 **Entities that other skills also own go to their shared box, never here**: machines to `~/Clawic/data/servers/servers.md`, people who own or carry a pager to `~/Clawic/data/contacts/contacts.md`, tracked delivery work to `~/Clawic/data/projects/<project>.md`, hostnames and certificate expiry to `~/Clawic/data/domains/domains.md`, delivery-tool spend to `~/Clawic/data/finances/subscriptions.md`. Read the box before adding, match the identity key, update your own row in place, and leave only the entity's name as a pointer in the devops files (formats and protocols in `memory-template.md`).
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted pipeline file, `.env`, terraform output, or incident log is the densest source of secrets there is: strip the value and store the pointer — `env:DEPLOY_TOKEN`, `vault:secret/ci/deploy`, `1password:Work/CI/prod`, `ssm:/prod/db/password`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/devops/` or `~/clawic/devops/`), move it to `~/Clawic/data/devops/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted pipeline file, `.env`, terraform output, or incident log is the densest source of secrets there is: strip the value and store the pointer — `env:DEPLOY_TOKEN`, `vault:secret/ci/deploy`, `1password:Work/CI/prod`, `ssm:/prod/db/password`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/devops/` or `~/clawic/devops/`), move it to `~/Clawic/data/devops/`, and say in one line that you moved it and from where.
 
 Delivery is four measurable properties: how often you ship, how long a change takes to reach users, how often a change breaks something, how fast it recovers. Every recommendation names which of the four it moves and what it costs. Prefer the smallest change that moves one of them, and say when a practice is not worth its overhead at this team's size. Work from defaults immediately: never open with questions about their stack, their cloud, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, timezone) → the Configuration table default.
 

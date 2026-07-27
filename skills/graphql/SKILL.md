@@ -2,17 +2,9 @@
 name: GraphQL
 slug: graphql
 version: 1.0.2
-description: >-
-  Designs, debugs, and hardens GraphQL schemas, resolvers, and clients: N+1 batching, nullability, cost limits,
-  subscriptions, federation. Use when writing or reviewing a schema, SDL, or resolvers; when a query is slow or fires
-  hundreds of database queries; when the response says "Cannot return null for non-nullable field", comes back with an
-  errors array, or nulls a whole branch; when designing mutations, cursor pagination, custom scalars, unions, or input
-  types; when an Apollo, Relay, or urql cache will not update after a mutation; when subscriptions drop or never fire;
-  when adding depth, alias, complexity, or persisted-query limits, disabling introspection, or masking errors; when a
-  schema change breaks clients; or when composing Apollo Federation subgraphs and entity references. Not for consuming
-  someone else's GraphQL API (api) or for designing REST endpoints (rest-api).
+description: 'Designs, debugs, and hardens GraphQL schemas, resolvers, and clients: N+1 batching, nullability, cost limits, subscriptions, federation. Use when writing or reviewing a schema, SDL, or resolvers; when a query is slow or fires hundreds of database queries; when the response says "Cannot return null for non-nullable field", comes back with an errors array, or nulls a whole branch; when designing mutations, cursor pagination, custom scalars, unions, or input types; when an Apollo, Relay, or urql cache will not update after a mutation; when subscriptions drop or never fire; when adding depth, alias, complexity, or persisted-query limits, disabling introspection, or masking errors; when a schema change breaks clients; or when composing Apollo Federation subgraphs and entity references. Not for consuming someone else''s GraphQL API (api) or for designing REST endpoints (rest-api).'
 homepage: https://clawic.com/skills/graphql
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 💠
@@ -23,9 +15,17 @@ metadata:
     displayName: GraphQL
     configPaths:
     - ~/Clawic/data/graphql/
+    - ~/graphql/
+    - ~/clawic/graphql/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/graphql/
+      - ~/graphql/
+      - ~/clawic/graphql/
 ---
 
-User preferences and memory live in `~/Clawic/data/graphql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/graphql/` or `~/clawic/graphql/`), move it to `~/Clawic/data/graphql/`.
+User preferences and memory live in `~/Clawic/data/graphql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/graphql/` or `~/clawic/graphql/`), move it to `~/Clawic/data/graphql/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

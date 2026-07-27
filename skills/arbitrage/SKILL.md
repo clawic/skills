@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/arbitrage/
     displayName: Arbitrage
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/arbitrage/
 ---
 
 ## When to Use

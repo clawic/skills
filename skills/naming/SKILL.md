@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/naming/
     displayName: Naming
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/naming/
 ---
 
 ## When to Use

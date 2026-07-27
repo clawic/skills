@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/brave/
     displayName: Brave Browser
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/brave/
 ---
 
 ## When to Use

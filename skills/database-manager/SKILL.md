@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/database-manager/
     displayName: Database Manager
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/database-manager/
 ---
 
 ## Setup

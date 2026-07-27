@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "aca863fbe362bc946f53dfcf6676e1f79d282422ca028db365734c9c6b845af2",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "6cb34bf602d515ee499cc55707e93f67fa5629d11521b78bfae6ded6029a9cff",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "journal",
     "name": "Journal",
     "description": "Runs a personal journaling practice: capturing entries, prompts for a blank page, weekly and yearly reviews, and patterns across years of writing. Use when the user wants to write, vent, dictate, or get something out of their head; when they ask for a prompt or say they are stuck; for morning pages, bullet journal, five-minute, interstitial, dream, travel, decision, or work journaling; for a weekly, monthly, or annual review; when they ask what they have been writing about, whether a mood or theme keeps recurring, or what they wrote a year ago; when the practice lapsed and they want to restart; when entries need naming, tagging, searching, encrypting, backing up, or migrating out of Day One, Notion, or an Obsidian vault; when writing through grief, anger, shame, or a decision that will not settle; or when a work journal must become performance-review evidence. Not for retrieval-oriented notes (`notes`), gratitude logging alone (`gratitude`), or live emotional support (`psychologist`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/journal",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/journal/config.yaml` (what the user declared) and `~/Clawic/data/journal/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its ",
     "repositoryPath": "skills/journal",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/journal/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/_meta.json",
-      "byteCount": 242,
-      "sha256": "c7f8254b3e77c3e033cd9e30a31cefe366bbc19c3fd65cbd3b8aef23197b1853"
+      "byteCount": 316,
+      "sha256": "97c80b1d3724f53c544715092805d04152cdd7f4a699b32341f3fd10d7fb8a40"
     },
     {
       "path": "capture.md",
@@ -54,8 +54,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/journal/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/memory-template.md",
-      "byteCount": 28220,
-      "sha256": "7cc2acc7534dfc9180af3733593326cc573366e04660058d5306636080b36a84"
+      "byteCount": 28450,
+      "sha256": "79b28a8dc8ac7d8c34668fcbdf1b4cd5e3885f7aa05e718d23f708d3ecb3e379"
     },
     {
       "path": "patterns.md",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/journal/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/journal/SKILL.md",
-      "byteCount": 27422,
-      "sha256": "b54d37e62f5f8cbed551e4e35c8dfe950ca499014d20e187652245127fa56939"
+      "byteCount": 28259,
+      "sha256": "f48cca887c2f39e96e11c00b85e2d95b93e3f9cca9fae5c859e49d010d0593a1"
     },
     {
       "path": "storage.md",

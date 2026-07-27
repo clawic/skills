@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/convex/
     displayName: Convex
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/convex/
 ---
 
 ## Setup

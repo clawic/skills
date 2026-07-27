@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/minecraft/
     displayName: Minecraft
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/minecraft/
 ---
 
 # Minecraft

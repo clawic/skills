@@ -2,18 +2,9 @@
 name: Redis
 slug: redis-store
 version: 1.0.1
-description: >-
-  Designs, tunes, and debugs Redis: data structures, memory limits, persistence, Streams and queues, locks, replication, and cluster.
-  Use when writing Redis commands or Lua, choosing between a hash, a sorted set and a stream, setting expirations on cache keys,
-  building a queue, distributed lock, rate limiter, leaderboard, session store or counter, or when Redis answers OOM, MISCONF,
-  CROSSSLOT, MOVED, BUSY, LOADING or WRONGTYPE, latency spikes, memory keeps growing, keys vanish early or never expire,
-  a replica lags or a failover loses writes, KEYS or a big DEL freezes the server, connections are refused, or a cluster reshard,
-  a Valkey / ElastiCache / MemoryDB / Upstash move, or a persistence and backup plan is on the table. Covers redis-cli forensics,
-  pipelining, eviction policies, keyspace notifications, ACLs and exposed-instance hardening,
-  and the JSON, Search and TimeSeries modules. Not for store-agnostic cache hierarchy strategy (caching) or picking a
-  rate-limit algorithm (rate-limiting).
+description: 'Designs, tunes, and debugs Redis: data structures, memory limits, persistence, Streams and queues, locks, replication, and cluster. Use when writing Redis commands or Lua, choosing between a hash, a sorted set and a stream, setting expirations on cache keys, building a queue, distributed lock, rate limiter, leaderboard, session store or counter, or when Redis answers OOM, MISCONF, CROSSSLOT, MOVED, BUSY, LOADING or WRONGTYPE, latency spikes, memory keeps growing, keys vanish early or never expire, a replica lags or a failover loses writes, KEYS or a big DEL freezes the server, connections are refused, or a cluster reshard, a Valkey / ElastiCache / MemoryDB / Upstash move, or a persistence and backup plan is on the table. Covers redis-cli forensics, pipelining, eviction policies, keyspace notifications, ACLs and exposed-instance hardening, and the JSON, Search and TimeSeries modules. Not for store-agnostic cache hierarchy strategy (caching) or picking a rate-limit algorithm (rate-limiting).'
 homepage: https://clawic.com/skills/redis-store
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🔴
@@ -27,9 +18,17 @@ metadata:
     displayName: Redis
     configPaths:
     - ~/Clawic/data/redis-store/
+    - ~/redis-store/
+    - ~/clawic/redis-store/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/redis-store/
+      - ~/redis-store/
+      - ~/clawic/redis-store/
 ---
 
-User preferences and memory live in `~/Clawic/data/redis-store/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/redis-store/` or `~/clawic/redis-store/`), move it to `~/Clawic/data/redis-store/`.
+User preferences and memory live in `~/Clawic/data/redis-store/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/redis-store/` or `~/clawic/redis-store/`), move it to `~/Clawic/data/redis-store/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

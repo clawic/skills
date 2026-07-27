@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "d82a048c9153d794df521f7d8c139d140f8ec3f60b587da7fe6ff835fd6f0c5c",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "9a4dbed50f553864c93cd2764db2b4ada63b675bdd2e80d0709eb2822dba984b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "linux",
     "name": "Linux",
     "description": "Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Also for setting up a fresh server, deciding what to alert on, backups whose restore has never been tested, a host that may be compromised, and desktop or laptop trouble — GPU drivers, Wayland, suspend, audio, Wi-Fi. Covers Debian/Ubuntu, RHEL/Fedora, Arch, Alpine, SUSE and WSL. Not for shell-script syntax (bash) or container build and runtime internals (docker).",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/linux",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/linux/config.yaml` (what the user declared) and `~/Clawic/data/linux/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/linux",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/linux/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/_meta.json",
-      "byteCount": 534,
-      "sha256": "51872d36cb474b254c436e8415934595ccbd34321a1df9b00a5d93536f090ef3"
+      "byteCount": 608,
+      "sha256": "0088239e410ba86188c1a3a7bedb559eeb433c1b04c097b5e10be723cd99e8b7"
     },
     {
       "path": "backups.md",
@@ -110,8 +110,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/linux/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/memory-template.md",
-      "byteCount": 24071,
-      "sha256": "9b71962d08752e0aa7d87d5c19ef5cb86f31c39528c48d4fa39c08a52ffca784"
+      "byteCount": 24301,
+      "sha256": "e8d955b644390d0c4a06520630d25901601a449b15d45a91ae39c5188cc9f2e4"
     },
     {
       "path": "monitoring.md",
@@ -180,8 +180,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/linux/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/linux/SKILL.md",
-      "byteCount": 28087,
-      "sha256": "4b7e49d9959acbea24d06da730a77a2ce4ccf72fa42296cb2e1c3d753cfd6abe"
+      "byteCount": 28903,
+      "sha256": "fd74ddc79c506e6e308c166f4ad2a53af3811d48e837e5119b30e8960fc1c86c"
     },
     {
       "path": "ssh.md",

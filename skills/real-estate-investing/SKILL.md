@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/real-estate-investing/
     displayName: Real Estate Investing
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/real-estate-investing/
 ---
 
 ## When to Use

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/task-list/
     displayName: Task List
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/task-list/
 ---
 
 ## Setup

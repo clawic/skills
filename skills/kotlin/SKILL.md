@@ -2,15 +2,8 @@
 name: Kotlin
 slug: kotlin
 version: 1.0.3
-changelog: "Display name shown correctly"
-description: >-
-  Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state.
-  Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows
-  exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on
-  rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the
-  Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting
-  Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring
-  or Ktor. Not for Java-only codebases or Android release/build-system configuration.
+changelog: Display name shown correctly
+description: 'Writes, debugs, and reviews Kotlin: coroutines and flows, null safety, collections, Java interop, and Compose state. Use when an NPE hits a non-null type, `!!` or a Java platform type blows up, a coroutine leaks, never cancels, or swallows exceptions, a StateFlow stops emitting or a SharedFlow drops events, a Compose screen recomposes too much or loses state on rotation, `equals`/`copy`/`==` behave unexpectedly, a `when` stops being exhaustive, kapt/KSP or JVM-target errors break the Gradle build, JSON puts null into a non-null property, a coroutine test hangs or passes only in isolation; also when porting Java to Kotlin, sharing code across Android/iOS/JVM, tuning allocation and inlining, or writing server-side Kotlin with Spring or Ktor. Not for Java-only codebases or Android release/build-system configuration.'
 homepage: https://clawic.com/skills/kotlin
 metadata:
   clawdbot:
@@ -25,9 +18,17 @@ metadata:
     displayName: Kotlin
     configPaths:
     - ~/Clawic/data/kotlin/
+    - ~/kotlin/
+    - ~/clawic/kotlin/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/kotlin/
+      - ~/kotlin/
+      - ~/clawic/kotlin/
 ---
 
-User preferences and memory live in `~/Clawic/data/kotlin/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/kotlin/` or `~/clawic/kotlin/`), move it to `~/Clawic/data/kotlin/`.
+User preferences and memory live in `~/Clawic/data/kotlin/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/kotlin/` or `~/clawic/kotlin/`), move it to `~/Clawic/data/kotlin/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

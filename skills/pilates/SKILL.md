@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/pilates/
     displayName: Pilates (Session Planner, Form Coach, Progress Tracker)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/pilates/
 ---
 
 ## When to Use

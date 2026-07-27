@@ -1,19 +1,10 @@
 ---
 name: Pricing
 slug: pricing
-version: 1.0.1
-description: >-
-  Sets, tests, and changes prices: value metric, tier packaging, discounts, price increases, and willingness-to-pay
-  research. Use when deciding what to charge for a new product, when nobody knows what it is worth, when a raise is
-  overdue but churn is feared, when every deal closes at a discount, when the free plan never converts, when a
-  competitor undercuts, when choosing per-seat versus usage-based versus flat, when designing a pricing page, when
-  quoting an enterprise deal or a day rate, when entering a new country or currency, or when setting a marketplace
-  take rate. Covers Van Westendorp and conjoint research, grandfathering, annual prepay maths, price tests, and
-  auto-renewal and price-display rules. Not for consumer buying decisions (`price`), indie launch sequencing and
-  revenue mix (`monetize`), building the billing system (`billing`), CAC and LTV decomposition (`unit-economics`),
-  or company financial models (`cfo`).
+version: 1.0.2
+description: 'Sets, tests, and changes prices: value metric, tier packaging, discounts, price increases, and willingness-to-pay research. Use when deciding what to charge for a new product, when nobody knows what it is worth, when a raise is overdue but churn is feared, when every deal closes at a discount, when the free plan never converts, when a competitor undercuts, when choosing per-seat versus usage-based versus flat, when designing a pricing page, when quoting an enterprise deal or a day rate, when entering a new country or currency, or when setting a marketplace take rate. Covers Van Westendorp and conjoint research, grandfathering, annual prepay maths, price tests, and auto-renewal and price-display rules. Not for consumer buying decisions (`price`), indie launch sequencing and revenue mix (`monetize`), building the billing system (`billing`), CAC and LTV decomposition (`unit-economics`), or company financial models (`cfo`).'
 homepage: https://clawic.com/skills/pricing
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💰
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/pricing/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/pricing/
+    - ~/clawic/pricing/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/pricing/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/pricing/
+      - ~/clawic/pricing/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/pricing/config.yaml` (what the user declared) and `~/Clawic/data/pricing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/pricing/price-book.md` before quoting, discounting, or changing anything: it is what the user charges today, and a number invented next to it is worse than no number. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/pricing/config.yaml` (what the user declared) and `~/Clawic/data/pricing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/pricing/price-book.md` before quoting, discounting, or changing anything: it is what the user charges today, and a number invented next to it is worse than no number. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a price set or changed; a discount granted outside policy; a competitor price observed with the date it was seen; a willingness-to-pay study and its range; a price test and what it decided; a packaging or value-metric decision and what was rejected; a cost or margin input that took work to establish; a grandfathered cohort and when it expires; or something the user will read again — a price book, a discount policy, a change plan, a rate card. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and projects go to the shared boxes**, not here. A customer, prospect, or interviewee named in a deal or a study goes to `~/Clawic/data/contacts/contacts.md`; a repricing run as a piece of work goes to `~/Clawic/data/projects/<project>.md`. Pricing rows reference them by name only — duplicating the person or the project is the most common way two skills start contradicting each other. Both formats, with their identity keys and scale cuts, travel inside `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted contract, billing export, or admin screenshot is dense in them. Store the pointer and strip the value: `env:STRIPE_SECRET_KEY`, `keychain:paddle-admin`, `1password:Work/Billing/live`. If data sits at an old location (`~/pricing/` or `~/clawic/pricing/`), move it to `~/Clawic/data/pricing/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted contract, billing export, or admin screenshot is dense in them. Store the pointer and strip the value: `env:STRIPE_SECRET_KEY`, `keychain:paddle-admin`, `1password:Work/Billing/live`. If data sits at an old location (`~/pricing/` or `~/clawic/pricing/`), move it to `~/Clawic/data/pricing/`, and say in one line that you moved it and from where.
 
 Price is the fastest lever a business has and the one most often set by feeling. Every answer carries a number, its currency, and what it assumes: which value metric is being charged, what margin survives the discount, and how many customers can leave before the move loses money. Work from defaults immediately: never open with questions about their model, their margin, or how aggressive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, locale, country) → the Configuration table default.
 

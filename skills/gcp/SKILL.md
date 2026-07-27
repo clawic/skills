@@ -1,19 +1,10 @@
 ---
 name: Google Cloud
 slug: gcp
-version: 1.0.1
-description: >-
-  Architects, debugs, secures, and cost-optimizes Google Cloud — Cloud Run, GKE, Compute Engine, BigQuery, Cloud
-  SQL, IAM, VPC. Use when deploying or reviewing anything on GCP, when a bill jumps or BigQuery scan cost has to
-  come down, when a 403 PERMISSION_DENIED, a SERVICE_DISABLED, a RESOURCE_EXHAUSTED quota error, a 502/503/504, or
-  an unreachable Cloud SQL instance has no obvious cause, when choosing between compute (Cloud Run, GKE, Cloud
-  Functions) or databases (Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable), when hardening service accounts, org
-  policies, firewall rules, public buckets, or secrets, when writing Terraform against the google provider, or
-  when auditing an inherited project. Covers VPC/subnet design, Private Google Access, Vertex AI/GPU quota,
-  Pub/Sub/Dataflow, backups/DR, and gcloud. Not for Kubernetes manifest authoring (`k8s`), Terraform language
-  mechanics (`terraform`), or PostgreSQL tuning inside Cloud SQL (`pg`).
+version: 1.0.2
+description: Architects, debugs, secures, and cost-optimizes Google Cloud — Cloud Run, GKE, Compute Engine, BigQuery, Cloud SQL, IAM, VPC. Use when deploying or reviewing anything on GCP, when a bill jumps or BigQuery scan cost has to come down, when a 403 PERMISSION_DENIED, a SERVICE_DISABLED, a RESOURCE_EXHAUSTED quota error, a 502/503/504, or an unreachable Cloud SQL instance has no obvious cause, when choosing between compute (Cloud Run, GKE, Cloud Functions) or databases (Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable), when hardening service accounts, org policies, firewall rules, public buckets, or secrets, when writing Terraform against the google provider, or when auditing an inherited project. Covers VPC/subnet design, Private Google Access, Vertex AI/GPU quota, Pub/Sub/Dataflow, backups/DR, and gcloud. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or PostgreSQL tuning inside Cloud SQL (`pg`).
 homepage: https://clawic.com/skills/gcp
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🌐
@@ -31,9 +22,19 @@ metadata:
     - ~/Clawic/data/domains/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/gcp/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/gcp/config.yaml` (what the user declared) and `~/Clawic/data/gcp/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/gcp/config.yaml` (what the user declared) and `~/Clawic/data/gcp/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a VM or cluster created, resized, discovered or retired; an inventory pass; a spend number or a saving; a budget or a billing export; a project and its owner; a quota that was raised; a service account and what it is for; a BigQuery dataset and its scan baseline; a DNS zone; a deploy or a timed restore drill; or something the user will want to read again — a runbook, an IAM policy that finally worked, an architecture decision. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

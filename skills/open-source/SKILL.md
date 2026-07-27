@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/open-source/
     displayName: Open Source
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/open-source/
 ---
 
 ## Setup

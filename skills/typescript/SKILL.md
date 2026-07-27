@@ -2,26 +2,26 @@
 name: TypeScript
 slug: typescript
 version: 1.0.5
-description: >-
-  Writes, reviews, and debugs type-safe TypeScript: type errors, narrowing, generics, tsconfig
-  strictness, and declaration files. Use when a build hits type errors ("not assignable",
-  "possibly undefined", "excessively deep", "cannot find module"), when eliminating any or
-  unchecked as casts, designing generics or discriminated unions, writing .d.ts files or typing
-  untyped npm packages, configuring tsconfig or module resolution, fixing ESM/CJS import
-  crashes ("ERR_REQUIRE_ESM", "x is not a function"), validating API or JSON data at runtime,
-  migrating JavaScript to TypeScript or upgrading the TypeScript version, or when tsc or the
-  editor gets slow or runs out of memory.
+description: 'Writes, reviews, and debugs type-safe TypeScript: type errors, narrowing, generics, tsconfig strictness, and declaration files. Use when a build hits type errors ("not assignable", "possibly undefined", "excessively deep", "cannot find module"), when eliminating any or unchecked as casts, designing generics or discriminated unions, writing .d.ts files or typing untyped npm packages, configuring tsconfig or module resolution, fixing ESM/CJS import crashes ("ERR_REQUIRE_ESM", "x is not a function"), validating API or JSON data at runtime, migrating JavaScript to TypeScript or upgrading the TypeScript version, or when tsc or the editor gets slow or runs out of memory.'
 homepage: https://clawic.com/skills/typescript
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🔷
     displayName: TypeScript
     configPaths:
     - ~/Clawic/data/typescript/
+    - ~/typescript/
+    - ~/clawic/typescript/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/typescript/
+      - ~/typescript/
+      - ~/clawic/typescript/
 ---
 
-User preferences and memory live in `~/Clawic/data/typescript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/typescript/` or `~/clawic/typescript/`), move it to `~/Clawic/data/typescript/`.
+User preferences and memory live in `~/Clawic/data/typescript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/typescript/` or `~/clawic/typescript/`), move it to `~/Clawic/data/typescript/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

@@ -4,16 +4,26 @@ slug: fitness
 version: 1.0.4
 description: Plans and progresses workout programs — strength, muscle building, cardio, endurance, and general conditioning — with quantified rules. Use when designing a training plan, routine, or split, choosing sets, reps, weights, or heart-rate zones, when a lift, pace, or the scale has plateaued, when sessions were missed or illness, injury, or travel interrupted training, when planning deloads, training at home or with minimal equipment, or reading training logs and wearable readiness data. Not for meal-level nutrition planning or rep-by-rep set logging.
 homepage: https://clawic.com/skills/fitness
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     displayName: Fitness
     emoji: 💪
     configPaths:
     - ~/Clawic/data/fitness/
+    - ~/Clawic/profile.yaml
+    - ~/fitness/
+    - ~/clawic/fitness/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/fitness/
+      - ~/Clawic/profile.yaml
+      - ~/fitness/
+      - ~/clawic/fitness/
 ---
 
-Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/fitness/` or `~/clawic/fitness/`), move it to `~/Clawic/data/fitness/`. Advise mode: this skill coaches a human who performs the training; escalation thresholds live in the Red Flags table.
+Training logs, preferences, and derived baselines (e1RMs, resting HR, attendance rate) persist in `~/Clawic/data/fitness/` as plain markdown (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/fitness/` or `~/clawic/fitness/`), move it to `~/Clawic/data/fitness/`, and say in one line that you moved it and from where. Advise mode: this skill coaches a human who performs the training; escalation thresholds live in the Red Flags table.
 
 ## Configuration
 

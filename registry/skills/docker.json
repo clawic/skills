@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "3f03787eab7e7be28dc4149b0ad358f9c91233b4c7401db86d64ca859d909a92",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "e85b1731c7bf7136935764cc6e8597c7c36caafc88a3e34baaac21373682b89a",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "docker",
     "name": "Docker",
     "description": "Builds, debugs, hardens, and ships Docker containers, images, and Compose stacks. Use when writing or reviewing a Dockerfile, a compose file, or a CI build step; when a container exits instantly, restart-loops, is OOM-killed, hangs on stop, or exits 137/139/127; when a published port is unreachable, containers cannot resolve each other, or requests hang behind a VPN; when the disk fills and `/var/lib/docker` will not prune; when a build is slow, the cache never hits, or fails only in CI; when `exec format error` or a musl-versus-glibc break is the problem; when choosing a base image or a multi-stage layout; when a registry login or pull rate limit fails; when a secret must stay out of image history; and when volumes need backup, restore or a permission fix. Covers Compose traps and Desktop/colima/OrbStack/Podman differences. Not for Kubernetes manifests or cluster scheduling (`k8s`).",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "homepage": "https://clawic.com/skills/docker",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/docker/config.yaml` (what the user declared) and `~/Clawic/data/docker/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/docker",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/docker/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/_meta.json",
-      "byteCount": 758,
-      "sha256": "56b333c1dcea6e2098cafc0f225bdde814a9a694015672135a38b21b19403c52"
+      "byteCount": 833,
+      "sha256": "83ec46b1b8817daa67f759d401a0a45ccb1cb412d9015069a7714ea47bba635f"
     },
     {
       "path": "ci.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/docker/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/memory-template.md",
-      "byteCount": 18216,
-      "sha256": "a0966069e031ca3858506059c3c60a6bb913c9a2b110dc475e05a0a35774482c"
+      "byteCount": 18446,
+      "sha256": "4db2c3b1a5d8cf5402c341b28fe573d5ce7c2960a426f7720d0603e4f7bbac8a"
     },
     {
       "path": "networking.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/docker/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/docker/SKILL.md",
-      "byteCount": 23519,
-      "sha256": "272e4ecd6586662602d733c14a4d403a5466d0052fd45276cf5f912596ac5550"
+      "byteCount": 24283,
+      "sha256": "1db285d7ae08ab082880cf2cb369fe96a0c8753486018485607f3ca8313daba8"
     },
     {
       "path": "storage.md",

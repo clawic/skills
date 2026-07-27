@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/google-reviews/
     displayName: Google Reviews
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/google-reviews/
 ---
 
 ## Setup

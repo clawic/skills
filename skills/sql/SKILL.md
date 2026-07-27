@@ -2,17 +2,9 @@
 name: SQL
 slug: sql
 version: 1.0.4
-description: >-
-  Writes, reviews, and optimizes SQL queries; designs schemas, indexes, and constraints; plans migrations for any relational database.
-  Use when a query is slow, EXPLAIN shows a sequential scan, or an index is ignored; when rows come back duplicated, missing, or with
-  inflated totals after a JOIN; on deadlocks, lock timeouts, "too many connections", or transactions that never commit; when designing
-  tables, keys, and column types, normalizing or denormalizing a model, or deciding between a JSON column and real columns; for ALTER
-  TABLE on a live table, expand-migrate-contract rollouts, backups and restores, replication lag, connection pooling, partitioning,
-  bulk CSV imports, and moving data between engines; for window functions, CTEs, keyset pagination, upserts, full-text search,
-  multi-tenancy, row-level security, and timezone handling in MySQL, SQLite, MariaDB, or SQL Server. Not for PostgreSQL server
-  internals such as vacuum tuning and work_mem sizing, and not for ORM schema modeling inside a framework.
+description: Writes, reviews, and optimizes SQL queries; designs schemas, indexes, and constraints; plans migrations for any relational database. Use when a query is slow, EXPLAIN shows a sequential scan, or an index is ignored; when rows come back duplicated, missing, or with inflated totals after a JOIN; on deadlocks, lock timeouts, "too many connections", or transactions that never commit; when designing tables, keys, and column types, normalizing or denormalizing a model, or deciding between a JSON column and real columns; for ALTER TABLE on a live table, expand-migrate-contract rollouts, backups and restores, replication lag, connection pooling, partitioning, bulk CSV imports, and moving data between engines; for window functions, CTEs, keyset pagination, upserts, full-text search, multi-tenancy, row-level security, and timezone handling in MySQL, SQLite, MariaDB, or SQL Server. Not for PostgreSQL server internals such as vacuum tuning and work_mem sizing, and not for ORM schema modeling inside a framework.
 homepage: https://clawic.com/skills/sql
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🗄️
@@ -29,9 +21,17 @@ metadata:
     displayName: SQL
     configPaths:
     - ~/Clawic/data/sql/
+    - ~/sql/
+    - ~/clawic/sql/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/sql/
+      - ~/sql/
+      - ~/clawic/sql/
 ---
 
-User preferences and memory live in `~/Clawic/data/sql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/sql/` or `~/clawic/sql/`), move it to `~/Clawic/data/sql/`.
+User preferences and memory live in `~/Clawic/data/sql/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/sql/` or `~/clawic/sql/`), move it to `~/Clawic/data/sql/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

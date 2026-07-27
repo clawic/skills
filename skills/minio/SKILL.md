@@ -20,6 +20,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/minio/
     displayName: MinIO S3 (Object Storage)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/minio/
 ---
 
 ## Setup

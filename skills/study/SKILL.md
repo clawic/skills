@@ -1,19 +1,10 @@
 ---
 name: Study
 slug: study
-version: 1.0.2
-description: >-
-  Runs a student's whole term: course load, weekly plan, lectures, notes, retrieval practice, coursework deadlines,
-  grades, and exams. Use when a syllabus, reading list, or semester has to become a weekly schedule; when an exam,
-  midterm, final, viva, or professional certification sits on a date; when revision is not sticking, rereading has
-  replaced recall, or a topic will not stay in memory; when review intervals, decks, or a past-paper plan need
-  designing; when assignments, problem sets, lab reports, essays, or a thesis stack up against deadlines; when
-  several courses compete for the same hours; when procrastination, cramming, or a missed week has to be recovered;
-  when a bad mark needs a post-mortem; or when the question is what to study first and for how long. Covers note
-  systems, study groups, tutors, open-book and adaptive tests, and exam-day tactics. Not for teaching a concept on
-  the spot (`learning`), self-teaching with no course or exam (`learn`), or authoring decks (`anki`).
+version: 1.0.3
+description: 'Runs a student''s whole term: course load, weekly plan, lectures, notes, retrieval practice, coursework deadlines, grades, and exams. Use when a syllabus, reading list, or semester has to become a weekly schedule; when an exam, midterm, final, viva, or professional certification sits on a date; when revision is not sticking, rereading has replaced recall, or a topic will not stay in memory; when review intervals, decks, or a past-paper plan need designing; when assignments, problem sets, lab reports, essays, or a thesis stack up against deadlines; when several courses compete for the same hours; when procrastination, cramming, or a missed week has to be recovered; when a bad mark needs a post-mortem; or when the question is what to study first and for how long. Covers note systems, study groups, tutors, open-book and adaptive tests, and exam-day tactics. Not for teaching a concept on the spot (`learning`), self-teaching with no course or exam (`learn`), or authoring decks (`anki`).'
 homepage: https://clawic.com/skills/study
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📚
@@ -27,9 +18,18 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/bookings/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/study/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/bookings/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/study/config.yaml` (what the user declared) and `~/Clawic/data/study/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/study/errors.md` before planning any session, review, or exam sprint: what this student got wrong is the curriculum (Rule 6). If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/study/config.yaml` (what the user declared) and `~/Clawic/data/study/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/study/errors.md` before planning any session, review, or exam sprint: what this student got wrong is the curriculum (Rule 6). If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a course, its exam date or its assessment weights; a topic that moved between `seen`, `recalled once`, `relearned`, `exam-ready`; a study block and what was retrieved in it; every miss and its cause; a mark and what it did to the running grade; a deck created or triaged; a source read or abandoned; a technique that worked or failed for this student; or something they will re-read — a formula sheet, a summary one-pager, an essay skeleton, a past-paper frequency table, a revision timetable that actually held, an exam post-mortem. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

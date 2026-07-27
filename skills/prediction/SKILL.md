@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/prediction/
     displayName: Prediction
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/prediction/
 ---
 
 ## When to Use

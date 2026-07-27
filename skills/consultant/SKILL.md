@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/consultant/
     displayName: Consultant
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/consultant/
 ---
 
 ## Setup

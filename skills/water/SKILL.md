@@ -2,27 +2,26 @@
 name: Water Tracker
 slug: water
 version: 1.0.4
-description: >-
-  Tracks daily water intake from casual mentions and sets hydration targets
-  from weight, exercise, heat, and health context. Use when the user logs a
-  drink ("had a glass", "finished my bottle"), asks how much water they should
-  drink or whether they drink enough, reports thirst, dark urine, dry mouth,
-  cramps, or a headache that could be dehydration, plans fluid or electrolyte
-  replacement for workouts, races, sauna, hiking, flights, or hot weather, or
-  needs rehydration guidance during fever, vomiting, diarrhea, or a hangover,
-  or asks whether tap, bottled, filtered, mineral, or sparkling water is safe
-  or better. Not for meal or calorie logging.
+description: Tracks daily water intake from casual mentions and sets hydration targets from weight, exercise, heat, and health context. Use when the user logs a drink ("had a glass", "finished my bottle"), asks how much water they should drink or whether they drink enough, reports thirst, dark urine, dry mouth, cramps, or a headache that could be dehydration, plans fluid or electrolyte replacement for workouts, races, sauna, hiking, flights, or hot weather, or needs rehydration guidance during fever, vomiting, diarrhea, or a hangover, or asks whether tap, bottled, filtered, mineral, or sparkling water is safe or better. Not for meal or calorie logging.
 homepage: https://clawic.com/skills/water
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
-    emoji: "💧"
+    emoji: 💧
     displayName: Water Tracker
     configPaths:
     - ~/Clawic/data/water/
+    - ~/water/
+    - ~/clawic/water/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/water/
+      - ~/water/
+      - ~/clawic/water/
 ---
 
-Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared preferences); this skill reads and writes only that folder. Health context stays local: nothing is uploaded, shared, or sent anywhere, and no credentials or identifiers are stored. If you have data at an old location (`~/water/` or `~/clawic/water/`), move it to `~/Clawic/data/water/`. First use: read `setup.md`; file formats in `memory-template.md`.
+Hydration tracking and advice from conversational mentions. All persistent data lives in `~/Clawic/data/water/` — `log.md` (daily entries), `memory.md` (learned containers, baseline, patterns), `config.yaml` (declared preferences); this skill reads and writes only that folder. Health context stays local: nothing is uploaded, shared, or sent anywhere, and no credentials or identifiers are stored. If you have data at an old location (`~/water/` or `~/clawic/water/`), move it to `~/Clawic/data/water/`, and say in one line that you moved it and from where. First use: read `setup.md`; file formats in `memory-template.md`.
 
 ## When To Use
 

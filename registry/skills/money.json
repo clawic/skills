@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "8c427f4353bc60bfbe939c26663e6f6380199167ddbd8f668b3a8cd2a8d4d8bf",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "725f6b1072f4aaae3b97c076f2d79349bc3ca9d732cbf7273bebebc1765534e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "money",
     "name": "Money",
     "description": "Decides where money goes next: which debt to clear first, how big the emergency fund must be, what to save, and whether a purchase is affordable. Use when the question is \"should I pay this off or invest it\", \"how much do I need saved\", \"can I afford this\", \"rent or buy\", \"am I on track to stop working\", or \"where does my money even go\"; when a raise, bonus, inheritance, equity vest or business sale lands and nobody has decided what to do with it; when a card is at 20% and only minimums are going out; when a job ends, a diagnosis arrives, a marriage ends, or income suddenly swings; when a credit score drops or a loan is refused; or when judging a pitch, an adviser's fee, or a \"guaranteed\" return. Covers savings rate, order of operations, real-versus-nominal maths, and fee drag. Not for picking funds or brokers (`invest`), building a tracker or importing statements (`personal-finance-tracker`), a recurring-payment list (`subscriptions`), or company finance (`cfo`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/money",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/money/config.yaml` (what the user declared) and `~/Clawic/data/money/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/money",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/money/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/_meta.json",
-      "byteCount": 238,
-      "sha256": "2577c5614de616c4e754b3cabb93addc5815e883b9958a1384ea268b4eeda545"
+      "byteCount": 312,
+      "sha256": "a4cd5a92335be8d7d98f77893c0ebf3f3c76b9590466950edbeada517ee144a3"
     },
     {
       "path": "big-purchases.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/money/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/memory-template.md",
-      "byteCount": 22870,
-      "sha256": "da785045a90f9b4ac39caf1c7546010d944cf0a773bff7904abd54d00457f6c4"
+      "byteCount": 23100,
+      "sha256": "828b870121b9dc9daa2be5da1e3f16b7ba51bf729db3b077f881e8e5d8c3392f"
     },
     {
       "path": "retirement.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/money/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/money/SKILL.md",
-      "byteCount": 26279,
-      "sha256": "7acc895a795844df779398ddc8cd9638df6e03d0e90a876da0ea4ed8797fb0e9"
+      "byteCount": 26973,
+      "sha256": "1de2ea7e1f6a99645eebcba2473fef59d101baffb3789286a8007cbec726617b"
     },
     {
       "path": "taxes.md",

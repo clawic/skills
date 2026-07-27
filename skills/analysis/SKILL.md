@@ -1,20 +1,10 @@
 ---
 name: Analysis
 slug: analysis
-version: 1.0.1
-description: >-
-  Audits an AI agent's own setup — workspace, config, memory, skills, jobs, integrations — and reports what is
-  broken, exposed, or wasteful. Use when asked to check the system, run a health check, or diagnose the setup,
-  or when something feels off or the agent got slow or expensive; when a token, key, or .env may be exposed in
-  a file, config, or git history; when permissions or auto-approve rules look too broad; when a scheduled job
-  stops firing, runs twice, or fails silently; when sessions or subagents pile up or loop; when memory files
-  bloat, go stale, contradict, or fall out of their index; when skills collide, never activate, or point at
-  missing files; when an integration returns 401 or 429 or goes quiet; when token spend or context size jumps;
-  and when the same finding keeps coming back. Not for vetting third-party skill code (`skill-audit`),
-  workspace persona and proactivity tuning (`openclaw-workspace`), application monitoring (`monitoring`), or
-  statistical analysis of a dataset.
+version: 1.0.2
+description: Audits an AI agent's own setup — workspace, config, memory, skills, jobs, integrations — and reports what is broken, exposed, or wasteful. Use when asked to check the system, run a health check, or diagnose the setup, or when something feels off or the agent got slow or expensive; when a token, key, or .env may be exposed in a file, config, or git history; when permissions or auto-approve rules look too broad; when a scheduled job stops firing, runs twice, or fails silently; when sessions or subagents pile up or loop; when memory files bloat, go stale, contradict, or fall out of their index; when skills collide, never activate, or point at missing files; when an integration returns 401 or 429 or goes quiet; when token spend or context size jumps; and when the same finding keeps coming back. Not for vetting third-party skill code (`skill-audit`), workspace persona and proactivity tuning (`openclaw-workspace`), application monitoring (`monitoring`), or statistical analysis of a dataset.
 homepage: https://clawic.com/skills/analysis
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🔍
@@ -29,15 +19,29 @@ metadata:
     - ~/Clawic/data/devices/
     - ~/Clawic/data/finances/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/analysis/
+    - ~/clawic/analysis/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/analysis/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/analysis/
+      - ~/clawic/analysis/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/analysis/config.yaml` (what the user declared) and `~/Clawic/data/analysis/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. `## Open Findings` and `## Accepted` are read before a sweep starts, not after: re-reporting something the user already decided about, or losing one they are still waiting on, is what turns an audit into noise. Read `~/Clawic/data/servers/servers.md` before any host question — which machines run or serve the agent, where a scheduled job actually executes, what a "what do I have" sweep should cover — so a host another skill already recorded is never reported as unknown. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/analysis/config.yaml` (what the user declared) and `~/Clawic/data/analysis/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. `## Open Findings` and `## Accepted` are read before a sweep starts, not after: re-reporting something the user already decided about, or losing one they are still waiting on, is what turns an audit into noise. Read `~/Clawic/data/servers/servers.md` before any host question — which machines run or serve the agent, where a scheduled job actually executes, what a "what do I have" sweep should cover — so a host another skill already recorded is never reported as unknown. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a run and its counts; a finding opened, fixed, or accepted with its review date; where a credential lives, what kind it is, and when it expires (the pointer, never the value); a component of the setup discovered — a scheduled job, an integration, a workspace path, a machine; a measured baseline (always-loaded size, monthly spend, p95 latency); or something the user will re-read — an incident write-up, a remediation runbook, a health report meant for a human. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Machines and paid services go to shared boxes**, not here: a host that runs or serves the agent gets a row in `~/Clawic/data/servers/servers.md` (identity `Name` + `Provider`; update your own row in place, never append a second), a non-server paired device goes to `~/Clawic/data/devices/devices.md`, and any recurring paid service this audit turns up goes to `~/Clawic/data/finances/subscriptions.md` with its amount and currency. Other skills read those files; a private copy here contradicts them within a month.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved, and least of all inside a finding that quotes the line where the secret was found. Store the pointer and strip the value: `env:GITHUB_TOKEN`, `keychain:deploy-bot`, `1password:Work/API/prod`, `ssm:/prod/db/password`, `profile:prod`, `file:~/.ssh/id_ed25519`. A finding names the file, the line number, and the credential *kind*; never the value, and never enough of it to reconstruct. If data sits at an old location (`~/analysis/` or `~/clawic/analysis/`), move it to `~/Clawic/data/analysis/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved, and least of all inside a finding that quotes the line where the secret was found. Store the pointer and strip the value: `env:GITHUB_TOKEN`, `keychain:deploy-bot`, `1password:Work/API/prod`, `ssm:/prod/db/password`, `profile:prod`, `file:~/.ssh/id_ed25519`. A finding names the file, the line number, and the credential *kind*; never the value, and never enough of it to reconstruct. If data sits at an old location (`~/analysis/` or `~/clawic/analysis/`), move it to `~/Clawic/data/analysis/`, and say in one line that you moved it and from where.
 
 An audit is worth its tokens only if it changes what happens next. Every finding carries the evidence that produced it, a severity from the rubric, and exactly one action; a finding with no action is dropped, not downgraded. Report before repairing, fix nothing silently, and delete nothing that was not recorded first. Work from defaults immediately: never open with questions about their setup, their thresholds, or how aggressive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone, currency) → the Configuration table default.
 

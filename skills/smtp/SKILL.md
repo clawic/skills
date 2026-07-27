@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/smtp/
     displayName: SMTP
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/smtp/
 ---
 
 ## When to Use

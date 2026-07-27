@@ -18,6 +18,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/skill-finder/
     displayName: Skill Finder (Find Clawic skills + Search Skills.sh)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/skill-finder/
 ---
 
 ## When to Use

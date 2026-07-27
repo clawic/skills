@@ -1,19 +1,10 @@
 ---
 name: Android
 slug: android
-version: 1.0.2
-description: >-
-  Builds, debugs, ships, and hardens Android apps: Gradle, Jetpack Compose, XML Views, ADB, and the Play release
-  path. Use when a Gradle build fails or a dependency resolves to the wrong version, an APK will not install, or
-  `adb` cannot see the device; when the app crashes, ANRs, leaks, or works on the emulator but not on a real phone;
-  when Compose recomposes too much, state resets on rotation, or a list janks; when WorkManager never runs, an alarm
-  is throttled, or a foreground service crashes at start; when a runtime permission is denied silently, scoped
-  storage blocks a file, or Play rejects a declaration; when raising targetSdk changes behavior; when signing, R8
-  keep rules, bundle size, staged rollout, or Android vitals are the problem; also Room migrations, deep links,
-  emulators, foldables, and CI builds. Not for Kotlin language mechanics (`kotlin`), store-listing ASO
-  (`google-play-store`), or cross-platform frameworks (`flutter`, `react-native`).
+version: 1.0.3
+description: 'Builds, debugs, ships, and hardens Android apps: Gradle, Jetpack Compose, XML Views, ADB, and the Play release path. Use when a Gradle build fails or a dependency resolves to the wrong version, an APK will not install, or `adb` cannot see the device; when the app crashes, ANRs, leaks, or works on the emulator but not on a real phone; when Compose recomposes too much, state resets on rotation, or a list janks; when WorkManager never runs, an alarm is throttled, or a foreground service crashes at start; when a runtime permission is denied silently, scoped storage blocks a file, or Play rejects a declaration; when raising targetSdk changes behavior; when signing, R8 keep rules, bundle size, staged rollout, or Android vitals are the problem; also Room migrations, deep links, emulators, foldables, and CI builds. Not for Kotlin language mechanics (`kotlin`), store-listing ASO (`google-play-store`), or cross-platform frameworks (`flutter`, `react-native`).'
 homepage: https://clawic.com/skills/android
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🤖
@@ -31,15 +22,28 @@ metadata:
     - ~/Clawic/data/devices/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/android/
+    - ~/clawic/android/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/android/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/android/
+      - ~/clawic/android/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/android/config.yaml` (what the user declared) and `~/Clawic/data/android/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/devices/devices.md` before proposing a device test, an emulator image, or a minSdk change. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/android/config.yaml` (what the user declared) and `~/Clawic/data/android/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/devices/devices.md` before proposing a device test, an emulator image, or a minSdk change. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a release and its rollout; a toolchain version set that finally aligned (AGP, Gradle, JDK, Kotlin, Compose BOM); a build or runtime failure whose cause was not obvious; a test device or emulator profile; a module added or removed; a measured number (cold start, bundle size, crash-free rate, build time); a permission or policy declaration submitted to Play; or something the user will re-read — a keep-rule set, a runbook, an architecture decision, a targetSdk migration plan. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Test devices and emulators go to the shared inventory `~/Clawic/data/devices/devices.md`**, not here: one file holds every machine the user owns, so "which of my phones is on API 30" answers itself whichever skill wrote the row. The app itself, when the user treats it as a piece of work with a goal and a status, goes to `~/Clawic/data/projects/<project>.md`; a client who owns an app is a row in `~/Clawic/data/contacts/contacts.md` and only a name here. Formats and protocols travel with this skill, in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved, and logcat output, `gradle.properties` and `local.properties` are exactly the pastes that carry one. Store the pointer and strip the value: `keychain:android-upload-key`, `env:PLAY_SERVICE_ACCOUNT_JSON`, `1password:Work/Android/keystore`, `file:~/keystores/upload.jks`. If data sits at an old location (`~/android/` or `~/clawic/android/`), move it to `~/Clawic/data/android/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved, and logcat output, `gradle.properties` and `local.properties` are exactly the pastes that carry one. Store the pointer and strip the value: `keychain:android-upload-key`, `env:PLAY_SERVICE_ACCOUNT_JSON`, `1password:Work/Android/keystore`, `file:~/keystores/upload.jks`. If data sits at an old location (`~/android/` or `~/clawic/android/`), move it to `~/Clawic/data/android/`, and say in one line that you moved it and from where.
 
 Every Android problem belongs to exactly one of four layers: the **build** (Gradle produced the wrong artifact or none), the **install** (the device rejected the artifact), the **runtime** (the app misbehaves on a device), or the **store** (Play rejected, throttled, or flagged it). Name the layer before proposing a fix — the same symptom means different things in each, and the file to open is decided by the layer, not by the feature. Work from defaults immediately: never open with questions about their toolkit, their modules, or how proactive to be. The one exception to silence is `target_sdk` — while it is unset, state which API level you are assuming before generating manifest or Gradle code (Rule 3). That is a statement, not a question. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals) → the Configuration table default.
 

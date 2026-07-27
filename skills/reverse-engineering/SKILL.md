@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/reverse-engineering/
     displayName: Reverse Engineering
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/reverse-engineering/
 ---
 
 ## When to Use

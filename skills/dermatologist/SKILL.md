@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/dermatologist/
     displayName: Dermatologist
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/dermatologist/
 ---
 
 ## When to Use

@@ -2,24 +2,26 @@
 name: Plan
 slug: plan
 version: 1.0.3
-description: >-
-  Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to
-  risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps,
-  dependencies, or irreversible actions (deploys, migrations, deletions, sending anything
-  external), when success criteria are unclear or an estimate would be a guess, when
-  execution drifts off plan or a one-shot attempt failed, when resuming or handing off
-  multi-day work, or when the user asks to plan, scope, break down, or estimate a task.
-  Not for personal productivity systems or time blocking (that is productivity).
+description: 'Plans tasks before execution: decides when to plan vs act directly, sizes plan depth to risk, and structures steps, estimates, and rollbacks. Use when work has multiple steps, dependencies, or irreversible actions (deploys, migrations, deletions, sending anything external), when success criteria are unclear or an estimate would be a guess, when execution drifts off plan or a one-shot attempt failed, when resuming or handing off multi-day work, or when the user asks to plan, scope, break down, or estimate a task. Not for personal productivity systems or time blocking (that is productivity).'
 homepage: https://clawic.com/skills/plan
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🗺️
     displayName: Plan
-    configPaths: ["~/Clawic/data/plan/"]
+    configPaths:
+    - ~/Clawic/data/plan/
+    - ~/plan/
+    - ~/clawic/plan/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/plan/
+      - ~/plan/
+      - ~/clawic/plan/
 ---
 
-User preferences, the outcome log, and active plans live in `~/Clawic/data/plan/` (see `setup.md` on first use). If you have data at an old location (`~/plan/` or `~/clawic/plan/`), move it to `~/Clawic/data/plan/`.
+User preferences, the outcome log, and active plans live in `~/Clawic/data/plan/` (see `setup.md` on first use). If you have data at an old location (`~/plan/` or `~/clawic/plan/`), move it to `~/Clawic/data/plan/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

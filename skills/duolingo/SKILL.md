@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/duolingo/
     displayName: Duolingo Learning OS
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/duolingo/
 ---
 
 ## Setup

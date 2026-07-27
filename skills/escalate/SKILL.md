@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/escalate/
     displayName: Escalate
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/escalate/
 ---
 
 ## Architecture

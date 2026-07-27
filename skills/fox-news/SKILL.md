@@ -23,6 +23,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/fox-news/
     displayName: Fox News Monitor
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/fox-news/
 ---
 
 ## Setup

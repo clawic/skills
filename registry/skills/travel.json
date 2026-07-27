@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "c7580310be31fce0a89245b1214f5f060717a6c3c94773537fec279e0460528e",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "de0c209585e2edfc04289f0ce320105109f4b3336d3016c2ffc9722e45dcf85d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "travel",
     "name": "Travel",
     "description": "Runs a traveler's standing system: dream list, passports and visas, Schengen day counts, bookings, points, budgets, and what broke last time. Use when someone names a destination they want to visit someday, when a passport, visa, ETA, or entry rule has to be checked before dates are fixed, when counting days already spent in a visa-limited region, when a reservation or cancellation deadline needs recording, when a flight is cancelled or delayed, a bag goes missing, a passport is stolen or a claim has to be filed, when deciding which destination to take next against a season and a budget, when travelling with children, a group, elderly parents or a pet, when a stay runs past a month or needs per-diem handling, or when points or elite status are about to expire. Not for building one trip's day-by-day itinerary (`travel-planning`), fare search (`flight`), accommodation search (`booking`), rental cars (`car-rental`), or moving abroad for good (`expat`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/travel",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/travel/config.yaml` (what the user declared) and `~/Clawic/data/travel/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/travel",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/travel/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/_meta.json",
-      "byteCount": 240,
-      "sha256": "220d7eb55c4a000b60d3737dead7ab65b05b55283298e43ee88418deb597aacc"
+      "byteCount": 314,
+      "sha256": "570ff24c4724b21047664a29b049ffd1d2ed518931ea6df095f83ec482e37304"
     },
     {
       "path": "bookings.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/travel/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/memory-template.md",
-      "byteCount": 25881,
-      "sha256": "02184b25e237e42cab1e51b98ec8d44973e7199d4218a673a8f38c8ad8b3a114"
+      "byteCount": 26111,
+      "sha256": "2f0deabdf19008e6fee04d67b092c557662bc86d1d3660f80adbb80e3132adaf"
     },
     {
       "path": "money.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/travel/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/travel/SKILL.md",
-      "byteCount": 26790,
-      "sha256": "bdec476c3e0f733b9f6d2c431d0f3909238434d444bc87319b0f4cd2b930ba4c"
+      "byteCount": 27485,
+      "sha256": "0607e888621f650be36e935334156b6bd08325247bdfe7a6dff84a1d84fd55c4"
     },
     {
       "path": "transport.md",

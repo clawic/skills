@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/home-server/
     displayName: Home Server
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/home-server/
 ---
 
 ## Setup

@@ -1,19 +1,10 @@
 ---
 name: Fastmail API
 slug: fastmail-api
-version: 1.0.1
-description: >-
-  Drives the Fastmail JMAP API for mail, search, bulk triage, sending, masked email, contacts, and calendars. Use
-  when the user mentions Fastmail, JMAP, api.fastmail.com, or a Fastmail API token; when a JMAP call returns 401,
-  403, `unknownCapability`, `invalidResultReference`, `stateMismatch`, or a
-  `notCreated`/`notUpdated`/`notDestroyed` map; when thousands of messages have to be searched, archived, moved,
-  flagged, or deleted without touching the wrong mailbox; when a draft has to be sent from an alias, identity, or
-  custom domain; when a masked email address has to be created, disabled, or audited; when contacts or calendar
-  events are read or written through JMAP; when an incremental sync or push subscription has to keep a local
-  mirror current; or when a mailbox is being migrated in or out. Not for IMAP clients (`imap`), SMTP delivery
-  (`smtp`), inbox triage as a habit (`inbox`, `email-management`), or Apple Mail on macOS (`apple-mail-macos`).
+version: 1.0.2
+description: Drives the Fastmail JMAP API for mail, search, bulk triage, sending, masked email, contacts, and calendars. Use when the user mentions Fastmail, JMAP, api.fastmail.com, or a Fastmail API token; when a JMAP call returns 401, 403, `unknownCapability`, `invalidResultReference`, `stateMismatch`, or a `notCreated`/`notUpdated`/`notDestroyed` map; when thousands of messages have to be searched, archived, moved, flagged, or deleted without touching the wrong mailbox; when a draft has to be sent from an alias, identity, or custom domain; when a masked email address has to be created, disabled, or audited; when contacts or calendar events are read or written through JMAP; when an incremental sync or push subscription has to keep a local mirror current; or when a mailbox is being migrated in or out. Not for IMAP clients (`imap`), SMTP delivery (`smtp`), inbox triage as a habit (`inbox`, `email-management`), or Apple Mail on macOS (`apple-mail-macos`).
 homepage: https://clawic.com/skills/fastmail-api
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📬
@@ -34,9 +25,19 @@ metadata:
     - ~/Clawic/data/domains/
     - ~/Clawic/data/bookings/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/fastmail-api/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/bookings/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/fastmail-api/config.yaml` (what the user declared) and `~/Clawic/data/fastmail-api/memory.md` (what you observed — its `## Boxes` index, its `## Due` table, the account, mailbox and identity maps, and the stored sync state). Open any file `## Boxes` names when the condition on its line applies; the index is the list of files, never a fixed set you can assume. Read it before the first JMAP call: the ids it holds are what keeps a write off the wrong account. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/fastmail-api/config.yaml` (what the user declared) and `~/Clawic/data/fastmail-api/memory.md` (what you observed — its `## Boxes` index, its `## Due` table, the account, mailbox and identity maps, and the stored sync state). Open any file `## Boxes` names when the condition on its line applies; the index is the list of files, never a fixed set you can assume. Read it before the first JMAP call: the ids it holds are what keeps a write off the wrong account. If none of it exists, work from defaults and say nothing about it. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: an account, mailbox, identity, addressbook or calendar id resolved; a filter that took iterating to get right; a bulk write and what it touched; a masked address issued or disabled; a sync state string; a person, sending domain, reservation or paid service that belongs in a shared box; or something the user will want to read again — a working procedure, a migration plan, a rollback note. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

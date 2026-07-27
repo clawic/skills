@@ -1,19 +1,10 @@
 ---
 name: AWS | Amazon Web Services
 slug: aws
-version: 1.0.6
-description: >-
-  Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront.
-  Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied,
-  throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda,
-  Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or
-  secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a
-  service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design,
-  NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO
-  profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest
-  authoring (`k8s`), or Terraform language mechanics (`terraform`).
+version: 1.0.7
+description: Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront. Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied, throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda, Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design, NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest authoring (`k8s`), or Terraform language mechanics (`terraform`).
 homepage: https://clawic.com/skills/aws
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ☁️
@@ -35,9 +26,16 @@ metadata:
     configPaths:
     - ~/Clawic/data/aws/
     - ~/Clawic/data/servers/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/aws/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/aws/config.yaml` (what the user declared) and `~/Clawic/data/aws/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/aws/config.yaml` (what the user declared) and `~/Clawic/data/aws/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a host created, resized, discovered or retired; an inventory pass; a spend number or a saving; a budget or alert; an account and its owner; a deploy or a timed DR drill; or something the user will want to read again — a runbook, a policy that finally worked, an architecture decision. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

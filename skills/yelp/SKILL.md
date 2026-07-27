@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/yelp/
     displayName: Yelp
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/yelp/
 ---
 
 ## When to Use

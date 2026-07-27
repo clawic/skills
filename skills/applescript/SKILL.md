@@ -16,6 +16,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/applescript/
     displayName: AppleScript
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/applescript/
 ---
 
 ## Setup

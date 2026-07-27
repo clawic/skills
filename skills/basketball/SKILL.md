@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/basketball/
     displayName: Basketball
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/basketball/
 ---
 
 ## When to Use

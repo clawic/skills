@@ -1,19 +1,10 @@
 ---
 name: Learn
 slug: learn
-version: 1.0.3
-description: >-
-  Runs self-directed learning as a system: a curriculum with an exit test, deliberate practice, spaced review, and
-  proof it transferred. Use when someone is teaching themselves a skill or subject with no course and no exam — a
-  language, an instrument, a programming language, a new field at work; when they ask how to learn X, what to learn
-  first, or how long it will honestly take; when months of tutorials produced nothing they can build; when material
-  learned earlier is gone, reviews pile up, or the queue gets skipped for weeks; when progress stalls on a plateau,
-  motivation collapses, or a skill goes rusty after a lapse; when practice feels productive but nothing transfers to
-  real work; when an AI answers so fast that nothing is being learned at all; and when a plan, review schedule, error
-  log, or mastery record has to survive across sessions. Not for teaching a concept in the moment (`learning`),
-  exam and coursework planning (`studying`), or authoring decks (`anki`, `flashcards`).
+version: 1.0.4
+description: 'Runs self-directed learning as a system: a curriculum with an exit test, deliberate practice, spaced review, and proof it transferred. Use when someone is teaching themselves a skill or subject with no course and no exam — a language, an instrument, a programming language, a new field at work; when they ask how to learn X, what to learn first, or how long it will honestly take; when months of tutorials produced nothing they can build; when material learned earlier is gone, reviews pile up, or the queue gets skipped for weeks; when progress stalls on a plateau, motivation collapses, or a skill goes rusty after a lapse; when practice feels productive but nothing transfers to real work; when an AI answers so fast that nothing is being learned at all; and when a plan, review schedule, error log, or mastery record has to survive across sessions. Not for teaching a concept in the moment (`learning`), exam and coursework planning (`studying`), or authoring decks (`anki`, `flashcards`).'
 homepage: https://clawic.com/skills/learn
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🎓
@@ -27,9 +18,22 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/learn/
+    - ~/clawic/learn/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/learn/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/learn/
+      - ~/clawic/learn/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/learn/config.yaml` (what the learner declared) and `~/Clawic/data/learn/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. State any overdue row in one line before starting work. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/learn/` or `~/clawic/learn/`), move it to `~/Clawic/data/learn/`.
+**Data.** At the start of every session, read `~/Clawic/data/learn/config.yaml` (what the learner declared) and `~/Clawic/data/learn/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. State any overdue row in one line before starting work. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/learn/` or `~/clawic/learn/`), move it to `~/Clawic/data/learn/`, and say in one line that you moved it and from where.
 
 **Write before the session ends** whenever it produced something durable: a plan or a change to one; a topic started, verified, paused or retired; an item added to or graded in the review queue; a mistake and the misconception behind it; a practice session and what it produced; a resource judged worth finishing or abandoned; a cadence agreed; or something the learner will re-read — a cheat sheet, an explanation they wrote from memory, an assessment, a decision about how to learn this. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

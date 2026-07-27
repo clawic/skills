@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/her/
     displayName: Her
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/her/
 ---
 
 ## When to Use

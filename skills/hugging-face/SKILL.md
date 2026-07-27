@@ -23,6 +23,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/hugging-face/
     displayName: Hugging Face
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/hugging-face/
 ---
 
 ## Setup

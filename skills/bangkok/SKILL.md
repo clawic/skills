@@ -2,17 +2,9 @@
 name: Bangkok
 slug: bangkok
 version: 1.0.4
-description: >-
-  Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport,
-  street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an
-  itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR),
-  riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and
-  overstay fines, teaching English, finding tech work, setting up a company, buying a condo,
-  choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and
-  shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases — use
-  the thailand skill for those.
+description: 'Plans Bangkok trips, relocations, and nomad stays: neighborhoods, visas, costs, transport, street food, and Thai law. Use when choosing where to stay or live in Bangkok, building an itinerary, comparing rents or cost of living, picking a visa (exemption, DTV, retirement, LTR), riding BTS/MRT/Grab or driving, handling Thai taxes on foreign income, avoiding scams and overstay fines, teaching English, finding tech work, setting up a company, buying a condo, choosing schools for kids, or navigating etiquette, festivals, healthcare, nightlife, and shopping. Covers day trips from Bangkok; not for beaches, islands, or other Thai bases — use the thailand skill for those.'
 homepage: https://clawic.com/skills/bangkok
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🏯
@@ -25,9 +17,17 @@ metadata:
     displayName: Bangkok
     configPaths:
     - ~/Clawic/data/bangkok/
+    - ~/bangkok/
+    - ~/clawic/bangkok/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/bangkok/
+      - ~/bangkok/
+      - ~/clawic/bangkok/
 ---
 
-User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences — see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/clawic/bangkok/`), move it to `~/Clawic/data/bangkok/`.
+User preferences and memory live in `~/Clawic/data/bangkok/` (`config.yaml` for declared preferences — see Configuration; `memory.md` for what the agent observes). If you have data at an old location (`~/bangkok/` or `~/clawic/bangkok/`), move it to `~/Clawic/data/bangkok/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

@@ -2,19 +2,9 @@
 name: CEO / Chief Executive Officer
 slug: ceo
 version: 1.1.6
-description: >-
-  Acts as chief executive (CEO): company strategy, capital allocation, board and investor
-  management, executive hiring, and crisis calls. Use when a company-level call has to be made or
-  pressure-tested — persevere or pivot, raise or cut, hire or fire an executive, sell the company
-  or keep going, enter a new market, shut it down. Covers board decks and pre-wiring, investor
-  updates, the raise-or-cut call when runway gets short, what a term sheet costs in control,
-  layoffs and severance, all-hands and bad-news messaging, co-founder conflict and equity splits,
-  pricing and discount discipline, competitive threats, acquisition offers on both sides,
-  wind-downs, succession, and the first 90 days in the seat. Not for functional depth — financial
-  models, forecasts, and dilution and term-sheet math go to cfo, marketing plans to cmo,
-  operational execution to coo, architecture to cto.
+description: 'Acts as chief executive (CEO): company strategy, capital allocation, board and investor management, executive hiring, and crisis calls. Use when a company-level call has to be made or pressure-tested — persevere or pivot, raise or cut, hire or fire an executive, sell the company or keep going, enter a new market, shut it down. Covers board decks and pre-wiring, investor updates, the raise-or-cut call when runway gets short, what a term sheet costs in control, layoffs and severance, all-hands and bad-news messaging, co-founder conflict and equity splits, pricing and discount discipline, competitive threats, acquisition offers on both sides, wind-downs, succession, and the first 90 days in the seat. Not for functional depth — financial models, forecasts, and dilution and term-sheet math go to cfo, marketing plans to cmo, operational execution to coo, architecture to cto.'
 homepage: https://clawic.com/skills/ceo
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 👔
@@ -25,9 +15,17 @@ metadata:
     displayName: CEO / Chief Executive Officer
     configPaths:
     - ~/Clawic/data/ceo/
+    - ~/ceo/
+    - ~/clawic/ceo/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/ceo/
+      - ~/ceo/
+      - ~/clawic/ceo/
 ---
 
-User preferences, company context, and memory live in `~/Clawic/data/ceo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/ceo/` or `~/clawic/ceo/`), move it to `~/Clawic/data/ceo/`.
+User preferences, company context, and memory live in `~/Clawic/data/ceo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/ceo/` or `~/clawic/ceo/`), move it to `~/Clawic/data/ceo/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

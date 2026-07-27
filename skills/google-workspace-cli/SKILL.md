@@ -2,18 +2,17 @@
 name: Google Workspace CLI
 slug: google-workspace-cli
 version: 1.0.3
-description: >-
-  Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs.
-  Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK — bulk mail search and send, file sharing and export,
-  event, user, and group management — when a Google API call fails with 403, invalid_grant, quota errors, or empty results,
-  or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.
+description: 'Automates Google Workspace from the terminal with the gws CLI: search, send, upload, export, share, and administer 20+ Google APIs. Use when driving Gmail, Drive, Calendar, Sheets, Docs, or the Admin SDK — bulk mail search and send, file sharing and export, event, user, and group management — when a Google API call fails with 403, invalid_grant, quota errors, or empty results, or when exposing Workspace operations as MCP tools. Not for Google Cloud infrastructure (gcloud) or local macOS mail and calendar apps.'
 homepage: https://clawic.com/skills/google-workspace-cli
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
-    emoji: "🗂️"
+    emoji: 🗂️
     configPaths:
     - ~/Clawic/data/google-workspace-cli/
+    - ~/Clawic/profile.yaml
+    - ~/google-workspace-cli/
+    - ~/clawic/google-workspace-cli/
     requires:
       bins:
       - gws
@@ -33,9 +32,16 @@ metadata:
     - linux
     - win32
     displayName: Google Workspace CLI
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/google-workspace-cli/
+      - ~/Clawic/profile.yaml
+      - ~/google-workspace-cli/
+      - ~/clawic/google-workspace-cli/
 ---
 
-All persistent data for this skill lives in `~/Clawic/data/google-workspace-cli/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/google-workspace-cli/` or `~/clawic/google-workspace-cli/`), move it to `~/Clawic/data/google-workspace-cli/`. Credential artifacts live in `~/.config/gws/` and are managed by `gws` itself — never by this skill.
+All persistent data for this skill lives in `~/Clawic/data/google-workspace-cli/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/google-workspace-cli/` or `~/clawic/google-workspace-cli/`), move it to `~/Clawic/data/google-workspace-cli/`, and say in one line that you moved it and from where. Credential artifacts live in `~/.config/gws/` and are managed by `gws` itself — never by this skill.
 
 ## When To Use
 

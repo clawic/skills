@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/parking/
     displayName: Parking Radar
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/parking/
 ---
 
 ## When to Use

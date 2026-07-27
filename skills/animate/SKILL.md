@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/animate/
     displayName: Animate
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/animate/
 ---
 
 ## When to Use

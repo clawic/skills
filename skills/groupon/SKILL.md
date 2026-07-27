@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/groupon/
     displayName: Groupon
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/groupon/
 ---
 
 ## When to Use

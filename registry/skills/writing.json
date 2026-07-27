@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "667ccecc02018447a0fbb80cddfe123004f3d978a0dcb5dd8c2863836da23eb9",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "428bbae8eff4990ada68cbd54cedd7a85886cca303ac437858eed3a5498a6e71",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "writing",
     "name": "Writing",
     "description": "Drafts, edits, and rewrites prose in the user's own voice — emails, posts, essays, memos, proposals, social copy. Use when asked to write, draft, edit, tighten, shorten, rewrite, or proofread something; when a draft reads flat, wordy, robotic, or \"not like me\"; when a piece will not start, a sentence will not come out right, or the ending trails off; when an email has to deliver bad news, say no, chase a reply, or make an ask that lands; when a post needs a hook, a headline, or a cut to fit a limit; when order, transitions, or paragraph structure are the real problem; when writing in a second language, or matching a house style, spelling variant, or word count. Learns and reuses their voice across sessions. Not for grammar-only fixes (`grammar`), sales copy (`copywriting`), book manuscripts (`book-writing`), journal papers (`academic-writing`), narrative craft (`storytelling`), versioned draft-and-audit workflows (`write`), or inbox triage and follow-ups (`email-management`).",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "homepage": "https://clawic.com/skills/writing",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/writing/config.yaml` (what the user declared) and `~/Clawic/data/writing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/writing",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/writing/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/_meta.json",
-      "byteCount": 316,
-      "sha256": "1c58d68c5e44a4952ef625bbb23991a71e1692644a6496edb1daab186c019791"
+      "byteCount": 390,
+      "sha256": "96fc9ba694f7c225e61811e8d011536904f51fe01677e430e0b1f23f171f58fd"
     },
     {
       "path": "clarity.md",
@@ -61,8 +61,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/writing/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/memory-template.md",
-      "byteCount": 20724,
-      "sha256": "0665d42d224de7bb1212140e97a47a6bfa624f862657e8b8aca97f7630e889ac"
+      "byteCount": 20954,
+      "sha256": "1216377775b58f6774f2fb73966f59cd24cb358676bcb30cf8a5feed33ec546b"
     },
     {
       "path": "posts.md",
@@ -89,8 +89,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/writing/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/writing/SKILL.md",
-      "byteCount": 25776,
-      "sha256": "8a068b23aa155515e3e492a515ffc96cac93d835dab90667e3a838226e5154f5"
+      "byteCount": 26411,
+      "sha256": "a12c26808e755499b071db241cdfb9e1d24f9c77f96e0d496743c9827a083473"
     },
     {
       "path": "social.md",

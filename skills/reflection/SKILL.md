@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/reflection/
     displayName: Self Reflection
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/reflection/
 ---
 
 Agents repeat mistakes. Not because they're incapable — because they forget. This skill changes that. Your agent pauses before delivering, catches its own blind spots, and remembers lessons for next time.

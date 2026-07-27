@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "05341776416e7c605c5a550486e86ebf7d1a872ea15c431e2b3cf65da2200803",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "bc15f38f4e90441664e14a065b8a432ed6c775300e30ac4837f7ab48979beed5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "azure",
     "name": "Azure",
     "description": "Architects, debugs, secures, and cost-optimizes Azure — VMs, App Service, Functions, AKS, Azure SQL, Cosmos DB, Entra ID, VNets, Storage. Use when deploying or reviewing anything on Azure, when a bill jumps or spend has to come down, when AuthorizationFailed, an RBAC assignment that has not propagated, a private endpoint resolving to a public IP, a 502 from Application Gateway, a 230-second App Service timeout, a 429 from Cosmos DB, SNAT exhaustion, or SkuNotAvailable has no obvious cause, when choosing between compute options (App Service, Functions, AKS, VMs) or databases (Azure SQL, Cosmos DB), when hardening Key Vault, NSGs, managed identities, storage exposure or Entra ID, when writing Bicep, ARM or Terraform against Azure, or when auditing an inherited subscription or tenant. Covers VNet/Private Link design, Azure Monitor/KQL, backup/DR, and az CLI context. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or SQL query tuning (`sql`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/azure",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/azure/config.yaml` (what the user declared) and `~/Clawic/data/azure/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/azure",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/azure/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/_meta.json",
-      "byteCount": 238,
-      "sha256": "54a9442ee40e37cb0c5edbb98ffc9acb2a606d8b70d6a90e566caeae1f032205"
+      "byteCount": 312,
+      "sha256": "708330772b3630007395eb7a95ca93b6506a1498a8e70714e74f2a1dcf9bfe57"
     },
     {
       "path": "appservice.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/azure/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/memory-template.md",
-      "byteCount": 23057,
-      "sha256": "71ae99a25af66f719b66d7386cf2df6c148f48fed28457df3d46538373c35be9"
+      "byteCount": 23287,
+      "sha256": "7f0c685f78d7534aa6f734037cfcf39398f9d3bb035d69427c8d8dcb4d5c3d86"
     },
     {
       "path": "migration.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/azure/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/azure/SKILL.md",
-      "byteCount": 34209,
-      "sha256": "934e20b453a0bfe7d78d33cbad502ac5923c6874defd17bd1ddfd9516eb38464"
+      "byteCount": 34896,
+      "sha256": "e7716c90dab7aa673b57bb804d7bd00f73d8e0773014001dfe3a3f7e5c65bbb7"
     },
     {
       "path": "storage.md",

@@ -2,16 +2,8 @@
 name: Java
 slug: java
 version: 1.0.3
-changelog: "Display name shown correctly"
-description: >-
-  Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades.
-  Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError,
-  UnsupportedClassVersionError or OutOfMemoryError, when a service deadlocks, hangs, burns CPU, or leaks memory, when equals/hashCode,
-  Optional, generics, streams, or CompletableFuture misbehave, when dates shift or text turns into question marks, when Maven or Gradle
-  resolves the wrong version or a fat jar fails only after packaging, when @Transactional does not roll back or an entity throws
-  LazyInitializationException, when tests silently do not run, or when moving from Java 8 to 17/21+ and javax became jakarta.
-  Also for choosing collections, sizing heap in containers, thread dumps, profiling, JDBC connection pools, HTTP timeouts, and logging setup.
-  Not for Kotlin, Android app development, or JavaScript.
+changelog: Display name shown correctly
+description: 'Writes, debugs, and tunes Java and the JVM: nulls, equality, collections, generics, concurrency, streams, memory, builds, and upgrades. Use when Java throws NullPointerException, ClassCastException, ConcurrentModificationException, NoClassDefFoundError, NoSuchMethodError, UnsupportedClassVersionError or OutOfMemoryError, when a service deadlocks, hangs, burns CPU, or leaks memory, when equals/hashCode, Optional, generics, streams, or CompletableFuture misbehave, when dates shift or text turns into question marks, when Maven or Gradle resolves the wrong version or a fat jar fails only after packaging, when @Transactional does not roll back or an entity throws LazyInitializationException, when tests silently do not run, or when moving from Java 8 to 17/21+ and javax became jakarta. Also for choosing collections, sizing heap in containers, thread dumps, profiling, JDBC connection pools, HTTP timeouts, and logging setup. Not for Kotlin, Android app development, or JavaScript.'
 homepage: https://clawic.com/skills/java
 metadata:
   clawdbot:
@@ -27,9 +19,19 @@ metadata:
     displayName: Java
     configPaths:
     - ~/Clawic/data/java/
+    - ~/Clawic/profile.yaml
+    - ~/java/
+    - ~/clawic/java/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/java/
+      - ~/Clawic/profile.yaml
+      - ~/java/
+      - ~/clawic/java/
 ---
 
-User preferences and memory live in `~/Clawic/data/java/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/java/` or `~/clawic/java/`), move it to `~/Clawic/data/java/`.
+User preferences and memory live in `~/Clawic/data/java/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/java/` or `~/clawic/java/`), move it to `~/Clawic/data/java/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

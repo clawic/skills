@@ -1,19 +1,10 @@
 ---
 name: Salesforce API Integration
 slug: salesforce-api-integration
-version: 1.0.2
-description: >-
-  Calls the Salesforce REST, Bulk, Composite, and Metadata APIs: SOQL, record CRUD, upserts, OAuth, sync, and
-  error handling. Use when querying, loading, exporting or syncing Salesforce data, when writing SOQL or SOSL
-  against Account, Contact, Opportunity, Lead, Case or a `__c` custom object, when a call returns
-  INVALID_SESSION_ID, MALFORMED_QUERY, INVALID_FIELD, REQUEST_LIMIT_EXCEEDED, UNABLE_TO_LOCK_ROW, or
-  DUPLICATES_DETECTED, when importing tens of thousands of records or migrating from another CRM, when setting up
-  server-to-server auth with a Connected App, JWT bearer or refresh token, when keeping an external database in
-  step through Change Data Capture or Platform Events, or when calling a custom Apex REST endpoint or invoking a
-  Flow. Covers sandboxes, API versioning, external IDs, and field-level security. Not for designing a personal CRM
-  (`crm`), generic third-party API mechanics (`api`), or authoring Apex code.
+version: 1.0.3
+description: 'Calls the Salesforce REST, Bulk, Composite, and Metadata APIs: SOQL, record CRUD, upserts, OAuth, sync, and error handling. Use when querying, loading, exporting or syncing Salesforce data, when writing SOQL or SOSL against Account, Contact, Opportunity, Lead, Case or a `__c` custom object, when a call returns INVALID_SESSION_ID, MALFORMED_QUERY, INVALID_FIELD, REQUEST_LIMIT_EXCEEDED, UNABLE_TO_LOCK_ROW, or DUPLICATES_DETECTED, when importing tens of thousands of records or migrating from another CRM, when setting up server-to-server auth with a Connected App, JWT bearer or refresh token, when keeping an external database in step through Change Data Capture or Platform Events, or when calling a custom Apex REST endpoint or invoking a Flow. Covers sandboxes, API versioning, external IDs, and field-level security. Not for designing a personal CRM (`crm`), generic third-party API mechanics (`api`), or authoring Apex code.'
 homepage: https://clawic.com/skills/salesforce-api-integration
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ☁️
@@ -32,9 +23,22 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/salesforce-api-integration/
+    - ~/clawic/salesforce-api-integration/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/salesforce-api-integration/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/salesforce-api-integration/
+      - ~/clawic/salesforce-api-integration/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/salesforce-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/salesforce-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. If none of it exists, work from defaults and say nothing about it. If you have data at an old location (`~/salesforce-api-integration/`), move it to `~/Clawic/data/salesforce-api-integration/`.
+**Data.** At the start of every session, read `~/Clawic/data/salesforce-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/salesforce-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. If none of it exists, work from defaults and say nothing about it. If you have data at an old location (`~/salesforce-api-integration/`), move it to `~/Clawic/data/salesforce-api-integration/`, and say in one line that you moved it and from where.
 
 **Write before the session ends** whenever it produced something durable: an org connected or its instance URL changed; an object described or a custom field discovered; a SOQL query or report id worth reusing; a bulk load, migration or metadata deploy that ran; an error whose cause took work to find; an observed API allocation or storage number; or something the user will want to read again — an integration design, a field mapping, a runbook. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

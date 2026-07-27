@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/glovo/
     displayName: Glovo
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/glovo/
 ---
 
 ## When to Use

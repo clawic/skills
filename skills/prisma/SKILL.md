@@ -2,10 +2,9 @@
 name: Prisma
 slug: prisma
 version: 1.0.2
-description: >-
-  Designs Prisma schemas, writes type-safe queries, and fixes migrations, connection pools, and N+1 relation loads in Node and TypeScript. Use when editing schema.prisma, modeling relations, indexes, enums, JSON or Decimal columns, or choosing between db push, migrate dev and migrate deploy; when a migration drifts, fails, or would drop a column on rename, or a database needs baselining; on errors P2002, P2025, P2024, P2034 or P3009; when connections run out on Lambda, Vercel or behind PgBouncer; when queries are slow or include loads too much; on transaction timeouts, deadlocks and optimistic locking; when Decimal or BigInt break JSON.stringify; for $queryRaw and TypedSQL; when porting $use middleware to client extensions; when prisma generate fails in Docker, Alpine or CI; and for seeding and test isolation. Not for database-server tuning or hand-written SQL (pg, sql), or other ORMs.
+description: Designs Prisma schemas, writes type-safe queries, and fixes migrations, connection pools, and N+1 relation loads in Node and TypeScript. Use when editing schema.prisma, modeling relations, indexes, enums, JSON or Decimal columns, or choosing between db push, migrate dev and migrate deploy; when a migration drifts, fails, or would drop a column on rename, or a database needs baselining; on errors P2002, P2025, P2024, P2034 or P3009; when connections run out on Lambda, Vercel or behind PgBouncer; when queries are slow or include loads too much; on transaction timeouts, deadlocks and optimistic locking; when Decimal or BigInt break JSON.stringify; for $queryRaw and TypedSQL; when porting $use middleware to client extensions; when prisma generate fails in Docker, Alpine or CI; and for seeding and test isolation. Not for database-server tuning or hand-written SQL (pg, sql), or other ORMs.
 homepage: https://clawic.com/skills/prisma
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🔺
@@ -19,9 +18,17 @@ metadata:
     displayName: Prisma
     configPaths:
     - ~/Clawic/data/prisma/
+    - ~/prisma/
+    - ~/clawic/prisma/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/prisma/
+      - ~/prisma/
+      - ~/clawic/prisma/
 ---
 
-User preferences and memory live in `~/Clawic/data/prisma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/prisma/` or `~/clawic/prisma/`), move it to `~/Clawic/data/prisma/`.
+User preferences and memory live in `~/Clawic/data/prisma/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/prisma/` or `~/clawic/prisma/`), move it to `~/Clawic/data/prisma/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

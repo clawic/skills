@@ -1,19 +1,10 @@
 ---
 name: Cooking
 slug: cooking
-version: 1.0.1
-description: >-
-  Cooks and rescues real dishes at the stove: heat control, seasoning, doneness, timing, substitutions, and
-  food safety. Use when a dish is bland, too salty, burnt, tough, dry, watery, rubbery, greasy, or gummy;
-  when a sauce breaks, splits, curdles, or will not thicken; when meat, fish, eggs, rice, pasta, beans,
-  bread, or a cake come out wrong; when adapting a recipe for a missing ingredient, a different pan, an air
-  fryer, altitude, or a doubled batch; when asking what temperature something is done at, how long to rest
-  it, how much salt, or whether leftovers are still safe; when searing, braising, roasting, frying,
-  grilling, baking, fermenting, or curing; or when ordering the work so a whole meal lands hot at once. Not
-  for weekly menus and shopping lists (`meal-planner`, `grocery`), recipe collections and recipe
-  walkthroughs (`recipe`, `chef`), calorie or macro counting (`calories`), or micronutrients (`nutrition`).
+version: 1.0.2
+description: 'Cooks and rescues real dishes at the stove: heat control, seasoning, doneness, timing, substitutions, and food safety. Use when a dish is bland, too salty, burnt, tough, dry, watery, rubbery, greasy, or gummy; when a sauce breaks, splits, curdles, or will not thicken; when meat, fish, eggs, rice, pasta, beans, bread, or a cake come out wrong; when adapting a recipe for a missing ingredient, a different pan, an air fryer, altitude, or a doubled batch; when asking what temperature something is done at, how long to rest it, how much salt, or whether leftovers are still safe; when searing, braising, roasting, frying, grilling, baking, fermenting, or curing; or when ordering the work so a whole meal lands hot at once. Not for weekly menus and shopping lists (`meal-planner`, `grocery`), recipe collections and recipe walkthroughs (`recipe`, `chef`), calorie or macro counting (`calories`), or micronutrients (`nutrition`).'
 homepage: https://clawic.com/skills/cooking
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🍳
@@ -26,9 +17,21 @@ metadata:
     - ~/Clawic/data/cooking/
     - ~/Clawic/data/health/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/cooking/
+    - ~/clawic/cooking/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cooking/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/cooking/
+      - ~/clawic/cooking/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/cooking/config.yaml` (what the user declared) and `~/Clawic/data/cooking/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read the shared health box `~/Clawic/data/health/profile.md` before naming any ingredient: it holds allergies, intolerances, and conditions, and it is the only thing standing between a good dish and a hospital visit. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/cooking/config.yaml` (what the user declared) and `~/Clawic/data/cooking/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read the shared health box `~/Clawic/data/health/profile.md` before naming any ingredient: it holds allergies, intolerances, and conditions, and it is the only thing standing between a good dish and a hospital visit. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a dish cooked and how it came out; a swap that worked or failed; a fact about this kitchen that cost effort to learn (oven offset, hob behavior, pan sizes, which salt is in the jar); an allergy or intolerance; a ferment, cure, or starter with its dates; a technique that finally clicked, or one that keeps failing; or something the user will read again — a recipe as they actually cook it, a dinner run-sheet, a brine or spice formula. `memory-template.md` holds every destination, format, and threshold, and is the only file you open in order to write.
 
@@ -36,7 +39,7 @@ metadata:
 
 **People you cook for go to the shared box `~/Clawic/data/contacts/contacts.md`** by name, with their food constraint in the `Context` column; identity is the `Key` column (lowercase email, else handle, else kebab-name plus a stable disambiguator). Never duplicate a person inside a cooking file — a guest's allergy stored in two places is a guest's allergy that will disagree with itself.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. If a pasted appliance config, delivery-account export, or note carries a login or token, replace the value with its pointer before writing and say in one line that you did: `keychain:smart-oven`, `env:GROCERY_API_TOKEN`, `1password:Personal/Delivery`, `file:~/exports/recipes.json`. If data sits at an old location (`~/cooking/` or `~/clawic/cooking/`), move it to `~/Clawic/data/cooking/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. If a pasted appliance config, delivery-account export, or note carries a login or token, replace the value with its pointer before writing and say in one line that you did: `keychain:smart-oven`, `env:GROCERY_API_TOKEN`, `1password:Personal/Delivery`, `file:~/exports/recipes.json`. If data sits at an old location (`~/cooking/` or `~/clawic/cooking/`), move it to `~/Clawic/data/cooking/`, and say in one line that you moved it and from where.
 
 Almost every failed dish is one of five variables: **heat, time, salt, moisture, or fat**. Name which one before proposing a fix, and give the number — the temperature, the percentage, the minutes — not the adjective. Recipes are somebody else's kitchen written down; the doneness cue, the ratio, and the thermometer are what transfer. Work from defaults immediately: never open with questions about their skill level, their equipment, or their diet. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: units, locale) → the Configuration table default.
 

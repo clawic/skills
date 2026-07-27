@@ -57,7 +57,7 @@ Preference areas to record as the user reveals them:
 └── projects/          # Per-project learnings
 ```
 
-See `memory-template.md` for the file formats. If you have data at an old location (`~/nextjs/` or `~/clawic/nextjs/`), move it to `~/Clawic/data/nextjs/`.
+See `memory-template.md` for the file formats. If you have data at an old location (`~/nextjs/` or `~/clawic/nextjs/`), move it to `~/Clawic/data/nextjs/`, and say in one line that you moved it and from where.
 
 ## Quick Reference
 

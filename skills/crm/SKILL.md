@@ -1,19 +1,10 @@
 ---
 name: CRM
 slug: crm
-version: 1.0.1
-description: >-
-  Runs a CRM: contacts, companies, deals, pipeline stages, follow-ups, and the data hygiene that keeps it usable.
-  Use when setting up, rescuing, or operating a CRM (personal, freelance, sales, donor, or job-search); when the
-  pipeline needs review, a deal has gone quiet, a forecast has to be defended, or who has not been contacted in
-  months; when contacts are duplicated, bouncing, or out of date; when importing/exporting a CSV of leads, or
-  migrating between plain files, Notion, HubSpot, or Salesforce; when choosing which CRM to use, or why nobody
-  updates the current one; when defining stages, fields, tags, lead scoring, or win/loss reasons; when logging a
-  call or email for later; and when a deletion, unsubscribe, or do-not-contact request has to be honored. Not for
-  address-book upkeep and birthdays (`people`), delivering the client work itself (`clients`), outreach campaigns
-  (`outreach`), sourcing candidates (`recruiter`), or support tickets (`customer-support`).
+version: 1.0.2
+description: 'Runs a CRM: contacts, companies, deals, pipeline stages, follow-ups, and the data hygiene that keeps it usable. Use when setting up, rescuing, or operating a CRM (personal, freelance, sales, donor, or job-search); when the pipeline needs review, a deal has gone quiet, a forecast has to be defended, or who has not been contacted in months; when contacts are duplicated, bouncing, or out of date; when importing/exporting a CSV of leads, or migrating between plain files, Notion, HubSpot, or Salesforce; when choosing which CRM to use, or why nobody updates the current one; when defining stages, fields, tags, lead scoring, or win/loss reasons; when logging a call or email for later; and when a deletion, unsubscribe, or do-not-contact request has to be honored. Not for address-book upkeep and birthdays (`people`), delivering the client work itself (`clients`), outreach campaigns (`outreach`), sourcing candidates (`recruiter`), or support tickets (`customer-support`).'
 homepage: https://clawic.com/skills/crm
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🤝
@@ -26,9 +17,17 @@ metadata:
     - ~/Clawic/data/crm/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/crm/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/crm/config.yaml` (what the user declared) and `~/Clawic/data/crm/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/crm/do-not-contact.md` before naming anyone to contact, and `~/Clawic/data/contacts/contacts.md` before adding a person or answering "who do I know at X". If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/crm/config.yaml` (what the user declared) and `~/Clawic/data/crm/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/crm/do-not-contact.md` before naming anyone to contact, and `~/Clawic/data/contacts/contacts.md` before adding a person or answering "who do I know at X". If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a person met, a deal opened, moved, won or lost; an interaction worth finding again; a next step and its date; a stage set, a field decided, a tool chosen; a dedupe or import pass; a suppression request; or something the user will want to read again — a qualification scorecard, a win/loss teardown, an ICP definition, an import mapping. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

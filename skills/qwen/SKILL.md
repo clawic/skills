@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/qwen/
     displayName: Qwen
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/qwen/
 ---
 
 ## When to Use

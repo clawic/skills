@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/tencent/
     displayName: Tencent
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/tencent/
 ---
 
 ## When to Use

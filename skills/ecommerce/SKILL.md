@@ -1,20 +1,10 @@
 ---
 name: Ecommerce
 slug: ecommerce
-version: 1.0.1
-description: >-
-  Runs an online store end to end: catalog, checkout, payments, inventory, fulfillment, returns, pricing,
-  conversion, retention, and tax. Use when building or reviewing store code — checkout totals, webhooks, stock
-  decrements; when a payment double-charges, a webhook replays, or an order is paid but missing in the store;
-  when stock oversells across channels or a reorder point is missing; when carts abandon, conversion drops, or
-  AOV has to rise; when a discount or free-shipping threshold might sell below cost; when chargebacks, refund
-  abuse, or fraud rules need setting; when choosing or migrating a platform or adding a marketplace; when
-  VAT/OSS, sales-tax nexus, or a 14-day withdrawal window applies; and for peak season, subscriptions, and
-  wholesale terms. Not for parcel carrier depth (skill `shipping`), payment-provider integration code
-  (skill `payments`), CRO method (skill `conversion-rate-optimization`), SaaS pricing (skill `pricing`), or
-  a physical shop (skill `store`).
+version: 1.0.2
+description: 'Runs an online store end to end: catalog, checkout, payments, inventory, fulfillment, returns, pricing, conversion, retention, and tax. Use when building or reviewing store code — checkout totals, webhooks, stock decrements; when a payment double-charges, a webhook replays, or an order is paid but missing in the store; when stock oversells across channels or a reorder point is missing; when carts abandon, conversion drops, or AOV has to rise; when a discount or free-shipping threshold might sell below cost; when chargebacks, refund abuse, or fraud rules need setting; when choosing or migrating a platform or adding a marketplace; when VAT/OSS, sales-tax nexus, or a 14-day withdrawal window applies; and for peak season, subscriptions, and wholesale terms. Not for parcel carrier depth (skill `shipping`), payment-provider integration code (skill `payments`), CRO method (skill `conversion-rate-optimization`), SaaS pricing (skill `pricing`), or a physical shop (skill `store`).'
 homepage: https://clawic.com/skills/ecommerce
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🛒
@@ -30,15 +20,30 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/domains/
     - ~/Clawic/data/servers/
+    - ~/Clawic/profile.yaml
+    - ~/ecommerce/
+    - ~/clawic/ecommerce/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/ecommerce/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/profile.yaml
+      - ~/ecommerce/
+      - ~/clawic/ecommerce/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/ecommerce/config.yaml` (what the user declared) and `~/Clawic/data/ecommerce/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before naming a supplier, 3PL, agency, or wholesale account; `~/Clawic/data/finances/subscriptions.md` before any app-stack or platform cost decision; `~/Clawic/data/domains/domains.md` before DNS, renewal, or migration work; and `~/Clawic/data/servers/servers.md` when the store is self-hosted. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/ecommerce/config.yaml` (what the user declared) and `~/Clawic/data/ecommerce/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before naming a supplier, 3PL, agency, or wholesale account; `~/Clawic/data/finances/subscriptions.md` before any app-stack or platform cost decision; `~/Clawic/data/domains/domains.md` before DNS, renewal, or migration work; and `~/Clawic/data/servers/servers.md` when the store is self-hosted. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a store fact (platform, processor, market, tax registration); a channel and its fee stack; a monthly metric or a margin figure; a supplier and its lead time; an experiment, a promotion, a dispute, or an incident with its outcome; or something the user will re-read — a runbook, a policy that finally worked, a tracking plan, a migration or redirect map, a peak retro. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and money go to shared boxes**, not here: suppliers, 3PL contacts, agencies and wholesale accounts to `~/Clawic/data/contacts/contacts.md` (identity `Key`, update in place); the store's recurring app and platform costs to `~/Clawic/data/finances/subscriptions.md`; a replatform or a launch to `~/Clawic/data/projects/<project>.md`; the store domain and its expiry to `~/Clawic/data/domains/domains.md`. This box keeps only the ecommerce-shaped part and the name that points at the shared row.
 
-**No credential and no customer identity is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:STRIPE_SECRET_KEY`, `keychain:shopify-admin`, `1password:Store/Amazon/SP-API`. Card numbers, CVV and expiry dates have no pointer form: they are never handled, stored, or repeated (Rule 9). If data sits at an old location (`~/ecommerce/` or `~/clawic/ecommerce/`), move it to `~/Clawic/data/ecommerce/`.
+**No credential and no customer identity is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:STRIPE_SECRET_KEY`, `keychain:shopify-admin`, `1password:Store/Amazon/SP-API`. Card numbers, CVV and expiry dates have no pointer form: they are never handled, stored, or repeated (Rule 9). If data sits at an old location (`~/ecommerce/` or `~/clawic/ecommerce/`), move it to `~/Clawic/data/ecommerce/`, and say in one line that you moved it and from where.
 
 A store is one pipe: traffic → cart → paid order → shipped parcel → kept revenue. Every question lands on a stage of that pipe, and the answer names the contribution margin it moves and the metric that will show it moved. Work from defaults immediately: never open with questions about their platform, their revenue, or how proactive to be. Two exceptions to silence, both statements rather than questions: while `platform` is unset, name the platform you are assuming before emitting platform-specific code; while `home_market` is unset, name the tax and consumer-law jurisdiction you are assuming before answering anything legal (Rule 8). Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, locale, country) → the Configuration table default.
 

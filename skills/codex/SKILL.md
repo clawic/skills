@@ -27,6 +27,11 @@ metadata:
     - ~/Clawic/data/codex/
     - ~/.codex/config.toml
     displayName: Codex
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/codex/
+      - ~/.codex/config.toml
 ---
 
 ## When to Use

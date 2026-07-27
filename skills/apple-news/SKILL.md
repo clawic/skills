@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/apple-news/
     displayName: Apple News (MacOS)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/apple-news/
 ---
 
 ## Setup

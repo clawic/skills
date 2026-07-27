@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "9557863cef44f890b795480e464d8d11f294f9b06a8486c70a412dcff9dbb203",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "f886cb6549a34da0248606bb2a2e23c0621fe35cc9d00c68db0b27cbf1b6591d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "json",
     "name": "JSON",
     "description": "Parses, validates, transforms, and designs JSON payloads that survive real parsers, real clients, and real data sizes. Use when a parse fails at a byte offset or on a trailing comma, an id or an amount loses precision, accents and emoji come back as mojibake, a field is null when it should be absent, duplicate keys silently win, a JSON Schema passes what it should reject or a `$ref` will not resolve, a multi-gigabyte file will not fit in memory, a jq, JMESPath, or JSONPath expression returns nothing, two documents must be diffed or patched, a webhook signature fails after the body was re-serialized, untrusted input must be parsed safely, or a response shape has to change without breaking existing clients. Covers NDJSON, JSON Patch, canonical form, JSON columns in SQL, and JSON5/JSONC config files. Not for constraining LLM output (`structured-output`), for YAML, TOML, XML, or CSV (their own skills), or for designing REST endpoints (`rest-api`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/json",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/json/config.yaml` (what the user declared) and `~/Clawic/data/json/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/json",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/json/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/_meta.json",
-      "byteCount": 236,
-      "sha256": "f8ea006cda7d50fcbbe0bb4ecdff4f2de3c77c76bf94914e11d79f21183efad2"
+      "byteCount": 310,
+      "sha256": "32795338456a49d1ff9bb93d0cf9c86e5fa831ad36b3a9e6839b91906f7ea8b7"
     },
     {
       "path": "api-payloads.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/json/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/memory-template.md",
-      "byteCount": 20725,
-      "sha256": "91349dcdaf20a060db8fde5d8158dfccda23f34bd2fec652c0a59d05f538f331"
+      "byteCount": 20955,
+      "sha256": "51db991e7f68aecbf1b987c153845d308479b8197ba3a84588397e06b6c6eb60"
     },
     {
       "path": "numbers.md",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/json/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/json/SKILL.md",
-      "byteCount": 30213,
-      "sha256": "c831850ef6ae51cc45c94b0065d4359445ca7e7c5d5b0b3435b9a83a8e9b0d82"
+      "byteCount": 30973,
+      "sha256": "d76f0189a189641436b242268420185a08766a6c2203f9d94e21ed040289fa06"
     },
     {
       "path": "streaming.md",

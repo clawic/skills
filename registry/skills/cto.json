@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "71ea930731dcb2c194c2463ea7d4731a258438aff7a7e0e082134493631381b7",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "a785864c8500f055cc2eea5a555f358f960ff8c225a834b494d386929a73c162",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -17,7 +17,7 @@
     "description": "Acts as a chief technology officer: architecture calls, build vs buy, hiring and team scaling, tech debt, engineering metrics. Use when making technical strategy decisions or advising founders as CTO.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/cto",
-    "summary": "User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`. When To Use - Making or reviewing an",
+    "summary": "User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`, and say in one line that you moved i",
     "repositoryPath": "skills/cto",
     "manifestPath": "registry/skills/cto.json"
   },
@@ -61,8 +61,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/cto/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cto/SKILL.md",
-      "byteCount": 10651,
-      "sha256": "837b7c76f70d1aa7a5ec8bd253e64088fa1c868b0e708e855e9d2a861fa66a11"
+      "byteCount": 10837,
+      "sha256": "4cb5de001adfe283f372cb76c5b10c18456042a06a1cfccb0493b80d93d903af"
     }
   ]
 }

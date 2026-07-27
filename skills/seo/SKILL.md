@@ -2,9 +2,9 @@
 name: SEO (Site Audit + Content Writer + Competitor Analysis)
 slug: seo
 version: 1.0.6
-description: "Improves Google rankings with search engine optimization (SEO): audits, keyword research, content optimization, technical fixes, schema, and links. Not for paid search ads (PPC/SEM) or app store optimization. Use when organic traffic or rankings drop, pages are not indexed or get deindexed, crawl errors appear in Search Console, or a migration, redesign, or domain change is planned. Also for writing or refreshing content to rank, picking target keywords, fixing titles, canonicals, sitemaps, robots.txt, redirects, hreflang, duplicate content, or Core Web Vitals, and adding schema markup. And for chasing featured snippets or AI Overview citations, recovering from a Google penalty, core update, or manual action, optimizing local, ecommerce, SaaS, or publisher sites, or setting up Bing Webmaster Tools and IndexNow."
+description: 'Improves Google rankings with search engine optimization (SEO): audits, keyword research, content optimization, technical fixes, schema, and links. Not for paid search ads (PPC/SEM) or app store optimization. Use when organic traffic or rankings drop, pages are not indexed or get deindexed, crawl errors appear in Search Console, or a migration, redesign, or domain change is planned. Also for writing or refreshing content to rank, picking target keywords, fixing titles, canonicals, sitemaps, robots.txt, redirects, hreflang, duplicate content, or Core Web Vitals, and adding schema markup. And for chasing featured snippets or AI Overview citations, recovering from a Google penalty, core update, or manual action, optimizing local, ecommerce, SaaS, or publisher sites, or setting up Bing Webmaster Tools and IndexNow.'
 homepage: https://clawic.com/skills/seo
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🔍
@@ -15,9 +15,17 @@ metadata:
     displayName: SEO (Site Audit + Content Writer + Competitor Analysis)
     configPaths:
     - ~/Clawic/data/seo/
+    - ~/seo/
+    - ~/clawic/seo/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/seo/
+      - ~/seo/
+      - ~/clawic/seo/
 ---
 
-All persistent data (site profiles, config, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`. Read `setup.md` on first use; `memory-template.md` holds the file format.
+All persistent data (site profiles, config, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`, and say in one line that you moved it and from where. Read `setup.md` on first use; `memory-template.md` holds the file format.
 
 ## When To Use
 

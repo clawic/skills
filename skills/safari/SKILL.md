@@ -20,6 +20,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/safari/
     displayName: Safari Browser Control
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/safari/
 ---
 
 ## When to Use

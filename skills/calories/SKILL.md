@@ -2,7 +2,7 @@
 name: Calorie Tracker
 slug: calories
 version: 1.0.3
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 description: Tracks calories, macros, and weight trends from meal photos, text logs, and nutrition labels. Use when the user logs a meal or a drink, keeps a food diary, asks how many calories something has, wants a calorie or protein target for a cut, bulk, deficit, or maintenance, asks for their TDEE or maintenance calories, counts macros or carbs, reads a food label, asks whether to eat back exercise calories or workout burn, or asks why the scale is stuck, why they are not losing weight, or why it jumped overnight. Covers TDEE calibration from the user's own logs, restaurant, alcohol, and cheat-day estimates, plateaus and water weight, smart-scale body-fat readings, GLP-1 and medical guardrails, and eating disorder safety. Not for meal planning or recipes.
 homepage: https://clawic.com/skills/calories
 metadata:
@@ -11,9 +11,17 @@ metadata:
     emoji: 🍎
     configPaths:
     - ~/Clawic/data/calories/
+    - ~/calories/
+    - ~/clawic/calories/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/calories/
+      - ~/calories/
+      - ~/clawic/calories/
 ---
 
-User preferences, memory, and the food library live in `~/Clawic/data/calories/` (see `setup.md` on first use, `memory-template.md` for the file formats). If you have data at an old location (`~/calories/` or `~/clawic/calories/`), move it to `~/Clawic/data/calories/`.
+User preferences, memory, and the food library live in `~/Clawic/data/calories/` (see `setup.md` on first use, `memory-template.md` for the file formats). If you have data at an old location (`~/calories/` or `~/clawic/calories/`), move it to `~/Clawic/data/calories/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

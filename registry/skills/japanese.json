@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "9c16e6b07e528a903e794ba1e6744d1feef5a08659cf51a25e5445fd3e8583ef",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "0a237108785b5caecb458be0c9940e9bdc7e31e774e567b77f9bce53bc0d9345",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "japanese",
     "name": "Japanese",
     "description": "Writes and edits Japanese that reads as if a native wrote it — casual, 敬体, or full keigo. Use when composing anything in Japanese (LINE or Slack message, business email, 履歴書, 退職願, 議事録, note or X post, speech, 年賀状, contract clause, manga or game dialogue), or when Japanese text sounds stiff, textbook, translated or AI-generated; when 尊敬語 and 謙譲語, 二重敬語, させていただく, 了解 versus 承知, or さん versus 様 come out wrong; when は/が, particles, transitivity, mixed 敬体 and 常体, kanji-versus-kana balance, 送り仮名 or 全角 punctuation are off; when counters, 万/億 grouping, 令和 dates, addresses or a name's reading are needed; when slang, 絵文字 or dialect have to be calibrated to a reader; or when a refusal, apology or request must land. Not for translating an existing source text (`translate`), other languages (`chinese`, `korean`), or travelling in Japan (`japan`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/japanese",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/japanese/config.yaml` (what the user declared) and `~/Clawic/data/japanese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/japanese",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/japanese/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/_meta.json",
-      "byteCount": 244,
-      "sha256": "94a97d7aeb00db15d21a570aa27664c26248062b8aa761e986cfe76bb9980f1a"
+      "byteCount": 318,
+      "sha256": "c3ac9d06f40b607b0b7e64ed405a651630b4dfe87ab167f98d11e44ac42125ef"
     },
     {
       "path": "ai-tells.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/japanese/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/memory-template.md",
-      "byteCount": 28374,
-      "sha256": "96df799ca66097cac5d937f70aa97f65450090f9793cbe7ca0303c93f33ba8d4"
+      "byteCount": 28604,
+      "sha256": "25dbe3af5355e80d1d530af069186f9a10ed67756e7e47ce0ac152e6059656df"
     },
     {
       "path": "numbers-and-names.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/japanese/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/SKILL.md",
-      "byteCount": 37302,
-      "sha256": "0e97d2a7a5e4ae8783ad810f95126e218e78e03cfbf9dc34b73d1b7d509879ad"
+      "byteCount": 38082,
+      "sha256": "9f5455d294a71c760a441af2b69b18cad20a0da2aaccb10b174a84da1181e114"
     },
     {
       "path": "slang.md",

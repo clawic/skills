@@ -2,19 +2,8 @@
 name: FastAPI
 slug: fastapi
 version: 1.0.1
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
-description: >-
-  Builds, debugs, and hardens FastAPI services: async endpoints, Pydantic models, dependency
-  injection, auth, and deployment. Use when writing or reviewing a FastAPI app, router, or
-  schema; when the API hangs or every route slows because a sync driver or CPU work blocks the
-  event loop; when a request returns an unexpected 422, a POST becomes a 307, or a 500 arrives
-  with no CORS headers; when migrating pydantic v1 to v2 (`model_dump`, `from_attributes`,
-  `field_validator`); when `Depends` runs too often, `yield` cleanup misfires, or dependency
-  overrides do not take; when SQLAlchemy raises `QueuePool limit` or `MissingGreenlet`, or
-  connections leak across workers; when TestClient, httpx `AsyncClient`, or pytest-asyncio fail
-  with a closed event loop; when uvicorn or gunicorn workers, graceful shutdown, `root_path`,
-  or proxy headers need deciding; or when background tasks, WebSockets, SSE, uploads, or the
-  OpenAPI docs misbehave. Not for Django, Flask, or general Python — `django`, `flask`, `py`.
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
+description: 'Builds, debugs, and hardens FastAPI services: async endpoints, Pydantic models, dependency injection, auth, and deployment. Use when writing or reviewing a FastAPI app, router, or schema; when the API hangs or every route slows because a sync driver or CPU work blocks the event loop; when a request returns an unexpected 422, a POST becomes a 307, or a 500 arrives with no CORS headers; when migrating pydantic v1 to v2 (`model_dump`, `from_attributes`, `field_validator`); when `Depends` runs too often, `yield` cleanup misfires, or dependency overrides do not take; when SQLAlchemy raises `QueuePool limit` or `MissingGreenlet`, or connections leak across workers; when TestClient, httpx `AsyncClient`, or pytest-asyncio fail with a closed event loop; when uvicorn or gunicorn workers, graceful shutdown, `root_path`, or proxy headers need deciding; or when background tasks, WebSockets, SSE, uploads, or the OpenAPI docs misbehave. Not for Django, Flask, or general Python — `django`, `flask`, `py`.'
 homepage: https://clawic.com/skills/fastapi
 metadata:
   clawdbot:
@@ -29,9 +18,17 @@ metadata:
     displayName: FastAPI
     configPaths:
     - ~/Clawic/data/fastapi/
+    - ~/fastapi/
+    - ~/clawic/fastapi/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/fastapi/
+      - ~/fastapi/
+      - ~/clawic/fastapi/
 ---
 
-User preferences live in `~/Clawic/data/fastapi/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/fastapi/` or `~/clawic/fastapi/`), move it to `~/Clawic/data/fastapi/`.
+User preferences live in `~/Clawic/data/fastapi/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/fastapi/` or `~/clawic/fastapi/`), move it to `~/Clawic/data/fastapi/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

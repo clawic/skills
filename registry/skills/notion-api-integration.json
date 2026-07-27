@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "5be1be8346b5493a34e73b6639babb5400f87a159752c15aa3676e0afb4882ba",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "f989bb277b9464c33975873f569e585452d28acb9ef92d69774854417be6dbc2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "notion-api-integration",
     "name": "Notion API Integration",
     "description": "Builds and debugs Notion API integrations: data sources, pages, blocks, properties, filters, files, webhooks, bulk imports. Use when calling api.notion.com from code, curl, or an SDK, when a request returns 404 on an object that exists, a 400 validation_error, a 401, or a 429, when a database query returns the wrong rows or none at all, when results stop at 100, when a relation or rollup comes back with only part of its entries, when property names or select options do not match, when Notion-Version has to be bumped and database_id becomes data_source_id, when setting up an internal integration token or an OAuth flow, when importing a CSV or another tool's data into a workspace, exporting it, backfilling a property across thousands of pages, syncing Notion with an external system by webhook or polling, or uploading and attaching files. Not for calendar and rescheduling workflows (`notion-calendar`), writing notes across apps (`notes`), or generic REST and OAuth mechanics with no Notion specifics (`api`).",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/notion-api-integration",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/notion-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/notion-api-integration/memory.md` (what you observed, plus its `## Boxes` index",
     "repositoryPath": "skills/notion-api-integration",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/notion-api-integration/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/_meta.json",
-      "byteCount": 272,
-      "sha256": "9eff588bbf45059d7c43493c945335d4c3f3c40a174c8972f16f90e8aa574bb6"
+      "byteCount": 346,
+      "sha256": "8a5ee5333e20fb62c1ab1d3cfd2b083c9ab35c62ce4558c9141e377c8361eeec"
     },
     {
       "path": "auth.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/notion-api-integration/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/memory-template.md",
-      "byteCount": 19493,
-      "sha256": "53166ec9537dc7d559c4960b70af08dc06b015fd05d25fbc6a801564c0cb47b3"
+      "byteCount": 19723,
+      "sha256": "6c0dc4e6197e3bdfc0c385f594f7a0558a5ad8aa99c5fa7958cf8d1b3ec1a24a"
     },
     {
       "path": "pages.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/notion-api-integration/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/notion-api-integration/SKILL.md",
-      "byteCount": 26632,
-      "sha256": "2ddb27f6a3bb4ad2e59ff3603c1eabb6073b4b72f2d3821da1da0690818a4bce"
+      "byteCount": 27311,
+      "sha256": "2eddbff799c85a71182becbd4465ce61c77d305c1ffe7c5b437db2e57919bef9"
     },
     {
       "path": "sync.md",

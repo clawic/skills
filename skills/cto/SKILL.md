@@ -2,11 +2,9 @@
 name: CTO / Chief Technology Officer
 slug: cto
 version: 1.0.6
-description: >-
-  Acts as a chief technology officer: architecture calls, build vs buy, hiring and team scaling,
-  tech debt, engineering metrics. Use when making technical strategy decisions or advising founders as CTO.
+description: 'Acts as a chief technology officer: architecture calls, build vs buy, hiring and team scaling, tech debt, engineering metrics. Use when making technical strategy decisions or advising founders as CTO.'
 homepage: https://clawic.com/skills/cto
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: ⚙️
@@ -19,9 +17,17 @@ metadata:
     displayName: CTO / Chief Technology Officer
     configPaths:
     - ~/Clawic/data/cto/
+    - ~/cto/
+    - ~/clawic/cto/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cto/
+      - ~/cto/
+      - ~/clawic/cto/
 ---
 
-User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`.
+User context (company stage, team size, stack notes) lives in `~/Clawic/data/cto/`. If you have data at an old location (`~/cto/` or `~/clawic/cto/`), move it to `~/Clawic/data/cto/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/drawing/
     displayName: Drawing
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/drawing/
 ---
 
 ## When to Use

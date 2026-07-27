@@ -1,19 +1,10 @@
 ---
 name: Server
 slug: server
-version: 1.0.1
-description: >-
-  Runs web and application services on a host: process supervision, ports and sockets, worker sizing, restarting
-  without dropping requests. Use when a service will not start, dies after logout, restart-loops, or vanishes on
-  reboot; when a port is already in use, or it answers on localhost but refuses connections from outside; when a
-  request returns 502, 504, 413, 499, or a redirect loop between proxy and app; when wiring nginx, Caddy, Traefik,
-  HAProxy, systemd, PM2, or php-fpm; when sizing workers and threads, tuning keepalive and timeouts, or a box runs
-  out of file descriptors or memory under load; when shipping a release and rolling it back; when serving large
-  uploads, WebSockets, or gRPC through a proxy; and when self-hosting apps or media servers. Not for nginx
-  directive tuning (`nginx`), certificate issuance (`ssl`), host OS failures (`linux`), image building (`docker`),
-  Kubernetes (`k8s`), CI/CD pipelines (`deploy`), or provisioning the machine (`vps`).
+version: 1.0.2
+description: 'Runs web and application services on a host: process supervision, ports and sockets, worker sizing, restarting without dropping requests. Use when a service will not start, dies after logout, restart-loops, or vanishes on reboot; when a port is already in use, or it answers on localhost but refuses connections from outside; when a request returns 502, 504, 413, 499, or a redirect loop between proxy and app; when wiring nginx, Caddy, Traefik, HAProxy, systemd, PM2, or php-fpm; when sizing workers and threads, tuning keepalive and timeouts, or a box runs out of file descriptors or memory under load; when shipping a release and rolling it back; when serving large uploads, WebSockets, or gRPC through a proxy; and when self-hosting apps or media servers. Not for nginx directive tuning (`nginx`), certificate issuance (`ssl`), host OS failures (`linux`), image building (`docker`), Kubernetes (`k8s`), CI/CD pipelines (`deploy`), or provisioning the machine (`vps`).'
 homepage: https://clawic.com/skills/server
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🖥️
@@ -28,9 +19,23 @@ metadata:
     - ~/Clawic/data/domains/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/server/
+    - ~/clawic/server/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/server/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/server/
+      - ~/clawic/server/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/server/config.yaml` (what the user declared) and `~/Clawic/data/server/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, and it is never a fixed list. What the user declared wins: an observation never overwrites a `config.yaml` value without the user saying so. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, capacity or "what is running where" question, and `~/Clawic/data/domains/domains.md` before touching a hostname, vhost, or certificate. If none of it exists, work from defaults and say nothing about it. If you have data at an old location (`~/server/` or `~/.clawic/server/`), move it to `~/Clawic/data/server/`.
+**Data.** At the start of every session, read `~/Clawic/data/server/config.yaml` (what the user declared) and `~/Clawic/data/server/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, and it is never a fixed list. What the user declared wins: an observation never overwrites a `config.yaml` value without the user saying so. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, capacity or "what is running where" question, and `~/Clawic/data/domains/domains.md` before touching a hostname, vhost, or certificate. If none of it exists, work from defaults and say nothing about it. If you have data at an old location (`~/server/` or `~/.clawic/server/`), move it to `~/Clawic/data/server/`, and say in one line that you moved it and from where. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever the session produced something durable: a service deployed, moved, renamed or retired; a host discovered or decommissioned; a hostname or certificate wired; a release or a rollback; an outage and what actually caused it; a measured number (worker count, RSS per worker, requests per second, p95); or something the user will want to read again — a runbook, a unit file or vhost that finally worked, a topology decision, a load-test report. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

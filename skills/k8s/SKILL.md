@@ -1,23 +1,13 @@
 ---
 name: Kubernetes
 slug: k8s
-version: 1.0.4
-description: >-
-  Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC.
-  Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service
-  or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships
-  a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes,
-  when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes
-  and graceful shutdown, when locking down RBAC, NetworkPolicy, Pod Security and Secrets, when the API server
-  throttles or an admission webhook blocks every create, when a GPU pod never schedules, when a mesh sidecar
-  breaks a Job, or when planning a cluster upgrade, a backup, or a restore. Covers kubectl triage, StatefulSets,
-  Jobs and CronJobs, autoscaling, operators, node drains and DaemonSet agents. Not for building container
-  images — that is `docker`.
+version: 1.0.5
+description: 'Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, when locking down RBAC, NetworkPolicy, Pod Security and Secrets, when the API server throttles or an admission webhook blocks every create, when a GPU pod never schedules, when a mesh sidecar breaks a Job, or when planning a cluster upgrade, a backup, or a restore. Covers kubectl triage, StatefulSets, Jobs and CronJobs, autoscaling, operators, node drains and DaemonSet agents. Not for building container images — that is `docker`.'
 homepage: https://clawic.com/skills/k8s
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
-    emoji: "☸"
+    emoji: ☸
     displayName: Kubernetes
     requires:
       bins:
@@ -30,9 +20,21 @@ metadata:
     - ~/Clawic/data/k8s/
     - ~/Clawic/data/servers/
     - ~/Clawic/data/domains/
+    - ~/Clawic/profile.yaml
+    - ~/k8s/
+    - ~/clawic/k8s/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/k8s/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/profile.yaml
+      - ~/k8s/
+      - ~/clawic/k8s/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/k8s/config.yaml` (what the user declared) and `~/Clawic/data/k8s/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names the moment the condition on its line applies — that index is the list of files that exist, never a list you carry in your head. Check `## Due` against today's date and state any overdue item in one line: a statement, not a question. Read `~/Clawic/data/servers/servers.md` before any capacity, sizing, upgrade, or "what do we run" question. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/data/k8s/`.
+**Data.** At the start of every session, read `~/Clawic/data/k8s/config.yaml` (what the user declared) and `~/Clawic/data/k8s/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names the moment the condition on its line applies — that index is the list of files that exist, never a list you carry in your head. Check `## Due` against today's date and state any overdue item in one line: a statement, not a question. Read `~/Clawic/data/servers/servers.md` before any capacity, sizing, upgrade, or "what do we run" question. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/k8s/` or `~/clawic/k8s/`), move it to `~/Clawic/data/k8s/`, and say in one line that you moved it and from where. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: a cluster discovered, upgraded or retired; a workload sized from real observation; an incident whose cause was finally named; a deploy with its rollback digest; a drill that was timed; an audit finding the user chose to accept; a hostname the cluster now serves; or anything they will want to read again — a runbook, a policy or manifest that finally worked, an architecture decision. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

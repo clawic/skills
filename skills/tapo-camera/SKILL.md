@@ -41,6 +41,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/tapo-camera/
     displayName: Tapo Camera
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/tapo-camera/
 ---
 
 ## When to Use

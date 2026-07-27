@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "aa74de0167fa7a6fb27dee361fa94204e3aba20b8c0cebc180a4d684ba83adec",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "0b2b2d5c976e98d359935c3dab2522c89685c6be7232589e236ccb15a41d6093",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "pricing",
     "name": "Pricing",
     "description": "Sets, tests, and changes prices: value metric, tier packaging, discounts, price increases, and willingness-to-pay research. Use when deciding what to charge for a new product, when nobody knows what it is worth, when a raise is overdue but churn is feared, when every deal closes at a discount, when the free plan never converts, when a competitor undercuts, when choosing per-seat versus usage-based versus flat, when designing a pricing page, when quoting an enterprise deal or a day rate, when entering a new country or currency, or when setting a marketplace take rate. Covers Van Westendorp and conjoint research, grandfathering, annual prepay maths, price tests, and auto-renewal and price-display rules. Not for consumer buying decisions (`price`), indie launch sequencing and revenue mix (`monetize`), building the billing system (`billing`), CAC and LTV decomposition (`unit-economics`), or company financial models (`cfo`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/pricing",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/pricing/config.yaml` (what the user declared) and `~/Clawic/data/pricing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/pricing",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/pricing/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/_meta.json",
-      "byteCount": 242,
-      "sha256": "e493209293298417d864e11b509b631fc587dfff95b5eb83a40e5279c4a43e85"
+      "byteCount": 316,
+      "sha256": "50022c86b1e212139b39f632b129fd4a3309e8958bd7cb15d7aedaf491d8974a"
     },
     {
       "path": "compliance.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/pricing/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/memory-template.md",
-      "byteCount": 22920,
-      "sha256": "59d8f0aae3cc3bcf902c487539d60afc960c5cceebc3eb258c4d66c0537f5703"
+      "byteCount": 23150,
+      "sha256": "b34657a870e4e844c5671d4fce68f80eecc31d0710288bcda10774657e964c57"
     },
     {
       "path": "packaging.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/pricing/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pricing/SKILL.md",
-      "byteCount": 28594,
-      "sha256": "94c10c1283e29fd655d1b536f3777cbf318720750b6157e12ad16ccbdd62e8ad"
+      "byteCount": 29371,
+      "sha256": "6057ebe52d4aca2bcdc80de855550df8eb075141a1d68d4e5d77e55ede2f80cb"
     },
     {
       "path": "testing.md",

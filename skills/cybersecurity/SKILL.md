@@ -1,20 +1,10 @@
 ---
 name: Cybersecurity
 slug: cybersecurity
-version: 1.0.1
-description: >-
-  Runs defensive security: alert triage, compromise investigation, attack paths, vulnerability prioritization,
-  detection, and risk reporting. Use when an alert, a suspicious login, a reported email, encrypted files, or a
-  possible compromise needs scoping and containment; when deciding what to patch first out of a scanner or
-  pentest backlog; when hardening identity, endpoints, segmentation, cloud tenants, or a build pipeline; when
-  writing or tuning detections nobody trusts; when a vendor questionnaire, SOC 2, ISO 27001, PCI, HIPAA, GDPR or
-  NIS2 evidence is due; when a notification clock may already be running; when scoping an authorized test or a
-  disclosure; or when a finding has to be written so an engineer, an executive or a board decides. Covers
-  evidence handling, token eviction, and building a security program from nothing. Not for
-  line-by-line secure code fixes (`security-best-practices`), STRIDE notation depth (`threat-modeling`), or
-  implementing login flows (`auth`).
+version: 1.0.2
+description: 'Runs defensive security: alert triage, compromise investigation, attack paths, vulnerability prioritization, detection, and risk reporting. Use when an alert, a suspicious login, a reported email, encrypted files, or a possible compromise needs scoping and containment; when deciding what to patch first out of a scanner or pentest backlog; when hardening identity, endpoints, segmentation, cloud tenants, or a build pipeline; when writing or tuning detections nobody trusts; when a vendor questionnaire, SOC 2, ISO 27001, PCI, HIPAA, GDPR or NIS2 evidence is due; when a notification clock may already be running; when scoping an authorized test or a disclosure; or when a finding has to be written so an engineer, an executive or a board decides. Covers evidence handling, token eviction, and building a security program from nothing. Not for line-by-line secure code fixes (`security-best-practices`), STRIDE notation depth (`threat-modeling`), or implementing login flows (`auth`).'
 homepage: https://clawic.com/skills/cybersecurity
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🛡️
@@ -31,15 +21,31 @@ metadata:
     - ~/Clawic/data/devices/
     - ~/Clawic/data/finances/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/cybersecurity/
+    - ~/clawic/cybersecurity/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cybersecurity/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/cybersecurity/
+      - ~/clawic/cybersecurity/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/cybersecurity/config.yaml` (what the user declared) and `~/Clawic/data/cybersecurity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `## Scope & Authorization` before proposing anything that touches a real system (Rule 1). If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/cybersecurity/config.yaml` (what the user declared) and `~/Clawic/data/cybersecurity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `## Scope & Authorization` before proposing anything that touches a real system (Rule 1). If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: an incident and its timeline; a finding with its owner and due date; a risk somebody accepted and the date that acceptance expires; a detection rule and its precision; an asset, trust boundary or log source discovered; a vendor assessed; a control that passed or failed; a person you would have to call at 3am; or something the user will re-read — a threat model, a playbook, a post-incident review, a policy, a report. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Entities go to the shared inventories, not into a private copy**: hosts and servers to `~/Clawic/data/servers/servers.md`, people to `~/Clawic/data/contacts/contacts.md`, domains and their DNS to `~/Clawic/data/domains/domains.md`, laptops and other endpoints to `~/Clawic/data/devices/devices.md`, cyber insurance and security tooling to `~/Clawic/data/finances/`, a remediation programme to `~/Clawic/data/projects/`. One row per entity, matched on its identity key and updated in place — the formats and the write protocol travel in `memory-template.md`, because the user may have none of the other skills installed.
 
-**Evidence is not memory, and no credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A memory file holds the finding, the hash, the hostname and *where* the evidence lives; the evidence itself — memory image, log export, malware sample, mailbox dump — stays in the case store. Strip every secret to its pointer before writing: `env:OKTA_API_TOKEN`, `keychain:soc-svc`, `1password:Security/EDR-console`, `ssm:/prod/db/password`, `file:~/.ssh/id_ed25519`. Personal data about affected people is written as counts and categories, never as records. If data sits at an old location (`~/cybersecurity/` or `~/clawic/cybersecurity/`), move it to `~/Clawic/data/cybersecurity/`.
+**Evidence is not memory, and no credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A memory file holds the finding, the hash, the hostname and *where* the evidence lives; the evidence itself — memory image, log export, malware sample, mailbox dump — stays in the case store. Strip every secret to its pointer before writing: `env:OKTA_API_TOKEN`, `keychain:soc-svc`, `1password:Security/EDR-console`, `ssm:/prod/db/password`, `file:~/.ssh/id_ed25519`. Personal data about affected people is written as counts and categories, never as records. If data sits at an old location (`~/cybersecurity/` or `~/clawic/cybersecurity/`), move it to `~/Clawic/data/cybersecurity/`, and say in one line that you moved it and from where.
 
 Security work fails in two directions: theater that changes nothing, and paralysis that ships nothing. Every answer names the attack path it removes, who owns the next move, and by when — and keeps observed, inferred and recommended in separate sentences. Work from defaults immediately: never open with questions about their environment, their tooling, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone, currency) → the Configuration table default.
 

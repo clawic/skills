@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/lm-studio/
     displayName: LM Studio
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/lm-studio/
 ---
 
 ## When to Use

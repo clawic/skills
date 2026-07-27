@@ -1,20 +1,10 @@
 ---
 name: Markdown
 slug: markdown
-version: 1.0.2
-description: >-
-  Writes, fixes, and converts Markdown that renders the same in every parser — GitHub, MDX, Pandoc, docs sites,
-  Slack, Notion. Use when a list stops nesting, a table renders as literal pipes, a code fence swallows the rest
-  of the file, half a document turns italic, or an anchor link 404s; when frontmatter shows up as text; when
-  footnotes, task lists, callouts, math, or Mermaid render on GitHub but not on the docs site; when MDX rejects
-  `{`, `<`, or an HTML comment; when a README's images break on npm or PyPI; when converting Markdown to PDF,
-  DOCX, or HTML, or HTML back to Markdown; when markdownlint or Prettier fights the file in CI; when pasting into
-  Slack, Discord, Notion, Confluence, or Jira; and when Markdown from an untrusted source has to be rendered
-  safely. Not for LaTeX documents (`latex`), Word files (`word-docx`), templated PDF deliverables such as reports,
-  invoices, and contracts (`pdf-generator`), or documentation strategy and information architecture
-  (`documentation`).
+version: 1.0.3
+description: Writes, fixes, and converts Markdown that renders the same in every parser — GitHub, MDX, Pandoc, docs sites, Slack, Notion. Use when a list stops nesting, a table renders as literal pipes, a code fence swallows the rest of the file, half a document turns italic, or an anchor link 404s; when frontmatter shows up as text; when footnotes, task lists, callouts, math, or Mermaid render on GitHub but not on the docs site; when MDX rejects `{`, `<`, or an HTML comment; when a README's images break on npm or PyPI; when converting Markdown to PDF, DOCX, or HTML, or HTML back to Markdown; when markdownlint or Prettier fights the file in CI; when pasting into Slack, Discord, Notion, Confluence, or Jira; and when Markdown from an untrusted source has to be rendered safely. Not for LaTeX documents (`latex`), Word files (`word-docx`), templated PDF deliverables such as reports, invoices, and contracts (`pdf-generator`), or documentation strategy and information architecture (`documentation`).
 homepage: https://clawic.com/skills/markdown
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📝
@@ -27,15 +17,27 @@ metadata:
     - ~/Clawic/data/markdown/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/markdown/
+    - ~/clawic/markdown/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/markdown/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/markdown/
+      - ~/clawic/markdown/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/markdown/config.yaml` (what the user declared) and `~/Clawic/data/markdown/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read the recorded render targets before writing or fixing any document: the same bytes are correct in one parser and broken in another. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/markdown/config.yaml` (what the user declared) and `~/Clawic/data/markdown/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read the recorded render targets before writing or fixing any document: the same bytes are correct in one parser and broken in another. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a render target and the quirk it imposes; a doc set and the generator that builds it; a lint, formatter, or CI config that finally passed; a conversion recipe that produced the right output; a house-style rule observed in their files; a link or lint sweep and what it found; or something the user will re-read — a page or README template, a style guide, a decision about the docs stack. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Doc sets that belong to a tracked project or a client point at the shared boxes**: the project goes in `~/Clawic/data/projects/<project>.md` and the person in `~/Clawic/data/contacts/contacts.md` — read each before writing, update the existing entry in place, and here keep only the name. Duplicating a project or a person is how two skills start contradicting each other.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a document the user pastes in to be saved. Documentation is unusually dense in secrets: a curl example carries a token, a config snippet carries a connection string, a CI YAML carries a publish key. Strip the value and leave the pointer: `env:NPM_TOKEN`, `keychain:docs-deploy`, `1password:Work/Docs/confluence`, `file:~/.netrc`. If data sits at an old location (`~/markdown/` or `~/clawic/markdown/`), move it to `~/Clawic/data/markdown/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a document the user pastes in to be saved. Documentation is unusually dense in secrets: a curl example carries a token, a config snippet carries a connection string, a CI YAML carries a publish key. Strip the value and leave the pointer: `env:NPM_TOKEN`, `keychain:docs-deploy`, `1password:Work/Docs/confluence`, `file:~/.netrc`. If data sits at an old location (`~/markdown/` or `~/clawic/markdown/`), move it to `~/Clawic/data/markdown/`, and say in one line that you moved it and from where.
 
 Correct Markdown is not a property of the text. It is a property of the text **plus the parser that will render it**, and every bug in this domain is one of five things: a missing block boundary, an indentation column, an unescaped character, an extension the target does not have, or raw HTML the target strips. Name which one, name the target, and hand back the exact bytes that change. Work from defaults immediately: never open with questions about their flavor, their linter, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale) → the Configuration table default.
 

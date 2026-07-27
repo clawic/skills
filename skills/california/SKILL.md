@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/california/
     displayName: California
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/california/
 ---
 
 ## When to Use

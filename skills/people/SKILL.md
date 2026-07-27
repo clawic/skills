@@ -1,20 +1,10 @@
 ---
 name: Contacts
 slug: people
-version: 1.0.2
-description: >-
-  Maintains a personal address book: who each person is, what matters to them, when they were last in touch, and
-  which birthdays are coming up. Use when someone is mentioned by name with context worth keeping — met, called,
-  or ran into them; when a birthday, anniversary, or death anniversary is approaching; when the question is what
-  do I know about X, who do I know at Acme, who lives in Berlin, or who have I not spoken to in months; before a
-  meeting, to surface what happened last time; when reconnecting after a long silence, or drafting a
-  congratulations, a condolence, or a message about a job change or a bereavement; when making or chasing an
-  introduction; when duplicates, name changes, or an export have to be merged into one address book; and when
-  deciding what should never be written down about someone else. Not for sales pipelines and forecasts (`crm`),
-  friendship depth (`friends`), family logistics (`family`), gift ideas (`gifts`), or reminders unrelated to
-  people (`remind`).
+version: 1.0.3
+description: 'Maintains a personal address book: who each person is, what matters to them, when they were last in touch, and which birthdays are coming up. Use when someone is mentioned by name with context worth keeping — met, called, or ran into them; when a birthday, anniversary, or death anniversary is approaching; when the question is what do I know about X, who do I know at Acme, who lives in Berlin, or who have I not spoken to in months; before a meeting, to surface what happened last time; when reconnecting after a long silence, or drafting a congratulations, a condolence, or a message about a job change or a bereavement; when making or chasing an introduction; when duplicates, name changes, or an export have to be merged into one address book; and when deciding what should never be written down about someone else. Not for sales pipelines and forecasts (`crm`), friendship depth (`friends`), family logistics (`family`), gift ideas (`gifts`), or reminders unrelated to people (`remind`).'
 homepage: https://clawic.com/skills/people
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 👥
@@ -26,9 +16,16 @@ metadata:
     configPaths:
     - ~/Clawic/data/people/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/people/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/people/config.yaml` (what the user declared) and `~/Clawic/data/people/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before adding a person, before answering anything about who the user knows, and before a meeting; read `~/Clawic/data/people/do-not-surface.md` before naming anyone to contact, congratulate, or be reminded of. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/people/config.yaml` (what the user declared) and `~/Clawic/data/people/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before adding a person, before answering anything about who the user knows, and before a meeting; read `~/Clawic/data/people/do-not-surface.md` before naming anyone to contact, congratulate, or be reminded of. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a person met or newly named; a detail that will change the next conversation; an interaction and its date; a birthday or anniversary; a life event; a promise, a favor, or an introduction still open; a tier or cadence decision; a merge, an import, or a suppression; or something the user will want to read again — a forwardable intro blurb, a message that landed, an event debrief, a group map. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

@@ -2,16 +2,9 @@
 name: Suno
 slug: suno
 version: 1.0.4
-description: >-
-  Creates music with Suno: crafts style prompts and structured lyrics, generates via API or
-  browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle,
-  anthem, podcast intro, or background track, wants lyrics turned into audio or written for
-  singing, asks to sound like an artist, or when a generation comes out generic, off-genre,
-  cuts off mid-song, sings the style description, garbles words, or gets rejected by
-  moderation. Also covers extending and stitching songs, stems, WAV export, credits, and
-  commercial-use rights. Not for editing or mixing existing audio files.
+description: 'Creates music with Suno: crafts style prompts and structured lyrics, generates via API or browser, builds long tracks, covers, and personas. Use when the user wants a song, jingle, anthem, podcast intro, or background track, wants lyrics turned into audio or written for singing, asks to sound like an artist, or when a generation comes out generic, off-genre, cuts off mid-song, sings the style description, garbles words, or gets rejected by moderation. Also covers extending and stitching songs, stems, WAV export, credits, and commercial-use rights. Not for editing or mixing existing audio files.'
 homepage: https://clawic.com/skills/suno
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🎵
@@ -22,9 +15,17 @@ metadata:
     displayName: Suno
     configPaths:
     - ~/Clawic/data/suno/
+    - ~/suno/
+    - ~/clawic/suno/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/suno/
+      - ~/suno/
+      - ~/clawic/suno/
 ---
 
-This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio — see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at an old location (`~/suno/` or `~/clawic/suno/`), move it to `~/Clawic/data/suno/`.
+This skill stores all persistent data under `~/Clawic/data/suno/` (config, preferences, project tracking, downloaded audio — see `setup.md` on first use, `memory-template.md` for the memory format). If you have data at an old location (`~/suno/` or `~/clawic/suno/`), move it to `~/Clawic/data/suno/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

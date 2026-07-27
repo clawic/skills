@@ -2,17 +2,9 @@
 name: Brief
 slug: brief
 version: 1.0.4
-description: >-
-  Turns raw material into decision-ready briefs: executive summaries, status updates,
-  meeting pre-reads, and decision documents. Use when asked to brief someone, write a
-  TL;DR or weekly update, prepare a board, investor, or incident update, hand off a
-  project, compare options with a recommendation, or condense a long report, thread,
-  transcript, or doc pile into what the reader needs to act. Also when updates run long,
-  readers skim past the point, or the lede keeps getting buried. Not for plain
-  compression with no decision to serve, or for recurring digests pulled from external
-  sources.
+description: 'Turns raw material into decision-ready briefs: executive summaries, status updates, meeting pre-reads, and decision documents. Use when asked to brief someone, write a TL;DR or weekly update, prepare a board, investor, or incident update, hand off a project, compare options with a recommendation, or condense a long report, thread, transcript, or doc pile into what the reader needs to act. Also when updates run long, readers skim past the point, or the lede keeps getting buried. Not for plain compression with no decision to serve, or for recurring digests pulled from external sources.'
 homepage: https://clawic.com/skills/brief
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 📋
@@ -23,9 +15,19 @@ metadata:
     displayName: Brief
     configPaths:
     - ~/Clawic/data/brief/
+    - ~/Clawic/profile.yaml
+    - ~/brief/
+    - ~/clawic/brief/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/brief/
+      - ~/Clawic/profile.yaml
+      - ~/brief/
+      - ~/clawic/brief/
 ---
 
-User configuration and learned preferences live in `~/Clawic/data/brief/` (see `setup.md` on first use, `preferences-template.md` for the learned-preferences file format). If you have data at an old location (`~/brief/` or `~/clawic/brief/`), move it to `~/Clawic/data/brief/`.
+User configuration and learned preferences live in `~/Clawic/data/brief/` (see `setup.md` on first use, `preferences-template.md` for the learned-preferences file format). If you have data at an old location (`~/brief/` or `~/clawic/brief/`), move it to `~/Clawic/data/brief/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

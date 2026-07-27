@@ -22,6 +22,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/apple-calendar-macos/
     displayName: Apple Calendar (MacOS)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/apple-calendar-macos/
 ---
 
 ## Setup

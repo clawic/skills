@@ -23,6 +23,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/expedia/
     displayName: Expedia
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/expedia/
 ---
 
 ## When to Use

@@ -1,19 +1,10 @@
 ---
 name: RAG
 slug: rag
-version: 1.0.1
-description: >-
-  Designs, tunes, and debugs retrieval-augmented generation (RAG) pipelines: chunking, embeddings, hybrid retrieval,
-  reranking, and grounded answers. Use when a system returns the wrong passages, misses a document that is indexed,
-  cites nothing, or hallucinates over good context; when choosing a vector store, an embedding model, a chunk size,
-  or a reranker; when similarity scores collapse after a model swap; when a metadata filter empties the result set;
-  when answers ignore mid-context facts; when follow-up questions retrieve the wrong thing; when indexing PDFs,
-  scanned pages, tables, code, or transcripts; when GDPR erasure, tenant isolation, or prompt injection from indexed
-  documents is the problem; or when per-query cost or p95 latency has to come down. Covers reindex migrations,
-  corpus freshness, evaluation sets, and agentic and graph retrieval. Not for splitter internals (`rag-chunking`),
-  scoring rubrics (`rag-evaluation`), or LangChain APIs (`langchain`).
+version: 1.0.2
+description: 'Designs, tunes, and debugs retrieval-augmented generation (RAG) pipelines: chunking, embeddings, hybrid retrieval, reranking, and grounded answers. Use when a system returns the wrong passages, misses a document that is indexed, cites nothing, or hallucinates over good context; when choosing a vector store, an embedding model, a chunk size, or a reranker; when similarity scores collapse after a model swap; when a metadata filter empties the result set; when answers ignore mid-context facts; when follow-up questions retrieve the wrong thing; when indexing PDFs, scanned pages, tables, code, or transcripts; when GDPR erasure, tenant isolation, or prompt injection from indexed documents is the problem; or when per-query cost or p95 latency has to come down. Covers reindex migrations, corpus freshness, evaluation sets, and agentic and graph retrieval. Not for splitter internals (`rag-chunking`), scoring rubrics (`rag-evaluation`), or LangChain APIs (`langchain`).'
 homepage: https://clawic.com/skills/rag
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🔎
@@ -27,15 +18,28 @@ metadata:
     - ~/Clawic/data/servers/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/rag/
+    - ~/clawic/rag/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/rag/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/rag/
+      - ~/clawic/rag/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/rag/config.yaml` (what the user declared) and `~/Clawic/data/rag/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `## Index Registry` before writing or reviewing any query-side code: a query embedded with a different model, dimension, prefix, or distance metric than the index returns plausible garbage and raises no error (Rule 2). If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/rag/config.yaml` (what the user declared) and `~/Clawic/data/rag/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `## Index Registry` before writing or reviewing any query-side code: a query embedded with a different model, dimension, prefix, or distance metric than the index returns plausible garbage and raises no error (Rule 2). If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: an index built, migrated, or retired; a source added to or dropped from the corpus; a chunking, embedding, retrieval or reranking parameter that was changed and measured; an eval run and its scores; a failure and the cause it turned out to be; a monthly or per-query cost; a self-hosted store or embedding server; or something the user will read again — an ingestion recipe that finally parsed a hostile format, a prompt template that held up, an architecture decision, a golden set. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Three boxes are shared with the rest of the catalog**, so a fact written here answers a question asked elsewhere: self-hosted vector stores, embedding servers and GPU boxes go to `~/Clawic/data/servers/servers.md` (identity `Name` + `Provider`, update your own row in place); the RAG build itself, when the user tracks it as a piece of work, goes to `~/Clawic/data/projects/<project>.md` (identity: the project slug); managed vector-store plans and embedding or rerank API subscriptions go to `~/Clawic/data/finances/subscriptions.md` (identity: the service name, amount with its currency inside the value). Full protocol — collision, retirement, scale cut, foreign columns — travels in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:OPENAI_API_KEY`, `keychain:pinecone-prod`, `1password:Work/Cohere/rerank`, `ssm:/prod/pgvector/password`. Corpus content follows the same rule: keep the doc id and the source path, never the chunk text of a confidential document. If data sits at an old location (`~/rag/` or `~/clawic/rag/`), move it to `~/Clawic/data/rag/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:OPENAI_API_KEY`, `keychain:pinecone-prod`, `1password:Work/Cohere/rerank`, `ssm:/prod/pgvector/password`. Corpus content follows the same rule: keep the doc id and the source path, never the chunk text of a confidential document. If data sits at an old location (`~/rag/` or `~/clawic/rag/`), move it to `~/Clawic/data/rag/`, and say in one line that you moved it and from where.
 
 Every bad RAG answer is a **retrieval failure or a generation failure**, and the two have disjoint fixes. Prove which one before changing anything: put the retrieved chunks next to the question. If the answer is not in them, retrieval is the bug and no prompt edit will help; if it is in them and the answer is still wrong, retrieval is fine and the fix is in the prompt, the ordering, or the model. Teams that skip this step tune chunk size for a week to fix a prompt bug. Work from defaults immediately: never open with questions about their stack, their corpus, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, locale) → the Configuration table default.
 

@@ -2,10 +2,9 @@
 name: LangChain
 slug: langchain
 version: 1.0.1
-description: >-
-  Builds and debugs LangChain apps in Python: LCEL chains, agents, tools, retrievers, streaming, and structured output. Use when writing or reviewing a chain, agent, tool, retriever, or prompt template; when a prompt raises KeyError or "missing variables"; when streaming arrives as one blob or astream_events yields nothing; when an agent loops until GraphRecursionError or repeats a tool; when tool calls fail validation or the provider rejects a tool_call_id; when chat history disappears or the context window overflows; when with_structured_output returns None or a parser crashes on valid JSON; when retrieval returns the wrong chunks; when LangSmith traces are empty; when retries, rate limits, or token cost need bounding; or when imports break after an upgrade. Covers LangGraph state, checkpointers, and middleware. Not for framework-agnostic agent architecture (agents), retrieval design (rag), or chunk tuning (rag-chunking).
+description: 'Builds and debugs LangChain apps in Python: LCEL chains, agents, tools, retrievers, streaming, and structured output. Use when writing or reviewing a chain, agent, tool, retriever, or prompt template; when a prompt raises KeyError or "missing variables"; when streaming arrives as one blob or astream_events yields nothing; when an agent loops until GraphRecursionError or repeats a tool; when tool calls fail validation or the provider rejects a tool_call_id; when chat history disappears or the context window overflows; when with_structured_output returns None or a parser crashes on valid JSON; when retrieval returns the wrong chunks; when LangSmith traces are empty; when retries, rate limits, or token cost need bounding; or when imports break after an upgrade. Covers LangGraph state, checkpointers, and middleware. Not for framework-agnostic agent architecture (agents), retrieval design (rag), or chunk tuning (rag-chunking).'
 homepage: https://clawic.com/skills/langchain
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🦜
@@ -19,9 +18,17 @@ metadata:
     displayName: LangChain
     configPaths:
     - ~/Clawic/data/langchain/
+    - ~/langchain/
+    - ~/clawic/langchain/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/langchain/
+      - ~/langchain/
+      - ~/clawic/langchain/
 ---
 
-User preferences and memory live in `~/Clawic/data/langchain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/langchain/` or `~/clawic/langchain/`), move it to `~/Clawic/data/langchain/`.
+User preferences and memory live in `~/Clawic/data/langchain/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/langchain/` or `~/clawic/langchain/`), move it to `~/Clawic/data/langchain/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

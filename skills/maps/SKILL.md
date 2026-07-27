@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/maps/
     displayName: Maps
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/maps/
 ---
 
 ## When to Use

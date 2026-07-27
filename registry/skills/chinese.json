@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "fd5a9abf65751775b75944febc33c90ff9e98bf246941537ed3a39fa93a7feb5",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "aeae7b78ee020ec31084ba71e79c7254f01d2261565bf6bd2cd4f50e947fbce1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "chinese",
     "name": "Chinese",
     "description": "Writes and edits Mandarin Chinese that reads as if a native wrote it — casual or formal, mainland or Taiwan. Use when composing anything in Chinese (WeChat message, work email, 小红书 or 公众号 post, resume, 请假条, speech, toast, 通知, contract clause), or when Chinese text sounds stiff, textbook, translated, or AI-generated; when choosing 你 versus 您, 口语 versus 书面语, simplified versus traditional, or mainland versus Taiwan vocabulary; when 的/地/得, 了, 把, 被 or measure words come out wrong; when full-width punctuation, Han-Latin spacing, or 万/亿 number grouping is off; when internet slang, 成语, emoji or 表情包 need calibrating to an audience; when a refusal, apology, compliment or request has to land politely; or when naming a product or a person in Chinese. Not for translating an existing source text (`translate`), Traditional-only writing (`traditional-chinese`), or travelling in China (`china`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/chinese",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/chinese/config.yaml` (what the user declared) and `~/Clawic/data/chinese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/chinese",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/chinese/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/_meta.json",
-      "byteCount": 242,
-      "sha256": "009805e5c09dcb7775a166d95cf16f976f2af590a49d9c19f9e387aa17a4954a"
+      "byteCount": 316,
+      "sha256": "2a86d251bd7ee4f4cc646108ca6e9133c999fc8b2bc9df1973170034ddac4811"
     },
     {
       "path": "academic.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/chinese/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/memory-template.md",
-      "byteCount": 23477,
-      "sha256": "b7adf3f99be2a1ce1f81251e03b5e9e7dd476445cd026641a0d242b06c19e153"
+      "byteCount": 23707,
+      "sha256": "5a10ba1f6fef6ddcd63da2d9b6cf8e5496f8f20c082dcba78f1f553025c91396"
     },
     {
       "path": "numbers-and-names.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/chinese/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/SKILL.md",
-      "byteCount": 30719,
-      "sha256": "1f0c62d175e17f41c21960fd399b0d608ce01510e24562fb29441070fdb86bba"
+      "byteCount": 31494,
+      "sha256": "6ed2dbcf67ed23d8872350646a81c35ddeae45cd2452680bc8cfaa59235c61f4"
     },
     {
       "path": "slang.md",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "24eb1474e7713cbfd63d0003938a7c035be23101a918c3872e86fd7c334bf11a",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "33399dd8141aa1b11c04589bd3c42f57ddfddea26a47db79af607f0d9c485003",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "summarizer",
     "name": "Summarizer",
     "description": "Summarizes any source without losing the claim: documents, meetings, papers, threads, transcripts, data, and code changes. Use when asked to summarize, condense, shorten, recap, distill, or write a TLDR, abstract, or executive summary; when a source is too long to read or must hit a word count; when summarizing a call, interview, Slack channel, pull request, contract, earnings report, podcast, or a stack of sources on one topic; when a summary dropped something important, invented a detail, turned a hedge into a fact, or reads like the headings; and when the same material must be re-cut for another audience, length, or channel. Covers compression ratios, chunking, faithfulness and omission audits. Not for recurring external feeds (`digest`), decision documents whose point is the recommendation (`brief`), cross-source insight generation rather than compression (`synthesize`), or pulling text or a transcript out of a file or video first (`extract-pdf-text`, `youtube-video-transcript`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/summarizer",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/summarizer/config.yaml` (what the user declared) and `~/Clawic/data/summarizer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Op",
     "repositoryPath": "skills/summarizer",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/summarizer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/_meta.json",
-      "byteCount": 248,
-      "sha256": "10c0f839b941f01c6203ac519721250ff0fdb1107df78a740ed73d0da8292e42"
+      "byteCount": 322,
+      "sha256": "d539fd27822da292043c7048b81c542d45b5c693c6a3fa58985cd5f6b1a25ebe"
     },
     {
       "path": "audience.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/summarizer/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/memory-template.md",
-      "byteCount": 21197,
-      "sha256": "31a0cb50bb4e76c02297f3fefd3a65eee075f2ee347db613152c4c9acc81b15d"
+      "byteCount": 21427,
+      "sha256": "da9df04aa59bbe58e211fb0b53410bcfa73b9143491c1071ee1d9b9779ad6e73"
     },
     {
       "path": "multi-source.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/summarizer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/summarizer/SKILL.md",
-      "byteCount": 27109,
-      "sha256": "491acf88c5e2ac9bfcd3dd469ef9a0e215a8ec176a236aff24a9509880f8b784"
+      "byteCount": 27901,
+      "sha256": "a72ea4cc998eb5de6a74d57a2e6cf227cd0732e288c41e363310f00279336448"
     },
     {
       "path": "techniques.md",

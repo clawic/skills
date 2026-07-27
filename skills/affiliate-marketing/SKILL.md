@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/affiliate-marketing/
     displayName: Affiliate Marketing
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/affiliate-marketing/
 ---
 
 ## Setup

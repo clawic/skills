@@ -2,22 +2,16 @@
 name: Apple Search Ads
 slug: apple-search-ads
 version: 1.0.3
-description: >-
-  Plans, launches, and optimizes Apple Search Ads (Apple Ads, ASA) campaigns for iOS apps: bids,
-  keywords, budgets, CPA, attribution. Use for paid iOS user acquisition and App Store ads —
-  launching or restructuring campaigns, mining search-term reports, graduating keywords,
-  defending brand terms, scaling spend, expanding to new countries, testing Custom Product
-  Pages, wiring AdServices or SKAdNetwork attribution, automating reports and changes via the
-  Campaign Management API, or diagnosing why CPA spiked, keywords get no impressions, a
-  campaign stops spending its budget, ads got rejected, or ASA, SKAN, and MMP install counts
-  disagree. Not for App Store listing optimization itself (ASO).
+description: 'Plans, launches, and optimizes Apple Search Ads (Apple Ads, ASA) campaigns for iOS apps: bids, keywords, budgets, CPA, attribution. Use for paid iOS user acquisition and App Store ads — launching or restructuring campaigns, mining search-term reports, graduating keywords, defending brand terms, scaling spend, expanding to new countries, testing Custom Product Pages, wiring AdServices or SKAdNetwork attribution, automating reports and changes via the Campaign Management API, or diagnosing why CPA spiked, keywords get no impressions, a campaign stops spending its budget, ads got rejected, or ASA, SKAN, and MMP install counts disagree. Not for App Store listing optimization itself (ASO).'
 homepage: https://clawic.com/skills/apple-search-ads
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🍎
     configPaths:
     - ~/Clawic/data/apple-search-ads/
+    - ~/apple-search-ads/
+    - ~/clawic/apple-search-ads/
     requires:
       bins:
       - curl
@@ -32,9 +26,15 @@ metadata:
     - linux
     - darwin
     displayName: Apple Search Ads
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/apple-search-ads/
+      - ~/apple-search-ads/
+      - ~/clawic/apple-search-ads/
 ---
 
-Toolkit for Apple Search Ads (rebranded "Apple Ads" in 2024; API paths still read `searchads`): Campaign Management API v5, attribution (AdServices + SKAdNetwork), bid math, diagnosis, and scaling strategy. All local state (config, memory, campaign notes, reports) lives in `~/Clawic/data/apple-search-ads/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/apple-search-ads/` or `~/clawic/apple-search-ads/`), move it to `~/Clawic/data/apple-search-ads/`. Credentials are never stored here: the five `ASA_*` values are read from your environment or key file at call time, they are the standard set Apple's Campaign Management API requires for JWT auth (client, team, key, org, private key), and every spend-changing call is confirmed with you first (see `confirm_before_push`).
+Toolkit for Apple Search Ads (rebranded "Apple Ads" in 2024; API paths still read `searchads`): Campaign Management API v5, attribution (AdServices + SKAdNetwork), bid math, diagnosis, and scaling strategy. All local state (config, memory, campaign notes, reports) lives in `~/Clawic/data/apple-search-ads/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/apple-search-ads/` or `~/clawic/apple-search-ads/`), move it to `~/Clawic/data/apple-search-ads/`, and say in one line that you moved it and from where. Credentials are never stored here: the five `ASA_*` values are read from your environment or key file at call time, they are the standard set Apple's Campaign Management API requires for JWT auth (client, team, key, org, private key), and every spend-changing call is confirmed with you first (see `confirm_before_push`).
 
 ## Configuration
 

@@ -4,7 +4,7 @@ slug: git
 version: 1.0.12
 description: Commits, branches, merges, and rebases Git repositories, resolves conflicts, and recovers lost history. Use when the work touches a repo, commit, branch, merge, rebase, stash, tag, or submodule; when Git refuses a command — index.lock exists, push rejected as non-fast-forward, detached HEAD, dubious ownership, unrelated histories, conflict markers left behind; when something looks lost after a hard reset, a bad rebase, a deleted branch, or a dropped stash; when splitting a mixed change, wording commit messages, cleaning history before review, or force-pushing without wrecking a teammate's work; when a credential or a huge file got committed; when setting up worktrees, hooks, LFS, sparse checkout, signing, or separate work and personal identities. Not for CI pipeline YAML (github-actions, gitlab) or for composing the pull request description itself (pull-request).
 homepage: https://clawic.com/skills/git
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 📚
@@ -18,9 +18,17 @@ metadata:
     displayName: Git
     configPaths:
     - ~/Clawic/data/git/
+    - ~/git/
+    - ~/clawic/git/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/git/
+      - ~/git/
+      - ~/clawic/git/
 ---
 
-User preferences and memory live in `~/Clawic/data/git/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/git/` or `~/clawic/git/`), move it to `~/Clawic/data/git/`.
+User preferences and memory live in `~/Clawic/data/git/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/git/` or `~/clawic/git/`), move it to `~/Clawic/data/git/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/decide/
     displayName: Decide
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/decide/
 ---
 
 ## Architecture

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "0cd3f68d8cf388ceb4b9743a7a63a82060bae51ada2b2d12982f253214c5b3b2",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "e911a7906a75bba1547c9b3d9f4362cf5199080f562a799d1e5febff436036ad",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "lawyer",
     "name": "Lawyer",
     "description": "Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the risk before signature. Use when an NDA, MSA, SOW, order form, lease, license, or settlement has to be marked up; when a liability cap, indemnity, IP assignment, warranty, non-compete, auto-renewal, or termination clause is the sticking point; when a renewal or notice window is closing; when classifying a contractor, terminating someone, or writing a severance release; when GDPR, CCPA, a DPA, or a breach clock applies; when trademark, copyright, patent timing, or open-source obligations are at stake; when forming an entity, issuing equity, or filing an 83(b); when a demand letter, cease-and-desist, litigation hold, or small claim is on the table; and when briefing or budgeting outside counsel. Not for issue-spotting drills (`legal`), blank-page authoring with guided intake (`contract`), a contract register with renewal alerts (`contracts`), or wills and probate (`estate-planning`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/lawyer",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/lawyer/config.yaml` (what the user declared) and `~/Clawic/data/lawyer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/lawyer",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/lawyer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/_meta.json",
-      "byteCount": 240,
-      "sha256": "98ab34706653b67693b7092d3fd85d015bba3f2af3f8e2465794f3cc77687fe5"
+      "byteCount": 314,
+      "sha256": "05e97c847638613688adb7ef1b309ed63b862c147662384c8225bfd053ee9663"
     },
     {
       "path": "agreements.md",
@@ -110,8 +110,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/lawyer/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/memory-template.md",
-      "byteCount": 23212,
-      "sha256": "0c9472e064e4725204a407fcc1d4a339a43c206b1096573e17554b7b5af5c10d"
+      "byteCount": 23442,
+      "sha256": "bdf58cb47c3539efe08d9c5fdac86856d019e5a02039fba2f82d85595667f43b"
     },
     {
       "path": "negotiation.md",
@@ -152,8 +152,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/lawyer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/SKILL.md",
-      "byteCount": 30689,
-      "sha256": "0fa6086f5c32f6355b96deda142b305a2535754ee9b610e122a812394a61cd30"
+      "byteCount": 31357,
+      "sha256": "954408e066431c136b2aa5602d72ecc3f47a84633c22861eafe7a116874f8ce5"
     }
   ]
 }

@@ -2,25 +2,26 @@
 name: Skill Update
 slug: skill-update
 version: 1.0.3
-description: >-
-  Updates installed agent skills safely: version check, diff preview, backup, approval,
-  data migration, and rollback. Use when updating or upgrading a skill, checking for newer
-  versions, previewing what changed before applying, when a skill breaks, misbehaves, or
-  loses data right after an update, when saved data or config must migrate across a version
-  bump, when local edits to an installed skill would collide with the new version, or when
-  bringing every skill or every agent's copy current. Not for installing new skills
-  (skill-finder) or publishing skills you own (skill-publish).
+description: 'Updates installed agent skills safely: version check, diff preview, backup, approval, data migration, and rollback. Use when updating or upgrading a skill, checking for newer versions, previewing what changed before applying, when a skill breaks, misbehaves, or loses data right after an update, when saved data or config must migrate across a version bump, when local edits to an installed skill would collide with the new version, or when bringing every skill or every agent''s copy current. Not for installing new skills (skill-finder) or publishing skills you own (skill-publish).'
 homepage: https://clawic.com/skills/skill-update
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🔄
     displayName: Skill Update
     configPaths:
     - ~/Clawic/data/skill-update/
+    - ~/skill-update/
+    - ~/clawic/skill-update/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/skill-update/
+      - ~/skill-update/
+      - ~/clawic/skill-update/
 ---
 
-Updates installed skills safely: preview every change, back up before applying, migrate data only on approval, roll back on failure. Mode: act-as — it executes the update directly, never advises from the sideline. Backups, the update log, and config live under `~/Clawic/data/skill-update/`. If you have data at an old location (`~/skill-update/` or `~/clawic/skill-update/`), move it to `~/Clawic/data/skill-update/`.
+Updates installed skills safely: preview every change, back up before applying, migrate data only on approval, roll back on failure. Mode: act-as — it executes the update directly, never advises from the sideline. Backups, the update log, and config live under `~/Clawic/data/skill-update/`. If you have data at an old location (`~/skill-update/` or `~/clawic/skill-update/`), move it to `~/Clawic/data/skill-update/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

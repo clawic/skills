@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "851d5b887fd816b7e73c83fe017dd81e319699a9cd71383e6078b6d5d3bea36d",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "1c67d347a372bef40ed6d442ecbb9e07c871706010f63e5432cd17bc1133199c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "stripe-api-integration",
     "name": "Stripe API Integration",
     "description": "Builds and debugs Stripe integrations: payments, subscriptions, Checkout, invoices, webhooks, Connect, disputes, tax. Use when a charge, refund, payout or subscription behaves wrong, when a webhook never arrives or its signature fails, when a card is declined or stuck on 3D Secure, when a customer was billed twice or the amount came out 100x off, when proration, trials, dunning or a plan change has to be exactly right, when splitting money across a marketplace with Connect, when disputes, chargebacks or fraud rules need work, when the payout does not match the bank, or when moving from test mode to live. Covers Payment Intents, Checkout Sessions, Payment Links, the Billing Portal, metered and tiered pricing, Stripe Tax, Radar, test clocks, idempotency, API versioning, and reconciliation. Not for choosing which payment provider to use (`payments`), PayPal integrations (`paypal`), App Store and Play Store purchases (`in-app-purchases`), or tracking the subscriptions you pay for as a consumer (`subscriptions`).",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/stripe-api-integration",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/stripe-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/stripe-api-integration/memory.md` (what you observed, plus its `## Boxes` index",
     "repositoryPath": "skills/stripe-api-integration",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/stripe-api-integration/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/_meta.json",
-      "byteCount": 272,
-      "sha256": "3ce3748d022cf1e3fd34dc37dadd1cad4e827bbc85dc806baad7c27a6bbb6dd2"
+      "byteCount": 346,
+      "sha256": "a0b8bf081ee2319a0d1e0c23fe376500cadbe792ccabeed322841d4c21795a91"
     },
     {
       "path": "advanced.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/stripe-api-integration/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/memory-template.md",
-      "byteCount": 21926,
-      "sha256": "3aaa3ff318bf6c5196768576c4bd62f7933a9d307534feceddba98671f34ee42"
+      "byteCount": 22156,
+      "sha256": "a4e3c04ce91cf9f998d7e43377775de1ddee301759f1618fa6d23aff9e01d20b"
     },
     {
       "path": "payment-methods.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/stripe-api-integration/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/stripe-api-integration/SKILL.md",
-      "byteCount": 29751,
-      "sha256": "527f75d6544871adf2c9ae0f3b3905d488fba346359fde6eb902a218fc25c93f"
+      "byteCount": 30660,
+      "sha256": "4f85a66a4ef92f24396a85094065290025cd510f0d430e35ebce869261f8e76a"
     },
     {
       "path": "subscriptions.md",

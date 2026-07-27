@@ -2,14 +2,8 @@
 name: JavaScript
 slug: javascript
 version: 1.0.6
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
-description: >-
-  Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs.
-  Use when JS throws TypeError or "undefined is not a function", a promise never settles or a rejection goes unhandled, NaN or
-  [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision,
-  a Node process won't exit or ignores signals, or fetch doesn't reject on a 404;
-  also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or
-  browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
+description: 'Writes, debugs, and reviews JavaScript: async and the event loop, coercion, closures, dates, Unicode, regex, and modern ES2023+ APIs. Use when JS throws TypeError or "undefined is not a function", a promise never settles or a rejection goes unhandled, NaN or [object Object] appears, dates shift by a day, sorting or equality misbehaves, memory grows, a regex hangs, JSON loses precision, a Node process won''t exit or ignores signals, or fetch doesn''t reject on a 404; also when choosing data structures, handling errors, profiling slow code, or checking whether a feature is safe for a target Node or browser version. Covers Node and browser runtime edges. Not for TypeScript type-system design or framework internals.'
 homepage: https://clawic.com/skills/javascript
 metadata:
   clawdbot:
@@ -17,9 +11,17 @@ metadata:
     displayName: JavaScript
     configPaths:
     - ~/Clawic/data/javascript/
+    - ~/javascript/
+    - ~/clawic/javascript/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/javascript/
+      - ~/javascript/
+      - ~/clawic/javascript/
 ---
 
-User preferences and memory live in `~/Clawic/data/javascript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/javascript/` or `~/clawic/javascript/`), move it to `~/Clawic/data/javascript/`.
+User preferences and memory live in `~/Clawic/data/javascript/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/javascript/` or `~/clawic/javascript/`), move it to `~/Clawic/data/javascript/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

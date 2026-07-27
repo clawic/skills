@@ -2,17 +2,8 @@
 name: PHP
 slug: php
 version: 1.0.2
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
-description: >-
-  Writes, debugs, and reviews PHP: type juggling, arrays, OOP, Composer, PDO, sessions, PHP-FPM, OPcache, PHP 8 features.
-  Use when PHP returns a blank white page or a 500 with no message, when "headers already sent", "Allowed memory size
-  exhausted", "Maximum execution time exceeded", "Class not found" after a Composer install, or an undefined array key
-  warning appears; when `==` compares wrong, `strpos` or `preg_match` returns a falsy match, accents turn into mojibake,
-  `DateTime` shifts by a day or an hour, `json_encode` returns false, PDO refuses to bind a parameter or emulates
-  prepares, sessions serialize parallel AJAX requests, nginx answers 502 or 504 in front of PHP-FPM, OPcache keeps
-  serving old code, or a version upgrade breaks on deprecations. Also for escaping output, hashing passwords, sizing
-  FPM workers, writing PHPUnit tests, and clearing PHPStan errors. Not for framework internals — `laravel` covers
-  Eloquent, queues, and Laravel auth.
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
+description: 'Writes, debugs, and reviews PHP: type juggling, arrays, OOP, Composer, PDO, sessions, PHP-FPM, OPcache, PHP 8 features. Use when PHP returns a blank white page or a 500 with no message, when "headers already sent", "Allowed memory size exhausted", "Maximum execution time exceeded", "Class not found" after a Composer install, or an undefined array key warning appears; when `==` compares wrong, `strpos` or `preg_match` returns a falsy match, accents turn into mojibake, `DateTime` shifts by a day or an hour, `json_encode` returns false, PDO refuses to bind a parameter or emulates prepares, sessions serialize parallel AJAX requests, nginx answers 502 or 504 in front of PHP-FPM, OPcache keeps serving old code, or a version upgrade breaks on deprecations. Also for escaping output, hashing passwords, sizing FPM workers, writing PHPUnit tests, and clearing PHPStan errors. Not for framework internals — `laravel` covers Eloquent, queues, and Laravel auth.'
 homepage: https://clawic.com/skills/php
 metadata:
   clawdbot:
@@ -27,9 +18,17 @@ metadata:
     displayName: PHP
     configPaths:
     - ~/Clawic/data/php/
+    - ~/php/
+    - ~/clawic/php/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/php/
+      - ~/php/
+      - ~/clawic/php/
 ---
 
-User preferences live in `~/Clawic/data/php/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/php/` or `~/clawic/php/`), move it to `~/Clawic/data/php/`.
+User preferences live in `~/Clawic/data/php/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/php/` or `~/clawic/php/`), move it to `~/Clawic/data/php/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

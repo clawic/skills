@@ -1,23 +1,14 @@
 ---
 name: Translate
 slug: translate
-version: 1.0.1
-description: >-
-  Translates and localizes text, software strings, documents, subtitles, and marketing copy between any language pair.
-  Use when translating anything, when fixing a translation that reads machine-made, or when localizing a product:
-  ICU plurals and gender, placeholders that must survive, string catalogs (JSON, XLIFF, .po, .strings, .xcstrings,
-  ARB, RESX, YAML), locale codes and fallback chains, RTL and bidi breakage, CJK typography, mojibake, text
-  expansion that overflows the UI, subtitle timing and reading speed, hreflang and multilingual SEO, glossaries,
-  translation memory and fuzzy matches, and post-editing machine output. Use when choosing register (tu/vous,
-  tú/usted, du/Sie, keigo), between es-ES and es-419 or zh-Hans and zh-Hant, or when a certified, legal, or medical
-  translation carries liability. Not for writing original copy natively in one language (spanish, french, german,
-  japanese, chinese) or generating captions from audio (video-captions).
+version: 1.0.2
+description: 'Translates and localizes text, software strings, documents, subtitles, and marketing copy between any language pair. Use when translating anything, when fixing a translation that reads machine-made, or when localizing a product: ICU plurals and gender, placeholders that must survive, string catalogs (JSON, XLIFF, .po, .strings, .xcstrings, ARB, RESX, YAML), locale codes and fallback chains, RTL and bidi breakage, CJK typography, mojibake, text expansion that overflows the UI, subtitle timing and reading speed, hreflang and multilingual SEO, glossaries, translation memory and fuzzy matches, and post-editing machine output. Use when choosing register (tu/vous, tú/usted, du/Sie, keigo), between es-ES and es-419 or zh-Hans and zh-Hant, or when a certified, legal, or medical translation carries liability. Not for writing original copy natively in one language (spanish, french, german, japanese, chinese) or generating captions from audio (video-captions).'
 homepage: https://clawic.com/skills/translate
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     displayName: Translate
-    emoji: "🌐"
+    emoji: 🌐
     os:
     - linux
     - darwin
@@ -27,6 +18,9 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/translate/
+    - ~/clawic/translate/
   category: text
   difficulty: intermediate
   os: all
@@ -35,15 +29,25 @@ metadata:
   - localization
   - languages
   - formatting
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/translate/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/translate/
+      - ~/clawic/translate/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/translate/config.yaml` (what the user declared) and `~/Clawic/data/translate/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Before translating into a locale, open the glossary and the style box that `## Boxes` names for it: a term rendered differently from last month is a defect, even when both renderings are correct. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/translate/config.yaml` (what the user declared) and `~/Clawic/data/translate/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Before translating into a locale, open the glossary and the style box that `## Boxes` names for it: a term rendered differently from last month is a defect, even when both renderings are correct. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a term decided, a term rejected, a do-not-translate item, a register or variant decision for a locale, a language pair used for the first time, a delivered job and its word count, a reviewer's correction, an environment fact that cost effort to find (which file the strings live in, the plural rules the framework actually applies, a font that lacks a script), or something the user will re-read — a locale style guide, an LQA report, a translation brief, an approved reference text. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and jobs go to the shared boxes, not here.** A translator, reviewer, or agency is a row in `~/Clawic/data/contacts/contacts.md`; a localization effort the user tracks as work in progress is `~/Clawic/data/projects/<project>.md`; what they pay for a CAT tool, an MT API plan, or an agency retainer is a row in `~/Clawic/data/finances/subscriptions.md`. Read the box before adding to it and update the existing entry in place — formats and identity keys are in `memory-template.md`, which carries them so the skill works whether or not the user has the owning skills installed.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. MT and CAT platforms are the temptation: store the pointer and strip the value — `env:DEEPL_AUTH_KEY`, `keychain:phrase-token`, `1password:Work/Lokalise/api`. If data sits at an old location (`~/translate/` or `~/clawic/translate/`), move it to `~/Clawic/data/translate/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. MT and CAT platforms are the temptation: store the pointer and strip the value — `env:DEEPL_AUTH_KEY`, `keychain:phrase-token`, `1password:Work/Lokalise/api`. If data sits at an old location (`~/translate/` or `~/clawic/translate/`), move it to `~/Clawic/data/translate/`, and say in one line that you moved it and from where.
 
 A translation is wrong when a reader who never sees the source would still notice something is off, or when a reader who does see the source finds a claim that was not made. Everything below serves those two tests. Name the target locale, not just the language, before writing the first word — `es` is not a locale and `zh` is not a script. Work from defaults immediately: never open with questions about tooling, register, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, currency) → the Configuration table default.
 

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/store/
     displayName: Store
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/store/
 ---
 
 ## When to Use

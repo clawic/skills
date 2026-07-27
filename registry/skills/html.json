@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "0fd65913311cedf1add7336eb1f654c0298eeb447ea723ed033bd0608381f9e7",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "1afcbb54ab9c0f641bed9a5ef98962781f9d4fbf5b854178ccac71c47fc69e0b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "html",
     "name": "HTML",
     "description": "Writes, reviews, and fixes HTML markup: semantic structure, forms, accessibility, the document head, media and embeds. Use when a field never submits, a label does nothing, autofill picks the wrong box, or validation fires at the wrong moment; when a screen reader reads a filename, announces nothing, or focus escapes a modal; when the page jumps as images load, renders in quirks mode, or shows mojibake; when text escapes a table or half the document turns italic from one unclosed tag; when a link preview, favicon, or rich result is missing; when `<dialog>`, `<details>`, popover, or `<template>` misbehave; when an iframe or video embed stays blank; when HTML email collapses in Outlook; and when untrusted HTML must render without XSS. Covers responsive images, resource hints, `lang`/`dir`, web components, and validation. Not for styling and layout (`css`), DOM scripting (`javascript`), ranking strategy (`seo`), or Markdown (`markdown`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/html",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/html/config.yaml` (what the user declared) and `~/Clawic/data/html/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/html",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/html/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/html/_meta.json",
-      "byteCount": 236,
-      "sha256": "156c1ae6cf26723a69baab313f022ed63c6571254d88c75cc7f299bef6076208"
+      "byteCount": 310,
+      "sha256": "0c4d6e9150d50884792b1231223b92f771f3aaaf904e101617f48b0a7a80f15b"
     },
     {
       "path": "accessibility.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/html/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/html/memory-template.md",
-      "byteCount": 19142,
-      "sha256": "3dd66e55defb8bf749cf273732f7efea217f0b3cbea98c20b1b6fd447bd6e27d"
+      "byteCount": 19372,
+      "sha256": "207d9f6f36009bd1fa511671221298180a79e3f5cc3ed6f1a21766ea1bec77e4"
     },
     {
       "path": "parsing.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/html/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/html/SKILL.md",
-      "byteCount": 31291,
-      "sha256": "15c1e94860c45bde34adf758c52c38186a43ba863a73bac76a4178598b4608a5"
+      "byteCount": 31924,
+      "sha256": "bbd05e9a856161b94696f7810672b67036274eb1e56a42fea2c379b61eb7c21a"
     },
     {
       "path": "tables.md",

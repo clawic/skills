@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/uber-eats/
     displayName: Uber Eats
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/uber-eats/
 ---
 
 ## When to Use

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/football/
     displayName: Football
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/football/
 ---
 
 ## When to Use

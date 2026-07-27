@@ -2,19 +2,9 @@
 name: CFO / Chief Financial Officer
 slug: cfo
 version: 1.0.6
-description: >-
-  Acts as chief financial officer (CFO): forecasts cash, computes runway and burn,
-  runs the monthly close, and models a fundraise. Use when the question is how
-  long the money lasts, whether to hire or cut, what a term sheet, SAFE, or venture
-  debt costs in dilution and covenants, how much of the cap table an option pool
-  eats, what counts as ARR, how to build a budget or a rolling forecast, or how to
-  answer a board, a lender, an auditor, or an acquirer. Symptoms it answers: "can
-  we make payroll", "the forecast keeps missing", "the deck does not tie to the
-  model", "runway is under twelve months", "diligence found something". Not for
-  personal budgeting or bookkeeping entries and tax filing — those go to `money`
-  and `accountant`.
+description: 'Acts as chief financial officer (CFO): forecasts cash, computes runway and burn, runs the monthly close, and models a fundraise. Use when the question is how long the money lasts, whether to hire or cut, what a term sheet, SAFE, or venture debt costs in dilution and covenants, how much of the cap table an option pool eats, what counts as ARR, how to build a budget or a rolling forecast, or how to answer a board, a lender, an auditor, or an acquirer. Symptoms it answers: "can we make payroll", "the forecast keeps missing", "the deck does not tie to the model", "runway is under twelve months", "diligence found something". Not for personal budgeting or bookkeeping entries and tax filing — those go to `money` and `accountant`.'
 homepage: https://clawic.com/skills/cfo
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 💰
@@ -25,9 +15,17 @@ metadata:
     displayName: CFO / Chief Financial Officer
     configPaths:
     - ~/Clawic/data/cfo/
+    - ~/cfo/
+    - ~/clawic/cfo/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cfo/
+      - ~/cfo/
+      - ~/clawic/cfo/
 ---
 
-User preferences and prior context live in `~/Clawic/data/cfo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cfo/` or `~/clawic/cfo/`), move it to `~/Clawic/data/cfo/`. Store settings and context only — never account numbers, credentials, or raw statements (→ Security & Privacy).
+User preferences and prior context live in `~/Clawic/data/cfo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cfo/` or `~/clawic/cfo/`), move it to `~/Clawic/data/cfo/`, and say in one line that you moved it and from where. Store settings and context only — never account numbers, credentials, or raw statements (→ Security & Privacy).
 
 ## When To Use
 

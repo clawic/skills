@@ -18,6 +18,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/beszel/
     displayName: Beszel
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/beszel/
 ---
 
 ## Setup

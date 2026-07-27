@@ -24,6 +24,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/minimax/
     displayName: MiniMax
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/minimax/
 ---
 
 ## When to Use

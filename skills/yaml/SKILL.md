@@ -1,19 +1,10 @@
 ---
 name: YAML
 slug: yaml
-version: 1.0.1
-description: >-
-  Writes, debugs, and validates YAML that parses the same in every language and tool. Use when a file will not
-  parse, when a value silently turns into a boolean, number, date or null (`no`, `on`, `1.0`, `0644`, `22:22`),
-  when tabs, indentation, or a colon inside a string breaks a document, when a block scalar mangles a script or a
-  PEM key, when anchors, aliases or `<<` merge keys do not survive a tool, when duplicate keys pick the wrong
-  winner, when the same file loads in one parser and fails in another, when YAML has to be edited or generated in
-  code without losing comments or key order, when untrusted YAML could execute code, or when writing Kubernetes,
-  Helm, GitHub Actions, GitLab CI, Ansible, Compose, CloudFormation, OpenAPI or Home Assistant files. Covers
-  yamllint, schema validation, yq, and semantic diffs. Not for JSON (`json`), TOML (`toml`), XML (`xml`), or
-  Ansible playbook semantics (`ansible`).
+version: 1.0.2
+description: Writes, debugs, and validates YAML that parses the same in every language and tool. Use when a file will not parse, when a value silently turns into a boolean, number, date or null (`no`, `on`, `1.0`, `0644`, `22:22`), when tabs, indentation, or a colon inside a string breaks a document, when a block scalar mangles a script or a PEM key, when anchors, aliases or `<<` merge keys do not survive a tool, when duplicate keys pick the wrong winner, when the same file loads in one parser and fails in another, when YAML has to be edited or generated in code without losing comments or key order, when untrusted YAML could execute code, or when writing Kubernetes, Helm, GitHub Actions, GitLab CI, Ansible, Compose, CloudFormation, OpenAPI or Home Assistant files. Covers yamllint, schema validation, yq, and semantic diffs. Not for JSON (`json`), TOML (`toml`), XML (`xml`), or Ansible playbook semantics (`ansible`).
 homepage: https://clawic.com/skills/yaml
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📋
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/yaml/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/devices/
+    - ~/Clawic/profile.yaml
+    - ~/yaml/
+    - ~/clawic/yaml/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/yaml/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/profile.yaml
+      - ~/yaml/
+      - ~/clawic/yaml/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/yaml/config.yaml` (what the user declared) and `~/Clawic/data/yaml/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/yaml/config.yaml` (what the user declared) and `~/Clawic/data/yaml/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever something durable came out: which parser and spec version a project actually uses; a YAML file that matters and what reads it; a coercion or indentation trap that bit and the fix; the observed house style of an existing repo; a schema, lint config, or file layout that finally validated; a cadence the user agreed to. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Entities that belong to other skills stay in their shared box.** A device configured through YAML (Home Assistant, netplan, cloud-init, ESPHome) goes to `~/Clawic/data/devices/devices.md`, not here. A config decision that belongs to tracked work goes to `~/Clawic/data/projects/<project>.md`, and this box keeps only its name as a pointer. Protocol for both is in `memory-template.md`: read before adding, update your own row in place, never a second row for the same entity.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in YAML the user pastes in to be saved. Strip the value, store the pointer: `env:DB_PASSWORD`, `keychain:prod-tls`, `1password:Work/Cluster/kubeconfig`, `sops:secrets/prod.enc.yaml`, `file:~/.kube/config`. A pasted PEM key inside a `|` block is the single most common way a secret lands in a memory file — it goes in as `<file:~/.ssh/id_ed25519>`, never as text. If data sits at an old location (`~/yaml/` or `~/clawic/yaml/`), move it to `~/Clawic/data/yaml/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in YAML the user pastes in to be saved. Strip the value, store the pointer: `env:DB_PASSWORD`, `keychain:prod-tls`, `1password:Work/Cluster/kubeconfig`, `sops:secrets/prod.enc.yaml`, `file:~/.kube/config`. A pasted PEM key inside a `|` block is the single most common way a secret lands in a memory file — it goes in as `<file:~/.ssh/id_ed25519>`, never as text. If data sits at an old location (`~/yaml/` or `~/clawic/yaml/`), move it to `~/Clawic/data/yaml/`, and say in one line that you moved it and from where.
 
 YAML never fails loudly at the moment you make the mistake: it produces a *valid document with the wrong types*, and the error surfaces three layers away as `cannot unmarshal number into string`. So the job is always the same — name which of five things the file is doing (a scalar being resolved, indentation defining scope, a block scalar folding, an anchor being expanded, or a tag being constructed), then quote, indent, or pin so the answer stops depending on the parser. Work from defaults immediately: never open with questions about their linter, their spec version, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` → the Configuration table default.
 

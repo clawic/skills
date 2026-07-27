@@ -2,20 +2,9 @@
 name: Anki
 slug: anki
 version: 1.0.3
-description: >-
-  Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review
-  workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or
-  vocabulary lists; when reviews pile up, take too long, or a backlog builds after time off; when
-  retention drops, cards keep failing, or a deck falls into ease hell; when choosing FSRS vs SM-2,
-  or setting desired retention, new cards per day, learning steps, and leech thresholds; when a
-  deck asks to upload or download in a one-way sync, loses media, or fails Check Database; when
-  importing CSV/TSV, an .apkg, or a shared deck, or migrating from Quizlet, Memrise, or SuperMemo;
-  when cards are due but nothing appears; and when a fixed exam date forces a study plan. Covers
-  language decks, medical and board decks, code and math material, and personal decks such as names
-  and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm
-  theory, study-session planning, or add-on development.
+description: 'Builds and repairs Anki decks: card writing, FSRS and SM-2 deck options, leeches, review workload, imports, and sync. Use when making cards from notes, PDFs, lectures, textbooks, or vocabulary lists; when reviews pile up, take too long, or a backlog builds after time off; when retention drops, cards keep failing, or a deck falls into ease hell; when choosing FSRS vs SM-2, or setting desired retention, new cards per day, learning steps, and leech thresholds; when a deck asks to upload or download in a one-way sync, loses media, or fails Check Database; when importing CSV/TSV, an .apkg, or a shared deck, or migrating from Quizlet, Memrise, or SuperMemo; when cards are due but nothing appears; and when a fixed exam date forces a study plan. Covers language decks, medical and board decks, code and math material, and personal decks such as names and faces or poetry. Not for generic flashcard writing outside Anki, spaced-repetition algorithm theory, study-session planning, or add-on development.'
 homepage: https://clawic.com/skills/anki
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🧠
@@ -26,9 +15,17 @@ metadata:
     displayName: Anki
     configPaths:
     - ~/Clawic/data/anki/
+    - ~/anki/
+    - ~/clawic/anki/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/anki/
+      - ~/anki/
+      - ~/clawic/anki/
 ---
 
-User preferences and memory live in `~/Clawic/data/anki/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/anki/` or `~/clawic/anki/`), move it to `~/Clawic/data/anki/`. Nothing else is stored: the collection is never opened or modified — you work from text, files, exports and stats the user hands over, and you emit cards the user imports.
+User preferences and memory live in `~/Clawic/data/anki/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/anki/` or `~/clawic/anki/`), move it to `~/Clawic/data/anki/`, and say in one line that you moved it and from where. Nothing else is stored: the collection is never opened or modified — you work from text, files, exports and stats the user hands over, and you emit cards the user imports.
 
 ## When To Use
 

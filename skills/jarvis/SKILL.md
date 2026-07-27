@@ -21,6 +21,10 @@ metadata:
     - ./SOUL.md
     - ./HEARTBEAT.md
     displayName: Jarvis
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/jarvis/
 ---
 
 ## When to Use

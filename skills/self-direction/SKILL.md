@@ -16,6 +16,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/self-direction/
     displayName: Self-Direction
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/self-direction/
 ---
 
 Every human has an internal direction system — values, goals, decision criteria, risk tolerance, resource priorities. When you direct an agent, you transmit fragments of that system. But fragments aren't enough for true autonomy.

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "54d72c19768dc99c0a4e2e62d857d34cee320568826cbcd1cdc3256aa1b3d3bf",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "0603866a51c6dd2fb1dc9a7439c827f657b3a87fef07ab454901f6d73def60c4",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "translate",
     "name": "Translate",
     "description": "Translates and localizes text, software strings, documents, subtitles, and marketing copy between any language pair. Use when translating anything, when fixing a translation that reads machine-made, or when localizing a product: ICU plurals and gender, placeholders that must survive, string catalogs (JSON, XLIFF, .po, .strings, .xcstrings, ARB, RESX, YAML), locale codes and fallback chains, RTL and bidi breakage, CJK typography, mojibake, text expansion that overflows the UI, subtitle timing and reading speed, hreflang and multilingual SEO, glossaries, translation memory and fuzzy matches, and post-editing machine output. Use when choosing register (tu/vous, tú/usted, du/Sie, keigo), between es-ES and es-419 or zh-Hans and zh-Hant, or when a certified, legal, or medical translation carries liability. Not for writing original copy natively in one language (spanish, french, german, japanese, chinese) or generating captions from audio (video-captions).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/translate",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/translate/config.yaml` (what the user declared) and `~/Clawic/data/translate/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/translate",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/translate/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/_meta.json",
-      "byteCount": 246,
-      "sha256": "acac427c0c24c2f2341be00ba9c92134285c69d5a5442f30c0bb518e5a0553df"
+      "byteCount": 320,
+      "sha256": "644d6e97ed84e3c6d5c6e49db804c98d2db554ec9a734b2a3a1ec17efedc75ef"
     },
     {
       "path": "documents.md",
@@ -75,8 +75,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/translate/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/memory-template.md",
-      "byteCount": 23025,
-      "sha256": "995bd4dd4348f80a70f2715fe8a10a9480f29483c1ba72d971c7eef280d8e5d1"
+      "byteCount": 23255,
+      "sha256": "43f2306264ef7ed0071910edad3fa3c8f549450723786e94569655da1f192577"
     },
     {
       "path": "numbers-and-names.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/translate/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/translate/SKILL.md",
-      "byteCount": 28914,
-      "sha256": "9f9046c0653f0ca912f2ffcc5af0048b146373fe2774a4bac4f4d84aa15ab2b5"
+      "byteCount": 29731,
+      "sha256": "adc429c3b7997aee4deb9152497bf7b266819c71bbfef4c03896b9dc3afe796c"
     },
     {
       "path": "software-strings.md",

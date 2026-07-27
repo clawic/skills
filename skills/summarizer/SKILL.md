@@ -1,19 +1,10 @@
 ---
 name: Summarizer
 slug: summarizer
-version: 1.0.1
-description: >-
-  Summarizes any source without losing the claim: documents, meetings, papers, threads, transcripts, data, and code
-  changes. Use when asked to summarize, condense, shorten, recap, distill, or write a TLDR, abstract, or executive
-  summary; when a source is too long to read or must hit a word count; when summarizing a call, interview, Slack
-  channel, pull request, contract, earnings report, podcast, or a stack of sources on one topic; when a summary
-  dropped something important, invented a detail, turned a hedge into a fact, or reads like the headings; and when
-  the same material must be re-cut for another audience, length, or channel. Covers compression ratios, chunking,
-  faithfulness and omission audits. Not for recurring external feeds (`digest`), decision documents whose point is
-  the recommendation (`brief`), cross-source insight generation rather than compression (`synthesize`), or pulling
-  text or a transcript out of a file or video first (`extract-pdf-text`, `youtube-video-transcript`).
+version: 1.0.2
+description: 'Summarizes any source without losing the claim: documents, meetings, papers, threads, transcripts, data, and code changes. Use when asked to summarize, condense, shorten, recap, distill, or write a TLDR, abstract, or executive summary; when a source is too long to read or must hit a word count; when summarizing a call, interview, Slack channel, pull request, contract, earnings report, podcast, or a stack of sources on one topic; when a summary dropped something important, invented a detail, turned a hedge into a fact, or reads like the headings; and when the same material must be re-cut for another audience, length, or channel. Covers compression ratios, chunking, faithfulness and omission audits. Not for recurring external feeds (`digest`), decision documents whose point is the recommendation (`brief`), cross-source insight generation rather than compression (`synthesize`), or pulling text or a transcript out of a file or video first (`extract-pdf-text`, `youtube-video-transcript`).'
 homepage: https://clawic.com/skills/summarizer
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📝
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/summarizer/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/summarizer/
+    - ~/clawic/summarizer/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/summarizer/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/summarizer/
+      - ~/clawic/summarizer/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/summarizer/config.yaml` (what the user declared) and `~/Clawic/data/summarizer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/summarizer/config.yaml` (what the user declared) and `~/Clawic/data/summarizer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a summary the user will look for again; a source registered so it is never re-processed from scratch; a term, acronym, or entity that must survive every future compression; an output shape the user approved or asked to reuse; a correction ("you dropped X", "that number is wrong"); a recurring edition; a deadline the source contained; or a synthesis across several sources. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People go to the shared inventory `~/Clawic/data/contacts/contacts.md`**, not here: the recipient of a brief is the same person `clients` or `crm` already knows. One row per person, keyed by lowercase email → handle → `<kebab-name>` — read the file and update that row in place, never append a second one. What is summarizer-specific (their length ceiling, their jargon tolerance, what they always ask for) stays in `## Audiences` in `memory.md`, referencing them by key only.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, and above all not in the source the user pastes in. Transcripts, logs, tickets, and `.env` snippets carry live secrets more often than any other input in this catalog: strip the value and leave the pointer before writing anything to disk — `env:STRIPE_API_KEY`, `keychain:vpn`, `1password:Work/DB/prod`, `file:~/.ssh/id_ed25519` — and say in one line that you did it. If data sits at an old location (`~/summarizer/` or `~/clawic/summarizer/`), move it to `~/Clawic/data/summarizer/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, and above all not in the source the user pastes in. Transcripts, logs, tickets, and `.env` snippets carry live secrets more often than any other input in this catalog: strip the value and leave the pointer before writing anything to disk — `env:STRIPE_API_KEY`, `keychain:vpn`, `1password:Work/DB/prod`, `file:~/.ssh/id_ed25519` — and say in one line that you did it. If data sits at an old location (`~/summarizer/` or `~/clawic/summarizer/`), move it to `~/Clawic/data/summarizer/`, and say in one line that you moved it and from where.
 
 A summary is a lossy compression with a contract: everything it says is in the source, and everything the reader needs to act is in the summary. Both halves fail silently, so decide the target length before writing and name what you cut. Work from defaults immediately: never open with questions about audience, length, or format — infer from the request, state the assumption in the output header, and correct on feedback. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, language) → the Configuration table default.
 

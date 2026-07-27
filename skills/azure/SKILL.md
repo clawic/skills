@@ -1,20 +1,10 @@
 ---
 name: Azure
 slug: azure
-version: 1.0.1
-description: >-
-  Architects, debugs, secures, and cost-optimizes Azure — VMs, App Service, Functions, AKS, Azure SQL, Cosmos DB,
-  Entra ID, VNets, Storage. Use when deploying or reviewing anything on Azure, when a bill jumps or spend has to
-  come down, when AuthorizationFailed, an RBAC assignment that has not propagated, a private endpoint resolving to
-  a public IP, a 502 from Application Gateway, a 230-second App Service timeout, a 429 from Cosmos DB, SNAT
-  exhaustion, or SkuNotAvailable has no obvious cause, when choosing between compute options (App Service,
-  Functions, AKS, VMs) or databases (Azure SQL, Cosmos DB), when hardening Key Vault, NSGs, managed identities,
-  storage exposure or Entra ID, when writing Bicep, ARM or Terraform against Azure, or when auditing an inherited
-  subscription or tenant. Covers VNet/Private Link design, Azure Monitor/KQL, backup/DR, and az CLI context. Not
-  for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or SQL query tuning
-  (`sql`).
+version: 1.0.2
+description: Architects, debugs, secures, and cost-optimizes Azure — VMs, App Service, Functions, AKS, Azure SQL, Cosmos DB, Entra ID, VNets, Storage. Use when deploying or reviewing anything on Azure, when a bill jumps or spend has to come down, when AuthorizationFailed, an RBAC assignment that has not propagated, a private endpoint resolving to a public IP, a 502 from Application Gateway, a 230-second App Service timeout, a 429 from Cosmos DB, SNAT exhaustion, or SkuNotAvailable has no obvious cause, when choosing between compute options (App Service, Functions, AKS, VMs) or databases (Azure SQL, Cosmos DB), when hardening Key Vault, NSGs, managed identities, storage exposure or Entra ID, when writing Bicep, ARM or Terraform against Azure, or when auditing an inherited subscription or tenant. Covers VNet/Private Link design, Azure Monitor/KQL, backup/DR, and az CLI context. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or SQL query tuning (`sql`).
 homepage: https://clawic.com/skills/azure
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🔷
@@ -31,9 +21,18 @@ metadata:
     - ~/Clawic/data/servers/
     - ~/Clawic/data/domains/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/azure/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/azure/config.yaml` (what the user declared) and `~/Clawic/data/azure/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question, and `~/Clawic/data/domains/domains.md` before touching a custom domain, DNS zone, or certificate. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/azure/config.yaml` (what the user declared) and `~/Clawic/data/azure/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before any deploy, sizing, or "what do I have" question, and `~/Clawic/data/domains/domains.md` before touching a custom domain, DNS zone, or certificate. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a VM or scale set created, resized, discovered or retired; an inventory pass; a spend number or a saving; a budget or alert; a subscription and who pays for it; a custom domain, certificate or credential with an expiry date; a deploy or a timed restore drill; a KQL query worth running again; or something the user will want to read again — a runbook, a custom role or policy that finally worked, an address plan, an architecture decision. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

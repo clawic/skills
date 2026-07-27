@@ -2,16 +2,9 @@
 name: React
 slug: react
 version: 1.0.7
-description: >-
-  Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing.
-  Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux),
-  when a component rerenders too often, loops infinitely ("too many re-renders"), shows stale or not-updating state, fails
-  with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists
-  scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library,
-  typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and
-  deployment — use react-native or nextjs.
+description: 'Builds, debugs, and reviews React apps: components, hooks, state, Server Components, forms, performance, testing. Use when writing or refactoring components, choosing state management (useState, Context, Zustand, TanStack Query, Redux), when a component rerenders too often, loops infinitely ("too many re-renders"), shows stale or not-updating state, fails with a hydration mismatch or hook-order error, when an effect fires twice or fetches race, when typing lags or long lists scroll slowly, when adopting React 19, Server Actions, or the React Compiler, when testing components with Testing Library, typing props in TypeScript, or reviewing AI-generated React code. Not for React Native (mobile) or Next.js routing and deployment — use react-native or nextjs.'
 homepage: https://clawic.com/skills/react
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: ⚛️
@@ -21,9 +14,17 @@ metadata:
       - node
     configPaths:
     - ~/Clawic/data/react/
+    - ~/react/
+    - ~/clawic/react/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/react/
+      - ~/react/
+      - ~/clawic/react/
 ---
 
-User preferences and memory live in `~/Clawic/data/react/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/react/` or `~/clawic/react/`), move it to `~/Clawic/data/react/`.
+User preferences and memory live in `~/Clawic/data/react/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/react/` or `~/clawic/react/`), move it to `~/Clawic/data/react/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

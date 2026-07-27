@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/personal-finance-tracker/
     displayName: Personal Finance Tracker
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/personal-finance-tracker/
 ---
 
 # Personal Finance Tracker

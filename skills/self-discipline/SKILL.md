@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/self-discipline/
     displayName: Self Discipline
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/self-discipline/
 ---
 
 Instructions written but never followed. Lessons logged but never read. The same mistakes repeated across sessions. This skill breaks that cycle permanently.

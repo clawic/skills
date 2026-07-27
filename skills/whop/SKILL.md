@@ -25,6 +25,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/whop/
     displayName: Whop
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/whop/
 ---
 
 ## When to Use

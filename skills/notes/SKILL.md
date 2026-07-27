@@ -1,19 +1,10 @@
 ---
 name: Notes (Local, Apple, Notion, Obsidian & more)
 slug: notes
-version: 1.1.4
-description: >-
-  Captures, structures, and retrieves notes in local markdown, Apple Notes, Bear, Obsidian, Notion, or Evernote.
-  Use when the user says take notes, write this up, capture this, or turn this transcript into a note; for meeting,
-  1-on-1, decision, journal, project, or research notes; when a note must land in a specific app or vault; when
-  action items need owners and real dates; when a note cannot be found again and titles, tags, folders, or an index
-  are the problem; when quick captures pile up untriaged; when a decision needs a durable record; when a vault shows
-  conflicted copies, duplicates, or links broken by a rename; when notes must move between apps, be exported, or be
-  backed up; and when something is too sensitive to write down at all. Not for journaling practice and prompts
-  (`journal`), meeting facilitation and agendas (`meetings`), Notion API development (`notion-api-integration`),
-  running a to-do list (`task-list`), or growing a linked atomic-note knowledge base (`pkm`).
+version: 1.1.5
+description: Captures, structures, and retrieves notes in local markdown, Apple Notes, Bear, Obsidian, Notion, or Evernote. Use when the user says take notes, write this up, capture this, or turn this transcript into a note; for meeting, 1-on-1, decision, journal, project, or research notes; when a note must land in a specific app or vault; when action items need owners and real dates; when a note cannot be found again and titles, tags, folders, or an index are the problem; when quick captures pile up untriaged; when a decision needs a durable record; when a vault shows conflicted copies, duplicates, or links broken by a rename; when notes must move between apps, be exported, or be backed up; and when something is too sensitive to write down at all. Not for journaling practice and prompts (`journal`), meeting facilitation and agendas (`meetings`), Notion API development (`notion-api-integration`), running a to-do list (`task-list`), or growing a linked atomic-note knowledge base (`pkm`).
 homepage: https://clawic.com/skills/notes
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📝
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/notes/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/notes/
+    - ~/clawic/notes/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/notes/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/notes/
+      - ~/clawic/notes/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/notes/config.yaml` (what the user declared: routing, vault path, cadences) and `~/Clawic/data/notes/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files; never assume the list is fixed. Read `~/Clawic/data/notes/actions.md` before any question about commitments, deadlines, or what someone owes. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/notes/config.yaml` (what the user declared: routing, vault path, cadences) and `~/Clawic/data/notes/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files; never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/notes/actions.md` before any question about commitments, deadlines, or what someone owes. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a note of any type; an action item, a completion, or a changed deadline; a decision and what it supersedes; a person who now owns something; the project a note belongs to; a routing choice, vault path, database id, or folder name that cost effort to find; a naming or tagging convention that got settled; a review that ran; or a template the user reshaped. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and projects go to shared boxes**, not here: attendees and action owners to `~/Clawic/data/contacts/contacts.md`, and the project a note belongs to `~/Clawic/data/projects/<project>.md`. The note keeps only the name as a pointer. Duplicating a person or a project is how two skills start contradicting each other.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a note you create, not in text the user pastes in to be saved. This is the domain where the user pastes most: a dump from a call carries the bridge PIN, the wifi password, the key someone read out loud. Replace each value with its pointer before writing — `env:NOTION_API_KEY`, `keychain:bear-token`, `1password:Work/Notion/agent`, `file:~/.config/notion/api_key` — and say in one line that you did it. If data sits at an old location (`~/notes/` or `~/clawic/notes/`), move it to `~/Clawic/data/notes/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a note you create, not in text the user pastes in to be saved. This is the domain where the user pastes most: a dump from a call carries the bridge PIN, the wifi password, the key someone read out loud. Replace each value with its pointer before writing — `env:NOTION_API_KEY`, `keychain:bear-token`, `1password:Work/Notion/agent`, `file:~/.config/notion/api_key` — and say in one line that you did it. If data sits at an old location (`~/notes/` or `~/clawic/notes/`), move it to `~/Clawic/data/notes/`, and say in one line that you moved it and from where.
 
 A note is worth what it is worth on the day someone searches for it, which is usually months later and usually not the person who wrote it. Write for that day: a title that states the claim, a date, the people, the decision, and the commitments with owners. Capture during the event, not after — Ebbinghaus's forgetting curve costs you most of the unrecorded detail within 24 hours, and none of it comes back. Work from defaults immediately: never open with questions about which apps they use or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone) → the Configuration table default.
 

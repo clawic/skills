@@ -24,6 +24,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/cursor/
     displayName: Cursor
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cursor/
 ---
 
 ## When to Use

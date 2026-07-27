@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "f4bf60e728cc54a0f4b79f5a5c3a5f0ef90a3dc21a2431d27720585c5495a876",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "c32966d10d2aed12e33f196afd9bd5e464de4e3144775470fc08411ad155d3c3",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "vps",
     "name": "VPS",
     "description": "Runs rented virtual private servers end to end: picking a provider and plan, first boot, snapshots, resizing, IP addresses, and moving between hosts. Use when choosing between Hetzner, DigitalOcean, Vultr, or Linode, when a box is unreachable and it is unclear whether the fault is the provider or the machine, when SSH refuses and the only way in is the web console or rescue mode, when the disk filled, the plan has to change, or a snapshot has to be restored, when a firewall rule looks correct but is ignored, when the provider sends an abuse notice or suspends the server, when outbound mail is rejected or blacklisted, or when bandwidth overage or IPv4 charges make the bill jump. Covers provider firewalls, private networking, and restorable backups. Not for Linux internals (`linux`), container runtime problems (`docker`), reverse-proxy/TLS configuration (`nginx`), DNS record design (`dns`), or managed platforms with no server to administer (`hosting`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/vps",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/vps/config.yaml` (what the user declared) and `~/Clawic/data/vps/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file th",
     "repositoryPath": "skills/vps",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/vps/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/_meta.json",
-      "byteCount": 234,
-      "sha256": "ee7039c01d682eb3a92184046e784008d5443234e447a01a6feb4098fcace9ad"
+      "byteCount": 308,
+      "sha256": "d8131b9aab415f220fab05afbf316a1842023ab7ae60aeea67f6896862439a40"
     },
     {
       "path": "access.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/vps/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/memory-template.md",
-      "byteCount": 21031,
-      "sha256": "3b879037783a2bc5e8c048d199ba9552665d9b4a035fb4c61e3bce18d5d3969e"
+      "byteCount": 21261,
+      "sha256": "97c268aeee65b2aca41a48b291c2bd6a05470f9a28fe0ec85d1e306ffe23a816"
     },
     {
       "path": "migration.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/vps/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/vps/SKILL.md",
-      "byteCount": 29398,
-      "sha256": "861672ee54ff0c2813f897e3fb413ed5e989b6d6fc9ba3747c54d37e8f7bb07d"
+      "byteCount": 29586,
+      "sha256": "27295cb682d76c819b4d086223de560369461704e10027f4149a4385ae099cda"
     }
   ]
 }

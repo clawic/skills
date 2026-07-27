@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "b4490efc902e32e9b65a2406e660e708857d77c1f5f4c0415ff8c8c9a9f82923",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "7ac3a1570c9e4e5cb399d908eb5d80d4cd05bc8338182132455e9958815e9b86",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "ios",
     "name": "iOS",
     "description": "Builds, ships, and debugs native iOS apps: lifecycle, permissions, entitlements, push, widgets, StoreKit, and App Store review. Use when a submission is rejected or a guideline blocks a release; when a permission prompt never appears, or a call fails with a missing-entitlement error; when push, background refresh, or a background upload never runs; when a universal link opens Safari instead of the app; when the app is killed by the watchdog, by jetsam, or with 0xdead10cc, hangs on launch, or crashes only on device; when a widget, Live Activity, or app extension runs out of memory; when purchases, subscriptions, or restore fail; when a privacy manifest, tracking prompt, or data label is required; when layout breaks under Dynamic Type; or when a new iOS release breaks a shipped app. Not for Swift language mechanics (`swift`), IDE, signing and build settings (`xcode`), store listings and submission workflow (`app-store`), or cross-platform apps (`react-native`, `flutter`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/ios",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/ios/config.yaml` (what the user declared) and `~/Clawic/data/ios/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). An observation n",
     "repositoryPath": "skills/ios",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/ios/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/_meta.json",
-      "byteCount": 234,
-      "sha256": "96101714a6a0e9a9d77de438a4366b9c6e9b4eac655e015ee4663e397f545322"
+      "byteCount": 308,
+      "sha256": "2430dbf964c063222411a1f45cfdda23a552cd7617c3292ec2a7985ebdf28c05"
     },
     {
       "path": "accessibility.md",
@@ -117,8 +117,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/ios/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/memory-template.md",
-      "byteCount": 26269,
-      "sha256": "e48d5f397f5a26f454519a377ef52e8608f24df7a22617feb9131298cbc582b2"
+      "byteCount": 26499,
+      "sha256": "a8e8e1ace3ff04282e48a14a85af20a255fa6b88742f5dc99246c467e8105a9e"
     },
     {
       "path": "networking.md",
@@ -173,8 +173,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/ios/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/SKILL.md",
-      "byteCount": 31394,
-      "sha256": "6b2a59d0f302756dc6a18d7b2199a30e788bebb063a02a3f8840fea96a102d19"
+      "byteCount": 32212,
+      "sha256": "cf3657fb530be4755f11de50aef275f8e089992bd12a1e7c49bf0ef11c78862a"
     },
     {
       "path": "storekit.md",

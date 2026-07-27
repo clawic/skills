@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/kimi/
     displayName: Kimi
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/kimi/
 ---
 
 ## When to Use

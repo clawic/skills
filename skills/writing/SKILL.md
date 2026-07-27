@@ -1,19 +1,10 @@
 ---
 name: Writing
 slug: writing
-version: 1.1.1
-description: >-
-  Drafts, edits, and rewrites prose in the user's own voice — emails, posts, essays, memos, proposals, social copy.
-  Use when asked to write, draft, edit, tighten, shorten, rewrite, or proofread something; when a draft reads flat,
-  wordy, robotic, or "not like me"; when a piece will not start, a sentence will not come out right, or the ending
-  trails off; when an email has to deliver bad news, say no, chase a reply, or make an ask that lands; when a post
-  needs a hook, a headline, or a cut to fit a limit; when order, transitions, or paragraph structure are the real
-  problem; when writing in a second language, or matching a house style, spelling variant, or word count. Learns
-  and reuses their voice across sessions. Not for grammar-only fixes (`grammar`), sales copy (`copywriting`), book
-  manuscripts (`book-writing`), journal papers (`academic-writing`), narrative craft (`storytelling`), versioned
-  draft-and-audit workflows (`write`), or inbox triage and follow-ups (`email-management`).
+version: 1.1.2
+description: Drafts, edits, and rewrites prose in the user's own voice — emails, posts, essays, memos, proposals, social copy. Use when asked to write, draft, edit, tighten, shorten, rewrite, or proofread something; when a draft reads flat, wordy, robotic, or "not like me"; when a piece will not start, a sentence will not come out right, or the ending trails off; when an email has to deliver bad news, say no, chase a reply, or make an ask that lands; when a post needs a hook, a headline, or a cut to fit a limit; when order, transitions, or paragraph structure are the real problem; when writing in a second language, or matching a house style, spelling variant, or word count. Learns and reuses their voice across sessions. Not for grammar-only fixes (`grammar`), sales copy (`copywriting`), book manuscripts (`book-writing`), journal papers (`academic-writing`), narrative craft (`storytelling`), versioned draft-and-audit workflows (`write`), or inbox triage and follow-ups (`email-management`).
 homepage: https://clawic.com/skills/writing
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ✍️
@@ -26,9 +17,17 @@ metadata:
     - ~/Clawic/data/writing/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/writing/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/writing/config.yaml` (what the user declared) and `~/Clawic/data/writing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person, and `~/Clawic/data/projects/<project>.md` before writing into an ongoing project. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/writing/config.yaml` (what the user declared) and `~/Clawic/data/writing/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person, and `~/Clawic/data/projects/<project>.md` before writing into an ongoing project. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a voice trait confirmed or corrected; a sample of their own writing worth keeping; a rejection ("never say that"); a format or channel convention they hold; a style sheet for a publication, client, or project; a piece finished or published; a template that worked and will be reused — a cold email, a bio, a sign-off, an editorial letter, an outline. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

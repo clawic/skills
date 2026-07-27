@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "3d7ba9c4ac5d424f4a79956290aa3cf7c313c13a8250790ff1b051523401ae99",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "f64b4a06e103aa1b515998b06e3bd5408ec060bf1c9839470482b5b3d17e5996",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "android",
     "name": "Android",
     "description": "Builds, debugs, ships, and hardens Android apps: Gradle, Jetpack Compose, XML Views, ADB, and the Play release path. Use when a Gradle build fails or a dependency resolves to the wrong version, an APK will not install, or `adb` cannot see the device; when the app crashes, ANRs, leaks, or works on the emulator but not on a real phone; when Compose recomposes too much, state resets on rotation, or a list janks; when WorkManager never runs, an alarm is throttled, or a foreground service crashes at start; when a runtime permission is denied silently, scoped storage blocks a file, or Play rejects a declaration; when raising targetSdk changes behavior; when signing, R8 keep rules, bundle size, staged rollout, or Android vitals are the problem; also Room migrations, deep links, emulators, foldables, and CI builds. Not for Kotlin language mechanics (`kotlin`), store-listing ASO (`google-play-store`), or cross-platform frameworks (`flutter`, `react-native`).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/android",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/android/config.yaml` (what the user declared) and `~/Clawic/data/android/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/android",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/android/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/_meta.json",
-      "byteCount": 242,
-      "sha256": "0aa51300561ea71588b375f508884950127b390c974e4d5978b26e02ef408f91"
+      "byteCount": 316,
+      "sha256": "74465ac108d796a966b16cf9ac5785d18024c8f131cdb1bd850a46c011f5cf4f"
     },
     {
       "path": "architecture.md",
@@ -110,8 +110,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/android/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/memory-template.md",
-      "byteCount": 23443,
-      "sha256": "a8cc7851dfa1513d18874062478a4fed3d2d3dc819972f346049de6112030492"
+      "byteCount": 23673,
+      "sha256": "fac89e024af6a017d80af7ab352d7d971093c7ea0f7acce266b61013e8915eba"
     },
     {
       "path": "networking.md",
@@ -166,8 +166,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/android/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/SKILL.md",
-      "byteCount": 36055,
-      "sha256": "d9d4da70915e37b0f4930b9b5cc9807b2f1d5ed6254a4bffa9f4e9a5a111feae"
+      "byteCount": 36863,
+      "sha256": "548ed0151dfeee62ea8d37edf544553aeca4a76f25842428ac71b2f731083365"
     },
     {
       "path": "testing.md",

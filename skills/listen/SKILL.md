@@ -2,17 +2,9 @@
 name: Listen
 slug: listen
 version: 1.0.3
-description: >-
-  Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and
-  commands in voice-dictated messages. Use when a message arrived by voice and a
-  word breaks the sentence, dictation mangles proper nouns, jargon, amounts, times,
-  or email addresses, the user says "no, I said X" or repeats themselves, transcripts
-  contain filler, spoken punctuation, or hallucinated sentences, the user dictates an
-  email or document by voice, or an STT engine (Whisper or cloud speech) needs
-  vocabulary tuning for recurring terms. Not for transcribing audio files or for
-  typed-text typos.
+description: 'Repairs garbled speech-to-text input: fixes mistranscribed names, numbers, and commands in voice-dictated messages. Use when a message arrived by voice and a word breaks the sentence, dictation mangles proper nouns, jargon, amounts, times, or email addresses, the user says "no, I said X" or repeats themselves, transcripts contain filler, spoken punctuation, or hallucinated sentences, the user dictates an email or document by voice, or an STT engine (Whisper or cloud speech) needs vocabulary tuning for recurring terms. Not for transcribing audio files or for typed-text typos.'
 homepage: https://clawic.com/skills/listen
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 👂
@@ -23,9 +15,17 @@ metadata:
     displayName: Listen
     configPaths:
     - ~/Clawic/data/listen/
+    - ~/listen/
+    - ~/clawic/listen/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/listen/
+      - ~/listen/
+      - ~/clawic/listen/
 ---
 
-Voice input reaches the agent as text that already passed through a speech-to-text engine. Good engines hold 5-10% word error rate on clean conversational English, but the errors concentrate exactly where meaning lives: proper nouns, domain jargon, and numbers. This skill is the repair layer between the raw transcript and your response. Learned corrections and preferences persist in `~/Clawic/data/listen/` (see `setup.md` on first use, `lexicon.md` for the file formats). If you have data at an old location (`~/listen/` or `~/clawic/listen/`), move it to `~/Clawic/data/listen/`.
+Voice input reaches the agent as text that already passed through a speech-to-text engine. Good engines hold 5-10% word error rate on clean conversational English, but the errors concentrate exactly where meaning lives: proper nouns, domain jargon, and numbers. This skill is the repair layer between the raw transcript and your response. Learned corrections and preferences persist in `~/Clawic/data/listen/` (see `setup.md` on first use, `lexicon.md` for the file formats). If you have data at an old location (`~/listen/` or `~/clawic/listen/`), move it to `~/Clawic/data/listen/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

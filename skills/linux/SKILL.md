@@ -1,23 +1,10 @@
 ---
 name: Linux
 slug: linux
-version: 1.0.5
-description: >-
-  Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck
-  processes, systemd units, cron, networking, SSH, and boot failures. Use when a
-  service starts by hand but fails at boot, a process ignores kill -9, df and du
-  disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux
-  blocks a write, a job works in the shell but not in cron, sshd rejects a key,
-  an upgrade leaves packages half-configured, load is high while the CPU sits
-  idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a
-  security baseline. Also for setting up a fresh server, deciding what to alert
-  on, backups whose restore has never been tested, a host that may be
-  compromised, and desktop or laptop trouble — GPU drivers, Wayland, suspend,
-  audio, Wi-Fi. Covers Debian/Ubuntu, RHEL/Fedora, Arch, Alpine, SUSE and WSL.
-  Not for shell-script syntax (bash) or container build and runtime internals
-  (docker).
+version: 1.0.6
+description: 'Debugs and hardens Linux hosts: permissions, disk full, OOM kills, stuck processes, systemd units, cron, networking, SSH, and boot failures. Use when a service starts by hand but fails at boot, a process ignores kill -9, df and du disagree, a box runs out of memory or inodes, sudo or ACLs deny access, SELinux blocks a write, a job works in the shell but not in cron, sshd rejects a key, an upgrade leaves packages half-configured, load is high while the CPU sits idle, or a host needs firewall rules, users, LVM, journald, kernel tuning, or a security baseline. Also for setting up a fresh server, deciding what to alert on, backups whose restore has never been tested, a host that may be compromised, and desktop or laptop trouble — GPU drivers, Wayland, suspend, audio, Wi-Fi. Covers Debian/Ubuntu, RHEL/Fedora, Arch, Alpine, SUSE and WSL. Not for shell-script syntax (bash) or container build and runtime internals (docker).'
 homepage: https://clawic.com/skills/linux
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🐧
@@ -30,9 +17,22 @@ metadata:
     - ~/Clawic/data/servers/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/linux/
+    - ~/clawic/linux/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/linux/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/linux/
+      - ~/clawic/linux/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/linux/config.yaml` (what the user declared) and `~/Clawic/data/linux/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index IS the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before any "which hosts do I have" question, and a host's `baselines/<host>.md` before calling any number on it high or low. If none of it exists, work from defaults and say nothing about it. If you find data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Clawic/data/linux/`.
+**Data.** At the start of every session, read `~/Clawic/data/linux/config.yaml` (what the user declared) and `~/Clawic/data/linux/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index IS the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before any "which hosts do I have" question, and a host's `baselines/<host>.md` before calling any number on it high or low. If none of it exists, work from defaults and say nothing about it. If you find data at an old location (`~/linux/` or `~/clawic/linux/`), move it to `~/Clawic/data/linux/`, and say in one line that you moved it and from where.
 
 **Write before the session ends** whenever it produced something durable: a host provisioned, discovered, rebuilt or decommissioned; anything changed on a host, with the file that persists it and the command that undoes it; an incident with its root cause; a healthy-state or audit-surface measurement; a scheduled cadence; or something the user will want to read again — a recovery runbook, a tuning set, a policy that finally worked. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "8e1a4dc62b65b3cb0bf4826100fb35f853b8473659cfd6e6777f1b0694309287",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "f3ccfe885a50e784cf5ceee221069b659cbbdb1fb96c0388778e26c0ab95c348",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "study",
     "name": "Study",
     "description": "Runs a student's whole term: course load, weekly plan, lectures, notes, retrieval practice, coursework deadlines, grades, and exams. Use when a syllabus, reading list, or semester has to become a weekly schedule; when an exam, midterm, final, viva, or professional certification sits on a date; when revision is not sticking, rereading has replaced recall, or a topic will not stay in memory; when review intervals, decks, or a past-paper plan need designing; when assignments, problem sets, lab reports, essays, or a thesis stack up against deadlines; when several courses compete for the same hours; when procrastination, cramming, or a missed week has to be recovered; when a bad mark needs a post-mortem; or when the question is what to study first and for how long. Covers note systems, study groups, tutors, open-book and adaptive tests, and exam-day tactics. Not for teaching a concept on the spot (`learning`), self-teaching with no course or exam (`learn`), or authoring decks (`anki`).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/study",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/study/config.yaml` (what the user declared) and `~/Clawic/data/study/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/study",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/study/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/_meta.json",
-      "byteCount": 312,
-      "sha256": "4db0f12451bad140dbef14cc5404cd78caae0131c025eb36e0ac0d23bf96566b"
+      "byteCount": 386,
+      "sha256": "3b902c0f9c3bd0b50f123d366068cd843061bd1661c979a2aeb6df4cce13f8f1"
     },
     {
       "path": "certifications.md",
@@ -75,8 +75,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/study/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/memory-template.md",
-      "byteCount": 25997,
-      "sha256": "88f740472786e43fefee780b66ce29dce24eaa0acabb5582a456b9617fa66cfb"
+      "byteCount": 26227,
+      "sha256": "da6a340aea7d57753c95a2e3ea8b46c04d20aae01bf3a230a54919bb1cadbbba"
     },
     {
       "path": "motivation.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/study/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/study/SKILL.md",
-      "byteCount": 29133,
-      "sha256": "09bc8b89a293d26c3bbb61550c3812171f9d75ce6cf906b422dc17a9595364ce"
+      "byteCount": 29801,
+      "sha256": "950b2790c02f8a1ef55eddaf02d0a8206be58dfb7937fd23be6968b399ddb2a0"
     },
     {
       "path": "spacing.md",

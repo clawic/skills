@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "3d39efef434ea602445a263d49bede1aa50e79b407f10e9c2dd9d7f03629a83d",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "0a15e4c7bb09e446830a29b27a927a52dc8f62bc4a085e51fa60a69cd6682d7b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "doctor",
     "name": "Doctor",
     "description": "Triages symptoms, reads lab results and medication risks, and says how urgent something is: emergency now, seen today, or safe to watch. Use when someone describes chest pain, a headache, fever, a rash, dizziness, abdominal or back pain, a cough that will not clear, a lump, or unexplained weight loss and wants to know whether to go to the emergency room; when blood work, imaging, or a screening letter needs reading; when two medicines or supplements may interact, a dose looks wrong, or a side effect started; when a long-term condition — blood pressure, diabetes, asthma, thyroid, cholesterol — needs targets and monitoring; when preparing for an appointment, a second opinion, or a referral; and for a child's fever, a mood or drinking screen, contraception and menopause, or an older relative's medication load. Not step-by-step first-aid drills (`first-aid`), therapy technique (`therapist`), or cycle, pregnancy, and baby tracking (`period`, `pregnancy`, `baby`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/doctor",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/doctor/config.yaml` (what the user declared) and `~/Clawic/data/doctor/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/doctor",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/doctor/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/_meta.json",
-      "byteCount": 240,
-      "sha256": "de03215e24d68bf6761ff49588fa67d66ed22144fa2bb2d67b6065e8a78b1ca2"
+      "byteCount": 314,
+      "sha256": "4dab5ae8318bcd78b33d0840ca0eb099e0d00bf25232016a0d00e2e4b83ab85c"
     },
     {
       "path": "appointments.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/doctor/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/memory-template.md",
-      "byteCount": 23849,
-      "sha256": "5b5c5b1d108569987f993de3f5b03d64ef82dae84a2f49df9fc3bb6b79323331"
+      "byteCount": 24079,
+      "sha256": "52a9c0cf2cd20b07285c070afcc6efe426d172a0aac84ccfa3255c64e7aed94d"
     },
     {
       "path": "mental-health.md",
@@ -117,8 +117,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/doctor/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/SKILL.md",
-      "byteCount": 28521,
-      "sha256": "bf34667104e57b8a633c2f408fe78dc75110a0e17e94051d486f023e2226894d"
+      "byteCount": 29387,
+      "sha256": "7329c66f4d9eaf6f13b19e9af99303a70184358ab5cc78cb2d4d1ae155d00284"
     },
     {
       "path": "symptoms.md",

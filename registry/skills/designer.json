@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "f062bb2a4d0f788376faa3f4c8bcb853e8e1db3e28fb03fcbda84854114b6690",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "ab10c8f85a80141fede803114d2f64a987e124cf57b4fc2bbaff8241c063c873",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "designer",
     "name": "Designer",
     "description": "Operates as the designer on a job: decides what to make, makes it, defends it in review, and hands over files that can actually be built. Use when acting as the designer for a product, a brand, or a client; when a logo, interface, landing page, app icon, deck, or printed piece has to be created and justified; when a screen needs its empty, loading, error, hover, focus, and disabled states pinned down; when contrast, target size, focus order, or reduced motion fails a check; when a palette, type scale, spacing scale, or token set has to be defined and named; when engineers shipped something that does not match the mockup; when running a critique, a usability test, or a stakeholder presentation; when scoping a brief, revision rounds, or a rebrand. Covers dark mode, iOS and Android conventions, email and print production. Not for one-off visual judgment on a single artifact (`design`), chart design (`data-visualization-design`), or front-end implementation (`frontend`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/designer",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/designer/config.yaml` (what the user declared) and `~/Clawic/data/designer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/designer",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/designer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/designer/_meta.json",
-      "byteCount": 244,
-      "sha256": "f01e45d41feba5c6407a95bee8cbb50589ba67b2388c04d6e919b0b1417db36a"
+      "byteCount": 318,
+      "sha256": "9453d5bdd3581f55c51411c55f4e4fbc88d8653541a614b8a97d8a6e69d88123"
     },
     {
       "path": "accessibility.md",
@@ -110,8 +110,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/designer/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/designer/memory-template.md",
-      "byteCount": 25507,
-      "sha256": "065367fbf8ad88816bc43ee37c102a00e017774f5208658a37da5a87a244a470"
+      "byteCount": 25737,
+      "sha256": "9d87a37be73bb11399b8f63253a6dbc8e57d71176e8bbbe3e8f137efe8bc3a62"
     },
     {
       "path": "mobile.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/designer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/designer/SKILL.md",
-      "byteCount": 28955,
-      "sha256": "cc5b7979dc21ac9fb3da182b88b9806afb6d99b01fa0c2304e663e3d7a940a27"
+      "byteCount": 29769,
+      "sha256": "5031d12644bd5671a14fcaf6501469b39aef7956b0a9fe2e195ea18e0378966f"
     },
     {
       "path": "tokens.md",

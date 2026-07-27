@@ -2,10 +2,9 @@
 name: Tailwind CSS
 slug: tailwindcss
 version: 1.0.1
-description: >-
-  Writes and debugs Tailwind CSS: utility classes, theme config, dark mode, variants, plugins, and build setup. Not for CSS mechanics themselves — stacking contexts, flex sizing, and cascade behavior belong to the `css` skill. Use when a class produces no CSS, when dynamically built names (`bg-${color}-500`) never render, when styles work in dev but vanish after deploy, when your own CSS beats a utility or can't override one, when `@apply` breaks inside a Vue, Svelte, or CSS-module file, when `hover:`, `group-hover:`, `peer-*`, `has-[…]`, or `dark:` won't fire, when upgrading v3 to v4 (`@tailwind` directives, `tailwind.config.js` → `@theme`, renamed utilities), when adding custom colors, spacing, breakpoints, fonts, or keyframes, when wiring Tailwind into Vite, Next.js, Astro, SvelteKit, Rails, or Laravel, when the CSS bundle is huge or rebuilds crawl, when Preflight flattens third-party widgets, or when choosing between `@apply`, a component, and `tailwind-merge`.
+description: 'Writes and debugs Tailwind CSS: utility classes, theme config, dark mode, variants, plugins, and build setup. Not for CSS mechanics themselves — stacking contexts, flex sizing, and cascade behavior belong to the `css` skill. Use when a class produces no CSS, when dynamically built names (`bg-${color}-500`) never render, when styles work in dev but vanish after deploy, when your own CSS beats a utility or can''t override one, when `@apply` breaks inside a Vue, Svelte, or CSS-module file, when `hover:`, `group-hover:`, `peer-*`, `has-[…]`, or `dark:` won''t fire, when upgrading v3 to v4 (`@tailwind` directives, `tailwind.config.js` → `@theme`, renamed utilities), when adding custom colors, spacing, breakpoints, fonts, or keyframes, when wiring Tailwind into Vite, Next.js, Astro, SvelteKit, Rails, or Laravel, when the CSS bundle is huge or rebuilds crawl, when Preflight flattens third-party widgets, or when choosing between `@apply`, a component, and `tailwind-merge`.'
 homepage: https://clawic.com/skills/tailwindcss
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🌊
@@ -19,9 +18,17 @@ metadata:
     displayName: Tailwind CSS
     configPaths:
     - ~/Clawic/data/tailwindcss/
+    - ~/tailwindcss/
+    - ~/clawic/tailwindcss/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/tailwindcss/
+      - ~/tailwindcss/
+      - ~/clawic/tailwindcss/
 ---
 
-User preferences and memory live in `~/Clawic/data/tailwindcss/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/tailwindcss/` or `~/clawic/tailwindcss/`), move it to `~/Clawic/data/tailwindcss/`.
+User preferences and memory live in `~/Clawic/data/tailwindcss/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/tailwindcss/` or `~/clawic/tailwindcss/`), move it to `~/Clawic/data/tailwindcss/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

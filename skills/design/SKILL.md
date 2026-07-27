@@ -2,18 +2,26 @@
 name: Design
 slug: design
 version: 1.0.3
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 description: Executes and critiques visual design with quantified rules for hierarchy, spacing, type scale, color, and layout. Use when designing UI screens, landing pages, slides, posters, social graphics, emails, charts, or PDFs, when a design looks off, cluttered, amateur, or flat and the user cannot say why, when nothing stands out or text is hard to read, when choosing fonts, pairing typefaces, or building a palette without a design system, when adapting a screen to dark mode or mobile, or when reviewing generated HTML/CSS before delivery. Not for design tokens and component libraries (design-system) or brand strategy (branding).
 homepage: https://clawic.com/skills/design
 metadata:
   clawdbot:
-    emoji: "🎨"
+    emoji: 🎨
     displayName: Design
     configPaths:
     - ~/Clawic/data/design/
+    - ~/design/
+    - ~/clawic/design/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/design/
+      - ~/design/
+      - ~/clawic/design/
 ---
 
-User preferences and memory live in `~/Clawic/data/design/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/design/` or `~/clawic/design/`), move it to `~/Clawic/data/design/`.
+User preferences and memory live in `~/Clawic/data/design/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/design/` or `~/clawic/design/`), move it to `~/Clawic/data/design/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

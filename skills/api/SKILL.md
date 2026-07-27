@@ -2,15 +2,9 @@
 name: API / Application Programming Interface
 slug: api
 version: 1.3.7
-description: >-
-  Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services.
-  Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403,
-  or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries
-  with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching
-  with ETags, or syncing API data into a local database — with per-service gotchas and curl examples. Not for designing or building
-  your own API.
+description: 'Integrates and debugs third-party REST and GraphQL APIs: auth, rate limits, pagination, webhooks, with reference for 147 services. Use when calling Stripe, OpenAI, GitHub, Slack, Twilio, or any external service, when a request that should work returns 401, 403, or 429, times out, hits a CORS error, or silently returns wrong data, when choosing an OAuth flow, signing requests, adding retries with backoff and idempotency keys, verifying webhook signatures, consuming SSE streams, uploading files, polling async jobs, caching with ETags, or syncing API data into a local database — with per-service gotchas and curl examples. Not for designing or building your own API.'
 homepage: https://clawic.com/skills/api
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🔌
@@ -25,9 +19,17 @@ metadata:
     displayName: API / Application Programming Interface
     configPaths:
     - ~/Clawic/data/api/
+    - ~/api/
+    - ~/clawic/api/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/api/
+      - ~/api/
+      - ~/clawic/api/
 ---
 
-REST and GraphQL API reference for 147 services: authentication, endpoints, rate limits, and per-service gotchas, plus pattern playbooks for everything that goes wrong between you and an API. User preferences live in `~/Clawic/data/api/` — the only location this skill writes (see `setup.md` on first use). If you have data at an old location (`~/api/` or `~/clawic/api/`), move it to `~/Clawic/data/api/`.
+REST and GraphQL API reference for 147 services: authentication, endpoints, rate limits, and per-service gotchas, plus pattern playbooks for everything that goes wrong between you and an API. User preferences live in `~/Clawic/data/api/` — the only location this skill writes (see `setup.md` on first use). If you have data at an old location (`~/api/` or `~/clawic/api/`), move it to `~/Clawic/data/api/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

@@ -2,15 +2,8 @@
 name: Remind
 slug: remind
 version: 1.0.4
-changelog: "Display name shown correctly"
-description: >-
-  Reminds the user of commitments they already know — meetings, deadlines, bills,
-  promises, follow-ups — at the right lead time, in their style. Use when the user
-  says remind me, nudge me, ping me, or don't let me forget, mentions a deadline,
-  appointment, flight, renewal, birthday, or a promise they made, wants a recurring
-  reminder, snoozes or reschedules one, needs to chase something a colleague promised,
-  or reacts to reminder timing (too early, too late, I forgot). Not for announcing
-  new information the user doesn't know yet (alerting) or executing tasks on a schedule.
+changelog: Display name shown correctly
+description: Reminds the user of commitments they already know — meetings, deadlines, bills, promises, follow-ups — at the right lead time, in their style. Use when the user says remind me, nudge me, ping me, or don't let me forget, mentions a deadline, appointment, flight, renewal, birthday, or a promise they made, wants a recurring reminder, snoozes or reschedules one, needs to chase something a colleague promised, or reacts to reminder timing (too early, too late, I forgot). Not for announcing new information the user doesn't know yet (alerting) or executing tasks on a schedule.
 homepage: https://clawic.com/skills/remind
 metadata:
   clawdbot:
@@ -18,9 +11,17 @@ metadata:
     displayName: Remind
     configPaths:
     - ~/Clawic/data/remind/
+    - ~/remind/
+    - ~/clawic/remind/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/remind/
+      - ~/remind/
+      - ~/clawic/remind/
 ---
 
-User preferences, learned lead times, and the active reminder list live in `~/Clawic/data/remind/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/remind/`, `~/clawic/remind/`, or preferences stored inside this file's sections), move it to `~/Clawic/data/remind/`.
+User preferences, learned lead times, and the active reminder list live in `~/Clawic/data/remind/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/remind/`, `~/clawic/remind/`, or preferences stored inside this file's sections), move it to `~/Clawic/data/remind/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

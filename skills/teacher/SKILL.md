@@ -1,19 +1,10 @@
 ---
 name: Teacher
 slug: teacher
-version: 1.0.1
-description: >-
-  Plans lessons, units and syllabi, designs assessments and rubrics, marks and gives feedback at scale, and runs
-  a room that behaves. Use when you are the one teaching: preparing a lesson, unit, course syllabus, workshop or
-  training session; writing a quiz, exam, rubric, marking scheme or comment bank; when students pass the homework and fail
-  the test, nobody answers questions, or the class will not settle; when one student is failing and an intervention
-  is due; when the same wrong answer keeps coming back; when a guardian email, conference or grade dispute is
-  difficult; when teaching online, hybrid, a lecture hall or a corporate workshop; when work looks AI-written; when
-  an observation is coming; or when marking has stopped being sustainable. Covers K-12, higher education, bootcamps
-  and adult training. Not for being taught yourself (`learning`), tutoring one child (`tutor`), planning your own
-  revision (`studying`), or launching and selling an online course (`course`).
+version: 1.0.2
+description: 'Plans lessons, units and syllabi, designs assessments and rubrics, marks and gives feedback at scale, and runs a room that behaves. Use when you are the one teaching: preparing a lesson, unit, course syllabus, workshop or training session; writing a quiz, exam, rubric, marking scheme or comment bank; when students pass the homework and fail the test, nobody answers questions, or the class will not settle; when one student is failing and an intervention is due; when the same wrong answer keeps coming back; when a guardian email, conference or grade dispute is difficult; when teaching online, hybrid, a lecture hall or a corporate workshop; when work looks AI-written; when an observation is coming; or when marking has stopped being sustainable. Covers K-12, higher education, bootcamps and adult training. Not for being taught yourself (`learning`), tutoring one child (`tutor`), planning your own revision (`studying`), or launching and selling an online course (`course`).'
 homepage: https://clawic.com/skills/teacher
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📚
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/teacher/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/teacher/
+    - ~/clawic/teacher/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/teacher/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/teacher/
+      - ~/clawic/teacher/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/teacher/config.yaml` (what the user declared) and `~/Clawic/data/teacher/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read the class file for any group named in the request before planning, grouping, marking or advising about that group. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/teacher/config.yaml` (what the user declared) and `~/Clawic/data/teacher/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read the class file for any group named in the request before planning, grouping, marking or advising about that group. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a class taken on or a roster changed; an accommodation that changes how a lesson runs; a lesson that ran short or long against its plan; a plan, rubric, marking scheme, blueprint, comment bank or run sheet that worked; an explanation that finally landed; a wrong answer that keeps coming back and the question that catches it; an assessment and how it scored; an intervention and its review date; a supervision meeting and what was agreed; an observation target; or a fact about the room, timetable or platform that cost effort to find. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People who are contacted again go to the shared address book `~/Clawic/data/contacts/contacts.md`** — guardians, colleagues, line managers, mentors, workshop clients — one row per person, identified by `Key` (email in lower case). Read it before adding and update the matching row in place; never append a second row for the same person, and never rewrite a header another skill wrote. **Students do not go there**: a roster of minors belongs in `~/Clawic/data/teacher/classes/<class-id>.md`, and the guardian's row names their student only. Work that runs over weeks with milestones — a course build, a scheme rewrite — goes to `~/Clawic/data/projects/<project>.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:CANVAS_API_TOKEN`, `keychain:school-sis`, `1password:School/Gradebook`. Separately from credentials, three things stay out of that folder entirely: a safeguarding disclosure (it goes to the school's designated lead, the same day, through the school's channel), a medical diagnosis or counselling content (record the adjustment, not the condition), and any minor's address, phone number or identity number. If data sits at an old location (`~/teacher/` or `~/clawic/teacher/`), move it to `~/Clawic/data/teacher/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:CANVAS_API_TOKEN`, `keychain:school-sis`, `1password:School/Gradebook`. Separately from credentials, three things stay out of that folder entirely: a safeguarding disclosure (it goes to the school's designated lead, the same day, through the school's channel), a medical diagnosis or counselling content (record the adjustment, not the condition), and any minor's address, phone number or identity number. If data sits at an old location (`~/teacher/` or `~/clawic/teacher/`), move it to `~/Clawic/data/teacher/`, and say in one line that you moved it and from where.
 
 Teaching fails in a small number of ways, and almost none of them are about how well the explanation was phrased. Name which one is in play — the objective was never observable, the prerequisite was never tested, the response rate was too low to know anything, the scaffold was never faded, or the practice was massed and never retrieved — then change the design, not the delivery. Every recommendation states the time it costs, because a plan the teacher cannot sustain is a plan they abandon in week three. Work from defaults immediately: never open with questions about their stage, subject or school policy. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone) → the Configuration table default.
 

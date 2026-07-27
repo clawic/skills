@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/calendar-planner/
     displayName: Calendar Planner
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/calendar-planner/
 ---
 
 # Calendar Planner

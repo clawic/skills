@@ -1,19 +1,10 @@
 ---
 name: Japanese
 slug: japanese
-version: 1.0.1
-description: >-
-  Writes and edits Japanese that reads as if a native wrote it — casual, 敬体, or full keigo. Use when composing
-  anything in Japanese (LINE or Slack message, business email, 履歴書, 退職願, 議事録, note or X post, speech,
-  年賀状, contract clause, manga or game dialogue), or when Japanese text sounds stiff, textbook, translated or
-  AI-generated; when 尊敬語 and 謙譲語, 二重敬語, させていただく, 了解 versus 承知, or さん versus 様 come out
-  wrong; when は/が, particles, transitivity, mixed 敬体 and 常体, kanji-versus-kana balance, 送り仮名 or 全角
-  punctuation are off; when counters, 万/億 grouping, 令和 dates, addresses or a name's reading are needed; when
-  slang, 絵文字 or dialect have to be calibrated to a reader; or when a refusal, apology or request must land.
-  Not for translating an existing source text (`translate`), other languages (`chinese`, `korean`), or
-  travelling in Japan (`japan`).
+version: 1.0.2
+description: Writes and edits Japanese that reads as if a native wrote it — casual, 敬体, or full keigo. Use when composing anything in Japanese (LINE or Slack message, business email, 履歴書, 退職願, 議事録, note or X post, speech, 年賀状, contract clause, manga or game dialogue), or when Japanese text sounds stiff, textbook, translated or AI-generated; when 尊敬語 and 謙譲語, 二重敬語, させていただく, 了解 versus 承知, or さん versus 様 come out wrong; when は/が, particles, transitivity, mixed 敬体 and 常体, kanji-versus-kana balance, 送り仮名 or 全角 punctuation are off; when counters, 万/億 grouping, 令和 dates, addresses or a name's reading are needed; when slang, 絵文字 or dialect have to be calibrated to a reader; or when a refusal, apology or request must land. Not for translating an existing source text (`translate`), other languages (`chinese`, `korean`), or travelling in Japan (`japan`).
 homepage: https://clawic.com/skills/japanese
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🇯🇵
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/japanese/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/japanese/
+    - ~/clawic/japanese/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/japanese/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/japanese/
+      - ~/clawic/japanese/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/japanese/config.yaml` (what the user declared) and `~/Clawic/data/japanese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Before writing to a named person or on a named channel, read that person's row in `## Recipients` and the channel's style box `## Boxes` names for it: dropping from 様 to さん after a month, or reading a client's name a different way than last time, is a defect even when both forms are grammatical. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/japanese/config.yaml` (what the user declared) and `~/Clawic/data/japanese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Before writing to a named person or on a named channel, read that person's row in `## Recipients` and the channel's style box `## Boxes` names for it: dropping from 様 to さん after a month, or reading a client's name a different way than last time, is a defect even when both forms are grammatical. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a term, product or person's name rendered in Japanese for the first time; a name's reading confirmed; a correction from a native reader; a politeness or address-form decision for a person or a channel; a slang term retired as stale; a piece delivered and how it landed; an environment fact that cost effort to find (a system that mangles 波ダッシュ, a form that only accepts 全角カナ, an audience older than assumed); or something the user will re-read — a template that finally worked, a naming decision, a speech script, a character's voice sheet. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and ongoing work go to the shared boxes, not here.** A recipient, a native reviewer, a 取引先 or an editor is a row in `~/Clawic/data/contacts/contacts.md`; a Japanese-language effort the user tracks as work in progress — a note blog, a 転職 search, a manga volume, a market entry — is `~/Clawic/data/projects/<project>.md`. Read the box before adding and update the existing entry in place. The honorific, the politeness level and the name's reading stay here, in `## Recipients`, keyed by their contacts key: the person belongs to every skill, how you address them in Japanese belongs to this one. Formats and identity keys travel in `memory-template.md`, so this works whether or not the owning skills are installed.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Platform and 会社 accounts are the temptation: store the pointer and strip the value — `env:LINE_CHANNEL_SECRET`, `keychain:note-login`, `1password:Work/X/ops`. If data sits at an old location (`~/japanese/` or `~/clawic/japanese/`), move it to `~/Clawic/data/japanese/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Platform and 会社 accounts are the temptation: store the pointer and strip the value — `env:LINE_CHANNEL_SECRET`, `keychain:note-login`, `1password:Work/X/ops`. If data sits at an old location (`~/japanese/` or `~/clawic/japanese/`), move it to `~/Clawic/data/japanese/`, and say in one line that you moved it and from where.
 
 Model-written Japanese is almost always grammatical and almost always wrong at the register: one notch too polite, particle-free, every sentence the same length, and structured like an English essay wearing です・ます. The job is to put back what a native adds without thinking — the 終助詞, the dropped subject, the right 助数詞, the 全角 comma, the kanji left open as kana — and to take out what English pushed in: 私は on every sentence, 〜することができます, 〜と言えるでしょう, a 40-character modifier stacked in front of の. Produce the Japanese first; explain in English only when asked. Work from defaults immediately: never open with questions about their register, their audience, or how casual to be. The one exception to silence is politeness level — while `politeness_default` is unset and the request names no recipient, state which level you are writing in before writing it (Rule 1). That is a statement, not a question. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone) → the Configuration table default.
 

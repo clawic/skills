@@ -2,20 +2,9 @@
 name: Svelte
 slug: svelte
 version: 1.0.2
-description: >-
-  Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters.
-  Use when the UI does not update after a state change, an effect loops forever
-  ("effect_update_depth_exceeded"), props or bindings stop reacting, a Map or class field is not
-  tracked, state leaks between users on the server, "window is not defined" breaks the build,
-  markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or
-  returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node,
-  Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes,
-  converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots
-  to snippets and on:click to onclick, typing props and route data in TypeScript,
-  testing components with Vitest or Playwright, and cutting bundle size and rerender cost.
-  Not for Vue or Nuxt, React, or plain browser JavaScript semantics.
+description: 'Builds, debugs, and reviews Svelte and SvelteKit apps: runes, stores, snippets, load functions, form actions, adapters. Use when the UI does not update after a state change, an effect loops forever ("effect_update_depth_exceeded"), props or bindings stop reacting, a Map or class field is not tracked, state leaks between users on the server, "window is not defined" breaks the build, markup mismatches on hydration, data stays stale after a mutation, a form action does nothing or returns 403, scoped CSS is pruned as an unused selector, transitions never fire, or a Node, Vercel, Cloudflare, or static adapter build fails. Also for migrating Svelte 4 to Svelte 5 runes, converting export let to $props, $: to $derived, createEventDispatcher to callback props, slots to snippets and on:click to onclick, typing props and route data in TypeScript, testing components with Vitest or Playwright, and cutting bundle size and rerender cost. Not for Vue or Nuxt, React, or plain browser JavaScript semantics.'
 homepage: https://clawic.com/skills/svelte
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🔥
@@ -29,9 +18,17 @@ metadata:
     displayName: Svelte
     configPaths:
     - ~/Clawic/data/svelte/
+    - ~/svelte/
+    - ~/clawic/svelte/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/svelte/
+      - ~/svelte/
+      - ~/clawic/svelte/
 ---
 
-User preferences and memory live in `~/Clawic/data/svelte/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/svelte/` or `~/clawic/svelte/`), move it to `~/Clawic/data/svelte/`.
+User preferences and memory live in `~/Clawic/data/svelte/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/svelte/` or `~/clawic/svelte/`), move it to `~/Clawic/data/svelte/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

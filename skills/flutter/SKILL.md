@@ -2,19 +2,9 @@
 name: Flutter
 slug: flutter
 version: 1.0.3
-description: >-
-  Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation,
-  performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows,
-  a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during
-  build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling
-  stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or
-  Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button
-  handling; when the keyboard covers a form field or validation misfires; when a platform channel throws
-  MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget,
-  golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK,
-  IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.
+description: 'Builds, debugs, and ships Flutter apps: widgets, layout constraints, state management, navigation, performance, and store releases. Use when writing Dart widgets or screens; when a RenderFlex overflows, a viewport is given unbounded height, or a RenderBox was not laid out; when setState is called during build or after dispose, or BuildContext is used across an async gap; when the UI janks, scrolling stutters, or images exhaust memory; when hot reload stops applying changes; when Provider, Riverpod, or Bloc rebuild too much or too little; when routing with Navigator or go_router, deep links, or back-button handling; when the keyboard covers a form field or validation misfires; when a platform channel throws MissingPluginException; when localizing strings or mirroring a layout for right-to-left; when widget, golden, or integration tests hang or fail in CI; or when a build works in debug but the release APK, IPA, or web bundle breaks. Not for React Native or native-only Swift and Kotlin work.'
 homepage: https://clawic.com/skills/flutter
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🐦
@@ -28,9 +18,17 @@ metadata:
     displayName: Flutter
     configPaths:
     - ~/Clawic/data/flutter/
+    - ~/flutter/
+    - ~/clawic/flutter/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/flutter/
+      - ~/flutter/
+      - ~/clawic/flutter/
 ---
 
-User preferences live in `~/Clawic/data/flutter/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/flutter/` or `~/clawic/flutter/`), move it to `~/Clawic/data/flutter/`.
+User preferences live in `~/Clawic/data/flutter/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/flutter/` or `~/clawic/flutter/`), move it to `~/Clawic/data/flutter/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

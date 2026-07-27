@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/family/
     displayName: Family
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/family/
 ---
 
 # Family

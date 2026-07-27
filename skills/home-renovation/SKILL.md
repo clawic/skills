@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/home-renovation/
     displayName: Home Renovation
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/home-renovation/
 ---
 
 ## Setup

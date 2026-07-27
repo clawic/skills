@@ -1,19 +1,10 @@
 ---
 name: Expenses
 slug: expenses
-version: 1.0.1
-description: >-
-  Logs, splits, categorizes and reports spending — daily expenses, shared costs, reimbursements, receipts, project
-  and trip budgets. Use when the user paid for something and wants it recorded, when a bill has to be split and
-  someone told what they owe, when a group trip or shared flat needs settling up, when a client owes money back
-  and the claim has to be assembled, when they ask where their money went or why a category jumped, when a
-  renovation, wedding or trip budget needs a remaining number, when something was paid in another currency, when a
-  refund, deposit or duplicate charge has to be booked, or when the log no longer matches the card statement. Not
-  for net worth or debt planning (`personal-finance-tracker`), zero-based budgeting (`zero-based-budgeting`),
-  subscription inventories (`subscriptions`), issuing invoices (`invoice`), OCR archiving of supplier invoices
-  (`invoices`), payment software (`billing`), or bookkeeping (`accountant`).
+version: 1.0.2
+description: Logs, splits, categorizes and reports spending — daily expenses, shared costs, reimbursements, receipts, project and trip budgets. Use when the user paid for something and wants it recorded, when a bill has to be split and someone told what they owe, when a group trip or shared flat needs settling up, when a client owes money back and the claim has to be assembled, when they ask where their money went or why a category jumped, when a renovation, wedding or trip budget needs a remaining number, when something was paid in another currency, when a refund, deposit or duplicate charge has to be booked, or when the log no longer matches the card statement. Not for net worth or debt planning (`personal-finance-tracker`), zero-based budgeting (`zero-based-budgeting`), subscription inventories (`subscriptions`), issuing invoices (`invoice`), OCR archiving of supplier invoices (`invoices`), payment software (`billing`), or bookkeeping (`accountant`).
 homepage: https://clawic.com/skills/expenses
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💸
@@ -26,9 +17,21 @@ metadata:
     - ~/Clawic/data/expenses/
     - ~/Clawic/data/finances/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/expenses/
+    - ~/clawic/expenses/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/expenses/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/expenses/
+      - ~/clawic/expenses/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/expenses/config.yaml` (what the user declared) and `~/Clawic/data/expenses/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index *is* the list of files; never work from a list of names memorized here, because most boxes get created after this skill was written. Read `~/Clawic/data/finances/` before any question about budgets, recurring charges, or which account something was paid from. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/expenses/` or `~/clawic/expenses/`), move it to `~/Clawic/data/expenses/`.
+**Data.** At the start of every session, read `~/Clawic/data/expenses/config.yaml` (what the user declared) and `~/Clawic/data/expenses/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index *is* the list of files; never work from a list of names memorized here, because most boxes get created after this skill was written. Read `~/Clawic/data/finances/` before any question about budgets, recurring charges, or which account something was paid from. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/expenses/` or `~/clawic/expenses/`), move it to `~/Clawic/data/expenses/`, and say in one line that you moved it and from where. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: an expense, a refund or a deposit; a split and the balances it moved; a settlement; a claim that changed status; a category or vendor rule; a budget envelope or its burn; a month close or a reconciliation pass; or something the user will want to read again — a settlement statement, a month or tax-year report, a written policy. `memory-template.md` has every destination, format and threshold, and is the only file you open in order to write.
 

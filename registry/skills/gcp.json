@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "426b601974762de467a12922b3c019bf1c2db1a3c33a1467040a7650eb470277",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "d2e88b9886651aa3116bfc7e9a770cc7ff3c6ed53c2dcb99efc1fc1cdc728965",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "gcp",
     "name": "Google Cloud",
     "description": "Architects, debugs, secures, and cost-optimizes Google Cloud — Cloud Run, GKE, Compute Engine, BigQuery, Cloud SQL, IAM, VPC. Use when deploying or reviewing anything on GCP, when a bill jumps or BigQuery scan cost has to come down, when a 403 PERMISSION_DENIED, a SERVICE_DISABLED, a RESOURCE_EXHAUSTED quota error, a 502/503/504, or an unreachable Cloud SQL instance has no obvious cause, when choosing between compute (Cloud Run, GKE, Cloud Functions) or databases (Cloud SQL, AlloyDB, Spanner, Firestore, Bigtable), when hardening service accounts, org policies, firewall rules, public buckets, or secrets, when writing Terraform against the google provider, or when auditing an inherited project. Covers VPC/subnet design, Private Google Access, Vertex AI/GPU quota, Pub/Sub/Dataflow, backups/DR, and gcloud. Not for Kubernetes manifest authoring (`k8s`), Terraform language mechanics (`terraform`), or PostgreSQL tuning inside Cloud SQL (`pg`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/gcp",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/gcp/config.yaml` (what the user declared) and `~/Clawic/data/gcp/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/gcp",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/gcp/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/_meta.json",
-      "byteCount": 243,
-      "sha256": "32d4cf52265f97897fefa9e032af2daa49d8b1d3e6a405c9aa10c8cdf6fc94d2"
+      "byteCount": 317,
+      "sha256": "9aa1325e3cc029076a2bbbf64d4867151069b91c4e72eaef41bd739a4a0025b0"
     },
     {
       "path": "bigquery.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/gcp/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/memory-template.md",
-      "byteCount": 29069,
-      "sha256": "6ffd5e33a610273d7e6fd089455538eff9aaa78f6a0af86a9aa61608e0fd33d5"
+      "byteCount": 29299,
+      "sha256": "f0e787a9ae9ee5794bd86594de57b182482e14815de36dc925c0dbcb121ae521"
     },
     {
       "path": "networking.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/gcp/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/gcp/SKILL.md",
-      "byteCount": 36398,
-      "sha256": "75928013da85bd90cbf34d8b19188d27c4869c12a3267185c96469a134882b5b"
+      "byteCount": 37117,
+      "sha256": "aa5942295d89dafe808f9261fe1940d6220a36c873c11736172cf70281080bc7"
     },
     {
       "path": "storage.md",

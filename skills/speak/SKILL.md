@@ -2,17 +2,9 @@
 name: Speak
 slug: speak
 version: 1.0.3
-description: >-
-  Writes and converts text into natural speech-ready output for any TTS engine:
-  normalization, prosody, pronunciation, and voice preferences. Use when a reply
-  will be read aloud or sent to a voice channel, when writing voiceover scripts,
-  spoken briefings, voice notifications, or dialogue turns, when TTS sounds
-  robotic, reads markdown, URLs, or code aloud, mispronounces names, garbles
-  numbers, dates, or acronyms, speaks too fast or in the wrong accent, or when
-  the user corrects pronunciation, pacing, or voice choice. Not for
-  speech-to-text or live two-way call setup.
+description: 'Writes and converts text into natural speech-ready output for any TTS engine: normalization, prosody, pronunciation, and voice preferences. Use when a reply will be read aloud or sent to a voice channel, when writing voiceover scripts, spoken briefings, voice notifications, or dialogue turns, when TTS sounds robotic, reads markdown, URLs, or code aloud, mispronounces names, garbles numbers, dates, or acronyms, speaks too fast or in the wrong accent, or when the user corrects pronunciation, pacing, or voice choice. Not for speech-to-text or live two-way call setup.'
 homepage: https://clawic.com/skills/speak
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🗣️
@@ -23,9 +15,17 @@ metadata:
     displayName: Speak
     configPaths:
     - ~/Clawic/data/speak/
+    - ~/speak/
+    - ~/clawic/speak/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/speak/
+      - ~/speak/
+      - ~/clawic/speak/
 ---
 
-Turns written replies into speech-ready text for any TTS engine and adapts voice, rate, and phrasing to the user over time. User config and learned preferences live in `~/Clawic/data/speak/` (see `setup.md` on first use, `memory-template.md` for the file format); the skill reads and writes only that folder. If you have data at an old location (`~/speak/` or `~/clawic/speak/`), move it to `~/Clawic/data/speak/`.
+Turns written replies into speech-ready text for any TTS engine and adapts voice, rate, and phrasing to the user over time. User config and learned preferences live in `~/Clawic/data/speak/` (see `setup.md` on first use, `memory-template.md` for the file format); the skill reads and writes only that folder. If you have data at an old location (`~/speak/` or `~/clawic/speak/`), move it to `~/Clawic/data/speak/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

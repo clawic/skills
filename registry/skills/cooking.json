@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "7946e55614a731524c5a9f26a0410211c6672c1cbceced92c351420e315d361d",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "4005217d789c4b0d568539ded6ecb4329973a7a8c71187081e2ea5963f175081",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "cooking",
     "name": "Cooking",
     "description": "Cooks and rescues real dishes at the stove: heat control, seasoning, doneness, timing, substitutions, and food safety. Use when a dish is bland, too salty, burnt, tough, dry, watery, rubbery, greasy, or gummy; when a sauce breaks, splits, curdles, or will not thicken; when meat, fish, eggs, rice, pasta, beans, bread, or a cake come out wrong; when adapting a recipe for a missing ingredient, a different pan, an air fryer, altitude, or a doubled batch; when asking what temperature something is done at, how long to rest it, how much salt, or whether leftovers are still safe; when searing, braising, roasting, frying, grilling, baking, fermenting, or curing; or when ordering the work so a whole meal lands hot at once. Not for weekly menus and shopping lists (`meal-planner`, `grocery`), recipe collections and recipe walkthroughs (`recipe`, `chef`), calorie or macro counting (`calories`), or micronutrients (`nutrition`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/cooking",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/cooking/config.yaml` (what the user declared) and `~/Clawic/data/cooking/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/cooking",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/cooking/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/_meta.json",
-      "byteCount": 242,
-      "sha256": "ace7e181083e8105af9e5f07a5ba7ec752727df85964e5307f3a8a04a4e40e44"
+      "byteCount": 316,
+      "sha256": "75e83995cb750ea727012a3463db726a887f466c0ee8e2bfe45a59b0872cfd89"
     },
     {
       "path": "baking.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/cooking/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/memory-template.md",
-      "byteCount": 25712,
-      "sha256": "60caf4d75d3e16d4a47fc34518b79adb8086889d33a373a8b9b766a06cff9d3c"
+      "byteCount": 25942,
+      "sha256": "b03603595dca6b0273357d96f9e9d3d86b9dda7be7b849cffd14625be2862afd"
     },
     {
       "path": "preserving.md",
@@ -145,8 +145,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/cooking/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/SKILL.md",
-      "byteCount": 30891,
-      "sha256": "77835c26d6382904902e3ad1c152862f155a03afd977a5586add27d915d20b07"
+      "byteCount": 31666,
+      "sha256": "fa4531d7c316a14550c3e1e24a8d437a031da255088c7f4d2210d79aee3bffb2"
     },
     {
       "path": "substitutions.md",

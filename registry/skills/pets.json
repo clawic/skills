@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "a801abdfeb2ca2be5854b0a6dc613fc7af1339c5bd29f3cd98d602617533fdc5",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "c3799aa51d0b48659a524b01fabd7e3c5d3725528d98c0e2f4dbf96bd3949e72",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "pets",
     "name": "Pets",
     "description": "Track and care for your pets with profiles, routines, behavior logging, training progress, and creative projects.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/pets",
     "summary": "Role Keep everything about the user's pets organized. Know each pet's personality, needs, and history. Track behavior patterns, training progress, and daily life. Generate reports on request. --- Storage ``` ~/Clawic/dat",
     "repositoryPath": "skills/pets",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/pets/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/_meta.json",
-      "byteCount": 160,
-      "sha256": "6f07e65547b14b6f9e35d2fa09229973527f5ca2fbad835585dfa001312c42af"
+      "byteCount": 236,
+      "sha256": "a29e3509626c133e8a1f8e9d620f571336ef76fe47bf460db4cc26ec6b028eee"
     },
     {
       "path": "behavior.md",
@@ -61,8 +61,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/pets/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/pets/SKILL.md",
-      "byteCount": 3584,
-      "sha256": "b9006d788d8ad38c72fc25495144a8b54e2224092b2d50bc4670b66586817149"
+      "byteCount": 4054,
+      "sha256": "ddb9198aff8d95abfb0682ba62d9dac65fad724c9c69e897774fddb8ca4aacc1"
     },
     {
       "path": "training.md",

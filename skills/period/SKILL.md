@@ -2,25 +2,26 @@
 name: Period Tracker
 slug: period
 version: 1.0.3
-description: >-
-  Tracks menstrual cycles, logs symptoms, and predicts periods, ovulation, and fertile
-  windows from her own logged data. Use when a period starts, is late, or is missed, when
-  logging cramps, PMS, PMDD, mood, spotting, or flow, when asking whether a cycle is
-  irregular, heavy, or too long, when tracking basal temperature, LH tests, or cervical
-  mucus to conceive or avoid pregnancy, when bleeding changes on the pill, IUD, or implant,
-  or when cycles shift in perimenopause, postpartum, or after stopping contraception. Not
-  for prenatal tracking once pregnancy is confirmed.
+description: Tracks menstrual cycles, logs symptoms, and predicts periods, ovulation, and fertile windows from her own logged data. Use when a period starts, is late, or is missed, when logging cramps, PMS, PMDD, mood, spotting, or flow, when asking whether a cycle is irregular, heavy, or too long, when tracking basal temperature, LH tests, or cervical mucus to conceive or avoid pregnancy, when bleeding changes on the pill, IUD, or implant, or when cycles shift in perimenopause, postpartum, or after stopping contraception. Not for prenatal tracking once pregnancy is confirmed.
 homepage: https://clawic.com/skills/period
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
-    emoji: "🩸"
+    emoji: 🩸
     displayName: Period Tracker
     configPaths:
     - ~/Clawic/data/period/
+    - ~/period/
+    - ~/clawic/period/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/period/
+      - ~/period/
+      - ~/clawic/period/
 ---
 
-All data lives locally in `~/Clawic/data/period/` (`log-template.md` for file formats, `setup.md` on first use). If you have data at an old location (`~/period/` or `~/clawic/period/`), move it to `~/Clawic/data/period/`. Never sync it, never mention cycle content outside a session she opened. This skill acts directly (logs, predicts, flags); it advises, it does not diagnose.
+All data lives locally in `~/Clawic/data/period/` (`log-template.md` for file formats, `setup.md` on first use). If you have data at an old location (`~/period/` or `~/clawic/period/`), move it to `~/Clawic/data/period/`, and say in one line that you moved it and from where. Never sync it, never mention cycle content outside a session she opened. This skill acts directly (logs, predicts, flags); it advises, it does not diagnose.
 
 ## Configuration
 

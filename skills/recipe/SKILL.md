@@ -1,20 +1,10 @@
 ---
 name: Recipes
 slug: recipe
-version: 1.0.1
-description: >-
-  Captures, standardizes, scales, and files recipes into a personal collection that stays searchable and
-  cookable. Use when the user pastes a recipe URL, photo, screenshot, video, voice note, or handwritten card
-  to save; asks to halve, double, or triple a dish, or fit it to a different pan or tin; converts cups to
-  grams, ounces to millilitres, Fahrenheit to Celsius, or gas marks, or adjusts for a fan oven or altitude;
-  asks what to cook from what is saved, or searches by ingredient, tag, time, or rating; builds a week
-  from the collection with one combined shopping list; swaps a missing, disliked, or off-limits
-  ingredient; rewrites a dish for a pressure cooker, air fryer, or slow cooker; works out
-  cost per serving; writes or tests an original recipe; preserves a family recipe; or moves a collection
-  between apps. Not for stove-side rescue (`cooking`), general cooking help (`chef`), household meal
-  systems (`meal-planner`), calories and macros (`calories`), or pantry lists (`grocery`).
+version: 1.0.2
+description: Captures, standardizes, scales, and files recipes into a personal collection that stays searchable and cookable. Use when the user pastes a recipe URL, photo, screenshot, video, voice note, or handwritten card to save; asks to halve, double, or triple a dish, or fit it to a different pan or tin; converts cups to grams, ounces to millilitres, Fahrenheit to Celsius, or gas marks, or adjusts for a fan oven or altitude; asks what to cook from what is saved, or searches by ingredient, tag, time, or rating; builds a week from the collection with one combined shopping list; swaps a missing, disliked, or off-limits ingredient; rewrites a dish for a pressure cooker, air fryer, or slow cooker; works out cost per serving; writes or tests an original recipe; preserves a family recipe; or moves a collection between apps. Not for stove-side rescue (`cooking`), general cooking help (`chef`), household meal systems (`meal-planner`), calories and macros (`calories`), or pantry lists (`grocery`).
 homepage: https://clawic.com/skills/recipe
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🍳
@@ -28,15 +18,28 @@ metadata:
     - ~/Clawic/data/health/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/recipe/
+    - ~/clawic/recipe/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/recipe/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/recipe/
+      - ~/clawic/recipe/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/recipe/config.yaml` (what the user declared) and `~/Clawic/data/recipe/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/recipe/index.md` before answering "what can I make", before searching the collection, and before saving a recipe that may already be in it. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/recipe/config.yaml` (what the user declared) and `~/Clawic/data/recipe/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/recipe/index.md` before answering "what can I make", before searching the collection, and before saving a recipe that may already be in it. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a recipe captured, corrected, rescaled into a keeper variant, or retired; a dish actually cooked and how it went; a week planned; an ingredient price; a fact about their kitchen that changed a number (oven offset, pan sizes, altitude, salt brand); a source that proved reliable or unreliable; or something they will re-read — a dinner menu with its run-sheet, an oven-calibration note, a cookbook draft. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Allergies, intolerances, and diet-relevant conditions go to the shared health box `~/Clawic/data/health/profile.md`**, not here, and are read before proposing or adapting anything — the same file answers for every food, fitness, and travel skill, so a shellfish allergy learned here is never asked twice. **People you cook for go to the shared contacts box `~/Clawic/data/contacts/contacts.md`**, one row per person, their dietary note in `Context`. **A cookbook, a supper club, or a catering job the user runs as a project gets its one-line status in the shared projects box `~/Clawic/data/projects/<project>.md`**, one file per project, while the draft itself stays here. All three protocols travel in `memory-template.md`; the user may have none of the owning skills installed.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted recipe-app export or sync config carries API keys: strip the value and store the pointer — `env:PAPRIKA_TOKEN`, `keychain:nyt-cooking`, `1password:Personal/Recipes`. If data sits at an old location (`~/recipes/` or `~/clawic/recipe/`), move it to `~/Clawic/data/recipe/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted recipe-app export or sync config carries API keys: strip the value and store the pointer — `env:PAPRIKA_TOKEN`, `keychain:nyt-cooking`, `1password:Personal/Recipes`. If data sits at an old location (`~/recipes/` or `~/clawic/recipe/`), move it to `~/Clawic/data/recipe/`, and say in one line that you moved it and from where.
 
 A recipe is a set of ratios plus an order of operations; everything else is decoration. Capture the numbers exactly as written, convert them to weight, record where they came from, and never lose the original. Work from defaults immediately: never open with questions about their units, their diet, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: units, locale, currency) → the Configuration table default.
 

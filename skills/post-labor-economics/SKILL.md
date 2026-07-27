@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/post-labor-economics/
     displayName: Post-Labor Economics
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/post-labor-economics/
 ---
 
 ## Setup

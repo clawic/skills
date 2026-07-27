@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/automator/
     displayName: macOS Automator
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/automator/
 ---
 
 ## Setup

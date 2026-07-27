@@ -2,26 +2,28 @@
 name: Digest
 slug: digest
 version: 1.0.3
-description: >-
-  Curates news, feeds, and industry sources into personalized recurring digests: sourcing,
-  filtering, ranking, and delivery. Use to set up a daily briefing or morning/evening news
-  roundup, track competitors, an industry, people, or markets, or run a scheduled or weekly
-  update. Also when a digest feels too long or repetitive, keeps missing stories, or a rumor
-  needs checking before it ships. Covers source vetting, deduplication, single-source holds,
-  corrections, urgent alerts, slow news days, and channel formats (email, Slack, Telegram,
-  audio); learns format, timing, and depth preferences from reactions. Not for summarizing
-  documents the user provides or internal business reporting.
+description: 'Curates news, feeds, and industry sources into personalized recurring digests: sourcing, filtering, ranking, and delivery. Use to set up a daily briefing or morning/evening news roundup, track competitors, an industry, people, or markets, or run a scheduled or weekly update. Also when a digest feels too long or repetitive, keeps missing stories, or a rumor needs checking before it ships. Covers source vetting, deduplication, single-source holds, corrections, urgent alerts, slow news days, and channel formats (email, Slack, Telegram, audio); learns format, timing, and depth preferences from reactions. Not for summarizing documents the user provides or internal business reporting.'
 homepage: https://clawic.com/skills/digest
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 📰
     displayName: Digest
     configPaths:
     - ~/Clawic/data/digest/
+    - ~/Clawic/profile.yaml
+    - ~/digest/
+    - ~/clawic/digest/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/digest/
+      - ~/Clawic/profile.yaml
+      - ~/digest/
+      - ~/clawic/digest/
 ---
 
-User preferences, learned signals, and the sent-item log live in `~/Clawic/data/digest/` (see `setup.md` on first use, `preferences-template.md` for file formats). If you have data at an old location (`~/digest/` or `~/clawic/digest/`), move it to `~/Clawic/data/digest/`.
+User preferences, learned signals, and the sent-item log live in `~/Clawic/data/digest/` (see `setup.md` on first use, `preferences-template.md` for file formats). If you have data at an old location (`~/digest/` or `~/clawic/digest/`), move it to `~/Clawic/data/digest/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

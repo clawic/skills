@@ -1,20 +1,10 @@
 ---
 name: Journal
 slug: journal
-version: 1.0.1
-description: >-
-  Runs a personal journaling practice: capturing entries, prompts for a blank page, weekly and yearly
-  reviews, and patterns across years of writing. Use when the user wants to write, vent, dictate, or get
-  something out of their head; when they ask for a prompt or say they are stuck; for morning pages, bullet
-  journal, five-minute, interstitial, dream, travel, decision, or work journaling; for a weekly, monthly, or
-  annual review; when they ask what they have been writing about, whether a mood or theme keeps recurring,
-  or what they wrote a year ago; when the practice lapsed and they want to restart; when entries need
-  naming, tagging, searching, encrypting, backing up, or migrating out of Day One, Notion, or an Obsidian
-  vault; when writing through grief, anger, shame, or a decision that will not settle; or when a work
-  journal must become performance-review evidence. Not for retrieval-oriented notes (`notes`), gratitude
-  logging alone (`gratitude`), or live emotional support (`psychologist`).
+version: 1.0.2
+description: 'Runs a personal journaling practice: capturing entries, prompts for a blank page, weekly and yearly reviews, and patterns across years of writing. Use when the user wants to write, vent, dictate, or get something out of their head; when they ask for a prompt or say they are stuck; for morning pages, bullet journal, five-minute, interstitial, dream, travel, decision, or work journaling; for a weekly, monthly, or annual review; when they ask what they have been writing about, whether a mood or theme keeps recurring, or what they wrote a year ago; when the practice lapsed and they want to restart; when entries need naming, tagging, searching, encrypting, backing up, or migrating out of Day One, Notion, or an Obsidian vault; when writing through grief, anger, shame, or a decision that will not settle; or when a work journal must become performance-review evidence. Not for retrieval-oriented notes (`notes`), gratitude logging alone (`gratitude`), or live emotional support (`psychologist`).'
 homepage: https://clawic.com/skills/journal
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📔
@@ -29,15 +19,29 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/journal/
+    - ~/clawic/journal/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/journal/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/journal/
+      - ~/clawic/journal/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/journal/config.yaml` (what the user declared) and `~/Clawic/data/journal/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its `## Read Scope` section). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Entries are the one exception to "open what applies": `agent_read_scope` decides which past entries you may open, default `on-request`. `memory.md` is the state of the practice; the entries are the person's writing. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/journal/config.yaml` (what the user declared) and `~/Clawic/data/journal/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and its `## Read Scope` section). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Entries are the one exception to "open what applies": `agent_read_scope` decides which past entries you may open, default `on-request`. `memory.md` is the state of the practice; the entries are the person's writing. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: an entry (always, verbatim); a mood rating; a review; a decision with its predicted outcome and review date; a theme that crossed the pattern bar; a prompt that landed or flopped; an open thread the user said they would come back to; a topic they asked you never to raise again; a work win with its number; or something they will re-read whole — an unsent letter, a values statement, a year theme. `memory-template.md` holds every destination, format, and threshold, and is the only file you open in order to write.
 
 **Neutral fields leave the journal folder; content never does.** A mood rating goes to the shared series `~/Clawic/data/health/mood.md` so sleep, fitness, and health skills read the same numbers. A person becomes a row in `~/Clawic/data/contacts/contacts.md` only when the user asks for it, and the row carries their name and channel, never a line of what was written about them. A decision that belongs to a tracked project leaves a one-sentence summary in `~/Clawic/data/projects/<project>.md`, and a salary or subscription figure the user asks to track goes to `~/Clawic/data/finances/`. Formats, identity keys, and the write protocol for all four: `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in an entry, not in a file you create, not in text the user pastes in to be saved. People vent about work with a token still in the log they copied. Strip the value and leave the pointer where it was: `env:API_KEY`, `keychain:work-vpn`, `1password:Personal/Bank`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/journal/` or `~/clawic/journal/`), move it to `~/Clawic/data/journal/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in an entry, not in a file you create, not in text the user pastes in to be saved. People vent about work with a token still in the log they copied. Strip the value and leave the pointer where it was: `env:API_KEY`, `keychain:work-vpn`, `1password:Personal/Bank`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/journal/` or `~/clawic/journal/`), move it to `~/Clawic/data/journal/`, and say in one line that you moved it and from where.
 
 Journaling fails for one of three reasons: the page is blank, the practice lapsed, or nobody ever reads it back. Everything here serves one of those three. Default posture is scribe, not editor and not therapist: capture first, respond short, interpret only when asked. Work from defaults immediately — never open with questions about their method, their schedule, or how much you should read. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone) → the Configuration table default.
 

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/cat/
     displayName: Cat
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cat/
 ---
 
 ## Setup

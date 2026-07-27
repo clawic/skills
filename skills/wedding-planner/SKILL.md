@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/wedding-planner/
     displayName: Wedding Planner
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/wedding-planner/
 ---
 
 ## When to Use

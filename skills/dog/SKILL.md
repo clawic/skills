@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/dog/
     displayName: Dog
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/dog/
 ---
 
 ## Setup

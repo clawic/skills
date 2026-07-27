@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/email-management/
     displayName: Email Management
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/email-management/
 ---
 
 ## Setup

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "f616957563e739d587cd1270409941bb05c199357eaa07d2d0af7628647fa0cd",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "73ea07bdc69d942875a0baf644758ae963192649da1c89267ea949a2309fcdcb",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "english",
     "name": "English",
     "description": "Writes and corrects English that reads like a native wrote it — any variety, any register. Use when text sounds stiff, robotic, translated, or AI-generated; when a sentence is grammatically fine but \"sounds wrong\"; when choosing between US, UK, Australian, Canadian, Irish or Indian spelling, vocabulary and punctuation, or when a document mixes them; when a first language keeps leaking through — articles, prepositions, tense, false friends, word order; when formality must be calibrated for an email, a client, or a meeting; when idioms, phrasal verbs, slang or collocations land wrong or sound dated; when commas, hyphens, capitalization, quotes, dates or numbers need a house rule; when confusable words, jargon or hedging blur the meaning; and for pronunciation, small talk, and improving on purpose. Not for grammar-only fixes (`grammar`), translation (`translate`), IELTS or TOEFL prep (`ielts`, `toefl`), or drafting in your own voice (`writing`).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/english",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/english/config.yaml` (what the user declared) and `~/Clawic/data/english/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/english",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/english/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/_meta.json",
-      "byteCount": 242,
-      "sha256": "4b525b64a564e9df843c97046b17a4187f8015ab85c902f1ab4536f1bbacf7d1"
+      "byteCount": 316,
+      "sha256": "4f4d44991102aab2988cd32dda57b49797141135cc602d4715dfa1c9e6efc23c"
     },
     {
       "path": "ai-tells.md",
@@ -75,8 +75,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/english/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/memory-template.md",
-      "byteCount": 21757,
-      "sha256": "5bd060568c94d8e6a352d2544b7d6977780bb2a9f1282c0a16f6bf06e7848da9"
+      "byteCount": 21987,
+      "sha256": "88c5f5d7ef6c35da91f7f221e69822915edebb322b11053a37e3caa447a341a1"
     },
     {
       "path": "practice.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/english/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/SKILL.md",
-      "byteCount": 23612,
-      "sha256": "4f303aa589402d64d19ae4d26b751bdb0e95654be0c7fb4742375a0b95f27dee"
+      "byteCount": 24387,
+      "sha256": "4939e9c38f85836a369aa61d8ce856c503cca51cd850a426b1bb5ba4a78a6f5f"
     },
     {
       "path": "varieties.md",

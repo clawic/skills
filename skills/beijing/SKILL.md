@@ -2,14 +2,9 @@
 name: Beijing
 slug: beijing
 version: 1.0.3
-description: >-
-  Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem.
-  Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay,
-  a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit,
-  comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby,
-  learning Mandarin, or wrapping up and leaving China. Not for the rest of China — pair with the china skill for other cities.
+description: 'Guides visits, relocation, work, and daily life in Beijing: attractions, neighborhoods, rent, visas, transport, food, and the local app ecosystem. Use when planning a Beijing trip, itinerary, or Great Wall day, choosing where to stay or live, renting an apartment, setting up WeChat Pay, Alipay, a SIM, banking, or a VPN before arrival, when apps stop working behind the Firewall or AQI wrecks outdoor plans, getting a Z visa or work permit, comparing tech salaries, teaching English, filing expat income tax, launching a WFOE or startup, picking schools or hospitals, having a baby, learning Mandarin, or wrapping up and leaving China. Not for the rest of China — pair with the china skill for other cities.'
 homepage: https://clawic.com/skills/beijing
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🏯
@@ -20,9 +15,19 @@ metadata:
     displayName: Beijing
     configPaths:
     - ~/Clawic/data/beijing/
+    - ~/Clawic/profile.yaml
+    - ~/beijing/
+    - ~/clawic/beijing/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/beijing/
+      - ~/Clawic/profile.yaml
+      - ~/beijing/
+      - ~/clawic/beijing/
 ---
 
-User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to `~/Clawic/data/beijing/`.
+User preferences and memory live in `~/Clawic/data/beijing/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/beijing/` or `~/clawic/beijing/`), move it to `~/Clawic/data/beijing/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

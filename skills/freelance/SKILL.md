@@ -1,20 +1,10 @@
 ---
 name: Freelance
 slug: freelance
-version: 1.0.1
-description: >-
-  Runs an independent freelance or contractor practice as a business: rate floor, pipeline, cash buffer, taxes,
-  and the paper. Use when going freelance or weighing quitting a job for it, when setting or raising an hourly or
-  day rate, when the pipeline is empty and work dried up, when income swings and a buffer or tax set-aside has to
-  be sized, when one client is too much of the revenue, when a client asks for free spec work, rewrites your
-  contract, or sends an NDA you should not sign, when payment is late, disputed, or a project has to be walked
-  away from, when self-employment tax, VAT registration, invoicing abroad, or IR35 and worker-classification tests
-  come up, when insurance, sick days, holiday, or a pension has to be self-funded, and when the next step is
-  subcontracting, productizing, or an agency. Not for managing one client relationship (`clients`), Upwork
-  (`upwork`) or Fiverr (`fiverr`) tactics, drafting the contract document (`contract`), or issuing invoices
-  (`invoice`).
+version: 1.0.2
+description: 'Runs an independent freelance or contractor practice as a business: rate floor, pipeline, cash buffer, taxes, and the paper. Use when going freelance or weighing quitting a job for it, when setting or raising an hourly or day rate, when the pipeline is empty and work dried up, when income swings and a buffer or tax set-aside has to be sized, when one client is too much of the revenue, when a client asks for free spec work, rewrites your contract, or sends an NDA you should not sign, when payment is late, disputed, or a project has to be walked away from, when self-employment tax, VAT registration, invoicing abroad, or IR35 and worker-classification tests come up, when insurance, sick days, holiday, or a pension has to be self-funded, and when the next step is subcontracting, productizing, or an agency. Not for managing one client relationship (`clients`), Upwork (`upwork`) or Fiverr (`fiverr`) tactics, drafting the contract document (`contract`), or issuing invoices (`invoice`).'
 homepage: https://clawic.com/skills/freelance
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💻
@@ -28,9 +18,22 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/freelance/
+    - ~/clawic/freelance/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/freelance/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/freelance/
+      - ~/clawic/freelance/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/freelance/config.yaml` (what the user declared) and `~/Clawic/data/freelance/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before naming or writing to any client, prospect, referrer or subcontractor. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/freelance/` or `~/clawic/freelance/`), move it to `~/Clawic/data/freelance/`.
+**Data.** At the start of every session, read `~/Clawic/data/freelance/config.yaml` (what the user declared) and `~/Clawic/data/freelance/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before naming or writing to any client, prospect, referrer or subcontractor. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/freelance/` or `~/clawic/freelance/`), move it to `~/Clawic/data/freelance/`, and say in one line that you moved it and from where.
 
 **Write before the session ends** whenever it produced something durable: a rate set or raised; a quote sent, won or lost, with the reason; an engagement started, renewed, repriced or ended; a month's billings, collections and billable hours; a payment term, deposit or notice period agreed; a tax, VAT or insurance date; a client, referrer or subcontractor met; a contract clause that was accepted or refused; a decision about niche, entity or channel; or something the user will re-read — a rate card, a proposal template, an MSA, a case study, an outreach message that got replies. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

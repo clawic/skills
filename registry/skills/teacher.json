@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "1854aa70b2acd3a6202798628d7e0ee65ebfd128543d82c61f92f46c50a36ffd",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "719fce8cf15765b2dffbc59f356712c939b32987f6b585735a687f07c9a5eb92",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "teacher",
     "name": "Teacher",
     "description": "Plans lessons, units and syllabi, designs assessments and rubrics, marks and gives feedback at scale, and runs a room that behaves. Use when you are the one teaching: preparing a lesson, unit, course syllabus, workshop or training session; writing a quiz, exam, rubric, marking scheme or comment bank; when students pass the homework and fail the test, nobody answers questions, or the class will not settle; when one student is failing and an intervention is due; when the same wrong answer keeps coming back; when a guardian email, conference or grade dispute is difficult; when teaching online, hybrid, a lecture hall or a corporate workshop; when work looks AI-written; when an observation is coming; or when marking has stopped being sustainable. Covers K-12, higher education, bootcamps and adult training. Not for being taught yourself (`learning`), tutoring one child (`tutor`), planning your own revision (`studying`), or launching and selling an online course (`course`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/teacher",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/teacher/config.yaml` (what the user declared) and `~/Clawic/data/teacher/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/teacher",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/teacher/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/_meta.json",
-      "byteCount": 242,
-      "sha256": "1520a220e06d1dafbd7f2ccbe5f6b0b9a205ec55587c92b8d5a0f7c4cb22b0d6"
+      "byteCount": 316,
+      "sha256": "0d77c86c504dd44f47f75a459401f3724dcf97295f97c3cbd4d67b0e6c908193"
     },
     {
       "path": "assessment.md",
@@ -103,8 +103,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/teacher/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/memory-template.md",
-      "byteCount": 25032,
-      "sha256": "f22134066895ff824f1fd8aeebae589e0fd8ed5204c82ee2399903ac7cc315ae"
+      "byteCount": 25262,
+      "sha256": "66f45dc44db1d4142ce9fbd31520dd84ba5dced38a5df6716015e09fcd2a3217"
     },
     {
       "path": "observation.md",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/teacher/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/teacher/SKILL.md",
-      "byteCount": 34869,
-      "sha256": "72e8d99d357c318f50432111edbd86ac83db355ec4a5d9dc67eb6210045cabe5"
+      "byteCount": 35646,
+      "sha256": "6a4a1d7187b6bb5c5d10a890b9b45eda8f786c76ab853ec60d8aea3369ac63c9"
     },
     {
       "path": "struggling.md",

@@ -25,6 +25,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/tripadvisor/
     displayName: Tripadvisor
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/tripadvisor/
 ---
 
 ## Setup

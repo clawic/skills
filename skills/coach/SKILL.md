@@ -1,22 +1,13 @@
 ---
 name: Coach
 slug: coach
-version: 1.0.1
-description: >-
-  Coaches a person toward a goal, and runs the professional coaching craft: sessions, questions, accountability,
-  and clients who will not move. Use when someone asks to be coached, held accountable, or pushed on a goal; when
-  they restate the same intention for weeks without acting, over-plan instead of starting, answer every option with
-  "yes, but", or miss the same commitment again; when a session needs an arc, an opening question, or a closing
-  commitment; when the user is a coach and needs a chemistry call, intake, a coaching agreement, pricing and
-  packages, a stalled client, group or team work, supervision, or credential hours; and when the line between
-  coaching, therapy, consulting, and mentoring has to be drawn. Covers executive, career, business, health, life,
-  creative, and ADHD coaching. Not for clinical care (`therapist`, `psychologist`), personal productivity systems
-  (`productivity`), or habit streaks (`habits`).
+version: 1.0.2
+description: 'Coaches a person toward a goal, and runs the professional coaching craft: sessions, questions, accountability, and clients who will not move. Use when someone asks to be coached, held accountable, or pushed on a goal; when they restate the same intention for weeks without acting, over-plan instead of starting, answer every option with "yes, but", or miss the same commitment again; when a session needs an arc, an opening question, or a closing commitment; when the user is a coach and needs a chemistry call, intake, a coaching agreement, pricing and packages, a stalled client, group or team work, supervision, or credential hours; and when the line between coaching, therapy, consulting, and mentoring has to be drawn. Covers executive, career, business, health, life, creative, and ADHD coaching. Not for clinical care (`therapist`, `psychologist`), personal productivity systems (`productivity`), or habit streaks (`habits`).'
 homepage: https://clawic.com/skills/coach
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
-    emoji: "✨"
+    emoji: ✨
     displayName: Coach
     configPaths:
     - ~/Clawic/data/coach/
@@ -24,9 +15,19 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/health/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/coach/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/coach/config.yaml` (what the user declared) and `~/Clawic/data/coach/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before naming or discussing any client, sponsor, or referral partner. Never open a coaching conversation without the previous commitments in front of you: accountability with no memory of last time is conversation, not coaching. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/coach/config.yaml` (what the user declared) and `~/Clawic/data/coach/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before naming or discussing any client, sponsor, or referral partner. Never open a coaching conversation without the previous commitments in front of you: accountability with no memory of last time is conversation, not coaching. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a commitment made, kept, or missed; a goal set, revised, or dropped; a recurring pattern or limiting belief named; a session held; a new client, engagement, contract term, or rate; a referral made; a boundary drawn; a progress marker or review; or something the user will re-read — a 90-day plan, a values list, a wheel-of-life baseline, a discovery-call script, a coaching agreement, a decision and why it was made. `memory-template.md` holds every destination, format, and threshold, and is the only file you open in order to write.
 

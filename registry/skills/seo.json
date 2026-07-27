@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "279e4a1e4d97d182c509fc52bbb543c7c1e1f08b793590826e18586591966168",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "52d4084dae295d43053bd662589d2f9eb6ba10a0cc8824b34d3a77531ab2dcc1",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -17,7 +17,7 @@
     "description": "Improves Google rankings with search engine optimization (SEO): audits, keyword research, content optimization, technical fixes, schema, and links. Not for paid search ads (PPC/SEM) or app store optimization. Use when organic traffic or rankings drop, pages are not indexed or get deindexed, crawl errors appear in Search Console, or a migration, redesign, or domain change is planned. Also for writing or refreshing content to rank, picking target keywords, fixing titles, canonicals, sitemaps, robots.txt, redirects, hreflang, duplicate content, or Core Web Vitals, and adding schema markup. And for chasing featured snippets or AI Overview citations, recovering from a Google penalty, core update, or manual action, optimizing local, ecommerce, SaaS, or publisher sites, or setting up Bing Webmaster Tools and IndexNow.",
     "version": "1.0.6",
     "homepage": "https://clawic.com/skills/seo",
-    "summary": "All persistent data (site profiles, config, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`. Read `setup.",
+    "summary": "All persistent data (site profiles, config, audit history, keyword tracking) lives in `~/Clawic/data/seo/`. If you have data at an old location (`~/seo/` or `~/clawic/seo/`), move it to `~/Clawic/data/seo/`, and say in o",
     "repositoryPath": "skills/seo",
     "manifestPath": "registry/skills/seo.json"
   },
@@ -201,8 +201,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/seo/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/seo/SKILL.md",
-      "byteCount": 18210,
-      "sha256": "18fe6403eb729078345ece6d72730f4f406880249eea09254a5e62a242a151b0"
+      "byteCount": 18401,
+      "sha256": "cdb3300801d6e38ab033d921ed56e747fb5c77022fbe4dcedb55e4c8ff85b6be"
     },
     {
       "path": "technical.md",

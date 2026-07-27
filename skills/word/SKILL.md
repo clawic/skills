@@ -16,6 +16,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/word/
     displayName: Word
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/word/
 ---
 
 ## When to Use

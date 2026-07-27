@@ -2,18 +2,9 @@
 name: CMO / Chief Marketing Officer
 slug: cmo
 version: 1.0.5
-description: >-
-  Operates as a chief marketing officer (CMO): sets marketing strategy, owns the pipeline number,
-  allocates budget, picks channels, builds the team. Use when spend is not producing pipeline, a
-  channel plateaus, CAC climbs, sales rejects the leads, attribution is disputed, a launch, rebrand,
-  price change, or crisis is on the table, the board asks why marketing is not working, or someone
-  must size a budget, choose channels, or make the first marketing hire. Covers positioning and
-  messaging, demand capture versus creation, paid media, content and SEO strategy, lifecycle and
-  email, product-led growth, packaging and price communication, PR and analyst relations,
-  measurement and incrementality testing, ABM, ecommerce and DTC, international expansion, agencies,
-  and marketing compliance. Not for executing a single ad, post, or landing-page test.
+description: 'Operates as a chief marketing officer (CMO): sets marketing strategy, owns the pipeline number, allocates budget, picks channels, builds the team. Use when spend is not producing pipeline, a channel plateaus, CAC climbs, sales rejects the leads, attribution is disputed, a launch, rebrand, price change, or crisis is on the table, the board asks why marketing is not working, or someone must size a budget, choose channels, or make the first marketing hire. Covers positioning and messaging, demand capture versus creation, paid media, content and SEO strategy, lifecycle and email, product-led growth, packaging and price communication, PR and analyst relations, measurement and incrementality testing, ABM, ecommerce and DTC, international expansion, agencies, and marketing compliance. Not for executing a single ad, post, or landing-page test.'
 homepage: https://clawic.com/skills/cmo
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 📣
@@ -26,9 +17,17 @@ metadata:
     displayName: CMO / Chief Marketing Officer
     configPaths:
     - ~/Clawic/data/cmo/
+    - ~/cmo/
+    - ~/clawic/cmo/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/cmo/
+      - ~/cmo/
+      - ~/clawic/cmo/
 ---
 
-User preferences and memory live in `~/Clawic/data/cmo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cmo/` or `~/clawic/cmo/`), move it to `~/Clawic/data/cmo/`.
+User preferences and memory live in `~/Clawic/data/cmo/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/cmo/` or `~/clawic/cmo/`), move it to `~/Clawic/data/cmo/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

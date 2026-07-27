@@ -4,7 +4,7 @@ slug: swift
 version: 1.0.3
 description: Writes, debugs, and optimizes Swift — concurrency, ARC leaks, optionals, generics, SwiftUI state, and packages. Use when writing or reviewing Swift code, when a build won't type-check or the compiler "is unable to type-check this expression in reasonable time", when an app crashes on a force unwrap, an unowned reference, or EXC_BAD_ACCESS, when Swift 6 raises Sendable / actor-isolated / data-race errors, when a retain cycle keeps objects alive, when JSON fails to decode, when async code hangs or deadlocks, when SwiftUI state resets or views redraw too often, when XCTest or Swift Testing tests are flaky, when a Swift package won't resolve, or when bridging to Objective-C, C, or Linux. Not for Xcode signing and IDE settings, or App Store submission and iOS app lifecycle.
 homepage: https://clawic.com/skills/swift
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🦅
@@ -17,9 +17,17 @@ metadata:
     displayName: Swift
     configPaths:
     - ~/Clawic/data/swift/
+    - ~/swift/
+    - ~/clawic/swift/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/swift/
+      - ~/swift/
+      - ~/clawic/swift/
 ---
 
-User preferences and memory live in `~/Clawic/data/swift/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/swift/` or `~/clawic/swift/`), move it to `~/Clawic/data/swift/`.
+User preferences and memory live in `~/Clawic/data/swift/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/swift/` or `~/clawic/swift/`), move it to `~/Clawic/data/swift/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

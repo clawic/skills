@@ -1,19 +1,10 @@
 ---
 name: Flight
 slug: flight
-version: 1.0.2
-description: >-
-  Searches, compares, books, and fixes flights — fares and fare rules, connections, baggage, seats, miles, delays,
-  and passenger rights. Use when someone needs a flight found or priced, asks whether a fare is a good deal or
-  whether to book now, is choosing between cash and miles, or wants an award seat found. Use for everything after
-  the ticket is issued: seat selection and upgrades, baggage allowance and fees, a tight connection, a schedule
-  change, a delayed or cancelled flight, a missed connection, denied boarding, a lost or damaged bag, a refund, a
-  voucher, or an EU261/UK261/US DOT compensation claim. Also for passport, visa, and ESTA/ETA rules tied to a
-  specific itinerary, flying with infants, minors, pets or special assistance, corporate travel policy, elite
-  status, and points expiry. Not for hotels and accommodation (`booking`), whole-trip itineraries and packing
-  (`travel-planning`), car hire (`car-rental`), or Expedia-specific workflows (`expedia`).
+version: 1.0.3
+description: 'Searches, compares, books, and fixes flights — fares and fare rules, connections, baggage, seats, miles, delays, and passenger rights. Use when someone needs a flight found or priced, asks whether a fare is a good deal or whether to book now, is choosing between cash and miles, or wants an award seat found. Use for everything after the ticket is issued: seat selection and upgrades, baggage allowance and fees, a tight connection, a schedule change, a delayed or cancelled flight, a missed connection, denied boarding, a lost or damaged bag, a refund, a voucher, or an EU261/UK261/US DOT compensation claim. Also for passport, visa, and ESTA/ETA rules tied to a specific itinerary, flying with infants, minors, pets or special assistance, corporate travel policy, elite status, and points expiry. Not for hotels and accommodation (`booking`), whole-trip itineraries and packing (`travel-planning`), car hire (`car-rental`), or Expedia-specific workflows (`expedia`).'
 homepage: https://clawic.com/skills/flight
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ✈️
@@ -28,9 +19,23 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/finances/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/flight/
+    - ~/clawic/flight/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/flight/
+      - ~/Clawic/data/bookings/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/flight/
+      - ~/clawic/flight/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/flight/config.yaml` (what the user declared) and `~/Clawic/data/flight/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition written on its line applies — that index *is* the list of files; never work from a list of names carried in your head, because most boxes are created after this skill was written. Read `~/Clawic/data/bookings/<current year>.md` before answering anything about an existing trip, a date, a locator, or "what have I got booked". If none of it exists, work from defaults and say nothing about it. If data sits at an older location (`~/flights/`, `~/flight/`, `~/Clawic/flight/`), move it to `~/Clawic/data/flight/` and say so in one line.
+**Data.** At the start of every session, read `~/Clawic/data/flight/config.yaml` (what the user declared) and `~/Clawic/data/flight/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition written on its line applies — that index *is* the list of files; never work from a list of names carried in your head, because most boxes are created after this skill was written. Read `~/Clawic/data/bookings/<current year>.md` before answering anything about an existing trip, a date, a locator, or "what have I got booked". If none of it exists, work from defaults and say nothing about it. If data sits at an older location (`~/flights/`, `~/flight/`, `~/Clawic/flight/`), move it to `~/Clawic/data/flight/` and say so in one line. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: a ticket issued, changed or cancelled; a flight actually flown; a price seen for a route being watched; a points balance, tier or requalification number; a passport, visa or ETA expiry; a claim opened, paid or refused; a voucher or credit with an expiry date; or something the user will want to read again — an entry-requirement procedure, an award routing that worked, a claim letter that got paid. `memory-template.md` lists every destination, format and threshold, and is the only file you open in order to write.
 

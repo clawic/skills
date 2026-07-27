@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "b0729a45db7ebc2c697ba9356b6feac1f43cd64b492122ff6974d7c6523f1387",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "1fd9a7230311c925c076843d58d378e5a0b669e04bb1eb2e5a6e0c163865014f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -17,7 +17,7 @@
     "description": "Writes, debugs, and reviews Go: goroutine leaks, data races, nil interfaces, slices and maps, go.mod, and net/http. Use when Go panics or misbehaves — \"all goroutines are asleep - deadlock!\", \"concurrent map writes\", \"send on closed channel\", \"assignment to entry in nil map\", or a WARNING: DATA RACE from `go test -race`; when a goroutine, timer, or connection leaks and memory climbs; when a service hangs for want of a timeout; when errors.Is or errors.As stops matching after a %v wrap; when a slice mutates its parent, a map iterates in a new order, or a typed nil returned as error compares non-nil; when go.mod, go.sum, workspaces, replace, or a /v2 path fight over dependencies; when cross-compiling, cgo, build tags, go:embed, or a static container binary fail; when tests are flaky under -race or -parallel or benchmarks lie; when GOGC, GOMEMLIMIT, GOMAXPROCS, or escape analysis need tuning; or when writing handlers, CLIs, database access, or generics. Not for Kubernetes operators or framework internals.",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/go",
-    "summary": "User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`. ",
+    "summary": "User preferences live in `~/Clawic/data/go/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/go/` or `~/clawic/go/`), move it to `~/Clawic/data/go/`, ",
     "repositoryPath": "skills/go",
     "manifestPath": "registry/skills/go.json"
   },
@@ -173,8 +173,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/go/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/go/SKILL.md",
-      "byteCount": 24301,
-      "sha256": "df072f5ae065c81f209bcf012c5c0d4bb96d772fee13537ec4391b2d7795beb9"
+      "byteCount": 24466,
+      "sha256": "9d3d971fcac1e9610be11cc5b391c9d421fa259613297be5353fab60369e588b"
     },
     {
       "path": "strings.md",

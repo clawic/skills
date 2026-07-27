@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "0da5805889c245b3aa0bfd12183258b5c6f96ba236997a4367bea250fed112e0",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "6428584285ca4f9b266c15ffef91157a5e7a56683392de76827fb436fca0a7b7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "learn",
     "name": "Learn",
     "description": "Runs self-directed learning as a system: a curriculum with an exit test, deliberate practice, spaced review, and proof it transferred. Use when someone is teaching themselves a skill or subject with no course and no exam — a language, an instrument, a programming language, a new field at work; when they ask how to learn X, what to learn first, or how long it will honestly take; when months of tutorials produced nothing they can build; when material learned earlier is gone, reviews pile up, or the queue gets skipped for weeks; when progress stalls on a plateau, motivation collapses, or a skill goes rusty after a lapse; when practice feels productive but nothing transfers to real work; when an AI answers so fast that nothing is being learned at all; and when a plan, review schedule, error log, or mastery record has to survive across sessions. Not for teaching a concept in the moment (`learning`), exam and coursework planning (`studying`), or authoring decks (`anki`, `flashcards`).",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://clawic.com/skills/learn",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/learn/config.yaml` (what the learner declared) and `~/Clawic/data/learn/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any ",
     "repositoryPath": "skills/learn",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/learn/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/_meta.json",
-      "byteCount": 312,
-      "sha256": "d255a9026f7c0d8ecc51a751cc1ec96a532496fae94ebc29a9fdfc03d380d8e4"
+      "byteCount": 386,
+      "sha256": "b803940dd10c9a7a3056c9926110e3fd4c8e8f1680e1e306c82622866f0c13de"
     },
     {
       "path": "ai-assisted.md",
@@ -68,8 +68,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/learn/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/memory-template.md",
-      "byteCount": 22542,
-      "sha256": "5a3503069c103a08662e6eec467582e4418ae960311a82f86646492f7801833e"
+      "byteCount": 22772,
+      "sha256": "989d1b5a93d48e9f9c36210d9b2e5b69e002545aca347e1bbf9d564cf47aa23c"
     },
     {
       "path": "plateaus.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/learn/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/learn/SKILL.md",
-      "byteCount": 25115,
-      "sha256": "5eead10c7461849039d6ab463494b3fb080964ab890ca2192fb83db06624aa1f"
+      "byteCount": 25914,
+      "sha256": "44de36fb1a4e01333fdd1c16687e9f7aca3b98c2a6ff9ad912cbe72ba3eae6ed"
     },
     {
       "path": "sources.md",

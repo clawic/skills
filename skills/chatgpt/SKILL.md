@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/chatgpt/
     displayName: ChatGPT
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/chatgpt/
 ---
 
 ## Setup

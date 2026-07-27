@@ -25,6 +25,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/symphony/
     displayName: OpenAI Symphony
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/symphony/
 ---
 
 ## Setup

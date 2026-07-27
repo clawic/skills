@@ -1,20 +1,10 @@
 ---
 name: iOS
 slug: ios
-version: 1.0.1
-description: >-
-  Builds, ships, and debugs native iOS apps: lifecycle, permissions, entitlements, push, widgets, StoreKit,
-  and App Store review. Use when a submission is rejected or a guideline blocks a release; when a permission
-  prompt never appears, or a call fails with a missing-entitlement error; when push, background refresh, or a
-  background upload never runs; when a universal link opens Safari instead of the app; when the app is killed
-  by the watchdog, by jetsam, or with 0xdead10cc, hangs on launch, or crashes only on device; when a widget,
-  Live Activity, or app extension runs out of memory; when purchases, subscriptions, or restore fail; when a
-  privacy manifest, tracking prompt, or data label is required; when layout breaks under Dynamic Type; or when
-  a new iOS release breaks a shipped app. Not for Swift language mechanics (`swift`), IDE, signing and build
-  settings (`xcode`), store listings and submission workflow (`app-store`), or cross-platform apps
-  (`react-native`, `flutter`).
+version: 1.0.2
+description: 'Builds, ships, and debugs native iOS apps: lifecycle, permissions, entitlements, push, widgets, StoreKit, and App Store review. Use when a submission is rejected or a guideline blocks a release; when a permission prompt never appears, or a call fails with a missing-entitlement error; when push, background refresh, or a background upload never runs; when a universal link opens Safari instead of the app; when the app is killed by the watchdog, by jetsam, or with 0xdead10cc, hangs on launch, or crashes only on device; when a widget, Live Activity, or app extension runs out of memory; when purchases, subscriptions, or restore fail; when a privacy manifest, tracking prompt, or data label is required; when layout breaks under Dynamic Type; or when a new iOS release breaks a shipped app. Not for Swift language mechanics (`swift`), IDE, signing and build settings (`xcode`), store listings and submission workflow (`app-store`), or cross-platform apps (`react-native`, `flutter`).'
 homepage: https://clawic.com/skills/ios
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📱
@@ -30,15 +20,29 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/ios/
+    - ~/clawic/ios/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/ios/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/ios/
+      - ~/clawic/ios/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/ios/config.yaml` (what the user declared) and `~/Clawic/data/ios/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). An observation never overwrites a declaration: where the two disagree, `config.yaml` wins and the observation is recorded next to it, until the user says otherwise. Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/devices/devices.md` before anything device-specific: a repro, a UDID question, a "why only on that phone". If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/ios/config.yaml` (what the user declared) and `~/Clawic/data/ios/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). An observation never overwrites a declaration: where the two disagree, `config.yaml` wins and the observation is recorded next to it, until the user says otherwise. Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/devices/devices.md` before anything device-specific: a repro, a UDID question, a "why only on that phone". If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: an app, bundle id, capability or identifier discovered or changed; a test device added, upgraded or retired; a release shipped and its build number; an SDK added, updated or removed; a review rejection and the exact change that cleared it; a measured baseline (cold launch, download size, crash-free rate, hang rate); a platform fact that cost effort to find; or something the user will re-read — a runbook, an entitlements or Info.plist set that finally worked, a persistence or paywall decision, review notes. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Test devices go to the shared inventory `~/Clawic/data/devices/devices.md`**, not here: one file holds every phone, tablet and box the user owns, so "which devices can I test on" answers itself. One row per device, identified by its `Name` — read the file before adding, update your own row in place, never append a second one for the same device. When an app is client work, the client goes to `~/Clawic/data/contacts/contacts.md` and the engagement to `~/Clawic/data/projects/<project>.md`, referenced here by name only. The Apple Developer Program renewal is a subscription and belongs in `~/Clawic/data/finances/subscriptions.md` — a lapsed membership pulls every app from the store.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `keychain:apple-id-app-specific`, `env:ASC_KEY_ID`, `1password:Work/Apple/asc-key`, `file:~/private_keys/AuthKey.p8`. App Review demo-account passwords are credentials too. If data sits at an old location (`~/ios/` or `~/clawic/ios/`), move it to `~/Clawic/data/ios/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `keychain:apple-id-app-specific`, `env:ASC_KEY_ID`, `1password:Work/Apple/asc-key`, `file:~/private_keys/AuthKey.p8`. App Review demo-account passwords are credentials too. If data sits at an old location (`~/ios/` or `~/clawic/ios/`), move it to `~/Clawic/data/ios/`, and say in one line that you moved it and from where.
 
 Every iOS defect belongs to exactly one of five layers: the **process lifecycle** (who is running, and for how long), an **entitlement** (what the app is allowed to be), a **permission** (what the user allowed), a **resource budget** (memory, main-thread time, energy), or the **platform version** (what exists on that OS). Name the layer before proposing a fix, and give the key, the file, and the API that changes. Work from defaults immediately: never open with questions about their stack, their team, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals) → the Configuration table default.
 

@@ -20,6 +20,10 @@ metadata:
     - ./AGENTS.md
     - ./HEARTBEAT.md
     displayName: Discover
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/discover/
 ---
 
 ## When to Use

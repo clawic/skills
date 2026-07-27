@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "32dfbae6649379955c1c9be61e9b9313b3490eddb26483210a0f3f6a3e554910",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "3966226c34dd537d3a5333d1164d627f561f4bdbce96462c26c2c1e8c0bc5452",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "productivity",
     "name": "Productivity",
     "description": "Diagnoses and repairs personal productivity: overwhelm, procrastination, scattered priorities, collapsed habits, busywork that never finishes. Use when someone is overwhelmed or behind; when they cannot start, cannot stop, or keep replanning instead of working; when everything feels urgent and the list is no longer trusted; when goals never turn into shipped work; when meetings and messages eat the day; when a habit keeps breaking; when they want a weekly review, a shutdown routine, or one trusted home for goals, projects and commitments; and when the constraint is a situation — student, manager, executive, parent, freelancer, founder, creative, remote work, ADHD, burnout, or guilt about resting. Covers capacity math, estimation, WIP limits, delegation and saying no. Not for calendar-API automation (`calendar-planner`), running the day-to-day list (`task-list`), or the narrower tools: time blocking (`time-management`), habit streaks (`habits`), deep-work rituals (`deep-work`).",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "homepage": "https://clawic.com/skills/productivity",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/productivity/config.yaml` (what the user declared) and `~/Clawic/data/productivity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table)",
     "repositoryPath": "skills/productivity",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/productivity/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/_meta.json",
-      "byteCount": 474,
-      "sha256": "ba9dde5669d2487196d27f46954a7fba29c7208fcd2e8f586c5721154428dbc0"
+      "byteCount": 548,
+      "sha256": "7fdd684ada9a8d461d95df1c6d0eec34afe4b315803e04f653b7cd4e60943472"
     },
     {
       "path": "adhd.md",
@@ -138,8 +138,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/productivity/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/memory-template.md",
-      "byteCount": 21510,
-      "sha256": "31939784ea68cf28e9399b2f0d305af5dee0c85e2e65118e1b52e49a5327fbca"
+      "byteCount": 21740,
+      "sha256": "c3f739b76aec38c28658b41284a5f1aa30e1a9670bf04a882491e84bf234778e"
     },
     {
       "path": "messages.md",
@@ -208,8 +208,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/productivity/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/productivity/SKILL.md",
-      "byteCount": 28063,
-      "sha256": "374f15673753fd4c923e0ea9126d3c9f42fa2c06ecc81d22446e87ef0b213482"
+      "byteCount": 28839,
+      "sha256": "41b7bff0fdd4208601527ce7279bcd304ecdad09f2a9305f307486654d8774fc"
     },
     {
       "path": "student.md",

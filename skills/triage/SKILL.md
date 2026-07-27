@@ -2,21 +2,26 @@
 name: Triage / Task Prioritization
 slug: triage
 version: 1.0.3
-description: >-
-  Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work.
-  Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog
-  after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush.
-  Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.
+description: Prioritizes competing tasks into P0-P3 by cost of delay and decides what to do first, what waits, and when to interrupt current work. Use when tasks pile up or everything feels urgent, when a request arrives mid-task, when triaging bugs, tickets, alerts, or a backlog after time away, when deadlines conflict or slack runs out, or when the user says urgent, ASAP, EOD, drop everything, or no rush. Learns the user's real priority rules from their corrections and reorders. Not for effort estimation or roadmap planning.
 homepage: https://clawic.com/skills/triage
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🚦
-    displayName: "Triage / Task Prioritization"
-    configPaths: ["~/Clawic/data/triage/"]
+    displayName: Triage / Task Prioritization
+    configPaths:
+    - ~/Clawic/data/triage/
+    - ~/triage/
+    - ~/clawic/triage/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/triage/
+      - ~/triage/
+      - ~/clawic/triage/
 ---
 
-Classify incoming work into P0-P3 by cost of delay, route it, and learn the user's real priority rules from their corrections. Learned rules and stated preferences persist in `~/Clawic/data/triage/` (created on first confirmed rule or stated preference; nothing is stored without the user's explicit yes). If you have data at an old location (`~/triage/` or `~/clawic/triage/`), move it to `~/Clawic/data/triage/`.
+Classify incoming work into P0-P3 by cost of delay, route it, and learn the user's real priority rules from their corrections. Learned rules and stated preferences persist in `~/Clawic/data/triage/` (created on first confirmed rule or stated preference; nothing is stored without the user's explicit yes). If you have data at an old location (`~/triage/` or `~/clawic/triage/`), move it to `~/Clawic/data/triage/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

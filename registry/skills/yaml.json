@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "2d1071f6ebf89c6f00c045ade4bdcc92f3cf189d78a6467a02a9a8939b0e8071",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "e8e93225563ded7517de0d9c681d8faad60330b8fbdba7418d143829ca4b5d03",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "yaml",
     "name": "YAML",
     "description": "Writes, debugs, and validates YAML that parses the same in every language and tool. Use when a file will not parse, when a value silently turns into a boolean, number, date or null (`no`, `on`, `1.0`, `0644`, `22:22`), when tabs, indentation, or a colon inside a string breaks a document, when a block scalar mangles a script or a PEM key, when anchors, aliases or `<<` merge keys do not survive a tool, when duplicate keys pick the wrong winner, when the same file loads in one parser and fails in another, when YAML has to be edited or generated in code without losing comments or key order, when untrusted YAML could execute code, or when writing Kubernetes, Helm, GitHub Actions, GitLab CI, Ansible, Compose, CloudFormation, OpenAPI or Home Assistant files. Covers yamllint, schema validation, yq, and semantic diffs. Not for JSON (`json`), TOML (`toml`), XML (`xml`), or Ansible playbook semantics (`ansible`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/yaml",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/yaml/config.yaml` (what the user declared) and `~/Clawic/data/yaml/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/yaml",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/yaml/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/_meta.json",
-      "byteCount": 236,
-      "sha256": "dcabedc4a38923b452b38d5c322f635436fca56476801c0d364cf5349a7f2c36"
+      "byteCount": 310,
+      "sha256": "977f97608d6e7aa15bb11eed4d3d2525bb7a19ad43d72e8437f15d4b00c5dac4"
     },
     {
       "path": "anchors.md",
@@ -75,8 +75,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/yaml/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/memory-template.md",
-      "byteCount": 15455,
-      "sha256": "a35ac1c358021b43ec96be66c78ec4b42659225e51cb812f29254fb20366a9da"
+      "byteCount": 15685,
+      "sha256": "5c7eed407dbf89c331f8b00dce54f35374ad507fa6a4366f7db4d050b745df5c"
     },
     {
       "path": "multiline.md",
@@ -117,8 +117,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/yaml/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/yaml/SKILL.md",
-      "byteCount": 26773,
-      "sha256": "2fc8c3715900d1b45ce94faf14a3442ec088d8a3ab53f4d7805fd80e84cf65ed"
+      "byteCount": 27532,
+      "sha256": "b37a04dca8dfc18366edb0682e5ad2039191b166cc05f2ec29afef6dc2c653e7"
     },
     {
       "path": "strings.md",

@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/baidu/
     displayName: Baidu
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/baidu/
 ---
 
 ## When to Use

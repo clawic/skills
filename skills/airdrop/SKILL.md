@@ -15,6 +15,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/airdrop/
     displayName: AirDrop
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/airdrop/
 ---
 
 ## When to Use

@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/apple-maps/
     displayName: Apple Maps (MacOS)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/apple-maps/
 ---
 
 ## Setup

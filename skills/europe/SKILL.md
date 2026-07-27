@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/europe/
     displayName: Europe
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/europe/
 ---
 
 ## When to Use

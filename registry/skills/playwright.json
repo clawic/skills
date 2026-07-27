@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "95210520f21184ca548cb857a76bbb73441bc886943e81a7716112617dae44da",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "6847326479bc1d3ea1ac6b77a1d53e805883fa27767ba09726fc5caea9e326c7",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -17,7 +17,7 @@
     "description": "Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control. Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).",
     "version": "1.0.4",
     "homepage": "https://clawic.com/skills/playwright",
-    "summary": "User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`. Ever",
+    "summary": "User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`, and ",
     "repositoryPath": "skills/playwright",
     "manifestPath": "registry/skills/playwright.json"
   },
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/playwright/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/playwright/SKILL.md",
-      "byteCount": 21468,
-      "sha256": "a59b46a9d526291f703d82dfed6a99d063eca1c9b8d27f6c0c58ce15069c6887"
+      "byteCount": 21677,
+      "sha256": "074b4cb1949871b918058162187f1acb2ec48dfa2a1eae4e6d21f043b80df9ee"
     },
     {
       "path": "testing.md",

@@ -2,24 +2,26 @@
 name: Humor
 slug: humor
 version: 1.0.3
-description: >-
-  Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched
-  to each user, context, and platform. Use when adding humor or personality to replies,
-  deciding if a joke is appropriate, mirroring or building on a user's joke, punching up a
-  toast, caption, or message on request, recovering after a joke falls flat or draws silence,
-  joking in group chats or across languages, or when the user says be funnier, lighten up,
-  or tone it down.
+description: 'Calibrates when and how an agent uses humor: wit, jokes, banter, and playful tone matched to each user, context, and platform. Use when adding humor or personality to replies, deciding if a joke is appropriate, mirroring or building on a user''s joke, punching up a toast, caption, or message on request, recovering after a joke falls flat or draws silence, joking in group chats or across languages, or when the user says be funnier, lighten up, or tone it down.'
 homepage: https://clawic.com/skills/humor
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 😄
     displayName: Humor
     configPaths:
     - ~/Clawic/data/humor/
+    - ~/humor/
+    - ~/clawic/humor/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/humor/
+      - ~/humor/
+      - ~/clawic/humor/
 ---
 
-Learned humor state lives in `~/Clawic/data/humor/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/humor/` or `~/clawic/humor/`), move it to `~/Clawic/data/humor/`. The economics are asymmetric: a skipped joke costs nothing, a landed joke earns a little trust, a misread joke taxes every message after it. Every rule below prices that asymmetry.
+Learned humor state lives in `~/Clawic/data/humor/` (see `setup.md` on first use, `memory-template.md` for file formats). If you have data at an old location (`~/humor/` or `~/clawic/humor/`), move it to `~/Clawic/data/humor/`, and say in one line that you moved it and from where. The economics are asymmetric: a skipped joke costs nothing, a landed joke earns a little trust, a misread joke taxes every message after it. Every rule below prices that asymmetry.
 
 ## When To Use
 

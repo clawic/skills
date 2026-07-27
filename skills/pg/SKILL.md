@@ -2,16 +2,9 @@
 name: PostgreSQL
 slug: pg
 version: 1.0.3
-description: >-
-  Tunes, designs, and operates PostgreSQL: slow queries, indexes, schemas, migrations, vacuum, locks, replication, backups.
-  Use when writing Postgres SQL or psql, designing tables and indexes, reading an EXPLAIN plan, running DDL or a migration
-  against a live table, or when a query suddenly got slow, a table keeps growing while rows stay flat, autovacuum cannot keep up,
-  "too many clients already" appears, a replica lags, deadlocks and lock waits pile up, pg_wal fills the disk, or an upgrade,
-  a restore, or a partitioning plan is on the table. Covers connection pooling and PgBouncer, full-text, trigram and pgvector
-  search, JSONB, roles and row-level security, PITR, extensions, and managed Postgres (RDS, Aurora, Cloud SQL, Neon, Supabase).
-  Not for cross-engine SQL portability or ORM-level modeling.
+description: 'Tunes, designs, and operates PostgreSQL: slow queries, indexes, schemas, migrations, vacuum, locks, replication, backups. Use when writing Postgres SQL or psql, designing tables and indexes, reading an EXPLAIN plan, running DDL or a migration against a live table, or when a query suddenly got slow, a table keeps growing while rows stay flat, autovacuum cannot keep up, "too many clients already" appears, a replica lags, deadlocks and lock waits pile up, pg_wal fills the disk, or an upgrade, a restore, or a partitioning plan is on the table. Covers connection pooling and PgBouncer, full-text, trigram and pgvector search, JSONB, roles and row-level security, PITR, extensions, and managed Postgres (RDS, Aurora, Cloud SQL, Neon, Supabase). Not for cross-engine SQL portability or ORM-level modeling.'
 homepage: https://clawic.com/skills/pg
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: 🐘
@@ -26,9 +19,17 @@ metadata:
     displayName: PostgreSQL
     configPaths:
     - ~/Clawic/data/pg/
+    - ~/pg/
+    - ~/clawic/pg/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/pg/
+      - ~/pg/
+      - ~/clawic/pg/
 ---
 
-User preferences and memory live in `~/Clawic/data/pg/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/pg/` or `~/clawic/pg/`), move it to `~/Clawic/data/pg/`.
+User preferences and memory live in `~/Clawic/data/pg/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/pg/` or `~/clawic/pg/`), move it to `~/Clawic/data/pg/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

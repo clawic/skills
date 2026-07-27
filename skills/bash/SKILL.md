@@ -2,21 +2,9 @@
 name: Bash
 slug: bash
 version: 1.0.6
-description: >-
-  Writes, debugs, and hardens Bash shell scripts — quoting, arrays, strict mode,
-  traps, argument parsing, and macOS/Linux portability. Use when writing or
-  reviewing any script, one-liner, cron job, deploy script, container entrypoint,
-  or CI step; when a script breaks on spaces in filenames, exits silently,
-  ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS,
-  globs, arrays, heredocs, process substitution, trap, getopts, or mapfile
-  misbehave; when shellcheck flags SC2086 and friends; when unbound variable,
-  bad substitution, command not found, ambiguous redirect, or unexpected end of
-  file show up; when a script works by hand but fails under cron, systemd, sudo,
-  or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and
-  POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and
-  not for host-level cron, systemd, or permission failures (linux).
+description: Writes, debugs, and hardens Bash shell scripts — quoting, arrays, strict mode, traps, argument parsing, and macOS/Linux portability. Use when writing or reviewing any script, one-liner, cron job, deploy script, container entrypoint, or CI step; when a script breaks on spaces in filenames, exits silently, ignores set -e, hangs, or returns the wrong exit code; when quoting, IFS, globs, arrays, heredocs, process substitution, trap, getopts, or mapfile misbehave; when shellcheck flags SC2086 and friends; when unbound variable, bad substitution, command not found, ambiguous redirect, or unexpected end of file show up; when a script works by hand but fails under cron, systemd, sudo, or a CI runner; or when porting between macOS bash 3.2, GNU/Linux, WSL, and POSIX sh. Not for interactive zsh or fish configuration, not for PowerShell, and not for host-level cron, systemd, or permission failures (linux).
 homepage: https://clawic.com/skills/bash
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🖥️
@@ -29,9 +17,17 @@ metadata:
     displayName: Bash
     configPaths:
     - ~/Clawic/data/bash/
+    - ~/bash/
+    - ~/clawic/bash/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/bash/
+      - ~/bash/
+      - ~/clawic/bash/
 ---
 
-User preferences live in `~/Clawic/data/bash/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/bash/` or `~/clawic/bash/`), move it to `~/Clawic/data/bash/`.
+User preferences live in `~/Clawic/data/bash/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/bash/` or `~/clawic/bash/`), move it to `~/Clawic/data/bash/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "63668776c5c4654589bfd2e3b46f42f3c6a765e92ac4c763950fc45fe89cffef",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "feae25e21ca6c661b282e13b2a1c702a7329040fc39505858ad01c965485e982",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "meetings",
     "name": "Meetings",
     "description": "Designs, runs, records, and closes out meetings: agendas, facilitation, decisions, minutes, and follow-up. Use when preparing or chairing a 1-on-1, standup, retro, planning session, all-hands, kickoff, design review, client or board call, or offsite; when a meeting ends with no decision, runs long, or relitigates last week; when action items vanish, owners are vague, or nobody chased them; when a transcript or raw notes must become a record with owners and dates; when a recap or formal minutes have to go out; when a recurring meeting has outlived its purpose or the calendar is too full to build anything; when an invite should be declined or replaced by a written update; when a remote or hybrid room leaves half the attendees silent; and when bad news, conflict, or an escalation has to be handled live. Not for note apps and vaults (`notes`), day and calendar planning (`calendar-planner`), or the address book itself (`people`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/meetings",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/meetings/config.yaml` (what the user declared) and `~/Clawic/data/meetings/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and th",
     "repositoryPath": "skills/meetings",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/meetings/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/_meta.json",
-      "byteCount": 244,
-      "sha256": "61a6b726206d042ddf0905355f0dcde3b422b8dc752eea482a076edb322d22e0"
+      "byteCount": 318,
+      "sha256": "a86cfa73478ad12d970636a27e4a68cf9937f02d4edcc33da42a0402965aa9e8"
     },
     {
       "path": "agendas.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/meetings/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/memory-template.md",
-      "byteCount": 25531,
-      "sha256": "937bfb631858c3312388afa20b52bade455501a1eeff94db9e10ea20c0e417d8"
+      "byteCount": 25761,
+      "sha256": "b6d92262b7a0df4115f708da0ed6c68dbe80d77de54b8d170b2cda3e63b4473d"
     },
     {
       "path": "one-on-ones.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/meetings/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/SKILL.md",
-      "byteCount": 28671,
-      "sha256": "991e703680f7f11a5179d4e194a85eb2437184a06fad748f8464cf2d512ab24c"
+      "byteCount": 29453,
+      "sha256": "5e1960fd698fea2de3a1eb2deaff55de8b2dfb2a79eb5bb2605c8994c71a0ef3"
     },
     {
       "path": "team-rituals.md",

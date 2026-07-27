@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/dhgate/
     displayName: DHgate
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/dhgate/
 ---
 
 ## When to Use

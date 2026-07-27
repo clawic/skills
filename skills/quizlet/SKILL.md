@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/quizlet/
     displayName: Quizlet
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/quizlet/
 ---
 
 ## Setup

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "737292e5ff1773479f31153772bd1e80cf5f2467b51a1ed363cd1a3bf0f73308",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "3dd887f42d2dee0fe0c0774bc603ce14a3f93efb3ffbe5ed5cf9402256203b7e",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "clients",
     "name": "Clients",
     "description": "Manages client relationships end to end for freelancers, consultants, and agencies: qualifying leads, scoping, onboarding, scope creep, getting paid. Use when a prospect enquires and the call is whether to take them, when a proposal or SOW has to be scoped and priced, when onboarding needs access, stakeholders and approvals, when the client keeps adding \"one small thing\", when an invoice is late and the chase has to escalate, when a client goes quiet or the relationship is decaying, when rates have to go up on an existing client, when an engagement is renewing, expanding, or ending, and when a client has to be fired or a hard conversation drafted. Covers retainers versus project work, change orders, procurement, handover, and referrals. Not for drafting the contract itself (`contract`), issuing invoices (`invoice`), filing received invoices (`invoices`), a personal contact book (`people`), running an agency as a business (`agency`), or platform tactics on Upwork (`upwork`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/clients",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/clients/config.yaml` (what the user declared) and `~/Clawic/data/clients/memory.md` (what you observed, plus its `## Boxes` index and its `## Due` table). Open",
     "repositoryPath": "skills/clients",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/clients/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/_meta.json",
-      "byteCount": 242,
-      "sha256": "5966fca2cc96bf1c49594e0a0e22cdc54b325c4f60d3feb4e6e0fbd37fdaef32"
+      "byteCount": 316,
+      "sha256": "65e2820b336d0258e94edeecd8fd9d1d156d7f176fc71a1e63da63670cc3fc91"
     },
     {
       "path": "delivery.md",
@@ -54,8 +54,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/clients/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/memory-template.md",
-      "byteCount": 21168,
-      "sha256": "a4ce23bbc0cfd42dce1d3257e796d7dafd176fa658a1cd4f237c078d49fe266f"
+      "byteCount": 21398,
+      "sha256": "dff2bb91ee8310bd9bcfd4e1b528a34653a15ed8b508fc26ba60f6b0de335fc0"
     },
     {
       "path": "offboarding.md",
@@ -117,8 +117,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/clients/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/clients/SKILL.md",
-      "byteCount": 24629,
-      "sha256": "2de382019e96ecfd4b4bb68e5274b1480615efa56176e542c980e29eb3603b61"
+      "byteCount": 25201,
+      "sha256": "0b39b123458df582a5d22448dae701c4574015bc8033c92fa8b30e55367a9f1c"
     },
     {
       "path": "stakeholders.md",

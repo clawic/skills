@@ -1,19 +1,10 @@
 ---
 name: VPS
 slug: vps
-version: 1.0.1
-description: >-
-  Runs rented virtual private servers end to end: picking a provider and plan, first boot, snapshots, resizing, IP
-  addresses, and moving between hosts. Use when choosing between Hetzner, DigitalOcean, Vultr, or Linode, when a
-  box is unreachable and it is unclear whether the fault is the provider or the machine, when SSH refuses and the
-  only way in is the web console or rescue mode, when the disk filled, the plan has to change, or a snapshot has
-  to be restored, when a firewall rule looks correct but is ignored, when the provider sends an abuse notice or
-  suspends the server, when outbound mail is rejected or blacklisted, or when bandwidth overage or IPv4 charges
-  make the bill jump. Covers provider firewalls, private networking, and restorable backups. Not for Linux
-  internals (`linux`), container runtime problems (`docker`), reverse-proxy/TLS configuration (`nginx`), DNS
-  record design (`dns`), or managed platforms with no server to administer (`hosting`).
+version: 1.0.2
+description: 'Runs rented virtual private servers end to end: picking a provider and plan, first boot, snapshots, resizing, IP addresses, and moving between hosts. Use when choosing between Hetzner, DigitalOcean, Vultr, or Linode, when a box is unreachable and it is unclear whether the fault is the provider or the machine, when SSH refuses and the only way in is the web console or rescue mode, when the disk filled, the plan has to change, or a snapshot has to be restored, when a firewall rule looks correct but is ignored, when the provider sends an abuse notice or suspends the server, when outbound mail is rejected or blacklisted, or when bandwidth overage or IPv4 charges make the bill jump. Covers provider firewalls, private networking, and restorable backups. Not for Linux internals (`linux`), container runtime problems (`docker`), reverse-proxy/TLS configuration (`nginx`), DNS record design (`dns`), or managed platforms with no server to administer (`hosting`).'
 homepage: https://clawic.com/skills/vps
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🖧
@@ -27,6 +18,15 @@ metadata:
     - ~/Clawic/data/servers/
     - ~/Clawic/data/domains/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/vps/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
 ---
 
 **Data.** At the start of every session, read `~/Clawic/data/vps/config.yaml` (what the user declared) and `~/Clawic/data/vps/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file that `## Boxes` names when the condition written on its line applies — that index *is* the list of files; never work from a fixed list of names, because most boxes get created after this skill was written. Read `~/Clawic/data/servers/servers.md` before any sizing, cost, access, or "what do I have" question. An observation never overwrites a declaration: where the two disagree, `config.yaml` wins and the observation is recorded as an observation. If none of it exists, work from defaults and say nothing about it.

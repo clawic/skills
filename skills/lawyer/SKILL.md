@@ -1,19 +1,10 @@
 ---
 name: Lawyer
 slug: lawyer
-version: 1.0.1
-description: >-
-  Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the risk
-  before signature. Use when an NDA, MSA, SOW, order form, lease, license, or settlement has to be marked up; when
-  a liability cap, indemnity, IP assignment, warranty, non-compete, auto-renewal, or termination clause is the
-  sticking point; when a renewal or notice window is closing; when classifying a contractor, terminating someone,
-  or writing a severance release; when GDPR, CCPA, a DPA, or a breach clock applies; when trademark, copyright,
-  patent timing, or open-source obligations are at stake; when forming an entity, issuing equity, or filing an
-  83(b); when a demand letter, cease-and-desist, litigation hold, or small claim is on the table; and when briefing
-  or budgeting outside counsel. Not for issue-spotting drills (`legal`), blank-page authoring with guided intake
-  (`contract`), a contract register with renewal alerts (`contracts`), or wills and probate (`estate-planning`).
+version: 1.0.2
+description: 'Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the risk before signature. Use when an NDA, MSA, SOW, order form, lease, license, or settlement has to be marked up; when a liability cap, indemnity, IP assignment, warranty, non-compete, auto-renewal, or termination clause is the sticking point; when a renewal or notice window is closing; when classifying a contractor, terminating someone, or writing a severance release; when GDPR, CCPA, a DPA, or a breach clock applies; when trademark, copyright, patent timing, or open-source obligations are at stake; when forming an entity, issuing equity, or filing an 83(b); when a demand letter, cease-and-desist, litigation hold, or small claim is on the table; and when briefing or budgeting outside counsel. Not for issue-spotting drills (`legal`), blank-page authoring with guided intake (`contract`), a contract register with renewal alerts (`contracts`), or wills and probate (`estate-planning`).'
 homepage: https://clawic.com/skills/lawyer
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ⚖️
@@ -27,9 +18,18 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/lawyer/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/lawyer/config.yaml` (what the user declared) and `~/Clawic/data/lawyer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before naming a counterparty, a lawyer, or an opposing party. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/lawyer/config.yaml` (what the user declared) and `~/Clawic/data/lawyer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before naming a counterparty, a lawyer, or an opposing party. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: an agreement signed, amended, renewed or terminated; a deadline that now exists (notice window, filing, limitation period); a position taken or conceded in a negotiation; a matter opened, escalated or closed with its cost; a filing or registration made; a fact about the user's legal setup that changes future answers; or something they will re-read — clause language that finally got accepted, a policy, a template, a memo explaining why a decision was made. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

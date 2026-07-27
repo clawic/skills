@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/florida/
     displayName: Florida
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/florida/
 ---
 
 ## When to Use

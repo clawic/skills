@@ -2,19 +2,8 @@
 name: Python
 slug: py
 version: 1.0.4
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
-description: >-
-  Writes, debugs, and reviews Python code — runtime traps, packaging, typing, async, tests,
-  performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports,
-  AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments,
-  `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no
-  exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies,
-  or a package installs but will not import; when threads, asyncio, multiprocessing or the
-  GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the
-  wrong module, or async tests never run; when mypy or pyright errors need clearing; when
-  a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never
-  appear; or when upgrading Python breaks the build. Not for library-specific problems —
-  pandas, numpy, django, fastapi and flask have their own skills.
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
+description: 'Writes, debugs, and reviews Python code — runtime traps, packaging, typing, async, tests, performance. Use when Python raises or misbehaves: ModuleNotFoundError, circular imports, AttributeError on None, UnboundLocalError, UnicodeDecodeError, mutable default arguments, `is` vs `==`, float rounding, naive vs aware datetimes, or a wrong answer with no exception; when pip, uv, poetry, venv, pyproject or a lockfile fight over dependencies, or a package installs but will not import; when threads, asyncio, multiprocessing or the GIL hang, deadlock, or leak memory; when pytest passes but should not, mocks patch the wrong module, or async tests never run; when mypy or pyright errors need clearing; when a script is slow, eats RAM, or gets OOM-killed; when subprocess calls hang or logs never appear; or when upgrading Python breaks the build. Not for library-specific problems — pandas, numpy, django, fastapi and flask have their own skills.'
 homepage: https://clawic.com/skills/py
 metadata:
   clawdbot:
@@ -29,9 +18,17 @@ metadata:
     displayName: Python
     configPaths:
     - ~/Clawic/data/py/
+    - ~/py/
+    - ~/clawic/py/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/py/
+      - ~/py/
+      - ~/clawic/py/
 ---
 
-User preferences live in `~/Clawic/data/py/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/py/` or `~/clawic/py/`), move it to `~/Clawic/data/py/`.
+User preferences live in `~/Clawic/data/py/config.yaml` (see Configuration); nothing else is stored on the user's machine. If you have data at an old location (`~/py/` or `~/clawic/py/`), move it to `~/Clawic/data/py/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

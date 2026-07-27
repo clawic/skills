@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/digital-marketing/
     displayName: Digital Marketing
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/digital-marketing/
 ---
 
 ## Setup

@@ -2,18 +2,9 @@
 name: Terraform
 slug: terraform
 version: 1.0.4
-description: >-
-  Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state
-  surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan
-  or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or "forces
-  replacement", when renaming, importing, or moving resources between modules and states, when
-  a state lock is stuck or state is lost or corrupted, when for_each fails because a value is
-  not known until apply, when pinning providers or surviving a major version upgrade, or when
-  wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu,
-  tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which
-  cloud services to build — see aws, gcp, or azure.
+description: Writes, debugs, and refactors Terraform — HCL and modules, plan and apply failures, state surgery, drift, and provider pinning. Use when writing or reviewing HCL, when terraform plan or apply errors out, when a plan shows a permanent diff, an unexplained destroy, or "forces replacement", when renaming, importing, or moving resources between modules and states, when a state lock is stuck or state is lost or corrupted, when for_each fails because a value is not known until apply, when pinning providers or surviving a major version upgrade, or when wiring plan-on-PR, apply-on-merge, drift detection, and policy gates. Covers OpenTofu, tfstate, backends, workspaces, and infrastructure-as-code review. Not for choosing which cloud services to build — see aws, gcp, or azure.
 homepage: https://clawic.com/skills/terraform
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 🟪
@@ -28,9 +19,17 @@ metadata:
     displayName: Terraform
     configPaths:
     - ~/Clawic/data/terraform/
+    - ~/terraform/
+    - ~/clawic/terraform/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/terraform/
+      - ~/terraform/
+      - ~/clawic/terraform/
 ---
 
-User preferences and memory live in `~/Clawic/data/terraform/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/terraform/` or `~/clawic/terraform/`), move it to `~/Clawic/data/terraform/`.
+User preferences and memory live in `~/Clawic/data/terraform/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/terraform/` or `~/clawic/terraform/`), move it to `~/Clawic/data/terraform/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

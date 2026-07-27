@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "a455f8130b42fcb40ce418c050ce27a572319c85379e268d1071cffa382fb0a8",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "92b25f1fc7dfe8c700847964ae04a3798b029b339d74d17d15918ef0a67792d8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "fastmail-api",
     "name": "Fastmail API",
     "description": "Drives the Fastmail JMAP API for mail, search, bulk triage, sending, masked email, contacts, and calendars. Use when the user mentions Fastmail, JMAP, api.fastmail.com, or a Fastmail API token; when a JMAP call returns 401, 403, `unknownCapability`, `invalidResultReference`, `stateMismatch`, or a `notCreated`/`notUpdated`/`notDestroyed` map; when thousands of messages have to be searched, archived, moved, flagged, or deleted without touching the wrong mailbox; when a draft has to be sent from an alias, identity, or custom domain; when a masked email address has to be created, disabled, or audited; when contacts or calendar events are read or written through JMAP; when an incremental sync or push subscription has to keep a local mirror current; or when a mailbox is being migrated in or out. Not for IMAP clients (`imap`), SMTP delivery (`smtp`), inbox triage as a habit (`inbox`, `email-management`), or Apple Mail on macOS (`apple-mail-macos`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/fastmail-api",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/fastmail-api/config.yaml` (what the user declared) and `~/Clawic/data/fastmail-api/memory.md` (what you observed — its `## Boxes` index, its `## Due` table, th",
     "repositoryPath": "skills/fastmail-api",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/fastmail-api/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastmail-api/_meta.json",
-      "byteCount": 252,
-      "sha256": "668a3de6c2f3ffb8194aa5ac766d6a9721830e3c38c1679015e26ec7b60e974e"
+      "byteCount": 326,
+      "sha256": "087b50e32179a68fe77699da61d0f301d5062d02947baec3aa70782d54375465"
     },
     {
       "path": "calendar.md",
@@ -54,8 +54,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/fastmail-api/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastmail-api/memory-template.md",
-      "byteCount": 25678,
-      "sha256": "3ac828b93f294000f90482c9617aacdcb8ce2ecac4cb2532ff9ff5bb7730db05"
+      "byteCount": 25908,
+      "sha256": "5129cc88b22d53f658b1570ec82c6df2818c75013dcf09e1fa39fcffad959352"
     },
     {
       "path": "migration.md",
@@ -96,8 +96,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/fastmail-api/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/fastmail-api/SKILL.md",
-      "byteCount": 28833,
-      "sha256": "7ac4c7309af1bc07e80dd81e607e0028d42c2c023cac06892af24f176fffbc5e"
+      "byteCount": 29471,
+      "sha256": "0526a7bc3c35f3f8a0c8ae25197aad546f5dd9bd857211d7c3516f838a169900"
     },
     {
       "path": "sync.md",

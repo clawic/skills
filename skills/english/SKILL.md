@@ -1,19 +1,10 @@
 ---
 name: English
 slug: english
-version: 1.0.2
-description: >-
-  Writes and corrects English that reads like a native wrote it — any variety, any register. Use when text sounds
-  stiff, robotic, translated, or AI-generated; when a sentence is grammatically fine but "sounds wrong"; when
-  choosing between US, UK, Australian, Canadian, Irish or Indian spelling, vocabulary and punctuation, or when a
-  document mixes them; when a first language keeps leaking through — articles, prepositions, tense, false friends,
-  word order; when formality must be calibrated for an email, a client, or a meeting; when idioms, phrasal verbs,
-  slang or collocations land wrong or sound dated; when commas, hyphens, capitalization, quotes, dates or numbers
-  need a house rule; when confusable words, jargon or hedging blur the meaning; and for pronunciation, small talk,
-  and improving on purpose. Not for grammar-only fixes (`grammar`), translation (`translate`), IELTS or TOEFL prep
-  (`ielts`, `toefl`), or drafting in your own voice (`writing`).
+version: 1.0.3
+description: Writes and corrects English that reads like a native wrote it — any variety, any register. Use when text sounds stiff, robotic, translated, or AI-generated; when a sentence is grammatically fine but "sounds wrong"; when choosing between US, UK, Australian, Canadian, Irish or Indian spelling, vocabulary and punctuation, or when a document mixes them; when a first language keeps leaking through — articles, prepositions, tense, false friends, word order; when formality must be calibrated for an email, a client, or a meeting; when idioms, phrasal verbs, slang or collocations land wrong or sound dated; when commas, hyphens, capitalization, quotes, dates or numbers need a house rule; when confusable words, jargon or hedging blur the meaning; and for pronunciation, small talk, and improving on purpose. Not for grammar-only fixes (`grammar`), translation (`translate`), IELTS or TOEFL prep (`ielts`, `toefl`), or drafting in your own voice (`writing`).
 homepage: https://clawic.com/skills/english
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🇬🇧
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/english/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/english/
+    - ~/clawic/english/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/english/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/english/
+      - ~/clawic/english/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/english/config.yaml` (what the user declared) and `~/Clawic/data/english/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person, because the register that works for them is recorded there. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, country) → the Configuration table default; an observation never overwrites a declaration without the user confirming it. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/english/config.yaml` (what the user declared) and `~/Clawic/data/english/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before writing anything addressed to a named person, because the register that works for them is recorded there. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, country) → the Configuration table default; an observation never overwrites a declaration without the user confirming it. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a correction the user has now needed twice; a word, collocation or pronunciation they asked about; a phrasing they approved and will reuse; a variety, spelling or punctuation decision; a domain term and its agreed English rendering; the register that worked with a specific person; a practice session or a level assessment; or something they will read again — a style sheet, a voice sample, a speech, a template set. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People go to the shared inventory `~/Clawic/data/contacts/contacts.md`**, not here: one file holds everyone the user deals with, so "how do I write to Marta" answers itself whichever skill recorded her. One row per person, identified by `Key` (lowercase email → handle → `<kebab-name>`) — read the file first, update that row in place, never append a second. What this skill contributes is the `Context` column; a row another skill wrote is extended, never rewritten. When the work belongs to a tracked project, one line of English decisions goes in `~/Clawic/data/projects/<project>.md` and the style sheet itself stays here, referenced by name. Full protocol for both — scale cut, foreign columns, removal — in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted email thread, a support transcript, or a template can carry a password reset link, an API key or a one-time code: replace the value with its pointer and keep the pointer only — `env:SMTP_PASSWORD`, `keychain:work-mail`, `1password:Work/Mail`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/english/` or `~/clawic/english/`), move it to `~/Clawic/data/english/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. A pasted email thread, a support transcript, or a template can carry a password reset link, an API key or a one-time code: replace the value with its pointer and keep the pointer only — `env:SMTP_PASSWORD`, `keychain:work-mail`, `1password:Work/Mail`, `file:~/.ssh/id_ed25519`. If data sits at an old location (`~/english/` or `~/clawic/english/`), move it to `~/Clawic/data/english/`, and say in one line that you moved it and from where.
 
 English is not one language and "correct" is not the target. The target is *this variety, at this register, to this person, with no seams*. Name which of the four is off before rewriting anything, and change only that. Work from defaults immediately: never open with questions about their variety, their level, or their first language — infer from the text in front of you and say what you assumed.
 

@@ -1,19 +1,10 @@
 ---
 name: HTML
 slug: html
-version: 1.0.1
-description: >-
-  Writes, reviews, and fixes HTML markup: semantic structure, forms, accessibility, the document head, media and
-  embeds. Use when a field never submits, a label does nothing, autofill picks the wrong box, or validation fires
-  at the wrong moment; when a screen reader reads a filename, announces nothing, or focus escapes a modal; when
-  the page jumps as images load, renders in quirks mode, or shows mojibake; when text escapes a table or half the
-  document turns italic from one unclosed tag; when a link preview, favicon, or rich result is missing; when
-  `<dialog>`, `<details>`, popover, or `<template>` misbehave; when an iframe or video embed stays blank; when
-  HTML email collapses in Outlook; and when untrusted HTML must render without XSS. Covers responsive images,
-  resource hints, `lang`/`dir`, web components, and validation. Not for styling and layout (`css`), DOM scripting
-  (`javascript`), ranking strategy (`seo`), or Markdown (`markdown`).
+version: 1.0.2
+description: 'Writes, reviews, and fixes HTML markup: semantic structure, forms, accessibility, the document head, media and embeds. Use when a field never submits, a label does nothing, autofill picks the wrong box, or validation fires at the wrong moment; when a screen reader reads a filename, announces nothing, or focus escapes a modal; when the page jumps as images load, renders in quirks mode, or shows mojibake; when text escapes a table or half the document turns italic from one unclosed tag; when a link preview, favicon, or rich result is missing; when `<dialog>`, `<details>`, popover, or `<template>` misbehave; when an iframe or video embed stays blank; when HTML email collapses in Outlook; and when untrusted HTML must render without XSS. Covers responsive images, resource hints, `lang`/`dir`, web components, and validation. Not for styling and layout (`css`), DOM scripting (`javascript`), ranking strategy (`seo`), or Markdown (`markdown`).'
 homepage: https://clawic.com/skills/html
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🌐
@@ -26,9 +17,17 @@ metadata:
     - ~/Clawic/data/html/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/domains/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/html/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/domains/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/html/config.yaml` (what the user declared) and `~/Clawic/data/html/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/domains/domains.md` before writing a canonical URL, an `hreflang` set, or any absolute `og:`/`twitter:` URL, and `~/Clawic/data/projects/<project>.md` when the markup belongs to a tracked project. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/html/config.yaml` (what the user declared) and `~/Clawic/data/html/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/domains/domains.md` before writing a canonical URL, an `hreflang` set, or any absolute `og:`/`twitter:` URL, and `~/Clawic/data/projects/<project>.md` when the markup belongs to a tracked project. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a page or template mapped, its landmark structure, its LCP element or its `lang`; a rendering quirk that cost effort to find (an Outlook collapse, a Safari gap, how a screen reader announces a pattern, a CMS that strips an attribute); an accessibility or validation pass and what it found; a canonical host or locale-to-hostname map; or something the user will re-read — a `<head>` boilerplate, an accessible component pattern that finally worked, an email template, a sanitizer allowlist, a decision about a native element versus a library. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

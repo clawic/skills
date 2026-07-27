@@ -25,6 +25,10 @@ metadata:
     - ~/.openclaw/openclaw.json
     - ~/.openclaw/workspace
     displayName: Auto-Update (OpenClaw + Skills)
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/auto-update/
 ---
 
 ## When to Use

@@ -2,19 +2,26 @@
 name: Collaborate
 slug: collaborate
 version: 1.0.3
-changelog: "Display name shown correctly"
-description: >-
-  Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil's advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.
+changelog: Display name shown correctly
+description: 'Structures collaboration: picks the counterpart, runs a bounded exchange on a plan or decision, lands a decision or a recorded disagreement. Use when a plan needs critique, red-teaming, or a devil''s advocate before commitment, when giving or asking for a second opinion, design review, or feedback on a draft, when a review thread keeps looping without anyone changing position, when a group review or pairing session needs structure, or when choosing between collaborating, delegating, and working solo. Not for routing specified work to sub-agents — that is delegation.'
 homepage: https://clawic.com/skills/collaborate
 metadata:
   clawdbot:
-    emoji: "🤝"
+    emoji: 🤝
     displayName: Collaborate
     configPaths:
     - ~/Clawic/data/collaborate/
+    - ~/collaborate/
+    - ~/clawic/collaborate/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/collaborate/
+      - ~/collaborate/
+      - ~/clawic/collaborate/
 ---
 
-Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawic/data/collaborate/`.
+Decision records and user preferences live in `~/Clawic/data/collaborate/` (`decision-log.md` for the record format). If you have data at an old location (`~/collaborate/` or `~/clawic/collaborate/`), move it to `~/Clawic/data/collaborate/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

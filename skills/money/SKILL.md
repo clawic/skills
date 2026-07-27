@@ -1,19 +1,10 @@
 ---
 name: Money
 slug: money
-version: 1.0.1
-description: >-
-  Decides where money goes next: which debt to clear first, how big the emergency fund must be, what to save, and
-  whether a purchase is affordable. Use when the question is "should I pay this off or invest it", "how much do I
-  need saved", "can I afford this", "rent or buy", "am I on track to stop working", or "where does my money even
-  go"; when a raise, bonus, inheritance, equity vest or business sale lands and nobody has decided what to do with
-  it; when a card is at 20% and only minimums are going out; when a job ends, a diagnosis arrives, a marriage
-  ends, or income suddenly swings; when a credit score drops or a loan is refused; or when judging a pitch, an
-  adviser's fee, or a "guaranteed" return. Covers savings rate, order of operations, real-versus-nominal maths,
-  and fee drag. Not for picking funds or brokers (`invest`), building a tracker or importing statements
-  (`personal-finance-tracker`), a recurring-payment list (`subscriptions`), or company finance (`cfo`).
+version: 1.0.2
+description: 'Decides where money goes next: which debt to clear first, how big the emergency fund must be, what to save, and whether a purchase is affordable. Use when the question is "should I pay this off or invest it", "how much do I need saved", "can I afford this", "rent or buy", "am I on track to stop working", or "where does my money even go"; when a raise, bonus, inheritance, equity vest or business sale lands and nobody has decided what to do with it; when a card is at 20% and only minimums are going out; when a job ends, a diagnosis arrives, a marriage ends, or income suddenly swings; when a credit score drops or a loan is refused; or when judging a pitch, an adviser''s fee, or a "guaranteed" return. Covers savings rate, order of operations, real-versus-nominal maths, and fee drag. Not for picking funds or brokers (`invest`), building a tracker or importing statements (`personal-finance-tracker`), a recurring-payment list (`subscriptions`), or company finance (`cfo`).'
 homepage: https://clawic.com/skills/money
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💰
@@ -27,9 +18,18 @@ metadata:
     - ~/Clawic/data/finances/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/money/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/money/config.yaml` (what the user declared) and `~/Clawic/data/money/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index is the list of files, never assume the list is fixed. Read `~/Clawic/data/finances/accounts.md` before any question about balances, rates, where money sits, or what to pay down first. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/money/config.yaml` (what the user declared) and `~/Clawic/data/money/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/finances/accounts.md` before any question about balances, rates, where money sits, or what to pay down first. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a rate, balance or account discovered or changed; a payoff order agreed; a goal with a date; a budget or savings rate; a net-worth reading; a decision taken and why; a cover level or deductible; a review that ran; or something the user will want to read again — a payoff plan, an investment policy, a rent-versus-buy analysis, a coverage map, a job-loss playbook. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

@@ -2,27 +2,28 @@
 name: Fasting Tracker
 slug: fasting
 version: 1.0.3
-description: >-
-  Tracks intermittent fasting and extended fasts: logs start and break times, computes
-  elapsed hours, fasting stages, and eating windows. Use when the user starts, breaks, or
-  checks a fast, plans 16:8, 18:6, OMAD, 5:2, alternate-day, time-restricted eating, or
-  multi-day water fasts, asks whether coffee, sweeteners, gum, or supplements break a fast,
-  or when ketosis or autophagy starts, reports headaches, dizziness, hunger waves, or
-  insomnia while fasting, needs electrolyte or refeeding guidance past 24h, checks fasting
-  against medications, diabetes, or the menstrual cycle, observes Ramadan or another
-  religious fast, trains fasted, hits a weight-loss plateau, or interprets glucose and
-  ketone readings.
+description: 'Tracks intermittent fasting and extended fasts: logs start and break times, computes elapsed hours, fasting stages, and eating windows. Use when the user starts, breaks, or checks a fast, plans 16:8, 18:6, OMAD, 5:2, alternate-day, time-restricted eating, or multi-day water fasts, asks whether coffee, sweeteners, gum, or supplements break a fast, or when ketosis or autophagy starts, reports headaches, dizziness, hunger waves, or insomnia while fasting, needs electrolyte or refeeding guidance past 24h, checks fasting against medications, diabetes, or the menstrual cycle, observes Ramadan or another religious fast, trains fasted, hits a weight-loss plateau, or interprets glucose and ketone readings.'
 homepage: https://clawic.com/skills/fasting
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
-    emoji: "⏳"
+    emoji: ⏳
     displayName: Fasting Tracker
     configPaths:
     - ~/Clawic/data/fasting/
+    - ~/Clawic/profile.yaml
+    - ~/fasting/
+    - ~/clawic/fasting/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/fasting/
+      - ~/Clawic/profile.yaml
+      - ~/fasting/
+      - ~/clawic/fasting/
 ---
 
-User preferences and fast state live in `~/Clawic/data/fasting/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/fasting/` or `~/clawic/fasting/`), move it to `~/Clawic/data/fasting/`.
+User preferences and fast state live in `~/Clawic/data/fasting/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/fasting/` or `~/clawic/fasting/`), move it to `~/Clawic/data/fasting/`, and say in one line that you moved it and from where.
 
 ## Configuration
 

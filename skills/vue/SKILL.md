@@ -2,17 +2,9 @@
 name: Vue
 slug: vue
 version: 1.0.3
-description: >-
-  Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance.
-  Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment,
-  .value is forgotten, a watcher never fires or loops ("Maximum recursive updates exceeded"), props or v-model stop syncing,
-  a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns
-  "getActivePinia() was called but there was no active Pinia", the console shows "Failed to resolve component" or "Extraneous non-props
-  attributes", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped
-  styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific
-  SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).
+description: 'Builds, debugs, and reviews Vue 3 apps: reactivity, components, composables, Pinia state, Vue Router, forms, and performance. Use when the UI does not update after a state change, a reactive object loses reactivity on destructure or reassignment, .value is forgotten, a watcher never fires or loops ("Maximum recursive updates exceeded"), props or v-model stop syncing, a template ref is null, SSR reports a hydration mismatch, a route param change does not reload the component, Pinia warns "getActivePinia() was called but there was no active Pinia", the console shows "Failed to resolve component" or "Extraneous non-props attributes", a thrown error blanks the page, a long list or large object makes typing lag, a chart or map library breaks after being put in ref(), scoped styles do not reach a child, or when migrating Vue 2 Options API to Composition API and script setup. Not for Nuxt-specific SSR, routing, and data fetching (nuxt), Vite build configuration (vite), or React and Svelte (react, svelte).'
 homepage: https://clawic.com/skills/vue
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
     emoji: 💚
@@ -26,9 +18,17 @@ metadata:
     displayName: Vue
     configPaths:
     - ~/Clawic/data/vue/
+    - ~/vue/
+    - ~/clawic/vue/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/vue/
+      - ~/vue/
+      - ~/clawic/vue/
 ---
 
-User preferences and memory live in `~/Clawic/data/vue/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/vue/` or `~/clawic/vue/`), move it to `~/Clawic/data/vue/`.
+User preferences and memory live in `~/Clawic/data/vue/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/vue/` or `~/clawic/vue/`), move it to `~/Clawic/data/vue/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

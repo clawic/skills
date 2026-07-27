@@ -1,20 +1,10 @@
 ---
 name: Nutrition
 slug: nutrition
-version: 1.0.1
-description: >-
-  Closes micronutrient gaps and raises diet quality: vitamins, minerals, fiber, supplements, and food-drug
-  interactions. Use when the user asks if they get enough iron, B12, vitamin D, magnesium, calcium, zinc,
-  folate, iodine, potassium, or omega-3, reports fatigue, hair loss, cramps, tingling, or mouth sores,
-  brings blood work to read (ferritin, 25-OH D, homocysteine), builds or prunes a supplement stack with
-  doses, forms, and upper limits, checks a food or supplement against a medication, needs the gaps of a
-  vegan, vegetarian, keto, gluten-free, low-FODMAP, DASH, or Mediterranean diet, eats for pregnancy, older
-  age, celiac, IBD, kidney disease, or bariatric surgery, wants more fiber or less ultra-processed food and
-  sodium, or reads a label's %DV, NRV, or ingredients. Not for calorie and macro counting (`calories`,
-  `dietitian`), meal plans and recipes (`meal-planner`, `meals`), food logging or eating habits (`food`,
-  `nutritionist`), hydration (`water`), or fasting windows (`fasting`).
+version: 1.0.2
+description: 'Closes micronutrient gaps and raises diet quality: vitamins, minerals, fiber, supplements, and food-drug interactions. Use when the user asks if they get enough iron, B12, vitamin D, magnesium, calcium, zinc, folate, iodine, potassium, or omega-3, reports fatigue, hair loss, cramps, tingling, or mouth sores, brings blood work to read (ferritin, 25-OH D, homocysteine), builds or prunes a supplement stack with doses, forms, and upper limits, checks a food or supplement against a medication, needs the gaps of a vegan, vegetarian, keto, gluten-free, low-FODMAP, DASH, or Mediterranean diet, eats for pregnancy, older age, celiac, IBD, kidney disease, or bariatric surgery, wants more fiber or less ultra-processed food and sodium, or reads a label''s %DV, NRV, or ingredients. Not for calorie and macro counting (`calories`, `dietitian`), meal plans and recipes (`meal-planner`, `meals`), food logging or eating habits (`food`, `nutritionist`), hydration (`water`), or fasting windows (`fasting`).'
 homepage: https://clawic.com/skills/nutrition
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🥗
@@ -27,15 +17,27 @@ metadata:
     - ~/Clawic/data/nutrition/
     - ~/Clawic/data/health/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/nutrition/
+    - ~/clawic/nutrition/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/nutrition/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/nutrition/
+      - ~/clawic/nutrition/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/nutrition/config.yaml` (what the user declared) and `~/Clawic/data/nutrition/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read the shared health box `~/Clawic/data/health/profile.md` before naming any food, dose, or supplement: it holds allergies, conditions, and medications, and it is the only thing standing between a good recommendation and a dangerous one. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/nutrition/config.yaml` (what the user declared) and `~/Clawic/data/nutrition/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read the shared health box `~/Clawic/data/health/profile.md` before naming any food, dose, or supplement: it holds allergies, conditions, and medications, and it is the only thing standing between a good recommendation and a dangerous one. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a nutrient found short or repleted; a lab value; an allergy, intolerance, condition, or medication; a supplement started, changed, or stopped; a food added to the user's library with its nutrient profile; a symptom that followed a food; a weekly coverage rollup; a retest or review date; or something the user will read again — a repletion protocol, an elimination-and-reintroduction plan, a clinician's plan, a summary to take to an appointment. `memory-template.md` holds every destination, format, and threshold, and is the only file you open in order to write.
 
 **Health facts go to the shared box `~/Clawic/data/health/`**, not here: allergies, conditions, medications, life stage, and lab values are read by every health-adjacent skill the user installs, so they live in one place. Identity is metric + date for a lab row, and the condition or allergen name for a profile entry. Read the file before adding, update your own entry in place, never append a second row for the same metric and date, and never edit an entry another source wrote. Full format and the scale cut travel with this skill in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. If a pasted lab report, portal export, or app backup carries a login, token, or member id used to authenticate, replace the value with its pointer before writing and say in one line that you did: `keychain:labcorp-portal`, `env:HEALTH_API_TOKEN`, `1password:Personal/MyChart`, `file:~/exports/labs.pdf`. If data sits at an old location (`~/nutrition/` or `~/clawic/nutrition/`), move it to `~/Clawic/data/nutrition/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. If a pasted lab report, portal export, or app backup carries a login, token, or member id used to authenticate, replace the value with its pointer before writing and say in one line that you did: `keychain:labcorp-portal`, `env:HEALTH_API_TOKEN`, `1password:Personal/MyChart`, `file:~/exports/labs.pdf`. If data sits at an old location (`~/nutrition/` or `~/clawic/nutrition/`), move it to `~/Clawic/data/nutrition/`, and say in one line that you moved it and from where.
 
 Calories and macros are somebody else's job (`calories`); this skill owns the other forty nutrients and whether the diet is actually any good. Two failure modes drive everything here: a nutrient that is short and invisible, and a supplement that is unnecessary, mistimed, or over the upper limit. Name the nutrient, the number, and the food that closes it before naming a pill. Work from defaults immediately: never open with questions about their diet, their labs, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: units, locale, country) → the Configuration table default.
 

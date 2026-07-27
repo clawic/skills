@@ -1,20 +1,10 @@
 ---
 name: Growth
 slug: growth
-version: 1.0.1
-description: >-
-  Runs growth as a system: finds which funnel stage is the constraint, picks the loop that compounds, and sizes the
-  channel and experiment program. Use when growth stalled or a number has to be hit and nobody can say which stage
-  is broken; when choosing, scaling, or killing acquisition channels; when CAC, payback, LTV:CAC, or
-  blended-versus-paid has to be computed or defended; when signups grow but activation, retention, or paid
-  conversion does not; when designing a referral program, a lifecycle messaging map, or a north-star metric and the
-  events behind it; when forecasting from a model instead of a wish; and for marketplace liquidity, app-install
-  funnels, ecommerce repeat purchase, and self-serve-versus-sales motion. Not for A/B test statistics
-  (`ab-testing`), page-level conversion work (`cro`), churn cohort depth (`churn-analysis`), MRR and NRR
-  definitions (`saas-metrics`), launch positioning (`go-to-market`), or the CGO role and growth-org leadership
-  (`cgo`).
+version: 1.0.2
+description: 'Runs growth as a system: finds which funnel stage is the constraint, picks the loop that compounds, and sizes the channel and experiment program. Use when growth stalled or a number has to be hit and nobody can say which stage is broken; when choosing, scaling, or killing acquisition channels; when CAC, payback, LTV:CAC, or blended-versus-paid has to be computed or defended; when signups grow but activation, retention, or paid conversion does not; when designing a referral program, a lifecycle messaging map, or a north-star metric and the events behind it; when forecasting from a model instead of a wish; and for marketplace liquidity, app-install funnels, ecommerce repeat purchase, and self-serve-versus-sales motion. Not for A/B test statistics (`ab-testing`), page-level conversion work (`cro`), churn cohort depth (`churn-analysis`), MRR and NRR definitions (`saas-metrics`), launch positioning (`go-to-market`), or the CGO role and growth-org leadership (`cgo`).'
 homepage: https://clawic.com/skills/growth
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📈
@@ -28,15 +18,28 @@ metadata:
     - ~/Clawic/data/finances/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/growth/
+    - ~/clawic/growth/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/growth/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/growth/
+      - ~/clawic/growth/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/growth/config.yaml` (what the user declared) and `~/Clawic/data/growth/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/finances/budget.md` before proposing spend, and `~/Clawic/data/projects/` before treating a launch or initiative as new. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/growth/config.yaml` (what the user declared) and `~/Clawic/data/growth/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/finances/budget.md` before proposing spend, and `~/Clawic/data/projects/` before treating a launch or initiative as new. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a funnel or retention number with its as-of date; a channel started, scaled, or killed with its CAC and payback; an experiment shipped and what it read out; a loop identified or falsified; a metric definition agreed; a target or forecast; a paid budget; a person or agency now involved; or something the user will re-read — a tracking plan, a growth model, an onboarding spec, a referral program, a channel post-mortem. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Shared boxes.** Money goes to `~/Clawic/data/finances/` (`budget.md` for paid spend, `subscriptions.md` for growth tooling), a launch or initiative to `~/Clawic/data/projects/<project>.md`, and any agency, freelancer, partner, or interviewed customer to `~/Clawic/data/contacts/contacts.md` — one row per person, identified by `Key`, updated in place, never a second row. Full protocol and the identity key for each: `memory-template.md`. Growth's own numbers stay in `~/Clawic/data/growth/`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:SEGMENT_WRITE_KEY`, `keychain:meta-ads`, `1password:Work/Analytics/amplitude`. Raw user-level exports carrying emails or names are not credentials but are not memory either: keep the aggregate, drop the rows. If data sits at an old location (`~/growth/` or `~/clawic/growth/`), move it to `~/Clawic/data/growth/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:SEGMENT_WRITE_KEY`, `keychain:meta-ads`, `1password:Work/Analytics/amplitude`. Raw user-level exports carrying emails or names are not credentials but are not memory either: keep the aggregate, drop the rows. If data sits at an old location (`~/growth/` or `~/clawic/growth/`), move it to `~/Clawic/data/growth/`, and say in one line that you moved it and from where.
 
 Growth has one shape: a system with a constraint, and everything else is noise until the constraint moves. Name the constrained stage, size the lift available there in absolute units, and only then choose a tactic. Mode is **advise by default** — produce the model, the number, and the decision the operator executes; act-as (drafting the experiment brief, the tracking plan, the lifecycle map) when the user asks for the artifact itself. Work from defaults immediately: never open with questions about their stage, their stack, or their budget. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: currency, locale) → the Configuration table default.
 

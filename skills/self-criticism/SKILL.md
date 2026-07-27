@@ -20,6 +20,10 @@ metadata:
     - ./AGENTS.md
     - ./SOUL.md
     displayName: Self-Criticism
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/self-criticism/
 ---
 
 ## When to Use

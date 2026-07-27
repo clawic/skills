@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "9e5a13c4f2cef95968beab5f1f7bdd6cf6743faf845702defbfd4b8f2d38a101",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "ac34d693abc30030865a35f594b9251b16ca4a196a8f41eff47bd417d76e7359",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "growth",
     "name": "Growth",
     "description": "Runs growth as a system: finds which funnel stage is the constraint, picks the loop that compounds, and sizes the channel and experiment program. Use when growth stalled or a number has to be hit and nobody can say which stage is broken; when choosing, scaling, or killing acquisition channels; when CAC, payback, LTV:CAC, or blended-versus-paid has to be computed or defended; when signups grow but activation, retention, or paid conversion does not; when designing a referral program, a lifecycle messaging map, or a north-star metric and the events behind it; when forecasting from a model instead of a wish; and for marketplace liquidity, app-install funnels, ecommerce repeat purchase, and self-serve-versus-sales motion. Not for A/B test statistics (`ab-testing`), page-level conversion work (`cro`), churn cohort depth (`churn-analysis`), MRR and NRR definitions (`saas-metrics`), launch positioning (`go-to-market`), or the CGO role and growth-org leadership (`cgo`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/growth",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/growth/config.yaml` (what the user declared) and `~/Clawic/data/growth/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/growth",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/growth/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/_meta.json",
-      "byteCount": 240,
-      "sha256": "03f491b5e0ef316a7f1e3a041bd258c23d68d30e6095561610eb181b463c4200"
+      "byteCount": 314,
+      "sha256": "c536055941c2bea43df953166f9f75c6a3dffe5a309b5b08b7c469c3038dbd69"
     },
     {
       "path": "acquisition.md",
@@ -110,8 +110,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/growth/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/memory-template.md",
-      "byteCount": 24640,
-      "sha256": "e164fbc89d1cd4c34204905baa3b1fd7d92f3b72d5edd96e2c137edb830d7b73"
+      "byteCount": 24870,
+      "sha256": "44a83fe4e8120690a8362bc5eae62d0a8a14cd9e634c0d07c7844298066578af"
     },
     {
       "path": "mobile.md",
@@ -159,8 +159,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/growth/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/growth/SKILL.md",
-      "byteCount": 25466,
-      "sha256": "1ec506e44928c412d673b09638a3421da1182c107603112b1149dc5fe3d90679"
+      "byteCount": 26268,
+      "sha256": "d76bb707f7c0e33beb7d69dae19845842d9e71f6b7520f35e25610a4c2acd801"
     }
   ]
 }

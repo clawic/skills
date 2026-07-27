@@ -2,20 +2,30 @@
 name: Learning
 slug: learning
 version: 1.0.3
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 description: 'Teaches any topic in adaptive sessions: probes prior knowledge, calibrates depth and format, and checks retention before advancing. Use when the user says teach me, explain this, ELI5, break it down, or help me understand or study something, when an explanation is not landing (re-asks, blank answers, "makes sense" with no follow-through), when material learned earlier keeps getting forgotten, when practice answers are confidently wrong, or when pacing study before an exam or deadline. Not for building a multi-week study plan or curriculum tracker, and not for authoring flashcard decks.'
 homepage: https://clawic.com/skills/learning
 metadata:
   clawdbot:
-    emoji: "📚"
+    emoji: 📚
     displayName: Learning
     configPaths:
     - ~/Clawic/data/learning/
+    - ~/Clawic/profile.yaml
+    - ~/learning/
+    - ~/clawic/learning/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/learning/
+      - ~/Clawic/profile.yaml
+      - ~/learning/
+      - ~/clawic/learning/
 ---
 
 Mode: act-as. The agent is the teacher, running the session directly with the learner.
 
-User preferences and the cross-session learning log live in `~/Clawic/data/learning/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/learning/` or `~/clawic/learning/`), move it to `~/Clawic/data/learning/`.
+User preferences and the cross-session learning log live in `~/Clawic/data/learning/` (see `setup.md` on first use, `memory-template.md` for the file format). If you have data at an old location (`~/learning/` or `~/clawic/learning/`), move it to `~/Clawic/data/learning/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

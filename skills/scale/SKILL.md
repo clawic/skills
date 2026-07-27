@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/scale/
     displayName: Scale Frameworks
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/scale/
 ---
 
 ## Setup

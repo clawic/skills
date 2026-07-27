@@ -1,19 +1,10 @@
 ---
 name: JSON
 slug: json
-version: 1.0.1
-description: >-
-  Parses, validates, transforms, and designs JSON payloads that survive real parsers, real clients, and real data sizes.
-  Use when a parse fails at a byte offset or on a trailing comma, an id or an amount loses precision, accents and emoji
-  come back as mojibake, a field is null when it should be absent, duplicate keys silently win, a JSON Schema passes what
-  it should reject or a `$ref` will not resolve, a multi-gigabyte file will not fit in memory, a jq, JMESPath, or JSONPath
-  expression returns nothing, two documents must be diffed or patched, a webhook signature fails after the body was
-  re-serialized, untrusted input must be parsed safely, or a response shape has to change without breaking existing
-  clients. Covers NDJSON, JSON Patch, canonical form, JSON columns in SQL, and JSON5/JSONC config files. Not for
-  constraining LLM output (`structured-output`), for YAML, TOML, XML, or CSV (their own skills), or for designing REST
-  endpoints (`rest-api`).
+version: 1.0.2
+description: Parses, validates, transforms, and designs JSON payloads that survive real parsers, real clients, and real data sizes. Use when a parse fails at a byte offset or on a trailing comma, an id or an amount loses precision, accents and emoji come back as mojibake, a field is null when it should be absent, duplicate keys silently win, a JSON Schema passes what it should reject or a `$ref` will not resolve, a multi-gigabyte file will not fit in memory, a jq, JMESPath, or JSONPath expression returns nothing, two documents must be diffed or patched, a webhook signature fails after the body was re-serialized, untrusted input must be parsed safely, or a response shape has to change without breaking existing clients. Covers NDJSON, JSON Patch, canonical form, JSON columns in SQL, and JSON5/JSONC config files. Not for constraining LLM output (`structured-output`), for YAML, TOML, XML, or CSV (their own skills), or for designing REST endpoints (`rest-api`).
 homepage: https://clawic.com/skills/json
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 📦
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/json/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+    - ~/json/
+    - ~/clawic/json/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/json/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
+      - ~/json/
+      - ~/clawic/json/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/json/config.yaml` (what the user declared) and `~/Clawic/data/json/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/projects/<project>.md` before proposing a payload shape, a schema, or a format change for work the user tracks as a project. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/json/config.yaml` (what the user declared) and `~/Clawic/data/json/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/projects/<project>.md` before proposing a payload shape, a schema, or a format change for work the user tracks as a project. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a schema that finally validates real payloads; a field-by-field contract for a payload you had to reverse-engineer; a jq, JMESPath, or SQL/JSON expression that took more than one attempt; a producer's quirk and its workaround; a measured size, record count, or parse cost; a convention the codebase settled on (casing, dates, nulls, envelope); a redacted sample payload worth keeping; or a decision with a reason — NDJSON over an array, jsonb over json, JSON Patch over merge patch. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Format decisions and payload contracts that belong to a tracked piece of work go to the shared box `~/Clawic/data/projects/<project>.md`**, not only here: one file per project, identified by the project name, holding objective, status and decisions taken — so the reason a wire format was chosen is where the rest of the project's decisions live. Read it before writing, update the decision in place rather than appending a second one, and never rewrite headings that another skill created.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a payload, curl command, or `.env` the user pastes in to be saved. Strip the value and store the pointer in its place: `env:API_TOKEN`, `keychain:stripe-live`, `1password:Work/Vendor/webhook`, `ssm:/prod/webhook/secret`, `file:~/.config/app/creds.json`. Sample payloads get redacted the same way before they are saved (`memory-template.md`). If data sits at an old location (`~/json/` or `~/clawic/json/`), move it to `~/Clawic/data/json/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a payload, curl command, or `.env` the user pastes in to be saved. Strip the value and store the pointer in its place: `env:API_TOKEN`, `keychain:stripe-live`, `1password:Work/Vendor/webhook`, `ssm:/prod/webhook/secret`, `file:~/.config/app/creds.json`. Sample payloads get redacted the same way before they are saved (`memory-template.md`). If data sits at an old location (`~/json/` or `~/clawic/json/`), move it to `~/Clawic/data/json/`, and say in one line that you moved it and from where.
 
 Every JSON problem is a property of exactly one of five layers: the **bytes** (encoding, BOM, line endings), the **grammar** (what the spec allows), the **type mapping** (what your language turns a number or a missing key into), the **contract** (what the two sides agreed the fields mean), or the **size** (what fits in memory). Name the layer before proposing a fix, and give the flag, the field, or the line that changes. Work from defaults immediately: never open with questions about the user's casing, their validator, or how strict to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone, currency) → the Configuration table default.
 

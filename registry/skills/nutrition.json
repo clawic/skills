@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "e4a1cdeeb44cfa6967d8548f4b4b633deb9870078b728087d3cf0cb244f5198b",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "6a0e38e9e63a46084688632840eb93431c9d833881d7b51a1a97a527babb3890",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "nutrition",
     "name": "Nutrition",
     "description": "Closes micronutrient gaps and raises diet quality: vitamins, minerals, fiber, supplements, and food-drug interactions. Use when the user asks if they get enough iron, B12, vitamin D, magnesium, calcium, zinc, folate, iodine, potassium, or omega-3, reports fatigue, hair loss, cramps, tingling, or mouth sores, brings blood work to read (ferritin, 25-OH D, homocysteine), builds or prunes a supplement stack with doses, forms, and upper limits, checks a food or supplement against a medication, needs the gaps of a vegan, vegetarian, keto, gluten-free, low-FODMAP, DASH, or Mediterranean diet, eats for pregnancy, older age, celiac, IBD, kidney disease, or bariatric surgery, wants more fiber or less ultra-processed food and sodium, or reads a label's %DV, NRV, or ingredients. Not for calorie and macro counting (`calories`, `dietitian`), meal plans and recipes (`meal-planner`, `meals`), food logging or eating habits (`food`, `nutritionist`), hydration (`water`), or fasting windows (`fasting`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/nutrition",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/nutrition/config.yaml` (what the user declared) and `~/Clawic/data/nutrition/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/nutrition",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/nutrition/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/_meta.json",
-      "byteCount": 246,
-      "sha256": "086fc4e803790d686cf68412c4a7faee6c8388d4256753bb286182e8ca259f6d"
+      "byteCount": 320,
+      "sha256": "7d9ea3e5cd77697067d2d674ce7295f918327a02d127235edd26dfa2aef853da"
     },
     {
       "path": "absorption.md",
@@ -89,8 +89,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/nutrition/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/memory-template.md",
-      "byteCount": 20840,
-      "sha256": "5fb32d50d713abfe0616a9fa8e8ffef290c68c91f3e8cc7553b024a9e09c68a3"
+      "byteCount": 21070,
+      "sha256": "b399a46a71bf26485c72940ab7a9a473407f74cb7f85c03726040a7150dd646e"
     },
     {
       "path": "micronutrients.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/nutrition/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/nutrition/SKILL.md",
-      "byteCount": 30287,
-      "sha256": "1f8cae4905fda427e0130b9ed42f456c6064eff697380be15718b32a07662dc6"
+      "byteCount": 31071,
+      "sha256": "6be766691d3ea8159a710018ffb6b0a6956efd7f70cc39ba94769678c7ed3e8e"
     },
     {
       "path": "supplements.md",

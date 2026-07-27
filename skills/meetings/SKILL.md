@@ -1,19 +1,10 @@
 ---
 name: Meetings
 slug: meetings
-version: 1.0.1
-description: >-
-  Designs, runs, records, and closes out meetings: agendas, facilitation, decisions, minutes, and follow-up.
-  Use when preparing or chairing a 1-on-1, standup, retro, planning session, all-hands, kickoff, design review,
-  client or board call, or offsite; when a meeting ends with no decision, runs long, or relitigates last week;
-  when action items vanish, owners are vague, or nobody chased them; when a transcript or raw notes must become
-  a record with owners and dates; when a recap or formal minutes have to go out; when a recurring meeting has
-  outlived its purpose or the calendar is too full to build anything; when an invite should be declined or
-  replaced by a written update; when a remote or hybrid room leaves half the attendees silent; and when bad
-  news, conflict, or an escalation has to be handled live. Not for note apps and vaults (`notes`), day and
-  calendar planning (`calendar-planner`), or the address book itself (`people`).
+version: 1.0.2
+description: 'Designs, runs, records, and closes out meetings: agendas, facilitation, decisions, minutes, and follow-up. Use when preparing or chairing a 1-on-1, standup, retro, planning session, all-hands, kickoff, design review, client or board call, or offsite; when a meeting ends with no decision, runs long, or relitigates last week; when action items vanish, owners are vague, or nobody chased them; when a transcript or raw notes must become a record with owners and dates; when a recap or formal minutes have to go out; when a recurring meeting has outlived its purpose or the calendar is too full to build anything; when an invite should be declined or replaced by a written update; when a remote or hybrid room leaves half the attendees silent; and when bad news, conflict, or an escalation has to be handled live. Not for note apps and vaults (`notes`), day and calendar planning (`calendar-planner`), or the address book itself (`people`).'
 homepage: https://clawic.com/skills/meetings
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🤝
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/meetings/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/meetings/
+    - ~/clawic/meetings/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/meetings/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/meetings/
+      - ~/clawic/meetings/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/meetings/config.yaml` (what the user declared) and `~/Clawic/data/meetings/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and the open items under `## Follow-Ups`). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/contacts/contacts.md` before any meeting with named attendees. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/meetings/config.yaml` (what the user declared) and `~/Clawic/data/meetings/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and the open items under `## Follow-Ups`). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/contacts/contacts.md` before any meeting with named attendees. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a meeting that happened; a decision, who made it and how; an action item with its owner and date; a follow-up that closed or slipped; a standing meeting created, re-scoped or killed; something learned about how a person or a room behaves; or something the user will re-read — an agenda that worked, a series charter, a prep brief, formal minutes, a workshop plan. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People go to the shared address book `~/Clawic/data/contacts/contacts.md`**, not here: one row per person so "what do I know about her" answers itself whichever skill wrote it. Identity is `Key` — lowercase email, else handle, else `<kebab-name>` — and an existing row is updated in place, never duplicated. Work the user tracks as a project goes to `~/Clawic/data/projects/<project>.md`; a meeting record names both and copies neither.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a transcript or invite the user pastes in to be saved. Join links carrying an embedded passcode, dial-in PINs, meeting passwords and secret calendar URLs are credentials: store the pointer and strip the value (`keychain:standup-dial-in`, `1password:Work/Zoom/board`). Anything the user marks off the record is not written at all, anywhere. If data sits at an old location (`~/meetings/` or `~/clawic/meetings/`), move it to `~/Clawic/data/meetings/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in a transcript or invite the user pastes in to be saved. Join links carrying an embedded passcode, dial-in PINs, meeting passwords and secret calendar URLs are credentials: store the pointer and strip the value (`keychain:standup-dial-in`, `1password:Work/Zoom/board`). Anything the user marks off the record is not written at all, anywhere. If data sits at an old location (`~/meetings/` or `~/clawic/meetings/`), move it to `~/Clawic/data/meetings/`, and say in one line that you moved it and from where.
 
 A meeting is a synchronous write to several people's attention, billed at the sum of their hourly rates, and it is the only medium where a group can decide something in one pass. Everything else it is used for is a document that failed to get written. So: name the output before the invite, run the room toward it, and leave with owners and dates — then protect the calendar from every meeting that could not name one. Work from defaults immediately: never open with questions about their tools, their team, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: timezone, locale) → the Configuration table default.
 

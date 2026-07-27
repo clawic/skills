@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/synology/
     displayName: Synology
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/synology/
 ---
 
 ## When to Use

@@ -2,17 +2,9 @@
 name: Playwright (Automation + MCP + Scraper)
 slug: playwright
 version: 1.0.4
-description: >-
-  Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control.
-  Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the
-  wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for
-  storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and
-  dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and
-  permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from
-  JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing
-  Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).
+description: 'Automates, tests, and debugs browsers with Playwright: locators, auto-waiting, traces, CI runs, and MCP browser control. Use when a test is flaky, times out, or fails only in CI or headless; when a locator matches multiple elements or the wrong one (strict mode violation); when clicks need force, waits become sleeps, or networkidle never settles; for storageState and login setup, request mocking and HAR replay, uploads and downloads, iframes and shadow DOM, popups and dialogs, screenshot diffs that change per machine, trace and report artifacts, sharding a slow suite, device and permission emulation, accessibility checks, driving a real browser through Playwright MCP, extracting data from JS-rendered pages, or porting a Cypress, Puppeteer, or Selenium suite to Playwright. Not for maintaining an existing Cypress or Puppeteer suite (cypress, puppeteer) or for work a plain HTTP request answers (http).'
 homepage: https://clawic.com/skills/playwright
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: 'Full coverage pass: deeper guides, situation-named files, and per-user configuration'
 metadata:
   clawdbot:
     emoji: P
@@ -40,9 +32,17 @@ metadata:
     displayName: Playwright (Automation + MCP + Scraper)
     configPaths:
     - ~/Clawic/data/playwright/
+    - ~/playwright/
+    - ~/clawic/playwright/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/playwright/
+      - ~/playwright/
+      - ~/clawic/playwright/
 ---
 
-User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`. Everything a run produces — specs, traces, reports, snapshots, `storageState` files — stays inside the repository or its temp dir, never in the preferences folder: auth state is a credential and belongs in a gitignored path.
+User preferences and memory live in `~/Clawic/data/playwright/` (see `setup.md` on first use). If you have data at an old location (`~/playwright/` or `~/clawic/playwright/`), move it to `~/Clawic/data/playwright/`, and say in one line that you moved it and from where. Everything a run produces — specs, traces, reports, snapshots, `storageState` files — stays inside the repository or its temp dir, never in the preferences folder: auth state is a credential and belongs in a gitignored path.
 
 ## When To Use
 

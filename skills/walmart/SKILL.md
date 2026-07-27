@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/walmart/
     displayName: Walmart
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/walmart/
 ---
 
 ## Setup

@@ -21,6 +21,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/domain-registration/
     displayName: Domain Registration
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/domain-registration/
 ---
 
 ## Setup

@@ -1,20 +1,10 @@
 ---
 name: Habits
 slug: habits
-version: 1.0.1
-description: >-
-  Designs, tracks, and repairs personal habits — streaks, completion rates, routines, and quitting an unwanted
-  one. Use when someone wants to start exercising, reading, meditating, or doing anything every day; when a habit
-  keeps collapsing, a streak just broke, or nothing sticks past week two; when they ask how they are doing with a
-  habit, want a daily check-in, a weekly review, or their completion rate; when quitting smoking, vaping,
-  drinking, sugar, nail biting, or doomscrolling, and when a relapse needs a restart plan; when building a
-  morning or evening routine or stacking a new behavior onto an existing cue; when travel, illness, shift work,
-  ADHD, low mood, or a newborn wrecked the routine; and when accountability partners, stakes, rewards, or
-  environment changes are the lever. Covers frequency rules, streak freezes, habit graduation and retirement.
-  Not for goal setting and milestones (`goals`), whole-life productivity systems (`productivity`), or workout
-  programming (`fitness`).
+version: 1.0.2
+description: Designs, tracks, and repairs personal habits — streaks, completion rates, routines, and quitting an unwanted one. Use when someone wants to start exercising, reading, meditating, or doing anything every day; when a habit keeps collapsing, a streak just broke, or nothing sticks past week two; when they ask how they are doing with a habit, want a daily check-in, a weekly review, or their completion rate; when quitting smoking, vaping, drinking, sugar, nail biting, or doomscrolling, and when a relapse needs a restart plan; when building a morning or evening routine or stacking a new behavior onto an existing cue; when travel, illness, shift work, ADHD, low mood, or a newborn wrecked the routine; and when accountability partners, stakes, rewards, or environment changes are the lever. Covers frequency rules, streak freezes, habit graduation and retirement. Not for goal setting and milestones (`goals`), whole-life productivity systems (`productivity`), or workout programming (`fitness`).
 homepage: https://clawic.com/skills/habits
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ✅
@@ -28,15 +18,28 @@ metadata:
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/health/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+    - ~/habits/
+    - ~/clawic/habits/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/habits/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
+      - ~/habits/
+      - ~/clawic/habits/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/habits/config.yaml` (what the user declared) and `~/Clawic/data/habits/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read the current month's log at `~/Clawic/data/habits/logs/<year>-<month>.md` before answering anything about a streak, a rate, or "how am I doing": `memory.md` holds definitions, never completions. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/habits/config.yaml` (what the user declared) and `~/Clawic/data/habits/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read the current month's log at `~/Clawic/data/habits/logs/<year>-<month>.md` before answering anything about a streak, a rate, or "how am I doing": `memory.md` holds definitions, never completions. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever the session produced something durable: a completion or a miss; a habit defined, redefined, paused, graduated or dropped; a best streak beaten; a pattern you spotted; a tactic that worked or failed on this person; a review or audit that ran; or something the user will re-read — a routine, a quit plan, a restart protocol, a commitment contract. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People, body numbers, and paid stakes leave this folder.** An accountability partner is a person: their row goes to the shared `~/Clawic/data/contacts/contacts.md` and only their name stays here. A measured body number mentioned in passing (weight, resting heart rate) goes to the shared `~/Clawic/data/health/`, never into a habit log — the log records whether the behavior happened, nothing else. A gym membership or a paid stake goes to `~/Clawic/data/finances/subscriptions.md`. Row format and the write protocol for each are in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Tracker exports, contracts and routines carry tokens and logins; replace the value with its pointer before writing: `env:TRACKER_TOKEN`, `keychain:habit-app`, `1password:Personal/Gym`, `file:~/.config/tracker/creds`. If data sits at an old location (`~/habits/` or `~/clawic/habits/`), move it to `~/Clawic/data/habits/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Tracker exports, contracts and routines carry tokens and logins; replace the value with its pointer before writing: `env:TRACKER_TOKEN`, `keychain:habit-app`, `1password:Personal/Gym`, `file:~/.config/tracker/creds`. If data sits at an old location (`~/habits/` or `~/clawic/habits/`), move it to `~/Clawic/data/habits/`, and say in one line that you moved it and from where.
 
 A habit that needs motivation is a habit that has not been designed yet. Every failure here is one of five things — no cue, floor set too high, no record that it happened, the wrong day, or a capacity event nobody planned for. Name which one before changing anything, and change exactly one thing. Log first, advise second: any statement about consistency that was not read out of the log is a guess. Work from defaults immediately; never open with questions about their goals, their schedule, or how much accountability they want. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: timezone, locale) → the Configuration table default.
 

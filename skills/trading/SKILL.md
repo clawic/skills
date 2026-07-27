@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/trading/
     displayName: Trading
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/trading/
 ---
 
 ## Guardrails

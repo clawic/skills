@@ -1,19 +1,10 @@
 ---
 name: Chinese
 slug: chinese
-version: 1.0.1
-description: >-
-  Writes and edits Mandarin Chinese that reads as if a native wrote it — casual or formal, mainland or Taiwan.
-  Use when composing anything in Chinese (WeChat message, work email, 小红书 or 公众号 post, resume, 请假条,
-  speech, toast, 通知, contract clause), or when Chinese text sounds stiff, textbook, translated, or AI-generated;
-  when choosing 你 versus 您, 口语 versus 书面语, simplified versus traditional, or mainland versus Taiwan
-  vocabulary; when 的/地/得, 了, 把, 被 or measure words come out wrong; when full-width punctuation, Han-Latin
-  spacing, or 万/亿 number grouping is off; when internet slang, 成语, emoji or 表情包 need calibrating to an
-  audience; when a refusal, apology, compliment or request has to land politely; or when naming a product or a
-  person in Chinese. Not for translating an existing source text (`translate`), Traditional-only writing
-  (`traditional-chinese`), or travelling in China (`china`).
+version: 1.0.2
+description: Writes and edits Mandarin Chinese that reads as if a native wrote it — casual or formal, mainland or Taiwan. Use when composing anything in Chinese (WeChat message, work email, 小红书 or 公众号 post, resume, 请假条, speech, toast, 通知, contract clause), or when Chinese text sounds stiff, textbook, translated, or AI-generated; when choosing 你 versus 您, 口语 versus 书面语, simplified versus traditional, or mainland versus Taiwan vocabulary; when 的/地/得, 了, 把, 被 or measure words come out wrong; when full-width punctuation, Han-Latin spacing, or 万/亿 number grouping is off; when internet slang, 成语, emoji or 表情包 need calibrating to an audience; when a refusal, apology, compliment or request has to land politely; or when naming a product or a person in Chinese. Not for translating an existing source text (`translate`), Traditional-only writing (`traditional-chinese`), or travelling in China (`china`).
 homepage: https://clawic.com/skills/chinese
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🇨🇳
@@ -26,15 +17,27 @@ metadata:
     - ~/Clawic/data/chinese/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/chinese/
+    - ~/clawic/chinese/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/chinese/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/chinese/
+      - ~/clawic/chinese/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/chinese/config.yaml` (what the user declared) and `~/Clawic/data/chinese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Before writing to a named person or on a named channel, read that person's row in `## Recipients` and the channel's style box `## Boxes` names for it: dropping to 你 after a month of 您, or renaming a term that was settled last release, is a defect even when both forms are grammatical. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/chinese/config.yaml` (what the user declared) and `~/Clawic/data/chinese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Before writing to a named person or on a named channel, read that person's row in `## Recipients` and the channel's style box `## Boxes` names for it: dropping to 你 after a month of 您, or renaming a term that was settled last release, is a defect even when both forms are grammatical. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a term, product or person's name rendered in Chinese for the first time; a correction from a native reader; a register or address-form decision for a person or a channel; a slang term retired as stale; a piece delivered and how it landed; an environment fact that cost effort to find (a platform that strips emoji, a font missing a character, an audience that skews older than assumed); or something the user will re-read — a template that finally worked, a Chinese naming decision, a review of someone else's text, a speech script. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **People and ongoing work go to the shared boxes, not here.** A recipient, a native reviewer, a client or an editor is a row in `~/Clawic/data/contacts/contacts.md`; a Chinese-language effort the user tracks as work in progress — a 公众号 launch, a market entry, a book — is `~/Clawic/data/projects/<project>.md`. Read the box before adding and update the existing entry in place. The register and address form for that person stay here, in `## Recipients`, keyed by their contacts key: the person belongs to everyone, how you address them in Chinese belongs to this skill. Formats and identity keys travel in `memory-template.md`, so this works whether or not the owning skills are installed.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Platform accounts are the temptation: store the pointer and strip the value — `env:WECHAT_APP_SECRET`, `keychain:xiaohongshu-login`, `1password:Work/Weibo/ops`. If data sits at an old location (`~/chinese/` or `~/clawic/chinese/`), move it to `~/Clawic/data/chinese/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Platform accounts are the temptation: store the pointer and strip the value — `env:WECHAT_APP_SECRET`, `keychain:xiaohongshu-login`, `1password:Work/Weibo/ops`. If data sits at an old location (`~/chinese/` or `~/clawic/chinese/`), move it to `~/Clawic/data/chinese/`, and say in one line that you moved it and from where.
 
 Model-written Chinese is almost always grammatical and almost always wrong at the register: one notch too formal, particle-free, and structured like an English essay wearing Chinese words. The job is to put back what a native adds without thinking — the 语气词, the fragment, the right 量词, the 全角 comma — and to take out what English pushed in: 进行 + verb, 一个 as an article, a 30-character attributive stacked before 的. Produce the Chinese first; explain in English only when asked. Work from defaults immediately: never open with questions about their variant, their audience, or how casual to be. The one exception to silence is script — while `variant` is unset, state which variant and script you are writing in before writing it (Rule 2). That is a statement, not a question. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: locale, timezone) → the Configuration table default.
 

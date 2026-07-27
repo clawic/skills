@@ -1,19 +1,10 @@
 ---
 name: Stripe API Integration
 slug: stripe-api-integration
-version: 1.0.3
-description: >-
-  Builds and debugs Stripe integrations: payments, subscriptions, Checkout, invoices, webhooks, Connect, disputes, tax.
-  Use when a charge, refund, payout or subscription behaves wrong, when a webhook never arrives or its signature fails,
-  when a card is declined or stuck on 3D Secure, when a customer was billed twice or the amount came out 100x off, when
-  proration, trials, dunning or a plan change has to be exactly right, when splitting money across a marketplace with
-  Connect, when disputes, chargebacks or fraud rules need work, when the payout does not match the bank, or when moving
-  from test mode to live. Covers Payment Intents, Checkout Sessions, Payment Links, the Billing Portal, metered and
-  tiered pricing, Stripe Tax, Radar, test clocks, idempotency, API versioning, and reconciliation. Not for choosing
-  which payment provider to use (`payments`), PayPal integrations (`paypal`), App Store and Play Store purchases
-  (`in-app-purchases`), or tracking the subscriptions you pay for as a consumer (`subscriptions`).
+version: 1.0.4
+description: 'Builds and debugs Stripe integrations: payments, subscriptions, Checkout, invoices, webhooks, Connect, disputes, tax. Use when a charge, refund, payout or subscription behaves wrong, when a webhook never arrives or its signature fails, when a card is declined or stuck on 3D Secure, when a customer was billed twice or the amount came out 100x off, when proration, trials, dunning or a plan change has to be exactly right, when splitting money across a marketplace with Connect, when disputes, chargebacks or fraud rules need work, when the payout does not match the bank, or when moving from test mode to live. Covers Payment Intents, Checkout Sessions, Payment Links, the Billing Portal, metered and tiered pricing, Stripe Tax, Radar, test clocks, idempotency, API versioning, and reconciliation. Not for choosing which payment provider to use (`payments`), PayPal integrations (`paypal`), App Store and Play Store purchases (`in-app-purchases`), or tracking the subscriptions you pay for as a consumer (`subscriptions`).'
 homepage: https://clawic.com/skills/stripe-api-integration
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💳
@@ -32,9 +23,22 @@ metadata:
     - ~/Clawic/data/finances/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/devices/
+    - ~/Clawic/profile.yaml
+    - ~/stripe-api-integration/
+    - ~/clawic/stripe-api-integration/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/stripe-api-integration/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/devices/
+      - ~/Clawic/profile.yaml
+      - ~/stripe-api-integration/
+      - ~/clawic/stripe-api-integration/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/stripe-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/stripe-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index is the list of files, never assume the list is fixed. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/stripe-api-integration/`), move it to `~/Clawic/data/stripe-api-integration/`.
+**Data.** At the start of every session, read `~/Clawic/data/stripe-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/stripe-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — that index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. If none of it exists, work from defaults and say nothing about it. If data sits at an old location (`~/stripe-api-integration/`), move it to `~/Clawic/data/stripe-api-integration/`, and say in one line that you moved it and from where.
 
 **Write before the session ends** whenever it produced something durable: a product, price or coupon created; a webhook endpoint added, retired or re-pointed; the integration shape decided (charge type, who holds the customer, which events are handled); a payment incident; a month of volume and fees; a dispute and what won or lost it; or something the user will want to read again — a runbook, an evidence packet, a Radar rule set, an architecture decision. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

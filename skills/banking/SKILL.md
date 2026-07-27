@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/banking/
     displayName: Banking
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/banking/
 ---
 
 ## Setup

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/odoo/
     displayName: Odoo
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/odoo/
 ---
 
 # Odoo

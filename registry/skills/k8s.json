@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "59843afab4fd93ec3e716fc24dfdd8dd08b9f0a20bcff308df448f206d557e4e",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "034c10e6e64fa53e718c60f2bcb9021e29ad18ad20677112bfe0f4753dd93326",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "k8s",
     "name": "Kubernetes",
     "description": "Debugs Kubernetes workloads and reviews manifests: pods, probes, resources, rollouts, Services, storage, RBAC. Use when a pod is Pending, CrashLoopBackOff, ImagePullBackOff, OOMKilled or stuck Terminating, when a Service or Ingress serves nothing or returns 502/503/504, when cluster DNS is flaky, a rollout hangs or silently ships a broken version, an HPA refuses to scale, a PVC stays unbound, a node goes NotReady or a drain never finishes, when writing or reviewing YAML, Helm charts or kustomize overlays, when tuning requests, limits, QoS, probes and graceful shutdown, when locking down RBAC, NetworkPolicy, Pod Security and Secrets, when the API server throttles or an admission webhook blocks every create, when a GPU pod never schedules, when a mesh sidecar breaks a Job, or when planning a cluster upgrade, a backup, or a restore. Covers kubectl triage, StatefulSets, Jobs and CronJobs, autoscaling, operators, node drains and DaemonSet agents. Not for building container images — that is `docker`.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "homepage": "https://clawic.com/skills/k8s",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/k8s/config.yaml` (what the user declared) and `~/Clawic/data/k8s/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/k8s",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/k8s/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/_meta.json",
-      "byteCount": 463,
-      "sha256": "ad058f5acad1fde986e4b2f39d62d4f82b108a5b9bba973533d2703aa0f2ea1d"
+      "byteCount": 537,
+      "sha256": "35a07e0281177ee37784b82a1f5a79e873d9aec8a0d51cfb40e6b06a6110c066"
     },
     {
       "path": "autoscaling.md",
@@ -124,8 +124,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/k8s/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/memory-template.md",
-      "byteCount": 19218,
-      "sha256": "04023d182ef20694a7a041ace2fb74d50712087eb3f385093ecd601d0224679c"
+      "byteCount": 19448,
+      "sha256": "689f7b6ced7a6a107ec4182428a8a735c0f16278ace620cbb322a3a6b01d5edc"
     },
     {
       "path": "mesh.md",
@@ -208,8 +208,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/k8s/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/k8s/SKILL.md",
-      "byteCount": 30600,
-      "sha256": "45d5cc489a3ba9b29cff4ea7713c84005f9e18b0d027335f2b2d832412afbb56"
+      "byteCount": 31286,
+      "sha256": "a718ebfd9799ff7c9f091ac1c472b222c8cb7270f86e849648ccd0efdc586db4"
     },
     {
       "path": "stateful.md",

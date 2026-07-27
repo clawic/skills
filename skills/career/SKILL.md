@@ -2,24 +2,26 @@
 name: Career
 slug: career
 version: 1.0.5
-description: >-
-  Advises on career decisions — offer evaluation, salary and equity negotiation, promotions,
-  pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels
-  underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion,
-  faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or
-  plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself
-  (resume) or running the application pipeline (job-search).
+description: Advises on career decisions — offer evaluation, salary and equity negotiation, promotions, pivots, and layoff response. Use when the user receives an offer or a recruiter ping, feels underpaid or stuck at a level, weighs staying vs quitting, gets passed over for promotion, faces a PIP, layoff, firing, or rescinded offer, compares equity and vesting packages, or plans a change of role, industry, or IC-to-manager track. Not for writing the resume itself (resume) or running the application pipeline (job-search).
 homepage: https://clawic.com/skills/career
-changelog: "Display name shown correctly"
+changelog: Display name shown correctly
 metadata:
   clawdbot:
-    emoji: "💼"
+    emoji: 💼
     displayName: Career
     configPaths:
     - ~/Clawic/data/career/
+    - ~/career/
+    - ~/clawic/career/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/career/
+      - ~/career/
+      - ~/clawic/career/
 ---
 
-Advise mode: this skill guides a human making their own career moves; it never acts on their behalf. User career data lives in `~/Clawic/data/career/` (see `setup.md` on first use, `memory-template.md` for file formats): `profile.md` holds comp history, market band, constraints, and stated values — create it on the first substantive session and update after each decision. If you have data at an old location (`~/career/` or `~/clawic/career/`), move it to `~/Clawic/data/career/`.
+Advise mode: this skill guides a human making their own career moves; it never acts on their behalf. User career data lives in `~/Clawic/data/career/` (see `setup.md` on first use, `memory-template.md` for file formats): `profile.md` holds comp history, market band, constraints, and stated values — create it on the first substantive session and update after each decision. If you have data at an old location (`~/career/` or `~/clawic/career/`), move it to `~/Clawic/data/career/`, and say in one line that you moved it and from where.
 
 ## When To Use
 

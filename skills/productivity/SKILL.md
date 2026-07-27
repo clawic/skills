@@ -1,20 +1,10 @@
 ---
 name: Productivity
 slug: productivity
-version: 1.0.5
-description: >-
-  Diagnoses and repairs personal productivity: overwhelm, procrastination, scattered priorities, collapsed
-  habits, busywork that never finishes. Use when someone is overwhelmed or behind; when they cannot start,
-  cannot stop, or keep replanning instead of working; when everything feels urgent and the list is no longer
-  trusted; when goals never turn into shipped work; when meetings and messages eat the day; when a habit keeps
-  breaking; when they want a weekly review, a shutdown routine, or one trusted home for goals, projects and
-  commitments; and when the constraint is a situation — student, manager, executive, parent, freelancer,
-  founder, creative, remote work, ADHD, burnout, or guilt about resting. Covers capacity math, estimation,
-  WIP limits, delegation and saying no. Not for calendar-API automation (`calendar-planner`), running the
-  day-to-day list (`task-list`), or the narrower tools: time blocking (`time-management`), habit streaks
-  (`habits`), deep-work rituals (`deep-work`).
+version: 1.0.6
+description: 'Diagnoses and repairs personal productivity: overwhelm, procrastination, scattered priorities, collapsed habits, busywork that never finishes. Use when someone is overwhelmed or behind; when they cannot start, cannot stop, or keep replanning instead of working; when everything feels urgent and the list is no longer trusted; when goals never turn into shipped work; when meetings and messages eat the day; when a habit keeps breaking; when they want a weekly review, a shutdown routine, or one trusted home for goals, projects and commitments; and when the constraint is a situation — student, manager, executive, parent, freelancer, founder, creative, remote work, ADHD, burnout, or guilt about resting. Covers capacity math, estimation, WIP limits, delegation and saying no. Not for calendar-API automation (`calendar-planner`), running the day-to-day list (`task-list`), or the narrower tools: time blocking (`time-management`), habit streaks (`habits`), deep-work rituals (`deep-work`).'
 homepage: https://clawic.com/skills/productivity
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ⚡
@@ -28,9 +18,22 @@ metadata:
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/health/
+    - ~/Clawic/profile.yaml
+    - ~/productivity/
+    - ~/clawic/productivity/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/productivity/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/health/
+      - ~/Clawic/profile.yaml
+      - ~/productivity/
+      - ~/clawic/productivity/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/productivity/config.yaml` (what the user declared) and `~/Clawic/data/productivity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/projects/` before planning, prioritizing, or answering "what is on my plate". If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/productivity/config.yaml` (what the user declared) and `~/Clawic/data/productivity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/projects/` before planning, prioritizing, or answering "what is on my plate". If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a commitment made, delegated or dropped; a goal, project or next action; a deadline that moved; a constraint or energy pattern still true next month; an estimate and what the work actually took; a habit started, broken or redesigned; a review, a triage, or a focus session; or something the user will re-read — a weekly template that stuck, a shutdown routine, a no-script, a delegation brief, a triage policy. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

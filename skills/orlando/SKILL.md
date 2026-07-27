@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/orlando/
     displayName: Orlando
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/orlando/
 ---
 
 ## When to Use

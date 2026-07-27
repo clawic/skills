@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "ce89a8d68792679f5655457b5d722b3f82c8c8c3b46b6c78ca2fcf000f133f71",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "5f1241c5dd71674f54f947d339f0f37efdb42a5a183dd802414a9a4da54d213c",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "devops",
     "name": "DevOps",
     "description": "Runs the delivery side of software: CI/CD pipelines, release and rollback strategy, environments, reliability and on-call. Use when designing or fixing a pipeline, when builds are slow, flaky, or green locally and red in CI; when planning a deploy — rolling, blue-green, canary, feature flags — or rolling a release back; when promoting an artifact to production, standing up preview environments, or chasing drift; when a schema change, backfill, or DNS cutover must ship without downtime; when pipeline secrets, OIDC, or deploy permissions need hardening; when alerts are noisy, an SLO or error budget is missing, or burn-rate paging is wrong; for on-call, severities, postmortems, runbooks, and DORA metrics; when infrastructure drifts from code, or backups were never restored. Not for Kubernetes manifests (`k8s`), image builds (`docker`), HCL mechanics (`terraform`), one CI product's workflow-file dialect (`github-actions`, `gitlab`, `ci-cd`), or a single app's ship checklist (`deploy`).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/devops",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/devops/config.yaml` (what the user declared) and `~/Clawic/data/devops/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/devops",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/devops/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/_meta.json",
-      "byteCount": 240,
-      "sha256": "87cf359211db8fb6a573d949877a777195a22a9298ff6433ebddbea4b77fcd44"
+      "byteCount": 314,
+      "sha256": "08d00454741e12b99496e68ac3c150f6ae74ea985b17cd4e4926743f03868dcc"
     },
     {
       "path": "capacity.md",
@@ -75,8 +75,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/devops/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/memory-template.md",
-      "byteCount": 30581,
-      "sha256": "7d72d8e1d2f6ef01e8352831f651c016556f016fa915faa693951f309fbad812"
+      "byteCount": 30811,
+      "sha256": "860ed699846bbe12c466dba3638bae95f0bf0bacf1c284acc4b253de42481a43"
     },
     {
       "path": "migrations.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/devops/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/SKILL.md",
-      "byteCount": 32321,
-      "sha256": "b69c0c07d970f0620973db9d8ac6131a6e52c4f575d2623c81ae60bc3b700361"
+      "byteCount": 33187,
+      "sha256": "6a4974ba499218e990ba1b517861d03eb9607d9a35a8a185bb80cf48a8a2be30"
     },
     {
       "path": "slos.md",

@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/facebook-marketplace/
     displayName: Facebook Marketplace
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/facebook-marketplace/
 ---
 
 ## When to Use

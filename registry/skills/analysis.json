@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "e66499d2edac756511e32bfb8fb0ce68812550a32811be1d3adebba8ef8dc217",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "b4fe2561db1ff417b6d9deaa05d059b26573a2da8d93524e18df9661f6cb697b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "analysis",
     "name": "Analysis",
     "description": "Audits an AI agent's own setup — workspace, config, memory, skills, jobs, integrations — and reports what is broken, exposed, or wasteful. Use when asked to check the system, run a health check, or diagnose the setup, or when something feels off or the agent got slow or expensive; when a token, key, or .env may be exposed in a file, config, or git history; when permissions or auto-approve rules look too broad; when a scheduled job stops firing, runs twice, or fails silently; when sessions or subagents pile up or loop; when memory files bloat, go stale, contradict, or fall out of their index; when skills collide, never activate, or point at missing files; when an integration returns 401 or 429 or goes quiet; when token spend or context size jumps; and when the same finding keeps coming back. Not for vetting third-party skill code (`skill-audit`), workspace persona and proactivity tuning (`openclaw-workspace`), application monitoring (`monitoring`), or statistical analysis of a dataset.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/analysis",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/analysis/config.yaml` (what the user declared) and `~/Clawic/data/analysis/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/analysis",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/analysis/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/_meta.json",
-      "byteCount": 244,
-      "sha256": "9dc51200444b82b9a56853651e3e03e49017e7cbc8d37c047e8aa27e1995d8ff"
+      "byteCount": 318,
+      "sha256": "4e5570bceb02ae2ca51c9814f5ab0f27f6eb32e4658b1efc3ebb837b1b02fe6d"
     },
     {
       "path": "agent-memory.md",
@@ -54,8 +54,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/analysis/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/memory-template.md",
-      "byteCount": 22249,
-      "sha256": "0adf3913721714027751f0fc2a6f10f587a4fa5d9847f85ae3f44f96e00c9f11"
+      "byteCount": 22479,
+      "sha256": "9da4a74616520d7174cd847583ec446073b40f445caec0b25d57b90c0679ffe5"
     },
     {
       "path": "performance.md",
@@ -103,8 +103,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/analysis/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/analysis/SKILL.md",
-      "byteCount": 28434,
-      "sha256": "64b66bddd569fca13f12283f589f2a0e2bc93d07063bfac470d46bbf74e11ff8"
+      "byteCount": 29274,
+      "sha256": "d3e0b5165c715a0106d1ab53cbf25dc476c49f163eb0926c4272219a829c1263"
     },
     {
       "path": "skills.md",

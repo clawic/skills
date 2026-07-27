@@ -32,6 +32,11 @@ metadata:
     - ~/Clawic/data/paperclip/
     - ~/.paperclip/instances/
     displayName: Paperclip
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/paperclip/
+      - ~/.paperclip/instances/
 ---
 
 ## Setup

@@ -1,19 +1,10 @@
 ---
 name: Notion API Integration
 slug: notion-api-integration
-version: 1.0.3
-description: >-
-  Builds and debugs Notion API integrations: data sources, pages, blocks, properties, filters, files, webhooks, bulk imports.
-  Use when calling api.notion.com from code, curl, or an SDK, when a request returns 404 on an object that exists, a 400
-  validation_error, a 401, or a 429, when a database query returns the wrong rows or none at all, when results stop at 100,
-  when a relation or rollup comes back with only part of its entries, when property names or select options do not match,
-  when Notion-Version has to be bumped and database_id becomes data_source_id, when setting up an internal integration
-  token or an OAuth flow, when importing a CSV or another tool's data into a workspace, exporting it, backfilling a
-  property across thousands of pages, syncing Notion with an external system by webhook or polling, or uploading and
-  attaching files. Not for calendar and rescheduling workflows (`notion-calendar`), writing notes across apps (`notes`),
-  or generic REST and OAuth mechanics with no Notion specifics (`api`).
+version: 1.0.4
+description: 'Builds and debugs Notion API integrations: data sources, pages, blocks, properties, filters, files, webhooks, bulk imports. Use when calling api.notion.com from code, curl, or an SDK, when a request returns 404 on an object that exists, a 400 validation_error, a 401, or a 429, when a database query returns the wrong rows or none at all, when results stop at 100, when a relation or rollup comes back with only part of its entries, when property names or select options do not match, when Notion-Version has to be bumped and database_id becomes data_source_id, when setting up an internal integration token or an OAuth flow, when importing a CSV or another tool''s data into a workspace, exporting it, backfilling a property across thousands of pages, syncing Notion with an external system by webhook or polling, or uploading and attaching files. Not for calendar and rescheduling workflows (`notion-calendar`), writing notes across apps (`notes`), or generic REST and OAuth mechanics with no Notion specifics (`api`).'
 homepage: https://clawic.com/skills/notion-api-integration
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: N
@@ -32,9 +23,17 @@ metadata:
     - ~/Clawic/data/notion-api-integration/
     - ~/Clawic/data/projects/
     - ~/Clawic/data/contacts/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/notion-api-integration/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/notion-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/notion-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. **Before writing to a database or data source, open its schema box** if `## Boxes` names one: property names are case-sensitive and a remembered name is a guess. If none of it exists, work from defaults and say nothing about it. If data sits at an older location such as `~/notion-api-integration/`, move it under `~/Clawic/data/notion-api-integration/` and say so in one line.
+**Data.** At the start of every session, read `~/Clawic/data/notion-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/notion-api-integration/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. **Before writing to a database or data source, open its schema box** if `## Boxes` names one: property names are case-sensitive and a remembered name is a guess. If none of it exists, work from defaults and say nothing about it. If data sits at an older location such as `~/notion-api-integration/`, move it under `~/Clawic/data/notion-api-integration/` and say so in one line.
 
 **Write before the session ends** whenever it produced something durable: a data source discovered or its schema read; a filter payload that finally returned the right rows; a bulk import, export or backfill and where it stopped; an id mapping between an external system and Notion pages; an integration connected, a capability changed, a webhook registered; a modeling decision or a runbook. `memory-template.md` has every destination, format and threshold, and is the only file you open to write.
 

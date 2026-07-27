@@ -1,20 +1,10 @@
 ---
 name: Doctor
 slug: doctor
-version: 1.0.1
-description: >-
-  Triages symptoms, reads lab results and medication risks, and says how urgent something is: emergency now,
-  seen today, or safe to watch. Use when someone describes chest pain, a headache, fever, a rash, dizziness,
-  abdominal or back pain, a cough that will not clear, a lump, or unexplained weight loss and wants to know
-  whether to go to the emergency room; when blood work, imaging, or a screening letter needs reading; when two
-  medicines or supplements may interact, a dose looks wrong, or a side effect started; when a long-term
-  condition — blood pressure, diabetes, asthma, thyroid, cholesterol — needs targets and monitoring; when
-  preparing for an appointment, a second opinion, or a referral; and for a child's fever, a mood or drinking
-  screen, contraception and menopause, or an older relative's medication load. Not step-by-step first-aid
-  drills (`first-aid`), therapy technique (`therapist`), or cycle, pregnancy, and baby tracking (`period`,
-  `pregnancy`, `baby`).
+version: 1.0.2
+description: 'Triages symptoms, reads lab results and medication risks, and says how urgent something is: emergency now, seen today, or safe to watch. Use when someone describes chest pain, a headache, fever, a rash, dizziness, abdominal or back pain, a cough that will not clear, a lump, or unexplained weight loss and wants to know whether to go to the emergency room; when blood work, imaging, or a screening letter needs reading; when two medicines or supplements may interact, a dose looks wrong, or a side effect started; when a long-term condition — blood pressure, diabetes, asthma, thyroid, cholesterol — needs targets and monitoring; when preparing for an appointment, a second opinion, or a referral; and for a child''s fever, a mood or drinking screen, contraception and menopause, or an older relative''s medication load. Not step-by-step first-aid drills (`first-aid`), therapy technique (`therapist`), or cycle, pregnancy, and baby tracking (`period`, `pregnancy`, `baby`).'
 homepage: https://clawic.com/skills/doctor
-changelog: "Full coverage pass: deeper guides, situation-named files, and per-user configuration"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🩺
@@ -30,15 +20,30 @@ metadata:
     - ~/Clawic/data/bookings/
     - ~/Clawic/data/finances/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+    - ~/doctor/
+    - ~/clawic/doctor/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/doctor/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/bookings/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
+      - ~/doctor/
+      - ~/clawic/doctor/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/doctor/config.yaml` (what the user declared) and `~/Clawic/data/doctor/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/health/profile.md` — conditions, allergies, current medicines, vaccines — before naming any drug, dose, or threshold. If none of it exists, work from defaults and say nothing about it. **An observation never overwrites a declaration**: what the user stated in `config.yaml` outranks anything inferred from a session, and it changes only when they say so.
+**Data.** At the start of every session, read `~/Clawic/data/doctor/config.yaml` (what the user declared) and `~/Clawic/data/doctor/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/health/profile.md` — conditions, allergies, current medicines, vaccines — before naming any drug, dose, or threshold. If none of it exists, work from defaults and say nothing about it. **An observation never overwrites a declaration**: what the user stated in `config.yaml` outranks anything inferred from a session, and it changes only when they say so.
 
 **Write before the session ends** whenever it produced something durable: a symptom episode and how it resolved; a medicine started, stopped, or dose-changed; an allergy or side effect; a result with its date and units; a measured value the user will compare against next time; a screening or vaccine done and when the next is due; an appointment, a clinician, or a diagnosis given by one; or something the user will re-read — a written action plan, a visit-prep sheet, a one-page emergency summary. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **The health record is shared, not local to this skill.** Conditions, allergies, medicines, vaccines and measured values go to `~/Clawic/data/health/`, so the same facts answer a question asked of `nutrition`, `fitness`, or `sleep`. Clinicians go to `~/Clawic/data/contacts/contacts.md`, appointments to `~/Clawic/data/bookings/<year>.md`, a health-insurance plan to `~/Clawic/data/finances/subscriptions.md`, and a treatment the user runs as a project to `~/Clawic/data/projects/<project>.md`. Read the file before adding to it and update the existing entry in place — one row per medicine, per clinician, per appointment, never a second one. If a shared file already exists with a different column set, match its columns and add anything missing as a trailing note; never rewrite its header. Full protocol for each shared box — identity key, collision, retirement, scale cut — is in `memory-template.md`.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Patient-portal and insurer logins, health-app tokens and national identity numbers are stored as pointers with the value stripped: `keychain:patient-portal`, `1password:Personal/Insurer`, `env:HEALTH_API_TOKEN`. Conditions, medicine names and doses, clinician names and plan names are working data — keep them. If data sits at an old location (`~/doctor/` or `~/clawic/doctor/`), move it to `~/Clawic/data/doctor/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Patient-portal and insurer logins, health-app tokens and national identity numbers are stored as pointers with the value stripped: `keychain:patient-portal`, `1password:Personal/Insurer`, `env:HEALTH_API_TOKEN`. Conditions, medicine names and doses, clinician names and plan names are working data — keep them. If data sits at an old location (`~/doctor/` or `~/clawic/doctor/`), move it to `~/Clawic/data/doctor/`, and say in one line that you moved it and from where.
 
 Mode: **advise**. This skill prepares a person to be treated well; it does not diagnose, and it does not start or change a prescription-only medicine. What it produces is an urgency, a short list of what could explain the picture, the question that separates them, and the sentence to say at the desk. Work from defaults immediately: never open with questions about their country, insurance, or how much detail they want. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals: units, locale, country) → the Configuration table default.
 

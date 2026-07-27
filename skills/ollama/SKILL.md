@@ -25,6 +25,11 @@ metadata:
     - ~/Clawic/data/ollama/
     - ~/.ollama/
     displayName: Ollama
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/ollama/
+      - ~/.ollama/
 ---
 
 ## When to Use

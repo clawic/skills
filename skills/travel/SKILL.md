@@ -1,19 +1,10 @@
 ---
 name: Travel
 slug: travel
-version: 1.0.1
-description: >-
-  Runs a traveler's standing system: dream list, passports and visas, Schengen day counts, bookings, points,
-  budgets, and what broke last time. Use when someone names a destination they want to visit someday, when a
-  passport, visa, ETA, or entry rule has to be checked before dates are fixed, when counting days already spent in
-  a visa-limited region, when a reservation or cancellation deadline needs recording, when a flight is cancelled
-  or delayed, a bag goes missing, a passport is stolen or a claim has to be filed, when deciding which destination
-  to take next against a season and a budget, when travelling with children, a group, elderly parents or a pet,
-  when a stay runs past a month or needs per-diem handling, or when points or elite status are about to expire.
-  Not for building one trip's day-by-day itinerary (`travel-planning`), fare search (`flight`), accommodation
-  search (`booking`), rental cars (`car-rental`), or moving abroad for good (`expat`).
+version: 1.0.2
+description: 'Runs a traveler''s standing system: dream list, passports and visas, Schengen day counts, bookings, points, budgets, and what broke last time. Use when someone names a destination they want to visit someday, when a passport, visa, ETA, or entry rule has to be checked before dates are fixed, when counting days already spent in a visa-limited region, when a reservation or cancellation deadline needs recording, when a flight is cancelled or delayed, a bag goes missing, a passport is stolen or a claim has to be filed, when deciding which destination to take next against a season and a budget, when travelling with children, a group, elderly parents or a pet, when a stay runs past a month or needs per-diem handling, or when points or elite status are about to expire. Not for building one trip''s day-by-day itinerary (`travel-planning`), fare search (`flight`), accommodation search (`booking`), rental cars (`car-rental`), or moving abroad for good (`expat`).'
 homepage: https://clawic.com/skills/travel
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: ✈️
@@ -30,9 +21,21 @@ metadata:
     - ~/Clawic/data/pets/
     - ~/Clawic/data/vehicles/
     - ~/Clawic/data/finances/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/travel/
+      - ~/Clawic/data/bookings/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/health/
+      - ~/Clawic/data/pets/
+      - ~/Clawic/data/vehicles/
+      - ~/Clawic/data/finances/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/travel/config.yaml` (what the user declared) and `~/Clawic/data/travel/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index *is* the list of files; never work from a list of names carried in your head, because most boxes get created after this skill was written. Read `~/Clawic/data/bookings/<current year>.md` before answering anything about a date, a reservation or "what have I got booked". If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/travel/config.yaml` (what the user declared) and `~/Clawic/data/travel/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index *is* the list of files; never work from a list of names carried in your head, because most boxes get created after this skill was written. Read `~/Clawic/data/bookings/<current year>.md` before answering anything about a date, a reservation or "what have I got booked". If none of it exists, work from defaults and say nothing about it. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: a place the user wants to see someday; a reservation made, changed or cancelled; a document issued, renewed or nearing expiry; a border crossed where days are counted; money spent or a per-day rate learned; a claim filed and how it ended; a program joined or a status earned; a trip that finished; or something the user will want to read again — a packing template, a visa procedure that finally worked, a place file. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

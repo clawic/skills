@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "59c1762507f5c83f6343a5074917ed62056b2b3d5a6ff030bec51a88e4813625",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "5fd2bf23d724245f55b06160acd4c5c547f3ddd867489afc5e5c0549f5ab28e2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "people",
     "name": "Contacts",
     "description": "Maintains a personal address book: who each person is, what matters to them, when they were last in touch, and which birthdays are coming up. Use when someone is mentioned by name with context worth keeping — met, called, or ran into them; when a birthday, anniversary, or death anniversary is approaching; when the question is what do I know about X, who do I know at Acme, who lives in Berlin, or who have I not spoken to in months; before a meeting, to surface what happened last time; when reconnecting after a long silence, or drafting a congratulations, a condolence, or a message about a job change or a bereavement; when making or chasing an introduction; when duplicates, name changes, or an export have to be merged into one address book; and when deciding what should never be written down about someone else. Not for sales pipelines and forecasts (`crm`), friendship depth (`friends`), family logistics (`family`), gift ideas (`gifts`), or reminders unrelated to people (`remind`).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/people",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/people/config.yaml` (what the user declared) and `~/Clawic/data/people/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/people",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/people/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/_meta.json",
-      "byteCount": 242,
-      "sha256": "63435f76e18b48aae0439489fe5bca34a12b76ddb9c7d3a142227a238557181c"
+      "byteCount": 316,
+      "sha256": "735ac6dd26203fc645ce89a9e6ce5b3b08a91359cca789385dd52a1a63060bad"
     },
     {
       "path": "briefing.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/people/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/memory-template.md",
-      "byteCount": 22352,
-      "sha256": "b1526d7be2fb73df8ed1f0ef8dcb9d5e25c2fd4ccc2ba9818724b3c09a602092"
+      "byteCount": 22582,
+      "sha256": "5004b396069417257b2a2833d8c31fc83a2ef4ece2d5c1acbd06815262356026"
     },
     {
       "path": "names.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/people/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/people/SKILL.md",
-      "byteCount": 25569,
-      "sha256": "5c865e99ab985ee89c48d9558c84653bc2641f20026a91575eb01b9fb5378fd6"
+      "byteCount": 26197,
+      "sha256": "0a0e2a877f97693add75f60431f14d90d6e341572735efdf85be578916732a0e"
     }
   ]
 }

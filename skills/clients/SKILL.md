@@ -1,19 +1,10 @@
 ---
 name: Clients
 slug: clients
-version: 1.0.1
-description: >-
-  Manages client relationships end to end for freelancers, consultants, and agencies: qualifying leads, scoping,
-  onboarding, scope creep, getting paid. Use when a prospect enquires and the call is whether to take them, when a
-  proposal or SOW has to be scoped and priced, when onboarding needs access, stakeholders and approvals, when the
-  client keeps adding "one small thing", when an invoice is late and the chase has to escalate, when a client goes
-  quiet or the relationship is decaying, when rates have to go up on an existing client, when an engagement is
-  renewing, expanding, or ending, and when a client has to be fired or a hard conversation drafted. Covers
-  retainers versus project work, change orders, procurement, handover, and referrals. Not for drafting the
-  contract itself (`contract`), issuing invoices (`invoice`), filing received invoices (`invoices`), a personal
-  contact book (`people`), running an agency as a business (`agency`), or platform tactics on Upwork (`upwork`).
+version: 1.0.2
+description: 'Manages client relationships end to end for freelancers, consultants, and agencies: qualifying leads, scoping, onboarding, scope creep, getting paid. Use when a prospect enquires and the call is whether to take them, when a proposal or SOW has to be scoped and priced, when onboarding needs access, stakeholders and approvals, when the client keeps adding "one small thing", when an invoice is late and the chase has to escalate, when a client goes quiet or the relationship is decaying, when rates have to go up on an existing client, when an engagement is renewing, expanding, or ending, and when a client has to be fired or a hard conversation drafted. Covers retainers versus project work, change orders, procurement, handover, and referrals. Not for drafting the contract itself (`contract`), issuing invoices (`invoice`), filing received invoices (`invoices`), a personal contact book (`people`), running an agency as a business (`agency`), or platform tactics on Upwork (`upwork`).'
 homepage: https://clawic.com/skills/clients
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 💼
@@ -26,9 +17,17 @@ metadata:
     - ~/Clawic/data/clients/
     - ~/Clawic/data/contacts/
     - ~/Clawic/data/projects/
+    - ~/Clawic/profile.yaml
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/clients/
+      - ~/Clawic/data/contacts/
+      - ~/Clawic/data/projects/
+      - ~/Clawic/profile.yaml
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/clients/config.yaml` (what the user declared) and `~/Clawic/data/clients/memory.md` (what you observed, plus its `## Boxes` index and its `## Due` table). Open any file `## Boxes` names the moment the condition written on its line applies — that index *is* the list of files; never work from a list of names memorised here, because most boxes are created after this skill was written. Before saying anything about a named person, read `~/Clawic/data/contacts/contacts.md`; before anything about a live engagement, read its `~/Clawic/data/projects/<project>.md`. If none of it exists, work from the defaults below and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/clients/config.yaml` (what the user declared) and `~/Clawic/data/clients/memory.md` (what you observed, plus its `## Boxes` index and its `## Due` table). Open any file `## Boxes` names the moment the condition written on its line applies — that index *is* the list of files; never work from a list of names memorised here, because most boxes are created after this skill was written. Before saying anything about a named person, read `~/Clawic/data/contacts/contacts.md`; before anything about a live engagement, read its `~/Clawic/data/projects/<project>.md`. If none of it exists, work from the defaults below and say nothing about it. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens.
 
 **Write before the session ends** whenever it produced something durable: a lead in or out, a client won, paused, or retired, a rate or terms change, a stakeholder learned, a meeting or decision, a change order, an invoice sent, chased, or paid, a renewal or end date, a concentration number — or something the user will read again: a winning proposal, an onboarding checklist, a rescue plan, a script that worked, a handover, a post-mortem. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "07a55f1dd8f90d0feb580e9f995d9c080d365f21f2e5dcbf97bc1ba0729832e5",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "55cbd2dc3372ca7ccb5a3bce726d178e88c11d118add2ee3cc18acdbfc9f11f8",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "flight",
     "name": "Flight",
     "description": "Searches, compares, books, and fixes flights — fares and fare rules, connections, baggage, seats, miles, delays, and passenger rights. Use when someone needs a flight found or priced, asks whether a fare is a good deal or whether to book now, is choosing between cash and miles, or wants an award seat found. Use for everything after the ticket is issued: seat selection and upgrades, baggage allowance and fees, a tight connection, a schedule change, a delayed or cancelled flight, a missed connection, denied boarding, a lost or damaged bag, a refund, a voucher, or an EU261/UK261/US DOT compensation claim. Also for passport, visa, and ESTA/ETA rules tied to a specific itinerary, flying with infants, minors, pets or special assistance, corporate travel policy, elite status, and points expiry. Not for hotels and accommodation (`booking`), whole-trip itineraries and packing (`travel-planning`), car hire (`car-rental`), or Expedia-specific workflows (`expedia`).",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/flight",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/flight/config.yaml` (what the user declared) and `~/Clawic/data/flight/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/flight",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/flight/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/_meta.json",
-      "byteCount": 240,
-      "sha256": "8fbf3a6e7f16d7e6b8b13bb38675e1885b7de85273ab6abb9eda2807249dc5e4"
+      "byteCount": 314,
+      "sha256": "f42e7cf12be94bdec67a7e5394c3ac037df464ea152522e6012d5bbc2e702db3"
     },
     {
       "path": "apis.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/flight/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/memory-template.md",
-      "byteCount": 22294,
-      "sha256": "e60984a817d8b5749bc280e27da6b8b58b90039e82d545755dbf06907f27be85"
+      "byteCount": 22524,
+      "sha256": "a6be0ae4ce635740d274e6b297698280224c7f273ea74b617232adff5f1b04d7"
     },
     {
       "path": "passengers.md",
@@ -138,8 +138,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/flight/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/flight/SKILL.md",
-      "byteCount": 27806,
-      "sha256": "30c647a3705680a8960f1ff094d54ea1e29671e640f379a731a3f792f6240ffd"
+      "byteCount": 28523,
+      "sha256": "31d86f158fa99c2fe877a9fd48458faf31b7ea34cb42cc9f8c079f6d7b523d93"
     },
     {
       "path": "tracking.md",

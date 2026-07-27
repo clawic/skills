@@ -19,6 +19,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/texas/
     displayName: Texas
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/texas/
 ---
 
 ## When to Use

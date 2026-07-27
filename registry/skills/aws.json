@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "e7e879a116d93c8a9f37634493b02124249950250c9c0d42ac91f8aac8df996d",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "15b96225ca574c1ef970f94fec0111786e74b96ed7727f90cf456d91da54e9fa",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "aws",
     "name": "AWS | Amazon Web Services",
     "description": "Architects, debugs, secures, and cost-optimizes AWS infrastructure — EC2, Lambda, RDS, VPC, IAM, ECS, CloudFront. Use when deploying or reviewing anything on AWS, when a bill jumps or spend has to come down, when an AccessDenied, throttle, timeout, 502/503/504, or unreachable-database error has no obvious cause, when choosing between Lambda, Fargate, EC2, RDS, DynamoDB, SQS, or EventBridge, when hardening IAM policies, S3 exposure, security groups, or secrets, when writing Terraform/CloudFormation/CDK against AWS, when auditing an account you inherited, or when a service quota, cold start, connection limit, or failover is the thing that broke. Covers VPC and subnet design, NAT versus VPC endpoints, Organizations and cross-account roles, backups and disaster recovery, and CLI/SSO profiles. Not for object-storage patterns in depth (`s3`), DynamoDB key modeling (`dynamodb`), Kubernetes manifest authoring (`k8s`), or Terraform language mechanics (`terraform`).",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "homepage": "https://clawic.com/skills/aws",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/aws/config.yaml` (what the user declared) and `~/Clawic/data/aws/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `#",
     "repositoryPath": "skills/aws",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/aws/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/_meta.json",
-      "byteCount": 552,
-      "sha256": "5129f0e9ba5c140cfd1b75722aaaf96ed000c1809d4774a0dc29220d5ab10e34"
+      "byteCount": 626,
+      "sha256": "1e094ec83379b0171a17db87910687222c3d04af72de7abce92e6ee4081ca0db"
     },
     {
       "path": "accounts.md",
@@ -96,8 +96,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/aws/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/memory-template.md",
-      "byteCount": 13667,
-      "sha256": "cbd0bdcdaf6ecedca89ee08f458b2546917072a69b81bc74f539ca4896142f3d"
+      "byteCount": 13897,
+      "sha256": "2bf9b5d957bf8355e3caae910543c325d1b7c4e200726338009eb1abfe096d22"
     },
     {
       "path": "networking.md",
@@ -131,8 +131,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/aws/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/aws/SKILL.md",
-      "byteCount": 26855,
-      "sha256": "4f76d183b20ee2a207cae2e247af5efdf9ae97b7a841fce9c4f0fa6750a49967"
+      "byteCount": 27453,
+      "sha256": "9730c9540e0d50ff0292f872ec2b2fa81a950c7075b27d9ae2e62cf423f9bb63"
     },
     {
       "path": "storage.md",

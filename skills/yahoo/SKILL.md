@@ -18,6 +18,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/yahoo/
     displayName: Yahoo
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/yahoo/
 ---
 
 ## When to Use

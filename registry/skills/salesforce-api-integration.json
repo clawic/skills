@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
-  "generatedAt": "2026-07-27T00:43:19.225Z",
-  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
-  "manifestSha256": "09fac7a0a06ae948b4e3f9a545bfdfc90f59296d96063d4a78241e2164f92f2f",
+  "snapshotId": "21482968c0b34e2368d57d0a79b94ce66bc5355b292e8810b5b11178f0096667",
+  "generatedAt": "2026-07-27T08:18:46.299Z",
+  "sourceRevision": "8c3d53dd9d8e106c200e70bd8e4529bbc32fb711",
+  "manifestSha256": "d14705bc89b3c371741b572eeec2aae247999d93dbdef01656cf61559f76ec6d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -15,7 +15,7 @@
     "slug": "salesforce-api-integration",
     "name": "Salesforce API Integration",
     "description": "Calls the Salesforce REST, Bulk, Composite, and Metadata APIs: SOQL, record CRUD, upserts, OAuth, sync, and error handling. Use when querying, loading, exporting or syncing Salesforce data, when writing SOQL or SOSL against Account, Contact, Opportunity, Lead, Case or a `__c` custom object, when a call returns INVALID_SESSION_ID, MALFORMED_QUERY, INVALID_FIELD, REQUEST_LIMIT_EXCEEDED, UNABLE_TO_LOCK_ROW, or DUPLICATES_DETECTED, when importing tens of thousands of records or migrating from another CRM, when setting up server-to-server auth with a Connected App, JWT bearer or refresh token, when keeping an external database in step through Change Data Capture or Platform Events, or when calling a custom Apex REST endpoint or invoking a Flow. Covers sandboxes, API versioning, external IDs, and field-level security. Not for designing a personal CRM (`crm`), generic third-party API mechanics (`api`), or authoring Apex code.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://clawic.com/skills/salesforce-api-integration",
     "summary": "**Data.** At the start of every session, read `~/Clawic/data/salesforce-api-integration/config.yaml` (what the user declared) and `~/Clawic/data/salesforce-api-integration/memory.md` (what you observed, plus its `## Boxe",
     "repositoryPath": "skills/salesforce-api-integration",
@@ -26,8 +26,8 @@
       "path": "_meta.json",
       "downloadPath": "skills/salesforce-api-integration/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/_meta.json",
-      "byteCount": 280,
-      "sha256": "ce6abd24502280ed6ed9d17f66779b80ceb3652528f86955742b739f53006699"
+      "byteCount": 354,
+      "sha256": "f94771fb68c4927025fd8fcc5ae4f11f4b0e6019564d76a9cb2e5c05af41f2f2"
     },
     {
       "path": "apex.md",
@@ -82,8 +82,8 @@
       "path": "memory-template.md",
       "downloadPath": "skills/salesforce-api-integration/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/memory-template.md",
-      "byteCount": 19964,
-      "sha256": "2a4373c6352083e737cca41cc5445669bca58618ad38aa65021779642f9af120"
+      "byteCount": 20194,
+      "sha256": "c951d44582bdbbe0f017114f844e26f591681301b617f2b79f5f6f54fcde2387"
     },
     {
       "path": "metadata.md",
@@ -124,8 +124,8 @@
       "path": "SKILL.md",
       "downloadPath": "skills/salesforce-api-integration/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/salesforce-api-integration/SKILL.md",
-      "byteCount": 26382,
-      "sha256": "fac4d0a53a29065ea4e5253e089832bc91ff0a33b120247baf77fd456ee34653"
+      "byteCount": 27312,
+      "sha256": "1e9d379970ad650cd2cf8c5ad8f4a060fc4cb28a35cf6771272cd3e2da6ba4b1"
     },
     {
       "path": "soql.md",

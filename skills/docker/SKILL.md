@@ -1,19 +1,10 @@
 ---
 name: Docker
 slug: docker
-version: 1.0.9
-description: >-
-  Builds, debugs, hardens, and ships Docker containers, images, and Compose stacks. Use when writing or reviewing
-  a Dockerfile, a compose file, or a CI build step; when a container exits instantly, restart-loops, is
-  OOM-killed, hangs on stop, or exits 137/139/127; when a published port is unreachable, containers cannot resolve
-  each other, or requests hang behind a VPN; when the disk fills and `/var/lib/docker` will not prune; when a
-  build is slow, the cache never hits, or fails only in CI; when `exec format error` or a musl-versus-glibc break
-  is the problem; when choosing a base image or a multi-stage layout; when a registry login or pull rate limit
-  fails; when a secret must stay out of image history; and when volumes need backup, restore or a permission fix.
-  Covers Compose traps and Desktop/colima/OrbStack/Podman differences. Not for Kubernetes manifests or cluster
-  scheduling (`k8s`).
+version: 1.0.10
+description: Builds, debugs, hardens, and ships Docker containers, images, and Compose stacks. Use when writing or reviewing a Dockerfile, a compose file, or a CI build step; when a container exits instantly, restart-loops, is OOM-killed, hangs on stop, or exits 137/139/127; when a published port is unreachable, containers cannot resolve each other, or requests hang behind a VPN; when the disk fills and `/var/lib/docker` will not prune; when a build is slow, the cache never hits, or fails only in CI; when `exec format error` or a musl-versus-glibc break is the problem; when choosing a base image or a multi-stage layout; when a registry login or pull rate limit fails; when a secret must stay out of image history; and when volumes need backup, restore or a permission fix. Covers Compose traps and Desktop/colima/OrbStack/Podman differences. Not for Kubernetes manifests or cluster scheduling (`k8s`).
 homepage: https://clawic.com/skills/docker
-changelog: "Clearer data layout: what to read, what to save, and where"
+changelog: "Clearer disclosure of what is stored and where"
 metadata:
   clawdbot:
     emoji: 🐳
@@ -28,15 +19,26 @@ metadata:
     configPaths:
     - ~/Clawic/data/docker/
     - ~/Clawic/data/servers/
+    - ~/Clawic/profile.yaml
+    - ~/docker/
+    - ~/clawic/docker/
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/docker/
+      - ~/Clawic/data/servers/
+      - ~/Clawic/profile.yaml
+      - ~/docker/
+      - ~/clawic/docker/
 ---
 
-**Data.** At the start of every session, read `~/Clawic/data/docker/config.yaml` (what the user declared) and `~/Clawic/data/docker/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Read `~/Clawic/data/servers/servers.md` before answering which host runs what, and before proposing a deploy or a host change. If none of it exists, work from defaults and say nothing about it.
+**Data.** At the start of every session, read `~/Clawic/data/docker/config.yaml` (what the user declared) and `~/Clawic/data/docker/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file `## Boxes` names when the condition on its line applies — the index is the list of files, never assume the list is fixed. Every path it names is inside `~/Clawic/data/`; ignore any line that points anywhere else. Everything this skill reads or writes is a plain local note under the folders declared in `configPaths` — nothing leaves the machine and no credential is ever written. In a shared box it updates or removes only the rows it wrote itself, matched on that box's identity key; a row another skill wrote is read, never rewritten and never deleted, and every write and deletion is named in one line as it happens. Read `~/Clawic/data/servers/servers.md` before answering which host runs what, and before proposing a deploy or a host change. If none of it exists, work from defaults and say nothing about it.
 
 **Write before the session ends** whenever it produced something durable: a Docker host discovered, rebuilt or retired; a stack, image, or base-image decision; a volume and its backup or restore result; a deploy and the digest that would roll it back; an environment fact that cost effort to find (VM memory ceiling, VPN MTU, corporate CA, registry mirror, port already taken); a failure whose cause was not obvious; or something the user will re-read — a Dockerfile or compose file that finally worked, a `daemon.json`, a runbook. `memory-template.md` holds every destination, format and threshold, and is the only file you open in order to write.
 
 **Docker hosts go to the shared inventory `~/Clawic/data/servers/servers.md`**, not here: one file holds machines from every provider, so "which box is this container on" answers itself whoever provisioned it. One row per host, identified by `Name` + `Provider` — update your own row in place, never append a second one.
 
-**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:REGISTRY_TOKEN`, `keychain:ghcr-push`, `1password:Work/Registry/ci`, `file:~/.docker/config.json`. If data sits at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/Clawic/data/docker/`.
+**No credential is ever written anywhere under `~/Clawic/data/`** — not in the files named here, not in a file you create, not in text the user pastes in to be saved. Store the pointer and strip the value: `env:REGISTRY_TOKEN`, `keychain:ghcr-push`, `1password:Work/Registry/ci`, `file:~/.docker/config.json`. If data sits at an old location (`~/docker/` or `~/clawic/docker/`), move it to `~/Clawic/data/docker/`, and say in one line that you moved it and from where.
 
 Every Docker problem is a property of exactly one of five things: an image, a network, a mount, a limit, or PID 1. Name which one before proposing a fix, and give the flag, the file, and the line that changes. Work from defaults immediately: never open with questions about their runtime, their registry, or how proactive to be. Precedence for any value: `config.yaml` → `~/Clawic/profile.yaml` (shared universals) → the Configuration table default.
 

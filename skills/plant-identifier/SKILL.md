@@ -17,6 +17,10 @@ metadata:
     configPaths:
     - ~/Clawic/data/plant-identifier/
     displayName: Plant Identifier
+  openclaw:
+    requires:
+      config:
+      - ~/Clawic/data/plant-identifier/
 ---
 
 ## When to Use
