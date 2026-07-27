@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "58c1634566d0e5b5d6b91ef30893a41161298a3ca4349ef0ed46ac326225df2c",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "fd5a9abf65751775b75944febc33c90ff9e98bf246941537ed3a39fa93a7feb5",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "chinese",
     "name": "Chinese",
-    "description": "Write Chinese that sounds human. Not formal, not robotic, not AI-generated.",
-    "version": "1.0.0",
+    "description": "Writes and edits Mandarin Chinese that reads as if a native wrote it — casual or formal, mainland or Taiwan. Use when composing anything in Chinese (WeChat message, work email, 小红书 or 公众号 post, resume, 请假条, speech, toast, 通知, contract clause), or when Chinese text sounds stiff, textbook, translated, or AI-generated; when choosing 你 versus 您, 口语 versus 书面语, simplified versus traditional, or mainland versus Taiwan vocabulary; when 的/地/得, 了, 把, 被 or measure words come out wrong; when full-width punctuation, Han-Latin spacing, or 万/亿 number grouping is off; when internet slang, 成语, emoji or 表情包 need calibrating to an audience; when a refusal, apology, compliment or request has to land politely; or when naming a product or a person in Chinese. Not for translating an existing source text (`translate`), Traditional-only writing (`traditional-chinese`), or travelling in China (`china`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/chinese",
-    "summary": "The Real Problem AI Chinese is technically correct but sounds off. Too formal. Too 书面语 (written style). Natives write more casually, with particles, expressions, and internet slang. Match that. Formality Default Default ",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/chinese/config.yaml` (what the user declared) and `~/Clawic/data/chinese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/chinese",
     "manifestPath": "registry/skills/chinese.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/chinese/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/_meta.json",
-      "byteCount": 166,
-      "sha256": "a2bce9dca392daa2ad658e4803badbf45a91a164cea891acbbdf09fe21cd4185"
+      "byteCount": 242,
+      "sha256": "009805e5c09dcb7775a166d95cf16f976f2af590a49d9c19f9e387aa17a4954a"
+    },
+    {
+      "path": "academic.md",
+      "downloadPath": "skills/chinese/academic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/academic.md",
+      "byteCount": 9149,
+      "sha256": "1e508600fe2cfb82f35e753a0faeebab49fea0888bc924d4d10eed0a9bbd88e3"
+    },
+    {
+      "path": "ai-tells.md",
+      "downloadPath": "skills/chinese/ai-tells.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/ai-tells.md",
+      "byteCount": 8169,
+      "sha256": "18f16a4dc596661269695e7b5ab318dae6c089bb7f694b488c174efa23b7e562"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/chinese/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/business.md",
+      "byteCount": 9708,
+      "sha256": "c3cb43e7fae19e9887271b2251b5797941cfeec83b010749ede605c808208a23"
+    },
+    {
+      "path": "chat.md",
+      "downloadPath": "skills/chinese/chat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/chat.md",
+      "byteCount": 9002,
+      "sha256": "c7bab6572d8ce2f7377be9a605318f66f9e0e2830c1eb5fc3ded14037a4a2422"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/chinese/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/documents.md",
+      "byteCount": 10533,
+      "sha256": "8c3c3dfb4c377ab58f84c0307774cc196a6eb27ac4f1fe754ccbd0ace138c654"
+    },
+    {
+      "path": "etiquette.md",
+      "downloadPath": "skills/chinese/etiquette.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/etiquette.md",
+      "byteCount": 9299,
+      "sha256": "10672950aede0a70f79365e9b7b1ba5fd54f6637723f0a2f856e67095d2e7030"
+    },
+    {
+      "path": "grammar.md",
+      "downloadPath": "skills/chinese/grammar.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/grammar.md",
+      "byteCount": 10902,
+      "sha256": "41e34ad0ba215845be5d05c537b402c53c70f4c41ae2b21bd0adbb07e82ae449"
+    },
+    {
+      "path": "idioms.md",
+      "downloadPath": "skills/chinese/idioms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/idioms.md",
+      "byteCount": 8366,
+      "sha256": "c647fc4d1f4674a012c18fbada49117f440e8b7a8cd09a0f226d667886ab01a7"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/chinese/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/memory-template.md",
+      "byteCount": 23477,
+      "sha256": "b7adf3f99be2a1ce1f81251e03b5e9e7dd476445cd026641a0d242b06c19e153"
+    },
+    {
+      "path": "numbers-and-names.md",
+      "downloadPath": "skills/chinese/numbers-and-names.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/numbers-and-names.md",
+      "byteCount": 8984,
+      "sha256": "5bd10be08baece366bfc0de77c7e16218a63e84217e081f39ea0a71771865eff"
+    },
+    {
+      "path": "proofreading.md",
+      "downloadPath": "skills/chinese/proofreading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/proofreading.md",
+      "byteCount": 8737,
+      "sha256": "ad10663227c602a6c39720ae7d186ac8b83646b7f1728524427338a8ef3c16bc"
+    },
+    {
+      "path": "punctuation.md",
+      "downloadPath": "skills/chinese/punctuation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/punctuation.md",
+      "byteCount": 6942,
+      "sha256": "a1002c8e6bc9de91c58157b3141f92ba3d1ca05578e9a46f1d06e1dd1f02fadc"
+    },
+    {
+      "path": "regions.md",
+      "downloadPath": "skills/chinese/regions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/regions.md",
+      "byteCount": 9283,
+      "sha256": "64b875f98a6de4b6096d030893d5b6642fc51aa7e0c85a5f660af5a272aea32c"
+    },
+    {
+      "path": "register.md",
+      "downloadPath": "skills/chinese/register.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/register.md",
+      "byteCount": 8319,
+      "sha256": "a4e130bc79997cf94ed67faf5f0f123320e8fc1148f78abb8d36002a39b4df59"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/chinese/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/SKILL.md",
-      "byteCount": 2873,
-      "sha256": "1a88268a223128066a1d88323c5737af90989d3ac7b59a2aa741d6270d59f55e"
+      "byteCount": 30719,
+      "sha256": "1f0c62d175e17f41c21960fd399b0d608ce01510e24562fb29441070fdb86bba"
+    },
+    {
+      "path": "slang.md",
+      "downloadPath": "skills/chinese/slang.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/slang.md",
+      "byteCount": 8596,
+      "sha256": "0651c2c46ba9923d26fb4ee107b25849e3bc9ca69d3e6ea3e7ef0801818f1b5a"
+    },
+    {
+      "path": "social-media.md",
+      "downloadPath": "skills/chinese/social-media.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/social-media.md",
+      "byteCount": 9890,
+      "sha256": "c44ce95e0b3debc3d2dfd1bb23bdd838c153ab2fe6e3ec1abbd4e39b00e527cb"
+    },
+    {
+      "path": "speaking.md",
+      "downloadPath": "skills/chinese/speaking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/chinese/speaking.md",
+      "byteCount": 8666,
+      "sha256": "aebd9afb04c98258372833bb67820d440a95259dc125fec12f332918425f1809"
     }
   ]
 }

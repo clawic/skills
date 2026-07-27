@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "da7e39c2847dded57e581416964c8bd1f24cb050cac5c0a5c0f0b7ac60d14751",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "24e0deb3218488171766a662b893b6df2b86e0f3c84c8f4cb5674b80322c514f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "recipe",
     "name": "Recipes",
-    "description": "Build a personal recipe collection with ingredients, scaling, and meal planning.",
-    "version": "1.0.0",
+    "description": "Captures, standardizes, scales, and files recipes into a personal collection that stays searchable and cookable. Use when the user pastes a recipe URL, photo, screenshot, video, voice note, or handwritten card to save; asks to halve, double, or triple a dish, or fit it to a different pan or tin; converts cups to grams, ounces to millilitres, Fahrenheit to Celsius, or gas marks, or adjusts for a fan oven or altitude; asks what to cook from what is saved, or searches by ingredient, tag, time, or rating; builds a week from the collection with one combined shopping list; swaps a missing, disliked, or off-limits ingredient; rewrites a dish for a pressure cooker, air fryer, or slow cooker; works out cost per serving; writes or tests an original recipe; preserves a family recipe; or moves a collection between apps. Not for stove-side rescue (`cooking`), general cooking help (`chef`), household meal systems (`meal-planner`), calories and macros (`calories`), or pantry lists (`grocery`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/recipe",
-    "summary": "Core Behavior - User shares a recipe → capture in standard format, save to collection - User asks \"what can I make with X\" → search by ingredient - User plans meals → help organize week and generate shopping list - Creat",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/recipe/config.yaml` (what the user declared) and `~/Clawic/data/recipe/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/recipe",
     "manifestPath": "registry/skills/recipe.json"
   },
@@ -26,15 +26,120 @@
       "path": "_meta.json",
       "downloadPath": "skills/recipe/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/_meta.json",
-      "byteCount": 165,
-      "sha256": "bfe93e7cbbad034f632765b5ad7009f63d2952a308d758ece76f2f7979809aa1"
+      "byteCount": 241,
+      "sha256": "2289d3474aa9c3c596cd674636bc74b1546cb5f206e7ce411a9388bf58903b8b"
+    },
+    {
+      "path": "authoring.md",
+      "downloadPath": "skills/recipe/authoring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/authoring.md",
+      "byteCount": 5812,
+      "sha256": "107799a78a862d92c9fe8f6fcf9fcf8daaa54a31bd99f8aa7eaa3b6fb7e13813"
+    },
+    {
+      "path": "capture.md",
+      "downloadPath": "skills/recipe/capture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/capture.md",
+      "byteCount": 6723,
+      "sha256": "6e23d004ca69a82804ce15c4a643a4746dab1907c6475adec1ddcb6327b83240"
+    },
+    {
+      "path": "conversion.md",
+      "downloadPath": "skills/recipe/conversion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/conversion.md",
+      "byteCount": 6181,
+      "sha256": "076da3d001bcc8287f6ec30c6f7fe43e2287e7916e99e3a2463efd535348aecc"
+    },
+    {
+      "path": "costing.md",
+      "downloadPath": "skills/recipe/costing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/costing.md",
+      "byteCount": 5390,
+      "sha256": "6738d4f7be68e975efd8a1d3425ac43977078c7fe5f851722dfb206c94aa4319"
+    },
+    {
+      "path": "equipment.md",
+      "downloadPath": "skills/recipe/equipment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/equipment.md",
+      "byteCount": 6781,
+      "sha256": "8fa25e41476188b701d5ab2a1255e799a33d61c31742917a6c94992de4c551fe"
+    },
+    {
+      "path": "format.md",
+      "downloadPath": "skills/recipe/format.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/format.md",
+      "byteCount": 6748,
+      "sha256": "61d65b4ae18b3e2a7233be6907f3126ee9bd2acdfe91f10bcc8fb5d854859b06"
+    },
+    {
+      "path": "library.md",
+      "downloadPath": "skills/recipe/library.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/library.md",
+      "byteCount": 5733,
+      "sha256": "1c8ca0bfdba64f70a3981be0b7f3eca83b1a036650ef2dbc281dc6d2965e971b"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/recipe/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/memory-template.md",
+      "byteCount": 28027,
+      "sha256": "6d1a7da6fa83edc34981791322b5ce02051fe1d8226ac4bd6a8ddb52e95ad755"
+    },
+    {
+      "path": "migration.md",
+      "downloadPath": "skills/recipe/migration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/migration.md",
+      "byteCount": 10843,
+      "sha256": "e380845dd82a143c48671669f2557ffa598148a886fd0edaa60f22b03202e03c"
+    },
+    {
+      "path": "planning.md",
+      "downloadPath": "skills/recipe/planning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/planning.md",
+      "byteCount": 5954,
+      "sha256": "6da83567b0568f46f87805aa24102da65f027302bf058434a6cdae95f5f4e4fc"
+    },
+    {
+      "path": "preservation.md",
+      "downloadPath": "skills/recipe/preservation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/preservation.md",
+      "byteCount": 6266,
+      "sha256": "43bd5077ccdfc39dd7009699d1878599897faddbe35f9ff39eb28caea564213d"
+    },
+    {
+      "path": "scaling.md",
+      "downloadPath": "skills/recipe/scaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/scaling.md",
+      "byteCount": 6743,
+      "sha256": "1cacbe70323fba55798a2d6635e71d47add0dfed55e3cda499feb6f2fee50626"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/recipe/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/SKILL.md",
-      "byteCount": 3862,
-      "sha256": "d97bf8622684fe6cea8b5e26011a1ea08a027c85e1acab6d0540eb52b17d686f"
+      "byteCount": 25519,
+      "sha256": "cf271751f55a4c0e6727db4c38aa33039e1beef66cff0c496ca83e2127f1a90e"
+    },
+    {
+      "path": "substitutions.md",
+      "downloadPath": "skills/recipe/substitutions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/substitutions.md",
+      "byteCount": 7674,
+      "sha256": "e66a22d7584aa92c9797923139934e1d9961c53efe950a8b5f759cdcce20272d"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/recipe/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/testing.md",
+      "byteCount": 5255,
+      "sha256": "e496d43d47cd8e9187a76fa54d97493cf07cbf21618be6c0c008a18ecc55635e"
+    },
+    {
+      "path": "vetting.md",
+      "downloadPath": "skills/recipe/vetting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/recipe/vetting.md",
+      "byteCount": 6430,
+      "sha256": "b49d0c480d1d6226c4d05474537d38b37e35f3a76f44855c00138372db100883"
     }
   ]
 }

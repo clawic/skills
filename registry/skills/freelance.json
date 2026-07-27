@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "f10b98280383858240e4ac235e492855b290418be06616f0cfebc9e55768551e",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "f8a28ce81b8ba07326b158adbcc833466190d072891b7cacc41c3c55f184ad73",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "freelance",
     "name": "Freelance",
-    "description": "Navigate freelance platforms as worker or client with proposals, pricing, vetting, and legal compliance.",
-    "version": "1.0.0",
+    "description": "Runs an independent freelance or contractor practice as a business: rate floor, pipeline, cash buffer, taxes, and the paper. Use when going freelance or weighing quitting a job for it, when setting or raising an hourly or day rate, when the pipeline is empty and work dried up, when income swings and a buffer or tax set-aside has to be sized, when one client is too much of the revenue, when a client asks for free spec work, rewrites your contract, or sends an NDA you should not sign, when payment is late, disputed, or a project has to be walked away from, when self-employment tax, VAT registration, invoicing abroad, or IR35 and worker-classification tests come up, when insurance, sick days, holiday, or a pension has to be self-funded, and when the next step is subcontracting, productizing, or an agency. Not for managing one client relationship (`clients`), Upwork (`upwork`) or Fiverr (`fiverr`) tactics, drafting the contract document (`contract`), or issuing invoices (`invoice`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/freelance",
-    "summary": "Platform Selection | Goal | Best Platform | Why | |------|---------------|-----| | Long-term contracts | Upwork | Escrow, hourly tracking | | Quick productized gigs | Fiverr | SEO-driven discovery | | Budget projects | F",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/freelance/config.yaml` (what the user declared) and `~/Clawic/data/freelance/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/freelance",
     "manifestPath": "registry/skills/freelance.json"
   },
@@ -26,29 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/freelance/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/_meta.json",
-      "byteCount": 170,
-      "sha256": "0295d5ca1201d272efd797a21acc49d7ba3a64275197514b88cd1c647f7ed9da"
+      "byteCount": 246,
+      "sha256": "3a614c4847894a4adada035c879f33c670245b4838088f1ca88fd4e298919cd1"
     },
     {
-      "path": "legal.md",
-      "downloadPath": "skills/freelance/legal.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/legal.md",
-      "byteCount": 2906,
-      "sha256": "61ad98deb89e283411eaacfeb37ee871be6cfb971c1840a6f3896870d5ad0ff7"
+      "path": "capacity.md",
+      "downloadPath": "skills/freelance/capacity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/capacity.md",
+      "byteCount": 10570,
+      "sha256": "c03a607f42547f3796ba20cf685961c7b340570e23fbbe9967db84535ba0f90d"
+    },
+    {
+      "path": "cashflow.md",
+      "downloadPath": "skills/freelance/cashflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/cashflow.md",
+      "byteCount": 10023,
+      "sha256": "e6759db91f19c08491ea82c5cbfd3d24094b6eacceb8fb52d3073f8cfd7dfbcf"
+    },
+    {
+      "path": "classification.md",
+      "downloadPath": "skills/freelance/classification.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/classification.md",
+      "byteCount": 11830,
+      "sha256": "33345032a56c4d1a780f15803e42ff893cbc049ec31ea971b4768484881c62b1"
+    },
+    {
+      "path": "contracts.md",
+      "downloadPath": "skills/freelance/contracts.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/contracts.md",
+      "byteCount": 16561,
+      "sha256": "e44a65a643d0dc8f9b52c0348f4d4d7fa7492db49d7631f5fb3b86b3e1a30312"
+    },
+    {
+      "path": "disputes.md",
+      "downloadPath": "skills/freelance/disputes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/disputes.md",
+      "byteCount": 11845,
+      "sha256": "bae16a522f3a72a5157dc18d15329f4c0431ff3f0dc74fa67939ba513a111d95"
+    },
+    {
+      "path": "getting-paid.md",
+      "downloadPath": "skills/freelance/getting-paid.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/getting-paid.md",
+      "byteCount": 12129,
+      "sha256": "08938bf614dd7cc98e825a231b563838ccb9e2b9ac82f047a80b08597700e676"
+    },
+    {
+      "path": "going-independent.md",
+      "downloadPath": "skills/freelance/going-independent.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/going-independent.md",
+      "byteCount": 8776,
+      "sha256": "c789b2ab0cebe429b9ec68333e714bc657ef698aadffc7c3093af26193f47ec1"
+    },
+    {
+      "path": "insurance.md",
+      "downloadPath": "skills/freelance/insurance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/insurance.md",
+      "byteCount": 13069,
+      "sha256": "e6cd918f630339f145b073d97afafbb01a4b81f4ab8b780f29cab091188ba693"
+    },
+    {
+      "path": "international.md",
+      "downloadPath": "skills/freelance/international.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/international.md",
+      "byteCount": 11315,
+      "sha256": "c40b805226687566f4d533013ead6fd61a92bdd74f9e14b036e8796993c2a318"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/freelance/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/memory-template.md",
+      "byteCount": 28365,
+      "sha256": "e30b62aa8316341d3157f8d8f340c04034a43ac82ef73b06b1087998cd8b3238"
+    },
+    {
+      "path": "pipeline.md",
+      "downloadPath": "skills/freelance/pipeline.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/pipeline.md",
+      "byteCount": 11077,
+      "sha256": "d3d04266250611a94dedf03f849a3d1ac4b0fdb5a69ead616596c9ac98eb7701"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/freelance/platforms.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/platforms.md",
-      "byteCount": 2115,
-      "sha256": "d554a4335390b8fe896033df508b84755dab365bde13616f957d36bc02e580c7"
+      "byteCount": 10525,
+      "sha256": "2776ffecfacb847916248319e1549ad87c13c1bee020f0f88127f2a44ad0bffa"
+    },
+    {
+      "path": "positioning.md",
+      "downloadPath": "skills/freelance/positioning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/positioning.md",
+      "byteCount": 7973,
+      "sha256": "63cf9a41f9c107908a05a63a5924f61f6eb999cb67c9ffdc8c1f83c72c0e110b"
+    },
+    {
+      "path": "rates.md",
+      "downloadPath": "skills/freelance/rates.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/rates.md",
+      "byteCount": 11155,
+      "sha256": "43ce47a4f8cc18ba5439d683c9c1b3c295b38d6f3a60efe3fe933654e0dc0242"
+    },
+    {
+      "path": "scaling.md",
+      "downloadPath": "skills/freelance/scaling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/scaling.md",
+      "byteCount": 11252,
+      "sha256": "d1fe18bc9aef1b315873ffac7f79e5af8c0b759f19403c202aadac2f68496b33"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/freelance/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/SKILL.md",
-      "byteCount": 1979,
-      "sha256": "1f71caea474a8f0e3022a0ab11e26b61e9ff372920f1157ccef05935a3703538"
+      "byteCount": 28941,
+      "sha256": "04d32283d17cf16d51f91ac47b9771c01bffa0abf42aae06ded990f029dbdbd1"
+    },
+    {
+      "path": "taxes.md",
+      "downloadPath": "skills/freelance/taxes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/taxes.md",
+      "byteCount": 13039,
+      "sha256": "8f69a3352578c5e3237021ef6df5c4cc97b5ec03a7078785441b69e506f9bdeb"
+    },
+    {
+      "path": "trades.md",
+      "downloadPath": "skills/freelance/trades.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/freelance/trades.md",
+      "byteCount": 15684,
+      "sha256": "a932cbf527331df4fb40b5bf8e08f1f7b4b1d859a4a67581c5fb14da84defa6f"
     }
   ]
 }

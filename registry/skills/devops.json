@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "d0466f93a197c4e55bb2ab76cd2b5f3ac82c8e29391336c868f2cfe209704b20",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "ce89a8d68792679f5655457b5d722b3f82c8c8c3b46b6c78ca2fcf000f133f71",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "devops",
     "name": "DevOps",
-    "description": "Automate deployments, manage infrastructure, and build reliable CI/CD pipelines.",
-    "version": "1.0.0",
+    "description": "Runs the delivery side of software: CI/CD pipelines, release and rollback strategy, environments, reliability and on-call. Use when designing or fixing a pipeline, when builds are slow, flaky, or green locally and red in CI; when planning a deploy — rolling, blue-green, canary, feature flags — or rolling a release back; when promoting an artifact to production, standing up preview environments, or chasing drift; when a schema change, backfill, or DNS cutover must ship without downtime; when pipeline secrets, OIDC, or deploy permissions need hardening; when alerts are noisy, an SLO or error budget is missing, or burn-rate paging is wrong; for on-call, severities, postmortems, runbooks, and DORA metrics; when infrastructure drifts from code, or backups were never restored. Not for Kubernetes manifests (`k8s`), image builds (`docker`), HCL mechanics (`terraform`), one CI product's workflow-file dialect (`github-actions`, `gitlab`, `ci-cd`), or a single app's ship checklist (`deploy`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/devops",
-    "summary": "DevOps Rules CI/CD Pipelines - Fail fast: run linting and unit tests before expensive integration tests — saves time and compute - Cache dependencies between runs — `npm install` on every build wastes minutes - Pin actio",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/devops/config.yaml` (what the user declared) and `~/Clawic/data/devops/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/devops",
     "manifestPath": "registry/skills/devops.json"
   },
@@ -26,15 +26,120 @@
       "path": "_meta.json",
       "downloadPath": "skills/devops/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/_meta.json",
-      "byteCount": 164,
-      "sha256": "4057f60af27273baf17df657f521a73977b537b2861852bcac9a474fa112f1eb"
+      "byteCount": 240,
+      "sha256": "87cf359211db8fb6a573d949877a777195a22a9298ff6433ebddbea4b77fcd44"
+    },
+    {
+      "path": "capacity.md",
+      "downloadPath": "skills/devops/capacity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/capacity.md",
+      "byteCount": 8884,
+      "sha256": "ea9f0576deec957a78351256d1e28610581b7a9709704443769f06c31e3551b9"
+    },
+    {
+      "path": "deploys.md",
+      "downloadPath": "skills/devops/deploys.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/deploys.md",
+      "byteCount": 7980,
+      "sha256": "3fcb479f65733435d9e10370cfc2e959dc6fd1109c0b7b8d0fa3a40271d44e74"
+    },
+    {
+      "path": "environments.md",
+      "downloadPath": "skills/devops/environments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/environments.md",
+      "byteCount": 8328,
+      "sha256": "54ae422d04fbee8e996ee43be381e1456e4d198af40b45e0a7f1162f1b026785"
+    },
+    {
+      "path": "gitops.md",
+      "downloadPath": "skills/devops/gitops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/gitops.md",
+      "byteCount": 7803,
+      "sha256": "ec28b8f5f697badfd7bcf43498e04bd43a9dc8e12d026dae306de375bb5f3654"
+    },
+    {
+      "path": "iac-workflow.md",
+      "downloadPath": "skills/devops/iac-workflow.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/iac-workflow.md",
+      "byteCount": 7835,
+      "sha256": "33a1b2c7c57820404b47f484b82b15aa6210568c7f9f79a253b4f4b089b377eb"
+    },
+    {
+      "path": "incidents.md",
+      "downloadPath": "skills/devops/incidents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/incidents.md",
+      "byteCount": 9439,
+      "sha256": "9fac652e3a3663c26ff7da1e0df9dbb4edf7faf90d88f11174ba70d38176c9b8"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/devops/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/memory-template.md",
+      "byteCount": 30581,
+      "sha256": "7d72d8e1d2f6ef01e8352831f651c016556f016fa915faa693951f309fbad812"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/devops/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/migrations.md",
+      "byteCount": 8680,
+      "sha256": "16a96473c42bd8d0bbe0648db2dd59bff4cae4c2a9e2c5e16851b9a2a3b6bfbd"
+    },
+    {
+      "path": "observability.md",
+      "downloadPath": "skills/devops/observability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/observability.md",
+      "byteCount": 7738,
+      "sha256": "ed856f37e0a078246bfe69307dcbb7205195b9202c1f4e0dab29fa171f80e3ae"
+    },
+    {
+      "path": "pipelines.md",
+      "downloadPath": "skills/devops/pipelines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/pipelines.md",
+      "byteCount": 8927,
+      "sha256": "2258f478e235c31b74e2e374402596b2556f722d61d0bd40292de46de2842857"
+    },
+    {
+      "path": "platform.md",
+      "downloadPath": "skills/devops/platform.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/platform.md",
+      "byteCount": 9077,
+      "sha256": "e03f2376c9c32ec5314a0892022e324937e1897dc90a0783e048edb3f3d62816"
+    },
+    {
+      "path": "recovery.md",
+      "downloadPath": "skills/devops/recovery.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/recovery.md",
+      "byteCount": 8761,
+      "sha256": "fa4dfc6a3787f8c8896817cae2b65fa339f2da1049ba4cf7d77f075b29790cf7"
+    },
+    {
+      "path": "secrets.md",
+      "downloadPath": "skills/devops/secrets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/secrets.md",
+      "byteCount": 7805,
+      "sha256": "655b670e2a764042fc92a91759342d822ed17535fa781db505d75ac218b41473"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/devops/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/SKILL.md",
-      "byteCount": 4204,
-      "sha256": "255c5d1144c62c805f5ed75819c08d41b54b6cfea6b175bfe678a01b58052f9c"
+      "byteCount": 32321,
+      "sha256": "b69c0c07d970f0620973db9d8ac6131a6e52c4f575d2623c81ae60bc3b700361"
+    },
+    {
+      "path": "slos.md",
+      "downloadPath": "skills/devops/slos.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/slos.md",
+      "byteCount": 8483,
+      "sha256": "6050fc394425fa637a92d0299292db697fe6bc417c2b61644046a3701521f650"
+    },
+    {
+      "path": "supply-chain.md",
+      "downloadPath": "skills/devops/supply-chain.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/devops/supply-chain.md",
+      "byteCount": 7675,
+      "sha256": "78b5927986364e454427f7291fdcd801783841ffcea13e0256b3fe464f4629a7"
     }
   ]
 }

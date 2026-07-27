@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "3004b99130260965a789562796ea88c97905a43bc67543c7f49b868f3ae4d060",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "b657e353b3adb0fd512f13f2d1cb7216c6c988232cbcf29684a22878abfd3453",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "ecommerce",
     "name": "Ecommerce",
-    "description": "Build and operate online stores with payment security, inventory management, marketplace integration, and conversion optimization.",
-    "version": "1.0.0",
+    "description": "Runs an online store end to end: catalog, checkout, payments, inventory, fulfillment, returns, pricing, conversion, retention, and tax. Use when building or reviewing store code — checkout totals, webhooks, stock decrements; when a payment double-charges, a webhook replays, or an order is paid but missing in the store; when stock oversells across channels or a reorder point is missing; when carts abandon, conversion drops, or AOV has to rise; when a discount or free-shipping threshold might sell below cost; when chargebacks, refund abuse, or fraud rules need setting; when choosing or migrating a platform or adding a marketplace; when VAT/OSS, sales-tax nexus, or a 14-day withdrawal window applies; and for peak season, subscriptions, and wholesale terms. Not for parcel carrier depth (skill `shipping`), payment-provider integration code (skill `payments`), CRO method (skill `conversion-rate-optimization`), SaaS pricing (skill `pricing`), or a physical shop (skill `store`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/ecommerce",
-    "summary": "Quick Reference | Topic | File | |-------|------| | Code traps that break production | `code-traps.md` | | Platform comparison (costs, features) | `platforms.md` | | Operations (stock, shipping, returns) | `operations.md",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/ecommerce/config.yaml` (what the user declared) and `~/Clawic/data/ecommerce/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
     "repositoryPath": "skills/ecommerce",
     "manifestPath": "registry/skills/ecommerce.json"
   },
@@ -26,43 +26,169 @@
       "path": "_meta.json",
       "downloadPath": "skills/ecommerce/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/_meta.json",
-      "byteCount": 170,
-      "sha256": "1934525e8d565f66450d74bdc610248e5d614a027e3964ae7c7f64e5395fe1c2"
+      "byteCount": 246,
+      "sha256": "74402239aac733eb2f7587c6811482d8e6adeb9935a7561f59d4eebb08a247f4"
     },
     {
-      "path": "code-traps.md",
-      "downloadPath": "skills/ecommerce/code-traps.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/code-traps.md",
-      "byteCount": 3724,
-      "sha256": "bd08689d64279c68f77ed36f0630a232697391ec6cf158409626c793d83cf479"
+      "path": "acquisition.md",
+      "downloadPath": "skills/ecommerce/acquisition.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/acquisition.md",
+      "byteCount": 7222,
+      "sha256": "bfc27203d37ed83b3f0bda3f4e7684cb88523117c3871ad9b787c0bbf452a74b"
     },
     {
-      "path": "growth.md",
-      "downloadPath": "skills/ecommerce/growth.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/growth.md",
-      "byteCount": 5717,
-      "sha256": "477b12b0e17241e7671ef31c33a937019fcc097241a2b0086e1b0c3d832dcf0f"
+      "path": "analytics.md",
+      "downloadPath": "skills/ecommerce/analytics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/analytics.md",
+      "byteCount": 7006,
+      "sha256": "03e4a621e2b263006a265f6e12f99aaeb009e48c26d3935fdf8dd14856531a69"
     },
     {
-      "path": "operations.md",
-      "downloadPath": "skills/ecommerce/operations.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/operations.md",
-      "byteCount": 4511,
-      "sha256": "7fe9bff75e969d4c3ee98bd5d2d8f02daf1234886210d7c8c22d4c5e0594f59e"
+      "path": "b2b.md",
+      "downloadPath": "skills/ecommerce/b2b.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/b2b.md",
+      "byteCount": 7501,
+      "sha256": "c85851ee742e8ca0052b4ade7f3e4289e2a41ebb4ad40b8530a9dde40206cd58"
+    },
+    {
+      "path": "catalog.md",
+      "downloadPath": "skills/ecommerce/catalog.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/catalog.md",
+      "byteCount": 8628,
+      "sha256": "ea4d48091114e057dfa46c4dfe9f8102727c977a537b557736064738946df9bf"
+    },
+    {
+      "path": "checkout.md",
+      "downloadPath": "skills/ecommerce/checkout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/checkout.md",
+      "byteCount": 7765,
+      "sha256": "b51e6c632d5cfe625def2628d64bb57a98cb98873d0b4a74ae68f4755eaa9a03"
+    },
+    {
+      "path": "conversion.md",
+      "downloadPath": "skills/ecommerce/conversion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/conversion.md",
+      "byteCount": 7036,
+      "sha256": "fdfb73cfe22b78f2cd609b4cd918c856cd57bac0d1bc6a720323e266181fdc14"
+    },
+    {
+      "path": "fraud.md",
+      "downloadPath": "skills/ecommerce/fraud.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/fraud.md",
+      "byteCount": 8492,
+      "sha256": "9738d5a7c2d716d5d99646348624e78f6153c7ab23f902522ecb807580c29d74"
+    },
+    {
+      "path": "fulfillment.md",
+      "downloadPath": "skills/ecommerce/fulfillment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/fulfillment.md",
+      "byteCount": 7996,
+      "sha256": "0dc64a7f9a293b1460bf04dc2ae6ea440be51eb2c2fac9775d4aea220329f19f"
+    },
+    {
+      "path": "inventory.md",
+      "downloadPath": "skills/ecommerce/inventory.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/inventory.md",
+      "byteCount": 8026,
+      "sha256": "5b4ca8f72c92aedcf0ee39d9c1945ebee069c25eb9450d382b7742529f78049f"
+    },
+    {
+      "path": "marketplaces.md",
+      "downloadPath": "skills/ecommerce/marketplaces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/marketplaces.md",
+      "byteCount": 7277,
+      "sha256": "6386d15ef753c5720a3fcc95ac9f4f9f0c3d023713c923065fd6ff8ae91482a2"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/ecommerce/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/memory-template.md",
+      "byteCount": 29477,
+      "sha256": "21e1a60c4c690077ef1d764bf69262b9757b09a0881e9b0ae6277dea3d81f6a7"
+    },
+    {
+      "path": "orders.md",
+      "downloadPath": "skills/ecommerce/orders.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/orders.md",
+      "byteCount": 6879,
+      "sha256": "48b4c21dd472875e53e08fa61ef9a0251282aeffe34f41516c8e2fe4b6c97a32"
+    },
+    {
+      "path": "payments.md",
+      "downloadPath": "skills/ecommerce/payments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/payments.md",
+      "byteCount": 11379,
+      "sha256": "3f2471004965e4b103aa87eddbc9e1f08328e95e8e04b2371dbc86c216ab70f6"
+    },
+    {
+      "path": "peak.md",
+      "downloadPath": "skills/ecommerce/peak.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/peak.md",
+      "byteCount": 7017,
+      "sha256": "99523e99f12a236e94eec8e0efd762d71971edca4a02435ca8e2b1a397ef6dad"
     },
     {
       "path": "platforms.md",
       "downloadPath": "skills/ecommerce/platforms.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/platforms.md",
-      "byteCount": 3677,
-      "sha256": "b26d4983cda4e9875ea1f5a115d9df2d0619d08bbb0ac519e15fb0bafb81af9c"
+      "byteCount": 7650,
+      "sha256": "e9c6c6da18eb470eec2958a34dc3063592089fc53306109a601797b26fc0fd25"
+    },
+    {
+      "path": "pricing.md",
+      "downloadPath": "skills/ecommerce/pricing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/pricing.md",
+      "byteCount": 7932,
+      "sha256": "e8724fc98e980200c17e17d74d65a84723d1182b6943d4b1577a209082cce8c4"
+    },
+    {
+      "path": "retention.md",
+      "downloadPath": "skills/ecommerce/retention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/retention.md",
+      "byteCount": 7904,
+      "sha256": "d75de07ad57158daced162cb857b425d54af77448e11dfd6acb8ca1afc6a586a"
+    },
+    {
+      "path": "returns.md",
+      "downloadPath": "skills/ecommerce/returns.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/returns.md",
+      "byteCount": 8205,
+      "sha256": "1178446105305a7363437298cd89ea20b48b7a52141759ac03986ed63186a5ab"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ecommerce/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/SKILL.md",
-      "byteCount": 2752,
-      "sha256": "8c6e4fb113d9b99f1a6b9654decd31768c24264021e89ba097528edca538ed3a"
+      "byteCount": 31872,
+      "sha256": "0c2ef646d898a433fe4d103a40f99b6e46939db25371f977039c3446d2228f09"
+    },
+    {
+      "path": "storefront.md",
+      "downloadPath": "skills/ecommerce/storefront.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/storefront.md",
+      "byteCount": 7149,
+      "sha256": "f8ea8b7b3fd07b04d4adde94fd01c4cd08cf547b95eb1c336488223d916cab30"
+    },
+    {
+      "path": "subscriptions.md",
+      "downloadPath": "skills/ecommerce/subscriptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/subscriptions.md",
+      "byteCount": 6874,
+      "sha256": "5f05cc2da6e4d366aa32193822600021990fdfe32d7560df0031b1989b5f2137"
+    },
+    {
+      "path": "support.md",
+      "downloadPath": "skills/ecommerce/support.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/support.md",
+      "byteCount": 7099,
+      "sha256": "a3d09364ca083a6e8016b67182abb90fedb6aeaad1c71d40a895af2ffa93884a"
+    },
+    {
+      "path": "tax.md",
+      "downloadPath": "skills/ecommerce/tax.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ecommerce/tax.md",
+      "byteCount": 8697,
+      "sha256": "dabf93c66bc7a24c73a06a0ce63e63ab7d0958d52a67b4eaa033d1eb45d8c030"
     }
   ]
 }

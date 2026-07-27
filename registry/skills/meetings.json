@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "2c19c4817f02cc5c4fae3af94478793a931e791ed527337db86a108bae2843ad",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "63668776c5c4654589bfd2e3b46f42f3c6a765e92ac4c763950fc45fe89cffef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "meetings",
     "name": "Meetings",
-    "description": "Build a personal meeting system for capturing notes, preparing agendas, and never missing follow-ups.",
-    "version": "1.0.0",
+    "description": "Designs, runs, records, and closes out meetings: agendas, facilitation, decisions, minutes, and follow-up. Use when preparing or chairing a 1-on-1, standup, retro, planning session, all-hands, kickoff, design review, client or board call, or offsite; when a meeting ends with no decision, runs long, or relitigates last week; when action items vanish, owners are vague, or nobody chased them; when a transcript or raw notes must become a record with owners and dates; when a recap or formal minutes have to go out; when a recurring meeting has outlived its purpose or the calendar is too full to build anything; when an invite should be declined or replaced by a written update; when a remote or hybrid room leaves half the attendees silent; and when bad news, conflict, or an escalation has to be handled live. Not for note apps and vaults (`notes`), day and calendar planning (`calendar-planner`), or the address book itself (`people`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/meetings",
-    "summary": "Core Behavior - User shares transcript/audio → extract key points and action items - User has upcoming meeting → help prepare with context - Proactively alert about meetings and pending follow-ups - Create `~/Clawic/data",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/meetings/config.yaml` (what the user declared) and `~/Clawic/data/meetings/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and th",
     "repositoryPath": "skills/meetings",
     "manifestPath": "registry/skills/meetings.json"
   },
@@ -26,15 +26,120 @@
       "path": "_meta.json",
       "downloadPath": "skills/meetings/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/_meta.json",
-      "byteCount": 168,
-      "sha256": "395ff23892663d23cb93a5cd0ec09ffc4b6dd28b7eee0d848102a121de24f5df"
+      "byteCount": 244,
+      "sha256": "61a6b726206d042ddf0905355f0dcde3b422b8dc752eea482a076edb322d22e0"
+    },
+    {
+      "path": "agendas.md",
+      "downloadPath": "skills/meetings/agendas.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/agendas.md",
+      "byteCount": 7860,
+      "sha256": "7ee12f9d117f733929a1d066938a6a9f6732a76f4e914288738d6adb0ecb50d1"
+    },
+    {
+      "path": "decision-rights.md",
+      "downloadPath": "skills/meetings/decision-rights.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/decision-rights.md",
+      "byteCount": 7837,
+      "sha256": "323d1b7832bf333876d3070b1f612c612254a6f1b1f06a9b300cfe4ae7800061"
+    },
+    {
+      "path": "difficult.md",
+      "downloadPath": "skills/meetings/difficult.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/difficult.md",
+      "byteCount": 12662,
+      "sha256": "2c1cf97bac692aab71f21c8a3fb3a4513bfc664c3a0ce11fc7e741c316650eea"
+    },
+    {
+      "path": "external.md",
+      "downloadPath": "skills/meetings/external.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/external.md",
+      "byteCount": 11821,
+      "sha256": "38efed8285472f93c4b56b55b3110c252d846f786220de68a63df08bc753ecd4"
+    },
+    {
+      "path": "facilitation.md",
+      "downloadPath": "skills/meetings/facilitation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/facilitation.md",
+      "byteCount": 8184,
+      "sha256": "ebe01491a0277948b1a5268c3ab629b1cb903fb9facf516a621f22616fbd4b50"
+    },
+    {
+      "path": "follow-through.md",
+      "downloadPath": "skills/meetings/follow-through.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/follow-through.md",
+      "byteCount": 9577,
+      "sha256": "2d0c481ae94336058e66691b128eb27505d3efb06f9106f727727abed288f016"
+    },
+    {
+      "path": "meeting-load.md",
+      "downloadPath": "skills/meetings/meeting-load.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/meeting-load.md",
+      "byteCount": 8411,
+      "sha256": "74a8bdd0a57cf0cf7baa43ad529a82ad3585bf2f58ba8aa2ecbfe604f5a25f32"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/meetings/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/memory-template.md",
+      "byteCount": 25531,
+      "sha256": "937bfb631858c3312388afa20b52bade455501a1eeff94db9e10ea20c0e417d8"
+    },
+    {
+      "path": "one-on-ones.md",
+      "downloadPath": "skills/meetings/one-on-ones.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/one-on-ones.md",
+      "byteCount": 11233,
+      "sha256": "41bebddafb166da0df32a8fe81c9f5fb1fb8c08f03ada5016680ca3109f96a04"
+    },
+    {
+      "path": "preparation.md",
+      "downloadPath": "skills/meetings/preparation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/preparation.md",
+      "byteCount": 7041,
+      "sha256": "68d0be70bf1f9fa7eba7168cc9cd9727b87a58908bc9185bc5ef9833a101aa3d"
+    },
+    {
+      "path": "recaps-and-minutes.md",
+      "downloadPath": "skills/meetings/recaps-and-minutes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/recaps-and-minutes.md",
+      "byteCount": 8553,
+      "sha256": "9f19c77d474e5843df8a48fc2948bb92b90db3a7e5548d1618313b6fa9940661"
+    },
+    {
+      "path": "recurring.md",
+      "downloadPath": "skills/meetings/recurring.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/recurring.md",
+      "byteCount": 9410,
+      "sha256": "dbfe947aaf18741973986be34c8f9d9a1859716757c38dbbfc942b5585d25479"
+    },
+    {
+      "path": "remote.md",
+      "downloadPath": "skills/meetings/remote.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/remote.md",
+      "byteCount": 10304,
+      "sha256": "5b9c96535001c2a0d8171c16ddf6846aca15e5c63b848e1d317375b383bf9785"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/meetings/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/SKILL.md",
-      "byteCount": 4077,
-      "sha256": "9b776d9eb955255ff5803797ae19a3d4953d3085da7d6f99993f11f80e381f37"
+      "byteCount": 28671,
+      "sha256": "991e703680f7f11a5179d4e194a85eb2437184a06fad748f8464cf2d512ab24c"
+    },
+    {
+      "path": "team-rituals.md",
+      "downloadPath": "skills/meetings/team-rituals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/team-rituals.md",
+      "byteCount": 10644,
+      "sha256": "817383b493d29406dbb80756bd0d86e3bc373cf06c297a90943c7a8ab3a27238"
+    },
+    {
+      "path": "workshops.md",
+      "downloadPath": "skills/meetings/workshops.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/meetings/workshops.md",
+      "byteCount": 10727,
+      "sha256": "b96e5e12ccb7366b7e00f152189ff2ac41a4957035503db82c2e205e8d54a75d"
     }
   ]
 }

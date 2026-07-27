@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "a4bbd7b42e6540e71e03377899337f85a021828585e4d7bbd49ca76046af0bb3",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "7946e55614a731524c5a9f26a0410211c6672c1cbceced92c351420e315d361d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "cooking",
     "name": "Cooking",
-    "description": "Help users cook better — recipe adaptation, substitutions, troubleshooting, and skill building.",
-    "version": "1.0.0",
+    "description": "Cooks and rescues real dishes at the stove: heat control, seasoning, doneness, timing, substitutions, and food safety. Use when a dish is bland, too salty, burnt, tough, dry, watery, rubbery, greasy, or gummy; when a sauce breaks, splits, curdles, or will not thicken; when meat, fish, eggs, rice, pasta, beans, bread, or a cake come out wrong; when adapting a recipe for a missing ingredient, a different pan, an air fryer, altitude, or a doubled batch; when asking what temperature something is done at, how long to rest it, how much salt, or whether leftovers are still safe; when searing, braising, roasting, frying, grilling, baking, fermenting, or curing; or when ordering the work so a whole meal lands hot at once. Not for weekly menus and shopping lists (`meal-planner`, `grocery`), recipe collections and recipe walkthroughs (`recipe`, `chef`), calorie or macro counting (`calories`), or micronutrients (`nutrition`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cooking",
-    "summary": "Before Suggesting Recipes - Ask skill level — beginner needs different recipes than experienced - Ask available equipment — no stand mixer, no oven, small kitchen changes everything - Ask dietary restrictions upfront — a",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/cooking/config.yaml` (what the user declared) and `~/Clawic/data/cooking/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/cooking",
     "manifestPath": "registry/skills/cooking.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/cooking/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/_meta.json",
-      "byteCount": 166,
-      "sha256": "6b194f51273c202b384c292f270918a15c7254b117cb0452c109e8f1908ef191"
+      "byteCount": 242,
+      "sha256": "ace7e181083e8105af9e5f07a5ba7ec752727df85964e5307f3a8a04a4e40e44"
+    },
+    {
+      "path": "baking.md",
+      "downloadPath": "skills/cooking/baking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/baking.md",
+      "byteCount": 11748,
+      "sha256": "741101a07dfe29cd4f2d931af0dc7860ab94dda7d4a4f9c6d25be802ebd01d59"
+    },
+    {
+      "path": "bread.md",
+      "downloadPath": "skills/cooking/bread.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/bread.md",
+      "byteCount": 11168,
+      "sha256": "618ec09af67909831c8027bcfedd8c982942faa7bc0c849cf534ab7691ec0819"
+    },
+    {
+      "path": "eggs-and-dairy.md",
+      "downloadPath": "skills/cooking/eggs-and-dairy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/eggs-and-dairy.md",
+      "byteCount": 8384,
+      "sha256": "49a55d978818a31a08adf1a8239697155cffdabb5f5320fe033272f77807becf"
+    },
+    {
+      "path": "equipment.md",
+      "downloadPath": "skills/cooking/equipment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/equipment.md",
+      "byteCount": 9806,
+      "sha256": "0a0370b8d8da49958c841b2ff87caf30688c1faca8a9f13a3adf490e7438b7e6"
+    },
+    {
+      "path": "frying.md",
+      "downloadPath": "skills/cooking/frying.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/frying.md",
+      "byteCount": 8915,
+      "sha256": "adb280270d7523d718d3e9f7a609ff9cc34ddc424c22c1f2fe2cca55b7ecdff9"
+    },
+    {
+      "path": "grilling.md",
+      "downloadPath": "skills/cooking/grilling.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/grilling.md",
+      "byteCount": 8093,
+      "sha256": "f49eb820ca16181fdfcb71c63fb9b1936b5024ae30800eb01512c94527c89544"
+    },
+    {
+      "path": "heat.md",
+      "downloadPath": "skills/cooking/heat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/heat.md",
+      "byteCount": 7598,
+      "sha256": "f562acf71b04fb7a5136b61701265a8345100ca8b974a767a38bb560154a0695"
+    },
+    {
+      "path": "meat.md",
+      "downloadPath": "skills/cooking/meat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/meat.md",
+      "byteCount": 9099,
+      "sha256": "900e3fcd6907f7e085ae84e1df1f29663b1c26667b0899572d4f602a6f9a66e4"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/cooking/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/memory-template.md",
+      "byteCount": 25712,
+      "sha256": "60caf4d75d3e16d4a47fc34518b79adb8086889d33a373a8b9b766a06cff9d3c"
+    },
+    {
+      "path": "preserving.md",
+      "downloadPath": "skills/cooking/preserving.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/preserving.md",
+      "byteCount": 10975,
+      "sha256": "466d44011290434b09a47ec6f65d18cfd8c1b44f983454229ef83fe8ff9e9708"
+    },
+    {
+      "path": "rescue.md",
+      "downloadPath": "skills/cooking/rescue.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/rescue.md",
+      "byteCount": 11090,
+      "sha256": "601573c068f2e0b66f8b7f6d919a3d4d2c02584dee16249acf6c6a6eca69df35"
+    },
+    {
+      "path": "rice-and-pasta.md",
+      "downloadPath": "skills/cooking/rice-and-pasta.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/rice-and-pasta.md",
+      "byteCount": 7638,
+      "sha256": "91ef74539cc87afead8310e449dfe972aaf8d8a81fa37655206dc34f0c3e180e"
+    },
+    {
+      "path": "safety.md",
+      "downloadPath": "skills/cooking/safety.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/safety.md",
+      "byteCount": 9838,
+      "sha256": "c9c90bcef14a9b28b89dbb58874d27115886d607fbfa91965957fc2b086a0c78"
+    },
+    {
+      "path": "sauces.md",
+      "downloadPath": "skills/cooking/sauces.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/sauces.md",
+      "byteCount": 9030,
+      "sha256": "723cc09ff78fb93c5e2322438e0f841ad63ba6b86eab6d47573f826c21e65af2"
+    },
+    {
+      "path": "seafood.md",
+      "downloadPath": "skills/cooking/seafood.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/seafood.md",
+      "byteCount": 7413,
+      "sha256": "ea887b401beb8bd1692df52937484bc6c1946f83d729059a2fec182a961530b2"
+    },
+    {
+      "path": "seasoning.md",
+      "downloadPath": "skills/cooking/seasoning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/seasoning.md",
+      "byteCount": 8533,
+      "sha256": "678c2e05f0b4291fea5c7bc0e6aa4f6519bf1ceaf8d6f932af076dc307f56d6a"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cooking/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/SKILL.md",
-      "byteCount": 4448,
-      "sha256": "f35229ddb0051d1f401f8d3302a9d4dcadd12ade82f836fa0023551c6591bbdc"
+      "byteCount": 30891,
+      "sha256": "77835c26d6382904902e3ad1c152862f155a03afd977a5586add27d915d20b07"
+    },
+    {
+      "path": "substitutions.md",
+      "downloadPath": "skills/cooking/substitutions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/substitutions.md",
+      "byteCount": 11914,
+      "sha256": "c68a5fada2a08b6cbb39d9393e5cfd495d39853077562b4b60854175345f87c1"
+    },
+    {
+      "path": "vegetables.md",
+      "downloadPath": "skills/cooking/vegetables.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cooking/vegetables.md",
+      "byteCount": 7751,
+      "sha256": "12becb3a9ec34d1a3d5f4799923621e55f5372562794ae86d52386dfa672b40c"
     }
   ]
 }

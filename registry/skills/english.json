@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "5aaa09f38c9d56b8a85c27d786b98138d06c2790754ab2f21b2c41d23dfee130",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "f616957563e739d587cd1270409941bb05c199357eaa07d2d0af7628647fa0cd",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "english",
     "name": "English",
-    "description": "Write English that sounds human. Not formal, not robotic, not AI-generated.",
-    "version": "1.0.1",
+    "description": "Writes and corrects English that reads like a native wrote it — any variety, any register. Use when text sounds stiff, robotic, translated, or AI-generated; when a sentence is grammatically fine but \"sounds wrong\"; when choosing between US, UK, Australian, Canadian, Irish or Indian spelling, vocabulary and punctuation, or when a document mixes them; when a first language keeps leaking through — articles, prepositions, tense, false friends, word order; when formality must be calibrated for an email, a client, or a meeting; when idioms, phrasal verbs, slang or collocations land wrong or sound dated; when commas, hyphens, capitalization, quotes, dates or numbers need a house rule; when confusable words, jargon or hedging blur the meaning; and for pronunciation, small talk, and improving on purpose. Not for grammar-only fixes (`grammar`), translation (`translate`), IELTS or TOEFL prep (`ielts`, `toefl`), or drafting in your own voice (`writing`).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/english",
-    "summary": "The Real Problem AI English is technically correct but sounds off. Too formal. Too complete. Too polished. Natives write messier, shorter, more direct. Match that. Formality Default Default register is too high. Casual E",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/english/config.yaml` (what the user declared) and `~/Clawic/data/english/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/english",
     "manifestPath": "registry/skills/english.json"
   },
@@ -26,15 +26,99 @@
       "path": "_meta.json",
       "downloadPath": "skills/english/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/_meta.json",
-      "byteCount": 166,
-      "sha256": "b220ca6271a7eb346744e677edb3050af648fad7997fa22d6f5124ef1b7a34ba"
+      "byteCount": 242,
+      "sha256": "4b525b64a564e9df843c97046b17a4187f8015ab85c902f1ab4536f1bbacf7d1"
+    },
+    {
+      "path": "ai-tells.md",
+      "downloadPath": "skills/english/ai-tells.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/ai-tells.md",
+      "byteCount": 9091,
+      "sha256": "860f8b5280a0eebe569409e79296504957283069e97a728cf758be71a4e66717"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/english/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/business.md",
+      "byteCount": 11483,
+      "sha256": "239fdec3f7834c88b676176063b7842be30db72bef27140b68cd028b6fa8177e"
+    },
+    {
+      "path": "conversation.md",
+      "downloadPath": "skills/english/conversation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/conversation.md",
+      "byteCount": 11401,
+      "sha256": "e50024729ad57a0d8f2e7891d140be43800dacccfd101447ab164abc2ed52229"
+    },
+    {
+      "path": "idioms.md",
+      "downloadPath": "skills/english/idioms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/idioms.md",
+      "byteCount": 10657,
+      "sha256": "9d062cd81e2b4c74862c6f5dc28a411cc3f0f23fcc26bbd21f40f5792bff2901"
+    },
+    {
+      "path": "learners.md",
+      "downloadPath": "skills/english/learners.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/learners.md",
+      "byteCount": 15521,
+      "sha256": "3ee59be2b9dd06fe7a207175936b788c88528de24ca74228a0d9113d983ff086"
+    },
+    {
+      "path": "mechanics.md",
+      "downloadPath": "skills/english/mechanics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/mechanics.md",
+      "byteCount": 13072,
+      "sha256": "6d6f1874b20193ae39d6b0d49f83cb94c19cfa9dd975fb19f6e87851741492d3"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/english/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/memory-template.md",
+      "byteCount": 21757,
+      "sha256": "5bd060568c94d8e6a352d2544b7d6977780bb2a9f1282c0a16f6bf06e7848da9"
+    },
+    {
+      "path": "practice.md",
+      "downloadPath": "skills/english/practice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/practice.md",
+      "byteCount": 12130,
+      "sha256": "cf5c57fb71fcd29e1d35029b2da1aeed670c71dd24517e8a4f765f9d9a83b8dd"
+    },
+    {
+      "path": "pronunciation.md",
+      "downloadPath": "skills/english/pronunciation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/pronunciation.md",
+      "byteCount": 12417,
+      "sha256": "567c2625ebf75acba5be35616f1b712f59a0af2097802a5d6ce8ed43daa6fd16"
+    },
+    {
+      "path": "register.md",
+      "downloadPath": "skills/english/register.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/register.md",
+      "byteCount": 10462,
+      "sha256": "5b67c7f3302467b6c793d7a306bb187d3c3909280bdb37e28bb1bb41f15d2f63"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/english/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/SKILL.md",
-      "byteCount": 2847,
-      "sha256": "346ba9d7d909bd24d1b18b56c8b6e8d47d81084c15aaf0a4a348b52d25f710b6"
+      "byteCount": 23612,
+      "sha256": "4f303aa589402d64d19ae4d26b751bdb0e95654be0c7fb4742375a0b95f27dee"
+    },
+    {
+      "path": "varieties.md",
+      "downloadPath": "skills/english/varieties.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/varieties.md",
+      "byteCount": 11758,
+      "sha256": "1c8e8d04b8ab5b20c5883220ab9b8e7ee3062fa0deba248656e049af25ce4a29"
+    },
+    {
+      "path": "word-choice.md",
+      "downloadPath": "skills/english/word-choice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/english/word-choice.md",
+      "byteCount": 12239,
+      "sha256": "718e2ccc02afa6fcc188d552721451588649ad35937a17e482355764cb3498f1"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "524547bade6d8cefa9ef1307a1be6680d585abe5eced148919d72e03570383f7",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "2ec4c8994c30ebffe0e6caa6f39efc13363df3548c9d934b8bf9dac4f6ca5172",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "coach",
     "name": "Coach",
-    "description": "Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.",
-    "version": "1.0.0",
+    "description": "Coaches a person toward a goal, and runs the professional coaching craft: sessions, questions, accountability, and clients who will not move. Use when someone asks to be coached, held accountable, or pushed on a goal; when they restate the same intention for weeks without acting, over-plan instead of starting, answer every option with \"yes, but\", or miss the same commitment again; when a session needs an arc, an opening question, or a closing commitment; when the user is a coach and needs a chemistry call, intake, a coaching agreement, pricing and packages, a stalled client, group or team work, supervision, or credential hours; and when the line between coaching, therapy, consulting, and mentoring has to be drawn. Covers executive, career, business, health, life, creative, and ADHD coaching. Not for clinical care (`therapist`, `psychologist`), personal productivity systems (`productivity`), or habit streaks (`habits`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/coach",
-    "summary": "Core Approach - Coaching is about the client's agenda, not yours — ask what they want to achieve, don't assume - Focus on future and action, not past and analysis — \"What will you do?\" beats \"Why did that happen?\" - Assu",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/coach/config.yaml` (what the user declared) and `~/Clawic/data/coach/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
     "repositoryPath": "skills/coach",
     "manifestPath": "registry/skills/coach.json"
   },
@@ -26,15 +26,106 @@
       "path": "_meta.json",
       "downloadPath": "skills/coach/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/_meta.json",
-      "byteCount": 162,
-      "sha256": "ee7016bde5eb860a651ec8faf97e085f15a264dbe196e97aa473e28d0373b9dd"
+      "byteCount": 238,
+      "sha256": "81dc3890c3a95d6f40e47dfd982a30f85697b8c8cb0338252eca92d83a287436"
+    },
+    {
+      "path": "accountability.md",
+      "downloadPath": "skills/coach/accountability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/accountability.md",
+      "byteCount": 10834,
+      "sha256": "5ae4128ea84543e6d5678d365f115d777a75b3a752e36ec8ff2f273f381f3b33"
+    },
+    {
+      "path": "craft.md",
+      "downloadPath": "skills/coach/craft.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/craft.md",
+      "byteCount": 15789,
+      "sha256": "df9d9acdfad269a4aecbb086cc0e42ef372ce575b5bbb1ee9223602c7d66f1d4"
+    },
+    {
+      "path": "goal-setting.md",
+      "downloadPath": "skills/coach/goal-setting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/goal-setting.md",
+      "byteCount": 9788,
+      "sha256": "fe0766e5ef9734cc6d7ab2a7bbf475c4aa2576610ffc846aa00488ca0c1e22d4"
+    },
+    {
+      "path": "intake.md",
+      "downloadPath": "skills/coach/intake.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/intake.md",
+      "byteCount": 10913,
+      "sha256": "61ad74c3e823224cef7a0d55a9e9d4917cbd07ee2ac3611b1c264fb3a9ee67ea"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/coach/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/memory-template.md",
+      "byteCount": 21539,
+      "sha256": "2e5bf6cbe37dbbd6fed44526e05b184de967a84030d32a4094ca95df6f265f2d"
+    },
+    {
+      "path": "niches.md",
+      "downloadPath": "skills/coach/niches.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/niches.md",
+      "byteCount": 13131,
+      "sha256": "b5e0a6ded1bcc11ed0e6071c2fcf9dac664737196845b1eef8d2160b05519dc4"
+    },
+    {
+      "path": "practice.md",
+      "downloadPath": "skills/coach/practice.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/practice.md",
+      "byteCount": 14358,
+      "sha256": "2782a73056212d8ea58e1ec6dbf25a63a135914f10f289ac2b8e032559153707"
+    },
+    {
+      "path": "progress.md",
+      "downloadPath": "skills/coach/progress.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/progress.md",
+      "byteCount": 9758,
+      "sha256": "be946c465e618d9ba2add02da5643217727bcad2587ef46e8fd9f3901c808fa0"
+    },
+    {
+      "path": "questions.md",
+      "downloadPath": "skills/coach/questions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/questions.md",
+      "byteCount": 10855,
+      "sha256": "090ceb901ef93274b1d903b0c6228b5172d7b9fafe8bf81c63101a52c9dcddce"
+    },
+    {
+      "path": "referral.md",
+      "downloadPath": "skills/coach/referral.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/referral.md",
+      "byteCount": 11197,
+      "sha256": "ba80e88a3118cf134eb0c3a66f1d7befaa3e8c664cebf033881646ade6c94bc2"
+    },
+    {
+      "path": "session.md",
+      "downloadPath": "skills/coach/session.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/session.md",
+      "byteCount": 10237,
+      "sha256": "b7045991ff29e39cd740bf829b20ddf60b79c2ac745924aa8f4dc50a55c97329"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/coach/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/SKILL.md",
-      "byteCount": 4802,
-      "sha256": "54ca3ce8d15fa9a3b5eece6347401853088a91f4228d8bab2106d6b72c2ad7ac"
+      "byteCount": 30694,
+      "sha256": "51f57ceac61cd04d1ee2367a6d3aba2591d46e75bb6e9382e8c4076c31f6bfc0"
+    },
+    {
+      "path": "stuck.md",
+      "downloadPath": "skills/coach/stuck.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/stuck.md",
+      "byteCount": 11399,
+      "sha256": "d86789b981fe4d05aa096ba41446aa5ae2e17405ea81985d4c4630e6f1d63ccb"
+    },
+    {
+      "path": "teams.md",
+      "downloadPath": "skills/coach/teams.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/coach/teams.md",
+      "byteCount": 10138,
+      "sha256": "7556db9ca436e0d71017d285bb59a5ceedd7df6c11d3f2b751e2356385d75b24"
     }
   ]
 }

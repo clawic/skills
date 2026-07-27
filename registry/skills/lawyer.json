@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "49793ce7fbb3012a402844c97609c96e70698b0d9dff3724172e5d188debb2da",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "0cd3f68d8cf388ceb4b9743a7a63a82060bae51ada2b2d12982f253214c5b3b2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "lawyer",
     "name": "Lawyer",
-    "description": "Draft contracts, review legal documents, and navigate compliance with practical legal patterns.",
-    "version": "1.0.0",
+    "description": "Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the risk before signature. Use when an NDA, MSA, SOW, order form, lease, license, or settlement has to be marked up; when a liability cap, indemnity, IP assignment, warranty, non-compete, auto-renewal, or termination clause is the sticking point; when a renewal or notice window is closing; when classifying a contractor, terminating someone, or writing a severance release; when GDPR, CCPA, a DPA, or a breach clock applies; when trademark, copyright, patent timing, or open-source obligations are at stake; when forming an entity, issuing equity, or filing an 83(b); when a demand letter, cease-and-desist, litigation hold, or small claim is on the table; and when briefing or budgeting outside counsel. Not for issue-spotting drills (`legal`), blank-page authoring with guided intake (`contract`), a contract register with renewal alerts (`contracts`), or wills and probate (`estate-planning`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/lawyer",
-    "summary": "Legal Assistance Rules Important Boundaries - This is legal information, not legal advice — always recommend consulting a licensed attorney for specific situations - Laws vary by jurisdiction — what's valid in one countr",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/lawyer/config.yaml` (what the user declared) and `~/Clawic/data/lawyer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/lawyer",
     "manifestPath": "registry/skills/lawyer.json"
   },
@@ -26,15 +26,134 @@
       "path": "_meta.json",
       "downloadPath": "skills/lawyer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/_meta.json",
-      "byteCount": 164,
-      "sha256": "75a6ece87b83a4fe50c828b8459ca1c7f8f5a4c794a0363b309c48aefb584916"
+      "byteCount": 240,
+      "sha256": "98ab34706653b67693b7092d3fd85d015bba3f2af3f8e2465794f3cc77687fe5"
+    },
+    {
+      "path": "agreements.md",
+      "downloadPath": "skills/lawyer/agreements.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/agreements.md",
+      "byteCount": 18126,
+      "sha256": "36293a8839413411bc57658d6cc6d061731968e2c53a735aa043c28597119f18"
+    },
+    {
+      "path": "clauses.md",
+      "downloadPath": "skills/lawyer/clauses.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/clauses.md",
+      "byteCount": 15810,
+      "sha256": "f8e4cee1795344edf5dbb2fded4fce0a45716b88a756e08325cda69071dee69b"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/lawyer/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/compliance.md",
+      "byteCount": 12825,
+      "sha256": "7f9458628c5d581a255f6c4e7b27ebc584c48d0a275c71bfe8cb6df7c18df638"
+    },
+    {
+      "path": "counsel.md",
+      "downloadPath": "skills/lawyer/counsel.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/counsel.md",
+      "byteCount": 12507,
+      "sha256": "c573f0e9a6f8bcbfb26f8f450fc8a72a25048ad16ee69a5dda6909e2a97aa32b"
+    },
+    {
+      "path": "diligence.md",
+      "downloadPath": "skills/lawyer/diligence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/diligence.md",
+      "byteCount": 12763,
+      "sha256": "5d18570b9c3d05d8ab213773e6c27faac0cb6633b82987c90995a705cb10b1e0"
+    },
+    {
+      "path": "disputes.md",
+      "downloadPath": "skills/lawyer/disputes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/disputes.md",
+      "byteCount": 14784,
+      "sha256": "fdf5dbf33a0665e9d6180b6c596b1ca0a0101466c2940b66a4945f3c20d1b710"
+    },
+    {
+      "path": "drafting.md",
+      "downloadPath": "skills/lawyer/drafting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/drafting.md",
+      "byteCount": 12070,
+      "sha256": "3cdc4bcb5247936b182ad1020b3e39546ab413ebadbc1d99aa136fd84ea5450e"
+    },
+    {
+      "path": "employment.md",
+      "downloadPath": "skills/lawyer/employment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/employment.md",
+      "byteCount": 14685,
+      "sha256": "c4ed0abaa46f8d7d83e3e6cb2b2b044120779e647e6cf30c2bf069307eddb3a7"
+    },
+    {
+      "path": "entity.md",
+      "downloadPath": "skills/lawyer/entity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/entity.md",
+      "byteCount": 14269,
+      "sha256": "617b651f2a402d6a0759432fa8e0216a6511c59fb6029a4ae1dee1161abb4d26"
+    },
+    {
+      "path": "ip.md",
+      "downloadPath": "skills/lawyer/ip.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/ip.md",
+      "byteCount": 14539,
+      "sha256": "0178ae03c03dcba10122bd8756633b640fe668d987eb47a513294e6a9db6cb90"
+    },
+    {
+      "path": "jurisdictions.md",
+      "downloadPath": "skills/lawyer/jurisdictions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/jurisdictions.md",
+      "byteCount": 12593,
+      "sha256": "a5f41fb6cb75c11c8d66f44f5124d01e6f1a8e47dd0e9ef0959233f9d513ee6b"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/lawyer/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/memory-template.md",
+      "byteCount": 23212,
+      "sha256": "0c9472e064e4725204a407fcc1d4a339a43c206b1096573e17554b7b5af5c10d"
+    },
+    {
+      "path": "negotiation.md",
+      "downloadPath": "skills/lawyer/negotiation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/negotiation.md",
+      "byteCount": 9725,
+      "sha256": "8e9fdd7c84854bd613c4190840d8b92987a61e398c1890601118c65512e1e688"
+    },
+    {
+      "path": "obligations.md",
+      "downloadPath": "skills/lawyer/obligations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/obligations.md",
+      "byteCount": 12189,
+      "sha256": "694d079f0fbb821df3607f41bf1c16b61d620f8e8fed2833f3e6a3070226cff6"
+    },
+    {
+      "path": "personal.md",
+      "downloadPath": "skills/lawyer/personal.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/personal.md",
+      "byteCount": 13225,
+      "sha256": "7f7db3e85d9184dbe97022df93f1ee9d76f042281ddd57e313ae7f0251e38704"
+    },
+    {
+      "path": "privacy.md",
+      "downloadPath": "skills/lawyer/privacy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/privacy.md",
+      "byteCount": 15521,
+      "sha256": "bd4136e54cefd2d15f9347972457accde942da1533be9dcefe5fa42fbea14fdb"
+    },
+    {
+      "path": "review.md",
+      "downloadPath": "skills/lawyer/review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/review.md",
+      "byteCount": 10185,
+      "sha256": "991643b86b5ed47912af2247d76514036dff37fe40295870d7248100f526bb0b"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/lawyer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/lawyer/SKILL.md",
-      "byteCount": 4686,
-      "sha256": "373d31b3d1e8af8163dffabfe04e3cafd2bad76a083e9823ae46a4d59397f56b"
+      "byteCount": 30689,
+      "sha256": "0fa6086f5c32f6355b96deda142b305a2535754ee9b610e122a812394a61cd30"
     }
   ]
 }

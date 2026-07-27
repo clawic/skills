@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "c4df5ad2afe1a33e988aafb3e300ff4c7412ed38fc8e3243e6de74d289f46e0f",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "c4c780e97e0b172014781cee4d86ed3659cf0dc9eaa18f17bde5be27fe4b138f",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "developer",
     "name": "Developer",
-    "description": "Write clean, maintainable code with debugging, testing, and architectural best practices.",
-    "version": "1.0.0",
+    "description": "Works as a software developer day to day: turning a ticket into merged, shipped, supported code inside a codebase someone else wrote. Use when landing in an unfamiliar repo and hunting for where the change goes; when scoping, splitting, or estimating work; when a bug has to go from report to verified fix; when tests are missing, slow, or flaky; when a pull request is too big to review or a review has stalled; when a dependency upgrade breaks the build; when a schema change or backfill must ship without downtime; when something works locally but fails in CI or production; when a release needs a rollback plan or a flag; when on call and mitigation has to come before root cause; or when deciding what is reversible. Covers environment parity, security on your own diff, and new services. Not for isolation technique (`debugging`), the transformation catalog (`refactoring`), review analysis (`review-code`), or Git mechanics (`git`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/developer",
-    "summary": "Software Development Rules Code Quality - Readable code beats clever code — you'll read it 10x more than write it - Functions do one thing — if you need \"and\" to describe it, split it - Name things by what they do, not h",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/developer/config.yaml` (what the user declared) and `~/Clawic/data/developer/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and ",
     "repositoryPath": "skills/developer",
     "manifestPath": "registry/skills/developer.json"
   },
@@ -26,15 +26,127 @@
       "path": "_meta.json",
       "downloadPath": "skills/developer/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/_meta.json",
-      "byteCount": 170,
-      "sha256": "479d66237063f8dfb46eda52ae15676ca26a5b4d07d0ae14ad2dc8de94815a07"
+      "byteCount": 246,
+      "sha256": "703e5eec99961b71250688e82b7490e6273bbd7e5532193cf93d3f85395497c3"
+    },
+    {
+      "path": "bugs.md",
+      "downloadPath": "skills/developer/bugs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/bugs.md",
+      "byteCount": 8882,
+      "sha256": "6bec2a28f2f441154e2e13d8e5dc70e82106f134aec50af30cecfd371c684426"
+    },
+    {
+      "path": "changes.md",
+      "downloadPath": "skills/developer/changes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/changes.md",
+      "byteCount": 6915,
+      "sha256": "102c192c6ec98055238df621bd9338d791971019c1738b42f8492a29a5a86887"
+    },
+    {
+      "path": "codebase.md",
+      "downloadPath": "skills/developer/codebase.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/codebase.md",
+      "byteCount": 6476,
+      "sha256": "a0c41c8f4801e3bf386e5e27ff5975db308d037843eb56f0a4e490c8c57a6d24"
+    },
+    {
+      "path": "collaboration.md",
+      "downloadPath": "skills/developer/collaboration.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/collaboration.md",
+      "byteCount": 7178,
+      "sha256": "0e703e98a3b8f4041bdc3867f8ae9a5921ba1df03d4b38a006feffa1e7c28540"
+    },
+    {
+      "path": "dependencies.md",
+      "downloadPath": "skills/developer/dependencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/dependencies.md",
+      "byteCount": 6869,
+      "sha256": "ceba9aa1ef783522c7f9e12955d4bf1349fa83a647c8b8a1edbcf26ebd07adf3"
+    },
+    {
+      "path": "environments.md",
+      "downloadPath": "skills/developer/environments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/environments.md",
+      "byteCount": 7318,
+      "sha256": "e5d39172e7e494630024459a182704be76a9773dbb6978649d1b39655ad62a57"
+    },
+    {
+      "path": "estimation.md",
+      "downloadPath": "skills/developer/estimation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/estimation.md",
+      "byteCount": 7464,
+      "sha256": "430e3b6858b98311a878f38835720ca1e72a8eb25847c8d5ac9f254ad179da0f"
+    },
+    {
+      "path": "greenfield.md",
+      "downloadPath": "skills/developer/greenfield.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/greenfield.md",
+      "byteCount": 6809,
+      "sha256": "bf4d77389bc0928ad964ed64256b6ebd0f0f22f0314e867f6439cf137d5385d2"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/developer/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/memory-template.md",
+      "byteCount": 22607,
+      "sha256": "4c388ddc46fd7bd942eb51b4cca3d9fc69c8b7b6910a0a13d0344db430e01c6e"
+    },
+    {
+      "path": "migrations.md",
+      "downloadPath": "skills/developer/migrations.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/migrations.md",
+      "byteCount": 6994,
+      "sha256": "5d39c353dbfced48541577bcce46c9035393f1307053cda1dbe52d993ca679ef"
+    },
+    {
+      "path": "oncall.md",
+      "downloadPath": "skills/developer/oncall.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/oncall.md",
+      "byteCount": 7796,
+      "sha256": "443be91c8319688499bbf0f95df7f78b5d68b676a31ac8a54cdf4a6c2fa52127"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/developer/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/performance.md",
+      "byteCount": 7054,
+      "sha256": "3c7eabb64b4d06240b4f36098e65e3ad63c0854a96367abc274cf8bb960a84f7"
+    },
+    {
+      "path": "reviews.md",
+      "downloadPath": "skills/developer/reviews.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/reviews.md",
+      "byteCount": 8183,
+      "sha256": "837eb9d1be46b991f8c2adcf700e6a3fad282ad8982177807c93b7164516afec"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/developer/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/security.md",
+      "byteCount": 7772,
+      "sha256": "3b851632a1c8bd8c0a9d597dc90699fedb8ff89e7b4981c5fe5221efda0d0841"
+    },
+    {
+      "path": "shipping.md",
+      "downloadPath": "skills/developer/shipping.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/shipping.md",
+      "byteCount": 6146,
+      "sha256": "247b6428aad63fcaedf31c6582d0997f85e75f4e960ab7be5f202507089ceba4"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/developer/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/SKILL.md",
-      "byteCount": 4209,
-      "sha256": "336cdb70f3d7dcff30e2eb75389212cb01663e6bc6f39819e534f846c9f7fb69"
+      "byteCount": 25881,
+      "sha256": "ca2931faad2e78761d37e24bddcdb5c9e69a5fa7945356bf98150e25dd521e9d"
+    },
+    {
+      "path": "tests.md",
+      "downloadPath": "skills/developer/tests.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/developer/tests.md",
+      "byteCount": 8256,
+      "sha256": "f7b35e34a62f9e293270af5dbfee6576b399f779c2c7476beb0b052f38c34be6"
     }
   ]
 }

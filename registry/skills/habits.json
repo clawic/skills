@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "da2252f57e348153ee1b97724930d65872b2417202384e938631523f832e0e7a",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "e635ac5134342abd8f5d01eed561cd4a0fe3152a11b44a170b9abd1dfdd808df",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "habits",
     "name": "Habits",
-    "description": "Build a personal habit tracking system with streaks, reviews, and progression.",
-    "version": "1.0.0",
+    "description": "Designs, tracks, and repairs personal habits — streaks, completion rates, routines, and quitting an unwanted one. Use when someone wants to start exercising, reading, meditating, or doing anything every day; when a habit keeps collapsing, a streak just broke, or nothing sticks past week two; when they ask how they are doing with a habit, want a daily check-in, a weekly review, or their completion rate; when quitting smoking, vaping, drinking, sugar, nail biting, or doomscrolling, and when a relapse needs a restart plan; when building a morning or evening routine or stacking a new behavior onto an existing cue; when travel, illness, shift work, ADHD, low mood, or a newborn wrecked the routine; and when accountability partners, stakes, rewards, or environment changes are the lever. Covers frequency rules, streak freezes, habit graduation and retirement. Not for goal setting and milestones (`goals`), whole-life productivity systems (`productivity`), or workout programming (`fitness`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/habits",
-    "summary": "Core Behavior - User mentions doing something regularly → offer to track as habit - Daily check-in prompt if enabled → \"Did you do X today?\" - Surface streaks and patterns → motivation through visibility - Create `~/Claw",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/habits/config.yaml` (what the user declared) and `~/Clawic/data/habits/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/habits",
     "manifestPath": "registry/skills/habits.json"
   },
@@ -26,15 +26,113 @@
       "path": "_meta.json",
       "downloadPath": "skills/habits/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/_meta.json",
-      "byteCount": 164,
-      "sha256": "e023feebe4351861e243003ac6d56d54d1ba1233d934561f621e74c7ca80bfca"
+      "byteCount": 240,
+      "sha256": "bbe484a68fd6a13567ab904beaac1c1c51e31e68d314bbcc0df03260058ef67d"
+    },
+    {
+      "path": "accountability.md",
+      "downloadPath": "skills/habits/accountability.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/accountability.md",
+      "byteCount": 9789,
+      "sha256": "4f07264ea6cbcac148b0d1901eab547af7b7823612942cd864f97edfba8c5850"
+    },
+    {
+      "path": "analysis.md",
+      "downloadPath": "skills/habits/analysis.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/analysis.md",
+      "byteCount": 11193,
+      "sha256": "4b5a69fb2a55c63036651bb3a092ee112ffad16f673ebe64fef70f30cad87cb7"
+    },
+    {
+      "path": "capacity.md",
+      "downloadPath": "skills/habits/capacity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/capacity.md",
+      "byteCount": 12196,
+      "sha256": "e65b158603e83c7daaf574370cb72351d90290145727db13656b27944b007570"
+    },
+    {
+      "path": "design.md",
+      "downloadPath": "skills/habits/design.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/design.md",
+      "byteCount": 11237,
+      "sha256": "36e14dc1a6309ed910e2f09cecb99d125eb7fa8951c77fb3a916584c5c38ac89"
+    },
+    {
+      "path": "disruptions.md",
+      "downloadPath": "skills/habits/disruptions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/disruptions.md",
+      "byteCount": 11394,
+      "sha256": "9ef90b7888775c03529b2bdf1c431e349f2a74a3576f9e0b49933e10ed116b95"
+    },
+    {
+      "path": "environment.md",
+      "downloadPath": "skills/habits/environment.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/environment.md",
+      "byteCount": 8632,
+      "sha256": "bb9f459138f32392755c7ea8d8edfd3da860d10efd02369a165e6efbd54c65f7"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/habits/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/memory-template.md",
+      "byteCount": 20519,
+      "sha256": "64e4405ddc277d0e0fed6503142d781c37d387407b7b7689b26e1cefcddcec42"
+    },
+    {
+      "path": "quitting.md",
+      "downloadPath": "skills/habits/quitting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/quitting.md",
+      "byteCount": 12384,
+      "sha256": "f373b5035ba1ce4500e86637da66912f462e0c5bf4dbfdfe1bbba8e8145e5135"
+    },
+    {
+      "path": "relapse.md",
+      "downloadPath": "skills/habits/relapse.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/relapse.md",
+      "byteCount": 8912,
+      "sha256": "05188d9b0b755dd7980ec7fdddf54d7f2621509c1d2b8a45788d389c84b7a6ca"
+    },
+    {
+      "path": "review.md",
+      "downloadPath": "skills/habits/review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/review.md",
+      "byteCount": 8729,
+      "sha256": "2b70e6d54360d2edd5717dc3e14b740672cd799a681370fb02d21c25d2f5ce87"
+    },
+    {
+      "path": "routines.md",
+      "downloadPath": "skills/habits/routines.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/routines.md",
+      "byteCount": 8032,
+      "sha256": "4831e2dbf539ad127028f70932f779f396f48554cfa105522c567bdc28417aa9"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/habits/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/SKILL.md",
-      "byteCount": 3667,
-      "sha256": "46933386df08349b8edfbc6b10ef317eb2e2b8918a67cef3933278b9f9699f24"
+      "byteCount": 25566,
+      "sha256": "74a89df258581d2e732ce626bdac1a3eb6656f221c4bafa1475fbfe02b60ab92"
+    },
+    {
+      "path": "starting.md",
+      "downloadPath": "skills/habits/starting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/starting.md",
+      "byteCount": 6037,
+      "sha256": "3a25ca27513f54413604a6c746a70280e309c4aa1217d1133267bf020a1e8dd9"
+    },
+    {
+      "path": "tracking.md",
+      "downloadPath": "skills/habits/tracking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/tracking.md",
+      "byteCount": 10453,
+      "sha256": "d011fc767104cb3d82c4ad8ae1eb8bf084b6deba522d50352a2aa3598604a3ca"
+    },
+    {
+      "path": "troubleshooting.md",
+      "downloadPath": "skills/habits/troubleshooting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/habits/troubleshooting.md",
+      "byteCount": 8484,
+      "sha256": "1082b14b5bfd711682b08a1e15425c96956a21c88cfcbe2bd0feedc25e308cdd"
     }
   ]
 }

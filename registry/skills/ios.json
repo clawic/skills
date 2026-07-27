@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "fb783086bf63a4d96bea144b4dafe67351f5701c4355c98e77319d61e634ef54",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "b4490efc902e32e9b65a2406e660e708857d77c1f5f4c0415ff8c8c9a9f82923",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "ios",
     "name": "iOS",
-    "description": "Build, test, and ship iOS apps with Swift, Xcode, and App Store best practices.",
-    "version": "1.0.0",
+    "description": "Builds, ships, and debugs native iOS apps: lifecycle, permissions, entitlements, push, widgets, StoreKit, and App Store review. Use when a submission is rejected or a guideline blocks a release; when a permission prompt never appears, or a call fails with a missing-entitlement error; when push, background refresh, or a background upload never runs; when a universal link opens Safari instead of the app; when the app is killed by the watchdog, by jetsam, or with 0xdead10cc, hangs on launch, or crashes only on device; when a widget, Live Activity, or app extension runs out of memory; when purchases, subscriptions, or restore fail; when a privacy manifest, tracking prompt, or data label is required; when layout breaks under Dynamic Type; or when a new iOS release breaks a shipped app. Not for Swift language mechanics (`swift`), IDE, signing and build settings (`xcode`), store listings and submission workflow (`app-store`), or cross-platform apps (`react-native`, `flutter`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/ios",
-    "summary": "iOS Development Rules Xcode & Build - Clean build folder (Cmd+Shift+K) fixes most \"impossible\" build errors — derived data gets corrupted regularly - Simulator reset (Device > Erase All Content and Settings) clears cache",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/ios/config.yaml` (what the user declared) and `~/Clawic/data/ios/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). An observation n",
     "repositoryPath": "skills/ios",
     "manifestPath": "registry/skills/ios.json"
   },
@@ -26,15 +26,169 @@
       "path": "_meta.json",
       "downloadPath": "skills/ios/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/_meta.json",
-      "byteCount": 158,
-      "sha256": "3f5dde496f75777e5be9dcb00db16ea731a7f177cb077dd4a3f0bb1c2628232f"
+      "byteCount": 234,
+      "sha256": "96101714a6a0e9a9d77de438a4366b9c6e9b4eac655e015ee4663e397f545322"
+    },
+    {
+      "path": "accessibility.md",
+      "downloadPath": "skills/ios/accessibility.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/accessibility.md",
+      "byteCount": 8457,
+      "sha256": "5c67aa337eb42441f5fce6370c27d85e3d9e7fe5ff54455ec47ee714b4aeb170"
+    },
+    {
+      "path": "background.md",
+      "downloadPath": "skills/ios/background.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/background.md",
+      "byteCount": 9041,
+      "sha256": "7db8e795b7cca105840f5024e479ef6e1a690c252d11e904112ca39d32e390b7"
+    },
+    {
+      "path": "capabilities.md",
+      "downloadPath": "skills/ios/capabilities.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/capabilities.md",
+      "byteCount": 9767,
+      "sha256": "f5a97c5142a342259d8b382e59d765072205a34f526085e61fcf45f9f5ab5e34"
+    },
+    {
+      "path": "commands.md",
+      "downloadPath": "skills/ios/commands.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/commands.md",
+      "byteCount": 7187,
+      "sha256": "8d171400014614e0598e7300c8892c991cf21289a600973cbdd712b946b91697"
+    },
+    {
+      "path": "crashes.md",
+      "downloadPath": "skills/ios/crashes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/crashes.md",
+      "byteCount": 8650,
+      "sha256": "d36b394ed64c71c0e99155642c80009c031a973599c95079690c82f4ad806be1"
+    },
+    {
+      "path": "data.md",
+      "downloadPath": "skills/ios/data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/data.md",
+      "byteCount": 10194,
+      "sha256": "aa094b9cea05640fee194c7fd8ff51b67c8bd64ff7b0cbbc5cf31f832342f72a"
+    },
+    {
+      "path": "deep-links.md",
+      "downloadPath": "skills/ios/deep-links.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/deep-links.md",
+      "byteCount": 8535,
+      "sha256": "b36f716a41cc1156294f1319f50ec6363c25dafa323f1ee7ecf17279583dfa33"
+    },
+    {
+      "path": "devices.md",
+      "downloadPath": "skills/ios/devices.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/devices.md",
+      "byteCount": 8496,
+      "sha256": "0af5f3204293e8d15f92b656b4faa7d9f9d1e869ec0f7c8490b132e8bf600d8b"
+    },
+    {
+      "path": "extensions.md",
+      "downloadPath": "skills/ios/extensions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/extensions.md",
+      "byteCount": 9226,
+      "sha256": "805219c6b8152ae063e8fb556216fca524ae73c2f3b9c42e4eda8d3937119e6d"
+    },
+    {
+      "path": "layout.md",
+      "downloadPath": "skills/ios/layout.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/layout.md",
+      "byteCount": 8856,
+      "sha256": "92425592ab5835b21db1482f2e8ba5e4aaf3175d7c26cf3016ed2a219dc8dfd3"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/ios/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/lifecycle.md",
+      "byteCount": 8673,
+      "sha256": "6e92b0fe6099d0aac4acf1836a89e47d006b981dfcf1fd601661d3e2eec2cbda"
+    },
+    {
+      "path": "localization.md",
+      "downloadPath": "skills/ios/localization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/localization.md",
+      "byteCount": 9595,
+      "sha256": "19eea89ec9cd107001f21f73a2ddf297ddfcd8d0f932e7971eb1e6c36d7dd153"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/ios/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/memory-template.md",
+      "byteCount": 26269,
+      "sha256": "e48d5f397f5a26f454519a377ef52e8608f24df7a22617feb9131298cbc582b2"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/ios/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/networking.md",
+      "byteCount": 8882,
+      "sha256": "0b80d0d53d59a8e91fa22c89f8dfbb53037e265b65ace38bf252bb3f85e6ec84"
+    },
+    {
+      "path": "notifications.md",
+      "downloadPath": "skills/ios/notifications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/notifications.md",
+      "byteCount": 9623,
+      "sha256": "f18ff011d3843d564516cbae71b6a487450eacfcd4062e0b77c7f160e2ee8c4e"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/ios/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/performance.md",
+      "byteCount": 9547,
+      "sha256": "d72fd5c3d5a1c3904182c90601d8ec76e88ff4246b59cc6228a172ff4972f88b"
+    },
+    {
+      "path": "permissions.md",
+      "downloadPath": "skills/ios/permissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/permissions.md",
+      "byteCount": 8255,
+      "sha256": "b2c6c5f8780961a7fd52a6610a1eec248fc29e1df3817e655b35c9d3e2941324"
+    },
+    {
+      "path": "privacy.md",
+      "downloadPath": "skills/ios/privacy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/privacy.md",
+      "byteCount": 8889,
+      "sha256": "95e37f709ba30dcb8e65e52acbf2584c031012ee815735e947f53900297b279e"
+    },
+    {
+      "path": "releases.md",
+      "downloadPath": "skills/ios/releases.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/releases.md",
+      "byteCount": 9400,
+      "sha256": "69326c3a4ba95080703d280813f0dbb63fa8fc57b92c243c1e8434aaa6eff3f6"
+    },
+    {
+      "path": "review.md",
+      "downloadPath": "skills/ios/review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/review.md",
+      "byteCount": 9899,
+      "sha256": "afacca2d177b8d3c1bb434adfeb7828a5c3be7c5de93ab7b3dccc021c0dced35"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/ios/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/SKILL.md",
-      "byteCount": 4174,
-      "sha256": "cc896b7c145cb33f2e7aca51ba6ce7f176337917321bc8dee5b0d51727f859fa"
+      "byteCount": 31394,
+      "sha256": "6b2a59d0f302756dc6a18d7b2199a30e788bebb063a02a3f8840fea96a102d19"
+    },
+    {
+      "path": "storekit.md",
+      "downloadPath": "skills/ios/storekit.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/storekit.md",
+      "byteCount": 10227,
+      "sha256": "e7cb65f1a262cb65b270e849c5b477077e264f06349388391d47c92ced05ce4b"
+    },
+    {
+      "path": "widgets.md",
+      "downloadPath": "skills/ios/widgets.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/ios/widgets.md",
+      "byteCount": 8192,
+      "sha256": "a87e554e6fc41e530163abc18c60c949c9e0c4933b847432fc026f0880cba8e0"
     }
   ]
 }

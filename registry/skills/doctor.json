@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "6ebbca4e2deab615f176cf8154b2da4df39f76555a37322763de2da8a9b6e76b",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "3d39efef434ea602445a263d49bede1aa50e79b407f10e9c2dd9d7f03629a83d",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "doctor",
     "name": "Doctor",
-    "description": "Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.",
-    "version": "1.0.0",
+    "description": "Triages symptoms, reads lab results and medication risks, and says how urgent something is: emergency now, seen today, or safe to watch. Use when someone describes chest pain, a headache, fever, a rash, dizziness, abdominal or back pain, a cough that will not clear, a lump, or unexplained weight loss and wants to know whether to go to the emergency room; when blood work, imaging, or a screening letter needs reading; when two medicines or supplements may interact, a dose looks wrong, or a side effect started; when a long-term condition — blood pressure, diabetes, asthma, thyroid, cholesterol — needs targets and monitoring; when preparing for an appointment, a second opinion, or a referral; and for a child's fever, a mood or drinking screen, contraception and menopause, or an older relative's medication load. Not step-by-step first-aid drills (`first-aid`), therapy technique (`therapist`), or cycle, pregnancy, and baby tracking (`period`, `pregnancy`, `baby`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/doctor",
-    "summary": "Medical Assistance Rules Critical Boundaries - This is health information, not medical diagnosis — always recommend consulting a healthcare provider - Emergencies need emergency services — chest pain, difficulty breathin",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/doctor/config.yaml` (what the user declared) and `~/Clawic/data/doctor/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
     "repositoryPath": "skills/doctor",
     "manifestPath": "registry/skills/doctor.json"
   },
@@ -26,15 +26,113 @@
       "path": "_meta.json",
       "downloadPath": "skills/doctor/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/_meta.json",
-      "byteCount": 164,
-      "sha256": "947c22ea7f7af68c364c9d41064be62d642e2face22daacd6945053a50370291"
+      "byteCount": 240,
+      "sha256": "de03215e24d68bf6761ff49588fa67d66ed22144fa2bb2d67b6065e8a78b1ca2"
+    },
+    {
+      "path": "appointments.md",
+      "downloadPath": "skills/doctor/appointments.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/appointments.md",
+      "byteCount": 8739,
+      "sha256": "1a50424d35f0596be35ba46e61b0d74e51efbad47f1e585dec009496a96aaa0d"
+    },
+    {
+      "path": "children.md",
+      "downloadPath": "skills/doctor/children.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/children.md",
+      "byteCount": 7474,
+      "sha256": "4c23a5e7565418b548049e7844b472b0679e68107ad8ee3337e003d63e8527cb"
+    },
+    {
+      "path": "chronic.md",
+      "downloadPath": "skills/doctor/chronic.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/chronic.md",
+      "byteCount": 7667,
+      "sha256": "52c38749ea46f6c6f1763086bde792c418566b0800833153ff2a434b801f6cb0"
+    },
+    {
+      "path": "emergencies.md",
+      "downloadPath": "skills/doctor/emergencies.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/emergencies.md",
+      "byteCount": 9113,
+      "sha256": "72954bb5aacc1575358e16e536657e995fd39492f31f7dba3bc444c620c959cc"
+    },
+    {
+      "path": "injuries.md",
+      "downloadPath": "skills/doctor/injuries.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/injuries.md",
+      "byteCount": 6377,
+      "sha256": "43681cd34a9d338e1736b7c7109131a96dd9d4af34eda15c246f19c03c4649a6"
+    },
+    {
+      "path": "labs.md",
+      "downloadPath": "skills/doctor/labs.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/labs.md",
+      "byteCount": 7077,
+      "sha256": "7e8cc1e154680468efdbc915c1583e35e41e94d0d015e8095eb90fc555e391df"
+    },
+    {
+      "path": "medications.md",
+      "downloadPath": "skills/doctor/medications.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/medications.md",
+      "byteCount": 11736,
+      "sha256": "6d9d5e33748e3b70e52e52800b2d25c7adfd5c7e3ad7b6ee8ba2b6c7b9289dc2"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/doctor/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/memory-template.md",
+      "byteCount": 23849,
+      "sha256": "5b5c5b1d108569987f993de3f5b03d64ef82dae84a2f49df9fc3bb6b79323331"
+    },
+    {
+      "path": "mental-health.md",
+      "downloadPath": "skills/doctor/mental-health.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/mental-health.md",
+      "byteCount": 7012,
+      "sha256": "e353fbfde8e09703ed4426c89062b6210a65ebd4c188ff13e45961f907b881cb"
+    },
+    {
+      "path": "older-adults.md",
+      "downloadPath": "skills/doctor/older-adults.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/older-adults.md",
+      "byteCount": 7987,
+      "sha256": "b18a03ae39773a30315d28e807ada3985de72a97f62582b039b28e9e8cdd9fb8"
+    },
+    {
+      "path": "prevention.md",
+      "downloadPath": "skills/doctor/prevention.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/prevention.md",
+      "byteCount": 6798,
+      "sha256": "8c7dd1246e288a11b96a20add81e13565b3f6e2fd7980c889c709500c23e5973"
+    },
+    {
+      "path": "reproductive.md",
+      "downloadPath": "skills/doctor/reproductive.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/reproductive.md",
+      "byteCount": 7287,
+      "sha256": "b55f1fdf26dca5beec9adf81d7ebcafb0e73bfa8286e6a3a9f37f5da2678291f"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/doctor/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/SKILL.md",
-      "byteCount": 4337,
-      "sha256": "45cd2415a07ee21b3ce71eb5acd87a278320f2ad4c9b1581f3ff742684bc1424"
+      "byteCount": 28521,
+      "sha256": "bf34667104e57b8a633c2f408fe78dc75110a0e17e94051d486f023e2226894d"
+    },
+    {
+      "path": "symptoms.md",
+      "downloadPath": "skills/doctor/symptoms.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/symptoms.md",
+      "byteCount": 13083,
+      "sha256": "4dc3dfdd379a433cc95fb1bfd2502da0c01aebcc2d7d20e0ef7c101a3fa72deb"
+    },
+    {
+      "path": "triage.md",
+      "downloadPath": "skills/doctor/triage.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/doctor/triage.md",
+      "byteCount": 6206,
+      "sha256": "a8448235b1c28603fbfbfbe25aa6e5b2bc91d7aaa2aa13c926992470de37d607"
     }
   ]
 }

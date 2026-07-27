@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "ac019c0987ff9c849d5d9822712014caf39c2173e8481f28aa892234bd40c56a",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "9c16e6b07e528a903e794ba1e6744d1feef5a08659cf51a25e5445fd3e8583ef",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "japanese",
     "name": "Japanese",
-    "description": "Write Japanese that sounds human. Not formal, not robotic, not AI-generated.",
-    "version": "1.0.0",
+    "description": "Writes and edits Japanese that reads as if a native wrote it — casual, 敬体, or full keigo. Use when composing anything in Japanese (LINE or Slack message, business email, 履歴書, 退職願, 議事録, note or X post, speech, 年賀状, contract clause, manga or game dialogue), or when Japanese text sounds stiff, textbook, translated or AI-generated; when 尊敬語 and 謙譲語, 二重敬語, させていただく, 了解 versus 承知, or さん versus 様 come out wrong; when は/が, particles, transitivity, mixed 敬体 and 常体, kanji-versus-kana balance, 送り仮名 or 全角 punctuation are off; when counters, 万/億 grouping, 令和 dates, addresses or a name's reading are needed; when slang, 絵文字 or dialect have to be calibrated to a reader; or when a refusal, apology or request must land. Not for translating an existing source text (`translate`), other languages (`chinese`, `korean`), or travelling in Japan (`japan`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/japanese",
-    "summary": "The Real Problem AI Japanese is technically correct but sounds off. Too polite. Too textbook. Too stiff. Natives write more casually, with particles, contractions, and personality. Match that. Formality Default Default r",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/japanese/config.yaml` (what the user declared) and `~/Clawic/data/japanese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
     "repositoryPath": "skills/japanese",
     "manifestPath": "registry/skills/japanese.json"
   },
@@ -26,15 +26,148 @@
       "path": "_meta.json",
       "downloadPath": "skills/japanese/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/_meta.json",
-      "byteCount": 168,
-      "sha256": "1c806c434854604d6836f6c74e36725090aa226067b014d051bd7de4ff40730a"
+      "byteCount": 244,
+      "sha256": "94a97d7aeb00db15d21a570aa27664c26248062b8aa761e986cfe76bb9980f1a"
+    },
+    {
+      "path": "ai-tells.md",
+      "downloadPath": "skills/japanese/ai-tells.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/ai-tells.md",
+      "byteCount": 14413,
+      "sha256": "650730d6784be6bab29a94f14c501781b3a7628c33c731aa358f281642af061c"
+    },
+    {
+      "path": "business.md",
+      "downloadPath": "skills/japanese/business.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/business.md",
+      "byteCount": 14054,
+      "sha256": "41d9b552b5438f5f49f2012023c7e45d45b2d46944600751c2cde8c17dc81ddc"
+    },
+    {
+      "path": "chat.md",
+      "downloadPath": "skills/japanese/chat.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/chat.md",
+      "byteCount": 9636,
+      "sha256": "270e3a2982f860b6912d246c9c604381cfce95d334cafafeb1999f627a32116b"
+    },
+    {
+      "path": "documents.md",
+      "downloadPath": "skills/japanese/documents.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/documents.md",
+      "byteCount": 13828,
+      "sha256": "cfefc08b61e549bf159d8a31693987f2d8fd79b78cc8adbca3c8c25c966d6abe"
+    },
+    {
+      "path": "etiquette.md",
+      "downloadPath": "skills/japanese/etiquette.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/etiquette.md",
+      "byteCount": 13132,
+      "sha256": "abcb77f90a60476bafa20ad9b7ce97bbc17c0fb2703ac1087053573a71bfab0c"
+    },
+    {
+      "path": "fiction.md",
+      "downloadPath": "skills/japanese/fiction.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/fiction.md",
+      "byteCount": 16296,
+      "sha256": "ab9aa9dfaddd98854160bf93d83461a44c09cad3266ae661773d56ef397ea198"
+    },
+    {
+      "path": "grammar.md",
+      "downloadPath": "skills/japanese/grammar.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/grammar.md",
+      "byteCount": 13531,
+      "sha256": "ed2553dfe71c6a3ce93d2f666b9d746f11ffd564e0efc07fc1c59acce1d49846"
+    },
+    {
+      "path": "kanji-and-kana.md",
+      "downloadPath": "skills/japanese/kanji-and-kana.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/kanji-and-kana.md",
+      "byteCount": 12551,
+      "sha256": "1c354bc6d09fc483e315219589d30092e1928e50b5d856c7d5a1679909e50742"
+    },
+    {
+      "path": "keigo.md",
+      "downloadPath": "skills/japanese/keigo.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/keigo.md",
+      "byteCount": 13292,
+      "sha256": "4c9d7c65e1432596aee0603bf16898195f267a08848682b369d6f1003670e9ec"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/japanese/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/memory-template.md",
+      "byteCount": 28374,
+      "sha256": "96df799ca66097cac5d937f70aa97f65450090f9793cbe7ca0303c93f33ba8d4"
+    },
+    {
+      "path": "numbers-and-names.md",
+      "downloadPath": "skills/japanese/numbers-and-names.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/numbers-and-names.md",
+      "byteCount": 19364,
+      "sha256": "ece7f829a68b2b71a3bff105fa116d18d67134fa94353c84ac0fe179bedbae04"
+    },
+    {
+      "path": "onomatopoeia.md",
+      "downloadPath": "skills/japanese/onomatopoeia.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/onomatopoeia.md",
+      "byteCount": 12525,
+      "sha256": "9888b2e0c7365c4e37eff072cb552df814a23382d9161bb24c80add4cd8d32f5"
+    },
+    {
+      "path": "proofreading.md",
+      "downloadPath": "skills/japanese/proofreading.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/proofreading.md",
+      "byteCount": 15956,
+      "sha256": "76c2f398627025f95db6bafb4bfa0e07d412c08a59a27128f389787638fb904f"
+    },
+    {
+      "path": "punctuation.md",
+      "downloadPath": "skills/japanese/punctuation.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/punctuation.md",
+      "byteCount": 11614,
+      "sha256": "7fb3568df316ed23d767a9dcf732a49cc659b48009173bc190a593103ffc21ca"
+    },
+    {
+      "path": "regions.md",
+      "downloadPath": "skills/japanese/regions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/regions.md",
+      "byteCount": 11364,
+      "sha256": "e8895b87b3e345b0d11fb842ca94a22ff7cdba54b25095c8b6f98b0a201cb10c"
+    },
+    {
+      "path": "register.md",
+      "downloadPath": "skills/japanese/register.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/register.md",
+      "byteCount": 11281,
+      "sha256": "9025f44784e37a755ff1c58fbe98fe4f13fb261af6e4ba6595c29322c86edeab"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/japanese/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/SKILL.md",
-      "byteCount": 3077,
-      "sha256": "8941442f3d6f51d49cef9161e424b993b400e1fe8824d9e7e58f0b33d3628385"
+      "byteCount": 37302,
+      "sha256": "0e97d2a7a5e4ae8783ad810f95126e218e78e03cfbf9dc34b73d1b7d509879ad"
+    },
+    {
+      "path": "slang.md",
+      "downloadPath": "skills/japanese/slang.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/slang.md",
+      "byteCount": 12357,
+      "sha256": "15d6f58e34a68f0c5eb48c103cd217bd11d5c8e5d414adb3105ea504e4f9cbf6"
+    },
+    {
+      "path": "social-media.md",
+      "downloadPath": "skills/japanese/social-media.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/social-media.md",
+      "byteCount": 10449,
+      "sha256": "24b8b2fa9312920fc4b4d9853ff088a12f9bb913f88bcb437449015d19376ce6"
+    },
+    {
+      "path": "speaking.md",
+      "downloadPath": "skills/japanese/speaking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/japanese/speaking.md",
+      "byteCount": 11610,
+      "sha256": "fc6ffb39b8094443daa378ea36a51523579dde981afc42397484a49a66ae0b8e"
     }
   ]
 }

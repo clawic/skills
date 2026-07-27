@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "dcb51f7da0c998043aeceaa2cfa7ecc818bfd1f7e1ac8b51ab501086e5feaa5f",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "3d7ba9c4ac5d424f4a79956290aa3cf7c313c13a8250790ff1b051523401ae99",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "android",
     "name": "Android",
-    "description": "Android build system and deployment patterns",
-    "version": "1.0.1",
+    "description": "Builds, debugs, ships, and hardens Android apps: Gradle, Jetpack Compose, XML Views, ADB, and the Play release path. Use when a Gradle build fails or a dependency resolves to the wrong version, an APK will not install, or `adb` cannot see the device; when the app crashes, ANRs, leaks, or works on the emulator but not on a real phone; when Compose recomposes too much, state resets on rotation, or a list janks; when WorkManager never runs, an alarm is throttled, or a foreground service crashes at start; when a runtime permission is denied silently, scoped storage blocks a file, or Play rejects a declaration; when raising targetSdk changes behavior; when signing, R8 keep rules, bundle size, staged rollout, or Android vitals are the problem; also Room migrations, deep links, emulators, foldables, and CI builds. Not for Kotlin language mechanics (`kotlin`), store-listing ASO (`google-play-store`), or cross-platform frameworks (`flutter`, `react-native`).",
+    "version": "1.0.2",
     "homepage": "https://clawic.com/skills/android",
-    "summary": "Android Build & Deploy ADB Essentials ```bash Debug builds require -t flag (agents forget this) adb install -r -t app-debug.apk Filter logcat for app + errors only adb logcat -s \"YourApp:*\" \"*:E\" ``` Gradle Critical Fixe",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/android/config.yaml` (what the user declared) and `~/Clawic/data/android/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
     "repositoryPath": "skills/android",
     "manifestPath": "registry/skills/android.json"
   },
@@ -26,15 +26,162 @@
       "path": "_meta.json",
       "downloadPath": "skills/android/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/_meta.json",
-      "byteCount": 166,
-      "sha256": "6643174e9bcb8b0298c59fe2f7e153ec1606b53e2c884522b5108baf28bd1c83"
+      "byteCount": 242,
+      "sha256": "0aa51300561ea71588b375f508884950127b390c974e4d5978b26e02ef408f91"
+    },
+    {
+      "path": "architecture.md",
+      "downloadPath": "skills/android/architecture.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/architecture.md",
+      "byteCount": 11214,
+      "sha256": "d00bad2c2da78d3e9c8b98c1bc4222463ab25e25be69a3136a6ede2b49c3791e"
+    },
+    {
+      "path": "background.md",
+      "downloadPath": "skills/android/background.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/background.md",
+      "byteCount": 12179,
+      "sha256": "32e6007af9ac70e3034d53e287373f1424ded679f4737d8f8d5ec2e5bf8fdcba"
+    },
+    {
+      "path": "build-failures.md",
+      "downloadPath": "skills/android/build-failures.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/build-failures.md",
+      "byteCount": 11453,
+      "sha256": "9636448940d76a942799fc99e9ec6702da5939b5145a3c5a5c966ba0297a9a29"
+    },
+    {
+      "path": "ci.md",
+      "downloadPath": "skills/android/ci.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/ci.md",
+      "byteCount": 10061,
+      "sha256": "1e6e608ccdfbea45d56ed12f047626a5c3dda1a33ad36c49d77140987979eb14"
+    },
+    {
+      "path": "compose.md",
+      "downloadPath": "skills/android/compose.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/compose.md",
+      "byteCount": 13441,
+      "sha256": "7441ab9735a7fb362a9704d85a506e5478b498e7c5f24a3c6c534f053fb331f4"
+    },
+    {
+      "path": "crashes.md",
+      "downloadPath": "skills/android/crashes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/crashes.md",
+      "byteCount": 10834,
+      "sha256": "41c6792a6dd7f14609f4700161908765a7e0ba96b09fdd94dbf1d5f23b27a1fb"
+    },
+    {
+      "path": "data.md",
+      "downloadPath": "skills/android/data.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/data.md",
+      "byteCount": 11727,
+      "sha256": "052aa4f0a7f4bf749c59d53d6916140d26f3d539d03a5e36d94b24c9e58675cf"
+    },
+    {
+      "path": "debug.md",
+      "downloadPath": "skills/android/debug.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/debug.md",
+      "byteCount": 10884,
+      "sha256": "672b336b134f74c6220f3cff36bc1dc0bdc0f7e78aa5923226457f8db35e7673"
+    },
+    {
+      "path": "devices.md",
+      "downloadPath": "skills/android/devices.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/devices.md",
+      "byteCount": 11665,
+      "sha256": "bcd8786bba899bbe7029003d62ee59db52e351132d4fa9e61ddad223b9545b82"
+    },
+    {
+      "path": "gradle.md",
+      "downloadPath": "skills/android/gradle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/gradle.md",
+      "byteCount": 11553,
+      "sha256": "12d5608e4493f67540983e7f728d1a2972ef667018c19d0c5a3793a74fbb18a9"
+    },
+    {
+      "path": "lifecycle.md",
+      "downloadPath": "skills/android/lifecycle.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/lifecycle.md",
+      "byteCount": 10715,
+      "sha256": "fad99aef3a2ab5586a1a7bf13ae0e555d9f499dd9f6846ec4847b128461bf37d"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/android/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/memory-template.md",
+      "byteCount": 23443,
+      "sha256": "a8cc7851dfa1513d18874062478a4fed3d2d3dc819972f346049de6112030492"
+    },
+    {
+      "path": "networking.md",
+      "downloadPath": "skills/android/networking.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/networking.md",
+      "byteCount": 11244,
+      "sha256": "609fe6b65bd6e4d73e4b8a2a62c56ad17217fcd46c03fd0532cc09321a6258b3"
+    },
+    {
+      "path": "performance.md",
+      "downloadPath": "skills/android/performance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/performance.md",
+      "byteCount": 11455,
+      "sha256": "2bfef332264f52f198e9ff7fc0ba084fbdff99cc1ba4773672ce2b086ca7f26a"
+    },
+    {
+      "path": "permissions.md",
+      "downloadPath": "skills/android/permissions.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/permissions.md",
+      "byteCount": 10851,
+      "sha256": "1e1609f07bcb3b011aa57d129ad1b23822bbf873bf4a7fec3fd0261c46b8beca"
+    },
+    {
+      "path": "play-console.md",
+      "downloadPath": "skills/android/play-console.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/play-console.md",
+      "byteCount": 11313,
+      "sha256": "f6db4c4a410be7efc89d911d6fe554b63257cc9fbd1f84d52676e7b4aeda20e9"
+    },
+    {
+      "path": "release.md",
+      "downloadPath": "skills/android/release.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/release.md",
+      "byteCount": 12596,
+      "sha256": "af707cb1e59417d259feb4916077b723ebe3c56d635cfa0283d873e8971a9445"
+    },
+    {
+      "path": "sdk-upgrades.md",
+      "downloadPath": "skills/android/sdk-upgrades.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/sdk-upgrades.md",
+      "byteCount": 11342,
+      "sha256": "568ac04f792fec035ea90ad24cb9fcb9f65b8d0e868b111efbec26a69b28a7cf"
+    },
+    {
+      "path": "security.md",
+      "downloadPath": "skills/android/security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/security.md",
+      "byteCount": 13710,
+      "sha256": "1a2fe6b74ababba4c2aae4868ecfb4c3fdc5fc081ef5fcc48246147273a46be2"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/android/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/SKILL.md",
-      "byteCount": 1346,
-      "sha256": "644aa9dd31251ade476f154d456552233c93c8f0fb16477bc72338b084162da0"
+      "byteCount": 36055,
+      "sha256": "d9d4da70915e37b0f4930b9b5cc9807b2f1d5ed6254a4bffa9f4e9a5a111feae"
+    },
+    {
+      "path": "testing.md",
+      "downloadPath": "skills/android/testing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/testing.md",
+      "byteCount": 10842,
+      "sha256": "34a7e672c73561da1a83b5262801f177f33ba5725baa2367e57305a34a2634c9"
+    },
+    {
+      "path": "views.md",
+      "downloadPath": "skills/android/views.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/android/views.md",
+      "byteCount": 10142,
+      "sha256": "3262a2733129fa57632bb934425e9bb1184ac35a97179b42250664d50e50a96c"
     }
   ]
 }

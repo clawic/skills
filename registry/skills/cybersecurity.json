@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "06cd3a9d5c618a32fd74c4732900bd8c56c98df30da17ab66e236639ab7d83dc",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "3384fd7f13ad89cb06ca60b8c73639a0f5f2e7cdea854c6e94d6397e486f491b",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "cybersecurity",
     "name": "Cybersecurity",
-    "description": "Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline.",
-    "version": "1.0.0",
+    "description": "Runs defensive security: alert triage, compromise investigation, attack paths, vulnerability prioritization, detection, and risk reporting. Use when an alert, a suspicious login, a reported email, encrypted files, or a possible compromise needs scoping and containment; when deciding what to patch first out of a scanner or pentest backlog; when hardening identity, endpoints, segmentation, cloud tenants, or a build pipeline; when writing or tuning detections nobody trusts; when a vendor questionnaire, SOC 2, ISO 27001, PCI, HIPAA, GDPR or NIS2 evidence is due; when a notification clock may already be running; when scoping an authorized test or a disclosure; or when a finding has to be written so an engineer, an executive or a board decides. Covers evidence handling, token eviction, and building a security program from nothing. Not for line-by-line secure code fixes (`security-best-practices`), STRIDE notation depth (`threat-modeling`), or implementing login flows (`auth`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/cybersecurity",
-    "summary": "When to Use Use when the user needs cybersecurity help across incident triage, threat modeling, control review, vulnerability prioritization, secure design discussions, tabletop prep, or executive-ready risk communicatio",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/cybersecurity/config.yaml` (what the user declared) and `~/Clawic/data/cybersecurity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` tabl",
     "repositoryPath": "skills/cybersecurity",
     "manifestPath": "registry/skills/cybersecurity.json"
   },
@@ -26,57 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/cybersecurity/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/_meta.json",
-      "byteCount": 178,
-      "sha256": "a4921d0384d510f1e3ce3079a15cf43e5c8281233528cb07be44b7577996a5f8"
+      "byteCount": 254,
+      "sha256": "eb468c67d0d28ab3bd3ef6b043976f29cd2e7f9b65c8c2ff3a7bcf3d21b445e7"
+    },
+    {
+      "path": "appsec.md",
+      "downloadPath": "skills/cybersecurity/appsec.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/appsec.md",
+      "byteCount": 15169,
+      "sha256": "e70f7af45273b1c4126355e301a3382e7ab366936512327c117221b96ffcddf5"
+    },
+    {
+      "path": "authorization.md",
+      "downloadPath": "skills/cybersecurity/authorization.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/authorization.md",
+      "byteCount": 13551,
+      "sha256": "ebf889e0f8c70edd5d77c4bfbc36b6a13bc58beb7aac93478daf9945914d7f1a"
+    },
+    {
+      "path": "cloud-security.md",
+      "downloadPath": "skills/cybersecurity/cloud-security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/cloud-security.md",
+      "byteCount": 15477,
+      "sha256": "4b2653fe616f2c3f2c82807ca528694746477436384a8699202d7c2a50fcffdf"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/cybersecurity/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/compliance.md",
+      "byteCount": 14659,
+      "sha256": "727c6d39efb5da9315e3fc0b04a8baad727fc5c4bf90cc0750ca7eca594c0273"
+    },
+    {
+      "path": "design-review.md",
+      "downloadPath": "skills/cybersecurity/design-review.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/design-review.md",
+      "byteCount": 12855,
+      "sha256": "40e5b8132f05e9d8c9e3a9a3168c9c5950c62ddf95358849fce588e14be8c363"
+    },
+    {
+      "path": "detection.md",
+      "downloadPath": "skills/cybersecurity/detection.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/detection.md",
+      "byteCount": 14863,
+      "sha256": "d83be004349f48191df78a7827106adb40da145b00e933e48c653eaee1275a27"
+    },
+    {
+      "path": "endpoints.md",
+      "downloadPath": "skills/cybersecurity/endpoints.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/endpoints.md",
+      "byteCount": 15527,
+      "sha256": "d1500a5511c0c9ce1382cbf9200b4a209c945b05f4c1430e969e8a9469b2f9f3"
+    },
+    {
+      "path": "forensics.md",
+      "downloadPath": "skills/cybersecurity/forensics.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/forensics.md",
+      "byteCount": 14323,
+      "sha256": "db7e5e943c889fde58b6aeb182e9d445832a8e4c617b84765423423440f8538e"
+    },
+    {
+      "path": "identity.md",
+      "downloadPath": "skills/cybersecurity/identity.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/identity.md",
+      "byteCount": 16489,
+      "sha256": "48b844e3155e861075f1cec7774bc724b336697c93404a472d0a03f17963b633"
+    },
+    {
+      "path": "incident-response.md",
+      "downloadPath": "skills/cybersecurity/incident-response.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/incident-response.md",
+      "byteCount": 15703,
+      "sha256": "cc400d507bc8401e3570a7785f626e966c5e037259fcad0693f7f6bfe5b96fdc"
     },
     {
       "path": "memory-template.md",
       "downloadPath": "skills/cybersecurity/memory-template.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/memory-template.md",
-      "byteCount": 1779,
-      "sha256": "3f01bc68805d3dced61967ce1fd01b4d5a2483f6070e5c619909e22e1816db8f"
+      "byteCount": 27225,
+      "sha256": "acef26bc2712b32e37b0d646b9a4e227f6975efad4dbd190cb467c339ab33a4c"
+    },
+    {
+      "path": "network-security.md",
+      "downloadPath": "skills/cybersecurity/network-security.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/network-security.md",
+      "byteCount": 15032,
+      "sha256": "a563e90c3f6242b36aa940f2d3beef0a79d7801e80bf192d3fa6346f76018268"
+    },
+    {
+      "path": "phishing.md",
+      "downloadPath": "skills/cybersecurity/phishing.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/phishing.md",
+      "byteCount": 13549,
+      "sha256": "565ff476f11fc1056e68575656ab524267fe63ae5e6ecf9e56898e47e27a2ace"
+    },
+    {
+      "path": "program.md",
+      "downloadPath": "skills/cybersecurity/program.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/program.md",
+      "byteCount": 14788,
+      "sha256": "171045895c5ac7a5316b09ebd5b9688d854e63a49d0a0c5758ca1557c5c11560"
+    },
+    {
+      "path": "ransomware.md",
+      "downloadPath": "skills/cybersecurity/ransomware.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/ransomware.md",
+      "byteCount": 13417,
+      "sha256": "98dc88de1a7b16a7b61ad60e2e5896a15610306524952a6ca63ef23b26142dad"
     },
     {
       "path": "reporting.md",
       "downloadPath": "skills/cybersecurity/reporting.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/reporting.md",
-      "byteCount": 704,
-      "sha256": "5ea2e4608bc2d8f8b48addb7c6530fc0f2ae98ffece9fba7687e2608071c1314"
-    },
-    {
-      "path": "safety-boundaries.md",
-      "downloadPath": "skills/cybersecurity/safety-boundaries.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/safety-boundaries.md",
-      "byteCount": 814,
-      "sha256": "24f054473f635964d5fbf3557c04977eb06ccb064a8095c9fd9bcf4ed8ac6f43"
-    },
-    {
-      "path": "setup.md",
-      "downloadPath": "skills/cybersecurity/setup.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/setup.md",
-      "byteCount": 2040,
-      "sha256": "f3b830a42e8ce6aee1d12f01eccf2402c5f31b92354c58a548fe842f26015581"
+      "byteCount": 11885,
+      "sha256": "b7722a55c96577830ac3c0c5430f60ee30301f6fd400f1131cb9ae9d6080812e"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/cybersecurity/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/SKILL.md",
-      "byteCount": 7407,
-      "sha256": "e95051087c24f4ecbc66e23e03d786f094db46fe3b54565a2ed030ceae31a147"
+      "byteCount": 35034,
+      "sha256": "4d1b865d3167d857f1ab53f7cf9c17681e32ddec74860fa5e066c92bc42861ae"
     },
     {
-      "path": "threat-modeling.md",
-      "downloadPath": "skills/cybersecurity/threat-modeling.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/threat-modeling.md",
-      "byteCount": 922,
-      "sha256": "816833f003504528b96f2de30ed162db7942f3759a5848d3c4376212cc92a828"
+      "path": "supply-chain.md",
+      "downloadPath": "skills/cybersecurity/supply-chain.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/supply-chain.md",
+      "byteCount": 16116,
+      "sha256": "e8159df705119d9ab35b9fdac7e6e6cb417fc175ff6a4eaf19541f4a0a3e9cc9"
     },
     {
-      "path": "triage.md",
-      "downloadPath": "skills/cybersecurity/triage.md",
-      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/triage.md",
-      "byteCount": 975,
-      "sha256": "b4122c2ad66eee68168fe62e61c537ba249f75627369b1482fd3e12545118e30"
+      "path": "vulnerabilities.md",
+      "downloadPath": "skills/cybersecurity/vulnerabilities.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/cybersecurity/vulnerabilities.md",
+      "byteCount": 13680,
+      "sha256": "375371bd3c7f93b19bb8693546e975ae85553c5fa0c5fd3a26c55e99e8ea64da"
     }
   ]
 }

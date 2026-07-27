@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -344,10 +344,10 @@
     {
       "slug": "android",
       "name": "Android",
-      "description": "Android build system and deployment patterns",
-      "version": "1.0.1",
+      "description": "Builds, debugs, ships, and hardens Android apps: Gradle, Jetpack Compose, XML Views, ADB, and the Play release path. Use when a Gradle build fails or a dependency resolves to the wrong version, an APK will not install, or `adb` cannot see the device; when the app crashes, ANRs, leaks, or works on the emulator but not on a real phone; when Compose recomposes too much, state resets on rotation, or a list janks; when WorkManager never runs, an alarm is throttled, or a foreground service crashes at start; when a runtime permission is denied silently, scoped storage blocks a file, or Play rejects a declaration; when raising targetSdk changes behavior; when signing, R8 keep rules, bundle size, staged rollout, or Android vitals are the problem; also Room migrations, deep links, emulators, foldables, and CI builds. Not for Kotlin language mechanics (`kotlin`), store-listing ASO (`google-play-store`), or cross-platform frameworks (`flutter`, `react-native`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/android",
-      "summary": "Android Build & Deploy ADB Essentials ```bash Debug builds require -t flag (agents forget this) adb install -r -t app-debug.apk Filter logcat for app + errors only adb logcat -s \"YourApp:*\" \"*:E\" ``` Gradle Critical Fixe",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/android/config.yaml` (what the user declared) and `~/Clawic/data/android/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
       "repositoryPath": "skills/android",
       "manifestPath": "registry/skills/android.json"
     },
@@ -1744,10 +1744,10 @@
     {
       "slug": "chinese",
       "name": "Chinese",
-      "description": "Write Chinese that sounds human. Not formal, not robotic, not AI-generated.",
-      "version": "1.0.0",
+      "description": "Writes and edits Mandarin Chinese that reads as if a native wrote it — casual or formal, mainland or Taiwan. Use when composing anything in Chinese (WeChat message, work email, 小红书 or 公众号 post, resume, 请假条, speech, toast, 通知, contract clause), or when Chinese text sounds stiff, textbook, translated, or AI-generated; when choosing 你 versus 您, 口语 versus 书面语, simplified versus traditional, or mainland versus Taiwan vocabulary; when 的/地/得, 了, 把, 被 or measure words come out wrong; when full-width punctuation, Han-Latin spacing, or 万/亿 number grouping is off; when internet slang, 成语, emoji or 表情包 need calibrating to an audience; when a refusal, apology, compliment or request has to land politely; or when naming a product or a person in Chinese. Not for translating an existing source text (`translate`), Traditional-only writing (`traditional-chinese`), or travelling in China (`china`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/chinese",
-      "summary": "The Real Problem AI Chinese is technically correct but sounds off. Too formal. Too 书面语 (written style). Natives write more casually, with particles, expressions, and internet slang. Match that. Formality Default Default ",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/chinese/config.yaml` (what the user declared) and `~/Clawic/data/chinese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
       "repositoryPath": "skills/chinese",
       "manifestPath": "registry/skills/chinese.json"
     },
@@ -1894,10 +1894,10 @@
     {
       "slug": "coach",
       "name": "Coach",
-      "description": "Goal-oriented coaching for any domain — accountability, clarity, action plans, and breakthrough thinking.",
-      "version": "1.0.0",
+      "description": "Coaches a person toward a goal, and runs the professional coaching craft: sessions, questions, accountability, and clients who will not move. Use when someone asks to be coached, held accountable, or pushed on a goal; when they restate the same intention for weeks without acting, over-plan instead of starting, answer every option with \"yes, but\", or miss the same commitment again; when a session needs an arc, an opening question, or a closing commitment; when the user is a coach and needs a chemistry call, intake, a coaching agreement, pricing and packages, a stalled client, group or team work, supervision, or credential hours; and when the line between coaching, therapy, consulting, and mentoring has to be drawn. Covers executive, career, business, health, life, creative, and ADHD coaching. Not for clinical care (`therapist`, `psychologist`), personal productivity systems (`productivity`), or habit streaks (`habits`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/coach",
-      "summary": "Core Approach - Coaching is about the client's agenda, not yours — ask what they want to achieve, don't assume - Focus on future and action, not past and analysis — \"What will you do?\" beats \"Why did that happen?\" - Assu",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/coach/config.yaml` (what the user declared) and `~/Clawic/data/coach/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
       "repositoryPath": "skills/coach",
       "manifestPath": "registry/skills/coach.json"
     },
@@ -2214,10 +2214,10 @@
     {
       "slug": "cooking",
       "name": "Cooking",
-      "description": "Help users cook better — recipe adaptation, substitutions, troubleshooting, and skill building.",
-      "version": "1.0.0",
+      "description": "Cooks and rescues real dishes at the stove: heat control, seasoning, doneness, timing, substitutions, and food safety. Use when a dish is bland, too salty, burnt, tough, dry, watery, rubbery, greasy, or gummy; when a sauce breaks, splits, curdles, or will not thicken; when meat, fish, eggs, rice, pasta, beans, bread, or a cake come out wrong; when adapting a recipe for a missing ingredient, a different pan, an air fryer, altitude, or a doubled batch; when asking what temperature something is done at, how long to rest it, how much salt, or whether leftovers are still safe; when searing, braising, roasting, frying, grilling, baking, fermenting, or curing; or when ordering the work so a whole meal lands hot at once. Not for weekly menus and shopping lists (`meal-planner`, `grocery`), recipe collections and recipe walkthroughs (`recipe`, `chef`), calorie or macro counting (`calories`), or micronutrients (`nutrition`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/cooking",
-      "summary": "Before Suggesting Recipes - Ask skill level — beginner needs different recipes than experienced - Ask available equipment — no stand mixer, no oven, small kitchen changes everything - Ask dietary restrictions upfront — a",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/cooking/config.yaml` (what the user declared) and `~/Clawic/data/cooking/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
       "repositoryPath": "skills/cooking",
       "manifestPath": "registry/skills/cooking.json"
     },
@@ -2474,10 +2474,10 @@
     {
       "slug": "cybersecurity",
       "name": "Cybersecurity",
-      "description": "Handle cybersecurity triage, threat modeling, secure reviews, and incident reporting with strict authorization and evidence discipline.",
-      "version": "1.0.0",
+      "description": "Runs defensive security: alert triage, compromise investigation, attack paths, vulnerability prioritization, detection, and risk reporting. Use when an alert, a suspicious login, a reported email, encrypted files, or a possible compromise needs scoping and containment; when deciding what to patch first out of a scanner or pentest backlog; when hardening identity, endpoints, segmentation, cloud tenants, or a build pipeline; when writing or tuning detections nobody trusts; when a vendor questionnaire, SOC 2, ISO 27001, PCI, HIPAA, GDPR or NIS2 evidence is due; when a notification clock may already be running; when scoping an authorized test or a disclosure; or when a finding has to be written so an engineer, an executive or a board decides. Covers evidence handling, token eviction, and building a security program from nothing. Not for line-by-line secure code fixes (`security-best-practices`), STRIDE notation depth (`threat-modeling`), or implementing login flows (`auth`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/cybersecurity",
-      "summary": "When to Use Use when the user needs cybersecurity help across incident triage, threat modeling, control review, vulnerability prioritization, secure design discussions, tabletop prep, or executive-ready risk communicatio",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/cybersecurity/config.yaml` (what the user declared) and `~/Clawic/data/cybersecurity/memory.md` (what you observed, plus its `## Boxes` index and `## Due` tabl",
       "repositoryPath": "skills/cybersecurity",
       "manifestPath": "registry/skills/cybersecurity.json"
     },
@@ -2794,30 +2794,30 @@
     {
       "slug": "designer",
       "name": "Designer",
-      "description": "Create logos, interfaces, and visual systems with principles of hierarchy, branding, and usability.",
-      "version": "1.0.0",
+      "description": "Operates as the designer on a job: decides what to make, makes it, defends it in review, and hands over files that can actually be built. Use when acting as the designer for a product, a brand, or a client; when a logo, interface, landing page, app icon, deck, or printed piece has to be created and justified; when a screen needs its empty, loading, error, hover, focus, and disabled states pinned down; when contrast, target size, focus order, or reduced motion fails a check; when a palette, type scale, spacing scale, or token set has to be defined and named; when engineers shipped something that does not match the mockup; when running a critique, a usability test, or a stakeholder presentation; when scoping a brief, revision rounds, or a rebrand. Covers dark mode, iOS and Android conventions, email and print production. Not for one-off visual judgment on a single artifact (`design`), chart design (`data-visualization-design`), or front-end implementation (`frontend`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/designer",
-      "summary": "Design Rules Logo & Brand - Simple enough to work at 16px favicon — complexity disappears at small scale - Recognizable in one color — gradients are enhancements, not crutches - Test on dark and light backgrounds — logos",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/designer/config.yaml` (what the user declared) and `~/Clawic/data/designer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
       "repositoryPath": "skills/designer",
       "manifestPath": "registry/skills/designer.json"
     },
     {
       "slug": "developer",
       "name": "Developer",
-      "description": "Write clean, maintainable code with debugging, testing, and architectural best practices.",
-      "version": "1.0.0",
+      "description": "Works as a software developer day to day: turning a ticket into merged, shipped, supported code inside a codebase someone else wrote. Use when landing in an unfamiliar repo and hunting for where the change goes; when scoping, splitting, or estimating work; when a bug has to go from report to verified fix; when tests are missing, slow, or flaky; when a pull request is too big to review or a review has stalled; when a dependency upgrade breaks the build; when a schema change or backfill must ship without downtime; when something works locally but fails in CI or production; when a release needs a rollback plan or a flag; when on call and mitigation has to come before root cause; or when deciding what is reversible. Covers environment parity, security on your own diff, and new services. Not for isolation technique (`debugging`), the transformation catalog (`refactoring`), review analysis (`review-code`), or Git mechanics (`git`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/developer",
-      "summary": "Software Development Rules Code Quality - Readable code beats clever code — you'll read it 10x more than write it - Functions do one thing — if you need \"and\" to describe it, split it - Name things by what they do, not h",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/developer/config.yaml` (what the user declared) and `~/Clawic/data/developer/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and ",
       "repositoryPath": "skills/developer",
       "manifestPath": "registry/skills/developer.json"
     },
     {
       "slug": "devops",
       "name": "DevOps",
-      "description": "Automate deployments, manage infrastructure, and build reliable CI/CD pipelines.",
-      "version": "1.0.0",
+      "description": "Runs the delivery side of software: CI/CD pipelines, release and rollback strategy, environments, reliability and on-call. Use when designing or fixing a pipeline, when builds are slow, flaky, or green locally and red in CI; when planning a deploy — rolling, blue-green, canary, feature flags — or rolling a release back; when promoting an artifact to production, standing up preview environments, or chasing drift; when a schema change, backfill, or DNS cutover must ship without downtime; when pipeline secrets, OIDC, or deploy permissions need hardening; when alerts are noisy, an SLO or error budget is missing, or burn-rate paging is wrong; for on-call, severities, postmortems, runbooks, and DORA metrics; when infrastructure drifts from code, or backups were never restored. Not for Kubernetes manifests (`k8s`), image builds (`docker`), HCL mechanics (`terraform`), one CI product's workflow-file dialect (`github-actions`, `gitlab`, `ci-cd`), or a single app's ship checklist (`deploy`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/devops",
-      "summary": "DevOps Rules CI/CD Pipelines - Fail fast: run linting and unit tests before expensive integration tests — saves time and compute - Cache dependencies between runs — `npm install` on every build wastes minutes - Pin actio",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/devops/config.yaml` (what the user declared) and `~/Clawic/data/devops/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/devops",
       "manifestPath": "registry/skills/devops.json"
     },
@@ -2964,10 +2964,10 @@
     {
       "slug": "doctor",
       "name": "Doctor",
-      "description": "Provide health information, symptom guidance, and wellness support with appropriate medical boundaries.",
-      "version": "1.0.0",
+      "description": "Triages symptoms, reads lab results and medication risks, and says how urgent something is: emergency now, seen today, or safe to watch. Use when someone describes chest pain, a headache, fever, a rash, dizziness, abdominal or back pain, a cough that will not clear, a lump, or unexplained weight loss and wants to know whether to go to the emergency room; when blood work, imaging, or a screening letter needs reading; when two medicines or supplements may interact, a dose looks wrong, or a side effect started; when a long-term condition — blood pressure, diabetes, asthma, thyroid, cholesterol — needs targets and monitoring; when preparing for an appointment, a second opinion, or a referral; and for a child's fever, a mood or drinking screen, contraception and menopause, or an older relative's medication load. Not step-by-step first-aid drills (`first-aid`), therapy technique (`therapist`), or cycle, pregnancy, and baby tracking (`period`, `pregnancy`, `baby`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/doctor",
-      "summary": "Medical Assistance Rules Critical Boundaries - This is health information, not medical diagnosis — always recommend consulting a healthcare provider - Emergencies need emergency services — chest pain, difficulty breathin",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/doctor/config.yaml` (what the user declared) and `~/Clawic/data/doctor/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/doctor",
       "manifestPath": "registry/skills/doctor.json"
     },
@@ -3164,10 +3164,10 @@
     {
       "slug": "ecommerce",
       "name": "Ecommerce",
-      "description": "Build and operate online stores with payment security, inventory management, marketplace integration, and conversion optimization.",
-      "version": "1.0.0",
+      "description": "Runs an online store end to end: catalog, checkout, payments, inventory, fulfillment, returns, pricing, conversion, retention, and tax. Use when building or reviewing store code — checkout totals, webhooks, stock decrements; when a payment double-charges, a webhook replays, or an order is paid but missing in the store; when stock oversells across channels or a reorder point is missing; when carts abandon, conversion drops, or AOV has to rise; when a discount or free-shipping threshold might sell below cost; when chargebacks, refund abuse, or fraud rules need setting; when choosing or migrating a platform or adding a marketplace; when VAT/OSS, sales-tax nexus, or a 14-day withdrawal window applies; and for peak season, subscriptions, and wholesale terms. Not for parcel carrier depth (skill `shipping`), payment-provider integration code (skill `payments`), CRO method (skill `conversion-rate-optimization`), SaaS pricing (skill `pricing`), or a physical shop (skill `store`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/ecommerce",
-      "summary": "Quick Reference | Topic | File | |-------|------| | Code traps that break production | `code-traps.md` | | Platform comparison (costs, features) | `platforms.md` | | Operations (stock, shipping, returns) | `operations.md",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/ecommerce/config.yaml` (what the user declared) and `~/Clawic/data/ecommerce/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
       "repositoryPath": "skills/ecommerce",
       "manifestPath": "registry/skills/ecommerce.json"
     },
@@ -3294,10 +3294,10 @@
     {
       "slug": "english",
       "name": "English",
-      "description": "Write English that sounds human. Not formal, not robotic, not AI-generated.",
-      "version": "1.0.1",
+      "description": "Writes and corrects English that reads like a native wrote it — any variety, any register. Use when text sounds stiff, robotic, translated, or AI-generated; when a sentence is grammatically fine but \"sounds wrong\"; when choosing between US, UK, Australian, Canadian, Irish or Indian spelling, vocabulary and punctuation, or when a document mixes them; when a first language keeps leaking through — articles, prepositions, tense, false friends, word order; when formality must be calibrated for an email, a client, or a meeting; when idioms, phrasal verbs, slang or collocations land wrong or sound dated; when commas, hyphens, capitalization, quotes, dates or numbers need a house rule; when confusable words, jargon or hedging blur the meaning; and for pronunciation, small talk, and improving on purpose. Not for grammar-only fixes (`grammar`), translation (`translate`), IELTS or TOEFL prep (`ielts`, `toefl`), or drafting in your own voice (`writing`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/english",
-      "summary": "The Real Problem AI English is technically correct but sounds off. Too formal. Too complete. Too polished. Natives write messier, shorter, more direct. Match that. Formality Default Default register is too high. Casual E",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/english/config.yaml` (what the user declared) and `~/Clawic/data/english/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any",
       "repositoryPath": "skills/english",
       "manifestPath": "registry/skills/english.json"
     },
@@ -3904,10 +3904,10 @@
     {
       "slug": "freelance",
       "name": "Freelance",
-      "description": "Navigate freelance platforms as worker or client with proposals, pricing, vetting, and legal compliance.",
-      "version": "1.0.0",
+      "description": "Runs an independent freelance or contractor practice as a business: rate floor, pipeline, cash buffer, taxes, and the paper. Use when going freelance or weighing quitting a job for it, when setting or raising an hourly or day rate, when the pipeline is empty and work dried up, when income swings and a buffer or tax set-aside has to be sized, when one client is too much of the revenue, when a client asks for free spec work, rewrites your contract, or sends an NDA you should not sign, when payment is late, disputed, or a project has to be walked away from, when self-employment tax, VAT registration, invoicing abroad, or IR35 and worker-classification tests come up, when insurance, sick days, holiday, or a pension has to be self-funded, and when the next step is subcontracting, productizing, or an agency. Not for managing one client relationship (`clients`), Upwork (`upwork`) or Fiverr (`fiverr`) tactics, drafting the contract document (`contract`), or issuing invoices (`invoice`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/freelance",
-      "summary": "Platform Selection | Goal | Best Platform | Why | |------|---------------|-----| | Long-term contracts | Upwork | Escrow, hourly tracking | | Quick productized gigs | Fiverr | SEO-driven discovery | | Budget projects | F",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/freelance/config.yaml` (what the user declared) and `~/Clawic/data/freelance/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open",
       "repositoryPath": "skills/freelance",
       "manifestPath": "registry/skills/freelance.json"
     },
@@ -4434,10 +4434,10 @@
     {
       "slug": "habits",
       "name": "Habits",
-      "description": "Build a personal habit tracking system with streaks, reviews, and progression.",
-      "version": "1.0.0",
+      "description": "Designs, tracks, and repairs personal habits — streaks, completion rates, routines, and quitting an unwanted one. Use when someone wants to start exercising, reading, meditating, or doing anything every day; when a habit keeps collapsing, a streak just broke, or nothing sticks past week two; when they ask how they are doing with a habit, want a daily check-in, a weekly review, or their completion rate; when quitting smoking, vaping, drinking, sugar, nail biting, or doomscrolling, and when a relapse needs a restart plan; when building a morning or evening routine or stacking a new behavior onto an existing cue; when travel, illness, shift work, ADHD, low mood, or a newborn wrecked the routine; and when accountability partners, stakes, rewards, or environment changes are the lever. Covers frequency rules, streak freezes, habit graduation and retirement. Not for goal setting and milestones (`goals`), whole-life productivity systems (`productivity`), or workout programming (`fitness`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/habits",
-      "summary": "Core Behavior - User mentions doing something regularly → offer to track as habit - Daily check-in prompt if enabled → \"Did you do X today?\" - Surface streaks and patterns → motivation through visibility - Create `~/Claw",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/habits/config.yaml` (what the user declared) and `~/Clawic/data/habits/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/habits",
       "manifestPath": "registry/skills/habits.json"
     },
@@ -5064,10 +5064,10 @@
     {
       "slug": "ios",
       "name": "iOS",
-      "description": "Build, test, and ship iOS apps with Swift, Xcode, and App Store best practices.",
-      "version": "1.0.0",
+      "description": "Builds, ships, and debugs native iOS apps: lifecycle, permissions, entitlements, push, widgets, StoreKit, and App Store review. Use when a submission is rejected or a guideline blocks a release; when a permission prompt never appears, or a call fails with a missing-entitlement error; when push, background refresh, or a background upload never runs; when a universal link opens Safari instead of the app; when the app is killed by the watchdog, by jetsam, or with 0xdead10cc, hangs on launch, or crashes only on device; when a widget, Live Activity, or app extension runs out of memory; when purchases, subscriptions, or restore fail; when a privacy manifest, tracking prompt, or data label is required; when layout breaks under Dynamic Type; or when a new iOS release breaks a shipped app. Not for Swift language mechanics (`swift`), IDE, signing and build settings (`xcode`), store listings and submission workflow (`app-store`), or cross-platform apps (`react-native`, `flutter`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/ios",
-      "summary": "iOS Development Rules Xcode & Build - Clean build folder (Cmd+Shift+K) fixes most \"impossible\" build errors — derived data gets corrupted regularly - Simulator reset (Device > Erase All Content and Settings) clears cache",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/ios/config.yaml` (what the user declared) and `~/Clawic/data/ios/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). An observation n",
       "repositoryPath": "skills/ios",
       "manifestPath": "registry/skills/ios.json"
     },
@@ -5144,10 +5144,10 @@
     {
       "slug": "japanese",
       "name": "Japanese",
-      "description": "Write Japanese that sounds human. Not formal, not robotic, not AI-generated.",
-      "version": "1.0.0",
+      "description": "Writes and edits Japanese that reads as if a native wrote it — casual, 敬体, or full keigo. Use when composing anything in Japanese (LINE or Slack message, business email, 履歴書, 退職願, 議事録, note or X post, speech, 年賀状, contract clause, manga or game dialogue), or when Japanese text sounds stiff, textbook, translated or AI-generated; when 尊敬語 and 謙譲語, 二重敬語, させていただく, 了解 versus 承知, or さん versus 様 come out wrong; when は/が, particles, transitivity, mixed 敬体 and 常体, kanji-versus-kana balance, 送り仮名 or 全角 punctuation are off; when counters, 万/億 grouping, 令和 dates, addresses or a name's reading are needed; when slang, 絵文字 or dialect have to be calibrated to a reader; or when a refusal, apology or request must land. Not for translating an existing source text (`translate`), other languages (`chinese`, `korean`), or travelling in Japan (`japan`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/japanese",
-      "summary": "The Real Problem AI Japanese is technically correct but sounds off. Too polite. Too textbook. Too stiff. Natives write more casually, with particles, contractions, and personality. Match that. Formality Default Default r",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/japanese/config.yaml` (what the user declared) and `~/Clawic/data/japanese/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open a",
       "repositoryPath": "skills/japanese",
       "manifestPath": "registry/skills/japanese.json"
     },
@@ -5384,10 +5384,10 @@
     {
       "slug": "lawyer",
       "name": "Lawyer",
-      "description": "Draft contracts, review legal documents, and navigate compliance with practical legal patterns.",
-      "version": "1.0.0",
+      "description": "Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the risk before signature. Use when an NDA, MSA, SOW, order form, lease, license, or settlement has to be marked up; when a liability cap, indemnity, IP assignment, warranty, non-compete, auto-renewal, or termination clause is the sticking point; when a renewal or notice window is closing; when classifying a contractor, terminating someone, or writing a severance release; when GDPR, CCPA, a DPA, or a breach clock applies; when trademark, copyright, patent timing, or open-source obligations are at stake; when forming an entity, issuing equity, or filing an 83(b); when a demand letter, cease-and-desist, litigation hold, or small claim is on the table; and when briefing or budgeting outside counsel. Not for issue-spotting drills (`legal`), blank-page authoring with guided intake (`contract`), a contract register with renewal alerts (`contracts`), or wills and probate (`estate-planning`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/lawyer",
-      "summary": "Legal Assistance Rules Important Boundaries - This is legal information, not legal advice — always recommend consulting a licensed attorney for specific situations - Laws vary by jurisdiction — what's valid in one countr",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/lawyer/config.yaml` (what the user declared) and `~/Clawic/data/lawyer/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/lawyer",
       "manifestPath": "registry/skills/lawyer.json"
     },
@@ -5824,10 +5824,10 @@
     {
       "slug": "meetings",
       "name": "Meetings",
-      "description": "Build a personal meeting system for capturing notes, preparing agendas, and never missing follow-ups.",
-      "version": "1.0.0",
+      "description": "Designs, runs, records, and closes out meetings: agendas, facilitation, decisions, minutes, and follow-up. Use when preparing or chairing a 1-on-1, standup, retro, planning session, all-hands, kickoff, design review, client or board call, or offsite; when a meeting ends with no decision, runs long, or relitigates last week; when action items vanish, owners are vague, or nobody chased them; when a transcript or raw notes must become a record with owners and dates; when a recap or formal minutes have to go out; when a recurring meeting has outlived its purpose or the calendar is too full to build anything; when an invite should be declined or replaced by a written update; when a remote or hybrid room leaves half the attendees silent; and when bad news, conflict, or an escalation has to be handled live. Not for note apps and vaults (`notes`), day and calendar planning (`calendar-planner`), or the address book itself (`people`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/meetings",
-      "summary": "Core Behavior - User shares transcript/audio → extract key points and action items - User has upcoming meeting → help prepare with context - Proactively alert about meetings and pending follow-ups - Create `~/Clawic/data",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/meetings/config.yaml` (what the user declared) and `~/Clawic/data/meetings/memory.md` (what you observed, plus its `## Boxes` index, its `## Due` table, and th",
       "repositoryPath": "skills/meetings",
       "manifestPath": "registry/skills/meetings.json"
     },
@@ -7684,10 +7684,10 @@
     {
       "slug": "recipe",
       "name": "Recipes",
-      "description": "Build a personal recipe collection with ingredients, scaling, and meal planning.",
-      "version": "1.0.0",
+      "description": "Captures, standardizes, scales, and files recipes into a personal collection that stays searchable and cookable. Use when the user pastes a recipe URL, photo, screenshot, video, voice note, or handwritten card to save; asks to halve, double, or triple a dish, or fit it to a different pan or tin; converts cups to grams, ounces to millilitres, Fahrenheit to Celsius, or gas marks, or adjusts for a fan oven or altitude; asks what to cook from what is saved, or searches by ingredient, tag, time, or rating; builds a week from the collection with one combined shopping list; swaps a missing, disliked, or off-limits ingredient; rewrites a dish for a pressure cooker, air fryer, or slow cooker; works out cost per serving; writes or tests an original recipe; preserves a family recipe; or moves a collection between apps. Not for stove-side rescue (`cooking`), general cooking help (`chef`), household meal systems (`meal-planner`), calories and macros (`calories`), or pantry lists (`grocery`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/recipe",
-      "summary": "Core Behavior - User shares a recipe → capture in standard format, save to collection - User asks \"what can I make with X\" → search by ingredient - User plans meals → help organize week and generate shopping list - Creat",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/recipe/config.yaml` (what the user declared) and `~/Clawic/data/recipe/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any f",
       "repositoryPath": "skills/recipe",
       "manifestPath": "registry/skills/recipe.json"
     },
@@ -8004,10 +8004,10 @@
     {
       "slug": "saas",
       "name": "SaaS",
-      "description": "Build and scale profitable software-as-a-service with viral growth, retention, and monetization strategies.",
-      "version": "1.0.0",
+      "description": "Runs a SaaS business: subscription revenue, plan packaging, trials, retention, expansion, and enterprise readiness. Use when MRR or ARR has to be computed, reconciled, or explained; when NRR, gross margin, CAC payback, burn multiple, or rule of 40 is the question; when designing plans, seats, usage limits, add-ons, or a free tier; when trials sign up but never convert; when failed payments leak revenue; when a renewal, downgrade, or cancellation flow needs building; when expansion has stalled; when an enterprise buyer demands SSO, SCIM, audit logs, SOC 2, a DPA, or an uptime SLA; when per-tenant cost or AI inference COGS breaks the margin; when designing multi-tenant isolation, metering, or entitlements; or when an investor questions ARR quality. Not for setting the price itself (`pricing`), acquisition channels and funnel diagnosis (`growth`), building the payment integration (`billing`), company financial models (`cfo`), or closing an individual deal (`b2b`).",
+      "version": "1.0.1",
       "homepage": "https://clawic.com/skills/saas",
-      "summary": "SaaS Rules Work Orchestration Route requests to specialized agents: - Pricing/packaging → analyst + product manager agents - Churn analysis → analyst agent - Growth loops → marketing + product agents - Technical architec",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/saas/config.yaml` (what the user declared) and `~/Clawic/data/saas/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
       "repositoryPath": "skills/saas",
       "manifestPath": "registry/skills/saas.json"
     },
@@ -8894,10 +8894,10 @@
     {
       "slug": "study",
       "name": "Study",
-      "description": "Structure study sessions, manage materials, and prepare for exams with active recall techniques.",
-      "version": "1.0.1",
+      "description": "Runs a student's whole term: course load, weekly plan, lectures, notes, retrieval practice, coursework deadlines, grades, and exams. Use when a syllabus, reading list, or semester has to become a weekly schedule; when an exam, midterm, final, viva, or professional certification sits on a date; when revision is not sticking, rereading has replaced recall, or a topic will not stay in memory; when review intervals, decks, or a past-paper plan need designing; when assignments, problem sets, lab reports, essays, or a thesis stack up against deadlines; when several courses compete for the same hours; when procrastination, cramming, or a missed week has to be recovered; when a bad mark needs a post-mortem; or when the question is what to study first and for how long. Covers note systems, study groups, tutors, open-book and adaptive tests, and exam-day tactics. Not for teaching a concept on the spot (`learning`), self-teaching with no course or exam (`learn`), or authoring decks (`anki`).",
+      "version": "1.0.2",
       "homepage": "https://clawic.com/skills/study",
-      "summary": "Data Storage ``` ~/Clawic/data/study/ ├── subjects/ # One folder per subject │ └── {subject}/ │ ├── materials/ # PDFs, notes, resources │ ├── flashcards.json │ ├── schedule.md │ └── progress.md ├── calendar/ # Exam dates",
+      "summary": "**Data.** At the start of every session, read `~/Clawic/data/study/config.yaml` (what the user declared) and `~/Clawic/data/study/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any fil",
       "repositoryPath": "skills/study",
       "manifestPath": "registry/skills/study.json"
     },

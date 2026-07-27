@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "snapshotId": "09cdf644659883e1bd9671ea04f6c78f9eff384752c81e951044ad22a2064690",
-  "generatedAt": "2026-07-26T18:08:41.307Z",
-  "sourceRevision": "ed619e1535309f7160c47ee5787fc7e39f4cc4db",
-  "manifestSha256": "258960ca60f0e65fe5b72b0b9c3c898b0c90ce2eb5e6b03c9dfad013ff4464c2",
+  "snapshotId": "401456bd7dc7d01343b0d497dc7fb281b868713a6f6722eafbda09b8f48f9898",
+  "generatedAt": "2026-07-27T00:43:19.225Z",
+  "sourceRevision": "91c4ada95394fab04e2efea80288d787c33a0af2",
+  "manifestSha256": "f2f46dfeac886f48ff540505da6c7d3ccaadfddab6a9a9f6462906cc860e5229",
   "repository": {
     "owner": "clawic",
     "repo": "skills",
@@ -14,10 +14,10 @@
   "skill": {
     "slug": "saas",
     "name": "SaaS",
-    "description": "Build and scale profitable software-as-a-service with viral growth, retention, and monetization strategies.",
-    "version": "1.0.0",
+    "description": "Runs a SaaS business: subscription revenue, plan packaging, trials, retention, expansion, and enterprise readiness. Use when MRR or ARR has to be computed, reconciled, or explained; when NRR, gross margin, CAC payback, burn multiple, or rule of 40 is the question; when designing plans, seats, usage limits, add-ons, or a free tier; when trials sign up but never convert; when failed payments leak revenue; when a renewal, downgrade, or cancellation flow needs building; when expansion has stalled; when an enterprise buyer demands SSO, SCIM, audit logs, SOC 2, a DPA, or an uptime SLA; when per-tenant cost or AI inference COGS breaks the margin; when designing multi-tenant isolation, metering, or entitlements; or when an investor questions ARR quality. Not for setting the price itself (`pricing`), acquisition channels and funnel diagnosis (`growth`), building the payment integration (`billing`), company financial models (`cfo`), or closing an individual deal (`b2b`).",
+    "version": "1.0.1",
     "homepage": "https://clawic.com/skills/saas",
-    "summary": "SaaS Rules Work Orchestration Route requests to specialized agents: - Pricing/packaging → analyst + product manager agents - Churn analysis → analyst agent - Growth loops → marketing + product agents - Technical architec",
+    "summary": "**Data.** At the start of every session, read `~/Clawic/data/saas/config.yaml` (what the user declared) and `~/Clawic/data/saas/memory.md` (what you observed, plus its `## Boxes` index and `## Due` table). Open any file ",
     "repositoryPath": "skills/saas",
     "manifestPath": "registry/skills/saas.json"
   },
@@ -26,15 +26,141 @@
       "path": "_meta.json",
       "downloadPath": "skills/saas/_meta.json",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/_meta.json",
-      "byteCount": 160,
-      "sha256": "9f2cb06a7f0593b2139bef04f730968686a33704b0334a44c1429a1cd6adea18"
+      "byteCount": 236,
+      "sha256": "def24c20443e8133c92cb0956413a3b47be6e916c6cfbfa794419885ea528825"
+    },
+    {
+      "path": "compliance.md",
+      "downloadPath": "skills/saas/compliance.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/compliance.md",
+      "byteCount": 8823,
+      "sha256": "9c501da10507079e9d33605e2a8063fafa76a98d2069a0c588f17b35a1fd8072"
+    },
+    {
+      "path": "diligence.md",
+      "downloadPath": "skills/saas/diligence.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/diligence.md",
+      "byteCount": 7461,
+      "sha256": "93622d02fad9d01aa1100e848575704970807e2cdf9a02b1e4315bf813c74e1f"
+    },
+    {
+      "path": "dunning.md",
+      "downloadPath": "skills/saas/dunning.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/dunning.md",
+      "byteCount": 7274,
+      "sha256": "3fda84030d81b40843d00158f0abb80514b6181505d325a8fad84cb8013c55f4"
+    },
+    {
+      "path": "enterprise.md",
+      "downloadPath": "skills/saas/enterprise.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/enterprise.md",
+      "byteCount": 9010,
+      "sha256": "885f130450a4fb7a48daea1b27903a2196d061f5fa780f3b035b9e7ada86bd96"
+    },
+    {
+      "path": "entitlements.md",
+      "downloadPath": "skills/saas/entitlements.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/entitlements.md",
+      "byteCount": 7482,
+      "sha256": "fc5d8e8c639a414cc7914e4640fccc1e9458daf3f5fb45538d74b89b9cdf4d2d"
+    },
+    {
+      "path": "expansion.md",
+      "downloadPath": "skills/saas/expansion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/expansion.md",
+      "byteCount": 6980,
+      "sha256": "896e789044e5a0c6e2cc9f399063407e3fad2e42450615b03475e7c97349eee9"
+    },
+    {
+      "path": "margins.md",
+      "downloadPath": "skills/saas/margins.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/margins.md",
+      "byteCount": 7551,
+      "sha256": "d0e18ad3979249cc2ec4de58a51402a057b55d84d0a7afc0cb4be5912dde5887"
+    },
+    {
+      "path": "memory-template.md",
+      "downloadPath": "skills/saas/memory-template.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/memory-template.md",
+      "byteCount": 25129,
+      "sha256": "1db71b7275c35cd122763be186a92311430a75bea67d72a731b2e4544f435fc0"
+    },
+    {
+      "path": "metering.md",
+      "downloadPath": "skills/saas/metering.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/metering.md",
+      "byteCount": 7702,
+      "sha256": "71a1c3047c5f59212ac36ff6d5097dfcbe5a863234b07eccea93211a196866a5"
+    },
+    {
+      "path": "multitenancy.md",
+      "downloadPath": "skills/saas/multitenancy.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/multitenancy.md",
+      "byteCount": 7993,
+      "sha256": "8149552dc5c82af69fb5297e0d87f2023506766b7e728a0082b6b88ad1d06c12"
+    },
+    {
+      "path": "packaging.md",
+      "downloadPath": "skills/saas/packaging.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/packaging.md",
+      "byteCount": 8320,
+      "sha256": "d723811f624bccde38728cc6be4eac6b07df63802c0bf4ee6c4ca214794b54d9"
+    },
+    {
+      "path": "plan-changes.md",
+      "downloadPath": "skills/saas/plan-changes.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/plan-changes.md",
+      "byteCount": 8317,
+      "sha256": "da2fb0b61faa4de8d782fa652148566563020e0e08f93e0de977887496d1c4a0"
+    },
+    {
+      "path": "renewals.md",
+      "downloadPath": "skills/saas/renewals.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/renewals.md",
+      "byteCount": 7599,
+      "sha256": "c5467f40839587fb1c6844f4e21ab459e62c092e6c78ffce6f65b4e55cb750fa"
+    },
+    {
+      "path": "reporting.md",
+      "downloadPath": "skills/saas/reporting.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/reporting.md",
+      "byteCount": 7568,
+      "sha256": "5213eb099c14c15323525e62ce3b46344047bd36fc026ac0fb9c96da718f84c8"
+    },
+    {
+      "path": "revenue.md",
+      "downloadPath": "skills/saas/revenue.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/revenue.md",
+      "byteCount": 10310,
+      "sha256": "7b8b5fff58a16344868a164c3df0e2e305593e52b6b6fe5a99ce796b930a3d10"
+    },
+    {
+      "path": "sales-motion.md",
+      "downloadPath": "skills/saas/sales-motion.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/sales-motion.md",
+      "byteCount": 7394,
+      "sha256": "b2d44e5595f60cd830756be4b0f57691e27ffe10115a74501cba8691a7f48242"
     },
     {
       "path": "SKILL.md",
       "downloadPath": "skills/saas/SKILL.md",
       "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/SKILL.md",
-      "byteCount": 3327,
-      "sha256": "9d19687dc9eaffaaa3aa4050a0c2447d9c3dda3a4e8b67d1e45454d83c9ec3b1"
+      "byteCount": 30179,
+      "sha256": "331f216f715714c646d94900dd6471916ceb97ce29efb73c900bf89158bc0f50"
+    },
+    {
+      "path": "support.md",
+      "downloadPath": "skills/saas/support.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/support.md",
+      "byteCount": 7654,
+      "sha256": "3c39cee54f77e72bf9442f1005d05ae58a648addc2029a936c4a2db74dd65d0a"
+    },
+    {
+      "path": "trials.md",
+      "downloadPath": "skills/saas/trials.md",
+      "downloadUrl": "https://raw.githubusercontent.com/clawic/skills/main/skills/saas/trials.md",
+      "byteCount": 7986,
+      "sha256": "21e9187cce7f3c2c5643d2b44988a306eab981f5e87069d0b982d88aea2ddd6c"
     }
   ]
 }
