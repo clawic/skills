@@ -147,6 +147,7 @@ Many founders base in Utrecht, join Amsterdam programs:
 ### Finding Angels
 - UtrechtInc introductions
 - Leapfunder platform
+- Startup Fountain platform
 - Personal networking
 - LinkedIn outreach
 - Startup events
